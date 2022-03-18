@@ -1,0 +1,16 @@
+
+["Adventure mod settings"]
+	#Sets the dragon difficulty modifier, the higher the more difficult the dragon gets.Scales up mob spawn amount, dragon damage and health aswell as crystal respawn intervals. Note that the difficulty already scales on the playercount involved in the fight, this is a static bonus ontop.default:2, vanilla:0
+	#Range: 0 ~ 100
+	dragonDifficulty = 2
+	#Prints the dragon phase in chat if enabled: default:false
+	printDragonPhases = false
+	#Disables mob spawning on the Dragon island: default:true
+	disableDragonAreaSpawns = true
+	#List of mobs spawning when a crystal is destroyed at range, intended to be flying or ranged to close the gap: e.g. format :  ["minecraft:zombie", "minecraft:creeper"]
+	forbidspawnoncrystaldestroydenMobs = ["minecraft:phantom"]
+	#List of mobs spawning on crystal respawn, intended to be ranged to ward of players from a distance: e.g. format :  ["minecraft:zombie", "minecraft:creeper"]
+	spawnoncrystalrespawn = ["minecraft:blaze"]
+	#List of mobs spawning while the dragon is sitting in the middle, intended to be melee and not vulnerable to ranged: e.g. format :  ["minecraft:zombie", "minecraft:creeper"]
+	spawnwhilelanded = ["minecraft:enderman"]
+

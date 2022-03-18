@@ -1,0 +1,39 @@
+~ Saved With Hammer Lib 16.3.30
+
++C:General={
+  +B:Enabled=true
+
+}
+
+
++C:Solar Panels={
+  +C:Solar Panel Chaotic={
+    +L:Capacity=2048000000
+
+    +L:Generation Rate=524288
+
+    +L:Transfer Rate=4096000
+
+  }
+
+  +C:Solar Panel Draconic={
+    +L:Capacity=512000000
+
+    +L:Generation Rate=262144
+
+    +L:Transfer Rate=1024000
+
+  }
+
+  +C:Solar Panel Wyvern={
+    +L:Capacity=256000000
+
+    +L:Generation Rate=65536
+
+    +L:Transfer Rate=512000
+
+  }
+
+}
+
+
