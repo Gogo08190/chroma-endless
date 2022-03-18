@@ -1,0 +1,33 @@
+name: Suggestion
+description: For changes to configs, mod additions, etc.
+title: "[SUGGESTION] *Replace with brief description of suggestion*"
+labels: "[enhancement]"
+body:
+  - type: textarea
+    id: suggestion-desc
+    attributes:
+      label: Description of Suggestion
+      description: Description of the effects of the suggestion
+      placeholder: |
+        Makes X do Y instead.
+        Improves X by adjusting Y.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion-info
+    attributes:
+      label: How does this improve the experience?
+      description: Description of how the suggestion improves the pack.
+      placeholder: |
+        Helps performance on weaker systems.
+        Makes X stronger, because it takes a lot more effort to achieve than Y.
+        Lets X and Y be used for Z, because it makes sense.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshots
+      description: Screenshots of the effects of the suggestion.
+    validations:
+      required: false
