@@ -1,0 +1,19 @@
+{
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "item": "immersiveengineering:coke",
+      "count": 1
+    },
+    {
+      "item": "thermal:press_unpacking_die"
+    }
+  ],
+  "result": [
+    {
+      "item": "immersiveengineering:coal_coke",
+      "count": 9
+    }
+  ],
+  "energy": 400
+}

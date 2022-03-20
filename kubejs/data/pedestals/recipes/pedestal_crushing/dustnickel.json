@@ -1,0 +1,10 @@
+{
+  "type": "pedestals:pedestal_crushing",
+  "ingredient": {
+    "tag": "forge:ores/nickel"
+  },
+  "result": {
+    "item": "thermal:nickel_dust",
+    "count": 2
+  }
+}

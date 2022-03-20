@@ -1,0 +1,10 @@
+{
+  "type": "pedestals:pedestal_crushing",
+  "ingredient": {
+    "tag": "forge:ores/iron"
+  },
+  "result": {
+    "item": "thermal:iron_dust",
+    "count": 2
+  }
+}

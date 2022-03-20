@@ -1,0 +1,10 @@
+{
+  "type": "pedestals:pedestal_crushing",
+  "ingredient": {
+    "item": "minecraft:nether_gold_ore"
+  },
+  "result": {
+    "item": "thermal:gold_dust",
+    "count": 2
+  }
+}
