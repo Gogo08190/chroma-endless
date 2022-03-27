@@ -1,12 +1,6 @@
 onEvent('recipes', event => {
   event.remove({id: 'immersiveengineering:crafting/coal_coke_to_coke'})
   event.remove({id: 'thermal:storage/coal_coke_block'})
-  event.remove({id: 'immersiveengineering:recycling/cast_iron_gear'})
-  event.remove({id: 'ftbic:macerating/generated/dust_from_metal/emendatusenigmatica/cast_iron_dust'})
-  event.remove({id: 'emendatusenigmatica:gear_from_ingot/cast_iron'})
-  event.remove({id: 'ftbic:rolling/generated/gear_from_plate/emendatusenigmatica/cast_iron_gear'})
-  event.remove({id: 'ftbic:rolling/generated/plate_from_ingot/emendatusenigmatica/cast_iron_plate'})
-  event.remove({id: 'ftbic:extracting/generated/rod_from_metal/emendatusenigmatica/cast_iron_rod'})
 })
 
 onEvent('recipes', event => {

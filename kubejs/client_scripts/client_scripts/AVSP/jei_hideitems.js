@@ -594,12 +594,6 @@ onEvent('jei.hide.items', event => {
 //OTHER
 	event.hide('minecraft:redstone_ore')
 	event.hide('geolosys:ancient_debris_cluster')
-
-	event.hide('emendatusenigmatica:cast_iron_ingot')
-	event.hide('emendatusenigmatica:cast_iron_block')
-	event.hide('emendatusenigmatica:cast_iron_nugget')
-	event.hide('emendatusenigmatica:cast_iron_gear')
-	event.hide('emendatusenigmatica:cast_iron_dust')
 //
 //fin
 //
