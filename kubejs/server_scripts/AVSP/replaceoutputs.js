@@ -25,14 +25,20 @@ events.listen('recipes', (event) => {
 //
 
 //COAL
+	//Coal Ore
+	event.replaceOutput({}, '#forge:ores/coal', 'emendatusenigmatica:coal_ore')
+	event.replaceOutput({}, 'minecraft:coal_ore', 'emendatusenigmatica:coal_ore')
 	//Coal dust
 	event.replaceOutput({}, 'mekanism:dust_coal', 'emendatusenigmatica:coal_dust')
 	event.replaceOutput({}, 'terraqueous:coal_dust', 'emendatusenigmatica:coal_dust')
 	event.replaceOutput({}, '#forge:dusts/coal', 'emendatusenigmatica:coal_dust')
 //
 //IRON
+	//Iron Ore
+	event.replaceOutput({}, '#forge:ores/iron', 'emendatusenigmatica:iron_ore')
+	event.replaceOutput({}, 'minecraft:iron_ore', 'emendatusenigmatica:iron_ore')
     //Iron dust
-    event.replaceOutput({}, 'immersiveengineering:dust_iron', 'emendatusenigmatica:iron_dust')
+  event.replaceOutput({}, 'immersiveengineering:dust_iron', 'emendatusenigmatica:iron_dust')
 	event.replaceOutput({}, 'mekanism:dust_iron', 'emendatusenigmatica:iron_dust')
 	event.replaceOutput({}, 'pedestals:dustiron', 'emendatusenigmatica:iron_dust')
 	event.replaceOutput({}, 'mysticalworld:iron_dust', 'emendatusenigmatica:iron_dust')
@@ -55,6 +61,9 @@ events.listen('recipes', (event) => {
 	event.replaceOutput({}, '#forge:rods/iron', 'emendatusenigmatica:iron_rod')
 //
 //GOLD
+	//Gold Ore
+	event.replaceOutput({}, '#forge:ores/gold', 'emendatusenigmatica:gold_ore')
+	event.replaceOutput({}, 'minecraft:gold_ore', 'emendatusenigmatica:gold_ore')
 	//Gold dust
 	event.replaceOutput({}, 'immersiveengineering:dust_gold', 'emendatusenigmatica:gold_dust')
 	event.replaceOutput({}, 'mekanism:dust_gold', 'emendatusenigmatica:gold_dust')
@@ -77,6 +86,9 @@ events.listen('recipes', (event) => {
 	event.replaceOutput({}, '#forge:rods/gold', 'emendatusenigmatica:gold_rod')
 //
 //DIAMOND
+	//Diamond Ore
+	event.replaceOutput({}, '#forge:ores/diamond', 'emendatusenigmatica:diamond_ore')
+	event.replaceOutput({}, 'minecraft:diamond_ore', 'emendatusenigmatica:diamond_ore')
     //Diamond dust
     event.replaceOutput({}, 'createaddition:diamond_grit', 'emendatusenigmatica:diamond_dust')
 	event.replaceOutput({}, 'mekanism:dust_diamond', 'emendatusenigmatica:diamond_dust')
@@ -89,6 +101,9 @@ events.listen('recipes', (event) => {
 	event.replaceOutput({}, '#forge:gears/diamond', 'emendatusenigmatica:diamond_gear')
 //
 //EMERALD
+	//Emerald Ore
+	event.replaceOutput({}, '#forge:ores/emerald', 'emendatusenigmatica:emerald_ore')
+	event.replaceOutput({}, 'minecraft:emerald_ore', 'emendatusenigmatica:emerald_ore')
 	//Emerald dust
 	event.replaceOutput({}, 'mekanism:dust_emerald', 'emendatusenigmatica:emerald_dust')
 	event.replaceOutput({}, 'thermal:emerald_dust', 'emendatusenigmatica:emerald_dust')
@@ -99,6 +114,9 @@ events.listen('recipes', (event) => {
 	event.replaceOutput({}, '#forge:gears/emerald', 'emendatusenigmatica:emerald_gear')
 //
 //LAPIS LAZULI
+//Gold Ore
+	event.replaceOutput({}, '#forge:ores/lapis', 'emendatusenigmatica:lapis_ore')
+	event.replaceOutput({}, 'minecraft:lapis_ore', 'emendatusenigmatica:lapis_ore')
 	//Lapis dust
 	event.replaceOutput({}, 'thermal:lapis_dust', 'emendatusenigmatica:lapis_dust')
 	event.replaceOutput({}, 'mekanism:dust_lapis_lazuli', 'emendatusenigmatica:lapis_dust')
@@ -111,6 +129,9 @@ events.listen('recipes', (event) => {
 	event.replaceOutput({}, '#forge:plates/lapis', 'emendatusenigmatica:lapis_plate')
 //
 //NETHER QUARTZ
+	//Nether quartz Ore
+	event.replaceOutput({}, '#forge:ores/quartz', 'emendatusenigmatica:quartz_netherrack_ore')
+	event.replaceOutput({}, 'minecraft:nether_quartz_ore', 'emendatusenigmatica:quartz_netherrack_ore')
 	//Nether quartz dust
 	event.replaceOutput({}, 'mekanism:dust_quartz', 'emendatusenigmatica:quartz_dust')
 	event.replaceOutput({}, 'thermal:quartz_dust', 'emendatusenigmatica:quartz_dust')
@@ -118,6 +139,11 @@ events.listen('recipes', (event) => {
 	//Nether quartz gear
 	event.replaceOutput({}, 'thermal:quartz_gear', 'emendatusenigmatica:quartz_gear')
 	event.replaceOutput({}, '#forge:gears/quartz', 'emendatusenigmatica:quartz_gear')
+
+	//REDSTONE
+		//Redstone Ore
+		event.replaceOutput({}, '#forge:ores/redstone', 'emendatusenigmatica:redstone_ore')
+		event.replaceOutput({}, 'minecraft:redstone_ore', 'emendatusenigmatica:redstone_ore')
 //
 //
 //-----MODDED METALS-----
@@ -125,6 +151,8 @@ events.listen('recipes', (event) => {
 // man have i not been excited to do these
 
 //COPPER why the fuck do every mod add copper?
+	//Copper Ore
+	event.replaceOutput({}, '#forge:ores/copper', 'emendatusenigmatica:copper_ore')
 	//Copper ingot
 	event.replaceOutput({}, 'mekanism:ingot_copper', 'emendatusenigmatica:copper_ingot')
 	event.replaceOutput({}, 'mysticalworld:copper_ingot', 'emendatusenigmatica:copper_ingot')
@@ -344,6 +372,7 @@ events.listen('recipes', (event) => {
 	event.replaceOutput({}, '#forge:dusts/osmium', 'emendatusenigmatica:osmium_dust')
 //
 //TIN
+	event.replaceOutput({}, '#forge:ores/tin', 'emendatusenigmatica:tin_ore')
 	//Tin ingot
 	event.replaceOutput({}, 'mekanism:ingot_tin', 'emendatusenigmatica:tin_ingot')
 	event.replaceOutput({}, 'mysticalworld:tin_ingot', 'emendatusenigmatica:tin_ingot')

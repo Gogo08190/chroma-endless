@@ -1,0 +1,14 @@
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:ingots/aluminum"
+	},
+	"result": {
+		"item": "emendatusenigmatica:aluminum_rod",
+		"count": 2
+	},
+	"conditions": [ {
+		"type": "forge:mod_loaded",
+		"modid": "immersiveengineering"
+    } ]
+}
