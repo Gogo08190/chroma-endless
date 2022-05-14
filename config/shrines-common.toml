@@ -1,0 +1,20 @@
+
+[structures]
+	#Biomes where NO Structure (of this mod) can generate in. Custom structures too
+	blacklisted_biomes = []
+	#Distance Factor (Default 1.0) Is multiplied on the structures distance. Allows changing distance of every structure at once. See 'Structure Min Distance' too
+	#Range: 0.0 ~ 100.0
+	distance_factor = 1.0
+	#Separation Factor (Default 1.0) Is multiplied on the structures separation. Allows changing separation of every structure at once. See 'Structure Min Distance' too
+	#Range: 0.0 ~ 100.0
+	seperation_factor = 1.0
+	#The structures min. distance is the smallest possible distance between two structures (of this mod). You should set this to an lower value if you set the distance and separation to lower values, because to high distances here can prevent any structure from spawning
+	#Range: 1 ~ 100
+	structures_min_distance = 10
+	#Use advanced logging. Gives more help by finding issues. Please enable this before reporting a bug
+	advanced_logging = true
+	#All blocks in this list will not be placed with the structures. So it is possible to make blocks that are considered too valuable not appear in the world
+	banned_blocks = []
+	#All entities in this list will not be placed with the structures
+	banned_entities = []
+

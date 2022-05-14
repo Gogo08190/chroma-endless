@@ -103,7 +103,7 @@
 		#  - ${username}: The username.
 		# '$' can be escaped by using an extra '$'.
 		# Default: "Minecraft ${mcversion}"
-		simple_title = "Minecraft ${mcversion}"
+		simple_title = "Chroma Endless - Minecraft ${mcversion}"
 		# The Minecraft window title.
 		# The current activity is not available.
 		# Variables:
@@ -113,7 +113,7 @@
 		#  - ${modversion:modid}: The version of the mod with the specified ID.
 		# '$' can be escaped by using an extra '$'.
 		# Default: "Minecraft ${mcversion}"
-		title = "Minecraft ${mcversion}"
+		title = "Chroma Endless - Minecraft ${mcversion}"
 		# The Minecraft window title that also takes into account the current activity.
 		# Variables:
 		#  - ${mcversion}: The Minecraft version
@@ -123,7 +123,7 @@
 		#  - ${modversion:modid}: The version of the mod with the specified ID.
 		# '$' can be escaped by using an extra '$'.
 		# Default: "Minecraft ${mcversion} - ${activity}"
-		title_with_activity = "Minecraft ${mcversion} - ${activity}"
+		title_with_activity = "Chroma Endless - Minecraft ${mcversion} - ${activity}"
 		# Enables custom Minecraft window icons.
 		# Default: true
 		custom_icon = true
@@ -131,16 +131,16 @@
 		# Forward slashes should be used even on Windows to preserve compatibility with other platforms.
 		# Backward slashes will automatically be replaced.
 		# Default: ""
-		icon_16x16 = ""
+		icon_16x16 = "packmenu/resources/assets/chroma/textures/icon.png"
 		# The path to the 16x16 Minecraft window icon relative to the Minecraft instance directory.
 		# Forward slashes should be used even on Windows to preserve compatibility with other platforms.
 		# Backward slashes will automatically be replaced.
 		# Default: ""
-		icon_32x32 = ""
+		icon_32x32 = "packmenu/resources/assets/chroma/textures/icon.png"
 		# The path to the 256x256 Minecraft window icon relative to the Minecraft instance directory.
 		# This is only used on Mac OS X.
 		# Default: ""
-		icon_256x256 = ""
+		icon_256x256 = "packmenu/resources/assets/chroma/textures/icon.png"
 
 # Options related to connection timeouts.
 [connection_timeouts]
@@ -149,12 +149,12 @@
 	# Min: 1
 	# Max: 2147483647
 	# Default: 120
-	read_timeout_seconds = 120
+	read_timeout_seconds = 360
 	# The login timeout in ticks.
 	# Min: 1
 	# Max: 2147483647
 	# Default: 2400
-	login_timeout_ticks = 2400
+	login_timeout_ticks = 3600
 	# The interval in seconds at which KeepAlive packets are sent to clients.
 	# Min: 1
 	# Max: 2147483647
@@ -281,7 +281,7 @@
 	# This option is both client and server-sided.
 	# Changes to this option are applied after a game restart.
 	# Default: []
-	mixin_blacklist = []
+	mixin_blacklist = ["ServerPlayNetHandlerKeepAlive"]
 
 	# Miscellaneous bug fixes.
 	[misc.bug_fixes]
@@ -318,10 +318,10 @@
 		# Fixes duplicate entity UUIDs by assigning new UUIDs to the affected entities.
 		# This bug is reported as MC-95649: https://bugs.mojang.com/browse/MC-95649
 		# Default: true
-		fix_duplicate_entity_uuids = true
+		fix_duplicate_entity_uuids = false
 		# Logs fixed entity UUIDs.
 		# Default: true
-		log_fixed_duplicate_entity_uuids = true
+		log_fixed_duplicate_entity_uuids = false
 		# Fixes the recipe book not automatically moving ingredients with NBT tags to the crafting grid.
 		# This bug is reported as MC-129057: https://bugs.mojang.com/browse/MC-129057
 		# Default: true

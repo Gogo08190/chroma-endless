@@ -22,7 +22,7 @@
 	#Should the Auto Crafting Tables be enabled?
 	autoTablesEnabled = true
 	#Should the Basic Crafting Table inherit vanilla crafting recipes?
-	useVanillaRecipes = false
+	useVanillaRecipes = true
 	#How much FE the Auto Crafting Tables should hold. Higher tiers use double the previous tier.
 	#Range: > 0
 	autoTablePowerCapacity = 500000
@@ -80,3 +80,4 @@
 	useTags = false
 	#Should the recipe maker add NBT tags when possible?
 	useNBT = true
+

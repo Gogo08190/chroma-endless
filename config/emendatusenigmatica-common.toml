@@ -314,7 +314,7 @@
 		generate_in_the_nether = false
 		#Baseline Y-Level [Default: 186]
 		#Range: 0 ~ 128
-		nether_base = 128
+		nether_base = 186
 		#Spread Amount (# of Y-Levels above and below the Baseline) [Default: 56]
 		#Range: 0 ~ 128
 		nether_spread = 56
@@ -1592,7 +1592,7 @@
 		generate_in_the_nether = false
 		#Baseline Y-Level [Default: 130]
 		#Range: 0 ~ 128
-		nether_base = 128
+		nether_base = 130
 		#Spread Amount (# of Y-Levels above and below the Baseline) [Default: 60]
 		#Range: 0 ~ 128
 		nether_spread = 60

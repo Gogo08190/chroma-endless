@@ -68,6 +68,8 @@
 		maxStoredPower = 10000
 		#Max Essence [mb] - Default: [32000 mb]
 		tankSize = 32000
+		#Attack Damage for blacklisted entities - Default: [75]
+		attackDamage = 75
 
 	[MachineAgricultureHusbandryConfig.MobDuplicatorConfig]
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
