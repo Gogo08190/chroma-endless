@@ -1,16 +1,13 @@
 <p align="center">
-  <a target="_blank" href="https://www.curseforge.com/minecraft/modpacks/chroma-sky-2">
+  <a target="_blank" href="https://www.curseforge.com/minecraft/modpacks/chroma-endless">
     <img border="0" alt="CurseForge" src="https://i.imgur.com/8cH94L7.jpg">
   </a>
 </p>
 
 <p align="center">
-Hello and Welcome to the sequel of <strong>Chroma Sky</strong> developed by our team.<br><br>
-As you may understand, this is a <strong>Skyblock Modpack</strong> ! But this time you will be able to choose different islands to start your adventure !<br>
-Becareful though some islands might be hard !<br><br>
-The goal of this modpack is to survive and automate on your island in order to access creative recipes !<br><br>
-To help you through your journey, you will be able to go through more than <strong>3000 quests</strong> !<br><br>
-This modpack is available in 1.16.5 and has a <strong>unique collection of mods</strong>, <strong>custom crafts</strong>, <strong>configs</strong> and <strong>machines</strong> to enhance your survival.
+Hello and Welcome to our new modpack <strong>Chroma Endless</strong> developed by our team.<br><br>
+This is an <strong>Expert Modpack</strong> ! <br>
+Bla bla bla bla bla
 </p>
 
 <p align="center">
@@ -38,7 +35,7 @@ This modpack is available in 1.16.5 and has a <strong>unique collection of mods<
 ------------------------------
 
 <p align="center">
-  <strong>If you're interested in hosting a server with <strong>Chroma Sky 2</strong>, click the image below!</strong>
+  <strong>If you're interested in hosting a server with <strong>Chroma Endless</strong>, click the image below!</strong>
 </p>
 
 <p align="center">
