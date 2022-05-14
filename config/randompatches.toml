@@ -126,7 +126,7 @@
 		title_with_activity = "Chroma Endless - Minecraft ${mcversion} - ${activity}"
 		# Enables custom Minecraft window icons.
 		# Default: true
-		custom_icon = true
+		custom_icon = false
 		# The path to the 16x16 Minecraft window icon relative to the Minecraft instance directory.
 		# Forward slashes should be used even on Windows to preserve compatibility with other platforms.
 		# Backward slashes will automatically be replaced.
