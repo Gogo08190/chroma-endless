@@ -1,0 +1,186 @@
+{
+	id: "5A9FE570423F4524"
+	group: ""
+	order_index: 0
+	filename: "welcome"
+	title: "Welcome!"
+	icon: "avaritia:infinity_catalyst"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Welcome to Chroma Endless!"
+			icon: "avaritia:infinity_catalyst"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "A brand new hardcore adventure!"
+			description: [
+				"&k&4chroma&r Hello and welcome to &l&n&bChroma Endless&r! &4&kchroma&r"
+				""
+				"&l&n&bChroma Endless&r is the sequel of other &l&n&bChroma&r modpacks, with &aTechnology&r, &aMagic&r and &aExploration&r mods ; but this time, in &lexpert mode&r! A lot of recipes have changed to make progress more difficult. There is also &lnew machinery&r to enhance your adventure."
+				""
+				"This is an &lexpert modpack&r, but even if you are a &lbeginner&r, you can play on ; the &lquests&r will help you a lot, and you can also join the &lDiscord server&r for &lsupport&r."
+				""
+				"This &lQuests Book&r is made for guide you all along your survival adventure, but isn't &lmandatory&r."
+				""
+				"                             &3&lHave fun!&r"
+			]
+			size: 2.0d
+			min_width: 290
+			id: "1416718F40ED7569"
+			tasks: [{
+				id: "265ECCF00F9DA578"
+				type: "checkmark"
+				title: "Welcome to Chroma Endless!"
+			}]
+			rewards: [{
+				id: "57072D0E5FA37AEB"
+				type: "command"
+				command: "/tellraw @p [\"\",{\"text\":\"Welcome to \"},{\"text\":\"Chroma Endless\",\"color\":\"aqua\"},{\"text\":\" @p, have a good time !\"}]"
+				player_command: false
+			}]
+		}
+		{
+			title: "Website"
+			icon: "kubejs:website"
+			x: -0.5d
+			y: 2.0d
+			subtitle: "Chroma Team's website."
+			description: [
+				"On this website you will find more informations about Chroma Endless, the Chroma Team and our other modpacks."
+				""
+				"Here is a list of what can be found:"
+				"→ Who developped this modpack and their descriptions."
+				"→ The other packs developped by the Chroma Team."
+			]
+			dependencies: ["1416718F40ED7569"]
+			id: "0C83115865AC72DF"
+			tasks: [{
+				id: "78D014895D893621"
+				type: "checkmark"
+				title: "Chroma's website"
+			}]
+		}
+		{
+			icon: "kubejs:teams"
+			x: 1.5d
+			y: -1.25d
+			dependencies: ["1416718F40ED7569"]
+			id: "1CA9744CB5D85432"
+			tasks: [{
+				id: "7140C1C22B224BA0"
+				type: "checkmark"
+				title: "Teams"
+			}]
+		}
+		{
+			icon: "ftbquests:book"
+			x: -1.5d
+			y: 1.25d
+			dependencies: ["1416718F40ED7569"]
+			id: "0F3AA93C73E3986C"
+			tasks: [{
+				id: "0A24A552ED32FFB7"
+				type: "checkmark"
+				title: "Quests"
+			}]
+		}
+		{
+			icon: {
+				id: "aquaculture:neptunium_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["1416718F40ED7569"]
+			id: "4C99953231A58014"
+			tasks: [{
+				id: "76BA08A8920CDC83"
+				type: "checkmark"
+				title: "Ultimine"
+			}]
+		}
+		{
+			icon: "powah:energy_cell_creative"
+			x: 1.5d
+			y: 1.25d
+			dependencies: ["1416718F40ED7569"]
+			id: "32772B06D25FE5FF"
+			tasks: [{
+				id: "19D8B5A02C30CFB0"
+				type: "checkmark"
+				title: "Creative"
+			}]
+		}
+		{
+			title: "Chunks Claiming / Loading"
+			icon: "kubejs:chunks"
+			x: 0.5d
+			y: -2.0d
+			dependencies: ["1416718F40ED7569"]
+			id: "2826677ED26D1D5C"
+			tasks: [{
+				id: "0A5A73AB42F7DDF6"
+				type: "checkmark"
+				title: "Chunk Claim / Loading"
+			}]
+		}
+		{
+			icon: "solcarrot:food_book"
+			x: -2.0d
+			y: 0.0d
+			dependencies: ["1416718F40ED7569"]
+			id: "5B1AA6E54F33323A"
+			tasks: [{
+				id: "6C6142946AD27705"
+				type: "checkmark"
+				title: "Feeding"
+			}]
+		}
+		{
+			icon: "kubejs:challenges"
+			x: -0.5d
+			y: -2.0d
+			dependencies: ["1416718F40ED7569"]
+			id: "57F8BCA00BBD45CA"
+			tasks: [{
+				id: "309DBB4A96EF8F85"
+				type: "checkmark"
+				title: "Challenges"
+			}]
+		}
+		{
+			icon: "kubejs:sound_muffler"
+			x: -1.5d
+			y: -1.25d
+			dependencies: ["1416718F40ED7569"]
+			id: "7B91BD470E4DDB96"
+			tasks: [{
+				id: "41FEC8C7FD6401D3"
+				type: "checkmark"
+				title: "Disable Sounds"
+			}]
+		}
+		{
+			icon: "kubejs:discord"
+			x: 0.5d
+			y: 2.0d
+			subtitle: "Gogo08's Discord server."
+			description: [
+				"On this Gogo08's Discord server, you will find support channels for Chroma Endless."
+				"It's a french community server, but you can speak also english, and we can answer you."
+			]
+			dependencies: ["1416718F40ED7569"]
+			id: "48C2D253428050F7"
+			tasks: [{
+				id: "0D7199FC6BBA55C7"
+				type: "checkmark"
+				title: "Discord"
+			}]
+		}
+	]
+}
