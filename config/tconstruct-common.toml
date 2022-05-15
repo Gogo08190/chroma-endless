@@ -69,7 +69,7 @@
 #Everything to do with world generation
 [worldgen]
 	#Generate Copper
-	generateCopper = true
+	generateCopper = false
 	#Approx Ores per Chunk
 	veinCountCopper = 20
 	#Generate Cobalt
@@ -125,4 +125,3 @@
 	#If true, forces integration materials to be enabled, even if the relevant metal is missing. Useful for testing material balance.
 	#Does not provide recipes for any of them, they will only be available to cheat in creative.
 	forceIntegrationMaterials = false
-
