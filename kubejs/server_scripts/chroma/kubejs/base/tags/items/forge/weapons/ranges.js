@@ -6,8 +6,6 @@ onEvent('item.tags', (event) => {
         'immersiveengineering:railgun',
         'immersiveengineering:revolver',
         'industrialforegoing:infinity_trident',
-        'meetyourfight:phantasmal_rifle',
-        'meetyourfight:cocktail_shotgun',
         'mekanism:flamethrower',
         'minecraft:bow',
         'minecraft:crossbow',

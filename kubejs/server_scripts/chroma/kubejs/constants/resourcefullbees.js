@@ -25,7 +25,3 @@ const bees = [];
 combVariants.forEach((bee) => {
     bees.push(bee)
 })
-
-moreBees.forEach((bee) => {
-    bees.push(bee);
-})
