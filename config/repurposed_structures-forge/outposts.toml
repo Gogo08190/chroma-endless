@@ -6,6 +6,12 @@
 # Note: Vanilla Outposts will spawn again if a RS Outpost's entry is set to 1001 for the biome.
 [Outposts]
 	#Range: 1 ~ 1001
+	netherBrickOutpostMaxChunkDistance = 34
+	#Range: 1 ~ 1001
+	warpedOutpostMaxChunkDistance = 34
+	#Range: 1 ~ 1001
+	crimsonOutpostMaxChunkDistance = 34
+	#Range: 1 ~ 1001
 	outpostBirchMaxChunkDistance = 45
 	#Range: 1 ~ 1001
 	outpostJungleMaxChunkDistance = 45
@@ -24,11 +30,4 @@
 	#Range: 1 ~ 1001
 	outpostTaigaMaxChunkDistance = 45
 	#Range: 1 ~ 1001
-	netherBrickOutpostMaxChunkDistance = 34
-	#Range: 1 ~ 1001
-	warpedOutpostMaxChunkDistance = 34
-	#Range: 1 ~ 1001
-	crimsonOutpostMaxChunkDistance = 34
-	#Range: 1 ~ 1001
 	outpostEndMaxChunkDistance = 61
-

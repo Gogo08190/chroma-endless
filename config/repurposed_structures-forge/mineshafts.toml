@@ -26,13 +26,13 @@
 	#Range: 0.0 ~ 1000.0
 	swampMineshaftSpawnrate = 40.0
 	#Range: 0.0 ~ 1000.0
+	endMineshaftSpawnrate = 40.0
+	#Range: 0.0 ~ 1000.0
 	netherMineshaftSpawnrate = 40.0
 	#Range: 0.0 ~ 1000.0
 	crimsonMineshaftSpawnrate = 40.0
 	#Range: 0.0 ~ 1000.0
 	warpedMineshaftSpawnrate = 40.0
-	#Range: 0.0 ~ 1000.0
-	endMineshaftSpawnrate = 60.0
 
 #-----------------------------------------------------------------------------------------
 # Minimum Y height that this mineshaft can spawn at.
@@ -136,4 +136,3 @@
 	#Do 0 to turn off this check and allow the End Mineshaft to spawn anywhere including floating in midair.
 	#Range: 0 ~ 256
 	endMineshaftMinIslandThickness = 30
-

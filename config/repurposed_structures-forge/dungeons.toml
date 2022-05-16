@@ -28,7 +28,7 @@ shulkerBoxInEndDungeons = true
 	#Range: 0 ~ 1000
 	netherDungeonAttemptsPerChunk = 12
 	#Range: 0 ~ 1000
-	oceanDungeonAttemptsPerChunk = 4
+	oceanDungeonAttemptsPerChunk = 5
 
 #-----------------------------------------------------------------------------------------
 # Minimum Y height that this dungeon can spawn at.
@@ -84,4 +84,3 @@ shulkerBoxInEndDungeons = true
 	netherDungeonMaxHeight = 255
 	#Range: 3 ~ 255
 	oceanDungeonMaxHeight = 255
-
