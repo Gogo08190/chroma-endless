@@ -18,7 +18,6 @@ onEvent('recipes', (event) => {
     event.replaceInput({}, 'refinedstorage:silicon', '#forge:silicon');
     event.replaceInput({}, 'refinedstorage:crafter', '#refinedstorage:crafter');
     event.replaceInput({}, 'betterendforge:thallasium_ore', '#forge:ores/thallasium');
-    event.replaceInput({}, 'astralsorcery:starmetal_ore', '#forge:ores/starmetal');
     event.replaceInput({}, 'thermal:rubber', 'industrialforegoing:dryrubber');
     event.replaceInput({}, 'thermal:cinnabar', '#forge:gems/cinnabar');
     event.replaceInput({}, 'thermal:sulfur', '#forge:gems/sulfur');

@@ -13,8 +13,6 @@ onEvent('recipes', (event) => {
             output: 'simplefarming:fish_sandwich',
             inputs: [
                 '#forge:bread',
-                'aquaculture:fish_fillet_cooked',
-                'aquaculture:fish_fillet_cooked',
                 '#forge:crops/tomato',
                 '#forge:salad_ingredients'
             ]
@@ -34,14 +32,12 @@ onEvent('recipes', (event) => {
             output: 'simplefarming:sushi',
             inputs: [
                 '#forge:grain',
-                'minecraft:dried_kelp',
-                'aquaculture:fish_fillet_raw',
-                'aquaculture:fish_fillet_raw'
+                'minecraft:dried_kelp'
             ]
         },
         {
             output: 'simplefarming:fish_fillet',
-            inputs: ['#forge:grain', '#forge:grain', 'aquaculture:fish_fillet_cooked', 'aquaculture:fish_fillet_cooked']
+            inputs: ['#forge:grain', '#forge:grain']
         },
         {
             output: Item.of('farmersdelight:milk_bottle', 4),
