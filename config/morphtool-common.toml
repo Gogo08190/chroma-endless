@@ -1,7 +1,6 @@
 "Allow all items to be added" = false
 "Morph in the offhand instead of mainhand" = false
-"Whitelisted Items" = ["botania:twig_wand", "appliedenergistics2:network_tool", "immersiveengineering:tool", "buildersguides:mallet", "environmentaltech:tool_multiblock_assembler", "bloodmagic:ritual_reader", "draconicevolution:crystal_binder", "crossroads:omnimeter"]
+"Whitelisted Items" = ["compactmachines:personal_shrinking_device", "botania:twig_wand", "immersiveengineering:tool", "transport:rail_breaker", "storagedrawers:drawer_key", "resourcefulbees_scraper"]
 "Whitelisted Names" = ["wrench", "screwdriver", "hammer", "rotator", "configurator", "crowbar"]
-"Blacklisted Mods" = ["tconstruct", "intangible"]
-"Mod Aliases" = ["nautralpledge=botania", "thermalexpansion=thermalfoundation", "thermaldynamics=thermalfoundation", "thermalcultivation=thermalfoundation", "redstonearsenal=thermalfoundation", "rftoolsdim=rftools", "rftoolspower=rftools", "rftoolscontrol=rftools", "ae2stuff=appliedenergistics2", "animus=bloodmagic", "integrateddynamics=integratedtunnels", "mekanismgenerators=mekanism", "mekanismtools=mekanism", "deepresonance=rftools", "xnet=rftools", "buildcrafttransport=buildcraft", "buildcraftfactory=buildcraft", "buildcraftsilicon=buildcraft"]
-
+"Blacklisted Mods" = []
+"Mod Aliases" = ["rsrequestify=refinedstorage", "framedcompactdrawers=storagedrawers", "extrastorage=refinedstorage", "thermalexpansion=thermalfoundation", "thermaldynamics=thermalfoundation", "thermalcultivation=thermalfoundation", "mekanismgenerators=mekanism", "mekanismtools=mekanism", "xnet=rftoolsbase", "rftoolspower=rftoolsbase", "rftoolsutility=rftoolsbase", "rftoolscontrol=rftoolsbase", "rftoolsbuilder=rftoolsbase", "rftoolsdimensions=rftoolsbase", "ppfluids=prettypipes"]

@@ -13,11 +13,10 @@
 		#If an anonymous mod startup analytics request may be sent to our analytics service.
 		analytics = true
 		#If the version checker should be enabled.
-		versionChecker = true
+		versionChecker = false
 
 [general]
 
 	[general.general]
 		#If a button should be added to the main menu to open a dev world (shift-click creates a new world).
 		devWorldButton = false
-

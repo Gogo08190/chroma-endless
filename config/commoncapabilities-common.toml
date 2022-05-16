@@ -9,11 +9,10 @@
 		#If an anonymous mod startup analytics request may be sent to our analytics service.
 		analytics = true
 		#If the version checker should be enabled.
-		versionChecker = true
+		versionChecker = false
 
 [machine]
 
 	[machine.general]
 		#The NBT Paths that should be filtered away when checking equality.
 		ignoreNbtPathsForEqualityFilters = ["$.ForgeCaps[\"astralsorcery:cap_item_amulet_holder\"]", "$.binding", "$.energy"]
-

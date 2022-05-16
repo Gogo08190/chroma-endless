@@ -34,7 +34,7 @@
 
 ["World Generation"]
 	#Should Ender Ore Generate?
-	"Ender Ore Generation" = true
+	"Ender Ore Generation" = false
 	#What should the Vein Size of Ender Ore be?
 	#Range: 0 ~ 256
 	"Ender Ore Vein" = 12
@@ -80,4 +80,3 @@
 	#At what amount of entities in the area should mob spawning be halted
 	#Range: 1 ~ 10
 	"Mob cap for Area" = 3
-

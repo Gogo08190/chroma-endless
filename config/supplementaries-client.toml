@@ -56,7 +56,7 @@
 		supported_blocks = true
 
 	[blocks.wind_vane]
-		#Wind vane animation swings according to this equation: 
+		#Wind vane animation swings according to this equation:
 		#angle(time) = max_angle_1*sin(2pi*time*pow/period_1) + <max_angle_2>*sin(2pi*time*pow/<period_2>)
 		#where:
 		# - pow = max(1,redstone_power*<power_scaling>)
@@ -104,7 +104,7 @@
 		#[[<id>,<height>,<width>,<light_level>,<animation_type>],[<id>,...],...]
 		#With the following description:
 		# - <id> being the mob id (ie: minecraft:bee)
-		# - <height>,<width>: these are the added height and width that will be added to the actual mob hitbox to determine its scale inside a cage or jar 
+		# - <height>,<width>: these are the added height and width that will be added to the actual mob hitbox to determine its scale inside a cage or jar
 		#   You can increase them so this 'adjusted hitbox' will match the actual mob shape
 		#   In other words increase the to make the mob smaller
 		# - <light_level> determines if and how much light should the mob emit (currently broken)
@@ -202,4 +202,3 @@
 		#How big should a slingshot projectile look
 		#Range: 0.0 ~ 1.0
 		projectile_scale = 0.5
-

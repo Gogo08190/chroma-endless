@@ -1,7 +1,7 @@
-#Set to false to disable power requirements for personal shrinking device
-enablePowerRequirements = true
 #Set the amount of power required to use use the personal shrinking device
 setPowerUsage = 5000
+#Set to false to disable power requirements for personal shrinking device
+enablePowerRequirements = true
 #Set the amount of power the personal shrinking device can store
 setShrinkingDeviceCapacity = 100000
 #Set to false to disable mobs being put in bottles
@@ -12,4 +12,3 @@ maxSize = 10.0
 #Set the min size a player can shrink too
 #Range: 0.21 ~ 100.0
 minSize = 0.21
-

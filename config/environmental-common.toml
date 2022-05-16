@@ -1,4 +1,20 @@
 
+[entities]
+	#Make farm animals spawn in less biomes to allow new mobs to take their place and diversify biome spawns
+	"Limit farm animal spawns" = false
+	#Make biome variants of mobs like Husks always spawn in place of their original in their biomes
+	"Biome variants always spawn" = false
+
+	[entities.koi]
+		#Make Koi only block natural spawns
+		"Block only natural spawns" = true
+		#Horizontal radius of Serenity effect in blocks
+		"Horizontal serenity range (radius)" = 32
+		#Vertical radius of Serenity effect in blocks
+		"Vertical serenity range (radius)" = 8
+		#If Koi exude Serenity as a potion effect
+		"Serenity potion effect" = true
+
 [world]
 
 	[world.biomes]
@@ -25,20 +41,3 @@
 	[items.healers_pouch]
 		#Structures that can spawn mobs wearing a Healer's Pouch
 		"Healer's Pouch structures" = ["minecraft:mineshaft", "minecraft:stronghold"]
-
-[entities]
-	#Make farm animals spawn in less biomes to allow new mobs to take their place and diversify biome spawns
-	"Limit farm animal spawns" = true
-	#Make biome variants of mobs like Husks always spawn in place of their original in their biomes
-	"Biome variants always spawn" = true
-
-	[entities.koi]
-		#Make Koi only block natural spawns
-		"Block only natural spawns" = true
-		#Horizontal radius of Serenity effect in blocks
-		"Horizontal serenity range (radius)" = 32
-		#Vertical radius of Serenity effect in blocks
-		"Vertical serenity range (radius)" = 8
-		#If Koi exude Serenity as a potion effect
-		"Serenity potion effect" = true
-

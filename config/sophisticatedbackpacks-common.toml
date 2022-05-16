@@ -2,7 +2,7 @@
 #Common Settings
 [common]
 	#Disable / enable any items here (disables their recipes)
-	enabledItems = []
+	enabledItems = ["void_upgrade:true", "compacting_upgrade:true", "advanced_restock_upgrade:true", "diamond_backpack:true", "smelting_upgrade:true", "filter_upgrade:true", "magnet_upgrade:true", "advanced_magnet_upgrade:true", "deposit_upgrade:true", "iron_backpack:true", "stonecutter_upgrade:true", "backpack:true", "feeding_upgrade:true", "advanced_pickup_upgrade:true", "jukebox_upgrade:true", "everlasting_upgrade:true", "advanced_filter_upgrade:true", "inception_upgrade:true", "crafting_upgrade:true", "auto_smelting_upgrade:true", "pickup_upgrade:true", "stack_upgrade_tier_4:true", "stack_upgrade_tier_2:true", "stack_upgrade_tier_3:true", "stack_upgrade_tier_1:true", "upgrade_base:true", "refill_upgrade:true", "advanced_compacting_upgrade:true", "gold_backpack:true", "advanced_deposit_upgrade:true", "advanced_void_upgrade:true", "restock_upgrade:true", "advanced_tool_swapper_upgrade:true", "tool_swapper_upgrade:true", "netherite_backpack:true", "tank_upgrade:true", "advanced_feeding_upgrade:true", "battery_upgrade:true", "advanced_pump_upgrade:true", "pump_upgrade:true", "xp_pump_upgrade:true", "auto_smoking_upgrade:true", "smoking_upgrade:true", "auto_blasting_upgrade:true", "blasting_upgrade:true"]
 	#List of items that are not allowed to be put in backpacks - e.g. "minecraft:shulker_box"
 	disallowedItems = []
 	#Turns on/off loot added to various vanilla chest loot tables
@@ -99,15 +99,6 @@
 		#Number of filter slots displayed in a row
 		#Range: 1 ~ 6
 		slotsInRow = 3
-
-	#Advanced Feeding Upgrade Settings
-	[common.advancedFeedingUpgrade]
-		#Number of Advanced Feeding Upgrade's filter slots
-		#Range: 1 ~ 20
-		filterSlots = 16
-		#Number of filter slots displayed in a row
-		#Range: 1 ~ 6
-		slotsInRow = 4
 
 	#Filter Upgrade Settings
 	[common.filterUpgrade]
@@ -214,11 +205,6 @@
 		#Range: 1 ~ 6
 		slotsInRow = 4
 
-	#Stack Upgrade Settings
-	[common.stackUpgrade]
-		#List of items that are not supposed to stack in backpack even when stack upgrade is inserted. Item registry names are expected here.
-		nonStackableItems = []
-
 	#Smelting Upgrade Settings
 	[common.smeltingUpgrade]
 		#Smelting speed multiplier (1.0 equals speed at which vanilla furnace smelts items)
@@ -227,6 +213,20 @@
 		#Fuel efficiency multiplier (1.0 equals speed at which it's used in vanilla furnace)
 		#Range: 0.25 ~ 4.0
 		fuelEfficiencyMultiplier = 1.0
+
+	#Advanced Feeding Upgrade Settings
+	[common.advancedFeedingUpgrade]
+		#Number of Advanced Feeding Upgrade's filter slots
+		#Range: 1 ~ 20
+		filterSlots = 16
+		#Number of filter slots displayed in a row
+		#Range: 1 ~ 6
+		slotsInRow = 4
+
+	#Stack Upgrade Settings
+	[common.stackUpgrade]
+		#List of items that are not supposed to stack in backpack even when stack upgrade is inserted. Item registry names are expected here.
+		nonStackableItems = []
 
 	#Smoking Upgrade Settings
 	[common.smokingUpgrade]
@@ -395,4 +395,3 @@
 		#Ratio of slowness levels per every backpack above the maximum number allowed. (number of backpacks above the max gets multiplied by this number and ceiled)
 		#Range: 0.1 ~ 5.0
 		slownessLevelsPerAdditionalBackpack = 1.0
-

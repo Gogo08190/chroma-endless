@@ -12,6 +12,14 @@
 			#Ender Storage storage priority. Items are inserted first into storages with higher priority. Default value is 1
 			priority = 1
 
+	#Iron Chests
+	[Integration.ironchest]
+
+		#Iron Chests
+		[Integration.ironchest.chest]
+			#Enabled Iron Chests integration. Default value is true
+			enabled = true
+
 	#Storage Drawers
 	[Integration.storagedrawers]
 
@@ -64,14 +72,6 @@
 			#PneumaticCraft Smart Chest storage priority. Items are inserted first into storages with higher priority. Default value is 1
 			priority = 1
 
-	#Expanded Storage
-	[Integration.expandedstorage]
-
-		#Chests
-		[Integration.expandedstorage.chest]
-			#Enabled Chests integration. Default value is true
-			enabled = true
-
 	#Trash Cans
 	[Integration.trashcans]
 
@@ -83,4 +83,3 @@
 			priority = -10
 			#Trash Cans storage priority when whitelist is enabled. Items are inserted first into storages with higher priority. Default value is 20
 			priority_whitelist = 20
-

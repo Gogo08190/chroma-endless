@@ -4,11 +4,11 @@
 	[structures.global]
 		#How flat does terrain need to be for surface structures to spawn? (in blocks) [default: 4]
 		#Range: 0 ~ 64
-		flatness_delta = 4
-		#Dimensions in which Structures can NOT generate in
-		blacklisted_dimensions = []
+		flatness_delta = 3
 		#Biomes in which Structures can NOT generate in
 		blacklisted_biomes = ["minecraft:ocean", "minecraft:river", "minecraft:frozen_ocean", "minecraft:frozen_river", "minecraft:beach", "minecraft:deep_ocean", "minecraft:snowy_beach", "minecraft:warm_ocean", "minecraft:lukewarm_ocean", "minecraft:cold_ocean", "minecraft:deep_warm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:deep_cold_ocean", "minecraft:deep_frozen_ocean"]
+		#Dimensions in which Structures can NOT generate in
+		blacklisted_dimensions = ["minecraft:the_nether", "minecraft:the_end", "undergarden:undergarden", "compactmachines:compact_world"]
 
 	[structures.castle]
 		#Generate? [default: true]
@@ -22,13 +22,13 @@
 		#Minimum Separation (in chunks) [default: 8]
 		#Range: 0 ~ 200
 		separation = 8
-		#Biome Categories the structure can generate in 
+		#Biome Categories the structure can generate in
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether]
 		biome_categories = ["plains", "forest", "taiga"]
-		#Dimensions the structure can NOT generate in
-		blacklisted_dimensions = []
 		#Biomes the structure can NOT generate in
 		blacklisted_biomes = []
+		#Dimensions the structure can NOT generate in
+		blacklisted_dimensions = []
 
 	[structures.castle_ruin]
 		#Generate? [default: true]
@@ -42,13 +42,13 @@
 		#Minimum Separation (in chunks) [default: 8]
 		#Range: 0 ~ 200
 		separation = 8
-		#Biome Categories the structure can generate in 
+		#Biome Categories the structure can generate in
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether]
 		biome_categories = ["plains", "forest", "taiga"]
-		#Dimensions the structure can NOT generate in
-		blacklisted_dimensions = []
 		#Biomes the structure can NOT generate in
 		blacklisted_biomes = []
+		#Dimensions the structure can NOT generate in
+		blacklisted_dimensions = []
 
 	[structures.desert_house]
 		#Generate? [default: true]
@@ -62,13 +62,13 @@
 		#Minimum Separation (in chunks) [default: 8]
 		#Range: 0 ~ 200
 		separation = 8
-		#Biome Categories the structure can generate in 
+		#Biome Categories the structure can generate in
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether]
 		biome_categories = ["desert"]
-		#Dimensions the structure can NOT generate in
-		blacklisted_dimensions = []
 		#Biomes the structure can NOT generate in
 		blacklisted_biomes = []
+		#Dimensions the structure can NOT generate in
+		blacklisted_dimensions = []
 
 	[structures.forge]
 		#Generate? [default: true]
@@ -82,13 +82,13 @@
 		#Minimum Separation (in chunks) [default: 8]
 		#Range: 0 ~ 200
 		separation = 8
-		#Biome Categories the structure can generate in 
+		#Biome Categories the structure can generate in
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether]
 		biome_categories = ["plains", "forest", "extreme_hills", "taiga"]
-		#Dimensions the structure can NOT generate in
-		blacklisted_dimensions = []
 		#Biomes the structure can NOT generate in
 		blacklisted_biomes = []
+		#Dimensions the structure can NOT generate in
+		blacklisted_dimensions = []
 
 	[structures.player_house]
 		#Generate? [default: true]
@@ -102,13 +102,13 @@
 		#Minimum Separation (in chunks) [default: 8]
 		#Range: 0 ~ 200
 		separation = 8
-		#Biome Categories the structure can generate in 
+		#Biome Categories the structure can generate in
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether]
 		biome_categories = ["plains", "forest", "extreme_hills", "taiga"]
-		#Dimensions the structure can NOT generate in
-		blacklisted_dimensions = []
 		#Biomes the structure can NOT generate in
 		blacklisted_biomes = []
+		#Dimensions the structure can NOT generate in
+		blacklisted_dimensions = []
 
 	[structures.spawner_dungeon]
 		#Generate? [default: true]
@@ -122,13 +122,13 @@
 		#Minimum Separation (in chunks) [default: 8]
 		#Range: 0 ~ 200
 		separation = 8
-		#Biome Categories the structure can generate in 
+		#Biome Categories the structure can generate in
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether]
 		biome_categories = ["plains", "forest", "extreme_hills", "taiga", "desert", "mesa", "savanna", "jungle", "icy", "swamp", "mushroom"]
-		#Dimensions the structure can NOT generate in
-		blacklisted_dimensions = []
 		#Biomes the structure can NOT generate in
 		blacklisted_biomes = []
+		#Dimensions the structure can NOT generate in
+		blacklisted_dimensions = []
 
 	[structures.tower_ruin]
 		#Generate? [default: true]
@@ -142,13 +142,13 @@
 		#Minimum Separation (in chunks) [default: 8]
 		#Range: 0 ~ 200
 		separation = 8
-		#Biome Categories the structure can generate in 
+		#Biome Categories the structure can generate in
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether]
 		biome_categories = ["plains", "forest", "extreme_hills", "taiga"]
-		#Dimensions the structure can NOT generate in
-		blacklisted_dimensions = []
 		#Biomes the structure can NOT generate in
 		blacklisted_biomes = []
+		#Dimensions the structure can NOT generate in
+		blacklisted_dimensions = []
 
 	[structures.witch_hut]
 		#Generate? [default: true]
@@ -162,13 +162,13 @@
 		#Minimum Separation (in chunks) [default: 7]
 		#Range: 0 ~ 200
 		separation = 7
-		#Biome Categories the structure can generate in 
+		#Biome Categories the structure can generate in
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether]
 		biome_categories = ["swamp"]
-		#Dimensions the structure can NOT generate in
-		blacklisted_dimensions = []
 		#Biomes the structure can NOT generate in
 		blacklisted_biomes = []
+		#Dimensions the structure can NOT generate in
+		blacklisted_dimensions = []
 
 	[structures.big_tree]
 		#Generate? [default: true]
@@ -182,11 +182,10 @@
 		#Minimum Separation (in chunks) [default: 8]
 		#Range: 0 ~ 200
 		separation = 8
-		#Biome Categories the structure can generate in 
+		#Biome Categories the structure can generate in
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether]
 		biome_categories = ["plains", "forest"]
-		#Dimensions the structure can NOT generate in
-		blacklisted_dimensions = []
 		#Biomes the structure can NOT generate in
 		blacklisted_biomes = []
-
+		#Dimensions the structure can NOT generate in
+		blacklisted_dimensions = []

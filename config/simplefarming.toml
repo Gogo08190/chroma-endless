@@ -1,4 +1,26 @@
 
+["Right-click Harvesting Settings"]
+	#Indicates whether right-click harvesting opuntias should be enabled
+	"Enable right-click harvesting for opuntias" = true
+	#Indicates whether right-click harvesting double-high-crops should be enabled
+	"Enable right-click harvesting for double-high-crops" = false
+	#Indicates whether right-click harvesting grapes should be enabled
+	"Enable right-click harvesting for grapes" = true
+	#Indicates whether right-click harvesting crops should be enabled
+	"Enable right-click harvesting for crops" = false
+	#Indicates whether right-click harvesting berry bushes should be enabled
+	"Enable right-click harvesting for berry bushes" = true
+	#Indicates whether right-click harvesting tree leaves should be enabled
+	"Enable right-click harvesting for tree leaves" = true
+	#Indicates whether right-click harvesting wild plants should be enabled
+	"Enable right-click harvesting for wild plants" = true
+	#Configures if right-click harvesting of crops should be enabled. Which crops are affected by right-clicking can be configured in the "Right-click Harvesting Settings" section.
+	#	DISABLED -> disables right-click harvesting feature for all crops completely
+	#	ENABLED_DROP -> loot is dropped on the ground
+	#	ENABLED_SMART -> loot is placed in the player's inventory
+	#Allowed Values: DISABLED, ENABLED_DROP, ENABLED_SMART
+	"Right-Click Harvest" = "ENABLED_DROP"
+
 ["World Generation Features"]
 
 	["World Generation Features"."Bush generation"]
@@ -14,7 +36,7 @@
 		"Generate opuntias" = true
 		#Enable this feature to generate wild crop blocks that drop seeds.
 		#If you want to disable seed drops from grass as well, this must be done in the 'Seed Drop Settings' section.
-		"Generate wild crops" = false
+		"Generate wild crops" = true
 
 	["World Generation Features"."Tree generation"]
 		#Indicates whether fruit trees should generate. Ignores flags for specific trees.
@@ -67,34 +89,12 @@
 	"Double Crops Slow Down Motion" = false
 	#Indicates whether vanilla pumpkin and melon stems should be replaced by a single block crop (Default: false)
 	"Replace stems" = false
-	#Indicates whether nausea should be a potential effect from alcohol consumption (Default: false)
-	"Nausea effect" = false
 	#Indicates whether cantaloupe, honeydew, and squash crops should grow like vanilla pumpkin and melon crops (Default: true)
 	"Vanilla stem crops" = true
 	#Indicates whether village chests should have a chance of containing simple farming items (Default: true)
 	"Village loot" = true
-
-["Right-click Harvesting Settings"]
-	#Configures if right-click harvesting of crops should be enabled. Which crops are affected by right-clicking can be configured in the "Right-click Harvesting Settings" section.
-	#	DISABLED -> disables right-click harvesting feature for all crops completely
-	#	ENABLED_DROP -> loot is dropped on the ground
-	#	ENABLED_SMART -> loot is placed in the player's inventory
-	#Allowed Values: DISABLED, ENABLED_DROP, ENABLED_SMART
-	"Right-Click Harvest" = "ENABLED_DROP"
-	#Indicates whether right-click harvesting crops should be enabled
-	"Enable right-click harvesting for crops" = true
-	#Indicates whether right-click harvesting berry bushes should be enabled
-	"Enable right-click harvesting for berry bushes" = true
-	#Indicates whether right-click harvesting opuntias should be enabled
-	"Enable right-click harvesting for opuntias" = true
-	#Indicates whether right-click harvesting tree leaves should be enabled
-	"Enable right-click harvesting for tree leaves" = true
-	#Indicates whether right-click harvesting wild plants should be enabled
-	"Enable right-click harvesting for wild plants" = true
-	#Indicates whether right-click harvesting grapes should be enabled
-	"Enable right-click harvesting for grapes" = true
-	#Indicates whether right-click harvesting double-high-crops should be enabled
-	"Enable right-click harvesting for double-high-crops" = true
+	#Indicates whether nausea should be a potential effect from alcohol consumption (Default: false)
+	"Nausea effect" = false
 
 ["Hunger Value Settings"]
 	#Range: > 0
@@ -342,40 +342,39 @@
 	#Should seeds drop from grasslike blocks?
 	#If false, all other seed drops will be ignored.
 	#(Default: true)
-	"Seeds drop from grass blocks" = true
-	cantaloupe = true
-	carrot = true
-	cassava = true
-	corn = true
-	cucumber = true
-	eggplant = true
-	honeydew = true
-	kenaf = true
-	lettuce = true
-	oat = true
-	onion = true
-	potato = true
-	pepper = true
-	radish = true
-	rice = true
-	rye = true
-	soybean = true
-	spinach = true
-	squash = true
-	tomato = true
-	yam = true
-	ginger = true
-	grape = true
-	sorghum = true
-	peanut = true
-	barley = true
-	pea = true
-	cotton = true
-	sweet_potato = true
-	broccoli = true
-	zucchini = true
-	turnip = true
-	pumpkin = true
-	melon = true
-	beetroot = true
-
+	"Seeds drop from grass blocks" = false
+	cantaloupe = false
+	carrot = false
+	cassava = false
+	corn = false
+	cucumber = false
+	eggplant = false
+	honeydew = false
+	kenaf = false
+	lettuce = false
+	oat = false
+	onion = false
+	potato = false
+	pepper = false
+	radish = false
+	rice = false
+	rye = false
+	soybean = false
+	spinach = false
+	squash = false
+	tomato = false
+	yam = false
+	ginger = false
+	grape = false
+	sorghum = false
+	peanut = false
+	barley = false
+	pea = false
+	cotton = false
+	sweet_potato = false
+	broccoli = false
+	zucchini = false
+	turnip = false
+	pumpkin = false
+	melon = false
+	beetroot = false

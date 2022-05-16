@@ -6,7 +6,7 @@ silent = false
 #More backups = more space used
 #0 - Infinite
 #Range: 0 ~ 32000
-backups_to_keep = 12
+backups_to_keep = 9
 #Timer in minutes.
 #5 - backups every 5 minutes
 #60 - backups every hour
@@ -18,7 +18,7 @@ backup_timer = 120
 #1 - Best speed
 #9 - Smallest file size
 #Range: 0 ~ 9
-compression_level = 1
+compression_level = 3
 #Absolute path to backups folder.
 folder = ""
 #Prints (current size | total size) when backup is done.
@@ -37,4 +37,3 @@ force_on_shutdown = false
 	#Buffer size for writing files.
 	#Range: 256 ~ 65536
 	buffer_size = 4096
-

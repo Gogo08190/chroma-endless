@@ -1,5 +1,5 @@
 #The title to display at the top of the entry.
-title = "Need a server?"
+title = "Need a Chroma Endless server?"
 #The description to display below the title.
 description = "Click me to get your own server!"
 #Your partner ID to use in during the ordering process.
@@ -14,4 +14,3 @@ pack_id = ""
 #Use 'server_entry.title' key for the Title;
 #Use 'server_entry.description' key for the Description.
 use_language_files = false
-
