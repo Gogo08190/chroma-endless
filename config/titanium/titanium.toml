@@ -2,9 +2,9 @@
 [TitaniumConfig]
 	#A Boolean that is true by default
 	thisIsABoolean = true
+	intAngery = 7
 	#A Boolean that is false by default
 	NOT_BOOLEAN = false
-	intAngery = 7
 
 	[TitaniumConfig.Dabber]
 		dabby = "lil dab"

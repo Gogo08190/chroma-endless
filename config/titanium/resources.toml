@@ -9,13 +9,13 @@
 			[modules.resources.gold.gear]
 				enabled = true
 
-		[modules.resources.iron]
-
-			[modules.resources.iron.gear]
-				enabled = true
-
 		[modules.resources.diamond]
 
 			[modules.resources.diamond.gear]
+				enabled = true
+
+		[modules.resources.iron]
+
+			[modules.resources.iron.gear]
 				enabled = true
 
