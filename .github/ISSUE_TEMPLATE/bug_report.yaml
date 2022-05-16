@@ -54,7 +54,7 @@ body:
     id: extra-info
     attributes:
       label: Extra Info
-      description: Any extra information about your instance of Chroma Sky 2, such as additional mods not in the base pack. Please note that support on Altered instances is limited.
+      description: Any extra information about your instance of Chroma Endless, such as additional mods not in the base pack. Please note that support on Altered instances is limited.
       placeholder: |
         Extra Mods: aquaculture-1.16.5-2.1.21
         Configs changed: Changed X in Y.toml
