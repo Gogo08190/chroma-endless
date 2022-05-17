@@ -12,11 +12,6 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}apatite_chunk`
         },
         {
-            output: 'emendatusenigmatica:arcane_chunk',
-            weight: 600,
-            id: `${id_prefix}arcane_chunk`
-        },
-        {
             output: 'emendatusenigmatica:bitumen_chunk',
             weight: 1000,
             id: `${id_prefix}bitumen_chunk`
