@@ -36,7 +36,7 @@
 	#
 	#Maximum number of UNIQUE bees allowed in the Apiary.
 	#Range: 1 ~ 16
-	apiaryMaxBees = 9
+	apiaryMaxBees = 10
 	#
 	#Tier 3 Apiary Output
 	#Allowed Values: COMB, BLOCK
