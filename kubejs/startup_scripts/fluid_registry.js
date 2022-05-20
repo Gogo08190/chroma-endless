@@ -8,12 +8,6 @@ onEvent('fluid.registry', (event) => {
         },
         {
             type: 'thick',
-            id: 'molten_infused_iron',
-            texture: '0x2eb337',
-            display: 'Molten Infused Iron'
-        },
-        {
-            type: 'thick',
             id: 'molten_blazing',
             texture: '0xd79811',
             display: 'Molten Blazing Crystal'
@@ -59,12 +53,6 @@ onEvent('fluid.registry', (event) => {
             id: 'molten_spirited',
             texture: '0x86c52d',
             display: 'Molten Spirited Crystal'
-        },
-        {
-            type: 'thick',
-            id: 'pink_ender_slime',
-            texture: '0xa504d1',
-            display: 'Molten Pink Enderslime'
         },
         {
             type: 'thick',
