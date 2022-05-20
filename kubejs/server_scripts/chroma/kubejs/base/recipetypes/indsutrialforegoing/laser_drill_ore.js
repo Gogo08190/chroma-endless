@@ -46,6 +46,30 @@ onEvent('recipes', (event) => {
         },
         {
             output: {
+                tag: 'forge:chunks/mana'
+            },
+            rarity: [
+                {
+                    whitelist: {},
+                    blacklist: endBiomes,
+                    depth_min: 5,
+                    depth_max: 32,
+                    weight: 6
+                },
+                {
+                    whitelist: {},
+                    blacklist: endBiomes,
+                    depth_min: 0,
+                    depth_max: 255,
+                    weight: 1
+                }
+            ],
+            catalyst: {
+                item: 'industrialforegoing:laser_lens2'
+            }
+        },
+        {
+            output: {
                 tag: 'forge:chunks/bitumen'
             },
             rarity: [

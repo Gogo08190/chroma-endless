@@ -51,7 +51,7 @@ onEvent('server.datapack.low_priority', (event) => {
                 { item: 'darkutils:book_restore', weight: 100 },
                 { item: 'darkutils:book_runelic', weight: 100 },
                 { item: 'minecraft:gold_nugget', weight: 100, amount: [8.0, 16.0] },
-                { item: 'emendatusenigmatica:silver_nugget', weight: 100, amount: [8.0, 16.0] },
+                { item: 'emendatuschroma:silver_nugget', weight: 100, amount: [8.0, 16.0] },
                 { item: 'minecraft:turtle_helmet', weight: 20, enchantRange: [30.0, 40.0] },
                 { item: 'occultism:soul_gem', weight: 20 },
                 { item: 'botania:bubbell', weight: 20 },
@@ -186,13 +186,13 @@ onEvent('server.datapack.low_priority', (event) => {
             rolls: [1, 1],
             entries: [
                 { item: 'create:andesite_alloy', weight: 100, amount: [8.0, 16.0] },
-                { item: 'emendatusenigmatica:aluminum_nugget', weight: 15, amount: [8.0, 16.0] },
-                { item: 'emendatusenigmatica:lead_nugget', weight: 15, amount: [8.0, 16.0] },
-                { item: 'emendatusenigmatica:constantan_nugget', weight: 15, amount: [8.0, 16.0] },
-                { item: 'emendatusenigmatica:electrum_nugget', weight: 15, amount: [8.0, 16.0] },
-                { item: 'emendatusenigmatica:brass_nugget', weight: 15, amount: [8.0, 16.0] },
-                { item: 'emendatusenigmatica:bronze_nugget', weight: 15, amount: [8.0, 16.0] },
-                { item: 'emendatusenigmatica:steel_nugget', weight: 15, amount: [8.0, 16.0] },
+                { item: 'emendatuschroma:aluminum_nugget', weight: 15, amount: [8.0, 16.0] },
+                { item: 'emendatuschroma:lead_nugget', weight: 15, amount: [8.0, 16.0] },
+                { item: 'emendatuschroma:constantan_nugget', weight: 15, amount: [8.0, 16.0] },
+                { item: 'emendatuschroma:electrum_nugget', weight: 15, amount: [8.0, 16.0] },
+                { item: 'emendatuschroma:brass_nugget', weight: 15, amount: [8.0, 16.0] },
+                { item: 'emendatuschroma:bronze_nugget', weight: 15, amount: [8.0, 16.0] },
+                { item: 'emendatuschroma:steel_nugget', weight: 15, amount: [8.0, 16.0] },
                 { item: 'artifacts:whoopee_cushion', weight: 20 },
                 { item: 'minecraft:leather_boots', weight: 100, enchantRange: [10.0, 20.0] },
                 { item: 'minecraft:leather_leggings', weight: 100, enchantRange: [10.0, 20.0] },
@@ -231,13 +231,13 @@ onEvent('server.datapack.low_priority', (event) => {
             name: 'dungeon_clockwork_rare',
             rolls: [1, 1],
             entries: [
-                { item: 'emendatusenigmatica:lead_ingot', weight: 20, amount: [3.0, 8.0] },
-                { item: 'emendatusenigmatica:electrum_ingot', weight: 20, amount: [3.0, 8.0] },
-                { item: 'emendatusenigmatica:constantan_ingot', weight: 20, amount: [3.0, 8.0] },
-                { item: 'emendatusenigmatica:bronze_ingot', weight: 20, amount: [3.0, 8.0] },
-                { item: 'emendatusenigmatica:aluminum_ingot', weight: 20, amount: [3.0, 8.0] },
-                { item: 'emendatusenigmatica:steel_ingot', weight: 20, amount: [3.0, 8.0] },
-                { item: 'emendatusenigmatica:brass_ingot', weight: 20, amount: [3.0, 8.0] },
+                { item: 'emendatuschroma:lead_ingot', weight: 20, amount: [3.0, 8.0] },
+                { item: 'emendatuschroma:electrum_ingot', weight: 20, amount: [3.0, 8.0] },
+                { item: 'emendatuschroma:constantan_ingot', weight: 20, amount: [3.0, 8.0] },
+                { item: 'emendatuschroma:bronze_ingot', weight: 20, amount: [3.0, 8.0] },
+                { item: 'emendatuschroma:aluminum_ingot', weight: 20, amount: [3.0, 8.0] },
+                { item: 'emendatuschroma:steel_ingot', weight: 20, amount: [3.0, 8.0] },
+                { item: 'emendatuschroma:brass_ingot', weight: 20, amount: [3.0, 8.0] },
                 { item: 'immersiveengineering:ingot_hop_graphite', weight: 100, amount: [3.0, 8.0] },
                 { item: 'immersiveengineering:armor_steel_head', weight: 100, enchantRange: [30.0, 40.0] },
                 { item: 'immersiveengineering:armor_steel_chest', weight: 100, enchantRange: [30.0, 40.0] },
@@ -320,17 +320,12 @@ onEvent('server.datapack.low_priority', (event) => {
                 { item: 'minecraft:leather', weight: 100, amount: [4.0, 12.0] },
                 { item: 'minecraft:string', weight: 100, amount: [4.0, 12.0] },
                 { item: 'minecraft:warped_nylium', weight: 100, amount: [4.0, 12.0] },
-                { item: 'eidolon:warped_sprouts', weight: 100, amount: [4.0, 12.0] },
                 { item: 'byg:crimson_berries', weight: 100, amount: [4.0, 12.0] },
                 { item: 'minecraft:crimson_nylium', weight: 100, amount: [4.0, 12.0] },
                 { item: 'minecraft:warped_fungus', weight: 100, amount: [4.0, 12.0] },
                 { item: 'minecraft:crimson_fungus', weight: 100, amount: [4.0, 12.0] },
                 { item: 'botania:cosmetic_eerie_mask', weight: 10 },
                 { item: 'botania:cosmetic_ancient_mask', weight: 10 },
-                { item: 'bloodmagic:deforester_charge', weight: 100, amount: [4.0, 30.0] },
-                { item: 'bloodmagic:shaped_charge', weight: 100, amount: [4.0, 30.0] },
-                { item: 'bloodmagic:reinforcedslate', weight: 100, amount: [4.0, 6.0] },
-                { item: 'bloodmagic:blankslate', weight: 100, amount: [4.0, 6.0] },
                 { item: 'minecraft:fire_charge', weight: 100, amount: [4.0, 12.0] },
                 { item: 'minecraft:gilded_blackstone', weight: 100, amount: [4.0, 8.0] },
                 { item: 'decorative_blocks:soul_brazier', weight: 100 },
@@ -382,8 +377,6 @@ onEvent('server.datapack.low_priority', (event) => {
                 { item: 'botania:smelt_rod', weight: 20 },
                 { item: 'botania:fire_rod', weight: 20 },
                 { item: 'botania:exchange_rod', weight: 20 },
-                { item: 'bloodmagic:experiencebook', weight: 20 },
-                { item: 'bloodmagic:demonslate', weight: 10, amount: [1.0, 2.0] },
                 { item: 'artifacts:cloud_in_a_bottle', weight: 17 },
                 { item: 'artifacts:umbrella', weight: 17 },
                 { item: 'artifacts:scarf_of_invisibility', weight: 17 },
@@ -391,7 +384,6 @@ onEvent('server.datapack.low_priority', (event) => {
                 { item: 'artifacts:vampiric_glove', weight: 17 },
                 { item: 'artifacts:running_shoes', weight: 17 },
                 { item: 'artifacts:antidote_vessel', weight: 17 },
-                { item: 'eidolon:soul_enchanter', weight: 20 },
                 { item: 'minecraft:netherite_boots', weight: 100, enchantRange: [60.0, 100.0] },
                 { item: 'minecraft:netherite_leggings', weight: 100, enchantRange: [60.0, 100.0] },
                 { item: 'minecraft:netherite_chestplate', weight: 100, enchantRange: [60.0, 100.0] },
@@ -421,9 +413,9 @@ onEvent('server.datapack.low_priority', (event) => {
                 { item: 'create:tree_fertilizer', weight: 100, amount: [8.0, 16.0] },
                 { item: 'botania:fertilizer', weight: 100, amount: [8.0, 16.0] },
                 { item: 'botania:horn_grass', weight: 50 },
-                { item: 'emendatusenigmatica:lead_nugget', weight: 100, amount: [8.0, 16.0] },
-                { item: 'emendatusenigmatica:silver_nugget', weight: 100, amount: [8.0, 16.0] },
-                { item: 'darkutils:book_restore', weight: 100 }
+                { item: 'emendatuschroma:lead_nugget', weight: 100, amount: [8.0, 16.0] },
+                { item: 'emendatuschroma:silver_nugget', weight: 100, amount: [8.0, 16.0] },
+                { item: 'ars_nouveau:void_jar', weight: 10 }
             ]
         },
         {
@@ -451,10 +443,18 @@ onEvent('server.datapack.low_priority', (event) => {
                 { item: 'artifacts:crystal_heart', weight: 20 },
                 { item: 'minecraft:ender_eye', weight: 100 },
                 { item: 'botania:mana_tablet', weight: 100, nbt: '{mana:250000}' },
-                { item: 'emendatusenigmatica:lead_ingot', weight: 100, amount: [8.0, 16.0] },
-                { item: 'emendatusenigmatica:silver_ingot', weight: 100, amount: [8.0, 16.0] },
+                { item: 'emendatuschroma:lead_ingot', weight: 100, amount: [8.0, 16.0] },
+                { item: 'emendatuschroma:silver_ingot', weight: 100, amount: [8.0, 16.0] },
                 { item: 'darkutils:book_runelic', weight: 100 },
-                { item: 'darkutils:book_galactic', weight: 100 }
+                { item: 'darkutils:book_galactic', weight: 100 },
+                { item: 'naturesaura:token_grief', weight: 5 },
+                { item: 'naturesaura:token_rage', weight: 5 },
+                { item: 'naturesaura:token_terror', weight: 5 },
+                { item: 'naturesaura:token_euphoria', weight: 5 },
+                { item: 'ars_nouveau:apprentice_hood', weight: 100, enchantRange: [30.0, 40.0] },
+                { item: 'ars_nouveau:apprentice_robes', weight: 100, enchantRange: [30.0, 40.0] },
+                { item: 'ars_nouveau:apprentice_leggings', weight: 100, enchantRange: [30.0, 40.0] },
+                { item: 'ars_nouveau:apprentice_boots', weight: 100, enchantRange: [30.0, 40.0] }
             ]
         },
         {
@@ -469,6 +469,12 @@ onEvent('server.datapack.low_priority', (event) => {
                 { item: 'botania:vinculotus', weight: 10 },
                 { item: 'botania:dirt_rod', weight: 10 },
                 { item: 'botania:water_rod', weight: 10 },
+                { item: 'ars_nouveau:wixie_charm', weight: 50 },
+                { item: 'ars_nouveau:archmage_hood', weight: 100, enchantRange: [60.0, 100.0] },
+                { item: 'ars_nouveau:archmage_robes', weight: 100, enchantRange: [60.0, 100.0] },
+                { item: 'ars_nouveau:archmage_leggings', weight: 100, enchantRange: [60.0, 100.0] },
+                { item: 'ars_nouveau:archmage_boots', weight: 100, enchantRange: [60.0, 100.0] },
+                { item: 'ars_nouveau:wand', weight: 10 },
                 { item: 'alexsmobs:mimicream', weight: 5 }
             ]
         },
@@ -624,7 +630,7 @@ onEvent('server.datapack.low_priority', (event) => {
                 entries.push({
                     type: 'loot_table',
                     weight: entry.weight,
-                    name: `enigmatica:chests/${entry.item}`
+                    name: `chroma:chests/${entry.item}`
                 });
             } else {
                 entries.push({
@@ -637,7 +643,7 @@ onEvent('server.datapack.low_priority', (event) => {
             }
         });
 
-        event.addJson(`enigmatica:loot_tables/chests/${lootTable.name}.json`, {
+        event.addJson(`chroma:loot_tables/chests/${lootTable.name}.json`, {
             pools: [{ rolls: { min: lootTable.rolls[0], max: lootTable.rolls[1] }, entries: entries }]
         });
     });
