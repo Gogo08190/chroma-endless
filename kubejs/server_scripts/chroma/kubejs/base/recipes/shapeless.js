@@ -80,6 +80,8 @@ onEvent('recipes', (event) => {
             inputs: ['prettypipes:item_terminal', 'prettypipes:low_crafting_module'],
             id: 'prettypipes:crafting_terminal'
         },
+        { output: 'ars_nouveau:mana_gem', inputs: ['emendatusenigmatica:arcane_gem'] },
+        { output: 'emendatusenigmatica:arcane_gem', inputs: ['ars_nouveau:mana_gem'] },
         {
             output: 'botania:fertilizer',
             inputs: ['#forge:fertilizer', '#forge:dyes', '#forge:dyes', '#forge:dyes', '#forge:dyes']

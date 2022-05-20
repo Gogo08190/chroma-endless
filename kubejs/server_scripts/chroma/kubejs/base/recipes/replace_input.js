@@ -27,6 +27,7 @@ onEvent('recipes', (event) => {
     event.replaceInput({}, 'thermal:coal_coke', '#forge:gems/coal_coke');
     event.replaceInput({}, 'rftoolsbase:dimensionalshard', '#forge:gems/dimensional');
     event.replaceInput({}, 'immersivepetroleum:bitumen', '#forge:gems/bitumen', true);
+    event.replaceInput({}, 'ars_nouveau:mana_gem', '#forge:gems/mana');
     event.replaceInput({}, 'immersiveengineering:slag', '#forge:slag');
     event.replaceInput({}, 'thermal:slag', '#forge:slag');
     event.replaceInput({}, 'simplefarming:cooked_egg', '#forge:cooked_eggs');
@@ -52,6 +53,13 @@ onEvent('recipes', (event) => {
     event.replaceInput({ mod: 'simplefarming' }, 'minecraft:cooked_chicken', '#forge:cooked_chicken');
     event.replaceInput({ id: '/simplefarming:\\w+burger/' }, 'minecraft:cooked_beef', 'farmersdelight:beef_patty');
     event.replaceInput({}, 'tconstruct:cobalt_nugget', '#forge:nuggets/cobalt');
+    event.replaceInput(
+        {
+            not: [{ type: 'ars_nouveau:glyph_recipe' }]
+        },
+        'minecraft:nether_brick',
+        '#forge:ingots/nether_brick'
+    );
     event.replaceInput({}, 'minecraft:nether_bricks', '#forge:netherbricks');
     event.replaceInput(
         {

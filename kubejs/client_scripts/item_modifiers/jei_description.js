@@ -319,6 +319,10 @@ onEvent('jei.information', (event) => {
             text: [`May be repaired with Rabbit Hide.`]
         },
         {
+            items: ['ars_nouveau:belt_of_levitation'],
+            text: [`When equipped in the belt slot, hold the sneak key while airborne to float.`]
+        },
+        {
             items: ['create:chromatic_compound', 'create:refined_radiance'],
             text: [
                 `Chromatic Compound absorbs light when dropped in the world, transforming into Refined Radiance. Charges slowly from ambient light, faster by consuming nearby light emitting blocks, and instantly when dropped onto an active beacon.`

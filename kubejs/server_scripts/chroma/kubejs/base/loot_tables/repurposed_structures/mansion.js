@@ -9,6 +9,11 @@ onEvent('generic.loot_tables', (event) => {
                     count: [4, 16]
                 },
                 {
+                    item: 'ars_nouveau:source_berry_pie',
+                    weight: 50,
+                    count: [4, 8]
+                },
+                {
                     item: 'alexsmobs:kangaroo_burger',
                     weight: 50,
                     count: [4, 8]
@@ -137,6 +142,12 @@ onEvent('generic.loot_tables', (event) => {
                     item: 'simplefarming:beef_and_broccoli',
                     weight: 50,
                     count: [4, 16]
+                },
+                {
+                    item: Item.of(
+                        'ars_nouveau:potion_flask',
+                        '{count:8,CustomPotionEffects:[{Ambient:0b,CurativeItems:[{id:"minecraft:milk_bucket",Count:1b}],ShowIcon:1b,ShowParticles:1b,Duration:3600,Id:5b,Amplifier:0b},{Ambient:0b,CurativeItems:[{id:"minecraft:milk_bucket",Count:1b}],ShowIcon:1b,ShowParticles:1b,Duration:900,Id:10b,Amplifier:0b},{Ambient:0b,CurativeItems:[{id:"minecraft:milk_bucket",Count:1b}],ShowIcon:1b,ShowParticles:1b,Duration:3600,Id:1b,Amplifier:0b}],Potion:"apotheosis:resistance"}'),
+                    weight: 5,
                 }
             ]
         }

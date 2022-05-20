@@ -4,11 +4,107 @@ onEvent('server.datapack.high_priority', (event) => {
             {
                 item: 'placebo_code_pool_15',
                 rolls: {
-                    min: 1.0,
-                    max: 1.0,
+                    min: 6.0,
+                    max: 9.0,
                     type: 'minecraft:uniform'
                 },
                 entries: [
+                    {
+                        type: 'placebo:stack_entry',
+                        weight: 5,
+                        quality: 5,
+                        min: 1,
+                        max: 1,
+                        stack: { item: 'apotheosis:null_book', count: 1 }
+                    },
+                    {
+                        type: 'placebo:stack_entry',
+                        weight: 5,
+                        quality: 5,
+                        min: 1,
+                        max: 1,
+                        stack: { item: 'apotheosis:armor_head_book', count: 1 }
+                    },
+                    {
+                        type: 'placebo:stack_entry',
+                        weight: 5,
+                        quality: 5,
+                        min: 1,
+                        max: 1,
+                        stack: { item: 'apotheosis:armor_chest_book', count: 1 }
+                    },
+                    {
+                        type: 'placebo:stack_entry',
+                        weight: 5,
+                        quality: 5,
+                        min: 1,
+                        max: 1,
+                        stack: { item: 'apotheosis:armor_legs_book', count: 1 }
+                    },
+                    {
+                        type: 'placebo:stack_entry',
+                        weight: 5,
+                        quality: 5,
+                        min: 1,
+                        max: 1,
+                        stack: { item: 'apotheosis:armor_feet_book', count: 1 }
+                    },
+                    {
+                        type: 'placebo:stack_entry',
+                        weight: 5,
+                        quality: 5,
+                        min: 1,
+                        max: 1,
+                        stack: { item: 'apotheosis:weapon_book', count: 1 }
+                    },
+                    {
+                        type: 'placebo:stack_entry',
+                        weight: 5,
+                        quality: 5,
+                        min: 1,
+                        max: 1,
+                        stack: { item: 'apotheosis:digger_book', count: 1 }
+                    },
+                    {
+                        type: 'placebo:stack_entry',
+                        weight: 5,
+                        quality: 5,
+                        min: 1,
+                        max: 1,
+                        stack: { item: 'apotheosis:fishing_rod_book', count: 1 }
+                    },
+                    {
+                        type: 'placebo:stack_entry',
+                        weight: 5,
+                        quality: 5,
+                        min: 1,
+                        max: 1,
+                        stack: { item: 'apotheosis:bow_book', count: 1 }
+                    },
+                    {
+                        type: 'placebo:stack_entry',
+                        weight: 5,
+                        quality: 5,
+                        min: 1,
+                        max: 1,
+                        stack: { item: 'minecraft:book', count: 1 }
+                    },
+                    {
+                        type: 'placebo:stack_entry',
+                        weight: 16,
+                        quality: 10,
+                        min: 1,
+                        max: 1,
+                        stack: { item: 'apotheosis:common_tome', count: 1 }
+                    },
+                    {
+                        type: 'placebo:stack_entry',
+                        weight: 13,
+                        quality: 10,
+                        min: 1,
+                        max: 1,
+                        stack: { item: 'apotheosis:uncommon_tome', count: 1 }
+                    },
                     {
                         type: 'placebo:stack_entry',
                         weight: 10,
@@ -19,7 +115,7 @@ onEvent('server.datapack.high_priority', (event) => {
                     },
                     {
                         type: 'placebo:stack_entry',
-                        weight: 20,
+                        weight: 7,
                         quality: 10,
                         min: 1,
                         max: 1,
@@ -27,7 +123,7 @@ onEvent('server.datapack.high_priority', (event) => {
                     },
                     {
                         type: 'placebo:stack_entry',
-                        weight: 20,
+                        weight: 4,
                         quality: 10,
                         min: 1,
                         max: 1,
@@ -35,24 +131,15 @@ onEvent('server.datapack.high_priority', (event) => {
                     },
                     {
                         type: 'apotheosis:affix_entry',
-                        min: 1,
-                        max: 4,
-                        weight: 100,
-                        quality: 100,
-                        functions: [
-                            {
-                                function: 'enchant_with_levels',
-                                levels: 30,
-                                treasure: true
-                            }
-                        ]
+                        weight: 20,
+                        quality: 35
                     }
                 ]
             }
         ]
     };
 
-    event.addJson(`undergarden:loot_tables/chests/catacombs.json`, loot_table);
+    event.addJson(`apotheosis:loot_tables/tome_tower.json`, loot_table);
 });
 
 onEvent('generic.loot_tables', (event) => {
@@ -64,19 +151,19 @@ onEvent('generic.loot_tables', (event) => {
                 {
                     item: Item.of(
                         'ars_nouveau:caster_tome',
-                        '{flavor:"Gusts of wind, sharp as blades.",color:"1,1,1",spell_0:"[projectile, split, split, pierce, pierce, gust, amplify, amplify, cut, amplify]",display:{Name:\'{"italic":true,"color":"dark_purple","text":"Wind Blades"}\'},current_slot:0,max_slot:1}'
+                        '{flavor:"Gusts of wind, sharp as blades.",color:"1,1,1",spell_0:"[projectile, split, split, pierce, pierce, gust, amplify, amplify, cut, amplify]",display:{item:\'{"italic":true,"color":"dark_purple","text":"Wind Blades"}\'},current_slot:0,max_slot:1}'
                     )
                 },
                 {
                     item: Item.of(
                         'ars_nouveau:caster_tome',
-                        '{flavor:"Believe it!",color:"1,1,1",spell_0:"[underfoot, linger, accelerate, accelerate, accelerate, aoe, aoe, aoe, summon_decoy]",display:{Name:\'{"italic":true,"color":"dark_purple","text":"Multi Shadow Clone"}\'},current_slot:0,max_slot:1}'
+                        '{flavor:"Believe it!",color:"1,1,1",spell_0:"[underfoot, linger, accelerate, accelerate, accelerate, aoe, aoe, aoe, summon_decoy]",display:{item:\'{"italic":true,"color":"dark_purple","text":"Multi Shadow Clone"}\'},current_slot:0,max_slot:1}'
                     )
                 },
                 {
                     item: Item.of(
                         'ars_nouveau:caster_tome',
-                        '{flavor:"Creates a fire that quickly freezes to ice.",color:"255,25,180",spell_0:"[projectile, ignite, delay, conjure_water, freeze]",display:{Name:\'{"italic":true,"color":"dark_purple","text":"Farfalla\\\'s Frosty Flames"}\'},current_slot:0,max_slot:1}'
+                        '{flavor:"Creates a fire that quickly freezes to ice.",color:"255,25,180",spell_0:"[projectile, ignite, delay, conjure_water, freeze]",display:{item:\'{"italic":true,"color":"dark_purple","text":"Farfalla\\\'s Frosty Flames"}\'},current_slot:0,max_slot:1}'
                     )
                 },
                 {
@@ -136,46 +223,60 @@ onEvent('generic.loot_tables', (event) => {
             ]
         },
         {
-            // Incense oddities.
-            rolls: { min: 0, max: 1 },
-            entries: [
-                {
-                    item: Item.of('botania:incense_stick', '{brewKey:"botania:bloodthirst"}'),
-                    weight: 50
-                },
-                {
-                    item: Item.of('botania:incense_stick', '{brewKey:"botania:regen"}'),
-                    weight: 50
-                },
-                {
-                    item: Item.of('botania:incense_stick', '{brewKey:"botania:strength"}'),
-                    weight: 50
-                },
-                {
-                    item: Item.of('botania:incense_stick', '{brewKey:"botania:resistance"}'),
-                    weight: 50
-                },
-                {
-                    item: Item.of('botania:incense_stick', '{brewKey:"botania:soul_cross"}'),
-                    weight: 50
-                },
-                {
-                    item: Item.of('botania:incense_stick', '{brewKey:"botania:emptiness"}'),
-                    weight: 50
-                },
-                {
-                    item: Item.of('botania:incense_stick', '{brewKey:"botania:allure"}'),
-                    weight: 50
-                }
-            ]
-        },
-        {
-            // Magic oddities.
+            // Magic Reagents and oddities.
             rolls: { min: 6, max: 9 },
             entries: [
                 {
+                    item: Item.of(
+                        'ars_nouveau:potion_flask',
+                        '{count:8,CustomPotionEffects:[{Ambient:0b,CurativeItems:[{id:"minecraft:milk_bucket",Count:1b}],ShowIcon:1b,ShowParticles:1b,Duration:9600,Id:90b,Amplifier:0b}],Potion:"ars_nouveau:spell_damage_long"}'
+                    ),
+                    weight: 50,
+                    count: [1, 2]
+                },
+                {
+                    item: 'ars_nouveau:wilden_spike',
+                    weight: 50,
+                    count: [1, 2]
+                },
+                {
+                    item: 'ars_nouveau:wilden_horn',
+                    weight: 50,
+                    count: [1, 2]
+                },
+                {
+                    item: 'ars_nouveau:wilden_wing',
+                    weight: 50,
+                    count: [1, 2]
+                },
+                {
+                    item: 'alexsmobs:guster_eye',
+                    weight: 50,
+                    count: [1, 2]
+                },
+                {
+                    item: 'alexsmobs:kangaroo_hide',
+                    weight: 50,
+                    count: [1, 2]
+                },
+                {
                     item: 'botania:blacker_lotus',
-                    count: [2, 4],
+                    weight: 50
+                },
+                {
+                    item: 'occultism:soul_gem',
+                    weight: 50
+                },
+                {
+                    item: 'ars_nouveau:drygmy_shard',
+                    weight: 50
+                },
+                {
+                    item: 'ars_nouveau:wixie_shards',
+                    weight: 50
+                },
+                {
+                    item: 'ars_nouveau:carbuncle_shards',
                     weight: 50
                 },
                 {
@@ -184,35 +285,30 @@ onEvent('generic.loot_tables', (event) => {
                     count: [1, 5]
                 },
                 {
-                    item: 'archers_paradox:lightning_arrow',
+                    item: 'thermal:lightning_charge',
                     weight: 100,
                     count: [2, 7]
                 },
                 {
-                    item: Item.of('shrink:mob_bottle', '{entity:"undergarden:forgotten_guardian"}'),
-                    weight: 50
+                    item: 'alexsmobs:komodo_spit',
+                    weight: 50,
+                    count: [1, 2]
                 },
                 {
-                    item: Item.of('botania:mana_ring', '{mana:250000}'),
-                    weight: 10
+                    item: 'alexsmobs:rattlesnake_rattle',
+                    weight: 50,
+                    count: [1, 2]
                 },
                 {
-                    item: Item.of('botania:mana_ring_greater', '{mana:1000000}'),
-                    weight: 2
-                },
-                {
-                    item: 'undergarden:music_disc_mammoth',
-                    weight: 20
-                },
-                {
-                    item: 'undergarden:music_disc_relict',
-                    weight: 20
+                    item: 'ars_nouveau:mana_gem',
+                    weight: 100,
+                    count: [5, 9]
                 }
             ]
         }
     ];
 
-    event.modify('undergarden:chests/catacombs', (table) => {
+    event.modify('apotheosis:tome_tower', (table) => {
         pools.forEach((pool) => {
             table.addPool((newPool) => {
                 newPool.setUniformRolls(pool.rolls.min, pool.rolls.max);

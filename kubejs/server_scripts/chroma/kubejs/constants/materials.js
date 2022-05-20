@@ -44,6 +44,8 @@ const materialsToUnify = [
     'redstone',
     'glowstone',
     'mana',
+    'certus_quartz',
+    'charged_certus_quartz',
     'iesnium',
     'dimensional',
     'cloggrum',

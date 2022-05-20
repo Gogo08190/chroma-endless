@@ -102,6 +102,10 @@ const itemsToHide = [
     'aiotbotania:livingwood_shears',
     'aiotbotania:livingrock_shears',
 
+    'ars_nouveau:arcane_brick',
+    'ars_nouveau:arcane_ore',
+    'ars_nouveau:mana_gem_block',
+
     'byg:budding_ametrine_ore',
     'byg:anthracite_ore',
     'byg:lignite_ore',
@@ -405,6 +409,27 @@ const recipesToHide = [
             'apotheosis:scrap_tome',
             'apotheosis:null_book',
 
+            'ars_nouveau:arcane_stone',
+            'ars_nouveau:crystallizer',
+            'ars_nouveau:potion_melder',
+            'ars_nouveau:volcanic_accumulator',
+            'ars_nouveau:mana_condenser',
+            'ars_nouveau:mycelial_sourcelink',
+            'ars_nouveau:vitalic_sourcelink',
+            'ars_nouveau:alchemical_sourcelink',
+            'ars_nouveau:novice_hood',
+            'ars_nouveau:novice_robes',
+            'ars_nouveau:novice_leggings',
+            'ars_nouveau:novice_boots',
+            'ars_nouveau:apprentice_hood',
+            'ars_nouveau:apprentice_robes',
+            'ars_nouveau:apprentice_leggings',
+            'ars_nouveau:apprentice_boots',
+            'ars_nouveau:archmage_hood',
+            'ars_nouveau:archmage_robes',
+            'ars_nouveau:archmage_leggings',
+            'ars_nouveau:archmage_boots',
+
             'botania:terrasteel_helmet',
             'botania:terrasteel_chestplate',
             'botania:terrasteel_leggings',
@@ -452,6 +477,18 @@ const recipesToHide = [
             'pneumaticcraft:assembly_platform',
             'pneumaticcraft:aerial_interface',
             'pneumaticcraft:spawner_extractor'
+        ]
+    },
+    {
+        category: 'ars_nouveau:apparatus',
+        recipes_by_id: [
+            'ars_nouveau:jar_of_light',
+            'ars_nouveau:void_jar',
+            'ars_elemental:air_focus',
+            'ars_elemental:water_focus',
+            'ars_elemental:earth_focus',
+            'ars_elemental:fire_focus',
+            'ars_elemental:necrotic_focus'
         ]
     },
     {
