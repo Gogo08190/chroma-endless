@@ -60,11 +60,6 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}wheat_dough`
         },
         {
-            outputs: ['atum:emmer_dough'],
-            input: 'atum:emmer_flour',
-            id: `${id_prefix}emmer_dough`
-        },
-        {
             outputs: ['thermal:white_rockwool'],
             input: '#enigmatica:washables/rockwool',
             id: `${id_prefix}white_rockwool`

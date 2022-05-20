@@ -133,11 +133,6 @@ onEvent('recipes', (event) => {
                 id: `${id_prefix}invar_ingot`
             },
             {
-                inputs: ['#forge:ingots/iron', '#forge:ingots/lead'],
-                output: Item.of('eidolon:pewter_ingot', 2),
-                id: `${id_prefix}pewter_ingot`
-            },
-            {
                 inputs: ['#forge:ingots/thallasium', '#forge:dusts/ender'],
                 output: Item.of('betterendforge:terminite_ingot', 1),
                 id: `${id_prefix}terminite_ingot_from_thallasium`

@@ -20,6 +20,5 @@ onEvent('item.tags', (event) => {
             .get(tag)
             .add(items)
             .add(/_helmet/)
-            .remove(exceptions);
     });
 });

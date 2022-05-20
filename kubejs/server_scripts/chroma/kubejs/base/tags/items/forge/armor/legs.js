@@ -3,7 +3,7 @@ onEvent('item.tags', (event) => {
         'immersiveengineering:armor_faraday_legs',
         'immersiveengineering:armor_steel_legs',
         'mekanism:hazmat_pants',
-        'mekanism:mekasuit_pants
+        'mekanism:mekasuit_pants'
     ];
 
     var tags = ['forge:armor', 'forge:armor/leggings'];
@@ -13,6 +13,5 @@ onEvent('item.tags', (event) => {
             .get(tag)
             .add(items)
             .add(/_leggings/)
-            .remove(exceptions);
     });
 });
