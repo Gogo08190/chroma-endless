@@ -1,11 +1,6 @@
 {
 	"programs": ["envirotech:ore", "envirotech:gemstone_ore"],
-	"item": {
-		"raw:item": "appliedenergistics2:charged_quartz_ore", "count":0,
-		"selector": {
-			"type": "first"
-		}
-	},
+	"item": {"raw:item": "emendatusenigmatica:coal_ore", "count":0},
 	"config": [
 		{
 			"weight": 218
