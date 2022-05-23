@@ -1,0 +1,17 @@
+{
+	"programs": ["envirotech:ore", "envirotech:metallic_ore"],
+	"item": {
+		"raw:item": "minecraft:ancient_debris", "count": 1
+	},
+	"config": [
+		{
+			"weight": 200,
+			"dimensions": ["minecraft:the_nether"]
+		},
+		{
+			"focus": "envirotech:brown",
+			"weight": 1600,
+			"dimensions": ["minecraft:the_nether"]
+		}
+	]
+}

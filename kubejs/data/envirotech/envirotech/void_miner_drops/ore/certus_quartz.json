@@ -1,0 +1,18 @@
+{
+	"programs": ["envirotech:ore", "envirotech:gemstone_ore"],
+	"item": {
+		"raw:item_tag": "forge:ores/certus_quartz", "count":0,
+		"selector": {
+			"type": "first"
+		}
+	},
+	"config": [
+		{
+			"weight": 311
+		},
+		{
+			"focus": "envirotech:light_blue",
+			"weight": 2488
+		}
+	]
+}

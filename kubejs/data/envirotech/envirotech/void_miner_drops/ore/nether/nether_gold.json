@@ -1,0 +1,17 @@
+{
+	"programs": ["envirotech:ore", "envirotech:metallic_ore"],
+	"item": {
+		"raw:item": "minecraft:nether_gold_ore", "count":1
+	},
+	"config": [
+		{
+			"weight": 720,
+			"dimensions": ["minecraft:the_nether"]
+		},
+		{
+			"focus": "envirotech:yellow",
+			"weight": 5760,
+			"dimensions": ["minecraft:the_nether"]
+		}
+	]
+}

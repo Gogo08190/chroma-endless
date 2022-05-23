@@ -1,0 +1,18 @@
+{
+	"programs": ["envirotech:ore", "envirotech:gemstone_ore"],
+	"item": {
+		"raw:item": "appliedenergistics2:charged_quartz_ore", "count":0,
+		"selector": {
+			"type": "first"
+		}
+	},
+	"config": [
+		{
+			"weight": 218
+		},
+		{
+			"focus": "envirotech:light_blue",
+			"weight": 1696
+		}
+	]
+}

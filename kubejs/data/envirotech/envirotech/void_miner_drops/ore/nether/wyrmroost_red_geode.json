@@ -1,0 +1,19 @@
+{
+	"programs": ["envirotech:ore", "envirotech:gemstone_ore"],
+	"item": {"raw:item_tag": "wyrmroost:red_geode_ore", "count":1},
+	"config": [
+		{
+			"weight": 100,
+			"dimensions": [
+				"minecraft:the_nether"
+			]
+		},
+		{
+			"focus": "envirotech:red",
+			"weight": 800,
+			"dimensions": [
+				"minecraft:the_nether"
+			]
+		}
+	]
+}
