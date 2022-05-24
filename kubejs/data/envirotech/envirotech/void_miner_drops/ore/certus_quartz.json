@@ -1,6 +1,12 @@
 {
+	"override": "disable",
 	"programs": ["envirotech:ore", "envirotech:gemstone_ore"],
-	"item": {"raw:item": "emendatusenigmatica:coal_ore", "count":0},
+	"item": {
+		"raw:item_tag": "forge:ores/certus_quartz", "count":1,
+		"selector": {
+			"type": "first"
+		}
+	},
 	"config": [
 		{
 			"weight": 311

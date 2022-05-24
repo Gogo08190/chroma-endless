@@ -1,0 +1,19 @@
+{
+	"override": "disable",
+	"programs": ["envirotech:ore", "envirotech:metallic_ore"],
+	"item": {
+		"raw:item_tag": "forge:ores/iridium", "count":1,
+		"selector": {
+			"type": "first"
+		}
+	},
+	"config": [
+		{
+			"weight": 157
+		},
+		{
+			"focus": "envirotech:white",
+			"weight": 1256
+		}
+	]
+}
