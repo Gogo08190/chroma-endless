@@ -1,13 +1,7 @@
 {
 	"override": "replace",
 	"programs": ["envirotech:ore", "envirotech:gemstone_ore"],
-	"item": {
-		"raw:item_tag": "forge:ores/fluorite", "count":1,
-		"selector": {
-			"type": "first_preferred",
-			"values": ["mekanism"]
-		}
-	},
+	"item": {"raw:item": "'emendatusenigmatica:fluorite_ore'", "count":1},
 	"config": [
 		{
 			"weight": 800,

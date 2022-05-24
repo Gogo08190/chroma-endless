@@ -1,13 +1,7 @@
 {
 	"override": "replace",
 	"programs": ["envirotech:ore", "envirotech:mineral_ore"],
-	"item": {
-		"raw:item_tag": "forge:ores/niter", "count":1,
-		"selector": {
-			"type": "first_preferred",
-			"values": ["thermal"]
-		}
-	},
+	"item": {"raw:item": "emendatusenigmatica:potassium_nitrate_ore", "count":1},
 	"config": [
 		{
 			"weight": 244,

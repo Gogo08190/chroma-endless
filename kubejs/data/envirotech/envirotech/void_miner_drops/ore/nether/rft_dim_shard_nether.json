@@ -1,6 +1,7 @@
 {
+	"override": "replace",
 	"programs": ["envirotech:ore", "envirotech:gemstone_ore"],
-	"item": {"raw:item": "rftoolsbase:dimensionalshard_nether", "count":1},
+	"item": {"raw:item": "emendatusenigmatica:dimensional_netherrack_ore", "count":1},
 	"config": [
 		{
 			"weight": 350,

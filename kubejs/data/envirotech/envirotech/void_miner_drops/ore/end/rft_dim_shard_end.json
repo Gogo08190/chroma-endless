@@ -1,6 +1,7 @@
 {
+	"override": "replace",
 	"programs": ["envirotech:ore", "envirotech:gemstone_ore"],
-	"item": {"raw:item": "rftoolsbase:dimensionalshard_end", "count":1},
+	"item": {"raw:item": "emendatusenigmatica:dimensional_end_stone_ore", "count":1},
 	"config": [
 		{
 			"weight": 350,

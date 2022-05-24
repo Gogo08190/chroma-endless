@@ -1,7 +1,8 @@
 {
+	"override": "replace",
 	"programs": ["envirotech:ore", "envirotech:gemstone_ore"],
 	"item": {
-		"raw:item": "minecraft:nether_quartz_ore", "count":1
+		"raw:item": "emendatusenigmatica:quartz_netherrack_ore", "count":1
 	},
 	"config": [
 		{

@@ -1,8 +1,7 @@
 {
+	"override": "replace",
 	"programs": ["envirotech:ore", "envirotech:metallic_ore"],
-	"item": {
-		"raw:item": "tconstruct:cobalt_ore", "count":1
-	},
+	"item": {"raw:item": "emendatusenigmatica:cobalt_ore", "count":1},
 	"config": [
 		{
 			"weight": 163,
