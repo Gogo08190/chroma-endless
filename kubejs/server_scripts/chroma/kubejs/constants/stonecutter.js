@@ -179,6 +179,28 @@ const stonecuttables = [
         onlyAsInput: ['minecraft:andesite']
     },
     {
+        name: 'arcane_stone',
+        stones: [
+            'ars_nouveau:arcane_stone',
+            'ars_nouveau:arcane_bricks',
+            'ars_nouveau:ab_smooth',
+            'ars_nouveau:ab_smooth_slab',
+            'ars_nouveau:ab_clover',
+            'ars_nouveau:ab_mosaic',
+            'ars_nouveau:ab_herring',
+            'ars_nouveau:ab_basket',
+            'ars_nouveau:ab_alternating',
+            'ars_nouveau:sas_basket',
+            'ars_nouveau:sas_clover',
+            'ars_nouveau:sas_herring',
+            'ars_nouveau:sas_mosaic',
+            'ars_nouveau:sas_alternating',
+            'ars_nouveau:sas_ashlar'
+        ],
+        onlyAsOutput: [],
+        onlyAsInput: []
+    },
+    {
         name: 'basalt',
         stones: [
             'minecraft:polished_basalt',
@@ -2277,7 +2299,7 @@ colors.forEach((color) => {
     ];
 
     let glassOnlyInput = [
-        `tconstruct:${color}_clear_stained_glass`,
+        `tconstruct:${color}_clear_stained_glass`
     ];
 
     stonecuttables.push({
@@ -2306,7 +2328,7 @@ colors.forEach((color) => {
     ];
 
     let glassPanesOnlyInput = [
-        `tconstruct:${color}_clear_stained_glass_pane`,
+        `tconstruct:${color}_clear_stained_glass_pane`
     ];
 
     stonecuttables.push({
