@@ -13,32 +13,6 @@ onEvent('server.datapack.low_priority', (event) => {
             ]
         },
         {
-            name: 'amadron_mineral_survey_atum',
-            rolls: [16, 32],
-            entries: [
-                { amount: [16, 24], weight: 200, item: 'emendatusenigmatica:bitumen_chunk' },
-                { amount: [16, 24], weight: 100, item: 'emendatusenigmatica:coal_chunk' },
-                { amount: [16, 24], weight: 400, item: 'emendatusenigmatica:diamond_chunk' },
-                { amount: [16, 24], weight: 600, item: 'emendatusenigmatica:emerald_chunk' },
-                { amount: [16, 24], weight: 50, item: 'emendatusenigmatica:fluorite_chunk' },
-                { amount: [16, 24], weight: 50, item: 'emendatusenigmatica:lapis_chunk' },
-                { amount: [16, 24], weight: 50, item: 'emendatusenigmatica:potassium_nitrate_chunk' },
-                { amount: [16, 24], weight: 50, item: 'emendatusenigmatica:redstone_chunk' },
-
-                { amount: [16, 24], weight: 400, item: 'emendatusenigmatica:aluminum_chunk' },
-                { amount: [16, 24], weight: 500, item: 'emendatusenigmatica:copper_chunk' },
-                { amount: [16, 24], weight: 700, item: 'emendatusenigmatica:gold_chunk' },
-                { amount: [16, 24], weight: 700, item: 'emendatusenigmatica:iron_chunk' },
-                { amount: [16, 24], weight: 100, item: 'emendatusenigmatica:lead_chunk' },
-                { amount: [16, 24], weight: 200, item: 'emendatusenigmatica:nickel_chunk' },
-                { amount: [16, 24], weight: 50, item: 'emendatusenigmatica:osmium_chunk' },
-                { amount: [16, 24], weight: 500, item: 'emendatusenigmatica:silver_chunk' },
-                { amount: [16, 24], weight: 200, item: 'emendatusenigmatica:tin_chunk' },
-                { amount: [16, 24], weight: 50, item: 'emendatusenigmatica:uranium_chunk' },
-                { amount: [16, 24], weight: 100, item: 'emendatusenigmatica:zinc_chunk' },
-            ]
-        },
-        {
             name: 'amadron_mineral_survey_undergarden',
             rolls: [16, 32],
             entries: [
@@ -268,15 +242,6 @@ onEvent('server.datapack.low_priority', (event) => {
                 { amount: [16, 24], weight: 100, item: 'minecraft:chorus_flower' },
                 { amount: [16, 24], weight: 100, item: 'quark:chorus_twist' },
                 { amount: [16, 24], weight: 100, item: 'quark:chorus_weeds' }
-            ]
-        },
-        {
-            name: 'amadron_mineral_survey_atum_combo',
-            type: 'multi_pool',
-            pools: [
-                { table: 'amadron_survey_tool_return', weight: 1 },
-                { table: 'amadron_survey_air_canister_return', weight: 1 },
-                { table: 'amadron_mineral_survey_atum', weight: 1 }
             ]
         },
         {

@@ -40,7 +40,6 @@ onEvent('item.tags', (event) => {
         .add(/byg:\w+_glowshroom/)
         .add(/quark:\w+_glowshroom/)
         .add(/botania:\w+_mushroom/)
-        .add(/atum:lantern/)
         .add(/illumin/)
         .add(/sconce/)
         .add(/candelabra/)

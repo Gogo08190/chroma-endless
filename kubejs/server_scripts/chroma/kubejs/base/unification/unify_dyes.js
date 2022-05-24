@@ -148,15 +148,6 @@ function thermal_dye_centrifuge(event, recipe) {
 
     event.recipes.thermal.centrifuge(outputs, input);
 }
-function shapeless_dye_crafting(event, recipe) {
-    if (recipe.input.split(':')[0] !== 'atum') {
-        return;
-    }
-    var output = Item.of(recipe.primary),
-        inputs = [recipe.input];
-
-    event.shapeless(output, inputs);
-}
 function occultism_dye_crushing(event, recipe) {
     if (recipe.input == 'minecraft:bone') {
         return;
