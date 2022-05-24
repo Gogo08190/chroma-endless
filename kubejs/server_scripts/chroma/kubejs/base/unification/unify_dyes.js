@@ -8,7 +8,6 @@ onEvent('recipes', (event) => {
         mekanism_pigment_extracting(event, recipe);
         pedestals_dye_crushing(event, recipe);
         thermal_dye_centrifuge(event, recipe);
-        shapeless_dye_crafting(event, recipe);
         occultism_dye_crushing(event, recipe);
     });
 });

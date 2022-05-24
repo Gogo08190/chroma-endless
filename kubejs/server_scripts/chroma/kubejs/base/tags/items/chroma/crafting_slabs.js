@@ -1,6 +1,6 @@
 onEvent('item.tags', (event) => {
     event
-        .get('enigmatica:crafting_slabs')
+        .get('chroma:crafting_slabs')
         .add([
             'quark:smooth_basalt_slab',
             'quark:polished_basalt_slab',
@@ -13,7 +13,6 @@ onEvent('item.tags', (event) => {
             'quark:slate_slab',
             'quark:polished_jasper_slab',
             'quark:jasper_slab',
-            'astralsorcery:marble_slab',
             'quark:polished_marble_slab',
             'quark:marble_slab',
             'architects_palette:limestone_slab',
