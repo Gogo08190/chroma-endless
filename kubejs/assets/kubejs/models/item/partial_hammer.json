@@ -1,0 +1,14 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "kubejs:item/hammer_model"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [25.7, 23.86, 35.63],
+			"translation": [0, 1.5, 1],
+			"scale": [0.60547, 0.60547, 0.60547]
+		}
+	}
+}
