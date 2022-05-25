@@ -2,11 +2,11 @@
 
 onEvent('recipes', (event) => {
     const idRemovals = [
-      /create:crafting\/materials\/andesite_alloy/
+
     ];
 
     const outputRemovals = [
-      
+      'immersiveengineering:hammer'
     ];
 
     idRemovals.forEach((id) => {
