@@ -1,5 +1,5 @@
 onEvent('recipes', (event) => {
-    const id_prefix = 'chroma:expert/create/sequenced_assembly/';
+    const id_prefix = 'chroma:pack/create/sequenced_assembly/';
     const recipes = [
         /*{
             input: 'input_item_here',
