@@ -1,4 +1,19 @@
 // priority: 100
-onEvent("recipes", (event) => {
-  event.remove({ output: 'create:andesite_alloy' })
-  });
+
+onEvent('recipes', (event) => {
+    const idRemovals = [
+      /create:crafting\/materials\/andesite_alloy/
+    ];
+
+    const outputRemovals = [
+
+    ];
+
+    idRemovals.forEach((id) => {
+        event.remove({ id: id });
+    });
+
+    outputRemovals.forEach((output) => {
+        event.remove({ output: output });
+    });
+});
