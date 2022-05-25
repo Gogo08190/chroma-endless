@@ -6,7 +6,8 @@ onEvent('recipes', (event) => {
     ];
 
     const outputRemovals = [
-      
+      'immersiveengineering:cokebrick',
+      'immersiveengineering:blastbrick',
     ];
 
     idRemovals.forEach((id) => {
