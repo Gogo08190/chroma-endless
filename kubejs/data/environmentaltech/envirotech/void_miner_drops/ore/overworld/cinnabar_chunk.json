@@ -1,0 +1,17 @@
+{
+	"programs": ["environmentaltech:chunk_miner"],
+	"item": {"raw:item": "emendatusenigmatica:cinnabar_chunk", "count":1},
+	"config": [
+		{
+			"weight": 190,
+			"blacklist_dimensions": true,
+			"dimensions": ["minecraft:the_nether", "minecraft:the_end"]
+		},
+		{
+			"focus": "envirotech:brown",
+			"weight": 1520,
+			"blacklist_dimensions": true,
+			"dimensions": ["minecraft:the_nether", "minecraft:the_end"]
+		}
+	]
+}

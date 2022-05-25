@@ -1,0 +1,18 @@
+{
+	"override": "replace",
+	"programs": ["envirotech:ore", "envirotech:mineral_ore"],
+	"item": {"raw:item": "emendatusenigmatica:cinnabar_ore", "count":1},
+	"config": [
+		{
+			"weight": 190,
+			"blacklist_dimensions": true,
+			"dimensions": ["minecraft:the_nether", "minecraft:the_end"]
+		},
+		{
+			"focus": "envirotech:brown",
+			"weight": 1520,
+			"blacklist_dimensions": true,
+			"dimensions": ["minecraft:the_nether", "minecraft:the_end"]
+		}
+	]
+}

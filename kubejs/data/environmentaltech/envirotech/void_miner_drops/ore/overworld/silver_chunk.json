@@ -1,0 +1,17 @@
+{
+	"programs": ["environmentaltech:chunk_miner"],
+	"item": {"raw:item": "emendatusenigmatica:silver_chunk", "count":1},
+	"config": [
+		{
+			"weight": 381,
+			"blacklist_dimensions": true,
+			"dimensions": ["minecraft:the_nether", "minecraft:the_end"]
+		},
+		{
+			"focus": "envirotech:light_gray",
+			"weight": 3048,
+			"blacklist_dimensions": true,
+			"dimensions": ["minecraft:the_nether", "minecraft:the_end"]
+		}
+	]
+}
