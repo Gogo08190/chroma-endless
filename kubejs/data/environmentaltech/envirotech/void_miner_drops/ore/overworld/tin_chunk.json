@@ -1,0 +1,13 @@
+{
+	"programs": ["environmentaltech:chunk_miner"],
+	"item": {"raw:item": "emendatusenigmatica:tin_chunk", "count":1},
+	"config": [
+		{
+			"weight": 602
+		},
+		{
+			"focus": "envirotech:gray",
+			"weight": 4816
+		}
+	]
+}

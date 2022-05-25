@@ -1,0 +1,19 @@
+{
+	"override": "disable",
+	"programs": ["envirotech:ore", "envirotech:gemstone_ore"],
+	"item": {
+		"raw:item_tag": "forge:ores/amber", "count":1,
+		"selector": {
+			"type": "first"
+		}
+	},
+	"config": [
+		{
+			"weight": 184
+		},
+		{
+			"focus": "envirotech:orange",
+			"weight": 1472
+		}
+	]
+}
