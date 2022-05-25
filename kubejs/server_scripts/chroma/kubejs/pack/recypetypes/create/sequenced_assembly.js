@@ -33,7 +33,7 @@ onEvent('recipes', (event) => {
                 },
                 {
                     type: 'deploying',
-                    input: ['#kubejs:partial_hammer', 'create:cogwheel'],
+                    input: ['kubejs:partial_hammer', 'create:cogwheel'],
                     output: 'kubejs:partial_hammer'
                 },
                 {
