@@ -12,16 +12,7 @@ onEvent('recipes', (event) => {
     */
 
     const recipes = [
-        {
-            output: 'tconstruct:silky_cloth',
-            pattern: ['CSS', 'SSG', 'GGG'],
-            key: {
-                C: 'minecraft:clay',
-                S: '#forge:sand',
-                G: '#forge:gravel'
-            },
-            id: '4x tconstruct:grout'
-        },
+
     ];
 
     recipes.forEach((recipe) => {
