@@ -12,7 +12,7 @@ onEvent('recipes', (event) => {
         {
             output: '4x tconstruct:grout',
             inputs: ['minecraft:clay', '4x #forge:sand', '4x #forge:gravel'],
-            id: '4x tconstruct:grout'
+            id: 'tconstruct:grout_multiple'
         },
         {
             output: 'tconstruct:grout',

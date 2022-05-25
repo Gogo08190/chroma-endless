@@ -35,14 +35,6 @@ onEvent('recipes', (event) => {
                 tool: 'pickaxe'
             },
             [Item.of('minecraft:gravel', 2)]
-        ),
-        cuttingRecipe(
-            Ingredient.of('minecraft:clay'),
-            {
-                type: 'farmersdelight:tool',
-                tool: 'shovel'
-            },
-            [Item.of('minecraft:clay_ball', 6)]
         )
     ];
 
