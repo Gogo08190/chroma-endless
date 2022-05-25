@@ -83,12 +83,6 @@ onEvent('recipes', (event) => {
         event.recipes.immersiveengineering
             .metal_press(Item.of(rod, 1), input, mold)
             .id(`${id_prefix}immersiveengineering_metal_press_${material}_rod`);
-
-        event
-            .shaped(output, ['A', 'A'], {
-                A: input
-            })
-            .id(`${id_prefix}shaped_crafting_${material}_rod`);
     }
 
     function plate_unification(event, material, ingot, gem, plate) {
