@@ -1,0 +1,19 @@
+{
+  "profession": "immersiveengineering:machinist",
+  "replace": "true",
+  "trades":
+  [
+    {
+      "level": 1,
+      "trade": {
+        "type": "minecraft:items_for_emeralds",
+        "item": "immersiveengineering:craftingtable",
+        "emerald_count": 6,
+        "count": 1,
+        "max_uses": 1,
+        "xp_value": 12
+      }
+    }
+
+  ]
+}
