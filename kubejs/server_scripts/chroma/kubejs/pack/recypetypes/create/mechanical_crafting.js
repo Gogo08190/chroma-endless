@@ -2,7 +2,7 @@ onEvent('recipes', (event) => {
     const recipes = [
         {
             output: 'occultism:dictionary_of_spirits',
-            pattern: ['CAC', 'CBC', 'CSC',],
+            pattern: ['CAC', 'CBC', 'CSC'],
             key: {
                 C: 'create:cinder_flour',
                 A: 'create:andesite_alloy',
@@ -10,6 +10,16 @@ onEvent('recipes', (event) => {
                 S: 'occultism:datura_seeds'
             },
             id: 'occultism:dictionary_of_spirits'
+        },
+        {
+            output: 'create:crushing_wheel',
+            pattern: [' AAA ', 'AACAA', 'ACSCA', 'AACAA', ' AAA '],
+            key: {
+                C: 'create:brass_casing',
+                A: 'create:andesite_alloy',
+                S: 'create:shaft'
+            },
+            id: 'create:crushing_wheel'
         }
     ];
 
