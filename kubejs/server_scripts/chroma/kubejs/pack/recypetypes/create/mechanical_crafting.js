@@ -12,7 +12,7 @@ onEvent('recipes', (event) => {
             id: 'occultism:dictionary_of_spirits'
         },
         {
-            output: 'create:crushing_wheel',
+            output: '2x create:crushing_wheel',
             pattern: [' AAA ', 'AACAA', 'ACSCA', 'AACAA', ' AAA '],
             key: {
                 C: 'create:brass_casing',
