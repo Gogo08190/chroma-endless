@@ -1,0 +1,179 @@
+{
+  "profession": "immersiveengineering:machinist",
+  "removeOtherTrades": true,
+  "trades": [
+    
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "immersiveengineering:coal_coke",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 300,
+      "maxUses": 16,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "immersiveengineering:component_steel",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 5,
+        "priceModifier": 1
+      },
+      "tradeExp": 3,
+      "maxUses": 12,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "immersiveengineering:ingot_aluminum",
+        "amount": 5,
+        "priceModifier": 1
+      },
+      "tradeExp": 3,
+      "maxUses": 12,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "immersiveengineering:ingot_copper",
+        "amount": 5,
+        "priceModifier": 1
+      },
+      "tradeExp": 3,
+      "maxUses": 12,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 2
+    },
+    
+    {
+      "offer": {
+        "itemKey": "immersiveengineering:waterwheel_segment",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2,
+        "priceModifier": 1
+      },
+      "tradeExp": 3,
+      "maxUses": 12,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "immersiveengineering:toolbox",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2,
+        "priceModifier": 1
+      },
+      "tradeExp": 3,
+      "maxUses": 12,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "immersiveengineering:earmuffs",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 7,
+        "priceModifier": 1
+      },
+      "tradeExp": 3,
+      "maxUses": 12,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 4
+    },
+
+    {
+      "offer": {
+        "itemKey": "immersiveengineering:drillhead_iron",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 40,
+        "priceModifier": 1
+      },
+      "tradeExp": 3,
+      "maxUses": 12,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 4
+    },
+
+    {
+      "offer": {
+        "itemKey": "immersiveengineering:drillhead_steel",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 43,
+        "priceModifier": 1
+      },
+      "tradeExp": 3,
+      "maxUses": 12,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 5
+    },
+
+    {
+      "offer": {
+        "itemKey": "immersiveengineering:blueprint",
+        "amount": 1,
+        "priceModifier": 0,
+        "nbtTags":[
+          {
+            "nbtName":"blueprint",
+            "data" : "electrode"
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 43,
+        "priceModifier": 1
+      },
+      "tradeExp": 3,
+      "maxUses": 12,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 5
+    }
+    ]
+  }
+
+    

@@ -1,0 +1,19 @@
+# This is the OLD trading config for the Villager Trading Mod.
+#This file is completely useless, if you see this message then it has been generated for compatiablilty reasons.
+#The reason for this is because V2 of this mod used a different method to create trades. If I was to remove this config file then it could result in people losing their trades.
+allVillagerTrades = []
+armorerTrades = []
+butcherTrades = []
+cartographerTrades = []
+clericTrades = []
+farmerTrades = []
+fishermanTrades = []
+fletcherTrades = []
+leatherworkerTrades = []
+librarianTrades = []
+masonTrades = []
+nitwitTrades = []
+shepherdTrades = []
+toolsmithTrades = []
+weaponsmithTrades = []
+
