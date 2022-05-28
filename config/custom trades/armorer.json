@@ -2,7 +2,7 @@
   "profession": "immersiveengineering:machinist",
   "removeOtherTrades": true,
   "trades": [
-    
+
     {
       "offer": {
         "itemKey": "minecraft:emerald",
@@ -42,7 +42,7 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "immersiveengineering:ingot_aluminum",
+        "itemKey": "emendatusenigmatica:aluminum_ingot",
         "amount": 5,
         "priceModifier": 1
       },
@@ -58,7 +58,7 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "immersiveengineering:ingot_copper",
+        "itemKey": "emendatusenigmatica:copper_ingot",
         "amount": 5,
         "priceModifier": 1
       },
@@ -67,7 +67,7 @@
       "priceMultiplier": 0.1,
       "tradeLevel": 2
     },
-    
+
     {
       "offer": {
         "itemKey": "immersiveengineering:waterwheel_segment",
@@ -175,5 +175,3 @@
     }
     ]
   }
-
-    
