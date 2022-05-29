@@ -6,8 +6,6 @@ onEvent('recipes', (event) => {
     ];
 
     const outputRemovals = [
-      'immersiveengineering:cokebrick',
-      'immersiveengineering:blastbrick',
       'create:brass_casing',
       'create:crushing_wheel'
     ];

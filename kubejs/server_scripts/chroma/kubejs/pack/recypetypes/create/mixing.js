@@ -34,6 +34,11 @@ onEvent('recipes', (event) => {
             output: Item.of('immersiveengineering:blastbrick', 1),
             superheated: true,
             id: `${id_prefix}blastbrick`
+        },
+        {
+            inputs: ['#forge:sandstone', Fluid.of('tconstruct:molten_clay', 1000)],
+            output: Item.of('immersiveengineering:alloybrick', 1),
+            id: `${id_prefix}alloybrick`
         }
     ];
 

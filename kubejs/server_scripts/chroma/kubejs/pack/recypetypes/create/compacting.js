@@ -6,6 +6,12 @@ onEvent('recipes', (event) => {
             output: Item.of('industrialforegoing:dryrubber', 1),
             type: 'unheated',
             id: `${id_prefix}dryrubber`
+        },
+        {
+            inputs: ['immersiveengineering:blastbrick', 'emendatusenigmatica:steel_plate'],
+            output: Item.of('immersiveengineering:blastbrick_reinforced', 1),
+            type: 'superheated',
+            id: `${id_prefix}blastbrick_reinforced`
         }
     ];
 

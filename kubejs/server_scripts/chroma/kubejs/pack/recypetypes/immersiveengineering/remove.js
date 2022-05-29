@@ -2,7 +2,10 @@
 
 onEvent('recipes', (event) => {
     const idRemovals = [
-
+      'immersiveengineering:crafting/alloybrick',
+      'immersiveengineering:crafting/blastbrick',
+      'immersiveengineering:crafting/cokebrick',
+      'immersiveengineering:crafting/blastbrick_reinforced'
     ];
 
     const outputRemovals = [

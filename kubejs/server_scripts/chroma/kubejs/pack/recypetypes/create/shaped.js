@@ -14,10 +14,11 @@ onEvent('recipes', (event) => {
     const recipes = [
       {
         output: Item.of('create:brass_casing', 4),
-        pattern: ['ABA', 'BBB', 'ABA'],
+        pattern: ['ABA', 'BCB', 'ABA'],
         key: {
             A: '#forge:plates/brass',
-            B: 'immersiveengineering:treated_wood_horizontal'
+            B: 'immersiveengineering:treated_wood_horizontal',
+            C: 'create:andesite_alloy'
         },
         id: 'create:crafting/materials/brass_casing'
       },
