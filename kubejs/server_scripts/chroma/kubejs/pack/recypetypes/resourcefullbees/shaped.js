@@ -14,10 +14,12 @@ onEvent('recipes', (event) => {
 
     const recipes = [
       {
-          output: '',
-          pattern: ['', '', ''],
+          output: Item.of('minecraft:oak_log', 16),
+          pattern: ['WHW', 'HSH', 'WHW'],
           key: {
-              A: ''
+              W: 'resourcefulbees:wax',
+              H: 'resourcefulbees:forest_honeycomb',
+              S: 'minecraft:oak_sapling'
           },
           id: `${id_prefex}oak_woody_bee`
       },
