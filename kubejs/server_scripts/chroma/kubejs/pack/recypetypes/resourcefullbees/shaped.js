@@ -12,25 +12,24 @@ onEvent('recipes', (event) => {
         }
     */
 
+    treeRegistry.forEach((treeCategories) => {
+        if (treeCategories.type == 'tree') {
+            treeCategories.trees.forEach((tree) => {
+                if (tree.trunk != 'minecraft:oak_log') {
+                    event
+                        .shaped(Item.of(tree.trunk, 8), ['WHW', 'HSH', 'WHW'], {
+                            S: tree.sapling,
+                            H: 'resourcefulbees:forest_honeycomb',
+                            W: 'resourcefulbees:wax'
+                        })
+                        .id(`${id_prefix}${tree.trunk.replace(':', '_')}_from_${tree.sapling.replace(':', '_')}`);
+                }
+            });
+        }
+    });
+
     const recipes = [
-      {
-          output: Item.of('minecraft:oak_log', 16),
-          pattern: ['WHW', 'HSH', 'WHW'],
-          key: {
-              W: 'resourcefulbees:wax',
-              H: 'resourcefulbees:forest_honeycomb',
-              S: 'minecraft:oak_sapling'
-          },
-          id: `${id_prefex}oak_woody_bee`
-      },
-      {
-          output: '',
-          pattern: ['', '', ''],
-          key: {
-              A: ''
-          },
-          id: `${id_prefex}spruce_woody_bee`
-      }
+
     ];
 
     recipes.forEach((recipe) => {

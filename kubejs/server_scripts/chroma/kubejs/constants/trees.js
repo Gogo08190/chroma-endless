@@ -4,6 +4,42 @@ const treeRegistry = [
     {
         type: 'tree',
         trees: [
+          {
+                sapling: 'ars_nouveau:blue_archwood_sapling',
+                trunk: 'ars_nouveau:blue_archwood_log',
+                leaf: 'ars_nouveau:blue_archwood_leaves',
+                fruit: 'minecraft:apple',
+                substrate: 'dirt',
+                sap: 'thermal:resin',
+                rate: { living: 75, dead: 8 }
+            },
+            {
+                sapling: 'ars_nouveau:green_archwood_sapling',
+                trunk: 'ars_nouveau:green_archwood_log',
+                leaf: 'ars_nouveau:green_archwood_leaves',
+                fruit: 'minecraft:apple',
+                substrate: 'dirt',
+                sap: 'thermal:resin',
+                rate: { living: 75, dead: 8 }
+            },
+            {
+                sapling: 'ars_nouveau:purple_archwood_sapling',
+                trunk: 'ars_nouveau:purple_archwood_log',
+                leaf: 'ars_nouveau:purple_archwood_leaves',
+                fruit: 'minecraft:apple',
+                substrate: 'dirt',
+                sap: 'thermal:resin',
+                rate: { living: 75, dead: 8 }
+            },
+            {
+                sapling: 'ars_nouveau:red_archwood_sapling',
+                trunk: 'ars_nouveau:red_archwood_log',
+                leaf: 'ars_nouveau:red_archwood_leaves',
+                fruit: 'minecraft:apple',
+                substrate: 'dirt',
+                sap: 'thermal:resin',
+                rate: { living: 75, dead: 8 }
+            },
             {
                 sapling: 'byg:araucaria_sapling',
                 trunk: 'byg:pine_log',
