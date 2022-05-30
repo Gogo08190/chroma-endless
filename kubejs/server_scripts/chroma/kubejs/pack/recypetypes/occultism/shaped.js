@@ -179,7 +179,6 @@ onEvent('recipes', (event) => {
             id: 'occultism:book_of_binding_djinni'
         },
 
-
         {
             output: 'occultism:book_of_binding_afrit',
             pattern: ['DYD', 'AQA', 'DYD'],
