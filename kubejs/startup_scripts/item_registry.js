@@ -1,6 +1,6 @@
 onEvent('item.registry', (event) => {
     const generalItems = [
-        'partial_hammer'
+        'partial_hammer',
         'partial_wirecutter'
     ];
 
