@@ -9,7 +9,8 @@ onEvent('recipes', (event) => {
     ];
 
     const outputRemovals = [
-      'immersiveengineering:hammer'
+      'immersiveengineering:hammer',
+      'immersiveengineering:watermill'
     ];
 
     idRemovals.forEach((id) => {

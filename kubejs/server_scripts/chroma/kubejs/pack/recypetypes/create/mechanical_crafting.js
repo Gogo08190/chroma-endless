@@ -20,6 +20,17 @@ onEvent('recipes', (event) => {
                 S: 'create:shaft'
             },
             id: 'create:crushing_wheel'
+        },
+        {
+            output: 'immersiveengineering:watermill',
+            pattern: ['   S   ', '  SWS  ', ' SWIWS ', 'SWITIWS', ' SWIWS ', '  SWS  ', '   S   '],
+            key: {
+                S: 'immersiveengineering:stick_treated',
+                W: 'immersiveengineering:waterwheel_segment',
+                I: 'emendatusenigmatica:steel_ingot',
+                T: 'immersiveengineering:treated_wood_horizontal'
+            },
+            id: 'immersiveengineering:watermill'
         }
     ];
 
