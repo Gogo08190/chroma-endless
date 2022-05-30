@@ -5,7 +5,7 @@ onEvent('recipes', (event) => {
         treeCategories.trees.forEach((tree) => {
             if (tree.sap) {
                 if (tree.rate.living > 0) {
-                    fallback_id(event.custom({
+                    event.custom({
                         type: 'thermal:tree_extractor',
                         trunk: tree.trunk,
                         leaves: tree.leaf,
@@ -13,7 +13,7 @@ onEvent('recipes', (event) => {
                             fluid: tree.sap,
                             amount: tree.rate.living
                         }
-                    }), id_prefix);
+                    });
                 }
             }
         });

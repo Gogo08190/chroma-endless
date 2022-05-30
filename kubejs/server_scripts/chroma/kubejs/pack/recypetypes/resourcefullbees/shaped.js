@@ -1,5 +1,5 @@
 onEvent('recipes', (event) => {
-    const id_prefex = 'chroma:pack/';
+    const id_prefix = 'chroma:pack/';
     /*
         ,
         {
