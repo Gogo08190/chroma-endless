@@ -129,7 +129,7 @@ onEvent('recipes', (event) => {
                 I: '#forge:storage_blocks/iron',
                 A: 'create:andesite_alloy'
             },
-            id: Item.of('occultism:butcher_knife', '{Damage:0}'),
+            id: Item.of('occultism:butcher_knife', '{Damage:0}')
         },
 
         {
