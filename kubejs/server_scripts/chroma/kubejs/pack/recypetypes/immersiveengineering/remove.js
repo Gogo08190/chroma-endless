@@ -10,6 +10,7 @@ onEvent('recipes', (event) => {
 
     const outputRemovals = [
       'immersiveengineering:hammer',
+      'immersiveengineering:wirecutter',
       'immersiveengineering:watermill'
     ];
 

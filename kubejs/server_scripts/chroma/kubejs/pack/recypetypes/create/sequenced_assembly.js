@@ -43,6 +43,30 @@ onEvent('recipes', (event) => {
                 }
             ],
             id: `${id_prefix}hammer`
+        },
+        {
+            input: '#forge:rods/lead',
+            outputs: ['immersiveengineering:wirecutter'],
+            transitionalItem: 'kubejs:partial_wirecutter',
+            loops: 2,
+            sequence: [
+                {
+                    type: 'deploying',
+                    input: ['kubejs:partial_wirecutter', '#forge:ingots/iron'],
+                    output: 'kubejs:partial_wirecutter'
+                },
+                {
+                    type: 'deploying',
+                    input: ['kubejs:partial_wirecutter', 'create:andesite_alloy'],
+                    output: 'kubejs:partial_wirecutter'
+                },
+                {
+                    type: 'deploying',
+                    input: ['kubejs:partial_wirecutter', '#forge:ingots/iron'],
+                    output: 'kubejs:partial_wirecutter'
+                }
+            ],
+            id: `${id_prefix}wirecutter`
         }
     ];
 
