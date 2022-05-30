@@ -52,7 +52,7 @@ onEvent('recipes', (event) => {
             sequence: [
                 {
                     type: 'deploying',
-                    input: ['kubejs:partial_wirecutter', '#forge:ingots/iron'],
+                    input: ['kubejs:partial_wirecutter', '#forge:ingots/steel'],
                     output: 'kubejs:partial_wirecutter'
                 },
                 {
@@ -62,7 +62,7 @@ onEvent('recipes', (event) => {
                 },
                 {
                     type: 'deploying',
-                    input: ['kubejs:partial_wirecutter', '#forge:ingots/iron'],
+                    input: ['kubejs:partial_wirecutter', '#forge:ingots/steel'],
                     output: 'kubejs:partial_wirecutter'
                 }
             ],
