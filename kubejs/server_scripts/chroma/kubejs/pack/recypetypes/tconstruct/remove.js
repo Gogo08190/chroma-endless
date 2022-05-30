@@ -6,7 +6,8 @@ onEvent('recipes', (event) => {
     ];
 
     const outputRemovals = [
-      'tconstruct:grout'
+      'tconstruct:grout',
+      'tconstruct:nether_grout'
     ];
 
     idRemovals.forEach((id) => {
