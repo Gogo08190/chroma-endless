@@ -5,10 +5,10 @@
     "maxTimeInHive": 6000,
     "hasHoneycomb": true,
     "traits": ["can_swim"],
-    "baseLayerTexture": "magic/occutltist",
+    "baseLayerTexture": "other/occultist",
     "ColorData": {
   	"honeycombColor": "#4f2b79",
-  	"modelType": "BASE"
+  	"modelType": "DRAGON"
     },
       "CombatData": {
     	"isPassive": false,
@@ -56,7 +56,7 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "feedItem": "tag:occultism:otherstone",
+    "feedItem": "occultism:otherstone",
     "feedAmount": 1,
     "childGrowthDelay": -24000,
     "breedDelay": 6000
