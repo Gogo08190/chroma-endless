@@ -17,15 +17,15 @@
     	"attackDamage": 4
    	},
     "MutationData": {
-    "hasMutation": true,
-    "mutationCount": 4,
-    "mutation": [
+      "hasMutation": true,
+      "mutationCount": 4,
+      "mutation": [
       {
         "type": "BLOCK",
         "chance": 0.5,
         "inputID": "minecraft:andesite",
         "outputs": [
-          {"outputID": "occultism:otherstone","weight": 512}
+          {"outputID": "occultism:otherstone", "weight": 512}
         ]
       },
       {
