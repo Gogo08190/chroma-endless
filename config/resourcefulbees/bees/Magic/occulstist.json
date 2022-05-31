@@ -19,11 +19,11 @@
     "MutationData": {
     "hasMutation": true,
     "mutationCount": 4,
-    "mutaion": [
+    "mutation": [
       {
         "type": "BLOCK",
         "chance": 0.5,
-        "inputID": "minecraft:stone",
+        "inputID": "minecraft:andesite",
         "outputs": [
           {"outputID": "occultism:otherstone","weight": 512}
         ]
