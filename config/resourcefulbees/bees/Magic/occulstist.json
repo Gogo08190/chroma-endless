@@ -5,10 +5,10 @@
     "maxTimeInHive": 6000,
     "hasHoneycomb": true,
     "traits": ["can_swim"],
-    "baseLayerTexture": "magic/occtultist",
+    "baseLayerTexture": "custom/bee",
     "ColorData": {
   	"honeycombColor": "#4f2b79",
-  	"modelType": "base"
+  	"modelType": "BASE"
     },
       "CombatData": {
     	"isPassive": false,
