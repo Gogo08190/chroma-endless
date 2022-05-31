@@ -1,0 +1,67 @@
+{
+    "flower": "occultism:otherstone",
+    "lore": "mettre du lore",
+    "loreColor": "#00AAAA",
+    "maxTimeInHive": 6000,
+    "hasHoneycomb": true,
+    "traits": ["can_swim"],
+    "baseLayerTexture": "magic/occtultist",
+    "ColorData": {
+  	"honeycombColor": "#4f2b79",
+  	"modelType": "base"
+    },
+      "CombatData": {
+    	"isPassive": false,
+    	"removeStingerOnAttack": false,
+    	"inflictsPoison": true,
+    	"attackDamage": 4
+   	},
+    "MutationData": {
+    "hasMutation": true,
+    "mutationCount": 4,
+    "mutaion": [
+      {
+        "type": "BLOCK",
+        "chance": 0.5,
+        "inputID": "minecraft:stone",
+        "outputs": [
+          {"outputID": "occultism:otherstone","weight": 512}
+        ]
+      },
+      {
+        "type": "BLOCK",
+        "chance": 0.5,
+        "inputID": "minecraft:oak_log",
+        "outputs": [
+          {"outputID": "occultism:otherworld_log", "weight": 512}
+        ]
+      }
+    ]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+
+    "mainOutput": "occultism:spirit_attuned_gem",
+    "mainOutputWeight": 0.15,
+    "mainOutputCount": 1,
+
+    "secondaryOutput": "occultism:iesnium_nugget",
+    "secondaryOutputWeight": 0.1,
+    "secondaryOutputCount": 1,
+
+    "mainOutputCount": 1
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "tag:occultism:otherstone",
+    "feedAmount": 1,
+    "childGrowthDelay": -24000,
+    "breedDelay": 6000
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+  }
