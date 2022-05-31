@@ -12,17 +12,17 @@ onEvent('recipes', (event) => {
         {
             output: '4x tconstruct:grout',
             inputs: ['minecraft:clay', '4x #forge:sand', '4x #forge:gravel'],
-            id: 'tconstruct:grout_multiple'
+            id: 'tconstruct:smeltery/seared/grout_multiple'
         },
         {
             output: 'tconstruct:grout',
             inputs: ['minecraft:clay_ball', '#forge:sand', '#forge:gravel'],
-            id: 'tconstruct:grout'
+            id: 'tconstruct:smeltery/seared/grout'
         },
         {
             output: '2x tconstruct:nether_grout',
             inputs: ['minecraft:magma_cream', '#forge:soul_sand', 'tconstruct:grout'],
-            id: 'tconstruct:nether_grout'
+            id: 'tconstruct:smeltery/scorched/nether_grout'
         }
     ];
 
