@@ -34,10 +34,18 @@
   "block.resourcefulbees.water_honey_block":"Water Honey Block",
   "item.resourcefulbees.water_honey_bottle":"Water Honey Bottle",
   "item.resourcefulbees.water_honey_fluid_bucket":"Water Honey Bucket",
-  "resourcefulbees.water_honey":"Water Honey",
+  "fluid.resourcefulbees.water_honey":"Water Honey",
 
   "fluid.resourcefulbees.lapis_honey": "Lapis Lazuli Honey",
   "item.resourcefulbees.lapis_honey_bottle": "Lapis Lazuli Honey Bottle",
   "item.resourcefulbees.lapis_honey_fluid_bucket": "Lapis Lazuli Honey Bucket",
-  "block.resourcefulbees.lapis_honey_block": "Lapis Lazuli Honey Block"
+  "block.resourcefulbees.lapis_honey_block": "Lapis Lazuli Honey Block",
+
+  "item.resourcefulbees:occultist_bee_spawn_egg": "Occultist Bee Spawn Egg",
+  "item.resourcefulbees:occultist_honeycomb": "Occultist Honeycomb",
+  "fluid.resourcefulbees.occultist_honey":"Occultist Honey",
+  "item.resourcefulbees.occultist_honey_fluid_bucket": "Occultist Honey Bucket",
+  "block.resourcefulbees.occultist_honeycomb_block": "Occultist HoneyComb Block",
+  "item.resourcefulbees.occultist_honey_bottle": "Occultist Honey Bottle",
+  "entity.resourcefulbees.occultist_bee": "Occultist Bee"
 }
