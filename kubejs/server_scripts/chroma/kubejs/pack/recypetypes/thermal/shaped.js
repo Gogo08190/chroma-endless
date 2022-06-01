@@ -221,7 +221,7 @@ onEvent('recipes', (event) => {
             output: 'thermal:machine_refinery',
             pattern: ['AEA', 'CFT', 'IRI'],
             key: {
-                I: 'engineersdecor:small_freezer',
+                I: '#forge:gears/invar',
                 R: 'thermal:rf_coil',
                 C: Item.of('thermal:fluid_cell').ignoreNBT(),
                 T: 'create:fluid_pipe',
@@ -231,6 +231,112 @@ onEvent('recipes', (event) => {
             },
             id: 'thermal:machine_refinery'
         },
+        {
+            output: 'thermal:machine_pyrolyzer',
+            pattern: ['AEA', 'CFT', 'IRI'],
+            key: {
+                I: '#forge:gears/constantan',
+                R: 'thermal:rf_coil',
+                C: Item.of('thermal:fluid_cell').ignoreNBT(),
+                T: 'immersiveengineering:radiator',
+                F: 'thermal:machine_frame',
+                A: '#forge:plates/aluminum',
+                E: 'create:blaze_cake'
+            },
+            id: 'thermal:machine_pyrolyzer'
+        },
+        {
+            output: 'thermal:machine_bottler',
+            pattern: ['AEA', 'CFT', 'IRI'],
+            key: {
+                I: '#forge:gears/copper',
+                R: 'thermal:rf_coil',
+                C: Item.of('thermal:fluid_cell').ignoreNBT(),
+                T: 'immersiveengineering:heavy_engineering',
+                F: 'thermal:machine_frame',
+                A: '#forge:plates/aluminum',
+                E: 'create:spout'
+            },
+            id: 'thermal:machine_bottler'
+        },
+        {
+            output: 'thermal:machine_brewer',
+            pattern: ['AEA', 'CFT', 'IRI'],
+            key: {
+                I: '#forge:gears/enderium',
+                R: 'thermal:rf_coil',
+                C: Item.of('thermal:fluid_cell').ignoreNBT(),
+                T: 'thermal:potion_infuser',
+                F: 'thermal:machine_frame',
+                A: '#forge:plates/aluminum',
+                E: 'minecraft:brewing_stand'
+            },
+            id: 'thermal:machine_brewer'
+        },
+        {
+            output: 'thermal:machine_crafter',
+            pattern: ['AEA', 'CFC', 'IRI'],
+            key: {
+                I: '#forge:gears/brass',
+                R: 'thermal:rf_coil',
+                C: 'thermal:redstone_servo',
+                F: 'thermal:machine_frame',
+                A: '#forge:plates/aluminum',
+                E: 'immersiveengineering:craftingtable'
+            },
+            id: 'thermal:machine_crafter'
+        },
+        {
+            output: 'thermal:device_nullifier',
+            pattern: ['LSL', 'TIT', 'TRT'],
+            key: {
+                L: '#forge:plates/lead',
+                S: 'create:item_drain',
+                I: 'trashcans:item_trash_can',
+                R: 'thermal:redstone_servo',
+                T: '#forge:plates/tin'
+            },
+            id: 'thermal:device_nullifier'
+        },
+        {
+            output: 'thermal:device_rock_gen',
+            pattern: ['LSL', 'AIA', 'TRT'],
+            key: {
+                L: '#forge:plates/lead',
+                S: '#forge:gears/constantan',
+                I: Item.of('immersiveengineering:rockcutter', '{Damage:0}').weakNBT(),
+                R: 'thermal:redstone_servo',
+                T: '#forge:plates/tin',
+                A: 'immersiveengineering:toolupgrade_drill_lube'
+            },
+            id: 'thermal:device_rock_gen'
+        },
+        {
+            output: 'thermal:device_collector',
+            pattern: ['LSL', 'AIA', 'TRT'],
+            key: {
+                L: '#forge:plates/lead',
+                S: 'immersiveengineering:electron_tube',
+                I: 'create:chute',
+                R: 'thermal:redstone_servo',
+                T: '#forge:plates/tin',
+                A: '#thermal:glass/hardened'
+            },
+            id: 'thermal:device_collector'
+        },
+        {
+            output: 'thermal:device_tree_extractor',
+            pattern: ['TFT', 'GPG', 'TRT'],
+            key: {
+                T: '#forge:treated_wood',
+                R: 'thermal:redstone_servo',
+                P: 'create:mechanical_pump',
+                F: 'create:fluid_tank',
+                G: '#forge:glass'
+
+            },
+            id: 'thermal:device_tree_extractor'
+        }
     ];
 
     recipes.forEach((recipe) => {
