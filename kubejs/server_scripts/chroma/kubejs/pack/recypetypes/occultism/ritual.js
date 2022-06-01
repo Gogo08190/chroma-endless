@@ -9,7 +9,7 @@ onEvent('recipes', (event) => {
                 tag: 'chroma:bees/forest',
                 display_name: 'ritual.occultism.sacrifice.forest_bees'
             },
-            pentacle_id: 'occultism:possess_foliot',
+            pentacle_id: 'occultism:possess_djinni',
             item_to_use: 'occultism:datura',
             entity_to_summon: 'resourcefulbees:occultist_bee',
             ritual_dummy: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:occultist_bee' }).weakNBT(),
