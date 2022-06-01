@@ -13,11 +13,20 @@ const validApiaryBlocks = [
 const honeyVarieties = [
     'resourcefulbees:catnip_honey',
     'resourcefulbees:honey',
-    'resourcefulbees:rainbow_honey'
+    'resourcefulbees:rainbow_honey',
+    'resourcefulbees:redstone_honey',
+    'resourcefulbees:emerald_honey',
+    'resourcefulbees:diamond_honey',
+    'resourcefulbees:illuminating_honey',
+    'resourcefulbees:water_honey',
+    'resourcefulbees:lapis_honey',
+    'resourcefulbees:occultist_honey'
 ];
 
 const combVariants = [
-    'gold'
+    'gold',
+    'forest',
+    'occultist'
 ];
 
 const bees = [];

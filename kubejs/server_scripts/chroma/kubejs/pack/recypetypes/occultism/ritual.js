@@ -6,31 +6,31 @@ onEvent('recipes', (event) => {
             activation_item: 'occultism:book_of_binding_bound_foliot',
             duration: 120,
             entity_to_sacrifice: {
-                tag: 'mob a sacrifer',
-                display_name: 'nom a afficher'
+                tag: 'chroma:bees/forest',
+                display_name: 'ritual.occultism.sacrifice.forest_bees'
             },
-            pentacle_id: 'id du pentacle',
-            item_to_use: 'item a utiliser',
-            entity_to_summon: 'entité a summon',
-            ritual_dummy: 'logo du rituel',
+            pentacle_id: 'occultism:pentacles/possess_djinni',
+            item_to_use: 'occultism:datura',
+            entity_to_summon: 'resourcefulbees.occultist_bee',
+            ritual_dummy: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees.occultist_bee' }).weakNBT(),
             ingredients: [
-                '12 o'clock' ,
-                '3 o'clock' ,
-                '6 o'clock' ,
-                '9 o'clock' ,
+                'occultism:spirit_attuned_gem',
+                'occultism:spirit_attuned_gem',
+                'occultism:spirit_attuned_gem',
+                'occultism:spirit_attuned_gem',
 
-                '1 o'clock',
-                '2 o'clock' ,
-                '7 o'clock' ,
-                '8 o'clock' ,
+                'occultism:iesnium_nugget',
+                'occultism:iesnium_nugget',
+                'occultism:otherworld_log',
+                'occultism:otherworld_log',
 
-                '11 o'clock' ,
-                '4 o'clock' ,
-                '5 o'clock' ,
-                '10 o'clock',
+                'occultism:iesnium_nugget',
+                'occultism:otherworld_log',
+                'occultism:otherworld_log',
+                'occultism:iesnium_nugget'
             ],
             result: 'occultism:jei_dummy/none',
-            id: `${id_prefix}summon_nom`
+            id: `${id_prefix}summon_occultist_bee`
         },
         {
             ritual_type: 'occultism:craft_with_spirit_name',
@@ -52,11 +52,11 @@ onEvent('recipes', (event) => {
                 '#forge:plates/steel',
                 '#forge:plates/steel',
                 '#forge:plates/steel',
-                '#forge:plates/steel',
+                '#forge:plates/steel'
             ],
             result: 'thermal:machine_frame',
             id: `${id_prefix}machine_frame`
-        },
+        }
     ];
 
     recipes.forEach((recipe) => {
