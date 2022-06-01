@@ -177,7 +177,60 @@ onEvent('recipes', (event) => {
                 E: Item.of('immersiveengineering:sawblade', '{Damage:0}').weakNBT()
             },
             id: 'thermal:machine_centrifuge'
-        }
+        },
+        {
+            output: 'thermal:machine_press',
+            pattern: ['AEA', 'CFC', 'IRI'],
+            key: {
+                I: '#forge:gears/constantan',
+                R: 'thermal:rf_coil',
+                C: '#forge:ingots/brass',
+                F: 'thermal:machine_frame',
+                A: '#forge:plates/aluminum',
+                E: '#forge:storage_blocks/steel'
+            },
+            id: 'thermal:machine_press'
+        },
+        {
+            output: 'thermal:machine_crucible',
+            pattern: ['AEA', 'CFC', 'IRI'],
+            key: {
+                I: '#forge:gears/invar',
+                R: 'thermal:rf_coil',
+                C: 'immersiveengineering:radiator',
+                F: 'thermal:machine_frame',
+                A: '#forge:plates/aluminum',
+                E: 'create:blaze_cake'
+            },
+            id: 'thermal:machine_crucible'
+        },
+        {
+            output: 'thermal:machine_chiller',
+            pattern: ['AEA', 'CFC', 'IRI'],
+            key: {
+                I: 'engineersdecor:small_freezer',
+                R: 'thermal:rf_coil',
+                C: 'create:propeller',
+                F: 'thermal:machine_frame',
+                A: '#forge:plates/aluminum',
+                E: 'cookingforblockheads:ice_unit'
+            },
+            id: 'thermal:machine_chiller'
+        },
+        {
+            output: 'thermal:machine_refinery',
+            pattern: ['AEA', 'CFT', 'IRI'],
+            key: {
+                I: 'engineersdecor:small_freezer',
+                R: 'thermal:rf_coil',
+                C: Item.of('thermal:fluid_cell').ignoreNBT(),
+                T: 'create:fluid_pipe',
+                F: 'thermal:machine_frame',
+                A: '#forge:plates/aluminum',
+                E: 'create:empty_blaze_burner'
+            },
+            id: 'thermal:machine_refinery'
+        },
     ];
 
     recipes.forEach((recipe) => {
