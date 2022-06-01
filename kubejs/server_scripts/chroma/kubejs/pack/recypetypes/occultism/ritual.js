@@ -9,25 +9,25 @@ onEvent('recipes', (event) => {
                 tag: 'chroma:bees/forest',
                 display_name: 'ritual.occultism.sacrifice.forest_bees'
             },
-            pentacle_id: 'occultism:pentacles/possess_djinni',
+            pentacle_id: 'occultism:possess_djinni',
             item_to_use: 'occultism:datura',
-            entity_to_summon: 'resourcefulbees.occultist_bee',
-            ritual_dummy: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees.occultist_bee' }).weakNBT(),
+            entity_to_summon: 'resourcefulbees:occultist_bee',
+            ritual_dummy: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:occultist_bee' }).weakNBT(),
             ingredients: [
-                'occultism:spirit_attuned_gem',
-                'occultism:spirit_attuned_gem',
-                'occultism:spirit_attuned_gem',
-                'occultism:spirit_attuned_gem',
+                'occultism:iesnium_nugget',
+                'occultism:iesnium_nugget',
+                'occultism:iesnium_nugget',
+                'occultism:iesnium_nugget',
 
-                'occultism:iesnium_nugget',
-                'occultism:iesnium_nugget',
+                'occultism:spirit_attuned_gem',
                 'occultism:otherworld_log',
+                'occultism:spirit_attuned_gem',
                 'occultism:otherworld_log',
 
-                'occultism:iesnium_nugget',
+                'occultism:spirit_attuned_gem',
                 'occultism:otherworld_log',
-                'occultism:otherworld_log',
-                'occultism:iesnium_nugget'
+                'occultism:spirit_attuned_gem',
+                'occultism:otherworld_log'
             ],
             result: 'occultism:jei_dummy/none',
             id: `${id_prefix}summon_occultist_bee`

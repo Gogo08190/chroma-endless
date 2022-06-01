@@ -13,7 +13,7 @@
 	#Range: 1.0 ~ 2.0
 	global_child_size_modifier = 1.0
 	#
-	#This value scales the bee size for all Resource Bees.
+	#This value scales the bee size for all Resource Bees. 
 	#Note: Setting the value in bee JSON overrides this value.
 	#Range: 0.5 ~ 2.0
 	global_bee_size_modifier = 1.0
@@ -110,7 +110,7 @@
 
 ["Beehive Options"]
 	#
-	#Base honeycomb harvest amount
+	#Base honeycomb harvest amount 
 	#(THIS * TIER_MODIFIER = MAX_COMBS) for a range of 5 -> 64
 	#Range: 5 ~ 16
 	hiveMaxCombs = 5
@@ -118,7 +118,7 @@
 	#Set to false if you want the player to only be able to get honeycombs from the beehive using the scraper [true/false]
 	allowShears = true
 	#
-	#Maximum number of bees in the base tier hive.
+	#Maximum number of bees in the base tier hive. 
 	#(THIS * TIER_MODIFIER = MAX_BEES) for a range of 4 -> 16
 	#Range: 1 ~ 4
 	hiveMaxBees = 4
@@ -211,7 +211,7 @@
 	#Range: 4 ~ 100
 	end_nest_generation_chance = 32
 	#
-	#Should bee nests generate in world?
+	#Should bee nests generate in world? 
 	#Note: They will only generate in biomes where bees can spawn
 	generateBeeNests = true
 
@@ -278,3 +278,4 @@
 	#Set this to true if you wish to live life on the edge!
 	#Seriously though it is recommended this only be used for testing purposes!!!
 	bypassPerformantCheck = false
+

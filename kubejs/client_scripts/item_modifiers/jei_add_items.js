@@ -30,9 +30,9 @@ onEvent('jei.add.items', (event) => {
 
     // Custom Bee
 
-    // craftedBees.forEach((type) => {
-    //     items.push(Item.of('resourcefulbees:bee_jar', `{Entity: "resourcefulbees:${type}_bee"}`));
-    // });
-    //
-    // items.forEach((item) => event.add(item));
+    craftedBees.forEach((type) => {
+        items.push(Item.of('resourcefulbees:bee_jar', `{Entity: "resourcefulbees:${type}_bee"}`));
+    });
+
+    items.forEach((item) => event.add(item));
 });
