@@ -694,7 +694,6 @@ const materialsToUnify = [
     'nitro'
 ];
 
-// const craftedBees = [
-//     'bee 1',
-//     'bee 2'
-// ];
+const craftedBees = [
+    'occultist'
+];
