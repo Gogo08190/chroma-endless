@@ -20,24 +20,24 @@
       "hasMutation": true,
       "mutationCount": 4,
       "mutation": [
-      {
-        "type": "BLOCK",
-        "chance": 0.5,
-        "inputID": "minecraft:andesite",
-        "outputs": [
-          {"outputID": "occultism:otherstone", "weight": 512}
+          {
+            "type": "BLOCK",
+            "chance": 0.5,
+            "inputID": "minecraft:andesite",
+            "outputs": [
+              {"outputID": "occultism:otherstone", "weight": 512}
+            ]
+          },
+          {
+            "type": "BLOCK",
+            "chance": 0.5,
+            "inputID": "minecraft:oak_log",
+            "outputs": [
+              {"outputID": "occultism:otherworld_log", "weight": 512}
+            ]
+          }
         ]
       },
-      {
-        "type": "BLOCK",
-        "chance": 0.5,
-        "inputID": "minecraft:oak_log",
-        "outputs": [
-          {"outputID": "occultism:otherworld_log", "weight": 512}
-        ]
-      }
-    ]
-  },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
 
