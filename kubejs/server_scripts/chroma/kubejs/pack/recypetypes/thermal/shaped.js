@@ -40,7 +40,7 @@ onEvent('recipes', (event) => {
                 R: 'extendedcrafting:redstone_ingot',
                 C: 'immersiveengineering:circuit_board'
             },
-            id: 'thermal:augment/upgrade_augment_1'
+            id: 'thermal:augments/upgrade_augment_1'
         },
         {
             output: 'thermal:upgrade_augment_2',
@@ -52,7 +52,7 @@ onEvent('recipes', (event) => {
                 C: 'thermal:upgrade_augment_1',
                 V: 'immersiveengineering:electron_tube'
             },
-            id: 'thermal:augment/upgrade_augment_2'
+            id: 'thermal:augments/upgrade_augment_2'
         },
         {
             output: 'thermal:upgrade_augment_3',
@@ -63,7 +63,7 @@ onEvent('recipes', (event) => {
                 R: 'thermal:signalum_glass',
                 C: 'thermal:upgrade_augment_2'
             },
-            id: 'thermal:augment/upgrade_augment_3'
+            id: 'thermal:augments/upgrade_augment_3'
         },
         {
             output: 'thermal:tinker_bench',
@@ -116,7 +116,7 @@ onEvent('recipes', (event) => {
             output: 'thermal:machine_pulverizer',
             pattern: ['AEA', 'CFC', 'IRI'],
             key: {
-                I: 'create:andesite_alloy',
+                I: '#forge:gears/copper',
                 R: 'thermal:rf_coil',
                 C: 'create:andesite_alloy',
                 F: 'thermal:machine_frame',
