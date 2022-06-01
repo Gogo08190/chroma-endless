@@ -31,7 +31,32 @@ onEvent('recipes', (event) => {
             ],
             result: 'occultism:jei_dummy/none',
             id: `${id_prefix}summon_nom`
-        }
+        },
+        {
+            ritual_type: 'occultism:craft_with_spirit_name',
+            activation_item: 'occultism:book_of_binding_bound_foliot',
+            pentacle_id: 'occultism:craft_djinni',
+            duration: 100,
+            ritual_dummy: 'thermal:machine_frame',
+            ingredients: [
+                '#forge:gears/tin',
+                '#forge:glass',
+                '#forge:gears/tin',
+                '#forge:glass',
+
+                '#forge:plates/steel',
+                '#forge:plates/steel',
+                '#forge:plates/steel',
+                '#forge:plates/steel',
+
+                '#forge:plates/steel',
+                '#forge:plates/steel',
+                '#forge:plates/steel',
+                '#forge:plates/steel',
+            ],
+            result: 'thermal:machine_frame',
+            id: `${id_prefix}machine_frame`
+        },
     ];
 
     recipes.forEach((recipe) => {
