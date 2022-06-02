@@ -34,7 +34,7 @@ onEvent('recipes', (event) => {
       },
       {
           output: 'botania:mana_pool',
-          pattern: ['   ', 'ABA ', 'AAA'],
+          pattern: ['   ', 'ABA', 'AAA'],
           key: {
               A:'botania:livingrock',
               B:'botania:mana_tablet'
