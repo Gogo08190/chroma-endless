@@ -6,7 +6,9 @@ onEvent('recipes', (event) => {
     ];
 
     const outputRemovals = [
-      'thermal:machine_frame'
+      'thermal:machine_frame',
+      'thermal:energy_cell_frame',
+      'thermal:fluid_cell_frame'
     ];
 
     idRemovals.forEach((id) => {

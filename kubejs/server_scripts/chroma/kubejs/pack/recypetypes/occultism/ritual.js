@@ -4,7 +4,7 @@ onEvent('recipes', (event) => {
         {
             ritual_type: 'occultism:summon',
             activation_item: 'occultism:book_of_binding_bound_foliot',
-            duration: 120,
+            duration: 60,
             entity_to_sacrifice: {
                 tag: 'chroma:bees/forest',
                 display_name: 'ritual.occultism.sacrifice.forest_bees'
@@ -36,7 +36,7 @@ onEvent('recipes', (event) => {
             ritual_type: 'occultism:craft_with_spirit_name',
             activation_item: 'occultism:book_of_binding_bound_foliot',
             pentacle_id: 'occultism:craft_djinni',
-            duration: 100,
+            duration: 50,
             ritual_dummy: 'thermal:machine_frame',
             ingredients: [
                 '#forge:gears/tin',
@@ -56,6 +56,56 @@ onEvent('recipes', (event) => {
             ],
             result: 'thermal:machine_frame',
             id: `${id_prefix}machine_frame`
+        },
+        {
+            ritual_type: 'occultism:craft_with_spirit_name',
+            activation_item: 'occultism:book_of_binding_bound_foliot',
+            pentacle_id: 'occultism:craft_djinni',
+            duration: 50,
+            ritual_dummy: 'thermal:fluid_cell_frame',
+            ingredients: [
+                '#forge:gears/bronze',
+                '#forge:glass',
+                '#forge:gears/bronze',
+                '#forge:glass',
+
+                '#forge:plates/copper',
+                '#forge:plates/copper',
+                '#forge:plates/copper',
+                '#forge:plates/copper',
+
+                '#forge:plates/copper',
+                '#forge:plates/copper',
+                '#forge:plates/copper',
+                '#forge:plates/copper'
+            ],
+            result: 'thermal:fluid_cell_frame',
+            id: `${id_prefix}fluid_cell_frame`
+        },
+        {
+            ritual_type: 'occultism:craft_with_spirit_name',
+            activation_item: 'occultism:book_of_binding_bound_foliot',
+            pentacle_id: 'occultism:craft_djinni',
+            duration: 50,
+            ritual_dummy: 'thermal:energy_cell_frame',
+            ingredients: [
+                '#forge:gears/electrum',
+                '#forge:glass',
+                '#forge:gears/electrum',
+                '#forge:glass',
+
+                '#forge:plates/lead',
+                '#forge:plates/lead',
+                '#forge:plates/lead',
+                '#forge:plates/lead',
+
+                '#forge:plates/lead',
+                '#forge:plates/lead',
+                '#forge:plates/lead',
+                '#forge:plates/lead'
+            ],
+            result: 'thermal:energy_cell_frame',
+            id: `${id_prefix}energy_cell_frame`
         }
     ];
 
