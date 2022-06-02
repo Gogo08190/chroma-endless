@@ -15,5 +15,15 @@
     "ritual.chroma.occultism/ritual/machine_frame.interrupted": "Maschinenrahmen unterbrochen.",
     "ritual.chroma.occultism/ritual/machine_frame.conditions": "Nicht alle Voraussetzungen für dieses Ritual sind erfüllt.",
 
+    "ritual.chroma.occultism/ritual/energy_cell_frame.started": "Started binding Redstone Flux Cell Frame",
+    "ritual.chroma.occultism/ritual/energy_cell_frame.finished": "Redstone Flux Cell Frame bound successfully.",
+    "ritual.chroma.occultism/ritual/energy_cell_frame.interrupted": "Redstone Flux Cell Frame interrupted.",
+    "ritual.chroma.occultism/ritual/energy_cell_frame.conditions": "Not all requirements for this ritual are met.",
+
+    "ritual.chroma.occultism/ritual/fluid_cell_frame.started": "Started binding Fluid Cell Frame",
+    "ritual.chroma.occultism/ritual/fluid_cell_frame.finished": "Fluid Cell Frame bound successfully.",
+    "ritual.chroma.occultism/ritual/fluid_cell_frame.interrupted": "Fluid Cell Frame interrupted.",
+    "ritual.chroma.occultism/ritual/fluid_cell_frame.conditions": "Not all requirements for this ritual are met.",
+
     "ritual.occultism.sacrifice.forest_bees": "Waldbiene"
 }
