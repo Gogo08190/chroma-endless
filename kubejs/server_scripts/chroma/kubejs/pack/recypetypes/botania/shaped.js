@@ -27,14 +27,14 @@ onEvent('recipes', (event) => {
           pattern: ['AAA', 'BC ', 'AAA'],
           key: {
               A:'botania:livingwood',
-              B:'arsarsenal:source_steel_ingot'
+              B:'arsarsenal:source_steel_ingot',
               C:'#botania:petals'
           },
           id: 'botania:mana_spreader'
       },
       {
           output: 'botania:mana_pool',
-          pattern: ['   ', 'ABA ', 'AAA'],
+          pattern: ['   ', 'ABA', 'AAA'],
           key: {
               A:'botania:livingrock',
               B:'botania:mana_tablet'
