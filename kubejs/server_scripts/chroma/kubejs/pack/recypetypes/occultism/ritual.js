@@ -123,6 +123,21 @@ onEvent('recipes', (event) => {
             ],
             result: 'occultism:infused_pickaxe',
             id: `occultism:ritual/craft_infused_pickaxe`
+        },
+        {
+            ritual_type: 'occultism:craft_with_spirit_name',
+            activation_item: 'occultism:book_of_binding_bound_djinni',
+            pentacle_id: 'occultism:craft_djinni',
+            duration: 240,
+            ritual_dummy: 'occultism:ritual_dummy/craft_dimensional_matrix',
+            ingredients: [
+                'create:polished_rose_quartz',
+                'create:polished_rose_quartz',
+                'create:polished_rose_quartz',
+                'extendedcrafting:ender_ingot',
+            ],
+            result: 'occultism:dimensional_matrix',
+            id: `occultism:ritual/craft_dimensional_matrix`
         }
     ];
 
