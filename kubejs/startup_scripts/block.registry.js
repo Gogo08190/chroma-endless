@@ -1,7 +1,9 @@
-onEvent('block.registry', event => {
-    event.create('spirit_attuned_block')
-            .material('metal')
-         .hardness(5)
-         .displayName('Spirit attuned gem block') // No longer required in 1.18.2+
+onEvent('block.registry', (event) => {
+    const blocks = [
+        { name: 'spirit_attuned_block', material: 'iron', hardness: 5 }
+    ];
 
-  })
+    blocks.forEach((block) => {
+        event.create(block.name).material(block.material).hardness(block.hardness);
+    });
+});
