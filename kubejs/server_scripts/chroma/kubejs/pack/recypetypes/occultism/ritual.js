@@ -138,6 +138,21 @@ onEvent('recipes', (event) => {
             ],
             result: 'occultism:dimensional_matrix',
             id: `occultism:ritual/craft_dimensional_matrix`
+        },
+        {
+            ritual_type: 'occultism:craft_with_spirit_name',
+            activation_item: 'occultism:book_of_binding_bound_foliot',
+            pentacle_id: 'occultism:craft_foliot',
+            duration: 60,
+            ritual_dummy: 'occultism:ritual_dummy/craft_storage_controller_base',
+            ingredients: [
+                'occultism:otherstone_pedestal',
+                '#forge:ingots/brass',
+                '#forge:ingots/brass',
+                '#forge:ingots/brass'
+            ],
+            result: 'occultism:storage_controller_base',
+            id: `occultism:ritual/craft_storage_controller_base`
         }
     ];
 
