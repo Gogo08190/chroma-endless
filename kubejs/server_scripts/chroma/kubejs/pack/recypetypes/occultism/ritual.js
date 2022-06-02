@@ -106,6 +106,23 @@ onEvent('recipes', (event) => {
             ],
             result: 'thermal:energy_cell_frame',
             id: `${id_prefix}energy_cell_frame`
+        },
+        {
+            ritual_type: 'occultism:craft_with_spirit_name',
+            activation_item: 'occultism:book_of_binding_bound_djinni',
+            pentacle_id: 'occultism:craft_djinni',
+            duration: 60,
+            ritual_dummy: 'occultism:ritual_dummy/craft_infused_pickaxe',
+            ingredients: [
+                '#forge:rods/copper',
+                '#forge:rods/copper',
+                'occultism:spirit_attuned_pickaxe_head',
+                'create:chromatic_compound',
+
+                'create:chromatic_compound',
+            ],
+            result: 'occultism:infused_pickaxe',
+            id: `occultism:ritual/craft_infused_pickaxe`
         }
     ];
 
