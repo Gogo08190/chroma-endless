@@ -11,7 +11,42 @@ onEvent('ponder.registry', (event) => {
       'resourcefulbees:t2_apiary',
       'resourcefulbees:t3_apiary',
       'resourcefulbees:t4_apiary',
-      // Faire la liste des abeilles
+
+      // Gem bees
+      'resourcefulbees:diamond_bee_spawn_egg',
+      'resourcefulbees:emerald_bee_spawn_egg',
+      'resourcefulbees:lapis_bee_spawn_egg',
+      'resourcefulbees:redstone_bee_spawn_egg',
+
+      // Magic bees
+      'resourcefulbees:occultist_bee_spawn_egg',
+
+      // Mob bees
+      'resourcefulbees:creeper_bee_spawn_egg',
+      'resourcefulbees:dragon_bee_spawn_egg',
+      'resourcefulbees:dungeon_bee_spawn_egg',
+      'resourcefulbees:ender_bee_spawn_egg',
+      'resourcefulbees:pigman_bee_spawn_egg',
+      'resourcefulbees:skeleton_bee_spawn_egg',
+      'resourcefulbees:slimy_bee_spawn_egg',
+      'resourcefulbees:wither_bee_spawn_egg',
+      'resourcefulbees:zombie_bee_spawn_egg',
+
+      // Ore bees
+      'resourcefulbees:coal_bee_spawn_egg',
+      'resourcefulbees:gold_bee_spawn_egg',
+      'resourcefulbees:iron_bee_spawn_egg',
+      'resourcefulbees:nether_quartz_bee_spawn_egg',
+      'resourcefulbees:netherite_bee_spawn_egg',
+
+      // Other bees
+      'resourcefulbees:forest_bee_spawn_egg',
+      'resourcefulbees:icy_bee_spawn_egg',
+      'resourcefulbees:rainbow_glass_bee',
+      'resourcefulbees:water_bee_spawn_egg',
+      'resourcefulbees:rgbee_bee_spawn_egg'
+
+
   ])
     .scene(
       'pollen_mechanics',
@@ -112,7 +147,7 @@ onEvent('ponder.registry', (event) => {
 
         scene.idle(20);
 
-        scene.world().setBlock([1, 1, 1], util.getDefaultState('emendatuschroma:iron_ore'), true);
+        scene.world().setBlock([1, 1, 1], util.getDefaultState('emendatusenigmatica:iron_ore'), true);
 
         scene.idle(40);
 
