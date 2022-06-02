@@ -153,6 +153,21 @@ onEvent('recipes', (event) => {
             ],
             result: 'occultism:storage_controller_base',
             id: `occultism:ritual/craft_storage_controller_base`
+        },
+        {
+            ritual_type: 'occultism:craft_with_spirit_name',
+            activation_item: 'occultism:book_of_binding_bound_foliot',
+            pentacle_id: 'occultism:craft_foliot',
+            duration: 120,
+            ritual_dummy: 'occultism:ritual_dummy/craft_stabilizer_tier1',
+            ingredients: [
+                'occultism:otherstone_pedestal',
+                'create:copper_casing',
+                'botania:blaze_block',
+                'kubejs:spirit_attuned_block'
+            ],
+            result: 'occultism:storage_stabilizer_tier1',
+            id: `occultism:ritual/craft_stabilizer_tier1`
         }
     ];
 
