@@ -84,7 +84,7 @@ onEvent('recipes', (event) => {
                 L: '#forge:plates/lead',
                 P: 'create:mechanical_pump',
                 C: 'create:copper_casing',
-                F: Item.of('thermal:fluid_cell').ignoreNBT(),
+                F: Item.of('thermal:fluid_cell').ignoreNBT()
             },
             id: 'thermal:device_water_gen'
         },
