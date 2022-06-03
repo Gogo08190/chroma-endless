@@ -14,7 +14,7 @@ onEvent('recipes', (event) => {
     const recipes = [
       ///Lv wire coil
       {
-          output: 'immersiveengineering:wirecoil_copper',
+          output: Item.of('immersiveengineering:wirecoil_copper', 4),
           pattern: ['AAA', 'ABA', 'AAA'],
           key: {
               A:'#forge:wires/copper',
@@ -24,7 +24,7 @@ onEvent('recipes', (event) => {
       },
       ///Mv wire coil
       {
-          output: 'immersiveengineering:wirecoil_electrum',
+          output: Item.of('immersiveengineering:wirecoil_electrum', 4),
           pattern: ['AAA', 'ABA', 'AAA'],
           key: {
               A:'#forge:wires/electrum',
@@ -34,7 +34,7 @@ onEvent('recipes', (event) => {
       },
       ///Hv wire coil
       {
-          output: 'immersiveengineering:wirecoil_steel',
+          output: Item.of('immersiveengineering:wirecoil_steel', 4),
           pattern: ['ABA', 'BCB', 'ABA'],
           key: {
               A:'#forge:wires/aluminum',
@@ -45,7 +45,7 @@ onEvent('recipes', (event) => {
       },
       ///Lv insulated wire coil
       {
-          output: 'immersiveengineering:wirecoil_copper_ins',
+          output: Item.of('immersiveengineering:wirecoil_copper_ins', 4),
           pattern: ['ABA', 'BCB', 'ABA'],
           key: {
               A:'immersiveengineering:hemp_fabric',
@@ -56,7 +56,7 @@ onEvent('recipes', (event) => {
       },
       ///Redstone wire coil
       {
-          output: 'immersiveengineering:wirecoil_redstone',
+          output: Item.of('immersiveengineering:wirecoil_redstone', 4),
           pattern: ['ABA', 'BCB', 'ABA'],
           key: {
               A:'extendedcrafting:redstone_ingot',
@@ -73,11 +73,11 @@ onEvent('recipes', (event) => {
               A:'immersiveengineering:hemp_fiber',
               B:'immersiveengineering:stick_treated'
           },
-          id: 'immersiveengineering:crafting/wirecoil_redstone'
+          id: 'immersiveengineering:crafting/hemp_fabric'
       },
       ///Mv insulated wire coil
       {
-          output: 'immersiveengineering:wirecoil_electrum_ins',
+          output: Item.of('immersiveengineering:wirecoil_electrum_ins', 4),
           pattern: ['ABA', 'BCB', 'ABA'],
           key: {
               A:'immersiveengineering:hemp_fabric',
@@ -121,7 +121,7 @@ onEvent('recipes', (event) => {
           output: 'immersiveengineering:dynamo',
           pattern: ['AAA', 'BCB', 'AAA'],
           key: {
-              B:'#forge:ingots/steel',
+              A:'#forge:ingots/steel',
               B:'extendedcrafting:redstone_ingot',
               C:'immersiveengineering:coil_lv'
           },
@@ -178,7 +178,7 @@ onEvent('recipes', (event) => {
               B:'immersiveengineering:component_steel',
               C:'immersiveengineering:sheetmetal_copper'
           },
-          id: 'immersiveengineering:crafting/heavy_engineering'
+          id: 'immersiveengineering:crafting/light_engineering'
       },
       ///Generator Block
       {
