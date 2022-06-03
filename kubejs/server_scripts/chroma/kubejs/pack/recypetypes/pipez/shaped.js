@@ -118,7 +118,7 @@ onEvent('recipes', (event) => {
             key: {
                 A: 'pipez:advanced_upgrade',
                 R: 'immersiveengineering:rs_engineering',
-                N: 'tconstruct:netherite_item_frame'
+                N: '#forge:ingots/netherite'
             },
             id: 'pipez:ultimate_upgrade'
         }
