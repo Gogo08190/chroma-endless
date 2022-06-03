@@ -19,6 +19,15 @@ onEvent('recipes', (event) => {
     },
 
     {
+      input: '#forge:storage_blocks/steel',
+      output: 'botania:manasteel_block',
+      count: 1,
+      mana: 27000,
+      id: 'botania:mana_infusion/manasteel_block'
+
+    },
+
+    {
       input: 'minecraft:ender_eye',
       output: 'botania:mana_pearl',
       count: 1,
