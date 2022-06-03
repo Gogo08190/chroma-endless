@@ -11,7 +11,7 @@ onEvent('recipes', (event) => {
         ],
         element_amount: 100000,
         output: { item: '' },
-        id: ''
+        id: `${id_prefix}item`
     }*/
 
     const recipes = [
