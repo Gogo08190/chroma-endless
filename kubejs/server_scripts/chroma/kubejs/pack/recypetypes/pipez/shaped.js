@@ -71,7 +71,7 @@ onEvent('recipes', (event) => {
             output: 'pipez:wrench',
             pattern: [' SU', ' IS', 'I  '],
             key: {
-                U: 'pipez:universal_pipe',
+                U: 'immersiveengineering:component_steel',
                 I: '#forge:rods/iron',
                 S: '#forge:plates/steel'
             },
