@@ -6,6 +6,11 @@ onEvent('recipes', (event) => {
     }*/
 
     const recipes = [
+      {
+        input: 'occultism:otherstone',
+        output: 'botania:livingrock',
+        id: 'botania:pure_daisy/livingrock'
+      }
 
     ];
 

@@ -9,6 +9,33 @@ onEvent('recipes', (event) => {
       id: ''
   }*/
   const recipes = [
+    {
+      input: '#forge:ingots/steel',
+      output: 'botania:manasteel_ingot',
+      count: 1,
+      mana: 3000,
+      id: 'botania:mana_infusion/manasteel'
+
+    },
+
+    {
+      input: 'minecraft:ender_eye',
+      output: 'botania:mana_pearl',
+      count: 1,
+      mana: 6000,
+      id: 'botania:mana_infusion/mana_pearl'
+
+    },
+
+    {
+      input: 'emendatusenigmatica:obsidian_dust',
+      output: 'fluxnetworks:flux_dust',
+      count: 1,
+      mana: 3000,
+      id: 'fluxnetworks:flux_dust'
+
+    }
+
 
   ];
   recipes.forEach((recipe) => {
