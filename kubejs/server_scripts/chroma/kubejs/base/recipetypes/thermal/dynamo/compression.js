@@ -17,7 +17,8 @@ onEvent('recipes', (event) => {
             { input: 'thermal:tree_oil', energy: 100000 },
             { input: 'thermal:creosote', energy: 20000 },
             { input: 'immersiveengineering:creosote', energy: 20000 },
-            { input: 'thermal:refined_fuel', energy: 1500000 }
+            { input: 'thermal:refined_fuel', energy: 1500000 },
+            { input: 'industrialforegoing:biofuel', energy: 1000000 }
         ]
     };
     data.recipes.forEach((recipe) => {
