@@ -11,7 +11,7 @@
 
 [general]
 	#Enables redstone being compressed with the bedrock and obsidian to get flux
-	enableFluxRecipe = true
+	enableFluxRecipe = false
 	#Allows flux tiles to work as chunk loaders
 	enableChunkLoading = false
 

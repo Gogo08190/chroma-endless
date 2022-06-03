@@ -2,7 +2,7 @@
 
 onEvent('recipes', (event) => {
     const idRemovals = [
-      'fluxnetworks:flux_dust'
+      
     ];
 
     const outputRemovals = [
