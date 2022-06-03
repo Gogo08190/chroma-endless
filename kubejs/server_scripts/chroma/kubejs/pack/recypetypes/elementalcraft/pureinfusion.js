@@ -3,8 +3,11 @@ onEvent('recipes', (event) => {
 
     /*{
         inputs: [
-            { tag: 'si tag' },
-            { item: 'si item' }
+            { item: 'middle' },
+            { item: 'water' },
+            { item: 'fire' },
+            { item: 'earth' },
+            { item: 'wind' }
         ],
         element_amount: 100000,
         output: { item: '' },
