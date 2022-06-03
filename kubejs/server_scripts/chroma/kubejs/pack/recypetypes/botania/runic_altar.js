@@ -13,7 +13,23 @@ onEvent('recipes', (event) => {
     }*/
 
     const recipes = [
-
+      {
+        input: [
+          'betterendforge:amber_gem',
+          'betterendforge:amber_gem',
+          'arsarsenal:source_steel_ingot',
+          'arsarsenal:source_steel_ingot',
+          'arsarsenal:source_steel_ingot',
+          'minecraft:dragon_breath',
+          'botania:dragonstone',
+          'botania:dragonstone',
+          'create:cuckoo_clock'
+        ],
+        mana: 20000,
+        output: 'tiab:timeinabottle',
+        count: 1,
+        id:'tiab:timeinabottle'
+      }
 
     ];
 
