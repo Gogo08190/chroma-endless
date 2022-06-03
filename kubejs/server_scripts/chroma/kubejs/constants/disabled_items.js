@@ -100,5 +100,7 @@ const disabledItems = [
     'simplefarming:cooked_bacon',
     'simplefarming:cooked_egg',
     'simplefarming:noodles',
-    'simplefarming:chocolate'
+    'simplefarming:chocolate',
+
+    'ars_nouveau:mana_gem'
 ];

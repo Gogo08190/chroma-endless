@@ -18,7 +18,6 @@ onEvent('jei.hide.items', (event) => {
             'mekanism:ingot_' + material,
             'mekanism:block_' + material,
             'thermal:' + material + '_block',
-            'ars_nouveau:mana_gem'
         );
     });
 
