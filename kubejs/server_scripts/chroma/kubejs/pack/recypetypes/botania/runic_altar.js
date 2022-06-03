@@ -14,7 +14,7 @@ onEvent('recipes', (event) => {
 
     const recipes = [
       {
-        input: [
+        inputs: [
           'betterendforge:amber_gem',
           'betterendforge:amber_gem',
           'arsarsenal:source_steel_ingot',
