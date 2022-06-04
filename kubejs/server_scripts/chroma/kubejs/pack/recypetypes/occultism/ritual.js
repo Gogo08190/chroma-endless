@@ -168,6 +168,26 @@ onEvent('recipes', (event) => {
             ],
             result: 'occultism:storage_stabilizer_tier1',
             id: `occultism:ritual/craft_stabilizer_tier1`
+        },
+        {
+            ritual_type: 'occultism:craft_with_spirit_name',
+            activation_item: 'occultism:book_of_binding_bound_marid',
+            pentacle_id: 'occultism:craft_afrit',
+            duration: 120,
+            ritual_dummy: 'sophisticatedbackpacks:backpack',
+            ingredients: [
+                'immersiveengineering:hemp_fabric',
+                'immersiveengineering:hemp_fabric',
+                'immersiveengineering:crate',
+                'immersiveengineering:hemp_fabric',
+
+                'quark:bonded_leather',
+                'quark:bonded_leather',
+                'quark:bonded_leather',
+                'quark:bonded_leather'
+            ],
+            result: 'sophisticatedbackpacks:backpack',
+            id: `sophisticatedbackpacks:backpack`
         }
     ];
 
