@@ -20,6 +20,7 @@ onEvent('recipes', (event) => {
             ],
             id: 'recipe_id_here'
         }*/
+        //Hammer
         {
             input: '#forge:rods/lead',
             outputs: ['immersiveengineering:hammer'],
@@ -44,6 +45,7 @@ onEvent('recipes', (event) => {
             ],
             id: `${id_prefix}hammer`
         },
+        //Wirecutter
         {
             input: '#forge:rods/lead',
             outputs: ['immersiveengineering:wirecutter'],
@@ -67,6 +69,31 @@ onEvent('recipes', (event) => {
                 }
             ],
             id: `${id_prefix}wirecutter`
+        },
+        // Windmill
+        {
+            input: 'create:shaft',
+            outputs: ['immersiveengineering:windmill'],
+            transitionalItem: 'kubejs:part_central_windmill',
+            loops: 8,
+            sequence: [
+                {
+                    type: 'deploying',
+                    input: ['kubejs:part_central_windmill', 'immersiveengineering:stick_treated'],
+                    output: 'kubejs:part_central_windmill'
+                },
+                {
+                    type: 'deploying',
+                    input: ['kubejs:part_central_windmill', 'immersiveengineering:windmill_blade'],
+                    output: 'kubejs:part_central_windmill'
+                },
+                {
+                    type: 'deploying',
+                    input: ['kubejs:part_central_windmill', '#forge:nuggets/steel'],
+                    output: 'kubejs:part_central_windmill'
+                }
+            ],
+            id: `${id_prefix}windmill`
         }
     ];
 
