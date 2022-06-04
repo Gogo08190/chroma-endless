@@ -1,7 +1,8 @@
 onEvent('item.registry', (event) => {
     const generalItems = [
         'partial_hammer',
-        'partial_wirecutter'
+        'partial_wirecutter',
+        'part_central_windmill',
     ];
 
     generalItems.forEach((item) => {
