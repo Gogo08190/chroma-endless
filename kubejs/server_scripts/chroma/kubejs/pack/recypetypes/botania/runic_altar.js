@@ -29,6 +29,34 @@ onEvent('recipes', (event) => {
         output: 'tiab:timeinabottle',
         count: 1,
         id:'tiab:timeinabottle'
+      },
+
+      {
+        inputs: [
+          'minecraft:ender_eye',
+          'botania:terrasteel_ingot',
+          'botania:terrasteel_ingot',
+          'botania:terrasteel_ingot',
+          'botania:mana_pylon'
+        ],
+        mana: 20000,
+        output: 'botania:natura_pylon',
+        count: 1,
+        id: 'botania:natura_pylon'
+      },
+
+      {
+        inputs: [
+          'botania:pixie_dust',
+          'botania:pixie_dust',
+          'botania:elementium_block',
+          'botania:elementium_block',
+          'botania:natura_pylon'
+        ],
+        mana: 20000,
+        output: 'botania:gaia_pylon',
+        count: 1,
+        id: 'botania:gaia_pylon'
       }
 
     ];
