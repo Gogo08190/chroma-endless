@@ -100,7 +100,7 @@ onEvent('recipes', (event) => {
             input: 'immersiveengineering:coil_lv',
             outputs: ['immersiveengineering:cloche'],
             transitionalItem: 'kubejs:part_garden_cloche',
-            loops: 2,
+            loops: 3,
             sequence: [
                 {
                     type: 'deploying',
