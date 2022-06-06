@@ -18,7 +18,6 @@ onEvent('recipes', (event) => {
     event.remove({ type: 'industrialforegoing:fluid_extractor' });
     event.remove({ type: 'thermal:tree_extractor' });
 
-    event.remove({ mod: 'ironjetpacks' });
     event.remove({ mod: 'theoneprobe' });
 
     event.remove({ type: 'thermal:compression_fuel' });
