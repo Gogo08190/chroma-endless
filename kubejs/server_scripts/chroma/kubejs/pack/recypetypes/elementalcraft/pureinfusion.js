@@ -15,6 +15,7 @@ onEvent('recipes', (event) => {
     }*/
 
     const recipes = [
+      // Wormhole Portal Stabilizer
       {
           inputs: [
               { item: 'botania:mana_pearl' },
@@ -26,6 +27,20 @@ onEvent('recipes', (event) => {
           element_amount: 500,
           output: { item: 'wormhole:portal_stabilizer' },
           id: 'wormhole:portal_stabilizer'
+      },
+
+      // Undergarden Catalyst
+      {
+          inputs: [
+              { item: 'ars_elemental:earth_focus' },
+              { item: 'botania:dragonstone' },
+              { item: 'botania:gaia_ingot' },
+              { item: 'botania:gaia_ingot' },
+              { item: 'botania:dragonstone' }
+          ],
+          element_amount: 10000,
+          output: { item: 'undergarden:catalyst' },
+          id: 'undergarden:catalyst'
       }
     ];
 
