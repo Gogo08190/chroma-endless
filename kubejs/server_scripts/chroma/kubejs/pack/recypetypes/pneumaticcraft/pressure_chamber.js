@@ -2,37 +2,36 @@ onEvent('recipes', (event) => {
     const id_prefix = 'chroma:pack/pneumaticcraft/pressure_chamber/';
 
     /*{
-        inputs: [
-            { tag: 'si tag', count: nb },
-            { item: 'si item', count: nb }
+        ingredients: [
+          { type: 'pneumaticcraft:stacked_item', item: '', count: nb } (Si item)
+          { type: 'pneumaticcraft:stacked_item', tag: '', count: nb } (Si tag)
         ],
         pressure: 2.0,
-        results: [{ item: '', count: nb }],
+        output: [
+          { item: '', count: nb }
+        ],
         id: ''
     }*/
 
     const recipes = [
-      inputs: [
-          { item: 'undergarden:cloggrum_ingot', count: 1 }
-      ],
-      pressure: 2.0,
-      results: [{ item: 'pneumaticcraft:ingot_iron_compressed', count: 1 }],
-      id: 'pneumaticcraft:pressure_chamber/compressed_iron_ingot'
+        {
+            ingredients: [
+              { type: 'pneumaticcraft:stacked_item', item: 'undergarden:cloggrum_ingot', count: 1 }
+            ],
+            pressure: 2.0,
+            output: [
+              { item: 'pneumaticcraft:ingot_iron_compressed', count: 1 }
+            ],
+            id: 'pneumaticcraft:explosion_crafting/compressed_iron_ingot'
+        }
     ];
-
     recipes.forEach((recipe) => {
-        let ingredients = [];
-        recipe.inputs.forEach((input) => {
-            input.type = 'pneumaticcraft:stacked_item';
-            ingredients.push(input);
-        });
-
         event
             .custom({
                 type: 'pneumaticcraft:pressure_chamber',
-                inputs: ingredients,
+                inputs: recipe.ingredients,
                 pressure: recipe.pressure,
-                results: recipe.results
+                results: recipe.output
             })
             .id(recipe.id);
     });
