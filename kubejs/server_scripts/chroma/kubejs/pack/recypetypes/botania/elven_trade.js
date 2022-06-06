@@ -12,7 +12,7 @@ onEvent('recipes', (event) => {
     const recipes = [
       {
         inputs: [
-          {tag: '#forge:ingots/brass'},
+          {tag: 'forge:ingots/brass'},
           {item: 'elementalcraft:inertcrystal'}
         ],
         output: {
