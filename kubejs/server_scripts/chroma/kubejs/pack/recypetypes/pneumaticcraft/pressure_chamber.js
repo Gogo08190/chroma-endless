@@ -12,7 +12,12 @@ onEvent('recipes', (event) => {
     }*/
 
     const recipes = [
-
+      inputs: [
+          { item: 'undergarden:cloggrum_ingot', count: 1 }
+      ],
+      pressure: 2.0,
+      results: [{ item: 'pneumaticcraft:ingot_iron_compressed', count: 1 }],
+      id: 'pneumaticcraft:pressure_chamber/compressed_iron_ingot'
     ];
 
     recipes.forEach((recipe) => {
