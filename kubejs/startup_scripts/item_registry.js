@@ -3,6 +3,7 @@ onEvent('item.registry', (event) => {
         'partial_hammer',
         'partial_wirecutter',
         'part_central_windmill',
+        'part_garden_cloche',
     ];
 
     generalItems.forEach((item) => {
