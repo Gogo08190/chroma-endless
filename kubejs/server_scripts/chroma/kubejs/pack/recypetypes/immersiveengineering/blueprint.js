@@ -6,7 +6,7 @@ onEvent('recipes', (event) => {
         {
             inputs: [
                 { tag: 'forge:glass' },
-                { tag: 'forge:plates' },
+                { tag: 'forge:plates/nickel' },
                 { tag: 'forge:wires/copper' },
                 { item: 'extendedcrafting:redstone_ingot' }
             ],
