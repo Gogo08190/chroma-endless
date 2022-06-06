@@ -9,11 +9,12 @@ onEvent('recipes', (event) => {
     }*/
 
     const recipes = [
-      input: {item : 'undergarden:cloggrum_ingot'} ,
-      results: {item : 'pneumaticcraft:ingot_iron_compressed,',count : 1},
-      loss_rate: 10,
-      id: `pneumaticcraft:explosion_crafting/compressed_iron_ingot`
-  }
+      {
+        input: {item : 'undergarden:cloggrum_ingot'} ,
+        results: {item : 'pneumaticcraft:ingot_iron_compressed,',count : 1},
+        loss_rate: 10,
+        id: `pneumaticcraft:explosion_crafting/compressed_iron_ingot`
+      }
     ];
 
     recipes.forEach((recipe) => {
