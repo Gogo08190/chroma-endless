@@ -29,7 +29,7 @@ onEvent('recipes', (event) => {
             pattern: ['BSB', 'DCD', 'BSB'],
             key: {
                 B: '#forge:ingots/brass',
-                C: 'elementalcraft:purecrystal';
+                C: 'elementalcraft:purecrystal',
                 S: '#forge:ingots/swift_alloy',
                 D: '#forge:gems/mana_diamond'
             },
@@ -128,7 +128,7 @@ onEvent('recipes', (event) => {
             pattern: ['WEW', 'SCS', 'WDW'],
             key: {
                 C: 'elementalcraft:containedcrystal',
-                S: '#forge:ingots/swift_alloy',,
+                S: '#forge:ingots/swift_alloy',
                 E: 'elementalcraft:infuser',
                 W: 'elementalcraft:whiterock',
                 D: '#forge:gems/dragonstone'
