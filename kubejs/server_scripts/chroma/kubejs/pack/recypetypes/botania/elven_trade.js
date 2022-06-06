@@ -10,6 +10,16 @@ onEvent('recipes', (event) => {
         id: ''
     }*/
     const recipes = [
+      {
+        inputs: [
+          {tag: '#forge:ingots/brass'},
+          {item: 'elementalcraft:inertcrystal'}
+        ],
+        output: {
+            item: 'elementalcraft:containedcrystal'
+        },
+        id: 'elementalcraft:containedcrystal'
+      }
 
     ];
 
