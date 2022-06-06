@@ -94,6 +94,41 @@ onEvent('recipes', (event) => {
                 }
             ],
             id: `${id_prefix}windmill`
+        },
+        // Garden Cloche
+        {
+            input: 'immersiveengineering:coil_lv',
+            outputs: ['immersiveengineering:cloche'],
+            transitionalItem: 'kubejs:part_garden_cloche',
+            loops: 2,
+            sequence: [
+                {
+                    type: 'deploying',
+                    input: ['kubejs:part_garden_cloche', 'immersiveengineering:component_steel'],
+                    output: 'kubejs:part_garden_cloche'
+                },
+                {
+                    type: 'deploying',
+                    input: ['kubejs:part_garden_cloche', 'immersiveengineering:treated_wood_horizontal'],
+                    output: 'kubejs:part_garden_cloche'
+                },
+                {
+                    type: 'deploying',
+                    input: ['kubejs:part_garden_cloche', 'immersiveengineering:insulating_glass'],
+                    output: 'kubejs:part_garden_cloche'
+                },
+                {
+                    type: 'deploying',
+                    input: ['kubejs:part_garden_cloche', 'immersiveengineering:fluid_pipe'],
+                    output: 'kubejs:part_garden_cloche'
+                },
+                {
+                    type: 'deploying',
+                    input: ['kubejs:part_garden_cloche', 'immersiveengineering:electron_tube'],
+                    output: 'kubejs:part_garden_cloche'
+                }
+            ],
+            id: `${id_prefix}garden_cloche`
         }
     ];
 

@@ -16,14 +16,16 @@ onEvent('recipes', (event) => {
       'immersiveengineering:crafting/sheetmetal_copper',
       'immersiveengineering:crafting/sheetmetal_electrum',
       'immersiveengineering:crafting/sheetmetal_constantan',
-      'immersiveengineering:crafting/sheetmetal_uranium',
-      'immersiveengineering:crafting/windmill'
+      'immersiveengineering:crafting/sheetmetal_uranium'
+
     ];
 
     const outputRemovals = [
       'immersiveengineering:hammer',
       'immersiveengineering:wirecutter',
-      'immersiveengineering:watermill'
+      'immersiveengineering:watermill',
+      'immersiveengineering:windmill',
+      'immersiveengineering:cloche'
     ];
 
     idRemovals.forEach((id) => {
