@@ -15,7 +15,18 @@ onEvent('recipes', (event) => {
     }*/
 
     const recipes = [
-
+      {
+          inputs: [
+              { item: 'botania:mana_pearl' },
+              { item: 'thermal:redstone_servo' },
+              { item: 'wormhole:portal_frame' },
+              { item: 'wormhole:portal_frame' },
+              { item: 'thermal:redstone_servo' }
+          ],
+          element_amount: 500,
+          output: { item: 'wormhole:portal_stabilizer' },
+          id: 'wormhole:portal_stabilizer'
+      }
     ];
 
     recipes.forEach((recipe) => {
