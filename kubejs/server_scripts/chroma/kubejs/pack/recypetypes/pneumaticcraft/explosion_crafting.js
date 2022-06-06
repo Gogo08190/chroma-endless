@@ -9,11 +9,18 @@ onEvent('recipes', (event) => {
     }*/
 
     const recipes = [
+      // compressed iron ingot
       {
         input: { item: 'undergarden:cloggrum_ingot' },
         results: [{ item: 'pneumaticcraft:ingot_iron_compressed' }],
         loss_rate: 10,
         id: 'pneumaticcraft:explosion_crafting/compressed_iron_ingot'
+      },
+      {
+        input: { item: 'undergarden:cloggrum_block' },
+        results: [{ item: 'pneumaticcraft:compressed_iron_block' }],
+        loss_rate: 10,
+        id: 'pneumaticcraft:explosion_crafting/compressed_iron_block'
       }
     ];
 

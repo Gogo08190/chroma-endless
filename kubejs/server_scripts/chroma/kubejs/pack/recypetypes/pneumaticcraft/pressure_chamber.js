@@ -22,7 +22,17 @@ onEvent('recipes', (event) => {
             output: [
               { item: 'pneumaticcraft:ingot_iron_compressed', count: 1 }
             ],
-            id: 'pneumaticcraft:explosion_crafting/compressed_iron_ingot'
+            id: 'pneumaticcraft:pressure_chamber/compressed_iron_ingot'
+        },
+        {
+            ingredients: [
+              { type: 'pneumaticcraft:stacked_item', item: 'undergarden:cloggrum_block', count: 1 }
+            ],
+            pressure: 2.0,
+            output: [
+              { item: 'pneumaticcraft:compressed_iron_block', count: 1 }
+            ],
+            id: 'pneumaticcraft:pressure_chamber/compressed_iron_block'
         }
     ];
     recipes.forEach((recipe) => {
