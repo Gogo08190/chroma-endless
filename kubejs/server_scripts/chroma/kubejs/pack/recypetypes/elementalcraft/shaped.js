@@ -1,17 +1,6 @@
 onEvent('recipes', (event) => {
 
     const recipes = [
-        // Contained Crystal
-        {
-            output: 'elementalcraft:containedcrystal',
-            pattern: [' B ', 'BCB', ' B '],
-            key: {
-                B: '#forge:nuggets/brass',
-                C: 'elementalcraft:inertcrystal'
-            },
-            id: 'elementalcraft:containedcrystal'
-        },
-
         // Impered Element Pipe
         {
             output: Item.of('elementalcraft:elementpipe_impaired', 4),
