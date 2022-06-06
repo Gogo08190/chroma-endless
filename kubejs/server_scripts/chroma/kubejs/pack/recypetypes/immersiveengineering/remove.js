@@ -24,8 +24,7 @@ onEvent('recipes', (event) => {
       'immersiveengineering:hammer',
       'immersiveengineering:wirecutter',
       'immersiveengineering:watermill',
-      'immersiveengineering:windmill',
-      'immersiveengineering:cloche'
+      'immersiveengineering:windmill'
     ];
 
     idRemovals.forEach((id) => {
