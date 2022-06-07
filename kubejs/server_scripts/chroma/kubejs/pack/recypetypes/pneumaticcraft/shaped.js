@@ -3,7 +3,7 @@ onEvent('recipes', (event) => {
     const recipes = [
       {
           output: 'pneumaticcraft:air_canister',
-          pattern: [' A ', 'BCB', ' BCB '],
+          pattern: [' A ', 'BCB', 'BCB'],
           key: {
               A: 'pneumaticcraft:pressure_tube',
               B: 'pneumaticcraft:ingot_iron_compressed',
