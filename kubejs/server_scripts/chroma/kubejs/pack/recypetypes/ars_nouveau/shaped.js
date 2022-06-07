@@ -188,7 +188,7 @@ onEvent('recipes', (event) => {
         },
         {
             output: 'ars_nouveau:spell_parchment',
-            pattern: ['GAG', 'GBG', 'GGG'],s
+            pattern: ['GAG', 'GBG', 'GGG'],
             key: {
                 A: 'occultism:spirit_attuned_gem',
                 B: 'ars_nouveau:blank_parchment',
