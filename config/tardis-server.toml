@@ -1,0 +1,160 @@
+
+["Tardis Configurations"]
+	#List of Dimension IDs Tardis cannot travel to, everything else is allowed
+	#Seperate every entry except the last one with commas
+	blacklistedDims = ["minecraft:the_end"]
+	#List of DimensionType IDs the Tardis cannot travel to.
+	#DimensionTypes can be thought of as a group of Dimensions.
+	#Mods can categorise many Dimensions under one DimensionType.
+	#Example: Dimension IDs of rftools:my_custom_dimension and rftools:my_other_dimension might share the same DimensionType ID of rftools:fixed_day
+	#Seperate every entry except the last one with commas
+	blacklistedDimTypes = ["rftoolsdim:fixed_day", "rftools:fixed_night", "hyperbox:hyperbox"]
+	#The minimum between two Tardises before a Time Ram event will occur
+	#If two Tardises are closer than this number, they are considered 'colliding'
+	#When they collide, a Time Ram event is initiated
+	collisionRange = 16
+	#List of Dimension IDs which cause the Tardis Exterior to be teleported to the Overworld if the exterior goes below the minimum height of this dimension.
+	#Seperate every entry except the last one with commas
+	dimsToHandleTardisVoidTeleport = ["tardis:space"]
+	#Define how much Forge Energy the Tardis exterior will pull from the Tardis interior's internal energy buffer
+	exteriorEnergyTransferRate = 10
+	#Define Minecraft days before a Tardis will lose mood from being abandoned by its pilot
+	#Abandonment occurs if there are no players inside a Tardis interior dimension.
+	tardisAbandonmentTimer = 1
+	#List of entity type IDs which cannot spawn in the Tardis
+	#Seperate every entry except the last one with commas
+	#Example. minecraft:enderman
+	#Add an asterisk after the mod id to blacklist all entity types from the specified mod id.
+	#Example. rats:*
+	tardisDimEntitySpawnBlacklist = ["rats:demon_rat", "minecraft:enderman"]
+	#List of block ids that will be blacklisted from included in the Bigger On the Inside Portal
+	#Example: minecraft:tall_grass
+	#Seperate every entry except the last one with commas
+	#To blacklist all blocks from a mod, use YourModId:*
+	botiBlacklistedBlocks = [""]
+	#List of entity ids that will be blacklisted from being included in the Bigger On the Inside Portal
+	#Example: minecraft:ender_dragon
+	#Seperate every entry except the last one with commas
+	#To blacklist all entities from a mod, use YourModId:*
+	botiBlacklistedEntities = [""]
+	#The amount of time in seconds at full throttle before missing a flight event
+	flight_event_time = 3
+
+["Interior Change Configuration"]
+	#Sets the seconds of time needed before the Tardis finishes changing its interior
+	interiorChangeProcessTime = 300
+	#Sets the seconds of cooldown time between each changing of the Tardis Interior
+	interiorChangeCooldownTime = 60
+	#Sets the amount of Artron fuel required between each changing of the Tardis Interior
+	interiorChangeArtronUse = 100
+
+["Machines Configuration"]
+	#Define how much artron is taken from a Rift Chunk each second by the Artron Pylon Machine
+	artronPylonRiftDrainRate = 10.0
+	#Define how much Artron Units is taken from the Artron Collector each second to charge Artron Batteries
+	artronCollectorBatteryChargeRate = 50.0
+	#Define how much Artron Units is taken from the Transduction Barrier machine after it blocks a Tardis from landing
+	transductionDrainAmount = 500
+	#Define the max Forge Energy Capacity for the Transduction Barrier
+	transductionEnergyMaxCapacity = 10000
+	#Define the radius around a Transduction Barrier block which Tardises cannot land within
+	transductionEffectiveRange = 32
+	#Define how much Forge Energy is transferred to and from the Roundel Tap
+	roundelTapEnergyTransferRate = 10
+
+["Vortex Manipulator (VM) Configurations"]
+
+	["Vortex Manipulator (VM) Configurations"."Travel Configurations"]
+		#Toggle whether to use the Dimension Whitelist. By default, uses the Blacklist
+		toggleVMWhitelistDims = false
+		#List of Dimension IDs the VM can travel inside, anything else is not allowed
+		#Seperate every entry except the last one with commas
+		whitelistedVMDims = ["minecraft:overworld", "minecraft:the_nether", "minecraft:the_end"]
+		#List of Dimension IDs the VM cannot travel inside, everything else is allowed
+		#Seperate every entry except the last one with commas
+		blacklistedVMDims = ["modID:dimensionName"]
+		#Sets the maximum Teleport Range the Vortex Manipulator can teleport to
+		vmTeleportRange = 5000
+
+	["Vortex Manipulator (VM) Configurations".Limitations]
+		#Sets the seconds of cooldown time needed between uses of the Vortex Manipulator
+		vmCooldownTime = 10
+		#Sets the effect side effects experienced after using the Vortex Manipulator
+		vmSideEffects = ["minecraft:nausea", "minecraft:blindness", "minecraft:weakness"]
+		#Sets the duration in seconds for each effect in the above value
+		#The order of the numbers should match each the order of effect in vmSideEffects.
+		vmSideEffectTime = [5, 5, 10]
+
+	["Vortex Manipulator (VM) Configurations"."Fuel Control"]
+		#Sets the base value that scales for how much fuel is used by the VM
+		#Fuel Usage = YourInputValue + (YourMultiplier * TeleportDistance)
+		#E.g. If you want the fuel usage to be 20 charge per 100 blocks, you would set the base value to 20 + (0.005 * 100)
+		vmBaseFuelUsage = 5
+		#Sets the figure that scales how much fuel is used by the VM per amount of seconds set by user
+		#Fuel Usage = YourBaseInputValue + (YourMultiplier * TeleportDistance)
+		#E.g. If you want the fuel usage to be 20 charge per 100 blocks, you would set the base value to 20 + (0.005 * 100)
+		vmFuelUsageMultiplier = 0.1
+		#Sets the seconds of time that must elapse before the VM uses up fuel
+		vmFuelUsageTime = 1
+
+["Sonic Screwdriver"]
+
+	["Sonic Screwdriver"."Block Interactions"]
+		#Toggle whether sonics can detonate TNT
+		detonate_tnt = true
+		#Toggle whether sonics can toggle Lamps
+		redstone_lamps = true
+		#Toggle whether sonics can open doors
+		open_doors = true
+		#Toggle whether sonics can open Trap doors
+		open_trapdoors = true
+
+	["Sonic Screwdriver"."Entity Interactions"]
+		#Toggle whether sonics can detonate Creepers
+		detonate_creeper = true
+		#Toggle whether sonics can Shear Sheep
+		shear_sheep = true
+		#Toggle whether sonics can dismantle Skeleton like entities
+		dismantle_skeletons = true
+		#Toggle whether sonics can cause Squids to squirt ink
+		ink_squid = true
+
+	["Sonic Screwdriver".Tardis]
+		#Toggle whether sonics can tell the Tardis where to land
+		coordinate_tardis = true
+
+["Mob Entity Configurations"]
+
+	["Mob Entity Configurations".Daleks]
+		#If certain Daleks should be able grief blocks when Gamerule mobGriefing is enabled
+		#If false, other mobs can still grief blocks, but Daleks will not.
+		dalekBlockGrief = true
+		#If Daleks will always be immune to projectile damage
+		#If false, Daleks will only be immune to projectiles in Hard Mode
+		dalekImmuneToProjectiles = true
+		#If Special Weapon Dalek lasers should always be explosive on impact
+		#If false, lasers will only make explosions if it hits a block
+		specialWeaponsAlwaysExplode = true
+		#Radius of the Special Weapon Dalek Explosion, between 1 and 100
+		#Does not accept decimal points
+		#Range: 1 ~ 100
+		specialWeaponExplosionRadius = 3
+		#Determine if Daleks should target all living entities.
+		#If this is false, you can fine tune the targeting, such as hostiles only, or blacklist animals.
+		dalekTargetAllLiving = true
+		#If Daleks should only target other hostile mobs.
+		#Requires dalekTargetAllLiving to be false.
+		dalekTargetHostileOnly = false
+		#If Daleks should target 'animal' entites such as cows and sheep.
+		#Requires dalekTargetAllLiving and dalekTargetHostileOnly to be false.
+		dalekTargetAnimals = true
+		#If Daleks should target Villager entities.
+		#Requires dalekTargetAllLiving and dalekTargetHostileOnly to be false.
+		dalekTargetVillagers = true
+		#If Daleks should target Player entities.
+		#Requires dalekTargetAllLiving and dalekTargetHostileOnly to be false
+		dalekTargetPlayers = true
+		#Chance to disable shields
+		#Range: 0.0 ~ 1.0
+		dalekShieldDisableChance = 0.1
+
