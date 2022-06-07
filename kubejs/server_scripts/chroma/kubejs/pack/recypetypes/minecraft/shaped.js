@@ -20,26 +20,26 @@ onEvent('recipes', (event) => {
         // Linking tool
         {
           output: 'pedestals:linkingtool',
-          pattern: [' AB',' CD','E  '],
+          pattern: [' RG',' SB','M  '],
           key: {
-              A: 'minecraft:red_dye',
-              B: 'minecraft:green_dye',
-              C: 'betterendforge:leather_wrapped_stick',
-              D: 'minecraft:blue_dye',
-              E: 'botania:mana_diamond',
+              R: 'minecraft:red_dye',
+              G: 'minecraft:green_dye',
+              S: 'betterendforge:leather_wrapped_stick',
+              B: 'minecraft:blue_dye',
+              M: 'botania:mana_diamond',
           },
           id: 'pedestals:linkingtool'
         },
         // Upgrade tool
         {
           output: 'pedestals:upgradetool',
-          pattern: [' AB',' CD','E  '],
+          pattern: [' RG',' SB','L  '],
           key: {
-              A: 'minecraft:red_dye',
-              B: 'minecraft:green_dye',
-              C: 'betterendforge:leather_wrapped_stick',
-              D: 'minecraft:blue_dye',
-              E: 'emendatusenigmatica:lumium_plate',
+              R: 'minecraft:red_dye',
+              G: 'minecraft:green_dye',
+              S: 'betterendforge:leather_wrapped_stick',
+              B: 'minecraft:blue_dye',
+              L: 'emendatusenigmatica:lumium_plate',
           },
           id: 'pedestals:upgradetool'
         }
