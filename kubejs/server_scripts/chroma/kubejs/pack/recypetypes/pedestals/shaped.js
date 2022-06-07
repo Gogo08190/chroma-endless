@@ -1,22 +1,6 @@
 onEvent('recipes', (event) => {
-    const id_prefex = 'chroma:pack/';
+
     const recipes = [
-        {
-            output: 'minecraft:furnace',
-            pattern: ['AAA', 'A A', 'AAA'],
-            key: {
-                A: '#quark:stone_tool_materials'
-            },
-            id: 'minecraft:furnace'
-        },
-        {
-            output: Item.of('minecraft:stick', 16),
-            pattern: ['A', 'A'],
-            key: {
-                A: '#minecraft:logs'
-            },
-            id: `${id_prefex}sticks_16`
-        },
         // Linking tool
         {
           output: 'pedestals:linkingtool',
