@@ -6,7 +6,7 @@ onEvent('recipes', (event) => {
           pattern: [' A ', 'BCB', ' BCB '],
           key: {
               A: 'pneumaticcraft:pressure_tube',
-              B: 'pneumaticcraft:ingot_iron_compressed'
+              B: 'pneumaticcraft:ingot_iron_compressed',
               C: 'extendedcrafting:redstone_ingot'
           },
           id: 'pneumaticcraft:air_canister'
