@@ -40,7 +40,20 @@ onEvent('recipes', (event) => {
               B:'botania:mana_tablet'
           },
           id: 'botania:mana_pool'
+      },
+      {
+          output: 'botania:apothecary_default',
+          pattern: ['SCS', 'POP', 'OOO'],
+          key: {
+              S:'occultism:otherstone_slab',
+              C:Item.of('thermal:fluid_cell').ignoreNBT(),
+              P:'botania:white_petal',
+              O:'occultism:otherstone'
+
+          },
+          id: 'botania:apothecary_default'
       }
+
     ];
 
     recipes.forEach((recipe) => {
