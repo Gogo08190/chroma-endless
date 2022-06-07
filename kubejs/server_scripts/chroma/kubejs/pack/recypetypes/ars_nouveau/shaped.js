@@ -77,24 +77,96 @@ onEvent('recipes', (event) => {
         },
         {
             output: 'ars_nouveau:blank_parchment',
-            pattern: ['SGS', 'ASA', 'SSS'],
+            pattern: ['GFG', 'FSF', 'GFG'],
             key: {
                 S: 'elementalcraft:scroll_paper',
-                M: 'ars_nouveau:mana_fiber',
-                P: 'emendatusenigmatica:arcane_gem'
+                F: 'ars_nouveau:mana_fiber',
+                G: 'emendatusenigmatica:arcane_gem'
             },
             id: 'ars_nouveau:blank_parchment'
         },
         {
             output: 'ars_nouveau:mycelial_sourcelink',
-            pattern: ['SGS', 'ASA', 'SSS'],
+            pattern: ['GSG', 'BMB', 'GSG'],
             key: {
                 B: '#forge:ingots/brass',
                 M: '#forge:mushrooms',
-                A: 'emendatusenigmatica:arcane_gem',
+                S: 'occultism:spirit_attuned_gem',
                 G: 'emendatusenigmatica:arcane_gem'
             },
             id: 'ars_nouveau:mycelial_sourcelink'
+        },
+        {
+            output: 'ars_nouveau:mana_jar',
+            pattern: ['CAC', 'CSC', 'CCC'],
+            key: {
+                C: 'tconstruct:clear_glass',
+                S: 'ars_nouveau:arcane_stone',
+                A: 'emendatusenigmatica:arcane_gem'
+            },
+            id: 'ars_nouveau:mana_jar'
+        },
+        {
+            output: 'ars_nouveau:mundane_belt',
+            pattern: [' S ', 'BAB', ' B '],
+            key: {
+                B: 'quark:bonded_leather',
+                S: 'occultism:spirit_attuned_gem',
+                A: 'emendatusenigmatica:arcane_gem'
+            },
+            id: 'ars_nouveau:mundane_belt'
+        },
+        {
+            output: 'ars_nouveau:dull_trinket',
+            pattern: ['ADA', 'DSD', 'ADA'],
+            key: {
+                D: 'elementalcraft:drenched_iron_nugget',
+                S: 'occultism:spirit_attuned_gem',
+                A: 'emendatusenigmatica:arcane_gem'
+            },
+            id: 'ars_nouveau:dull_trinket'
+        },
+        {
+            output: 'ars_nouveau:runic_chalk',
+            pattern: ['  M', 'WF ', 'WW '],
+            key: {
+                M: 'ars_nouveau:magic_clay',
+                F: 'ars_nouveau:mana_fiber',
+                W: 'elementalcraft:whiterock'
+            },
+            id: 'ars_nouveau:runic_chalk'
+        },
+        {
+            output: 'ars_nouveau:magic_clay',
+            pattern: ['  M', 'WF ', 'WW '],
+            key: {
+                C: '#forge:clay',
+                S: 'emendatusenigmatica:arcane_gem',
+                R: 'extendedcrafting:redstone_ingot'
+            },
+            id: 'ars_nouveau:magic_clay'
+        },
+        {
+            output: 'ars_nouveau:marvelous_clay',
+            pattern: ['  M', 'WF ', 'WW '],
+            key: {
+                L: 'minecraft:lapis_lazuli',
+                B: '#forge:ingots/brass',
+                M: 'ars_nouveau:magic_clay',
+                S: 'emendatusenigmatica:arcane_gem'
+            },
+            id: 'ars_nouveau:marvelous_clay'
+        },
+        {
+            output: 'ars_nouveau:mythical_clay',
+            pattern: ['  M', 'WF ', 'WW '],
+            key: {
+                A: 'emendatusenigmatica:arcane_gem',
+                B: 'botania:blaze_block',
+                M: 'ars_nouveau:marvelous_clay',
+                S: 'occultism:spirit_attuned_gem'
+            },
+            id: 'ars_nouveau:mythical_clay'
         },
     ]
 
