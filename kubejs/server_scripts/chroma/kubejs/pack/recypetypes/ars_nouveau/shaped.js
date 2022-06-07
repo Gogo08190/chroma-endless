@@ -127,7 +127,7 @@ onEvent('recipes', (event) => {
             id: 'ars_nouveau:dull_trinket'
         },
         {
-            output: 'ars_nouveau:runic_chalk',
+            output: Item.of('ars_nouveau:runic_chalk', '{Damage:0}').weakNBT(),
             pattern: ['  M', 'WF ', 'WW '],
             key: {
                 M: 'ars_nouveau:magic_clay',
@@ -159,7 +159,7 @@ onEvent('recipes', (event) => {
         },
         {
             output: 'ars_nouveau:mythical_clay',
-            pattern: ['  M', 'WF ', 'WW '],
+            pattern: ['ASA', 'BMB', 'ASA'],
             key: {
                 A: 'emendatusenigmatica:arcane_gem',
                 B: 'botania:blaze_block',
@@ -168,10 +168,177 @@ onEvent('recipes', (event) => {
             },
             id: 'ars_nouveau:mythical_clay'
         },
+        {
+            output: 'ars_nouveau:blaze_fiber',
+            pattern: ['MMM', 'MBM', 'MMM'],
+            key: {
+                M: 'ars_nouveau:mana_fiber',
+                B: 'botania:blaze_block'
+            },
+            id: 'ars_nouveau:blaze_fiber'
+        },
+        {
+            output: 'ars_nouveau:end_fiber',
+            pattern: ['BBB', 'BCB', 'BBB'],
+            key: {
+                C: 'quark:chorus_fruit_block',
+                B: 'ars_nouveau:blaze_fiber'
+            },
+            id: 'ars_nouveau:end_fiber'
+        },
+        {
+            output: 'ars_nouveau:spell_parchment',
+            pattern: ['GAG', 'GBG', 'GGG'],s
+            key: {
+                A: 'occultism:spirit_attuned_gem',
+                B: 'ars_nouveau:blank_parchment',
+                G: 'emendatusenigmatica:arcane_gem'
+            },
+            id: 'ars_nouveau:spell_parchment'
+        },
+        {
+            output: 'ars_nouveau:warp_scroll',
+            pattern: ['LAL', 'SBS', 'LAL'],
+            key: {
+                A: 'occultism:spirit_attuned_gem',
+                B: 'ars_nouveau:blank_parchment',
+                S: 'emendatusenigmatica:arcane_gem',
+                L: 'emendatusenigmatica:lapis_plate'
+            },
+            id: 'ars_nouveau:warp_scroll'
+        },
+        {
+            output: Item.of('ars_nouveau:archmage_hood', '{Damage:0}').weakNBT(),
+            pattern: ['   ', 'ESE', 'E E'],
+            key: {
+                E: 'ars_nouveau:end_fiber',
+                S: 'emendatusenigmatica:arcane_gem'
+            },
+            id: 'ars_nouveau:archmage_hood'
+        },
+        {
+            output: Item.of('ars_nouveau:archmage_robes', '{Damage:0}').weakNBT(),
+            pattern: ['E E', 'ESE', 'EEE'],
+            key: {
+                E: 'ars_nouveau:end_fiber',
+                S: 'emendatusenigmatica:arcane_gem'
+            },
+            id: 'ars_nouveau:archmage_robes'
+        },
+        {
+            output: Item.of('ars_nouveau:archmage_leggings', '{Damage:0}').weakNBT(),
+            pattern: ['ESE', 'E E', 'E E'],
+            key: {
+                E: 'ars_nouveau:end_fiber',
+                S: 'emendatusenigmatica:arcane_gem'
+            },
+            id: 'ars_nouveau:archmage_leggings'
+        },
+        {
+            output: Item.of('ars_nouveau:archmage_boots', '{Damage:0}').weakNBT(),
+            pattern: ['   ', 'S S', 'E E'],
+            key: {
+                E: 'ars_nouveau:end_fiber',
+                S: 'emendatusenigmatica:arcane_gem'
+            },
+            id: 'ars_nouveau:archmage_boots'
+        },
+        {
+            output: 'ars_nouveau:worn_notebook',
+            pattern: [' S ', 'SBS', ' S '],
+            key: {
+                B: 'minecraft:book',
+                S: 'emendatusenigmatica:arcane_gem'
+            },
+            id: 'ars_nouveau:worn_notebook'
+        },
+        {
+            output: 'ars_nouveau:novice_spell_book',
+            pattern: ['ASA', 'ADA', 'AMA'],
+            key: {
+                M: 'ars_nouveau:mana_fiber',
+                D: 'occultism:dictionary_of_spirits',
+                S: 'occultism:spirit_attuned_gem',
+                A: 'emendatusenigmatica:arcane_gem'
+
+            },
+            id: 'ars_nouveau:novice_spell_book'
+        },
+        {
+            output: 'ars_nouveau:archmage_spell_book',
+            pattern: ['GTA', 'NBN', 'AWG'],
+            key: {
+                W: 'ars_nouveau:wilden_tribute',
+                N: 'extendedcrafting:nether_star_block',
+                B: 'ars_nouveau:novice_spell_book',
+                T: 'minecraft:totem_of_undying',
+                A: 'emendatusenigmatica:arcane_gem',
+                G: 'occultism:spirit_attuned_gem'
+
+            },
+            id: 'ars_nouveau:archmage_spell_book'
+        },
+        {
+            output: 'ars_nouveau:potion_jar',
+            pattern: ['ANA', 'AJA', 'AAA'],
+            key: {
+                J: 'ars_nouveau:mana_fiber',
+                N: 'occultism:dictionary_of_spirits',
+                A: 'emendatusenigmatica:arcane_gem'
+
+            },
+            id: 'ars_nouveau:potion_jar'
+        },
+        {
+            output: 'ars_nouveau:ritual',
+            pattern: ['BSB', 'BPB', 'BAB'],
+            key: {
+                B: '#forge:ingots/brass',
+                A: 'kubejs:spirit_attuned_block',
+                P: 'ars_nouveau:arcane_pedestal',
+                S: 'emendatusenigmatica:arcane_block'
+
+            },
+            id: 'ars_nouveau:ritual'
+        },
+        {
+            output: 'ars_nouveau:volcanic_accumulator',
+            pattern: ['ASA', 'BLB', 'ASA'],
+            key: {
+                B: '#forge:ingots/brass',
+                S: 'occultism:spirit_attuned_gem',
+                L: 'minecraft:lava_bucket',
+                A: 'emendatusenigmatica:arcane_gem'
+
+            },
+            id: 'ars_nouveau:volcanic_accumulator'
+        },
+        {
+            output: 'ars_nouveau:alchemical_sourcelink',
+            pattern: ['ASA', 'BWB', 'ASA'],
+            key: {
+                B: '#forge:ingots/brass',
+                S: 'occultism:spirit_attuned_gem',
+                W: 'minecraft:brewing_stand',
+                A: 'emendatusenigmatica:arcane_gem'
+
+            },
+            id: 'ars_nouveau:alchemical_sourcelink'
+        },
+        {
+            output: 'ars_nouveau:spell_parchment',
+            pattern: [' G ', 'APA', ' A '],
+            key: {
+                P: 'ars_nouveau:blank_parchment',
+                G: 'occultism:spirit_attuned_gem',
+                A: 'emendatusenigmatica:arcane_gem'
+
+            },
+            id: 'ars_nouveau:spell_parchment'
+        },
     ]
 
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
     });
 });
-
