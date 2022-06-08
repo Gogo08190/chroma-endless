@@ -22,7 +22,7 @@ onEvent('recipes', (event) => {
             inputs: [
                 { item: 'pneumaticcraft:plastic', count: 1 },
                 { item: 'extendedcrafting:redstone_ingot', count: 1 },
-                { tag: 'forge:nuggets/electrum', count: 3 }
+                { item: 'emendatusenigmatica:electrum_nugget', count: 3 }
             ],
             pressure: 1.0,
             results: [{ item: 'pneumaticcraft:transistor', count: 1 }],
@@ -32,7 +32,7 @@ onEvent('recipes', (event) => {
             inputs: [
                 { item: 'pneumaticcraft:plastic', count: 1 },
                 { item: 'botania:mana_pearl', count: 2 },
-                { tag: 'forge:nuggets/electrum', count: 1 }
+                { item: 'emendatusenigmatica:electrum_nugget', count: 1 }
             ],
             pressure: 1.5,
             results: [{ item: 'pneumaticcraft:capacitor', count: 1 }],
@@ -42,12 +42,12 @@ onEvent('recipes', (event) => {
             inputs: [
                 { item: 'pneumaticcraft:plastic', count: 1 },
                 { item: 'thermal:redstone_servo', count: 2 },
-                { tag: 'forge:nuggets/electrum', count: 3 }
+                { item: 'emendatusenigmatica:electrum_nugget', count: 3 }
             ],
             pressure: 1.5,
             results: [{ item: 'pneumaticcraft:empty_pcb', count: 3 }],
             id: 'pneumaticcraft:pressure_chamber/empty_pcb'
-        },
+        }
     ];
     recipes.forEach((recipe) => {
         let ingredients = [];
