@@ -33,6 +33,45 @@ onEvent('recipes', (event) => {
               { item: 'pneumaticcraft:compressed_iron_block', count: 1 }
             ],
             id: 'pneumaticcraft:pressure_chamber/compressed_iron_block'
+        },
+        {
+            ingredients: [
+              { type: 'pneumaticcraft:stacked_item', item: 'pneumaticcraft:plastic', count: 1 },
+              { type: 'pneumaticcraft:stacked_item', tag: '#forge:nuggets/electrum', count: 3 },
+              { type: 'pneumaticcraft:stacked_item', item: 'thermal:redstone_servo', count: 2 }
+            ],
+            pressure: 1.5,
+            output: [
+              { item: 'pneumaticcraft:empty_pcb', count: 3 }
+
+            ],
+            id: 'pneumaticcraft:pressure_chamber/empty_pcb'
+        },
+        {
+            ingredients: [
+              { type: 'pneumaticcraft:stacked_item', item: 'pneumaticcraft:plastic', count: 1 },
+              { type: 'pneumaticcraft:stacked_item', tag: '#forge:nuggets/electrum', count: 2 },
+              { type: 'pneumaticcraft:stacked_item', item: 'botania:mana_pearl', count: 1 }
+            ],
+            pressure: 1.5,
+            output: [
+              { item: 'pneumaticcraft:capacitor', count: 1 }
+
+            ],
+            id: 'pneumaticcraft:pressure_chamber/capacitor'
+        },
+        {
+            ingredients: [
+              { type: 'pneumaticcraft:stacked_item', item: 'pneumaticcraft:plastic', count: 1 },
+              { type: 'pneumaticcraft:stacked_item', tag: '#forge:nuggets/electrum', count: 2 },
+              { type: 'pneumaticcraft:stacked_item', item: 'extendedcrafting:redstone_ingot', count: 1 }
+            ],
+            pressure: 1.5,
+            output: [
+              { item: 'pneumaticcraft:transistor', count: 1 }
+
+            ],
+            id: 'pneumaticcraft:pressure_chamber/transistor'
         }
     ];
     recipes.forEach((recipe) => {
