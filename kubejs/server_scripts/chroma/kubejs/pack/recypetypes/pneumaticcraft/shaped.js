@@ -146,6 +146,16 @@ onEvent('recipes', (event) => {
             T: 'pneumaticcraft:pressure_tube'
           },
           id: 'pneumaticcraft:uv_light_box'
+      },
+      {
+          output: 'pneumaticcraft:heat_frame',
+          pattern: ['CCC', 'CFC', 'BBB'],
+          key: {
+            C: '#forge:ingots/compressed_iron',
+            F: 'minecraft:furnace',
+            B: '#forge:storage_blocks/compressed_iron'
+          },
+          id: 'pneumaticcraft:heat_frame'
       }
     ];
 
