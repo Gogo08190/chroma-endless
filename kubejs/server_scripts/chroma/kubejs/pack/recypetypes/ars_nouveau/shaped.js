@@ -265,7 +265,7 @@ onEvent('recipes', (event) => {
             id: 'ars_nouveau:novice_spell_book'
         },
         {
-            output: 'ars_nouveau:novice_spell_book',
+            output: 'ars_nouveau:apprentice_spell_book',
             pattern: ['ASA', 'BNB', 'SQS'],
             key: {
                 N: Item.of('ars_nouveau:novice_spell_book', '{mode:0,spells:",touch,harm,break,self,projectile"}').weakNBT(),
@@ -275,7 +275,7 @@ onEvent('recipes', (event) => {
                 Q: 'create:rose_quartz'
 
             },
-            id: 'ars_nouveau:novice_spell_book'
+            id: 'ars_nouveau:apprentice_spell_book_upgrade'
         },
         {
             output: 'ars_nouveau:archmage_spell_book',
