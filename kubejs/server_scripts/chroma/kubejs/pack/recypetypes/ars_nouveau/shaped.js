@@ -23,7 +23,7 @@ onEvent('recipes', (event) => {
             id: 'ars_nouveau:vitalic_sourcelink'
         },
         {
-            output: 'ars_nouveau:arcane_stone',
+            output: Item.of('ars_nouveau:arcane_stone', 8),
             pattern: ['GCG', 'CAC', 'GCG'],
             key: {
                 G: 'emendatusenigmatica:arcane_gem',
