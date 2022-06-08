@@ -44,7 +44,7 @@ onEvent('recipes', (event) => {
             id: 'ars_nouveau:mana_condenser'
         },
         {
-            output: 'ars_nouveau:mana_condenser',
+            output: 'ars_nouveau:glyph_press',
             pattern: ['AAA', 'AMA', 'CDC'],
             key: {
                 M: 'create:mechanical_piston',
@@ -52,7 +52,7 @@ onEvent('recipes', (event) => {
                 C: '#forge:storage_blocks/compressed_stone',
                 A: 'ars_nouveau:arcane_stone'
             },
-            id: 'ars_nouveau:mana_condenser'
+            id: 'ars_nouveau:glyph_press'
         },
         {
             output: 'ars_nouveau:enchanting_apparatus',
@@ -127,7 +127,7 @@ onEvent('recipes', (event) => {
             id: 'ars_nouveau:dull_trinket'
         },
         {
-            output: Item.of('ars_nouveau:runic_chalk', '{Damage:0}').weakNBT(),
+            output: 'ars_nouveau:runic_chalk',
             pattern: ['  M', 'WF ', 'WW '],
             key: {
                 M: 'ars_nouveau:magic_clay',
@@ -138,7 +138,7 @@ onEvent('recipes', (event) => {
         },
         {
             output: 'ars_nouveau:magic_clay',
-            pattern: ['  M', 'WF ', 'WW '],
+            pattern: [' C ', 'RSR', ' R '],
             key: {
                 C: '#forge:clay',
                 S: 'emendatusenigmatica:arcane_gem',
@@ -148,7 +148,7 @@ onEvent('recipes', (event) => {
         },
         {
             output: 'ars_nouveau:marvelous_clay',
-            pattern: ['  M', 'WF ', 'WW '],
+            pattern: ['LBL', 'SMS', 'LBL'],
             key: {
                 L: 'minecraft:lapis_lazuli',
                 B: '#forge:ingots/brass',
@@ -208,7 +208,7 @@ onEvent('recipes', (event) => {
             id: 'ars_nouveau:warp_scroll'
         },
         {
-            output: Item.of('ars_nouveau:archmage_hood', '{Damage:0}').weakNBT(),
+            output: 'ars_nouveau:archmage_hood',
             pattern: ['   ', 'ESE', 'E E'],
             key: {
                 E: 'ars_nouveau:end_fiber',
@@ -217,7 +217,7 @@ onEvent('recipes', (event) => {
             id: 'ars_nouveau:archmage_hood'
         },
         {
-            output: Item.of('ars_nouveau:archmage_robes', '{Damage:0}').weakNBT(),
+            output: 'ars_nouveau:archmage_robes',
             pattern: ['E E', 'ESE', 'EEE'],
             key: {
                 E: 'ars_nouveau:end_fiber',
@@ -226,7 +226,7 @@ onEvent('recipes', (event) => {
             id: 'ars_nouveau:archmage_robes'
         },
         {
-            output: Item.of('ars_nouveau:archmage_leggings', '{Damage:0}').weakNBT(),
+            output: 'ars_nouveau:archmage_leggings',
             pattern: ['ESE', 'E E', 'E E'],
             key: {
                 E: 'ars_nouveau:end_fiber',
@@ -235,7 +235,7 @@ onEvent('recipes', (event) => {
             id: 'ars_nouveau:archmage_leggings'
         },
         {
-            output: Item.of('ars_nouveau:archmage_boots', '{Damage:0}').weakNBT(),
+            output: 'ars_nouveau:archmage_boots',
             pattern: ['   ', 'S S', 'E E'],
             key: {
                 E: 'ars_nouveau:end_fiber',
@@ -265,25 +265,38 @@ onEvent('recipes', (event) => {
             id: 'ars_nouveau:novice_spell_book'
         },
         {
+            output: 'ars_nouveau:novice_spell_book',
+            pattern: ['ASA', 'BNB', 'SQS'],
+            key: {
+                N: Item.of('ars_nouveau:novice_spell_book', '{mode:0,spells:",touch,harm,break,self,projectile"}').weakNBT(),
+                B: 'botania:blaze_block',
+                S: 'occultism:spirit_attuned_gem',
+                A: 'emendatusenigmatica:arcane_gem',
+                Q: 'create:rose_quartz'
+
+            },
+            id: 'ars_nouveau:novice_spell_book'
+        },
+        {
             output: 'ars_nouveau:archmage_spell_book',
             pattern: ['GTA', 'NBN', 'AWG'],
             key: {
                 W: 'ars_nouveau:wilden_tribute',
                 N: 'extendedcrafting:nether_star_block',
-                B: 'ars_nouveau:novice_spell_book',
+                B: Item.of('ars_nouveau:apprentice_spell_book', '{mode:0,spells:",touch,harm,break,self,projectile"}').weakNBT(),
                 T: 'minecraft:totem_of_undying',
                 A: 'emendatusenigmatica:arcane_gem',
                 G: 'occultism:spirit_attuned_gem'
 
             },
-            id: 'ars_nouveau:archmage_spell_book'
+            id: 'ars_nouveau:archmage_spell_book_upgrade'
         },
         {
             output: 'ars_nouveau:potion_jar',
             pattern: ['ANA', 'AJA', 'AAA'],
             key: {
-                J: 'ars_nouveau:mana_fiber',
-                N: 'occultism:dictionary_of_spirits',
+                J: 'ars_nouveau:mana_jar',
+                N: 'minecraft:nether_wart',
                 A: 'emendatusenigmatica:arcane_gem'
 
             },
