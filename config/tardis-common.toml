@@ -14,7 +14,7 @@
 	#Example: Value = 2, Spawn Chance = 1/2
 	#Use 1 to always generate this ore, 1001 to disable generation
 	#Range: 1 ~ 1001
-	cinnabarOreSpawnChance = 2
+	cinnabarOreSpawnChance = 1001
 	#The chance for Xion Crystals to spawn in the world
 	#This option does not allow decimal points
 	#This value is divided by 100 to form the final probability
@@ -98,21 +98,21 @@
 			#Higher weight means number of times it can spawn, so more chance of spawning
 			#Cannot contain decimal points
 			#Range: 1 ~ 50
-			observatorySpawnWeightPlains = 7
+			observatorySpawnWeightPlains = 9
 
 		["World Generation".Observatory.Desert]
 			#The spawn weight of the village street which can spawn this structure in villages.
 			#Higher weight means number of times it can spawn, so more chance of spawning
 			#Cannot contain decimal points
 			#Range: 1 ~ 50
-			observatorySpawnWeightDesert = 7
+			observatorySpawnWeightDesert = 9
 
 		["World Generation".Observatory.Savanna]
 			#The spawn weight of the village street which can spawn this structure in villages.
 			#Higher weight means number of times it can spawn, so more chance of spawning
 			#Cannot contain decimal points
 			#Range: 1 ~ 50
-			observatorySpawnWeightSavanna = 6
+			observatorySpawnWeightSavanna = 8
 
 ["Entity Spawns"]
 	#Toggle if Daleks should spawn in each Village Raid Wave
@@ -121,4 +121,3 @@
 	#The index of the number determines which raid you are setting
 	#E.g. A list of {0,1,3,5,6,7,8} means the 1st wave will contain 0 Daleks, 2nd wave contains 1 Dalek, 3rd wave contains 3 Daleks, etc.
 	dalekVillageRaidSpawnCount = [0, 1, 3, 5, 6, 7, 8]
-
