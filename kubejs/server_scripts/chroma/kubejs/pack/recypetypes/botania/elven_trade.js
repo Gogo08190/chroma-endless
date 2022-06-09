@@ -23,7 +23,7 @@ onEvent('recipes', (event) => {
 
       {
         inputs: [
-          {item: Item.of('botania:manasteel_helmet', '{Damage:0}').weakNBT()},
+          {item: 'botania:manasteel_helmet'},
           {item: 'botania:elementium_ingot'},
           {item: 'botania:elementium_ingot'},
           {item: 'botania:elementium_ingot'},
@@ -31,14 +31,14 @@ onEvent('recipes', (event) => {
           {item: 'botania:elementium_ingot'}
         ],
         output: {
-            item: Item.of('botania:elementium_helmet', '{Damage:0}').weakNBT()
+            item: 'botania:elementium_helmet'
         },
         id: 'botania:elementium_helmet'
       },
 
       {
         inputs: [
-          {item: Item.of('botania:manasteel_chestplate', '{Damage:0}').weakNBT()},
+          {item: 'botania:manasteel_chestplate'},
           {item: 'botania:elementium_ingot'},
           {item: 'botania:elementium_ingot'},
           {item: 'botania:elementium_ingot'},
@@ -49,14 +49,14 @@ onEvent('recipes', (event) => {
           {item: 'botania:elementium_ingot'}
         ],
         output: {
-            item: Item.of('botania:elementium_chestplate', '{Damage:0}').weakNBT()
+            item: 'botania:elementium_chestplate'
         },
         id: 'botania:elementium_chestplate'
       },
 
       {
         inputs: [
-          {item: Item.of('botania:manasteel_leggings', '{Damage:0}').weakNBT()},
+          {item: 'botania:manasteel_leggings'},
           {item: 'botania:elementium_ingot'},
           {item: 'botania:elementium_ingot'},
           {item: 'botania:elementium_ingot'},
@@ -66,21 +66,21 @@ onEvent('recipes', (event) => {
           {item: 'botania:elementium_ingot'}
         ],
         output: {
-            item: Item.of('botania:elementium_leggings', '{Damage:0}').weakNBT()
+            item: 'botania:elementium_leggings'
         },
         id: 'botania:elementium_leggings'
       },
 
       {
         inputs: [
-          {item: Item.of('botania:manasteel_boots', '{Damage:0}').weakNBT()},
+          {item: 'botania:manasteel_boots'},
           {item: 'botania:elementium_ingot'},
           {item: 'botania:elementium_ingot'},
           {item: 'botania:elementium_ingot'},
           {item: 'botania:elementium_ingot'}
         ],
         output: {
-            item: Item.of('botania:elementium_boots', '{Damage:0}').weakNBT()
+            item: 'botania:elementium_boots'
         },
         id: 'botania:elementium_boots'
       }
