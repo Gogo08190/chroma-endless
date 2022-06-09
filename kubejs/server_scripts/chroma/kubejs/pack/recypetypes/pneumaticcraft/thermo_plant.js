@@ -19,6 +19,15 @@ onEvent('recipes', (event) => {
           exothermic: false,
           temperature: { min_temp: 1873 },
           id: 'rftoolsbase:machine_base'
+      },
+      {
+          fluid_input: { type: 'pneumaticcraft:fluid', fluid: 'thermal:redstone', amount: 8000 },
+          item_input: { item: 'rftoolsbase:machine_base', count: 1 },
+          item_output: { item: 'rftoolspower:power_core1', count: 1 },
+          pressure: 2.0,
+          exothermic: false,
+          temperature: { min_temp: 1973 },
+          id: 'rftoolspower:power_core1'
       }
     ];
 
