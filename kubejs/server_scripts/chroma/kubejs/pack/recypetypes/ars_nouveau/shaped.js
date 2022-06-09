@@ -368,7 +368,27 @@ onEvent('recipes', (event) => {
 
             },
             id: 'ars_nouveau:apprentice_robes'
-        }
+        },
+        {
+            output: 'ars_nouveau:apprentice_hood',
+            pattern: ['SBS', 'B B'],
+            key: {
+                S: 'emendatusenigmatica:arcane_gem',
+                B: 'ars_nouveau:blaze_fiber'
+
+            },
+            id: 'ars_nouveau:apprentice_hood'
+        },
+        {
+            output: 'ars_nouveau:apprentice_boots',
+            pattern: ['S S', 'B B'],
+            key: {
+                S: 'emendatusenigmatica:arcane_gem',
+                B: 'ars_nouveau:blaze_fiber'
+
+            },
+            id: 'ars_nouveau:apprentice_boots'
+        },
     ]
 
     recipes.forEach((recipe) => {
