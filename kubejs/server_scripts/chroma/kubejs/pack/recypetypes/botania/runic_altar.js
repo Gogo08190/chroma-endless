@@ -285,6 +285,38 @@ onEvent('recipes', (event) => {
         output: 'botania:terrasteel_boots',
         count: 1,
         id: 'botania:terrasteel_boots'
+      },
+
+      {
+        inputs: [
+          'botania:livingwood',
+          'botania:livingwood',
+          'botania:livingwood',
+          'botania:livingwood',
+          'botania:livingwood',
+          'botania:livingwood',
+          'botania:terrasteel_ingot',
+          'botania:terrasteel_ingot',
+          'botania:terrasteel_ingot'
+        ],
+        mana: 20000,
+        output: 'botania:alfheim_portal',
+        count: 1,
+        id: 'botania:alfheim_portal'
+      },
+
+      {
+        inputs: [
+          'minecraft:glowstone_dust',
+          'minecraft:glowstone_dust',
+          'minecraft:glowstone_dust',
+          'minecraft:glowstone_dust',
+          'botania:livingwood'
+        ],
+        mana: 20000,
+        output: 'botania:glimmering_livingwood',
+        count: 1,
+        id: 'botania:glimmering_livingwood'
       }
 
     ];
