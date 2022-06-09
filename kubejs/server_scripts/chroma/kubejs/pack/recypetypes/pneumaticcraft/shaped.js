@@ -147,6 +147,76 @@ onEvent('recipes', (event) => {
             B: '#forge:storage_blocks/compressed_iron'
           },
           id: 'pneumaticcraft:heat_frame'
+      },
+      {
+          output: 'pneumaticcraft:advanced_air_compressor',
+          pattern: ['CAC', 'TGT', 'CRC'],
+          key: {
+            C: '#forge:ingots/compressed_iron',
+            A: 'pneumaticcraft:advanced_pcb',
+            T: 'pneumaticcraft:advanced_pressure_tube',
+            G: 'pneumaticcraft:air_compressor',
+            R: 'thermal:upgrade_augment_3'
+          },
+          id: 'pneumaticcraft:advanced_air_compressor'
+      },
+      {
+          output: 'pneumaticcraft:advanced_liquid_compressor',
+          pattern: ['CAC', 'TGT', 'CRC'],
+          key: {
+            C: '#forge:ingots/compressed_iron',
+            A: 'pneumaticcraft:advanced_pcb',
+            T: 'pneumaticcraft:advanced_pressure_tube',
+            G: 'pneumaticcraft:liquid_compressor',
+            R: 'thermal:upgrade_augment_3'
+          },
+          id: 'pneumaticcraft:advanced_liquid_compressor'
+      },
+      {
+          output: 'pneumaticcraft:pneumatic_dynamo',
+          pattern: [' F ', 'CAC', 'GWG'],
+          key: {
+            C: '#forge:ingots/compressed_iron',
+            A: 'pneumaticcraft:advanced_pcb',
+            F: 'thermal:rf_coil',
+            G: '#forge:gears/compressed_iron',
+            W: 'pneumaticcraft:turbine_rotor'
+          },
+          id: 'pneumaticcraft:pneumatic_dynamo'
+      },
+      {
+          output: 'pneumaticcraft:thermal_compressor',
+          pattern: ['CTC', 'RAR', 'CTC'],
+          key: {
+            C: '#forge:ingots/compressed_iron',
+            T: 'pneumaticcraft:pressure_tube',
+            R: 'immersiveengineering:radiator',
+            A: 'pneumaticcraft:air_compressor'
+          },
+          id: 'pneumaticcraft:thermal_compressor'
+      },
+      {
+          output: 'pneumaticcraft:electrostatic_compressor',
+          pattern: ['RAR', 'PTP', 'BCB'],
+          key: {
+            R: '#forge:ingots/regalium',
+            A: 'pneumaticcraft:advanced_pcb',
+            P: 'pneumaticcraft:plastic',
+            T: 'pneumaticcraft:turbine_rotor',
+            B: 'pneumaticcraft:advanced_pressure_tube',
+            C: 'pneumaticcraft:advanced_air_compressor'
+          },
+          id: 'pneumaticcraft:electrostatic_compressor'
+      },
+      {
+          output: 'pneumaticcraft:advanced_pcb',
+          pattern: ['RPR', 'PCP', 'RPR'],
+          key: {
+            R: 'extendedcrafting:redstone_ingot',
+            P: 'pneumaticcraft:plastic',
+            C : 'pneumaticcraft:printed_circuit_board'
+          },
+          id: 'pneumaticcraft:advanced_pcb'
       }
     ];
 
