@@ -22,15 +22,6 @@ onEvent('recipes', (event) => {
           id: 'pneumaticcraft:reinforced_air_canister'
       },
       {
-          output: Item.of('pneumaticcraft:reinforced_stone', 8),
-          pattern: ['CSC', 'SCS', 'CSC'],
-          key: {
-              S: 'undergarden:shiverstone',
-              C: '#forge:ingots/compressed_iron'
-          },
-          id: 'pneumaticcraft:reinforced_stone'
-      },
-      {
           output: Item.of('pneumaticcraft:pressure_tube', 8),
           pattern: ['CGC'],
           key: {
@@ -105,7 +96,7 @@ onEvent('recipes', (event) => {
           pattern: ['UUU', 'SAT', 'SFS'],
           key: {
             S: 'pneumaticcraft:reinforced_bricks',
-            F: 'minecraft:furnace',
+            F: 'thermal:machine_frame',
             A: 'pneumaticcraft:air_canister',
             T: 'pneumaticcraft:pressure_tube',
             U: '#forge:ingots/utherium'
@@ -119,7 +110,7 @@ onEvent('recipes', (event) => {
             T: 'pneumaticcraft:pressure_tube',
             U: '#forge:ingots/utherium',
             C: 'thermal:cured_rubber',
-            P: 'pneumaticcraft:air_compressor',
+            P: 'thermal:machine_frame',
             A: 'pneumaticcraft:small_tank'
           },
           id: 'pneumaticcraft:liquid_compressor'
