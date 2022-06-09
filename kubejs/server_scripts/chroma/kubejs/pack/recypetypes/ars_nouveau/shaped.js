@@ -349,6 +349,26 @@ onEvent('recipes', (event) => {
             },
             id: 'ars_nouveau:spell_parchment'
         },
+        {
+            output: 'ars_nouveau:apprentice_robes',
+            pattern: ['S S', 'BSB', 'SSS'],
+            key: {
+                S: 'emendatusenigmatica:arcane_gem',
+                B: 'ars_nouveau:blaze_fiber'
+
+            },
+            id: 'ars_nouveau:apprentice_robes'
+        },
+        {
+            output: 'ars_nouveau:apprentice_leggings',
+            pattern: ['SBS', 'B B', 'B B'],
+            key: {
+                S: 'emendatusenigmatica:arcane_gem',
+                B: 'ars_nouveau:blaze_fiber'
+
+            },
+            id: 'ars_nouveau:apprentice_robes'
+        }
     ]
 
     recipes.forEach((recipe) => {
