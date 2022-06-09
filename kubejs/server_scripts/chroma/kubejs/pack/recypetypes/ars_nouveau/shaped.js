@@ -355,7 +355,6 @@ onEvent('recipes', (event) => {
             key: {
                 S: 'emendatusenigmatica:arcane_gem',
                 B: 'ars_nouveau:blaze_fiber'
-
             },
             id: 'ars_nouveau:apprentice_robes'
         },
@@ -367,7 +366,7 @@ onEvent('recipes', (event) => {
                 B: 'ars_nouveau:blaze_fiber'
 
             },
-            id: 'ars_nouveau:apprentice_robes'
+            id: 'ars_nouveau:apprentice_leggings'
         },
         {
             output: 'ars_nouveau:apprentice_hood',
