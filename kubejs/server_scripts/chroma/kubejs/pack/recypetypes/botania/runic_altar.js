@@ -210,6 +210,82 @@ onEvent('recipes', (event) => {
         output: 'botania:rune_mana',
         count: 1,
         id: 'botania:runic_altar/mana'
+      },
+
+      {
+        inputs: [
+          'botania:manasteel_helmet',
+          'botania:terrasteel_ingot',
+          'botania:terrasteel_ingot',
+          'botania:terrasteel_ingot',
+          'botania:terrasteel_ingot',
+          'botania:rune_spring',
+          'botania:livingwood_twig',
+          'botania:livingwood_twig'
+        ],
+        mana: 20000,
+        output: 'botania:terrasteel_helmet',
+        count: 1,
+        id: 'botania:terrasteel_helmet'
+      },
+
+      {
+        inputs: [
+          'botania:terrasteel_chestplate',
+          'botania:terrasteel_ingot',
+          'botania:terrasteel_ingot',
+          'botania:terrasteel_ingot',
+          'botania:terrasteel_ingot',
+          'botania:terrasteel_ingot',
+          'botania:terrasteel_ingot',
+          'botania:terrasteel_ingot',
+          'botania:terrasteel_ingot',
+          'botania:terrasteel_ingot',
+          'botania:rune_summer',
+          'botania:livingwood_twig',
+          'botania:livingwood_twig'
+        ],
+        mana: 20000,
+        output: 'botania:terrasteel_chestplate',
+        count: 1,
+        id: 'botania:terrasteel_chestplate'
+      },
+
+      {
+        inputs: [
+          'botania:manasteel_leggings',
+          'botania:terrasteel_ingot',
+          'botania:terrasteel_ingot',
+          'botania:terrasteel_ingot',
+          'botania:terrasteel_ingot',
+          'botania:terrasteel_ingot',
+          'botania:terrasteel_ingot',
+          'botania:terrasteel_ingot',
+          'botania:rune_autumn',
+          'botania:livingwood_twig',
+          'botania:livingwood_twig'
+        ],
+        mana: 20000,
+        output: 'botania:terrasteel_leggings',
+        count: 1,
+        id: 'botania:terrasteel_leggings'
+      },
+
+      {
+        inputs: [
+          'botania:manasteel_boots',
+          'botania:terrasteel_ingot',
+          'botania:terrasteel_ingot',
+          'botania:terrasteel_ingot',
+          'botania:terrasteel_ingot',
+          'botania:rune_winter',
+          'botania:livingwood_twig',
+          'botania:livingwood_twig'
+        ],
+        mana: 20000,
+        output: 'botania:terrasteel_boots',
+        count: 1,
+        id: 'botania:terrasteel_boots'
       }
 
     ];
