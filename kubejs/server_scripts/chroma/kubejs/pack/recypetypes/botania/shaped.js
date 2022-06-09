@@ -22,6 +22,7 @@ onEvent('recipes', (event) => {
           },
           id: 'botania:mana_pylon'
       },
+
       {
           output: 'botania:mana_spreader',
           pattern: ['AAA', 'BC ', 'AAA'],
@@ -32,6 +33,7 @@ onEvent('recipes', (event) => {
           },
           id: 'botania:mana_spreader'
       },
+
       {
           output: 'botania:mana_pool',
           pattern: ['   ', 'ABA', 'AAA'],
@@ -41,6 +43,7 @@ onEvent('recipes', (event) => {
           },
           id: 'botania:mana_pool'
       },
+
       {
           output: 'botania:apothecary_default',
           pattern: ['SCS', 'POP', 'OOO'],
@@ -52,6 +55,50 @@ onEvent('recipes', (event) => {
 
           },
           id: 'botania:apothecary_default'
+      },
+
+      {
+          output: 'botania:manasteel_helmet',
+          pattern: ['MMM', 'MSM', '   '],
+          key: {
+            M:'botania:manasteel_ingot',
+            S:Item.of('immersiveengineering:armor_steel_head', '{Damage:0}').weakNBT()
+
+          },
+          id: 'botania:manasteel_helmet'
+      },
+
+      {
+          output: 'botania:manasteel_chestplate',
+          pattern: ['MSM', 'MMM', 'MMM'],
+          key: {
+            M:'botania:manasteel_ingot',
+            S:Item.of('immersiveengineering:armor_steel_chest', '{Damage:0}').weakNBT()
+
+          },
+          id: 'botania:manasteel_chestplate'
+      },
+
+      {
+          output: 'botania:manasteel_leggings',
+          pattern: ['MMM', 'MSM', 'M M'],
+          key: {
+            M:'botania:manasteel_ingot',
+            S:Item.of('immersiveengineering:armor_steel_legs', '{Damage:0}').weakNBT()
+
+          },
+          id: 'botania:manasteel_leggings'
+      },
+
+      {
+          output: 'botania:manasteel_boots',
+          pattern: ['MSM', 'M M', '   '],
+          key: {
+            M:'botania:manasteel_ingot',
+            S:Item.of('immersiveengineering:armor_steel_feet', '{Damage:0}').weakNBT()
+
+          },
+          id: 'botania:manasteel_boots'
       }
 
     ];
