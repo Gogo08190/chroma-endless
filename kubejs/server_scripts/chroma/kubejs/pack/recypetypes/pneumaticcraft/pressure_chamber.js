@@ -47,6 +47,64 @@ onEvent('recipes', (event) => {
             pressure: 1.5,
             results: [{ item: 'pneumaticcraft:empty_pcb', count: 3 }],
             id: 'pneumaticcraft:pressure_chamber/empty_pcb'
+        },
+        {
+            inputs: [
+                { item: 'pneumaticcraft:ingot_iron_compressed', count: 4 },
+                { item: 'thermal:hazmat_boots', count: 1 }
+            ],
+            pressure: 2.0,
+            results: [{ item: 'pneumaticcraft:compressed_iron_boots', count: 1 }],
+            id: 'pneumaticcraft:compressed_iron_boots'
+        },
+        {
+            inputs: [
+                { item: 'pneumaticcraft:ingot_iron_compressed', count: 7 },
+                { item: 'thermal:hazmat_leggings', count: 1 }
+            ],
+            pressure: 2.0,
+            results: [{ item: 'pneumaticcraft:compressed_iron_leggings', count: 1 }],
+            id: 'pneumaticcraft:compressed_iron_leggings'
+        },
+        {
+            inputs: [
+                { item: 'pneumaticcraft:ingot_iron_compressed', count: 8 },
+                { item: 'thermal:hazmat_chestplate', count: 1 }
+            ],
+            pressure: 2.0,
+            results: [{ item: 'pneumaticcraft:compressed_iron_chestplate', count: 1 }],
+            id: 'pneumaticcraft:compressed_iron_chestplate'
+        },
+        {
+            inputs: [
+                { item: 'pneumaticcraft:ingot_iron_compressed', count: 5 },
+                { item: 'thermal:hazmat_helmet', count: 1 }
+            ],
+            pressure: 2.0,
+            results: [{ item: 'pneumaticcraft:compressed_iron_helmet', count: 1 }],
+            id: 'pneumaticcraft:compressed_iron_helmet'
+        },
+        {
+            inputs: [
+                { item: 'pneumaticcraft:unassembled_pcb', count: 1 },
+                { item: 'pneumaticcraft:capacitor', count: 2 },
+                { item: 'pneumaticcraft:transistor', count: 2 },
+                { item: 'extendedcrafting:redstone_ingot', count: 1 },
+                { item: 'immersiveengineering:wire_electrum', count: 2 }
+            ],
+            pressure: 1.5,
+            results: [{ item: 'pneumaticcraft:printed_circuit_board', count: 1 }],
+            id: 'pneumaticcraft:printed_circuit_board'
+        },
+        {
+            inputs: [
+                { item: 'emendatusenigmatica:lead_plate', count: 1 },
+                { item: 'extendedcrafting:redstone_ingot', count: 2 },
+                { item: 'thermal:redstone_servo', count: 1 }
+            ],
+            pressure: 1.0,
+            results: [{ item: 'pneumaticcraft:turbine_blade', count: 1 }],
+            id: 'pneumaticcraft:turbine_blade'
         }
     ];
     recipes.forEach((recipe) => {
