@@ -21,7 +21,7 @@
       "mutationCount": 4,
       "mutation": [
           {
-            "type": "BLOCK",
+            "type": "BLOCK_TO_BLOCK",
             "chance": 0.5,
             "inputID": "minecraft:andesite",
             "outputs": [
@@ -29,7 +29,7 @@
             ]
           },
           {
-            "type": "BLOCK",
+            "type": "BLOCK_TO_BLOCK",
             "chance": 0.5,
             "inputID": "minecraft:oak_log",
             "outputs": [
