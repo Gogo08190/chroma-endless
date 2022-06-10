@@ -40,7 +40,7 @@
   },
   "BreedData": {
       "isBreedable": true,
-      "feedItem": "tag:forge:storage_blocks/diamond",
+      "feedItem": "tardis:xion_crystal",
       "feedAmount": 1,
       "childGrowthDelay": -24000,
       "breedDelay": 6000
