@@ -105,6 +105,15 @@ onEvent('recipes', (event) => {
             pressure: 1.0,
             results: [{ item: 'pneumaticcraft:turbine_blade', count: 1 }],
             id: 'pneumaticcraft:turbine_blade'
+        },
+        {
+            inputs: [
+                { item: 'rftoolsbase:machine_base', count: 1 },
+                { item: 'undergarden:utherium_ingot', count: 4 }
+            ],
+            pressure: 2.5,
+            results: [{ item: 'rftoolspower:power_core2', count: 1 }],
+            id: 'rftoolspower:power_core2'
         }
     ];
     recipes.forEach((recipe) => {
