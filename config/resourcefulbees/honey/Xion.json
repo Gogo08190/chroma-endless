@@ -1,0 +1,17 @@
+{
+    "name" : "xion",
+    "hunger": 4,
+    "honeyColor": "#39c4d0",
+    "saturation": 3,
+    "isRainbow" : false,
+    "honeyBlockRecipe" : true,
+    "generateHoneyBlock" : true,
+    "effects": [
+      {
+        "effectID": "minecraft:luck",
+        "duration": 2400,
+        "strength": 0,
+        "chance": 1
+      }
+    ]
+  }
