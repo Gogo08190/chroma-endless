@@ -2,7 +2,6 @@
   "profession": "pneumaticcraft:mechanic",
   "removeOtherTrades": true,
   "trades": [
-
     {
       "offer": {
         "itemKey": "pneumaticcraft:pcb_blueprint",
@@ -11,109 +10,13 @@
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 10,
+        "amount": 32,
         "priceModifier": 0
       },
       "tradeExp": 3,
       "maxUses": 16,
       "priceMultiplier": 0.1,
       "tradeLevel": 1
-    },
-    {
-      "offer": {
-        "itemKey": "pneumaticcraft:logistics_core",
-        "amount":4,
-        "priceModifier": 0
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 2,
-        "priceModifier": 0
-      },
-      "tradeExp": 3,
-      "maxUses": 16,
-      "priceMultiplier": 0.1,
-      "tradeLevel": 2
-    },
-    {
-      "offer": {
-        "itemKey": "pneumaticcraft:logistics_drone",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 10,
-        "priceModifier": 0
-      },
-      "tradeExp": 3,
-      "maxUses": 16,
-      "priceMultiplier": 0.1,
-      "tradeLevel": 3
-    },
-    {
-      "offer": {
-        "itemKey": "pneumaticcraft:guard_drone",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 10,
-        "priceModifier": 0
-      },
-      "tradeExp": 3,
-      "maxUses": 16,
-      "priceMultiplier": 0.1,
-      "tradeLevel": 3
-    },
-    {
-      "offer": {
-        "itemKey": "pneumaticcraft:collector_drone",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 10,
-        "priceModifier": 0
-      },
-      "tradeExp": 3,
-      "maxUses": 16,
-      "priceMultiplier": 0.1,
-      "tradeLevel": 3
-    },
-    {
-      "offer": {
-        "itemKey": "pneumaticcraft:harvesting_drone",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 10,
-        "priceModifier": 0
-      },
-      "tradeExp": 3,
-      "maxUses": 16,
-      "priceMultiplier": 0.1,
-      "tradeLevel": 3
-    },
-    {
-      "offer": {
-        "itemKey": "pneumaticcraft:pneumatic_cylinder",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 10,
-        "priceModifier": 0
-      },
-      "tradeExp": 3,
-      "maxUses": 16,
-      "priceMultiplier": 0.1,
-      "tradeLevel": 3
     },
     {
       "offer": {
@@ -135,7 +38,7 @@
       "tradeExp": 3,
       "maxUses": 16,
       "priceMultiplier": 0.1,
-      "tradeLevel": 3
+      "tradeLevel": 2
     },
     {
       "offer": {
@@ -249,22 +152,6 @@
     },
     {
       "offer": {
-        "itemKey": "pneumaticcraft:programming_puzzle",
-        "amount": 16,
-        "priceModifier": 0
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 25,
-        "priceModifier": 0
-      },
-      "tradeExp": 3,
-      "maxUses": 16,
-      "priceMultiplier": 0.1,
-      "tradeLevel": 4
-    },
-    {
-      "offer": {
         "itemKey": "pneumaticcraft:stop_worm",
         "amount": 1,
         "priceModifier": 0
@@ -284,56 +171,6 @@
         "itemKey": "pneumaticcraft:nuke_virus",
         "amount": 1,
         "priceModifier": 0
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 11,
-        "priceModifier": 0
-      },
-      "tradeExp": 3,
-      "maxUses": 16,
-      "priceMultiplier": 0.1,
-      "tradeLevel": 5
-    },
-    {
-      "offer": {
-        "itemKey": "pneumaticcraft:drone",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 30,
-        "priceModifier": 0
-      },
-      "tradeExp": 3,
-      "maxUses": 16,
-      "priceMultiplier": 0.1,
-      "tradeLevel": 5
-    },
-    {
-      "offer": {
-        "itemKey": "pneumaticcraft:micromissiles",
-        "amount": 1,
-        "priceModifier": 0,
-        "nbtTags" :[
-          {
-              "nbtName":"Damage",
-              "data" : "0"
-          },
-          {
-            "nbtName":"damage",
-            "data" : "0"
-          },
-          {
-            "nbtName":"topSpeed",
-            "data" : "0"
-          },
-          {
-            "nbtName":"turnSpeed",
-            "data" : "0"
-          }
-        ]
       },
       "request": {
         "itemKey": "minecraft:emerald",
