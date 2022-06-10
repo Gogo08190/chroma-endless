@@ -10,7 +10,13 @@ onEvent('recipes', (event) => {
     }*/
 
     const recipes = [
-
+      {
+          input: 'minecraft:stone',
+          fluid: Fluid.of('kubejs:molten_compressed_iron', 18),
+          output: 'pneumaticcraft:reinforced_stone',
+          energy: 8000,
+          id: 'pneumaticcraft:reinforced_stone'
+      }
     ];
     recipes.forEach((recipe) => {
         event.recipes.thermal.bottler(recipe.output, [recipe.fluid, recipe.input]).energy(recipe.energy).id(recipe.id);

@@ -19,6 +19,70 @@ onEvent('recipes', (event) => {
             item: 'elementalcraft:containedcrystal'
         },
         id: 'elementalcraft:containedcrystal'
+      },
+
+      {
+        inputs: [
+          {item: 'botania:manasteel_helmet'},
+          {item: 'botania:elementium_ingot'},
+          {item: 'botania:elementium_ingot'},
+          {item: 'botania:elementium_ingot'},
+          {item: 'botania:elementium_ingot'},
+          {item: 'botania:elementium_ingot'}
+        ],
+        output: {
+            item: 'botania:elementium_helmet'
+        },
+        id: 'botania:elementium_helmet'
+      },
+
+      {
+        inputs: [
+          {item: 'botania:manasteel_chestplate'},
+          {item: 'botania:elementium_ingot'},
+          {item: 'botania:elementium_ingot'},
+          {item: 'botania:elementium_ingot'},
+          {item: 'botania:elementium_ingot'},
+          {item: 'botania:elementium_ingot'},
+          {item: 'botania:elementium_ingot'},
+          {item: 'botania:elementium_ingot'},
+          {item: 'botania:elementium_ingot'}
+        ],
+        output: {
+            item: 'botania:elementium_chestplate'
+        },
+        id: 'botania:elementium_chestplate'
+      },
+
+      {
+        inputs: [
+          {item: 'botania:manasteel_leggings'},
+          {item: 'botania:elementium_ingot'},
+          {item: 'botania:elementium_ingot'},
+          {item: 'botania:elementium_ingot'},
+          {item: 'botania:elementium_ingot'},
+          {item: 'botania:elementium_ingot'},
+          {item: 'botania:elementium_ingot'},
+          {item: 'botania:elementium_ingot'}
+        ],
+        output: {
+            item: 'botania:elementium_leggings'
+        },
+        id: 'botania:elementium_leggings'
+      },
+
+      {
+        inputs: [
+          {item: 'botania:manasteel_boots'},
+          {item: 'botania:elementium_ingot'},
+          {item: 'botania:elementium_ingot'},
+          {item: 'botania:elementium_ingot'},
+          {item: 'botania:elementium_ingot'}
+        ],
+        output: {
+            item: 'botania:elementium_boots'
+        },
+        id: 'botania:elementium_boots'
       }
 
     ];

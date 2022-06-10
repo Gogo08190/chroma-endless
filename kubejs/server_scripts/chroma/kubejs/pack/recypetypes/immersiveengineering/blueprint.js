@@ -1,7 +1,4 @@
 onEvent('recipes', (event) => {
-    if (global.isExpertMode == false) {
-        return;
-    }
     const recipes = [
         {
             inputs: [
@@ -13,7 +10,7 @@ onEvent('recipes', (event) => {
             category: 'components',
             output: {
                 item: 'immersiveengineering:electron_tube',
-                count: 3
+                count: 1
             },
             id: 'immersiveengineering:blueprint/electron_tube'
         }

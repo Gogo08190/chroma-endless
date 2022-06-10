@@ -1,0 +1,186 @@
+{
+  "profession": "pneumaticcraft:mechanic",
+  "removeOtherTrades": true,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "pneumaticcraft:pcb_blueprint",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 32,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 16,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "pneumaticcraft:gun_ammo",
+        "amount": 1,
+        "priceModifier": 0,
+        "nbtTags" :[
+          {
+              "nbtName":"Damage",
+              "data" : "0"
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 16,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "pneumaticcraft:gun_ammo_ap",
+        "amount": 1,
+        "priceModifier": 0,
+        "nbtTags" :[
+          {
+              "nbtName":"Damage",
+              "data" : "0"
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 16,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "pneumaticcraft:gun_ammo_explosive",
+        "amount": 1,
+        "priceModifier": 0,
+        "nbtTags" :[
+          {
+              "nbtName":"Damage",
+              "data" : "0"
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 16,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "pneumaticcraft:gun_ammo_freezing",
+        "amount": 1,
+        "priceModifier": 0,
+        "nbtTags" :[
+          {
+              "nbtName":"Damage",
+              "data" : "0"
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 16,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "pneumaticcraft:gun_ammo_weighted",
+        "amount": 1,
+        "priceModifier": 0,
+        "nbtTags" :[
+          {
+              "nbtName":"Damage",
+              "data" : "0"
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 16,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "pneumaticcraft:gun_ammo_incendiary",
+        "amount": 1,
+        "priceModifier": 0,
+        "nbtTags" :[
+          {
+              "nbtName":"Damage",
+              "data" : "0"
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 16,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "pneumaticcraft:stop_worm",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 11,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 16,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 5
+    },
+    {
+      "offer": {
+        "itemKey": "pneumaticcraft:nuke_virus",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 11,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 16,
+      "priceMultiplier": 0.1,
+      "tradeLevel": 5
+    }
+    ]
+  }

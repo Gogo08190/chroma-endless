@@ -120,6 +120,14 @@ const itemsToHide = [
     'create:copper_ore',
     'create:zinc_ore',
 
+    'arsarsenal:aqua_hood',
+    'arsarsenal:fire_hood',
+    'arsarsenal:earth_hood',
+    'arsarsenal:air_hood',
+
+    'masterfulmachinery:assemblylaser_assembly_energy_port_energy_output',
+    'masterfulmachinery:assemblylaser_assembly_air_port_pncr_pressure_output',
+
     'emendatusenigmatica:sulfur_ore',
     'emendatusenigmatica:cinnabar_ore',
     'emendatusenigmatica:dimensional_crushed',

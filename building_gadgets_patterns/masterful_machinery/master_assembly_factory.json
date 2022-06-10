@@ -1,0 +1,155 @@
+{
+  "header": {
+    "version": "2.1.0",
+    "mc_version": "1.16.5",
+    "name": "Master Assembly factory",
+    "author": "ChromaEndless",
+    "bounding_box": {
+      "min_x": 0,
+      "min_y": 0,
+      "min_z": 0,
+      "max_x": 4,
+      "max_y": 5,
+      "max_z": 5
+    },
+    "material_list": {
+      "root_type": "buildinggadgets:entries",
+      "root_entry": [
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "pneumaticcraft:assembly_controller"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "pneumaticcraft:assembly_drill"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "pneumaticcraft:assembly_io_unit_export"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "pneumaticcraft:assembly_io_unit_import"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "pneumaticcraft:assembly_laser"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "pneumaticcraft:assembly_platform"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "masterfulmachinery:assemblylaser_assembly_air_port_pncr_pressure_input"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "masterfulmachinery:assemblylaser_assembly_energy_port_energy_input"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "masterfulmachinery:assemblylaser_assembly_item_port_items_input"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "masterfulmachinery:assemblylaser_assembly_item_port_items_output"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "masterfulmachinery:assemblylaser_controller"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 24,
+          "item": {
+            "id": "pneumaticcraft:compressed_brick_tile"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 12,
+          "item": {
+            "id": "pneumaticcraft:compressed_brick_wall"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 46,
+          "item": {
+            "id": "pneumaticcraft:compressed_bricks"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 2,
+          "item": {
+            "id": "immersiveengineering:conveyor_basic"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 3,
+          "item": {
+            "id": "pneumaticcraft:heat_sink"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "simplylight:illuminant_orange_block_on"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 27,
+          "item": {
+            "id": "pneumaticcraft:pressure_chamber_glass"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "pneumaticcraft:pressure_chamber_valve"
+          }
+        }
+      ]
+    }
+  },
+  "body": "H4sIAAAAAAAAAM2Xy3PbNhDGQQB0baXvV9LOdMbTprn00mPHlz4O6amdHptcOJAEUZiQAAcE7aiX/utdAB8lWTOKJcVt7QM/LLlc/HaxgOgJYxdMzlVQE8bYl5M8ZoJNeu2Nasxf2tMDNmFlH1TQ50z+rlrNnnZWD60KZjbzahGuZq7tvO57Pa+m3sxeVcE0Or52R7wJm/zhXad9MLo/Z2cLNTO2ZqV1PizZONt3reqD9ouhadVsaaz2qytFk7XTZtUoilzNnA3eNU2MfnASl3ck0R8R69udWCnQ4HU1W6p2SoQ1gR4T8KudgGO+VUr4+NJKTTVk5UI1Pc1R9m6gAq/NXO/RlDd67btehK/3AZ1U+2f7ohlXDdaESr/uiOmIiD/d2SSbOYJuqxg+jfqKatENx8z14+lzGXvYVDvL9+iG7vnG1bWer9dp3C55vUa4b0zbat+ba61tTWwU3tbU3PZar5yvpqo3s7fYJevMukaFhfPt8clwZ5kMftg017PetB3VztTLcGWaZmiNVTZUzitb62raODpT6K172D9zT/Hvs1OJ/LhO/eXw7tH0sF7l/sH4xAbac7Q+2cluqVWoemNfve0M0abmWHcrO/ikvFbN9Qm/HfmAE4272bNbcOZlD5RBWmfXBx4MPnQ73Xnnr92NOqil7p04P/mPgUHwMInHeM8P32PK+LzBOjuj0diOJ+4z1CgQ7ptrhLKMRcov/J+NeMC6vok5Gw9u89xGzv4Pe7vvJ36o2/1fI75gonO9JMS/2dZfgSuHLaAyXTkcBCugHCqK/FxCcwDyg3Ko4PCD5gnID8qhQsAPmgE4K6AcKqBS3k6hgG6Is8qkySqiVSQtYx6kZzGP9FxC45TJhkbUZCdNXAW4CnAV4CrARfoOUBhe2q5Q1PPIxcHF4+IUSSeRK9miyM8lNE4FLg4uDi4OLg4u0keRi4OLg+vWEhfQzYpkleOwiJd3Ixfpe5FHgEeAR4BH4BUBHgEeAR6BOgnwCPBstdr7eXG2Vl5AJUOpiqgfRJ5kc6iASmgcJj8OP6iASr4uffYT8Ev6YexDiT6UoJHIQyKPzAdbJv2I8TLqx0wk/YTJcp1PydinMZ8S+ZB+FvlL8JN+HvnzfY77HPdhE1++D5UC/hL3JfyTPo48pE8iD+kXkaecsDP6Jp1rTx+Uig4b59nFr6523/9QPff0cOoGO+8pcfqP4UVehDj8cxyq1y9pVObhi80wOsjs+zKtKLW3jUfT49/Sl8Plz/g+uKTP2uD8ivp769g8T+14OR1MM6eP3lrNax36q/nQtqtq63T9B7XRA6hhEQAA"
+}

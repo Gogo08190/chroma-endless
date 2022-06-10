@@ -10,6 +10,12 @@ onEvent('recipes', (event) => {
         input: 'occultism:otherstone',
         output: 'botania:livingrock',
         id: 'botania:pure_daisy/livingrock'
+      },
+
+      {
+        input: 'occultism:otherworld_log',
+        output: 'botania:livingwood',
+        id: 'botania:pure_daisy/livingwood'
       }
 
     ];

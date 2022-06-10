@@ -31,6 +31,37 @@ onEvent('recipes', (event) => {
                 T: 'immersiveengineering:treated_wood_horizontal'
             },
             id: 'immersiveengineering:watermill'
+        },
+        {
+            output: 'pneumaticcraft:aerial_interface',
+            pattern: ['CCPCC', 'CAHAC', 'TFNFT', 'CAMAC', 'CCSCC'],
+            key: {
+                C: 'pneumaticcraft:pressure_chamber_wall',
+                P: Item.of('modularrouters:player_module', '{modularrouters:{ModuleFilter:{}}}').weakNBT(),
+                A: 'pneumaticcraft:advanced_pcb',
+                H: 'pneumaticcraft:omnidirectional_hopper',
+                T: 'pneumaticcraft:advanced_pressure_tube',
+                F: 'thermal:rf_coil',
+                N: 'cagedmobs:star_infused_netherite_block',
+                M: 'pneumaticcraft:liquid_hopper',
+                S: 'thermal:redstone_servo'
+            },
+            id: 'pneumaticcraft:aerial_interface'
+        },
+        {
+            output: 'pneumaticcraft:flux_compressor',
+            pattern: ['ULLLU', 'UTATU', 'PGFGP', 'SFAFS', 'SSPSS'],
+            key: {
+                U: '#forge:ingots/utherium',
+                L: 'pneumaticcraft:upgrade_matrix',
+                T: 'pneumaticcraft:turbine_rotor',
+                A: 'pneumaticcraft:advanced_pcb',
+                P: 'pneumaticcraft:advanced_pressure_tube',
+                G: '#forge:gears/compressed_iron',
+                F: 'thermal:rf_coil',
+                S: 'pneumaticcraft:reinforced_stone'
+            },
+            id: 'pneumaticcraft:flux_compressor'
         }
     ];
 
