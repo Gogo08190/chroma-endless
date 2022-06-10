@@ -1,0 +1,112 @@
+{
+  "type": "masterfulmachinery:machine_structure",
+  "id": "master_assembly",
+  "controllerId": "assemblylaser",
+  "name": "Master Assembly Factory",
+  "layout": [
+    [
+      "))C))",
+      ")))))",
+      "*)))+",
+      ")))))",
+      "),)))",
+      "  )-)"
+    ],
+    [
+      ".///.",
+      "/012/",
+      "/343/",
+      "/5 6/",
+      ".7...",
+      "  8.8"
+    ],
+    [
+      ".///.",
+      "/   /",
+      "/   /",
+      "/   /",
+      ".7...",
+      "  8.8"
+    ],
+    [
+      ".///.",
+      "/   /",
+      "/   /",
+      "/   /",
+      ".7.9.",
+      "  ..."
+    ],
+    [
+      ".....",
+      ".....",
+      "..:..",
+      ".....",
+      "...).",
+      "  8.8"
+    ],
+    [
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "  888",
+      "  888"
+    ]
+  ],
+  "legend": {
+    ")": {
+      "block": "pneumaticcraft:compressed_brick_tile"
+    },
+    "*": {
+      "block": "masterfulmachinery:assemblylaser_assembly_item_port_items_output"
+    },
+    "+": {
+      "block": "masterfulmachinery:assemblylaser_assembly_item_port_items_input"
+    },
+    ",": {
+      "block": "masterfulmachinery:assemblylaser_assembly_energy_port_energy_input"
+    },
+    "-": {
+      "block": "masterfulmachinery:assemblylaser_assembly_air_port_pncr_pressure_input"
+    },
+    ".": {
+      "block": "pneumaticcraft:compressed_bricks"
+    },
+    "/": {
+      "block": "pneumaticcraft:pressure_chamber_glass"
+    },
+    "0": {
+      "block": "pneumaticcraft:assembly_laser"
+    },
+    "1": {
+      "block": "pneumaticcraft:assembly_controller"
+    },
+    "2": {
+      "block": "pneumaticcraft:assembly_io_unit_export"
+    },
+    "3": {
+      "block": "immersiveengineering:conveyor_basic"
+    },
+    "4": {
+      "block": "pneumaticcraft:assembly_platform"
+    },
+    "5": {
+      "block": "pneumaticcraft:assembly_drill"
+    },
+    "6": {
+      "block": "pneumaticcraft:assembly_io_unit_import"
+    },
+    "7": {
+      "block": "pneumaticcraft:heat_sink"
+    },
+    "8": {
+      "block": "pneumaticcraft:compressed_brick_wall"
+    },
+    "9": {
+      "block": "pneumaticcraft:pressure_chamber_valve"
+    },
+    ":": {
+      "block": "simplylight:illuminant_orange_block_on"
+    }
+  }
+}
