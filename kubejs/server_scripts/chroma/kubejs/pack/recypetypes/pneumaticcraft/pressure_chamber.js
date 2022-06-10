@@ -114,6 +114,39 @@ onEvent('recipes', (event) => {
             pressure: 2.5,
             results: [{ item: 'rftoolspower:power_core2', count: 1 }],
             id: 'rftoolspower:power_core2'
+        },
+        {
+            inputs: [
+                { item: 'pneumaticcraft:smart_chest', count: 1 },
+                { item: 'pneumaticcraft:omnidirectional_hopper', count: 1 },
+                { item: 'pneumaticcraft:compressed_brick_tile', count: 1 },
+                { item: 'pneumaticcraft:advanced_pcb', count: 1 }
+            ],
+            pressure: 3.0,
+            results: [{ item: 'masterfulmachinery:assemblylaser_assembly_item_port_items_input', count: 1 }],
+            id: `${id_prefix}assemblylaser_assembly_item_port_items_input`
+        },
+        {
+            inputs: [
+                { item: 'pneumaticcraft:smart_chest', count: 1 },
+                { item: 'pneumaticcraft:pressure_chamber_valve', count: 1 },
+                { item: 'pneumaticcraft:compressed_brick_tile', count: 1 },
+                { item: 'pneumaticcraft:advanced_pcb', count: 1 }
+            ],
+            pressure: 3.0,
+            results: [{ item: 'masterfulmachinery:assemblylaser_assembly_item_port_items_output', count: 1 }],
+            id: `${id_prefix}assemblylaser_assembly_item_port_items_output`
+        },
+        {
+            inputs: [
+                { item: 'pneumaticcraft:reinforced_air_canister', count: 1 },
+                { item: 'pneumaticcraft:advanced_pressure_tube', count: 1 },
+                { item: 'pneumaticcraft:compressed_brick_tile', count: 1 },
+                { item: 'pneumaticcraft:advanced_pcb', count: 1 }
+            ],
+            pressure: 3.0,
+            results: [{ item: 'masterfulmachinery:assemblylaser_assembly_air_port_pncr_pressure_input', count: 1 }],
+            id: `${id_prefix}assemblylaser_assembly_air_port_pncr_pressure_input`
         }
     ];
     recipes.forEach((recipe) => {
