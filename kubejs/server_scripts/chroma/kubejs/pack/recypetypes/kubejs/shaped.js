@@ -9,6 +9,18 @@ onEvent('recipes', (event) => {
               S: 'immersiveengineering:stick_treated'
           },
           id: `${id_prefix}central_windmill`
+      },
+      {
+          output: 'kubejs:xnet_machine_frame',
+          pattern: ['SCS', 'GFG', 'SHS'],
+          key: {
+              S: '#forge:plates/steel',
+              F: 'thermal:energy_cell_frame',
+              G: '#forge:gears/enderium',
+              H: 'thermal:enderium_glass',
+              C: 'thermal:rf_coil'
+          },
+          id: `${id_prefix}xnet_machine_frame`
       }
     ];
 
