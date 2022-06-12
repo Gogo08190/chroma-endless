@@ -171,7 +171,7 @@ onEvent('recipes', (event) => {
         },
         {
             ritual_type: 'occultism:craft_with_spirit_name',
-            activation_item: 'occultism:book_of_binding_bound_marid',
+            activation_item: 'kubejs:sac',
             pentacle_id: 'occultism:craft_afrit',
             duration: 120,
             ritual_dummy: 'sophisticatedbackpacks:backpack',
