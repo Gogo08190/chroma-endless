@@ -83,6 +83,42 @@ onEvent('recipes', (event) => {
             item: 'botania:elementium_boots'
         },
         id: 'botania:elementium_boots'
+      },
+
+      {
+        inputs: [
+          {tag: '#forge:gems/dimensional'},
+          {tag: '#forge:gems/dimensional'},
+          {tag: '#forge:gems/dimensional'},
+          {tag: '#forge:gems/dimensional'},
+          {tag: '#forge:gems/dimensional'},
+          {tag: '#forge:gems/dimensional'},
+          {tag: '#forge:gems/dimensional'},
+          {tag: '#forge:gems/dimensional'},
+          {item: 'minecraft:diamond'}
+        ],
+        output: {
+            item: 'rftoolsbase:infused_diamond'
+        },
+        id: 'rftoolsbase:infused_diamond'
+      },
+
+      {
+        inputs: [
+          {tag: '#forge:gems/dimensional'},
+          {tag: '#forge:gems/dimensional'},
+          {tag: '#forge:gems/dimensional'},
+          {tag: '#forge:gems/dimensional'},
+          {tag: '#forge:gems/dimensional'},
+          {tag: '#forge:gems/dimensional'},
+          {tag: '#forge:gems/dimensional'},
+          {tag: '#forge:gems/dimensional'},
+          {item: 'minecraft:ender_pearl'}
+        ],
+        output: {
+            item: 'rftoolsbase:infused_enderpearl'
+        },
+        id: 'rftoolsbase:infused_enderpearl'
       }
 
     ];
