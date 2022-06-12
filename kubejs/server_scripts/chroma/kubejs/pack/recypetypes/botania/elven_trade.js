@@ -87,14 +87,14 @@ onEvent('recipes', (event) => {
 
       {
         inputs: [
-          {tag: '#forge:gems/dimensional'},
-          {tag: '#forge:gems/dimensional'},
-          {tag: '#forge:gems/dimensional'},
-          {tag: '#forge:gems/dimensional'},
-          {tag: '#forge:gems/dimensional'},
-          {tag: '#forge:gems/dimensional'},
-          {tag: '#forge:gems/dimensional'},
-          {tag: '#forge:gems/dimensional'},
+          {tag: 'forge:gems/dimensional'},
+          {tag: 'forge:gems/dimensional'},
+          {tag: 'forge:gems/dimensional'},
+          {tag: 'forge:gems/dimensional'},
+          {tag: 'forge:gems/dimensional'},
+          {tag: 'forge:gems/dimensional'},
+          {tag: 'forge:gems/dimensional'},
+          {tag: 'forge:gems/dimensional'},
           {item: 'minecraft:diamond'}
         ],
         output: {
@@ -105,14 +105,14 @@ onEvent('recipes', (event) => {
 
       {
         inputs: [
-          {tag: '#forge:gems/dimensional'},
-          {tag: '#forge:gems/dimensional'},
-          {tag: '#forge:gems/dimensional'},
-          {tag: '#forge:gems/dimensional'},
-          {tag: '#forge:gems/dimensional'},
-          {tag: '#forge:gems/dimensional'},
-          {tag: '#forge:gems/dimensional'},
-          {tag: '#forge:gems/dimensional'},
+          {tag: 'forge:gems/dimensional'},
+          {tag: 'forge:gems/dimensional'},
+          {tag: 'forge:gems/dimensional'},
+          {tag: 'forge:gems/dimensional'},
+          {tag: 'forge:gems/dimensional'},
+          {tag: 'forge:gems/dimensional'},
+          {tag: 'forge:gems/dimensional'},
+          {tag: 'forge:gems/dimensional'},
           {item: 'minecraft:ender_pearl'}
         ],
         output: {
