@@ -69,7 +69,7 @@ onEvent('recipes', (event) => {
             output: 'compactcrafting:field_projector',
             pattern: [' A ', 'BCB', 'DDD'],
             key: {
-                A: 'compactmachines:projector_dish',
+                A: 'compactcrafting:projector_dish',
                 B: 'undergarden:sediment_glass_pane',
                 C: 'undergarden:cloggrum_ingot',
                 D: '#forge:sheetmetals/steel',
