@@ -72,7 +72,7 @@ onEvent('recipes', (event) => {
         },
         // Windmill
         {
-            input: 'create:shaft',
+            input: 'kubejs:central_windmill',
             outputs: ['immersiveengineering:windmill'],
             transitionalItem: 'kubejs:part_central_windmill',
             loops: 8,
