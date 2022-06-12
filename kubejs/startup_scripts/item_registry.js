@@ -4,12 +4,12 @@ onEvent('item.registry', (event) => {
         'partial_wirecutter',
         'part_central_windmill',
         'part_garden_cloche',
-        'SAC',
+        'sac',
         'central_windmill',
         'advanced_extreme_circuit_board',
-        'Extreme_circuit_board',
+        'extreme_circuit_board',
         'netherite_transistor',
-        'uranium_capacitor',
+        'uranium_capacitor'
     ];
 
     generalItems.forEach((item) => {

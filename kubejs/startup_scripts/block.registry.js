@@ -1,7 +1,7 @@
 onEvent('block.registry', (event) => {
     const blocks = [
         { name: 'spirit_attuned_block', material: 'iron', hardness: 5 },
-        { name: 'Xnet_Machine_Frame', material: 'iron', hardness: 5 }
+        { name: 'xnet_machine_frame', material: 'iron', hardness: 5 }
     ];
 
     blocks.forEach((block) => {
