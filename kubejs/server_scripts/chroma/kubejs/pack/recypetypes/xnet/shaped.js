@@ -107,6 +107,17 @@ onEvent('recipes', (event) => {
           id: 'xnet:netcable_red'
       },
       {
+          output: Item.of('xnet:netcable_green', 16),
+          pattern: ['IDI', 'RSR', 'IRI'],
+          key: {
+              I: 'botania:mana_string',
+              D: '#forge:dyes/green',
+              R: 'extendedcrafting:redstone_ingot',
+              S: '#forge:ingots/signalum'
+          },
+          id: 'xnet:netcable_green'
+      },
+      {
           output: Item.of('xnet:netcable_blue', 16),
           pattern: ['IDI', 'RSR', 'IRI'],
           key: {
@@ -133,7 +144,7 @@ onEvent('recipes', (event) => {
           pattern: ['IDI', 'RSR', 'IRI'],
           key: {
               I: 'botania:mana_string',
-              D: '#forge:dyes/yellow',
+              D: '#forge:dyes/black',
               R: 'extendedcrafting:redstone_ingot',
               S: '#forge:ingots/signalum'
           },
@@ -202,6 +213,16 @@ onEvent('recipes', (event) => {
               P: '#forge:plates/diamond'
           },
           id: 'xnet:advanced_connector_green'
+      },
+      {
+          output: 'xnet:advanced_connector_blue',
+          pattern: ['CE', 'PP'],
+          key: {
+              C: 'xnet:connector_blue',
+              E: '#forge:ingots/enderium',
+              P: '#forge:plates/diamond'
+          },
+          id: 'xnet:advanced_connector_blue'
       },
       {
           output: 'xnet:advanced_connector_yellow',
