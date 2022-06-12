@@ -162,6 +162,17 @@ onEvent('recipes', (event) => {
           id: 'xnet:connector_red'
       },
       {
+          output: Item.of('xnet:connector_green', 2),
+          pattern: ['NCN', 'RDR', 'NRN'],
+          key: {
+              N: '#forge:ingots/nickel',
+              C: '#forge:chests',
+              R: 'extendedcrafting:redstone_ingot',
+              D: '#forge:dyes/green'
+          },
+          id: 'xnet:connector_green'
+      },
+      {
           output: Item.of('xnet:connector_blue', 2),
           pattern: ['NCN', 'RDR', 'NRN'],
           key: {
