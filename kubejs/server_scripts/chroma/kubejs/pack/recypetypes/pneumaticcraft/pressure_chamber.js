@@ -147,6 +147,26 @@ onEvent('recipes', (event) => {
             pressure: 3.0,
             results: [{ item: 'masterfulmachinery:assemblylaser_assembly_air_port_pncr_pressure_input', count: 1 }],
             id: `${id_prefix}assemblylaser_assembly_air_port_pncr_pressure_input`
+        },
+        {
+            inputs: [
+                { item: 'pneumaticcraft:unassembled_pcb', count: 1 },
+                { item: 'kubejs:netherite_transistor', count: 2 },
+                { item: 'kubejs:uranium_capacitor', count: 2 },
+                { item: 'undergarden:utherium_ingot', count: 2 }
+            ],
+            pressure: 2.0,
+            results: [{ item: 'kubejs:extreme_circuit_board', count: 1 }],
+            id: `${id_prefix}extreme_circuit_board`
+        },
+        {
+            inputs: [
+                { item: 'kubejs:extreme_circuit_board', count: 4 },
+                { item: 'fluxnetworks:flux_core', count: 2 }
+            ],
+            pressure: 3.0,
+            results: [{ item: 'kubejs:advanced_extreme_circuit_board', count: 1 }],
+            id: `${id_prefix}advanced_extreme_circuit_board`
         }
     ];
     recipes.forEach((recipe) => {

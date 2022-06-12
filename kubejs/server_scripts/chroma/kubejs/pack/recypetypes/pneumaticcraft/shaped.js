@@ -214,7 +214,7 @@ onEvent('recipes', (event) => {
           key: {
             R: 'extendedcrafting:redstone_ingot',
             P: 'pneumaticcraft:plastic',
-            C : 'pneumaticcraft:printed_circuit_board'
+            C: 'pneumaticcraft:printed_circuit_board'
           },
           id: 'pneumaticcraft:advanced_pcb'
       }
