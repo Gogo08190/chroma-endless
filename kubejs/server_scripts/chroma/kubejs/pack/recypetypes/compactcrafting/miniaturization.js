@@ -74,7 +74,7 @@ onEvent('recipes', (event) => {
           }
         ],
         catalyst: {
-          id: 'pneumaticcraft:advanced_pcb',
+          id: 'kubejs:advanced_extreme_circuit_board',
           Count: 1
         },
         components: {
