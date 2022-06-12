@@ -150,6 +150,26 @@ onEvent('recipes', (event) => {
         },
         {
             inputs: [
+                { item: 'minecraft:netherite_ingot', count: 1 },
+                { item: 'extendedcrafting:redstone_ingot', count: 1 },
+                { item: 'pneumaticcraft:plastic', count: 2 }
+            ],
+            pressure: 1.0,
+            results: [{ item: 'kubejs:netherite_transistor', count: 1 }],
+            id: `${id_prefix}netherite_transistor`
+        },
+        {
+            inputs: [
+                { item: 'emendatusenigmatica:uranium_ingot', count: 1 },
+                { item: 'botania:mana_pearl', count: 1 },
+                { item: 'pneumaticcraft:plastic', count: 2 }
+            ],
+            pressure: 1.5,
+            results: [{ item: 'kubejs:uranium_capacitor', count: 1 }],
+            id: `${id_prefix}uranium_capacitor`
+        },
+        {
+            inputs: [
                 { item: 'pneumaticcraft:unassembled_pcb', count: 1 },
                 { item: 'kubejs:netherite_transistor', count: 2 },
                 { item: 'kubejs:uranium_capacitor', count: 2 },
