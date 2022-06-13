@@ -106,6 +106,12 @@ const itemsToHide = [
     'ars_nouveau:arcane_ore',
     'ars_nouveau:mana_gem_block',
 
+    'ars_nouveau:mana_gem',
+    'arsarsenal:aqua_hat',
+    'arsarsenal:aqua_robes',
+    'arsarsenal:aqua_leggings',
+    'arsarsenal:aqua_boots'
+
     'byg:budding_ametrine_ore',
     'byg:anthracite_ore',
     'byg:lignite_ore',
