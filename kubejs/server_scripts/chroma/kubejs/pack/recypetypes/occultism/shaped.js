@@ -11,6 +11,7 @@ onEvent('recipes', (event) => {
         }
     */
 
+     /* beat */   
     const recipes = [
         {
             output: 'occultism:otherstone_frame',
