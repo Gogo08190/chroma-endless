@@ -67,7 +67,7 @@ onEvent('recipes', (event) => {
         },
         {
             output: 'compactcrafting:field_projector',
-            pattern: [' A ', 'BCB', 'DDD'],
+            pattern: [' A ', 'BCB', 'DED'],
             key: {
                 A: 'compactcrafting:projector_dish',
                 B: 'undergarden:sediment_glass_pane',
