@@ -5,7 +5,7 @@
 		"1": "kubejs:block/machine_top",
 		"2": "kubejs:block/machine_bottom",
 		"3": "kubejs:block/machine_side",
-		"particle": "kubejs:block/machine_front_template" 
+		"particle": "kubejs:block/machine_front_template"
 	},
 	"elements": [
 		{
@@ -42,6 +42,9 @@
 		"gui": {
 			"rotation": [30, 130, 0],
 			"scale": [0.6, 0.6, 0.6]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 0.5]
 		}
 	}
 }

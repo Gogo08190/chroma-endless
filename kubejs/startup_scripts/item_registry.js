@@ -24,7 +24,8 @@ onEvent('item.registry', (event) => {
         'unassembled_16384k',
         'unassembled_65536k_fluid',
         'unassembled_262144k_fluid',
-        'unassembled_1048576k_fluid'
+        'unassembled_1048576k_fluid',
+        'charlux'
     ];
 
     generalItems.forEach((item) => {
