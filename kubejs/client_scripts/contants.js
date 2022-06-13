@@ -106,12 +106,6 @@ const itemsToHide = [
     'ars_nouveau:arcane_ore',
     'ars_nouveau:mana_gem_block',
 
-    'ars_nouveau:mana_gem',
-    'arsarsenal:aqua_hat',
-    'arsarsenal:aqua_robes',
-    'arsarsenal:aqua_leggings',
-    'arsarsenal:aqua_boots'
-
     'byg:budding_ametrine_ore',
     'byg:anthracite_ore',
     'byg:lignite_ore',
@@ -125,6 +119,11 @@ const itemsToHide = [
     'create:honey_bucket',
     'create:copper_ore',
     'create:zinc_ore',
+
+    'arsarsenal:aqua_hood',
+    'arsarsenal:fire_hood',
+    'arsarsenal:earth_hood',
+    'arsarsenal:air_hood',
 
     'masterfulmachinery:assemblylaser_assembly_energy_port_energy_output',
     'masterfulmachinery:assemblylaser_assembly_air_port_pncr_pressure_output',

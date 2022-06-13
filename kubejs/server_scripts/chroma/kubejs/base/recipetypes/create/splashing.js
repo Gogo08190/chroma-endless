@@ -46,7 +46,7 @@ onEvent('recipes', (event) => {
         },
         {
             outputs: ['minecraft:terracotta'],
-            input: '#chroma:washables/terracotta',
+            input: '#enigmatica:washables/terracotta',
             id: `${id_prefix}terracotta`
         },
         {
@@ -61,7 +61,7 @@ onEvent('recipes', (event) => {
         },
         {
             outputs: ['thermal:white_rockwool'],
-            input: '#chroma:washables/rockwool',
+            input: '#enigmatica:washables/rockwool',
             id: `${id_prefix}white_rockwool`
         }
     ];

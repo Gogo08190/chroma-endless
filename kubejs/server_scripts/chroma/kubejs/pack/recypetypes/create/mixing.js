@@ -43,7 +43,6 @@ onEvent('recipes', (event) => {
         {
             inputs: ['#forge:ingots/iron', '#forge:dusts/redstone', '#forge:dusts/redstone'],
             output: Item.of('extendedcrafting:redstone_ingot', 1),
-            heated: true,
             id: `extendedcrafting:redstone_ingot`
         },
         {
