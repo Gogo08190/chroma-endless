@@ -78,5 +78,10 @@ const disabledItems = [
     'simplefarming:noodles',
     'simplefarming:chocolate',
 
-    'ars_nouveau:mana_gem'
+    'ars_nouveau:mana_gem',
+    'arsarsenal:aqua_hat',
+    'arsarsenal:aqua_robes',
+    'arsarsenal:aqua_leggings',
+    'arsarsenal:aqua_boots'
+
 ];
