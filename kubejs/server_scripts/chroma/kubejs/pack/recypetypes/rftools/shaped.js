@@ -270,6 +270,74 @@ onEvent('recipes', (event) => {
               S: 'create:smart_chute'
           },
           id: 'rftoolspower:pearl_injector'
+      },
+      {
+          output:'rftoolspower:dimensionalcell_simple',
+          pattern: ['PDP', 'CMC', 'PDP'],
+          key: {
+              P: 'rftoolspower:power_core1',
+              D: '#forge:gems/dimensional',
+              M: 'rftoolsbase:machine_frame',
+              C: 'pneumaticcraft:printed_circuit_board'
+          },
+          id: 'rftoolspower:dimensionalcell_simple'
+      },
+      {
+          output:'rftoolspower:dimensionalcell',
+          pattern: ['PDP', 'ICI', 'PDP'],
+          key: {
+              P: 'rftoolspower:power_core2',
+              D: '#forge:gems/dimensional',
+              C: 'rftoolspower:dimensionalcell_simple',
+              I: 'rftoolsbase:infused_diamond'
+          },
+          id: 'rftoolspower:dimensionalcell'
+      },
+      {
+          output:'rftoolspower:dimensionalcell_advanced',
+          pattern: ['PNP', 'DCD', 'PNP'],
+          key: {
+              P: 'rftoolspower:power_core3',
+              N: 'minecraft:nether_star',
+              C: 'rftoolspower:dimensionalcell',
+              D: 'botania:mana_diamond'
+          },
+          id: 'rftoolspower:dimensionalcell_advanced'
+      },
+      {
+          output:'rftoolscontrol:craftingstation',
+          pattern: ['RER', 'CMC', 'RER'],
+          key: {
+              R:'extendedcrafting:redstone_ingot',
+              E:'kubejs:extreme_circuit_board',
+              C:'create:mechanical_crafter',
+              M:'rftoolsbase:machine_frame'
+          },
+          id: 'rftoolscontrol:craftingstation'
+      },
+      {
+          output:'rftoolspower:blazing_agitator',
+          pattern: ['BBB', 'GMG', 'CCC'],
+          key: {
+              B:'botania:blaze_block',
+              G:'miniutilities:glowing_glass',
+              M:'rftoolsbase:machine_frame',
+              C:'#forge:ingots/compressed_iron'
+          },
+          id: 'rftoolspower:blazing_agitator'
+      },
+      {
+          output:'rftoolsutility:flight_module',
+          pattern: ['ISI', 'JMJ', 'DCD'],
+          key: {
+              I:'rftoolsbase:infused_enderpearl',
+              S:Item.of('rftoolsutility:syringe', '{level:10,mobId:"minecraft:ghast"}'),
+              J:'pneumaticcraft:jet_boots_upgrade_5',
+              M:'rftoolsutility:moduleplus_template',
+              D:'rftoolsbase:infused_diamond',
+              C:'#forge:ingots/compressed_iron'
+          },
+          id: 'rftoolsutility:flight_module'
       }
     ];
 
