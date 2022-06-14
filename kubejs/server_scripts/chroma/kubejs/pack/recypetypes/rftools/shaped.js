@@ -66,7 +66,7 @@ onEvent('recipes', (event) => {
       },
       {
           output: 'rftoolsbuilder:builder',
-          pattern: ['RFR', 'CMC', 'RMR'],
+          pattern: ['RFR', 'CMC', 'RTR'],
           key: {
               F: 'thermal:flux_drill',
               R: 'pneumaticcraft:reinforced_bricks',
@@ -78,7 +78,7 @@ onEvent('recipes', (event) => {
       },
       {
           output: 'rftoolsbuilder:shield_block1',
-          pattern: ['ETE', 'RMR', 'RMR'],
+          pattern: ['ETE', 'RMR', 'RFR'],
           key: {
               E: '#forge:ingots/electrum',
               R: 'extendedcrafting:redstone_ingot',
