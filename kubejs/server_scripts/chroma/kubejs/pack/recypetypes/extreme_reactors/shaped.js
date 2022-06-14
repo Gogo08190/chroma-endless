@@ -557,6 +557,169 @@ onEvent('recipes', (event) => {
                 D: 'bigreactors:reinforced_turbinepowertapfe_active'
             },
             id: 'bigreactors:turbine/reinforced/chargingfe'
+        },
+        //Reprocessor
+        {
+            output: 'bigreactors:reprocessorcasing',
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: 'pneumaticcraft:ingot_iron_compressed',
+                B: 'bigreactors:cyanite_ingot',
+                C: 'elementalcraft:watercrystal'
+            },
+            id: 'bigreactors:reprocessor/casing'
+        },
+        {
+            output: 'bigreactors:reprocessorglass',
+            pattern: ['BAB'],
+            key: {
+                A: 'bigreactors:reprocessorcasing',
+                B: 'thermal:lumium_glass'
+            },
+            id: 'bigreactors:reprocessor/glass'
+        },
+        {
+            output: 'bigreactors:reprocessorcontroller',
+            pattern: ['AEA', 'BCB', 'ADA'],
+            key: {
+                A: 'bigreactors:reprocessorcasing',
+                B: 'bigreactors:cyanite_ingot',
+                C: 'arsarsenal:source_steel_ingot',
+                D: 'ars_elemental:earth_focus',
+                E: 'thermal:redstone_servo'
+            },
+            id: 'bigreactors:reprocessor/controller'
+        },
+        {
+            output: 'bigreactors:reprocessorwasteinjector',
+            pattern: ['ABA', 'CDC', 'ABA'],
+            key: {
+                A: 'bigreactors:reprocessorcasing',
+                B: 'bigreactors:cyanite_ingot',
+                C: 'extendedcrafting:redstone_ingot',
+                D: 'create:sticky_mechanical_piston'
+            },
+            id: 'bigreactors:reprocessor/wasteinjector'
+        },
+        {
+            output: 'bigreactors:reprocessorfluidinjector',
+            pattern: ['ABA', 'CDC', 'ABA'],
+            key: {
+                A: 'bigreactors:reprocessorcasing',
+                B: 'thermal:diving_fabric',
+                C: '#forge:plates/lapis',
+                D: 'create:mechanical_piston'
+            },
+            id: 'bigreactors:reprocessor/fluidinjector'
+        },
+        {
+            output: 'bigreactors:reprocessoroutputport',
+            pattern: ['ADA', 'BCB', 'ADA'],
+            key: {
+                A: 'bigreactors:reprocessorcasing',
+                B: 'pneumaticcraft:smart_chest',
+                C: 'engineersdecor:factory_placer',
+                D: 'kubejs:extreme_circuit_board'
+            },
+            id: 'bigreactors:reprocessor/outputport'
+        },
+        {
+            output: 'bigreactors:reprocessorpowerport',
+            pattern: ['ABA', 'CDC', 'ABA'],
+            key: {
+                A: 'bigreactors:reprocessorcasing',
+                B: 'extendedcrafting:redstone_ingot_block',
+                C: 'botania:mana_diamond',
+                D: 'thermal:rf_coil'
+            },
+            id: 'bigreactors:reprocessor/powerport'
+        },
+        {
+            output: 'bigreactors:reprocessorcollector',
+            pattern: ['ABA', 'CDC', 'ABA'],
+            key: {
+                A: 'bigreactors:reprocessorcasing',
+                B: 'pneumaticcraft:ingot_iron_compressed',
+                C: 'arsarsenal:source_steel_ingot',
+                D: 'create:smart_chute'
+            },
+            id: 'bigreactors:reprocessor/collector'
+        },
+        //Fluidizer
+        {
+            output: 'bigreactors:fluidizercasing',
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: 'pneumaticcraft:ingot_iron_compressed',
+                B: '#forge:ingots/uranium',
+                C: 'elementalcraft:watercrystal'
+            },
+            id: 'bigreactors:fluidizer/casing'
+        },
+        {
+            output: 'bigreactors:fluidizerglass',
+            pattern: ['BAB'],
+            key: {
+                A: 'bigreactors:fluidizercasing',
+                B: 'thermal:signalum_glass'
+            },
+            id: 'bigreactors:fluidizer/glass'
+        },
+        {
+            output: 'bigreactors:fluidizercontroller',
+            pattern: ['ACA', 'BEB', 'ADA'],
+            key: {
+                A: 'bigreactors:fluidizercasing',
+                B: 'bigreactors:cyanite_ingot',
+                C: 'thermal:redstone_servo',
+                D: 'ars_elemental:water_focus',
+                E: 'kubejs:advanced_extreme_circuit_board'
+            },
+            id: 'bigreactors:fluidizer/controller'
+        },
+        {
+            output: 'bigreactors:fluidizersolidinjector',
+            pattern: ['ABA', 'CDC', 'ABA'],
+            key: {
+                A: 'bigreactors:fluidizercasing',
+                B: 'bigreactors:cyanite_ingot',
+                C: 'extendedcrafting:redstone_ingot',
+                D: 'create:sticky_mechanical_piston'
+            },
+            id: 'bigreactors:fluidizer/solidinjector'
+        },
+        {
+            output: 'bigreactors:fluidizerfluidinjector',
+            pattern: ['ABA', 'CDC', 'ABA'],
+            key: {
+                A: 'bigreactors:fluidizercasing',
+                B: 'thermal:diving_fabric',
+                C: '#forge:plates/lapis',
+                D: 'create:mechanical_piston'
+            },
+            id: 'bigreactors:fluidizer/fluidinjector'
+        },
+        {
+            output: 'bigreactors:fluidizeroutputport',
+            pattern: ['ABA', 'CDC', 'ABA'],
+            key: {
+                A: 'bigreactors:fluidizercasing',
+                B: 'kubejs:extreme_circuit_board',
+                C: 'pneumaticcraft:smart_chest',
+                D: 'engineersdecor:factory_placer'
+            },
+            id: 'bigreactors:fluidizer/outputport'
+        },
+        {
+            output: 'bigreactors:fluidizerpowerport',
+            pattern: ['ABA', 'CDC', 'ABA'],
+            key: {
+                A: 'bigreactors:fluidizercasing',
+                B: 'extendedcrafting:redstone_ingot_block',
+                C: 'botania:mana_diamond',
+                D: 'thermal:rf_coil'
+            },
+            id: 'bigreactors:fluidizer/powerport'
         }
     ];
 
