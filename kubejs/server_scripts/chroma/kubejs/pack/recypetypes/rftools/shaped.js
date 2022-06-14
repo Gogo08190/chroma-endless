@@ -41,6 +41,304 @@ onEvent('recipes', (event) => {
           },
           id: 'rftoolspower:cell3'
       },
+      {
+          output: 'rftoolsbase:machine_infuser',
+          pattern: ['ERE', 'DMD', 'ERE'],
+          key: {
+              E: 'emendatusenigmatica:enderium_gear',
+              R: 'extendedcrafting:redstone_ingot',
+              D:'rftoolsbase:infused_diamond',
+              M: 'rftoolsbase:machine_frame'
+          },
+          id: 'rftoolsbase:machine_infuser'
+      },
+      {
+          output: 'rftoolsbase:tablet',
+          pattern: ['III', 'ARG', 'RMR'],
+          key: {
+              I: 'rftoolsbase:information_screen',
+              R: 'extendedcrafting:redstone_ingot',
+              A:'rftoolscontrol:advanced_network_card',
+              M: 'rftoolsbase:machine_base',
+              G:'rftoolscontrol:graphics_card'
+          },
+          id: 'rftoolsbase:tablet'
+      },
+      {
+          output: 'rftoolsbuilder:builder',
+          pattern: ['RFR', 'CMC', 'RTR'],
+          key: {
+              F: 'thermal:flux_drill',
+              R: 'pneumaticcraft:reinforced_bricks',
+              C: 'kubejs:extreme_circuit_board',
+              M: 'rftoolsbase:machine_frame',
+              T: 'thermal:rf_coil'
+          },
+          id: 'rftoolsbuilder:builder'
+      },
+      {
+          output: 'rftoolsbuilder:shield_block1',
+          pattern: ['ETE', 'RMR', 'FFF'],
+          key: {
+              E: '#forge:ingots/electrum',
+              R: 'extendedcrafting:redstone_ingot',
+              F: 'fluxnetworks:flux_block',
+              M: 'rftoolsbase:machine_frame',
+              T: 'immersiveengineering:tesla_coil'
+          },
+          id: 'rftoolsbuilder:shield_block1'
+      },
+      {
+          output: 'rftoolsbuilder:shield_block2',
+          pattern: ['RFR', 'OSO', 'RFR'],
+          key: {
+              S: 'rftoolsbuilder:shield_block1',
+              R: 'extendedcrafting:redstone_ingot_block',
+              F: 'fluxnetworks:flux_block',
+              O: 'minecraft:obsidian'
+          },
+          id: 'rftoolsbuilder:shield_block2'
+      },
+      {
+          output: 'rftoolsbuilder:shield_block3',
+          pattern: ['DFD', 'OSO', 'DFD'],
+          key: {
+              S: 'rftoolsbuilder:shield_block2',
+              D: '#forge:gems/dimensional',
+              F: 'fluxnetworks:flux_block',
+              O: 'minecraft:obsidian'
+          },
+          id: 'rftoolsbuilder:shield_block3'
+      },
+      {
+          output: 'rftoolsbuilder:shield_block4',
+          pattern: ['NFD', 'OSO', 'DFN'],
+          key: {
+              S: 'rftoolsbuilder:shield_block3',
+              D: '#forge:gems/dimensional',
+              F: 'fluxnetworks:flux_block',
+              N: 'minecraft:nether_star',
+              O: 'minecraft:obsidian'
+          },
+          id: 'rftoolsbuilder:shield_block4'
+      },
+      {
+          output: 'rftoolscontrol:processor',
+          pattern: ['RLR', 'SMS', 'RCR'],
+          key: {
+              R: 'extendedcrafting:redstone_ingot',
+              L: 'immersiveengineering:logic_unit',
+              S: 'pneumaticcraft:smart_chest',
+              M: 'rftoolsbase:machine_frame',
+              C: 'thermal:rf_coil'
+          },
+          id: 'rftoolscontrol:processor'
+      },
+      {
+          output: 'rftoolscontrol:card_base',
+          pattern: ['RRR', 'GGG', 'EEE'],
+          key: {
+              G: '#forge:dyes/green',
+              R: 'extendedcrafting:redstone_ingot',
+              E: '#forge:nuggets/electrum'
+          },
+          id: 'rftoolscontrol:card_base'
+      },
+      {
+          output: 'rftoolscontrol:network_card',
+          pattern: ['E  ', 'SBR', 'CCC'],
+          key: {
+              C: '#forge:nuggets/copper',
+              B: 'rftoolscontrol:card_base',
+              E: 'minecraft:ender_pearl',
+              R: 'extendedcrafting:redstone_ingot',
+              S: '#forge:rods/steel'
+          },
+          id: 'rftoolscontrol:network_card'
+      },
+      {
+          output: 'rftoolscontrol:advanced_network_card',
+          pattern: ['RPR', 'ENE', 'RPR'],
+          key: {
+              N: 'rftoolscontrol:network_card',
+              E: '#forge:gems/emerald',
+              P: 'minecraft:ender_pearl',
+              R: 'extendedcrafting:redstone_ingot'
+          },
+          id: 'rftoolscontrol:advanced_network_card'
+      },
+      {
+          output: 'rftoolscontrol:graphics_card',
+          pattern: ['SRR', 'SCR', 'LLL'],
+          key: {
+              S: '#forge:rods/steel',
+              R: 'create:rose_quartz',
+              C: 'rftoolscontrol:card_base',
+              L: '#forge:nuggets/lumium'
+          },
+          id: 'rftoolscontrol:graphics_card'
+      },
+      {
+          output: 'rftoolsutility:screen_controller',
+          pattern: ['SRS', 'OMO', 'SOS'],
+          key: {
+              M: 'rftoolsbase:machine_frame',
+              O: 'thermal:obsidian_glass',
+              R: 'thermal:rf_coil',
+              S: '#forge:ingots/signalum'
+          },
+          id: 'rftoolsutility:screen_controller'
+      },
+      {
+          output: 'rftoolsutility:matter_transmitter',
+          pattern: ['EPE', 'PMP', 'CPC'],
+          key: {
+              E: '#forge:ingots/enderium',
+              P: 'wormhole:portal_stabilizer',
+              M: 'rftoolsbase:machine_frame',
+              C: 'pneumaticcraft:ingot_iron_compressed'
+          },
+          id: 'rftoolsutility:matter_transmitter'
+      },
+      {
+          output: 'rftoolsutility:matter_receiver',
+          pattern: ['LPL', 'PMP', 'CPC'],
+          key: {
+              L: '#forge:ingots/lumium',
+              P: 'wormhole:portal_stabilizer',
+              M: 'rftoolsbase:machine_frame',
+              C: 'pneumaticcraft:ingot_iron_compressed'
+          },
+          id: 'rftoolsutility:matter_receiver'
+      },
+      {
+          output: 'rftoolsutility:dialing_device',
+          pattern: ['EPL', 'CMC', 'IAI'],
+          key: {
+              L: '#forge:ingots/lumium',
+              E: '#forge:ingots/enderium',
+              I: 'rftoolsbase:infused_enderpearl',
+              P: 'wormhole:portal_stabilizer',
+              A: 'wormhole:advanced_target_cell',
+              M: 'rftoolsbase:machine_frame',
+              C: 'pneumaticcraft:ingot_iron_compressed'
+          },
+          id: 'rftoolsutility:dialing_device'
+      },
+      {
+          output: 'rftoolscontrol:craftingstation',
+          pattern: ['CUC', 'TMT', 'CBC'],
+          key: {
+              C: 'create:mechanical_crafter',
+              U: 'kubejs:uranium_capacitor',
+              T: 'kubejs:netherite_transistor',
+              M: 'rftoolsbase:machine_frame',
+              B: 'rftoolscontrol:card_base'
+          },
+          id: 'rftoolscontrol:craftingstation'
+      },
+      {
+          output: 'rftoolsutility:module_template',
+          pattern: ['SOS', 'OCO', 'SOS'],
+          key: {
+              S: '#forge:gems/dimensional',
+              O: '#forge:ingots/osmium',
+              C: 'kubejs:extreme_circuit_board'
+          },
+          id: 'rftoolsutility:module_template'
+      },
+      {
+          output: 'rftoolspower:endergenic',
+          pattern: ['DPD', 'IMI', 'DPD'],
+          key: {
+              D: 'rftoolsbase:infused_diamond',
+              P: 'botania:mana_pearl',
+              I: 'rftoolsbase:infused_enderpearl',
+              M: 'rftoolsbase:machine_frame'
+          },
+          id: 'rftoolspower:endergenic'
+      },
+      {
+          output: 'rftoolspower:pearl_injector',
+          pattern: ['PCP', 'RMR', 'GSG'],
+          key: {
+              P: 'botania:mana_pearl',
+              C: 'pneumaticcraft:smart_chest',
+              R: 'extendedcrafting:redstone_ingot',
+              M: 'rftoolsbase:machine_frame',
+              G: '#forge:gears/compressed_iron',
+              S: 'create:smart_chute'
+          },
+          id: 'rftoolspower:pearl_injector'
+      },
+      {
+          output:'rftoolspower:dimensionalcell_simple',
+          pattern: ['PDP', 'CMC', 'PDP'],
+          key: {
+              P: 'rftoolspower:power_core1',
+              D: '#forge:gems/dimensional',
+              M: 'rftoolsbase:machine_frame',
+              C: 'pneumaticcraft:printed_circuit_board'
+          },
+          id: 'rftoolspower:dimensionalcell_simple'
+      },
+      {
+          output:'rftoolspower:dimensionalcell',
+          pattern: ['PDP', 'ICI', 'PDP'],
+          key: {
+              P: 'rftoolspower:power_core2',
+              D: '#forge:gems/dimensional',
+              C: 'rftoolspower:dimensionalcell_simple',
+              I: 'rftoolsbase:infused_diamond'
+          },
+          id: 'rftoolspower:dimensionalcell'
+      },
+      {
+          output:'rftoolspower:dimensionalcell_advanced',
+          pattern: ['PNP', 'DCD', 'PNP'],
+          key: {
+              P: 'rftoolspower:power_core3',
+              N: 'minecraft:nether_star',
+              C: 'rftoolspower:dimensionalcell',
+              D: 'botania:mana_diamond'
+          },
+          id: 'rftoolspower:dimensionalcell_advanced'
+      },
+      {
+          output:'rftoolscontrol:craftingstation',
+          pattern: ['RER', 'CMC', 'RER'],
+          key: {
+              R:'extendedcrafting:redstone_ingot',
+              E:'kubejs:extreme_circuit_board',
+              C:'create:mechanical_crafter',
+              M:'rftoolsbase:machine_frame'
+          },
+          id: 'rftoolscontrol:craftingstation'
+      },
+      {
+          output:'rftoolspower:blazing_agitator',
+          pattern: ['BBB', 'GMG', 'CCC'],
+          key: {
+              B:'botania:blaze_block',
+              G:'miniutilities:glowing_glass',
+              M:'rftoolsbase:machine_frame',
+              C:'#forge:ingots/compressed_iron'
+          },
+          id: 'rftoolspower:blazing_agitator'
+      },
+      {
+          output:'rftoolsutility:flight_module',
+          pattern: ['ISI', 'JMJ', 'DCD'],
+          key: {
+              I:'rftoolsbase:infused_enderpearl',
+              S:Item.of('rftoolsutility:syringe', '{level:10,mobId:"minecraft:ghast"}'),
+              J:'pneumaticcraft:jet_boots_upgrade_5',
+              M:'rftoolsutility:moduleplus_template',
+              D:'rftoolsbase:infused_diamond',
+              C:'#forge:ingots/compressed_iron'
+          },
+          id: 'rftoolsutility:flight_module'
+      }
     ];
 
     recipes.forEach((recipe) => {
