@@ -214,9 +214,9 @@ onEvent('recipes', (event) => {
           key: {
               L: '#forge:ingots/lumium',
               E: '#forge:ingots/enderium',
-              I: 'rftoolsbase:infused_enderpearl'
+              I: 'rftoolsbase:infused_enderpearl',
               P: 'wormhole:portal_stabilizer',
-              A: 'wormhole:advanced_target_cell'
+              A: 'wormhole:advanced_target_cell',
               M: 'rftoolsbase:machine_frame',
               C: 'pneumaticcraft:ingot_iron_compressed'
           },
