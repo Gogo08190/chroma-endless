@@ -78,7 +78,7 @@ onEvent('recipes', (event) => {
       },
       {
           output: 'rftoolsbuilder:shield_block1',
-          pattern: ['ETE', 'RMR', 'RFR'],
+          pattern: ['ETE', 'RMR', 'FFF'],
           key: {
               E: '#forge:ingots/electrum',
               R: 'extendedcrafting:redstone_ingot',
@@ -90,32 +90,35 @@ onEvent('recipes', (event) => {
       },
       {
           output: 'rftoolsbuilder:shield_block2',
-          pattern: ['RFR', 'FSF', 'RFR'],
+          pattern: ['RFR', 'OSO', 'RFR'],
           key: {
               S: 'rftoolsbuilder:shield_block1',
               R: 'extendedcrafting:redstone_ingot_block',
-              F: 'fluxnetworks:flux_block'
+              F: 'fluxnetworks:flux_block',
+              O: 'minecraft:obsidian'
           },
           id: 'rftoolsbuilder:shield_block2'
       },
       {
           output: 'rftoolsbuilder:shield_block3',
-          pattern: ['DFD', 'FSF', 'DFD'],
+          pattern: ['DFD', 'OSO', 'DFD'],
           key: {
               S: 'rftoolsbuilder:shield_block2',
               D: '#forge:gems/dimensional',
-              F: 'fluxnetworks:flux_block'
+              F: 'fluxnetworks:flux_block',
+              O: 'minecraft:obsidian'
           },
           id: 'rftoolsbuilder:shield_block3'
       },
       {
           output: 'rftoolsbuilder:shield_block4',
-          pattern: ['NFD', 'FSF', 'DFN'],
+          pattern: ['NFD', 'OSO', 'DFN'],
           key: {
               S: 'rftoolsbuilder:shield_block3',
               D: '#forge:gems/dimensional',
               F: 'fluxnetworks:flux_block',
-              N: 'minecraft:nether_star'
+              N: 'minecraft:nether_star',
+              O: 'minecraft:obsidian'
           },
           id: 'rftoolsbuilder:shield_block4'
       },
