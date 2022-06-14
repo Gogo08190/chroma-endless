@@ -224,6 +224,52 @@ onEvent('recipes', (event) => {
               C: 'pneumaticcraft:ingot_iron_compressed'
           },
           id: 'rftoolsutility:dialing_device'
+      },
+      {
+          output: 'rftoolscontrol:craftingstation',
+          pattern: ['CUC', 'TMT', 'CBC'],
+          key: {
+              C: 'create:mechanical_crafter',
+              U: 'kubejs:uranium_capacitor',
+              T: 'kubejs:netherite_transistor',
+              M: 'rftoolsbase:machine_frame',
+              B: 'rftoolscontrol:card_base'
+          },
+          id: 'rftoolscontrol:craftingstation'
+      },
+      {
+          output: 'rftoolsutility:module_template',
+          pattern: ['SOS', 'OCO', 'SOS'],
+          key: {
+              S: '#forge:gems/dimensional',
+              O: '#forge:ingots/osmium',
+              C: 'kubejs:extreme_circuit_board'
+          },
+          id: 'rftoolsutility:module_template'
+      },
+      {
+          output: 'rftoolspower:endergenic',
+          pattern: ['DPD', 'IMI', 'DPD'],
+          key: {
+              D: 'rftoolsbase:infused_diamond',
+              P: 'botania:mana_pearl',
+              I: 'rftoolsbase:infused_enderpearl',
+              M: 'rftoolsbase:machine_frame'
+          },
+          id: 'rftoolspower:endergenic'
+      },
+      {
+          output: 'rftoolspower:pearl_injector',
+          pattern: ['PCP', 'RMR', 'GSG'],
+          key: {
+              P: 'botania:mana_pearl',
+              C: 'pneumaticcraft:smart_chest',
+              R: 'extendedcrafting:redstone_ingot',
+              M: 'rftoolsbase:machine_frame',
+              G: '#forge:gears/compressed_iron',
+              S: 'create:smart_chute'
+          },
+          id: 'rftoolspower:pearl_injector'
       }
     ];
 
