@@ -14,7 +14,11 @@ onEvent('recipes', (event) => {
       {
           inputs: [
             {item: 'resourcefulbees:ender_bee_spawn_egg' },
-            {item: 'tardis:xion_crystal' }
+            {item: 'tardis:xion_crystal' },
+            {item: 'tardis:xion_crystal' },
+            {item: 'tardis:xion_crystal' },
+            {item: 'tardis:xion_crystal' },
+            {item: 'tardis:xion_crystal' },
           ],
           output: {item: 'resourcefulbees:xion_bee_spawn_egg'},
           id: `${id_prefix}xion_bee`
