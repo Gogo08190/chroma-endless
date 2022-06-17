@@ -40,13 +40,14 @@ onEvent('recipes', (event) => {
       },
       {
           output: 'industrialforegoing:fluid_extractor',
-          pattern: ['ELE', 'TMT', 'ERE'],
+          pattern: ['ELE', 'TMD', 'ERE'],
           key: {
               E:'enderioalloys:item_alloy_ingot_electrical_steel',
               R:'thermal:rf_coil',
               L:'pneumaticcraft:logistics_core',
               T:'pneumaticcraft:large_tank',
-              M:'industrialforegoing:machine_frame_pity'
+              M:'industrialforegoing:machine_frame_pity',
+              D: 'create:mechanical_drill'
           },
           id: 'industrialforegoing:fluid_extractor'
       },
