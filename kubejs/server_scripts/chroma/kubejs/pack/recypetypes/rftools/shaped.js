@@ -338,6 +338,102 @@ onEvent('recipes', (event) => {
               C:'#forge:ingots/compressed_iron'
           },
           id: 'rftoolsutility:flight_module'
+      },
+      {
+          output:'rftoolspower:ender_monitor',
+          pattern: [' P ', 'RMR', 'TRT'],
+          key: {
+              M:'rftoolsbase:machine_base',
+              P:'botania:mana_pearl',
+              T:'minecraft:redstone_torch',
+              R:'extendedcrafting:redstone_ingot'
+          },
+          id: 'rftoolspower:ender_monitor'
+      },
+      {
+          output:'rftoolsutility:crafter1',
+          pattern: ['IEI', 'CMC', 'RSR'],
+          key: {
+            R:'extendedcrafting:redstone_ingot',
+            S:'pneumaticcraft:smart_chest',
+            C:'create:mechanical_crafter',
+            M:'rftoolsbase:machine_frame',
+            E:'kubejs:extreme_circuit_board',
+            I:'#forge:ingots/compressed_iron'
+          },
+          id: 'rftoolsutility:crafter1'
+      },
+      {
+          output:'rftoolsutility:crafter2',
+          pattern: ['IEI', 'CMC', 'RDR'],
+          key: {
+            R:'extendedcrafting:redstone_ingot',
+            D:'rftoolsbase:infused_diamond',
+            C:'create:mechanical_crafter',
+            M:'rftoolsutility:crafter1',
+            E:'kubejs:extreme_circuit_board',
+            I:'#forge:ingots/compressed_iron'
+          },
+          id: 'rftoolsutility:crafter2'
+      },
+      {
+          output:'rftoolsutility:crafter3',
+          pattern: ['IEI', 'CMC', 'RDR'],
+          key: {
+            R:'extendedcrafting:redstone_ingot',
+            D:'emendatusenigmatica:enderium_ingot',
+            C:'create:mechanical_crafter',
+            M:'rftoolsutility:crafter2',
+            E:'kubejs:extreme_circuit_board',
+            I:'#forge:ingots/compressed_iron'
+          },
+          id: 'rftoolsutility:crafter3'
+      },
+      {
+          output:'rftoolsbuilder:shape_card_quarry',
+          pattern: ['RFR', 'DSD', 'RDR'],
+          key: {
+            R:'extendedcrafting:redstone_ingot',
+            F:'thermal:flux_drill',
+            D:'pneumaticcraft:drill_bit_compressed_iron',
+            S:'rftoolsbuilder:shape_card_def'
+          },
+          id: 'rftoolsbuilder:shape_card_quarry'
+      },
+      {
+          output:'rftoolsbuilder:shape_card_pump',
+          pattern: ['RFR', 'MSM', 'RPR'],
+          key: {
+            R:'extendedcrafting:redstone_ingot',
+            F:Item.of('thermal:fluid_cell', '{BlockEntityTag:{TankInv:[{FluidName:"minecraft:empty",Capacity:32000,Tank:0b,Amount:0}]}}'),
+            M:'create:mechanical_pump',
+            S:'rftoolsbuilder:shape_card_def',
+            P:'immersiveengineering:fluid_pump'
+          },
+          id: 'rftoolsbuilder:shape_card_pump'
+      },
+      {
+          output:Item.of('rftoolsutility:charged_porter', '{Damage:0}'),
+          pattern: ['PMP', 'ITI', 'PEP'],
+          key: {
+            P:'wormhole:portal_frame',
+            M:'rftoolsutility:matter_transmitter',
+            I:'rftoolsbase:infused_enderpearl',
+            T:'rftoolsbase:tablet',
+            E:Item.of('thermal:energy_cell', '{BlockEntityTag:{EnergySend:1000,Energy:0,EnergyMax:1000000,EnergyRecv:1000}}')
+          },
+          id: 'rftoolsutility:charged_porter'
+      },
+      {
+          output:Item.of('rftoolsutility:advanced_charged_porter', '{Damage:0}'),
+          pattern: ['IDI', 'DCD', 'IEI'],
+          key: {
+            I:'rftoolsbase:infused_enderpearl',
+            D:'rftoolsbase:infused_diamond',
+            C:Item.of('rftoolsutility:charged_porter', '{Damage:0}'),
+            E:Item.of('thermal:energy_cell', '{BlockEntityTag:{EnergySend:1000,Energy:0,EnergyMax:1000000,EnergyRecv:1000}}')
+          },
+          id: 'rftoolsutility:advanced_charged_porter'
       }
     ];
 
