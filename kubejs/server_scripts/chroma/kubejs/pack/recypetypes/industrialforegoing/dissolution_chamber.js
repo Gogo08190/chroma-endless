@@ -45,9 +45,9 @@ onEvent('recipes', (event) => {
         },
         {
             inputs: [
-                '#forge:plastic', // top left
+                'industrialforegoing:plastic', // top left
                 'industrialforegoing:machine_frame_pity', // top
-                '#forge:plastic', // top right
+                'industrialforegoing:plastic', // top right
                 'enderioalloys:item_alloy_ingot_dark_steel', // left
                 'enderioalloys:item_alloy_ingot_dark_steel', // right
                 'enderioalloys:item_material_gear_vibrant', // bottom left
@@ -64,7 +64,7 @@ onEvent('recipes', (event) => {
         },
         {
             inputs: [
-                '#forge:plastic', // top left
+                'industrialforegoing:plastic', // top left
                 'industrialforegoing:machine_frame_simple', // top
                 '#forge:plastic', // top right
                 'enderioalloys:item_alloy_ingot_end_steel', // left
@@ -83,7 +83,7 @@ onEvent('recipes', (event) => {
         },
         {
             inputs: [
-                '#forge:plastic', // top left
+                'industrialforegoing:plastic', // top left
                 'industrialforegoing:machine_frame_advanced', // top
                 '#forge:plastic', // top right
                 'enderioalloys:item_alloy_ingot_melodic_alloy', // left
