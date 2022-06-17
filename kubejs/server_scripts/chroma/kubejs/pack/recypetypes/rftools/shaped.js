@@ -331,7 +331,7 @@ onEvent('recipes', (event) => {
           pattern: ['ISI', 'JMJ', 'DCD'],
           key: {
               I:'rftoolsbase:infused_enderpearl',
-              S:Item.of('rftoolsutility:syringe', '{level:10,mobId:"minecraft:ghast"}'),
+              S:Item.of('rftoolsutility:syringe', '{level:10,mobId:"minecraft:ghast"}').weakNBT(),
               J:'pneumaticcraft:jet_boots_upgrade_5',
               M:'rftoolsutility:moduleplus_template',
               D:'rftoolsbase:infused_diamond',
@@ -405,7 +405,7 @@ onEvent('recipes', (event) => {
           pattern: ['RFR', 'MSM', 'RPR'],
           key: {
             R:'extendedcrafting:redstone_ingot',
-            F:Item.of('thermal:fluid_cell', '{BlockEntityTag:{TankInv:[{FluidName:"minecraft:empty",Capacity:32000,Tank:0b,Amount:0}]}}').ignoreNBT(),
+            F:Item.of('thermal:fluid_cell').ignoreNBT(),
             M:'create:mechanical_pump',
             S:'rftoolsbuilder:shape_card_def',
             P:'immersiveengineering:fluid_pump'
@@ -420,7 +420,7 @@ onEvent('recipes', (event) => {
             M:'rftoolsutility:matter_transmitter',
             I:'rftoolsbase:infused_enderpearl',
             T:'rftoolsbase:tablet',
-            E:Item.of('thermal:energy_cell', '{BlockEntityTag:{EnergySend:1000,Energy:0,EnergyMax:1000000,EnergyRecv:1000}}').ignoreNBT()
+            E:Item.of('thermal:energy_cell').ignoreNBT()
           },
           id: 'rftoolsutility:charged_porter'
       },
@@ -430,8 +430,8 @@ onEvent('recipes', (event) => {
           key: {
             I:'rftoolsbase:infused_enderpearl',
             D:'rftoolsbase:infused_diamond',
-            C:Item.of('rftoolsutility:charged_porter', '{Damage:0}').weakNBT(),
-            E:Item.of('thermal:energy_cell', '{BlockEntityTag:{EnergySend:1000,Energy:0,EnergyMax:1000000,EnergyRecv:1000}}').ignoreNBT()
+            C:Item.of('rftoolsutility:charged_porter').weakNBT(),
+            E:Item.of('thermal:energy_cell').ignoreNBT()
           },
           id: 'rftoolsutility:advanced_charged_porter'
       }
