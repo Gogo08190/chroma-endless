@@ -25,7 +25,16 @@ onEvent('item.registry', (event) => {
         'unassembled_65536k_fluid',
         'unassembled_262144k_fluid',
         'unassembled_1048576k_fluid',
-        'charlux'
+        'charlux',
+        'challenges',
+        'chunks',
+        'discord',
+        'sound_muffler',
+        'teams',
+        'website',
+        'basic_capacitor',
+        'double-layer_capacitor',
+        'octadic_capacitor'
     ];
 
     generalItems.forEach((item) => {
