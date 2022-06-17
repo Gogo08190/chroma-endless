@@ -11,6 +11,14 @@ onEvent('recipes', (event) => {
     // }
 
     const recipes = [
+      {
+          input: [
+            {item: 'resourcefulbees:ender_bee_spawn_egg', count: 1 },
+            {item: 'tardis:xion_crystal', count: 5 }
+          ],
+          output: {item: 'resourcefulbees:xion_bee_spawn_egg'},
+          id: `${id_prefix}xion_bee`
+      }
 
     ];
 
