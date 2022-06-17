@@ -1,0 +1,12 @@
+{
+    "item": "kubejs:basic_capacitor",
+    "machines": ["enderio:alloy_smelter"],
+    "modifiers": [
+        {
+	    "requirement": "custommachinery:speed",
+	    "mode": "input",
+	    "operation": "multiplication",
+	    "modifier": 0.5
+	}
+    ]
+}
