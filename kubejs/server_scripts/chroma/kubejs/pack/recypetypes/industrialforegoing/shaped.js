@@ -51,17 +51,16 @@ onEvent('recipes', (event) => {
           id: 'industrialforegoing:fluid_extractor'
       },
       {
-          output: 'industrialforegoing:fluid_extractor',
-          pattern: ['ELE', 'TMT', 'ERE'],
+          output: 'industrialforegoing:machine_frame_pity',
+          pattern: ['BUB', 'NVN', 'BUB'],
           key: {
-              E:'enderioalloys:item_alloy_ingot_electrical_steel',
-              R:'thermal:rf_coil',
-              L:'pneumaticcraft:logistics_core',
-              T:'pneumaticcraft:large_tank',
-              M:'industrialforegoing:machine_frame_pity'
+              B:'create:brass_casing',
+              N:'kubejs:netherite_transistor',
+              U:'kubejs:uranium_capacitor',
+              V:'enderioalloys:item_material_gear_vibrant'
           },
-          id: 'industrialforegoing:fluid_extractor'
-      }
+          id: 'industrialforegoing:machine_frame_pity'
+      },
     ];
 
     recipes.forEach((recipe) => {
