@@ -45,61 +45,156 @@ onEvent('recipes', (event) => {
         },
         {
             inputs: [
-                'industrialforegoing:plastic', // top left
-                'industrialforegoing:machine_frame_pity', // top
-                'industrialforegoing:plastic', // top right
-                'enderioalloys:item_alloy_ingot_dark_steel', // left
-                'enderioalloys:item_alloy_ingot_dark_steel', // right
-                'enderioalloys:item_material_gear_vibrant', // bottom left
-                'kubejs:advanced_extreme_circuit_board', // bottom
-                'enderioalloys:item_material_gear_vibrant'  // bottom right
+                'industrialforegoing:plastic',
+                'industrialforegoing:machine_frame_pity',
+                'industrialforegoing:plastic',
+                'enderioalloys:item_alloy_ingot_dark_steel',
+                'enderioalloys:item_alloy_ingot_dark_steel',
+                'enderioalloys:item_material_gear_vibrant',
+                'kubejs:advanced_extreme_circuit_board',
+                'enderioalloys:item_material_gear_vibrant'
             ],
-            inputFluid: 'industrialforegoing:latex', // optionnel
-            inputFluidAmount: 250, // 0 si pas de fluid
+            inputFluid: 'industrialforegoing:latex',
+            inputFluidAmount: 250,
             processingTime: 300,
             outputItem: { item: 'industrialforegoing:machine_frame_simple', count: 1 },
-            outputFluid: '', // optionnel
-            outputFluidAmount: 0, // 0 si pas de fluid
+            outputFluid: '',
+            outputFluidAmount: 0,
             id: 'industrialforegoing:dissolution_chamber/simple_machine_frame'
         },
         {
             inputs: [
-                'industrialforegoing:plastic', // top left
-                'industrialforegoing:machine_frame_simple', // top
-                '#forge:plastic', // top right
-                'enderioalloys:item_alloy_ingot_end_steel', // left
-                'enderioalloys:item_alloy_ingot_end_steel', // right
-                'enderioalloys:item_material_skull_ender_resonator', // bottom left
-                'kubejs:advanced_extreme_circuit_board', // bottom
-                'enderioalloys:item_material_skull_ender_resonator'  // bottom right
+                'industrialforegoing:plastic',
+                'industrialforegoing:machine_frame_simple',
+                '#forge:plastic',
+                'enderioalloys:item_alloy_ingot_end_steel',
+                'enderioalloys:item_alloy_ingot_end_steel',
+                'enderioalloys:item_material_skull_ender_resonator',
+                'kubejs:advanced_extreme_circuit_board',
+                'enderioalloys:item_material_skull_ender_resonator'
             ],
-            inputFluid: 'industrialforegoing:pink_slime', // optionnel
-            inputFluidAmount: 500, // 0 si pas de fluid
+            inputFluid: 'industrialforegoing:pink_slime',
+            inputFluidAmount: 500,
             processingTime: 300,
             outputItem: { item: 'industrialforegoing:machine_frame_advanced', count: 1 },
-            outputFluid: '', // optionnel
-            outputFluidAmount: 0, // 0 si pas de fluid
+            outputFluid: '',
+            outputFluidAmount: 0,
             id: 'industrialforegoing:dissolution_chamber/advanced_machine_frame'
         },
         {
             inputs: [
-                'industrialforegoing:plastic', // top left
-                'industrialforegoing:machine_frame_advanced', // top
-                '#forge:plastic', // top right
-                'enderioalloys:item_alloy_ingot_melodic_alloy', // left
-                'enderioalloys:item_alloy_ingot_melodic_alloy', // right
-                'enderioalloys:item_material_skull_guardian_diode', // bottom left
-                'kubejs:advanced_extreme_circuit_board', // bottom
-                'enderioalloys:item_material_skull_guardian_diode' // bottom right
+                'industrialforegoing:plastic',
+                'industrialforegoing:machine_frame_advanced',
+                '#forge:plastic',
+                'enderioalloys:item_alloy_ingot_melodic_alloy',
+                'enderioalloys:item_alloy_ingot_melodic_alloy',
+                'enderioalloys:item_material_skull_guardian_diode',
+                'kubejs:advanced_extreme_circuit_board',
+                'enderioalloys:item_material_skull_guardian_diode'
             ],
-            inputFluid: 'industrialforegoing:ether_gas', // optionnel
-            inputFluidAmount: 135, // 0 si pas de fluid
+            inputFluid: 'industrialforegoing:ether_gas',
+            inputFluidAmount: 135,
             processingTime: 300,
             outputItem: { item: 'industrialforegoing:machine_frame_supreme', count: 1 },
-            outputFluid: '', // optionnel
-            outputFluidAmount: 0, // 0 si pas de fluid
+            outputFluid: '',
+            outputFluidAmount: 0,
             id: 'industrialforegoing:dissolution_chamber/supreme_machine_frame'
-        }
+        },
+        {
+            inputs: [
+                'tconstruct:hepatizon_block',
+                'immersiveengineering:sawblade',
+                'tconstruct:hepatizon_block',
+                'rftoolsbase:infused_diamond',
+                'pneumaticcraft:huge_tank',
+                'industrialforegoing:plastic',
+                'thermal:upgrade_augment_3',
+                'industrialforegoing:plastic'
+            ],
+            inputFluid: 'industrialforegoing:pink_slime',
+            inputFluidAmount: 2000,
+            processingTime: 400,
+            outputItem: { item: 'industrialforegoing:infinity_saw', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'industrialforegoing:dissolution_chamber/infinity_saw'
+        },
+        {
+            inputs: [
+                'tconstruct:hepatizon_block',
+                'pneumaticcraft:jackhammer',
+                'tconstruct:hepatizon_block',
+                'rftoolsbase:infused_diamond',
+                'pneumaticcraft:huge_tank',
+                'industrialforegoing:plastic',
+                'thermal:upgrade_augment_3',
+                'industrialforegoing:plastic'
+            ],
+            inputFluid: 'industrialforegoing:pink_slime',
+            inputFluidAmount: 2000,
+            processingTime: 400,
+            outputItem: { item: 'industrialforegoing:infinity_hammer', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'industrialforegoing:dissolution_chamber/infinity_hammer'
+        },
+        {
+            inputs: [
+                'tconstruct:hepatizon_block',
+                'create:weighted_ejector',
+                'tconstruct:hepatizon_block',
+                'industrialforegoing:mob_imprisonment_tool',
+                'pneumaticcraft:huge_tank',
+                'industrialforegoing:plastic',
+                'thermal:upgrade_augment_3',
+                'industrialforegoing:plastic'
+            ],
+            inputFluid: 'industrialforegoing:pink_slime',
+            inputFluidAmount: 2000,
+            processingTime: 400,
+            outputItem: { item: 'industrialforegoing:infinity_launcher', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'industrialforegoing:dissolution_chamber/infinity_launcher'
+        },
+        {
+            inputs: [
+                'tconstruct:hepatizon_block',
+                'minecraft:trident',
+                'tconstruct:hepatizon_block',
+                'rftoolsbase:infused_diamond',
+                'pneumaticcraft:huge_tank',
+                'industrialforegoing:plastic',
+                'thermal:upgrade_augment_3',
+                'industrialforegoing:plastic'
+            ],
+            inputFluid: 'industrialforegoing:pink_slime',
+            inputFluidAmount: 2000,
+            processingTime: 400,
+            outputItem: { item: 'industrialforegoing:infinity_trident', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'industrialforegoing:dissolution_chamber/infinity_trident'
+        },
+        {
+            inputs: [
+                'tconstruct:hepatizon_block',
+                'pneumaticcraft:drill_bit_netherite',
+                'tconstruct:hepatizon_block',
+                'rftoolsbase:infused_diamond',
+                'pneumaticcraft:huge_tank',
+                'industrialforegoing:plastic',
+                'thermal:upgrade_augment_3',
+                'industrialforegoing:plastic'
+            ],
+            inputFluid: 'industrialforegoing:pink_slime',
+            inputFluidAmount: 2000,
+            processingTime: 400,
+            outputItem: { item: 'industrialforegoing:infinity_drill', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'industrialforegoing:dissolution_chamber/infinity_drill'
+        },
     ];
 
     recipes.forEach((recipe) => {
