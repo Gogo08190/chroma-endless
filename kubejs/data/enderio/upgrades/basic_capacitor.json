@@ -1,6 +1,6 @@
 {
     "item": "kubejs:basic_capacitor",
-    "machines": ["enderio:alloy_smelter"],
+    "machines": ["enderio:alloy_smelter", "enderio:slice_n_splice"],
     "modifiers": [
         {
 	    "requirement": "custommachinery:speed",
