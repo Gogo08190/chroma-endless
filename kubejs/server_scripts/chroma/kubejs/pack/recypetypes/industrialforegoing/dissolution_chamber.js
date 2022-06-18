@@ -195,6 +195,120 @@ onEvent('recipes', (event) => {
             outputFluidAmount: 0,
             id: 'industrialforegoing:dissolution_chamber/infinity_drill'
         },
+        {
+            inputs: [
+                'industrialforegoing:speed_addon_1',
+                'kubejs:extreme_circuit_board',
+                'minecraft:glass_pane',
+                'minecraft:glass_pane',
+                'emendatusenigmatica:enderium_gear',
+                'emendatusenigmatica:enderium_gear',
+                'pneumaticcraft:glycerol',
+                'pneumaticcraft:glycerol'
+            ],
+            inputFluid: 'industrialforegoing:latex',
+            inputFluidAmount: 1000,
+            processingTime: 200,
+            outputItem: { item: 'industrialforegoing:speed_addon_2', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'industrialforegoing:dissolution_chamber/speed_addon_2'
+        },
+        {
+            inputs: [
+                'industrialforegoing:processing_addon_1',
+                'kubejs:extreme_circuit_board',
+                'minecraft:glass_pane',
+                'minecraft:glass_pane',
+                'emendatusenigmatica:enderium_gear',
+                'emendatusenigmatica:enderium_gear',
+                'rftoolscontrol:ram_chip',
+                'rftoolscontrol:ram_chip'
+            ],
+            inputFluid: 'industrialforegoing:latex',
+            inputFluidAmount: 1000,
+            processingTime: 200,
+            outputItem: { item: 'industrialforegoing:processing_addon_2', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'industrialforegoing:dissolution_chamber/processing_addon_2'
+        },
+        {
+            inputs: [
+                'industrialforegoing:efficiency_addon_1',
+                'kubejs:extreme_circuit_board',
+                'minecraft:glass_pane',
+                'minecraft:glass_pane',
+                'emendatusenigmatica:enderium_gear',
+                'emendatusenigmatica:enderium_gear',
+                'rftoolspower:blazing_rod',
+                'rftoolspower:blazing_rod'
+            ],
+            inputFluid: 'industrialforegoing:latex',
+            inputFluidAmount: 1000,
+            processingTime: 200,
+            outputItem: { item: 'industrialforegoing:efficiency_addon_2', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'industrialforegoing:dissolution_chamber/efficiency_addon_2'
+        },
+        {
+            inputs: [
+                'industrialforegoing:plastic',
+                'pneumaticcraft:printed_circuit_board',
+                'minecraft:glass_pane',
+                'minecraft:glass_pane',
+                'emendatusenigmatica:lumium_gear',
+                'emendatusenigmatica:lumium_gear',
+                'rftoolspower:blazing_rod',
+                'rftoolspower:blazing_rod'
+            ],
+            inputFluid: 'industrialforegoing:latex',
+            inputFluidAmount: 1000,
+            processingTime: 200,
+            outputItem: { item: 'industrialforegoing:efficiency_addon_1', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'industrialforegoing:dissolution_chamber/efficiency_addon_1'
+        },
+        {
+            inputs: [
+                'industrialforegoing:plastic',
+                'pneumaticcraft:printed_circuit_board',
+                'minecraft:glass_pane',
+                'minecraft:glass_pane',
+                'emendatusenigmatica:lumium_gear',
+                'emendatusenigmatica:lumium_gear',
+                'rftoolscontrol:ram_chip',
+                'rftoolscontrol:ram_chip'
+            ],
+            inputFluid: 'industrialforegoing:latex',
+            inputFluidAmount: 1000,
+            processingTime: 200,
+            outputItem: { item: 'industrialforegoing:processing_addon_1', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'industrialforegoing:dissolution_chamber/processing_addon_1'
+        },
+        {
+            inputs: [
+                'industrialforegoing:plastic',
+                'pneumaticcraft:printed_circuit_board',
+                'minecraft:glass_pane',
+                'minecraft:glass_pane',
+                'emendatusenigmatica:lumium_gear',
+                'emendatusenigmatica:lumium_gear',
+                'pneumaticcraft:glycerol',
+                'pneumaticcraft:glycerol'
+            ],
+            inputFluid: 'industrialforegoing:latex',
+            inputFluidAmount: 1000,
+            processingTime: 200,
+            outputItem: { item: 'industrialforegoing:speed_addon_1', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'industrialforegoing:dissolution_chamber/speed_addon_1'
+        }
     ];
 
     recipes.forEach((recipe) => {
