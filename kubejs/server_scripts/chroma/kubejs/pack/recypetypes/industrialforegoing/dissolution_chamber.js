@@ -308,6 +308,44 @@ onEvent('recipes', (event) => {
             outputFluid: '',
             outputFluidAmount: 0,
             id: 'industrialforegoing:dissolution_chamber/speed_addon_1'
+        },
+        {
+            inputs: [
+                'industrialforegoing:plastic',
+                'industrialforegoing:infinity_hammer',
+                'industrialforegoing:plastic',
+                'enderioalloys:item_alloy_ingot_end_steel',
+                'enderioalloys:item_alloy_ingot_end_steel',
+                'enderioalloys:item_material_gear_vibrant',
+                'industrialforegoing:machine_frame_advanced',
+                'enderioalloys:item_material_gear_vibrant'
+            ],
+            inputFluid: 'industrialforegoing:pink_slime',
+            inputFluidAmount: 1000,
+            processingTime: 200,
+            outputItem: { item: 'industrialforegoing:mob_crusher', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'industrialforegoing:mob_crusher'
+        },
+        {
+            inputs: [
+                'industrialforegoing:plastic',
+                'kubejs:advanced_extreme_circuit_board',
+                'industrialforegoing:plastic',
+                'pneumaticcraft:spawner_extractor',
+                'pneumaticcraft:spawner_extractor',
+                'enderioalloys:item_material_skull_ender_resonator',
+                'industrialforegoing:machine_frame_advanced',
+                'enderioalloys:item_material_skull_ender_resonator'
+            ],
+            inputFluid: 'industrialforegoing:pink_slime',
+            inputFluidAmount: 1000,
+            processingTime: 200,
+            outputItem: { item: 'industrialforegoing:mob_duplicator', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'industrialforegoing:mob_duplicator'
         }
     ];
 
