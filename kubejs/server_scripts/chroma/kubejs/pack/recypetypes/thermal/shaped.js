@@ -1,16 +1,4 @@
 onEvent('recipes', (event) => {
-    /*
-        ,
-        {
-            output: '',
-            pattern: ['', '', ''],
-            key: {
-                A: ''
-            },
-            id: ''
-        }
-    */
-
     const recipes = [
         {
             output: 'thermal:redstone_servo',
@@ -336,6 +324,97 @@ onEvent('recipes', (event) => {
 
             },
             id: 'thermal:device_tree_extractor'
+        },
+        {
+            output: 'thermal:dynamo_stirling',
+            pattern: [' C ', 'IGI', 'BSB'],
+            key: {
+                C: 'thermal:rf_coil',
+                I: '#forge:ingots/iesnium',
+                G: '#forge:gears/iron',
+                B: 'occultism:otherstone',
+                S: 'thermal:redstone_servo'
+
+            },
+            id: 'thermal:dynamo_stirling'
+        },
+        {
+            output: 'thermal:dynamo_compression',
+            pattern: [' C ', 'IGI', 'BSB'],
+            key: {
+                C: 'thermal:rf_coil',
+                I: '#forge:ingots/iesnium',
+                G: '#forge:gears/bronze',
+                B: '#forge:storage_blocks/bronze',
+                S: Item.of('thermal:fluid_cell').ignoreNBT()
+
+            },
+            id: 'thermal:dynamo_compression'
+        },
+        {
+            output: 'thermal:dynamo_magmatic',
+            pattern: [' C ', 'IGI', 'BSB'],
+            key: {
+                C: 'thermal:rf_coil',
+                I: '#forge:ingots/iesnium',
+                G: '#forge:gears/invar',
+                B: '#forge:storage_blocks/invar',
+                S: Item.of('thermal:fluid_cell').ignoreNBT()
+
+            },
+            id: 'thermal:dynamo_magmatic'
+        },
+        {
+            output: 'thermal:dynamo_numismatic',
+            pattern: [' C ', 'IGI', 'BSB'],
+            key: {
+                C: 'thermal:rf_coil',
+                I: '#forge:ingots/iesnium',
+                G: '#forge:gears/tin',
+                B: '#forge:storage_blocks/constantan',
+                S: 'thermal:redstone_servo'
+
+            },
+            id: 'thermal:dynamo_numismatic'
+        },
+        {
+            output: 'thermal:dynamo_lapidary',
+            pattern: [' C ', 'IGI', 'BSB'],
+            key: {
+                C: 'thermal:rf_coil',
+                I: '#forge:ingots/iesnium',
+                G: '#forge:gears/cobalt',
+                B: '#forge:storage_blocks/lapis',
+                S: 'thermal:redstone_servo'
+
+            },
+            id: 'thermal:dynamo_lapidary'
+        },
+        {
+            output: 'thermal:dynamo_disenchantment',
+            pattern: [' C ', 'IGI', 'BSB'],
+            key: {
+                C: 'thermal:rf_coil',
+                I: '#forge:ingots/iesnium',
+                G: 'tombstone:book_of_disenchantment',
+                B: 'ars_nouveau:greater_experience_gem',
+                S: 'thermal:redstone_servo'
+
+            },
+            id: 'thermal:dynamo_disenchantment'
+        },
+        {
+            output: 'thermal:dynamo_gourmand',
+            pattern: [' C ', 'IGI', 'BSB'],
+            key: {
+                C: 'thermal:rf_coil',
+                I: '#forge:ingots/iesnium',
+                G: '#forge:gears/copper',
+                B: '#forge:storage_blocks/tin',
+                S: 'thermal:redstone_servo'
+
+            },
+            id: 'thermal:dynamo_gourmand'
         }
     ];
 
