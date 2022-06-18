@@ -77,7 +77,7 @@ onEvent('recipes', (event) => {
           id: 'industrialforegoing:fluid_collector'
       },
       {
-          output: 'industrialforegoing:fluid_collector',
+          output: 'industrialforegoing:fluid_placer',
           pattern: ['PSP', 'AMH', 'CRC'],
           key: {
               P:'#forge:plastic',
@@ -88,7 +88,7 @@ onEvent('recipes', (event) => {
               C:'pneumaticcraft:compressed_iron_gear',
               R:'thermal:rf_coil'
           },
-          id: 'industrialforegoing:fluid_collector'
+          id: 'industrialforegoing:fluid_placer'
       },
       {
           output: 'industrialforegoing:mob_slaughter_factory',
