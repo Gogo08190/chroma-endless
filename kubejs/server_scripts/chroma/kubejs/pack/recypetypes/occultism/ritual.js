@@ -188,6 +188,26 @@ onEvent('recipes', (event) => {
             ],
             result: 'sophisticatedbackpacks:backpack',
             id: `sophisticatedbackpacks:backpack`
+        },
+        {
+            ritual_type: 'occultism:craft_with_spirit_name',
+            activation_item: 'botania:manasteel_block',
+            pentacle_id: 'occultism:craft_afrit',
+            duration: 120,
+            ritual_dummy: 'botania:terra_plate',
+            ingredients: [
+                'botania:rune_fire',
+                'botania:rune_air',
+                'botania:rune_mana',
+                'botania:rune_water',
+
+                'botania:rune_earth',
+                'minecraft:lapis_block',
+                'minecraft:lapis_block',
+                'minecraft:lapis_block'
+            ],
+            result: 'botania:terra_plate',
+            id: 'botania:terra_plate'
         }
     ];
 
