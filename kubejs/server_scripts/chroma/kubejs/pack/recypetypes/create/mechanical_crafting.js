@@ -62,6 +62,36 @@ onEvent('recipes', (event) => {
                 S: 'pneumaticcraft:reinforced_stone'
             },
             id: 'pneumaticcraft:flux_compressor'
+        },
+        {
+            output: 'industrialforegoing:dissolution_chamber',
+            pattern: ['SSGSS', 'SDADS', 'GCFTG', 'SDUDS', 'SSRSS'],
+            key: {
+                S: 'enderioalloys:item_alloy_ingot_electrical_steel',
+                G: 'enderioalloys:item_material_gear_energized',
+                D: 'pneumaticcraft:glycerol',
+                A: 'pneumaticcraft:etching_acid_bucket',
+                C: 'pneumaticcraft:smart_chest',
+                F: 'industrialforegoing:machine_frame_pity',
+                U: 'kubejs:advanced_extreme_circuit_board',
+                R: 'thermal:rf_coil',
+                T: 'pneumaticcraft:medium_tank'
+            },
+            id: 'industrialforegoing:dissolution_chamber'
+        },
+        {
+            output: 'industrialforegoing:infinity_nuke',
+            pattern: [' PPP ', 'PUCUP', 'HCNCH', 'PUCUP', 'D T D'],
+            key: {
+                P: 'industrialforegoing:plastic',
+                U: 'mekanism:ultimate_induction_cell',
+                C: 'mekanism:ultimate_control_circuit',
+                H: 'tconstruct:hepatizon_block',
+                N: 'mekanism:pellet_plutonium',
+                T: 'pneumaticcraft:huge_tank',
+                D: 'mekanism:hdpe_rod'
+            },
+            id: 'industrialforegoing:dissolution_chamber/infinity_nuke'
         }
     ];
 
