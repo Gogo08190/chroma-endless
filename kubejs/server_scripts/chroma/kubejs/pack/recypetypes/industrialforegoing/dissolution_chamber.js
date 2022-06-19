@@ -346,6 +346,20 @@ onEvent('recipes', (event) => {
             outputFluid: '',
             outputFluidAmount: 0,
             id: 'industrialforegoing:mob_duplicator'
+        },
+        {
+            inputs: [
+                'minecraft:iron_ingot',
+                'minecraft:iron_ingot',
+                'minecraft:iron_ingot'
+            ],
+            inputFluid: 'tconstruct:molten_quartz',
+            inputFluidAmount: 144,
+            processingTime: 200,
+            outputItem: { item: 'refinedstorage:quartz_enriched_iron', count: 3 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'refinedstorage:quartz_enriched_iron'
         }
     ];
 

@@ -2,7 +2,7 @@
 
 onEvent('recipes', (event) => {
     const idRemovals = [
-
+      'thermal:compat/refinedstorage/smelter_refinedstorage_alloy_quartz_enriched_iron'
     ];
 
     const outputRemovals = [
