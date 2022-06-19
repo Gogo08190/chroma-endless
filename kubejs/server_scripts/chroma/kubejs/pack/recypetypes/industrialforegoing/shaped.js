@@ -363,7 +363,7 @@ onEvent('recipes', (event) => {
               B: 'industrialforegoing:machine_frame_simple',
               C: 'minecraft:ender_eye',
               D: 'create:fluid_tank',
-              E: 'industrialforegoing:common_black_hole_tank'
+              E: 'industrialforegoing:pity_black_hole_tank'
           },
           id: 'industrialforegoing:simple_black_hole_tank'
       },
@@ -399,7 +399,7 @@ onEvent('recipes', (event) => {
           key: {
               A: 'industrialforegoing:plastic',
               B: 'industrialforegoing:machine_frame_simple',
-              C: 'industrialforegoing:common_black_hole_unit',
+              C: 'industrialforegoing:pity_black_hole_unit',
               D: 'minecraft:ender_eye',
               E: 'pneumaticcraft:reinforced_chest'
           },
@@ -644,7 +644,7 @@ onEvent('recipes', (event) => {
               A: 'industrialforegoing:plastic',
               B: 'industrialforegoing:machine_frame_advanced',
               C: 'thermal:enderium_glass',
-              D: 'pneumaticcraft:reinforced_chest',
+              D: 'pneumaticcraft:smart_chest',
               E: 'enderioalloys:item_material_skull_zombie_controller',
               F: 'enderioalloys:item_material_gear_vibrant'
           },
