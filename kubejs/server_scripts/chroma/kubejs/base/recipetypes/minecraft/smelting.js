@@ -62,12 +62,6 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}iron_ingot_from_rusty_iron_ingot`
         },
         {
-            input: '#forge:ores/aquamarine',
-            output: Item.of('#forge:gems/aquamarine'),
-            xp: 1.0,
-            id: `${id_prefix}aquamarine`
-        },
-        {
             input: '#forge:dusts/hop_graphite',
             output: 'immersiveengineering:ingot_hop_graphite',
             xp: 0.5,
