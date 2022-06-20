@@ -9,6 +9,17 @@ onEvent('recipes', (event) => {
           },
           id: 'refinedstorage:processor_binding'
       },
+      ///Cable
+      {
+          output: 'refinedstorage:cable',
+          pattern: ['AAA', 'BCB', 'AAA'],
+          key: {
+              A:'refinedstorage:quartz_enriched_iron',
+              B:'thermal:obsidian_glass',
+              C:'extendedcrafting:redstone_ingot'
+          },
+          id: 'immersiveengineering:crafting/toolupgrade_revolver_electro'
+      }
 
     ];
 
