@@ -92,10 +92,24 @@ onEvent('recipes', (event) => {
         },
         //Raw basic processor
         {
-            inputs: ['refinedstorage:processor_binding', 'minecraft:iron_ingot'],
+            inputs: ['refinedstorage:processor_binding', 'emendatusenigmatica:steel_ingot'],
             output: 'refinedstorage:raw_basic_processor',
             type: 'unheated',
             id: 'refinedstorage:raw_basic_processor'
+        },
+        //Raw improved processor
+        {
+            inputs: ['refinedstorage:processor_binding', 'emendatusenigmatica:brass_ingot'],
+            output: 'refinedstorage:raw_improved_processor',
+            type: 'unheated',
+            id: 'refinedstorage:raw_improved_processor'
+        },
+        //Raw advanced processor
+        {
+            inputs: ['refinedstorage:processor_binding', 'botania:mana_diamond'],
+            output: 'refinedstorage:raw_advanced_processor',
+            type: 'unheated',
+            id: 'refinedstorage:raw_advanced_processor'
         }
     ];
 

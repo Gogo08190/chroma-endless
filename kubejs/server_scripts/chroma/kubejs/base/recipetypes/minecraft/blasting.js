@@ -68,12 +68,6 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}netherite`
         },
         {
-            input: '#forge:ores/aquamarine',
-            output: Item.of('#forge:gems/aquamarine'),
-            xp: 1.0,
-            id: `${id_prefix}aquamarine`
-        },
-        {
             input: '#forge:dusts/hop_graphite',
             output: 'immersiveengineering:ingot_hop_graphite',
             xp: 0.5,

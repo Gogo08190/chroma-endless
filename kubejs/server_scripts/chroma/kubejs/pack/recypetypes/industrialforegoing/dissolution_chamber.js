@@ -55,7 +55,7 @@ onEvent('recipes', (event) => {
                 'enderioalloys:item_material_gear_vibrant'
             ],
             inputFluid: 'industrialforegoing:latex',
-            inputFluidAmount: 250,
+            inputFluidAmount: 500,
             processingTime: 300,
             outputItem: { item: 'industrialforegoing:machine_frame_simple', count: 1 },
             outputFluid: '',
@@ -93,7 +93,7 @@ onEvent('recipes', (event) => {
                 'enderioalloys:item_material_skull_guardian_diode'
             ],
             inputFluid: 'industrialforegoing:ether_gas',
-            inputFluidAmount: 135,
+            inputFluidAmount: 500,
             processingTime: 300,
             outputItem: { item: 'industrialforegoing:machine_frame_supreme', count: 1 },
             outputFluid: '',
@@ -349,9 +349,9 @@ onEvent('recipes', (event) => {
         },
         {
             inputs: [
-                'minecraft:iron_ingot',
-                'minecraft:iron_ingot',
-                'minecraft:iron_ingot'
+                'pneumaticcraft:ingot_iron_compressed',
+                'pneumaticcraft:ingot_iron_compressed',
+                'pneumaticcraft:ingot_iron_compressed'
             ],
             inputFluid: 'tconstruct:molten_quartz',
             inputFluidAmount: 144,
