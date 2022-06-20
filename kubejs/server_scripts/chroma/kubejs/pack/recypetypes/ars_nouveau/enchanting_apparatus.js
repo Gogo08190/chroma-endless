@@ -83,7 +83,7 @@ onEvent('recipes', (event) => {
           reagent: 'resourcefulbees:t3_beehive',
           sourceCost: 10000,
           output: 'resourcefulbees:t4_beehive',
-          id: 'resourcefulbees:t4_beehive'
+          id: 'resourcefulbees:t4_beehive_nest'
       }
     ];
 
