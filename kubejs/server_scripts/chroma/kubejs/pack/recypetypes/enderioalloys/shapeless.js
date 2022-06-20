@@ -58,7 +58,7 @@ onEvent('recipes', (event) => {
         {
             output: 'enderioalloys:block_alloy_electrical_steel',
             inputs: [
-                '9x enderioalloys: item_alloy_ingot_electrical_steel'
+                '9x enderioalloys:item_alloy_ingot_electrical_steel'
             ],
             id: 'enderioalloys:block_alloy_electrical_steel'
         },
@@ -66,7 +66,7 @@ onEvent('recipes', (event) => {
         {
             output: 'enderioalloys:block_alloy_end_steel',
             inputs: [
-                '9x enderioalloys: item_alloy_ingot_end_steel'
+                '9x enderioalloys:item_alloy_ingot_end_steel'
             ],
             id: 'enderioalloys:block_alloy_end_steel'
         },
@@ -74,7 +74,7 @@ onEvent('recipes', (event) => {
         {
             output: 'enderioalloys:block_alloy_energetic_alloy',
             inputs: [
-                '9x enderioalloys: item_alloy_ingot_energetic_alloy'
+                '9x enderioalloys:item_alloy_ingot_energetic_alloy'
             ],
             id: 'enderioalloys:block_alloy_energetic_alloy'
         },
@@ -82,7 +82,7 @@ onEvent('recipes', (event) => {
         {
             output: 'enderioalloys:block_alloy_energetic_silver',
             inputs: [
-                '9x enderioalloys: item_alloy_ingot_energetic_silver'
+                '9x enderioalloys:item_alloy_ingot_energetic_silver'
             ],
             id: 'enderioalloys:block_alloy_energetic_silver'
         },
@@ -90,7 +90,7 @@ onEvent('recipes', (event) => {
         {
             output: 'enderioalloys:block_alloy_redstone_alloy',
             inputs: [
-                '9x enderioalloys: item_alloy_ingot_redstone_alloy'
+                '9x enderioalloys:item_alloy_ingot_redstone_alloy'
             ],
             id: 'enderioalloys:block_alloy_redstone_alloy'
         },
@@ -98,7 +98,7 @@ onEvent('recipes', (event) => {
         {
             output: 'enderioalloys:block_alloy_soularium',
             inputs: [
-                '9x enderioalloys: item_alloy_ingot_soularium'
+                '9x enderioalloys:item_alloy_ingot_soularium'
             ],
             id: 'enderioalloys: block_alloy_soularium'
         },
@@ -106,7 +106,7 @@ onEvent('recipes', (event) => {
         {
             output: 'enderioalloys:block_alloy_stellar_alloy',
             inputs: [
-                '9x enderioalloys: item_alloy_ingot_stellar_alloy'
+                '9x enderioalloys:item_alloy_ingot_stellar_alloy'
             ],
             id: 'enderioalloys:block_alloy_stellar_alloy'
         },
@@ -114,7 +114,7 @@ onEvent('recipes', (event) => {
         {
             output: 'enderioalloys:block_alloy_vibrant_alloy',
             inputs: [
-                '9x enderioalloys: item_alloy_ingot_vibrant_alloy'
+                '9x enderioalloys:item_alloy_ingot_vibrant_alloy'
             ],
             id: 'enderioalloys: block_alloy_vibrant_alloy'
         },
@@ -122,7 +122,7 @@ onEvent('recipes', (event) => {
         {
             output: 'enderioalloys: block_alloy_pulsating_iron',
             inputs: [
-                '9x enderioalloys: item_alloy_ingot_pulsating_iron'
+                '9x enderioalloys:item_alloy_ingot_pulsating_iron'
             ],
             id: 'enderioalloys:block_alloy_pulsating_iron'
         },
@@ -130,7 +130,7 @@ onEvent('recipes', (event) => {
         {
             output: 'enderioalloys:block_alloy_melodic_alloy',
             inputs: [
-                '9x enderioalloys: item_alloy_ingot_melodic_alloy'
+                '9x enderioalloys:item_alloy_ingot_melodic_alloy'
             ],
             id: 'enderioalloys:block_alloy_melodic_alloy'
         }
