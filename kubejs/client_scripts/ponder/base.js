@@ -49,6 +49,15 @@ const categories = [
     items: [
       'tetra:hammer_base'
     ]
+  },
+  {
+    id: 'chroma:test',
+    category_item_id:'kubejs:sac',
+    title:'Le SAC une espece fascinante',
+    description:'Au cour de ces différent test ponder nous allons essaye de comprendre le SAC',
+    items: [
+      'kubejs:sac'
+    ]
   }
 ]
 
