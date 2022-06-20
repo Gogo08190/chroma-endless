@@ -46,6 +46,19 @@ onEvent('recipes', (event) => {
               E:'refinedstorage:improved_processor'
           },
           id: 'refinedstorage:importer'
+      },
+      ///Exporter
+      {
+          output: 'refinedstorage:exporter',
+          pattern: [' A ', 'BCB', 'DED'],
+          key: {
+              A:'refinedstorage:cable',
+              B:'refinedstorage:construction_core',
+              C:'xnet:connector_blue',
+              D:'refinedstorage:quartz_enriched_iron',
+              E:'refinedstorage:improved_processor'
+          },
+          id: 'refinedstorage:importer'
       }
 
     ];
