@@ -42,7 +42,7 @@ onEvent('recipes', (event) => {
         {
             output: 'enderioalloys:block_alloy_dark_steel',
             inputs: [
-                '9x enderioalloys:item_alloy_dark_steel'
+                '9x enderioalloys:item_alloy_ingot_dark_steel'
             ],
             id: 'enderioalloys:block_alloy_dark_steel'
         },
@@ -120,7 +120,7 @@ onEvent('recipes', (event) => {
         },
 
         {
-            output: 'enderioalloys: block_alloy_pulsating_iron',
+            output: 'enderioalloys:block_alloy_pulsating_iron',
             inputs: [
                 '9x enderioalloys:item_alloy_ingot_pulsating_iron'
             ],
