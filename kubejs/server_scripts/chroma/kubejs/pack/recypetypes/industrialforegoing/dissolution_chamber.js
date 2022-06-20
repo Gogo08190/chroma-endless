@@ -355,7 +355,7 @@ onEvent('recipes', (event) => {
             ],
             inputFluid: 'tconstruct:molten_quartz',
             inputFluidAmount: 144,
-            processingTime: 200,
+            processingTime: 150,
             outputItem: { item: 'refinedstorage:quartz_enriched_iron', count: 3 },
             outputFluid: '',
             outputFluidAmount: 0,
