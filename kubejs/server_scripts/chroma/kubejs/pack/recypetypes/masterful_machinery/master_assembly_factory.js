@@ -81,6 +81,17 @@ onEvent('recipes', (event) => {
             ticks: 240,
             id: 'rftoolspower:power_core3'
         },
+        {
+            outputs: [{ type: 'masterfulmachinery:items', data: { item: 'refinedstorage:crafting_grid', count: 1 } }],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'refinedstorage:advanced_processor', count: 1 } },
+                { type: 'masterfulmachinery:items', data: { item: 'refinedstorage:grid', count: 4 } },
+                { type: 'masterfulmachinery:items', data: { item: 'create:mechanical_crafter', count: 4 } },
+                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 300 * 4 } }
+            ],
+            ticks: 240,
+            id: 'refinedstorage:crafting_grid'
+        }
     ];
 
     recipes.forEach((recipe) => {
