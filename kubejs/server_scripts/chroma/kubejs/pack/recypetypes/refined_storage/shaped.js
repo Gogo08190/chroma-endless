@@ -112,6 +112,36 @@ onEvent('recipes', (event) => {
               F:'refinedstorage:destruction_core'
           },
           id: 'refinedstorage:grid'
+      },
+      ///network receiver
+      {
+          output: 'refinedstorage:network_receiver',
+          pattern: ['ABA', 'CDE', 'FGF'],
+          key: {
+              A:'botania:mana_diamond_block',
+              B:'refinedstorage:advanced_processor',
+              C:'refinedstorage:construction_core',
+              D:'refinedstorage:machine_casing',
+              E:'refinedstorage:destruction_core',
+              F:'emendatusenigmatica:enderium_gear',
+              G:'enderioalloys:item_material_pulsating_crystal'
+          },
+          id: 'refinedstorage:network_receiver'
+      },
+      ///network transmitter
+      {
+          output: 'refinedstorage:network_transmitter',
+          pattern: ['ABA', 'CDE', 'FGF'],
+          key: {
+              A:'emendatusenigmatica:enderium_gear',
+              B:'refinedstorage:advanced_processor',
+              C:'refinedstorage:construction_core',
+              D:'refinedstorage:machine_casing',
+              E:'refinedstorage:destruction_core',
+              F:'botania:mana_diamond_block',
+              G:'rftoolscontrol:advanced_network_card'
+          },
+          id: 'refinedstorage:network_transmitter'
       }
 
     ];

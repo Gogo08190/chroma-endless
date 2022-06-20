@@ -434,6 +434,42 @@ onEvent('recipes', (event) => {
             E:Item.of('thermal:energy_cell').ignoreNBT()
           },
           id: 'rftoolsutility:advanced_charged_porter'
+      },
+      //CPU core 500
+      {
+          output:'rftoolscontrol:cpu_core_500',
+          pattern: ['RLR', 'UCU', 'RLR'],
+          key: {
+            L:'emendatusenigmatica:lumium_nugget',
+            R:'extendedcrafting:redstone_ingot',
+            U:'pneumaticcraft:unassembled_pcb',
+            C:'rftoolscontrol:card_base'
+          },
+          id: 'rftoolscontrol:cpu_core_500'
+      },
+      //CPU core S1000
+      {
+        output:Item.of('constructionwand:infinity_wand', '{wand_options:{lock:"horizontal"}}'),
+        pattern: ['RDR','ECE','RDR'],
+        key: {
+          R:'extendedcrafting:redstone_ingot',
+          D:'botania:mana_diamond',
+          E:'kubejs:extreme_circuit_board',
+          C:'rftoolscontrol:cpu_core_500'
+        },
+        id:'rftoolscontrol:cpu_core_1000'
+      },
+      //CPU core EX2000
+      {
+        output:'rftoolscontrol:cpu_core_2000',
+        pattern: ['RUR','ACA','RUR'],
+        key: {
+          R:'extendedcrafting:redstone_ingot',
+          U:'kubejs:uranium_capacitor',
+          C:'rftoolscontrol:cpu_core_1000',
+          A:'kubejs:advanced_extreme_circuit_board'
+        },
+        id:'rftoolscontrol:cpu_core_2000'
       }
     ];
 
