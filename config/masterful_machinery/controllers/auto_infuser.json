@@ -1,0 +1,27 @@
+{
+    "controllerId": "autoinfuser",
+    "name": "Automatic Coumpond Infuser",
+    "textureOverride": "chisel:basalt/tiles_large",
+    "ports": [
+        {
+            "type": "masterfulmachinery:items",
+            "textureOverride": "occultism:otherstone",
+            "name": "Automatic Coumpond Infuser Item",
+            "id": "coumpond_item",
+            "data": {
+              "rows": 3,
+              "columns": 3
+            }
+          },
+          {
+            "type": "masterfulmachinery:fluids",
+            "textureOverride": "pneumaticcraft:small_tank",
+            "name": "Automatic Coumpond Infuser Fluid",
+            "id": "coumpond_fluid",
+            "data": {
+              "capacity": 150000
+            }
+          }
+    ]
+  }
+  
