@@ -98,6 +98,20 @@ onEvent('recipes', (event) => {
               E:'refinedstorage:improved_processor'
           },
           id: 'refinedstorage:destructor'
+      },
+      ///Grid
+      {
+          output: 'refinedstorage:grid',
+          pattern: ['ABC', 'DEC', 'AFC'],
+          key: {
+              A:'refinedstorage:improved_processor',
+              B:'refinedstorage:construction_core',
+              C:'thermal:obsidian_glass',
+              D:'rftoolscontrol:graphics_card',
+              E:'refinedstorage:machine_casing',
+              F:'refinedstorage:destruction_core'
+          },
+          id: 'refinedstorage:grid'
       }
 
     ];
