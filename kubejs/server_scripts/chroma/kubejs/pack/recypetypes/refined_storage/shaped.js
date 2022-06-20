@@ -18,7 +18,21 @@ onEvent('recipes', (event) => {
               B:'thermal:obsidian_glass',
               C:'extendedcrafting:redstone_ingot'
           },
-          id: 'immersiveengineering:crafting/toolupgrade_revolver_electro'
+          id: 'refinedstorage:cable'
+      },
+      ///External storage
+      {
+          output: 'refinedstorage:external_storage',
+          pattern: [' A ', 'BCD', 'EFE'],
+          key: {
+              A:'refinedstorage:cable',
+              B:'refinedstorage:destruction_core',
+              C:'xnet:connector_blue',
+              D:'refinedstorage:construction_core',
+              E:'refinedstorage:quartz_enriched_iron',
+              F:'refinedstorage:improved_processor'
+          },
+          id: 'refinedstorage:external_storage'
       }
 
     ];
