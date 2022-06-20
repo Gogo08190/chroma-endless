@@ -72,6 +72,32 @@ onEvent('recipes', (event) => {
               E:'refinedstorage:exporter'
           },
           id: 'refinedstorage:interface'
+      },
+      ///Constructor
+      {
+          output: 'refinedstorage:constructor',
+          pattern: [' A ', 'BCB', 'DED'],
+          key: {
+              A:'refinedstorage:cable',
+              B:'refinedstorage:construction_core',
+              C:'xnet:connector_blue',
+              D:'enderioalloys:item_alloy_ingot_vivid_alloy',
+              E:'refinedstorage:improved_processor'
+          },
+          id: 'refinedstorage:constructor'
+      },
+      ///Destructor
+      {
+          output: 'refinedstorage:destructor',
+          pattern: [' A ', 'BCB', 'DED'],
+          key: {
+              A:'refinedstorage:cable',
+              B:'refinedstorage:destruction_core',
+              C:'xnet:connector_blue',
+              D:'enderioalloys:item_material_glazed_nether_brick',
+              E:'refinedstorage:improved_processor'
+          },
+          id: 'refinedstorage:destructor'
       }
 
     ];
