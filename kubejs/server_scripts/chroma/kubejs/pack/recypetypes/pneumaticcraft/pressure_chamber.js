@@ -187,6 +187,17 @@ onEvent('recipes', (event) => {
             pressure: 3.0,
             results: [{ item: 'kubejs:advanced_extreme_circuit_board', count: 1 }],
             id: `${id_prefix}advanced_extreme_circuit_board`
+        },
+        {
+            inputs: [
+                { item: 'refinedstorage:quartz_enriched_iron', count: 4 },
+                { item: 'thermal:machine_frame', count: 1 },
+                { item: 'kubejs:netherite_transistor', count: 1 },
+                { item: 'pneumaticcraft:ingot_iron_compressed', count: 4 }
+            ],
+            pressure: 2.5,
+            results: [{ item: 'refinedstorage:machine_casing', count: 1 }],
+            id: `${id_prefix}machine_casing`
         }
     ];
     recipes.forEach((recipe) => {
