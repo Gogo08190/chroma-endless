@@ -339,7 +339,7 @@ onEvent('recipes', (event) => {
         mana: 30000,
         output: 'resourcefulbees:t3_beehive',
         count: 1,
-        id: 'resourcefulbees:t3_beehive'
+        id: 'resourcefulbees:t3_beehive_nests'
       }
 
     ];

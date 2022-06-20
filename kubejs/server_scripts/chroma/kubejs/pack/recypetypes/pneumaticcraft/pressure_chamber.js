@@ -198,6 +198,18 @@ onEvent('recipes', (event) => {
             pressure: 2.5,
             results: [{ item: 'refinedstorage:machine_casing', count: 1 }],
             id: `${id_prefix}machine_casing`
+        },
+        //Steel casing
+        {
+          inputs:[
+            { item: 'thermal:machine_frame', count: 1},
+            { item: 'emendatusenigmatica:steel_block', count: 2},
+            { item: 'createdeco:netherite_sheet', count: 2},
+            { item: 'pneumaticcraft:transistor', count: 2}
+          ],
+          pressure: 3,
+          results: [{item: 'mekanism:steel_casing', count: 1}],
+          id: 'mekanism:steel_casing'
         }
     ];
     recipes.forEach((recipe) => {

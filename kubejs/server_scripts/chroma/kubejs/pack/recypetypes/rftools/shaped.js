@@ -449,7 +449,7 @@ onEvent('recipes', (event) => {
       },
       //CPU core S1000
       {
-        output:Item.of('constructionwand:infinity_wand', '{wand_options:{lock:"horizontal"}}'),
+        output:'rftoolscontrol:cpu_core_1000',
         pattern: ['RDR','ECE','RDR'],
         key: {
           R:'extendedcrafting:redstone_ingot',

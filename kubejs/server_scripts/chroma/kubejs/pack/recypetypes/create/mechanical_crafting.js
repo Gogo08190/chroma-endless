@@ -95,9 +95,8 @@ onEvent('recipes', (event) => {
         },
         {
             output: 'resourcefulbees:t1_beehive',
-            pattern: ['GGGGG', 'GCCCG', 'GCBCB', 'GCCCG', 'GGGGG'],
+            pattern: ['GGGGG', 'GCCCG', 'GCBCG', 'GCCCG', 'GGGGG'],
             key: {
-                P: 'industrialforegoing:plastic',
                 G: 'minecraft:grass',
                 C: 'minecraft:honeycomb_block',
                 B: 'minecraft:beehive'
