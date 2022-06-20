@@ -36,7 +36,7 @@ onEvent('recipes', (event) => {
             inputs: [
                 '9x enderioalloys:item_alloy_ingot_crystalline_alloy'
             ],
-            id: 'enderioalloys: block_alloy_crystalline_alloy'
+            id: 'enderioalloys:block_alloy_crystalline_alloy'
         },
 
         {
@@ -100,7 +100,7 @@ onEvent('recipes', (event) => {
             inputs: [
                 '9x enderioalloys:item_alloy_ingot_soularium'
             ],
-            id: 'enderioalloys: block_alloy_soularium'
+            id: 'enderioalloys:block_alloy_soularium'
         },
 
         {
@@ -116,7 +116,7 @@ onEvent('recipes', (event) => {
             inputs: [
                 '9x enderioalloys:item_alloy_ingot_vibrant_alloy'
             ],
-            id: 'enderioalloys: block_alloy_vibrant_alloy'
+            id: 'enderioalloys:block_alloy_vibrant_alloy'
         },
 
         {
