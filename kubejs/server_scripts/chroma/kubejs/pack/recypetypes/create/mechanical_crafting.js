@@ -92,6 +92,16 @@ onEvent('recipes', (event) => {
                 D: 'mekanism:hdpe_rod'
             },
             id: 'industrialforegoing:dissolution_chamber/infinity_nuke'
+        },
+        {
+            output: 'resourcefulbees:t1_beehive',
+            pattern: ['GGGGG', 'GCCCG', 'GCBCG', 'GCCCG', 'GGGGG'],
+            key: {
+                G: 'minecraft:grass',
+                C: 'minecraft:honeycomb_block',
+                B: 'minecraft:beehive'
+            },
+            id: 'resourcefulbees:t1_beehive'
         }
     ];
 

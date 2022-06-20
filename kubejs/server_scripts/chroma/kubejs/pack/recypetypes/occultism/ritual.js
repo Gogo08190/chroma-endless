@@ -208,6 +208,26 @@ onEvent('recipes', (event) => {
             ],
             result: 'botania:terra_plate',
             id: 'botania:terra_plate'
+        },
+        {
+            ritual_type: 'occultism:craft_with_spirit_name',
+            activation_item: 'resourcefulbees:t1_beehive',
+            pentacle_id: 'occultism:craft_afrit',
+            duration: 120,
+            ritual_dummy: 'resourcefulbees:t2_beehive',
+            ingredients: [
+                'minecraft:honeycomb_block',
+                'resourcefulbees:wax_block',
+                'expandedstorage:gold_chest',
+                'minecraft:honeycomb_block',
+
+                'resourcefulbees:wax_block',
+                'expandedstorage:gold_chest',
+                'minecraft:honeycomb_block',
+                'minecraft:honeycomb_block'
+            ],
+            result: 'resourcefulbees:t2_beehive',
+            id: 'resourcefulbees:t2_beehive_nests'
         }
     ];
 

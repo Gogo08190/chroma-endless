@@ -66,6 +66,24 @@ onEvent('recipes', (event) => {
           sourceCost: 5000,
           output: 'pedestals:pedestal/stone333',
           id: 'pedestals:pedestal'
+      },
+
+      //BeeHive T4
+      {
+          inputs: [
+            '#resourcefulbees:resourceful_honey_block',
+            '#resourcefulbees:resourceful_honey_block',
+            '#resourcefulbees:resourceful_honey_block',
+            '#resourcefulbees:resourceful_honey_block',
+            'undergarden:utherium_block',
+            'extendedcrafting:nether_star_block',
+            'extendedcrafting:nether_star_block',
+            'resourcefulbees:wax_block'
+          ],
+          reagent: 'resourcefulbees:t3_beehive',
+          sourceCost: 10000,
+          output: 'resourcefulbees:t4_beehive',
+          id: 'resourcefulbees:t4_beehive_nests'
       }
     ];
 
