@@ -227,7 +227,7 @@ onEvent('recipes', (event) => {
                 'minecraft:honeycomb_block'
             ],
             result: 'resourcefulbees:t2_beehive',
-            id: 'resourcefulbees:t2_beehive'
+            id: 'resourcefulbees:t2_beehive_nests'
         }
     ];
 
