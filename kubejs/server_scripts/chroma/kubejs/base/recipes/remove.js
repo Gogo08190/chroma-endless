@@ -138,6 +138,7 @@ onEvent('recipes', (event) => {
         'immersiveengineering:crusher/bone_meal',
         /immersiveengineering:crafting\/hammercrushing/,
         'immersivepetroleum:distillationtower/oilcracking',
+        'immersiveengineering:crafting/ingot_uranium_to_nugget_uranium',
 
         'materialis:smeltery/melting/metal/starmetal/dust',
         /materialis:armor\/building\/exosuit/,
@@ -150,6 +151,7 @@ onEvent('recipes', (event) => {
         'mekanism:processing/lapis_lazuli/from_ore',
         /mekanism:pigment_extracting\/flower/,
         /mekanism:compat\/byg\/pigment_extracting/,
+        'mekanism:processing/uranium/nugget/from_ingot',
 
 
         'minecraft:crystal_glass',
@@ -183,6 +185,9 @@ onEvent('recipes', (event) => {
         'tconstruct:smeltery/melting/metal/gold/powered_rail', //to prevent dupe loop with Transport
         'tconstruct:smeltery/melting/metal/gold/enchanted_apple',
         'tconstruct:smeltery/melting/metal/gold/apple',
+        'tconstruct:compat/refined_glowstone_ingot',
+        'tconstruct:compat/refined_obsidian_ingot',
+        'tconstruct:smeltery/alloys/molten_refined_obsidian',
 
         'thermal:compat/tconstruct/chiller_tconstruct_molten_debris_ingot',
         'thermal:machine/smelter/smelter_alloy_netherite',
@@ -203,6 +208,7 @@ onEvent('recipes', (event) => {
         'thermal:smelting/cured_rubber_from_smelting',
         'thermal:storage/sulfur_block',
         'thermal:gunpowder_4',
+        'thermal:lumium_ingot',
 
         'pneumaticcraft:one_probe_crafting',
 
@@ -220,6 +226,8 @@ onEvent('recipes', (event) => {
         'supplementaries:strings_recipe',
 
         'upgrade_aquatic:bone_meal_from_tooth',
+
+        'bigreactors:yellorium_component_to_storage',
     ];
 
     var regexIdRemovals = [
