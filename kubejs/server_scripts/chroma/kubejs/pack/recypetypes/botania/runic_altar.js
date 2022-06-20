@@ -317,6 +317,29 @@ onEvent('recipes', (event) => {
         output: 'botania:glimmering_livingwood',
         count: 1,
         id: 'botania:glimmering_livingwood'
+      },
+
+      {
+        inputs: [
+          'botania:gaia_ingot',
+          'botania:rune_earth',
+          'botania:rune_earth',
+          'botania:rune_earth',
+          'botania:rune_earth',
+          'minecraft:honeycomb_block',
+          'minecraft:honeycomb_block',
+          'minecraft:honeycomb_block',
+          'minecraft:honeycomb_block',
+          'resourcefulbees:wax_block',
+          'resourcefulbees:wax_block',
+          'resourcefulbees:wax_block',
+          'resourcefulbees:wax_block',
+          'resourcefulbees:t2_beehive'
+        ],
+        mana: 30000,
+        output: 'resourcefulbees:t3_beehive',
+        count: 1,
+        id: 'resourcefulbees:t3_beehive'
       }
 
     ];
