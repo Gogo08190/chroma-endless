@@ -114,7 +114,7 @@ onEvent('recipes', (event) => {
 
         {
             output: 'enderioalloys:item_material_precient_crystal',
-            pattern: ['EVE', 'VMV', 'EVE'],
+            pattern: ['SVS', 'VSV', 'SVS'],
             key: {
                 V: 'enderioalloys:item_material_vibrant_crystal',
                 S: 'minecraft:shulker_shell'
@@ -262,7 +262,7 @@ onEvent('recipes', (event) => {
             output: 'enderioalloys:block_alloy_vibrant_alloy',
             pattern: ['III', 'III', 'III'],
             key: {
-                I: 'enderioalloys:item_alloy_ingot_vibrant_alloy'
+                I:'enderioalloys:item_alloy_ingot_vibrant_alloy'
             },
             id: 'enderioalloys:block_alloy_vibrant_alloy'
         },
