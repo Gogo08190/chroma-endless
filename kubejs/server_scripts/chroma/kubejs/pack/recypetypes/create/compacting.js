@@ -89,6 +89,13 @@ onEvent('recipes', (event) => {
             output: Item.of('immersiveengineering:sheetmetal_uranium', 1),
             type: 'unheated',
             id: `${id_prefix}sheetmetal_uranium`
+        },
+        //Raw basic processor
+        {
+            inputs: ['refinedstorage:processor_binding', 'minecraft:iron_ingot'],
+            output: 'refinedstorage:raw_basic_processor',
+            type: 'unheated',
+            id: 'refinedstorage:raw_basic_processor'
         }
     ];
 
