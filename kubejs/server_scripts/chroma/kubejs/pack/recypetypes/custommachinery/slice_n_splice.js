@@ -39,6 +39,4 @@ event.recipes.custommachinery.custom_machine("enderio:slice_n_splice", 840)
 .requireItem('emendatusenigmatica:silicon_gem')
 .requireEnergyPerTick(2000)
 .produceItem(Item.of('enderioalloys:item_material_skull_guardian_diode', 1))
-
-
 })
