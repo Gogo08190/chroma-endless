@@ -58,7 +58,20 @@ onEvent('recipes', (event) => {
               D:'refinedstorage:quartz_enriched_iron',
               E:'refinedstorage:improved_processor'
           },
-          id: 'refinedstorage:importer'
+          id: 'refinedstorage:exporter'
+      },
+      ///Interface
+      {
+          output: 'refinedstorage:interface',
+          pattern: ['ABA', 'CDC', 'AEA'],
+          key: {
+              A:'refinedstorage:cable',
+              B:'refinedstorage:importer',
+              C:'extendedcrafting:redstone_ingot',
+              D:'refinedstorage:machine_casing',
+              E:'refinedstorage:exporter'
+          },
+          id: 'refinedstorage:interface'
       }
 
     ];
