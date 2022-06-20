@@ -50,12 +50,14 @@
       {
         "type": "custommachinery:slot",
         "id": "input2",
+        "filter": ["extendedcrafting:redstone_ingot"],
         "x": 30,
         "y": 30
       },
       {
         "type": "custommachinery:slot",
         "id": "input3",
+        "filter": ["emendatusenigmatica:silicon_gem"],
         "x": 30,
         "y": 50
       },
@@ -72,4 +74,3 @@
       }
     ]
   }
-  
