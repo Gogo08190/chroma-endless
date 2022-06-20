@@ -27,6 +27,16 @@ onEvent('recipes', (event) => {
     });
 
     const recipes = [
+      {
+          output: 'minecraft:beehive',
+          pattern: ['BBB', 'CHC', 'BBB'],
+          key: {
+              B: 'minecraft:stripped_oak_wood',
+              C: 'minecraft:honeycomb_block',
+              H: '#forge:beehives/tier_0'
+          },
+          id: 'minecraft:beehive'
+      }
 
     ];
 
