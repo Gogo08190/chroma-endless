@@ -1,0 +1,157 @@
+{
+  "type": "masterfulmachinery:machine_structure",
+  "id": "auto_infuser",
+  "controllerId": "autoinfuser",
+  "name": "Automatic Coumpond Infuser",
+  "layout": [
+    [
+      "   ))))))))))))))",
+      "   )************)",
+      "   )************)",
+      "   )************)",
+      "))))****+++*****)",
+      "*******+,,,+****)",
+      "*******+,,,+****)",
+      "*******+,,,+****)",
+      "))))****+++*****)",
+      "   )************)",
+      "   )************)",
+      "   )************)",
+      "   ))))))))))))))"
+    ],
+    [
+      "   -............-",
+      "   .            .",
+      "   .       /000 .",
+      "   .        000 .",
+      "   -   -111-000 .",
+      "       1   1 2  .",
+      "       C 3 1444 .",
+      "       1   14 4 .",
+      "   -   -111-000 .",
+      "   .        000 .",
+      "   .       /000 .",
+      "   .            .",
+      "   -............-"
+    ],
+    [
+      "   -............-",
+      "   .            .",
+      "   .       4000 .",
+      "   .        000 .",
+      "   -   -151-000 .",
+      "       1 6 14 4 .",
+      "       1  61444 .",
+      "       1 6 1 4  .",
+      "   -   -171-000 .",
+      "   .        000 .",
+      "   .       4000 .",
+      "   .            .",
+      "   -............-"
+    ],
+    [
+      "   -............-",
+      "   .            .",
+      "   .        000 .",
+      "   .        000 .",
+      "   -   -111-000 .",
+      "       1   1    .",
+      "       1 8 12 2 .",
+      "       1   1 4  .",
+      "   -   -111-000 .",
+      "   .        000 .",
+      "   .        000 .",
+      "   .            .",
+      "   -............-"
+    ],
+    [
+      "   -999999999999-",
+      "   9            9",
+      "   9        000 9",
+      "   9        000 9",
+      "   -   :---:000 9",
+      "       -111- 4  9",
+      "       -121-444 9",
+      "       -111-4   9",
+      "   -   :---:000 9",
+      "   9        000 9",
+      "   9        000 9",
+      "   9            9",
+      "   -999999999999-"
+    ],
+    [
+      "   ;            ;",
+      "                 ",
+      "            000  ",
+      "            000  ",
+      "   ;        000  ",
+      "           4  4  ",
+      "         4 44 4  ",
+      "         444     ",
+      "   ;        000  ",
+      "            000  ",
+      "            000  ",
+      "                 ",
+      "   ;            ;"
+    ]
+  ],
+  "legend": {
+    ")": {
+      "block": "chisel:factory/hazard"
+    },
+    "*": {
+      "block": "chisel:basalt/tiles_large"
+    },
+    "+": {
+      "block": "create:shadow_steel_casing"
+    },
+    ",": {
+      "block": "create:refined_radiance_casing"
+    },
+    "-": {
+      "block": "immersiveengineering:sheetmetal_steel"
+    },
+    ".": {
+      "block": "dustrial_decor:barbed_iron_bars"
+    },
+    "/": {
+      "block": "masterfulmachinery:autoinfuser_coumpond_fluid_port_fluids_input"
+    },
+    "0": {
+      "block": "create:fluid_tank"
+    },
+    "1": {
+      "block": "connectedglass:clear_glass"
+    },
+    "2": {
+      "block": "create:glass_fluid_pipe"
+    },
+    "3": {
+      "block": "create:depot"
+    },
+    "4": {
+      "block": "create:fluid_pipe"
+    },
+    "5": {
+      "block": "masterfulmachinery:autoinfuser_coumpond_item_port_items_input"
+    },
+    "6": {
+      "block": "occultism:storage_stabilizer_tier2"
+    },
+    "7": {
+      "block": "masterfulmachinery:autoinfuser_coumpond_item_port_items_output"
+    },
+    "8": {
+      "block": "create:spout"
+    },
+    "9": {
+      "block": "immersiveengineering:razor_wire"
+    },
+    ":": {
+      "block": "immersiveengineering:slab_sheetmetal_steel"
+    },
+    ";": {
+      "block": "immersiveengineering:floodlight"
+    }
+  }
+}

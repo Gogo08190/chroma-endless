@@ -1,7 +1,7 @@
 {
   "controllerId": "autoinfuser",
   "name": "Automatic Coumpond Infuser",
-  "textureOverride": "chisel:block/basalt/tiles_large",
+  "textureOverride": "create:block/shadow_steel_casing",
   "ports": [
       {
         "type": "masterfulmachinery:items",
