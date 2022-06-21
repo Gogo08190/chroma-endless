@@ -3,6 +3,15 @@ onEvent("item.tooltip", (event) => {
     event.add(/minecraft:(wooden|stone|iron|golden|diamond|netherite)_(sword|shovel|(pick)?axe)/, [
         Text.red("This item is for crafting only!"),
     ]);
+    event.add(/mekanismtools:(wood|stone|iron|diamond|gold|netherite)_paxel/, [
+        Text.red("This item is for crafting only!"),
+    ]);
+    event.add(/mekanismtools:(bronze|lapis_lazuli|osmium)_(sword|shovel|(pick)?axe|paxel)/, [
+        Text.red("This item is for crafting only!"),
+    ]);
+    event.add(/prefab:item_swift_blade_(wood|stone|iron|gold|diamond|netherite|copper|osmium|bronze|steel|obsidian)/, [
+        Text.red("This item is for crafting only!"),
+    ]);
     event.add(/miniutilities:experience_pearl*/, [
         Text.red("Experience pearls are gotten when you kill a mob with experience harvester enchant."),
     ]);
