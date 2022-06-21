@@ -1,11 +1,11 @@
 {
   "controllerId": "autoinfuser",
   "name": "Automatic Coumpond Infuser",
-  "textureOverride": "chisel:basalt/tiles_large",
+  "textureOverride": "chisel:block/basalt/tiles_large",
   "ports": [
       {
         "type": "masterfulmachinery:items",
-        "textureOverride": "occultism:otherstone",
+        "textureOverride": "occultism:block/otherstone",
         "name": "Automatic Coumpond Infuser Item",
         "id": "coumpond_item",
         "data": {
@@ -15,7 +15,7 @@
       },
       {
         "type": "masterfulmachinery:fluids",
-        "textureOverride": "pneumaticcraft:small_tank",
+        "textureOverride": "create:block/copper_casing",
         "name": "Automatic Coumpond Infuser Fluid",
         "id": "coumpond_fluid",
         "data": {
