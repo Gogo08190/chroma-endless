@@ -1,15 +1,5 @@
 onEvent('recipes', (event) => {
-    /*
-           ,
-           {
-               output: '',
-               pattern: ['', '', ''],
-               key: {
-                   A: ''
-               },
-               id: ''
-           }
-    */
+    const id_prefix = 'chroma:pack/enderioalloys/shaped/';
     const recipes = [
 
         {
@@ -20,7 +10,7 @@ onEvent('recipes', (event) => {
                 I: 'enderioalloys:item_alloy_ingot_dark_steel',
                 N: 'enderioalloys:item_alloy_nugget_dark_steel'
             },
-            id: 'enderioalloys:item_material_gear_darksteel'
+            id: `${id_prefix}item_material_gear_darksteel`
         },
 
         {
@@ -31,7 +21,7 @@ onEvent('recipes', (event) => {
                 I: 'enderioalloys:item_alloy_ingot_energetic_alloy',
                 N: 'enderioalloys:item_alloy_nugget_energetic_alloy'
             },
-            id: 'enderioalloys:item_material_gear_energized'
+            id: `${id_prefix}item_material_gear_energized`
         },
 
         {
@@ -42,7 +32,7 @@ onEvent('recipes', (event) => {
                 S: 'emendatusenigmatica:silicon_gem',
                 I: 'pneumaticcraft:ingot_iron_compressed'
             },
-            id: 'enderioalloys:item_material_gear_iron'
+            id: `${id_prefix}item_material_gear_iron`
         },
 
         {
@@ -53,7 +43,7 @@ onEvent('recipes', (event) => {
                 S: '#forge:stone',
                 C: '#forge:cobblestone'
             },
-            id: 'enderioalloys:item_material_gear_stone'
+            id: `${id_prefix}item_material_gear_stone`
         },
 
         {
@@ -64,7 +54,7 @@ onEvent('recipes', (event) => {
                 I: 'enderioalloys:item_alloy_nugget_vibrant_alloy',
                 N: 'enderioalloys:item_alloy_ingot_vibrant_alloy'
             },
-            id: 'enderioalloys:item_material_gear_vibrant'
+            id: `${id_prefix}item_material_gear_vibrant`
         },
 
         {
@@ -72,11 +62,11 @@ onEvent('recipes', (event) => {
             pattern: ['TWT', 'PBP', 'TWT'],
             key: {
                 T: 'immersiveengineering:stick_treated',
-                W: '#forge:treated_wood',   
+                W: '#forge:treated_wood',
                 P: '#minecraft:planks',
                 B: '#minecraft:wooden_buttons'
             },
-            id: 'enderioalloys:item_material_gear_wood'
+            id: `${id_prefix}item_material_gear_wood`
         },
 
         {
@@ -87,7 +77,7 @@ onEvent('recipes', (event) => {
                 V: 'enderioalloys:item_material_vibrant_crystal',
                 P: 'enderioalloys:item_material_pulsating_crystal'
             },
-            id: 'enderioalloys:item_material_weather_crystal'
+            id: `${id_prefix}item_material_weather_crystal`
         },
 
         {
@@ -98,7 +88,7 @@ onEvent('recipes', (event) => {
                 M: 'botania:mana_diamond',
                 P: 'enderioalloys:item_alloy_nugget_pulsating_iron'
             },
-            id: 'enderioalloys:item_material_pulsating_crystal'
+            id: `${id_prefix}item_material_pulsating_crystal`
         },
 
         {
@@ -109,7 +99,7 @@ onEvent('recipes', (event) => {
                 M: 'botanicalmachinery:mana_emerald',
                 E: 'emendatusenigmatica:enderium_nugget'
             },
-            id: 'enderioalloys:item_material_vibrant_crystal'
+            id: `${id_prefix}item_material_vibrant_crystal`
         },
 
         {
@@ -119,7 +109,7 @@ onEvent('recipes', (event) => {
                 V: 'enderioalloys:item_material_vibrant_crystal',
                 S: 'minecraft:shulker_shell'
             },
-            id: 'enderioalloys:item_material_precient_crystal'
+            id: `${id_prefix}item_material_precient_crystal`
         },
 
         {
@@ -129,9 +119,9 @@ onEvent('recipes', (event) => {
                 V: 'enderioalloys:item_material_vibrant_crystal',
                 E: 'tconstruct:enderman_head'
             },
-            id: 'enderioalloys:item_material_ender_crystal'
+            id: `${id_prefix}item_material_ender_crystal`
         }
-    ]   
+    ]
 
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
