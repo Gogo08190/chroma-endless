@@ -2,7 +2,7 @@ onEvent('recipes', event => {
 
 /* Zombie Electrode */
 
-event.recipes.custommachinery.custom_machine("enderio:slice_n_splice", 640)
+event.recipes.custommachinery.custom_machine("custommachinery:slice_n_splice", 640)
 .requireItem('2x emendatusenigmatica:silicon_gem')
 .requireItem('2x enderioalloys:item_alloy_ingot_energetic_alloy')
 .requireItem('kubejs:octadic_capacitor')
@@ -12,7 +12,7 @@ event.recipes.custommachinery.custom_machine("enderio:slice_n_splice", 640)
 
 /* Z-Logic Controller */
 
-event.recipes.custommachinery.custom_machine("enderio:slice_n_splice", 840)
+event.recipes.custommachinery.custom_machine("custommachinery:slice_n_splice", 840)
 .requireItem('2x enderioalloys:item_alloy_ingot_soularium')
 .requireItem('2x emendatusenigmatica:silicon_gem')
 .requireItem('enderioalloys:item_alloy_ingot_redstone_alloy')
@@ -22,7 +22,7 @@ event.recipes.custommachinery.custom_machine("enderio:slice_n_splice", 840)
 
 /* Skeletal Contractor */
 
-event.recipes.custommachinery.custom_machine("enderio:slice_n_splice", 840)
+event.recipes.custommachinery.custom_machine("custommachinery:slice_n_splice", 840)
 .requireItem('2x enderioalloys:item_alloy_ingot_soularium')
 .requireItem('emendatusenigmatica:silicon_gem')
 .requireItem('minecraft:skeleton_skull')
@@ -32,7 +32,7 @@ event.recipes.custommachinery.custom_machine("enderio:slice_n_splice", 840)
 
 /* Guardian Diode */
 
-event.recipes.custommachinery.custom_machine("enderio:slice_n_splice", 840)
+event.recipes.custommachinery.custom_machine("custommachinery:slice_n_splice", 840)
 .requireItem('2x enderioalloys:item_alloy_ingot_energetic_alloy')
 .requireItem('2x minecraft:prismarine_crystals')
 .requireItem('upgrade_aquatic:elder_guardian_spine')
