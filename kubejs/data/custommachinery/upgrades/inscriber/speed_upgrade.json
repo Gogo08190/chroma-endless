@@ -1,0 +1,18 @@
+{
+    "item": "refinedstorage:speed_upgrade",
+    "machines": ["custommachinery:inscriber"],
+    "modifiers": [
+        {
+            "requirement": "custommachinery:speed",
+            "mode": "input",
+            "operation": "multiplication",
+            "modifier": 1.25
+        },
+        {
+          "requirement": "custommachinery:energy",
+            "mode": "input",
+            "operation": "multiplication",
+            "modifier": 1.25
+        }
+    ]
+}

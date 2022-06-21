@@ -4,130 +4,30 @@
     "lightmode": "running",
     "lightlevel": 7
   },
-  "gui": [
-    {
-      "texture": "custommachinery:textures/gui/base_background.png",
-      "x": 0,
-      "y": 0,
-      "type": "custommachinery:texture"
-    },
-    {
-      "x": 47,
-      "y": 80,
-      "type": "custommachinery:player_inventory"
-    },
-    {
-      "id": "input",
-      "x": 67,
-      "y": 30,
-      "type": "custommachinery:slot"
-    },
-    {
-      "id": "input2",
-      "x": 87,
-      "y": 30,
-      "type": "custommachinery:slot"
-    },
-    {
-      "id": "input3",
-      "x": 67,
-      "y": 50,
-      "type": "custommachinery:slot"
-    },
-    {
-      "id": "input4",
-      "x": 87,
-      "y": 50,
-      "type": "custommachinery:slot"
-    },
-    {
-      "x": 47,
-      "y": 30,
-      "type": "custommachinery:energy"
-    },
-    {
-      "x": 107,
-      "y": 30,
-      "type": "custommachinery:fluid",
-      "capacity": 10000,
-      "id": "essencetank",
-      "maxInput": 1000,
-      "maxOutput": 1000,
-      "filter": ["minecraft:lava"],
-      "whitelist": true
-    },
-    {
-      "id": "output1",
-      "x": 149,
-      "y": 30,
-      "type": "custommachinery:slot"
-    },
-    {
-      "id": "output2",
-      "x": 169,
-      "y": 30,
-      "type": "custommachinery:slot"
-    },
-    {
-      "id": "output3",
-      "x": 189,
-      "y": 30,
-      "type": "custommachinery:slot"
-    },
-    {
-      "x": 116,
-      "y": 30,
-      "type": "custommachinery:progress"
-    },
-    {
-      "x": 236,
-      "y": 5,
-      "type": "custommachinery:status"
-    },
-    {
-      "text": "Slice'N'Splice",
-      "x": 7,
-      "y": 5,
-      "type": "custommachinery:text"
-    },
-    {
-      "id": "upgrade",
-      "x": 200,
-      "y": 5,
-      "type": "custommachinery:slot"
-    },
-    {
-      "text": "Upgrade:",
-      "x": 150,
-      "y": 5,
-      "type": "custommachinery:text"
-    },
-    {
-      "type": "custommachinery:reset",
-      "x": 5,
-      "y": 60
-    }
-  ],
   "components": [
     {
       "mode": "input",
-      "id": "input",
-      "type": "custommachinery:item"
+      "id": "input1",
+      "type": "custommachinery:item",
+      "filter": ["kubejs:basic_capacitor", "kubejs:double-layer_capacitor", "kubejs:octadic_capacitor"]
     },
     {
       "mode": "input",
       "id": "input2",
-      "type": "custommachinery:item"
+      "type": "custommachinery:item",
+      "filter": ["kubejs:basic_capacitor", "kubejs:double-layer_capacitor", "kubejs:octadic_capacitor"]
     },
     {
       "mode": "input",
       "id": "input3",
-      "type": "custommachinery:item"
+      "type": "custommachinery:item",
+      "filter": ["kubejs:basic_capacitor", "kubejs:double-layer_capacitor", "kubejs:octadic_capacitor"]
     },
     {
       "mode": "input",
       "id": "input4",
-      "type": "custommachinery:item"
+      "type": "custommachinery:item",
+      "filter": ["kubejs:basic_capacitor", "kubejs:double-layer_capacitor", "kubejs:octadic_capacitor"]
     },
     {
       "mode": "output",
@@ -154,13 +54,117 @@
     	"poweroutput": 15
     },
     {
-      "type": "custommachinery:item",
-      "id": "upgrade",
-      "filter": ["kubejs:basic_capacitor"],
-      "whitelist": true,
       "mode": "input",
+      "id": "upgrade",
+      "type": "custommachinery:item",
       "variant": "custommachinery:upgrade",
-      "capacity": 4
+      "filter": ["kubejs:basic_capacitor", "kubejs:double-layer_capacitor", "kubejs:octadic_capacitor"],
+      "whitelist": true,
+      "capacity": 1
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:texture",
+      "texture": "custommachinery:textures/gui/base_background.png",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 47,
+      "y": 80
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input1",
+      "x": 67,
+      "y": 30
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input2",
+      "x": 87,
+      "y": 30
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input3",
+      "x": 67,
+      "y": 50
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input4",
+      "x": 87,
+      "y": 50
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 47,
+      "y": 30
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "essencetank",
+      "capacity": 10000,
+      "maxInput": 1000,
+      "maxOutput": 1000,
+      "filter": ["minecraft:lava"],
+      "whitelist": true,
+      "x": 107,
+      "y": 30
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output1",
+      "x": 149,
+      "y": 30
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output2",
+      "x": 169,
+      "y": 30
+    },
+    {
+      "id": "output3",
+      "x": 189,
+      "y": 30,
+      "type": "custommachinery:slot"
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 116,
+      "y": 30
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 236,
+      "y": 5
+    },
+    {
+      "type": "custommachinery:text",
+      "text": "Slice'N'Splice",
+      "x": 7,
+      "y": 5
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade",
+      "x": 200,
+      "y": 5
+    },
+    {
+      "type": "custommachinery:text",
+      "text": "Upgrade:",
+      "x": 150,
+      "y": 5
+    },
+    {
+      "type": "custommachinery:reset",
+      "x": 5,
+      "y": 60
     }
   ]
 }

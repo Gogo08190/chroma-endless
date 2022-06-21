@@ -7,12 +7,14 @@
       {
         "mode": "input",
         "id": "input1",
-        "type": "custommachinery:item"
+        "type": "custommachinery:item",
+        "filter": ["kubejs:basic_capacitor", "kubejs:double-layer_capacitor", "kubejs:octadic_capacitor"]
       },
       {
         "mode": "input",
         "id": "input2",
-        "type": "custommachinery:item"
+        "type": "custommachinery:item",
+        "filter": ["kubejs:basic_capacitor", "kubejs:double-layer_capacitor", "kubejs:octadic_capacitor"]
       },
       {
         "mode": "output",
@@ -27,12 +29,21 @@
       {
         "capacity": 100000,
         "type": "custommachinery:energy"
+      },
+      {
+        "mode": "input",
+        "id": "upgrade",
+        "type": "custommachinery:item",
+        "variant": "custommachinery:upgrade",
+        "filter": ["kubejs:basic_capacitor", "kubejs:double-layer_capacitor", "kubejs:octadic_capacitor"],
+        "whitelist": true,
+        "capacity": 1
       }
     ],
     "gui": [
       {
         "type": "custommachinery:texture",
-        "texture": "enderio:textures/gui/soul_binder.png",
+        "texture": "custommachinery:textures/gui/soul_binder.png",
         "x": 40,
         "y": 13
       },
@@ -71,6 +82,18 @@
         "y": 26,
         "width": 11,
         "height": 44
+      },
+      {
+        "type": "custommachinery:slot",
+        "id": "upgrade",
+        "texture": "custommachinery:textures/gui/clear_slot.png",
+        "x": 51,
+        "y": 72
+      },
+      {
+        "type": "custommachinery:progress",
+        "x": 120,
+        "y": 48
       }
     ]
   }
