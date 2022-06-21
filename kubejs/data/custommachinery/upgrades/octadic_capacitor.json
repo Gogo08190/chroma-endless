@@ -1,0 +1,12 @@
+{
+    "item": "kubejs:octadic_capacitor",
+    "machines": ["custommachinery:alloy_smelter", "custommachinery:slice_n_splice"],
+    "modifiers": [
+      {
+  	    "requirement": "custommachinery:speed",
+  	    "mode": "input",
+  	    "operation": "multiplication",
+  	    "modifier": 0.5
+      }
+    ]
+}

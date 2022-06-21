@@ -1,0 +1,98 @@
+{
+  "name": "Alloy Smelter",
+  "appearance": {
+    "mining_level": "0"
+  },
+  "tooltips": [
+    {
+      "text": "Used to create EnderIO alloys",
+      "color": "gray"
+    },
+    {
+      "text": "Upgrade with capacitors to increase speed and energy storage",
+      "color": "gray"
+    }
+  ],
+  "components": [
+    {
+      "mode": "input",
+      "id": "input1",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "input",
+      "id": "input2",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "input",
+      "id": "input3",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output",
+      "type": "custommachinery:item"
+    },
+    {
+      "capacity": 100000,
+      "type": "custommachinery:energy"
+    },
+    {
+      "mode": "input",
+      "id": "upgrade",
+      "type": "custommachinery:item",
+      "variant": "custommachinery:upgrade"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:texture",
+      "texture": "custommachinery:textures/gui/base_background.png",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 83
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input1",
+      "x": 53,
+      "y": 16
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input2",
+      "x": 78,
+      "y": 6
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input3",
+      "x": 102,
+      "y": 16
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 15,
+      "y": 13,
+      "width": 11,
+      "height": 44
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output",
+      "x": 78,
+      "y": 57
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "capacitor",
+      "x": 12,
+      "y": 60
+    }
+  ]
+}
