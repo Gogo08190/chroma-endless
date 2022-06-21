@@ -5,7 +5,7 @@
   "ports": [
     {
       "type": "masterfulmachinery:items",
-      "textureOverride": "pneumaticcraft:block/compressed_brick_tile",
+      "textureOverride": "immersiveengineering:block/metal/sheetmetal_steel",
       "name": "Compact Factory Item",
       "id": "compact_item",
       "data": {
