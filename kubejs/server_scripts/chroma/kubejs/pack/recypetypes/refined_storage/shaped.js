@@ -11,7 +11,7 @@ onEvent('recipes', (event) => {
       },
       ///Cable
       {
-          output: 'refinedstorage:cable',
+          output: Item.of('refinedstorage:cable', 12),
           pattern: ['AAA', 'BCB', 'AAA'],
           key: {
               A:'refinedstorage:quartz_enriched_iron',
@@ -65,7 +65,7 @@ onEvent('recipes', (event) => {
           output: 'refinedstorage:interface',
           pattern: ['ABA', 'CDC', 'AEA'],
           key: {
-              A:'refinedstorage:cable',
+              A:'refinedstorage:quartz_enriched_iron',
               B:'refinedstorage:importer',
               C:'extendedcrafting:redstone_ingot',
               D:'refinedstorage:machine_casing',

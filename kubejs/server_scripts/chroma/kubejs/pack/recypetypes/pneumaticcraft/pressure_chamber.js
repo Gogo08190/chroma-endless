@@ -197,7 +197,7 @@ onEvent('recipes', (event) => {
             ],
             pressure: 2.5,
             results: [{ item: 'refinedstorage:machine_casing', count: 1 }],
-            id: `${id_prefix}machine_casing`
+            id: 'refinedstorage:machine_casing'
         },
         //Steel casing
         {
