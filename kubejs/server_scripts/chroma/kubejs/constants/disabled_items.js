@@ -78,5 +78,16 @@ const disabledItems = [
     'simplefarming:noodles',
     'simplefarming:chocolate',
 
-    'ars_nouveau:mana_gem'
+    'ars_nouveau:mana_gem',
+
+    'mekanismtools:wood_paxel',
+    'mekanismtools:stone_paxel',
+    'mekanismtools:iron_paxel',
+    'mekanismtools:gold_paxel',
+    'mekanismtools:diamond_paxel',
+    'mekanismtools:netherite_paxel',
+    'mekanismtools:bronze_paxel',
+    'mekanismtools:lapis_lazuli_paxel',
+    'mekanismtools:osmium_paxel',
+    'mekanismtools:steel_paxel'
 ];

@@ -3,10 +3,10 @@ onEvent("item.tooltip", (event) => {
     event.add(/minecraft:(wooden|stone|iron|golden|diamond|netherite)_(sword|shovel|(pick)?axe)/, [
         Text.red("This item is for crafting only!"),
     ]);
-    event.add(/mekanismtools:(wood|stone|iron|diamond|gold|netherite)_paxel/, [
-        Text.red("This item is for crafting only!"),
+    event.add(/mekanismtools:(wood|stone|iron|diamond|gold|netherite|bronze|lapis_lazuli|osmium|steel)_paxel/, [
+        Text.red("This item is disabled !"),
     ]);
-    event.add(/mekanismtools:(bronze|lapis_lazuli|osmium)_(sword|shovel|(pick)?axe|paxel)/, [
+    event.add(/mekanismtools:(bronze|lapis_lazuli|osmium|steel)_(sword|shovel|(pick)?axe)/, [
         Text.red("This item is for crafting only!"),
     ]);
     event.add(/prefab:item_swift_blade_(wood|stone|iron|gold|diamond|netherite|copper|osmium|bronze|steel|obsidian)/, [
