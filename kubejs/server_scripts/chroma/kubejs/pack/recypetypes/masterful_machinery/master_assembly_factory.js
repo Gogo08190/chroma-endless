@@ -90,7 +90,7 @@ onEvent('recipes', (event) => {
                 { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 300 * 4 } }
             ],
             ticks: 240,
-            id: 'refinedstorage:crafting_grid'
+            id: 'refinedstorage:crafting_grid/crafting_grid'
         },
         {
             outputs: [{ type: 'masterfulmachinery:items', data: { item: 'refinedstorage:pattern_grid', count: 1 } }],
@@ -101,7 +101,7 @@ onEvent('recipes', (event) => {
                 { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 300 * 4 } }
             ],
             ticks: 240,
-            id:  'refinedstorage:pattern_grid'
+            id:  'refinedstorage:pattern_grid/pattern_grid'
         },
         {
             outputs: [{ type: 'masterfulmachinery:items', data: { item: 'refinedstorage:fluid_grid', count: 1 } }],
@@ -112,7 +112,7 @@ onEvent('recipes', (event) => {
                 { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 300 * 4 } }
             ],
             ticks: 240,
-            id:  'refinedstorage:fluid_grid'
+            id:  'refinedstorage:fluid_grid/fluid_grid'
         }
     ];
 
