@@ -16,6 +16,17 @@ onEvent('recipes', (event) => {
                 A: '#minecraft:logs'
             },
             id: `${id_prefex}sticks_16`
+        },
+        //Crying Obsidian
+        {
+          output:Item.of('minecraft:crying_obsidian', 16),
+          pattern:['HMH','MOM','HMH'],
+          key: {
+            H: 'tconstruct:hepatizon_ingot',
+            M: 'tconstruct:manyullyn_ingot',
+            O: 'minecraft:obsidian'
+          },
+          id: 'minecraft:crying_obsidian'
         }
     ];
 
