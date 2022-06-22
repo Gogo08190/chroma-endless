@@ -28,6 +28,15 @@ onEvent('recipes', (event) => {
             experience: 1.0,
             outputs: [Item.of('enderioalloys:item_material_vibrant_powder', 1)],
             id: 'enderioalloys:item_material_vibrant_crystal'
+        },
+
+        // Crying obsidian crying_obsidian_dust
+
+        {
+          input: 'minecraft:crying_obsidian',
+          experience: 0.5,
+          outputs: [Item.of('kubejs:crying_obsidian_dust', 1)],
+          id: 'minecraft:crying_obsidian_dust'
         }
     ];
     recipes.forEach((recipe) => {
