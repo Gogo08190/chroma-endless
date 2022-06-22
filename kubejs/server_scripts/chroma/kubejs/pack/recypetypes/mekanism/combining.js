@@ -10,6 +10,14 @@ onEvent('recipes', (event) => {
 
     const recipes = [
 
+      //Ancient débris
+      {
+        input: 'mekanism:dust_netherite',
+        extrainput: 'minecraft:basalt',
+        output: 'minecraft:ancient_debris',
+        id: 'mekanism:combining/ancient_debris'
+      }
+
     ];
 
     recipes.forEach((recipe) => {
