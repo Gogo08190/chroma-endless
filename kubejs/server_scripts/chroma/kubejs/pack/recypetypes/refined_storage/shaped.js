@@ -142,7 +142,34 @@ onEvent('recipes', (event) => {
               G:'rftoolscontrol:advanced_network_card'
           },
           id: 'refinedstorage:network_transmitter'
+      },
+      ///Crafter
+      {
+          output: 'refinedstorage:crafter',
+          pattern: ['BAB', 'CMD', 'BZB'],
+          key: {
+              B:'create:mechanical_crafter',
+              A:'refinedstorage:advanced_processor',
+              C:'refinedstorage:construction_core',
+              M:'refinedstorage:machine_casing',
+              D:'refinedstorage:destruction_core',
+              Z:'enderioalloys:item_material_skull_zombie_controller'
+          },
+          id: 'refinedstorage:crafter'
+      },
+      ///Wireless transmitter
+      {
+          output: 'refinedstorage:wireless_transmitter',
+          pattern: [' A ', 'CMC', 'CNC'],
+          key: {
+              A:'refinedstorage:advanced_processor',
+              C:'pneumaticcraft:ingot_iron_compressed',
+              M:'refinedstorage:machine_casing',
+              N:'rftoolscontrol:advanced_network_card'
+          },
+          id: 'refinedstorage:wireless_transmitter'
       }
+
 
     ];
 

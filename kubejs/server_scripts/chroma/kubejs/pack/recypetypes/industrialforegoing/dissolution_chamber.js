@@ -360,6 +360,25 @@ onEvent('recipes', (event) => {
             outputFluid: '',
             outputFluidAmount: 0,
             id: 'refinedstorage:quartz_enriched_iron'
+        },
+        {
+            inputs: [
+              'enderioalloys:item_alloy_ingot_melodic_alloy', // top left
+              'refinedstorage:raw_basic_processor', // top
+              'enderioalloys:item_alloy_ingot_melodic_alloy', // top right
+              'refinedstorage:raw_improved_processor', // left
+              'refinedstorage:raw_advanced_processor', // right
+              'minecraft:obsidian', // bottom left
+              'refinedstorage:processor_binding', // bottom
+              'minecraft:obsidian'  // bottom right
+            ],
+            inputFluid: 'tconstruct:molten_quartz',
+            inputFluidAmount: 144,
+            processingTime: 150,
+            outputItem: { item: 'extrastorage:raw_neural_processor', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'extrastorage:raw_neural_processor'
         }
     ];
 
