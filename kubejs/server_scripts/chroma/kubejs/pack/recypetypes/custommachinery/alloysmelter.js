@@ -128,7 +128,7 @@ onEvent('recipes', event => {
     .requireItem('betterendforge:ender_block')
     .requireItem('enderioalloys:item_alloy_ingot_energetic_alloy')
     .requireEnergyPerTick(20)
-    .produceItem(Item.of('enderioalloys:item_alloy_ingot_vibrant_alloy', 1))
+    .produceItem(Item.of('enderioalloys:item_alloy_ingot_vivid_alloy', 1))
 
   /* NetherCotta Ingot */
 
