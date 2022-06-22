@@ -11,6 +11,15 @@ onEvent('recipes', (event) => {
 
     const recipes = [
 
+      //Refined Obsidian Dust
+      {
+        output: 'mekanism:dust_refined_obsidian',
+        input: 'kubejs:crying_obsidian_dust',
+        infusionInput: 'mekanism:diamond',
+        infusionAmount: 40,
+        id: 'mekanism:processing/refined_obsidian/dust/from_obsidian_dust'
+      }
+
     ];
 
     recipes.forEach((recipe) => {
