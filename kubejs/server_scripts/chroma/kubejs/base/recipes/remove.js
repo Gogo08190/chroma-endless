@@ -166,6 +166,7 @@ onEvent('recipes', (event) => {
         /immersiveengineering:crafting\/hammercrushing/,
         'immersivepetroleum:distillationtower/oilcracking',
         'immersiveengineering:crafting/ingot_uranium_to_nugget_uranium',
+        'immersiveengineering:crafting/coal_coke_to_coke',
 
         'materialis:smeltery/melting/metal/starmetal/dust',
         /materialis:armor\/building\/exosuit/,
@@ -236,6 +237,7 @@ onEvent('recipes', (event) => {
         'thermal:storage/sulfur_block',
         'thermal:gunpowder_4',
         'thermal:lumium_ingot',
+        'thermal:storage/coal_coke_block'
 
         'pneumaticcraft:one_probe_crafting',
 
