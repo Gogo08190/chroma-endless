@@ -19,7 +19,7 @@ onEvent('recipes', (event) => {
         },
         //Crying Obsidian
         {
-          output:Item.of('minecraft:crying_obsidian', 16),
+          output: Item.of('minecraft:crying_obsidian', 16),
           pattern:['HMH','MOM','HMH'],
           key: {
             H: 'tconstruct:hepatizon_ingot',
