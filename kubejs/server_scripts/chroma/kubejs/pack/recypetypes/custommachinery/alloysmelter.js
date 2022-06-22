@@ -125,8 +125,9 @@ onEvent('recipes', event => {
   /* Vivid Alloy Ingot */
 
   event.recipes.custommachinery.custom_machine("custommachinery:alloy_smelter", 90)
-    .requireItem('betterendforge:ender_block')
-    .requireItem('enderioalloys:item_alloy_ingot_energetic_alloy')
+    .requireItem('botania:vivid_seeds')
+    .requireItem('elementalcraft:swift_alloy_ingot')
+    .requireItem('emendatusenigmatica:silicon_gem')
     .requireEnergyPerTick(20)
     .produceItem(Item.of('enderioalloys:item_alloy_ingot_vivid_alloy', 1))
 
