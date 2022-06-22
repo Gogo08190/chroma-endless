@@ -46,105 +46,105 @@ onEvent('recipes', event => {
   /* Electrical Steel Ingot */
 
   event.recipes.custommachinery.custom_machine("custommachinery:alloy_smelter", 120)
-    .requireItem('pneumaticcraft:ingot_iron_compressed')
-    .requireItem('emendatusenigmatica:silicon_gem')
-    .requireItem('emendatusenigmatica:coke_dust')
-    .requireEnergyPerTick(120)
-    .produceItem(Item.of('enderioalloys:item_alloy_ingot_electrical_steel', 1))
+  .requireItem('pneumaticcraft:ingot_iron_compressed')
+  .requireItem('emendatusenigmatica:silicon_gem')
+  .requireItem('emendatusenigmatica:coke_dust')
+  .requireEnergyPerTick(120)
+  .produceItem(Item.of('enderioalloys:item_alloy_ingot_electrical_steel', 1))
 
   /* Energetic Alloy Ingot */
 
   event.recipes.custommachinery.custom_machine("custommachinery:alloy_smelter", 110)
-    .requireItem('minecraft:gold_ingot')
-    .requireItem('minecraft:glowstone')
-    .requireItem('extendedcrafting:redstone_ingot')
-    .requireEnergyPerTick(100)
-    .produceItem(Item.of('enderioalloys:item_alloy_ingot_energetic_alloy', 1))
+  .requireItem('minecraft:gold_ingot')
+  .requireItem('minecraft:glowstone')
+  .requireItem('extendedcrafting:redstone_ingot')
+  .requireEnergyPerTick(100)
+  .produceItem(Item.of('enderioalloys:item_alloy_ingot_energetic_alloy', 1))
 
   /* Energetic Silver Ingot */
 
   event.recipes.custommachinery.custom_machine("custommachinery:alloy_smelter", 150)
-    .requireItem('emendatusenigmatica:silver_ingot')
-    .requireItem('minecraft:glowstone')
-    .requireItem('extendedcrafting:redstone_ingot')
-    .requireEnergyPerTick(100)
-    .produceItem(Item.of('enderioalloys:item_alloy_ingot_energetic_silver', 1))
+  .requireItem('emendatusenigmatica:silver_ingot')
+  .requireItem('minecraft:glowstone')
+  .requireItem('extendedcrafting:redstone_ingot')
+  .requireEnergyPerTick(100)
+  .produceItem(Item.of('enderioalloys:item_alloy_ingot_energetic_silver', 1))
 
   /* Melodic Alloy Ingot */
 
   event.recipes.custommachinery.custom_machine("custommachinery:alloy_smelter", 520)
-    .requireItem('enderioalloys:item_alloy_ingot_end_steel')
-    .requireItem('minecraft:note_block')
-    .requireItem('emendatusenigmatica:enderium_ingot')
-    .requireEnergyPerTick(250)
-    .produceItem(Item.of('enderioalloys:item_alloy_ingot_melodic_alloy', 1))
+  .requireItem('enderioalloys:item_alloy_ingot_end_steel')
+  .requireItem('minecraft:note_block')
+  .requireItem('emendatusenigmatica:enderium_ingot')
+  .requireEnergyPerTick(250)
+  .produceItem(Item.of('enderioalloys:item_alloy_ingot_melodic_alloy', 1))
 
   /* Pulsating Iron Ingot */
 
   event.recipes.custommachinery.custom_machine("custommachinery:alloy_smelter", 100)
-    .requireItem('pneumaticcraft:ingot_iron_compressed')
-    .requireItem('betterendforge:ender_block')
-    .requireEnergyPerTick(100)
-    .produceItem(Item.of('enderioalloys:item_alloy_ingot_pulsating_iron', 1))
+  .requireItem('pneumaticcraft:ingot_iron_compressed')
+  .requireItem('betterendforge:ender_block')
+  .requireEnergyPerTick(100)
+  .produceItem(Item.of('enderioalloys:item_alloy_ingot_pulsating_iron', 1))
 
   /* Redstone Alloy Ingot */
 
   event.recipes.custommachinery.custom_machine("custommachinery:alloy_smelter", 90)
-    .requireItem('emendatusenigmatica:silicon_gem')
-    .requireItem('extendedcrafting:redstone_ingot')
-    .requireEnergyPerTick(90)
-    .produceItem(Item.of('enderioalloys:item_alloy_ingot_redstone_alloy', 1))
+  .requireItem('emendatusenigmatica:silicon_gem')
+  .requireItem('extendedcrafting:redstone_ingot')
+  .requireEnergyPerTick(90)
+  .produceItem(Item.of('enderioalloys:item_alloy_ingot_redstone_alloy', 1))
 
 
   /* Soularium Ingot */
 
   event.recipes.custommachinery.custom_machine("custommachinery:alloy_smelter", 105)
-    .requireItem('minecraft:gold_ingot')
-    .requireItem('minecraft:soul_sand')
-    .requireItem('emendatusenigmatica:brass_ingot')
-    .requireEnergyPerTick(90)
-    .produceItem(Item.of('enderioalloys:item_alloy_ingot_soularium', 1))
+  .requireItem('minecraft:gold_ingot')
+  .requireItem('minecraft:soul_sand')
+  .requireItem('emendatusenigmatica:brass_ingot')
+  .requireEnergyPerTick(90)
+  .produceItem(Item.of('enderioalloys:item_alloy_ingot_soularium', 1))
 
   /* Stellar Alloy Ingot */
 
   event.recipes.custommachinery.custom_machine("custommachinery:alloy_smelter", 520)
-    .requireItem('extendedcrafting:nether_star_block')
-    .requireItem('enderioalloys:item_alloy_ingot_melodic_alloy')
-    .requireItem('minecraft:clay')
-    .requireEnergyPerTick(300)
-    .produceItem(Item.of('enderioalloys:item_alloy_ingot_stellar_alloy', 1))
+  .requireItem('extendedcrafting:nether_star_block')
+  .requireItem('enderioalloys:item_alloy_ingot_melodic_alloy')
+  .requireItem('minecraft:clay')
+  .requireEnergyPerTick(300)
+  .produceItem(Item.of('enderioalloys:item_alloy_ingot_stellar_alloy', 1))
 
   /* Vibrant Alloy Ingot */
 
   event.recipes.custommachinery.custom_machine("custommachinery:alloy_smelter", 120)
-    .requireItem('betterendforge:ender_block')
-    .requireItem('enderioalloys:item_alloy_ingot_energetic_alloy')
-    .requireEnergyPerTick(120)
-    .produceItem(Item.of('enderioalloys:item_alloy_ingot_vibrant_alloy', 1))
+  .requireItem('betterendforge:ender_block')
+  .requireItem('enderioalloys:item_alloy_ingot_energetic_alloy')
+  .requireEnergyPerTick(120)
+  .produceItem(Item.of('enderioalloys:item_alloy_ingot_vibrant_alloy', 1))
 
   /* Vivid Alloy Ingot */
 
   event.recipes.custommachinery.custom_machine("custommachinery:alloy_smelter", 90)
-    .requireItem('botania:vivid_seeds')
-    .requireItem('elementalcraft:swift_alloy_ingot')
-    .requireItem('emendatusenigmatica:silicon_gem')
-    .requireEnergyPerTick(20)
-    .produceItem(Item.of('enderioalloys:item_alloy_ingot_vivid_alloy', 1))
+  .requireItem('botania:vivid_seeds')
+  .requireItem('elementalcraft:swift_alloy_ingot')
+  .requireItem('emendatusenigmatica:silicon_gem')
+  .requireEnergyPerTick(20)
+  .produceItem(Item.of('enderioalloys:item_alloy_ingot_vivid_alloy', 1))
 
   /* NetherCotta Ingot */
 
   event.recipes.custommachinery.custom_machine("custommachinery:alloy_smelter", 90)
-    .requireItem('minecraft:netherite_ingot')
-    .requireItem('minecraft:terracotta')
-    .requireEnergyPerTick(20)
-    .produceItem(Item.of('enderioalloys:item_material_glazed_nether_brick', 1))
+  .requireItem('minecraft:netherite_ingot')
+  .requireItem('minecraft:terracotta')
+  .requireEnergyPerTick(20)
+  .produceItem(Item.of('enderioalloys:item_material_glazed_nether_brick', 1))
 
   /* End Steel Ingot */
 
   event.recipes.custommachinery.custom_machine("custommachinery:alloy_smelter", 250)
-    .requireItem('extendedcrafting:ender_ingot')
-    .requireItem('prefab:block_compressed_obsidian')
-    .requireItem('enderioalloys:item_alloy_ingot_dark_steel')
-    .requireEnergyPerTick(200)
-    .produceItem(Item.of('enderioalloys:item_alloy_ingot_end_steel', 1))
+  .requireItem('extendedcrafting:ender_ingot')
+  .requireItem('prefab:block_compressed_obsidian')
+  .requireItem('enderioalloys:item_alloy_ingot_dark_steel')
+  .requireEnergyPerTick(200)
+  .produceItem(Item.of('enderioalloys:item_alloy_ingot_end_steel', 1))
 })
