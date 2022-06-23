@@ -1,4 +1,5 @@
 onEvent('recipes', (event) => {
+    const id_prefix = 'chroma:pack/refined_storage/shaped/';
     const recipes = [
       {
           output: Item.of('refinedstorage:processor_binding', 8),
@@ -168,9 +169,103 @@ onEvent('recipes', (event) => {
               N:'rftoolscontrol:advanced_network_card'
           },
           id: 'refinedstorage:wireless_transmitter'
+      },
+      ///Unassembled 1k storage part
+      {
+          output: 'kubejs:unassembled_1k_storage_part',
+          pattern: ['QSQ', 'GCG', 'QGQ'],
+          key: {
+              Q: 'refinedstorage:quartz_enriched_iron',
+              S: '#forge:gems/silicon',
+              C: '#forge:circuits/basic',
+              G: 'thermal:obsidian_glass'
+          },
+          id: `${id_prefix}unassembled_1k_storage_part`
+      },
+      ///Unassembled 4k storage part
+      {
+          output: 'kubejs:unassembled_4k_storage_part',
+          pattern: ['QSQ', 'GCG', 'QGQ'],
+          key: {
+              Q: 'refinedstorage:basic_processor',
+              S: '#forge:gems/silicon',
+              C: '#forge:circuits/basic',
+              G: 'kubejs:unassembled_1k_storage_part'
+          },
+          id: `${id_prefix}unassembled_4k_storage_part`
+      },
+      ///Unassembled 16k storage part
+      {
+          output: 'kubejs:unassembled_16k_storage_part',
+          pattern: ['QSQ', 'GCG', 'QGQ'],
+          key: {
+              Q: 'refinedstorage:improved_processor',
+              S: '#forge:gems/silicon',
+              C: '#forge:circuits/basic',
+              G: 'kubejs:unassembled_4k_storage_part'
+          },
+          id: `${id_prefix}unassembled_16k_storage_part`
+      },
+      ///Unassembled 64k storage part
+      {
+          output: 'kubejs:unassembled_64k_storage_part',
+          pattern: ['QSQ', 'GCG', 'QGQ'],
+          key: {
+              Q: 'refinedstorage:advanced_processor',
+              S: '#forge:gems/silicon',
+              C: '#forge:circuits/basic',
+              G: 'kubejs:unassembled_16k_storage_part'
+          },
+          id: `${id_prefix}unassembled_64k_storage_part`
+      },
+      ///Unassembled 256k storage part
+      {
+          output: 'kubejs:unassembled_64k_storage_part',
+          pattern: ['QSQ', 'GCG', 'QGQ'],
+          key: {
+              Q: 'refinedstorage:advanced_processor',
+              S: '#forge:gems/silicon',
+              C: '#forge:circuits/advanced',
+              G: 'kubejs:unassembled_64k_storage_part'
+          },
+          id: `${id_prefix}unassembled_256k_storage_part`
+      },
+      ///Unassembled 1024k storage part
+      {
+          output: 'kubejs:unassembled_1024k_storage_part',
+          pattern: ['QSQ', 'GCG', 'QGQ'],
+          key: {
+              Q: 'extrastorage:neural_processor',
+              S: '#forge:gems/silicon',
+              C: '#forge:circuits/elite',
+              G: 'kubejs:unassembled_256k_storage_part'
+          },
+          id: `${id_prefix}unassembled_1024k_storage_part`
+      },
+      ///Unassembled 4096k storage part
+      {
+          output: 'kubejs:unassembled_4096k_storage_part',
+          pattern: ['QSQ', 'GCG', 'QGQ'],
+          key: {
+              Q: 'extrastorage:neural_processor',
+              S: '#forge:gems/silicon',
+              C: '#forge:circuits/ultimate',
+              G: 'kubejs:unassembled_1024k_storage_part'
+          },
+          id: `${id_prefix}unassembled_4096k_storage_part`
+      },
+      ///Unassembled 16384k storage part
+      {
+          output: 'kubejs:unassembled_16384k_storage_part',
+          pattern: ['QSQ', 'GCG', 'QGQ'],
+          key: {
+              Q: 'extrastorage:neural_processor',
+              S: '#forge:gems/silicon',
+              C: '#forge:circuits/ultimate',
+              G: 'kubejs:unassembled_4096k_storage_part'
+          },
+          id: `${id_prefix}unassembled_16384k_storage_part`
       }
-
-
     ];
 
     recipes.forEach((recipe) => {
