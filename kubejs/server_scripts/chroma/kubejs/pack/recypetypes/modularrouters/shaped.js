@@ -25,7 +25,7 @@ onEvent('recipes', (event) => {
       		output: Item.of('modularrouters:blank_upgrade', 4),
       		pattern: ['ABA', 'BCB', ' BA'],
       		key: {
-    			  A: '#forge:ingots/gold',
+    			A: '#forge:ingots/gold',
         		B: '#chroma:paper_wall',
         		C: '#forge:gears/lapis'
       		},
@@ -36,10 +36,10 @@ onEvent('recipes', (event) => {
       		pattern: [' A ', 'BCB', 'DED'],
       		key: {
       			A: 'create:analog_lever',
-          	B: 'minecraft:repeater',
-          	C: '#forge:gears/steel',
-  				  D: '#forge:ingots/gold',
-  				  E: 'modularrouters:blank_module'
+          		B: 'minecraft:repeater',
+          		C: '#forge:gears/steel',
+  				D: '#forge:ingots/gold',
+  				E: 'modularrouters:blank_module'
       		},
       		id: 'modularrouters:activator_module'
     	},
@@ -48,8 +48,8 @@ onEvent('recipes', (event) => {
       		pattern: ['A ', 'BCB'],
       		key: {
       			A: Item.of('mekanismtools:diamond_paxel', '{Damage:0}').weakNBT(),
-          	B: '#forge:ingots/gold',
-          	C: 'modularrouters:blank_module'
+          		B: '#forge:ingots/gold',
+          		C: 'modularrouters:blank_module'
       		},
       		id: 'modularrouters:breaker_module'
     	},
@@ -58,10 +58,10 @@ onEvent('recipes', (event) => {
       		pattern: ['A ', 'BCB', 'DED'],
       		key: {
       			A: 'minecraft:ender_pearl',
-          	B: 'extendedcrafting:redstone_ingot',
-          	C: 'modularrouters:puller_module_1',
-  				  D: '#forge:ingots/gold',
-  				  E: 'modularrouters:blank_module'
+          		B: 'extendedcrafting:redstone_ingot',
+          		C: 'modularrouters:puller_module_1',
+  				D: '#forge:ingots/gold',
+  				E: 'modularrouters:blank_module'
       		},
       		id: 'modularrouters:puller_module_2'
     	},
@@ -70,10 +70,10 @@ onEvent('recipes', (event) => {
       		pattern: ['A ', 'BCB', 'DED'],
       		key: {
       			A: 'rsgauges:industrial_comparator_switch',
-          	B: 'minecraft:comparator',
-          	C: '#forge:dusts/redstone',
-  				  D: '#forge:ingots/gold',
-  				  E: 'modularrouters:blank_module'
+          		B: 'minecraft:comparator',
+          		C: '#forge:dusts/redstone',
+  				D: '#forge:ingots/gold',
+  				E: 'modularrouters:blank_module'
       		},
       		id: 'modularrouters:detector_module'
     	},
@@ -81,10 +81,10 @@ onEvent('recipes', (event) => {
       		output: Item.of('modularrouters:distributor_module'),
       		pattern: ['A ', 'ABA', 'CDC'],
       		key: {
-    			  A: 'modularrouters:sender_module_3',
+    			A: 'modularrouters:sender_module_3',
         		B: 'pipez:item_pipe',
-				    C: '#forge:ingots/gold',
-				    D: 'modularrouters:blank_module'
+				C: '#forge:ingots/gold',
+				D: 'modularrouters:blank_module'
       		},
       		id: 'modularrouters:distributor_module'
     	},
@@ -92,10 +92,10 @@ onEvent('recipes', (event) => {
       		output: Item.of('modularrouters:dropper_module'),
       		pattern: ['A ', 'BCD', 'EFE'],
       		key: {
-    			  A: 'rsgauges:industrial_button',
+    			A: 'rsgauges:industrial_button',
         		B: 'engineersdecor:factory_hopper',
         		C: 'minecraft:dropper',
-				    D: 'minecraft:redstone_torch',
+				D: 'minecraft:redstone_torch',
 		        E: '#forge:ingots/gold',
 		        F: 'modularrouters:blank_module'
       		},
@@ -105,7 +105,7 @@ onEvent('recipes', (event) => {
       		output: Item.of('modularrouters:energy_distributor_module'),
       		pattern: ['A ', 'BCB', 'DED'],
       		key: {
-			      A: 'modularrouters:energy_output_module',
+			    A: 'modularrouters:energy_output_module',
         		B: '#forge:gems/quartz',
         		C: 'modularrouters:distributor_module',
 		        D: '#forge:ingots/gold',
@@ -178,11 +178,11 @@ onEvent('recipes', (event) => {
       		output: Item.of('modularrouters:fluid_module_2'),
       		pattern: ['A ', 'BCB', 'DED'],
       		key: {
-    			  A: 'pipez:fluid_pipe',
+    			A: 'pipez:fluid_pipe',
         		B: 'extendedcrafting:redstone_ingot_block',
         		C: 'modularrouters:fluid_module',
-			      D: '#forge:ingots/gold',
-				    E: 'modularrouters:blank_module'
+			    D: '#forge:ingots/gold',
+				E: 'modularrouters:blank_module'
       		},
       		id: 'modularrouters:fluid_module_2'
     	},
@@ -190,11 +190,11 @@ onEvent('recipes', (event) => {
       		output: Item.of('modularrouters:placer_module'),
       		pattern: ['A ', 'BCD', 'EFE'],
       		key: {
-    			  A: '#forge:grass',
+    			A: '#forge:grass',
         		B: 'engineersdecor:factory_placer',
         		C: '#forge:stone',
 		        D: 'minecraft:dispenser',
-            E: '#forge:ingots/gold',
+            	E: '#forge:ingots/gold',
 		        F: 'modularrouters:blank_module'
       		},
       		id: 'modularrouters:placer_module'
@@ -203,7 +203,7 @@ onEvent('recipes', (event) => {
       		output: Item.of('modularrouters:player_module'),
       		pattern: ['A ', 'BCD', 'EFE'],
       		key: {
-    			  A: 'minecraft:wither_skeleton_skull',
+    			A: 'minecraft:wither_skeleton_skull',
         		B: 'modularrouters:sender_module_3',
         		C: 'minecraft:diamond_chestplate',
 		        D: 'modularrouters:puller_module_2',
