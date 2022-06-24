@@ -169,6 +169,68 @@ onEvent('recipes', (event) => {
               N:'rftoolscontrol:advanced_network_card'
           },
           id: 'refinedstorage:wireless_transmitter'
+      },
+      ///Crafting Monitor
+      {
+          output: 'refinedstorage:crafting_monitor',
+          pattern: ['IPO', 'QMO', 'IPO'],
+          key: {
+              I:'refinedstorage:improved_processor',
+              P:'refinedstorage:pattern',
+              O:'thermal:obsidian_glass',
+              Q:'refinedstorage:quartz_enriched_iron',
+              M:'refinedstorage:machine_casing'
+          },
+          id: 'refinedstorage:crafting_monitor'
+      },
+      ///Crafting Manager
+      {
+          output: 'refinedstorage:crafter_manager',
+          pattern: ['ACO', 'QMO', 'ACO'],
+          key: {
+              A:'refinedstorage:advanced_processor',
+              C:'refinedstorage:crafter',
+              O:'thermal:obsidian_glass',
+              Q:'refinedstorage:quartz_enriched_iron',
+              M:'refinedstorage:machine_casing'
+          },
+          id: 'refinedstorage:crafter_manager'
+      },
+      ///Wireless Grid
+      {
+          output: Item.of('refinedstorage:wireless_grid', '{Energy:0}'),
+          pattern: ['QIQ', 'QGQ', 'QAQ'],
+          key: {
+              Q:'refinedstorage:quartz_enriched_iron',
+              I:'rftoolsbase:infused_enderpearl',
+              G:'refinedstorage:grid',
+              A:'refinedstorage:advanced_processor'
+          },
+          id: 'refinedstorage:wireless_grid'
+      },
+      ///Wireless Fluid Grid
+      {
+          output: Item.of('refinedstorage:wireless_fluid_grid', '{Energy:0}'),
+          pattern: ['QIQ', 'QGQ', 'QAQ'],
+          key: {
+              Q:'refinedstorage:quartz_enriched_iron',
+              I:'rftoolsbase:infused_enderpearl',
+              G:'refinedstorage:fluid_grid',
+              A:'refinedstorage:advanced_processor'
+          },
+          id: 'refinedstorage:wireless_fluid_grid'
+      },
+      ///Wireless Crafting Monitor
+      {
+          output: Item.of('refinedstorage:wireless_crafting_monitor', '{Energy:0}'),
+          pattern: ['QIQ', 'QGQ', 'QAQ'],
+          key: {
+              Q:'refinedstorage:quartz_enriched_iron',
+              I:'rftoolsbase:infused_enderpearl',
+              G:'refinedstorage:crafting_monitor',
+              A:'refinedstorage:advanced_processor'
+          },
+          id: 'refinedstorage:wireless_crafting_monitor'
       }
     ];
 

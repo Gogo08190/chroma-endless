@@ -31,4 +31,12 @@ onEvent('recipes', event => {
   .requireEnergyPerTick(100)
   .produceItem(Item.of('refinedstorage:destruction_core', 1))
   .id('refinedstorage:destruction_core')
+
+  event.recipes.custommachinery.custom_machine("custommachinery:inscriber", 240)
+  .requireItem('extrastorage:raw_neural_processor')
+  .requireItem('extendedcrafting:redstone_ingot')
+  .requireItem('emendatusenigmatica:silicon_gem')
+  .requireEnergyPerTick(100)
+  .produceItem(Item.of('extrastorage:neural_processor', 1))
+  .id('extrastorage:neural_processor')
 })
