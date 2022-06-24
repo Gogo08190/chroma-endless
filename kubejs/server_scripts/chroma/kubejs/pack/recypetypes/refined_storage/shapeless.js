@@ -53,9 +53,9 @@ onEvent('recipes', (event) => {
           id: `${id_prefix}unasambled_1024k_fluid_storage_part_from_1024k_fluid_storage_part`
       },
       {
-          output: 'kubejs:unassembled_4096k_fluid_storage_part',
-          inputs: ['refinedstorage:4096k_fluid_storage_part'],
-          id: `${id_prefix}unasambled_4096k_fluid_storage_part_from_4096k_fluid_storage_part`
+          output: 'kubejs:unassembled_256k_fluid_storage_part',
+          inputs: ['refinedstorage:256k_fluid_storage_part'],
+          id: `${id_prefix}unasambled_256k_fluid_storage_part_from_256k_fluid_storage_part`
       },
       {
           output: 'kubejs:unassembled_4096k_fluid_storage_part',
@@ -66,6 +66,11 @@ onEvent('recipes', (event) => {
           output: 'kubejs:unassembled_16384k_fluid_storage_part',
           inputs: ['extrastorage:storagepart_16384k_fluid'],
           id: `${id_prefix}unasambled_16384k_fluid_storage_part_from_16384k_fluid_storage_part`
+      },
+      {
+          output: 'kubejs:unassembled_65536k_fluid_storage_part',
+          inputs: ['extrastorage:storagepart_65536k_fluid'],
+          id: `${id_prefix}unasambled_65536k_fluid_storage_part_from_65536k_fluid_storage_part`
       },
       {
           output: 'kubejs:unassembled_262144k_fluid_storage_part',
