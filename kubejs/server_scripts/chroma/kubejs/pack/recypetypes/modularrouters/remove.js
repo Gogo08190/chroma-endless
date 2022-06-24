@@ -2,14 +2,14 @@
 
 onEvent('recipes', (event) => {
     const idRemovals = [
-      /modularrouters:fluid\/module\/2\/x4/,
-      /modularrouters:puller\/module\/2\/x4/,
-      /modularrouters:sender\/module\/alt/,
-      /modularrouters:sender\/module\/2\/x4/
+      'modularrouters:puller_module_2_x4',
+      'modularrouters:fluid_module_2_x4',
+      'modularrouters:sender_module_2_x4',
+      'modularrouters:sender_module_alt'
     ];
 
     const outputRemovals = [
-      
+
     ];
 
     idRemovals.forEach((id) => {
