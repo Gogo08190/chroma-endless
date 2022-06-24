@@ -102,6 +102,36 @@ onEvent('recipes', (event) => {
                 B: 'minecraft:beehive'
             },
             id: 'resourcefulbees:t1_beehive'
+        },
+        {
+            output: 'refinedstorage:disk_drive',
+            pattern: ['QQTQQ', 'QACAQ', 'ECMCE', 'QACAQ', 'QQWQQ'],
+            key: {
+                Q: 'refinedstorage:quartz_enriched_iron',
+                T: 'tardis:circuits',
+                A: 'refinedstorage:advanced_processor',
+                C: '#forge:circuits/basic',
+                E: 'kubejs:advanced_extreme_circuit_board',
+                M: 'refinedstorage:machine_casing',
+                W: 'occultism:storage_stabilizer_tier1'
+            },
+            id: 'refinedstorage:disk_drive'
+        },
+        {
+            output: 'extrastorage:netherite_crafter',
+            pattern: ['QCSCQ', 'QETEQ', 'PUMUP', 'QETEQ', 'QCACQ'],
+            key: {
+                Q: 'refinedstorage:quartz_enriched_iron',
+                S: 'pneumaticcraft:smart_chest',
+                T: 'kubejs:netherite_transistor',
+                P: 'extrastorage:neural_processor',
+                C: '#forge:circuits/ultimate',
+                E: 'kubejs:advanced_extreme_circuit_board',
+                M: 'extrastorage:diamond_crafter',
+                U: 'kubejs:uranium_capacitor',
+                A: 'thermal:upgrade_augment_3'
+            },
+            id: 'extrastorage:netherite_crafter'
         }
     ];
 
