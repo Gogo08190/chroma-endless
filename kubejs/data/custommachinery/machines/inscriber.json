@@ -74,42 +74,44 @@
       {
         "type": "custommachinery:texture",
         "texture": "custommachinery:textures/gui/base_background.png",
-        "x": 0,
-        "y": 0
+        "x": 40,
+        "y": 13,
+        "width": 176,
+        "height": 166
       },
       {
         "type": "custommachinery:player_inventory",
         "x": 47,
-        "y": 80
+        "y": 96
       },
       {
         "type": "custommachinery:slot",
         "id": "input1",
         "x": 94,
-        "y": 10
+        "y": 26
       },
       {
         "type": "custommachinery:slot",
         "id": "input2",
         "x": 94,
-        "y": 30
+        "y": 46
       },
       {
         "type": "custommachinery:slot",
         "id": "input3",
         "x": 94,
-        "y": 50
+        "y": 66
       },
       {
         "type": "custommachinery:slot",
         "id": "output",
         "x": 144,
-        "y": 30
+        "y": 46
       },
       {
         "type": "custommachinery:energy",
         "x": 74,
-        "y": 10,
+        "y": 26,
         "width": 15,
         "height": 58
       },
@@ -117,34 +119,34 @@
         "type": "custommachinery:slot",
         "id": "upgrade1",
         "texture": "custommachinery:textures/gui/speed_upgrade_slot.png",
-        "x": 228,
-        "y": 10
+        "x": 193,
+        "y": 18
       },
       {
         "type": "custommachinery:slot",
         "id": "upgrade2",
         "texture": "custommachinery:textures/gui/speed_upgrade_slot.png",
-        "x": 228,
-        "y": 30
+        "x": 193,
+        "y": 37
       },
       {
         "type": "custommachinery:slot",
         "id": "upgrade3",
         "texture": "custommachinery:textures/gui/speed_upgrade_slot.png",
-        "x": 228,
-        "y": 50
+        "x": 193,
+        "y": 56
       },
       {
         "type": "custommachinery:slot",
         "id": "upgrade4",
         "texture": "custommachinery:textures/gui/speed_upgrade_slot.png",
-        "x": 228,
-        "y": 70
+        "x": 193,
+        "y": 75
       },
       {
         "type": "custommachinery:progress",
         "x": 116,
-        "y": 32
+        "y": 48
       }
     ]
   }

@@ -104,6 +104,29 @@
       "texture": "custommachinery:textures/gui/clear_slot.png",
       "x": 51,
       "y": 72
+    },
+    {
+      "type": "custommachinery:progress",
+      "emptyTexture": "custommachinery:textures/gui/alloy_smelter_recipes.png",
+      "filledTexture": "custommachinery:textures/gui/alloy_smelter_recipes.png",
+      "x": 110,
+      "y": 36
+    },
+    {
+      "type": "custommachinery:progress",
+      "emptyTexture": "custommachinery:textures/gui/progress_empty.png",
+      "filledTexture": "custommachinery:textures/gui/progress.png",
+      "direction": "bottom",
+      "x": 95,
+      "y": 48
+    },
+    {
+      "type": "custommachinery:progress",
+      "emptyTexture": "custommachinery:textures/gui/progress_empty.png",
+      "filledTexture": "custommachinery:textures/gui/progress.png",
+      "direction": "bottom",
+      "x": 143,
+      "y": 48
     }
   ]
 }
