@@ -364,7 +364,13 @@ const itemsToHide = [
     /rftoolsbase:dimensionalshard_/,
     /theoneprobe:/,
     /upgrade_aquatic:\w+_jelly_torch/,
-    /chiselsandbits:block_bit$/
+    /chiselsandbits:block_bit$/,
+
+    'miniutilities:ender_dust',
+
+    'custommachinery:machine_creator_item',
+    'custommachinery:box_creator_item',
+    Item.of('custommachinery:structure_creator', '{custommachinery:{}}')
 ];
 
 let ee_types = ['clump', 'crystal', 'dirty_dust', 'shard', 'fragment', 'gravel'];
