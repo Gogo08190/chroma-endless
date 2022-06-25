@@ -33,6 +33,14 @@ onEvent('recipes', event => {
   .id('refinedstorage:destruction_core')
 
   event.recipes.custommachinery.custom_machine("custommachinery:inscriber", 240)
+  .requireItem('refinedstorage:raw_basic_processor')
+  .requireItem('extendedcrafting:redstone_ingot')
+  .requireItem('minecraft:glowstone_dust')
+  .requireEnergyPerTick(100)
+  .produceItem(Item.of('refinedstorage:construction_core', 1))
+  .id('refinedstorage:refinedstorage:construction_core')
+
+  event.recipes.custommachinery.custom_machine("custommachinery:inscriber", 240)
   .requireItem('extrastorage:raw_neural_processor')
   .requireItem('extendedcrafting:redstone_ingot')
   .requireItem('emendatusenigmatica:silicon_gem')
