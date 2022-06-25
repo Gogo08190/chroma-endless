@@ -3,6 +3,16 @@
     "appearance": {
       "mining_level": "0"
     },
+    "tooltips": [
+      {
+        "text": "Used to convert the type of a broken spawner",
+        "color": "gray"
+      },
+      {
+        "text": "Upgrade with capacitors to increase speed (also increase energy consumption)",
+        "color": "gray"
+      }
+    ],
     "components": [
       {
         "mode": "input",

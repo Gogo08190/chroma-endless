@@ -3,6 +3,16 @@
     "appearance": {
       "mining_level": "0"
     },
+    "tooltips": [
+      {
+        "text": "Used to create Refined Storage processors and cores",
+        "color": "gray"
+      },
+      {
+        "text": "Upgrade with speed upgrades to increase speed (also increase energy consumption)",
+        "color": "gray"
+      }
+    ],
     "components": [
       {
         "mode": "input",

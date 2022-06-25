@@ -4,6 +4,16 @@
     "lightmode": "running",
     "lightlevel": 7
   },
+  "tooltips": [
+    {
+      "text": "Slices heads and splices in all sorts of useful things",
+      "color": "gray"
+    },
+    {
+      "text": "Upgrade with capacitors to increase speed (also increase energy consumption)",
+      "color": "gray"
+    }
+  ],
   "components": [
     {
       "mode": "input",
