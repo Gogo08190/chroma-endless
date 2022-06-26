@@ -41,17 +41,7 @@
     },
     {
       "mode": "output",
-      "id": "output1",
-      "type": "custommachinery:item"
-    },
-    {
-      "mode": "output",
-      "id": "output2",
-      "type": "custommachinery:item"
-    },
-    {
-      "mode": "output",
-      "id": "output3",
+      "id": "output",
       "type": "custommachinery:item"
     },
     {
@@ -76,43 +66,51 @@
   "gui": [
     {
       "type": "custommachinery:texture",
-      "texture": "custommachinery:textures/gui/base_background.png",
-      "x": 0,
-      "y": 0
+      "texture": "custommachinery:textures/gui/sas_sb.png",
+      "x": 40,
+      "y": 13
     },
     {
       "type": "custommachinery:player_inventory",
       "x": 47,
-      "y": 80
+      "y": 96
     },
     {
       "type": "custommachinery:slot",
       "id": "input1",
-      "x": 67,
-      "y": 30
+      "x": 91,
+      "y": 34
     },
     {
       "type": "custommachinery:slot",
       "id": "input2",
-      "x": 87,
-      "y": 30
+      "x": 111,
+      "y": 34
     },
     {
       "type": "custommachinery:slot",
       "id": "input3",
-      "x": 67,
-      "y": 50
+      "x": 91,
+      "y": 54
     },
     {
       "type": "custommachinery:slot",
       "id": "input4",
-      "x": 87,
-      "y": 50
+      "x": 111,
+      "y": 54
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output",
+      "x": 166,
+      "y": 43
     },
     {
       "type": "custommachinery:energy",
-      "x": 47,
-      "y": 30
+      "x": 55,
+      "y": 26,
+      "width": 11,
+      "height": 44
     },
     {
       "type": "custommachinery:fluid",
@@ -120,61 +118,29 @@
       "capacity": 10000,
       "maxInput": 1000,
       "maxOutput": 1000,
-      "filter": ["minecraft:lava"],
+      "filter": ["industrialforegoing:essence"],
       "whitelist": true,
-      "x": 107,
-      "y": 30
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "output1",
-      "x": 149,
-      "y": 30
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "output2",
-      "x": 169,
-      "y": 30
-    },
-    {
-      "id": "output3",
-      "x": 189,
-      "y": 30,
-      "type": "custommachinery:slot"
-    },
-    {
-      "type": "custommachinery:progress",
-      "x": 116,
-      "y": 30
+      "x": 68,
+      "y": 26,
+      "width": 11,
+      "height": 44
     },
     {
       "type": "custommachinery:status",
-      "x": 236,
-      "y": 5
-    },
-    {
-      "type": "custommachinery:text",
-      "text": "Slice'N'Splice",
-      "x": 7,
-      "y": 5
+      "x": 197,
+      "y": 17
     },
     {
       "type": "custommachinery:slot",
       "id": "upgrade",
-      "x": 200,
-      "y": 5
+      "texture": "custommachinery:textures/gui/clear_slot.png",
+      "x": 51,
+      "y": 72
     },
     {
-      "type": "custommachinery:text",
-      "text": "Upgrade:",
-      "x": 150,
-      "y": 5
-    },
-    {
-      "type": "custommachinery:reset",
-      "x": 5,
-      "y": 60
+      "type": "custommachinery:progress",
+      "x": 135,
+      "y": 45
     }
   ]
 }
