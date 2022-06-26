@@ -26,7 +26,7 @@ event.recipes.custommachinery.custom_machine("custommachinery:slice_n_splice", 8
 .requireItem('2x enderioalloys:item_alloy_ingot_soularium')
 .requireItem('emendatusenigmatica:silicon_gem')
 .requireItem('minecraft:skeleton_skull')
-.requireItem('2x minecraft:zombie_head')
+.requireItem('2x architects_palette:rotten_flesh_block')
 .requireEnergyPerTick(1350)
 .produceItem(Item.of('enderioalloys:item_material_skull_skeletal_contractor', 1))
 
