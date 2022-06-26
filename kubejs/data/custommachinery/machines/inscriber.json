@@ -120,7 +120,7 @@
       },
       {
         "type": "custommachinery:energy",
-        "x": 74,
+        "x": 55,
         "y": 26,
         "width": 15,
         "height": 58
@@ -129,28 +129,28 @@
         "type": "custommachinery:slot",
         "id": "upgrade1",
         "texture": "custommachinery:textures/gui/speed_upgrade_slot.png",
-        "x": 193,
+        "x": 183,
         "y": 18
       },
       {
         "type": "custommachinery:slot",
         "id": "upgrade2",
         "texture": "custommachinery:textures/gui/speed_upgrade_slot.png",
-        "x": 193,
+        "x": 183,
         "y": 37
       },
       {
         "type": "custommachinery:slot",
         "id": "upgrade3",
         "texture": "custommachinery:textures/gui/speed_upgrade_slot.png",
-        "x": 193,
+        "x": 183,
         "y": 56
       },
       {
         "type": "custommachinery:slot",
         "id": "upgrade4",
         "texture": "custommachinery:textures/gui/speed_upgrade_slot.png",
-        "x": 193,
+        "x": 183,
         "y": 75
       },
       {
