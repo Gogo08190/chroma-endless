@@ -30,7 +30,7 @@
       {
         "mode": "input",
         "id": "input3",
-        "filter": ["emendatusenigmatica:silicon_gem", "minecraft:glowstone", "minecraft:quartz"],
+        "filter": ["emendatusenigmatica:silicon_gem", "minecraft:glowstone_dust", "minecraft:quartz"],
         "whitelist": true,
         "type": "custommachinery:item"
       },
