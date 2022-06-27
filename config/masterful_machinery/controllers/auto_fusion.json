@@ -1,0 +1,27 @@
+{
+    "controllerId": "Fusioner",
+    "name": "Fusionner 2000",
+    "textureOverride": "refinedstorage:block/creative_fluid_storage_block",
+    "ports": [
+      {
+        "type": "masterfulmachinery:items",
+        "textureOverride": "betterendforge:block/aeternium_block",
+        "name": "Compact Factory Item",
+        "id": "compact_item",
+        "data": {
+          "rows": 4,
+          "columns": 6
+        }
+      },
+      {
+        "type": "masterfulmachinery:energy",
+        "textureOverride": "betterendforge:block/aeternium_block",
+        "name": "Compact Factory Energy",
+        "id": "compact_energy",
+        "data": {
+          "capacity": 1000000
+        }
+      }
+    ]
+  }
+  
