@@ -7,6 +7,7 @@ event.recipes.custommachinery.custom_machine("custommachinery:slice_n_splice", 6
 .requireItem('2x enderioalloys:item_alloy_ingot_energetic_alloy')
 .requireItem('kubejs:octadic_capacitor')
 .requireItem('minecraft:zombie_head')
+.requireFluidPerTick(Fluid.of('industrialforegoing:essence', 1))
 .requireEnergyPerTick(1240)
 .produceItem(Item.of('enderioalloys:item_material_skull_zombie_electrode', 1))
 
@@ -17,6 +18,7 @@ event.recipes.custommachinery.custom_machine("custommachinery:slice_n_splice", 8
 .requireItem('2x emendatusenigmatica:silicon_gem')
 .requireItem('enderioalloys:item_alloy_ingot_redstone_alloy')
 .requireItem('minecraft:zombie_head')
+.requireFluidPerTick(Fluid.of('industrialforegoing:essence', 1))
 .requireEnergyPerTick(1550)
 .produceItem(Item.of('enderioalloys:item_material_skull_zombie_controller', 1))
 
@@ -27,6 +29,7 @@ event.recipes.custommachinery.custom_machine("custommachinery:slice_n_splice", 8
 .requireItem('emendatusenigmatica:silicon_gem')
 .requireItem('minecraft:skeleton_skull')
 .requireItem('2x architects_palette:rotten_flesh_block')
+.requireFluidPerTick(Fluid.of('industrialforegoing:essence', 1))
 .requireEnergyPerTick(1350)
 .produceItem(Item.of('enderioalloys:item_material_skull_skeletal_contractor', 1))
 
@@ -37,6 +40,7 @@ event.recipes.custommachinery.custom_machine("custommachinery:slice_n_splice", 8
 .requireItem('2x minecraft:prismarine_crystals')
 .requireItem('upgrade_aquatic:elder_guardian_spine')
 .requireItem('emendatusenigmatica:silicon_gem')
+.requireFluidPerTick(Fluid.of('industrialforegoing:essence', 1))
 .requireEnergyPerTick(2000)
 .produceItem(Item.of('enderioalloys:item_material_skull_guardian_diode', 1))
 })

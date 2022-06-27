@@ -61,7 +61,16 @@
       "filter": ["kubejs:basic_capacitor", "kubejs:double-layer_capacitor", "kubejs:octadic_capacitor"],
       "whitelist": true,
       "capacity": 1
-    }
+    },
+    {
+      "type": "custommachinery:fluid",
+      "capacity": 10000,
+      "id": "essencetank",
+      "maxInput": 1000,
+      "maxOutput": 1000,
+      "filter": ["industrialforegoing:essence"],
+      "whitelist": true
+  }
   ],
   "gui": [
     {
@@ -115,11 +124,6 @@
     {
       "type": "custommachinery:fluid",
       "id": "essencetank",
-      "capacity": 10000,
-      "maxInput": 1000,
-      "maxOutput": 1000,
-      "filter": ["industrialforegoing:essence"],
-      "whitelist": true,
       "x": 68,
       "y": 26,
       "width": 11,
