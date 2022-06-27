@@ -35,8 +35,15 @@ onEvent('recipes', (event) => {
         input: 'botania:mana_diamond',
         output: 'mekanism:enriched_diamond',
         id: 'mekanism:enriching/enriched/diamond'
+      },
+
+      //Terrasteel
+      {
+        input: 'botania:terrasteel_ingot',
+        output: 'kubejs:enriched_terrasteel',
+        id: 'mekanism:enriching/enriched/terrasteel'
       }
-      
+
     ];
     recipes.forEach((recipe) => {
         event.recipes.mekanism.enriching(recipe.output, recipe.input).id(recipe.id);
