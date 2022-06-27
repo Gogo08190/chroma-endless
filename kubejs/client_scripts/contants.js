@@ -125,6 +125,7 @@ const itemsToHide = [
     'arsarsenal:earth_hood',
     'arsarsenal:air_hood',
 
+    // Masterfull machines
     'masterfulmachinery:assemblylaser_assembly_energy_port_energy_output',
     'masterfulmachinery:assemblylaser_assembly_air_port_pncr_pressure_output',
 
@@ -183,6 +184,7 @@ const itemsToHide = [
     /peridot/,
     /emendatusenigmatica.*sapphire/,
     /emendatusenigmatica.*ruby/,
+    /ftblibrary:fluid_container/,
 
     'environmental:cherry_pie',
     'environmental:apple_pie',
@@ -193,8 +195,6 @@ const itemsToHide = [
     'immersiveengineering:dust_saltpeter',
     'immersiveengineering:dust_wood',
     'immersiveengineering:coal_coke',
-
-    // Masterfull machines
 
     'mctb:cherry_crafting_table',
     'mctb:dead_crafting_table',
@@ -627,7 +627,12 @@ const disabledItems = [
     'simplefarming:noodles',
     'simplefarming:chocolate',
 
-    'storagedrawers:conversion_upgrade'
+    'storagedrawers:conversion_upgrade',
+
+    'miniutilities:golden_lasso',
+
+    'littlelogistics:chunk_loader_barge',
+    'draconicmachinery:chunk_loader'
 ];
 
 const materialsToUnify = [
