@@ -5,7 +5,7 @@ onEvent('recipes', event => {
 event.recipes.custommachinery.custom_machine("custommachinery:slice_n_splice", 640)
 .requireItem('2x emendatusenigmatica:silicon_gem')
 .requireItem('2x enderioalloys:item_alloy_ingot_energetic_alloy')
-.requireItem('kubejs:octadic_capacitor')
+.requireItem('kubejs:uranium_capacitor')
 .requireItem('minecraft:zombie_head')
 .requireFluidPerTick(Fluid.of('industrialforegoing:essence', 1))
 .requireEnergyPerTick(1240)
