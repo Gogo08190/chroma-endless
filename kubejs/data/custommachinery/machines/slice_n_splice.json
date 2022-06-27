@@ -37,7 +37,7 @@
       "mode": "input",
       "id": "input4",
       "type": "custommachinery:item",
-      "filter": ["kubejs:basic_capacitor", "kubejs:double-layer_capacitor", "kubejs:octadic_capacitor"]
+      "filter": ["kubejs:basic_capacitor", "kubejs:double-layer_capacitor"]
     },
     {
       "mode": "output",
