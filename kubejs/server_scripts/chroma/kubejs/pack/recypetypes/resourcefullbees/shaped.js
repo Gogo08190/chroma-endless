@@ -167,9 +167,9 @@ onEvent('recipes', (event) => {
 
       {
           output: 'resourcefulbees:apiary_breed_time_upgrade',
-          pattern: ['HAH', 'ATA', 'HAH'],
+          pattern: ['HAH', 'ASA', 'HAH'],
           key: {
-              T: Item.of('tiab:timeinabottle', '{timeData:{storedTime:40}}').weakNBT(),
+              S: 'miniutilities:speed_upgrade',
               A: 'industrialforegoing:animal_feeder',
               H: 'minecraft:honeycomb_block'
           },
