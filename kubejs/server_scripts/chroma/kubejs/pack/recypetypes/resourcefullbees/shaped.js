@@ -163,6 +163,28 @@ onEvent('recipes', (event) => {
               A: 'resourcefulbees:apiary_storage'
           },
           id: 'resourcefulbees:diamond_storage_upgrade'
+      },
+
+      {
+          output: 'resourcefulbees:apiary_breed_time_upgrade',
+          pattern: ['HAH', 'ATA', 'HAH'],
+          key: {
+              T: Item.of('tiab:timeinabottle', '{timeData:{storedTime:40}}').weakNBT(),
+              A: 'industrialforegoing:animal_feeder',
+              H: 'minecraft:honeycomb_block'
+          },
+          id: 'resourcefulbees:apiary_breed_time_upgrade'
+      },
+
+      {
+          output: 'resourcefulbees:apiary_breeder_upgrade',
+          pattern: ['HAH', 'ASA', 'HAH'],
+          key: {
+              S: 'resourcefulbees:emerald_storage_upgrade',
+              A: 'industrialforegoing:animal_feeder',
+              H: 'minecraft:honeycomb_block'
+          },
+          id: 'resourcefulbees:apiary_breeder_upgrade'
       }
 
     ];
