@@ -95,7 +95,7 @@ onEvent('recipes', (event) => {
     			    A: 'rsgauges:industrial_button',
         	    B: 'engineersdecor:factory_hopper',
         	    C: 'minecraft:dropper',
-				      D: 'minecraft:redstone_torch',
+				      D: '#chroma:stonecuttables/redstone_torch',
 		          E: '#forge:ingots/brass',
 		          F: 'modularrouters:blank_module'
       		},
@@ -239,6 +239,19 @@ onEvent('recipes', (event) => {
       		id: 'modularrouters:vacuum_module'
     	},
         {
+            output: Item.of('modularrouters:sender_module_3'),
+            pattern: ['ABC', 'BDB', 'EFE'],
+            key: {
+                A: '#forge:end_stones',
+                B: 'extendedcrafting:redstone_ingot',
+                C: 'minecraft:ender_chest',
+                D: 'modularrouters:sender_module_2',
+                E: '#forge:ingots/brass',
+                F: 'modularrouters:blank_module'
+            },
+            id: 'modularrouters:sender_module_3'
+        },
+        {
             output: Item.of('modularrouters:sender_module_2'),
             pattern: [' E ', 'DBD', 'CAC'],
             key: {
@@ -299,7 +312,7 @@ onEvent('recipes', (event) => {
             id: 'modularrouters:energy_upgrade'
         },
         {
-            output: 'modularrouters:fluid_upgrade',
+            output: Item.of('modularrouters:fluid_upgrade', 3),
             pattern: ['ADA', 'DCD', ' BA'],
             key: {
                 A: '#forge:ingots/brass',
@@ -310,7 +323,7 @@ onEvent('recipes', (event) => {
             id: 'modularrouters:fluid_upgrade'
         },
         {
-            output: 'modularrouters:muffler_upgrade',
+            output: Item.of('modularrouters:muffler_upgrade', 4),
             pattern: ['ACA', 'CDC', ' BA'],
             key: {
                 A: '#forge:ingots/brass',
@@ -334,7 +347,7 @@ onEvent('recipes', (event) => {
             id: 'modularrouters:security_upgrade'
         },
         {
-            output: 'modularrouters:speed_upgrade',
+            output: Item.of('modularrouters:speed_upgrade', 3),
             pattern: ['ACA', 'DEF', ' BA'],
             key: {
                 A: '#forge:ingots/brass',
@@ -360,16 +373,189 @@ onEvent('recipes', (event) => {
             id: 'modularrouters:stack_upgrade'
         },
         {
-            output: 'modularrouters:sync_upgrade',
+            output: Item.of('modularrouters:sync_upgrade', 16),
             pattern: ['AEA', 'CDC', ' BA'],
             key: {
                 A: '#forge:ingots/brass',
                 B: 'modularrouters:blank_upgrade',
                 C: 'extendedcrafting:redstone_ingot',
                 D: 'minecraft:clock',
-                E: 'minecraft:redstone_torch'
+                E: '#chroma:stonecuttables/redstone_torch'
             },
             id: 'modularrouters:sync_upgrade'
+        },
+        {
+            output: 'modularrouters:fast_pickup_augment',
+            pattern: ['ABA', 'CDC', 'AEA'],
+            key: {
+                A: '#forge:ingots/brass',
+                B: 'miniutilities:speed_upgrade',
+                C: 'minecraft:sugar',
+                D: Item.of('minecraft:fishing_rod', '{Damage:0}').weakNBT(),
+                E: 'modularrouters:augment_core'
+            },
+            id: 'modularrouters:fast_pickup_augment'
+        },
+        {
+            output: 'modularrouters:filter_round_robin_augment',
+            pattern: ['ABA', 'CDE', 'AFA'],
+            key: {
+                A: '#forge:ingots/brass',
+                B: 'sophisticatedbackpacks:advanced_filter_upgrade',
+                C: 'prettypipes:round_robin_sorting_modifier',
+                D: 'create:cuckoo_clock',
+                E: 'create:attribute_filter',
+                F: 'modularrouters:augment_core'
+            },
+            id: 'modularrouters:filter_round_robin_augment'
+        },
+        {
+            output: 'modularrouters:mimic_augment',
+            pattern: ['ABA', 'CDE', 'AFA'],
+            key: {
+                A: '#forge:ingots/brass',
+                B: '#forge:chests/trapped',
+                C: 'extendedcrafting:redstone_ingot',
+                D: 'prefab:block_compressed_obsidian',
+                E: '#forge:storage_blocks/glowstone',
+                F: 'modularrouters:augment_core'
+            },
+            id: 'modularrouters:mimic_augment'
+        },
+        {
+            output: 'modularrouters:pickup_delay_augment',
+            pattern: ['ABA', 'CCC', 'ADA'],
+            key: {
+                A: '#forge:ingots/brass',
+                B: Item.of('rftoolsutility:clock_module', '{Damage:0}').weakNBT(),
+                C: '#forge:slimeballs',
+                D: 'modularrouters:augment_core'
+            },
+            id: 'modularrouters:pickup_delay_augment'
+        },
+        {
+            output: 'modularrouters:pushing_augment',
+            pattern: ['ABA', 'CCC', 'ADA'],
+            key: {
+                A: '#forge:ingots/brass',
+                B: 'create:piston_extension_pole',
+                C: 'create:mechanical_piston',
+                D: 'modularrouters:augment_core'
+            },
+            id: 'modularrouters:pushing_augment'
+        },
+        {
+            output: Item.of('modularrouters:range_down_augment', 4),
+            pattern: ['ABA', 'CDC', 'ACA'],
+            key: {
+                A: '#forge:ingots/brass',
+                B: 'modularrouters:augment_core',
+                C: '#forge:gems/quartz',
+                D: 'quark:stick_block'
+            },
+            id: 'modularrouters:range_down_augment'
+        },
+        {
+            output: Item.of('modularrouters:range_up_augment', 4),
+            pattern: ['ABA', 'BCB', 'ADA'],
+            key: {
+                A: '#forge:ingots/brass',
+                B: '#forge:gems/quartz',
+                C: 'quark:stick_block',
+                D: 'modularrouters:augment_core'
+            },
+            id: 'modularrouters:range_up_augment'
+        },
+        {
+            output: 'modularrouters:redstone_augment',
+            pattern: ['ABA', 'CDC', 'AEA'],
+            key: {
+                A: '#forge:ingots/brass',
+                B: '#chroma:stonecuttables/redstone_torch',
+                C: 'extendedcrafting:redstone_ingot',
+                D: '#forge:dusts/redstone',
+                E: 'modularrouters:augment_core'
+            },
+            id: 'modularrouters:redstone_augment'
+        },
+        {
+            output: 'modularrouters:regulator_augment',
+            pattern: ['ABA', 'CDC', 'AEA'],
+            key: {
+                A: '#forge:ingots/brass',
+                B: '#forge:gems/quartz',
+                C: 'minecraft:comparator',
+                D: 'jecalculation:item_calculator_craft',
+                E: 'modularrouters:augment_core'
+            },
+            id: 'modularrouters:regulator_augment'
+        },
+        {
+            output: 'modularrouters:stack_augment',
+            pattern: ['ABA', 'CDC', 'ABA'],
+            key: {
+                A: '#forge:ingots/brass',
+                B: 'sophisticatedbackpacks:stack_upgrade_tier_1',
+                C: 'modularrouters:stack_upgrade',
+                D: 'modularrouters:augment_core'
+            },
+            id: 'modularrouters:stack_augment'
+        },
+        {
+            output: 'modularrouters:xp_vacuum_augment',
+            pattern: ['ABA', 'CDC', 'AEA'],
+            key: {
+                A: '#forge:ingots/brass',
+                B: 'ars_nouveau:greater_experience_gem',
+                C: '#chipped:soul_sand',
+                D: 'darkutils:ender_hopper',
+                E: 'modularrouters:augment_core'
+            },
+            id: 'modularrouters:xp_vacuum_augment'
+        },
+        {
+            output: 'modularrouters:bulk_item_filter',
+            pattern: ['ABA', 'CDC', 'ABA'],
+            key: {
+                A: '#forge:gems/diamond',
+                B: '#forge:glass',
+                C: 'modularrouters:blank_module',
+                D: 'immersiveengineering:sheetmetal_iron'
+            },
+            id: 'modularrouters:bulk_item_filter'
+        },
+        {
+            output: 'modularrouters:inspection_filter',
+            pattern: ['ABA', 'CDC', 'ABA'],
+            key: {
+                A: '#forge:gems/diamond',
+                B: '#chroma:paper_wall',
+                C: 'minecraft:fermented_spider_eye',
+                D: 'modularrouters:inspection_filter'
+            },
+            id: 'modularrouters:inspection_filter'
+        },
+        {
+            output: 'modularrouters:mod_filter',
+            pattern: ['ABA', 'CDC', 'ABA'],
+            key: {
+                A: '#forge:gems/diamond',
+                B: '#chroma:stonecuttables/redstone_torch',
+                C: 'minecraft:repeater',
+                D: 'modularrouters:inspection_filter'
+            },
+            id: 'modularrouters:mod_filter'
+        },
+        {
+            output: 'modularrouters:regex_filter',
+            pattern: ['ABA', 'CDC', 'ABA'],
+            key: {
+                A: '#forge:gems/diamond',
+                B: '#chroma:stonecuttables/redstone_torch',
+                C: 'minecraft:comparator',
+                D: 'modularrouters:inspection_filter'
+            },
+            id: 'modularrouters:regex_filter'
         }
   	];
 
