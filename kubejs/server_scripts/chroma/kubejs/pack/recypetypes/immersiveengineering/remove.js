@@ -16,7 +16,8 @@ onEvent('recipes', (event) => {
       'immersiveengineering:crafting/sheetmetal_copper',
       'immersiveengineering:crafting/sheetmetal_electrum',
       'immersiveengineering:crafting/sheetmetal_constantan',
-      'immersiveengineering:crafting/sheetmetal_uranium'
+      'immersiveengineering:crafting/sheetmetal_uranium',
+      'immersiveengineering:squeezer/graphite_dust'
 
     ];
 
