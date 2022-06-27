@@ -113,6 +113,58 @@ onEvent('recipes', (event) => {
           id: 'resourcefulbees:apiary_storage'
       },
 
+      // Iron Storage Upgrade
+
+      {
+          output: 'resourcefulbees:iron_storage_upgrade',
+          pattern: ['ICI', 'CAC', 'ICI'],
+          key: {
+              I: 'minecraft:iron_ingot',
+              C: 'expandedstorage:iron_chest',
+              A: 'resourcefulbees:apiary_storage'
+          },
+          id: 'resourcefulbees:iron_storage_upgrade'
+      },
+
+      // Gold Storage Upgrade
+
+      {
+          output: 'resourcefulbees:gold_storage_upgrade',
+          pattern: ['GCG', 'CAC', 'GCG'],
+          key: {
+              G: 'minecraft:gold_ingot',
+              C: 'expandedstorage:gold_chest',
+              A: 'resourcefulbees:apiary_storage'
+          },
+          id: 'resourcefulbees:gold_storage_upgrade'
+      },
+
+      // Diamond Storage Upgrade
+
+      {
+          output: 'resourcefulbees:diamond_storage_upgrade',
+          pattern: ['DCD', 'CAC', 'DCD'],
+          key: {
+              D: 'minecraft:diamond_block',
+              C: 'expandedstorage:diamond_chest',
+              A: 'resourcefulbees:apiary_storage'
+          },
+          id: 'resourcefulbees:diamond_storage_upgrade'
+      },
+
+      // Emerald Storage Upgrade
+
+      {
+          output: 'resourcefulbees:diamond_storage_upgrade',
+          pattern: ['ECE', 'CAC', 'ECE'],
+          key: {
+              E: 'minecraft:emerald_block',
+              C: 'expandedstorage:netherite_chest',
+              A: 'resourcefulbees:apiary_storage'
+          },
+          id: 'resourcefulbees:diamond_storage_upgrade'
+      }
+
     ];
 
     recipes.forEach((recipe) => {
