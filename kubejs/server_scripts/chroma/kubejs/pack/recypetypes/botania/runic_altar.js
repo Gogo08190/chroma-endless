@@ -340,6 +340,29 @@ onEvent('recipes', (event) => {
         output: 'resourcefulbees:t3_beehive',
         count: 1,
         id: 'resourcefulbees:t3_beehive_nests'
+      },
+
+      {
+        inputs: [
+          'botania:gaia_ingot',
+          'botania:rune_earth',
+          'botania:rune_earth',
+          'botania:rune_earth',
+          'botania:rune_earth',
+          'minecraft:honeycomb_block',
+          'minecraft:honeycomb_block',
+          'minecraft:honeycomb_block',
+          'minecraft:honeycomb_block',
+          'resourcefulbees:wax_block',
+          'resourcefulbees:wax_block',
+          'resourcefulbees:wax_block',
+          'resourcefulbees:wax_block',
+          'resourcefulbees:t2_hive_upgrade'
+        ],
+        mana: 30000,
+        output: 'resourcefulbees:t3_hive_upgrade',
+        count: 1,
+        id: 'resourcefulbees:t3_hive_upgrade'
       }
 
     ];

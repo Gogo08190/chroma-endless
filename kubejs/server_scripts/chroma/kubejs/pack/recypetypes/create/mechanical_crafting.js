@@ -132,6 +132,16 @@ onEvent('recipes', (event) => {
                 A: 'thermal:upgrade_augment_3'
             },
             id: 'extrastorage:netherite_crafter'
+        },
+        {
+            output: 'resourcefulbees:t1_hive_upgrade',
+            pattern: ['GGGGG', 'GCCCG', 'GCBCG', 'GCCCG', 'GGGGG'],
+            key: {
+                G: 'minecraft:grass',
+                C: 'minecraft:honeycomb_block',
+                B: 'minecraft:beehive'
+            },
+            id: 'resourcefulbees:t1_hive_upgrade'
         }
     ];
 
