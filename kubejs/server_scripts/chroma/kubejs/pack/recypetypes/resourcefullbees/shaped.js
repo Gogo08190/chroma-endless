@@ -36,7 +36,82 @@ onEvent('recipes', (event) => {
               H: '#forge:beehives/tier_0'
           },
           id: 'minecraft:beehive'
-      }
+      },
+
+      {
+          output: 'resourcefulbees:centrifuge',
+          pattern: ['SSS', 'WFW', 'CPC'],
+          key: {
+              C: 'resourcefulbees:mechanical_centrifuge',
+              P: 'minecraft:sticky_piston',
+              W: 'resourcefulbees:waxed_machine_block',
+              F: Item.of('thermal:fluid_cell').ignoreNBT(),
+              S: 'emendatusenigmatica:steel_block'
+          },
+          id: 'resourcefulbees:centrifuge'
+      },
+
+      {
+          output: 'resourcefulbees:mechanical_centrifuge',
+          pattern: ['I  ', 'BR ', 'I  '],
+          key: {
+              I: 'minecraft:iron_trapdoor',
+              B: 'metalbarrels:netherite_barrel',
+              R: 'rsgauges:rustic_lever'
+          },
+          id: 'resourcefulbees:mechanical_centrifuge'
+      },
+
+      {
+          output: 'resourcefulbees:beepedia',
+          pattern: ['IRI', 'IGI', 'IHI'],
+          key: {
+              I: 'minecraft:iron_block',
+              H: 'minecraft:honey_block',
+              G: '#forge:glass',
+              R: 'minecraft:redstone_block'
+          },
+          id: 'resourcefulbees:beepedia'
+      },
+
+      {
+          output: 'resourcefulbees:honey_dipper',
+          pattern: [' HW', ' SH', 'S  '],
+          key: {
+              S: 'minecraft:stick',
+              H: 'minecraft:honey_block',
+              W: 'resourcefulbees:wax_block',
+          },
+          id: 'resourcefulbees:honey_dipper'
+      },
+
+      {
+          output: 'resourcefulbees:honey_generator',
+          pattern: ['SWS', 'IER', 'SFS'],
+          key: {
+              S: 'emendatusenigmatica:steel_block',
+              F: Item.of('thermal:fluid_cell').ignoreNBT(),
+              I: 'minecraft:iron_bars',
+              E: 'thermal:enderium_glass',
+              R: 'thermal:rf_coil',
+              W: 'resourcefulbees:waxed_machine_block'
+          },
+          id: 'resourcefulbees:honey_generator'
+      },
+
+      {
+          output: 'resourcefulbees:apiary_storage',
+          pattern: ['BIB', 'NHG', 'BDB'],
+          key: {
+              B: 'minecraft:honeycomb_block',
+              I: 'metalbarrels:iron_barrel',
+              G: 'metalbarrels:gold_barrel',
+              D: 'metalbarrels:diamond_barrel',
+              N: 'metalbarrels:netherite_barrel',
+              H: 'minecraft:hopper'
+          },
+          id: 'resourcefulbees:apiary_storage'
+      },
 
     ];
 
