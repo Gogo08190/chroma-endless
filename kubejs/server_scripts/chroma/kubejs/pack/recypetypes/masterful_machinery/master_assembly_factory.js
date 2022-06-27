@@ -113,6 +113,94 @@ onEvent('recipes', (event) => {
             ],
             ticks: 240,
             id:  'refinedstorage:fluid_grid/fluid_grid'
+        },
+        {
+            outputs: [{ type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:basic_component', count: 1 } }],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_slate', count: 1 } },
+                { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:luminessence', count: 1 } },
+                { type: 'masterfulmachinery:items', data: { item: 'minecraft:iron_ingot', count: 2 } },
+                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 300 * 4 } }
+            ],
+            ticks: 240,
+            id:  'extendedcrafting:basic_component'
+        },
+        {
+            outputs: [{ type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:advanced_component', count: 1 } }],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_slate', count: 1 } },
+                { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:luminessence', count: 1 } },
+                { type: 'masterfulmachinery:items', data: { item: 'minecraft:gold_ingot', count: 2 } },
+                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 300 * 4 } }
+            ],
+            ticks: 240,
+            id:  'extendedcrafting:advanced_component'
+        },
+        {
+            outputs: [{ type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:elite_component', count: 1 } }],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_slate', count: 1 } },
+                { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:luminessence', count: 1 } },
+                { type: 'masterfulmachinery:items', data: { item: 'minecraft:diamond', count: 2 } },
+                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 300 * 4 } }
+            ],
+            ticks: 240,
+            id:  'extendedcrafting:elite_component'
+        },
+        {
+            outputs: [{ type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:ultimate_component', count: 1 } }],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_slate', count: 1 } },
+                { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:luminessence', count: 1 } },
+                { type: 'masterfulmachinery:items', data: { item: 'minecraft:emerald', count: 2 } },
+                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 300 * 4 } }
+            ],
+            ticks: 240,
+            id:  'extendedcrafting:ultimate_component'
+        },
+        {
+            outputs: [{ type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:redstone_component', count: 1 } }],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_slate', count: 1 } },
+                { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:luminessence', count: 1 } },
+                { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:redstone_ingot', count: 2 } },
+                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 300 * 4 } }
+            ],
+            ticks: 240,
+            id:  'extendedcrafting:redstone_component'
+        },
+        {
+            outputs: [{ type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:ender_component', count: 1 } }],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_slate', count: 1 } },
+                { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:luminessence', count: 1 } },
+                { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:ender_ingot', count: 2 } },
+                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 300 * 4 } }
+            ],
+            ticks: 240,
+            id:  'extendedcrafting:ender_component'
+        },
+        {
+            outputs: [{ type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:enhanced_ender_component', count: 1 } }],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_slate', count: 1 } },
+                { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:luminessence', count: 1 } },
+                { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:enhanced_ender_ingot', count: 2 } },
+                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 300 * 4 } }
+            ],
+            ticks: 240,
+            id:  'extendedcrafting:enhanced_ender_component'
+        },
+        {
+            outputs: [{ type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:the_ultimate_component', count: 1 } }],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_slate', count: 1 } },
+                { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:luminessence', count: 1 } },
+                { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:the_ultimate_ingot', count: 2 } },
+                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 300 * 4 } }
+            ],
+            ticks: 240,
+            id:  'extendedcrafting:the_ultimate_component'
         }
     ];
 
