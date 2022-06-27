@@ -24,6 +24,12 @@ onEvent('recipes', (event) => {
             fluid: Fluid.of('thermal:glowstone', 1000),
             output: 'extendedcrafting:luminessence',
             id: 'extendedcrafting:luminessence'
+        },
+        {
+            input: 'create:refined_radiance',
+            fluid: Fluid.of('kubejs:mesophase', 1000),
+            output: 'extendedcrafting:crystaltine_ingot',
+            id: 'extendedcrafting:crystaltine_ingot'
         }
     ];
 

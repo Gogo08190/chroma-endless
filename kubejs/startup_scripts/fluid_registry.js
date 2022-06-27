@@ -77,6 +77,30 @@ onEvent('fluid.registry', (event) => {
             id: 'molten_enderium_glass',
             texture: '0x356e5b',
             display: 'Molten Enderium Glass'
+        },
+        {
+            type: 'thick',
+            id: 'molten_ionite',
+            texture: '0x7ee1fc',
+            display: 'Molten Ionite'
+        },
+        {
+            type: 'thick',
+            id: 'molten_mana_diamond',
+            texture: '0x9ef5fc',
+            display: 'Molten Mana Diamond'
+        },
+        {
+            type: 'thick',
+            id: 'molten_nether_star',
+            texture: '0xead4ff',
+            display: 'Molten Nether Star'
+        },
+        {
+            type: 'thick',
+            id: 'mesophase',
+            texture: '0x56b4dc',
+            display: 'Mesophase'
         }
     ];
 

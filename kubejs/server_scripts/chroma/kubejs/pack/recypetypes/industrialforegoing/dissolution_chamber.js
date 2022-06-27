@@ -363,14 +363,14 @@ onEvent('recipes', (event) => {
         },
         {
             inputs: [
-              'enderioalloys:item_alloy_ingot_melodic_alloy', // top left
-              'refinedstorage:raw_basic_processor', // top
-              'enderioalloys:item_alloy_ingot_melodic_alloy', // top right
-              'refinedstorage:raw_improved_processor', // left
-              'refinedstorage:raw_advanced_processor', // right
-              'minecraft:obsidian', // bottom left
-              'refinedstorage:processor_binding', // bottom
-              'minecraft:obsidian'  // bottom right
+              'enderioalloys:item_alloy_ingot_melodic_alloy',
+              'refinedstorage:raw_basic_processor',
+              'enderioalloys:item_alloy_ingot_melodic_alloy',
+              'refinedstorage:raw_improved_processor',
+              'refinedstorage:raw_advanced_processor',
+              'minecraft:obsidian',
+              'refinedstorage:processor_binding',
+              'minecraft:obsidian'
             ],
             inputFluid: 'tconstruct:molten_quartz',
             inputFluidAmount: 144,
@@ -379,6 +379,25 @@ onEvent('recipes', (event) => {
             outputFluid: '',
             outputFluidAmount: 0,
             id: 'extrastorage:raw_neural_processor'
+        },
+        {
+            inputs: [
+              'pneumaticcraft:ingot_iron_compressed',
+              'immersivepetroleum:petcoke_dust',
+              'pneumaticcraft:ingot_iron_compressed',
+              'immersivepetroleum:petcoke_dust',
+              'immersivepetroleum:petcoke_dust',
+              'pneumaticcraft:ingot_iron_compressed',
+              'immersivepetroleum:petcoke_dust',
+              'pneumaticcraft:ingot_iron_compressed'
+            ],
+            inputFluid: 'pneumaticcraft:oil',
+            inputFluidAmount: 1000,
+            processingTime: 150,
+            outputItem: { item: 'extendedcrafting:black_iron_ingot', count: 2 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'extendedcrafting:black_iron_ingot'
         }
     ];
 
