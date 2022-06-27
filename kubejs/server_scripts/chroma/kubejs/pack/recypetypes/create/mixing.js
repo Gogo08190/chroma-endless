@@ -39,16 +39,6 @@ onEvent('recipes', (event) => {
             inputs: ['#forge:sandstone', Fluid.of('tconstruct:molten_clay', 1000)],
             output: Item.of('immersiveengineering:alloybrick', 1),
             id: `${id_prefix}alloybrick`
-        },
-        {
-            inputs: ['#forge:ingots/iron', '#forge:dusts/redstone', '#forge:dusts/redstone'],
-            output: Item.of('extendedcrafting:redstone_ingot', 1),
-            id: `extendedcrafting:redstone_ingot`
-        },
-        {
-            inputs: ['#forge:ingots/iron', 'minecraft:ender_pearl', 'minecraft:ender_pearl'],
-            output: Item.of('extendedcrafting:ender_ingot', 1),
-            id: `extendedcrafting:ender_ingot`
         }
     ];
 

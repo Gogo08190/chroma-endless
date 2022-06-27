@@ -2,16 +2,6 @@ onEvent('recipes', (event) => {
     const id_prefix = 'chroma:pack/thermal/induction_smelter';
     const recipes = [
       {
-          inputs: ['#forge:ingots/iron', '#forge:dusts/redstone'],
-          outputs: ['extendedcrafting:redstone_ingot'],
-          id: `${id_prefix}redstone_ingot`
-      },
-      {
-          inputs: ['#forge:ingots/iron', 'minecraft:ender_pearl'],
-          outputs: ['extendedcrafting:ender_ingot'],
-          id: `${id_prefix}ender_ingot`
-      },
-      {
           inputs: ['pneumaticcraft:compressed_brick_tile', 'pneumaticcraft:advanced_pcb', Item.of('thermal:energy_cell').ignoreNBT()],
           outputs: ['masterfulmachinery:assemblylaser_assembly_energy_port_energy_input'],
           id: `${id_prefix}assemblylaser_assembly_energy_port_energy_input`
