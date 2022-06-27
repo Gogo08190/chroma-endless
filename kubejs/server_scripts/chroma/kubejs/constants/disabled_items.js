@@ -80,6 +80,8 @@ const disabledItems = [
 
     'ars_nouveau:mana_gem',
 
+    'miniutilities:golden_lasso',
+
     'mekanismtools:wood_paxel',
     'mekanismtools:stone_paxel',
     'mekanismtools:iron_paxel',
