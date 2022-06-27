@@ -35,7 +35,8 @@ onEvent('item.registry', (event) => {
         'basic_capacitor',
         'double-layer_capacitor',
         'octadic_capacitor',
-        'crying_obsidian_dust'
+        'crying_obsidian_dust',
+        'inert_luminessence'
     ];
 
     generalItems.forEach((item) => {
