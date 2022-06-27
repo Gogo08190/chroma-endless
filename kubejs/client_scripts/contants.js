@@ -629,6 +629,8 @@ const disabledItems = [
     'simplefarming:chocolate',
 
     'storagedrawers:conversion_upgrade'
+
+    'miniutilities:golden_lasso'
 ];
 
 const materialsToUnify = [
