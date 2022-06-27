@@ -82,6 +82,9 @@ const disabledItems = [
 
     'miniutilities:golden_lasso',
 
+    'littlelogistics:chunk_loader_barge'
+    'draconicmachinery:chunk_loader'
+
     'mekanismtools:wood_paxel',
     'mekanismtools:stone_paxel',
     'mekanismtools:iron_paxel',
