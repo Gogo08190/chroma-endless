@@ -84,6 +84,25 @@ onEvent('recipes', (event) => {
           sourceCost: 10000,
           output: 'resourcefulbees:t4_beehive',
           id: 'resourcefulbees:t4_beehive_nests'
+      },
+
+      //Tier 4 Hive Upgrade
+
+      {
+          inputs: [
+            '#resourcefulbees:resourceful_honey_block',
+            '#resourcefulbees:resourceful_honey_block',
+            '#resourcefulbees:resourceful_honey_block',
+            '#resourcefulbees:resourceful_honey_block',
+            'undergarden:utherium_block',
+            'extendedcrafting:nether_star_block',
+            'extendedcrafting:nether_star_block',
+            'resourcefulbees:wax_block'
+          ],
+          reagent: 'resourcefulbees:t3_hive_upgrade',
+          sourceCost: 10000,
+          output: 'resourcefulbees:t4_hive_upgrade',
+          id: 'resourcefulbees:t4_hive_upgrade'
       }
     ];
 

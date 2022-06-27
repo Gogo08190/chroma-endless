@@ -228,6 +228,26 @@ onEvent('recipes', (event) => {
             ],
             result: 'resourcefulbees:t2_beehive',
             id: 'resourcefulbees:t2_beehive_nests'
+        },
+        {
+            ritual_type: 'occultism:craft_with_spirit_name',
+            activation_item: 'resourcefulbees:t1_hive_upgrade',
+            pentacle_id: 'occultism:craft_afrit',
+            duration: 120,
+            ritual_dummy: 'resourcefulbees:t2_hive_upgrade',
+            ingredients: [
+                'minecraft:honeycomb_block',
+                'resourcefulbees:wax_block',
+                'expandedstorage:gold_chest',
+                'minecraft:honeycomb_block',
+
+                'resourcefulbees:wax_block',
+                'expandedstorage:gold_chest',
+                'minecraft:honeycomb_block',
+                'minecraft:honeycomb_block'
+            ],
+            result: 'resourcefulbees:t2_hive_upgrade',
+            id: 'resourcefulbees:t2_hive_upgrade'
         }
     ];
 
