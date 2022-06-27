@@ -5,7 +5,8 @@ onEvent('recipes', (event) => {
       'modularrouters:puller_module_2_x4',
       'modularrouters:fluid_module_2_x4',
       'modularrouters:sender_module_2_x4',
-      'modularrouters:sender_module_alt'
+      'modularrouters:sender_module_alt',
+      'modularrouters:sender_module_1_alt'
     ];
 
     const outputRemovals = [

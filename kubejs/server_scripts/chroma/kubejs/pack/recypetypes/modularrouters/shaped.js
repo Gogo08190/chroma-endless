@@ -237,7 +237,140 @@ onEvent('recipes', (event) => {
 		          F: 'modularrouters:blank_module'
       		},
       		id: 'modularrouters:vacuum_module'
-    	}
+    	},
+        {
+            output: Item.of('modularrouters:sender_module_2'),
+            pattern: [' E ', 'DBD', 'CAC'],
+            key: {
+                A: 'modularrouters:blank_module',
+                B: Item.of('modularrouters:sender_module_1'),
+                C: '#forge:ingots/brass',
+                D: 'extendedcrafting:redstone_ingot',
+                E: 'minecraft:ender_pearl'
+            },
+            id: 'modularrouters:sender_module_2'
+        },
+        {
+            output: Item.of('modularrouters:sender_module_1'),
+            pattern: [' F ', 'ECD', 'BAB'],
+            key: {
+                A: 'modularrouters:blank_module',
+                B: '#forge:ingots/brass',
+                C: 'create:mechanical_piston',
+                D: 'apotheosis:diamond_mining_arrow',
+                E: 'extendedcrafting:redstone_ingot',
+                F: Item.of('minecraft:crossbow').weakNBT()
+            },
+            id: 'modularrouters:sender_module_1'
+        },
+        {
+            output: 'modularrouters:blast_upgrade',
+            pattern: ['ACA', 'CDC', ' BA'],
+            key: {
+                A: '#forge:ingots/brass',
+                B: 'modularrouters:blank_upgrade',
+                C: 'createdeco:netherite_bars',
+                D: 'prefab:block_compressed_obsidian'
+            },
+            id: 'modularrouters:blast_upgrade'
+        },
+        {
+            output: 'modularrouters:camouflage_upgrade',
+            pattern: ['ACA', 'DEF', ' BA'],
+            key: {
+                A: '#forge:ingots/brass',
+                B: 'modularrouters:blank_upgrade',
+                C: '#forge:dyes/green',
+                D: '#forge:dyes/red',
+                E: '#forge:dyes/yellow',
+                F: '#forge:dyes/blue'
+            },
+            id: 'modularrouters:camouflage_upgrade'
+        },
+        {
+            output: 'modularrouters:energy_upgrade',
+            pattern: ['ACA', 'CDC', ' BA'],
+            key: {
+                A: '#forge:ingots/brass',
+                B: 'modularrouters:blank_upgrade',
+                C: '#forge:gems/quartz',
+                D: 'extendedcrafting:redstone_ingot_block'
+            },
+            id: 'modularrouters:energy_upgrade'
+        },
+        {
+            output: 'modularrouters:fluid_upgrade',
+            pattern: ['ADA', 'DCD', ' BA'],
+            key: {
+                A: '#forge:ingots/brass',
+                B: 'modularrouters:blank_upgrade',
+                C: 'create:fluid_tank',
+                D: 'connectedglass:clear_glass'
+            },
+            id: 'modularrouters:fluid_upgrade'
+        },
+        {
+            output: 'modularrouters:muffler_upgrade',
+            pattern: ['ACA', 'CDC', ' BA'],
+            key: {
+                A: '#forge:ingots/brass',
+                B: 'modularrouters:blank_upgrade',
+                C: '#chisel:white_wool',
+                D: 'immersiveengineering:earmuffs'
+            },
+            id: 'modularrouters:muffler_upgrade'
+        },
+        {
+            output: 'modularrouters:security_upgrade',
+            pattern: ['ACA', 'DEF', ' BA'],
+            key: {
+                A: '#forge:ingots/brass',
+                B: 'modularrouters:blank_upgrade',
+                C: '#forge:gems/quartz',
+                D: 'extendedcrafting:redstone_ingot',
+                E: 'supplementaries:key',
+                F: '#forge:ingots/rose_gold'
+            },
+            id: 'modularrouters:security_upgrade'
+        },
+        {
+            output: 'modularrouters:speed_upgrade',
+            pattern: ['ACA', 'DEF', ' BA'],
+            key: {
+                A: '#forge:ingots/brass',
+                B: 'modularrouters:blank_upgrade',
+                C: 'botania:blaze_block',
+                D: 'extendedcrafting:redstone_ingot',
+                E: 'minecraft:sugar',
+                F: 'thermal:gunpowder_block'
+            },
+            id: 'modularrouters:speed_upgrade'
+        },
+        {
+            output: 'modularrouters:stack_upgrade',
+            pattern: ['ADA', 'EFC', ' BA'],
+            key: {
+                A: '#forge:ingots/brass',
+                B: 'modularrouters:blank_upgrade',
+                C: '#chroma:stonecuttables/bricks',
+                D: 'sophisticatedbackpacks:stack_upgrade_tier_1',
+                E: 'minecraft:stone_bricks',
+                F: 'quark:stick_block'
+            },
+            id: 'modularrouters:stack_upgrade'
+        },
+        {
+            output: 'modularrouters:sync_upgrade',
+            pattern: ['AEA', 'CDC', ' BA'],
+            key: {
+                A: '#forge:ingots/brass',
+                B: 'modularrouters:blank_upgrade',
+                C: 'extendedcrafting:redstone_ingot',
+                D: 'minecraft:clock',
+                E: 'minecraft:redstone_torch'
+            },
+            id: 'modularrouters:sync_upgrade'
+        }
   	];
 
   	recipes.forEach((recipe) => {
