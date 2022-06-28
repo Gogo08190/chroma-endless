@@ -20,7 +20,7 @@ onEvent('recipes', (event) => {
             id: 'extendedcrafting:redstone_ingot'
         },
         {
-            input: 'botania:mana_powder',
+            input: 'kubejs:inert_luminessence',
             fluid: Fluid.of('thermal:glowstone', 1000),
             output: 'extendedcrafting:luminessence',
             id: 'extendedcrafting:luminessence'
