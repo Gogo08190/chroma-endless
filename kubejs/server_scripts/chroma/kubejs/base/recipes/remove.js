@@ -180,6 +180,11 @@ onEvent('recipes', (event) => {
         /mekanism:pigment_extracting\/flower/,
         /mekanism:compat\/byg\/pigment_extracting/,
         'mekanism:processing/uranium/nugget/from_ingot',
+        'mekanism:control_circuit/advanced',
+        'mekanism:control_circuit/elite',
+        'mekanism:control_circuit/ultimate',
+        'mekanism:infusion_conversion/carbon/from_charcoal_block',
+        'mekanism:infusion_conversion/carbon/from_charcoal',
 
 
         'minecraft:crystal_glass',
