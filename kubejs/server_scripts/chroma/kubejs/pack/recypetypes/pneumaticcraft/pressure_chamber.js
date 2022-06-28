@@ -210,6 +210,28 @@ onEvent('recipes', (event) => {
           pressure: 3,
           results: [{item: 'mekanism:steel_casing', count: 1}],
           id: 'mekanism:steel_casing'
+        },
+        {
+          inputs:[
+            { item: 'extendedcrafting:redstone_ingot_block', count: 4},
+            { item: 'resourcefulbees:centrifuge_casing', count: 4},
+            { item: 'kubejs:extreme_circuit_board', count: 2},
+            { item: 'minecraft:iron_bars', count: 4},
+            { item: 'resourcefulbees:centrifuge', count: 2}
+          ],
+          pressure: 5,
+          results: [{item: 'resourcefulbees:centrifuge_controller', count: 1}],
+          id: 'resourcefulbees:centrifuge_controller'
+        },
+        {
+          inputs:[
+            { item: 'extendedcrafting:redstone_ingot_block', count: 4},
+            { item: 'resourcefulbees:waxed_machine_block', count: 4},
+            { item: 'emendatusenigmatica:steel_block', count: 4}
+          ],
+          pressure: 4,
+          results: [{item: 'resourcefulbees:centrifuge_casing', count: 3}],
+          id: 'resourcefulbees:centrifuge_casing'
         }
     ];
     recipes.forEach((recipe) => {
