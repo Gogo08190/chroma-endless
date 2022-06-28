@@ -398,6 +398,44 @@ onEvent('recipes', (event) => {
             outputFluid: '',
             outputFluidAmount: 0,
             id: 'extendedcrafting:black_iron_ingot'
+        },
+        {
+            inputs: [
+              'minecraft:netherite_block',
+              'resourcefulbees:centrifuge_casing',
+              'minecraft:netherite_block',
+              'resourcefulbees:centrifuge_casing',
+              'resourcefulbees:centrifuge_casing',
+              'minecraft:netherite_block',
+              'extendedcrafting:redstone_ingot_block',
+              'minecraft:netherite_block'
+            ],
+            inputFluid: 'resourcefulbees:honey',
+            inputFluidAmount: 1000,
+            processingTime: 150,
+            outputItem: { item: 'resourcefulbees:elite_centrifuge_casing', count: 3 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'resourcefulbees:elite_centrifuge_casing'
+        },
+        {
+            inputs: [
+              'resourcefulbees:elite_centrifuge_casing',
+              'resourcefulbees:centrifuge_controller',
+              'resourcefulbees:elite_centrifuge_casing',
+              'rftoolsbase:infused_enderpearl',
+              'rftoolsbase:infused_enderpearl',
+              'resourcefulbees:elite_centrifuge_casing',
+              'enderioalloys:item_material_skull_ender_resonator',
+              'resourcefulbees:elite_centrifuge_casing'
+            ],
+            inputFluid: 'resourcefulbees:honey',
+            inputFluidAmount: 1000,
+            processingTime: 150,
+            outputItem: { item: 'resourcefulbees:elite_centrifuge_controller', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'resourcefulbees:elite_centrifuge_controller'
         }
     ];
 
