@@ -1,0 +1,121 @@
+{
+  "type": "masterfulmachinery:machine_structure",
+  "id": "auto_fusioner",
+  "controllerId": "fusioner",
+  "name": "Fusioner 2000",
+  "layout": [
+    [
+      "    )))  ",
+      "   )***) ",
+      "  )*****)",
+      "  )**+**)",
+      "  )*****)",
+      "   )***) ",
+      "    )))  "
+    ],
+    [
+      "    )))  ",
+      "   ,-)-, ",
+      "  )- . -)",
+      "  ))./.))",
+      "  )- . -)",
+      "   ,-)-, ",
+      "    )))  "
+    ],
+    [
+      "    )))  ",
+      "   0 1 0 ",
+      "  )     )",
+      "  )1   1)",
+      "  )     )",
+      "   0 1 0 ",
+      "    )))  "
+    ],
+    [
+      "    )))  ",
+      "   , ) , ",
+      "  )     )",
+      "  ))   ))",
+      "  )     )",
+      "   , ) , ",
+      "    )))  "
+    ],
+    [
+      "    )))  ",
+      "222)3)3) ",
+      ")))33333)",
+      "))))333))",
+      ")))33333)",
+      "222)3)3) ",
+      "    )))  "
+    ],
+    [
+      "    454  ",
+      "4444   4 ",
+      "        4",
+      "        6",
+      "        4",
+      "4444   4 ",
+      "    474  "
+    ],
+    [
+      "         ",
+      "   8   8 ",
+      "         ",
+      "        C",
+      "         ",
+      "   8   8 ",
+      "         "
+    ]
+  ],
+  "legend": {
+    ")": {
+      "block": "immersiveengineering:sheetmetal_steel"
+    },
+    "*": {
+      "block": "chisel:laboratory/fuzzscreen"
+    },
+    "+": {
+      "block": "simplylight:illuminant_red_block_on"
+    },
+    ",": {
+      "block": "chisel:factory/column"
+    },
+    "-": {
+      "block": "occultism:spirit_attuned_crystal"
+    },
+    ".": {
+      "block": "immersiveengineering:connector_probe"
+    },
+    "/": {
+      "block": "create:depot"
+    },
+    "0": {
+      "block": "simplylight:illuminant_gray_block_on"
+    },
+    "1": {
+      "block": "create:deployer"
+    },
+    "2": {
+      "block": "chisel:factory/hazard"
+    },
+    "3": {
+      "block": "connectedglass:clear_glass"
+    },
+    "4": {
+      "block": "immersiveposts:fence_iron"
+    },
+    "5": {
+      "block": "masterfulmachinery:fusioner_compact_item_port_items_input"
+    },
+    "6": {
+      "block": "masterfulmachinery:fusioner_compact_energy_port_energy_input"
+    },
+    "7": {
+      "block": "masterfulmachinery:fusioner_compact_item_port_items_output"
+    },
+    "8": {
+      "block": "immersiveengineering:lantern"
+    }
+  }
+}
