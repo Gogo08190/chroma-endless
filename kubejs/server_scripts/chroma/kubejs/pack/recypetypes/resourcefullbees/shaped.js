@@ -185,6 +185,16 @@ onEvent('recipes', (event) => {
               H: 'minecraft:honeycomb_block'
           },
           id: 'resourcefulbees:apiary_breeder_upgrade'
+      },
+
+      {
+          output: 'resourcefulbees:waxed_machine_block',
+          pattern: ['WWW', 'WSW', 'WWW'],
+          key: {
+              W: 'resourcefulbees:trimmed_waxed_planks',
+              S: 'emendatusenigmatica:steel_block'
+          },
+          id: 'resourcefulbees:waxed_machine_block'
       }
 
     ];
