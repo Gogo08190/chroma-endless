@@ -24,7 +24,7 @@ onEvent('recipes', (event) => {
       {
         output: 'mekanism:alloy_infused',
         input: 'undergarden:cloggrum_ingot',
-        infusionInput: 'extendedcrafting:redstone_ingot',
+        infusionInput: 'mekanism:redstone',
         infusionAmount: 20,
         id: 'mekanism:metallurgic_infusing/alloy/infused'
       },
@@ -33,7 +33,7 @@ onEvent('recipes', (event) => {
       {
         output: 'mekanism:alloy_reinforced',
         input: 'mekanism:alloy_infused',
-        infusionInput: 'botania:mana_diamond',
+        infusionInput: 'mekanism:diamond',
         infusionAmount: 40,
         id: 'mekanism:metallurgic_infusing/alloy/reinforced'
       },
@@ -42,8 +42,8 @@ onEvent('recipes', (event) => {
       {
         output: 'mekanism:alloy_atomic',
         input: 'mekanism:alloy_reinforced',
-        infusionInput: 'mekanism:dust_refined_obsidian',
-        infusionAmount: 60,
+        infusionInput: 'mekanism:refined_obsidian',
+        infusionAmount: 80,
         id: 'mekanism:metallurgic_infusing/alloy/atomic'
       },
 
@@ -53,35 +53,35 @@ onEvent('recipes', (event) => {
         input: 'rftoolscontrol:cpu_core_2000',
         infusionInput: 'botania:terrasteel_ingot',
         infusionAmount: 40,
-        id: 'mekanism:control_circuit/basic'
+        id: 'mekanism:metallurgic_infuser/control_circuit/basic'
       },
 
       //Advanced Control Circuit
       {
         output: 'mekanism:advanced_control_circuit',
         input: 'mekanism:basic_control_circuit',
-        infusionInput: 'extendedcrafting:redstone_ingot',
+        infusionInput: 'mekanism:redstone',
         infusionAmount: 40,
-        id: 'mekanism:control_circuit/advanced'
+        id: 'mekanism:metallurgic_infuser/control_circuit/advanced'
       },
 
       //Elite Control Circuit
       {
         output: 'mekanism:elite_control_circuit',
         input: 'mekanism:advanced_control_circuit',
-        infusionInput: 'botania:mana_diamond',
+        infusionInput: 'mekanism:diamond',
         infusionAmount: 40,
-        id: 'mekanism:control_circuit/elite'
+        id: 'mekanism:metallurgic_infuser/control_circuit/elite'
       },
 
       //Ultimate Control Circuit
       {
         output: 'mekanism:ultimate_control_circuit',
         input: 'mekanism:elite_control_circuit',
-        infusionInput: 'mekanism:dust_refined_obsidian',
-        infusionAmount: 60,
-        id: 'mekanism:control_circuit/ultimate'
-      }
+        infusionInput: 'mekanism:refined_obsidian',
+        infusionAmount: 80,
+        id: 'mekanism:metallurgic_infuser/control_circuit/ultimate'
+      },
 
     ];
 
