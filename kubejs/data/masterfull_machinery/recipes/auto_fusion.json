@@ -5,67 +5,81 @@
   "name": "Fusioner 2000",
   "layout": [
     [
-      "    )))  ",
-      "   )***) ",
-      "  )*****)",
-      "  )**+**)",
-      "  )*****)",
-      "   )***) ",
-      "    )))  "
+      "  )))  ",
+      " )***) ",
+      ")*****)",
+      ")**+**)",
+      ")*****)",
+      " )***) ",
+      "  )))  ",
+      "       ",
+      "       "
     ],
     [
-      "    )))  ",
-      "   ,-)-, ",
-      "  )- . -)",
-      "  ))./.))",
-      "  )- . -)",
-      "   ,-)-, ",
-      "    )))  "
+      "  )))  ",
+      " ,-)-, ",
+      ")- . -)",
+      "))./.))",
+      ")- . -)",
+      " ,-)-, ",
+      "  )))  ",
+      "       ",
+      "       "
     ],
     [
-      "    )))  ",
-      "   0 1 0 ",
-      "  )     )",
-      "  )1   1)",
-      "  )     )",
-      "   0 1 0 ",
-      "    )))  "
+      "  )))  ",
+      " 0 1 0 ",
+      ")     )",
+      ")1   1)",
+      ")     )",
+      " 0 1 0 ",
+      "  )))  ",
+      "       ",
+      "       "
     ],
     [
-      "    )))  ",
-      "   , ) , ",
-      "  )     )",
-      "  ))   ))",
-      "  )     )",
-      "   , ) , ",
-      "    )))  "
+      "  )))  ",
+      " , ) , ",
+      ")     )",
+      "))   ))",
+      ")     )",
+      " , ) , ",
+      "  )))  ",
+      "       ",
+      "       "
     ],
     [
-      "    )))  ",
-      "222)3)3) ",
-      ")))33333)",
-      "))))333))",
-      ")))33333)",
-      "222)3)3) ",
-      "    )))  "
+      "  )))  ",
+      " )2)2) ",
+      ")22222)",
+      "))222))",
+      ")22222)",
+      " )2)2) ",
+      " 3)))3 ",
+      " 3)))3 ",
+      " 3)))3 "
     ],
     [
-      "    454  ",
-      "4444   4 ",
-      "        4",
-      "        6",
-      "        4",
-      "4444   4 ",
-      "    474  "
+      "  454  ",
+      " 4   4 ",
+      "4     4",
+      "6     7",
+      "4     4",
+      " 4   4 ",
+      " 4   4 ",
+      " 4   4 ",
+      " 4   4 "
     ],
     [
-      "         ",
-      "   8   8 ",
-      "         ",
-      "        C",
-      "         ",
-      "   8   8 ",
-      "         "
+      "   C   ",
+      " 8   8 ",
+      "       ",
+      "       ",
+      "       ",
+      " 8   8 ",
+      "       ",
+      "       ",
+      "       "
     ]
   ],
   "legend": {
@@ -97,19 +111,19 @@
       "block": "create:deployer"
     },
     "2": {
-      "block": "chisel:factory/hazard"
+      "block": "connectedglass:clear_glass"
     },
     "3": {
-      "block": "connectedglass:clear_glass"
+      "block": "chisel:factory/hazard"
     },
     "4": {
       "block": "immersiveposts:fence_iron"
     },
     "5": {
-      "block": "masterfulmachinery:fusioner_compact_item_port_items_input"
+      "block": "masterfulmachinery:fusioner_compact_energy_port_energy_input"
     },
     "6": {
-      "block": "masterfulmachinery:fusioner_compact_energy_port_energy_input"
+      "block": "masterfulmachinery:fusioner_compact_item_port_items_input"
     },
     "7": {
       "block": "masterfulmachinery:fusioner_compact_item_port_items_output"
