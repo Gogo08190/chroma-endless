@@ -531,7 +531,7 @@ onEvent('recipes', (event) => {
                 A: '#forge:gems/diamond',
                 B: '#chroma:paper_wall',
                 C: 'minecraft:fermented_spider_eye',
-                D: 'modularrouters:inspection_filter'
+                D: 'modularrouters:bulk_item_filter'
             },
             id: 'modularrouters:inspection_filter'
         },
@@ -542,7 +542,7 @@ onEvent('recipes', (event) => {
                 A: '#forge:gems/diamond',
                 B: '#chroma:stonecuttables/redstone_torch',
                 C: 'minecraft:repeater',
-                D: 'modularrouters:inspection_filter'
+                D: 'modularrouters:bulk_item_filter'
             },
             id: 'modularrouters:mod_filter'
         },
@@ -553,7 +553,7 @@ onEvent('recipes', (event) => {
                 A: '#forge:gems/diamond',
                 B: '#chroma:stonecuttables/redstone_torch',
                 C: 'minecraft:comparator',
-                D: 'modularrouters:inspection_filter'
+                D: 'modularrouters:bulk_item_filter'
             },
             id: 'modularrouters:regex_filter'
         }
