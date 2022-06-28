@@ -212,7 +212,7 @@ onEvent('recipes', (event) => {
         A: 'miniutilities:ethereal_glass',
         B: 'botania:black_petal'
       },
-      id:
+      id: 'miniutilities:dark_ethereal_glass'
     },
     {
       output: Item.of('miniutilities:dark_reverse_ethereal_glass', 8),
@@ -221,7 +221,7 @@ onEvent('recipes', (event) => {
         A: 'miniutilities:reverse_ethereal_glass',
         B: 'botania:black_petal'
       },
-      id:
+      id: 'miniutilities:dark_reverse_ethereal_glass'
     },
     {
       output: 'miniutilities:lapis_lamp',
@@ -230,7 +230,7 @@ onEvent('recipes', (event) => {
         A: '#forge:plates/lapis',
         B: '#chroma:stonecuttables/redstone_lamp'
       },
-      id:
+      id: 'miniutilities:lapis_lamp'
     },
     {
       output: 'miniutilities:redstone_clock',
@@ -280,7 +280,7 @@ onEvent('recipes', (event) => {
         B: '#forge:rods/treated_wood',
         C: '#forge:gems/mana_diamond'
       },
-      id:
+      id: 'miniutilities:unstable_ingot'
     }
   ];
 
