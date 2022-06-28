@@ -99,14 +99,26 @@ onEvent('fluid.registry', (event) => {
         {
             type: 'thick',
             id: 'mesophase',
-            texture: '0x151515',
+            texture: '0x56b4dc',
             display: 'Mesophase'
+        },
+        {
+            type: 'thick',
+            id: 'cursed_fluid',
+            texture: '0x151515',
+            display: 'Cursed Fluid'
         },
         {
             type: 'thick',
             id: 'blessed_fluid',
             texture: '0xa5a5a5',
             display: 'Blessed Fluid'
+        },
+        {
+            type: 'thick',
+            id: 'blursed_fluid',
+            texture: '0x474747',
+            display: 'Blursed Fluid'
         }
     ];
 

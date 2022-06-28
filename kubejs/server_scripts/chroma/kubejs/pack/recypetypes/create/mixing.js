@@ -39,6 +39,18 @@ onEvent('recipes', (event) => {
             inputs: ['#forge:sandstone', Fluid.of('tconstruct:molten_clay', 1000)],
             output: Item.of('immersiveengineering:alloybrick', 1),
             id: `${id_prefix}alloybrick`
+        },
+        {
+            inputs: ['miniutilities:magical_egg', 'quark:bonded_leather', 'thermal:white_rockwool', 'elementalcraft:earthcrystal_block', 'supplementaries:feather_block', 'tconstruct:pig_iron_block', Fluid.of('minecraft:water', 1000)],
+            output: Fluid.of('kubejs:blessed_fluid', 1000),
+            heated: true,
+            id: `${id_prefix}blessed_fluid`
+        },
+        {
+            inputs: ['miniutilities:magical_egg', 'architects_palette:rotten_flesh_block', 'elementalcraft:earthcrystal_block', 'minecraft:bone_block', 'minecraft:slime_block', 'miniutilities:ender_pearl_block', Fluid.of('minecraft:water', 1000)],
+            output: Fluid.of('kubejs:cursed_fluid', 1000),
+            heated: true,
+            id: `${id_prefix}cursed_fluid`
         }
     ];
 
