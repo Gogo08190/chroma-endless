@@ -1,1 +1,1 @@
-{"type":"mekanism:infusion_conversion","input":{"ingredient":[{"tag":"forge:dusts/coal"},{"item":"minecraft:coal"}]},"output":{"infuse_type":"mekanism:carbon","amount":10}}
+{"type":"mekanism:infusion_conversion","input":{"ingredient":{"item": "emendatusenigmatica:coke_gem" }},"output":{"infuse_type":"mekanism:carbon","amount":10}}
