@@ -4,39 +4,14 @@ onEvent('recipes', (event) => {
         {
             type: 'tconstruct:ore_melting',
             ingredient: {
-                tag: 'forge:ores/regalium'
-            },
-            result: {
-                fluid: 'materialis:molten_regalium',
-                amount: 144
-            },
-            temperature: 620,
-            time: 81,
-            byproducts: [
-                {
-                    fluid: 'materialis:molten_utherium',
-                    amount: 48
-                }
-            ],
-            id: 'materialis:smeltery/melting/metal/regalium/ore'
-        },
-        {
-            type: 'tconstruct:ore_melting',
-            ingredient: {
                 item: 'envirocore:ionite_crystal'
             },
             result: {
                 fluid: 'kubejs:molten_ionite',
-                amount: 144
+                amount: 72
             },
             temperature: 1400,
             time: 81,
-            byproducts: [
-                {
-                    fluid: 'kubejs:molten_ionite',
-                    amount: 48
-                }
-            ],
             id: `${id_prefix}molten_ionite`
         },
         {
@@ -46,16 +21,10 @@ onEvent('recipes', (event) => {
             },
             result: {
                 fluid: 'kubejs:molten_mana_diamond',
-                amount: 144
+                amount: 72
             },
             temperature: 1400,
             time: 81,
-            byproducts: [
-                {
-                    fluid: 'kubejs:molten_mana_diamond',
-                    amount: 48
-                }
-            ],
             id: `${id_prefix}molten_mana_diamond`
         },
         {
@@ -65,16 +34,10 @@ onEvent('recipes', (event) => {
             },
             result: {
                 fluid: 'kubejs:molten_nether_star',
-                amount: 144
+                amount: 72
             },
             temperature: 1400,
             time: 81,
-            byproducts: [
-                {
-                    fluid: 'kubejs:molten_nether_star',
-                    amount: 48
-                }
-            ],
             id: `${id_prefix}molten_nether_star`
         }
     ];
