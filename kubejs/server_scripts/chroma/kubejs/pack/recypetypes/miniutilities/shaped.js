@@ -167,6 +167,15 @@ onEvent('recipes', (event) => {
       id: 'miniutilities:solar_panel_controller'
     },
     {
+      output: Item.of('miniutilities:ender_tile', 8),
+      pattern: ['AAA', 'ABA', 'AAA'],
+      key: {
+        A: 'tconstruct:clear_glass_pane',
+        B: 'botania:mana_pearl'
+      },
+      id: 'miniutilities:ender_tile'
+    },
+    {
       output: Item.of('miniutilities:chorus_tile', 8),
       pattern: ['AAA', 'ABA', 'AAA'],
       key: {
@@ -267,7 +276,7 @@ onEvent('recipes', (event) => {
       pattern: ['ABA', 'BCB', 'ABA'],
       key: {
         A: '#forge:sheetmetals/gold',
-        B: '#forge:sheetmetals/gold',
+        B: 'extendedcrafting:redstone_ingot',
         C: 'minecraft:sugar'
       },
       id: 'miniutilities:speed_upgrade'
