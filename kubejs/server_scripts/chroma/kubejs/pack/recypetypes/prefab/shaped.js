@@ -259,14 +259,17 @@ onEvent('recipes', (event) => {
         },
 
         {
-            output: 'prefab:item_machinery_tower',
-            pattern: ['PPP', ' C ', ' T '],
+            output: 'prefab:item_modern_buildings',
+            pattern: ['LTL', 'CSC', 'INI'],
             key: {
-                P: 'thermal:lumium_powered_rail',
-                T: 'prefab:block_triple_compressed_stone',
-                C : 'prefab:item_coil_of_lanterns'
+                N: 'expandedstorage:netherite_chest',
+                I: 'pneumaticcraft:compressed_iron_block',
+                C: 'prefab:block_triple_compressed_stone',
+                T: 'prefab:item_ton_of_timber',
+                S: 'minecraft:nether_star',
+                L: 'prefab:item_coil_of_lanterns'
             },
-            id: 'prefab:machinery_tower'
+            id: 'prefab:modern_buildings'
         },
 
         {
