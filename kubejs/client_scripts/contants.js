@@ -370,7 +370,14 @@ const itemsToHide = [
 
     'custommachinery:machine_creator_item',
     'custommachinery:box_creator_item',
-    Item.of('custommachinery:structure_creator', '{custommachinery:{}}')
+    Item.of('custommachinery:structure_creator', '{custommachinery:{}}'),
+
+    'kubejs:challenges',
+    'kubejs:chunks',
+    'kubejs:discord',
+    'kubejs:sound_muffler',
+    'kubejs:teams',
+    'kubejs:website'
 ];
 
 let ee_types = ['clump', 'crystal', 'dirty_dust', 'shard', 'fragment', 'gravel'];
