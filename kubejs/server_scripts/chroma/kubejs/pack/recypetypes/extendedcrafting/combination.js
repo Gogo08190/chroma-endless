@@ -72,7 +72,6 @@ onEvent('recipes', (event) => {
       },
       {
           inputs: [
-<<<<<<< HEAD
               { item: 'extendedcrafting:black_iron_ingot' },
               { item: 'extendedcrafting:redstone_component' },
               { item: 'extendedcrafting:black_iron_ingot' },
@@ -138,30 +137,6 @@ onEvent('recipes', (event) => {
           powerRate: 1000,
           result: { item: 'extendedcrafting:ultimate_auto_table' },
           id: 'extendedcrafting:ultimate_auto_table'
-=======
-              { item: 'kubejs:angel_ring_part_1' },
-              { item: 'kubejs:angel_ring_connector' },
-              { item: 'kubejs:angel_ring_part_2' },
-              { item: 'kubejs:angel_ring_connector' },
-              { item: 'kubejs:angel_ring_part_3' },
-              { item: 'kubejs:angel_ring_connector' },
-              { item: 'kubejs:angel_ring_part_4' },
-              { item: 'kubejs:angel_ring_connector' },
-              { item: 'kubejs:angel_ring_part_5' },
-              { item: 'kubejs:angel_ring_connector' },
-              { item: 'kubejs:angel_ring_part_6' },
-              { item: 'kubejs:angel_ring_connector' },
-              { item: 'kubejs:angel_ring_part_7' },
-              { item: 'kubejs:angel_ring_connector' },
-              { item: 'kubejs:angel_ring_part_8' },
-              { item: 'kubejs:angel_ring_connector' }
-          ],
-          catalyst: { item: 'minecraft:gold_block' /* Item temporaire ; idée : Gold Singularity ? */ },
-          powerCost: 100000,
-          powerRate: 1000,
-          result: { item: 'miniutilities:angel_ring' },
-          id: 'miniutilities:angel_ring'
->>>>>>> e72b2db3db423f7df723b12532473a3eaff6c836
       }
     ];
 
