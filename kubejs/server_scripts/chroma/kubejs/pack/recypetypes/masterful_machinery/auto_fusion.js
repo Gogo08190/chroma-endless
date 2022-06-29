@@ -90,6 +90,19 @@ onEvent('recipes', (event) => {
           ],
           ticks: 240,
           id: 'extendedcrafting:the_ultimate_catalyst'
+      },
+      {
+          outputs: [{ type: 'masterfulmachinery:items', data: { item: 'kubejs:inert_luminessence', count: 4 } }],
+          inputs: [
+              { type: 'masterfulmachinery:items', data: { item: 'botania:pixie_dust', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'occultism:iesnium_dust', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'botania:mana_powder', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'occultism:spirit_attuned_gem', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'occultism:afrit_essence', count: 1 } },
+              { type: 'masterfulmachinery:energy', data: { amount: 5000 } }
+          ],
+          ticks: 240,
+          id: `${id_prefix}inert_luminessence`
       }
     ];
 
