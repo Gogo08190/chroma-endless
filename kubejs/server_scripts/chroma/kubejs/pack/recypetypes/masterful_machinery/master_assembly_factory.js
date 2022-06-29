@@ -209,6 +209,18 @@ onEvent('recipes', (event) => {
             id:  'extendedcrafting:enhanced_ender_component'
         },
         {
+            outputs: [{ type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:crystaltine_component', count: 1 } }],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_slate', count: 1 } },
+                { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:luminessence', count: 1 } },
+                { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:crystaltine_ingot', count: 2 } },
+                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 300 * 4 } },
+                { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
+            ],
+            ticks: 240,
+            id:  'extendedcrafting:crystaltine_component'
+        },
+        {
             outputs: [{ type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:the_ultimate_component', count: 1 } }],
             inputs: [
                 { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_slate', count: 1 } },
@@ -219,6 +231,81 @@ onEvent('recipes', (event) => {
             ],
             ticks: 240,
             id:  'extendedcrafting:the_ultimate_component'
+        },
+
+        //Energized Smelter
+        {
+            outputs: [{ type: 'masterfulmachinery:items',data: { item: 'mekanism:energized_smelter', count: 1 } }],
+            inputs: [
+              { type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:capacitor', count: 2 } },
+              { type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:ingot_iron_compressed', count: 4 } },
+              { type: 'masterfulmachinery:items', data: { item: 'thermal:machine_furnace', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'mekanism:steel_casing', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'kubejs:extreme_circuit_board', count: 1 } },
+              { type: 'masterfulmachinery:energy', data: { amount: 1600} }
+            ],
+            ticks: 240,
+            id: 'mekanism:energized_smelter'
+        },
+
+        //Crusher
+        {
+            outputs: [{ type: 'masterfulmachinery:items',data: { item: 'mekanism:crusher', count: 1 } }],
+            inputs: [
+              { type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:capacitor', count: 2 } },
+              { type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:ingot_iron_compressed', count: 4 } },
+              { type: 'masterfulmachinery:items', data: { item: 'thermal:machine_pulverizer', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'mekanism:steel_casing', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'kubejs:extreme_circuit_board', count: 1 } },
+              { type: 'masterfulmachinery:energy', data: { amount: 1600} }
+            ],
+            ticks: 240,
+            id: 'mekanism:crusher'
+        },
+
+        //Combiner
+        {
+            outputs: [{ type: 'masterfulmachinery:items',data: { item: 'mekanism:combiner', count: 1 } }],
+            inputs: [
+              { type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:capacitor', count: 2 } },
+              { type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:ingot_iron_compressed', count: 4 } },
+              { type: 'masterfulmachinery:items', data: { item: 'thermal:machine_press', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'mekanism:steel_casing', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'kubejs:extreme_circuit_board', count: 1 } },
+              { type: 'masterfulmachinery:energy', data: { amount: 1200} }
+            ],
+            ticks: 240,
+            id: 'mekanism:combiner'
+        },
+
+        //Metallurgic Infuser
+        {
+            outputs: [{ type: 'masterfulmachinery:items',data: { item: 'mekanism:metallurgic_infuser', count: 1 } }],
+            inputs: [
+              { type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:capacitor', count: 2 } },
+              { type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:ingot_iron_compressed', count: 4 } },
+              { type: 'masterfulmachinery:items', data: { item: 'thermal:machine_smelter', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'mekanism:steel_casing', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'kubejs:extreme_circuit_board', count: 1 } },
+              { type: 'masterfulmachinery:energy', data: { amount: 2400} }
+            ],
+            ticks: 240,
+            id: 'mekanism:metallurgic_infuser'
+        },
+
+        //Precision Sawmill
+        {
+            outputs: [{ type: 'masterfulmachinery:items',data: { item: 'mekanism:precision_sawmill', count: 1 } }],
+            inputs: [
+              { type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:capacitor', count: 2 } },
+              { type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:ingot_iron_compressed', count: 4 } },
+              { type: 'masterfulmachinery:items', data: { item: 'thermal:machine_sawmill', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'mekanism:steel_casing', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'kubejs:extreme_circuit_board', count: 1 } },
+              { type: 'masterfulmachinery:energy', data: { amount: 800} }
+            ],
+            ticks: 240,
+            id: 'mekanism:precision_sawmill'
         }
     ];
 

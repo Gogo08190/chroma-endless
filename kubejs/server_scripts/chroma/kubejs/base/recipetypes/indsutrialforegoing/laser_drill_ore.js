@@ -44,7 +44,7 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}potassium_nitrate`
         },
         {
-            output: { tag: 'forge:chunks/mana' },
+            output: { tag: 'forge:chunks/arcane' },
             rarity: [
                 {
                     whitelist: {},
@@ -62,7 +62,7 @@ onEvent('recipes', (event) => {
                 }
             ],
             catalyst: { item: industrialforegoing.laser_lens.magenta },
-            id: `${id_prefix}mana`
+            id: `${id_prefix}arcane`
         },
         {
             output: { tag: 'forge:chunks/bitumen' },

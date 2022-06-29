@@ -38,7 +38,16 @@ onEvent('item.registry', (event) => {
         'crying_obsidian_dust',
         'inert_luminessence',
         'enriched_terrasteel',
-        'koepss'
+        'koepss',
+        'angel_ring_part_1',
+        'angel_ring_part_2',
+        'angel_ring_part_3',
+        'angel_ring_part_4',
+        'angel_ring_part_5',
+        'angel_ring_part_6',
+        'angel_ring_part_7',
+        'angel_ring_part_8',
+        'angel_ring_connector'
     ];
 
     generalItems.forEach((item) => {

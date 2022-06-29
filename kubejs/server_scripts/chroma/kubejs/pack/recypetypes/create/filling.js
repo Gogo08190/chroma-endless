@@ -30,18 +30,6 @@ onEvent('recipes', (event) => {
             fluid: Fluid.of('kubejs:mesophase', 1000),
             output: 'extendedcrafting:crystaltine_ingot',
             id: 'extendedcrafting:crystaltine_ingot'
-        },
-        {
-            input: 'minecraft:dirt',
-            fluid: Fluid.of('kubejs:blessed_fluid', 250),
-            output: 'miniutilities:blessed_earth',
-            id: 'miniutilities:blessed_earth'
-        },
-        {
-            input: 'minecraft:dirt',
-            fluid: Fluid.of('kubejs:cursed_fluid', 250),
-            output: 'miniutilities:cursed_earth',
-            id: 'miniutilities:cursed_earth'
         }
     ];
 
