@@ -209,7 +209,7 @@ onEvent('recipes', (event) => {
             id:  'extendedcrafting:enhanced_ender_component'
         },
         {
-            outputs: [{ type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:the_ultimate_component', count: 1 } }],
+            outputs: [{ type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:crystaltine_component', count: 1 } }],
             inputs: [
                 { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_slate', count: 1 } },
                 { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:luminessence', count: 1 } },
