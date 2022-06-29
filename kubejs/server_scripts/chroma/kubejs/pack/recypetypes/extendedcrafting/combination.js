@@ -48,7 +48,7 @@ onEvent('recipes', (event) => {
               { item: 'extendedcrafting:advanced_table' }
           ],
           catalyst: { item: 'extendedcrafting:elite_catalyst' },
-          powerCost: 20000,
+          powerCost: 30000,
           powerRate: 1000,
           result: { item: 'extendedcrafting:elite_table' },
           id: 'extendedcrafting:elite_table'
@@ -65,7 +65,7 @@ onEvent('recipes', (event) => {
               { item: 'extendedcrafting:elite_table' }
           ],
           catalyst: { item: 'extendedcrafting:ultimate_catalyst' },
-          powerCost: 20000,
+          powerCost: 40000,
           powerRate: 1000,
           result: { item: 'extendedcrafting:ultimate_table' },
           id: 'extendedcrafting:ultimate_table'
@@ -79,10 +79,10 @@ onEvent('recipes', (event) => {
               { item: 'extendedcrafting:black_iron_ingot' },
               { item: 'extendedcrafting:redstone_component' },
               { item: 'extendedcrafting:black_iron_ingot' },
-              { item: 'extendedcrafting:crystaltine_table' }
+              { item: 'extendedcrafting:crystaltine_component' }
           ],
           catalyst: { item: 'extendedcrafting:basic_table'},
-          powerCost: 20000,
+          powerCost: 50000,
           powerRate: 1000,
           result: { item: 'extendedcrafting:basic_auto_table' },
           id: 'extendedcrafting:basic_auto_table'
@@ -96,10 +96,10 @@ onEvent('recipes', (event) => {
               { item: 'extendedcrafting:black_iron_ingot' },
               { item: 'extendedcrafting:redstone_component' },
               { item: 'extendedcrafting:black_iron_ingot' },
-              { item: 'extendedcrafting:crystaltine_table' }
+              { item: 'extendedcrafting:crystaltine_component' }
           ],
           catalyst: { item: 'extendedcrafting:advanced_table'},
-          powerCost: 20000,
+          powerCost: 60000,
           powerRate: 1000,
           result: { item: 'extendedcrafting:advanced_auto_table' },
           id: 'extendedcrafting:advanced_auto_table'
@@ -113,10 +113,10 @@ onEvent('recipes', (event) => {
               { item: 'extendedcrafting:black_iron_ingot' },
               { item: 'extendedcrafting:redstone_component' },
               { item: 'extendedcrafting:black_iron_ingot' },
-              { item: 'extendedcrafting:crystaltine_table' }
+              { item: 'extendedcrafting:crystaltine_component' }
           ],
           catalyst: { item: 'extendedcrafting:elite_table'},
-          powerCost: 20000,
+          powerCost: 70000,
           powerRate: 1000,
           result: { item: 'extendedcrafting:elite_auto_table' },
           id: 'extendedcrafting:elite_auto_table'
@@ -130,10 +130,10 @@ onEvent('recipes', (event) => {
               { item: 'extendedcrafting:black_iron_ingot' },
               { item: 'extendedcrafting:redstone_component' },
               { item: 'extendedcrafting:black_iron_ingot' },
-              { item: 'extendedcrafting:crystaltine_table' }
+              { item: 'extendedcrafting:crystaltine_component' }
           ],
           catalyst: { item: 'extendedcrafting:ultimate_table'},
-          powerCost: 20000,
+          powerCost: 80000,
           powerRate: 1000,
           result: { item: 'extendedcrafting:ultimate_auto_table' },
           id: 'extendedcrafting:ultimate_auto_table'
