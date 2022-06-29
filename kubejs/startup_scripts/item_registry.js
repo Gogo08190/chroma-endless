@@ -37,7 +37,8 @@ onEvent('item.registry', (event) => {
         'octadic_capacitor',
         'crying_obsidian_dust',
         'inert_luminessence',
-        'enriched_terrasteel'
+        'enriched_terrasteel',
+        'koepss'
     ];
 
     generalItems.forEach((item) => {
