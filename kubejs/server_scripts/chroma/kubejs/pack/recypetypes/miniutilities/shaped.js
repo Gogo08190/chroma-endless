@@ -68,7 +68,7 @@ onEvent('recipes', (event) => {
     },
     {
       output: 'miniutilities:iron_spikes',
-      pattern: ['ABC', 'ADA', 'ABA'],
+      pattern: [' A ', 'ABA', 'BCB'],
       key: {
         A: Item.of('immersiveengineering:sword_steel', '{Damage:0}').weakNBT(),
         B: 'minecraft:iron_block',
@@ -78,7 +78,7 @@ onEvent('recipes', (event) => {
     },
     {
       output: 'miniutilities:gold_spikes',
-      pattern: ['ABC', 'ADA', 'ABA'],
+      pattern: [' A ', 'ABA', 'BCB'],
       key: {
         A: Item.of('minecraft:golden_sword', '{Damage:0}').weakNBT(),
         B: '#forge:sheetmetals/gold',
@@ -88,7 +88,7 @@ onEvent('recipes', (event) => {
     },
     {
       output: 'miniutilities:diamond_spikes',
-      pattern: ['ABC', 'ADA', 'ABA'],
+      pattern: [' A ', 'ABA', 'BCB'],
       key: {
         A: Item.of('minecraft:diamond_sword', '{Damage:0}').weakNBT(),
         B: 'botania:mana_diamond_block',
@@ -273,7 +273,7 @@ onEvent('recipes', (event) => {
       id: 'miniutilities:speed_upgrade'
     },
     {
-      output: Item.of('miniutilities:unstable_ingot', '{Damage:0}').weakNBT(),
+      output: 'miniutilities:unstable_ingot',
       pattern: ['A', 'B', 'C'],
       key: {
         A: '#forge:ingots/ludicrite',
