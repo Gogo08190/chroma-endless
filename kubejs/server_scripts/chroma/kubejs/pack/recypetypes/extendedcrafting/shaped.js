@@ -12,18 +12,6 @@ onEvent('recipes', (event) => {
           id: 'extendedcrafting:frame'
       },
       {
-          output: 'extendedcrafting:basic_table',
-          pattern: ['BCB', 'MIM', 'BPB'],
-          key: {
-              B: 'extendedcrafting:basic_component',
-              C: 'extendedcrafting:basic_catalyst',
-              M: 'create:mechanical_crafter',
-              I: 'minecraft:iron_block',
-              P: 'extendedcrafting:black_iron_slate'
-          },
-          id: 'extendedcrafting:basic_table'
-      },
-      {
           output: 'extendedcrafting:compressor',
           pattern: ['PBP', 'CEC', 'PFP'],
           key: {
