@@ -72,6 +72,73 @@ onEvent('recipes', (event) => {
       },
       {
           inputs: [
+<<<<<<< HEAD
+              { item: 'extendedcrafting:black_iron_ingot' },
+              { item: 'extendedcrafting:redstone_component' },
+              { item: 'extendedcrafting:black_iron_ingot' },
+              { item: 'extendedcrafting:crystaltine_component' },
+              { item: 'extendedcrafting:black_iron_ingot' },
+              { item: 'extendedcrafting:redstone_component' },
+              { item: 'extendedcrafting:black_iron_ingot' },
+              { item: 'extendedcrafting:crystaltine_table' }
+          ],
+          catalyst: { item: 'extendedcrafting:basic_table'},
+          powerCost: 20000,
+          powerRate: 1000,
+          result: { item: 'extendedcrafting:basic_auto_table' },
+          id: 'extendedcrafting:basic_auto_table'
+      },
+      {
+          inputs: [
+              { item: 'extendedcrafting:black_iron_ingot' },
+              { item: 'extendedcrafting:redstone_component' },
+              { item: 'extendedcrafting:black_iron_ingot' },
+              { item: 'extendedcrafting:crystaltine_component' },
+              { item: 'extendedcrafting:black_iron_ingot' },
+              { item: 'extendedcrafting:redstone_component' },
+              { item: 'extendedcrafting:black_iron_ingot' },
+              { item: 'extendedcrafting:crystaltine_table' }
+          ],
+          catalyst: { item: 'extendedcrafting:advanced_table'},
+          powerCost: 20000,
+          powerRate: 1000,
+          result: { item: 'extendedcrafting:advanced_auto_table' },
+          id: 'extendedcrafting:advanced_auto_table'
+      },
+      {
+          inputs: [
+              { item: 'extendedcrafting:black_iron_ingot' },
+              { item: 'extendedcrafting:redstone_component' },
+              { item: 'extendedcrafting:black_iron_ingot' },
+              { item: 'extendedcrafting:crystaltine_component' },
+              { item: 'extendedcrafting:black_iron_ingot' },
+              { item: 'extendedcrafting:redstone_component' },
+              { item: 'extendedcrafting:black_iron_ingot' },
+              { item: 'extendedcrafting:crystaltine_table' }
+          ],
+          catalyst: { item: 'extendedcrafting:elite_table'},
+          powerCost: 20000,
+          powerRate: 1000,
+          result: { item: 'extendedcrafting:elite_auto_table' },
+          id: 'extendedcrafting:elite_auto_table'
+      },
+      {
+          inputs: [
+              { item: 'extendedcrafting:black_iron_ingot' },
+              { item: 'extendedcrafting:redstone_component' },
+              { item: 'extendedcrafting:black_iron_ingot' },
+              { item: 'extendedcrafting:crystaltine_component' },
+              { item: 'extendedcrafting:black_iron_ingot' },
+              { item: 'extendedcrafting:redstone_component' },
+              { item: 'extendedcrafting:black_iron_ingot' },
+              { item: 'extendedcrafting:crystaltine_table' }
+          ],
+          catalyst: { item: 'extendedcrafting:ultimate_table'},
+          powerCost: 20000,
+          powerRate: 1000,
+          result: { item: 'extendedcrafting:ultimate_auto_table' },
+          id: 'extendedcrafting:ultimate_auto_table'
+=======
               { item: 'kubejs:angel_ring_part_1' },
               { item: 'kubejs:angel_ring_connector' },
               { item: 'kubejs:angel_ring_part_2' },
@@ -94,6 +161,7 @@ onEvent('recipes', (event) => {
           powerRate: 1000,
           result: { item: 'miniutilities:angel_ring' },
           id: 'miniutilities:angel_ring'
+>>>>>>> e72b2db3db423f7df723b12532473a3eaff6c836
       }
     ];
 
