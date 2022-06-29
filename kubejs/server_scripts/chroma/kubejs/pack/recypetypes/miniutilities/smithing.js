@@ -4,7 +4,7 @@ onEvent('recipes', (event) => {
       input1: 'miniutilities:diamond_spikes',
       input2: 'minecraft:netherite_block',
       output: 'miniutilities:netherite_spikes',
-      id: 'miniutilities:netherite_spikes_smithing'
+      id: 'minecraft:netherite_spikes_smithing'
     }
   ];
 
