@@ -1,16 +1,4 @@
 onEvent('recipes', (event) => {
-    /*
-    ,
-    {
-        output: '',
-        pattern: ['', '', ''],
-        key: {
-            A: ''
-        },
-        id: ''
-    }
-*/
-
     const recipes = [
 
         {
@@ -69,7 +57,7 @@ onEvent('recipes', (event) => {
 
         {
             output: 'prefab:item_warehouse',
-            pattern: ['LTL', 'CSC', 'INI'],
+            pattern: ['TTT', 'TDT', 'CWC'],
             key: {
                 D: 'expandedstorage:gold_chest',
                 W: 'pneumaticcraft:compressed_iron_block',
@@ -84,9 +72,9 @@ onEvent('recipes', (event) => {
             pattern: ['TDT', 'TWT', 'CUC'],
             key: {
                 U: 'prefab:item_warehouse_upgrade',
-                T: 'prefab:item_warehouse_upgrade',
+                T: 'prefab:block_triple_compressed_stone',
                 D: 'expandedstorage:diamond_chest',
-                W: 'prefab: item_warehouse',
+                W: 'prefab:item_warehouse',
                 C: 'prefab:item_coil_of_lanterns'
             },
             id: 'prefab:advanced_warehouse'
@@ -104,7 +92,7 @@ onEvent('recipes', (event) => {
 
         {
             output: 'prefab:item_workshop',
-            pattern: ['LWL', 'IWI', 'LCL'],
+            pattern: ['LML', 'IWI', 'LCL'],
             key: {
                 L: '#minecraft:logs',
                 C: 'thermal:wrench',
@@ -130,7 +118,7 @@ onEvent('recipes', (event) => {
 
         {
             output: 'prefab:item_nether_gate',
-            pattern: ['GGG', 'CAC', 'TST'],
+            pattern: ['TOQ', 'OFO', 'QOT'],
             key: {
                 T: 'prefab:block_triple_compressed_stone',
                 F: Item.of('minecraft:flint_and_steel', '{Damage:0}').weakNBT(),
@@ -167,7 +155,7 @@ onEvent('recipes', (event) => {
 
         {
             output: 'prefab:item_magic_temple',
-            pattern: ['STS', 'TCT', 'GDG'],
+            pattern: ['TTT', 'BPM', 'TTT'],
             key: {
                 T: 'prefab:item_ton_of_timber',
                 B: 'botania:brewery',
@@ -225,7 +213,7 @@ onEvent('recipes', (event) => {
 
         {
             output: 'prefab:item_defense_bunker',
-            pattern: ['CBF', 'SWS', 'TTT'],
+            pattern: ['ICI', 'TOT', 'III'],
             key: {
                 C: 'prefab:item_coil_of_lanterns',
                 I: 'pneumaticcraft:compressed_iron_block',
@@ -264,7 +252,7 @@ onEvent('recipes', (event) => {
             pattern: ['PPP', ' C ', ' T '],
             key: {
                 P: 'thermal:lumium_powered_rail',
-                T: 'prefab:block_triple_compressed_stone'?
+                T: 'prefab:block_triple_compressed_stone',
                 C: 'prefab:item_coil_of_lanterns'
             },
             id: 'prefab:machinery_tower'
@@ -275,8 +263,8 @@ onEvent('recipes', (event) => {
             pattern: ['PPP', ' C ', ' T '],
             key: {
                 P: 'thermal:lumium_powered_rail',
-                T: 'prefab:block_triple_compressed_stone' ?
-                    C : 'prefab:item_coil_of_lanterns'
+                T: 'prefab:block_triple_compressed_stone',
+                C : 'prefab:item_coil_of_lanterns'
             },
             id: 'prefab:machinery_tower'
         },
@@ -318,7 +306,7 @@ onEvent('recipes', (event) => {
 
         {
             output: 'prefab:item_bunch_of_carrots',
-            pattern: ['PEP', 'EBE', 'PEP'],
+            pattern: ['CCC', 'CGC', 'CCC'],
             key: {
                 G: 'minecraft:golden_carrot',
                 C: 'minecraft:carrot'
