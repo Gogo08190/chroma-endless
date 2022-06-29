@@ -213,6 +213,18 @@ onEvent('recipes', (event) => {
             inputs: [
                 { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_slate', count: 1 } },
                 { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:luminessence', count: 1 } },
+                { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:crystaltine_ingot', count: 2 } },
+                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 300 * 4 } },
+                { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
+            ],
+            ticks: 240,
+            id:  'extendedcrafting:crystaltine_component'
+        },
+        {
+            outputs: [{ type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:the_ultimate_component', count: 1 } }],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_slate', count: 1 } },
+                { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:luminessence', count: 1 } },
                 { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:the_ultimate_ingot', count: 2 } },
                 { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 300 * 4 } },
                 { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
