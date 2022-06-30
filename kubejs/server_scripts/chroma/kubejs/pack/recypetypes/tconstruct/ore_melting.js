@@ -39,6 +39,45 @@ onEvent('recipes', (event) => {
             temperature: 1400,
             time: 81,
             id: `${id_prefix}molten_nether_star`
+        },
+        {
+            type: 'tconstruct:ore_melting',
+            ingredient: {
+                item: 'minecraft:blaze_rod'
+            },
+            result: {
+                fluid: 'tconstruct:blazing_blood',
+                amount: 100
+            },
+            temperature: 1400,
+            time: 81,
+            id: `${id_prefix}blazing_blood_from_blaze_rod`
+        },
+        {
+            type: 'tconstruct:ore_melting',
+            ingredient: {
+                item: 'minecraft:blaze_rod'
+            },
+            result: {
+                fluid: 'tconstruct:blazing_blood',
+                amount: 50
+            },
+            temperature: 750,
+            time: 81,
+            id: `${id_prefix}blazing_blood_from_blaze_rod`
+        },
+        {
+            type: 'tconstruct:ore_melting',
+            ingredient: {
+                item: 'botania:blaze_block'
+            },
+            result: {
+                fluid: 'tconstruct:blazing_blood',
+                amount: 450
+            },
+            temperature: 900,
+            time: 81,
+            id: `${id_prefix}blazing_blood_from_blaze_mesh`
         }
     ];
 

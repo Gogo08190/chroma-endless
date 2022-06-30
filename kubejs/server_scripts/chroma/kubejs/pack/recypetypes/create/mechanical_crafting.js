@@ -142,6 +142,16 @@ onEvent('recipes', (event) => {
                 B: 'minecraft:beehive'
             },
             id: 'resourcefulbees:t1_hive_upgrade'
+        },
+        {
+            output: 'minecraft:ender_eye',
+            pattern: ['CAC', 'APA', 'CAC'],
+            key: {
+                C: '#forge:shards/aurora',
+                A: '#forge:gems/amber',
+                P: '#forge:gems/ender'
+            },
+            id: 'betterendforge:ender_eye_from_amber_gem'
         }
     ];
 

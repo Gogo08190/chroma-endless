@@ -119,12 +119,6 @@ onEvent('fluid.registry', (event) => {
             id: 'blursed_fluid',
             texture: '0x474747',
             display: 'Blursed Fluid'
-        },
-        {
-            type: 'thick',
-            id: 'molten_blaze',
-            texture: '0xfcc900',
-            display: 'Molten Blaze'
         }
     ];
 

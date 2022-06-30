@@ -33,7 +33,7 @@ onEvent('recipes', (event) => {
         },
         {
             input: 'minecraft:ender_pearl',
-            fluid: Fluid.of('kubejs:molten_blaze', 250),
+            fluid: Fluid.of('tconstruct:blazing_blood', 250),
             output: 'minecraft:ender_eye',
             id: 'minecraft:ender_eye'
         },
