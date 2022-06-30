@@ -37,12 +37,6 @@ onEvent('recipes', (event) => {
 
         'magicfeather:magicfeather',
 
-        'mekanism:combiner',
-        'mekanism:basic_combining_factory',
-        'mekanism:advanced_combining_factory',
-        'mekanism:elite_combining_factory',
-        'mekanism:ultimate_combining_factory',
-
         'minecraft:sticky_piston',
 
         'morevanillalib:obsidian_shard',
@@ -180,12 +174,6 @@ onEvent('recipes', (event) => {
         /mekanism:pigment_extracting\/flower/,
         /mekanism:compat\/byg\/pigment_extracting/,
         'mekanism:processing/uranium/nugget/from_ingot',
-        'mekanism:control_circuit/advanced',
-        'mekanism:control_circuit/elite',
-        'mekanism:control_circuit/ultimate',
-        'mekanism:infusion_conversion/carbon/from_charcoal_block',
-        'mekanism:infusion_conversion/carbon/from_charcoal',
-
 
         'minecraft:crystal_glass',
         'minecraft:bone_pile_from_bone_pile_block',
