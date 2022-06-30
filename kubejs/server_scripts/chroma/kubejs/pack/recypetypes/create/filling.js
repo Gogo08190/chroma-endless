@@ -30,7 +30,13 @@ onEvent('recipes', (event) => {
             fluid: Fluid.of('kubejs:mesophase', 1000),
             output: 'extendedcrafting:crystaltine_ingot',
             id: 'extendedcrafting:crystaltine_ingot'
-        }
+        },
+        {
+            input: 'minecraft:ender_pearl',
+            fluid: Fluid.of('kubejs:molten_blaze', 250),
+            output: 'minecraft:ender_eye',
+            id: 'minecraft:ender_eye'
+        },
     ];
 
     recipes.forEach((recipe) => {

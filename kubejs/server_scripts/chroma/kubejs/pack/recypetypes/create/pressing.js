@@ -4,7 +4,7 @@ onEvent('recipes', (event) => {
     const recipes = [
       {
           output: 'extendedcrafting:black_iron_slate',
-          inputs: ['2x extendedcrafting:black_iron_slate'],
+          inputs: ['extendedcrafting:black_iron_ingot'],
           id: 'extendedcrafting:black_iron_slate'
       }
     ];
