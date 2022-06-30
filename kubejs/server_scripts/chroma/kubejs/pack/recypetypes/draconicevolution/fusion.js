@@ -2,75 +2,81 @@ onEvent("recipes", (event) => {
 
     event.recipes.draconicevolution.fusion_crafting({
         result: {
-            item: "item",
+            item: "ctiers:centrifuge_controller_tier_5",
         },
         catalyst: {
-            item: "item",
+            item: "ctiers:centrifuge_controller_tier_4",
         },
         total_energy: 10000,
         tier: "WYVERN",
         ingredients: [
             {
-                item: "item",
+                item: "draconicevolution:awakened_core",
             },
             {
-                item: "item",
+                item: "draconicevolution:awakened_core",
             },
             {
-                item: "item",
+                item: "draconicevolution:awakened_core",
             },
             {
-                item: "item",
+                item: "draconicevolution:awakened_core",
             },
             {
-                item: "item",
+                item: "powah:energy_cell_nitro",
             },
             {
-                item: "item",
+                item: "draconicevolution:draconic_energy_core",
             },
             {
-                item: "item",
+                item: "extendedcrafting:crystaltine_catalyst",
             },
             {
-                item: "item",
+                item: "extendedcrafting:crystaltine_catalyst",
             },
+            {
+                item: "mekanism:personal_chest",
+            }
         ],
-    }).id('recipeID');
-    
+    }).id('centrifuge_controller_tier_5');
+
     event.recipes.draconicevolution.fusion_crafting({
         result: {
-            item: "item",
+            item: "ctiers:centrifuge_casing_tier_5",
         },
         catalyst: {
-            item: "item",
+            item: "ctiers:centrifuge_casing_tier_4",
         },
         total_energy: 10000,
         tier: "WYVERN",
         ingredients: [
             {
-                item: "item",
+                item: "draconicevolution:awakened_core",
             },
             {
-                item: "item",
+                item: "draconicevolution:awakened_core",
             },
             {
-                item: "item",
+                item: "draconicevolution:awakened_core",
             },
             {
-                item: "item",
+                item: "draconicevolution:awakened_core",
             },
             {
-                item: "item",
+                item: "ctiers:centrifuge_casing_tier_4",
             },
             {
-                item: "item",
+                item: "ctiers:centrifuge_casing_tier_4",
             },
             {
-                item: "item",
+                item: "ctiers:centrifuge_casing_tier_4",
             },
             {
-                item: "item",
+                item: "extendedcrafting:crystaltine_catalyst",
             },
+            {
+                item: "extendedcrafting:crystaltine_catalyst",
+            }
         ],
-    }).id('recipeID');
+    }).id('centrifuge_casing_tier_5');
 });
