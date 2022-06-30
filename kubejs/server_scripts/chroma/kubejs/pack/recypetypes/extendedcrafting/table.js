@@ -30,8 +30,8 @@ onEvent("recipes", (event) => {
     }
   ).id(`${id_prefix}centrifuge_controller_tier_3`)
 
-    event.custom(
-        {
+  event.custom(
+    {
       "type": "extendedcrafting:shaped_table",
       "pattern": [
         "AAAAA",
@@ -59,5 +59,4 @@ onEvent("recipes", (event) => {
       }
     }
   ).id(`${id_prefix}centrifuge_casing_tier_3`)
-
 });
