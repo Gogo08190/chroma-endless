@@ -7,7 +7,7 @@ onEvent("recipes", (event) => {
         catalyst: {
             item: "ctiers:centrifuge_controller_tier_4",
         },
-        total_energy: 10000,
+        total_energy: 50000000,
         tier: "WYVERN",
         ingredients: [
             {
@@ -45,9 +45,9 @@ onEvent("recipes", (event) => {
             item: "ctiers:centrifuge_casing_tier_5",
         },
         catalyst: {
-            item: "ctiers:centrifuge_casing_tier_4",
+            item: "3x ctiers:centrifuge_casing_tier_4",
         },
-        total_energy: 10000,
+        total_energy: 20000000,
         tier: "WYVERN",
         ingredients: [
             {
