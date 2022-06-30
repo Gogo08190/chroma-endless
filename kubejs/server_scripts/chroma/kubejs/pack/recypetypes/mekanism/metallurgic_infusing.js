@@ -51,9 +51,9 @@ onEvent('recipes', (event) => {
       {
         output: 'mekanism:basic_control_circuit',
         input: 'rftoolscontrol:cpu_core_2000',
-        infusionInput: 'botania:terrasteel_ingot',
+        infusionInput: 'mekanism:redstone',
         infusionAmount: 40,
-        id: 'mekanism:metallurgic_infuser/control_circuit/basic'
+        id: 'mekanism:control_circuit/basic'
       },
 
       //Advanced Control Circuit
