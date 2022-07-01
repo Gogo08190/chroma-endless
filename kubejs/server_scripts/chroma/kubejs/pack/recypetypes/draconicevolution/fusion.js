@@ -42,10 +42,10 @@ onEvent("recipes", (event) => {
 
     event.recipes.draconicevolution.fusion_crafting({
         result: {
-            item: "ctiers:centrifuge_casing_tier_5",
+            item: "3x ctiers:centrifuge_casing_tier_5",
         },
         catalyst: {
-            item: "3x ctiers:centrifuge_casing_tier_4",
+            item: "ctiers:centrifuge_casing_tier_4",
         },
         total_energy: 20000000,
         tier: "WYVERN",
