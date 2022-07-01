@@ -51,7 +51,7 @@ onEvent('recipes', (event) => {
       {
         output: 'mekanism:basic_control_circuit',
         input: 'rftoolscontrol:cpu_core_2000',
-        infusionInput: 'mekanism:redstone',
+        infusionInput: 'kubejs:terrasteel',
         infusionAmount: 40,
         id: 'mekanism:control_circuit/basic'
       },
