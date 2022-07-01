@@ -67,13 +67,13 @@ onEvent("recipes", (event) => {
                 item: "draconicevolution:awakened_core",
             },
             {
-                item: "ctiers:centrifuge_casing_tier_4",
+                item: "powah:nitro_crystal_block",
             },
             {
-                item: "ctiers:centrifuge_casing_tier_4",
+                item: "extendedcrafting:crystaltine_catalyst",
             },
             {
-                item: "ctiers:centrifuge_casing_tier_4",
+                item: "extendedcrafting:crystaltine_catalyst",
             },
             {
                 item: "extendedcrafting:crystaltine_catalyst",
