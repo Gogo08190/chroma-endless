@@ -2,7 +2,7 @@ onEvent('recipes', (event) => {
     const recipes = [
         {
             output: 'travel_anchors:travel_staff',
-            pattern: ['  P', ' E ', '  E'],
+            pattern: ['  P', ' E ', 'E  '],
             key: {
                 E: 'enderioalloys:item_alloy_ingot_electrical_steel',
                 P: 'enderioalloys:item_material_vibrant_crystal'
