@@ -60,7 +60,7 @@ onEvent('recipes', (event) => {
             },
             result: {
                 fluid: 'tconstruct:blazing_blood',
-                amount: 50
+                amount: 10
             },
             temperature: 750,
             time: 81,
@@ -73,7 +73,7 @@ onEvent('recipes', (event) => {
             },
             result: {
                 fluid: 'tconstruct:blazing_blood',
-                amount: 450
+                amount: 90
             },
             temperature: 900,
             time: 81,
