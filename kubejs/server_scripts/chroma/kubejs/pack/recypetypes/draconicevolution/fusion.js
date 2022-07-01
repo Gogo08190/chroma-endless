@@ -42,7 +42,8 @@ onEvent("recipes", (event) => {
 
     event.recipes.draconicevolution.fusion_crafting({
         result: {
-            item: "3x ctiers:centrifuge_casing_tier_5",
+            item: "ctiers:centrifuge_casing_tier_5",
+            count: 3
         },
         catalyst: {
             item: "ctiers:centrifuge_casing_tier_4",
