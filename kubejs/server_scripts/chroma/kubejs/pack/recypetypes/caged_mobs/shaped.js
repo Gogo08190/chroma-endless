@@ -43,18 +43,6 @@ onEvent('recipes', (event) => {
             id: 'cagedmobs:crafting/cookingupgrade'
         },
         {
-            output: 'cagedmobs:cookingupgrade',
-            pattern: [' F ', 'RCR', 'BSB'],
-            key: {
-                F: 'minecraft:end_rod',
-                R: 'minecraft:phantom_membrane',
-                C: 'minecraft:shulker_shell',
-                B: 'minecraft:polished_blackstone',
-                S: '#forge:storage_blocks/steel'
-            },
-            id: 'cagedmobs:crafting/cookingupgrade'
-        },
-        {
             output: 'cagedmobs:lightningupgrade',
             pattern: [' F ', 'RCR', 'BSB'],
             key: {
