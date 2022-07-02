@@ -99,6 +99,28 @@ onEvent('recipes', (event) => {
 
           },
           id: 'botania:manasteel_boots'
+      },
+      {
+          output: 'botania:alchemy_catalyst',
+          pattern: ['LPL', 'AMA', 'LPL'],
+          key: {
+              M:'botania:mana_pearl',
+              A:'ars_nouveau:alchemical_sourcelink',
+              P:'emendatusenigmatica:gold_plate',
+              L:'botania:livingrock'
+          },
+          id: 'botania:alchemy_catalyst'
+      },
+      {
+          output: 'botania:conjuration_catalyst',
+          pattern: ['LDL', 'EAE', 'LEL'],
+          key: {
+              D:'botania:pixie_dust',
+              A:'botania:alchemy_catalyst',
+              E:'botania:elementium_block',
+              L:'botania:livingrock'
+          },
+          id: 'botania:conjuration_catalyst'
       }
 
     ];
