@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "tag": "forge:ender_pearls"
+  },
+  "result": [
+    {
+      "fluid": "tconstruct:molten_ender",
+      "amount": 250
+    }
+  ],
+  "energy": 20000
+}

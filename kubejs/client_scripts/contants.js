@@ -301,6 +301,7 @@ const itemsToHide = [
     'thermal:cinnabar',
     'thermal:apatite',
     'thermal:sulfur',
+    'thermal:ender',
 
     'quark:bonded_ravager_hide',
     'quark:ravager_hide',
