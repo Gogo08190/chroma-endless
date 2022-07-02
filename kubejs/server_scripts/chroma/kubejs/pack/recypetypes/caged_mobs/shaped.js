@@ -4,7 +4,7 @@ onEvent('recipes', (event) => {
             output: 'cagedmobs:hoppingmobcage',
             pattern: ['RCR', ' H '],
             key: {
-                R: 'pneumaticcraft:omnidirectional_hopper',
+                R: 'extendedcrafting:redstone_ingot',
                 C: '#cagedmobs:cages/mobcage',
                 H: 'pneumaticcraft:omnidirectional_hopper'
             },
