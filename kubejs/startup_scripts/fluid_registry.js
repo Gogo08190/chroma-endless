@@ -119,6 +119,18 @@ onEvent('fluid.registry', (event) => {
             id: 'blursed_fluid',
             texture: '0x474747',
             display: 'Blursed Fluid'
+        },
+        {
+            type: 'thick',
+            id: 'litherite_fluid',
+            texture: '0x00502a',
+            display: 'Litherite Fluid'
+        },
+        {
+            type: 'thick',
+            id: 'resonating_emerald_fluid',
+            texture: '0x04846a',
+            display: 'Resonant Emerald Fluid'
         }
     ];
 

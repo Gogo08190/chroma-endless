@@ -38,7 +38,8 @@ onEvent('item.registry', (event) => {
         'crying_obsidian_dust',
         'inert_luminessence',
         'enriched_terrasteel',
-        'koepss'
+        'koepss',
+        'contained_litherite'
     ];
 
     generalItems.forEach((item) => {
