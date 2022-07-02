@@ -32,7 +32,7 @@ onEvent('recipes', (event) => {
       		id: 'modularrouters:blank_upgrade'
     	},
     	{
-      		output: Item.of('modularrouters:activator_module'),
+      		output: 'modularrouters:activator_module',
       		pattern: [' A ', 'BCB', 'DED'],
       		key: {
       		    A: 'create:analog_lever',
@@ -44,7 +44,7 @@ onEvent('recipes', (event) => {
       		id: 'modularrouters:activator_module'
     	},
     	{
-      		output: Item.of('modularrouters:breaker_module'),
+      		output: 'modularrouters:breaker_module',
       		pattern: [' A ', 'BCB'],
       		key: {
       		    A: Item.of('minecraft:diamond_pickaxe', '{Damage:0}').weakNBT(),
@@ -54,7 +54,7 @@ onEvent('recipes', (event) => {
       		id: 'modularrouters:breaker_module'
     	},
     	{
-      		output: Item.of('modularrouters:puller_module_2'),
+      		output: 'modularrouters:puller_module_2',
       		pattern: [' A ', 'BCB', 'DED'],
       		key: {
       		    A: 'minecraft:ender_pearl',
@@ -66,7 +66,19 @@ onEvent('recipes', (event) => {
       		id: 'modularrouters:puller_module_2'
     	},
     	{
-      		output: Item.of('modularrouters:detector_module'),
+      		output: 'modularrouters:puller_module_1',
+      		pattern: [' A ', 'BCB', 'DED'],
+      		key: {
+      		    A: 'minecraft:ender_pearl',
+              B: 'extendedcrafting:redstone_ingot',
+              C: 'create:mechanical_piston',
+  				    D: '#forge:ingots/brass',
+  				    E: 'modularrouters:blank_module'
+      		},
+      		id: 'modularrouters:puller_module_1'
+    	},
+    	{
+      		output: 'modularrouters:detector_module',
       		pattern: [' A ', 'BCB', 'DED'],
       		key: {
       		    A: 'rsgauges:industrial_comparator_switch',
@@ -78,7 +90,7 @@ onEvent('recipes', (event) => {
       		id: 'modularrouters:detector_module'
     	},
     	{
-      		output: Item.of('modularrouters:distributor_module'),
+      		output: 'modularrouters:distributor_module',
       		pattern: [' A ', 'ABA', 'CDC'],
       		key: {
     			    A: 'modularrouters:sender_module_3',
@@ -89,7 +101,7 @@ onEvent('recipes', (event) => {
       		id: 'modularrouters:distributor_module'
     	},
     	{
-      		output: Item.of('modularrouters:dropper_module'),
+      		output: 'modularrouters:dropper_module',
       		pattern: [' A ', 'BCD', 'EFE'],
       		key: {
     			    A: 'rsgauges:industrial_button',
@@ -102,7 +114,7 @@ onEvent('recipes', (event) => {
       		id: 'modularrouters:dropper_module'
     	},
     	{
-      		output: Item.of('modularrouters:energy_distributor_module'),
+      		output: 'modularrouters:energy_distributor_module',
       		pattern: [' A ', 'BCB', 'DED'],
       		key: {
 			        A: 'modularrouters:energy_output_module',
@@ -114,7 +126,7 @@ onEvent('recipes', (event) => {
       		id: 'modularrouters:energy_distributor_module'
     	},
     	{
-      		output: Item.of('modularrouters:energy_output_module'),
+      		output: 'modularrouters:energy_output_module',
       		pattern: [' A ', 'BCB', 'DED'],
       		key: {
     			    A: 'extendedcrafting:redstone_ingot_block',
@@ -126,7 +138,7 @@ onEvent('recipes', (event) => {
       		id: 'modularrouters:energy_output_module'
     	},
     	{
-      		output: Item.of('modularrouters:extruder_module_1'),
+      		output: 'modularrouters:extruder_module_1',
       		pattern: [' A ', 'BCD', 'EFE'],
       		key: {
     			    A: 'modularrouters:placer_module',
@@ -139,7 +151,7 @@ onEvent('recipes', (event) => {
       		id: 'modularrouters:extruder_module_1'
     	},
     	{
-      		output: Item.of('modularrouters:extruder_module_2'),
+      		output: 'modularrouters:extruder_module_2',
       		pattern: [' A ', 'BCB', 'DED'],
       		key: {
     			    A: 'pipez:item_pipe',
@@ -151,7 +163,7 @@ onEvent('recipes', (event) => {
       		id: 'modularrouters:extruder_module_2'
     	},
     	{
-      		output: Item.of('modularrouters:flinger_module'),
+      		output: 'modularrouters:flinger_module',
       		pattern: [' A ', 'ABA', 'CDC'],
       		key: {
   			      A: 'thermal:gunpowder_block',
@@ -162,7 +174,7 @@ onEvent('recipes', (event) => {
       		id: 'modularrouters:flinger_module'
     	},
     	{
-      		output: Item.of('modularrouters:fluid_module'),
+      		output: 'modularrouters:fluid_module',
       		pattern: [' A ', 'BCD', 'EFE'],
       		key: {
   			      A: '#forge:dusts/prismarine',
@@ -175,7 +187,7 @@ onEvent('recipes', (event) => {
       		id: 'modularrouters:fluid_module'
     	},
     	{
-      		output: Item.of('modularrouters:fluid_module_2'),
+      		output: 'modularrouters:fluid_module_2',
       		pattern: [' A ', 'BCB', 'DED'],
       		key: {
     			    A: 'pipez:fluid_pipe',
@@ -187,7 +199,7 @@ onEvent('recipes', (event) => {
       		id: 'modularrouters:fluid_module_2'
     	},
     	{
-      		output: Item.of('modularrouters:placer_module'),
+      		output: 'modularrouters:placer_module',
       		pattern: [' A ', 'BCD', 'EFE'],
       		key: {
     			    A: '#forge:grass',
@@ -200,7 +212,7 @@ onEvent('recipes', (event) => {
       		id: 'modularrouters:placer_module'
     	},
     	{
-      		output: Item.of('modularrouters:player_module'),
+      		output: 'modularrouters:player_module',
       		pattern: [' A ', 'BCD', 'EFE'],
       		key: {
     			    A: 'minecraft:wither_skeleton_skull',
@@ -213,7 +225,7 @@ onEvent('recipes', (event) => {
       		id: 'modularrouters:player_module'
     	},
     	{
-      		output: Item.of('modularrouters:void_module'),
+      		output: 'modularrouters:void_module',
       		pattern: [' A ', 'BCD', 'EFE'],
       		key: {
     			    A: 'sophisticatedbackpacks:void_upgrade',
@@ -226,7 +238,7 @@ onEvent('recipes', (event) => {
       		id: 'modularrouters:void_module'
     	},
     	{
-      		output: Item.of('modularrouters:vacuum_module'),
+      		output: 'modularrouters:vacuum_module',
       		pattern: [' A ', 'BCD', 'EFE'],
       		key: {
     			    A: 'minecraft:ender_eye',
@@ -239,7 +251,7 @@ onEvent('recipes', (event) => {
       		id: 'modularrouters:vacuum_module'
     	},
         {
-            output: Item.of('modularrouters:sender_module_3'),
+            output: 'modularrouters:sender_module_3',
             pattern: ['ABC', 'BDB', 'EFE'],
             key: {
                 A: '#forge:end_stones',
@@ -252,7 +264,7 @@ onEvent('recipes', (event) => {
             id: 'modularrouters:sender_module_3'
         },
         {
-            output: Item.of('modularrouters:sender_module_2'),
+            output: 'modularrouters:sender_module_2',
             pattern: [' E ', 'DBD', 'CAC'],
             key: {
                 A: 'modularrouters:blank_module',
@@ -264,7 +276,7 @@ onEvent('recipes', (event) => {
             id: 'modularrouters:sender_module_2'
         },
         {
-            output: Item.of('modularrouters:sender_module_1'),
+            output: 'modularrouters:sender_module_1',
             pattern: [' F ', 'ECD', 'BAB'],
             key: {
                 A: 'modularrouters:blank_module',
