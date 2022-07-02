@@ -232,6 +232,17 @@ onEvent('recipes', (event) => {
           pressure: 4.0,
           results: [{item: 'resourcefulbees:centrifuge_casing', count: 3}],
           id: 'resourcefulbees:centrifuge_casing'
+        },
+        {
+          inputs:[
+            { item: 'emendatusenigmatica:steel_block', count: 3},
+            { item: 'betterendforge:thallasium_bars', count: 4},
+            { item: 'supplementaries:cage', count: 1}
+            { item: 'dustrial_decor:large_chain', count: 1}
+          ],
+          pressure: 3.0,
+          results: [{item: 'cagedmobs:mobcage', count: 1}],
+          id: 'cagedmobs:crafting/mobcage'
         }
     ];
     recipes.forEach((recipe) => {
