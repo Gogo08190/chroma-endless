@@ -37,6 +37,12 @@ onEvent('recipes', (event) => {
             output: 'minecraft:ender_eye',
             id: 'minecraft:ender_eye'
         },
+        {
+            input: 'elementalcraft:containedcrystal',
+            fluid: Fluid.of('kubejs:litherite_fluid', 250),
+            output: 'kubejs:contained_litherite_crystal',
+            id: 'minecraft:ender_eye'
+        },
     ];
 
     recipes.forEach((recipe) => {

@@ -39,7 +39,7 @@ onEvent('item.registry', (event) => {
         'inert_luminessence',
         'enriched_terrasteel',
         'koepss',
-        'contained_litherite'
+        'contained_litherite_crystal'
     ];
 
     generalItems.forEach((item) => {
