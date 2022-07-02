@@ -44,3 +44,15 @@ event.recipes.custommachinery.custom_machine("custommachinery:slice_n_splice", 8
 .requireEnergyPerTick(2000)
 .produceItem(Item.of('enderioalloys:item_material_skull_guardian_diode', 1))
 })
+
+/* Ender Resonator */
+
+event.recipes.custommachinery.custom_machine("custommachinery:slice_n_splice", 840)
+.requireItem('2x enderioalloys:item_alloy_ingot_soularium')
+.requireItem('2x emendatusenigmatica:silicon_gem')
+.requireItem('enderioalloys:item_alloy_ingot_vibrant_alloy')
+.requireItem('tconstruct:enderman_head')
+.requireFluidPerTick(Fluid.of('industrialforegoing:essence', 1))
+.requireEnergyPerTick(2000)
+.produceItem(Item.of('enderioalloys:item_material_skull_ender_resonator', 1))
+})
