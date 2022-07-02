@@ -38,7 +38,6 @@ onEvent('recipes', (event) => {
 
         immersiveengineering_ingot_crushing(event, material, dust, ingot);
         immersiveengineering_gem_ore_processing(event, material, ore, dust, gem, shard);
-        immersiveengineering_hammer_crushing(event, material, ore, dust, gem);
         immersiveengineering_gem_crushing(event, material, dust, gem);
 
         mekanism_ingot_gem_crushing(event, material, ingot, dust, gem);
@@ -362,22 +361,6 @@ onEvent('recipes', (event) => {
         event
             .shapeless(Item.of(`emendatusenigmatica:${material}_chunk`, 4), [`emendatusenigmatica:${material}_cluster`])
             .id(`emendatusenigmatica:chunk_from_cluster/${material}`);
-    }
-
-    function immersiveengineering_hammer_crushing(event, material, ore, dust, gem) {
-        if (ore == air || dust == air) {
-            return;
-        }
-
-        let output = dust,
-            input = [`#forge:ores/${material}`],
-            hammer = '#forge:tools/crafting_hammer';
-
-        if (gem != air) {
-            input.push(`#forge:gems/${material}`);
-        }
-
-        event.shapeless(output, [input, hammer]).id(`enigmatica:base/enigmatica/${material}_dust`);
     }
 
     function immersiveengineering_gem_crushing(event, material, dust, gem) {

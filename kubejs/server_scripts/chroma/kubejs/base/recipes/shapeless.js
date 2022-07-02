@@ -89,15 +89,6 @@ onEvent('recipes', (event) => {
         { output: 'emendatusenigmatica:dimensional_gem', inputs: ['rftoolsbase:dimensionalshard'] },
         { output: 'rftoolsbase:dimensionalshard', inputs: ['emendatusenigmatica:dimensional_gem'] },
 
-        {
-            output: Item.of('#forge:shards/ender'),
-            inputs: ['#forge:ores/ender', '#forge:tools/crafting_hammer']
-        },
-        {
-            output: Item.of('#forge:shards/amber'),
-            inputs: ['#forge:ores/amber', '#forge:tools/crafting_hammer']
-        },
-
         { output: Item.of('#forge:shards/ender'), inputs: ['#forge:ores/ender', 'thermal:earth_charge'] },
         { output: Item.of('#forge:shards/amber'), inputs: ['#forge:ores/amber', 'thermal:earth_charge'] },
 
