@@ -128,7 +128,7 @@ onEvent('fluid.registry', (event) => {
         },
         {
             type: 'thick',
-            id: 'resonating_emerald_fluid',
+            id: 'resonant_emerald_fluid',
             texture: '0x04846a',
             display: 'Resonant Emerald Fluid'
         }
