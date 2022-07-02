@@ -97,6 +97,12 @@ onEvent('recipes', (event) => {
           output: { item: 'extrastorage:storagepart_1048576k_fluid', count: 1 },
           program: 'laser',
           id: 'extrastorage:part/storagepart_1048576k_fluid'
+      },
+      {
+          input: { item: 'kubejs:contained_litherite_crystal', count: 1 },
+          output: { item: 'envirocore:litherite_crystal', count: 2 },
+          program: 'laser',
+          id: 'envirocore:items/ct_litherite2'
       }
     ];
 
