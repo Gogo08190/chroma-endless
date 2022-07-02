@@ -43,7 +43,6 @@ event.recipes.custommachinery.custom_machine("custommachinery:slice_n_splice", 8
 .requireFluidPerTick(Fluid.of('industrialforegoing:essence', 1))
 .requireEnergyPerTick(2000)
 .produceItem(Item.of('enderioalloys:item_material_skull_guardian_diode', 1))
-})
 
 /* Ender Resonator */
 
