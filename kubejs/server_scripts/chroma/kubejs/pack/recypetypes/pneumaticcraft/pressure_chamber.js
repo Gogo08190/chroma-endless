@@ -237,7 +237,7 @@ onEvent('recipes', (event) => {
           inputs:[
             { item: 'emendatusenigmatica:steel_block', count: 3},
             { item: 'betterendforge:thallasium_bars', count: 4},
-            { item: 'supplementaries:cage', count: 1}
+            { item: 'supplementaries:cage', count: 1},
             { item: 'dustrial_decor:large_chain', count: 1}
           ],
           pressure: 3.0,
