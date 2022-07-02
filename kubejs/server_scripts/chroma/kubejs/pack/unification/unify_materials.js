@@ -47,13 +47,6 @@ onEvent('recipes', (event) => {
         event.recipes.immersiveengineering
             .metal_press(output, Ingredient.of(input, 4), mold)
             .id(`${id_prefix}immersiveengineering_metal_press_${material}_gear`);
-
-        event
-            .shaped(output, [' B ', 'BAB', ' B '], {
-                A: '#forge:nuggets/iron',
-                B: input
-            })
-            .id(`${id_prefix}crafting_shaped_${material}_gear`);
     }
 
     function rod_unification(event, material, ingot, gem, rod) {
