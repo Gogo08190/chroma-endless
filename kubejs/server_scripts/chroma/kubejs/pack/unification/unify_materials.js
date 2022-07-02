@@ -98,7 +98,6 @@ onEvent('recipes', (event) => {
         } else {
             return;
         }
-        event.shapeless(output, [input, hammer]).id(`${id_prefix}shapeless_crafting_${material}_plate`);
 
         event.recipes.immersiveengineering
             .metal_press(output, input, mold)
