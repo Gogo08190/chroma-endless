@@ -377,7 +377,9 @@ const itemsToHide = [
     'kubejs:discord',
     'kubejs:sound_muffler',
     'kubejs:teams',
-    'kubejs:website'
+    'kubejs:website',
+
+    'draconicadditions:chaos_heart'
 ];
 
 let ee_types = ['clump', 'crystal', 'dirty_dust', 'shard', 'fragment', 'gravel'];
