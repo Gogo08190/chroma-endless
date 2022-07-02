@@ -51,6 +51,12 @@ onEvent('recipes', (event) => {
             output: Fluid.of('kubejs:cursed_fluid', 1000),
             heated: true,
             id: `${id_prefix}cursed_fluid`
+        },
+        {
+            inputs: [Fluid.of('tconstruct:molten_ender', 1000), Fluid.of('tconstruct:molten_emerald', 1000)],
+            output: Fluid.of('kubejs:resonant_emerald_fluid', 1000),
+            superheated: true,
+            id: `${id_prefix}resonant_emerald_fluid`
         }
     ];
 
