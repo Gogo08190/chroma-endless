@@ -65,7 +65,7 @@ onEvent('recipes', (event) => {
       pattern: ['ABA', 'BCB', 'ABA'],
       key: {
         A: 'tconstruct:silky_cloth',
-        B: '#forge:ingots/brass',
+        B: '#forge:ingots/electrum',
         C: 'mininggadgets:upgrade_empty'
       },
       id: 'mininggadgets:upgrade_silk'
