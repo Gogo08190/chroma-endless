@@ -13,6 +13,7 @@ onEvent('recipes', (event) => {
             input1: { type: 'pneumaticcraft:fluid', fluid: 'tconstruct:molten_quartz', amount: 500 },
             input2: { type: 'pneumaticcraft:fluid', fluid: 'kubejs:resonant_emerald_fluid', amount: 500 },
             fluid_output: { fluid: 'kubejs:litherite_fluid', amount: 1000 },
+            item_output: { item: 'envirocore:litherite_powder' },
             pressure: 4.0,
             time: 300,
             id: `${id_prefix}litherite_fluid`
