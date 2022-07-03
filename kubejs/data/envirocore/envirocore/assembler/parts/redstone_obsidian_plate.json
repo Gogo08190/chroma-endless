@@ -1,0 +1,24 @@
+{
+  "override": "replace",
+  "duration": {
+    "raw:int": 100
+  },
+  "top": {
+    "raw:item": "enderioalloys:item_alloy_ingot_redstone_alloy"
+  },
+  "bottom": {
+    "raw:item": "enderioalloys:item_alloy_ingot_redstone_alloy"
+  },
+  "left": {
+    "raw:item": "enderioalloys:item_alloy_ingot_redstone_alloy"
+  },
+  "right": {
+    "raw:item": "enderioalloys:item_alloy_ingot_redstone_alloy"
+  },
+  "center": {
+    "raw:item": "envirocore:obsidian_plate"
+  },
+  "output": {
+    "raw:item": "envirocore:redstone_imbued_obsidian_plate"
+  }
+}

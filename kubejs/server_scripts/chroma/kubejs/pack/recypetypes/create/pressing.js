@@ -6,6 +6,11 @@ onEvent('recipes', (event) => {
           output: 'extendedcrafting:black_iron_slate',
           inputs: ['extendedcrafting:black_iron_ingot'],
           id: 'extendedcrafting:black_iron_slate'
+      },
+      {
+          output: 'envirocore:obsidian_plate',
+          inputs: ['prefab:block_compressed_obsidian'],
+          id: 'envirocore:items/obsidian_plate'
       }
     ];
 
