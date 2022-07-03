@@ -43,7 +43,16 @@ onEvent('recipes', (event) => {
       mana: 3000,
       id: 'fluxnetworks:flux_dust'
 
+    },
+    {
+      input: 'minecraft:stick',
+      output: 'botania:living_root',
+      count: 1,
+      mana: 300,
+      id: `${id_prefix}living_root`
+
     }
+
 
 
   ];

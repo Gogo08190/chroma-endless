@@ -164,6 +164,15 @@ onEvent('recipes', (event) => {
               C:'engineersdecor:metal_crafting_table'
           },
           id: 'botania:auto_crafting_halo'
+      },
+      {
+          output: 'botania:open_bucket',
+          pattern: ['   ', 'EBE', ' E '],
+          key: {
+              B:'minecraft:bucket',
+              E:'botania:elementium_ingot'
+          },
+          id: 'botania:open_bucket'
       }
 
     ];
