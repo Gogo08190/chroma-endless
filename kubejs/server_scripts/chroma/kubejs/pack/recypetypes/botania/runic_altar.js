@@ -363,6 +363,50 @@ onEvent('recipes', (event) => {
         output: 'resourcefulbees:t3_hive_upgrade',
         count: 1,
         id: 'resourcefulbees:t3_hive_upgrade'
+      },
+      {
+        inputs: [
+          'botania:living_root',
+          'minecraft:redstone'
+        ],
+        mana: 300,
+        output: 'botania:redstone_root',
+        count: 1,
+        id: 'botania:redstone_root'
+      },
+      {
+        inputs: [
+          'minecraft:blaze_rod',
+          'minecraft:blaze_rod',
+          'minecraft:blaze_rod',
+          'minecraft:blaze_rod',
+          'botania:ender_hand',
+          'botania:ender_hand',
+          'expandedstorage:iron_chest',
+          'botania:mana_pearl',
+          '#forge:wool'
+        ],
+        mana: 3000,
+        output: 'enderstorage:ender_chest',
+        count: 1,
+        id: 'enderstorage:ender_chest'
+      },
+      {
+        inputs: [
+          'minecraft:blaze_rod',
+          'minecraft:blaze_rod',
+          'minecraft:blaze_rod',
+          'minecraft:blaze_rod',
+          'botania:ender_hand',
+          'botania:ender_hand',
+          'metalbarrels:iron_barrel',
+          'botania:mana_pearl',
+          '#forge:wool'
+        ],
+        mana: 3000,
+        output: 'enderstorage:ender_tank',
+        count: 1,
+        id: 'enderstorage:ender_tank'
       }
 
     ];
