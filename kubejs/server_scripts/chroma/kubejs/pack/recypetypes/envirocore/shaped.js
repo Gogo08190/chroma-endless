@@ -103,6 +103,16 @@ onEvent('recipes', (event) => {
               S: 'enderioalloys:item_alloy_ingot_electrical_steel'
           },
           id: 'envirocore:blocks/components/laser_lens_holder'
+      },
+      {
+          output: 'envirocore:structure_panel',
+          pattern: ['UOU', 'OMO', 'UOU'],
+          key: {
+              U: '#forge:nuggets/utherium',
+              O: 'envirocore:obsidian_plate',
+              M: 'botania:quartz_mana'
+          },
+          id: 'envirocore:blocks/components/structure_panel'
       }
     ];
 
