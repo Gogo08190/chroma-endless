@@ -157,7 +157,7 @@ onEvent('recipes', (event) => {
       },
       {
           output: 'botania:auto_crafting_halo',
-          pattern: ['', 'CBD', ''],
+          pattern: ['CBD'],
           key: {
               B:Item.of('botania:crafting_halo', '{equipped:1b,rotationBase:489.8913f}').weakNBT(),
               D:'botania:mana_diamond',
