@@ -101,6 +101,9 @@ const colors = [
 const itemsToHide = [
     'aiotbotania:livingwood_shears',
     'aiotbotania:livingrock_shears',
+    'aiotbotania:alfsteel_aiot',
+    'aiotbotania:alfsteel_shovel',
+    'aiotbotania:alfsteel_hoe',
 
     'ars_nouveau:arcane_brick',
     'ars_nouveau:arcane_ore',
