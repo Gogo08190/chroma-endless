@@ -15,6 +15,7 @@
     },
     {
       "type": "masterfulmachinery:create_rotation",
+      "textureOverride": "envirocore:block/component/io/_base",
       "name": "Cutting Machine Speed",
       "id": "cuttingmachine_speed",
       "data": {
