@@ -103,6 +103,12 @@ onEvent('recipes', (event) => {
           output: { item: 'envirocore:litherite_crystal', count: 2 },
           program: 'laser',
           id: 'envirocore:items/ct_litherite2'
+      },
+      {
+          input: { item: 'industrialforegoing:laser_lens0', count: 1 },
+          output: { item: 'envirocore:lens', count: 1 },
+          program: 'laser',
+          id: 'envirotech:block/ct_lens'
       }
     ];
 
