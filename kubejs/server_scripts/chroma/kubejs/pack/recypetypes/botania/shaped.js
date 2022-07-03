@@ -121,6 +121,49 @@ onEvent('recipes', (event) => {
               L:'botania:livingrock'
           },
           id: 'botania:conjuration_catalyst'
+      },
+      {
+          output: 'botania:mana_distributor',
+          pattern: ['LLL', 'MRM', 'LLL'],
+          key: {
+              R:'ars_nouveau:arcane_relay_splitter',
+              M:'botania:manasteel_block',
+              L:'botania:livingrock'
+          },
+          id: 'botania:mana_distributor'
+      },
+      {
+          output: 'botania:brewery',
+          pattern: ['LBL', 'DRD', 'LML'],
+          key: {
+              B:'minecraft:brewing_stand',
+              M:'botania:manasteel_block',
+              L:'botania:livingrock',
+              R:'botania:rune_mana',
+              D:'botania:mana_diamond'
+          },
+          id: 'botania:brewery'
+      },
+      {
+          output: 'botania:crafting_halo',
+          pattern: [' B ', 'DCD', ' M '],
+          key: {
+              B:'botania:mana_pearl',
+              D:'botania:mana_diamond',
+              M:'botania:manasteel_ingot',
+              C:'engineersdecor:metal_crafting_table'
+          },
+          id: 'botania:crafting_halo'
+      },
+      {
+          output: 'botania:auto_crafting_halo',
+          pattern: ['', 'CBD', ''],
+          key: {
+              B:Item.of('botania:crafting_halo', '{equipped:1b,rotationBase:489.8913f}').weakNBT(),
+              D:'botania:mana_diamond',
+              C:'engineersdecor:metal_crafting_table'
+          },
+          id: 'botania:auto_crafting_halo'
       }
 
     ];

@@ -271,6 +271,17 @@ onEvent('recipes', (event) => {
               C:'immersiveengineering:coil_mv'
           },
           id: 'immersiveengineering:crafting/toolupgrade_revolver_electro'
+      },
+      //Metal Crafting Table
+      {
+          output: 'engineersdecor:metal_crafting_table',
+          pattern: ['SMS', 'SCS', 'S S'],
+          key: {
+              S:'emendatusenigmatica:steel_ingot',
+              C:'immersiveengineering:crate',
+              M:'minecraft:crafting_table'
+          },
+          id: 'engineersdecor:independent/metal_crafting_table_recipe'
       }
     ];
 
