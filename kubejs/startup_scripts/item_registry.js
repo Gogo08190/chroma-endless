@@ -40,7 +40,15 @@ onEvent('item.registry', (event) => {
         'enriched_terrasteel',
         'koepss',
         'contained_litherite_crystal',
-        'solar_cell_base'
+        'solar_cell_base',
+        'litherite_photovoltaic_panel',
+        'erodium_photovoltaic_panel',
+        'kyronite_photovoltaic_panel',
+        'pladium_photovoltaic_panel',
+        'ionite_photovoltaic_panel',
+        'aethium_photovoltaic_panel',
+        'nanorite_photovoltaic_panel',
+        'xerothium_photovoltaic_panel'
     ];
 
     generalItems.forEach((item) => {
