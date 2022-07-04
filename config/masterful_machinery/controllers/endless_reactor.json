@@ -1,0 +1,63 @@
+{
+    "controllerId": "endlessreactor",
+    "name": "Endless Reactor",
+    "textureOverride": "create:block/shadow_steel_casing",
+    "ports": [
+      {
+        "type": "masterfulmachinery:items",
+        "textureOverride": "pneumaticcraft:block/compressed_brick_tile",
+        "name": "Endless Reactor Item",
+        "id": "endless_item",
+        "data": {
+          "rows": 4,
+          "columns": 6
+        }
+      },
+      {
+        "type": "masterfulmachinery:pncr_pressure",
+        "name": "Endless Reactor Air Chamber",
+        "id": "endless_air",
+        "data": {
+            "volume": 120,
+            "dangerPressure": 20.0,
+            "criticalPressure": 20.5
+        }
+      },
+      {
+        "type": "masterfulmachinery:energy",
+        "name": "Endless Reactor Energy",
+        "id": "endless_energy",
+        "data": {
+          "capacity": 1000000
+        }
+      },
+      {
+        "type": "masterfulmachinery:fluids",
+        "textureOverride": "create:block/copper_casing",
+        "name": "Endless Reactor Fluid",
+        "id": "endless_fluid",
+        "data": {
+          "capacity": 150000
+        }
+      },
+      {
+        "type": "masterfulmachinery:create_rotation",
+        "textureOverride": "envirocore:block/component/io/_base",
+        "name": "Endless Reactor Speed",
+        "id": "endless_speed",
+        "data": {
+          "stress": 1
+        }
+      },
+      {
+          "type": "masterfulmachinery:mekanism_gas",
+          "textureOverride": "envirocore:block/component/io/_base",
+          "name": "Endless Reactor Gas",
+          "id": "endless_gas",
+          "data": {
+              "capacity": 100000
+          }
+      }
+    ]
+  }
+  
