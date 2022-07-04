@@ -381,12 +381,11 @@ onEvent('recipes', (event) => {
           'minecraft:blaze_rod',
           'minecraft:blaze_rod',
           'botania:ender_hand',
-          'botania:ender_hand',
           'expandedstorage:iron_chest',
           'botania:mana_pearl',
           '#forge:wool'
         ],
-        mana: 3000,
+        mana: 5000,
         output: 'enderstorage:ender_chest',
         count: 1,
         id: 'enderstorage:ender_chest'
@@ -398,12 +397,11 @@ onEvent('recipes', (event) => {
           'minecraft:blaze_rod',
           'minecraft:blaze_rod',
           'botania:ender_hand',
-          'botania:ender_hand',
-          'metalbarrels:iron_barrel',
+          'miniutilities:iron_drum',
           'botania:mana_pearl',
           '#forge:wool'
         ],
-        mana: 3000,
+        mana: 5000,
         output: 'enderstorage:ender_tank',
         count: 1,
         id: 'enderstorage:ender_tank'
