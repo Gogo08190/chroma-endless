@@ -1,4 +1,5 @@
 onEvent('recipes', (event) => {
+    const id_prefix = 'chroma:pack/envirocore/shaped/';
     const recipes = [
       {
           output: 'envirocore:litherite_boule',
@@ -113,6 +114,17 @@ onEvent('recipes', (event) => {
               M: 'botania:quartz_mana'
           },
           id: 'envirocore:blocks/components/structure_panel'
+      },
+      {
+          output: 'kubejs:litherite_photovoltaic_panel',
+          pattern: ['GGG', 'BBB', 'CSC'],
+          key: {
+              G: 'thermal:lumium_glass',
+              B: 'envirocore:litherite_wafer',
+              C: 'envirocore:litherite_interconnect',
+              S: '#envirocore:structure/panels'
+          },
+          id: `${id_prefix}litherite_photovoltaic_panel`
       }
     ];
 

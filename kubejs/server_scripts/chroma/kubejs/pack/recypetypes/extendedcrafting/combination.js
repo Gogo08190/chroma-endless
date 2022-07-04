@@ -1,6 +1,4 @@
 onEvent('recipes', (event) => {
-    const id_prefix = 'chroma:pack/elementalcraft/pureinfusion/';
-
     const recipes = [
       {
           inputs: [
