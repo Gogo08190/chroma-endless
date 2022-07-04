@@ -165,6 +165,15 @@ onEvent('recipes', (event) => {
             },
             id: `${id_prefix}erodium_photovoltaic_panel`
         },
+        {
+            output: 'envirocore:kyronite_boule',
+            pattern: ['P', 'C', 'C'],
+            key: {
+                C: 'envirocore:kyronite_crystal',
+                P: 'envirocore:kyronite_powder'
+            },
+            id: 'envirocore:items/boules/_3kyronite'
+        },
     ];
 
     recipes.forEach((recipe) => {
