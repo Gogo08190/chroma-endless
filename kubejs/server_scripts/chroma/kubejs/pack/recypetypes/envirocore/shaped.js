@@ -155,7 +155,7 @@ onEvent('recipes', (event) => {
          id: 'envirocore:items/boules/_2erodium'
       },
         {
-            output: 'kubejs:litherite_photovoltaic_panel',
+            output: 'kubejs:erodium_photovoltaic_panel',
             pattern: ['GGG', 'BBB', 'CSC'],
             key: {
                 L: 'thermal:lumium_glass',
@@ -173,6 +173,17 @@ onEvent('recipes', (event) => {
                 P: 'envirocore:kyronite_powder'
             },
             id: 'envirocore:items/boules/_3kyronite'
+        },
+        {
+            output: 'kubejs:kyronite_photovoltaic_panel',
+            pattern: ['GGG', 'BBB', 'CSC'],
+            key: {
+                L: 'thermal:lumium_glass',
+                E: 'envirocore:kyronite_wafer',
+                I: 'envirocore:kyronite_interconnect',
+                S: '#envirocore:structure/panels'
+            },
+            id: `${id_prefix}kyronite_photovoltaic_panel`
         },
     ];
 
