@@ -140,7 +140,7 @@ onEvent('recipes', (event) => {
       key: {
         A: '#forge:plates/netherite',
         B: '#chroma:stonecuttables/purpur_block',
-        C: '#forge:ingots/slimesteel',
+        C: '#forge:glass',
         D: 'refinedpipes:elite_energy_pipe'
       },
       id: 'refinedpipes:ultimate_energy_pipe'
