@@ -104,6 +104,7 @@ const itemsToHide = [
     'aiotbotania:alfsteel_aiot',
     'aiotbotania:alfsteel_shovel',
     'aiotbotania:alfsteel_hoe',
+    'aiotbotania:alfsteel_aiot'
 
     'ars_nouveau:arcane_brick',
     'ars_nouveau:arcane_ore',
