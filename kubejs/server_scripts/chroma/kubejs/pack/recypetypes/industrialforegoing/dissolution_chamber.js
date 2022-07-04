@@ -436,6 +436,63 @@ onEvent('recipes', (event) => {
             outputFluid: '',
             outputFluidAmount: 0,
             id: 'resourcefulbees:elite_centrifuge_controller'
+        },
+        {
+            inputs: [
+              'envirocore:litherite_interconnect',
+              'enviroenergy:litherite_solar_cell',
+              'envirocore:litherite_interconnect',
+              'enviroenergy:litherite_solar_cell',
+              'enviroenergy:litherite_solar_cell',
+              'envirocore:litherite_interconnect',
+              'envirocore:structure_panel',
+              'envirocore:litherite_interconnect'
+            ],
+            inputFluid: 'tconstruct:molten_lumium',
+            inputFluidAmount: 1000,
+            processingTime: 150,
+            outputItem: { item: 'enviroenergy:litherite_solar_ccu', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'enviroenergy:block/solar/litherite'
+        },
+        {
+            inputs: [
+              'create:refined_radiance',
+              'enviroenergy:insulated_lightning_rod',
+              'create:refined_radiance',
+              'envirocore:litherite_interconnect',
+              'envirocore:litherite_interconnect',
+              'envirocore:litherite_interconnect',
+              'envirocore:structure_panel',
+              'envirocore:litherite_interconnect'
+            ],
+            inputFluid: 'tconstruct:molten_lumium',
+            inputFluidAmount: 1000,
+            processingTime: 150,
+            outputItem: { item: 'enviroenergy:litherite_lightning_ccu', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'enviroenergy:block/lightning/ct_litherite'
+        },
+        {
+            inputs: [
+              'envirocore:litherite_interconnect'
+              'envirocore:laser_diode'
+              'envirocore:litherite_interconnect'
+              'envirocore:litherite_interconnect'
+              'envirocore:litherite_interconnect'
+              'envirocore:structure_panel'
+              'envirocore:laser_core'
+              'envirocore:structure_panel'
+            ],
+            inputFluid: 'kubejs:molten_mana_diamond',
+            inputFluidAmount: 1000,
+            processingTime: 150,
+            outputItem: { item: 'envirotech:litherite_void_miner_ccu', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'envirotech:block/void_miner/ct_litherite'
         }
     ];
 

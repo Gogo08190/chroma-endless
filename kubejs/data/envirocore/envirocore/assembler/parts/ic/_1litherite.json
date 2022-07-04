@@ -1,0 +1,24 @@
+{
+  "override": "replace",
+  "duration": {
+    "raw:int": 100
+  },
+  "top": {
+    "raw:item": "envirocore:litherite_crystal"
+  },
+  "bottom": {
+    "raw:item": "envirocore:litherite_crystal"
+  },
+  "left": {
+    "raw:item": "envirocore:litherite_crystal"
+  },
+  "right": {
+    "raw:item": "envirocore:litherite_crystal"
+  },
+  "center": {
+    "raw:item": "envirocore:redstone_imbued_obsidian_plate"
+  },
+  "output": {
+    "raw:item": "envirocore:litherite_interconnect"
+  }
+}
