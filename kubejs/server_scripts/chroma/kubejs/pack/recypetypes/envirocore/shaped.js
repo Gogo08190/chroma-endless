@@ -144,7 +144,27 @@ onEvent('recipes', (event) => {
               R: 'enviroenergy:lightning_rod'
           },
           id: 'enviroenergy:block/lightning/ct_insulated_rod'
-      }
+      },
+      {
+        output: 'envirocore:erodium_boule',
+         pattern: ['P', 'C', 'C'],
+         key: {
+            C: 'envirocore:erodium_crystal',
+            P: 'envirocore:erodium_powder'
+              },
+         id: 'envirocore:items/boules/_2erodium'
+      },
+        {
+            output: 'kubejs:litherite_photovoltaic_panel',
+            pattern: ['GGG', 'BBB', 'CSC'],
+            key: {
+                L: 'thermal:lumium_glass',
+                E: 'envirocore:erodium_wafer',
+                I: 'envirocore:erodium_interconnect',
+                S: '#envirocore:structure/panels'
+            },
+            id: `${id_prefix}erodium_photovoltaic_panel`
+        },
     ];
 
     recipes.forEach((recipe) => {

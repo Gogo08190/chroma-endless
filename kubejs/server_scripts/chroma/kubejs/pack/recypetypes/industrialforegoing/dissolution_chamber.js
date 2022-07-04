@@ -477,13 +477,13 @@ onEvent('recipes', (event) => {
         },
         {
             inputs: [
-              'envirocore:litherite_interconnect'
-              'envirocore:laser_diode'
-              'envirocore:litherite_interconnect'
-              'envirocore:litherite_interconnect'
-              'envirocore:litherite_interconnect'
-              'envirocore:structure_panel'
-              'envirocore:laser_core'
+              'envirocore:litherite_interconnect',
+              'envirocore:laser_diode',
+              'envirocore:litherite_interconnect',
+              'envirocore:litherite_interconnect',
+              'envirocore:litherite_interconnect',
+              'envirocore:structure_panel',
+              'envirocore:laser_core',
               'envirocore:structure_panel'
             ],
             inputFluid: 'kubejs:molten_mana_diamond',
@@ -493,7 +493,64 @@ onEvent('recipes', (event) => {
             outputFluid: '',
             outputFluidAmount: 0,
             id: 'envirotech:block/void_miner/ct_litherite'
-        }
+        },
+        {
+            inputs: [
+                'envirocore:erodium_interconnect',
+                'enviroenergy:erodium_solar_cell',
+                'envirocore:erodium_interconnect',
+                'enviroenergy:erodium_solar_cell',
+                'enviroenergy:erodium_solar_cell',
+                'envirocore:erodium_interconnect',
+                'enviroenergy:litherite_solar_ccu',
+                'envirocore:erodium_interconnect'
+            ],
+            inputFluid: 'kubejs:molten_lumium_glass',
+            inputFluidAmount: 8000,
+            processingTime: 150,
+            outputItem: { item: 'enviroenergy:erodium_solar_ccu', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'enviroenergy:block/solar/erodium'
+        },
+        {
+            inputs: [
+                'create:refined_radiance',
+                'enviroenergy:insulated_lightning_rod',
+                'create:refined_radiance',
+                'envirocore:erodium_interconnect',
+                'envirocore:erodium_interconnect',
+                'envirocore:erodium_interconnect',
+                'enviroenergy:litherite_lightning_ccu',
+                'envirocore:erodium_interconnect'
+            ],
+            inputFluid: 'kubejs:molten_lumium_glass',
+            inputFluidAmount: 8000,
+            processingTime: 150,
+            outputItem: { item: 'enviroenergy:erodium_lightning_ccu', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'enviroenergy:block/lightning/ct_erodium'
+        },
+        {
+            inputs: [
+                'envirocore:erodium_interconnect',
+                'envirocore:laser_diode',
+                'envirocore:erodium_interconnect',
+                'envirocore:erodium_interconnect',
+                'envirocore:erodium_interconnect',
+                'envirocore:laser_core',
+                'envirotech:litherite_void_miner_ccu',
+                'envirocore:laser_core'
+            ],
+            inputFluid: 'kubejs:molten_mana_diamond',
+            inputFluidAmount: 8000,
+            processingTime: 150,
+            outputItem: { item: 'envirotech:erodium_void_miner_ccu', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'envirotech:block/void_miner/ct_erodium'
+        },
     ];
 
     recipes.forEach((recipe) => {
