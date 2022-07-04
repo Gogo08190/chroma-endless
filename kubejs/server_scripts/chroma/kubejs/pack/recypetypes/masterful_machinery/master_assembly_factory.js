@@ -327,7 +327,6 @@ onEvent('recipes', (event) => {
         },
 
         // Erodium Solar Cell
-
          {
             outputs: [{ type: 'masterfulmachinery:items', data: { item: 'enviroenergy:erodium_solar_cell', count: 1 } }],
             inputs: [
@@ -337,8 +336,21 @@ onEvent('recipes', (event) => {
                 { type: 'masterfulmachinery:energy', data: { amount: 2000 } }
             ],
             ticks: 120,
-            id: 'enviroenergy:block/solar_cell/ct_litherite'
-        }
+            id: 'enviroenergy:block/solar_cell/ct_erodium'
+        },
+
+        // Kyronite Solar Cell
+        {
+            outputs: [{ type: 'masterfulmachinery:items', data: { item: 'enviroenergy:kyronite_solar_cell', count: 1 } }],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'kubejs:kyronite_photovoltaic_panel', count: 1 } },
+                { type: 'masterfulmachinery:items', data: { item: 'kubejs:advanced_extreme_circuit_board', count: 1 } },
+                { type: 'masterfulmachinery:items', data: { item: 'enviroenergy:erodium_solar_cell', count: 1 } },
+                { type: 'masterfulmachinery:energy', data: { amount: 3000 } }
+            ],
+            ticks: 140,
+            id: 'enviroenergy:block/solar_cell/ct_kyronite'
+        },
     ];
 
     recipes.forEach((recipe) => {

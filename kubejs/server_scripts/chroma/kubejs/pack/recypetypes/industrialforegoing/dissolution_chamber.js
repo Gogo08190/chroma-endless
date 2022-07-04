@@ -551,6 +551,63 @@ onEvent('recipes', (event) => {
             outputFluidAmount: 0,
             id: 'envirotech:block/void_miner/ct_erodium'
         },
+        {
+            inputs: [
+                'envirocore:kyronite_interconnect',
+                'enviroenergy:kyronite_solar_cell',
+                'envirocore:kyronite_interconnect',
+                'enviroenergy:kyronite_solar_cell',
+                'enviroenergy:kyronite_solar_cell',
+                'envirocore:kyronite_interconnect',
+                'enviroenergy:erodium_solar_ccu',
+                'envirocore:kyronite_interconnect'
+            ],
+            inputFluid: 'mekanismgenerators:fusion_fuel',
+            inputFluidAmount: 8000,
+            processingTime: 150,
+            outputItem: { item: 'enviroenergy:kyronite_solar_ccu', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'enviroenergy:block/solar/kyronite'
+        },
+        {
+            inputs: [
+                'create:refined_radiance',
+                'enviroenergy:insulated_lightning_rod',
+                'create:refined_radiance',
+                'envirocore:kyronite_interconnect',
+                'envirocore:kyronite_interconnect',
+                'envirocore:kyronite_interconnect',
+                'enviroenergy:erodium_lightning_ccu',
+                'envirocore:kyronite_interconnect'
+            ],
+            inputFluid: 'mekanismgenerators:fusion_fuel',
+            inputFluidAmount: 8000,
+            processingTime: 150,
+            outputItem: { item: 'enviroenergy:kyronite_lightning_ccu', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'enviroenergy:block/lightning/ct_kyronite'
+        },
+        {
+            inputs: [
+                'envirocore:kyronite_interconnect',
+                'envirocore:laser_diode',
+                'envirocore:kyronite_interconnect',
+                'envirocore:kyronite_interconnect',
+                'envirocore:kyronite_interconnect',
+                'envirocore:laser_core',
+                'envirotech:erodium_void_miner_ccu',
+                'envirocore:laser_core'
+            ],
+            inputFluid: 'mekanismgenerators:fusion_fuel',
+            inputFluidAmount: 8000,
+            processingTime: 150,
+            outputItem: { item: 'envirotech:kyronite_void_miner_ccu', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'envirotech:block/void_miner/ct_kyronite'
+        },
     ];
 
     recipes.forEach((recipe) => {
