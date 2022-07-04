@@ -43,6 +43,14 @@ onEvent('recipes', (event) => {
             output: 'kubejs:contained_litherite_crystal',
             id: 'minecraft:ender_eye'
         },
+
+        //Energize uranium
+        {
+          input: 'emendatusenigmatica:uranium_ingot',
+          fluid: Fluid.of('thermal:glowstone', 500),
+          output: 'kubejs:energized_uranium',
+          id: 'mekanism:energized_uranium'
+        }
     ];
 
     recipes.forEach((recipe) => {
