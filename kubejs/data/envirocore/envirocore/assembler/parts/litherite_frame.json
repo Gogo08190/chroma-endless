@@ -1,0 +1,23 @@
+{
+  "duration": {
+    "raw:int": 100
+  },
+  "top": {
+    "raw:item": "envirocore:litherite_interconnect"
+  },
+  "bottom": {
+    "raw:item": "extendedcrafting:black_iron_slate"
+  },
+  "left": {
+    "raw:item": "pneumaticcraft:upgrade_matrix"
+  },
+  "right": {
+    "raw:item": "pneumaticcraft:upgrade_matrix"
+  },
+  "center": {
+    "raw:item": "envirocore:structure_panel"
+  },
+  "output": {
+    "raw:item": "envirocore:litherite_frame"
+  }
+}
