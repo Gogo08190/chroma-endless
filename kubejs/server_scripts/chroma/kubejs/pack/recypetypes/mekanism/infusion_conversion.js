@@ -4,7 +4,7 @@ onEvent('recipes', (event) => {
 
       //Ingot Uranium
       {
-        input: { ingredient: { item: 'emendatusenigmatica:uranium_ingot' } },
+        input: { ingredient: { item: 'kubejs:energized_uranium' } },
         output: { amount: 10, infuse_type: 'kubejs:uranium' }
       },
 

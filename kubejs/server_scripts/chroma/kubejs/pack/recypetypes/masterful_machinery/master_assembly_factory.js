@@ -242,6 +242,7 @@ onEvent('recipes', (event) => {
               { type: 'masterfulmachinery:items', data: { item: 'thermal:machine_furnace', count: 1 } },
               { type: 'masterfulmachinery:items', data: { item: 'mekanism:steel_casing', count: 1 } },
               { type: 'masterfulmachinery:items', data: { item: 'kubejs:extreme_circuit_board', count: 1 } },
+              { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 300 * 8 } },
               { type: 'masterfulmachinery:energy', data: { amount: 1600} }
             ],
             ticks: 240,
@@ -257,6 +258,7 @@ onEvent('recipes', (event) => {
               { type: 'masterfulmachinery:items', data: { item: 'thermal:machine_pulverizer', count: 1 } },
               { type: 'masterfulmachinery:items', data: { item: 'mekanism:steel_casing', count: 1 } },
               { type: 'masterfulmachinery:items', data: { item: 'kubejs:extreme_circuit_board', count: 1 } },
+              { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 300 * 8 } },
               { type: 'masterfulmachinery:energy', data: { amount: 1600} }
             ],
             ticks: 240,
@@ -272,6 +274,7 @@ onEvent('recipes', (event) => {
               { type: 'masterfulmachinery:items', data: { item: 'thermal:machine_press', count: 1 } },
               { type: 'masterfulmachinery:items', data: { item: 'mekanism:steel_casing', count: 1 } },
               { type: 'masterfulmachinery:items', data: { item: 'kubejs:extreme_circuit_board', count: 1 } },
+              { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 300 * 8 } },
               { type: 'masterfulmachinery:energy', data: { amount: 1200} }
             ],
             ticks: 240,
@@ -287,6 +290,7 @@ onEvent('recipes', (event) => {
               { type: 'masterfulmachinery:items', data: { item: 'thermal:machine_smelter', count: 1 } },
               { type: 'masterfulmachinery:items', data: { item: 'mekanism:steel_casing', count: 1 } },
               { type: 'masterfulmachinery:items', data: { item: 'kubejs:extreme_circuit_board', count: 1 } },
+              { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 300 * 8 } },
               { type: 'masterfulmachinery:energy', data: { amount: 2400} }
             ],
             ticks: 240,
@@ -302,6 +306,7 @@ onEvent('recipes', (event) => {
               { type: 'masterfulmachinery:items', data: { item: 'thermal:machine_sawmill', count: 1 } },
               { type: 'masterfulmachinery:items', data: { item: 'mekanism:steel_casing', count: 1 } },
               { type: 'masterfulmachinery:items', data: { item: 'kubejs:extreme_circuit_board', count: 1 } },
+              { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 300 * 8 } },
               { type: 'masterfulmachinery:energy', data: { amount: 800} }
             ],
             ticks: 240,
