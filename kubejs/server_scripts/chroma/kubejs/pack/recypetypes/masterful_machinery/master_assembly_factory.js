@@ -312,11 +312,9 @@ onEvent('recipes', (event) => {
         {
             outputs: [{ type: 'masterfulmachinery:items',data: { item: 'enviroenergy:litherite_solar_cell', count: 1 } }],
             inputs: [
-              { type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:capacitor', count: 2 } },
-              { type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:ingot_iron_compressed', count: 4 } },
-              { type: 'masterfulmachinery:items', data: { item: 'thermal:machine_sawmill', count: 1 } },
-              { type: 'masterfulmachinery:items', data: { item: 'mekanism:steel_casing', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'kubejs:litherite_photovoltaic_panel', count: 1 } },
               { type: 'masterfulmachinery:items', data: { item: 'kubejs:extreme_circuit_board', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'kubejs:solar_cell_base', count: 1 } },
               { type: 'masterfulmachinery:energy', data: { amount: 1000} }
             ],
             ticks: 100,
