@@ -36,7 +36,7 @@ onEvent('recipes', (event) => {
           key: {
               D: 'enderioalloys:item_alloy_ingot_dark_steel',
               R: 'enderioalloys:item_alloy_ingot_redstone_alloy',
-              E: 'enderioalloys:item_alloy_ingot_redstone_alloy',
+              E: 'enderioalloys:item_material_skull_ender_resonator',
               F: 'envirocore:volatile_memory'
           },
           id: 'envirocore:items/ct_flash_memory'
@@ -125,6 +125,25 @@ onEvent('recipes', (event) => {
               S: '#envirocore:structure/panels'
           },
           id: `${id_prefix}litherite_photovoltaic_panel`
+      },
+      {
+          output: 'enviroenergy:lightning_rod',
+          pattern: ['ELE', 'ELE', 'ELE'],
+          key: {
+              E: 'enderioalloys:item_alloy_ingot_end_steel',
+              L: 'envirocore:litherite_crystal'
+          },
+          id: 'enviroenergy:block/lightning/ct_rod'
+      },
+      {
+          output: 'enviroenergy:insulated_lightning_rod',
+          pattern: ['FGF', 'GRG', 'FGF'],
+          key: {
+              F: 'thermal:hazmat_fabric',
+              G: 'immersiveengineering:insulating_glass',
+              R: 'enviroenergy:lightning_rod'
+          },
+          id: 'enviroenergy:block/lightning/ct_insulated_rod'
       }
     ];
 
