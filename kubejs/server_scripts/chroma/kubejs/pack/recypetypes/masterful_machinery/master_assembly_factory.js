@@ -306,6 +306,21 @@ onEvent('recipes', (event) => {
             ],
             ticks: 240,
             id: 'mekanism:precision_sawmill'
+        },
+
+        // Litherite Solar Cell
+        {
+            outputs: [{ type: 'masterfulmachinery:items',data: { item: 'enviroenergy:litherite_solar_cell', count: 1 } }],
+            inputs: [
+              { type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:capacitor', count: 2 } },
+              { type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:ingot_iron_compressed', count: 4 } },
+              { type: 'masterfulmachinery:items', data: { item: 'thermal:machine_sawmill', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'mekanism:steel_casing', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'kubejs:extreme_circuit_board', count: 1 } },
+              { type: 'masterfulmachinery:energy', data: { amount: 1000} }
+            ],
+            ticks: 100,
+            id: 'enviroenergy:block/solar_cell/ct_litherite'
         }
     ];
 
