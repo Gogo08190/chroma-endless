@@ -1,7 +1,7 @@
 onEvent('recipes', (event) => {
   const recipes = [
     {
-      output: 'refinedpipes:basic_item_pipe',
+      output: Item.of('refinedpipes:basic_item_pipe', 4),
       pattern: ['ABA', 'CDC', 'ABA'],
       key: {
         A: '#forge:plates/iron',
@@ -12,7 +12,7 @@ onEvent('recipes', (event) => {
       id: 'refinedpipes:basic_item_pipe'
     },
     {
-      output: 'refinedpipes:improved_item_pipe',
+      output: Item.of('refinedpipes:improved_item_pipe', 4),
       pattern: ['ABA', 'CDC', 'ABA'],
       key: {
         A: '#forge:plates/gold',
@@ -23,7 +23,7 @@ onEvent('recipes', (event) => {
       id: 'refinedpipes:improved_item_pipe'
     },
     {
-      output: 'refinedpipes:advanced_item_pipe',
+      output: Item.of('refinedpipes:advanced_item_pipe', 4),
       pattern: ['ABA', 'CDC', 'ABA'],
       key: {
         A: '#forge:plates/diamond',
@@ -34,7 +34,7 @@ onEvent('recipes', (event) => {
       id: 'refinedpipes:advanced_item_pipe'
     },
     {
-      output: 'refinedpipes:basic_fluid_pipe',
+      output: Item.of('refinedpipes:basic_fluid_pipe', 4),
       pattern: ['ABA', 'CDC', 'ABA'],
       key: {
         A: '#forge:plates/iron',
@@ -45,7 +45,7 @@ onEvent('recipes', (event) => {
       id: 'refinedpipes:basic_fluid_pipe'
     },
     {
-      output: 'refinedpipes:improved_fluid_pipe',
+      output: Item.of('refinedpipes:improved_fluid_pipe', 4),
       pattern: ['ABA', 'CDC', 'ABA'],
       key: {
         A: '#forge:plates/gold',
@@ -56,7 +56,7 @@ onEvent('recipes', (event) => {
       id: 'refinedpipes:improved_fluid_pipe'
     },
     {
-      output: 'refinedpipes:advanced_fluid_pipe',
+      output: Item.of('refinedpipes:advanced_fluid_pipe', 4),
       pattern: ['ABA', 'CDC', 'ABA'],
       key: {
         A: '#forge:plates/diamond',
@@ -67,7 +67,7 @@ onEvent('recipes', (event) => {
       id: 'refinedpipes:advanced_fluid_pipe'
     },
     {
-      output: 'refinedpipes:elite_fluid_pipe',
+      output: Item.of('refinedpipes:elite_fluid_pipe', 4),
       pattern: ['ABA', 'CDC', 'AEA'],
       key: {
         A: '#forge:plates/emerald',
@@ -79,7 +79,7 @@ onEvent('recipes', (event) => {
       id: 'refinedpipes:elite_fluid_pipe'
     },
     {
-      output: 'refinedpipes:ultimate_fluid_pipe',
+      output: Item.of('refinedpipes:ultimate_fluid_pipe', 4),
       pattern: ['ABA', 'CDC', 'ABA'],
       key: {
         A: '#forge:plates/netherite',
@@ -90,7 +90,7 @@ onEvent('recipes', (event) => {
       id: 'refinedpipes:ultimate_fluid_pipe'
     },
     {
-      output: 'refinedpipes:basic_energy_pipe',
+      output: Item.of('refinedpipes:basic_energy_pipe', 4),
       pattern: ['ABA', 'CDC', 'ABA'],
       key: {
         A: '#forge:plates/iron',
@@ -101,7 +101,7 @@ onEvent('recipes', (event) => {
       id: 'refinedpipes:basic_energy_pipe'
     },
     {
-      output: 'refinedpipes:improved_energy_pipe',
+      output: Item.of('refinedpipes:improved_energy_pipe', 4),
       pattern: ['ABA', 'CDC', 'ABA'],
       key: {
         A: '#forge:plates/gold',
@@ -112,7 +112,7 @@ onEvent('recipes', (event) => {
       id: 'refinedpipes:improved_energy_pipe'
     },
     {
-      output: 'refinedpipes:advanced_energy_pipe',
+      output: Item.of('refinedpipes:advanced_energy_pipe', 4),
       pattern: ['ABA', 'CDC', 'ABA'],
       key: {
         A: '#forge:plates/diamond',
@@ -123,7 +123,7 @@ onEvent('recipes', (event) => {
       id: 'refinedpipes:advanced_energy_pipe'
     },
     {
-      output: 'refinedpipes:elite_energy_pipe',
+      output: Item.of('refinedpipes:elite_energy_pipe', 4),
       pattern: ['ABA', 'CDC', 'AEA'],
       key: {
         A: '#forge:plates/emerald',
@@ -135,7 +135,7 @@ onEvent('recipes', (event) => {
       id: 'refinedpipes:elite_energy_pipe'
     },
     {
-      output: 'refinedpipes:ultimate_energy_pipe',
+      output: Item.of('refinedpipes:ultimate_energy_pipe', 4),
       pattern: ['ABA', 'CDC', 'ABA'],
       key: {
         A: '#forge:plates/netherite',
