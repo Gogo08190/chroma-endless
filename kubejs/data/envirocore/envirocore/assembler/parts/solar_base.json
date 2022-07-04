@@ -1,0 +1,23 @@
+{
+  "duration": {
+    "raw:int": 100
+  },
+  "top": {
+    "raw:item": "envirocore:structure_panel"
+  },
+  "bottom": {
+    "raw:item": "envirocore:structure_panel"
+  },
+  "left": {
+    "raw:item": "envirocore:structure_panel"
+  },
+  "right": {
+    "raw:item": "envirocore:structure_panel"
+  },
+  "center": {
+    "raw:item": "envirocore:redstone_imbued_obsidian_plate"
+  },
+  "output": {
+    "raw:item": "kubejs:solar_cell_base"
+  }
+}
