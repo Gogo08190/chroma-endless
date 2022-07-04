@@ -318,7 +318,7 @@ onEvent('recipes', (event) => {
             outputs: [{ type: 'masterfulmachinery:items',data: { item: 'enviroenergy:litherite_solar_cell', count: 1 } }],
             inputs: [
               { type: 'masterfulmachinery:items', data: { item: 'kubejs:litherite_photovoltaic_panel', count: 1 } },
-              { type: 'masterfulmachinery:items', data: { item: 'kubejs:extreme_circuit_board', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'kubejs:advanced_extreme_circuit_board', count: 1 } },
               { type: 'masterfulmachinery:items', data: { item: 'kubejs:solar_cell_base', count: 1 } },
               { type: 'masterfulmachinery:energy', data: { amount: 1000} }
             ],
