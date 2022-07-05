@@ -505,7 +505,7 @@ onEvent('recipes', (event) => {
                 'enviroenergy:litherite_solar_ccu',
                 'envirocore:erodium_interconnect'
             ],
-            inputFluid: 'kubejs:molten_lumium',
+            inputFluid: 'tconstruct:molten_lumium',
             inputFluidAmount: 8000,
             processingTime: 150,
             outputItem: { item: 'enviroenergy:erodium_solar_ccu', count: 1 },
@@ -524,7 +524,7 @@ onEvent('recipes', (event) => {
                 'enviroenergy:litherite_lightning_ccu',
                 'envirocore:erodium_interconnect'
             ],
-            inputFluid: 'kubejs:molten_lumium',
+            inputFluid: 'tconstruct:molten_lumium',
             inputFluidAmount: 8000,
             processingTime: 150,
             outputItem: { item: 'enviroenergy:erodium_lightning_ccu', count: 1 },
