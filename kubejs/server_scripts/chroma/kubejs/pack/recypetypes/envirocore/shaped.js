@@ -158,9 +158,9 @@ onEvent('recipes', (event) => {
             output: 'kubejs:erodium_photovoltaic_panel',
             pattern: ['GGG', 'BBB', 'CSC'],
             key: {
-                L: 'thermal:lumium_glass',
-                E: 'envirocore:erodium_wafer',
-                I: 'envirocore:erodium_interconnect',
+                G: 'thermal:lumium_glass',
+                B: 'envirocore:erodium_wafer',
+                C: 'envirocore:erodium_interconnect',
                 S: '#envirocore:structure/panels'
             },
             id: `${id_prefix}erodium_photovoltaic_panel`
@@ -178,9 +178,9 @@ onEvent('recipes', (event) => {
             output: 'kubejs:kyronite_photovoltaic_panel',
             pattern: ['GGG', 'BBB', 'CSC'],
             key: {
-                L: 'thermal:lumium_glass',
-                E: 'envirocore:kyronite_wafer',
-                I: 'envirocore:kyronite_interconnect',
+                G: 'thermal:lumium_glass',
+                B: 'envirocore:kyronite_wafer',
+                C: 'envirocore:kyronite_interconnect',
                 S: '#envirocore:structure/panels'
             },
             id: `${id_prefix}kyronite_photovoltaic_panel`
