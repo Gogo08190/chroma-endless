@@ -56,12 +56,12 @@ onEvent('recipes', (event) => {
         },
         {
             output: 'ars_nouveau:enchanting_apparatus',
-            pattern: ['DGD', 'DAD', 'SSS'],
+            pattern: ['SSS', 'IGI', 'IAI'],
             key: {
                 S: 'ars_nouveau:arcane_stone',
-                D: 'elementalcraft:drenched_iron_block',
-                G: 'occultism:spirit_attuned_gem',
-                A: 'emendatusenigmatica:arcane_gem'
+                I: 'elementalcraft:swift_alloy_block',
+                G: 'emendatusenigmatica:arcane_block',
+                A: 'kubejs:spirit_attuned_block'
             },
             id: 'ars_nouveau:enchanting_apparatus'
         },
@@ -364,7 +364,6 @@ onEvent('recipes', (event) => {
             key: {
                 S: 'emendatusenigmatica:arcane_gem',
                 B: 'ars_nouveau:blaze_fiber'
-
             },
             id: 'ars_nouveau:apprentice_leggings'
         },
@@ -374,7 +373,6 @@ onEvent('recipes', (event) => {
             key: {
                 S: 'emendatusenigmatica:arcane_gem',
                 B: 'ars_nouveau:blaze_fiber'
-
             },
             id: 'ars_nouveau:apprentice_hood'
         },
@@ -384,9 +382,29 @@ onEvent('recipes', (event) => {
             key: {
                 S: 'emendatusenigmatica:arcane_gem',
                 B: 'ars_nouveau:blaze_fiber'
-
             },
             id: 'ars_nouveau:apprentice_boots'
+        },
+        {
+            output: 'ars_nouveau:arcane_core',
+            pattern: ['IAI', 'SAS', 'IAI'],
+            key: {
+                A: 'ars_nouveau:arcane_stone',
+                S: 'occultism:spirit_attuned_gem',
+                I: 'elementalcraft:swift_alloy_ingot'
+            },
+            id: 'ars_nouveau:arcane_core'
+        },
+        {
+            output: 'ars_nouveau:arcane_relay',
+            pattern: ['AAA', 'IGI', 'ISI'],
+            key: {
+                A: 'ars_nouveau:arcane_stone',
+                S: 'emendatusenigmatica:arcane_gem',
+                I: 'elementalcraft:swift_alloy_ingot',
+                G: 'occultism:spirit_attuned_gem'
+            },
+            id: 'ars_nouveau:arcane_relay'
         },
     ]
 

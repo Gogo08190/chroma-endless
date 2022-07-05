@@ -155,14 +155,14 @@ onEvent('recipes', (event) => {
       // Emerald Storage Upgrade
 
       {
-          output: 'resourcefulbees:diamond_storage_upgrade',
+          output: 'resourcefulbees:emerald_storage_upgrade',
           pattern: ['ECE', 'CAC', 'ECE'],
           key: {
               E: 'minecraft:emerald_block',
               C: 'expandedstorage:netherite_chest',
               A: 'resourcefulbees:apiary_storage'
           },
-          id: 'resourcefulbees:diamond_storage_upgrade'
+          id: 'resourcefulbees:emerald_storage_upgrade'
       },
 
       {

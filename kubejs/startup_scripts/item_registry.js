@@ -39,6 +39,7 @@ onEvent('item.registry', (event) => {
         'inert_luminessence',
         'enriched_terrasteel',
         'koepss',
+        'gogo',
         'contained_litherite_crystal',
         'solar_cell_base',
         'litherite_photovoltaic_panel',

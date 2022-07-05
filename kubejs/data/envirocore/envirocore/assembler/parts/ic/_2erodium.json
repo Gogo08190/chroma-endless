@@ -1,0 +1,24 @@
+{
+  "override": "replace",
+  "duration": {
+    "raw:int": 100
+  },
+  "top": {
+    "raw:item": "envirocore:erodium_crystal"
+  },
+  "bottom": {
+    "raw:item": "envirocore:erodium_crystal"
+  },
+  "left": {
+    "raw:item": "envirocore:erodium_crystal"
+  },
+  "right": {
+    "raw:item": "envirocore:erodium_crystal"
+  },
+  "center": {
+    "raw:item": "envirocore:litherite_interconnect"
+  },
+  "output": {
+    "raw:item": "envirocore:erodium_interconnect"
+  }
+}

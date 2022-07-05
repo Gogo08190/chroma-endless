@@ -1,0 +1,23 @@
+{
+  "duration": {
+    "raw:int": 100
+  },
+  "top": {
+    "raw:item": "envirocore:kyronite_interconnect"
+  },
+  "bottom": {
+    "raw:item": "mekanism:hdpe_sheet"
+  },
+  "left": {
+    "raw:item": "mekanism:elite_control_circuit"
+  },
+  "right": {
+    "raw:item": "mekanism:elite_control_circuit"
+  },
+  "center": {
+    "raw:item": "envirocore:erodium_frame"
+  },
+  "output": {
+    "raw:item": "envirocore:kyronite_frame"
+  }
+}

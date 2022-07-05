@@ -405,6 +405,22 @@ onEvent('recipes', (event) => {
         output: 'enderstorage:ender_tank',
         count: 1,
         id: 'enderstorage:ender_tank'
+      },
+      {
+        inputs: [
+          'botania:manasteel_block',
+          'botania:manasteel_block',
+          'botania:manasteel_block',
+          'botania:manasteel_block',
+          'botania:rune_mana',
+          'botania:rune_mana',
+          'botania:rune_mana',
+          'botania:rune_mana'
+        ],
+        mana: 250000,
+        output: 'botania:aura_ring',
+        count: 1,
+        id: 'botania:aura_ring'
       }
 
     ];

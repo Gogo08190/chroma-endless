@@ -144,7 +144,67 @@ onEvent('recipes', (event) => {
               R: 'enviroenergy:lightning_rod'
           },
           id: 'enviroenergy:block/lightning/ct_insulated_rod'
-      }
+      },
+      {
+        output: 'envirocore:erodium_boule',
+         pattern: ['P', 'C', 'C'],
+         key: {
+            C: 'envirocore:erodium_crystal',
+            P: 'envirocore:erodium_powder'
+              },
+         id: 'envirocore:items/boules/_2erodium'
+      },
+      {
+          output: 'kubejs:erodium_photovoltaic_panel',
+          pattern: ['GGG', 'BBB', 'CSC'],
+          key: {
+              G: 'thermal:lumium_glass',
+              B: 'envirocore:erodium_wafer',
+              C: 'envirocore:erodium_interconnect',
+              S: '#envirocore:structure/panels'
+          },
+          id: `${id_prefix}erodium_photovoltaic_panel`
+      },
+      {
+          output: 'envirocore:kyronite_boule',
+          pattern: ['P', 'C', 'C'],
+          key: {
+              C: 'envirocore:kyronite_crystal',
+              P: 'envirocore:kyronite_powder'
+          },
+          id: 'envirocore:items/boules/_3kyronite'
+      },
+      {
+          output: 'kubejs:kyronite_photovoltaic_panel',
+          pattern: ['GGG', 'BBB', 'CSC'],
+          key: {
+              G: 'thermal:lumium_glass',
+              B: 'envirocore:kyronite_wafer',
+              C: 'envirocore:kyronite_interconnect',
+              S: '#envirocore:structure/panels'
+          },
+          id: `${id_prefix}kyronite_photovoltaic_panel`
+      },
+      {
+          output: 'envirocore:pladium_boule',
+          pattern: ['P', 'C', 'C'],
+          key: {
+              C: 'envirocore:pladium_crystal',
+              P: 'envirocore:pladium_powder'
+          },
+          id: 'envirocore:items/boules/_4pladium'
+      },
+      {
+          output: 'kubejs:pladium_photovoltaic_panel',
+          pattern: ['GGG', 'BBB', 'CSC'],
+          key: {
+              G: 'thermal:lumium_glass',
+              B: 'envirocore:pladium_wafer',
+              C: 'envirocore:pladium_interconnect',
+              S: '#envirocore:structure/panels'
+          },
+          id: `${id_prefix}pladium_photovoltaic_panel`
+      },
     ];
 
     recipes.forEach((recipe) => {
