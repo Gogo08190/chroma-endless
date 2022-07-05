@@ -5,7 +5,7 @@ onEvent('recipes', (event) => {
           outputs: [
             {
               perTick: true,
-              type: 'masterfulmachinery:create_rotation', data: { speed: 128 }
+              type: 'masterfulmachinery:create_rotation', data: { speed: 1 }
             }
           ],
           inputs: [
