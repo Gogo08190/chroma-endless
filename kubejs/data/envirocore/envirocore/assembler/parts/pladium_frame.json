@@ -1,0 +1,23 @@
+{
+  "duration": {
+    "raw:int": 100
+  },
+  "top": {
+    "raw:item": "envirocore:pladium_interconnect"
+  },
+  "bottom": {
+    "raw:item": "mekanism:hdpe_sheet"
+  },
+  "left": {
+    "raw:item": "mekanism:ultimate_control_circuit"
+  },
+  "right": {
+    "raw:item": "mekanism:ultimate_control_circuit"
+  },
+  "center": {
+    "raw:item": "envirocore:kyronite_frame"
+  },
+  "output": {
+    "raw:item": "envirocore:pladium_frame"
+  }
+}

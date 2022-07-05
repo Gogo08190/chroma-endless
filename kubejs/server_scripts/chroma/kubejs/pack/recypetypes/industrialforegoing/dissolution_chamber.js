@@ -608,6 +608,63 @@ onEvent('recipes', (event) => {
             outputFluidAmount: 0,
             id: 'envirotech:block/void_miner/ct_kyronite'
         },
+        {
+            inputs: [
+                'envirocore:pladium_interconnect',
+                'enviroenergy:pladium_solar_cell',
+                'envirocore:pladium_interconnect',
+                'enviroenergy:pladium_solar_cell',
+                'enviroenergy:pladium_solar_cell',
+                'envirocore:pladium_interconnect',
+                'enviroenergy:kyronite_solar_ccu',
+                'envirocore:pladium_interconnect'
+            ],
+            inputFluid: 'mekanismgenerators:fusion_fuel',
+            inputFluidAmount: 8000,
+            processingTime: 300,
+            outputItem: { item: 'enviroenergy:pladium_solar_ccu', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'enviroenergy:block/solar/pladium'
+        },
+        {
+            inputs: [
+                'create:refined_radiance',
+                'enviroenergy:insulated_lightning_rod',
+                'create:refined_radiance',
+                'envirocore:pladium_interconnect',
+                'envirocore:pladium_interconnect',
+                'envirocore:pladium_interconnect',
+                'enviroenergy:kyronite_lightning_ccu',
+                'envirocore:pladium_interconnect'
+            ],
+            inputFluid: 'mekanismgenerators:fusion_fuel',
+            inputFluidAmount: 8000,
+            processingTime: 300,
+            outputItem: { item: 'enviroenergy:pladium_lightning_ccu', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'enviroenergy:block/lightning/ct_pladium'
+        },
+        {
+            inputs: [
+                'envirocore:pladium_interconnect',
+                'envirocore:laser_diode',
+                'envirocore:pladium_interconnect',
+                'envirocore:pladium_interconnect',
+                'envirocore:pladium_interconnect',
+                'envirocore:laser_core',
+                'envirotech:kyronite_void_miner_ccu',
+                'envirocore:laser_core'
+            ],
+            inputFluid: 'mekanismgenerators:fusion_fuel',
+            inputFluidAmount: 8000,
+            processingTime: 300,
+            outputItem: { item: 'envirotech:pladium_void_miner_ccu', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'envirotech:block/void_miner/ct_pladium'
+        },
     ];
 
     recipes.forEach((recipe) => {

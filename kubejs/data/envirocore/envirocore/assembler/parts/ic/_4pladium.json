@@ -1,0 +1,24 @@
+{
+  "override": "replace",
+  "duration": {
+    "raw:int": 100
+  },
+  "top": {
+    "raw:item": "envirocore:pladium_crystal"
+  },
+  "bottom": {
+    "raw:item": "envirocore:pladium_crystal"
+  },
+  "left": {
+    "raw:item": "envirocore:pladium_crystal"
+  },
+  "right": {
+    "raw:item": "envirocore:pladium_crystal"
+  },
+  "center": {
+    "raw:item": "envirocore:kyronite_interconnect"
+  },
+  "output": {
+    "raw:item": "envirocore:pladium_interconnect"
+  }
+}
