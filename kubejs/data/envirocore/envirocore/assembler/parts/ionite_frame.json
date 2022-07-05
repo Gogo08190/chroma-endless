@@ -1,0 +1,23 @@
+{
+  "duration": {
+    "raw:int": 100
+  },
+  "top": {
+    "raw:item": "envirocore:ionite_interconnect"
+  },
+  "bottom": {
+    "raw:item": "powah:crystal_nitro"
+  },
+  "left": {
+    "raw:item": "powah:capacitor_niotic"
+  },
+  "right": {
+    "raw:item": "powah:capacitor_niotic"
+  },
+  "center": {
+    "raw:item": "envirocore:pladium_frame"
+  },
+  "output": {
+    "raw:item": "envirocore:ionite_frame"
+  }
+}
