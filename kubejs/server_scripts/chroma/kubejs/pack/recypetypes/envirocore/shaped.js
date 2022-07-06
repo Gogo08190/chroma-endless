@@ -205,6 +205,46 @@ onEvent('recipes', (event) => {
           },
           id: `${id_prefix}pladium_photovoltaic_panel`
       },
+      {
+          output: 'envirocore:ionite_boule',
+          pattern: ['P', 'C', 'C'],
+          key: {
+              C: 'envirocore:ionite_crystal',
+              P: 'envirocore:ionite_powder'
+          },
+          id: 'envirocore:items/boules/_5ionite'
+      },
+      {
+          output: 'kubejs:ionite_photovoltaic_panel',
+          pattern: ['GGG', 'BBB', 'CSC'],
+          key: {
+              G: 'thermal:lumium_glass',
+              B: 'envirocore:ionite_wafer',
+              C: 'envirocore:ionite_interconnect',
+              S: '#envirocore:structure/panels'
+          },
+          id: `${id_prefix}ionite_photovoltaic_panel`
+      },
+      {
+          output: 'envirocore:aethium_boule',
+          pattern: ['P', 'C', 'C'],
+          key: {
+              C: 'envirocore:aethium_crystal',
+              P: 'envirocore:aethium_powder'
+          },
+          id: 'envirocore:items/boules/_6aethium'
+      },
+      {
+          output: 'kubejs:aethium_photovoltaic_panel',
+          pattern: ['GGG', 'BBB', 'CSC'],
+          key: {
+              G: 'thermal:lumium_glass',
+              B: 'envirocore:aethium_wafer',
+              C: 'envirocore:aethium_interconnect',
+              S: '#envirocore:structure/panels'
+          },
+          id: `${id_prefix}aethium_photovoltaic_panel`
+      },
     ];
 
     recipes.forEach((recipe) => {

@@ -1,0 +1,24 @@
+{
+  "override": "replace",
+  "duration": {
+    "raw:int": 100
+  },
+  "top": {
+    "raw:item": "envirocore:aethium_crystal"
+  },
+  "bottom": {
+    "raw:item": "envirocore:aethium_crystal"
+  },
+  "left": {
+    "raw:item": "envirocore:aethium_crystal"
+  },
+  "right": {
+    "raw:item": "envirocore:aethium_crystal"
+  },
+  "center": {
+    "raw:item": "envirocore:ionite_interconnect"
+  },
+  "output": {
+    "raw:item": "envirocore:aethium_interconnect"
+  }
+}

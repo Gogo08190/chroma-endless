@@ -1,0 +1,23 @@
+{
+  "duration": {
+    "raw:int": 100
+  },
+  "top": {
+    "raw:item": "envirocore:aethium_interconnect"
+  },
+  "bottom": {
+    "raw:item": "powah:crystal_nitro"
+  },
+  "left": {
+    "raw:item": "powah:capacitor_spirited"
+  },
+  "right": {
+    "raw:item": "powah:capacitor_spirited"
+  },
+  "center": {
+    "raw:item": "envirocore:ionite_frame"
+  },
+  "output": {
+    "raw:item": "envirocore:aethium_frame"
+  }
+}
