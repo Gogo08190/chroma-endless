@@ -265,6 +265,26 @@ onEvent('recipes', (event) => {
           },
           id: `${id_prefix}nanorite_photovoltaic_panel`
       },
+      {
+          output: 'envirocore:xerothium_boule',
+          pattern: ['P', 'C', 'C'],
+          key: {
+              C: 'envirocore:xerothium_crystal',
+              P: 'envirocore:xerothium_powder'
+          },
+          id: 'envirocore:items/boules/_8xerothium'
+      },
+      {
+          output: 'kubejs:xerothium_photovoltaic_panel',
+          pattern: ['GGG', 'BBB', 'CSC'],
+          key: {
+              G: 'thermal:lumium_glass',
+              B: 'envirocore:xerothium_wafer',
+              C: 'envirocore:xerothium_interconnect',
+              S: '#envirocore:structure/panels'
+          },
+          id: `${id_prefix}xerothium_photovoltaic_panel`
+      }
     ];
 
     recipes.forEach((recipe) => {

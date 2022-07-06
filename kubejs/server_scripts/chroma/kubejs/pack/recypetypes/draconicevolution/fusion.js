@@ -224,4 +224,139 @@ onEvent("recipes", (event) => {
             }
         ],
     }).id('envirotech:block/void_miner/ct_nanorite');
+
+    // Xerothium Solar CCU
+    event.recipes.draconicevolution.fusion_crafting({
+        result: {
+            item: "enviroenergy:xerothium_solar_ccu",
+            count: 1
+        },
+        catalyst: {
+            count: 1,
+            items: [
+              {
+                item: "enviroenergy:nanorite_solar_ccu"
+              }
+            ],
+            type: "draconicevolution:ingredient_stack"
+        },
+        total_energy: 200000000,
+        tier: "DRACONIC",
+        ingredients: [
+            {
+                item: "draconicevolution:awakened_core",
+            },
+            {
+                item: "draconicevolution:awakened_core",
+            },
+            {
+                item: "draconicevolution:awakened_core",
+            },
+            {
+                item: "draconicevolution:awakened_core",
+            },
+            {
+                item: "enviroenergy:xerothium_solar_cell",
+            },
+            {
+                item: "enviroenergy:xerothium_solar_cell",
+            },
+            {
+                item: "enviroenergy:xerothium_solar_cell",
+            },
+            {
+                item: "enviroenergy:xerothium_solar_cell",
+            }
+        ],
+    }).id('enviroenergy:block/solar/xerothium');
+
+    // Xerothium lightning Rod CCU
+    event.recipes.draconicevolution.fusion_crafting({
+        result: {
+            item: "enviroenergy:xerothium_lightning_ccu",
+            count: 1
+        },
+        catalyst: {
+            count: 1,
+            items: [
+              {
+                item: "enviroenergy:nanorite_lightning_ccu"
+              }
+            ],
+            type: "draconicevolution:ingredient_stack"
+        },
+        total_energy: 200000000,
+        tier: "DRACONIC",
+        ingredients: [
+            {
+                item: "draconicevolution:awakened_core",
+            },
+            {
+                item: "draconicevolution:awakened_core",
+            },
+            {
+                item: "draconicevolution:awakened_core",
+            },
+            {
+                item: "draconicevolution:awakened_core",
+            },
+            {
+                item: "envirocore:xerothium_frame",
+            },
+            {
+                item: "envirocore:xerothium_frame",
+            },
+            {
+                item: "envirocore:xerothium_frame",
+            },
+            {
+                item: "enviroenergy:insulated_lightning_rod",
+            }
+        ],
+    }).id('enviroenergy:block/lightning/ct_xerothium');
+
+    // Xerothium Void Miner CCU
+    event.recipes.draconicevolution.fusion_crafting({
+        result: {
+            item: "envirotech:xerothium_void_miner_ccu",
+            count: 1
+        },
+        catalyst: {
+            count: 1,
+            items: [
+              {
+                item: "envirotech:nanorite_void_miner_ccu"
+              }
+            ],
+            type: "draconicevolution:ingredient_stack"
+        },
+        total_energy: 200000000,
+        tier: "DRACONIC",
+        ingredients: [
+            {
+                item: "draconicevolution:awakened_core",
+            },
+            {
+                item: "draconicevolution:awakened_core",
+            },
+            {
+                item: "draconicevolution:awakened_core",
+            },
+            {
+                item: "draconicevolution:awakened_core",
+            },
+            {
+                item: "envirocore:xerothium_frame",
+            },
+            {
+                item: "envirocore:xerothium_frame",
+            },
+            {
+                item: "envirocore:laser_diode",
+            },
+            {
+                item: "envirocore:laser_core",
+            }
+        ],
+    }).id('envirotech:block/void_miner/ct_xerothium');
 });

@@ -1,0 +1,24 @@
+{
+  "override": "replace",
+  "duration": {
+    "raw:int": 100
+  },
+  "top": {
+    "raw:item": "envirocore:xerothium_crystal"
+  },
+  "bottom": {
+    "raw:item": "envirocore:xerothium_crystal"
+  },
+  "left": {
+    "raw:item": "envirocore:xerothium_crystal"
+  },
+  "right": {
+    "raw:item": "envirocore:xerothium_crystal"
+  },
+  "center": {
+    "raw:item": "envirocore:nanorite_interconnect"
+  },
+  "output": {
+    "raw:item": "envirocore:xerothium_interconnect"
+  }
+}
