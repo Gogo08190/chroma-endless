@@ -96,6 +96,23 @@ onEvent('recipes', (event) => {
               count: 1
           },
           id: 'envirotech:block/void_miner/ct_aethium'
+      },
+      //Ultimate Tier Installer
+      {
+          ingredients: [
+              { item: 'mekanism:ultimate_control_circuit' },
+              { item: 'mekanism:ultimate_control_circuit' },
+              { item: 'powah:nitro_crystal_block' },
+              { item: 'powah:nitro_crystal_block' },
+              { item: 'powah:capacitor_nitro' },
+              { item: 'mekanism:elite_tier_installer' }
+          ],
+          energy: 1000000,
+          result: {
+              item: 'mekanism:ultimate_tier_installer',
+              count: 1
+          },
+          id: 'mekanism:tier_installer/ultimate'
       }
     ];
 

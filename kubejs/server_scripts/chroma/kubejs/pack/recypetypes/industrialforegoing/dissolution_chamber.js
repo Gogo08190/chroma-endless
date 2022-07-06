@@ -665,6 +665,26 @@ onEvent('recipes', (event) => {
             outputFluidAmount: 0,
             id: 'envirotech:block/void_miner/ct_pladium'
         },
+        // Elite Tier Installer
+        {
+            inputs: [
+                'mekanism:elite_control_circuit',
+                'mekanism:advanced_tier_installer',
+                'mekanism:elite_control_circuit',
+                'industrialforegoing:plastic',
+                'industrialforegoing:plastic',
+                'mekanism:elite_control_circuit',
+                'minecraft:netherite_block',
+                'mekanism:elite_control_circuit'
+            ],
+            inputFluid: 'industrialforegoing:ether_gas',
+            inputFluidAmount: 2000,
+            processingTime: 300,
+            outputItem: { item: 'mekanism:elite_tier_installer', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'mekanism:tier_installer/elite'
+        },
     ];
 
     recipes.forEach((recipe) => {
