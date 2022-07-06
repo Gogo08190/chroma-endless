@@ -1,0 +1,23 @@
+{
+  "duration": {
+    "raw:int": 100
+  },
+  "top": {
+    "raw:item": "envirocore:nanorite_interconnect"
+  },
+  "bottom": {
+    "raw:item": "draconicevolution:wyvern_core"
+  },
+  "left": {
+    "raw:item": "draconicmachinery:redstone_core"
+  },
+  "right": {
+    "raw:item": "draconicmachinery:redstone_core"
+  },
+  "center": {
+    "raw:item": "envirocore:aethium_frame"
+  },
+  "output": {
+    "raw:item": "envirocore:nanorite_frame"
+  }
+}

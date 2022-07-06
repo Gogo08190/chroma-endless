@@ -245,6 +245,26 @@ onEvent('recipes', (event) => {
           },
           id: `${id_prefix}aethium_photovoltaic_panel`
       },
+      {
+          output: 'envirocore:nanorite_boule',
+          pattern: ['P', 'C', 'C'],
+          key: {
+              C: 'envirocore:nanorite_crystal',
+              P: 'envirocore:nanorite_powder'
+          },
+          id: 'envirocore:items/boules/_7nanorite'
+      },
+      {
+          output: 'kubejs:nanorite_photovoltaic_panel',
+          pattern: ['GGG', 'BBB', 'CSC'],
+          key: {
+              G: 'thermal:lumium_glass',
+              B: 'envirocore:nanorite_wafer',
+              C: 'envirocore:nanorite_interconnect',
+              S: '#envirocore:structure/panels'
+          },
+          id: `${id_prefix}nanorite_photovoltaic_panel`
+      },
     ];
 
     recipes.forEach((recipe) => {

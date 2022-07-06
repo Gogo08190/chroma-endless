@@ -1,5 +1,6 @@
 onEvent("recipes", (event) => {
 
+    // Centrifuge Controller Tier 5
     event.recipes.draconicevolution.fusion_crafting({
         result: {
             item: "ctiers:centrifuge_controller_tier_5",
@@ -41,6 +42,7 @@ onEvent("recipes", (event) => {
         ],
     }).id('centrifuge_controller_tier_5');
 
+    // Centrifuge Casing Tier 5
     event.recipes.draconicevolution.fusion_crafting({
         result: {
             item: "ctiers:centrifuge_casing_tier_5",
@@ -87,4 +89,49 @@ onEvent("recipes", (event) => {
             }
         ],
     }).id('centrifuge_casing_tier_5');
+
+    // Nanorite Solar CCU
+    event.recipes.draconicevolution.fusion_crafting({
+        result: {
+            item: "enviroenergy:nanorite_solar_ccu",
+            count: 1
+        },
+        catalyst: {
+            count: 1,
+            items: [
+              {
+                item: "enviroenergy:aethium_solar_ccu"
+              }
+            ],
+            type: "draconicevolution:ingredient_stack"
+        },
+        total_energy: 20000000,
+        tier: "WYVERN",
+        ingredients: [
+            {
+                item: "draconicevolution:wyvern_core",
+            },
+            {
+                item: "draconicevolution:wyvern_core",
+            },
+            {
+                item: "draconicevolution:wyvern_core",
+            },
+            {
+                item: "draconicevolution:wyvern_core",
+            },
+            {
+                item: "enviroenergy:nanorite_solar_cell",
+            },
+            {
+                item: "enviroenergy:nanorite_solar_cell",
+            },
+            {
+                item: "enviroenergy:nanorite_solar_cell",
+            },
+            {
+                item: "enviroenergy:nanorite_solar_cell",
+            }
+        ],
+    }).id('enviroenergy:block/solar/nanorite');
 });

@@ -390,6 +390,19 @@ onEvent('recipes', (event) => {
             ticks: 140,
             id: 'enviroenergy:block/solar_cell/ct_aethium'
         },
+
+        // Nanorite Solar Cell
+        {
+            outputs: [{ type: 'masterfulmachinery:items', data: { item: 'enviroenergy:nanorite_solar_cell', count: 1 } }],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'kubejs:nanorite_photovoltaic_panel', count: 1 } },
+                { type: 'masterfulmachinery:items', data: { item: 'kubejs:advanced_extreme_circuit_board', count: 1 } },
+                { type: 'masterfulmachinery:items', data: { item: 'enviroenergy:aethium_solar_cell', count: 1 } },
+                { type: 'masterfulmachinery:energy', data: { amount: 3000 } }
+            ],
+            ticks: 140,
+            id: 'enviroenergy:block/solar_cell/ct_nanorite'
+        },
     ];
 
     recipes.forEach((recipe) => {
