@@ -134,4 +134,94 @@ onEvent("recipes", (event) => {
             }
         ],
     }).id('enviroenergy:block/solar/nanorite');
+
+    // Nanorite lightning Rod CCU
+    event.recipes.draconicevolution.fusion_crafting({
+        result: {
+            item: "enviroenergy:nanorite_lightning_ccu",
+            count: 1
+        },
+        catalyst: {
+            count: 1,
+            items: [
+              {
+                item: "enviroenergy:aethium_lightning_ccu"
+              }
+            ],
+            type: "draconicevolution:ingredient_stack"
+        },
+        total_energy: 20000000,
+        tier: "WYVERN",
+        ingredients: [
+            {
+                item: "draconicevolution:wyvern_core",
+            },
+            {
+                item: "draconicevolution:wyvern_core",
+            },
+            {
+                item: "draconicevolution:wyvern_core",
+            },
+            {
+                item: "draconicevolution:wyvern_core",
+            },
+            {
+                item: "envirocore:nanorite_frame",
+            },
+            {
+                item: "envirocore:nanorite_frame",
+            },
+            {
+                item: "envirocore:nanorite_frame",
+            },
+            {
+                item: "enviroenergy:insulated_lightning_rod",
+            }
+        ],
+    }).id('enviroenergy:block/lightning/ct_nanorite');
+
+    // Nanorite Void Miner CCU
+    event.recipes.draconicevolution.fusion_crafting({
+        result: {
+            item: "envirotech:nanorite_void_miner_ccu",
+            count: 1
+        },
+        catalyst: {
+            count: 1,
+            items: [
+              {
+                item: "envirotech:aethium_void_miner_ccu"
+              }
+            ],
+            type: "draconicevolution:ingredient_stack"
+        },
+        total_energy: 20000000,
+        tier: "WYVERN",
+        ingredients: [
+            {
+                item: "draconicevolution:wyvern_core",
+            },
+            {
+                item: "draconicevolution:wyvern_core",
+            },
+            {
+                item: "draconicevolution:wyvern_core",
+            },
+            {
+                item: "draconicevolution:wyvern_core",
+            },
+            {
+                item: "envirocore:nanorite_frame",
+            },
+            {
+                item: "envirocore:nanorite_frame",
+            },
+            {
+                item: "envirocore:laser_diode",
+            },
+            {
+                item: "envirocore:laser_core",
+            }
+        ],
+    }).id('envirotech:block/void_miner/ct_nanorite');
 });
