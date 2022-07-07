@@ -284,6 +284,26 @@ onEvent('recipes', (event) => {
               S: '#envirocore:structure/panels'
           },
           id: `${id_prefix}xerothium_photovoltaic_panel`
+      },
+      {
+          output: 'envirocore:null_modifier',
+          pattern: ['AGA', 'GSG', 'AGA'],
+          key: {
+              A: 'enderioalloys:item_alloy_ingot_crystalline_alloy',
+              G: 'thermal:obsidian_glass',
+              S: '#envirocore:structure/panels'
+          },
+          id: 'envirocore:blocks/modifier/null_modifier'
+      },
+      {
+          output: 'envirocore:null_io',
+          pattern: ['AGA', 'GSG', 'AGA'],
+          key: {
+              A: '#forge:ingots/electrum',
+              G: 'enderioalloys:item_alloy_ingot_redstone_alloy',
+              S: '#envirocore:structure/panels'
+          },
+          id: 'envirocore:blocks/io/null_io'
       }
     ];
 
