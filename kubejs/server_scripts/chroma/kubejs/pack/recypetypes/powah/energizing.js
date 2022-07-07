@@ -113,6 +113,38 @@ onEvent('recipes', (event) => {
               count: 1
           },
           id: 'mekanism:tier_installer/ultimate'
+      },
+      {
+          ingredients: [
+              { item: 'ctiers:centrifuge_controller_tier_3' },
+              { item: 'powah:niotic_crystal_block' },
+              { item: 'powah:niotic_crystal_block' },
+              { item: 'powah:nitro_crystal_block' },
+              { item: 'extendedcrafting:luminessence_block' },
+              { item: 'extendedcrafting:luminessence_block' }
+          ],
+          energy: 10000000,
+          result: {
+              item: 'ctiers:centrifuge_controller_tier_4',
+              count: 1
+          },
+          id: `${id_prefix}centrifuge_controller_tier_4`
+      },
+      {
+          ingredients: [
+              { item: 'powah:nitro_crystal_block' },
+              { item: 'powah:niotic_crystal_block' },
+              { item: 'powah:niotic_crystal_block' },
+              { item: 'ctiers:centrifuge_casing_tier_3' },
+              { item: 'ctiers:centrifuge_casing_tier_3' },
+              { item: 'ctiers:centrifuge_casing_tier_3' }
+          ],
+          energy: 10000000,
+          result: {
+              item: 'ctiers:centrifuge_casing_tier_4',
+              count: 3
+          },
+          id: `${id_prefix}centrifuge_casing_tier_4`
       }
     ];
 
