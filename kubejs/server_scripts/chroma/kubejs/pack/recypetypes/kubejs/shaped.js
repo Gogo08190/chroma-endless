@@ -201,7 +201,42 @@ onEvent('recipes', (event) => {
               G: 'kubejs:unassembled_4096k_storage_part'
           },
           id: `${id_prefix}unassembled_16384k_storage_part`
-      }
+      },
+      // Basic Capacitor
+        {
+            output: 'kubejs:basic_capacitor',
+            pattern: [' RS', 'RVR', 'SR '],
+            key: {
+                V: 'immersiveengineering:electron_tube',
+                S: 'enderioalloys:item_alloy_ingot_redstone_alloy',
+                R: 'emendatusenigmatica:signalum_nugget'
+            },
+            id: `${id_prefix}basic_capacitor`
+        },
+
+        // Double-Layered Capacitor
+        {
+            output: 'kubejs:double-layer_capacitor',
+            pattern: ['E', 'BCB', 'E'],
+            key: {
+                E: 'enderioalloys:item_alloy_ingot_energetic_alloy',
+                C: 'emendatusenigmatica:coke_dust',
+                B: 'kubejs:basic_capacitor'
+            },
+            id: `${id_prefix}double_layer_capacitor`
+        },
+
+        // Octadic Capacitor
+        {
+            output: 'kubejs:octadic_capacitor',
+            pattern: ['V', 'CGC', 'V'],
+            key: {
+                V: 'enderioalloys:item_alloy_ingot_vibrant_alloy',
+                C: 'kubejs:double-layer_capacitor',
+                G: 'prefab:block_double_compressed_glowstone'
+            },
+            id: `${id_prefix}octadic_capacitor`
+        }
     ];
 
     recipes.forEach((recipe) => {
