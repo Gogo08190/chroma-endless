@@ -217,7 +217,7 @@ onEvent('recipes', (event) => {
         // Double-Layered Capacitor
         {
             output: 'kubejs:double-layer_capacitor',
-            pattern: ['E', 'BCB', 'E'],
+            pattern: [' E ', 'BCB', ' E '],
             key: {
                 E: 'enderioalloys:item_alloy_ingot_energetic_alloy',
                 C: 'emendatusenigmatica:coke_dust',
@@ -229,7 +229,7 @@ onEvent('recipes', (event) => {
         // Octadic Capacitor
         {
             output: 'kubejs:octadic_capacitor',
-            pattern: ['V', 'CGC', 'V'],
+            pattern: [' V ', 'CGC', ' V '],
             key: {
                 V: 'enderioalloys:item_alloy_ingot_vibrant_alloy',
                 C: 'kubejs:double-layer_capacitor',
