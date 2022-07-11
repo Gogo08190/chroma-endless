@@ -97,7 +97,7 @@ onEvent("recipes", (event) => {
         "item": "resourcefulbees:t1_apiary"
       }
     }
-  ).id(`${id_prefix}resourcefulbees:t1_apiary`)
+  ).id('resourcefulbees:t1_apiary')
 
     event.custom(
         {
@@ -136,7 +136,7 @@ onEvent("recipes", (event) => {
       "item": "resourcefulbees:t2_apiary"
     }
   }
-  ).id(`${id_prefix}resourcefulbees:t2_apiary`)
+  ).id('resourcefulbees:t2_apiary')
 
   event.custom(
       {
@@ -186,7 +186,7 @@ onEvent("recipes", (event) => {
       "item": "resourcefulbees:t3_apiary"
     }
   }
-  ).id(`${id_prefix}resourcefulbees:t3_apiary`)
+  ).id('resourcefulbees:t3_apiary')
 
   event.custom(
       {
@@ -250,6 +250,6 @@ onEvent("recipes", (event) => {
       "item": "resourcefulbees:t4_apiary"
     }
   }
-  ).id(`${id_prefix}resourcefulbees:t4_apiary`)
+  ).id('resourcefulbees:t4_apiary')
 
 });
