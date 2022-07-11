@@ -94,5 +94,7 @@ const disabledItems = [
     'mekanismtools:bronze_paxel',
     'mekanismtools:lapis_lazuli_paxel',
     'mekanismtools:osmium_paxel',
-    'mekanismtools:steel_paxel'
+    'mekanismtools:steel_paxel',
+
+    'emendatusenigmatica:enigmatic_hammer'
 ];
