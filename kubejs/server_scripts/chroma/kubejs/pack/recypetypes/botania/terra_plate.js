@@ -12,6 +12,17 @@ onEvent('recipes', (event) => {
     }*/
 
     const recipes = [
+      {
+          inputs: [
+              { item: 'botania:mana_pearl' },
+              { item: 'botania:mana_pearl' },
+              { item: 'botania:mana_pearl' },
+              { item: 'botania:mana_pearl' }
+          ],
+          output: { item: 'minecraft:stone' },
+          mana: 300000,
+          id: `${id_prefix}stone`
+      }
 
     ];
 
