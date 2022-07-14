@@ -62,6 +62,18 @@ onEvent('recipes', (event) => {
                 B: 'compactcrafting:base'
             },
             id: 'compactcrafting:field_projector'
+        },
+        {
+            output: 'masterfulmachinery:compactfactory_compact_item_port_items_input',
+            pattern: ['SCS', 'UPU', 'SFS'],
+            key: {
+                S: 'immersiveengineering:sheetmetal_steel',
+                C: 'create:smart_chute',
+                U: '#forge:ingots/utherium',
+                P: 'pipez:item_pipe',
+                F: 'ars_elemental:earth_focus'
+            },
+            id: `${id_prefix}compactfactory_compact_item_port_items_input`
         }
     ];
 
