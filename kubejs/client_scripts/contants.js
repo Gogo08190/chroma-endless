@@ -132,6 +132,7 @@ const itemsToHide = [
     // Masterfull machines
     'masterfulmachinery:assemblylaser_assembly_energy_port_energy_output',
     'masterfulmachinery:assemblylaser_assembly_air_port_pncr_pressure_output',
+    'masterfulmachinery:compactfactory_compact_energy_port_energy_output',
 
     'emendatusenigmatica:sulfur_ore',
     'emendatusenigmatica:cinnabar_ore',
