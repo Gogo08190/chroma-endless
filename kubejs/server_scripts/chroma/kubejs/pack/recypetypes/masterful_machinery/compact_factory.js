@@ -25,7 +25,18 @@ onEvent('recipes', (event) => {
           ticks: 150,
           id: 'compactmachines:machine_small'
       },
-
+      {
+          outputs: [{ type: 'masterfulmachinery:items', data: { item: 'compactmachines:machine_normal', count: 1 } }],
+          inputs: [
+              { type: 'masterfulmachinery:items', data: { item: 'compactmachines:wall', count: 32 } },
+              { type: 'masterfulmachinery:items', data: { item: 'emendatusenigmatica:gold_plate', count: 8 } },
+              { type: 'masterfulmachinery:items', data: { item: 'sophisticatedbackpacks:advanced_compacting_upgrade', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'compactmachines:machine_small', count: 1 } },
+              { type: 'masterfulmachinery:energy', perTick: true, data: { amount: 1000 } }
+          ],
+          ticks: 150,
+          id: 'compactmachines:machine_normal'
+      },
     ];
 
     recipes.forEach((recipe) => {
