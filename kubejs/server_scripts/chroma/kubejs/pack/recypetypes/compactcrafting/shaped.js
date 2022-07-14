@@ -94,7 +94,7 @@ onEvent('recipes', (event) => {
                 S: 'immersiveengineering:sheetmetal_steel',
                 C: 'immersiveengineering:capacitor_hv',
                 U: '#forge:ingots/utherium',
-                P: 'pipez:item_pipe',
+                P: 'pipez:energy_pipe',
                 F: 'ars_elemental:air_focus'
             },
             id: `${id_prefix}compactfactory_compact_energy_port_energy_input`
