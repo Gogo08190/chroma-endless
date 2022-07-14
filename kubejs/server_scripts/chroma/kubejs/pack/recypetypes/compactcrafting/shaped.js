@@ -1,15 +1,4 @@
 onEvent('recipes', (event) => {
-    /*
-        ,
-        {
-            output: '',
-            pattern: ['', '', ''],
-            key: {
-                A: ''
-            },
-            id: ''
-        }
-    */
     const id_prefix = 'chroma:pack/compact/shaped/';
     const recipes = [
 
@@ -42,7 +31,7 @@ onEvent('recipes', (event) => {
                 C: 'ars_nouveau:worn_notebook',
                 D: 'occultism:iesnium_ingot'
             },
-            id: `compactmachines:personal_shrinking_device`
+            id: 'compactmachines:personal_shrinking_device'
         },
         {
             output: 'compactcrafting:projector_dish',
@@ -52,7 +41,7 @@ onEvent('recipes', (event) => {
                 B: '#forge:plates/iron',
                 C: 'botania:mana_pearl'
             },
-            id: `compactcrafting:projector_dish`
+            id: 'compactcrafting:projector_dish'
         },
         {
             output: 'compactcrafting:base',
@@ -63,19 +52,16 @@ onEvent('recipes', (event) => {
                 C: 'minecraft:dark_prismarine',
                 D: '#forge:sheetmetals/iron'
             },
-            id: `compactcrafting:base`
+            id: 'compactcrafting:base'
         },
         {
             output: 'compactcrafting:field_projector',
-            pattern: [' A ', 'BCB', 'DED'],
+            pattern: ['T', 'B'],
             key: {
-                A: 'compactcrafting:projector_dish',
-                B: 'undergarden:sediment_glass_pane',
-                C: 'undergarden:cloggrum_ingot',
-                D: '#forge:sheetmetals/steel',
-                E: 'compactcrafting:base'
+                T: 'compactcrafting:projector_dish',
+                B: 'compactcrafting:base'
             },
-            id: `compactcrafting:field_projector`
+            id: 'compactcrafting:field_projector'
         }
     ];
 
