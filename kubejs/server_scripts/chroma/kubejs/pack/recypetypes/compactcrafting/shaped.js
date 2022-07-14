@@ -76,7 +76,7 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}compactfactory_compact_item_port_items_input`
         },
         {
-            output: 'masterfulmachinery:compactfactory_compact_item_port_items_input',
+            output: 'masterfulmachinery:compactfactory_compact_item_port_items_output',
             pattern: ['SFS', 'UPU', 'SCS'],
             key: {
                 S: 'immersiveengineering:sheetmetal_steel',
@@ -85,7 +85,19 @@ onEvent('recipes', (event) => {
                 P: 'pipez:item_pipe',
                 F: 'ars_elemental:fire_focus'
             },
-            id: `${id_prefix}compactfactory_compact_item_port_items_input`
+            id: `${id_prefix}compactfactory_compact_item_port_items_output`
+        },
+        {
+            output: 'masterfulmachinery:compactfactory_compact_energy_port_energy_input',
+            pattern: ['SFS', 'UPU', 'SCS'],
+            key: {
+                S: 'immersiveengineering:sheetmetal_steel',
+                C: 'immersiveengineering:capacitor_hv',
+                U: '#forge:ingots/utherium',
+                P: 'pipez:item_pipe',
+                F: 'ars_elemental:air_focus'
+            },
+            id: `${id_prefix}compactfactory_compact_energy_port_energy_input`
         }
     ];
 
