@@ -230,7 +230,38 @@ onEvent('recipes', (event) => {
           id: 'masterfulmachinery:assemblylaser_controller',
           Count: 1
         }]
-      }
+      },
+      {
+        recipeSize: 3,
+        layers: [
+          {
+            type: 'compactcrafting:mixed',
+            pattern: [
+              ["R", "R", "R"],
+              ["R", "S", "R"],
+              ["R", "R", "R",],
+            ]
+          }
+        ],
+        catalyst: {
+          id: 'extendedcrafting:redstone_ingot',
+          Count: 1
+        },
+        components: {
+          'R': {
+            type: "compactcrafting:block",
+            block: 'minecraft:redstone_wire'
+          },
+          'S': {
+            type: "compactcrafting:block",
+            block: 'pneumaticcraft:compressed_iron_block'
+          }
+        },
+        outputs: [{
+          id: 'compactmachines:wall',
+          Count: 4
+        }]
+      },
     ];
 
     recipes.forEach((recipe) => {
