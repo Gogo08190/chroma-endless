@@ -74,6 +74,18 @@ onEvent('recipes', (event) => {
                 F: 'ars_elemental:earth_focus'
             },
             id: `${id_prefix}compactfactory_compact_item_port_items_input`
+        },
+        {
+            output: 'masterfulmachinery:compactfactory_compact_item_port_items_input',
+            pattern: ['SFS', 'UPU', 'SCS'],
+            key: {
+                S: 'immersiveengineering:sheetmetal_steel',
+                C: 'engineersdecor:factory_hopper',
+                U: '#forge:ingots/utherium',
+                P: 'pipez:item_pipe',
+                F: 'ars_elemental:fire_focus'
+            },
+            id: `${id_prefix}compactfactory_compact_item_port_items_input`
         }
     ];
 
