@@ -37,6 +37,18 @@ onEvent('recipes', (event) => {
           ticks: 150,
           id: 'compactmachines:machine_normal'
       },
+      {
+          outputs: [{ type: 'masterfulmachinery:items', data: { item: 'compactmachines:machine_large', count: 1 } }],
+          inputs: [
+              { type: 'masterfulmachinery:items', data: { item: 'compactmachines:wall', count: 48 } },
+              { type: 'masterfulmachinery:items', data: { item: 'thermal:upgrade_augment_1', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'prefab:block_compressed_obsidian', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'compactmachines:machine_normal', count: 1 } },
+              { type: 'masterfulmachinery:energy', perTick: true, data: { amount: 1250 } }
+          ],
+          ticks: 150,
+          id: 'compactmachines:machine_large'
+      },
     ];
 
     recipes.forEach((recipe) => {
