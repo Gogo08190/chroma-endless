@@ -37,7 +37,7 @@ onEvent('recipes', (event) => {
             output: 'compactcrafting:projector_dish',
             pattern: ['AB ', 'ACB', 'AB '],
             key: {
-                A: 'undergarden:sediment_glass_pane',
+                A: '#forge:glass_panes',
                 B: '#forge:plates/iron',
                 C: 'botania:mana_pearl'
             },
