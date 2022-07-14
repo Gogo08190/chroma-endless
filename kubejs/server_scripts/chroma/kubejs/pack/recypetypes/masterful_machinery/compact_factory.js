@@ -49,6 +49,18 @@ onEvent('recipes', (event) => {
           ticks: 150,
           id: 'compactmachines:machine_large'
       },
+      {
+          outputs: [{ type: 'masterfulmachinery:items', data: { item: 'compactmachines:machine_giant', count: 1 } }],
+          inputs: [
+              { type: 'masterfulmachinery:items', data: { item: 'compactmachines:wall', count: 64 } },
+              { type: 'masterfulmachinery:items', data: { item: 'thermal:upgrade_augment_2', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'botania:mana_diamond_block', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'compactmachines:machine_large', count: 1 } },
+              { type: 'masterfulmachinery:energy', perTick: true, data: { amount: 1500 } }
+          ],
+          ticks: 150,
+          id: 'compactmachines:machine_giant'
+      },
     ];
 
     recipes.forEach((recipe) => {
