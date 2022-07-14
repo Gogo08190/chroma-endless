@@ -61,6 +61,17 @@ onEvent('recipes', (event) => {
           ticks: 150,
           id: 'compactmachines:machine_giant'
       },
+      {
+          outputs: [{ type: 'masterfulmachinery:items', data: { item: 'compactmachines:machine_maximum', count: 1 } }],
+          inputs: [
+              { type: 'masterfulmachinery:items', data: { item: 'compactmachines:wall', count: 128 } },
+              { type: 'masterfulmachinery:items', data: { item: 'cagedmobs:star_infused_netherite_ingot', count: 8 } },
+              { type: 'masterfulmachinery:items', data: { item: 'compactmachines:machine_giant', count: 1 } },
+              { type: 'masterfulmachinery:energy', perTick: true, data: { amount: 1750 } }
+          ],
+          ticks: 150,
+          id: 'compactmachines:machine_maximum'
+      },
     ];
 
     recipes.forEach((recipe) => {
