@@ -10,9 +10,22 @@ onEvent('recipes', (event) => {
               { type: 'masterfulmachinery:items', data: { item: 'emendatusenigmatica:brass_gear', count: 1 } },
               { type: 'masterfulmachinery:energy', perTick: true, data: { amount: 500 } }
           ],
-          ticks: 240,
+          ticks: 150,
           id: 'compactmachines:machine_tiny'
       },
+      {
+          outputs: [{ type: 'masterfulmachinery:items', data: { item: 'compactmachines:machine_small', count: 1 } }],
+          inputs: [
+              { type: 'masterfulmachinery:items', data: { item: 'compactmachines:wall', count: 16 } },
+              { type: 'masterfulmachinery:items', data: { item: 'elementalcraft:drenched_iron_block', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:redstone_ingot', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'compactmachines:machine_tiny', count: 1 } },
+              { type: 'masterfulmachinery:energy', perTick: true, data: { amount: 750 } }
+          ],
+          ticks: 150,
+          id: 'compactmachines:machine_small'
+      },
+
     ];
 
     recipes.forEach((recipe) => {
