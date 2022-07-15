@@ -97,6 +97,55 @@ onEvent('recipes', (event) => {
             A: '#forge:ingots/andesite_alloy'
           },
           id: 'minecraft:brewing_stand'
+        },
+        //Hopper
+        {
+          output: 'minecraft:hopper',
+          pattern:['P P','PCP',' P '],
+          key: {
+            C: '#forge:chests',
+            P: '#forge:plates/iron'
+          },
+          id: 'minecraft:hopper'
+        },
+        //Cauldron
+        {
+          output: 'minecraft:cauldron',
+          pattern:['P P','P P','PPP'],
+          key: {
+            P: '#forge:plates/iron'
+          },
+          id: 'minecraft:cauldron'
+        },
+        //Shield
+        {
+          output: 'minecraft:shield',
+          pattern:['WPW','WWW',' W '],
+          key: {
+            P: '#forge:plates/iron',
+            W: '#minecraft:planks'
+          },
+          id: 'minecraft:shield'
+        },
+        //Clock
+        {
+          output: 'minecraft:clock',
+          pattern:[' P ','PRP',' P '],
+          key: {
+            P: '#forge:plates/gold',
+            R: 'extendedcrafting:redstone_ingot'
+          },
+          id: 'minecraft:clock'
+        },
+        //Compass
+        {
+          output: 'minecraft:compass',
+          pattern:[' P ','PRP',' P '],
+          key: {
+            P: '#forge:plates/iron',
+            R: 'extendedcrafting:redstone_ingot'
+          },
+          id: 'minecraft:compass'
         }
     ];
 
