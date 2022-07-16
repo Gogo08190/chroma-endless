@@ -7,7 +7,7 @@
   "traits": ["sedimentary", "can_swim"],
   "baseLayerTexture": "ores/niotic_crystal",
   "ColorData": {
-      "honeycombColor:" "#0099b7"
+      "honeycombColor:" "#0099b7",
       "isBeeColored": false,
       "isRainbowBee": false,
       "isGlowing": false,

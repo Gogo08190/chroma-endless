@@ -7,7 +7,7 @@
   "traits": ["sedimentary", "can_swim"],
   "baseLayerTexture": "ores/energized_steel",
   "ColorData": {
-      "honeycombColor:" "#a78f65"
+      "honeycombColor:" "#a78f65",
       "isBeeColored": false,
       "isRainbowBee": false,
       "isGlowing": false,
