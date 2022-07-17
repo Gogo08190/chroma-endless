@@ -136,7 +136,7 @@ onEvent('fluid.registry', (event) => {
             type: 'thick',
             id: 'silicon_oil',
             texture: '0xcecac5',
-            display: 'Silicon Oil
+            display: 'Silicon Oil'
         }
     ];
 
