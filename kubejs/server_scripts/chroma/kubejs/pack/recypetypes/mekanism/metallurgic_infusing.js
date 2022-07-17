@@ -1,14 +1,6 @@
 onEvent('recipes', (event) => {
     const id_prefix = 'chroma:pack/mekanism/metallurgic_infusing/';
 
-    /*{
-        output: ',
-        input: '',
-        infusionInput: 'mekanism:redstone',
-        infusionAmount: 10,
-        id: ''
-    }*/
-
     const recipes = [
 
       //Refined Obsidian Dust
@@ -81,6 +73,15 @@ onEvent('recipes', (event) => {
         infusionInput: 'mekanism:refined_obsidian',
         infusionAmount: 80,
         id: 'mekanism:metallurgic_infuser/control_circuit/ultimate'
+      },
+
+      //Dielectric Paste
+      {
+        output: 'powah:dielectric_paste',
+        input: 'kubejs:silicon_grease',
+        infusionInput: 'mekanism:carbon',
+        infusionAmount: 40,
+        id: 'powah:crafting/dielectric_paste'
       },
 
     ];
