@@ -16,7 +16,7 @@ onEvent('recipes', (event) => {
         ],
         pointer: 0,
         catalyst: {
-            item: 'industrialforegoing:laser_lens4'
+            item: 'industrialforegoing:laser_lens8'
         },
         entity: 'minecraft:empty',
         type: 'industrialforegoing:laser_drill_fluid'
