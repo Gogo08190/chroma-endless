@@ -8,7 +8,7 @@ onEvent('recipes', (event) => {
                 { name: 'resourcefulbees:xion_honey', amount: 500 },
                 { name: 'kubejs:molten_mana_diamond', amount: 1152 },
                 { name: 'tconstruct:molten_brass', amount: 576 },
-                { name: 'emendatusenigmatica:molten_steel', amount: 576 },
+                { name: 'tconstruct:molten_steel', amount: 576 },
                 { name: 'kubejs:molten_nether_star', amount: 288 }
             ],
             result: { fluid: 'kubejs:mesophase', amount: 1000 },
