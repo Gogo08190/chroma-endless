@@ -41,8 +41,6 @@ onEvent('recipes', (event) => {
 
         'morevanillalib:obsidian_shard',
 
-        'powah:uraninite',
-
         'simplefarming:raw_bacon',
 
         'storagedrawers:conversion_upgrade',
