@@ -32,11 +32,11 @@ onEvent('recipes', (event) => {
       {
           fluid_input: { type: 'pneumaticcraft:fluid', fluid: 'kubejs:silicon_oil', amount: 500 },
           item_input: { item: 'minecraft:blaze_powder', count: 1 },
-          item_output: { item: 'rftoolspower:power_core1', count: 1 },
+          item_output: { item: 'kubejs:silicon_grease', count: 1 },
           pressure: 2.0,
           exothermic: false,
-          temperature: { min_temp: 1973 },
-          id: 'rftoolspower:power_core1'
+          temperature: { min_temp: 500 },
+          id: `${id_prefix}silicon_grease`
       }
     ];
 
