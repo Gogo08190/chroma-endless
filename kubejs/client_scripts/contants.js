@@ -263,13 +263,6 @@ const itemsToHide = [
     'pedestals:coin/quarryb',
     'pedestals:coin/restriction',
 
-    'powah:uraninite_ore',
-    'powah:uraninite_ore_dense',
-    'powah:uraninite_ore_poor',
-    'powah:uraninite_raw',
-    'powah:uraninite_raw_dense',
-    'powah:uraninite_raw_poor',
-
     'quark:biotite',
     'quark:biotite_ore',
     'quark:tallow',
