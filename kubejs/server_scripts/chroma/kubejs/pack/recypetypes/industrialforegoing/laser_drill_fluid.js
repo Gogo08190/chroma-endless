@@ -1,4 +1,6 @@
 onEvent('recipes', (event) => {
+    var nether_end_biomes = end_biomes.concat(nether_biomes);
+
     event.recipes.industrialforegoing.laser_drill_fluid({
         type: 'industrialforegoing.laser_drill_fluid',
         output: '{FluidName:"kubejs:silicon_oil",Amount:50}',
