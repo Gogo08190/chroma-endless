@@ -25,7 +25,7 @@ onEvent('recipes', (event) => {
                 E: 'tconstruct:enderman_head',
                 C: 'minecraft:creeper_head'
             },
-            id: `${id_prefix}slice_n_plice`
+            id: `${id_prefix}soul_binder`
         }, 
         // Alloy Smelter
         {
@@ -40,7 +40,7 @@ onEvent('recipes', (event) => {
                 G: 'enderioalloys:item_material_gear_iron',
                 C: 'minecraft:cauldron'
             },
-            id: `${id_prefix}slice_n_plice`
+            id: `${id_prefix}alloy_smelter`
         }, 
     ];
 
