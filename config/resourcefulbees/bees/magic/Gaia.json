@@ -6,10 +6,9 @@
     "maxTimeInHive": 6000,
     "hasHoneycomb": true,
     "traits": ["sedimentary", "can_swim"],
-    "baseLayerTexture": "magic/gaya",
+    "baseLayerTexture": "magic/gaia",
     "ColorData": {
-    "honeycombColor": "#606060",
-    "isRainbowBee": true,
+    "honeycombColor": "#92858f",
     "modelType": "ORE"
     },
     "CombatData": {
