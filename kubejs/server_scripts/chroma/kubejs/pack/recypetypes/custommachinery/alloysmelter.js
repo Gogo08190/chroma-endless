@@ -21,7 +21,7 @@ onEvent('recipes', event => {
 
   event.recipes.custommachinery.custom_machine("custommachinery:alloy_smelter", 100)
   .requireItem('emendatusenigmatica:steel_ingot')
-  .requireItem('thermal:crude_oil_bucket')
+  .requireItem('thermal:tar')
   .requireEnergyPerTick(120)
   .produceItem(Item.of('enderioalloys:item_alloy_ingot_crude_steel', 1))
 
