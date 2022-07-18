@@ -677,7 +677,7 @@ onEvent('recipes', (event) => {
                 'minecraft:netherite_block',
                 'mekanism:elite_control_circuit'
             ],
-            inputFluid: 'mekanism:refined_glowstone',
+            inputFluid: 'mekanism:molten_refined_glowstone',
             inputFluidAmount: 2000,
             processingTime: 300,
             outputItem: { item: 'mekanism:elite_tier_installer', count: 1 },
@@ -697,7 +697,7 @@ onEvent('recipes', (event) => {
                 'createdeco:netherite_sheet',
                 'mekanism:elite_control_circuit'
             ],
-            inputFluid: 'mekanism:refined_glowstone',
+            inputFluid: 'mekanism:molten_refined_glowstone',
             inputFluidAmount: 2000,
             processingTime: 300,
             outputItem: { item: 'mekanism:elite_smelting_factory', count: 1 },
@@ -717,7 +717,7 @@ onEvent('recipes', (event) => {
                 'createdeco:netherite_sheet',
                 'mekanism:elite_control_circuit'
             ],
-            inputFluid: 'mekanism:refined_glowstone',
+            inputFluid: 'mekanism:molten_refined_glowstone',
             inputFluidAmount: 2000,
             processingTime: 300,
             outputItem: { item: 'mekanism:elite_enriching_factory', count: 1 },
@@ -737,7 +737,7 @@ onEvent('recipes', (event) => {
                 'createdeco:netherite_sheet',
                 'mekanism:elite_control_circuit'
             ],
-            inputFluid: 'mekanism:refined_glowstone',
+            inputFluid: 'mekanism:molten_refined_glowstone',
             inputFluidAmount: 2000,
             processingTime: 300,
             outputItem: { item: 'mekanism:elite_crushing_factory', count: 1 },
@@ -757,7 +757,7 @@ onEvent('recipes', (event) => {
                 'createdeco:netherite_sheet',
                 'mekanism:elite_control_circuit'
             ],
-            inputFluid: 'mekanism:refined_glowstone',
+            inputFluid: 'mekanism:molten_refined_glowstone',
             inputFluidAmount: 2000,
             processingTime: 300,
             outputItem: { item: 'mekanism:elite_compressing_factory', count: 1 },
@@ -777,7 +777,7 @@ onEvent('recipes', (event) => {
                 'createdeco:netherite_sheet',
                 'mekanism:elite_control_circuit'
             ],
-            inputFluid: 'mekanism:refined_glowstone',
+            inputFluid: 'mekanism:molten_refined_glowstone',
             inputFluidAmount: 2000,
             processingTime: 300,
             outputItem: { item: 'mekanism:elite_combining_factory', count: 1 },
@@ -797,7 +797,7 @@ onEvent('recipes', (event) => {
                 'createdeco:netherite_sheet',
                 'mekanism:elite_control_circuit'
             ],
-            inputFluid: 'mekanism:refined_glowstone',
+            inputFluid: 'mekanism:molten_refined_glowstone',
             inputFluidAmount: 2000,
             processingTime: 300,
             outputItem: { item: 'mekanism:elite_infusing_factory', count: 1 },
@@ -817,7 +817,7 @@ onEvent('recipes', (event) => {
                 'createdeco:netherite_sheet',
                 'mekanism:elite_control_circuit'
             ],
-            inputFluid: 'mekanism:refined_glowstone',
+            inputFluid: 'mekanism:molten_refined_glowstone',
             inputFluidAmount: 2000,
             processingTime: 300,
             outputItem: { item: 'mekanism:elite_sawing_factory', count: 1 },
