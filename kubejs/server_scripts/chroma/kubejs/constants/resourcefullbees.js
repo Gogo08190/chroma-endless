@@ -26,6 +26,7 @@ const honeyVarieties = [
     'resourcefulbees:niotic_crystal_honey',
     'resourcefulbees:nitro_crystal_honey',
     'resourcefulbees:crystal_spirited_honey',
+    'resourcefulbees:gaia_honey',
     'resourcefulbees:uraninite_honey',
     'resourcefulbees:elementium_honey',
     'resourcefulbees:manasteel_honey',
