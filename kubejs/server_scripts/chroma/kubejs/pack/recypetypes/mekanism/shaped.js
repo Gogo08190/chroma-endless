@@ -42,10 +42,11 @@ onEvent('recipes', (event) => {
         //Basic Chemical Tank
         {
           output: 'mekanism:basic_chemical_tank',
-          pattern: ['RIR','I I','RIR'],
+          pattern: ['RIR','IGI','RIR'],
           key: {
             R: 'extendedcrafting:redstone_ingot',
-            I: 'occultism:iesnium_ingot'
+            I: 'occultism:iesnium_ingot',
+            G: 'pneumaticcraft:gas_lift'
           },
           id: 'mekanism:chemical_tank/basic'
         },
@@ -82,6 +83,51 @@ onEvent('recipes', (event) => {
           },
           id: 'mekanism:chemical_tank/ultimate'
         },
+        //Basic Fluid Tank
+        {
+          output: 'mekanism:basic_fluid_tank',
+          pattern: ['RSR','SCS','RSR'],
+          key: {
+            S: 'emendatusenigmatica:steel_ingot',
+            R: 'extendedcrafting:redstone_ingot',
+            C: 'industrialforegoing:common_black_hole_tank'
+          },
+          id: 'mekanism:fluid_tank/basic'
+        },
+        //Advanced Fluid Tank
+        {
+          output: 'mekanism:advanced_fluid_tank',
+          pattern: ['ACA','CBC','ACA'],
+          key: {
+            A: 'mekanism:alloy_infused',
+            C: 'pneumaticcraft:ingot_iron_compressed',
+            B: 'mekanism:basic_fluid_tank'
+          },
+          id: 'mekanism:fluid_tank/advanced'
+        },
+        //Elite Fluid Tank
+        {
+          output: 'mekanism:elite_fluid_tank',
+          pattern: ['RER','EAE','RER'],
+          key: {
+            R: 'mekanism:alloy_reinforced',
+            E: 'enderioalloys:item_alloy_ingot_energetic_silver',
+            A: 'mekanism:advanced_fluid_tank'
+          },
+          id: 'mekanism:fluid_tank/elite'
+        },
+        //Elite Fluid Tank
+        {
+          output: 'mekanism:ultimate_fluid_tank',
+          pattern: ['ANA','NEN','ANA'],
+          key: {
+            A: 'mekanism:alloy_atomic',
+            N: 'createdeco:netherite_sheet',
+            E: 'mekanism:elite_fluid_tank'
+          },
+          id: 'mekanism:fluid_tank/ultimate
+        },
+    ];
     ];
 
     recipes.forEach((recipe) => {
