@@ -116,7 +116,7 @@ onEvent('recipes', (event) => {
             'powah:capacitor_basic_large',
             'powah:capacitor_basic_large',
             'powah:capacitor_basic_large',
-            'powah:capacitor_basic_large',
+            'powah:capacitor_basic_large'
           ],
           reagent: 'powah:ender_core',
           sourceCost: 5000,
