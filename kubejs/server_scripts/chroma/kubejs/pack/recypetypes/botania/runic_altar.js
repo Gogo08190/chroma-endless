@@ -421,6 +421,20 @@ onEvent('recipes', (event) => {
         output: 'botania:aura_ring',
         count: 1,
         id: 'botania:aura_ring'
+      },
+      {
+        inputs: [
+          'powah:dielectric_paste',
+          'powah:dielectric_paste',
+          'emendatusenigmatica:steel_ingot',
+          'emendatusenigmatica:steel_ingot',
+          'emendatusenigmatica:steel_ingot',
+          'enderioalloys:block_alloy_redstone_alloy'
+        ],
+        mana: 5000,
+        output: 'powah:capacitor_basic',
+        count: 1,
+        id: 'powah:crafting/capacitor_basic'
       }
 
     ];
