@@ -145,6 +145,125 @@ onEvent('recipes', (event) => {
               count: 3
           },
           id: `${id_prefix}centrifuge_casing_tier_4`
+      },
+      //Ultimate Smelting Factory
+      {
+          ingredients: [
+              { item: 'mekanism:ultimate_control_circuit' },
+              { item: 'mekanism:ultimate_control_circuit' },
+              { item: 'powah:nitro_crystal_block' },
+              { item: 'powah:nitro_crystal_block' },
+              { item: 'powah:capacitor_nitro' },
+              { item: 'mekanism:elite_smelting_factory' }
+          ],
+          energy: 1000000,
+          result: {
+              item: 'mekanism:ultimate_smelting_factory',
+              count: 1
+          },
+          id: 'mekanism:factory/ultimate/smelting'
+      },
+      //Ultimate Enriching Factory
+      {
+          ingredients: [
+              { item: 'mekanism:ultimate_control_circuit' },
+              { item: 'mekanism:ultimate_control_circuit' },
+              { item: 'powah:nitro_crystal_block' },
+              { item: 'powah:nitro_crystal_block' },
+              { item: 'powah:capacitor_nitro' },
+              { item: 'mekanism:elite_enriching_factory' }
+          ],
+          energy: 1000000,
+          result: {
+              item: 'mekanism:ultimate_enriching_factory',
+              count: 1
+          },
+          id: 'mekanism:factory/ultimate/enriching'
+      },
+      //Ultimate Crushing Factory
+      {
+          ingredients: [
+              { item: 'mekanism:ultimate_control_circuit' },
+              { item: 'mekanism:ultimate_control_circuit' },
+              { item: 'powah:nitro_crystal_block' },
+              { item: 'powah:nitro_crystal_block' },
+              { item: 'powah:capacitor_nitro' },
+              { item: 'mekanism:elite_crushing_factory' }
+          ],
+          energy: 1000000,
+          result: {
+              item: 'mekanism:ultimate_crushing_factory',
+              count: 1
+          },
+          id: 'mekanism:factory/ultimate/crushing'
+      },
+      //Ultimate Compressing Factory
+      {
+          ingredients: [
+              { item: 'mekanism:ultimate_control_circuit' },
+              { item: 'mekanism:ultimate_control_circuit' },
+              { item: 'powah:nitro_crystal_block' },
+              { item: 'powah:nitro_crystal_block' },
+              { item: 'powah:capacitor_nitro' },
+              { item: 'mekanism:elite_compressing_factory' }
+          ],
+          energy: 1000000,
+          result: {
+              item: 'mekanism:ultimate_compressing_factory',
+              count: 1
+          },
+          id: 'mekanism:factory/ultimate/compressing'
+      },
+      //Ultimate Combining Factory
+      {
+          ingredients: [
+              { item: 'mekanism:ultimate_control_circuit' },
+              { item: 'mekanism:ultimate_control_circuit' },
+              { item: 'powah:nitro_crystal_block' },
+              { item: 'powah:nitro_crystal_block' },
+              { item: 'powah:capacitor_nitro' },
+              { item: 'mekanism:elite_combining_factory' }
+          ],
+          energy: 1000000,
+          result: {
+              item: 'mekanism:ultimate_combining_factory',
+              count: 1
+          },
+          id: 'mekanism:factory/ultimate/combining'
+      },
+      //Ultimate Infusing Factory
+      {
+          ingredients: [
+              { item: 'mekanism:ultimate_control_circuit' },
+              { item: 'mekanism:ultimate_control_circuit' },
+              { item: 'powah:nitro_crystal_block' },
+              { item: 'powah:nitro_crystal_block' },
+              { item: 'powah:capacitor_nitro' },
+              { item: 'mekanism:elite_infusing_factory' }
+          ],
+          energy: 1000000,
+          result: {
+              item: 'mekanism:ultimate_infusing_factory',
+              count: 1
+          },
+          id: 'mekanism:factory/ultimate/infusing'
+      },
+      //Ultimate Sawing Factory
+      {
+          ingredients: [
+              { item: 'mekanism:ultimate_control_circuit' },
+              { item: 'mekanism:ultimate_control_circuit' },
+              { item: 'powah:nitro_crystal_block' },
+              { item: 'powah:nitro_crystal_block' },
+              { item: 'powah:capacitor_nitro' },
+              { item: 'mekanism:elite_sawing_factory' }
+          ],
+          energy: 1000000,
+          result: {
+              item: 'mekanism:ultimate_sawing_factory',
+              count: 1
+          },
+          id: 'mekanism:factory/ultimate/sawing'
       }
     ];
 
