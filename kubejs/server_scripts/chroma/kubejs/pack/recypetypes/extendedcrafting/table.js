@@ -72,7 +72,7 @@ onEvent("recipes", (event) => {
       ],
       "key": {
         "A": {
-          "tag": "#resourcefulbees:resourceful_honeycomb_block"
+          "tag": "resourcefulbees:resourceful_honeycomb_block"
         },
         "B": {
           "item": "resourcefulbees:waxed_machine_block"
@@ -120,7 +120,7 @@ onEvent("recipes", (event) => {
         "item": "enderioalloys:item_alloy_ingot_stellar_alloy"
       },
       "D": {
-        "tag": "#resourcefulbees:resourceful_honeycomb_block"
+        "tag": "resourcefulbees:resourceful_honeycomb_block"
       },
       "E": {
         "item": "extendedcrafting:nether_star_block"
@@ -164,7 +164,7 @@ onEvent("recipes", (event) => {
         "item": "botania:terrasteel_block"
       },
       "E": {
-        "tag": "#resourcefulbees:resourceful_honeycomb_block"
+        "tag": "resourcefulbees:resourceful_honeycomb_block"
       },
       "F": {
         "item": "mekanism:alloy_atomic"
@@ -216,7 +216,7 @@ onEvent("recipes", (event) => {
         "item": "botania:terrasteel_block"
       },
       "E": {
-        "tag": "#resourcefulbees:resourceful_honeycomb_block"
+        "tag": "resourcefulbees:resourceful_honeycomb_block"
       },
       "F": {
         "item": "elementalcraft:swift_alloy_block"
