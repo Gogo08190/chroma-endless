@@ -20,13 +20,35 @@ const honeyVarieties = [
     'resourcefulbees:illuminating_honey',
     'resourcefulbees:water_honey',
     'resourcefulbees:lapis_honey',
-    'resourcefulbees:occultist_honey'
+    'resourcefulbees:occultist_honey',
+    'resourcefulbees:blazing_honey',
+    'resourcefulbees:energized_honey',
+    'resourcefulbees:niotic_honey',
+    'resourcefulbees:nitro_honey',
+    'resourcefulbees:spirited_honey',
+    'resourcefulbees:uraninite_honey',
+    'resourcefulbees:elementium_honey',
+    'resourcefulbees:gaia_honey',
+    'resourcefulbees:manasteel_honey',
+    'resourcefulbees:terrasteel_honey',
+    'resourcefulbees:xion_honey'
 ];
 
 const combVariants = [
     'gold',
     'forest',
-    'occultist'
+    'occultist',
+    'blazing',
+    'energized',
+    'niotic',
+    'nitro',
+    'spirited',
+    'uraninite',
+    'elementium',
+    'gaia',
+    'manasteel',
+    'terrasteel',
+    'xion'
 ];
 
 const bees = [];

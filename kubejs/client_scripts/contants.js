@@ -701,5 +701,16 @@ const materialsToUnify = [
 ];
 
 const craftedBees = [
-    'occultist'
+    'occultist',
+    'blazing',
+    'energized',
+    'niotic',
+    'nitro',
+    'spirited',
+    'uraninite',
+    'elementium',
+    'gaia',
+    'manasteel',
+    'terrasteel',
+    'xion'
 ];
