@@ -15,6 +15,19 @@ onEvent('recipes', (event) => {
           },
           id: 'mekanism:enrichment_chamber'
         },
+        //Osmium Compressor
+        {
+          output: 'mekanism:osmium_compressor',
+          pattern: ['IMI','CSC','IEI'],
+          key: {
+            E: 'kubejs:extreme_circuit_board',
+            I: 'pneumaticcraft:ingot_iron_compressed',
+            C: 'pneumaticcraft:capacitor',
+            S: 'mekanism:steel_casing',
+            M: 'mekanism:basic_chemical_tank'
+          },
+          id: 'mekanism:osmium_compressor'
+        },
         //Basic Tier installer
         {
           output: 'mekanism:basic_tier_installer',
@@ -210,6 +223,7 @@ onEvent('recipes', (event) => {
           },
           id: 'mekanism:factory/basic/sawing'
         },
+
     ];
     ];
 
