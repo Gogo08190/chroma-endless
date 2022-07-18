@@ -1,0 +1,17 @@
+{
+    "name" : "occultist",
+    "hunger": 3,
+    "honeyColor": "#4f2b79",
+    "saturation": 2,
+    "isRainbow" : false,
+    "honeyBlockRecipe" : true,
+    "generateHoneyBlock" : true,
+	"effects": [
+      {
+        "effectID": "minecraft:poison",
+        "duration": 2000,
+        "strength": 0,
+        "chance": 1
+      }
+    ]
+  }
