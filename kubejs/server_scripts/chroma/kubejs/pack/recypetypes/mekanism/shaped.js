@@ -223,7 +223,90 @@ onEvent('recipes', (event) => {
           },
           id: 'mekanism:factory/basic/sawing'
         },
-
+        //Advanced Smelting Factory
+        {
+          output: 'mekanism:advanced_smelting_factory',
+          pattern: ['CAC','EME','CAC'],
+          key:{
+            C: 'enderioalloys:item_alloy_ingot_conductive_iron',
+            A: 'mekanism:advanced_control_circuit',
+            E: 'enderioalloys:item_alloy_ingot_energetic_silver',
+            M: 'mekanism:basic_smelting_factory'
+          },
+          id: 'mekanism:factory/advanced/smelting'
+        },
+        //Advanced Enriching Factory
+        {
+          output: 'mekanism:advanced_enriching_factory',
+          pattern: ['CAC','EME','CAC'],
+          key:{
+            C: 'enderioalloys:item_alloy_ingot_conductive_iron',
+            A: 'mekanism:advanced_control_circuit',
+            E: 'enderioalloys:item_alloy_ingot_energetic_silver',
+            M: 'mekanism:basic_enriching_factory'
+          },
+          id: 'mekanism:factory/advanced/enriching'
+        },
+        //Advanced Crushing Factory
+        {
+          output: 'mekanism:advanced_crushing_factory',
+          pattern: ['CAC','EME','CAC'],
+          key:{
+            C: 'enderioalloys:item_alloy_ingot_conductive_iron',
+            A: 'mekanism:advanced_control_circuit',
+            E: 'enderioalloys:item_alloy_ingot_energetic_silver',
+            M: 'mekanism:basic_crushing_factory'
+          },
+          id: 'mekanism:factory/advanced/crushing'
+        },
+        //Advanced Compressing Factory
+        {
+          output: 'mekanism:advanced_compressing_factory',
+          pattern: ['CAC','EME','CAC'],
+          key:{
+            C: 'enderioalloys:item_alloy_ingot_conductive_iron',
+            A: 'mekanism:advanced_control_circuit',
+            E: 'enderioalloys:item_alloy_ingot_energetic_silver',
+            M: 'mekanism:basic_compressing_factory'
+          },
+          id: 'mekanism:factory/advanced/compressing'
+        },
+        //Advanced Combining Factory
+        {
+          output: 'mekanism:advanced_combining_factory',
+          pattern: ['CAC','EME','CAC'],
+          key:{
+            C: 'enderioalloys:item_alloy_ingot_conductive_iron',
+            A: 'mekanism:advanced_control_circuit',
+            E: 'enderioalloys:item_alloy_ingot_energetic_silver',
+            M: 'mekanism:basic_combining_factory'
+          },
+          id: 'mekanism:factory/advanced/combining'
+        },
+        //Advanced Infusing Factory
+        {
+          output: 'mekanism:advanced_infusing_factory',
+          pattern: ['CAC','EME','CAC'],
+          key:{
+            C: 'enderioalloys:item_alloy_ingot_conductive_iron',
+            A: 'mekanism:advanced_control_circuit',
+            E: 'enderioalloys:item_alloy_ingot_energetic_silver',
+            M: 'mekanism:basic_infusing_factory'
+          },
+          id: 'mekanism:factory/advanced/infusing'
+        },
+        //Advanced Sawing Factory
+        {
+          output: 'mekanism:advanced_sawing_factory',
+          pattern: ['CAC','EME','CAC'],
+          key:{
+            C: 'enderioalloys:item_alloy_ingot_conductive_iron',
+            A: 'mekanism:advanced_control_circuit',
+            E: 'enderioalloys:item_alloy_ingot_energetic_silver',
+            M: 'mekanism:basic_sawing_factory'
+          },
+          id: 'mekanism:factory/advanced/sawing'
+        }
     ];
     ];
 
