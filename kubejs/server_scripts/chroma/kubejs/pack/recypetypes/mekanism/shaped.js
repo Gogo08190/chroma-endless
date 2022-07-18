@@ -138,7 +138,7 @@ onEvent('recipes', (event) => {
             N: 'createdeco:netherite_sheet',
             E: 'mekanism:elite_fluid_tank'
           },
-          id: 'mekanism:fluid_tank/ultimate
+          id: 'mekanism:fluid_tank/ultimate'
         },
         //Basic Smelting Factory
         {
@@ -151,7 +151,8 @@ onEvent('recipes', (event) => {
             M: 'mekanism:energized_smelter'
           },
           id: 'mekanism:factory/basic/smelting'
-        },//Basic Enriching Factory
+        },
+        //Basic Enriching Factory
         {
           output: 'mekanism:basic_enriching_factory',
           pattern: ['RBR','IMI','RBR'],
@@ -159,7 +160,7 @@ onEvent('recipes', (event) => {
             R: 'extendedcrafting:redstone_ingot',
             I: 'pneumaticcraft:ingot_iron_compressed',
             B: 'mekanism:basic_control_circuit',
-            M: 'mekanism:enriching_chamber'
+            M: 'mekanism:enrichment_chamber'
           },
           id: 'mekanism:factory/basic/enriching'
         },
@@ -171,7 +172,7 @@ onEvent('recipes', (event) => {
             R: 'extendedcrafting:redstone_ingot',
             I: 'pneumaticcraft:ingot_iron_compressed',
             B: 'mekanism:basic_control_circuit',
-            M: 'mekanism:crsuher'
+            M: 'mekanism:crusher'
           },
           id: 'mekanism:factory/basic/crushing'
         },
@@ -308,8 +309,6 @@ onEvent('recipes', (event) => {
           id: 'mekanism:factory/advanced/sawing'
         }
     ];
-    ];
-
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
     });
