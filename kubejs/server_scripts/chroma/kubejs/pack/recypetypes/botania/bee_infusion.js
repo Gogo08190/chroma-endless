@@ -5,7 +5,7 @@ onEvent('recipes', (event) => {
         {
             input: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:iron_bee' }),
             output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:manasteel_bee' }),
-            mana: 99999,
+            mana: 100000,
             id: `${id_prefix}manasteel_bee_jar`
         }
     ];
