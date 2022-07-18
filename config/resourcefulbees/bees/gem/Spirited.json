@@ -1,0 +1,49 @@
+{
+  "flower": "powah:spirited_crystal_block",
+  "lore": "mettre du lor",
+  "loreColor": "#00AAA",
+  "sizeModifier": 1,
+  "hasHoneycomb": true,
+  "traits": ["sedimentary", "can_swim"],
+  "baseLayerTexture": "ores/spirited_crystal",
+  "ColorData": {
+      "honeycombColor": "#70af00",
+      "isBeeColored": false,
+      "isRainbowBee": false,
+      "isGlowing": false,
+      "isEnchanted": false,
+      "modelType": "ORE"
+      },
+      "CombatData": {
+        "isPassive": true,
+        "removeStingerOnAttack": false,
+        "inflictsPoison": false,
+        "attackDamage": 6
+        },
+        "CentrifugeData": {
+          "hasCentrifugeOutput": true,
+
+          "mainOutput": "powah:crystal_spirited",
+          "mainOutputWeight": 0.5,
+          "mainOutputCount": 1,
+
+          "bottleOutput": "resourcefulbees:crystal_spirited_honey_bottle",
+          "bottleOutputWeight": 0.01,
+          "bottleOutputCount": 1,
+
+          "mainInputCount": 1
+    },
+    "SpawnData": {
+      "canSpawnInWorld": false
+    },
+    "BreedData": {
+    "isBreedable": true,
+    "feedItem": "powah:crystal_spirited",
+    "feedAmount": 1,
+    "childGrowthDelay": -24000,
+    "breedDelay": 6000
+  },
+  "TraitData": {
+      "hasTraits": true
+    }
+}
