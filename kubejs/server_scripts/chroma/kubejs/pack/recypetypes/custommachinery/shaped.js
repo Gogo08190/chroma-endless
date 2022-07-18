@@ -12,10 +12,10 @@ onEvent('recipes', (event) => {
                 E: 'industrialforegoing:essence_bucket'
             },
             id: `${id_prefix}slice_n_plice`
-        }, 
+        },
         // Soul Binder
         {
-            output: Item.of('custommachinery:custom_machine_item', '{machine:"custommachinery:slice_n_splice"}'),
+            output: Item.of('custommachinery:custom_machine_item', '{machine:"custommachinery:soul_binder"}'),
             pattern: ['IEI', 'CMZ', 'ISI'],
             key: {
                 I: 'enderioalloys:item_alloy_ingot_soularium',
@@ -26,10 +26,10 @@ onEvent('recipes', (event) => {
                 C: 'minecraft:creeper_head'
             },
             id: `${id_prefix}soul_binder`
-        }, 
+        },
         // Alloy Smelter
         {
-            output: Item.of('custommachinery:custom_machine_item', '{machine:"custommachinery:slice_n_splice"}'),
+            output: Item.of('custommachinery:custom_machine_item', '{machine:"custommachinery:alloy_smelter"}'),
             pattern: ['IBI', 'SMR', 'GCG'],
             key: {
                 I: 'pneumaticcraft:ingot_iron_compressed',
@@ -41,7 +41,7 @@ onEvent('recipes', (event) => {
                 C: 'minecraft:cauldron'
             },
             id: `${id_prefix}alloy_smelter`
-        }, 
+        },
     ];
 
     recipes.forEach((recipe) => {
