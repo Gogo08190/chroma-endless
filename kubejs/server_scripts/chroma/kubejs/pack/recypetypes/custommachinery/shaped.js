@@ -42,6 +42,20 @@ onEvent('recipes', (event) => {
             },
             id: `${id_prefix}alloy_smelter`
         },
+
+        // Inscriber
+        {
+            output: Item.of('custommachinery:custom_machine_item', '{machine:"custommachinery:inscriber"}'),
+            pattern: ['ICI', 'SGS', 'IRI'],
+            key: {
+                I: 'pneumaticcraft:ingot_iron_compressed',
+                C: 'pneumaticcraft:capacitor',
+                G: 'emendatusenigmatica:copper_gear',
+                S: 'create:sticky_mechanical_piston',
+                R: 'thermal:rf_coil'
+            },
+            id: `${id_prefix}inscriber`
+        },
     ];
 
     recipes.forEach((recipe) => {
