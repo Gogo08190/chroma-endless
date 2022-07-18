@@ -125,6 +125,7 @@ const itemsToHide = [
     'create:zinc_ore',
 
     'createdeco:netherite_nugget',
+    'createdeco:zinc_sheet',
 
     'arsarsenal:aqua_hood',
     'arsarsenal:fire_hood',
