@@ -1,7 +1,7 @@
 {
   "name": "Alloy Smelter",
   "appearance": {
-    "block": "custommachinery:machine/alloy_smelter.json"
+    "block": "custommachinery:machine/alloy_smelter.json",
     "mining_level": "0"
   },
   "tooltips": [
