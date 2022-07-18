@@ -56,6 +56,8 @@ const disabledItems = [
 
     'pitg:green_dye',
 
+    'createdeco:netherite_nugget',
+
     'pneumaticcraft:wheat_flour',
 
   	'projectvibrantjourneys:clam',
