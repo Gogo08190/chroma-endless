@@ -14,7 +14,7 @@ onEvent('recipes', (event) => {
           pattern: ['S S', 'STS', 'SSS'],
           key: {
               S: 'tconstruct:seared_brick',
-              T: 'create:basin'
+              T: 'minecraft:hopper'
           },
           id: 'tconstruct:smeltery/seared/basin'
       },
