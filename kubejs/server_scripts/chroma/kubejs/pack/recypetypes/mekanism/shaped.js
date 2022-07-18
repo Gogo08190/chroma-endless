@@ -127,6 +127,89 @@ onEvent('recipes', (event) => {
           },
           id: 'mekanism:fluid_tank/ultimate
         },
+        //Basic Smelting Factory
+        {
+          output: 'mekanism:basic_smelting_factory',
+          pattern: ['RBR','IMI','RBR'],
+          key: {
+            R: 'extendedcrafting:redstone_ingot',
+            I: 'pneumaticcraft:ingot_iron_compressed',
+            B: 'mekanism:basic_control_circuit',
+            M: 'mekanism:energized_smelter'
+          },
+          id: 'mekanism:factory/basic/smelting'
+        },//Basic Enriching Factory
+        {
+          output: 'mekanism:basic_enriching_factory',
+          pattern: ['RBR','IMI','RBR'],
+          key: {
+            R: 'extendedcrafting:redstone_ingot',
+            I: 'pneumaticcraft:ingot_iron_compressed',
+            B: 'mekanism:basic_control_circuit',
+            M: 'mekanism:enriching_chamber'
+          },
+          id: 'mekanism:factory/basic/enriching'
+        },
+        //Basic Crushing Factory
+        {
+          output: 'mekanism:basic_crushing_factory',
+          pattern: ['RBR','IMI','RBR'],
+          key: {
+            R: 'extendedcrafting:redstone_ingot',
+            I: 'pneumaticcraft:ingot_iron_compressed',
+            B: 'mekanism:basic_control_circuit',
+            M: 'mekanism:crsuher'
+          },
+          id: 'mekanism:factory/basic/crushing'
+        },
+        //Basic Compressing Factory
+        {
+          output: 'mekanism:basic_compressing_factory',
+          pattern: ['RBR','IMI','RBR'],
+          key: {
+            R: 'extendedcrafting:redstone_ingot',
+            I: 'pneumaticcraft:ingot_iron_compressed',
+            B: 'mekanism:basic_control_circuit',
+            M: 'mekanism:osmium_compressor'
+          },
+          id: 'mekanism:factory/basic/compressing'
+        },
+        //Basic Combining Factory
+        {
+          output: 'mekanism:basic_combining_factory',
+          pattern: ['RBR','IMI','RBR'],
+          key: {
+            R: 'extendedcrafting:redstone_ingot',
+            I: 'pneumaticcraft:ingot_iron_compressed',
+            B: 'mekanism:basic_control_circuit',
+            M: 'mekanism:combiner'
+          },
+          id: 'mekanism:factory/basic/combining'
+        },
+        //Basic Infusing Factory
+        {
+          output: 'mekanism:basic_infusing_factory',
+          pattern: ['RBR','IMI','RBR'],
+          key: {
+            R: 'extendedcrafting:redstone_ingot',
+            I: 'pneumaticcraft:ingot_iron_compressed',
+            B: 'mekanism:basic_control_circuit',
+            M: 'mekanism:metallurgic_infuser'
+          },
+          id: 'mekanism:factory/basic/infusing'
+        },
+        //Basic Sawing Factory
+        {
+          output: 'mekanism:basic_sawing_factory',
+          pattern: ['RBR','IMI','RBR'],
+          key: {
+            R: 'extendedcrafting:redstone_ingot',
+            I: 'pneumaticcraft:ingot_iron_compressed',
+            B: 'mekanism:basic_control_circuit',
+            M: 'mekanism:precision_sawmill'
+          },
+          id: 'mekanism:factory/basic/sawing'
+        },
     ];
     ];
 
