@@ -6,7 +6,7 @@ onEvent('recipes', (event) => {
     ];
 
     const outputRemovals = [
-
+      'powah:capacitor_basic_tiny'
     ];
 
     idRemovals.forEach((id) => {
