@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"5": "Downloads/AlloiSmelté/alloy_smelter_top",
-		"8": "Downloads/AlloiSmelté/alloy_smelter_front",
+		"5": "custommachinery:machine/alloy_smelter_top",
+		"8": "Downloads/AlloiSmelté/alloy_smelter_front_on",
 		"10": "Downloads/AlloiSmelté/alloy_smelter_side"
 	},
 	"elements": [
