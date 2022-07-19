@@ -248,7 +248,7 @@ onEvent('recipes', (event) => {
           inputs:[
             { item: 'powah:dielectric_paste', count: 4},
             { item: 'rftoolsbase:infused_enderpearl', count: 1},
-            { tag: '#forge:alloys/ultimate', count: 1}
+            { item: 'mekanism:alloy_atomic', count: 1}
           ],
           pressure: 3.0,
           results: [{item: 'powah:aerial_pearl', count: 1}],
