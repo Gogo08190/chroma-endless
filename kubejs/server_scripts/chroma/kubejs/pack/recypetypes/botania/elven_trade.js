@@ -123,7 +123,12 @@ onEvent('recipes', (event) => {
       },
 
       {
-        inputs: [Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:manasteel_bee' }).weakNBT().toJson()],
+        inputs: [Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:manasteel_bee' }).weakNBT().toJson(),
+        {item: 'botania:elementium_block'},
+        {item: 'botania:elementium_block'},
+        {item: 'botania:elementium_block'},
+        {item: 'botania:elementium_block'},
+      ],
         output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:elementium_bee' }).toJson(),
         id: `${id_prefix}elementium_bee_jar`
       }

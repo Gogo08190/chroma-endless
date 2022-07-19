@@ -33,7 +33,9 @@ onEvent('recipes', (event) => {
                   .weakNBT()
                   .toJson(),
               { item: 'botania:mana_pearl' },
-              { item: 'botania:mana_diamond' }
+              { item: 'botania:mana_diamond' },
+              { item: 'botania:terrasteel_block' },
+              { item: 'botania:terrasteel_block' }
           ],
           output: Item.of('resourcefulbees:bee_jar', {
               Entity: 'resourcefulbees:terrasteel_bee'
