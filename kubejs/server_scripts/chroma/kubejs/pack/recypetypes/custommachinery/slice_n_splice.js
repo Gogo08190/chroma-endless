@@ -54,4 +54,16 @@ event.recipes.custommachinery.custom_machine("custommachinery:slice_n_splice", 8
 .requireFluidPerTick(Fluid.of('industrialforegoing:essence', 1))
 .requireEnergyPerTick(2000)
 .produceItem(Item.of('enderioalloys:item_material_skull_ender_resonator', 1))
+
+/* Binding Card */
+
+event.recipes.custommachinery.custom_machine("custommachinery:slice_n_splice", 840)
+.requireItem('2x enderioalloys:item_alloy_ingot_soularium')
+.requireItem('2x mekanism:alloy_infused')
+.requireItem('powah:blank_card')
+.requireItem('powah:ender_core')
+.requireFluidPerTick(Fluid.of('industrialforegoing:essence', 1))
+.requireEnergyPerTick(2000)
+.produceItem(Item.of('powah:binding_card', 1))
+.id('powah:crafting/binding_card')
 })

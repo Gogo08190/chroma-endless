@@ -243,6 +243,16 @@ onEvent('recipes', (event) => {
           pressure: 3.0,
           results: [{item: 'cagedmobs:mobcage', count: 1}],
           id: 'cagedmobs:crafting/mobcage'
+        },
+        {
+          inputs:[
+            { item: 'powah:dielectric_paste', count: 4},
+            { item: 'rftoolsbase:infused_enderpearl', count: 1},
+            { tag: '#forge:alloys/ultimate', count: 1}
+          ],
+          pressure: 3.0,
+          results: [{item: 'powah:aerial_pearl', count: 1}],
+          id: 'powah:crafting/aerial_pearl'
         }
     ];
     recipes.forEach((recipe) => {

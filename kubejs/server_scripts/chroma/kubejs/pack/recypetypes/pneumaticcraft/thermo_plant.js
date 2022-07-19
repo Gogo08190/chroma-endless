@@ -37,7 +37,16 @@ onEvent('recipes', (event) => {
           exothermic: false,
           temperature: { min_temp: 500 },
           id: `${id_prefix}silicon_grease`
-      }
+      },
+      {
+          fluid_input: { type: 'pneumaticcraft:fluid', fluid: 'mekanismgenerators:deuterium', amount: 1000 },
+          item_input: { item: 'immersiveengineering:thermoelectric_generator', count: 1 },
+          item_output: { item: 'powah:thermoelectric_plate', count: 1 },
+          pressure: 3.0,
+          exothermic: false,
+          temperature: { min_temp: 1200 },
+          id: 'powah:crafting/thermoelectric_plate'
+      },
     ];
 
     recipes.forEach((recipe) => {
