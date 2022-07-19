@@ -57,6 +57,12 @@ onEvent('recipes', (event) => {
             output: Fluid.of('kubejs:resonant_emerald_fluid', 1000),
             superheated: true,
             id: `${id_prefix}resonant_emerald_fluid`
+        },
+        {
+            inputs: ['powah:capacitor_basic', 'powah:capacitor_basic'],
+            output: Item.of('powah:capacitor_basic_large', 1),
+            heated: true,
+            id: 'powah:crafting/capacitor_basic_large'
         }
     ];
 
