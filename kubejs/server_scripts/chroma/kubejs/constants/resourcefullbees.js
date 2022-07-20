@@ -49,7 +49,12 @@ const combVariants = [
     'manasteel',
     'terrasteel',
     'xion',
-    'iron'
+    'iron',
+    'wither',
+    'redstone',
+    'emerald',
+    'diamond',
+    'cloggrum'
 ];
 
 const bees = [];
