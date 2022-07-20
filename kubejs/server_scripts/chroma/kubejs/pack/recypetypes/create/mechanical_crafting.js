@@ -152,7 +152,7 @@ onEvent('recipes', (event) => {
                 P: '#forge:gems/ender'
             },
             id: 'betterendforge:ender_eye_from_amber_gem'
-        }
+        },
         {
             output: 'powah:energizing_orb',
             pattern: ['GGGGG', 'G A G', 'G C G', 'REUER', 'RRRRR'],
