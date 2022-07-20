@@ -153,6 +153,19 @@ onEvent('recipes', (event) => {
             },
             id: 'betterendforge:ender_eye_from_amber_gem'
         }
+        {
+            output: 'powah:energizing_orb',
+            pattern: ['GGGGG', 'G A G', 'G C G', 'REUER', 'RRRRR'],
+            key: {
+                R: 'powah:dielectric_rod_horizontal',
+                G: 'botania:bifrost_perm',
+                E: 'kubejs:advanced_extreme_circuit_board',
+                U: '#forge:circuits/ultimate',
+                A: 'botania:corporea_crystal_cube',
+                C: 'powah:dielectric_casing'
+            },
+            id: 'powah:crafting/energizing_orb'
+        }
     ];
 
     recipes.forEach((recipe) => {
