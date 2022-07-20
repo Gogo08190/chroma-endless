@@ -255,6 +255,31 @@ onEvent('recipes', (event) => {
           id: 'powah:crafting/aerial_pearl'
         }
     ];
+
+    powahTiers.forEach(function (tier) {
+        if (tier == 'starter') {
+            return;
+        }
+        let capacitor = `powah:capacitor_${tier}`;
+
+        if (tier == 'basic') {
+            capacitor = `powah:capacitor_${tier}_large`;
+        } else if (tier == 'hardened') {
+            crystal = 'powah:steel_energized';
+        }
+
+        recipes.push({
+            inputs: [
+                { item: 'powah:dielectric_paste', count: 4 },
+                { item: capacitor, count: 4 },
+                { item: 'powah:ender_core', count: 1 }
+            ],
+            pressure: 3.0,
+            results: [{ item: `powah:ender_gate_${tier}`, count: 1 }],
+            id: `powah:crafting/ender_gate_${tier}`
+        });
+    });
+
     recipes.forEach((recipe) => {
         let ingredients = [];
         recipe.inputs.forEach((input) => {

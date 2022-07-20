@@ -103,25 +103,6 @@ onEvent('recipes', (event) => {
           sourceCost: 10000,
           output: 'resourcefulbees:t4_hive_upgrade',
           id: 'resourcefulbees:t4_hive_upgrade'
-      },
-
-      //Ender gate (basic)
-
-      {
-          inputs: [
-            'powah:dielectric_paste',
-            'powah:dielectric_paste',
-            'powah:dielectric_paste',
-            'powah:dielectric_paste',
-            'powah:capacitor_basic_large',
-            'powah:capacitor_basic_large',
-            'powah:capacitor_basic_large',
-            'powah:capacitor_basic_large'
-          ],
-          reagent: 'powah:ender_core',
-          sourceCost: 5000,
-          output: '2x powah:ender_gate_basic',
-          id: 'powah:crafting/ender_gate_basic'
       }
 
     ];
