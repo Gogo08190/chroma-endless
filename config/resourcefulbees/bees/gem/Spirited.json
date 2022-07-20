@@ -15,7 +15,7 @@
       "modelType": "ORE"
       },
       "CombatData": {
-        "isPassive": true,
+        "isPassive": false,
         "removeStingerOnAttack": false,
         "inflictsPoison": false,
         "attackDamage": 6
