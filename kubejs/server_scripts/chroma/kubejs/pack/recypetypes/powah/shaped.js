@@ -235,6 +235,16 @@ onEvent('recipes', (event) => {
                 },
                 id: `powah:crafting/thermo_generator_${tier}`
             },
+            {
+                output: Item.of(`powah:reactor_${tier}`, 2),
+                pattern: ['ABA', 'BCB', 'ABA'],
+                key: {
+                    C: 'powah:dielectric_casing',
+                    B: capacitor,
+                    A: 'kubejs:uranium_capacitor'
+                },
+                id: `powah:crafting/reactor_${tier}`
+            },
         );
 
         if (tier != 'basic') {
@@ -301,6 +311,16 @@ onEvent('recipes', (event) => {
                   id: `powah:crafting/battery_${tier}`
               },
               {
+                  output: Item.of(`powah:magmator_${tier}`),
+                  pattern: ['BAB', 'BCB'],
+                  key: {
+                      A: cable,
+                      B: capacitor,
+                      C: Ingredient.of(lower_tiers.map((item) => `powah:magmator_${item}`))
+                  },
+                  id: `${id_prefix}magmator_${tier}_upgrade`
+              },
+              {
                   output: Item.of(`powah:thermo_generator_${tier}`),
                   pattern: ['BAB', 'BCB'],
                   key: {
@@ -317,6 +337,7 @@ onEvent('recipes', (event) => {
         if (index > 1) {
             previousTierRod = `powah:energizing_rod_${powahTiers[index - 1]}`;
             previousTierTransmitter = `powah:player_transmitter_${powahTiers[index - 1]}`;
+            previousTierReactor = `powah:reactor_${powahTiers[index - 1]}`;
 
             recipes.push(
                 {
@@ -341,14 +362,14 @@ onEvent('recipes', (event) => {
                     id: `powah:crafting/energizing_rod_${tier}`
                 },
                 {
-                    output: Item.of(`powah:magmator_${tier}`),
+                    output: `powah:reactor_${tier}`,
                     pattern: ['BAB', 'BCB'],
                     key: {
-                        A: cable,
                         B: capacitor,
-                        C: Ingredient.of(lower_tiers.map((item) => `powah:magmator_${item}`))
+                        A: previousTierReactor,
+                        C: crystal
                     },
-                    id: `${id_prefix}magmator_${tier}_upgrade`
+                    id: `${id_prefix}reactor_${tier}_upgrade`
                 },
             );
         }
