@@ -1,55 +1,8 @@
 {
-	"credit": "Made with Blockbench",
-	"textures": {
-		"5": "Downloads/AlloiSmelté/alloy_smelter_top",
-		"8": "Downloads/AlloiSmelté/alloy_smelter_front",
-		"10": "Downloads/AlloiSmelté/alloy_smelter_side"
-	},
-	"elements": [
-		{
-			"from": [0, 0, 0],
-			"to": [16, 16, 16],
-			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#8"},
-				"east": {"uv": [0, 0, 16, 16], "texture": "#10"},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#10"},
-				"west": {"uv": [0, 0, 16, 16], "texture": "#10"},
-				"up": {"uv": [0, 0, 16, 16], "texture": "#5"},
-				"down": {"uv": [0, 0, 16, 16], "texture": "#5"}
-			}
-		}
-	],
-	"display": {
-		"thirdperson_righthand": {
-			"rotation": [0, 90, 0],
-			"scale": [0.4, 0.4, 0.4]
-		},
-		"thirdperson_lefthand": {
-			"rotation": [0, -90, 0],
-			"scale": [0.4, 0.4, 0.4]
-		},
-		"firstperson_righthand": {
-			"rotation": [0, 90, -12],
-			"translation": [0, 2, 0],
-			"scale": [0.4, 0.4, 0.4]
-		},
-		"firstperson_lefthand": {
-			"rotation": [0, -90, 12],
-			"translation": [0, 2, 0],
-			"scale": [0.4, 0.4, 0.4]
-		},
-		"ground": {
-			"scale": [0.4, 0.4, 0.4]
-		},
-		"gui": {
-			"rotation": [23, 50, 0],
-			"scale": [0.6, 0.6, 0.6]
-		},
-		"head": {
-			"rotation": [0, -90, 0]
-		},
-		"fixed": {
-			"rotation": [0, -90, 0]
-		}
-	}
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "custommachinery:block/alloy_smelter_top",
+    "front": "custommachinery:block/alloy_smelter_front",
+    "side": "custommachinery:block/alloy_smelter_side"
+  }
 }
