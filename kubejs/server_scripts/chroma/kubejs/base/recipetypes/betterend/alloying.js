@@ -1,6 +1,8 @@
 onEvent('recipes', (event) => {
-    var data = {
-        recipes: [
+var data = 
+    {
+        recipes:
+        [
             {
                 ingredients: [{ tag: 'forge:ingots/gold' }, { tag: 'forge:ingots/silver' }],
                 result: Item.of('emendatusenigmatica:electrum_ingot', 2),
@@ -24,8 +26,14 @@ onEvent('recipes', (event) => {
                 result: Item.of('emendatusenigmatica:constantan_ingot', 2),
                 experience: 2,
                 smelttime: 300
+            },
+            {
+                ingredients: [{ tag: 'forge:ingots/copper' }, { tag: 'forge:ingots/nickel' }],
+                result: Item.of('emendatusenigmatica:constantan_ingot', 2),
+                experience: 2,
+                smelttime: 300
             }
-        ]
+         ]
     };
     data.recipes.forEach((recipe) => {
         event.custom({
