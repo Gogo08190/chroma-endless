@@ -106,6 +106,8 @@ const itemsToHide = [
     'aiotbotania:alfsteel_hoe',
     'aiotbotania:alfsteel_aiot',
 
+    'powah:capacitor_basic_tiny',
+
     'ars_nouveau:arcane_brick',
     'ars_nouveau:arcane_ore',
     'ars_nouveau:mana_gem_block',
