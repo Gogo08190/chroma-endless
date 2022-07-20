@@ -22,11 +22,12 @@ onEvent('recipes', (event) => {
         },
         {
             output: 'powah:dielectric_casing',
-            pattern: ['DRD', 'RCR', 'DRD'],
+            pattern: ['DRD', 'FCF', 'DRD'],
             key: {
                 D: 'enderioalloys:item_alloy_ingot_dark_steel',
                 R: 'powah:dielectric_rod_horizontal',
-                C: 'envirocore:pladium_interconnect'
+                C: 'envirocore:pladium_interconnect',
+                F: 'powah:dielectric_rod'
             },
             id: 'powah:crafting/dielectric_casing'
         },
