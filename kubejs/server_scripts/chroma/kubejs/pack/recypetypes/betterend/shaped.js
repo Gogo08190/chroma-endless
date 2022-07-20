@@ -93,7 +93,7 @@ onEvent('recipes', (event) => {
         // Infusion Pedestal
         {
             output: 'betterendforge:infusion_pedestal',
-            pattern: [' E ', 'TCT', 'CCC'],
+            pattern: [' E ', 'TCT', 'CCCs'],
             key: {
                 E: 'minecraft:ender_eye',
                 T: 'betterendforge:thallasium_ingot',
