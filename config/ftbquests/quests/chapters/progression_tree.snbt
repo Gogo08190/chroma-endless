@@ -22,7 +22,7 @@
 		}
 		{
 			title: "Tinkers' Construct"
-			icon: "minecraft:orange_concrete"
+			icon: "minecraft:yellow_concrete"
 			x: 1.0d
 			y: 1.0d
 			dependencies: ["67877CC17A29DBEA"]
@@ -34,7 +34,7 @@
 			}]
 		}
 		{
-			icon: "minecraft:orange_concrete"
+			icon: "minecraft:yellow_concrete"
 			x: 1.0d
 			y: 2.0d
 			dependencies: ["27206556553497A9"]
@@ -70,7 +70,7 @@
 			}]
 		}
 		{
-			icon: "minecraft:orange_concrete"
+			icon: "minecraft:yellow_concrete"
 			x: 0.0d
 			y: 3.0d
 			dependencies: ["0A8F7C242AD4C735"]
@@ -447,6 +447,50 @@
 				id: "32BD7FE2E2CB0A0C"
 				type: "checkmark"
 				title: "XNet"
+			}]
+		}
+		{
+			icon: "minecraft:lime_concrete"
+			x: -3.0d
+			y: 0.0d
+			id: "27CDC690F1A2BEBD"
+			tasks: [{
+				id: "1ABD4FA729AE3B33"
+				type: "checkmark"
+				title: "Terminé"
+			}]
+		}
+		{
+			icon: "minecraft:orange_concrete"
+			x: -3.0d
+			y: 1.0d
+			id: "6B56B8F1C986A414"
+			tasks: [{
+				id: "072D687F8D18C69D"
+				type: "checkmark"
+				title: "Revenir dessus"
+			}]
+		}
+		{
+			icon: "minecraft:yellow_concrete"
+			x: -3.0d
+			y: 2.0d
+			id: "1672482270658BB7"
+			tasks: [{
+				id: "4B5277E69BD8DD53"
+				type: "checkmark"
+				title: "En réflexion"
+			}]
+		}
+		{
+			icon: "minecraft:red_concrete"
+			x: -3.0d
+			y: 3.0d
+			id: "3BD00D35FF7C179D"
+			tasks: [{
+				id: "1A49594DF04BEE72"
+				type: "checkmark"
+				title: "À faire"
 			}]
 		}
 	]
