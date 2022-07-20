@@ -160,6 +160,40 @@ onEvent('recipes', (event) => {
                 E: 'immersiveengineering:furnace_heater'
             },
             id: 'powah:crafting/thermo_generator_basic'
+        },
+        {
+            output: Item.of('powah:reactor_basic', 2),
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                C: 'powah:dielectric_casing',
+                B: 'powah:capacitor_basic_large',
+                A: 'kubejs:uranium_capacitor'
+            },
+            id: 'powah:crafting/reactor_basic'
+        },
+        {
+            output: 'powah:energy_discharger_basic',
+            pattern: ['DAD', 'BEB', 'DCD'],
+            key: {
+                A: 'powah:energy_hopper_basic',
+                B: 'powah:capacitor_basic_large',
+                C: 'powah:energy_cell_basic',
+                D: 'powah:dielectric_rod',
+                E: 'powah:dielectric_casing'
+            },
+            id: 'powah:crafting/energy_discharger_basic'
+        },
+        {
+            output: 'powah:energy_hopper_basic',
+            pattern: ['DED', 'BCB', 'DAD'],
+            key: {
+                A: 'thermal:rf_coil',
+                B: 'powah:capacitor_basic_large',
+                C: 'powah:dielectric_casing',
+                D: 'powah:dielectric_rod',
+                E: 'powah:energy_cell_basic',
+            },
+            id: 'powah:crafting/energy_hopper_basic'
         }
      ];
 
@@ -245,6 +279,30 @@ onEvent('recipes', (event) => {
                 },
                 id: `powah:crafting/reactor_${tier}`
             },
+            {
+                output: `powah:energy_discharger_${tier}`,
+                pattern: ['DAD', 'BEB', 'DCD'],
+                key: {
+                    A: `powah:energy_hopper_${tier}`,
+                    B: capacitor,
+                    C: `powah:energy_cell_${tier}`,
+                    D: 'powah:dielectric_rod',
+                    E: 'powah:dielectric_casing'
+                },
+                id: `powah:crafting/energy_discharger_${tier}`
+            },
+            {
+                output: `powah:energy_hopper_${tier}`,
+                pattern: ['DED', 'BCB', 'DAD'],
+                key: {
+                    A: 'thermal:rf_coil',
+                    B: capacitor,
+                    C: 'powah:dielectric_casing',
+                    D: 'powah:dielectric_rod',
+                    E: `powah:energy_cell_${tier}`,
+                },
+                id: `powah:crafting/energy_hopper_${tier}`
+            }
         );
 
         if (tier != 'basic') {
@@ -330,6 +388,25 @@ onEvent('recipes', (event) => {
                   },
                   id: `${id_prefix}thermo_generator_${tier}_upgrade`
               },
+              {
+                    output: Item.of(`powah:energy_discharger_${tier}`),
+                    pattern: ['ABA', ' C ', ' A '],
+                    key: {
+                        A: capacitor,
+                        B: Ingredient.of(lower_tiers.map((item) => `powah:energy_discharger_${item}`)),
+                        C: Ingredient.of(lower_tiers.map((item) => `powah:energy_cell_${item}`))
+                    },
+                    id: `${id_prefix}energy_discharger_${tier}_upgrade`
+                },
+                {
+                    output: Item.of(`powah:energy_hopper_${tier}`),
+                    pattern: ['A A', 'ABA'],
+                    key: {
+                        A: capacitor,
+                        B: Ingredient.of(lower_tiers.map((item) => `powah:energy_hopper_${item}`))
+                    },
+                    id: `${id_prefix}energy_hopper_${tier}_upgrade`
+                }
             );
         }
 
@@ -370,7 +447,7 @@ onEvent('recipes', (event) => {
                         C: crystal
                     },
                     id: `${id_prefix}reactor_${tier}_upgrade`
-                },
+                }
             );
         }
      });
