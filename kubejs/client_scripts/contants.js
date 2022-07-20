@@ -715,5 +715,9 @@ const craftedBees = [
     'manasteel',
     'terrasteel',
     'xion',
-    'iron'
+    'iron',
+    'wither',
+    'redstone',
+    'emerald',
+    'diamond'
 ];

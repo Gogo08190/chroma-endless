@@ -41,7 +41,7 @@ onEvent('recipes', (event) => {
             input: 'elementalcraft:containedcrystal',
             fluid: Fluid.of('kubejs:litherite_fluid', 250),
             output: 'kubejs:contained_litherite_crystal',
-            id: 'minecraft:ender_eye'
+            id: `${id_prefix}contained_litherite_crystal`
         },
 
         //Energize uranium
