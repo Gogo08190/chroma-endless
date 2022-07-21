@@ -36,7 +36,10 @@ const honeyVarieties = [
     'resourcefulbees:regalium_honey',
     'resourcefulbees:utherium_honey',
     'resourcefulbees:froststeel_honey',
-    'resourcefulbees:forgotten_honey'
+    'resourcefulbees:forgotten_honey',
+    'resourcefulbees:steel_honey',
+    'resourcefulbees:electrum_honey',
+    'resourcefulbees:uranium_honey'
 ];
 
 const combVariants = [
