@@ -146,7 +146,75 @@ onEvent('recipes', (event) => {
             R: 'extendedcrafting:redstone_ingot'
           },
           id: 'minecraft:compass'
+        },
+        //Stonecutter
+        {
+          output: 'minecraft:stonecutter',
+          pattern:['  ',' B ','OSO'],
+          key: {
+            B: 'thermal:saw_blade',
+            O: '#minecraft:logs',
+            S: 'minecraft:stone'
+          },
+          id: 'minecraft:stonecutter'
+        },
+        //Sawmill
+        {
+          output: 'environmental:sawmill',
+          pattern:['OB ','O  ','OS '],
+          key: {
+            B: 'thermal:saw_blade',
+            O: '#minecraft:planks',
+            S: '#minecraft:wooden_slabs'
+          },
+          id: 'environmental:sawmill'
+        },
+        //Crafting table
+        {
+          output: 'minecraft:crafting_table',
+          pattern:['SS ','BB  ','  '],
+          key: {
+            S: 'minecraft:flint',
+            B: '#minecraft:planks'
+          },
+          id: 'minecraft:crafting_table'
+        },
+        //Grindstone
+        {
+          output: 'minecraft:grindstone',
+          pattern:['TCT','SCS','S S'],
+          key: {
+            T: 'immersiveengineering:treated_wood_horizontal',
+            C: 'prefab:block_compressed_stone',
+            S: 'immersiveengineering:stick_treated'
+          },
+          id: 'minecraft:grindstone'
+        },
+        //End-crystal
+        {
+          output: 'minecraft:end_crystal',
+          pattern:['ABA','ACA','ADA'],
+          key: {
+            A: 'mekanism:structural_glass',
+            B: 'minecraft:dragon_breath',
+            C: 'minecraft:ender_eye',
+            D: 'minecraft:ghast_tear'
+          },
+          id: 'minecraft:end_crystal'
+        },
+        //Smithing Table
+        {
+          output: 'minecraft:smithing_table',
+          pattern:['AAA','BCD','CCC'],
+          key: {
+            A: 'create:shadow_steel',
+            B: 'betterendforge:iron_hammer',
+            C: 'immersiveengineering:treated_wood_horizontal',
+            D: 'minecraft:shears'
+          },
+          id: 'minecraft:smithing_table'
         }
+
     ];
 
     recipes.forEach((recipe) => {
