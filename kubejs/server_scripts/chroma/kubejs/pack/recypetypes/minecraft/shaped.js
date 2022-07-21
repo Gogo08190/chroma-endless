@@ -20,7 +20,7 @@ onEvent('recipes', (event) => {
         //Crying Obsidian
         {
           output: Item.of('minecraft:crying_obsidian', 16),
-          pattern:['HMH','MOM','HMH'],
+          pattern: ['HMH', 'MOM', 'HMH'],
           key: {
             H: 'tconstruct:hepatizon_ingot',
             M: 'tconstruct:manyullyn_ingot',
@@ -31,7 +31,7 @@ onEvent('recipes', (event) => {
         //Furnace
         {
           output: 'minecraft:furnace',
-          pattern:['CCC','CFC','CBC'],
+          pattern: ['CCC', 'CFC', 'CBC'],
           key: {
             C: '#quark:stone_tool_materials',
             B: '#forge:storage_blocks/coal',
@@ -42,7 +42,7 @@ onEvent('recipes', (event) => {
         //Piston
         {
           output: 'minecraft:piston',
-          pattern:['WPW','CSC','CRC'],
+          pattern: ['WPW', 'CSC', 'CRC'],
           key: {
             C: 'minecraft:smooth_stone',
             W: '#minecraft:planks',
@@ -55,7 +55,7 @@ onEvent('recipes', (event) => {
         //Blast Furnace
         {
           output: 'minecraft:blast_furnace',
-          pattern:['PPP','PFP','CLC'],
+          pattern: ['PPP', 'PFP', 'CLC'],
           key: {
             C: 'minecraft:smooth_stone',
             P: '#forge:plates/iron_aluminum',
@@ -67,7 +67,7 @@ onEvent('recipes', (event) => {
         //Smoker
         {
           output: 'minecraft:smoker',
-          pattern:['SWS','WFW','SLS'],
+          pattern: ['SWS', 'WFW', 'SLS'],
           key: {
             F: 'minecraft:furnace',
             L: 'minecraft:campfire',
@@ -79,7 +79,7 @@ onEvent('recipes', (event) => {
         //Enchanting Table
         {
           output: 'minecraft:enchanting_table',
-          pattern:[' B ','DOD','OOO'],
+          pattern: [' B ', 'DOD', 'OOO'],
           key: {
             B: 'minecraft:book',
             D: '#forge:plates/diamond',
@@ -90,7 +90,7 @@ onEvent('recipes', (event) => {
         //Brewing Stand
         {
           output: 'minecraft:brewing_stand',
-          pattern:['NBN',' B ','AAA'],
+          pattern: ['NBN', ' B ', 'AAA'],
           key: {
             N: '#forge:nuggets/iron_invar',
             B: '#forge:rods/blaze',
@@ -101,7 +101,7 @@ onEvent('recipes', (event) => {
         //Hopper
         {
           output: 'minecraft:hopper',
-          pattern:['P P','PCP',' P '],
+          pattern: ['P P', 'PCP', ' P '],
           key: {
             C: '#forge:chests',
             P: '#forge:plates/iron'
@@ -111,7 +111,7 @@ onEvent('recipes', (event) => {
         //Cauldron
         {
           output: 'minecraft:cauldron',
-          pattern:['P P','P P','PPP'],
+          pattern: ['P P', 'P P', 'PPP'],
           key: {
             P: '#forge:plates/iron'
           },
@@ -120,7 +120,7 @@ onEvent('recipes', (event) => {
         //Shield
         {
           output: 'minecraft:shield',
-          pattern:['WPW','WWW',' W '],
+          pattern: ['WPW', 'WWW', ' W '],
           key: {
             P: '#forge:plates/iron',
             W: '#minecraft:planks'
@@ -130,7 +130,7 @@ onEvent('recipes', (event) => {
         //Clock
         {
           output: 'minecraft:clock',
-          pattern:[' P ','PRP',' P '],
+          pattern: [' P ', 'PRP', ' P '],
           key: {
             P: '#forge:plates/gold',
             R: 'extendedcrafting:redstone_ingot'
@@ -140,7 +140,7 @@ onEvent('recipes', (event) => {
         //Compass
         {
           output: 'minecraft:compass',
-          pattern:[' P ','PRP',' P '],
+          pattern: [' P ', 'PRP', ' P '],
           key: {
             P: '#forge:plates/iron',
             R: 'extendedcrafting:redstone_ingot'
@@ -150,7 +150,7 @@ onEvent('recipes', (event) => {
         //Stonecutter
         {
           output: 'minecraft:stonecutter',
-          pattern:['  ', ' B ', 'OSO'],
+          pattern: [' B ', 'OSO'],
           key: {
             B: 'thermal:saw_blade',
             O: '#minecraft:logs',
@@ -161,18 +161,18 @@ onEvent('recipes', (event) => {
         //Sawmill
         {
           output: 'environmental:sawmill',
-          pattern:['OB ', 'O  ', 'OS '],
+          pattern: ['OB ', 'O  ', 'OS '],
           key: {
             B: 'thermal:saw_blade',
             O: '#minecraft:planks',
             S: '#minecraft:wooden_slabs'
           },
-          id: 'environmental:sawmill'
+          id: 'environmental:crafting/sawmill'
         },
         //Crafting table
         {
           output: 'minecraft:crafting_table',
-          pattern:['SS ', 'BB  ', '  '],
+          pattern: ['SS', 'BB'],
           key: {
             S: 'minecraft:flint',
             B: '#minecraft:planks'
@@ -182,7 +182,7 @@ onEvent('recipes', (event) => {
         //Grindstone
         {
           output: 'minecraft:grindstone',
-          pattern:['TCT', 'SCS', 'S S'],
+          pattern: ['TCT', 'SCS', 'S S'],
           key: {
             T: 'immersiveengineering:treated_wood_horizontal',
             C: 'prefab:block_compressed_stone',
@@ -193,9 +193,9 @@ onEvent('recipes', (event) => {
         //End-crystal
         {
           output: 'minecraft:end_crystal',
-          pattern:['ABA', 'ACA', 'ADA'],
+          pattern: ['ABA', 'ACA', 'ADA'],
           key: {
-            A: 'mekanism:structural_glass',
+            A: '#forge:glass',
             B: 'minecraft:dragon_breath',
             C: 'minecraft:ender_eye',
             D: 'minecraft:ghast_tear'
@@ -205,7 +205,7 @@ onEvent('recipes', (event) => {
         //Smithing Table
         {
           output: 'minecraft:smithing_table',
-          pattern:['AAA', 'BCD', 'CCC'],
+          pattern: ['AAA', 'BCD', 'CCC'],
           key: {
             A: 'create:shadow_steel',
             B: 'betterendforge:iron_hammer',
