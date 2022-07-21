@@ -7,8 +7,8 @@
     "traits": ["can_swim"],
     "baseLayerTexture": "other/occultist",
     "ColorData": {
-  	"honeycombColor": "#4f2b79",
-  	"modelType": "DRAGON"
+    	"honeycombColor": "#4f2b79",
+    	"modelType": "ORE"
     },
       "CombatData": {
     	"isPassive": false,
