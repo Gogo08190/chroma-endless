@@ -71,7 +71,6 @@ const combVariants = [
     'uranium',
     'steel',
     'electrum',
-    'catnip',
     'coal',
     'creeper',
     'dragon',
@@ -82,9 +81,7 @@ const combVariants = [
     'rgbee',
     'skeleton',
     'water',
-    'zombie',
-    'rainbow',
-    'quartz'
+    'zombie'
 
 ];
 
