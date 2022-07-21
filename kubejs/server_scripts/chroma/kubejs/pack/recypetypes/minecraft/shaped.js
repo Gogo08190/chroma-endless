@@ -150,7 +150,7 @@ onEvent('recipes', (event) => {
         //Stonecutter
         {
           output: 'minecraft:stonecutter',
-          pattern:['  ',' B ','OSO'],
+          pattern:['  ', ' B ', 'OSO'],
           key: {
             B: 'thermal:saw_blade',
             O: '#minecraft:logs',
@@ -161,7 +161,7 @@ onEvent('recipes', (event) => {
         //Sawmill
         {
           output: 'environmental:sawmill',
-          pattern:['OB ','O  ','OS '],
+          pattern:['OB ', 'O  ', 'OS '],
           key: {
             B: 'thermal:saw_blade',
             O: '#minecraft:planks',
@@ -172,7 +172,7 @@ onEvent('recipes', (event) => {
         //Crafting table
         {
           output: 'minecraft:crafting_table',
-          pattern:['SS ','BB  ','  '],
+          pattern:['SS ', 'BB  ', '  '],
           key: {
             S: 'minecraft:flint',
             B: '#minecraft:planks'
@@ -182,7 +182,7 @@ onEvent('recipes', (event) => {
         //Grindstone
         {
           output: 'minecraft:grindstone',
-          pattern:['TCT','SCS','S S'],
+          pattern:['TCT', 'SCS', 'S S'],
           key: {
             T: 'immersiveengineering:treated_wood_horizontal',
             C: 'prefab:block_compressed_stone',
@@ -193,7 +193,7 @@ onEvent('recipes', (event) => {
         //End-crystal
         {
           output: 'minecraft:end_crystal',
-          pattern:['ABA','ACA','ADA'],
+          pattern:['ABA', 'ACA', 'ADA'],
           key: {
             A: 'mekanism:structural_glass',
             B: 'minecraft:dragon_breath',
@@ -205,7 +205,7 @@ onEvent('recipes', (event) => {
         //Smithing Table
         {
           output: 'minecraft:smithing_table',
-          pattern:['AAA','BCD','CCC'],
+          pattern:['AAA', 'BCD', 'CCC'],
           key: {
             A: 'create:shadow_steel',
             B: 'betterendforge:iron_hammer',
