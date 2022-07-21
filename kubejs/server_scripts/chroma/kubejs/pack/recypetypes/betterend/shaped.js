@@ -82,7 +82,7 @@ onEvent('recipes', (event) => {
         {
             output: 'betterendforge:eternal_pedestal',
             pattern: [' R ', 'TPT', 'FFF'],
-            key: { 
+            key: {
                 P: 'betterendforge:flavolite_pillar',
                 R: 'betterendforge:flavolite_runed',
                 F: 'betterendforge:flavolite_polished',
@@ -93,7 +93,7 @@ onEvent('recipes', (event) => {
         // Infusion Pedestal
         {
             output: 'betterendforge:infusion_pedestal',
-            pattern: [' E ', 'TCT', 'CCCs'],
+            pattern: [' E ', 'TCT', 'CCC'],
             key: {
                 E: 'minecraft:ender_eye',
                 T: 'betterendforge:thallasium_ingot',
