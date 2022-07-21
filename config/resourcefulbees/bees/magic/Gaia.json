@@ -8,8 +8,8 @@
     "traits": ["sedimentary", "can_swim"],
     "baseLayerTexture": "magic/gaia",
     "ColorData": {
-    "honeycombColor": "#92858f",
-    "modelType": "ORE"
+      "honeycombColor": "#7b5c75",
+      "isRainbowBee": false
     },
     "CombatData": {
       "isPassive": true,
