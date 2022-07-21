@@ -39,7 +39,8 @@ const honeyVarieties = [
     'resourcefulbees:forgotten_honey',
     'resourcefulbees:steel_honey',
     'resourcefulbees:electrum_honey',
-    'resourcefulbees:uranium_honey'
+    'resourcefulbees:uranium_honey',
+
 ];
 
 const combVariants = [
@@ -69,7 +70,22 @@ const combVariants = [
     'forgotten',
     'uranium',
     'steel',
-    'electrum'
+    'electrum',
+    'catnip',
+    'coal',
+    'creeper',
+    'dragon',
+    'ender',
+    'lapis',
+    'pigman',
+    'netherite',
+    'rgbee',
+    'skeleton',
+    'water',
+    'zombie',
+    'rainbow',
+    'quartz'
+
 ];
 
 const bees = [];
