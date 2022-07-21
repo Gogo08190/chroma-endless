@@ -724,5 +724,8 @@ const craftedBees = [
     'regalium',
     'utherium',
     'froststeel',
-    'forgotten'
+    'forgotten',
+    'steel',
+    'electrum',
+    'uranium'
 ];

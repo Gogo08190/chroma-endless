@@ -63,7 +63,10 @@ const combVariants = [
     'regalium',
     'utherium',
     'froststeel',
-    'forgotten'
+    'forgotten',
+    'uranium',
+    'steel',
+    'electrum'
 ];
 
 const bees = [];
