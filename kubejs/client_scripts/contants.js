@@ -719,5 +719,10 @@ const craftedBees = [
     'wither',
     'redstone',
     'emerald',
-    'diamond'
+    'diamond',
+    'cloggrum',
+    'regalium',
+    'utherium',
+    'froststeel',
+    'forgotten'
 ];

@@ -31,7 +31,12 @@ const honeyVarieties = [
     'resourcefulbees:elementium_honey',
     'resourcefulbees:manasteel_honey',
     'resourcefulbees:terrasteel_honey',
-    'resourcefulbees:xion_honey'
+    'resourcefulbees:xion_honey',
+    'resourcefulbees:cloggrum_honey',
+    'resourcefulbees:regalium_honey',
+    'resourcefulbees:utherium_honey',
+    'resourcefulbees:froststeel_honey',
+    'resourcefulbees:forgotten_honey'
 ];
 
 const combVariants = [
@@ -54,7 +59,11 @@ const combVariants = [
     'redstone',
     'emerald',
     'diamond',
-    'cloggrum'
+    'cloggrum',
+    'regalium',
+    'utherium',
+    'froststeel',
+    'forgotten'
 ];
 
 const bees = [];
