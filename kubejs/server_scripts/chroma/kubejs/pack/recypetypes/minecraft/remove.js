@@ -7,7 +7,8 @@ onEvent('recipes', (event) => {
       'alexsmobs:flint_n_steel_dropbear_claw',
       'tconstruct:common/glass/vanilla/end_crystal',
       'betterendforge:smithing_table_from_terminite_ingot',
-      'betterendforge:smithing_table_from_thallasium_ingot'
+      'betterendforge:smithing_table_from_thallasium_ingot',
+      'tconstruct:common/glass/vanilla/beacon'
     ];
 
     const outputRemovals = [

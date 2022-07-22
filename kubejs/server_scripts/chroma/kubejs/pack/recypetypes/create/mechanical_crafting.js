@@ -172,10 +172,10 @@ onEvent('recipes', (event) => {
             output: 'minecraft:beacon',
             pattern: ['AAAAA', 'ABBBA', 'ABCBA', 'ADDDA', 'AAAAA'],
             key: {
-                A: 'minecraft:glass',
+                A: '#forge:glass',
                 B: 'minecraft:sea_lantern',
                 C: 'minecraft:nether_star',
-                D: 'minecraft:obsidian'
+                D: '#forge:obsidian'
             },
             id: 'minecraft:beacon'
         }
