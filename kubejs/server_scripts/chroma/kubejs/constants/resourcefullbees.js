@@ -50,7 +50,8 @@ const honeyVarieties = [
     'resourcefulbees:nether_quartz_honey',
     'resourcefulbees:tin_honey',
     'resourcefulbees:zinc_honey',
-
+    'resourcefulbees:fluorite_honey',
+    'resourcefulbees:potassium_honey'    
 ];
 
 const combVariants = [
@@ -102,8 +103,9 @@ const combVariants = [
     'cobalt',
     'nether_quartz',
     'tin',
-    'zinc'
-
+    'zinc',
+    'fluorite',
+    'potassium'
 ];
 
 const bees = [];
