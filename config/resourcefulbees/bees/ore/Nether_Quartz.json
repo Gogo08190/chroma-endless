@@ -3,11 +3,14 @@
   "maxTimeInHive": 1000,
   "hasHoneycomb": true,
   "traits": ["nether"],
+  "baseLayerTexture": "ores/quartz/quartz",
   "ColorData": {
-    "isBeeColored": true,
-    "honeycombColor": "#D4CABA",
-    "primaryColor": "#D4CABA",
-    "secondaryColor": "#303030"
+    "honeycombColor": "#32335c",
+    "isBeeColored": false,
+    "isRainbowBee": false,
+    "isGlowing": false,
+    "isEnchanted": false,
+    "modelType": "ORE"
   },
   "MutationData": {
     "hasMutation": true,
