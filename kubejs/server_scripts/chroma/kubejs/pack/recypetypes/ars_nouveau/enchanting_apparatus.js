@@ -104,6 +104,7 @@ onEvent('recipes', (event) => {
           output: 'resourcefulbees:t4_hive_upgrade',
           id: 'resourcefulbees:t4_hive_upgrade'
       }
+
     ];
 
     recipes.forEach((recipe) => {

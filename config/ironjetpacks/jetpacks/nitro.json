@@ -1,0 +1,23 @@
+{
+  "name": "nitro",
+  "disable": false,
+  "tier": 6,
+  "color": "89100e",
+  "armorPoints": 7,
+  "enchantability": 15,
+  "craftingMaterial": "tag:powah:crystal_nitro",
+  "creative": false,
+  "rarity": 0,
+  "toughness": 0.0,
+  "knockbackResistance": 0.0,
+  "capacity": 48000000,
+  "usage": 880,
+  "speedVertical": 1.03,
+  "accelVertical": 0.17,
+  "speedSideways": 0.21,
+  "speedHoverDescend": 0.45,
+  "speedHover": 0.0,
+  "sprintSpeedMulti": 2.0,
+  "sprintSpeedMultiVertical": 1.5,
+  "sprintFuelMulti": 4.0
+}

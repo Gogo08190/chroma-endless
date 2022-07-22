@@ -56,6 +56,8 @@ const disabledItems = [
 
     'pitg:green_dye',
 
+    'createdeco:netherite_nugget',
+
     'pneumaticcraft:wheat_flour',
 
   	'projectvibrantjourneys:clam',
@@ -94,5 +96,7 @@ const disabledItems = [
     'mekanismtools:bronze_paxel',
     'mekanismtools:lapis_lazuli_paxel',
     'mekanismtools:osmium_paxel',
-    'mekanismtools:steel_paxel'
+    'mekanismtools:steel_paxel',
+
+    'emendatusenigmatica:enigmatic_hammer'
 ];

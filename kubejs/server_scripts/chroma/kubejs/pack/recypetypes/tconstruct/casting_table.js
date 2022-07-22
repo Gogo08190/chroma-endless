@@ -38,6 +38,24 @@ onEvent('recipes', (event) => {
               output: 'envirocore:ionite_crystal',
               cooling_time: 79,
               id: `${id_prefix}sand_cast_ionite_crystal`
+          },
+          {
+              fluid: 'tconstruct:molten_gold',
+              fluid_amount: 576,
+              casts: [{ item: 'extendedcrafting:redstone_ingot' }],
+              cast_consumed: true,
+              output: 'minecraft:clock',
+              cooling_time: 120,
+              id: 'tconstruct:smeltery/casting/metal/gold/clock'
+          },
+          {
+              fluid: 'tconstruct:molten_iron',
+              fluid_amount: 576,
+              casts: [{ item: 'extendedcrafting:redstone_ingot' }],
+              cast_consumed: true,
+              output: 'minecraft:compass',
+              cooling_time: 120,
+              id: 'tconstruct:smeltery/casting/metal/iron/compass'
           }
         ]
     };

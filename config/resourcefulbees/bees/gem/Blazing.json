@@ -1,0 +1,49 @@
+{
+  "flower": "powah:blazing_crystal_block",
+  "lore": "mettre du lor",
+  "loreColor": "#00AAA",
+  "sizeModifier": 1,
+  "hasHoneycomb": true,
+  "traits": ["sedimentary", "can_swim"],
+  "baseLayerTexture": "ores/blazing_crystal/blazing_crystal",
+  "ColorData": {
+      "honeycombColor": "#ffe01f",
+      "isBeeColored": false,
+      "isRainbowBee": false,
+      "isGlowing": false,
+      "isEnchanted": false,
+      "modelType": "ORE"
+      },
+      "CombatData": {
+        "isPassive": false,
+        "removeStingerOnAttack": false,
+        "inflictsPoison": false,
+        "attackDamage": 4
+        },
+        "CentrifugeData": {
+          "hasCentrifugeOutput": true,
+
+          "mainOutput": "powah:crystal_blazing",
+          "mainOutputWeight": 0.5,
+          "mainOutputCount": 1,
+
+          "bottleOutput": "resourcefulbees:blazing_crystal_honey_bottle",
+          "bottleOutputWeight": 0.01,
+          "bottleOutputCount": 1,
+
+          "mainInputCount": 1
+    },
+    "SpawnData": {
+      "canSpawnInWorld": false
+    },
+    "BreedData": {
+    "isBreedable": true,
+    "feedItem": "powah:crystal_blazing",
+    "feedAmount": 1,
+    "childGrowthDelay": -24000,
+    "breedDelay": 6000
+  },
+  "TraitData": {
+      "hasTraits": true
+    }
+}

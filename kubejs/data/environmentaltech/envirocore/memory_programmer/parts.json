@@ -1,0 +1,12 @@
+{
+  "categories": ["environmentaltech:new_miners"],
+  "program": "environmentaltech:parts_miner",
+  "r": 140, "g": 15, "b": 168,
+  "input": {
+    "raw:itemstack": "envirocore:flash_memory"
+  },
+  "output": {
+    "raw:itemstack": "envirocore:flash_memory"
+  },
+  "duration": {"raw:int": 40}
+}

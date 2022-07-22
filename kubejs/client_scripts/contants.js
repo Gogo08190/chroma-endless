@@ -104,7 +104,9 @@ const itemsToHide = [
     'aiotbotania:alfsteel_aiot',
     'aiotbotania:alfsteel_shovel',
     'aiotbotania:alfsteel_hoe',
-    'aiotbotania:alfsteel_aiot'
+    'aiotbotania:alfsteel_aiot',
+
+    'powah:capacitor_basic_tiny',
 
     'ars_nouveau:arcane_brick',
     'ars_nouveau:arcane_ore',
@@ -124,6 +126,9 @@ const itemsToHide = [
     'create:copper_ore',
     'create:zinc_ore',
 
+    'createdeco:netherite_nugget',
+    'createdeco:zinc_sheet',
+
     'arsarsenal:aqua_hood',
     'arsarsenal:fire_hood',
     'arsarsenal:earth_hood',
@@ -132,6 +137,7 @@ const itemsToHide = [
     // Masterfull machines
     'masterfulmachinery:assemblylaser_assembly_energy_port_energy_output',
     'masterfulmachinery:assemblylaser_assembly_air_port_pncr_pressure_output',
+    'masterfulmachinery:compactfactory_compact_energy_port_energy_output',
 
     'emendatusenigmatica:sulfur_ore',
     'emendatusenigmatica:cinnabar_ore',
@@ -262,13 +268,6 @@ const itemsToHide = [
     'pedestals:coin/quarryb',
     'pedestals:coin/restriction',
 
-    'powah:uraninite_ore',
-    'powah:uraninite_ore_dense',
-    'powah:uraninite_ore_poor',
-    'powah:uraninite_raw',
-    'powah:uraninite_raw_dense',
-    'powah:uraninite_raw_poor',
-
     'quark:biotite',
     'quark:biotite_ore',
     'quark:tallow',
@@ -384,7 +383,9 @@ const itemsToHide = [
     'kubejs:teams',
     'kubejs:website',
 
-    'draconicadditions:chaos_heart'
+    'draconicadditions:chaos_heart',
+
+    'mekanism:enriched_tin'
 ];
 
 let ee_types = ['clump', 'crystal', 'dirty_dust', 'shard', 'fragment', 'gravel'];
@@ -700,9 +701,39 @@ const materialsToUnify = [
     'blazing',
     'niotic',
     'spirited',
-    'nitro'
+    'nitro',
+    'blaze'
 ];
 
 const craftedBees = [
-    'occultist'
+    'occultist',
+    'blazing',
+    'energized',
+    'niotic',
+    'nitro',
+    'spirited',
+    'uraninite',
+    'elementium',
+    'gaia',
+    'manasteel',
+    'terrasteel',
+    'xion',
+    'iron',
+    'wither',
+    'redstone',
+    'emerald',
+    'diamond',
+    'cloggrum',
+    'regalium',
+    'utherium',
+    'froststeel',
+    'forgotten',
+    'steel',
+    'electrum',
+    'uranium',
+    'blaze',
+    'copper',
+    'aluminum',
+    'silver',
+    'lead'
 ];

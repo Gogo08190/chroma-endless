@@ -39,7 +39,7 @@ onEvent('recipes', (event) => {
             output: 'enderioalloys:item_material_gear_stone',
             pattern: ['TST', 'SCS', 'TST'],
             key: {
-                T: 'immersiveengineering:stick_treated',
+                T: 'minecraft:stick',
                 S: '#forge:stone',
                 C: '#forge:cobblestone'
             },

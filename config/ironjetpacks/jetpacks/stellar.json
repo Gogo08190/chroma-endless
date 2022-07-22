@@ -1,0 +1,23 @@
+{
+  "name": "stellar",
+  "disable": false,
+  "tier": 5,
+  "color": "e3e6d5",
+  "armorPoints": 6,
+  "enchantability": 12,
+  "craftingMaterial": "tag:enderioalloys:item_alloy_ingot_stellar_alloy",
+  "creative": false,
+  "rarity": 0,
+  "toughness": 0.0,
+  "knockbackResistance": 0.0,
+  "capacity": 36000000,
+  "usage": 720,
+  "speedVertical": 0.92,
+  "accelVertical": 0.155,
+  "speedSideways": 0.193,
+  "speedHoverDescend": 0.42,
+  "speedHover": 0.005,
+  "sprintSpeedMulti": 1.8,
+  "sprintSpeedMultiVertical": 1.4,
+  "sprintFuelMulti": 3.8
+}

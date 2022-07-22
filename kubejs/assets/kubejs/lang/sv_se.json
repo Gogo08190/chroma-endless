@@ -49,12 +49,14 @@
     "item.kubejs.xerothium_photovoltaic_panel": "Xerothium Photovoltaic Panel",
     "item.kubejs.energized_uranium": "Energized Uranium",
     "item.kubejs.gogo": "Gogo Trophy",
+    "item.kubejs.silicon_grease": "Silicon Grease",
 
-    "infuse_type.kubejs.uranium": "Uranium",
+    "infuse_type.kubejs.uranium": "Energized Uranium",
 
     "block.kubejs.spirit_attuned_block": "Block of Spirit Attuned Gem",
     "block.kubejs.machine_front_template": "Xnet Machine Frame",
     "block.kubejs.sac": "Sac Doll",
+    "block.kubejs.gaia_spirit_block": "Gaia Spirit Block",
 
     "ritual.chroma.occultism/ritual/machine_frame.started": "Started Machine Frame's binding ritual.",
     "ritual.chroma.occultism/ritual/machine_frame.finished": "Machine Frame successfully bound.",
@@ -96,5 +98,8 @@
     "ritual.chroma.occultism/ritual/summon_occultist_bee.interrupted": " Occultist Bee's Summoning interrupted.",
     "ritual.chroma.occultism/ritual/summon_occultist_bee.conditions": "Not all requirements for this ritual are met.",
 
-    "ritual.occultism.sacrifice.forest_bees": "Forest Bee"
+    "ritual.occultism.sacrifice.forest_bees": "Forest Bee",
+    "memory_programmer_category.environmentaltech.new_miners": "New Miners",
+    "program.environmentaltech.chunk_miner": "Chunk Miners",
+    "program.environmentaltech.parts_miner": "Parts Miners"
 }

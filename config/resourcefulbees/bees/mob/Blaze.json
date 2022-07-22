@@ -1,0 +1,62 @@
+{
+    "flower": "botania:blaze_block",
+    "lore": "mettre du lore",
+    "loreColor": "#00AAAA",
+    "maxTimeInHive": 4800,
+    "sizeModifier": 1.0,
+    "traits": ["blaze", "nether", "wither", "can_swim"],
+    "hasHoneycomb": true,
+    "baseLayerTexture": "mobs/blaze/blaze",
+    "ColorData": {
+        "honeycombColor": "#fff32d",
+        "isBeeColored": false,
+        "isRainbowBee": false,
+        "isGlowing": false,
+        "isEnchanted": false
+    },
+    "CombatData": {
+        "isPassive": false,
+        "removeStingerOnAttack": false,
+        "inflictsPoison": true,
+        "attackDamage": 2
+    },
+    "MutationData": {
+        "hasMutation": true,
+        "mutations" : [
+          {
+            "type": "BLOCK",
+            "inputID": "minecraft:lava",
+            "outputs": [
+              {"outputID": "minecraft:obsidian", "weight": 10},
+              {"outputID": "minecraft:stone", "weight": 10}
+            ]
+          }
+        ]
+    },
+    "CentrifugeData": {
+        "hasCentrifugeOutput": true,
+
+        "mainOutput": "minecraft:blaze_rod",
+        "mainOutputWeight": 0.20,
+        "mainOutputCount": 1,
+
+        "bottleOutput": "resourcefulbees:blaze_honey_bottle",
+        "bottleOutputWeight": 0.02,
+        "bottleOutputCount": 1,
+
+        "mainInputCount": 1
+    },
+    "SpawnData": {
+        "canSpawnInWorld": false
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "feedItem": "tag:forge:rods/blaze",
+        "feedAmount": 3,
+        "childGrowthDelay": -24000,
+        "breedDelay": 6000
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

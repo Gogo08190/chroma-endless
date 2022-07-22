@@ -47,19 +47,6 @@ onEvent('recipes', (event) => {
             },
             result: {
                 fluid: 'tconstruct:blazing_blood',
-                amount: 100
-            },
-            temperature: 1400,
-            time: 81,
-            id: `${id_prefix}blazing_blood_from_blaze_rod`
-        },
-        {
-            type: 'tconstruct:ore_melting',
-            ingredient: {
-                item: 'minecraft:blaze_rod'
-            },
-            result: {
-                fluid: 'tconstruct:blazing_blood',
                 amount: 10
             },
             temperature: 750,
@@ -78,6 +65,19 @@ onEvent('recipes', (event) => {
             temperature: 900,
             time: 81,
             id: `${id_prefix}blazing_blood_from_blaze_mesh`
+        },
+        {
+            type: 'tconstruct:ore_melting',
+            ingredient: {
+                item: 'minecraft:redstone'
+            },
+            result: {
+                fluid: 'thermal:redstone',
+                amount: 50
+            },
+            temperature: 750,
+            time: 81,
+            id: `${id_prefix}thermal_redstone`
         }
     ];
 
