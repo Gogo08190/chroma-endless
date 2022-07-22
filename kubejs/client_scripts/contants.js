@@ -740,5 +740,6 @@ const craftedBees = [
     'osmium',
     'cobalt',
     'nether_quartz',
-    'tin'
+    'tin',
+    'zinc'
 ];

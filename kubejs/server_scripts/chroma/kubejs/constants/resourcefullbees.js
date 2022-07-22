@@ -48,7 +48,8 @@ const honeyVarieties = [
     'resourcefulbees:osmium_honey',
     'resourcefulbees:cobalt_honey',
     'resourcefulbees:nether_quartz_honey',
-    'resourcefulbees:tin_honey'
+    'resourcefulbees:tin_honey',
+    'resourcefulbees:zinc_honey',
 
 ];
 
@@ -100,7 +101,8 @@ const combVariants = [
     'osmium',
     'cobalt',
     'nether_quartz',
-    'tin'
+    'tin',
+    'zinc'
 
 ];
 
