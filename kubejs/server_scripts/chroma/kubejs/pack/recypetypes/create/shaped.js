@@ -82,6 +82,27 @@ onEvent('recipes', (event) => {
             L: '#forge:ingots/lead'
         },
         id: 'create:crafting/appliances/diving_boots'
+      },
+      //Cogwheel
+      {
+        output: 'create:cogwheel',
+        pattern: ['AAA', 'ABA', 'AAA'],
+        key: {
+            A: '#minecraft:buttons',
+            B: 'create:shaft'
+        },
+        id: 'create:crafting/kinetics/cogwheel'
+      },
+      //Large Cogwheel
+      {
+        output: 'create:large_cogwheel',
+        pattern: ['ABA', 'BCB', 'ABA'],
+        key: {
+            A: '#minecraft:buttons',
+            B: 'create:cogwheel',
+            C: 'create:shaft'
+        },
+        id: 'create:crafting/kinetics/large_cogwheel'
       }
     ];
 

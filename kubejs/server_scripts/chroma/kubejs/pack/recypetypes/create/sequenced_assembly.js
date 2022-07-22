@@ -129,6 +129,27 @@ onEvent('recipes', (event) => {
                 }
             ],
             id: `${id_prefix}garden_cloche`
+        },
+        //cogwheel
+        {
+            input: 'create:shaft',
+            outputs: ['create:cogwheel'],
+            transitionalItem: 'create:incomplete_cogwheel',
+            loops: 4,
+            sequence: [
+                {
+                    type: 'deploying',
+                    input: ['create:incomplete_cogwheel', '#minecraft:buttons'],
+                    output: 'create:incomplete_cogwheel'
+                },
+                {
+                    type: 'cutting',
+                    input: ['create:incomplete_cogwheel'],
+                    output: 'create:incomplete_cogwheel',
+                    processingTime: 50
+                }
+            ],
+            id: `${id_prefix}cogwheel`
         }
     ];
 
