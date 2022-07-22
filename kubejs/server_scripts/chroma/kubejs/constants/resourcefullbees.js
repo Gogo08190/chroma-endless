@@ -42,7 +42,8 @@ const honeyVarieties = [
     'resourcefulbees:uranium_honey',
     'resourcefulbees:copper_honey',
     'resourcefulbees:aluminum_honey',
-    'resourcefulbees:silver_honey'
+    'resourcefulbees:silver_honey',
+    'resourcefulbees:lead_honey'
 
 ];
 
@@ -88,7 +89,8 @@ const combVariants = [
     'blaze',
     'aluminum',
     'silver',
-    'copper'
+    'copper',
+    'lead'
 
 ];
 
