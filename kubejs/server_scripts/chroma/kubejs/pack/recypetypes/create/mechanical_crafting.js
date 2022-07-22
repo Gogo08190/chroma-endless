@@ -166,6 +166,18 @@ onEvent('recipes', (event) => {
                 F: 'powah:dielectric_rod'
             },
             id: 'powah:crafting/energizing_orb'
+        },
+        //beacon
+        {
+            output: 'minecraft:beacon',
+            pattern: ['AAAAA', 'ABBBA', 'ABCBA', 'ADDDA', 'AAAAA'],
+            key: {
+                A: 'minecraft:glass',
+                B: 'minecraft:sea_lantern',
+                C: 'minecraft:nether_star',
+                D: 'minecraft:obsidian'
+            },
+            id: 'minecraft:beacon'
         }
     ];
 
