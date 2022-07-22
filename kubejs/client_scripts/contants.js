@@ -383,7 +383,9 @@ const itemsToHide = [
     'kubejs:teams',
     'kubejs:website',
 
-    'draconicadditions:chaos_heart'
+    'draconicadditions:chaos_heart',
+
+    'mekanism:enriched_tin'
 ];
 
 let ee_types = ['clump', 'crystal', 'dirty_dust', 'shard', 'fragment', 'gravel'];
