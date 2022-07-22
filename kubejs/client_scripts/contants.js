@@ -742,5 +742,6 @@ const craftedBees = [
     'nether_quartz',
     'tin',
     'zinc',
-    'fluorite'
+    'fluorite',
+    'potassium'
 ];
