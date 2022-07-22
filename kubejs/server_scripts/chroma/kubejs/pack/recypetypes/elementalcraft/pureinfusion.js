@@ -41,6 +41,76 @@ onEvent('recipes', (event) => {
           element_amount: 10000,
           output: { item: 'undergarden:catalyst' },
           id: 'undergarden:catalyst'
+      },
+
+      // Cloggrum Bee
+      {
+          inputs: [
+              Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:iron_bee' }).weakNBT().toJson(),
+              { item: 'undergarden:cloggrum_block' },
+              { item: 'undergarden:cloggrum_block' },
+              { item: 'undergarden:cloggrum_block' },
+              { item: 'undergarden:cloggrum_block' }
+          ],
+          element_amount: 15000,
+          output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:cloggrum_bee' }).toJson(),
+          id: `${id_prefix}cloggrum_bee`
+      },
+
+      // Froststeel Bee
+      {
+          inputs: [
+              Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:steel_bee' }).weakNBT().toJson(),
+              { item: 'minecraft:blue_ice' },
+              { item: 'minecraft:blue_ice' },
+              { item: 'minecraft:blue_ice' },
+              { item: 'minecraft:blue_ice' }
+          ],
+          element_amount: 15000,
+          output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:froststeel_bee' }).toJson(),
+          id: `${id_prefix}froststeel_bee`
+      },
+
+      // Utherium Bee
+      {
+          inputs: [
+              Item.of('rftoolsutility:syringe', '{mobName:"undergarden:rotwalker",mobId:"undergarden:rotwalker",level:10}').weakNBT().toJson(),
+              { item: 'undergarden:utherium_block' },
+              { item: 'undergarden:utherium_block' },
+              { item: 'undergarden:utherium_block' },
+              { item: 'undergarden:utherium_block' }
+          ],
+          element_amount: 15000,
+          output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:utherium_bee' }).toJson(),
+          id: `${id_prefix}utherium_bee`
+      },
+
+      // Regalium Bee
+      {
+          inputs: [
+              { item: 'undergarden:ditchbulb' },
+              { item: 'undergarden:regalium_block' },
+              { item: 'undergarden:regalium_block' },
+              { item: 'undergarden:regalium_block' },
+              { item: 'undergarden:regalium_block' }
+          ],
+          element_amount: 15000,
+          output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:regalium_bee' }).toJson(),
+          id: `${id_prefix}regalium_bee`
+      },
+
+      // Forgotten Bee
+      {
+          inputs: [
+              Item.of('rftoolsutility:syringe', '{mobName:"undergarden:forgotten_guardian",mobId:"undergarden:forgotten_guardian",level:10}').weakNBT().toJson(),
+              { item: 'undergarden:forgotten_block' },
+              { item: 'undergarden:forgotten_block' },
+              { item: 'undergarden:forgotten_block' },
+              { item: 'undergarden:forgotten_block' }
+          ],
+          element_amount: 15000,
+          output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:forgotten_bee' }).toJson(),
+          id: `${id_prefix}forgotten_bee`
       }
     ];
 
