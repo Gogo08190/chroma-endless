@@ -323,7 +323,7 @@ onEvent('recipes', (event) => {
           ],
           energy: 1000000,
           result: {
-              item: 'powah:spirited_niotic',
+              item: 'powah:crystal_spirited',
               count: 1
           },
           id: 'powah:energizing/spirited_crystal'
