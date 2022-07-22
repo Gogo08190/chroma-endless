@@ -5,7 +5,7 @@
   "sizeModifier": 1,
   "hasHoneycomb": true,
   "traits": ["sedimentary", "can_swim"],
-  "baseLayerTexture": "ores/froststeel",
+  "baseLayerTexture": "ores/froststeel/froststeel",
   "ColorData": {
       "honeycombColor": "#8aadcf",
       "isBeeColored": false,

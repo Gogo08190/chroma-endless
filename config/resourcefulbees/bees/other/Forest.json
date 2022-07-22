@@ -6,7 +6,7 @@
     "sizeModifier": 0.75,
     "hasHoneycomb": true,
     "traits": ["can_swim"],
-    "baseLayerTexture": "other/forest",
+    "baseLayerTexture": "other/forest/forest",
     "ColorData": {
         "honeycombColor": "#4c4c26",
         "modelType": "ARMORED"

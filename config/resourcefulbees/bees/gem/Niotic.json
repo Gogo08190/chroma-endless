@@ -5,7 +5,7 @@
   "sizeModifier": 1,
   "hasHoneycomb": true,
   "traits": ["sedimentary", "can_swim"],
-  "baseLayerTexture": "ores/niotic_crystal",
+  "baseLayerTexture": "ores/niotic_crystal/niotic_crystal",
   "ColorData": {
       "honeycombColor": "#0099b7",
       "isBeeColored": false,

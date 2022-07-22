@@ -5,7 +5,7 @@
   "sizeModifier": 1,
   "hasHoneycomb": true,
   "traits": ["sedimentary", "can_swim"],
-  "baseLayerTexture": "ores/nitro_crystal",
+  "baseLayerTexture": "ores/nitro_crystal/nitro_crystal",
   "ColorData": {
       "honeycombColor": "#e80000",
       "isBeeColored": false,

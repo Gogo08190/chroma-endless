@@ -6,7 +6,7 @@
     "maxTimeInHive": 6000,
     "hasHoneycomb": true,
     "traits": ["sedimentary", "can_swim"],
-    "baseLayerTexture": "magic/terrasteel",
+    "baseLayerTexture": "botania/terrasteel/terrasteel",
     "ColorData": {
     "honeycombColor": "#37f900",
     "modelType": "ORE"

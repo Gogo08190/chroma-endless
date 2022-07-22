@@ -6,7 +6,7 @@
     "sizeModifier": 1.0,
     "traits": ["blaze", "nether", "wither", "can_swim"],
     "hasHoneycomb": true,
-    "baseLayerTexture": "mobs/blaze",
+    "baseLayerTexture": "mobs/blaze/blaze",
     "ColorData": {
         "honeycombColor": "#fff32d",
         "isBeeColored": false,

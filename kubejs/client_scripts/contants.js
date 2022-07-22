@@ -731,5 +731,8 @@ const craftedBees = [
     'steel',
     'electrum',
     'uranium',
-    'blaze'
+    'blaze',
+    'copper',
+    'aluminum',
+    'silver'
 ];

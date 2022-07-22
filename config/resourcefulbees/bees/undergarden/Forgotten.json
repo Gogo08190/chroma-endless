@@ -5,7 +5,7 @@
   "sizeModifier": 1,
   "hasHoneycomb": true,
   "traits": ["sedimentary", "can_swim"],
-  "baseLayerTexture": "ores/forgotten",
+  "baseLayerTexture": "metals/forgotten/forgotten",
   "ColorData": {
       "honeycombColor": "#57e3b3",
       "isBeeColored": false,

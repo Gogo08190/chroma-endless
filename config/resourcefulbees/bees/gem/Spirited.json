@@ -5,7 +5,7 @@
   "sizeModifier": 1,
   "hasHoneycomb": true,
   "traits": ["sedimentary", "can_swim"],
-  "baseLayerTexture": "ores/spirited_crystal",
+  "baseLayerTexture": "ores/spirited_crystal/spirited_crystal",
   "ColorData": {
       "honeycombColor": "#70af00",
       "isBeeColored": false,

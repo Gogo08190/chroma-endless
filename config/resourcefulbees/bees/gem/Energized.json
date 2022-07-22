@@ -5,7 +5,7 @@
   "sizeModifier": 1,
   "hasHoneycomb": true,
   "traits": ["sedimentary", "can_swim"],
-  "baseLayerTexture": "ores/energized_steel",
+  "baseLayerTexture": "ores/energized_steel/energized_steel",
   "ColorData": {
       "honeycombColor": "#a78f65",
       "isBeeColored": false,

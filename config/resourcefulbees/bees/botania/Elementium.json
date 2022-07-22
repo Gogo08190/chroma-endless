@@ -1,14 +1,14 @@
 {
-    "flower": "botania:manasteel_block",
+    "flower": "botania:elementium_block",
     "lore": "mettre du lor",
-    "loreColor": "#99f7ff",
+    "loreColor": "#ff66cc",
     "sizeModifier": 1,
     "maxTimeInHive": 6000,
     "hasHoneycomb": true,
     "traits": ["sedimentary", "can_swim"],
-    "baseLayerTexture": "magic/manasteel",
+    "baseLayerTexture": "botania/elementium/elementium",
     "ColorData": {
-    "honeycombColor": "#2f79c6",
+    "honeycombColor": "#f51fff",
     "modelType": "ORE"
     },
     "CombatData": {
@@ -20,11 +20,11 @@
     "CentrifugeData": {
       "hasCentrifugeOutput": true,
 
-      "mainOutput": "botania:manasteel_ingot",
+      "mainOutput": "botania:elementium_ingot",
       "mainOutputWeight": 0.5,
       "mainOutputCount": 1,
 
-      "bottleOutput": "resourcefulbees:manasteel_honey_bottle",
+      "bottleOutput": "resourcefulbees:elementium_honey_bottle",
       "bottleOutputWeight": 0.01,
       "bottleOutputCount": 1,
 
@@ -35,7 +35,7 @@
     },
     "BreedData": {
       "isBreedable": true,
-      "feedItem": "botania:manasteel_ingot",
+      "feedItem": "botania:elementium_ingot",
       "feedAmount": 2,
       "childGrowthDelay": -24000,
       "breedDelay": 6000

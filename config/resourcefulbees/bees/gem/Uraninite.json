@@ -5,7 +5,7 @@
   "sizeModifier": 1,
   "hasHoneycomb": true,
   "traits": ["sedimentary", "can_swim"],
-  "baseLayerTexture": "ores/uraninite",
+  "baseLayerTexture": "ores/uraninite/uraninite",
   "ColorData": {
       "honeycombColor": "#00a400",
       "isBeeColored": false,

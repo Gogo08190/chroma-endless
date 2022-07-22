@@ -1,15 +1,15 @@
 {
-    "flower": "botanicalmachinery:mana_battery",
+    "flower": "botania:manasteel_block",
     "lore": "mettre du lor",
-    "loreColor": "#00AAAA",
+    "loreColor": "#99f7ff",
     "sizeModifier": 1,
     "maxTimeInHive": 6000,
     "hasHoneycomb": true,
     "traits": ["sedimentary", "can_swim"],
-    "baseLayerTexture": "magic/gaia",
+    "baseLayerTexture": "botania/manasteel/manasteel",
     "ColorData": {
-      "honeycombColor": "#7b5c75",
-      "isRainbowBee": false
+    "honeycombColor": "#2f79c6",
+    "modelType": "ORE"
     },
     "CombatData": {
       "isPassive": true,
@@ -20,11 +20,11 @@
     "CentrifugeData": {
       "hasCentrifugeOutput": true,
 
-      "mainOutput": "botania:life_essence",
+      "mainOutput": "botania:manasteel_ingot",
       "mainOutputWeight": 0.5,
       "mainOutputCount": 1,
 
-      "bottleOutput": "resourcefulbees:gaia_honey_bottle",
+      "bottleOutput": "resourcefulbees:manasteel_honey_bottle",
       "bottleOutputWeight": 0.01,
       "bottleOutputCount": 1,
 
@@ -35,8 +35,8 @@
     },
     "BreedData": {
       "isBreedable": true,
-      "feedItem": "botania:gaia_ingot",
-      "feedAmount": 20,
+      "feedItem": "botania:manasteel_ingot",
+      "feedAmount": 2,
       "childGrowthDelay": -24000,
       "breedDelay": 6000
     },

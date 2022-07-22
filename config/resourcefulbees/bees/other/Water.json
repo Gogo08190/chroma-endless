@@ -6,7 +6,7 @@
     "sizeModifier": 0.75,
     "hasHoneycomb": true,
     "traits": ["can_swim"],
-    "baseLayerTexture": "other/water",
+    "baseLayerTexture": "other/water/water",
     "ColorData": {
         "honeycombColor": "#5979ef",
         "isBeeColored": false,

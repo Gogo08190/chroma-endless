@@ -40,6 +40,9 @@ const honeyVarieties = [
     'resourcefulbees:steel_honey',
     'resourcefulbees:electrum_honey',
     'resourcefulbees:uranium_honey',
+    'resourcefulbees:copper_honey',
+    'resourcefulbees:aluminum_honey',
+    'resourcefulbees:silver_honey'
 
 ];
 
@@ -82,7 +85,10 @@ const combVariants = [
     'skeleton',
     'water',
     'zombie',
-    'blaze'
+    'blaze',
+    'aluminum',
+    'silver',
+    'copper'
 
 ];
 

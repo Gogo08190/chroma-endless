@@ -5,7 +5,7 @@
     "maxTimeInHive": 6000,
     "hasHoneycomb": true,
     "traits": ["can_swim"],
-    "baseLayerTexture": "other/occultist",
+    "baseLayerTexture": "other/occultism/occultist",
     "ColorData": {
     	"honeycombColor": "#4f2b79",
     	"modelType": "ORE"

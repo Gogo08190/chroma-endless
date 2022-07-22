@@ -5,7 +5,7 @@
   "sizeModifier": 1,
   "hasHoneycomb": true,
   "traits": ["sedimentary", "can_swim"],
-  "baseLayerTexture": "ores/electrum",
+  "baseLayerTexture": "metals/electrum/electrum",
   "ColorData": {
       "honeycombColor": "#e5b840",
       "isBeeColored": false,
