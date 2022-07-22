@@ -4,7 +4,8 @@ onEvent('recipes', (event) => {
     const idRemovals = [
       'minecraft:blaze_powder',
       'byg:therium_shard_and_steel',
-      'alexsmobs:flint_n_steel_dropbear_claw'
+      'alexsmobs:flint_n_steel_dropbear_claw',
+      'tconstruct:common/glass/vanilla/end_crystal'
     ];
 
     const outputRemovals = [
