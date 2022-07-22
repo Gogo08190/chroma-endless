@@ -701,7 +701,8 @@ const materialsToUnify = [
     'blazing',
     'niotic',
     'spirited',
-    'nitro'
+    'nitro',
+    'blaze'
 ];
 
 const craftedBees = [
@@ -729,5 +730,6 @@ const craftedBees = [
     'forgotten',
     'steel',
     'electrum',
-    'uranium'
+    'uranium',
+    'blaze'
 ];

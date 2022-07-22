@@ -81,7 +81,8 @@ const combVariants = [
     'rgbee',
     'skeleton',
     'water',
-    'zombie'
+    'zombie',
+    'blaze'
 
 ];
 
