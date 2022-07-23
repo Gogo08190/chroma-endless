@@ -11,11 +11,6 @@ onEvent('recipes', (event) => {
           output: 'envirocore:obsidian_plate',
           inputs: ['prefab:block_compressed_obsidian'],
           id: 'envirocore:items/obsidian_plate'
-      },
-      {
-          output: 'create:whisk',
-          inputs: [Item.of('#forge:plates/iron', 5), Item.of('#forge:ingots/andesite_alloy', 2)],
-          id: 'create:crafting/kinetics/whisk'
       }
     ];
 

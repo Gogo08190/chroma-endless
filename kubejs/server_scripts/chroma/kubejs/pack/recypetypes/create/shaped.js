@@ -270,7 +270,7 @@ onEvent('recipes', (event) => {
         id: 'create:crafting/kinetics/spout'
       },
       {
-        output: 'create:spout',
+        output: 'create:hose_pulley',
         pattern: ['PCP', 'TKT', 'PSP'],
         key: {
             P: '#forge:plates/copper',
@@ -279,7 +279,7 @@ onEvent('recipes', (event) => {
             K: 'minecraft:dried_kelp',
             S: 'create:shaft'
         },
-        id: 'create:crafting/kinetics/spout'
+        id: 'create:crafting/kinetics/hose_pulley'
       },
       {
         output: 'create:rotation_speed_controller',
@@ -332,7 +332,7 @@ onEvent('recipes', (event) => {
             R: '#forge:ingots/refined_radiance',
             G: '#forge:glass'
         },
-        id: 'create:crafting/materials/andesite_casing'
+        id: 'create:crafting/materials/refined_radiance_casing'
       }
     ];
 
