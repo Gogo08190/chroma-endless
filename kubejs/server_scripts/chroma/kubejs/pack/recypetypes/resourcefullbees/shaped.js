@@ -216,7 +216,7 @@ onEvent('recipes', (event) => {
               S: '#forge:stone',
               G: '#forge:glass',
               W: 'resourcefulbees:wax',
-              I: 'emendatusenigmatica:steel_ingot'
+              I: '#forge:ingots/steel'
           },
           id: 'resourcefulbees:honey_congealer'
       }
