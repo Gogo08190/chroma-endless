@@ -208,10 +208,132 @@ onEvent('recipes', (event) => {
             B: 'create:shaft',
             S: '#chroma:crafting_slabs',
             C: 'create:large_cogwheel'
-
         },
         id: 'create:crafting/kinetics/gearbox'
       },
+      {
+        output: 'create:smart_chute',
+        pattern: [' P ', 'FCF', 'ATA'],
+        key: {
+            P: '#forge:plates/brass',
+            F: 'create:attribute_filter',
+            C: 'create:chute',
+            A: 'create:andesite_casing',
+            T: 'create:electron_tube'
+        },
+        id: 'create:crafting/kinetics/smart_chute'
+      },
+      {
+        output: Item.of('create:andesite_funnel', 2),
+        pattern: ['AAA', 'KCK', ' D '],
+        key: {
+            A: '#forge:ingots/andesite_alloy',
+            K: 'minecraft:dried_kelp',
+            C: '#forge:chests',
+            D: 'create:chute'
+        },
+        id: 'create:crafting/logistics/andesite_funnel'
+      },
+      {
+        output: Item.of('create:brass_funnel', 2),
+        pattern: ['ATA', 'KCK', ' D '],
+        key: {
+            A: '#forge:ingots/brass',
+            K: 'minecraft:dried_kelp',
+            C: 'create:attribute_filter',
+            D: 'create:chute',
+            T: 'create:electron_tube'
+        },
+        id: 'create:crafting/logistics/brass_funnel'
+      },
+      {
+        output: 'create:sequenced_gearshift',
+        pattern: ['RTR', 'CBC', 'RGR'],
+        key: {
+            T: 'create:electron_tube',
+            R: '#forge:dusts/redstone',
+            C: 'create:cogwheel',
+            B: 'create:brass_casing',
+            G: 'minecraft:clock'
+        },
+        id: 'create:crafting/kinetics/sequenced_gearshift'
+      },
+      {
+        output: 'create:spout',
+        pattern: [' T ', 'KCK', ' P '],
+        key: {
+            T: 'create:fluid_tank',
+            K: 'minecraft:dried_kelp',
+            C: 'create:fluid_pipe',
+            P: '#forge:nuggets/copper'
+        },
+        id: 'create:crafting/kinetics/spout'
+      },
+      {
+        output: 'create:spout',
+        pattern: ['PCP', 'TKT', 'PSP'],
+        key: {
+            P: '#forge:plates/copper',
+            C: 'create:copper_casing',
+            T: 'create:fluid_pipe',
+            K: 'minecraft:dried_kelp',
+            S: 'create:shaft'
+        },
+        id: 'create:crafting/kinetics/spout'
+      },
+      {
+        output: 'create:rotation_speed_controller',
+        pattern: ['BPB', 'SCS'],
+        key: {
+            B: 'create:brass_casing',
+            P: 'create:precision_mechanism',
+            S: 'create:shaft',
+            C: 'create:speedometer'
+        },
+        id: 'create:crafting/kinetics/rotation_speed_controller'
+      },
+      {
+        output: Item.of('create:copper_casing', 4),
+        pattern: ['NWN', 'PLP', 'NWN'],
+        key: {
+            N: '#forge:nuggets/copper',
+            W: '#minecraft:planks',
+            P: '#forge:plates/copper',
+            L: '#minecraft:logs'
+        },
+        id: 'create:crafting/materials/copper_casing'
+      },
+      {
+        output: Item.of('create:fluid_tank', 2),
+        pattern: [' C ', 'PGP', ' C '],
+        key: {
+            C: 'create:copper_casing',
+            P: '#forge:plates/copper',
+            G: '#forge:glass'
+        },
+        id: 'create:crafting/kinetics/fluid_tank'
+      },
+      {
+        output: Item.of('create:andesite_casing', 4),
+        pattern: ['AWA', 'WLW', 'AWA'],
+        key: {
+            A: '#forge:ingots/andesite_alloy',
+            W: '#minecraft:planks',
+            L: '#minecraft:logs'
+        },
+        id: 'create:crafting/materials/andesite_casing'
+      },
+      {
+        output: Item.of('create:refined_radiance_casing', 4),
+        pattern: ['PWP', 'RGR', 'PWP'],
+        key: {
+            P: '#forge:plates/aluminum',
+            W: '#minecraft:planks',
+            R: '#forge:ingots/refined_radiance',
+            G: '#forge:glass'
+        },
+        id: 'create:crafting/materials/andesite_casing'
+      }
     ];
 
     recipes.forEach((recipe) => {
