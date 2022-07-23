@@ -124,12 +124,8 @@ const combVariants = [
     'signalum',
     'brass',
     'bronze',
-    'starry',
-    'yeti',
-    'abbee',
-    'kitten',
-    'oreo'
-
+    'catnip',
+    'starry'
 ];
 
 const bees = [];
@@ -137,3 +133,15 @@ const bees = [];
 combVariants.forEach((bee) => {
     bees.push(bee)
 })
+
+let moreBees = [
+    'kitten',
+    'oreo',
+    'starry_lexxie',
+    'yeti',
+    'abbee'
+];
+
+moreBees.forEach((bee) => {
+    bees.push(bee);
+});
