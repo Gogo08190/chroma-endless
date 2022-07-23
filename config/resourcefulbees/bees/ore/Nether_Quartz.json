@@ -1,11 +1,13 @@
 {
   "flower": "tag:forge:storage_blocks/quartz",
+  "lore": "mettre du lor",
+  "loreColor": "#00AAA",
   "maxTimeInHive": 1000,
   "hasHoneycomb": true,
   "traits": ["nether"],
   "baseLayerTexture": "ores/quartz/quartz",
   "ColorData": {
-    "honeycombColor": "#32335c",
+    "honeycombColor": "#d4caba",
     "isBeeColored": false,
     "isRainbowBee": false,
     "isGlowing": false,
