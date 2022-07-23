@@ -27,7 +27,7 @@ onEvent('recipes', (event) => {
         //flint and bronze
         {
             output: 'tconstruct:flint_and_bronze',
-            inputs: ['emendatusenigmatica:bronze_plate', 'minecraft:flint'],
+            inputs: ['#forge:plates/bronze', 'minecraft:flint'],
             id: 'tconstruct:tools/building/flint_and_bronze'
         }
     ];
