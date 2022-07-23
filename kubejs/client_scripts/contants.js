@@ -744,5 +744,8 @@ const craftedBees = [
     'zinc',
     'fluorite',
     'potassium',
-    'bitumen'
+    'bitumen',
+    'enderium',
+    'invar',
+    'constantan'
 ];

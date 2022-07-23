@@ -8,8 +8,7 @@
     "traits": ["sedimentary", "can_swim"],
     "baseLayerTexture": "botania/manasteel/manasteel",
     "ColorData": {
-    "honeycombColor": "#2f79c6",
-    "modelType": "ORE"
+    "honeycombColor": "#2f79c6"
     },
     "CombatData": {
       "isPassive": true,
