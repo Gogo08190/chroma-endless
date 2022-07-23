@@ -333,6 +333,18 @@ onEvent('recipes', (event) => {
             G: '#forge:glass'
         },
         id: 'create:crafting/materials/refined_radiance_casing'
+      },
+      {
+        output: Item.of('create:mechanical_crafter', 3),
+        pattern: ['CTC', 'SBS', 'CRC'],
+        key: {
+            C: 'create:cogwheel',
+            T: 'create:electron_tube',
+            S: 'create:shaft',
+            B: 'create:brass_casing',
+            R: '#forge:workbench'
+        },
+        id: 'create:crafting/kinetics/mechanical_crafter'
       }
     ];
 
