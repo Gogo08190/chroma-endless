@@ -85,7 +85,7 @@ onEvent('recipes', (event) => {
       },
       //Cogwheel
       {
-        output: 'create:cogwheel',
+        output: Item.of('create:cogwheel', 8),
         pattern: ['AAA', 'ABA', 'AAA'],
         key: {
             A: '#minecraft:buttons',
@@ -95,7 +95,7 @@ onEvent('recipes', (event) => {
       },
       //Large Cogwheel
       {
-        output: 'create:large_cogwheel',
+        output: Item.of('create:large_cogwheel', 2),
         pattern: ['ABA', 'BCB', 'ABA'],
         key: {
             A: '#minecraft:buttons',

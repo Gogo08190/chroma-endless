@@ -133,7 +133,7 @@ onEvent('recipes', (event) => {
         //cogwheel
         {
             input: 'create:shaft',
-            outputs: ['create:cogwheel'],
+            outputs: [Item.of('12x create:cogwheel')],
             transitionalItem: 'create:incomplete_cogwheel',
             loops: 4,
             sequence: [
@@ -150,6 +150,33 @@ onEvent('recipes', (event) => {
                 }
             ],
             id: 'create:sequenced_assembly/cogwheel'
+        },
+
+        //Large Cogwheel
+        {
+            input: 'create:shaft',
+            outputs: [Item.of('6x create:large_cogwheel')],
+            transitionalItem: 'create:incomplete_large_cogwheel',
+            loops: 3,
+            sequence: [
+                {
+                    type: 'deploying',
+                    input: ['create:incomplete_large_cogwheel', '#minecraft:planks'],
+                    output: 'create:incomplete_large_cogwheel'
+                },
+                {
+                    type: 'deploying',
+                    input: ['create:incomplete_large_cogwheel', '#minecraft:wooden_buttons'],
+                    output: 'create:incomplete_large_cogwheel'
+                },
+                {
+                    type: 'cutting',
+                    input: 'create:incomplete_large_cogwheel',
+                    output: 'create:incomplete_large_cogwheel',
+                    processingTime: 50
+                }
+            ],
+            id: 'create:sequenced_assembly/large_cogwheel'
         }
     ];
 
