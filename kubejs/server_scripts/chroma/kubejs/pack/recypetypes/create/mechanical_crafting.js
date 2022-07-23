@@ -178,6 +178,27 @@ onEvent('recipes', (event) => {
                 D: '#forge:obsidian'
             },
             id: 'minecraft:beacon'
+        },
+        //Propeller
+        {
+            output: 'create:propeller',
+            pattern: ['P   P', ' P P ', '  A  ', ' P P ', 'P   P'],
+            key: {
+                A: '#forge:ingots/andesite_alloy',
+                P: '#forge:plates/iron'
+            },
+            id: 'create:crafting/kinetics/propeller'
+        },
+        //Flywheel
+        {
+            output: 'create:flywheel',
+            pattern: [' PPP', 'BPCP', ' PPP'],
+            key: {
+                C: 'create:large_cogwheel',
+                P: '#forge:plates/brass',
+                B: 'create:brass_casing'
+            },
+            id: 'create:mechanical_crafting/flywheel'
         }
     ];
 

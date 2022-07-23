@@ -195,9 +195,22 @@ onEvent('recipes', (event) => {
             A: 'create:andesite_casing',
             S: 'create:shaft',
             P: '#forge:plates/iron',
-            F: 'create:propeller'
+            F: 'create:propeller',
+            C: 'create:cogwheel'
         },
         id: 'create:crafting/kinetics/encased_fan'
+      },
+      {
+        output: 'create:gearbox',
+        pattern: ['SAS', 'CBC', 'SAS'],
+        key: {
+            A: 'create:andesite_casing',
+            B: 'create:shaft',
+            S: '#chroma:crafting_slabs',
+            C: 'create:large_cogwheel'
+
+        },
+        id: 'create:crafting/kinetics/gearbox'
       },
     ];
 
