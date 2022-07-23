@@ -103,7 +103,102 @@ onEvent('recipes', (event) => {
             C: 'create:shaft'
         },
         id: 'create:crafting/kinetics/large_cogwheel'
-      }
+      },
+      {
+        output: 'create:depot',
+        pattern: ['STS', 'WAW'],
+        key: {
+            S: '#quark:stone_tool_materials',
+            T: 'create:turntable',
+            W: '#minecraft:planks',
+            A: 'create:andesite_casing'
+        },
+        id: 'create:crafting/kinetics/depot'
+      },
+      {
+        output: Item.of('create:chute', 4),
+        pattern: ['A A', 'PHP', ' P '],
+        key: {
+            P: '#forge:plates/iron',
+            A: '#forge:ingots/andesite_alloy',
+            H: 'minecraft:hopper'
+        },
+        id: 'create:crafting/kinetics/chute'
+      },
+      {
+        output: 'create:water_wheel',
+        pattern: ['SCS', 'CAC', 'SCS'],
+        key: {
+            S: '#minecraft:slabs',
+            C: 'create:large_cogwheel',
+            A: 'create:shaft'
+        },
+        id: 'create:crafting/kinetics/water_wheel'
+      },
+      {
+        output: Item.of('create:shaft', 8),
+        pattern: ['A', 'A', 'A'],
+        key: {
+            A: '#forge:ingots/andesite_alloy'
+        },
+        id: 'create:crafting/kinetics/shaft'
+      },
+      {
+        output: 'create:basin',
+        pattern: ['ABA', 'AAA'],
+        key: {
+            A: '#forge:ingots/andesite_alloy',
+            B: 'minecraft:bucket'
+        },
+        id: 'create:crafting/kinetics/basin'
+      },
+      {
+        output: 'create:mechanical_press',
+        pattern: ['SPS', 'CAC', 'SIS'],
+        key: {
+            A: 'create:andesite_casing',
+            S: 'create:shaft',
+            P: 'minecraft:piston',
+            I: '#forge:storage_blocks/iron',
+            C: 'create:cogwheel'
+        },
+        id: 'create:crafting/kinetics/mechanical_press'
+      },
+      {
+        output: 'create:mechanical_mixer',
+        pattern: ['SPS', 'CAC', 'SIS'],
+        key: {
+            A: 'create:andesite_casing',
+            S: 'create:shaft',
+            P: 'minecraft:piston',
+            I: 'create:whisk',
+            C: 'create:cogwheel'
+        },
+        id: 'create:crafting/kinetics/mechanical_mixer'
+      },
+      {
+        output: 'create:deployer',
+        pattern: ['SPS', 'CAC', 'SIS'],
+        key: {
+            A: 'create:andesite_casing',
+            S: 'create:shaft',
+            P: 'create:electron_tube',
+            I: 'create:brass_hand',
+            C: 'create:cogwheel'
+        },
+        id: 'create:crafting/kinetics/deployer'
+      },
+      {
+        output: 'create:encased_fan',
+        pattern: ['ASA', 'PCP', 'AFA'],
+        key: {
+            A: 'create:andesite_casing',
+            S: 'create:shaft',
+            P: '#forge:plates/iron',
+            F: 'create:propeller'
+        },
+        id: 'create:crafting/kinetics/encased_fan'
+      },
     ];
 
     recipes.forEach((recipe) => {
