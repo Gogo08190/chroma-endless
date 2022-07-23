@@ -23,6 +23,10 @@
       "mainOutputWeight": 0.5,
       "mainOutputCount": 1,
 
+      "secondaryOutput": "botania:dragonstone",
+      "secondaryOutputWeight": 0.1,
+      "secondaryOutputCount": 1,
+
       "bottleOutput": "resourcefulbees:elementium_honey_bottle",
       "bottleOutputWeight": 0.01,
       "bottleOutputCount": 1,
