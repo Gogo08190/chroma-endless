@@ -60,6 +60,8 @@ const honeyVarieties = [
     'resourcefulbees:signalum_honey',
     'resourcefulbees:bronze_honey',
     'resourcefulbees:brass_honey',
+    'resourcefulbees:starry_honey',
+    'resourcefulbees:katnip_honey'
 ];
 
 const combVariants = [
@@ -121,7 +123,13 @@ const combVariants = [
     'lumium',
     'signalum',
     'brass',
-    'bronze'
+    'bronze',
+    'starry',
+    'yeti',
+    'abbee',
+    'kitten',
+    'oreo'
+
 ];
 
 const bees = [];

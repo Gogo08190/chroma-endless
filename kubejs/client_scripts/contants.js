@@ -751,5 +751,10 @@ const craftedBees = [
     'lumium',
     'signalum',
     'bronze',
-    'brass'
+    'brass',
+    'starry',
+    'yeti',
+    'abbee',
+    'kitten',
+    'oreo'
 ];
