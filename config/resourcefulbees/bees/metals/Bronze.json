@@ -1,0 +1,45 @@
+{
+    "flower": "emendatusenigmatica:bronze_block",
+    "lore": "mettre du lor",
+    "loreColor": "#ff66cc",
+    "sizeModifier": 1,
+    "maxTimeInHive": 6000,
+    "hasHoneycomb": true,
+    "traits": ["sedimentary", "can_swim"],
+    "baseLayerTexture": "metals/bronze/bronze",
+    "ColorData": {
+    "honeycombColor": "#e5b770"
+    },
+    "CombatData": {
+      "isPassive": true,
+      "removeStingerOnAttack": false,
+      "inflictsPoison": true,
+      "attackDamage": 4
+    },
+    "CentrifugeData": {
+      "hasCentrifugeOutput": true,
+
+      "mainOutput": "emendatusenigmatica:bronze_ingot",
+      "mainOutputWeight": 0.5,
+      "mainOutputCount": 1,
+
+      "bottleOutput": "resourcefulbees:bronze_honey_bottle",
+      "bottleOutputWeight": 0.01,
+      "bottleOutputCount": 1,
+
+      "mainInputCount": 1
+    },
+    "SpawnData": {
+      "canSpawnInWorld": false
+    },
+    "BreedData": {
+      "isBreedable": true,
+      "feedItem": "emendatusenigmatica:bronze_ingot",
+      "feedAmount": 2,
+      "childGrowthDelay": -24000,
+      "breedDelay": 6000
+    },
+    "TraitData": {
+      "hasTraits": true
+    }
+  }
