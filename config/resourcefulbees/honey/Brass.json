@@ -1,0 +1,17 @@
+{
+  "name" : "brass",
+  "hunger": 4,
+  "honeyColor": "#c3c45a",
+  "saturation": 3,
+  "isRainbow": false,
+  "honeyBlockRecipe": true,
+  "generateHoneyBlock": true,
+      "effects": [
+    {
+      "effectID": "minecraft:unluck",
+      "duration": 2000,
+      "strength": 1,
+      "chance": 1
+      }
+    ]
+  }

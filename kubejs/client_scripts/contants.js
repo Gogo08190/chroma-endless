@@ -747,5 +747,9 @@ const craftedBees = [
     'bitumen',
     'enderium',
     'invar',
-    'constantan'
+    'constantan',
+    'lumium',
+    'signalum',
+    'bronze',
+    'brass'
 ];

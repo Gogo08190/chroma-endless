@@ -55,7 +55,11 @@ const honeyVarieties = [
     'resourcefulbees:bitumen_honey',
     'resourcefulbees:enderium_honey',
     'resourcefulbees:invar_honey',
-    'resourcefulbees:constantan_honey'
+    'resourcefulbees:constantan_honey',
+    'resourcefulbees:lumium_honey',
+    'resourcefulbees:signalum_honey',
+    'resourcefulbees:bronze_honey',
+    'resourcefulbees:brass_honey',
 ];
 
 const combVariants = [
@@ -113,7 +117,11 @@ const combVariants = [
     'bitumen',
     'invar',
     'enderium',
-    'constantan'
+    'constantan',
+    'lumium',
+    'signalum',
+    'brass',
+    'bronze'
 ];
 
 const bees = [];

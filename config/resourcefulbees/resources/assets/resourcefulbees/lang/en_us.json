@@ -284,6 +284,15 @@
   "entity.resourcefulbees.cobalt_bee": "Cobalt Bee",
   "block.resourcefulbees.cobalt_honey_block": "Cobalt Honey Block",
 
+  "item.resourcefulbees.nether_quartz_bee_spawn_egg": "Nether Quartz Bee Spawn Egg",
+  "item.resourcefulbees.nether_quartz_honeycomb": "Nether Quartz HoneyComb",
+  "fluid.resourcefulbees.nether_quartz_honey": "Nether Quartz Honey",
+  "item.resourcefulbees.nether_quartz_honey_fluid_bucket":"Nether Quartz Honey Bucket",
+  "block.resourcefulbees.nether_quartz_honeycomb_block": "Nether Quartz HoneyComb Block",
+  "item.resourcefulbees.nether_quartz_honey_bottle": "Nether Quartz Honey Bottle",
+  "entity.resourcefulbees.nether_quartz_bee": "Nether Quartz Bee",
+  "block.resourcefulbees.nether_quartz_honey_block": "Nether Quartz Honey Block",
+
   "item.resourcefulbees.tin_bee_spawn_egg": "Tin Bee Spawn Egg",
   "item.resourcefulbees.tin_honeycomb": "Tin HoneyComb",
   "fluid.resourcefulbees.tin_honey": "Tin Honey",
@@ -372,6 +381,42 @@
   "block.resourcefulbees.enderium_honeycomb_block": "Enderium HoneyComb Block",
   "item.resourcefulbees.enderium_honey_bottle": "Enderium Honey Bottle",
   "entity.resourcefulbees.enderium_bee": "Enderium Bee",
-  "block.resourcefulbees.enderium_honey_block": "Enderium Honey Block"
+  "block.resourcefulbees.enderium_honey_block": "Enderium Honey Block",
+
+  "item.resourcefulbees.lumium_bee_spawn_egg": "Lumium Bee Spawn Egg",
+  "item.resourcefulbees.lumium_honeycomb": "Lumium HoneyComb",
+  "fluid.resourcefulbees.lumium_honey": "Lumium Honey",
+  "item.resourcefulbees.lumium_honey_fluid_bucket":"Lumium Honey Bucket",
+  "block.resourcefulbees.lumium_honeycomb_block": "Lumium HoneyComb Block",
+  "item.resourcefulbees.lumium_honey_bottle": "Lumium Honey Bottle",
+  "entity.resourcefulbees.lumium_bee": "Lumium Bee",
+  "block.resourcefulbees.lumium_honey_block": "Lumium Honey Block",
+
+  "item.resourcefulbees.signalum_bee_spawn_egg": "Signalum Bee Spawn Egg",
+  "item.resourcefulbees.signalum_honeycomb": "Signalum HoneyComb",
+  "fluid.resourcefulbees.signalum_honey": "Signalum Honey",
+  "item.resourcefulbees.signalum_honey_fluid_bucket":"Signalum Honey Bucket",
+  "block.resourcefulbees.signalum_honeycomb_block": "Signalum HoneyComb Block",
+  "item.resourcefulbees.signalum_honey_bottle": "Signalum Honey Bottle",
+  "entity.resourcefulbees.signalum_bee": "Signalum Bee",
+  "block.resourcefulbees.signalum_honey_block": "Signalum Honey Block",
+
+  "item.resourcefulbees.brass_bee_spawn_egg": "Brass Bee Spawn Egg",
+  "item.resourcefulbees.brass_honeycomb": "Brass HoneyComb",
+  "fluid.resourcefulbees.brass_honey": "Brass Honey",
+  "item.resourcefulbees.brass_honey_fluid_bucket":"Brass Honey Bucket",
+  "block.resourcefulbees.brass_honeycomb_block": "Brass HoneyComb Block",
+  "item.resourcefulbees.brass_honey_bottle": "Brass Honey Bottle",
+  "entity.resourcefulbees.brass_bee": "Brass Bee",
+  "block.resourcefulbees.brass_honey_block": "Brass Honey Block",
+
+  "item.resourcefulbees.bronze_bee_spawn_egg": "Bronze Bee Spawn Egg",
+  "item.resourcefulbees.bronze_honeycomb": "Bronze HoneyComb",
+  "fluid.resourcefulbees.bronze_honey": "Bronze Honey",
+  "item.resourcefulbees.bronze_honey_fluid_bucket":"Bronze Honey Bucket",
+  "block.resourcefulbees.bronze_honeycomb_block": "Bronze HoneyComb Block",
+  "item.resourcefulbees.bronze_honey_bottle": "Bronze Honey Bottle",
+  "entity.resourcefulbees.bronze_bee": "Bronze Bee",
+  "block.resourcefulbees.bronze_honey_block": "Bronze Honey Block"
 
 }
