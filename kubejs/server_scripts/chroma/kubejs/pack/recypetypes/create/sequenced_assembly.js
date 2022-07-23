@@ -149,7 +149,7 @@ onEvent('recipes', (event) => {
                     processingTime: 50
                 }
             ],
-            id: `${id_prefix}cogwheel`
+            id: 'create:sequenced_assembly/cogwheel'
         }
     ];
 
