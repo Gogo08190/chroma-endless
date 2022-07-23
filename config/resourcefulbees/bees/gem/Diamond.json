@@ -6,7 +6,7 @@
   "sizeModifier": 1,
   "hasHoneycomb": true,
   "traits": ["sedimentary", "can_swim"],
-  "baseLayerTexture": "ores/diamond/diamond_bee",
+  "baseLayerTexture": "ores/diamond/diamond",
   "ColorData": {
       "honeycombColor": "#00ffff",
       "isBeeColored": false,
