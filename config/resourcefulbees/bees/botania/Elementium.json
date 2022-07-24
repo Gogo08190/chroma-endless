@@ -37,11 +37,7 @@
       "canSpawnInWorld": false
     },
     "BreedData": {
-      "isBreedable": true,
-      "feedItem": "botania:elementium_ingot",
-      "feedAmount": 2,
-      "childGrowthDelay": -24000,
-      "breedDelay": 6000
+      "isBreedable": false
     },
     "TraitData": {
       "hasTraits": true
