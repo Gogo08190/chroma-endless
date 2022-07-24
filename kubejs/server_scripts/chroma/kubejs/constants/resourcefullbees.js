@@ -61,7 +61,9 @@ const honeyVarieties = [
     'resourcefulbees:bronze_honey',
     'resourcefulbees:brass_honey',
     'resourcefulbees:starry_honey',
-    'resourcefulbees:catnip_honey'
+    'resourcefulbees:catnip_honey',
+    'resourcefulbees:swift_alloy_honey',
+    'resourcefulbees:drenched_iron_honey'
 ];
 
 const combVariants = [
@@ -126,7 +128,8 @@ const combVariants = [
     'bronze',
     'catnip',
     'starry',
-    'swift_alloy'
+    'swift_alloy',
+    'drenched_iron'
 ];
 
 const bees = [];
