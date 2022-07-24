@@ -34,11 +34,7 @@
       "canSpawnInWorld": false
     },
     "BreedData": {
-      "isBreedable": true,
-      "feedItem": "botania:gaia_ingot",
-      "feedAmount": 20,
-      "childGrowthDelay": -24000,
-      "breedDelay": 6000
+      "isBreedable": false
     },
     "TraitData": {
       "hasTraits": true

@@ -16,6 +16,20 @@
       "inflictsPoison": true,
       "attackDamage": 5
     },
+    "MutationData": {
+      "hasMutation": true,
+      "mutationCount": 4,
+      "mutations": [
+          {
+            "type": "BLOCK",
+            "chance": 0.4,
+            "inputID": "minecraft:iron_block",
+            "outputs": [
+              {"outputID": "botania:manasteel_block", "weight": 512}
+            ]
+          }
+        ]
+      },
     "CentrifugeData": {
       "hasCentrifugeOutput": true,
 
@@ -33,11 +47,7 @@
       "canSpawnInWorld": false
     },
     "BreedData": {
-      "isBreedable": true,
-      "feedItem": "botania:manasteel_ingot",
-      "feedAmount": 2,
-      "childGrowthDelay": -24000,
-      "breedDelay": 6000
+      "isBreedable": false
     },
     "TraitData": {
       "hasTraits": true
