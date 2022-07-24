@@ -756,5 +756,6 @@ const craftedBees = [
     'yeti',
     'abbee',
     'kitten',
-    'oreo'
+    'oreo',
+    'swift_alloy'
 ];

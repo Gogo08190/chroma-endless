@@ -125,7 +125,8 @@ const combVariants = [
     'brass',
     'bronze',
     'catnip',
-    'starry'
+    'starry',
+    'swift_alloy'
 ];
 
 const bees = [];
