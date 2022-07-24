@@ -759,5 +759,6 @@ const craftedBees = [
     'oreo',
     'swift_alloy',
     'drenched_iron',
-    'refined_obsidian'
+    'refined_obsidian',
+    'refined_glowstone'
 ];
