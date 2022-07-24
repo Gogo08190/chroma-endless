@@ -758,5 +758,6 @@ const craftedBees = [
     'kitten',
     'oreo',
     'swift_alloy',
-    'drenched_iron'
+    'drenched_iron',
+    'refined_obsidian'
 ];

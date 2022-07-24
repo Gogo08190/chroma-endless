@@ -1,0 +1,45 @@
+{
+    "flower": "mekanism:block_refined_obsidian",
+    "lore": "mettre du lor",
+    "loreColor": "#ff66cc",
+    "sizeModifier": 1,
+    "maxTimeInHive": 6000,
+    "hasHoneycomb": true,
+    "traits": ["sedimentary", "can_swim"],
+    "baseLayerTexture": "metals/refined_obsidian/refined_obsidian",
+    "ColorData": {
+    "honeycombColor": "#a83cff"
+    },
+    "CombatData": {
+      "isPassive": true,
+      "removeStingerOnAttack": false,
+      "inflictsPoison": true,
+      "attackDamage": 4
+    },
+    "CentrifugeData": {
+      "hasCentrifugeOutput": true,
+
+      "mainOutput": "mekanism:ingot_refined_obsidian",
+      "mainOutputWeight": 0.5,
+      "mainOutputCount": 1,
+
+      "bottleOutput": "resourcefulbees:refined_obsidian_honey_bottle",
+      "bottleOutputWeight": 0.01,
+      "bottleOutputCount": 1,
+
+      "mainInputCount": 1
+    },
+    "SpawnData": {
+      "canSpawnInWorld": false
+    },
+    "BreedData": {
+      "isBreedable": true,
+      "feedItem": "mekanism:ingot_refined_obsidian",
+      "feedAmount": 2,
+      "childGrowthDelay": -24000,
+      "breedDelay": 6000
+    },
+    "TraitData": {
+      "hasTraits": true
+    }
+  }
