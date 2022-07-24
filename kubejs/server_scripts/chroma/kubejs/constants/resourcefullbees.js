@@ -65,7 +65,8 @@ const honeyVarieties = [
     'resourcefulbees:swift_alloy_honey',
     'resourcefulbees:drenched_iron_honey',
     'resourcefulbees:refined_obsidian_honey',
-    'resourcefulbees:refined_glowstone_honey'
+    'resourcefulbees:refined_glowstone_honey',
+    'resourcefulbees:source_steel_honey'
 ];
 
 const combVariants = [
@@ -133,7 +134,8 @@ const combVariants = [
     'swift_alloy',
     'drenched_iron',
     'refined_obsidian',
-    'refined_glowstone'
+    'refined_glowstone',
+    'source_steel'
 ];
 
 const bees = [];
