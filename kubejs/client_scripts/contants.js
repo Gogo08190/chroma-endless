@@ -761,5 +761,9 @@ const craftedBees = [
     'drenched_iron',
     'refined_obsidian',
     'refined_glowstone',
-    'source_steel'
+    'source_steel',
+    'slime',
+    'ichor_slime',
+    'sky_slime',
+    'ender_slime'
 ];

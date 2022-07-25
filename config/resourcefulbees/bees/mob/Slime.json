@@ -1,0 +1,50 @@
+{
+    "flower": "ALL",
+    "lore": "mettre du lor",
+    "loreColor": "#00AAAA",
+    "maxTimeInHive": 4800,
+    "sizeModifier": 1,
+    "hasHoneycomb": true,
+    "traits": ["slimy", "can_swim"],
+    "baseLayerTexture": "slime/slime_bee",
+    "ColorData": {
+        "honeycombColor": "#73c262",
+        "isBeeColored": false,
+        "isRainbowBee": false,
+        "isGlowing": false,
+        "isEnchanted": false,
+        "modelType": "GELATINOUS"
+    },
+    "CombatData": {
+        "isPassive": false,
+        "removeStingerOnAttack": false,
+        "inflictsPoison": true,
+        "attackDamage": 2
+    },
+    "CentrifugeData": {
+        "hasCentrifugeOutput": true,
+
+        "mainOutput": "minecraft:slime_ball",
+        "mainOutputWeight": 0.6,
+        "mainOutputCount": 4,
+
+        "bottleOutput": "resourcefulbees:slime_honey_bottle",
+        "bottleOutputWeight": 0.01,
+        "bottleOutputCount": 1,
+
+        "mainInputCount": 1
+    },
+    "SpawnData": {
+        "canSpawnInWorld": false
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "feedItem": "minecraft:slime_block",
+        "feedAmount": 1,
+        "childGrowthDelay": -24000,
+        "breedDelay": 6000
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}
