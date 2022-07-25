@@ -130,12 +130,12 @@ onEvent('recipes', (event) => {
           pattern: ['ABA', 'CDE', 'FGF'],
           key: {
               A: 'extendedcrafting:redstone_ingot',
-              B: 'minecraft:golden_sword',
-              C: 'minecraft:golden_pickaxe',
+              B: Item.of('minecraft:golden_sword', '{Damage:0}').weakNBT(),
+              C: Item.of('minecraft:golden_pickaxe', '{Damage:0}').weakNBT(),
               D: 'sophisticatedbackpacks:upgrade_base',
-              E: 'minecraft:golden_axe',
+              E: Item.of('minecraft:golden_axe', '{Damage:0}').weakNBT(),
               F: 'emendatusenigmatica:steel_plate',
-              G: 'minecraft:golden_shovel'
+              G: Item.of('minecraft:golden_shovel', '{Damage:0}').weakNBT()
           },
           id: 'sophisticatedbackpacks:tool_swapper_upgrade'
       },
@@ -174,6 +174,18 @@ onEvent('recipes', (event) => {
               D: '#forge:chests/wooden'
           },
           id: 'sophisticatedbackpacks:crafting_upgrade'
+      },
+      // Blasting Upgrade
+      {
+          output: 'sophisticatedbackpacks:blasting_upgrade',
+          pattern: ['ABA', 'BCB', 'ADA'],
+          key: {
+              A: 'extendedcrafting:redstone_ingot',
+              B: 'emendatusenigmatica:steel_plate',
+              C: 'sophisticatedbackpacks:upgrade_base',
+              D: 'minecraft:blast_furnace'
+          },
+          id: 'sophisticatedbackpacks:blasting_upgrade'
       },
     ];
 
