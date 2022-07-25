@@ -46,7 +46,135 @@ onEvent('recipes', (event) => {
               L: '#forge:leather'
           },
           id: 'sophisticatedbackpacks:upgrade_base'
-      }
+      },
+      // Pump Upgrade
+      {
+          output: 'sophisticatedbackpacks:pump_upgrade',
+          pattern: ['ABA', 'CDE', 'AFA'],
+          key: {
+              A: '#forge:glass',
+              B: 'immersiveengineering:fluid_pump',
+              C: 'create:mechanical_piston',
+              D: 'sophisticatedbackpacks:upgrade_base',
+              E: 'create:sticky_mechanical_piston',
+              F: 'minecraft:bucket'
+          },
+          id: 'sophisticatedbackpacks:pump_upgrade'
+      },
+      // Advanced Pump Upgrade
+      {
+          output: 'sophisticatedbackpacks:advanced_pump_upgrade',
+          pattern: ['ABA', 'CDC', 'EEE'],
+          key: {
+              A: 'emendatusenigmatica:diamond_plate',
+              B: 'minecraft:dispenser',
+              C: 'emendatusenigmatica:gold_plate',
+              D: 'sophisticatedbackpacks:pump_upgrade',
+              E: 'extendedcrafting:redstone_ingot'
+          },
+          id: 'sophisticatedbackpacks:advanced_pump_upgrade'
+      },
+      // Experience Pump Upgrade
+      {
+          output: 'sophisticatedbackpacks:xp_pump_upgrade',
+          pattern: ['ABA', 'CDC', 'ABA'],
+          key: {
+              A: 'extendedcrafting:redstone_ingot',
+              B: 'minecraft:ender_eye',
+              C: 'minecraft:experience_bottle',
+              D: 'sophisticatedbackpacks:advanced_pump_upgrade'
+          },
+          id: 'sophisticatedbackpacks:xp_pump_upgrade'
+      },
+      // Battery Upgrade
+      {
+          output: 'sophisticatedbackpacks:battery_upgrade',
+          pattern: ['ABA', 'CDC', 'AEA'],
+          key: {
+              A: 'emendatusenigmatica:gold_plate',
+              B: 'thermal:rf_potato',
+              C: 'extendedcrafting:redstone_ingot',
+              D: 'sophisticatedbackpacks:upgrade_base',
+              E: 'thermal:flux_capacitor'
+          },
+          id: 'sophisticatedbackpacks:battery_upgrade'
+      },
+      // Tank Upgrade
+      {
+          output: '#sophisticatedbackpacks:upgrades',
+          pattern: ['ABA', 'ACD', 'AEA'],
+          key: {
+              A: '#forge:glass',
+              B: 'create:fluid_tank',
+              C: 'sophisticatedbackpacks:upgrade_base',
+              D: 'rsgauges:glass_vertical_bar_gauge',
+              E: 'minecraft:bucket'
+          },
+          id: 'sophisticatedbackpacks:tank_upgrade'
+      },
+      // Advanced Tool Swapper Upgrade
+      {
+          output: 'sophisticatedbackpacks:advanced_tool_swapper_upgrade',
+          pattern: [' A ', 'BCB', 'DDD'],
+          key: {
+              A: 'emendatusenigmatica:diamond_plate',
+              B: 'emendatusenigmatica:gold_plate',
+              C: 'sophisticatedbackpacks:tool_swapper_upgrade',
+              D: 'extendedcrafting:redstone_ingot'
+          },
+          id: 'sophisticatedbackpacks:advanced_tool_swapper_upgrade'
+      },
+      // Tool Swapper Upgrade
+      {
+          output: 'sophisticatedbackpacks:tool_swapper_upgrade',
+          pattern: ['ABA', 'CDE', 'FGF'],
+          key: {
+              A: 'extendedcrafting:redstone_ingot',
+              B: 'minecraft:golden_sword',
+              C: 'minecraft:golden_pickaxe',
+              D: 'sophisticatedbackpacks:upgrade_base',
+              E: 'minecraft:golden_axe',
+              F: 'emendatusenigmatica:steel_plate',
+              G: 'minecraft:golden_shovel'
+          },
+          id: 'sophisticatedbackpacks:tool_swapper_upgrade'
+      },
+      // Jukebox Upgrade
+      {
+          output: 'sophisticatedbackpacks:jukebox_upgrade',
+          pattern: [' A ', 'BCB', ' D '],
+          key: {
+              A: 'minecraft:jukebox',
+              B: 'emendatusenigmatica:iron_plate',
+              C: 'sophisticatedbackpacks:upgrade_base',
+              D: 'extendedcrafting:redstone_ingot'
+          },
+          id: 'sophisticatedbackpacks:jukebox_upgrade'
+      },
+      // Stonecutter Upgrade
+      {
+          output: 'sophisticatedbackpacks:stonecutter_upgrade',
+          pattern: [' A ', 'BCB', ' D '],
+          key: {
+              A: 'minecraft:stonecutter',
+              B: 'emendatusenigmatica:iron_plate',
+              C: 'sophisticatedbackpacks:upgrade_base',
+              D: 'extendedcrafting:redstone_ingot'
+          },
+          id: 'sophisticatedbackpacks:stonecutter_upgrade'
+      },
+      // Crafting Upgrade
+      {
+          output: 'sophisticatedbackpacks:crafting_upgrade',
+          pattern: [' A ', 'BCB', ' D '],
+          key: {
+              A: '#forge:workbench',
+              B: 'emendatusenigmatica:iron_plate',
+              C: 'sophisticatedbackpacks:upgrade_base',
+              D: '#forge:chests/wooden'
+          },
+          id: 'sophisticatedbackpacks:crafting_upgrade'
+      },
     ];
 
     recipes.forEach((recipe) => {
