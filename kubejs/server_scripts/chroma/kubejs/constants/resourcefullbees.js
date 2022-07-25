@@ -71,9 +71,10 @@ const honeyVarieties = [
     'resourcefulbees:ender_slime_honey',
     'resourcefulbees:sky_slime_honey',
     'resourcefulbees:ichor_slime_honey',
-    'resourcefulbees:terminite_slime_honey',
-    'resourcefulbees:thallasium_slime_honey',
-    'resourcefulbees:aeternium_slime_honey'
+    'resourcefulbees:terminite_honey',
+    'resourcefulbees:thallasium_honey',
+    'resourcefulbees:aeterniu_honey',
+    'resourcefulbees:compressed_iron_honey'
 ];
 
 const combVariants = [
@@ -149,7 +150,8 @@ const combVariants = [
     'ichor_slime',
     'thallasium',
     'terminite',
-    'aeternium'
+    'aeternium',
+    'compressed_iron'
 ];
 
 const bees = [];

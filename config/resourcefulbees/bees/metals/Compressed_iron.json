@@ -1,0 +1,45 @@
+{
+    "flower": "pneumaticcraft:compressed_iron_block",
+    "lore": "mettre du lor",
+    "loreColor": "#ff66cc",
+    "sizeModifier": 1,
+    "maxTimeInHive": 6000,
+    "hasHoneycomb": true,
+    "traits": ["sedimentary", "can_swim"],
+    "baseLayerTexture": "metals/compressed_iron/compressed_iron",
+    "ColorData": {
+    "honeycombColor": "#66625e"
+    },
+    "CombatData": {
+      "isPassive": true,
+      "removeStingerOnAttack": false,
+      "inflictsPoison": true,
+      "attackDamage": 4
+    },
+    "CentrifugeData": {
+      "hasCentrifugeOutput": true,
+
+      "mainOutput": "pneumaticcraft:ingot_iron_compressed",
+      "mainOutputWeight": 0.5,
+      "mainOutputCount": 1,
+
+      "bottleOutput": "resourcefulbees:compressed_iron_honey_bottle",
+      "bottleOutputWeight": 0.01,
+      "bottleOutputCount": 1,
+
+      "mainInputCount": 1
+    },
+    "SpawnData": {
+      "canSpawnInWorld": false
+    },
+    "BreedData": {
+      "isBreedable": true,
+      "feedItem": "pneumaticcraft:ingot_iron_compressed",
+      "feedAmount": 2,
+      "childGrowthDelay": -24000,
+      "breedDelay": 6000
+    },
+    "TraitData": {
+      "hasTraits": true
+    }
+  }
