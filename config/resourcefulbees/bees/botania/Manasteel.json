@@ -37,7 +37,7 @@
           {
             "type": "BLOCK",
             "chance": 0.4,
-            "inputID": "minecraft:iron_block",
+            "inputID": "emendatusenigmatica:steel_block",
             "outputs": [
               {"outputID": "botania:manasteel_block", "weight": 512}
             ]
