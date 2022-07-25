@@ -34,7 +34,7 @@
     "isPassive": false,
     "removeStingerOnAttack": false,
     "inflictsPoison": true,
-    "attackDamage": 1
+    "attackDamage": 100000000
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
