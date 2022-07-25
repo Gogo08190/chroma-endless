@@ -33,17 +33,6 @@ event.recipes.custommachinery.custom_machine("custommachinery:slice_n_splice", 8
 .requireEnergyPerTick(1350)
 .produceItem(Item.of('enderioalloys:item_material_skull_skeletal_contractor', 1))
 
-/* Guardian Diode */
-
-event.recipes.custommachinery.custom_machine("custommachinery:slice_n_splice", 840)
-.requireItem('2x enderioalloys:item_alloy_ingot_energetic_alloy')
-.requireItem('2x minecraft:prismarine_crystals')
-.requireItem('upgrade_aquatic:elder_guardian_spine')
-.requireItem('emendatusenigmatica:silicon_gem')
-.requireFluidPerTick(Fluid.of('industrialforegoing:essence', 1))
-.requireEnergyPerTick(2000)
-.produceItem(Item.of('enderioalloys:item_material_skull_guardian_diode', 1))
-
 /* Ender Resonator */
 
 event.recipes.custommachinery.custom_machine("custommachinery:slice_n_splice", 840)
