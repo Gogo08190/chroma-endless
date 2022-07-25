@@ -37,6 +37,15 @@ onEvent('recipes', (event) => {
           experience: 0.5,
           outputs: [Item.of('kubejs:crying_obsidian_dust', 1)],
           id: 'minecraft:crying_obsidian_dust'
+        },
+
+        // Prismarine Crystal
+
+        {
+          input: 'minecraft:prismarine_shard',
+          experience: 0.5,
+          outputs: [Item.of('minecraft:prismarine_crystals', 1)],
+          id: 'minecraft:prismarine_crystals'
         }
     ];
     recipes.forEach((recipe) => {

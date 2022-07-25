@@ -155,6 +155,7 @@ onEvent('recipes', (event) => {
           id: `${id_prefix}unassembled_64k_storage_part`
       },
       ///Unassembled 256k storage part
+
       {
           output: 'kubejs:unassembled_256k_storage_part',
           pattern: ['QSQ', 'GCG', 'QGQ'],
@@ -167,6 +168,7 @@ onEvent('recipes', (event) => {
           id: `${id_prefix}unassembled_256k_storage_part`
       },
       ///Unassembled 1024k storage part
+
       {
           output: 'kubejs:unassembled_1024k_storage_part',
           pattern: ['QSQ', 'GCG', 'QGQ'],
@@ -178,7 +180,9 @@ onEvent('recipes', (event) => {
           },
           id: `${id_prefix}unassembled_1024k_storage_part`
       },
+
       ///Unassembled 4096k storage part
+
       {
           output: 'kubejs:unassembled_4096k_storage_part',
           pattern: ['QSQ', 'GCG', 'QGQ'],
@@ -190,7 +194,9 @@ onEvent('recipes', (event) => {
           },
           id: `${id_prefix}unassembled_4096k_storage_part`
       },
+
       ///Unassembled 16384k storage part
+
       {
           output: 'kubejs:unassembled_16384k_storage_part',
           pattern: ['QSQ', 'GCG', 'QGQ'],
@@ -202,7 +208,9 @@ onEvent('recipes', (event) => {
           },
           id: `${id_prefix}unassembled_16384k_storage_part`
       },
+
       // Basic Capacitor
+
         {
             output: 'kubejs:basic_capacitor',
             pattern: [' RS', 'RVR', 'SR '],
@@ -215,6 +223,7 @@ onEvent('recipes', (event) => {
         },
 
         // Double-Layered Capacitor
+
         {
             output: 'kubejs:double-layer_capacitor',
             pattern: [' E ', 'BCB', ' E '],
@@ -227,6 +236,7 @@ onEvent('recipes', (event) => {
         },
 
         // Octadic Capacitor
+
         {
             output: 'kubejs:octadic_capacitor',
             pattern: [' V ', 'CGC', ' V '],
@@ -236,6 +246,21 @@ onEvent('recipes', (event) => {
                 G: 'prefab:block_double_compressed_glowstone'
             },
             id: `${id_prefix}octadic_capacitor`
+        },
+
+        // LE SAC !!!!
+
+        {
+            output: 'kubejs:sac',
+            pattern: [' V ', 'CGC', ' V '],
+            key: {
+                E: 'tconstruct:efln_ball',
+                S: 'occultism:satchel',
+                O: 'occultism:otherstone_pedestal',
+                M: 'create:mechanical_arm',
+                G: 'occultism:otherworld_goggles'
+            },
+            id: `${id_prefix}sac`
         }
     ];
 
