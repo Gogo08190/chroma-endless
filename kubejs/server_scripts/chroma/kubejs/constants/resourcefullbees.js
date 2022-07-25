@@ -73,7 +73,7 @@ const honeyVarieties = [
     'resourcefulbees:ichor_slime_honey',
     'resourcefulbees:terminite_honey',
     'resourcefulbees:thallasium_honey',
-    'resourcefulbees:aeterniu_honey',
+    'resourcefulbees:aeternium_honey',
     'resourcefulbees:compressed_iron_honey',
     'resourcefulbees:fairy_honey'
 ];
