@@ -12,7 +12,8 @@
         "isBeeColored": false,
         "isRainbowBee": false,
         "isGlowing": false,
-        "isEnchanted": false
+        "isEnchanted": false,
+        "modelType": "MUSHROOM"
     },
     "CombatData": {
         "isPassive": false,

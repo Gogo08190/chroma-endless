@@ -1,0 +1,17 @@
+{
+  "name" : "basalz",
+  "hunger": 4,
+  "honeyColor": "#1b141d",
+  "saturation": 3,
+  "isRainbow": false,
+  "honeyBlockRecipe": true,
+  "generateHoneyBlock": true,
+      "effects": [
+    {
+      "effectID": "minecraft:poison",
+      "duration": 1000,
+      "strength": 2,
+      "chance": 1
+      }
+    ]
+  }

@@ -3,15 +3,11 @@
   "maxTimeInHive": 1200,
   "traits": ["can_swim"],
   "hasHoneycomb": true,
-  "baseLayerTexture": "/custom/bee",
+  "baseLayerTexture": "mobs/guardian/guardian_bee",
   "ColorData": {
-    "primaryColor": "#8FC0AA",
-    "secondaryColor": "#8FC0AA",
     "honeycombColor": "#8FC0AA",
-    "primaryLayerTexture": "/custom/primary_layer",
-    "secondaryLayerTexture": "/custom/secondary_layer",
-    "isBeeColored": true,
-    "modelType": "DEFAULT"
+    "isBeeColored": false,
+    "modelType": "GUARDIAN"
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,

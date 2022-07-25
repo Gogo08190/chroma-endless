@@ -775,5 +775,9 @@ const craftedBees = [
     'awakened',
     'chaotic',
     'guardian',
-    'dragon'
+    'dragon',
+    'ghast',
+    'blizz',
+    'blitz',
+    'basalz'
 ];
