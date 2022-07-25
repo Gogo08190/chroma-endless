@@ -187,6 +187,156 @@ onEvent('recipes', (event) => {
           },
           id: 'sophisticatedbackpacks:blasting_upgrade'
       },
+      // Auto-Smoking Upgrade
+      {
+          output: 'sophisticatedbackpacks:auto_smoking_upgrade',
+          pattern: ['ABA', 'CDB', 'EBE'],
+          key: {
+              A: 'emendatusenigmatica:diamond_plate',
+              B: 'minecraft:hopper',
+              C: 'extendedcrafting:redstone_ingot',
+              D: 'sophisticatedbackpacks:smoking_upgrade',
+              E: 'emendatusenigmatica:gold_plate'
+          },
+          id: 'sophisticatedbackpacks:auto_smoking_upgrade'
+      },
+      // Smoking Upgrade
+      {
+          output: 'sophisticatedbackpacks:smoking_upgrade',
+          pattern: ['ABA', 'BCB', 'ADA'],
+          key: {
+              A: 'extendedcrafting:redstone_ingot',
+              B: 'emendatusenigmatica:steel_plate',
+              C: 'sophisticatedbackpacks:upgrade_base',
+              D: 'minecraft:smoker'
+          },
+          id: 'sophisticatedbackpacks:smoking_upgrade'
+      },
+      // Auto-Smelting Upgrade
+      {
+          output: 'sophisticatedbackpacks:auto_smelting_upgrade',
+          pattern: ['ABA', 'CDB', 'EBE'],
+          key: {
+              A: 'emendatusenigmatica:diamond_plate',
+              B: 'minecraft:hopper',
+              C: 'extendedcrafting:redstone_ingot',
+              D: 'sophisticatedbackpacks:smelting_upgrade',
+              E: 'emendatusenigmatica:gold_plate'
+          },
+          id: 'sophisticatedbackpacks:auto_smelting_upgrade'
+      },
+      // Smelting Upgrade
+      {
+          output: 'sophisticatedbackpacks:smelting_upgrade',
+          pattern: ['ABA', 'BCB', 'ADA'],
+          key: {
+              A: 'extendedcrafting:redstone_ingot',
+              B: 'emendatusenigmatica:steel_plate',
+              C: 'sophisticatedbackpacks:upgrade_base',
+              D: 'minecraft:furnace'
+          },
+          id: 'sophisticatedbackpacks:smelting_upgrade'
+      },
+      // Inception Upgrade
+      {
+          output: 'sophisticatedbackpacks:inception_upgrade',
+          pattern: ['ABA', 'CDC', 'ACA'],
+          key: {
+              A: 'minecraft:ender_eye',
+              B: 'minecraft:nether_star',
+              C: 'emendatusenigmatica:diamond_plate',
+              D: 'sophisticatedbackpacks:upgrade_base'
+          },
+          id: 'sophisticatedbackpacks:inception_upgrade'
+      },
+      // Refill Upgrade
+      {
+          output: 'sophisticatedbackpacks:refill_upgrade',
+          pattern: [' A ', 'BCB', 'DED'],
+          key: {
+              A: 'minecraft:ender_eye',
+              B: 'emendatusenigmatica:iron_plate',
+              C: 'sophisticatedbackpacks:upgrade_base',
+              D: 'extendedcrafting:redstone_ingot',
+              E: '#forge:chests/wooden'
+          },
+          id: 'sophisticatedbackpacks:refill_upgrade'
+      },
+      // Advanced Deposit Upgrade
+      {
+          output: 'sophisticatedbackpacks:advanced_deposit_upgrade',
+          pattern: [' A ', 'BCB', 'DDD'],
+          key: {
+              A: 'emendatusenigmatica:diamond_plate',
+              B: 'emendatusenigmatica:gold_plate',
+              C: 'sophisticatedbackpacks:deposit_upgrade',
+              D: 'extendedcrafting:redstone_ingot'
+          },
+          id: 'sophisticatedbackpacks:advanced_deposit_upgrade'
+      },
+      // Deposit Upgrade
+      {
+          output: 'sophisticatedbackpacks:deposit_upgrade',
+          pattern: [' A ', 'BCB', 'DED'],
+          key: {
+              A: 'create:mechanical_piston',
+              B: 'emendatusenigmatica:iron_plate',
+              C: 'sophisticatedbackpacks:upgrade_base',
+              D: 'extendedcrafting:redstone_ingot',
+              E: '#forge:chests/wooden'
+          },
+          id: 'sophisticatedbackpacks:deposit_upgrade'
+      },
+      // Advanced Restock Upgrade
+      {
+          output: 'sophisticatedbackpacks:advanced_restock_upgrade',
+          pattern: [' A ', 'BCB', 'DDD'],
+          key: {
+              A: 'emendatusenigmatica:diamond_plate',
+              B: 'emendatusenigmatica:gold_plate',
+              C: 'sophisticatedbackpacks:restock_upgrade',
+              D: 'extendedcrafting:redstone_ingot'
+          },
+          id: 'sophisticatedbackpacks:advanced_restock_upgrade'
+      },
+      // Restock Upgrade
+      {
+          output: 'sophisticatedbackpacks:deposit_upgrade',
+          pattern: [' A ', 'BCB', 'DED'],
+          key: {
+              A: 'create:sticky_mechanical_piston',
+              B: 'emendatusenigmatica:iron_plate',
+              C: 'sophisticatedbackpacks:upgrade_base',
+              D: 'extendedcrafting:redstone_ingot',
+              E: '#forge:chests/wooden'
+          },
+          id: 'sophisticatedbackpacks:deposit_upgrade'
+      },
+      // Advanced Void Upgrade
+      {
+          output: 'sophisticatedbackpacks:advanced_void_upgrade',
+          pattern: [' A ', 'BCB', 'DDD'],
+          key: {
+              A: 'emendatusenigmatica:diamond_plate',
+              B: 'emendatusenigmatica:gold_plate',
+              C: 'sophisticatedbackpacks:void_upgrade',
+              D: 'extendedcrafting:redstone_ingot'
+          },
+          id: 'sophisticatedbackpacks:advanced_void_upgrade'
+      },
+      // Void Upgrade
+      {
+          output: 'sophisticatedbackpacks:void_upgrade',
+          pattern: [' A ', 'BCB', 'DED'],
+          key: {
+              A: 'minecraft:ender_eye',
+              B: '#forge:obsidian',
+              C: 'sophisticatedbackpacks:upgrade_base',
+              D: 'extendedcrafting:redstone_ingot',
+              E: 'trashcans:item_trash_can'
+          },
+          id: 'sophisticatedbackpacks:void_upgrade'
+      },
     ];
 
     recipes.forEach((recipe) => {
