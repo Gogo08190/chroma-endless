@@ -9,6 +9,24 @@
     "isBeeColored": false,
     "modelType": "GUARDIAN"
   },
+  "CombatData": {
+      "isPassive": false,
+      "removeStingerOnAttack": false,
+      "inflictsPoison": true,
+      "attackDamage": 1
+  },
+  "MutationData": {
+      "hasMutation": true,
+      "mutationCount": 4,
+      "mutations": [
+          {
+              "type": "BLOCK_TO_ITEM",
+              "inputID": "resourcefulbees:guardian_honeycomb_block",
+              "chance": 1,
+              "outputs": [{ "outputID": "enderioalloys:item_material_skull_guardian_diode", "weight": 10 }]
+          }
+      ]
+  },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainInputCount": 1,
