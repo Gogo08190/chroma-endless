@@ -5,6 +5,20 @@
     "sizeModifier": 1,
     "maxTimeInHive": 6000,
     "hasHoneycomb": true,
+    "apiaryOutputAmounts": [
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "apiaryOutputTypes": [
+      "COMB",
+      "COMB",
+      "COMB",
+      "COMB",
+      "COMB"
+    ],
     "traits": ["sedimentary", "can_swim"],
     "baseLayerTexture": "elementalcraft/fireite/fireite",
     "ColorData": {
@@ -20,8 +34,8 @@
     "CentrifugeData": {
       "hasCentrifugeOutput": true,
 
-      "mainOutput": "elementalcraft:fireite_ingot",
-      "mainOutputWeight": 0.5,
+      "mainOutput": "elementalcraft:fireite_nugget",
+      "mainOutputWeight": 0.75,
       "mainOutputCount": 1,
 
       "bottleOutput": "resourcefulbees:fireite_honey_bottle",
@@ -34,11 +48,7 @@
       "canSpawnInWorld": false
     },
     "BreedData": {
-      "isBreedable": true,
-      "feedItem": "elementalcraft:fireite_ingot",
-      "feedAmount": 2,
-      "childGrowthDelay": -24000,
-      "breedDelay": 6000
+      "isBreedable": false
     },
     "TraitData": {
       "hasTraits": true
