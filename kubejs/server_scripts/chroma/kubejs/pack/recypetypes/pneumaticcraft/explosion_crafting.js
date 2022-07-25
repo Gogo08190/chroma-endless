@@ -21,6 +21,12 @@ onEvent('recipes', (event) => {
         results: [{ item: 'pneumaticcraft:compressed_iron_block' }],
         loss_rate: 10,
         id: 'pneumaticcraft:explosion_crafting/compressed_iron_block'
+      },
+      {
+        input: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:cloggrum_bee' }).weakNBT().toJson(),
+        results: [Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:compressed_iron_bee' }).toJson()],
+        loss_rate: 20,
+        id: `${id_prefix}compressed_iron_bee`
       }
     ];
 
