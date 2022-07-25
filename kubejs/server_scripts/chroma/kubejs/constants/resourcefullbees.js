@@ -74,7 +74,8 @@ const honeyVarieties = [
     'resourcefulbees:terminite_honey',
     'resourcefulbees:thallasium_honey',
     'resourcefulbees:aeterniu_honey',
-    'resourcefulbees:compressed_iron_honey'
+    'resourcefulbees:compressed_iron_honey',
+    'resourcefulbees:fairy_honey'
 ];
 
 const combVariants = [
@@ -151,7 +152,8 @@ const combVariants = [
     'thallasium',
     'terminite',
     'aeternium',
-    'compressed_iron'
+    'compressed_iron',
+    'fairy'
 ];
 
 const bees = [];

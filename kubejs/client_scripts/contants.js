@@ -769,5 +769,6 @@ const craftedBees = [
     'thallasium',
     'terminite',
     'aeternium',
-    'compressed_iron'
+    'compressed_iron',
+    'fairy'
 ];
