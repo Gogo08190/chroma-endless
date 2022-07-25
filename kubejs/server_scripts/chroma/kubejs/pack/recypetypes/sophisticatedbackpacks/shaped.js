@@ -337,6 +337,90 @@ onEvent('recipes', (event) => {
           },
           id: 'sophisticatedbackpacks:void_upgrade'
       },
+      // Advanced Compacting Upgrade
+      {
+          output: 'sophisticatedbackpacks:advanced_compacting_upgrade',
+          pattern: [' A ', 'BCB', 'DDD'],
+          key: {
+              A: 'emendatusenigmatica:diamond_plate',
+              B: 'emendatusenigmatica:gold_plate',
+              C: 'sophisticatedbackpacks:compacting_upgrade',
+              D: 'extendedcrafting:redstone_ingot'
+          },
+          id: 'sophisticatedbackpacks:advanced_compacting_upgrade'
+      },
+      // Compacting Upgrade
+      {
+          output: 'sophisticatedbackpacks:compacting_upgrade',
+          pattern: ['ABA', 'BCB', 'DBD'],
+          key: {
+              A: 'emendatusenigmatica:steel_plate',
+              B: 'create:mechanical_piston',
+              C: 'sophisticatedbackpacks:upgrade_base',
+              D: 'extendedcrafting:redstone_ingot'
+          },
+          id: 'sophisticatedbackpacks:compacting_upgrade'
+      },
+      // Advanced Feeding Upgrade
+      {
+          output: 'sophisticatedbackpacks:advanced_feeding_upgrade',
+          pattern: [' A ', 'BCB', 'DDD'],
+          key: {
+              A: 'emendatusenigmatica:diamond_plate',
+              B: 'emendatusenigmatica:gold_plate',
+              C: 'sophisticatedbackpacks:feeding_upgrade',
+              D: 'extendedcrafting:redstone_ingot'
+          },
+          id: 'sophisticatedbackpacks:advanced_feeding_upgrade'
+      },
+      // Advanced Magnet Upgrade
+      {
+          output: 'sophisticatedbackpacks:advanced_magnet_upgrade',
+          pattern: [' A ', 'BCB', 'DDD'],
+          key: {
+              A: 'emendatusenigmatica:diamond_plate',
+              B: 'emendatusenigmatica:gold_plate',
+              C: 'sophisticatedbackpacks:magnet_upgrade',
+              D: 'extendedcrafting:redstone_ingot'
+          },
+          id: 'sophisticatedbackpacks:advanced_magnet_upgrade'
+      },
+      // Advanced Filter Upgrade
+      {
+          output: 'sophisticatedbackpacks:advanced_filter_upgrade',
+          pattern: [' A ', 'BCB', 'DDD'],
+          key: {
+              A: 'emendatusenigmatica:diamond_plate',
+              B: 'emendatusenigmatica:gold_plate',
+              C: 'sophisticatedbackpacks:filter_upgrade',
+              D: 'extendedcrafting:redstone_ingot'
+          },
+          id: 'sophisticatedbackpacks:advanced_filter_upgrade'
+      },
+      // Advanced Pickup Upgrade
+      {
+          output: 'sophisticatedbackpacks:advanced_pickup_upgrade',
+          pattern: [' A ', 'BCB', 'DDD'],
+          key: {
+              A: 'emendatusenigmatica:diamond_plate',
+              B: 'emendatusenigmatica:gold_plate',
+              C: 'sophisticatedbackpacks:pickup_upgrade',
+              D: 'extendedcrafting:redstone_ingot'
+          },
+          id: 'sophisticatedbackpacks:advanced_pickup_upgrade'
+      },
+      // Pickup Upgrade
+      {
+          output: 'sophisticatedbackpacks:pickup_upgrade',
+          pattern: [' A ', 'BCB', 'DDD'],
+          key: {
+              A: 'create:sticky_mechanical_piston',
+              B: 'minecraft:string',
+              C: 'sophisticatedbackpacks:pickup_upgrade',
+              D: 'extendedcrafting:redstone_ingot'
+          },
+          id: 'sophisticatedbackpacks:pickup_upgrade'
+      },
     ];
 
     recipes.forEach((recipe) => {
