@@ -1,0 +1,17 @@
+{
+  "name" : "dragon",
+  "hunger": 4,
+  "honeyColor": "#E400FF",
+  "saturation": 3,
+  "isRainbow": false,
+  "honeyBlockRecipe": true,
+  "generateHoneyBlock": true,
+      "effects": [
+    {
+      "effectID": "botania:bloodthirst",
+      "duration": 2000,
+      "strength": 1,
+      "chance": 1
+      }
+    ]
+  }

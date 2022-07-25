@@ -770,5 +770,10 @@ const craftedBees = [
     'terminite',
     'aeternium',
     'compressed_iron',
-    'fairy'
+    'fairy',
+    'draconium',
+    'awakened',
+    'chaotic',
+    'guardian',
+    'dragon'
 ];
