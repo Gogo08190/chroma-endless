@@ -1,14 +1,14 @@
 {
-    "flower": "elementalcraft:swift_alloy_block",
+    "flower": "betterendforge:aeternium_block",
     "lore": "mettre du lor",
     "loreColor": "#ff66cc",
     "sizeModifier": 1,
     "maxTimeInHive": 6000,
     "hasHoneycomb": true,
     "traits": ["sedimentary", "can_swim"],
-    "baseLayerTexture": "elementalcraft/swift_alloy/swift_alloy",
+    "baseLayerTexture": "betterend/aeternium/aeternium",
     "ColorData": {
-    "honeycombColor": "#f1c57c"
+    "honeycombColor": "#075a52"
     },
     "CombatData": {
       "isPassive": true,
@@ -19,11 +19,11 @@
     "CentrifugeData": {
       "hasCentrifugeOutput": true,
 
-      "mainOutput": "elementalcraft:swift_alloy_ingot",
+      "mainOutput": "betterendforge:aeternium_ingot",
       "mainOutputWeight": 0.5,
       "mainOutputCount": 1,
 
-      "bottleOutput": "resourcefulbees:swift_alloy_honey_bottle",
+      "bottleOutput": "resourcefulbees:aeternium_honey_bottle",
       "bottleOutputWeight": 0.01,
       "bottleOutputCount": 1,
 
@@ -34,7 +34,7 @@
     },
     "BreedData": {
       "isBreedable": true,
-      "feedItem": "elementalcraft:swift_alloy_ingot",
+      "feedItem": "betterendforge:aeternium_ingot",
       "feedAmount": 2,
       "childGrowthDelay": -24000,
       "breedDelay": 6000

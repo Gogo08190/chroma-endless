@@ -8,8 +8,7 @@
     "traits": ["sedimentary", "can_swim"],
     "baseLayerTexture": "elementalcraft/drenched_iron/drenched_iron",
     "ColorData": {
-    "honeycombColor": "#95bae2",
-    "modelType": "ORE"
+    "honeycombColor": "#95bae2"
     },
     "CombatData": {
       "isPassive": true,

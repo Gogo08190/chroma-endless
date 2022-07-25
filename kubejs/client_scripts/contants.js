@@ -765,5 +765,8 @@ const craftedBees = [
     'slime',
     'ichor_slime',
     'sky_slime',
-    'ender_slime'
+    'ender_slime',
+    'thallasium',
+    'terminite',
+    'aeternium'
 ];

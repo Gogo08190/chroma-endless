@@ -468,7 +468,7 @@
   "item.resourcefulbees.slime_honeycomb": "Slime HoneyComb",
   "fluid.resourcefulbees.slime_honey": "Slime Honey",
   "item.resourcefulbees.slime_honey_fluid_bucket":"Slime Honey Bucket",
-  "block.resourcefulbees.slime_honeycomb_block": "Skyslime HoneyComb Block",
+  "block.resourcefulbees.slime_honeycomb_block": "Slime HoneyComb Block",
   "item.resourcefulbees.slime_honey_bottle": "Slime Honey Bottle",
   "entity.resourcefulbees.slime_bee": "Slime Bee",
   "block.resourcefulbees.slime_honey_block": "Slime Honey Block",
@@ -498,5 +498,32 @@
   "block.resourcefulbees.ender_slime_honeycomb_block": "Enderslime HoneyComb Block",
   "item.resourcefulbees.ender_slime_honey_bottle": "Enderslime Honey Bottle",
   "entity.resourcefulbees.ender_slime_bee": "Enderslime Bee",
-  "block.resourcefulbees.ender_slime_honey_block": "Enderslime Honey Block"
+  "block.resourcefulbees.ender_slime_honey_block": "Enderslime Honey Block",
+
+  "item.resourcefulbees.terminite_bee_spawn_egg": "Terminite Bee Spawn Egg",
+  "item.resourcefulbees.terminite_honeycomb": "Terminite HoneyComb",
+  "fluid.resourcefulbees.terminite_honey": "Terminite Honey",
+  "item.resourcefulbees.terminite_honey_fluid_bucket":"Terminite Honey Bucket",
+  "block.resourcefulbees.terminite_honeycomb_block": "Terminite HoneyComb Block",
+  "item.resourcefulbees.terminite_honey_bottle": "Terminite Honey Bottle",
+  "entity.resourcefulbees.terminite_bee": "Terminite Bee",
+  "block.resourcefulbees.terminite_honey_block": "Terminite Honey Block",
+
+  "item.resourcefulbees.thallasium_bee_spawn_egg": "Thallasium Bee Spawn Egg",
+  "item.resourcefulbees.thallasium_honeycomb": "Thallasium HoneyComb",
+  "fluid.resourcefulbees.thallasium_honey": "Thallasium Honey",
+  "item.resourcefulbees.thallasium_honey_fluid_bucket":"Thallasium Honey Bucket",
+  "block.resourcefulbees.thallasium_honeycomb_block": "Thallasium HoneyComb Block",
+  "item.resourcefulbees.thallasium_honey_bottle": "Thallasium Honey Bottle",
+  "entity.resourcefulbees.thallasium_bee": "Thallasium Bee",
+  "block.resourcefulbees.thallasium_honey_block": "Thallasium Honey Block",
+
+  "item.resourcefulbees.aeternium_bee_spawn_egg": "Aeternium Bee Spawn Egg",
+  "item.resourcefulbees.aeternium_honeycomb": "Aeternium HoneyComb",
+  "fluid.resourcefulbees.aeternium_honey": "Aeternium Honey",
+  "item.resourcefulbees.aeternium_honey_fluid_bucket":"Aeternium Honey Bucket",
+  "block.resourcefulbees.aeternium_honeycomb_block": "Aeternium HoneyComb Block",
+  "item.resourcefulbees.aeternium_honey_bottle": "Aeternium Honey Bottle",
+  "entity.resourcefulbees.aeternium_bee": "Aeternium Bee",
+  "block.resourcefulbees.aeternium_honey_block": "Aeternium Honey Block"
 }
