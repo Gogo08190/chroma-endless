@@ -420,7 +420,7 @@ onEvent('recipes', (event) => {
               D: 'extendedcrafting:redstone_ingot'
           },
           id: 'sophisticatedbackpacks:pickup_upgrade'
-      },
+      }
     ];
 
     recipes.forEach((recipe) => {
