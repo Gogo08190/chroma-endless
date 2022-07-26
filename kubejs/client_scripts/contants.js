@@ -779,5 +779,20 @@ const craftedBees = [
     'ghast',
     'blizz',
     'blitz',
-    'basalz'
+    'basalz',
+    'fireite',
+    'gold',
+    'coal',
+    'beeper',
+    'dungeon',
+    'ender',
+    'forest',
+    'icy',
+    'lapis',
+    'pigman',
+    'rainbow',
+    'rgbee',
+    'skeleton',
+    'water',
+    'zombie'
 ];

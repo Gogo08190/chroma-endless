@@ -84,7 +84,8 @@ const honeyVarieties = [
     'resourcefulbees:ghast_honey',
     'resourcefulbees:blizz_honey',
     'resourcefulbees:blitz_honey',
-    'resourcefulbees:basalz_honey'
+    'resourcefulbees:basalz_honey',
+    'resourcefulbees:fireite_honey'
 ];
 
 const combVariants = [
@@ -171,7 +172,8 @@ const combVariants = [
     'ghast',
     'blizz',
     'blitz',
-    'basalz'
+    'basalz',
+    'fireite'
 ];
 
 const bees = [];
