@@ -22,7 +22,8 @@
     "traits": ["sedimentary", "can_swim"],
     "baseLayerTexture": "botania/elementium/elementium",
     "ColorData": {
-    "honeycombColor": "#f51fff"
+    "honeycombColor": "#f51fff",
+    "modelType": "ORE"
     },
     "CombatData": {
       "isPassive": false,

@@ -23,7 +23,8 @@
     "baseLayerTexture": "botania/gaia/gaia",
     "ColorData": {
       "honeycombColor": "#7b5c75",
-      "isRainbowBee": false
+      "isRainbowBee": false,
+      "modelType": "ORE"
     },
     "CombatData": {
       "isPassive": false,

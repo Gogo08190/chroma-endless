@@ -28,7 +28,8 @@
       "isPassive": false,
       "removeStingerOnAttack": false,
       "inflictsPoison": true,
-      "attackDamage": 10
+      "attackDamage": 10,
+      "modelType": "ORE"
     },
     "CentrifugeData": {
       "hasCentrifugeOutput": true,
