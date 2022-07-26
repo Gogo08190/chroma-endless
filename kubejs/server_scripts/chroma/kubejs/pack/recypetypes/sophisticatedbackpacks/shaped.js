@@ -301,7 +301,7 @@ onEvent('recipes', (event) => {
       },
       // Restock Upgrade
       {
-          output: 'sophisticatedbackpacks:deposit_upgrade',
+          output: 'sophisticatedbackpacks:restock_upgrade',
           pattern: [' A ', 'BCB', 'DED'],
           key: {
               A: 'create:sticky_mechanical_piston',
@@ -310,7 +310,7 @@ onEvent('recipes', (event) => {
               D: 'extendedcrafting:redstone_ingot',
               E: '#forge:chests/wooden'
           },
-          id: 'sophisticatedbackpacks:deposit_upgrade'
+          id: 'sophisticatedbackpacks:restock_upgrade'
       },
       // Advanced Void Upgrade
       {
@@ -383,7 +383,7 @@ onEvent('recipes', (event) => {
               C: 'sophisticatedbackpacks:magnet_upgrade',
               D: 'extendedcrafting:redstone_ingot'
           },
-          id: 'sophisticatedbackpacks:advanced_magnet_upgrade'
+          id: 'sophisticatedbackpacks:advanced_magnet_upgrade_from_basic'
       },
       // Advanced Filter Upgrade
       {
@@ -404,7 +404,7 @@ onEvent('recipes', (event) => {
           key: {
               A: 'emendatusenigmatica:diamond_plate',
               B: 'emendatusenigmatica:gold_plate',
-              C: 'sophisticatedbackpacks:pickup_upgrade',
+              C: 'sophisticatedbackpacks:upgrade_base',
               D: 'extendedcrafting:redstone_ingot'
           },
           id: 'sophisticatedbackpacks:advanced_pickup_upgrade'
