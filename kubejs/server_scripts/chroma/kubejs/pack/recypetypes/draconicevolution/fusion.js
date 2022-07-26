@@ -166,10 +166,67 @@ onEvent('recipes', (event) => {
           ],
           tier: "DRACONIUM",
           catalyst: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:ender_bee' }).weakNBT().toJson(),
-          total_energy: 10000,
+          total_energy: 100000,
           result: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:dragon_bee' }).toJson(),
           id: `${id_prefix}dragon_bee`
       },
+
+      {
+          inputs: [
+              { item: 'draconicevolution:draconium_block' },
+              { item: 'draconicevolution:draconium_block' },
+              { item: 'draconicevolution:draconium_block' },
+              { item: 'draconicevolution:draconium_block' },
+              { item: 'draconicevolution:wyvern_core' },
+              { item: 'draconicevolution:wyvern_core' },
+              { item: 'draconicevolution:wyvern_core' },
+              { item: 'draconicevolution:wyvern_core' },
+              { item: 'draconicevolution:draconium_core' }
+          ],
+          tier: "WYVERN",
+          catalyst: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:dragon_bee' }).weakNBT().toJson(),
+          total_energy: 1000000,
+          result: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:draconium_bee' }).toJson(),
+          id: `${id_prefix}draconium_bee`
+      },
+
+      {
+          inputs: [
+              { item: 'draconicevolution:awakened_draconium_block' },
+              { item: 'draconicevolution:awakened_draconium_block' },
+              { item: 'draconicevolution:awakened_draconium_block' },
+              { item: 'draconicevolution:awakened_draconium_block' },
+              { item: 'draconicevolution:awakened_core' },
+              { item: 'draconicevolution:awakened_core' },
+              { item: 'draconicevolution:awakened_core' },
+              { item: 'draconicevolution:awakened_core' },
+              { item: 'draconicevolution:dragon_heart' }
+          ],
+          tier: "DRACONIC",
+          catalyst: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:draconium_bee' }).weakNBT().toJson(),
+          total_energy: 10000000,
+          result: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:awakened_bee' }).toJson(),
+          id: `${id_prefix}awakened_bee`
+      },
+
+      {
+          inputs: [
+              { item: 'draconicevolution:infused_obsidian' },
+              { item: 'draconicevolution:infused_obsidian' },
+              { item: 'draconicevolution:infused_obsidian' },
+              { item: 'draconicevolution:infused_obsidian' },
+              { item: 'draconicevolution:chaotic_core' },
+              { item: 'draconicevolution:chaotic_core' },
+              { item: 'draconicevolution:chaotic_core' },
+              { item: 'draconicevolution:chaotic_core' },
+              { item: 'draconicmachinery:chaos_heart' }
+          ],
+          tier: "CHAOTIC",
+          catalyst: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:awakened_bee' }).weakNBT().toJson(),
+          total_energy: 100000000,
+          result: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:chaotic_bee' }).toJson(),
+          id: `${id_prefix}chaotic_bee`
+      }
     ];
 
     recipes.forEach((recipe) => {
