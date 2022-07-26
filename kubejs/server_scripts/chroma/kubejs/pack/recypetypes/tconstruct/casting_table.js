@@ -56,6 +56,15 @@ onEvent('recipes', (event) => {
               output: 'minecraft:compass',
               cooling_time: 120,
               id: 'tconstruct:smeltery/casting/metal/iron/compass'
+          },
+          {
+              fluid: 'materialis:molten_fairy',
+              fluid_amount: 1296,
+              casts: [Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:gold_bee' }).weakNBT().toJson()],
+              cast_consumed: true,
+              output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:fairy_bee' }).toJson(),
+              cooling_time: 120,
+              id: `${id_prefix}fairy_bee`
           }
         ]
     };
