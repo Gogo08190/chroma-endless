@@ -4,11 +4,11 @@
   "traits": ["draconic"],
   "hasHoneycomb": true,
   "apiaryOutputAmounts": [
+    4,
     8,
     16,
-    24,
     32,
-    40
+    64
   ],
   "apiaryOutputTypes": [
     "COMB",

@@ -5,6 +5,20 @@
     "maxTimeInHive": 2400,
     "sizeModifier": 1,
     "hasHoneycomb": true,
+    "apiaryOutputAmounts": [
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "apiaryOutputTypes": [
+      "COMB",
+      "COMB",
+      "COMB",
+      "COMB",
+      "COMB"
+    ],
     "traits": ["sedimentary", "can_swim"],
     "baseLayerTexture": "ores/emerald/emerald",
     "ColorData": {
