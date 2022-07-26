@@ -4,6 +4,20 @@
   "loreColor": "#00AAA",
   "sizeModifier": 1,
   "hasHoneycomb": true,
+  "apiaryOutputAmounts": [
+    4,
+    8,
+    16,
+    32,
+    64
+  ],
+  "apiaryOutputTypes": [
+    "COMB",
+    "COMB",
+    "COMB",
+    "COMB",
+    "COMB"
+  ],
   "traits": ["sedimentary", "can_swim"],
   "baseLayerTexture": "ores/cloggrum/cloggrum",
   "ColorData": {
@@ -23,8 +37,8 @@
         "CentrifugeData": {
           "hasCentrifugeOutput": true,
 
-          "mainOutput": "undergarden:cloggrum_ingot",
-          "mainOutputWeight": 0.5,
+          "mainOutput": "undergarden:cloggrum_nugget",
+          "mainOutputWeight": 0.75,
           "mainOutputCount": 1,
 
           "bottleOutput": "resourcefulbees:cloggrum_honey_bottle",
@@ -37,11 +51,7 @@
       "canSpawnInWorld": false
     },
     "BreedData": {
-    "isBreedable": true,
-    "feedItem": "undergarden:cloggrum_ingot",
-    "feedAmount": 1,
-    "childGrowthDelay": -24000,
-    "breedDelay": 6000
+    "isBreedable": false
   },
   "TraitData": {
       "hasTraits": true
