@@ -20,16 +20,16 @@
       "COMB"
     ],
     "traits": ["sedimentary", "can_swim"],
-    "baseLayerTexture": "botania/terrasteel/terrasteel",
     "ColorData": {
-    "honeycombColor": "#37f900",
-    "modelType": "ORE"
+      "honeycombColor": "#37f900",
+      "isRainbowBee": false,
+      "modelType": "ORE"
     },
     "CombatData": {
       "isPassive": false,
       "removeStingerOnAttack": false,
       "inflictsPoison": true,
-      "attackDamage": 10,
+      "attackDamage": 10
     },
     "CentrifugeData": {
       "hasCentrifugeOutput": true,
