@@ -15,6 +15,7 @@
       },
       {
         "type": "masterfulmachinery:pncr_pressure",
+        "textureOverride": "pneumaticcraft:block/compressed_brick_tile",
         "name": "Endless Reactor Air Chamber",
         "id": "endless_air",
         "data": {
@@ -25,6 +26,7 @@
       },
       {
         "type": "masterfulmachinery:energy",
+        "textureOverride": "create:block/shadow_steel_casing",
         "name": "Endless Reactor Energy",
         "id": "endless_energy",
         "data": {
@@ -33,7 +35,7 @@
       },
       {
         "type": "masterfulmachinery:fluids",
-        "textureOverride": "create:block/copper_casing",
+        "textureOverride": "pneumaticcraft:block/compressed_brick_tile",
         "name": "Endless Reactor Fluid",
         "id": "endless_fluid",
         "data": {
@@ -42,7 +44,7 @@
       },
       {
         "type": "masterfulmachinery:create_rotation",
-        "textureOverride": "envirocore:block/component/io/_base",
+        "textureOverride": "pneumaticcraft:block/compressed_brick_tile",
         "name": "Endless Reactor Speed",
         "id": "endless_speed",
         "data": {
@@ -51,7 +53,7 @@
       },
       {
           "type": "masterfulmachinery:mekanism_gas",
-          "textureOverride": "envirocore:block/component/io/_base",
+          "textureOverride": "pneumaticcraft:block/compressed_brick_tile",
           "name": "Endless Reactor Gas",
           "id": "endless_gas",
           "data": {
