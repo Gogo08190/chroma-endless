@@ -1,23 +1,6 @@
 onEvent('recipes', (event) => {
     const id_prefix = 'chroma:pack/ars_nouveau/enchanting_apparatus/';
 
-    /*{
-        inputs: [
-            '',
-            '',
-            '',
-            '',
-            '',
-            '',
-            '',
-            ''
-        ],
-        reagent: '',
-        sourceCost: 5000,
-        output: '',
-        id: ``
-    }*/
-
     const recipes = [
 
       // Pedestal Upgrade Base
@@ -87,7 +70,6 @@ onEvent('recipes', (event) => {
       },
 
       //Tier 4 Hive Upgrade
-
       {
           inputs: [
             '#resourcefulbees:resourceful_honey_block',
@@ -103,6 +85,24 @@ onEvent('recipes', (event) => {
           sourceCost: 10000,
           output: 'resourcefulbees:t4_hive_upgrade',
           id: 'resourcefulbees:t4_hive_upgrade'
+      },
+
+      //Sourcesteel bee
+      {
+          inputs: [
+            'arsarsenal:source_steel_ingot',
+            '#forge:storage_blocks/arcane',
+            'arsarsenal:source_steel_ingot',
+            '#forge:storage_blocks/arcane',
+            '#forge:storage_blocks/arcane',
+            'arsarsenal:source_steel_ingot',
+            '#forge:storage_blocks/netherite',
+            'arsarsenal:source_steel_ingot'
+          ],
+          reagent: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:steel_bee' }).weakNBT().toJson(),
+          sourceCost: 10000,
+          output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:source_steel_bee' }).toJson(),
+          id: `${id_prefix}source_steel_bee`
       }
 
     ];
