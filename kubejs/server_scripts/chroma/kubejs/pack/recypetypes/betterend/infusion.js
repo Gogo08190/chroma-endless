@@ -27,7 +27,7 @@ onEvent('recipes', (event) => {
                     { index: 3, item: 'extendedcrafting:ender_ingot' },
                     { index: 4, item: 'emendatusenigmatica:enderium_gear' },
                     { index: 5, item: 'extendedcrafting:ender_ingot' },
-                    { index: 6, item: 'extendedcrafting:ender_ingot' },
+                    { index: 6, item: 'extendedcrafting:ender_ingot' }
                 ],
                 time: 250,
                 id: 'extendedcrafting:ender_alternator'
@@ -50,7 +50,7 @@ onEvent('recipes', (event) => {
                     { index: 4, item: 'betterendforge:aurora_crystal' },
                     { index: 5, tag: 'forge:storage_blocks/thallasium' },
                     { index: 6, item: 'betterendforge:aurora_crystal' },
-                    { index: 7, tag: 'forge:storage_blocks/thallasium' },
+                    { index: 7, tag: 'forge:storage_blocks/thallasium' }
                 ],
                 time: 250,
                 id: `${id_prefix}thallasium_bee`
@@ -73,7 +73,7 @@ onEvent('recipes', (event) => {
                     { index: 4, item: 'betterendforge:smaragdant_crystal'  },
                     { index: 5, tag: 'forge:storage_blocks/terminite' },
                     { index: 6, tag: 'forge:storage_blocks/steel' },
-                    { index: 7, tag: 'forge:storage_blocks/terminite' },
+                    { index: 7, tag: 'forge:storage_blocks/terminite' }
                 ],
                 time: 250,
                 id: `${id_prefix}terminite_bee`
@@ -96,7 +96,7 @@ onEvent('recipes', (event) => {
                     { index: 4, item: 'betterendforge:eternal_crystal'  },
                     { index: 5, tag: 'forge:storage_blocks/aeternium' },
                     { index: 6, item: 'betterendforge:eternal_crystal' },
-                    { index: 7, tag: 'forge:storage_blocks/aeternium' },
+                    { index: 7, tag: 'forge:storage_blocks/aeternium' }
                 ],
                 time: 250,
                 id: `${id_prefix}aeternium_bee`
