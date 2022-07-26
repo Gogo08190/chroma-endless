@@ -22,7 +22,7 @@
           {
               "type": "BLOCK_TO_ITEM",
               "inputID": "resourcefulbees:guardian_honeycomb_block",
-              "chance": 1,
+              "chance": 0.1,
               "outputs": [{ "outputID": "enderioalloys:item_material_skull_guardian_diode", "weight": 10 }]
           }
       ]

@@ -1,0 +1,53 @@
+{
+    "flower": "minecraft:shroomlight",
+    "lore": "mettre du lore",
+    "loreColor": "#00AAAA",
+    "maxTimeInHive": 2400,
+    "sizeModifier": 0.75,
+    "traits": ["nether", "can_swim", "wither"],
+    "hasHoneycomb": true,
+    "baseLayerTexture": "other/glowstone/glowstone",
+    "ColorData": {
+        "honeycombColor": "#ffbc5e",
+        "isBeeColored": false,
+        "isRainbowBee": false,
+        "isGlowing": false,
+        "isEnchanted": false
+    },
+    "CombatData": {
+        "isPassive": false,
+        "removeStingerOnAttack": false,
+        "inflictsPoison": true,
+        "attackDamage": 1
+    },
+    "CentrifugeData": {
+        "hasCentrifugeOutput": true,
+
+        "mainOutput": "minecraft:glowstone_dust",
+        "mainOutputWeight": 0.6,
+        "mainOutputCount": 6,
+
+        "secondaryOutput": "resourcefulbees:wax",
+        "secondaryOutputWeight": 0.2,
+        "secondaryOutputCount": 3,
+
+        "bottleOutput": "resourcefulbees:glowstone_honey_bottle",
+        "bottleOutputWeight": 0.02,
+        "bottleOutputCount": 1,
+
+        "mainInputCount": 1
+    },
+    "SpawnData": {
+        "canSpawnInWorld": false
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "feedItem": "tag:forge:storage_blocks/glowstone",
+        "feedAmount": 2,
+        "childGrowthDelay": -24000,
+        "breedDelay": 6000
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

@@ -21,6 +21,12 @@
   "entity.resourcefulbees.forest_bee": "Forest Bee",
 
   "trait.resourcefulbees.sedimentary": "Sedimentary",
+  "trait.resourcefulbees.awakened": "Awakened",
+  "trait.resourcefulbees.basalz": "Basalz",
+  "trait.resourcefulbees.blitz": "Blitz",
+  "trait.resourcefulbees.blizz": "Blizz",
+  "trait.resourcefulbees.chaotic": "Chaotic",
+  "trait.resourcefulbees.draconic": "Draconic",
 
   "fluid.resourcefulbees.illuminating_honey": "Illuminating Honey",
   "item.resourcefulbees.illuminating_honey_bottle": "Illuminating Honey Bottle",
@@ -625,5 +631,32 @@
   "block.resourcefulbees.blizz_honeycomb_block": "Blizz HoneyComb Block",
   "item.resourcefulbees.blizz_honey_bottle": "Blizz Honey Bottle",
   "entity.resourcefulbees.blizz_bee": "Blizz Bee",
-  "block.resourcefulbees.blizz_honey_block": "Blizz Honey Block"
+  "block.resourcefulbees.blizz_honey_block": "Blizz Honey Block",
+
+  "item.resourcefulbees.glowstone_bee_spawn_egg": "Glowstone Bee Spawn Egg",
+  "item.resourcefulbees.glowstone_honeycomb": "Glowstone HoneyComb",
+  "fluid.resourcefulbees.glowstone_honey": "Glowstone Honey",
+  "item.resourcefulbees.glowstone_honey_fluid_bucket":"Glowstone Honey Bucket",
+  "block.resourcefulbees.glowstone_honeycomb_block": "Glowstone HoneyComb Block",
+  "item.resourcefulbees.glowstone_honey_bottle": "Glowstone Honey Bottle",
+  "entity.resourcefulbees.glowstone_bee": "Glowstone Bee",
+  "block.resourcefulbees.glowstone_honey_block": "Glowstone Honey Block",
+
+  "item.resourcefulbees.obsidian_bee_spawn_egg": "Obsidian Bee Spawn Egg",
+  "item.resourcefulbees.obsidian_honeycomb": "Obsidian HoneyComb",
+  "fluid.resourcefulbees.obsidian_honey": "Obsidian Honey",
+  "item.resourcefulbees.obsidian_honey_fluid_bucket":"Obsidian Honey Bucket",
+  "block.resourcefulbees.obsidian_honeycomb_block": "Obsidian HoneyComb Block",
+  "item.resourcefulbees.obsidian_honey_bottle": "Obsidian Honey Bottle",
+  "entity.resourcefulbees.obsidian_bee": "Obsidian Bee",
+  "block.resourcefulbees.obsidian_honey_block": "Obsidian Honey Block",
+
+  "item.resourcefulbees.clay_bee_spawn_egg": "Clay Bee Spawn Egg",
+  "item.resourcefulbees.clay_honeycomb": "Clay HoneyComb",
+  "fluid.resourcefulbees.clay_honey": "Clay Honey",
+  "item.resourcefulbees.clay_honey_fluid_bucket":"Clay Honey Bucket",
+  "block.resourcefulbees.clay_honeycomb_block": "Clay HoneyComb Block",
+  "item.resourcefulbees.clay_honey_bottle": "Clay Honey Bottle",
+  "entity.resourcefulbees.clay_bee": "Clay Bee",
+  "block.resourcefulbees.clay_honey_block": "Clay Honey Block"
 }

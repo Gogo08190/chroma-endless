@@ -794,5 +794,8 @@ const craftedBees = [
     'rgbee',
     'skeleton',
     'water',
-    'zombie'
+    'zombie',
+    'glowstone',
+    'obsidian',
+    'clay'
 ];
