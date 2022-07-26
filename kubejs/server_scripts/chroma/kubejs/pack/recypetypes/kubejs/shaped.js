@@ -252,7 +252,7 @@ onEvent('recipes', (event) => {
 
         {
             output: 'kubejs:sac',
-            pattern: [' V ', 'CGC', ' V '],
+            pattern: [' G ', 'MSM', 'EOE'],
             key: {
                 E: 'tconstruct:efln_ball',
                 S: 'occultism:satchel',
