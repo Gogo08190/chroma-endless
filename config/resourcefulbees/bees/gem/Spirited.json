@@ -2,6 +2,7 @@
   "flower": "powah:spirited_crystal_block",
   "lore": "mettre du lor",
   "loreColor": "#00AAA",
+  "maxTimeInHive": 2400,
   "sizeModifier": 1,
   "hasHoneycomb": true,
   "traits": ["sedimentary", "can_swim"],
@@ -24,7 +25,7 @@
           "hasCentrifugeOutput": true,
 
           "mainOutput": "powah:crystal_spirited",
-          "mainOutputWeight": 0.5,
+          "mainOutputWeight": 0.25,
           "mainOutputCount": 1,
 
           "bottleOutput": "resourcefulbees:crystal_spirited_honey_bottle",
@@ -37,11 +38,7 @@
       "canSpawnInWorld": false
     },
     "BreedData": {
-    "isBreedable": true,
-    "feedItem": "powah:crystal_spirited",
-    "feedAmount": 1,
-    "childGrowthDelay": -24000,
-    "breedDelay": 6000
+    "isBreedable": false
   },
   "TraitData": {
       "hasTraits": true

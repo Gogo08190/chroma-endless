@@ -2,7 +2,7 @@
   "flower": "tag:forge:storage_blocks/diamond",
   "lore": "Tier 3 :\nThe Diamond Bee's parentage makes it clear that a\ndiamond is really just Quartz, stained blue.",
   "loreColor": "#00AAAA",
-  "maxTimeInHive": 4800,
+  "maxTimeInHive": 2400,
   "sizeModifier": 1,
   "hasHoneycomb": true,
   "traits": ["sedimentary", "can_swim"],
@@ -36,11 +36,11 @@
       "hasCentrifugeOutput": true,
 
       "mainOutput": "emendatusenigmatica:diamond_chunk",
-      "mainOutputWeight": 0.2,
+      "mainOutputWeight": 0.4,
       "mainOutputCount": 1,
 
       "secondaryOutput": "emendatusenigmatica:arcane_chunk",
-      "secondaryOutputWeight": 0.1,
+      "secondaryOutputWeight": 0.2,
       "secondaryOutputCount": 1,
 
       "bottleOutput": "resourcefulbees:diamond_honey_bottle",

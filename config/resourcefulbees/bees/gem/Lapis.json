@@ -2,7 +2,7 @@
   "flower": "tag:forge:storage_blocks/lapis",
       "lore": "Tier 2 :\nDeep down, Coal just wants to be blue. Wash it with\nWater and you'll find Lapis inside.",
       "loreColor": "#00AAAA",
-      "maxTimeInHive": 4800,
+      "maxTimeInHive": 1200,
       "sizeModifier": 1,
       "hasHoneycomb": true,
       "traits": ["sedimentary", "can_swim"],

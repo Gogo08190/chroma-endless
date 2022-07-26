@@ -2,6 +2,7 @@
   "flower": "powah:uraninite_block",
   "lore": "mettre du lor",
   "loreColor": "#00AAA",
+  "maxTimeInHive": 2400,
   "sizeModifier": 1,
   "hasHoneycomb": true,
   "traits": ["sedimentary", "can_swim"],
@@ -37,11 +38,7 @@
       "canSpawnInWorld": false
     },
     "BreedData": {
-    "isBreedable": true,
-    "feedItem": "powah:uraninite",
-    "feedAmount": 1,
-    "childGrowthDelay": -24000,
-    "breedDelay": 6000
+    "isBreedable": false
   },
   "TraitData": {
       "hasTraits": true

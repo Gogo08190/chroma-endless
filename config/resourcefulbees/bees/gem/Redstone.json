@@ -2,7 +2,7 @@
   "flower": "tag:forge:storage_blocks/redstone",
   "lore": "Tier 2 :\nCoal + Rainbows = Redstone? Makes sense.",
   "loreColor": "#00AAAA",
-  "maxTimeInHive": 4800,
+  "maxTimeInHive": 2400,
   "sizeModifier": 1,
   "hasHoneycomb": true,
   "traits": ["sedimentary", "can_swim"],

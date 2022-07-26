@@ -1,5 +1,5 @@
 {
-    "flower": "ALL",
+    "flower": "minecraft:lily_pad",
     "lore": "Tier 1:\nWater Bees prefer to stay hydrated, but\nalways stick to fresh water.",
     "loreColor": "#00AAAA",
     "maxTimeInHive": 4800,
@@ -29,6 +29,13 @@
                 "type": "BLOCK",
                 "inputID": "minecraft:lava",
                 "outputs": [{ "outputID": "minecraft:obsidian", "weight": 10 }]
+            },
+            {
+              "type": "ENTITY",
+              "inputID": "entity:minecraft:guardian",
+              "outputs": [
+                {"outputID": "entity:resourcefulbees:guardian_bee", "weight": 10}
+              ]
             }
         ]
     },

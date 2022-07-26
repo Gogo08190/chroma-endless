@@ -2,7 +2,7 @@
     "flower": "tag:forge:storage_blocks/emerald",
     "lore": "Tier 3 :\nDying a Diamond green (and slimy) apparently yields an Emerald.",
     "loreColor": "#00AAAA",
-    "maxTimeInHive": 4800,
+    "maxTimeInHive": 2400,
     "sizeModifier": 1,
     "hasHoneycomb": true,
     "traits": ["sedimentary", "can_swim"],
@@ -38,10 +38,6 @@
         "mainOutput": "emendatusenigmatica:emerald_chunk",
         "mainOutputWeight": 0.5,
         "mainOutputCount": 1,
-
-        "secondaryOutput": "minecraft:prismarine_shard",
-        "secondaryOutputWeight": 0.1,
-        "secondaryOutputCount": 3,
 
         "bottleOutput": "resourcefulbees:emerald_honey_bottle",
         "bottleOutputWeight": 0.01,
