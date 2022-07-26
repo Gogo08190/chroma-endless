@@ -88,7 +88,12 @@ const honeyVarieties = [
     'resourcefulbees:fireite_honey',
     'resourcefulbees:glowstone_honey',
     'resourcefulbees:obsidian_honey',
-    'resourcefulbees:clay_honey'
+    'resourcefulbees:clay_honey',
+    'resourcefulbees:netherite_honey',
+    'resourcefulbees:iron_honey',
+    'resourcefulbees:gold_honey',
+    'resourcefulbees:coal_honey'
+
 ];
 
 const combVariants = [
