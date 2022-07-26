@@ -10,7 +10,6 @@ onEvent('recipes', (event) => {
         id: ''
     }
 */
-
     const recipes = [
         {
             output: 'ars_nouveau:vitalic_sourcelink',
