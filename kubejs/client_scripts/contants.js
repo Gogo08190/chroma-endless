@@ -268,6 +268,12 @@ const itemsToHide = [
     'pedestals:coin/quarryb',
     'pedestals:coin/restriction',
 
+    'bigreactors:yellorite_ore',
+    'bigreactors:yellorium_nugget',
+    'bigreactors:yellorium_dust',
+    'bigreactors:yellorium_ingot',
+    'bigreactors:yellorium_block',
+
     'quark:biotite',
     'quark:biotite_ore',
     'quark:tallow',
