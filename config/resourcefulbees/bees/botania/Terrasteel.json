@@ -20,6 +20,7 @@
       "COMB"
     ],
     "traits": ["sedimentary", "can_swim"],
+    "baseLayerTexture": "botania/terrasteel/terrasteel",
     "ColorData": {
       "honeycombColor": "#37f900",
       "isRainbowBee": false,
