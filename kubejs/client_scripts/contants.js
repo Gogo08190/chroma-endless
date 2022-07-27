@@ -391,7 +391,18 @@ const itemsToHide = [
 
     'draconicadditions:chaos_heart',
 
-    'mekanism:enriched_tin'
+    'mekanism:enriched_tin',
+
+    'mob_grinding_utils:mob_swab',
+    'mob_grinding_utils:dreadful_dirt',
+    'mob_grinding_utils:delightful_dirt',
+    'mob_grinding_utils:gm_chicken_feed',
+    'mob_grinding_utils:gm_chicken_feed_cursed',
+    'mob_grinding_utils:nutritious_chicken_feed',
+    'mob_grinding_utils:spikes',
+    'mob_grinding_utils:entity_spawner',
+    'mob_grinding_utils:rotten_egg',
+    'mob_grinding_utils:golden_egg'
 ];
 
 let ee_types = ['clump', 'crystal', 'dirty_dust', 'shard', 'fragment', 'gravel'];
