@@ -19,7 +19,7 @@ onEvent('recipes', (event) => {
                 type: 'masterfulmachinery:items', data: { item: 'envirocore:litherite_boule', count: 1 } },
           ],
           ticks: 512,
-          id: 'chroma:test'
+          id: `${id_prefix}low_energy_generation`
       }
     ];
 
