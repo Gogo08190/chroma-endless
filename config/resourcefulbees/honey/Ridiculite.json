@@ -1,0 +1,17 @@
+{
+  "name" : "ridiculite",
+  "hunger": 4,
+  "honeyColor": "#c7a3cc",
+  "saturation": 3,
+  "isRainbow": false,
+  "honeyBlockRecipe": true,
+  "generateHoneyBlock": true,
+      "effects": [
+    {
+      "effectID": "botania:bloodthirst",
+      "duration": 2000,
+      "strength": 1,
+      "chance": 1
+      }
+    ]
+  }

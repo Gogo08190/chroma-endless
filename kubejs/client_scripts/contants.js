@@ -807,5 +807,11 @@ const craftedBees = [
     'netherite',
     'manyullyn',
     'rose_gold',
-    'hepatizon'
+    'hepatizon',
+    'cyanite',
+    'blutonium',
+    'magentite',
+    'ridiculite',
+    'ludicrite',
+    'inanite'
 ];

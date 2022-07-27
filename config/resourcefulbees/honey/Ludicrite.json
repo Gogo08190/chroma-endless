@@ -1,0 +1,17 @@
+{
+  "name" : "ludicrite",
+  "hunger": 4,
+  "honeyColor": "#ac48e0",
+  "saturation": 3,
+  "isRainbow": false,
+  "honeyBlockRecipe": true,
+  "generateHoneyBlock": true,
+      "effects": [
+    {
+      "effectID": "botania:bloodthirst",
+      "duration": 2000,
+      "strength": 1,
+      "chance": 1
+      }
+    ]
+  }
