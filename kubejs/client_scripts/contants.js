@@ -804,5 +804,8 @@ const craftedBees = [
     'glowstone',
     'obsidian',
     'clay',
-    'netherite'
+    'netherite',
+    'manyullyn',
+    'rose_gold',
+    'hepatizon'
 ];

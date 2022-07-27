@@ -1,0 +1,17 @@
+{
+  "name" : "hepatizon",
+  "hunger": 4,
+  "honeyColor": "#725b7d",
+  "saturation": 3,
+  "isRainbow": false,
+  "honeyBlockRecipe": true,
+  "generateHoneyBlock": true,
+      "effects": [
+    {
+      "effectID": "minecraft:speed",
+      "duration": 2000,
+      "strength": 3,
+      "chance": 1
+      }
+    ]
+  }
