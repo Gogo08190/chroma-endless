@@ -19,6 +19,7 @@
     "COMB",
     "COMB"
   ],
+  "auraRange": 20,
   "traits": ["sedimentary", "can_swim"],
   "baseLayerTexture": "ores/spirited_crystal/spirited_crystal",
   "ColorData": {

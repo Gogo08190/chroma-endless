@@ -19,6 +19,7 @@
       "COMB",
       "COMB"
     ],
+    "auraRange": 20,
     "traits": ["sedimentary", "can_swim"],
     "baseLayerTexture": "metals/lumium/lumium",
     "ColorData": {
