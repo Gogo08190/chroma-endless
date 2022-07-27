@@ -46,7 +46,7 @@ onEvent('recipes', (event) => {
           key: {
             C: 'minecraft:smooth_stone',
             W: '#minecraft:planks',
-            P: '#forge:plates/iron_aluminum',
+            P: '#forge:ingots/iron',
             S: 'create:shaft',
             R: '#forge:dusts/redstone'
           },
