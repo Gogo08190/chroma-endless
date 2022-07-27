@@ -51,7 +51,8 @@ onEvent('item.registry', (event) => {
         'nanorite_photovoltaic_panel',
         'xerothium_photovoltaic_panel',
         'energized_uranium',
-        'silicon_grease'
+        'silicon_grease',
+        'chroma_matter'
     ];
 
     generalItems.forEach((item) => {
