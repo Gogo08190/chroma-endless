@@ -864,7 +864,7 @@
       "       )))          22>22       5     5       ",
       "       ?)=          4 = 4       5     5       ",
       "       ))@A         4 B 4       5     5       ",
-      "       D)=          4 = 4       5     5       ",
+      "       F)=          4 = 4       5     5       ",
       "       )))          22>22       5     5       ",
       "       )))           )-)        ..///..       ",
       "        )))          )-)         )))))77      ",
@@ -950,9 +950,9 @@
       "       7                           )          ",
       "       7                         .....        ",
       "      7             22222       .     .       ",
-      "      7  )          24242       5     5       ",
-      "      7 F)          22922       5     5       ",
-      "      7  )          24242       5     5       ",
+      "      7 D)          24242       5     5       ",
+      "      7  )          22922       5     5       ",
+      "      7 G)          24242       5     5       ",
       "      7             22222       .     .       ",
       "       7                         .....        ",
       "       7                           )          ",
@@ -1739,6 +1739,9 @@
     },
     "F": {
       "block": "masterfulmachinery:endlessreactor_endless_fluid_port_fluids_input"
+    },
+    "G": {
+      "block": "masterfulmachinery:endlessreactor_endless_item_port_items_output"
     },
     ")": {
       "block": "immersiveengineering:sheetmetal_steel"
