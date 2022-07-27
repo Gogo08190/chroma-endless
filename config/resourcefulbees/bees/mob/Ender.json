@@ -3,6 +3,7 @@
   "hasHoneycomb": true,
   "traits": ["ender"],
   "maxTimeInHive": 1800,
+  "baseLayerTexture": "mobs/ender/ender",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#339786",
