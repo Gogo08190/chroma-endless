@@ -1,19 +1,18 @@
-
-/*onEvent('recipes', (event) => {
+onEvent('recipes', (event) => {
     const recipes = [
-      {
-        output:                         ,
+      /*{
+        output: ,
         pattern: ['AAA', 'BBB', 'CCC'],
         key: {
-            A:                          ,
-            B:                          ,
+            A: ,
+            B: ,
             C:
         },
         id:
-      }
-];
+      }*/
+    ];
 
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
     });
-});*/
+});
