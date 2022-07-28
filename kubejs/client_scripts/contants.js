@@ -402,7 +402,8 @@ const itemsToHide = [
     'mob_grinding_utils:spikes',
     'mob_grinding_utils:entity_spawner',
     'mob_grinding_utils:rotten_egg',
-    'mob_grinding_utils:golden_egg'
+    'mob_grinding_utils:golden_egg',
+    'mob_grinding_utils:mob_swab_used'
 ];
 
 let ee_types = ['clump', 'crystal', 'dirty_dust', 'shard', 'fragment', 'gravel'];
