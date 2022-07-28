@@ -3,7 +3,8 @@ onEvent('block.registry', (event) => {
         { name: 'spirit_attuned_block', material: 'iron', hardness: 5 },
         { name: 'xnet_machine_frame', material: 'iron', hardness: 5 },
         { name: 'sac', material: 'iron', hardness: 5 },
-        { name: 'gaia_spirit_block', material: 'iron', hardness: 5}
+        { name: 'gaia_spirit_block', material: 'iron', hardness: 5},
+        { name: 'energized_uranium_block', material: 'iron', hardness: 5}
     ];
 
     blocks.forEach((block) => {
