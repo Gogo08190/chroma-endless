@@ -14,6 +14,7 @@
     	"isPassive": false,
     	"removeStingerOnAttack": false,
     	"inflictsPoison": true,
+      "baseHealth": 20,
     	"attackDamage": 4
    	},
     "MutationData": {
@@ -59,11 +60,7 @@
     "canSpawnInWorld": false
   },
   "BreedData": {
-    "isBreedable": true,
-    "feedItem": "occultism:otherstone",
-    "feedAmount": 1,
-    "childGrowthDelay": -24000,
-    "breedDelay": 6000
+    "isBreedable": false
   },
   "TraitData": {
     "hasTraits": true

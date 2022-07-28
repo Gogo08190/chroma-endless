@@ -27,9 +27,10 @@
     "modelType": "ORE"
     },
     "CombatData": {
-      "isPassive": true,
+      "isPassive": false,
       "removeStingerOnAttack": false,
       "inflictsPoison": true,
+      "baseHealth": 20,
       "attackDamage": 4
     },
     "CentrifugeData": {

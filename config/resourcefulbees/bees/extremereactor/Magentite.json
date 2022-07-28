@@ -29,6 +29,7 @@
       "isPassive": true,
       "removeStingerOnAttack": false,
       "inflictsPoison": true,
+      "baseHealth": 20,
       "attackDamage": 4
     },
     "CentrifugeData": {

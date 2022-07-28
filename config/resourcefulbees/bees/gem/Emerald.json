@@ -34,6 +34,7 @@
         "isPassive": false,
         "removeStingerOnAttack": false,
         "inflictsPoison": true,
+        "baseHealth": 20,
         "attackDamage": 1
     },
     "MutationData": {

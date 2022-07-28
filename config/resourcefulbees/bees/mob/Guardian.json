@@ -3,6 +3,21 @@
   "maxTimeInHive": 1200,
   "traits": ["can_swim"],
   "hasHoneycomb": true,
+  "apiaryOutputAmounts": [
+    4,
+    8,
+    16,
+    32,
+    64
+  ],
+  "apiaryOutputTypes": [
+    "COMB",
+    "COMB",
+    "COMB",
+    "COMB",
+    "COMB"
+  ],
+  "auraRange": 20,
   "baseLayerTexture": "mobs/guardian/guardian_bee",
   "ColorData": {
     "honeycombColor": "#8FC0AA",
@@ -13,6 +28,7 @@
       "isPassive": false,
       "removeStingerOnAttack": false,
       "inflictsPoison": true,
+      "baseHealth": 20,
       "attackDamage": 1
   },
   "MutationData": {

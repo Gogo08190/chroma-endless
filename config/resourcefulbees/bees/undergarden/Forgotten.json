@@ -18,6 +18,7 @@
     "COMB",
     "COMB"
   ],
+  "auraRange": 20,
   "traits": ["sedimentary", "can_swim"],
   "baseLayerTexture": "metals/forgotten/forgotten",
   "ColorData": {
@@ -31,6 +32,7 @@
         "isPassive": false,
         "removeStingerOnAttack": false,
         "inflictsPoison": false,
+        "baseHealth": 20,
         "attackDamage": 1
         },
         "CentrifugeData": {
