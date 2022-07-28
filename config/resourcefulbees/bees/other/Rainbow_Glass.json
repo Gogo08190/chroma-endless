@@ -2,6 +2,21 @@
   "flower": "tag:forge:ores/diamond",
   "maxTimeInHive": 1200,
   "hasHoneycomb": true,
+  "apiaryOutputAmounts": [
+    4,
+    8,
+    16,
+    32,
+    64
+  ],
+  "apiaryOutputTypes": [
+    "COMB",
+    "COMB",
+    "COMB",
+    "COMB",
+    "COMB"
+  ],
+  "auraRange": 20,
   "baseLayerTexture": "ores/custom_crystal/custom_bee_primary",
   "lore" : "Glass Prebby",
   "traits" : ["healer"],
