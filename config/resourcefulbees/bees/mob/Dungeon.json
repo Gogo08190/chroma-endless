@@ -9,6 +9,13 @@
     "honeycombColor": "#2A4455",
     "modelType": "MUSHROOM"
   },
+  "CombatData": {
+    "isPassive": false,
+    "removeStingerOnAttack": false,
+    "inflictsPoison": true,
+    "baseHealth": 20,
+    "attackDamage": 4
+  },
   "CentrifugeData": {
     "hasCentrifugeOutput": false
   },

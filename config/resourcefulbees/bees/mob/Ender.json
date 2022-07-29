@@ -25,6 +25,13 @@
     "primaryColor": "#339786",
     "secondaryColor": "#303030"
   },
+  "CombatData": {
+    "isPassive": false,
+    "removeStingerOnAttack": false,
+    "inflictsPoison": true,
+    "baseHealth": 20,
+    "attackDamage": 4
+  },
   "MutationData": {
     "hasMutation": true,
     "mutations" : [

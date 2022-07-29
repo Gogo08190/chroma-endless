@@ -23,6 +23,13 @@
     "isRainbowBee": true,
     "isGlowing": true
   },
+  "CombatData": {
+    "isPassive": false,
+    "removeStingerOnAttack": false,
+    "inflictsPoison": false,
+    "baseHealth": 20,
+    "attackDamage": 4
+  },
   "MutationData": {},
   "CentrifugeData": {
     "hasCentrifugeOutput": true,

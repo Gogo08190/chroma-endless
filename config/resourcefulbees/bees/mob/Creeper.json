@@ -27,6 +27,13 @@
     "glowingPulse": 2,
     "emissiveLayerTexture": "/creeper/creeper_bee_emissive"
   },
+  "CombatData": {
+    "isPassive": false,
+    "removeStingerOnAttack": false,
+    "inflictsPoison": true,
+    "baseHealth": 20,
+    "attackDamage": 4
+  },
   "MutationData": {
     "hasMutation": true,
     "mutations" : [
