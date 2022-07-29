@@ -48,7 +48,7 @@ onEvent('recipes', (event) => {
       // Mob Masher
       {
         output: 'mob_grinding_utils:saw',
-        pattern: [' A ', 'BCB', ' D '],
+        pattern: ['ABA', 'CDC', 'EFE'],
         key: {
             A: 'miniutilities:iron_spikes',
             B: 'minecraft:diamond',
