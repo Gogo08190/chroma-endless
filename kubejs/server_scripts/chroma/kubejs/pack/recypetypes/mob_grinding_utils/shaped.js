@@ -92,7 +92,7 @@ onEvent('recipes', (event) => {
             B: 'mob_grinding_utils:tank'
         },
         id: 'mob_grinding_utils:recipe_jumbotank'
-      },
+      }
     ];
 
     recipes.forEach((recipe) => {
