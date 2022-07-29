@@ -44,8 +44,16 @@
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "minecraft:quartz",
-    "mainOutputCount": 2
+    
+    "mainOutput": "emendatusenigmatica:quartz_chunk",
+    "mainOutputWeight": 0.5,
+    "mainOutputCount": 1,
+
+    "bottleOutput": "resourcefulbees:nether_quartz_honey_bottle",
+    "bottleOutputWeight": 0.01,
+    "bottleOutputCount": 1,
+
+    "mainInputCount": 1
   },
   "SpawnData": {
     "canSpawnInWorld": true,

@@ -38,7 +38,17 @@
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "minecraft:iron_ingot"
+
+    "mainOutput": "emendatusenigmatica:iron_chunk",
+    "mainOutputWeight": 0.5,
+    "mainOutputCount": 1,
+
+    "bottleOutput": "resourcefulbees:iron_honey_bottle",
+    "bottleOutputWeight": 0.02,
+    "bottleOutputCount": 1,
+
+    "mainInputCount": 1
+
   },
   "SpawnData": {
     "canSpawnInWorld": true,
