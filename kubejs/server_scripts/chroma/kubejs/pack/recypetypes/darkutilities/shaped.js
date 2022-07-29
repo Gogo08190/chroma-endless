@@ -1,15 +1,40 @@
 onEvent('recipes', (event) => {
     const recipes = [
-      /*{
-        output: ,
-        pattern: ['AAA', 'BBB', 'CCC'],
+      {
+        output: 'darkutils:charm_sleep',
+        pattern: ['BWB', 'DPY', 'BRB'],
         key: {
-            A: ,
-            B: ,
-            C:
+            B: '#minecraft:beds',
+            D: '#forge:dyes/black',
+            R: '#forge:dyes/red',
+            P: 'minecraft:phantom_membrane',
+            Y: '#forge:dyes/yellow',
+            W: '#forge:dyes/white'
         },
-        id:
-      }*/
+        id: 'darkutils:crafting/charm_sleep'
+      },
+      {
+        output: 'darkutils:charm_experience',
+        pattern: ['SHS', 'EXE', 'SES'],
+        key: {
+            S: '#forge:string',
+            E: 'botanicalmachinery:mana_emerald',
+            X: 'minecraft:experience_bottle',
+            H: 'darkutils:ender_hopper'
+        },
+        id: 'darkutils:crafting/charm_experience'
+      },
+      {
+        output: 'darkutils:ender_hopper',
+        pattern: ['SAS', 'CGC', 'SAS'],
+        key: {
+            S: '#forge:string',
+            A: 'minecraft:golden_apple',
+            C: 'minecraft:golden_carrot',
+            G: '#botania:runes/gluttony'
+        },
+        id: 'darkutils:crafting/charm_gluttony'
+      }
     ];
 
     recipes.forEach((recipe) => {
