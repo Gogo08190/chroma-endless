@@ -5,7 +5,7 @@ onEvent('recipes', (event) => {
         output: 'mob_grinding_utils:tank',
         pattern: ['ABA', 'CCC', 'ABA'],
         key: {
-            A: 'emendatusenigmatica:iron_plate',
+            A: '#forge:plates/iron',
             B: 'create:fluid_tank',
             C: '#forge:glass'
         },
@@ -28,8 +28,8 @@ onEvent('recipes', (event) => {
         output: 'mob_grinding_utils:solid_xp_mould_blank',
         pattern: ['AAA', 'ABA', 'AAA'],
         key: {
-            A: 'emendatusenigmatica:brass_plate',
-            B: 'industrialforegoing:essence_bucket'
+            A: '#forge:plates/brass',
+            B: ['industrialforegoing:essence_bucket', 'mob_grinding_utils:fluid_xp_bucket', 'pneumaticcraft:memory_essence_bucket']
         },
         id: 'mob_grinding_utils:recipe_mould_blank'
       },
@@ -38,8 +38,8 @@ onEvent('recipes', (event) => {
         output: 'mob_grinding_utils:fan',
         pattern: [' A ', 'BCB', ' D '],
         key: {
-            A: 'create:andesite_alloy',
-            B: 'emendatusenigmatica:iron_plate',
+            A: '#forge:ingots/andesite_alloy',
+            B: '#forge:plates/iron',
             C: 'create:electron_tube',
             D: 'create:propeller'
         },
@@ -51,11 +51,11 @@ onEvent('recipes', (event) => {
         pattern: ['ABA', 'CDC', 'EFE'],
         key: {
             A: 'miniutilities:iron_spikes',
-            B: 'minecraft:diamond',
+            B: '#forge:gems/diamond',
             C: 'create:crushing_wheel',
             D: 'create:electron_tube',
-            E: 'emendatusenigmatica:diamond_gear',
-            F: 'minecraft:iron_block'
+            E: '#forge:gears/diamond',
+            F: '#forge:storage_blocks/iron'
         },
         id: 'mob_grinding_utils:recipe_saw'
       },
@@ -76,10 +76,10 @@ onEvent('recipes', (event) => {
         output: 'mob_grinding_utils:ender_inhibitor_on',
         pattern: [' A ', 'BCB', ' D '],
         key: {
-            A: 'minecraft:redstone',
-            B: 'create:shadow_steel',
+            A: '#forge:dusts/redstone',
+            B: '#forge:ingots/shadow_steel',
             C: 'minecraft:ender_eye',
-            D: 'minecraft:glowstone_dust'
+            D: '#forge:dusts/glowstone'
         },
         id: 'mob_grinding_utils:recipe_ender_inhibitor'
       },
@@ -88,7 +88,7 @@ onEvent('recipes', (event) => {
         output: 'mob_grinding_utils:jumbo_tank',
         pattern: ['ABA', 'B B', 'ABA'],
         key: {
-            A: 'emendatusenigmatica:steel_plate',
+            A: '#forge:plates/steel',
             B: 'mob_grinding_utils:tank'
         },
         id: 'mob_grinding_utils:recipe_jumbotank'
