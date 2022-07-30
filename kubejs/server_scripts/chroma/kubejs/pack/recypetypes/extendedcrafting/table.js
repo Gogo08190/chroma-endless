@@ -298,7 +298,7 @@ onEvent("recipes", (event) => {
         "item": 'mekanism:hdpe_sheet'
       },
       "K": {
-        "item" : Item.of('ironjetpacks:inanite_jetpack').weakNBT()
+        "item" : Item.of('ironjetpacks:inanite_jetpack').weakNBT().toJson()
       },
       "L": {
         "item" : 'ironjetpacks:stellar_capacitor'
@@ -307,7 +307,7 @@ onEvent("recipes", (event) => {
         "item": 'ironjetpacks:stellar_thruster'
       }
     },
-    "result": 'ironjetpacks:stellar_jetpack'
+    "result": { item : 'ironjetpacks:stellar_jetpack' }
   }
 ).id(`${id_prefix}stellar_jetpack`)
 
