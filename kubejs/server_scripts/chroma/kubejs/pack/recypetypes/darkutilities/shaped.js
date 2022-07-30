@@ -44,7 +44,7 @@ onEvent('recipes', (event) => {
             C: 'create:chute'
         },
         id: 'darkutils:crafting/ender_hopper'
-      },
+      }
     ];
 
     recipes.forEach((recipe) => {
