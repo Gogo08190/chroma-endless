@@ -30,6 +30,13 @@
     "glowColor": "#E400FF",
     "modelType": "DRAGON"
   },
+  "CombatData": {
+    "isPassive": false,
+    "removeStingerOnAttack": false,
+    "inflictsPoison": true,
+    "baseHealth": 20,
+    "attackDamage": 4
+  },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainInputCount": 1,

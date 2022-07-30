@@ -23,6 +23,13 @@
     "isBeeColored": false,
     "honeycombColor": "#2F4E32"
   },
+  "CombatData": {
+    "isPassive": false,
+    "removeStingerOnAttack": false,
+    "inflictsPoison": true,
+    "baseHealth": 20,
+    "attackDamage": 4
+  },
   "MutationData": {
     "hasMutation": true,
     "mutations" : [

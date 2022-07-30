@@ -2,7 +2,9 @@
 
 onEvent('recipes', (event) => {
     const idRemovals = [
-      'thermal:furnace_239384839'
+      'thermal:furnace_239384839',
+      'thermal:rubber_from_vine',
+      'thermal:rubber_from_dandelion'
     ];
 
     const outputRemovals = [

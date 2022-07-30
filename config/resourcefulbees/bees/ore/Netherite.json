@@ -38,8 +38,20 @@
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "minecraft:netherite_ingot",
-    "mainOutputWeight": 0.05
+
+    "mainOutput": "minecraft:netherite_scrap",
+    "mainOutputWeight": 0.5,
+    "mainOutputCount": 1,
+
+    "secondaryOutput": "emendatusenigmatica:gold_chunk",
+    "secondaryOutputWeight": 0.1,
+    "secondaryOutputCount": 1,
+
+    "bottleOutput": "resourcefulbees:netherite_honey_bottle",
+    "bottleOutputWeight": 0.01,
+    "bottleOutputCount": 1,
+
+    "mainInputCount": 1
   },
   "SpawnData": {
     "canSpawnInWorld": true,

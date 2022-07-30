@@ -38,8 +38,16 @@
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "minecraft:coal",
-    "mainOutputCount": 16
+
+    "mainOutput": "emendatusenigmatica:coal_chunk",
+    "mainOutputWeight": 0.5,
+    "mainOutputCount": 1,
+
+    "bottleOutput": "resourcefulbees:coal_honey_bottle",
+    "bottleOutputWeight": 0.01,
+    "bottleOutputCount": 1,
+
+    "mainInputCount": 1
   },
   "SpawnData": {
     "canSpawnInWorld": true,

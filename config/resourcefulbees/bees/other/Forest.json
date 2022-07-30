@@ -29,7 +29,7 @@
     "CombatData": {
         "isPassive": false,
         "removeStingerOnAttack": false,
-        "inflictsPoison": true,
+        "inflictsPoison": false,
         "baseHealth": 20,
         "attackDamage": 1
     },

@@ -30,6 +30,13 @@
     "isRainbowBee": true,
     "isGlowing": true
   },
+  "CombatData": {
+    "isPassive": false,
+    "removeStingerOnAttack": false,
+    "inflictsPoison": true,
+    "baseHealth": 20,
+    "attackDamage": 4
+  },
   "MutationData": {
     "hasMutation": true,
     "mutations" : [
@@ -66,7 +73,7 @@
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "minecraft:diamond",
+    "mainOutput": "quark:rainbow_rune",
     "mainOutputCount": 1,
     "bottleOutput": "resourcefulbees:rainbow_honey_bottle",
     "bottleOutputWeight": 1
