@@ -248,6 +248,31 @@ onEvent('recipes', (event) => {
             ],
             result: 'resourcefulbees:t2_hive_upgrade',
             id: 'resourcefulbees:t2_hive_upgrade'
+        },
+        {
+            ritual_type: 'occultism:craft_with_spirit_name',
+            activation_item: Item.of('ironjetpacks:mechanical_jetpack').weakNBT(),
+            pentacle_id: 'occultism:craft_afrit',
+            duration: 120,
+            ritual_dummy: 'ironjetpacks:otherworldian_jetpack',
+            ingredients: [
+              'ironjetpacks:otherworldian_capacitor',
+              'ironjetpacks:otherworldian_thruster',
+              'ironjetpacks:basic_coil',
+              'ironjetpacks:otherworldian_thruster',
+
+              'occultism:spirit_attuned_crystal',
+              'occultism:afrit_essence',
+              'occultism:otherstone',
+              Item.of('occultism:book_of_binding_bound_marid').weakNBT(),
+
+              'occultism:spirit_attuned_crystal',
+              'occultism:afrit_essence',
+              'occultism:otherstone',
+              Item.of('occultism:book_of_binding_bound_afrit').weakNBT(),
+            ],
+            result: 'ironjetpacks:otherworldian_jetpack',
+            id: `${id_prefix}otherworldian_jetpack`
         }
     ];
 

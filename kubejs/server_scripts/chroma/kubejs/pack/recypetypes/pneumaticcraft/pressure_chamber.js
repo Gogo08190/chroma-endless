@@ -253,6 +253,22 @@ onEvent('recipes', (event) => {
           pressure: 3.0,
           results: [{item: 'powah:aerial_pearl', count: 1}],
           id: 'powah:crafting/aerial_pearl'
+        },
+        {
+          inputs:[
+            { item: 'ironjetpacks:terrasteel_jetpack', count :1},
+            { item: 'elementalcraft:pristine_fire_gem', count: 1},
+            { item: 'undergarden:regalium_block', count: 3},
+            { item: 'ironjetpacks:regalium_thruster', count: 2},
+            { item: 'ironjetpacks:regalium_capacitor', count: 1},
+            { item: 'fluxnetworks:flux_block', count: 2},
+            { item: 'elementalcraft:fireite_block', count: 2},
+            { item: 'ironjetpacks:advanced_coil', count: 2},
+            { item: 'undergarden:gloomgourd_pie', count: 1}
+          ],
+          pressure: 4.0,
+          results: [{item : "ironjetpacks:regalium_jetpack"}],
+          id: `${id_prefix}regalium_jetpack`
         }
     ];
 

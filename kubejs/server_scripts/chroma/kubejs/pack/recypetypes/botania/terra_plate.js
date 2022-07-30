@@ -43,6 +43,23 @@ onEvent('recipes', (event) => {
           mana: 2000000,
           id: `${id_prefix}terrasteel_bee_jar`
       },
+      {
+          inputs: [
+              Item.of('ironjetpacks:otherworldian_jetpack').weakNBT().toJson(),
+              { item: 'ironjetpacks:terrasteel_thruster' },
+              { item: 'ironjetpacks:terrasteel_thruster' },
+              { item: 'ars_nouveau:sylph_shards' },
+              { item: 'ironjetpacks:terrasteel_capacitor' },
+              { item: 'ironjetpacks:advanced_coil' },
+              { item: 'ironjetpacks:advanced_coil' },
+              Item.of('tconstruct:tough_handle', '{Material:"materialis:terrasteel"}'),
+              Item.of('tconstruct:tough_handle', '{Material:"materialis:terrasteel"}'),
+              { item: 'elementalcraft:pristine_earth_gem' }
+          ],
+          output: Item.of('ironjetpacks:terrasteel_jetpack').toJson(),
+          mana: 2500000,
+          id: `${id_prefix}terrasteel_jetpack`
+      }
 
     ];
 

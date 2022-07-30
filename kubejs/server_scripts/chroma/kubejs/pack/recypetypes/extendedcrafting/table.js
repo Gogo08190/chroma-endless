@@ -250,6 +250,65 @@ onEvent("recipes", (event) => {
       "item": "resourcefulbees:t4_apiary"
     }
   }
+
   ).id('resourcefulbees:t4_apiary')
+  event.custom(
+      {
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      " A     A ",
+      "ABA   ABA",
+      "ACA   ACA",
+      "ADAEFGADA",
+      "AHAEFGAHA",
+      "AIAJKJAIA",
+      "ALAEFGALA",
+      "AMAEFGAMA",
+      " A     A "
+    ],
+    "key": {
+      "A": {
+        "item": 'enderioalloys:item_alloy_ingot_stellar_alloy'
+      },
+      "B": {
+        "item": 'extendedcrafting:crystaltine_ingot'
+      },
+      "C": {
+        "item": 'ironjetpacks:elite_coil'
+      },
+      "D": {
+        "item": 'enderioalloys:item_material_gear_vibrant'
+      },
+      "E": {
+        "tag": 'enderioalloys:item_alloy_ingot_melodic_alloy'
+      },
+      "F": {
+        "item": 'enderioalloys:item_alloy_ingot_dark_steel'
+      },
+      "G": {
+        "item": 'enderioalloys:item_alloy_ingot_end_steel'
+      },
+      "H": {
+        "item": 'enderioalloys:item_material_skull_ender_resonator'
+      },
+      "I": {
+        "item": 'mekanism:pellet_polonium'
+      },
+      "J": {
+        "item": 'mekanism:hdpe_sheet'
+      },
+      "K": {
+        "item" : Item.of('ironjetpacks:inanite_jetpack').weakNBT().toJson()
+      },
+      "L": {
+        "item" : 'ironjetpacks:stellar_capacitor'
+      },
+      "M": {
+        "item": 'ironjetpacks:stellar_thruster'
+      }
+    },
+    "result": { item : 'ironjetpacks:stellar_jetpack' }
+  }
+).id(`${id_prefix}stellar_jetpack`)
 
 });

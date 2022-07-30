@@ -1,0 +1,23 @@
+{
+  "duration": {
+    "raw:int": 200
+  },
+  "top": {
+    "raw:item": "ironjetpacks:stellar_jetpack", "nbt": "{Throttle:1.0d}", "match_nbt": false
+  },
+  "bottom": {
+    "raw:item": "ironjetpacks:ultimate_coil"
+  },
+  "left": {
+    "raw:item": "ironjetpacks:nitro_thruster"
+  },
+  "right": {
+    "raw:item": "ironjetpacks:nitro_capacitor"
+  },
+  "center": {
+    "raw:item": "powah:reactor_nitro"
+  },
+  "output": {
+    "raw:item": "ironjetpacks:nitro_jetpack", "nbt": "{Throttle:1.0d}"
+  }
+}

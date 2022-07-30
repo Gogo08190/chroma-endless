@@ -824,6 +824,26 @@ onEvent('recipes', (event) => {
             outputFluid: '',
             outputFluidAmount: 0,
             id: 'mekanism:factory/elite/sawing'
+        },
+        // Inanite Jetpack
+        {
+            inputs: [
+                'ironjetpacks:elite_coil',
+                'ironjetpacks:inanite_capacitor',
+                'ironjetpacks:elite_coil',
+                'bigreactors:reprocessorpowerport',
+                'bigreactors:inanite_block',
+                'ironjetpacks:inanite_thruster',
+                Item.of('ironjetpacks:regalium_jetpack').weakNBT().toJson(),
+                'ironjetpacks:inanite_thruster'
+            ],
+            inputFluid: 'industrialforegoing:ether_gas', // optionnel
+            inputFluidAmount: 8000, // 0 si pas de fluid
+            processingTime: 500,
+            outputItem: Item.of('ironjetpacks:inanite_jetpack').toJson(),
+            outputFluid: '', // optionnel
+            outputFluidAmount: 0, // 0 si pas de fluid
+            id: `${id_prefix}inanite_jetpack`
         }
     ];
 

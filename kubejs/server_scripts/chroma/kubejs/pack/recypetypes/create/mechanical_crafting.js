@@ -1,4 +1,5 @@
 onEvent('recipes', (event) => {
+    const id_prefix = 'chroma:pack/create/mechanical_crafting/'
     const recipes = [
         {
             output: 'occultism:dictionary_of_spirits',
@@ -199,7 +200,26 @@ onEvent('recipes', (event) => {
                 B: 'create:brass_casing'
             },
             id: 'create:mechanical_crafting/flywheel'
+        },
+        //Mechanical Jetpack
+        {
+            output: 'ironjetpacks:mechanical_jetpack',
+            pattern: [' F F ', 'GSGSG', 'SCSCS','BHLHB','T U T','E   E'],
+            key: {
+                F:'create:flywheel',
+                G:'create:gearbox',
+                S:'create:shaft',
+                C:'ironjetpacks:basic_coil',
+                B:'create:blaze_burner',
+                H:'create:cuckoo_clock',
+                L:'ironjetpacks:strap',
+                T:'ironjetpacks:mechanical_thruster',
+                U:'ironjetpacks:mechanical_capacitor',
+                E:'create:encased_fan'
+            },
+            id: `${id_prefix}mechanical_jetpack`
         }
+
     ];
 
     recipes.forEach((recipe) => {
