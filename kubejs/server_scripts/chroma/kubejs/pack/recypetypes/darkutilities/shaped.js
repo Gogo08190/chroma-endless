@@ -25,7 +25,7 @@ onEvent('recipes', (event) => {
         id: 'darkutils:crafting/charm_experience'
       },
       {
-        output: 'darkutils:ender_hopper',
+        output: 'darkutils:charm_gluttony',
         pattern: ['SAS', 'CGC', 'SAS'],
         key: {
             S: '#forge:string',
