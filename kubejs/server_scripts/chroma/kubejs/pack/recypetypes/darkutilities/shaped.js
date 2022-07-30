@@ -34,7 +34,17 @@ onEvent('recipes', (event) => {
             G: '#botania:runes/gluttony'
         },
         id: 'darkutils:crafting/charm_gluttony'
-      }
+      },
+      {
+        output: 'darkutils:ender_hopper',
+        pattern: ['OPO', 'OCO', ' O '],
+        key: {
+            O: '#forge:obsidian',
+            P: 'minecraft:ender_eye',
+            C: 'create:chute'
+        },
+        id: 'darkutils:crafting/ender_hopper'
+      },
     ];
 
     recipes.forEach((recipe) => {
