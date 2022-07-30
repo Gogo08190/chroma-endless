@@ -2,11 +2,26 @@
   "flower": "tag:forge:storage_blocks/lapis",
       "lore": "Tier 2 :\nDeep down, Coal just wants to be blue. Wash it with\nWater and you'll find Lapis inside.",
       "loreColor": "#00AAAA",
-      "maxTimeInHive": 4800,
+      "maxTimeInHive": 1200,
       "sizeModifier": 1,
       "hasHoneycomb": true,
+      "apiaryOutputAmounts": [
+        4,
+        8,
+        16,
+        32,
+        64
+      ],
+      "apiaryOutputTypes": [
+        "COMB",
+        "COMB",
+        "COMB",
+        "COMB",
+        "COMB"
+      ],
+      "auraRange": 20,
       "traits": ["sedimentary", "can_swim"],
-      "baseLayerTexture": "ores/lapis/lapis_bee",
+      "baseLayerTexture": "ores/lapis/lapis",
       "ColorData": {
           "honeycombColor": "#345ec3",
           "isBeeColored": false,
@@ -19,6 +34,7 @@
           "isPassive": false,
           "removeStingerOnAttack": false,
           "inflictsPoison": true,
+          "baseHealth": 20,
           "attackDamage": 1
       },
       "MutationData": {

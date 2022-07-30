@@ -1,0 +1,17 @@
+{
+  "name" : "bitumen",
+  "hunger": 4,
+  "honeyColor": "#35424f",
+  "saturation": 3,
+  "isRainbow": false,
+  "honeyBlockRecipe": true,
+  "generateHoneyBlock": true,
+      "effects": [
+    {
+      "effectID": "minecraft:poison",
+      "duration": 1000,
+      "strength": 2,
+      "chance": 1
+      }
+    ]
+  }

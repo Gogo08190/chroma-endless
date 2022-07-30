@@ -1,13 +1,33 @@
 {
   "flower": "tag:forge:storage_blocks/quartz",
+  "lore": "mettre du lor",
+  "loreColor": "#00AAA",
   "maxTimeInHive": 1000,
   "hasHoneycomb": true,
+  "apiaryOutputAmounts": [
+    4,
+    8,
+    16,
+    32,
+    64
+  ],
+  "apiaryOutputTypes": [
+    "COMB",
+    "COMB",
+    "COMB",
+    "COMB",
+    "COMB"
+  ],
+  "auraRange": 20,
   "traits": ["nether"],
+  "baseLayerTexture": "ores/quartz/quartz",
   "ColorData": {
-    "isBeeColored": true,
-    "honeycombColor": "#D4CABA",
-    "primaryColor": "#D4CABA",
-    "secondaryColor": "#303030"
+    "honeycombColor": "#d4caba",
+    "isBeeColored": false,
+    "isRainbowBee": false,
+    "isGlowing": false,
+    "isEnchanted": false,
+    "modelType": "ORE"
   },
   "MutationData": {
     "hasMutation": true,
@@ -24,8 +44,16 @@
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "minecraft:quartz",
-    "mainOutputCount": 2
+    
+    "mainOutput": "emendatusenigmatica:quartz_chunk",
+    "mainOutputWeight": 0.5,
+    "mainOutputCount": 1,
+
+    "bottleOutput": "resourcefulbees:nether_quartz_honey_bottle",
+    "bottleOutputWeight": 0.01,
+    "bottleOutputCount": 1,
+
+    "mainInputCount": 1
   },
   "SpawnData": {
     "canSpawnInWorld": true,

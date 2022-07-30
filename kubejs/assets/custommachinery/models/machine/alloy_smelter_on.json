@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "custommachinery:block/alloy_smelter_top",
+    "front": "custommachinery:block/alloy_smelter_front_on",
+    "side": "custommachinery:block/alloy_smelter_side"
+  }
+}

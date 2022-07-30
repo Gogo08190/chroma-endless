@@ -1,0 +1,17 @@
+{
+  "name" : "refined_obsidian",
+  "hunger": 4,
+  "honeyColor": "#a83cff",
+  "saturation": 3,
+  "isRainbow": false,
+  "honeyBlockRecipe": true,
+  "generateHoneyBlock": true,
+      "effects": [
+    {
+      "effectID": "minecraft:unluck",
+      "duration": 2000,
+      "strength": 1,
+      "chance": 1
+      }
+    ]
+  }

@@ -5,14 +5,21 @@ onEvent('recipes', (event) => {
           outputs: [
             {
               perTick: true,
-              type: 'masterfulmachinery:create_rotation', data: { speed: 1 }
+              type: 'masterfulmachinery:create_rotation', data: { speed: 10 }
+            },
+            { type: 'masterfulmachinery:items', data: { item: 'kubejs:chroma_matter', count: 1 } },
+            {
+              perTick: true,
+              type: 'masterfulmachinery:energy', data: { amount: 5000 }
             }
           ],
           inputs: [
-              { type: 'masterfulmachinery:items', data: { item: 'envirocore:litherite_boule', count: 1 } },
+              {
+                consumeInstantly: true,
+                type: 'masterfulmachinery:items', data: { item: 'envirocore:litherite_boule', count: 1 } },
           ],
           ticks: 512,
-          id: 'chroma:test'
+          id: `${id_prefix}low_energy_generation`
       }
     ];
 

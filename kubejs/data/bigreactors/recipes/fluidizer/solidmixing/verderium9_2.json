@@ -1,0 +1,19 @@
+{
+  "type": "bigreactors:fluidizersolidmixing",
+  "ingredient1": {
+    "ingredient": {
+      "item": "bigreactors:blutonium_block"
+    },
+    "count": 1
+  },
+  "ingredient2": {
+    "ingredient": {
+      "tag": "forge:storage_blocks/uranium"
+    },
+    "count": 2
+  },
+  "result": {
+    "fluid": "bigreactors:verderium",
+    "count": 18000
+  }
+}

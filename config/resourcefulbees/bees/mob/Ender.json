@@ -1,13 +1,36 @@
 {
   "flower": "minecraft:chorus_flower",
   "hasHoneycomb": true,
+  "apiaryOutputAmounts": [
+    4,
+    8,
+    16,
+    32,
+    64
+  ],
+  "apiaryOutputTypes": [
+    "COMB",
+    "COMB",
+    "COMB",
+    "COMB",
+    "COMB"
+  ],
+  "auraRange": 20,
   "traits": ["ender"],
   "maxTimeInHive": 1800,
+  "baseLayerTexture": "mobs/ender/ender",
   "ColorData": {
     "isBeeColored": true,
     "honeycombColor": "#339786",
     "primaryColor": "#339786",
     "secondaryColor": "#303030"
+  },
+  "CombatData": {
+    "isPassive": false,
+    "removeStingerOnAttack": false,
+    "inflictsPoison": true,
+    "baseHealth": 20,
+    "attackDamage": 4
   },
   "MutationData": {
     "hasMutation": true,

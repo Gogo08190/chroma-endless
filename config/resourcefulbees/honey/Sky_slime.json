@@ -1,0 +1,17 @@
+{
+  "name" : "sky_slime",
+  "hunger": 4,
+  "honeyColor": "#b181eb",
+  "saturation": 3,
+  "isRainbow": false,
+  "honeyBlockRecipe": true,
+  "generateHoneyBlock": true,
+      "effects": [
+    {
+      "effectID": "minecraft:unluck",
+      "duration": 2000,
+      "strength": 1,
+      "chance": 1
+      }
+    ]
+  }

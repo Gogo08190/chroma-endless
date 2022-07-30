@@ -22,7 +22,27 @@ onEvent('recipes', (event) => {
           output: { item: 'minecraft:stone' },
           mana: 300000,
           id: `${id_prefix}stone`
-      }
+      },
+
+
+      {
+          inputs: [
+              Item.of('resourcefulbees:bee_jar', {
+                  Entity: 'resourcefulbees:manasteel_bee'
+              })
+                  .weakNBT()
+                  .toJson(),
+              { item: 'botania:mana_pearl' },
+              { item: 'botania:mana_diamond' },
+              { item: 'botania:terrasteel_block' },
+              { item: 'botania:terrasteel_block' }
+          ],
+          output: Item.of('resourcefulbees:bee_jar', {
+              Entity: 'resourcefulbees:terrasteel_bee'
+          }).toJson(),
+          mana: 2000000,
+          id: `${id_prefix}terrasteel_bee_jar`
+      },
 
     ];
 

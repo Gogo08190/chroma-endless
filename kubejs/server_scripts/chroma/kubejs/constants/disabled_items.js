@@ -56,6 +56,8 @@ const disabledItems = [
 
     'pitg:green_dye',
 
+    'createdeco:netherite_nugget',
+
     'pneumaticcraft:wheat_flour',
 
   	'projectvibrantjourneys:clam',
@@ -96,5 +98,16 @@ const disabledItems = [
     'mekanismtools:osmium_paxel',
     'mekanismtools:steel_paxel',
 
-    'emendatusenigmatica:enigmatic_hammer'
+    'emendatusenigmatica:enigmatic_hammer',
+
+    'mob_grinding_utils:mob_swab',
+    'mob_grinding_utils:dreadful_dirt',
+    'mob_grinding_utils:delightful_dirt',
+    'mob_grinding_utils:gm_chicken_feed',
+    'mob_grinding_utils:gm_chicken_feed_cursed',
+    'mob_grinding_utils:nutritious_chicken_feed',
+    'mob_grinding_utils:spikes',
+    'mob_grinding_utils:entity_spawner',
+    'mob_grinding_utils:rotten_egg',
+    'mob_grinding_utils:golden_egg'
 ];

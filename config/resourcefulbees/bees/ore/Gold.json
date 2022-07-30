@@ -1,8 +1,23 @@
 {
   "flower": "tag:forge:storage_blocks/gold",
   "hasHoneycomb": true,
+  "apiaryOutputAmounts": [
+    4,
+    8,
+    16,
+    32,
+    64
+  ],
+  "apiaryOutputTypes": [
+    "COMB",
+    "COMB",
+    "COMB",
+    "COMB",
+    "COMB"
+  ],
+  "auraRange": 20,
   "maxTimeInHive": 800,
-  "baseLayerTexture": "ores/gold/gold_bee",
+  "baseLayerTexture": "ores/gold/gold",
   "ColorData": {
     "isBeeColored": false,
     "honeycombColor": "#FFDC00",
@@ -23,7 +38,16 @@
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "minecraft:gold_ingot"
+    
+    "mainOutput": "emendatusenigmatica:gold_chunk",
+    "mainOutputWeight": 0.5,
+    "mainOutputCount": 1,
+
+    "bottleOutput": "resourcefulbees:gold_honey_bottle",
+    "bottleOutputWeight": 0.01,
+    "bottleOutputCount": 1,
+
+    "mainInputCount": 1
   },
   "SpawnData": {
     "canSpawnInWorld": true,

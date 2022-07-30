@@ -23,6 +23,12 @@ onEvent('recipes', (event) => {
             output: '2x tconstruct:nether_grout',
             inputs: ['minecraft:magma_cream', '#forge:soul_sand', 'tconstruct:grout'],
             id: 'tconstruct:smeltery/scorched/nether_grout'
+        },
+        //flint and bronze
+        {
+            output: 'tconstruct:flint_and_bronze',
+            inputs: ['#forge:plates/bronze', 'minecraft:flint'],
+            id: 'tconstruct:tools/building/flint_and_bronze'
         }
     ];
 

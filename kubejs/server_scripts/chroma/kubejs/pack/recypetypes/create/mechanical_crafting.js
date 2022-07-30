@@ -152,6 +152,53 @@ onEvent('recipes', (event) => {
                 P: '#forge:gems/ender'
             },
             id: 'betterendforge:ender_eye_from_amber_gem'
+        },
+        {
+            output: 'powah:energizing_orb',
+            pattern: ['GGGGG', 'G A G', 'G C G', 'FEUEF', 'RRRRR'],
+            key: {
+                R: 'powah:dielectric_rod_horizontal',
+                G: 'botania:bifrost_perm',
+                E: 'kubejs:advanced_extreme_circuit_board',
+                U: '#forge:circuits/ultimate',
+                A: 'botania:corporea_crystal_cube',
+                C: 'powah:dielectric_casing',
+                F: 'powah:dielectric_rod'
+            },
+            id: 'powah:crafting/energizing_orb'
+        },
+        //beacon
+        {
+            output: 'minecraft:beacon',
+            pattern: ['AAAAA', 'ABBBA', 'ABCBA', 'ADDDA', 'AAAAA'],
+            key: {
+                A: '#forge:glass',
+                B: 'minecraft:sea_lantern',
+                C: 'minecraft:nether_star',
+                D: '#forge:obsidian'
+            },
+            id: 'minecraft:beacon'
+        },
+        //Propeller
+        {
+            output: 'create:propeller',
+            pattern: ['P   P', ' P P ', '  A  ', ' P P ', 'P   P'],
+            key: {
+                A: '#forge:ingots/andesite_alloy',
+                P: '#forge:plates/iron'
+            },
+            id: 'create:crafting/kinetics/propeller'
+        },
+        //Flywheel
+        {
+            output: 'create:flywheel',
+            pattern: [' PPP', 'BPCP', ' PPP'],
+            key: {
+                C: 'create:large_cogwheel',
+                P: '#forge:plates/brass',
+                B: 'create:brass_casing'
+            },
+            id: 'create:mechanical_crafting/flywheel'
         }
     ];
 

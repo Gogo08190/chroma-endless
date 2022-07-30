@@ -1,0 +1,57 @@
+{
+    "flower": "elementalcraft:swift_alloy_block",
+    "lore": "mettre du lor",
+    "loreColor": "#ff66cc",
+    "sizeModifier": 1,
+    "maxTimeInHive": 6000,
+    "hasHoneycomb": true,
+    "apiaryOutputAmounts": [
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "apiaryOutputTypes": [
+      "COMB",
+      "COMB",
+      "COMB",
+      "COMB",
+      "COMB"
+    ],
+    "auraRange": 20,
+    "traits": ["sedimentary", "can_swim"],
+    "baseLayerTexture": "elementalcraft/swift_alloy/swift_alloy",
+    "ColorData": {
+    "honeycombColor": "#f1c57c"
+    },
+    "CombatData": {
+      "isPassive": false,
+      "removeStingerOnAttack": false,
+      "inflictsPoison": true,
+      "baseHealth": 20,
+      "attackDamage": 4
+    },
+    "CentrifugeData": {
+      "hasCentrifugeOutput": true,
+
+      "mainOutput": "elementalcraft:swift_alloy_nugget",
+      "mainOutputWeight": 0.75,
+      "mainOutputCount": 1,
+
+      "bottleOutput": "resourcefulbees:swift_alloy_honey_bottle",
+      "bottleOutputWeight": 0.01,
+      "bottleOutputCount": 1,
+
+      "mainInputCount": 1
+    },
+    "SpawnData": {
+      "canSpawnInWorld": false
+    },
+    "BreedData": {
+      "isBreedable": false
+    },
+    "TraitData": {
+      "hasTraits": true
+    }
+  }

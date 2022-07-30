@@ -144,6 +144,54 @@ onEvent('recipes', (event) => {
         D: 'refinedpipes:elite_energy_pipe'
       },
       id: 'refinedpipes:ultimate_energy_pipe'
+    },
+    {
+      output: 'refinedpipes:basic_extractor_attachment',
+      pattern: ['AAA', 'ABA'],
+      key: {
+        A: '#forge:plates/steel',
+        B: 'create:mechanical_piston'
+      },
+      id: 'refinedpipes:basic_extractor_attachment'
+    },
+    {
+      output: 'refinedpipes:improved_extractor_attachment',
+      pattern: ['AAA', 'ABA'],
+      key: {
+        A: '#forge:plates/gold',
+        B: 'refinedpipes:basic_extractor_attachment'
+      },
+      id: 'refinedpipes:improved_extractor_attachment'
+    },
+    {
+      output: 'refinedpipes:advanced_extractor_attachment',
+      pattern: ['ABA', 'BCB'],
+      key: {
+        A: 'botania:quartz_mana',
+        B: '#forge:plates/diamond',
+        C: 'refinedpipes:improved_extractor_attachment'
+      },
+      id: 'refinedpipes:advanced_extractor_attachment'
+    },
+    {
+      output: 'refinedpipes:elite_extractor_attachment',
+      pattern: ['ABA', 'BCB'],
+      key: {
+        A: 'botania:blaze_block',
+        B: '#forge:plates/emerald',
+        C: 'refinedpipes:advanced_extractor_attachment'
+      },
+      id: 'refinedpipes:elite_extractor_attachment'
+    },
+    {
+      output: 'refinedpipes:ultimate_extractor_attachment',
+      pattern: ['ABA', 'BCB'],
+      key: {
+        A: 'quark:chorus_fruit_block',
+        B: '#forge:ingots/netherite',
+        C: 'refinedpipes:elite_extractor_attachment'
+      },
+      id: 'refinedpipes:ultimate_extractor_attachment'
     }
   ];
 

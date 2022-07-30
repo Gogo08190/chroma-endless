@@ -2,7 +2,7 @@ onEvent('recipes', (event) => {
 
     const recipes = [
     {
-        recipeSize: 5,
+        recipeSize: 7,
         layers: [
           {
             type: 'compactcrafting:filled',
@@ -121,7 +121,7 @@ onEvent('recipes', (event) => {
         }]
       },
     {
-        recipeSize: 5,
+        recipeSize: 7,
         layers: [
           {
             type: 'compactcrafting:filled',
@@ -230,7 +230,109 @@ onEvent('recipes', (event) => {
           id: 'masterfulmachinery:assemblylaser_controller',
           Count: 1
         }]
-      }
+      },
+
+    {
+        recipeSize: 5,
+        layers: [
+          {
+            type: 'compactcrafting:filled',
+            component: 'C'
+          },
+          {
+            type: 'compactcrafting:mixed',
+            pattern: [
+              ["C", "C", "C", "C", "C"],
+              ["C", "W", "W", "W", "C"],
+              ["C", "W", "W", "W", "C"],
+              ["C", "W", "W", "W", "C"],
+              ["C", "G", "G", "G", "C"],
+            ]
+          },
+          {
+            type: 'compactcrafting:mixed',
+            pattern: [
+              ["C", "C", "C", "C", "C"],
+              ["C", "W", "W", "W", "C"],
+              ["C", "W", "F", "W", "C"],
+              ["C", "W", "W", "W", "C"],
+              ["C", "G", "G", "G", "C"],
+            ]
+          },
+          {
+            type: 'compactcrafting:mixed',
+            pattern: [
+              ["C", "C", "C", "C", "C"],
+              ["C", "W", "W", "W", "C"],
+              ["C", "W", "W", "W", "C"],
+              ["C", "W", "W", "W", "C"],
+              ["C", "G", "G", "G", "C"],
+            ]
+          },
+          {
+            type: 'compactcrafting:filled',
+            component: 'C'
+          }
+        ],
+        catalyst: {
+          id: 'ars_elemental:necrotic_focus',
+          Count: 1
+        },
+        components: {
+          'C': {
+            type: "compactcrafting:block",
+            block: 'immersiveengineering:sheetmetal_steel'
+          },
+          'G': {
+            type: "compactcrafting:block",
+            block: 'thermal:enderium_glass'
+          },
+          'W': {
+            type: "compactcrafting:block",
+            block: 'compactmachines:wall'
+          },
+          'F': {
+            type: "compactcrafting:block",
+            block: 'thermal:machine_frame'
+          }
+        },
+        outputs: [{
+          id: 'masterfulmachinery:compactfactory_controller',
+          Count: 1
+        }]
+      },
+
+      {
+        recipeSize: 3,
+        layers: [
+          {
+            type: 'compactcrafting:mixed',
+            pattern: [
+              ["R", "R", "R"],
+              ["R", "S", "R"],
+              ["R", "R", "R",],
+            ]
+          }
+        ],
+        catalyst: {
+          id: 'extendedcrafting:redstone_ingot',
+          Count: 1
+        },
+        components: {
+          'R': {
+            type: "compactcrafting:block",
+            block: 'minecraft:redstone_wire'
+          },
+          'S': {
+            type: "compactcrafting:block",
+            block: 'pneumaticcraft:compressed_iron_block'
+          }
+        },
+        outputs: [{
+          id: 'compactmachines:wall',
+          Count: 4
+        }]
+      },
     ];
 
     recipes.forEach((recipe) => {

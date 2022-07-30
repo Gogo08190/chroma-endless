@@ -1,0 +1,57 @@
+{
+    "flower": "tconstruct:manyullyn_block",
+    "lore": "mettre du lor",
+    "loreColor": "#ff66cc",
+    "sizeModifier": 1,
+    "maxTimeInHive": 2400,
+    "hasHoneycomb": true,
+    "apiaryOutputAmounts": [
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "apiaryOutputTypes": [
+      "COMB",
+      "COMB",
+      "COMB",
+      "COMB",
+      "COMB"
+    ],
+    "auraRange": 20,
+    "traits": ["sedimentary", "can_swim"],
+    "baseLayerTexture": "metals/manyullyn/manyullyn",
+    "ColorData": {
+    "honeycombColor": "#9261cc"
+    },
+    "CombatData": {
+      "isPassive": false,
+      "removeStingerOnAttack": false,
+      "inflictsPoison": true,
+      "baseHealth": 20,
+      "attackDamage": 4
+    },
+    "CentrifugeData": {
+      "hasCentrifugeOutput": true,
+
+      "mainOutput": "tconstruct:manyullyn_ingot",
+      "mainOutputWeight": 0.5,
+      "mainOutputCount": 1,
+
+      "bottleOutput": "resourcefulbees:manyullyn_honey_bottle",
+      "bottleOutputWeight": 0.01,
+      "bottleOutputCount": 1,
+
+      "mainInputCount": 1
+    },
+    "SpawnData": {
+      "canSpawnInWorld": false
+    },
+    "BreedData": {
+      "isBreedable": false
+    },
+    "TraitData": {
+      "hasTraits": true
+    }
+  }

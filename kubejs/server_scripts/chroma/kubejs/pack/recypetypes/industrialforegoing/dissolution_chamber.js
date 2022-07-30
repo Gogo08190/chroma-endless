@@ -677,7 +677,7 @@ onEvent('recipes', (event) => {
                 'minecraft:netherite_block',
                 'mekanism:elite_control_circuit'
             ],
-            inputFluid: 'industrialforegoing:ether_gas',
+            inputFluid: 'tconstruct:molten_refined_glowstone',
             inputFluidAmount: 2000,
             processingTime: 300,
             outputItem: { item: 'mekanism:elite_tier_installer', count: 1 },
@@ -685,6 +685,146 @@ onEvent('recipes', (event) => {
             outputFluidAmount: 0,
             id: 'mekanism:tier_installer/elite'
         },
+        // Elite Smelting Factory
+        {
+            inputs: [
+                'mekanism:elite_control_circuit',
+                'mekanism:advanced_smelting_factory',
+                'mekanism:elite_control_circuit',
+                'industrialforegoing:plastic',
+                'industrialforegoing:plastic',
+                'mekanism:elite_control_circuit',
+                'createdeco:netherite_sheet',
+                'mekanism:elite_control_circuit'
+            ],
+            inputFluid: 'tconstruct:molten_refined_glowstone',
+            inputFluidAmount: 2000,
+            processingTime: 300,
+            outputItem: { item: 'mekanism:elite_smelting_factory', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'mekanism:factory/elite/smelting'
+        },
+        // Elite Enriching Factory
+        {
+            inputs: [
+                'mekanism:elite_control_circuit',
+                'mekanism:advanced_enriching_factory',
+                'mekanism:elite_control_circuit',
+                'industrialforegoing:plastic',
+                'industrialforegoing:plastic',
+                'mekanism:elite_control_circuit',
+                'createdeco:netherite_sheet',
+                'mekanism:elite_control_circuit'
+            ],
+            inputFluid: 'tconstruct:molten_refined_glowstone',
+            inputFluidAmount: 2000,
+            processingTime: 300,
+            outputItem: { item: 'mekanism:elite_enriching_factory', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'mekanism:factory/elite/enriching'
+        },
+        // Elite Crushing Factory
+        {
+            inputs: [
+                'mekanism:elite_control_circuit',
+                'mekanism:advanced_crushing_factory',
+                'mekanism:elite_control_circuit',
+                'industrialforegoing:plastic',
+                'industrialforegoing:plastic',
+                'mekanism:elite_control_circuit',
+                'createdeco:netherite_sheet',
+                'mekanism:elite_control_circuit'
+            ],
+            inputFluid: 'tconstruct:molten_refined_glowstone',
+            inputFluidAmount: 2000,
+            processingTime: 300,
+            outputItem: { item: 'mekanism:elite_crushing_factory', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'mekanism:factory/elite/crushing'
+        },
+        // Elite Compressing Factory
+        {
+            inputs: [
+                'mekanism:elite_control_circuit',
+                'mekanism:advanced_compressing_factory',
+                'mekanism:elite_control_circuit',
+                'industrialforegoing:plastic',
+                'industrialforegoing:plastic',
+                'mekanism:elite_control_circuit',
+                'createdeco:netherite_sheet',
+                'mekanism:elite_control_circuit'
+            ],
+            inputFluid: 'tconstruct:molten_refined_glowstone',
+            inputFluidAmount: 2000,
+            processingTime: 300,
+            outputItem: { item: 'mekanism:elite_compressing_factory', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'mekanism:factory/elite/compressing'
+        },
+        // Elite Combining Factory
+        {
+            inputs: [
+                'mekanism:elite_control_circuit',
+                'mekanism:advanced_combining_factory',
+                'mekanism:elite_control_circuit',
+                'industrialforegoing:plastic',
+                'industrialforegoing:plastic',
+                'mekanism:elite_control_circuit',
+                'createdeco:netherite_sheet',
+                'mekanism:elite_control_circuit'
+            ],
+            inputFluid: 'tconstruct:molten_refined_glowstone',
+            inputFluidAmount: 2000,
+            processingTime: 300,
+            outputItem: { item: 'mekanism:elite_combining_factory', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'mekanism:factory/elite/combining'
+        },
+        // Elite Infusing Factory
+        {
+            inputs: [
+                'mekanism:elite_control_circuit',
+                'mekanism:advanced_infusing_factory',
+                'mekanism:elite_control_circuit',
+                'industrialforegoing:plastic',
+                'industrialforegoing:plastic',
+                'mekanism:elite_control_circuit',
+                'createdeco:netherite_sheet',
+                'mekanism:elite_control_circuit'
+            ],
+            inputFluid: 'tconstruct:molten_refined_glowstone',
+            inputFluidAmount: 2000,
+            processingTime: 300,
+            outputItem: { item: 'mekanism:elite_infusing_factory', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'mekanism:factory/elite/infusing'
+        },
+        // Elite Sawing Factory
+        {
+            inputs: [
+                'mekanism:elite_control_circuit',
+                'mekanism:advanced_sawing_factory',
+                'mekanism:elite_control_circuit',
+                'industrialforegoing:plastic',
+                'industrialforegoing:plastic',
+                'mekanism:elite_control_circuit',
+                'createdeco:netherite_sheet',
+                'mekanism:elite_control_circuit'
+            ],
+            inputFluid: 'tconstruct:molten_refined_glowstone',
+            inputFluidAmount: 2000,
+            processingTime: 300,
+            outputItem: { item: 'mekanism:elite_sawing_factory', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'mekanism:factory/elite/sawing'
+        }
     ];
 
     recipes.forEach((recipe) => {

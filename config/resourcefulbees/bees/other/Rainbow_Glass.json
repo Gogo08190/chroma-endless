@@ -2,6 +2,21 @@
   "flower": "tag:forge:ores/diamond",
   "maxTimeInHive": 1200,
   "hasHoneycomb": true,
+  "apiaryOutputAmounts": [
+    4,
+    8,
+    16,
+    32,
+    64
+  ],
+  "apiaryOutputTypes": [
+    "COMB",
+    "COMB",
+    "COMB",
+    "COMB",
+    "COMB"
+  ],
+  "auraRange": 20,
   "baseLayerTexture": "ores/custom_crystal/custom_bee_primary",
   "lore" : "Glass Prebby",
   "traits" : ["healer"],
@@ -14,6 +29,13 @@
     "honeycombColor": "#ffffff",
     "isRainbowBee": true,
     "isGlowing": true
+  },
+  "CombatData": {
+    "isPassive": false,
+    "removeStingerOnAttack": false,
+    "inflictsPoison": true,
+    "baseHealth": 20,
+    "attackDamage": 4
   },
   "MutationData": {
     "hasMutation": true,
@@ -51,7 +73,7 @@
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "minecraft:diamond",
+    "mainOutput": "quark:rainbow_rune",
     "mainOutputCount": 1,
     "bottleOutput": "resourcefulbees:rainbow_honey_bottle",
     "bottleOutputWeight": 1

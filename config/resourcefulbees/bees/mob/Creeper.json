@@ -2,6 +2,21 @@
   "flower": "ALL",
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
+  "apiaryOutputAmounts": [
+    4,
+    8,
+    16,
+    32,
+    64
+  ],
+  "apiaryOutputTypes": [
+    "COMB",
+    "COMB",
+    "COMB",
+    "COMB",
+    "COMB"
+  ],
+  "auraRange": 20,
   "baseLayerTexture": "/creeper/creeper_bee",
   "traits" : ["creeper"],
   "ColorData": {
@@ -11,6 +26,13 @@
     "glowColor": "#E2D3D3",
     "glowingPulse": 2,
     "emissiveLayerTexture": "/creeper/creeper_bee_emissive"
+  },
+  "CombatData": {
+    "isPassive": false,
+    "removeStingerOnAttack": false,
+    "inflictsPoison": true,
+    "baseHealth": 20,
+    "attackDamage": 4
   },
   "MutationData": {
     "hasMutation": true,

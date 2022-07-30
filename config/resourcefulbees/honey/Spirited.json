@@ -1,0 +1,17 @@
+{
+  "name" : "crystal_spirited",
+  "hunger": 4,
+  "honeyColor": "#70af00",
+  "saturation": 3,
+  "isRainbow": false,
+  "honeyBlockRecipe": true,
+  "generateHoneyBlock": true,
+      "effects": [
+    {
+      "effectID": "minecraft:luck",
+      "duration": 2000,
+      "strength": 2,
+      "chance": 1
+      }
+    ]
+  }

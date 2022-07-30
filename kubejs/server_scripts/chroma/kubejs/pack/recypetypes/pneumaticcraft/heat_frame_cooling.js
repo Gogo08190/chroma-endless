@@ -6,8 +6,8 @@ onEvent('recipes', (event) => {
             {
                 input: { item: 'industrialforegoing:dryrubber' },
                 output: { item: 'industrialforegoing:plastic' },
-                max_temp: 385,
-                bonus_output: { multiplier: 0.085, limit: 0.1 },
+                max_temp: 273,
+                bonus_output: { multiplier: 0.01, limit: 0.75 },
                 id: 'industrialforegoing:plastic',
             }
         ]

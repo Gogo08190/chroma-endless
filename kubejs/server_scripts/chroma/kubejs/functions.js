@@ -59,6 +59,10 @@ function getStrippedLogFrom(logBlock) {
     return result;
 }
 
+function lowerTiers(tiers, tier) {
+    return tiers.slice(0, tiers.indexOf(tier));
+}
+
 const unificationBlacklist = [
     unificationBlacklistEntry('quartz', 'gem'),
     unificationBlacklistEntry('quartz', 'storage_block')

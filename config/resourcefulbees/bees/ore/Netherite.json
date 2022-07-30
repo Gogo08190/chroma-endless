@@ -2,6 +2,21 @@
   "flower": "tag:forge:storage_blocks/netherite",
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
+  "apiaryOutputAmounts": [
+    4,
+    8,
+    16,
+    32,
+    64
+  ],
+  "apiaryOutputTypes": [
+    "COMB",
+    "COMB",
+    "COMB",
+    "COMB",
+    "COMB"
+  ],
+  "auraRange": 20,
   "baseLayerTexture": "ores/netherite/netherite_bee",
   "traits": ["nether", "wither"],
   "ColorData": {
@@ -23,8 +38,20 @@
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "minecraft:netherite_ingot",
-    "mainOutputWeight": 0.05
+
+    "mainOutput": "minecraft:netherite_scrap",
+    "mainOutputWeight": 0.5,
+    "mainOutputCount": 1,
+
+    "secondaryOutput": "emendatusenigmatica:gold_chunk",
+    "secondaryOutputWeight": 0.1,
+    "secondaryOutputCount": 1,
+
+    "bottleOutput": "resourcefulbees:netherite_honey_bottle",
+    "bottleOutputWeight": 0.01,
+    "bottleOutputCount": 1,
+
+    "mainInputCount": 1
   },
   "SpawnData": {
     "canSpawnInWorld": true,

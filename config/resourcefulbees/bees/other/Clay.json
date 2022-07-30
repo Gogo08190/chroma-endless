@@ -1,0 +1,71 @@
+{
+    "flower": "minecraft:terracotta",
+    "lore": "mettre du lore",
+    "loreColor": "#00AAAA",
+    "maxTimeInHive": 2400,
+    "sizeModifier": 0.75,
+    "traits": ["can_swim"],
+    "hasHoneycomb": true,
+    "apiaryOutputAmounts": [
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "apiaryOutputTypes": [
+      "COMB",
+      "COMB",
+      "COMB",
+      "COMB",
+      "COMB"
+    ],
+    "auraRange": 20,
+    "baseLayerTexture": "other/clay/clay",
+    "ColorData": {
+        "honeycombColor": "#acaebd",
+        "isBeeColored": false,
+        "isRainbowBee": false,
+        "isGlowing": false,
+        "isEnchanted": false
+    },
+    "CombatData": {
+        "isPassive": false,
+        "removeStingerOnAttack": false,
+        "inflictsPoison": false,
+        "baseHealth": 20,
+        "attackDamage": 1
+    },
+    "CentrifugeData": {
+        "hasCentrifugeOutput": true,
+
+        "mainOutput": "minecraft:clay",
+        "mainOutputWeight": 0.5,
+        "mainOutputCount": 2,
+
+        "secondaryOutput": "minecraft:terracotta",
+        "secondaryOutputWeight": 0.1,
+        "secondaryOutputCount": 1,
+
+        "bottleOutput": "resourcefulbees:clay_honey_bottle",
+        "bottleOutputWeight": 0.25,
+        "bottleOutputCount": 1,
+
+        "mainInputCount": 1
+    },
+    "SpawnData": {
+        "canSpawnInWorld": false
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "parent1": "rocky",
+        "parent2": "slimy",
+        "feedItem": "tag:forge:storage_blocks/clay",
+        "feedAmount": 1,
+        "childGrowthDelay": -24000,
+        "breedDelay": 6000
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

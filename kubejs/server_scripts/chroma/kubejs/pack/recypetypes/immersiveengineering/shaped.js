@@ -282,6 +282,42 @@ onEvent('recipes', (event) => {
               M:'minecraft:crafting_table'
           },
           id: 'engineersdecor:independent/metal_crafting_table_recipe'
+      },
+      // LV Capacitor
+      {
+          output: 'immersiveengineering:capacitor_lv',
+          pattern: ['AAA', 'BCB', 'DDD'],
+          key: {
+              A: 'minecraft:iron_ingot',
+              B: 'immersiveengineering:wirecoil_copper',
+              C: 'immersiveengineering:coil_lv',
+              D: '#forge:treated_wood'
+          },
+          id: 'immersiveengineering:crafting/capacitor_lv'
+      },
+      // MV Capacitor
+      {
+          output: 'immersiveengineering:capacitor_mv',
+          pattern: ['AAA', 'BCB', 'DDD'],
+          key: {
+              A: 'tconstruct:rose_gold_ingot',
+              B: 'immersiveengineering:wirecoil_electrum',
+              C: 'immersiveengineering:capacitor_lv',
+              D: '#forge:treated_wood'
+          },
+          id: 'immersiveengineering:crafting/capacitor_mv'
+      },
+      // HV Capacitor
+      {
+          output: 'immersiveengineering:capacitor_hv',
+          pattern: ['AAA', 'BCB', 'DDD'],
+          key: {
+              A: 'emendatusenigmatica:electrum_ingot',
+              B: 'immersiveengineering:wirecoil_steel',
+              C: 'immersiveengineering:capacitor_mv',
+              D: '#forge:treated_wood'
+          },
+          id: 'immersiveengineering:crafting/capacitor_hv'
       }
     ];
 

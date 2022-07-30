@@ -129,6 +129,54 @@ onEvent('recipes', (event) => {
                 }
             ],
             id: `${id_prefix}garden_cloche`
+        },
+        //cogwheel
+        {
+            input: 'create:shaft',
+            outputs: [Item.of('12x create:cogwheel')],
+            transitionalItem: 'create:incomplete_cogwheel',
+            loops: 4,
+            sequence: [
+                {
+                    type: 'deploying',
+                    input: ['create:incomplete_cogwheel', '#minecraft:buttons'],
+                    output: 'create:incomplete_cogwheel'
+                },
+                {
+                    type: 'cutting',
+                    input: ['create:incomplete_cogwheel'],
+                    output: 'create:incomplete_cogwheel',
+                    processingTime: 50
+                }
+            ],
+            id: 'create:sequenced_assembly/cogwheel'
+        },
+
+        //Large Cogwheel
+        {
+            input: 'create:shaft',
+            outputs: [Item.of('6x create:large_cogwheel')],
+            transitionalItem: 'create:incomplete_large_cogwheel',
+            loops: 3,
+            sequence: [
+                {
+                    type: 'deploying',
+                    input: ['create:incomplete_large_cogwheel', '#minecraft:planks'],
+                    output: 'create:incomplete_large_cogwheel'
+                },
+                {
+                    type: 'deploying',
+                    input: ['create:incomplete_large_cogwheel', '#minecraft:wooden_buttons'],
+                    output: 'create:incomplete_large_cogwheel'
+                },
+                {
+                    type: 'cutting',
+                    input: 'create:incomplete_large_cogwheel',
+                    output: 'create:incomplete_large_cogwheel',
+                    processingTime: 50
+                }
+            ],
+            id: 'create:sequenced_assembly/large_cogwheel'
         }
     ];
 

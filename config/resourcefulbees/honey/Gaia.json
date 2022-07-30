@@ -1,0 +1,17 @@
+{
+  "name" : "gaia",
+  "hunger": 4,
+  "honeyColor": "#7b5c75",
+  "saturation": 3,
+  "isRainbow": false,
+  "honeyBlockRecipe": true,
+  "generateHoneyBlock": true,
+      "effects": [
+    {
+      "effectID": "botania:allure",
+      "duration": 2000,
+      "strength": 1,
+      "chance": 1
+      }
+    ]
+  }

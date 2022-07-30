@@ -1,5 +1,5 @@
 onEvent('recipes', (event) => {
-    const id_prefix = 'chroma:base/mekanism/combining/';
+    const id_prefix = 'chroma:pack/mekanism/combining/';
 
     /*{
       input: '',

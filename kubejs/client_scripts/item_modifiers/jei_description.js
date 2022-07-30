@@ -13,12 +13,6 @@ onEvent('jei.information', (event) => {
             text: ['Obtained by breaking a Dense Construction Block with a Pickaxe.']
         },
         {
-            items: ['powah:uraninite', 'powah:uraninite_block'],
-            text: [
-                'Uraninite Ore has been removed and does not spawn naturally. To obtain Uraninite, use the Powah Energizing Orb recipe.'
-            ]
-        },
-        {
             items: ['thermal:blizz_rod', 'thermal:blizz_spawn_egg'],
             text: [
                 'The Blizz spawns naturally in cold biomes. Mechanical Dirt and Nocturnal Powder work wonders for farming them.'

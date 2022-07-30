@@ -38,6 +38,33 @@ onEvent('recipes', (event) => {
               output: 'envirocore:ionite_crystal',
               cooling_time: 79,
               id: `${id_prefix}sand_cast_ionite_crystal`
+          },
+          {
+              fluid: 'tconstruct:molten_gold',
+              fluid_amount: 576,
+              casts: [{ item: 'extendedcrafting:redstone_ingot' }],
+              cast_consumed: true,
+              output: 'minecraft:clock',
+              cooling_time: 120,
+              id: 'tconstruct:smeltery/casting/metal/gold/clock'
+          },
+          {
+              fluid: 'tconstruct:molten_iron',
+              fluid_amount: 576,
+              casts: [{ item: 'extendedcrafting:redstone_ingot' }],
+              cast_consumed: true,
+              output: 'minecraft:compass',
+              cooling_time: 120,
+              id: 'tconstruct:smeltery/casting/metal/iron/compass'
+          },
+          {
+              fluid: 'materialis:molten_fairy',
+              fluid_amount: 1296,
+              casts: [Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:gold_bee' }).weakNBT().toJson()],
+              cast_consumed: true,
+              output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:fairy_bee' }).toJson(),
+              cooling_time: 120,
+              id: `${id_prefix}fairy_bee`
           }
         ]
     };

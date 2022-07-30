@@ -1,0 +1,75 @@
+{
+  "flower": "minecraft:prismarine_bricks",
+  "maxTimeInHive": 1200,
+  "traits": ["can_swim"],
+  "hasHoneycomb": true,
+  "apiaryOutputAmounts": [
+    4,
+    8,
+    16,
+    32,
+    64
+  ],
+  "apiaryOutputTypes": [
+    "COMB",
+    "COMB",
+    "COMB",
+    "COMB",
+    "COMB"
+  ],
+  "auraRange": 20,
+  "baseLayerTexture": "mobs/guardian/guardian_bee",
+  "ColorData": {
+    "honeycombColor": "#8FC0AA",
+    "isBeeColored": false,
+    "modelType": "GUARDIAN"
+  },
+  "CombatData": {
+      "isPassive": false,
+      "removeStingerOnAttack": false,
+      "inflictsPoison": true,
+      "baseHealth": 20,
+      "attackDamage": 1
+  },
+  "MutationData": {
+      "hasMutation": true,
+      "mutationCount": 4,
+      "mutations": [
+          {
+              "type": "BLOCK_TO_ITEM",
+              "inputID": "resourcefulbees:guardian_honeycomb_block",
+              "chance": 0.1,
+              "outputs": [{ "outputID": "enderioalloys:item_material_skull_guardian_diode", "weight": 10 }]
+          }
+      ]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainInputCount": 1,
+    "mainOutput": "minecraft:prismarine_shard",
+    "mainOutputWeight": 0.5,
+    "mainOutputCount": 1,
+    "secondaryOutput": "minecraft:prismarine_crystals",
+    "secondaryOutputWeight": 0.3,
+    "secondaryOutputCount": 1,
+    "bottleOutput": "resourcefulbees:guardian_honey_bottle",
+    "bottleOutputWeight": 0.25,
+    "bottleOutputCount": 1,
+    "recipeTime": 200
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "breedWeight": 10,
+    "breedChance": 0.8,
+    "feedItem": "minecraft:prismarine_crystals",
+    "feedAmount": 5,
+    "childGrowthDelay": -24000,
+    "breedDelay": 6000
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

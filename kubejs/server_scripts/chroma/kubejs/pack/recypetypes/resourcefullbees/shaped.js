@@ -195,6 +195,30 @@ onEvent('recipes', (event) => {
               S: 'emendatusenigmatica:steel_block'
           },
           id: 'resourcefulbees:waxed_machine_block'
+      },
+
+      {
+          output: 'resourcefulbees:ender_beecon',
+          pattern: ['PPP', 'GBG', 'PCP'],
+          key: {
+              P: 'minecraft:purpur_block',
+              G: '#forge:glass',
+              C: 'minecraft:crying_obsidian',
+              B: 'minecraft:beacon'
+          },
+          id: 'resourcefulbees:ender_beecon'
+      },
+
+      {
+          output: 'resourcefulbees:honey_congealer',
+          pattern: [' G ', 'IGI', 'SWS'],
+          key: {
+              S: '#forge:stone',
+              G: '#forge:glass',
+              W: 'resourcefulbees:wax',
+              I: '#forge:ingots/steel'
+          },
+          id: 'resourcefulbees:honey_congealer'
       }
 
     ];

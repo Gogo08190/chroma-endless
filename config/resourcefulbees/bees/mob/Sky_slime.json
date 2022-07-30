@@ -1,0 +1,62 @@
+{
+    "flower": "ALL",
+    "lore": "mettre du lor",
+    "loreColor": "#00AAAA",
+    "maxTimeInHive": 4800,
+    "sizeModifier": 1,
+    "hasHoneycomb": true,
+    "apiaryOutputAmounts": [
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "apiaryOutputTypes": [
+      "COMB",
+      "COMB",
+      "COMB",
+      "COMB",
+      "COMB"
+    ],
+    "auraRange": 20,
+    "traits": ["slimy", "can_swim"],
+    "baseLayerTexture": "tinkers/sky_slime/sky_slime",
+    "ColorData": {
+        "honeycombColor": "#4ab1a4",
+        "isBeeColored": false,
+        "isRainbowBee": false,
+        "isGlowing": false,
+        "isEnchanted": false,
+        "modelType": "GELATINOUS"
+    },
+    "CombatData": {
+        "isPassive": false,
+        "removeStingerOnAttack": false,
+        "inflictsPoison": true,
+        "baseHealth": 20,
+        "attackDamage": 2
+    },
+    "CentrifugeData": {
+        "hasCentrifugeOutput": true,
+
+        "mainOutput": "tconstruct:sky_slime_ball",
+        "mainOutputWeight": 0.6,
+        "mainOutputCount": 4,
+
+        "bottleOutput": "resourcefulbees:sky_slime_honey_bottle",
+        "bottleOutputWeight": 0.01,
+        "bottleOutputCount": 1,
+
+        "mainInputCount": 1
+    },
+    "SpawnData": {
+        "canSpawnInWorld": false
+    },
+    "BreedData": {
+        "isBreedable": false
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}
