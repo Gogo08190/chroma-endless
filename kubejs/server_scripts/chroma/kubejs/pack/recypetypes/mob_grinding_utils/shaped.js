@@ -36,7 +36,7 @@ onEvent('recipes', (event) => {
       // Mob Fan
       {
         output: 'mob_grinding_utils:fan',
-        pattern: [' A ', 'BCB', ' D '],
+        pattern: ['ABA', 'BCB', 'ADA'],
         key: {
             A: '#forge:ingots/andesite_alloy',
             B: '#forge:plates/iron',
