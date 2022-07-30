@@ -92,7 +92,86 @@ onEvent('recipes', (event) => {
             B: 'mob_grinding_utils:tank'
         },
         id: 'mob_grinding_utils:recipe_jumbotank'
-      }
+      },
+      // Sharpness Upgrade
+      {
+        output: 'mob_grinding_utils:saw_upgrade_sharpness',
+        pattern: ['GSG', 'SRS', 'GSG'],
+        key: {
+            G: '#forge:nuggets/brass',
+            S: Item.of('minecraft:golden_sword', '{Damage:0}').weakNBT(),
+            R: '#forge:dusts/redstone'
+        },
+        id: 'mob_grinding_utils:recipe_saw_upgrade_sharpness'
+      },
+      // Smite Upgrade
+      {
+        output: 'mob_grinding_utils:saw_upgrade_smite',
+        pattern: ['GSG', 'SRS', 'GSG'],
+        key: {
+            G: '#forge:nuggets/brass',
+            S: 'minecraft:rotten_flesh',
+            R: '#forge:dusts/redstone'
+        },
+        id: 'mob_grinding_utils:recipe_saw_upgrade_smite'
+      },
+      // Looting Upgrade
+      {
+        output: 'mob_grinding_utils:saw_upgrade_looting',
+        pattern: ['GSG', 'SRS', 'GSG'],
+        key: {
+            G: '#forge:nuggets/brass',
+            S: '#forge:gems/lapis',
+            R: '#forge:dusts/redstone'
+        },
+        id: 'mob_grinding_utils:recipe_saw_upgrade_looting'
+      },
+      // Fire Upgrade
+      {
+        output: 'mob_grinding_utils:saw_upgrade_fire',
+        pattern: ['GSG', 'SRS', 'GSG'],
+        key: {
+            G: '#forge:nuggets/brass',
+            S: Item.of('minecraft:flint_and_steel', '{Damage:0}').weakNBT(),
+            R: '#forge:dusts/redstone'
+        },
+        id: 'mob_grinding_utils:recipe_saw_upgrade_fire'
+      },
+      // Beheading Upgrade
+      {
+        output: 'mob_grinding_utils:saw_upgrade_beheading',
+        pattern: ['GSG', 'TRT', 'GSG'],
+        key: {
+            G: '#forge:nuggets/brass',
+            S: Item.of('minecraft:golden_helmet', '{Damage:0}').weakNBT(),
+            T: Item.of('minecraft:iron_helmet', '{Damage:0}').weakNBT(),
+            R: '#forge:dusts/redstone'
+        },
+        id: 'mob_grinding_utils:recipe_saw_upgrade_beheading'
+      },
+      // Arthropod Upgrade
+      {
+        output: 'mob_grinding_utils:saw_upgrade_arthropod',
+        pattern: ['GSG', 'SRS', 'GSG'],
+        key: {
+            G: '#forge:nuggets/brass',
+            S: 'minecraft:spider_eye',
+            R: '#forge:dusts/redstone'
+        },
+        id: 'mob_grinding_utils:recipe_saw_upgrade_arthropod'
+      },
+      // Absorption Upgrade
+      {
+        output: 'mob_grinding_utils:absorption_upgrade',
+        pattern: [' P ', 'PRP', 'OCO'],
+        key: {
+            P: '#forge:gems/ender',
+            O: '#forge:obsidian',
+            C: 'create:chute',
+            R: '#forge:dusts/redstone'
+        },
+        id: 'mob_grinding_utils:recipe_absorbtion_upgrade'
+      },
     ];
 
     recipes.forEach((recipe) => {
