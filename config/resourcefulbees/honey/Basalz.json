@@ -8,9 +8,9 @@
   "generateHoneyBlock": true,
       "effects": [
     {
-      "effectID": "minecraft:poison",
+      "effectID": "minecraft:instant_damage",
       "duration": 1000,
-      "strength": 2,
+      "strength": 1,
       "chance": 1
       }
     ]

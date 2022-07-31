@@ -8,7 +8,7 @@
   "generateHoneyBlock": true,
       "effects": [
     {
-      "effectID": "minecraft:poison",
+      "effectID": "minecraft:speed",
       "duration": 1000,
       "strength": 2,
       "chance": 1

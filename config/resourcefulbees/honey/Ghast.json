@@ -8,7 +8,7 @@
   "generateHoneyBlock": true,
       "effects": [
     {
-      "effectID": "minecraft:poison",
+      "effectID": "minecraft:health_boost",
       "duration": 1000,
       "strength": 2,
       "chance": 1

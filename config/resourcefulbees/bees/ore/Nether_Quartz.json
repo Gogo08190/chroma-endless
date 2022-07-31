@@ -29,6 +29,14 @@
     "isEnchanted": false,
     "modelType": "ORE"
   },
+},
+"CombatData": {
+  "isPassive": false,
+  "removeStingerOnAttack": false,
+  "inflictsPoison": true,
+  "baseHealth": 20,
+  "attackDamage": 3
+  },
   "MutationData": {
     "hasMutation": true,
     "mutations" : [
@@ -44,7 +52,7 @@
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    
+
     "mainOutput": "emendatusenigmatica:quartz_chunk",
     "mainOutputWeight": 0.5,
     "mainOutputCount": 1,

@@ -8,7 +8,7 @@
   "generateHoneyBlock": true,
       "effects": [
     {
-      "effectID": "minecraft:speed",
+      "effectID": "minecraft:fire_resistance",
       "duration": 2000,
       "strength": 3,
       "chance": 1

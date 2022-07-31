@@ -8,7 +8,7 @@
   "generateHoneyBlock": true,
       "effects": [
     {
-      "effectID": "botania:bloodthirst",
+      "effectID": "minecraft:speed",
       "duration": 2000,
       "strength": 1,
       "chance": 1
