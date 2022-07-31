@@ -202,7 +202,9 @@ const combVariants = [
     'magentite',
     'ridiculite',
     'ludicrite',
-    'inanite'
+    'inanite',
+    'creeper',
+    'rainbow_glass'
 ];
 
 const bees = [];
