@@ -252,8 +252,8 @@ onEvent("recipes", (event) => {
   }
 
   ).id('resourcefulbees:t4_apiary')
-  event.custom(
-      {
+    event.custom(
+    {
     "type": "extendedcrafting:shaped_table",
     "pattern": [
       " A     A ",
@@ -262,53 +262,60 @@ onEvent("recipes", (event) => {
       "ADAEFGADA",
       "AHAEFGAHA",
       "AIAJKJAIA",
-      "ALAEFGALA",
-      "AMAEFGAMA",
+      "ALAGFEALA",
+      "AMAGFEAMA",
       " A     A "
     ],
     "key": {
       "A": {
-        "item": 'enderioalloys:item_alloy_ingot_stellar_alloy'
+        "item": "enderioalloys:item_alloy_ingot_stellar_alloy"
       },
       "B": {
-        "item": 'extendedcrafting:crystaltine_ingot'
+        "item": "extendedcrafting:crystaltine_ingot"
       },
       "C": {
-        "item": 'ironjetpacks:elite_coil'
+        "item": "ironjetpacks:elite_coil"
       },
       "D": {
-        "item": 'enderioalloys:item_material_gear_vibrant'
+        "item": "enderioalloys:item_material_gear_vibrant"
       },
       "E": {
-        "tag": 'enderioalloys:item_alloy_ingot_melodic_alloy'
+        "item": "enderioalloys:item_alloy_ingot_melodic_alloy"
       },
       "F": {
-        "item": 'enderioalloys:item_alloy_ingot_dark_steel'
+        "item": "enderioalloys:item_alloy_ingot_dark_steel"
       },
       "G": {
-        "item": 'enderioalloys:item_alloy_ingot_end_steel'
+        "item": "enderioalloys:item_alloy_ingot_end_steel"
       },
       "H": {
-        "item": 'enderioalloys:item_material_skull_ender_resonator'
+        "item": "enderioalloys:item_material_skull_ender_resonator"
       },
       "I": {
-        "item": 'mekanism:pellet_polonium'
+        "item": "mekanism:pellet_polonium"
       },
       "J": {
-        "item": 'mekanism:hdpe_sheet'
+        "item": "mekanism:hdpe_sheet"
       },
       "K": {
-        "item" : Item.of('ironjetpacks:inanite_jetpack').weakNBT().toJson()
+        "type": "forge:nbt",
+        "item": "ironjetpacks:inanite_jetpack",
+        "count": 1,
+        "nbt": ""
       },
       "L": {
-        "item" : 'ironjetpacks:stellar_capacitor'
+        "item": "ironjetpacks:stellar_capacitor"
       },
       "M": {
-        "item": 'ironjetpacks:stellar_thruster'
+        "item": "ironjetpacks:stellar_thruster"
       }
     },
-    "result": { item : 'ironjetpacks:stellar_jetpack' }
+    "result": {
+      "type": "forge:nbt",
+      "item": "ironjetpacks:stellar_jetpack",
+      "count": 1,
+      "nbt": ""
+    }
   }
 ).id(`${id_prefix}stellar_jetpack`)
-
 });
