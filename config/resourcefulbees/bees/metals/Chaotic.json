@@ -6,7 +6,6 @@
   "apiaryOutputAmounts": [
     4,
     8,
-    16,
     32,
     64
   ],
@@ -40,7 +39,7 @@
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    
+
     "mainInputCount": 1,
     "mainOutput": "draconicevolution:small_chaos_frag",
     "mainOutputWeight": 0.5,
