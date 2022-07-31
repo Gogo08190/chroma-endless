@@ -801,14 +801,12 @@ const craftedBees = [
     'fireite',
     'gold',
     'coal',
-    'beeper',
     'dungeon',
     'ender',
     'forest',
     'icy',
     'lapis',
     'pigman',
-    'rainbow',
     'rgbee',
     'skeleton',
     'water',
@@ -825,5 +823,7 @@ const craftedBees = [
     'magentite',
     'ridiculite',
     'ludicrite',
-    'inanite'
+    'inanite',
+    'creeper',
+    'rainbow_glass'
 ];
