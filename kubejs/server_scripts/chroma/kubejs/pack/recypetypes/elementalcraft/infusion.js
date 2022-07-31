@@ -11,11 +11,15 @@ onEvent('recipes', (event) => {
         },
 
         {
-            input: 'minecraft:quartz',
+            input: {
+              item : 'minecraft:quartz'
+            },
             element_type: "water",
-            element_amount: 1500,
-            output: 'minecraft:prismarine_shard',
-            id: 'minecraft:prismarine_shard'
+            element_amount: 500,
+            output: {
+              item: 'minecraft:prismarine_shard'
+            },
+            id: `${id_prefix}prismarine_shard`
         }
     ];
 
