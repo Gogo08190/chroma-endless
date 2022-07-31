@@ -36,15 +36,15 @@
 	#
 	#Maximum number of UNIQUE bees allowed in the Apiary.
 	#Range: 1 ~ 16
-	apiaryMaxBees = 10
+	apiaryMaxBees = 16
 	#
 	#Tier 3 Apiary Output
 	#Allowed Values: COMB, BLOCK
-	tierThreeApiaryOutput = "BLOCK"
+	tierThreeApiaryOutput = "COMB"
 	#
 	#Tier 4 Apiary Output Quantity
 	#Range: > 1
-	tierFourApiaryQuantity = 2
+	tierFourApiaryQuantity = 64
 	#
 	#Tier 2 Apiary Output
 	#Allowed Values: COMB, BLOCK
@@ -52,19 +52,19 @@
 	#
 	#Tier 2 Apiary Output Quantity
 	#Range: > 1
-	tierTwoApiaryQuantity = 6
+	tierTwoApiaryQuantity = 8
 	#
 	#Tier 3 Apiary Output Quantity
 	#Range: > 1
-	tierThreeApiaryQuantity = 1
+	tierThreeApiaryQuantity = 32
 	#
 	#Tier 1 Apiary Output Quantity
 	#Range: > 1
-	tierOneApiaryQuantity = 3
+	tierOneApiaryQuantity = 4
 	#
 	#Tier 4 Apiary Output
 	#Allowed Values: COMB, BLOCK
-	tierFourApiaryOutput = "BLOCK"
+	tierFourApiaryOutput = "COMB"
 	#
 	#Maximum breed time before upgrades are applied.
 	#Range: 1200 ~ 4800
