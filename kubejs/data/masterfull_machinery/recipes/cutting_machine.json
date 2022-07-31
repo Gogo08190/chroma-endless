@@ -5,45 +5,203 @@
   "name": "Cutting Machine",
   "layout": [
     [
-      "))*))",
-      "))+))",
-      "))C))"
+      "           )  ",
+      "          *+* ",
+      "              ",
+      "          * * ",
+      "              ",
+      "              ",
+      ",,,,,,,,,,,,,,",
+      ",-----.------,",
+      ",,,,,///,,,,,,"
     ],
     [
-      "),,,)",
-      "-. ./",
-      "),,,)"
+      "           )  ",
+      "          *+* ",
+      "              ",
+      "          * * ",
+      "              ",
+      "    00 00     ",
+      "00001203400000",
+      "5            6",
+      "00000000000000"
     ],
     [
-      ")))))",
-      "))0))",
-      ")))))"
+      "           )  ",
+      "          *+* ",
+      "              ",
+      "          * * ",
+      "              ",
+      "              ",
+      "              ",
+      "              ",
+      "              "
+    ],
+    [
+      "          7)7 ",
+      "         7+++7",
+      "         7+++7",
+      "         7+++7",
+      "          777 ",
+      "              ",
+      "              ",
+      "              ",
+      "              "
+    ],
+    [
+      "          + + ",
+      "         +   +",
+      "         +   +",
+      "         +8C8+",
+      "          +++ ",
+      "              ",
+      "              ",
+      "              ",
+      "              "
+    ],
+    [
+      "          + + ",
+      "         +   +",
+      "         9   9",
+      "         +   +",
+      "          +9+ ",
+      "              ",
+      "           :  ",
+      "              ",
+      "           :  "
+    ],
+    [
+      "          +++ ",
+      "         +   +",
+      "         +   +",
+      "         +   +",
+      "          +++ ",
+      "              ",
+      "           :  ",
+      "              ",
+      "           :  "
+    ],
+    [
+      "          777 ",
+      "         7+++7",
+      "         7+++7",
+      "         7+++7",
+      "          777 ",
+      "              ",
+      "              ",
+      "           +  ",
+      "              "
+    ],
+    [
+      "              ",
+      "              ",
+      "           +  ",
+      "           +  ",
+      "              ",
+      "              ",
+      "              ",
+      "           +  ",
+      "              "
+    ],
+    [
+      "              ",
+      "              ",
+      "              ",
+      "           +  ",
+      "              ",
+      "              ",
+      "              ",
+      "           +  ",
+      "              "
+    ],
+    [
+      "              ",
+      "              ",
+      "              ",
+      "              ",
+      "           +  ",
+      "              ",
+      "              ",
+      "           +  ",
+      "              "
+    ],
+    [
+      "              ",
+      "              ",
+      "              ",
+      "              ",
+      "              ",
+      "           +  ",
+      "           +  ",
+      "           +  ",
+      "              "
+    ],
+    [
+      "              ",
+      "              ",
+      "              ",
+      "              ",
+      "              ",
+      "              ",
+      "              ",
+      "           +  ",
+      "              "
     ]
   ],
   "legend": {
-    "0": {
-      "block": "simplylight:illuminant_block_on"
-    },
     ")": {
-      "block": "envirocore:structure_panel"
+      "block": "immersiveengineering:metal_ladder_none"
     },
     "*": {
-      "block": "masterfulmachinery:cuttingmachine_cuttingmachine_speed_port_create_rotation_input"
+      "block": "pneumaticcraft:drill_pipe"
     },
     "+": {
-      "block": "create:mechanical_saw"
+      "block": "enviromats:alabaster_gray_polished"
     },
     ",": {
-      "block": "thermal:lumium_glass"
+      "block": "envirocore:structure_panel"
     },
     "-": {
-      "block": "masterfulmachinery:cuttingmachine_cuttingmachine_item_port_items_output"
+      "block": "create:belt"
     },
     ".": {
-      "block": "immersiveengineering:conveyor_basic"
+      "block": "create:mechanical_saw"
     },
     "/": {
+      "block": "masterfulmachinery:cuttingmachine_cuttingmachine_speed_port_create_rotation_input"
+    },
+    "0": {
+      "block": "engineersdecor:steel_railing"
+    },
+    "1": {
+      "block": "pneumaticcraft:assembly_laser"
+    },
+    "2": {
+      "block": "pneumaticcraft:assembly_drill"
+    },
+    "3": {
+      "block": "pneumaticcraft:assembly_io_unit_export"
+    },
+    "4": {
+      "block": "pneumaticcraft:assembly_io_unit_import"
+    },
+    "5": {
+      "block": "masterfulmachinery:cuttingmachine_cuttingmachine_item_port_items_output"
+    },
+    "6": {
       "block": "masterfulmachinery:cuttingmachine_cuttingmachine_item_port_items_input"
+    },
+    "7": {
+      "block": "immersiveengineering:steel_slope"
+    },
+    "8": {
+      "block": "pneumaticcraft:security_station"
+    },
+    "9": {
+      "block": "thermal:lumium_glass"
+    },
+    ":": {
+      "block": "pneumaticcraft:compressed_brick_stairs"
     }
   }
 }
