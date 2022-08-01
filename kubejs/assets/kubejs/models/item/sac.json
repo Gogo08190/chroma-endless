@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "kubejs:sac",
-		"particle": "kubejs:sac"
+		"0": "kubejs:item/sac",
+		"particle": "kubejs:item/sac"
 	},
 	"elements": [
 		{
