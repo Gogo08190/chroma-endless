@@ -84,6 +84,15 @@ onEvent('recipes', (event) => {
         id: 'powah:crafting/dielectric_paste'
       },
 
+      //Unstable Draconium Ingot
+      {
+        output: 'kubejs:unstable_draconium_ingot',
+        input: 'kubejs:purified_draconium_dust',
+        infusionInput: 'kubejs:kyronite',
+        infusionAmount: 20,
+        id: `${id_prefix}unstable_draconium_ingot`
+      }
+
     ];
 
     recipes.forEach((recipe) => {

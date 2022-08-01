@@ -18,7 +18,7 @@ onEvent('recipes', (event) => {
           input: { item: 'kubejs:unassembled_16k_storage_part', count: 1 },
           output: { item: 'refinedstorage:16k_storage_part', count: 1 },
           program: 'laser',
-          id: ``
+          id: 'refinedstorage:16k_storage_part'
       },
       {
           input: { item: 'kubejs:unassembled_64k_storage_part', count: 1 },
@@ -109,6 +109,12 @@ onEvent('recipes', (event) => {
           output: { item: 'envirocore:lens', count: 1 },
           program: 'laser',
           id: 'envirotech:block/ct_lens'
+      },
+      {
+          input: { item: 'draconicevolution:draconium_dust', count: 1 },
+          output: { item: 'kubejs:purified_draconium_dust', count: 1 },
+          program: 'laser',
+          id: `${id_prefix}purified_draconium_dust`
       }
     ];
 
