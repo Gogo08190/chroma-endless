@@ -1,5 +1,5 @@
 onEvent('recipes', (event) => {
-    const id_prefix = 'chroma:base/occultism/ritual/';
+    const id_prefix = 'chroma:pack/occultism/ritual/';
     const recipes = [
         {
             ritual_type: 'occultism:summon',
