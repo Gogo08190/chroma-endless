@@ -3,12 +3,7 @@
 onEvent('recipes', (event) => {
     const idRemovals = [
       'materialis:smeltery/melting/metal/draconium/dust',
-      'materialis:smeltery/melting/metal/draconium/ore',
-      'materialis:smeltery/casting/metal/draconium/ingot_gold_cast',
-      'materialis:smeltery/casting/metal/draconium/ingot_sand_cast',
-      'materialis:smeltery/casting/metal/draconium/nugget_gold_cast',
-      'materialis:smeltery/casting/metal/draconium/nugget_sand_cast',
-      'materialis:smeltery/casting/metal/draconium/block'
+      'materialis:smeltery/melting/metal/draconium/ore'
     ];
 
     const outputRemovals = [
