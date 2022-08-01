@@ -50,7 +50,8 @@
     "BreedData": {
       "isBreedable": true,
       "parent1": "ender",
-      "parent2": "diamond"
+      "parent2": "diamond",
+      "feedItem": "emendatusenigmatica:enderium_block"
     },
     "TraitData": {
       "hasTraits": true

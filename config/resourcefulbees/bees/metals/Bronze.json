@@ -50,7 +50,8 @@
     "BreedData": {
       "isBreedable": true,
       "parent1": "copper",
-      "parent2": "tin"
+      "parent2": "tin",
+      "feedItem": "emendatusenigmatica:bronze_block"
     },
     "TraitData": {
       "hasTraits": true

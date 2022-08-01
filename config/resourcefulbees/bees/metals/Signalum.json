@@ -50,7 +50,8 @@
     "BreedData": {
       "isBreedable": true,
       "parent1": "silver",
-      "parent2": "copper"
+      "parent2": "copper",
+      "feedItem": "emendatusenigmatica:signalum_block"
     },
     "TraitData": {
       "hasTraits": true

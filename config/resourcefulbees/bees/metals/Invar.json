@@ -50,7 +50,8 @@
     "BreedData": {
       "isBreedable": true,
       "parent1": "nickel",
-      "parent2": "iron"
+      "parent2": "iron",
+      "feedItem":"emendatusenigmatica:invar_block"
     },
     "TraitData": {
       "hasTraits": true

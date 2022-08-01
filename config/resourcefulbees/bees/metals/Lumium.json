@@ -50,7 +50,8 @@
     "BreedData": {
       "isBreedable": true,
       "parent1": "glowstone",
-      "parent2": "tin"
+      "parent2": "tin",
+      "feedItem": "emendatusenigmatica:lumium_block"
     },
     "TraitData": {
       "hasTraits": true
