@@ -54,7 +54,8 @@ onEvent('item.registry', (event) => {
         'silicon_grease',
         'chroma_matter',
         'unstable_draconium_ingot',
-        'purified_draconium_dust'
+        'purified_draconium_dust',
+        'sac'
     ];
 
     generalItems.forEach((item) => {
