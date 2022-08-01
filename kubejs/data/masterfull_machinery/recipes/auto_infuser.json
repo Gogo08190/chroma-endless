@@ -2,7 +2,7 @@
   "type": "masterfulmachinery:machine_structure",
   "id": "auto_infuser",
   "controllerId": "autoinfuser",
-  "name": "Automatic Coumpond Infuser",
+  "name": "Automatic Compound Infuser",
   "layout": [
     [
       "   ))))))))))))))",
@@ -130,7 +130,7 @@
       "block": "dustrial_decor:barbed_iron_bars"
     },
     "/": {
-      "block": "masterfulmachinery:autoinfuser_coumpond_fluid_port_fluids_input"
+      "block": "masterfulmachinery:autoinfuser_compound_fluid_port_fluids_input"
     },
     "0": {
       "block": "create:fluid_tank"
@@ -148,13 +148,13 @@
       "block": "create:fluid_pipe"
     },
     "5": {
-      "block": "masterfulmachinery:autoinfuser_coumpond_item_port_items_input"
+      "block": "masterfulmachinery:autoinfuser_compound_item_port_items_input"
     },
     "6": {
       "block": "occultism:storage_stabilizer_tier2"
     },
     "7": {
-      "block": "masterfulmachinery:autoinfuser_coumpond_item_port_items_output"
+      "block": "masterfulmachinery:autoinfuser_compound_item_port_items_output"
     },
     "8": {
       "block": "create:spout"
