@@ -48,7 +48,9 @@
       "canSpawnInWorld": false
     },
     "BreedData": {
-      "isBreedable": false
+      "isBreedable": true,
+      "parent1": "nickel",
+      "parent2": "iron"
     },
     "TraitData": {
       "hasTraits": true
