@@ -23,11 +23,18 @@ onEvent('recipes', (event) => {
         id: `${id_prefix}uranium_from_enriched`
       },
 
-      //Kyronite Crystal
+      //Kyronite
       {
         input: { ingredient: { item: 'envirocore:kyronite_powder' } },
         output: { amount: 10, infuse_type: 'kubejs:kyronite' },
         id: `${id_prefix}kyronite`
+      },
+
+      //Pladium
+      {
+        input: { ingredient: { item: 'envirocore:pladium_powder' } },
+        output: { amount: 10, infuse_type: 'kubejs:pladium' },
+        id: `${id_prefix}pladium`
       }
     ]
 
