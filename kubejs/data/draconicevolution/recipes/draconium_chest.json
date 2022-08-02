@@ -1,0 +1,43 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "result": {
+    "item": "draconicevolution:draconium_chest"
+  },
+  "catalyst": {
+    "item": "expandedstorage:netherite_chest"
+  },
+  "total_energy": 2000000,
+  "tier": "DRACONIUM",
+  "ingredients": [
+    {
+      "item": "thermal:machine_furnace"
+    },
+    {
+      "item": "draconicevolution:draconium_core"
+    },
+    {
+      "item": "thermal:machine_furnace"
+    },
+    {
+      "item": "draconicevolution:draconium_core"
+    },
+    {
+      "item": "thermal:machine_furnace"
+    },
+    {
+      "item": "immersiveengineering:craftingtable"
+    },
+    {
+      "item": "thermal:machine_furnace"
+    },
+    {
+      "tag": "forge:storage_blocks/draconium"
+    },
+    {
+      "item": "thermal:machine_furnace"
+    },
+    {
+      "item": "immersiveengineering:craftingtable"
+    }
+  ]
+}
