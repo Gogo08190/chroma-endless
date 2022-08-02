@@ -14,7 +14,7 @@ onEvent('infuse_type.registry', (event) => {
         },
         {
             id: 'pladium',
-            color: 7152994,
+            color: 2307165,
             texture: 'kubejs:infuse_types/base_infuse_type_texture',
             display: 'Pladium'
         }
