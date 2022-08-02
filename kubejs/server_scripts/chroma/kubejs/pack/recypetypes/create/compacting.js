@@ -116,6 +116,12 @@ onEvent('recipes', (event) => {
             output: 'create:whisk',
             type: 'unheated',
             id: 'create:crafting/kinetics/whisk'
+        },
+        {
+            inputs: [Item.of('create:extendo_grip').weakNBT(), 'create:blaze_burner'],
+            output: 'ironjetpacks:mechanical_thruster',
+            type: 'unheated',
+            id: `${id_prefix}mechanical_thruster`
         }
     ];
 

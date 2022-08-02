@@ -831,7 +831,7 @@ onEvent('recipes', (event) => {
                 'ironjetpacks:elite_coil',
                 'ironjetpacks:inanite_capacitor',
                 'ironjetpacks:elite_coil',
-                'bigreactors:reprocessorpowerport',
+                'bigreactors:inanite_block',
                 'bigreactors:inanite_block',
                 'ironjetpacks:inanite_thruster',
                 Item.of('ironjetpacks:regalium_jetpack').weakNBT().toJson(),
