@@ -12,6 +12,12 @@ onEvent('infuse_type.registry', (event) => {
             texture: 'kubejs:infuse_types/base_infuse_type_texture',
             display: 'Kyronite'
         },
+        {
+            id: 'pladium',
+            color: 7152994,
+            texture: 'kubejs:infuse_types/base_infuse_type_texture',
+            display: 'Pladium'
+        }
     ];
 
     generalInfuses.forEach((infuse) => {
