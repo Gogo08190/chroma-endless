@@ -265,6 +265,44 @@ onEvent('recipes', (event) => {
           result: { item: 'draconicevolution:chaotic_energy_core' },
           id: 'draconicevolution:components/chaotic_energy_core'
       },
+
+      {
+          inputs: [
+              { item: 'draconicevolution:draconium_core' },
+              { item: 'draconicevolution:draconium_core' },
+              { item: 'envirocore:kyronite_interconnect' },
+              { item: 'envirocore:kyronite_interconnect' },
+              { item: 'mekanism:alloy_reinforced' },
+              { item: 'mekanism:alloy_reinforced' },
+              { item: 'draconicevolution:wyvern_core' },
+              { item: 'draconicevolution:draconium_block' },
+              { item: 'mekanism:energy_tablet' }
+          ],
+          tier: "DRACONIUM",
+          catalyst: { item: 'draconicevolution:basic_crafting_injector' },
+          total_energy: 64000,
+          result: { item: 'draconicevolution:wyvern_crafting_injector' },
+          id: 'draconicevolution:wyvern_crafting_injector'
+      },
+
+      {
+          inputs: [
+              { item: 'draconicevolution:wyvern_core' },
+              { item: 'draconicevolution:wyvern_core' },
+              { item: 'envirocore:ionite_interconnect' },
+              { item: 'envirocore:ionite_interconnect' },
+              { item: 'mekanism:alloy_atomic' },
+              { item: 'mekanism:alloy_atomic' },
+              { item: 'draconicevolution:awakened_core' },
+              { item: 'draconicevolution:awakened_draconium_block' },
+              { item: 'mekanism:energy_tablet' }
+          ],
+          tier: "WYVERN",
+          catalyst: { item: 'draconicevolution:basic_crafting_injector' },
+          total_energy: 512000,
+          result: { item: 'draconicevolution:awakened_crafting_injector' },
+          id: 'draconicevolution:awakened_crafting_injector'
+      }
     ];
 
     recipes.forEach((recipe) => {
