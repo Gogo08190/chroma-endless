@@ -298,9 +298,28 @@ onEvent('recipes', (event) => {
               { item: 'mekanism:energy_tablet' }
           ],
           tier: "WYVERN",
-          catalyst: { item: 'draconicevolution:basic_crafting_injector' },
+          catalyst: { item: 'draconicevolution:wyvern_crafting_injector' },
           total_energy: 512000,
           result: { item: 'draconicevolution:awakened_crafting_injector' },
+          id: 'draconicevolution:awakened_crafting_injector'
+      },
+
+      {
+          inputs: [
+              { item: 'draconicevolution:large_chaos_frag' },
+              { item: 'draconicevolution:large_chaos_frag' },
+              { item: 'draconicevolution:large_chaos_frag' },
+              { item: 'draconicevolution:large_chaos_frag' },
+              { item: 'envirocore:aethium_interconnect' },
+              { item: 'envirocore:aethium_interconnect' },
+              { item: 'envirocore:aethium_interconnect' },
+              { item: 'minecraft:dragon_egg' },
+              { item: 'mekanism:basic_induction_cell' }
+          ],
+          tier: "DRACONIC",
+          catalyst: { item: 'draconicevolution:awakened_crafting_injector' },
+          total_energy: 10000000,
+          result: { item: 'draconicevolution:chaotic_crafting_injector' },
           id: 'draconicevolution:awakened_crafting_injector'
       }
     ];
