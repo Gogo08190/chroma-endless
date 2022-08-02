@@ -320,7 +320,7 @@ onEvent('recipes', (event) => {
           catalyst: { item: 'draconicevolution:awakened_crafting_injector' },
           total_energy: 10000000,
           result: { item: 'draconicevolution:chaotic_crafting_injector' },
-          id: 'draconicevolution:awakened_crafting_injector'
+          id: 'draconicevolution:chaotic_crafting_injector'
       }
     ];
 
