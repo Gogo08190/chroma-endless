@@ -226,7 +226,45 @@ onEvent('recipes', (event) => {
           total_energy: 100000000,
           result: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:chaotic_bee' }).toJson(),
           id: `${id_prefix}chaotic_bee`
-      }
+      },
+
+      {
+          inputs: [
+              { item: 'draconicevolution:awakened_draconium_ingot' },
+              { item: 'draconicevolution:awakened_draconium_ingot' },
+              { item: 'draconicevolution:awakened_draconium_ingot' },
+              { item: 'draconicevolution:awakened_draconium_ingot' },
+              { item: 'draconicevolution:wyvern_energy_core' },
+              { item: 'draconicevolution:wyvern_energy_core' },
+              { item: 'draconicevolution:wyvern_energy_core' },
+              { item: 'draconicevolution:wyvern_energy_core' },
+              { item: 'draconicevolution:wyvern_core' }
+          ],
+          tier: "WYVERN",
+          catalyst: { item: 'envirocore:pladium_interconnect' },
+          total_energy: 300000,
+          result: { item: 'draconicevolution:draconic_energy_core' },
+          id: 'draconicevolution:components/draconic_energy_core'
+      },
+
+      {
+          inputs: [
+              { item: 'draconicevolution:medium_chaos_frag' },
+              { item: 'draconicevolution:medium_chaos_frag' },
+              { item: 'draconicevolution:medium_chaos_frag' },
+              { item: 'draconicevolution:medium_chaos_frag' },
+              { item: 'draconicevolution:draconic_energy_core' },
+              { item: 'draconicevolution:draconic_energy_core' },
+              { item: 'draconicevolution:draconic_energy_core' },
+              { item: 'draconicevolution:draconic_energy_core' },
+              { item: 'draconicevolution:awakened_core' }
+          ],
+          tier: "DRACONIC",
+          catalyst: { item: 'envirocore:ionite_interconnect' },
+          total_energy: 600000,
+          result: { item: 'draconicevolution:chaotic_energy_core' },
+          id: 'draconicevolution:components/chaotic_energy_core'
+      },
     ];
 
     recipes.forEach((recipe) => {
