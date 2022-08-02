@@ -91,6 +91,15 @@ onEvent('recipes', (event) => {
         infusionInput: 'kubejs:kyronite',
         infusionAmount: 20,
         id: `${id_prefix}unstable_draconium_ingot`
+      },
+
+      //Draconium Core
+      {
+        output: 'draconicevolution:draconium_core',
+        input: 'kubejs:draconium_core_part',
+        infusionInput: 'kubejs:pladium',
+        infusionAmount: 60,
+        id: 'draconicevolution:components/draconium_core'
       }
 
     ];
