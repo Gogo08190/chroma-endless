@@ -115,6 +115,12 @@ onEvent('recipes', (event) => {
           output: { item: 'kubejs:purified_draconium_dust', count: 1 },
           program: 'laser',
           id: `${id_prefix}purified_draconium_dust`
+      },
+      {
+          input: { item: 'ironjetpacks:terrasteel_cell', count: 1 },
+          output: { item: 'ironjetpacks:regalium_cell', count: 1 },
+          program: 'laser',
+          id: `${id_prefix}regalium_cell`
       }
     ];
 

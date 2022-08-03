@@ -844,6 +844,19 @@ onEvent('recipes', (event) => {
             outputFluid: '', // optionnel
             outputFluidAmount: 0, // 0 si pas de fluid
             id: `${id_prefix}inanite_jetpack`
+        },
+        // Inanite cell
+        {
+            inputs: [
+                'ironjetpacks:regalium_cell'
+            ],
+            inputFluid: 'bigreactors:rossnite', // optionnel
+            inputFluidAmount: 500, // 0 si pas de fluid
+            processingTime: 60,
+            outputItem: Item.of('ironjetpacks:inanite_jetpack').toJson(),
+            outputFluid: '', // optionnel
+            outputFluidAmount: 0, // 0 si pas de fluid
+            id: `${id_prefix}inanite_jetpack`
         }
     ];
 

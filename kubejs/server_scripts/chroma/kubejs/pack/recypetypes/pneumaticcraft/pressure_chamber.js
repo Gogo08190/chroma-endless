@@ -256,19 +256,44 @@ onEvent('recipes', (event) => {
         },
         {
           inputs:[
-            { item: 'ironjetpacks:terrasteel_jetpack', count :1},
-            { item: 'elementalcraft:pristine_fire_gem', count: 1},
-            { item: 'undergarden:regalium_block', count: 3},
             { item: 'ironjetpacks:regalium_thruster', count: 2},
-            { item: 'ironjetpacks:regalium_capacitor', count: 1},
-            { item: 'fluxnetworks:flux_block', count: 2},
+            { item: 'undergarden:gloomgourd_pie', count: 1},
             { item: 'ironjetpacks:advanced_coil', count: 2},
-            { item: 'undergarden:gloomgourd_pie', count: 1}
+            { item: 'fluxnetworks:flux_block', count: 2},
+            { item: 'ironjetpacks:terrasteel_jetpack', count :1},
+            { item: 'ironjetpacks:regalium_capacitor', count: 1},
+            { item: 'undergarden:regalium_ingot', count: 6},
+            { item: 'elementalcraft:pristine_fire_gem', count: 1},
           ],
           pressure: 4.0,
           results: [{item : "ironjetpacks:regalium_jetpack"}],
           id: `${id_prefix}regalium_jetpack`
-        }
+        },
+        {
+          inputs:[
+            { item: 'undergarden:regalium_ingot', count: 6},
+            { item: 'undergarden:gloomgourd_pie', count: 1},
+            { item: 'pneumaticcraft:reinforced_air_canister', count: 1},
+            { item: 'ironjetpacks:regalium_cell', count: 2},
+            { item: 'undergarden:utherium_block', count: 1},
+          ],
+          pressure: 3.0,
+          results: [{item : "ironjetpacks:regalium_capacitor"}],
+          id: `${id_prefix}regalium_capacitor`
+        },
+        {
+          inputs:[
+            { item: 'elementalcraft:fireite_ingot', count: 3},
+            { item: 'undergarden:gloomgourd_pie', count: 1},
+            { item: 'pneumaticcraft:reinforced_air_canister', count: 1},
+            { item: 'undergarden:gloomgourd_pie', count: 1},
+            { item: 'undergarden:utherium_ingot', count: 3},
+
+          ],
+          pressure: 3.0,
+          results: [{item : "ironjetpacks:regalium_thruster"}],
+          id: `${id_prefix}regalium_thruster`
+        },
     ];
 
     powahTiers.forEach(function (tier) {

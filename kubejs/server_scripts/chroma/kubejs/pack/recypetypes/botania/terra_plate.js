@@ -46,19 +46,30 @@ onEvent('recipes', (event) => {
       {
           inputs: [
               Item.of('ironjetpacks:otherworldian_jetpack').weakNBT().toJson(),
-              { item: 'ironjetpacks:terrasteel_thruster' },
-              { item: 'ironjetpacks:terrasteel_thruster' },
+              Item.of('tconstruct:tough_handle', '{Material:"materialis:terrasteel"}'),
               { item: 'ars_nouveau:sylph_shards' },
+              { item: 'ironjetpacks:terrasteel_thruster' },
               { item: 'ironjetpacks:terrasteel_capacitor' },
+              { item: 'ironjetpacks:terrasteel_thruster' },
               { item: 'ironjetpacks:advanced_coil' },
+              { item: 'elementalcraft:pristine_earth_gem' },
               { item: 'ironjetpacks:advanced_coil' },
-              Item.of('tconstruct:tough_handle', '{Material:"materialis:terrasteel"}'),
-              Item.of('tconstruct:tough_handle', '{Material:"materialis:terrasteel"}'),
-              { item: 'elementalcraft:pristine_earth_gem' }
+              Item.of('tconstruct:tough_handle', '{Material:"materialis:terrasteel"}')
           ],
           output: Item.of('ironjetpacks:terrasteel_jetpack').toJson(),
           mana: 2500000,
           id: `${id_prefix}terrasteel_jetpack`
+      },
+      {
+          inputs: [
+              { item: 'botania:manasteel_ingot' },
+              { item: 'botania:mana_pearl' },
+              { item: 'ironjetpacks:otherworldian_cell' },
+              { item: 'botania:mana_diamond' }
+          ],
+          output: { item: 'ironjetpacks:terrasteel_cell' },
+          mana: 2500000,
+          id: `${id_prefix}terrastell_cell`
       }
 
     ];

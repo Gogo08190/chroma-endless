@@ -599,4 +599,79 @@ onEvent("recipes", (event) => {
       }
     }
   ).id('draconicevolution:energy_core')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        " A A ",
+        "BCBCB",
+        "BDEDB",
+        "BFGFB",
+        "BBBBB"
+      ],
+      "key": {
+        "A": {
+          "item": "ironjetpacks:stellar_cell"
+        },
+        "B": {
+          "item": "enderioalloys:item_alloy_ingot_stellar_alloy"
+        },
+        "C": {
+          "item": "extendedcrafting:crystaltine_ingot"
+        },
+        "D": {
+          "item": "enderioalloys:item_alloy_ingot_melodic_alloy"
+        },
+        "E": {
+          "item": "mekanism:ultimate_induction_provider"
+        },
+        "F": {
+          "item": "enderioalloys:item_alloy_ingot_end_steel"
+        },
+        "G": {
+          "item": "mekanism:ultimate_induction_cell"
+        }
+      },
+      "result": {
+        "item": 'ironjetpacks:stellar_capacitor'
+      }
+    }
+  ).id(`${id_prefix}stellar_capacitor`)
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "  A  ",
+        " ABA ",
+        "AACAA",
+        "AADAA",
+        "AEFEA"
+      ],
+      "key": {
+        "A": {
+          "item": "enderioalloys:item_alloy_ingot_stellar_alloy"
+        },
+        "B": {
+          "item": "mekanism:ultimate_energy_cube"
+        },
+        "C": {
+          "item": "mekanism:ultimate_induction_provider"
+        },
+        "D": {
+          "item": "mekanism:pellet_polonium"
+        },
+        "E": {
+          "item": "mekanism:superheating_element"
+        },
+        "F": {
+          "item": "mekanismgenerators:heat_generator"
+        }
+      },
+      "result": {
+        "item": 'ironjetpacks:stellar_thruster'
+      }
+    }
+  ).id(`${id_prefix}stellar_thruster`)
 });

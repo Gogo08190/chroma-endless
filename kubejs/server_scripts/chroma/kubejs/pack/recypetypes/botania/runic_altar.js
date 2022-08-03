@@ -435,6 +435,32 @@ onEvent('recipes', (event) => {
         output: 'powah:capacitor_basic',
         count: 1,
         id: 'powah:crafting/capacitor_basic'
+      },
+      {
+        inputs: [
+          'ironjetpacks:terrasteel_cell',
+          'ironjetpacks:terrasteel_cell',
+          'botania:terrasteel_ingot',
+          'botania:rune_fire',
+          Item.of('botania:mana_tablet').weakNBT()
+        ],
+        mana: 20000,
+        output: 'ironjetpacks:terrasteel_capacitor',
+        count: 1,
+        id: `${id_prefix}terrasteel_capacitor`
+      },
+      {
+        inputs: [
+          'botania:endoflame',
+          'botania:endoflame',
+          'botania:terrasteel_ingot',
+          'botania:rune_fire',
+          'botania:spark'
+        ],
+        mana: 20000,
+        output: 'ironjetpacks:terrasteel_thruster',
+        count: 1,
+        id: `${id_prefix}terrasteel_thruster`
       }
 
     ];

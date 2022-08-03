@@ -147,4 +147,12 @@ onEvent('recipes', event => {
   .requireItem('enderioalloys:item_alloy_ingot_dark_steel')
   .requireEnergyPerTick(200)
   .produceItem(Item.of('enderioalloys:item_alloy_ingot_end_steel', 1))
+
+  /* Stellar ernegy cell */
+
+  event.recipes.custommachinery.custom_machine("custommachinery:alloy_smelter", 250)
+  .requireItem('ironjetpacks:inanite_cell')
+  .requireItem('enderioalloys:item_alloy_ingot_stellar_alloy')
+  .requireEnergyPerTick(200)
+  .produceItem(Item.of('ironjetpacks:stellar_cell', 1))
 })

@@ -61,7 +61,28 @@ onEvent('recipes', (event) => {
               R:'extendedcrafting:redstone_ingot'
           },
           id: 'ironjetpacks:ultimate_coil'
-      }
+      },
+      {
+          output: 'ironjetpacks:inanite_thruster',
+          pattern: [' I ', 'IMI', 'ICI'],
+          key: {
+              I:'bigreactors:inanite_ingot',
+              M:'industrialforegoing:mycelial_reactor',
+              C:'industrialforegoing:infinity_charger'
+          },
+          id: `${id_prefix}inanite_thruster`
+      },
+      {
+          output: 'ironjetpacks:inanite_capacitor',
+          pattern: ['C C', 'IPI', 'IPI'],
+          key: {
+              C:'ironjetpacks:inanite_cell',
+              I:'bigreactors:inanite_ingot',
+              P:'bigreactors:reinforced_reactorpowertapfe_passive',
+
+          },
+          id: `${id_prefix}inanite_capacitor`
+      },
     ];
 
     recipes.forEach((recipe) => {
