@@ -82,7 +82,7 @@ onEvent('recipes', (event) => {
             pattern: ['RPR', 'BCB', 'RAR'],
             key: {
                 R: 'enderioalloys:item_alloy_ingot_dark_steel',
-                B: 'refinedpipes:advanced_item_pipe',
+                B: 'refinedpipes:ultimate_energy_pipe',
                 C: 'draconicevolution:draconium_core',
                 A: 'draconicmachinery:redstone_core',
                 P: 'draconicevolution:potentiometer'
