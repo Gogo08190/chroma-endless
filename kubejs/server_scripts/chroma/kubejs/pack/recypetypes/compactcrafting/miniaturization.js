@@ -310,7 +310,7 @@ onEvent('recipes', (event) => {
             pattern: [
               ["R", "R", "R"],
               ["R", "S", "R"],
-              ["R", "R", "R",],
+              ["R", "R", "R"],
             ]
           }
         ],
@@ -331,6 +331,108 @@ onEvent('recipes', (event) => {
         outputs: [{
           id: 'compactmachines:wall',
           Count: 4
+        }]
+      },
+
+      {
+        recipeSize: 5,
+        layers: [
+          {
+            type: 'compactcrafting:mixed',
+            pattern: [
+              ["A", "A", "A", "A", "A"],
+              ["A", "B", "B", "B", "A"],
+              ["A", "B", "B", "B", "A"],
+              ["A", "B", "B", "B", "A"],
+              ["A", "A", "A", "A", "A"],
+            ]
+          },
+          {
+            type: 'compactcrafting:mixed',
+            pattern: [
+              ["A", "C", "C", "C", "A"],
+              ["B", "D", "E", "D", "B"],
+              ["B", "E", "H", "E", "B"],
+              ["B", "D", "E", "D", "B"],
+              ["A", "B", "B", "B", "A"],
+            ]
+          },
+          {
+            type: 'compactcrafting:mixed',
+            pattern: [
+              ["A", "C", "C", "C", "A"],
+              ["B", "D", "E", "D", "B"],
+              ["F", "E", "G", "E", "F"],
+              ["B", "D", "E", "D", "B"],
+              ["A", "B", "F", "B", "A"],
+            ]
+          },
+          {
+            type: 'compactcrafting:mixed',
+            pattern: [
+              ["A", "C", "C", "C", "A"],
+              ["B", "D", "E", "D", "B"],
+              ["B", "E", "I", "E", "B"],
+              ["B", "D", "E", "D", "B"],
+              ["A", "B", "B", "B", "A"],
+            ]
+          },
+          {
+            type: 'compactcrafting:mixed',
+            pattern: [
+              ["A", "A", "A", "A", "A"],
+              ["A", "B", "B", "B", "A"],
+              ["A", "B", "B", "B", "A"],
+              ["A", "B", "B", "B", "A"],
+              ["A", "A", "A", "A", "A"],
+            ]
+          }
+        ],
+        catalyst: {
+          id: 'create:electron_tube',
+          Count: 1
+        },
+        components: {
+          'A': {
+            type: "compactcrafting:block",
+            block: 'create:shadow_steel_casing'
+          },
+          'B': {
+            type: "compactcrafting:block",
+            block: 'occultism:otherstone'
+          },
+          'C': {
+            type: "compactcrafting:block",
+            block: 'create:framed_glass'
+          },
+          'D': {
+            type: "compactcrafting:block",
+            block: 'immersiveengineering:heavy_engineering'
+          },
+          'E': {
+            type: "compactcrafting:block",
+            block: 'create:refined_radiance_casing'
+          },
+          'F': {
+            type: "compactcrafting:block",
+            block: 'create:encased_fan'
+          },
+          'G': {
+            type: "compactcrafting:block",
+            block: 'create:spout'
+          },
+          'I': {
+            type: "compactcrafting:block",
+            block: 'create:fluid_tank'
+          },
+          'H': {
+            type: "compactcrafting:block",
+            block: 'create:portable_fluid_interface'
+          }
+        },
+        outputs: [{
+          id: 'masterfulmachinery:autoinfuser_controller',
+          Count: 1
         }]
       },
     ];
