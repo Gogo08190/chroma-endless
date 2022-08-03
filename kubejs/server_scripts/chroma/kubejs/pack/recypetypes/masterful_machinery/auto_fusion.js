@@ -4,8 +4,8 @@ onEvent('recipes', (event) => {
       {
           outputs: [{ type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:basic_catalyst', count: 1 } }],
           inputs: [
-              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:basic_component', count: 4 } },
-              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_ingot', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:basic_component', count: 4 }, consumeInstantly: true },
+              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_ingot', count: 1 }, consumeInstantly: true },
               { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
           ],
           ticks: 240,
@@ -14,8 +14,8 @@ onEvent('recipes', (event) => {
       {
           outputs: [{ type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:advanced_catalyst', count: 1 } }],
           inputs: [
-              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:advanced_component', count: 4 } },
-              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_ingot', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:advanced_component', count: 4 }, consumeInstantly: true },
+              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_ingot', count: 1 }, consumeInstantly: true },
               { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
           ],
           ticks: 240,
@@ -24,8 +24,8 @@ onEvent('recipes', (event) => {
       {
           outputs: [{ type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:elite_catalyst', count: 1 } }],
           inputs: [
-              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:elite_component', count: 4 } },
-              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_ingot', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:elite_component', count: 4 }, consumeInstantly: true },
+              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_ingot', count: 1 }, consumeInstantly: true },
               { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
           ],
           ticks: 240,
@@ -34,8 +34,8 @@ onEvent('recipes', (event) => {
       {
           outputs: [{ type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:ultimate_catalyst', count: 1 } }],
           inputs: [
-              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:ultimate_component', count: 4 } },
-              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_ingot', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:ultimate_component', count: 4 }, consumeInstantly: true },
+              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_ingot', count: 1 }, consumeInstantly: true },
               { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
           ],
           ticks: 240,
@@ -44,18 +44,18 @@ onEvent('recipes', (event) => {
       {
           outputs: [{ type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:redstone_catalyst', count: 1 } }],
           inputs: [
-              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:redstone_component', count: 4 } },
-              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_ingot', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:redstone_component', count: 4 }, consumeInstantly: true },
+              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_ingot', count: 1 }, consumeInstantly: true },
               { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
           ],
           ticks: 240,
           id: 'extendedcrafting:redstone_catalyst'
       },
       {
-          outputs: [{ type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:ender_catalyst', count: 1 } }],
+          outputs: [{ type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:ender_catalyst', count: 1 }, consumeInstantly: true }],
           inputs: [
-              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:ender_component', count: 4 } },
-              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_ingot', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:ender_component', count: 4 }, consumeInstantly: true },
+              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_ingot', count: 1 }, consumeInstantly: true },
               { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
           ],
           ticks: 240,
@@ -64,8 +64,8 @@ onEvent('recipes', (event) => {
       {
           outputs: [{ type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:enhanced_ender_catalyst', count: 1 } }],
           inputs: [
-              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:enhanced_ender_component', count: 4 } },
-              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_ingot', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:enhanced_ender_component', count: 4 }, consumeInstantly: true },
+              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_ingot', count: 1 }, consumeInstantly: true },
               { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
           ],
           ticks: 240,
@@ -74,8 +74,8 @@ onEvent('recipes', (event) => {
       {
           outputs: [{ type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:crystaltine_catalyst', count: 1 } }],
           inputs: [
-              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:crystaltine_component', count: 4 } },
-              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_ingot', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:crystaltine_component', count: 4 }, consumeInstantly: true },
+              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_ingot', count: 1 }, consumeInstantly: true },
               { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
           ],
           ticks: 240,
@@ -84,8 +84,8 @@ onEvent('recipes', (event) => {
       {
           outputs: [{ type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:the_ultimate_catalyst', count: 1 } }],
           inputs: [
-              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:the_ultimate_component', count: 4 } },
-              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_ingot', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:the_ultimate_component', count: 4 }, consumeInstantly: true },
+              { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_ingot', count: 1 }, consumeInstantly: true },
               { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
           ],
           ticks: 240,
@@ -94,15 +94,37 @@ onEvent('recipes', (event) => {
       {
           outputs: [{ type: 'masterfulmachinery:items', data: { item: 'kubejs:inert_luminessence', count: 4 } }],
           inputs: [
-              { type: 'masterfulmachinery:items', data: { item: 'botania:pixie_dust', count: 1 } },
-              { type: 'masterfulmachinery:items', data: { item: 'occultism:iesnium_dust', count: 1 } },
-              { type: 'masterfulmachinery:items', data: { item: 'botania:mana_powder', count: 1 } },
-              { type: 'masterfulmachinery:items', data: { item: 'occultism:spirit_attuned_gem', count: 1 } },
-              { type: 'masterfulmachinery:items', data: { item: 'occultism:afrit_essence', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'botania:pixie_dust', count: 1 }, consumeInstantly: true },
+              { type: 'masterfulmachinery:items', data: { item: 'occultism:iesnium_dust', count: 1 }, consumeInstantly: true },
+              { type: 'masterfulmachinery:items', data: { item: 'botania:mana_powder', count: 1 }, consumeInstantly: true },
+              { type: 'masterfulmachinery:items', data: { item: 'occultism:spirit_attuned_gem', count: 1 }, consumeInstantly: true },
+              { type: 'masterfulmachinery:items', data: { item: 'occultism:afrit_essence', count: 1 }, consumeInstantly: true },
               { type: 'masterfulmachinery:energy', data: { amount: 5000 } }
           ],
           ticks: 240,
           id: `${id_prefix}inert_luminessence`
+      },
+      {
+          outputs: [{ type: 'masterfulmachinery:items', data: { item: 'kubejs:draconium_core_part', count: 1 } }],
+          inputs: [
+              { type: 'masterfulmachinery:items', data: { item: 'botania:mana_diamond', count: 1 }, consumeInstantly: true },
+              { type: 'masterfulmachinery:items', data: { item: 'draconicevolution:draconium_ingot', count: 4 }, consumeInstantly: true },
+              { type: 'masterfulmachinery:items', data: { item: 'minecraft:gold_ingot', count: 4 }, consumeInstantly: true },
+              { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
+          ],
+          ticks: 240,
+          id: `${id_prefix}draconium_core_part`
+      },
+      {
+          outputs: [{ type: 'masterfulmachinery:items', data: { item: 'draconicevolution:wyvern_core', count: 1 } }],
+          inputs: [
+              { type: 'masterfulmachinery:items', data: { item: 'draconicevolution:draconium_core', count: 4 }, consumeInstantly: true },
+              { type: 'masterfulmachinery:items', data: { item: 'draconicevolution:draconium_ingot', count: 4 }, consumeInstantly: true },
+              { type: 'masterfulmachinery:items', data: { item: 'minecraft:nether_star', count: 1 }, consumeInstantly: true },
+              { type: 'masterfulmachinery:energy', data: { amount: 5000 } }
+          ],
+          ticks: 240,
+          id: 'draconicevolution:components/wyvern_core'
       }
     ];
 

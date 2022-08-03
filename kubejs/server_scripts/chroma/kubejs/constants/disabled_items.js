@@ -109,5 +109,14 @@ const disabledItems = [
     'mob_grinding_utils:spikes',
     'mob_grinding_utils:entity_spawner',
     'mob_grinding_utils:rotten_egg',
-    'mob_grinding_utils:golden_egg'
+    'mob_grinding_utils:golden_egg',
+
+    'draconicmachinery:information_plate',
+    'draconicmachinery:compact_energy_core',
+    'draconicmachinery:wireless_activator',
+    'draconicmachinery:anchor',
+    'draconicadditions:inert_potato_helm',
+    'draconicadditions:inert_potato_chest',
+    'draconicadditions:inert_potato_legs',
+    'draconicadditions:inert_potato_boots'
 ];

@@ -9,7 +9,14 @@ onEvent('recipes', (event) => {
                 max_temp: 273,
                 bonus_output: { multiplier: 0.01, limit: 0.75 },
                 id: 'industrialforegoing:plastic',
-            }
+            },
+            {
+                input: { item: 'kubejs:unstable_draconium_ingot' },
+                output: { item: 'draconicevolution:draconium_ingot' },
+                max_temp: 273,
+                bonus_output: { multiplier: 0.01, limit: 0.50 },
+                id: `${id_prefix}draconium_ingot`,
+            },
         ]
     };
 

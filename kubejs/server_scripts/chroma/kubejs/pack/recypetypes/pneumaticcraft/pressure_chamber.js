@@ -262,7 +262,6 @@ onEvent('recipes', (event) => {
             { item: 'ironjetpacks:regalium_thruster', count: 2},
             { item: 'ironjetpacks:regalium_capacitor', count: 1},
             { item: 'fluxnetworks:flux_block', count: 2},
-            { item: 'elementalcraft:fireite_block', count: 2},
             { item: 'ironjetpacks:advanced_coil', count: 2},
             { item: 'undergarden:gloomgourd_pie', count: 1}
           ],

@@ -226,6 +226,101 @@ onEvent('recipes', (event) => {
           total_energy: 100000000,
           result: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:chaotic_bee' }).toJson(),
           id: `${id_prefix}chaotic_bee`
+      },
+
+      {
+          inputs: [
+              { item: 'draconicevolution:awakened_draconium_ingot' },
+              { item: 'draconicevolution:awakened_draconium_ingot' },
+              { item: 'draconicevolution:awakened_draconium_ingot' },
+              { item: 'draconicevolution:awakened_draconium_ingot' },
+              { item: 'draconicevolution:wyvern_energy_core' },
+              { item: 'draconicevolution:wyvern_energy_core' },
+              { item: 'draconicevolution:wyvern_energy_core' },
+              { item: 'draconicevolution:wyvern_energy_core' },
+              { item: 'draconicevolution:wyvern_core' }
+          ],
+          tier: "WYVERN",
+          catalyst: { item: 'envirocore:pladium_interconnect' },
+          total_energy: 300000,
+          result: { item: 'draconicevolution:draconic_energy_core' },
+          id: 'draconicevolution:components/draconic_energy_core'
+      },
+
+      {
+          inputs: [
+              { item: 'draconicevolution:medium_chaos_frag' },
+              { item: 'draconicevolution:medium_chaos_frag' },
+              { item: 'draconicevolution:medium_chaos_frag' },
+              { item: 'draconicevolution:medium_chaos_frag' },
+              { item: 'draconicevolution:draconic_energy_core' },
+              { item: 'draconicevolution:draconic_energy_core' },
+              { item: 'draconicevolution:draconic_energy_core' },
+              { item: 'draconicevolution:draconic_energy_core' },
+              { item: 'draconicevolution:awakened_core' }
+          ],
+          tier: "DRACONIC",
+          catalyst: { item: 'envirocore:ionite_interconnect' },
+          total_energy: 600000,
+          result: { item: 'draconicevolution:chaotic_energy_core' },
+          id: 'draconicevolution:components/chaotic_energy_core'
+      },
+
+      {
+          inputs: [
+              { item: 'draconicevolution:draconium_core' },
+              { item: 'draconicevolution:draconium_core' },
+              { item: 'envirocore:kyronite_interconnect' },
+              { item: 'envirocore:kyronite_interconnect' },
+              { item: 'mekanism:alloy_reinforced' },
+              { item: 'mekanism:alloy_reinforced' },
+              { item: 'draconicevolution:wyvern_core' },
+              { item: 'draconicevolution:draconium_block' },
+              { item: 'mekanism:energy_tablet' }
+          ],
+          tier: "DRACONIUM",
+          catalyst: { item: 'draconicevolution:basic_crafting_injector' },
+          total_energy: 64000,
+          result: { item: 'draconicevolution:wyvern_crafting_injector' },
+          id: 'draconicevolution:wyvern_crafting_injector'
+      },
+
+      {
+          inputs: [
+              { item: 'draconicevolution:wyvern_core' },
+              { item: 'draconicevolution:wyvern_core' },
+              { item: 'envirocore:ionite_interconnect' },
+              { item: 'envirocore:ionite_interconnect' },
+              { item: 'mekanism:alloy_atomic' },
+              { item: 'mekanism:alloy_atomic' },
+              { item: 'draconicevolution:awakened_core' },
+              { item: 'draconicevolution:awakened_draconium_block' },
+              { item: 'mekanism:energy_tablet' }
+          ],
+          tier: "WYVERN",
+          catalyst: { item: 'draconicevolution:wyvern_crafting_injector' },
+          total_energy: 512000,
+          result: { item: 'draconicevolution:awakened_crafting_injector' },
+          id: 'draconicevolution:awakened_crafting_injector'
+      },
+
+      {
+          inputs: [
+              { item: 'draconicevolution:large_chaos_frag' },
+              { item: 'draconicevolution:large_chaos_frag' },
+              { item: 'draconicevolution:large_chaos_frag' },
+              { item: 'draconicevolution:large_chaos_frag' },
+              { item: 'envirocore:aethium_interconnect' },
+              { item: 'envirocore:aethium_interconnect' },
+              { item: 'envirocore:aethium_interconnect' },
+              { item: 'minecraft:dragon_egg' },
+              { item: 'mekanism:basic_induction_cell' }
+          ],
+          tier: "DRACONIC",
+          catalyst: { item: 'draconicevolution:awakened_crafting_injector' },
+          total_energy: 10000000,
+          result: { item: 'draconicevolution:chaotic_crafting_injector' },
+          id: 'draconicevolution:chaotic_crafting_injector'
       }
     ];
 

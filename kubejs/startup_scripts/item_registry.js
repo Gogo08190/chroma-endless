@@ -57,7 +57,8 @@ onEvent('item.registry', (event) => {
         'purified_draconium_dust',
         'sac',
         'noli',
-        'enriched_energized_uranium'
+        'enriched_energized_uranium',
+        'draconium_core_part'
     ];
 
     generalItems.forEach((item) => {

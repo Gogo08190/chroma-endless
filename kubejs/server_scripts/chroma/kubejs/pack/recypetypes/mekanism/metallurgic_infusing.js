@@ -84,6 +84,24 @@ onEvent('recipes', (event) => {
         id: 'powah:crafting/dielectric_paste'
       },
 
+      //Unstable Draconium Ingot
+      {
+        output: 'kubejs:unstable_draconium_ingot',
+        input: 'kubejs:purified_draconium_dust',
+        infusionInput: 'kubejs:kyronite',
+        infusionAmount: 20,
+        id: `${id_prefix}unstable_draconium_ingot`
+      },
+
+      //Draconium Core
+      {
+        output: 'draconicevolution:draconium_core',
+        input: 'kubejs:draconium_core_part',
+        infusionInput: 'kubejs:pladium',
+        infusionAmount: 60,
+        id: 'draconicevolution:components/draconium_core'
+      }
+
     ];
 
     recipes.forEach((recipe) => {

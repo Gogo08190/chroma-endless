@@ -460,6 +460,57 @@ onEvent('recipes', (event) => {
           },
           id: `${id_prefix}nitro_bee`
       },
+      //Wyvern Energy Core
+      {
+          ingredients: [
+              { item: 'draconicevolution:draconium_core' },
+              { item: 'draconicevolution:draconium_ingot' },
+              { item: 'draconicevolution:draconium_ingot' },
+              { item: 'draconicevolution:draconium_ingot' },
+              { item: 'draconicevolution:draconium_ingot' },
+              { item: 'enderioalloys:block_alloy_redstone_alloy' }
+          ],
+          energy: 150000,
+          result: {
+              item: 'draconicevolution:wyvern_energy_core',
+              count: 1
+          },
+          id: 'draconicevolution:components/wyvern_energy_core'
+      },
+      //Crafting Core
+      {
+          ingredients: [
+              { item: 'draconicevolution:draconium_core' },
+              { item: 'envirocore:pladium_interconnect' },
+              { item: 'envirocore:pladium_interconnect' },
+              { item: 'envirocore:pladium_interconnect' },
+              { item: 'envirocore:pladium_interconnect' },
+              { item: 'mekanism:alloy_atomic' }
+          ],
+          energy: 1000000,
+          result: {
+              item: 'draconicevolution:crafting_core',
+              count: 1
+          },
+          id: 'draconicevolution:crafting_core'
+      },
+      //Crafting Core
+      {
+          ingredients: [
+              { item: 'draconicevolution:draconium_core' },
+              { item: 'extendedcrafting:black_iron_block' },
+              { item: 'envirocore:ionite_interconnect' },
+              { item: 'envirocore:ionite_interconnect' },
+              { item: 'mekanism:ultimate_control_circuit' },
+              { item: 'mekanism:energy_tablet' }
+          ],
+          energy: 500000,
+          result: {
+              item: 'draconicevolution:basic_crafting_injector',
+              count: 1
+          },
+          id: 'draconicevolution:basic_crafting_injector'
+      }
     ];
 
     recipes.forEach((recipe) => {
