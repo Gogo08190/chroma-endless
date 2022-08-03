@@ -100,6 +100,15 @@ onEvent('recipes', (event) => {
         infusionInput: 'kubejs:pladium',
         infusionAmount: 60,
         id: 'draconicevolution:components/draconium_core'
+      },
+
+      //Wyvern Core
+      {
+        output: 'draconicevolution:wyvern_core',
+        input: 'kubejs:wyvern_core_part',
+        infusionInput: 'kubejs:ludicrite',
+        infusionAmount: 60,
+        id: 'draconicevolution:components/wyvern_core'
       }
 
     ];
