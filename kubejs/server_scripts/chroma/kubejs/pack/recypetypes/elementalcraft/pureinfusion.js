@@ -111,7 +111,21 @@ onEvent('recipes', (event) => {
           element_amount: 15000,
           output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:forgotten_bee' }).toJson(),
           id: `${id_prefix}forgotten_bee`
-      }
+      },
+
+      // Afrit Essence 
+      {
+            inputs: [
+                { item: 'thermal:xp_crystal' },
+                { item: 'occultism:iesnium_ingot' },
+                { item: 'elementalcraft:powerful_fire_shard' },
+                { item: 'emendatusenigmatica:arcane_gem' },
+                { item: 'botania:pixie_dust' }
+            ],
+            element_amount: 15000,
+            output: 'occultism:afrit_essence',
+            id: 'occultism:afrit_essence'
+        }
     ];
 
     recipes.forEach((recipe) => {
