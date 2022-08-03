@@ -124,7 +124,7 @@ onEvent('recipes', (event) => {
             ],
             element_amount: 20000,
             output: 'occultism:afrit_essence',
-            id: 'occultism:afrit_essence'
+          id: `${id_prefix}afrit_essence`
         }
     ];
 
