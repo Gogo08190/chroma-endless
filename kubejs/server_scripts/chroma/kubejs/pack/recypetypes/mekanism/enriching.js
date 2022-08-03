@@ -37,11 +37,32 @@ onEvent('recipes', (event) => {
         id: 'mekanism:enriching/enriched/diamond'
       },
 
-      //Terrasteel
+      //Enriched Energized Uranium
       {
-        input: 'botania:terrasteel_ingot',
-        output: 'kubejs:enriched_terrasteel',
-        id: 'mekanism:enriching/enriched/terrasteel'
+        input: 'kubejs:energized_uranium',
+        output: 'kubejs:enriched_energized_uranium',
+        id: `${id_prefix}enriched_energized_uranium`
+      },
+
+      //Enriched Kyronite
+      {
+        input: 'envirocore:kyronite_powder',
+        output: 'kubejs:enriched_kyronite',
+        id: `${id_prefix}enriched_kyronite`
+      },
+
+      //Enriched Pladium
+      {
+        input: 'envirocore:pladium_powder',
+        output: 'kubejs:enriched_pladium',
+        id: `${id_prefix}enriched_pladium`
+      },
+
+      //Enriched Ludicrite
+      {
+        input: 'bigreactors:ludicrite_ingot',
+        output: 'kubejs:enriched_ludicrite',
+        id: `${id_prefix}enriched_ludicrite`
       }
 
     ];
