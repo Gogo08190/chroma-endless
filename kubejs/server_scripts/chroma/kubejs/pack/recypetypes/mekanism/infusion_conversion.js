@@ -16,9 +16,9 @@ onEvent('recipes', (event) => {
         id: `${id_prefix}uranium_from_block`
       },
 
-      //Enriched Uranium WIP
+      //Enriched Uranium
       {
-        input: { ingredient: { item: 'kubejs:enriched_terrasteel' } },
+        input: { ingredient: { item: 'kubejs:enriched_energized_uranium' } },
         output: { amount: 80, infuse_type: 'kubejs:uranium' },
         id: `${id_prefix}uranium_from_enriched`
       },
@@ -30,11 +30,25 @@ onEvent('recipes', (event) => {
         id: `${id_prefix}kyronite`
       },
 
+      //Enriched Kyronite
+      {
+        input: { ingredient: { item: 'kubejs:enriched_kyronite' } },
+        output: { amount: 80, infuse_type: 'kubejs:kyronite' },
+        id: `${id_prefix}kyronite_from_enriched`
+      },
+
       //Pladium
       {
         input: { ingredient: { item: 'envirocore:pladium_powder' } },
         output: { amount: 10, infuse_type: 'kubejs:pladium' },
         id: `${id_prefix}pladium`
+      },
+
+      //Enriched Pladium
+      {
+        input: { ingredient: { item: 'kubejs:enriched_pladium' } },
+        output: { amount: 80, infuse_type: 'kubejs:pladium' },
+        id: `${id_prefix}pladium_from_enriched`
       },
 
       //Ludicrite Ingot
@@ -50,6 +64,14 @@ onEvent('recipes', (event) => {
         output: { amount: 90, infuse_type: 'kubejs:ludicrite' },
         id: `${id_prefix}ludicrite_from_block`
       },
+
+
+      //Enriched Ludicrite
+      {
+        input: { ingredient: { item: 'kubejs:enriched_ludicrite' } },
+        output: { amount: 80, infuse_type: 'kubejs:ludicrite' },
+        id: `${id_prefix}ludicrite_from_enriched`
+      }
     ]
 
     recipes.forEach((recipe) => {
