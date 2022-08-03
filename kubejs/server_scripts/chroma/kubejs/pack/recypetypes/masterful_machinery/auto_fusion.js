@@ -116,7 +116,7 @@ onEvent('recipes', (event) => {
           id: `${id_prefix}draconium_core_part`
       },
       {
-          outputs: [{ type: 'masterfulmachinery:items', data: { item: 'draconicevolution:wyvern_core', count: 1 } }],
+          outputs: [{ type: 'masterfulmachinery:items', data: { item: 'kubejs:wyvern_core_part', count: 1 } }],
           inputs: [
               { type: 'masterfulmachinery:items', data: { item: 'draconicevolution:draconium_core', count: 1 }, consumeInstantly: true },
               { type: 'masterfulmachinery:items', data: { item: 'draconicevolution:draconium_ingot', count: 4 }, consumeInstantly: true },
