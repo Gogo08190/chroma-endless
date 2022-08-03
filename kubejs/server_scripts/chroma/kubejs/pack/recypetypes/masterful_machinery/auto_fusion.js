@@ -118,13 +118,13 @@ onEvent('recipes', (event) => {
       {
           outputs: [{ type: 'masterfulmachinery:items', data: { item: 'draconicevolution:wyvern_core', count: 1 } }],
           inputs: [
-              { type: 'masterfulmachinery:items', data: { item: 'draconicevolution:draconium_core', count: 4 }, consumeInstantly: true },
+              { type: 'masterfulmachinery:items', data: { item: 'draconicevolution:draconium_core', count: 1 }, consumeInstantly: true },
               { type: 'masterfulmachinery:items', data: { item: 'draconicevolution:draconium_ingot', count: 4 }, consumeInstantly: true },
               { type: 'masterfulmachinery:items', data: { item: 'minecraft:nether_star', count: 1 }, consumeInstantly: true },
               { type: 'masterfulmachinery:energy', data: { amount: 5000 } }
           ],
           ticks: 240,
-          id: 'draconicevolution:components/wyvern_core'
+          id: `${id_prefix}wyvern_core_part`
       }
     ];
 
