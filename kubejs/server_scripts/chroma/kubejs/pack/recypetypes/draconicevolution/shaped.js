@@ -68,14 +68,14 @@ onEvent('recipes', (event) => {
             id: 'draconicevolution:energy_pylon'
         },
         {
-            output: 'draconicevolution:energy_pylon',
+            output: 'draconicevolution:particle_generator',
             pattern: ['RBR', 'BCB', 'RBR'],
             key: {
                 R: '#forge:ingots/inanite',
                 B: 'rftoolspower:blazing_rod',
                 C: 'draconicevolution:draconium_core'
             },
-            id: 'draconicevolution:energy_pylon'
+            id: 'draconicevolution:particle_generator'
         },
         {
             output: 'draconicevolution:flux_gate',
