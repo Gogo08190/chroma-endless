@@ -58,7 +58,8 @@ onEvent('item.registry', (event) => {
         'sac',
         'noli',
         'enriched_energized_uranium',
-        'draconium_core_part'
+        'draconium_core_part',
+        'wyvern_core_part'
     ];
 
     generalItems.forEach((item) => {
