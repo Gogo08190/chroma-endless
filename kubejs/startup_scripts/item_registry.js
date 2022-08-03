@@ -56,7 +56,8 @@ onEvent('item.registry', (event) => {
         'unstable_draconium_ingot',
         'purified_draconium_dust',
         'sac',
-        'noli'
+        'noli',
+        'enriched_energized_uranium'
     ];
 
     generalItems.forEach((item) => {
