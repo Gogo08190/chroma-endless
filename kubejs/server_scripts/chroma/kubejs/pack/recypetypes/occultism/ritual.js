@@ -322,7 +322,26 @@ onEvent('recipes', (event) => {
             ],
             result: 'masterfulmachinery:fusioner_compact_energy_port_energy_input',
             id: `${id_prefix}fusioner_compact_energy_port_energy_input`
-        }
+        },
+        {
+            ritual_type: 'occultism:craft_with_spirit_name',
+            activation_item: 'create:brass_hand',
+            pentacle_id: 'occultism:possess_foliot',
+            duration: 100,
+            ritual_dummy: 'masterfulmachinery:fusioner_compact_item_port_items_output',
+            ingredients: [
+                'emendatusenigmatica:enderium_ingot',
+                'occultism:iesnium_ingot',
+                'emendatusenigmatica:enderium_ingot',
+                'expandedstorage:netherite_chest',
+                'emendatusenigmatica:enderium_ingot',
+                'occultism:iesnium_ingot',
+                'emendatusenigmatica:enderium_ingot',
+                'refinedpipes:advanced_item_pipe'
+            ],
+            result: 'masterfulmachinery:fusioner_compact_item_port_items_output',
+            id: `${id_prefix}fusioner_compact_item_port_items_output`
+        },
     ];
 
     recipes.forEach((recipe) => {
