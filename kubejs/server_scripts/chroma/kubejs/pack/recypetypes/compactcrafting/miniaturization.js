@@ -541,9 +541,9 @@ onEvent('recipes', (event) => {
             type: 'compactcrafting:mixed',
             pattern: [
               ["A", "B", "B", "B", "A"],
-              ["B", "B", "B", "B", "B"],
-              ["B", "B", "B", "B", "B"],
-              ["B", "B", "B", "B", "B"],
+              ["B", "D", "D", "D", "B"],
+              ["B", "D", "D", "D", "B"],
+              ["B", "D", "D", "D", "B"],
               ["A", "B", "B", "B", "A"],
             ]
           },
@@ -651,9 +651,9 @@ onEvent('recipes', (event) => {
             type: 'compactcrafting:mixed',
             pattern: [
               ["A", "B", "B", "B", "A"],
-              ["B", "B", "B", "B", "B"],
-              ["B", "B", "J", "B", "B"],
-              ["B", "B", "B", "B", "B"],
+              ["B", "D", "D", "D", "B"],
+              ["B", "D", "J", "D", "B"],
+              ["B", "D", "D", "D", "B"],
               ["A", "B", "B", "B", "A"],
             ]
           },
