@@ -674,4 +674,43 @@ onEvent("recipes", (event) => {
       }
     }
   ).id(`${id_prefix}stellar_thruster`)
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCBA",
+        "BDEDB",
+        "FEGEF",
+        "BDEDB",
+        "ABCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "mekanism:ultimate_bin"
+        },
+        "B": {
+          "item": "create:shadow_steel_casing"
+        },
+        "C": {
+          "item": "mekanism:qio_exporter"
+        },
+        "D": {
+          "item": "draconicevolution:draconium_ingot"
+        },
+        "E": {
+          "item": "mekanism:teleportation_core"
+        },
+        "F": {
+          "item": "mekanism:qio_drive_base"
+        },
+        "G": {
+          "item": "mekanism:steel_casing"
+        }
+      },
+      "result": {
+        "item": "masterfulmachinery:endlessreactor_endless_item_port_items_output"
+      }
+    }
+  ).id(`${id_prefix}endlessreactor_endless_item_port_items_output`)
 });
