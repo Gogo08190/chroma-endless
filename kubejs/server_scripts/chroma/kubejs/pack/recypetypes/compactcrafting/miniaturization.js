@@ -435,6 +435,320 @@ onEvent('recipes', (event) => {
           Count: 1
         }]
       },
+
+      {
+        recipeSize: 5,
+        layers: [
+          {
+            type: 'compactcrafting:mixed',
+            pattern: [
+              ["A", "B", "B", "B", "A"],
+              ["B", "B", "B", "B", "B"],
+              ["B", "B", "B", "B", "B"],
+              ["B", "B", "B", "B", "B"],
+              ["A", "B", "B", "B", "A"],
+            ]
+          },
+          {
+            type: 'compactcrafting:mixed',
+            pattern: [
+              ["B", "C", "C", "C", "B"],
+              ["B", "D", "E", "D", "B"],
+              ["B", "E", "F", "E", "B"],
+              ["B", "D", "E", "D", "B"],
+              ["B", "B", "B", "B", "B"],
+            ]
+          },
+          {
+            type: 'compactcrafting:mixed',
+            pattern: [
+              ["B", "C", "C", "C", "B"],
+              ["B", "D", "D", "D", "B"],
+              ["G", "F", "H", "F", "G"],
+              ["B", "D", "F", "D", "B"],
+              ["B", "B", "G", "B", "B"],
+            ]
+          },
+          {
+            type: 'compactcrafting:mixed',
+            pattern: [
+              ["B", "C", "C", "C", "B"],
+              ["B", "D", "E", "D", "B"],
+              ["B", "E", "F", "E", "B"],
+              ["B", "D", "E", "D", "B"],
+              ["B", "B", "B", "B", "B"],
+            ]
+          },
+          {
+            type: 'compactcrafting:mixed',
+            pattern: [
+              ["A", "B", "B", "B", "A"],
+              ["B", "B", "B", "B", "B"],
+              ["B", "B", "B", "B", "B"],
+              ["B", "B", "B", "B", "B"],
+              ["A", "B", "B", "B", "A"],
+            ]
+          }
+        ],
+        catalyst: {
+          id: 'envirocore:cpu',
+          Count: 1
+        },
+        components: {
+          'A': {
+            type: "compactcrafting:block",
+            block: 'emendatusenigmatica:aluminum_block'
+          },
+          'B': {
+            type: "compactcrafting:block",
+            block: 'envirocore:structure_panel'
+          },
+          'C': {
+            type: "compactcrafting:block",
+            block: 'envirocore:mica'
+          },
+          'D': {
+            type: "compactcrafting:block",
+            block: 'envirocore:litherite_frame'
+          },
+          'E': {
+            type: "compactcrafting:block",
+            block: 'envirocore:litherite'
+          },
+          'F': {
+            type: "compactcrafting:block",
+            block: 'mekanism:ultimate_induction_cell'
+          },
+          'G': {
+            type: "compactcrafting:block",
+            block: 'extendedcrafting:ender_star_block'
+          },
+          'H': {
+            type: "compactcrafting:block",
+            block: 'mekanism:steel_casing'
+          }
+        },
+        outputs: [{
+          id: 'masterfulmachinery:cuttingmachine_controller',
+          Count: 1
+        }]
+      },
+
+      {
+        recipeSize: 5,
+        layers: [
+          {
+            type: 'compactcrafting:mixed',
+            pattern: [
+              ["A", "B", "B", "B", "A"],
+              ["B", "B", "B", "B", "B"],
+              ["B", "B", "B", "B", "B"],
+              ["B", "B", "B", "B", "B"],
+              ["A", "B", "B", "B", "A"],
+            ]
+          },
+          {
+            type: 'compactcrafting:mixed',
+            pattern: [
+              ["B", "C", "C", "C", "B"],
+              ["D", "E", "F", "E", "D"],
+              ["D", "G", "H", "G", "D"],
+              ["D", "E", "G", "E", "D"],
+              ["B", "D", "D", "D", "B"],
+            ]
+          },
+          {
+            type: 'compactcrafting:mixed',
+            pattern: [
+              ["B", "C", "C", "C", "B"],
+              ["D", "E", "G", "E", "D"],
+              ["D", "I", "J", "I", "D"],
+              ["D", "E", "I", "E", "D"],
+              ["B", "D", "D", "D", "B"],
+            ]
+          },
+          {
+            type: 'compactcrafting:mixed',
+            pattern: [
+              ["B", "C", "C", "C", "B"],
+              ["D", "E", "F", "E", "D"],
+              ["D", "G", "K", "G", "D"],
+              ["D", "E", "G", "E", "D"],
+              ["B", "D", "D", "D", "B"],
+            ]
+          },
+          {
+            type: 'compactcrafting:mixed',
+            pattern: [
+              ["A", "B", "B", "B", "A"],
+              ["B", "B", "B", "B", "B"],
+              ["B", "B", "B", "B", "B"],
+              ["B", "B", "B", "B", "B"],
+              ["A", "B", "B", "B", "A"],
+            ]
+          }
+        ],
+        catalyst: {
+          id: 'immersiveengineering:electron_tube',
+          Count: 1
+        },
+        components: {
+          'A': {
+            type: "compactcrafting:block",
+            block: 'occultism:iesnium_block'
+          },
+          'B': {
+            type: "compactcrafting:block",
+            block: 'immersiveengineering:sheetmetal_steel'
+          },
+          'C': {
+            type: "compactcrafting:block",
+            block: 'thermal:obsidian_glass'
+          },
+          'D': {
+            type: "compactcrafting:block",
+            block: 'occultism:otherstone'
+          },
+          'E': {
+            type: "compactcrafting:block",
+            block: 'immersiveengineering:generator'
+          },
+          'F': {
+            type: "compactcrafting:block",
+            block: 'immersiveengineering:coil_hv'
+          },
+          'G': {
+            type: "compactcrafting:block",
+            block: 'immersiveengineering:radiator'
+          },
+          'K': {
+            type: "compactcrafting:block",
+            block: 'occultism:storage_controller_base'
+          },
+          'I': {
+            type: "compactcrafting:block",
+            block: 'immersiveengineering:furnace_heater'
+          },
+          'J': {
+            type: "compactcrafting:block",
+            block: 'thermal:machine_smelter'
+          },
+          'H': {
+            type: "compactcrafting:block",
+            block: 'create:mechanical_mixer'
+          }
+        },
+        outputs: [{
+          id: 'masterfulmachinery:fusioner_controller',
+          Count: 1
+        }]
+      },
+
+      {
+        recipeSize: 5,
+        layers: [
+          {
+            type: 'compactcrafting:mixed',
+            pattern: [
+              ["A", "B", "B", "B", "A"],
+              ["B", "B", "B", "B", "B"],
+              ["B", "B", "J", "B", "B"],
+              ["B", "B", "B", "B", "B"],
+              ["A", "B", "B", "B", "A"],
+            ]
+          },
+          {
+            type: 'compactcrafting:mixed',
+            pattern: [
+              ["B", "C", "C", "C", "B"],
+              ["D", "E", "C", "E", "D"],
+              ["D", "E", "F", "E", "D"],
+              ["D", "E", "E", "E", "D"],
+              ["B", "D", "D", "D", "B"],
+            ]
+          },
+          {
+            type: 'compactcrafting:mixed',
+            pattern: [
+              ["B", "C", "C", "C", "B"],
+              ["D", "E", "C", "E", "D"],
+              ["G", "H", "I", "H", "G"],
+              ["D", "E", "H", "E", "D"],
+              ["B", "D", "D", "D", "B"],
+            ]
+          },
+          {
+            type: 'compactcrafting:mixed',
+            pattern: [
+              ["B", "C", "C", "C", "B"],
+              ["D", "E", "C", "E", "D"],
+              ["D", "E", "F", "E", "D"],
+              ["D", "E", "E", "E", "D"],
+              ["B", "D", "D", "D", "B"],
+            ]
+          },
+          {
+            type: 'compactcrafting:mixed',
+            pattern: [
+              ["A", "B", "B", "B", "A"],
+              ["B", "B", "B", "B", "B"],
+              ["B", "B", "B", "B", "B"],
+              ["B", "B", "B", "B", "B"],
+              ["A", "B", "B", "B", "A"],
+            ]
+          }
+        ],
+        catalyst: {
+          id: 'draconicevolution:awakened_core',
+          Count: 1
+        },
+        components: {
+          'A': {
+            type: "compactcrafting:block",
+            block: 'draconicevolution:draconium_block'
+          },
+          'B': {
+            type: "compactcrafting:block",
+            block: 'create:shadow_steel_casing'
+          },
+          'C': {
+            type: "compactcrafting:block",
+            block: 'mekanismgenerators:reactor_glass'
+          },
+          'D': {
+            type: "compactcrafting:block",
+            block: 'mekanismgenerators:fusion_reactor_frame'
+          },
+          'E': {
+            type: "compactcrafting:block",
+            block: 'mekanism:superheating_element'
+          },
+          'F': {
+            type: "compactcrafting:block",
+            block: 'draconicevolution:reactor_injector'
+          },
+          'G': {
+            type: "compactcrafting:block",
+            block: 'mekanismgenerators:fusion_reactor_port'
+          },
+          'H': {
+            type: "compactcrafting:block",
+            block: 'draconicevolution:reactor_stabilizer'
+          },
+          'I': {
+            type: "compactcrafting:block",
+            block: 'draconicevolution:reactor_core'
+          },
+          'J': {
+            type: "compactcrafting:block",
+            block: 'mekanismgenerators:fusion_reactor_controller'
+          }
+        },
+        outputs: [{
+          id: 'masterfulmachinery:endlessreactor_controller',
+          Count: 1
+        }]
+      },
     ];
 
     recipes.forEach((recipe) => {
