@@ -37,7 +37,6 @@ onEvent('item.registry', (event) => {
         'octadic_capacitor',
         'crying_obsidian_dust',
         'inert_luminessence',
-        'enriched_terrasteel',
         'koepss',
         'gogo',
         'contained_litherite_crystal',
