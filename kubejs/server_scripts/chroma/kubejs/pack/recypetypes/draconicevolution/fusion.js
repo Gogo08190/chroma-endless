@@ -321,6 +321,67 @@ onEvent('recipes', (event) => {
           total_energy: 10000000,
           result: { item: 'draconicevolution:chaotic_crafting_injector' },
           id: 'draconicevolution:chaotic_crafting_injector'
+      },
+
+      {
+          inputs: [
+              { item: 'draconicevolution:draconium_ingot' },
+              { item: 'draconicevolution:draconium_ingot' },
+              { item: 'draconicevolution:draconium_ingot' },
+              { item: 'draconicevolution:draconium_ingot' },
+              { item: 'rftoolsbase:infused_enderpearl' },
+              { item: 'rftoolsbase:infused_enderpearl' },
+              { item: 'rftoolsbase:infused_enderpearl' },
+              { item: 'rftoolsbase:infused_enderpearl' },
+              { item: 'draconicevolution:wyvern_core' }
+          ],
+          tier: "WYVERN",
+          catalyst: { item: 'draconicevolution:dislocator' },
+          total_energy: 1000000,
+          result: { item: 'draconicevolution:advanced_dislocator' },
+          id: 'draconicevolution:advanced_dislocator'
+      },
+
+      {
+          inputs: [
+              { item: 'draconicevolution:awakened_draconium_ingot' },
+              { item: 'draconicevolution:awakened_draconium_ingot' },
+              { item: 'draconicevolution:awakened_draconium_ingot' },
+              { item: 'draconicevolution:awakened_draconium_ingot' },
+              { item: 'draconicevolution:awakened_draconium_ingot' },
+              { item: 'draconicevolution:awakened_draconium_ingot' },
+              { item: 'draconicevolution:awakened_core' },
+              { item: 'draconicevolution:awakened_core' },
+              { item: 'draconicevolution:draconic_energy_core' },
+              { item: 'draconicevolution:draconic_energy_core' },
+              { item: 'draconicevolution:wyvern_core' },
+              { item: 'envirocore:nanorite_interconnect' },
+              { item: 'mekanism:ultimate_induction_cell' }
+          ],
+          tier: "DRACONIC",
+          catalyst: { item: 'draconicevolution:generator' },
+          total_energy: 10000000,
+          result: { item: 'draconicmachinery:enhanced_generator' },
+          id: 'draconicmachinery:enhanced_generator_rcp'
+      },
+
+      {
+          inputs: [
+              { item: 'powah:solar_panel_nitro' },
+              { item: 'powah:solar_panel_nitro' },
+              { item: 'powah:solar_panel_nitro' },
+              { item: 'draconicevolution:basic_relay_crystal' },
+              { item: 'draconicevolution:wyvern_energy_core' },
+              { item: 'draconicevolution:wyvern_energy_core' },
+              { item: 'extendedcrafting:black_iron_ingot' },
+              { item: 'extendedcrafting:black_iron_ingot' },
+              { item: 'draconicevolution:wyvern_core' }
+          ],
+          tier: "DRACONIC",
+          catalyst: { item: 'kubejs:solar_cell_base' },
+          total_energy: 1000000,
+          result: { item: 'draconicmachinery:draconic_solar_panel' },
+          id: 'draconicmachinery:drac_solar_panel_rcp'
       }
     ];
 

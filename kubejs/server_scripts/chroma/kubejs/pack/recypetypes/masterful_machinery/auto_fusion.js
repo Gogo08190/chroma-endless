@@ -125,6 +125,29 @@ onEvent('recipes', (event) => {
           ],
           ticks: 240,
           id: `${id_prefix}wyvern_core_part`
+      },
+      {
+          outputs: [{ type: 'masterfulmachinery:items', data: { item: 'draconicmachinery:redstone_core', count: 1 } }],
+          inputs: [
+              { type: 'masterfulmachinery:items', data: { item: 'draconicevolution:draconium_ingot', count: 4 }, consumeInstantly: true },
+              { type: 'masterfulmachinery:items', data: { item: 'envirocore:kyronite_interconnect', count: 1 }, consumeInstantly: true },
+              { type: 'masterfulmachinery:items', data: { item: 'enderioalloys:block_alloy_redstone_alloy', count: 1 }, consumeInstantly: true },
+              { type: 'masterfulmachinery:items', data: { item: 'thermal:redstone_servo', count: 2 }, consumeInstantly: true },
+              { type: 'masterfulmachinery:energy', data: { amount: 1500 } }
+          ],
+          ticks: 240,
+          id: 'draconicmachinery:redstone_core_rcp'
+      },
+      {
+          outputs: [{ type: 'masterfulmachinery:items', data: { item: 'draconicevolution:module_core', count: 1 } }],
+          inputs: [
+              { type: 'masterfulmachinery:items', data: { item: 'enderioalloys:item_alloy_ingot_dark_steel', count: 4 }, consumeInstantly: true },
+              { type: 'masterfulmachinery:items', data: { item: 'mekanism:hdpe_sheet', count: 4 }, consumeInstantly: true },
+              { type: 'masterfulmachinery:items', data: { item: 'draconicevolution:draconium_core', count: 1 }, consumeInstantly: true },
+              { type: 'masterfulmachinery:energy', data: { amount: 1500 } }
+          ],
+          ticks: 240,
+          id: 'draconicevolution:modules/module_core'
       }
     ];
 
