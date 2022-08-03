@@ -416,7 +416,7 @@ onEvent('recipes', (event) => {
           key: {
               A: 'create:sticky_mechanical_piston',
               B: 'minecraft:string',
-              C: 'sophisticatedbackpacks:pickup_upgrade',
+              C: '#sophisticatedbackpacks:upgrades/base',
               D: 'extendedcrafting:redstone_ingot'
           },
           id: 'sophisticatedbackpacks:pickup_upgrade'
