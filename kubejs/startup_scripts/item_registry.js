@@ -59,7 +59,10 @@ onEvent('item.registry', (event) => {
         'noli',
         'enriched_energized_uranium',
         'draconium_core_part',
-        'wyvern_core_part'
+        'wyvern_core_part',
+        'enriched_kyronite',
+        'enriched_ludicrite',
+        'enriched_pladium'
     ];
 
     generalItems.forEach((item) => {
