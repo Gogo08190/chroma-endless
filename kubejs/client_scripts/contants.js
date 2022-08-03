@@ -641,7 +641,15 @@ const disabledItems = [
     'miniutilities:golden_lasso',
 
     'littlelogistics:chunk_loader_barge',
-    'draconicmachinery:chunk_loader'
+    'draconicmachinery:chunk_loader',
+    'draconicmachinery:information_plate',
+    'draconicmachinery:compact_energy_core',
+    'draconicmachinery:wireless_activator',
+    'draconicmachinery:anchor',
+    'draconicadditions:inert_potato_helm',
+    'draconicadditions:inert_potato_chest',
+    'draconicadditions:inert_potato_legs',
+    'draconicadditions:inert_potato_boots'
 ];
 
 const materialsToUnify = [
