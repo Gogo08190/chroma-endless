@@ -1,32 +1,22 @@
-/*
-{
-  ingredient: {
-    "occultism:chalk_gold_impure"
-  },
-  result: {
-    "occultism:chalk_gold"
-  }
-}
-*/
 onEvent('recipes', (event) => {
+
     const id_prefix = 'chroma:pack/occultism/spirit_fire/';
+
     const recipes = [
-      {
-        ingredient: {
-          'ironjetpacks:mechanical_cell'
-        },
-        result: {
-          'ironjetpacks:otherworldian_cell'
-        },
-        id: `${id_prefix}otherworldian_cell`
-      }
+        {
+            input: 'ironjetpacks:mechanical_cell',
+            output: 'ironjetpacks:otherworldian_cell',
+            id: `${id_prefix}otherworldian_cell`
+        }
     ];
 
     recipes.forEach((recipe) => {
-        recipe.type = 'occultism:spirit_fire';
-        recipe.ingredients = recipe.ingredients.map((input) => Ingredient.of(input).toJson());
-        recipe.result = Item.of(recipe.result).toJson();
-
-        event.custom(recipe).id(recipe.id);
+        event
+            .custom({
+                type: 'occultism:spirit_fire',
+                ingredient: Ingredient.of(recipe.input).toJson(),
+                result: Ingredient.of(recipe.output).toJson()
+            })
+            .id(recipe.id);
     });
 });
