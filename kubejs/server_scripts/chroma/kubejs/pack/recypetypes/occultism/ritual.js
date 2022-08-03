@@ -303,6 +303,25 @@ onEvent('recipes', (event) => {
             ],
             result: 'ironjetpacks:otherworldian_thruster',
             id: `${id_prefix}otherworldian_thruster`
+        },
+        {
+            ritual_type: 'occultism:possess_foliot',
+            activation_item: 'thermal:energy_cell',
+            pentacle_id: 'occultism:craft_foliot',
+            duration: 100,
+            ritual_dummy: 'masterfulmachinery:fusioner_compact_energy_port_energy_input',
+            ingredients: [
+                'emendatusenigmatica:enderium_ingot',
+                'occultism:iesnium_ingot',
+                'emendatusenigmatica:enderium_ingot',
+                'immersiveengineering:wirecoil_steel',
+                'emendatusenigmatica:enderium_ingot',
+                'occultism:iesnium_ingot',
+                'emendatusenigmatica:enderium_ingot',
+                'pipez:energy_pipe'
+            ],
+            result: 'masterfulmachinery:fusioner_compact_energy_port_energy_input',
+            id: `${id_prefix}fusioner_compact_energy_port_energy_input`
         }
     ];
 
