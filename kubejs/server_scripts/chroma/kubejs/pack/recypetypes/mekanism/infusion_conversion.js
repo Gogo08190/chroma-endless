@@ -35,7 +35,21 @@ onEvent('recipes', (event) => {
         input: { ingredient: { item: 'envirocore:pladium_powder' } },
         output: { amount: 10, infuse_type: 'kubejs:pladium' },
         id: `${id_prefix}pladium`
-      }
+      },
+
+      //Ludicrite Ingot
+      {
+        input: { ingredient: { item: 'bigreactors:ludicrite_ingot' } },
+        output: { amount: 10, infuse_type: 'kubejs:ludicrite' },
+        id: `${id_prefix}ludicrite`
+      },
+
+      //Ludicrite Block
+      {
+        input: { ingredient: { item: 'bigreactors:ludicrite_block' } },
+        output: { amount: 90, infuse_type: 'kubejs:ludicrite' },
+        id: `${id_prefix}ludicrite_from_block`
+      },
     ]
 
     recipes.forEach((recipe) => {
