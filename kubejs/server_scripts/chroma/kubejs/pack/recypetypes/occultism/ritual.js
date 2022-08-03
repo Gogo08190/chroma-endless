@@ -342,6 +342,25 @@ onEvent('recipes', (event) => {
             result: 'masterfulmachinery:fusioner_compact_item_port_items_output',
             id: `${id_prefix}fusioner_compact_item_port_items_output`
         },
+        {
+            ritual_type: 'occultism:craft_with_spirit_name',
+            activation_item: 'create:depot',
+            pentacle_id: 'occultism:possess_foliot',
+            duration: 100,
+            ritual_dummy: 'masterfulmachinery:fusioner_compact_item_port_items_input',
+            ingredients: [
+                'emendatusenigmatica:enderium_ingot',
+                'occultism:iesnium_ingot',
+                'emendatusenigmatica:enderium_ingot',
+                'expandedstorage:netherite_chest',
+                'emendatusenigmatica:enderium_ingot',
+                'occultism:iesnium_ingot',
+                'emendatusenigmatica:enderium_ingot',
+                'refinedpipes:advanced_item_pipe'
+            ],
+            result: 'masterfulmachinery:fusioner_compact_item_port_items_input',
+            id: `${id_prefix}fusioner_compact_item_port_items_input`
+        },
     ];
 
     recipes.forEach((recipe) => {
