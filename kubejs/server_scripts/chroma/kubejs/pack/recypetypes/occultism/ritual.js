@@ -305,9 +305,9 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}otherworldian_thruster`
         },
         {
-            ritual_type: 'occultism:possess_foliot',
+            ritual_type: 'occultism:craft_with_spirit_name',
             activation_item: 'thermal:energy_cell',
-            pentacle_id: 'occultism:craft_foliot',
+            pentacle_id: 'occultism:possess_foliot',
             duration: 100,
             ritual_dummy: 'masterfulmachinery:fusioner_compact_energy_port_energy_input',
             ingredients: [
