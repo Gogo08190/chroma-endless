@@ -122,7 +122,7 @@ onEvent('recipes', (event) => {
                 { item: 'emendatusenigmatica:arcane_gem' },
                 { item: 'botania:pixie_dust' }
             ],
-            element_amount: 20000,
+            element_amount: 10000,
             output: 'occultism:afrit_essence',
           id: `${id_prefix}afrit_essence`
         }
