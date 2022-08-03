@@ -713,4 +713,82 @@ onEvent("recipes", (event) => {
       }
     }
   ).id(`${id_prefix}endlessreactor_endless_item_port_items_output`)
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCBA",
+        "BDEDB",
+        "FEGEF",
+        "BDEDB",
+        "ABCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "mekanism:ultimate_bin"
+        },
+        "B": {
+          "item": "create:shadow_steel_casing"
+        },
+        "C": {
+          "item": "mekanism:qio_importer"
+        },
+        "D": {
+          "item": "draconicevolution:draconium_ingot"
+        },
+        "E": {
+          "item": "mekanism:teleportation_core"
+        },
+        "F": {
+          "item": "mekanism:qio_drive_base"
+        },
+        "G": {
+          "item": "mekanism:steel_casing"
+        }
+      },
+      "result": {
+        "item": "masterfulmachinery:endlessreactor_endless_item_port_items_input"
+      }
+    }
+  ).id(`${id_prefix}endlessreactor_endless_item_port_items_input`)
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCBA",
+        "BDEDB",
+        "CFGFC",
+        "BDEDB",
+        "ABCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "mekanism:ultimate_induction_provider"
+        },
+        "B": {
+          "item": "create:shadow_steel_casing"
+        },
+        "C": {
+          "item": "mekanism:ultimate_induction_cell"
+        },
+        "D": {
+          "item": "draconicevolution:draconium_ingot"
+        },
+        "E": {
+          "item": "mekanism:pellet_polonium"
+        },
+        "F": {
+          "item": "powah:energizing_rod_nitro"
+        },
+        "G": {
+          "item": "mekanism:steel_casing"
+        }
+      },
+      "result": {
+        "item": "masterfulmachinery:endlessreactor_endless_energy_port_energy_output"
+      }
+    }
+  ).id(`${id_prefix}endlessreactor_endless_energy_port_energy_output`)
 });
