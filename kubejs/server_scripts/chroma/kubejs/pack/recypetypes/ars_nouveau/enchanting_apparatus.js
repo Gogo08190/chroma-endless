@@ -103,8 +103,58 @@ onEvent('recipes', (event) => {
           sourceCost: 10000,
           output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:source_steel_bee' }).toJson(),
           id: `${id_prefix}source_steel_bee`
-      }
-
+      },
+      //Automatic Compound Infuser Fluid input port
+      {
+          inputs: [
+            'create:copper_casing',
+            'mob_grinding_utils:jumbo_tank',
+            'create:copper_casing',
+            '#forge:ingots/shadow_steel',
+            '#forge:ingots/shadow_steel',
+            'create:copper_casing',
+            'refinedpipes:ultimate_fluid_pipe',
+            'create:copper_casing'
+          ],
+          reagent: 'create:spout',
+          sourceCost: 7500,
+          output: 'masterfulmachinery:autoinfuser_compound_fluid_port_fluids_input',
+          id: 'masterfulmachinery:autoinfuser_compound_fluid_port_fluids_input'
+      },
+      //Automatic Compound Infuser Item input port
+      {
+          inputs: [
+            'occultism:otherstone',
+            'refinedpipes:advanced_item_pipe',
+            'occultism:otherstone',
+            '#forge:ingots/shadow_steel',
+            '#forge:ingots/shadow_steel',
+            'occultism:otherstone',
+            'expandedstorage:netherite_chest',
+            'occultism:otherstone'
+          ],
+          reagent: 'create:depot',
+          sourceCost: 7500,
+          output: 'masterfulmachinery:autoinfuser_compound_item_port_items_input',
+          id: 'masterfulmachinery:autoinfuser_compound_item_port_items_input'
+      },
+      //Automatic Compound Infuser Item output port
+      {
+          inputs: [
+            'occultism:otherstone',
+            'refinedpipes:advanced_item_pipe',
+            'occultism:otherstone',
+            '#forge:ingots/shadow_steel',
+            '#forge:ingots/shadow_steel',
+            'occultism:otherstone',
+            'expandedstorage:netherite_chest',
+            'occultism:otherstone'
+          ],
+          reagent: 'create:brass_hand',
+          sourceCost: 7500,
+          output: 'masterfulmachinery:autoinfuser_compound_item_port_items_output',
+          id: 'masterfulmachinery:autoinfuser_compound_item_port_items_output'
+      },
     ];
 
     recipes.forEach((recipe) => {
