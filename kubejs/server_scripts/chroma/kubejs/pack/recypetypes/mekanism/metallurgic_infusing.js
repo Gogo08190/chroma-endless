@@ -109,6 +109,15 @@ onEvent('recipes', (event) => {
         infusionInput: 'kubejs:ludicrite',
         infusionAmount: 60,
         id: 'draconicevolution:components/wyvern_core'
+      },
+
+      //Energy Core Stabilizer
+      {
+        output: 'draconicevolution:energy_core_stabilizer',
+        input: 'draconicevolution:particle_generator',
+        infusionInput: 'mekanism:diamond',
+        infusionAmount: 320,
+        id: 'draconicevolution:energy_core_stabilizer'
       }
 
     ];
