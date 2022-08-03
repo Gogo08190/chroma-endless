@@ -253,7 +253,7 @@ onEvent('recipes', (event) => {
             ritual_type: 'occultism:craft_with_spirit_name',
             activation_item: Item.of('ironjetpacks:mechanical_jetpack').weakNBT(),
             pentacle_id: 'occultism:craft_afrit',
-            duration: 120,
+            duration: 150,
             ritual_dummy: 'ironjetpacks:otherworldian_jetpack',
             ingredients: [
               'ironjetpacks:otherworldian_capacitor',
@@ -261,18 +261,48 @@ onEvent('recipes', (event) => {
               'ironjetpacks:basic_coil',
               'ironjetpacks:otherworldian_thruster',
 
-              'occultism:spirit_attuned_crystal',
+              Item.of('occultism:book_of_binding_bound_afrit').weakNBT(),
               'occultism:afrit_essence',
-              'occultism:otherstone',
               Item.of('occultism:book_of_binding_bound_marid').weakNBT(),
+              'occultism:afrit_essence',
 
               'occultism:spirit_attuned_crystal',
-              'occultism:afrit_essence',
               'occultism:otherstone',
-              Item.of('occultism:book_of_binding_bound_afrit').weakNBT(),
+              'occultism:spirit_attuned_crystal',
+              'occultism:otherstone'
             ],
             result: 'ironjetpacks:otherworldian_jetpack',
             id: `${id_prefix}otherworldian_jetpack`
+        },
+        {
+            ritual_type: 'occultism:craft_with_spirit_name',
+            activation_item: 'occultism:book_of_binding_bound_djinni',
+            pentacle_id: 'occultism:craft_foliot',
+            duration: 60,
+            ritual_dummy: 'ironjetpacks:otherworldian_capacitor',
+            ingredients: [
+              'ironjetpacks:otherworldian_cell',
+              'occultism:candle_white',
+              'ironjetpacks:otherworldian_cell',
+              'occultism:spirit_attuned_crystal'
+            ],
+            result: 'ironjetpacks:otherworldian_capacitor',
+            id: `${id_prefix}otherworldian_capacitor`
+        },
+        {
+            ritual_type: 'occultism:craft_with_spirit_name',
+            activation_item: 'occultism:book_of_binding_bound_djinni',
+            pentacle_id: 'occultism:craft_foliot',
+            duration: 60,
+            ritual_dummy: 'ironjetpacks:otherworldian_thruster',
+            ingredients: [
+              'occultism:candle_white',
+              'occultism:spirit_attuned_crystal',
+              'occultism:spirit_attuned_crystal',
+              'occultism:afrit_essence'
+            ],
+            result: 'ironjetpacks:otherworldian_thruster',
+            id: `${id_prefix}otherworldian_thruster`
         }
     ];
 
