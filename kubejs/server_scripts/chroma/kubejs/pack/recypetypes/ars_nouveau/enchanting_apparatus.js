@@ -119,7 +119,7 @@ onEvent('recipes', (event) => {
           reagent: 'create:spout',
           sourceCost: 7500,
           output: 'masterfulmachinery:autoinfuser_compound_fluid_port_fluids_input',
-          id: 'masterfulmachinery:autoinfuser_compound_fluid_port_fluids_input'
+          id: `${id_prefix}autoinfuser_compound_fluid_port_fluids_input`
       },
       //Automatic Compound Infuser Item input port
       {
@@ -136,7 +136,7 @@ onEvent('recipes', (event) => {
           reagent: 'create:depot',
           sourceCost: 7500,
           output: 'masterfulmachinery:autoinfuser_compound_item_port_items_input',
-          id: 'masterfulmachinery:autoinfuser_compound_item_port_items_input'
+          id: `${id_prefix}autoinfuser_compound_item_port_items_input`
       },
       //Automatic Compound Infuser Item output port
       {
@@ -153,7 +153,7 @@ onEvent('recipes', (event) => {
           reagent: 'create:brass_hand',
           sourceCost: 7500,
           output: 'masterfulmachinery:autoinfuser_compound_item_port_items_output',
-          id: 'masterfulmachinery:autoinfuser_compound_item_port_items_output'
+          id: `${id_prefix}autoinfuser_compound_item_port_items_output`
       },
     ];
 
