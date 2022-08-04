@@ -1,0 +1,49 @@
+{
+  "flower": "minecraft:magma_block",
+  "maxTimeInHive": 1200,
+  "traits": [
+    "nether"
+  ],
+  "hasHoneycomb": true,
+  "baseLayerTexture": "mobs/magma/magma",
+  "ColorData": {
+    "honeycombColor": "#C73405",
+    "emissiveLayerTexture": "slime/magma_bee_emissive",
+    "isGlowing": true,
+    "glowColor": "#C73405",
+    "modelType": "GELATINOUS"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainInputCount": 1,
+    "mainOutput": "minecraft:magma_cream",
+    "mainOutputWeight": 0.5,
+    "mainOutputCount": 1,
+    "secondaryOutput": "minecraft:magma_block",
+    "secondaryOutputWeight": 0.01,
+    "secondaryOutputCount": 2,
+    "bottleOutput": "resourcefulbees:magma_honey_bottle",
+    "bottleOutputWeight": 0.25,
+    "bottleOutputCount": 1,
+    "recipeTime": 200
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:nether",
+    "spawnWeight": 5,
+    "minYLevel": 0,
+    "maxYLevel": 255,
+    "minGroupSize": 1,
+    "maxGroupSize": 2,
+    "lightLevel": "ANY"
+  },
+  "BreedData": {
+      "isBreedable": false
+  },
+  "TraitData": {
+      "hasTraits": true
+  }
+}

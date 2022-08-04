@@ -833,5 +833,6 @@ const craftedBees = [
     'ludicrite',
     'inanite',
     'creeper',
-    'rainbow_glass'
+    'rainbow_glass',
+    'magma'
 ];

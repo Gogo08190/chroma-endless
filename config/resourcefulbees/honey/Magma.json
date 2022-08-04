@@ -1,0 +1,17 @@
+{
+  "name" : "magma",
+  "hunger": 4,
+  "honeyColor": "#C73405",
+  "saturation": 3,
+  "isRainbow": false,
+  "honeyBlockRecipe": true,
+  "generateHoneyBlock": true,
+      "effects": [
+    {
+      "effectID": "betterendforge:end_vei",
+      "duration": 2000,
+      "strength": 1,
+      "chance": 1
+      }
+    ]
+  }
