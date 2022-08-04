@@ -216,7 +216,8 @@ const combVariants = [
     'lava',
     'nether',
     'seared',
-    'end'
+    'end',
+    'starry_lexxie'
 ];
 
 const bees = [];
@@ -228,7 +229,6 @@ combVariants.forEach((bee) => {
 let moreBees = [
     'kitten',
     'oreo',
-    'starry_lexxie',
     'yeti',
     'abbee'
 ];
