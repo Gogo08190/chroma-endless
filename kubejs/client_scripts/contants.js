@@ -778,7 +778,7 @@ const craftedBees = [
     'signalum',
     'bronze',
     'brass',
-    'starry',
+    'starry_lexxie',
     'yeti',
     'abbee',
     'kitten',
