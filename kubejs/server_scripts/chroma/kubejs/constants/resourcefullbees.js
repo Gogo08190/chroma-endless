@@ -103,6 +103,7 @@ const honeyVarieties = [
     'resourcefulbees:ridiculite_honey',
     'resourcefulbees:inanite_honey',
     'resourcefulbees:magma_honey',
+    'resourcefulbees:lava_honey',
     'resourcefulbees:stone_honey'
 
 ];
@@ -208,7 +209,8 @@ const combVariants = [
     'creeper',
     'rainbow_glass',
     'magma',
-    'stone'
+    'stone',
+    'lava'
 ];
 
 const bees = [];

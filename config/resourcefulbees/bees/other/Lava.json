@@ -1,0 +1,36 @@
+{
+  "flower": "tconstruct:lavawood",
+  "maxTimeInHive": 600,
+  "traits":["can_swim", "nether"],
+  "hasHoneycomb": true,
+  "baseLayerTexture": "other/lava/lava",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#C93806"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:lava",
+    "mainOutputCount": 250,
+    "hasFluidOutput": true
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:nether",
+    "spawnWeight": 5,
+    "minYLevel": 0,
+    "maxYLevel": 255,
+    "minGroupSize": 1,
+    "maxGroupSize": 2,
+    "lightLevel": "ANY"
+  },
+  "BreedData": {
+      "isBreedable": false
+  },
+  "TraitData": {
+      "hasTraits": true
+  }
+}

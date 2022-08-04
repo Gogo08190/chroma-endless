@@ -835,5 +835,6 @@ const craftedBees = [
     'creeper',
     'rainbow_glass',
     'magma',
-    'stone'
+    'stone',
+    'lava'
 ];
