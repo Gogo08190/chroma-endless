@@ -1,0 +1,17 @@
+{
+    "name" : "stone",
+    "hunger": 3,
+    "honeyColor": "#8f8f8f",
+    "saturation": 2,
+    "isRainbow" : false,
+    "honeyBlockRecipe" : true,
+    "generateHoneyBlock" : true,
+    "effects": [
+      {
+        "effectID": "minecraft:resistance",
+        "duration": 2400,
+        "strength": 2,
+        "chance": 0.8
+      }
+    ]
+  }
