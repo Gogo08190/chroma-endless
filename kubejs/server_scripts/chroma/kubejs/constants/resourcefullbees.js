@@ -172,7 +172,6 @@ const combVariants = [
     'brass',
     'bronze',
     'catnip',
-    'starry',
     'swift_alloy',
     'drenched_iron',
     'refined_obsidian',
