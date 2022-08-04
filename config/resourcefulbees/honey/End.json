@@ -1,0 +1,17 @@
+{
+  "name" : "end",
+  "hunger": 4,
+  "honeyColor": "#E1E9A6",
+  "saturation": 3,
+  "isRainbow": false,
+  "honeyBlockRecipe": true,
+  "generateHoneyBlock": true,
+      "effects": [
+    {
+      "effectID": "betterendforge:end_vei",
+      "duration": 2000,
+      "strength": 1,
+      "chance": 1
+      }
+    ]
+  }

@@ -106,6 +106,7 @@ const honeyVarieties = [
     'resourcefulbees:lava_honey',
     'resourcefulbees:nether_honey',
     'resourcefulbees:seared_honey',
+    'resourcefulbees:endstone_honey',
     'resourcefulbees:stone_honey'
 
 ];
@@ -214,7 +215,8 @@ const combVariants = [
     'stone',
     'lava',
     'nether',
-    'seared'
+    'seared',
+    'endstone'
 ];
 
 const bees = [];
