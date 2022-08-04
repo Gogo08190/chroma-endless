@@ -1,0 +1,58 @@
+{
+    "flower": "ALL",
+    "lore": "Mettre du lore",
+    "loreColor": "#00AAAA",
+    "maxTimeInHive": 700,
+    "sizeModifier": 0.75,
+    "hasHoneycomb": true,
+    "traits":["can_swim", "nether"],
+    "baseLayerTexture": "other/seared/seared",
+    "ColorData": {
+        "honeycombColor": "#474340",
+        "isBeeColored": false,
+        "isRainbowBee": false,
+        "isGlowing": false,
+        "isEnchanted": false
+    },
+    "CombatData": {
+        "isPassive": false,
+        "removeStingerOnAttack": false,
+        "inflictsPoison": true,
+        "attackDamage": 1
+    },
+    "MutationData": {
+        "hasMutation": true,
+        "mutationCount": 4,
+        "mutations" : [
+          {
+            "type": "BLOCK",
+            "inputID": "minecraft:cobblestone",
+            "outputs": [
+              {"outputID": "minecraft:stone", "weight": 10}
+            ]
+          }
+        ]
+    },
+    "CentrifugeData": {
+        "hasCentrifugeOutput": true,
+
+        "mainOutput": "tconstruct:seared_brick",
+        "mainOutputWeight": 0.5,
+        "mainOutputCount": 4,
+
+        "bottleOutput": "resourcefulbees:seared_honey_bottle",
+        "bottleOutputWeight": 0.2,
+        "bottleOutputCount": 1,
+
+        "mainInputCount": 1
+    },
+    "SpawnData": {
+        "canSpawnInWorld": false
+    },
+    "BreedData": {
+        "isBreedable": false
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}

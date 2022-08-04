@@ -15,7 +15,11 @@
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:lava",
     "mainOutputCount": 250,
-    "hasFluidOutput": true
+    "hasFluidOutput": true,
+
+    "bottleOutput": "resourcefulbees:lava_honey_bottle",
+    "bottleOutputWeight": 0.02,
+    "bottleOutputCount": 1
   },
   "SpawnData": {
     "canSpawnInWorld": true,

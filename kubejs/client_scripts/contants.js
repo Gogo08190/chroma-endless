@@ -836,5 +836,7 @@ const craftedBees = [
     'rainbow_glass',
     'magma',
     'stone',
-    'lava'
+    'lava',
+    'nether',
+    'seared'
 ];
