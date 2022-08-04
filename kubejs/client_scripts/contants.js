@@ -839,5 +839,5 @@ const craftedBees = [
     'lava',
     'nether',
     'seared',
-    'endstone'
+    'end'
 ];
