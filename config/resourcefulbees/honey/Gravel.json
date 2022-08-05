@@ -1,0 +1,17 @@
+{
+  "name" : "gravel",
+  "hunger": 4,
+  "honeyColor": "#968e8e",
+  "saturation": 3,
+  "isRainbow": false,
+  "honeyBlockRecipe": true,
+  "generateHoneyBlock": true,
+      "effects": [
+    {
+      "effectID": "botania:speed",
+      "duration": 2000,
+      "strength": 1,
+      "chance": 1
+      }
+    ]
+  }

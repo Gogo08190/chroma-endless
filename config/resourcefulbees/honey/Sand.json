@@ -1,0 +1,17 @@
+{
+  "name" : "sand",
+  "hunger": 4,
+  "honeyColor": "#e7e4bb",
+  "saturation": 3,
+  "isRainbow": false,
+  "honeyBlockRecipe": true,
+  "generateHoneyBlock": true,
+      "effects": [
+    {
+      "effectID": "botania:speed",
+      "duration": 2000,
+      "strength": 1,
+      "chance": 1
+      }
+    ]
+  }
