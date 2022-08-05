@@ -48,10 +48,10 @@ onEvent('recipes', (event) => {
               Item.of('ironjetpacks:otherworldian_jetpack').weakNBT().toJson(),
               Item.of('tconstruct:tough_handle', '{Material:"materialis:terrasteel"}'),
               { item: 'ars_nouveau:sylph_shards' },
+              { item: 'ironjetpacks:advanced_coil' },
               { item: 'ironjetpacks:terrasteel_thruster' },
               { item: 'ironjetpacks:terrasteel_capacitor' },
               { item: 'ironjetpacks:terrasteel_thruster' },
-              { item: 'ironjetpacks:advanced_coil' },
               { item: 'elementalcraft:pristine_earth_gem' },
               { item: 'ironjetpacks:advanced_coil' },
               Item.of('tconstruct:tough_handle', '{Material:"materialis:terrasteel"}')
