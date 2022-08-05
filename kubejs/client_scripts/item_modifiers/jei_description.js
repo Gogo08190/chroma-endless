@@ -327,6 +327,12 @@ onEvent('jei.information', (event) => {
             text: [
                 `Chromatic Compound absorbs darkness when dropped into the void, returning as Shadow Steel, floating back up out of the void shortly after falling into the depths.`
             ]
+        },
+        {
+            items: ['ars_nouveau:experience_gem'],
+            text: [
+                `Use a tablet of disintegration on a ritual brazier. Power with full source jar. As mobs walk into the field produced by the brazier they will be turned into xp gems.`
+            ]
         }
     ];
 
