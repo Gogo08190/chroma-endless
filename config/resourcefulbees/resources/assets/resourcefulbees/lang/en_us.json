@@ -831,8 +831,17 @@
   "entity.resourcefulbees.lava_bee": "Lava Bee",
   "block.resourcefulbees.lava_honey_block": "Lava Honey Block",
 
-"block.resourcefulbees.starry_lexxie_honeycomb_block": "Starry Honeycomb Block",
-"item.resourcefulbees.starry_lexxie_honeycomb": "Starry Honeycomb",
-"item.resourcefulbees.starry_lexxie_bee_spawn_egg": "Starry Bee Spawn Egg",
-"entity.resourcefulbees.starry_lexxie_bee": "Starry Bee"
+  "item.resourcefulbees.experience_bee_spawn_egg": "Experience Bee Spawn Egg",
+  "item.resourcefulbees.experience_honeycomb": "Experience HoneyComb",
+  "fluid.resourcefulbees.experience_honey": "Experience Honey",
+  "item.resourcefulbees.experience_honey_fluid_bucket":"Experience Honey Bucket",
+  "block.resourcefulbees.experience_honeycomb_block": "Experience HoneyComb Block",
+  "item.resourcefulbees.experience_honey_bottle": "Experience Honey Bottle",
+  "entity.resourcefulbees.experience_bee": "Experience Bee",
+  "block.resourcefulbees.experience_honey_block": "Experience Honey Block",
+
+  "block.resourcefulbees.starry_lexxie_honeycomb_block": "Starry Honeycomb Block",
+  "item.resourcefulbees.starry_lexxie_honeycomb": "Starry Honeycomb",
+  "item.resourcefulbees.starry_lexxie_bee_spawn_egg": "Starry Bee Spawn Egg",
+  "entity.resourcefulbees.starry_lexxie_bee": "Starry Bee"
 }

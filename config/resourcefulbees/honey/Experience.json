@@ -1,0 +1,17 @@
+{
+  "name" : "experience",
+  "hunger": 4,
+  "honeyColor": "#9ce02f",
+  "saturation": 3,
+  "isRainbow": false,
+  "honeyBlockRecipe": true,
+  "generateHoneyBlock": true,
+      "effects": [
+    {
+      "effectID": "minecraft:slow_falling",
+      "duration": 2000,
+      "strength": 1,
+      "chance": 1
+      }
+    ]
+  }

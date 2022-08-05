@@ -1,0 +1,52 @@
+{
+    "flower": "ALL",
+    "lore": "mettre du lor",
+    "loreColor": "#00AAAA",
+    "maxTimeInHive": 4800,
+    "sizeModifier": 1,
+    "hasHoneycomb": true,
+    "auraRange": 20,
+    "traits": ["slimy", "can_swim"],
+    "baseLayerTexture": "slime/slime_bee",
+    "ColorData": {
+        "honeycombColor": "#9ce02f",
+        "isBeeColored": false,
+        "isRainbowBee": false,
+        "isGlowing": true,
+        "isEnchanted": false,
+        "modelType": "GELATINOUS"
+    },
+    "CombatData": {
+        "isPassive": false,
+        "removeStingerOnAttack": false,
+        "inflictsPoison": true,
+        "baseHealth": 20,
+        "attackDamage": 2
+    },
+    "CentrifugeData": {
+        "hasCentrifugeOutput": true,
+
+        "mainOutput": "miniutilities:experience_pearl",
+        "mainOutputWeight": 0.6,
+        "mainOutputCount": 4,
+
+        "secondaryOutput": "minecraft:experience_bottle",
+        "secondaryOutputWeight": 0.1,
+        "secondaryOutputCount": 1,
+
+        "bottleOutput": "resourcefulbees:experience_honey_bottle",
+        "bottleOutputWeight": 0.01,
+        "bottleOutputCount": 1,
+
+        "mainInputCount": 1
+    },
+    "SpawnData": {
+        "canSpawnInWorld": false
+    },
+    "BreedData": {
+        "isBreedable": false
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+}
