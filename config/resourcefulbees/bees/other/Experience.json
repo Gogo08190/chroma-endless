@@ -5,6 +5,19 @@
     "maxTimeInHive": 4800,
     "sizeModifier": 1,
     "hasHoneycomb": true,
+    "apiaryOutputAmounts": [
+      4,
+      8,
+      32,
+      64
+    ],
+    "apiaryOutputTypes": [
+      "COMB",
+      "COMB",
+      "COMB",
+      "COMB",
+      "COMB"
+    ],
     "auraRange": 20,
     "traits": ["slimy", "can_swim"],
     "baseLayerTexture": "other/experience/experience",

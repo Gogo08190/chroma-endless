@@ -3,10 +3,30 @@
   "maxTimeInHive": 600,
   "traits":["can_swim", "nether"],
   "hasHoneycomb": true,
+  "apiaryOutputAmounts": [
+    4,
+    8,
+    32,
+    64
+  ],
+  "apiaryOutputTypes": [
+    "COMB",
+    "COMB",
+    "COMB",
+    "COMB",
+    "COMB"
+  ],
   "baseLayerTexture": "other/lava/lava",
   "ColorData": {
     "isBeeColored": false,
     "honeycombColor": "#C93806"
+  },
+  "CombatData": {
+      "isPassive": false,
+      "removeStingerOnAttack": false,
+      "inflictsPoison": true,
+      "baseHealth": 20,
+      "attackDamage": 1
   },
   "MutationData": {
     "hasMutation": false
