@@ -7,7 +7,7 @@
     "hasHoneycomb": true,
     "auraRange": 20,
     "traits": ["slimy", "can_swim"],
-    "baseLayerTexture": "slime/slime_bee",
+    "baseLayerTexture": "other/experience/experience",
     "ColorData": {
         "honeycombColor": "#9ce02f",
         "isBeeColored": false,
