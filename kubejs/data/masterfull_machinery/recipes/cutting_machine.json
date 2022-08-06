@@ -11,9 +11,9 @@
       "          * * ",
       "              ",
       "              ",
-      ",,,,,,,,,,,,,,",
-      ",-----.------,",
-      ",,,,,///,,,,,,"
+      ",,,,,---,,,,,,",
+      ",...../......,",
+      ",,,,,,,,,,,,,,"
     ],
     [
       "           )  ",
@@ -162,13 +162,13 @@
       "block": "envirocore:structure_panel"
     },
     "-": {
-      "block": "create:belt"
+      "block": "masterfulmachinery:cuttingmachine_cuttingmachine_speed_port_create_rotation_input"
     },
     ".": {
-      "block": "create:mechanical_saw"
+      "block": "create:belt"
     },
     "/": {
-      "block": "masterfulmachinery:cuttingmachine_cuttingmachine_speed_port_create_rotation_input"
+      "block": "create:mechanical_saw"
     },
     "0": {
       "block": "engineersdecor:steel_railing"
