@@ -649,7 +649,9 @@ const disabledItems = [
     'draconicadditions:inert_potato_helm',
     'draconicadditions:inert_potato_chest',
     'draconicadditions:inert_potato_legs',
-    'draconicadditions:inert_potato_boots'
+    'draconicadditions:inert_potato_boots',
+
+    'mekanism:upgrade_anchor'
 ];
 
 const materialsToUnify = [

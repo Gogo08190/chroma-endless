@@ -51,6 +51,7 @@ const disabledItems = [
     'mekanism:sawdust',
     'mekanism:dust_lapis_lazuli',
     'mekanism:dust_lithium',
+    'mekanism:upgrade_anchor',
 
     'pedestals:dustflour',
 
