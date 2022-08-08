@@ -857,7 +857,127 @@ onEvent('recipes', (event) => {
             outputFluid: '', // optionnel
             outputFluidAmount: 0, // 0 si pas de fluid
             id: `${id_prefix}inanite_jetpack`
-        }
+        },
+        //Muffling Upgrade
+        {
+            inputs: [
+                'mekanism:alloy_infused',
+                'minecraft:glass',
+                'mekanism:alloy_infused',
+                'emendatusenigmatica:steel_dust',
+                'emendatusenigmatica:steel_dust',
+                'mekanism:alloy_infused',
+                'minecraft:glass',
+                'mekanism:alloy_infused'
+            ],
+            inputFluid: 'tconstruct:molten_refined_glowstone',
+            inputFluidAmount: 1000,
+            processingTime: 300,
+            outputItem: { item: 'mekanism:upgrade_muffling', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'mekanism:upgrade/muffling'
+        },
+        //Filter Upgrade
+        {
+            inputs: [
+                'mekanism:alloy_infused',
+                'minecraft:glass',
+                'mekanism:alloy_infused',
+                'emendatusenigmatica:tin_dust',
+                'emendatusenigmatica:tin_dust',
+                'mekanism:alloy_infused',
+                'minecraft:glass',
+                'mekanism:alloy_infused'
+            ],
+            inputFluid: 'tconstruct:molten_refined_glowstone',
+            inputFluidAmount: 1000,
+            processingTime: 300,
+            outputItem: { item: 'mekanism:upgrade_filter', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'mekanism:upgrade/filter'
+        },
+        //Energy Upgrade
+        {
+            inputs: [
+                'mekanism:alloy_infused',
+                'minecraft:glass',
+                'mekanism:alloy_infused',
+                'emendatusenigmatica:electrum_dust',
+                'emendatusenigmatica:electrum_dust',
+                'mekanism:alloy_infused',
+                'minecraft:glass',
+                'mekanism:alloy_infused'
+            ],
+            inputFluid: 'tconstruct:molten_refined_glowstone',
+            inputFluidAmount: 1000,
+            processingTime: 300,
+            outputItem: { item: 'mekanism:upgrade_energy', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'mekanism:upgrade/energy'
+        },
+        //Speed Upgrade
+        {
+            inputs: [
+                'mekanism:alloy_infused',
+                'minecraft:glass',
+                'mekanism:alloy_infused',
+                'occultism:iesnium_dust',
+                'occultism:iesnium_dust',
+                'mekanism:alloy_infused',
+                'minecraft:glass',
+                'mekanism:alloy_infused'
+            ],
+            inputFluid: 'tconstruct:molten_refined_glowstone',
+            inputFluidAmount: 1000,
+            processingTime: 300,
+            outputItem: { item: 'mekanism:upgrade_speed', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'mekanism:upgrade/speed'
+        },
+        //Gas Upgrade
+        {
+            inputs: [
+                'mekanism:alloy_infused',
+                'minecraft:glass',
+                'mekanism:alloy_infused',
+                'emendatusenigmatica:iron_dust',
+                'emendatusenigmatica:iron_dust',
+                'mekanism:alloy_infused',
+                'minecraft:glass',
+                'mekanism:alloy_infused'
+            ],
+            inputFluid: 'tconstruct:molten_refined_glowstone',
+            inputFluidAmount: 1000,
+            processingTime: 300,
+            outputItem: { item: 'mekanism:upgrade_gas', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'mekanism:upgrade/gas'
+        },
+        //Stone Generator Upgrade
+        {
+            inputs: [
+                'mekanism:alloy_infused',
+                'minecraft:glass',
+                'mekanism:alloy_infused',
+                Item.of('elementalcraft:element_holder_water', '{element_amount:10000,Damage:0}'),
+                Item.of('elementalcraft:element_holder_fire', '{element_amount:10000,Damage:0}'),
+                'mekanism:alloy_infused',
+                'minecraft:glass',
+                'mekanism:alloy_infused'
+            ],
+            inputFluid: 'tconstruct:molten_refined_glowstone',
+            inputFluidAmount: 1000,
+            processingTime: 300,
+            outputItem: { item: 'mekanism:upgrade_stone_generator', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'mekanism:upgrade/stone_generator'
+        },
     ];
 
     recipes.forEach((recipe) => {

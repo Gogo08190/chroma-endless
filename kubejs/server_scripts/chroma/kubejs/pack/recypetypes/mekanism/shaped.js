@@ -307,7 +307,95 @@ onEvent('recipes', (event) => {
             M: 'mekanism:basic_sawing_factory'
           },
           id: 'mekanism:factory/advanced/sawing'
+        },
+        //Module base
+        {
+          output: Item.of('mekanism:module_base', 2 ),
+          pattern: ['RER','EHE','RER'],
+          key:{
+            R: 'undergarden:regalium_nugget',
+            E: 'enderioalloys:item_alloy_ingot_energetic_silver',
+            H: 'mekanism:hdpe_sheet'
+          },
+          id: 'mekanism:module_base'
+        },
+        //Hazmat mask
+        {
+          output: Item.of('mekanism:hazmat_mask', '{HideFlags:2}'),
+          pattern: ['LLL','LOL','   '],
+          key:{
+            L: 'emendatusenigmatica:lead_ingot',
+            O: 'botania:orange_petal'
+          },
+          id: 'mekanism:hazmat_mask'
+        },
+        //Hazmat Gown
+        {
+          output: Item.of('mekanism:hazmat_gown', '{HideFlags:2}'),
+          pattern: ['LOL','LLL','LLL'],
+          key:{
+            L: 'emendatusenigmatica:lead_ingot',
+            O: 'botania:orange_petal'
+          },
+          id: 'mekanism:hazmat_gown'
+        },
+        //Hazmat pants
+        {
+          output: Item.of('mekanism:hazmat_pants', '{HideFlags:2}'),
+          pattern: ['LLL','LOL','L L'],
+          key:{
+            L: 'emendatusenigmatica:lead_ingot',
+            O: 'botania:orange_petal'
+          },
+          id: 'mekanism:hazmat_pants'
+        },
+        //Hazmat Boots
+        {
+          output: Item.of('mekanism:hazmat_boots', '{HideFlags:2}'),
+          pattern: ['   ','L L','LBL'],
+          key:{
+            L: 'emendatusenigmatica:lead_ingot',
+            B: 'botania:black_petal'
+          },
+          id: 'mekanism:hazmat_boots'
+        },
+        //Energy Tablet
+        {
+          output: 'mekanism:energy_tablet',
+          pattern: ['ARA','IRI','ARA'],
+          key:{
+            A: 'enderioalloys:item_alloy_ingot_redstone_alloy',
+            R: 'undergarden:regalium_ingot',
+            I: 'mekanism:alloy_infused'
+          },
+          id: 'mekanism:energy_tablet'
+        },
+        //Robit
+        {
+          output: 'mekanism:robit',
+          pattern: ['DSD','EAE','RPR'],
+          key:{
+            D: 'kubejs:sac',
+            S: 'emendatusenigmatica:steel_ingot',
+            E: 'mekanism:energy_tablet',
+            A: 'mekanism:alloy_atomic',
+            R: 'mekanism:ingot_refined_obsidian',
+            P: 'mekanism:personal_chest'
+          },
+          id: 'mekanism:robit'
+        },
+        //Basic Mechanical Pipe
+        {
+          output: Item.of('mekanism:basic_mechanical_pipe', 8),
+          pattern: ['   ','EBE','   '],
+          key:{
+            E: 'enderioalloys:item_alloy_ingot_electrical_steel',
+            B: 'minecraft:bucket'
+          },
+          id: 'mekanism:transmitter/mechanical_pipe/basic'
         }
+
+
     ];
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
