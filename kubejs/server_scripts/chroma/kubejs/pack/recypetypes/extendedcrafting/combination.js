@@ -1,4 +1,5 @@
 onEvent('recipes', (event) => {
+    const id_prefix = 'chroma:pack/extendedcrafting/combination/'
     const recipes = [
       {
           inputs: [
@@ -135,6 +136,27 @@ onEvent('recipes', (event) => {
           powerRate: 1000,
           result: { item: 'extendedcrafting:ultimate_auto_table' },
           id: 'extendedcrafting:ultimate_auto_table'
+      },
+      {
+          inputs: [
+              { item: 'envirocore:kyronite_interconnect' },
+              { item: 'mekanism:alloy_atomic' },
+              { item: 'bigreactors:ludicrite_ingot' },
+              { item: 'mekanism:ingot_refined_obsidian' },
+              { item: 'pipez:ultimate_upgrade' },
+              { item: 'industrialforegoing:pink_slime_ingot' },
+              { item: 'envirocore:kyronite_interconnect' },
+              { item: 'mekanism:alloy_atomic' },
+              { item: 'bigreactors:ludicrite_ingot' },
+              { item: 'mekanism:ingot_refined_obsidian' },
+              { item: 'pipez:ultimate_upgrade' },
+              { item: 'industrialforegoing:pink_slime_ingot' }
+          ],
+          catalyst: { item: 'enderioalloys:item_material_skull_ender_resonator'},
+          powerCost: 500000,
+          powerRate: 10000,
+          result: { item: 'pipez:infinity_upgrade' },
+          id: `${id_prefix}infinity_upgrade`
       }
     ];
 
