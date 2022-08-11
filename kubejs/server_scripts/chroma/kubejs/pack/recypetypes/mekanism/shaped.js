@@ -324,7 +324,7 @@ onEvent('recipes', (event) => {
           output: Item.of('mekanism:hazmat_mask', '{HideFlags:2}'),
           pattern: ['LLL','LOL','   '],
           key:{
-            L: 'emendatusenigmatica:lead_ingot',
+            L: '#forge:ingots/lead',
             O: 'botania:orange_petal'
           },
           id: 'mekanism:hazmat_mask'
@@ -334,7 +334,7 @@ onEvent('recipes', (event) => {
           output: Item.of('mekanism:hazmat_gown', '{HideFlags:2}'),
           pattern: ['LOL','LLL','LLL'],
           key:{
-            L: 'emendatusenigmatica:lead_ingot',
+            L: '#forge:ingots/lead',
             O: 'botania:orange_petal'
           },
           id: 'mekanism:hazmat_gown'
@@ -344,7 +344,7 @@ onEvent('recipes', (event) => {
           output: Item.of('mekanism:hazmat_pants', '{HideFlags:2}'),
           pattern: ['LLL','LOL','L L'],
           key:{
-            L: 'emendatusenigmatica:lead_ingot',
+            L: '#forge:ingots/lead',
             O: 'botania:orange_petal'
           },
           id: 'mekanism:hazmat_pants'
@@ -354,7 +354,7 @@ onEvent('recipes', (event) => {
           output: Item.of('mekanism:hazmat_boots', '{HideFlags:2}'),
           pattern: ['   ','L L','LBL'],
           key:{
-            L: 'emendatusenigmatica:lead_ingot',
+            L: '#forge:ingots/lead',
             B: 'botania:black_petal'
           },
           id: 'mekanism:hazmat_boots'
@@ -376,7 +376,7 @@ onEvent('recipes', (event) => {
           pattern: ['DSD','EAE','RPR'],
           key:{
             D: 'kubejs:sac',
-            S: 'emendatusenigmatica:steel_ingot',
+            S: '#forge:ingots/lead',
             E: 'mekanism:energy_tablet',
             A: 'mekanism:alloy_atomic',
             R: 'mekanism:ingot_refined_obsidian',

@@ -861,14 +861,14 @@ onEvent('recipes', (event) => {
         //Muffling Upgrade
         {
             inputs: [
-                'mekanism:alloy_infused',
-                'minecraft:glass',
-                'mekanism:alloy_infused',
-                'emendatusenigmatica:steel_dust',
-                'emendatusenigmatica:steel_dust',
-                'mekanism:alloy_infused',
-                'minecraft:glass',
-                'mekanism:alloy_infused'
+                '#mekanism:alloys/infused',
+                '#forge:glass',
+                '#mekanism:alloys/infused',
+                '#forge:dusts/steel',
+                '#forge:dusts/steel',
+                '#mekanism:alloys/infused',
+                '#forge:glass',
+                '#mekanism:alloys/infused'
             ],
             inputFluid: 'tconstruct:molten_refined_glowstone',
             inputFluidAmount: 1000,
@@ -881,14 +881,14 @@ onEvent('recipes', (event) => {
         //Filter Upgrade
         {
             inputs: [
-                'mekanism:alloy_infused',
-                'minecraft:glass',
-                'mekanism:alloy_infused',
-                'emendatusenigmatica:tin_dust',
-                'emendatusenigmatica:tin_dust',
-                'mekanism:alloy_infused',
-                'minecraft:glass',
-                'mekanism:alloy_infused'
+                '#mekanism:alloys/infused',
+                '#forge:glass',
+                '#mekanism:alloys/infused',
+                '#forge:dusts/tin',
+                '#forge:dusts/tin',
+                '#mekanism:alloys/infused',
+                '#forge:glass',
+                '#mekanism:alloys/infused'
             ],
             inputFluid: 'tconstruct:molten_refined_glowstone',
             inputFluidAmount: 1000,
@@ -901,14 +901,14 @@ onEvent('recipes', (event) => {
         //Energy Upgrade
         {
             inputs: [
-                'mekanism:alloy_infused',
-                'minecraft:glass',
-                'mekanism:alloy_infused',
-                'emendatusenigmatica:electrum_dust',
-                'emendatusenigmatica:electrum_dust',
-                'mekanism:alloy_infused',
-                'minecraft:glass',
-                'mekanism:alloy_infused'
+                '#mekanism:alloys/infused',
+                '#forge:glass',
+                '#mekanism:alloys/infused',
+                '#forge:dusts/electrum',
+                '#forge:dusts/electrum',
+                '#mekanism:alloys/infused',
+                '#forge:glass',
+                '#mekanism:alloys/infused'
             ],
             inputFluid: 'tconstruct:molten_refined_glowstone',
             inputFluidAmount: 1000,
@@ -921,14 +921,14 @@ onEvent('recipes', (event) => {
         //Speed Upgrade
         {
             inputs: [
-                'mekanism:alloy_infused',
-                'minecraft:glass',
-                'mekanism:alloy_infused',
-                'occultism:iesnium_dust',
-                'occultism:iesnium_dust',
-                'mekanism:alloy_infused',
-                'minecraft:glass',
-                'mekanism:alloy_infused'
+                '#mekanism:alloys/infused',
+                '#forge:glass',
+                '#mekanism:alloys/infused',
+                '#forge:dusts/iesnium',
+                '#forge:dusts/iesnium',
+                '#mekanism:alloys/infused',
+                '#forge:glass',
+                '#mekanism:alloys/infused'
             ],
             inputFluid: 'tconstruct:molten_refined_glowstone',
             inputFluidAmount: 1000,
@@ -941,14 +941,14 @@ onEvent('recipes', (event) => {
         //Gas Upgrade
         {
             inputs: [
-                'mekanism:alloy_infused',
-                'minecraft:glass',
-                'mekanism:alloy_infused',
-                'emendatusenigmatica:iron_dust',
-                'emendatusenigmatica:iron_dust',
-                'mekanism:alloy_infused',
-                'minecraft:glass',
-                'mekanism:alloy_infused'
+                '#mekanism:alloys/infused',
+                '#forge:glass',
+                '#mekanism:alloys/infused',
+                '#forge:dusts/iron',
+                '#forge:dusts/iron',
+                '#mekanism:alloys/infused',
+                '#forge:glass',
+                '#mekanism:alloys/infused'
             ],
             inputFluid: 'tconstruct:molten_refined_glowstone',
             inputFluidAmount: 1000,
@@ -961,14 +961,14 @@ onEvent('recipes', (event) => {
         //Stone Generator Upgrade
         {
             inputs: [
-                'mekanism:alloy_infused',
-                'minecraft:glass',
-                'mekanism:alloy_infused',
+                '#mekanism:alloys/infused',
+                '#forge:glass',
+                '#mekanism:alloys/infused',
                 Item.of('elementalcraft:element_holder_water', '{element_amount:10000,Damage:0}'),
                 Item.of('elementalcraft:element_holder_fire', '{element_amount:10000,Damage:0}'),
-                'mekanism:alloy_infused',
-                'minecraft:glass',
-                'mekanism:alloy_infused'
+                '#mekanism:alloys/infused',
+                '#forge:glass',
+                '#mekanism:alloys/infused'
             ],
             inputFluid: 'tconstruct:molten_refined_glowstone',
             inputFluidAmount: 1000,
