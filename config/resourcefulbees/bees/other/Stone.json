@@ -63,7 +63,11 @@
         "lightLevel": "ANY"
     },
     "BreedData": {
-        "isBreedable": false
+        "isBreedable":true,
+        "feedItem": "minecraft:stone",
+        "feedAmount": 4,
+        "childGrowthDelay": -24000,
+        "breedDelay": 6000
     },
     "TraitData": {
         "hasTraits": true

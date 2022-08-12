@@ -36,10 +36,22 @@
         "mainInputCount": 1
     },
     "SpawnData": {
-        "canSpawnInWorld": false
+        "canSpawnInWorld": true,
+        "biomeWhitelist": "tag:MOUNTAIN,HILLS,CLEARING",
+        "biomeBlacklist": "tag:OCEAN",
+        "minGroupSize": 1,
+        "maxGroupSize": 1,
+        "minYLevel": 60,
+        "maxYLevel": 250,
+        "spawnWeight": 14,
+        "lightLevel": "ANY"
     },
     "BreedData": {
-        "isBreedable": false
+      "isBreedable": true,
+      "feedItem": "minecraft:gravel",
+      "feedAmount": 1,
+      "childGrowthDelay": -24000,
+      "breedDelay": 6000
     },
     "TraitData": {
         "hasTraits": true

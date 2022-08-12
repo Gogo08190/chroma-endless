@@ -52,7 +52,13 @@
         "canSpawnInWorld": false
     },
     "BreedData": {
-        "isBreedable": false
+        "isBreedable": true,
+        "parent1": "water",
+        "parent2": "lava",
+        "feedItem": "prefab:block_compressed_obsidian",
+        "feedAmount": 4,
+        "childGrowthDelay": -24000,
+        "breedDelay": 6000
     },
     "TraitData": {
         "hasTraits": true

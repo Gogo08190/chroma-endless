@@ -60,7 +60,11 @@
       "maxYLevel": 80
     },
     "BreedData": {
-        "isBreedable": false
+        "isBreedable": true,
+        "feedItem": "minecraft:end_stone",
+        "feedAmount": 5,
+        "childGrowthDelay": -24000,
+        "breedDelay": 6000
     },
     "TraitData": {
         "hasTraits": true

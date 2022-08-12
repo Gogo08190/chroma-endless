@@ -65,10 +65,21 @@
         "mainInputCount": 1
     },
     "SpawnData": {
-        "canSpawnInWorld": false
+      "canSpawnInWorld": true,
+      "biomeWhitelist": "tag:nether",
+      "spawnWeight": 5,
+      "minYLevel": 0,
+      "maxYLevel": 255,
+      "minGroupSize": 1,
+      "maxGroupSize": 2,
+      "lightLevel": "ANY"
     },
     "BreedData": {
-        "isBreedable": false
+        "isBreedable": true,
+        "feedItem": "minecraft:netherrack",
+        "feedAmount": 1,
+        "childGrowthDelay": -24000,
+        "breedDelay": 6000
     },
     "TraitData": {
         "hasTraits": true

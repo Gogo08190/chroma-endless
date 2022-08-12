@@ -42,7 +42,11 @@
     "biomeBlacklist": "tag:ocean"
   },
   "BreedData": {
-    "isBreedable": true
+    "isBreedable": true,
+    "feedItem": "minecraft:packed_ice",
+    "feedAmount": 4,
+    "childGrowthDelay": -24000,
+    "breedDelay": 6000
   },
   "TraitData": {
     "hasTraits": true
