@@ -65,6 +65,15 @@ onEvent('recipes', (event) => {
               output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:fairy_bee' }).toJson(),
               cooling_time: 120,
               id: `${id_prefix}fairy_bee`
+          },
+          {
+              fluid: 'tconstruct:molten_cobalt',
+              fluid_amount: 1296,
+              casts: [Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:nether_bee' }).weakNBT().toJson()],
+              cast_consumed: true,
+              output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:cobalt_bee' }).toJson(),
+              cooling_time: 120,
+              id: `${id_prefix}cobalt_bee`
           }
         ]
     };
