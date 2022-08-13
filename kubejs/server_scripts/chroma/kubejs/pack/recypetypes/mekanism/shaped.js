@@ -393,6 +393,250 @@ onEvent('recipes', (event) => {
             B: 'minecraft:bucket'
           },
           id: 'mekanism:transmitter/mechanical_pipe/basic'
+        },
+        // Fission reactor logic adapter
+        {
+          output: 'mekanismgenerators:fission_reactor_logic_adapter',
+          pattern: [' B ','BEB',' B '],
+          key:{
+            E: 'mekanismgenerators:fission_reactor_casing',
+            B: 'extendedcrafting:redstone_ingot'
+          },
+          id: 'mekanismgenerators:fission_reactor/logic_adapter'
+        },
+        // Turbine vent
+        {
+          output: 'mekanismgenerators:turbine_vent',
+          pattern: [' B ','BEB',' B '],
+          key:{
+            E: 'mekanismgenerators:turbine_casing',
+            B: 'dustrial_decor:barbed_iron_bars'
+          },
+          id: 'mekanismgenerators:turbine_vent'
+        },
+        // Fuelwood heater
+        {
+          output: 'mekanism:fuelwood_heater',
+          pattern: ['CBC','FSF','CCC'],
+          key:{
+              C:'pneumaticcraft:ingot_iron_compressed',
+              B:'mekanism:basic_control_circuit',
+              F:'minecraft:furnace',
+              S:'mekanism:steel_casing'
+          },
+          id: 'mekanism:fuelwood_heater'
+        },
+        // Isotropic Centrifuge
+        {
+          output: 'mekanism:fuelwood_heater',
+          pattern: ['SSS','UCU','SSS'],
+          key:{
+              S:'enderioalloys:item_alloy_ingot_electrical_steel',
+              U:'mekanism:ultimate_control_circuit',
+              C:'mekanism:basic_chemical_tank'
+          },
+          id: 'mekanism:isotopic_centrifuge'
+        },
+        // Superheating element
+        {
+          output: 'mekanism:fuelwood_heater',
+          pattern: ['RCR','CSC','RCR'],
+          key:{
+              R:'bigreactors:ridiculite_ingot',
+              C:'#forge:ingots/copper',
+              S:'mekanism:steel_casing'
+          },
+          id: 'mekanism:superheating_element'
+        },
+        // Basic presurized tube
+        {
+          output: 'mekanism:basic_pressurized_tube',
+          pattern: ['   ','ERE','   '],
+          key:{
+              E:'enderioalloys:item_alloy_ingot_electrical_steel',
+              R:'bigreactors:basic_reactorglass'
+          },
+          id: 'mekanism:transmitter/pressurized_tube/basic'
+        },
+        // Basic logistical transporter
+        {
+          output: 'mekanism:basic_logistical_transporter',
+          pattern: ['   ','ERE','   '],
+          key:{
+              E:'enderioalloys:item_alloy_ingot_electrical_steel',
+              R:'mekanism:basic_control_circuit'
+          },
+          id: 'mekanism:transmitter/logistical_transporter/basic'
+        },
+        // Basic thermodynamic conductor
+        {
+          output: 'mekanism:basic_logistical_transporter',
+          pattern: ['   ','ERE','   '],
+          key:{
+              E:'enderioalloys:item_alloy_ingot_electrical_steel',
+              R:'#forge:ingots/copper'
+          },
+          id: 'mekanism:transmitter/thermodynamic_conductor/basic'
+        },
+        // Basic universal cable
+        {
+          output: 'mekanism:basic_universal_cable',
+          pattern: ['   ','ERE','   '],
+          key:{
+              E:'enderioalloys:item_alloy_ingot_electrical_steel',
+              R:'extendedcrafting:redstone_ingot'
+          },
+          id: 'mekanism:transmitter/universal_cable/basic'
+        },
+        // Basic energy cube
+        {
+          output: 'mekanism:basic_energy_cube',
+          pattern: ['RER','CSC','RER'],
+          key:{
+              R:'extendedcrafting:redstone_ingot',
+              E:'mekanism:energy_tablet',
+              C:'enderioalloys:item_alloy_ingot_crude_steel',
+              S:'mekanism:steel_casing'
+          },
+          id: 'mekanism:energy_cube/basic'
+        },
+        // Advanced energy cube
+        {
+          output: 'mekanism:advanced_energy_cube',
+          pattern: ['RER','CSC','RER'],
+          key:{
+              R:'#mekanism:alloys/infused',,
+              E:'mekanism:energy_tablet',
+              C:'enderioalloys:item_alloy_ingot_energetic_silver',
+              S:Item.of('mekanism:basic_energy_cube').ignoreNBT()
+          },
+          id: 'mekanism:energy_cube/advanced'
+        },
+        // Elite energy cube
+        {
+          output: 'mekanism:elite_energy_cube',
+          pattern: ['RER','CSC','RER'],
+          key:{
+              R:'#mekanism:alloys/reinforced',,
+              E:'mekanism:energy_tablet',
+              C:'#forge:ingots/lumium',
+              S:Item.of('mekanism:advanced_energy_cube').ignoreNBT()
+          },
+          id: 'mekanism:energy_cube/elite'
+        },
+        // Ultimate energy cube
+        {
+          output: 'mekanism:ultimate_energy_cube',
+          pattern: ['RER','CSC','RER'],
+          key:{
+              R:'#mekanism:alloys/atomic',,
+              E:'mekanism:energy_tablet',
+              C:'botania:mana_diamond',
+              S:Item.of('mekanism:elite_energy_cube').ignoreNBT()
+          },
+          id: 'mekanism:energy_cube/ultimate'
+        },
+        // Dynamic tank
+        {
+          output: 'mekanism:dynamic_tank',
+          pattern: [' D ','DBD',' D '],
+          key:{
+              D:'enderioalloys:item_alloy_ingot_dark_steel',
+              B:'minecraft:bucket'
+          },
+          id: 'mekanism:dynamic_tank'
+        },
+        // Structural glass
+        {
+          output: 'mekanism:dynamic_tank',
+          pattern: [' D ','DBD',' D '],
+          key:{
+              D:'enderioalloys:item_alloy_ingot_dark_steel',
+              B:'#forge:glass'
+          },
+          id: 'mekanism:structural_glass'
+        },
+        // Electrolytic core
+        {
+          output: 'mekanism:electrolytic_core',
+          pattern: ['AOA','SES','AOA'],
+          key:{
+              A:'#mekanism:alloys/infused',,
+              O:'#forge:dusts/osmium',
+              S:'#forge:dusts/steel',
+              E:'#forge:dusts/electrum'
+          },
+          id: 'mekanism:electrolytic_core'
+        },
+        // Teleportation core
+        {
+          output: 'mekanism:teleportation_core',
+          pattern: ['AOA','SES','AOA'],
+          key:{
+              L:'emendatusenigmatica:lapis_plate',
+              A:'#mekanism:alloys/atomic',,
+              E:'emendatusenigmatica:electrum_ingot',
+              M:'botania:mana_diamond'
+          },
+          id: 'mekanism:teleportation_core'
+        },
+        // Security desk
+        {
+          output: 'mekanism:security_desk',
+          pattern: ['EME','CSC','ETE'],
+          key:{
+              E'enderioalloys:item_alloy_ingot_electrical_steel',
+              M:'botania:mana_glass',
+              C:'mekanism:elite_control_circuit',
+              S:'mekanism:steel_casing',
+              T:'mekanism:teleportation_core'
+          },
+          id: 'mekanism:security_desk'
+        },
+        // Electric pump
+        {
+          output: 'mekanism:electric_pump',
+          pattern: [' T ','ASA','VVV'],
+          key:{
+              T:'create:fluid_tank',
+              A:'#mekanism:alloys/infused',,
+              S:'mekanism:steel_casing',
+              V:'enderioalloys:item_alloy_ingot_vivid_alloy'
+          },
+          id: 'mekanism:electric_pump'
+        },
+        // Fluidic plenisher
+        {
+          output: 'mekanism:electric_pump',
+          pattern: ['CCC','BEB','CCC'],
+          key:{
+              C:'enderioalloys:item_alloy_ingot_crude_steel',
+              B:'mekanism:basic_control_circuit',
+              E:'mekanism:electric_pump'
+          },
+          id: 'mekanism:electric_pump'
+        },
+        // Logistical sorter
+        {
+          output: 'mekanism:logistical_sorter',
+          pattern: ['CPC','CUC','CCC'],
+          key:{
+              C:'mekanism:ultimate_logistical_transporter',
+              P:'minecraft:piston',
+              U:'mekanism:ultimate_control_circuit'
+          },
+          id: 'mekanism:logistical_sorter'
+        },
+        // Fission fuel assembly
+        {
+          output: 'mekanismgenerators:fission_fuel_assembly',
+          pattern: ['EDE','EUE','EDE'],
+          key:{
+              E:'enderioalloys:item_alloy_ingot_electrical_steel',
+              D:'enderioalloys:item_alloy_ingot_dark_steel',
+              U:'mekanism:ultimate_chemical_tank'
+          },
+          id: 'mekanismgenerators:fission_reactor/fuel_assembly'
         }
 
 
