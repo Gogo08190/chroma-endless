@@ -9,7 +9,12 @@ onEvent('recipes', (event) => {
     }*/
 
     const recipes = [
-
+      {
+      inputs: ['mekanism:hdpe_pellet', Ingredient.of('#thermal:crafting/dies/rod')],
+      output: 'mekanism:hdpe_rod',
+      energy: '2400',
+      id: `${id_prefix}hdpe_rod`
+    }
     ];
 
     recipes.forEach((recipe) => {

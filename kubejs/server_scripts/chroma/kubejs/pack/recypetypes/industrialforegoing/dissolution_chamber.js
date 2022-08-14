@@ -978,6 +978,26 @@ onEvent('recipes', (event) => {
             outputFluidAmount: 0,
             id: 'mekanism:upgrade/stone_generator'
         },
+        //Teleporter Frame
+        {
+            inputs: [
+                'mekanism:ingot_refined_obsidian',
+                'mekanism:ingot_refined_obsidian',
+                'mekanism:ingot_refined_obsidian',
+                'mekanism:ingot_refined_obsidian',
+                'mekanism:ingot_refined_obsidian',
+                'mekanism:ingot_refined_obsidian',
+                'mekanism:ingot_refined_obsidian',
+                'mekanism:ingot_refined_obsidian',
+            ],
+            inputFluid: 'tconstruct:molten_refined_glowstone',
+            inputFluidAmount: 1000,
+            processingTime: 300,
+            outputItem: { item: 'mekanism:teleporter_frame', count: 9 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'mekanism:teleporter_frame'
+        },
     ];
 
     recipes.forEach((recipe) => {

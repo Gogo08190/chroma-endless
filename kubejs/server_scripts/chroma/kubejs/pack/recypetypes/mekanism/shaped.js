@@ -637,7 +637,208 @@ onEvent('recipes', (event) => {
               U:'mekanism:ultimate_chemical_tank'
           },
           id: 'mekanismgenerators:fission_reactor/fuel_assembly'
-        }
+        },
+        // Control fuel assembly
+        {
+          output: 'mekanismgenerators:control_rod_assembly',
+          pattern: ['DUD','EDE','EDE'],
+          key:{
+              E:'enderioalloys:item_alloy_ingot_electrical_steel',
+              D:'enderioalloys:item_alloy_ingot_dark_steel',
+              U:'#forge:circuits/elite'
+          },
+          id: 'mekanismgenerators:fission_reactor/control_rod_assembly'
+        },
+        // Saturating condenser
+        {
+          output: 'mekanismgenerators:saturating_condenser',
+          pattern: ['DED','EUE','DED'],
+          key:{
+              E:'enderioalloys:item_alloy_ingot_electrical_steel',
+              D:'enderioalloys:item_alloy_ingot_dark_steel',
+              U:'create:fluid_tank'
+          },
+          id: 'mekanismgenerators:saturating_condenser'
+        },
+        // Turbine rotor
+        {
+          output: 'mekanismgenerators:turbine_rotor',
+          pattern: ['DUD','DUD','DUD'],
+          key:{
+              D:'enderioalloys:item_alloy_ingot_dark_steel',
+              U:'#mekanism:alloys/infused'
+          },
+          id: 'mekanismgenerators:turbine_rotor'
+        },
+        // Laser
+        {
+          output: 'mekanism:laser',
+          pattern: ['UE ','USD','UE '],
+          key:{
+              U:'#mekanism:alloys/atomic',
+              E:'mekanism:energy_tablet',
+              S:'mekanism:steel_casing',
+              D:'botania:dragonstone'
+
+          },
+          id: 'mekanism:laser'
+        },
+        // Rotary condensator
+        {
+          output: 'mekanism:rotary_condensentrator',
+          pattern: ['MBM','CEF','MBM '],
+          key:{
+              M:'botania:mana_glass',
+              B:'mekanism:basic_control_circuit',
+              C:'mekanism:basic_chemical_tank',
+              E:'mekanism:energy_tablet',
+              F:'mekanism:basic_fluid_tank'
+
+          },
+          id: 'mekanism:rotary_condensentrator'
+        },
+        // Radiactive waste barrel
+        {
+          output: 'mekanism:radioactive_waste_barrel',
+          pattern: ['SLS','LAL','SLS '],
+          key:{
+              L:'#forge:ingots/lead',
+              S:'#forge:ingots/steel',
+              A:'#mekanism:alloys/infused'
+
+          },
+          id: 'mekanism:radioactive_waste_barrel'
+        },
+
+        // Mekasuit helmet
+        {
+          output: 'mekanism:mekasuit_helmet',
+          pattern: ['HUH','HAH','PIP '],
+          key:{
+              H:'mekanism:hdpe_sheet',
+              U:'mekanism:ultimate_control_circuit',
+              A:Item.of('pneumaticcraft:pneumatic_helmet').weakNBT(),
+              P:'mekanism:pellet_polonium',
+              I:'mekanism:ultimate_induction_cell'
+          },
+          id: 'mekanism:mekasuit_helmet'
+        },
+        // Mekasuit bodyarmor
+        {
+          output: 'mekanism:mekasuit_bodyarmor',
+          pattern: ['HUH','HAH','PIP '],
+          key:{
+              H:'mekanism:hdpe_sheet',
+              U:'mekanism:ultimate_control_circuit',
+              A:Item.of('pneumaticcraft:pneumatic_chestplate').weakNBT(),
+              P:'mekanism:pellet_polonium',
+              I:'mekanism:ultimate_induction_cell'
+          },
+          id: 'mekanism:mekasuit_bodyarmor'
+        },
+        // Mekasuit pants
+        {
+          output: 'mekanism:mekasuit_pants',
+          pattern: ['HUH','HAH','PIP '],
+          key:{
+              H:'mekanism:hdpe_sheet',
+              U:'mekanism:ultimate_control_circuit',
+              A:Item.of('pneumaticcraft:pneumatic_leggings').weakNBT(),
+              P:'mekanism:pellet_polonium',
+              I:'mekanism:ultimate_induction_cell'
+          },
+          id: 'mekanism:mekasuit_pants'
+        },
+        // Mekasuit boots
+        {
+          output: 'mekanism:mekasuit_boots',
+          pattern: ['HUH','HAH','PIP '],
+          key:{
+              H:'mekanism:hdpe_sheet',
+              U:'mekanism:ultimate_control_circuit',
+              A:Item.of('pneumaticcraft:pneumatic_boots').weakNBT(),
+              P:'mekanism:pellet_polonium',
+              I:'mekanism:ultimate_induction_cell'
+          },
+          id: 'mekanism:mekasuit_boots'
+        },
+        // Thermal evaporation block
+        {
+          output: 'mekanism:thermal_evaporation_block',
+          pattern: [' D ','DCD',' D '],
+          key:{
+              D:'enderioalloys:item_alloy_ingot_dark_steel',
+              C:'#forge:ingots/copper'
+          },
+          id: 'mekanism:thermal_evaporation/block'
+        },
+        // Induction casing
+        {
+          output: 'mekanism:induction_casing',
+          pattern: [' D ','DCD',' D '],
+          key:{
+              D:'enderioalloys:item_alloy_ingot_crude_steel',
+              C:'mekanism:energy_tablet'
+          },
+          id: 'mekanism:induction/casing'
+        },
+        // Boiler casing
+        {
+          output: 'mekanism:boiler_casing',
+          pattern: [' D ','DCD',' D '],
+          key:{
+              D:'enderioalloys:item_alloy_ingot_electrical_steel',
+              C:'enderioalloys:item_alloy_ingot_crude_steel'
+          },
+          id: 'mekanism:boiler_casing'
+        },
+        // Chargepad
+        {
+          output: 'mekanism:chargepad',
+          pattern: ['   ','BBB','CEC'],
+          key:{
+              E:'mekanism:energy_tablet',
+              C:'enderioalloys:item_alloy_ingot_crude_steel',
+              B:'darkutils:blank_plate'
+          },
+          id: 'mekanism:chargepad'
+        },
+        // Rotational complex
+        {
+          output: 'mekanismgenerators:rotational_complex',
+          pattern: ['DAD','CAC','DAD'],
+          key:{
+              D:'enderioalloys:item_alloy_ingot_dark_steel',
+              A:'#mekanism:alloys/infused',
+              C:'mekanism:advanced_control_circuit'
+          },
+          id: 'mekanismgenerators:rotational_complex'
+        },
+        // Reactor glass
+        {
+          output: 'mekanismgenerators:reactor_glass',
+          pattern: ['DCD','CGC','DCD'],
+          key:{
+              D:'enderioalloys:item_alloy_ingot_dark_steel',
+              C:'enderioalloys:item_alloy_ingot_crude_steel',
+              G:'industrialforegoing:dark_glass'
+          },
+          id: 'mekanismgenerators:reactor/glass'
+        },
+        // Supercharged coil
+        {
+          output: 'mekanism:supercharged_coil',
+          pattern: ['EEE','ULU','PPP'],
+          key:{
+              E:'enderioalloys:item_alloy_ingot_energetic_alloy',
+              U:'mekanism:ultimate_control_circuit',
+              L:'mekanism:laser',
+              P:'#forge:pellets/polonium'
+          },
+          id: 'mekanism:supercharged_coil'
+        },
+
+
 
 
     ];
