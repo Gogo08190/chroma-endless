@@ -42,7 +42,7 @@ onEvent('recipes', (event) => {
           pattern: ['A A', 'ABA', 'AAA'],
           key: {
               A: 'tconstruct:scorched_brick',
-              B: 'minecraft:hopper'
+              B: 'minecraft:bucket'
           },
           id: 'tconstruct:smeltery/scorched/basin'
       },
