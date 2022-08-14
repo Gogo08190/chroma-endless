@@ -517,7 +517,7 @@ onEvent('recipes', (event) => {
           output: 'mekanism:elite_energy_cube',
           pattern: ['RER','CSC','RER'],
           key:{
-              R:'#mekanism:alloys/reinforced',,
+              R:'#mekanism:alloys/reinforced',
               E:'mekanism:energy_tablet',
               C:'#forge:ingots/lumium',
               S:Item.of('mekanism:advanced_energy_cube').ignoreNBT()
@@ -529,7 +529,7 @@ onEvent('recipes', (event) => {
           output: 'mekanism:ultimate_energy_cube',
           pattern: ['RER','CSC','RER'],
           key:{
-              R:'#mekanism:alloys/atomic',,
+              R:'#mekanism:alloys/atomic',
               E:'mekanism:energy_tablet',
               C:'botania:mana_diamond',
               S:Item.of('mekanism:elite_energy_cube').ignoreNBT()
@@ -561,7 +561,7 @@ onEvent('recipes', (event) => {
           output: 'mekanism:electrolytic_core',
           pattern: ['AOA','SES','AOA'],
           key:{
-              A:'#mekanism:alloys/infused',,
+              A:'#mekanism:alloys/infused',
               O:'#forge:dusts/osmium',
               S:'#forge:dusts/steel',
               E:'#forge:dusts/electrum'
@@ -574,7 +574,7 @@ onEvent('recipes', (event) => {
           pattern: ['AOA','SES','AOA'],
           key:{
               L:'emendatusenigmatica:lapis_plate',
-              A:'#mekanism:alloys/atomic',,
+              A:'#mekanism:alloys/atomic',
               E:'emendatusenigmatica:electrum_ingot',
               M:'botania:mana_diamond'
           },
@@ -585,7 +585,7 @@ onEvent('recipes', (event) => {
           output: 'mekanism:security_desk',
           pattern: ['EME','CSC','ETE'],
           key:{
-              E'enderioalloys:item_alloy_ingot_electrical_steel',
+              E:'enderioalloys:item_alloy_ingot_electrical_steel',
               M:'botania:mana_glass',
               C:'mekanism:elite_control_circuit',
               S:'mekanism:steel_casing',
@@ -599,7 +599,7 @@ onEvent('recipes', (event) => {
           pattern: [' T ','ASA','VVV'],
           key:{
               T:'create:fluid_tank',
-              A:'#mekanism:alloys/infused',,
+              A:'#mekanism:alloys/infused',
               S:'mekanism:steel_casing',
               V:'enderioalloys:item_alloy_ingot_vivid_alloy'
           },
