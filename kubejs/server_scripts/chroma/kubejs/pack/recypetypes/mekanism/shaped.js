@@ -505,7 +505,7 @@ onEvent('recipes', (event) => {
           output: 'mekanism:advanced_energy_cube',
           pattern: ['RER','CSC','RER'],
           key:{
-              R:'#mekanism:alloys/infused',,
+              R:'#mekanism:alloys/infused',
               E:'mekanism:energy_tablet',
               C:'enderioalloys:item_alloy_ingot_energetic_silver',
               S:Item.of('mekanism:basic_energy_cube').ignoreNBT()
