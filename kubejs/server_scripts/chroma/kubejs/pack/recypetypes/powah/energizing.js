@@ -510,6 +510,40 @@ onEvent('recipes', (event) => {
               count: 1
           },
           id: 'draconicevolution:basic_crafting_injector'
+      },
+      //Ultimate Injecting Factory
+      {
+          ingredients: [
+              { item: 'mekanism:ultimate_control_circuit' },
+              { item: 'mekanism:ultimate_control_circuit' },
+              { item: 'powah:nitro_crystal_block' },
+              { item: 'powah:nitro_crystal_block' },
+              { item: 'powah:capacitor_nitro' },
+              { item: 'mekanism:elite_injecting_factory' }
+          ],
+          energy: 1000000,
+          result: {
+              item: 'mekanism:ultimate_injecting_factory',
+              count: 1
+          },
+          id: 'mekanism:factory/ultimate/injecting'
+      },
+      //Ultimate Purifying Factory
+      {
+          ingredients: [
+              { item: 'mekanism:ultimate_control_circuit' },
+              { item: 'mekanism:ultimate_control_circuit' },
+              { item: 'powah:nitro_crystal_block' },
+              { item: 'powah:nitro_crystal_block' },
+              { item: 'powah:capacitor_nitro' },
+              { item: 'mekanism:elite_purifying_factory' }
+          ],
+          energy: 1000000,
+          result: {
+              item: 'mekanism:ultimate_purifying_factory',
+              count: 1
+          },
+          id: 'mekanism:factory/ultimate/purifying'
       }
     ];
 

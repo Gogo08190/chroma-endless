@@ -998,6 +998,46 @@ onEvent('recipes', (event) => {
             outputFluidAmount: 0,
             id: 'mekanism:teleporter_frame'
         },
+        // Elite Injecting Factory
+        {
+            inputs: [
+                'mekanism:elite_control_circuit',
+                'mekanism:advanced_injecting_factory',
+                'mekanism:elite_control_circuit',
+                'industrialforegoing:plastic',
+                'industrialforegoing:plastic',
+                'mekanism:elite_control_circuit',
+                'createdeco:netherite_sheet',
+                'mekanism:elite_control_circuit'
+            ],
+            inputFluid: 'tconstruct:molten_refined_glowstone',
+            inputFluidAmount: 2000,
+            processingTime: 300,
+            outputItem: { item: 'mekanism:elite_injecting_factory', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'mekanism:factory/elite/injecting'
+          },
+        // Elite Purifying Factory
+        {
+            inputs: [
+                'mekanism:elite_control_circuit',
+                'mekanism:advanced_purifying_factory',
+                'mekanism:elite_control_circuit',
+                'industrialforegoing:plastic',
+                'industrialforegoing:plastic',
+                'mekanism:elite_control_circuit',
+                'createdeco:netherite_sheet',
+                'mekanism:elite_control_circuit'
+            ],
+            inputFluid: 'tconstruct:molten_refined_glowstone',
+            inputFluidAmount: 2000,
+            processingTime: 300,
+            outputItem: { item: 'mekanism:elite_purifying_factory', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'mekanism:factory/elite/purifying'
+          }
     ];
 
     recipes.forEach((recipe) => {

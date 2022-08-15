@@ -22,7 +22,8 @@ onEvent('recipes', (event) => {
     ];
 
     const outputRemovals = [
-      'occultism:dictionary_of_spirits'
+      'mekanism:hdpe_sheet',
+      'mekanism:enriching/hdpe_sheet'
     ];
 
     idRemovals.forEach((id) => {

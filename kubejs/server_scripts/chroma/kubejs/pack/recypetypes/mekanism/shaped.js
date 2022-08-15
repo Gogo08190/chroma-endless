@@ -24,7 +24,7 @@ onEvent('recipes', (event) => {
             I: 'pneumaticcraft:ingot_iron_compressed',
             C: 'pneumaticcraft:capacitor',
             S: 'mekanism:steel_casing',
-            M: 'mekanism:basic_chemical_tank'
+            M: Item.of('mekanism:basic_chemical_tank').weakNBT()
           },
           id: 'mekanism:osmium_compressor'
         },
@@ -68,7 +68,7 @@ onEvent('recipes', (event) => {
           output: 'mekanism:advanced_chemical_tank',
           pattern: ['ACA','CBC','ACA'],
           key: {
-            B: 'mekanism:basic_chemical_tank',
+            B: Item.of('mekanism:basic_chemical_tank').weakNBT(),
             A: 'mekanism:alloy_infused',
             C: 'pneumaticcraft:ingot_iron_compressed'
           },
@@ -81,7 +81,7 @@ onEvent('recipes', (event) => {
           key: {
             E: 'enderioalloys:item_alloy_ingot_energetic_silver',
             R: 'mekanism:alloy_reinforced',
-            A: 'mekanism:advanced_chemical_tank'
+            A: Item.of('mekanism:advanced_chemical_tank').weakNBT()
           },
           id: 'mekanism:chemical_tank/elite'
         },
@@ -92,7 +92,7 @@ onEvent('recipes', (event) => {
           key: {
             A: 'mekanism:alloy_atomic',
             N: 'createdeco:netherite_sheet',
-            E: 'mekanism:elite_chemical_tank'
+            E: Item.of('mekanism:elite_chemical_tank').weakNBT()
           },
           id: 'mekanism:chemical_tank/ultimate'
         },
@@ -114,7 +114,7 @@ onEvent('recipes', (event) => {
           key: {
             A: 'mekanism:alloy_infused',
             C: 'pneumaticcraft:ingot_iron_compressed',
-            B: 'mekanism:basic_fluid_tank'
+            B: Item.of('mekanism:basic_fluid_tank').weakNBT()
           },
           id: 'mekanism:fluid_tank/advanced'
         },
@@ -125,18 +125,18 @@ onEvent('recipes', (event) => {
           key: {
             R: 'mekanism:alloy_reinforced',
             E: 'enderioalloys:item_alloy_ingot_energetic_silver',
-            A: 'mekanism:advanced_fluid_tank'
+            A: Item.of('mekanism:advanced_fluid_tank').weakNBT()
           },
           id: 'mekanism:fluid_tank/elite'
         },
-        //Elite Fluid Tank
+        //Ultmate Fluid Tank
         {
           output: 'mekanism:ultimate_fluid_tank',
           pattern: ['ANA','NEN','ANA'],
           key: {
             A: 'mekanism:alloy_atomic',
             N: 'createdeco:netherite_sheet',
-            E: 'mekanism:elite_fluid_tank'
+            E: Item.of('mekanism:elite_fluid_tank').weakNBT()
           },
           id: 'mekanism:fluid_tank/ultimate'
         },
@@ -433,7 +433,7 @@ onEvent('recipes', (event) => {
           key:{
               S:'enderioalloys:item_alloy_ingot_electrical_steel',
               U:'mekanism:ultimate_control_circuit',
-              C:'mekanism:basic_chemical_tank'
+              C:Item.of('mekanism:basic_chemical_tank').weakNBT()
           },
           id: 'mekanism:isotopic_centrifuge'
         },
@@ -548,7 +548,7 @@ onEvent('recipes', (event) => {
         },
         // Structural glass
         {
-          output: 'mekanism:dynamic_tank',
+          output: 'mekanism:structural_glass',
           pattern: [' D ','DBD',' D '],
           key:{
               D:'enderioalloys:item_alloy_ingot_dark_steel',
@@ -634,7 +634,7 @@ onEvent('recipes', (event) => {
           key:{
               E:'enderioalloys:item_alloy_ingot_electrical_steel',
               D:'enderioalloys:item_alloy_ingot_dark_steel',
-              U:'mekanism:ultimate_chemical_tank'
+              U:Item.of('mekanism:ultimate_chemical_tank').weakNBT()
           },
           id: 'mekanismgenerators:fission_reactor/fuel_assembly'
         },
@@ -690,9 +690,9 @@ onEvent('recipes', (event) => {
           key:{
               M:'botania:mana_glass',
               B:'mekanism:basic_control_circuit',
-              C:'mekanism:basic_chemical_tank',
+              C:Item.of('mekanism:basic_chemical_tank').weakNBT(),
               E:'mekanism:energy_tablet',
-              F:'mekanism:basic_fluid_tank'
+              F:Item.of('mekanism:basic_fluid_tank').weakNBT()
 
           },
           id: 'mekanism:rotary_condensentrator'
@@ -837,6 +837,197 @@ onEvent('recipes', (event) => {
           },
           id: 'mekanism:supercharged_coil'
         },
+        // Fission reactor casing
+        {
+          output: 'mekanismgenerators:fission_reactor_casing',
+          pattern: ['ESE','SCS','ESE'],
+          key:{
+              E:'enderioalloys:item_alloy_ingot_electrical_steel',
+              S:'enderioalloys:item_alloy_ingot_stellar_alloy',
+              C:'mekanism:steel_casing'
+          },
+          id: 'mekanism:fission_reactor/casing'
+        },
+        // Electromagnetic coil
+        {
+          output: 'mekanismgenerators:electromagnetic_coil',
+          pattern: ['DRD','RER','DRD'],
+          key:{
+              D:'enderioalloys:item_alloy_ingot_dark_steel',
+              R:'#forge:ingots/regalium',
+              E:'mekanism:energy_tablet'
+          },
+          id: 'mekanismgenerators:electromagnetic_coil'
+        },
+        // Solar neutron activator
+        {
+          output: 'mekanism:solar_neutron_activator',
+          pattern: ['AHA','CSC','EEE'],
+          key:{
+              A:'#mekanism:alloys/reinforced',
+              H:'mekanism:hdpe_sheet',
+              C:'mekanism:elite_control_circuit',
+              S:'mekanism:steel_casing',
+              E:'enderioalloys:item_alloy_ingot_energetic_alloy'
+          },
+          id: 'mekanism:solar_neutron_activator'
+        },
+        // Seismic vibrator
+        {
+          output: 'mekanism:seismic_vibrator',
+          pattern: ['SLS','BCB','SSS'],
+          key:{
+              S:'enderioalloys:item_alloy_ingot_energetic_silver',
+              L:'#forge:plates/lapis',
+              B:'mekanism:basic_control_circuit',
+              C:'mekanism:steel_casing'
+          },
+          id: 'mekanism:seismic_vibrator'
+        },
+        // Pressure disperser
+        {
+          output: 'mekanism:pressure_disperser',
+          pattern: ['EIE','IAI','EIE'],
+          key:{
+              E:'enderioalloys:item_alloy_ingot_electrical_steel',
+              I:'minecraft:iron_bars',
+              A:'#mekanism:alloys/infused'
+          },
+          id: 'mekanism:pressure_disperser'
+        },
+        // Basic bin
+        {
+          output: 'mekanism:pressure_disperser',
+          pattern: ['CBC','R R','CCC'],
+          key:{
+              C:'#forge:cobblestone',
+              B:'mekanism:basic_control_circuit',
+              R:'extendedcrafting:redstone_ingot'
+          },
+          id: 'mekanism:pressure_disperser'
+        },
+        // Turbine casing
+        {
+          output: 'mekanismgenerators:turbine_casing',
+          pattern: ['CBC','R R','CCC'],
+          key:{
+              E:'enderioalloys:item_alloy_ingot_electrical_steel',
+              V:'enderioalloys:item_alloy_ingot_vivid_alloy'
+          },
+          id: 'mekanism:turbine/casing'
+        },
+        // Ressessive heater
+        {
+          output: 'mekanism:resistive_heater',
+          pattern: ['TRT','RSR','TET'],
+          key:{
+              T:'#forge:ingots/tin',
+              R:'extendedcrafting:redstone_ingot',
+              S:'mekanism:steel_casing',
+              E:'mekanism:energy_tablet'
+          },
+          id: 'mekanism:resistive_heater'
+        },
+        // Pressurizd reaction chamber
+        {
+          output: 'mekanism:pressurized_reaction_chamber',
+          pattern: ['SAS','CEC','TDT'],
+          key:{
+              S:'enderioalloys:item_alloy_ingot_electrical_steel',
+              A:'#mekanism:alloys/infused',
+              C:'mekanism:basic_control_circuit',
+              E:Item.of('mekanism:enrichment_chamber').weakNBT(),
+              T:Item.of('mekanism:basic_chemical_tank').weakNBT(),
+              D:'mekanism:dynamic_tank'
+          },
+          id: 'mekanism:pressurized_reaction_chamber'
+        },
+        // Electrolytic separator
+        {
+          output: 'mekanism:electrolytic_separator',
+          pattern: ['CRC','AEA','CRC'],
+          key:{
+              C:'enderioalloys:item_alloy_ingot_crude_steel',
+              R:'extendedcrafting:redstone_ingot',
+              A:'#mekanism:alloys/infused',
+              E:'mekanism:electrolytic_core'
+          },
+          id: 'mekanism:electrolytic_separator'
+        },
+        // Chemical injection chamber
+        {
+          output: 'mekanism:chemical_injection_chamber',
+          pattern: ['APA','CSC','AEA'],
+          key:{
+              A:'#mekanism:alloys/infused',
+              P:Item.of('mekanism:purification_chamber').weakNBT(),
+              C:'pneumaticcraft:capacitor',
+              S:'mekanism:steel_casing',
+              E:'kubejs:extreme_circuit_board'
+          },
+          id: 'mekanism:chemical_injection_chamber'
+        },
+        // Basic injection factory
+        {
+          output: 'mekanism:basic_injecting_factory',
+          pattern: ['RCR','IMI','RCR'],
+          key:{
+              R:'extendedcrafting:redstone_ingot',
+              C:'mekanism:basic_control_circuit',
+              I:'#forge:ingots/compressed_iron',
+              M:'mekanism:chemical_injection_chamber'
+          },
+          id: 'mekanism:factory/basic/injecting'
+        },
+        // Advanced injection factory
+        {
+          output: 'mekanism:advanced_injecting_factory',
+          pattern: ['CAC','SBS','CAC'],
+          key:{
+              C:'enderioalloys:item_alloy_ingot_conductive_iron',
+              A:'mekanism:advanced_control_circuit',
+              S:'enderioalloys:item_alloy_ingot_energetic_silver',
+              B:'mekanism:basic_injecting_factory'
+          },
+          id: 'mekanism:factory/advanced/injecting'
+        },
+        // Purification chamber
+        {
+          output: 'mekanism:purification_chamber',
+          pattern: ['APA','CSC','AEA'],
+          key:{
+              A:'#mekanism:alloys/infused',
+              P:Item.of('mekanism:enrichment_chamber'),
+              C:'pneumaticcraft:capacitor',
+              S:'mekanism:steel_casing',
+              E:'kubejs:extreme_circuit_board'
+          },
+          id: 'mekanism:purification_chamber'
+        },
+        // Basic purifying factory
+        {
+          output: 'mekanism:basic_purifying_factory',
+          pattern: ['RCR','IMI','RCR'],
+          key:{
+              R:'extendedcrafting:redstone_ingot',
+              C:'mekanism:basic_control_circuit',
+              I:'#forge:ingots/compressed_iron',
+              M:'mekanism:purification_chamber'
+          },
+          id: 'mekanism:factory/basic/purifying'
+        },
+        // Advanced purifying factory
+        {
+          output: 'mekanism:advanced_purifying_factory',
+          pattern: ['CAC','SBS','CAC'],
+          key:{
+              C:'enderioalloys:item_alloy_ingot_conductive_iron',
+              A:'mekanism:advanced_control_circuit',
+              S:'enderioalloys:item_alloy_ingot_energetic_silver',
+              B:'mekanism:basic_purifying_factory'
+          },
+          id: 'mekanism:factory/advanced/purifying'
+        }
 
 
 
