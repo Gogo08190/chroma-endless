@@ -791,4 +791,172 @@ onEvent("recipes", (event) => {
       }
     }
   ).id(`${id_prefix}endlessreactor_endless_energy_port_energy_output`)
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCBA",
+        "BDEDB",
+        "FGHGF",
+        "BDEDB",
+        "ABCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "pneumaticcraft:reinforced_air_canister"
+        },
+        "B": {
+          "item": "create:shadow_steel_casing"
+        },
+        "C": {
+          "item": "mekanism:pellet_polonium"
+        },
+        "D": {
+          "item": "draconicevolution:draconium_ingot"
+        },
+        "E": {
+          "item": "mekanism:teleportation_core"
+        },
+        "F": {
+          "item": "kubejs:netherite_transistor"
+        },
+        "G": {
+          "item": "pneumaticcraft:advanced_pressure_tube"
+        },
+        "H": {
+          "item": "mekanism:steel_casing"
+        }
+      },
+      "result": {
+        "item": "masterfulmachinery:endlessreactor_endless_air_port_pncr_pressure_input"
+      }
+    }
+  ).id(`${id_prefix}endlessreactor_endless_air_port_pncr_pressure_input`)
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCBA",
+        "BDEDB",
+        "FGHGF",
+        "BDEDB",
+        "ABCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "mekanism:ultimate_fluid_tank"
+        },
+        "B": {
+          "item": "create:shadow_steel_casing"
+        },
+        "C": {
+          "item": "mekanism:pellet_polonium"
+        },
+        "D": {
+          "item": "draconicevolution:draconium_ingot"
+        },
+        "E": {
+          "item": "mekanism:teleportation_core"
+        },
+        "F": {
+          "item": "mekanism:dynamic_tank"
+        },
+        "G": {
+          "item": "mekanism:ultimate_mechanical_pipe"
+        },
+        "H": {
+          "item": "mekanism:steel_casing"
+        }
+      },
+      "result": {
+        "item": "masterfulmachinery:endlessreactor_endless_fluid_port_fluids_input"
+      }
+    }
+  ).id(`${id_prefix}endlessreactor_endless_fluid_port_fluids_input`)
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCBA",
+        "BDEDB",
+        "FGHGF",
+        "BDEDB",
+        "ABCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "create:electron_tube"
+        },
+        "B": {
+          "item": "create:shadow_steel_casing"
+        },
+        "C": {
+          "item": "create:refined_radiance"
+        },
+        "D": {
+          "item": "draconicevolution:draconium_ingot"
+        },
+        "E": {
+          "item": "create:precision_mechanism"
+        },
+        "F": {
+          "item": "create:rotation_speed_controller"
+        },
+        "G": {
+          "item": "mekanism:teleportation_core"
+        },
+        "H": {
+          "item": "mekanism:steel_casing"
+        }
+      },
+      "result": {
+        "item": "masterfulmachinery:endlessreactor_endless_speed_port_create_rotation_output"
+      }
+    }
+  ).id(`${id_prefix}endlessreactor_endless_speed_port_create_rotation_output`)
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCBA",
+        "BDEDB",
+        "FGHGF",
+        "BDEDB",
+        "ABCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "mekanism:ultimate_chemical_tank"
+        },
+        "B": {
+          "item": "create:shadow_steel_casing"
+        },
+        "C": {
+          "item": "mekanism:pellet_polonium"
+        },
+        "D": {
+          "item": "draconicevolution:draconium_ingot"
+        },
+        "E": {
+          "item": "mekanism:teleportation_core"
+        },
+        "F": {
+          "item": "mekanism:electrolytic_core"
+        },
+        "G": {
+          "item": "mekanism:ultimate_pressurized_tube"
+        },
+        "H": {
+          "item": "mekanism:steel_casing"
+        }
+      },
+      "result": {
+        "item": "masterfulmachinery:endlessreactor_endless_gas_port_mekanism_gas_input"
+      }
+    }
+  ).id(`${id_prefix}endlessreactor_endless_gas_port_mekanism_gas_input`)
 });
