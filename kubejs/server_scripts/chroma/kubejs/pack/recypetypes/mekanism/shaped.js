@@ -322,7 +322,7 @@ onEvent('recipes', (event) => {
         //Hazmat mask
         {
           output: Item.of('mekanism:hazmat_mask', '{HideFlags:2}'),
-          pattern: ['LLL','LOL','   '],
+          pattern: ['LLL','LOL'],
           key:{
             L: '#forge:ingots/lead',
             O: 'botania:orange_petal'
@@ -352,7 +352,7 @@ onEvent('recipes', (event) => {
         //Hazmat Boots
         {
           output: Item.of('mekanism:hazmat_boots', '{HideFlags:2}'),
-          pattern: ['   ','L L','LBL'],
+          pattern: ['L L','LBL'],
           key:{
             L: '#forge:ingots/lead',
             B: 'botania:black_petal'
@@ -376,7 +376,7 @@ onEvent('recipes', (event) => {
           pattern: ['DSD','EAE','RPR'],
           key:{
             D: 'kubejs:sac',
-            S: '#forge:ingots/lead',
+            S: '#forge:ingots/steel',
             E: 'mekanism:energy_tablet',
             A: 'mekanism:alloy_atomic',
             R: 'mekanism:ingot_refined_obsidian',
@@ -387,7 +387,7 @@ onEvent('recipes', (event) => {
         //Basic Mechanical Pipe
         {
           output: Item.of('mekanism:basic_mechanical_pipe', 8),
-          pattern: ['   ','EBE','   '],
+          pattern: ['EBE'],
           key:{
             E: 'enderioalloys:item_alloy_ingot_electrical_steel',
             B: 'minecraft:bucket'
@@ -406,13 +406,13 @@ onEvent('recipes', (event) => {
         },
         // Turbine vent
         {
-          output: 'mekanismgenerators:turbine_vent',
-          pattern: [' B ','BEB',' B '],
+          output: Item.of('mekanismgenerators:turbine_vent', 2 ),
+          pattern: [' E ','EBE',' E '],
           key:{
             E: 'mekanismgenerators:turbine_casing',
             B: 'dustrial_decor:barbed_iron_bars'
           },
-          id: 'mekanismgenerators:turbine_vent'
+          id: 'mekanismgenerators:turbine/vent'
         },
         // Fuelwood heater
         {
@@ -428,7 +428,7 @@ onEvent('recipes', (event) => {
         },
         // Isotropic Centrifuge
         {
-          output: 'mekanism:fuelwood_heater',
+          output: 'mekanism:isotopic_centrifuge',
           pattern: ['SSS','UCU','SSS'],
           key:{
               S:'enderioalloys:item_alloy_ingot_electrical_steel',
@@ -439,7 +439,7 @@ onEvent('recipes', (event) => {
         },
         // Superheating element
         {
-          output: 'mekanism:fuelwood_heater',
+          output: 'mekanism:superheating_element',
           pattern: ['RCR','CSC','RCR'],
           key:{
               R:'bigreactors:ridiculite_ingot',
@@ -450,8 +450,8 @@ onEvent('recipes', (event) => {
         },
         // Basic presurized tube
         {
-          output: 'mekanism:basic_pressurized_tube',
-          pattern: ['   ','ERE','   '],
+          output: Item.of('mekanism:basic_pressurized_tube', 8),
+          pattern: ['ERE'],
           key:{
               E:'enderioalloys:item_alloy_ingot_electrical_steel',
               R:'bigreactors:basic_reactorglass'
@@ -460,8 +460,8 @@ onEvent('recipes', (event) => {
         },
         // Basic logistical transporter
         {
-          output: 'mekanism:basic_logistical_transporter',
-          pattern: ['   ','ERE','   '],
+          output: Item.of('mekanism:basic_logistical_transporter', 8),
+          pattern: ['ERE'],
           key:{
               E:'enderioalloys:item_alloy_ingot_electrical_steel',
               R:'mekanism:basic_control_circuit'
@@ -470,8 +470,8 @@ onEvent('recipes', (event) => {
         },
         // Basic thermodynamic conductor
         {
-          output: 'mekanism:basic_logistical_transporter',
-          pattern: ['   ','ERE','   '],
+          output: Item.of('mekanism:basic_thermodynamic_conductor', 8),
+          pattern: ['ERE'],
           key:{
               E:'enderioalloys:item_alloy_ingot_electrical_steel',
               R:'#forge:ingots/copper'
@@ -480,8 +480,8 @@ onEvent('recipes', (event) => {
         },
         // Basic universal cable
         {
-          output: 'mekanism:basic_universal_cable',
-          pattern: ['   ','ERE','   '],
+          output: Item.of('mekanism:basic_universal_cable', 8),
+          pattern: ['ERE'],
           key:{
               E:'enderioalloys:item_alloy_ingot_electrical_steel',
               R:'extendedcrafting:redstone_ingot'
@@ -559,7 +559,7 @@ onEvent('recipes', (event) => {
         // Electrolytic core
         {
           output: 'mekanism:electrolytic_core',
-          pattern: ['AOA','SES','AOA'],
+          pattern: ['AOA','SAE','AOA'],
           key:{
               A:'#mekanism:alloys/infused',
               O:'#forge:dusts/osmium',
@@ -571,7 +571,7 @@ onEvent('recipes', (event) => {
         // Teleportation core
         {
           output: 'mekanism:teleportation_core',
-          pattern: ['AOA','SES','AOA'],
+          pattern: ['LAL','EME','LAL'],
           key:{
               L:'emendatusenigmatica:lapis_plate',
               A:'#mekanism:alloys/atomic',
@@ -607,14 +607,14 @@ onEvent('recipes', (event) => {
         },
         // Fluidic plenisher
         {
-          output: 'mekanism:electric_pump',
+          output: 'mekanism:fluidic_plenisher',
           pattern: ['CCC','BEB','CCC'],
           key:{
               C:'enderioalloys:item_alloy_ingot_crude_steel',
               B:'mekanism:basic_control_circuit',
               E:'mekanism:electric_pump'
           },
-          id: 'mekanism:electric_pump'
+          id: 'mekanism:fluidic_plenisher'
         },
         // Logistical sorter
         {
@@ -668,7 +668,7 @@ onEvent('recipes', (event) => {
               D:'enderioalloys:item_alloy_ingot_dark_steel',
               U:'#mekanism:alloys/infused'
           },
-          id: 'mekanismgenerators:turbine_rotor'
+          id: 'mekanismgenerators:turbine/rotor'
         },
         // Laser
         {
@@ -686,7 +686,7 @@ onEvent('recipes', (event) => {
         // Rotary condensator
         {
           output: 'mekanism:rotary_condensentrator',
-          pattern: ['MBM','CEF','MBM '],
+          pattern: ['MBM','CEF','MBM'],
           key:{
               M:'botania:mana_glass',
               B:'mekanism:basic_control_circuit',
@@ -700,7 +700,7 @@ onEvent('recipes', (event) => {
         // Radiactive waste barrel
         {
           output: 'mekanism:radioactive_waste_barrel',
-          pattern: ['SLS','LAL','SLS '],
+          pattern: ['SLS','LAL','SLS'],
           key:{
               L:'#forge:ingots/lead',
               S:'#forge:ingots/steel',
@@ -713,7 +713,7 @@ onEvent('recipes', (event) => {
         // Mekasuit helmet
         {
           output: 'mekanism:mekasuit_helmet',
-          pattern: ['HUH','HAH','PIP '],
+          pattern: ['HUH','HAH','PIP'],
           key:{
               H:'mekanism:hdpe_sheet',
               U:'mekanism:ultimate_control_circuit',
@@ -726,7 +726,7 @@ onEvent('recipes', (event) => {
         // Mekasuit bodyarmor
         {
           output: 'mekanism:mekasuit_bodyarmor',
-          pattern: ['HUH','HAH','PIP '],
+          pattern: ['HUH','HAH','PIP'],
           key:{
               H:'mekanism:hdpe_sheet',
               U:'mekanism:ultimate_control_circuit',
@@ -739,7 +739,7 @@ onEvent('recipes', (event) => {
         // Mekasuit pants
         {
           output: 'mekanism:mekasuit_pants',
-          pattern: ['HUH','HAH','PIP '],
+          pattern: ['HUH','HAH','PIP'],
           key:{
               H:'mekanism:hdpe_sheet',
               U:'mekanism:ultimate_control_circuit',
@@ -752,7 +752,7 @@ onEvent('recipes', (event) => {
         // Mekasuit boots
         {
           output: 'mekanism:mekasuit_boots',
-          pattern: ['HUH','HAH','PIP '],
+          pattern: ['HUH','HAH','PIP'],
           key:{
               H:'mekanism:hdpe_sheet',
               U:'mekanism:ultimate_control_circuit',
@@ -795,7 +795,7 @@ onEvent('recipes', (event) => {
         // Chargepad
         {
           output: 'mekanism:chargepad',
-          pattern: ['   ','BBB','CEC'],
+          pattern: ['BBB','CEC'],
           key:{
               E:'mekanism:energy_tablet',
               C:'enderioalloys:item_alloy_ingot_crude_steel',
@@ -839,14 +839,14 @@ onEvent('recipes', (event) => {
         },
         // Fission reactor casing
         {
-          output: 'mekanismgenerators:fission_reactor_casing',
+          output: Item.of('mekanismgenerators:fission_reactor_casing', 4),
           pattern: ['ESE','SCS','ESE'],
           key:{
               E:'enderioalloys:item_alloy_ingot_electrical_steel',
               S:'enderioalloys:item_alloy_ingot_stellar_alloy',
               C:'mekanism:steel_casing'
           },
-          id: 'mekanism:fission_reactor/casing'
+          id: 'mekanismgenerators:fission_reactor/casing'
         },
         // Electromagnetic coil
         {
@@ -897,24 +897,24 @@ onEvent('recipes', (event) => {
         },
         // Basic bin
         {
-          output: 'mekanism:pressure_disperser',
+          output: 'mekanism:basic_bin',
           pattern: ['CBC','R R','CCC'],
           key:{
               C:'#forge:cobblestone',
               B:'mekanism:basic_control_circuit',
               R:'extendedcrafting:redstone_ingot'
           },
-          id: 'mekanism:pressure_disperser'
+          id: 'mekanism:bin/basic'
         },
         // Turbine casing
         {
-          output: 'mekanismgenerators:turbine_casing',
-          pattern: ['CBC','R R','CCC'],
+          output: Item.of('mekanismgenerators:turbine_casing', 4),
+          pattern: [' E ','EVE',' E '],
           key:{
               E:'enderioalloys:item_alloy_ingot_electrical_steel',
               V:'enderioalloys:item_alloy_ingot_vivid_alloy'
           },
-          id: 'mekanism:turbine/casing'
+          id: 'mekanismgenerators:turbine/casing'
         },
         // Ressessive heater
         {
