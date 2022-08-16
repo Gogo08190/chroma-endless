@@ -55,6 +55,7 @@
         "isBreedable": true,
         "parent1": "water",
         "parent2": "lava",
+        "breedChance": 0.65,
         "feedItem": "prefab:block_compressed_obsidian",
         "feedAmount": 4,
         "childGrowthDelay": -24000,
