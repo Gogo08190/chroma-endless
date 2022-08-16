@@ -305,17 +305,6 @@ onEvent('recipes', (event) => {
           id: 'rftoolspower:dimensionalcell_advanced'
       },
       {
-          output:'rftoolscontrol:craftingstation',
-          pattern: ['RER', 'CMC', 'RER'],
-          key: {
-              R:'extendedcrafting:redstone_ingot',
-              E:'kubejs:extreme_circuit_board',
-              C:'create:mechanical_crafter',
-              M:'rftoolsbase:machine_frame'
-          },
-          id: 'rftoolscontrol:craftingstation'
-      },
-      {
           output:'rftoolspower:blazing_agitator',
           pattern: ['BBB', 'GMG', 'CCC'],
           key: {
@@ -391,12 +380,13 @@ onEvent('recipes', (event) => {
       },
       {
           output:'rftoolsbuilder:shape_card_quarry',
-          pattern: ['RFR', 'DSD', 'RDR'],
+          pattern: ['RFR', 'DSD', 'RNR'],
           key: {
             R:'extendedcrafting:redstone_ingot',
             F:'thermal:flux_drill',
             D:'pneumaticcraft:drill_bit_compressed_iron',
-            S:'rftoolsbuilder:shape_card_def'
+            S:'rftoolsbuilder:shape_card_def',
+            S:'pneumaticcraft:drill_bit_netherite'
           },
           id: 'rftoolsbuilder:shape_card_quarry'
       },
