@@ -386,7 +386,7 @@ onEvent('recipes', (event) => {
             F:'thermal:flux_drill',
             D:'pneumaticcraft:drill_bit_compressed_iron',
             S:'rftoolsbuilder:shape_card_def',
-            S:'pneumaticcraft:drill_bit_netherite'
+            N:'pneumaticcraft:drill_bit_netherite'
           },
           id: 'rftoolsbuilder:shape_card_quarry'
       },
