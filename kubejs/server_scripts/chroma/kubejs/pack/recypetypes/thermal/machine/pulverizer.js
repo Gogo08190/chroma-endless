@@ -12,7 +12,7 @@ onEvent('recipes', (event) => {
         {
             input: 'enderioalloys:item_material_pulsating_crystal',
             experience: 0.2,
-            outputs: [Item.of('enderioalloys:item_material_pulsating_crystal', 1)],
+            outputs: [Item.of('enderioalloys:item_material_pulsating_powder', 1)],
             id: 'enderioalloys:item_material_pulsating_crystal'
         },
 
