@@ -194,6 +194,7 @@ const itemsToHide = [
     /peridot/,
     /emendatusenigmatica.*sapphire/,
     /emendatusenigmatica.*ruby/,
+    /emendatusenigmatica.*fluix/,
     /ftblibrary:fluid_container/,
 
     'environmental:cherry_pie',
