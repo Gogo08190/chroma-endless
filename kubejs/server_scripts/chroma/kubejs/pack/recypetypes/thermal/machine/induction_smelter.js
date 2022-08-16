@@ -19,7 +19,7 @@ onEvent('recipes', (event) => {
       {
           inputs: [Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:copper_bee' }), Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:cobalt_bee' }), Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:nether_quartz_bee' })],
           outputs: [Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:hepatizon_bee' })],
-          id: `${id_prefix}potassium_bee`
+          id: `${id_prefix}hepatizon_bee`
       }
 
     ];
