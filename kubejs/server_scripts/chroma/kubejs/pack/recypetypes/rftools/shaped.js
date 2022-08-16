@@ -305,17 +305,6 @@ onEvent('recipes', (event) => {
           id: 'rftoolspower:dimensionalcell_advanced'
       },
       {
-          output:'rftoolscontrol:craftingstation',
-          pattern: ['RER', 'CMC', 'RER'],
-          key: {
-              R:'extendedcrafting:redstone_ingot',
-              E:'kubejs:extreme_circuit_board',
-              C:'create:mechanical_crafter',
-              M:'rftoolsbase:machine_frame'
-          },
-          id: 'rftoolscontrol:craftingstation'
-      },
-      {
           output:'rftoolspower:blazing_agitator',
           pattern: ['BBB', 'GMG', 'CCC'],
           key: {
