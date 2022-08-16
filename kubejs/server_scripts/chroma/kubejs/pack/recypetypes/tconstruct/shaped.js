@@ -10,20 +10,11 @@ onEvent('recipes', (event) => {
           id: 'tconstruct:smeltery/seared/table'
       },
       {
-          output: 'tconstruct:seared_basin',
-          pattern: ['S S', 'STS', 'SSS'],
-          key: {
-              S: 'tconstruct:seared_brick',
-              T: 'minecraft:bucket'
-          },
-          id: 'tconstruct:smeltery/seared/basin'
-      },
-      {
           output: 'tconstruct:seared_heater',
           pattern: ['SSS', 'STS', 'SSS'],
           key: {
               S: 'tconstruct:seared_brick',
-              T: 'create:empty_blaze_burner'
+              T: 'minecraft:campfire'
           },
           id: 'tconstruct:smeltery/seared/heater'
       },
@@ -32,7 +23,7 @@ onEvent('recipes', (event) => {
           pattern: ['SSS', 'STS', 'SSS'],
           key: {
               S: 'tconstruct:seared_brick',
-              T: 'create:fluid_tank'
+              T: 'minecraft:bucket'
           },
           id: 'tconstruct:smeltery/seared/fuel_tank'
       },
@@ -42,7 +33,7 @@ onEvent('recipes', (event) => {
           pattern: ['A A', 'ABA', 'AAA'],
           key: {
               A: 'tconstruct:scorched_brick',
-              B: 'minecraft:bucket'
+              B: 'minecraft:cauldron'
           },
           id: 'tconstruct:smeltery/scorched/basin'
       },
