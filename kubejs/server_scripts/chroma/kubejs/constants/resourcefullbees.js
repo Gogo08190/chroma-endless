@@ -110,7 +110,8 @@ const honeyVarieties = [
     'resourcefulbees:stone_honey',
     'resourcefulbees:sand_honey',
     'resourcefulbees:gravel_honey',
-    'resourcefulbees:experience_honey'
+    'resourcefulbees:experience_honey',
+    'resourcefulbees:graphite_honey'
 
 ];
 
@@ -222,7 +223,8 @@ const combVariants = [
     'starry_lexxie',
     'experience',
     'sand',
-    'gravel'
+    'gravel',
+    'graphite'
 ];
 
 const bees = [];

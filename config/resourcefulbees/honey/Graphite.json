@@ -1,0 +1,17 @@
+{
+  "name" : "graphite",
+  "hunger": 4,
+  "honeyColor": "#44413f",
+  "saturation": 3,
+  "isRainbow": false,
+  "honeyBlockRecipe": true,
+  "generateHoneyBlock": true,
+      "effects": [
+    {
+      "effectID": "betterendforge:end_vei",
+      "duration": 2000,
+      "strength": 1,
+      "chance": 1
+      }
+    ]
+  }

@@ -845,5 +845,6 @@ const craftedBees = [
     'end',
     'experience',
     'gravel',
-    'sand'
+    'sand',
+    'graphite'
 ];
