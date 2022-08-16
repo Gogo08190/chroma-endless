@@ -538,7 +538,7 @@ onEvent('recipes', (event) => {
         },
         // Dynamic tank
         {
-          output: 'mekanism:dynamic_tank',
+          output: Item.of('mekanism:dynamic_tank', 4),
           pattern: [' D ','DBD',' D '],
           key:{
               D:'enderioalloys:item_alloy_ingot_dark_steel',
