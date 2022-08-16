@@ -840,7 +840,7 @@ onEvent('recipes', (event) => {
             inputFluid: 'industrialforegoing:ether_gas', // optionnel
             inputFluidAmount: 8000, // 0 si pas de fluid
             processingTime: 500,
-            outputItem: Item.of('ironjetpacks:inanite_jetpack').toJson(),
+            outputItem: { item: 'ironjetpacks:inanite_jetpack', count: 1 },
             outputFluid: '', // optionnel
             outputFluidAmount: 0, // 0 si pas de fluid
             id: `${id_prefix}inanite_jetpack`
@@ -850,13 +850,13 @@ onEvent('recipes', (event) => {
             inputs: [
                 'ironjetpacks:regalium_cell'
             ],
-            inputFluid: 'bigreactors:rossnite', // optionnel
+            inputFluid: 'bigreactors:rossinite', // optionnel
             inputFluidAmount: 500, // 0 si pas de fluid
             processingTime: 60,
-            outputItem: Item.of('ironjetpacks:inanite_jetpack').toJson(),
+            outputItem: { item: 'ironjetpacks:inanite_cell', count: 1 },
             outputFluid: '', // optionnel
             outputFluidAmount: 0, // 0 si pas de fluid
-            id: `${id_prefix}inanite_jetpack`
+            id: `${id_prefix}inanite_cell`
         },
         //Muffling Upgrade
         {
