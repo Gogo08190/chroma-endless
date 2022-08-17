@@ -1,0 +1,97 @@
+{
+  "type": "masterfulmachinery:machine_structure",
+  "id": "auto_smithing",
+  "controllerId": "autosmithing",
+  "name": "Auto Smithing Table",
+  "layout": [
+    [
+      ")*****)",
+      "*******",
+      "*******",
+      "*******",
+      "*******",
+      "*******",
+      ")*****)"
+    ],
+    [
+      ")*****)",
+      "*     *",
+      "+     +",
+      "+,,-,,+",
+      "+     +",
+      "*     *",
+      ")*+C+*)"
+    ],
+    [
+      ")*****)",
+      "*     *",
+      "+     +",
+      ".//0//1",
+      "+     +",
+      "*     *",
+      ")*+++*)"
+    ],
+    [
+      ")*****)",
+      "*     *",
+      "+     +",
+      "+ 2 2 +",
+      "+     +",
+      "*     *",
+      ")*+++*)"
+    ],
+    [
+      ")))))))",
+      ")))))))",
+      ")))))))",
+      "))232))",
+      ")))))))",
+      ")))))))",
+      ")))))))"
+    ],
+    [
+      "       ",
+      "       ",
+      "       ",
+      "  2 2  ",
+      "       ",
+      "       ",
+      "       "
+    ]
+  ],
+  "legend": {
+    "0": {
+      "block": "minecraft:smithing_table"
+    },
+    "1": {
+      "block": "masterfulmachinery:autosmithing_autosmithing_item_port_items_output"
+    },
+    "2": {
+      "block": "immersiveengineering:blastfurnace_preheater"
+    },
+    "3": {
+      "block": "masterfulmachinery:autosmithing_autosmithing_energy_port_energy_input"
+    },
+    ")": {
+      "block": "create:shadow_steel_casing"
+    },
+    "*": {
+      "block": "immersiveengineering:treated_wood_horizontal"
+    },
+    "+": {
+      "block": "tconstruct:brown_clear_stained_glass"
+    },
+    ",": {
+      "block": "immersiveengineering:coil_hv"
+    },
+    "-": {
+      "block": "immersiveengineering:steel_scaffolding_standard"
+    },
+    ".": {
+      "block": "masterfulmachinery:autosmithing_autosmithing_item_port_items_input"
+    },
+    "/": {
+      "block": "immersiveengineering:conveyor_basic"
+    }
+  }
+}
