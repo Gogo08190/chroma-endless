@@ -1,0 +1,114 @@
+{
+	id: "0CF7BBFBC84B2F49"
+	group: ""
+	order_index: 2
+	filename: "progression_tree_2"
+	title: "Progression Tree"
+	icon: "minecraft:oak_sapling"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Vanilla Minecraft"
+			icon: "minecraft:grass_block"
+			x: 0.0d
+			y: 0.0d
+			id: "4029271C20B6CD6E"
+			tasks: [{
+				id: "42D8F0662F649C98"
+				type: "item"
+				title: "Log"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+			}]
+		}
+		{
+			title: "Tinkers' Constrcut"
+			icon: "tconstruct:grout"
+			x: 1.0d
+			y: 1.0d
+			subtitle: "Je s'appelle Groot!"
+			dependencies: ["4029271C20B6CD6E"]
+			id: "63E17D57408F8E84"
+			tasks: [{
+				id: "2090F4F04D703695"
+				type: "item"
+				item: "tconstruct:grout"
+			}]
+		}
+		{
+			title: "Create"
+			x: 1.0d
+			y: 2.0d
+			dependencies: ["63E17D57408F8E84"]
+			id: "1E28D33637E0C34C"
+			tasks: [{
+				id: "2DF0E90B90250F26"
+				type: "item"
+				title: "Andesite Alloy"
+				icon: "create:andesite_alloy"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/andesite_alloy"
+					}
+				}
+			}]
+		}
+		{
+			title: "Occultism"
+			x: 2.0d
+			y: 3.0d
+			dependencies: ["1E28D33637E0C34C"]
+			id: "7F54A0C0B5BF3908"
+			tasks: [{
+				id: "1EE3C9F597D470E2"
+				type: "item"
+				item: "occultism:dictionary_of_spirits"
+			}]
+		}
+		{
+			title: "Thermal"
+			x: 3.0d
+			y: 4.0d
+			dependencies: ["7F54A0C0B5BF3908"]
+			id: "7B6D0598488571B9"
+			tasks: [{
+				id: "720A690E4A2AF474"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
+		}
+		{
+			title: "Botania"
+			x: 4.0d
+			y: 5.0d
+			dependencies: ["7B6D0598488571B9"]
+			id: "5A5EFE16C547BF70"
+			tasks: [{
+				id: "2523D287F250991B"
+				type: "item"
+				item: "botania:fertilizer"
+			}]
+		}
+		{
+			title: "Immersive Engineering"
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["1E28D33637E0C34C"]
+			id: "6D929C24C892DFD7"
+			tasks: [{
+				id: "57D1121E24E36BA6"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+				count: 27L
+			}]
+		}
+	]
+}
