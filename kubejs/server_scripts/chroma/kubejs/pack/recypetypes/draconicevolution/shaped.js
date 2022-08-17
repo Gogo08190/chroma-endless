@@ -138,6 +138,15 @@ onEvent('recipes', (event) => {
                 F: 'create_confectionery:chocolate_candy'
             },
             id: 'draconicmachinery:food_spreader_rcp'
+        },
+        {
+            output: 'draconicadditions:wyvern_necklace',
+            pattern: ['EEE', 'E E', ' W '],
+            key: {
+                W: 'draconicevolution:wyvern_core',
+                E: '#forge:ingots/energized_steel'
+            },
+            id: 'draconicadditions:items/wyvern_necklace'
         }
     ];
 
