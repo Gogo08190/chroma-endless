@@ -1,7 +1,7 @@
 {
   "controllerId": "autosmithing",
   "name": "Auto Smithing Table",
-  "textureOverride": "pneumaticcraft:block/compressed_brick_tile",
+  "textureOverride": "immersiveengineering:block/wooden_decoration/treated_wood",
   "ports": [
     {
       "type": "masterfulmachinery:items",
@@ -15,6 +15,7 @@
     },
     {
       "type": "masterfulmachinery:energy",
+      "textureOverride": "create:block/shadow_steel_casing",
       "name": "Auto Smithing Energy",
       "id": "autosmithing_energy",
       "data": {
