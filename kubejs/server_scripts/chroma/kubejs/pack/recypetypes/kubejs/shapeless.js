@@ -41,6 +41,20 @@ onEvent('recipes', (event) => {
                 'kubejs:gaia_spirit_block'
             ],
             id: 'chroma:ingot_from_block/gaia_spirit_ingot'
+        },
+        {
+            output: 'kubejs:lithium_dust_block',
+            inputs: [
+                '9x emendatusenigmatica:lithium_dust'
+            ],
+            id: 'chroma:block_from_ingot/lithium_dust_block'
+        },
+        {
+            output: Item.of('emendatusenigmatica:lithium_dust', 9),
+            inputs: [
+                'kubejs:lithium_dust_block'
+            ],
+            id: 'chroma:ingot_from_block/lithium_dust'
         }
     ];
 
