@@ -1049,11 +1049,18 @@ onEvent('recipes', (event) => {
               B:'mekanism:basic_purifying_factory'
           },
           id: 'mekanism:factory/advanced/purifying'
+        },
+        // Laser Amplifier
+        {
+          output: 'mekanism:laser_amplifier',
+          pattern: ['DDD','DCE','DDD'],
+          key:{
+              D: 'enderioalloys:item_alloy_ingot_dark_steel',
+              C: 'mekanism:basic_energy_cube',
+              E: 'botanicalmachinery:mana_emerald'
+          },
+          id: 'mekanism:laser_amplifier'
         }
-
-
-
-
     ];
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
