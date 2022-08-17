@@ -782,6 +782,28 @@ onEvent('recipes', (event) => {
           },
           id: 'mekanism:induction/casing'
         },
+        // Basic Induction Cell
+        {
+          output: 'mekanism:basic_induction_cell',
+          pattern: ['LTL','TCT','LTL'],
+          key:{
+              L: 'kubejs:lithium_dust_block',
+              T: 'mekanism:energy_tablet',
+              C: 'mekanism:basic_energy_cube'
+          },
+          id: 'mekanism:induction/cell/basic'
+        },
+        // Basic Induction Provider
+        {
+          output: 'mekanism:basic_induction_provider',
+          pattern: ['LTL','TCT','LTL'],
+          key:{
+              L: 'kubejs:lithium_dust_block',
+              T: 'mekanism:basic_control_circuit',
+              C: 'mekanism:basic_energy_cube'
+          },
+          id: 'mekanism:induction/provider/basic'
+        },
         // Boiler casing
         {
           output: 'mekanism:boiler_casing',
