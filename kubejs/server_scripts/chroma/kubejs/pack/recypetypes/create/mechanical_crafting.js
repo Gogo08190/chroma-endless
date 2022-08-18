@@ -218,6 +218,50 @@ onEvent('recipes', (event) => {
                 E:'create:encased_fan'
             },
             id: `${id_prefix}mechanical_jetpack`
+        },
+
+         // Auto Smithing Item Input
+        {
+            output: 'masterfulmachinery:autosmithing_autosmithing_item_port_items_input',
+            pattern: ['TIIIT','IABAI','IPEPI','IABAI','TIIIT'],
+            key: {
+                I:'immersiveengineering:insulating_glass',
+                T:'immersiveengineering:treated_wood_horizontal',
+                A:'create:andesite_alloy',
+                B:'refinedpipes:basic_item_pipe',
+                P:'prettypipes:pipe',
+                E:'create:electron_tube'
+            },
+            id: `${id_prefix}autosmithing_item_input`
+        },
+
+        // Auto Smithing Item Output
+        {
+            output: 'masterfulmachinery:autosmithing_autosmithing_item_port_items_output',
+            pattern: ['TMMMT', 'MABAM', 'MPEPM', 'MABAM', 'MIIIM'],
+            key: {
+                M: 'immersiveengineering:sheetmetal_colored_red',
+                T: 'immersiveengineering:treated_wood_horizontal',
+                A: 'create:andesite_alloy',
+                B: 'refinedpipes:basic_item_pipe',
+                P: 'prettypipes:pipe',
+                E: 'create:electron_tube'
+            },
+            id: `${id_prefix}autosmithing_item_output`
+        },
+
+        // Auto Smithing Energey Input Port
+        {
+            output: 'masterfulmachinery:autosmithing_autosmithing_energy_port_energy_input',
+            pattern: ['TSSST', 'SRIRS', 'SIEIS', 'SRIRS', 'TSSST'],
+            key: {
+                S: 'create:shadow_steel_casing',
+                T: 'immersiveengineering:treated_wood_horizontal',
+                R: 'thermal:rf_coil',
+                I: 'immersiveengineering:insulating_glass',
+                E: 'create:electron_tube'
+            },
+            id: `${id_prefix}autosmithing_energy_input`
         }
 
     ];
