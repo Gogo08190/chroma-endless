@@ -749,6 +749,84 @@ onEvent('recipes', (event) => {
           Count: 1
         }]
       },
+
+      {
+        recipeSize: 5,
+        layers: [
+          {
+            type: 'compactcrafting:filled',
+            component: 'A'
+          }
+          {
+            type: 'compactcrafting:mixed',
+            pattern: [
+              ["A", "B", "B", "B", "A"],
+              ["A", "C", "D", "C", "A"],
+              ["A", "D", "E", "D", "A"],
+              ["A", "C", "D", "C", "A"],
+              ["A", "A", "A", "A", "A"],
+            ]
+          },
+          {
+            type: 'compactcrafting:mixed',
+            pattern: [
+              ["A", "B", "B", "B", "A"],
+              ["A", "D", "E", "D", "A"],
+              ["A", "E", "F", "E", "A"],
+              ["A", "D", "E", "D", "A"],
+              ["A", "A", "A", "A", "A"],
+            ]
+          },
+          {
+            type: 'compactcrafting:mixed',
+            pattern: [
+              ["A", "B", "B", "B", "A"],
+              ["A", "C", "D", "C", "A"],
+              ["A", "D", "E", "D", "A"],
+              ["A", "C", "D", "C", "A"],
+              ["A", "A", "A", "A", "A"],
+            ]
+          },
+          {
+            type: 'compactcrafting:filled',
+            component: 'A'
+          }
+        ],
+        catalyst: {
+          id: 'cagedmobs:star_infused_netherite_ingot',
+          Count: 1
+        },
+        components: {
+          'A': {
+            type: "compactcrafting:block",
+            block: 'immersiveengineering:treated_wood_horizontal'
+          },
+          'B': {
+            type: "compactcrafting:block",
+            block: 'thermal:obsidian_glass'
+          },
+          'C': {
+            type: "compactcrafting:block",
+            block: 'immersiveengineering:concrete_leaded'
+          },
+          'D': {
+            type: "compactcrafting:block",
+            block: 'immersiveengineering:hempcrete'
+          },
+          'E': {
+            type: "compactcrafting:block",
+            block: 'immersiveengineering:light_engineering'
+          },
+          'F': {
+            type: "compactcrafting:block",
+            block: 'immersiveengineering:coil_lv'
+          }
+        },
+        outputs: [{
+          id: 'masterfulmachinery:autosmithing_controller',
+          Count: 1
+        }]
+      }
     ];
 
     recipes.forEach((recipe) => {
