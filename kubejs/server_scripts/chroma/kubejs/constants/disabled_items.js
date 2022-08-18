@@ -65,6 +65,8 @@ const disabledItems = [
   	'projectvibrantjourneys:clam_chowder',
   	'projectvibrantjourneys:cooked_clam',
 
+    'projecte:watch_of_flowing_time',
+
     'quark:pipe',
     'quark:potato_crate',
     'quark:beetroot_crate',
