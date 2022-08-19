@@ -756,7 +756,7 @@ onEvent('recipes', (event) => {
           {
             type: 'compactcrafting:filled',
             component: 'A'
-          }
+          },
           {
             type: 'compactcrafting:mixed',
             pattern: [
@@ -826,7 +826,7 @@ onEvent('recipes', (event) => {
           id: 'masterfulmachinery:autosmithing_controller',
           Count: 1
         }]
-      }
+      },
     ];
 
     recipes.forEach((recipe) => {
