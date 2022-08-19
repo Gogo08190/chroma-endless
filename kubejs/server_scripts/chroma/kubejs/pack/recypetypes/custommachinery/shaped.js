@@ -13,20 +13,6 @@ onEvent('recipes', (event) => {
             },
             id: `${id_prefix}slice_n_plice`
         },
-        // Soul Binder
-        {
-            output: Item.of('custommachinery:custom_machine_item', '{machine:"custommachinery:soul_binder"}'),
-            pattern: ['IEI', 'CMZ', 'ISI'],
-            key: {
-                I: 'enderioalloys:item_alloy_ingot_soularium',
-                S: 'minecraft:skeleton_skull',
-                Z: 'minecraft:zombie_head',
-                M: 'rftoolsbase:machine_frame',
-                E: 'tconstruct:enderman_head',
-                C: 'minecraft:creeper_head'
-            },
-            id: `${id_prefix}soul_binder`
-        },
         // Alloy Smelter
         {
             output: Item.of('custommachinery:custom_machine_item', '{machine:"custommachinery:alloy_smelter"}'),
