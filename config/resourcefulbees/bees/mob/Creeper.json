@@ -58,7 +58,9 @@
     "lightLevel": "NIGHT"
   },
   "BreedData": {
-    "isBreedable": true
+    "isBreedable": true,
+    "feedItem": "thermal:gunpowder_block",
+    "feedAmount": 2
   },
   "TraitData": {
     "hasTraits": true

@@ -48,7 +48,13 @@
       "canSpawnInWorld": false
     },
     "BreedData": {
-      "isBreedable": false
+      "isBreedable": true,
+      "parent1": "zinc",
+      "parent2": "nickel",
+      "feedItem": "emendatusenigmatica:brass_block",
+      "feedAmount": 5,
+      "childGrowthDelay": -24000,
+      "breedDelay": 6000
     },
     "TraitData": {
       "hasTraits": true

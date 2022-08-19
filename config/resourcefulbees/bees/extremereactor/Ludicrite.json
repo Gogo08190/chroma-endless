@@ -48,7 +48,11 @@
       "canSpawnInWorld": false
     },
     "BreedData": {
-      "isBreedable": false
+      "isBreedable": true,
+      "feedItem": "bigreactors:ludicrite_block",
+      "feedAmount": 5,
+      "childGrowthDelay": -24000,
+      "breedDelay": 6000
     },
     "TraitData": {
       "hasTraits": true

@@ -56,7 +56,14 @@
         "mainInputCount": 1
     },
     "SpawnData": {
-        "canSpawnInWorld": false
+        "canSpawnInWorld": true,
+        "biomeWhitelist": "dry",
+        "spawnWeight": 5,
+        "minYLevel": 0,
+        "maxYLevel": 255,
+        "minGroupSize": 1,
+        "maxGroupSize": 1,
+        "lightLevel": "NIGHT"
     },
     "BreedData": {
         "isBreedable": false
