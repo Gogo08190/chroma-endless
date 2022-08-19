@@ -146,6 +146,7 @@ const itemsToHide = [
     'masterfulmachinery:endlessreactor_endless_speed_port_create_rotation_input',
     'masterfulmachinery:endlessreactor_endless_gas_port_mekanism_gas_output',
     'masterfulmachinery:autoinfuser_compound_fluid_port_fluids_output',
+    'masterfulmachinery:autosmithing_autosmithing_energy_port_energy_output',
 
     'emendatusenigmatica:sulfur_ore',
     'emendatusenigmatica:cinnabar_ore',

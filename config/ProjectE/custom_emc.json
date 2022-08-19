@@ -91,6 +91,22 @@
     {
       "item": "immersiveengineering:ingot_aluminum",
       "emc": 0
+    },
+    {
+      "item": "thermal:ruby",
+      "emc": 0
+    },
+    {
+      "item": "thermal:sapphire",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:stone",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:furnace",
+      "emc": 1464
     }
   ]
 }
