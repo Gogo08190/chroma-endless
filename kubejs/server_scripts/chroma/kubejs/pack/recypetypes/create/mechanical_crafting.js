@@ -238,7 +238,7 @@ onEvent('recipes', (event) => {
         // Auto Smithing Item Output
         {
             output: 'masterfulmachinery:autosmithing_autosmithing_item_port_items_output',
-            pattern: ['TMMMT', 'MABAM', 'MPEPM', 'MABAM', 'MIIIM'],
+            pattern: ['TMMMT', 'MABAM', 'MPEPM', 'MABAM', 'TMMMT'],
             key: {
                 M: 'immersiveengineering:sheetmetal_colored_red',
                 T: 'immersiveengineering:treated_wood_horizontal',
