@@ -74,6 +74,15 @@ onEvent('recipes', (event) => {
               output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:cobalt_bee' }).toJson(),
               cooling_time: 120,
               id: `${id_prefix}cobalt_bee`
+          },
+          {
+              fluid: 'tconstruct:earth_slime',
+              fluid_amount: 1296,
+              casts: [Item.of('resourcefulbees:bee_jar', { Entity: 'minecraft:bee' }).weakNBT().toJson()],
+              cast_consumed: true,
+              output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:slime_bee' }).toJson(),
+              cooling_time: 120,
+              id: `${id_prefix}slime_bee`
           }
         ]
     };
