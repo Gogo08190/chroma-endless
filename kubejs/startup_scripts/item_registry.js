@@ -61,7 +61,8 @@ onEvent('item.registry', (event) => {
         'wyvern_core_part',
         'enriched_kyronite',
         'enriched_ludicrite',
-        'enriched_pladium'
+        'enriched_pladium',
+        'larve'
     ];
 
     generalItems.forEach((item) => {
