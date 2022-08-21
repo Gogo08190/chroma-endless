@@ -219,8 +219,170 @@ onEvent('recipes', (event) => {
               I: '#forge:ingots/steel'
           },
           id: 'resourcefulbees:honey_congealer'
-      }
+      },
 
+      // Colored Glasses
+
+        {
+            output: 'minecraft:green_stained_glass',
+            pattern: ['GGR', 'RRG', 'GGG'],
+            key: {
+                R: 'resourcefulbees:rainbow_glass_honeycomb',
+                G: 'minecraft:glass'
+            },
+            id: `${id_prefix}green_stained_glass`
+        },
+
+        {
+            output: 'minecraft:lime_stained_glass',
+            pattern: ['GGR', 'GGR', 'GGR'],
+            key: {
+                R: 'resourcefulbees:rainbow_glass_honeycomb',
+                G: 'minecraft:glass'
+            },
+            id: `${id_prefix}lime_stained_glass`
+        },
+
+        {
+            output: 'minecraft:light_gray_stained_glass',
+            pattern: ['GRG', 'GRG', 'GGR'],
+            key: {
+                R: 'resourcefulbees:rainbow_glass_honeycomb',
+                G: 'minecraft:glass'
+            },
+            id: `${id_prefix}light_gray_stained_glass`
+        },
+
+        {
+            output: 'minecraft:black_stained_glass',
+            pattern: ['GGG', 'RRG', 'GGR'],
+            key: {
+                R: 'resourcefulbees:rainbow_glass_honeycomb',
+                G: 'minecraft:glass'
+            },
+            id: `${id_prefix}black_stained_glass`
+        },
+
+        {
+            output: 'minecraft:purple_stained_glass',
+            pattern: ['GGR', 'GGR', 'GRG'],
+            key: {
+                R: 'resourcefulbees:rainbow_glass_honeycomb',
+                G: 'minecraft:glass'
+            },
+            id: `${id_prefix}purple_stained_glass`
+        },
+
+        {
+            output: 'minecraft:pink_stained_glass',
+            pattern: ['RGG', 'GRG', 'GGR'],
+            key: {
+                R: 'resourcefulbees:rainbow_glass_honeycomb',
+                G: 'minecraft:glass'
+            },
+            id: `${id_prefix}pink_stained_glass`
+        },
+
+        {
+            output: 'minecraft:light_blue_stained_glass',
+            pattern: ['RGG', 'RGG', 'RGG'],
+            key: {
+                R: 'resourcefulbees:rainbow_glass_honeycomb',
+                G: 'minecraft:glass'
+            },
+            id: `${id_prefix}light_blue_stained_glass`
+        },
+
+
+        {
+            output: 'minecraft:brown_stained_glass',
+            pattern: ['GGR', 'GRG', 'GGR'],
+            key: {
+                R: 'resourcefulbees:rainbow_glass_honeycomb',
+                G: 'minecraft:glass'
+            },
+            id: `${id_prefix}brown_stained_glass`
+        },
+
+        {
+            output: 'minecraft:white_stained_glass',
+            pattern: ['RRR', 'GGG', 'GGG'],
+            key: {
+                R: 'resourcefulbees:rainbow_glass_honeycomb',
+                G: 'minecraft:glass'
+            },
+            id: `${id_prefix}white_stained_glass`
+        },
+
+        {
+            output: 'minecraft:red_stained_glass',
+            pattern: ['GGR', 'GRG', 'GRG'],
+            key: {
+                R: 'resourcefulbees:rainbow_glass_honeycomb',
+                G: 'minecraft:glass'
+            },
+            id: `${id_prefix}red_stained_glass`
+        },
+
+        {
+            output: 'minecraft:gray_stained_glass',
+            pattern: ['GGR', 'GRG', 'RGG'],
+            key: {
+                R: 'resourcefulbees:rainbow_glass_honeycomb',
+                G: 'minecraft:glass'
+            },
+            id: `${id_prefix}gray_stained_glass`
+        },
+
+        {
+            output: 'minecraft:magenta_stained_glass',
+            pattern: ['GGG', 'GGG', 'RRR'],
+            key: {
+                R: 'resourcefulbees:rainbow_glass_honeycomb',
+                G: 'minecraft:glass'
+            },
+            id: `${id_prefix}magenta_stained_glass`
+        },
+
+        {
+            output: 'minecraft:orange_stained_glass',
+            pattern: ['GGG', 'RRR', 'GGG'],
+            key: {
+                R: 'resourcefulbees:rainbow_glass_honeycomb',
+                G: 'minecraft:glass'
+            },
+            id: `${id_prefix}orange_stained_glass`
+        },
+
+        {
+            output: 'minecraft:blue_stained_glass',
+            pattern: ['GGG', 'GRG', 'RGR'],
+            key: {
+                R: 'resourcefulbees:rainbow_glass_honeycomb',
+                G: 'minecraft:glass'
+            },
+            id: `${id_prefix}blue_stained_glass`
+        },
+
+        {
+            output: 'minecraft:yellow_stained_glass',
+            pattern: ['GRG', 'GRG', 'GRG'],
+            key: {
+                R: 'resourcefulbees:rainbow_glass_honeycomb',
+                G: 'minecraft:glass'
+            },
+            id: `${id_prefix}yellow_stained_glass`
+        },
+
+        {
+            output: 'minecraft:cyan_stained_glass',
+            pattern: ['RGR', 'GRG', 'GGG'],
+            key: {
+                R: 'resourcefulbees:rainbow_glass_honeycomb',
+                G: 'minecraft:glass'
+            },
+            id: `${id_prefix}cyan_stained_glass`
+        }
     ];
 
     recipes.forEach((recipe) => {
