@@ -959,4 +959,265 @@ onEvent("recipes", (event) => {
       }
     }
   ).id(`${id_prefix}endlessreactor_endless_gas_port_mekanism_gas_input`)
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "AABCBAA",
+        "ABDEDBA",
+        "BDFGFDB",
+        "HEGIGEH",
+        "BDFGFDB",
+        "ABDEDBA",
+        "AABCBAA"
+      ],
+      "key": {
+        "A": {
+          "item": "projecte:dark_matter"
+        },
+        "B": {
+          "item": "enderioalloys:item_alloy_ingot_dark_steel"
+        },
+        "C": {
+          "item": "enderioalloys:item_material_precient_powder"
+        },
+        "D": {
+          "item": "enderioalloys:item_alloy_ingot_melodic_alloy"
+        },
+        "E": {
+          "item": "mekanism:alloy_atomic"
+        },
+        "F": {
+          "item": "powah:charged_snowball"
+        },
+        "G": {
+          "item": "enderioalloys:item_material_weather_crystal"
+        },
+        "H": {
+          "item": "enderioalloys:item_material_pulsating_powder"
+        },
+        "I": {
+          "item": "projecte:philosophers_stone"
+        }
+      },
+      "result": {
+        "item": "projecte:transmutation_table"
+      }
+    }
+  ).id('projecte:transmutation_table')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "AABCDCBAA",
+        "ABEFGFEBA",
+        "BEHIJIHEB",
+        "CFIKLKIFC",
+        "DGJLMLJGD",
+        "CFIKLKIFC",
+        "BEHIJIHEB",
+        " BEFGFEB ",
+        "  BCDCB  "
+      ],
+      "key": {
+        "A": {
+          "item": "elementalcraft:fireite_ingot"
+        },
+        "B": {
+          "item": "bigreactors:inanite_ingot"
+        },
+        "C": {
+          "item": "botania:elementium_ingot"
+        },
+        "D": {
+          "item": "miniutilities:the_final_opinium_core"
+        },
+        "E": {
+          "item": "envirocore:nanorite_interconnect"
+        },
+        "F": {
+          "item": "mekanism:pellet_polonium"
+        },
+        "G": {
+          "item": "enderioalloys:item_material_skull_guardian_diode"
+        },
+        "H": {
+          "item": "extrastorage:neural_processor"
+        },
+        "I": {
+          "item": "occultism:iesnium_ingot"
+        },
+        "J": {
+          "item": "draconicevolution:wyvern_core"
+        },
+        "K": {
+          "item": "projecte:aeternalis_fuel"
+        },
+        "L": {
+          "item": "powah:capacitor_niotic"
+        },
+        "M": {
+          "item": "draconicevolution:dragon_heart"
+        }
+      },
+      "result": {
+        "item": "projecte:philosophers_stone"
+      }
+    }
+  ).id('projecte:philosophers_stone')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "AABCC",
+        "ABDDC",
+        "BDEDB",
+        "FDDBA",
+        "FFBAA"
+      ],
+      "key": {
+        "A": {
+          "item": "projecte:high_covalence_dust"
+        },
+        "B": {
+          "item": "botania:mana_string"
+        },
+        "C": {
+          "item": "projecte:medium_covalence_dust"
+        },
+        "D": {
+          "item": "mekanism:hdpe_sheet"
+        },
+        "E": {
+          "item": "projecte:dark_matter"
+        },
+        "F": {
+          "item": "projecte:low_covalence_dust"
+        }
+      },
+      "result": {
+        "item": "projecte:repair_talisman"
+      }
+    }
+  ).id('projecte:repair_talisman')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "  A  ",
+        " ABA ",
+        "ABCBA",
+        " ABA ",
+        "  A  "
+      ],
+      "key": {
+        "A": {
+          "item": "projectexpansion:pink_fuel"
+        },
+        "B": {
+          "item": "projectexpansion:magenta_fuel"
+        },
+        "C": {
+          "item": "projecte:red_matter"
+        }
+      },
+      "result": {
+        "item": "projectexpansion:infinite_fuel"
+      }
+    }
+  ).id('projectexpansion:infinite_fuel')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCDE",
+        "FGHIJ",
+        "KLMNO",
+        "PQRST",
+        "UVWXU"
+      ],
+      "key": {
+        "A": {
+          "item": "sushigocrafting:salmon_maki"
+        },
+        "B": {
+          "item": "sushigocrafting:tuna_maki"
+        },
+        "C": {
+          "item": "sushigocrafting:avocado_maki"
+        },
+        "D": {
+          "item": "sushigocrafting:cucumber_maki"
+        },
+        "E": {
+          "item": "sushigocrafting:crab_maki"
+        },
+        "F": {
+          "item": "sushigocrafting:tobiko_tuna_cucumber_california"
+        },
+        "G": {
+          "item": "sushigocrafting:tuna_cucumber_california"
+        },
+        "H": {
+          "item": "sushigocrafting:salmon_temaki"
+        },
+        "I": {
+          "item": "sushigocrafting:tuna_california"
+        },
+        "J": {
+          "item": "sushigocrafting:tobiko_tuna_california"
+        },
+        "K": {
+          "item": "sushigocrafting:salmon_nigiri"
+        },
+        "L": {
+          "item": "sushigocrafting:chicken_temaki"
+        },
+        "M": {
+          "item": "projectexpansion:magenta_matter"
+        },
+        "N": {
+          "item": "sushigocrafting:tuna_temaki"
+        },
+        "O": {
+          "item": "sushigocrafting:tuna_nigiri"
+        },
+        "P": {
+          "item": "sushigocrafting:tobiko_salmon_cucumber_california"
+        },
+        "Q": {
+          "item": "sushigocrafting:tuna_cheese_california"
+        },
+        "R": {
+          "item": "sushigocrafting:shrimp_temaki"
+        },
+        "S": {
+          "item": "sushigocrafting:salmon_cucumber_california"
+        },
+        "T": {
+          "item": "sushigocrafting:tobiko_salmon_california"
+        },
+        "U": {
+          "item": "sushigocrafting:onigiri"
+        },
+        "V": {
+          "item": "sushigocrafting:salmon_gunkan"
+        },
+        "W": {
+          "item": "sushigocrafting:wakame_gunkan"
+        },
+        "X": {
+          "item": "sushigocrafting:tuna_gunkan"
+        }
+      },
+      "result": {
+        "item": "projectexpansion:infinite_steak"
+      }
+    }
+  ).id('projectexpansion:infinite_steak')
 });
