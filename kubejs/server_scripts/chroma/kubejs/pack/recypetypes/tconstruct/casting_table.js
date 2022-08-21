@@ -83,6 +83,42 @@ onEvent('recipes', (event) => {
               output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:slime_bee' }).toJson(),
               cooling_time: 120,
               id: `${id_prefix}slime_bee`
+          },
+          {
+              fluid: 'emendatusenigmatica:molten_coal',
+              fluid_amount: 1296,
+              casts: [Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:stone_bee' }).weakNBT().toJson()],
+              cast_consumed: true,
+              output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:coal_bee' }).toJson(),
+              cooling_time: 120,
+              id: `${id_prefix}coal_bee`
+          },
+          {
+              fluid: 'tconstruct:molten_iron',
+              fluid_amount: 1296,
+              casts: [Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:stone_bee' }).weakNBT().toJson()],
+              cast_consumed: true,
+              output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:iron_bee' }).toJson(),
+              cooling_time: 120,
+              id: `${id_prefix}iron_bee`
+          },
+          {
+              fluid: 'thermal:redstone',
+              fluid_amount: 1296,
+              casts: [Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:stone_bee' }).weakNBT().toJson()],
+              cast_consumed: true,
+              output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:redstone_bee' }).toJson(),
+              cooling_time: 120,
+              id: `${id_prefix}redstone_bee`
+          },
+          {
+              fluid: 'emendatusenigmatica:molten_lapis',
+              fluid_amount: 1296,
+              casts: [Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:stone_bee' }).weakNBT().toJson()],
+              cast_consumed: true,
+              output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:lapis_bee' }).toJson(),
+              cooling_time: 120,
+              id: `${id_prefix}lapis_bee`
           }
         ]
     };
