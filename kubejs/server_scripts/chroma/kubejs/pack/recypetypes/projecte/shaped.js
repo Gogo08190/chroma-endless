@@ -157,7 +157,7 @@ onEvent('recipes', (event) => {
           id: 'projecte:life_stone'
       },
       {
-          output: '#curios:necklace',
+          output: 'projecte:interdiction_torch',
           pattern: ['TNT', 'NPN', 'GGG'],
           key: {
             T: 'undergarden:shard_torch',
@@ -165,16 +165,16 @@ onEvent('recipes', (event) => {
             P: 'projecte:philosophers_stone',
             G: '#forge:ingots/refined_glowstone'
           },
-          id: '#curios:necklace'
+          id: 'projecte:interdiction_torch'
       },
       {
-          output: 'projecte:interdiction_torch',
+          output: 'projecte:iron_band',
           pattern: ['SSS', 'SLS', 'SSS'],
           key: {
             S: '#forge:ingots/steel',
             L: ['projecte:volcanite_amulet', 'minecraft:lava_bucket']
           },
-          id: 'projecte:interdiction_torch'
+          id: 'projecte:iron_band'
       },
       {
           output: 'projecte:relay_mk2',
