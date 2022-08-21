@@ -1,5 +1,5 @@
 {
-	"override": "replace",
+	"override": "disable",
 	"programs": ["envirotech:ore", "envirotech:gemstone_ore"],
 	"item": {
 		"raw:item_tag": "forge:ores/sapphire", "count":1,
