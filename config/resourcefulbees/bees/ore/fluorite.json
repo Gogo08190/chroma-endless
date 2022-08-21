@@ -52,7 +52,13 @@
       "canSpawnInWorld": false
     },
     "BreedData": {
-    "isBreedable": false
+    "isBreedable": true,
+    "parent1": "osmium",
+    "parent2": "lapis",
+    "feedItem": "emendatusenigmatica:fluorite_block",
+    "feedAmount": 5,
+    "childGrowthDelay": -24000,
+    "breedDelay": 6000
   },
   "TraitData": {
       "hasTraits": true

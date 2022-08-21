@@ -60,8 +60,6 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "Stone",
-    "parent2": "Diamond",
     "feedItem": "minecraft:gold_block",
     "feedAmount": 5,
     "childGrowthDelay": -24000,

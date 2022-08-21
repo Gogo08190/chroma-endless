@@ -119,6 +119,87 @@ onEvent('recipes', (event) => {
               output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:lapis_bee' }).toJson(),
               cooling_time: 120,
               id: `${id_prefix}lapis_bee`
+          },
+          {
+              fluid: 'tconstruct:molten_gold',
+              fluid_amount: 1296,
+              casts: [Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:stone_bee' }).weakNBT().toJson()],
+              cast_consumed: true,
+              output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:gold_bee' }).toJson(),
+              cooling_time: 120,
+              id: `${id_prefix}gold_bee`
+          },
+          {
+              fluid: 'tconstruct:molten_copper',
+              fluid_amount: 1296,
+              casts: [Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:stone_bee' }).weakNBT().toJson()],
+              cast_consumed: true,
+              output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:copper_bee' }).toJson(),
+              cooling_time: 120,
+              id: `${id_prefix}copper_bee`
+          },
+          {
+              fluid: 'tconstruct:molten_aluminum',
+              fluid_amount: 1296,
+              casts: [Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:stone_bee' }).weakNBT().toJson()],
+              cast_consumed: true,
+              output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:aluminum_bee' }).toJson(),
+              cooling_time: 120,
+              id: `${id_prefix}aluminum_bee`
+          },
+          {
+              fluid: 'tconstruct:molten_lead',
+              fluid_amount: 1296,
+              casts: [Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:stone_bee' }).weakNBT().toJson()],
+              cast_consumed: true,
+              output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:lead_bee' }).toJson(),
+              cooling_time: 120,
+              id: `${id_prefix}lead_bee`
+          },
+          {
+              fluid: 'tconstruct:molten_nickel',
+              fluid_amount: 1296,
+              casts: [Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:stone_bee' }).weakNBT().toJson()],
+              cast_consumed: true,
+              output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:nickel_bee' }).toJson(),
+              cooling_time: 120,
+              id: `${id_prefix}nickel_bee`
+          },
+          {
+              fluid: 'tconstruct:molten_silver',
+              fluid_amount: 1296,
+              casts: [Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:stone_bee' }).weakNBT().toJson()],
+              cast_consumed: true,
+              output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:silver_bee' }).toJson(),
+              cooling_time: 120,
+              id: `${id_prefix}silver_bee`
+          },
+          {
+              fluid: 'tconstruct:molten_tin',
+              fluid_amount: 1296,
+              casts: [Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:stone_bee' }).weakNBT().toJson()],
+              cast_consumed: true,
+              output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:tin_bee' }).toJson(),
+              cooling_time: 120,
+              id: `${id_prefix}tin_bee`
+          },
+          {
+              fluid: 'tconstruct:molten_uranium',
+              fluid_amount: 1296,
+              casts: [Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:stone_bee' }).weakNBT().toJson()],
+              cast_consumed: true,
+              output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:uranium_bee' }).toJson(),
+              cooling_time: 120,
+              id: `${id_prefix}uranium_bee`
+          },
+          {
+              fluid: 'tconstruct:molten_zinc',
+              fluid_amount: 1296,
+              casts: [Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:stone_bee' }).weakNBT().toJson()],
+              cast_consumed: true,
+              output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:zinc_bee' }).toJson(),
+              cooling_time: 120,
+              id: `${id_prefix}zinc_bee`
           }
         ]
     };

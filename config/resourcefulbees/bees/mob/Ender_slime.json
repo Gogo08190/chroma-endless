@@ -56,7 +56,7 @@
         "isBreedable": true,
         "parent1": "slime",
         "parent2": "ender",
-        "feedItem": "tconstruct:ichor_slime",
+        "feedItem": "tconstruct:ender_slime",
         "feedAmount": 5,
         "childGrowthDelay": -24000,
         "breedDelay": 6000

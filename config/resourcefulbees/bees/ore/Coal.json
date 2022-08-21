@@ -49,14 +49,12 @@
     "mainInputCount": 1
   },
   "SpawnData": {
-    "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:overworld",
-    "biomeBlacklist": "tag:ocean"
+    "canSpawnInWorld": false
   },
   "BreedData": {
-    "feedItem": "minecraft:poppy",
-    "feedAmount": 4,
-    "isBreedable": true
+    "isBreedable": true,
+    "feedItem": "minecraft:coal_block",
+    "feedAmount": 4
   },
   "TraitData": {}
 }
