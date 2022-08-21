@@ -60,6 +60,12 @@ onEvent('recipes', (event) => {
             output: 'immersiveengineering:ingot_hop_graphite',
             xp: 0.5,
             id: 'immersiveengineering:ingot_hop_graphite'
+        },
+        {
+            input: 'kubejs:larve',
+            output: Item.of('kubejs:cooked_larva'),
+            xp: 0.1,
+            id: `${id_prefix}cooked_larva`
         }
     ];
 
