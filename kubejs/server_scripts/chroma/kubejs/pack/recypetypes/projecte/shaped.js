@@ -105,7 +105,7 @@ onEvent('recipes', (event) => {
             F: 'projecte:aeternalis_fuel_block',
             C: 'projecte:condenser_mk1'
           },
-          id: 'projectexpansion:collector/basic'
+          id: 'projectexpansion:emc_link/basic'
       },
       {
           output: 'projecte:body_stone',
