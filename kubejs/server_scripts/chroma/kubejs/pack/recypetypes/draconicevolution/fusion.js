@@ -382,6 +382,44 @@ onEvent('recipes', (event) => {
           total_energy: 1000000,
           result: { item: 'draconicmachinery:draconic_solar_panel' },
           id: 'draconicmachinery:drac_solar_panel_rcp'
+      },
+
+      {
+          inputs: [
+              { item: 'mekanism:ingot_refined_obsidian' },
+              { item: 'mekanism:ingot_refined_obsidian' },
+              { item: 'mekanism:ingot_refined_obsidian' },
+              { item: 'mekanism:ingot_refined_obsidian' },
+              { item: 'powah:capacitor_niotic' },
+              { item: 'powah:capacitor_niotic' },
+              { item: 'powah:capacitor_niotic' },
+              { item: 'powah:capacitor_niotic' },
+              { item: 'projecte:aeternalis_fuel' }
+          ],
+          tier: "WYVERN",
+          catalyst: { item: 'projecte:alchemical_chest' },
+          total_energy: 1000000,
+          result: { item: 'projecte:condenser_mk1' },
+          id: 'projecte:condenser_mk1'
+      },
+
+      {
+          inputs: [
+              { item: 'projecte:red_matter_block' },
+              { item: 'projecte:red_matter_block' },
+              { item: 'projecte:red_matter_block' },
+              { item: 'projecte:red_matter_block' },
+              { item: 'projecte:dark_matter_block' },
+              { item: 'projecte:dark_matter_block' },
+              { item: 'projecte:dark_matter_block' },
+              { item: 'projecte:dark_matter_block' },
+              { item: 'mekanism:pellet_polonium' }
+          ],
+          tier: "DRACONIC",
+          catalyst: { item: 'projecte:condenser_mk1' },
+          total_energy: 5000000,
+          result: { item: 'projecte:condenser_mk2' },
+          id: 'projecte:condenser_mk2'
       }
     ];
 
