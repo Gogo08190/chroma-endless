@@ -1,6 +1,6 @@
 {
 	"programs": ["environmentaltech:chunk_miner"],
-	"item": {"raw:item": "'emendatusenigmatica:fluorite_chunk'", "count":1},
+	"item": {"raw:item": "emendatusenigmatica:fluorite_chunk", "count":1},
 	"config": [
 		{
 			"weight": 800,
