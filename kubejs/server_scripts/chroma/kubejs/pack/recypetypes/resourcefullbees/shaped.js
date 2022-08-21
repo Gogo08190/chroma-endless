@@ -382,6 +382,154 @@ onEvent('recipes', (event) => {
                 G: 'minecraft:glass'
             },
             id: `${id_prefix}cyan_stained_glass`
+        },
+
+        // Dye Recipes
+
+        {
+            output: 'minecraft:green_dye',
+            pattern: ['  R', 'RR ', '   '],
+            key: {
+                R: 'resourcefulbees:rgbee_honeycomb'
+            },
+            id: `${id_prefix}green_dye`
+        },
+
+        {
+            output: 'minecraft:light_gray_dye',
+            pattern: [' R ', ' R ', '  R'],
+            key: {
+                R: 'resourcefulbees:rgbee_honeycomb'
+            },
+            id: `${id_prefix}light_gray_dye`
+        },
+
+
+        {
+            output: 'minecraft:lime_dye',
+            pattern: ['  R', '  R', '  R'],
+            key: {
+                R: 'resourcefulbees:rgbee_honeycomb'
+            },
+            id: `${id_prefix}lime_dye`
+        },
+      
+        {
+            output: 'minecraft:black_dye',
+            pattern: ['   ', 'RR ', '  R'],
+            key: {
+                R: 'resourcefulbees:rgbee_honeycomb'
+            },
+            id: `${id_prefix}black_dye`
+        },
+
+        {
+            output: 'minecraft:purple_dye',
+            pattern: ['  R', '  R', ' R '],
+            key: {
+                R: 'resourcefulbees:rgbee_honeycomb'
+            },
+            id: `${id_prefix}purple_dye`
+        },
+
+        {
+            output: 'minecraft:pink_dye',
+            pattern: ['R  ', ' R ', '  R'],
+            key: {
+                R: 'resourcefulbees:rgbee_honeycomb'
+            },
+            id: `${id_prefix}pink_dye`
+        },
+
+        {
+            output: 'minecraft:light_blue_dye',
+            pattern: ['R  ', 'R  ', 'R  '],
+            key: {
+                R: 'resourcefulbees:rgbee_honeycomb'
+            },
+            id: `${id_prefix}light_blue _dye`
+        },
+
+        {
+            output: 'minecraft:brown_dye',
+            pattern: ['  R', ' R ', '  R'],
+            key: {
+                R: 'resourcefulbees:rgbee_honeycomb'
+            },
+            id: `${id_prefix}brown_dye`
+        },
+
+        {
+            output: 'minecraft:white_dye',
+            pattern: ['RRR', '   ', '   '],
+            key: {
+                R: 'resourcefulbees:rgbee_honeycomb'
+            },
+            id: `${id_prefix}white_dye`
+        },
+
+        {
+            output: 'minecraft:red_dye',
+            pattern: ['  R', ' R ', ' R '],
+            key: {
+                R: 'resourcefulbees:rgbee_honeycomb'
+            },
+            id: `${id_prefix}red_dye`
+        },
+
+
+        {
+            output: 'minecraft:gray_dye',
+            pattern: ['  R', '  R', '  R'],
+            key: {
+                R: 'resourcefulbees:rgbee_honeycomb'
+            },
+            id: `${id_prefix}gray_dye`
+        },
+
+        {
+            output: 'minecraft:magenta_dye',
+            pattern: ['   ', '   ', 'RRR'],
+            key: {
+                R: 'resourcefulbees:rgbee_honeycomb'
+            },
+            id: `${id_prefix}magenta_dye`
+        },
+
+        {
+            output: 'minecraft:orange_dye',
+            pattern: ['   ', 'RRR', '   '],
+            key: {
+                R: 'resourcefulbees:rgbee_honeycomb'
+            },
+            id: `${id_prefix}orange_dye`
+        },
+
+        {
+            output: 'minecraft:blue_dye',
+            pattern: ['   ', ' R ', 'R R'],
+            key: {
+                R: 'resourcefulbees:rgbee_honeycomb'
+            },
+            id: `${id_prefix}blue_dye`
+        },
+
+        {
+            output: 'minecraft:yellow_dye',
+            pattern: [' R ', ' R ', ' R '],
+            key: {
+                R: 'resourcefulbees:rgbee_honeycomb'
+            },
+            id: `${id_prefix}yellow_dye`
+        },
+
+        {
+            output: 'minecraft:cyan_dye',
+            pattern: ['R R', ' R ', '   '],
+            key: {
+                R: 'resourcefulbees:rgbee_honeycomb'
+            },
+            id: `${id_prefix}cyan_dye`
         }
     ];
 
