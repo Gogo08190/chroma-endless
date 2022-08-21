@@ -71,6 +71,20 @@ onEvent('recipes', (event) => {
         input: { ingredient: { item: 'kubejs:enriched_ludicrite' } },
         output: { amount: 80, infuse_type: 'kubejs:ludicrite' },
         id: `${id_prefix}ludicrite_from_enriched`
+      },
+
+      //Osmium Ingot
+      {
+        input: { ingredient: { item: 'emendatusenigmatica:osmium_ingot' } },
+        output: { amount: 10, infuse_type: 'kubejs:osmium' },
+        id: `${id_prefix}osmium`
+      },
+
+      //Osmium Block
+      {
+        input: { ingredient: { item: 'emendatusenigmatica:osmium_block' } },
+        output: { amount: 90, infuse_type: 'kubejs:osmium' },
+        id: `${id_prefix}osmium_from_block`
       }
     ]
 

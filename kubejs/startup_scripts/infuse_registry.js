@@ -23,6 +23,12 @@ onEvent('infuse_type.registry', (event) => {
             color: 11290848,
             texture: 'kubejs:infuse_types/base_infuse_type_texture',
             display: 'Ludicrite'
+        },
+        {
+            id: 'osmium',
+            color: 11128776,
+            texture: 'kubejs:infuse_types/base_infuse_type_texture',
+            display: 'Osmium'
         }
     ];
 
