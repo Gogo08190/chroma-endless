@@ -5,10 +5,12 @@
 	"config": [
 		{
 			"weight": 400
+			"dimensions": ["minecraft:overworld"]
 		},
 		{
 			"focus": "envirotech:magenta",
 			"weight": 3200
+			"dimensions": ["minecraft:overworld"]
 		}
 	]
 }

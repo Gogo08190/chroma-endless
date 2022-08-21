@@ -1,15 +1,20 @@
 {
 	"override": "replace",
 	"programs": ["envirotech:ore", "envirotech:gemstone_ore"],
-	"item": {"raw:item": "emendatusenigmatica:lapis_ore", "count":1},
+	"item": {
+		"raw:item_tag": "forge:ores/sapphire", "count":1,
+		"selector": {
+			"type": "first"
+		}
+	},
 	"config": [
 		{
-			"weight": 343,
+			"weight": 200,
 			"dimensions": ["minecraft:overworld"]
 		},
 		{
 			"focus": "envirotech:blue",
-			"weight": 2744,
+			"weight": 1600,
 			"dimensions": ["minecraft:overworld"]
 		}
 	]

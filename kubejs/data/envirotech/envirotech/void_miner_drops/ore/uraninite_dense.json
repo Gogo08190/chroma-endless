@@ -1,15 +1,20 @@
 {
 	"override": "replace",
 	"programs": ["envirotech:ore", "envirotech:metallic_ore"],
-	"item": {"raw:item": "emendatusenigmatica:lead_ore", "count":1},
+	"item": {
+		"raw:item_tag": "forge:ores/uraninite_dense", "count":1,
+		"selector": {
+			"type": "first"
+		}
+	},
 	"config": [
 		{
-			"weight": 500,
+			"weight": 120,
 			"dimensions": ["minecraft:overworld"]
 		},
 		{
-			"focus": "envirotech:purple",
-			"weight": 4000,
+			"focus": "envirotech:green",
+			"weight": 960,
 			"dimensions": ["minecraft:overworld"]
 		}
 	]

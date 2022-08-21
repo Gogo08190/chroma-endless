@@ -1,15 +1,20 @@
 {
 	"override": "replace",
 	"programs": ["envirotech:ore", "envirotech:mineral_ore"],
-	"item": {"raw:item": "emendatusenigmatica:potassium_nitrate_ore", "count":1},
+	"item": {
+		"raw:item_tag": "forge:ores/sulfur", "count":1,
+		"selector": {
+			"type": "first"
+		}
+	},
 	"config": [
 		{
-			"weight": 244,
+			"weight": 222,
 			"dimensions": ["minecraft:overworld"]
 		},
 		{
-			"focus": "envirotech:white",
-			"weight": 1952,
+			"focus": "envirotech:yellow",
+			"weight": 1776,
 			"dimensions": ["minecraft:overworld"]
 		}
 	]
