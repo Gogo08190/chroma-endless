@@ -191,7 +191,7 @@ onEvent('recipes', (event) => {
           pattern: ['ODO', 'OCO', 'OOO'],
           key: {
             O: '#forge:ingots/refined_obsidian',
-            D: 'projecte:red_matter_block'
+            D: 'projecte:red_matter_block',
             C: 'projecte:relay_mk2'
           },
           id: 'projecte:relay_mk3'
@@ -211,7 +211,7 @@ onEvent('recipes', (event) => {
           pattern: ['ODO', 'OCO', 'OOO'],
           key: {
             O: '#forge:ingots/refined_glowstone',
-            D: 'projecte:red_matter_block'
+            D: 'projecte:red_matter_block',
             C: 'projecte:collector_mk2'
           },
           id: 'projecte:collector_mk3'
