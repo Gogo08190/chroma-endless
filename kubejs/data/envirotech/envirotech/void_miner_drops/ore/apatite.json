@@ -1,0 +1,21 @@
+{
+	"override": "replace",
+	"programs": ["envirotech:ore", "envirotech:gemstone_ore"],
+	"item": {
+		"raw:item_tag": "forge:ores/apatite", "count":1,
+		"selector": {
+			"type": "first"
+		}
+	},
+	"config": [
+		{
+			"weight": 200,
+			"dimensions": ["minecraft:overworld"]
+		},
+		{
+			"focus": "envirotech:light_blue",
+			"weight": 1600,
+			"dimensions": ["minecraft:overworld"]
+		}
+	]
+}

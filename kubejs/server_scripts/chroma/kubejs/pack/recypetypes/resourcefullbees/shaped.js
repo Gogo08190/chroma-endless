@@ -224,7 +224,7 @@ onEvent('recipes', (event) => {
       // Colored Glasses
 
         {
-            output: 'minecraft:green_stained_glass',
+            output: Item.of('minecraft:green_stained_glass', 6),
             pattern: ['GGR', 'RRG', 'GGG'],
             key: {
                 R: 'resourcefulbees:rainbow_glass_honeycomb',
@@ -234,7 +234,7 @@ onEvent('recipes', (event) => {
         },
 
         {
-            output: 'minecraft:lime_stained_glass',
+            output: Item.of('minecraft:lime_stained_glass', 6),
             pattern: ['GGR', 'GGR', 'GGR'],
             key: {
                 R: 'resourcefulbees:rainbow_glass_honeycomb',
@@ -244,7 +244,7 @@ onEvent('recipes', (event) => {
         },
 
         {
-            output: 'minecraft:light_gray_stained_glass',
+            output: Item.of('minecraft:light_gray_stained_glass', 6),
             pattern: ['GRG', 'GRG', 'GGR'],
             key: {
                 R: 'resourcefulbees:rainbow_glass_honeycomb',
@@ -254,7 +254,7 @@ onEvent('recipes', (event) => {
         },
 
         {
-            output: 'minecraft:black_stained_glass',
+            output: Item.of('minecraft:black_stained_glass', 6),
             pattern: ['GGG', 'RRG', 'GGR'],
             key: {
                 R: 'resourcefulbees:rainbow_glass_honeycomb',
@@ -264,7 +264,7 @@ onEvent('recipes', (event) => {
         },
 
         {
-            output: 'minecraft:purple_stained_glass',
+            output: Item.of('minecraft:purple_stained_glass', 6),
             pattern: ['GGR', 'GGR', 'GRG'],
             key: {
                 R: 'resourcefulbees:rainbow_glass_honeycomb',
@@ -274,7 +274,7 @@ onEvent('recipes', (event) => {
         },
 
         {
-            output: 'minecraft:pink_stained_glass',
+            output: Item.of('minecraft:pink_stained_glass', 6),
             pattern: ['RGG', 'GRG', 'GGR'],
             key: {
                 R: 'resourcefulbees:rainbow_glass_honeycomb',
@@ -284,7 +284,7 @@ onEvent('recipes', (event) => {
         },
 
         {
-            output: 'minecraft:light_blue_stained_glass',
+            output: Item.of('minecraft:light_blue_stained_glass', 6),
             pattern: ['RGG', 'RGG', 'RGG'],
             key: {
                 R: 'resourcefulbees:rainbow_glass_honeycomb',
@@ -293,9 +293,8 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}light_blue_stained_glass`
         },
 
-
         {
-            output: 'minecraft:brown_stained_glass',
+            output: Item.of('minecraft:brown_stained_glass', 6),
             pattern: ['GGR', 'GRG', 'GGR'],
             key: {
                 R: 'resourcefulbees:rainbow_glass_honeycomb',
@@ -305,7 +304,7 @@ onEvent('recipes', (event) => {
         },
 
         {
-            output: 'minecraft:white_stained_glass',
+            output: Item.of('minecraft:white_stained_glass', 6),
             pattern: ['RRR', 'GGG', 'GGG'],
             key: {
                 R: 'resourcefulbees:rainbow_glass_honeycomb',
@@ -315,7 +314,7 @@ onEvent('recipes', (event) => {
         },
 
         {
-            output: 'minecraft:red_stained_glass',
+            output: Item.of('minecraft:red_stained_glass', 6),
             pattern: ['GGR', 'GRG', 'GRG'],
             key: {
                 R: 'resourcefulbees:rainbow_glass_honeycomb',
@@ -325,7 +324,7 @@ onEvent('recipes', (event) => {
         },
 
         {
-            output: 'minecraft:gray_stained_glass',
+            output: Item.of('minecraft:gray_stained_glass', 6),
             pattern: ['GGR', 'GRG', 'RGG'],
             key: {
                 R: 'resourcefulbees:rainbow_glass_honeycomb',
@@ -335,7 +334,7 @@ onEvent('recipes', (event) => {
         },
 
         {
-            output: 'minecraft:magenta_stained_glass',
+            output: Item.of('minecraft:magenta_stained_glass', 6),
             pattern: ['GGG', 'GGG', 'RRR'],
             key: {
                 R: 'resourcefulbees:rainbow_glass_honeycomb',
@@ -345,7 +344,7 @@ onEvent('recipes', (event) => {
         },
 
         {
-            output: 'minecraft:orange_stained_glass',
+            output: Item.of('minecraft:orange_stained_glass', 6),
             pattern: ['GGG', 'RRR', 'GGG'],
             key: {
                 R: 'resourcefulbees:rainbow_glass_honeycomb',
@@ -355,7 +354,7 @@ onEvent('recipes', (event) => {
         },
 
         {
-            output: 'minecraft:blue_stained_glass',
+            output: Item.of('minecraft:blue_stained_glass', 6),
             pattern: ['GGG', 'GRG', 'RGR'],
             key: {
                 R: 'resourcefulbees:rainbow_glass_honeycomb',
@@ -365,7 +364,7 @@ onEvent('recipes', (event) => {
         },
 
         {
-            output: 'minecraft:yellow_stained_glass',
+            output: Item.of('minecraft:yellow_stained_glass', 6),
             pattern: ['GRG', 'GRG', 'GRG'],
             key: {
                 R: 'resourcefulbees:rainbow_glass_honeycomb',
@@ -375,7 +374,7 @@ onEvent('recipes', (event) => {
         },
 
         {
-            output: 'minecraft:cyan_stained_glass',
+            output: Item.of('minecraft:cyan_stained_glass', 6),
             pattern: ['RGR', 'GRG', 'GGG'],
             key: {
                 R: 'resourcefulbees:rainbow_glass_honeycomb',
@@ -387,7 +386,7 @@ onEvent('recipes', (event) => {
         // Dye Recipes
 
         {
-            output: 'minecraft:green_dye',
+            output: Item.of('minecraft:green_dye', 6),
             pattern: ['  R', 'RR ', '   '],
             key: {
                 R: 'resourcefulbees:rgbee_honeycomb'
@@ -396,7 +395,7 @@ onEvent('recipes', (event) => {
         },
 
         {
-            output: 'minecraft:light_gray_dye',
+            output: Item.of('minecraft:light_gray_dye', 6),
             pattern: [' R ', ' R ', '  R'],
             key: {
                 R: 'resourcefulbees:rgbee_honeycomb'
@@ -406,7 +405,7 @@ onEvent('recipes', (event) => {
 
 
         {
-            output: 'minecraft:lime_dye',
+            output: Item.of('minecraft:lime_dye', 6),
             pattern: ['  R', '  R', '  R'],
             key: {
                 R: 'resourcefulbees:rgbee_honeycomb'
@@ -415,7 +414,7 @@ onEvent('recipes', (event) => {
         },
       
         {
-            output: 'minecraft:black_dye',
+            output: Item.of('minecraft:black_dye', 6),
             pattern: ['   ', 'RR ', '  R'],
             key: {
                 R: 'resourcefulbees:rgbee_honeycomb'
@@ -424,7 +423,7 @@ onEvent('recipes', (event) => {
         },
 
         {
-            output: 'minecraft:purple_dye',
+            output: Item.of('minecraft:purple_dye', 6),
             pattern: ['  R', '  R', ' R '],
             key: {
                 R: 'resourcefulbees:rgbee_honeycomb'
@@ -433,7 +432,7 @@ onEvent('recipes', (event) => {
         },
 
         {
-            output: 'minecraft:pink_dye',
+            output: Item.of('minecraft:pink_dye', 6),
             pattern: ['R  ', ' R ', '  R'],
             key: {
                 R: 'resourcefulbees:rgbee_honeycomb'
@@ -442,7 +441,7 @@ onEvent('recipes', (event) => {
         },
 
         {
-            output: 'minecraft:light_blue_dye',
+            output: Item.of('minecraft:light_blue_dye', 6),
             pattern: ['R  ', 'R  ', 'R  '],
             key: {
                 R: 'resourcefulbees:rgbee_honeycomb'
@@ -451,7 +450,7 @@ onEvent('recipes', (event) => {
         },
 
         {
-            output: 'minecraft:brown_dye',
+            output: Item.of('minecraft:brown_dye', 6),
             pattern: ['  R', ' R ', '  R'],
             key: {
                 R: 'resourcefulbees:rgbee_honeycomb'
@@ -460,7 +459,7 @@ onEvent('recipes', (event) => {
         },
 
         {
-            output: 'minecraft:white_dye',
+            output: Item.of('minecraft:white_dye', 6),
             pattern: ['RRR', '   ', '   '],
             key: {
                 R: 'resourcefulbees:rgbee_honeycomb'
@@ -469,7 +468,7 @@ onEvent('recipes', (event) => {
         },
 
         {
-            output: 'minecraft:red_dye',
+            output: Item.of('minecraft:red_dye', 6),
             pattern: ['  R', ' R ', ' R '],
             key: {
                 R: 'resourcefulbees:rgbee_honeycomb'
@@ -477,9 +476,8 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}red_dye`
         },
 
-
         {
-            output: 'minecraft:gray_dye',
+            output: Item.of('minecraft:gray_dye', 6),
             pattern: ['  R', '  R', '  R'],
             key: {
                 R: 'resourcefulbees:rgbee_honeycomb'
@@ -488,7 +486,7 @@ onEvent('recipes', (event) => {
         },
 
         {
-            output: 'minecraft:magenta_dye',
+            output: Item.of('minecraft:magenta_dye', 6),
             pattern: ['   ', '   ', 'RRR'],
             key: {
                 R: 'resourcefulbees:rgbee_honeycomb'
@@ -497,7 +495,7 @@ onEvent('recipes', (event) => {
         },
 
         {
-            output: 'minecraft:orange_dye',
+            output: Item.of('minecraft:orange_dye', 6),
             pattern: ['   ', 'RRR', '   '],
             key: {
                 R: 'resourcefulbees:rgbee_honeycomb'
@@ -506,7 +504,7 @@ onEvent('recipes', (event) => {
         },
 
         {
-            output: 'minecraft:blue_dye',
+            output: Item.of('minecraft:blue_dye', 6),
             pattern: ['   ', ' R ', 'R R'],
             key: {
                 R: 'resourcefulbees:rgbee_honeycomb'
@@ -515,7 +513,7 @@ onEvent('recipes', (event) => {
         },
 
         {
-            output: 'minecraft:yellow_dye',
+            output: Item.of('minecraft:yellow_dye', 6),
             pattern: [' R ', ' R ', ' R '],
             key: {
                 R: 'resourcefulbees:rgbee_honeycomb'
@@ -524,7 +522,7 @@ onEvent('recipes', (event) => {
         },
 
         {
-            output: 'minecraft:cyan_dye',
+            output: Item.of('minecraft:cyan_dye', 6),
             pattern: ['R R', ' R ', '   '],
             key: {
                 R: 'resourcefulbees:rgbee_honeycomb'

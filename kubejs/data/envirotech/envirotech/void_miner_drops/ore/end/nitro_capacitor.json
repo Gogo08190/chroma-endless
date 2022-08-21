@@ -1,9 +1,10 @@
 {
-	"programs": ["environmentaltech:parts_miner"],
+	"programs": ["envirotech:parts_miner"],
 	"item": {"raw:item": "ironjetpacks:nitro_capacitor", "count":1},
 	"config": [
 		{
-			"weight": 1,
+			"weight": 5,
+			"tiers" : [6,7,8],
 			"dimensions": [
 				"minecraft:the_end"
 			]

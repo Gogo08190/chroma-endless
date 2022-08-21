@@ -5,14 +5,12 @@
 	"config": [
 		{
 			"weight": 500,
-			"blacklist_dimensions": true,
-			"dimensions": ["minecraft:the_nether", "minecraft:the_end"]
+			"dimensions": ["minecraft:overworld"]
 		},
 		{
 			"focus": "envirotech:purple",
 			"weight": 4000,
-			"blacklist_dimensions": true,
-			"dimensions": ["minecraft:the_nether", "minecraft:the_end"]
+			"dimensions": ["minecraft:overworld"]
 		}
 	]
 }

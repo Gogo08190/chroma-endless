@@ -1,0 +1,21 @@
+{
+	"override": "replace",
+	"programs": ["envirotech:ore", "envirotech:mineral_ore"],
+	"item": {
+		"raw:item_tag": "forge:ores/sulfur", "count":1,
+		"selector": {
+			"type": "first"
+		}
+	},
+	"config": [
+		{
+			"weight": 222,
+			"dimensions": ["minecraft:overworld"]
+		},
+		{
+			"focus": "envirotech:yellow",
+			"weight": 1776,
+			"dimensions": ["minecraft:overworld"]
+		}
+	]
+}

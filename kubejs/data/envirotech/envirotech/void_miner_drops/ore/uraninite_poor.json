@@ -1,0 +1,21 @@
+{
+	"override": "disable",
+	"programs": ["envirotech:ore", "envirotech:metallic_ore"],
+	"item": {
+		"raw:item_tag": "forge:ores/uraninite_poor", "count":1,
+		"selector": {
+			"type": "first"
+		}
+	},
+	"config": [
+		{
+			"weight": 218,
+			"dimensions": ["minecraft:overworld"]
+		},
+		{
+			"focus": "envirotech:green",
+			"weight": 1696,
+			"dimensions": ["minecraft:overworld"]
+		}
+	]
+}

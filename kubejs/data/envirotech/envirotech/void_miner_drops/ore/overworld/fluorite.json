@@ -1,18 +1,16 @@
 {
 	"override": "replace",
 	"programs": ["envirotech:ore", "envirotech:gemstone_ore"],
-	"item": {"raw:item": "'emendatusenigmatica:fluorite_ore'", "count":1},
+	"item": {"raw:item": "emendatusenigmatica:fluorite_ore", "count":1},
 	"config": [
 		{
 			"weight": 800,
-			"blacklist_dimensions": true,
-			"dimensions": ["minecraft:the_nether", "minecraft:the_end"]
+			"dimensions": ["minecraft:overworld"]
 		},
 		{
 			"focus": "envirotech:pink",
 			"weight": 6400,
-			"blacklist_dimensions": true,
-			"dimensions": ["minecraft:the_nether", "minecraft:the_end"]
+			"dimensions": ["minecraft:overworld"]
 		}
 	]
 }

@@ -1,11 +1,10 @@
 {
-	"programs": ["environmentaltech:chunk_miner"],
+	"programs": ["envirotech:chunk_miner"],
 	"item": {"raw:item": "emendatusenigmatica:copper_chunk", "count":1},
 	"config": [
 		{
 			"weight": 584,
-			"blacklist_dimensions": true,
-			"dimensions": ["minecraft:the_nether", "minecraft:the_end"]
+			"dimensions": ["minecraft:overworld"]
 		},
 		{
 			"focus": "envirotech:orange",
