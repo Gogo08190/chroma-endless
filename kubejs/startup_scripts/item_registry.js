@@ -62,11 +62,18 @@ onEvent('item.registry', (event) => {
         'enriched_kyronite',
         'enriched_ludicrite',
         'enriched_pladium',
-        'larve',
-        'cooked_larva'
+        'larve'
     ];
 
     generalItems.forEach((item) => {
         event.create(item).group('KubeJS').texture(`kubejs:item/${item}`);
     });
+
+    event
+        .create('cooked_larva')
+        .group('KubeJS')
+        .texture('kubejs:item/cooked_larva')
+        .food((food) => {
+            food.hunger(4).saturation(0.5);
+        });
 });
