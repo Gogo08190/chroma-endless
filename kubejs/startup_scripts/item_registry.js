@@ -63,7 +63,9 @@ onEvent('item.registry', (event) => {
         'enriched_ludicrite',
         'enriched_pladium',
         'larve',
-        'ultimate_rune'
+        'ultimate_rune',
+        'rgb_jelly',
+        'rgb_glass_shard'
     ];
 
     generalItems.forEach((item) => {
