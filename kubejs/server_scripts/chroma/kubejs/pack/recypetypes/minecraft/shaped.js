@@ -213,7 +213,144 @@ onEvent('recipes', (event) => {
             D: 'minecraft:shears'
           },
           id: 'minecraft:smithing_table'
-        }
+        },
+        // Shard -> glass
+        {
+          output: 'minecraft:glass',
+          pattern: ['AA', 'AA'],
+          key: {
+            A:'quark:clear_shard'
+          },
+          id: `${id_prefex}glass`
+        },
+        {
+          output: 'minecraft:white_stained_glass',
+          pattern: ['AA', 'AA'],
+          key: {
+            A:'quark:white_shard'
+          },
+          id: `${id_prefex}white_stained_glass`
+        },
+        {
+          output: 'minecraft:orange_stained_glass',
+          pattern: ['AA', 'AA'],
+          key: {
+            A:'quark:orange_shard'
+          },
+          id: `${id_prefex}orange_stained_glass`
+        },
+        {
+          output: 'minecraft:magenta_stained_glass',
+          pattern: ['AA', 'AA'],
+          key: {
+            A:'quark:magenta_shard'
+          },
+          id: `${id_prefex}magenta_stained_glass`
+        },
+        {
+          output: 'minecraft:light_blue_stained_glass',
+          pattern: ['AA', 'AA'],
+          key: {
+            A:'quark:light_blue_shard'
+          },
+          id: `${id_prefex}light_blue_stained_glass`
+        },
+        {
+          output: 'minecraft:yellow_stained_glass',
+          pattern: ['AA', 'AA'],
+          key: {
+            A:'quark:yellow_shard'
+          },
+          id: `${id_prefex}yellow_stained_glass`
+        },
+        {
+          output: 'minecraft:lime_stained_glass',
+          pattern: ['AA', 'AA'],
+          key: {
+            A:'quark:lime_shard'
+          },
+          id: `${id_prefex}lime_stained_glass`
+        },
+        {
+          output: 'minecraft:pink_stained_glass',,
+          pattern: ['AA', 'AA'],
+          key: {
+            A:'quark:pink_shard'
+          },
+          id: `${id_prefex}pink_stained_glass`
+        },
+        {
+          output: 'minecraft:gray_stained_glass',,
+          pattern: ['AA', 'AA'],
+          key: {
+            A:'quark:gray_shard'
+          },
+          id: `${id_prefex}gray_stained_glass`
+        },
+        {
+          output: 'minecraft:light_gray_stained_glass',,
+          pattern: ['AA', 'AA'],
+          key: {
+            A:'quark:light_gray_shard'
+          },
+          id: `${id_prefex}light_gray_stained_glass`
+        },
+        {
+          output: 'minecraft:cyan_stained_glass',,
+          pattern: ['AA', 'AA'],
+          key: {
+            A:'quark:cyan_shard'
+          },
+          id: `${id_prefex}cyan_stained_glass`
+        },
+        {
+          output: 'minecraft:purple_stained_glass',,
+          pattern: ['AA', 'AA'],
+          key: {
+            A:'quark:purple_shard'
+          },
+          id: `${id_prefex}purple_stained_glass`
+        },
+        {
+          output: 'minecraft:blue_stained_glass',,
+          pattern: ['AA', 'AA'],
+          key: {
+            A:'quark:blue_shard'
+          },
+          id: `${id_prefex}blue_stained_glass`
+        },
+        {
+          output: 'minecraft:brown_stained_glass',,
+          pattern: ['AA', 'AA'],
+          key: {
+            A:'quark:brown_shard'
+          },
+          id: `${id_prefex}brown_stained_glass`
+        },
+        {
+          output: 'minecraft:green_stained_glass',,
+          pattern: ['AA', 'AA'],
+          key: {
+            A:'quark:green_shard'
+          },
+          id: `${id_prefex}green_stained_glass`
+        },
+        {
+          output: 'minecraft:red_stained_glass',,
+          pattern: ['AA', 'AA'],
+          key: {
+            A:'quark:red_shard'
+          },
+          id: `${id_prefex}red_stained_glass`
+        },
+        {
+          output: 'minecraft:black_stained_glass',,
+          pattern: ['AA', 'AA'],
+          key: {
+            A:'quark:black_shard'
+          },
+          id: `${id_prefex}black_stained_glass`
+        },
 
     ];
 
