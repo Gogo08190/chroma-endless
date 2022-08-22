@@ -97,4 +97,9 @@ onEvent('recipes', e => {
     ' R ',
     '   '
   ], 6)
+  dShaped('minecraft:glass', [
+    '   ',
+    ' RR',
+    'R  '
+  ], 6)
 })
