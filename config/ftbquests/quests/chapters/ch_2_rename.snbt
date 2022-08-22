@@ -1,0 +1,17 @@
+{
+	id: "6BFF5120144F32C7"
+	group: "34085A64296DE6C7"
+	order_index: 1
+	filename: "ch_2_rename"
+	title: "Ch. 2 (rename)"
+	icon: {
+		id: "immersiveengineering:hammer"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

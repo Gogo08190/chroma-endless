@@ -1,0 +1,17 @@
+{
+	id: "2D4274519A1893D9"
+	order_index: 0
+	title: "Foods"
+	icon: "quark:golden_apple_crate"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:apple", count: 8 }
+		{ item: "minecraft:mushroom_stew", count: 2 }
+		{ item: "minecraft:bread", count: 8 }
+		{ item: "minecraft:cooked_porkchop", count: 8 }
+		{ item: "minecraft:golden_apple" }
+		{ item: "minecraft:cooked_cod", count: 8 }
+		{ item: "minecraft:cooked_salmon", count: 8 }
+		{ item: "minecraft:cake" }
+	]
+}

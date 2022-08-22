@@ -1,0 +1,90 @@
+{
+	id: "41A98485D836A236"
+	group: "34085A64296DE6C7"
+	order_index: 0
+	filename: "ch_1_rename"
+	title: "Ch. 1 (rename)"
+	icon: "minecraft:crafting_table"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "First of all: Logs"
+			icon: "minecraft:oak_log"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Logging time!"
+			description: [
+				"Cut down a tree to collect logs (any #minecraft:logs work)."
+				"Pro tip: don't forget ultimine!"
+			]
+			id: "5818D79835BC71DA"
+			tasks: [{
+				id: "56E33A3A0C9966C3"
+				type: "item"
+				title: "4x Logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "13211B8EB62FC150"
+					type: "item"
+					item: "minecraft:oak_planks"
+					count: 16
+				}
+				{
+					id: "65290836CDA1488A"
+					type: "loot"
+					table_id: 3261296973996135385L
+				}
+			]
+		}
+		{
+			title: "Second of all: Flints"
+			x: 1.0d
+			y: 0.0d
+			description: ["Several ways to get flint, but which one to choose? Maybe JEI can tell you; although at the beginning I advise you to ultimate gravel or craft it with 3."]
+			id: "506463BEE4D51982"
+			tasks: [{
+				id: "1F6AD2EF12A9D3E0"
+				type: "item"
+				item: "minecraft:flint"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "26206B2E6D205C79"
+					type: "item"
+					item: "minecraft:gravel"
+					count: 8
+				}
+				{
+					id: "2C9C5E3368A10A58"
+					type: "loot"
+					table_id: 3261296973996135385L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			dependencies: [
+				"5818D79835BC71DA"
+				"506463BEE4D51982"
+			]
+			id: "1C7C41C2FA427B8F"
+			tasks: [{
+				id: "59AD33D92E98AE40"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+		}
+	]
+}
