@@ -41,7 +41,11 @@
     "lightLevel": "ANY"
   },
   "BreedData": {
-      "isBreedable": false
+      "isBreedable": true,
+      "feedItem": "minecraft:magma_block",
+      "feedAmount": 3,
+      "childGrowthDelay": -24000,
+      "breedDelay": 6000
   },
   "TraitData": {
       "hasTraits": true

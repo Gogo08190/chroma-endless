@@ -1,0 +1,15 @@
+{
+	"programs": ["envirotech:chunk_miner"],
+	"item": {"raw:item": "emendatusenigmatica:nickel_chunk", "count":1},
+	"config": [
+		{
+			"weight": 232,
+			"dimensions": ["minecraft:overworld"]
+		},
+		{
+			"focus": "envirotech:gray",
+			"weight": 1856,
+			"dimensions": ["minecraft:overworld"]
+		}
+	]
+}

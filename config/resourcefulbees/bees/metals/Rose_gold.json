@@ -48,7 +48,12 @@
       "canSpawnInWorld": false
     },
     "BreedData": {
-      "isBreedable": false
+      "isBreedable": true,
+      "parent1": "copper",
+      "parent2": "gold",
+      "feedItem": "tconstruct:rose_gold_block",
+      "childGrowthDelay": -24000,
+      "breedDelay": 6000
     },
     "TraitData": {
       "hasTraits": true

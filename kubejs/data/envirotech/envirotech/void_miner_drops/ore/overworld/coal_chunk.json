@@ -1,0 +1,16 @@
+{
+	"programs": ["envirotech:chunk_miner"],
+	"item": {"raw:item": "emendatusenigmatica:coal_chunk", "count":1},
+	"config": [
+		{
+			"weight": 1000,
+			"dimensions": ["minecraft:overworld"]
+		},
+		{
+			"focus": "envirotech:black",
+			"weight": 8000,
+			"blacklist_dimensions": true,
+			"dimensions": ["minecraft:the_nether", "minecraft:the_end"]
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"override": "replace",
+	"programs": ["envirotech:ore", "envirotech:gemstone_ore"],
+	"item": {"raw:item": "emendatusenigmatica:dimensional_ore", "count":1},
+	"config": [
+		{
+			"weight": 350,
+			"dimensions": ["minecraft:overworld"]
+		},
+		{
+			"focus": "envirotech:white",
+			"weight": 2800,
+			"dimensions": ["minecraft:overworld"]
+		}
+	]
+}

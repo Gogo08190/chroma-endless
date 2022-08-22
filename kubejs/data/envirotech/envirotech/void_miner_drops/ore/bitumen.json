@@ -1,0 +1,21 @@
+{
+	"override": "replace",
+	"programs": ["envirotech:ore", "envirotech:mineral_ore"],
+	"item": {
+		"raw:item_tag": "forge:ores/bitumen", "count":1,
+		"selector": {
+			"type": "first"
+		}
+	},
+	"config": [
+		{
+			"weight": 800,
+			"dimensions": ["minecraft:overworld"]
+		},
+		{
+			"focus": "envirotech:black",
+			"weight": 6400,
+			"dimensions": ["minecraft:overworld"]
+		}
+	]
+}

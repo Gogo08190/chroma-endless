@@ -52,7 +52,10 @@
       "canSpawnInWorld": false
     },
     "BreedData": {
-    "isBreedable": false
+    "isBreedable": true,
+    "parent1": "water",
+    "parent2": "coal",
+    "feedItem": "emendatusenigmatica:bitumen_ore"
   },
   "TraitData": {
       "hasTraits": true

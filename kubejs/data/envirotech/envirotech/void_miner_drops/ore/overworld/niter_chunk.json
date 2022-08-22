@@ -1,0 +1,15 @@
+{
+	"programs": ["envirotech:chunk_miner"],
+	"item": {"raw:item": "emendatusenigmatica:potassium_nitrate_chunk", "count":1},
+	"config": [
+		{
+			"weight": 244,
+			"dimensions": ["minecraft:overworld"]
+		},
+		{
+			"focus": "envirotech:white",
+			"weight": 1952,
+			"dimensions": ["minecraft:overworld"]
+		}
+	]
+}

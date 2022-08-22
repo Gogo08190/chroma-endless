@@ -1,0 +1,15 @@
+{
+	"programs": ["envirotech:chunk_miner"],
+	"item": {"raw:item": "emendatusenigmatica:osmium_chunk", "count":1},
+	"config": [
+		{
+			"weight": 750,
+			"dimensions": ["minecraft:overworld"]
+		},
+		{
+			"focus": "envirotech:light_blue",
+			"weight": 6000,
+			"dimensions": ["minecraft:overworld"]
+		}
+	]
+}

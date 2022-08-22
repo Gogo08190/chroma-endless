@@ -1,0 +1,47 @@
+{
+	"override": "replace",
+	"programs": ["envirotech:ore", "envirotech:metallic_ore"],
+	"item": {"raw:item": "emendatusenigmatica:gold_ore", "count":1},
+	"config": [
+		{
+			"weight": 311,
+			"dimensions": ["minecraft:overworld"],
+			"blacklist_biomes": true,
+			"biomes": [
+				"minecraft:badlands",
+				"minecraft:badlands_plateau",
+				"minecraft:the_end"
+			]
+		},
+		{
+			"focus": "envirotech:yellow",
+			"weight": 2488,
+			"dimensions": ["minecraft:overworld"],
+			"blacklist_biomes": true,
+			"biomes": [
+				"minecraft:badlands",
+				"minecraft:badlands_plateau",
+				"minecraft:the_end"
+			]
+		},
+		{
+			"weight": 389,
+			"blacklist_dimensions": true,
+			"dimensions": ["minecraft:the_nether", "minecraft:the_end"],
+			"biomes": [
+				"minecraft:badlands",
+				"minecraft:badlands_plateau"
+			]
+		},
+		{
+			"focus": "envirotech:yellow",
+			"weight": 3112,
+			"blacklist_dimensions": true,
+			"dimensions": ["minecraft:the_nether", "minecraft:the_end"],
+			"biomes": [
+				"minecraft:badlands",
+				"minecraft:badlands_plateau"
+			]
+		}
+	]
+}

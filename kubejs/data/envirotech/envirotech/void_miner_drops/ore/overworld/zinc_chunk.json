@@ -1,0 +1,15 @@
+{
+	"programs": ["envirotech:chunk_miner"],
+	"item": {"raw:item": "emendatusenigmatica:zinc_chunk", "count":1},
+	"config": [
+		{
+			"weight": 186,
+			"dimensions": ["minecraft:overworld"]
+		},
+		{
+			"focus": "envirotech:pink",
+			"weight": 1488,
+			"dimensions": ["minecraft:overworld"]
+		}
+	]
+}

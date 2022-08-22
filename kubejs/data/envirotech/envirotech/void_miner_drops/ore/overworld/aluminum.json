@@ -1,0 +1,17 @@
+{
+	"override": "replace",
+	"programs": ["envirotech:ore", "envirotech:metallic_ore"],
+	"item": {"raw:item": "emendatusenigmatica:aluminum_ore", "count":1},
+	"config": [
+		{
+			"weight": 422,
+			"dimensions": ["minecraft:overworld"]
+		},
+		{
+			"focus": "envirotech:white",
+			"weight": 3376,
+			"blacklist_dimensions": true,
+			"dimensions": ["minecraft:the_nether", "minecraft:the_end"]
+		}
+	]
+}

@@ -54,7 +54,9 @@
     "canSpawnInWorld": false
   },
   "BreedData": {
-    "isBreedable": false
+    "isBreedable": true,
+    "feedItem": "draconicevolution:dragon_heart",
+    "feedAmount": 2
   },
   "TraitData": {
     "hasTraits": false

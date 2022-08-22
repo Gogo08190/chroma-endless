@@ -1,0 +1,16 @@
+{
+	"override": "replace",
+	"programs": ["envirotech:ore", "envirotech:mineral_ore"],
+	"item": {"raw:item": "emendatusenigmatica:potassium_nitrate_ore", "count":1},
+	"config": [
+		{
+			"weight": 244,
+			"dimensions": ["minecraft:overworld"]
+		},
+		{
+			"focus": "envirotech:white",
+			"weight": 1952,
+			"dimensions": ["minecraft:overworld"]
+		}
+	]
+}

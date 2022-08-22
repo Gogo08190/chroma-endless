@@ -1,0 +1,16 @@
+{
+	"override": "replace",
+	"programs": ["envirotech:ore", "envirotech:metallic_ore"],
+	"item": {"raw:item": "emendatusenigmatica:zinc_ore", "count":1},
+	"config": [
+		{
+			"weight": 186,
+			"dimensions": ["minecraft:overworld"]
+		},
+		{
+			"focus": "envirotech:pink",
+			"weight": 1488,
+			"dimensions": ["minecraft:overworld"]
+		}
+	]
+}

@@ -13,7 +13,7 @@ onEvent('recipes', (event) => {
     const recipes = [
       {
           inputs: [
-            {item: 'resourcefulbees:ender_bee_spawn_egg' },
+            Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:ender_bee' }).weakNBT().toJson(),
             {item: 'tardis:xion_crystal' },
             {item: 'tardis:xion_crystal' },
             {item: 'tardis:xion_crystal' },

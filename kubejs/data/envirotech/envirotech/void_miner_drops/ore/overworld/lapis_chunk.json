@@ -1,0 +1,15 @@
+{
+	"programs": ["envirotech:chunk_miner"],
+	"item": {"raw:item": "emendatusenigmatica:lapis_chunk", "count":1},
+	"config": [
+		{
+			"weight": 343,
+			"dimensions": ["minecraft:overworld"]
+		},
+		{
+			"focus": "envirotech:blue",
+			"weight": 2744,
+			"dimensions": ["minecraft:overworld"]
+		}
+	]
+}

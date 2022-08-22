@@ -1,0 +1,16 @@
+{
+	"override": "replace",
+	"programs": ["envirotech:ore", "envirotech:metallic_ore"],
+	"item": {"raw:item": "emendatusenigmatica:silver_ore", "count":1},
+	"config": [
+		{
+			"weight": 381,
+			"dimensions": ["minecraft:overworld"]
+		},
+		{
+			"focus": "envirotech:light_gray",
+			"weight": 3048,
+			"dimensions": ["minecraft:overworld"]
+		}
+	]
+}

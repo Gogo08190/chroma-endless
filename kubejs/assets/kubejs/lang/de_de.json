@@ -58,10 +58,11 @@
     "item.kubejs.enriched_energized_uranium": "Enriched Energized Uranium",
     "item.kubejs.draconium_core_part": "Part Of Draconium Core",
     "item.kubejs.wyvern_core_part": "Part Of Wyvern Core",
-    "item.kubejs.enriched_kyronite": "Enriched Kyronite",  
-    "item.kubejs.enriched_ludicrite": "Enriched Ludicrite",  
-    "item.kubejs.enriched_pladium": "Enriched Pladium",  
-    "item.kubejs.larve": "Bee Larva", 
+    "item.kubejs.enriched_kyronite": "Enriched Kyronite",
+    "item.kubejs.enriched_ludicrite": "Enriched Ludicrite",
+    "item.kubejs.enriched_pladium": "Enriched Pladium",
+    "item.kubejs.larve": "Bee Larva",
+    "item.kubejs.cooked_larva": "Cooked Bee Larva",
 
     "infuse_type.kubejs.uranium": "Energized Uranium",
     "infuse_type.kubejs.kyronite": "Kyronite",
@@ -111,5 +112,5 @@
     "ritual.occultism.sacrifice.forest_bees": "Forest Bee",
     "memory_programmer_category.environmentaltech.new_miners": "New Miners",
     "program.environmentaltech.chunk_miner": "Chunk Miners",
-    "program.environmentaltech.parts_miner": "Parts Miners"
+    "program.environmentaltech.parts_miner": "Black Hole Harvester"
 }

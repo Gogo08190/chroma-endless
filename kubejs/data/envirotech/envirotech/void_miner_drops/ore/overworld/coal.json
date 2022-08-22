@@ -1,0 +1,17 @@
+{
+	"override": "replace",
+	"programs": ["envirotech:ore", "envirotech:mineral_ore"],
+	"item": {"raw:item": "emendatusenigmatica:coal_ore", "count":1},
+	"config": [
+		{
+			"weight": 1000,
+			"dimensions": ["minecraft:overworld"]
+		},
+		{
+			"focus": "envirotech:black",
+			"weight": 8000,
+			"blacklist_dimensions": true,
+			"dimensions": ["minecraft:the_nether", "minecraft:the_end"]
+		}
+	]
+}

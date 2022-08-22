@@ -1,0 +1,21 @@
+{
+	"programs": ["envirotech:parts_miner"],
+	"item": {"raw:item": "projecte:medium_covalence_dust", "count":1},
+	"config": [
+		{
+			"weight": 30,
+			"tiers" : [5,6,7,8],
+			"dimensions": [
+				"minecraft:the_end"
+			]
+		},
+		{
+			"focus": "envirotech:cyan",
+			"weight": 60,
+			"tiers" : [5,6,7,8],
+			"dimensions": [
+				"minecraft:the_end"
+			]
+		}
+	]
+}

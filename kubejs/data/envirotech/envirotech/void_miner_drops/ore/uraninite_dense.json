@@ -1,0 +1,21 @@
+{
+	"override": "replace",
+	"programs": ["envirotech:ore", "envirotech:metallic_ore"],
+	"item": {
+		"raw:item_tag": "forge:ores/uraninite_dense", "count":1,
+		"selector": {
+			"type": "first"
+		}
+	},
+	"config": [
+		{
+			"weight": 120,
+			"dimensions": ["minecraft:overworld"]
+		},
+		{
+			"focus": "envirotech:green",
+			"weight": 960,
+			"dimensions": ["minecraft:overworld"]
+		}
+	]
+}

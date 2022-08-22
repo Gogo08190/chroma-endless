@@ -1,0 +1,16 @@
+{
+	"override": "replace",
+	"programs": ["envirotech:ore", "envirotech:mineral_ore"],
+	"item": {"raw:item": "emendatusenigmatica:redstone_ore", "count":1},
+	"config": [
+		{
+			"weight": 515,
+			"dimensions": ["minecraft:overworld"]
+		},
+		{
+			"focus": "envirotech:red",
+			"weight": 4120,
+			"dimensions": ["minecraft:overworld"]
+		}
+	]
+}

@@ -53,7 +53,13 @@
         "canSpawnInWorld": false
     },
     "BreedData": {
-        "isBreedable": false
+        "isBreedable": true,
+        "parent1": "Slime",
+        "parent2": "water",
+        "feedItem": "tconstruct:sky_slime",
+        "feedAmount": 10,
+        "childGrowthDelay": -24000,
+        "breedDelay": 6000
     },
     "TraitData": {
         "hasTraits": true

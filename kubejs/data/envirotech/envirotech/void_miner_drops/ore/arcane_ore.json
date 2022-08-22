@@ -1,0 +1,16 @@
+{
+	"override": "replace",
+	"programs": ["envirotech:ore", "envirotech:gemstone_ores", "envirotech:magical_ores"],
+	"item": {"raw:item": "emendatusenigmatica:arcane_ore", "count":1},
+	"config": [
+		{
+			"weight": 400
+			"dimensions": ["minecraft:overworld"]
+		},
+		{
+			"focus": "envirotech:magenta",
+			"weight": 3200
+			"dimensions": ["minecraft:overworld"]
+		}
+	]
+}

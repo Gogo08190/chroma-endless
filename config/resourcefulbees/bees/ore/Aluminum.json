@@ -52,7 +52,8 @@
       "canSpawnInWorld": false
     },
     "BreedData": {
-    "isBreedable": false
+    "isBreedable": true,
+    "feedItem": "emendatusenigmatica:aluminum_block"
   },
   "TraitData": {
       "hasTraits": true
