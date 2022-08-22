@@ -280,7 +280,7 @@ onEvent('recipes', (event) => {
           id: `${id_prefex}pink_stained_glass`
         },
         {
-          output: 'minecraft:gray_stained_glass',,
+          output: 'minecraft:gray_stained_glass',
           pattern: ['AA', 'AA'],
           key: {
             A:'quark:gray_shard'
@@ -288,7 +288,7 @@ onEvent('recipes', (event) => {
           id: `${id_prefex}gray_stained_glass`
         },
         {
-          output: 'minecraft:light_gray_stained_glass',,
+          output: 'minecraft:light_gray_stained_glass',
           pattern: ['AA', 'AA'],
           key: {
             A:'quark:light_gray_shard'
@@ -296,7 +296,7 @@ onEvent('recipes', (event) => {
           id: `${id_prefex}light_gray_stained_glass`
         },
         {
-          output: 'minecraft:cyan_stained_glass',,
+          output: 'minecraft:cyan_stained_glass',
           pattern: ['AA', 'AA'],
           key: {
             A:'quark:cyan_shard'
@@ -304,7 +304,7 @@ onEvent('recipes', (event) => {
           id: `${id_prefex}cyan_stained_glass`
         },
         {
-          output: 'minecraft:purple_stained_glass',,
+          output: 'minecraft:purple_stained_glass',
           pattern: ['AA', 'AA'],
           key: {
             A:'quark:purple_shard'
@@ -312,7 +312,7 @@ onEvent('recipes', (event) => {
           id: `${id_prefex}purple_stained_glass`
         },
         {
-          output: 'minecraft:blue_stained_glass',,
+          output: 'minecraft:blue_stained_glass',
           pattern: ['AA', 'AA'],
           key: {
             A:'quark:blue_shard'
@@ -320,7 +320,7 @@ onEvent('recipes', (event) => {
           id: `${id_prefex}blue_stained_glass`
         },
         {
-          output: 'minecraft:brown_stained_glass',,
+          output: 'minecraft:brown_stained_glass',
           pattern: ['AA', 'AA'],
           key: {
             A:'quark:brown_shard'
@@ -328,7 +328,7 @@ onEvent('recipes', (event) => {
           id: `${id_prefex}brown_stained_glass`
         },
         {
-          output: 'minecraft:green_stained_glass',,
+          output: 'minecraft:green_stained_glass',
           pattern: ['AA', 'AA'],
           key: {
             A:'quark:green_shard'
@@ -336,7 +336,7 @@ onEvent('recipes', (event) => {
           id: `${id_prefex}green_stained_glass`
         },
         {
-          output: 'minecraft:red_stained_glass',,
+          output: 'minecraft:red_stained_glass',
           pattern: ['AA', 'AA'],
           key: {
             A:'quark:red_shard'
@@ -344,7 +344,7 @@ onEvent('recipes', (event) => {
           id: `${id_prefex}red_stained_glass`
         },
         {
-          output: 'minecraft:black_stained_glass',,
+          output: 'minecraft:black_stained_glass',
           pattern: ['AA', 'AA'],
           key: {
             A:'quark:black_shard'
