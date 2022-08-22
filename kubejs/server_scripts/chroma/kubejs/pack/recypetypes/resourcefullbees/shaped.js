@@ -1,5 +1,5 @@
 onEvent('recipes', (event) => {
-    const id_prefix = 'chroma:pack/refined_storage/shaped/';
+    const id_prefix = 'chroma:pack/resourcefulbees/shaped/';
 
     treeRegistry.forEach((treeCategories) => {
         if (treeCategories.type == 'tree') {
