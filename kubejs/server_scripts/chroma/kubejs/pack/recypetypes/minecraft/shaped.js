@@ -272,7 +272,7 @@ onEvent('recipes', (event) => {
           id: `${id_prefex}lime_stained_glass`
         },
         {
-          output: 'minecraft:pink_stained_glass',,
+          output: 'minecraft:pink_stained_glass',
           pattern: ['AA', 'AA'],
           key: {
             A:'quark:pink_shard'
@@ -350,7 +350,7 @@ onEvent('recipes', (event) => {
             A:'quark:black_shard'
           },
           id: `${id_prefex}black_stained_glass`
-        },
+        }
 
     ];
 
