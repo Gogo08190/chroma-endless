@@ -62,7 +62,9 @@ onEvent('item.registry', (event) => {
         'enriched_kyronite',
         'enriched_ludicrite',
         'enriched_pladium',
-        'larve'
+        'larve',
+        'rgb_jelly',
+        'rgb_glass_shard'
     ];
 
     generalItems.forEach((item) => {
