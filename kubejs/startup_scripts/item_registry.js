@@ -62,7 +62,8 @@ onEvent('item.registry', (event) => {
         'enriched_kyronite',
         'enriched_ludicrite',
         'enriched_pladium',
-        'larve'
+        'larve',
+        'ultimate_rune'
     ];
 
     generalItems.forEach((item) => {
