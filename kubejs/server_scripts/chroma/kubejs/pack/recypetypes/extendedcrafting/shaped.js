@@ -34,6 +34,15 @@ onEvent('recipes', (event) => {
               F: 'extendedcrafting:frame'
           },
           id: 'extendedcrafting:crafting_core'
+      },
+      {
+        output: 'extendedcrafting:handheld_table',
+        pattern: [' C', 'S '],
+        key: {
+          C: '#forge:workbenches',
+          S: '#forge:rods/wooden'
+        },
+        id: 'extendedcrafting:handheld_table'
       }
     ];
 
