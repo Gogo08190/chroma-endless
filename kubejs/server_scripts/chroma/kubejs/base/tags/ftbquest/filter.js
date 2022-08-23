@@ -3,6 +3,10 @@ onEvent('item.tags', (event) => {
       'extendedcrafting:singularity',
       'patchouli:guide_book',
       'immersiveengineering:blueprint',
-      'tconstruct:pickaxe_head'
+      'tconstruct:pickaxe_head',
+      'tconstruct:tool_binding',
+      'tconstruct:tool_handle',
+      'tconstruct:pickaxe',
+      'tetra:modular_double'
   ]);
 });
