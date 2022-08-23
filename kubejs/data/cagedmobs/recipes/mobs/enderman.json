@@ -1,0 +1,33 @@
+{
+	"type": "cagedmobs:mob_data",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "cagedmobs"
+		}
+	],
+	"entity": "minecraft:enderman",
+	"samplerTier": 2,
+	"environments": ["end"],
+	"growTicks": 1200,
+	"results": [
+		{
+			"chance": 0.7,
+				"output": {
+					"item": "minecraft:ender_pearl"
+				},
+				"minAmount": 1,
+				"maxAmount": 1
+		},
+    {
+			"lightning": true,
+			"chance": 0.05,
+				"output": {
+					"item": "tconstruct:enderman_head"
+				},
+				"minAmount": 1,
+				"maxAmount": 1
+		}
+	]
+
+}

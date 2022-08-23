@@ -1,0 +1,72 @@
+{
+	"type": "cagedmobs:mob_data",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "cagedmobs"
+		}
+	],
+	"entity": "minecraft:piglin",
+	"samplerTier": 2,
+	"environments": ["nether"],
+	"growTicks": 1800,
+	"results": [
+		{
+			"chance": 0.05,
+			"output": {
+				"item": "minecraft:crossbow"
+			},
+			"minAmount": 1,
+			"maxAmount": 1
+		},
+		{
+			"chance": 0.05,
+			"output": {
+				"item": "minecraft:golden_sword"
+			},
+			"minAmount": 1,
+			"maxAmount": 1
+		},
+		{
+			"chance": 0.02,
+			"output": {
+				"item": "minecraft:golden_helmet"
+			},
+			"minAmount": 1,
+			"maxAmount": 1
+		},
+		{
+			"chance": 0.02,
+			"output": {
+				"item": "minecraft:golden_boots"
+			},
+			"minAmount": 1,
+			"maxAmount": 1
+		},
+		{
+			"chance": 0.02,
+			"output": {
+				"item": "minecraft:golden_chestplate"
+			},
+			"minAmount": 1,
+			"maxAmount": 1
+		},
+		{
+			"chance": 0.02,
+			"output": {
+				"item": "minecraft:golden_leggings"
+			},
+			"minAmount": 1,
+			"maxAmount": 1
+		},
+    {
+			"lightning": true,
+			"chance": 0.05,
+				"output": {
+					"item": "tconstruct:piglin_head"
+				},
+				"minAmount": 1,
+				"maxAmount": 1
+		}
+	]
+}
