@@ -15,7 +15,7 @@
 			y: 0.0d
 			subtitle: "Logging time!"
 			description: [
-				"Cut down a tree to collect logs (any #minecraft:logs work)."
+				"Cut down a tree to collect logs (any logs work)."
 				"Pro tip: don't forget ultimine!"
 			]
 			id: "5818D79835BC71DA"
@@ -48,9 +48,9 @@
 		}
 		{
 			title: "Second of all: Flints"
-			x: 1.0d
+			x: 1.25d
 			y: 0.0d
-			description: ["Several ways to get flint, but which one to choose? Maybe JEI can tell you; although at the beginning I advise you to ultimate gravel or craft it with 3."]
+			description: ["Several ways to get flint, but which one to choose? Maybe JEI can tell you; although at the beginning we advise you to ultimine gravel or craft it with 3."]
 			id: "506463BEE4D51982"
 			tasks: [{
 				id: "1F6AD2EF12A9D3E0"
@@ -73,17 +73,218 @@
 			]
 		}
 		{
-			x: 0.5d
-			y: 1.0d
+			title: "Crafting Table"
+			x: 1.25d
+			y: 1.5d
+			shape: "square"
 			dependencies: [
 				"5818D79835BC71DA"
 				"506463BEE4D51982"
 			]
+			size: 1.25d
 			id: "1C7C41C2FA427B8F"
 			tasks: [{
 				id: "59AD33D92E98AE40"
 				type: "item"
 				item: "minecraft:crafting_table"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			dependencies: ["1C7C41C2FA427B8F"]
+			id: "73370785D28A26F0"
+			tasks: [{
+				id: "56D47065C54D2BE6"
+				type: "item"
+				item: "extendedcrafting:handheld_table"
+			}]
+			rewards: [
+				{
+					id: "54530CD1908F63AA"
+					type: "item"
+					item: "minecraft:crafting_table"
+				}
+				{
+					id: "3D11650C86D840CF"
+					type: "loot"
+					table_id: 3261296973996135385L
+				}
+			]
+		}
+		{
+			x: 5.25d
+			y: 0.5d
+			dependencies: ["1C7C41C2FA427B8F"]
+			id: "6DFB19F5CFF0864E"
+			tasks: [{
+				id: "7D5D5802321C4088"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+		}
+		{
+			title: "Tetra's Hammer"
+			x: 1.75d
+			y: 2.75d
+			description: ["With 2 sticks and 2 planks or stone (Andesite, Granite, Stone, Diorite), craft a Tetra's Hammer."]
+			dependencies: ["1C7C41C2FA427B8F"]
+			id: "7A3D3399611B2809"
+			tasks: [{
+				id: "7991411435C436AC"
+				type: "item"
+				title: "Hammer"
+				icon: {
+					id: "tetra:modular_double"
+					Count: 1b
+					tag: {
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "0a5c94b7-3a2b-49ba-aa70-8261f16570a2"
+						"double/basic_hammer_right_material": "basic_hammer/oak"
+						Damage: 0
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/basic_hammer_left_material": "basic_hammer/oak"
+					}
+				}
+				item: {
+					id: "tetra:modular_double"
+					Count: 1b
+					tag: {
+						"double/handle": "double/basic_handle"
+						Damage: 0
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+					}
+				}
+			}]
+		}
+		{
+			title: "Tetra Workbench"
+			x: 3.0d
+			y: 3.0d
+			subtitle: "REPLACE THIS WITH Quests Additions/Use Block"
+			dependencies: ["7A3D3399611B2809"]
+			id: "32DB90A8A43D1F3C"
+			tasks: [{
+				id: "31EBDD2B18A28C44"
+				type: "observation"
+				icon: "tetra:basic_workbench"
+				timer: 0L
+				observe_type: 0
+				to_observe: "tetra:basic_workbench"
+			}]
+		}
+		{
+			title: "Wooden Tools"
+			icon: {
+				id: "minecraft:wooden_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.75d
+			y: 1.75d
+			description: [
+				"Vanilla tools only have 1 durability, so if you break a block with them, they will destroy."
+				"At first, you should use Tetra or Tinkers' Construct tools instead."
+			]
+			dependencies: ["1C7C41C2FA427B8F"]
+			id: "53D7FCF8BE62ACFC"
+			tasks: [
+				{
+					id: "25EE9037AE20F5DF"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2E70715A64E7B8A5"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.25d
+			y: 4.25d
+			description: [
+				"Put your previously crafted vanilla Wooden Pickaxe into the Tetra Workbench, then click \"Repair\" and place a Plank in the slot. If you have a Wooden Axe (or another level 1 axe) in your inventory, you will be able to click \"Craft\". Your Minecraft Wooden Pickaxe is now a Tetra Wooden Pickaxe and has a durability of 59."
+				""
+				"{image:chroma:textures/quests/tetra_wooden_pickaxe_repair.png width:198 height:140 align:1}"
+			]
+			dependencies: [
+				"53D7FCF8BE62ACFC"
+				"32DB90A8A43D1F3C"
+			]
+			id: "2CA476D501E67C38"
+			tasks: [{
+				id: "7F11C1AEA85E976B"
+				type: "item"
+				item: {
+					id: "tetra:modular_double"
+					Count: 1b
+					tag: {
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_pickaxe_left"
+						"double/head_right": "double/basic_pickaxe_right"
+						"double/basic_pickaxe_right_material": "basic_pickaxe/oak"
+						"double/basic_pickaxe_left_material": "basic_pickaxe/oak"
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Cobblestone"
+			icon: "minecraft:cobblestone"
+			x: 3.5d
+			y: 5.5d
+			dependencies: ["2CA476D501E67C38"]
+			id: "0BF43EA3825CC0BA"
+			tasks: [{
+				id: "214B452BFC21411E"
+				type: "item"
+				title: "Any #forge:cobblestone"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:cobblestone"
+					}
+				}
+			}]
+		}
+		{
+			title: "To Ch. 2 (rename)"
+			x: 11.25d
+			y: 3.75d
+			shape: "gear"
+			size: 5.0d
+			id: "12F51EE93A420344"
+			tasks: [{
+				id: "08F3A49752FE1FA3"
+				type: "item"
+				item: {
+					id: "immersiveengineering:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 	]
