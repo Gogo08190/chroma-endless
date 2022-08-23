@@ -1,0 +1,15 @@
+{
+	"programs": ["envirotech:ore", "envirotech:mineral_ore"],
+	"item": {"raw:item": "emendatusenigmatica:cinnabar_end_stone_ore", "count":1},
+	"config": [
+		{
+			"weight": 190,
+			"dimensions": ["minecraft:the_end"]
+		},
+		{
+			"focus": "envirotech:brown",
+			"weight": 1520,
+			"dimensions": ["minecraft:the_end"]
+		}
+	]
+}

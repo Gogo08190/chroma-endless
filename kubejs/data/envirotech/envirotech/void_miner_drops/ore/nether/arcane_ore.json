@@ -1,0 +1,16 @@
+{
+	"programs": ["envirotech:ore", "envirotech:gemstone_ores", "envirotech:magical_ores"],
+	"item": {"raw:item": "emendatusenigmatica:arcane_netherrack_ore", "count":1},
+	"config": [
+		{
+			"weight": 400,
+			"dimensions": ["minecraft:the_nether"]
+		},
+		{
+			"focus": "envirotech:magenta",
+			"weight": 3200,
+			"dimensions": ["minecraft:the_nether"]
+		}
+	]
+}
+e

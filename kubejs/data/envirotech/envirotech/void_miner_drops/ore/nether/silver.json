@@ -1,0 +1,15 @@
+{
+	"programs": ["envirotech:ore", "envirotech:metallic_ore"],
+	"item": {"raw:item": "emendatusenigmatica:silver_netherrack_ore", "count":1},
+	"config": [
+		{
+			"weight": 381,
+			"dimensions": ["minecraft:the_nether"]
+		},
+		{
+			"focus": "envirotech:light_gray",
+			"weight": 3048,
+			"dimensions": ["minecraft:the_nether"]
+		}
+	]
+}

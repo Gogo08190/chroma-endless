@@ -1,6 +1,6 @@
 {
-  "categories": ["environmentaltech:new_miners"],
-  "program": "environmentaltech:chunk_miner",
+  "categories": ["envirotech:new_miners"],
+  "program": "envirotech:chunk_miner",
   "r": 128, "g": 23, "b": 123,
   "input": {
     "raw:itemstack": "envirocore:flash_memory"

@@ -1,0 +1,15 @@
+{
+	"programs": ["envirotech:ore", "envirotech:gemstone_ore"],
+	"item": {"raw:item": "emendatusenigmatica:diamond_end_stone_ore", "count":1},
+	"config": [
+		{
+			"weight": 218,
+			"dimensions": ["minecraft:the_end"]
+		},
+		{
+			"focus": "envirotech:cyan",
+			"weight": 1696,
+			"dimensions": ["minecraft:the_end"]
+		}
+	]
+}

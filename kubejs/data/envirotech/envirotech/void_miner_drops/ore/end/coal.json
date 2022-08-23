@@ -1,0 +1,15 @@
+{
+	"programs": ["envirotech:ore", "envirotech:mineral_ore"],
+	"item": {"raw:item": "emendatusenigmatica:coal_end_stone_ore", "count":1},
+	"config": [
+		{
+			"weight": 1000,
+			"dimensions": ["minecraft:the_end"]
+		},
+		{
+			"focus": "envirotech:black",
+			"weight": 8000,
+			"dimensions": ["minecraft:the_end"]
+		}
+	]
+}

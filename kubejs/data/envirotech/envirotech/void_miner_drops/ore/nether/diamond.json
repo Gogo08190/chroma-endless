@@ -1,0 +1,15 @@
+{
+	"programs": ["envirotech:ore", "envirotech:gemstone_ore"],
+	"item": {"raw:item": "emendatusenigmatica:diamond_netherrack_ore", "count":1},
+	"config": [
+		{
+			"weight": 218,
+			"dimensions": ["minecraft:the_nether"]
+		},
+		{
+			"focus": "envirotech:cyan",
+			"weight": 1696,
+			"dimensions": ["minecraft:the_nether"]
+		}
+	]
+}

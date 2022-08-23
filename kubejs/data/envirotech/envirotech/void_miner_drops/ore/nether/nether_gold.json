@@ -1,9 +1,7 @@
 {
 	"override": "replace",
 	"programs": ["envirotech:ore", "envirotech:metallic_ore"],
-	"item": {
-		"raw:item": "emendatusenigmatica:gold_netherrack_ore", "count":1
-	},
+	"item": {"raw:item": "emendatusenigmatica:gold_netherrack_ore", "count":1	},
 	"config": [
 		{
 			"weight": 720,

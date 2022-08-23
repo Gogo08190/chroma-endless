@@ -1,0 +1,15 @@
+{
+	"programs": ["envirotech:ore", "envirotech:gemstone_ore"],
+	"item": {"raw:item": "emendatusenigmatica:lapis_end_stone_ore", "count":1},
+	"config": [
+		{
+			"weight": 343,
+			"dimensions": ["minecraft:the_end"]
+		},
+		{
+			"focus": "envirotech:blue",
+			"weight": 2744,
+			"dimensions": ["minecraft:the_end"]
+		}
+	]
+}

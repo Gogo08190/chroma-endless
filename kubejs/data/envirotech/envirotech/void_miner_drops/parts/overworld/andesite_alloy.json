@@ -1,0 +1,15 @@
+{
+	"programs": ["envirotech:parts_miner"],
+	"item": {"raw:item": "create:andesite_alloy", "count":1},
+	"config": [
+		{
+			"weight": 33,
+			"dimensions": ["minecraft:overworld"]
+		},
+		{
+			"focus": "envirotech:grey",
+			"weight": 66,
+			"dimensions": ["minecraft:overworld"]
+		}
+	]
+}

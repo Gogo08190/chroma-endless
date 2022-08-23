@@ -9,8 +9,7 @@
 		{
 			"focus": "envirotech:brown",
 			"weight": 1520,
-			"blacklist_dimensions": true,
-			"dimensions": ["minecraft:the_nether", "minecraft:the_end"]
+			"dimensions": ["minecraft:overworld"]
 		}
 	]
 }

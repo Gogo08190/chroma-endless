@@ -1,0 +1,15 @@
+{
+	"programs": ["envirotech:parts_miner"],
+	"item": {"raw:item": "occultism:otherworld_log", "count":1},
+	"config": [
+		{
+			"weight": 33,
+			"dimensions": ["minecraft:overworld"]
+		},
+		{
+			"focus": "envirotech:black",
+			"weight": 66,
+			"dimensions": ["minecraft:overworld"]
+		}
+	]
+}

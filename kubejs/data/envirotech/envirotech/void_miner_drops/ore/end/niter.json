@@ -1,0 +1,15 @@
+{
+	"programs": ["envirotech:ore", "envirotech:mineral_ore"],
+	"item": {"raw:item": "emendatusenigmatica:potassium_nitrate_end_stone_ore", "count":1},
+	"config": [
+		{
+			"weight": 244,
+			"dimensions": ["minecraft:the_end"]
+		},
+		{
+			"focus": "envirotech:white",
+			"weight": 1952,
+			"dimensions": ["minecraft:the_end"]
+		}
+	]
+}

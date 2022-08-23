@@ -1,0 +1,15 @@
+{
+	"programs": ["envirotech:ore", "envirotech:mineral_ore"],
+	"item": {"raw:item": "emendatusenigmatica:sulfur_netherrack_ore", "count":1},
+	"config": [
+		{
+			"weight": 222,
+			"dimensions": ["minecraft:the_nether"]
+		},
+		{
+			"focus": "envirotech:yellow",
+			"weight": 1776,
+			"dimensions": ["minecraft:the_nether"]
+		}
+	]
+}

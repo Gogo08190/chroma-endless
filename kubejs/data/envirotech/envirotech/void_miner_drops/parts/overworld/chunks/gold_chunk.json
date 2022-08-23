@@ -25,8 +25,7 @@
 		},
 		{
 			"weight": 389,
-			"blacklist_dimensions": true,
-			"dimensions": ["minecraft:the_nether", "minecraft:the_end"],
+			"dimensions": ["minecraft:overworld"],
 			"biomes": [
 				"minecraft:badlands",
 				"minecraft:badlands_plateau"
@@ -35,8 +34,7 @@
 		{
 			"focus": "envirotech:yellow",
 			"weight": 3112,
-			"blacklist_dimensions": true,
-			"dimensions": ["minecraft:the_nether", "minecraft:the_end"],
+			"dimensions": ["minecraft:overworld"],
 			"biomes": [
 				"minecraft:badlands",
 				"minecraft:badlands_plateau"

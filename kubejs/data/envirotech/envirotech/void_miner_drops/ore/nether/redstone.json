@@ -1,0 +1,15 @@
+{
+	"programs": ["envirotech:ore", "envirotech:mineral_ore"],
+	"item": {"raw:item": "emendatusenigmatica:redstone_netherrack_ore", "count":1},
+	"config": [
+		{
+			"weight": 515,
+			"dimensions": ["minecraft:the_nether"]
+		},
+		{
+			"focus": "envirotech:red",
+			"weight": 4120,
+			"dimensions": ["minecraft:the_nether"]
+		}
+	]
+}

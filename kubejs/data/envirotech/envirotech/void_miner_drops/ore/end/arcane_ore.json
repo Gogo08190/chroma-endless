@@ -1,0 +1,15 @@
+{
+	"programs": ["envirotech:ore", "envirotech:gemstone_ores", "envirotech:magical_ores"],
+	"item": {"raw:item": "emendatusenigmatica:arcane_end_stone_ore", "count":1},
+	"config": [
+		{
+			"weight": 400,
+			"dimensions": ["minecraft:the_end"]
+		},
+		{
+			"focus": "envirotech:magenta",
+			"weight": 3200,
+			"dimensions": ["minecraft:the_end"]
+		}
+	]
+}

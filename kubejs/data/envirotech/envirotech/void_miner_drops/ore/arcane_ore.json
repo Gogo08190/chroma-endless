@@ -4,12 +4,12 @@
 	"item": {"raw:item": "emendatusenigmatica:arcane_ore", "count":1},
 	"config": [
 		{
-			"weight": 400
+			"weight": 400,
 			"dimensions": ["minecraft:overworld"]
 		},
 		{
 			"focus": "envirotech:magenta",
-			"weight": 3200
+			"weight": 3200,
 			"dimensions": ["minecraft:overworld"]
 		}
 	]

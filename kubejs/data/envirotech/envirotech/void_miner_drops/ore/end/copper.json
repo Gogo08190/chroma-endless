@@ -1,0 +1,15 @@
+{
+	"programs": ["envirotech:ore", "envirotech:metallic_ore"],
+	"item": {"raw:item": "emendatusenigmatica:copper_end_stone_ore", "count":1},
+	"config": [
+		{
+			"weight": 584,
+			"dimensions": ["minecraft:the_end"]
+		},
+		{
+			"focus": "envirotech:orange",
+			"weight": 4672,
+			"dimensions": ["minecraft:the_end"]
+		}
+	]
+}
