@@ -1,13 +1,15 @@
 {
 	"programs": ["envirotech:parts_miner"],
-	"item": {"raw:item": "occultism:otherstone", "count":1},
+	"item": {"raw:item": "emendatusenigmatica:coke_gem", "count":1},
 	"config": [
 		{
 			"weight": 25,
+			"tiers" : [4,5,6,7,8],
 			"dimensions": ["minecraft:overworld"]
 		},
 		{
 			"focus": "envirotech:black",
+			"tiers" : [4,5,6,7,8],
 			"weight": 50,
 			"dimensions": ["minecraft:overworld"]
 		}

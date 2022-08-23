@@ -3,12 +3,12 @@
 	"item": {"raw:item": "occultism:otherworld_log", "count":1},
 	"config": [
 		{
-			"weight": 33,
+			"weight": 25,
 			"dimensions": ["minecraft:overworld"]
 		},
 		{
 			"focus": "envirotech:black",
-			"weight": 66,
+			"weight": 50,
 			"dimensions": ["minecraft:overworld"]
 		}
 	]
