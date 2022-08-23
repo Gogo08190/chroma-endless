@@ -32,8 +32,15 @@
   "MutationData": {},
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "minecraft:red_dye",
-    "secondaryOutput": "minecraft:green_dye",
+
+    "mainOutput": "kubejs:rgb_jelly",
+    "mainOutputWeight": 1,
+    "mainOutputCount": 1,
+
+    "secondaryOutput": "kubejs:rgb_jelly",
+    "secondaryOutputWeight": 0.2,
+    "secondaryOutputCount": 2,
+
     "bottleOutput": "resourcefulbees:rainbow_honey_bottle",
     "bottleOutputWeight": 0.02
   },

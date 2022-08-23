@@ -72,8 +72,15 @@
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "quark:rainbow_rune",
+
+    "mainOutput": "kubejs:rgb_glass_shard",
+    "mainOutputWeight": 1,
     "mainOutputCount": 1,
+
+    "secondaryOutput": "kubejs:rgb_glass_shard",
+    "secondaryOutputWeight": 0.2,
+    "secondaryOutputCount": 2,
+
     "bottleOutput": "resourcefulbees:rainbow_honey_bottle",
     "bottleOutputWeight": 1
   },
