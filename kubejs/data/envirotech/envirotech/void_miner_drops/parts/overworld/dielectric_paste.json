@@ -1,13 +1,15 @@
 {
 	"programs": ["envirotech:parts_miner"],
-	"item": {"raw:item": "occultism:otherstone", "count":1},
+	"item": {"raw:item": "powah:dielectric_paste", "count":1},
 	"config": [
 		{
 			"weight": 25,
+			"tiers" : [7,8],
 			"dimensions": ["minecraft:overworld"]
 		},
 		{
 			"focus": "envirotech:black",
+			"tiers" : [7,8],
 			"weight": 50,
 			"dimensions": ["minecraft:overworld"]
 		}

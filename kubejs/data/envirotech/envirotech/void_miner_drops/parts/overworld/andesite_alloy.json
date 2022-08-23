@@ -3,12 +3,12 @@
 	"item": {"raw:item": "create:andesite_alloy", "count":1},
 	"config": [
 		{
-			"weight": 33,
+			"weight": 25,
 			"dimensions": ["minecraft:overworld"]
 		},
 		{
 			"focus": "envirotech:grey",
-			"weight": 66,
+			"weight": 50,
 			"dimensions": ["minecraft:overworld"]
 		}
 	]
