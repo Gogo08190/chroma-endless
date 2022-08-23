@@ -7,7 +7,9 @@ onEvent('recipes', (event) => {
     ];
 
     const outputRemovals = [
-
+      'projecte:low_covalence_dust',
+      'projecte:medium_covalence_dust',
+      'projecte:high_covalence_dust'
     ];
 
     idRemovals.forEach((id) => {
