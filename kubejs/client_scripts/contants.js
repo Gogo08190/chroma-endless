@@ -166,6 +166,7 @@ const itemsToHide = [
     'emendatusenigmatica:emerald_crushed',
     'emendatusenigmatica:diamond_crushed',
     'emendatusenigmatica:coal_crushed',
+    'emendatusenigmatica:nebu_crushed',
     'emendatusenigmatica:molten_zinc_bucket',
     'emendatusenigmatica:molten_uranium_bucket',
     'emendatusenigmatica:molten_tin_bucket',
@@ -198,6 +199,8 @@ const itemsToHide = [
     'emendatusenigmatica:molten_lumium_bucket',
     'emendatusenigmatica:molten_enderium_bucket',
     'emendatusenigmatica:molten_signalum_bucket',
+    'emendatusenigmatica:molten_nebu_bucket',
+    'emendatusenigmatica:nebu_dust',
     /iridium/,
     /cast_iron/,
     /peridot/,
@@ -437,7 +440,8 @@ ee_types.forEach((type) => {
         `emendatusenigmatica:sapphire_${type}`,
         `emendatusenigmatica:ruby_${type}`,
         `emendatusenigmatica:iridium_${type}`,
-        `emendatusenigmatica:peridot_${type}`
+        `emendatusenigmatica:peridot_${type}`,
+        `emendatusenigmatica:nebu_${type}`
     );
 });
 
@@ -726,7 +730,6 @@ const materialsToUnify = [
     'manyullyn',
     'hepatizon',
     'thallasium',
-    'nebu',
     'aeternium',
     'elementium',
     'gaia_spirit',

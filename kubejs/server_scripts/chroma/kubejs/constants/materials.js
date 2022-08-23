@@ -63,7 +63,6 @@ const materialsToUnify = [
     'manyullyn',
     'hepatizon',
     'thallasium',
-    'nebu',
     'aeternium',
     'elementium',
     'gaia_spirit',
@@ -93,7 +92,6 @@ const metals = [
     'iesnium',
     'iron',
     'lead',
-    'nebu',
     'nickel',
     'osmium',
     'regalium',
@@ -111,7 +109,6 @@ const meltingPoints = {
     thallasium: { temp: 800 },
     signalum: { temp: 1272 },
     regalium: { temp: 620 },
-    nebu: { temp: 1400 },
     lumium: { temp: 1354 },
     iesnium: { temp: 850 },
     froststeel: { temp: 860 },
@@ -187,10 +184,6 @@ const oreProcessingSecondaries = {
     zinc: {
         secondary: 'gold',
         createProcessingTime: 350
-    },
-    nebu: {
-        secondary: 'uranium',
-        createProcessingTime: 400
     },
     cobalt: {
         secondary: 'iron',
