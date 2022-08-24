@@ -424,6 +424,7 @@
 			}]
 		}
 		{
+			title: "&6Bitumen&r"
 			x: 1.25d
 			y: 10.5d
 			shape: "pentagon"
@@ -441,6 +442,7 @@
 			}]
 		}
 		{
+			title: "&6Cinnabar&r"
 			x: 2.0d
 			y: 9.75d
 			shape: "pentagon"
@@ -458,6 +460,7 @@
 			}]
 		}
 		{
+			title: "&6Coal&r"
 			x: 1.25d
 			y: 9.0d
 			shape: "pentagon"
@@ -475,6 +478,7 @@
 			}]
 		}
 		{
+			title: "&6Uraninite&r"
 			x: 0.5d
 			y: 9.75d
 			shape: "pentagon"
@@ -492,6 +496,7 @@
 			}]
 		}
 		{
+			title: "&8Iron&r"
 			x: 0.25d
 			y: 8.75d
 			shape: "hexagon"
@@ -509,6 +514,7 @@
 			}]
 		}
 		{
+			title: "&8Lapis Lazuli&r"
 			x: -0.5d
 			y: 9.5d
 			shape: "hexagon"
@@ -526,6 +532,7 @@
 			}]
 		}
 		{
+			title: "&8Copper&r"
 			x: 0.5d
 			y: 11.25d
 			shape: "hexagon"
@@ -543,6 +550,7 @@
 			}]
 		}
 		{
+			title: "&8Aluminum&r"
 			x: 2.25d
 			y: 8.75d
 			shape: "hexagon"
@@ -560,6 +568,7 @@
 			}]
 		}
 		{
+			title: "&8Osmium&r"
 			x: 3.0d
 			y: 9.5d
 			shape: "hexagon"
@@ -577,6 +586,7 @@
 			}]
 		}
 		{
+			title: "&8Tin&r"
 			x: 2.0d
 			y: 11.25d
 			shape: "hexagon"
@@ -594,6 +604,7 @@
 			}]
 		}
 		{
+			title: "&8Fluorite&r"
 			x: -0.25d
 			y: 10.5d
 			shape: "hexagon"
@@ -611,6 +622,7 @@
 			}]
 		}
 		{
+			title: "&8Apatite&r"
 			x: 2.75d
 			y: 10.5d
 			shape: "hexagon"
@@ -628,6 +640,7 @@
 			}]
 		}
 		{
+			title: "&8Potassium Nitrate&r"
 			x: 0.25d
 			y: 12.25d
 			shape: "hexagon"
@@ -645,6 +658,7 @@
 			}]
 		}
 		{
+			title: "&8Source Gem&r"
 			x: 2.25d
 			y: 12.25d
 			shape: "hexagon"
@@ -662,6 +676,7 @@
 			}]
 		}
 		{
+			title: "&8Dimensional Shard&r"
 			x: 1.25d
 			y: 12.0d
 			shape: "hexagon"
@@ -701,6 +716,7 @@
 			}]
 		}
 		{
+			title: "&7Gold&r"
 			x: -0.75d
 			y: 8.5d
 			shape: "octagon"
@@ -718,6 +734,7 @@
 			}]
 		}
 		{
+			title: "&7Diamond&r"
 			x: -1.25d
 			y: 10.25d
 			shape: "octagon"
@@ -735,6 +752,7 @@
 			}]
 		}
 		{
+			title: "&7Emerald&r"
 			x: -1.25d
 			y: 12.25d
 			shape: "octagon"
@@ -752,6 +770,7 @@
 			}]
 		}
 		{
+			title: "&7Redstone&r"
 			x: 3.25d
 			y: 8.5d
 			shape: "octagon"
@@ -768,6 +787,7 @@
 			}]
 		}
 		{
+			title: "&7Nether Quartz&r"
 			x: 3.75d
 			y: 10.25d
 			shape: "octagon"
@@ -785,6 +805,7 @@
 			}]
 		}
 		{
+			title: "&7Silver&r"
 			x: 3.75d
 			y: 12.25d
 			shape: "octagon"
@@ -802,6 +823,7 @@
 			}]
 		}
 		{
+			title: "&7Lead&r"
 			x: -1.5d
 			y: 9.25d
 			shape: "octagon"
@@ -819,6 +841,7 @@
 			}]
 		}
 		{
+			title: "&7Nickel&r"
 			x: -0.5d
 			y: 11.5d
 			shape: "octagon"
@@ -836,6 +859,7 @@
 			}]
 		}
 		{
+			title: "&7Uranium&r"
 			x: 4.0d
 			y: 9.25d
 			shape: "octagon"
@@ -853,6 +877,7 @@
 			}]
 		}
 		{
+			title: "&7Zinc&r"
 			x: 3.0d
 			y: 11.5d
 			shape: "octagon"
@@ -870,6 +895,7 @@
 			}]
 		}
 		{
+			title: "&7Cobalt&r"
 			x: -1.5d
 			y: 11.25d
 			shape: "octagon"
@@ -887,6 +913,7 @@
 			}]
 		}
 		{
+			title: "&7Draconium&r"
 			x: 4.0d
 			y: 11.25d
 			shape: "octagon"
