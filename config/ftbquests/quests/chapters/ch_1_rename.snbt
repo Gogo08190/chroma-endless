@@ -253,8 +253,8 @@
 		}
 		{
 			title: "To Ch. 2 (rename)"
-			x: 12.5d
-			y: 11.25d
+			x: 22.5d
+			y: 12.5d
 			shape: "gear"
 			hide: true
 			size: 5.0d
@@ -1009,6 +1009,8 @@
 		{
 			x: 0.25d
 			y: 14.75d
+			subtitle: "Fast Food like McDonald's®"
+			description: ["A Smoker works like a Furnace, but only cooks food and run twice as fast."]
 			dependencies: ["60E0E583C1CBCE56"]
 			id: "14083B579D63FAF8"
 			tasks: [{
@@ -1241,11 +1243,17 @@
 			description: [
 				"Sneak (by default Left Shift) and Use (by default Right Click) for use it."
 				""
+				""
 				"→ In void for change mode :"
-				"   - Merge > Use on two adjacents chests will merge them.               &4&l&nDON'T USE THIS ON DIFFERENTS CHESTS, IT COULD CRASH YOUR GAME OR SERVER!&r"
+				""
+				"   - Merge > Use on two adjacents chests will merge them.              &4&l&nDON'T USE THIS ON DIFFERENTS CHESTS, IT COULD CRASH YOUR&r                  &4&l&nGAME OR SERVER!&r"
+				""
 				"   - Split > The opposite of merge; use on a double chest to split it into two single chests."
+				""
 				"   - Rotate > Use to rotate a storage block."
+				""
 				"   - Swap theme > Use to change the style of a storage block."
+				""
 				""
 				"→ On a chest to apply the selected mode to it."
 			]
@@ -1267,8 +1275,9 @@
 		{
 			title: "Smeltery"
 			icon: "tconstruct:smeltery_controller"
-			x: 4.0d
+			x: 3.5d
 			y: 14.75d
+			dependencies: ["25090E1CB30B5131"]
 			id: "4FF742939987793B"
 			tasks: [
 				{
@@ -1309,21 +1318,24 @@
 			]
 		}
 		{
-			x: 3.0d
+			title: "Seared Bricks"
+			x: 2.25d
 			y: 14.75d
+			dependencies: ["60E0E583C1CBCE56"]
 			id: "25090E1CB30B5131"
 			tasks: [{
-				id: "0479B6A4D29ACD0F"
+				id: "5A8C02CC1E501307"
 				type: "item"
-				item: "tconstruct:grout"
+				item: "tconstruct:seared_brick"
 				count: 64L
 			}]
 		}
 		{
 			title: "Foundry"
 			icon: "tconstruct:foundry_controller"
-			x: 6.0d
-			y: 14.75d
+			x: 9.75d
+			y: 16.25d
+			dependencies: ["11525ED89B361FB8"]
 			id: "0F1BD6C918F471B1"
 			tasks: [
 				{
@@ -1394,8 +1406,10 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 14.75d
+			title: "Nether Grout"
+			x: 8.5d
+			y: 16.25d
+			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "11525ED89B361FB8"
 			tasks: [{
 				id: "517378CFB6ECFC36"
@@ -1406,8 +1420,9 @@
 		}
 		{
 			icon: "tconstruct:crafting_station"
-			x: 7.0d
+			x: 4.75d
 			y: 14.75d
+			dependencies: ["4FF742939987793B"]
 			id: "26331567035E0017"
 			tasks: [
 				{
@@ -1515,8 +1530,9 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 6.0d
 			y: 14.75d
+			dependencies: ["26331567035E0017"]
 			id: "6FE5CBD8A8FF0431"
 			tasks: [{
 				id: "239ECC5B5FF55428"
@@ -1865,7 +1881,7 @@
 		}
 		{
 			x: 8.75d
-			y: 8.75d
+			y: 8.5d
 			dependencies: ["761BAE3E76AB71A3"]
 			id: "25C9708B3163FAE2"
 			tasks: [{
@@ -1977,9 +1993,9 @@
 			}]
 		}
 		{
-			x: 8.75d
+			x: 10.0d
 			y: 9.75d
-			dependencies: ["3441111B8198CC9D"]
+			dependencies: ["410AC414B2B492D1"]
 			id: "761BAE3E76AB71A3"
 			tasks: [{
 				id: "250B3DF7EF1694AE"
@@ -1988,7 +2004,7 @@
 			}]
 		}
 		{
-			x: 7.75d
+			x: 6.0d
 			y: 9.75d
 			dependencies: ["4FF742939987793B"]
 			id: "3441111B8198CC9D"
@@ -1996,6 +2012,290 @@
 				id: "6667979E694CF489"
 				type: "item"
 				item: "create:andesite_alloy"
+			}]
+		}
+		{
+			x: 7.25d
+			y: 16.25d
+			dependencies: [
+				"6770AB2A85C49A63"
+				"0F01F4CCB3915082"
+			]
+			id: "3A3CDBD5FF1985DB"
+			tasks: [{
+				id: "6C902F1FE4656987"
+				type: "dimension"
+				title: "Go to &2The Nether&r"
+				dimension: "minecraft:the_nether"
+			}]
+		}
+		{
+			title: "Flint and _____"
+			x: 4.75d
+			y: 16.25d
+			dependencies: ["26331567035E0017"]
+			id: "6770AB2A85C49A63"
+			tasks: [{
+				id: "403E5F81136B97B9"
+				type: "item"
+				title: "Flint and Steel or Bronze"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "supplementaries:fire_sources"
+					}
+				}
+			}]
+		}
+		{
+			title: "Gold Cast"
+			icon: "tconstruct:blank_cast"
+			x: 3.5d
+			y: 16.25d
+			dependencies: ["4FF742939987793B"]
+			id: "3F047B28738897A0"
+			tasks: [{
+				id: "62D0F17BF463D8EC"
+				type: "item"
+				title: "Gold Cast"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tconstruct:casts/gold"
+					}
+				}
+			}]
+		}
+		{
+			title: "&bObsidian&r"
+			x: 6.0d
+			y: 16.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"1802A196B75EE8D9"
+				"171E5CDF2CB9C763"
+			]
+			dependency_requirement: "one_completed"
+			id: "0F01F4CCB3915082"
+			tasks: [{
+				id: "7FEF20DF46B2E091"
+				type: "item"
+				item: "minecraft:obsidian"
+				count: 10L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 8.75d
+			dependencies: ["26B79EAEB1274ED9"]
+			id: "171E5CDF2CB9C763"
+			tasks: [{
+				id: "30EF86E8C0FB1160"
+				type: "checkmark"
+				title: "Diamond Pickaxe or equivalent"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 8.75d
+			dependencies: ["2AB9254E7A945A22"]
+			id: "1802A196B75EE8D9"
+			tasks: [{
+				id: "63794326DA100B1F"
+				type: "checkmark"
+				title: "Diamond Pickaxe or equivalent"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 8.5d
+			subtitle: "Fats Ore like...well...nothing I think"
+			description: ["A Blast Furnace works like a Furnace, but only cooks ores (and other specifics things) and run twice as fast."]
+			dependencies: ["761BAE3E76AB71A3"]
+			id: "0372B8AFF3B231B0"
+			tasks: [{
+				id: "1A66E7B3D0F79227"
+				type: "item"
+				item: "minecraft:blast_furnace"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 9.75d
+			dependencies: ["410AC414B2B492D1"]
+			id: "5C545750FEB2314B"
+			tasks: [{
+				id: "2BBB678D2A3FD881"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 9.75d
+			dependencies: ["410AC414B2B492D1"]
+			id: "2F7EB9DBC6CE7522"
+			tasks: [{
+				id: "43246AA9DFBF2706"
+				type: "item"
+				item: "create:deployer"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 9.75d
+			dependencies: ["3441111B8198CC9D"]
+			id: "15267232FEECB502"
+			tasks: [{
+				id: "0C4F2149058B7A2E"
+				type: "item"
+				item: "create:shaft"
+			}]
+		}
+		{
+			icon: "create:basin"
+			x: 8.0d
+			y: 9.75d
+			dependencies: ["3441111B8198CC9D"]
+			id: "3892F7C2CF403F2F"
+			tasks: [
+				{
+					id: "3A27361DAF1A7B08"
+					type: "item"
+					item: "create:basin"
+				}
+				{
+					id: "45E54B1F61D2B4E7"
+					type: "item"
+					item: "create:depot"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 9.75d
+			dependencies: ["3441111B8198CC9D"]
+			id: "410AC414B2B492D1"
+			tasks: [{
+				id: "15D774EBD0A077FD"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+		}
+		{
+			icon: "create:hand_crank"
+			x: 7.0d
+			y: 10.75d
+			dependencies: ["15267232FEECB502"]
+			id: "5A15F4F1EFF567AC"
+			tasks: [
+				{
+					id: "30E54BA3FD9BA370"
+					type: "item"
+					item: "create:hand_crank"
+				}
+				{
+					id: "6F35AF72D1A5FED5"
+					type: "item"
+					item: "create:copper_valve_handle"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 11.75d
+			dependencies: ["5A15F4F1EFF567AC"]
+			id: "54EA65146A735963"
+			tasks: [{
+				id: "559960DB3A96954B"
+				type: "item"
+				item: "create:water_wheel"
+				count: 3L
+			}]
+		}
+		{
+			x: 10.25d
+			y: 12.75d
+			dependencies: ["1C195EE74039A47B"]
+			id: "683E4920521BDDA7"
+			tasks: [{
+				id: "6A8A6F5F438CC92A"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+		}
+		{
+			icon: "create:windmill_bearing"
+			x: 9.0d
+			y: 12.75d
+			dependencies: ["54EA65146A735963"]
+			id: "1C195EE74039A47B"
+			tasks: [
+				{
+					id: "15E20EF75C33B871"
+					type: "item"
+					item: "create:windmill_bearing"
+				}
+				{
+					id: "2A95AA267BD34BBA"
+					type: "item"
+					item: "create:white_sail"
+					count: 20L
+				}
+			]
+		}
+		{
+			icon: "create:furnace_engine"
+			x: 11.5d
+			y: 12.75d
+			dependencies: ["683E4920521BDDA7"]
+			id: "68484812D253D45A"
+			tasks: [
+				{
+					id: "735531A7C527723C"
+					type: "item"
+					item: "create:furnace_engine"
+				}
+				{
+					id: "0C9DB078527C8A34"
+					type: "item"
+					item: "create:flywheel"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 11.0d
+			dependencies: ["761BAE3E76AB71A3"]
+			id: "2A83D8FCCCFE217C"
+			tasks: [{
+				id: "201592C6BFFE96D3"
+				type: "item"
+				item: "create:brass_casing"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 11.0d
+			dependencies: ["2A83D8FCCCFE217C"]
+			id: "414F5E97448B5286"
+			tasks: [{
+				id: "44D04FC6AB310884"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 11.0d
+			dependencies: ["414F5E97448B5286"]
+			id: "5145861F42CD2EE3"
+			tasks: [{
+				id: "362467AE97B8FB6E"
+				type: "item"
+				item: "create:crushing_wheel"
 			}]
 		}
 	]

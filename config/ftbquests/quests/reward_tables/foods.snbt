@@ -5,13 +5,26 @@
 	icon: "quark:golden_apple_crate"
 	loot_size: 1
 	rewards: [
-		{ item: "minecraft:apple", count: 8 }
-		{ item: "minecraft:mushroom_stew", count: 2 }
-		{ item: "minecraft:bread", count: 8 }
-		{ item: "minecraft:cooked_porkchop", count: 8 }
+		{ item: "minecraft:apple" }
+		{ item: "minecraft:mushroom_stew" }
+		{ item: "minecraft:bread" }
+		{ item: "minecraft:cooked_porkchop" }
 		{ item: "minecraft:golden_apple" }
-		{ item: "minecraft:cooked_cod", count: 8 }
-		{ item: "minecraft:cooked_salmon", count: 8 }
-		{ item: "minecraft:cake" }
+		{ item: "minecraft:tropical_fish" }
+		{ item: "minecraft:cooked_cod" }
+		{ item: "minecraft:cooked_salmon" }
+		{ item: "minecraft:cookie" }
+		{ item: "minecraft:melon_slice" }
+		{ item: "minecraft:cooked_beef" }
+		{ item: "minecraft:cooked_chicken" }
+		{ item: "minecraft:carrot" }
+		{ item: "minecraft:baked_potato" }
+		{ item: "minecraft:golden_carrot" }
+		{ item: "minecraft:pumpkin_pie" }
+		{ item: "minecraft:cooked_rabbit" }
+		{ item: "minecraft:rabbit_stew" }
+		{ item: "minecraft:cooked_mutton" }
+		{ item: "minecraft:beetroot_soup" }
+		{ item: "minecraft:sweet_berries" }
 	]
 }
