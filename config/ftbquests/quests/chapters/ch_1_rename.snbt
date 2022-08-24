@@ -40,8 +40,8 @@
 					count: 16
 				}
 				{
-					id: "65290836CDA1488A"
-					type: "loot"
+					id: "515F0FCF114DABA7"
+					type: "random"
 					table_id: 3261296973996135385L
 				}
 			]
@@ -50,11 +50,13 @@
 			title: "Second of all: Flints"
 			x: 1.25d
 			y: 0.0d
+			subtitle: "Careful, you risk burn everything."
 			description: ["Several ways to get flint, but which one to choose? Maybe JEI can tell you; although at the beginning we advise you to ultimine gravel or craft it with 3."]
 			id: "506463BEE4D51982"
 			tasks: [{
 				id: "1F6AD2EF12A9D3E0"
 				type: "item"
+				title: "2x Flints"
 				item: "minecraft:flint"
 				count: 2L
 			}]
@@ -66,8 +68,8 @@
 					count: 8
 				}
 				{
-					id: "2C9C5E3368A10A58"
-					type: "loot"
+					id: "7CEEEBB18A7DC5A5"
+					type: "random"
 					table_id: 3261296973996135385L
 				}
 			]
@@ -76,12 +78,11 @@
 			title: "Crafting Table"
 			x: 1.25d
 			y: 1.5d
-			shape: "square"
+			subtitle: "The beginning of serious things."
 			dependencies: [
 				"5818D79835BC71DA"
 				"506463BEE4D51982"
 			]
-			size: 1.25d
 			id: "1C7C41C2FA427B8F"
 			tasks: [{
 				id: "59AD33D92E98AE40"
@@ -92,7 +93,9 @@
 		{
 			x: -1.0d
 			y: 1.5d
+			subtitle: "Store your crafting table in your pocket."
 			dependencies: ["1C7C41C2FA427B8F"]
+			optional: true
 			id: "73370785D28A26F0"
 			tasks: [{
 				id: "56D47065C54D2BE6"
@@ -106,70 +109,48 @@
 					item: "minecraft:crafting_table"
 				}
 				{
-					id: "3D11650C86D840CF"
-					type: "loot"
+					id: "6EAE37584A138427"
+					type: "random"
 					table_id: 3261296973996135385L
 				}
 			]
 		}
 		{
-			x: 5.25d
-			y: 0.5d
-			dependencies: ["1C7C41C2FA427B8F"]
-			id: "6DFB19F5CFF0864E"
-			tasks: [{
-				id: "7D5D5802321C4088"
-				type: "item"
-				item: "minecraft:furnace"
-			}]
-		}
-		{
 			title: "Tetra's Hammer"
-			x: 1.75d
-			y: 2.75d
-			description: ["With 2 sticks and 2 planks or stone (Andesite, Granite, Stone, Diorite), craft a Tetra's Hammer."]
-			dependencies: ["1C7C41C2FA427B8F"]
+			x: 2.5d
+			y: 4.75d
+			description: ["With 2 sticks and 2 planks, craft a Tetra's Hammer."]
+			dependencies: ["4F9CEE6539022521"]
 			id: "7A3D3399611B2809"
 			tasks: [{
-				id: "7991411435C436AC"
+				id: "79F9270891EB823F"
 				type: "item"
-				title: "Hammer"
-				icon: {
+				item: {
 					id: "tetra:modular_double"
 					Count: 1b
 					tag: {
 						"double/handle": "double/basic_handle"
 						"double/head_left": "double/basic_hammer_left"
 						"double/head_right": "double/basic_hammer_right"
-						id: "0a5c94b7-3a2b-49ba-aa70-8261f16570a2"
 						"double/basic_hammer_right_material": "basic_hammer/oak"
 						Damage: 0
 						"double/basic_handle_material": "basic_handle/stick"
 						"double/basic_hammer_left_material": "basic_hammer/oak"
 					}
 				}
-				item: {
-					id: "tetra:modular_double"
-					Count: 1b
-					tag: {
-						"double/handle": "double/basic_handle"
-						Damage: 0
-						"double/head_left": "double/basic_hammer_left"
-						"double/head_right": "double/basic_hammer_right"
-					}
-				}
 			}]
 		}
 		{
 			title: "Tetra Workbench"
-			x: 3.0d
-			y: 3.0d
-			subtitle: "REPLACE THIS WITH Quests Additions/Use Block"
+			x: 3.75d
+			y: 5.0d
+			description: ["Right click with Tetra's Hammer on Crafting Table."]
 			dependencies: ["7A3D3399611B2809"]
 			id: "32DB90A8A43D1F3C"
 			tasks: [{
 				id: "31EBDD2B18A28C44"
 				type: "observation"
+				title: "Workbench"
 				icon: "tetra:basic_workbench"
 				timer: 0L
 				observe_type: 0
@@ -178,20 +159,10 @@
 		}
 		{
 			title: "Wooden Tools"
-			icon: {
-				id: "minecraft:wooden_pickaxe"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: 2.75d
-			y: 1.75d
-			description: [
-				"Vanilla tools only have 1 durability, so if you break a block with them, they will destroy."
-				"At first, you should use Tetra or Tinkers' Construct tools instead."
-			]
-			dependencies: ["1C7C41C2FA427B8F"]
+			x: 3.25d
+			y: 3.75d
+			subtitle: "Don't use this!"
+			dependencies: ["4F9CEE6539022521"]
 			id: "53D7FCF8BE62ACFC"
 			tasks: [
 				{
@@ -219,8 +190,9 @@
 			]
 		}
 		{
-			x: 3.25d
-			y: 4.25d
+			x: 4.25d
+			y: 6.25d
+			subtitle: "Finally a working tool."
 			description: [
 				"Put your previously crafted vanilla Wooden Pickaxe into the Tetra Workbench, then click \"Repair\" and place a Plank in the slot. If you have a Wooden Axe (or another level 1 axe) in your inventory, you will be able to click \"Craft\". Your Minecraft Wooden Pickaxe is now a Tetra Wooden Pickaxe and has a durability of 59."
 				""
@@ -244,6 +216,7 @@
 						"double/basic_pickaxe_right_material": "basic_pickaxe/oak"
 						"double/basic_pickaxe_left_material": "basic_pickaxe/oak"
 						Damage: 0
+						"double/basic_handle_material": "basic_handle/stick"
 					}
 				}
 			}]
@@ -251,14 +224,18 @@
 		{
 			title: "Cobblestone"
 			icon: "minecraft:cobblestone"
-			x: 3.5d
-			y: 5.5d
-			dependencies: ["2CA476D501E67C38"]
+			x: 1.25d
+			y: 7.5d
+			dependencies: [
+				"2CA476D501E67C38"
+				"311247214F1D95B3"
+			]
+			dependency_requirement: "one_completed"
 			id: "0BF43EA3825CC0BA"
 			tasks: [{
 				id: "214B452BFC21411E"
 				type: "item"
-				title: "Any #forge:cobblestone"
+				title: "16x Cobblestones"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -266,13 +243,15 @@
 						value: "forge:cobblestone"
 					}
 				}
+				count: 16L
 			}]
 		}
 		{
 			title: "To Ch. 2 (rename)"
-			x: 11.25d
-			y: 3.75d
+			x: 12.5d
+			y: 11.25d
 			shape: "gear"
+			hide: true
 			size: 5.0d
 			id: "12F51EE93A420344"
 			tasks: [{
@@ -283,6 +262,1206 @@
 					Count: 1b
 					tag: {
 						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "tetra:textures/mob_effect/small_strength.png"
+				}
+			}
+			x: 1.25d
+			y: 2.75d
+			shape: "diamond"
+			description: [
+				"Vanilla tools only have 1 durability, so if you break a block with them, they will destroy."
+				"At first, you should use Tetra or Tinkers' Construct tools instead."
+				"In the following quests, there are two paths: Tetra and Tinkers' Construct. You can do both, or just one, and maybe the other later; but in no case will you be blocked for the rest."
+				""
+				"Tetra is at the right, and Tinkers' Construct at the left."
+			]
+			dependencies: ["1C7C41C2FA427B8F"]
+			id: "4F9CEE6539022521"
+			tasks: [{
+				id: "5905919B35D651A5"
+				type: "checkmark"
+				title: "Tetra / Tinkers' Construct"
+			}]
+		}
+		{
+			title: "Tinkers' Stations"
+			x: 0.0d
+			y: 4.75d
+			dependencies: ["4F9CEE6539022521"]
+			id: "1E198C450382D37F"
+			tasks: [
+				{
+					id: "0A6F4773E9E68217"
+					type: "item"
+					item: "tconstruct:part_builder"
+				}
+				{
+					id: "3B618C986116C0DD"
+					type: "item"
+					item: "tconstruct:tinker_station"
+				}
+			]
+		}
+		{
+			title: "Patterns"
+			x: -0.75d
+			y: 3.75d
+			dependencies: ["4F9CEE6539022521"]
+			id: "4CA0051417A86918"
+			tasks: [{
+				id: "13F06C8D3E995E47"
+				type: "item"
+				title: "3x Patterns"
+				item: "tconstruct:pattern"
+				count: 3L
+			}]
+		}
+		{
+			title: "Wooden Pickaxe Parts"
+			x: -1.25d
+			y: 5.0d
+			subtitle: "Wait...that pickaxe doesn't work!"
+			dependencies: [
+				"1E198C450382D37F"
+				"4CA0051417A86918"
+			]
+			id: "72B3CFA86B00A3F2"
+			tasks: [
+				{
+					id: "79D2944035185965"
+					type: "item"
+					item: {
+						id: "tconstruct:pickaxe_head"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+				{
+					id: "4E5AF00AE0836653"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+				{
+					id: "23E4F8FD05BEC76E"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_binding"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.75d
+			y: 6.25d
+			subtitle: "Oh, that's better."
+			dependencies: ["72B3CFA86B00A3F2"]
+			id: "311247214F1D95B3"
+			tasks: [{
+				id: "34E5E08365596A54"
+				type: "item"
+				item: {
+					id: "tconstruct:pickaxe"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 0.0f
+							"tconstruct:attack_speed": 1.2f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [{
+							name: "tconstruct:piercing"
+							level: 1s
+						}]
+						tic_materials: [ ]
+						Damage: 0
+						tic_persistent_data: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 1.25d
+			y: 10.5d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"311247214F1D95B3"
+				"2CA476D501E67C38"
+			]
+			dependency_requirement: "one_completed"
+			id: "2F13516D0BF41E98"
+			tasks: [{
+				id: "328275770A0936D5"
+				type: "item"
+				item: "emendatusenigmatica:bitumen_gem"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 9.75d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"311247214F1D95B3"
+				"2CA476D501E67C38"
+			]
+			dependency_requirement: "one_completed"
+			id: "39282948263FCF67"
+			tasks: [{
+				id: "7F4573A304764D8A"
+				type: "item"
+				item: "tardis:cinnabar"
+			}]
+		}
+		{
+			x: 1.25d
+			y: 9.0d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"311247214F1D95B3"
+				"2CA476D501E67C38"
+			]
+			dependency_requirement: "one_completed"
+			id: "1A641FA1C6E549DB"
+			tasks: [{
+				id: "320B0C11386DCE8F"
+				type: "item"
+				item: "minecraft:coal"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 9.75d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"311247214F1D95B3"
+				"2CA476D501E67C38"
+			]
+			dependency_requirement: "one_completed"
+			id: "7CE5A37CB1D7F967"
+			tasks: [{
+				id: "72D76092A0F5255A"
+				type: "item"
+				item: "powah:uraninite_raw"
+			}]
+		}
+		{
+			x: 0.25d
+			y: 8.75d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"11EFAC50282A683E"
+				"491972CCE5DDE06C"
+			]
+			dependency_requirement: "one_completed"
+			id: "4055881864FF87C5"
+			tasks: [{
+				id: "720842180A6EFB2B"
+				type: "item"
+				item: "emendatusenigmatica:iron_chunk"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 9.5d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"11EFAC50282A683E"
+				"491972CCE5DDE06C"
+			]
+			dependency_requirement: "one_completed"
+			id: "50DB58A0B18629D9"
+			tasks: [{
+				id: "7D52E60AE4219CBC"
+				type: "item"
+				item: "minecraft:lapis_lazuli"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 11.25d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"11EFAC50282A683E"
+				"491972CCE5DDE06C"
+			]
+			dependency_requirement: "one_completed"
+			id: "4339BD51E04343A5"
+			tasks: [{
+				id: "0115C672497D08A4"
+				type: "item"
+				item: "emendatusenigmatica:copper_chunk"
+			}]
+		}
+		{
+			x: 2.25d
+			y: 8.75d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"11EFAC50282A683E"
+				"491972CCE5DDE06C"
+			]
+			dependency_requirement: "one_completed"
+			id: "682D148DB0B5522E"
+			tasks: [{
+				id: "79028EFBCDF5F6F5"
+				type: "item"
+				item: "emendatusenigmatica:aluminum_chunk"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 9.5d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"11EFAC50282A683E"
+				"491972CCE5DDE06C"
+			]
+			dependency_requirement: "one_completed"
+			id: "3AD73289DB7D473E"
+			tasks: [{
+				id: "417576DBD6EDDC20"
+				type: "item"
+				item: "emendatusenigmatica:osmium_chunk"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 11.25d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"11EFAC50282A683E"
+				"491972CCE5DDE06C"
+			]
+			dependency_requirement: "one_completed"
+			id: "7DD76F9B6426DCA3"
+			tasks: [{
+				id: "6FCA20B8F8C31882"
+				type: "item"
+				item: "emendatusenigmatica:tin_chunk"
+			}]
+		}
+		{
+			x: -0.25d
+			y: 10.5d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"11EFAC50282A683E"
+				"491972CCE5DDE06C"
+			]
+			dependency_requirement: "one_completed"
+			id: "01204D8CC1E02844"
+			tasks: [{
+				id: "73A2BD333F42F3CF"
+				type: "item"
+				item: "emendatusenigmatica:fluorite_gem"
+			}]
+		}
+		{
+			x: 2.75d
+			y: 10.5d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"11EFAC50282A683E"
+				"491972CCE5DDE06C"
+			]
+			dependency_requirement: "one_completed"
+			id: "77499DE54CBB863E"
+			tasks: [{
+				id: "74390BE80E8F9137"
+				type: "item"
+				item: "emendatusenigmatica:apatite_gem"
+			}]
+		}
+		{
+			x: 0.25d
+			y: 12.25d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"11EFAC50282A683E"
+				"491972CCE5DDE06C"
+			]
+			dependency_requirement: "one_completed"
+			id: "6973FBAEF1EF28DC"
+			tasks: [{
+				id: "3CBD93D66CBF8B2A"
+				type: "item"
+				item: "emendatusenigmatica:potassium_nitrate_gem"
+			}]
+		}
+		{
+			x: 2.25d
+			y: 12.25d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"11EFAC50282A683E"
+				"491972CCE5DDE06C"
+			]
+			dependency_requirement: "one_completed"
+			id: "577AC7DCEDCE1DE0"
+			tasks: [{
+				id: "267E6F2B5039FFF0"
+				type: "item"
+				item: "emendatusenigmatica:arcane_gem"
+			}]
+		}
+		{
+			x: 1.25d
+			y: 12.0d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"11EFAC50282A683E"
+				"491972CCE5DDE06C"
+			]
+			dependency_requirement: "one_completed"
+			id: "6792EC1B4CA2A2EA"
+			tasks: [{
+				id: "0CC1A5930EAD1678"
+				type: "item"
+				item: "emendatusenigmatica:dimensional_gem"
+			}]
+		}
+		{
+			x: -1.75d
+			y: 7.5d
+			dependencies: ["311247214F1D95B3"]
+			id: "11EFAC50282A683E"
+			tasks: [{
+				id: "40C08E7A481C70B0"
+				type: "checkmark"
+				title: "Stone Pickaxe or equivalent"
+			}]
+		}
+		{
+			x: 4.25d
+			y: 7.5d
+			dependencies: ["2CA476D501E67C38"]
+			id: "491972CCE5DDE06C"
+			tasks: [{
+				id: "1DC705601CB08327"
+				type: "checkmark"
+				title: "Stone Pickaxe or equivalent"
+			}]
+		}
+		{
+			x: -0.75d
+			y: 8.5d
+			shape: "octagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"26B79EAEB1274ED9"
+				"2AB9254E7A945A22"
+			]
+			dependency_requirement: "one_completed"
+			id: "412DC2EA2FB47B68"
+			tasks: [{
+				id: "537F9DB085A66BD8"
+				type: "item"
+				item: "emendatusenigmatica:gold_chunk"
+			}]
+		}
+		{
+			x: -1.25d
+			y: 10.25d
+			shape: "octagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"26B79EAEB1274ED9"
+				"2AB9254E7A945A22"
+			]
+			dependency_requirement: "one_completed"
+			id: "0976209956D1ADCD"
+			tasks: [{
+				id: "54591D0BE8B38873"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+		{
+			x: -1.25d
+			y: 12.25d
+			shape: "octagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"26B79EAEB1274ED9"
+				"2AB9254E7A945A22"
+			]
+			dependency_requirement: "one_completed"
+			id: "63B277F4C396E4F7"
+			tasks: [{
+				id: "2DB94DDE60BB621E"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 3.25d
+			y: 8.5d
+			shape: "octagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"26B79EAEB1274ED9"
+				"2AB9254E7A945A22"
+			]
+			id: "52A9D4F9E61253F4"
+			tasks: [{
+				id: "29A1E3878C8462CB"
+				type: "item"
+				item: "minecraft:redstone"
+			}]
+		}
+		{
+			x: 3.75d
+			y: 10.25d
+			shape: "octagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"26B79EAEB1274ED9"
+				"2AB9254E7A945A22"
+			]
+			dependency_requirement: "one_completed"
+			id: "0A5605FD0BE42BAF"
+			tasks: [{
+				id: "134355C7D75FC7F3"
+				type: "item"
+				item: "minecraft:quartz"
+			}]
+		}
+		{
+			x: 3.75d
+			y: 12.25d
+			shape: "octagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"26B79EAEB1274ED9"
+				"2AB9254E7A945A22"
+			]
+			dependency_requirement: "one_completed"
+			id: "6F24F6ECE4AAE751"
+			tasks: [{
+				id: "776CDEB62E01985D"
+				type: "item"
+				item: "emendatusenigmatica:silver_chunk"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 9.25d
+			shape: "octagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"26B79EAEB1274ED9"
+				"2AB9254E7A945A22"
+			]
+			dependency_requirement: "one_completed"
+			id: "2EBB702869B9D13C"
+			tasks: [{
+				id: "58BAD7E9AC3B1955"
+				type: "item"
+				item: "emendatusenigmatica:lead_chunk"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 11.5d
+			shape: "octagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"26B79EAEB1274ED9"
+				"2AB9254E7A945A22"
+			]
+			dependency_requirement: "one_completed"
+			id: "1B35982B907DD91A"
+			tasks: [{
+				id: "51586FFCE6302A03"
+				type: "item"
+				item: "emendatusenigmatica:nickel_chunk"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 9.25d
+			shape: "octagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"26B79EAEB1274ED9"
+				"2AB9254E7A945A22"
+			]
+			dependency_requirement: "one_completed"
+			id: "6B8F54AE6DE83F01"
+			tasks: [{
+				id: "4F156B40F11BDBFA"
+				type: "item"
+				item: "emendatusenigmatica:uranium_chunk"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 11.5d
+			shape: "octagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"26B79EAEB1274ED9"
+				"2AB9254E7A945A22"
+			]
+			dependency_requirement: "one_completed"
+			id: "36E35F066EAA5687"
+			tasks: [{
+				id: "643CD94E1FEE4777"
+				type: "item"
+				item: "emendatusenigmatica:zinc_chunk"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 11.25d
+			shape: "octagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"26B79EAEB1274ED9"
+				"2AB9254E7A945A22"
+			]
+			dependency_requirement: "one_completed"
+			id: "1599025DD921CA80"
+			tasks: [{
+				id: "165857D0CC60892D"
+				type: "item"
+				item: "emendatusenigmatica:cobalt_chunk"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 11.25d
+			shape: "octagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"26B79EAEB1274ED9"
+				"2AB9254E7A945A22"
+			]
+			dependency_requirement: "one_completed"
+			id: "4A523013734520E4"
+			tasks: [{
+				id: "1817225CC9D8FBE7"
+				type: "item"
+				item: "draconicevolution:draconium_dust"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 7.5d
+			dependencies: ["11EFAC50282A683E"]
+			id: "26B79EAEB1274ED9"
+			tasks: [{
+				id: "1F38AD356D6437F3"
+				type: "checkmark"
+				title: "Iron Pickaxe or equivalent"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 7.5d
+			dependencies: ["491972CCE5DDE06C"]
+			id: "2AB9254E7A945A22"
+			tasks: [{
+				id: "34781E57640B6562"
+				type: "checkmark"
+				title: "Iron Pickaxe or equivalent"
+			}]
+		}
+		{
+			title: "Chest"
+			icon: "minecraft:chest"
+			x: 6.5d
+			y: -0.5d
+			dependencies: ["1C7C41C2FA427B8F"]
+			id: "1195924B8477153E"
+			tasks: [{
+				id: "64A0D1FF2C6605AB"
+				type: "item"
+				title: "Any #forge:chests/wooden"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:chests/wooden"
+					}
+				}
+			}]
+		}
+		{
+			title: "Barrel"
+			icon: "minecraft:barrel"
+			x: 6.5d
+			y: 3.5d
+			dependencies: ["1C7C41C2FA427B8F"]
+			id: "245C994669BC5E13"
+			tasks: [{
+				id: "4FBC2188BE8E72AD"
+				type: "item"
+				title: "Any #forge:barrels/wooden"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:barrels/wooden"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.25d
+			y: 13.75d
+			dependencies: [
+				"1A641FA1C6E549DB"
+				"0BF43EA3825CC0BA"
+			]
+			id: "60E0E583C1CBCE56"
+			tasks: [{
+				id: "0AEE69AB984906DD"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+		}
+		{
+			x: 0.25d
+			y: 14.75d
+			dependencies: ["60E0E583C1CBCE56"]
+			id: "14083B579D63FAF8"
+			tasks: [{
+				id: "07C7703EF7BF2EE3"
+				type: "item"
+				item: "minecraft:smoker"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -0.5d
+			dependencies: [
+				"1195924B8477153E"
+				"03EAD32BE1AE8175"
+			]
+			dependency_requirement: "one_completed"
+			id: "1D737B5F0D753F63"
+			tasks: [{
+				id: "6386AEAF94CB058A"
+				type: "item"
+				item: "expandedstorage:iron_chest"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -0.5d
+			dependencies: [
+				"1D737B5F0D753F63"
+				"16492556DF507589"
+				"191E8D0698B8CCC8"
+			]
+			dependency_requirement: "one_completed"
+			id: "05FC94690F688BF2"
+			tasks: [{
+				id: "6EC01DA3CAD39C05"
+				type: "item"
+				item: "expandedstorage:gold_chest"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -0.5d
+			dependencies: [
+				"05FC94690F688BF2"
+				"3A354DE6F129E2D6"
+				"172F3F7F34AB2A2A"
+				"6B7648A5BEBBCB28"
+			]
+			dependency_requirement: "one_completed"
+			id: "625E6B9889DC2AD5"
+			tasks: [{
+				id: "4C758AA5A2B36481"
+				type: "item"
+				item: "expandedstorage:diamond_chest"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -0.5d
+			dependencies: [
+				"625E6B9889DC2AD5"
+				"158FA02851D868F2"
+				"5D3F71B18979BF63"
+				"18A0C9A10058C174"
+				"7422539476421C6B"
+			]
+			dependency_requirement: "one_completed"
+			id: "23DED41BF2B77267"
+			tasks: [{
+				id: "7DB408D4018092A8"
+				type: "item"
+				item: "expandedstorage:obsidian_chest"
+			}]
+		}
+		{
+			x: 16.5d
+			y: -0.5d
+			dependencies: [
+				"23DED41BF2B77267"
+				"77EA5F43CF373746"
+				"47C98E87B7E3B6E6"
+				"4CE9BE63846F1B78"
+				"2BA2104E25F79F0F"
+				"70C347D676333970"
+			]
+			dependency_requirement: "one_completed"
+			id: "67A314359477CE0D"
+			tasks: [{
+				id: "5078188812830472"
+				type: "item"
+				item: "expandedstorage:netherite_chest"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.5d
+			dependencies: [
+				"245C994669BC5E13"
+				"03EAD32BE1AE8175"
+			]
+			dependency_requirement: "one_completed"
+			id: "1D0D84318A63C568"
+			tasks: [{
+				id: "04692AA22F41A8D6"
+				type: "item"
+				item: "expandedstorage:iron_barrel"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 3.5d
+			dependencies: [
+				"1D0D84318A63C568"
+				"16492556DF507589"
+				"191E8D0698B8CCC8"
+			]
+			dependency_requirement: "one_completed"
+			id: "25D086FD8A52A841"
+			tasks: [{
+				id: "35CAE5379F7B2E03"
+				type: "item"
+				item: "expandedstorage:gold_barrel"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 3.5d
+			dependencies: [
+				"25D086FD8A52A841"
+				"3A354DE6F129E2D6"
+				"172F3F7F34AB2A2A"
+				"6B7648A5BEBBCB28"
+			]
+			dependency_requirement: "one_completed"
+			id: "7DCD4F808954C828"
+			tasks: [{
+				id: "112AD8AA77B57F8C"
+				type: "item"
+				item: "expandedstorage:diamond_barrel"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 3.5d
+			dependencies: [
+				"7DCD4F808954C828"
+				"158FA02851D868F2"
+				"5D3F71B18979BF63"
+				"18A0C9A10058C174"
+				"7422539476421C6B"
+			]
+			dependency_requirement: "one_completed"
+			id: "17BE6E6E08D65929"
+			tasks: [{
+				id: "7FC0F38A3D375148"
+				type: "item"
+				item: "expandedstorage:obsidian_barrel"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 3.5d
+			dependencies: [
+				"17BE6E6E08D65929"
+				"77EA5F43CF373746"
+				"47C98E87B7E3B6E6"
+				"4CE9BE63846F1B78"
+				"2BA2104E25F79F0F"
+				"70C347D676333970"
+			]
+			dependency_requirement: "one_completed"
+			id: "28B19C23A8F8E8B3"
+			tasks: [{
+				id: "49EAD441D49A4202"
+				type: "item"
+				item: "expandedstorage:netherite_barrel"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.5d
+			dependencies: [
+				"1195924B8477153E"
+				"245C994669BC5E13"
+			]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "03EAD32BE1AE8175"
+			tasks: [{
+				id: "6244F1038641449D"
+				type: "item"
+				item: "expandedstorage:wood_to_iron_conversion_kit"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 1.5d
+			dependencies: [
+				"1D737B5F0D753F63"
+				"1D0D84318A63C568"
+			]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "16492556DF507589"
+			tasks: [{
+				id: "3184629EACAFEA04"
+				type: "item"
+				item: "expandedstorage:iron_to_gold_conversion_kit"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 2.5d
+			dependencies: [
+				"05FC94690F688BF2"
+				"25D086FD8A52A841"
+			]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "3A354DE6F129E2D6"
+			tasks: [{
+				id: "70F40A003937F25E"
+				type: "item"
+				item: "expandedstorage:gold_to_diamond_conversion_kit"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 0.5d
+			dependencies: [
+				"625E6B9889DC2AD5"
+				"7DCD4F808954C828"
+			]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "158FA02851D868F2"
+			tasks: [{
+				id: "139FF605F2ADC280"
+				type: "item"
+				item: "expandedstorage:diamond_to_obsidian_conversion_kit"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 1.5d
+			dependencies: [
+				"23DED41BF2B77267"
+				"17BE6E6E08D65929"
+			]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "77EA5F43CF373746"
+			tasks: [{
+				id: "316766B6D54E315D"
+				type: "item"
+				item: "expandedstorage:obsidian_to_netherite_conversion_kit"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.5d
+			dependencies: ["03EAD32BE1AE8175"]
+			optional: true
+			id: "191E8D0698B8CCC8"
+			tasks: [{
+				id: "36C170D441D6D756"
+				type: "item"
+				item: "expandedstorage:wood_to_gold_conversion_kit"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.5d
+			dependencies: ["191E8D0698B8CCC8"]
+			optional: true
+			id: "6B7648A5BEBBCB28"
+			tasks: [{
+				id: "2C335A3108D2FDB5"
+				type: "item"
+				item: "expandedstorage:wood_to_diamond_conversion_kit"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 0.5d
+			dependencies: ["6B7648A5BEBBCB28"]
+			optional: true
+			id: "7422539476421C6B"
+			tasks: [{
+				id: "5F09A26E114F51DB"
+				type: "item"
+				item: "expandedstorage:wood_to_obsidian_conversion_kit"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 0.5d
+			dependencies: ["7422539476421C6B"]
+			optional: true
+			id: "70C347D676333970"
+			tasks: [{
+				id: "44CD750E50F7A694"
+				type: "item"
+				item: "expandedstorage:wood_to_netherite_conversion_kit"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 1.5d
+			dependencies: ["16492556DF507589"]
+			optional: true
+			id: "172F3F7F34AB2A2A"
+			tasks: [{
+				id: "68306446CF99EA8D"
+				type: "item"
+				item: "expandedstorage:iron_to_diamond_conversion_kit"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 1.5d
+			dependencies: ["172F3F7F34AB2A2A"]
+			optional: true
+			id: "18A0C9A10058C174"
+			tasks: [{
+				id: "714E6A3784AF0179"
+				type: "item"
+				item: "expandedstorage:iron_to_obsidian_conversion_kit"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 1.5d
+			dependencies: ["18A0C9A10058C174"]
+			optional: true
+			id: "2BA2104E25F79F0F"
+			tasks: [{
+				id: "2770360C9B32AE36"
+				type: "item"
+				item: "expandedstorage:iron_to_netherite_conversion_kit"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 2.5d
+			dependencies: ["3A354DE6F129E2D6"]
+			optional: true
+			id: "5D3F71B18979BF63"
+			tasks: [{
+				id: "1F3FAE60B550411B"
+				type: "item"
+				item: "expandedstorage:gold_to_obsidian_conversion_kit"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 2.5d
+			dependencies: ["5D3F71B18979BF63"]
+			optional: true
+			id: "4CE9BE63846F1B78"
+			tasks: [{
+				id: "610A9E6E5FBFAEFB"
+				type: "item"
+				item: "expandedstorage:gold_to_netherite_conversion_kit"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 0.5d
+			dependencies: ["158FA02851D868F2"]
+			optional: true
+			id: "47C98E87B7E3B6E6"
+			tasks: [{
+				id: "0124386FB5F98A39"
+				type: "item"
+				item: "expandedstorage:diamond_to_netherite_conversion_kit"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 4.5d
+			dependencies: ["706E5E859FBA4310"]
+			id: "05CAF0142A173FFB"
+			tasks: [{
+				id: "7D716E3EA082C28E"
+				type: "item"
+				item: "metalbarrels:iron_barrel"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 4.5d
+			dependencies: [
+				"05CAF0142A173FFB"
+				"0C67EB5500C699B0"
+			]
+			dependency_requirement: "one_completed"
+			id: "5250A6AE4D2B7F99"
+			tasks: [{
+				id: "1F769574469CA108"
+				type: "item"
+				item: "metalbarrels:gold_barrel"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 4.5d
+			dependencies: [
+				"5250A6AE4D2B7F99"
+				"0C67EB5500C699B0"
+			]
+			dependency_requirement: "one_completed"
+			id: "2521D07B715F240F"
+			tasks: [{
+				id: "6872259617059D0D"
+				type: "item"
+				item: "metalbarrels:diamond_barrel"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 4.5d
+			dependencies: ["2521D07B715F240F"]
+			id: "1331E03259C78833"
+			tasks: [{
+				id: "188034EFFCF1AD1A"
+				type: "item"
+				item: "metalbarrels:obsidian_barrel"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 4.5d
+			dependencies: ["1331E03259C78833"]
+			id: "4997C7D199537229"
+			tasks: [{
+				id: "6FDE1FDD05FD0BE0"
+				type: "item"
+				item: "metalbarrels:netherite_barrel"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 4.5d
+			dependencies: ["245C994669BC5E13"]
+			id: "706E5E859FBA4310"
+			tasks: [{
+				id: "36591B65331B1D7D"
+				type: "item"
+				item: "metalbarrels:copper_barrel"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 5.5d
+			dependencies: ["05CAF0142A173FFB"]
+			optional: true
+			id: "0C67EB5500C699B0"
+			tasks: [{
+				id: "53A50006E4CC3D40"
+				type: "item"
+				item: "metalbarrels:silver_barrel"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 5.5d
+			dependencies: ["2521D07B715F240F"]
+			optional: true
+			id: "351E1BB011A3AE54"
+			tasks: [{
+				id: "5C77F56EEC93E23C"
+				type: "item"
+				item: "metalbarrels:crystal_barrel"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.5d
+			description: [
+				"Sneak (by default Left Shift) and Use (by default Right Click) for use it."
+				""
+				"→ In void for change mode :"
+				"   - Merge > Use on two adjacents chests will merge them.               &4&l&nDON'T USE THIS ON DIFFERENTS CHESTS, IT COULD CRASH YOUR GAME OR SERVER!&r"
+				"   - Split > The opposite of merge; use on a double chest to split it into two single chests."
+				"   - Rotate > Use to rotate a storage block."
+				"   - Swap theme > Use to change the style of a storage block."
+				""
+				"→ On a chest to apply the selected mode to it."
+			]
+			dependencies: ["1195924B8477153E"]
+			optional: true
+			id: "2C8FACF586696C1B"
+			tasks: [{
+				id: "1923B2A1006AB24F"
+				type: "item"
+				item: {
+					id: "expandedstorage:chest_mutator"
+					Count: 1b
+					tag: {
+						mode: 0b
 					}
 				}
 			}]

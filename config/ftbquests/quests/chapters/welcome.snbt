@@ -4,13 +4,13 @@
 	order_index: 1
 	filename: "welcome"
 	title: "Welcome!"
-	icon: "avaritia:infinity_catalyst"
+	icon: "kubejs:gogo"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			title: "Welcome to Chroma Endless!"
-			icon: "avaritia:infinity_catalyst"
+			icon: "kubejs:gogo"
 			x: 0.0d
 			y: 0.0d
 			shape: "gear"
@@ -88,10 +88,10 @@
 		}
 		{
 			icon: {
-				id: "aquaculture:neptunium_pickaxe"
+				id: "ftbquests:custom_icon"
 				Count: 1b
 				tag: {
-					Damage: 0
+					Icon: "ftbultimine:textures/item/ultiminer.png"
 				}
 			}
 			x: 2.0d
@@ -105,7 +105,15 @@
 			}]
 		}
 		{
-			icon: "powah:energy_cell_creative"
+			icon: {
+				id: "modularrouters:creative_module"
+				Count: 1b
+				tag: {
+					modularrouters: {
+						ModuleFilter: { }
+					}
+				}
+			}
 			x: 1.5d
 			y: 1.25d
 			dependencies: ["1416718F40ED7569"]
@@ -166,7 +174,13 @@
 			}]
 		}
 		{
-			icon: "kubejs:discord"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/item/discord.png"
+				}
+			}
 			x: 0.5d
 			y: 2.0d
 			subtitle: "Gogo08's Discord server."

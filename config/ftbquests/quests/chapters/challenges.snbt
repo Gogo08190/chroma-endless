@@ -1,0 +1,254 @@
+{
+	id: "5708E205477E3B79"
+	group: ""
+	order_index: 3
+	filename: "challenges"
+	title: "Challenges"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "kubejs:textures/item/challenges.png"
+		}
+	}
+	default_quest_shape: "diamond"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "diamond"
+			size: 2.0d
+			id: "24A8204ED4BB7EAD"
+			tasks: [{
+				id: "4B22D023A9B02565"
+				type: "kill"
+				title: "Kill 100x Zombies"
+				icon: "minecraft:zombie_head"
+				entity: "minecraft:zombie"
+				value: 100L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			shape: "diamond"
+			size: 2.0d
+			id: "52F130C2C86475B1"
+			tasks: [{
+				id: "4192EE332D53944A"
+				type: "kill"
+				title: "Kill 100x Skeletons"
+				icon: "minecraft:skeleton_skull"
+				entity: "minecraft:skeleton"
+				value: 100L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			shape: "diamond"
+			size: 2.0d
+			id: "21BDC384557E2EAE"
+			tasks: [{
+				id: "7BC3AEC69C7A4418"
+				type: "kill"
+				title: "Kill 100x Creepers"
+				icon: "minecraft:creeper_head"
+				entity: "minecraft:creeper"
+				value: 100L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			shape: "diamond"
+			size: 2.0d
+			id: "688C92C8832FC0DD"
+			tasks: [{
+				id: "78B578213A2D2B39"
+				type: "kill"
+				title: "Kill 100x Wither Skeletons"
+				icon: "minecraft:wither_skeleton_skull"
+				entity: "minecraft:wither_skeleton"
+				value: 100L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			shape: "diamond"
+			size: 3.0d
+			id: "0D0A78198C0DA642"
+			tasks: [{
+				id: "4A358FCE58624600"
+				type: "kill"
+				title: "Kill 10x Ender Dragons"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 10L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.0d
+			shape: "diamond"
+			size: 3.0d
+			id: "26BCBD05E801AA0F"
+			tasks: [{
+				id: "1EF518A22B4DEB0C"
+				type: "kill"
+				title: "Kill 10x Withers"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/entity_icon/wither/wither.png"
+					}
+				}
+				entity: "minecraft:wither"
+				value: 10L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			size: 2.0d
+			id: "564EABB527A3B77E"
+			tasks: [{
+				id: "3D598B07527C5ACF"
+				type: "kill"
+				title: "Kill 100x Endermans"
+				icon: "tconstruct:enderman_head"
+				entity: "minecraft:enderman"
+				value: 100L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			size: 2.0d
+			id: "3E6CD0BD929FFC81"
+			tasks: [{
+				id: "4A6D09902A272FD9"
+				type: "kill"
+				title: "Kill 100x Spiders"
+				icon: "tconstruct:spider_head"
+				entity: "minecraft:spider"
+				value: 100L
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			size: 2.0d
+			id: "7AA6F60D91C728FD"
+			tasks: [{
+				id: "141CC994FB0887F5"
+				type: "kill"
+				title: "Kill 100x Cave Spiders"
+				icon: "tconstruct:cave_spider_head"
+				entity: "minecraft:cave_spider"
+				value: 100L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			size: 2.0d
+			id: "1533F800C1FEF331"
+			tasks: [{
+				id: "67FFE1A140349B1B"
+				type: "kill"
+				title: "Kill 100x Blazes"
+				icon: "tconstruct:blaze_head"
+				entity: "minecraft:blaze"
+				value: 100L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			size: 2.0d
+			id: "23059119159CE6AB"
+			tasks: [{
+				id: "073A22668C1AC07E"
+				type: "kill"
+				title: "Kill 100x Drowneds"
+				icon: "tconstruct:drowned_head"
+				entity: "minecraft:drowned"
+				value: 100L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.0d
+			size: 2.0d
+			id: "1FC98CDB16839E18"
+			tasks: [{
+				id: "75B25CDA704855DC"
+				type: "kill"
+				title: "Kill 100x Husks"
+				icon: "tconstruct:husk_head"
+				entity: "minecraft:husk"
+				value: 100L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			size: 2.0d
+			id: "3C260363DE1C840F"
+			tasks: [{
+				id: "38144B3502CEF57B"
+				type: "kill"
+				title: "Kill 100x Zombified Piglins"
+				icon: "tconstruct:zombified_piglin_head"
+				entity: "minecraft:zombified_piglin"
+				value: 100L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -2.0d
+			size: 2.0d
+			id: "1DD8D16E4A9B98DB"
+			tasks: [{
+				id: "43AABC4E576582AA"
+				type: "kill"
+				title: "Kill 100x Strays"
+				icon: "tconstruct:stray_head"
+				entity: "minecraft:stray"
+				value: 100L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			size: 2.0d
+			id: "18239F623A6E3348"
+			tasks: [{
+				id: "4562F14AB3EC3E92"
+				type: "kill"
+				title: "Kill 80x Piglins"
+				icon: "tconstruct:piglin_head"
+				entity: "minecraft:piglin"
+				value: 100L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			size: 2.0d
+			id: "1D88AC25039055AB"
+			tasks: [{
+				id: "6E3969BD29BBF53D"
+				type: "kill"
+				title: "Kill 20x Piglin Brutes"
+				icon: "tconstruct:piglin_brute_head"
+				entity: "minecraft:piglin_brute"
+				value: 100L
+			}]
+		}
+	]
+}
