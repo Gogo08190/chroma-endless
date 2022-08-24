@@ -14,7 +14,7 @@ onEvent('recipes', (event) => {
       pattern: ['AAA', 'ABA', 'AAA'],
       key: {
         A: '#forge:gems/coal_coke',
-        B: 'metalbarrels:obsidian_barrel'
+        B: '#chroma:obsidian_barrel'
       },
       id: 'dankstorage:1'
     },
