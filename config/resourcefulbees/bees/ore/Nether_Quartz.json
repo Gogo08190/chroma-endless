@@ -67,7 +67,11 @@
     "lightLevel": "NIGHT"
   },
   "BreedData": {
-    "isBreedable": true
+    "isBreedable": true,
+    "feedItem": "forge:storage_blocks/quartz",
+    "feedAmount": 5,
+    "childGrowthDelay": -24000,
+    "breedDelay": 6000
   },
   "TraitData": {
     "hasTraits": true
