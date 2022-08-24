@@ -18,6 +18,7 @@
 				"Cut down a tree to collect logs (any logs work)."
 				"Pro tip: don't forget ultimine!"
 			]
+			size: 1.25d
 			id: "5818D79835BC71DA"
 			tasks: [{
 				id: "56E33A3A0C9966C3"
@@ -52,6 +53,7 @@
 			y: 0.0d
 			subtitle: "Careful, you risk burn everything."
 			description: ["Several ways to get flint, but which one to choose? Maybe JEI can tell you; although at the beginning we advise you to ultimine gravel or craft it with 3."]
+			size: 1.25d
 			id: "506463BEE4D51982"
 			tasks: [{
 				id: "1F6AD2EF12A9D3E0"
@@ -78,15 +80,18 @@
 			title: "Crafting Table"
 			x: 1.25d
 			y: 1.5d
+			shape: "square"
 			subtitle: "The beginning of serious things."
 			dependencies: [
 				"5818D79835BC71DA"
 				"506463BEE4D51982"
 			]
+			size: 1.5d
 			id: "1C7C41C2FA427B8F"
 			tasks: [{
 				id: "59AD33D92E98AE40"
 				type: "item"
+				title: "Crafting Table"
 				item: "minecraft:crafting_table"
 			}]
 		}
@@ -386,18 +391,34 @@
 					tag: {
 						tic_multipliers: { }
 						tic_stats: {
-							"tconstruct:attack_damage": 0.0f
 							"tconstruct:attack_speed": 1.2f
+							"tconstruct:mining_speed": 2.0f
+							"tconstruct:attack_damage": 0.0f
+							"tconstruct:harvest_level": 0.0f
+							"tconstruct:durability": 60.0f
 						}
 						tic_broken: 0b
 						HideFlags: 3
-						tic_modifiers: [{
-							name: "tconstruct:piercing"
-							level: 1s
-						}]
-						tic_materials: [ ]
+						tic_modifiers: [
+							{
+								name: "tconstruct:cultivated"
+								level: 3s
+							}
+							{
+								name: "tconstruct:piercing"
+								level: 1s
+							}
+						]
+						tic_materials: [
+							"tconstruct:wood"
+							"tconstruct:wood"
+							"tconstruct:wood"
+						]
 						Damage: 0
-						tic_persistent_data: { }
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 3
+						}
 					}
 				}
 			}]
@@ -433,7 +454,7 @@
 			tasks: [{
 				id: "7F4573A304764D8A"
 				type: "item"
-				item: "tardis:cinnabar"
+				item: "emendatusenigmatica:cinnabar_chunk"
 			}]
 		}
 		{
@@ -907,14 +928,14 @@
 		{
 			title: "Chest"
 			icon: "minecraft:chest"
-			x: 6.5d
-			y: -0.5d
+			x: 4.75d
+			y: 1.0d
 			dependencies: ["1C7C41C2FA427B8F"]
 			id: "1195924B8477153E"
 			tasks: [{
 				id: "64A0D1FF2C6605AB"
 				type: "item"
-				title: "Any #forge:chests/wooden"
+				title: "Chest"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -927,8 +948,8 @@
 		{
 			title: "Barrel"
 			icon: "minecraft:barrel"
-			x: 6.5d
-			y: 3.5d
+			x: 4.75d
+			y: 2.0d
 			dependencies: ["1C7C41C2FA427B8F"]
 			id: "245C994669BC5E13"
 			tasks: [{
@@ -970,12 +991,9 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: -0.5d
-			dependencies: [
-				"1195924B8477153E"
-				"03EAD32BE1AE8175"
-			]
+			x: 5.75d
+			y: 1.0d
+			dependencies: ["1195924B8477153E"]
 			dependency_requirement: "one_completed"
 			id: "1D737B5F0D753F63"
 			tasks: [{
@@ -985,13 +1003,9 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: -0.5d
-			dependencies: [
-				"1D737B5F0D753F63"
-				"16492556DF507589"
-				"191E8D0698B8CCC8"
-			]
+			x: 6.75d
+			y: 1.0d
+			dependencies: ["1D737B5F0D753F63"]
 			dependency_requirement: "one_completed"
 			id: "05FC94690F688BF2"
 			tasks: [{
@@ -1001,14 +1015,9 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: -0.5d
-			dependencies: [
-				"05FC94690F688BF2"
-				"3A354DE6F129E2D6"
-				"172F3F7F34AB2A2A"
-				"6B7648A5BEBBCB28"
-			]
+			x: 7.75d
+			y: 1.0d
+			dependencies: ["05FC94690F688BF2"]
 			dependency_requirement: "one_completed"
 			id: "625E6B9889DC2AD5"
 			tasks: [{
@@ -1018,15 +1027,9 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: -0.5d
-			dependencies: [
-				"625E6B9889DC2AD5"
-				"158FA02851D868F2"
-				"5D3F71B18979BF63"
-				"18A0C9A10058C174"
-				"7422539476421C6B"
-			]
+			x: 8.75d
+			y: 1.0d
+			dependencies: ["625E6B9889DC2AD5"]
 			dependency_requirement: "one_completed"
 			id: "23DED41BF2B77267"
 			tasks: [{
@@ -1036,16 +1039,9 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: -0.5d
-			dependencies: [
-				"23DED41BF2B77267"
-				"77EA5F43CF373746"
-				"47C98E87B7E3B6E6"
-				"4CE9BE63846F1B78"
-				"2BA2104E25F79F0F"
-				"70C347D676333970"
-			]
+			x: 9.75d
+			y: 1.0d
+			dependencies: ["23DED41BF2B77267"]
 			dependency_requirement: "one_completed"
 			id: "67A314359477CE0D"
 			tasks: [{
@@ -1055,12 +1051,9 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 3.5d
-			dependencies: [
-				"245C994669BC5E13"
-				"03EAD32BE1AE8175"
-			]
+			x: 5.75d
+			y: 2.0d
+			dependencies: ["245C994669BC5E13"]
 			dependency_requirement: "one_completed"
 			id: "1D0D84318A63C568"
 			tasks: [{
@@ -1070,13 +1063,9 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 3.5d
-			dependencies: [
-				"1D0D84318A63C568"
-				"16492556DF507589"
-				"191E8D0698B8CCC8"
-			]
+			x: 6.75d
+			y: 2.0d
+			dependencies: ["1D0D84318A63C568"]
 			dependency_requirement: "one_completed"
 			id: "25D086FD8A52A841"
 			tasks: [{
@@ -1086,14 +1075,9 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: 3.5d
-			dependencies: [
-				"25D086FD8A52A841"
-				"3A354DE6F129E2D6"
-				"172F3F7F34AB2A2A"
-				"6B7648A5BEBBCB28"
-			]
+			x: 7.75d
+			y: 2.0d
+			dependencies: ["25D086FD8A52A841"]
 			dependency_requirement: "one_completed"
 			id: "7DCD4F808954C828"
 			tasks: [{
@@ -1103,15 +1087,9 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: 3.5d
-			dependencies: [
-				"7DCD4F808954C828"
-				"158FA02851D868F2"
-				"5D3F71B18979BF63"
-				"18A0C9A10058C174"
-				"7422539476421C6B"
-			]
+			x: 8.75d
+			y: 2.0d
+			dependencies: ["7DCD4F808954C828"]
 			dependency_requirement: "one_completed"
 			id: "17BE6E6E08D65929"
 			tasks: [{
@@ -1121,16 +1099,9 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: 3.5d
-			dependencies: [
-				"17BE6E6E08D65929"
-				"77EA5F43CF373746"
-				"47C98E87B7E3B6E6"
-				"4CE9BE63846F1B78"
-				"2BA2104E25F79F0F"
-				"70C347D676333970"
-			]
+			x: 9.75d
+			y: 2.0d
+			dependencies: ["17BE6E6E08D65929"]
 			dependency_requirement: "one_completed"
 			id: "28B19C23A8F8E8B3"
 			tasks: [{
@@ -1140,208 +1111,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 0.5d
-			dependencies: [
-				"1195924B8477153E"
-				"245C994669BC5E13"
-			]
-			dependency_requirement: "one_completed"
-			optional: true
-			id: "03EAD32BE1AE8175"
-			tasks: [{
-				id: "6244F1038641449D"
-				type: "item"
-				item: "expandedstorage:wood_to_iron_conversion_kit"
-			}]
-		}
-		{
-			x: 9.5d
-			y: 1.5d
-			dependencies: [
-				"1D737B5F0D753F63"
-				"1D0D84318A63C568"
-			]
-			dependency_requirement: "one_completed"
-			optional: true
-			id: "16492556DF507589"
-			tasks: [{
-				id: "3184629EACAFEA04"
-				type: "item"
-				item: "expandedstorage:iron_to_gold_conversion_kit"
-			}]
-		}
-		{
-			x: 11.5d
-			y: 2.5d
-			dependencies: [
-				"05FC94690F688BF2"
-				"25D086FD8A52A841"
-			]
-			dependency_requirement: "one_completed"
-			optional: true
-			id: "3A354DE6F129E2D6"
-			tasks: [{
-				id: "70F40A003937F25E"
-				type: "item"
-				item: "expandedstorage:gold_to_diamond_conversion_kit"
-			}]
-		}
-		{
-			x: 13.5d
-			y: 0.5d
-			dependencies: [
-				"625E6B9889DC2AD5"
-				"7DCD4F808954C828"
-			]
-			dependency_requirement: "one_completed"
-			optional: true
-			id: "158FA02851D868F2"
-			tasks: [{
-				id: "139FF605F2ADC280"
-				type: "item"
-				item: "expandedstorage:diamond_to_obsidian_conversion_kit"
-			}]
-		}
-		{
-			x: 15.5d
-			y: 1.5d
-			dependencies: [
-				"23DED41BF2B77267"
-				"17BE6E6E08D65929"
-			]
-			dependency_requirement: "one_completed"
-			optional: true
-			id: "77EA5F43CF373746"
-			tasks: [{
-				id: "316766B6D54E315D"
-				type: "item"
-				item: "expandedstorage:obsidian_to_netherite_conversion_kit"
-			}]
-		}
-		{
-			x: 8.5d
-			y: 0.5d
-			dependencies: ["03EAD32BE1AE8175"]
-			optional: true
-			id: "191E8D0698B8CCC8"
-			tasks: [{
-				id: "36C170D441D6D756"
-				type: "item"
-				item: "expandedstorage:wood_to_gold_conversion_kit"
-			}]
-		}
-		{
-			x: 9.5d
-			y: 0.5d
-			dependencies: ["191E8D0698B8CCC8"]
-			optional: true
-			id: "6B7648A5BEBBCB28"
-			tasks: [{
-				id: "2C335A3108D2FDB5"
-				type: "item"
-				item: "expandedstorage:wood_to_diamond_conversion_kit"
-			}]
-		}
-		{
-			x: 10.5d
-			y: 0.5d
-			dependencies: ["6B7648A5BEBBCB28"]
-			optional: true
-			id: "7422539476421C6B"
-			tasks: [{
-				id: "5F09A26E114F51DB"
-				type: "item"
-				item: "expandedstorage:wood_to_obsidian_conversion_kit"
-			}]
-		}
-		{
-			x: 11.5d
-			y: 0.5d
-			dependencies: ["7422539476421C6B"]
-			optional: true
-			id: "70C347D676333970"
-			tasks: [{
-				id: "44CD750E50F7A694"
-				type: "item"
-				item: "expandedstorage:wood_to_netherite_conversion_kit"
-			}]
-		}
-		{
-			x: 10.5d
-			y: 1.5d
-			dependencies: ["16492556DF507589"]
-			optional: true
-			id: "172F3F7F34AB2A2A"
-			tasks: [{
-				id: "68306446CF99EA8D"
-				type: "item"
-				item: "expandedstorage:iron_to_diamond_conversion_kit"
-			}]
-		}
-		{
-			x: 11.5d
-			y: 1.5d
-			dependencies: ["172F3F7F34AB2A2A"]
-			optional: true
-			id: "18A0C9A10058C174"
-			tasks: [{
-				id: "714E6A3784AF0179"
-				type: "item"
-				item: "expandedstorage:iron_to_obsidian_conversion_kit"
-			}]
-		}
-		{
-			x: 12.5d
-			y: 1.5d
-			dependencies: ["18A0C9A10058C174"]
-			optional: true
-			id: "2BA2104E25F79F0F"
-			tasks: [{
-				id: "2770360C9B32AE36"
-				type: "item"
-				item: "expandedstorage:iron_to_netherite_conversion_kit"
-			}]
-		}
-		{
-			x: 12.5d
-			y: 2.5d
-			dependencies: ["3A354DE6F129E2D6"]
-			optional: true
-			id: "5D3F71B18979BF63"
-			tasks: [{
-				id: "1F3FAE60B550411B"
-				type: "item"
-				item: "expandedstorage:gold_to_obsidian_conversion_kit"
-			}]
-		}
-		{
-			x: 13.5d
-			y: 2.5d
-			dependencies: ["5D3F71B18979BF63"]
-			optional: true
-			id: "4CE9BE63846F1B78"
-			tasks: [{
-				id: "610A9E6E5FBFAEFB"
-				type: "item"
-				item: "expandedstorage:gold_to_netherite_conversion_kit"
-			}]
-		}
-		{
-			x: 14.5d
-			y: 0.5d
-			dependencies: ["158FA02851D868F2"]
-			optional: true
-			id: "47C98E87B7E3B6E6"
-			tasks: [{
-				id: "0124386FB5F98A39"
-				type: "item"
-				item: "expandedstorage:diamond_to_netherite_conversion_kit"
-			}]
-		}
-		{
-			x: 8.5d
-			y: 4.5d
+			x: 5.75d
+			y: 3.25d
 			dependencies: ["706E5E859FBA4310"]
 			id: "05CAF0142A173FFB"
 			tasks: [{
@@ -1351,8 +1122,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 4.5d
+			x: 6.75d
+			y: 3.25d
 			dependencies: [
 				"05CAF0142A173FFB"
 				"0C67EB5500C699B0"
@@ -1366,8 +1137,8 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: 4.5d
+			x: 7.75d
+			y: 3.25d
 			dependencies: [
 				"5250A6AE4D2B7F99"
 				"0C67EB5500C699B0"
@@ -1381,8 +1152,8 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: 4.5d
+			x: 8.75d
+			y: 3.25d
 			dependencies: ["2521D07B715F240F"]
 			id: "1331E03259C78833"
 			tasks: [{
@@ -1392,8 +1163,8 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: 4.5d
+			x: 9.75d
+			y: 3.25d
 			dependencies: ["1331E03259C78833"]
 			id: "4997C7D199537229"
 			tasks: [{
@@ -1403,8 +1174,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 4.5d
+			x: 4.75d
+			y: 3.25d
 			dependencies: ["245C994669BC5E13"]
 			id: "706E5E859FBA4310"
 			tasks: [{
@@ -1414,8 +1185,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 5.5d
+			x: 6.75d
+			y: 4.25d
 			dependencies: ["05CAF0142A173FFB"]
 			optional: true
 			id: "0C67EB5500C699B0"
@@ -1426,8 +1197,8 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: 5.5d
+			x: 8.75d
+			y: 4.25d
 			dependencies: ["2521D07B715F240F"]
 			optional: true
 			id: "351E1BB011A3AE54"
@@ -1438,8 +1209,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -1.5d
+			x: 5.75d
+			y: 0.0d
 			description: [
 				"Sneak (by default Left Shift) and Use (by default Right Click) for use it."
 				""
@@ -1464,6 +1235,740 @@
 						mode: 0b
 					}
 				}
+			}]
+		}
+		{
+			title: "Smeltery"
+			icon: "tconstruct:smeltery_controller"
+			x: 4.0d
+			y: 14.75d
+			id: "4FF742939987793B"
+			tasks: [
+				{
+					id: "24FB616B8D0A3D50"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "73D3D0CFD94A040F"
+					type: "item"
+					item: "tconstruct:seared_drain"
+				}
+				{
+					id: "301991D81A850D16"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+				}
+				{
+					id: "00837339BE263249"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+				{
+					id: "5D69C334A505B85F"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+				{
+					id: "318E944A3172F3F3"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+				{
+					id: "1F8DC18B680AD02A"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 14.75d
+			id: "25090E1CB30B5131"
+			tasks: [{
+				id: "0479B6A4D29ACD0F"
+				type: "item"
+				item: "tconstruct:grout"
+				count: 64L
+			}]
+		}
+		{
+			title: "Foundry"
+			icon: "tconstruct:foundry_controller"
+			x: 6.0d
+			y: 14.75d
+			id: "0F1BD6C918F471B1"
+			tasks: [
+				{
+					id: "3886A8B4A5FA3CE1"
+					type: "item"
+					item: "tconstruct:foundry_controller"
+				}
+				{
+					id: "1E6483F70F454507"
+					type: "item"
+					item: "tconstruct:scorched_drain"
+				}
+				{
+					id: "6D3455F04F54C45F"
+					type: "item"
+					item: "tconstruct:scorched_faucet"
+				}
+				{
+					id: "4ADECE5FB8D0D565"
+					type: "item"
+					item: "tconstruct:scorched_table"
+				}
+				{
+					id: "3EEED2FB85F62699"
+					type: "item"
+					item: "tconstruct:scorched_basin"
+				}
+				{
+					id: "483D4C83B9D754D1"
+					type: "item"
+					item: "tconstruct:scorched_fuel_tank"
+				}
+				{
+					id: "52BCA335A830C4DE"
+					type: "item"
+					item: "tconstruct:scorched_bricks"
+				}
+			]
+		}
+		{
+			icon: "storagedrawers:oak_full_drawers_1"
+			x: 4.75d
+			y: -2.75d
+			dependencies: ["1195924B8477153E"]
+			id: "10EB436A1F6B02C7"
+			tasks: [{
+				id: "5BA219BECD100899"
+				type: "item"
+				title: "Drawers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.75d
+			y: -7.25d
+			dependencies: ["1195924B8477153E"]
+			id: "0A296F3332187D0B"
+			tasks: [{
+				id: "2F4C7659FC4E1E40"
+				type: "item"
+				item: "framedcompactdrawers:framed_full_one"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 14.75d
+			id: "11525ED89B361FB8"
+			tasks: [{
+				id: "517378CFB6ECFC36"
+				type: "item"
+				item: "tconstruct:nether_grout"
+				count: 64L
+			}]
+		}
+		{
+			icon: "tconstruct:crafting_station"
+			x: 7.0d
+			y: 14.75d
+			id: "26331567035E0017"
+			tasks: [
+				{
+					id: "42BB15F3F32C255A"
+					type: "item"
+					item: "tconstruct:crafting_station"
+				}
+				{
+					id: "797B7FC6C69F6951"
+					type: "item"
+					item: "tconstruct:part_builder"
+				}
+				{
+					id: "30BCA9BCCA5ECB44"
+					type: "item"
+					item: "tconstruct:tinker_station"
+				}
+				{
+					id: "62E0AB6293C74848"
+					type: "item"
+					item: "tconstruct:part_chest"
+				}
+				{
+					id: "0ACFB4F12A29A15C"
+					type: "item"
+					item: "tconstruct:tinkers_chest"
+				}
+			]
+		}
+		{
+			x: 5.75d
+			y: -3.75d
+			dependencies: ["10EB436A1F6B02C7"]
+			id: "1E43D2BF44BAABEB"
+			tasks: [{
+				id: "41F9719B98702644"
+				type: "item"
+				item: "storagedrawers:compacting_drawers_3"
+			}]
+		}
+		{
+			x: 5.75d
+			y: -2.75d
+			dependencies: ["10EB436A1F6B02C7"]
+			id: "3A34A14E10BCDD68"
+			tasks: [{
+				id: "0B97753A6676F840"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+		}
+		{
+			x: 5.75d
+			y: -1.75d
+			dependencies: ["10EB436A1F6B02C7"]
+			id: "424F1E404CFDA987"
+			tasks: [{
+				id: "20FC816A4BBE9691"
+				type: "item"
+				item: "storagedrawers:controller_slave"
+			}]
+		}
+		{
+			x: 5.75d
+			y: -6.25d
+			dependencies: ["0A296F3332187D0B"]
+			id: "1A5727723DDD4690"
+			tasks: [{
+				id: "3C745BB3D602E21D"
+				type: "item"
+				item: "framedcompactdrawers:framed_slave"
+			}]
+		}
+		{
+			x: 5.75d
+			y: -7.25d
+			dependencies: ["0A296F3332187D0B"]
+			id: "7AD28BDCB5EF8EF9"
+			tasks: [{
+				id: "2EA550BF33309C26"
+				type: "item"
+				item: "framedcompactdrawers:framed_drawer_controller"
+			}]
+		}
+		{
+			x: 5.75d
+			y: -8.25d
+			dependencies: ["0A296F3332187D0B"]
+			id: "41AEB34D3AA3A76D"
+			tasks: [{
+				id: "551FB12C9F7090C6"
+				type: "item"
+				item: "framedcompactdrawers:framed_compact_drawer"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -5.0d
+			dependencies: ["10EB436A1F6B02C7"]
+			id: "6F7E038577E9E093"
+			tasks: [{
+				id: "55DA7E0376D8B9EC"
+				type: "item"
+				item: "storagedrawers:upgrade_template"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 14.75d
+			id: "6FE5CBD8A8FF0431"
+			tasks: [{
+				id: "239ECC5B5FF55428"
+				type: "item"
+				item: "tconstruct:tinkers_anvil"
+			}]
+		}
+		{
+			x: 8.25d
+			y: -6.25d
+			dependencies: ["6F7E038577E9E093"]
+			id: "0D06468FD66518FE"
+			tasks: [{
+				id: "6B786905971ECD27"
+				type: "item"
+				item: "storagedrawers:drawer_key"
+			}]
+		}
+		{
+			x: 9.25d
+			y: -6.25d
+			dependencies: ["0D06468FD66518FE"]
+			id: "5D1DE75288532316"
+			tasks: [{
+				id: "489FA3980A179639"
+				type: "item"
+				item: "storagedrawers:quantify_key"
+			}]
+		}
+		{
+			x: 10.25d
+			y: -6.25d
+			dependencies: ["0D06468FD66518FE"]
+			id: "2BB1145D0A20A12F"
+			tasks: [{
+				id: "21E35FE583FC7A13"
+				type: "item"
+				item: "storagedrawers:shroud_key"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -5.0d
+			dependencies: ["6F7E038577E9E093"]
+			id: "03D8C3E1BB351B76"
+			tasks: [{
+				id: "31C92C792F279E6B"
+				type: "item"
+				item: "storagedrawers:obsidian_storage_upgrade"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -5.0d
+			dependencies: ["6F7E038577E9E093"]
+			id: "3165308FA1AD681B"
+			tasks: [{
+				id: "4BADA58281C67331"
+				type: "item"
+				item: "storagedrawers:iron_storage_upgrade"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -5.0d
+			dependencies: ["6F7E038577E9E093"]
+			id: "51A7F8C0AD009B10"
+			tasks: [{
+				id: "35D3EAC95ED6665C"
+				type: "item"
+				item: "storagedrawers:gold_storage_upgrade"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -5.0d
+			dependencies: ["6F7E038577E9E093"]
+			id: "6421AEF4E0F30500"
+			tasks: [{
+				id: "68A6330172369EEB"
+				type: "item"
+				item: "storagedrawers:diamond_storage_upgrade"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -5.0d
+			dependencies: ["6F7E038577E9E093"]
+			id: "099964B50A214AB7"
+			tasks: [{
+				id: "70BAF7247B31C9E6"
+				type: "item"
+				item: "storagedrawers:emerald_storage_upgrade"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -5.0d
+			dependencies: ["6F7E038577E9E093"]
+			id: "4167C9663B06C4C0"
+			tasks: [{
+				id: "1DE11D8DA6105D1A"
+				type: "item"
+				item: "storagedrawers:one_stack_upgrade"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -5.0d
+			dependencies: ["6F7E038577E9E093"]
+			id: "630A05E20BC352B1"
+			tasks: [{
+				id: "079D816C444561DC"
+				type: "item"
+				item: "storagedrawers:void_upgrade"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -5.0d
+			dependencies: ["6F7E038577E9E093"]
+			id: "2CC70D6987409E61"
+			tasks: [{
+				id: "655FFCCD35076CFC"
+				type: "item"
+				item: "storagedrawers:redstone_upgrade"
+			}]
+		}
+		{
+			x: 16.0d
+			y: -5.0d
+			dependencies: ["6F7E038577E9E093"]
+			id: "00061AD328CCF221"
+			tasks: [{
+				id: "3039F817A8936413"
+				type: "item"
+				item: "storagedrawers:min_redstone_upgrade"
+			}]
+		}
+		{
+			x: 17.0d
+			y: -5.0d
+			dependencies: ["6F7E038577E9E093"]
+			id: "05FBFC6908571073"
+			tasks: [{
+				id: "78E8548F43FAA489"
+				type: "item"
+				item: "storagedrawers:max_redstone_upgrade"
+			}]
+		}
+		{
+			x: 18.0d
+			y: -5.0d
+			dependencies: ["6F7E038577E9E093"]
+			id: "28036D6566C362A7"
+			tasks: [{
+				id: "2417C6B06D01BFE2"
+				type: "item"
+				item: "storagedrawers:illumination_upgrade"
+			}]
+		}
+		{
+			x: 19.0d
+			y: -5.0d
+			dependencies: ["6F7E038577E9E093"]
+			id: "5C06D8614A2BA0ED"
+			tasks: [{
+				id: "0F7391B0855E7409"
+				type: "item"
+				item: "storagedrawers:fill_level_upgrade"
+			}]
+		}
+		{
+			x: 6.75d
+			y: -2.75d
+			dependencies: ["10EB436A1F6B02C7"]
+			id: "0C5661B30E9EC087"
+			tasks: [{
+				id: "6EBA6451B59E4AA8"
+				type: "item"
+				item: "storagedrawers:oak_trim"
+			}]
+		}
+		{
+			x: 6.75d
+			y: -7.25d
+			dependencies: ["0A296F3332187D0B"]
+			id: "05D57CE893311364"
+			tasks: [{
+				id: "5F1A1D4803FE16CA"
+				type: "item"
+				item: "framedcompactdrawers:framed_trim"
+			}]
+		}
+		{
+			x: 8.75d
+			y: 6.0d
+			dependencies: [
+				"1331E03259C78833"
+				"17BE6E6E08D65929"
+			]
+			dependency_requirement: "one_completed"
+			id: "33C0C3CA41044CC8"
+			tasks: [{
+				id: "66A6BF319B6D9ACB"
+				type: "item"
+				item: {
+					id: "dankstorage:dank_1"
+					Count: 1b
+					tag: {
+						inv: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 9.75d
+			y: 6.0d
+			dependencies: ["33C0C3CA41044CC8"]
+			id: "6B3EDC42766164F1"
+			tasks: [{
+				id: "7E732CF14076DC19"
+				type: "item"
+				item: {
+					id: "dankstorage:dank_2"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 10.75d
+			y: 6.0d
+			dependencies: ["6B3EDC42766164F1"]
+			id: "1C18CA2587A1891F"
+			tasks: [{
+				id: "04A32F6552E42733"
+				type: "item"
+				item: {
+					id: "dankstorage:dank_3"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 11.75d
+			y: 6.0d
+			dependencies: ["1C18CA2587A1891F"]
+			id: "5C90688D111657A8"
+			tasks: [{
+				id: "7A530A9DB19A1D0E"
+				type: "item"
+				item: {
+					id: "dankstorage:dank_4"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 12.75d
+			y: 6.0d
+			dependencies: ["5C90688D111657A8"]
+			id: "2B3FFA2AB1C45785"
+			tasks: [{
+				id: "6A4086B6AB980A22"
+				type: "item"
+				item: {
+					id: "dankstorage:dank_5"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 13.75d
+			y: 6.0d
+			dependencies: ["2B3FFA2AB1C45785"]
+			id: "1DDA2612DA5A8BAA"
+			tasks: [{
+				id: "222C63633B58E418"
+				type: "item"
+				item: {
+					id: "dankstorage:dank_6"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 14.75d
+			y: 6.0d
+			dependencies: ["1DDA2612DA5A8BAA"]
+			id: "48D1E6247E0E4C00"
+			tasks: [{
+				id: "1E60D8FFB9E5F9E2"
+				type: "item"
+				item: {
+					id: "dankstorage:dank_7"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 7.75d
+			y: 6.0d
+			dependencies: ["33C0C3CA41044CC8"]
+			optional: true
+			id: "3C7FF88E1258FF29"
+			tasks: [{
+				id: "01066A3B7FE0F11A"
+				type: "item"
+				item: "dankstorage:dock"
+			}]
+		}
+		{
+			x: 8.75d
+			y: 7.0d
+			dependencies: ["25C9708B3163FAE2"]
+			id: "6E8997A0AEF34301"
+			tasks: [{
+				id: "5F4BB280A08353AB"
+				type: "item"
+				item: {
+					id: "tanknull:tank_1"
+					Count: 1b
+					tag: {
+						fluidinv: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 7.75d
+			y: 7.0d
+			dependencies: ["6E8997A0AEF34301"]
+			optional: true
+			id: "43F816983DADBD70"
+			tasks: [{
+				id: "6277072C677615E3"
+				type: "item"
+				item: "tanknull:dock"
+			}]
+		}
+		{
+			x: 8.75d
+			y: 8.75d
+			dependencies: ["761BAE3E76AB71A3"]
+			id: "25C9708B3163FAE2"
+			tasks: [{
+				id: "6F662D6A1A37E4C7"
+				type: "item"
+				item: "create:fluid_tank"
+			}]
+		}
+		{
+			x: 9.75d
+			y: 7.0d
+			dependencies: ["6E8997A0AEF34301"]
+			id: "46ED3340321774D4"
+			tasks: [{
+				id: "233BC912EF88867D"
+				type: "item"
+				item: {
+					id: "tanknull:tank_2"
+					Count: 1b
+					tag: {
+						fluidinv: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 10.75d
+			y: 7.0d
+			dependencies: ["46ED3340321774D4"]
+			id: "69DEE41E01D8F2B2"
+			tasks: [{
+				id: "6CFBCF54595D986D"
+				type: "item"
+				item: {
+					id: "tanknull:tank_3"
+					Count: 1b
+					tag: {
+						fluidinv: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 14.75d
+			y: 7.0d
+			dependencies: ["14AE69008B89B899"]
+			id: "327CECDDAD610E93"
+			tasks: [{
+				id: "353984C659B65E14"
+				type: "item"
+				item: {
+					id: "tanknull:tank_7"
+					Count: 1b
+					tag: {
+						fluidinv: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 13.75d
+			y: 7.0d
+			dependencies: ["206D5DE276255ABB"]
+			id: "14AE69008B89B899"
+			tasks: [{
+				id: "1C8F2DF7A8704760"
+				type: "item"
+				item: {
+					id: "tanknull:tank_6"
+					Count: 1b
+					tag: {
+						fluidinv: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 12.75d
+			y: 7.0d
+			dependencies: ["58240F1490E6C4E9"]
+			id: "206D5DE276255ABB"
+			tasks: [{
+				id: "2922DF4C8BB4B6D0"
+				type: "item"
+				item: {
+					id: "tanknull:tank_5"
+					Count: 1b
+					tag: {
+						fluidinv: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 11.75d
+			y: 7.0d
+			dependencies: ["69DEE41E01D8F2B2"]
+			id: "58240F1490E6C4E9"
+			tasks: [{
+				id: "7E8A3C58AA5C7C1C"
+				type: "item"
+				item: {
+					id: "tanknull:tank_4"
+					Count: 1b
+					tag: {
+						fluidinv: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 8.75d
+			y: 9.75d
+			dependencies: ["3441111B8198CC9D"]
+			id: "761BAE3E76AB71A3"
+			tasks: [{
+				id: "250B3DF7EF1694AE"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+		}
+		{
+			x: 7.75d
+			y: 9.75d
+			dependencies: ["4FF742939987793B"]
+			id: "3441111B8198CC9D"
+			tasks: [{
+				id: "6667979E694CF489"
+				type: "item"
+				item: "create:andesite_alloy"
 			}]
 		}
 	]
