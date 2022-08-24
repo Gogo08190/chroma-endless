@@ -1464,7 +1464,7 @@
 		#Range: 0 ~ 64
 		overworld_size = 5
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = false
+		generate_in_the_overworld = true
 		#Use spread mechanic instead of random range [Default: true]
 		overworld_use_spread = true
 
