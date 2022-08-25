@@ -461,6 +461,24 @@ onEvent('recipes', (event) => {
         output: 'ironjetpacks:terrasteel_thruster',
         count: 1,
         id: `${id_prefix}terrasteel_thruster`
+      },
+      {
+        inputs: [
+          'minecraft:lava_bucket',
+          'minecraft:cauldron',
+          'undergarden:regalium_ingot',
+          'undergarden:regalium_ingot',
+          'undergarden:regalium_ingot',
+          'emendatusenigmatica:steel_plate',
+          'emendatusenigmatica:steel_plate',
+          'botania:livingwood',
+          'botania:livingwood',
+          'elementalcraft:swift_alloy_ingot'
+        ],
+        mana: 30000,
+        output: 'tardis:alembic',
+        count: 1,
+        id: `tardis:alembic`
       }
 
     ];

@@ -21,6 +21,17 @@ onEvent('recipes', (event) => {
           ],
           output: {item: 'resourcefulbees:xion_bee_spawn_egg'},
           id: `${id_prefix}xion_bee`
+      },
+      {
+          inputs: [
+            {item: 'tardis:circuit_paste' },
+            {item: 'tardis:xion_crystal' },
+            {item: 'emendatusenigmatica:electrum_ingot' },
+            {item: 'kubejs:extreme_circuit_board' },
+            {item: 'thermal:redstone_servo' },
+          ],
+          output: {item: 'tardis:circuits'},
+          id: 'tardis:quantiscope/circuits'
       }
 
     ];
