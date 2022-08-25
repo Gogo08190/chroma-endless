@@ -7,6 +7,7 @@ onEvent('item.tags', (event) => {
       'tconstruct:tool_binding',
       'tconstruct:tool_handle',
       'tconstruct:pickaxe',
-      'tetra:modular_double'
+      'tetra:modular_double',
+      'resourcefulbees:bee_jar'
   ]);
 });
