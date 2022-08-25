@@ -61,7 +61,7 @@ onEvent('recipes', (event) => {
                 I: '#forge:ingots/electrum',
                 R: 'thermal:redstone_servo'
             },
-            id: 'tardis:circuits'
+            id: 'tardis:exotronic_circuit'
         },
 
         {
