@@ -4,13 +4,25 @@
 	order_index: 1
 	filename: "welcome"
 	title: "Welcome!"
-	icon: "kubejs:gogo"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "chroma:textures/quests/logo.png"
+		}
+	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			title: "Welcome to Chroma Endless!"
-			icon: "kubejs:gogo"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "chroma:textures/quests/logo.png"
+				}
+			}
 			x: 0.0d
 			y: 0.0d
 			shape: "gear"

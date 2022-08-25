@@ -100,7 +100,6 @@
 			y: 1.5d
 			subtitle: "Store your crafting table in your pocket."
 			dependencies: ["1C7C41C2FA427B8F"]
-			optional: true
 			id: "73370785D28A26F0"
 			tasks: [{
 				id: "56D47065C54D2BE6"
@@ -199,7 +198,7 @@
 			y: 6.25d
 			subtitle: "Finally a working tool."
 			description: [
-				"Put your previously crafted vanilla Wooden Pickaxe into the Tetra Workbench, then click \"Repair\" and place a Plank in the slot. If you have a Wooden Axe (or another level 1 axe) in your inventory, you will be able to click \"Craft\". Your Minecraft Wooden Pickaxe is now a Tetra Wooden Pickaxe and has a durability of 59."
+				"Put your previously crafted vanilla &6Wooden Pickaxe&r into the Tetra Workbench, then click &o\"Repair\"&r and place a &6Plank&r in the slot. If you have a &6Wooden Axe&r (or another level 1 axe) in your inventory, you will be able to click &o\"Craft\"&r. Your Minecraft &6Wooden Pickaxe&r is now a Tetra &6Wooden Pickaxe&r and has a durability of 59."
 				""
 				"{image:chroma:textures/quests/tetra_wooden_pickaxe_repair.png width:198 height:140 align:1}"
 			]
@@ -272,6 +271,7 @@
 			}]
 		}
 		{
+			title: "Tinkers' Construct / Tetra"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -284,17 +284,17 @@
 			shape: "diamond"
 			description: [
 				"Vanilla tools only have 1 durability, so if you break a block with them, they will destroy."
-				"At first, you should use Tetra or Tinkers' Construct tools instead."
-				"In the following quests, there are two paths: Tetra and Tinkers' Construct. You can do both, or just one, and maybe the other later; but in no case will you be blocked for the rest."
+				"At first, you should use Tinkers' Construct or Tetra tools instead."
+				"In the following quests, there are two paths: Tinkers' Construct and Tetra. You can do both, or just one, and maybe the other later; but in no case will you be blocked for the rest."
 				""
-				"Tetra is at the right, and Tinkers' Construct at the left."
+				"Tinkers' Construct is at the left, and Tetra at the right."
 			]
 			dependencies: ["1C7C41C2FA427B8F"]
 			id: "4F9CEE6539022521"
 			tasks: [{
 				id: "5905919B35D651A5"
 				type: "checkmark"
-				title: "Tetra / Tinkers' Construct"
+				title: "Validate"
 			}]
 		}
 		{
@@ -317,7 +317,7 @@
 			]
 		}
 		{
-			title: "Patterns"
+			title: "Pattern"
 			x: -0.75d
 			y: 3.75d
 			dependencies: ["4F9CEE6539022521"]
@@ -325,9 +325,8 @@
 			tasks: [{
 				id: "13F06C8D3E995E47"
 				type: "item"
-				title: "3x Patterns"
+				title: "Pattern"
 				item: "tconstruct:pattern"
-				count: 3L
 			}]
 		}
 		{
@@ -426,7 +425,7 @@
 		{
 			title: "&6Bitumen&r"
 			x: 1.25d
-			y: 10.5d
+			y: 12.0d
 			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -444,7 +443,7 @@
 		{
 			title: "&6Cinnabar&r"
 			x: 2.0d
-			y: 9.75d
+			y: 11.25d
 			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -462,7 +461,7 @@
 		{
 			title: "&6Coal&r"
 			x: 1.25d
-			y: 9.0d
+			y: 10.5d
 			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -480,7 +479,7 @@
 		{
 			title: "&6Uraninite&r"
 			x: 0.5d
-			y: 9.75d
+			y: 11.25d
 			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -498,7 +497,7 @@
 		{
 			title: "&8Iron&r"
 			x: 0.25d
-			y: 8.75d
+			y: 10.25d
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -516,7 +515,7 @@
 		{
 			title: "&8Lapis Lazuli&r"
 			x: -0.5d
-			y: 9.5d
+			y: 11.0d
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -534,7 +533,7 @@
 		{
 			title: "&8Copper&r"
 			x: 0.5d
-			y: 11.25d
+			y: 12.75d
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -552,7 +551,7 @@
 		{
 			title: "&8Aluminum&r"
 			x: 2.25d
-			y: 8.75d
+			y: 10.25d
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -570,7 +569,7 @@
 		{
 			title: "&8Osmium&r"
 			x: 3.0d
-			y: 9.5d
+			y: 11.0d
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -588,7 +587,7 @@
 		{
 			title: "&8Tin&r"
 			x: 2.0d
-			y: 11.25d
+			y: 12.75d
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -606,7 +605,7 @@
 		{
 			title: "&8Fluorite&r"
 			x: -0.25d
-			y: 10.5d
+			y: 12.0d
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -624,7 +623,7 @@
 		{
 			title: "&8Apatite&r"
 			x: 2.75d
-			y: 10.5d
+			y: 12.0d
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -642,7 +641,7 @@
 		{
 			title: "&8Potassium Nitrate&r"
 			x: 0.25d
-			y: 12.25d
+			y: 13.75d
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -660,7 +659,7 @@
 		{
 			title: "&8Source Gem&r"
 			x: 2.25d
-			y: 12.25d
+			y: 13.75d
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -678,7 +677,7 @@
 		{
 			title: "&8Dimensional Shard&r"
 			x: 1.25d
-			y: 12.0d
+			y: 13.5d
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -718,7 +717,7 @@
 		{
 			title: "&7Gold&r"
 			x: -0.75d
-			y: 8.5d
+			y: 10.0d
 			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -736,7 +735,7 @@
 		{
 			title: "&7Diamond&r"
 			x: -1.25d
-			y: 10.25d
+			y: 11.75d
 			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -754,7 +753,7 @@
 		{
 			title: "&7Emerald&r"
 			x: -1.25d
-			y: 12.25d
+			y: 13.75d
 			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -772,7 +771,7 @@
 		{
 			title: "&7Redstone&r"
 			x: 3.25d
-			y: 8.5d
+			y: 10.0d
 			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -789,7 +788,7 @@
 		{
 			title: "&7Nether Quartz&r"
 			x: 3.75d
-			y: 10.25d
+			y: 11.75d
 			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -807,7 +806,7 @@
 		{
 			title: "&7Silver&r"
 			x: 3.75d
-			y: 12.25d
+			y: 13.75d
 			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -825,7 +824,7 @@
 		{
 			title: "&7Lead&r"
 			x: -1.5d
-			y: 9.25d
+			y: 10.75d
 			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -843,7 +842,7 @@
 		{
 			title: "&7Nickel&r"
 			x: -0.5d
-			y: 11.5d
+			y: 13.0d
 			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -861,7 +860,7 @@
 		{
 			title: "&7Uranium&r"
 			x: 4.0d
-			y: 9.25d
+			y: 10.75d
 			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -879,7 +878,7 @@
 		{
 			title: "&7Zinc&r"
 			x: 3.0d
-			y: 11.5d
+			y: 13.0d
 			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -897,7 +896,7 @@
 		{
 			title: "&7Cobalt&r"
 			x: -1.5d
-			y: 11.25d
+			y: 12.75d
 			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -915,7 +914,7 @@
 		{
 			title: "&7Draconium&r"
 			x: 4.0d
-			y: 11.25d
+			y: 12.75d
 			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -994,7 +993,7 @@
 		}
 		{
 			x: 1.25d
-			y: 13.75d
+			y: 15.25d
 			dependencies: [
 				"1A641FA1C6E549DB"
 				"0BF43EA3825CC0BA"
@@ -1007,8 +1006,8 @@
 			}]
 		}
 		{
-			x: 0.25d
-			y: 14.75d
+			x: -0.25d
+			y: 16.75d
 			subtitle: "Fast Food like McDonald's®"
 			description: ["A Smoker works like a Furnace, but only cooks food and run twice as fast."]
 			dependencies: ["60E0E583C1CBCE56"]
@@ -1217,7 +1216,6 @@
 			x: 6.75d
 			y: 4.25d
 			dependencies: ["05CAF0142A173FFB"]
-			optional: true
 			id: "0C67EB5500C699B0"
 			tasks: [{
 				id: "53A50006E4CC3D40"
@@ -1229,7 +1227,6 @@
 			x: 8.75d
 			y: 4.25d
 			dependencies: ["2521D07B715F240F"]
-			optional: true
 			id: "351E1BB011A3AE54"
 			tasks: [{
 				id: "5C77F56EEC93E23C"
@@ -1258,7 +1255,6 @@
 				"→ On a chest to apply the selected mode to it."
 			]
 			dependencies: ["1195924B8477153E"]
-			optional: true
 			id: "2C8FACF586696C1B"
 			tasks: [{
 				id: "1923B2A1006AB24F"
@@ -1275,9 +1271,9 @@
 		{
 			title: "Smeltery"
 			icon: "tconstruct:smeltery_controller"
-			x: 3.5d
-			y: 14.75d
-			dependencies: ["25090E1CB30B5131"]
+			x: 2.75d
+			y: 19.75d
+			dependencies: ["52157E7FBFE05315"]
 			id: "4FF742939987793B"
 			tasks: [
 				{
@@ -1314,27 +1310,28 @@
 					id: "1F8DC18B680AD02A"
 					type: "item"
 					item: "tconstruct:seared_bricks"
+					count: 2L
 				}
 			]
 		}
 		{
 			title: "Seared Bricks"
-			x: 2.25d
-			y: 14.75d
+			x: 2.75d
+			y: 16.75d
 			dependencies: ["60E0E583C1CBCE56"]
 			id: "25090E1CB30B5131"
 			tasks: [{
 				id: "5A8C02CC1E501307"
 				type: "item"
 				item: "tconstruct:seared_brick"
-				count: 64L
+				count: 54L
 			}]
 		}
 		{
 			title: "Foundry"
 			icon: "tconstruct:foundry_controller"
-			x: 9.75d
-			y: 16.25d
+			x: 2.75d
+			y: 22.75d
 			dependencies: ["11525ED89B361FB8"]
 			id: "0F1BD6C918F471B1"
 			tasks: [
@@ -1406,51 +1403,17 @@
 			}]
 		}
 		{
-			title: "Nether Grout"
-			x: 8.5d
-			y: 16.25d
+			title: "Scorched Bricks"
+			x: 2.75d
+			y: 24.25d
 			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "11525ED89B361FB8"
 			tasks: [{
 				id: "517378CFB6ECFC36"
 				type: "item"
-				item: "tconstruct:nether_grout"
+				item: "tconstruct:scorched_brick"
 				count: 64L
 			}]
-		}
-		{
-			icon: "tconstruct:crafting_station"
-			x: 4.75d
-			y: 14.75d
-			dependencies: ["4FF742939987793B"]
-			id: "26331567035E0017"
-			tasks: [
-				{
-					id: "42BB15F3F32C255A"
-					type: "item"
-					item: "tconstruct:crafting_station"
-				}
-				{
-					id: "797B7FC6C69F6951"
-					type: "item"
-					item: "tconstruct:part_builder"
-				}
-				{
-					id: "30BCA9BCCA5ECB44"
-					type: "item"
-					item: "tconstruct:tinker_station"
-				}
-				{
-					id: "62E0AB6293C74848"
-					type: "item"
-					item: "tconstruct:part_chest"
-				}
-				{
-					id: "0ACFB4F12A29A15C"
-					type: "item"
-					item: "tconstruct:tinkers_chest"
-				}
-			]
 		}
 		{
 			x: 5.75d
@@ -1530,9 +1493,9 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 14.75d
-			dependencies: ["26331567035E0017"]
+			x: 2.75d
+			y: 21.25d
+			dependencies: ["4FF742939987793B"]
 			id: "6FE5CBD8A8FF0431"
 			tasks: [{
 				id: "239ECC5B5FF55428"
@@ -1842,7 +1805,7 @@
 			x: 7.75d
 			y: 6.0d
 			dependencies: ["33C0C3CA41044CC8"]
-			optional: true
+			
 			id: "3C7FF88E1258FF29"
 			tasks: [{
 				id: "01066A3B7FE0F11A"
@@ -1853,7 +1816,11 @@
 		{
 			x: 8.75d
 			y: 7.0d
-			dependencies: ["25C9708B3163FAE2"]
+			hide_dependency_lines: true
+			dependencies: [
+				"25C9708B3163FAE2"
+				"56FF868139410EDB"
+			]
 			id: "6E8997A0AEF34301"
 			tasks: [{
 				id: "5F4BB280A08353AB"
@@ -1871,7 +1838,6 @@
 			x: 7.75d
 			y: 7.0d
 			dependencies: ["6E8997A0AEF34301"]
-			optional: true
 			id: "43F816983DADBD70"
 			tasks: [{
 				id: "6277072C677615E3"
@@ -1880,8 +1846,8 @@
 			}]
 		}
 		{
-			x: 8.75d
-			y: 8.5d
+			x: 7.0d
+			y: 18.5d
 			dependencies: ["761BAE3E76AB71A3"]
 			id: "25C9708B3163FAE2"
 			tasks: [{
@@ -1993,8 +1959,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: 9.75d
+			x: 8.25d
+			y: 19.75d
 			dependencies: ["410AC414B2B492D1"]
 			id: "761BAE3E76AB71A3"
 			tasks: [{
@@ -2004,8 +1970,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 9.75d
+			x: 4.25d
+			y: 19.75d
 			dependencies: ["4FF742939987793B"]
 			id: "3441111B8198CC9D"
 			tasks: [{
@@ -2015,25 +1981,40 @@
 			}]
 		}
 		{
-			x: 7.25d
-			y: 16.25d
+			title: "Go to &5The Nether&r"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "supplementaries:textures/map/nether_portal.png"
+				}
+			}
+			x: 1.25d
+			y: 24.25d
 			dependencies: [
 				"6770AB2A85C49A63"
 				"0F01F4CCB3915082"
 			]
 			id: "3A3CDBD5FF1985DB"
-			tasks: [{
-				id: "6C902F1FE4656987"
-				type: "dimension"
-				title: "Go to &2The Nether&r"
-				dimension: "minecraft:the_nether"
-			}]
+			tasks: [
+				{
+					id: "6C902F1FE4656987"
+					type: "dimension"
+					title: "Visit &5The Nether&r"
+					dimension: "minecraft:the_nether"
+				}
+				{
+					id: "1A50D8484E987C47"
+					type: "checkmark"
+					title: "Done"
+				}
+			]
 		}
 		{
 			title: "Flint and _____"
-			x: 4.75d
-			y: 16.25d
-			dependencies: ["26331567035E0017"]
+			x: 1.25d
+			y: 21.25d
+			dependencies: ["3F047B28738897A0"]
 			id: "6770AB2A85C49A63"
 			tasks: [{
 				id: "403E5F81136B97B9"
@@ -2051,8 +2032,8 @@
 		{
 			title: "Gold Cast"
 			icon: "tconstruct:blank_cast"
-			x: 3.5d
-			y: 16.25d
+			x: 1.25d
+			y: 19.75d
 			dependencies: ["4FF742939987793B"]
 			id: "3F047B28738897A0"
 			tasks: [{
@@ -2067,11 +2048,16 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "58B86CDAB788FEBF"
+				type: "item"
+				item: "tconstruct:plate_cast"
+			}]
 		}
 		{
 			title: "&bObsidian&r"
-			x: 6.0d
-			y: 16.25d
+			x: 1.25d
+			y: 22.75d
 			hide_dependency_lines: true
 			dependencies: [
 				"1802A196B75EE8D9"
@@ -2109,9 +2095,9 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: 8.5d
-			subtitle: "Fats Ore like...well...nothing I think"
+			x: 8.25d
+			y: 18.5d
+			subtitle: "Fast Ore like...well...nothing I think"
 			description: ["A Blast Furnace works like a Furnace, but only cooks ores (and other specifics things) and run twice as fast."]
 			dependencies: ["761BAE3E76AB71A3"]
 			id: "0372B8AFF3B231B0"
@@ -2122,8 +2108,8 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: 9.75d
+			x: 9.25d
+			y: 19.75d
 			dependencies: ["410AC414B2B492D1"]
 			id: "5C545750FEB2314B"
 			tasks: [{
@@ -2133,8 +2119,8 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: 9.75d
+			x: 10.25d
+			y: 19.75d
 			dependencies: ["410AC414B2B492D1"]
 			id: "2F7EB9DBC6CE7522"
 			tasks: [{
@@ -2144,8 +2130,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 9.75d
+			x: 5.25d
+			y: 19.75d
 			dependencies: ["3441111B8198CC9D"]
 			id: "15267232FEECB502"
 			tasks: [{
@@ -2156,8 +2142,8 @@
 		}
 		{
 			icon: "create:basin"
-			x: 8.0d
-			y: 9.75d
+			x: 6.25d
+			y: 19.75d
 			dependencies: ["3441111B8198CC9D"]
 			id: "3892F7C2CF403F2F"
 			tasks: [
@@ -2174,8 +2160,8 @@
 			]
 		}
 		{
-			x: 9.0d
-			y: 9.75d
+			x: 7.25d
+			y: 19.75d
 			dependencies: ["3441111B8198CC9D"]
 			id: "410AC414B2B492D1"
 			tasks: [{
@@ -2186,8 +2172,8 @@
 		}
 		{
 			icon: "create:hand_crank"
-			x: 7.0d
-			y: 10.75d
+			x: 5.25d
+			y: 20.75d
 			dependencies: ["15267232FEECB502"]
 			id: "5A15F4F1EFF567AC"
 			tasks: [
@@ -2204,8 +2190,8 @@
 			]
 		}
 		{
-			x: 8.0d
-			y: 11.75d
+			x: 6.25d
+			y: 21.75d
 			dependencies: ["5A15F4F1EFF567AC"]
 			id: "54EA65146A735963"
 			tasks: [{
@@ -2216,8 +2202,8 @@
 			}]
 		}
 		{
-			x: 10.25d
-			y: 12.75d
+			x: 8.5d
+			y: 22.75d
 			dependencies: ["1C195EE74039A47B"]
 			id: "683E4920521BDDA7"
 			tasks: [{
@@ -2228,8 +2214,8 @@
 		}
 		{
 			icon: "create:windmill_bearing"
-			x: 9.0d
-			y: 12.75d
+			x: 7.25d
+			y: 22.75d
 			dependencies: ["54EA65146A735963"]
 			id: "1C195EE74039A47B"
 			tasks: [
@@ -2248,8 +2234,8 @@
 		}
 		{
 			icon: "create:furnace_engine"
-			x: 11.5d
-			y: 12.75d
+			x: 9.75d
+			y: 22.75d
 			dependencies: ["683E4920521BDDA7"]
 			id: "68484812D253D45A"
 			tasks: [
@@ -2266,8 +2252,8 @@
 			]
 		}
 		{
-			x: 10.0d
-			y: 11.0d
+			x: 8.25d
+			y: 21.0d
 			dependencies: ["761BAE3E76AB71A3"]
 			id: "2A83D8FCCCFE217C"
 			tasks: [{
@@ -2277,8 +2263,8 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: 11.0d
+			x: 9.25d
+			y: 21.0d
 			dependencies: ["2A83D8FCCCFE217C"]
 			id: "414F5E97448B5286"
 			tasks: [{
@@ -2288,14 +2274,101 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: 11.0d
+			x: 10.25d
+			y: 21.0d
 			dependencies: ["414F5E97448B5286"]
 			id: "5145861F42CD2EE3"
 			tasks: [{
 				id: "362467AE97B8FB6E"
 				type: "item"
 				item: "create:crushing_wheel"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			dependencies: ["4CA0051417A86918"]
+			id: "219744BBC14D2451"
+			tasks: [{
+				id: "3409339E295468D9"
+				type: "item"
+				item: "tconstruct:crafting_station"
+			}]
+		}
+		{
+			title: "Tinkers' Chests"
+			x: -0.5d
+			y: 5.75d
+			dependencies: ["72B3CFA86B00A3F2"]
+			id: "00E8D257D09E8DB9"
+			tasks: [
+				{
+					id: "2E4BDADE4854BD30"
+					type: "item"
+					item: "tconstruct:part_chest"
+				}
+				{
+					id: "34D992482B52460D"
+					type: "item"
+					item: "tconstruct:tinkers_chest"
+				}
+			]
+		}
+		{
+			x: -0.25d
+			y: 19.75d
+			dependencies: ["3F047B28738897A0"]
+			id: "7ECBCEE8AE68DF35"
+			tasks: [{
+				id: "7608AD438CCAEC1F"
+				type: "item"
+				item: "tconstruct:cast_chest"
+			}]
+		}
+		{
+			x: 2.75d
+			y: 18.25d
+			dependencies: ["25090E1CB30B5131"]
+			id: "52157E7FBFE05315"
+			tasks: [{
+				id: "19A823FFDAB2A18D"
+				type: "item"
+				item: "tconstruct:seared_melter"
+			}]
+		}
+		{
+			title: "Mining"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbultimine:textures/item/ultiminer.png"
+				}
+			}
+			x: 1.25d
+			y: 9.0d
+			description: [
+				"The following quests show you what ores you can find in &2Overworld&r."
+				""
+				"There is three categories :"
+				""
+				"   - Ores that can be mined with a &6Wooden Pickaxe&r or another pickaxe with equivalent mining level."
+				""
+				"   - Ores that can be mined with a &8Stone Pickaxe&r or another pickaxe with equivalent mining level."
+				""
+				"   - Ores that can be mined with an &7Iron Pickaxe&r or another pickaxe with equivalent mining level."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"2CA476D501E67C38"
+				"311247214F1D95B3"
+			]
+			dependency_requirement: "one_completed"
+			id: "7FF11CD4F28B658F"
+			tasks: [{
+				id: "6EF6ED995F8CBDAC"
+				type: "checkmark"
+				title: "Validate"
 			}]
 		}
 	]

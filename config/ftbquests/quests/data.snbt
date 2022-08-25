@@ -1,7 +1,13 @@
 {
 	version: 13
 	title: "Chroma Endless"
-	icon: "kubejs:gogo"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "chroma:textures/quests/logo.png"
+		}
+	}
 	default_reward_team: false
 	default_consume_items: false
 	default_autoclaim_rewards: "disabled"

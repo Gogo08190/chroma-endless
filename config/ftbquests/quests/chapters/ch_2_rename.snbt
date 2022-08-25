@@ -13,17 +13,29 @@
 	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		title: "To Ch. 3 (rename)"
-		x: 6.0d
-		y: 1.0d
-		shape: "gear"
-		size: 5.0d
-		id: "1483AEFFA7642521"
-		tasks: [{
-			id: "503F4E2B08B9125B"
-			type: "item"
-			item: "thermal:machine_frame"
-		}]
-	}]
+	quests: [
+		{
+			title: "To Ch. 3 (rename)"
+			x: 6.0d
+			y: 1.0d
+			shape: "gear"
+			size: 5.0d
+			id: "1483AEFFA7642521"
+			tasks: [{
+				id: "503F4E2B08B9125B"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
+		}
+		{
+			x: -0.25d
+			y: -0.5d
+			id: "56FF868139410EDB"
+			tasks: [{
+				id: "2A0D6B500B1DA123"
+				type: "item"
+				item: "emendatusenigmatica:coke_gem"
+			}]
+		}
+	]
 }

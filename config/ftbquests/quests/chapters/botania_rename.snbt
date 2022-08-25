@@ -4,6 +4,13 @@
 	order_index: 2
 	filename: "botania_rename"
 	title: "Botania (rename)"
+	icon: {
+		id: "botania:lexicon"
+		Count: 1b
+		tag: {
+			"botania:elven_unlock": 1b
+		}
+	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [ ]
