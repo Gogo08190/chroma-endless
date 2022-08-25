@@ -149,7 +149,6 @@ const itemsToHide = [
     'masterfulmachinery:autosmithing_autosmithing_energy_port_energy_output',
 
     'emendatusenigmatica:sulfur_ore',
-    'emendatusenigmatica:cinnabar_ore',
     'emendatusenigmatica:dimensional_crushed',
     'emendatusenigmatica:arcane_crushed',
     'emendatusenigmatica:potassium_nitrate_crushed',
@@ -416,7 +415,10 @@ const itemsToHide = [
     'mob_grinding_utils:entity_spawner',
     'mob_grinding_utils:rotten_egg',
     'mob_grinding_utils:golden_egg',
-    'mob_grinding_utils:mob_swab_used'
+    'mob_grinding_utils:mob_swab_used',
+
+    'tardis:cinnabar',
+    'tardis:cinnabar_ore'
 ];
 
 let ee_types = ['clump', 'crystal', 'dirty_dust', 'shard', 'fragment', 'gravel'];
