@@ -32,6 +32,17 @@ onEvent('recipes', (event) => {
           ],
           output: {item: 'tardis:circuits'},
           id: 'tardis:quantiscope/circuits'
+      },
+      {
+          inputs: [
+            {item: 'tardis:circuits' },
+            {item: 'tardis:circuits' },
+            {item: 'tardis:mercury_bottle' },
+            {item: 'tardis:mercury_bottle' },
+            {item: 'extendedcrafting:redstone_ingot_block' },
+          ],
+          output: {item: 'tardis:artron_capacitor'},
+          id: 'tardis:quantiscope/artron_capacitor'
       }
 
     ];
