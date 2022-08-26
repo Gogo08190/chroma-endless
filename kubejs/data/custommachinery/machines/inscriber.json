@@ -1,7 +1,13 @@
 {
     "name": "Inscriber",
     "appearance": {
-      "mining_level": "0"
+      "idle": {
+          "block": "custommachinery:machine/inscriber"
+      },
+      "running": {
+          "block": "custommachinery:machine/inscriber_on",
+          "lightlevel": 15
+      }
     },
     "tooltips": [
       {

@@ -1,8 +1,13 @@
 {
   "name": "Slice'N'Splice",
   "appearance": {
-    "lightmode": "running",
-    "lightlevel": 7
+    "idle": {
+        "block": "custommachinery:machine/slice_n_splice"
+    },
+    "running": {
+        "block": "custommachinery:machine/slice_n_splice_on",
+        "lightlevel": 15
+    }
   },
   "tooltips": [
     {

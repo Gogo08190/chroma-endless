@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "lit=false,facing=north": {
+      "model": "custommachinery:machine/inscriber"
+    },
+    "lit=true,facing=north": {
+      "model": "custommachinery:machine/inscriber_on"
+    },
+    "lit=false,facing=south": {
+      "model": "custommachinery:machine/inscriber",
+      "y": 180
+    },
+    "lit=true,facing=south": {
+      "model": "custommachinery:machine/inscriber_on",
+      "y": 180
+    },
+    "lit=false,facing=west": {
+      "model": "custommachinery:machine/inscriber",
+      "y": 270
+    },
+    "lit=true,facing=west": {
+      "model": "custommachinery:machine/inscriber_on",
+      "y": 270
+    },
+    "lit=false,facing=east": {
+      "model": "custommachinery:machine/inscriber",
+      "y": 90
+    },
+    "lit=true,facing=east": {
+      "model": "custommachinery:machine/inscriber_on",
+      "y": 90
+    }
+  }
+}
