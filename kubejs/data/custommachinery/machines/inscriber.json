@@ -51,34 +51,7 @@
       },
       {
         "mode": "input",
-        "id": "upgrade1",
-        "type": "custommachinery:item",
-        "variant": "custommachinery:upgrade",
-        "filter": ["refinedstorage:speed_upgrade"],
-        "whitelist": true,
-        "capacity": 1
-      },
-      {
-        "mode": "input",
-        "id": "upgrade2",
-        "type": "custommachinery:item",
-        "variant": "custommachinery:upgrade",
-        "filter": ["refinedstorage:speed_upgrade"],
-        "whitelist": true,
-        "capacity": 1
-      },
-      {
-        "mode": "input",
-        "id": "upgrade3",
-        "type": "custommachinery:item",
-        "variant": "custommachinery:upgrade",
-        "filter": ["refinedstorage:speed_upgrade"],
-        "whitelist": true,
-        "capacity": 1
-      },
-      {
-        "mode": "input",
-        "id": "upgrade4",
+        "id": "upgrade",
         "type": "custommachinery:item",
         "variant": "custommachinery:upgrade",
         "filter": ["refinedstorage:speed_upgrade"],
@@ -133,28 +106,7 @@
       },
       {
         "type": "custommachinery:slot",
-        "id": "upgrade1",
-        "texture": "custommachinery:textures/gui/speed_upgrade_slot.png",
-        "x": 183,
-        "y": 18
-      },
-      {
-        "type": "custommachinery:slot",
-        "id": "upgrade2",
-        "texture": "custommachinery:textures/gui/speed_upgrade_slot.png",
-        "x": 183,
-        "y": 37
-      },
-      {
-        "type": "custommachinery:slot",
-        "id": "upgrade3",
-        "texture": "custommachinery:textures/gui/speed_upgrade_slot.png",
-        "x": 183,
-        "y": 56
-      },
-      {
-        "type": "custommachinery:slot",
-        "id": "upgrade4",
+        "id": "upgrade",
         "texture": "custommachinery:textures/gui/speed_upgrade_slot.png",
         "x": 183,
         "y": 75

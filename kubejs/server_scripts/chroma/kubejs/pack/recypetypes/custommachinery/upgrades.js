@@ -31,6 +31,6 @@ onEvent('cm_upgrades', event => {
 
     event.create(Item.of('refinedstorage:speed_upgrade'), 1)
     .machine("custommachinery:inscriber")
-    .mulInput("custommachinery:speed", 0.8)
-    .mulInput("custommachinery:energy", 0.8)
+    .mulInput("custommachinery:speed", 0.6)
+    .mulInput("custommachinery:energy", 0.6)
 })
