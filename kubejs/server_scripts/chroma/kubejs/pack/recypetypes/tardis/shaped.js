@@ -53,7 +53,7 @@ onEvent('recipes', (event) => {
 
         {
             output: 'tardis:circuits',
-            pattern: ['CXI', 'CER', 'CXE'],
+            pattern: ['CXI', 'CER', 'CXI'],
             key: {
                 C: 'tardis:circuit_paste',
                 X: 'tardis:xion_crystal',
