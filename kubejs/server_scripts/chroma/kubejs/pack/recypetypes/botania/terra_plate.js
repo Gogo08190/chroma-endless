@@ -73,7 +73,7 @@ onEvent('recipes', (event) => {
       },
       {
           inputs: [
-              { item: empty_creative_pool },
+              { item: 'empty_creative_pool' },
               { item: 'botania:blacker_lotus' },
               { item: 'botania:blacker_lotus' },
               { item: 'botania:blacker_lotus' },
