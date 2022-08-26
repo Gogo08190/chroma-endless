@@ -1,0 +1,6 @@
+{
+  "parent": "botania:block/shapes/pool",
+  "textures": {
+    "all": "kubejs:block/empty_creative_pool"
+  }
+}
