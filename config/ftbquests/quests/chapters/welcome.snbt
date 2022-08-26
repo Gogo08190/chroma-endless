@@ -90,6 +90,7 @@
 			icon: "ftbquests:book"
 			x: -1.5d
 			y: 1.25d
+			description: ["Quests follows a certain order according to their recipes, but sometimes you will not be able to complete one because you do not have yet certains items used in its recipe. Do not worry, it is normal, you can come back to it later, and it is necessarily a secondary quest."]
 			dependencies: ["1416718F40ED7569"]
 			id: "0F3AA93C73E3986C"
 			tasks: [{
