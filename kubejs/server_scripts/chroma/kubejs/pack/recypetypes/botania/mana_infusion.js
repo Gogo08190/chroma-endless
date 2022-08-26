@@ -116,8 +116,6 @@ onEvent('recipes', (event) => {
 
     }
 
-
-
   ];
   recipes.forEach((recipe) => {
         let constructed_recipe = {

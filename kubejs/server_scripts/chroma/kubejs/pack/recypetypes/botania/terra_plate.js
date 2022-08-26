@@ -70,6 +70,20 @@ onEvent('recipes', (event) => {
           output: { item: 'ironjetpacks:terrasteel_cell' },
           mana: 2500000,
           id: `${id_prefix}terrastell_cell`
+      },
+      {
+          inputs: [
+              { item: empty_creative_pool },
+              { item: 'botania:blacker_lotus' },
+              { item: 'botania:blacker_lotus' },
+              { item: 'botania:blacker_lotus' },
+              { item: 'kubejs:gaia_spirit_block' },
+              { item: 'kubejs:gaia_spirit_block' },
+              { item: 'kubejs:gaia_spirit_block' }
+          ],
+          output: { item: 'botania:creative_pool' },
+          mana: 5000000,
+          id: `${id_prefix}creative_pool`
       }
 
     ];
