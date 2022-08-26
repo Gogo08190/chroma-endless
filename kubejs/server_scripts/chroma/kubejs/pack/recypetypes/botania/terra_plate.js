@@ -73,44 +73,6 @@ onEvent('recipes', (event) => {
       },
       {
           inputs: [
-              Item.of('botania:terra_sword', '{Damage:0}').weakNBT(),
-              { item: 'extendedcrafting:nether_star_block' },
-              { item: 'minecraft:blaze_rod' },
-              { item: 'minecraft:blaze_rod' },
-              { item: 'minecraft:blaze_rod' },
-              { item: 'minecraft:blaze_rod' },
-              { item: 'minecraft:blaze_rod' },
-              { item: 'minecraft:wither_skeleton_skull' },
-              { item: 'minecraft:wither_skeleton_skull' },
-              { item: 'minecraft:wither_skeleton_skull' },
-              { item: 'minecraft:wither_skeleton_skull' },
-              { item: 'minecraft:wither_skeleton_skull' }
-          ],
-          output: { item: 'wstweaks:blaze_blade' },
-          mana: 125000,
-          id: 'wstweaks:blaze_blade'
-      },
-      {
-          inputs: [
-              Item.of('botania:terra_sword', '{Damage:0}').weakNBT(),
-              { item: 'extendedcrafting:nether_star_block' },
-              { item: 'minecraft:lava_bucket' },
-              { item: 'minecraft:lava_bucket' },
-              { item: 'minecraft:lava_bucket' },
-              { item: 'minecraft:lava_bucket' },
-              { item: 'minecraft:lava_bucket' },
-              { item: 'minecraft:wither_skeleton_skull' },
-              { item: 'minecraft:wither_skeleton_skull' },
-              { item: 'minecraft:wither_skeleton_skull' },
-              { item: 'minecraft:wither_skeleton_skull' },
-              { item: 'minecraft:wither_skeleton_skull' }
-          ],
-          output: { item: 'wstweaks:lava_blade' },
-          mana: 125000,
-          id: 'wstweaks:lava_blade'
-      },
-      {
-          inputs: [
               { item: 'empty_creative_pool' },
               { item: 'botania:blacker_lotus' },
               { item: 'botania:blacker_lotus' },
