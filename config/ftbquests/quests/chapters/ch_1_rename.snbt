@@ -2333,14 +2333,46 @@
 			}]
 		}
 		{
-			x: 22.0d
+			title: "Storage For Fluids"
+			x: 19.25d
 			y: 19.25d
+			dependencies: ["55A9D9FFD7E1897C"]
 			id: "5B8F4DABCEBD4C02"
-			tasks: [{
-				id: "2777918BFD2B4788"
-				type: "item"
-				item: "create:item_drain"
-			}]
+			tasks: [
+				{
+					id: "2777918BFD2B4788"
+					type: "item"
+					item: "create:item_drain"
+				}
+				{
+					id: "379B5364FBCA5F81"
+					type: "item"
+					item: "create:shaft"
+					count: 2L
+				}
+				{
+					id: "51FF272B282F0EB6"
+					type: "item"
+					item: "create:mechanical_pump"
+				}
+				{
+					id: "350081DA902002AE"
+					type: "item"
+					item: "create:fluid_pipe"
+					count: 3L
+				}
+				{
+					id: "678E1A7EA0740FD4"
+					type: "item"
+					item: "create:fluid_tank"
+					count: 3L
+				}
+				{
+					id: "1DA302D81C753A72"
+					type: "item"
+					item: "create:belt_connector"
+				}
+			]
 		}
 		{
 			title: "Wheat Farm"
@@ -3318,6 +3350,17 @@
 				id: "698A7978870E7020"
 				type: "item"
 				item: "create:precision_mechanism"
+			}]
+		}
+		{
+			x: 19.25d
+			y: 20.75d
+			dependencies: ["761BAE3E76AB71A3"]
+			id: "55A9D9FFD7E1897C"
+			tasks: [{
+				id: "09265D19C606E715"
+				type: "item"
+				item: "create:copper_casing"
 			}]
 		}
 	]
