@@ -65,7 +65,7 @@
     "SpawnData": {
         "canSpawnInWorld": true,
         "biomeWhitelist": "tag:FOREST,CLEARING",
-        "biomeBlacklist": "tag:OCEAN",
+        "biomeBlacklist": "tag:OCEAN,NETHER,END",
         "minGroupSize": 2,
         "maxGroupSize": 3,
         "minYLevel": 60,
