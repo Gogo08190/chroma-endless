@@ -1,0 +1,17 @@
+{
+	id: "789E2F722C696460"
+	group: "34085A64296DE6C7"
+	order_index: 9
+	filename: "alexs_mobs"
+	title: "Alex's Mobs"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "alexsmobs:textures/mob_effect/orcas_might.png"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}
