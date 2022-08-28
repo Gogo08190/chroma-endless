@@ -1220,4 +1220,328 @@ onEvent("recipes", (event) => {
       }
     }
   ).id('projectexpansion:infinite_steak')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        " A   A ",
+        "ABAAACA",
+        "AADEFAA",
+        "AAAAAAA",
+        "A     A",
+        "A     A",
+        "       "
+      ],
+      "key": {
+        "A": {
+          "item": "allthemodium:allthemodium_ingot"
+        },
+        "B": {
+          "type": "forge:nbt",
+          "item": "botania:terrasteel_helmet",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        },
+        "C": {
+          "type": "forge:nbt",
+          "item": "betterendforge:crystalite_helmet",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        },
+        "D": {
+          "type": "forge:nbt",
+          "item": "undergarden:utheric_helmet",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        },
+        "E": {
+          "item": "miniutilities:infused_helmet"
+        },
+        "F": {
+          "type": "forge:nbt",
+          "item": "mekanismtools:refined_obsidian_helmet",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        }
+      },
+      "result": {
+        "item": "allthemodium:allthemodium_helmet"
+      }
+    }
+  ).id('allthemodium:main/allthemodium_helmet')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "AA   AA",
+        "AA   AA",
+        "AAAAAAA",
+        " ABACA ",
+        " AADAA ",
+        " AEAFA ",
+        " AAAAA "
+      ],
+      "key": {
+        "A": {
+          "item": "allthemodium:allthemodium_ingot"
+        },
+        "B": {
+          "type": "forge:nbt",
+          "item": "botania:terrasteel_chestplate",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        },
+        "C": {
+          "type": "forge:nbt",
+          "item": "betterendforge:crystalite_chestplate",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        },
+        "D": {
+          "item": "miniutilities:infused_chestplate"
+        },
+        "E": {
+          "type": "forge:nbt",
+          "item": "mekanismtools:refined_obsidian_chestplate",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        },
+        "F": {
+          "type": "forge:nbt",
+          "item": "undergarden:utheric_chestplate",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        }
+      },
+      "result": {
+        "item": "allthemodium:allthemodium_chestplate"
+      }
+    }
+  ).id('allthemodium:main/allthemodium_chestplate')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        " AAAAA ",
+        "AAABAAA",
+        "ACA ADA",
+        "AAA AAA",
+        "AAA AAA",
+        "AEA AFA",
+        "AAA AAA"
+      ],
+      "key": {
+        "A": {
+          "item": "allthemodium:allthemodium_ingot"
+        },
+        "B": {
+          "item": "miniutilities:infused_leggings"
+        },
+        "C": {
+          "type": "forge:nbt",
+          "item": "mekanismtools:refined_obsidian_leggings",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        },
+        "D": {
+          "type": "forge:nbt",
+          "item": "undergarden:utheric_leggings",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        },
+        "E": {
+          "type": "forge:nbt",
+          "item": "botania:terrasteel_leggings",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        },
+        "F": {
+          "type": "forge:nbt",
+          "item": "betterendforge:crystalite_leggings",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        }
+      },
+      "result": {
+        "item": "allthemodium:allthemodium_leggings"
+      }
+    }
+  ).id('allthemodium:main/allthemodium_leggings')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "       ",
+        "A     A",
+        "A     A",
+        "AAA AAA",
+        "ABA ACA",
+        "ADA AEA",
+        "AAAFAAA"
+      ],
+      "key": {
+        "A": {
+          "item": "allthemodium:allthemodium_ingot"
+        },
+        "B": {
+          "type": "forge:nbt",
+          "item": "botania:terrasteel_boots",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        },
+        "C": {
+          "type": "forge:nbt",
+          "item": "betterendforge:crystalite_boots",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        },
+        "D": {
+          "type": "forge:nbt",
+          "item": "mekanismtools:refined_obsidian_boots",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        },
+        "E": {
+          "type": "forge:nbt",
+          "item": "undergarden:utheric_boots",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        },
+        "F": {
+          "item": "miniutilities:infused_boots"
+        }
+      },
+      "result": {
+        "item": "allthemodium:allthemodium_boots"
+      }
+    }
+  ).id('allthemodium:main/allthemodium_boots')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "  AABAA  ",
+        " A  C  A ",
+        "A   C   A",
+        "A   C   A",
+        "    C    ",
+        "    C    ",
+        "    C    ",
+        "    C    ",
+        "    C    "
+      ],
+      "key": {
+        "A": {
+          "item": "allthemodium:unobtainium_vibranium_alloy_block"
+        },
+        "B": {
+          "item": "projecte:rm_pick"
+        },
+        "C": {
+          "item": "allthemodium:allthemodium_block"
+        }
+      },
+      "result": {
+        "item": "allthemodium:alloy_pick"
+      }
+    }
+  ).id('allthemodium:main/alloy_pick')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        " AA B AA ",
+        "A  ABA  A",
+        "A   C   A",
+        "A  ABA  A",
+        " AA B AA ",
+        "    B    ",
+        "    B    ",
+        "    B    ",
+        "    B    "
+      ],
+      "key": {
+        "A": {
+          "item": "allthemodium:unobtainium_vibranium_alloy_block"
+        },
+        "B": {
+          "item": "allthemodium:allthemodium_block"
+        },
+        "C": {
+          "item": "projecte:rm_axe"
+        }
+      },
+      "result": {
+        "item": "allthemodium:alloy_axe"
+      }
+    }
+  ).id('allthemodium:main/alloy_axe')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "      AAA",
+        "     AAAA",
+        "    AAAAA",
+        "   AAAAA ",
+        "B AAAAA  ",
+        "BBAAAA   ",
+        "BBCAA    ",
+        " BBB     ",
+        "B BBB    "
+      ],
+      "key": {
+        "A": {
+          "item": "allthemodium:unobtainium_vibranium_alloy_block"
+        },
+        "B": {
+          "item": "allthemodium:allthemodium_block"
+        },
+        "C": {
+          "item": "projecte:rm_sword"
+        }
+      },
+      "result": {
+        "item": "allthemodium:alloy_sword"
+      }
+    }
+  ).id('allthemodium:main/alloy_sword')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "    A    ",
+        "   AAA   ",
+        "  AAAAA  ",
+        "  AAAAA  ",
+        "  BAAAB  ",
+        "   BCB   ",
+        "    B    ",
+        "    B    ",
+        "    B    "
+      ],
+      "key": {
+        "A": {
+          "item": "allthemodium:unobtainium_vibranium_alloy_block"
+        },
+        "B": {
+          "item": "allthemodium:allthemodium_block"
+        },
+        "C": {
+          "item": "projecte:rm_shovel"
+        }
+      },
+      "result": {
+        "item": "allthemodium:alloy_shovel"
+      }
+    }
+  ).id('allthemodium:main/alloy_shovel')
 });
