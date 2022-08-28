@@ -67,7 +67,7 @@
     "SpawnData": {
       "canSpawnInWorld": true,
       "biomeWhitelist": "tag:nether",
-      "spawnWeight": 5,
+      "spawnWeight": 6,
       "minYLevel": 0,
       "maxYLevel": 255,
       "minGroupSize": 1,

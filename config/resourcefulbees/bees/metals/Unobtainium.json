@@ -36,10 +36,8 @@
     },
     "BreedData": {
       "isBreedable": true,
-      "parent1": "zinc",
-      "parent2": "nickel",
       "feedItem": "allthemodium:unobtainium_block",
-      "feedAmount": 5,
+      "feedAmount": 10,
       "childGrowthDelay": -24000,
       "breedDelay": 6000
     },
