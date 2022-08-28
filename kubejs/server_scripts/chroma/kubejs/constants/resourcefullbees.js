@@ -111,7 +111,11 @@ const honeyVarieties = [
     'resourcefulbees:sand_honey',
     'resourcefulbees:gravel_honey',
     'resourcefulbees:experience_honey',
-    'resourcefulbees:graphite_honey'
+    'resourcefulbees:graphite_honey',
+    'resourcefulbees:vibranium_honey',
+    'resourcefulbees:unobtainium_honey',
+    'resourcefulbees:allthemodium_honey',
+    'resourcefulbees:soul_lava_honey'
 
 ];
 
@@ -224,7 +228,11 @@ const combVariants = [
     'experience',
     'sand',
     'gravel',
-    'graphite'
+    'graphite',
+    'soul_lava',
+    'vibranium',
+    'allthemodium',
+    'unobtainium'
 ];
 
 const bees = [];

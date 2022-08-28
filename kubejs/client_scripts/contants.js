@@ -863,5 +863,9 @@ const craftedBees = [
     'experience',
     'gravel',
     'sand',
-    'graphite'
+    'graphite',
+    'soul_lava',
+    'unobtainium',
+    'vibranium',
+    'allthemodium'
 ];
