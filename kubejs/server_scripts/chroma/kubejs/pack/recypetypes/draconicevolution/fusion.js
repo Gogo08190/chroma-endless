@@ -420,7 +420,76 @@ onEvent('recipes', (event) => {
           total_energy: 5000000,
           result: { item: 'projecte:condenser_mk2' },
           id: 'projecte:condenser_mk2'
+      },
+      {
+          inputs: [
+              { item: 'allthemodium:unobtainium_block' },
+              { item: 'allthemodium:unobtainium_block' },
+              { item: 'allthemodium:unobtainium_block' },
+              { item: 'allthemodium:unobtainium_block' },
+              { item: 'allthemodium:unobtainium_block' },
+              { item: 'allthemodium:unobtainium_block' },
+              { item: 'allthemodium:unobtainium_vibranium_alloy_block' },
+              { item: 'allthemodium:unobtainium_vibranium_alloy_block' }
+          ],
+          tier: "CHAOTIC",
+          catalyst: Item.of('allthemodium:vibranium_boots').weakNBT(),
+          total_energy: 5000000,
+          result: Item.of('allthemodium:unobtainium_boots').weakNBT(),
+          id: 'allthemodium:main/unobtainium_boots
+      },
+      {
+          inputs: [
+              { item: 'allthemodium:unobtainium_block' },
+              { item: 'allthemodium:unobtainium_block' },
+              { item: 'allthemodium:unobtainium_block' },
+              { item: 'allthemodium:unobtainium_block' },
+              { item: 'allthemodium:unobtainium_block' },
+              { item: 'allthemodium:unobtainium_block' },
+              { item: 'allthemodium:unobtainium_vibranium_alloy_block' },
+              { item: 'allthemodium:unobtainium_vibranium_alloy_block' }
+          ],
+          tier: "CHAOTIC",
+          catalyst: Item.of('allthemodium:vibranium_leggings').weakNBT(),
+          total_energy: 5000000,
+          result: Item.of('allthemodium:unobtainium_leggings').weakNBT(),
+          id: 'allthemodium:main/unobtainium_leggings
+      },
+      {
+          inputs: [
+              { item: 'allthemodium:unobtainium_block' },
+              { item: 'allthemodium:unobtainium_block' },
+              { item: 'allthemodium:unobtainium_block' },
+              { item: 'allthemodium:unobtainium_block' },
+              { item: 'allthemodium:unobtainium_block' },
+              { item: 'allthemodium:unobtainium_block' },
+              { item: 'allthemodium:unobtainium_vibranium_alloy_block' },
+              { item: 'allthemodium:unobtainium_vibranium_alloy_block' }
+          ],
+          tier: "CHAOTIC",
+          catalyst: Item.of('allthemodium:vibranium_chestplate').weakNBT(),
+          total_energy: 5000000,
+          result: Item.of('allthemodium:unobtainium_chestplate').weakNBT(),
+          id: 'allthemodium:main/unobtainium_chestplate
+      },
+      {
+          inputs: [
+              { item: 'allthemodium:unobtainium_block' },
+              { item: 'allthemodium:unobtainium_block' },
+              { item: 'allthemodium:unobtainium_block' },
+              { item: 'allthemodium:unobtainium_block' },
+              { item: 'allthemodium:unobtainium_block' },
+              { item: 'allthemodium:unobtainium_block' },
+              { item: 'allthemodium:unobtainium_vibranium_alloy_block' },
+              { item: 'allthemodium:unobtainium_vibranium_alloy_block' }
+          ],
+          tier: "CHAOTIC",
+          catalyst: Item.of('allthemodium:vibranium_helmet').weakNBT(),
+          total_energy: 5000000,
+          result: Item.of('allthemodium:unobtainium_helmet').weakNBT(),
+          id: 'allthemodium:main/unobtainium_helmet
       }
+
     ];
 
     recipes.forEach((recipe) => {
