@@ -1,0 +1,156 @@
+{
+	id: "5111CC18F2460830"
+	group: ""
+	order_index: 1
+	filename: "wip_quests"
+	title: "WIP Quests (Dév.)"
+	icon: "mekanism:security_desk"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "50AC7954D55A16A1"
+			tasks: [{
+				id: "1987E908A4D6B520"
+				type: "checkmark"
+				title: "Chapter 1"
+			}]
+		}
+		{
+			x: 0.75d
+			y: 1.5d
+			description: [
+				"Quêtes : Fait"
+				"Positions : Fait (peut être à revoir)"
+				"Visuels : En cours"
+				"Descriptions : À faire"
+				"Rewards : À faire"
+			]
+			dependencies: ["50AC7954D55A16A1"]
+			id: "23B8B2D48F074D7C"
+			tasks: [{
+				id: "49DED667E085D51A"
+				type: "checkmark"
+				title: "Expanded Storage + Metal Barrels + Drawers"
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "emojiful:textures/26a0.png"
+				}
+			}
+			x: 0.0d
+			y: -1.5d
+			description: [
+				"Ici l'avancement des quêtes."
+				""
+				" - Quêtes : création des quêtes avec titre, tasks...."
+				" - Positions : Positions X et Y des quêtes."
+				" - Visuels : Icônes, couleurs..."
+			]
+			id: "30AFEE69A5611AA0"
+			tasks: [{
+				id: "5268A7599B73EFFB"
+				type: "checkmark"
+				title: "WIP Quests"
+			}]
+		}
+		{
+			x: -0.75d
+			y: 1.5d
+			description: [
+				"Quêtes : En cours"
+				"Positions : /"
+				"Visuels : /"
+				"Desciptions : À faire"
+				"Rewards : À faire"
+			]
+			dependencies: ["50AC7954D55A16A1"]
+			id: "257D7C966898688A"
+			tasks: [{
+				id: "2617478F9AEEDC42"
+				type: "checkmark"
+				title: "Tetra"
+			}]
+		}
+		{
+			x: -2.25d
+			y: 1.5d
+			description: [
+				"Quêtes : En cours"
+				"Positions : /"
+				"Visuels : /"
+				"Desciptions : À faire"
+				"Rewards : À faire"
+			]
+			dependencies: ["50AC7954D55A16A1"]
+			id: "3B17CF0B4A59603D"
+			tasks: [{
+				id: "4A42F0F32BD19138"
+				type: "checkmark"
+				title: "Tinkers' (Outils)"
+			}]
+		}
+		{
+			x: 2.25d
+			y: 1.5d
+			description: [
+				"Quêtes : Fait"
+				"Positions : Fait (peut être à revoir)"
+				"Visuels : En cours"
+				"Desciptions : À faire"
+				"Rewards : À faire"
+			]
+			dependencies: ["50AC7954D55A16A1"]
+			id: "232F1E06D17D93C5"
+			tasks: [{
+				id: "3F08B7E053AB0411"
+				type: "checkmark"
+				title: "Tinkers (Smeltery, Foundry,...)"
+			}]
+		}
+		{
+			x: 3.75d
+			y: 1.5d
+			description: [
+				"Quêtes : Fait (benji)"
+				"Positions : En cours"
+				"Visuels : En cours"
+				"Desciptions : À faire"
+				"Rewards : À faire"
+				""
+				"Note de Z4RM : je suis en train de check les quêtes, tous les items à droite sont pour moi ça ne va pas rester comme ça merci de ne pas y toucher"
+			]
+			dependencies: ["50AC7954D55A16A1"]
+			id: "4E8BE91C68D5256F"
+			tasks: [{
+				id: "4EFC08B61625C20B"
+				type: "checkmark"
+				title: "Create"
+			}]
+		}
+		{
+			x: -3.75d
+			y: 1.5d
+			description: [
+				"Quêtes : Fait (peut être à revoir)"
+				"Positions : Fait (peut être à revoir)"
+				"Visuels : En cours"
+				"Desciptions : À faire"
+				"Rewards : À faire"
+			]
+			dependencies: ["50AC7954D55A16A1"]
+			id: "46972B2667761A95"
+			tasks: [{
+				id: "69D46156B4A87F51"
+				type: "checkmark"
+				title: "Vanilla"
+			}]
+		}
+	]
+}
