@@ -435,8 +435,8 @@ onEvent('recipes', (event) => {
           tier: "CHAOTIC",
           catalyst: Item.of('allthemodium:vibranium_boots').weakNBT(),
           total_energy: 5000000,
-          result: Item.of('allthemodium:unobtainium_boots').weakNBT(),
-          id: 'allthemodium:main/unobtainium_boots
+          result: 'allthemodium:unobtainium_boots',
+          id: 'allthemodium:main/unobtainium_boots'
       },
       {
           inputs: [
@@ -452,8 +452,8 @@ onEvent('recipes', (event) => {
           tier: "CHAOTIC",
           catalyst: Item.of('allthemodium:vibranium_leggings').weakNBT(),
           total_energy: 5000000,
-          result: Item.of('allthemodium:unobtainium_leggings').weakNBT(),
-          id: 'allthemodium:main/unobtainium_leggings
+          result: 'allthemodium:unobtainium_leggings',
+          id: 'allthemodium:main/unobtainium_leggings'
       },
       {
           inputs: [
@@ -469,8 +469,8 @@ onEvent('recipes', (event) => {
           tier: "CHAOTIC",
           catalyst: Item.of('allthemodium:vibranium_chestplate').weakNBT(),
           total_energy: 5000000,
-          result: Item.of('allthemodium:unobtainium_chestplate').weakNBT(),
-          id: 'allthemodium:main/unobtainium_chestplate
+          result: 'allthemodium:unobtainium_chestplate',
+          id: 'allthemodium:main/unobtainium_chestplate'
       },
       {
           inputs: [
@@ -486,10 +486,26 @@ onEvent('recipes', (event) => {
           tier: "CHAOTIC",
           catalyst: Item.of('allthemodium:vibranium_helmet').weakNBT(),
           total_energy: 5000000,
-          result: Item.of('allthemodium:unobtainium_helmet').weakNBT(),
-          id: 'allthemodium:main/unobtainium_helmet
+          result: 'allthemodium:unobtainium_helmet',
+          id: 'allthemodium:main/unobtainium_helmet'
+      },
+      {
+          inputs: [
+              Item.of('allthemodium:alloy_sword').weakNBT(),
+              Item.of('allthemodium:alloy_pick').weakNBT(),
+              Item.of('allthemodium:alloy_shovel').weakNBT(),
+              Item.of('allthemodium:alloy_axe').weakNBT(),
+              { item: 'allthemodium:vibranium_allthemodium_alloy_block' },
+              { item: 'allthemodium:vibranium_allthemodium_alloy_block' },
+              { item: 'allthemodium:unobtainium_allthemodium_alloy_block' },
+              { item: 'allthemodium:unobtainium_allthemodium_alloy_block' }
+          ],
+          tier: "CHAOTIC",
+          catalyst: { item: 'projecte:rm_morning_star' },
+          total_energy: 5000000,
+          result: 'allthemodium:alloy_paxel',
+          id: 'allthemodium:main/alloy_paxel'
       }
-
     ];
 
     recipes.forEach((recipe) => {
