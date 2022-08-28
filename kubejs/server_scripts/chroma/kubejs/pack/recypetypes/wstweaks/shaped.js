@@ -2,7 +2,7 @@ onEvent('recipes', (event) => {
     const recipes = [
         {
             output: 'wstweaks:lava_blade',
-            pattern: [' BS', 'RNR', 'HB'],
+            pattern: [' BS', 'RNR', 'HB '],
             key: {
                 B: 'tconstruct:blazing_bone',
                 S: 'betterendforge:aeternium_sword_blade',
@@ -14,7 +14,7 @@ onEvent('recipes', (event) => {
         },
         {
             output: 'wstweaks:blaze_blade',
-            pattern: [' BS', 'RNR', 'HB'],
+            pattern: [' BS', 'RNR', 'HB '],
             key: {
                 B: 'tconstruct:blazing_bone',
                 S: 'betterendforge:aeternium_sword_blade',

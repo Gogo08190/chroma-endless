@@ -435,7 +435,7 @@ onEvent('recipes', (event) => {
           tier: "CHAOTIC",
           catalyst: Item.of('allthemodium:vibranium_boots').weakNBT(),
           total_energy: 5000000,
-          result: 'allthemodium:unobtainium_boots',
+          result: { item: 'allthemodium:unobtainium_boots' },
           id: 'allthemodium:main/unobtainium_boots'
       },
       {
@@ -452,7 +452,7 @@ onEvent('recipes', (event) => {
           tier: "CHAOTIC",
           catalyst: Item.of('allthemodium:vibranium_leggings').weakNBT(),
           total_energy: 5000000,
-          result: 'allthemodium:unobtainium_leggings',
+          result: { item: 'allthemodium:unobtainium_leggings' },
           id: 'allthemodium:main/unobtainium_leggings'
       },
       {
@@ -469,7 +469,7 @@ onEvent('recipes', (event) => {
           tier: "CHAOTIC",
           catalyst: Item.of('allthemodium:vibranium_chestplate').weakNBT(),
           total_energy: 5000000,
-          result: 'allthemodium:unobtainium_chestplate',
+          result: { item: 'allthemodium:unobtainium_chestplate' },
           id: 'allthemodium:main/unobtainium_chestplate'
       },
       {
@@ -486,7 +486,7 @@ onEvent('recipes', (event) => {
           tier: "CHAOTIC",
           catalyst: Item.of('allthemodium:vibranium_helmet').weakNBT(),
           total_energy: 5000000,
-          result: 'allthemodium:unobtainium_helmet',
+          result: { item: 'allthemodium:unobtainium_helmet' },
           id: 'allthemodium:main/unobtainium_helmet'
       },
       {
@@ -503,7 +503,7 @@ onEvent('recipes', (event) => {
           tier: "CHAOTIC",
           catalyst: { item: 'projecte:rm_morning_star' },
           total_energy: 5000000,
-          result: 'allthemodium:alloy_paxel',
+          result: { item: 'allthemodium:alloy_paxel' },
           id: 'allthemodium:main/alloy_paxel'
       }
     ];
