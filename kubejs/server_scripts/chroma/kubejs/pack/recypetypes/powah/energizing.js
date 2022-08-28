@@ -581,6 +581,70 @@ onEvent('recipes', (event) => {
               count: 1
           },
           id: `${id_prefix}vibranium_allthemodium_alloy_ingot`
+      },
+      {
+          ingredients: [
+              Item.of('allthemodium:allthemodium_helmet').weakNBT(),
+              { item: 'allthemodium:vibranium_block' },
+              { item: 'allthemodium:vibranium_block' },
+              { item: 'allthemodium:vibranium_block' },
+              { item: 'allthemodium:vibranium_block' },
+              { item: 'allthemodium:vibranium_block' },
+          ],
+          energy: 1000000,
+          result: {
+              item: 'allthemodium:vibranium_helmet',
+              count: 1
+          },
+          id: 'allthemodium:main/vibranium_helmet'
+      },
+      {
+          ingredients: [
+              Item.of('allthemodium:allthemodium_chestplate').weakNBT(),
+              { item: 'allthemodium:vibranium_block' },
+              { item: 'allthemodium:vibranium_block' },
+              { item: 'allthemodium:vibranium_block' },
+              { item: 'allthemodium:vibranium_block' },
+              { item: 'allthemodium:vibranium_block' },
+          ],
+          energy: 1000000,
+          result: {
+              item: 'allthemodium:vibranium_chestplate',
+              count: 1
+          },
+          id: 'allthemodium:main/vibranium_chestplate'
+      },
+      {
+          ingredients: [
+              Item.of('allthemodium:allthemodium_leggings').weakNBT(),
+              { item: 'allthemodium:vibranium_block' },
+              { item: 'allthemodium:vibranium_block' },
+              { item: 'allthemodium:vibranium_block' },
+              { item: 'allthemodium:vibranium_block' },
+              { item: 'allthemodium:vibranium_block' },
+          ],
+          energy: 1000000,
+          result: {
+              item: 'allthemodium:vibranium_leggings',
+              count: 1
+          },
+          id: 'allthemodium:main/vibranium_leggings'
+      },
+      {
+          ingredients: [
+              Item.of('allthemodium:allthemodium_boots').weakNBT(),
+              { item: 'allthemodium:vibranium_block' },
+              { item: 'allthemodium:vibranium_block' },
+              { item: 'allthemodium:vibranium_block' },
+              { item: 'allthemodium:vibranium_block' },
+              { item: 'allthemodium:vibranium_block' },
+          ],
+          energy: 1000000,
+          result: {
+              item: 'allthemodium:vibranium_boots',
+              count: 1
+          },
+          id: 'allthemodium:main/vibranium_boots'
       }
     ];
 
