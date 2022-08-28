@@ -27,7 +27,7 @@
 			y: 0.0d
 			subtitle: "Logging time!"
 			description: [
-				"Cut down a tree to collect &6logs&r (any &6logs&r work)."
+				"Cut down a tree to collect &#806517logs&r (any &#806517logs&r work)."
 				"Pro tip: don't forget ultimine!"
 			]
 			size: 1.25d
@@ -174,7 +174,7 @@
 			}]
 		}
 		{
-			title: "&6Wooden Tools&r"
+			title: "&#806517Wooden Tools&r"
 			x: 1.75d
 			y: 3.75d
 			subtitle: "Don't use this!"
@@ -184,7 +184,7 @@
 				{
 					id: "25EE9037AE20F5DF"
 					type: "item"
-					title: "&6Wooden Pickaxe&r"
+					title: "&#806517Wooden Pickaxe&r"
 					item: {
 						id: "minecraft:wooden_pickaxe"
 						Count: 1b
@@ -196,7 +196,7 @@
 				{
 					id: "2E70715A64E7B8A5"
 					type: "item"
-					title: "&6Wooden Axe&r"
+					title: "&#806517Wooden Axe&r"
 					item: {
 						id: "minecraft:wooden_axe"
 						Count: 1b
@@ -212,13 +212,13 @@
 			y: 6.75d
 			subtitle: "Finally a working tool."
 			description: [
-				"Put your previously crafted vanilla &6Wooden Pickaxe&r into the Tetra Workbench."
+				"Put your previously crafted vanilla &#806517Wooden Pickaxe&r into the Tetra Workbench."
 				""
-				"Then click &o\"Repair\"&r and place a &6Plank&r in the slot."
+				"Then click &o\"Repair\"&r and place a &#806517Plank&r in the slot."
 				""
-				"If you have a &6Wooden Axe&r (or another level 1 axe) in your inventory, you will be able to click &o\"Craft\"&r."
+				"If you have a &#806517Wooden Axe&r (or another level 1 axe) in your inventory, you will be able to click &o\"Craft\"&r."
 				""
-				"Your Minecraft &6Wooden Pickaxe&r is now a Tetra &6Wooden Pickaxe&r and has a durability of 59."
+				"Your Minecraft &#806517Wooden Pickaxe&r is now a Tetra &#806517Wooden Pickaxe&r and has a durability of 59."
 				""
 				"{image:chroma:textures/quests/tetra_wooden_pickaxe_repair.png width:256 height:196 align:1}"
 			]
@@ -231,7 +231,7 @@
 			tasks: [{
 				id: "7F11C1AEA85E976B"
 				type: "item"
-				title: "&6Wooden Pickaxe&r"
+				title: "&#806517Wooden Pickaxe&r"
 				item: {
 					id: "tetra:modular_double"
 					Count: 1b
@@ -274,8 +274,8 @@
 		}
 		{
 			title: "To Ch. 2 (rename)"
-			x: 32.5d
-			y: 21.25d
+			x: 48.0d
+			y: 22.0d
 			shape: "gear"
 			size: 8.0d
 			id: "12F51EE93A420344"
@@ -351,7 +351,7 @@
 			}]
 		}
 		{
-			title: "&6Wooden Pickaxe&r Parts"
+			title: "&#806517Wooden Pickaxe&r Parts"
 			icon: {
 				id: "tconstruct:pickaxe_head"
 				Count: 1b
@@ -368,7 +368,7 @@
 				{
 					id: "79D2944035185965"
 					type: "item"
-					title: "&6Wooden Pickaxe&r Head"
+					title: "&#806517Wooden Pickaxe&r Head"
 					item: {
 						id: "tconstruct:pickaxe_head"
 						Count: 1b
@@ -380,7 +380,7 @@
 				{
 					id: "4E5AF00AE0836653"
 					type: "item"
-					title: "&6Wooden&r Tool Handle"
+					title: "&#806517Wooden&r Tool Handle"
 					item: {
 						id: "tconstruct:tool_handle"
 						Count: 1b
@@ -392,7 +392,7 @@
 				{
 					id: "23E4F8FD05BEC76E"
 					type: "item"
-					title: "&6Wooden&r Tool Binding"
+					title: "&#806517Wooden&r Tool Binding"
 					item: {
 						id: "tconstruct:tool_binding"
 						Count: 1b
@@ -412,7 +412,7 @@
 			tasks: [{
 				id: "34E5E08365596A54"
 				type: "item"
-				title: "&6Wooden Pickaxe&r"
+				title: "&#806517Wooden Pickaxe&r"
 				item: {
 					id: "tconstruct:pickaxe"
 					Count: 1b
@@ -452,7 +452,7 @@
 			}]
 		}
 		{
-			title: "&6Bitumen&r"
+			title: "&#806517Bitumen&r"
 			x: 1.25d
 			y: 12.25d
 			shape: "pentagon"
@@ -470,7 +470,7 @@
 			}]
 		}
 		{
-			title: "&6Cinnabar&r"
+			title: "&#806517Cinnabar&r"
 			x: 2.0d
 			y: 11.5d
 			shape: "pentagon"
@@ -488,7 +488,7 @@
 			}]
 		}
 		{
-			title: "&6Coal&r"
+			title: "&#806517Coal&r"
 			x: 1.25d
 			y: 10.75d
 			shape: "pentagon"
@@ -506,7 +506,7 @@
 			}]
 		}
 		{
-			title: "&6Uraninite&r"
+			title: "&#806517Uraninite&r"
 			x: 0.5d
 			y: 11.5d
 			shape: "pentagon"
@@ -542,7 +542,7 @@
 			}]
 		}
 		{
-			title: "&8Lapis Lazuli&r"
+			title: "&#918E85Lapis Lazuli&r"
 			x: -0.5d
 			y: 11.25d
 			shape: "hexagon"
@@ -560,7 +560,7 @@
 			}]
 		}
 		{
-			title: "&8Copper&r"
+			title: "&#918E85Copper&r"
 			x: 2.25d
 			y: 10.5d
 			shape: "hexagon"
@@ -578,7 +578,7 @@
 			}]
 		}
 		{
-			title: "&8Aluminum&r"
+			title: "&#918E85Aluminum&r"
 			x: -0.25d
 			y: 12.25d
 			shape: "hexagon"
@@ -596,7 +596,7 @@
 			}]
 		}
 		{
-			title: "&8Osmium&r"
+			title: "&#918E85Osmium&r"
 			x: 1.25d
 			y: 13.75d
 			shape: "hexagon"
@@ -614,7 +614,7 @@
 			}]
 		}
 		{
-			title: "&8Tin&r"
+			title: "&#918E85Tin&r"
 			x: 2.75d
 			y: 12.25d
 			shape: "hexagon"
@@ -632,7 +632,7 @@
 			}]
 		}
 		{
-			title: "&8Fluorite&r"
+			title: "&#918E85Fluorite&r"
 			x: 0.5d
 			y: 13.0d
 			shape: "hexagon"
@@ -650,7 +650,7 @@
 			}]
 		}
 		{
-			title: "&8Apatite&r"
+			title: "&#918E85Apatite&r"
 			x: 2.0d
 			y: 13.0d
 			shape: "hexagon"
@@ -668,7 +668,7 @@
 			}]
 		}
 		{
-			title: "&8Potassium Nitrate&r"
+			title: "&#918E85Potassium Nitrate&r"
 			x: 2.25d
 			y: 14.0d
 			shape: "hexagon"
@@ -686,7 +686,7 @@
 			}]
 		}
 		{
-			title: "&8Source Gem&r"
+			title: "&#918E85Source Gem&r"
 			x: 0.25d
 			y: 14.0d
 			shape: "hexagon"
@@ -704,7 +704,7 @@
 			}]
 		}
 		{
-			title: "&8Dimensional Shard&r"
+			title: "&#918E85Dimensional Shard&r"
 			x: 3.0d
 			y: 11.25d
 			shape: "hexagon"
@@ -744,7 +744,7 @@
 			}]
 		}
 		{
-			title: "&7Gold&r"
+			title: "&#61666AGold&r"
 			x: -0.75d
 			y: 10.25d
 			shape: "octagon"
@@ -762,7 +762,7 @@
 			}]
 		}
 		{
-			title: "&7Diamond&r"
+			title: "&#61666ADiamond&r"
 			x: -1.5d
 			y: 11.0d
 			shape: "octagon"
@@ -780,7 +780,7 @@
 			}]
 		}
 		{
-			title: "&7Emerald&r"
+			title: "&#61666AEmerald&r"
 			x: 4.0d
 			y: 11.0d
 			shape: "octagon"
@@ -798,9 +798,9 @@
 			}]
 		}
 		{
-			title: "&7Redstone&r"
-			x: 3.25d
-			y: 10.25d
+			title: "&#61666ARedstone&r"
+			x: -1.25d
+			y: 12.0d
 			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -817,10 +817,9 @@
 		{
 			title: "&#61666ANether Quartz&r"
 			x: -0.25d
-			y: 26.0d
+			y: 25.0d
 			shape: "octagon"
 			dependencies: ["3A3CDBD5FF1985DB"]
-			dependency_requirement: "one_completed"
 			id: "0A5605FD0BE42BAF"
 			tasks: [{
 				id: "134355C7D75FC7F3"
@@ -829,7 +828,7 @@
 			}]
 		}
 		{
-			title: "&7Silver&r"
+			title: "&#61666ASilver&r"
 			x: 4.0d
 			y: 13.0d
 			shape: "octagon"
@@ -847,9 +846,9 @@
 			}]
 		}
 		{
-			title: "&7Lead&r"
-			x: 3.75d
-			y: 12.0d
+			title: "&#61666ALead&r"
+			x: -0.5d
+			y: 13.25d
 			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -865,7 +864,7 @@
 			}]
 		}
 		{
-			title: "&7Nickel&r"
+			title: "&#61666ANickel&r"
 			x: -1.5d
 			y: 13.0d
 			shape: "octagon"
@@ -883,9 +882,9 @@
 			}]
 		}
 		{
-			title: "&7Uranium&r"
-			x: -0.5d
-			y: 13.25d
+			title: "&#61666AUranium&r"
+			x: 3.25d
+			y: 10.25d
 			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -901,7 +900,7 @@
 			}]
 		}
 		{
-			title: "&7Zinc&r"
+			title: "&#61666AZinc&r"
 			x: 3.0d
 			y: 13.25d
 			shape: "octagon"
@@ -919,16 +918,11 @@
 			}]
 		}
 		{
-			title: "&7Cobalt&r"
-			x: -1.25d
-			y: 12.0d
+			title: "&#61666ACobalt&r"
+			x: -0.25d
+			y: 27.0d
 			shape: "octagon"
-			hide_dependency_lines: true
-			dependencies: [
-				"26B79EAEB1274ED9"
-				"2AB9254E7A945A22"
-			]
-			dependency_requirement: "one_completed"
+			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "1599025DD921CA80"
 			tasks: [{
 				id: "165857D0CC60892D"
@@ -937,9 +931,9 @@
 			}]
 		}
 		{
-			title: "&7Draconium&r"
-			x: 1.25d
-			y: 14.75d
+			title: "&#61666ADraconium&r"
+			x: 3.75d
+			y: 12.0d
 			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -1018,7 +1012,7 @@
 		}
 		{
 			x: 1.25d
-			y: 16.25d
+			y: 15.5d
 			dependencies: [
 				"1A641FA1C6E549DB"
 				"0BF43EA3825CC0BA"
@@ -1032,7 +1026,7 @@
 		}
 		{
 			x: -0.25d
-			y: 17.75d
+			y: 15.5d
 			subtitle: "Fast Food like &#D52B1EMcDonald's®&r"
 			description: ["A Smoker works like a Furnace, but only cooks food and run twice as fast."]
 			dependencies: ["60E0E583C1CBCE56"]
@@ -1297,7 +1291,7 @@
 			title: "Smeltery"
 			icon: "tconstruct:smeltery_controller"
 			x: 2.75d
-			y: 22.25d
+			y: 21.5d
 			dependencies: ["52157E7FBFE05315"]
 			id: "4FF742939987793B"
 			tasks: [
@@ -1349,7 +1343,7 @@
 		{
 			title: "Seared Bricks"
 			x: 2.75d
-			y: 17.75d
+			y: 17.0d
 			dependencies: [
 				"60E0E583C1CBCE56"
 				"381C9C82AD9505C7"
@@ -1367,7 +1361,7 @@
 			title: "Foundry"
 			icon: "tconstruct:foundry_controller"
 			x: 2.75d
-			y: 25.25d
+			y: 24.5d
 			dependencies: ["11525ED89B361FB8"]
 			id: "0F1BD6C918F471B1"
 			tasks: [
@@ -1444,7 +1438,7 @@
 		{
 			title: "Scorched Bricks"
 			x: 2.75d
-			y: 26.75d
+			y: 26.0d
 			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "11525ED89B361FB8"
 			tasks: [{
@@ -1534,7 +1528,7 @@
 		}
 		{
 			x: 2.75d
-			y: 23.75d
+			y: 23.0d
 			dependencies: ["4FF742939987793B"]
 			id: "6FE5CBD8A8FF0431"
 			tasks: [{
@@ -1775,8 +1769,8 @@
 			}]
 		}
 		{
-			x: 17.75d
-			y: 20.75d
+			x: 14.75d
+			y: 20.0d
 			dependencies: ["761BAE3E76AB71A3"]
 			id: "25C9708B3163FAE2"
 			tasks: [{
@@ -1786,8 +1780,8 @@
 			}]
 		}
 		{
-			x: 17.75d
-			y: 22.25d
+			x: 14.75d
+			y: 21.5d
 			dependencies: ["410AC414B2B492D1"]
 			id: "761BAE3E76AB71A3"
 			tasks: [{
@@ -1797,13 +1791,16 @@
 			}]
 		}
 		{
-			x: 11.75d
-			y: 22.25d
+			title: "Andesite Alloys"
+			x: 8.75d
+			y: 21.5d
+			description: ["cet item débloque beaucoup d'autres items dans le reste de create"]
 			dependencies: ["4FF742939987793B"]
 			id: "3441111B8198CC9D"
 			tasks: [{
 				id: "6667979E694CF489"
 				type: "item"
+				title: "32x Andesite Alloys"
 				item: "create:andesite_alloy"
 				count: 32L
 			}]
@@ -1818,7 +1815,7 @@
 				}
 			}
 			x: 1.25d
-			y: 26.75d
+			y: 26.0d
 			shape: "rsquare"
 			dependencies: [
 				"6770AB2A85C49A63"
@@ -1842,7 +1839,7 @@
 		{
 			title: "Flint and _____"
 			x: 1.25d
-			y: 23.75d
+			y: 23.0d
 			dependencies: ["3F047B28738897A0"]
 			id: "6770AB2A85C49A63"
 			tasks: [{
@@ -1862,7 +1859,7 @@
 			title: "Gold Cast"
 			icon: "tconstruct:blank_cast"
 			x: 1.25d
-			y: 22.25d
+			y: 21.5d
 			dependencies: ["4FF742939987793B"]
 			id: "3F047B28738897A0"
 			tasks: [{
@@ -1886,7 +1883,7 @@
 		{
 			title: "&#B9F2FFObsidian&r"
 			x: 1.25d
-			y: 25.25d
+			y: 24.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"1802A196B75EE8D9"
@@ -1926,7 +1923,7 @@
 		}
 		{
 			x: -0.25d
-			y: 16.25d
+			y: 17.0d
 			subtitle: "Fast Ore like...well...nothing I think"
 			description: ["A Blast Furnace works like a Furnace, but only cooks ores (and other specifics things) and run twice as fast."]
 			dependencies: [
@@ -1941,8 +1938,8 @@
 			}]
 		}
 		{
-			x: 19.25d
-			y: 22.25d
+			x: 16.25d
+			y: 21.5d
 			dependencies: ["410AC414B2B492D1"]
 			id: "5C545750FEB2314B"
 			tasks: [{
@@ -1952,8 +1949,8 @@
 			}]
 		}
 		{
-			x: 20.75d
-			y: 22.25d
+			x: 17.75d
+			y: 21.5d
 			dependencies: ["410AC414B2B492D1"]
 			id: "2F7EB9DBC6CE7522"
 			tasks: [{
@@ -1963,8 +1960,8 @@
 			}]
 		}
 		{
-			x: 13.25d
-			y: 22.25d
+			x: 10.25d
+			y: 21.5d
 			dependencies: ["3441111B8198CC9D"]
 			id: "15267232FEECB502"
 			tasks: [{
@@ -1975,8 +1972,8 @@
 		}
 		{
 			icon: "create:basin"
-			x: 14.75d
-			y: 22.25d
+			x: 11.75d
+			y: 21.5d
 			dependencies: ["3441111B8198CC9D"]
 			id: "3892F7C2CF403F2F"
 			tasks: [
@@ -1993,8 +1990,8 @@
 			]
 		}
 		{
-			x: 16.25d
-			y: 22.25d
+			x: 13.25d
+			y: 21.5d
 			dependencies: ["3441111B8198CC9D"]
 			id: "410AC414B2B492D1"
 			tasks: [{
@@ -2005,8 +2002,8 @@
 		}
 		{
 			icon: "create:hand_crank"
-			x: 13.25d
-			y: 23.75d
+			x: 10.25d
+			y: 23.0d
 			dependencies: ["15267232FEECB502"]
 			id: "5A15F4F1EFF567AC"
 			tasks: [
@@ -2023,8 +2020,8 @@
 			]
 		}
 		{
-			x: 13.25d
-			y: 25.25d
+			x: 8.75d
+			y: 23.0d
 			dependencies: ["5A15F4F1EFF567AC"]
 			id: "54EA65146A735963"
 			tasks: [{
@@ -2035,8 +2032,8 @@
 			}]
 		}
 		{
-			x: 13.25d
-			y: 28.25d
+			x: 10.25d
+			y: 24.5d
 			dependencies: ["1C195EE74039A47B"]
 			id: "683E4920521BDDA7"
 			tasks: [{
@@ -2047,8 +2044,8 @@
 		}
 		{
 			icon: "create:windmill_bearing"
-			x: 13.25d
-			y: 26.75d
+			x: 8.75d
+			y: 24.5d
 			dependencies: ["54EA65146A735963"]
 			id: "1C195EE74039A47B"
 			tasks: [
@@ -2067,8 +2064,8 @@
 		}
 		{
 			icon: "create:furnace_engine"
-			x: 13.25d
-			y: 29.75d
+			x: 11.75d
+			y: 24.5d
 			dependencies: ["683E4920521BDDA7"]
 			id: "68484812D253D45A"
 			tasks: [
@@ -2085,8 +2082,8 @@
 			]
 		}
 		{
-			x: 17.75d
-			y: 23.75d
+			x: 14.75d
+			y: 23.0d
 			dependencies: ["761BAE3E76AB71A3"]
 			id: "2A83D8FCCCFE217C"
 			tasks: [{
@@ -2096,8 +2093,8 @@
 			}]
 		}
 		{
-			x: 17.75d
-			y: 25.25d
+			x: 14.75d
+			y: 24.5d
 			dependencies: ["2A83D8FCCCFE217C"]
 			id: "414F5E97448B5286"
 			tasks: [{
@@ -2107,8 +2104,8 @@
 			}]
 		}
 		{
-			x: 17.75d
-			y: 26.75d
+			x: 14.75d
+			y: 26.0d
 			dependencies: ["414F5E97448B5286"]
 			id: "5145861F42CD2EE3"
 			tasks: [{
@@ -2149,7 +2146,7 @@
 		}
 		{
 			x: -0.25d
-			y: 22.25d
+			y: 21.5d
 			dependencies: ["3F047B28738897A0"]
 			id: "7ECBCEE8AE68DF35"
 			tasks: [{
@@ -2161,7 +2158,7 @@
 		{
 			icon: "tconstruct:seared_melter"
 			x: 2.75d
-			y: 20.75d
+			y: 20.0d
 			dependencies: ["5B8F2CFF9902433F"]
 			id: "52157E7FBFE05315"
 			tasks: [
@@ -2209,11 +2206,11 @@
 				""
 				"There is three categories :"
 				""
-				"   - Ores that can be mined with a &6Wooden Pickaxe&r or another pickaxe with equivalent mining level."
+				"   - Ores that can be mined with a &#806517Wooden Pickaxe&r or another pickaxe with equivalent mining level."
 				""
-				"   - Ores that can be mined with a &8Stone Pickaxe&r or another pickaxe with equivalent mining level."
+				"   - Ores that can be mined with a &#918E85Stone Pickaxe&r or another pickaxe with equivalent mining level."
 				""
-				"   - Ores that can be mined with an &7Iron Pickaxe&r or another pickaxe with equivalent mining level."
+				"   - Ores that can be mined with an &#61666AIron Pickaxe&r or another pickaxe with equivalent mining level."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -2229,8 +2226,8 @@
 			}]
 		}
 		{
-			x: 13.25d
-			y: 20.75d
+			x: 10.25d
+			y: 20.0d
 			dependencies: ["15267232FEECB502"]
 			id: "50B9AEC7812CEE92"
 			tasks: [{
@@ -2240,8 +2237,8 @@
 			}]
 		}
 		{
-			x: 13.25d
-			y: 19.25d
+			x: 10.25d
+			y: 18.5d
 			dependencies: ["50B9AEC7812CEE92"]
 			id: "2F49F6F25A774A85"
 			tasks: [{
@@ -2251,8 +2248,8 @@
 			}]
 		}
 		{
-			x: 11.75d
-			y: 17.75d
+			x: 8.75d
+			y: 17.0d
 			dependencies: [
 				"3200ACD6830758C1"
 				"3441111B8198CC9D"
@@ -2265,8 +2262,8 @@
 			}]
 		}
 		{
-			x: 14.75d
-			y: 20.75d
+			x: 11.75d
+			y: 18.5d
 			dependencies: ["50B9AEC7812CEE92"]
 			id: "57D7D56E363627AF"
 			tasks: [{
@@ -2276,8 +2273,8 @@
 			}]
 		}
 		{
-			x: 16.25d
-			y: 23.75d
+			x: 13.25d
+			y: 23.0d
 			dependencies: ["761BAE3E76AB71A3"]
 			id: "7370F4A279D30FA7"
 			tasks: [{
@@ -2287,8 +2284,8 @@
 			}]
 		}
 		{
-			x: 16.25d
-			y: 20.75d
+			x: 13.25d
+			y: 20.0d
 			dependencies: ["7370F4A279D30FA7"]
 			id: "380CF1D8364DD30D"
 			tasks: [{
@@ -2298,8 +2295,8 @@
 			}]
 		}
 		{
-			x: 14.75d
-			y: 23.75d
+			x: 11.75d
+			y: 23.0d
 			dependencies: ["7370F4A279D30FA7"]
 			id: "01431088C1A1DBE6"
 			tasks: [{
@@ -2309,8 +2306,8 @@
 			}]
 		}
 		{
-			x: 13.25d
-			y: 17.75d
+			x: 10.25d
+			y: 17.0d
 			dependencies: [
 				"41F89CCDF430BE56"
 				"670997C9468093DE"
@@ -2323,8 +2320,9 @@
 			}]
 		}
 		{
-			x: 22.0d
-			y: 18.25d
+			x: 14.75d
+			y: 18.5d
+			dependencies: ["25C9708B3163FAE2"]
 			id: "38B65BFFA9E6BC0D"
 			tasks: [{
 				id: "3A1CC5560B4EF9C5"
@@ -2334,8 +2332,9 @@
 		}
 		{
 			title: "Storage For Fluids"
-			x: 19.25d
-			y: 19.25d
+			icon: "create:item_drain"
+			x: 16.25d
+			y: 18.5d
 			dependencies: ["55A9D9FFD7E1897C"]
 			id: "5B8F4DABCEBD4C02"
 			tasks: [
@@ -2377,9 +2376,12 @@
 		{
 			title: "Wheat Farm"
 			icon: "create:mechanical_harvester"
-			x: 22.25d
-			y: 23.75d
-			description: ["48 dirt pour la ferme sur le screen"]
+			x: 19.25d
+			y: 23.0d
+			description: [
+				"48 dirt pour la ferme sur le screen"
+				"rajouter les items qu'il manquait pour le bois"
+			]
 			dependencies: [
 				"2F7EB9DBC6CE7522"
 				"4025E313ECC4D6BD"
@@ -2413,8 +2415,8 @@
 		{
 			title: "Wood Farm"
 			icon: "create:mechanical_saw"
-			x: 22.25d
-			y: 21.0d
+			x: 19.25d
+			y: 20.25d
 			dependencies: [
 				"2F7EB9DBC6CE7522"
 				"4025E313ECC4D6BD"
@@ -2436,11 +2438,13 @@
 					id: "240142F0D7074EDE"
 					type: "item"
 					item: "create:portable_storage_interface"
+					count: 2L
 				}
 				{
 					id: "23C77495CE8EC5CE"
 					type: "item"
 					item: "create:andesite_funnel"
+					count: 2L
 				}
 				{
 					id: "18154999C081EE58"
@@ -2459,11 +2463,38 @@
 					item: "create:linear_chassis"
 					count: 9L
 				}
+				{
+					id: "00F3F054C7AC48D4"
+					type: "item"
+					item: "create:cart_assembler"
+				}
+				{
+					id: "41A5C016E4188EE6"
+					type: "item"
+					item: "minecraft:rail"
+				}
+				{
+					id: "66D55A9F15AF7AA5"
+					type: "item"
+					item: "minecraft:powered_rail"
+				}
+				{
+					id: "41491395C6324C2D"
+					type: "item"
+					item: "create:belt_connector"
+				}
+				{
+					id: "442022D159767FA9"
+					type: "item"
+					item: "create:shaft"
+					count: 2L
+				}
 			]
 		}
 		{
-			x: 23.5d
-			y: 22.25d
+			x: 11.75d
+			y: 20.0d
+			dependencies: ["410AC414B2B492D1"]
 			id: "7619EB9B6A687B00"
 			tasks: [{
 				id: "05C4F6D059B8F556"
@@ -2472,8 +2503,8 @@
 			}]
 		}
 		{
-			x: 19.25d
-			y: 23.75d
+			x: 16.25d
+			y: 23.0d
 			dependencies: [
 				"2A83D8FCCCFE217C"
 				"17E63FB824FA537E"
@@ -2486,8 +2517,8 @@
 			}]
 		}
 		{
-			x: 16.25d
-			y: 25.25d
+			x: 13.25d
+			y: 24.5d
 			dependencies: [
 				"01431088C1A1DBE6"
 				"2A83D8FCCCFE217C"
@@ -2500,8 +2531,8 @@
 			}]
 		}
 		{
-			x: 19.25d
-			y: 25.25d
+			x: 16.25d
+			y: 24.5d
 			dependencies: [
 				"17E63FB824FA537E"
 				"2A83D8FCCCFE217C"
@@ -2514,8 +2545,8 @@
 			}]
 		}
 		{
-			x: 11.75d
-			y: 19.25d
+			x: 8.75d
+			y: 18.5d
 			dependencies: ["1B29F8E51716D37A"]
 			id: "3200ACD6830758C1"
 			tasks: [{
@@ -2533,8 +2564,8 @@
 					Damage: 0
 				}
 			}
-			x: 11.75d
-			y: 20.75d
+			x: 8.75d
+			y: 20.0d
 			dependencies: ["1A50D8484E987C47"]
 			id: "1B29F8E51716D37A"
 			tasks: [
@@ -2561,7 +2592,7 @@
 		{
 			title: "&#B9F2FFAncient Debris&r"
 			x: -0.25d
-			y: 27.5d
+			y: 26.0d
 			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "739CDA0F590031A0"
 			tasks: [{
@@ -2573,7 +2604,7 @@
 		{
 			title: "&dPiggybackpack&r"
 			x: 4.25d
-			y: 23.0d
+			y: 22.25d
 			dependencies: ["4FF742939987793B"]
 			id: "52E9C3B4FDF846D2"
 			tasks: [{
@@ -2584,7 +2615,7 @@
 		}
 		{
 			x: 1.25d
-			y: 28.25d
+			y: 27.5d
 			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "359039A14143712B"
 			tasks: [{
@@ -2595,7 +2626,7 @@
 		}
 		{
 			x: 2.75d
-			y: 28.25d
+			y: 27.5d
 			dependencies: ["359039A14143712B"]
 			id: "7E649617C4BF0894"
 			tasks: [{
@@ -2605,65 +2636,78 @@
 			}]
 		}
 		{
-			title: "&2Tinkers' Construct Slime Island&r"
+			title: "&2Tinkers' Construct Slime Islands&r"
 			icon: "tconstruct:earth_earth_slime_grass"
 			x: 4.25d
-			y: 20.75d
+			y: 20.0d
 			description: ["Find one of the four &2Tinkers' Construct Slime Islands&r."]
-			dependencies: ["56E33A3A0C9966C3"]
+			hide_dependency_lines: true
+			dependencies: ["5818D79835BC71DA"]
 			min_required_tasks: 1
 			id: "34314A6F16C3D15F"
 			tasks: [
 				{
-					id: "72E0CC57AA47004B"
-					type: "structure"
-					title: "Find &2Earth Slime Island&r"
+					id: "2F17AC75EE4BF554"
+					type: "advancement"
+					title: "Find &2Earthslime Island&r"
 					icon: "tconstruct:earth_earth_slime_grass"
-					structure: "tconstruct:earth_slime_island"
+					advancement: "tconstruct:world/earth_island"
+					criterion: ""
 				}
 				{
-					id: "02675DDDDF52080D"
-					type: "structure"
-					title: "Find &3Overworld Slime Island&r"
+					id: "28115D66CAB7B751"
+					type: "advancement"
+					title: "Find &3Skyslime Island&r"
 					icon: "tconstruct:sky_sky_slime_grass"
-					structure: "tconstruct:overworld_slime_island"
+					advancement: "tconstruct:world/sky_island"
+					criterion: ""
 				}
 				{
-					id: "426FA55EEB0A55C6"
-					type: "structure"
-					title: "Find &cNether Slime Island&r"
+					id: "51AFAE1AF044F57D"
+					type: "advancement"
+					title: "Find &cBlood Island&r"
 					icon: "tconstruct:blood_ichor_slime_grass"
-					structure: "tconstruct:nether_slime_island"
+					advancement: "tconstruct:world/blood_island"
+					criterion: ""
 				}
 				{
-					id: "507A3F5743A5670C"
-					type: "structure"
-					title: "Find &5End Slime Island&r"
+					id: "3A6765962EB5CC2B"
+					type: "advancement"
+					title: "Find &5Enderslime Island&r"
 					icon: "tconstruct:ender_ender_slime_grass"
-					structure: "tconstruct:end_slime_island"
+					advancement: "tconstruct:world/ender_island"
+					criterion: ""
 				}
 			]
+			rewards: [{
+				id: "2566B853093FFBDA"
+				type: "command"
+				auto: "invisible"
+				command: "/ftbquests change_progress @p complete 34314A6F16C3D15F"
+				player_command: false
+			}]
 		}
 		{
 			title: "&#D5A372Tinkers' Construct Clay Island&r"
 			x: 4.25d
-			y: 16.25d
+			y: 15.5d
 			dependencies: ["56E33A3A0C9966C3"]
 			optional: true
 			id: "3378D54ED18FC564"
 			tasks: [{
-				id: "3F4468B5000C209F"
-				type: "structure"
+				id: "2BD62C616FCB49F9"
+				type: "advancement"
 				title: "Find &#D5A372Clay Island&r"
 				icon: "minecraft:grass_block"
-				structure: "tconstruct:clay_island"
+				advancement: "tconstruct:world/clay_island"
+				criterion: ""
 			}]
 		}
 		{
 			title: "&#D5A372Clay&r, &#C2B280Sand&r \\& &#909BA3Gravel&r for &7Grout&r"
 			icon: "tconstruct:grout"
 			x: 2.75d
-			y: 16.25d
+			y: 15.5d
 			dependencies: [
 				"3378D54ED18FC564"
 				"56E33A3A0C9966C3"
@@ -2695,7 +2739,7 @@
 			title: "&2Slime&r"
 			icon: "minecraft:slime_block"
 			x: 4.25d
-			y: 19.25d
+			y: 18.5d
 			dependencies: ["34314A6F16C3D15F"]
 			id: "4866C5C9EF6794DA"
 			tasks: [
@@ -2750,8 +2794,8 @@
 			]
 		}
 		{
-			x: 22.25d
-			y: 22.25d
+			x: 19.25d
+			y: 21.5d
 			dependencies: ["62D0F17BF463D8EC"]
 			id: "4025E313ECC4D6BD"
 			tasks: [{
@@ -2769,7 +2813,7 @@
 		{
 			title: "&3Skyslime Sling&r"
 			x: 5.75d
-			y: 18.75d
+			y: 18.0d
 			description: ["Wear &5Slimeboots&r to avoid fall damage and bounce to go further."]
 			dependencies: ["4866C5C9EF6794DA"]
 			id: "6F2127A61F96A0B0"
@@ -2788,7 +2832,7 @@
 		{
 			title: "&cIchor Sling&r"
 			x: 5.75d
-			y: 19.75d
+			y: 19.0d
 			dependencies: ["4866C5C9EF6794DA"]
 			id: "6993FCB31CDB5910"
 			tasks: [{
@@ -2806,7 +2850,7 @@
 		{
 			title: "&5Enderslime Sling&r"
 			x: 5.75d
-			y: 20.75d
+			y: 20.0d
 			dependencies: ["4866C5C9EF6794DA"]
 			id: "700B9D0280FFF1DA"
 			tasks: [{
@@ -2824,7 +2868,7 @@
 		{
 			title: "&2Slime Sling&r"
 			x: 5.75d
-			y: 17.75d
+			y: 17.0d
 			description: ["Wear &5Slimeboots&r to avoid fall damage and bounce to go further."]
 			dependencies: ["4866C5C9EF6794DA"]
 			id: "5A594CD811A2ADFB"
@@ -2841,9 +2885,10 @@
 			}]
 		}
 		{
-			x: -1.75d
-			y: 26.5d
-			dependencies: ["1F6AD2EF12A9D3E0"]
+			x: 5.75d
+			y: 23.25d
+			hide_dependency_lines: true
+			dependencies: ["506463BEE4D51982"]
 			id: "45398E511BEBBDDE"
 			tasks: [{
 				id: "083557B3A930DA7C"
@@ -2852,8 +2897,9 @@
 			}]
 		}
 		{
-			x: -1.75d
-			y: 25.5d
+			x: 5.75d
+			y: 22.25d
+			hide_dependency_lines: true
 			dependencies: ["0A5605FD0BE42BAF"]
 			id: "1FC7780C404D3A5F"
 			tasks: [{
@@ -2863,9 +2909,10 @@
 			}]
 		}
 		{
-			x: -2.75d
-			y: 26.0d
-			dependencies: ["1F6AD2EF12A9D3E0"]
+			x: 4.25d
+			y: 23.25d
+			hide_dependency_lines: true
+			dependencies: ["506463BEE4D51982"]
 			id: "7737CB8EF8917F0B"
 			tasks: [{
 				id: "3283E7C597D0D08F"
@@ -2877,7 +2924,7 @@
 			title: "Alternatives to Seared Bricks"
 			icon: "tconstruct:seared_glass"
 			x: 1.25d
-			y: 20.75d
+			y: 20.0d
 			description: [
 				"You can use these blocks replacing the Seared Bricks in the Smeltery."
 				"They can also used as decoration."
@@ -2932,7 +2979,7 @@
 			title: "Decorative Seared blocks"
 			icon: "tconstruct:seared_glass_pane"
 			x: 1.25d
-			y: 19.25d
+			y: 18.5d
 			description: ["These blocks can used as decoration, but NOT as a replacement of Seared Bricks in the Smeltery."]
 			dependencies: ["59BEB656F387591D"]
 			optional: true
@@ -2999,7 +3046,7 @@
 			title: "Alternatives to Scorched Bricks"
 			icon: "tconstruct:scorched_glass"
 			x: 4.25d
-			y: 25.25d
+			y: 24.5d
 			description: [
 				"You can use these blocks replacing the Scorched Bricks in the Foundry."
 				"They can also used as decoration."
@@ -3044,7 +3091,7 @@
 			title: "Decorative Scorched blocks"
 			icon: "tconstruct:scorched_glass_pane"
 			x: 4.25d
-			y: 26.75d
+			y: 26.0d
 			description: ["These blocks can used as decoration, but NOT as a replacement of Scorched Bricks in the Foundry."]
 			dependencies: ["667A9CA631F41AF2"]
 			optional: true
@@ -3084,7 +3131,7 @@
 		}
 		{
 			x: -0.25d
-			y: 20.75d
+			y: 20.0d
 			dependencies: [
 				"24FB616B8D0A3D50"
 				"59BEB656F387591D"
@@ -3099,7 +3146,7 @@
 		}
 		{
 			x: -0.25d
-			y: 19.25d
+			y: 18.5d
 			dependencies: [
 				"24FB616B8D0A3D50"
 				"10A681804E6DAC4E"
@@ -3114,7 +3161,7 @@
 		}
 		{
 			x: -1.75d
-			y: 19.25d
+			y: 18.5d
 			dependencies: [
 				"24FB616B8D0A3D50"
 				"6A16A114B17C2C46"
@@ -3129,7 +3176,7 @@
 		}
 		{
 			x: -1.75d
-			y: 20.75d
+			y: 20.0d
 			dependencies: [
 				"24FB616B8D0A3D50"
 				"1EBD3772CE7EB54E"
@@ -3143,8 +3190,8 @@
 			}]
 		}
 		{
-			x: -3.25d
-			y: 20.75d
+			x: -1.75d
+			y: 21.5d
 			dependencies: [
 				"24FB616B8D0A3D50"
 				"0835044722D233E5"
@@ -3159,7 +3206,7 @@
 		}
 		{
 			x: 5.75d
-			y: 25.25d
+			y: 24.5d
 			dependencies: [
 				"3886A8B4A5FA3CE1"
 				"667A9CA631F41AF2"
@@ -3174,7 +3221,7 @@
 		}
 		{
 			x: 5.75d
-			y: 26.75d
+			y: 26.0d
 			dependencies: [
 				"3886A8B4A5FA3CE1"
 				"7F6EDBDC585DC024"
@@ -3189,7 +3236,7 @@
 		}
 		{
 			x: 7.25d
-			y: 26.75d
+			y: 26.0d
 			dependencies: [
 				"3886A8B4A5FA3CE1"
 				"7F5CC2E6BCE2516A"
@@ -3204,7 +3251,7 @@
 		}
 		{
 			x: 7.25d
-			y: 25.25d
+			y: 24.5d
 			dependencies: [
 				"3886A8B4A5FA3CE1"
 				"29E0E777AE4E3751"
@@ -3218,8 +3265,8 @@
 			}]
 		}
 		{
-			x: 8.75d
-			y: 25.25d
+			x: 7.25d
+			y: 23.0d
 			dependencies: [
 				"3886A8B4A5FA3CE1"
 				"46D4A8F6AF52A228"
@@ -3235,7 +3282,7 @@
 		{
 			icon: "tconstruct:scorched_alloyer"
 			x: 5.75d
-			y: 28.25d
+			y: 27.5d
 			dependencies: ["13D4E1A361C32E93"]
 			id: "19507D1E11AAF241"
 			tasks: [
@@ -3269,7 +3316,7 @@
 		{
 			title: "Scorched Ingot \\& Fuel Gauge"
 			x: 4.25d
-			y: 28.25d
+			y: 27.5d
 			description: [
 				"Scorched Ingot ..."
 				"Scorched Fuel..."
@@ -3297,7 +3344,7 @@
 		{
 			title: "Seared Ingot \\& Fuel Gauge"
 			x: 2.75d
-			y: 19.25d
+			y: 18.5d
 			description: [
 				"Seared Ingot ..."
 				"Seared Fuel ..."
@@ -3342,8 +3389,8 @@
 			id: "73BE1417DC350AC5"
 		}
 		{
-			x: 20.75d
-			y: 23.75d
+			x: 17.75d
+			y: 23.0d
 			dependencies: ["2F7EB9DBC6CE7522"]
 			id: "17E63FB824FA537E"
 			tasks: [{
@@ -3353,14 +3400,271 @@
 			}]
 		}
 		{
-			x: 19.25d
-			y: 20.75d
+			x: 16.25d
+			y: 20.0d
 			dependencies: ["761BAE3E76AB71A3"]
 			id: "55A9D9FFD7E1897C"
 			tasks: [{
 				id: "09265D19C606E715"
 				type: "item"
 				item: "create:copper_casing"
+			}]
+		}
+		{
+			x: 20.5d
+			y: 18.5d
+			id: "1D578E87A0CD5F0F"
+			tasks: [{
+				id: "0ECE7FE4919EF298"
+				type: "item"
+				item: "create:blaze_cake_base"
+			}]
+		}
+		{
+			x: 21.5d
+			y: 18.5d
+			id: "6636AF496628B7DA"
+			tasks: [{
+				id: "582BE4F7691A3A77"
+				type: "item"
+				item: "create:blaze_cake"
+			}]
+		}
+		{
+			x: 20.5d
+			y: 19.5d
+			id: "59BDA9C3059500F4"
+			tasks: [{
+				id: "0A0EB63E4C1EDA6A"
+				type: "item"
+				item: "create:encased_chain_drive"
+			}]
+		}
+		{
+			x: 21.5d
+			y: 19.5d
+			id: "2F0356DB5A748645"
+			tasks: [{
+				id: "2DFAE0426F8B7F71"
+				type: "item"
+				item: "create:empty_blaze_burner"
+			}]
+		}
+		{
+			x: 20.5d
+			y: 20.5d
+			id: "2035F6C5153C3D90"
+			tasks: [{
+				id: "1785A4CF6483D4F4"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+		}
+		{
+			x: 21.5d
+			y: 20.5d
+			id: "0256960379E8E5E5"
+			tasks: [{
+				id: "47EB7A0F6789FE81"
+				type: "item"
+				item: "create:shadow_steel"
+			}]
+		}
+		{
+			x: 20.5d
+			y: 21.5d
+			id: "5DBB65C63EE5ACB3"
+			tasks: [{
+				id: "4FA2765A81432401"
+				type: "item"
+				item: "create:refined_radiance"
+			}]
+		}
+		{
+			x: 23.5d
+			y: 18.5d
+			id: "516E7CB420CDE304"
+			tasks: [{
+				id: "1822FEB7464D9AA0"
+				type: "item"
+				item: "create:weighted_ejector"
+			}]
+		}
+		{
+			x: 23.5d
+			y: 19.5d
+			id: "4395EBC605AA491D"
+			tasks: [{
+				id: "15F4852FB6CEAF67"
+				type: "item"
+				item: "create:schematicannon"
+			}]
+		}
+		{
+			x: 23.5d
+			y: 20.5d
+			id: "26F44F9DA212A42C"
+			tasks: [{
+				id: "6CFF7D9F4710F875"
+				type: "item"
+				item: {
+					id: "create:extendo_grip"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 23.5d
+			y: 21.5d
+			id: "5E23FBFC9450A7A9"
+			tasks: [{
+				id: "521F1A8DF224A8C1"
+				type: "item"
+				item: "create:crafter_slot_cover"
+			}]
+		}
+		{
+			x: 23.5d
+			y: 22.5d
+			id: "3CBBAC9AEDBDE316"
+			tasks: [{
+				id: "37DF63AF814CC754"
+				type: "item"
+				item: "create:schematic_table"
+			}]
+		}
+		{
+			title: "Brass"
+			x: 23.5d
+			y: 23.5d
+			id: "6F9BF9D7BCEFD22C"
+			tasks: [{
+				id: "170E654ED83205D4"
+				type: "item"
+				item: "create:brass_block"
+			}]
+		}
+		{
+			x: 23.5d
+			y: 24.5d
+			id: "3EE564D2D7642605"
+			tasks: [{
+				id: "392671BB7A4121C4"
+				type: "item"
+				item: "create:belt_connector"
+			}]
+		}
+		{
+			x: 23.5d
+			y: 25.5d
+			id: "6AE641A07649F446"
+			tasks: [{
+				id: "530C945A7AD57E15"
+				type: "item"
+				item: "create:goggles"
+			}]
+		}
+		{
+			x: 23.5d
+			y: 26.5d
+			id: "03342471D77CB940"
+			tasks: [{
+				id: "2D9A65D9B95082FC"
+				type: "item"
+				item: "create:minecart_coupling"
+			}]
+		}
+		{
+			x: 24.5d
+			y: 18.5d
+			id: "75E7AF05E51FC029"
+			tasks: [{
+				id: "355DA35D023D6852"
+				type: "item"
+				item: "create:crafting_blueprint"
+			}]
+		}
+		{
+			x: 24.5d
+			y: 19.5d
+			id: "2DCA6BED36A48214"
+			tasks: [{
+				id: "6D26A0F079D8EEE8"
+				type: "item"
+				item: "create:andesite_encased_shaft"
+			}]
+		}
+		{
+			x: 24.5d
+			y: 20.5d
+			id: "61A7A27AA85425DE"
+			tasks: [{
+				id: "68AC06A6319820A3"
+				type: "item"
+				item: "create:brass_encased_shaft"
+			}]
+		}
+		{
+			x: 24.5d
+			y: 21.5d
+			id: "1A802EE6462D7762"
+			tasks: [{
+				id: "0F6A740439CCB6D2"
+				type: "item"
+				item: "create:gearbox"
+			}]
+		}
+		{
+			x: 24.5d
+			y: 22.5d
+			id: "53DEF95E8A206398"
+			tasks: [{
+				id: "47D8CFC9CBE7B4B5"
+				type: "item"
+				item: "create:vertical_gearbox"
+			}]
+		}
+		{
+			x: 24.5d
+			y: 23.5d
+			id: "6BF43FEAF535AA7F"
+			tasks: [{
+				id: "67E5374E76EDAF30"
+				type: "item"
+				item: "create:wrench"
+			}]
+		}
+		{
+			x: 24.5d
+			y: 24.5d
+			id: "07E47447E4D025C5"
+			tasks: [{
+				id: "2097778310FF53D9"
+				type: "item"
+				item: "create:clutch"
+			}]
+		}
+		{
+			x: 24.5d
+			y: 25.5d
+			id: "626EB949D0B01014"
+			tasks: [{
+				id: "48611676E20B501C"
+				type: "item"
+				item: "create:gearshift"
+			}]
+		}
+		{
+			x: 24.5d
+			y: 26.5d
+			id: "34198CE4708B069C"
+			tasks: [{
+				id: "0845D819D73ACF1C"
+				type: "item"
+				item: "create:adjustable_chain_gearshift"
 			}]
 		}
 	]
