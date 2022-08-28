@@ -148,6 +148,10 @@ const itemsToHide = [
     'masterfulmachinery:autoinfuser_compound_fluid_port_fluids_output',
     'masterfulmachinery:autosmithing_autosmithing_energy_port_energy_output',
 
+    'allthemodium:vibranium_allthemodium_alloy_dust',
+    'allthemodium:unobtainium_vibranium_alloy_dust',
+    'allthemodium:unobtainium_allthemodium_alloy_dust',
+
     'emendatusenigmatica:sulfur_ore',
     'emendatusenigmatica:dimensional_crushed',
     'emendatusenigmatica:arcane_crushed',

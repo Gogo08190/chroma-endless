@@ -109,7 +109,7 @@ onEvent('recipes', (event) => {
           inputs: [
               { type: 'masterfulmachinery:items', data: { item: 'botania:mana_diamond', count: 1 }, consumeInstantly: true },
               { type: 'masterfulmachinery:items', data: { item: 'draconicevolution:draconium_ingot', count: 4 }, consumeInstantly: true },
-              { type: 'masterfulmachinery:items', data: { item: 'minecraft:gold_ingot', count: 4 }, consumeInstantly: true },
+              { type: 'masterfulmachinery:items', data: { item: 'allthemodium:allthemodium_ingot', count: 4 }, consumeInstantly: true },
               { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
           ],
           ticks: 240,

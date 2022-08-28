@@ -983,7 +983,7 @@ onEvent("recipes", (event) => {
           "item": "enderioalloys:item_material_precient_powder"
         },
         "D": {
-          "item": "enderioalloys:item_alloy_ingot_melodic_alloy"
+          "item": "allthemodium:unobtainium_vibranium_alloy_ingot"
         },
         "E": {
           "item": "mekanism:alloy_atomic"

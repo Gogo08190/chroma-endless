@@ -544,6 +544,43 @@ onEvent('recipes', (event) => {
               count: 1
           },
           id: 'mekanism:factory/ultimate/purifying'
+      },
+      //AllTheModium
+      {
+          ingredients: [
+              { item: 'allthemodium:vibranium_ingot' },
+              { item: 'allthemodium:allthemodium_ingot' }
+          ],
+          energy: 20000,
+          result: {
+              item: 'allthemodium:vibranium_allthemodium_alloy_ingot',
+              count: 1
+          },
+          id: `${id_prefix}vibranium_allthemodium_alloy_ingot`
+      },
+      {
+          ingredients: [
+              { item: 'allthemodium:vibranium_ingot' },
+              { item: 'allthemodium:unobtainium_ingot' }
+          ],
+          energy: 50000,
+          result: {
+              item: 'allthemodium:unobtainium_vibranium_alloy_ingot',
+              count: 1
+          },
+          id: `${id_prefix}vibranium_allthemodium_alloy_ingot`
+      },
+      {
+          ingredients: [
+              { item: 'allthemodium:unobtainium_ingot' },
+              { item: 'allthemodium:allthemodium_ingot' }
+          ],
+          energy: 30000,
+          result: {
+              item: 'allthemodium:unobtainium_vibranium_alloy_ingot',
+              count: 1
+          },
+          id: `${id_prefix}vibranium_allthemodium_alloy_ingot`
       }
     ];
 

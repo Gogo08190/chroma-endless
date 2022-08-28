@@ -15,7 +15,7 @@ onEvent('recipes', (event) => {
             output: 'draconicevolution:magnet',
             pattern: ['S S', 'D D', 'DAD'],
             key: {
-                S: '#forge:ingots/signalum',
+                S: '#forge:ingots/unobtainium_allthemodium_alloy',
                 D: '#forge:ingots/draconium',
                 A: Item.of('draconicevolution:dislocator', '{Damage:0}').weakNBT()
             },
@@ -144,7 +144,7 @@ onEvent('recipes', (event) => {
             pattern: ['EEE', 'E E', ' W '],
             key: {
                 W: 'draconicevolution:wyvern_core',
-                E: '#forge:ingots/energized_steel'
+                E: '#forge:ingots/unobtainium_allthemodium_alloy'
             },
             id: 'draconicadditions:items/wyvern_necklace'
         }
