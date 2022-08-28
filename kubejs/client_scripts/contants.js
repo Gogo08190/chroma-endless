@@ -867,5 +867,6 @@ const craftedBees = [
     'soul_lava',
     'unobtainium',
     'vibranium',
-    'allthemodium'
+    'allthemodium',
+    'mystical'
 ];

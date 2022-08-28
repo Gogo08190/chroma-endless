@@ -66,7 +66,8 @@ onEvent('item.registry', (event) => {
         'ultimate_rune',
         'rgb_jelly',
         'rgb_glass_shard',
-        'empty_creative_pool'
+        'empty_creative_pool',
+        'rgb_petal'
     ];
 
     generalItems.forEach((item) => {
