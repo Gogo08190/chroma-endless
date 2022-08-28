@@ -294,6 +294,15 @@ onEvent('recipes', (event) => {
           results: [{item : "ironjetpacks:regalium_thruster"}],
           id: `${id_prefix}regalium_thruster`
         },
+        {
+          inputs:[
+            { item: 'allthemodium:allthemodium_ingot', count: 4},
+            { item: 'botania:terra_plate', count: 1}
+          ],
+          pressure: 3.0,
+          results: [{item: 'allthemodium:teleport_pad', count: 1}],
+          id: 'allthemodium:main/teleport_pad'
+        }
     ];
 
     powahTiers.forEach(function (tier) {
