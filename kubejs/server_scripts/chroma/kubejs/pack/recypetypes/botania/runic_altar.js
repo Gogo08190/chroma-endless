@@ -479,34 +479,7 @@ onEvent('recipes', (event) => {
         output: 'tardis:alembic',
         count: 1,
         id: `tardis:alembic`
-      },
-      {
-        inputs: [
-          Item.of('resourcefulbees:bee_jar', { Entity: 'minecraft:bee' }),
-          'minecraft:cauldron',
-          'botania:white_petal',
-          'botania:red_petal',
-          'botania:black_petal',
-          'botania:gray_petal',
-          'botania:pink_petal',
-          'botania:lime_petal',
-          'botania:yellow_petal',
-          'botania:light_blue_petal',
-          'botania:magenta_petal',
-          'botania:orange_petal',
-          'botania:cyan_petal',
-          'botania:light_gray_petal',
-          'botania:purple_petal',
-          'botania:blue_petal',
-          'botania:brown_petal',
-          'botania:green_petal'
-        ],
-        mana: 20000,
-        output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:mystical_bee' }).toJson(),
-        count: 1,
-        id: `${id_prefix}mystical_bee`
       }
-
     ];
 
     recipes.forEach((recipe) => {
