@@ -1037,7 +1037,27 @@ onEvent('recipes', (event) => {
             outputFluid: '',
             outputFluidAmount: 0,
             id: 'mekanism:factory/elite/purifying'
-          }
+          },
+          //soul lava bee
+          {
+              inputs: [
+                  'minecraft:lava_bucket',
+                  'allthemodium:allthemodium_ingot',
+                  'minecraft:lava_bucket',
+                  Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:nether_bee' }).weakNBT().toJson(),
+                  Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:blazing_bee' }).weakNBT().toJson(),
+                  'tconstruct:blazing_blood_bucket',
+                  'allthemodium:allthemodium_ingot',
+                  'tconstruct:blazing_blood_bucket'
+              ],
+              inputFluid: 'allthemodium:molten_bluelava',
+              inputFluidAmount: 4000,
+              processingTime: 300,
+              outputItem: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:soul_lava_bee' }).toJson(),
+              outputFluid: '',
+              outputFluidAmount: 0,
+              id: `${id_prefix}soul_lava_bee`
+            }
     ];
 
     recipes.forEach((recipe) => {
