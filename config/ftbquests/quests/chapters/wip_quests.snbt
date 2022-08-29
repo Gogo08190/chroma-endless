@@ -19,6 +19,7 @@
 			}]
 		}
 		{
+			icon: "expandedstorage:old_wood_chest"
 			x: 0.75d
 			y: 1.5d
 			description: [
@@ -61,6 +62,7 @@
 			}]
 		}
 		{
+			icon: "tetra:basic_workbench"
 			x: -0.75d
 			y: 1.5d
 			description: [
@@ -79,6 +81,7 @@
 			}]
 		}
 		{
+			icon: "tconstruct:tinkers_anvil"
 			x: -2.25d
 			y: 1.5d
 			description: [
@@ -97,6 +100,7 @@
 			}]
 		}
 		{
+			icon: "tconstruct:smeltery_controller"
 			x: 2.25d
 			y: 1.5d
 			description: [
@@ -115,6 +119,7 @@
 			}]
 		}
 		{
+			icon: "create:wrench"
 			x: 3.75d
 			y: 1.5d
 			description: [
@@ -135,6 +140,7 @@
 			}]
 		}
 		{
+			icon: "minecraft:grass_block"
 			x: -3.75d
 			y: 1.5d
 			description: [
@@ -150,6 +156,117 @@
 				id: "69D46156B4A87F51"
 				type: "checkmark"
 				title: "Vanilla"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			id: "3F02C1DD261677C3"
+			tasks: [{
+				id: "68ABF59E3FC0AB0C"
+				type: "checkmark"
+				title: "Chapter 2"
+			}]
+		}
+		{
+			icon: "prettypipes:pipe"
+			x: 0.0d
+			y: 4.5d
+			description: [
+				"Quêtes : À faire"
+				"Positions : /"
+				"Visuels : /"
+				"Descriptions : /"
+				"Rewards : /"
+			]
+			dependencies: ["3F02C1DD261677C3"]
+			id: "1D672D7F88F0299B"
+			tasks: [{
+				id: "2C894E3760B9E401"
+				type: "checkmark"
+				title: "Pretty Pipes"
+			}]
+		}
+		{
+			icon: "dankstorage:dank_7"
+			x: -1.5d
+			y: 4.5d
+			description: [
+				"Quêtes : À faire"
+				"Positions : /"
+				"Visuels : /"
+				"Descriptions : /"
+				"Rewards : /"
+			]
+			dependencies: ["3F02C1DD261677C3"]
+			id: "4D0A3930609CE80E"
+			tasks: [{
+				id: "617364E08933D348"
+				type: "checkmark"
+				title: "Dank Storage + Tank Null"
+			}]
+		}
+		{
+			icon: {
+				id: "immersiveengineering:hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.0d
+			y: 4.5d
+			description: [
+				"Quêtes : En cours"
+				"Positions : /"
+				"Visuels : /"
+				"Descriptions : À faire"
+				"Rewards : À faire"
+			]
+			dependencies: ["3F02C1DD261677C3"]
+			id: "31ECBDF65045965D"
+			tasks: [{
+				id: "4B966615F148DE15"
+				type: "checkmark"
+				title: "Immersive Engineering"
+			}]
+		}
+		{
+			icon: "sophisticatedbackpacks:netherite_backpack"
+			x: 1.5d
+			y: 4.5d
+			description: [
+				"Quêtes : À faire"
+				"Positions : /"
+				"Visuels : /"
+				"Descriptions : /"
+				"Rewards : /"
+			]
+			dependencies: ["3F02C1DD261677C3"]
+			id: "4F10640FADDBE8E6"
+			tasks: [{
+				id: "20FE8DC2C95C1A2E"
+				type: "checkmark"
+				title: "Sophisticated Backpacks"
+			}]
+		}
+		{
+			icon: "occultism:spirit_fire"
+			x: 3.0d
+			y: 4.5d
+			description: [
+				"Quêtes : À faire"
+				"Positions : /"
+				"Visuels : /"
+				"Descriptions : /"
+				"Rewards : /"
+			]
+			dependencies: ["3F02C1DD261677C3"]
+			id: "089E94A6B4BA3CE3"
+			tasks: [{
+				id: "2417461D3A098DAC"
+				type: "checkmark"
+				title: "Occultism"
 			}]
 		}
 	]
