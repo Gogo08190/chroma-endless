@@ -7,6 +7,12 @@
     "running": {
         "block": "custommachinery:machine/slice_n_splice_on",
         "lightlevel": 15
+    },
+    "errored": {
+        "block": "custommachinery:machine/slice_n_splice"
+    },
+    "paused": {
+        "block": "custommachinery:machine/slice_n_splice"
     }
   },
   "tooltips": [

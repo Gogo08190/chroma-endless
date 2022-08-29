@@ -7,6 +7,12 @@
     "running": {
         "block": "custommachinery:machine/alloy_smelter_on",
         "lightlevel": 15
+    },
+    "errored": {
+        "block": "custommachinery:machine/alloy_smelter"
+    },
+    "paused": {
+        "block": "custommachinery:machine/alloy_smelter"
     }
   },
   "tooltips": [

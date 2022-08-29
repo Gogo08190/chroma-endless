@@ -7,6 +7,12 @@
       "running": {
           "block": "custommachinery:machine/inscriber_on",
           "lightlevel": 15
+      },
+      "errored": {
+          "block": "custommachinery:machine/inscriber"
+      },
+      "paused": {
+          "block": "custommachinery:machine/inscriber"
       }
     },
     "tooltips": [
