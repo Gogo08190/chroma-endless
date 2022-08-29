@@ -10,7 +10,7 @@ onEvent('recipes', (event) => {
                 H: 'betterendforge:aeternium_sword_handle',
                 N: 'extendedcrafting:nether_star_block'
             },
-            id: 'wstweaks:lava_blade'
+            id: 'wstweaks:blaze_blade'
         },
         {
             output: 'wstweaks:blaze_blade',
@@ -22,7 +22,7 @@ onEvent('recipes', (event) => {
                 H: 'betterendforge:aeternium_sword_handle',
                 N: 'extendedcrafting:nether_star_block'
             },
-            id: 'wstweaks:blaze_blade'
+            id: 'wstweaks:lava_blade'
         }
     ];
 
