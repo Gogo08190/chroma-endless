@@ -182,7 +182,7 @@ onEvent('recipes', (event) => {
       },
       {
           output: 'projecte:relay_mk2',
-          pattern: ['ODO', 'OCO', 'OOO'],
+          pattern: ['ODO', 'VCV', 'OVO'],
           key: {
             O: '#forge:ingots/refined_obsidian',
             V: '#forge:ingots/unobtainium',
