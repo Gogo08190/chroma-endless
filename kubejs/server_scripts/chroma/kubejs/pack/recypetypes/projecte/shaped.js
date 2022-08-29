@@ -53,9 +53,10 @@ onEvent('recipes', (event) => {
       },
       {
           output: 'projectexpansion:basic_relay',
-          pattern: ['OGO', 'ODO', 'OWO'],
+          pattern: ['OGO', 'VDV', 'OWO'],
           key: {
             O: '#forge:ingots/refined_obsidian',
+            V: '#forge:ingots/unobtainium',
             G: 'botania:elf_glass',
             D: 'projecte:dark_matter',
             W: 'enderioalloys:item_material_weather_crystal'
@@ -64,9 +65,10 @@ onEvent('recipes', (event) => {
       },
       {
           output: 'projecte:relay_mk1',
-          pattern: ['OGO', 'ODO', 'OWO'],
+          pattern: ['OGO', 'VDV', 'OWO'],
           key: {
             O: '#forge:ingots/refined_obsidian',
+            V: '#forge:ingots/unobtainium',
             G: 'botania:elf_glass',
             D: '#forge:storage_blocks/niotic',
             W: 'enderioalloys:item_material_weather_crystal'
@@ -75,9 +77,10 @@ onEvent('recipes', (event) => {
       },
       {
           output: 'projecte:collector_mk1',
-          pattern: ['OGO', 'ODO', 'OWO'],
+          pattern: ['OGO', 'ADA', 'OWO'],
           key: {
             O: '#forge:ingots/refined_glowstone',
+            A: '#forge:ingots/allthemodium',
             G: 'botania:elf_glass',
             D: '#forge:storage_blocks/niotic',
             W: 'powah:capacitor_blazing'
@@ -86,9 +89,10 @@ onEvent('recipes', (event) => {
       },
       {
           output: 'projectexpansion:basic_collector',
-          pattern: ['OGO', 'ODO', 'OWO'],
+          pattern: ['OGO', 'ADA', 'OWO'],
           key: {
             O: '#forge:ingots/refined_glowstone',
+            A: '#forge:ingots/allthemodium',
             G: 'botania:elf_glass',
             D: 'projecte:dark_matter',
             W: 'powah:capacitor_blazing'
@@ -163,7 +167,7 @@ onEvent('recipes', (event) => {
             T: 'undergarden:shard_torch',
             N: '#forge:gems/niotic',
             P: 'projecte:philosophers_stone',
-            G: '#forge:ingots/refined_glowstone'
+            G: '#forge:ingots/vibranium_allthemodium_alloy'
           },
           id: 'projecte:interdiction_torch'
       },
@@ -181,6 +185,7 @@ onEvent('recipes', (event) => {
           pattern: ['ODO', 'OCO', 'OOO'],
           key: {
             O: '#forge:ingots/refined_obsidian',
+            V: '#forge:ingots/unobtainium',
             D: 'projecte:dark_matter_block',
             C: 'projecte:relay_mk1'
           },
@@ -188,9 +193,10 @@ onEvent('recipes', (event) => {
       },
       {
           output: 'projecte:relay_mk3',
-          pattern: ['ODO', 'OCO', 'OOO'],
+          pattern: ['ODO', 'VCV', 'OVO'],
           key: {
             O: '#forge:ingots/refined_obsidian',
+            V: '#forge:ingots/unobtainium',
             D: 'projecte:red_matter_block',
             C: 'projecte:relay_mk2'
           },
@@ -198,9 +204,10 @@ onEvent('recipes', (event) => {
       },
       {
           output: 'projecte:collector_mk2',
-          pattern: ['ODO', 'OCO', 'OOO'],
+          pattern: ['ODO', 'ACA', 'OAO'],
           key: {
             O: '#forge:ingots/refined_glowstone',
+            A: '#forge:ingots/allthemodium',
             D: 'projecte:dark_matter_block',
             C: 'projecte:collector_mk1'
           },
@@ -208,9 +215,10 @@ onEvent('recipes', (event) => {
       },
       {
           output: 'projecte:collector_mk3',
-          pattern: ['ODO', 'OCO', 'OOO'],
+          pattern: ['ODO', 'ACA', 'OAO'],
           key: {
             O: '#forge:ingots/refined_glowstone',
+            A: '#forge:ingots/allthemodium',
             D: 'projecte:red_matter_block',
             C: 'projecte:collector_mk2'
           },

@@ -386,8 +386,8 @@ onEvent('recipes', (event) => {
 
       {
           inputs: [
-              { item: 'mekanism:ingot_refined_obsidian' },
-              { item: 'mekanism:ingot_refined_obsidian' },
+              { item: 'allthemodium:unobtainium_vibranium_alloy_ingot' },
+              { item: 'allthemodium:unobtainium_vibranium_alloy_ingot' },
               { item: 'mekanism:ingot_refined_obsidian' },
               { item: 'mekanism:ingot_refined_obsidian' },
               { item: 'powah:capacitor_niotic' },

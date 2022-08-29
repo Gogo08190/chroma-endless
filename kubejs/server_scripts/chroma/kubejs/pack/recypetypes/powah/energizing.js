@@ -269,7 +269,7 @@ onEvent('recipes', (event) => {
       {
           ingredients: [
               { item: 'emendatusenigmatica:steel_ingot' },
-              { item: 'emendatusenigmatica:electrum_ingot' }
+              { item: 'allthemodium:allthemodium_ingot' }
           ],
           energy: 10000,
           result: {
