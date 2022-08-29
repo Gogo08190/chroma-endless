@@ -144,13 +144,13 @@ onEvent('recipes', (event) => {
               { item: 'bigreactors:ludicrite_ingot' },
               { item: 'mekanism:ingot_refined_obsidian' },
               { item: 'pipez:ultimate_upgrade' },
-              { item: 'industrialforegoing:pink_slime_ingot' },
+              { item: 'allthemodium:unobtainium_ingot' },
               { item: 'envirocore:kyronite_interconnect' },
               { item: 'mekanism:alloy_atomic' },
               { item: 'bigreactors:ludicrite_ingot' },
               { item: 'mekanism:ingot_refined_obsidian' },
               { item: 'pipez:ultimate_upgrade' },
-              { item: 'industrialforegoing:pink_slime_ingot' }
+              { item: 'allthemodium:unobtainium_ingot' }
           ],
           catalyst: { item: 'enderioalloys:item_material_skull_ender_resonator'},
           powerCost: 500000,
