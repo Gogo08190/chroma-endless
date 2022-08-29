@@ -684,15 +684,10 @@
 		}
 		{
 			title: "Metal Press"
-			icon: {
-				id: "ftbquests:custom_icon"
-				Count: 1b
-				tag: {
-					Icon: "immersiveengineering:textures/block/multiblocks/metal_press.png"
-				}
-			}
+			icon: "immersiveengineering:metal_press"
 			x: -10.0d
 			y: 8.25d
+			hide_dependency_lines: true
 			id: "19862EE31DFDDAB0"
 			tasks: [
 				{
@@ -726,13 +721,7 @@
 		}
 		{
 			title: "Crusher"
-			icon: {
-				id: "ftbquests:custom_icon"
-				Count: 1b
-				tag: {
-					Icon: "immersiveengineering:textures/block/multiblocks/crusher.png"
-				}
-			}
+			icon: "immersiveengineering:crusher"
 			x: -9.0d
 			y: 8.25d
 			id: "073EACF91190BEA0"
@@ -770,13 +759,7 @@
 		}
 		{
 			title: "Sawmill"
-			icon: {
-				id: "ftbquests:custom_icon"
-				Count: 1b
-				tag: {
-					Icon: "immersiveengineering:textures/block/multiblocks/sawmill.png"
-				}
-			}
+			icon: "immersiveengineering:sawmill"
 			x: -8.0d
 			y: 8.25d
 			id: "2AB4AE22B6E73EBA"
@@ -820,13 +803,7 @@
 		}
 		{
 			title: "Assembler"
-			icon: {
-				id: "ftbquests:custom_icon"
-				Count: 1b
-				tag: {
-					Icon: "immersiveengineering:textures/block/multiblocks/assembler.png"
-				}
-			}
+			icon: "immersiveengineering:assembler"
 			x: -7.0d
 			y: 8.25d
 			id: "65B718DAC2C88A4C"
@@ -871,13 +848,7 @@
 		}
 		{
 			title: "Fermenter"
-			icon: {
-				id: "ftbquests:custom_icon"
-				Count: 1b
-				tag: {
-					Icon: "immersiveengineering:textures/block/multiblocks/fermenter.png"
-				}
-			}
+			icon: "immersiveengineering:fermenter"
 			x: -6.0d
 			y: 8.25d
 			id: "5DC309731882A5E1"
@@ -921,13 +892,7 @@
 		}
 		{
 			title: "Squeezer"
-			icon: {
-				id: "ftbquests:custom_icon"
-				Count: 1b
-				tag: {
-					Icon: "immersiveengineering:textures/block/multiblocks/squeezer.png"
-				}
-			}
+			icon: "immersiveengineering:squeezer"
 			x: -5.0d
 			y: 8.25d
 			id: "625FD0330E1BDA54"
@@ -976,13 +941,7 @@
 		}
 		{
 			title: "Refinery"
-			icon: {
-				id: "ftbquests:custom_icon"
-				Count: 1b
-				tag: {
-					Icon: "immersiveengineering:textures/block/multiblocks/refinery.png"
-				}
-			}
+			icon: "immersiveengineering:refinery"
 			x: -10.0d
 			y: 9.25d
 			id: "1C4916687AD96A77"
@@ -1026,13 +985,7 @@
 		}
 		{
 			title: "Mixer"
-			icon: {
-				id: "ftbquests:custom_icon"
-				Count: 1b
-				tag: {
-					Icon: "immersiveengineering:textures/block/multiblocks/mixer.png"
-				}
-			}
+			icon: "immersiveengineering:mixer"
 			x: -9.0d
 			y: 9.25d
 			id: "70CA1655FB8127B2"
@@ -1075,13 +1028,7 @@
 		}
 		{
 			title: "Bottling Machine"
-			icon: {
-				id: "ftbquests:custom_icon"
-				Count: 1b
-				tag: {
-					Icon: "immersiveengineering:textures/block/multiblocks/bottling_machine.png"
-				}
-			}
+			icon: "immersiveengineering:bottling_machine"
 			x: -8.0d
 			y: 9.25d
 			id: "18195DDA4F43EFCF"
@@ -1125,13 +1072,7 @@
 		}
 		{
 			title: "Automated Workbench"
-			icon: {
-				id: "ftbquests:custom_icon"
-				Count: 1b
-				tag: {
-					Icon: "immersiveengineering:textures/block/multiblocks/autoworkbench.png"
-				}
-			}
+			icon: "immersiveengineering:auto_workbench"
 			x: -7.0d
 			y: 9.25d
 			id: "5E1E836B766A4AA0"
@@ -1175,13 +1116,7 @@
 		}
 		{
 			title: "Arc Furnace"
-			icon: {
-				id: "ftbquests:custom_icon"
-				Count: 1b
-				tag: {
-					Icon: "immersiveengineering:textures/block/multiblocks/arc_furnace.png"
-				}
-			}
+			icon: "immersiveengineering:arc_furnace"
 			x: -6.0d
 			y: 9.25d
 			id: "29A495E5307C19C8"
@@ -1242,13 +1177,7 @@
 		}
 		{
 			title: "Excavator"
-			icon: {
-				id: "ftbquests:custom_icon"
-				Count: 1b
-				tag: {
-					Icon: "immersiveengineering:textures/block/multiblocks/excavator.png"
-				}
-			}
+			icon: "immersiveengineering:excavator"
 			x: -5.0d
 			y: 9.25d
 			id: "219D232C263901B6"
