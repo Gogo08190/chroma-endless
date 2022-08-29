@@ -1013,11 +1013,11 @@ onEvent("recipes", (event) => {
       "pattern": [
         "AABCDCBAA",
         "ABEFGFEBA",
-        "BEHIJIHEB",
-        "CFIKLKIFC",
-        "DGJLMLJGD",
-        "CFIKLKIFC",
-        "BEHIJIHEB",
+        "BEHIJKHEB",
+        "CFILMLKFC",
+        "DGJMNMJGD",
+        "CFKLMLIFC",
+        "BEHKJIHEB",
         " BEFGFEB ",
         "  BCDCB  "
       ],
@@ -1053,12 +1053,15 @@ onEvent("recipes", (event) => {
           "item": "draconicevolution:wyvern_core"
         },
         "K": {
-          "item": "projecte:aeternalis_fuel"
+          "item": "allthemodium:unobtainium_vibranium_alloy_ingot"
         },
         "L": {
-          "item": "powah:capacitor_niotic"
+          "item": "projecte:aeternalis_fuel"
         },
         "M": {
+          "item": "powah:capacitor_niotic"
+        },
+        "N": {
           "item": "draconicevolution:dragon_heart"
         }
       },

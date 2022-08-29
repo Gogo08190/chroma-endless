@@ -213,10 +213,9 @@ onEvent('recipes', (event) => {
       },
       {
           output: 'rftoolsutility:dialing_device',
-          pattern: ['EPL', 'CMC', 'IAI'],
+          pattern: ['LPL', 'CMC', 'IAI'],
           key: {
-              L: '#forge:ingots/lumium',
-              E: '#forge:ingots/enderium',
+              L: '#forge:ingots/allthemodium',
               I: 'rftoolsbase:infused_enderpearl',
               P: 'wormhole:portal_stabilizer',
               A: 'wormhole:advanced_target_cell',
