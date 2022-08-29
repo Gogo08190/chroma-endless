@@ -200,6 +200,15 @@ onEvent('recipes', (event) => {
               output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:zinc_bee' }).toJson(),
               cooling_time: 120,
               id: `${id_prefix}zinc_bee`
+          },
+          {
+              fluid: 'allthemodium:molten_bluelava',
+              fluid_amount: 4000,
+              casts: [Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:blaze_bee' }).weakNBT().toJson()],
+              cast_consumed: true,
+              output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:soul_lava_bee' }).toJson(),
+              cooling_time: 120,
+              id: `${id_prefix}soul_lava_bee`
           }
         ]
     };
