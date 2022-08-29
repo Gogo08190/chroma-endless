@@ -12,6 +12,7 @@ onEvent('recipes', (event) => {
         { type: {}, toReplace: 'simplefarming:chocolate', replaceWith: 'create:bar_of_chocolate' },
         { type: {}, toReplace: 'thermal:rubber', replaceWith: 'industrialforegoing:dryrubber' },
         { type: {}, toReplace: 'immersiveengineering:slag', replaceWith: 'thermal:slag' },
+        { type: {}, toReplace: 'create:powdered_obsidian', replaceWith: 'emendatusenigmatica:obsidian_dust' },
         {
             type: { mod: 'dustrial_decor' },
             toReplace: 'minecraft:iron_ingot',
