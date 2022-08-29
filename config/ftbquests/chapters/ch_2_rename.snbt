@@ -13,6 +13,56 @@
 	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 3.511904761904745d
+			y: 6.125000000000007d
+			width: 4.0d
+			height: 4.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/pentagram_rouge.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 3.511904761904745d
+			y: 10.125000000000007d
+			width: 4.0d
+			height: 4.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/pentagram_rouge.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.0238095238095184d
+			y: 8.351190476190489d
+			width: 4.0d
+			height: 4.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/pentagram_rouge.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 8.25d
+			y: 8.357142857142861d
+			width: 4.0d
+			height: 4.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/pentagram_rouge.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
 			title: "To Ch. 3 (rename)"
@@ -28,7 +78,7 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: -11.0d
 			y: 7.25d
 			id: "56FF868139410EDB"
 			tasks: [{
@@ -39,7 +89,7 @@
 		}
 		{
 			title: "immersive"
-			x: -9.0d
+			x: -15.0d
 			y: -1.75d
 			id: "756F3C3A6F621926"
 			tasks: [{
@@ -55,14 +105,23 @@
 			}]
 		}
 		{
-			title: "occultism"
+			title: "Let's start some weird magic"
+			icon: {
+				id: "occultism:book_of_binding_bound_djinni"
+				Count: 1b
+				tag: {
+					spiritName: "Mjolmeees"
+				}
+			}
 			x: 3.5d
 			y: -2.0d
+			subtitle: "Dark Magic"
+			dependencies: ["7F54A0C0B5BF3908"]
 			id: "3A5569B8FB3C4F7B"
 			tasks: [{
-				id: "3D6D5B976924CC01"
-				type: "item"
-				item: "occultism:spirit_fire"
+				id: "75F7397B2B01BB2A"
+				type: "checkmark"
+				title: "Unlocked the Occultism chapter"
 			}]
 		}
 		{
@@ -87,7 +146,7 @@
 			}]
 		}
 		{
-			x: -6.0d
+			x: -12.0d
 			y: -0.75d
 			id: "185B58BD59C2FF12"
 			tasks: [{
@@ -97,7 +156,7 @@
 			}]
 		}
 		{
-			x: -6.0d
+			x: -12.0d
 			y: 0.25d
 			id: "70F5AF04E8762BF7"
 			tasks: [{
@@ -107,7 +166,7 @@
 			}]
 		}
 		{
-			x: -6.0d
+			x: -12.0d
 			y: 1.25d
 			id: "1B8563C8225EED2E"
 			tasks: [{
@@ -117,7 +176,7 @@
 			}]
 		}
 		{
-			x: -10.0d
+			x: -16.0d
 			y: -0.75d
 			id: "1ADD7F8A69F0DDEC"
 			tasks: [{
@@ -127,7 +186,7 @@
 			}]
 		}
 		{
-			x: -9.0d
+			x: -15.0d
 			y: -0.75d
 			id: "2898DFCF9A94A69A"
 			tasks: [{
@@ -137,7 +196,7 @@
 			}]
 		}
 		{
-			x: -8.0d
+			x: -14.0d
 			y: -0.75d
 			id: "6CC61903F9C3E3AC"
 			tasks: [{
@@ -147,7 +206,7 @@
 			}]
 		}
 		{
-			x: -7.0d
+			x: -13.0d
 			y: -0.75d
 			id: "7F0E63115FBF18A2"
 			tasks: [{
@@ -157,7 +216,7 @@
 			}]
 		}
 		{
-			x: -10.0d
+			x: -16.0d
 			y: 0.25d
 			id: "078BA9404F53C139"
 			tasks: [{
@@ -167,7 +226,7 @@
 			}]
 		}
 		{
-			x: -9.0d
+			x: -15.0d
 			y: 0.25d
 			id: "0C34859220EB00E5"
 			tasks: [{
@@ -177,7 +236,7 @@
 			}]
 		}
 		{
-			x: -8.0d
+			x: -14.0d
 			y: 0.25d
 			id: "6855D71567156BA5"
 			tasks: [{
@@ -187,7 +246,7 @@
 			}]
 		}
 		{
-			x: -7.0d
+			x: -13.0d
 			y: 0.25d
 			id: "256E5A66F63670D0"
 			tasks: [{
@@ -197,7 +256,7 @@
 			}]
 		}
 		{
-			x: -10.0d
+			x: -16.0d
 			y: 1.25d
 			id: "1A9A897D04134052"
 			tasks: [{
@@ -207,7 +266,7 @@
 			}]
 		}
 		{
-			x: -9.0d
+			x: -15.0d
 			y: 1.25d
 			id: "70AAACB1DD2AB8E1"
 			tasks: [{
@@ -217,7 +276,7 @@
 			}]
 		}
 		{
-			x: -8.0d
+			x: -14.0d
 			y: 1.25d
 			id: "118E476162B63D7A"
 			tasks: [{
@@ -227,7 +286,7 @@
 			}]
 		}
 		{
-			x: -7.0d
+			x: -13.0d
 			y: 1.25d
 			id: "3C9FD69469154A28"
 			tasks: [{
@@ -237,7 +296,7 @@
 			}]
 		}
 		{
-			x: -8.0d
+			x: -14.0d
 			y: -1.75d
 			id: "79778D4EEF712D00"
 			tasks: [{
@@ -247,7 +306,7 @@
 			}]
 		}
 		{
-			x: -7.0d
+			x: -13.0d
 			y: -1.75d
 			id: "59DEC4906200FF62"
 			tasks: [{
@@ -257,7 +316,7 @@
 			}]
 		}
 		{
-			x: -6.0d
+			x: -12.0d
 			y: -1.75d
 			id: "22A51ABB2060EB12"
 			tasks: [{
@@ -267,7 +326,7 @@
 			}]
 		}
 		{
-			x: -10.0d
+			x: -16.0d
 			y: 2.25d
 			id: "52562D2492B5F2DA"
 			tasks: [{
@@ -277,7 +336,7 @@
 			}]
 		}
 		{
-			x: -9.0d
+			x: -15.0d
 			y: 2.25d
 			id: "04CA21A228AFD723"
 			tasks: [{
@@ -287,7 +346,7 @@
 			}]
 		}
 		{
-			x: -8.0d
+			x: -14.0d
 			y: 2.25d
 			id: "3BD8CABE67939143"
 			tasks: [{
@@ -297,7 +356,7 @@
 			}]
 		}
 		{
-			x: -7.0d
+			x: -13.0d
 			y: 2.25d
 			id: "71295F41D2D36494"
 			tasks: [{
@@ -307,7 +366,7 @@
 			}]
 		}
 		{
-			x: -6.0d
+			x: -12.0d
 			y: 2.25d
 			id: "553ED39D5A115D2D"
 			tasks: [{
@@ -317,7 +376,7 @@
 			}]
 		}
 		{
-			x: -10.0d
+			x: -16.0d
 			y: 3.25d
 			id: "013EF1AC48991B24"
 			tasks: [{
@@ -327,7 +386,7 @@
 			}]
 		}
 		{
-			x: -9.0d
+			x: -15.0d
 			y: 3.25d
 			id: "50B02DF11902C401"
 			tasks: [{
@@ -337,7 +396,7 @@
 			}]
 		}
 		{
-			x: -8.0d
+			x: -14.0d
 			y: 3.25d
 			id: "3CB1BA3A2A2BCCB9"
 			tasks: [{
@@ -347,7 +406,7 @@
 			}]
 		}
 		{
-			x: -7.0d
+			x: -13.0d
 			y: 3.25d
 			id: "706334A5D020943E"
 			tasks: [{
@@ -357,7 +416,7 @@
 			}]
 		}
 		{
-			x: -6.0d
+			x: -12.0d
 			y: 3.25d
 			id: "3B60BC0C13EEDE8C"
 			tasks: [{
@@ -367,7 +426,7 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: -11.0d
 			y: -1.75d
 			id: "1B65B79D56E3A048"
 			tasks: [{
@@ -377,7 +436,7 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: -11.0d
 			y: -0.75d
 			id: "082742EC52214523"
 			tasks: [{
@@ -387,7 +446,7 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: -11.0d
 			y: 0.25d
 			id: "2B65CE1689BA653A"
 			tasks: [{
@@ -397,7 +456,7 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: -11.0d
 			y: 1.25d
 			id: "601E62FF8424E1A1"
 			tasks: [{
@@ -407,7 +466,7 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: -11.0d
 			y: 2.25d
 			id: "27141D15A8E1F002"
 			tasks: [{
@@ -417,7 +476,7 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: -11.0d
 			y: 3.25d
 			id: "2193BEB8C8F1718E"
 			tasks: [{
@@ -427,7 +486,7 @@
 			}]
 		}
 		{
-			x: -9.0d
+			x: -15.0d
 			y: 5.25d
 			id: "2F571C765B55CFEE"
 			tasks: [{
@@ -437,7 +496,7 @@
 			}]
 		}
 		{
-			x: -9.0d
+			x: -15.0d
 			y: 4.25d
 			id: "6551B7ACC38AACB3"
 			tasks: [{
@@ -447,7 +506,7 @@
 			}]
 		}
 		{
-			x: -8.0d
+			x: -14.0d
 			y: 4.25d
 			id: "7E58478C1F9C67A7"
 			tasks: [{
@@ -457,7 +516,7 @@
 			}]
 		}
 		{
-			x: -7.0d
+			x: -13.0d
 			y: 4.25d
 			id: "16589D17952203BD"
 			tasks: [{
@@ -467,7 +526,7 @@
 			}]
 		}
 		{
-			x: -6.0d
+			x: -12.0d
 			y: 4.25d
 			id: "5E6932FE693B1BAA"
 			tasks: [{
@@ -477,7 +536,7 @@
 			}]
 		}
 		{
-			x: -10.0d
+			x: -16.0d
 			y: 4.25d
 			id: "4921D5F7313BB341"
 			tasks: [{
@@ -487,7 +546,7 @@
 			}]
 		}
 		{
-			x: -10.0d
+			x: -16.0d
 			y: 5.25d
 			id: "3F6CE10477899951"
 			tasks: [{
@@ -497,7 +556,7 @@
 			}]
 		}
 		{
-			x: -8.0d
+			x: -14.0d
 			y: 5.25d
 			id: "7A91C9AE13816E4A"
 			tasks: [{
@@ -507,7 +566,7 @@
 			}]
 		}
 		{
-			x: -7.0d
+			x: -13.0d
 			y: 5.25d
 			id: "7D4D07CB73448796"
 			tasks: [{
@@ -517,7 +576,7 @@
 			}]
 		}
 		{
-			x: -6.0d
+			x: -12.0d
 			y: 5.25d
 			id: "552FA47ECA2FE4B3"
 			tasks: [{
@@ -527,7 +586,7 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: -11.0d
 			y: 5.25d
 			id: "4A018BBC2F5AD675"
 			tasks: [{
@@ -537,7 +596,7 @@
 			}]
 		}
 		{
-			x: -6.0d
+			x: -12.0d
 			y: 6.25d
 			id: "1A89F0C5AAA08291"
 			tasks: [{
@@ -547,7 +606,7 @@
 			}]
 		}
 		{
-			x: -9.0d
+			x: -15.0d
 			y: 6.25d
 			id: "4935B96CAA69323D"
 			tasks: [{
@@ -557,7 +616,7 @@
 			}]
 		}
 		{
-			x: -8.0d
+			x: -14.0d
 			y: 6.25d
 			id: "54EE45F128BA91C3"
 			tasks: [{
@@ -567,7 +626,7 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: -11.0d
 			y: 4.25d
 			id: "1E8173F7872D8D24"
 			tasks: [{
@@ -577,7 +636,7 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: -11.0d
 			y: 6.25d
 			id: "62EE24B8F491D351"
 			tasks: [{
@@ -587,7 +646,7 @@
 			}]
 		}
 		{
-			x: -10.0d
+			x: -16.0d
 			y: 6.25d
 			id: "24EEF248EEAD4E80"
 			tasks: [{
@@ -597,7 +656,7 @@
 			}]
 		}
 		{
-			x: -7.0d
+			x: -13.0d
 			y: 6.25d
 			id: "320127170E52E903"
 			tasks: [{
@@ -607,7 +666,7 @@
 			}]
 		}
 		{
-			x: -10.0d
+			x: -16.0d
 			y: 7.25d
 			id: "27101AAB36E02A4F"
 			tasks: [{
@@ -617,7 +676,7 @@
 			}]
 		}
 		{
-			x: -9.0d
+			x: -15.0d
 			y: 7.25d
 			id: "75CED07646EE8601"
 			tasks: [{
@@ -627,7 +686,7 @@
 			}]
 		}
 		{
-			x: -8.0d
+			x: -14.0d
 			y: 7.25d
 			id: "44C7274EBBBFA24B"
 			tasks: [{
@@ -637,7 +696,7 @@
 			}]
 		}
 		{
-			x: -7.0d
+			x: -13.0d
 			y: 7.25d
 			id: "70885C4B9975D97D"
 			tasks: [{
@@ -647,7 +706,7 @@
 			}]
 		}
 		{
-			x: -6.0d
+			x: -12.0d
 			y: 7.25d
 			id: "68D29B7485E0C5E2"
 			tasks: [{
@@ -657,7 +716,7 @@
 			}]
 		}
 		{
-			x: -10.0d
+			x: -16.0d
 			y: -1.75d
 			id: "4984B2A5DDE4FEF7"
 			tasks: [{
@@ -673,7 +732,7 @@
 			}]
 		}
 		{
-			x: -10.0d
+			x: -16.0d
 			y: -2.75d
 			id: "34AB0AFA85B55B89"
 			tasks: [{
@@ -685,7 +744,7 @@
 		{
 			title: "Metal Press"
 			icon: "immersiveengineering:metal_press"
-			x: -10.0d
+			x: -16.0d
 			y: 8.25d
 			hide_dependency_lines: true
 			id: "19862EE31DFDDAB0"
@@ -722,7 +781,7 @@
 		{
 			title: "Crusher"
 			icon: "immersiveengineering:crusher"
-			x: -9.0d
+			x: -15.0d
 			y: 8.25d
 			id: "073EACF91190BEA0"
 			tasks: [
@@ -760,7 +819,7 @@
 		{
 			title: "Sawmill"
 			icon: "immersiveengineering:sawmill"
-			x: -8.0d
+			x: -14.0d
 			y: 8.25d
 			id: "2AB4AE22B6E73EBA"
 			tasks: [
@@ -804,7 +863,7 @@
 		{
 			title: "Assembler"
 			icon: "immersiveengineering:assembler"
-			x: -7.0d
+			x: -13.0d
 			y: 8.25d
 			id: "65B718DAC2C88A4C"
 			tasks: [
@@ -849,7 +908,7 @@
 		{
 			title: "Fermenter"
 			icon: "immersiveengineering:fermenter"
-			x: -6.0d
+			x: -12.0d
 			y: 8.25d
 			id: "5DC309731882A5E1"
 			tasks: [
@@ -893,7 +952,7 @@
 		{
 			title: "Squeezer"
 			icon: "immersiveengineering:squeezer"
-			x: -5.0d
+			x: -11.0d
 			y: 8.25d
 			id: "625FD0330E1BDA54"
 			tasks: [
@@ -942,7 +1001,7 @@
 		{
 			title: "Refinery"
 			icon: "immersiveengineering:refinery"
-			x: -10.0d
+			x: -16.0d
 			y: 9.25d
 			id: "1C4916687AD96A77"
 			tasks: [
@@ -986,7 +1045,7 @@
 		{
 			title: "Mixer"
 			icon: "immersiveengineering:mixer"
-			x: -9.0d
+			x: -15.0d
 			y: 9.25d
 			id: "70CA1655FB8127B2"
 			tasks: [
@@ -1029,7 +1088,7 @@
 		{
 			title: "Bottling Machine"
 			icon: "immersiveengineering:bottling_machine"
-			x: -8.0d
+			x: -14.0d
 			y: 9.25d
 			id: "18195DDA4F43EFCF"
 			tasks: [
@@ -1073,7 +1132,7 @@
 		{
 			title: "Automated Workbench"
 			icon: "immersiveengineering:auto_workbench"
-			x: -7.0d
+			x: -13.0d
 			y: 9.25d
 			id: "5E1E836B766A4AA0"
 			tasks: [
@@ -1117,7 +1176,7 @@
 		{
 			title: "Arc Furnace"
 			icon: "immersiveengineering:arc_furnace"
-			x: -6.0d
+			x: -12.0d
 			y: 9.25d
 			id: "29A495E5307C19C8"
 			tasks: [
@@ -1178,7 +1237,7 @@
 		{
 			title: "Excavator"
 			icon: "immersiveengineering:excavator"
-			x: -5.0d
+			x: -11.0d
 			y: 9.25d
 			id: "219D232C263901B6"
 			tasks: [
@@ -1216,6 +1275,654 @@
 					type: "item"
 					item: "immersiveengineering:heavy_engineering"
 					count: 4L
+				}
+			]
+		}
+		{
+			title: "Diabolical Seeds"
+			x: 3.5d
+			y: -0.25d
+			subtitle: "Harvesting Demons"
+			description: ["In order to obtain those &2seeds&r, you'll have to break grass bushes."]
+			dependencies: ["3A5569B8FB3C4F7B"]
+			id: "4E84E8ADA1739E71"
+			tasks: [{
+				id: "13C6CDB51BA5FF8B"
+				type: "item"
+				title: "Demon Seeds"
+				item: "occultism:datura_seeds"
+				count: 9L
+			}]
+			rewards: [{
+				id: "173BC690F5FD7CCC"
+				type: "item"
+				item: "occultism:datura"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.75d
+			subtitle: "Calling demons !"
+			description: ["In order to create the &5SpiritFire&r, you will have to drop the &2Demon Dream Fruit&r on the floor and then right click with a &0Flint'N'Steel&r."]
+			hide_dependency_lines: true
+			dependencies: ["4E84E8ADA1739E71"]
+			id: "28C3F89057684CC6"
+			tasks: [{
+				id: "2B5AB3E75F1A0A7D"
+				type: "checkmark"
+				title: "Spiritfire !"
+				icon: "occultism:spirit_fire"
+			}]
+		}
+		{
+			x: 2.75d
+			y: 2.0d
+			dependencies: ["28C3F89057684CC6"]
+			id: "0FA6324B2250CC01"
+			tasks: [{
+				id: "4D6D7B92FA593B10"
+				type: "item"
+				item: "occultism:purified_ink"
+			}]
+		}
+		{
+			x: 1.75d
+			y: 2.0d
+			dependencies: ["28C3F89057684CC6"]
+			id: "414FB84D8E12D770"
+			tasks: [{
+				id: "0143BF09043C8A81"
+				type: "item"
+				item: "occultism:spirit_attuned_gem"
+			}]
+		}
+		{
+			x: 5.25d
+			y: 2.0d
+			dependencies: ["28C3F89057684CC6"]
+			id: "1C3E182744A46821"
+			tasks: [{
+				id: "101C60D9A1BB24DE"
+				type: "item"
+				item: "occultism:otherworld_ashes"
+			}]
+		}
+		{
+			x: 2.25d
+			y: 1.25d
+			dependencies: ["28C3F89057684CC6"]
+			id: "281F853004D0032C"
+			tasks: [{
+				id: "69995795F85D1B9B"
+				type: "item"
+				item: "occultism:otherstone"
+			}]
+		}
+		{
+			x: 4.75d
+			y: 1.25d
+			dependencies: ["28C3F89057684CC6"]
+			id: "795294F328925FD4"
+			tasks: [{
+				id: "1F255B9EBE45E909"
+				type: "item"
+				item: "ironjetpacks:otherworldian_cell"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 6.0d
+			hide_dependency_lines: true
+			dependencies: ["28C3F89057684CC6"]
+			id: "492116474A965E37"
+			tasks: [{
+				id: "70AF4EFD727EEECC"
+				type: "item"
+				item: {
+					id: "occultism:chalk_white"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 10.0d
+			hide_dependency_lines: true
+			dependencies: ["28C3F89057684CC6"]
+			id: "1B0F10E649F86494"
+			tasks: [{
+				id: "58DFC9FC714116E8"
+				type: "item"
+				item: {
+					id: "occultism:chalk_gold"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 8.25d
+			hide_dependency_lines: true
+			dependencies: ["28C3F89057684CC6"]
+			id: "5CA6BAB71797C1A5"
+			tasks: [{
+				id: "7BE8B45EAC3CD6C4"
+				type: "item"
+				item: {
+					id: "occultism:chalk_purple"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 8.25d
+			y: 8.25d
+			hide_dependency_lines: true
+			dependencies: ["28C3F89057684CC6"]
+			id: "731299D4DEB93C9F"
+			tasks: [{
+				id: "681B44EC16C06D50"
+				type: "item"
+				item: {
+					id: "occultism:chalk_red"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.25d
+			y: 2.0d
+			dependencies: ["28C3F89057684CC6"]
+			id: "04CDB65B58341D53"
+			tasks: [{
+				id: "526CB96E9DC5DCE0"
+				type: "item"
+				item: {
+					id: "occultism:otherworld_sapling_natural"
+					Count: 1b
+					tag: {
+						isInventoryItem: 1b
+					}
+				}
+			}]
+		}
+		{
+			title: "Aviar's Circle"
+			icon: "occultism:ritual_dummy/craft_miner_djinni_ores"
+			x: 3.5d
+			y: 7.5d
+			subtitle: "Your first ritual"
+			description: ["So the first &8ritual&r is dedicated to the basic of &2Occultism&r. "]
+			hide_dependency_lines: true
+			dependencies: ["492116474A965E37"]
+			id: "3FF0CBC2AD6C6278"
+			tasks: [
+				{
+					id: "12DA6606FCDDAE54"
+					type: "item"
+					item: "occultism:candle_white"
+					count: 4L
+				}
+				{
+					id: "647263B83AB32152"
+					type: "item"
+					item: "occultism:sacrificial_bowl"
+					count: 4L
+				}
+				{
+					id: "693BC7788D967A4B"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
+				}
+			]
+		}
+		{
+			title: "Eziveus' Spectral Compulsion"
+			icon: "occultism:ritual_dummy/craft_miner_djinni_ores"
+			x: 2.0d
+			y: 10.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"492116474A965E37"
+				"1B0F10E649F86494"
+			]
+			id: "7BF5F871992F55AE"
+			tasks: [
+				{
+					id: "09CF6980AB505C8E"
+					type: "item"
+					item: "occultism:candle_white"
+					count: 2L
+				}
+				{
+					id: "67E05949D1DD4005"
+					type: "item"
+					item: "occultism:spirit_attuned_crystal"
+					count: 2L
+				}
+				{
+					id: "031FABFBE99BDA07"
+					type: "item"
+					item: "occultism:sacrificial_bowl"
+					count: 4L
+				}
+				{
+					id: "55DAC9344231D647"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
+				}
+			]
+		}
+		{
+			title: "Heydrin's Lure"
+			icon: "occultism:ritual_dummy/craft_miner_djinni_ores"
+			x: 5.0d
+			y: 10.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"492116474A965E37"
+				"1B0F10E649F86494"
+			]
+			id: "130FD9C228CCC91A"
+			tasks: [
+				{
+					id: "25E64B4D4325F41F"
+					type: "item"
+					item: "occultism:candle_white"
+					count: 8L
+				}
+				{
+					id: "1A3E46A2A20A0E20"
+					type: "item"
+					item: "occultism:sacrificial_bowl"
+					count: 4L
+				}
+				{
+					id: "096D972CC4E3EC39"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
+				}
+			]
+		}
+		{
+			title: "Ophyx' Calling"
+			icon: "occultism:ritual_dummy/summon_foliot_transport_items"
+			x: -1.0d
+			y: 10.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"492116474A965E37"
+				"5CA6BAB71797C1A5"
+			]
+			id: "31C03F89D3110A36"
+			tasks: [
+				{
+					id: "421DFD28AD39D26B"
+					type: "item"
+					item: "occultism:candle_white"
+					count: 8L
+				}
+				{
+					id: "3AC1A54F13CC4187"
+					type: "item"
+					item: "minecraft:skeleton_skull"
+					count: 4L
+				}
+				{
+					id: "4D92C041FA00EA38"
+					type: "item"
+					item: "occultism:sacrificial_bowl"
+					count: 4L
+				}
+				{
+					id: "6590FBF5C8980272"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
+				}
+			]
+		}
+		{
+			title: "Strigeor's Higher Binding"
+			icon: "occultism:ritual_dummy/craft_miner_foliot_unspecialized"
+			x: -2.5d
+			y: 8.75d
+			hide_dependency_lines: true
+			dependencies: [
+				"492116474A965E37"
+				"5CA6BAB71797C1A5"
+				"1B0F10E649F86494"
+			]
+			id: "3A99B2052AE4BAC9"
+			tasks: [
+				{
+					id: "557AFD7DCE721DDE"
+					type: "item"
+					item: "occultism:candle_white"
+					count: 4L
+				}
+				{
+					id: "7FF440937D4F2E13"
+					type: "item"
+					item: "occultism:spirit_attuned_crystal"
+					count: 4L
+				}
+				{
+					id: "658869CA04D1E7DF"
+					type: "item"
+					item: "occultism:sacrificial_bowl"
+					count: 4L
+				}
+				{
+					id: "21439FA6E1FBA7B9"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
+				}
+			]
+		}
+		{
+			title: "Ihagan's Enthrallement"
+			icon: "occultism:ritual_dummy/familiar_beaver"
+			x: 0.5d
+			y: 8.75d
+			hide_dependency_lines: true
+			dependencies: [
+				"492116474A965E37"
+				"5CA6BAB71797C1A5"
+				"1B0F10E649F86494"
+			]
+			id: "04834CC722C4C4C8"
+			tasks: [
+				{
+					id: "650931F7B55A3A14"
+					type: "item"
+					item: "occultism:candle_white"
+					count: 8L
+				}
+				{
+					id: "023EE2F8EC8FEA00"
+					type: "item"
+					item: "minecraft:skeleton_skull"
+					count: 4L
+				}
+				{
+					id: "2E5B095E04507889"
+					type: "item"
+					item: "occultism:sacrificial_bowl"
+					count: 4L
+				}
+				{
+					id: "23A465CB87C553C8"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
+				}
+			]
+		}
+		{
+			title: "Abras' Conjure"
+			icon: "occultism:ritual_dummy/summon_marid_crusher"
+			x: 7.0d
+			y: 8.75d
+			hide_dependency_lines: true
+			dependencies: [
+				"492116474A965E37"
+				"731299D4DEB93C9F"
+			]
+			id: "630BD45ADDB20675"
+			tasks: [
+				{
+					id: "68EB7F3801314C8A"
+					type: "item"
+					item: "occultism:candle_white"
+					count: 8L
+				}
+				{
+					id: "5C12BD9C6EC7908A"
+					type: "item"
+					item: "minecraft:skeleton_skull"
+					count: 2L
+				}
+				{
+					id: "321F40465CB278A6"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+					count: 2L
+				}
+				{
+					id: "2D2AA253A0B8685B"
+					type: "item"
+					item: "occultism:sacrificial_bowl"
+					count: 4L
+				}
+				{
+					id: "407E4C4AC872BEF2"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
+				}
+			]
+		}
+		{
+			title: "Sevira's Permanent Confinement"
+			icon: "occultism:ritual_dummy/familiar_greedy"
+			x: -2.0d
+			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"492116474A965E37"
+				"5CA6BAB71797C1A5"
+				"1B0F10E649F86494"
+			]
+			id: "4DA463AF4ABD0CA4"
+			tasks: [
+				{
+					id: "519C13BEC2B982D5"
+					type: "item"
+					item: "occultism:candle_white"
+					count: 12L
+				}
+				{
+					id: "664771CBA462EF24"
+					type: "item"
+					item: "minecraft:skeleton_skull"
+					count: 3L
+				}
+				{
+					id: "3375F4311B8B69EE"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+				}
+				{
+					id: "195AA72630B443E5"
+					type: "item"
+					item: "occultism:sacrificial_bowl"
+					count: 4L
+				}
+				{
+					id: "1FF238A02FAC7F8D"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
+				}
+			]
+		}
+		{
+			title: "Abras' Open Conjure"
+			icon: "occultism:ritual_dummy/familiar_deer"
+			x: -1.0d
+			y: 6.75d
+			hide_dependency_lines: true
+			dependencies: [
+				"492116474A965E37"
+				"5CA6BAB71797C1A5"
+			]
+			id: "40349C9C598C267B"
+			tasks: [
+				{
+					id: "6D1DC2B9BB224A50"
+					type: "item"
+					item: "occultism:candle_white"
+					count: 8L
+				}
+				{
+					id: "4E409A7AC678CD37"
+					type: "item"
+					item: "minecraft:skeleton_skull"
+					count: 2L
+				}
+				{
+					id: "4139B27BC75FBC78"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+					count: 2L
+				}
+				{
+					id: "17815443719E113A"
+					type: "item"
+					item: "occultism:sacrificial_bowl"
+					count: 4L
+				}
+				{
+					id: "5BE83118FDC08818"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
+				}
+			]
+		}
+		{
+			title: "Uphyxes Inverted Tower"
+			icon: "occultism:ritual_dummy/familiar_beaver"
+			x: 9.75d
+			y: 8.75d
+			hide_dependency_lines: true
+			dependencies: [
+				"492116474A965E37"
+				"1B0F10E649F86494"
+				"731299D4DEB93C9F"
+			]
+			id: "609ABEA205AC2CB7"
+			tasks: [
+				{
+					id: "261677CCCE1697D8"
+					type: "item"
+					item: "occultism:candle_white"
+					count: 8L
+				}
+				{
+					id: "0FCE5B56D9A99933"
+					type: "item"
+					item: "occultism:spirit_attuned_crystal"
+					count: 8L
+				}
+				{
+					id: "6A68380B6DBA73F4"
+					type: "item"
+					item: {
+						id: "minecraft:skeleton_skull"
+						Count: 1b
+						tag: { }
+					}
+					count: 4L
+				}
+				{
+					id: "37D165473A4894B1"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+					count: 4L
+				}
+				{
+					id: "53A14472CF09E6DD"
+					type: "item"
+					item: "occultism:sacrificial_bowl"
+					count: 5L
+				}
+				{
+					id: "4A9523530C7430A2"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
+				}
+			]
+		}
+		{
+			title: "Osorin's Unbond Calling"
+			icon: "occultism:ritual_dummy/possess_enderman"
+			x: 0.0d
+			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"492116474A965E37"
+				"5CA6BAB71797C1A5"
+			]
+			id: "32D3524C5FBA1045"
+			tasks: [
+				{
+					id: "6023AD90ED661B39"
+					type: "item"
+					item: "minecraft:skeleton_skull"
+					count: 4L
+				}
+				{
+					id: "67F2458FAFB15DAB"
+					type: "item"
+					item: "occultism:sacrificial_bowl"
+					count: 4L
+				}
+				{
+					id: "04C17EA3164824A2"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
+				}
+			]
+		}
+		{
+			title: "Abra's Commanding Conjure"
+			icon: "occultism:ritual_dummy/craft_miner_djinni_ores"
+			x: 8.25d
+			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"492116474A965E37"
+				"1B0F10E649F86494"
+				"5CA6BAB71797C1A5"
+				"731299D4DEB93C9F"
+			]
+			id: "4B9B233033B8C185"
+			tasks: [
+				{
+					id: "6A368C1FC164C323"
+					type: "item"
+					item: "occultism:candle_white"
+					count: 8L
+				}
+				{
+					id: "606B57CC00898099"
+					type: "item"
+					item: {
+						id: "minecraft:skeleton_skull"
+						Count: 1b
+						tag: { }
+					}
+					count: 2L
+				}
+				{
+					id: "104D5DEC22A1BBB4"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+					count: 2L
+				}
+				{
+					id: "0E00C68E8441A5EC"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
 				}
 			]
 		}

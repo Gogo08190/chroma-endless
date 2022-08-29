@@ -2015,8 +2015,8 @@
 			]
 		}
 		{
-			x: 8.75d
-			y: 23.0d
+			x: 10.25d
+			y: 24.5d
 			dependencies: ["5A15F4F1EFF567AC"]
 			id: "54EA65146A735963"
 			tasks: [{
@@ -2027,8 +2027,8 @@
 			}]
 		}
 		{
-			x: 10.25d
-			y: 24.5d
+			x: 11.75d
+			y: 26.0d
 			dependencies: ["1C195EE74039A47B"]
 			id: "683E4920521BDDA7"
 			tasks: [{
@@ -2039,8 +2039,8 @@
 		}
 		{
 			icon: "create:windmill_bearing"
-			x: 8.75d
-			y: 24.5d
+			x: 10.25d
+			y: 26.0d
 			dependencies: ["54EA65146A735963"]
 			id: "1C195EE74039A47B"
 			tasks: [
@@ -2059,8 +2059,8 @@
 		}
 		{
 			icon: "create:furnace_engine"
-			x: 10.25d
-			y: 26.0d
+			x: 11.75d
+			y: 27.5d
 			dependencies: ["683E4920521BDDA7"]
 			id: "68484812D253D45A"
 			tasks: [
@@ -3559,14 +3559,28 @@
 			}]
 		}
 		{
-			title: "Brass"
-			x: 23.5d
-			y: 23.5d
+			title: "&#B5A642Brass&r"
+			icon: "create:crushed_brass"
+			x: 14.75d
+			y: 32.75d
+			shape: "diamond"
+			description: [
+				"To obtain &#B5A642Brass&r, there is several methods."
+				""
+				"At your level, there are four."
+				""
+				"&o(Just need to complete one of the following four quests to unlock the sequel)&r"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"4339BD51E04343A5"
+				"36E35F066EAA5687"
+			]
 			id: "6F9BF9D7BCEFD22C"
 			tasks: [{
-				id: "170E654ED83205D4"
-				type: "item"
-				item: "create:brass_block"
+				id: "60A371F89A8F52C1"
+				type: "checkmark"
+				title: "&aValidate&r"
 			}]
 		}
 		{
@@ -3716,8 +3730,9 @@
 			}]
 		}
 		{
-			x: 25.5d
-			y: 20.5d
+			x: 20.75d
+			y: 29.0d
+			dependencies: ["5DBB65C63EE5ACB3"]
 			id: "5867ADBFEC86FF10"
 			tasks: [{
 				id: "28B6E1C30BDE5700"
@@ -3888,24 +3903,23 @@
 			}]
 		}
 		{
-			x: 26.5d
-			y: 25.5d
+			title: "Brackets"
+			x: 8.75d
+			y: 23.0d
+			dependencies: ["15267232FEECB502"]
 			id: "4F1588E382E51AE8"
-			tasks: [{
-				id: "2D497735CFCBE8FA"
-				type: "item"
-				item: "create:wooden_bracket"
-			}]
-		}
-		{
-			x: 26.5d
-			y: 26.5d
-			id: "0B7A3347D90715E9"
-			tasks: [{
-				id: "3EBADF43ABA352A2"
-				type: "item"
-				item: "create:metal_bracket"
-			}]
+			tasks: [
+				{
+					id: "2D497735CFCBE8FA"
+					type: "item"
+					item: "create:wooden_bracket"
+				}
+				{
+					id: "3A2873E857F6F030"
+					type: "item"
+					item: "create:metal_bracket"
+				}
+			]
 		}
 		{
 			x: 27.5d
@@ -4128,8 +4142,9 @@
 			}]
 		}
 		{
-			x: 29.5d
-			y: 22.5d
+			x: 20.75d
+			y: 26.0d
+			dependencies: ["0256960379E8E5E5"]
 			id: "63BFABD722A4669D"
 			tasks: [{
 				id: "7ECE70A7E951171D"
@@ -4138,8 +4153,12 @@
 			}]
 		}
 		{
-			x: 29.5d
-			y: 23.5d
+			x: 20.75d
+			y: 27.5d
+			dependencies: [
+				"5DBB65C63EE5ACB3"
+				"79028EFBCDF5F6F5"
+			]
 			id: "0B22AA6F5904F596"
 			tasks: [{
 				id: "618E6DB96C256317"
@@ -4515,6 +4534,167 @@
 				id: "479FD5D738FE6C76"
 				type: "item"
 				item: "create:depot"
+			}]
+		}
+		{
+			title: "&lCrafting Table&r Method Step 1"
+			x: 16.25d
+			y: 31.25d
+			description: ["Combine 3 &#B87333Copper Dusts&r with a &#BAC4C8Zinc Dust&r in a &lCrafting Table&r."]
+			min_required_dependencies: 2
+			dependencies: [
+				"6F9BF9D7BCEFD22C"
+				"6132D23FAAD61D78"
+				"362467AE97B8FB6E"
+			]
+			id: "6A428E93D0EC6C7F"
+			tasks: [
+				{
+					id: "5FDC4AE3C02CF2EE"
+					type: "item"
+					item: "emendatusenigmatica:copper_dust"
+					count: 3L
+				}
+				{
+					id: "4A9C1E4DC927547B"
+					type: "item"
+					item: "emendatusenigmatica:zinc_dust"
+				}
+			]
+		}
+		{
+			title: "&oTinkers' Construct&r Method"
+			icon: "tconstruct:molten_brass_bucket"
+			x: 17.0d
+			y: 32.25d
+			description: [
+				"Combine &#B87333Molten Copper&r and &#BAC4C8Molten Zinc&r in a &oTinkers' Construct&r &l&#383433Smeltery&r or &l&#3E3029Scorched Alloyer&r. They will mix and form &#B5A642Molten Brass&r. Then cast it for obtain Ingots, Nuggets, Blocks,...."
+				""
+				"Check this when done."
+			]
+			min_required_dependencies: 2
+			dependencies: [
+				"6F9BF9D7BCEFD22C"
+				"24FB616B8D0A3D50"
+				"3D65A0782550795D"
+			]
+			id: "6F88D749C9F64C24"
+			tasks: [{
+				id: "51D767B1EE3CCA98"
+				type: "checkmark"
+				title: "&aDone&r"
+			}]
+		}
+		{
+			title: "&lMechanical Mixer&r and Ingots Method"
+			icon: "create:mechanical_mixer"
+			x: 17.0d
+			y: 33.25d
+			description: ["Combine &#B87333Copper Ingot&r and &#BAC4C8Zinc Ingot&r in a &oCreate&r &lMechanical Mixer&r and &lBasin&r (&4Heated&r). They will mix and form &#B5A642Brass Ingots&r."]
+			dependencies: [
+				"6F9BF9D7BCEFD22C"
+				"2BBB678D2A3FD881"
+				"3A27361DAF1A7B08"
+				"1785A4CF6483D4F4"
+			]
+			id: "36498F5EA504C9EC"
+			tasks: [
+				{
+					id: "0DEDFEB6F4FCE769"
+					type: "item"
+					item: "emendatusenigmatica:copper_ingot"
+				}
+				{
+					id: "6E917813A60EE25B"
+					type: "item"
+					item: "emendatusenigmatica:zinc_ingot"
+				}
+			]
+		}
+		{
+			title: "&lMechanical Mixer&r and Crushed Ores Method Step 1"
+			x: 16.25d
+			y: 34.25d
+			description: ["Combine &#B87333Crushed Copper Ore&r and &#BAC4C8Crushed Zinc Ore&r in a &oCreate&r &lMechanical Mixer&r and &lBasin&r (&4Heated&r). They will mix and form &#B5A642Crushed Brass&r."]
+			dependencies: [
+				"6F9BF9D7BCEFD22C"
+				"2BBB678D2A3FD881"
+				"3A27361DAF1A7B08"
+				"1785A4CF6483D4F4"
+			]
+			id: "517089AD8357DF4A"
+			tasks: [
+				{
+					id: "0631467D473A999F"
+					type: "item"
+					item: "create:crushed_copper_ore"
+				}
+				{
+					id: "2A95B54DD98A5C44"
+					type: "item"
+					item: "create:crushed_zinc_ore"
+				}
+			]
+		}
+		{
+			title: "&lCrafting Table&r Method Step 2"
+			x: 17.75d
+			y: 31.25d
+			description: ["Then smelt the obtained &#B5A642Brass Dust&r, and you will get &#B5A642Brass Ingots&r."]
+			dependencies: ["6A428E93D0EC6C7F"]
+			id: "4535FD31815F0C12"
+			tasks: [{
+				id: "0AAC004F55523BBA"
+				type: "item"
+				item: "emendatusenigmatica:brass_dust"
+				count: 4L
+			}]
+		}
+		{
+			title: "&lMechanical Mixer&r and Crushed Ores Method Step 2"
+			x: 17.75d
+			y: 34.25d
+			description: [
+				"Then smelt it, and you will get &#B5A642Brass Ingots&r."
+				"You can also bulk wash it with &lEncased Fan&r behind &#2389DAFlowing Water&r for obtain 10 &#B5A642Brass Nuggets&r and 50% chance 5 &#B5A642Brass Nuggets&r more."
+			]
+			dependencies: ["517089AD8357DF4A"]
+			id: "501C9D5943ED96BA"
+			tasks: [{
+				id: "28A56B9E6ABF5D69"
+				type: "item"
+				item: "create:crushed_brass"
+				count: 2L
+			}]
+		}
+		{
+			x: 19.25d
+			y: 32.75d
+			dependencies: [
+				"4535FD31815F0C12"
+				"6F88D749C9F64C24"
+				"36498F5EA504C9EC"
+				"501C9D5943ED96BA"
+			]
+			dependency_requirement: "one_completed"
+			id: "3D9704407EEE5330"
+			tasks: [{
+				id: "7A48BF55803B1005"
+				type: "item"
+				item: "emendatusenigmatica:brass_ingot"
+			}]
+		}
+		{
+			title: "&#B5A642Brass Nuggets&r"
+			x: 19.25d
+			y: 34.25d
+			dependencies: ["501C9D5943ED96BA"]
+			id: "3672A2B3165F31E7"
+			tasks: [{
+				id: "26689B9518E40A09"
+				type: "item"
+				item: "emendatusenigmatica:brass_nugget"
+				count: 10L
 			}]
 		}
 	]
