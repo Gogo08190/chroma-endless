@@ -1,7 +1,7 @@
 onEvent('recipes', (event) => {
     const recipes = [
         {
-            output: 'wstweaks:lava_blade',
+            output: 'wstweaks:blaze_blade',
             pattern: [' BS', 'RNR', 'HB '],
             key: {
                 B: 'tconstruct:blazing_bone',
@@ -13,7 +13,7 @@ onEvent('recipes', (event) => {
             id: 'wstweaks:blaze_blade'
         },
         {
-            output: 'wstweaks:blaze_blade',
+            output: 'wstweaks:lava_blade',
             pattern: [' BS', 'RNR', 'HB '],
             key: {
                 B: 'tconstruct:blazing_bone',
