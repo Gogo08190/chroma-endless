@@ -568,7 +568,7 @@ onEvent('recipes', (event) => {
               item: 'allthemodium:unobtainium_vibranium_alloy_ingot',
               count: 1
           },
-          id: `${id_prefix}vibranium_allthemodium_alloy_ingot`
+          id: `${id_prefix}unobtainium_vibranium_alloy_ingot`
       },
       {
           ingredients: [
@@ -577,10 +577,10 @@ onEvent('recipes', (event) => {
           ],
           energy: 30000,
           result: {
-              item: 'allthemodium:unobtainium_vibranium_alloy_ingot',
+              item: 'allthemodium:unobtainium_allthemodium_alloy_ingot',
               count: 1
           },
-          id: `${id_prefix}vibranium_allthemodium_alloy_ingot`
+          id: `${id_prefix}unobtainium_allthemodium_alloy_ingot`
       },
       {
           ingredients: [
