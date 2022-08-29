@@ -1,7 +1,7 @@
 onEvent('recipes', (event) => {
     const recipes = [
         {
-            output: 'wstweaks:lava_blade',
+            output: 'wstweaks:blaze_blade',
             pattern: [' BS', 'RNR', 'HB '],
             key: {
                 B: 'tconstruct:blazing_bone',
@@ -10,10 +10,10 @@ onEvent('recipes', (event) => {
                 H: 'betterendforge:aeternium_sword_handle',
                 N: 'extendedcrafting:nether_star_block'
             },
-            id: 'wstweaks:lava_blade'
+            id: 'wstweaks:blaze_blade'
         },
         {
-            output: 'wstweaks:blaze_blade',
+            output: 'wstweaks:lava_blade',
             pattern: [' BS', 'RNR', 'HB '],
             key: {
                 B: 'tconstruct:blazing_bone',
@@ -22,7 +22,7 @@ onEvent('recipes', (event) => {
                 H: 'betterendforge:aeternium_sword_handle',
                 N: 'extendedcrafting:nether_star_block'
             },
-            id: 'wstweaks:blaze_blade'
+            id: 'wstweaks:lava_blade'
         }
     ];
 
