@@ -48,6 +48,10 @@
         "mainOutputWeight": 0.5,
         "mainOutputCount": 16,
 
+        "secondaryOutput": "kubejs:rgb_petal",
+        "secondaryOutputWeight": 0.3,
+        "secondaryOutputCount": 4,
+
         "bottleOutput": "resourcefulbees:mystical_honey_bottle",
         "bottleOutputWeight": 0.02,
         "bottleOutputCount": 1,
