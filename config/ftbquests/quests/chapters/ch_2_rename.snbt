@@ -15,8 +15,8 @@
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: 3.511904761904745d
-			y: 6.125000000000007d
+			x: 3.5309523809523995d
+			y: 6.120833333333344d
 			width: 4.0d
 			height: 4.0d
 			rotation: 0.0d
@@ -51,8 +51,8 @@
 			corner: false
 		}
 		{
-			x: 8.25d
-			y: 8.357142857142861d
+			x: 7.988095238095241d
+			y: 8.366071428571423d
 			width: 4.0d
 			height: 4.0d
 			rotation: 0.0d
@@ -121,16 +121,6 @@
 				id: "75F7397B2B01BB2A"
 				type: "checkmark"
 				title: "Unlocked the Occultism chapter"
-			}]
-		}
-		{
-			x: 14.25d
-			y: -2.25d
-			id: "0B8B29B02C07DAF5"
-			tasks: [{
-				id: "253431E36BBB59BB"
-				type: "item"
-				item: "sophisticatedbackpacks:backpack"
 			}]
 		}
 		{
@@ -1011,8 +1001,8 @@
 			}]
 		}
 		{
-			x: 2.75d
-			y: 2.0d
+			x: 7.25d
+			y: 1.0d
 			dependencies: ["28C3F89057684CC6"]
 			id: "0FA6324B2250CC01"
 			tasks: [{
@@ -1022,7 +1012,7 @@
 			}]
 		}
 		{
-			x: 1.75d
+			x: 6.5d
 			y: 2.0d
 			dependencies: ["28C3F89057684CC6"]
 			id: "414FB84D8E12D770"
@@ -1033,7 +1023,7 @@
 			}]
 		}
 		{
-			x: 5.25d
+			x: 8.0d
 			y: 2.0d
 			dependencies: ["28C3F89057684CC6"]
 			id: "1C3E182744A46821"
@@ -1044,8 +1034,8 @@
 			}]
 		}
 		{
-			x: 2.25d
-			y: 1.25d
+			x: -0.75d
+			y: 1.75d
 			dependencies: ["28C3F89057684CC6"]
 			id: "281F853004D0032C"
 			tasks: [{
@@ -1055,8 +1045,8 @@
 			}]
 		}
 		{
-			x: 4.75d
-			y: 1.25d
+			x: 5.75d
+			y: 1.0d
 			dependencies: ["28C3F89057684CC6"]
 			id: "795294F328925FD4"
 			tasks: [{
@@ -1120,7 +1110,7 @@
 			}]
 		}
 		{
-			x: 8.25d
+			x: 8.0d
 			y: 8.25d
 			hide_dependency_lines: true
 			dependencies: ["28C3F89057684CC6"]
@@ -1138,8 +1128,8 @@
 			}]
 		}
 		{
-			x: 4.25d
-			y: 2.0d
+			x: 0.5d
+			y: 1.75d
 			dependencies: ["28C3F89057684CC6"]
 			id: "04CDB65B58341D53"
 			tasks: [{
@@ -1158,7 +1148,7 @@
 			title: "Aviar's Circle"
 			icon: "occultism:ritual_dummy/craft_miner_djinni_ores"
 			x: 3.5d
-			y: 7.5d
+			y: 4.75d
 			subtitle: "Your first ritual"
 			description: ["So the first &8ritual&r is dedicated to the basic of &2Occultism&r. "]
 			hide_dependency_lines: true
@@ -1187,7 +1177,7 @@
 		{
 			title: "Eziveus' Spectral Compulsion"
 			icon: "occultism:ritual_dummy/craft_miner_djinni_ores"
-			x: 2.0d
+			x: 2.25d
 			y: 10.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1224,7 +1214,7 @@
 		{
 			title: "Heydrin's Lure"
 			icon: "occultism:ritual_dummy/craft_miner_djinni_ores"
-			x: 5.0d
+			x: 4.75d
 			y: 10.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1255,8 +1245,8 @@
 		{
 			title: "Ophyx' Calling"
 			icon: "occultism:ritual_dummy/summon_foliot_transport_items"
-			x: -1.0d
-			y: 10.0d
+			x: -2.0d
+			y: 7.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"492116474A965E37"
@@ -1368,7 +1358,7 @@
 		{
 			title: "Abras' Conjure"
 			icon: "occultism:ritual_dummy/summon_marid_crusher"
-			x: 7.0d
+			x: 6.5d
 			y: 8.75d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1411,8 +1401,8 @@
 		{
 			title: "Sevira's Permanent Confinement"
 			icon: "occultism:ritual_dummy/familiar_greedy"
-			x: -2.0d
-			y: 7.0d
+			x: -1.0d
+			y: 9.75d
 			hide_dependency_lines: true
 			dependencies: [
 				"492116474A965E37"
@@ -1497,7 +1487,7 @@
 		{
 			title: "Uphyxes Inverted Tower"
 			icon: "occultism:ritual_dummy/familiar_beaver"
-			x: 9.75d
+			x: 9.5d
 			y: 8.75d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1582,8 +1572,8 @@
 		{
 			title: "Abra's Commanding Conjure"
 			icon: "occultism:ritual_dummy/craft_miner_djinni_ores"
-			x: 8.25d
-			y: 7.0d
+			x: 8.0d
+			y: 9.75d
 			hide_dependency_lines: true
 			dependencies: [
 				"492116474A965E37"
@@ -1630,6 +1620,778 @@
 				id: "448AAE1936254AD6"
 				type: "item"
 				item: "immersiveengineering:circuit_table"
+			}]
+		}
+		{
+			title: "Backpack"
+			icon: {
+				id: "sophisticatedbackpacks:backpack"
+				Count: 1b
+				tag: {
+					spiritName: "Merclod"
+				}
+			}
+			x: 14.25d
+			y: -2.25d
+			hide_dependency_lines: true
+			dependencies: ["4DA463AF4ABD0CA4"]
+			id: "74563AAF98B15559"
+			tasks: [
+				{
+					id: "70A44E893A1B3935"
+					type: "item"
+					item: "immersiveengineering:hemp_fabric"
+					count: 3L
+				}
+				{
+					id: "344849B48E70F01D"
+					type: "item"
+					item: "quark:bonded_leather"
+					count: 4L
+				}
+				{
+					id: "793528C66552F2A4"
+					type: "item"
+					item: "immersiveengineering:crate"
+				}
+				{
+					id: "725ACEF0BBB72618"
+					type: "item"
+					item: "kubejs:sac"
+				}
+			]
+		}
+		{
+			title: "Otherworldian Capacitor"
+			icon: "ironjetpacks:otherworldian_capacitor"
+			x: 2.25d
+			y: 12.0d
+			dependencies: ["7BF5F871992F55AE"]
+			id: "1B67B9FE1D5B42B5"
+			tasks: [
+				{
+					id: "69269ED113AD5A97"
+					type: "item"
+					item: "ironjetpacks:otherworldian_cell"
+					count: 2L
+				}
+				{
+					id: "02022FA3D10C4A5B"
+					type: "item"
+					item: "occultism:candle_white"
+				}
+				{
+					id: "62B364EA80A9BF2B"
+					type: "item"
+					item: "occultism:spirit_attuned_crystal"
+				}
+				{
+					id: "41CEF26C2D63E208"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Zorkarkcred"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Otherworldian Thruster"
+			icon: "ironjetpacks:otherworldian_thruster"
+			x: 1.25d
+			y: 12.0d
+			dependencies: ["7BF5F871992F55AE"]
+			id: "391312CB5E2C569B"
+			tasks: [
+				{
+					id: "7BEA03A42F296954"
+					type: "item"
+					item: "occultism:spirit_attuned_crystal"
+					count: 2L
+				}
+				{
+					id: "4D95ED63CB47D9E3"
+					type: "item"
+					item: "occultism:candle_white"
+				}
+				{
+					id: "3CD1CCDBDA6BB067"
+					type: "item"
+					item: "occultism:afrit_essence"
+				}
+				{
+					id: "43ED4262CAFBEB24"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Raymaracmed"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Otherworldian Jetpack"
+			icon: {
+				id: "ironjetpacks:otherworldian_jetpack"
+				Count: 1b
+				tag: {
+					Throttle: 1.0d
+				}
+			}
+			x: -1.0d
+			y: 12.25d
+			dependencies: ["4DA463AF4ABD0CA4"]
+			id: "6C3FEE33DA89CD2F"
+			tasks: [
+				{
+					id: "454CA0ACBC565ACF"
+					type: "item"
+					item: "ironjetpacks:otherworldian_capacitor"
+				}
+				{
+					id: "7635FEEF9AA00BB7"
+					type: "item"
+					item: "occultism:spirit_attuned_crystal"
+					count: 2L
+				}
+				{
+					id: "7F29BE45FD999B46"
+					type: "item"
+					item: "occultism:otherstone"
+					count: 2L
+				}
+				{
+					id: "47133563BE999EE6"
+					type: "item"
+					item: "ironjetpacks:otherworldian_thruster"
+					count: 2L
+				}
+				{
+					id: "5A9EBBAEE692AFCC"
+					type: "item"
+					item: "occultism:afrit_essence"
+					count: 2L
+				}
+				{
+					id: "18237D59D302250B"
+					type: "item"
+					item: "ironjetpacks:basic_coil"
+				}
+				{
+					id: "495EDBFC9400304E"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_afrit"
+						Count: 1b
+						tag: {
+							spiritName: "Raymurtron"
+						}
+					}
+				}
+				{
+					id: "35ADE090ECEFCEE6"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_marid"
+						Count: 1b
+						tag: {
+							spiritName: "Croirer"
+						}
+					}
+				}
+				{
+					id: "16E376E675A4AAD5"
+					type: "item"
+					item: {
+						id: "ironjetpacks:mechanical_jetpack"
+						Count: 1b
+						tag: {
+							Throttle: 1.0d
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Occultist Bee"
+			icon: {
+				id: "resourcefulbees:bee_jar"
+				Count: 1b
+				tag: {
+					Entity: "resourcefulbees:occultist_bee"
+					Color: "#4f2b79"
+					display: {
+						Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.occultist_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+					}
+				}
+			}
+			x: 1.5d
+			y: 8.75d
+			dependencies: ["04834CC722C4C4C8"]
+			id: "0B6A6613A0CE81AF"
+			tasks: [
+				{
+					id: "4FFBDD542FF7BA4B"
+					type: "item"
+					item: "occultism:otherworld_log"
+					count: 4L
+				}
+				{
+					id: "058B8B30351506CF"
+					type: "item"
+					item: "occultism:spirit_attuned_gem"
+					count: 4L
+				}
+				{
+					id: "3EA4462324EFAFAD"
+					type: "item"
+					item: "occultism:iesnium_nugget"
+					count: 4L
+				}
+				{
+					id: "3AEACE279107CA18"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_foliot"
+						Count: 1b
+						tag: {
+							spiritName: "Crycratron"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Tier 2 Beehive"
+			icon: "resourcefulbees:t2_beehive"
+			x: -0.25d
+			y: 10.75d
+			dependencies: ["4DA463AF4ABD0CA4"]
+			id: "728085D8E0D5C906"
+			tasks: [
+				{
+					id: "033ED8FA72237A4D"
+					type: "item"
+					item: "resourcefulbees:wax_block"
+					count: 2L
+				}
+				{
+					id: "0C8925DA31ADA20A"
+					type: "item"
+					item: "expandedstorage:gold_chest"
+					count: 2L
+				}
+				{
+					id: "4801EF9B297B6A13"
+					type: "item"
+					item: "minecraft:honeycomb_block"
+					count: 3L
+				}
+				{
+					id: "062CA8DA04AB810D"
+					type: "item"
+					item: "resourcefulbees:t1_beehive"
+				}
+			]
+		}
+		{
+			title: "Tier 2 Hive Upgrade"
+			icon: "resourcefulbees:t2_hive_upgrade"
+			x: -1.75d
+			y: 10.75d
+			dependencies: ["4DA463AF4ABD0CA4"]
+			id: "28407F98D7435E9D"
+			tasks: [
+				{
+					id: "79670331FA928E4E"
+					type: "item"
+					item: "resourcefulbees:t1_hive_upgrade"
+				}
+				{
+					id: "0C4B6F7B1790D35F"
+					type: "item"
+					item: "resourcefulbees:wax_block"
+					count: 2L
+				}
+				{
+					id: "7CDEBA9FAA92F52B"
+					type: "item"
+					item: "expandedstorage:gold_chest"
+					count: 2L
+				}
+				{
+					id: "16DEF49194A08A0A"
+					type: "item"
+					item: "minecraft:honeycomb_block"
+					count: 4L
+				}
+			]
+		}
+		{
+			title: "Redstone Flux Cell Frame"
+			icon: "thermal:energy_cell_frame"
+			x: -3.5d
+			y: 7.75d
+			dependencies: ["3A99B2052AE4BAC9"]
+			id: "08DD28074EF4CCEA"
+			tasks: [
+				{
+					id: "1A1B4F86B26ED7D9"
+					type: "item"
+					item: "emendatusenigmatica:lead_plate"
+					count: 8L
+				}
+				{
+					id: "4D7A475707CBA463"
+					type: "item"
+					item: "emendatusenigmatica:electrum_gear"
+					count: 2L
+				}
+				{
+					id: "540B1F186D8980CB"
+					type: "item"
+					item: "chipped:birch_wood_glass_3"
+					count: 2L
+				}
+				{
+					id: "5A5F44DA8187A9E6"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_foliot"
+						Count: 1b
+						tag: {
+							spiritName: "Razerder"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Fluid Cell Frame"
+			icon: "thermal:fluid_cell_frame"
+			x: -3.5d
+			y: 9.75d
+			dependencies: ["3A99B2052AE4BAC9"]
+			id: "2B49BCA647B9F2BA"
+			tasks: [
+				{
+					id: "54E644140A820461"
+					type: "item"
+					item: "emendatusenigmatica:copper_plate"
+					count: 8L
+				}
+				{
+					id: "7B2729CBA65A38B6"
+					type: "item"
+					item: "emendatusenigmatica:bronze_gear"
+					count: 2L
+				}
+				{
+					id: "11F3F42C96E03634"
+					type: "item"
+					item: "connectedglass:clear_glass_red"
+					count: 2L
+				}
+				{
+					id: "2B54A1B094430763"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_foliot"
+						Count: 1b
+						tag: {
+							spiritName: "Krredzur"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Machine Frame"
+			icon: "thermal:machine_frame"
+			x: -3.5d
+			y: 8.75d
+			dependencies: ["3A99B2052AE4BAC9"]
+			id: "44BDB20559198FA9"
+			tasks: [
+				{
+					id: "2F9E46785BA210BF"
+					type: "item"
+					item: "emendatusenigmatica:steel_plate"
+					count: 8L
+				}
+				{
+					id: "72487D0FBDF2F309"
+					type: "item"
+					item: "emendatusenigmatica:tin_gear"
+					count: 2L
+				}
+				{
+					id: "7B040C1519A08156"
+					type: "item"
+					item: "chipped:oak_wood_glass_6"
+					count: 2L
+				}
+				{
+					id: "1965969B2AD695A0"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_foliot"
+						Count: 1b
+						tag: {
+							spiritName: "Cruarkzur"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Terrestrial Agglomeration Plate"
+			icon: "botania:terra_plate"
+			x: -1.0d
+			y: 11.25d
+			dependencies: ["4DA463AF4ABD0CA4"]
+			id: "0AC291F444BB3BD7"
+			tasks: [
+				{
+					id: "5CB3B17DBAE4681B"
+					type: "item"
+					item: "minecraft:lapis_block"
+					count: 3L
+				}
+				{
+					id: "1E59A5D8E865CEEE"
+					type: "item"
+					item: "botania:rune_fire"
+				}
+				{
+					id: "79F2E958DFD30353"
+					type: "item"
+					item: "botania:rune_earth"
+				}
+				{
+					id: "58D0A70F540C0C4F"
+					type: "item"
+					item: "botania:rune_air"
+				}
+				{
+					id: "642D9CD51A75BB7E"
+					type: "item"
+					item: "botania:rune_mana"
+				}
+				{
+					id: "20BF41CB1297F6DE"
+					type: "item"
+					item: "botania:rune_water"
+				}
+				{
+					id: "60A80854EC2545A8"
+					type: "item"
+					item: "botania:manasteel_block"
+				}
+			]
+		}
+		{
+			title: "Fusionner 2000 - Compact Factory Item Output Port"
+			icon: "masterfulmachinery:fusioner_compact_item_port_items_output"
+			x: 4.75d
+			y: 12.0d
+			dependencies: ["130FD9C228CCC91A"]
+			id: "41D643D39E1D946F"
+			tasks: [
+				{
+					id: "400F6D5963BFE07E"
+					type: "item"
+					item: "emendatusenigmatica:enderium_ingot"
+					count: 4L
+				}
+				{
+					id: "4CB5597E05BA1F24"
+					type: "item"
+					item: "occultism:iesnium_ingot"
+					count: 2L
+				}
+				{
+					id: "4872F4DB46AB7ECF"
+					type: "item"
+					item: "refinedpipes:advanced_item_pipe"
+				}
+				{
+					id: "3F930BD96EE5CCB1"
+					type: "item"
+					item: "expandedstorage:netherite_chest"
+				}
+				{
+					id: "43CE3D5270C2B95B"
+					type: "item"
+					item: "create:brass_hand"
+				}
+			]
+		}
+		{
+			title: "Fusionner 2000 - Compact Factory Energy Input Port"
+			icon: "masterfulmachinery:fusioner_compact_energy_port_energy_input"
+			x: 6.0d
+			y: 10.5d
+			dependencies: ["130FD9C228CCC91A"]
+			id: "1A58467C60F1008E"
+			tasks: [
+				{
+					id: "5DADA032264CB3A5"
+					type: "item"
+					item: "emendatusenigmatica:enderium_ingot"
+					count: 4L
+				}
+				{
+					id: "01322FA602DE3DAB"
+					type: "item"
+					item: "occultism:iesnium_ingot"
+					count: 2L
+				}
+				{
+					id: "7E6C12C933710C0A"
+					type: "item"
+					item: "pipez:energy_pipe"
+				}
+				{
+					id: "03958699998C85E6"
+					type: "item"
+					item: "immersiveengineering:wirecoil_steel"
+				}
+				{
+					id: "75BA9A2574E322AD"
+					type: "item"
+					item: {
+						id: "thermal:energy_cell"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								EnergyMax: 1000000
+								EnergySend: 1000
+								Energy: 0
+								EnergyRecv: 1000
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Fusionner 2000 - Compact Factory Item Input Port"
+			icon: "masterfulmachinery:fusioner_compact_item_port_items_input"
+			x: 6.0d
+			y: 12.0d
+			dependencies: ["130FD9C228CCC91A"]
+			id: "30E398C08A1F89DC"
+			tasks: [
+				{
+					id: "133997AB028129C8"
+					type: "item"
+					item: "emendatusenigmatica:enderium_ingot"
+					count: 4L
+				}
+				{
+					id: "5171261183C0BEA7"
+					type: "item"
+					item: "occultism:iesnium_ingot"
+					count: 2L
+				}
+				{
+					id: "6F2A0DE968EEE86B"
+					type: "item"
+					item: "expandedstorage:netherite_chest"
+				}
+				{
+					id: "081404C8C0A38CF5"
+					type: "item"
+					item: "refinedpipes:advanced_item_pipe"
+				}
+				{
+					id: "4EDDF6F8B0A6F7C9"
+					type: "item"
+					item: "create:depot"
+				}
+			]
+		}
+		{
+			x: -0.75d
+			y: 0.25d
+			dependencies: ["281F853004D0032C"]
+			id: "6A5EBC02B04CDB0D"
+			tasks: [{
+				id: "5BA7150C178F0FB1"
+				type: "checkmark"
+				title: "How to automate ?"
+			}]
+		}
+		{
+			title: "How to get stables ones?"
+			x: 0.5d
+			y: 0.25d
+			dependencies: ["04CDB65B58341D53"]
+			id: "7FFAB1924AA0EAD7"
+			tasks: [{
+				id: "6AF4531AD02EA731"
+				type: "checkmark"
+				title: "How to automate?"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.25d
+			dependencies: ["7FFAB1924AA0EAD7"]
+			id: "5F550AA4ADBABA8D"
+			tasks: [{
+				id: "576CA6A7EB12B45E"
+				type: "checkmark"
+				title: "Automation ?"
+			}]
+		}
+		{
+			x: 3.75d
+			y: 16.5d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: [
+				"3A99B2052AE4BAC9"
+				"7BF5F871992F55AE"
+			]
+			size: 3.0d
+			id: "7E104C81B40601D8"
+			tasks: [{
+				id: "09E24C4F4994E46F"
+				type: "checkmark"
+				title: "Demon's Storage"
+			}]
+		}
+		{
+			x: 3.75d
+			y: 14.0d
+			dependencies: ["7E104C81B40601D8"]
+			id: "65413446C0ACCB2D"
+			tasks: [
+				{
+					id: "1F9EADEA609AAF38"
+					type: "item"
+					item: "occultism:storage_remote_inert"
+				}
+				{
+					id: "686E3366CB35DD42"
+					type: "item"
+					item: {
+						id: "occultism:storage_remote"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 16.5d
+			dependencies: ["7E104C81B40601D8"]
+			id: "2010F5E14AD87032"
+			tasks: [{
+				id: "1FAAE4627733FF5D"
+				type: "item"
+				item: {
+					id: "occultism:stable_wormhole"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 6.75d
+			y: 16.5d
+			description: ["Expliquer le fonctionnement"]
+			dependencies: [
+				"7E104C81B40601D8"
+				"7B5DF9B562DB7BA0"
+				"0C0C74A282D40D04"
+			]
+			id: "794D8B87D0FA7DDE"
+			tasks: [{
+				id: "7046044DC4D81881"
+				type: "item"
+				item: "occultism:storage_controller"
+			}]
+		}
+		{
+			x: 3.75d
+			y: 19.0d
+			description: ["Expliquer combien rajoute 1 upgrade et comment les installer"]
+			dependencies: ["7E104C81B40601D8"]
+			id: "5354A67B9858F203"
+			tasks: [
+				{
+					id: "00FC570794791116"
+					type: "item"
+					item: "occultism:storage_stabilizer_tier1"
+				}
+				{
+					id: "7520DFB59A6CB80F"
+					type: "item"
+					item: "occultism:storage_stabilizer_tier2"
+				}
+				{
+					id: "4A3DCB2803AB5CDE"
+					type: "item"
+					item: "occultism:storage_stabilizer_tier3"
+				}
+				{
+					id: "7E234D0C61AEC947"
+					type: "item"
+					item: "occultism:storage_stabilizer_tier4"
+				}
+			]
+		}
+		{
+			x: 8.25d
+			y: 15.75d
+			description: ["Expliquer comment obtenir cette partie"]
+			hide_dependency_lines: true
+			dependencies: ["7BF5F871992F55AE"]
+			id: "0C0C74A282D40D04"
+			tasks: [{
+				id: "1F9F3929306A99D6"
+				type: "item"
+				item: "occultism:storage_controller_base"
+			}]
+		}
+		{
+			x: 8.25d
+			y: 17.25d
+			description: ["Expliquer comment obtenir cette partie"]
+			hide_dependency_lines: true
+			dependencies: ["3A99B2052AE4BAC9"]
+			id: "7B5DF9B562DB7BA0"
+			tasks: [{
+				id: "2B2F6802B188B301"
+				type: "item"
+				item: {
+					id: "occultism:dimensional_matrix"
+					Count: 1b
+					tag: {
+						spiritName: "Zurmaracarc"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.75d
+			y: 19.0d
+			dependencies: ["794D8B87D0FA7DDE"]
+			id: "1CDE01D11B26CD1C"
+			tasks: [{
+				id: "661E0DFB209464A8"
+				type: "checkmark"
+				title: "Autocraft"
 			}]
 		}
 	]

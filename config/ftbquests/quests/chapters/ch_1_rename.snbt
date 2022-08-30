@@ -1791,7 +1791,7 @@
 			}]
 		}
 		{
-			x: 18.5d
+			x: 13.5d
 			y: 21.5d
 			subtitle: "The Mechanical Press is a mechanical component that applies Pressing, Packing, and Compacting recipes to items below it"
 			description: [
@@ -1805,6 +1805,7 @@
 				""
 				"● When placed one space above a Mechanical Belt, it will automatically press stacks of incoming items, stalling the belt until each operation is done. Items with no pressing recipe are ignored."
 			]
+			dependencies: ["15267232FEECB502"]
 			id: "761BAE3E76AB71A3"
 			tasks: [{
 				id: "250B3DF7EF1694AE"
@@ -1960,7 +1961,7 @@
 			}]
 		}
 		{
-			x: 20.0d
+			x: 15.5d
 			y: 21.5d
 			subtitle: "The Mechanical Mixer is a mechanical component that applies Mixing recipes and shapeless Crafting recipes to items in Basins."
 			description: [
@@ -1972,6 +1973,7 @@
 				""
 				"The Mechanical Mixer may be used to perform mixing recipes, which are not possible to make anywhere else."
 			]
+			dependencies: ["761BAE3E76AB71A3"]
 			min_width: 266
 			id: "5C545750FEB2314B"
 			tasks: [{
@@ -2016,8 +2018,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 20.5d
+			x: 9.5d
+			y: 19.5d
 			dependencies: ["3441111B8198CC9D"]
 			id: "3892F7C2CF403F2F"
 			tasks: [{
@@ -2027,8 +2029,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 22.5d
+			x: 9.5d
+			y: 23.5d
 			subtitle: "Casings are blocks used for crafting, and for aesthetic purposes"
 			dependencies: ["3441111B8198CC9D"]
 			id: "410AC414B2B492D1"
@@ -2040,8 +2042,9 @@
 		}
 		{
 			icon: "create:hand_crank"
-			x: 12.5d
-			y: 22.5d
+			x: 11.5d
+			y: 23.5d
+			dependencies: ["15267232FEECB502"]
 			id: "5A15F4F1EFF567AC"
 			tasks: [
 				{
@@ -2057,8 +2060,8 @@
 			]
 		}
 		{
-			x: 13.5d
-			y: 23.5d
+			x: 11.5d
+			y: 25.5d
 			subtitle: "Water Wheel is a source of rotational power"
 			description: [
 				"It generates rotational force when water flows over it. Due to the fact that the materials required to craft it are easily accessible in the early-game, the Water Wheel serves as the earliest generator that can be made. Total stress capacity can be increased by adding more wheels in sequence."
@@ -2069,6 +2072,10 @@
 				""
 				"To maximize the output from a Water Wheel, have water flowing in the right direction around as much of the wheel as possible."
 			]
+			dependencies: [
+				"15267232FEECB502"
+				"5729D502C1EEB3A8"
+			]
 			id: "54EA65146A735963"
 			tasks: [{
 				id: "559960DB3A96954B"
@@ -2078,8 +2085,8 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: 25.5d
+			x: 9.5d
+			y: 27.5d
 			subtitle: "The Encased Fan is a mechanical component that can create air streams and generate power."
 			description: [
 				"Its air streams are used for moving entities or for Bulk Washing, Bulk Blasting, and Bulk Smoking."
@@ -2089,6 +2096,11 @@
 				"When powered by rotational force, an Encased Fan creates an air stream that extends several blocks in front of it. This air stream pushes entities away from the fan or pulls entities towards it depending on the direction of the rotation that the fan receives. Powering an Encased Fan with faster rotational force will cause its air stream to be stronger and faster."
 				""
 				"This setup is tied with a Windmill Bearing attached to a single block of Wool as the most compact power source available in Survival mode."
+			]
+			dependencies: [
+				"1C195EE74039A47B"
+				"7705F3C75FA30459"
+				"15D774EBD0A077FD"
 			]
 			id: "683E4920521BDDA7"
 			tasks: [{
@@ -2100,8 +2112,8 @@
 		{
 			title: "Windmill"
 			icon: "create:propeller"
-			x: 14.5d
-			y: 24.5d
+			x: 11.5d
+			y: 27.5d
 			subtitle: "It is composed of a Windmill Bearing and Sails"
 			description: [
 				"Any block can be attached to the front of the Windmill Bearing but only Wool and Sails will produce power. The wool or sail can be placed in any configuration and shape does not matter."
@@ -2110,6 +2122,7 @@
 				""
 				"If you want to stop it to change the attached blocks, simply right-click on the block with an empty hand again. A Wrench can be used to change the spin direction of the windmill"
 			]
+			dependencies: ["54EA65146A735963"]
 			id: "1C195EE74039A47B"
 			tasks: [
 				{
@@ -2132,8 +2145,8 @@
 		}
 		{
 			icon: "create:furnace_engine"
-			x: 16.5d
-			y: 26.5d
+			x: 9.5d
+			y: 29.5d
 			subtitle: "Furnace Engine can be used to generate Rotational Force when a furnace burns"
 			description: [
 				"In order to generate power, it must be connected to a Furnace, Smoker, or Blast Furnace, as well as a Flywheel."
@@ -2144,6 +2157,7 @@
 				""
 				"The Furnace Engine will generate power so long as it is burning. When whatever fuel inside it stops burning, the generator will come to a halt."
 			]
+			dependencies: ["683E4920521BDDA7"]
 			id: "68484812D253D45A"
 			tasks: [
 				{
@@ -2159,8 +2173,9 @@
 			]
 		}
 		{
-			x: 38.75d
-			y: 22.5d
+			x: 15.5d
+			y: 23.5d
+			dependencies: ["361613B0792A5601"]
 			id: "2A83D8FCCCFE217C"
 			tasks: [{
 				id: "201592C6BFFE96D3"
@@ -2333,8 +2348,8 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: 20.5d
+			x: 11.5d
+			y: 19.5d
 			subtitle: "The Cogwheels are a basic mechanical component in Create that relays rotation"
 			description: [
 				"Cogwheels have three main methods of interlocking:"
@@ -2352,8 +2367,8 @@
 			}]
 		}
 		{
-			x: 13.5d
-			y: 19.5d
+			x: 11.5d
+			y: 17.5d
 			subtitle: "The Cogwheels are a basic mechanical component in Create that relays rotation"
 			description: [
 				"Cogwheels have three main methods of interlocking:"
@@ -2371,9 +2386,13 @@
 			}]
 		}
 		{
-			x: 23.0d
-			y: 20.0d
+			x: 17.5d
+			y: 17.5d
 			subtitle: "The Electron Tube is an item that is only used in crafting recipes"
+			dependencies: [
+				"3200ACD6830758C1"
+				"6667979E694CF489"
+			]
 			id: "670997C9468093DE"
 			tasks: [{
 				id: "2DC5C578FAF0DC6F"
@@ -2408,8 +2427,8 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: 18.5d
+			x: 9.5d
+			y: 17.5d
 			subtitle: "Chutes transport items vertically, similarly to Mechanical Belts"
 			description: [
 				"Chutes can insert or extract from inventories above or below them."
@@ -2440,7 +2459,7 @@
 			}]
 		}
 		{
-			x: 13.5d
+			x: 7.5d
 			y: 17.5d
 			dependencies: ["7370F4A279D30FA7"]
 			id: "01431088C1A1DBE6"
@@ -2711,8 +2730,9 @@
 		}
 		{
 			title: "Polished Rose Quartz"
-			x: 21.5d
-			y: 20.0d
+			x: 15.5d
+			y: 17.5d
+			dependencies: ["1B29F8E51716D37A"]
 			id: "3200ACD6830758C1"
 			tasks: [{
 				id: "7259E7F8983592C5"
@@ -2724,12 +2744,17 @@
 		{
 			title: "Rose Quartz"
 			icon: "create:rose_quartz"
-			x: 20.0d
-			y: 20.0d
+			x: 13.5d
+			y: 17.5d
 			description: [
 				"Sand Paper is a tool used solely to create Polished Rose Quartz."
 				""
 				"Rose Quartz may be used to make Polished Rose Quartz. To do this, the player must hold Sand Paper in their offhand, Rose Quartz in their main hand, and right click. The polished version will drop on the ground."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0A5605FD0BE42BAF"
+				"52A9D4F9E61253F4"
 			]
 			id: "1B29F8E51716D37A"
 			tasks: [
@@ -2802,6 +2827,7 @@
 		{
 			title: "&2Tinkers' Construct Slime Islands&r"
 			icon: "tconstruct:earth_earth_slime_grass"
+			disable_toast: true
 			x: 2.75d
 			y: 17.0d
 			description: ["Find one of the four &2Tinkers' Construct Slime Islands&r."]
@@ -2815,6 +2841,7 @@
 					type: "advancement"
 					title: "Find &2Earthslime Island&r"
 					icon: "tconstruct:earth_earth_slime_grass"
+					disable_toast: true
 					advancement: "tconstruct:world/earth_island"
 					criterion: ""
 				}
@@ -2823,6 +2850,7 @@
 					type: "advancement"
 					title: "Find &3Skyslime Island&r"
 					icon: "tconstruct:sky_sky_slime_grass"
+					disable_toast: true
 					advancement: "tconstruct:world/sky_island"
 					criterion: ""
 				}
@@ -2831,6 +2859,7 @@
 					type: "advancement"
 					title: "Find &cBlood Island&r"
 					icon: "tconstruct:blood_ichor_slime_grass"
+					disable_toast: true
 					advancement: "tconstruct:world/blood_island"
 					criterion: ""
 				}
@@ -2839,17 +2868,60 @@
 					type: "advancement"
 					title: "Find &5Enderslime Island&r"
 					icon: "tconstruct:ender_ender_slime_grass"
+					disable_toast: true
 					advancement: "tconstruct:world/ender_island"
 					criterion: ""
 				}
+				{
+					id: "4AFC5011FCD8A210"
+					type: "checkmark"
+					title: "Find &2Tinkers' Construct Slime Island&r"
+					icon: "tconstruct:earth_earth_slime_grass"
+					secret: true
+				}
 			]
-			rewards: [{
-				id: "2566B853093FFBDA"
-				type: "command"
-				auto: "invisible"
-				command: "/ftbquests change_progress @p complete 34314A6F16C3D15F"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "37BDF84ECC488BD5"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 2F17AC75EE4BF554"
+					player_command: false
+				}
+				{
+					id: "661C70A04D4E075E"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 28115D66CAB7B751"
+					player_command: false
+				}
+				{
+					id: "6B4271F6328D7B25"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 51AFAE1AF044F57D"
+					player_command: false
+				}
+				{
+					id: "79F914711FBE8D36"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 3A6765962EB5CC2B"
+					player_command: false
+				}
+				{
+					id: "6828BF2F33FEDCC2"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 4AFC5011FCD8A210"
+					player_command: false
+				}
+				{
+					id: "070E0C9E01F48691"
+					type: "loot"
+					table_id: 3261296973996135385L
+				}
+			]
 		}
 		{
 			title: "&#D5A372Tinkers' Construct Clay Island&r"
@@ -3596,8 +3668,8 @@
 			}]
 		}
 		{
-			x: 11.5d
-			y: 23.5d
+			x: 9.5d
+			y: 25.5d
 			dependencies: ["410AC414B2B492D1"]
 			id: "59BDA9C3059500F4"
 			tasks: [{
@@ -4133,7 +4205,7 @@
 			}]
 		}
 		{
-			x: 11.5d
+			x: 7.5d
 			y: 19.5d
 			dependencies: ["3441111B8198CC9D"]
 			id: "5A4055F1F59B9340"
@@ -4857,8 +4929,9 @@
 			}]
 		}
 		{
-			x: 23.0d
-			y: 21.5d
+			x: 17.5d
+			y: 23.5d
+			dependencies: ["2A83D8FCCCFE217C"]
 			id: "61C538A3D1D40120"
 			tasks: [{
 				id: "02A49405D70C409B"
@@ -4867,7 +4940,7 @@
 			}]
 		}
 		{
-			x: 21.5d
+			x: 17.5d
 			y: 21.5d
 			id: "41C6F5293D91BEC5"
 			tasks: [{
@@ -4877,13 +4950,25 @@
 			}]
 		}
 		{
-			x: 18.5d
-			y: 23.0d
+			x: 13.5d
+			y: 23.5d
+			dependencies: ["761BAE3E76AB71A3"]
 			id: "361613B0792A5601"
 			tasks: [{
 				id: "2289493239751238"
 				type: "item"
 				item: "emendatusenigmatica:brass_plate"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 19.5d
+			dependencies: ["761BAE3E76AB71A3"]
+			id: "5D4588A88350465A"
+			tasks: [{
+				id: "338181DB0835FF75"
+				type: "item"
+				item: "emendatusenigmatica:copper_plate"
 			}]
 		}
 	]
