@@ -302,6 +302,38 @@ onEvent('recipes', (event) => {
           pressure: 3.0,
           results: [{item: 'allthemodium:teleport_pad', count: 1}],
           id: 'allthemodium:main/teleport_pad'
+        },
+        {
+          inputs:[
+            { item: 'minecraft:coal', count: 1}
+          ],
+          pressure: 1.5,
+          results: [{item: 'bigreactors:graphite_ingot', count: 1}],
+          id: 'bigreactors:smelting/graphite_from_coal'
+        },
+        {
+          inputs:[
+            { item: 'minecraft:charcoal', count: 1}
+          ],
+          pressure: 1.5,
+          results: [{item: 'bigreactors:graphite_ingot', count: 1}],
+          id: 'bigreactors:smelting/graphite_from_charcoal'
+        },
+        {
+          inputs:[
+            { item: 'thermal:charcoal_block', count: 1}
+          ],
+          pressure: 2.0,
+          results: [{item: 'bigreactors:graphite_block', count: 1}],
+          id: 'bigreactors:smelting/graphite_from_coalblock'
+        },
+        {
+          inputs:[
+            { item: 'minecraft:coal_block', count: 1}
+          ],
+          pressure: 2.0,
+          results: [{item: 'bigreactors:graphite_block', count: 1}],
+          id: 'bigreactors:blasting/graphite_from_coalblock'
         }
     ];
 
