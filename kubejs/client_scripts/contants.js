@@ -659,6 +659,8 @@ const disabledItems = [
 
     'miniutilities:golden_lasso',
 
+    'prefab:item_compressed_chest',
+
     'littlelogistics:chunk_loader_barge',
     'draconicmachinery:chunk_loader',
     'draconicmachinery:information_plate',

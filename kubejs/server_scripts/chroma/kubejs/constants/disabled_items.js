@@ -47,6 +47,8 @@ const disabledItems = [
     'create:dough',
 
     'decorative_blocks_abnormals:ender_brazier',
+    
+    'prefab:item_compressed_chest',
 
     'mekanism:sawdust',
     'mekanism:dust_lapis_lazuli',
