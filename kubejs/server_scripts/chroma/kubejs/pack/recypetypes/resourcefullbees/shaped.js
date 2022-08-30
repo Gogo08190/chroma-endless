@@ -208,6 +208,24 @@ onEvent('recipes', (event) => {
               I: '#forge:ingots/steel'
           },
           id: 'resourcefulbees:honey_congealer'
+      },
+      {
+          output: Item.of('occultism:otherstone', 8),
+          pattern: ['OSO', 'SOS', 'OSO'],
+          key: {
+              S: '#forge:stone',
+              O: 'resourcefulbees:occultist_honeycomb'
+          },
+          id: `${id_prefix}occultism:otherstone`
+      },
+      {
+          output: Item.of('occultism:otherworld_log', 8),
+          pattern: ['OLO', 'LOL', 'OLO'],
+          key: {
+              L: '#minecraft:logs',
+              O: 'resourcefulbees:occultist_honeycomb'
+          },
+          id: `${id_prefix}occultism:otherworld_log`
       }
     ];
 
