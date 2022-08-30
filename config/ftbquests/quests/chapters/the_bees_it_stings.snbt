@@ -1,0 +1,32 @@
+{
+	id: "4D7E54F609658C9E"
+	group: "7DE7BB1CA4872D7D"
+	order_index: 0
+	filename: "the_bees_it_stings"
+	title: "Bee's Universe"
+	icon: "kubejs:koepss"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "4F1FF637F2757831"
+			tasks: [{
+				id: "3A6A3315EA78325A"
+				type: "item"
+				item: "resourcefulbees:beepedia"
+			}]
+		}
+		{
+			x: -4.25d
+			y: -2.0d
+			id: "785F2CDE1802DE93"
+			tasks: [{
+				id: "267FFAB0694BAB72"
+				type: "item"
+				item: "resourcefulbees:bee_nest"
+			}]
+		}
+	]
+}
