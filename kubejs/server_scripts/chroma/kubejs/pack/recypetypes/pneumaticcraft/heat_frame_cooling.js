@@ -17,6 +17,20 @@ onEvent('recipes', (event) => {
                 bonus_output: { multiplier: 0.01, limit: 0.50 },
                 id: `${id_prefix}draconium_ingot`,
             },
+            {
+                input: { item: 'minecraft:coal' },
+                output: { item: 'bigreactors:graphite_ingot' },
+                max_temp: 273,
+                bonus_output: { multiplier: 0.01, limit: 0.50 },
+                id: 'bigreactors:smelting/graphite_from_coal',
+            },
+            {
+                input: { item: 'minecraft:charcoal' },
+                output: { item: 'bigreactors:graphite_ingot' },
+                max_temp: 546,
+                bonus_output: { multiplier: 0.01, limit: 0.50 },
+                id: 'bigreactors:smelting/graphite_from_charcoal',
+            }
         ]
     };
 

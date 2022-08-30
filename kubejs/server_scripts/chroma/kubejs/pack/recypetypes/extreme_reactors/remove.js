@@ -7,7 +7,11 @@ onEvent('recipes', (event) => {
         'bigreactors:reactor/reinforced/casing',
         'bigreactors:reactor/reinforced/controller_ingots_yellorium',
         'bigreactors:reactor/reinforced/fuelrod_ingots_yellorium',
-        'bigreactors:turbine/reinforced/casing'
+        'bigreactors:turbine/reinforced/casing',
+        'bigreactors:blasting/graphite_from_coal',
+        'bigreactors:blasting/graphite_from_charcoal',
+        'thermal:furnace_1063501746',
+        'thermal:furnace_778831531'
     ];
 
     const outputRemovals = [

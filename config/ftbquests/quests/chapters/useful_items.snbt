@@ -1,0 +1,17 @@
+{
+	id: "05F7FCA81A7AC3EC"
+	group: "34085A64296DE6C7"
+	order_index: 12
+	filename: "useful_items"
+	title: "Useful Items"
+	icon: {
+		id: "tiab:timeinabottle"
+		Count: 1b
+		tag: {
+			timeData: { }
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

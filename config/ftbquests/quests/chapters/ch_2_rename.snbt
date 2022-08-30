@@ -1,7 +1,7 @@
 {
 	id: "6BFF5120144F32C7"
 	group: "34085A64296DE6C7"
-	order_index: 1
+	order_index: 2
 	filename: "ch_2_rename"
 	title: "Ch. 2 (rename)"
 	icon: {
@@ -116,7 +116,6 @@
 			x: 3.5d
 			y: -2.0d
 			subtitle: "Dark Magic"
-			dependencies: ["7F54A0C0B5BF3908"]
 			id: "3A5569B8FB3C4F7B"
 			tasks: [{
 				id: "75F7397B2B01BB2A"
@@ -676,52 +675,49 @@
 			}]
 		}
 		{
-			x: -15.0d
-			y: 7.25d
+			x: -21.5d
+			y: 0.25d
 			id: "75CED07646EE8601"
 			tasks: [{
-				id: "46EBCF687BD1DFCE"
-				type: "item"
-				item: "immersiveengineering:blastbrick_reinforced"
+				id: "09ECF765A8D0B7A5"
+				type: "observation"
+				title: "Improved Blast Furnace"
+				icon: "immersiveengineering:advanced_blast_furnace"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:advanced_blast_furnace"
 			}]
 		}
 		{
-			x: -14.0d
-			y: 7.25d
+			title: "Alloy Kiln"
+			icon: "immersiveengineering:alloy_smelter"
+			x: -21.5d
+			y: -0.75d
 			id: "44C7274EBBBFA24B"
-			tasks: [
-				{
-					id: "2351A61E5C5E8A0A"
-					type: "item"
-					item: "immersiveengineering:alloybrick"
-				}
-				{
-					id: "1D5D17000B59A18C"
-					type: "observation"
-					timer: 30L
-					observe_type: 0
-					to_observe: "immersiveengineering:alloy_smelter"
-				}
-			]
+			tasks: [{
+				id: "1D5D17000B59A18C"
+				type: "observation"
+				title: "Alloy Kiln"
+				icon: "immersiveengineering:alloy_smelter"
+				timer: 30L
+				observe_type: 0
+				to_observe: "immersiveengineering:alloy_smelter"
+			}]
 		}
 		{
-			x: -13.0d
-			y: 7.25d
+			title: "Crude Blast Furnace"
+			icon: "immersiveengineering:blast_furnace"
+			x: -20.5d
+			y: -0.75d
 			id: "70885C4B9975D97D"
 			tasks: [{
-				id: "320B296E0F7A5843"
-				type: "item"
-				item: "immersiveengineering:blastbrick"
-			}]
-		}
-		{
-			x: -12.0d
-			y: 7.25d
-			id: "68D29B7485E0C5E2"
-			tasks: [{
-				id: "3CF63D85175F159C"
-				type: "item"
-				item: "immersiveengineering:cokebrick"
+				id: "27D545D44E4D430D"
+				type: "observation"
+				title: "Crude Blast Furnace"
+				icon: "immersiveengineering:blast_furnace"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:blast_furnace"
 			}]
 		}
 		{
@@ -753,551 +749,230 @@
 		{
 			title: "Metal Press"
 			icon: "immersiveengineering:metal_press"
-			x: -16.0d
-			y: 8.25d
+			x: -20.5d
+			y: 5.25d
+			description: [
+				"Piston 1x"
+				"Steel Scaffolding 2x"
+				"Redstone Engineering Block 1x"
+				"Heavy Engineering Block 1x"
+				"Conveyor Belt 2x"
+			]
 			hide_dependency_lines: true
 			id: "19862EE31DFDDAB0"
-			tasks: [
-				{
-					id: "7DC9CA6A84F886D4"
-					type: "item"
-					item: "minecraft:piston"
+			tasks: [{
+				id: "2A50E0B3EACA2123"
+				type: "observation"
+				icon: {
+					id: "immersiveengineering:metal_press"
+					Count: 1b
+					tag: { }
 				}
-				{
-					id: "2F14D27D58FEDB39"
-					type: "item"
-					item: "immersiveengineering:steel_scaffolding_grate_top"
-					count: 2L
-				}
-				{
-					id: "40D20A18BD9F4CD7"
-					type: "item"
-					item: "immersiveengineering:rs_engineering"
-				}
-				{
-					id: "059C74A0420EA3CC"
-					type: "item"
-					item: "immersiveengineering:heavy_engineering"
-				}
-				{
-					id: "1F210C2777A6C6AA"
-					type: "item"
-					item: "immersiveengineering:conveyor_basic"
-					count: 2L
-				}
-				{
-					id: "2A50E0B3EACA2123"
-					type: "observation"
-					icon: {
-						id: "immersiveengineering:metal_press"
-						Count: 1b
-						tag: { }
-					}
-					timer: 30L
-					observe_type: 0
-					to_observe: "immersiveengineering:metal_press"
-				}
-			]
+				timer: 30L
+				observe_type: 0
+				to_observe: "immersiveengineering:metal_press"
+			}]
 		}
 		{
 			title: "Crusher"
 			icon: "immersiveengineering:crusher"
-			x: -15.0d
-			y: 8.25d
-			id: "073EACF91190BEA0"
-			tasks: [
-				{
-					id: "0BBD590F20E198F3"
-					type: "item"
-					item: "immersiveengineering:steel_scaffolding_grate_top"
-					count: 10L
-				}
-				{
-					id: "2D442F1C67B3B487"
-					type: "item"
-					item: "immersiveengineering:light_engineering"
-					count: 10L
-				}
-				{
-					id: "38C8D6141E3ECB73"
-					type: "item"
-					item: "immersiveengineering:rs_engineering"
-				}
-				{
-					id: "4CD517AF67B6FB39"
-					type: "item"
-					item: "immersiveengineering:steel_fence"
-					count: 8L
-				}
-				{
-					id: "0FF41145682084CB"
-					type: "item"
-					item: "minecraft:hopper"
-					count: 9L
-				}
+			x: -21.5d
+			y: 1.25d
+			description: [
+				"Steel Scaffolding 10x"
+				"Light Engineering Block 10x"
+				"Redstone Engineering Block 1x"
+				"Steel Fence 8x"
+				"Hopper 9x"
 			]
+			id: "073EACF91190BEA0"
+			tasks: [{
+				id: "1CD882B6CE896398"
+				type: "observation"
+				icon: "immersiveengineering:crusher"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:crusher"
+			}]
 		}
 		{
 			title: "Sawmill"
 			icon: "immersiveengineering:sawmill"
-			x: -14.0d
-			y: 8.25d
-			id: "2AB4AE22B6E73EBA"
-			tasks: [
-				{
-					id: "752F7C05D2BBB4E3"
-					type: "item"
-					item: "immersiveengineering:steel_scaffolding_grate_top"
-					count: 8L
-				}
-				{
-					id: "57B6C9A5F77E9924"
-					type: "item"
-					item: "immersiveengineering:light_engineering"
-					count: 6L
-				}
-				{
-					id: "74EEDB2A63E93E77"
-					type: "item"
-					item: "immersiveengineering:sheetmetal_iron"
-					count: 4L
-				}
-				{
-					id: "12A36B8B04322358"
-					type: "item"
-					item: "immersiveengineering:heavy_engineering"
-					count: 2L
-				}
-				{
-					id: "1EDF9AE83B3BB834"
-					type: "item"
-					item: "immersiveengineering:rs_engineering"
-				}
-				{
-					id: "24352B1C413293F7"
-					type: "item"
-					item: "immersiveengineering:conveyor_basic"
-					count: 4L
-				}
+			x: -20.5d
+			y: 0.25d
+			description: [
+				"Steel Scaffolding 8x"
+				"Light Engineering Block 6x"
+				"Iron Sheetmetal 4x"
+				"Heavy Engineering Block 2x"
+				"Redstone Engineering Block 1x"
+				"Conveyor Belt 4x"
 			]
+			id: "2AB4AE22B6E73EBA"
+			tasks: [{
+				id: "03EE64425FD4082C"
+				type: "observation"
+				title: "Sawmil"
+				icon: "immersiveengineering:sawmill"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:sawmill"
+			}]
 		}
 		{
 			title: "Assembler"
 			icon: "immersiveengineering:assembler"
-			x: -13.0d
-			y: 8.25d
+			x: -21.5d
+			y: 2.25d
+			description: [
+				"Steel Scaffolding 6x"
+				"Redstone Engineering Block 2x"
+				"Light engineering Block 2x"
+				"Iron Sheetmetal 9x"
+				"Iron Sheetmetal Slab 6x"
+				"Conveyor Belt 2x"
+			]
 			id: "65B718DAC2C88A4C"
-			tasks: [
-				{
-					id: "581D3F484BAFC610"
-					type: "item"
-					item: "immersiveengineering:steel_scaffolding_grate_top"
-					count: 6L
-				}
-				{
-					id: "4EAF58C94F2C335E"
-					type: "item"
-					item: "immersiveengineering:rs_engineering"
-					count: 2L
-				}
-				{
-					id: "12C0A5BA1E784DDD"
-					type: "item"
-					item: "immersiveengineering:light_engineering"
-					count: 2L
-				}
-				{
-					id: "102BEFA08A38CE5C"
-					type: "item"
-					item: "immersiveengineering:sheetmetal_iron"
-					count: 9L
-				}
-				{
-					id: "24CACB85677C67EF"
-					type: "item"
-					item: "immersiveengineering:slab_sheetmetal_iron"
-					count: 6L
-				}
-				{
-					id: "764ACC2F98C06C03"
-					type: "item"
-					item: "immersiveengineering:conveyor_basic"
-					count: 2L
-				}
-			]
+			tasks: [{
+				id: "0D9F70CBDE0836CE"
+				type: "observation"
+				title: "Assembler"
+				icon: "immersiveengineering:assembler"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:assembler"
+			}]
 		}
 		{
-			title: "Fermenter"
+			title: "Industrial Fermenter"
 			icon: "immersiveengineering:fermenter"
-			x: -12.0d
-			y: 8.25d
-			id: "5DC309731882A5E1"
-			tasks: [
-				{
-					id: "4903043849A1A243"
-					type: "item"
-					item: "immersiveengineering:steel_scaffolding_standard"
-					count: 6L
-				}
-				{
-					id: "0EBB428FC43A429E"
-					type: "item"
-					item: "immersiveengineering:light_engineering"
-					count: 2L
-				}
-				{
-					id: "16BB09A9F47EEBEA"
-					type: "item"
-					item: "minecraft:cauldron"
-					count: 4L
-				}
-				{
-					id: "3D7C1C0CADBD64CD"
-					type: "item"
-					item: "immersiveengineering:rs_engineering"
-				}
-				{
-					id: "23D970CD94FA14F8"
-					type: "item"
-					item: "immersiveengineering:sheetmetal_iron"
-					count: 4L
-				}
-				{
-					id: "2DA0626111489B33"
-					type: "item"
-					item: "immersiveengineering:fluid_pipe"
-					count: 2L
-				}
+			x: -20.5d
+			y: 1.25d
+			description: [
+				"Steel Scaffolding 6x"
+				"Light Engineering Block 2x"
+				"Cauldron 4x"
 			]
+			id: "5DC309731882A5E1"
+			tasks: [{
+				id: "129949F4A24CE753"
+				type: "observation"
+				title: "Industrial Fermenter"
+				icon: "immersiveengineering:fermenter"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:fermenter"
+			}]
 		}
 		{
-			title: "Squeezer"
+			title: "Industrial Squeezer"
 			icon: "immersiveengineering:squeezer"
-			x: -11.0d
-			y: 8.25d
+			x: -20.5d
+			y: 2.25d
 			id: "625FD0330E1BDA54"
-			tasks: [
-				{
-					id: "497E93D4C942EE56"
-					type: "item"
-					item: "minecraft:piston"
-				}
-				{
-					id: "71F852A9292E6813"
-					type: "item"
-					item: "immersiveengineering:steel_scaffolding_grate_top"
-					count: 6L
-				}
-				{
-					id: "0C49DE95848786EE"
-					type: "item"
-					item: "immersiveengineering:light_engineering"
-					count: 2L
-				}
-				{
-					id: "1526B03C0A5CB535"
-					type: "item"
-					item: "immersiveengineering:rs_engineering"
-				}
-				{
-					id: "50D02FEA564C8F02"
-					type: "item"
-					item: "immersiveengineering:steel_fence"
-					count: 3L
-				}
-				{
-					id: "79965A3CA7DCA90A"
-					type: "item"
-					item: "immersiveengineering:fluid_pipe"
-					count: 2L
-				}
-				{
-					id: "5A6068268567A6E6"
-					type: "item"
-					item: "immersiveengineering:wooden_barrel"
-					count: 4L
-				}
-			]
+			tasks: [{
+				id: "1FAF532D6CAF5919"
+				type: "observation"
+				title: "Industrial Squezzer"
+				icon: "immersiveengineering:squeezer"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:squeezer"
+			}]
 		}
 		{
 			title: "Refinery"
 			icon: "immersiveengineering:refinery"
-			x: -16.0d
-			y: 9.25d
+			x: -20.5d
+			y: 4.25d
 			id: "1C4916687AD96A77"
-			tasks: [
-				{
-					id: "2F6A92520DBEF06B"
-					type: "item"
-					item: "immersiveengineering:steel_scaffolding_standard"
-					count: 8L
-				}
-				{
-					id: "456A9BAAA7380E73"
-					type: "item"
-					item: "immersiveengineering:light_engineering"
-					count: 2L
-				}
-				{
-					id: "793BA02F776C7073"
-					type: "item"
-					item: "immersiveengineering:heavy_engineering"
-					count: 2L
-				}
-				{
-					id: "2BDA9C5733879604"
-					type: "item"
-					item: "immersiveengineering:sheetmetal_iron"
-					count: 16L
-				}
-				{
-					id: "43146B0A12F134F4"
-					type: "item"
-					item: "immersiveengineering:rs_engineering"
-				}
-				{
-					id: "64B80C6893FF7374"
-					type: "item"
-					item: "immersiveengineering:fluid_pipe"
-					count: 5L
-				}
-			]
+			tasks: [{
+				id: "541DFBBDCAA49B2F"
+				type: "observation"
+				title: "Refinery"
+				icon: "immersiveengineering:refinery"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:refinery"
+			}]
 		}
 		{
 			title: "Mixer"
 			icon: "immersiveengineering:mixer"
-			x: -15.0d
-			y: 9.25d
+			x: -21.5d
+			y: 4.25d
 			id: "70CA1655FB8127B2"
-			tasks: [
-				{
-					id: "1115DFFFA01A7442"
-					type: "item"
-					item: "immersiveengineering:steel_scaffolding_standard"
-					count: 5L
-				}
-				{
-					id: "1DF6E97B2D3C6C2F"
-					type: "item"
-					item: "immersiveengineering:light_engineering"
-					count: 4L
-				}
-				{
-					id: "38EE60F1A1828168"
-					type: "item"
-					item: "immersiveengineering:sheetmetal_iron"
-					count: 4L
-				}
-				{
-					id: "519F8B971CA88988"
-					type: "item"
-					item: "immersiveengineering:rs_engineering"
-				}
-				{
-					id: "7068B009F20B88AB"
-					type: "item"
-					item: "immersiveengineering:steel_fence"
-				}
-				{
-					id: "703037ED16F26151"
-					type: "item"
-					item: "immersiveengineering:fluid_pipe"
-					count: 3L
-				}
-			]
+			tasks: [{
+				id: "7F03D07128E2459E"
+				type: "observation"
+				title: "Mixer"
+				icon: "immersiveengineering:mixer"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:mixer"
+			}]
 		}
 		{
 			title: "Bottling Machine"
 			icon: "immersiveengineering:bottling_machine"
-			x: -14.0d
-			y: 9.25d
+			x: -20.5d
+			y: 3.25d
 			id: "18195DDA4F43EFCF"
-			tasks: [
-				{
-					id: "306248C35741A01B"
-					type: "item"
-					item: "immersiveengineering:sheetmetal_iron"
-					count: 2L
-				}
-				{
-					id: "74C4FA23CC187B75"
-					type: "item"
-					item: "immersiveengineering:steel_scaffolding_standard"
-					count: 3L
-				}
-				{
-					id: "3EA0F433FA6562E0"
-					type: "item"
-					item: "immersiveengineering:rs_engineering"
-				}
-				{
-					id: "7966325D65A2A24F"
-					type: "item"
-					item: "immersiveengineering:light_engineering"
-					count: 2L
-				}
-				{
-					id: "781CC4FD7F62A756"
-					type: "item"
-					item: "immersiveengineering:conveyor_basic"
-					count: 3L
-				}
-				{
-					id: "6B5B23520BD02A92"
-					type: "item"
-					item: "immersiveengineering:fluid_pump"
-					count: 2L
-				}
-			]
+			tasks: [{
+				id: "1D65AF4DED2E9370"
+				type: "observation"
+				title: "Bottling Machine"
+				icon: "immersiveengineering:bottling_machine"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:bottling_machine"
+			}]
 		}
 		{
 			title: "Automated Workbench"
 			icon: "immersiveengineering:auto_workbench"
-			x: -13.0d
-			y: 9.25d
+			x: -21.5d
+			y: 5.25d
 			id: "5E1E836B766A4AA0"
-			tasks: [
-				{
-					id: "75DE6F51C771949F"
-					type: "item"
-					item: "immersiveengineering:steel_scaffolding_standard"
-					count: 5L
-				}
-				{
-					id: "325263C29303FE96"
-					type: "item"
-					item: "immersiveengineering:light_engineering"
-					count: 4L
-				}
-				{
-					id: "047552C09CA068AD"
-					type: "item"
-					item: "immersiveengineering:rs_engineering"
-				}
-				{
-					id: "4159113D1123D6CF"
-					type: "item"
-					item: "immersiveengineering:heavy_engineering"
-					count: 2L
-				}
-				{
-					id: "78D7DFDE51530DB0"
-					type: "item"
-					item: "immersiveengineering:slab_treated_wood_horizontal"
-					count: 2L
-				}
-				{
-					id: "0BCFD5CCB8B53B48"
-					type: "item"
-					item: "immersiveengineering:conveyor_basic"
-					count: 4L
-				}
-			]
+			tasks: [{
+				id: "227F53CE1139209F"
+				type: "observation"
+				title: "Automated Workbench"
+				icon: "immersiveengineering:auto_workbench"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:auto_workbench"
+			}]
 		}
 		{
 			title: "Arc Furnace"
 			icon: "immersiveengineering:arc_furnace"
-			x: -12.0d
-			y: 9.25d
+			x: -21.5d
+			y: 3.25d
 			id: "29A495E5307C19C8"
-			tasks: [
-				{
-					id: "19785A3A5D084DD8"
-					type: "item"
-					item: "immersiveengineering:sheetmetal_steel"
-					count: 8L
-				}
-				{
-					id: "3013EE03652E491E"
-					type: "item"
-					item: "emendatusenigmatica:steel_block"
-					count: 6L
-				}
-				{
-					id: "6B8A85317F49DED9"
-					type: "item"
-					item: "immersiveengineering:slab_sheetmetal_steel"
-					count: 14L
-				}
-				{
-					id: "3EA5D77DB69E9BCC"
-					type: "item"
-					item: "immersiveengineering:steel_scaffolding_standard"
-					count: 5L
-				}
-				{
-					id: "1A2862B7604AC2E3"
-					type: "item"
-					item: "immersiveengineering:heavy_engineering"
-					count: 5L
-				}
-				{
-					id: "5E64FA16297B5086"
-					type: "item"
-					item: "minecraft:cauldron"
-				}
-				{
-					id: "0B92D702F2832871"
-					type: "item"
-					item: "immersiveengineering:rs_engineering"
-				}
-				{
-					id: "35382B31F2E2A5AC"
-					type: "item"
-					item: "immersiveengineering:light_engineering"
-					count: 10L
-				}
-				{
-					id: "6980D986820DA9C2"
-					type: "item"
-					item: "immersiveengineering:blastbrick_reinforced"
-					count: 27L
-				}
-			]
+			tasks: [{
+				id: "5D069A3FB4A648BA"
+				type: "observation"
+				title: "Arc Furnace"
+				icon: "immersiveengineering:arc_furnace"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:arc_furnace"
+			}]
 		}
 		{
-			title: "Excavator"
-			icon: "immersiveengineering:excavator"
-			x: -11.0d
-			y: 9.25d
+			x: -21.5d
+			y: 6.25d
 			id: "219D232C263901B6"
-			tasks: [
-				{
-					id: "40BB916A8D39F35F"
-					type: "item"
-					item: "immersiveengineering:steel_scaffolding_standard"
-					count: 6L
-				}
-				{
-					id: "5F59497B2F85C104"
-					type: "item"
-					item: "immersiveengineering:sheetmetal_steel"
-					count: 16L
-				}
-				{
-					id: "36FC688A16551EA7"
-					type: "item"
-					item: "immersiveengineering:radiator"
-					count: 3L
-				}
-				{
-					id: "7A1CC0D6FD5336C4"
-					type: "item"
-					item: "immersiveengineering:light_engineering"
-					count: 9L
-				}
-				{
-					id: "3433C3305FB28C17"
-					type: "item"
-					item: "immersiveengineering:rs_engineering"
-				}
-				{
-					id: "7328D280007B8ED6"
-					type: "item"
-					item: "immersiveengineering:heavy_engineering"
-					count: 4L
-				}
-			]
+			tasks: [{
+				id: "4F39023A4B0AAEC6"
+				type: "observation"
+				title: "Excavator"
+				icon: "immersiveengineering:excavator"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:excavator"
+			}]
 		}
 		{
 			title: "Diabolical Seeds"
@@ -1946,6 +1621,16 @@
 					item: "occultism:golden_sacrificial_bowl"
 				}
 			]
+		}
+		{
+			x: -15.0d
+			y: 7.25d
+			id: "6FC77C5EB529AB83"
+			tasks: [{
+				id: "448AAE1936254AD6"
+				type: "item"
+				item: "immersiveengineering:circuit_table"
+			}]
 		}
 	]
 }
