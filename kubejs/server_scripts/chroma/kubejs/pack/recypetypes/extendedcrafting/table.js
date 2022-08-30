@@ -1590,4 +1590,90 @@ onEvent("recipes", (event) => {
       }
     }
   ).id(`${id_prefix}allthemodium_bee`)
+
+    event.custom(
+      {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "AAAAAAAAA",
+        "AABBBBBAA",
+        "ABACCCABA",
+        "ABCADACBA",
+        "ABCDEDCBA",
+        "ABCADACBA",
+        "ABACCCABA",
+        "AABBBBBAA",
+        "AAAAAAAAA"
+      ],
+      "key": {
+        "A": {
+          "item": "allthemodium:vibranium_allthemodium_alloy_ingot"
+        },
+        "B": {
+          "item": "enderioalloys:item_alloy_ingot_vivid_alloy"
+        },
+        "C": {
+          "item": "allthemodium:vibranium_ingot"
+        },
+        "D": {
+          "item": "allthemodium:vibranium_ore"
+        },
+        "E": {
+          "type": "forge:nbt",
+          "item": "resourcefulbees:bee_jar",
+          "count": 1,
+          "nbt": "{Entity:\"resourcefulbees:allthemodium_bee\"}"
+        }
+      },
+      "result": {
+        "type": "forge:nbt",
+        "item": "resourcefulbees:bee_jar",
+        "count": 1,
+        "nbt": "{Entity:\"resourcefulbees:vibranium_bee\"}"
+      }
+    }
+  ).id(`${id_prefix}vibranium_bee`)
+
+      event.custom(
+        {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "AAAAAAAAA",
+        "AABBBBBAA",
+        "ABACCCABA",
+        "ABCADACBA",
+        "ABCDEDCBA",
+        "ABCADACBA",
+        "ABACCCABA",
+        "AABBBBBAA",
+        "AAAAAAAAA"
+      ],
+      "key": {
+        "A": {
+          "item": "allthemodium:unobtainium_vibranium_alloy_ingot"
+        },
+        "B": {
+          "item": "enderioalloys:item_alloy_ingot_vivid_alloy"
+        },
+        "C": {
+          "item": "allthemodium:unobtainium_ingot"
+        },
+        "D": {
+          "item": "allthemodium:unobtainium_ore"
+        },
+        "E": {
+          "type": "forge:nbt",
+          "item": "resourcefulbees:bee_jar",
+          "count": 1,
+          "nbt": "{Entity:\"resourcefulbees:vibranium_bee\"}"
+        }
+      },
+      "result": {
+        "type": "forge:nbt",
+        "item": "resourcefulbees:bee_jar",
+        "count": 1,
+        "nbt": "{Entity:\"resourcefulbees:unobtainium_bee\"}"
+      }
+    }
+  ).id(`${id_prefix}unobtainium_bee`)
 });
