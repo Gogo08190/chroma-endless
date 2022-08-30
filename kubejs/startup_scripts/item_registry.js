@@ -67,7 +67,17 @@ onEvent('item.registry', (event) => {
         'rgb_jelly',
         'rgb_glass_shard',
         'empty_creative_pool',
-        'rgb_petal'
+        'rgb_petal',
+        'rgb_honeycomb',
+        'light_honeycomb',
+        'dark_honeycomb',
+        'green_honeycomb',
+        'blue_honeycomb',
+        'orange_honeycomb',
+        'yellow_honeycomb',
+        'pink_honeycomb',
+        'purple_honeycomb',
+        'red_honeycomb'
     ];
 
     generalItems.forEach((item) => {
