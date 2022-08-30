@@ -84,7 +84,13 @@
 				id: "4A358FCE58624600"
 				type: "kill"
 				title: "Kill 10x Ender Dragons"
-				icon: "minecraft:dragon_head"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "chroma:textures/quests/dragon.png"
+					}
+				}
 				entity: "minecraft:ender_dragon"
 				value: 10L
 			}]
@@ -103,7 +109,7 @@
 					id: "ftbquests:custom_icon"
 					Count: 1b
 					tag: {
-						Icon: "minecraft:textures/entity_icon/wither/wither.png"
+						Icon: "chroma:textures/quests/wither.png"
 					}
 				}
 				entity: "minecraft:wither"

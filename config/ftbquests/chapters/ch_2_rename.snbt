@@ -689,11 +689,20 @@
 			x: -14.0d
 			y: 7.25d
 			id: "44C7274EBBBFA24B"
-			tasks: [{
-				id: "2351A61E5C5E8A0A"
-				type: "item"
-				item: "immersiveengineering:alloybrick"
-			}]
+			tasks: [
+				{
+					id: "2351A61E5C5E8A0A"
+					type: "item"
+					item: "immersiveengineering:alloybrick"
+				}
+				{
+					id: "1D5D17000B59A18C"
+					type: "observation"
+					timer: 30L
+					observe_type: 0
+					to_observe: "immersiveengineering:alloy_smelter"
+				}
+			]
 		}
 		{
 			x: -13.0d
@@ -775,6 +784,18 @@
 					type: "item"
 					item: "immersiveengineering:conveyor_basic"
 					count: 2L
+				}
+				{
+					id: "2A50E0B3EACA2123"
+					type: "observation"
+					icon: {
+						id: "immersiveengineering:metal_press"
+						Count: 1b
+						tag: { }
+					}
+					timer: 30L
+					observe_type: 0
+					to_observe: "immersiveengineering:metal_press"
 				}
 			]
 		}
