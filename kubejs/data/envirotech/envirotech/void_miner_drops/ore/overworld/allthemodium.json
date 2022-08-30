@@ -1,0 +1,17 @@
+{
+	"programs": ["envirotech:ore", "envirotech:metallic_ore"],
+	"item": {"raw:item": "allthemodium:allthemodium_ore", "count":1},
+	"config": [
+		{
+			"weight": 75,
+			"tiers" : [3,4,5,6,7,8],
+			"dimensions": ["minecraft:overworld"]
+		},
+		{
+			"focus": "envirotech:yellow",
+			"tiers" : [3,4,5,6,7,8],
+			"weight": 500,
+			"dimensions": ["minecraft:overworld"]
+		}
+	]
+}
