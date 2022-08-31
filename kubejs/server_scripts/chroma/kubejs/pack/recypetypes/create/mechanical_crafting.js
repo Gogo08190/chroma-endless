@@ -262,6 +262,24 @@ onEvent('recipes', (event) => {
                 E: 'create:electron_tube'
             },
             id: `${id_prefix}autosmithing_energy_input`
+        },
+
+        // Ultimate Comb
+        {
+            output: 'kubejs:ultimate_honeycomb',
+            pattern: ['ABCDEFGHI'],
+            key: {
+                A: 'kubejs:blue_honeycomb',
+                B: 'kubejs:green_honeycomb',
+                C: 'kubejs:yellow_honeycomb',
+                D: 'kubejs:orange_honeycomb',
+                E: 'kubejs:red_honeycomb',
+                F: 'kubejs:pink_honeycomb',
+                G: 'kubejs:purple_honeycomb',
+                H: 'kubejs:dark_honeycomb',
+                I: 'kubejs:light_honeycomb'
+            },
+            id: `${id_prefix}ultimate_honeycomb`
         }
 
     ];
