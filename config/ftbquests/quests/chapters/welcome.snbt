@@ -226,5 +226,17 @@
 				title: "JEI"
 			}]
 		}
+		{
+			icon: "tombstone:advancement_2"
+			x: 0.0d
+			y: 3.0d
+			description: ["expliquer comment mute/modif config"]
+			id: "515692CECD9B85B8"
+			tasks: [{
+				id: "530C64F5D864DB84"
+				type: "checkmark"
+				title: "Advancement \\& Quest Plaques"
+			}]
+		}
 	]
 }

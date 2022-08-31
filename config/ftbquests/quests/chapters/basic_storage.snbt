@@ -7,5 +7,644 @@
 	icon: "minecraft:chest"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: 0.0d
+			y: -14.5d
+			shape: "gear"
+			hide_dependency_lines: true
+			dependencies: ["1195924B8477153E"]
+			size: 2.0d
+			id: "0A296F3332187D0B"
+			tasks: [{
+				id: "2F4C7659FC4E1E40"
+				type: "item"
+				item: "framedcompactdrawers:framed_full_one"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -14.5d
+			dependencies: ["0A296F3332187D0B"]
+			id: "41AEB34D3AA3A76D"
+			tasks: [{
+				id: "551FB12C9F7090C6"
+				type: "item"
+				item: "framedcompactdrawers:framed_compact_drawer"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -14.5d
+			dependencies: ["0A296F3332187D0B"]
+			id: "7AD28BDCB5EF8EF9"
+			tasks: [{
+				id: "2EA550BF33309C26"
+				type: "item"
+				item: "framedcompactdrawers:framed_drawer_controller"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -14.5d
+			dependencies: ["7AD28BDCB5EF8EF9"]
+			id: "05D57CE893311364"
+			tasks: [{
+				id: "5F1A1D4803FE16CA"
+				type: "item"
+				item: "framedcompactdrawers:framed_trim"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -14.5d
+			dependencies: ["7AD28BDCB5EF8EF9"]
+			id: "1A5727723DDD4690"
+			tasks: [{
+				id: "3C745BB3D602E21D"
+				type: "item"
+				item: "framedcompactdrawers:framed_slave"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -10.5d
+			dependencies: [
+				"6F7E038577E9E093"
+				"412DC2EA2FB47B68"
+			]
+			id: "0D06468FD66518FE"
+			tasks: [{
+				id: "6B786905971ECD27"
+				type: "item"
+				item: "storagedrawers:drawer_key"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -10.5d
+			dependencies: [
+				"10EB436A1F6B02C7"
+				"0A296F3332187D0B"
+			]
+			dependency_requirement: "one_completed"
+			id: "6F7E038577E9E093"
+			tasks: [{
+				id: "55DA7E0376D8B9EC"
+				type: "item"
+				item: "storagedrawers:upgrade_template"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -13.0d
+			dependencies: [
+				"6F7E038577E9E093"
+				"0F01F4CCB3915082"
+			]
+			id: "03D8C3E1BB351B76"
+			tasks: [{
+				id: "31C92C792F279E6B"
+				type: "item"
+				item: "storagedrawers:obsidian_storage_upgrade"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -11.75d
+			dependencies: [
+				"6F7E038577E9E093"
+				"4055881864FF87C5"
+			]
+			id: "3165308FA1AD681B"
+			tasks: [{
+				id: "4BADA58281C67331"
+				type: "item"
+				item: "storagedrawers:iron_storage_upgrade"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -11.5d
+			dependencies: ["0D06468FD66518FE"]
+			id: "5D1DE75288532316"
+			tasks: [{
+				id: "489FA3980A179639"
+				type: "item"
+				item: "storagedrawers:quantify_key"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -9.5d
+			dependencies: ["0D06468FD66518FE"]
+			id: "2BB1145D0A20A12F"
+			tasks: [{
+				id: "21E35FE583FC7A13"
+				type: "item"
+				item: "storagedrawers:shroud_key"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -9.25d
+			dependencies: [
+				"6F7E038577E9E093"
+				"0976209956D1ADCD"
+			]
+			id: "6421AEF4E0F30500"
+			tasks: [{
+				id: "68A6330172369EEB"
+				type: "item"
+				item: "storagedrawers:diamond_storage_upgrade"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -10.5d
+			dependencies: [
+				"6F7E038577E9E093"
+				"412DC2EA2FB47B68"
+			]
+			id: "51A7F8C0AD009B10"
+			tasks: [{
+				id: "35D3EAC95ED6665C"
+				type: "item"
+				item: "storagedrawers:gold_storage_upgrade"
+			}]
+		}
+		{
+			x: 6.25d
+			y: -10.5d
+			dependencies: ["6F7E038577E9E093"]
+			id: "4167C9663B06C4C0"
+			tasks: [{
+				id: "1DE11D8DA6105D1A"
+				type: "item"
+				item: "storagedrawers:one_stack_upgrade"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -8.0d
+			dependencies: [
+				"6F7E038577E9E093"
+				"63B277F4C396E4F7"
+			]
+			id: "099964B50A214AB7"
+			tasks: [{
+				id: "70BAF7247B31C9E6"
+				type: "item"
+				item: "storagedrawers:emerald_storage_upgrade"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -11.25d
+			dependencies: [
+				"6F7E038577E9E093"
+				"52A9D4F9E61253F4"
+			]
+			id: "2CC70D6987409E61"
+			tasks: [{
+				id: "655FFCCD35076CFC"
+				type: "item"
+				item: "storagedrawers:redstone_upgrade"
+			}]
+		}
+		{
+			x: 6.25d
+			y: -11.75d
+			dependencies: [
+				"6F7E038577E9E093"
+				"0F01F4CCB3915082"
+			]
+			id: "630A05E20BC352B1"
+			tasks: [{
+				id: "079D816C444561DC"
+				type: "item"
+				item: "storagedrawers:void_upgrade"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -8.5d
+			dependencies: [
+				"6F7E038577E9E093"
+				"52A9D4F9E61253F4"
+			]
+			id: "05FBFC6908571073"
+			tasks: [{
+				id: "78E8548F43FAA489"
+				type: "item"
+				item: "storagedrawers:max_redstone_upgrade"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -9.75d
+			dependencies: [
+				"6F7E038577E9E093"
+				"52A9D4F9E61253F4"
+			]
+			id: "00061AD328CCF221"
+			tasks: [{
+				id: "3039F817A8936413"
+				type: "item"
+				item: "storagedrawers:min_redstone_upgrade"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -12.5d
+			dependencies: [
+				"6F7E038577E9E093"
+				"52A9D4F9E61253F4"
+			]
+			id: "5C06D8614A2BA0ED"
+			tasks: [{
+				id: "0F7391B0855E7409"
+				type: "item"
+				item: "storagedrawers:fill_level_upgrade"
+			}]
+		}
+		{
+			x: 6.25d
+			y: -9.25d
+			dependencies: [
+				"6F7E038577E9E093"
+				"359039A14143712B"
+			]
+			id: "28036D6566C362A7"
+			tasks: [{
+				id: "2417C6B06D01BFE2"
+				type: "item"
+				item: "storagedrawers:illumination_upgrade"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -6.5d
+			dependencies: ["3A34A14E10BCDD68"]
+			id: "424F1E404CFDA987"
+			tasks: [{
+				id: "20FC816A4BBE9691"
+				type: "item"
+				item: "storagedrawers:controller_slave"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -6.5d
+			dependencies: ["3A34A14E10BCDD68"]
+			id: "0C5661B30E9EC087"
+			tasks: [{
+				id: "6EBA6451B59E4AA8"
+				type: "item"
+				item: "storagedrawers:oak_trim"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -6.5d
+			dependencies: ["10EB436A1F6B02C7"]
+			id: "3A34A14E10BCDD68"
+			tasks: [{
+				id: "0B97753A6676F840"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -6.5d
+			dependencies: ["10EB436A1F6B02C7"]
+			id: "1E43D2BF44BAABEB"
+			tasks: [{
+				id: "41F9719B98702644"
+				type: "item"
+				item: "storagedrawers:compacting_drawers_3"
+			}]
+		}
+		{
+			icon: "storagedrawers:oak_full_drawers_1"
+			x: 0.0d
+			y: -6.5d
+			shape: "gear"
+			hide_dependency_lines: true
+			dependencies: ["1195924B8477153E"]
+			size: 2.0d
+			id: "10EB436A1F6B02C7"
+			tasks: [{
+				id: "5BA219BECD100899"
+				type: "item"
+				title: "Drawers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["1C7C41C2FA427B8F"]
+			size: 2.0d
+			id: "1195924B8477153E"
+			tasks: [{
+				id: "64A0D1FF2C6605AB"
+				type: "item"
+				title: "Chest"
+				icon: "minecraft:chest"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:chests/wooden"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			description: [
+				"Sneak (by default Left Shift) and Use (by default Right Click) for use it."
+				""
+				""
+				"→ In void for change mode :"
+				""
+				"   - Merge > Use on two adjacents chests will merge them.              &4&l&nDON'T USE THIS ON DIFFERENTS CHESTS, IT COULD CRASH YOUR&r                  &4&l&nGAME OR SERVER!&r"
+				""
+				"   - Split > The opposite of merge; use on a double chest to split it into two single chests."
+				""
+				"   - Rotate > Use to rotate a storage block."
+				""
+				"   - Swap theme > Use to change the style of a storage block."
+				""
+				""
+				"→ On a chest to apply the selected mode to it."
+			]
+			dependencies: ["1195924B8477153E"]
+			id: "2C8FACF586696C1B"
+			tasks: [{
+				id: "1923B2A1006AB24F"
+				type: "item"
+				item: {
+					id: "expandedstorage:chest_mutator"
+					Count: 1b
+					tag: {
+						mode: 0b
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			dependencies: ["1195924B8477153E"]
+			dependency_requirement: "one_completed"
+			id: "1D737B5F0D753F63"
+			tasks: [{
+				id: "6386AEAF94CB058A"
+				type: "item"
+				item: "expandedstorage:iron_chest"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			shape: "gear"
+			dependencies: ["1C7C41C2FA427B8F"]
+			size: 2.0d
+			id: "245C994669BC5E13"
+			tasks: [{
+				id: "4FBC2188BE8E72AD"
+				type: "item"
+				title: "Barrel"
+				icon: "minecraft:barrel"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:barrels/wooden"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			dependencies: ["245C994669BC5E13"]
+			id: "706E5E859FBA4310"
+			tasks: [{
+				id: "36591B65331B1D7D"
+				type: "item"
+				item: "metalbarrels:copper_barrel"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.0d
+			dependencies: [
+				"706E5E859FBA4310"
+				"4FBC2188BE8E72AD"
+			]
+			dependency_requirement: "one_completed"
+			id: "05CAF0142A173FFB"
+			tasks: [{
+				id: "7D716E3EA082C28E"
+				type: "item"
+				item: "metalbarrels:iron_barrel"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.5d
+			dependencies: ["245C994669BC5E13"]
+			dependency_requirement: "one_completed"
+			id: "1D0D84318A63C568"
+			tasks: [{
+				id: "04692AA22F41A8D6"
+				type: "item"
+				item: "expandedstorage:iron_barrel"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.5d
+			dependencies: ["1D0D84318A63C568"]
+			dependency_requirement: "one_completed"
+			id: "25D086FD8A52A841"
+			tasks: [{
+				id: "35CAE5379F7B2E03"
+				type: "item"
+				item: "expandedstorage:gold_barrel"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 6.0d
+			min_required_dependencies: 2
+			dependencies: [
+				"05CAF0142A173FFB"
+				"0C67EB5500C699B0"
+				"4FBC2188BE8E72AD"
+			]
+			dependency_requirement: "one_completed"
+			id: "5250A6AE4D2B7F99"
+			tasks: [{
+				id: "1F769574469CA108"
+				type: "item"
+				item: "metalbarrels:gold_barrel"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 8.0d
+			dependencies: ["05CAF0142A173FFB"]
+			id: "0C67EB5500C699B0"
+			tasks: [{
+				id: "53A50006E4CC3D40"
+				type: "item"
+				item: "metalbarrels:silver_barrel"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["1D737B5F0D753F63"]
+			dependency_requirement: "one_completed"
+			id: "05FC94690F688BF2"
+			tasks: [{
+				id: "6EC01DA3CAD39C05"
+				type: "item"
+				item: "expandedstorage:gold_chest"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			dependencies: ["05FC94690F688BF2"]
+			dependency_requirement: "one_completed"
+			id: "625E6B9889DC2AD5"
+			tasks: [{
+				id: "4C758AA5A2B36481"
+				type: "item"
+				item: "expandedstorage:diamond_chest"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 3.5d
+			dependencies: ["25D086FD8A52A841"]
+			dependency_requirement: "one_completed"
+			id: "7DCD4F808954C828"
+			tasks: [{
+				id: "112AD8AA77B57F8C"
+				type: "item"
+				item: "expandedstorage:diamond_barrel"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 6.0d
+			dependencies: [
+				"5250A6AE4D2B7F99"
+				"0C67EB5500C699B0"
+			]
+			dependency_requirement: "one_completed"
+			id: "2521D07B715F240F"
+			tasks: [{
+				id: "6872259617059D0D"
+				type: "item"
+				item: "metalbarrels:diamond_barrel"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 6.0d
+			dependencies: ["2521D07B715F240F"]
+			id: "1331E03259C78833"
+			tasks: [{
+				id: "188034EFFCF1AD1A"
+				type: "item"
+				item: "metalbarrels:obsidian_barrel"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.5d
+			dependencies: ["7DCD4F808954C828"]
+			dependency_requirement: "one_completed"
+			id: "17BE6E6E08D65929"
+			tasks: [{
+				id: "7FC0F38A3D375148"
+				type: "item"
+				item: "expandedstorage:obsidian_barrel"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			dependencies: ["625E6B9889DC2AD5"]
+			dependency_requirement: "one_completed"
+			id: "23DED41BF2B77267"
+			tasks: [{
+				id: "7DB408D4018092A8"
+				type: "item"
+				item: "expandedstorage:obsidian_chest"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 0.0d
+			dependencies: ["23DED41BF2B77267"]
+			dependency_requirement: "one_completed"
+			id: "67A314359477CE0D"
+			tasks: [{
+				id: "5078188812830472"
+				type: "item"
+				item: "expandedstorage:netherite_chest"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 3.5d
+			dependencies: ["17BE6E6E08D65929"]
+			dependency_requirement: "one_completed"
+			id: "28B19C23A8F8E8B3"
+			tasks: [{
+				id: "49EAD441D49A4202"
+				type: "item"
+				item: "expandedstorage:netherite_barrel"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 6.0d
+			dependencies: ["1331E03259C78833"]
+			id: "4997C7D199537229"
+			tasks: [{
+				id: "6FDE1FDD05FD0BE0"
+				type: "item"
+				item: "metalbarrels:netherite_barrel"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 8.0d
+			dependencies: ["2521D07B715F240F"]
+			id: "351E1BB011A3AE54"
+			tasks: [{
+				id: "5C77F56EEC93E23C"
+				type: "item"
+				item: "metalbarrels:crystal_barrel"
+			}]
+		}
+	]
 }
