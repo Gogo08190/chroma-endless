@@ -6,7 +6,7 @@
 
 	[client.visual_options]
 		# If plaques should show for "task"-level quests (quest tasks).
-		tasks = false
+		tasks = true
 		# If plaques should show for "goal"-level quests (standard quests).
 		goals = true
 		# If plaques should show for "challenge"-level quests (quest chapters).
@@ -23,3 +23,4 @@
 		consolidate_simple_quests = true
 		# Whitelist of quests to show plaques for.  Leave empty to display for all.  Specify as numerical quest ID for FTB Quests and Custom Quests.
 		whitelist = []
+
