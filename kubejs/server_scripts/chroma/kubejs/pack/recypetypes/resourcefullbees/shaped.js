@@ -216,7 +216,7 @@ onEvent('recipes', (event) => {
               S: '#forge:stone',
               O: 'resourcefulbees:occultist_honeycomb'
           },
-          id: `${id_prefix}occultism:otherstone`
+          id: `${id_prefix}otherstone`
       },
       {
           output: Item.of('occultism:otherworld_log', 8),
@@ -225,7 +225,7 @@ onEvent('recipes', (event) => {
               L: '#minecraft:logs',
               O: 'resourcefulbees:occultist_honeycomb'
           },
-          id: `${id_prefix}occultism:otherworld_log`
+          id: `${id_prefix}otherworld_log`
       }
     ];
 
