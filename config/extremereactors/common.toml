@@ -93,7 +93,7 @@
 		#If false, disables all world gen from Extreme Reactors;
 		#all other worldgen settings are automatically ignored.
 		enableWorldGen = true
-		#Re-run world gen in chunks that have already been generated (once they have been loaded), 
+		#Re-run world gen in chunks that have already been generated (once they have been loaded),
 		#but have not been modified by Extreme Reactors before.
 		enableWorldRegeneration = false
 		#User-set world generation version.
@@ -101,7 +101,7 @@
 		#Range: > 0
 		userWorldGenVersion = 1
 		#Enable generation of Yellorite Ore.
-		yelloriteOreEnableWorldGen = true
+		yelloriteOreEnableWorldGen = false
 		#Maximum number of Yellorite Ore clusters per chunk.
 		#Range: 1 ~ 25
 		yelloriteOreMaxClustersPerChunk = 3
@@ -127,4 +127,3 @@
 		#Maximum number of Benitoite Ores to generate in each cluster.
 		#Range: 1 ~ 16
 		benitoiteOrePerCluster = 5
-
