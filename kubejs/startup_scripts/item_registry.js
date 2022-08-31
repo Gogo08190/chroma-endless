@@ -68,7 +68,7 @@ onEvent('item.registry', (event) => {
         'rgb_glass_shard',
         'empty_creative_pool',
         'rgb_petal',
-        'rgb_honeycomb',
+        'ultimate_honeycomb',
         'light_honeycomb',
         'dark_honeycomb',
         'green_honeycomb',
