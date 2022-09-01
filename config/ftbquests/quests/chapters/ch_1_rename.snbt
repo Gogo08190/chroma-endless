@@ -1178,7 +1178,7 @@
 			}]
 		}
 		{
-			x: 16.5d
+			x: 22.25d
 			y: 32.25d
 			subtitle: "The Mechanical Press is a mechanical component that applies Pressing, Packing, and Compacting recipes to items below it"
 			description: [
@@ -1352,7 +1352,7 @@
 			}]
 		}
 		{
-			x: 18.5d
+			x: 24.25d
 			y: 32.25d
 			subtitle: "The Mechanical Mixer is a mechanical component that applies Mixing recipes and shapeless Crafting recipes to items in Basins."
 			description: [
@@ -1377,8 +1377,8 @@
 			}]
 		}
 		{
-			x: 22.5d
-			y: 32.25d
+			x: 28.25d
+			y: 34.25d
 			subtitle: "The Deployer simulates player actions on blocks up 2 to blocks away from it"
 			description: [
 				"The Deployer simulates right clicks by default. It can be adjusted to left click instead with a Wrench."
@@ -1569,9 +1569,9 @@
 			]
 		}
 		{
-			x: 18.5d
+			x: 22.25d
 			y: 34.25d
-			dependencies: ["361613B0792A5601"]
+			dependencies: ["761BAE3E76AB71A3"]
 			id: "2A83D8FCCCFE217C"
 			tasks: [{
 				id: "201592C6BFFE96D3"
@@ -1614,7 +1614,7 @@
 		}
 		{
 			title: "Crushing Wheels"
-			x: 20.5d
+			x: 24.25d
 			y: 36.25d
 			subtitle: "Crushing Wheels are the more advanced version of the Millstone"
 			description: [
@@ -1786,8 +1786,8 @@
 			}]
 		}
 		{
-			x: 20.5d
-			y: 32.25d
+			x: 26.25d
+			y: 34.25d
 			subtitle: "The Electron Tube is an item that is only used in crafting recipes"
 			dependencies: [
 				"3200ACD6830758C1"
@@ -2134,7 +2134,7 @@
 		}
 		{
 			title: "Polished Rose Quartz"
-			x: 22.5d
+			x: 26.25d
 			y: 30.25d
 			dependencies: ["1B29F8E51716D37A"]
 			id: "3200ACD6830758C1"
@@ -2148,8 +2148,8 @@
 		{
 			title: "Rose Quartz"
 			icon: "create:rose_quartz"
-			x: 20.5d
-			y: 30.25d
+			x: 26.25d
+			y: 28.25d
 			description: [
 				"Sand Paper is a tool used solely to create Polished Rose Quartz."
 				""
@@ -3266,8 +3266,8 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: 38.125d
+			x: 12.375d
+			y: 27.75d
 			shape: "octagon"
 			description: [
 				"The Wrench is a tool used to rotate, dismantle and configure components."
@@ -4312,7 +4312,7 @@
 			}]
 		}
 		{
-			x: 20.5d
+			x: 24.25d
 			y: 34.25d
 			dependencies: [
 				"2A83D8FCCCFE217C"
@@ -4326,18 +4326,7 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: 34.25d
-			dependencies: ["761BAE3E76AB71A3"]
-			id: "361613B0792A5601"
-			tasks: [{
-				id: "2289493239751238"
-				type: "item"
-				item: "emendatusenigmatica:brass_plate"
-			}]
-		}
-		{
-			x: 16.5d
+			x: 22.25d
 			y: 30.25d
 			dependencies: ["761BAE3E76AB71A3"]
 			id: "5D4588A88350465A"
@@ -4348,7 +4337,7 @@
 			}]
 		}
 		{
-			x: 18.5d
+			x: 24.25d
 			y: 30.25d
 			dependencies: ["761BAE3E76AB71A3"]
 			id: "352EA74AD16F49E8"
@@ -4526,17 +4515,6 @@
 				id: "7E2950F67D0D0C7B"
 				type: "item"
 				item: "minecraft:smithing_table"
-			}]
-		}
-		{
-			x: 16.5d
-			y: 36.25d
-			dependencies: ["761BAE3E76AB71A3"]
-			id: "77D35B3149138982"
-			tasks: [{
-				id: "7684CC4F3C1E277B"
-				type: "item"
-				item: "emendatusenigmatica:gold_plate"
 			}]
 		}
 		{
