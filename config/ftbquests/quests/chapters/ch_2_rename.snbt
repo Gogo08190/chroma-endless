@@ -2253,48 +2253,26 @@
 			}]
 		}
 		{
-			x: 3.75d
-			y: 16.5d
-			shape: "rsquare"
-			hide_dependency_lines: true
-			dependencies: [
-				"3A99B2052AE4BAC9"
-				"7BF5F871992F55AE"
-			]
-			size: 3.0d
-			id: "7E104C81B40601D8"
+			title: "Wireless Storage"
+			x: 5.0d
+			y: 17.5d
+			dependencies: ["794D8B87D0FA7DDE"]
+			id: "65413446C0ACCB2D"
 			tasks: [{
-				id: "09E24C4F4994E46F"
-				type: "checkmark"
-				title: "Demon's Storage"
+				id: "686E3366CB35DD42"
+				type: "item"
+				item: {
+					id: "occultism:storage_remote"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 		{
-			x: 3.75d
-			y: 14.0d
-			dependencies: ["7E104C81B40601D8"]
-			id: "65413446C0ACCB2D"
-			tasks: [
-				{
-					id: "1F9EADEA609AAF38"
-					type: "item"
-					item: "occultism:storage_remote_inert"
-				}
-				{
-					id: "686E3366CB35DD42"
-					type: "item"
-					item: {
-						id: "occultism:storage_remote"
-						Count: 1b
-						tag: { }
-					}
-				}
-			]
-		}
-		{
-			x: 1.0d
-			y: 16.5d
-			dependencies: ["7E104C81B40601D8"]
+			title: "Wireless interactions"
+			x: 4.0d
+			y: 18.0d
+			dependencies: ["794D8B87D0FA7DDE"]
 			id: "2010F5E14AD87032"
 			tasks: [{
 				id: "1FAAE4627733FF5D"
@@ -2307,14 +2285,17 @@
 			}]
 		}
 		{
-			x: 6.75d
-			y: 16.5d
-			description: ["Expliquer le fonctionnement"]
+			x: 3.5d
+			y: 15.75d
+			description: [
+				"The &5Dimensional Storage Actuator&r consists of a &6Dimensional Matrix&r inhabited by a &2Djinni&r that creates and manages a storage dimension and a &6Base&r, infused with a &2Foliot&r that moves items in and out the storage dimension."
+				"By default, the &5Storage Actuator&r can only hold 128 types of different items or 2048 stacks approximatively. Of course that number can be upgraded with &6Dimensional Storage Upgrades&r."
+			]
 			dependencies: [
-				"7E104C81B40601D8"
 				"7B5DF9B562DB7BA0"
 				"0C0C74A282D40D04"
 			]
+			size: 2.5d
 			id: "794D8B87D0FA7DDE"
 			tasks: [{
 				id: "7046044DC4D81881"
@@ -2323,10 +2304,11 @@
 			}]
 		}
 		{
-			x: 3.75d
-			y: 19.0d
+			title: "Dimensional Storage Upgrades"
+			x: 3.0d
+			y: 18.0d
 			description: ["Expliquer combien rajoute 1 upgrade et comment les installer"]
-			dependencies: ["7E104C81B40601D8"]
+			dependencies: ["794D8B87D0FA7DDE"]
 			id: "5354A67B9858F203"
 			tasks: [
 				{
@@ -2352,9 +2334,12 @@
 			]
 		}
 		{
-			x: 8.25d
-			y: 15.75d
-			description: ["Expliquer comment obtenir cette partie"]
+			x: 4.75d
+			y: 14.25d
+			description: [
+				"The &6Storage Actuator Base&r imprisons a &3Foliot&r responsible for interacting with items in a &5Dimensional Storage Matrix&r."
+				"You can check the craft in JEI by left-clicking on the item."
+			]
 			hide_dependency_lines: true
 			dependencies: ["7BF5F871992F55AE"]
 			id: "0C0C74A282D40D04"
@@ -2365,9 +2350,12 @@
 			}]
 		}
 		{
-			x: 8.25d
-			y: 17.25d
-			description: ["Expliquer comment obtenir cette partie"]
+			x: 2.25d
+			y: 14.25d
+			description: [
+				"The &6Dimensional Matrix&r is the entry point to a small dimension used for storing items. A &3Djinni&r bound to the matrix keeps the dimension stable, often supported by additionnal spirits in storage stabilizers, to increase the dimension size."
+				"You can check the craft on JEI by left-clicking on the item."
+			]
 			hide_dependency_lines: true
 			dependencies: ["3A99B2052AE4BAC9"]
 			id: "7B5DF9B562DB7BA0"
@@ -2384,8 +2372,8 @@
 			}]
 		}
 		{
-			x: 6.75d
-			y: 19.0d
+			x: 2.0d
+			y: 17.5d
 			dependencies: ["794D8B87D0FA7DDE"]
 			id: "1CDE01D11B26CD1C"
 			tasks: [{

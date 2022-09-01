@@ -85,76 +85,6 @@
 			}]
 		}
 		{
-			x: -3.25d
-			y: 6.0d
-			id: "0C3A740460D79513"
-			tasks: [{
-				id: "4235A779F01D020F"
-				type: "item"
-				item: "create:chute"
-			}]
-		}
-		{
-			x: -3.25d
-			y: 7.0d
-			id: "1EC46AF7B5B9E241"
-			tasks: [{
-				id: "77F18898F8997197"
-				type: "item"
-				item: "create:depot"
-			}]
-		}
-		{
-			x: -3.25d
-			y: 8.0d
-			id: "14139F64C7AD91B6"
-			tasks: [{
-				id: "104B9ECBFEF3672C"
-				type: "item"
-				item: "create:mechanical_arm"
-			}]
-		}
-		{
-			x: -2.0d
-			y: 6.5d
-			id: "722021815FA40379"
-			tasks: [{
-				id: "7A8CCA6797B84922"
-				type: "item"
-				item: "create:andesite_tunnel"
-			}]
-		}
-		{
-			x: -2.0d
-			y: 7.5d
-			id: "552B6184FAA0D57B"
-			tasks: [{
-				id: "3EF41B0754FEA66A"
-				type: "item"
-				item: "create:brass_tunnel"
-			}]
-		}
-		{
-			x: -4.5d
-			y: 6.5d
-			id: "7F2B81AAD23F99C0"
-			tasks: [{
-				id: "04BC1B77022E5BE1"
-				type: "item"
-				item: "create:andesite_funnel"
-			}]
-		}
-		{
-			x: -4.5d
-			y: 7.5d
-			id: "410376C9C6087A4C"
-			tasks: [{
-				id: "48B865F882C5CF19"
-				type: "item"
-				item: "create:brass_funnel"
-			}]
-		}
-		{
 			title: "Wind mill"
 			x: -0.75d
 			y: 3.0d
@@ -305,23 +235,6 @@
 				type: "item"
 				item: "create:electron_tube"
 			}]
-		}
-		{
-			x: 6.25d
-			y: 6.25d
-			id: "4AC1298723D8A89A"
-			tasks: [
-				{
-					id: "0E98F609F579C0F9"
-					type: "item"
-					item: "create:mechanical_crafter"
-				}
-				{
-					id: "374CA73D66676D2F"
-					type: "item"
-					item: "create:crafter_slot_cover"
-				}
-			]
 		}
 		{
 			x: 6.25d

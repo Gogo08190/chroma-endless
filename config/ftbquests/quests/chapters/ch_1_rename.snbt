@@ -1156,29 +1156,7 @@
 			}]
 		}
 		{
-			title: "Fluid Tank"
-			x: 34.25d
-			y: 19.5d
-			subtitle: "The Fluid Tank is a fluid storage mechanism"
-			description: [
-				"The Fluid Tank can store up to 8 buckets of fluid per block. Fluid tanks will also merge with adjacent tanks, up to 3x32x3, allowing to store up to 2,304 buckets of any fluid."
-				""
-				"Fluids can be stored and extracted from fluid tanks via Fluid Pipe. The fluid pipes can be placed on any face of the fluid tank: top, bottom, or sides."
-				""
-				"The direction of flow in the fluid pipe indicates whether fluids will be put into the tank or extracted from the tank; if fluid is flowing towards the tank, the fluid will be stored in the tank. Likewise, if a fluid pipe is flowing away from the tank (via Mechanical Pump), then fluid from the tank will be extracted into that pipe."
-				""
-				"The placement of fluid pipe connections to the tank is not important for functionality. For instance, an extracting pipe can be placed at the top of a tank and still remove fluid from the tank, even if the fluid tank is not completely full."
-			]
-			id: "25C9708B3163FAE2"
-			tasks: [{
-				id: "6F662D6A1A37E4C7"
-				type: "item"
-				item: "create:fluid_tank"
-				count: 2L
-			}]
-		}
-		{
-			x: 22.25d
+			x: 18.5d
 			y: 32.25d
 			subtitle: "The Mechanical Press is a mechanical component that applies Pressing, Packing, and Compacting recipes to items below it"
 			description: [
@@ -1352,7 +1330,7 @@
 			}]
 		}
 		{
-			x: 24.25d
+			x: 20.75d
 			y: 32.25d
 			subtitle: "The Mechanical Mixer is a mechanical component that applies Mixing recipes and shapeless Crafting recipes to items in Basins."
 			description: [
@@ -1377,8 +1355,8 @@
 			}]
 		}
 		{
-			x: 28.25d
-			y: 34.25d
+			x: 23.25d
+			y: 32.25d
 			subtitle: "The Deployer simulates player actions on blocks up 2 to blocks away from it"
 			description: [
 				"The Deployer simulates right clicks by default. It can be adjusted to left click instead with a Wrench."
@@ -1413,7 +1391,7 @@
 			}]
 		}
 		{
-			x: 12.5d
+			x: 8.0d
 			y: 29.75d
 			dependencies: ["3441111B8198CC9D"]
 			id: "3892F7C2CF403F2F"
@@ -1424,7 +1402,7 @@
 			}]
 		}
 		{
-			x: 10.0d
+			x: 8.5d
 			y: 34.75d
 			subtitle: "Casings are blocks used for crafting, and for aesthetic purposes"
 			dependencies: ["3441111B8198CC9D"]
@@ -1437,8 +1415,8 @@
 		}
 		{
 			title: "Manual Kinetic Sources"
-			x: 12.5d
-			y: 34.25d
+			x: 13.5d
+			y: 33.5d
 			dependencies: ["15267232FEECB502"]
 			id: "5A15F4F1EFF567AC"
 			tasks: [
@@ -1456,7 +1434,7 @@
 		}
 		{
 			x: 14.5d
-			y: 38.25d
+			y: 36.75d
 			shape: "octagon"
 			subtitle: "Water Wheel is a source of rotational power"
 			description: [
@@ -1468,7 +1446,7 @@
 				""
 				"To maximize the output from a Water Wheel, have water flowing in the right direction around as much of the wheel as possible."
 			]
-			dependencies: ["11A2855528E45430"]
+			dependencies: ["2F49F6F25A774A85"]
 			id: "54EA65146A735963"
 			tasks: [{
 				id: "559960DB3A96954B"
@@ -1479,7 +1457,7 @@
 		}
 		{
 			x: 14.5d
-			y: 42.25d
+			y: 40.75d
 			shape: "octagon"
 			subtitle: "The Encased Fan is a mechanical component that can create air streams and generate power."
 			description: [
@@ -1507,7 +1485,7 @@
 			title: "Windmill"
 			icon: "create:propeller"
 			x: 14.5d
-			y: 40.25d
+			y: 38.75d
 			shape: "octagon"
 			subtitle: "It is composed of a Windmill Bearing and Sails"
 			description: [
@@ -1541,7 +1519,7 @@
 		{
 			icon: "create:furnace_engine"
 			x: 12.5d
-			y: 42.25d
+			y: 40.75d
 			shape: "octagon"
 			subtitle: "Furnace Engine can be used to generate Rotational Force when a furnace burns"
 			description: [
@@ -1569,8 +1547,8 @@
 			]
 		}
 		{
-			x: 22.25d
-			y: 34.25d
+			x: 18.5d
+			y: 34.75d
 			dependencies: ["761BAE3E76AB71A3"]
 			id: "2A83D8FCCCFE217C"
 			tasks: [{
@@ -1580,42 +1558,9 @@
 			}]
 		}
 		{
-			title: "Mechanical Crafters"
-			icon: "create:mechanical_crafter"
-			x: 38.75d
-			y: 24.0d
-			subtitle: "Mechanical Crafters are machines that can automatically craft items"
-			description: [
-				"Right click the front of a Mechanical Crafter with a Wrench to change the direction it sends items during crafting. The Mechanical Crafters are only connected by this path."
-				"Mechanical Crafters can be automatically filled by Funnels or Hoppers."
-				"On the back and sides of Mechanical Crafters, a Wrench can be used to connect or disconnect the inventory of two adjacent crafters. Crafters can share inventories while not participating in the same crafting recipe."
-				"Items can also be inserted or removed by hand."
-				""
-				"Each Mechanical Crafter has an internal gear that can only be powered by adjacent Mechanical Crafters or any size Cogwheel."
-				""
-				"When powered by rotational force, Mechanical Crafters will send their items to adjacent crafters."
-				"Mechanical Crafters will start crafting once every Mechanical Crafter has been filled, or when they receive a redstone signal."
-				"Mechanical Crafters are able to assemble invalid crafting recipes, but will eject the items once they are together instead of turning them into the crafting product."
-			]
-			id: "414F5E97448B5286"
-			tasks: [
-				{
-					id: "44D04FC6AB310884"
-					type: "item"
-					item: "create:mechanical_crafter"
-					count: 9L
-				}
-				{
-					id: "582B7DA6E84B6BB5"
-					type: "item"
-					item: "create:crafter_slot_cover"
-				}
-			]
-		}
-		{
 			title: "Crushing Wheels"
-			x: 24.25d
-			y: 36.25d
+			x: 20.75d
+			y: 36.75d
 			subtitle: "Crushing Wheels are the more advanced version of the Millstone"
 			description: [
 				"It applies Crushing recipes to any items inserted from the direction they are spinning away from. At 16 RPM, 1 wheel uses 128 Stress units."
@@ -1624,7 +1569,7 @@
 				""
 				"When crafting Crushing Wheels you can use any kind of stone. This includes Andesite, Diorite and Granite but does not include Cobblestone."
 			]
-			dependencies: ["61C538A3D1D40120"]
+			dependencies: ["4AC1298723D8A89A"]
 			id: "5145861F42CD2EE3"
 			tasks: [{
 				id: "362467AE97B8FB6E"
@@ -1749,7 +1694,7 @@
 		}
 		{
 			x: 14.5d
-			y: 30.25d
+			y: 32.25d
 			subtitle: "The Cogwheels are a basic mechanical component in Create that relays rotation"
 			description: [
 				"Cogwheels have three main methods of interlocking:"
@@ -1768,7 +1713,7 @@
 		}
 		{
 			x: 14.5d
-			y: 28.25d
+			y: 34.75d
 			subtitle: "The Cogwheels are a basic mechanical component in Create that relays rotation"
 			description: [
 				"Cogwheels have three main methods of interlocking:"
@@ -1786,8 +1731,8 @@
 			}]
 		}
 		{
-			x: 26.25d
-			y: 34.25d
+			x: 23.25d
+			y: 34.75d
 			subtitle: "The Electron Tube is an item that is only used in crafting recipes"
 			dependencies: [
 				"3200ACD6830758C1"
@@ -1801,8 +1746,8 @@
 			}]
 		}
 		{
-			x: 18.5d
-			y: 28.25d
+			x: 14.5d
+			y: 29.75d
 			subtitle: "The Millstone is a more basic equivalent of the Crushing Wheels, capable of applying milling recipes to any items inserted from above."
 			description: [
 				"A Millstone can be powered by a shaft from below or by a cogwheel from the side."
@@ -1874,8 +1819,8 @@
 			}]
 		}
 		{
-			x: 28.5d
-			y: 17.25d
+			x: 10.0d
+			y: 25.75d
 			subtitle: "The Brass Funnel is a block that can extract or insert items into inventories, much like the Andesite Funnel"
 			description: [
 				"Like other Brass machines, the Brass Funnel can be set to filter items. It can also output a set amount of items, as well as only input items stacked to the set amount."
@@ -1884,27 +1829,15 @@
 				""
 				"It can be turned off with redstone."
 			]
+			dependencies: [
+				"2DC5C578FAF0DC6F"
+				"01431088C1A1DBE6"
+			]
 			id: "795E53F4B8400698"
 			tasks: [{
 				id: "511C896F4C34CF69"
 				type: "item"
 				item: "create:brass_funnel"
-			}]
-		}
-		{
-			x: 34.25d
-			y: 18.0d
-			subtitle: "The Spout is a block used for filling liquid containers such as bottles or buckets, or crafting with liquids"
-			description: [
-				"The Spout can be filled with up to 1 bucket of any one liquid via Fluid Pipes. It will then spout the fluid at appropriate items that pass under it via a Conveyor Belt or Depot."
-				""
-				"The Spout has eight unique crafting recipes."
-			]
-			id: "38B65BFFA9E6BC0D"
-			tasks: [{
-				id: "3A1CC5560B4EF9C5"
-				type: "item"
-				item: "create:spout"
 			}]
 		}
 		{
@@ -2134,8 +2067,8 @@
 		}
 		{
 			title: "Polished Rose Quartz"
-			x: 26.25d
-			y: 30.25d
+			x: 23.25d
+			y: 36.75d
 			dependencies: ["1B29F8E51716D37A"]
 			id: "3200ACD6830758C1"
 			tasks: [{
@@ -2148,8 +2081,8 @@
 		{
 			title: "Rose Quartz"
 			icon: "create:rose_quartz"
-			x: 26.25d
-			y: 28.25d
+			x: 26.0d
+			y: 36.75d
 			description: [
 				"Sand Paper is a tool used solely to create Polished Rose Quartz."
 				""
@@ -3008,18 +2941,8 @@
 			}]
 		}
 		{
-			x: 32.75d
-			y: 21.0d
-			id: "55A9D9FFD7E1897C"
-			tasks: [{
-				id: "09265D19C606E715"
-				type: "item"
-				item: "create:copper_casing"
-			}]
-		}
-		{
-			x: 38.75d
-			y: 28.5d
+			x: 28.25d
+			y: 40.5d
 			id: "1D578E87A0CD5F0F"
 			tasks: [{
 				id: "0ECE7FE4919EF298"
@@ -3028,8 +2951,8 @@
 			}]
 		}
 		{
-			x: 38.75d
-			y: 30.0d
+			x: 28.25d
+			y: 42.0d
 			subtitle: "Blaze Cake is an item that can be fed to a Blaze Burner in order to make it Super-Heated"
 			description: [
 				"Blaze Cake can be used to feed the Blaze Burner, making it Super-Heated. The Blaze becomes Super-Heated for 50 seconds. It then turns into standard blaze, lasting for 205 seconds."
@@ -3046,8 +2969,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: 36.75d
+			x: 9.5d
+			y: 36.25d
 			dependencies: ["410AC414B2B492D1"]
 			id: "59BDA9C3059500F4"
 			tasks: [{
@@ -3057,8 +2980,8 @@
 			}]
 		}
 		{
-			x: 40.25d
-			y: 31.5d
+			x: 29.75d
+			y: 43.5d
 			id: "2F0356DB5A748645"
 			tasks: [{
 				id: "2DFAE0426F8B7F71"
@@ -3067,8 +2990,8 @@
 			}]
 		}
 		{
-			x: 40.25d
-			y: 30.0d
+			x: 29.75d
+			y: 42.0d
 			subtitle: "A Blaze Burner is a heating component that is required for certain Mixing recipes"
 			description: ["Blaze Burners must have Blazes in them to function. To put a Blaze in an Empty Blaze Burner, right-click on a Blaze to capture it. Alternatively, Empty Blaze Burner can be filled by clicking on a Blaze Spawner."]
 			id: "2035F6C5153C3D90"
@@ -3079,8 +3002,9 @@
 			}]
 		}
 		{
-			x: 41.75d
-			y: 27.0d
+			x: 31.25d
+			y: 39.0d
+			dependencies: ["2BA269B9CA2B23C4"]
 			id: "0256960379E8E5E5"
 			tasks: [{
 				id: "47EB7A0F6789FE81"
@@ -3089,8 +3013,8 @@
 			}]
 		}
 		{
-			x: 41.75d
-			y: 30.0d
+			x: 31.25d
+			y: 42.0d
 			id: "5DBB65C63EE5ACB3"
 			tasks: [{
 				id: "4FA2765A81432401"
@@ -3109,7 +3033,7 @@
 			}]
 		}
 		{
-			x: 28.0d
+			x: 42.5d
 			y: 36.5d
 			subtitle: "The Schematicannon is required for building a loaded and positioned Schematic"
 			description: [
@@ -3135,7 +3059,7 @@
 			}]
 		}
 		{
-			x: 28.0d
+			x: 42.5d
 			y: 38.5d
 			id: "26F44F9DA212A42C"
 			tasks: [{
@@ -3151,7 +3075,7 @@
 			}]
 		}
 		{
-			x: 28.0d
+			x: 42.5d
 			y: 37.5d
 			subtitle: "Using the Schematic module you can load Structures and bring them into the world"
 			description: [
@@ -3179,8 +3103,8 @@
 		{
 			title: "&#B5A642Brass&r"
 			icon: "create:crushed_brass"
-			x: 19.75d
-			y: 41.5d
+			x: 20.75d
+			y: 39.0d
 			shape: "diamond"
 			description: [
 				"To obtain &#B5A642Brass&r, there is several methods."
@@ -3189,7 +3113,7 @@
 				""
 				"&o(Just need to complete one of the following four quests to unlock the sequel)&r"
 			]
-			hide_dependency_lines: true
+			dependencies: ["5145861F42CD2EE3"]
 			id: "6F9BF9D7BCEFD22C"
 			tasks: [{
 				id: "60A371F89A8F52C1"
@@ -3198,7 +3122,7 @@
 			}]
 		}
 		{
-			x: 28.0d
+			x: 42.5d
 			y: 40.5d
 			subtitle: "A Mechanical Belt is a mechanical component that conveys rotation and moves items and entities"
 			description: [
@@ -3216,7 +3140,7 @@
 			}]
 		}
 		{
-			x: 28.0d
+			x: 42.5d
 			y: 41.5d
 			subtitle: "Engineer's Goggles are a wearable item that allow the user to see more details about placed machines"
 			description: ["The Engineer's Goggles will show the stress impact of the viewed machine while it is running. They will also give numbers and highlight the current rotation when looking at a Stressometer or Speedometer,. Additionally, they show how much fluid is in a tank along with the total storage capacity of the tank."]
@@ -3228,7 +3152,7 @@
 			}]
 		}
 		{
-			x: 28.0d
+			x: 42.5d
 			y: 42.5d
 			id: "03342471D77CB940"
 			tasks: [{
@@ -3238,7 +3162,7 @@
 			}]
 		}
 		{
-			x: 29.0d
+			x: 43.5d
 			y: 35.5d
 			subtitle: "reward de quêtes"
 			description: ["reward de quêtes"]
@@ -3250,7 +3174,7 @@
 			}]
 		}
 		{
-			x: 29.0d
+			x: 43.5d
 			y: 36.5d
 			subtitle: "The Gearbox is a block used to transfer Rotational power"
 			description: [
@@ -3266,8 +3190,8 @@
 			}]
 		}
 		{
-			x: 12.375d
-			y: 27.75d
+			x: 26.625d
+			y: 28.5d
 			shape: "octagon"
 			description: [
 				"The Wrench is a tool used to rotate, dismantle and configure components."
@@ -3290,7 +3214,7 @@
 			}]
 		}
 		{
-			x: 29.0d
+			x: 43.5d
 			y: 38.5d
 			subtitle: "The Clutch stops outgoing rotation when a redstone signal is applied"
 			id: "07E47447E4D025C5"
@@ -3301,7 +3225,7 @@
 			}]
 		}
 		{
-			x: 29.0d
+			x: 43.5d
 			y: 39.5d
 			subtitle: "The Gearshift reverses outgoing Rotational Force when a Redstone signal is applied"
 			id: "626EB949D0B01014"
@@ -3312,7 +3236,7 @@
 			}]
 		}
 		{
-			x: 29.0d
+			x: 43.5d
 			y: 40.5d
 			subtitle: "The Adjustable Chain Gearshift functions similarly to Encased Chain Drive, but can change the speed of the output with a redstone input"
 			description: ["With a redstone signal on the input, adjacent Gearshifts will change speed output depending on the strength of the signal, maxing out at double. With a redstone signal on an output, the speed of said output will be decreased, being halved at most."]
@@ -3324,7 +3248,7 @@
 			}]
 		}
 		{
-			x: 30.0d
+			x: 44.5d
 			y: 35.5d
 			id: "7F039EA564AA8A66"
 			tasks: [{
@@ -3334,7 +3258,7 @@
 			}]
 		}
 		{
-			x: 30.0d
+			x: 44.5d
 			y: 36.5d
 			id: "2BBC9E8C77F211B1"
 			tasks: [{
@@ -3350,8 +3274,8 @@
 			}]
 		}
 		{
-			x: 43.25d
-			y: 28.5d
+			x: 32.75d
+			y: 40.5d
 			id: "5867ADBFEC86FF10"
 			tasks: [{
 				id: "28B6E1C30BDE5700"
@@ -3360,7 +3284,7 @@
 			}]
 		}
 		{
-			x: 30.0d
+			x: 44.5d
 			y: 37.5d
 			id: "1A59668930144ABC"
 			tasks: [{
@@ -3370,8 +3294,9 @@
 			}]
 		}
 		{
-			x: 29.75d
-			y: 19.5d
+			x: 11.5d
+			y: 33.5d
+			dependencies: ["15267232FEECB502"]
 			id: "6154E930AAC3749D"
 			tasks: [{
 				id: "3AE5C6423181B938"
@@ -3380,7 +3305,7 @@
 			}]
 		}
 		{
-			x: 30.0d
+			x: 44.5d
 			y: 39.5d
 			id: "71C2369608E64696"
 			tasks: [{
@@ -3396,7 +3321,7 @@
 			}]
 		}
 		{
-			x: 30.0d
+			x: 44.5d
 			y: 40.5d
 			id: "72CA8D7EF4F83D8E"
 			tasks: [{
@@ -3412,7 +3337,7 @@
 			}]
 		}
 		{
-			x: 30.0d
+			x: 44.5d
 			y: 41.5d
 			id: "7B1054C2ADFC5B40"
 			tasks: [{
@@ -3422,7 +3347,7 @@
 			}]
 		}
 		{
-			x: 31.0d
+			x: 45.5d
 			y: 35.5d
 			id: "12D5C48C2494E47A"
 			tasks: [{
@@ -3432,7 +3357,7 @@
 			}]
 		}
 		{
-			x: 31.0d
+			x: 45.5d
 			y: 36.5d
 			id: "4F04559DEBF55E9C"
 			tasks: [{
@@ -3448,7 +3373,7 @@
 			}]
 		}
 		{
-			x: 31.0d
+			x: 45.5d
 			y: 37.5d
 			id: "580DBDE5FE2AE12B"
 			tasks: [{
@@ -3503,42 +3428,7 @@
 			]
 		}
 		{
-			x: 32.75d
-			y: 17.0d
-			subtitle: "Fluid Vavles may be opened and closed"
-			description: ["The best way to do this is to using a Valve Handle."]
-			id: "7761A7BC1A8122FC"
-			tasks: [
-				{
-					id: "6B075F0842B3D89F"
-					type: "item"
-					item: "create:fluid_valve"
-				}
-				{
-					id: "13E1C0E702DFFA7A"
-					type: "item"
-					item: "create:copper_valve_handle"
-				}
-			]
-		}
-		{
-			x: 31.5d
-			y: 17.0d
-			subtitle: "The Hose Pulley lets down a hose that can drain bodies of liquids"
-			description: [
-				"When Rotational Force is given to the Hose Pully, it can extend the hose infinitely. A Fluid Pump is required for the hose to drain liquids. It will drain a body of liquid down to the level of the hose."
-				""
-				"If a liquid source is at least 10,000 blocks, the Hose Pulley considers it to be infinite, drawing the liquid from it without actually draining the source."
-			]
-			id: "2E2E78E5CFC5745B"
-			tasks: [{
-				id: "35A57AFD1908C22C"
-				type: "item"
-				item: "create:hose_pulley"
-			}]
-		}
-		{
-			x: 32.0d
+			x: 46.5d
 			y: 35.5d
 			subtitle: "Mechanical Piston is a piston that can extend multiple blocks when powered with Rotational power"
 			description: [
@@ -3556,7 +3446,7 @@
 			}]
 		}
 		{
-			x: 32.0d
+			x: 46.5d
 			y: 36.5d
 			id: "3BA0D13E37642DCD"
 			tasks: [{
@@ -3566,7 +3456,7 @@
 			}]
 		}
 		{
-			x: 32.0d
+			x: 46.5d
 			y: 37.5d
 			id: "74E716CB804FE56A"
 			tasks: [{
@@ -3576,7 +3466,7 @@
 			}]
 		}
 		{
-			x: 32.0d
+			x: 46.5d
 			y: 38.5d
 			id: "494A7A9323593162"
 			tasks: [{
@@ -3586,7 +3476,7 @@
 			}]
 		}
 		{
-			x: 33.0d
+			x: 47.5d
 			y: 35.5d
 			subtitle: "Mechanical Bearing is meant to create and rotate moving structures"
 			description: [
@@ -3604,7 +3494,7 @@
 			}]
 		}
 		{
-			x: 33.0d
+			x: 47.5d
 			y: 36.5d
 			id: "509076E25B2A00B0"
 			tasks: [{
@@ -3614,7 +3504,7 @@
 			}]
 		}
 		{
-			x: 33.0d
+			x: 47.5d
 			y: 37.5d
 			subtitle: "The Rope Pulley functions much like a Mechanical Piston, but in only one direction and without the need for Piston Extension Poles"
 			description: [
@@ -3630,7 +3520,7 @@
 			}]
 		}
 		{
-			x: 33.0d
+			x: 47.5d
 			y: 38.5d
 			subtitle: "Cart Assembler can attach a structure to carts that pass through it when supplied with a redstone signal"
 			description: ["Using a Wrench, the Cart Assembler can be configured to set the movement of cart contraptions to \"Always face toward motion (default,)\" \"Pause actors while rotating,\" and \"Lock Rotation.\" On the second setting, actors such as a Deployer will not work while the cart rotates. On the third setting, the contraption will not change alignment along with the cart, and will retain the same rotation from when it was built, much like the effect of a Mechanical Bearing on a cart contraption."]
@@ -3642,7 +3532,7 @@
 			}]
 		}
 		{
-			x: 33.0d
+			x: 47.5d
 			y: 39.5d
 			id: "22F467CDC9D71956"
 			tasks: [{
@@ -3652,7 +3542,7 @@
 			}]
 		}
 		{
-			x: 33.0d
+			x: 47.5d
 			y: 40.5d
 			id: "23F1D63DE3B8F27E"
 			tasks: [{
@@ -3662,7 +3552,7 @@
 			}]
 		}
 		{
-			x: 33.0d
+			x: 47.5d
 			y: 41.5d
 			id: "54EF04ADC7591651"
 			tasks: [{
@@ -3672,7 +3562,7 @@
 			}]
 		}
 		{
-			x: 33.0d
+			x: 47.5d
 			y: 42.5d
 			id: "40273A60D45881D8"
 			tasks: [{
@@ -3682,7 +3572,7 @@
 			}]
 		}
 		{
-			x: 34.0d
+			x: 48.5d
 			y: 35.5d
 			id: "79075B969CB17460"
 			tasks: [{
@@ -3692,8 +3582,8 @@
 			}]
 		}
 		{
-			x: 43.25d
-			y: 27.0d
+			x: 32.75d
+			y: 39.0d
 			id: "63BFABD722A4669D"
 			tasks: [{
 				id: "7ECE70A7E951171D"
@@ -3702,8 +3592,8 @@
 			}]
 		}
 		{
-			x: 43.25d
-			y: 30.0d
+			x: 32.75d
+			y: 42.0d
 			id: "0B22AA6F5904F596"
 			tasks: [{
 				id: "618E6DB96C256317"
@@ -3712,7 +3602,7 @@
 			}]
 		}
 		{
-			x: 34.0d
+			x: 48.5d
 			y: 36.5d
 			id: "68441C5CC1C29014"
 			tasks: [{
@@ -3722,7 +3612,7 @@
 			}]
 		}
 		{
-			x: 34.0d
+			x: 48.5d
 			y: 37.5d
 			id: "2346BDAF02BFE0BD"
 			tasks: [{
@@ -3732,7 +3622,7 @@
 			}]
 		}
 		{
-			x: 34.0d
+			x: 48.5d
 			y: 38.5d
 			subtitle: "The Brass Tunnel is a machine that can only be placed on Mechanical Belts. It can sort items that pass through"
 			description: [
@@ -3750,7 +3640,7 @@
 			}]
 		}
 		{
-			x: 35.0d
+			x: 49.5d
 			y: 38.5d
 			id: "0608E200E343600D"
 			tasks: [{
@@ -3923,8 +3813,8 @@
 			]
 		}
 		{
-			x: 38.75d
-			y: 27.0d
+			x: 28.25d
+			y: 39.0d
 			id: "6655D45AE2E7044B"
 			tasks: [{
 				id: "6B5B3DA545FA3004"
@@ -3933,8 +3823,8 @@
 			}]
 		}
 		{
-			x: 40.25d
-			y: 28.5d
+			x: 29.75d
+			y: 40.5d
 			id: "2A0681422D07EFB2"
 			tasks: [{
 				id: "0992F4FB21DE9141"
@@ -3947,8 +3837,8 @@
 			}]
 		}
 		{
-			x: 40.25d
-			y: 27.0d
+			x: 29.75d
+			y: 39.0d
 			id: "1EDD62473733AE7D"
 			tasks: [{
 				id: "1CBD5B4BD28B28C0"
@@ -3976,8 +3866,8 @@
 		}
 		{
 			title: "&lCrafting Table&r Method Step 1"
-			x: 21.25d
-			y: 40.0d
+			x: 20.75d
+			y: 43.25d
 			description: ["Combine 3 &#B87333Copper Dusts&r with a &#BAC4C8Zinc Dust&r in a &lCrafting Table&r."]
 			min_required_dependencies: 2
 			dependencies: ["6F9BF9D7BCEFD22C"]
@@ -3999,8 +3889,8 @@
 		{
 			title: "&oTinkers' Construct&r Method"
 			icon: "tconstruct:molten_brass_bucket"
-			x: 22.0d
-			y: 41.0d
+			x: 23.25d
+			y: 39.0d
 			description: [
 				"Combine &#B87333Molten Copper&r and &#BAC4C8Molten Zinc&r in a &oTinkers' Construct&r &l&#383433Smeltery&r or &l&#3E3029Scorched Alloyer&r. They will mix and form &#B5A642Molten Brass&r. Then cast it for obtain Ingots, Nuggets, Blocks,...."
 				""
@@ -4018,8 +3908,8 @@
 		{
 			title: "&lMechanical Mixer&r and Ingots Method"
 			icon: "create:mechanical_mixer"
-			x: 22.0d
-			y: 42.0d
+			x: 20.75d
+			y: 41.25d
 			description: ["Combine &#B87333Copper Ingot&r and &#BAC4C8Zinc Ingot&r in a &oCreate&r &lMechanical Mixer&r and &lBasin&r (&4Heated&r). They will mix and form &#B5A642Brass Ingots&r."]
 			dependencies: ["6F9BF9D7BCEFD22C"]
 			id: "36498F5EA504C9EC"
@@ -4038,8 +3928,8 @@
 		}
 		{
 			title: "&lMechanical Mixer&r and Crushed Ores Method Step 1"
-			x: 21.25d
-			y: 43.0d
+			x: 18.5d
+			y: 39.0d
 			description: ["Combine &#B87333Crushed Copper Ore&r and &#BAC4C8Crushed Zinc Ore&r in a &oCreate&r &lMechanical Mixer&r and &lBasin&r (&4Heated&r). They will mix and form &#B5A642Crushed Brass&r."]
 			dependencies: ["6F9BF9D7BCEFD22C"]
 			id: "517089AD8357DF4A"
@@ -4058,8 +3948,8 @@
 		}
 		{
 			title: "&lCrafting Table&r Method Step 2"
-			x: 22.75d
-			y: 40.0d
+			x: 23.25d
+			y: 43.25d
 			description: ["Then smelt the obtained &#B5A642Brass Dust&r, and you will get &#B5A642Brass Ingots&r."]
 			dependencies: ["6A428E93D0EC6C7F"]
 			id: "4535FD31815F0C12"
@@ -4073,8 +3963,8 @@
 		}
 		{
 			title: "&lMechanical Mixer&r and Crushed Ores Method Step 2"
-			x: 22.75d
-			y: 43.0d
+			x: 18.5d
+			y: 41.25d
 			description: [
 				"Then smelt it, and you will get &#B5A642Brass Ingots&r."
 				"You can also bulk wash it with &lEncased Fan&r behind &#2389DAFlowing Water&r for obtain 10 &#B5A642Brass Nuggets&r and 50% chance 5 &#B5A642Brass Nuggets&r more."
@@ -4090,8 +3980,8 @@
 			}]
 		}
 		{
-			x: 24.25d
-			y: 41.5d
+			x: 23.25d
+			y: 41.25d
 			dependencies: [
 				"4535FD31815F0C12"
 				"6F88D749C9F64C24"
@@ -4109,8 +3999,8 @@
 		}
 		{
 			title: "&#B5A642Brass Nuggets&r"
-			x: 24.25d
-			y: 43.0d
+			x: 18.5d
+			y: 43.25d
 			dependencies: ["501C9D5943ED96BA"]
 			id: "3672A2B3165F31E7"
 			tasks: [{
@@ -4121,7 +4011,7 @@
 			}]
 		}
 		{
-			x: 31.0d
+			x: 45.5d
 			y: 38.5d
 			id: "798CA97E83BF9470"
 			tasks: [{
@@ -4131,8 +4021,8 @@
 			}]
 		}
 		{
-			x: 38.75d
-			y: 31.5d
+			x: 28.25d
+			y: 43.5d
 			subtitle: "A potion that restores half a hunger point and grants the drinker haste for 3 minutes"
 			description: [
 				"Put any Leaves, 250mb Water, and 250mb Milk in a heated Mechanical Mixer. Then, put the liquid in a bottle with a Spout."
@@ -4144,51 +4034,6 @@
 				id: "0A3B577EE1D955A0"
 				type: "item"
 				item: "create:builders_tea"
-			}]
-		}
-		{
-			title: "Fluid Pipes"
-			x: 31.5d
-			y: 18.25d
-			subtitle: "Fluid Pipes are blocks used to transport and deal with fluids"
-			description: [
-				"Fluid Pipes require Fluid Pumps to move liquid. Fluid Pumps have a maximum range of 16 blocks around them."
-				""
-				"Fluid Pipes can only move one liquid at a time; if different liquids intersect, the pipe will clog."
-				""
-				"Fluid Pipes can be adjacent without connecting if they have been made transparent with a Wrench or have a Wooden or Metal Bracket."
-				""
-				"Fluid Valves can be given Rotational power to toggle a flow."
-			]
-			id: "4DE959F751FEAD41"
-			tasks: [{
-				id: "35C6C3A14E8222B8"
-				type: "item"
-				item: "create:fluid_pipe"
-				count: 8L
-			}]
-		}
-		{
-			x: 32.75d
-			y: 18.25d
-			subtitle: "Mechanical Pump can be used as a actual pump"
-			description: ["The faster rotational speed it have inputted (using a small/large cogwheel), it can pump faster."]
-			id: "381BE620D1AAB494"
-			tasks: [{
-				id: "72A9E7CAB4F4CE85"
-				type: "item"
-				item: "create:mechanical_pump"
-			}]
-		}
-		{
-			x: 29.75d
-			y: 17.0d
-			subtitle: "Smart Pipes can allow only a certain liquid to pass through them"
-			id: "2E6EE3042834745E"
-			tasks: [{
-				id: "3726172F570EC884"
-				type: "item"
-				item: "create:smart_fluid_pipe"
 			}]
 		}
 		{
@@ -4271,8 +4116,9 @@
 			}]
 		}
 		{
-			x: 34.25d
-			y: 21.0d
+			x: 23.25d
+			y: 29.75d
+			dependencies: ["5C545750FEB2314B"]
 			id: "401C6FCF6B415D37"
 			tasks: [{
 				id: "4DDFA8E885CD8AB1"
@@ -4302,7 +4148,7 @@
 			}]
 		}
 		{
-			x: 28.0d
+			x: 42.5d
 			y: 35.5d
 			id: "1028FFAB4A1B1C19"
 			tasks: [{
@@ -4312,22 +4158,8 @@
 			}]
 		}
 		{
-			x: 24.25d
-			y: 34.25d
-			dependencies: [
-				"2A83D8FCCCFE217C"
-				"670997C9468093DE"
-			]
-			id: "61C538A3D1D40120"
-			tasks: [{
-				id: "02A49405D70C409B"
-				type: "item"
-				item: "create:mechanical_crafter"
-			}]
-		}
-		{
-			x: 22.25d
-			y: 30.25d
+			x: 18.5d
+			y: 29.75d
 			dependencies: ["761BAE3E76AB71A3"]
 			id: "5D4588A88350465A"
 			tasks: [{
@@ -4337,8 +4169,8 @@
 			}]
 		}
 		{
-			x: 24.25d
-			y: 30.25d
+			x: 20.75d
+			y: 29.75d
 			dependencies: ["761BAE3E76AB71A3"]
 			id: "352EA74AD16F49E8"
 			tasks: [{
@@ -4348,9 +4180,9 @@
 			}]
 		}
 		{
-			x: 27.25d
-			y: 21.75d
-			dependencies: ["06216D01B02A12D5"]
+			x: 7.5d
+			y: 36.25d
+			dependencies: ["410AC414B2B492D1"]
 			id: "52E31E10D59896AB"
 			tasks: [{
 				id: "6C35D6A51040C40F"
@@ -4359,9 +4191,9 @@
 			}]
 		}
 		{
-			x: 28.0d
-			y: 22.75d
-			dependencies: ["06216D01B02A12D5"]
+			x: 14.5d
+			y: 27.75d
+			dependencies: ["50B9AEC7812CEE92"]
 			id: "2A0D3EC703C11417"
 			tasks: [{
 				id: "0E767C27DD4FC3D2"
@@ -4370,9 +4202,9 @@
 			}]
 		}
 		{
-			x: 26.5d
-			y: 22.75d
-			dependencies: ["06216D01B02A12D5"]
+			x: 16.5d
+			y: 34.75d
+			dependencies: ["2F49F6F25A774A85"]
 			id: "5E66DCF074424BCA"
 			tasks: [{
 				id: "792AEA2267B29637"
@@ -4381,26 +4213,9 @@
 			}]
 		}
 		{
-			x: 27.25d
-			y: 24.0d
-			id: "06216D01B02A12D5"
-			tasks: [
-				{
-					id: "56D00C8E1F749D01"
-					type: "item"
-					item: "create:large_cogwheel"
-				}
-				{
-					id: "5416826B88D460FC"
-					type: "item"
-					item: "create:cogwheel"
-				}
-			]
-		}
-		{
-			x: 25.5d
-			y: 24.0d
-			dependencies: ["06216D01B02A12D5"]
+			x: 16.5d
+			y: 36.75d
+			dependencies: ["2F49F6F25A774A85"]
 			id: "3CB97D52E4BD139C"
 			tasks: [{
 				id: "231643D351236F65"
@@ -4409,11 +4224,11 @@
 			}]
 		}
 		{
-			x: 27.25d
-			y: 25.75d
+			x: 16.5d
+			y: 29.75d
 			dependencies: [
-				"06216D01B02A12D5"
 				"78E7F0DE6BA873F4"
+				"50B9AEC7812CEE92"
 			]
 			id: "60BFFA37F6FC9F82"
 			tasks: [{
@@ -4423,8 +4238,9 @@
 			}]
 		}
 		{
-			x: 25.25d
-			y: 25.75d
+			x: 16.5d
+			y: 27.75d
+			dependencies: ["5D4588A88350465A"]
 			id: "78E7F0DE6BA873F4"
 			tasks: [{
 				id: "42AB285685A80302"
@@ -4433,8 +4249,9 @@
 			}]
 		}
 		{
-			x: 25.25d
-			y: 27.0d
+			x: 20.75d
+			y: 25.75d
+			dependencies: ["7CCCE060E49A883E"]
 			id: "5174E5B7DC17EF63"
 			tasks: [{
 				id: "0A2AC8B884DB6A51"
@@ -4443,8 +4260,13 @@
 			}]
 		}
 		{
-			x: 25.25d
-			y: 28.0d
+			x: 20.75d
+			y: 27.75d
+			dependencies: [
+				"08528C5E98F66E31"
+				"78E7F0DE6BA873F4"
+				"5D4588A88350465A"
+			]
 			id: "63C0CBEDE7AE7BB9"
 			tasks: [{
 				id: "66A3F39D3DE7D0A0"
@@ -4453,8 +4275,8 @@
 			}]
 		}
 		{
-			x: 27.25d
-			y: 26.75d
+			x: 16.5d
+			y: 25.75d
 			dependencies: ["78E7F0DE6BA873F4"]
 			id: "5C64EFEA020EB39B"
 			tasks: [
@@ -4478,8 +4300,12 @@
 			]
 		}
 		{
-			x: 27.25d
-			y: 27.75d
+			x: 14.5d
+			y: 25.75d
+			dependencies: [
+				"78E7F0DE6BA873F4"
+				"2DC5C578FAF0DC6F"
+			]
 			id: "12C5B7055FC7CA46"
 			tasks: [{
 				id: "7754DB2AB62EEBEF"
@@ -4488,8 +4314,9 @@
 			}]
 		}
 		{
-			x: 23.75d
+			x: 18.5d
 			y: 25.75d
+			dependencies: ["08528C5E98F66E31"]
 			id: "7CCCE060E49A883E"
 			tasks: [{
 				id: "32B8C1B6B6A8684F"
@@ -4498,8 +4325,9 @@
 			}]
 		}
 		{
-			x: 23.75d
-			y: 27.0d
+			x: 18.5d
+			y: 27.75d
+			dependencies: ["5D4588A88350465A"]
 			id: "08528C5E98F66E31"
 			tasks: [{
 				id: "0F068C4BCCFE34A7"
@@ -4508,8 +4336,8 @@
 			}]
 		}
 		{
-			x: 41.75d
-			y: 25.5d
+			x: 31.25d
+			y: 34.5d
 			id: "40F6FDDB65BEDF78"
 			tasks: [{
 				id: "7E2950F67D0D0C7B"
@@ -4581,26 +4409,93 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: 36.25d
-			dependencies: ["12A242AEF2A6FAC5"]
-			id: "11A2855528E45430"
+			x: 20.75d
+			y: 34.75d
+			dependencies: [
+				"2A83D8FCCCFE217C"
+				"670997C9468093DE"
+			]
+			id: "4AC1298723D8A89A"
+			tasks: [
+				{
+					id: "0E98F609F579C0F9"
+					type: "item"
+					item: "create:mechanical_crafter"
+				}
+				{
+					id: "374CA73D66676D2F"
+					type: "item"
+					item: "create:crafter_slot_cover"
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 34.75d
+			dependencies: [
+				"6154E930AAC3749D"
+				"410AC414B2B492D1"
+			]
+			id: "1EC46AF7B5B9E241"
 			tasks: [{
-				id: "125F7B7AD5A82E31"
+				id: "77F18898F8997197"
 				type: "item"
-				item: "create:large_cogwheel"
+				item: "create:depot"
 			}]
 		}
 		{
-			x: 14.5d
-			y: 34.25d
-			dependencies: ["15267232FEECB502"]
-			id: "12A242AEF2A6FAC5"
+			x: 18.5d
+			y: 36.75d
+			dependencies: ["2A83D8FCCCFE217C"]
+			id: "14139F64C7AD91B6"
 			tasks: [{
-				id: "4CD2C15BEA26CD36"
+				id: "104B9ECBFEF3672C"
 				type: "item"
-				item: "create:cogwheel"
+				item: "create:mechanical_arm"
 			}]
+		}
+		{
+			x: 12.0d
+			y: 29.75d
+			dependencies: ["3441111B8198CC9D"]
+			id: "722021815FA40379"
+			tasks: [{
+				id: "7A8CCA6797B84922"
+				type: "item"
+				item: "create:andesite_tunnel"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 27.75d
+			dependencies: [
+				"722021815FA40379"
+				"2DC5C578FAF0DC6F"
+			]
+			id: "552B6184FAA0D57B"
+			tasks: [{
+				id: "3EF41B0754FEA66A"
+				type: "item"
+				item: "create:brass_tunnel"
+			}]
+		}
+		{
+			x: 31.25d
+			y: 37.75d
+			dependencies: ["6C902F1FE4656987"]
+			id: "2BA269B9CA2B23C4"
+			tasks: [
+				{
+					id: "0A16DAFB4D65FA2A"
+					type: "dimension"
+					dimension: "minecraft:the_end"
+				}
+				{
+					id: "35E0759D6F1DEDD6"
+					type: "checkmark"
+					title: "Done"
+				}
+			]
 		}
 	]
 }
