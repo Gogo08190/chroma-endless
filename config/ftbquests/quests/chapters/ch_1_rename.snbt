@@ -1,7 +1,7 @@
 {
 	id: "41A98485D836A236"
 	group: "34085A64296DE6C7"
-	order_index: 0
+	order_index: 1
 	filename: "ch_1_rename"
 	title: "Ch. 1 (rename)"
 	icon: "minecraft:crafting_table"
@@ -79,7 +79,6 @@
 			]
 		}
 		{
-			title: "Crafting Table"
 			x: 0.0d
 			y: 0.0d
 			shape: "square"
@@ -93,13 +92,15 @@
 			tasks: [{
 				id: "59AD33D92E98AE40"
 				type: "item"
-				title: "Crafting Table"
+				title: "&#806517Crafting Table&r"
 				item: "minecraft:crafting_table"
 			}]
 		}
 		{
+			title: "&#806517Handled Crafting Table&r"
 			x: -2.75d
 			y: 0.0d
+			shape: "square"
 			subtitle: "Store your crafting table in your pocket."
 			dependencies: ["1C7C41C2FA427B8F"]
 			id: "73370785D28A26F0"
@@ -154,8 +155,10 @@
 			title: "Tetra Workbench"
 			x: 2.0d
 			y: 8.75d
+			shape: "square"
 			description: ["Right click with Tetra's Hammer on Crafting Table."]
 			dependencies: ["7A3D3399611B2809"]
+			size: 1.5d
 			id: "32DB90A8A43D1F3C"
 			tasks: [{
 				id: "31EBDD2B18A28C44"
@@ -268,22 +271,22 @@
 		}
 		{
 			title: "To Ch. 2 (rename)"
-			x: 60.0d
-			y: 32.0d
+			icon: {
+				id: "immersiveengineering:hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 26.25d
+			y: 26.25d
 			shape: "gear"
+			dependencies: [
+				"2F7EB9DBC6CE7522"
+				"3EE564D2D7642605"
+			]
 			size: 8.0d
 			id: "12F51EE93A420344"
-			tasks: [{
-				id: "08F3A49752FE1FA3"
-				type: "item"
-				item: {
-					id: "immersiveengineering:hammer"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 		}
 		{
 			title: "Tinkers' Construct / Tetra"
@@ -316,7 +319,9 @@
 			title: "Tinker's Stations"
 			x: -1.5d
 			y: 6.75d
+			shape: "square"
 			dependencies: ["4CA0051417A86918"]
+			size: 1.5d
 			id: "1E198C450382D37F"
 			tasks: [
 				{
@@ -811,7 +816,7 @@
 		{
 			title: "&#61666ANether Quartz&r"
 			x: -2.25d
-			y: 40.25d
+			y: 41.0d
 			shape: "pentagon"
 			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "0A5605FD0BE42BAF"
@@ -914,7 +919,7 @@
 		{
 			title: "&#61666ACobalt&r"
 			x: -2.25d
-			y: 42.25d
+			y: 43.0d
 			shape: "pentagon"
 			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "1599025DD921CA80"
@@ -966,11 +971,13 @@
 		}
 		{
 			x: 0.0d
-			y: 20.5d
+			y: 20.75d
+			shape: "square"
 			dependencies: [
 				"1A641FA1C6E549DB"
 				"0BF43EA3825CC0BA"
 			]
+			size: 1.5d
 			id: "60E0E583C1CBCE56"
 			tasks: [{
 				id: "0AEE69AB984906DD"
@@ -979,8 +986,9 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 20.5d
+			x: -2.25d
+			y: 20.75d
+			shape: "square"
 			subtitle: "Fast Food like &#D52B1EMcDonald's®&r"
 			description: ["A Smoker works like a Furnace, but only cooks food and run twice as fast."]
 			dependencies: ["60E0E583C1CBCE56"]
@@ -1001,7 +1009,7 @@
 				}
 			}
 			x: 0.0d
-			y: 32.3125d
+			y: 33.0625d
 			shape: "square"
 			dependencies: ["52157E7FBFE05315"]
 			size: 2.75d
@@ -1055,7 +1063,7 @@
 		{
 			title: "Seared Bricks"
 			x: 0.0d
-			y: 25.0d
+			y: 25.25d
 			shape: "gear"
 			dependencies: [
 				"60E0E583C1CBCE56"
@@ -1081,7 +1089,7 @@
 				}
 			}
 			x: 2.75d
-			y: 38.5d
+			y: 39.25d
 			shape: "square"
 			dependencies: ["11525ED89B361FB8"]
 			size: 2.75d
@@ -1130,7 +1138,7 @@
 		{
 			title: "Scorched Bricks"
 			x: 2.75d
-			y: 41.25d
+			y: 42.0d
 			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "11525ED89B361FB8"
 			tasks: [{
@@ -1142,12 +1150,14 @@
 			}]
 		}
 		{
-			x: 4.75d
-			y: 30.25d
+			x: 5.0d
+			y: 31.0d
+			shape: "square"
 			dependencies: [
 				"2AE06ADF534ADDEC"
 				"30C07DD7980BEC2B"
 			]
+			size: 1.5d
 			id: "6FE5CBD8A8FF0431"
 			tasks: [{
 				id: "239ECC5B5FF55428"
@@ -1205,7 +1215,7 @@
 				}
 			}
 			x: 0.0d
-			y: 41.25d
+			y: 42.0d
 			shape: "rsquare"
 			dependencies: [
 				"6770AB2A85C49A63"
@@ -1230,7 +1240,7 @@
 		{
 			title: "Flint and _____"
 			x: 0.0d
-			y: 37.0d
+			y: 37.75d
 			dependencies: ["3F047B28738897A0"]
 			id: "6770AB2A85C49A63"
 			tasks: [{
@@ -1250,7 +1260,7 @@
 			title: "Gold Cast"
 			icon: "tconstruct:blank_cast"
 			x: 0.0d
-			y: 35.0d
+			y: 35.75d
 			dependencies: ["4FF742939987793B"]
 			id: "3F047B28738897A0"
 			tasks: [{
@@ -1274,7 +1284,7 @@
 		{
 			title: "&#B9F2FFObsidian&r"
 			x: 0.0d
-			y: 39.0d
+			y: 39.75d
 			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -1314,8 +1324,9 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 22.5d
+			x: -2.25d
+			y: 22.75d
+			shape: "square"
 			subtitle: "Fast Ore like...well...nothing I think"
 			description: ["A Blast Furnace works like a Furnace, but only cooks ores (and other specifics things) and run twice as fast."]
 			dependencies: [
@@ -1393,7 +1404,10 @@
 		{
 			x: 8.0d
 			y: 29.75d
-			dependencies: ["3441111B8198CC9D"]
+			dependencies: [
+				"3441111B8198CC9D"
+				"720842180A6EFB2B"
+			]
 			id: "3892F7C2CF403F2F"
 			tasks: [{
 				id: "3A27361DAF1A7B08"
@@ -1402,8 +1416,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 34.75d
+			x: 10.0d
+			y: 36.25d
 			subtitle: "Casings are blocks used for crafting, and for aesthetic purposes"
 			dependencies: ["3441111B8198CC9D"]
 			id: "410AC414B2B492D1"
@@ -1416,7 +1430,8 @@
 		{
 			title: "Manual Kinetic Sources"
 			x: 13.5d
-			y: 33.5d
+			y: 34.25d
+			shape: "octagon"
 			dependencies: ["15267232FEECB502"]
 			id: "5A15F4F1EFF567AC"
 			tasks: [
@@ -1581,6 +1596,7 @@
 		{
 			x: -2.5d
 			y: 3.25d
+			shape: "square"
 			dependencies: ["4CA0051417A86918"]
 			id: "219744BBC14D2451"
 			tasks: [{
@@ -1610,7 +1626,7 @@
 		}
 		{
 			x: -2.0d
-			y: 35.0d
+			y: 35.75d
 			dependencies: [
 				"3F047B28738897A0"
 				"1195924B8477153E"
@@ -1625,8 +1641,10 @@
 		{
 			icon: "tconstruct:seared_melter"
 			x: 0.0d
-			y: 29.5d
+			y: 30.0d
+			shape: "square"
 			dependencies: ["5B8F2CFF9902433F"]
+			size: 1.5d
 			id: "52157E7FBFE05315"
 			tasks: [
 				{
@@ -1785,9 +1803,11 @@
 				""
 				"Chutes can be right clicked with a Wrench to be given windows."
 			]
+			min_required_dependencies: 2
 			dependencies: [
 				"3441111B8198CC9D"
 				"62D0F17BF463D8EC"
+				"250B3DF7EF1694AE"
 			]
 			id: "7370F4A279D30FA7"
 			tasks: [{
@@ -2118,7 +2138,7 @@
 		{
 			title: "&#B9F2FFAncient Debris&r"
 			x: -2.25d
-			y: 41.25d
+			y: 42.0d
 			shape: "pentagon"
 			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "739CDA0F590031A0"
@@ -2131,7 +2151,7 @@
 		{
 			title: "&dPiggybackpack&r"
 			x: 4.75d
-			y: 34.25d
+			y: 35.0d
 			dependencies: ["2B867BAFE6E5AACB"]
 			id: "52E9C3B4FDF846D2"
 			tasks: [{
@@ -2142,7 +2162,7 @@
 		}
 		{
 			x: 0.0d
-			y: 43.5d
+			y: 44.25d
 			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "359039A14143712B"
 			tasks: [{
@@ -2153,7 +2173,7 @@
 		}
 		{
 			x: 0.0d
-			y: 45.5d
+			y: 46.25d
 			dependencies: ["359039A14143712B"]
 			id: "7E649617C4BF0894"
 			tasks: [{
@@ -2167,7 +2187,7 @@
 			icon: "tconstruct:earth_earth_slime_grass"
 			disable_toast: true
 			x: 4.5d
-			y: 23.0d
+			y: 23.25d
 			description: ["Find one of the four &2Tinkers' Construct Slime Islands&r."]
 			hide_dependency_lines: true
 			dependencies: ["5818D79835BC71DA"]
@@ -2262,26 +2282,26 @@
 			]
 		}
 		{
-			title: "&#D5A372Tinkers' Construct Clay Island&r"
+			title: "&7Tinkers' Construct Clay Island&r"
 			x: 2.5d
-			y: 23.0d
+			y: 23.25d
 			dependencies: ["56E33A3A0C9966C3"]
 			optional: true
 			id: "3378D54ED18FC564"
 			tasks: [{
 				id: "2BD62C616FCB49F9"
 				type: "advancement"
-				title: "Find &#D5A372Clay Island&r"
+				title: "Find &7Clay Island&r"
 				icon: "minecraft:grass_block"
 				advancement: "tconstruct:world/clay_island"
 				criterion: ""
 			}]
 		}
 		{
-			title: "&#D5A372Clay&r, &#C2B280Sand&r \\& &#909BA3Gravel&r for &7Grout&r"
+			title: "&7Clay&r, &#C2B280Sand&r \\& &#909BA3Gravel&r for &7Grout&r"
 			icon: "tconstruct:grout"
 			x: 2.5d
-			y: 25.0d
+			y: 25.25d
 			dependencies: [
 				"3378D54ED18FC564"
 				"56E33A3A0C9966C3"
@@ -2292,18 +2312,21 @@
 				{
 					id: "69D93E0629AF5C10"
 					type: "item"
+					title: "16x &7Clay&r"
 					item: "minecraft:clay"
 					count: 16L
 				}
 				{
 					id: "0329A34A4A84F74A"
 					type: "item"
+					title: "64x &#C2B280Sand&r"
 					item: "minecraft:sand"
 					count: 64L
 				}
 				{
 					id: "104193E87E7EB0A7"
 					type: "item"
+					title: "64x &#909BA3Gravel&r"
 					item: "minecraft:gravel"
 					count: 64L
 				}
@@ -2313,7 +2336,7 @@
 			title: "&2Slime&r"
 			icon: "minecraft:slime_block"
 			x: 4.5d
-			y: 25.0d
+			y: 25.25d
 			dependencies: ["34314A6F16C3D15F"]
 			id: "4866C5C9EF6794DA"
 			tasks: [
@@ -2386,7 +2409,7 @@
 		{
 			title: "&3Skyslime Sling&r"
 			x: 6.5d
-			y: 24.0d
+			y: 24.25d
 			description: ["Wear &5Slimeboots&r to avoid fall damage and bounce to go further."]
 			dependencies: ["4866C5C9EF6794DA"]
 			id: "6F2127A61F96A0B0"
@@ -2405,7 +2428,7 @@
 		{
 			title: "&cIchor Sling&r"
 			x: 6.5d
-			y: 25.0d
+			y: 25.25d
 			dependencies: ["4866C5C9EF6794DA"]
 			id: "6993FCB31CDB5910"
 			tasks: [{
@@ -2423,7 +2446,7 @@
 		{
 			title: "&5Enderslime Sling&r"
 			x: 6.5d
-			y: 26.0d
+			y: 26.25d
 			dependencies: ["4866C5C9EF6794DA"]
 			id: "700B9D0280FFF1DA"
 			tasks: [{
@@ -2441,7 +2464,7 @@
 		{
 			title: "&2Slime Sling&r"
 			x: 6.5d
-			y: 23.0d
+			y: 23.25d
 			description: ["Wear &5Slimeboots&r to avoid fall damage and bounce to go further."]
 			dependencies: ["4866C5C9EF6794DA"]
 			id: "5A594CD811A2ADFB"
@@ -2485,7 +2508,7 @@
 			title: "Alternatives to Seared Bricks"
 			icon: "tconstruct:seared_glass"
 			x: -2.75d
-			y: 32.25d
+			y: 33.0d
 			description: [
 				"You can use these blocks replacing the Seared Bricks in the Smeltery."
 				"They can also used as decoration."
@@ -2540,7 +2563,7 @@
 			title: "Decorative Seared blocks"
 			icon: "tconstruct:seared_glass_pane"
 			x: -2.75d
-			y: 30.25d
+			y: 31.0d
 			description: ["These blocks can used as decoration, but NOT as a replacement of Seared Bricks in the Smeltery."]
 			dependencies: ["59BEB656F387591D"]
 			optional: true
@@ -2607,7 +2630,7 @@
 			title: "Alternatives to Scorched Bricks"
 			icon: "tconstruct:scorched_glass"
 			x: 5.5d
-			y: 38.5d
+			y: 39.25d
 			description: [
 				"You can use these blocks replacing the Scorched Bricks in the Foundry."
 				"They can also used as decoration."
@@ -2652,7 +2675,7 @@
 			title: "Decorative Scorched blocks"
 			icon: "tconstruct:scorched_glass_pane"
 			x: 5.5d
-			y: 40.5d
+			y: 41.25d
 			description: ["These blocks can used as decoration, but NOT as a replacement of Scorched Bricks in the Foundry."]
 			dependencies: ["667A9CA631F41AF2"]
 			optional: true
@@ -2692,7 +2715,7 @@
 		}
 		{
 			x: -4.75d
-			y: 32.25d
+			y: 33.0d
 			dependencies: [
 				"24FB616B8D0A3D50"
 				"59BEB656F387591D"
@@ -2707,7 +2730,7 @@
 		}
 		{
 			x: -4.75d
-			y: 30.25d
+			y: 31.0d
 			dependencies: [
 				"24FB616B8D0A3D50"
 				"10A681804E6DAC4E"
@@ -2722,7 +2745,7 @@
 		}
 		{
 			x: -4.75d
-			y: 28.25d
+			y: 29.0d
 			dependencies: [
 				"24FB616B8D0A3D50"
 				"6A16A114B17C2C46"
@@ -2737,7 +2760,7 @@
 		}
 		{
 			x: -2.75d
-			y: 28.25d
+			y: 29.0d
 			dependencies: [
 				"24FB616B8D0A3D50"
 				"1EBD3772CE7EB54E"
@@ -2752,7 +2775,7 @@
 		}
 		{
 			x: -2.75d
-			y: 26.25d
+			y: 27.0d
 			dependencies: [
 				"24FB616B8D0A3D50"
 				"0835044722D233E5"
@@ -2767,7 +2790,7 @@
 		}
 		{
 			x: 7.5d
-			y: 38.5d
+			y: 39.25d
 			dependencies: [
 				"3886A8B4A5FA3CE1"
 				"667A9CA631F41AF2"
@@ -2782,7 +2805,7 @@
 		}
 		{
 			x: 7.5d
-			y: 40.5d
+			y: 41.25d
 			dependencies: [
 				"3886A8B4A5FA3CE1"
 				"7F6EDBDC585DC024"
@@ -2797,7 +2820,7 @@
 		}
 		{
 			x: 7.5d
-			y: 42.5d
+			y: 43.25d
 			dependencies: [
 				"3886A8B4A5FA3CE1"
 				"7F5CC2E6BCE2516A"
@@ -2812,7 +2835,7 @@
 		}
 		{
 			x: 5.5d
-			y: 42.5d
+			y: 43.25d
 			dependencies: [
 				"3886A8B4A5FA3CE1"
 				"29E0E777AE4E3751"
@@ -2827,7 +2850,7 @@
 		}
 		{
 			x: 5.5d
-			y: 44.5d
+			y: 45.25d
 			dependencies: [
 				"3886A8B4A5FA3CE1"
 				"46D4A8F6AF52A228"
@@ -2843,8 +2866,10 @@
 		{
 			icon: "tconstruct:scorched_alloyer"
 			x: 2.75d
-			y: 45.5d
+			y: 46.25d
+			shape: "square"
 			dependencies: ["13D4E1A361C32E93"]
+			size: 1.5d
 			id: "19507D1E11AAF241"
 			tasks: [
 				{
@@ -2877,7 +2902,7 @@
 		{
 			title: "Scorched Ingot \\& Fuel Gauge"
 			x: 2.75d
-			y: 43.25d
+			y: 44.0d
 			description: [
 				"Scorched Ingot ..."
 				"Scorched Fuel..."
@@ -2905,7 +2930,7 @@
 		{
 			title: "Seared Ingot \\& Fuel Gauge"
 			x: 0.0d
-			y: 27.5d
+			y: 27.75d
 			description: [
 				"Seared Ingot ..."
 				"Seared Fuel ..."
@@ -2969,8 +2994,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 36.25d
+			x: 12.0d
+			y: 38.25d
 			dependencies: ["410AC414B2B492D1"]
 			id: "59BDA9C3059500F4"
 			tasks: [{
@@ -3104,7 +3129,7 @@
 			title: "&#B5A642Brass&r"
 			icon: "create:crushed_brass"
 			x: 20.75d
-			y: 39.0d
+			y: 38.75d
 			shape: "diamond"
 			description: [
 				"To obtain &#B5A642Brass&r, there is several methods."
@@ -3122,8 +3147,8 @@
 			}]
 		}
 		{
-			x: 42.5d
-			y: 40.5d
+			x: 26.25d
+			y: 32.25d
 			subtitle: "A Mechanical Belt is a mechanical component that conveys rotation and moves items and entities"
 			description: [
 				"Placing a Belt requires two Shafts. Place the Belt by right-clicking on the first shaft and then right clicking the second. Both shafts must face the same direction. A mechanical belt can be up to 20 blocks long."
@@ -3190,8 +3215,8 @@
 			}]
 		}
 		{
-			x: 26.625d
-			y: 28.5d
+			x: 19.5d
+			y: 23.25d
 			shape: "octagon"
 			description: [
 				"The Wrench is a tool used to rotate, dismantle and configure components."
@@ -3295,7 +3320,7 @@
 		}
 		{
 			x: 11.5d
-			y: 33.5d
+			y: 34.25d
 			dependencies: ["15267232FEECB502"]
 			id: "6154E930AAC3749D"
 			tasks: [{
@@ -3866,8 +3891,8 @@
 		}
 		{
 			title: "&lCrafting Table&r Method Step 1"
-			x: 20.75d
-			y: 43.25d
+			x: 19.5d
+			y: 40.25d
 			description: ["Combine 3 &#B87333Copper Dusts&r with a &#BAC4C8Zinc Dust&r in a &lCrafting Table&r."]
 			min_required_dependencies: 2
 			dependencies: ["6F9BF9D7BCEFD22C"]
@@ -3889,10 +3914,10 @@
 		{
 			title: "&oTinkers' Construct&r Method"
 			icon: "tconstruct:molten_brass_bucket"
-			x: 23.25d
-			y: 39.0d
+			x: 20.25d
+			y: 41.0d
 			description: [
-				"Combine &#B87333Molten Copper&r and &#BAC4C8Molten Zinc&r in a &oTinkers' Construct&r &l&#383433Smeltery&r or &l&#3E3029Scorched Alloyer&r. They will mix and form &#B5A642Molten Brass&r. Then cast it for obtain Ingots, Nuggets, Blocks,...."
+				"Combine &#B87333Molten Copper&r and &#BAC4C8Molten Zinc&r in a &oTinkers' Construct&r's &l&#383433Smeltery&r or &l&#3E3029Scorched Alloyer&r. They will mix and form &#B5A642Molten Brass&r. Then cast it for obtain Ingots, Nuggets, Blocks,...."
 				""
 				"Check this when done."
 			]
@@ -3908,9 +3933,9 @@
 		{
 			title: "&lMechanical Mixer&r and Ingots Method"
 			icon: "create:mechanical_mixer"
-			x: 20.75d
-			y: 41.25d
-			description: ["Combine &#B87333Copper Ingot&r and &#BAC4C8Zinc Ingot&r in a &oCreate&r &lMechanical Mixer&r and &lBasin&r (&4Heated&r). They will mix and form &#B5A642Brass Ingots&r."]
+			x: 21.25d
+			y: 41.0d
+			description: ["Combine &#B87333Copper Ingot&r and &#BAC4C8Zinc Ingot&r in a &oCreate&r's &lMechanical Mixer&r and &lBasin&r (&4Heated&r). They will mix and form &#B5A642Brass Ingots&r."]
 			dependencies: ["6F9BF9D7BCEFD22C"]
 			id: "36498F5EA504C9EC"
 			tasks: [
@@ -3928,9 +3953,9 @@
 		}
 		{
 			title: "&lMechanical Mixer&r and Crushed Ores Method Step 1"
-			x: 18.5d
-			y: 39.0d
-			description: ["Combine &#B87333Crushed Copper Ore&r and &#BAC4C8Crushed Zinc Ore&r in a &oCreate&r &lMechanical Mixer&r and &lBasin&r (&4Heated&r). They will mix and form &#B5A642Crushed Brass&r."]
+			x: 22.0d
+			y: 40.25d
+			description: ["Combine &#B87333Crushed Copper Ore&r and &#BAC4C8Crushed Zinc Ore&r in a &oCreate&r's &lMechanical Mixer&r and &lBasin&r (&4Heated&r). They will mix and form &#B5A642Crushed Brass&r."]
 			dependencies: ["6F9BF9D7BCEFD22C"]
 			id: "517089AD8357DF4A"
 			tasks: [
@@ -3948,8 +3973,8 @@
 		}
 		{
 			title: "&lCrafting Table&r Method Step 2"
-			x: 23.25d
-			y: 43.25d
+			x: 19.5d
+			y: 41.75d
 			description: ["Then smelt the obtained &#B5A642Brass Dust&r, and you will get &#B5A642Brass Ingots&r."]
 			dependencies: ["6A428E93D0EC6C7F"]
 			id: "4535FD31815F0C12"
@@ -3963,8 +3988,8 @@
 		}
 		{
 			title: "&lMechanical Mixer&r and Crushed Ores Method Step 2"
-			x: 18.5d
-			y: 41.25d
+			x: 22.0d
+			y: 41.75d
 			description: [
 				"Then smelt it, and you will get &#B5A642Brass Ingots&r."
 				"You can also bulk wash it with &lEncased Fan&r behind &#2389DAFlowing Water&r for obtain 10 &#B5A642Brass Nuggets&r and 50% chance 5 &#B5A642Brass Nuggets&r more."
@@ -3980,8 +4005,8 @@
 			}]
 		}
 		{
-			x: 23.25d
-			y: 41.25d
+			x: 20.75d
+			y: 43.25d
 			dependencies: [
 				"4535FD31815F0C12"
 				"6F88D749C9F64C24"
@@ -3999,7 +4024,7 @@
 		}
 		{
 			title: "&#B5A642Brass Nuggets&r"
-			x: 18.5d
+			x: 22.0d
 			y: 43.25d
 			dependencies: ["501C9D5943ED96BA"]
 			id: "3672A2B3165F31E7"
@@ -4180,8 +4205,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 36.25d
+			x: 10.0d
+			y: 38.25d
 			dependencies: ["410AC414B2B492D1"]
 			id: "52E31E10D59896AB"
 			tasks: [{
@@ -4348,7 +4373,7 @@
 		{
 			title: "Tinker's Bronze"
 			x: 2.75d
-			y: 30.25d
+			y: 31.0d
 			dependencies: ["4FF742939987793B"]
 			id: "2AE06ADF534ADDEC"
 			tasks: [{
@@ -4360,9 +4385,11 @@
 			}]
 		}
 		{
-			x: 4.75d
-			y: 28.25d
+			x: 5.0d
+			y: 28.5d
+			shape: "square"
 			dependencies: ["6A82E78F5A86DE03"]
+			size: 1.5d
 			id: "30C07DD7980BEC2B"
 			tasks: [{
 				id: "3446BC472BC8BE77"
@@ -4372,7 +4399,7 @@
 		}
 		{
 			x: 2.75d
-			y: 28.25d
+			y: 28.5d
 			hide_dependency_lines: true
 			dependencies: ["1C7C41C2FA427B8F"]
 			id: "6A82E78F5A86DE03"
@@ -4384,7 +4411,7 @@
 		}
 		{
 			x: 2.75d
-			y: 34.25d
+			y: 35.0d
 			dependencies: [
 				"4FF742939987793B"
 				"720842180A6EFB2B"
@@ -4430,8 +4457,8 @@
 			]
 		}
 		{
-			x: 10.5d
-			y: 34.75d
+			x: 12.0d
+			y: 36.25d
 			dependencies: [
 				"6154E930AAC3749D"
 				"410AC414B2B492D1"

@@ -78,8 +78,8 @@
 			}]
 		}
 		{
-			x: -11.0d
-			y: 7.25d
+			x: -29.25d
+			y: 17.25d
 			id: "56FF868139410EDB"
 			tasks: [{
 				id: "2A0D6B500B1DA123"
@@ -88,44 +88,31 @@
 			}]
 		}
 		{
-			title: "immersive"
-			x: -15.0d
-			y: -1.75d
-			id: "756F3C3A6F621926"
-			tasks: [{
-				id: "66887ADBB0C0034A"
-				type: "item"
-				item: {
-					id: "immersiveengineering:hammer"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
 			title: "Let's start some weird magic"
-			icon: {
-				id: "occultism:book_of_binding_bound_djinni"
-				Count: 1b
-				tag: {
-					spiritName: "Mjolmeees"
-				}
-			}
 			x: 3.5d
-			y: -2.0d
-			subtitle: "Dark Magic"
+			y: 0.0d
+			subtitle: "&4&kDark&r&l&0Dark Magic&r&k&4Magic&r"
+			description: [
+				"&1The fate of Mankind&r has not always been very bright. Over the years people have tried to be what they could not."
+				"Many men thought they could tame the true power of &l&0Dark Magic&r, but they were too weak"
+				"Because of this weakness, they decided to forbid this magic."
+				"For centuries, some people tried to learn this magic, but none of them had the &6true potential&r. "
+				"One day, and old mage named &5KliKli&r found some old books about this magic and decided to use it for a good cause, but unfortunately he could not finish his works and before his death, he decided to give his knowledge to his heir: You! "
+				""
+				"Thanks to the power of &4Nature&r and the old mage's works, you will be able to resurrect this power and thus carry the Dark Magic's Legacy"
+			]
+			dependencies: ["4E84E8ADA1739E71"]
+			min_width: 400
 			id: "3A5569B8FB3C4F7B"
 			tasks: [{
-				id: "75F7397B2B01BB2A"
-				type: "checkmark"
-				title: "Unlocked the Occultism chapter"
+				id: "74682588D39C2D2B"
+				type: "item"
+				item: "occultism:dictionary_of_spirits"
 			}]
 		}
 		{
 			title: "pretty pipes"
-			x: -25.0d
+			x: -40.25d
 			y: -1.75d
 			id: "00C417167BA42837"
 			tasks: [{
@@ -135,38 +122,43 @@
 			}]
 		}
 		{
-			x: -12.0d
-			y: -0.75d
+			x: -23.25d
+			y: 13.75d
 			id: "185B58BD59C2FF12"
 			tasks: [{
 				id: "7B15010A3A392C3F"
 				type: "item"
+				title: "&#61666ALV Capacitor&r"
 				item: "immersiveengineering:capacitor_lv"
 			}]
 		}
 		{
-			x: -12.0d
-			y: 0.25d
+			x: -23.25d
+			y: 14.75d
+			dependencies: ["185B58BD59C2FF12"]
 			id: "70F5AF04E8762BF7"
 			tasks: [{
 				id: "63784B6D488BD8BE"
 				type: "item"
+				title: "&#E0BFB8MV Capacitor&r"
 				item: "immersiveengineering:capacitor_mv"
 			}]
 		}
 		{
-			x: -12.0d
-			y: 1.25d
+			x: -23.25d
+			y: 15.75d
+			dependencies: ["70F5AF04E8762BF7"]
 			id: "1B8563C8225EED2E"
 			tasks: [{
 				id: "1FB633E696E09992"
 				type: "item"
+				title: "&#F2E279HV Capacitor&r"
 				item: "immersiveengineering:capacitor_hv"
 			}]
 		}
 		{
-			x: -16.0d
-			y: -0.75d
+			x: -31.25d
+			y: 22.25d
 			id: "1ADD7F8A69F0DDEC"
 			tasks: [{
 				id: "06B144762AF26903"
@@ -175,8 +167,8 @@
 			}]
 		}
 		{
-			x: -15.0d
-			y: -0.75d
+			x: -30.25d
+			y: 22.25d
 			id: "2898DFCF9A94A69A"
 			tasks: [{
 				id: "4C83EC9764C17803"
@@ -185,8 +177,8 @@
 			}]
 		}
 		{
-			x: -14.0d
-			y: -0.75d
+			x: -29.25d
+			y: 22.25d
 			id: "6CC61903F9C3E3AC"
 			tasks: [{
 				id: "11D0076AD5605D0D"
@@ -195,8 +187,8 @@
 			}]
 		}
 		{
-			x: -13.0d
-			y: -0.75d
+			x: -28.25d
+			y: 22.25d
 			id: "7F0E63115FBF18A2"
 			tasks: [{
 				id: "59BE5AED2341D692"
@@ -205,8 +197,8 @@
 			}]
 		}
 		{
-			x: -16.0d
-			y: 0.25d
+			x: -31.25d
+			y: 23.25d
 			id: "078BA9404F53C139"
 			tasks: [{
 				id: "250CE4894E7C4DE6"
@@ -215,8 +207,8 @@
 			}]
 		}
 		{
-			x: -15.0d
-			y: 0.25d
+			x: -30.25d
+			y: 23.25d
 			id: "0C34859220EB00E5"
 			tasks: [{
 				id: "0A4B87BCFB7163D8"
@@ -225,8 +217,8 @@
 			}]
 		}
 		{
-			x: -14.0d
-			y: 0.25d
+			x: -29.25d
+			y: 23.25d
 			id: "6855D71567156BA5"
 			tasks: [{
 				id: "5AFD4167FAD0D8F7"
@@ -235,8 +227,8 @@
 			}]
 		}
 		{
-			x: -13.0d
-			y: 0.25d
+			x: -28.25d
+			y: 23.25d
 			id: "256E5A66F63670D0"
 			tasks: [{
 				id: "7F1A2C88C261217A"
@@ -245,8 +237,8 @@
 			}]
 		}
 		{
-			x: -16.0d
-			y: 1.25d
+			x: -31.25d
+			y: 24.25d
 			id: "1A9A897D04134052"
 			tasks: [{
 				id: "3506BB1701C10F85"
@@ -255,8 +247,8 @@
 			}]
 		}
 		{
-			x: -15.0d
-			y: 1.25d
+			x: -30.25d
+			y: 24.25d
 			id: "70AAACB1DD2AB8E1"
 			tasks: [{
 				id: "207AD7EFBEDCA255"
@@ -265,8 +257,8 @@
 			}]
 		}
 		{
-			x: -14.0d
-			y: 1.25d
+			x: -29.25d
+			y: 24.25d
 			id: "118E476162B63D7A"
 			tasks: [{
 				id: "338376D22ED9DDB4"
@@ -275,8 +267,8 @@
 			}]
 		}
 		{
-			x: -13.0d
-			y: 1.25d
+			x: -28.25d
+			y: 24.25d
 			id: "3C9FD69469154A28"
 			tasks: [{
 				id: "22F993A9919E4F9F"
@@ -285,8 +277,8 @@
 			}]
 		}
 		{
-			x: -14.0d
-			y: -1.75d
+			x: -29.25d
+			y: 21.25d
 			id: "79778D4EEF712D00"
 			tasks: [{
 				id: "493069AA37E324EA"
@@ -295,8 +287,8 @@
 			}]
 		}
 		{
-			x: -13.0d
-			y: -1.75d
+			x: -28.25d
+			y: 20.25d
 			id: "59DEC4906200FF62"
 			tasks: [{
 				id: "36FBFE40FFA94BF0"
@@ -305,8 +297,8 @@
 			}]
 		}
 		{
-			x: -12.0d
-			y: -1.75d
+			x: -27.25d
+			y: 20.25d
 			id: "22A51ABB2060EB12"
 			tasks: [{
 				id: "3C3FFF025167A052"
@@ -315,18 +307,27 @@
 			}]
 		}
 		{
-			x: -16.0d
-			y: 2.25d
+			x: -24.0d
+			y: 9.0d
+			shape: "square"
+			subtitle: "You aren't a real engineer if you haven't that"
+			description: ["The &#482705Engineer's Workbench&r is used for crafting a lot of &oImmersive Engineering&r's items. View &oJEI&r for see all recipes with this &#482705Workbench&r."]
+			dependencies: [
+				"71295F41D2D36494"
+				"470CDE7A74BC60EB"
+			]
+			size: 1.5d
 			id: "52562D2492B5F2DA"
 			tasks: [{
 				id: "55570C4E1D4179BA"
 				type: "item"
+				title: "&#482705Engineer's Workbench&r"
 				item: "immersiveengineering:workbench"
 			}]
 		}
 		{
-			x: -15.0d
-			y: 2.25d
+			x: -30.25d
+			y: 17.25d
 			id: "04CA21A228AFD723"
 			tasks: [{
 				id: "4FAB0F1241A4D95C"
@@ -335,8 +336,8 @@
 			}]
 		}
 		{
-			x: -14.0d
-			y: 2.25d
+			x: -29.25d
+			y: 18.25d
 			id: "3BD8CABE67939143"
 			tasks: [{
 				id: "77A533668F6E7DDE"
@@ -345,18 +346,22 @@
 			}]
 		}
 		{
-			x: -13.0d
-			y: 2.25d
+			x: -26.25d
+			y: 6.75d
+			subtitle: "\"Mechanic\"? I'm going to build a car?"
+			description: ["You can craft &#71797ESteel Mechanical Component&r with 4 &#71797ESteel Plates&r and a &#B87333Copper Ingot&r, but it is cheaper in the &#482705Engineer's Workbench&r; so we advise you to craft only one for the &#482705Workbench&r and after use it."]
+			dependencies: ["2CD1D3F4A706D6BF"]
 			id: "71295F41D2D36494"
 			tasks: [{
-				id: "7FC5DA9C4F2AD3C5"
+				id: "6F12B52BF15AFC39"
 				type: "item"
+				title: "&#71797ESteel Mechanical Component&r"
 				item: "immersiveengineering:component_steel"
 			}]
 		}
 		{
-			x: -12.0d
-			y: 2.25d
+			x: -27.25d
+			y: 17.25d
 			id: "553ED39D5A115D2D"
 			tasks: [{
 				id: "28680BB1279E58C3"
@@ -365,8 +370,8 @@
 			}]
 		}
 		{
-			x: -16.0d
-			y: 3.25d
+			x: -31.25d
+			y: 19.25d
 			id: "013EF1AC48991B24"
 			tasks: [{
 				id: "29FEE8A65DFA239B"
@@ -375,8 +380,8 @@
 			}]
 		}
 		{
-			x: -15.0d
-			y: 3.25d
+			x: -30.25d
+			y: 18.25d
 			id: "50B02DF11902C401"
 			tasks: [{
 				id: "4CEEBCE55E153A30"
@@ -385,8 +390,8 @@
 			}]
 		}
 		{
-			x: -14.0d
-			y: 3.25d
+			x: -29.25d
+			y: 19.25d
 			id: "3CB1BA3A2A2BCCB9"
 			tasks: [{
 				id: "17B915598C14C6E9"
@@ -395,8 +400,8 @@
 			}]
 		}
 		{
-			x: -13.0d
-			y: 3.25d
+			x: -31.25d
+			y: 18.25d
 			id: "706334A5D020943E"
 			tasks: [{
 				id: "59B22FB01FC32A0C"
@@ -405,8 +410,8 @@
 			}]
 		}
 		{
-			x: -12.0d
-			y: 3.25d
+			x: -27.25d
+			y: 18.25d
 			id: "3B60BC0C13EEDE8C"
 			tasks: [{
 				id: "48EBF4317A9B2E31"
@@ -415,8 +420,8 @@
 			}]
 		}
 		{
-			x: -11.0d
-			y: -1.75d
+			x: -27.25d
+			y: 24.25d
 			id: "1B65B79D56E3A048"
 			tasks: [{
 				id: "17F5B0AAED189FA1"
@@ -425,8 +430,8 @@
 			}]
 		}
 		{
-			x: -11.0d
-			y: -0.75d
+			x: -27.0d
+			y: 11.75d
 			id: "082742EC52214523"
 			tasks: [{
 				id: "6AE0D4B29DA3BAD0"
@@ -435,8 +440,8 @@
 			}]
 		}
 		{
-			x: -11.0d
-			y: 0.25d
+			x: -27.25d
+			y: 22.25d
 			id: "2B65CE1689BA653A"
 			tasks: [{
 				id: "7F37F6B0320BFF2B"
@@ -445,8 +450,8 @@
 			}]
 		}
 		{
-			x: -11.0d
-			y: 1.25d
+			x: -27.25d
+			y: 23.25d
 			id: "601E62FF8424E1A1"
 			tasks: [{
 				id: "4A758998D8D1EBCA"
@@ -455,8 +460,8 @@
 			}]
 		}
 		{
-			x: -11.0d
-			y: 2.25d
+			x: -28.25d
+			y: 17.25d
 			id: "27141D15A8E1F002"
 			tasks: [{
 				id: "1D06B1F39F0CFEC3"
@@ -465,38 +470,25 @@
 			}]
 		}
 		{
-			x: -11.0d
-			y: 3.25d
-			id: "2193BEB8C8F1718E"
-			tasks: [{
-				id: "023B4FA21ACD8FFD"
-				type: "item"
-				item: "immersiveengineering:treated_wood_horizontal"
-			}]
-		}
-		{
-			x: -15.0d
-			y: 5.25d
+			x: -30.25d
+			y: 7.75d
+			description: ["Craft &#B87333Copper Sheetmetal&r with &oCreate&r's &lCompacting&r."]
+			dependencies: [
+				"410DE957C60A9106"
+				"761BAE3E76AB71A3"
+				"3892F7C2CF403F2F"
+			]
 			id: "2F571C765B55CFEE"
 			tasks: [{
 				id: "69B8835302C8B686"
 				type: "item"
+				title: "&#B87333Copper Sheetmetal&r"
 				item: "immersiveengineering:sheetmetal_copper"
 			}]
 		}
 		{
-			x: -15.0d
-			y: 4.25d
-			id: "6551B7ACC38AACB3"
-			tasks: [{
-				id: "5A21AECF552C3057"
-				type: "item"
-				item: "immersiveengineering:sheetmetal_aluminum"
-			}]
-		}
-		{
-			x: -14.0d
-			y: 4.25d
+			x: -30.25d
+			y: 21.25d
 			id: "7E58478C1F9C67A7"
 			tasks: [{
 				id: "3E427B67E7302099"
@@ -505,48 +497,43 @@
 			}]
 		}
 		{
-			x: -13.0d
-			y: 4.25d
+			x: -30.25d
+			y: 8.75d
+			description: ["Craft &#F2E279Electrum Sheetmetal&r with &oCreate&r's &lCompacting&r."]
+			dependencies: [
+				"049DFE4A3A6B520D"
+				"761BAE3E76AB71A3"
+				"3892F7C2CF403F2F"
+			]
 			id: "16589D17952203BD"
 			tasks: [{
 				id: "7DC51B2455381D44"
 				type: "item"
+				title: "&#F2E279Electrum Sheetmetal&r"
 				item: "immersiveengineering:sheetmetal_electrum"
 			}]
 		}
 		{
-			x: -12.0d
-			y: 4.25d
+			x: -26.25d
+			y: 7.75d
+			subtitle: "Sheets, but in steel"
+			description: ["Craft &#71797ESteel Sheetmetal&r with &oCreate&r's &lCompacting&r."]
+			dependencies: [
+				"2CD1D3F4A706D6BF"
+				"761BAE3E76AB71A3"
+				"3892F7C2CF403F2F"
+			]
 			id: "5E6932FE693B1BAA"
 			tasks: [{
 				id: "6835288E08C68089"
 				type: "item"
+				title: "&#71797ESteel Sheetmetal&r"
 				item: "immersiveengineering:sheetmetal_steel"
 			}]
 		}
 		{
-			x: -16.0d
-			y: 4.25d
-			id: "4921D5F7313BB341"
-			tasks: [{
-				id: "61A0CDCE10D4DE79"
-				type: "item"
-				item: "immersiveengineering:sheetmetal_iron"
-			}]
-		}
-		{
-			x: -16.0d
-			y: 5.25d
-			id: "3F6CE10477899951"
-			tasks: [{
-				id: "334D3FC6BA299A27"
-				type: "item"
-				item: "immersiveengineering:sheetmetal_gold"
-			}]
-		}
-		{
-			x: -14.0d
-			y: 5.25d
+			x: -27.25d
+			y: 21.25d
 			id: "7A91C9AE13816E4A"
 			tasks: [{
 				id: "2BCAADD154EECEB2"
@@ -555,18 +542,18 @@
 			}]
 		}
 		{
-			x: -13.0d
-			y: 5.25d
+			x: -28.25d
+			y: 21.25d
 			id: "7D4D07CB73448796"
 			tasks: [{
 				id: "4B1C12D79F664255"
 				type: "item"
-				item: "immersiveengineering:steel_scaffolding_grate_top"
+				item: "immersiveengineering:steel_scaffolding_standard"
 			}]
 		}
 		{
-			x: -12.0d
-			y: 5.25d
+			x: -27.25d
+			y: 19.25d
 			id: "552FA47ECA2FE4B3"
 			tasks: [{
 				id: "0093AB5A2EDAC060"
@@ -575,18 +562,23 @@
 			}]
 		}
 		{
-			x: -11.0d
-			y: 5.25d
+			x: -17.75d
+			y: 9.5d
+			dependencies: [
+				"489C740C46074BBD"
+				"3F2517D21A84261C"
+			]
 			id: "4A018BBC2F5AD675"
 			tasks: [{
 				id: "7AE8CA444FAC0082"
 				type: "item"
+				title: "&#F2E279Electrum Coil Block&r"
 				item: "immersiveengineering:coil_mv"
 			}]
 		}
 		{
-			x: -12.0d
-			y: 6.25d
+			x: -26.0d
+			y: 12.75d
 			id: "1A89F0C5AAA08291"
 			tasks: [{
 				id: "4A2208E85012E24D"
@@ -595,8 +587,8 @@
 			}]
 		}
 		{
-			x: -15.0d
-			y: 6.25d
+			x: -30.25d
+			y: 19.25d
 			id: "4935B96CAA69323D"
 			tasks: [{
 				id: "3F76BACA35CB89D9"
@@ -605,8 +597,8 @@
 			}]
 		}
 		{
-			x: -14.0d
-			y: 6.25d
+			x: -29.25d
+			y: 20.25d
 			id: "54EE45F128BA91C3"
 			tasks: [{
 				id: "3616FBC5B6B804A5"
@@ -615,8 +607,8 @@
 			}]
 		}
 		{
-			x: -11.0d
-			y: 4.25d
+			x: -28.25d
+			y: 19.25d
 			id: "1E8173F7872D8D24"
 			tasks: [{
 				id: "568D2EFBB87AAD6E"
@@ -625,8 +617,8 @@
 			}]
 		}
 		{
-			x: -11.0d
-			y: 6.25d
+			x: -28.25d
+			y: 18.25d
 			id: "62EE24B8F491D351"
 			tasks: [{
 				id: "17D51E5AD8C69C10"
@@ -635,8 +627,8 @@
 			}]
 		}
 		{
-			x: -16.0d
-			y: 6.25d
+			x: -31.25d
+			y: 21.25d
 			id: "24EEF248EEAD4E80"
 			tasks: [{
 				id: "1EFE17200F4BFDB4"
@@ -645,8 +637,8 @@
 			}]
 		}
 		{
-			x: -13.0d
-			y: 6.25d
+			x: -25.0d
+			y: 11.75d
 			id: "320127170E52E903"
 			tasks: [{
 				id: "48EF3B5BAC41DEF7"
@@ -655,8 +647,8 @@
 			}]
 		}
 		{
-			x: -16.0d
-			y: 7.25d
+			x: -24.0d
+			y: 11.75d
 			id: "27101AAB36E02A4F"
 			tasks: [{
 				id: "732537254674AA71"
@@ -665,13 +657,17 @@
 			}]
 		}
 		{
-			x: -21.5d
-			y: 0.25d
+			title: "&#71797EImproved &#422117Blast Furnace&r"
+			x: -19.75d
+			y: 4.75d
+			shape: "square"
+			dependencies: ["26D4D4A9798EB323"]
+			size: 2.75d
 			id: "75CED07646EE8601"
 			tasks: [{
 				id: "09ECF765A8D0B7A5"
 				type: "observation"
-				title: "Improved Blast Furnace"
+				title: "Observe &#71797EImproved &#422117Blast Furnace&r"
 				icon: "immersiveengineering:advanced_blast_furnace"
 				timer: 0L
 				observe_type: 0
@@ -679,15 +675,28 @@
 			}]
 		}
 		{
-			title: "Alloy Kiln"
-			icon: "immersiveengineering:alloy_smelter"
-			x: -21.5d
-			y: -0.75d
+			title: "&#D5A372Alloy Kiln&r"
+			x: -37.0d
+			y: 9.75d
+			shape: "square"
+			description: [
+				"Mix &#C2B280Sandstone&r and &#D5A372Molten Clay&r in a &oCreate&r's &lMechanical Mixer&r and &lBasin&r for obtain &#D5A372Kiln Brick&r."
+				"Repeat the operation &n8 times&r, and create a &n2x2x2 structure&r with the &#D5A372Kiln Bricks&r."
+				"Now &nright click&r on the structure with an &6Engineer's Hammer&r for form an &#D5A372Alloy Kiln&r."
+				""
+				"&oJust look at the &#D5A372Alloy Kiln&r to validate the quest.&r"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"34AB0AFA85B55B89"
+				"184D1F6FEC794C70"
+			]
+			size: 2.75d
 			id: "44C7274EBBBFA24B"
 			tasks: [{
 				id: "1D5D17000B59A18C"
 				type: "observation"
-				title: "Alloy Kiln"
+				title: "Observe &#D5A372Alloy Kiln&r"
 				icon: "immersiveengineering:alloy_smelter"
 				timer: 30L
 				observe_type: 0
@@ -695,15 +704,28 @@
 			}]
 		}
 		{
-			title: "Crude Blast Furnace"
-			icon: "immersiveengineering:blast_furnace"
-			x: -20.5d
-			y: -0.75d
+			title: "&#422117Crude Blast Furnace&r"
+			x: -28.25d
+			y: 2.0d
+			shape: "square"
+			subtitle: "Steeled multiblock"
+			description: [
+				"Mix &7Grout&r, &#EE7B06Magma Block&r and &#422117Nether Brick&r in a &oCreate&r's &lMechanical Mixer&r and &lBasin&r (&3Super-Heated&r) for obtain &#422117Blast Brick&r."
+				"Repeat the operation &n27 times&r, and create a &n3x3x3 structure&r with the &#422117Blast Brick&r."
+				"Now &nright click&r on the structure with an &6Engineer's Hammer&r for form a &l&#422117Crude Blast Furnace&r."
+				""
+				"&oJust look at the &#422117Crude Blast Furnace&f to validate the quest.&r"
+			]
+			dependencies: [
+				"34AB0AFA85B55B89"
+				"184D1F6FEC794C70"
+			]
+			size: 2.75d
 			id: "70885C4B9975D97D"
 			tasks: [{
 				id: "27D545D44E4D430D"
 				type: "observation"
-				title: "Crude Blast Furnace"
+				title: "Observe &#422117Crude Blast Furnace&r"
 				icon: "immersiveengineering:blast_furnace"
 				timer: 0L
 				observe_type: 0
@@ -711,8 +733,8 @@
 			}]
 		}
 		{
-			x: -16.0d
-			y: -1.75d
+			x: -31.25d
+			y: 20.25d
 			id: "4984B2A5DDE4FEF7"
 			tasks: [{
 				id: "1B26386189309AC2"
@@ -727,46 +749,97 @@
 			}]
 		}
 		{
-			x: -16.0d
-			y: -2.75d
+			x: -30.25d
+			y: -0.75d
+			subtitle: "Everything you need to know is in there"
+			description: ["The &6Engineer's Manual&r is like an in-game wiki. Just right click with it in your hand and you will learn a lot about &oImmersive&r."]
+			dependencies: [
+				"3A8134BD03B1E6B6"
+				"3FFF595F4FAC7B2B"
+			]
 			id: "34AB0AFA85B55B89"
 			tasks: [{
 				id: "577923E345CA12E5"
 				type: "item"
+				title: "&6Engineer's Manual&r"
 				item: "immersiveengineering:manual"
 			}]
 		}
 		{
-			title: "Metal Press"
+			title: "&8Metal Press&r"
 			icon: "immersiveengineering:metal_press"
-			x: -20.5d
-			y: 5.25d
+			x: -28.25d
+			y: 7.75d
+			shape: "square"
+			subtitle: "Sss... BAM!"
 			description: [
-				"Piston 1x"
-				"Steel Scaffolding 2x"
-				"Redstone Engineering Block 1x"
-				"Heavy Engineering Block 1x"
-				"Conveyor Belt 2x"
+				"The &8Metal Press&r is used for transform metals into differents forms with molds."
+				""
+				"Display a preview with your &6Projector&r, and place this blocks:"
+				" - &#71797ESteel Scaffoldings&r 2x"
+				" - &4Redstone Engineering Block&r 1x"
+				" - &6Conveyor Belts&r 2x"
+				" - Piston 1x"
+				" - &#71797EHeavy Engineering Block&r 1x"
+				""
+				"Finally, right click with an &6Engineer's Hammer&r on the piston, and the multiblock will form."
 			]
-			hide_dependency_lines: true
+			dependencies: [
+				"54DC8317D4B7A510"
+				"71295F41D2D36494"
+				"5E6932FE693B1BAA"
+				"793A201C5DDEAA9E"
+				"147DA28F357CCFAE"
+				"2F571C765B55CFEE"
+				"16589D17952203BD"
+			]
+			size: 2.75d
 			id: "19862EE31DFDDAB0"
-			tasks: [{
-				id: "2A50E0B3EACA2123"
-				type: "observation"
-				icon: {
-					id: "immersiveengineering:metal_press"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "72A599A6ADD2FEFC"
+					type: "item"
+					item: "minecraft:piston"
 				}
-				timer: 30L
-				observe_type: 0
-				to_observe: "immersiveengineering:metal_press"
-			}]
+				{
+					id: "0F52AB3F03061943"
+					type: "item"
+					title: "&#71797ESteel Scaffolding&r"
+					item: "immersiveengineering:steel_scaffolding_standard"
+				}
+				{
+					id: "5265DAF5AA990375"
+					type: "item"
+					title: "&4Redstone Engineering Block&r"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "04639BA55581365C"
+					type: "item"
+					title: "&#71797EHeavy Engineering Block&r"
+					item: "immersiveengineering:heavy_engineering"
+				}
+				{
+					id: "10D02C316D7C6E07"
+					type: "item"
+					title: "&6Conveyor Belt&r"
+					item: "immersiveengineering:conveyor_basic"
+				}
+				{
+					id: "7713F982941BDDB9"
+					type: "observation"
+					title: "Observe &8Metal Press&r"
+					icon: "immersiveengineering:metal_press"
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:metal_press"
+				}
+			]
 		}
 		{
 			title: "Crusher"
 			icon: "immersiveengineering:crusher"
-			x: -21.5d
+			x: -36.75d
 			y: 1.25d
 			description: [
 				"Steel Scaffolding 10x"
@@ -788,7 +861,7 @@
 		{
 			title: "Sawmill"
 			icon: "immersiveengineering:sawmill"
-			x: -20.5d
+			x: -35.75d
 			y: 0.25d
 			description: [
 				"Steel Scaffolding 8x"
@@ -812,7 +885,7 @@
 		{
 			title: "Assembler"
 			icon: "immersiveengineering:assembler"
-			x: -21.5d
+			x: -36.75d
 			y: 2.25d
 			description: [
 				"Steel Scaffolding 6x"
@@ -836,7 +909,7 @@
 		{
 			title: "Industrial Fermenter"
 			icon: "immersiveengineering:fermenter"
-			x: -20.5d
+			x: -35.75d
 			y: 1.25d
 			description: [
 				"Steel Scaffolding 6x"
@@ -857,7 +930,7 @@
 		{
 			title: "Industrial Squeezer"
 			icon: "immersiveengineering:squeezer"
-			x: -20.5d
+			x: -35.75d
 			y: 2.25d
 			id: "625FD0330E1BDA54"
 			tasks: [{
@@ -873,7 +946,7 @@
 		{
 			title: "Refinery"
 			icon: "immersiveengineering:refinery"
-			x: -20.5d
+			x: -35.75d
 			y: 4.25d
 			id: "1C4916687AD96A77"
 			tasks: [{
@@ -889,7 +962,7 @@
 		{
 			title: "Mixer"
 			icon: "immersiveengineering:mixer"
-			x: -21.5d
+			x: -36.75d
 			y: 4.25d
 			id: "70CA1655FB8127B2"
 			tasks: [{
@@ -905,7 +978,7 @@
 		{
 			title: "Bottling Machine"
 			icon: "immersiveengineering:bottling_machine"
-			x: -20.5d
+			x: -35.75d
 			y: 3.25d
 			id: "18195DDA4F43EFCF"
 			tasks: [{
@@ -921,7 +994,7 @@
 		{
 			title: "Automated Workbench"
 			icon: "immersiveengineering:auto_workbench"
-			x: -21.5d
+			x: -36.75d
 			y: 5.25d
 			id: "5E1E836B766A4AA0"
 			tasks: [{
@@ -937,7 +1010,7 @@
 		{
 			title: "Arc Furnace"
 			icon: "immersiveengineering:arc_furnace"
-			x: -21.5d
+			x: -36.75d
 			y: 3.25d
 			id: "29A495E5307C19C8"
 			tasks: [{
@@ -951,26 +1024,48 @@
 			}]
 		}
 		{
-			x: -21.5d
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "immersiveengineering:textures/block/multiblocks/excavator.png"
+				}
+			}
+			x: -36.75d
 			y: 6.25d
 			id: "219D232C263901B6"
-			tasks: [{
-				id: "4F39023A4B0AAEC6"
-				type: "observation"
-				title: "Excavator"
-				icon: "immersiveengineering:excavator"
-				timer: 0L
-				observe_type: 0
-				to_observe: "immersiveengineering:excavator"
-			}]
+			tasks: [
+				{
+					id: "4F39023A4B0AAEC6"
+					type: "observation"
+					title: "Excavator"
+					icon: "immersiveengineering:excavator"
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:excavator"
+				}
+				{
+					id: "146AB7F0803A6928"
+					type: "observation"
+					title: "Excavator"
+					icon: "immersiveengineering:bucket_wheel"
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:bucket_wheel"
+				}
+			]
 		}
 		{
-			title: "Diabolical Seeds"
+			title: "Seeds ! Why ?"
 			x: 3.5d
-			y: -0.25d
-			subtitle: "Harvesting Demons"
-			description: ["In order to obtain those &2seeds&r, you'll have to break grass bushes."]
-			dependencies: ["3A5569B8FB3C4F7B"]
+			y: -1.75d
+			subtitle: "Who thought Demons were actually growing from seeds?"
+			description: [
+				"Powerful power nature can be."
+				"Break &2grass&r, you shall."
+				"&5Seeds&r you will obtain."
+				"       &k&0&lDemons are watching you&r"
+			]
 			id: "4E84E8ADA1739E71"
 			tasks: [{
 				id: "13C6CDB51BA5FF8B"
@@ -1613,8 +1708,8 @@
 			]
 		}
 		{
-			x: -15.0d
-			y: 7.25d
+			x: -30.25d
+			y: 20.25d
 			id: "6FC77C5EB529AB83"
 			tasks: [{
 				id: "448AAE1936254AD6"
@@ -2256,6 +2351,12 @@
 			title: "Wireless Storage"
 			x: 5.0d
 			y: 17.5d
+			subtitle: "Accessing Storage"
+			description: [
+				"The &3Storage Accessors&r are similar to the stable wormhole, but allow mobile access to the storage for players."
+				"As you might ask yourself, the &3Accessor&r is cross dimensions !"
+				"In order to bind it to your &2Storage&r a simple shift right-click will be needed."
+			]
 			dependencies: ["794D8B87D0FA7DDE"]
 			id: "65413446C0ACCB2D"
 			tasks: [{
@@ -2289,6 +2390,7 @@
 			y: 15.75d
 			description: [
 				"The &5Dimensional Storage Actuator&r consists of a &6Dimensional Matrix&r inhabited by a &2Djinni&r that creates and manages a storage dimension and a &6Base&r, infused with a &2Foliot&r that moves items in and out the storage dimension."
+				""
 				"By default, the &5Storage Actuator&r can only hold 128 types of different items or 2048 stacks approximatively. Of course that number can be upgraded with &6Dimensional Storage Upgrades&r."
 			]
 			dependencies: [
@@ -2338,7 +2440,8 @@
 			y: 14.25d
 			description: [
 				"The &6Storage Actuator Base&r imprisons a &3Foliot&r responsible for interacting with items in a &5Dimensional Storage Matrix&r."
-				"You can check the craft in JEI by left-clicking on the item."
+				""
+				"&o&7You can check the craft on JEI by left-clicking on the item."
 			]
 			hide_dependency_lines: true
 			dependencies: ["7BF5F871992F55AE"]
@@ -2354,7 +2457,8 @@
 			y: 14.25d
 			description: [
 				"The &6Dimensional Matrix&r is the entry point to a small dimension used for storing items. A &3Djinni&r bound to the matrix keeps the dimension stable, often supported by additionnal spirits in storage stabilizers, to increase the dimension size."
-				"You can check the craft on JEI by left-clicking on the item."
+				""
+				"&o&7You can check the craft on JEI by left-clicking on the item."
 			]
 			hide_dependency_lines: true
 			dependencies: ["3A99B2052AE4BAC9"]
@@ -2372,14 +2476,691 @@
 			}]
 		}
 		{
+			title: "Demons Can Autocraft?"
 			x: 2.0d
 			y: 17.5d
+			subtitle: "Demonic crafting"
 			dependencies: ["794D8B87D0FA7DDE"]
 			id: "1CDE01D11B26CD1C"
 			tasks: [{
 				id: "661E0DFB209464A8"
 				type: "checkmark"
 				title: "Autocraft"
+			}]
+		}
+		{
+			title: "Metal Press Molds"
+			x: -28.25d
+			y: 10.5d
+			dependencies: ["19862EE31DFDDAB0"]
+			id: "3F79878767A76A4C"
+			tasks: [
+				{
+					id: "306B2438E696CAAB"
+					type: "item"
+					item: "immersiveengineering:mold_plate"
+				}
+				{
+					id: "64DD3A6BF440ADC8"
+					type: "item"
+					item: "immersiveengineering:mold_gear"
+				}
+				{
+					id: "282F76143CFD5EA7"
+					type: "item"
+					item: "immersiveengineering:mold_rod"
+				}
+				{
+					id: "09359701A679FB15"
+					type: "item"
+					item: "immersiveengineering:mold_wire"
+				}
+			]
+		}
+		{
+			x: -31.25d
+			y: -2.75d
+			subtitle: "Just a boring book"
+			dependencies: ["12F51EE93A420344"]
+			id: "3A8134BD03B1E6B6"
+			tasks: [{
+				id: "64455EFD1ADC8F3B"
+				type: "item"
+				item: "minecraft:book"
+			}]
+		}
+		{
+			x: -29.25d
+			y: -2.75d
+			subtitle: "On/Off redstone"
+			dependencies: ["12F51EE93A420344"]
+			id: "3FFF595F4FAC7B2B"
+			tasks: [{
+				id: "3BAAA7AAF74568C0"
+				type: "item"
+				item: "minecraft:lever"
+			}]
+		}
+		{
+			x: -26.25d
+			y: -0.75d
+			subtitle: "Movie night?"
+			description: [
+				"The &6Projector&r shows you how to build &oImmersive&r's multiblocks. Right click with it in your hand and you will see all the available multiblocks."
+				""
+				"If you click on one, you will have a preview at the right, and buttons at the middle."
+				"The first two are for confirm the choice of the multiblock or cancel (close the menu)."
+				"The third is for mirror the projection, and the last two for change rotation."
+				""
+				"There is also some keybinds:"
+				" - &lShift&r + &lScroll&r = Rotate"
+				" - &l,&r (comma) = Mirror (Can be configured)"
+				" - &lSneak&r + &lRight Click&r = Change Mode"
+			]
+			dependencies: [
+				"56D83790E33B0765"
+				"37FC77024E5AD97C"
+			]
+			id: "184D1F6FEC794C70"
+			tasks: [{
+				id: "6E8BFBAD9A8321F5"
+				type: "item"
+				item: "immersivepetroleum:projector"
+			}]
+		}
+		{
+			title: "&#482705Treated Wood&r"
+			icon: "immersiveengineering:treated_wood_horizontal"
+			x: -27.25d
+			y: -2.75d
+			subtitle: "Stronger wood"
+			description: [
+				"Craft &#482705Treated Wood&r Planks with any &#806517Planks&r."
+				""
+				"See &oJEI&r for the four methods (&lCrafting&r, &lThrow item in fluid&r, &oCreate&r's &lMixing&r, and &oTinkers' Construct&r's &lCasting&r)."
+			]
+			dependencies: ["70D42E93AF9E275A"]
+			id: "56D83790E33B0765"
+			tasks: [{
+				id: "7FA5496D2D5C9E03"
+				type: "item"
+				title: "&#482705Treated Wood&r Planks"
+				item: "immersiveengineering:treated_wood_horizontal"
+			}]
+		}
+		{
+			x: -25.25d
+			y: -2.75d
+			subtitle: "More beautiful and modern torch"
+			dependencies: [
+				"64C0C3B3A787D7E9"
+				"359039A14143712B"
+			]
+			id: "37FC77024E5AD97C"
+			tasks: [{
+				id: "56C5346728E4AABB"
+				type: "item"
+				item: "immersiveengineering:lantern"
+			}]
+		}
+		{
+			title: "&#61666AIron Plates&r"
+			x: -25.25d
+			y: -4.75d
+			subtitle: "Flat iron"
+			description: ["Craft 2 &#61666AIron Plates&r with &oCreate&r's &lPressing&r or &oTinkers' Construct&r's &lCasting&r."]
+			dependencies: [
+				"3F047B28738897A0"
+				"761BAE3E76AB71A3"
+			]
+			dependency_requirement: "one_completed"
+			id: "64C0C3B3A787D7E9"
+			tasks: [{
+				id: "2E280E3A888F6412"
+				type: "item"
+				title: "2x &#61666AIron Plates&r"
+				item: "emendatusenigmatica:iron_plate"
+				count: 2L
+			}]
+		}
+		{
+			title: "&#482705Creosote Oil&r"
+			x: -27.25d
+			y: -4.75d
+			subtitle: "Not for cooking"
+			description: [
+				"Right click on the &#6A6A6ACoke Oven&r. You will see this interface:"
+				"{image:chroma:textures/quests/immersive_coke_oven_gui.png width:200 height:153 align:1}"
+				""
+				"In the &l&nInput&r slot, you can put &#806517Logs&r, &#151716Blocks of Coal&r, and &#151716Coal&r. They will produce respectively &#34282CCharcoal&r, &#2A2E2CBlocks of Coal Coke&r, and &#2A2E2CCoal Coke&r (that will appear in the &l&nOutput&r slot after a moment)."
+				"It will also produce &#482705Creosote Oil&r, that you can take placing a bucket, tank or other fluid container in the top right slot."
+			]
+			dependencies: ["0219A1F0FA4A1092"]
+			min_width: 210
+			id: "70D42E93AF9E275A"
+			tasks: [{
+				id: "5FC9696AC43C32BD"
+				type: "item"
+				title: "Bucket of &#482705Creosote Oil&r"
+				item: "immersiveengineering:creosote_bucket"
+			}]
+		}
+		{
+			title: "&#6A6A6ACoke Oven&r"
+			x: -27.25d
+			y: -7.5d
+			shape: "square"
+			subtitle: "First multiblock"
+			description: [
+				"Mix &7Grout&r and &#C2B280Sandstone&r in a &oCreate&r's &lMechanical Mixer&r and &lBasin&r (&4Heated&r) for obtain &#6A6A6ACoke Brick&r."
+				"Repeat the operation &n27 times&r, and create a &n3x3x3 structure&r with the &#6A6A6ACoke Bricks&r."
+				"Now &nright click&r on the structure with an &6Engineer's Hammer&r for form a &l&#6A6A6ACoke Oven&r."
+				""
+				"&oJust look at the &#6A6A6ACoke Oven&f to validate the quest.&r"
+			]
+			dependencies: ["1E42C4D579CA5556"]
+			size: 2.75d
+			id: "0219A1F0FA4A1092"
+			tasks: [{
+				id: "3005A9860BA0CCBA"
+				type: "observation"
+				title: "Observe &#6A6A6ACoke Oven&r"
+				icon: "immersiveengineering:coke_oven"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:coke_oven"
+			}]
+		}
+		{
+			x: -27.25d
+			y: -10.25d
+			shape: "octagon"
+			subtitle: "THE tool you need"
+			dependencies: ["2D52DCFA8749EB10"]
+			id: "1E42C4D579CA5556"
+			tasks: [{
+				id: "1090D7F73D0C9E1F"
+				type: "item"
+				title: "&6Engineer's Hammer&r"
+				item: {
+					id: "immersiveengineering:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Craft &6Engineer's Hammer&r"
+			icon: "create:deployer"
+			x: -27.25d
+			y: -12.25d
+			subtitle: "Sequenced crafting"
+			description: [
+				"The &6Engineer's Hammer&r is THE tool you need for &oImmersive Engineerging&r. It is used for &nforming multiblocks&r and &nconfiguring various blocks&r."
+				""
+				"First of all, create a &oCreate&r process like this with &lDeployers&r and &lMechanical Belt&r:"
+				"{image:chroma:textures/quests/deploy_engineer_hammer.png width:256 height:196 align:1}"
+				""
+				"Then place 2 &#61666AIron Ingots&r in the first &lDeployer&r, 2 &#806517Cogwheels&r in the second, and 2 &#747878Andesite Alloys&r in the last. Finally drop a &#382969Lead Rod&r on the &lBelt&r."
+				""
+				"Entrain the &lDeployers&r and the &lBelt&r with &nkinetic source&r. The &#382969Lead Rod&r will move on the &lBelt&r, and the &lDeployers&r will apply the differents items on it."
+				"Repeat once the operation placing the &6Partial Hammer&r in place of the &#382969Lead Rod&r and you will obtain your &6Engineer's Hammer&r!"
+			]
+			dependencies: ["12F51EE93A420344"]
+			min_width: 266
+			id: "2D52DCFA8749EB10"
+			tasks: [
+				{
+					id: "0DA3870EDF092017"
+					type: "item"
+					title: "&#382969Lead Rod&r"
+					item: "emendatusenigmatica:lead_rod"
+				}
+				{
+					id: "32A638DDEBAAD9C8"
+					type: "item"
+					title: "2x &#61666AIron Ingots&r"
+					item: "minecraft:iron_ingot"
+					count: 2L
+				}
+				{
+					id: "37F848152B822DA1"
+					type: "item"
+					title: "2x &#806517Cogwheels&r"
+					item: "create:cogwheel"
+					count: 2L
+				}
+				{
+					id: "321F3E6E2CE3C3C9"
+					type: "item"
+					title: "2x &#747878Andesite Alloys&r"
+					item: "create:andesite_alloy"
+					count: 2L
+				}
+			]
+		}
+		{
+			x: -39.0d
+			y: 1.25d
+			id: "3ECE4BD2BBA1246D"
+			tasks: [{
+				id: "41C2B70A70EC18E3"
+				type: "observation"
+				title: "Bucket Wheel"
+				icon: "immersiveengineering:bucket_wheel"
+				timer: 0L
+				observe_type: 0
+				to_observe: ""
+			}]
+		}
+		{
+			x: -38.0d
+			y: 1.25d
+			id: "01BBDEDBA8C75318"
+			tasks: [{
+				id: "1A0E8328A746D7A9"
+				type: "observation"
+				title: "Coker"
+				icon: "immersivepetroleum:cokerunit"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersivepetroleum:cokerunit"
+			}]
+		}
+		{
+			x: -39.0d
+			y: 2.25d
+			id: "58B192367229EBFC"
+			tasks: [{
+				id: "592E5CC55FB05BE3"
+				type: "observation"
+				title: "Diesel Generator"
+				icon: "immersiveengineering:diesel_generator"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:diesel_generator"
+			}]
+		}
+		{
+			x: -38.0d
+			y: 2.25d
+			id: "413B892C84FCA06C"
+			tasks: [{
+				id: "35818F2688B8D2B2"
+				type: "observation"
+				title: "Distillation Tower"
+				icon: "immersivepetroleum:distillationtower"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersivepetroleum:distillationtower"
+			}]
+		}
+		{
+			x: -39.0d
+			y: 3.25d
+			id: "660C6DD3AED86A77"
+			tasks: [{
+				id: "43001B6B745ED401"
+				type: "observation"
+				title: "Lightning Rod"
+				icon: "immersiveengineering:lightning_rod"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:lightning_rod"
+			}]
+		}
+		{
+			x: -38.0d
+			y: 3.25d
+			id: "5E27C3E81F00DB51"
+			tasks: [{
+				id: "5238EF4D792E987F"
+				type: "observation"
+				title: "Pumpjack"
+				icon: "immersivepetroleum:pumpjack"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersivepetroleum:pumpjack"
+			}]
+		}
+		{
+			x: -39.0d
+			y: 4.25d
+			id: "4E1AE9CFAF4C589D"
+			tasks: [{
+				id: "5631BF3B8469A3D4"
+				type: "observation"
+				title: "Silo"
+				icon: "immersiveengineering:silo"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:silo"
+			}]
+		}
+		{
+			x: -38.0d
+			y: 4.25d
+			id: "2860A92511D65B51"
+			tasks: [{
+				id: "1E8B9AA60E3440D7"
+				type: "observation"
+				title: "Sulfur Recovery Unit"
+				icon: "immersivepetroleum:hydrotreater"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersivepetroleum:hydrotreater"
+			}]
+		}
+		{
+			x: -39.0d
+			y: 5.25d
+			id: "7F04949A20A54564"
+			tasks: [{
+				id: "2EA3E57783919E2A"
+				type: "observation"
+				title: "Tank"
+				icon: "immersiveengineering:tank"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:tank"
+			}]
+		}
+		{
+			title: "&#71797ESteel&r"
+			x: -28.25d
+			y: 4.75d
+			description: [
+				"Right click on the &#422117Crude Blast Furnace&r. On the interface, the left slots are for &l&nInputs&r, and the rights for &l&nOutputs&r. The flame at the left represent the &l&nremaining fuel&r, and the middle arrow is for the &l&nprogress&r. You can click on it for see recipes and fuels."
+				""
+				"Put &#61666AIron Ingot&r or &#61666ABlock&r in the top &l&nInput&r slot and fuel in the bottom (see &oJEI&r for list of fuels and their burn duration)."
+				"After a moment, &#71797ESteel Ingot&r (or &#71797EBlock&r) will appear in the top &l&nOutput&r slot."
+				"It also produce &8Slag&r, principally used for crafting decoration blocks."
+			]
+			dependencies: ["70885C4B9975D97D"]
+			id: "54DC8317D4B7A510"
+			tasks: [{
+				id: "489C740C46074BBD"
+				type: "item"
+				title: "&#71797ESteel Ingot&r"
+				item: "emendatusenigmatica:steel_ingot"
+			}]
+		}
+		{
+			title: "&#71797ESteel Plates&r"
+			x: -26.25d
+			y: 4.75d
+			subtitle: "Flat steel"
+			description: ["Craft &#71797ESteel Plates&r with &oCreate&r's &lPressing&r or &oTinkers' Construct&r's &lCasting&r."]
+			dependencies: ["54DC8317D4B7A510"]
+			id: "2CD1D3F4A706D6BF"
+			tasks: [{
+				id: "5F40E25848C15A4F"
+				type: "item"
+				title: "&#71797ESteel Plate&r"
+				item: "emendatusenigmatica:steel_plate"
+			}]
+		}
+		{
+			title: "&#422117Blast Furnace &#71797EMk 2&r"
+			icon: "immersiveengineering:blastbrick_reinforced"
+			x: -22.5d
+			y: 4.75d
+			dependencies: ["2CD1D3F4A706D6BF"]
+			id: "26D4D4A9798EB323"
+			tasks: [
+				{
+					id: "62A680112AD3C41E"
+					type: "item"
+					title: "&#71797EReinforced &#422117Blast Brick&r"
+					item: "immersiveengineering:blastbrick_reinforced"
+				}
+				{
+					id: "5C90033252500E2F"
+					type: "item"
+					title: "&#61666AHopper&r"
+					item: "minecraft:hopper"
+				}
+			]
+		}
+		{
+			x: -19.75d
+			y: 7.5d
+			dependencies: [
+				"75CED07646EE8601"
+				"6946CF4294296D6C"
+				"531AF03ED27571D3"
+			]
+			id: "0FCE0F8BC03F5F8E"
+			tasks: [{
+				id: "28581203D41AE36F"
+				type: "item"
+				item: "immersiveengineering:blastfurnace_preheater"
+			}]
+		}
+		{
+			x: -21.75d
+			y: 9.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"64C0C3B3A787D7E9"
+				"761BAE3E76AB71A3"
+				"3892F7C2CF403F2F"
+			]
+			id: "6946CF4294296D6C"
+			tasks: [{
+				id: "61DCDDD1B4F63D80"
+				type: "item"
+				title: "&#61666AIron Sheetmetal&r"
+				item: "immersiveengineering:sheetmetal_iron"
+			}]
+		}
+		{
+			x: -19.75d
+			y: 9.5d
+			dependencies: [
+				"4A018BBC2F5AD675"
+				"6835288E08C68089"
+				"69B8835302C8B686"
+				"6D2CFAF2D7D7894A"
+			]
+			id: "531AF03ED27571D3"
+			tasks: [{
+				id: "73E8B8A555B9C63E"
+				type: "item"
+				item: "immersiveengineering:furnace_heater"
+			}]
+		}
+		{
+			title: "&4Redstone Ingots&r"
+			x: -30.25d
+			y: 6.75d
+			subtitle: "What would iron and redstone do mixed together?"
+			description: ["Craft &4Redstone Ingots&r by filling &4Destabilized Redstone&r on &#61666AIron Ingot&r with a &oCreate&r's &lSpout&r."]
+			dependencies: [
+				"32FAF87264E68467"
+				"5174E5B7DC17EF63"
+			]
+			id: "147DA28F357CCFAE"
+			tasks: [{
+				id: "6D2CFAF2D7D7894A"
+				type: "item"
+				title: "&4Redstone Ingot&r"
+				item: "extendedcrafting:redstone_ingot"
+			}]
+		}
+		{
+			x: -26.25d
+			y: 8.75d
+			subtitle: "Mr.Freeze® taste steel"
+			description: ["Craft &#71797ESteel Rod&r with &oTinkers' Construct&r's &lCasting&r."]
+			hide_dependency_lines: true
+			dependencies: ["54DC8317D4B7A510"]
+			id: "793A201C5DDEAA9E"
+			tasks: [{
+				id: "586B899114D9A568"
+				type: "item"
+				title: "&#71797ESteel Rod&r"
+				item: "emendatusenigmatica:steel_rod"
+			}]
+		}
+		{
+			x: -24.0d
+			y: 6.75d
+			shape: "square"
+			subtitle: "Crafting Table for engineers"
+			description: ["The &#482705Engineer's Crafting Table&r works like a vanilla &#806517Crafting Table&r, but keeps items when the player leave it, and has a little integrated inventory."]
+			hide_dependency_lines: true
+			dependencies: ["56D83790E33B0765"]
+			id: "470CDE7A74BC60EB"
+			tasks: [{
+				id: "5FFF444CD1FAA6DB"
+				type: "item"
+				title: "&#482705Engineer's Crafting Table&r"
+				item: "immersiveengineering:craftingtable"
+			}]
+		}
+		{
+			title: "&4Destabilized Redstone&r"
+			x: -32.25d
+			y: 5.75d
+			subtitle: "Warning, it seems to be unstable"
+			description: ["Melt &4Redstone Dust&r in &oTinkers' Construct&r's &lMelter&r, &lSmeltery&r or &lFoundry&r for obtain &4Destabilized Redstone&r."]
+			dependencies: ["52A9D4F9E61253F4"]
+			id: "32FAF87264E68467"
+			tasks: [{
+				id: "33097B2959BB6149"
+				type: "item"
+				title: "&4Destabilized Redstone Bucket&r"
+				item: "thermal:redstone_bucket"
+			}]
+		}
+		{
+			title: "&#B87333Copper Plates&r"
+			x: -32.25d
+			y: 7.75d
+			description: ["Craft &#B87333Copper Plates&r with &oCreate&r's &lPressing&r or &oTinkers' Construct&r's &lCasting&r."]
+			dependencies: [
+				"3F047B28738897A0"
+				"761BAE3E76AB71A3"
+			]
+			dependency_requirement: "one_completed"
+			id: "410DE957C60A9106"
+			tasks: [{
+				id: "2F53134EAB50A18F"
+				type: "item"
+				title: "&#B87333Copper Plate&r"
+				item: "emendatusenigmatica:copper_plate"
+			}]
+		}
+		{
+			title: "&#F2E279Electrum Plates&r"
+			x: -32.25d
+			y: 9.75d
+			description: ["Craft &#F2E279Electrum Plates&r with &oCreate&r's &lPressing&r or &oTinkers' Construct&r's &lCasting&r."]
+			dependencies: [
+				"3F047B28738897A0"
+				"761BAE3E76AB71A3"
+				"1E7C7E14842E3A7B"
+			]
+			dependency_requirement: "one_completed"
+			id: "049DFE4A3A6B520D"
+			tasks: [{
+				id: "53DF35CBE66E2BCA"
+				type: "item"
+				title: "&#F2E279Electrum Plate&r"
+				item: "emendatusenigmatica:electrum_plate"
+			}]
+		}
+		{
+			title: "&#F2E279Electrum Ingots&r"
+			x: -34.25d
+			y: 9.75d
+			description: [
+				"Put fuel in the bottom left slot of the &#D5A372Alloy Kiln&r, and &#FFD700Gold&r and &#BCC6CCSilver&r in the top left slots (&l&nInputs&r)."
+				"After a moment, &#F2E279Electrum Ingots&r will appear in the right slot (&l&nOutput&r)."
+				""
+				"See &#B5A642Brass&r quests in Ch. 1 (rename) for view other craft methods."
+			]
+			dependencies: [
+				"412DC2EA2FB47B68"
+				"6F24F6ECE4AAE751"
+				"44C7274EBBBFA24B"
+			]
+			id: "1E7C7E14842E3A7B"
+			tasks: [{
+				id: "3C81782701F2B524"
+				type: "item"
+				title: "&#F2E279Electrum Ingot&r"
+				item: "emendatusenigmatica:electrum_ingot"
+			}]
+		}
+		{
+			x: -17.75d
+			y: 11.5d
+			dependencies: ["59B5DA1131F36D6B"]
+			id: "3F2517D21A84261C"
+			tasks: [{
+				id: "6342B870DD43106E"
+				type: "item"
+				title: "&#F2E279MV Wire Coil&r"
+				item: "immersiveengineering:wirecoil_electrum"
+			}]
+		}
+		{
+			title: "&#F2E279Electrum Wires&r"
+			x: -17.75d
+			y: 13.5d
+			hide_dependency_lines: true
+			dependencies: ["049DFE4A3A6B520D"]
+			id: "59B5DA1131F36D6B"
+			tasks: [{
+				id: "6324D32337EC1133"
+				type: "item"
+				title: "&#F2E279Electrum Wire&r"
+				item: "immersiveengineering:wire_electrum"
+			}]
+		}
+		{
+			x: -28.0d
+			y: 11.75d
+			id: "094F0CE67ED1F041"
+			tasks: [{
+				id: "2E4AF9B7E29CD5C7"
+				type: "item"
+				item: "immersiveengineering:windmill_sail"
+			}]
+		}
+		{
+			x: -23.0d
+			y: 12.75d
+			id: "1D62145BA6DCD8D6"
+			tasks: [{
+				id: "2D33EE98DA71CC21"
+				type: "item"
+				item: "immersiveengineering:current_transformer"
+			}]
+		}
+		{
+			x: -24.25d
+			y: 13.75d
+			dependencies: ["185B58BD59C2FF12"]
+			id: "0B76EA5C2D4CA613"
+			tasks: [{
+				id: "3C089608B811FEF1"
+				type: "item"
+				item: "immersiveengineering:powerpack"
+			}]
+		}
+		{
+			x: -23.0d
+			y: 11.75d
+			id: "6509071445D1CE84"
+			tasks: [{
+				id: "4DA76F84A9784AC0"
+				type: "item"
+				item: "immersivepetroleum:gas_generator"
 			}]
 		}
 	]
