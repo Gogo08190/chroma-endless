@@ -1676,4 +1676,433 @@ onEvent("recipes", (event) => {
       }
     }
   ).id(`${id_prefix}unobtainium_bee`)
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shapeless_table",
+      "ingredients": [
+        {
+          "item": "resourcefulbees:nether_quartz_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:potassium_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:sand_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:silver_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:skeleton_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:tin_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:clay_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:blitz_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:aluminum_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:invar_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:ghast_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:fluorite_honeycomb"
+        }
+      ],
+      "result": {
+        "item": "kubejs:light_honeycomb"
+      }
+    }
+  ).id(`${id_prefix}light_honeycomb`)
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shapeless_table",
+      "ingredients": [
+        {
+          "item": "resourcefulbees:graphite_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:wither_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:stone_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:steel_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:seared_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:gravel_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:compressed_iron_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:coal_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:bitumen_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:catnip_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:chaotic_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:basalz_honeycomb"
+        }
+      ],
+      "result": {
+        "item": "kubejs:dark_honeycomb"
+      }
+    }
+  ).id(`${id_prefix}dark_honeycomb`)
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shapeless_table",
+      "ingredients": [
+        {
+          "item": "resourcefulbees:lumium_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:gold_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:end_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:blaze_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:blazing_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:brass_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:nickel_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:regalium_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:zinc_honeycomb"
+        }
+      ],
+      "result": {
+        "item": "kubejs:yellow_honeycomb"
+      }
+    }
+  ).id(`${id_prefix}yellow_honeycomb`)
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shapeless_table",
+      "ingredients": [
+        {
+          "item": "resourcefulbees:draconium_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:ender_slime_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:gaia_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:hepatizon_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:lead_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:ludicrite_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:manyullyn_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:obsidian_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:occultist_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:refined_obsidian_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:unobtainium_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:dragon_honeycomb"
+        }
+      ],
+      "result": {
+        "item": "kubejs:purple_honeycomb"
+      }
+    }
+  ).id(`${id_prefix}purple_honeycomb`)
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shapeless_table",
+      "ingredients": [
+        {
+          "item": "resourcefulbees:elementium_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:fairy_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:inanite_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:magentite_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:ridiculite_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:rose_gold_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:source_steel_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:utherium_honeycomb"
+        }
+      ],
+      "result": {
+        "item": "kubejs:pink_honeycomb"
+      }
+    }
+  ).id(`${id_prefix}pink_honeycomb`)
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shapeless_table",
+      "ingredients": [
+        {
+          "item": "resourcefulbees:awakened_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:signalum_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:starry_lexxie_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:swift_alloy_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:allthemodium_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:electrum_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:energized_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:fireite_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:glowstone_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:bronze_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:refined_glowstone_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:copper_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:constantan_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:lava_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:magma_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:cloggrum_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:iron_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:ichor_slime_honeycomb"
+        },
+        {
+          "item": "minecraft:honeycomb"
+        }
+      ],
+      "result": {
+        "item": "kubejs:orange_honeycomb"
+      }
+    }
+  ).id(`${id_prefix}orange_honeycomb`)
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shapeless_table",
+      "ingredients": [
+        {
+          "item": "resourcefulbees:redstone_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:pigman_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:nitro_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:netherite_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:nether_honeycomb"
+        }
+      ],
+      "result": {
+        "item": "kubejs:red_honeycomb"
+      }
+    }
+  ).id(`${id_prefix}red_honeycomb`)
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shapeless_table",
+      "ingredients": [
+        {
+          "item": "resourcefulbees:cobalt_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:osmium_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:sky_slime_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:froststeel_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:enderium_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:soul_lava_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:xion_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:water_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:blutonium_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:drenched_iron_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:diamond_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:cyanite_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:manasteel_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:niotic_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:terminite_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:thallasium_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:lapis_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:blizz_honeycomb"
+        }
+      ],
+      "result": {
+        "item": "kubejs:blue_honeycomb"
+      }
+    }
+  ).id(`${id_prefix}blue_honeycomb`)
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shapeless_table",
+      "ingredients": [
+        {
+          "item": "resourcefulbees:emerald_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:creeper_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:aeternium_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:spirited_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:terrasteel_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:uraninite_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:uranium_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:zombie_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:vibranium_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:ender_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:experience_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:forest_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:forgotten_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:guardian_honeycomb"
+        },
+        {
+          "item": "resourcefulbees:slime_honeycomb"
+        }
+      ],
+      "result": {
+        "item": "kubejs:green_honeycomb"
+      }
+    }
+  ).id(`${id_prefix}green_honeycomb`)
 });
