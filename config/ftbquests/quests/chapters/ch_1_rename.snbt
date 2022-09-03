@@ -3138,7 +3138,11 @@
 				""
 				"&o(Just need to complete one of the following four quests to unlock the sequel)&r"
 			]
-			dependencies: ["5145861F42CD2EE3"]
+			hide_dependency_lines: true
+			dependencies: [
+				"4339BD51E04343A5"
+				"36E35F066EAA5687"
+			]
 			id: "6F9BF9D7BCEFD22C"
 			tasks: [{
 				id: "60A371F89A8F52C1"

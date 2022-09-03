@@ -122,8 +122,8 @@
 			}]
 		}
 		{
-			x: -23.25d
-			y: 13.75d
+			x: -10.75d
+			y: 10.5d
 			id: "185B58BD59C2FF12"
 			tasks: [{
 				id: "7B15010A3A392C3F"
@@ -133,8 +133,8 @@
 			}]
 		}
 		{
-			x: -23.25d
-			y: 14.75d
+			x: -10.75d
+			y: 11.5d
 			dependencies: ["185B58BD59C2FF12"]
 			id: "70F5AF04E8762BF7"
 			tasks: [{
@@ -145,8 +145,8 @@
 			}]
 		}
 		{
-			x: -23.25d
-			y: 15.75d
+			x: -10.75d
+			y: 12.5d
 			dependencies: ["70F5AF04E8762BF7"]
 			id: "1B8563C8225EED2E"
 			tasks: [{
@@ -308,7 +308,7 @@
 		}
 		{
 			x: -24.0d
-			y: 9.0d
+			y: 13.0d
 			shape: "square"
 			subtitle: "You aren't a real engineer if you haven't that"
 			description: ["The &#482705Engineer's Workbench&r is used for crafting a lot of &oImmersive Engineering&r's items. View &oJEI&r for see all recipes with this &#482705Workbench&r."]
@@ -347,9 +347,10 @@
 		}
 		{
 			x: -26.25d
-			y: 6.75d
+			y: 10.75d
 			subtitle: "\"Mechanic\"? I'm going to build a car?"
 			description: ["You can craft &#71797ESteel Mechanical Component&r with 4 &#71797ESteel Plates&r and a &#B87333Copper Ingot&r, but it is cheaper in the &#482705Engineer's Workbench&r; so we advise you to craft only one for the &#482705Workbench&r and after use it."]
+			hide_dependency_lines: true
 			dependencies: ["2CD1D3F4A706D6BF"]
 			id: "71295F41D2D36494"
 			tasks: [{
@@ -430,8 +431,8 @@
 			}]
 		}
 		{
-			x: -27.0d
-			y: 11.75d
+			x: -11.5d
+			y: 8.5d
 			id: "082742EC52214523"
 			tasks: [{
 				id: "6AE0D4B29DA3BAD0"
@@ -471,7 +472,7 @@
 		}
 		{
 			x: -30.25d
-			y: 7.75d
+			y: 11.75d
 			description: ["Craft &#B87333Copper Sheetmetal&r with &oCreate&r's &lCompacting&r."]
 			dependencies: [
 				"410DE957C60A9106"
@@ -498,7 +499,7 @@
 		}
 		{
 			x: -30.25d
-			y: 8.75d
+			y: 12.75d
 			description: ["Craft &#F2E279Electrum Sheetmetal&r with &oCreate&r's &lCompacting&r."]
 			dependencies: [
 				"049DFE4A3A6B520D"
@@ -515,9 +516,10 @@
 		}
 		{
 			x: -26.25d
-			y: 7.75d
+			y: 11.75d
 			subtitle: "Sheets, but in steel"
 			description: ["Craft &#71797ESteel Sheetmetal&r with &oCreate&r's &lCompacting&r."]
+			hide_dependency_lines: true
 			dependencies: [
 				"2CD1D3F4A706D6BF"
 				"761BAE3E76AB71A3"
@@ -562,8 +564,8 @@
 			}]
 		}
 		{
-			x: -17.75d
-			y: 9.5d
+			x: -15.0d
+			y: 6.75d
 			dependencies: [
 				"489C740C46074BBD"
 				"3F2517D21A84261C"
@@ -577,12 +579,20 @@
 			}]
 		}
 		{
-			x: -26.0d
-			y: 12.75d
+			x: -28.25d
+			y: 7.75d
+			shape: "square"
+			subtitle: "Not the dynamo on your bike"
+			dependencies: [
+				"54DC8317D4B7A510"
+				"6D2CFAF2D7D7894A"
+				"24EEF248EEAD4E80"
+			]
 			id: "1A89F0C5AAA08291"
 			tasks: [{
 				id: "4A2208E85012E24D"
 				type: "item"
+				title: "&6Kinetic Dynamo&r"
 				item: "immersiveengineering:dynamo"
 			}]
 		}
@@ -627,32 +637,45 @@
 			}]
 		}
 		{
-			x: -31.25d
-			y: 21.25d
+			x: -30.25d
+			y: 7.75d
+			dependencies: [
+				"489C740C46074BBD"
+				"7244FB2212B5A220"
+			]
 			id: "24EEF248EEAD4E80"
 			tasks: [{
 				id: "1EFE17200F4BFDB4"
 				type: "item"
+				title: "&#B87333Copper Coil Block&r"
 				item: "immersiveengineering:coil_lv"
 			}]
 		}
 		{
-			x: -25.0d
-			y: 11.75d
+			x: -24.25d
+			y: 6.75d
+			shape: "octagon"
+			subtitle: "Wind electricity"
+			dependencies: ["2DA4E0591D7FEBBA"]
 			id: "320127170E52E903"
 			tasks: [{
 				id: "48EF3B5BAC41DEF7"
 				type: "item"
+				title: "&#482705Windmill&r"
 				item: "immersiveengineering:windmill"
 			}]
 		}
 		{
-			x: -24.0d
-			y: 11.75d
+			x: -24.25d
+			y: 8.75d
+			shape: "octagon"
+			subtitle: "Water electricity"
+			dependencies: ["6587EFA0D574A4BE"]
 			id: "27101AAB36E02A4F"
 			tasks: [{
 				id: "732537254674AA71"
 				type: "item"
+				title: "&#482705Water Wheel&r"
 				item: "immersiveengineering:watermill"
 			}]
 		}
@@ -677,7 +700,7 @@
 		{
 			title: "&#D5A372Alloy Kiln&r"
 			x: -37.0d
-			y: 9.75d
+			y: 13.75d
 			shape: "square"
 			description: [
 				"Mix &#C2B280Sandstone&r and &#D5A372Molten Clay&r in a &oCreate&r's &lMechanical Mixer&r and &lBasin&r for obtain &#D5A372Kiln Brick&r."
@@ -751,6 +774,7 @@
 		{
 			x: -30.25d
 			y: -0.75d
+			shape: "octagon"
 			subtitle: "Everything you need to know is in there"
 			description: ["The &6Engineer's Manual&r is like an in-game wiki. Just right click with it in your hand and you will learn a lot about &oImmersive&r."]
 			dependencies: [
@@ -769,7 +793,7 @@
 			title: "&8Metal Press&r"
 			icon: "immersiveengineering:metal_press"
 			x: -28.25d
-			y: 7.75d
+			y: 11.75d
 			shape: "square"
 			subtitle: "Sss... BAM!"
 			description: [
@@ -785,7 +809,7 @@
 				"Finally, right click with an &6Engineer's Hammer&r on the piston, and the multiblock will form."
 			]
 			dependencies: [
-				"54DC8317D4B7A510"
+				"1A89F0C5AAA08291"
 				"71295F41D2D36494"
 				"5E6932FE693B1BAA"
 				"793A201C5DDEAA9E"
@@ -2491,7 +2515,7 @@
 		{
 			title: "Metal Press Molds"
 			x: -28.25d
-			y: 10.5d
+			y: 14.5d
 			dependencies: ["19862EE31DFDDAB0"]
 			id: "3F79878767A76A4C"
 			tasks: [
@@ -2544,6 +2568,7 @@
 		{
 			x: -26.25d
 			y: -0.75d
+			shape: "octagon"
 			subtitle: "Movie night?"
 			description: [
 				"The &6Projector&r shows you how to build &oImmersive&r's multiblocks. Right click with it in your hand and you will see all the available multiblocks."
@@ -2903,10 +2928,11 @@
 			}]
 		}
 		{
-			title: "&#422117Blast Furnace &#71797EMk 2&r"
+			title: "&#71797EReinforced &#422117Blast Furnace&r"
 			icon: "immersiveengineering:blastbrick_reinforced"
 			x: -22.5d
 			y: 4.75d
+			subtitle: "Blast Furnace Mk2"
 			dependencies: ["2CD1D3F4A706D6BF"]
 			id: "26D4D4A9798EB323"
 			tasks: [
@@ -2925,8 +2951,8 @@
 			]
 		}
 		{
-			x: -19.75d
-			y: 7.5d
+			x: -17.0d
+			y: 4.75d
 			dependencies: [
 				"75CED07646EE8601"
 				"6946CF4294296D6C"
@@ -2940,8 +2966,8 @@
 			}]
 		}
 		{
-			x: -21.75d
-			y: 9.5d
+			x: -17.0d
+			y: 6.75d
 			hide_dependency_lines: true
 			dependencies: [
 				"64C0C3B3A787D7E9"
@@ -2957,8 +2983,8 @@
 			}]
 		}
 		{
-			x: -19.75d
-			y: 9.5d
+			x: -15.0d
+			y: 4.75d
 			dependencies: [
 				"4A018BBC2F5AD675"
 				"6835288E08C68089"
@@ -2975,7 +3001,7 @@
 		{
 			title: "&4Redstone Ingots&r"
 			x: -30.25d
-			y: 6.75d
+			y: 10.75d
 			subtitle: "What would iron and redstone do mixed together?"
 			description: ["Craft &4Redstone Ingots&r by filling &4Destabilized Redstone&r on &#61666AIron Ingot&r with a &oCreate&r's &lSpout&r."]
 			dependencies: [
@@ -2992,7 +3018,7 @@
 		}
 		{
 			x: -26.25d
-			y: 8.75d
+			y: 12.75d
 			subtitle: "Mr.Freeze® taste steel"
 			description: ["Craft &#71797ESteel Rod&r with &oTinkers' Construct&r's &lCasting&r."]
 			hide_dependency_lines: true
@@ -3007,7 +3033,7 @@
 		}
 		{
 			x: -24.0d
-			y: 6.75d
+			y: 10.75d
 			shape: "square"
 			subtitle: "Crafting Table for engineers"
 			description: ["The &#482705Engineer's Crafting Table&r works like a vanilla &#806517Crafting Table&r, but keeps items when the player leave it, and has a little integrated inventory."]
@@ -3024,7 +3050,7 @@
 		{
 			title: "&4Destabilized Redstone&r"
 			x: -32.25d
-			y: 5.75d
+			y: 9.75d
 			subtitle: "Warning, it seems to be unstable"
 			description: ["Melt &4Redstone Dust&r in &oTinkers' Construct&r's &lMelter&r, &lSmeltery&r or &lFoundry&r for obtain &4Destabilized Redstone&r."]
 			dependencies: ["52A9D4F9E61253F4"]
@@ -3039,7 +3065,7 @@
 		{
 			title: "&#B87333Copper Plates&r"
 			x: -32.25d
-			y: 7.75d
+			y: 11.75d
 			description: ["Craft &#B87333Copper Plates&r with &oCreate&r's &lPressing&r or &oTinkers' Construct&r's &lCasting&r."]
 			dependencies: [
 				"3F047B28738897A0"
@@ -3057,7 +3083,7 @@
 		{
 			title: "&#F2E279Electrum Plates&r"
 			x: -32.25d
-			y: 9.75d
+			y: 13.75d
 			description: ["Craft &#F2E279Electrum Plates&r with &oCreate&r's &lPressing&r or &oTinkers' Construct&r's &lCasting&r."]
 			dependencies: [
 				"3F047B28738897A0"
@@ -3076,7 +3102,7 @@
 		{
 			title: "&#F2E279Electrum Ingots&r"
 			x: -34.25d
-			y: 9.75d
+			y: 13.75d
 			description: [
 				"Put fuel in the bottom left slot of the &#D5A372Alloy Kiln&r, and &#FFD700Gold&r and &#BCC6CCSilver&r in the top left slots (&l&nInputs&r)."
 				"After a moment, &#F2E279Electrum Ingots&r will appear in the right slot (&l&nOutput&r)."
@@ -3097,8 +3123,8 @@
 			}]
 		}
 		{
-			x: -17.75d
-			y: 11.5d
+			x: -15.0d
+			y: 8.75d
 			dependencies: ["59B5DA1131F36D6B"]
 			id: "3F2517D21A84261C"
 			tasks: [{
@@ -3110,8 +3136,8 @@
 		}
 		{
 			title: "&#F2E279Electrum Wires&r"
-			x: -17.75d
-			y: 13.5d
+			x: -15.0d
+			y: 10.75d
 			hide_dependency_lines: true
 			dependencies: ["049DFE4A3A6B520D"]
 			id: "59B5DA1131F36D6B"
@@ -3123,18 +3149,20 @@
 			}]
 		}
 		{
-			x: -28.0d
-			y: 11.75d
+			x: -20.25d
+			y: 8.75d
+			dependencies: ["4E8AB0EA5262EB30"]
 			id: "094F0CE67ED1F041"
 			tasks: [{
 				id: "2E4AF9B7E29CD5C7"
 				type: "item"
+				title: "&#482705Windmill&r Sail"
 				item: "immersiveengineering:windmill_sail"
 			}]
 		}
 		{
-			x: -23.0d
-			y: 12.75d
+			x: -10.5d
+			y: 9.5d
 			id: "1D62145BA6DCD8D6"
 			tasks: [{
 				id: "2D33EE98DA71CC21"
@@ -3143,8 +3171,8 @@
 			}]
 		}
 		{
-			x: -24.25d
-			y: 13.75d
+			x: -11.75d
+			y: 10.5d
 			dependencies: ["185B58BD59C2FF12"]
 			id: "0B76EA5C2D4CA613"
 			tasks: [{
@@ -3154,13 +3182,142 @@
 			}]
 		}
 		{
-			x: -23.0d
-			y: 11.75d
+			x: -10.5d
+			y: 8.5d
 			id: "6509071445D1CE84"
 			tasks: [{
 				id: "4DA76F84A9784AC0"
 				type: "item"
 				item: "immersivepetroleum:gas_generator"
+			}]
+		}
+		{
+			x: -32.25d
+			y: 7.75d
+			dependencies: ["28352D32B8969CAE"]
+			id: "7244FB2212B5A220"
+			tasks: [{
+				id: "6480DBE434AB5A63"
+				type: "item"
+				title: "&#B87333LV Wire Coil&r"
+				item: "immersiveengineering:wirecoil_copper"
+			}]
+		}
+		{
+			title: "&#B87333Copper Wires&r"
+			x: -34.25d
+			y: 7.75d
+			hide_dependency_lines: true
+			dependencies: ["410DE957C60A9106"]
+			id: "28352D32B8969CAE"
+			tasks: [{
+				id: "5F71A91A4464BCEB"
+				type: "item"
+				title: "&#B87333Copper Wire&r"
+				item: "immersiveengineering:wire_copper"
+			}]
+		}
+		{
+			title: "Craft &#482705Windmill&r"
+			icon: "create:deployer"
+			x: -26.25d
+			y: 6.75d
+			subtitle: "Sequenced crafting"
+			dependencies: ["1A89F0C5AAA08291"]
+			id: "2DA4E0591D7FEBBA"
+			tasks: [
+				{
+					id: "21F3C85D067EC726"
+					type: "item"
+					title: "&#482705Central Part Windmill&r"
+					item: "kubejs:central_windmill"
+				}
+				{
+					id: "6157F74BDADB4319"
+					type: "item"
+					title: "8x &#482705Treated Sticks&r"
+					item: "immersiveengineering:stick_treated"
+					count: 8L
+				}
+				{
+					id: "2BD749A50475B68A"
+					type: "item"
+					title: "8x &#482705Windmill Blades&r"
+					item: "immersiveengineering:windmill_blade"
+					count: 8L
+				}
+				{
+					id: "584DA641AC4A59E2"
+					type: "item"
+					title: "8x &#71797ESteel Nuggets&r"
+					item: "emendatusenigmatica:steel_nugget"
+					count: 8L
+				}
+			]
+		}
+		{
+			title: "Craft &#482705Water Wheel&r"
+			icon: "create:mechanical_crafter"
+			x: -26.25d
+			y: 8.75d
+			subtitle: "Mechanical crafting"
+			dependencies: [
+				"1A89F0C5AAA08291"
+				"4AC1298723D8A89A"
+			]
+			id: "6587EFA0D574A4BE"
+			tasks: [
+				{
+					id: "09C35F9A6BB5E4CD"
+					type: "item"
+					title: "12x &#482705Treated Sticks&r"
+					item: "immersiveengineering:stick_treated"
+					count: 12L
+				}
+				{
+					id: "6481756CC9C1480F"
+					type: "item"
+					title: "8x &#482705Waterwheel Segments&r"
+					item: "immersiveengineering:waterwheel_segment"
+					count: 8L
+				}
+				{
+					id: "33BE8E893EDD97A6"
+					type: "item"
+					title: "4x &#71797ESteel Ingots&r"
+					item: "emendatusenigmatica:steel_ingot"
+					count: 4L
+				}
+				{
+					id: "29B4D7BA54CBED07"
+					type: "item"
+					title: "&#482705Treated Wood Planks&r"
+					item: "immersiveengineering:treated_wood_horizontal"
+				}
+			]
+		}
+		{
+			x: -22.25d
+			y: 6.75d
+			dependencies: ["320127170E52E903"]
+			id: "75F8F8B9F5336E59"
+			tasks: [{
+				id: "31FB8615A5B2B637"
+				type: "item"
+				title: "&#AD744EIndustrial Hemp Seeds&r"
+				item: "immersiveengineering:seed"
+			}]
+		}
+		{
+			x: -22.25d
+			y: 8.75d
+			dependencies: ["75F8F8B9F5336E59"]
+			id: "4E8AB0EA5262EB30"
+			tasks: [{
+				id: "4145FECAF97B802E"
+				type: "item"
+				title: "&#AD744EIndustrial Hemp Fiber&r"
+				item: "immersiveengineering:hemp_fiber"
 			}]
 		}
 	]
