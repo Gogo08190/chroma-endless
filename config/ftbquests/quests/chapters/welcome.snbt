@@ -1,9 +1,9 @@
 {
 	id: "5A9FE570423F4524"
 	group: ""
-	order_index: 3
+	order_index: 4
 	filename: "welcome"
-	title: "Welcome!"
+	title: "&l&bWelcome!&r"
 	icon: {
 		id: "ftbquests:custom_icon"
 		Count: 1b
@@ -11,6 +11,7 @@
 			Icon: "chroma:textures/quests/logo.png"
 		}
 	}
+	subtitle: ["&l&fWelcome to &n&bChroma Endless&r&f!"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -37,6 +38,7 @@
 				"This &lQuests Book&r is made to guide you all along your survival adventure, but isn't &lmandatory&r."
 				""
 				"                             &3&lHave fun!&r"
+				"la team chroma a pris possession de endless, vous devez le délivrer. à travers les différentes époques de l'histoire, apprenez-en de plus en plus pour le sauver !"
 			]
 			size: 2.0d
 			min_width: 290
@@ -118,6 +120,7 @@
 			}]
 		}
 		{
+			title: "&l&dCreative&r"
 			icon: {
 				id: "modularrouters:creative_module"
 				Count: 1b

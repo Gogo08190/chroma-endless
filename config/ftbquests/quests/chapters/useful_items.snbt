@@ -1,7 +1,7 @@
 {
 	id: "05F7FCA81A7AC3EC"
 	group: ""
-	order_index: 9
+	order_index: 10
 	filename: "useful_items"
 	title: "Useful Items"
 	icon: {
@@ -13,5 +13,36 @@
 	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "6321C311B46FC390"
+			tasks: [{
+				id: "17B3F79AF03D031C"
+				type: "item"
+				item: {
+					id: "tiab:timeinabottle"
+					Count: 1b
+					tag: {
+						timeData: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			id: "55A1B520C4AB7A8C"
+			tasks: [{
+				id: "5BDCCD7B2D798F18"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+	]
 }

@@ -1,9 +1,9 @@
 {
 	id: "33B22BF0C5FCBA9D"
 	group: ""
-	order_index: 8
+	order_index: 9
 	filename: "armor"
-	title: "Armors"
+	title: "&l&bArsenal&r"
 	icon: {
 		id: "allthemodium:unobtainium_chestplate"
 		Count: 1b
@@ -11,7 +11,32 @@
 			Damage: 0
 		}
 	}
+	subtitle: [
+		"Come equip yourself here!"
+		"&l&fArsenal&r&f introduce to you the &l&n&bChroma Endless&r&f' armors and weapons"
+	]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "45701078167439D2"
+		tasks: [{
+			id: "159698FECF7F23A8"
+			type: "item"
+			item: {
+				id: "immersiveengineering:shield"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					Parent: {
+						Size: 2
+						Items: [ ]
+					}
+				}
+			}
+		}]
+	}]
 }
