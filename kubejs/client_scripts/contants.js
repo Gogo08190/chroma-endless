@@ -443,7 +443,8 @@ const itemsToHide = [
     'ironfurnaces:upgrade_crystal',
     'ironfurnaces:upgrade_obsidian',
     'ironfurnaces:upgrade_emerald',
-    'ironfurnaces:upgrade_silver2'
+    'ironfurnaces:upgrade_silver2',
+    'ironfurnaces:upgrade_netherite'
 ];
 
 let ee_types = ['clump', 'crystal', 'dirty_dust', 'shard', 'fragment', 'gravel'];

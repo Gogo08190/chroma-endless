@@ -25,7 +25,8 @@ onEvent('recipes', (event) => {
       'ironfurnaces:upgrade_crystal',
       'ironfurnaces:upgrade_obsidian',
       'ironfurnaces:upgrade_emerald',
-      'ironfurnaces:upgrade_silver2'
+      'ironfurnaces:upgrade_silver2',
+      'ironfurnaces:upgrade_netherite'
     ];
 
     idRemovals.forEach((id) => {
