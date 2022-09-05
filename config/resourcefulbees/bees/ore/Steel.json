@@ -38,8 +38,8 @@
         "CentrifugeData": {
           "hasCentrifugeOutput": true,
 
-          "mainOutput": "emendatusenigmatica:steel_ingot",
-          "mainOutputWeight": 0.1,
+          "mainOutput": "emendatusenigmatica:steel_dust",
+          "mainOutputWeight": 0.4,
           "mainOutputCount": 1,
 
           "bottleOutput": "resourcefulbees:steel_honey_bottle",
