@@ -3,7 +3,7 @@
 	group: "34085A64296DE6C7"
 	order_index: 1
 	filename: "ch_2_rename"
-	title: "&l&0Steel Age&r"
+	title: "&l&#71797ESteel Age&r"
 	icon: {
 		id: "immersiveengineering:hammer"
 		Count: 1b
@@ -15,8 +15,8 @@
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: 3.4666666666666686d
-			y: 6.047619047619023d
+			x: 3.4869047619047393d
+			y: 6.096428571428568d
 			width: 4.0d
 			height: 4.0d
 			rotation: 0.0d
@@ -39,8 +39,8 @@
 			corner: false
 		}
 		{
-			x: -1.0238095238095184d
-			y: 8.351190476190489d
+			x: 9.988095238095298d
+			y: 7.361904761904732d
 			width: 4.0d
 			height: 4.0d
 			rotation: 0.0d
@@ -51,8 +51,8 @@
 			corner: false
 		}
 		{
-			x: 7.988095238095241d
-			y: 8.366071428571423d
+			x: -1.2619047619047592d
+			y: 8.116071428571423d
 			width: 4.0d
 			height: 4.0d
 			rotation: 0.0d
@@ -65,21 +65,8 @@
 	]
 	quests: [
 		{
-			title: "To Ch. 3 (rename)"
-			x: 42.5d
-			y: 2.5d
-			shape: "gear"
-			size: 5.0d
-			id: "1483AEFFA7642521"
-			tasks: [{
-				id: "503F4E2B08B9125B"
-				type: "item"
-				item: "thermal:machine_frame"
-			}]
-		}
-		{
-			x: -10.5d
-			y: 13.5d
+			x: -40.25d
+			y: 11.0d
 			id: "56FF868139410EDB"
 			tasks: [{
 				id: "2A0D6B500B1DA123"
@@ -137,8 +124,12 @@
 			}]
 		}
 		{
-			x: -10.5d
-			y: 11.5d
+			x: -12.75d
+			y: 2.75d
+			dependencies: [
+				"078BA9404F53C139"
+				"4A018BBC2F5AD675"
+			]
 			id: "70F5AF04E8762BF7"
 			tasks: [{
 				id: "63784B6D488BD8BE"
@@ -148,8 +139,8 @@
 			}]
 		}
 		{
-			x: -10.5d
-			y: 12.5d
+			x: -40.25d
+			y: 10.0d
 			id: "1B8563C8225EED2E"
 			tasks: [{
 				id: "1FB633E696E09992"
@@ -194,18 +185,33 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: 11.5d
+			title: "Medium Voltage Wires"
+			x: -10.75d
+			y: 1.75d
+			hide_dependency_lines: true
+			dependencies: [
+				"59B5DA1131F36D6B"
+				"56D83790E33B0765"
+			]
 			id: "078BA9404F53C139"
-			tasks: [{
-				id: "250CE4894E7C4DE6"
-				type: "item"
-				item: "immersiveengineering:connector_mv"
-			}]
+			tasks: [
+				{
+					id: "250CE4894E7C4DE6"
+					type: "item"
+					item: "immersiveengineering:connector_mv"
+				}
+				{
+					id: "186668DF027D951E"
+					type: "item"
+					item: "immersiveengineering:wirecoil_electrum"
+				}
+			]
 		}
 		{
-			x: -9.5d
-			y: 11.5d
+			title: "Further Medium Voltage Wires"
+			x: -12.75d
+			y: 0.75d
+			dependencies: ["078BA9404F53C139"]
 			id: "0C34859220EB00E5"
 			tasks: [{
 				id: "0A4B87BCFB7163D8"
@@ -214,18 +220,13 @@
 			}]
 		}
 		{
-			x: -12.5d
-			y: 11.5d
-			id: "6855D71567156BA5"
-			tasks: [{
-				id: "5AFD4167FAD0D8F7"
-				type: "item"
-				item: "immersiveengineering:wirecoil_electrum"
-			}]
-		}
-		{
-			x: -8.5d
-			y: 11.5d
+			title: "Safed Medium Voltage Wires"
+			x: -8.75d
+			y: 1.75d
+			dependencies: [
+				"078BA9404F53C139"
+				"4145FECAF97B802E"
+			]
 			id: "256E5A66F63670D0"
 			tasks: [{
 				id: "7F1A2C88C261217A"
@@ -234,8 +235,8 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: 12.5d
+			x: -41.25d
+			y: 10.0d
 			id: "1A9A897D04134052"
 			tasks: [{
 				id: "3506BB1701C10F85"
@@ -244,8 +245,8 @@
 			}]
 		}
 		{
-			x: -9.5d
-			y: 12.5d
+			x: -39.25d
+			y: 10.0d
 			id: "70AAACB1DD2AB8E1"
 			tasks: [{
 				id: "207AD7EFBEDCA255"
@@ -254,8 +255,8 @@
 			}]
 		}
 		{
-			x: -12.5d
-			y: 12.5d
+			x: -42.25d
+			y: 10.0d
 			id: "118E476162B63D7A"
 			tasks: [{
 				id: "338376D22ED9DDB4"
@@ -264,8 +265,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 12.5d
+			x: -38.25d
+			y: 10.0d
 			id: "3C9FD69469154A28"
 			tasks: [{
 				id: "22F993A9919E4F9F"
@@ -274,8 +275,8 @@
 			}]
 		}
 		{
-			x: -10.5d
-			y: 14.5d
+			x: -40.25d
+			y: 12.0d
 			id: "79778D4EEF712D00"
 			tasks: [{
 				id: "493069AA37E324EA"
@@ -284,8 +285,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 13.5d
+			x: -38.25d
+			y: 11.0d
 			id: "22A51ABB2060EB12"
 			tasks: [{
 				id: "3C3FFF025167A052"
@@ -294,8 +295,8 @@
 			}]
 		}
 		{
-			x: -24.0d
-			y: 17.0d
+			x: -22.0d
+			y: 13.75d
 			shape: "square"
 			subtitle: "You aren't a real engineer if you haven't that"
 			description: ["The &#482705Engineer's Workbench&r is used for crafting a lot of &oImmersive Engineering&r's items. View &oJEI&r for see all recipes with this &#482705Workbench&r."]
@@ -313,8 +314,8 @@
 			}]
 		}
 		{
-			x: -12.5d
-			y: 13.5d
+			x: -42.25d
+			y: 11.0d
 			id: "04CA21A228AFD723"
 			tasks: [{
 				id: "4FAB0F1241A4D95C"
@@ -323,8 +324,8 @@
 			}]
 		}
 		{
-			x: -10.5d
-			y: 18.5d
+			x: -40.25d
+			y: 16.0d
 			id: "3BD8CABE67939143"
 			tasks: [{
 				id: "77A533668F6E7DDE"
@@ -333,12 +334,15 @@
 			}]
 		}
 		{
-			x: -26.25d
-			y: 14.75d
+			x: -24.25d
+			y: 13.75d
 			subtitle: "\"Mechanic\"? I'm going to build a car?"
 			description: ["You can craft &#71797ESteel Mechanical Component&r with 4 &#71797ESteel Plates&r and a &#B87333Copper Ingot&r, but it is cheaper in the &#482705Engineer's Workbench&r; so we advise you to craft only one for the &#482705Workbench&r and after use it."]
 			hide_dependency_lines: true
-			dependencies: ["2CD1D3F4A706D6BF"]
+			dependencies: [
+				"2CD1D3F4A706D6BF"
+				"4339BD51E04343A5"
+			]
 			id: "71295F41D2D36494"
 			tasks: [{
 				id: "6F12B52BF15AFC39"
@@ -348,8 +352,8 @@
 			}]
 		}
 		{
-			x: -9.5d
-			y: 13.5d
+			x: -39.25d
+			y: 11.0d
 			id: "553ED39D5A115D2D"
 			tasks: [{
 				id: "28680BB1279E58C3"
@@ -358,8 +362,13 @@
 			}]
 		}
 		{
-			x: -12.5d
-			y: 19.5d
+			x: -30.25d
+			y: 14.75d
+			dependencies: [
+				"147DA28F357CCFAE"
+				"2F571C765B55CFEE"
+				"6835288E08C68089"
+			]
 			id: "013EF1AC48991B24"
 			tasks: [{
 				id: "29FEE8A65DFA239B"
@@ -368,8 +377,13 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: 18.5d
+			x: -26.25d
+			y: 14.75d
+			dependencies: [
+				"71295F41D2D36494"
+				"5E6932FE693B1BAA"
+				"16589D17952203BD"
+			]
 			id: "50B02DF11902C401"
 			tasks: [{
 				id: "4CEEBCE55E153A30"
@@ -378,18 +392,8 @@
 			}]
 		}
 		{
-			x: -10.5d
-			y: 19.5d
-			id: "3CB1BA3A2A2BCCB9"
-			tasks: [{
-				id: "17B915598C14C6E9"
-				type: "item"
-				item: "immersiveengineering:light_engineering"
-			}]
-		}
-		{
-			x: -12.5d
-			y: 18.5d
+			x: -42.25d
+			y: 16.0d
 			id: "706334A5D020943E"
 			tasks: [{
 				id: "59B22FB01FC32A0C"
@@ -398,8 +402,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 18.5d
+			x: -38.25d
+			y: 16.0d
 			id: "3B60BC0C13EEDE8C"
 			tasks: [{
 				id: "48EBF4317A9B2E31"
@@ -408,8 +412,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 17.5d
+			x: -38.25d
+			y: 15.0d
 			id: "1B65B79D56E3A048"
 			tasks: [{
 				id: "17F5B0AAED189FA1"
@@ -418,8 +422,8 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: 8.5d
+			x: -41.25d
+			y: 6.0d
 			id: "082742EC52214523"
 			tasks: [{
 				id: "6AE0D4B29DA3BAD0"
@@ -428,8 +432,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 15.5d
+			x: -38.25d
+			y: 13.0d
 			id: "2B65CE1689BA653A"
 			tasks: [{
 				id: "7F37F6B0320BFF2B"
@@ -438,8 +442,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 16.5d
+			x: -38.25d
+			y: 14.0d
 			id: "601E62FF8424E1A1"
 			tasks: [{
 				id: "4A758998D8D1EBCA"
@@ -448,8 +452,8 @@
 			}]
 		}
 		{
-			x: -9.5d
-			y: 19.5d
+			x: -39.25d
+			y: 17.0d
 			id: "27141D15A8E1F002"
 			tasks: [{
 				id: "1D06B1F39F0CFEC3"
@@ -458,7 +462,7 @@
 			}]
 		}
 		{
-			x: -30.25d
+			x: -32.25d
 			y: 15.75d
 			description: ["Craft &#B87333Copper Sheetmetal&r with &oCreate&r's &lCompacting&r."]
 			dependencies: [
@@ -475,8 +479,8 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: 14.5d
+			x: -41.25d
+			y: 12.0d
 			id: "7E58478C1F9C67A7"
 			tasks: [{
 				id: "3E427B67E7302099"
@@ -485,8 +489,8 @@
 			}]
 		}
 		{
-			x: -30.25d
-			y: 16.75d
+			x: -24.25d
+			y: 15.75d
 			description: ["Craft &#F2E279Electrum Sheetmetal&r with &oCreate&r's &lCompacting&r."]
 			dependencies: [
 				"049DFE4A3A6B520D"
@@ -502,8 +506,8 @@
 			}]
 		}
 		{
-			x: -26.25d
-			y: 15.75d
+			x: -24.25d
+			y: 14.75d
 			subtitle: "Sheets, but in steel"
 			description: ["Craft &#71797ESteel Sheetmetal&r with &oCreate&r's &lCompacting&r."]
 			hide_dependency_lines: true
@@ -521,8 +525,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 14.5d
+			x: -38.25d
+			y: 12.0d
 			id: "7A91C9AE13816E4A"
 			tasks: [{
 				id: "2BCAADD154EECEB2"
@@ -531,18 +535,8 @@
 			}]
 		}
 		{
-			x: -9.5d
-			y: 14.5d
-			id: "7D4D07CB73448796"
-			tasks: [{
-				id: "4B1C12D79F664255"
-				type: "item"
-				item: "immersiveengineering:steel_scaffolding_standard"
-			}]
-		}
-		{
-			x: -8.5d
-			y: 19.5d
+			x: -38.25d
+			y: 17.0d
 			id: "552FA47ECA2FE4B3"
 			tasks: [{
 				id: "0093AB5A2EDAC060"
@@ -552,7 +546,7 @@
 		}
 		{
 			x: -14.75d
-			y: 6.75d
+			y: 2.75d
 			dependencies: [
 				"489C740C46074BBD"
 				"3F2517D21A84261C"
@@ -584,8 +578,8 @@
 			}]
 		}
 		{
-			x: -9.5d
-			y: 18.5d
+			x: -39.25d
+			y: 16.0d
 			id: "62EE24B8F491D351"
 			tasks: [{
 				id: "17D51E5AD8C69C10"
@@ -656,9 +650,10 @@
 		}
 		{
 			title: "&#D5A372Alloy Kiln&r"
-			x: -37.0d
+			x: -17.5d
 			y: 17.75d
 			shape: "square"
+			subtitle: "Another alloying method"
 			description: [
 				"Mix &#C2B280Sandstone&r and &#D5A372Molten Clay&r in a &oCreate&r's &lMechanical Mixer&r and &lBasin&r for obtain &#D5A372Kiln Brick&r."
 				"Repeat the operation &n8 times&r, and create a &n2x2x2 structure&r with the &#D5A372Kiln Bricks&r."
@@ -692,7 +687,7 @@
 			description: [
 				"Mix &7Grout&r, &#EE7B06Magma Block&r and &#422117Nether Brick&r in a &oCreate&r's &lMechanical Mixer&r and &lBasin&r (&3Super-Heated&r) for obtain &#422117Blast Brick&r."
 				"Repeat the operation &n27 times&r, and create a &n3x3x3 structure&r with the &#422117Blast Brick&r."
-				"Now &nright click&r on the structure with an &6Engineer's Hammer&r for form a &l&#422117Crude Blast Furnace&r."
+				"Now &nright click&r on the structure with an &6Engineer's Hammer&r (on the middle block) to form a &l&#422117Crude Blast Furnace&r."
 				""
 				"&oJust look at the &#422117Crude Blast Furnace&f to validate the quest.&r"
 			]
@@ -751,61 +746,28 @@
 			]
 			dependencies: [
 				"1ADD7F8A69F0DDEC"
-				"71295F41D2D36494"
-				"5E6932FE693B1BAA"
-				"793A201C5DDEAA9E"
-				"147DA28F357CCFAE"
-				"2F571C765B55CFEE"
-				"16589D17952203BD"
+				"5D455708D55CE036"
+				"013EF1AC48991B24"
+				"3DFBCDFFA464FE2F"
+				"50B02DF11902C401"
 			]
 			size: 2.75d
 			id: "19862EE31DFDDAB0"
-			tasks: [
-				{
-					id: "72A599A6ADD2FEFC"
-					type: "item"
-					item: "minecraft:piston"
-				}
-				{
-					id: "0F52AB3F03061943"
-					type: "item"
-					title: "&#71797ESteel Scaffolding&r"
-					item: "immersiveengineering:steel_scaffolding_standard"
-				}
-				{
-					id: "5265DAF5AA990375"
-					type: "item"
-					title: "&4Redstone Engineering Block&r"
-					item: "immersiveengineering:rs_engineering"
-				}
-				{
-					id: "04639BA55581365C"
-					type: "item"
-					title: "&#71797EHeavy Engineering Block&r"
-					item: "immersiveengineering:heavy_engineering"
-				}
-				{
-					id: "10D02C316D7C6E07"
-					type: "item"
-					title: "&6Conveyor Belt&r"
-					item: "immersiveengineering:conveyor_basic"
-				}
-				{
-					id: "7713F982941BDDB9"
-					type: "observation"
-					title: "Observe &8Metal Press&r"
-					icon: "immersiveengineering:metal_press"
-					timer: 0L
-					observe_type: 0
-					to_observe: "immersiveengineering:metal_press"
-				}
-			]
+			tasks: [{
+				id: "7713F982941BDDB9"
+				type: "observation"
+				title: "Observe &8Metal Press&r"
+				icon: "immersiveengineering:metal_press"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:metal_press"
+			}]
 		}
 		{
 			title: "Crusher"
 			icon: "immersiveengineering:crusher"
-			x: -36.75d
-			y: 1.25d
+			x: -41.0d
+			y: 1.75d
 			description: [
 				"Steel Scaffolding 10x"
 				"Light Engineering Block 10x"
@@ -826,16 +788,28 @@
 		{
 			title: "Sawmill"
 			icon: "immersiveengineering:sawmill"
-			x: -35.75d
-			y: 0.25d
+			x: -14.75d
+			y: 11.25d
+			shape: "square"
 			description: [
-				"Steel Scaffolding 8x"
-				"Light Engineering Block 6x"
-				"Iron Sheetmetal 4x"
-				"Heavy Engineering Block 2x"
-				"Redstone Engineering Block 1x"
-				"Conveyor Belt 4x"
+				""
+				""
+				" - &#71797ESteel Scaffoldings&r 8x"
+				" - &#61666AIron Sheetmetals&r 4x"
+				" - &eLight Engineering Blocks&r 6x"
+				" - &#71797EHeavy Engineering Blocks&r 2x"
+				" - &4Redstone Engineering Block&r 1x"
+				" - &6Conveyor Belts&r 4x"
 			]
+			dependencies: [
+				"1896497D5BD572D5"
+				"61DCDDD1B4F63D80"
+				"07D6DC19FC493CA7"
+				"4CEEBCE55E153A30"
+				"29FEE8A65DFA239B"
+				"5017B20016FE2384"
+			]
+			size: 2.75d
 			id: "2AB4AE22B6E73EBA"
 			tasks: [{
 				id: "03EE64425FD4082C"
@@ -850,16 +824,27 @@
 		{
 			title: "Assembler"
 			icon: "immersiveengineering:assembler"
-			x: -36.75d
-			y: 2.25d
+			x: -14.75d
+			y: 7.75d
+			shape: "square"
 			description: [
-				"Steel Scaffolding 6x"
-				"Redstone Engineering Block 2x"
-				"Light engineering Block 2x"
-				"Iron Sheetmetal 9x"
-				"Iron Sheetmetal Slab 6x"
-				"Conveyor Belt 2x"
+				""
+				""
+				" - &#71797ESteel Scaffoldings&r 6x"
+				" - &4Redstone Engineering Blocks&r 2x"
+				" - &eLight Engineering Blocks&r 2x"
+				" - &#61666AIron Sheetmetals&r 9x"
+				" - &#61666AIron Sheetmetals Slabs&r 6x"
+				" - &6Conveyor Belts&r 2x"
 			]
+			dependencies: [
+				"61DCDDD1B4F63D80"
+				"07D6DC19FC493CA7"
+				"1896497D5BD572D5"
+				"29FEE8A65DFA239B"
+				"5017B20016FE2384"
+			]
+			size: 2.75d
 			id: "65B718DAC2C88A4C"
 			tasks: [{
 				id: "0D9F70CBDE0836CE"
@@ -928,7 +913,7 @@
 			title: "Mixer"
 			icon: "immersiveengineering:mixer"
 			x: -36.75d
-			y: 4.25d
+			y: 1.25d
 			id: "70CA1655FB8127B2"
 			tasks: [{
 				id: "7F03D07128E2459E"
@@ -957,15 +942,38 @@
 			}]
 		}
 		{
-			title: "Automated Workbench"
+			title: "&8Automated &#482705Engineer's Workbench&r"
 			icon: "immersiveengineering:auto_workbench"
-			x: -36.75d
-			y: 5.25d
+			x: -19.0d
+			y: 13.75d
+			shape: "square"
+			description: [
+				"The &8Automated &#482705Engineer's Workbench&r is used for automate &#482705Engineer's Workbench&r recipes."
+				""
+				"Display a preview with your &6Projector&r, and place this blocks:"
+				" - &#71797ESteel Scaffoldings&r 5x"
+				" - &eLight Engineering Blocks&r 4x"
+				" - &4Redstone Engineering Block&r 1x"
+				" - &#71797EHeavy Engineering Block&r 2x"
+				" - &#482705Treated Wood Slabs&r 2x"
+				" - &6Conveyor Belts&r 4x"
+				""
+				"Finally, right click with an &6Engineer's Hammer&r on the middle &#482705Treated Wood Slab&r, and the multiblock will form."
+			]
+			dependencies: [
+				"52562D2492B5F2DA"
+				"2E6DA2A5DA079928"
+				"29FEE8A65DFA239B"
+				"1896497D5BD572D5"
+				"4CEEBCE55E153A30"
+				"5017B20016FE2384"
+			]
+			size: 2.75d
 			id: "5E1E836B766A4AA0"
 			tasks: [{
-				id: "227F53CE1139209F"
+				id: "4C93FD90264443F5"
 				type: "observation"
-				title: "Automated Workbench"
+				title: "Observe &8Automated &#482705Engineer's Workbench&r"
 				icon: "immersiveengineering:auto_workbench"
 				timer: 0L
 				observe_type: 0
@@ -975,8 +983,8 @@
 		{
 			title: "Arc Furnace"
 			icon: "immersiveengineering:arc_furnace"
-			x: -36.75d
-			y: 3.25d
+			x: -42.75d
+			y: 1.5d
 			id: "29A495E5307C19C8"
 			tasks: [{
 				id: "5D069A3FB4A648BA"
@@ -996,8 +1004,8 @@
 					Icon: "immersiveengineering:textures/block/multiblocks/excavator.png"
 				}
 			}
-			x: -36.75d
-			y: 6.25d
+			x: -35.75d
+			y: 0.25d
 			id: "219D232C263901B6"
 			tasks: [
 				{
@@ -1061,8 +1069,8 @@
 			}]
 		}
 		{
-			x: 2.25d
-			y: -1.75d
+			x: 2.0d
+			y: -2.5d
 			dependencies: ["28C3F89057684CC6"]
 			id: "0FA6324B2250CC01"
 			tasks: [{
@@ -1072,7 +1080,7 @@
 			}]
 		}
 		{
-			x: 4.25d
+			x: 4.75d
 			y: -1.75d
 			dependencies: ["28C3F89057684CC6"]
 			id: "414FB84D8E12D770"
@@ -1083,7 +1091,7 @@
 			}]
 		}
 		{
-			x: 3.25d
+			x: 3.75d
 			y: -2.75d
 			dependencies: ["28C3F89057684CC6"]
 			id: "1C3E182744A46821"
@@ -1094,7 +1102,7 @@
 			}]
 		}
 		{
-			x: 3.5d
+			x: 3.0d
 			y: 1.0d
 			dependencies: ["28C3F89057684CC6"]
 			id: "281F853004D0032C"
@@ -1123,8 +1131,8 @@
 					Damage: 0
 				}
 			}
-			x: 3.5071428571428527d
-			y: 5.98571428571428d
+			x: 3.5d
+			y: 6.0d
 			hide_dependency_lines: true
 			dependencies: ["28C3F89057684CC6"]
 			id: "492116474A965E37"
@@ -1159,8 +1167,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 8.25d
+			x: 10.0d
+			y: 7.25d
 			hide_dependency_lines: true
 			dependencies: ["28C3F89057684CC6"]
 			id: "5CA6BAB71797C1A5"
@@ -1177,8 +1185,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 8.25d
+			x: -1.25d
+			y: 8.0d
 			hide_dependency_lines: true
 			dependencies: ["28C3F89057684CC6"]
 			id: "731299D4DEB93C9F"
@@ -1195,8 +1203,8 @@
 			}]
 		}
 		{
-			x: 2.25d
-			y: 0.0d
+			x: 2.0d
+			y: -0.75d
 			subtitle: "The Third Eye"
 			description: [
 				"In order to have those saplings, you will have to throw &2Oak Saplings&r in the &5&lSpiritfire&r. "
@@ -1317,8 +1325,8 @@
 		{
 			title: "Ophyx' Calling"
 			icon: "occultism:ritual_dummy/summon_foliot_transport_items"
-			x: -2.0d
-			y: 7.0d
+			x: 9.0d
+			y: 6.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"492116474A965E37"
@@ -1354,8 +1362,8 @@
 		{
 			title: "Strigeor's Higher Binding"
 			icon: "occultism:ritual_dummy/craft_miner_foliot_unspecialized"
-			x: -2.5d
-			y: 8.75d
+			x: 11.5d
+			y: 7.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"492116474A965E37"
@@ -1392,8 +1400,8 @@
 		{
 			title: "Ihagan's Enthrallement"
 			icon: "occultism:ritual_dummy/familiar_beaver"
-			x: 0.5d
-			y: 8.75d
+			x: 8.75d
+			y: 7.75d
 			hide_dependency_lines: true
 			dependencies: [
 				"492116474A965E37"
@@ -1430,8 +1438,8 @@
 		{
 			title: "Abras' Conjure"
 			icon: "occultism:ritual_dummy/summon_marid_crusher"
-			x: 7.0d
-			y: 7.0d
+			x: -2.25d
+			y: 6.75d
 			hide_dependency_lines: true
 			dependencies: [
 				"492116474A965E37"
@@ -1473,8 +1481,8 @@
 		{
 			title: "Sevira's Permanent Confinement"
 			icon: "occultism:ritual_dummy/familiar_greedy"
-			x: -1.0d
-			y: 9.75d
+			x: 10.0d
+			y: 8.75d
 			hide_dependency_lines: true
 			dependencies: [
 				"492116474A965E37"
@@ -1516,8 +1524,8 @@
 		{
 			title: "Abras' Open Conjure"
 			icon: "occultism:ritual_dummy/familiar_deer"
-			x: -1.0d
-			y: 6.75d
+			x: 10.0d
+			y: 5.75d
 			hide_dependency_lines: true
 			dependencies: [
 				"492116474A965E37"
@@ -1559,8 +1567,8 @@
 		{
 			title: "Uphyxes Inverted Tower"
 			icon: "occultism:ritual_dummy/familiar_beaver"
-			x: 8.75d
-			y: 7.0d
+			x: -0.5d
+			y: 6.75d
 			hide_dependency_lines: true
 			dependencies: [
 				"492116474A965E37"
@@ -1613,8 +1621,8 @@
 		{
 			title: "Osorin's Unbond Calling"
 			icon: "occultism:ritual_dummy/possess_enderman"
-			x: 0.0d
-			y: 7.0d
+			x: 11.0d
+			y: 6.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"492116474A965E37"
@@ -1644,8 +1652,8 @@
 		{
 			title: "Abra's Commanding Conjure"
 			icon: "occultism:ritual_dummy/craft_miner_djinni_ores"
-			x: 9.25d
-			y: 8.75d
+			x: 0.0d
+			y: 8.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"492116474A965E37"
@@ -1685,8 +1693,8 @@
 			]
 		}
 		{
-			x: -11.5d
-			y: 13.5d
+			x: -41.25d
+			y: 11.0d
 			id: "6FC77C5EB529AB83"
 			tasks: [{
 				id: "448AAE1936254AD6"
@@ -1703,8 +1711,8 @@
 					spiritName: "Merclod"
 				}
 			}
-			x: 27.5d
-			y: -3.0d
+			x: 29.75d
+			y: -7.5d
 			hide_dependency_lines: true
 			dependencies: ["4DA463AF4ABD0CA4"]
 			id: "74563AAF98B15559"
@@ -1816,8 +1824,8 @@
 					Throttle: 1.0d
 				}
 			}
-			x: -1.0d
-			y: 12.25d
+			x: 10.0d
+			y: 11.25d
 			dependencies: ["4DA463AF4ABD0CA4"]
 			id: "6C3FEE33DA89CD2F"
 			tasks: [
@@ -1903,8 +1911,8 @@
 					}
 				}
 			}
-			x: 1.5d
-			y: 8.75d
+			x: 7.5d
+			y: 7.75d
 			dependencies: ["04834CC722C4C4C8"]
 			id: "0B6A6613A0CE81AF"
 			tasks: [
@@ -1942,8 +1950,8 @@
 		{
 			title: "Tier 2 Beehive"
 			icon: "resourcefulbees:t2_beehive"
-			x: -0.25d
-			y: 10.75d
+			x: 10.75d
+			y: 9.75d
 			dependencies: ["4DA463AF4ABD0CA4"]
 			id: "728085D8E0D5C906"
 			tasks: [
@@ -1975,8 +1983,8 @@
 		{
 			title: "Tier 2 Hive Upgrade"
 			icon: "resourcefulbees:t2_hive_upgrade"
-			x: -1.75d
-			y: 10.75d
+			x: 9.25d
+			y: 9.75d
 			dependencies: ["4DA463AF4ABD0CA4"]
 			id: "28407F98D7435E9D"
 			tasks: [
@@ -2008,8 +2016,8 @@
 		{
 			title: "Redstone Flux Cell Frame"
 			icon: "thermal:energy_cell_frame"
-			x: -3.5d
-			y: 7.75d
+			x: 12.5d
+			y: 6.75d
 			dependencies: ["3A99B2052AE4BAC9"]
 			id: "08DD28074EF4CCEA"
 			tasks: [
@@ -2028,7 +2036,14 @@
 				{
 					id: "540B1F186D8980CB"
 					type: "item"
-					item: "chipped:birch_wood_glass_3"
+					title: "2x Glass"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:glass"
+						}
+					}
 					count: 2L
 				}
 				{
@@ -2047,8 +2062,8 @@
 		{
 			title: "Fluid Cell Frame"
 			icon: "thermal:fluid_cell_frame"
-			x: -3.5d
-			y: 9.75d
+			x: 12.5d
+			y: 8.25d
 			dependencies: ["3A99B2052AE4BAC9"]
 			id: "2B49BCA647B9F2BA"
 			tasks: [
@@ -2067,7 +2082,14 @@
 				{
 					id: "11F3F42C96E03634"
 					type: "item"
-					item: "connectedglass:clear_glass_red"
+					title: "2x Glass"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:glass"
+						}
+					}
 					count: 2L
 				}
 				{
@@ -2086,8 +2108,8 @@
 		{
 			title: "Machine Frame"
 			icon: "thermal:machine_frame"
-			x: -3.5d
-			y: 8.75d
+			x: 13.0d
+			y: 7.5d
 			dependencies: ["3A99B2052AE4BAC9"]
 			id: "44BDB20559198FA9"
 			tasks: [
@@ -2106,7 +2128,14 @@
 				{
 					id: "7B040C1519A08156"
 					type: "item"
-					item: "chipped:oak_wood_glass_6"
+					title: "2x Glass"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:glass"
+						}
+					}
 					count: 2L
 				}
 				{
@@ -2125,8 +2154,8 @@
 		{
 			title: "Terrestrial Agglomeration Plate"
 			icon: "botania:terra_plate"
-			x: -1.0d
-			y: 11.25d
+			x: 10.0d
+			y: 10.25d
 			dependencies: ["4DA463AF4ABD0CA4"]
 			id: "0AC291F444BB3BD7"
 			tasks: [
@@ -2292,7 +2321,7 @@
 		}
 		{
 			x: 3.5d
-			y: 2.75d
+			y: 2.5d
 			dependencies: ["281F853004D0032C"]
 			id: "6A5EBC02B04CDB0D"
 			tasks: [{
@@ -2304,8 +2333,8 @@
 		{
 			title: "How to get stables ones?"
 			icon: "occultism:ritual_dummy/craft_stable_wormhole"
-			x: 0.75d
-			y: 0.0d
+			x: 1.0d
+			y: -0.25d
 			subtitle: "Sapling Trader"
 			description: [
 				"With the &6Aviar's Circle&r ritual you will be able to summon the &5Otherworld Sapling Trader&r. This guy will trade : "
@@ -2350,8 +2379,8 @@
 		}
 		{
 			title: "Stable Otherworld Saplings"
-			x: 0.0d
-			y: -1.0d
+			x: 0.25d
+			y: -1.25d
 			subtitle: "Farming for life"
 			description: ["Now, as you now have &n&5Stable Saplings&r. You will now be able to farm them without the &eThird Eye&r effect."]
 			dependencies: ["7FFAB1924AA0EAD7"]
@@ -2409,6 +2438,7 @@
 		{
 			x: 3.5d
 			y: 15.75d
+			subtitle: "Crafting and Storing"
 			description: [
 				"The &5Dimensional Storage Actuator&r consists of a &6Dimensional Matrix&r inhabited by a &2Djinni&r that creates and manages a storage dimension and a &6Base&r, infused with a &2Foliot&r that moves items in and out the storage dimension."
 				""
@@ -2607,7 +2637,7 @@
 			y: -2.75d
 			subtitle: "Stronger wood"
 			description: [
-				"Craft &#482705Treated Wood&r Planks with any &#806517Planks&r."
+				"Craft &#482705Treated Wood Planks&r with any &#806517Planks&r."
 				""
 				"See &oJEI&r for the four methods (&lCrafting&r, &lThrow item in fluid&r, &oCreate&r's &lMixing&r, and &oTinkers' Construct&r's &lCasting&r)."
 			]
@@ -2616,7 +2646,7 @@
 			tasks: [{
 				id: "7FA5496D2D5C9E03"
 				type: "item"
-				title: "&#482705Treated Wood&r Planks"
+				title: "&#482705Treated Wood Planks&r"
 				item: "immersiveengineering:treated_wood_horizontal"
 			}]
 		}
@@ -2641,10 +2671,7 @@
 			y: -4.75d
 			subtitle: "Flat iron"
 			description: ["Craft 2 &#61666AIron Plates&r with &oCreate&r's &lPressing&r or &oTinkers' Construct&r's &lCasting&r."]
-			dependencies: [
-				"3F047B28738897A0"
-				"761BAE3E76AB71A3"
-			]
+			dependencies: ["12F51EE93A420344"]
 			dependency_requirement: "one_completed"
 			id: "64C0C3B3A787D7E9"
 			tasks: [{
@@ -2686,7 +2713,7 @@
 			description: [
 				"Mix &7Grout&r and &#C2B280Sandstone&r in a &oCreate&r's &lMechanical Mixer&r and &lBasin&r (&4Heated&r) for obtain &#6A6A6ACoke Brick&r."
 				"Repeat the operation &n27 times&r, and create a &n3x3x3 structure&r with the &#6A6A6ACoke Bricks&r."
-				"Now &nright click&r on the structure with an &6Engineer's Hammer&r for form a &l&#6A6A6ACoke Oven&r."
+				"Now &nright click&r on the structure with an &6Engineer's Hammer&r (on the middle block) to form a &l&#6A6A6ACoke Oven&r."
 				""
 				"&oJust look at the &#6A6A6ACoke Oven&f to validate the quest.&r"
 			]
@@ -2777,22 +2804,8 @@
 			]
 		}
 		{
-			x: -39.0d
-			y: 1.25d
-			id: "3ECE4BD2BBA1246D"
-			tasks: [{
-				id: "41C2B70A70EC18E3"
-				type: "observation"
-				title: "Bucket Wheel"
-				icon: "immersiveengineering:bucket_wheel"
-				timer: 0L
-				observe_type: 0
-				to_observe: ""
-			}]
-		}
-		{
-			x: -38.0d
-			y: 1.25d
+			x: -36.75d
+			y: 0.25d
 			id: "01BBDEDBA8C75318"
 			tasks: [{
 				id: "1A0E8328A746D7A9"
@@ -2806,7 +2819,7 @@
 		}
 		{
 			x: -39.0d
-			y: 2.25d
+			y: 1.75d
 			id: "58B192367229EBFC"
 			tasks: [{
 				id: "592E5CC55FB05BE3"
@@ -2819,7 +2832,7 @@
 			}]
 		}
 		{
-			x: -38.0d
+			x: -36.75d
 			y: 2.25d
 			id: "413B892C84FCA06C"
 			tasks: [{
@@ -2834,7 +2847,7 @@
 		}
 		{
 			x: -39.0d
-			y: 3.25d
+			y: 2.75d
 			id: "660C6DD3AED86A77"
 			tasks: [{
 				id: "43001B6B745ED401"
@@ -2847,7 +2860,7 @@
 			}]
 		}
 		{
-			x: -38.0d
+			x: -36.75d
 			y: 3.25d
 			id: "5E27C3E81F00DB51"
 			tasks: [{
@@ -2861,8 +2874,8 @@
 			}]
 		}
 		{
-			x: -39.0d
-			y: 4.25d
+			x: -40.0d
+			y: 1.75d
 			id: "4E1AE9CFAF4C589D"
 			tasks: [{
 				id: "5631BF3B8469A3D4"
@@ -2875,7 +2888,7 @@
 			}]
 		}
 		{
-			x: -38.0d
+			x: -36.75d
 			y: 4.25d
 			id: "2860A92511D65B51"
 			tasks: [{
@@ -2889,8 +2902,8 @@
 			}]
 		}
 		{
-			x: -39.0d
-			y: 5.25d
+			x: -40.0d
+			y: 2.75d
 			id: "7F04949A20A54564"
 			tasks: [{
 				id: "2EA3E57783919E2A"
@@ -2979,11 +2992,7 @@
 			x: -16.75d
 			y: 6.75d
 			hide_dependency_lines: true
-			dependencies: [
-				"64C0C3B3A787D7E9"
-				"761BAE3E76AB71A3"
-				"3892F7C2CF403F2F"
-			]
+			dependencies: ["64C0C3B3A787D7E9"]
 			id: "6946CF4294296D6C"
 			tasks: [{
 				id: "61DCDDD1B4F63D80"
@@ -3010,8 +3019,8 @@
 		}
 		{
 			title: "&4Redstone Ingots&r"
-			x: -30.25d
-			y: 14.75d
+			x: -32.25d
+			y: 13.75d
 			subtitle: "What would iron and redstone do mixed together?"
 			description: ["Craft &4Redstone Ingots&r by filling &4Destabilized Redstone&r on &#61666AIron Ingot&r with a &oCreate&r's &lSpout&r."]
 			dependencies: [
@@ -3027,8 +3036,8 @@
 			}]
 		}
 		{
-			x: -26.25d
-			y: 16.75d
+			x: -32.25d
+			y: 17.75d
 			subtitle: "&3Mr.Freeze®&r taste steel"
 			description: ["Craft &#71797ESteel Rod&r with &oTinkers' Construct&r's &lCasting&r."]
 			hide_dependency_lines: true
@@ -3042,8 +3051,8 @@
 			}]
 		}
 		{
-			x: -24.0d
-			y: 14.75d
+			x: -22.0d
+			y: 11.5d
 			shape: "square"
 			subtitle: "Crafting Table for engineers"
 			description: ["The &#482705Engineer's Crafting Table&r works like a vanilla &#806517Crafting Table&r, but keeps items when the player leave it, and has a little integrated inventory."]
@@ -3059,11 +3068,11 @@
 		}
 		{
 			title: "&4Destabilized Redstone&r"
-			x: -32.25d
+			x: -34.25d
 			y: 13.75d
 			subtitle: "Warning, it seems to be unstable"
 			description: ["Melt &4Redstone Dust&r in &oTinkers' Construct&r's &lMelter&r, &lSmeltery&r or &lFoundry&r for obtain &4Destabilized Redstone&r."]
-			dependencies: ["52A9D4F9E61253F4"]
+			dependencies: ["12F51EE93A420344"]
 			id: "32FAF87264E68467"
 			tasks: [{
 				id: "33097B2959BB6149"
@@ -3074,12 +3083,12 @@
 		}
 		{
 			title: "&#B87333Copper Plates&r"
-			x: -32.25d
+			x: -34.25d
 			y: 15.75d
 			description: ["Craft &#B87333Copper Plates&r with &oCreate&r's &lPressing&r or &oTinkers' Construct&r's &lCasting&r."]
 			dependencies: [
-				"3F047B28738897A0"
-				"761BAE3E76AB71A3"
+				"12F51EE93A420344"
+				"4339BD51E04343A5"
 			]
 			dependency_requirement: "one_completed"
 			id: "410DE957C60A9106"
@@ -3092,8 +3101,8 @@
 		}
 		{
 			title: "&#F2E279Electrum Plates&r"
-			x: -32.25d
-			y: 17.75d
+			x: -22.25d
+			y: 16.75d
 			description: ["Craft &#F2E279Electrum Plates&r with &oCreate&r's &lPressing&r or &oTinkers' Construct&r's &lCasting&r."]
 			dependencies: [
 				"3F047B28738897A0"
@@ -3111,7 +3120,7 @@
 		}
 		{
 			title: "&#F2E279Electrum Ingots&r"
-			x: -34.25d
+			x: -20.25d
 			y: 17.75d
 			description: [
 				"Put fuel in the bottom left slot of the &#D5A372Alloy Kiln&r, and &#FFD700Gold&r and &#BCC6CCSilver&r in the top left slots (&l&nInputs&r)."
@@ -3134,7 +3143,7 @@
 		}
 		{
 			x: -14.75d
-			y: 8.75d
+			y: 0.75d
 			dependencies: [
 				"59B5DA1131F36D6B"
 				"7FA5496D2D5C9E03"
@@ -3150,7 +3159,7 @@
 		{
 			title: "&#F2E279Electrum Wires&r"
 			x: -14.75d
-			y: 10.75d
+			y: -1.25d
 			hide_dependency_lines: true
 			dependencies: [
 				"049DFE4A3A6B520D"
@@ -3179,8 +3188,8 @@
 			}]
 		}
 		{
-			x: -10.5d
-			y: 9.5d
+			x: -40.25d
+			y: 7.0d
 			id: "1D62145BA6DCD8D6"
 			tasks: [{
 				id: "2D33EE98DA71CC21"
@@ -3189,8 +3198,8 @@
 			}]
 		}
 		{
-			x: -10.5d
-			y: 10.5d
+			x: -40.25d
+			y: 8.0d
 			id: "0B76EA5C2D4CA613"
 			tasks: [{
 				id: "3C089608B811FEF1"
@@ -3199,8 +3208,8 @@
 			}]
 		}
 		{
-			x: -10.5d
-			y: 8.5d
+			x: -40.25d
+			y: 6.0d
 			id: "6509071445D1CE84"
 			tasks: [{
 				id: "4DA76F84A9784AC0"
@@ -3446,9 +3455,11 @@
 			]
 		}
 		{
-			x: 9.75d
-			y: 3.0d
+			x: 9.25d
+			y: 1.5d
+			shape: "square"
 			subtitle: "Farming these mobs can be a good idea"
+			description: ["Thanks to the &5&lOccultism&r Mod you will be able to summon mobs that will drop you some useful stuff. "]
 			hide_dependency_lines: true
 			dependencies: ["3A5569B8FB3C4F7B"]
 			hide_text_until_complete: false
@@ -3462,14 +3473,18 @@
 		}
 		{
 			title: "Possessed Endermen"
-			x: 9.75d
-			y: 1.75d
+			icon: "minecraft:ender_pearl"
+			x: 7.25d
+			y: 3.0d
+			shape: "square"
 			subtitle: "Angry Enderman "
 			description: [
 				"In order to spawn &0&lPossessed Endermen&r you will have to use the &6Ihagan's Enthrallement&r ritual."
-				"Those &0&lEndermen&r will drop at least one enderpearl !"
+				"In order to complete the &0Ritual&r you'll need to sacrifice a &cPig&r."
+				"These &0&lEndermen&r will drop at least 1x enderpearl !"
 			]
 			dependencies: ["7260260F71172224"]
+			optional: true
 			id: "058892C1D78CDDB5"
 			tasks: [
 				{
@@ -3502,14 +3517,6 @@
 							spiritName: "Cruarczur"
 						}
 					}
-				}
-				{
-					id: "30420B798ED40555"
-					type: "questsadditions:killnbt"
-					entity: "minecraft:pig"
-					value: 1L
-					nbt: { }
-					checkItem: false
 				}
 			]
 		}
@@ -3593,14 +3600,1900 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 10.5d
+			x: -38.25d
+			y: 8.0d
 			id: "5F7F250777094542"
 			tasks: [{
 				id: "015A7DAEEB49FF30"
 				type: "item"
 				item: "immersiveengineering:transformer"
 			}]
+		}
+		{
+			x: -30.25d
+			y: 16.75d
+			dependencies: ["793A201C5DDEAA9E"]
+			id: "5D455708D55CE036"
+			tasks: [{
+				id: "1896497D5BD572D5"
+				type: "item"
+				item: "immersiveengineering:steel_scaffolding_standard"
+			}]
+		}
+		{
+			x: -26.25d
+			y: 16.75d
+			dependencies: ["12F51EE93A420344"]
+			id: "3DFBCDFFA464FE2F"
+			tasks: [{
+				id: "5017B20016FE2384"
+				type: "item"
+				item: "immersiveengineering:conveyor_basic"
+			}]
+		}
+		{
+			x: -16.75d
+			y: 8.75d
+			dependencies: [
+				"6946CF4294296D6C"
+				"6F12B52BF15AFC39"
+				"69B8835302C8B686"
+			]
+			id: "2E6DA2A5DA079928"
+			tasks: [{
+				id: "07D6DC19FC493CA7"
+				type: "item"
+				title: "&eLight Engineering Block&r"
+				item: "immersiveengineering:light_engineering"
+			}]
+		}
+		{
+			title: "Possessed Endermites"
+			icon: "minecraft:end_stone"
+			x: 11.25d
+			y: 3.0d
+			shape: "square"
+			subtitle: "Help ! They're small ! "
+			description: [
+				"&5&lPossessed Endermites&r can be summoned thanks to the &6Heydrin's Lure&r &0ritual&r."
+				"In order to complete the &0Ritual&r you'll need to throw (with a right-click) the egg near the &6Golden Ritual Bowl&r."
+				"&5&lPossessed Endermites&r will at least drop 1x End Stone !"
+			]
+			dependencies: ["7260260F71172224"]
+			optional: true
+			id: "29097E9D8404A837"
+			tasks: [
+				{
+					id: "1BE1FFA0AFF30F8F"
+					type: "item"
+					item: "minecraft:stone"
+					count: 2L
+				}
+				{
+					id: "443E892896EEF896"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 2L
+				}
+				{
+					id: "06D3C79072D2FF3E"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_foliot"
+						Count: 1b
+						tag: {
+							spiritName: "Cacramed"
+						}
+					}
+				}
+				{
+					id: "63DB51361711828C"
+					type: "item"
+					item: "minecraft:egg"
+				}
+			]
+		}
+		{
+			title: "Possessed Skeletons"
+			icon: "minecraft:skeleton_skull"
+			x: 8.25d
+			y: 3.0d
+			shape: "square"
+			subtitle: "Skeletons V2"
+			description: [
+				"&l&7Possessed Skeletons&r can be summoned thanks to the &6Heydrin's Lure&r ritual."
+				"In order to complete the &0ritual&r, you will have to sacrifice a Chicken near the &6Golden Sacrifical Bowl&r."
+				"These &l&7Skeletons&r will drop you at least 1x Skeleton Skull."
+			]
+			dependencies: ["7260260F71172224"]
+			optional: true
+			secret: true
+			id: "3C5F10DE4AFF6964"
+			tasks: [
+				{
+					id: "60A7BB08C1D10BFE"
+					type: "item"
+					item: "minecraft:bone"
+					count: 4L
+				}
+				{
+					id: "77880B9FADFC77EB"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_foliot"
+						Count: 1b
+						tag: {
+							spiritName: "Madarkmed"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Possessed Ghasts"
+			icon: "minecraft:ghast_tear"
+			x: 9.25d
+			y: 3.0d
+			shape: "square"
+			description: [
+				"&l&0Possessed Ghasts&r can be summoned with the &6Ihagan's Enthrallement&r ritual."
+				"In order to complete the &0ritual&r, you will need to sacrifice a cow near the &6Golden Sacrificial Bowl&r."
+				"These &0&lGhasts&r will drop you at least 1x Ghast Tear."
+			]
+			dependencies: ["7260260F71172224"]
+			optional: true
+			id: "59B1012D83958A06"
+			tasks: [
+				{
+					id: "0447D2F6646766D4"
+					type: "item"
+					item: "minecraft:lava_bucket"
+					count: 3L
+				}
+				{
+					id: "7836D81AD3FD6F31"
+					type: "item"
+					item: "minecraft:netherrack"
+					count: 3L
+				}
+				{
+					id: "35AC2DF37895B886"
+					type: "item"
+					item: "minecraft:magma_block"
+					count: 3L
+				}
+				{
+					id: "408EC85CE252AD6E"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "26C721CA68546761"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Cryairmed"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "The Wild Hunt"
+			icon: "minecraft:wither_skeleton_skull"
+			x: 10.25d
+			y: 3.0d
+			shape: "square"
+			subtitle: "Enraged Wither Skeletons"
+			description: [
+				"&0&lThe Wild Hunt&r is a group of &0Wither Skeletons&r that will summon &7Skeletons&r minions. You will need to kill the minions first in order to kill the &0Wither Skeletons&r."
+				"After being killed, they will drop at least 1x Wither Skeleton Skull."
+			]
+			dependencies: ["7260260F71172224"]
+			optional: true
+			id: "5AE2FDC5E1D367DF"
+			tasks: [
+				{
+					id: "5E96DCCA351C866C"
+					type: "item"
+					item: "emendatusenigmatica:copper_block"
+				}
+				{
+					id: "4D7A9DB5F190740A"
+					type: "item"
+					item: "minecraft:netherrack"
+				}
+				{
+					id: "177EB19593A745EA"
+					type: "item"
+					item: "minecraft:soul_sand"
+				}
+				{
+					id: "55D70C7F1A24A8CA"
+					type: "item"
+					item: "emendatusenigmatica:silver_block"
+				}
+				{
+					id: "33CE61B389062599"
+					type: "item"
+					item: "minecraft:gold_block"
+				}
+				{
+					id: "79DB73DBEEB82521"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "58B4660CC0694AEB"
+					type: "item"
+					item: {
+						id: "minecraft:skeleton_skull"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			title: "Familiars"
+			x: -1.75d
+			y: 3.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["3A5569B8FB3C4F7B"]
+			optional: true
+			id: "682300BC795A0E9C"
+			tasks: [{
+				id: "0073C52D0E7CA434"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Deer Familiar"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "occultism:textures/gui/book/familiar_deer.png"
+				}
+			}
+			x: -0.75d
+			y: 1.25d
+			shape: "square"
+			subtitle: "Christmas is here!"
+			description: [
+				"In order to summon the &3Deer Familiar&r you'll need the &6Heydrin's Lure&r ritual."
+				"You will need to sacrifice a &3Cow&r for this ritual."
+				"More Information can be found in the &e&lDictionnary Of Spirits&r."
+			]
+			dependencies: ["682300BC795A0E9C"]
+			optional: true
+			id: "2A4458719C36177D"
+			tasks: [
+				{
+					id: "26ED2444D25DD9E9"
+					type: "item"
+					item: "minecraft:stick"
+					count: 4L
+				}
+				{
+					id: "6FAA6A0B32E7E53B"
+					type: "item"
+					item: "minecraft:string"
+					count: 2L
+				}
+				{
+					id: "11FC46398B1B9599"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_foliot"
+						Count: 1b
+						tag: {
+							spiritName: "Mrokredure"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Drikwing Familiar"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "occultism:textures/gui/book/otherworld_bird.png"
+				}
+			}
+			x: -2.75d
+			y: 4.75d
+			shape: "square"
+			subtitle: "Ultimate Parrot"
+			description: [
+				"In order to summon the &5Drikwing Familiar&r you'll need the &6Ihagan's Enthrallment&r ritual and a Parrot has to be sacrified."
+				"The familiar grants : "
+				"-> &aMulti-Jump&r"
+				"->&a Jump Boost&r"
+				"->&a Slow Falling."
+				"More Information can be found in the &e&lDictionnary Of Spirits&r."
+			]
+			dependencies: ["682300BC795A0E9C"]
+			optional: true
+			id: "7A74AC82BF8D5B38"
+			tasks: [
+				{
+					id: "019495AEBCABB4AE"
+					type: "item"
+					item: "minecraft:feather"
+					count: 2L
+				}
+				{
+					id: "23D1303113924AE6"
+					type: "item"
+					item: "minecraft:string"
+				}
+				{
+					id: "373EBCA99575BDAB"
+					type: "item"
+					title: "1x Leaves"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:leaves"
+						}
+					}
+				}
+				{
+					id: "433EB21D9D49D6F6"
+					type: "item"
+					item: "minecraft:cobweb"
+				}
+				{
+					id: "5F321AF1EE6E9E17"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Mrokslamares"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Bat Familiar"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "occultism:textures/gui/book/bat_familiar.png"
+				}
+			}
+			x: -0.75d
+			y: 2.25d
+			shape: "square"
+			subtitle: "Escaped from the Batcave"
+			description: [
+				"The &5Bat&r familiar is summoned with the &6Ihagan's Enthrallment&r."
+				"To summon this familiar you'll need to sacrifice a &0&lBat&r."
+				"When the familiar is near, you'll gain the &bNight Vision&r effect. "
+				"If you upgrade the &5Bat&r familiar with a &eBlackSmith&r familiar, you will gain a &4Life-Steal&r effect."
+			]
+			dependencies: ["682300BC795A0E9C"]
+			optional: true
+			id: "25971F55D8AE540E"
+			tasks: [
+				{
+					id: "1358FC59B83C5312"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "25405D788C6850FF"
+					type: "item"
+					item: "minecraft:glowstone"
+				}
+				{
+					id: "3B14A5976EC9306A"
+					type: "item"
+					item: "minecraft:spider_eye"
+				}
+				{
+					id: "132C60EEEE0372E1"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+				{
+					id: "5CD344B87B3DBE87"
+					type: "item"
+					item: "minecraft:torch"
+				}
+				{
+					id: "488163D64F119DDF"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Azurtimd"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Cthulhu Familiar"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "occultism:textures/gui/book/familiar_cthulhu.png"
+				}
+			}
+			x: 0.25d
+			y: 2.25d
+			shape: "square"
+			subtitle: "No more drowning"
+			description: [
+				"In order to summon the &3Cthulhu Familiar&r you'll need the &6Ihagan's Enthrallment&r ritual."
+				"To summon this familiar you'll need to sacrifice a &b&lSquid&r."
+				"More Information can be found in the &e&lDictionnary Of Spirits&r."
+			]
+			dependencies: ["682300BC795A0E9C"]
+			optional: true
+			id: "59F12A804D7E5FDB"
+			tasks: [
+				{
+					id: "41FF674A028B1D16"
+					type: "item"
+					title: "8x Fishes"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "upgrade_aquatic:cooked_perch"
+									Count: 1b
+								}
+								{
+									id: "upgrade_aquatic:perch"
+									Count: 1b
+								}
+								{
+									id: "upgrade_aquatic:cooked_lionfish"
+									Count: 1b
+								}
+								{
+									id: "upgrade_aquatic:lionfish"
+									Count: 1b
+								}
+								{
+									id: "upgrade_aquatic:cooked_pike"
+									Count: 1b
+								}
+								{
+									id: "undergarden:raw_gwibling"
+									Count: 1b
+								}
+								{
+									id: "minecraft:pufferfish"
+									Count: 1b
+								}
+								{
+									id: "minecraft:cod"
+									Count: 1b
+								}
+								{
+									id: "minecraft:salmon"
+									Count: 1b
+								}
+								{
+									id: "environmental:koi"
+									Count: 1b
+								}
+								{
+									id: "sushigocrafting:raw_tuna"
+									Count: 1b
+								}
+								{
+									id: "sushigocrafting:shrimp"
+									Count: 1b
+								}
+								{
+									id: "upgrade_aquatic:pike"
+									Count: 1b
+								}
+								{
+									id: "undergarden:cooked_gwibling"
+									Count: 1b
+								}
+								{
+									id: "minecraft:tropical_fish"
+									Count: 1b
+								}
+								{
+									id: "minecraft:cooked_salmon"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 8L
+				}
+				{
+					id: "7F21AD4DDA85606A"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Ramiaeus"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Devil Familiar"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "occultism:textures/gui/book/familiar_devil.png"
+				}
+			}
+			x: 0.25d
+			y: 3.75d
+			shape: "square"
+			subtitle: "Satan as familiar"
+			description: [
+				"In order to summon the &4Devil Familiar&r you'll need the &6Ihagan's Enthrallment&r ritual."
+				"To summon this familiar you'll need to sacrifice a &c&lHorse&r."
+				"When the familiar is near, you'll gain the &4&lFire Resistance&r effect. "
+			]
+			dependencies: ["682300BC795A0E9C"]
+			optional: true
+			id: "146E968EECF879FF"
+			tasks: [
+				{
+					id: "24E918A22A7B0469"
+					type: "item"
+					item: "minecraft:bone"
+					count: 4L
+				}
+				{
+					id: "0E4100C59DAA193F"
+					type: "item"
+					item: "minecraft:lava_bucket"
+					count: 4L
+				}
+				{
+					id: "12013045D4DC711C"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Ratimtron"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Dragon Familiar"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "occultism:textures/gui/book/familiar_dragon.png"
+				}
+			}
+			x: -2.75d
+			y: 1.25d
+			shape: "square"
+			subtitle: "You're Wizard... Harry"
+			description: [
+				"In order to summon the &aDragon Familiar&r you'll need the &6Ihagan's Enthrallment&r ritual."
+				"To summon this familiar you'll need to sacrifice a &c&lHorse&r."
+				"More Information can be found in the &e&lDictionnary Of Spirits&r."
+			]
+			dependencies: ["682300BC795A0E9C"]
+			optional: true
+			id: "67B027EFA7AAAA85"
+			tasks: [
+				{
+					id: "2D70F3BB6C0CE022"
+					type: "item"
+					title: "Quartz Block"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:storage_blocks/quartz"
+						}
+					}
+				}
+				{
+					id: "1FA52C885BAA7126"
+					type: "item"
+					title: "Coal Block"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:storage_blocks/coal"
+						}
+					}
+				}
+				{
+					id: "04D38B5DD2B87D8D"
+					type: "item"
+					item: "chipped:obsidian_4"
+					count: 2L
+				}
+				{
+					id: "593337FF58ED04F5"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "48E63BE0A43F4323"
+					type: "item"
+					item: "minecraft:gold_block"
+				}
+				{
+					id: "42D19D49208B4720"
+					type: "item"
+					item: "minecraft:gunpowder"
+				}
+				{
+					id: "2964B4BC1699C9C5"
+					type: "item"
+					item: {
+						id: "minecraft:flint_and_steel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0C8C3C2A3FFADEA0"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Azakzermur"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Blacksmith Familiar"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "occultism:textures/gui/book/familiar_blacksmith.png"
+				}
+			}
+			x: -2.75d
+			y: 2.25d
+			shape: "square"
+			subtitle: "Repairing at it's best"
+			description: [
+				"In order to summon the &eBlacksmith Familiar&r you'll need the &6Heydrin's Lure&r ritual."
+				"You will need to sacrifice a &2&lZombie&r for this ritual."
+				"When summoned, the &eBlacksmith&r will be able to repair your items."
+				"The other cool thing is that he can upgrade other familiars."
+				"To do that , you'll need to give him &nIron Blocks&r or &nIngots&r. (&7&lYou'll need to right-click on him to do so and of course your Familiar that you want to be upgraded)&r."
+			]
+			dependencies: ["682300BC795A0E9C"]
+			optional: true
+			id: "58F4A9639F74EC86"
+			tasks: [
+				{
+					id: "3B0CE2F640BAC968"
+					type: "item"
+					item: {
+						id: "minecraft:iron_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5E400125A9A5FA37"
+					type: "item"
+					item: {
+						id: "minecraft:iron_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "410B0B911D4511AF"
+					type: "item"
+					item: {
+						id: "minecraft:iron_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "05DA38E2553B3B9F"
+					type: "item"
+					title: "4x Stones"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:stone"
+						}
+					}
+					count: 4L
+				}
+				{
+					id: "01B4038DE2E853B9"
+					type: "item"
+					item: "minecraft:anvil"
+				}
+				{
+					id: "0B7FCF36D9897640"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_foliot"
+						Count: 1b
+						tag: {
+							spiritName: "Creoredarc"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Guardian Familiar"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "occultism:textures/gui/book/familiar_guardian.png"
+				}
+			}
+			x: -2.75d
+			y: 3.75d
+			shape: "square"
+			subtitle: "Death can wait"
+			description: [
+				"The &b&lGuardian Familiar&r sacrifices a limb everytime it's master is about to die and thus prevents the death. Once the &bGuardian&r dies, the player is no longer protected. When summoned, the &bGuardian&r spawns with &lrandom amount of limbs&r, there is no garantee thata complete &bguardian&r is summoned."
+				"Limbs can be regained with the &eBlacksmith&r."
+				""
+				"To summon the &b&lGuardian&r the &6Abra's Commanding Conjure&r ritual and a Villager sacrifice will be needed."
+			]
+			dependencies: ["682300BC795A0E9C"]
+			optional: true
+			id: "1D66F0CD3F955DBD"
+			tasks: [
+				{
+					id: "543E62A648B7BDD9"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 4L
+				}
+				{
+					id: "720E399AA6CAB2B4"
+					type: "item"
+					item: "minecraft:golden_apple"
+					count: 2L
+				}
+				{
+					id: "731DE4E7E4B6A597"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_afrit"
+						Count: 1b
+						tag: {
+							spiritName: "Toastbroat"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Headless Ratman Familiar"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "occultism:textures/gui/book/familiar_headless_ratman.png"
+				}
+			}
+			x: -3.75d
+			y: 2.25d
+			shape: "square"
+			subtitle: "The Headless Horseman"
+			description: [
+				"The &c&lHeadless Ratman&r Familiar steals heads of mobs near the ratman when they are killed. It then provides a damage buff against that type of mob to their Master. Don't forget to sacrifice a SnowGolem to summon your familiar !"
+				"More Information can be found in the &e&lDictionnary Of Spirits&r."
+			]
+			dependencies: ["682300BC795A0E9C"]
+			optional: true
+			id: "7B0E0CC7C05CE1DB"
+			tasks: [
+				{
+					id: "1D7F039BC0BD0231"
+					type: "item"
+					item: "minecraft:wheat"
+					count: 2L
+				}
+				{
+					id: "0DEFF00532401260"
+					type: "item"
+					item: "minecraft:stick"
+					count: 2L
+				}
+				{
+					id: "2B72A284B2909406"
+					type: "item"
+					item: "minecraft:carved_pumpkin"
+				}
+				{
+					id: "5A87571114983994"
+					type: "item"
+					item: "minecraft:hay_block"
+				}
+				{
+					id: "2774A7147ED17767"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Crymirimur"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Chimera Familiar"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "occultism:textures/gui/book/familiar_chimera.png"
+				}
+			}
+			x: -3.75d
+			y: 1.25d
+			shape: "square"
+			subtitle: "A bigger dog"
+			description: [
+				"The &cChimera&r Familiar is like a giant dog. It can protect their master. If you give them meat they will start to grow and increase their &nspeed&r and &ndamage&r. You can also ride it ! Cool right?"
+				"To summon the familiar, you'll need the &6Ihagan's Enthrallment&r ritual. Don't forget to sacrifice a sheep to summon your familiar !"
+				"More Information can be found in the &e&lDictionnary Of Spirits&r."
+			]
+			dependencies: ["682300BC795A0E9C"]
+			optional: true
+			id: "0BF172F72A01A388"
+			tasks: [
+				{
+					id: "0808595C1629B587"
+					type: "item"
+					title: "Wool"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:wool"
+						}
+					}
+				}
+				{
+					id: "59B3FC87E996C7C0"
+					type: "item"
+					item: "minecraft:porkchop"
+				}
+				{
+					id: "2D60880414BBAD01"
+					type: "item"
+					item: "minecraft:beef"
+				}
+				{
+					id: "79B3527FF14FA8F8"
+					type: "item"
+					item: "minecraft:feather"
+				}
+				{
+					id: "7CF7F803F2FF2D7E"
+					type: "item"
+					item: "minecraft:string"
+				}
+				{
+					id: "1486F21EC0C03C20"
+					type: "item"
+					item: "minecraft:mutton"
+				}
+				{
+					id: "59FAF6799BCC4F61"
+					type: "item"
+					item: "minecraft:bone"
+				}
+				{
+					id: "5896A27E7AF500BC"
+					type: "item"
+					item: "minecraft:chicken"
+				}
+				{
+					id: "351435D3097B4815"
+					type: "item"
+					item: "minecraft:leather"
+				}
+				{
+					id: "43278F7E14B173D0"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Crymirimur"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Beholder Familiar"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "occultism:textures/gui/book/familiar_beholder.png"
+				}
+			}
+			x: -0.75d
+			y: 4.75d
+			shape: "square"
+			subtitle: "Eye for an eye"
+			description: [
+				"In order to summon the &cBeholder Familiar&r you'll need the &6Ihagan's Enthrallment&r ritual."
+				"To summon this familiar you'll need to sacrifice a &0&lSpider&r."
+				"More Information can be found in the &e&lDictionnary Of Spirits&r."
+			]
+			dependencies: ["682300BC795A0E9C"]
+			optional: true
+			id: "2C9C290AA1BD54E9"
+			tasks: [
+				{
+					id: "2C0F623040357AEB"
+					type: "item"
+					item: "minecraft:spider_eye"
+					count: 4L
+				}
+				{
+					id: "547F6994D145A3CC"
+					type: "item"
+					item: "minecraft:glowstone_dust"
+					count: 4L
+				}
+				{
+					id: "49B61501ABF59555"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Zurmizur"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Fairy Familiar"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "occultism:textures/gui/book/familiar_fairy.png"
+				}
+			}
+			disable_toast: true
+			x: 0.25d
+			y: 4.75d
+			shape: "square"
+			subtitle: "Life Saver"
+			description: [
+				"In order to summon the &cFairy Familiar&r you'll need the &6Ihagan's Enthrallment&r ritual."
+				"To summon this familiar you'll need to sacrifice a &1&lHorse&r."
+				"More Information can be found in the &e&lDictionnary Of Spirits&r."
+			]
+			dependencies: ["682300BC795A0E9C"]
+			optional: true
+			id: "5AE56434FFA6FCAE"
+			tasks: [
+				{
+					id: "2D354455E7130669"
+					type: "item"
+					item: "minecraft:gunpowder"
+					count: 3L
+				}
+				{
+					id: "6EF38B5EB400AAB9"
+					type: "item"
+					item: "minecraft:golden_apple"
+					count: 2L
+				}
+				{
+					id: "4D2B3069495965EB"
+					type: "item"
+					item: "minecraft:ghast_tear"
+				}
+				{
+					id: "1595FAB7D573F4F6"
+					type: "item"
+					item: "minecraft:dragon_breath"
+				}
+				{
+					id: "5AF60CA0034B42EB"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Mjolslamared"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Mummy Familiar"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "occultism:textures/gui/book/familiar_mummy.png"
+				}
+			}
+			x: -0.75d
+			y: 3.75d
+			shape: "square"
+			subtitle: "Sand Protector"
+			description: [
+				"In order to summon the &eMummy Familiar&r you'll need the &6Ihagan's Enthrallment&r ritual and a Llama has to be sacrified. "
+				"This familiar gives a protection to their master. Simple as that."
+				"When upgraded with the &eBlackmith Familiar&r it will deal more damage."
+			]
+			dependencies: ["682300BC795A0E9C"]
+			optional: true
+			id: "02D4502E38CF5785"
+			tasks: [
+				{
+					id: "1CA1A0BF52EFE64A"
+					type: "item"
+					title: "4x Wools"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:wool"
+						}
+					}
+					count: 4L
+				}
+				{
+					id: "28261FB8FA6F0FEC"
+					type: "item"
+					item: "minecraft:paper"
+					count: 2L
+				}
+				{
+					id: "63790B5A2C5F300A"
+					type: "item"
+					title: "2x Slimeballs"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:slimeballs"
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "60C37E4C426FCB8D"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Jagsalmarmur"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 28.75d
+			y: -6.0d
+			dependencies: ["74563AAF98B15559"]
+			id: "3E7BE20FD84CA144"
+			tasks: [{
+				id: "2C57BB7E6A0704DE"
+				type: "item"
+				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+		}
+		{
+			x: 28.75d
+			y: -4.0d
+			dependencies: ["3E7BE20FD84CA144"]
+			id: "03D9B0C5ACE47DE0"
+			tasks: [{
+				id: "285E4F54F0B03DAA"
+				type: "item"
+				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+		}
+		{
+			x: 30.75d
+			y: -4.0d
+			dependencies: ["03D9B0C5ACE47DE0"]
+			id: "2A7166322D887201"
+			tasks: [{
+				id: "042FCFE203186DD8"
+				type: "item"
+				item: "sophisticatedbackpacks:diamond_backpack"
+			}]
+		}
+		{
+			x: 30.75d
+			y: -6.0d
+			dependencies: ["2A7166322D887201"]
+			id: "5275B1528B1AAA07"
+			tasks: [{
+				id: "66B139559BB25624"
+				type: "item"
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}]
+		}
+		{
+			x: 31.25d
+			y: -2.25d
+			id: "77BF7BEB7C7B5229"
+			tasks: [{
+				id: "0121DED71BD78077"
+				type: "item"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+			}]
+		}
+		{
+			x: 31.25d
+			y: -1.25d
+			id: "1F62DA38EA9904FE"
+			tasks: [{
+				id: "3BAA9DA7C59B4A41"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+			}]
+		}
+		{
+			x: 39.25d
+			y: -1.25d
+			id: "71A5D604E50E941E"
+			tasks: [{
+				id: "5325B8A042DD9807"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_filter_upgrade"
+			}]
+		}
+		{
+			x: 31.25d
+			y: 0.75d
+			id: "6B97AA5D5C9BE323"
+			tasks: [{
+				id: "111B03DC19F674CB"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+			}]
+		}
+		{
+			x: 34.25d
+			y: -0.25d
+			id: "1D570B4D982237F5"
+			tasks: [{
+				id: "172B7FD8BB4DC902"
+				type: "item"
+				item: "sophisticatedbackpacks:xp_pump_upgrade"
+			}]
+		}
+		{
+			x: 34.25d
+			y: -1.25d
+			id: "2FF19C93998D7B8A"
+			tasks: [{
+				id: "4DF4BB45272A0BA7"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_pump_upgrade"
+			}]
+		}
+		{
+			x: 24.25d
+			y: -2.25d
+			id: "3B786CEAECB69205"
+			tasks: [{
+				id: "3C9918FCAF6A5A8A"
+				type: "item"
+				item: "sophisticatedbackpacks:battery_upgrade"
+			}]
+		}
+		{
+			x: 34.25d
+			y: -2.25d
+			id: "47698AD606A9A21E"
+			tasks: [{
+				id: "3942A25BB851C14B"
+				type: "item"
+				item: "sophisticatedbackpacks:pump_upgrade"
+			}]
+		}
+		{
+			x: 22.25d
+			y: -2.25d
+			id: "60D02E4EBA5B16D3"
+			tasks: [{
+				id: "5FC9F61D6430100E"
+				type: "item"
+				item: "sophisticatedbackpacks:tank_upgrade"
+			}]
+		}
+		{
+			x: 29.25d
+			y: -1.25d
+			id: "0FB58C6787C5561D"
+			tasks: [{
+				id: "1337F7CBD7FB69BF"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+			}]
+		}
+		{
+			x: 29.25d
+			y: -2.25d
+			id: "762CCB05AA3AFE42"
+			tasks: [{
+				id: "2E1C36C59FA39DCB"
+				type: "item"
+				item: "sophisticatedbackpacks:tool_swapper_upgrade"
+			}]
+		}
+		{
+			x: 32.25d
+			y: -2.25d
+			id: "3D5E399364D63AD0"
+			tasks: [{
+				id: "12E2A85A671A8B5E"
+				type: "item"
+				item: "sophisticatedbackpacks:jukebox_upgrade"
+			}]
+		}
+		{
+			x: 19.25d
+			y: -2.25d
+			id: "4DDE60CE13BDA795"
+			tasks: [{
+				id: "08407E12BE87497B"
+				type: "item"
+				item: "sophisticatedbackpacks:upgrade_base"
+			}]
+		}
+		{
+			x: 23.25d
+			y: -2.25d
+			id: "6515A975C833F307"
+			tasks: [{
+				id: "538E7C214AE8B45C"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:smoking_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"polymorph:stack_recipe_data": { }
+					}
+				}
+			}]
+		}
+		{
+			x: 23.25d
+			y: -1.25d
+			id: "61EE6B8D9DD624CC"
+			tasks: [{
+				id: "34EDD0AB004DC967"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:auto_smoking_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"polymorph:stack_recipe_data": { }
+					}
+				}
+			}]
+		}
+		{
+			x: 27.25d
+			y: -2.25d
+			id: "7EA0C32C7CECD338"
+			tasks: [{
+				id: "492ABCCE5B37010B"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:blasting_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"polymorph:stack_recipe_data": { }
+					}
+				}
+			}]
+		}
+		{
+			x: 38.25d
+			y: -2.25d
+			id: "30132A9E617EB032"
+			tasks: [{
+				id: "24E79CB7F7496371"
+				type: "item"
+				item: "sophisticatedbackpacks:restock_upgrade"
+			}]
+		}
+		{
+			x: 38.25d
+			y: -1.25d
+			id: "11FDB31F0C75438A"
+			tasks: [{
+				id: "4B6556526989B1CE"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_restock_upgrade"
+			}]
+		}
+		{
+			x: 35.25d
+			y: -2.25d
+			id: "1FA17117928A3036"
+			tasks: [{
+				id: "2C5DD0F1BD4895F6"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:crafting_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"polymorph:stack_recipe_data": { }
+					}
+				}
+			}]
+		}
+		{
+			x: 28.25d
+			y: -2.25d
+			id: "7185F14ECC706925"
+			tasks: [{
+				id: "44B6D1222EB0E206"
+				type: "item"
+				item: "sophisticatedbackpacks:stonecutter_upgrade"
+			}]
+		}
+		{
+			x: 25.25d
+			y: -2.25d
+			id: "5E531159FD478B4A"
+			tasks: [{
+				id: "0FF949DC8403AD1E"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:smelting_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"polymorph:stack_recipe_data": { }
+					}
+				}
+			}]
+		}
+		{
+			x: 25.25d
+			y: -1.25d
+			id: "67FFD62BFB4EEF3B"
+			tasks: [{
+				id: "75C7A1AC3795FF87"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:auto_smelting_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"polymorph:stack_recipe_data": { }
+					}
+				}
+			}]
+		}
+		{
+			x: 21.25d
+			y: -2.25d
+			id: "2FFCD09CBE6F9163"
+			tasks: [{
+				id: "44DE19E2365CC99B"
+				type: "item"
+				item: "sophisticatedbackpacks:compacting_upgrade"
+			}]
+		}
+		{
+			x: 21.25d
+			y: -1.25d
+			id: "785827104D47D761"
+			tasks: [{
+				id: "52C00A33C6F76C4D"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_compacting_upgrade"
+			}]
+		}
+		{
+			x: 20.25d
+			y: -2.25d
+			id: "020C08865451A39F"
+			tasks: [{
+				id: "656726FF3C7F571A"
+				type: "item"
+				item: "sophisticatedbackpacks:void_upgrade"
+			}]
+		}
+		{
+			x: 20.25d
+			y: -1.25d
+			id: "345D4FB87B5D323D"
+			tasks: [{
+				id: "5F858401290FDDCE"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_void_upgrade"
+			}]
+		}
+		{
+			x: 26.25d
+			y: -2.25d
+			id: "363080D6237592BA"
+			tasks: [{
+				id: "36B8F13306B33D3B"
+				type: "item"
+				item: "sophisticatedbackpacks:deposit_upgrade"
+			}]
+		}
+		{
+			x: 26.25d
+			y: -1.25d
+			id: "50195DA20A4EA86A"
+			tasks: [{
+				id: "40E6BB9B038A8728"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
+			}]
+		}
+		{
+			x: 36.25d
+			y: -2.25d
+			id: "2B88688E253AC3B6"
+			tasks: [{
+				id: "3AA07016B865EDF8"
+				type: "item"
+				item: "sophisticatedbackpacks:refill_upgrade"
+			}]
+		}
+		{
+			x: 37.25d
+			y: -2.25d
+			id: "547352F2F51CA91E"
+			tasks: [{
+				id: "6CADB502C520638E"
+				type: "item"
+				item: "sophisticatedbackpacks:inception_upgrade"
+			}]
+		}
+		{
+			x: 30.25d
+			y: -1.25d
+			id: "563688BAB1C39A0E"
+			tasks: [{
+				id: "4BC70F212E0213EE"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+			}]
+		}
+		{
+			x: 39.25d
+			y: -2.25d
+			id: "2CC66059833AF128"
+			tasks: [{
+				id: "7BAF7B43881014D5"
+				type: "item"
+				item: "sophisticatedbackpacks:filter_upgrade"
+			}]
+		}
+		{
+			x: 30.25d
+			y: -2.25d
+			id: "1A5578C3634286B1"
+			tasks: [{
+				id: "2324A4582A5F7605"
+				type: "item"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+			}]
+		}
+		{
+			title: "Greedy Familiar"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "occultism:textures/gui/book/familiar_greedy.png"
+				}
+			}
+			x: -3.75d
+			y: 3.75d
+			shape: "square"
+			subtitle: "Vacuuming Items"
+			description: [
+				"In order to summon the &2Greedy Familiar&r you'll need the &6Heydrin's Lure&r ritual."
+				"You will need to sacrifice a &2&lZombie&r for this ritual."
+				"More Information can be found in the &e&lDictionnary Of Spirits&r."
+			]
+			dependencies: ["682300BC795A0E9C"]
+			optional: true
+			id: "4F1A427671EC0899"
+			tasks: [
+				{
+					id: "76415C056D283CAF"
+					type: "item"
+					item: "minecraft:iron_block"
+				}
+				{
+					id: "566EDE10AD14AA35"
+					type: "item"
+					item: "minecraft:dispenser"
+				}
+				{
+					id: "657F2BD8B71C3BDF"
+					type: "item"
+					item: "minecraft:hopper"
+				}
+				{
+					id: "01B512950EE71D3B"
+					type: "item"
+					title: "Chest"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:chests"
+						}
+					}
+				}
+				{
+					id: "04B36C231465D1A6"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_foliot"
+						Count: 1b
+						tag: {
+							spiritName: "Crusalmarder"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 33.25d
+			y: -2.25d
+			id: "3C6268F8DCBA976E"
+			tasks: [{
+				id: "7B3DAAF1829B7583"
+				type: "item"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+			}]
+		}
+		{
+			x: 31.25d
+			y: -0.25d
+			id: "50D4F08C9A173BD5"
+			tasks: [{
+				id: "17ABB97818C75F7A"
+				type: "item"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+			}]
+		}
+		{
+			x: 27.25d
+			y: -1.25d
+			id: "489E6C38004005CC"
+			tasks: [{
+				id: "63E300EA944CD974"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:auto_blasting_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"polymorph:stack_recipe_data": { }
+					}
+				}
+			}]
+		}
+		{
+			title: "To Ch. 3 (rename)"
+			x: 16.75d
+			y: 7.5d
+			shape: "gear"
+			dependencies: ["44BDB20559198FA9"]
+			size: 5.0d
+			id: "3FCE34A647C106C0"
+			tasks: [{
+				id: "726C8738FABF0840"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
+		}
+		{
+			title: "Weather And Time Magic"
+			x: -2.25d
+			y: 12.75d
+			shape: "square"
+			subtitle: "Please skip the rain ! "
+			description: ["The &5Occultism&r Mod allows you to control the time and weather ! "]
+			hide_dependency_lines: true
+			dependencies: ["3A5569B8FB3C4F7B"]
+			optional: true
+			id: "500F618789FA9762"
+			tasks: [{
+				id: "24167C00658808C2"
+				type: "checkmark"
+				title: "Weather And Time"
+			}]
+		}
+		{
+			title: "Rainy Weather"
+			icon: "occultism:ritual_dummy/summon_afrit_rain_weather"
+			x: -2.25d
+			y: 11.5d
+			shape: "square"
+			subtitle: "I'm singin' in the rain !"
+			description: ["To make &b&lThe Rain&r appear you'll need the &6Abra's Conjure&r ritual and you'll need to sacrifice a &ncow&r."]
+			dependencies: ["500F618789FA9762"]
+			optional: true
+			id: "2CB9F897A60A376F"
+			tasks: [
+				{
+					id: "2764B1B7B9BAEA7C"
+					type: "item"
+					title: "Sand"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:sand"
+						}
+					}
+				}
+				{
+					id: "7166A69A8DE170F8"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "7BE40ADF29BFC586"
+					type: "item"
+					item: "minecraft:cactus"
+				}
+				{
+					id: "7F553BBB48BD8F0B"
+					type: "item"
+					item: "minecraft:dead_bush"
+				}
+				{
+					id: "475F1C09B160A30D"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_afrit"
+						Count: 1b
+						tag: {
+							spiritName: "Barcresmur"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Clear Weather"
+			icon: "occultism:ritual_dummy/summon_afrit_rain_weather"
+			x: -1.25d
+			y: 11.5d
+			shape: "square"
+			subtitle: "I like the Sun"
+			description: ["To make &b&lThe Sun&r appear you'll need the &6Ophyx' Calling&r ritual."]
+			dependencies: ["500F618789FA9762"]
+			optional: true
+			id: "1750586C1E84A02E"
+			tasks: [
+				{
+					id: "0EA2FA3E72DF11FA"
+					type: "item"
+					item: "minecraft:carrot"
+				}
+				{
+					id: "43AE820BD260753A"
+					type: "item"
+					item: "minecraft:potato"
+				}
+				{
+					id: "23149528D24EB9EA"
+					type: "item"
+					item: "minecraft:wheat"
+				}
+				{
+					id: "52F5D5E56430FEB8"
+					type: "item"
+					item: "minecraft:beetroot"
+				}
+				{
+					id: "2D2F47C31F5854C1"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Mormuraeus"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Thunderstorm Ritual"
+			icon: "occultism:ritual_dummy/summon_afrit_thunder_weather"
+			x: -3.25d
+			y: 11.5d
+			shape: "square"
+			subtitle: "AC/DC will be proud!"
+			description: ["To make &e&lThunder&r appear you'll need the &6Abra's Conjure&r ritual and you'll need to sacrifice a &ncow&r."]
+			dependencies: ["500F618789FA9762"]
+			optional: true
+			id: "24E77AD49FCF6730"
+			tasks: [
+				{
+					id: "12A78B1AE4223C22"
+					type: "item"
+					item: "minecraft:gunpowder"
+					count: 2L
+				}
+				{
+					id: "328A21E508806330"
+					type: "item"
+					item: "minecraft:ghast_tear"
+				}
+				{
+					id: "358ACFCC60213862"
+					type: "item"
+					item: "minecraft:bone"
+				}
+				{
+					id: "4D0AC072CE6596B5"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_afrit"
+						Count: 1b
+						tag: {
+							spiritName: "Merarcark"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Summoning of Dawn "
+			icon: "ars_nouveau:ritual_sunrise"
+			x: -2.75d
+			y: 14.0d
+			shape: "square"
+			subtitle: "Let there be Light !"
+			description: ["In order to summon &eDawn&r you'll need the &6Ophyx' Calling&r ritual."]
+			dependencies: ["500F618789FA9762"]
+			optional: true
+			id: "31B14361DB4F095F"
+			tasks: [
+				{
+					id: "7D881990417A89C6"
+					type: "item"
+					item: "betterendforge:lucernia_sapling"
+				}
+				{
+					id: "145186FB821C413A"
+					type: "item"
+					item: "minecraft:torch"
+				}
+				{
+					id: "2A9AD2F55E4B813B"
+					type: "item"
+					item: "minecraft:wheat"
+				}
+				{
+					id: "2B0DA23292EB1581"
+					type: "item"
+					item: "minecraft:yellow_dye"
+				}
+				{
+					id: "3ABAF2ED612C97ED"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Madcraaeus"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Summoning of Dusk"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "darkpaintings:textures/painting/mr_moon.png"
+				}
+			}
+			x: -1.75d
+			y: 14.0d
+			shape: "square"
+			subtitle: "Darkness Comes"
+			description: ["In order to summon &0Dusk&r you'll need the &6Ophyx' Calling&r ritual."]
+			dependencies: ["500F618789FA9762"]
+			optional: true
+			id: "58A0B76EC5EAE974"
+			tasks: [
+				{
+					id: "1F39300D9F983EC2"
+					type: "item"
+					item: "minecraft:rotten_flesh"
+				}
+				{
+					id: "7727C71D8863FA14"
+					type: "item"
+					item: "minecraft:bone"
+				}
+				{
+					id: "02DCA5D740494B88"
+					type: "item"
+					item: "minecraft:black_dye"
+				}
+				{
+					id: "26BA28433689F48C"
+					type: "item"
+					title: "Bed"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:beds"
+						}
+					}
+				}
+			]
 		}
 	]
 }

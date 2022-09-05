@@ -270,7 +270,7 @@
 			}]
 		}
 		{
-			title: "To Ch. 2 (rename)"
+			title: "To &l&#71797ESteel Age&r  "
 			icon: {
 				id: "immersiveengineering:hammer"
 				Count: 1b
@@ -2966,7 +2966,7 @@
 			}]
 		}
 		{
-			x: 30.75d
+			x: 31.0d
 			y: 41.25d
 			dependencies: [
 				"2BA269B9CA2B23C4"
@@ -2980,7 +2980,7 @@
 			}]
 		}
 		{
-			x: 32.75d
+			x: 33.0d
 			y: 41.25d
 			dependencies: ["2A0681422D07EFB2"]
 			id: "5DBB65C63EE5ACB3"
@@ -3254,7 +3254,7 @@
 			}]
 		}
 		{
-			x: 32.75d
+			x: 33.0d
 			y: 43.25d
 			dependencies: ["5DBB65C63EE5ACB3"]
 			id: "5867ADBFEC86FF10"
@@ -3570,7 +3570,7 @@
 			}]
 		}
 		{
-			x: 30.75d
+			x: 31.0d
 			y: 45.25d
 			dependencies: ["0256960379E8E5E5"]
 			id: "63BFABD722A4669D"
@@ -3581,7 +3581,7 @@
 			}]
 		}
 		{
-			x: 32.75d
+			x: 33.0d
 			y: 45.25d
 			dependencies: ["5DBB65C63EE5ACB3"]
 			id: "0B22AA6F5904F596"
@@ -3858,7 +3858,7 @@
 			}]
 		}
 		{
-			title: "&lCrafting Table&r Method Step 1"
+			title: "&lCrafting Table&r Method Step 1   "
 			x: 21.75d
 			y: 40.0d
 			description: ["Combine 3 &#B87333Copper Dusts&r with a &#BAC4C8Zinc Dust&r in a &lCrafting Table&r."]
@@ -3899,7 +3899,7 @@
 			}]
 		}
 		{
-			title: "&lMechanical Mixer&r and Ingots Method"
+			title: "&lMechanical Mixer&r and Ingots Method    "
 			icon: "create:mechanical_mixer"
 			x: 23.5d
 			y: 40.75d
@@ -3920,7 +3920,7 @@
 			]
 		}
 		{
-			title: "&lMechanical Mixer&r and Crushed Ores Method Step 1"
+			title: "&lMechanical Mixer&r and Crushed Ores Method Step 1    "
 			x: 24.25d
 			y: 40.0d
 			description: ["Combine &#B87333Crushed Copper Ore&r and &#BAC4C8Crushed Zinc Ore&r in a &oCreate&r's &lMechanical Mixer&r and &lBasin&r (&4Heated&r). They will mix and form &#B5A642Crushed Brass&r."]
@@ -3940,7 +3940,7 @@
 			]
 		}
 		{
-			title: "&lCrafting Table&r Method Step 2"
+			title: "&lCrafting Table&r Method Step 2   "
 			x: 21.75d
 			y: 41.5d
 			description: ["Then smelt the obtained &#B5A642Brass Dust&r, and you will get &#B5A642Brass Ingots&r."]
@@ -3955,7 +3955,7 @@
 			}]
 		}
 		{
-			title: "&lMechanical Mixer&r and Crushed Ores Method Step 2"
+			title: "&lMechanical Mixer&r and Crushed Ores Method Step 2    "
 			x: 24.25d
 			y: 41.5d
 			description: [
@@ -4116,16 +4116,6 @@
 			}]
 		}
 		{
-			x: 17.75d
-			y: 18.25d
-			id: "122E2C091FFC226E"
-			tasks: [{
-				id: "28597B1A53A4328D"
-				type: "item"
-				item: "immersiveengineering:treated_wood_horizontal"
-			}]
-		}
-		{
 			x: 9.75d
 			y: 35.5d
 			id: "1028FFAB4A1B1C19"
@@ -4138,7 +4128,10 @@
 		{
 			x: 24.0d
 			y: 30.5d
-			dependencies: ["761BAE3E76AB71A3"]
+			dependencies: [
+				"761BAE3E76AB71A3"
+				"0115C672497D08A4"
+			]
 			id: "5D4588A88350465A"
 			tasks: [{
 				id: "338181DB0835FF75"
@@ -4270,7 +4263,7 @@
 			}]
 		}
 		{
-			x: 30.75d
+			x: 31.0d
 			y: 43.25d
 			dependencies: ["0256960379E8E5E5"]
 			id: "40F6FDDB65BEDF78"
@@ -4389,20 +4382,31 @@
 			}]
 		}
 		{
-			x: 30.75d
-			y: 39.25d
+			title: "&5The End&r"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "supplementaries:textures/map/end_portal.png"
+				}
+			}
+			x: 31.0d
+			y: 39.0d
+			shape: "rsquare"
 			dependencies: ["6C902F1FE4656987"]
+			size: 1.5d
 			id: "2BA269B9CA2B23C4"
 			tasks: [
 				{
 					id: "0A16DAFB4D65FA2A"
 					type: "dimension"
+					title: "Go to &5The End&r"
 					dimension: "minecraft:the_end"
 				}
 				{
 					id: "35E0759D6F1DEDD6"
 					type: "checkmark"
-					title: "Done"
+					title: "&aDone&r"
 				}
 			]
 		}
@@ -4474,6 +4478,17 @@
 						]
 					}
 				}
+			}]
+		}
+		{
+			x: 2.75d
+			y: 36.5d
+			dependencies: ["4FF742939987793B"]
+			id: "48CFB9E00EDBDCC7"
+			tasks: [{
+				id: "7D2680A9502CBAC0"
+				type: "item"
+				item: "tconstruct:rose_gold_ingot"
 			}]
 		}
 	]

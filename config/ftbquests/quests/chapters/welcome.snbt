@@ -11,7 +11,7 @@
 			Icon: "chroma:textures/quests/logo.png"
 		}
 	}
-	subtitle: ["&l&fWelcome to &n&bChroma Endless&r&f!"]
+	subtitle: ["&l&fWelcome to &n&bChroma Endless&r&f!      "]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -57,7 +57,13 @@
 		}
 		{
 			title: "Website"
-			icon: "kubejs:website"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "chroma:textures/quests/website.png"
+				}
+			}
 			x: -0.5d
 			y: 2.0d
 			subtitle: "Chroma Team's website."
@@ -77,7 +83,13 @@
 			}]
 		}
 		{
-			icon: "kubejs:teams"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbteams:textures/teams.png"
+				}
+			}
 			x: 1.5d
 			y: -1.25d
 			dependencies: ["1416718F40ED7569"]
@@ -142,7 +154,13 @@
 		}
 		{
 			title: "Chunks Claiming / Loading"
-			icon: "kubejs:chunks"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftblibrary:textures/icons/map.png"
+				}
+			}
 			x: 0.5d
 			y: -2.0d
 			dependencies: ["1416718F40ED7569"]
@@ -166,7 +184,13 @@
 			}]
 		}
 		{
-			icon: "kubejs:challenges"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "chroma:textures/quests/challenges.png"
+				}
+			}
 			x: -0.5d
 			y: -2.0d
 			dependencies: ["1416718F40ED7569"]
@@ -178,7 +202,7 @@
 			}]
 		}
 		{
-			icon: "kubejs:sound_muffler"
+			icon: "pedestals:upgradesoundmuffler"
 			x: -1.5d
 			y: -1.25d
 			dependencies: ["1416718F40ED7569"]
@@ -194,7 +218,7 @@
 				id: "ftbquests:custom_icon"
 				Count: 1b
 				tag: {
-					Icon: "kubejs:textures/item/discord.png"
+					Icon: "chroma:textures/quests/discord.png"
 				}
 			}
 			x: 0.5d

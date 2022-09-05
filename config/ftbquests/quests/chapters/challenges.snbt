@@ -8,7 +8,7 @@
 		id: "ftbquests:custom_icon"
 		Count: 1b
 		tag: {
-			Icon: "kubejs:textures/item/challenges.png"
+			Icon: "chroma:textures/quests/challenges.png"
 		}
 	}
 	default_quest_shape: "diamond"
