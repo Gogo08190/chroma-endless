@@ -38,8 +38,8 @@
         "CentrifugeData": {
           "hasCentrifugeOutput": true,
 
-          "mainOutput": "emendatusenigmatica:electrum_ingot",
-          "mainOutputWeight": 0.1,
+          "mainOutput": "emendatusenigmatica:electrum_nugget",
+          "mainOutputWeight": 0.4,
           "mainOutputCount": 1,
 
           "bottleOutput": "resourcefulbees:electrum_honey_bottle",

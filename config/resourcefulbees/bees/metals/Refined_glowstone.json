@@ -34,8 +34,8 @@
     "CentrifugeData": {
       "hasCentrifugeOutput": true,
 
-      "mainOutput": "mekanism:ingot_refined_glowstone",
-      "mainOutputWeight": 0.5,
+      "mainOutput": "mekanism:nugget_refined_glowstone",
+      "mainOutputWeight": 0.6,
       "mainOutputCount": 1,
 
       "bottleOutput": "resourcefulbees:refined_glowstone_honey_bottle",
