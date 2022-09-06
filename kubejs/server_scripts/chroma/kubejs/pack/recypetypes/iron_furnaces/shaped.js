@@ -83,6 +83,80 @@ onEvent('recipes', (event) => {
           },
           id: 'ironfurnaces:netherite_furnace'
       },
+      {
+          output: 'ironfurnaces:heater',
+          pattern: ['SES', 'SRS', 'SFS'],
+          key: {
+              S: '#forge:ingots/steel',
+              E: 'immersiveengineering:furnace_heater',
+              R: Item.of('thermal:energy_cell').ignoreNBT(),
+              F: 'thermal:rf_coil'
+          },
+          id: 'ironfurnaces:heater'
+      },
+      {
+          output: 'ironfurnaces:item_heater',
+          pattern: ['SRS', 'RFR', 'SRS'],
+          key: {
+              S: '#forge:ingots/steel',
+              F: 'thermal:rf_coil',
+              R: 'thermal:redstone_servo'
+          },
+          id: 'ironfurnaces:item_heater'
+      },
+      {
+          output: 'ironfurnaces:item_copy',
+          pattern: [' A ', 'ARA', ' A '],
+          key: {
+              A: '#forge:ingots/andesite_alloy',
+              R: 'thermal:redstone_servo'
+          },
+          id: 'ironfurnaces:item_copy'
+      },
+      {
+          output: 'ironfurnaces:augment_blasting',
+          pattern: ['ARA', 'PFP', 'ARA'],
+          key: {
+              A: '#forge:ingots/andesite_alloy',
+              R: 'extendedcrafting:redstone_ingot',
+              P: '#forge:plates/iron',
+              F: 'minecraft:blast_furnace'
+          },
+          id: 'ironfurnaces:augment_blasting'
+      },
+      {
+          output: 'ironfurnaces:augment_speed',
+          pattern: ['ARA', 'PFP', 'ARA'],
+          key: {
+              A: '#forge:ingots/andesite_alloy',
+              R: 'extendedcrafting:redstone_ingot',
+              P: '#forge:plates/iron',
+              F: 'supplementaries:hourglass'
+          },
+          id: 'ironfurnaces:augment_speed'
+      },
+      {
+          output: 'ironfurnaces:augment_fuel',
+          pattern: ['ARA', 'PFP', 'ARA'],
+          key: {
+              A: '#forge:ingots/andesite_alloy',
+              R: 'extendedcrafting:redstone_ingot',
+              P: '#forge:plates/iron',
+              F: '#forge:gems/coal_coke'
+          },
+          id: 'ironfurnaces:augment_fuel'
+      },
+      {
+          output: 'ironfurnaces:augment_smoking',
+          pattern: ['ARA', 'PFP', 'ARA'],
+          key: {
+              A: '#forge:ingots/andesite_alloy',
+              R: 'extendedcrafting:redstone_ingot',
+              P: '#forge:plates/iron',
+              F: 'minecraft:smoker'
+          },
+          id: 'ironfurnaces:augment_smoking'
+      }
     ];
 
     recipes.forEach((recipe) => {
