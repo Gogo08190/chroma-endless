@@ -2,7 +2,10 @@
 
 onEvent('recipes', (event) => {
     const idRemovals = [
-
+      'ironfurnaces:iron_furnace2',
+      'ironfurnaces:silver_furnace2',
+      'ironfurnaces:gold_furnace2',
+      'ironfurnaces:obsidian_furnace2',
     ];
 
     const outputRemovals = [
