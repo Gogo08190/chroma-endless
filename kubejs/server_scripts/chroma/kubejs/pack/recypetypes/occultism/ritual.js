@@ -36,7 +36,7 @@ onEvent('recipes', (event) => {
             ritual_type: 'occultism:craft_with_spirit_name',
             activation_item: 'occultism:book_of_binding_bound_foliot',
             pentacle_id: 'occultism:craft_djinni',
-            duration: 50,
+            duration: 20,
             ritual_dummy: 'thermal:machine_frame',
             ingredients: [
                 '#forge:gears/tin',
@@ -61,7 +61,7 @@ onEvent('recipes', (event) => {
             ritual_type: 'occultism:craft_with_spirit_name',
             activation_item: 'occultism:book_of_binding_bound_foliot',
             pentacle_id: 'occultism:craft_djinni',
-            duration: 50,
+            duration: 20,
             ritual_dummy: 'thermal:fluid_cell_frame',
             ingredients: [
                 '#forge:gears/bronze',
@@ -86,7 +86,7 @@ onEvent('recipes', (event) => {
             ritual_type: 'occultism:craft_with_spirit_name',
             activation_item: 'occultism:book_of_binding_bound_foliot',
             pentacle_id: 'occultism:craft_djinni',
-            duration: 50,
+            duration: 20,
             ritual_dummy: 'thermal:energy_cell_frame',
             ingredients: [
                 '#forge:gears/electrum',
