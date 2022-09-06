@@ -295,8 +295,8 @@
 			}]
 		}
 		{
-			x: -22.0d
-			y: 13.75d
+			x: -49.75d
+			y: -4.0d
 			shape: "square"
 			subtitle: "You aren't a real engineer if you haven't that"
 			description: ["The &#482705Engineer's Workbench&r is used for crafting a lot of &oImmersive Engineering&r's items. View &oJEI&r for see all recipes with this &#482705Workbench&r."]
@@ -334,8 +334,8 @@
 			}]
 		}
 		{
-			x: -24.25d
-			y: 13.75d
+			x: -52.0d
+			y: -4.0d
 			subtitle: "\"Mechanic\"? I'm going to build a car?"
 			description: ["You can craft &#71797ESteel Mechanical Component&r with 4 &#71797ESteel Plates&r and a &#B87333Copper Ingot&r, but it is cheaper in the &#482705Engineer's Workbench&r; so we advise you to craft only one for the &#482705Workbench&r and after use it."]
 			hide_dependency_lines: true
@@ -362,8 +362,8 @@
 			}]
 		}
 		{
-			x: -30.25d
-			y: 14.75d
+			x: -58.0d
+			y: -3.0d
 			dependencies: [
 				"147DA28F357CCFAE"
 				"2F571C765B55CFEE"
@@ -377,8 +377,8 @@
 			}]
 		}
 		{
-			x: -26.25d
-			y: 14.75d
+			x: -54.0d
+			y: -3.0d
 			dependencies: [
 				"71295F41D2D36494"
 				"5E6932FE693B1BAA"
@@ -462,8 +462,8 @@
 			}]
 		}
 		{
-			x: -32.25d
-			y: 15.75d
+			x: -60.0d
+			y: -2.0d
 			description: ["Craft &#B87333Copper Sheetmetal&r with &oCreate&r's &lCompacting&r."]
 			dependencies: [
 				"410DE957C60A9106"
@@ -489,8 +489,8 @@
 			}]
 		}
 		{
-			x: -24.25d
-			y: 15.75d
+			x: -52.0d
+			y: -2.0d
 			description: ["Craft &#F2E279Electrum Sheetmetal&r with &oCreate&r's &lCompacting&r."]
 			dependencies: [
 				"049DFE4A3A6B520D"
@@ -506,8 +506,8 @@
 			}]
 		}
 		{
-			x: -24.25d
-			y: 14.75d
+			x: -52.0d
+			y: -3.0d
 			subtitle: "Sheets, but in steel"
 			description: ["Craft &#71797ESteel Sheetmetal&r with &oCreate&r's &lCompacting&r."]
 			hide_dependency_lines: true
@@ -650,16 +650,14 @@
 		}
 		{
 			title: "&#D5A372Alloy Kiln&r"
-			x: -17.5d
-			y: 17.75d
+			x: -45.25d
+			y: 0.0d
 			shape: "square"
 			subtitle: "Another alloying method"
 			description: [
 				"Mix &#C2B280Sandstone&r and &#D5A372Molten Clay&r in a &oCreate&r's &lMechanical Mixer&r and &lBasin&r for obtain &#D5A372Kiln Brick&r."
 				"Repeat the operation &n8 times&r, and create a &n2x2x2 structure&r with the &#D5A372Kiln Bricks&r."
 				"Now &nright click&r on the structure with an &6Engineer's Hammer&r for form an &#D5A372Alloy Kiln&r."
-				""
-				"&oJust look at the &#D5A372Alloy Kiln&r to validate the quest.&r"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -688,8 +686,6 @@
 				"Mix &7Grout&r, &#EE7B06Magma Block&r and &#422117Nether Brick&r in a &oCreate&r's &lMechanical Mixer&r and &lBasin&r (&3Super-Heated&r) for obtain &#422117Blast Brick&r."
 				"Repeat the operation &n27 times&r, and create a &n3x3x3 structure&r with the &#422117Blast Brick&r."
 				"Now &nright click&r on the structure with an &6Engineer's Hammer&r (on the middle block) to form a &l&#422117Crude Blast Furnace&r."
-				""
-				"&oJust look at the &#422117Crude Blast Furnace&f to validate the quest.&r"
 			]
 			dependencies: [
 				"34AB0AFA85B55B89"
@@ -728,8 +724,8 @@
 		{
 			title: "&8Metal Press&r"
 			icon: "immersiveengineering:metal_press"
-			x: -28.25d
-			y: 15.75d
+			x: -51.5625d
+			y: 6.1875d
 			shape: "square"
 			subtitle: "Sss... BAM!"
 			description: [
@@ -743,13 +739,6 @@
 				" - &#71797EHeavy Engineering Block&r 1x"
 				""
 				"Finally, right click with an &6Engineer's Hammer&r on the piston, and the multiblock will form."
-			]
-			dependencies: [
-				"1ADD7F8A69F0DDEC"
-				"5D455708D55CE036"
-				"013EF1AC48991B24"
-				"3DFBCDFFA464FE2F"
-				"50B02DF11902C401"
 			]
 			size: 2.75d
 			id: "19862EE31DFDDAB0"
@@ -766,8 +755,9 @@
 		{
 			title: "Crusher"
 			icon: "immersiveengineering:crusher"
-			x: -41.0d
-			y: 1.75d
+			x: -51.5625d
+			y: 8.9375d
+			shape: "square"
 			description: [
 				"Steel Scaffolding 10x"
 				"Light Engineering Block 10x"
@@ -775,6 +765,7 @@
 				"Steel Fence 8x"
 				"Hopper 9x"
 			]
+			size: 2.75d
 			id: "073EACF91190BEA0"
 			tasks: [{
 				id: "1CD882B6CE896398"
@@ -788,8 +779,8 @@
 		{
 			title: "Sawmill"
 			icon: "immersiveengineering:sawmill"
-			x: -14.75d
-			y: 11.25d
+			x: -51.5625d
+			y: 11.6875d
 			shape: "square"
 			description: [
 				""
@@ -800,14 +791,6 @@
 				" - &#71797EHeavy Engineering Blocks&r 2x"
 				" - &4Redstone Engineering Block&r 1x"
 				" - &6Conveyor Belts&r 4x"
-			]
-			dependencies: [
-				"1896497D5BD572D5"
-				"61DCDDD1B4F63D80"
-				"07D6DC19FC493CA7"
-				"4CEEBCE55E153A30"
-				"29FEE8A65DFA239B"
-				"5017B20016FE2384"
 			]
 			size: 2.75d
 			id: "2AB4AE22B6E73EBA"
@@ -824,8 +807,8 @@
 		{
 			title: "Assembler"
 			icon: "immersiveengineering:assembler"
-			x: -14.75d
-			y: 7.75d
+			x: -51.5625d
+			y: 14.4375d
 			shape: "square"
 			description: [
 				""
@@ -836,13 +819,6 @@
 				" - &#61666AIron Sheetmetals&r 9x"
 				" - &#61666AIron Sheetmetals Slabs&r 6x"
 				" - &6Conveyor Belts&r 2x"
-			]
-			dependencies: [
-				"61DCDDD1B4F63D80"
-				"07D6DC19FC493CA7"
-				"1896497D5BD572D5"
-				"29FEE8A65DFA239B"
-				"5017B20016FE2384"
 			]
 			size: 2.75d
 			id: "65B718DAC2C88A4C"
@@ -857,15 +833,17 @@
 			}]
 		}
 		{
-			title: "Industrial Fermenter"
+			title: "Fermenter"
 			icon: "immersiveengineering:fermenter"
-			x: -35.75d
-			y: 1.25d
+			x: -51.5625d
+			y: 17.1875d
+			shape: "square"
 			description: [
 				"Steel Scaffolding 6x"
 				"Light Engineering Block 2x"
 				"Cauldron 4x"
 			]
+			size: 2.75d
 			id: "5DC309731882A5E1"
 			tasks: [{
 				id: "129949F4A24CE753"
@@ -878,10 +856,12 @@
 			}]
 		}
 		{
-			title: "Industrial Squeezer"
+			title: "Squeezer"
 			icon: "immersiveengineering:squeezer"
-			x: -35.75d
-			y: 2.25d
+			x: -51.5625d
+			y: 19.9375d
+			shape: "square"
+			size: 2.75d
 			id: "625FD0330E1BDA54"
 			tasks: [{
 				id: "1FAF532D6CAF5919"
@@ -896,8 +876,10 @@
 		{
 			title: "Refinery"
 			icon: "immersiveengineering:refinery"
-			x: -35.75d
-			y: 4.25d
+			x: -51.5625d
+			y: 22.6875d
+			shape: "square"
+			size: 2.75d
 			id: "1C4916687AD96A77"
 			tasks: [{
 				id: "541DFBBDCAA49B2F"
@@ -912,8 +894,10 @@
 		{
 			title: "Mixer"
 			icon: "immersiveengineering:mixer"
-			x: -36.75d
-			y: 1.25d
+			x: -51.5625d
+			y: 25.4375d
+			shape: "square"
+			size: 2.75d
 			id: "70CA1655FB8127B2"
 			tasks: [{
 				id: "7F03D07128E2459E"
@@ -928,8 +912,10 @@
 		{
 			title: "Bottling Machine"
 			icon: "immersiveengineering:bottling_machine"
-			x: -35.75d
-			y: 3.25d
+			x: -51.5625d
+			y: 28.1875d
+			shape: "square"
+			size: 2.75d
 			id: "18195DDA4F43EFCF"
 			tasks: [{
 				id: "1D65AF4DED2E9370"
@@ -942,13 +928,13 @@
 			}]
 		}
 		{
-			title: "&8Automated &#482705Engineer's Workbench&r"
+			title: "&8Automated &#482705Workbench&r"
 			icon: "immersiveengineering:auto_workbench"
-			x: -19.0d
-			y: 13.75d
+			x: -51.5625d
+			y: 30.9375d
 			shape: "square"
 			description: [
-				"The &8Automated &#482705Engineer's Workbench&r is used for automate &#482705Engineer's Workbench&r recipes."
+				"The &8Automated &#482705Workbench&r is used to automate &#482705Engineer's Workbench&r recipes."
 				""
 				"Display a preview with your &6Projector&r, and place this blocks:"
 				" - &#71797ESteel Scaffoldings&r 5x"
@@ -959,14 +945,6 @@
 				" - &6Conveyor Belts&r 4x"
 				""
 				"Finally, right click with an &6Engineer's Hammer&r on the middle &#482705Treated Wood Slab&r, and the multiblock will form."
-			]
-			dependencies: [
-				"52562D2492B5F2DA"
-				"2E6DA2A5DA079928"
-				"29FEE8A65DFA239B"
-				"1896497D5BD572D5"
-				"4CEEBCE55E153A30"
-				"5017B20016FE2384"
 			]
 			size: 2.75d
 			id: "5E1E836B766A4AA0"
@@ -983,8 +961,10 @@
 		{
 			title: "Arc Furnace"
 			icon: "immersiveengineering:arc_furnace"
-			x: -42.75d
-			y: 1.5d
+			x: -51.5625d
+			y: 33.6875d
+			shape: "square"
+			size: 2.75d
 			id: "29A495E5307C19C8"
 			tasks: [{
 				id: "5D069A3FB4A648BA"
@@ -1001,11 +981,14 @@
 				id: "ftbquests:custom_icon"
 				Count: 1b
 				tag: {
-					Icon: "immersiveengineering:textures/block/multiblocks/excavator.png"
+					Icon: "chroma:textures/quests/immersive_excavator.png"
 				}
 			}
-			x: -35.75d
-			y: 0.25d
+			x: -51.5625d
+			y: 36.4375d
+			shape: "square"
+			description: ["Finally, right click with an &6Engineer's Hammer&r on the Heavy Engineering Block (at the back), and the multiblock will form."]
+			size: 2.75d
 			id: "219D232C263901B6"
 			tasks: [
 				{
@@ -1069,19 +1052,10 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -2.5d
-			dependencies: ["28C3F89057684CC6"]
-			id: "0FA6324B2250CC01"
-			tasks: [{
-				id: "4D6D7B92FA593B10"
-				type: "item"
-				item: "occultism:purified_ink"
-			}]
-		}
-		{
 			x: 4.75d
 			y: -1.75d
+			subtitle: "Spirit Ingredient"
+			description: ["Throw a &b&lDiamond&r into the &5Spiritfire&r."]
 			dependencies: ["28C3F89057684CC6"]
 			id: "414FB84D8E12D770"
 			tasks: [{
@@ -1091,8 +1065,10 @@
 			}]
 		}
 		{
-			x: 3.75d
-			y: -2.75d
+			x: 3.25d
+			y: -2.25d
+			subtitle: "Crafting Ingredient"
+			description: ["Throw an &2&lOtherworld Wood&r into the &5Spiritfire&r."]
 			dependencies: ["28C3F89057684CC6"]
 			id: "1C3E182744A46821"
 			tasks: [{
@@ -1103,7 +1079,9 @@
 		}
 		{
 			x: 3.0d
-			y: 1.0d
+			y: 0.75d
+			subtitle: "Stoned"
+			description: ["The &0&lOtherworld Stone&r is obtainable when you drop andesite in the &5Spiritfire&r. "]
 			dependencies: ["28C3F89057684CC6"]
 			id: "281F853004D0032C"
 			tasks: [{
@@ -1188,7 +1166,10 @@
 			x: -1.25d
 			y: 8.0d
 			hide_dependency_lines: true
-			dependencies: ["28C3F89057684CC6"]
+			dependencies: [
+				"28C3F89057684CC6"
+				"48A47C0DC8C09FF2"
+			]
 			id: "731299D4DEB93C9F"
 			tasks: [{
 				id: "681B44EC16C06D50"
@@ -1203,8 +1184,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -0.75d
+			x: 1.75d
+			y: -1.0d
 			subtitle: "The Third Eye"
 			description: [
 				"In order to have those saplings, you will have to throw &2Oak Saplings&r in the &5&lSpiritfire&r. "
@@ -1212,17 +1193,25 @@
 			]
 			dependencies: ["28C3F89057684CC6"]
 			id: "04CDB65B58341D53"
-			tasks: [{
-				id: "526CB96E9DC5DCE0"
-				type: "item"
-				item: {
-					id: "occultism:otherworld_sapling_natural"
-					Count: 1b
-					tag: {
-						isInventoryItem: 1b
+			tasks: [
+				{
+					id: "526CB96E9DC5DCE0"
+					type: "item"
+					item: {
+						id: "occultism:otherworld_sapling_natural"
+						Count: 1b
+						tag: {
+							isInventoryItem: 1b
+						}
 					}
 				}
-			}]
+				{
+					id: "1399C60097704E14"
+					type: "item"
+					item: "occultism:otherworld_log"
+					count: 4L
+				}
+			]
 		}
 		{
 			title: "Aviar's Circle"
@@ -1259,6 +1248,7 @@
 			icon: "occultism:ritual_dummy/craft_miner_djinni_ores"
 			x: 2.25d
 			y: 10.5d
+			subtitle: "Bind Foliot"
 			hide_dependency_lines: true
 			dependencies: [
 				"492116474A965E37"
@@ -1292,10 +1282,11 @@
 			]
 		}
 		{
-			title: "Heydrin's Lure"
+			title: "Hedyrin's Lure"
 			icon: "occultism:ritual_dummy/craft_miner_djinni_ores"
 			x: 4.75d
 			y: 10.5d
+			subtitle: "Foliot Possession"
 			hide_dependency_lines: true
 			dependencies: [
 				"492116474A965E37"
@@ -1327,6 +1318,7 @@
 			icon: "occultism:ritual_dummy/summon_foliot_transport_items"
 			x: 9.0d
 			y: 6.0d
+			subtitle: "Summon Djinni"
 			hide_dependency_lines: true
 			dependencies: [
 				"492116474A965E37"
@@ -1364,6 +1356,7 @@
 			icon: "occultism:ritual_dummy/craft_miner_foliot_unspecialized"
 			x: 11.5d
 			y: 7.5d
+			subtitle: "Bind Djinni"
 			hide_dependency_lines: true
 			dependencies: [
 				"492116474A965E37"
@@ -1402,6 +1395,7 @@
 			icon: "occultism:ritual_dummy/familiar_beaver"
 			x: 8.75d
 			y: 7.75d
+			subtitle: "Djinni Possession"
 			hide_dependency_lines: true
 			dependencies: [
 				"492116474A965E37"
@@ -1440,6 +1434,7 @@
 			icon: "occultism:ritual_dummy/summon_marid_crusher"
 			x: -2.25d
 			y: 6.75d
+			subtitle: "Summon Afrit"
 			hide_dependency_lines: true
 			dependencies: [
 				"492116474A965E37"
@@ -1483,6 +1478,7 @@
 			icon: "occultism:ritual_dummy/familiar_greedy"
 			x: 10.0d
 			y: 8.75d
+			subtitle: "Bind Afrit"
 			hide_dependency_lines: true
 			dependencies: [
 				"492116474A965E37"
@@ -1526,6 +1522,7 @@
 			icon: "occultism:ritual_dummy/familiar_deer"
 			x: 10.0d
 			y: 5.75d
+			subtitle: "Summon Unbound Afrit"
 			hide_dependency_lines: true
 			dependencies: [
 				"492116474A965E37"
@@ -1569,6 +1566,7 @@
 			icon: "occultism:ritual_dummy/familiar_beaver"
 			x: -0.5d
 			y: 6.75d
+			subtitle: "Bind Marid"
 			hide_dependency_lines: true
 			dependencies: [
 				"492116474A965E37"
@@ -1619,7 +1617,7 @@
 			]
 		}
 		{
-			title: "Osorin's Unbond Calling"
+			title: "Osorin's Unbound Calling"
 			icon: "occultism:ritual_dummy/possess_enderman"
 			x: 11.0d
 			y: 6.0d
@@ -1654,6 +1652,7 @@
 			icon: "occultism:ritual_dummy/craft_miner_djinni_ores"
 			x: 0.0d
 			y: 8.5d
+			subtitle: "Afrit Possession"
 			hide_dependency_lines: true
 			dependencies: [
 				"492116474A965E37"
@@ -1711,8 +1710,8 @@
 					spiritName: "Merclod"
 				}
 			}
-			x: 29.75d
-			y: -7.5d
+			x: 26.25d
+			y: -4.0d
 			hide_dependency_lines: true
 			dependencies: ["4DA463AF4ABD0CA4"]
 			id: "74563AAF98B15559"
@@ -1913,6 +1912,11 @@
 			}
 			x: 7.5d
 			y: 7.75d
+			subtitle: "Possessed Bee"
+			description: [
+				"Thanks to &5&lOccultist HoneyCombs&r you'll be able to farm &5Spirit Attuned Gem&r and &b&lIesnium Nugget&r."
+				"In order to summon this bee you'll have to eat a &2Demon Dream Fruit&r and sacrifice a &2Forest Bee&r."
+			]
 			dependencies: ["04834CC722C4C4C8"]
 			id: "0B6A6613A0CE81AF"
 			tasks: [
@@ -2018,6 +2022,7 @@
 			icon: "thermal:energy_cell_frame"
 			x: 12.5d
 			y: 6.75d
+			subtitle: "Ready For Flux"
 			dependencies: ["3A99B2052AE4BAC9"]
 			id: "08DD28074EF4CCEA"
 			tasks: [
@@ -2064,6 +2069,7 @@
 			icon: "thermal:fluid_cell_frame"
 			x: 12.5d
 			y: 8.25d
+			subtitle: "Ready For Fluid Storage"
 			dependencies: ["3A99B2052AE4BAC9"]
 			id: "2B49BCA647B9F2BA"
 			tasks: [
@@ -2110,6 +2116,7 @@
 			icon: "thermal:machine_frame"
 			x: 13.0d
 			y: 7.5d
+			subtitle: "Ready for Thermal"
 			dependencies: ["3A99B2052AE4BAC9"]
 			id: "44BDB20559198FA9"
 			tasks: [
@@ -2320,21 +2327,53 @@
 			]
 		}
 		{
+			title: "Otherstone Trader"
+			icon: "occultism:ritual_dummy/summon_foliot_otherstone_trader"
 			x: 3.5d
-			y: 2.5d
+			y: 2.25d
+			subtitle: "A good deal"
+			description: ["The &5Otherstone Trader&r exchange 1x Stone for 4x Otherstone."]
 			dependencies: ["281F853004D0032C"]
 			id: "6A5EBC02B04CDB0D"
-			tasks: [{
-				id: "5BA7150C178F0FB1"
-				type: "checkmark"
-				title: "How to automate ?"
-			}]
+			tasks: [
+				{
+					id: "5C1265E64882455E"
+					type: "item"
+					item: "minecraft:granite"
+				}
+				{
+					id: "1A0F53B1901107DC"
+					type: "item"
+					item: "minecraft:diorite"
+				}
+				{
+					id: "5DA164796ADD4D3E"
+					type: "item"
+					item: "minecraft:andesite"
+				}
+				{
+					id: "707074857C0AA9E1"
+					type: "item"
+					item: "minecraft:stone"
+				}
+				{
+					id: "715109E3D3E8EAC3"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_foliot"
+						Count: 1b
+						tag: {
+							spiritName: "Breired"
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "How to get stables ones?"
 			icon: "occultism:ritual_dummy/craft_stable_wormhole"
-			x: 1.0d
-			y: -0.25d
+			x: 0.25d
+			y: -1.5d
 			subtitle: "Sapling Trader"
 			description: [
 				"With the &6Aviar's Circle&r ritual you will be able to summon the &5Otherworld Sapling Trader&r. This guy will trade : "
@@ -2379,8 +2418,8 @@
 		}
 		{
 			title: "Stable Otherworld Saplings"
-			x: 0.25d
-			y: -1.25d
+			x: -0.75d
+			y: -2.5d
 			subtitle: "Farming for life"
 			description: ["Now, as you now have &n&5Stable Saplings&r. You will now be able to farm them without the &eThird Eye&r effect."]
 			dependencies: ["7FFAB1924AA0EAD7"]
@@ -2394,14 +2433,19 @@
 		{
 			title: "Wireless Storage"
 			x: 5.0d
-			y: 17.5d
+			y: 17.25d
+			shape: "hexagon"
 			subtitle: "Accessing Storage"
 			description: [
 				"The &3Storage Accessors&r are similar to the stable wormhole, but allow mobile access to the storage for players."
 				"As you might ask yourself, the &3Accessor&r is cross dimensions !"
 				"In order to bind it to your &2Storage&r a simple shift right-click will be needed."
 			]
-			dependencies: ["794D8B87D0FA7DDE"]
+			hide_dependency_lines: true
+			dependencies: [
+				"794D8B87D0FA7DDE"
+				"3A99B2052AE4BAC9"
+			]
 			id: "65413446C0ACCB2D"
 			tasks: [{
 				id: "686E3366CB35DD42"
@@ -2415,15 +2459,20 @@
 		}
 		{
 			title: "Wireless interactions"
-			x: 4.0d
-			y: 18.0d
+			x: 3.5d
+			y: 17.75d
+			shape: "hexagon"
 			subtitle: "An enderchest but with crafting"
 			description: [
 				"The &5Stable Wormhole&r is a way to access your &6Storage Actuator&r."
 				"you will have to place it. Before doing so, you will have to link it to your &6Dimensional Storage Actuator&r with a right click with the &5Wormhole&r in hand."
 				"The main idea of this item is to output and input items from your &6Actuator&r."
 			]
-			dependencies: ["794D8B87D0FA7DDE"]
+			hide_dependency_lines: true
+			dependencies: [
+				"794D8B87D0FA7DDE"
+				"7BF5F871992F55AE"
+			]
 			id: "2010F5E14AD87032"
 			tasks: [{
 				id: "1FAAE4627733FF5D"
@@ -2438,6 +2487,7 @@
 		{
 			x: 3.5d
 			y: 15.75d
+			shape: "rsquare"
 			subtitle: "Crafting and Storing"
 			description: [
 				"The &5Dimensional Storage Actuator&r consists of a &6Dimensional Matrix&r inhabited by a &2Djinni&r that creates and manages a storage dimension and a &6Base&r, infused with a &2Foliot&r that moves items in and out the storage dimension."
@@ -2458,8 +2508,9 @@
 		}
 		{
 			title: "Dimensional Storage Stabilizers"
-			x: 3.0d
-			y: 18.0d
+			x: 2.0d
+			y: 17.25d
+			shape: "hexagon"
 			subtitle: "Dimensional Upgrades"
 			description: [
 				"As we saw on the previous chapter, by default your &6Storage Actuator&r can contains 128 types of items."
@@ -2473,6 +2524,7 @@
 				"-&b Tier 4 Dimensional Storage Stabilizer:"
 				"   > Goes from 1152 to 2176 types of items."
 			]
+			hide_dependency_lines: true
 			dependencies: ["794D8B87D0FA7DDE"]
 			min_width: 350
 			id: "5354A67B9858F203"
@@ -2500,8 +2552,9 @@
 			]
 		}
 		{
-			x: 4.75d
+			x: 5.0d
 			y: 14.25d
+			subtitle: "The Base"
 			description: ["The &6Storage Actuator Base&r imprisons a &3Foliot&r responsible for interacting with items in a &5Dimensional Storage Matrix&r."]
 			hide_dependency_lines: true
 			dependencies: ["7BF5F871992F55AE"]
@@ -2513,8 +2566,9 @@
 			}]
 		}
 		{
-			x: 2.25d
+			x: 2.0d
 			y: 14.25d
+			subtitle: "Matrix"
 			description: ["The &6Dimensional Matrix&r is the entry point to a small dimension used for storing items. A &3Djinni&r bound to the matrix keeps the dimension stable, often supported by additionnal spirits in storage stabilizers, to increase the dimension size."]
 			hide_dependency_lines: true
 			dependencies: ["3A99B2052AE4BAC9"]
@@ -2533,9 +2587,11 @@
 		}
 		{
 			title: "Demons Can Autocraft?"
-			x: 2.0d
-			y: 17.5d
+			x: 3.5d
+			y: 19.0d
+			shape: "hexagon"
 			subtitle: "Demonic crafting"
+			hide_dependency_lines: true
 			dependencies: ["794D8B87D0FA7DDE"]
 			id: "1CDE01D11B26CD1C"
 			tasks: [{
@@ -2546,9 +2602,8 @@
 		}
 		{
 			title: "Metal Press Molds"
-			x: -28.25d
-			y: 18.5d
-			dependencies: ["19862EE31DFDDAB0"]
+			x: -38.25d
+			y: 7.0d
 			id: "3F79878767A76A4C"
 			tasks: [
 				{
@@ -2714,8 +2769,6 @@
 				"Mix &7Grout&r and &#C2B280Sandstone&r in a &oCreate&r's &lMechanical Mixer&r and &lBasin&r (&4Heated&r) for obtain &#6A6A6ACoke Brick&r."
 				"Repeat the operation &n27 times&r, and create a &n3x3x3 structure&r with the &#6A6A6ACoke Bricks&r."
 				"Now &nright click&r on the structure with an &6Engineer's Hammer&r (on the middle block) to form a &l&#6A6A6ACoke Oven&r."
-				""
-				"&oJust look at the &#6A6A6ACoke Oven&f to validate the quest.&r"
 			]
 			dependencies: ["1E42C4D579CA5556"]
 			size: 2.75d
@@ -2804,8 +2857,10 @@
 			]
 		}
 		{
-			x: -36.75d
-			y: 0.25d
+			x: -48.8125d
+			y: 11.6875d
+			shape: "square"
+			size: 2.75d
 			id: "01BBDEDBA8C75318"
 			tasks: [{
 				id: "1A0E8328A746D7A9"
@@ -2818,8 +2873,10 @@
 			}]
 		}
 		{
-			x: -39.0d
-			y: 1.75d
+			x: -54.3125d
+			y: 6.1875d
+			shape: "square"
+			size: 2.75d
 			id: "58B192367229EBFC"
 			tasks: [{
 				id: "592E5CC55FB05BE3"
@@ -2832,8 +2889,10 @@
 			}]
 		}
 		{
-			x: -36.75d
-			y: 2.25d
+			x: -48.8125d
+			y: 8.9375d
+			shape: "square"
+			size: 2.75d
 			id: "413B892C84FCA06C"
 			tasks: [{
 				id: "35818F2688B8D2B2"
@@ -2846,8 +2905,10 @@
 			}]
 		}
 		{
-			x: -39.0d
-			y: 2.75d
+			x: -54.3125d
+			y: 8.9375d
+			shape: "square"
+			size: 2.75d
 			id: "660C6DD3AED86A77"
 			tasks: [{
 				id: "43001B6B745ED401"
@@ -2860,8 +2921,10 @@
 			}]
 		}
 		{
-			x: -36.75d
-			y: 3.25d
+			x: -48.8125d
+			y: 6.1875d
+			shape: "square"
+			size: 2.75d
 			id: "5E27C3E81F00DB51"
 			tasks: [{
 				id: "5238EF4D792E987F"
@@ -2874,8 +2937,10 @@
 			}]
 		}
 		{
-			x: -40.0d
-			y: 1.75d
+			x: -57.0625d
+			y: 6.1875d
+			shape: "square"
+			size: 2.75d
 			id: "4E1AE9CFAF4C589D"
 			tasks: [{
 				id: "5631BF3B8469A3D4"
@@ -2888,8 +2953,10 @@
 			}]
 		}
 		{
-			x: -36.75d
-			y: 4.25d
+			x: -48.8125d
+			y: 14.4375d
+			shape: "square"
+			size: 2.75d
 			id: "2860A92511D65B51"
 			tasks: [{
 				id: "1E8B9AA60E3440D7"
@@ -2902,8 +2969,10 @@
 			}]
 		}
 		{
-			x: -40.0d
-			y: 2.75d
+			x: -57.0625d
+			y: 8.9375d
+			shape: "square"
+			size: 2.75d
 			id: "7F04949A20A54564"
 			tasks: [{
 				id: "2EA3E57783919E2A"
@@ -3019,8 +3088,8 @@
 		}
 		{
 			title: "&4Redstone Ingots&r"
-			x: -32.25d
-			y: 13.75d
+			x: -60.0d
+			y: -4.0d
 			subtitle: "What would iron and redstone do mixed together?"
 			description: ["Craft &4Redstone Ingots&r by filling &4Destabilized Redstone&r on &#61666AIron Ingot&r with a &oCreate&r's &lSpout&r."]
 			dependencies: [
@@ -3036,12 +3105,11 @@
 			}]
 		}
 		{
-			x: -32.25d
-			y: 17.75d
+			x: -60.0d
+			y: 1.0d
 			subtitle: "&3Mr.Freeze®&r taste steel"
-			description: ["Craft &#71797ESteel Rod&r with &oTinkers' Construct&r's &lCasting&r."]
-			hide_dependency_lines: true
-			dependencies: ["54DC8317D4B7A510"]
+			description: ["Craft &#71797ESteel Rod&r with &oTinkers' Construct&r &lCasting&r."]
+			dependencies: ["489C740C46074BBD"]
 			id: "793A201C5DDEAA9E"
 			tasks: [{
 				id: "586B899114D9A568"
@@ -3051,8 +3119,8 @@
 			}]
 		}
 		{
-			x: -22.0d
-			y: 11.5d
+			x: -49.75d
+			y: -6.25d
 			shape: "square"
 			subtitle: "Crafting Table for engineers"
 			description: ["The &#482705Engineer's Crafting Table&r works like a vanilla &#806517Crafting Table&r, but keeps items when the player leave it, and has a little integrated inventory."]
@@ -3068,8 +3136,8 @@
 		}
 		{
 			title: "&4Destabilized Redstone&r"
-			x: -34.25d
-			y: 13.75d
+			x: -62.0d
+			y: -4.0d
 			subtitle: "Warning, it seems to be unstable"
 			description: ["Melt &4Redstone Dust&r in &oTinkers' Construct&r's &lMelter&r, &lSmeltery&r or &lFoundry&r for obtain &4Destabilized Redstone&r."]
 			dependencies: ["12F51EE93A420344"]
@@ -3083,8 +3151,8 @@
 		}
 		{
 			title: "&#B87333Copper Plates&r"
-			x: -34.25d
-			y: 15.75d
+			x: -62.0d
+			y: -2.0d
 			description: ["Craft &#B87333Copper Plates&r with &oCreate&r's &lPressing&r or &oTinkers' Construct&r's &lCasting&r."]
 			dependencies: [
 				"12F51EE93A420344"
@@ -3101,8 +3169,8 @@
 		}
 		{
 			title: "&#F2E279Electrum Plates&r"
-			x: -22.25d
-			y: 16.75d
+			x: -50.0d
+			y: -1.0d
 			description: ["Craft &#F2E279Electrum Plates&r with &oCreate&r's &lPressing&r or &oTinkers' Construct&r's &lCasting&r."]
 			dependencies: [
 				"3F047B28738897A0"
@@ -3120,8 +3188,8 @@
 		}
 		{
 			title: "&#F2E279Electrum Ingots&r"
-			x: -20.25d
-			y: 17.75d
+			x: -48.0d
+			y: 0.0d
 			description: [
 				"Put fuel in the bottom left slot of the &#D5A372Alloy Kiln&r, and &#FFD700Gold&r and &#BCC6CCSilver&r in the top left slots (&l&nInputs&r)."
 				"After a moment, &#F2E279Electrum Ingots&r will appear in the right slot (&l&nOutput&r)."
@@ -3356,6 +3424,8 @@
 		{
 			x: 6.5d
 			y: -3.0d
+			subtitle: "Iesnium Finder"
+			description: ["The &5&lDivination Rod&r will find Iesnium Ore in the Nether. Simply right click on a &4Netherrack&r to set the &5Rod&r to find &bIesnium Ore&r."]
 			dependencies: ["414FB84D8E12D770"]
 			id: "3BF844653D8EDF5B"
 			tasks: [{
@@ -3371,6 +3441,8 @@
 		{
 			x: 6.5d
 			y: -0.5d
+			subtitle: "Iesnium Viewer"
+			description: ["The &5Otherworld Googles&r are needed to see the &bIesnium Ore&r. If you don't have them you'll have a simple Netherrack."]
 			dependencies: ["414FB84D8E12D770"]
 			id: "11EA6BD16C6054B4"
 			tasks: [{
@@ -3388,6 +3460,8 @@
 		{
 			x: 6.5d
 			y: -1.75d
+			subtitle: "Iesnium Breaker"
+			description: ["The &5Iesnium Pickaxe&r is needed to mine &bIesnium Ore&r. "]
 			dependencies: ["414FB84D8E12D770"]
 			id: "521BDBA45B181D70"
 			tasks: [{
@@ -3406,6 +3480,8 @@
 		{
 			x: 8.25d
 			y: -1.75d
+			subtitle: "A new Ore in the Nether"
+			description: ["As you may understand, the &bIesnium Ore&r is only in the &4Nether&r Dimension. "]
 			dependencies: [
 				"521BDBA45B181D70"
 				"11EA6BD16C6054B4"
@@ -3421,7 +3497,13 @@
 		{
 			title: "Occultism Useful Items"
 			x: 4.75d
-			y: -5.0d
+			y: -4.5d
+			subtitle: "Really useful !"
+			description: [
+				"- The &n&lButcher Knife&r is needed to drop some &eTallow&r. You'll need to kill some passive mobs."
+				"- The &l&nChalk Brush&r is needed to erase chalks that you might misplace."
+				"- The &n&lSatchet&r is like a Backpack. To craft it you'll need to build the &eEziveus Spectral Compulsion&r."
+			]
 			dependencies: ["3A5569B8FB3C4F7B"]
 			id: "43C5F40A67C61EF9"
 			tasks: [
@@ -3610,8 +3692,8 @@
 			}]
 		}
 		{
-			x: -30.25d
-			y: 16.75d
+			x: -58.0d
+			y: 0.0d
 			dependencies: ["793A201C5DDEAA9E"]
 			id: "5D455708D55CE036"
 			tasks: [{
@@ -3621,8 +3703,8 @@
 			}]
 		}
 		{
-			x: -26.25d
-			y: 16.75d
+			x: -54.0d
+			y: -1.0d
 			dependencies: ["12F51EE93A420344"]
 			id: "3DFBCDFFA464FE2F"
 			tasks: [{
@@ -3650,7 +3732,7 @@
 		{
 			title: "Possessed Endermites"
 			icon: "minecraft:end_stone"
-			x: 11.25d
+			x: 10.25d
 			y: 3.0d
 			shape: "square"
 			subtitle: "Help ! They're small ! "
@@ -3783,7 +3865,7 @@
 		{
 			title: "The Wild Hunt"
 			icon: "minecraft:wither_skeleton_skull"
-			x: 10.25d
+			x: 11.25d
 			y: 3.0d
 			shape: "square"
 			subtitle: "Enraged Wither Skeletons"
@@ -4727,7 +4809,7 @@
 			]
 		}
 		{
-			x: 28.75d
+			x: 27.5d
 			y: -6.0d
 			dependencies: ["74563AAF98B15559"]
 			id: "3E7BE20FD84CA144"
@@ -4749,8 +4831,8 @@
 			}]
 		}
 		{
-			x: 30.75d
-			y: -4.0d
+			x: 30.0d
+			y: -6.0d
 			dependencies: ["03D9B0C5ACE47DE0"]
 			id: "2A7166322D887201"
 			tasks: [{
@@ -4760,8 +4842,8 @@
 			}]
 		}
 		{
-			x: 30.75d
-			y: -6.0d
+			x: 31.25d
+			y: -4.0d
 			dependencies: ["2A7166322D887201"]
 			id: "5275B1528B1AAA07"
 			tasks: [{
@@ -5493,7 +5575,59 @@
 						}
 					}
 				}
+				{
+					id: "48270D15005591C2"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Mrokslamarure"
+						}
+					}
+				}
 			]
+		}
+		{
+			title: "&lMultiblocks&r  "
+			icon: "immersiveengineering:metal_press"
+			x: -46.0d
+			y: 3.0d
+			shape: "gear"
+			size: 2.0d
+			id: "65276D735259CDA3"
+			tasks: [{
+				id: "7AE34FD29FB6BA5E"
+				type: "checkmark"
+				title: "&aValidate&r"
+			}]
+		}
+		{
+			x: -58.0d
+			y: 2.0d
+			dependencies: ["793A201C5DDEAA9E"]
+			id: "39E9D26735D37A85"
+			tasks: [{
+				id: "0F8A10A3EB41DE86"
+				type: "item"
+				item: "immersiveengineering:steel_fence"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 4.75d
+			subtitle: "A new boss"
+			description: [
+				"Thanks to the &6Abra's Open Conjure&r you'll be able to spawn a new \"boss\" : &4&lThe Unbound Afrit&r. In order to hurt him you'll need to slay his minions first. "
+				"He will drop his &4&lEssence&r needed to craft the &c&lRed Chalk&r."
+			]
+			dependencies: ["40349C9C598C267B"]
+			id: "06010DF800031AA0"
+			tasks: [{
+				id: "48A47C0DC8C09FF2"
+				type: "item"
+				item: "occultism:afrit_essence"
+			}]
 		}
 	]
 }

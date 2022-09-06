@@ -3885,7 +3885,7 @@
 			x: 22.5d
 			y: 40.75d
 			description: [
-				"Combine &#B87333Molten Copper&r and &#BAC4C8Molten Zinc&r in a &oTinkers' Construct&r's &l&#383433Smeltery&r or &l&#3E3029Scorched Alloyer&r. They will mix and form &#B5A642Molten Brass&r. Then cast it for obtain Ingots, Nuggets, Blocks,...."
+				"Combine &#B87333Molten Copper&r and &#BAC4C8Molten Zinc&r in a &oTinkers' Construct&r &l&#383433Smeltery&r or &l&#3E3029Scorched Alloyer&r. They will mix and form &#B5A642Molten Brass&r. Then cast it for obtain Ingots, Nuggets, Blocks,...."
 				""
 				"Check this when done."
 			]
@@ -3903,7 +3903,7 @@
 			icon: "create:mechanical_mixer"
 			x: 23.5d
 			y: 40.75d
-			description: ["Combine &#B87333Copper Ingot&r and &#BAC4C8Zinc Ingot&r in a &oCreate&r's &lMechanical Mixer&r and &lBasin&r (&4Heated&r). They will mix and form &#B5A642Brass Ingots&r."]
+			description: ["Combine &#B87333Copper Ingot&r and &#BAC4C8Zinc Ingot&r in a &oCreate&r &lMechanical Mixer&r and &lBasin&r (&4Heated&r). They will mix and form &#B5A642Brass Ingots&r."]
 			dependencies: ["6F9BF9D7BCEFD22C"]
 			id: "36498F5EA504C9EC"
 			tasks: [
@@ -3923,7 +3923,7 @@
 			title: "&lMechanical Mixer&r and Crushed Ores Method Step 1    "
 			x: 24.25d
 			y: 40.0d
-			description: ["Combine &#B87333Crushed Copper Ore&r and &#BAC4C8Crushed Zinc Ore&r in a &oCreate&r's &lMechanical Mixer&r and &lBasin&r (&4Heated&r). They will mix and form &#B5A642Crushed Brass&r."]
+			description: ["Combine &#B87333Crushed Copper Ore&r and &#BAC4C8Crushed Zinc Ore&r in a &oCreate&r &lMechanical Mixer&r and &lBasin&r (&4Heated&r). They will mix and form &#B5A642Crushed Brass&r."]
 			dependencies: ["6F9BF9D7BCEFD22C"]
 			id: "517089AD8357DF4A"
 			tasks: [
