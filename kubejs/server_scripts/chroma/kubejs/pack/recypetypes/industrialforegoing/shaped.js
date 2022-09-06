@@ -1,16 +1,4 @@
 onEvent('recipes', (event) => {
-    /*
-        ,
-        {
-            output: ,
-            pattern: ['', '', ''],
-            key: {
-                A:
-            },
-            id: ''
-        }
-    */
-
     const recipes = [
       {
           output: 'industrialforegoing:animal_baby_separator',
@@ -58,7 +46,7 @@ onEvent('recipes', (event) => {
               B:'create:brass_casing',
               N:'kubejs:netherite_transistor',
               U:'kubejs:uranium_capacitor',
-              V:'enderioalloys:item_material_gear_vibrant'
+              V:'enderioalloys:item_material_gear_iron'
           },
           id: 'industrialforegoing:machine_frame_pity'
       },

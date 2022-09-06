@@ -50,9 +50,9 @@ onEvent('recipes', (event) => {
                 'industrialforegoing:plastic',
                 'enderioalloys:item_alloy_ingot_dark_steel',
                 'enderioalloys:item_alloy_ingot_dark_steel',
-                'enderioalloys:item_material_gear_vibrant',
+                'enderioalloys:item_material_gear_energized',
                 'kubejs:advanced_extreme_circuit_board',
-                'enderioalloys:item_material_gear_vibrant'
+                'enderioalloys:item_material_gear_energized'
             ],
             inputFluid: 'industrialforegoing:latex',
             inputFluidAmount: 500,
@@ -69,9 +69,9 @@ onEvent('recipes', (event) => {
                 '#forge:plastic',
                 'enderioalloys:item_alloy_ingot_end_steel',
                 'enderioalloys:item_alloy_ingot_end_steel',
-                'enderioalloys:item_material_skull_ender_resonator',
+                'enderioalloys:item_material_gear_vibrant',
                 'kubejs:advanced_extreme_circuit_board',
-                'enderioalloys:item_material_skull_ender_resonator'
+                'enderioalloys:item_material_gear_vibrant'
             ],
             inputFluid: 'industrialforegoing:pink_slime',
             inputFluidAmount: 500,
