@@ -32,6 +32,7 @@ onEvent('recipes', (event) => {
             result: 'occultism:jei_dummy/none',
             id: `${id_prefix}summon_occultist_bee`
         },
+        // Thermal Machine Frame
         {
             ritual_type: 'occultism:craft_with_spirit_name',
             activation_item: 'occultism:book_of_binding_bound_foliot',
