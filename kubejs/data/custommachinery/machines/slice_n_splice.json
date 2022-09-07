@@ -30,25 +30,29 @@
       "mode": "input",
       "id": "input1",
       "type": "custommachinery:item",
-      "filter": ["kubejs:basic_capacitor", "kubejs:double-layer_capacitor", "kubejs:octadic_capacitor"]
+      "filter": ["emendatusenigmatica:silicon_gem", "mekanism:alloy_infused"],
+      "whitelist": true
     },
     {
       "mode": "input",
       "id": "input2",
       "type": "custommachinery:item",
-      "filter": ["kubejs:basic_capacitor", "kubejs:double-layer_capacitor", "kubejs:octadic_capacitor"]
+      "filter": ["enderioalloys:item_alloy_ingot_soularium", "enderioalloys:item_alloy_ingot_energetic_alloy"],
+      "whitelist": true
     },
     {
       "mode": "input",
       "id": "input3",
       "type": "custommachinery:item",
-      "filter": ["kubejs:basic_capacitor", "kubejs:double-layer_capacitor", "kubejs:octadic_capacitor"]
+      "filter": ["architects_palette:rotten_flesh_block", "enderioalloys:item_alloy_ingot_vibrant_alloy", "kubejs:uranium_capacitor", "enderioalloys:item_alloy_ingot_redstone_alloy", "powah:blank_card"],
+      "whitelist": true
     },
     {
       "mode": "input",
       "id": "input4",
       "type": "custommachinery:item",
-      "filter": ["kubejs:basic_capacitor", "kubejs:double-layer_capacitor", "kubejs:octadic_capacitor"]
+      "filter": ["minecraft:skeleton_skull", "tconstruct:enderman_head", "minecraft:zombie_head", "powah:ender_core"],
+      "whitelist": true
     },
     {
       "mode": "output",
