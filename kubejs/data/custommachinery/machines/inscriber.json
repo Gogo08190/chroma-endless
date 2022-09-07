@@ -30,7 +30,8 @@
         "mode": "input",
         "id": "input1",
         "type": "custommachinery:item",
-        "filter": ["refinedstorage:speed_upgrade"]
+        "filter": ["refinedstorage:raw_improved_processor", "extrastorage:raw_neural_processor", "refinedstorage:raw_advanced_processor", "refinedstorage:raw_basic_processor"],
+        "whitelist": true
       },
       {
         "mode": "input",
