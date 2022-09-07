@@ -1,0 +1,13 @@
+{
+	"programs": ["envirotech:parts_miner"],
+	"item": {"raw:item": "kubejs:creative_catalyst", "count":1},
+	"config": [
+		{
+			"weight": 1,
+			"tiers" : [8],
+			"dimensions": [
+				"minecraft:the_end"
+			]
+		}
+	]
+}
