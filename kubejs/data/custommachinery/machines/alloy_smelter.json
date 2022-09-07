@@ -54,6 +54,10 @@
       "type": "custommachinery:energy"
     },
     {
+      "type": "custommachinery:redstone",
+      "poweroutput": 15
+    },
+    {
       "mode": "input",
       "id": "upgrade",
       "type": "custommachinery:item",
@@ -131,6 +135,11 @@
       "direction": "bottom",
       "x": 95,
       "y": 48
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 197,
+      "y": 17
     },
     {
       "type": "custommachinery:progress",
