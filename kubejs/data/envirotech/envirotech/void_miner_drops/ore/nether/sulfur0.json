@@ -1,0 +1,17 @@
+{
+	"programs": ["envirotech:ore", "envirotech:mineral_ore"],
+	"item": {
+		"raw:item": "occultism:iesnium_ore", "count":1
+	},
+	"config": [
+		{
+			"weight": 142,
+			"dimensions": ["minecraft:the_nether"]
+		},
+		{
+			"focus": "envirotech:cyan",
+			"weight": 1136,
+			"dimensions": ["minecraft:the_nether"]
+		}
+	]
+}

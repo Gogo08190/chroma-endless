@@ -3,7 +3,7 @@
 	"item": {"raw:item": "ironjetpacks:nitro_cell", "count":1},
 	"config": [
 		{
-			"weight": 5,
+			"weight": 6,
 			"tiers" : [6,7,8],
 			"dimensions": [
 				"minecraft:the_end"
@@ -11,7 +11,7 @@
 		},
 		{
 			"focus": "envirotech:red",
-			"weight": 10,
+			"weight": 12,
 			"tiers" : [6,7,8],
 			"dimensions": [
 				"minecraft:the_end"
