@@ -19,13 +19,139 @@
 			}]
 		}
 		{
-			x: -4.25d
+			title: "Overworld Bee Nest"
+			icon: "resourcefulbees:bee_nest"
+			x: -4.0d
 			y: -2.0d
 			id: "785F2CDE1802DE93"
+			tasks: [
+				{
+					id: "267FFAB0694BAB72"
+					type: "item"
+					item: "resourcefulbees:bee_nest"
+				}
+				{
+					id: "0F75924AB1F7B8F2"
+					type: "item"
+					item: "resourcefulbees:jungle_bee_nest"
+				}
+				{
+					id: "0BD09D6B3FBDFD1D"
+					type: "item"
+					item: "resourcefulbees:birch_bee_nest"
+				}
+				{
+					id: "22CDBE385FF53C35"
+					type: "item"
+					item: "resourcefulbees:dark_oak_bee_nest"
+				}
+				{
+					id: "446AE2EAC8EDC11A"
+					type: "item"
+					item: "resourcefulbees:spruce_bee_nest"
+				}
+				{
+					id: "2124E9ECEB77EC2E"
+					type: "item"
+					item: "resourcefulbees:red_mushroom_bee_nest"
+				}
+				{
+					id: "7A71B916F1B06A29"
+					type: "item"
+					item: "resourcefulbees:brown_mushroom_bee_nest"
+				}
+				{
+					id: "1E23DE362050314F"
+					type: "item"
+					item: "resourcefulbees:prismarine_bee_nest"
+				}
+				{
+					id: "3BDA664A03449B1C"
+					type: "item"
+					item: "resourcefulbees:grass_bee_nest"
+				}
+				{
+					id: "0758B43852E4F0FB"
+					type: "item"
+					item: "resourcefulbees:acacia_bee_nest"
+				}
+			]
+		}
+		{
+			title: "End Bee Nest"
+			icon: "resourcefulbees:purpur_bee_nest"
+			x: -3.0d
+			y: -2.0d
+			id: "060649A06C4ED8C4"
 			tasks: [{
-				id: "267FFAB0694BAB72"
+				id: "069823B4EA4C24C3"
 				type: "item"
-				item: "resourcefulbees:bee_nest"
+				item: "resourcefulbees:purpur_bee_nest"
+			}]
+		}
+		{
+			title: "Nether Bee Nest"
+			icon: "resourcefulbees:nether_bee_nest"
+			x: -2.0d
+			y: -2.0d
+			id: "48AC7DE7D7FA594A"
+			tasks: [
+				{
+					id: "24B46E7948E415AF"
+					type: "item"
+					item: "resourcefulbees:wither_bee_nest"
+				}
+				{
+					id: "2FE9BA62F98C4C80"
+					type: "item"
+					item: "resourcefulbees:nether_bee_nest"
+				}
+				{
+					id: "373F42F5DF615F08"
+					type: "item"
+					item: "resourcefulbees:warped_bee_nest"
+				}
+				{
+					id: "70F3E6F77A4EAD7E"
+					type: "item"
+					item: "resourcefulbees:warped_nylium_bee_nest"
+				}
+				{
+					id: "6B4AF49272DBB303"
+					type: "item"
+					item: "resourcefulbees:crimson_nylium_bee_nest"
+				}
+				{
+					id: "4EDA29E02DF2AD99"
+					type: "item"
+					item: "resourcefulbees:crimson_bee_nest"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -3.5d
+			id: "7C54F45255FD8996"
+			tasks: [{
+				id: "1359E3BFFAFC74AC"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "resourcefulbees:fifty_shades_of_bees"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.75d
+			y: -3.5d
+			id: "0FE303BC86E6C808"
+			tasks: [{
+				id: "6D3ED494F65418B1"
+				type: "item"
+				item: "resourcefulbees:bee_box"
 			}]
 		}
 	]

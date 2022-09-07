@@ -1011,7 +1011,10 @@
 			x: 0.0d
 			y: 33.0625d
 			shape: "square"
-			dependencies: ["52157E7FBFE05315"]
+			dependencies: [
+				"52157E7FBFE05315"
+				"0115C672497D08A4"
+			]
 			size: 2.75d
 			id: "4FF742939987793B"
 			tasks: [

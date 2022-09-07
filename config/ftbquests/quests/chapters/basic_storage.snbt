@@ -646,5 +646,15 @@
 				item: "metalbarrels:crystal_barrel"
 			}]
 		}
+		{
+			x: -2.5d
+			y: 0.0d
+			id: "1820ABD933024DF8"
+			tasks: [{
+				id: "405AC99F2B0A0212"
+				type: "item"
+				item: "prettypipes:pipe"
+			}]
+		}
 	]
 }
