@@ -1062,7 +1062,7 @@ onEvent("recipes", (event) => {
           "item": "powah:capacitor_niotic"
         },
         "N": {
-          "item": "draconicevolution:dragon_heart"
+          "item": "kubejs:creative_catalyst"
         }
       },
       "result": {
