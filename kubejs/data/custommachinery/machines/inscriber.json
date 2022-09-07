@@ -57,6 +57,10 @@
         "type": "custommachinery:energy"
       },
       {
+      	"type": "custommachinery:redstone",
+      	"poweroutput": 15
+      },
+      {
         "mode": "input",
         "id": "upgrade",
         "type": "custommachinery:item",
@@ -117,6 +121,11 @@
         "texture": "custommachinery:textures/gui/speed_upgrade_slot.png",
         "x": 183,
         "y": 75
+      },
+      {
+        "type": "custommachinery:status",
+        "x": 197,
+        "y": 17
       },
       {
         "type": "custommachinery:progress",
