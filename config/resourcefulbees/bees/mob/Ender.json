@@ -51,12 +51,19 @@
   },
   "SpawnData": {
     "canSpawnInWorld": true,
-    "biomeWhitelist": "TAG:end",
-    "lightLevel": "NIGHT",
-    "spawnWeight": 20
+    "biomeWhitelist": "TAG:END",
+    "spawnWeight": 2,
+    "minGroupSize": 1,
+    "maxGroupSize": 1,
+    "minYLevel": 50,
+    "maxYLevel": 80
   },
   "BreedData": {
-    "isBreedable": true
+    "isBreedable": true,
+    "feedItem": "miniutilities:ender_pearl_block",
+    "feedAmount": 5,
+    "childGrowthDelay": -24000,
+    "breedDelay": 6000
   },
   "TraitData": {
     "hasTraits": true

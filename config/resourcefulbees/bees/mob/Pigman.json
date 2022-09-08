@@ -44,7 +44,14 @@
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "minecraft:glowstone_dust"
+
+    "mainOutput": "minecraft:rotten_flesh",
+    "mainOutputWeight": 0.15,
+    "mainOutputCount": 1,
+
+    "secondaryOutput": "minecraft:gold_nugget",
+    "secondaryOutputWeight": 0.1,
+    "secondaryOutputCount": 1,
   },
   "SpawnData": {
     "canSpawnInWorld": true,

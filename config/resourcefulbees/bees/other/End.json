@@ -52,10 +52,10 @@
     },
     "SpawnData": {
       "canSpawnInWorld": true,
-      "biomeWhitelist": "minecraft:small_end_islands",
+      "biomeWhitelist": "TAG:END",
       "spawnWeight": 2,
       "minGroupSize": 1,
-      "maxGroupSize": 1,
+      "maxGroupSize": 2,
       "minYLevel": 50,
       "maxYLevel": 80
     },
