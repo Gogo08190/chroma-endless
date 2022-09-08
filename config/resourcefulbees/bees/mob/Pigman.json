@@ -51,7 +51,7 @@
 
     "secondaryOutput": "minecraft:gold_nugget",
     "secondaryOutputWeight": 0.1,
-    "secondaryOutputCount": 1,
+    "secondaryOutputCount": 1
   },
   "SpawnData": {
     "canSpawnInWorld": true,
@@ -59,7 +59,11 @@
     "lightLevel": "NIGHT"
   },
   "BreedData": {
-    "isBreedable": true
+    "isBreedable": true,
+    "feedItem": "minecraft:rotten_flesh",
+    "feedAmount": 1,
+    "childGrowthDelay": -24000,
+    "breedDelay": 6000
   },
   "TraitData": {
     "hasTraits": true
