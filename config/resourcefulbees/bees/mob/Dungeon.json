@@ -46,7 +46,7 @@
     "canSpawnInWorld": true,
     "biomeWhitelist": "tag:overworld",
     "biomeBlacklist": "tag:nether",
-    "spawnWeight": 8,
+    "spawnWeight": 5,
     "minGroupSize": 1,
     "maxGroupSize": 1,
     "maxYLevel": 45,

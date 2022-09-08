@@ -37,7 +37,7 @@
     },
     "SpawnData": {
       "canSpawnInWorld": true,
-      "spawnWeight": 12,
+      "spawnWeight": 13,
       "biomeWhitelist": "tag:BEACH,SANDY,",
       "biomeBlacklist": "tag:NETHER,END,OCEAN",
       "minGroupSize": 2,
