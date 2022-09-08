@@ -1075,6 +1075,7 @@
 		{
 			x: 50.25d
 			y: 17.5d
+			subtitle: "Second Tier Chalk"
 			hide_dependency_lines: true
 			dependencies: ["28C3F89057684CC6"]
 			id: "1B0F10E649F86494"
@@ -2155,6 +2156,8 @@
 			icon: "masterfulmachinery:fusioner_compact_item_port_items_output"
 			x: 51.5d
 			y: 19.5d
+			subtitle: "&kUnknown Machine&r"
+			description: ["                          &k&l&0F&rU&k&l&0S&rI&k&l&0O&rN&k&l&0N&rE&k&l&0R&r &k&l&02&r0&k&l&00&r0&r"]
 			dependencies: ["130FD9C228CCC91A"]
 			id: "41D643D39E1D946F"
 			tasks: [
@@ -2192,6 +2195,8 @@
 			icon: "masterfulmachinery:fusioner_compact_energy_port_energy_input"
 			x: 52.75d
 			y: 18.0d
+			subtitle: "Darkness can generate things?"
+			description: ["                             &k&l&0F&rU&k&l&0S&rI&k&l&0O&rN&k&l&0N&rE&k&l&0R&r &k&l&02&r0&k&l&00&r0&r"]
 			dependencies: ["130FD9C228CCC91A"]
 			id: "1A58467C60F1008E"
 			tasks: [
@@ -2240,6 +2245,8 @@
 			icon: "masterfulmachinery:fusioner_compact_item_port_items_input"
 			x: 52.75d
 			y: 19.5d
+			subtitle: "No more comments"
+			description: ["                          &k&l&0F&rU&k&l&0S&rI&k&l&0O&rN&k&l&0N&rE&k&l&0R&r &k&l&02&r0&k&l&00&r0&r"]
 			dependencies: ["130FD9C228CCC91A"]
 			id: "30E398C08A1F89DC"
 			tasks: [
@@ -2533,18 +2540,72 @@
 		}
 		{
 			title: "Demons Can Autocraft?"
+			icon: {
+				id: "occultism:book_of_calling_djinni_manage_machine"
+				Count: 1b
+				tag: {
+					spiritName: "Drakairmur"
+				}
+			}
 			x: 50.25d
 			y: 26.5d
 			shape: "hexagon"
 			subtitle: "Demonic crafting"
+			description: [
+				"Trough your adventure in the &5&lOccultism Mod&r you are now aware that you can store items. "
+				"If you noticed well there are two tabs : "
+				"-> A &eCrafting Table&r used to craft with your stored items."
+				"-> A &eFurnace&r. This tab is linked to another thing that we did not got through."
+				"The items asked are indeed useful to summon the &2Machine Operator&r. This dude will allow you to connect any type of \"machine\" (ex: Furnace)."
+				"Before linking this &2Operator&r to a machine, please make sure to link him to your &6Storage Actuator&r."
+				"Once it's done link him to your machine. Now it should appear in the &eFurnace Tab&r. If not it means that it's not correctly linked."
+				"You will notice that in the top left corner there is another tab that we've not talked about. This is simply to \"place\" an order to your &2Operator&r. "
+				"Place your item that you want to be placed in your machine and trust the process ! "
+			]
 			hide_dependency_lines: true
 			dependencies: ["794D8B87D0FA7DDE"]
+			min_width: 300
 			id: "1CDE01D11B26CD1C"
-			tasks: [{
-				id: "661E0DFB209464A8"
-				type: "checkmark"
-				title: "Autocraft"
-			}]
+			tasks: [
+				{
+					id: "5163849B906FD43A"
+					type: "item"
+					title: "Block of Coal"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:storage_blocks/coal"
+						}
+					}
+				}
+				{
+					id: "06E70700D4A1C4B1"
+					type: "item"
+					item: "minecraft:gold_ingot"
+				}
+				{
+					id: "38F861AA1AFEA540"
+					type: "item"
+					item: "minecraft:iron_ingot"
+				}
+				{
+					id: "1790BEF8B13E0B52"
+					type: "item"
+					item: "minecraft:furnace"
+				}
+				{
+					id: "749513A9C398775F"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Mrokairmur"
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Metal Press Molds"
