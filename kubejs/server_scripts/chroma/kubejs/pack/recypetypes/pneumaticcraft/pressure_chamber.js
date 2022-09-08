@@ -104,7 +104,7 @@ onEvent('recipes', (event) => {
             ],
             pressure: 1.0,
             results: [{ item: 'pneumaticcraft:turbine_blade', count: 1 }],
-            id: 'pneumaticcraft:turbine_blade'
+            id: 'pneumaticcraft:pressure_chamber/turbine_blade'
         },
         {
             inputs: [
