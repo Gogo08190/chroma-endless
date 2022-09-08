@@ -84,6 +84,24 @@ onEvent('recipes', (event) => {
           output: { item: 'botania:creative_pool' },
           mana: 5000000,
           id: `${id_prefix}creative_pool`
+      },
+      {
+          inputs: [
+              Item.of('resourcefulbees:bee_jar', {
+                  Entity: 'resourcefulbees:terrasteel_bee'
+              })
+                  .weakNBT()
+                  .toJson(),
+              { item: 'kubejs:gaia_spirit_block' },
+              { item: 'kubejs:gaia_spirit_block' },
+              { item: 'kubejs:gaia_spirit_block' },
+              { item: 'kubejs:gaia_spirit_block' }
+          ],
+          output: Item.of('resourcefulbees:bee_jar', {
+              Entity: 'resourcefulbees:gaia_bee'
+          }).toJson(),
+          mana: 2000000,
+          id: `${id_prefix}terrasteel_bee_jar`
       }
 
     ];
