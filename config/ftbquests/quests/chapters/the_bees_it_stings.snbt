@@ -154,5 +154,251 @@
 				item: "resourcefulbees:bee_box"
 			}]
 		}
+		{
+			x: -8.5d
+			y: -2.75d
+			id: "59B083CFB85E29C4"
+			tasks: [{
+				id: "149E8629E8E7390F"
+				type: "item"
+				item: "resourcefulbees:honey_dipper"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -2.75d
+			id: "068238B670D5838E"
+			tasks: [{
+				id: "1883C72DAE03C6E0"
+				type: "item"
+				item: "resourcefulbees:centrifuge"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -2.75d
+			id: "1DDDB1A3B0465769"
+			tasks: [{
+				id: "420B1C9640AAAEA8"
+				type: "item"
+				item: {
+					id: "resourcefulbees:smoker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: -1.75d
+			id: "6EFE7C9EF202CD9D"
+			tasks: [{
+				id: "507B868D9BD6A149"
+				type: "item"
+				item: "resourcefulbees:bellow"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -1.75d
+			id: "1DE078858BC0E120"
+			tasks: [{
+				id: "5E4C361AA317AF57"
+				type: "item"
+				item: "resourcefulbees:smoker_can"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -1.75d
+			id: "44FEC42A09F27601"
+			tasks: [{
+				id: "4E8157B829B78558"
+				type: "item"
+				item: "resourcefulbees:scraper"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -0.75d
+			id: "650D38C031213267"
+			tasks: [{
+				id: "1B78DDC4368235A1"
+				type: "item"
+				item: "resourcefulbees:honey_congealer"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -0.75d
+			id: "11F856DB9FC55F37"
+			tasks: [{
+				id: "06E038B048A8A541"
+				type: "item"
+				item: "resourcefulbees:ender_beecon"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -0.75d
+			id: "4E4CCE66D83CB498"
+			tasks: [{
+				id: "39A504805C4947A3"
+				type: "item"
+				item: "resourcefulbees:bottomless_honey_pot"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 0.25d
+			id: "1D74C1A48553742D"
+			tasks: [{
+				id: "028E72EB44A827F4"
+				type: "item"
+				item: "resourcefulbees:purpur_honey_tank"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 0.25d
+			id: "480BBEDD4C222E69"
+			tasks: [{
+				id: "07844494744914A9"
+				type: "item"
+				item: "resourcefulbees:nether_honey_tank"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.25d
+			id: "0D9A01E4A3636752"
+			tasks: [{
+				id: "5C2746CB3052DF10"
+				type: "item"
+				item: "resourcefulbees:wooden_honey_tank"
+			}]
+		}
+		{
+			x: -8.75d
+			y: -4.5d
+			id: "06CC09E0AE4819E5"
+			tasks: [{
+				id: "546D8467E5186A2C"
+				type: "item"
+				item: "resourcefulbees:mechanical_centrifuge"
+			}]
+		}
+		{
+			x: -7.75d
+			y: -4.5d
+			id: "2A1D8B33F51B85A1"
+			tasks: [{
+				id: "0ECBB67D7C137D8C"
+				type: "item"
+				item: "resourcefulbees:wax_block"
+			}]
+		}
+		{
+			x: -6.75d
+			y: -4.5d
+			id: "4E86D96FF3074176"
+			tasks: [{
+				id: "1C1A073B18931874"
+				type: "item"
+				item: "resourcefulbees:wax"
+			}]
+		}
+		{
+			x: -5.75d
+			y: -4.5d
+			id: "28709F340776730B"
+			tasks: [{
+				id: "52FFA03B7D1BD0DA"
+				type: "item"
+				item: "resourcefulbees:bee_jar"
+			}]
+		}
+		{
+			x: -9.75d
+			y: -6.0d
+			id: "73121D1485E47B03"
+			tasks: [{
+				id: "2091EFDFA9F2523C"
+				type: "item"
+				item: "resourcefulbees:trimmed_waxed_planks"
+			}]
+		}
+		{
+			x: -8.75d
+			y: -6.0d
+			id: "2FCCDB009DE142DA"
+			tasks: [{
+				id: "5A8BB69CC09D1000"
+				type: "item"
+				item: "resourcefulbees:waxed_machine_block"
+			}]
+		}
+		{
+			x: -7.75d
+			y: -6.0d
+			id: "3A056224220A611C"
+			tasks: [{
+				id: "7531ADF16453B4EC"
+				type: "item"
+				item: "resourcefulbees:iron_storage_upgrade"
+			}]
+		}
+		{
+			x: -6.75d
+			y: -6.0d
+			id: "6CFEFF50AA1B77DB"
+			tasks: [{
+				id: "18B8DFFBAE72A508"
+				type: "item"
+				item: "resourcefulbees:gold_storage_upgrade"
+			}]
+		}
+		{
+			x: -5.75d
+			y: -6.0d
+			id: "4C72A0DB200F92FC"
+			tasks: [{
+				id: "5BB5FAE8E09090F9"
+				type: "item"
+				item: "resourcefulbees:diamond_storage_upgrade"
+			}]
+		}
+		{
+			x: -4.75d
+			y: -6.0d
+			id: "4315D9A406D07DC5"
+			tasks: [{
+				id: "621B89601B528ADF"
+				type: "item"
+				item: "resourcefulbees:emerald_storage_upgrade"
+			}]
+		}
+		{
+			x: -3.75d
+			y: -6.0d
+			id: "5CC07C7C25634002"
+			tasks: [{
+				id: "1865FD7C4FE93851"
+				type: "item"
+				item: "resourcefulbees:apiary_breeder_upgrade"
+			}]
+		}
+		{
+			x: -2.75d
+			y: -6.0d
+			id: "78AFD1B23CB68E8C"
+			tasks: [{
+				id: "13E7146F26CD7278"
+				type: "item"
+				item: "resourcefulbees:apiary_breed_time_upgrade"
+			}]
+		}
 	]
 }

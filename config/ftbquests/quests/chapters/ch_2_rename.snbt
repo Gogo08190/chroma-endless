@@ -63,8 +63,8 @@
 			corner: false
 		}
 		{
-			x: 9.75d
-			y: 5.5d
+			x: -11.25d
+			y: 41.5d
 			width: 10.75d
 			height: 8.23d
 			rotation: 0.0d
@@ -111,7 +111,7 @@
 		}
 		{
 			x: -2.75d
-			y: 26.0d
+			y: 27.75d
 			dependencies: ["1ADD7F8A69F0DDEC"]
 			id: "185B58BD59C2FF12"
 			tasks: [{
@@ -151,7 +151,7 @@
 			title: "&#61666ALow Voltage Wires&r"
 			icon: "immersiveengineering:wirecoil_copper"
 			x: -0.75d
-			y: 27.0d
+			y: 28.75d
 			dependencies: ["1A89F0C5AAA08291"]
 			id: "1ADD7F8A69F0DDEC"
 			tasks: [
@@ -170,7 +170,7 @@
 		{
 			title: "Safed &#61666ALow Voltage Wires&r"
 			x: 1.25d
-			y: 26.0d
+			y: 27.75d
 			dependencies: [
 				"1ADD7F8A69F0DDEC"
 				"4145FECAF97B802E"
@@ -330,12 +330,12 @@
 		}
 		{
 			x: 13.25d
-			y: 26.0d
+			y: 31.75d
 			hide_dependency_lines: true
 			dependencies: [
-				"5E6932FE693B1BAA"
+				"7E6244CA5CC7CAC2"
 				"147DA28F357CCFAE"
-				"2F571C765B55CFEE"
+				"0215BF43B38BE67A"
 				"2E2B5FDF15A9B6B6"
 			]
 			id: "013EF1AC48991B24"
@@ -347,7 +347,7 @@
 		}
 		{
 			x: 1.25d
-			y: 32.0d
+			y: 33.75d
 			hide_dependency_lines: true
 			dependencies: [
 				"5E6932FE693B1BAA"
@@ -404,7 +404,7 @@
 		}
 		{
 			x: -10.75d
-			y: 21.5d
+			y: 23.25d
 			description: ["Craft &#B87333Copper Sheetmetal&r with &oCreate&r &lCompacting&r."]
 			dependencies: ["410DE957C60A9106"]
 			id: "2F571C765B55CFEE"
@@ -430,7 +430,7 @@
 		}
 		{
 			x: 1.75d
-			y: 15.0d
+			y: 19.0d
 			subtitle: "Sheets, but in steel"
 			description: ["Craft &#71797ESteel Sheetmetal&r with &oCreate&r &lCompacting&r."]
 			dependencies: ["2CD1D3F4A706D6BF"]
@@ -469,7 +469,7 @@
 		}
 		{
 			x: -0.75d
-			y: 20.5d
+			y: 22.25d
 			shape: "square"
 			subtitle: "Not the dynamo on your bike"
 			dependencies: [
@@ -497,7 +497,7 @@
 		}
 		{
 			x: -2.75d
-			y: 20.5d
+			y: 22.25d
 			dependencies: [
 				"489C740C46074BBD"
 				"7244FB2212B5A220"
@@ -512,7 +512,7 @@
 		}
 		{
 			x: 3.25d
-			y: 19.5d
+			y: 21.25d
 			shape: "octagon"
 			subtitle: "Wind electricity"
 			dependencies: ["2DA4E0591D7FEBBA"]
@@ -526,7 +526,7 @@
 		}
 		{
 			x: 3.25d
-			y: 21.5d
+			y: 23.25d
 			shape: "octagon"
 			subtitle: "Water electricity"
 			dependencies: ["6587EFA0D574A4BE"]
@@ -540,9 +540,10 @@
 		}
 		{
 			title: "&#71797EImproved &#422117Blast Furnace&r"
-			x: -28.0d
-			y: 14.75d
+			x: -8.25d
+			y: 35.75d
 			shape: "square"
+			subtitle: "Steeled multiblock"
 			dependencies: ["26D4D4A9798EB323"]
 			size: 2.75d
 			id: "75CED07646EE8601"
@@ -590,7 +591,7 @@
 			x: -0.75d
 			y: 12.25d
 			shape: "square"
-			subtitle: "Steeled multiblock"
+			subtitle: "Let's make steel!"
 			description: [
 				"Mix &7Grout&r, &#EE7B06Magma Block&r and &#422117Nether Brick&r in a &oCreate&r's &lMechanical Mixer&r and &lBasin&r (&3Super-Heated&r) for obtain &#422117Blast Brick&r."
 				"Repeat the operation &n27 times&r, and create a &n3x3x3 structure&r with the &#422117Blast Brick&r."
@@ -634,7 +635,7 @@
 			title: "&8Metal Press&r"
 			icon: "immersiveengineering:metal_press"
 			x: -0.75d
-			y: 31.0d
+			y: 32.75d
 			shape: "square"
 			subtitle: "Sss... BAM!"
 			description: [
@@ -661,18 +662,19 @@
 			id: "19862EE31DFDDAB0"
 			tasks: [
 				{
-					id: "7713F982941BDDB9"
-					type: "observation"
-					title: "Observe &8Metal Press&r"
-					icon: "immersiveengineering:metal_press"
-					timer: 0L
-					observe_type: 0
-					to_observe: "immersiveengineering:metal_press"
-				}
-				{
 					id: "410455305B56D52A"
 					type: "checkmark"
 					title: "&aCheck to start the quest&r"
+				}
+				{
+					id: "022FBE09A8760542"
+					type: "observation"
+					title: "Observe &8Metal Press&r"
+					icon: "immersiveengineering:metal_press"
+					secret: true
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:metal_press"
 				}
 			]
 		}
@@ -680,7 +682,7 @@
 			title: "Crusher"
 			icon: "immersiveengineering:crusher"
 			x: 11.25d
-			y: 27.0d
+			y: 32.75d
 			shape: "square"
 			description: [
 				""
@@ -692,7 +694,7 @@
 				" - &#61666AHoppers&r 9x"
 			]
 			dependencies: [
-				"1ADD7F8A69F0DDEC"
+				"19862EE31DFDDAB0"
 				"5D455708D55CE036"
 				"2E6DA2A5DA079928"
 				"013EF1AC48991B24"
@@ -702,11 +704,23 @@
 			dependency_requirement: "one_started"
 			size: 2.75d
 			id: "073EACF91190BEA0"
-			tasks: [{
-				id: "2E2B5FDF15A9B6B6"
-				type: "checkmark"
-				title: "&aCheck to start the quest&r"
-			}]
+			tasks: [
+				{
+					id: "2E2B5FDF15A9B6B6"
+					type: "checkmark"
+					title: "&aCheck to start the quest&r"
+				}
+				{
+					id: "5B5A505F07CFBEB1"
+					type: "observation"
+					title: "Observe &8Crusher&r"
+					icon: "immersiveengineering:crusher"
+					secret: true
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:crusher"
+				}
+			]
 		}
 		{
 			title: "Sawmill"
@@ -2846,8 +2860,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 4.0d
+			x: -9.0d
+			y: 40.0d
 			shape: "square"
 			description: [
 				""
@@ -2857,7 +2871,7 @@
 			]
 			dependencies: [
 				"7FA5496D2D5C9E03"
-				"6946CF4294296D6C"
+				"0728FA0EBC3963BA"
 			]
 			size: 2.75d
 			id: "4E1AE9CFAF4C589D"
@@ -2888,8 +2902,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 7.5d
+			x: -9.0d
+			y: 43.5d
 			shape: "square"
 			description: [
 				""
@@ -2899,7 +2913,7 @@
 			]
 			dependencies: [
 				"7FA5496D2D5C9E03"
-				"6946CF4294296D6C"
+				"0728FA0EBC3963BA"
 			]
 			size: 2.75d
 			id: "7F04949A20A54564"
@@ -2955,9 +2969,10 @@
 		{
 			title: "&#71797EReinforced &#422117Blast Furnace&r"
 			icon: "immersiveengineering:blastbrick_reinforced"
-			x: -30.75d
-			y: 14.75d
+			x: -5.5d
+			y: 35.75d
 			subtitle: "Blast Furnace Mk2"
+			dependencies: ["71D3CE6964067948"]
 			id: "26D4D4A9798EB323"
 			tasks: [
 				{
@@ -2975,12 +2990,9 @@
 			]
 		}
 		{
-			x: -25.25d
-			y: 14.75d
-			dependencies: [
-				"75CED07646EE8601"
-				"531AF03ED27571D3"
-			]
+			x: -11.0d
+			y: 35.75d
+			dependencies: ["75CED07646EE8601"]
 			id: "0FCE0F8BC03F5F8E"
 			tasks: [{
 				id: "28581203D41AE36F"
@@ -2989,24 +3001,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 5.5d
-			dependencies: [
-				"64C0C3B3A787D7E9"
-				"577923E345CA12E5"
-				"6E8BFBAD9A8321F5"
-			]
-			id: "6946CF4294296D6C"
-			tasks: [{
-				id: "61DCDDD1B4F63D80"
-				type: "item"
-				title: "&#61666AIron Sheetmetal&r"
-				item: "immersiveengineering:sheetmetal_iron"
-			}]
-		}
-		{
-			x: -23.25d
-			y: 14.75d
+			x: -25.25d
+			y: 12.75d
 			dependencies: [
 				"4A018BBC2F5AD675"
 				"6835288E08C68089"
@@ -3023,7 +3019,7 @@
 		{
 			title: "&4Redstone Ingots&r"
 			x: -2.75d
-			y: 22.5d
+			y: 24.25d
 			subtitle: "What would iron and redstone do mixed together?"
 			description: ["Craft &4Redstone Ingots&r by filling &4Destabilized Redstone&r on &#61666AIron Ingot&r with a &oCreate&r's &lSpout&r."]
 			dependencies: [
@@ -3054,7 +3050,7 @@
 		}
 		{
 			x: 6.0d
-			y: 14.75d
+			y: 19.25d
 			shape: "square"
 			subtitle: "Crafting Table for engineers"
 			description: ["The &#482705Engineer's Crafting Table&r works like a vanilla &#806517Crafting Table&r, but keeps items when the player leave it, and has a little integrated inventory."]
@@ -3071,7 +3067,7 @@
 		{
 			title: "&4Destabilized Redstone&r"
 			x: -4.75d
-			y: 22.5d
+			y: 24.25d
 			subtitle: "Warning, it seems to be unstable"
 			description: ["Melt &4Redstone Dust&r in &oTinkers' Construct&r's &lMelter&r, &lSmeltery&r or &lFoundry&r for obtain &4Destabilized Redstone&r."]
 			hide_dependency_lines: true
@@ -3090,7 +3086,7 @@
 		{
 			title: "&#B87333Copper Plates&r"
 			x: -8.75d
-			y: 21.5d
+			y: 23.25d
 			description: ["Craft &#B87333Copper Plates&r with &oCreate&r &lPressing&r or &oTinkers' Construct&r &lCasting&r."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -3178,7 +3174,7 @@
 		}
 		{
 			x: 7.25d
-			y: 21.5d
+			y: 23.25d
 			subtitle: "Speed up &#482705Windmill&r!"
 			description: [""]
 			dependencies: ["4E8AB0EA5262EB30"]
@@ -3202,7 +3198,7 @@
 		}
 		{
 			x: -4.75d
-			y: 26.0d
+			y: 27.75d
 			dependencies: ["185B58BD59C2FF12"]
 			id: "0B76EA5C2D4CA613"
 			tasks: [{
@@ -3223,7 +3219,7 @@
 		}
 		{
 			x: -4.75d
-			y: 20.5d
+			y: 22.25d
 			dependencies: [
 				"28352D32B8969CAE"
 				"7FA5496D2D5C9E03"
@@ -3239,7 +3235,7 @@
 		{
 			title: "&#B87333Copper Wires&r"
 			x: -6.75d
-			y: 20.5d
+			y: 22.25d
 			dependencies: [
 				"410DE957C60A9106"
 				"3230CD23CFDAB598"
@@ -3256,7 +3252,7 @@
 			title: "Craft &#482705Windmill&r"
 			icon: "create:deployer"
 			x: 1.25d
-			y: 19.5d
+			y: 21.25d
 			subtitle: "Sequenced crafting"
 			dependencies: ["1A89F0C5AAA08291"]
 			id: "2DA4E0591D7FEBBA"
@@ -3294,7 +3290,7 @@
 			title: "Craft &#482705Water Wheel&r"
 			icon: "create:mechanical_crafter"
 			x: 1.25d
-			y: 21.5d
+			y: 23.25d
 			subtitle: "Mechanical crafting"
 			dependencies: [
 				"1A89F0C5AAA08291"
@@ -3333,7 +3329,7 @@
 		}
 		{
 			x: 5.25d
-			y: 19.5d
+			y: 21.25d
 			subtitle: "&8Engineer&l&#FF0000X&r&aGardener&r"
 			dependencies: ["320127170E52E903"]
 			id: "75F8F8B9F5336E59"
@@ -3346,7 +3342,7 @@
 		}
 		{
 			x: 5.25d
-			y: 21.5d
+			y: 23.25d
 			subtitle: "Garden to factory"
 			dependencies: ["75F8F8B9F5336E59"]
 			id: "4E8AB0EA5262EB30"
@@ -3540,7 +3536,7 @@
 		}
 		{
 			x: -8.75d
-			y: 19.5d
+			y: 21.25d
 			shape: "octagon"
 			subtitle: "Is the power off?"
 			dependencies: ["2AF8EEC7FF4DC1D2"]
@@ -3562,7 +3558,7 @@
 			title: "Craft &6Engineer's Wire Cutters&r"
 			icon: "create:deployer"
 			x: -8.75d
-			y: 17.5d
+			y: 19.25d
 			subtitle: "Sequenced crafting"
 			description: [
 				"The &6Engineer's Wire Cutters&r is used in some &oImmersive Engineerging&r recipes, like &ncutting&r plates into wires."
@@ -3609,7 +3605,7 @@
 		{
 			title: "Further &#61666ALow Voltage Wires&r"
 			x: -2.75d
-			y: 28.0d
+			y: 29.75d
 			dependencies: ["1ADD7F8A69F0DDEC"]
 			id: "40D1EA38ABD7D940"
 			tasks: [{
@@ -3630,10 +3626,10 @@
 		}
 		{
 			x: 9.25d
-			y: 26.0d
+			y: 31.75d
 			hide_dependency_lines: true
 			dependencies: [
-				"793A201C5DDEAA9E"
+				"3ED30F5B4FCCA4DF"
 				"2E2B5FDF15A9B6B6"
 			]
 			id: "5D455708D55CE036"
@@ -3645,7 +3641,7 @@
 		}
 		{
 			x: 1.25d
-			y: 30.0d
+			y: 31.75d
 			hide_dependency_lines: true
 			dependencies: [
 				"34AB0AFA85B55B89"
@@ -3661,12 +3657,12 @@
 		}
 		{
 			x: 9.25d
-			y: 28.0d
+			y: 33.75d
 			hide_dependency_lines: true
 			dependencies: [
-				"6946CF4294296D6C"
+				"0728FA0EBC3963BA"
 				"69511328BB30E10D"
-				"2F571C765B55CFEE"
+				"0215BF43B38BE67A"
 				"2E2B5FDF15A9B6B6"
 			]
 			id: "2E6DA2A5DA079928"
@@ -5538,10 +5534,10 @@
 		}
 		{
 			x: 13.25d
-			y: 28.0d
+			y: 33.75d
 			hide_dependency_lines: true
 			dependencies: [
-				"793A201C5DDEAA9E"
+				"3ED30F5B4FCCA4DF"
 				"2E2B5FDF15A9B6B6"
 			]
 			id: "39E9D26735D37A85"
@@ -5606,7 +5602,7 @@
 		}
 		{
 			x: 11.25d
-			y: 22.0d
+			y: 24.0d
 			dependencies: ["4D1D481E8D4DD07B"]
 			id: "0075822DF2359FE4"
 			tasks: [{
@@ -5639,7 +5635,7 @@
 		}
 		{
 			x: 11.25d
-			y: 24.0d
+			y: 28.0d
 			dependencies: [
 				"12F51EE93A420344"
 				"073EACF91190BEA0"
@@ -5654,7 +5650,10 @@
 		{
 			x: 11.25d
 			y: 14.0d
-			dependencies: ["4D8942C7B8E9CB37"]
+			dependencies: [
+				"4D8942C7B8E9CB37"
+				"61A8F0908223A481"
+			]
 			id: "69511328BB30E10D"
 			tasks: [{
 				id: "77602CE4D29A2480"
@@ -5664,7 +5663,7 @@
 		}
 		{
 			x: -2.75d
-			y: 30.0d
+			y: 31.75d
 			hide_dependency_lines: true
 			dependencies: [
 				"793A201C5DDEAA9E"
@@ -5679,7 +5678,7 @@
 		}
 		{
 			x: -2.75d
-			y: 32.0d
+			y: 33.75d
 			hide_dependency_lines: true
 			dependencies: [
 				"5E6932FE693B1BAA"
@@ -5695,8 +5694,8 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: 3.75d
+			x: -17.0d
+			y: 39.75d
 			hide_dependency_lines: true
 			dependencies: [
 				"577923E345CA12E5"
@@ -5710,8 +5709,9 @@
 			}]
 		}
 		{
-			x: 12.75d
-			y: 7.75d
+			x: -14.25d
+			y: 43.75d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: [
 				"577923E345CA12E5"
@@ -5725,8 +5725,9 @@
 			}]
 		}
 		{
-			x: 10.75d
-			y: 7.75d
+			x: -12.25d
+			y: 43.75d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: [
 				"577923E345CA12E5"
@@ -5740,11 +5741,12 @@
 			}]
 		}
 		{
-			x: 12.75d
-			y: 5.75d
+			x: -14.25d
+			y: 41.75d
+			shape: "square"
 			dependencies: [
 				"4F10A1E05CEBFE1A"
-				"7372540F90481D1B"
+				"49914D309A5A8141"
 			]
 			id: "45F98299ADEDE5DA"
 			tasks: [{
@@ -5754,25 +5756,11 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: 5.75d
+			x: -12.25d
+			y: 41.75d
+			shape: "square"
 			hide_dependency_lines: true
-			dependencies: [
-				"34AB0AFA85B55B89"
-				"184D1F6FEC794C70"
-			]
-			id: "7372540F90481D1B"
-			tasks: [{
-				id: "70D77E8AFE5FB2D0"
-				type: "item"
-				item: "emendatusenigmatica:iron_rod"
-			}]
-		}
-		{
-			x: 10.75d
-			y: 5.75d
-			hide_dependency_lines: true
-			dependencies: ["6946CF4294296D6C"]
+			dependencies: ["0728FA0EBC3963BA"]
 			id: "649F331976DCB0A4"
 			tasks: [{
 				id: "36A4D0B08D24B73D"
@@ -5781,8 +5769,9 @@
 			}]
 		}
 		{
-			x: 12.75d
-			y: 3.75d
+			x: -14.25d
+			y: 39.75d
+			shape: "square"
 			dependencies: ["195002C6E3BDDD9B"]
 			id: "651881C1D25730A3"
 			tasks: [{
@@ -5792,8 +5781,9 @@
 			}]
 		}
 		{
-			x: 10.75d
-			y: 3.75d
+			x: -12.25d
+			y: 39.75d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: [
 				"34AB0AFA85B55B89"
@@ -5804,6 +5794,180 @@
 				id: "52AD0825B6E5AEE3"
 				type: "item"
 				item: "engineersdecor:fluid_barrel"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 14.75d
+			subtitle: "&9Metal Press Molds&r"
+			dependencies: [
+				"52562D2492B5F2DA"
+				"022FBE09A8760542"
+			]
+			id: "492E69B26A726C95"
+			tasks: [{
+				id: "5866BE28EFFC8727"
+				type: "item"
+				item: {
+					id: "immersiveengineering:blueprint"
+					Count: 1b
+					tag: {
+						blueprint: "molds"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 12.75d
+			dependencies: ["492E69B26A726C95"]
+			id: "475A6699858FFDEB"
+			tasks: [{
+				id: "5025486951F953AE"
+				type: "item"
+				item: "immersiveengineering:mold_gear"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 12.75d
+			dependencies: ["492E69B26A726C95"]
+			id: "315675355F36438D"
+			tasks: [{
+				id: "2E6802D0E08F883D"
+				type: "item"
+				item: "immersiveengineering:mold_rod"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 12.75d
+			dependencies: ["492E69B26A726C95"]
+			id: "5A71B78E129B810A"
+			tasks: [{
+				id: "5AF0FCDA89A764B2"
+				type: "item"
+				item: "immersiveengineering:mold_plate"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 12.75d
+			dependencies: ["492E69B26A726C95"]
+			id: "6A533229D52A4567"
+			tasks: [{
+				id: "0B7C1BB4B70AEB62"
+				type: "item"
+				item: "immersiveengineering:mold_wire"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 35.75d
+			dependencies: [
+				"19862EE31DFDDAB0"
+				"5AF0FCDA89A764B2"
+			]
+			id: "71D3CE6964067948"
+			tasks: [{
+				id: "61A8F0908223A481"
+				type: "item"
+				item: "emendatusenigmatica:steel_plate"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 37.75d
+			dependencies: ["71D3CE6964067948"]
+			id: "7E6244CA5CC7CAC2"
+			tasks: [{
+				id: "083F6BE220D880E0"
+				type: "item"
+				item: "immersiveengineering:sheetmetal_steel"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 35.75d
+			dependencies: [
+				"19862EE31DFDDAB0"
+				"2E6802D0E08F883D"
+			]
+			id: "3ED30F5B4FCCA4DF"
+			tasks: [{
+				id: "328199938E8621AF"
+				type: "item"
+				item: "emendatusenigmatica:steel_rod"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 37.75d
+			min_required_dependencies: 2
+			dependencies: [
+				"022FBE09A8760542"
+				"71D3CE6964067948"
+				"5AF0FCDA89A764B2"
+			]
+			id: "6FB6F406F526DE97"
+			tasks: [{
+				id: "229548785C5142A0"
+				type: "item"
+				item: "emendatusenigmatica:copper_plate"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 39.75d
+			dependencies: ["6FB6F406F526DE97"]
+			id: "0215BF43B38BE67A"
+			tasks: [{
+				id: "6CCE7D835EF8D0DF"
+				type: "item"
+				item: "immersiveengineering:sheetmetal_copper"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 39.75d
+			min_required_dependencies: 2
+			dependencies: [
+				"022FBE09A8760542"
+				"6FB6F406F526DE97"
+				"5AF0FCDA89A764B2"
+			]
+			id: "0B70DAFB9E760CF8"
+			tasks: [{
+				id: "11C7B21CC46B4192"
+				type: "item"
+				item: "emendatusenigmatica:iron_plate"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 41.75d
+			dependencies: ["0B70DAFB9E760CF8"]
+			id: "0728FA0EBC3963BA"
+			tasks: [{
+				id: "0C5279A8EE03DC68"
+				type: "item"
+				item: "immersiveengineering:sheetmetal_iron"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 39.75d
+			min_required_dependencies: 2
+			dependencies: [
+				"022FBE09A8760542"
+				"3ED30F5B4FCCA4DF"
+				"2E6802D0E08F883D"
+			]
+			id: "6A568D4357334C8A"
+			tasks: [{
+				id: "49914D309A5A8141"
+				type: "item"
+				item: "emendatusenigmatica:iron_rod"
 			}]
 		}
 	]
