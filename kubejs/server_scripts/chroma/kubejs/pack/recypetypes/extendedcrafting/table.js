@@ -1579,7 +1579,7 @@ onEvent("recipes", (event) => {
           "type": "forge:nbt",
           "item": "resourcefulbees:bee_jar",
           "count": 1,
-          "nbt": "{Entity:\"resourcefulbees:soul_lava_bee\"}"
+          "nbt": "{Entity:\"resourcefulbees:soul_lava_bee\",display:{Name:\u0027{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.soul_lava_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}\u0027},Color:\"#2762a1\"}"
         }
       },
       "result": {
@@ -1591,8 +1591,8 @@ onEvent("recipes", (event) => {
     }
   ).id(`${id_prefix}allthemodium_bee`)
 
-    event.custom(
-      {
+  event.custom(
+    {
       "type": "extendedcrafting:shaped_table",
       "pattern": [
         "AAAAAAAAA",
@@ -1622,7 +1622,7 @@ onEvent("recipes", (event) => {
           "type": "forge:nbt",
           "item": "resourcefulbees:bee_jar",
           "count": 1,
-          "nbt": "{Entity:\"resourcefulbees:allthemodium_bee\"}"
+          "nbt": "{Entity:\"resourcefulbees:allthemodium_bee\",display:{Name:\u0027{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.allthemodium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}\u0027},Color:\"#fcc50c\"}"
         }
       },
       "result": {
@@ -1634,8 +1634,8 @@ onEvent("recipes", (event) => {
     }
   ).id(`${id_prefix}vibranium_bee`)
 
-      event.custom(
-        {
+  event.custom(
+    {
       "type": "extendedcrafting:shaped_table",
       "pattern": [
         "AAAAAAAAA",
@@ -1665,7 +1665,7 @@ onEvent("recipes", (event) => {
           "type": "forge:nbt",
           "item": "resourcefulbees:bee_jar",
           "count": 1,
-          "nbt": "{Entity:\"resourcefulbees:vibranium_bee\"}"
+          "nbt": "{Entity:\"resourcefulbees:vibranium_bee\",Color:\"#1bb188\",display:{Name:\u0027{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.vibranium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}\u0027}}"
         }
       },
       "result": {
