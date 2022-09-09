@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:andesite"
+    },
+    {
+      "tag": "forge:nuggets/zinc",
+      "count": 2
+    }
+  ],
+  "results": [
+    {
+      "item": "create:andesite_alloy"
+    }
+  ]
+}
