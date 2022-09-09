@@ -155,6 +155,19 @@ onEvent('recipes', (event) => {
           output: 'masterfulmachinery:autoinfuser_compound_item_port_items_output',
           id: `${id_prefix}autoinfuser_compound_item_port_items_output`
       },
+      {
+          inputs: [
+            'ars_nouveau:experience_gem',
+            'ars_nouveau:experience_gem',
+            'miniutilities:experience_pearl_7x',
+            'miniutilities:experience_pearl_7x',
+
+          ],
+          reagent: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:diamond_bee' }).weakNBT().toJson(),
+          sourceCost: 10000,
+          output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:experience_bee' }).toJson(),
+          id: `${id_prefix}experience_bee`
+      }
     ];
 
     recipes.forEach((recipe) => {

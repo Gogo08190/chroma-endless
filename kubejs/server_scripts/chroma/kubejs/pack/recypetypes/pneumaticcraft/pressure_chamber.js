@@ -334,6 +334,14 @@ onEvent('recipes', (event) => {
           pressure: 2.0,
           results: [{item: 'bigreactors:graphite_block', count: 1}],
           id: 'bigreactors:blasting/graphite_from_coalblock'
+        },
+        {
+          inputs:[
+            Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:coal_bee' }).weakNBT().toJson(),
+          ],
+          pressure: 2.0,
+          results: [Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:graphite_bee' }).toJson()],
+          id: `${id_prefix}graphite_bee`
         }
     ];
 

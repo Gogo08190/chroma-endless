@@ -1,6 +1,6 @@
 {
     "flower": "tag:forge:storage_blocks/emerald",
-    "lore": "Tier 3 :\nDying a Diamond green (and slimy) apparently yields an Emerald.",
+    "lore": "Tier 3 :\nDying a Diamond green (and slime) apparently yields an Emerald.",
     "loreColor": "#00AAAA",
     "maxTimeInHive": 2400,
     "sizeModifier": 1,
@@ -66,7 +66,7 @@
     "BreedData": {
         "isBreedable": true,
         "parent1": "diamond",
-        "parent2": "slimy",
+        "parent2": "slime",
         "feedItem": "tag:forge:storage_blocks/emerald",
         "feedAmount": 1,
         "childGrowthDelay": -24000,

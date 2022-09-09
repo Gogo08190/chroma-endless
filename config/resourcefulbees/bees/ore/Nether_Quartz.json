@@ -68,7 +68,7 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "feedItem": "forge:storage_blocks/quartz",
+    "feedItem": "minecraft:quartz_block",
     "feedAmount": 5,
     "childGrowthDelay": -24000,
     "breedDelay": 6000

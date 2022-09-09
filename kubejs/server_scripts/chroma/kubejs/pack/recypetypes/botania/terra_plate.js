@@ -14,19 +14,6 @@ onEvent('recipes', (event) => {
     const recipes = [
       {
           inputs: [
-              { item: 'botania:mana_pearl' },
-              { item: 'botania:mana_pearl' },
-              { item: 'botania:mana_pearl' },
-              { item: 'botania:mana_pearl' }
-          ],
-          output: { item: 'minecraft:stone' },
-          mana: 300000,
-          id: `${id_prefix}stone`
-      },
-
-
-      {
-          inputs: [
               Item.of('resourcefulbees:bee_jar', {
                   Entity: 'resourcefulbees:manasteel_bee'
               })
@@ -101,7 +88,7 @@ onEvent('recipes', (event) => {
               Entity: 'resourcefulbees:gaia_bee'
           }).toJson(),
           mana: 2000000,
-          id: `${id_prefix}terrasteel_bee_jar`
+          id: `${id_prefix}gaia_bee_jar`
       }
 
     ];
