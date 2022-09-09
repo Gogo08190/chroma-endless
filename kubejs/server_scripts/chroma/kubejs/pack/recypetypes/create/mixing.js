@@ -2,12 +2,6 @@ onEvent('recipes', (event) => {
     const id_prefix = 'chroma:pack/create/mixing/';
     const recipes = [
         {
-            inputs: ['#forge:storage_blocks/coal'],
-            output: Item.of('emendatusenigmatica:coke_gem', 9),
-            heated: true,
-            id: `${id_prefix}coal_coke`
-        },
-        {
             inputs: ['#forge:clay', '#forge:gravel', '#forge:sand', '#forge:sand', Fluid.of('minecraft:water', 500)],
             output: Fluid.of('immersiveengineering:concrete', 500),
             id: `${id_prefix}concrete`
