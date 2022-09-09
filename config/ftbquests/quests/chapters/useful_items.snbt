@@ -44,5 +44,19 @@
 				}
 			}]
 		}
+		{
+			x: 2.0d
+			y: 0.0d
+			id: "607038F8C91DC55C"
+			tasks: [{
+				id: "44294B3AA706FF94"
+				type: "item"
+				item: {
+					id: "explorerscompass:explorerscompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
 	]
 }

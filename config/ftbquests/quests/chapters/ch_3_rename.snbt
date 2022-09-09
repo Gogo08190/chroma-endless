@@ -412,5 +412,15 @@
 				item: "thermal:device_nullifier"
 			}]
 		}
+		{
+			x: 1.0d
+			y: -4.25d
+			id: "2FEB865C2D01A142"
+			tasks: [{
+				id: "7B4BBD2AE0B183B0"
+				type: "item"
+				item: "thermal:satchel"
+			}]
+		}
 	]
 }

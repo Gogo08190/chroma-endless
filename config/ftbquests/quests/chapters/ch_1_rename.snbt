@@ -1678,6 +1678,11 @@
 					type: "item"
 					item: "tconstruct:seared_table"
 				}
+				{
+					id: "7AF336A6DB3EF3B9"
+					type: "item"
+					item: "tconstruct:seared_heater"
+				}
 			]
 		}
 		{
@@ -2029,8 +2034,8 @@
 			}]
 		}
 		{
-			x: 14.25d
-			y: 28.0d
+			x: 24.0d
+			y: 37.0d
 			subtitle: "The Mechanical Arm is a block used to transfer items"
 			description: [
 				"With the Mechanical Arm in hand, right clicking valid inventories will select them to be taken from, or deposited to if the inventory cannot be taken from."
@@ -2045,10 +2050,9 @@
 				""
 				"● Prefer First - The Mechanical Arm will always take from and deposit to the first available inventory in order of placement."
 			]
-			hide_dependency_lines: true
 			dependencies: [
-				"17E63FB824FA537E"
 				"2A83D8FCCCFE217C"
+				"698A7978870E7020"
 			]
 			id: "1503BC3C224011DC"
 			tasks: [{
@@ -4363,17 +4367,6 @@
 			]
 		}
 		{
-			x: 24.0d
-			y: 37.0d
-			dependencies: ["2A83D8FCCCFE217C"]
-			id: "14139F64C7AD91B6"
-			tasks: [{
-				id: "104B9ECBFEF3672C"
-				type: "item"
-				item: "create:mechanical_arm"
-			}]
-		}
-		{
 			x: 15.25d
 			y: 29.5d
 			dependencies: ["3441111B8198CC9D"]
@@ -4493,6 +4486,64 @@
 				type: "item"
 				item: "tconstruct:rose_gold_ingot"
 			}]
+		}
+		{
+			x: 17.75d
+			y: 18.25d
+			id: "1E0438ACF1B3311D"
+			tasks: [{
+				id: "6991E1FEF90E30EC"
+				type: "item"
+				item: "create:wheat_flour"
+			}]
+		}
+		{
+			title: "Sleeping Bag"
+			icon: "comforts:sleeping_bag_light_blue"
+			x: 2.75d
+			y: -1.0d
+			dependencies: ["1C7C41C2FA427B8F"]
+			id: "38D2E67E3EAF0C45"
+			tasks: [{
+				id: "0C6A1F0C9EC0F8BE"
+				type: "item"
+				title: "Sleeping Bag"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "chroma:sleeping_bag"
+					}
+				}
+			}]
+		}
+		{
+			title: "Hammock"
+			icon: "comforts:hammock_light_blue"
+			x: 2.75d
+			y: 1.0d
+			dependencies: ["1C7C41C2FA427B8F"]
+			id: "4CF7A627823E69EE"
+			tasks: [
+				{
+					id: "01AA8FA7AA463E6F"
+					type: "item"
+					title: "Hammock Cloth"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "chroma:hammock"
+						}
+					}
+				}
+				{
+					id: "44D2161D9E02A376"
+					type: "item"
+					item: "comforts:rope_and_nail"
+					count: 2L
+				}
+			]
 		}
 	]
 }
