@@ -118,6 +118,15 @@ onEvent('recipes', (event) => {
         infusionInput: 'mekanism:diamond',
         infusionAmount: 320,
         id: 'draconicevolution:energy_core_stabilizer'
+      },
+      
+      //osmium_bee
+      {
+        output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:osmium_bee' }).weakNBT().toJson(),
+        input: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:stone_bee' }).weakNBT().toJson(),
+        infusionInput: 'kubejs:osmium',
+        infusionAmount: 320,
+        id: 'osmium_bee'
       }
 
     ];
