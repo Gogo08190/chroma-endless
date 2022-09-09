@@ -1,0 +1,20 @@
+onEvent('item.tags', (event) => {
+    event.get('chroma:hammock').add([
+            'comforts:hammock_white',
+            'comforts:hammock_orange',
+            'comforts:hammock_magenta',
+            'comforts:hammock_light_blue',
+            'comforts:hammock_yellow',
+            'comforts:hammock_lime',
+            'comforts:hammock_pink',
+            'comforts:hammock_gray',
+            'comforts:hammock_light_gray',
+            'comforts:hammock_cyan',
+            'comforts:hammock_purple',
+            'comforts:hammock_blue',
+            'comforts:hammock_brown',
+            'comforts:hammock_green',
+            'comforts:hammock_red',
+            'comforts:hammock_black'
+        ]);
+});
