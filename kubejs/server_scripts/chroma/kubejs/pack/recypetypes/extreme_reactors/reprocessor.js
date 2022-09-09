@@ -16,7 +16,7 @@ onEvent('recipes', (event) => {
       },
       {
         waste: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:blutonium_bee' }).weakNBT().toJson(),
-        fluid: { fluid: 'bigreactors:magentite', count: 5000 },
+        fluid: { fluid: 'bigreactors:cyanite', count: 5000 },
         result: { item: 'resourcefulbees:ludicrite_bee_spawn_egg' },
         id: `${id_prefix}ludicrite_bee`
       },
