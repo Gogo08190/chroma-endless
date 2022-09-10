@@ -72,7 +72,15 @@ onEvent('item.registry', (event) => {
         'pink_honeycomb',
         'purple_honeycomb',
         'red_honeycomb',
-        'creative_catalyst'
+        'creative_catalyst',
+        'light_ingot',
+        'dark_ingot',
+        'green_ingot',
+        'pink_ingot',
+        'red_ingot',
+        'blue_ingot',
+        'orange_ingot',
+        'purple_ingot'
     ];
 
     generalItems.forEach((item) => {
