@@ -2164,4 +2164,344 @@ onEvent("recipes", (event) => {
       }
     }
   ).id(`${id_prefix}ultimate_rune`)
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shapeless_table",
+      "ingredients": [
+        {
+          "item": "draconicevolution:draconium_ingot"
+        },
+        {
+          "item": "allthemodium:unobtainium_ingot"
+        },
+        {
+          "item": "bigreactors:ludicrite_ingot"
+        },
+        {
+          "item": "mekanism:ingot_refined_obsidian"
+        },
+        {
+          "item": "tconstruct:hepatizon_ingot"
+        },
+        {
+          "item": "tconstruct:manyullyn_ingot"
+        }
+      ],
+      "result": {
+        "item": "kubejs:purple_ingot"
+      }
+    }
+  ).id(`${id_prefix}purple_ingot`)
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shapeless_table",
+      "ingredients": [
+        {
+          "item": "elementalcraft:swift_alloy_ingot"
+        },
+        {
+          "item": "undergarden:regalium_ingot"
+        },
+        {
+          "item": "tconstruct:tinkers_bronze_ingot"
+        },
+        {
+          "item": "emendatusenigmatica:bronze_ingot"
+        },
+        {
+          "item": "mekanism:ingot_refined_glowstone"
+        },
+        {
+          "item": "emendatusenigmatica:lumium_ingot"
+        },
+        {
+          "item": "minecraft:gold_ingot"
+        },
+        {
+          "item": "emendatusenigmatica:brass_ingot"
+        },
+        {
+          "item": "emendatusenigmatica:electrum_ingot"
+        },
+        {
+          "item": "allthemodium:allthemodium_ingot"
+        },
+        {
+          "item": "draconicevolution:awakened_draconium_ingot"
+        },
+        {
+          "item": "emendatusenigmatica:copper_ingot"
+        },
+        {
+          "item": "emendatusenigmatica:constantan_ingot"
+        },
+        {
+          "item": "emendatusenigmatica:signalum_ingot"
+        },
+        {
+          "item": "enderioalloys:item_alloy_ingot_energetic_alloy"
+        },
+        {
+          "item": "enderioalloys:item_alloy_ingot_end_steel"
+        }
+      ],
+      "result": {
+        "item": "kubejs:orange_ingot"
+      }
+    }
+  ).id(`${id_prefix}orange_ingot`)
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shapeless_table",
+      "ingredients": [
+        {
+          "item": "betterendforge:thallasium_ingot"
+        },
+        {
+          "item": "botania:manasteel_ingot"
+        },
+        {
+          "item": "emendatusenigmatica:silver_ingot"
+        },
+        {
+          "item": "tconstruct:slimesteel_ingot"
+        },
+        {
+          "item": "occultism:iesnium_ingot"
+        },
+        {
+          "item": "bigreactors:blutonium_ingot"
+        },
+        {
+          "item": "emendatusenigmatica:cobalt_ingot"
+        },
+        {
+          "item": "bigreactors:cyanite_ingot"
+        },
+        {
+          "item": "elementalcraft:drenched_iron_ingot"
+        },
+        {
+          "item": "undergarden:froststeel_ingot"
+        },
+        {
+          "item": "enderioalloys:item_alloy_ingot_energetic_silver"
+        },
+        {
+          "item": "enderioalloys:item_alloy_ingot_vivid_alloy"
+        },
+        {
+          "item": "enderioalloys:item_alloy_ingot_crystalline_alloy"
+        },
+        {
+          "item": "emendatusenigmatica:osmium_ingot"
+        },
+        {
+          "item": "betterendforge:terminite_ingot"
+        }
+      ],
+      "result": {
+        "item": "kubejs:blue_ingot"
+      }
+    }
+  ).id(`${id_prefix}blue_ingot`)
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shapeless_table",
+      "ingredients": [
+        {
+          "item": "bigreactors:inanite_ingot"
+        },
+        {
+          "item": "undergarden:utherium_ingot"
+        },
+        {
+          "item": "extendedcrafting:redstone_ingot"
+        },
+        {
+          "item": "enderioalloys:item_alloy_ingot_redstone_alloy"
+        },
+        {
+          "item": "enderioalloys:item_alloy_ingot_conductive_iron"
+        }
+      ],
+      "result": {
+        "item": "kubejs:red_ingot"
+      }
+    }
+  ).id(`${id_prefix}red_ingot`)
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shapeless_table",
+      "ingredients": [
+        {
+          "item": "bigreactors:magentite_ingot"
+        },
+        {
+          "item": "materialis:fairy_ingot"
+        },
+        {
+          "item": "enderioalloys:item_alloy_ingot_melodic_alloy"
+        },
+        {
+          "item": "arsarsenal:source_steel_ingot"
+        },
+        {
+          "item": "bigreactors:ridiculite_ingot"
+        },
+        {
+          "item": "botania:elementium_ingot"
+        },
+        {
+          "item": "industrialforegoing:pink_slime_ingot"
+        },
+        {
+          "item": "enderioalloys:item_alloy_ingot_crystalline_pink_slime"
+        },
+        {
+          "item": "tconstruct:pig_iron_ingot"
+        },
+        {
+          "item": "botania:gaia_ingot"
+        },
+        {
+          "item": "tconstruct:rose_gold_ingot"
+        }
+      ],
+      "result": {
+        "item": "kubejs:pink_ingot"
+      }
+    }
+  ).id(`${id_prefix}pink_ingot`)
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shapeless_table",
+      "ingredients": [
+        {
+          "item": "betterendforge:aeternium_ingot"
+        },
+        {
+          "item": "extendedcrafting:ender_ingot"
+        },
+        {
+          "item": "emendatusenigmatica:enderium_ingot"
+        },
+        {
+          "item": "undergarden:forgotten_ingot"
+        },
+        {
+          "item": "enderioalloys:item_alloy_ingot_pulsating_iron"
+        },
+        {
+          "item": "enderioalloys:item_alloy_ingot_vibrant_alloy"
+        },
+        {
+          "item": "tconstruct:queens_slime_ingot"
+        },
+        {
+          "item": "botania:terrasteel_ingot"
+        },
+        {
+          "type": "forge:nbt",
+          "item": "miniutilities:unstable_ingot",
+          "count": 1,
+          "nbt": "{Damage:87}"
+        },
+        {
+          "item": "emendatusenigmatica:uranium_ingot"
+        },
+        {
+          "item": "allthemodium:vibranium_ingot"
+        },
+        {
+          "item": "emendatusenigmatica:zinc_ingot"
+        }
+      ],
+      "result": {
+        "item": "kubejs:green_ingot"
+      }
+    }
+  ).id(`${id_prefix}green_ingot`)
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shapeless_table",
+      "ingredients": [
+        {
+          "item": "cagedmobs:star_infused_netherite_ingot"
+        },
+        {
+          "item": "dustrial_decor:rusty_iron_ingot"
+        },
+        {
+          "item": "undergarden:cloggrum_ingot"
+        },
+        {
+          "item": "enderioalloys:item_alloy_ingot_dark_steel"
+        },
+        {
+          "item": "emendatusenigmatica:steel_ingot"
+        },
+        {
+          "item": "pneumaticcraft:ingot_iron_compressed"
+        },
+        {
+          "item": "immersiveengineering:ingot_hop_graphite"
+        },
+        {
+          "item": "minecraft:netherite_ingot"
+        },
+        {
+          "item": "extendedcrafting:black_iron_ingot"
+        },
+        {
+          "item": "elementalcraft:fireite_ingot"
+        },
+        {
+          "item": "enderioalloys:item_alloy_ingot_soularium"
+        }
+      ],
+      "result": {
+        "item": "kubejs:dark_ingot"
+      }
+    }
+  ).id(`${id_prefix}dark_ingot`)
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shapeless_table",
+      "ingredients": [
+        {
+          "item": "emendatusenigmatica:tin_ingot"
+        },
+        {
+          "item": "enderioalloys:item_alloy_ingot_stellar_alloy"
+        },
+        {
+          "item": "enderioalloys:item_alloy_ingot_electrical_steel"
+        },
+        {
+          "item": "enderioalloys:item_alloy_ingot_crude_steel"
+        },
+        {
+          "item": "minecraft:iron_ingot"
+        },
+        {
+          "item": "emendatusenigmatica:invar_ingot"
+        },
+        {
+          "item": "emendatusenigmatica:aluminum_ingot"
+        }
+      ],
+      "result": {
+        "item": "kubejs:light_ingot"
+      }
+    }
+  ).id(`${id_prefix}light_ingot`)
 });

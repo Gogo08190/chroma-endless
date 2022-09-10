@@ -280,6 +280,23 @@ onEvent('recipes', (event) => {
                 I: 'kubejs:light_honeycomb'
             },
             id: `${id_prefix}ultimate_honeycomb`
+        },
+
+        // Ultimate Ingot
+        {
+            output: 'extendedcrafting:the_ultimate_ingot',
+            pattern: ['ABCDEFGH'],
+            key: {
+                A: 'kubejs:dark_ingot',
+                B: 'kubejs:red_ingot',
+                C: 'kubejs:orange_ingot',
+                D: 'kubejs:purple_ingot',
+                E: 'kubejs:pink_ingot',
+                F: 'kubejs:blue_ingot',
+                G: 'kubejs:green_ingot',
+                H: 'kubejs:light_ingot'
+            },
+            id: `${id_prefix}the_ultimate_ingot`
         }
 
     ];
