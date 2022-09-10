@@ -2105,4 +2105,74 @@ onEvent("recipes", (event) => {
       }
     }
   ).id(`${id_prefix}green_honeycomb`)
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCDEFGHI",
+        "JKLMNOP  ",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "         ",
+        "         "
+      ],
+      "key": {
+        "A": {
+          "item": "botania:rune_water"
+        },
+        "B": {
+          "item": "botania:rune_fire"
+        },
+        "C": {
+          "item": "botania:rune_earth"
+        },
+        "D": {
+          "item": "botania:rune_air"
+        },
+        "E": {
+          "item": "botania:rune_spring"
+        },
+        "F": {
+          "item": "botania:rune_summer"
+        },
+        "G": {
+          "item": "botania:rune_autumn"
+        },
+        "H": {
+          "item": "botania:rune_winter"
+        },
+        "I": {
+          "item": "botania:rune_mana"
+        },
+        "J": {
+          "item": "botania:rune_lust"
+        },
+        "K": {
+          "item": "botania:rune_gluttony"
+        },
+        "L": {
+          "item": "botania:rune_greed"
+        },
+        "M": {
+          "item": "botania:rune_sloth"
+        },
+        "N": {
+          "item": "botania:rune_wrath"
+        },
+        "O": {
+          "item": "botania:rune_envy"
+        },
+        "P": {
+          "item": "botania:rune_pride"
+        }
+      },
+      "result": {
+        "item": "kubejs:ultimate_rune"
+      }
+    }
+  ).id(`${id_prefix}ultimate_rune`)
 });
