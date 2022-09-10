@@ -157,10 +157,12 @@ onEvent('recipes', (event) => {
       },
       {
           inputs: [
-            'ars_nouveau:experience_gem',
-            'ars_nouveau:experience_gem',
-            'miniutilities:experience_pearl_7x',
-            'miniutilities:experience_pearl_7x',
+            'miniutilities:experience_opinium_core',
+            'miniutilities:experience_opinium_core',
+            'miniutilities:experience_pearl_4x',
+            'miniutilities:experience_pearl_4x',
+            'minecraft:experience_bottle',
+            'minecraft:experience_bottle'
 
           ],
           reagent: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:diamond_bee' }).weakNBT().toJson(),
