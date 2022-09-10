@@ -2408,10 +2408,7 @@ onEvent("recipes", (event) => {
           "item": "botania:terrasteel_ingot"
         },
         {
-          "type": "forge:nbt",
-          "item": "miniutilities:unstable_ingot",
-          "count": 1,
-          "nbt": "{Damage:87}"
+          "item": "miniutilities:unstable_ingot"
         },
         {
           "item": "emendatusenigmatica:uranium_ingot"
