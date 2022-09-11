@@ -80,7 +80,8 @@ onEvent('item.registry', (event) => {
         'red_ingot',
         'blue_ingot',
         'orange_ingot',
-        'purple_ingot'
+        'purple_ingot',
+        'arcana'
     ];
 
     generalItems.forEach((item) => {
