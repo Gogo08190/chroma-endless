@@ -196,9 +196,9 @@ onEvent('recipes', (event) => {
           },
           id: 'refinedstorage:crafter_manager'
       },
-      ///Wireless Grid
+      // Wireless Grid
       {
-          output: Item.of('refinedstorage:wireless_grid', '{Energy:0}'),
+          output: 'refinedstorage:wireless_grid',
           pattern: ['QIQ', 'QGQ', 'QAQ'],
           key: {
               Q:'refinedstorage:quartz_enriched_iron',
@@ -208,9 +208,9 @@ onEvent('recipes', (event) => {
           },
           id: 'refinedstorage:wireless_grid'
       },
-      ///Wireless Fluid Grid
+      // Wireless Fluid Grid
       {
-          output: Item.of('refinedstorage:wireless_fluid_grid', '{Energy:0}'),
+          output: 'refinedstorage:wireless_fluid_grid',
           pattern: ['QIQ', 'QGQ', 'QAQ'],
           key: {
               Q:'refinedstorage:quartz_enriched_iron',
@@ -220,9 +220,9 @@ onEvent('recipes', (event) => {
           },
           id: 'refinedstorage:wireless_fluid_grid'
       },
-      ///Wireless Crafting Monitor
+      // Wireless Crafting Monitor
       {
-          output: Item.of('refinedstorage:wireless_crafting_monitor', '{Energy:0}'),
+          output: 'refinedstorage:wireless_crafting_monitor',
           pattern: ['QIQ', 'QGQ', 'QAQ'],
           key: {
               Q:'refinedstorage:quartz_enriched_iron',
@@ -231,7 +231,20 @@ onEvent('recipes', (event) => {
               A:'refinedstorage:advanced_processor'
           },
           id: 'refinedstorage:wireless_crafting_monitor'
-      }
+      },
+      // Universal Grid
+      {
+          output: 'universalgrid:wireless_universal_grid',
+          pattern: ['NFN', 'CWC', 'NGN'],
+          key: {
+              N: 'extrastorage:neural_processor',
+              F: 'refinedstorage:wireless_fluid_grid',
+              C: '#forge:circuits/ultimate',
+              W: 'refinedstorage:wireless_grid',
+              G: 'refinedstorageaddons:wireless_crafting_grid'
+          },
+          id: 'universalgrid:wireless_universal_grid'
+      },
     ];
 
     recipes.forEach((recipe) => {
