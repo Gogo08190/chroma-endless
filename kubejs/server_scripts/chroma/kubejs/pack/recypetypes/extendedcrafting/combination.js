@@ -157,6 +157,33 @@ onEvent('recipes', (event) => {
           powerRate: 10000,
           result: { item: 'pipez:infinity_upgrade' },
           id: `${id_prefix}infinity_upgrade`
+      },
+      {
+          inputs: [
+              { item: 'mekanism:hdpe_elytra' },
+              { item: 'miniutilities:the_final_opinium_core' },
+              { item: 'powah:blazing_crystal_block' },
+              { item: 'ars_elemental:air_focus' },
+              { item: 'powah:blazing_crystal_block' },
+              { item: 'miniutilities:the_final_opinium_core' },
+              { item: 'tconstruct:slime_chestplate' },
+              { item: 'powah:blazing_crystal_block' },
+              { item: 'allthemodium:unobtainium_vibranium_alloy_ingot' },
+              { item: 'powah:blazing_crystal_block' },
+              { item: 'miniutilities:the_final_opinium_core' },
+              { item: 'powah:blazing_crystal_block' },
+              { item: 'envirocore:electrostatic_modifier' },
+              { item: 'powah:blazing_crystal_block' },
+              { item: 'miniutilities:the_final_opinium_core' },
+              { item: 'powah:blazing_crystal_block' },
+              { item: 'allthemodium:unobtainium_vibranium_alloy_ingot' },
+              { item: 'powah:blazing_crystal_block' }
+          ],
+          catalyst: { item: 'botania:flight_tiara'},
+          powerCost: 1000000,
+          powerRate: 10000,
+          result: { item: 'miniutilities:angel_ring' },
+          id: 'miniutilities:angel_ring_crafting'
       }
     ];
 
