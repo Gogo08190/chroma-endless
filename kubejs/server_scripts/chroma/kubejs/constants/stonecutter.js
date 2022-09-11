@@ -1840,7 +1840,8 @@ const stonecuttables = [
             'chipped:vine_4',
             'chipped:vine_3',
             'chipped:vine_2',
-            'chipped:vine_1'
+            'chipped:vine_1',
+            'valhelsia_structures:hanging_vines'
         ],
         onlyAsOutput: [],
         onlyAsInput: []
@@ -2228,6 +2229,78 @@ const stonecuttables = [
             'environmental:mud_bricks',
             'tconstruct:mud_bricks',
             'byg:mud_bricks'
+        ],
+        onlyAsOutput: [],
+        onlyAsInput: []
+    },
+    {
+        name: 'oak_wood',
+        stones: [
+            'minecraft:oak_log',
+            'valhelsia_structures:oak_post'
+        ],
+        onlyAsOutput: [],
+        onlyAsInput: []
+    },
+    {
+        name: 'spruce_wood',
+        stones: [
+            'minecraft:spruce_log',
+            'valhelsia_structures:spruce_post'
+        ],
+        onlyAsOutput: [],
+        onlyAsInput: []
+    },
+    {
+        name: 'birch_wood',
+        stones: [
+            'minecraft:birch_log',
+            'valhelsia_structures:birch_post'
+        ],
+        onlyAsOutput: [],
+        onlyAsInput: []
+    },
+    {
+        name: 'jungle_wood',
+        stones: [
+            'minecraft:jungle_log',
+            'valhelsia_structures:jungle_post'
+        ],
+        onlyAsOutput: [],
+        onlyAsInput: []
+    },
+    {
+        name: 'acacia_wood',
+        stones: [
+            'minecraft:acacia_log',
+            'valhelsia_structures:acacia_post'
+        ],
+        onlyAsOutput: [],
+        onlyAsInput: []
+    },
+    {
+        name: 'dark_oak_wood',
+        stones: [
+            'minecraft:dark_oak_log',
+            'valhelsia_structures:dark_oak_post'
+        ],
+        onlyAsOutput: [],
+        onlyAsInput: []
+    },
+    {
+        name: 'warped_wood',
+        stones: [
+            'minecraft:warped_stem',
+            'valhelsia_structures:warped_post'
+        ],
+        onlyAsOutput: [],
+        onlyAsInput: []
+    },
+    {
+        name: 'crimson_wood',
+        stones: [
+            'minecraft:crimson_stem',
+            'valhelsia_structures:crimson_post'
         ],
         onlyAsOutput: [],
         onlyAsInput: []
