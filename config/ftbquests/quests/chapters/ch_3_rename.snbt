@@ -344,7 +344,7 @@
 		}
 		{
 			x: 7.5d
-			y: 1.5d
+			y: 2.5d
 			id: "16CD3DCEADC25412"
 			tasks: [{
 				id: "007D342CB82081B7"
@@ -420,6 +420,136 @@
 				id: "7B4BBD2AE0B183B0"
 				type: "item"
 				item: "thermal:satchel"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.5d
+			id: "4F0254EAFC83FA04"
+			tasks: [{
+				id: "53D2002D3312DB33"
+				type: "item"
+				item: "thermal:dynamo_stirling"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.5d
+			id: "4EFBF89BA702CF28"
+			tasks: [{
+				id: "6487609623A9AE22"
+				type: "item"
+				item: "thermal:dynamo_magmatic"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 4.5d
+			id: "72E898EEB37A8C0D"
+			tasks: [{
+				id: "0B741EC4816253C2"
+				type: "item"
+				item: "thermal:dynamo_numismatic"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 5.5d
+			id: "33DC7ECAC9FFC226"
+			tasks: [{
+				id: "36685AE482043319"
+				type: "item"
+				item: "thermal:dynamo_lapidary"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 6.5d
+			id: "4AFD81C9B0B85DC5"
+			tasks: [{
+				id: "30BC9C5AA8B9DE75"
+				type: "item"
+				item: "thermal:dynamo_disenchantment"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 7.5d
+			id: "31A3D8CEE3857019"
+			tasks: [{
+				id: "6825F317FF9EE0A1"
+				type: "item"
+				item: "thermal:dynamo_gourmand"
+			}]
+		}
+		{
+			x: -8.25d
+			y: 1.0d
+			id: "5B1BA329958A7ACC"
+			tasks: [{
+				id: "5BD07914DD31782B"
+				type: "item"
+				item: "thermal:machine_insolator"
+			}]
+		}
+		{
+			x: -2.25d
+			y: 1.0d
+			id: "4A0F36F90F6004CC"
+			tasks: [{
+				id: "76498BA1494D907F"
+				type: "item"
+				item: "thermal:machine_centrifuge"
+			}]
+		}
+		{
+			x: -9.25d
+			y: 2.5d
+			id: "0D4FABA90E9DCAEE"
+			tasks: [{
+				id: "7C5DF26D52BC3375"
+				type: "item"
+				item: "thermal:machine_chiller"
+			}]
+		}
+		{
+			x: -7.25d
+			y: 2.5d
+			id: "5A2860254AFFB8AE"
+			tasks: [{
+				id: "7E31F637D36B946C"
+				type: "item"
+				item: "thermal:machine_refinery"
+			}]
+		}
+		{
+			x: -3.25d
+			y: 2.5d
+			id: "7725395D23ABF6DD"
+			tasks: [{
+				id: "1C1359A652256050"
+				type: "item"
+				item: "thermal:machine_pyrolyzer"
+			}]
+		}
+		{
+			x: -1.25d
+			y: 2.5d
+			id: "2C237D8A42C15549"
+			tasks: [{
+				id: "39B09857D08F4095"
+				type: "item"
+				item: "thermal:machine_brewer"
+			}]
+		}
+		{
+			x: -5.25d
+			y: 6.5d
+			id: "2CBD9D2771248605"
+			tasks: [{
+				id: "79E2A6CEB3491685"
+				type: "item"
+				item: "thermal:machine_crafter"
 			}]
 		}
 	]
