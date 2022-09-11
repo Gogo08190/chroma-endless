@@ -1,7 +1,7 @@
 {
 	id: "05F7FCA81A7AC3EC"
 	group: ""
-	order_index: 10
+	order_index: 9
 	filename: "useful_items"
 	title: "Useful Items"
 	icon: {
@@ -56,6 +56,265 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			id: "6F206C31ECDB6FCB"
+			tasks: [{
+				id: "1DB643470509253F"
+				type: "item"
+				item: "extendedcrafting:handheld_table"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			id: "0C6C8EEA525B1E98"
+			tasks: [{
+				id: "548591A6FDEBBC19"
+				type: "item"
+				title: "Waystone"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "waystones:waystone"
+								Count: 1b
+							}
+							{
+								id: "waystones:mossy_waystone"
+								Count: 1b
+							}
+							{
+								id: "waystones:sandy_waystone"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.25d
+			id: "638165806CD28566"
+			tasks: [{
+				id: "2422238994B5A2B6"
+				type: "item"
+				item: {
+					id: "constructionwand:stone_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.25d
+			id: "63F28BD0AF216A10"
+			tasks: [{
+				id: "77D5E494E9766A32"
+				type: "item"
+				item: {
+					id: "constructionwand:iron_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.25d
+			id: "6C2EDE1E42BE0A94"
+			tasks: [{
+				id: "04327FC5CC811648"
+				type: "item"
+				item: {
+					id: "constructionwand:diamond_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.25d
+			id: "048043A236E1665A"
+			tasks: [{
+				id: "7A6E4CFA7E826A3A"
+				type: "item"
+				item: {
+					id: "constructionwand:infinity_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			id: "11EF1BF56CF6467F"
+			tasks: [{
+				id: "661AD39C50A7226A"
+				type: "item"
+				item: "nomowanderer:no_soliciting_sign"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			id: "5C879571A9D252AE"
+			tasks: [{
+				id: "475608E181E9584C"
+				type: "item"
+				item: "nomowanderer:no_mo_wanderer_totem"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.75d
+			id: "0F68C52D0DC642D4"
+			tasks: [{
+				id: "7D621DB67A125D61"
+				type: "item"
+				item: "darkutils:charm_portal"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.75d
+			id: "7A5CF37CA4758C02"
+			tasks: [{
+				id: "0A56F5DA7E15EB11"
+				type: "item"
+				item: "darkutils:charm_sleep"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.75d
+			id: "71DF957C13C681EF"
+			tasks: [{
+				id: "2A5E71D6EC685B78"
+				type: "item"
+				item: "darkutils:charm_experience"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.75d
+			id: "7B7B1D359C4A42DA"
+			tasks: [{
+				id: "0E6395C0634315AA"
+				type: "item"
+				item: "darkutils:charm_gluttony"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			id: "2E8A9D0CED3B0627"
+			tasks: [{
+				id: "3803CE27C418CDF3"
+				type: "item"
+				title: "Elevator"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "elevatorid:elevator_white"
+								Count: 1b
+							}
+							{
+								id: "elevatorid:elevator_orange"
+								Count: 1b
+							}
+							{
+								id: "elevatorid:elevator_magenta"
+								Count: 1b
+							}
+							{
+								id: "elevatorid:elevator_light_blue"
+								Count: 1b
+							}
+							{
+								id: "elevatorid:elevator_yellow"
+								Count: 1b
+							}
+							{
+								id: "elevatorid:elevator_lime"
+								Count: 1b
+							}
+							{
+								id: "elevatorid:elevator_pink"
+								Count: 1b
+							}
+							{
+								id: "elevatorid:elevator_gray"
+								Count: 1b
+							}
+							{
+								id: "elevatorid:elevator_light_gray"
+								Count: 1b
+							}
+							{
+								id: "elevatorid:elevator_cyan"
+								Count: 1b
+							}
+							{
+								id: "elevatorid:elevator_purple"
+								Count: 1b
+							}
+							{
+								id: "elevatorid:elevator_blue"
+								Count: 1b
+							}
+							{
+								id: "elevatorid:elevator_brown"
+								Count: 1b
+							}
+							{
+								id: "elevatorid:elevator_green"
+								Count: 1b
+							}
+							{
+								id: "elevatorid:elevator_red"
+								Count: 1b
+							}
+							{
+								id: "elevatorid:elevator_black"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.0d
+			id: "71D5F6597073E0DF"
+			tasks: [{
+				id: "26EE6A09AB9E78F6"
+				type: "item"
+				item: "energymeter:meter"
 			}]
 		}
 	]

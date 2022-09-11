@@ -1,7 +1,7 @@
 {
 	id: "29F617AFF61CB732"
 	group: ""
-	order_index: 7
+	order_index: 6
 	filename: "basic_storage"
 	title: "Basic Storage"
 	icon: "minecraft:chest"
@@ -647,13 +647,261 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 0.0d
-			id: "1820ABD933024DF8"
+			x: 15.25d
+			y: -4.0d
+			shape: "diamond"
+			id: "41321939C7659A8B"
 			tasks: [{
-				id: "405AC99F2B0A0212"
+				id: "44DB6A4D74A38F15"
 				type: "item"
-				item: "prettypipes:pipe"
+				item: "enderstorage:ender_chest"
+			}]
+		}
+		{
+			x: 16.75d
+			y: -3.5d
+			shape: "diamond"
+			id: "600A8F12B279150A"
+			tasks: [{
+				id: "340B457AE0B21A87"
+				type: "item"
+				item: "enderstorage:ender_tank"
+			}]
+		}
+		{
+			x: 16.0d
+			y: -3.75d
+			shape: "diamond"
+			id: "261DC870F75C49B2"
+			tasks: [{
+				id: "33D03E08D8BAEAEB"
+				type: "item"
+				item: "enderstorage:ender_pouch"
+			}]
+		}
+		{
+			x: 16.0d
+			y: -7.0d
+			shape: "octagon"
+			dependencies: ["5E6932FE693B1BAA"]
+			size: 2.0d
+			id: "2EC783ABF368CDB2"
+			tasks: [{
+				id: "1EBBAAD9DBBC5945"
+				type: "item"
+				item: "dankstorage:dock"
+			}]
+		}
+		{
+			x: 16.0d
+			y: -5.25d
+			dependencies: ["56FF868139410EDB"]
+			id: "6E6AE6603687F33D"
+			tasks: [{
+				id: "681D12E4DC01ED5E"
+				type: "item"
+				item: "dankstorage:dank_1"
+			}]
+		}
+		{
+			x: 14.75d
+			y: -5.75d
+			dependencies: ["6E6AE6603687F33D"]
+			id: "541C58349C591899"
+			tasks: [{
+				id: "7B3F9BA96240E655"
+				type: "item"
+				item: "dankstorage:dank_2"
+			}]
+		}
+		{
+			x: 14.25d
+			y: -7.0d
+			dependencies: ["541C58349C591899"]
+			id: "61F5473BF54628B9"
+			tasks: [{
+				id: "0841DF6C548AFDAF"
+				type: "item"
+				item: "dankstorage:dank_3"
+			}]
+		}
+		{
+			x: 14.75d
+			y: -8.25d
+			dependencies: ["61F5473BF54628B9"]
+			id: "0F28933D0A3CF288"
+			tasks: [{
+				id: "22578B361D406936"
+				type: "item"
+				item: "dankstorage:dank_4"
+			}]
+		}
+		{
+			x: 16.0d
+			y: -8.75d
+			dependencies: ["0F28933D0A3CF288"]
+			id: "6BA6CA8BD3001AD3"
+			tasks: [{
+				id: "5E54631537C4901B"
+				type: "item"
+				item: "dankstorage:dank_5"
+			}]
+		}
+		{
+			x: 17.25d
+			y: -8.25d
+			dependencies: ["6BA6CA8BD3001AD3"]
+			id: "74F523DE7725B104"
+			tasks: [{
+				id: "5F7E8646D4B78AEA"
+				type: "item"
+				item: "dankstorage:dank_6"
+			}]
+		}
+		{
+			x: 17.75d
+			y: -7.0d
+			dependencies: ["74F523DE7725B104"]
+			id: "08D11DD43A2722EB"
+			tasks: [{
+				id: "5A65894D95BA9977"
+				type: "item"
+				item: "dankstorage:dank_7"
+			}]
+		}
+		{
+			x: 16.0d
+			y: -0.5d
+			shape: "octagon"
+			dependencies: ["30AE0BDABDC2F687"]
+			size: 2.0d
+			id: "5FEB0F04A332203A"
+			tasks: [{
+				id: "1FF3DADCCC9A199F"
+				type: "item"
+				item: "tanknull:dock"
+			}]
+		}
+		{
+			x: 16.0d
+			y: -2.25d
+			dependencies: [
+				"56FF868139410EDB"
+				"7CCCE060E49A883E"
+			]
+			id: "2B849774AC01C53B"
+			tasks: [{
+				id: "38FCB08AAD2352F9"
+				type: "item"
+				item: {
+					id: "tanknull:tank_1"
+					Count: 1b
+					tag: {
+						fluidinv: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 17.25d
+			y: -1.75d
+			dependencies: ["2B849774AC01C53B"]
+			id: "2F1D8CCA73A21A34"
+			tasks: [{
+				id: "2C155A824BB580F7"
+				type: "item"
+				item: {
+					id: "tanknull:tank_2"
+					Count: 1b
+					tag: {
+						fluidinv: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 17.75d
+			y: -0.5d
+			dependencies: ["2F1D8CCA73A21A34"]
+			id: "7262FA6BC8C034EE"
+			tasks: [{
+				id: "0F6F2225D3EEBF9C"
+				type: "item"
+				item: {
+					id: "tanknull:tank_3"
+					Count: 1b
+					tag: {
+						fluidinv: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 17.25d
+			y: 0.75d
+			dependencies: ["7262FA6BC8C034EE"]
+			id: "60A275EC5125ADB1"
+			tasks: [{
+				id: "6E0DBCD9539526A5"
+				type: "item"
+				item: {
+					id: "tanknull:tank_4"
+					Count: 1b
+					tag: {
+						fluidinv: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 16.0d
+			y: 1.25d
+			dependencies: ["60A275EC5125ADB1"]
+			id: "716C9297666F8920"
+			tasks: [{
+				id: "6E43A951725F7B56"
+				type: "item"
+				item: {
+					id: "tanknull:tank_5"
+					Count: 1b
+					tag: {
+						fluidinv: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 14.75d
+			y: 0.75d
+			dependencies: ["716C9297666F8920"]
+			id: "0865B8F060C05D1D"
+			tasks: [{
+				id: "5A1BB44100069781"
+				type: "item"
+				item: {
+					id: "tanknull:tank_6"
+					Count: 1b
+					tag: {
+						fluidinv: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 14.25d
+			y: -0.5d
+			dependencies: ["0865B8F060C05D1D"]
+			id: "6097699495342552"
+			tasks: [{
+				id: "190CC53F95F2710C"
+				type: "item"
+				item: {
+					id: "tanknull:tank_7"
+					Count: 1b
+					tag: {
+						fluidinv: { }
+					}
+				}
 			}]
 		}
 	]

@@ -1,7 +1,7 @@
 {
 	id: "5A9FE570423F4524"
 	group: ""
-	order_index: 4
+	order_index: 3
 	filename: "welcome"
 	title: "&l&bWelcome!&r"
 	icon: {
@@ -263,6 +263,30 @@
 				id: "530C64F5D864DB84"
 				type: "checkmark"
 				title: "Advancement \\& Quest Plaques"
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "bhmenu:textures/icon.png"
+				}
+			}
+			x: 3.0d
+			y: 0.0d
+			subtitle: "Promo code : &l&aCHROMATECH&r   "
+			description: [
+				"BisectHosting offers simple, fast and high quality server hosting with over a dozen locations available worldwide, guaranteeing low latency. After your purchase, the server is already configured and ready to use."
+				""
+				"Use the code \"&l&bCHROMATECH&r\" to get 25% off your first month as a new customer for one of their game servers."
+			]
+			dependencies: ["1416718F40ED7569"]
+			id: "262CEB2DAAA6DB6F"
+			tasks: [{
+				id: "5CD4D421813019F6"
+				type: "checkmark"
+				title: "Get a server !"
 			}]
 		}
 	]

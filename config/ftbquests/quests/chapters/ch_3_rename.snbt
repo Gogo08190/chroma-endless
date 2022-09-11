@@ -552,5 +552,1266 @@
 				item: "thermal:machine_crafter"
 			}]
 		}
+		{
+			x: 34.75d
+			y: -4.5d
+			id: "148AC206C02F9761"
+			tasks: [{
+				id: "23667129144CD188"
+				type: "item"
+				item: "elementalcraft:inertcrystal"
+			}]
+		}
+		{
+			x: 36.25d
+			y: -4.5d
+			dependencies: ["148AC206C02F9761"]
+			id: "190E6A8147CD1EC5"
+			tasks: [{
+				id: "1B8C965D0D8B6900"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "elementalcraft:element_book"
+					}
+				}
+			}]
+		}
+		{
+			x: 17.0d
+			y: 3.25d
+			id: "76A34CDA123F37AD"
+		}
+		{
+			title: "Elemental Sources"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "elementalcraft:textures/particle/source.png"
+				}
+			}
+			x: 37.25d
+			y: -3.75d
+			dependencies: ["190E6A8147CD1EC5"]
+			id: "62EC6FBCE097DBC0"
+			tasks: [
+				{
+					id: "6644A18C9A3A75C2"
+					type: "checkmark"
+					title: "Fire Source"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "projecte:textures/entity/fireball.png"
+						}
+					}
+				}
+				{
+					id: "3472D4FA8B0E9F7C"
+					type: "checkmark"
+					title: "Water Source"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "projecte:textures/entity/water_orb.png"
+						}
+					}
+				}
+				{
+					id: "5D80031CBD651F2E"
+					type: "checkmark"
+					title: "Earth Source"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "ars_elemental:textures/item/earth_focus.png"
+						}
+					}
+				}
+				{
+					id: "113949575E56F476"
+					type: "checkmark"
+					title: "Air Source"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "ars_elemental:textures/item/air_focus.png"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Raw Elements Shards"
+			x: 37.25d
+			y: -5.25d
+			dependencies: ["190E6A8147CD1EC5"]
+			id: "53B53495DEA95E9B"
+			tasks: [
+				{
+					id: "09EA859FF044FE60"
+					type: "item"
+					item: "elementalcraft:fire_shard"
+				}
+				{
+					id: "0FB14F6FAB2ADFB0"
+					type: "item"
+					item: "elementalcraft:water_shard"
+				}
+				{
+					id: "469BABE0495C1532"
+					type: "item"
+					item: "elementalcraft:earth_shard"
+				}
+				{
+					id: "2808EA6D58C96B7A"
+					type: "item"
+					item: "elementalcraft:air_shard"
+				}
+			]
+		}
+		{
+			x: 31.25d
+			y: -4.5d
+			dependencies: ["148AC206C02F9761"]
+			id: "5269FB3852203971"
+			tasks: [{
+				id: "0D78C3974BBDEDF3"
+				type: "item"
+				item: "elementalcraft:containedcrystal"
+			}]
+		}
+		{
+			x: 29.75d
+			y: -5.75d
+			dependencies: ["5269FB3852203971"]
+			id: "43EB5B6F9FA18134"
+			tasks: [{
+				id: "3971C58F1F823877"
+				type: "item"
+				item: "elementalcraft:elementpipe_impaired"
+			}]
+		}
+		{
+			x: 29.75d
+			y: -4.5d
+			dependencies: [
+				"5269FB3852203971"
+				"43EB5B6F9FA18134"
+			]
+			id: "4E0EFFD2B6E7E1BE"
+			tasks: [{
+				id: "73FFCC7EC4B4F978"
+				type: "item"
+				item: "elementalcraft:elementpipe"
+			}]
+		}
+		{
+			x: 29.75d
+			y: -3.25d
+			dependencies: [
+				"5269FB3852203971"
+				"4E0EFFD2B6E7E1BE"
+			]
+			id: "2EC69ABA152B77D3"
+			tasks: [{
+				id: "7F12FA656A542881"
+				type: "item"
+				item: "elementalcraft:elementpipe_improved"
+			}]
+		}
+		{
+			x: 31.0d
+			y: -7.5d
+			dependencies: ["43EB5B6F9FA18134"]
+			id: "61363AAF911F665B"
+			tasks: [{
+				id: "7F75FA1ED3799CB9"
+				type: "item"
+				item: "elementalcraft:tank_small"
+			}]
+		}
+		{
+			x: 28.5d
+			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["5269FB3852203971"]
+			id: "42794F7270EC5336"
+			tasks: [{
+				id: "22DA189261D82A09"
+				type: "item"
+				item: "elementalcraft:extractor"
+			}]
+		}
+		{
+			x: 32.5d
+			y: -8.0d
+			dependencies: ["61363AAF911F665B"]
+			id: "03C527A6204354AA"
+			tasks: [{
+				id: "19EA87071BB90E1D"
+				type: "item"
+				item: "elementalcraft:infuser"
+			}]
+		}
+		{
+			x: 32.25d
+			y: -6.0d
+			dependencies: ["5269FB3852203971"]
+			id: "22BE141241096122"
+			tasks: [{
+				id: "4C856C009E89C7AA"
+				type: "item"
+				item: "elementalcraft:evaporator"
+			}]
+		}
+		{
+			x: 34.0d
+			y: -10.25d
+			dependencies: ["03C527A6204354AA"]
+			id: "3D4B8DB699CDE202"
+			tasks: [{
+				id: "2EDDB62520328E74"
+				type: "checkmark"
+				title: "Infuse With Air"
+			}]
+		}
+		{
+			x: 31.25d
+			y: -9.0d
+			dependencies: ["03C527A6204354AA"]
+			id: "2EF6A9F779B7721E"
+			tasks: [{
+				id: "18634B7519A20DF5"
+				type: "checkmark"
+				title: "Infuse With Fire"
+			}]
+		}
+		{
+			x: 35.5d
+			y: -8.0d
+			dependencies: ["03C527A6204354AA"]
+			id: "18E78747198F075F"
+			tasks: [{
+				id: "66102B6BFD441304"
+				type: "checkmark"
+				title: "Infuse With Water"
+			}]
+		}
+		{
+			x: 32.5d
+			y: -11.25d
+			dependencies: ["03C527A6204354AA"]
+			id: "50ACA9EBE90B7CBC"
+			tasks: [{
+				id: "79E75EA7C25AEAF3"
+				type: "checkmark"
+				title: "Infuse With Earth"
+			}]
+		}
+		{
+			x: 32.5d
+			y: -12.75d
+			dependencies: ["50ACA9EBE90B7CBC"]
+			id: "2B5B7AED6FDF9867"
+			tasks: [{
+				id: "02652B8645AB172A"
+				type: "item"
+				item: "elementalcraft:whiterock"
+			}]
+		}
+		{
+			x: 31.25d
+			y: -11.75d
+			dependencies: ["50ACA9EBE90B7CBC"]
+			id: "1F072851FDC6EFA4"
+			tasks: [{
+				id: "54B66530D73CA7DE"
+				type: "item"
+				item: "elementalcraft:earthcrystal"
+			}]
+		}
+		{
+			x: 34.0d
+			y: -12.0d
+			dependencies: ["3D4B8DB699CDE202"]
+			id: "491B2193A90E7426"
+			tasks: [{
+				id: "1F9AD2DED262688A"
+				type: "item"
+				item: "elementalcraft:air_silk"
+			}]
+		}
+		{
+			x: 35.5d
+			y: -11.0d
+			dependencies: ["3D4B8DB699CDE202"]
+			id: "7F18EAF2FA50C3E5"
+			tasks: [{
+				id: "0999F38A828052E1"
+				type: "item"
+				item: "elementalcraft:aircrystal"
+			}]
+		}
+		{
+			x: 30.25d
+			y: -9.0d
+			dependencies: ["2EF6A9F779B7721E"]
+			id: "797866E6B3B0A46F"
+			tasks: [{
+				id: "323B2846781127F4"
+				type: "item"
+				item: "elementalcraft:firecrystal"
+			}]
+		}
+		{
+			x: 31.25d
+			y: -10.0d
+			dependencies: ["2EF6A9F779B7721E"]
+			id: "24B28B4198B98016"
+			tasks: [{
+				id: "5C3A852763B0927D"
+				type: "item"
+				item: "elementalcraft:burnt_glass"
+			}]
+		}
+		{
+			x: 34.0d
+			y: -7.0d
+			dependencies: ["18E78747198F075F"]
+			id: "379064666E7A2E58"
+			tasks: [{
+				id: "28909D51C1EC5325"
+				type: "item"
+				item: "minecraft:prismarine_shard"
+			}]
+		}
+		{
+			x: 36.0d
+			y: -7.0d
+			dependencies: ["18E78747198F075F"]
+			id: "3DA6AC7423A670E4"
+			tasks: [{
+				id: "4580DF3CCE13D168"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:drenched_iron_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.drenched_iron_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#95bae2"
+					}
+				}
+			}]
+		}
+		{
+			x: 37.0d
+			y: -7.0d
+			dependencies: ["18E78747198F075F"]
+			id: "68CBC7E57700B6BE"
+			tasks: [{
+				id: "2D30C2110F71173C"
+				type: "item"
+				item: "elementalcraft:drenched_iron_ingot"
+			}]
+		}
+		{
+			x: 35.0d
+			y: -7.0d
+			dependencies: ["18E78747198F075F"]
+			id: "68711AC9EA30B4EA"
+			tasks: [{
+				id: "3C451F130CBE1670"
+				type: "item"
+				item: "elementalcraft:watercrystal"
+			}]
+		}
+		{
+			x: 32.25d
+			y: -3.0d
+			dependencies: ["5269FB3852203971"]
+			id: "33958A09FB7E36BE"
+			tasks: [{
+				id: "4B0E1F82E84DD93D"
+				type: "item"
+				item: "elementalcraft:tank"
+			}]
+		}
+		{
+			x: 29.75d
+			y: -7.5d
+			dependencies: [
+				"61363AAF911F665B"
+				"42794F7270EC5336"
+			]
+			id: "08C1F4D24985C03D"
+			tasks: [
+				{
+					id: "41051DE2BBCC316F"
+					type: "item"
+					item: {
+						id: "elementalcraft:element_holder_fire"
+						Count: 1b
+						tag: {
+							Damage: 1000
+						}
+						ForgeCaps: {
+							Parent: {
+								element_capacity: 10000
+								element_amount: 0
+								element_type: "fire"
+							}
+						}
+					}
+				}
+				{
+					id: "1CA1D3344D0D0520"
+					type: "item"
+					item: {
+						id: "elementalcraft:element_holder_water"
+						Count: 1b
+						tag: {
+							Damage: 1000
+						}
+						ForgeCaps: {
+							Parent: {
+								element_capacity: 10000
+								element_amount: 0
+								element_type: "water"
+							}
+						}
+					}
+				}
+				{
+					id: "6CD3F491672B1DEA"
+					type: "item"
+					item: {
+						id: "elementalcraft:element_holder_earth"
+						Count: 1b
+						tag: {
+							Damage: 1000
+						}
+						ForgeCaps: {
+							Parent: {
+								element_capacity: 10000
+								element_amount: 0
+								element_type: "earth"
+							}
+						}
+					}
+				}
+				{
+					id: "475FFA0C5FDC5262"
+					type: "item"
+					item: {
+						id: "elementalcraft:element_holder_air"
+						Count: 1b
+						tag: {
+							Damage: 1000
+						}
+						ForgeCaps: {
+							Parent: {
+								element_capacity: 10000
+								element_amount: 0
+								element_type: "air"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 28.25d
+			y: -4.5d
+			dependencies: [
+				"43EB5B6F9FA18134"
+				"4E0EFFD2B6E7E1BE"
+				"2EC69ABA152B77D3"
+			]
+			id: "3A19ABB97AECDA7C"
+			tasks: [{
+				id: "324ED6622C3EE10A"
+				type: "item"
+				item: "elementalcraft:cover_frame"
+			}]
+		}
+		{
+			x: 37.0d
+			y: -10.25d
+			dependencies: [
+				"68CBC7E57700B6BE"
+				"7F18EAF2FA50C3E5"
+			]
+			id: "7F6F05F53A58BCD3"
+			tasks: [
+				{
+					id: "5FEED9DB9DE7BE16"
+					type: "item"
+					item: "elementalcraft:spell_desk"
+				}
+				{
+					id: "69A0D7218F7C423A"
+					type: "item"
+					item: "elementalcraft:scroll_paper"
+				}
+			]
+		}
+		{
+			x: 27.5d
+			y: -8.5d
+			dependencies: ["42794F7270EC5336"]
+			id: "48B6CE2B7C611B03"
+			tasks: [{
+				id: "515A095948613788"
+				type: "item"
+				item: "elementalcraft:extractor_improved"
+			}]
+		}
+		{
+			x: 34.0d
+			y: -3.0d
+			dependencies: ["5269FB3852203971"]
+			id: "552D81EF1814A4DD"
+			tasks: [{
+				id: "55F0D317DA1EA73F"
+				type: "item"
+				item: "elementalcraft:binder"
+			}]
+		}
+		{
+			x: 44.25d
+			y: -6.75d
+			dependencies: ["42310EAE3A06F15E"]
+			id: "717F8022297E00D2"
+			tasks: [{
+				id: "14A5BFB8AAAC0B45"
+				type: "item"
+				item: "elementalcraft:pedestal_fire"
+			}]
+		}
+		{
+			x: 40.25d
+			y: -6.75d
+			dependencies: ["48E7E8ACC4F2EB9C"]
+			id: "4431A21A852F98FA"
+			tasks: [{
+				id: "23D101016CB8A900"
+				type: "item"
+				item: "elementalcraft:pedestal_water"
+			}]
+		}
+		{
+			x: 41.25d
+			y: -6.75d
+			dependencies: ["217BBDA743C9716C"]
+			id: "343F169E9B91EC9B"
+			tasks: [{
+				id: "1DDB1504AAB2C3F5"
+				type: "item"
+				item: "elementalcraft:pedestal_air"
+			}]
+		}
+		{
+			x: 43.25d
+			y: -6.75d
+			dependencies: ["1F1890B436E5414D"]
+			id: "61D352299B41DBB0"
+			tasks: [{
+				id: "407E18794D639433"
+				type: "item"
+				item: "elementalcraft:pedestal_earth"
+			}]
+		}
+		{
+			x: 34.0d
+			y: -1.25d
+			dependencies: [
+				"33958A09FB7E36BE"
+				"552D81EF1814A4DD"
+			]
+			id: "726F3BE94EA2965E"
+			tasks: [{
+				id: "4DE89C564DAAEFB1"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:swift_alloy_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.swift_alloy_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#f1c57c"
+					}
+				}
+			}]
+		}
+		{
+			x: 47.0d
+			y: -11.0d
+			dependencies: ["7BD2D6B517F906ED"]
+			id: "425E218F59F2A24B"
+			tasks: [{
+				id: "371134D2081CD8EC"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:fireite_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.fireite_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#c53d10"
+					}
+				}
+			}]
+		}
+		{
+			x: 32.25d
+			y: -1.25d
+			dependencies: [
+				"552D81EF1814A4DD"
+				"33958A09FB7E36BE"
+			]
+			id: "058C53606A481B5A"
+			tasks: [{
+				id: "7892883CB3B0A12C"
+				type: "item"
+				item: "elementalcraft:swift_alloy_ingot"
+			}]
+		}
+		{
+			x: 49.0d
+			y: -11.0d
+			dependencies: ["7BD2D6B517F906ED"]
+			id: "7260BE309AD6DF62"
+			tasks: [{
+				id: "5A1FDF716DAA11EA"
+				type: "item"
+				item: "elementalcraft:fireite_ingot"
+			}]
+		}
+		{
+			x: 37.5d
+			y: -12.0d
+			dependencies: ["491B2193A90E7426"]
+			id: "381D351161EDF237"
+			tasks: [{
+				id: "7B2C6E5E1B86BCDE"
+				type: "item"
+				item: "elementalcraft:hardened_handle"
+			}]
+		}
+		{
+			x: 42.25d
+			y: -9.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"058C53606A481B5A"
+				"5269FB3852203971"
+				"2B5B7AED6FDF9867"
+			]
+			id: "1ED7B5CA71DDFF89"
+			tasks: [{
+				id: "491C854B9DE7266E"
+				type: "item"
+				item: "elementalcraft:crystallizer"
+			}]
+		}
+		{
+			x: 48.5d
+			y: -8.0d
+			dependencies: ["7BD2D6B517F906ED"]
+			id: "45ACEDB8B8D30E96"
+			tasks: [{
+				id: "0E4F12266CAB2C27"
+				type: "item"
+				item: "elementalcraft:pristine_earth_gem"
+			}]
+		}
+		{
+			x: 46.5d
+			y: -8.0d
+			dependencies: ["7BD2D6B517F906ED"]
+			id: "53E0B3F747685F9E"
+			tasks: [{
+				id: "6EFE75ACBBC67073"
+				type: "item"
+				item: "elementalcraft:pristine_water_gem"
+			}]
+		}
+		{
+			x: 47.5d
+			y: -8.0d
+			dependencies: ["7BD2D6B517F906ED"]
+			id: "1B5469D64AE3F850"
+			tasks: [{
+				id: "25661F94B771DB03"
+				type: "item"
+				item: "elementalcraft:pristine_air_gem"
+			}]
+		}
+		{
+			x: 49.5d
+			y: -8.0d
+			dependencies: ["7BD2D6B517F906ED"]
+			id: "567BBF4D2121418C"
+			tasks: [{
+				id: "685A65B36E940CAC"
+				type: "item"
+				item: "elementalcraft:pristine_fire_gem"
+			}]
+		}
+		{
+			x: 35.5d
+			y: -3.0d
+			dependencies: ["552D81EF1814A4DD"]
+			id: "13DC2D43396579FB"
+			tasks: [{
+				id: "6D24658D6E55ADE5"
+				type: "item"
+				item: "elementalcraft:binder_improved"
+			}]
+		}
+		{
+			x: 29.5d
+			y: -10.0d
+			hide_dependency_lines: false
+			dependencies: ["797866E6B3B0A46F"]
+			id: "0EE083BBAA92CAA8"
+			tasks: [{
+				id: "4129AD5473AD2456"
+				type: "item"
+				item: "elementalcraft:firefurnace"
+			}]
+		}
+		{
+			x: 31.25d
+			y: -2.0d
+			dependencies: [
+				"33958A09FB7E36BE"
+				"5269FB3852203971"
+			]
+			id: "21D25E3F9DC6BDC1"
+			tasks: [
+				{
+					id: "26E6679E0C6E45A5"
+					type: "item"
+					item: "elementalcraft:inscriber"
+				}
+				{
+					id: "474081493979AD51"
+					type: "item"
+					item: "elementalcraft:minor_rune_slate"
+					count: 4L
+				}
+				{
+					id: "46424E650BCAC005"
+					type: "item"
+					item: "elementalcraft:rune_slate"
+					count: 4L
+				}
+				{
+					id: "1D4391E8EEC1C748"
+					type: "item"
+					item: "elementalcraft:major_rune_slate"
+					count: 4L
+				}
+				{
+					id: "2F53853E85ECDBA6"
+					type: "item"
+					item: {
+						id: "elementalcraft:chisel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 37.5d
+			y: -13.25d
+			dependencies: ["381D351161EDF237"]
+			id: "32352E0EF4809F2B"
+			tasks: [{
+				id: "451384B3FF6B48CE"
+				type: "item"
+				item: "elementalcraft:solar_synthesizer"
+			}]
+		}
+		{
+			x: 35.5d
+			y: -9.75d
+			dependencies: ["7F18EAF2FA50C3E5"]
+			id: "58973E0689D3AB3D"
+			tasks: [{
+				id: "2316324B7778739D"
+				type: "item"
+				item: "elementalcraft:air_mill"
+			}]
+		}
+		{
+			x: 48.0d
+			y: -9.75d
+			hide_dependency_lines: true
+			dependencies: [
+				"343F169E9B91EC9B"
+				"61D352299B41DBB0"
+				"717F8022297E00D2"
+				"4431A21A852F98FA"
+				"42B4D74321A27197"
+			]
+			id: "7BD2D6B517F906ED"
+			tasks: [{
+				id: "3AF295C98933055D"
+				type: "item"
+				item: "elementalcraft:purecrystal"
+			}]
+		}
+		{
+			x: 43.75d
+			y: -8.0d
+			dependencies: ["1ED7B5CA71DDFF89"]
+			id: "42310EAE3A06F15E"
+			tasks: [{
+				id: "70C4842E825CE768"
+				type: "item"
+				item: "elementalcraft:fine_fire_gem"
+			}]
+		}
+		{
+			x: 40.75d
+			y: -8.0d
+			dependencies: ["1ED7B5CA71DDFF89"]
+			id: "48E7E8ACC4F2EB9C"
+			tasks: [{
+				id: "00F0E9F5FBFD1D8C"
+				type: "item"
+				item: "elementalcraft:fine_water_gem"
+			}]
+		}
+		{
+			x: 42.75d
+			y: -8.0d
+			dependencies: ["1ED7B5CA71DDFF89"]
+			id: "1F1890B436E5414D"
+			tasks: [{
+				id: "3289937C03D15FE5"
+				type: "item"
+				item: "elementalcraft:fine_earth_gem"
+			}]
+		}
+		{
+			x: 41.75d
+			y: -8.0d
+			dependencies: ["1ED7B5CA71DDFF89"]
+			id: "217BBDA743C9716C"
+			tasks: [{
+				id: "5F31ABA16C8BC9AD"
+				type: "item"
+				item: "elementalcraft:fine_air_gem"
+			}]
+		}
+		{
+			x: 48.5d
+			y: -6.75d
+			dependencies: ["45ACEDB8B8D30E96"]
+			id: "741EEFF078CCEE44"
+			tasks: [{
+				id: "0EA1552193735551"
+				type: "item"
+				item: "elementalcraft:reservoir_earth"
+			}]
+		}
+		{
+			x: 46.5d
+			y: -6.75d
+			dependencies: ["53E0B3F747685F9E"]
+			id: "3CBC159D69603814"
+			tasks: [{
+				id: "71C553335383D458"
+				type: "item"
+				item: "elementalcraft:reservoir_water"
+			}]
+		}
+		{
+			x: 47.5d
+			y: -6.75d
+			dependencies: ["1B5469D64AE3F850"]
+			id: "4D028441C24B4A1A"
+			tasks: [{
+				id: "60648664EC82D6E6"
+				type: "item"
+				item: "elementalcraft:reservoir_air"
+			}]
+		}
+		{
+			x: 49.5d
+			y: -6.75d
+			dependencies: ["567BBF4D2121418C"]
+			id: "7D5B1F21662A6ACD"
+			tasks: [{
+				id: "7CAF7FA76001167A"
+				type: "item"
+				item: "elementalcraft:reservoir_fire"
+			}]
+		}
+		{
+			x: 49.0d
+			y: -12.25d
+			dependencies: ["7260BE309AD6DF62"]
+			id: "70CDDDD6961ED529"
+			tasks: [{
+				id: "1C19C5AD0782F601"
+				type: "item"
+				item: "elementalcraft:pure_element_holder_core"
+			}]
+		}
+		{
+			x: 50.25d
+			y: -9.75d
+			dependencies: ["7BD2D6B517F906ED"]
+			id: "60A2528E8D290EAB"
+			tasks: [{
+				id: "361B614995B7B8D8"
+				type: "item"
+				item: {
+					id: "elementalcraft:receptacle_empty"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 51.5d
+			y: -9.75d
+			dependencies: ["60A2528E8D290EAB"]
+			id: "4E066969159206A6"
+			tasks: [{
+				id: "520CB47DEF73F58E"
+				type: "item"
+				item: {
+					id: "elementalcraft:receptacle_improved_empty"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 45.75d
+			y: -9.75d
+			dependencies: ["7BD2D6B517F906ED"]
+			id: "53F48F179B01DBFC"
+			tasks: [{
+				id: "792629E03FD32038"
+				type: "item"
+				item: "elementalcraft:purifier"
+			}]
+		}
+		{
+			x: 45.25d
+			y: -3.75d
+			hide_dependency_lines: true
+			dependencies: [
+				"717F8022297E00D2"
+				"61D352299B41DBB0"
+				"343F169E9B91EC9B"
+				"4431A21A852F98FA"
+				"42B4D74321A27197"
+			]
+			id: "5D3FCB985C048594"
+			tasks: [{
+				id: "5953137C07797A0F"
+				type: "item"
+				item: "elementalcraft:purerock"
+			}]
+		}
+		{
+			x: 50.5d
+			y: -12.25d
+			dependencies: ["70CDDDD6961ED529"]
+			id: "46D435CD299EF61F"
+			tasks: [{
+				id: "79A3FC1E2D9DA3B3"
+				type: "item"
+				item: {
+					id: "elementalcraft:pure_element_holder"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							earth: 0
+							fire: 0
+							air: 0
+							water: 0
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 44.5d
+			y: -4.75d
+			hide_dependency_lines: true
+			dependencies: [
+				"4431A21A852F98FA"
+				"343F169E9B91EC9B"
+				"61D352299B41DBB0"
+				"717F8022297E00D2"
+				"42B4D74321A27197"
+			]
+			id: "0A45CF74DAB86179"
+			tasks: [{
+				id: "36FE55A758616DFA"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:froststeel_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.froststeel_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#8aadcf"
+					}
+				}
+			}]
+		}
+		{
+			x: 46.0d
+			y: -4.75d
+			hide_dependency_lines: true
+			dependencies: [
+				"4431A21A852F98FA"
+				"343F169E9B91EC9B"
+				"61D352299B41DBB0"
+				"717F8022297E00D2"
+				"42B4D74321A27197"
+			]
+			id: "380FEA433065B183"
+			tasks: [{
+				id: "09FE79FC9B995FA7"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:utherium_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.utherium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#d76559"
+					}
+				}
+			}]
+		}
+		{
+			x: 43.5d
+			y: -4.75d
+			hide_dependency_lines: true
+			dependencies: [
+				"4431A21A852F98FA"
+				"343F169E9B91EC9B"
+				"61D352299B41DBB0"
+				"717F8022297E00D2"
+				"42B4D74321A27197"
+			]
+			id: "3E15FF18B52B7D91"
+			tasks: [{
+				id: "0A9642B19EFF904A"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:regalium_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.regalium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#f6dd9b"
+					}
+				}
+			}]
+		}
+		{
+			x: 45.25d
+			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"4431A21A852F98FA"
+				"343F169E9B91EC9B"
+				"61D352299B41DBB0"
+				"717F8022297E00D2"
+				"42B4D74321A27197"
+			]
+			id: "235AFFF591D04046"
+			tasks: [{
+				id: "5A2EB01FA5E96AA3"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:cloggrum_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.cloggrum_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#ba9d7b"
+					}
+				}
+			}]
+		}
+		{
+			x: 47.0d
+			y: -4.75d
+			hide_dependency_lines: true
+			dependencies: [
+				"4431A21A852F98FA"
+				"343F169E9B91EC9B"
+				"61D352299B41DBB0"
+				"717F8022297E00D2"
+				"42B4D74321A27197"
+			]
+			id: "6D92B8B6A17E35EC"
+			tasks: [{
+				id: "1629FB3F9919389B"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:forgotten_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.forgotten_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#57e3b3"
+					}
+				}
+			}]
+		}
+		{
+			x: 44.0d
+			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"4431A21A852F98FA"
+				"343F169E9B91EC9B"
+				"61D352299B41DBB0"
+				"717F8022297E00D2"
+				"42B4D74321A27197"
+			]
+			id: "58E44D46C47B08DF"
+			tasks: [{
+				id: "7DE3C1BB1DF1703E"
+				type: "item"
+				item: {
+					id: "wormhole:portal_stabilizer"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 46.5d
+			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"4431A21A852F98FA"
+				"343F169E9B91EC9B"
+				"61D352299B41DBB0"
+				"717F8022297E00D2"
+				"42B4D74321A27197"
+			]
+			id: "4EA12BDA0EC16BD2"
+			tasks: [{
+				id: "03F8A73F3C1CB0ED"
+				type: "item"
+				item: "undergarden:catalyst"
+			}]
+		}
+		{
+			x: 45.25d
+			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"4431A21A852F98FA"
+				"343F169E9B91EC9B"
+				"61D352299B41DBB0"
+				"717F8022297E00D2"
+				"42B4D74321A27197"
+			]
+			id: "6E562801A73D8A28"
+			tasks: [{
+				id: "2AAFA71A5489CD90"
+				type: "item"
+				item: "occultism:afrit_essence"
+			}]
+		}
+		{
+			x: 29.0d
+			y: -9.0d
+			dependencies: ["797866E6B3B0A46F"]
+			id: "0333650A8BE09237"
+			tasks: [{
+				id: "41068DFA6D1128DF"
+				type: "item"
+				item: "elementalcraft:fireblastfurnace"
+			}]
+		}
+		{
+			x: 42.0d
+			y: -12.0d
+			dependencies: ["381D351161EDF237"]
+			id: "5946C729C43E17F5"
+			tasks: [{
+				id: "0E9D3C1826EABDB6"
+				type: "item"
+				item: "elementalcraft:focus"
+			}]
+		}
+		{
+			x: 42.0d
+			y: -13.25d
+			dependencies: ["5946C729C43E17F5"]
+			id: "393536FA9655608A"
+			tasks: [{
+				id: "0165037EFC026F69"
+				type: "item"
+				item: {
+					id: "elementalcraft:staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 42.25d
+			y: -6.75d
+			dependencies: ["0D78C3974BBDEDF3"]
+			id: "42B4D74321A27197"
+			tasks: [{
+				id: "3AF6615857DF69AD"
+				type: "item"
+				item: "elementalcraft:pureinfuser"
+			}]
+		}
 	]
 }

@@ -1,7 +1,7 @@
 {
 	id: "33B22BF0C5FCBA9D"
 	group: ""
-	order_index: 9
+	order_index: 8
 	filename: "armor"
 	title: "&l&bArsenal&r"
 	icon: {
@@ -15,28 +15,3671 @@
 		"Come equip yourself here!"
 		"&l&fArsenal&r&f introduce to you the &l&n&bChroma Endless&r&f' armors and weapons     "
 	]
-	default_quest_shape: ""
+	default_quest_shape: "square"
 	default_hide_dependency_lines: false
-	quests: [{
-		x: 0.0d
-		y: 0.0d
-		id: "45701078167439D2"
-		tasks: [{
-			id: "159698FECF7F23A8"
-			type: "item"
-			item: {
-				id: "immersiveengineering:shield"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-				ForgeCaps: {
-					Parent: {
-						Size: 2
-						Items: [ ]
+	quests: [
+		{
+			x: -8.0d
+			y: -7.25d
+			id: "02AF1ADAD34CC39D"
+			tasks: [{
+				id: "224B26DEBC3A8C1F"
+				type: "item"
+				item: {
+					id: "minecraft:leather_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			}
-		}]
-	}]
+			}]
+		}
+		{
+			x: -8.0d
+			y: -6.25d
+			id: "41F8DC40BDD570DF"
+			tasks: [{
+				id: "68B972482783CC08"
+				type: "item"
+				item: {
+					id: "minecraft:leather_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: -5.25d
+			id: "1C4E9A70F0AFA507"
+			tasks: [{
+				id: "38E32DC48186C72A"
+				type: "item"
+				item: {
+					id: "minecraft:leather_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: -4.25d
+			id: "164302A45BA99AFA"
+			tasks: [{
+				id: "4394F866D1E8BC9A"
+				type: "item"
+				item: {
+					id: "minecraft:leather_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.75d
+			y: -7.25d
+			id: "4E83D370E3EB91D5"
+			tasks: [{
+				id: "637AD48B6C23C145"
+				type: "item"
+				item: {
+					id: "minecraft:chainmail_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.75d
+			y: -6.25d
+			id: "08F41C8817A6F24F"
+			tasks: [{
+				id: "3897825BAEC4EE2B"
+				type: "item"
+				item: {
+					id: "minecraft:chainmail_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.75d
+			y: -5.25d
+			id: "34FF2C1074257A99"
+			tasks: [{
+				id: "4A61321D295E8121"
+				type: "item"
+				item: {
+					id: "minecraft:chainmail_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.75d
+			y: -4.25d
+			id: "51A598FFA28CE652"
+			tasks: [{
+				id: "78AA26A1E92E6B8C"
+				type: "item"
+				item: {
+					id: "minecraft:chainmail_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: -7.25d
+			id: "34834CB42A80EFA7"
+			tasks: [{
+				id: "1131AD4BB10A04B8"
+				type: "item"
+				item: {
+					id: "minecraft:iron_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: -6.25d
+			id: "565BEED17FFC8E2C"
+			tasks: [{
+				id: "41CCAD556C57828F"
+				type: "item"
+				item: {
+					id: "minecraft:iron_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: -5.25d
+			id: "0103450A9C6AF234"
+			tasks: [{
+				id: "4AC6B63C769E2033"
+				type: "item"
+				item: {
+					id: "minecraft:iron_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: -4.25d
+			id: "144E90268AFBA2AF"
+			tasks: [{
+				id: "7307355AFD3002F2"
+				type: "item"
+				item: {
+					id: "minecraft:iron_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.25d
+			y: -7.25d
+			id: "6D9914F21C16EFE7"
+			tasks: [{
+				id: "0309279F8A7F70E8"
+				type: "item"
+				item: {
+					id: "minecraft:golden_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.25d
+			y: -6.25d
+			id: "49307CD6F7E32F19"
+			tasks: [{
+				id: "34F5067562B5A5F4"
+				type: "item"
+				item: {
+					id: "minecraft:golden_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.25d
+			y: -5.25d
+			id: "4A4735A5408FE3AF"
+			tasks: [{
+				id: "44F7A80D7A3FFC36"
+				type: "item"
+				item: {
+					id: "minecraft:golden_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.25d
+			y: -4.25d
+			id: "76274D21DE99F961"
+			tasks: [{
+				id: "76EB2F79212727E2"
+				type: "item"
+				item: {
+					id: "minecraft:golden_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -7.25d
+			id: "7C5F11DF8BEE58B9"
+			tasks: [{
+				id: "20EAFF813451A705"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -6.25d
+			id: "309D5E2A3B4C3CBE"
+			tasks: [{
+				id: "752D3370784D2D94"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -5.25d
+			id: "3C9C11C00FBBB8B1"
+			tasks: [{
+				id: "3031E2A23D50F89C"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.25d
+			id: "432C2D0563D51ADA"
+			tasks: [{
+				id: "47C28B5B794836A0"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.75d
+			y: -7.25d
+			id: "664DE32CE7D10CB8"
+			tasks: [{
+				id: "4968B12B4F7278DE"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.75d
+			y: -6.25d
+			id: "5BE2E0A44A7C9E4F"
+			tasks: [{
+				id: "2683B0910CCEB344"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.75d
+			y: -5.25d
+			id: "42E45400AE906D5D"
+			tasks: [{
+				id: "1C09C9567F4FE442"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.75d
+			y: -4.25d
+			id: "4042A9A3645977F2"
+			tasks: [{
+				id: "14F0CFB2A4448FB7"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: -1.5d
+			id: "7B242E37776E87B4"
+			tasks: [{
+				id: "41B8EF67B477F93F"
+				type: "item"
+				item: {
+					id: "tconstruct:travelers_chestplate"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:durability": 160.0f
+							"tconstruct:armor": 5.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [ ]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							defense: 2
+							upgrades: 3
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: -2.5d
+			id: "36A2343558EEF5AD"
+			tasks: [{
+				id: "7862965EA474A87E"
+				type: "item"
+				item: {
+					id: "tconstruct:travelers_helmet"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:durability": 110.0f
+							"tconstruct:armor": 1.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [ ]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							defense: 2
+							upgrades: 3
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: -0.5d
+			id: "432A3A3B0D9C4556"
+			tasks: [{
+				id: "3DDF8B76E0B42163"
+				type: "item"
+				item: {
+					id: "tconstruct:travelers_leggings"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:durability": 150.0f
+							"tconstruct:armor": 4.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [ ]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							defense: 2
+							upgrades: 3
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 0.5d
+			id: "75C1A87150C29AC1"
+			tasks: [{
+				id: "49451110D21BED2A"
+				type: "item"
+				item: {
+					id: "tconstruct:travelers_boots"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:durability": 130.0f
+							"tconstruct:armor": 1.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [ ]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							defense: 2
+							upgrades: 3
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -6.75d
+			y: -2.5d
+			id: "0E973A01E7BDBF41"
+			tasks: [{
+				id: "7DD77A3C4977E772"
+				type: "item"
+				item: {
+					id: "tconstruct:plate_helmet"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:armor_toughness": 2.0f
+							"tconstruct:knockback_resistance": 0.1f
+							"tconstruct:durability": 330.0f
+							"tconstruct:armor": 2.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [ ]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							defense: 4
+							upgrades: 1
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -6.75d
+			y: -1.5d
+			id: "5FDA9390E4473140"
+			tasks: [{
+				id: "4F6314EA31E947A6"
+				type: "item"
+				item: {
+					id: "tconstruct:plate_chestplate"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:armor_toughness": 2.0f
+							"tconstruct:knockback_resistance": 0.1f
+							"tconstruct:durability": 480.0f
+							"tconstruct:armor": 7.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [ ]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							defense: 4
+							upgrades: 1
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -6.75d
+			y: -0.5d
+			id: "51293F3543A111AE"
+			tasks: [{
+				id: "571AB01C3EE90384"
+				type: "item"
+				item: {
+					id: "tconstruct:plate_leggings"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:armor_toughness": 2.0f
+							"tconstruct:knockback_resistance": 0.1f
+							"tconstruct:durability": 450.0f
+							"tconstruct:armor": 5.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [ ]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							defense: 4
+							upgrades: 1
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -6.75d
+			y: 0.5d
+			id: "7362E9E405BE74E7"
+			tasks: [{
+				id: "45EA569C7D313B94"
+				type: "item"
+				item: {
+					id: "tconstruct:plate_boots"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:armor_toughness": 2.0f
+							"tconstruct:knockback_resistance": 0.1f
+							"tconstruct:durability": 390.0f
+							"tconstruct:armor": 2.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [ ]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							defense: 4
+							upgrades: 1
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.5d
+			id: "0ED957EFD709D5DA"
+			tasks: [{
+				id: "3D2A92974789D41D"
+				type: "item"
+				item: {
+					id: "tconstruct:slime_boots"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:durability": 546.0f
+							"tconstruct:armor": 0.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [
+							{
+								name: "tconstruct:bouncy"
+								level: 1s
+							}
+							{
+								name: "tconstruct:leaping"
+								level: 1s
+							}
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 5
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: -0.5d
+			id: "03B9715689EA30B4"
+			tasks: [{
+				id: "5FA6A783F0437D3B"
+				type: "item"
+				item: {
+					id: "tconstruct:slime_leggings"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:durability": 630.0f
+							"tconstruct:armor": 0.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [
+							{
+								name: "tconstruct:pockets"
+								level: 1s
+							}
+							{
+								name: "tconstruct:protection"
+								level: 1s
+							}
+						]
+						Damage: 0
+						tic_volatile_data: {
+							"tconstruct:total_item_slots": 9
+						}
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 5
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.5d
+			id: "54C9473372D68056"
+			tasks: [{
+				id: "4C2E5060D6627D25"
+				type: "item"
+				item: {
+					id: "tconstruct:slime_chestplate"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:durability": 672.0f
+							"tconstruct:armor": 0.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [{
+							name: "tconstruct:wings"
+							level: 1s
+						}]
+						Damage: 0
+						tic_volatile_data: {
+							"tconstruct:elyta": 1b
+						}
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 5
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: -2.5d
+			id: "61D980A61A467EEA"
+			tasks: [{
+				id: "2A5D36FCF2C39BE0"
+				type: "item"
+				title: "Slimeskull"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tconstruct:slime_helmet"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:durability": 567.0f
+										"tconstruct:armor": 1.0f
+									}
+									tic_broken: 0b
+									HideFlags: 3
+									tic_modifiers: [
+										{
+											name: "tconstruct:blaze_disguise"
+											level: 1s
+										}
+										{
+											name: "tconstruct:firebreath"
+											level: 1s
+										}
+									]
+									tic_materials: ["tconstruct:blazing_bone"]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 5
+									}
+								}
+							}
+							{
+								id: "tconstruct:slime_helmet"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:durability": 562.0f
+										"tconstruct:armor": 0.0f
+									}
+									tic_broken: 0b
+									HideFlags: 3
+									tic_modifiers: [
+										{
+											name: "tconstruct:cave_spider_disguise"
+											level: 1s
+										}
+										{
+											name: "tconstruct:mithridatism"
+											level: 1s
+										}
+									]
+									tic_materials: ["tconstruct:venom"]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 5
+									}
+								}
+							}
+							{
+								id: "tconstruct:slime_helmet"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:durability": 452.0f
+										"tconstruct:armor": 0.0f
+									}
+									tic_broken: 0b
+									HideFlags: 3
+									tic_modifiers: [
+										{
+											name: "tconstruct:creeper_disguise"
+											level: 1s
+										}
+										{
+											name: "tconstruct:self_destructive"
+											level: 1s
+										}
+									]
+									tic_materials: ["tconstruct:gunpowder"]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 5
+									}
+								}
+							}
+							{
+								id: "tconstruct:slime_helmet"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:durability": 507.0f
+										"tconstruct:armor": 2.0f
+									}
+									tic_broken: 0b
+									HideFlags: 3
+									tic_modifiers: [
+										{
+											name: "tconstruct:breathtaking"
+											level: 1s
+										}
+										{
+											name: "tconstruct:drowned_disguise"
+											level: 1s
+										}
+									]
+									tic_materials: ["tconstruct:copper"]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 5
+									}
+								}
+							}
+							{
+								id: "tconstruct:slime_helmet"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:durability": 542.0f
+										"tconstruct:armor": 0.0f
+									}
+									tic_broken: 0b
+									HideFlags: 3
+									tic_modifiers: [
+										{
+											name: "tconstruct:enderdodging"
+											level: 1s
+										}
+										{
+											name: "tconstruct:enderman_disguise"
+											level: 1s
+										}
+									]
+									tic_materials: ["tconstruct:ender_pearl"]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 5
+									}
+								}
+							}
+							{
+								id: "tconstruct:slime_helmet"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:durability": 527.0f
+										"tconstruct:armor": 2.0f
+									}
+									tic_broken: 0b
+									HideFlags: 3
+									tic_modifiers: [
+										{
+											name: "tconstruct:husk_disguise"
+											level: 1s
+										}
+										{
+											name: "tconstruct:plague"
+											level: 1s
+										}
+									]
+									tic_materials: ["tconstruct:iron"]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 5
+									}
+								}
+							}
+							{
+								id: "tconstruct:slime_helmet"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:durability": 537.0f
+										"tconstruct:armor": 1.0f
+									}
+									tic_broken: 0b
+									HideFlags: 3
+									tic_modifiers: [
+										{
+											name: "tconstruct:gold_guard"
+											level: 1s
+										}
+										{
+											name: "tconstruct:piglin_brute_disguise"
+											level: 1s
+										}
+									]
+									tic_materials: ["tconstruct:rose_gold"]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 5
+									}
+								}
+							}
+							{
+								id: "tconstruct:slime_helmet"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:durability": 487.0f
+										"tconstruct:armor": 0.0f
+									}
+									tic_broken: 0b
+									HideFlags: 3
+									tic_modifiers: [
+										{
+											name: "tconstruct:chrysophilite"
+											level: 1s
+										}
+										{
+											name: "tconstruct:piglin_disguise"
+											level: 1s
+										}
+									]
+									tic_materials: ["tconstruct:gold"]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 5
+									}
+								}
+							}
+							{
+								id: "tconstruct:slime_helmet"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:durability": 462.0f
+										"tconstruct:armor": 0.0f
+									}
+									tic_broken: 0b
+									HideFlags: 3
+									tic_modifiers: [
+										{
+											name: "tconstruct:skeleton_disguise"
+											level: 1s
+										}
+										{
+											name: "tconstruct:strong_bones"
+											level: 1s
+										}
+									]
+									tic_materials: ["tconstruct:bone"]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 5
+									}
+								}
+							}
+							{
+								id: "tconstruct:slime_helmet"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:durability": 502.0f
+										"tconstruct:armor": 0.0f
+									}
+									tic_broken: 0b
+									HideFlags: 3
+									tic_modifiers: [
+										{
+											name: "tconstruct:boon_of_sssss"
+											level: 1s
+										}
+										{
+											name: "tconstruct:spider_disguise"
+											level: 1s
+										}
+									]
+									tic_materials: ["tconstruct:spider"]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 5
+									}
+								}
+							}
+							{
+								id: "tconstruct:slime_helmet"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:durability": 537.0f
+										"tconstruct:armor": 1.0f
+									}
+									tic_broken: 0b
+									HideFlags: 3
+									tic_modifiers: [
+										{
+											name: "tconstruct:frosttouch"
+											level: 1s
+										}
+										{
+											name: "tconstruct:stray_disguise"
+											level: 1s
+										}
+									]
+									tic_materials: ["tconstruct:bloodbone"]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 5
+									}
+								}
+							}
+							{
+								id: "tconstruct:slime_helmet"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:durability": 487.0f
+										"tconstruct:armor": 0.0f
+									}
+									tic_broken: 0b
+									HideFlags: 3
+									tic_modifiers: [
+										{
+											name: "tconstruct:wither_skeleton_disguise"
+											level: 1s
+										}
+										{
+											name: "tconstruct:withered"
+											level: 1s
+										}
+									]
+									tic_materials: ["tconstruct:necrotic_bone"]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 5
+									}
+								}
+							}
+							{
+								id: "tconstruct:slime_helmet"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:durability": 407.0f
+										"tconstruct:armor": 2.0f
+									}
+									tic_broken: 0b
+									HideFlags: 3
+									tic_modifiers: [
+										{
+											name: "tconstruct:wildfire"
+											level: 1s
+										}
+										{
+											name: "tconstruct:zombie_disguise"
+											level: 1s
+										}
+									]
+									tic_materials: ["tconstruct:rotten_flesh"]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 5
+									}
+								}
+							}
+							{
+								id: "tconstruct:slime_helmet"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:durability": 512.0f
+										"tconstruct:armor": 2.0f
+									}
+									tic_broken: 0b
+									HideFlags: 3
+									tic_modifiers: [
+										{
+											name: "tconstruct:revenge"
+											level: 1s
+										}
+										{
+											name: "tconstruct:zombified_piglin_disguise"
+											level: 1s
+										}
+									]
+									tic_materials: ["tconstruct:pig_iron"]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 5
+									}
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.5d
+			id: "0551D9795B78E390"
+			tasks: [{
+				id: "0F9B1F3ED8EEF429"
+				type: "item"
+				item: {
+					id: "immersiveengineering:armor_steel_head"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			id: "146E8B5F82EA6708"
+			tasks: [{
+				id: "7B3DFDE095FDE17A"
+				type: "item"
+				item: {
+					id: "immersiveengineering:armor_steel_chest"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			id: "3ED427DBA1989B72"
+			tasks: [{
+				id: "3A54C81B7397A587"
+				type: "item"
+				item: {
+					id: "immersiveengineering:armor_steel_legs"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			id: "4DE562C5192423D4"
+			tasks: [{
+				id: "251B1133195F859C"
+				type: "item"
+				item: {
+					id: "immersiveengineering:armor_steel_feet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.75d
+			y: -2.5d
+			id: "44D8F8A33570C39F"
+			tasks: [{
+				id: "4DE6081E75A867E2"
+				type: "item"
+				item: {
+					id: "immersiveengineering:armor_faraday_head"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.75d
+			y: -1.5d
+			id: "4A3468214BC80DEC"
+			tasks: [{
+				id: "5735780DCB45FA5C"
+				type: "item"
+				item: {
+					id: "immersiveengineering:armor_faraday_chest"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.75d
+			y: -0.5d
+			id: "65CF3FFA38960469"
+			tasks: [{
+				id: "159C4A3991892CF3"
+				type: "item"
+				item: {
+					id: "immersiveengineering:armor_faraday_legs"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.75d
+			y: 0.5d
+			id: "777E4BD03CA96114"
+			tasks: [{
+				id: "1C91C63F0AAB5273"
+				type: "item"
+				item: {
+					id: "immersiveengineering:armor_faraday_feet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.25d
+			y: -2.5d
+			id: "0A59AFE148A15168"
+			tasks: [{
+				id: "26E6BD3BC1983442"
+				type: "item"
+				item: {
+					id: "thermal:diving_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.25d
+			y: -1.5d
+			id: "6AA21897C86914E9"
+			tasks: [{
+				id: "6AD17EC9B63431C0"
+				type: "item"
+				item: {
+					id: "thermal:diving_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.25d
+			y: -0.5d
+			id: "3A511EAAC74C8DF7"
+			tasks: [{
+				id: "3DDB828C38AF8254"
+				type: "item"
+				item: {
+					id: "thermal:diving_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.25d
+			y: 0.5d
+			id: "5DE6D16B12BF05F8"
+			tasks: [{
+				id: "3319B99A9824B23B"
+				type: "item"
+				item: {
+					id: "thermal:diving_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			id: "6FC2C27EC930BE4B"
+			tasks: [{
+				id: "1EBB3F9D0B0F1F4C"
+				type: "item"
+				item: {
+					id: "thermal:hazmat_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			id: "065FE6A7BA1AE3A6"
+			tasks: [{
+				id: "7D08E5FBBD5C7E28"
+				type: "item"
+				item: {
+					id: "thermal:hazmat_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			id: "75BD9EDD4C6D5D06"
+			tasks: [{
+				id: "12B09101DD992ABD"
+				type: "item"
+				item: {
+					id: "thermal:hazmat_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			id: "5B86C24746249181"
+			tasks: [{
+				id: "049E1D2B0FC15D34"
+				type: "item"
+				item: {
+					id: "thermal:hazmat_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 2.25d
+			id: "6762F2F11895F270"
+			tasks: [{
+				id: "0B4B5FD2DCCB63DC"
+				type: "item"
+				item: {
+					id: "botania:manasteel_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 3.25d
+			id: "3C67A50A97FFE677"
+			tasks: [{
+				id: "1C0CBB38D94E87AA"
+				type: "item"
+				item: {
+					id: "botania:manasteel_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 4.25d
+			id: "058930BBEED0A2BE"
+			tasks: [{
+				id: "3D20E34D46C3F789"
+				type: "item"
+				item: {
+					id: "botania:manasteel_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 5.25d
+			id: "2F20D31D68065DC8"
+			tasks: [{
+				id: "56FCC155A66810A0"
+				type: "item"
+				item: {
+					id: "botania:manasteel_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.75d
+			y: 2.25d
+			id: "3AA8875934C58240"
+			tasks: [{
+				id: "2EA05AAF6E277384"
+				type: "item"
+				item: {
+					id: "botania:elementium_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.75d
+			y: 3.25d
+			id: "32056CE001CDFDBA"
+			tasks: [{
+				id: "0780459231716B49"
+				type: "item"
+				item: {
+					id: "botania:elementium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.75d
+			y: 4.25d
+			id: "2E77564C1DAED377"
+			tasks: [{
+				id: "3AE559EA1F73C171"
+				type: "item"
+				item: {
+					id: "botania:elementium_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.75d
+			y: 5.25d
+			id: "43CBF2595C7238DB"
+			tasks: [{
+				id: "6054E4E97991B22A"
+				type: "item"
+				item: {
+					id: "botania:elementium_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.25d
+			id: "151EE26B9AD75150"
+			tasks: [{
+				id: "738E62C2D2216DFB"
+				type: "item"
+				item: {
+					id: "botania:terrasteel_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 3.25d
+			id: "7CA9B28DECC5EF20"
+			tasks: [{
+				id: "40A2F5FFC5776443"
+				type: "item"
+				item: {
+					id: "botania:terrasteel_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 4.25d
+			id: "0A2AEB8B85540BF0"
+			tasks: [{
+				id: "553325B0E29D555A"
+				type: "item"
+				item: {
+					id: "botania:terrasteel_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 5.25d
+			id: "791EB2F16EE0B47E"
+			tasks: [{
+				id: "014DC52BC31B5634"
+				type: "item"
+				item: {
+					id: "botania:terrasteel_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.25d
+			id: "52DCF1945078A088"
+			tasks: [{
+				id: "5C23EB9323BBAEE9"
+				type: "item"
+				item: "miniutilities:unstable_helmet"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.25d
+			id: "43CA6F1EFE152B9E"
+			tasks: [{
+				id: "19F116F6D8F042C4"
+				type: "item"
+				item: "miniutilities:unstable_chestplate"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.25d
+			id: "7D4380E7F563AF3B"
+			tasks: [{
+				id: "4F1A4A2C5E5EF25F"
+				type: "item"
+				item: "miniutilities:unstable_leggings"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.25d
+			id: "1E4E132875164538"
+			tasks: [{
+				id: "361C7AA08A43EB5E"
+				type: "item"
+				item: "miniutilities:unstable_boots"
+			}]
+		}
+		{
+			x: -1.75d
+			y: 2.25d
+			id: "2E7EF55F742B99F0"
+			tasks: [{
+				id: "0DA443EBD63FB794"
+				type: "item"
+				item: "miniutilities:infused_helmet"
+			}]
+		}
+		{
+			x: -1.75d
+			y: 3.25d
+			id: "6D186B7B84728BE6"
+			tasks: [{
+				id: "36B66C9BED73C88F"
+				type: "item"
+				item: "miniutilities:infused_chestplate"
+			}]
+		}
+		{
+			x: -1.75d
+			y: 4.25d
+			id: "168F2BC33C579FCD"
+			tasks: [{
+				id: "6ECF48DE6C586D74"
+				type: "item"
+				item: "miniutilities:infused_leggings"
+			}]
+		}
+		{
+			x: -1.75d
+			y: 5.25d
+			id: "102727FFAC098F50"
+			tasks: [{
+				id: "6EB1490EA4D74A89"
+				type: "item"
+				item: "miniutilities:infused_boots"
+			}]
+		}
+		{
+			x: 0.25d
+			y: 2.25d
+			id: "1DE99466CA9B042D"
+			tasks: [{
+				id: "48E72F45CC035DF4"
+				type: "item"
+				item: {
+					id: "undergarden:cloggrum_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.25d
+			y: 3.25d
+			id: "4C3DD4C257735BD4"
+			tasks: [{
+				id: "657C0E554581A9A4"
+				type: "item"
+				item: {
+					id: "undergarden:cloggrum_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.25d
+			y: 4.25d
+			id: "156198E05D42E562"
+			tasks: [{
+				id: "003529E5F2AFDE3D"
+				type: "item"
+				item: {
+					id: "undergarden:cloggrum_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.25d
+			y: 5.25d
+			id: "61BDB2C374312933"
+			tasks: [{
+				id: "7327108566C2B929"
+				type: "item"
+				item: {
+					id: "undergarden:cloggrum_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.25d
+			id: "2FF3DF502359A8B8"
+			tasks: [{
+				id: "372A07A628082A1F"
+				type: "item"
+				item: {
+					id: "undergarden:utheric_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.25d
+			id: "6289422946329DED"
+			tasks: [{
+				id: "5CFC493B4C9D63BD"
+				type: "item"
+				item: {
+					id: "undergarden:utheric_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.25d
+			id: "3FB5CE7DE5848970"
+			tasks: [{
+				id: "10A4426DF81A0EC3"
+				type: "item"
+				item: {
+					id: "undergarden:utheric_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.25d
+			id: "1C9DAA9DD2C09089"
+			tasks: [{
+				id: "12AE07D69D934257"
+				type: "item"
+				item: {
+					id: "undergarden:utheric_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.75d
+			y: 2.25d
+			id: "0E7B472EF5AFC896"
+			tasks: [{
+				id: "26FAE0E2B7D562A4"
+				type: "item"
+				item: {
+					id: "undergarden:froststeel_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.75d
+			y: 3.25d
+			id: "6171596470AFFBB7"
+			tasks: [{
+				id: "12B713D2226D68EE"
+				type: "item"
+				item: {
+					id: "undergarden:froststeel_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.75d
+			y: 4.25d
+			id: "4970BA042B3A9347"
+			tasks: [{
+				id: "5599781319C2AC51"
+				type: "item"
+				item: {
+					id: "undergarden:froststeel_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.75d
+			y: 5.25d
+			id: "4C00464ED7A2D32C"
+			tasks: [{
+				id: "20D6089E56C2A69E"
+				type: "item"
+				item: {
+					id: "undergarden:froststeel_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 7.0d
+			id: "59450DA8087682F0"
+			tasks: [{
+				id: "29F241B60E5934EE"
+				type: "item"
+				item: {
+					id: "ars_nouveau:novice_hood"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 8.0d
+			id: "55F3324A01E4A021"
+			tasks: [{
+				id: "318B16A13BAFFA67"
+				type: "item"
+				item: {
+					id: "ars_nouveau:novice_robes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 9.0d
+			id: "7654B59ECCA5D610"
+			tasks: [{
+				id: "5B674725CEB01D2E"
+				type: "item"
+				item: {
+					id: "ars_nouveau:novice_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 10.0d
+			id: "05FFCA2D9271D22B"
+			tasks: [{
+				id: "3A17319FB2BD2399"
+				type: "item"
+				item: {
+					id: "ars_nouveau:novice_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.75d
+			y: 7.0d
+			id: "2B3A8F5E3CC4C56B"
+			tasks: [{
+				id: "675BAD15E7DDF451"
+				type: "item"
+				item: {
+					id: "ars_nouveau:apprentice_hood"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.75d
+			y: 8.0d
+			id: "4CA16086E73DB9F9"
+			tasks: [{
+				id: "37A8BC6939039253"
+				type: "item"
+				item: {
+					id: "ars_nouveau:apprentice_robes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.75d
+			y: 9.0d
+			id: "3BD300BB88764133"
+			tasks: [{
+				id: "04081AE88A35083D"
+				type: "item"
+				item: {
+					id: "ars_nouveau:apprentice_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.75d
+			y: 10.0d
+			id: "7497DD9B82EA8284"
+			tasks: [{
+				id: "2A4EC0CC77656F45"
+				type: "item"
+				item: {
+					id: "ars_nouveau:apprentice_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 7.0d
+			id: "443B3E3319D48E1F"
+			tasks: [{
+				id: "0DFB7BD25C304418"
+				type: "item"
+				item: {
+					id: "ars_nouveau:archmage_hood"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 8.0d
+			id: "503EAB31818CEF81"
+			tasks: [{
+				id: "62A10258A95A2202"
+				type: "item"
+				item: {
+					id: "ars_nouveau:archmage_robes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 9.0d
+			id: "14706FF6FB358FA7"
+			tasks: [{
+				id: "1162CB0F78EF3641"
+				type: "item"
+				item: {
+					id: "ars_nouveau:archmage_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 10.0d
+			id: "435C817D45EF30A5"
+			tasks: [{
+				id: "410F089D15DC9464"
+				type: "item"
+				item: {
+					id: "ars_nouveau:archmage_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.25d
+			y: 7.0d
+			id: "395DFE765454309C"
+			tasks: [{
+				id: "66CEA302BC89E99C"
+				type: "item"
+				item: {
+					id: "arsarsenal:source_steel_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.25d
+			y: 8.0d
+			id: "7FDE489A1DBBE51D"
+			tasks: [{
+				id: "4EDAEDCBA1DAC8E7"
+				type: "item"
+				item: {
+					id: "arsarsenal:source_steel_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.25d
+			y: 9.0d
+			id: "4678DD7095333B6C"
+			tasks: [{
+				id: "63E3F27E4849EA90"
+				type: "item"
+				item: {
+					id: "arsarsenal:source_steel_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.25d
+			y: 10.0d
+			id: "037CAA1523B60F14"
+			tasks: [{
+				id: "6543C062BFAF2F35"
+				type: "item"
+				item: {
+					id: "arsarsenal:source_steel_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 7.0d
+			id: "1C4A1129B52802D1"
+			tasks: [{
+				id: "410081ABC7FD3A16"
+				type: "item"
+				item: {
+					id: "arsarsenal:fire_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 8.0d
+			id: "590DAD9D255408CD"
+			tasks: [{
+				id: "6D18241525D3761D"
+				type: "item"
+				item: {
+					id: "arsarsenal:fire_robes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 9.0d
+			id: "4573B822C8BB4695"
+			tasks: [{
+				id: "00FB624B404F6B66"
+				type: "item"
+				item: {
+					id: "arsarsenal:fire_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 10.0d
+			id: "41D71D989C6CFFE5"
+			tasks: [{
+				id: "5AD844483733CC10"
+				type: "item"
+				item: {
+					id: "arsarsenal:fire_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.75d
+			y: 7.0d
+			id: "7B35A1B545E888C8"
+			tasks: [{
+				id: "32CCE2D7EE2870F3"
+				type: "item"
+				item: {
+					id: "arsarsenal:aqua_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.75d
+			y: 8.0d
+			id: "0F8290EDD0FA69EB"
+			tasks: [{
+				id: "51339698FD79AFA4"
+				type: "item"
+				item: {
+					id: "arsarsenal:aqua_robes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.75d
+			y: 9.0d
+			id: "5B64EB76370D6DC4"
+			tasks: [{
+				id: "446901A0C7AD0731"
+				type: "item"
+				item: {
+					id: "arsarsenal:aqua_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.75d
+			y: 10.0d
+			id: "47267C34F1C305BE"
+			tasks: [{
+				id: "347392AC794FAFEB"
+				type: "item"
+				item: {
+					id: "arsarsenal:aqua_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 7.0d
+			id: "5A2AE52418940709"
+			tasks: [{
+				id: "26A6EB1AC9AD9F16"
+				type: "item"
+				item: {
+					id: "arsarsenal:earth_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 8.0d
+			id: "7E0A54A0033626D5"
+			tasks: [{
+				id: "7D6B59FB81E47DBF"
+				type: "item"
+				item: {
+					id: "arsarsenal:earth_robes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 9.0d
+			id: "01EC23AB2D01F4F5"
+			tasks: [{
+				id: "3F08368BC59F129E"
+				type: "item"
+				item: {
+					id: "arsarsenal:earth_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 10.0d
+			id: "1A8EC002CEF3B1C6"
+			tasks: [{
+				id: "78F3A036F75DD55B"
+				type: "item"
+				item: {
+					id: "arsarsenal:earth_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.75d
+			y: 7.0d
+			id: "41F0923AD6A909A1"
+			tasks: [{
+				id: "529BE7F1252A05C2"
+				type: "item"
+				item: {
+					id: "arsarsenal:air_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.75d
+			y: 8.0d
+			id: "7679A86513385764"
+			tasks: [{
+				id: "459009DB628E8513"
+				type: "item"
+				item: {
+					id: "arsarsenal:air_robes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.75d
+			y: 9.0d
+			id: "7E8B418FAC54E616"
+			tasks: [{
+				id: "4C55FFD6686C6C1D"
+				type: "item"
+				item: {
+					id: "arsarsenal:air_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.75d
+			y: 10.0d
+			id: "1745E2EBCF796A48"
+			tasks: [{
+				id: "106624D2764A9A9E"
+				type: "item"
+				item: {
+					id: "arsarsenal:air_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 11.5d
+			id: "24CA04DB0C7E6C2E"
+			tasks: [{
+				id: "5939FF2BC95E9FA0"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:compressed_iron_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 12.5d
+			id: "7F9B75BE02928C5D"
+			tasks: [{
+				id: "2E1849C810721C0F"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:compressed_iron_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 13.5d
+			id: "6B3E00F79078CBFE"
+			tasks: [{
+				id: "3508A50C681C6BDC"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:compressed_iron_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 14.5d
+			id: "4CA8A696076F4D22"
+			tasks: [{
+				id: "23A98A48169FB42C"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:compressed_iron_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.75d
+			y: 11.5d
+			id: "4C044A106F0170AB"
+			tasks: [{
+				id: "1AD53C50C969C202"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:pneumatic_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.75d
+			y: 12.5d
+			id: "597D594758818298"
+			tasks: [{
+				id: "3065F898B4E3A7CA"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:pneumatic_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.75d
+			y: 13.5d
+			id: "1402B87600049542"
+			tasks: [{
+				id: "190C9988DD772C34"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:pneumatic_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.75d
+			y: 14.5d
+			id: "1EAEC1C8EC95EA3C"
+			tasks: [{
+				id: "0974531B36DF8525"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:pneumatic_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 16.0d
+			id: "7CACE4939F5F0272"
+			tasks: [{
+				id: "3534F0D309E6F095"
+				type: "item"
+				item: {
+					id: "mekanismtools:osmium_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 17.0d
+			id: "460EAF2128C120D1"
+			tasks: [{
+				id: "33D67EEF54EA77BA"
+				type: "item"
+				item: {
+					id: "mekanismtools:osmium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 18.0d
+			id: "1BB6895CB194043C"
+			tasks: [{
+				id: "52C9D2DD60344066"
+				type: "item"
+				item: {
+					id: "mekanismtools:osmium_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 19.0d
+			id: "5A1159B3D2006C9A"
+			tasks: [{
+				id: "5E8359146AA0EF53"
+				type: "item"
+				item: {
+					id: "mekanismtools:osmium_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.75d
+			y: 16.0d
+			id: "47030E02E2C0CD0E"
+			tasks: [{
+				id: "5C18C2BA69041736"
+				type: "item"
+				item: {
+					id: "mekanismtools:steel_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.75d
+			y: 17.0d
+			id: "57688BA1720BBF79"
+			tasks: [{
+				id: "2B5CBE1DB5DCD742"
+				type: "item"
+				item: {
+					id: "mekanismtools:steel_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.75d
+			y: 18.0d
+			id: "2FA27040165BE0FF"
+			tasks: [{
+				id: "6C46C524B1F66B49"
+				type: "item"
+				item: {
+					id: "mekanismtools:steel_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.75d
+			y: 19.0d
+			id: "3D8BF492A8ABD580"
+			tasks: [{
+				id: "4507D24157FB6965"
+				type: "item"
+				item: {
+					id: "mekanismtools:steel_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 16.0d
+			id: "76C1F926BC970FCD"
+			tasks: [{
+				id: "05C7918008ECA651"
+				type: "item"
+				item: {
+					id: "mekanismtools:lapis_lazuli_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 17.0d
+			id: "5FDDC614E500B6EF"
+			tasks: [{
+				id: "4DA72E49B8112C23"
+				type: "item"
+				item: {
+					id: "mekanismtools:lapis_lazuli_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 18.0d
+			id: "1E28ED8D97946098"
+			tasks: [{
+				id: "60F4DA2A0396F250"
+				type: "item"
+				item: {
+					id: "mekanismtools:lapis_lazuli_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 19.0d
+			id: "2236D7F8711E4434"
+			tasks: [{
+				id: "4A74B321591073D1"
+				type: "item"
+				item: {
+					id: "mekanismtools:lapis_lazuli_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.25d
+			y: 16.0d
+			id: "4B2BF4F4E84EBC7E"
+			tasks: [{
+				id: "0C0F036A02D88CE4"
+				type: "item"
+				item: {
+					id: "mekanismtools:bronze_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.25d
+			y: 17.0d
+			id: "2551A2A61E66C630"
+			tasks: [{
+				id: "2AB69ADA79B6CE5E"
+				type: "item"
+				item: {
+					id: "mekanismtools:bronze_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.25d
+			y: 18.0d
+			id: "12024CF9C1509CF7"
+			tasks: [{
+				id: "51050E5A967AA155"
+				type: "item"
+				item: {
+					id: "mekanismtools:bronze_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.25d
+			y: 19.0d
+			id: "3118071791A079BE"
+			tasks: [{
+				id: "220E09C92523702B"
+				type: "item"
+				item: {
+					id: "mekanismtools:bronze_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 16.0d
+			id: "33FE9B5CCD1C3E5C"
+			tasks: [{
+				id: "39E47CDD2A74F75B"
+				type: "item"
+				item: {
+					id: "mekanismtools:refined_glowstone_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 17.0d
+			id: "533B6734E4E78833"
+			tasks: [{
+				id: "5E19727143F71834"
+				type: "item"
+				item: {
+					id: "mekanismtools:refined_glowstone_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 18.0d
+			id: "15339DCE4092DB3A"
+			tasks: [{
+				id: "7D094378184B8475"
+				type: "item"
+				item: {
+					id: "mekanismtools:refined_glowstone_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 19.0d
+			id: "48ACA8B11DC7651D"
+			tasks: [{
+				id: "788238B8A5A0E946"
+				type: "item"
+				item: {
+					id: "mekanismtools:refined_glowstone_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.75d
+			y: 16.0d
+			id: "2887B65F2B47D095"
+			tasks: [{
+				id: "5C1CB016DEB3B680"
+				type: "item"
+				item: {
+					id: "mekanismtools:refined_obsidian_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.75d
+			y: 17.0d
+			id: "456F005A8D95A163"
+			tasks: [{
+				id: "7964E90ABD8589DB"
+				type: "item"
+				item: {
+					id: "mekanismtools:refined_obsidian_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.75d
+			y: 18.0d
+			id: "75A54621729B82ED"
+			tasks: [{
+				id: "663001B37A9577E1"
+				type: "item"
+				item: {
+					id: "mekanismtools:refined_obsidian_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.75d
+			y: 19.0d
+			id: "76ED2DE16583F72C"
+			tasks: [{
+				id: "10F85EDB50619B7E"
+				type: "item"
+				item: {
+					id: "mekanismtools:refined_obsidian_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 16.0d
+			id: "1864AF8709A81234"
+			tasks: [{
+				id: "587D4290094AFE3C"
+				type: "item"
+				item: {
+					id: "mekanism:hazmat_mask"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 18.0d
+			id: "5877169A291E62D6"
+			tasks: [{
+				id: "3798D27399AE890C"
+				type: "item"
+				item: {
+					id: "mekanism:hazmat_pants"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 17.0d
+			id: "2EC726F49C99CE96"
+			tasks: [{
+				id: "78CE8C6576989281"
+				type: "item"
+				item: {
+					id: "mekanism:hazmat_gown"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 19.0d
+			id: "41D6392F56C13221"
+			tasks: [{
+				id: "5D09154CE3DC4458"
+				type: "item"
+				item: {
+					id: "mekanism:hazmat_boots"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+		{
+			x: 0.75d
+			y: 16.0d
+			id: "36BB925CBDF2897F"
+			tasks: [{
+				id: "0DACFF1A132EC781"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_helmet"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+		{
+			x: 0.75d
+			y: 17.0d
+			id: "2E6E457577D7D605"
+			tasks: [{
+				id: "5EA0EE991541DBA0"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_bodyarmor"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+		{
+			x: 0.75d
+			y: 18.0d
+			id: "1E47E7E43691C4D7"
+			tasks: [{
+				id: "7664B40B23E8738C"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_pants"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+		{
+			x: 0.75d
+			y: 19.0d
+			id: "463064E16EDFBE03"
+			tasks: [{
+				id: "3326156175AE6E99"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_boots"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 20.5d
+			id: "3F4124C0605FD505"
+			tasks: [{
+				id: "30F399BE9C3E4685"
+				type: "item"
+				item: "projecte:dm_helmet"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 21.5d
+			id: "402C445B50A99110"
+			tasks: [{
+				id: "016E75C18677A76B"
+				type: "item"
+				item: "projecte:dm_chestplate"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 22.5d
+			id: "0AF21DBDC15957B0"
+			tasks: [{
+				id: "3F939BB737F32B13"
+				type: "item"
+				item: "projecte:dm_leggings"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 23.5d
+			id: "3F257E6A8E10C9A1"
+			tasks: [{
+				id: "4258EA178DD84D0E"
+				type: "item"
+				item: "projecte:dm_boots"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 20.5d
+			id: "2F4E2629C43FF989"
+			tasks: [{
+				id: "4882CD35AE65F0A1"
+				type: "item"
+				item: "projecte:rm_helmet"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 21.5d
+			id: "7A211A2E38BA749F"
+			tasks: [{
+				id: "257811EBED9A2FD7"
+				type: "item"
+				item: "projecte:rm_chestplate"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 22.5d
+			id: "6EC5D353799C31F3"
+			tasks: [{
+				id: "201564EB33022A14"
+				type: "item"
+				item: "projecte:rm_leggings"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 23.5d
+			id: "38AEFD30331AE57B"
+			tasks: [{
+				id: "0DAE85C3003D6412"
+				type: "item"
+				item: "projecte:rm_boots"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 20.5d
+			id: "28B9B06DAE2D3416"
+			tasks: [{
+				id: "32E0A0666E89F45F"
+				type: "item"
+				item: "projecte:gem_helmet"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 21.5d
+			id: "03A84C90B856D919"
+			tasks: [{
+				id: "59DB953BD5452CA3"
+				type: "item"
+				item: "projecte:gem_chestplate"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 22.5d
+			id: "01CF7181FA453FC4"
+			tasks: [{
+				id: "4DF2F982E4EB5FD0"
+				type: "item"
+				item: "projecte:gem_leggings"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 23.5d
+			id: "26094EB56F05299D"
+			tasks: [{
+				id: "2F79ACD1E3290CE7"
+				type: "item"
+				item: "projecte:gem_boots"
+			}]
+		}
+		{
+			x: -4.25d
+			y: 20.5d
+			id: "62C2BF5A212EE8F5"
+			tasks: [{
+				id: "0C6D66808445066D"
+				type: "item"
+				item: {
+					id: "allthemodium:allthemodium_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.25d
+			y: 21.5d
+			id: "3FE60FE7B23DFEA5"
+			tasks: [{
+				id: "4993A51849E5C7D1"
+				type: "item"
+				item: {
+					id: "allthemodium:allthemodium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.25d
+			y: 22.5d
+			id: "678E23D14C33686D"
+			tasks: [{
+				id: "480E2DB884BDF1D0"
+				type: "item"
+				item: {
+					id: "allthemodium:allthemodium_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.25d
+			y: 23.5d
+			id: "23934C1A582F7F34"
+			tasks: [{
+				id: "53738EDC5059A91A"
+				type: "item"
+				item: {
+					id: "allthemodium:allthemodium_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.25d
+			y: 20.5d
+			id: "5B42DBFAC20220AF"
+			tasks: [{
+				id: "531F65BDFDEF44CB"
+				type: "item"
+				item: {
+					id: "allthemodium:vibranium_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.25d
+			y: 21.5d
+			id: "7FAF88AC16D482D7"
+			tasks: [{
+				id: "25530A22B5FBADA1"
+				type: "item"
+				item: {
+					id: "allthemodium:vibranium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.25d
+			y: 22.5d
+			id: "74947A137B49E8A2"
+			tasks: [{
+				id: "6E133A570DF7E4C3"
+				type: "item"
+				item: {
+					id: "allthemodium:vibranium_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.25d
+			y: 23.5d
+			id: "4CFC9EBA17990730"
+			tasks: [{
+				id: "2AC278A0922B03E9"
+				type: "item"
+				item: {
+					id: "allthemodium:vibranium_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.25d
+			y: 20.5d
+			id: "4C941361E334E7F3"
+			tasks: [{
+				id: "3FCF726F0F75F26B"
+				type: "item"
+				item: {
+					id: "allthemodium:unobtainium_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.25d
+			y: 21.5d
+			id: "2BE4A4B9BA9CB44E"
+			tasks: [{
+				id: "7AD4004290BE1C96"
+				type: "item"
+				item: {
+					id: "allthemodium:unobtainium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.25d
+			y: 22.5d
+			id: "7431EB168EAC6051"
+			tasks: [{
+				id: "6F82B6894CD2E1A8"
+				type: "item"
+				item: {
+					id: "allthemodium:unobtainium_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.25d
+			y: 23.5d
+			id: "0B49B219A87D9F2E"
+			tasks: [{
+				id: "774BA25A81CCB50C"
+				type: "item"
+				item: {
+					id: "allthemodium:unobtainium_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.75d
+			y: 11.5d
+			id: "0865FB3105B52FE8"
+			tasks: [{
+				id: "68A175E0450872C0"
+				type: "item"
+				item: {
+					id: "betterendforge:aeternium_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.75d
+			y: 12.5d
+			id: "21F807442A2DC488"
+			tasks: [{
+				id: "41647962BFDB0A90"
+				type: "item"
+				item: {
+					id: "betterendforge:aeternium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.75d
+			y: 13.5d
+			id: "45AE47686BC6B7CA"
+			tasks: [{
+				id: "05AFACCEAF27D0E3"
+				type: "item"
+				item: {
+					id: "betterendforge:aeternium_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.75d
+			y: 14.5d
+			id: "18E558637853F12F"
+			tasks: [{
+				id: "17C0E352771CA9E4"
+				type: "item"
+				item: {
+					id: "betterendforge:aeternium_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 11.5d
+			id: "3F39355AAD989E19"
+			tasks: [{
+				id: "6C318AA7F00F1125"
+				type: "item"
+				item: {
+					id: "betterendforge:crystalite_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 12.5d
+			id: "3FEABD4289F2AE2F"
+			tasks: [{
+				id: "0D30AF94CF55CB2F"
+				type: "item"
+				item: {
+					id: "betterendforge:crystalite_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 13.5d
+			id: "32F7F38D0EDFBB8A"
+			tasks: [{
+				id: "759B5C2E833F0AFE"
+				type: "item"
+				item: {
+					id: "betterendforge:crystalite_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 14.5d
+			id: "0DA88CE4DB2F4BD9"
+			tasks: [{
+				id: "3ED1CFC15685B783"
+				type: "item"
+				item: {
+					id: "betterendforge:crystalite_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.25d
+			y: 11.5d
+			id: "2E40A3B07CA04467"
+			tasks: [{
+				id: "629BB9E2E59C3F36"
+				type: "item"
+				item: {
+					id: "betterendforge:thallasium_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.25d
+			y: 12.5d
+			id: "2095F0E067094E3E"
+			tasks: [{
+				id: "17380F2DA58B0CEA"
+				type: "item"
+				item: {
+					id: "betterendforge:thallasium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.25d
+			y: 13.5d
+			id: "5FC4131B3EAB7803"
+			tasks: [{
+				id: "383A3061FEAEA7B7"
+				type: "item"
+				item: {
+					id: "betterendforge:thallasium_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.25d
+			y: 14.5d
+			id: "0CC13F2277925BF3"
+			tasks: [{
+				id: "661A1C20CA21CB89"
+				type: "item"
+				item: {
+					id: "betterendforge:thallasium_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 11.5d
+			id: "3DB9F4FABBA0D661"
+			tasks: [{
+				id: "5BF23CD28A77A320"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 12.5d
+			id: "0B274008DAB10F67"
+			tasks: [{
+				id: "079D8CC7AF256B5C"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 13.5d
+			id: "5BC35F5382893FB8"
+			tasks: [{
+				id: "043446AEF9F1C8A9"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 14.5d
+			id: "0814455D84308E05"
+			tasks: [{
+				id: "3E427DAB2CBD3730"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 20.5d
+			id: "7110181849085F86"
+			tasks: [{
+				id: "6599AD5EF384E826"
+				type: "item"
+				item: {
+					id: "dustrial_decor:cardboard_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 21.5d
+			id: "640B6BD8D7106BB3"
+			tasks: [{
+				id: "0D6162EBEEABB99B"
+				type: "item"
+				item: {
+					id: "dustrial_decor:cardboard_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 22.5d
+			id: "177EB4F29F797781"
+			tasks: [{
+				id: "2E213D424D4A1308"
+				type: "item"
+				item: {
+					id: "dustrial_decor:cardboard_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 23.5d
+			id: "6AC48C9C189D7E55"
+			tasks: [{
+				id: "0606AE227BA2D038"
+				type: "item"
+				item: {
+					id: "dustrial_decor:cardboard_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
 }

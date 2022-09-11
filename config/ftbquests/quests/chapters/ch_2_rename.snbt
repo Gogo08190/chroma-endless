@@ -806,8 +806,8 @@
 		{
 			title: "Squeezer"
 			icon: "immersiveengineering:squeezer"
-			x: 1.0d
-			y: 43.25d
+			x: 1.3520408163264932d
+			y: 43.25765306122449d
 			shape: "square"
 			dependencies: ["19862EE31DFDDAB0"]
 			size: 2.75d
@@ -7954,8 +7954,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 53.75d
+			x: 1.335034013605437d
+			y: 53.752210884353715d
 			dependencies: [
 				"04C0C78A3BB1B89A"
 				"625FD0330E1BDA54"

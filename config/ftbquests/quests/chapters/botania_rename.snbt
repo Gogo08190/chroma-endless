@@ -1,7 +1,7 @@
 {
 	id: "405C4920EF72468A"
 	group: ""
-	order_index: 11
+	order_index: 10
 	filename: "botania_rename"
 	title: "&l&eMagic botany&r"
 	icon: {
@@ -14,5 +14,284 @@
 	subtitle: ["koepss j'ai mis ce titre hésite pas à changer si t'aimes pas c'est ton chapitre ;)"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["1BA1DC174E2C6675"]
+			id: "6F68A51ABF9B9FD3"
+			tasks: [{
+				id: "20500A9995A9CCE7"
+				type: "item"
+				item: {
+					id: "botania:lexicon"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.75d
+			id: "3599214B3C7E5EB7"
+			tasks: [{
+				id: "0B72C0AD7128A204"
+				type: "item"
+				item: {
+					id: "botania:lexicon"
+					Count: 1b
+					tag: {
+						"botania:elven_unlock": 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.25d
+			id: "68E7A3D70265EBF0"
+			tasks: [
+				{
+					id: "22F1DC9887D7943D"
+					type: "item"
+					item: "botania:manasteel_ingot"
+				}
+				{
+					id: "33E6489DC8B868EA"
+					type: "item"
+					item: "botania:mana_pearl"
+				}
+				{
+					id: "4486C68BF5B9FCE2"
+					type: "item"
+					item: "botania:mana_diamond"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.25d
+			dependencies: [
+				"6F15AADF2331F545"
+				"281F853004D0032C"
+				"442961BF5C16C60F"
+			]
+			id: "489F80FE1C998003"
+			tasks: [{
+				id: "025628ECED453188"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+		}
+		{
+			title: "Mystical Petals"
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["1BA1DC174E2C6675"]
+			id: "442961BF5C16C60F"
+			tasks: [{
+				id: "286ED4EF49887FF8"
+				type: "item"
+				title: "Mystical Petals"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "botania:black_petal"
+								Count: 1b
+							}
+							{
+								id: "botania:green_petal"
+								Count: 1b
+							}
+							{
+								id: "botania:blue_petal"
+								Count: 1b
+							}
+							{
+								id: "botania:cyan_petal"
+								Count: 1b
+							}
+							{
+								id: "botania:lime_petal"
+								Count: 1b
+							}
+							{
+								id: "botania:yellow_petal"
+								Count: 1b
+							}
+							{
+								id: "botania:light_blue_petal"
+								Count: 1b
+							}
+							{
+								id: "botania:magenta_petal"
+								Count: 1b
+							}
+							{
+								id: "botania:orange_petal"
+								Count: 1b
+							}
+							{
+								id: "botania:white_petal"
+								Count: 1b
+							}
+							{
+								id: "botania:pink_petal"
+								Count: 1b
+							}
+							{
+								id: "botania:gray_petal"
+								Count: 1b
+							}
+							{
+								id: "botania:light_gray_petal"
+								Count: 1b
+							}
+							{
+								id: "botania:purple_petal"
+								Count: 1b
+							}
+							{
+								id: "botania:brown_petal"
+								Count: 1b
+							}
+							{
+								id: "botania:red_petal"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Mystical Flowers"
+			x: 0.0d
+			y: 0.0d
+			id: "1BA1DC174E2C6675"
+			tasks: [{
+				id: "5C55422752CE8BD0"
+				type: "item"
+				title: "Mystical Flowers"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "botania:cyan_mystical_flower"
+								Count: 1b
+							}
+							{
+								id: "botania:purple_mystical_flower"
+								Count: 1b
+							}
+							{
+								id: "botania:blue_mystical_flower"
+								Count: 1b
+							}
+							{
+								id: "botania:brown_mystical_flower"
+								Count: 1b
+							}
+							{
+								id: "botania:green_mystical_flower"
+								Count: 1b
+							}
+							{
+								id: "botania:red_mystical_flower"
+								Count: 1b
+							}
+							{
+								id: "botania:white_mystical_flower"
+								Count: 1b
+							}
+							{
+								id: "botania:black_mystical_flower"
+								Count: 1b
+							}
+							{
+								id: "botania:orange_mystical_flower"
+								Count: 1b
+							}
+							{
+								id: "botania:magenta_mystical_flower"
+								Count: 1b
+							}
+							{
+								id: "botania:light_blue_mystical_flower"
+								Count: 1b
+							}
+							{
+								id: "botania:yellow_mystical_flower"
+								Count: 1b
+							}
+							{
+								id: "botania:lime_mystical_flower"
+								Count: 1b
+							}
+							{
+								id: "botania:pink_mystical_flower"
+								Count: 1b
+							}
+							{
+								id: "botania:gray_mystical_flower"
+								Count: 1b
+							}
+							{
+								id: "botania:light_gray_mystical_flower"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Pure Daisy"
+			x: 0.0d
+			y: -4.75d
+			dependencies: ["489F80FE1C998003"]
+			id: "30ED0007E9FE88BD"
+			tasks: [{
+				id: "78283776ECB8F990"
+				type: "item"
+				item: "botania:pure_daisy"
+				count: 2L
+			}]
+		}
+		{
+			x: 1.25d
+			y: -4.75d
+			dependencies: [
+				"30ED0007E9FE88BD"
+				"281F853004D0032C"
+			]
+			id: "366B41D084311452"
+			tasks: [{
+				id: "6E9E8A3D13370302"
+				type: "item"
+				item: "botania:livingrock"
+				count: 16L
+			}]
+		}
+		{
+			x: 1.25d
+			y: -6.0d
+			dependencies: [
+				"30ED0007E9FE88BD"
+				"04CDB65B58341D53"
+			]
+			id: "0E6560337D7FFDAE"
+			tasks: [{
+				id: "7D26A90272FD94C6"
+				type: "item"
+				item: "botania:livingwood"
+				count: 16L
+			}]
+		}
+	]
 }
