@@ -254,9 +254,8 @@ onEvent('recipes', (event) => {
         },
         {
             output: 'ars_nouveau:novice_spell_book',
-            pattern: ['ASA', 'ADA', 'AMA'],
+            pattern: ['ASA', 'ADA', 'ASA'],
             key: {
-                M: 'ars_nouveau:mana_fiber',
                 D: 'occultism:dictionary_of_spirits',
                 S: 'occultism:spirit_attuned_gem',
                 A: 'emendatusenigmatica:arcane_gem'
