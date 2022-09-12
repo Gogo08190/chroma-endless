@@ -28,7 +28,7 @@ onEvent('recipes', (event) => {
           pattern: ['AAA', 'BC ', 'AAA'],
           key: {
               A:'botania:livingwood',
-              B:'arsarsenal:source_steel_ingot',
+              B:'minecraft:netherite_ingot',
               C:'#botania:petals'
           },
           id: 'botania:mana_spreader'
