@@ -1062,7 +1062,7 @@ onEvent("recipes", (event) => {
           "item": "powah:capacitor_niotic"
         },
         "N": {
-          "item": "kubejs:creative_catalyst"
+          "item": "kubejs:arcana"
         }
       },
       "result": {
