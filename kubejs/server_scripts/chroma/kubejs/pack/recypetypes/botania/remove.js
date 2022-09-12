@@ -3,7 +3,8 @@
 onEvent('recipes', (event) => {
     const idRemovals = [
       'botania:mana_tablet',
-      'botania:runic_altar'
+      'botania:runic_altar',
+      'botania:fabulous_pool_upgrade'
     ];
 
     const outputRemovals = [

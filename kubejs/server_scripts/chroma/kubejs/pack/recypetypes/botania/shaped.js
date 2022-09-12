@@ -173,6 +173,15 @@ onEvent('recipes', (event) => {
               E:'botania:elementium_ingot'
           },
           id: 'botania:open_bucket'
+      },
+      {
+          output: 'botania:fabulous_pool',
+          pattern: ['   ', 'SMS', 'SSS'],
+          key: {
+              S:'botania:shimmerrock',
+              M:'botania:mana_pool'
+          },
+          id: 'botania:fabulous_pool'
       }
 
     ];
