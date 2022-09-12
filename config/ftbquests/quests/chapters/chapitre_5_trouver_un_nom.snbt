@@ -3,10 +3,2429 @@
 	group: "34085A64296DE6C7"
 	order_index: 4
 	filename: "chapitre_5_trouver_un_nom"
-	title: "Chapitre 5 (Trouver un nom)"
+	title: "&l&5Wizardry&r"
 	icon: "ars_nouveau:creative_spell_book"
 	subtitle: ["ElementalCraft + Ars Nouveau + Pedestals"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: -9.0d
+			y: 2.5d
+			dependencies: ["42794F7270EC5336"]
+			id: "48B6CE2B7C611B03"
+			tasks: [{
+				id: "515A095948613788"
+				type: "item"
+				item: "elementalcraft:extractor_improved"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 3.75d
+			hide_dependency_lines: true
+			dependencies: ["5269FB3852203971"]
+			id: "42794F7270EC5336"
+			tasks: [{
+				id: "22DA189261D82A09"
+				type: "item"
+				item: "elementalcraft:extractor"
+			}]
+		}
+		{
+			x: -7.25d
+			y: 3.75d
+			dependencies: [
+				"61363AAF911F665B"
+				"42794F7270EC5336"
+			]
+			id: "08C1F4D24985C03D"
+			tasks: [
+				{
+					id: "41051DE2BBCC316F"
+					type: "item"
+					item: {
+						id: "elementalcraft:element_holder_fire"
+						Count: 1b
+						tag: {
+							Damage: 1000
+						}
+						ForgeCaps: {
+							Parent: {
+								element_capacity: 10000
+								element_amount: 0
+								element_type: "fire"
+							}
+						}
+					}
+				}
+				{
+					id: "1CA1D3344D0D0520"
+					type: "item"
+					item: {
+						id: "elementalcraft:element_holder_water"
+						Count: 1b
+						tag: {
+							Damage: 1000
+						}
+						ForgeCaps: {
+							Parent: {
+								element_capacity: 10000
+								element_amount: 0
+								element_type: "water"
+							}
+						}
+					}
+				}
+				{
+					id: "6CD3F491672B1DEA"
+					type: "item"
+					item: {
+						id: "elementalcraft:element_holder_earth"
+						Count: 1b
+						tag: {
+							Damage: 1000
+						}
+						ForgeCaps: {
+							Parent: {
+								element_capacity: 10000
+								element_amount: 0
+								element_type: "earth"
+							}
+						}
+					}
+				}
+				{
+					id: "475FFA0C5FDC5262"
+					type: "item"
+					item: {
+						id: "elementalcraft:element_holder_air"
+						Count: 1b
+						tag: {
+							Damage: 1000
+						}
+						ForgeCaps: {
+							Parent: {
+								element_capacity: 10000
+								element_amount: 0
+								element_type: "air"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -11.75d
+			y: 0.5d
+			dependencies: ["797866E6B3B0A46F"]
+			id: "0333650A8BE09237"
+			tasks: [{
+				id: "41068DFA6D1128DF"
+				type: "item"
+				item: "elementalcraft:fireblastfurnace"
+			}]
+		}
+		{
+			x: -11.75d
+			y: -0.5d
+			hide_dependency_lines: false
+			dependencies: ["797866E6B3B0A46F"]
+			id: "0EE083BBAA92CAA8"
+			tasks: [{
+				id: "4129AD5473AD2456"
+				type: "item"
+				item: "elementalcraft:firefurnace"
+			}]
+		}
+		{
+			x: -10.75d
+			y: 0.0d
+			dependencies: ["2EF6A9F779B7721E"]
+			id: "797866E6B3B0A46F"
+			tasks: [{
+				id: "323B2846781127F4"
+				type: "item"
+				item: "elementalcraft:firecrystal"
+			}]
+		}
+		{
+			x: -7.25d
+			y: 2.5d
+			dependencies: ["43EB5B6F9FA18134"]
+			id: "61363AAF911F665B"
+			tasks: [{
+				id: "7F75FA1ED3799CB9"
+				type: "item"
+				item: "elementalcraft:tank_small"
+			}]
+		}
+		{
+			x: -9.25d
+			y: 0.0d
+			shape: "square"
+			dependencies: ["03C527A6204354AA"]
+			id: "2EF6A9F779B7721E"
+			tasks: [{
+				id: "18634B7519A20DF5"
+				type: "checkmark"
+				title: "Infuse With Fire"
+			}]
+		}
+		{
+			x: -9.25d
+			y: -1.25d
+			dependencies: ["2EF6A9F779B7721E"]
+			id: "24B28B4198B98016"
+			tasks: [{
+				id: "5C3A852763B0927D"
+				type: "item"
+				item: "elementalcraft:burnt_glass"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.0d
+			dependencies: ["50ACA9EBE90B7CBC"]
+			id: "1F072851FDC6EFA4"
+			tasks: [{
+				id: "54B66530D73CA7DE"
+				type: "item"
+				item: "elementalcraft:earthcrystal"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			shape: "square"
+			dependencies: ["03C527A6204354AA"]
+			id: "50ACA9EBE90B7CBC"
+			tasks: [{
+				id: "79E75EA7C25AEAF3"
+				type: "checkmark"
+				title: "Infuse With Earth"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.5d
+			dependencies: ["50ACA9EBE90B7CBC"]
+			id: "2B5B7AED6FDF9867"
+			tasks: [{
+				id: "02652B8645AB172A"
+				type: "item"
+				item: "elementalcraft:whiterock"
+			}]
+		}
+		{
+			x: -5.25d
+			y: -3.25d
+			dependencies: ["3D4B8DB699CDE202"]
+			id: "491B2193A90E7426"
+			tasks: [{
+				id: "1F9AD2DED262688A"
+				type: "item"
+				item: "elementalcraft:air_silk"
+			}]
+		}
+		{
+			x: -7.25d
+			y: -3.25d
+			shape: "square"
+			dependencies: ["03C527A6204354AA"]
+			id: "3D4B8DB699CDE202"
+			tasks: [{
+				id: "2EDDB62520328E74"
+				type: "checkmark"
+				title: "Infuse With Air"
+			}]
+		}
+		{
+			x: -7.25d
+			y: 0.0d
+			dependencies: ["61363AAF911F665B"]
+			id: "03C527A6204354AA"
+			tasks: [{
+				id: "19EA87071BB90E1D"
+				type: "item"
+				item: "elementalcraft:infuser"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -3.25d
+			dependencies: ["18E78747198F075F"]
+			id: "379064666E7A2E58"
+			tasks: [{
+				id: "28909D51C1EC5325"
+				type: "item"
+				item: "minecraft:prismarine_shard"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -4.5d
+			dependencies: ["18E78747198F075F"]
+			id: "68711AC9EA30B4EA"
+			tasks: [{
+				id: "3C451F130CBE1670"
+				type: "item"
+				item: "elementalcraft:watercrystal"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -3.25d
+			shape: "square"
+			dependencies: ["03C527A6204354AA"]
+			id: "18E78747198F075F"
+			tasks: [{
+				id: "66102B6BFD441304"
+				type: "checkmark"
+				title: "Infuse With Water"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -5.75d
+			dependencies: ["18E78747198F075F"]
+			id: "3DA6AC7423A670E4"
+			tasks: [{
+				id: "4580DF3CCE13D168"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:drenched_iron_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.drenched_iron_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#95bae2"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.0d
+			y: -4.5d
+			dependencies: ["18E78747198F075F"]
+			id: "68CBC7E57700B6BE"
+			tasks: [{
+				id: "2D30C2110F71173C"
+				type: "item"
+				item: "elementalcraft:drenched_iron_ingot"
+			}]
+		}
+		{
+			title: "How To Craft Spells"
+			icon: "elementalcraft:spell_desk"
+			x: -9.0d
+			y: -5.75d
+			dependencies: [
+				"68CBC7E57700B6BE"
+				"7F18EAF2FA50C3E5"
+			]
+			id: "7F6F05F53A58BCD3"
+			tasks: [
+				{
+					id: "5FEED9DB9DE7BE16"
+					type: "item"
+					item: "elementalcraft:spell_desk"
+				}
+				{
+					id: "69A0D7218F7C423A"
+					type: "item"
+					item: "elementalcraft:scroll_paper"
+				}
+			]
+		}
+		{
+			x: -7.25d
+			y: -5.75d
+			dependencies: ["7F18EAF2FA50C3E5"]
+			id: "58973E0689D3AB3D"
+			tasks: [{
+				id: "2316324B7778739D"
+				type: "item"
+				item: "elementalcraft:air_mill"
+			}]
+		}
+		{
+			x: -7.25d
+			y: -4.5d
+			dependencies: ["3D4B8DB699CDE202"]
+			id: "7F18EAF2FA50C3E5"
+			tasks: [{
+				id: "0999F38A828052E1"
+				type: "item"
+				item: "elementalcraft:aircrystal"
+			}]
+		}
+		{
+			x: -5.25d
+			y: -4.5d
+			dependencies: ["491B2193A90E7426"]
+			id: "381D351161EDF237"
+			tasks: [{
+				id: "7B2C6E5E1B86BCDE"
+				type: "item"
+				item: "elementalcraft:hardened_handle"
+			}]
+		}
+		{
+			x: -5.25d
+			y: -5.75d
+			dependencies: ["381D351161EDF237"]
+			id: "32352E0EF4809F2B"
+			tasks: [{
+				id: "451384B3FF6B48CE"
+				type: "item"
+				item: "elementalcraft:solar_synthesizer"
+			}]
+		}
+		{
+			x: -3.75d
+			y: -5.75d
+			dependencies: ["5946C729C43E17F5"]
+			id: "393536FA9655608A"
+			tasks: [{
+				id: "0165037EFC026F69"
+				type: "item"
+				item: {
+					id: "elementalcraft:staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.75d
+			y: -4.5d
+			dependencies: ["381D351161EDF237"]
+			id: "5946C729C43E17F5"
+			tasks: [{
+				id: "0E9D3C1826EABDB6"
+				type: "item"
+				item: "elementalcraft:focus"
+			}]
+		}
+		{
+			x: -0.25d
+			y: 4.5d
+			dependencies: ["148AC206C02F9761"]
+			id: "190E6A8147CD1EC5"
+			tasks: [{
+				id: "1B8C965D0D8B6900"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "elementalcraft:element_book"
+					}
+				}
+			}]
+		}
+		{
+			title: "Raw Elements Shards"
+			x: 0.75d
+			y: 5.5d
+			dependencies: ["190E6A8147CD1EC5"]
+			id: "53B53495DEA95E9B"
+			tasks: [
+				{
+					id: "09EA859FF044FE60"
+					type: "item"
+					item: "elementalcraft:fire_shard"
+				}
+				{
+					id: "0FB14F6FAB2ADFB0"
+					type: "item"
+					item: "elementalcraft:water_shard"
+				}
+				{
+					id: "469BABE0495C1532"
+					type: "item"
+					item: "elementalcraft:earth_shard"
+				}
+				{
+					id: "2808EA6D58C96B7A"
+					type: "item"
+					item: "elementalcraft:air_shard"
+				}
+			]
+		}
+		{
+			title: "Elemental Sources"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "elementalcraft:textures/particle/source.png"
+				}
+			}
+			x: -1.25d
+			y: 5.5d
+			description: ["mettre les 4 sources en photo"]
+			dependencies: ["190E6A8147CD1EC5"]
+			id: "62EC6FBCE097DBC0"
+			tasks: [{
+				id: "6644A18C9A3A75C2"
+				type: "checkmark"
+				title: "Find &4Fire&r, &bWater&r, &2Earth&r and &6Air&r sources"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "projecte:textures/entity/fireball.png"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.75d
+			dependencies: ["552D81EF1814A4DD"]
+			id: "13DC2D43396579FB"
+			tasks: [{
+				id: "6D24658D6E55ADE5"
+				type: "item"
+				item: "elementalcraft:binder_improved"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -0.75d
+			dependencies: ["5269FB3852203971"]
+			id: "552D81EF1814A4DD"
+			tasks: [{
+				id: "55F0D317DA1EA73F"
+				type: "item"
+				item: "elementalcraft:binder"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.75d
+			dependencies: ["5269FB3852203971"]
+			id: "33958A09FB7E36BE"
+			tasks: [{
+				id: "4B0E1F82E84DD93D"
+				type: "item"
+				item: "elementalcraft:tank"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.25d
+			dependencies: [
+				"33958A09FB7E36BE"
+				"5269FB3852203971"
+			]
+			id: "21D25E3F9DC6BDC1"
+			tasks: [
+				{
+					id: "26E6679E0C6E45A5"
+					type: "item"
+					item: "elementalcraft:inscriber"
+				}
+				{
+					id: "474081493979AD51"
+					type: "item"
+					item: "elementalcraft:minor_rune_slate"
+					count: 4L
+				}
+				{
+					id: "46424E650BCAC005"
+					type: "item"
+					item: "elementalcraft:rune_slate"
+					count: 4L
+				}
+				{
+					id: "1D4391E8EEC1C748"
+					type: "item"
+					item: "elementalcraft:major_rune_slate"
+					count: 4L
+				}
+				{
+					id: "2F53853E85ECDBA6"
+					type: "item"
+					item: {
+						id: "elementalcraft:chisel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -2.75d
+			dependencies: [
+				"552D81EF1814A4DD"
+				"33958A09FB7E36BE"
+			]
+			id: "058C53606A481B5A"
+			tasks: [{
+				id: "7892883CB3B0A12C"
+				type: "item"
+				item: "elementalcraft:swift_alloy_ingot"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.75d
+			dependencies: [
+				"33958A09FB7E36BE"
+				"552D81EF1814A4DD"
+			]
+			id: "726F3BE94EA2965E"
+			tasks: [{
+				id: "4DE89C564DAAEFB1"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:swift_alloy_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.swift_alloy_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#f1c57c"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.75d
+			y: 0.0d
+			dependencies: [
+				"5269FB3852203971"
+				"4E0EFFD2B6E7E1BE"
+			]
+			id: "2EC69ABA152B77D3"
+			tasks: [{
+				id: "7F12FA656A542881"
+				type: "item"
+				item: "elementalcraft:elementpipe_improved"
+			}]
+		}
+		{
+			x: -3.75d
+			y: 1.25d
+			dependencies: [
+				"5269FB3852203971"
+				"43EB5B6F9FA18134"
+			]
+			id: "4E0EFFD2B6E7E1BE"
+			tasks: [{
+				id: "73FFCC7EC4B4F978"
+				type: "item"
+				item: "elementalcraft:elementpipe"
+			}]
+		}
+		{
+			x: -3.75d
+			y: 2.5d
+			dependencies: ["5269FB3852203971"]
+			id: "43EB5B6F9FA18134"
+			tasks: [{
+				id: "3971C58F1F823877"
+				type: "item"
+				item: "elementalcraft:elementpipe_impaired"
+			}]
+		}
+		{
+			x: -5.25d
+			y: 1.25d
+			dependencies: [
+				"43EB5B6F9FA18134"
+				"4E0EFFD2B6E7E1BE"
+				"2EC69ABA152B77D3"
+			]
+			id: "3A19ABB97AECDA7C"
+			tasks: [{
+				id: "324ED6622C3EE10A"
+				type: "item"
+				item: "elementalcraft:cover_frame"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.25d
+			shape: "diamond"
+			dependencies: ["148AC206C02F9761"]
+			id: "5269FB3852203971"
+			tasks: [{
+				id: "0D78C3974BBDEDF3"
+				type: "item"
+				item: "elementalcraft:containedcrystal"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			dependencies: ["5269FB3852203971"]
+			id: "22BE141241096122"
+			tasks: [{
+				id: "4C856C009E89C7AA"
+				type: "item"
+				item: "elementalcraft:evaporator"
+			}]
+		}
+		{
+			x: 6.75d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"4431A21A852F98FA"
+				"343F169E9B91EC9B"
+				"61D352299B41DBB0"
+				"717F8022297E00D2"
+				"42B4D74321A27197"
+			]
+			id: "58E44D46C47B08DF"
+			tasks: [{
+				id: "7DE3C1BB1DF1703E"
+				type: "item"
+				item: {
+					id: "wormhole:portal_stabilizer"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 6.25d
+			y: -1.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"4431A21A852F98FA"
+				"343F169E9B91EC9B"
+				"61D352299B41DBB0"
+				"717F8022297E00D2"
+				"42B4D74321A27197"
+			]
+			id: "3E15FF18B52B7D91"
+			tasks: [{
+				id: "0A9642B19EFF904A"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:regalium_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.regalium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#f6dd9b"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.25d
+			y: -1.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"4431A21A852F98FA"
+				"343F169E9B91EC9B"
+				"61D352299B41DBB0"
+				"717F8022297E00D2"
+				"42B4D74321A27197"
+			]
+			id: "0A45CF74DAB86179"
+			tasks: [{
+				id: "36FE55A758616DFA"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:froststeel_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.froststeel_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#8aadcf"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"4431A21A852F98FA"
+				"343F169E9B91EC9B"
+				"61D352299B41DBB0"
+				"717F8022297E00D2"
+				"42B4D74321A27197"
+			]
+			id: "235AFFF591D04046"
+			tasks: [{
+				id: "5A2EB01FA5E96AA3"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:cloggrum_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.cloggrum_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#ba9d7b"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.75d
+			y: -1.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"4431A21A852F98FA"
+				"343F169E9B91EC9B"
+				"61D352299B41DBB0"
+				"717F8022297E00D2"
+				"42B4D74321A27197"
+			]
+			id: "380FEA433065B183"
+			tasks: [{
+				id: "09FE79FC9B995FA7"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:utherium_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.utherium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#d76559"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.75d
+			y: -1.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"4431A21A852F98FA"
+				"343F169E9B91EC9B"
+				"61D352299B41DBB0"
+				"717F8022297E00D2"
+				"42B4D74321A27197"
+			]
+			id: "6D92B8B6A17E35EC"
+			tasks: [{
+				id: "1629FB3F9919389B"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:forgotten_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.forgotten_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#57e3b3"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.25d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"4431A21A852F98FA"
+				"343F169E9B91EC9B"
+				"61D352299B41DBB0"
+				"717F8022297E00D2"
+				"42B4D74321A27197"
+			]
+			id: "4EA12BDA0EC16BD2"
+			tasks: [{
+				id: "03F8A73F3C1CB0ED"
+				type: "item"
+				item: "undergarden:catalyst"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -0.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"717F8022297E00D2"
+				"61D352299B41DBB0"
+				"343F169E9B91EC9B"
+				"4431A21A852F98FA"
+				"42B4D74321A27197"
+			]
+			id: "5D3FCB985C048594"
+			tasks: [{
+				id: "5953137C07797A0F"
+				type: "item"
+				item: "elementalcraft:purerock"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"4431A21A852F98FA"
+				"343F169E9B91EC9B"
+				"61D352299B41DBB0"
+				"717F8022297E00D2"
+				"42B4D74321A27197"
+			]
+			id: "6E562801A73D8A28"
+			tasks: [{
+				id: "2AAFA71A5489CD90"
+				type: "item"
+				item: "occultism:afrit_essence"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.5d
+			dependencies: ["53E0B3F747685F9E"]
+			id: "3CBC159D69603814"
+			tasks: [{
+				id: "71C553335383D458"
+				type: "item"
+				item: "elementalcraft:reservoir_water"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.5d
+			dependencies: ["1B5469D64AE3F850"]
+			id: "4D028441C24B4A1A"
+			tasks: [{
+				id: "60648664EC82D6E6"
+				type: "item"
+				item: "elementalcraft:reservoir_air"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.5d
+			dependencies: ["45ACEDB8B8D30E96"]
+			id: "741EEFF078CCEE44"
+			tasks: [{
+				id: "0EA1552193735551"
+				type: "item"
+				item: "elementalcraft:reservoir_earth"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.5d
+			dependencies: ["567BBF4D2121418C"]
+			id: "7D5B1F21662A6ACD"
+			tasks: [{
+				id: "7CAF7FA76001167A"
+				type: "item"
+				item: "elementalcraft:reservoir_fire"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -5.75d
+			shape: "gear"
+			dependencies: ["7BD2D6B517F906ED"]
+			id: "567BBF4D2121418C"
+			tasks: [{
+				id: "685A65B36E940CAC"
+				type: "item"
+				item: "elementalcraft:pristine_fire_gem"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.75d
+			shape: "gear"
+			dependencies: ["7BD2D6B517F906ED"]
+			id: "45ACEDB8B8D30E96"
+			tasks: [{
+				id: "0E4F12266CAB2C27"
+				type: "item"
+				item: "elementalcraft:pristine_earth_gem"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.75d
+			shape: "gear"
+			dependencies: ["7BD2D6B517F906ED"]
+			id: "1B5469D64AE3F850"
+			tasks: [{
+				id: "25661F94B771DB03"
+				type: "item"
+				item: "elementalcraft:pristine_air_gem"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.75d
+			shape: "gear"
+			dependencies: ["7BD2D6B517F906ED"]
+			id: "53E0B3F747685F9E"
+			tasks: [{
+				id: "6EFE75ACBBC67073"
+				type: "item"
+				item: "elementalcraft:pristine_water_gem"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -7.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"343F169E9B91EC9B"
+				"61D352299B41DBB0"
+				"717F8022297E00D2"
+				"4431A21A852F98FA"
+				"42B4D74321A27197"
+			]
+			id: "7BD2D6B517F906ED"
+			tasks: [{
+				id: "3AF295C98933055D"
+				type: "item"
+				item: "elementalcraft:purecrystal"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -8.75d
+			dependencies: ["7BD2D6B517F906ED"]
+			id: "425E218F59F2A24B"
+			tasks: [{
+				id: "371134D2081CD8EC"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:fireite_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.fireite_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#c53d10"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.25d
+			y: -7.5d
+			dependencies: ["7BD2D6B517F906ED"]
+			id: "53F48F179B01DBFC"
+			tasks: [{
+				id: "792629E03FD32038"
+				type: "item"
+				item: "elementalcraft:purifier"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -8.75d
+			dependencies: ["7BD2D6B517F906ED"]
+			id: "7260BE309AD6DF62"
+			tasks: [{
+				id: "5A1FDF716DAA11EA"
+				type: "item"
+				item: "elementalcraft:fireite_ingot"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -10.0d
+			dependencies: ["7260BE309AD6DF62"]
+			id: "70CDDDD6961ED529"
+			tasks: [{
+				id: "1C19C5AD0782F601"
+				type: "item"
+				item: "elementalcraft:pure_element_holder_core"
+			}]
+		}
+		{
+			x: 4.25d
+			y: -10.0d
+			dependencies: ["70CDDDD6961ED529"]
+			id: "46D435CD299EF61F"
+			tasks: [{
+				id: "79A3FC1E2D9DA3B3"
+				type: "item"
+				item: {
+					id: "elementalcraft:pure_element_holder"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							earth: 0
+							fire: 0
+							air: 0
+							water: 0
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -7.5d
+			dependencies: ["7BD2D6B517F906ED"]
+			id: "60A2528E8D290EAB"
+			tasks: [{
+				id: "361B614995B7B8D8"
+				type: "item"
+				item: {
+					id: "elementalcraft:receptacle_empty"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -8.25d
+			dependencies: ["60A2528E8D290EAB"]
+			id: "4E066969159206A6"
+			tasks: [{
+				id: "520CB47DEF73F58E"
+				type: "item"
+				item: {
+					id: "elementalcraft:receptacle_improved_empty"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: -3.5d
+			dependencies: ["42310EAE3A06F15E"]
+			id: "717F8022297E00D2"
+			tasks: [{
+				id: "14A5BFB8AAAC0B45"
+				type: "item"
+				item: "elementalcraft:pedestal_fire"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -3.5d
+			dependencies: ["1F1890B436E5414D"]
+			id: "61D352299B41DBB0"
+			tasks: [{
+				id: "407E18794D639433"
+				type: "item"
+				item: "elementalcraft:pedestal_earth"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -3.5d
+			shape: "hexagon"
+			dependencies: ["0D78C3974BBDEDF3"]
+			id: "42B4D74321A27197"
+			tasks: [{
+				id: "3AF6615857DF69AD"
+				type: "item"
+				item: "elementalcraft:pureinfuser"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -3.5d
+			dependencies: ["217BBDA743C9716C"]
+			id: "343F169E9B91EC9B"
+			tasks: [{
+				id: "1DDB1504AAB2C3F5"
+				type: "item"
+				item: "elementalcraft:pedestal_air"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.5d
+			dependencies: ["48E7E8ACC4F2EB9C"]
+			id: "4431A21A852F98FA"
+			tasks: [{
+				id: "23D101016CB8A900"
+				type: "item"
+				item: "elementalcraft:pedestal_water"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -4.75d
+			shape: "pentagon"
+			dependencies: ["1ED7B5CA71DDFF89"]
+			id: "48E7E8ACC4F2EB9C"
+			tasks: [{
+				id: "00F0E9F5FBFD1D8C"
+				type: "item"
+				item: "elementalcraft:fine_water_gem"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -4.75d
+			shape: "pentagon"
+			dependencies: ["1ED7B5CA71DDFF89"]
+			id: "217BBDA743C9716C"
+			tasks: [{
+				id: "5F31ABA16C8BC9AD"
+				type: "item"
+				item: "elementalcraft:fine_air_gem"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -4.75d
+			shape: "pentagon"
+			dependencies: ["1ED7B5CA71DDFF89"]
+			id: "1F1890B436E5414D"
+			tasks: [{
+				id: "3289937C03D15FE5"
+				type: "item"
+				item: "elementalcraft:fine_earth_gem"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -4.75d
+			shape: "pentagon"
+			dependencies: ["1ED7B5CA71DDFF89"]
+			id: "42310EAE3A06F15E"
+			tasks: [{
+				id: "70C4842E825CE768"
+				type: "item"
+				item: "elementalcraft:fine_fire_gem"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"058C53606A481B5A"
+				"5269FB3852203971"
+				"2B5B7AED6FDF9867"
+			]
+			id: "1ED7B5CA71DDFF89"
+			tasks: [{
+				id: "491C854B9DE7266E"
+				type: "item"
+				item: "elementalcraft:crystallizer"
+			}]
+		}
+		{
+			x: -0.25d
+			y: 3.0d
+			shape: "diamond"
+			id: "148AC206C02F9761"
+			tasks: [{
+				id: "23667129144CD188"
+				type: "item"
+				item: "elementalcraft:inertcrystal"
+			}]
+		}
+		{
+			x: -12.25d
+			y: 4.0d
+			shape: "rsquare"
+			dependencies: ["73FFCC7EC4B4F978"]
+			id: "7976FBC4DF2D2877"
+			tasks: [{
+				id: "373E065D55BE0D25"
+				type: "item"
+				item: "elementalcraft:shrinebase"
+			}]
+		}
+		{
+			x: -13.25d
+			y: 2.25d
+			shape: "rsquare"
+			dependencies: ["7976FBC4DF2D2877"]
+			optional: true
+			id: "165DC0E8B1279429"
+			tasks: [{
+				id: "51ACDF9856578701"
+				type: "item"
+				item: "elementalcraft:enderlockshrine"
+			}]
+		}
+		{
+			x: -13.75d
+			y: 5.25d
+			shape: "rsquare"
+			dependencies: ["7976FBC4DF2D2877"]
+			optional: true
+			id: "3B3CE2DCD20C5224"
+			tasks: [{
+				id: "2CD1559CEF685964"
+				type: "item"
+				item: "elementalcraft:sweetshrine"
+			}]
+		}
+		{
+			x: -10.75d
+			y: 3.25d
+			shape: "rsquare"
+			dependencies: ["7976FBC4DF2D2877"]
+			optional: true
+			id: "6568F69395BBCBA2"
+			tasks: [{
+				id: "782C48C4DA51D071"
+				type: "item"
+				item: "elementalcraft:harvestshrine"
+			}]
+		}
+		{
+			x: -12.25d
+			y: 2.25d
+			shape: "rsquare"
+			dependencies: ["7976FBC4DF2D2877"]
+			optional: true
+			id: "478B2083D8942E29"
+			tasks: [{
+				id: "3D29780B513401A2"
+				type: "item"
+				item: "elementalcraft:growthshrine"
+			}]
+		}
+		{
+			x: -11.25d
+			y: 2.25d
+			shape: "rsquare"
+			dependencies: ["7976FBC4DF2D2877"]
+			optional: true
+			id: "4C0BBD8F9421AE3D"
+			tasks: [{
+				id: "572D9CD989045DEF"
+				type: "item"
+				item: "elementalcraft:vacuumshrine"
+			}]
+		}
+		{
+			x: -13.75d
+			y: 3.25d
+			shape: "rsquare"
+			dependencies: ["7976FBC4DF2D2877"]
+			optional: true
+			id: "483D1D91DC27CAF3"
+			tasks: [{
+				id: "2F4539C464F17B03"
+				type: "item"
+				item: "elementalcraft:lavashrine"
+			}]
+		}
+		{
+			x: -12.75d
+			y: 5.25d
+			shape: "rsquare"
+			dependencies: ["7976FBC4DF2D2877"]
+			optional: true
+			id: "2086BA5A4A31FDC9"
+			tasks: [{
+				id: "03683CF36A418D07"
+				type: "item"
+				item: "elementalcraft:oreshrine"
+			}]
+		}
+		{
+			x: -10.75d
+			y: 4.25d
+			shape: "rsquare"
+			dependencies: ["7976FBC4DF2D2877"]
+			optional: true
+			id: "226FF0189B0C2A59"
+			tasks: [{
+				id: "1230F2A7646DA276"
+				type: "item"
+				item: "elementalcraft:springshrine"
+			}]
+		}
+		{
+			x: -13.75d
+			y: 4.25d
+			shape: "rsquare"
+			dependencies: ["7976FBC4DF2D2877"]
+			optional: true
+			id: "7D62D8BEEE045230"
+			tasks: [{
+				id: "5AC82D07E246774C"
+				type: "item"
+				item: "elementalcraft:overloadshrine"
+			}]
+		}
+		{
+			x: -11.75d
+			y: 5.25d
+			shape: "rsquare"
+			dependencies: ["7976FBC4DF2D2877"]
+			optional: true
+			id: "15CC49A402B4494A"
+			tasks: [{
+				id: "1C7BDE16CCF23076"
+				type: "item"
+				item: "elementalcraft:breedingshrine"
+			}]
+		}
+		{
+			x: -10.75d
+			y: 5.25d
+			shape: "rsquare"
+			dependencies: ["7976FBC4DF2D2877"]
+			optional: true
+			id: "4B74EECDADA3E400"
+			tasks: [{
+				id: "0E685612A45CC325"
+				type: "item"
+				item: "elementalcraft:groveshrine"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.25d
+			shape: "rsquare"
+			dependencies: ["5269FB3852203971"]
+			optional: true
+			id: "551BFC49CAD12F5D"
+			tasks: [{
+				id: "492AEF4BC0E982E8"
+				type: "item"
+				item: "elementalcraft:shrine_upgrade_core"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -0.25d
+			shape: "rsquare"
+			dependencies: ["551BFC49CAD12F5D"]
+			optional: true
+			id: "355B911C7E3543F5"
+			tasks: [{
+				id: "6FCCCA8ED27CF830"
+				type: "item"
+				item: "elementalcraft:shrine_upgrade_acceleration"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -0.25d
+			shape: "rsquare"
+			dependencies: ["551BFC49CAD12F5D"]
+			optional: true
+			id: "5B938D032AE22725"
+			tasks: [{
+				id: "4E5708BE59473343"
+				type: "item"
+				item: "elementalcraft:shrine_upgrade_range"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.25d
+			shape: "rsquare"
+			dependencies: ["551BFC49CAD12F5D"]
+			optional: true
+			id: "6013492561D510B1"
+			tasks: [{
+				id: "62CFF6BF3079E42F"
+				type: "item"
+				item: "elementalcraft:shrine_upgrade_capacity"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.25d
+			shape: "rsquare"
+			dependencies: ["551BFC49CAD12F5D"]
+			optional: true
+			id: "7F42A8A9BD1D569B"
+			tasks: [{
+				id: "46BA41646A79A8CE"
+				type: "item"
+				item: "elementalcraft:shrine_upgrade_efficiency"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.25d
+			shape: "rsquare"
+			dependencies: ["551BFC49CAD12F5D"]
+			optional: true
+			id: "729F619254172EC3"
+			tasks: [{
+				id: "1A6F40B416589087"
+				type: "item"
+				item: "elementalcraft:shrine_upgrade_strength"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.25d
+			shape: "rsquare"
+			dependencies: ["551BFC49CAD12F5D"]
+			optional: true
+			id: "5F73010CB1B912BE"
+			tasks: [{
+				id: "224E455893B59CF6"
+				type: "item"
+				item: "elementalcraft:shrine_upgrade_optimization"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.75d
+			shape: "rsquare"
+			dependencies: ["551BFC49CAD12F5D"]
+			optional: true
+			id: "337AC5A886F178F9"
+			tasks: [{
+				id: "623BA9C273E3DB76"
+				type: "item"
+				item: "elementalcraft:shrine_upgrade_fortune"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.75d
+			shape: "rsquare"
+			dependencies: ["551BFC49CAD12F5D"]
+			optional: true
+			id: "132E4A6FA4926E9C"
+			tasks: [{
+				id: "6D1604DE269AF10E"
+				type: "item"
+				item: "elementalcraft:shrine_upgrade_silk_touch"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.75d
+			shape: "rsquare"
+			dependencies: ["551BFC49CAD12F5D"]
+			optional: true
+			id: "42C051499111F50E"
+			tasks: [{
+				id: "7B5F6AEEE5E5AEDC"
+				type: "item"
+				item: "elementalcraft:shrine_upgrade_planting"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.75d
+			shape: "rsquare"
+			dependencies: ["551BFC49CAD12F5D"]
+			optional: true
+			id: "6B949E3E823AFB47"
+			tasks: [{
+				id: "1838B6368A9FFBA3"
+				type: "item"
+				item: "elementalcraft:shrine_upgrade_boneless_growth"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.75d
+			shape: "rsquare"
+			dependencies: ["551BFC49CAD12F5D"]
+			optional: true
+			id: "6167A0E546A39513"
+			tasks: [{
+				id: "1568FDF3F9E7406B"
+				type: "item"
+				item: "elementalcraft:shrine_upgrade_pickup"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.75d
+			shape: "rsquare"
+			dependencies: ["551BFC49CAD12F5D"]
+			optional: true
+			id: "44B226BF0167169C"
+			tasks: [{
+				id: "4BA608BB3D8D983D"
+				type: "item"
+				item: "elementalcraft:shrine_upgrade_nectar"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.25d
+			shape: "rsquare"
+			dependencies: ["551BFC49CAD12F5D"]
+			optional: true
+			id: "258B7C5402B0FF74"
+			tasks: [{
+				id: "2472EBED02D30A6F"
+				type: "item"
+				item: "elementalcraft:shrine_upgrade_protection"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.25d
+			shape: "rsquare"
+			dependencies: ["551BFC49CAD12F5D"]
+			optional: true
+			id: "01CBA1DA681032EC"
+			tasks: [{
+				id: "5CF5062FBA204D84"
+				type: "item"
+				item: "elementalcraft:shrine_upgrade_stem_pollination"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.75d
+			shape: "rsquare"
+			dependencies: ["551BFC49CAD12F5D"]
+			optional: true
+			id: "6A59101815684EF1"
+			tasks: [{
+				id: "210C30CF796D886A"
+				type: "item"
+				item: "elementalcraft:shrine_upgrade_filling"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.75d
+			shape: "rsquare"
+			dependencies: ["551BFC49CAD12F5D"]
+			optional: true
+			id: "4AAED52BABF855BF"
+			tasks: [{
+				id: "79102646E549DA54"
+				type: "item"
+				item: "elementalcraft:shrine_upgrade_mystical_grove"
+			}]
+		}
+		{
+			title: "ElementalCraft Spells"
+			icon: "elementalcraft:scroll_paper"
+			x: -9.0d
+			y: -7.25d
+			shape: "rsquare"
+			dependencies: ["7F6F05F53A58BCD3"]
+			optional: true
+			id: "73D5C86184299230"
+			tasks: [
+				{
+					id: "13048AFC8B0CCF78"
+					type: "item"
+					item: {
+						id: "elementalcraft:scroll"
+						Count: 1b
+						tag: {
+							elementalcraft: {
+								spell: "elementalcraft:tree_fall"
+							}
+						}
+					}
+				}
+				{
+					id: "619AB4EDFDF579B9"
+					type: "item"
+					item: {
+						id: "elementalcraft:scroll"
+						Count: 1b
+						tag: {
+							elementalcraft: {
+								spell: "elementalcraft:translocation"
+							}
+						}
+					}
+				}
+				{
+					id: "31F630F57A3BCED7"
+					type: "item"
+					item: {
+						id: "elementalcraft:scroll"
+						Count: 1b
+						tag: {
+							elementalcraft: {
+								spell: "elementalcraft:stonewall"
+							}
+						}
+					}
+				}
+				{
+					id: "73E8157BCF88DF12"
+					type: "item"
+					item: {
+						id: "elementalcraft:scroll"
+						Count: 1b
+						tag: {
+							elementalcraft: {
+								spell: "elementalcraft:speed"
+							}
+						}
+					}
+				}
+				{
+					id: "577DB9A45A9052DE"
+					type: "item"
+					item: {
+						id: "elementalcraft:scroll"
+						Count: 1b
+						tag: {
+							elementalcraft: {
+								spell: "elementalcraft:animal_growth"
+							}
+						}
+					}
+				}
+				{
+					id: "5681B2563D459B6F"
+					type: "item"
+					item: {
+						id: "elementalcraft:scroll"
+						Count: 1b
+						tag: {
+							elementalcraft: {
+								spell: "elementalcraft:dash"
+							}
+						}
+					}
+				}
+				{
+					id: "7BA52B54ED531231"
+					type: "item"
+					item: {
+						id: "elementalcraft:scroll"
+						Count: 1b
+						tag: {
+							elementalcraft: {
+								spell: "elementalcraft:ender_strike"
+							}
+						}
+					}
+				}
+				{
+					id: "759C6C7355517716"
+					type: "item"
+					item: {
+						id: "elementalcraft:scroll"
+						Count: 1b
+						tag: {
+							elementalcraft: {
+								spell: "elementalcraft:fireball"
+							}
+						}
+					}
+				}
+				{
+					id: "297764E0703F9890"
+					type: "item"
+					item: {
+						id: "elementalcraft:scroll"
+						Count: 1b
+						tag: {
+							elementalcraft: {
+								spell: "elementalcraft:flame_cleave"
+							}
+						}
+					}
+				}
+				{
+					id: "20B2EAA451857789"
+					type: "item"
+					item: {
+						id: "elementalcraft:scroll"
+						Count: 1b
+						tag: {
+							elementalcraft: {
+								spell: "elementalcraft:gravelfall"
+							}
+						}
+					}
+				}
+				{
+					id: "1890E23880086A70"
+					type: "item"
+					item: {
+						id: "elementalcraft:scroll"
+						Count: 1b
+						tag: {
+							elementalcraft: {
+								spell: "elementalcraft:heal"
+							}
+						}
+					}
+				}
+				{
+					id: "1DA24DC34231EDEA"
+					type: "item"
+					item: {
+						id: "elementalcraft:scroll"
+						Count: 1b
+						tag: {
+							elementalcraft: {
+								spell: "elementalcraft:inferno"
+							}
+						}
+					}
+				}
+				{
+					id: "2093E2B72C951A9F"
+					type: "item"
+					item: {
+						id: "elementalcraft:scroll"
+						Count: 1b
+						tag: {
+							elementalcraft: {
+								spell: "elementalcraft:item_pull"
+							}
+						}
+					}
+				}
+				{
+					id: "13796AD3634DA65A"
+					type: "item"
+					item: {
+						id: "elementalcraft:scroll"
+						Count: 1b
+						tag: {
+							elementalcraft: {
+								spell: "elementalcraft:purification"
+							}
+						}
+					}
+				}
+				{
+					id: "296D7B5398549FFD"
+					type: "item"
+					item: {
+						id: "elementalcraft:scroll"
+						Count: 1b
+						tag: {
+							elementalcraft: {
+								spell: "elementalcraft:ripening"
+							}
+						}
+					}
+				}
+				{
+					id: "25E9D57CF53A332D"
+					type: "item"
+					item: {
+						id: "elementalcraft:scroll"
+						Count: 1b
+						tag: {
+							elementalcraft: {
+								spell: "elementalcraft:silk_vein"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.25d
+			y: 8.5d
+			id: "2D280B19DAF910F3"
+			tasks: [{
+				id: "65C86618E2B6FDC0"
+				type: "item"
+				item: "emendatusenigmatica:arcane_gem"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 8.5d
+			dependencies: ["2D280B19DAF910F3"]
+			id: "45CDD9F70819E45A"
+			tasks: [{
+				id: "1B42EF52C608A096"
+				type: "item"
+				item: {
+					id: "ars_nouveau:novice_spell_book"
+					Count: 1b
+					tag: {
+						mode: 0
+						spells: ",touch,harm,break,self,projectile"
+					}
+				}
+			}]
+		}
+		{
+			title: "Enchanting Apparatus"
+			x: 1.75d
+			y: 8.5d
+			subtitle: "A new way to craft"
+			dependencies: ["2D280B19DAF910F3"]
+			id: "347740BA6C176E93"
+			tasks: [
+				{
+					id: "6BB5210B742C8013"
+					type: "item"
+					item: "ars_nouveau:arcane_pedestal"
+					count: 8L
+				}
+				{
+					id: "11293E15B0627ADA"
+					type: "item"
+					item: "ars_nouveau:arcane_core"
+				}
+				{
+					id: "4EE8636D38B804F9"
+					type: "item"
+					item: "ars_nouveau:enchanting_apparatus"
+				}
+			]
+		}
+		{
+			title: "Automatic Compound Infuser I/O"
+			x: 3.25d
+			y: 7.25d
+			dependencies: ["347740BA6C176E93"]
+			id: "0603F673A1E78B8D"
+			tasks: [
+				{
+					id: "31CDFA709A927CDD"
+					type: "item"
+					item: "masterfulmachinery:autoinfuser_compound_fluid_port_fluids_input"
+				}
+				{
+					id: "4E8D00ADFB3B2843"
+					type: "item"
+					item: "masterfulmachinery:autoinfuser_compound_item_port_items_input"
+				}
+				{
+					id: "79D9E0FC60BF2DA5"
+					type: "item"
+					item: "masterfulmachinery:autoinfuser_compound_item_port_items_output"
+				}
+			]
+		}
+		{
+			title: "Pedestals"
+			x: 3.25d
+			y: 8.5d
+			dependencies: ["347740BA6C176E93"]
+			id: "455C11FC5271AF93"
+			tasks: [
+				{
+					id: "09439B24250C05E5"
+					type: "item"
+					item: "pedestals:coin/cobble"
+				}
+				{
+					id: "1DA7A2AA1F79FB43"
+					type: "item"
+					item: "pedestals:pedestal/stone333"
+				}
+			]
+		}
+		{
+			title: "Bees Stuff"
+			x: 3.25d
+			y: 9.75d
+			dependencies: ["347740BA6C176E93"]
+			id: "06D11E6229A3AA17"
+			tasks: [
+				{
+					id: "6C364D55F59B3CB0"
+					type: "item"
+					item: {
+						id: "resourcefulbees:bee_jar"
+						Count: 1b
+						tag: {
+							Entity: "resourcefulbees:experience_bee"
+							display: {
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.experience_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+							}
+							Color: "#9ce02f"
+						}
+					}
+				}
+				{
+					id: "06BE9C796FCD97D1"
+					type: "item"
+					item: {
+						id: "resourcefulbees:bee_jar"
+						Count: 1b
+						tag: {
+							Entity: "resourcefulbees:source_steel_bee"
+							display: {
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.source_steel_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+							}
+							Color: "#d1b9e5"
+						}
+					}
+				}
+				{
+					id: "4E9D4BA12F1F8021"
+					type: "item"
+					item: "resourcefulbees:t4_hive_upgrade"
+				}
+				{
+					id: "5AD39F9EE5AA52E7"
+					type: "item"
+					item: "resourcefulbees:t4_beehive"
+				}
+			]
+		}
+		{
+			x: 1.75d
+			y: 11.0d
+			dependencies: ["31936ED1790DA9BF"]
+			id: "4AF2D320ACBA99E3"
+			tasks: [{
+				id: "6858A1A4C3FC9222"
+				type: "item"
+				item: "ars_nouveau:mythical_clay"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 11.0d
+			dependencies: ["2D280B19DAF910F3"]
+			id: "36D7AB33ECC0C810"
+			tasks: [{
+				id: "59967F2C7D7CC53F"
+				type: "item"
+				item: "ars_nouveau:magic_clay"
+			}]
+		}
+		{
+			x: -0.25d
+			y: 11.0d
+			dependencies: ["36D7AB33ECC0C810"]
+			id: "31936ED1790DA9BF"
+			tasks: [{
+				id: "607CBCDF5D28777A"
+				type: "item"
+				item: "ars_nouveau:marvelous_clay"
+			}]
+		}
+		{
+			title: "Mythical Spells"
+			x: 0.75d
+			y: 12.0d
+			shape: "circle"
+			dependencies: [
+				"774870F62D6F3E8A"
+				"4AF2D320ACBA99E3"
+			]
+			optional: true
+			id: "1F811FEA2BA3BF40"
+			tasks: [
+				{
+					id: "5E529B8E7CD63120"
+					type: "item"
+					item: "ars_nouveau:glyph_blink"
+				}
+				{
+					id: "6189153DFCEC065B"
+					type: "item"
+					item: "ars_nouveau:glyph_orbit"
+				}
+				{
+					id: "5698355CCD843452"
+					type: "item"
+					item: "ars_nouveau:glyph_hex"
+				}
+				{
+					id: "17DB84CBAA71BC86"
+					type: "item"
+					item: "ars_nouveau:glyph_strength"
+				}
+				{
+					id: "13515AA72C080FA8"
+					type: "item"
+					item: "ars_nouveau:glyph_split"
+				}
+				{
+					id: "7A301EDCEF336A74"
+					type: "item"
+					item: "ars_nouveau:glyph_intangible"
+				}
+				{
+					id: "1D55EC96E05F48AB"
+					type: "item"
+					item: "ars_nouveau:glyph_homing_projectile"
+				}
+				{
+					id: "7F8F72DD90F72D1D"
+					type: "item"
+					item: "ars_nouveau:glyph_summon_decoy"
+				}
+				{
+					id: "55D419C322E46A80"
+					type: "item"
+					item: "ars_nouveau:glyph_wither"
+				}
+				{
+					id: "30A5453CE65C6BA3"
+					type: "item"
+					item: "ars_nouveau:glyph_lightning"
+				}
+				{
+					id: "2BC8E9BAC4982D96"
+					type: "item"
+					item: "ars_nouveau:glyph_fangs"
+				}
+				{
+					id: "01D5EB486758BC9A"
+					type: "item"
+					item: "ars_nouveau:glyph_summon_vex"
+				}
+				{
+					id: "6992DF0F2FE67BFE"
+					type: "item"
+					item: "ars_nouveau:glyph_glide"
+				}
+				{
+					id: "635A384B47F81DAC"
+					type: "item"
+					item: "ars_nouveau:glyph_linger"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 7.25d
+			dependencies: ["2C180B990E4CCEC3"]
+			id: "120CD537BDE5EAAD"
+			tasks: [{
+				id: "774870F62D6F3E8A"
+				type: "item"
+				item: "ars_nouveau:glyph_press"
+			}]
+		}
+		{
+			x: -0.25d
+			y: 7.25d
+			dependencies: ["2D280B19DAF910F3"]
+			id: "2C180B990E4CCEC3"
+			tasks: [{
+				id: "02C011C10BB55339"
+				type: "item"
+				item: "ars_nouveau:arcane_stone"
+				count: 8L
+			}]
+		}
+		{
+			title: "Marvelous Spells"
+			x: 0.75d
+			y: 10.25d
+			dependencies: ["31936ED1790DA9BF"]
+			optional: true
+			min_width: 250
+			id: "77D59BCA31512467"
+			tasks: [
+				{
+					id: "6B45885F3734E5B5"
+					type: "item"
+					item: "ars_nouveau:glyph_exchange"
+				}
+				{
+					id: "2BA7ADCA6EB4EA74"
+					type: "item"
+					item: "ars_nouveau:glyph_invisibility"
+				}
+				{
+					id: "1305F9F7C7711590"
+					type: "item"
+					item: "ars_nouveau:glyph_shield"
+				}
+				{
+					id: "41CDB41A0CE2A58C"
+					type: "item"
+					item: "ars_nouveau:glyph_fell"
+				}
+				{
+					id: "38335A14247AFCBA"
+					type: "item"
+					item: "ars_nouveau:glyph_slowfall"
+				}
+				{
+					id: "3EDF6A457D72269C"
+					type: "item"
+					item: "ars_nouveau:glyph_heal"
+				}
+				{
+					id: "59815A5C3EA775EB"
+					type: "item"
+					item: "ars_nouveau:glyph_smelt"
+				}
+				{
+					id: "351C9604ED0D5CC6"
+					type: "item"
+					item: "ars_nouveau:glyph_arc_projectile"
+				}
+				{
+					id: "286C0AAE9D3BB4AB"
+					type: "item"
+					item: "ars_nouveau:glyph_firework"
+				}
+				{
+					id: "2D556C74AB6A771E"
+					type: "item"
+					item: "ars_nouveau:glyph_duration_down"
+				}
+				{
+					id: "310AC9D8DF265EED"
+					type: "item"
+					item: "ars_nouveau:glyph_extract"
+				}
+				{
+					id: "3EBACA53BF99DA13"
+					type: "item"
+					item: "ars_nouveau:glyph_ender_inventory"
+				}
+				{
+					id: "61971F1299E0514D"
+					type: "item"
+					item: "ars_nouveau:glyph_extend_time"
+				}
+				{
+					id: "604F93AFF6014CDD"
+					type: "item"
+					item: "ars_nouveau:glyph_conjure_water"
+				}
+				{
+					id: "300B1B0CD6FC711A"
+					type: "item"
+					item: "ars_nouveau:glyph_explosion"
+				}
+				{
+					id: "00CA2C1EE4F94049"
+					type: "item"
+					item: "ars_nouveau:glyph_aoe"
+				}
+				{
+					id: "05F7F2DBA894DAEA"
+					type: "item"
+					item: "ars_nouveau:glyph_pierce"
+				}
+				{
+					id: "78FCACCCFF97E873"
+					type: "item"
+					item: "ars_nouveau:glyph_accelerate"
+				}
+				{
+					id: "0EAD1F0372F1370C"
+					type: "item"
+					item: "ars_nouveau:glyph_dampen"
+				}
+				{
+					id: "798B334421DA4E33"
+					type: "item"
+					item: "ars_nouveau:glyph_enderstorage_chest"
+				}
+				{
+					id: "748397AD9AD7CC7B"
+					type: "item"
+					item: "ars_nouveau:glyph_wind_shear"
+				}
+				{
+					id: "0A60D0C068B28069"
+					type: "item"
+					item: "ars_nouveau:glyph_cold_snap"
+				}
+				{
+					id: "2FB1D7A572F8B35E"
+					type: "item"
+					item: "ars_nouveau:glyph_gravity"
+				}
+				{
+					id: "66B100C4A849C9F3"
+					type: "item"
+					item: "ars_nouveau:glyph_flare"
+				}
+				{
+					id: "66F48A100668E9D5"
+					type: "item"
+					item: "ars_nouveau:glyph_enderstorage_tank"
+				}
+				{
+					id: "171B5396DD6EDA76"
+					type: "item"
+					item: "ars_nouveau:glyph_crush"
+				}
+				{
+					id: "3189898C141C6EE7"
+					type: "item"
+					item: "ars_nouveau:glyph_fortune"
+				}
+				{
+					id: "2E60AC17618630FC"
+					type: "item"
+					item: "ars_nouveau:glyph_grow"
+				}
+			]
+		}
+		{
+			title: "Glyph of Color Frequency"
+			x: -1.5d
+			y: 12.5d
+			dependencies: ["36D7AB33ECC0C810"]
+			id: "3E32FA480007D4D3"
+			tasks: [
+				{
+					id: "22C577F09AED1004"
+					type: "item"
+					item: "ars_nouveau:glyph_color_orange"
+				}
+				{
+					id: "438EE1B0163E54BB"
+					type: "item"
+					item: "ars_nouveau:glyph_color_green"
+				}
+				{
+					id: "3E5A83CF954FBEBB"
+					type: "item"
+					item: "ars_nouveau:glyph_color_yellow"
+				}
+				{
+					id: "4CAD25BA401EEC3B"
+					type: "item"
+					item: "ars_nouveau:glyph_color_purple"
+				}
+				{
+					id: "760FAD788D9A3FCE"
+					type: "item"
+					item: "ars_nouveau:glyph_color_brown"
+				}
+				{
+					id: "09F98D053A789551"
+					type: "item"
+					item: "ars_nouveau:glyph_color_lime"
+				}
+				{
+					id: "0D614C3344B2FCC4"
+					type: "item"
+					item: "ars_nouveau:glyph_color_light_blue"
+				}
+				{
+					id: "6DB6A1987A7282C1"
+					type: "item"
+					item: "ars_nouveau:glyph_color_pink"
+				}
+				{
+					id: "15447BF63B287397"
+					type: "item"
+					item: "ars_nouveau:glyph_color_cyan"
+				}
+				{
+					id: "64F5A56D2708DEB1"
+					type: "item"
+					item: "ars_nouveau:glyph_color_black"
+				}
+				{
+					id: "1FB1C5EA8AD12440"
+					type: "item"
+					item: "ars_nouveau:glyph_color_white"
+				}
+				{
+					id: "213E7D9572095B02"
+					type: "item"
+					item: "ars_nouveau:glyph_color_red"
+				}
+				{
+					id: "322B6D12838C83C9"
+					type: "item"
+					item: "ars_nouveau:glyph_color_gray"
+				}
+				{
+					id: "75E165B176B2DED8"
+					type: "item"
+					item: "ars_nouveau:glyph_color_magenta"
+				}
+				{
+					id: "2BDA1C81D2851DFF"
+					type: "item"
+					item: "ars_nouveau:glyph_color_light_gray"
+				}
+				{
+					id: "4EDED06CD5E5D4EE"
+					type: "item"
+					item: "ars_nouveau:glyph_color_blue"
+				}
+			]
+		}
+		{
+			title: "School Of Manipulation"
+			x: -2.5d
+			y: 12.5d
+			dependencies: ["36D7AB33ECC0C810"]
+			id: "4E732C30E3322D12"
+			tasks: [
+				{
+					id: "03D81E003F7BBF46"
+					type: "item"
+					item: "ars_nouveau:glyph_delay"
+				}
+				{
+					id: "7D059E72268255C0"
+					type: "item"
+					item: "ars_nouveau:glyph_cut"
+				}
+				{
+					id: "2A26899727835AAD"
+					type: "item"
+					item: "ars_nouveau:glyph_evaporate"
+				}
+				{
+					id: "06136706E6F74AC6"
+					type: "item"
+					item: "ars_nouveau:glyph_pickup"
+				}
+				{
+					id: "08BE84396E07A1CB"
+					type: "item"
+					item: "ars_nouveau:glyph_toss"
+				}
+				{
+					id: "24859D486F0249E3"
+					type: "item"
+					item: "ars_nouveau:glyph_craft"
+				}
+				{
+					id: "5E0464D0A491763B"
+					type: "item"
+					item: "ars_nouveau:glyph_place_block"
+				}
+				{
+					id: "7F7467210040C056"
+					type: "item"
+					item: "ars_nouveau:glyph_rune"
+				}
+				{
+					id: "7EF6E8B58DB483C8"
+					type: "item"
+					item: "ars_nouveau:glyph_interact"
+				}
+				{
+					id: "0015A9DCE743EEE7"
+					type: "item"
+					item: "ars_nouveau:glyph_redstone_signal"
+				}
+			]
+		}
+	]
 }

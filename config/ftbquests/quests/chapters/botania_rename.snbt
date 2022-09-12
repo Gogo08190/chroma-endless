@@ -47,8 +47,9 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 4.0d
 			y: -2.25d
+			dependencies: ["40AA0A493F0620AA"]
 			id: "68E7A3D70265EBF0"
 			tasks: [
 				{
@@ -292,6 +293,281 @@
 				item: "botania:livingwood"
 				count: 16L
 			}]
+		}
+		{
+			x: 6.75d
+			y: -5.75d
+			dependencies: ["745EB5C8B1009207"]
+			id: "5E2A78C08B7A29B1"
+			tasks: [{
+				id: "7096937D460B4EB3"
+				type: "item"
+				item: "botania:mana_pool"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.5d
+			dependencies: ["0A560B69B6ADE09A"]
+			id: "40AA0A493F0620AA"
+			tasks: [{
+				id: "151545E4E1864B72"
+				type: "item"
+				item: "botania:diluted_pool"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.75d
+			dependencies: ["366B41D084311452"]
+			id: "0A560B69B6ADE09A"
+			tasks: [{
+				id: "68D194587C45CB7A"
+				type: "item"
+				title: "Livingrock Slab"
+				item: "botania:livingrock_slab"
+				count: 6L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -5.75d
+			dependencies: ["40AA0A493F0620AA"]
+			id: "16749BE6267748CD"
+			tasks: [{
+				id: "549F6F48BE8E5127"
+				type: "item"
+				item: "botanicalmachinery:mana_emerald"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -5.75d
+			dependencies: ["16749BE6267748CD"]
+			id: "745EB5C8B1009207"
+			tasks: [{
+				id: "1C11E575225797AF"
+				type: "item"
+				item: {
+					id: "botania:mana_tablet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -0.25d
+			id: "489318A96A0235D0"
+			tasks: [{
+				id: "4C6928355B827201"
+				type: "item"
+				item: "botania:mana_pylon"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -0.25d
+			id: "1290090CFA8EB26B"
+			tasks: [{
+				id: "100732B0EB2224CC"
+				type: "item"
+				item: "botania:gaia_pylon"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -0.25d
+			id: "3E2A68E4B756CD2B"
+			tasks: [{
+				id: "4655A5DDA414C05D"
+				type: "item"
+				item: "botania:natura_pylon"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -0.25d
+			id: "62222FA0EEA728C2"
+			tasks: [{
+				id: "2AC4FB4CDC23BDDF"
+				type: "item"
+				item: "botania:mana_spreader"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.75d
+			id: "71BFC9C9ABC390B4"
+			tasks: [{
+				id: "2A8FC8D4721D2435"
+				type: "item"
+				item: "botania:elven_spreader"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.75d
+			id: "78953A039B917BDF"
+			tasks: [{
+				id: "68FC1A6D6A99A60A"
+				type: "item"
+				item: "botania:gaia_spreader"
+			}]
+		}
+		{
+			x: 6.75d
+			y: -3.25d
+			id: "0CB79C028DEEC368"
+			tasks: [{
+				id: "31FAA63432B2F2C0"
+				type: "item"
+				item: "botania:shimmerrock"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -3.25d
+			id: "1D6250951190F53A"
+			tasks: [{
+				id: "45F6BA69E28CCF71"
+				type: "item"
+				item: "botania:fabulous_pool"
+			}]
+		}
+		{
+			title: "Alfheim Portal"
+			x: 8.5d
+			y: -5.75d
+			id: "335E059D1698372F"
+			tasks: [
+				{
+					id: "36A7692E6240CDFE"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+				{
+					id: "478808D2BACD225B"
+					type: "item"
+					item: "botania:livingwood"
+					count: 8L
+				}
+				{
+					id: "0C81A19B12CB87AA"
+					type: "item"
+					item: "botania:glimmering_livingwood"
+					count: 3L
+				}
+			]
+		}
+		{
+			title: "Element Runes"
+			x: 11.75d
+			y: -5.25d
+			id: "1550578CA13D8BF5"
+			tasks: [
+				{
+					id: "746060BF1647246C"
+					type: "item"
+					item: "botania:rune_water"
+				}
+				{
+					id: "2F31A00279CCC783"
+					type: "item"
+					item: "botania:rune_fire"
+				}
+				{
+					id: "416DB8DB57EEBC23"
+					type: "item"
+					item: "botania:rune_earth"
+				}
+				{
+					id: "5BB4CAB70FBD40ED"
+					type: "item"
+					item: "botania:rune_air"
+				}
+			]
+		}
+		{
+			title: "Rune of the Seasons"
+			x: 12.75d
+			y: -5.25d
+			id: "1AB26ED920215B51"
+			tasks: [
+				{
+					id: "3FF9D870344E172E"
+					type: "item"
+					item: "botania:rune_spring"
+				}
+				{
+					id: "03A2067968F6C211"
+					type: "item"
+					item: "botania:rune_summer"
+				}
+				{
+					id: "098158095ED0DDCD"
+					type: "item"
+					item: "botania:rune_autumn"
+				}
+				{
+					id: "5DA8E25C10505D27"
+					type: "item"
+					item: "botania:rune_winter"
+				}
+			]
+		}
+		{
+			x: 13.75d
+			y: -5.25d
+			id: "716178CB7E9006EE"
+			tasks: [{
+				id: "1932751CA8AA4A0E"
+				type: "item"
+				item: "botania:rune_mana"
+			}]
+		}
+		{
+			title: "Other Runes"
+			x: 14.75d
+			y: -5.25d
+			id: "78D4030D978D9180"
+			tasks: [
+				{
+					id: "1485CBC521740880"
+					type: "item"
+					item: "botania:rune_lust"
+				}
+				{
+					id: "5CC66F915A4C9C4E"
+					type: "item"
+					item: "botania:rune_gluttony"
+				}
+				{
+					id: "6E4F434AC3716518"
+					type: "item"
+					item: "botania:rune_greed"
+				}
+				{
+					id: "788D47E9058D55A4"
+					type: "item"
+					item: "botania:rune_sloth"
+				}
+				{
+					id: "1EF285799C2FCE6B"
+					type: "item"
+					item: "botania:rune_wrath"
+				}
+				{
+					id: "61C28C04FA961761"
+					type: "item"
+					item: "botania:rune_envy"
+				}
+				{
+					id: "1A01B88234D229D4"
+					type: "item"
+					item: "botania:rune_pride"
+				}
+			]
 		}
 	]
 }

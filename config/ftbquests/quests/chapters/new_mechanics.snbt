@@ -8,5 +8,169 @@
 	subtitle: ["Flux Networks + Mini Utilities + Wormhole"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	images: [{
+		x: -3.75d
+		y: 0.75d
+		width: 3.0d
+		height: 3.0d
+		rotation: 0.0d
+		image: "chroma:textures/quests/flux_network.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -5.5d
+			y: -4.0d
+			subtitle: "The key crafting ingredient of the mod"
+			dependencies: ["5E2A78C08B7A29B1"]
+			id: "0346878606EED7AF"
+			tasks: [{
+				id: "0350848958D861DE"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -2.5d
+			subtitle: "Other key crafting ingredients of the mod !"
+			dependencies: ["0346878606EED7AF"]
+			min_width: 240
+			id: "1F71F911773ED178"
+			tasks: [{
+				id: "63E3CC8DDDEC0897"
+				type: "item"
+				item: "fluxnetworks:flux_block"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.0d
+			subtitle: "Other key crafting ingredients of the mod !"
+			dependencies: ["0346878606EED7AF"]
+			min_width: 240
+			id: "641BEA5DCB499C89"
+			tasks: [{
+				id: "6521FD4200918689"
+				type: "item"
+				item: "fluxnetworks:flux_core"
+			}]
+		}
+		{
+			x: -3.25d
+			y: -1.5d
+			subtitle: "Used to Store Energy in the network"
+			description: [
+				"Flux Storage is used to store excess energy. It will only be filled once each Flux Point has received enough energy."
+				""
+				"This energy can only be accessed by removing energy with a Flux Point."
+				""
+				"&7&lThis energy can only be accessed by removing energy with a Flux Point."
+				""
+				"&bEnergy Capacity: 1,000,000 FE"
+			]
+			dependencies: ["1F71F911773ED178"]
+			min_width: 240
+			id: "2D31986387CE4C65"
+			tasks: [{
+				id: "0CAE0D826DE41651"
+				type: "item"
+				item: "fluxnetworks:basic_flux_storage"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			subtitle: "Tier 2"
+			description: ["&bEnergy Capacity: 8,000,000 FE"]
+			dependencies: ["2D31986387CE4C65"]
+			id: "7598222D3C2DDB3B"
+			tasks: [{
+				id: "537E59A687B230C5"
+				type: "item"
+				item: "fluxnetworks:herculean_flux_storage"
+			}]
+		}
+		{
+			x: -0.75d
+			y: -1.25d
+			subtitle: "Tier 3"
+			description: ["&bEnergy Capacity: 128,000,000 FE"]
+			dependencies: ["7598222D3C2DDB3B"]
+			id: "1EA3FA891CD9D86B"
+			tasks: [{
+				id: "27948C2546309C33"
+				type: "item"
+				item: "fluxnetworks:gargantuan_flux_storage"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 0.0d
+			subtitle: "The Flux Configurator can also be connected to a network"
+			description: [
+				"● It can be used to access, edit, delete networks on the go. And shares the same GUI as connectors."
+				""
+				"● It can also be used to copy / paste settings between connectors."
+				""
+				"&lCopying Settings:&r Shift-Right Click on a connector to copy it's settings and then Right Click on a connector you wish to paste the settings to. If you right click something which isn't a connector you'll bring up the Network GUI and also you'll be able to edit the settings which the Configurator will paste. The configurator can also be renamed here, with the name field."
+			]
+			dependencies: ["641BEA5DCB499C89"]
+			min_width: 240
+			id: "256631A4863B5967"
+			tasks: [{
+				id: "7A49376458495B60"
+				type: "item"
+				item: "fluxnetworks:flux_configurator"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 1.25d
+			subtitle: "Used for Adding Energy to the network"
+			description: ["You can add energy from all sides simultaneously."]
+			dependencies: ["256631A4863B5967"]
+			min_width: 240
+			id: "4ECC7C1447375BC6"
+			tasks: [{
+				id: "091665EC9CE00211"
+				type: "item"
+				item: "fluxnetworks:flux_plug"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 1.75d
+			subtitle: "Used to Remove Energy from the network"
+			description: ["You can remove energy from all sides simultaneously."]
+			dependencies: ["256631A4863B5967"]
+			min_width: 240
+			id: "3AC7B8BCFAEA298F"
+			tasks: [{
+				id: "0C452ACC04DC8B2F"
+				type: "item"
+				item: "fluxnetworks:flux_point"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.25d
+			shape: "pentagon"
+			subtitle: "Required to activate &lCross-dimensional inventory charging&r"
+			dependencies: [
+				"1F71F911773ED178"
+				"0D3B58EA40DC53A8"
+			]
+			min_width: 240
+			id: "6FF7B4E1C7187615"
+			tasks: [{
+				id: "77C8636502F22F8F"
+				type: "item"
+				item: "fluxnetworks:flux_controller"
+			}]
+		}
+	]
 }
