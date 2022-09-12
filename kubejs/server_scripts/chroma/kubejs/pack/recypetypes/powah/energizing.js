@@ -645,6 +645,22 @@ onEvent('recipes', (event) => {
               count: 1
           },
           id: 'allthemodium:main/vibranium_boots'
+      },
+      {
+          ingredients: [
+              { item: 'projecte:low_covalence_dust' },
+              { item: 'projecte:medium_covalence_dust' },
+              { item: 'projecte:high_covalence_dust' },
+              { item: 'draconicevolution:draconium_core' },
+              { item: 'projecte:dark_matter' },
+              { item: 'draconicevolution:draconium_core' }
+          ],
+          energy: 1000000,
+          result: {
+              item: 'kubejs:arcana',
+              count: 1
+          },
+          id: `${id_prefix}arcana`
       }
     ];
 
