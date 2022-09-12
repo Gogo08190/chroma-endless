@@ -11,6 +11,7 @@
 			Damage: 0
 		}
 	}
+	subtitle: ["Immersive + Occultism"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [
@@ -75,8 +76,8 @@
 			corner: false
 		}
 		{
-			x: -9.45d
-			y: 28.3d
+			x: -40.2d
+			y: 49.05d
 			width: 7.49d
 			height: 3.76d
 			rotation: 0.0d
@@ -87,8 +88,8 @@
 			corner: false
 		}
 		{
-			x: 12.75d
-			y: 37.6d
+			x: -40.25d
+			y: 45.35d
 			width: 7.49d
 			height: 3.76d
 			rotation: 0.0d
@@ -806,21 +807,36 @@
 		{
 			title: "Squeezer"
 			icon: "immersiveengineering:squeezer"
-			x: 1.3520408163264932d
-			y: 43.25765306122449d
+			x: 2.352040816326493d
+			y: 45.25765306122449d
 			shape: "square"
-			dependencies: ["19862EE31DFDDAB0"]
+			dependencies: [
+				"19862EE31DFDDAB0"
+				"668022531028F1A0"
+				"57ABFF547D8B9F68"
+				"7EB7ED5A17781080"
+				"30219DFDEA98BD63"
+				"5AE691896EE40EE2"
+				"5B661699D01D3161"
+			]
 			size: 2.75d
 			id: "625FD0330E1BDA54"
-			tasks: [{
-				id: "1FAF532D6CAF5919"
-				type: "observation"
-				title: "Industrial Squezzer"
-				icon: "immersiveengineering:squeezer"
-				timer: 0L
-				observe_type: 0
-				to_observe: "immersiveengineering:squeezer"
-			}]
+			tasks: [
+				{
+					id: "7B952F5D55381CDA"
+					type: "checkmark"
+					title: "&aCheck to start the quest&r"
+				}
+				{
+					id: "78D393254D3E1683"
+					type: "observation"
+					title: "Observe &8Squeezer&r"
+					icon: "immersiveengineering:squeezer"
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:squeezer"
+				}
+			]
 		}
 		{
 			title: "Refinery"
@@ -843,8 +859,8 @@
 		{
 			title: "Mixer"
 			icon: "immersiveengineering:mixer"
-			x: -2.5d
-			y: 43.25d
+			x: -3.75d
+			y: 45.25d
 			shape: "square"
 			dependencies: [
 				"19862EE31DFDDAB0"
@@ -858,15 +874,22 @@
 			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "70CA1655FB8127B2"
-			tasks: [{
-				id: "7F03D07128E2459E"
-				type: "observation"
-				title: "Mixer"
-				icon: "immersiveengineering:mixer"
-				timer: 0L
-				observe_type: 0
-				to_observe: "immersiveengineering:mixer"
-			}]
+			tasks: [
+				{
+					id: "623FFFD2EB66EE7A"
+					type: "checkmark"
+					title: "&aCheck to start the quest&r"
+				}
+				{
+					id: "69352429E892FC13"
+					type: "observation"
+					title: "Observe &8Mixer&r"
+					icon: "immersiveengineering:mixer"
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:mixer"
+				}
+			]
 		}
 		{
 			title: "Bottling Machine"
@@ -920,8 +943,8 @@
 		{
 			title: "&8Arc Furnace&r"
 			icon: "immersiveengineering:arc_furnace"
-			x: -0.75d
-			y: 58.75d
+			x: -2.0d
+			y: 62.75d
 			shape: "square"
 			dependencies: [
 				"759C19000789CCC6"
@@ -1676,54 +1699,6 @@
 				type: "item"
 				item: "immersiveengineering:circuit_table"
 			}]
-		}
-		{
-			title: "Craft Backpack"
-			icon: {
-				id: "sophisticatedbackpacks:backpack"
-				Count: 1b
-				tag: {
-					spiritName: "Merclod"
-				}
-			}
-			x: 36.25d
-			y: -17.25d
-			hide_dependency_lines: true
-			dependencies: [
-				"4DA463AF4ABD0CA4"
-				"4E8AB0EA5262EB30"
-				"4F10A1E05CEBFE1A"
-				"11EA6BD16C6054B4"
-				"1503BC3C224011DC"
-				"35E72B10F36B7261"
-				"281F853004D0032C"
-				"414FB84D8E12D770"
-			]
-			id: "74563AAF98B15559"
-			tasks: [
-				{
-					id: "70A44E893A1B3935"
-					type: "item"
-					item: "immersiveengineering:hemp_fabric"
-					count: 3L
-				}
-				{
-					id: "344849B48E70F01D"
-					type: "item"
-					item: "quark:bonded_leather"
-					count: 4L
-				}
-				{
-					id: "793528C66552F2A4"
-					type: "item"
-					item: "immersiveengineering:crate"
-				}
-				{
-					id: "725ACEF0BBB72618"
-					type: "item"
-					item: "kubejs:sac"
-				}
-			]
 		}
 		{
 			title: "Otherworldian Capacitor"
@@ -2879,10 +2854,10 @@
 			]
 		}
 		{
-			x: -2.5d
-			y: 49.0d
+			x: -3.75d
+			y: 53.0d
 			shape: "square"
-			dependencies: ["78C722E1351B2015"]
+			dependencies: ["585CB8C19493CDF1"]
 			size: 2.75d
 			id: "01BBDEDBA8C75318"
 			tasks: [{
@@ -4840,484 +4815,6 @@
 			]
 		}
 		{
-			x: 38.25d
-			y: -13.25d
-			shape: "octagon"
-			dependencies: ["0AEEFBEE80CD7377"]
-			id: "3E7BE20FD84CA144"
-			tasks: [{
-				id: "2C57BB7E6A0704DE"
-				type: "item"
-				item: "sophisticatedbackpacks:iron_backpack"
-			}]
-		}
-		{
-			x: 37.25d
-			y: -11.25d
-			shape: "octagon"
-			dependencies: ["3E7BE20FD84CA144"]
-			id: "03D9B0C5ACE47DE0"
-			tasks: [{
-				id: "285E4F54F0B03DAA"
-				type: "item"
-				item: "sophisticatedbackpacks:gold_backpack"
-			}]
-		}
-		{
-			x: 35.25d
-			y: -11.25d
-			shape: "octagon"
-			dependencies: ["03D9B0C5ACE47DE0"]
-			id: "2A7166322D887201"
-			tasks: [{
-				id: "042FCFE203186DD8"
-				type: "item"
-				item: "sophisticatedbackpacks:diamond_backpack"
-			}]
-		}
-		{
-			x: 34.25d
-			y: -13.25d
-			shape: "octagon"
-			dependencies: ["2A7166322D887201"]
-			id: "5275B1528B1AAA07"
-			tasks: [{
-				id: "66B139559BB25624"
-				type: "item"
-				item: "sophisticatedbackpacks:netherite_backpack"
-			}]
-		}
-		{
-			x: 32.5d
-			y: -14.75d
-			hide_dependency_lines: true
-			dependencies: ["4DDE60CE13BDA795"]
-			id: "77BF7BEB7C7B5229"
-			tasks: [{
-				id: "0121DED71BD78077"
-				type: "item"
-				item: "sophisticatedbackpacks:pickup_upgrade"
-			}]
-		}
-		{
-			x: 31.5d
-			y: -14.75d
-			dependencies: ["77BF7BEB7C7B5229"]
-			id: "1F62DA38EA9904FE"
-			tasks: [{
-				id: "3BAA9DA7C59B4A41"
-				type: "item"
-				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
-			}]
-		}
-		{
-			x: 41.0d
-			y: -14.75d
-			dependencies: ["2CC66059833AF128"]
-			id: "71A5D604E50E941E"
-			tasks: [{
-				id: "5325B8A042DD9807"
-				type: "item"
-				item: "sophisticatedbackpacks:advanced_filter_upgrade"
-			}]
-		}
-		{
-			x: 31.5d
-			y: -13.75d
-			dependencies: ["50D4F08C9A173BD5"]
-			id: "6B97AA5D5C9BE323"
-			tasks: [{
-				id: "111B03DC19F674CB"
-				type: "item"
-				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
-			}]
-		}
-		{
-			x: 35.75d
-			y: -7.5d
-			dependencies: ["2FF19C93998D7B8A"]
-			id: "1D570B4D982237F5"
-			tasks: [{
-				id: "172B7FD8BB4DC902"
-				type: "item"
-				item: "sophisticatedbackpacks:xp_pump_upgrade"
-			}]
-		}
-		{
-			x: 35.75d
-			y: -8.5d
-			dependencies: ["47698AD606A9A21E"]
-			id: "2FF19C93998D7B8A"
-			tasks: [{
-				id: "4DF4BB45272A0BA7"
-				type: "item"
-				item: "sophisticatedbackpacks:advanced_pump_upgrade"
-			}]
-		}
-		{
-			x: 37.75d
-			y: -9.5d
-			hide_dependency_lines: true
-			dependencies: ["4DDE60CE13BDA795"]
-			id: "3B786CEAECB69205"
-			tasks: [{
-				id: "3C9918FCAF6A5A8A"
-				type: "item"
-				item: "sophisticatedbackpacks:battery_upgrade"
-			}]
-		}
-		{
-			x: 35.75d
-			y: -9.5d
-			hide_dependency_lines: true
-			dependencies: ["4DDE60CE13BDA795"]
-			id: "47698AD606A9A21E"
-			tasks: [{
-				id: "3942A25BB851C14B"
-				type: "item"
-				item: "sophisticatedbackpacks:pump_upgrade"
-			}]
-		}
-		{
-			x: 34.75d
-			y: -9.5d
-			hide_dependency_lines: true
-			dependencies: ["4DDE60CE13BDA795"]
-			id: "60D02E4EBA5B16D3"
-			tasks: [{
-				id: "5FC9F61D6430100E"
-				type: "item"
-				item: "sophisticatedbackpacks:tank_upgrade"
-			}]
-		}
-		{
-			x: 32.5d
-			y: -10.25d
-			dependencies: ["762CCB05AA3AFE42"]
-			id: "0FB58C6787C5561D"
-			tasks: [{
-				id: "1337F7CBD7FB69BF"
-				type: "item"
-				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
-			}]
-		}
-		{
-			x: 33.25d
-			y: -11.0d
-			hide_dependency_lines: true
-			dependencies: ["4DDE60CE13BDA795"]
-			id: "762CCB05AA3AFE42"
-			tasks: [{
-				id: "2E1C36C59FA39DCB"
-				type: "item"
-				item: "sophisticatedbackpacks:tool_swapper_upgrade"
-			}]
-		}
-		{
-			x: 39.25d
-			y: -15.5d
-			hide_dependency_lines: true
-			dependencies: ["4DDE60CE13BDA795"]
-			id: "3D5E399364D63AD0"
-			tasks: [{
-				id: "12E2A85A671A8B5E"
-				type: "item"
-				item: "sophisticatedbackpacks:jukebox_upgrade"
-			}]
-		}
-		{
-			x: 36.25d
-			y: -13.25d
-			dependencies: ["0AEEFBEE80CD7377"]
-			id: "4DDE60CE13BDA795"
-			tasks: [{
-				id: "08407E12BE87497B"
-				type: "item"
-				item: "sophisticatedbackpacks:upgrade_base"
-			}]
-		}
-		{
-			x: 40.0d
-			y: -11.75d
-			hide_dependency_lines: true
-			dependencies: [
-				"4DDE60CE13BDA795"
-				"5E531159FD478B4A"
-			]
-			dependency_requirement: "one_completed"
-			id: "6515A975C833F307"
-			tasks: [{
-				id: "538E7C214AE8B45C"
-				type: "item"
-				item: {
-					id: "sophisticatedbackpacks:smoking_upgrade"
-					Count: 1b
-					ForgeCaps: {
-						"polymorph:stack_recipe_data": { }
-					}
-				}
-			}]
-		}
-		{
-			x: 41.0d
-			y: -11.75d
-			dependencies: [
-				"6515A975C833F307"
-				"67FFD62BFB4EEF3B"
-			]
-			dependency_requirement: "one_completed"
-			id: "61EE6B8D9DD624CC"
-			tasks: [{
-				id: "34EDD0AB004DC967"
-				type: "item"
-				item: {
-					id: "sophisticatedbackpacks:auto_smoking_upgrade"
-					Count: 1b
-					ForgeCaps: {
-						"polymorph:stack_recipe_data": { }
-					}
-				}
-			}]
-		}
-		{
-			x: 40.0d
-			y: -13.75d
-			hide_dependency_lines: true
-			dependencies: [
-				"4DDE60CE13BDA795"
-				"5E531159FD478B4A"
-			]
-			dependency_requirement: "one_completed"
-			id: "7EA0C32C7CECD338"
-			tasks: [{
-				id: "492ABCCE5B37010B"
-				type: "item"
-				item: {
-					id: "sophisticatedbackpacks:blasting_upgrade"
-					Count: 1b
-					ForgeCaps: {
-						"polymorph:stack_recipe_data": { }
-					}
-				}
-			}]
-		}
-		{
-			x: 34.0d
-			y: -10.25d
-			hide_dependency_lines: true
-			dependencies: ["4DDE60CE13BDA795"]
-			id: "30132A9E617EB032"
-			tasks: [{
-				id: "24E79CB7F7496371"
-				type: "item"
-				item: "sophisticatedbackpacks:restock_upgrade"
-			}]
-		}
-		{
-			x: 33.25d
-			y: -9.5d
-			dependencies: ["30132A9E617EB032"]
-			id: "11FDB31F0C75438A"
-			tasks: [{
-				id: "4B6556526989B1CE"
-				type: "item"
-				item: "sophisticatedbackpacks:advanced_restock_upgrade"
-			}]
-		}
-		{
-			x: 38.5d
-			y: -16.25d
-			hide_dependency_lines: true
-			dependencies: ["4DDE60CE13BDA795"]
-			id: "1FA17117928A3036"
-			tasks: [{
-				id: "2C5DD0F1BD4895F6"
-				type: "item"
-				item: {
-					id: "sophisticatedbackpacks:crafting_upgrade"
-					Count: 1b
-					ForgeCaps: {
-						"polymorph:stack_recipe_data": { }
-					}
-				}
-			}]
-		}
-		{
-			x: 33.25d
-			y: -15.5d
-			hide_dependency_lines: true
-			dependencies: ["4DDE60CE13BDA795"]
-			id: "7185F14ECC706925"
-			tasks: [{
-				id: "44B6D1222EB0E206"
-				type: "item"
-				item: "sophisticatedbackpacks:stonecutter_upgrade"
-			}]
-		}
-		{
-			x: 40.0d
-			y: -12.75d
-			hide_dependency_lines: true
-			dependencies: ["4DDE60CE13BDA795"]
-			id: "5E531159FD478B4A"
-			tasks: [{
-				id: "0FF949DC8403AD1E"
-				type: "item"
-				item: {
-					id: "sophisticatedbackpacks:smelting_upgrade"
-					Count: 1b
-					ForgeCaps: {
-						"polymorph:stack_recipe_data": { }
-					}
-				}
-			}]
-		}
-		{
-			x: 41.0d
-			y: -12.75d
-			dependencies: ["5E531159FD478B4A"]
-			id: "67FFD62BFB4EEF3B"
-			tasks: [{
-				id: "75C7A1AC3795FF87"
-				type: "item"
-				item: {
-					id: "sophisticatedbackpacks:auto_smelting_upgrade"
-					Count: 1b
-					ForgeCaps: {
-						"polymorph:stack_recipe_data": { }
-					}
-				}
-			}]
-		}
-		{
-			x: 32.5d
-			y: -11.75d
-			hide_dependency_lines: true
-			dependencies: ["4DDE60CE13BDA795"]
-			id: "2FFCD09CBE6F9163"
-			tasks: [{
-				id: "44DE19E2365CC99B"
-				type: "item"
-				item: "sophisticatedbackpacks:compacting_upgrade"
-			}]
-		}
-		{
-			x: 31.5d
-			y: -11.75d
-			dependencies: ["2FFCD09CBE6F9163"]
-			id: "785827104D47D761"
-			tasks: [{
-				id: "52C00A33C6F76C4D"
-				type: "item"
-				item: "sophisticatedbackpacks:advanced_compacting_upgrade"
-			}]
-		}
-		{
-			x: 39.25d
-			y: -11.0d
-			hide_dependency_lines: true
-			dependencies: ["4DDE60CE13BDA795"]
-			id: "020C08865451A39F"
-			tasks: [{
-				id: "656726FF3C7F571A"
-				type: "item"
-				item: "sophisticatedbackpacks:void_upgrade"
-			}]
-		}
-		{
-			x: 40.0d
-			y: -10.25d
-			dependencies: ["020C08865451A39F"]
-			id: "345D4FB87B5D323D"
-			tasks: [{
-				id: "5F858401290FDDCE"
-				type: "item"
-				item: "sophisticatedbackpacks:advanced_void_upgrade"
-			}]
-		}
-		{
-			x: 38.5d
-			y: -10.25d
-			hide_dependency_lines: true
-			dependencies: ["4DDE60CE13BDA795"]
-			id: "363080D6237592BA"
-			tasks: [{
-				id: "36B8F13306B33D3B"
-				type: "item"
-				item: "sophisticatedbackpacks:deposit_upgrade"
-			}]
-		}
-		{
-			x: 39.25d
-			y: -9.5d
-			dependencies: ["363080D6237592BA"]
-			id: "50195DA20A4EA86A"
-			tasks: [{
-				id: "40E6BB9B038A8728"
-				type: "item"
-				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
-			}]
-		}
-		{
-			x: 34.75d
-			y: -17.0d
-			hide_dependency_lines: true
-			dependencies: ["4DDE60CE13BDA795"]
-			id: "2B88688E253AC3B6"
-			tasks: [{
-				id: "3AA07016B865EDF8"
-				type: "item"
-				item: "sophisticatedbackpacks:refill_upgrade"
-			}]
-		}
-		{
-			x: 37.75d
-			y: -17.0d
-			hide_dependency_lines: true
-			dependencies: ["4DDE60CE13BDA795"]
-			id: "547352F2F51CA91E"
-			tasks: [{
-				id: "6CADB502C520638E"
-				type: "item"
-				item: "sophisticatedbackpacks:inception_upgrade"
-			}]
-		}
-		{
-			x: 31.5d
-			y: -12.75d
-			dependencies: ["1A5578C3634286B1"]
-			id: "563688BAB1C39A0E"
-			tasks: [{
-				id: "4BC70F212E0213EE"
-				type: "item"
-				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
-			}]
-		}
-		{
-			x: 40.0d
-			y: -14.75d
-			hide_dependency_lines: true
-			dependencies: ["4DDE60CE13BDA795"]
-			id: "2CC66059833AF128"
-			tasks: [{
-				id: "7BAF7B43881014D5"
-				type: "item"
-				item: "sophisticatedbackpacks:filter_upgrade"
-			}]
-		}
-		{
-			x: 32.5d
-			y: -12.75d
-			hide_dependency_lines: true
-			dependencies: ["4DDE60CE13BDA795"]
-			id: "1A5578C3634286B1"
-			tasks: [{
-				id: "2324A4582A5F7605"
-				type: "item"
-				item: "sophisticatedbackpacks:feeding_upgrade"
-			}]
-		}
-		{
 			title: "Greedy Familiar"
 			icon: {
 				id: "ftbquests:custom_icon"
@@ -5378,50 +4875,6 @@
 					}
 				}
 			]
-		}
-		{
-			x: 34.0d
-			y: -16.25d
-			hide_dependency_lines: true
-			dependencies: ["4DDE60CE13BDA795"]
-			id: "3C6268F8DCBA976E"
-			tasks: [{
-				id: "7B3DAAF1829B7583"
-				type: "item"
-				item: "sophisticatedbackpacks:everlasting_upgrade"
-			}]
-		}
-		{
-			x: 32.5d
-			y: -13.75d
-			dependencies: ["77BF7BEB7C7B5229"]
-			id: "50D4F08C9A173BD5"
-			tasks: [{
-				id: "17ABB97818C75F7A"
-				type: "item"
-				item: "sophisticatedbackpacks:magnet_upgrade"
-			}]
-		}
-		{
-			x: 41.0d
-			y: -13.75d
-			dependencies: [
-				"7EA0C32C7CECD338"
-				"67FFD62BFB4EEF3B"
-			]
-			dependency_requirement: "one_completed"
-			id: "489E6C38004005CC"
-			tasks: [{
-				id: "63E300EA944CD974"
-				type: "item"
-				item: {
-					id: "sophisticatedbackpacks:auto_blasting_upgrade"
-					Count: 1b
-					ForgeCaps: {
-						"polymorph:stack_recipe_data": { }
-					}
-				}
-			}]
 		}
 		{
 			title: "To Ch. 3 (rename)"
@@ -6138,8 +5591,8 @@
 			}]
 		}
 		{
-			x: -12.0d
-			y: 27.75d
+			x: -42.75d
+			y: 48.5d
 			shape: "square"
 			hide_dependency_lines: true
 			dependencies: [
@@ -6154,8 +5607,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: 27.75d
+			x: -37.75d
+			y: 48.5d
 			shape: "square"
 			dependencies: ["4D4C83A871B694B0"]
 			id: "3947972E28270050"
@@ -6166,8 +5619,8 @@
 			}]
 		}
 		{
-			x: -11.0d
-			y: 27.75d
+			x: -41.75d
+			y: 48.5d
 			shape: "square"
 			dependencies: ["4D4C83A871B694B0"]
 			id: "41CA34D1037398CD"
@@ -6178,8 +5631,8 @@
 			}]
 		}
 		{
-			x: -10.0d
-			y: 27.75d
+			x: -40.75d
+			y: 48.5d
 			shape: "square"
 			dependencies: ["4D4C83A871B694B0"]
 			id: "52AA5D2B461A66D4"
@@ -6190,8 +5643,8 @@
 			}]
 		}
 		{
-			x: -9.0d
-			y: 27.75d
+			x: -39.75d
+			y: 48.5d
 			shape: "square"
 			dependencies: ["4D4C83A871B694B0"]
 			id: "038C50362C58F479"
@@ -6202,8 +5655,8 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: 27.75d
+			x: -38.75d
+			y: 48.5d
 			shape: "square"
 			dependencies: [
 				"4D4C83A871B694B0"
@@ -6218,8 +5671,8 @@
 			}]
 		}
 		{
-			x: -12.0d
-			y: 29.25d
+			x: -42.75d
+			y: 50.0d
 			shape: "square"
 			dependencies: [
 				"4D4C83A871B694B0"
@@ -6233,8 +5686,8 @@
 			}]
 		}
 		{
-			x: -11.0d
-			y: 29.25d
+			x: -41.75d
+			y: 50.0d
 			shape: "square"
 			dependencies: [
 				"41CA34D1037398CD"
@@ -6248,8 +5701,8 @@
 			}]
 		}
 		{
-			x: -10.0d
-			y: 29.25d
+			x: -40.75d
+			y: 50.0d
 			shape: "square"
 			dependencies: [
 				"52AA5D2B461A66D4"
@@ -6263,8 +5716,8 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: 29.25d
+			x: -38.75d
+			y: 50.0d
 			shape: "square"
 			dependencies: [
 				"34A74357CD5E73A7"
@@ -6278,8 +5731,8 @@
 			}]
 		}
 		{
-			x: -9.0d
-			y: 29.25d
+			x: -39.75d
+			y: 50.0d
 			shape: "square"
 			dependencies: [
 				"038C50362C58F479"
@@ -6295,6 +5748,7 @@
 		{
 			x: -19.25d
 			y: 29.5d
+			hide_dependency_lines: true
 			dependencies: ["1ADD7F8A69F0DDEC"]
 			id: "7A8D50D5209CA36E"
 			tasks: [{
@@ -6454,8 +5908,9 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 34.25d
+			x: -43.0d
+			y: 26.0d
+			hide_dependency_lines: true
 			dependencies: [
 				"3ED30F5B4FCCA4DF"
 				"77602CE4D29A2480"
@@ -6480,8 +5935,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 34.25d
+			x: -41.0d
+			y: 26.0d
 			dependencies: ["5A0BB86252A425AB"]
 			id: "702B87BA7E07E4EC"
 			tasks: [{
@@ -6522,8 +5977,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: 34.25d
+			x: -39.0d
+			y: 26.0d
 			dependencies: ["5A0BB86252A425AB"]
 			id: "53167E12CA8BEA42"
 			tasks: [{
@@ -6533,8 +5988,8 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: 34.25d
+			x: -37.0d
+			y: 26.0d
 			dependencies: ["5A0BB86252A425AB"]
 			id: "1925D0811170B153"
 			tasks: [{
@@ -6566,8 +6021,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 36.25d
+			x: -43.0d
+			y: 28.0d
 			dependencies: ["5A0BB86252A425AB"]
 			id: "2FC7A4FF06AE7AE8"
 			tasks: [{
@@ -6577,8 +6032,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 48.25d
+			x: -43.0d
+			y: 40.0d
 			hide_dependency_lines: true
 			dependencies: ["5A0BB86252A425AB"]
 			id: "0D8702B6ED2F930C"
@@ -6589,8 +6044,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 38.25d
+			x: -43.0d
+			y: 30.0d
 			subtitle: "&9Common Projectiles&r"
 			dependencies: [
 				"2FC7A4FF06AE7AE8"
@@ -6611,8 +6066,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 38.25d
+			x: -41.0d
+			y: 30.0d
 			subtitle: "&9Specialized Projectiles&r"
 			description: ["Buy at the Gunsmith villager or find in an Engineer's House."]
 			min_required_dependencies: 2
@@ -6636,8 +6091,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 40.25d
+			x: -43.0d
+			y: 32.0d
 			dependencies: [
 				"7BBE523BC59953AD"
 				"2FC7A4FF06AE7AE8"
@@ -6651,8 +6106,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 42.25d
+			x: -43.0d
+			y: 34.0d
 			dependencies: [
 				"7BBE523BC59953AD"
 				"2FC7A4FF06AE7AE8"
@@ -6665,8 +6120,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 50.25d
+			x: -43.0d
+			y: 42.0d
 			dependencies: ["0D8702B6ED2F930C"]
 			id: "5DF632448346486F"
 			tasks: [{
@@ -6676,8 +6131,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 46.25d
+			x: -43.0d
+			y: 38.0d
 			dependencies: [
 				"7BBE523BC59953AD"
 				"0D8702B6ED2F930C"
@@ -6691,8 +6146,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 44.25d
+			x: -43.0d
+			y: 36.0d
 			dependencies: [
 				"7BBE523BC59953AD"
 				"2FC7A4FF06AE7AE8"
@@ -6706,8 +6161,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 40.25d
+			x: -41.0d
+			y: 32.0d
 			dependencies: [
 				"1A21AB641B148486"
 				"76F7FC71ACD08750"
@@ -6720,8 +6175,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 42.25d
+			x: -41.0d
+			y: 34.0d
 			dependencies: [
 				"1A21AB641B148486"
 				"76F7FC71ACD08750"
@@ -6734,8 +6189,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 46.25d
+			x: -41.0d
+			y: 38.0d
 			dependencies: [
 				"1A21AB641B148486"
 				"0D8702B6ED2F930C"
@@ -6755,8 +6210,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 48.25d
+			x: -41.0d
+			y: 40.0d
 			dependencies: [
 				"1A21AB641B148486"
 				"0D8702B6ED2F930C"
@@ -6770,8 +6225,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 44.25d
+			x: -41.0d
+			y: 36.0d
 			dependencies: [
 				"1A21AB641B148486"
 				"76F7FC71ACD08750"
@@ -6784,8 +6239,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 50.25d
+			x: -41.0d
+			y: 42.0d
 			dependencies: [
 				"1A21AB641B148486"
 				"0D8702B6ED2F930C"
@@ -7272,71 +6727,14 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 46.25d
+			x: -3.75d
+			y: 48.25d
 			dependencies: ["70CA1655FB8127B2"]
 			id: "78C722E1351B2015"
 			tasks: [{
 				id: "5D7E1C45A576F5E1"
 				type: "item"
 				item: "immersiveengineering:concrete_bucket"
-			}]
-		}
-		{
-			x: 36.25d
-			y: -15.25d
-			shape: "octagon"
-			dependencies: ["74563AAF98B15559"]
-			id: "0AEEFBEE80CD7377"
-			tasks: [{
-				id: "2CCA15422D20576A"
-				type: "item"
-				item: "sophisticatedbackpacks:backpack"
-			}]
-		}
-		{
-			x: 36.75d
-			y: -9.5d
-			hide_dependency_lines: true
-			dependencies: ["4DDE60CE13BDA795"]
-			id: "0DF3EBD59EA79D8C"
-			tasks: [{
-				id: "50E09D289E8BE8F7"
-				type: "item"
-				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
-			}]
-		}
-		{
-			x: 36.75d
-			y: -8.5d
-			dependencies: ["0DF3EBD59EA79D8C"]
-			id: "230D42DD6AC83ABB"
-			tasks: [{
-				id: "4052AEC3AB4F6109"
-				type: "item"
-				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
-			}]
-		}
-		{
-			x: 36.75d
-			y: -7.5d
-			dependencies: ["230D42DD6AC83ABB"]
-			id: "6C2651531A1357D9"
-			tasks: [{
-				id: "598CAD30BB026582"
-				type: "item"
-				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
-			}]
-		}
-		{
-			x: 36.75d
-			y: -6.5d
-			dependencies: ["6C2651531A1357D9"]
-			id: "2F0BBA26EB4A9CAB"
-			tasks: [{
-				id: "76EE014F735B2A0B"
-				type: "item"
-				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
 			}]
 		}
 		{
@@ -7547,8 +6945,8 @@
 			}]
 		}
 		{
-			x: 12.75d
-			y: 37.0d
+			x: -40.25d
+			y: 44.75d
 			hide_dependency_lines: true
 			dependencies: [
 				"39F79DC1FE7DABD0"
@@ -7573,8 +6971,8 @@
 			}]
 		}
 		{
-			x: 14.75d
-			y: 38.5d
+			x: -38.25d
+			y: 46.25d
 			dependencies: [
 				"46D7ADD2DCA7BBC9"
 				"36A4D0B08D24B73D"
@@ -7587,8 +6985,8 @@
 			}]
 		}
 		{
-			x: 13.75d
-			y: 38.5d
+			x: -39.25d
+			y: 46.25d
 			dependencies: [
 				"46D7ADD2DCA7BBC9"
 				"49914D309A5A8141"
@@ -7601,8 +6999,8 @@
 			}]
 		}
 		{
-			x: 12.75d
-			y: 38.5d
+			x: -40.25d
+			y: 46.25d
 			dependencies: ["46D7ADD2DCA7BBC9"]
 			id: "6023A97F3DA298F3"
 			tasks: [{
@@ -7612,8 +7010,8 @@
 			}]
 		}
 		{
-			x: 11.75d
-			y: 38.5d
+			x: -41.25d
+			y: 46.25d
 			dependencies: ["46D7ADD2DCA7BBC9"]
 			id: "6BEBA224EBD89B0A"
 			tasks: [{
@@ -7623,8 +7021,8 @@
 			}]
 		}
 		{
-			x: 10.75d
-			y: 38.5d
+			x: -42.25d
+			y: 46.25d
 			dependencies: ["46D7ADD2DCA7BBC9"]
 			id: "3068EFDEF6AF1720"
 			tasks: [{
@@ -7748,8 +7146,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 51.75d
+			x: -3.75d
+			y: 55.75d
 			dependencies: [
 				"01BBDEDBA8C75318"
 				"2F13516D0BF41E98"
@@ -7762,8 +7160,8 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: 34.25d
+			x: -35.0d
+			y: 26.0d
 			dependencies: ["5A0BB86252A425AB"]
 			id: "49506FA07DFE0C87"
 			tasks: [{
@@ -7773,8 +7171,8 @@
 			}]
 		}
 		{
-			x: -0.75d
-			y: 61.5d
+			x: -2.0d
+			y: 65.5d
 			dependencies: ["29A495E5307C19C8"]
 			id: "0050E91053EF43F7"
 			tasks: [{
@@ -7785,8 +7183,8 @@
 		}
 		{
 			icon: "immersiveengineering:sheetmetal_steel"
-			x: -2.75d
-			y: 57.75d
+			x: -4.0d
+			y: 61.75d
 			hide_dependency_lines: true
 			dependencies: [
 				"71D3CE6964067948"
@@ -7807,8 +7205,8 @@
 			]
 		}
 		{
-			x: -2.75d
-			y: 58.75d
+			x: -4.0d
+			y: 62.75d
 			hide_dependency_lines: true
 			dependencies: [
 				"3ED30F5B4FCCA4DF"
@@ -7822,8 +7220,8 @@
 			}]
 		}
 		{
-			x: -2.75d
-			y: 59.75d
+			x: -4.0d
+			y: 63.75d
 			hide_dependency_lines: true
 			dependencies: [
 				"7E6244CA5CC7CAC2"
@@ -7839,8 +7237,8 @@
 			}]
 		}
 		{
-			x: 1.25d
-			y: 57.75d
+			x: 0.0d
+			y: 61.75d
 			hide_dependency_lines: true
 			dependencies: [
 				"7E6244CA5CC7CAC2"
@@ -7856,8 +7254,8 @@
 			}]
 		}
 		{
-			x: 1.25d
-			y: 58.75d
+			x: 0.0d
+			y: 62.75d
 			hide_dependency_lines: true
 			dependencies: [
 				"0728FA0EBC3963BA"
@@ -7873,8 +7271,8 @@
 			}]
 		}
 		{
-			x: 1.25d
-			y: 59.75d
+			x: 0.0d
+			y: 63.75d
 			hide_dependency_lines: true
 			dependencies: [
 				"71D3CE6964067948"
@@ -7937,8 +7335,8 @@
 			}]
 		}
 		{
-			x: -0.75d
-			y: 55.75d
+			x: -2.0d
+			y: 59.75d
 			dependencies: ["7D35C6A38DA6B9AD"]
 			id: "3A42B828EBE09335"
 			tasks: [{
@@ -7954,8 +7352,8 @@
 			}]
 		}
 		{
-			x: 1.335034013605437d
-			y: 53.752210884353715d
+			x: 0.08503401360543705d
+			y: 57.752210884353715d
 			dependencies: [
 				"04C0C78A3BB1B89A"
 				"625FD0330E1BDA54"
@@ -7968,8 +7366,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 53.75d
+			x: -3.75d
+			y: 57.75d
 			dependencies: ["3F065474A68AC2BF"]
 			id: "04C0C78A3BB1B89A"
 			tasks: [{
@@ -7980,8 +7378,13 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 42.25d
+			x: -5.75d
+			y: 44.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"3ED30F5B4FCCA4DF"
+				"623FFFD2EB66EE7A"
+			]
 			id: "1D410DA8654A2ED3"
 			tasks: [{
 				id: "3BDE28B5047D8299"
@@ -7990,8 +7393,15 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 43.25d
+			x: -5.75d
+			y: 45.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"0728FA0EBC3963BA"
+				"69511328BB30E10D"
+				"0215BF43B38BE67A"
+				"623FFFD2EB66EE7A"
+			]
 			id: "708C9FCF58BA24CA"
 			tasks: [{
 				id: "2EC83C6DF797D673"
@@ -8000,8 +7410,13 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 44.25d
+			x: -5.75d
+			y: 46.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"0B70DAFB9E760CF8"
+				"623FFFD2EB66EE7A"
+			]
 			id: "30AE0BDABDC2F687"
 			tasks: [{
 				id: "68F555A0C15D6BED"
@@ -8010,8 +7425,14 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 42.25d
+			x: -1.75d
+			y: 44.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"7E6244CA5CC7CAC2"
+				"0215BF43B38BE67A"
+				"623FFFD2EB66EE7A"
+			]
 			id: "5933657FD44A7AAA"
 			tasks: [{
 				id: "0594F977739497F8"
@@ -8020,8 +7441,13 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 43.25d
+			x: -1.75d
+			y: 45.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"3ED30F5B4FCCA4DF"
+				"623FFFD2EB66EE7A"
+			]
 			id: "69298E7DC46A5E1A"
 			tasks: [{
 				id: "4624C14905597E3B"
@@ -8030,13 +7456,122 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 44.25d
+			x: -1.75d
+			y: 46.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"0B70DAFB9E760CF8"
+				"623FFFD2EB66EE7A"
+			]
 			id: "151FD42796EF23AA"
 			tasks: [{
 				id: "0DBAB660BE1D5FCA"
 				type: "item"
 				item: "immersiveengineering:fluid_pipe"
+			}]
+		}
+		{
+			x: 0.25d
+			y: 44.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"3ED30F5B4FCCA4DF"
+				"7B952F5D55381CDA"
+			]
+			id: "668022531028F1A0"
+			tasks: [{
+				id: "68D628EEB24C969E"
+				type: "item"
+				item: "immersiveengineering:steel_scaffolding_standard"
+			}]
+		}
+		{
+			x: 0.25d
+			y: 45.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"0728FA0EBC3963BA"
+				"69511328BB30E10D"
+				"0215BF43B38BE67A"
+				"7B952F5D55381CDA"
+			]
+			id: "57ABFF547D8B9F68"
+			tasks: [{
+				id: "0C4AED8E3CC6676B"
+				type: "item"
+				item: "immersiveengineering:light_engineering"
+			}]
+		}
+		{
+			x: 0.25d
+			y: 46.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"7E6244CA5CC7CAC2"
+				"0215BF43B38BE67A"
+				"7B952F5D55381CDA"
+			]
+			id: "7EB7ED5A17781080"
+			tasks: [{
+				id: "1CBBEC32CD169477"
+				type: "item"
+				item: "immersiveengineering:rs_engineering"
+			}]
+		}
+		{
+			x: 4.25d
+			y: 44.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"3ED30F5B4FCCA4DF"
+				"7B952F5D55381CDA"
+			]
+			id: "30219DFDEA98BD63"
+			tasks: [{
+				id: "622B1039513A66FF"
+				type: "item"
+				item: "immersiveengineering:steel_fence"
+			}]
+		}
+		{
+			x: 4.25d
+			y: 45.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"0B70DAFB9E760CF8"
+				"7B952F5D55381CDA"
+			]
+			id: "5AE691896EE40EE2"
+			tasks: [{
+				id: "011061F1CD68AFB3"
+				type: "item"
+				item: "immersiveengineering:fluid_pipe"
+			}]
+		}
+		{
+			x: 4.25d
+			y: 46.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"56D83790E33B0765"
+				"7B952F5D55381CDA"
+			]
+			id: "5B661699D01D3161"
+			tasks: [{
+				id: "47C3A44D4BDF055C"
+				type: "item"
+				item: "immersiveengineering:wooden_barrel"
+			}]
+		}
+		{
+			x: -3.75d
+			y: 50.25d
+			dependencies: ["78C722E1351B2015"]
+			id: "585CB8C19493CDF1"
+			tasks: [{
+				id: "7E63EB89AD0CB2E8"
+				type: "item"
+				item: "immersiveengineering:concrete"
 			}]
 		}
 	]

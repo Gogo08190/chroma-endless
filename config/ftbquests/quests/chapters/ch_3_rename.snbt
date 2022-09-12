@@ -5,6 +5,7 @@
 	filename: "ch_3_rename"
 	title: "Ch. 3 (rename)"
 	icon: "thermal:machine_frame"
+	subtitle: ["Thermal + Pipez"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -580,6 +581,8 @@
 			}]
 		}
 		{
+			title: "Pipez"
+			icon: "pipez:item_pipe"
 			x: 17.0d
 			y: 3.25d
 			id: "76A34CDA123F37AD"

@@ -317,5 +317,19 @@
 				item: "energymeter:meter"
 			}]
 		}
+		{
+			x: 5.0d
+			y: 0.0d
+			id: "716B778C431200EB"
+			tasks: [{
+				id: "27347C05B60753DB"
+				type: "item"
+				item: {
+					id: "shrink:shrinking_device"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
 	]
 }

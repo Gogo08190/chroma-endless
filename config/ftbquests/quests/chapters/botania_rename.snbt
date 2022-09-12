@@ -1,7 +1,7 @@
 {
 	id: "405C4920EF72468A"
-	group: ""
-	order_index: 10
+	group: "34085A64296DE6C7"
+	order_index: 3
 	filename: "botania_rename"
 	title: "&l&eMagic botany&r"
 	icon: {
@@ -11,7 +11,7 @@
 			"botania:elven_unlock": 1b
 		}
 	}
-	subtitle: ["koepss j'ai mis ce titre hésite pas à changer si t'aimes pas c'est ton chapitre ;)"]
+	subtitle: ["Botania"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
