@@ -10,6 +10,7 @@ onEvent('recipes', (event) => {
         'bigreactors:turbine/reinforced/casing',
         'bigreactors:blasting/graphite_from_coal',
         'bigreactors:blasting/graphite_from_charcoal',
+        'bigreactors:misc/book/erguide',
         'thermal:furnace_857430411',
         'thermal:furnace_1063501746',
         'thermal:furnace_778831531'
