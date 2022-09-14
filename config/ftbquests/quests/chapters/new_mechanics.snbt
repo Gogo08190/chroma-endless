@@ -159,7 +159,7 @@
 			x: -5.5d
 			y: 2.25d
 			shape: "pentagon"
-			subtitle: "Required to activate &lCross-dimensional inventory charging&r"
+			description: ["Required to activate &lCross-dimensional inventory charging&r"]
 			dependencies: [
 				"1F71F911773ED178"
 				"0D3B58EA40DC53A8"

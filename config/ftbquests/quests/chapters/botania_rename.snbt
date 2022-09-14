@@ -280,8 +280,8 @@
 			}]
 		}
 		{
-			x: 1.25d
-			y: -6.0d
+			x: 0.0d
+			y: -6.25d
 			dependencies: [
 				"30ED0007E9FE88BD"
 				"04CDB65B58341D53"
@@ -356,8 +356,9 @@
 			}]
 		}
 		{
-			x: 5.0d
+			x: 4.0d
 			y: -0.25d
+			dependencies: ["68E7A3D70265EBF0"]
 			id: "489318A96A0235D0"
 			tasks: [{
 				id: "4C6928355B827201"
@@ -366,8 +367,9 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 9.75d
 			y: -0.25d
+			dependencies: ["3E2A68E4B756CD2B"]
 			id: "1290090CFA8EB26B"
 			tasks: [{
 				id: "100732B0EB2224CC"
@@ -376,8 +378,9 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 8.25d
 			y: -0.25d
+			dependencies: ["489318A96A0235D0"]
 			id: "3E2A68E4B756CD2B"
 			tasks: [{
 				id: "4655A5DDA414C05D"
@@ -386,8 +389,9 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -0.25d
+			x: 0.0d
+			y: -8.5d
+			dependencies: ["0E6560337D7FFDAE"]
 			id: "62222FA0EEA728C2"
 			tasks: [{
 				id: "2AC4FB4CDC23BDDF"
@@ -416,8 +420,12 @@
 			}]
 		}
 		{
-			x: 6.75d
-			y: -3.25d
+			x: 8.25d
+			y: -7.5d
+			dependencies: [
+				"23E7BD29C398625C"
+				"5830C8569392DC78"
+			]
 			id: "0CB79C028DEEC368"
 			tasks: [{
 				id: "31FAA63432B2F2C0"
@@ -426,8 +434,12 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: -3.25d
+			x: 6.75d
+			y: -7.5d
+			dependencies: [
+				"0CB79C028DEEC368"
+				"5E2A78C08B7A29B1"
+			]
 			id: "1D6250951190F53A"
 			tasks: [{
 				id: "45F6BA69E28CCF71"
@@ -437,8 +449,10 @@
 		}
 		{
 			title: "Alfheim Portal"
-			x: 8.5d
+			x: 8.25d
 			y: -5.75d
+			description: ["{image:chroma:textures/quests/botania_portal_alfheim.png width:100 height:100 align:1}"]
+			dependencies: ["3E2A68E4B756CD2B"]
 			id: "335E059D1698372F"
 			tasks: [
 				{
@@ -462,8 +476,10 @@
 		}
 		{
 			title: "Element Runes"
-			x: 11.75d
-			y: -5.25d
+			x: 2.75d
+			y: -9.0d
+			hide_dependency_lines: true
+			dependencies: ["679DF08FABBE8A87"]
 			id: "1550578CA13D8BF5"
 			tasks: [
 				{
@@ -490,8 +506,10 @@
 		}
 		{
 			title: "Rune of the Seasons"
-			x: 12.75d
-			y: -5.25d
+			x: 3.75d
+			y: -9.0d
+			hide_dependency_lines: true
+			dependencies: ["679DF08FABBE8A87"]
 			id: "1AB26ED920215B51"
 			tasks: [
 				{
@@ -517,8 +535,10 @@
 			]
 		}
 		{
-			x: 13.75d
-			y: -5.25d
+			x: 5.75d
+			y: -9.0d
+			hide_dependency_lines: true
+			dependencies: ["679DF08FABBE8A87"]
 			id: "716178CB7E9006EE"
 			tasks: [{
 				id: "1932751CA8AA4A0E"
@@ -528,8 +548,10 @@
 		}
 		{
 			title: "Other Runes"
-			x: 14.75d
-			y: -5.25d
+			x: 4.75d
+			y: -9.0d
+			hide_dependency_lines: true
+			dependencies: ["679DF08FABBE8A87"]
 			id: "78D4030D978D9180"
 			tasks: [
 				{
@@ -568,6 +590,119 @@
 					item: "botania:rune_pride"
 				}
 			]
+		}
+		{
+			x: 4.0d
+			y: -6.75d
+			dependencies: [
+				"366B41D084311452"
+				"16749BE6267748CD"
+			]
+			id: "679DF08FABBE8A87"
+			tasks: [{
+				id: "20B5A6253AA158D1"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+		}
+		{
+			x: 4.25d
+			y: -11.75d
+			dependencies: [
+				"0AC291F444BB3BD7"
+				"1550578CA13D8BF5"
+				"716178CB7E9006EE"
+			]
+			id: "7D06301D09F5D628"
+			tasks: [{
+				id: "7CE267D58C1A5875"
+				type: "item"
+				item: "botania:terra_plate"
+			}]
+		}
+		{
+			x: 8.25d
+			y: -9.0d
+			dependencies: [
+				"335E059D1698372F"
+				"29FF10FC27CCFAA5"
+			]
+			id: "5CE2603E7E44C674"
+			tasks: [{
+				id: "4CE6CC49057FEAC6"
+				type: "item"
+				item: "botania:elf_glass"
+			}]
+		}
+		{
+			x: 6.75d
+			y: -9.0d
+			dependencies: ["5E2A78C08B7A29B1"]
+			id: "29FF10FC27CCFAA5"
+			tasks: [{
+				id: "1C1522AF08374A85"
+				type: "item"
+				item: "botania:mana_glass"
+			}]
+		}
+		{
+			x: 9.75d
+			y: -9.0d
+			dependencies: [
+				"23E7BD29C398625C"
+				"5CE2603E7E44C674"
+			]
+			id: "5830C8569392DC78"
+			tasks: [{
+				id: "6C4DBD8776A77D6B"
+				type: "item"
+				item: "botania:bifrost_perm"
+			}]
+		}
+		{
+			x: 9.75d
+			y: -7.5d
+			dependencies: ["0623F7FAB4511760"]
+			id: "23E7BD29C398625C"
+			tasks: [{
+				id: "1ADA2548083B6AE2"
+				type: "item"
+				item: "botania:rainbow_rod"
+			}]
+		}
+		{
+			x: 9.75d
+			y: -5.75d
+			dependencies: ["335E059D1698372F"]
+			id: "0623F7FAB4511760"
+			tasks: [
+				{
+					id: "226668A79FF5C83F"
+					type: "item"
+					item: "botania:elementium_ingot"
+				}
+				{
+					id: "03F9D608513BF37F"
+					type: "item"
+					item: "botania:pixie_dust"
+				}
+				{
+					id: "144F0B6AFCB0367B"
+					type: "item"
+					item: "botania:dragonstone"
+				}
+			]
+		}
+		{
+			x: 9.75d
+			y: -4.5d
+			dependencies: ["335E059D1698372F"]
+			id: "1E8577B3226812B3"
+			tasks: [{
+				id: "529CB2A062672E0C"
+				type: "item"
+				item: "botania:dreamwood"
+			}]
 		}
 	]
 }

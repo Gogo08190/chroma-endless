@@ -1847,9 +1847,26 @@
 			y: 8.5d
 			id: "2D280B19DAF910F3"
 			tasks: [{
-				id: "65C86618E2B6FDC0"
+				id: "229F9EECAB22D737"
 				type: "item"
-				item: "emendatusenigmatica:arcane_gem"
+				title: "Source Gem"
+				icon: "emendatusenigmatica:arcane_gem"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "emendatusenigmatica:arcane_gem"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:mana_gem"
+								Count: 1b
+							}
+						]
+					}
+				}
 			}]
 		}
 		{

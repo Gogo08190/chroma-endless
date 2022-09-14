@@ -59,8 +59,11 @@
 			}]
 		}
 		{
+			title: "&#806517Handled Crafting Table&r"
 			x: 3.0d
 			y: 0.0d
+			subtitle: "Store your crafting table in your pocket."
+			dependencies: ["1C7C41C2FA427B8F"]
 			id: "6F206C31ECDB6FCB"
 			tasks: [{
 				id: "1DB643470509253F"
@@ -69,6 +72,7 @@
 			}]
 		}
 		{
+			icon: "waystones:waystone"
 			x: 4.0d
 			y: 0.0d
 			id: "0C6C8EEA525B1E98"
@@ -329,6 +333,196 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+		}
+		{
+			title: "Sleeping Bag"
+			icon: "comforts:sleeping_bag_light_blue"
+			x: 0.0d
+			y: 6.25d
+			dependencies: ["1C7C41C2FA427B8F"]
+			id: "38D2E67E3EAF0C45"
+			tasks: [{
+				id: "0C6A1F0C9EC0F8BE"
+				type: "item"
+				title: "Sleeping Bag"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "comforts:sleeping_bag_white"
+								Count: 1b
+							}
+							{
+								id: "comforts:sleeping_bag_orange"
+								Count: 1b
+							}
+							{
+								id: "comforts:sleeping_bag_magenta"
+								Count: 1b
+							}
+							{
+								id: "comforts:sleeping_bag_light_blue"
+								Count: 1b
+							}
+							{
+								id: "comforts:sleeping_bag_yellow"
+								Count: 1b
+							}
+							{
+								id: "comforts:sleeping_bag_lime"
+								Count: 1b
+							}
+							{
+								id: "comforts:sleeping_bag_pink"
+								Count: 1b
+							}
+							{
+								id: "comforts:sleeping_bag_gray"
+								Count: 1b
+							}
+							{
+								id: "comforts:sleeping_bag_light_gray"
+								Count: 1b
+							}
+							{
+								id: "comforts:sleeping_bag_cyan"
+								Count: 1b
+							}
+							{
+								id: "comforts:sleeping_bag_purple"
+								Count: 1b
+							}
+							{
+								id: "comforts:sleeping_bag_blue"
+								Count: 1b
+							}
+							{
+								id: "comforts:sleeping_bag_brown"
+								Count: 1b
+							}
+							{
+								id: "comforts:sleeping_bag_green"
+								Count: 1b
+							}
+							{
+								id: "comforts:sleeping_bag_red"
+								Count: 1b
+							}
+							{
+								id: "comforts:sleeping_bag_black"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Hammock"
+			icon: "comforts:hammock_light_blue"
+			x: 1.0d
+			y: 6.25d
+			dependencies: ["1C7C41C2FA427B8F"]
+			id: "4CF7A627823E69EE"
+			tasks: [
+				{
+					id: "01AA8FA7AA463E6F"
+					type: "item"
+					title: "Hammock Cloth"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "comforts:hammock_white"
+									Count: 1b
+								}
+								{
+									id: "comforts:hammock_orange"
+									Count: 1b
+								}
+								{
+									id: "comforts:hammock_magenta"
+									Count: 1b
+								}
+								{
+									id: "comforts:hammock_light_blue"
+									Count: 1b
+								}
+								{
+									id: "comforts:hammock_yellow"
+									Count: 1b
+								}
+								{
+									id: "comforts:hammock_lime"
+									Count: 1b
+								}
+								{
+									id: "comforts:hammock_pink"
+									Count: 1b
+								}
+								{
+									id: "comforts:hammock_gray"
+									Count: 1b
+								}
+								{
+									id: "comforts:hammock_light_gray"
+									Count: 1b
+								}
+								{
+									id: "comforts:hammock_cyan"
+									Count: 1b
+								}
+								{
+									id: "comforts:hammock_purple"
+									Count: 1b
+								}
+								{
+									id: "comforts:hammock_blue"
+									Count: 1b
+								}
+								{
+									id: "comforts:hammock_brown"
+									Count: 1b
+								}
+								{
+									id: "comforts:hammock_green"
+									Count: 1b
+								}
+								{
+									id: "comforts:hammock_red"
+									Count: 1b
+								}
+								{
+									id: "comforts:hammock_black"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "44D2161D9E02A376"
+					type: "item"
+					item: "comforts:rope_and_nail"
+					count: 2L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			shape: "square"
+			dependencies: ["4CA0051417A86918"]
+			id: "219744BBC14D2451"
+			tasks: [{
+				id: "3409339E295468D9"
+				type: "item"
+				item: "tconstruct:crafting_station"
 			}]
 		}
 	]

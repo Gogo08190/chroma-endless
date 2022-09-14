@@ -8,5 +8,28 @@
 	subtitle: ["PneumaticCraft + Refined Storage + Comptact Crafting/Machines"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			title: "refined storage"
+			x: -0.5d
+			y: -3.0d
+			id: "30E3AE227481CB84"
+			tasks: [{
+				id: "24681D6206DF273A"
+				type: "item"
+				item: "refinedstorage:controller"
+			}]
+		}
+		{
+			title: "Compact crafting"
+			x: 9.25d
+			y: -3.0d
+			id: "109CE5FC227C2501"
+			tasks: [{
+				id: "0EB25D29C2F2BFAB"
+				type: "item"
+				item: "compactmachines:machine_tiny"
+			}]
+		}
+	]
 }

@@ -65,7 +65,7 @@
 		}
 		{
 			x: -11.75d
-			y: 46.25d
+			y: 47.0d
 			width: 10.75d
 			height: 8.23d
 			rotation: 0.0d
@@ -100,7 +100,7 @@
 			corner: false
 		}
 		{
-			x: 11.75d
+			x: 21.75d
 			y: 38.375d
 			width: 10.75d
 			height: 8.23d
@@ -112,7 +112,7 @@
 			corner: false
 		}
 		{
-			x: 11.25d
+			x: 21.25d
 			y: 47.375d
 			width: 7.6d
 			height: 9.75d
@@ -173,7 +173,7 @@
 			}]
 		}
 		{
-			x: 9.25d
+			x: 19.25d
 			y: 48.75d
 			dependencies: [
 				"1A9A897D04134052"
@@ -224,7 +224,7 @@
 		}
 		{
 			icon: "immersiveengineering:wirecoil_steel"
-			x: 11.25d
+			x: 21.25d
 			y: 49.75d
 			hide_dependency_lines: true
 			dependencies: [
@@ -246,7 +246,7 @@
 			]
 		}
 		{
-			x: 9.25d
+			x: 19.25d
 			y: 50.75d
 			dependencies: [
 				"1A9A897D04134052"
@@ -260,7 +260,7 @@
 			}]
 		}
 		{
-			x: 13.25d
+			x: 23.25d
 			y: 47.75d
 			dependencies: [
 				"1A9A897D04134052"
@@ -286,7 +286,7 @@
 		}
 		{
 			x: -15.75d
-			y: 51.25d
+			y: 52.0d
 			dependencies: [
 				"4F10A1E05CEBFE1A"
 				"489C740C46074BBD"
@@ -368,7 +368,7 @@
 			}]
 		}
 		{
-			x: 10.0d
+			x: 20.0d
 			y: 37.25d
 			shape: "square"
 			dependencies: [
@@ -384,7 +384,7 @@
 			}]
 		}
 		{
-			x: 11.25d
+			x: 21.25d
 			y: 53.25d
 			dependencies: [
 				"1A9A897D04134052"
@@ -468,14 +468,55 @@
 			}]
 		}
 		{
-			x: -12.5d
-			y: 26.5d
+			title: "Craft &6Garden Cloche&r"
+			icon: "create:deployer"
+			x: 13.25d
+			y: 18.0d
+			subtitle: "Sequenced crafting"
+			dependencies: [
+				"69511328BB30E10D"
+				"0075822DF2359FE4"
+				"6EF3881E47B55A47"
+				"22CE0BA0E6011439"
+			]
 			id: "62EE24B8F491D351"
-			tasks: [{
-				id: "17D51E5AD8C69C10"
-				type: "item"
-				item: "immersiveengineering:cloche"
-			}]
+			tasks: [
+				{
+					id: "5161C2DE4CC00616"
+					type: "item"
+					item: "immersiveengineering:coil_lv"
+				}
+				{
+					id: "3E9803B81A6D48D3"
+					type: "item"
+					item: "immersiveengineering:component_steel"
+					count: 3L
+				}
+				{
+					id: "40EEEBBCC3541CD8"
+					type: "item"
+					item: "immersiveengineering:treated_wood_horizontal"
+					count: 3L
+				}
+				{
+					id: "2028CE82BA6D3A53"
+					type: "item"
+					item: "immersiveengineering:insulating_glass"
+					count: 3L
+				}
+				{
+					id: "6057DD2E8E3163C6"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 3L
+				}
+				{
+					id: "238E63E939AF2F92"
+					type: "item"
+					item: "immersiveengineering:electron_tube"
+					count: 3L
+				}
+			]
 		}
 		{
 			x: -2.75d
@@ -519,8 +560,8 @@
 		}
 		{
 			title: "&#71797EImproved &#422117Blast Furnace&r"
-			x: -10.25d
-			y: 40.25d
+			x: -9.5d
+			y: 41.0d
 			shape: "square"
 			subtitle: "Steeled multiblock"
 			dependencies: ["26D4D4A9798EB323"]
@@ -679,7 +720,7 @@
 				"013EF1AC48991B24"
 				"39E9D26735D37A85"
 			]
-			dependency_requirement: "one_started"
+			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "073EACF91190BEA0"
 			tasks: [
@@ -759,14 +800,15 @@
 		{
 			title: "Fermenter"
 			icon: "immersiveengineering:fermenter"
-			x: -16.25d
-			y: 26.5d
+			x: 9.0d
+			y: 54.25d
 			shape: "square"
 			description: [
 				"Steel Scaffolding 6x"
 				"Light Engineering Block 2x"
 				"Cauldron 4x"
 			]
+			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "5DC309731882A5E1"
 			tasks: [{
@@ -782,8 +824,8 @@
 		{
 			title: "Squeezer"
 			icon: "immersiveengineering:squeezer"
-			x: 2.352040816326493d
-			y: 56.75765306122449d
+			x: 3.602040816326493d
+			y: 46.75765306122449d
 			shape: "square"
 			dependencies: [
 				"19862EE31DFDDAB0"
@@ -794,6 +836,7 @@
 				"5AE691896EE40EE2"
 				"5B661699D01D3161"
 			]
+			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "625FD0330E1BDA54"
 			tasks: [
@@ -816,9 +859,10 @@
 		{
 			title: "Refinery"
 			icon: "immersiveengineering:refinery"
-			x: -16.25d
-			y: 32.0d
+			x: 6.25d
+			y: 54.25d
 			shape: "square"
+			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "1C4916687AD96A77"
 			tasks: [{
@@ -835,7 +879,7 @@
 			title: "Mixer"
 			icon: "immersiveengineering:mixer"
 			x: -1.5d
-			y: 47.25d
+			y: 39.0d
 			shape: "square"
 			dependencies: [
 				"19862EE31DFDDAB0"
@@ -918,8 +962,8 @@
 		{
 			title: "&8Arc Furnace&r"
 			icon: "immersiveengineering:arc_furnace"
-			x: -1.5d
-			y: 64.75d
+			x: 0.0d
+			y: 57.25d
 			shape: "square"
 			dependencies: [
 				"759C19000789CCC6"
@@ -930,6 +974,7 @@
 				"122B86FB735B7C17"
 				"3A42B828EBE09335"
 			]
+			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "29A495E5307C19C8"
 			tasks: [
@@ -950,6 +995,7 @@
 			]
 		}
 		{
+			title: "&8Excavator&r"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -957,26 +1003,41 @@
 					Icon: "chroma:textures/quests/immersive_excavator.png"
 				}
 			}
-			x: -16.25d
-			y: 34.75d
+			x: 8.75d
+			y: 37.25d
 			shape: "square"
 			description: ["Finally, right click with an &6Engineer's Hammer&r on the Heavy Engineering Block (at the back), and the multiblock will form."]
+			dependencies: [
+				"33A8A07EEB0A763B"
+				"3A94AFA8FBFA149D"
+				"0E0D49467340BC83"
+				"1867DCE4B37F3729"
+				"37172826ADFE280E"
+				"4427D7A74F5D0D46"
+				"576D89CEAD0EEC0D"
+			]
+			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "219D232C263901B6"
 			tasks: [
 				{
-					id: "4F39023A4B0AAEC6"
+					id: "0CBFCE35AB5F1D54"
+					type: "checkmark"
+					title: "&aCheck to start the quest&r"
+				}
+				{
+					id: "05354E4CDF3CD676"
 					type: "observation"
-					title: "Excavator"
+					title: "Observe &8Excavator&r"
 					icon: "immersiveengineering:excavator"
 					timer: 0L
 					observe_type: 0
 					to_observe: "immersiveengineering:excavator"
 				}
 				{
-					id: "146AB7F0803A6928"
+					id: "3DCE3F3798D52EC6"
 					type: "observation"
-					title: "Excavator"
+					title: "Observe &8Bucket Wheel&r"
 					icon: "immersiveengineering:bucket_wheel"
 					timer: 0L
 					observe_type: 0
@@ -2098,7 +2159,11 @@
 			icon: "botania:terra_plate"
 			x: 56.75d
 			y: 17.75d
-			dependencies: ["4DA463AF4ABD0CA4"]
+			dependencies: [
+				"4DA463AF4ABD0CA4"
+				"1550578CA13D8BF5"
+				"716178CB7E9006EE"
+			]
 			id: "0AC291F444BB3BD7"
 			tasks: [
 				{
@@ -2829,26 +2894,46 @@
 			]
 		}
 		{
+			title: "&8Coker&r"
+			icon: "immersivepetroleum:cokerunit"
 			x: -2.5d
-			y: 55.0d
+			y: 46.75d
 			shape: "square"
-			dependencies: ["585CB8C19493CDF1"]
+			dependencies: [
+				"585CB8C19493CDF1"
+				"1FACDD9AFEE8ED7E"
+				"42FC6FDDADB7EEC8"
+				"006BDDE21BDFEE28"
+				"7406B0516DF812E2"
+				"0F972B4A0CCBFA4B"
+				"1A4821AF683B542E"
+				"25B5FF3330A1D926"
+				"4ADB57BC9FC63E4F"
+			]
+			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "01BBDEDBA8C75318"
-			tasks: [{
-				id: "1A0E8328A746D7A9"
-				type: "observation"
-				title: "Coker"
-				icon: "immersivepetroleum:cokerunit"
-				timer: 0L
-				observe_type: 0
-				to_observe: "immersivepetroleum:cokerunit"
-			}]
+			tasks: [
+				{
+					id: "42469322783C6D01"
+					type: "checkmark"
+					title: "&aCheck to start the quest&r"
+				}
+				{
+					id: "5C8E4DB35D18E32A"
+					type: "observation"
+					title: "Observe &8Coker&r"
+					icon: "immersivepetroleum:cokerunit"
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersivepetroleum:cokerunit"
+				}
+			]
 		}
 		{
 			title: "&8Diesel Generator&r"
 			icon: "immersiveengineering:diesel_generator"
-			x: 10.0d
+			x: 20.0d
 			y: 40.0d
 			shape: "square"
 			dependencies: [
@@ -2860,6 +2945,7 @@
 				"68799BDCFA85B432"
 				"022FBE09A8760542"
 			]
+			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "58B192367229EBFC"
 			tasks: [
@@ -2883,6 +2969,7 @@
 			x: -16.25d
 			y: 18.25d
 			shape: "square"
+			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "413B892C84FCA06C"
 			tasks: [{
@@ -2898,7 +2985,7 @@
 		{
 			title: "&8Lightning Rod&r"
 			icon: "immersiveengineering:lightning_rod"
-			x: 13.5d
+			x: 23.5d
 			y: 37.25d
 			shape: "square"
 			dependencies: [
@@ -2910,6 +2997,7 @@
 				"568BC0196F9A3D97"
 				"022FBE09A8760542"
 			]
+			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "660C6DD3AED86A77"
 			tasks: [
@@ -2933,6 +3021,7 @@
 			x: -16.25d
 			y: 15.5d
 			shape: "square"
+			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "5E27C3E81F00DB51"
 			tasks: [{
@@ -2947,7 +3036,7 @@
 		}
 		{
 			x: -9.5d
-			y: 44.75d
+			y: 45.5d
 			shape: "square"
 			description: [
 				""
@@ -2973,6 +3062,7 @@
 			x: -16.25d
 			y: 23.75d
 			shape: "square"
+			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "2860A92511D65B51"
 			tasks: [{
@@ -2987,7 +3077,7 @@
 		}
 		{
 			x: -9.5d
-			y: 48.25d
+			y: 49.0d
 			shape: "square"
 			description: [
 				""
@@ -3051,8 +3141,8 @@
 		{
 			title: "&#71797EReinforced &#422117Blast Furnace&r"
 			icon: "immersiveengineering:blastbrick_reinforced"
-			x: -7.5d
-			y: 40.25d
+			x: -9.5d
+			y: 38.25d
 			subtitle: "Blast Furnace Mk2"
 			dependencies: ["71D3CE6964067948"]
 			id: "26D4D4A9798EB323"
@@ -3072,8 +3162,8 @@
 			]
 		}
 		{
-			x: -13.0d
-			y: 40.25d
+			x: -12.25d
+			y: 41.0d
 			dependencies: [
 				"75CED07646EE8601"
 				"0C5279A8EE03DC68"
@@ -3291,7 +3381,7 @@
 			}]
 		}
 		{
-			x: 13.5d
+			x: 23.5d
 			y: 40.0d
 			shape: "square"
 			dependencies: [
@@ -3700,7 +3790,7 @@
 			}]
 		}
 		{
-			x: 11.25d
+			x: 21.25d
 			y: 47.75d
 			dependencies: [
 				"51C87D5A2E4123CD"
@@ -5334,7 +5424,7 @@
 		}
 		{
 			x: -17.5d
-			y: 44.5d
+			y: 45.25d
 			hide_dependency_lines: true
 			dependencies: [
 				"577923E345CA12E5"
@@ -5349,7 +5439,7 @@
 		}
 		{
 			x: -14.75d
-			y: 48.5d
+			y: 49.25d
 			shape: "square"
 			hide_dependency_lines: true
 			dependencies: [
@@ -5365,7 +5455,7 @@
 		}
 		{
 			x: -12.75d
-			y: 48.5d
+			y: 49.25d
 			shape: "square"
 			hide_dependency_lines: true
 			dependencies: [
@@ -5381,7 +5471,7 @@
 		}
 		{
 			x: -14.75d
-			y: 46.5d
+			y: 47.25d
 			shape: "square"
 			dependencies: [
 				"4F10A1E05CEBFE1A"
@@ -5396,7 +5486,7 @@
 		}
 		{
 			x: -12.75d
-			y: 46.5d
+			y: 47.25d
 			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["0728FA0EBC3963BA"]
@@ -5409,7 +5499,7 @@
 		}
 		{
 			x: -14.75d
-			y: 44.5d
+			y: 45.25d
 			shape: "square"
 			dependencies: ["195002C6E3BDDD9B"]
 			id: "651881C1D25730A3"
@@ -5421,7 +5511,7 @@
 		}
 		{
 			x: -12.75d
-			y: 44.5d
+			y: 45.25d
 			shape: "square"
 			hide_dependency_lines: true
 			dependencies: [
@@ -5506,8 +5596,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 40.25d
+			x: -9.5d
+			y: 34.25d
 			min_required_dependencies: 2
 			dependencies: [
 				"022FBE09A8760542"
@@ -5522,8 +5612,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 40.25d
+			x: -9.5d
+			y: 36.25d
 			dependencies: ["71D3CE6964067948"]
 			id: "7E6244CA5CC7CAC2"
 			tasks: [{
@@ -5561,8 +5651,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 34.25d
+			x: -3.5d
+			y: 36.25d
 			dependencies: ["6FB6F406F526DE97"]
 			id: "0215BF43B38BE67A"
 			tasks: [{
@@ -5572,8 +5662,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 42.25d
+			x: -11.5d
+			y: 34.25d
 			min_required_dependencies: 2
 			dependencies: [
 				"022FBE09A8760542"
@@ -5588,8 +5678,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 42.25d
+			x: -11.5d
+			y: 36.25d
 			dependencies: ["0B70DAFB9E760CF8"]
 			id: "0728FA0EBC3963BA"
 			tasks: [{
@@ -5599,8 +5689,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 38.25d
+			x: 4.0d
+			y: 34.25d
 			min_required_dependencies: 2
 			dependencies: [
 				"022FBE09A8760542"
@@ -6276,8 +6366,12 @@
 			}]
 		}
 		{
-			x: -10.5d
-			y: 27.5d
+			x: 4.0d
+			y: 38.25d
+			dependencies: [
+				"412EF056E461CAA8"
+				"4145FECAF97B802E"
+			]
 			id: "5DECDE7723068DB4"
 			tasks: [{
 				id: "135304C070A0D67E"
@@ -6311,8 +6405,9 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: 28.5d
+			x: -12.5d
+			y: 32.25d
+			dependencies: ["0B70DAFB9E760CF8"]
 			id: "20BE23E4C1BC14DB"
 			tasks: [{
 				id: "1638662144E31427"
@@ -6440,8 +6535,9 @@
 			}]
 		}
 		{
-			x: -18.0d
-			y: 34.0d
+			x: 6.0d
+			y: 36.25d
+			dependencies: ["219D232C263901B6"]
 			id: "716FBC2A2B0FED39"
 			tasks: [{
 				id: "4336F4282F5A6EDE"
@@ -6549,7 +6645,7 @@
 		}
 		{
 			x: -13.75d
-			y: 51.25d
+			y: 52.0d
 			dependencies: [
 				"4F10A1E05CEBFE1A"
 				"682D148DB0B5522E"
@@ -6586,8 +6682,9 @@
 			}]
 		}
 		{
-			x: -10.5d
-			y: 28.5d
+			x: 4.0d
+			y: 36.25d
+			dependencies: ["6A568D4357334C8A"]
 			id: "412EF056E461CAA8"
 			tasks: [{
 				id: "41C67A3916D06311"
@@ -6616,8 +6713,9 @@
 			}]
 		}
 		{
-			x: -12.5d
-			y: 25.5d
+			x: 16.25d
+			y: 48.75d
+			dependencies: ["1B8563C8225EED2E"]
 			id: "5E561F1B20DF3C89"
 			tasks: [{
 				id: "1E40486BB22DE04D"
@@ -6626,8 +6724,9 @@
 			}]
 		}
 		{
-			x: -18.0d
-			y: 35.5d
+			x: 6.0d
+			y: 38.25d
+			dependencies: ["219D232C263901B6"]
 			id: "295FDDB62528FA0D"
 			tasks: [{
 				id: "3918561707625EB8"
@@ -6636,8 +6735,9 @@
 			}]
 		}
 		{
-			x: -13.5d
-			y: 26.5d
+			x: -10.5d
+			y: 32.25d
+			dependencies: ["0B70DAFB9E760CF8"]
 			id: "764B2D2EE76FA0CC"
 			tasks: [{
 				id: "22CE0BA0E6011439"
@@ -6646,8 +6746,11 @@
 			}]
 		}
 		{
-			x: -13.5d
-			y: 27.5d
+			x: -10.5d
+			y: 30.25d
+			hide_dependency_lines: true
+			dependencies: ["0B70DAFB9E760CF8"]
+			dependency_requirement: "one_completed"
 			id: "6ECBEEBCF83349A5"
 			tasks: [{
 				id: "248005E963C4365F"
@@ -6656,8 +6759,12 @@
 			}]
 		}
 		{
-			x: -13.5d
-			y: 25.5d
+			x: -10.5d
+			y: 28.25d
+			dependencies: [
+				"764B2D2EE76FA0CC"
+				"3D0A270D8C7C8717"
+			]
 			id: "427F855B54A26DD9"
 			tasks: [{
 				id: "764BB2F2862B4793"
@@ -6666,8 +6773,8 @@
 			}]
 		}
 		{
-			x: -14.5d
-			y: 26.5d
+			x: 8.5d
+			y: 52.25d
 			dependencies: ["5DC309731882A5E1"]
 			id: "27AA4FB5FEF4EE66"
 			tasks: [{
@@ -6692,8 +6799,8 @@
 			}]
 		}
 		{
-			x: -14.5d
-			y: 32.0d
+			x: 6.5d
+			y: 52.25d
 			dependencies: [
 				"1C4916687AD96A77"
 				"27AA4FB5FEF4EE66"
@@ -6707,9 +6814,8 @@
 			}]
 		}
 		{
-			x: -14.5d
-			y: 29.25d
-			hide_dependency_lines: true
+			x: 4.5d
+			y: 52.25d
 			dependencies: ["625FD0330E1BDA54"]
 			id: "74A1DAEB2553F3E4"
 			tasks: [{
@@ -6720,7 +6826,7 @@
 		}
 		{
 			x: -1.5d
-			y: 50.25d
+			y: 42.0d
 			dependencies: ["70CA1655FB8127B2"]
 			id: "78C722E1351B2015"
 			tasks: [{
@@ -6770,8 +6876,9 @@
 			}]
 		}
 		{
-			x: -12.5d
-			y: 27.5d
+			x: 23.25d
+			y: 50.75d
+			dependencies: ["1A9A897D04134052"]
 			id: "2DD7034F59F00812"
 			tasks: [{
 				id: "48BCF040CEB36718"
@@ -6780,8 +6887,13 @@
 			}]
 		}
 		{
-			x: -12.5d
-			y: 28.5d
+			x: -4.75d
+			y: 30.25d
+			dependencies: [
+				"40D1EA38ABD7D940"
+				"54930368F1D7128E"
+			]
+			dependency_requirement: "one_completed"
 			id: "2FB58D9CEDA705CA"
 			tasks: [{
 				id: "7F5F736527447198"
@@ -7095,8 +7207,9 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: 25.5d
+			x: -12.5d
+			y: 30.25d
+			dependencies: ["764B2D2EE76FA0CC"]
 			id: "22489EA45B86FB7B"
 			tasks: [{
 				id: "1FBAD83BA92A999B"
@@ -7105,8 +7218,13 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: 26.5d
+			x: -8.5d
+			y: 30.25d
+			dependencies: [
+				"764B2D2EE76FA0CC"
+				"6ECBEEBCF83349A5"
+				"77602CE4D29A2480"
+			]
 			id: "30D3BD08315C3B2B"
 			tasks: [{
 				id: "1D31AD614D66318D"
@@ -7115,8 +7233,13 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: 27.5d
+			x: -14.5d
+			y: 32.25d
+			dependencies: [
+				"20BE23E4C1BC14DB"
+				"11C7B21CC46B4192"
+			]
+			dependency_requirement: "one_completed"
 			id: "4BB8C02076D5F6D0"
 			tasks: [{
 				id: "7DD55F9D30903491"
@@ -7126,7 +7249,7 @@
 		}
 		{
 			x: -2.5d
-			y: 57.75d
+			y: 50.25d
 			dependencies: [
 				"01BBDEDBA8C75318"
 				"2F13516D0BF41E98"
@@ -7150,8 +7273,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 67.5d
+			x: 0.0d
+			y: 60.25d
 			dependencies: ["29A495E5307C19C8"]
 			id: "0050E91053EF43F7"
 			tasks: [{
@@ -7162,8 +7285,8 @@
 		}
 		{
 			icon: "immersiveengineering:sheetmetal_steel"
-			x: -3.5d
-			y: 63.75d
+			x: -2.0d
+			y: 56.25d
 			hide_dependency_lines: true
 			dependencies: [
 				"71D3CE6964067948"
@@ -7184,8 +7307,8 @@
 			]
 		}
 		{
-			x: -3.5d
-			y: 64.75d
+			x: -2.0d
+			y: 57.25d
 			hide_dependency_lines: true
 			dependencies: [
 				"3ED30F5B4FCCA4DF"
@@ -7199,8 +7322,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 65.75d
+			x: -2.0d
+			y: 58.25d
 			hide_dependency_lines: true
 			dependencies: [
 				"7E6244CA5CC7CAC2"
@@ -7216,8 +7339,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 63.75d
+			x: 2.0d
+			y: 56.25d
 			hide_dependency_lines: true
 			dependencies: [
 				"7E6244CA5CC7CAC2"
@@ -7233,8 +7356,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 64.75d
+			x: 2.0d
+			y: 57.25d
 			hide_dependency_lines: true
 			dependencies: [
 				"0728FA0EBC3963BA"
@@ -7250,8 +7373,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 65.75d
+			x: 2.0d
+			y: 58.25d
 			hide_dependency_lines: true
 			dependencies: [
 				"71D3CE6964067948"
@@ -7265,8 +7388,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 38.25d
+			x: -7.5d
+			y: 34.25d
 			min_required_dependencies: 2
 			dependencies: [
 				"022FBE09A8760542"
@@ -7281,8 +7404,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 38.25d
+			x: -7.5d
+			y: 36.25d
 			dependencies: ["4DF9E6658C718676"]
 			id: "48E1765D32C077A0"
 			tasks: [{
@@ -7314,8 +7437,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 61.75d
+			x: 0.0d
+			y: 54.25d
 			dependencies: ["7D35C6A38DA6B9AD"]
 			id: "3A42B828EBE09335"
 			tasks: [{
@@ -7331,8 +7454,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 59.75d
+			x: 2.5d
+			y: 52.25d
 			dependencies: [
 				"04C0C78A3BB1B89A"
 				"625FD0330E1BDA54"
@@ -7346,7 +7469,7 @@
 		}
 		{
 			x: -2.5d
-			y: 59.75d
+			y: 52.25d
 			dependencies: ["3F065474A68AC2BF"]
 			id: "04C0C78A3BB1B89A"
 			tasks: [{
@@ -7358,7 +7481,7 @@
 		}
 		{
 			x: -3.5d
-			y: 46.25d
+			y: 38.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"3ED30F5B4FCCA4DF"
@@ -7373,7 +7496,7 @@
 		}
 		{
 			x: -3.5d
-			y: 47.25d
+			y: 39.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"0728FA0EBC3963BA"
@@ -7390,7 +7513,7 @@
 		}
 		{
 			x: -3.5d
-			y: 48.25d
+			y: 40.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"0B70DAFB9E760CF8"
@@ -7405,7 +7528,7 @@
 		}
 		{
 			x: 0.5d
-			y: 46.25d
+			y: 38.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"7E6244CA5CC7CAC2"
@@ -7421,7 +7544,7 @@
 		}
 		{
 			x: 0.5d
-			y: 47.25d
+			y: 39.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"3ED30F5B4FCCA4DF"
@@ -7436,7 +7559,7 @@
 		}
 		{
 			x: 0.5d
-			y: 48.25d
+			y: 40.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"0B70DAFB9E760CF8"
@@ -7450,8 +7573,8 @@
 			}]
 		}
 		{
-			x: 0.25d
-			y: 55.75d
+			x: 1.5d
+			y: 45.75d
 			hide_dependency_lines: true
 			dependencies: [
 				"3ED30F5B4FCCA4DF"
@@ -7465,8 +7588,8 @@
 			}]
 		}
 		{
-			x: 0.25d
-			y: 56.75d
+			x: 1.5d
+			y: 46.75d
 			hide_dependency_lines: true
 			dependencies: [
 				"0728FA0EBC3963BA"
@@ -7482,8 +7605,8 @@
 			}]
 		}
 		{
-			x: 0.25d
-			y: 57.75d
+			x: 1.5d
+			y: 47.75d
 			hide_dependency_lines: true
 			dependencies: [
 				"7E6244CA5CC7CAC2"
@@ -7498,8 +7621,8 @@
 			}]
 		}
 		{
-			x: 4.25d
-			y: 55.75d
+			x: 5.5d
+			y: 45.75d
 			hide_dependency_lines: true
 			dependencies: [
 				"3ED30F5B4FCCA4DF"
@@ -7513,8 +7636,8 @@
 			}]
 		}
 		{
-			x: 4.25d
-			y: 56.75d
+			x: 5.5d
+			y: 46.75d
 			hide_dependency_lines: true
 			dependencies: [
 				"0B70DAFB9E760CF8"
@@ -7528,8 +7651,8 @@
 			}]
 		}
 		{
-			x: 4.25d
-			y: 57.75d
+			x: 5.5d
+			y: 47.75d
 			hide_dependency_lines: true
 			dependencies: [
 				"56D83790E33B0765"
@@ -7544,7 +7667,7 @@
 		}
 		{
 			x: -2.5d
-			y: 52.25d
+			y: 44.0d
 			dependencies: [
 				"78C722E1351B2015"
 				"6B80DB03A7D638B1"
@@ -7559,7 +7682,7 @@
 		}
 		{
 			x: -3.5d
-			y: 50.25d
+			y: 42.0d
 			hide_dependency_lines: true
 			dependencies: ["54DC8317D4B7A510"]
 			id: "6B80DB03A7D638B1"
@@ -7570,8 +7693,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 36.25d
+			x: -5.5d
+			y: 34.25d
 			min_required_dependencies: 2
 			dependencies: [
 				"022FBE09A8760542"
@@ -7597,7 +7720,7 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 16.0d
 			y: 37.25d
 			dependencies: ["406C435646C5CAA1"]
 			id: "33A8A07EEB0A763B"
@@ -7608,7 +7731,7 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 16.0d
 			y: 35.25d
 			dependencies: [
 				"3E07744560B24E5B"
@@ -7622,8 +7745,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 36.25d
+			x: 15.0d
+			y: 33.25d
 			hide_dependency_lines: true
 			dependencies: [
 				"12EB4CA7EDCF87BC"
@@ -7637,8 +7760,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 34.25d
+			x: 17.0d
+			y: 33.25d
 			hide_dependency_lines: true
 			dependencies: [
 				"71D3CE6964067948"
@@ -7652,8 +7775,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 44.25d
+			x: -13.5d
+			y: 34.25d
 			min_required_dependencies: 2
 			dependencies: [
 				"022FBE09A8760542"
@@ -7668,7 +7791,7 @@
 			}]
 		}
 		{
-			x: 17.5d
+			x: 27.5d
 			y: 40.0d
 			hide_dependency_lines: true
 			dependencies: [
@@ -7683,7 +7806,7 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 14.5d
 			y: 39.0d
 			hide_dependency_lines: true
 			dependencies: [
@@ -7700,7 +7823,7 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 14.5d
 			y: 40.0d
 			hide_dependency_lines: true
 			dependencies: [
@@ -7715,7 +7838,7 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 14.5d
 			y: 41.0d
 			hide_dependency_lines: true
 			dependencies: [
@@ -7731,7 +7854,7 @@
 			}]
 		}
 		{
-			x: 5.25d
+			x: 15.25d
 			y: 39.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -7748,7 +7871,7 @@
 			}]
 		}
 		{
-			x: 5.25d
+			x: 15.25d
 			y: 40.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -7764,7 +7887,7 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 16.0d
 			y: 40.0d
 			hide_dependency_lines: true
 			dependencies: [
@@ -7779,7 +7902,7 @@
 			}]
 		}
 		{
-			x: 19.0d
+			x: 29.0d
 			y: 36.25d
 			hide_dependency_lines: true
 			dependencies: [
@@ -7794,7 +7917,7 @@
 			}]
 		}
 		{
-			x: 19.0d
+			x: 29.0d
 			y: 37.25d
 			hide_dependency_lines: true
 			dependencies: [
@@ -7809,7 +7932,7 @@
 			}]
 		}
 		{
-			x: 17.5d
+			x: 27.5d
 			y: 37.25d
 			hide_dependency_lines: true
 			dependencies: [
@@ -7824,7 +7947,7 @@
 			}]
 		}
 		{
-			x: 18.25d
+			x: 28.25d
 			y: 37.75d
 			hide_dependency_lines: true
 			dependencies: [
@@ -7839,7 +7962,7 @@
 			}]
 		}
 		{
-			x: 19.0d
+			x: 29.0d
 			y: 38.25d
 			hide_dependency_lines: true
 			dependencies: [
@@ -7856,7 +7979,7 @@
 			}]
 		}
 		{
-			x: 18.25d
+			x: 28.25d
 			y: 36.75d
 			dependencies: ["4AE2E334B13CD793"]
 			id: "505D37E45ED8C215"
@@ -7867,7 +7990,7 @@
 			}]
 		}
 		{
-			x: 9.25d
+			x: 19.25d
 			y: 46.75d
 			dependencies: [
 				"51C87D5A2E4123CD"
@@ -7883,7 +8006,7 @@
 		}
 		{
 			title: "Further Medium Voltage Wires"
-			x: 9.25d
+			x: 19.25d
 			y: 44.75d
 			dependencies: ["51C87D5A2E4123CD"]
 			id: "719FA844EDA6BC67"
@@ -7896,7 +8019,7 @@
 		{
 			title: "Medium Voltage Wires"
 			icon: "immersiveengineering:wirecoil_electrum"
-			x: 11.25d
+			x: 21.25d
 			y: 45.75d
 			hide_dependency_lines: true
 			dependencies: ["59B5DA1131F36D6B"]
@@ -7916,7 +8039,7 @@
 		}
 		{
 			title: "Safed Medium Voltage Wires"
-			x: 13.25d
+			x: 23.25d
 			y: 44.75d
 			dependencies: [
 				"51C87D5A2E4123CD"
@@ -7966,6 +8089,241 @@
 			]
 			min_width: 266
 			id: "46842F62331FAAE8"
+		}
+		{
+			x: -0.5d
+			y: 48.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"0B70DAFB9E760CF8"
+				"42469322783C6D01"
+			]
+			id: "4ADB57BC9FC63E4F"
+			tasks: [{
+				id: "488BD16233C16E16"
+				type: "item"
+				item: "immersiveengineering:fluid_pipe"
+			}]
+		}
+		{
+			x: 15.25d
+			y: 18.0d
+			shape: "octagon"
+			dependencies: ["62EE24B8F491D351"]
+			id: "04860CD92F8D9500"
+			tasks: [{
+				id: "3159EB1A88608F8F"
+				type: "item"
+				title: "&6Garden Cloche&r"
+				item: "immersiveengineering:cloche"
+			}]
+		}
+		{
+			x: 12.25d
+			y: 36.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"3ED30F5B4FCCA4DF"
+				"0CBFCE35AB5F1D54"
+			]
+			id: "3A94AFA8FBFA149D"
+			tasks: [{
+				id: "5DF4303A71E3015F"
+				type: "item"
+				item: "immersiveengineering:steel_scaffolding_standard"
+			}]
+		}
+		{
+			x: 12.25d
+			y: 37.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"71D3CE6964067948"
+				"0CBFCE35AB5F1D54"
+			]
+			id: "0E0D49467340BC83"
+			tasks: [{
+				id: "30B64B2F7FCA9C99"
+				type: "item"
+				item: "immersiveengineering:sheetmetal_steel"
+			}]
+		}
+		{
+			x: 12.25d
+			y: 38.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"7E6244CA5CC7CAC2"
+				"6FB6F406F526DE97"
+				"33A8A07EEB0A763B"
+				"0CBFCE35AB5F1D54"
+			]
+			id: "1867DCE4B37F3729"
+			tasks: [{
+				id: "33E519E796CCF352"
+				type: "item"
+				item: "immersiveengineering:radiator"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 36.75d
+			hide_dependency_lines: true
+			dependencies: [
+				"0728FA0EBC3963BA"
+				"77602CE4D29A2480"
+				"0215BF43B38BE67A"
+				"0CBFCE35AB5F1D54"
+			]
+			id: "37172826ADFE280E"
+			tasks: [{
+				id: "1803CEF2CA75FA61"
+				type: "item"
+				item: "immersiveengineering:light_engineering"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 37.75d
+			hide_dependency_lines: true
+			dependencies: [
+				"7E6244CA5CC7CAC2"
+				"0215BF43B38BE67A"
+				"0CBFCE35AB5F1D54"
+			]
+			id: "4427D7A74F5D0D46"
+			tasks: [{
+				id: "32BD8C54E2890BAA"
+				type: "item"
+				item: "immersiveengineering:rs_engineering"
+			}]
+		}
+		{
+			x: 10.75d
+			y: 37.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"7E6244CA5CC7CAC2"
+				"69511328BB30E10D"
+				"48E1765D32C077A0"
+				"0CBFCE35AB5F1D54"
+			]
+			id: "576D89CEAD0EEC0D"
+			tasks: [{
+				id: "3C50A2EF058ECBA4"
+				type: "item"
+				item: "immersiveengineering:heavy_engineering"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 45.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"3ED30F5B4FCCA4DF"
+				"42469322783C6D01"
+			]
+			id: "1FACDD9AFEE8ED7E"
+			tasks: [{
+				id: "2C4E1ED18F60B045"
+				type: "item"
+				item: "immersiveengineering:steel_scaffolding_standard"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 46.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"7E6244CA5CC7CAC2"
+				"69511328BB30E10D"
+				"48E1765D32C077A0"
+				"42469322783C6D01"
+			]
+			id: "42FC6FDDADB7EEC8"
+			tasks: [{
+				id: "19589F20FD27861B"
+				type: "item"
+				item: "immersiveengineering:heavy_engineering"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 47.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"0B70DAFB9E760CF8"
+				"42469322783C6D01"
+			]
+			id: "25B5FF3330A1D926"
+			tasks: [{
+				id: "37F3976BEC45D3B1"
+				type: "item"
+				item: "immersiveengineering:sheetmetal_iron"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 46.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"3ED30F5B4FCCA4DF"
+				"42469322783C6D01"
+			]
+			id: "1A4821AF683B542E"
+			tasks: [{
+				id: "5B59E912CBA6D885"
+				type: "item"
+				item: "immersiveengineering:steel_fence"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 47.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"71D3CE6964067948"
+				"42469322783C6D01"
+			]
+			id: "006BDDE21BDFEE28"
+			tasks: [{
+				id: "1EF9AABC837DDF06"
+				type: "item"
+				item: "immersiveengineering:sheetmetal_steel"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 48.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"0728FA0EBC3963BA"
+				"39F79DC1FE7DABD0"
+				"0215BF43B38BE67A"
+				"42469322783C6D01"
+			]
+			id: "7406B0516DF812E2"
+			tasks: [{
+				id: "0202D56A2EC10FF8"
+				type: "item"
+				item: "immersiveengineering:light_engineering"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 45.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"7E6244CA5CC7CAC2"
+				"0215BF43B38BE67A"
+				"42469322783C6D01"
+			]
+			id: "0F972B4A0CCBFA4B"
+			tasks: [{
+				id: "29F99A0264620A8C"
+				type: "item"
+				item: "immersiveengineering:rs_engineering"
+			}]
 		}
 	]
 }

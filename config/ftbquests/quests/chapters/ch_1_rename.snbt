@@ -98,41 +98,26 @@
 			}]
 		}
 		{
-			title: "&#806517Handled Crafting Table&r"
-			x: -2.75d
-			y: 0.0d
-			shape: "square"
-			subtitle: "Store your crafting table in your pocket."
-			dependencies: ["1C7C41C2FA427B8F"]
-			id: "73370785D28A26F0"
-			tasks: [{
-				id: "56D47065C54D2BE6"
-				type: "item"
-				item: "extendedcrafting:handheld_table"
-			}]
-			rewards: [
-				{
-					id: "54530CD1908F63AA"
-					type: "item"
-					item: "minecraft:crafting_table"
-				}
-				{
-					id: "6EAE37584A138427"
-					type: "random"
-					table_id: 3261296973996135385L
-				}
-			]
-		}
-		{
 			title: "Tetra's Hammer"
 			x: 1.5d
 			y: 6.75d
-			description: ["With 2 sticks and 2 planks, craft a Tetra's Hammer."]
+			description: [
+				"Tetra revolves around modular items and attemps to blend it together with other concepts such as adventure and technology."
+				""
+				"Tetra allows you to replace parts of items with different parts of different types and materials, some parts can also be improved. Which parts you may use is limited by the items capacity, called integrity. Some parts increase an items integrity while some parts has an integrity cost. Some parts require tools of differing quality to craft."
+				""
+				"Getting Started:"
+				"1) Craft a Wooden Hammer using two sticks and two planks"
+				"2) Craft and place a vanilla crafting table"
+				"3) Right click the table with the hammer to upgrade it into a workbench"
+				"4) Craft a vanilla weapon, tool shield or a bow and place it in the workbench"
+			]
 			dependencies: [
 				"5905919B35D651A5"
 				"53D7FCF8BE62ACFC"
 			]
 			dependency_requirement: "one_completed"
+			min_required_tasks: 300
 			id: "7A3D3399611B2809"
 			tasks: [{
 				id: "79F9270891EB823F"
@@ -157,7 +142,7 @@
 			x: 2.0d
 			y: 8.75d
 			shape: "square"
-			description: ["Right click with Tetra's Hammer on Crafting Table."]
+			description: ["Right clik a crafting table with a hammer to create a workbench."]
 			dependencies: ["7A3D3399611B2809"]
 			size: 1.5d
 			id: "32DB90A8A43D1F3C"
@@ -718,8 +703,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 10.75d
+			x: -2.5d
+			y: 12.5d
 			dependencies: ["311247214F1D95B3"]
 			id: "11EFAC50282A683E"
 			tasks: [{
@@ -729,8 +714,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 10.75d
+			x: 2.5d
+			y: 12.5d
 			dependencies: ["2CA476D501E67C38"]
 			id: "491972CCE5DDE06C"
 			tasks: [{
@@ -945,8 +930,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 10.75d
+			x: -4.25d
+			y: 12.5d
 			dependencies: ["11EFAC50282A683E"]
 			id: "26B79EAEB1274ED9"
 			tasks: [{
@@ -956,8 +941,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 10.75d
+			x: 4.25d
+			y: 12.5d
 			dependencies: ["491972CCE5DDE06C"]
 			id: "2AB9254E7A945A22"
 			tasks: [{
@@ -1301,8 +1286,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 10.75d
+			x: -6.0d
+			y: 12.5d
 			dependencies: ["26B79EAEB1274ED9"]
 			id: "171E5CDF2CB9C763"
 			tasks: [{
@@ -1312,8 +1297,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 10.75d
+			x: 6.0d
+			y: 12.5d
 			dependencies: ["2AB9254E7A945A22"]
 			id: "1802A196B75EE8D9"
 			tasks: [{
@@ -1572,18 +1557,6 @@
 				type: "item"
 				item: "create:crushing_wheel"
 				count: 2L
-			}]
-		}
-		{
-			x: -2.5d
-			y: 3.25d
-			shape: "square"
-			dependencies: ["4CA0051417A86918"]
-			id: "219744BBC14D2451"
-			tasks: [{
-				id: "3409339E295468D9"
-				type: "item"
-				item: "tconstruct:crafting_station"
 			}]
 		}
 		{
@@ -2308,10 +2281,27 @@
 					type: "item"
 					title: "Slime Dirt"
 					item: {
-						id: "itemfilters:tag"
+						id: "itemfilters:or"
 						Count: 1b
 						tag: {
-							value: "chroma:slime_dirt"
+							items: [
+								{
+									id: "tconstruct:earth_slime_dirt"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:sky_slime_dirt"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:ichor_slime_dirt"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:ender_slime_dirt"
+									Count: 1b
+								}
+							]
 						}
 					}
 				}
@@ -4266,52 +4256,328 @@
 			}]
 		}
 		{
-			title: "Sleeping Bag"
-			icon: "comforts:sleeping_bag_light_blue"
 			x: 2.75d
-			y: -1.0d
-			dependencies: ["1C7C41C2FA427B8F"]
-			id: "38D2E67E3EAF0C45"
+			y: 4.75d
+			description: ["Eye of Ender combined with Holosphere in workbench will help you to find Forges easier."]
+			dependencies: ["7A3D3399611B2809"]
+			id: "38D63D2A59047069"
 			tasks: [{
-				id: "0C6A1F0C9EC0F8BE"
+				id: "52F29CF4ED25976D"
 				type: "item"
-				title: "Sleeping Bag"
 				item: {
-					id: "itemfilters:tag"
+					id: "tetra:holo"
 					Count: 1b
 					tag: {
-						value: "chroma:sleeping_bag"
+						"holo/core_material": "frame/dim"
+						"holo/frame": "holo/frame"
+						"holo/core": "holo/core"
+						"holo/frame_material": "core/ancient"
 					}
 				}
 			}]
 		}
 		{
-			title: "Hammock"
-			icon: "comforts:hammock_light_blue"
-			x: 2.75d
-			y: 1.0d
-			dependencies: ["1C7C41C2FA427B8F"]
-			id: "4CF7A627823E69EE"
-			tasks: [
-				{
-					id: "01AA8FA7AA463E6F"
-					type: "item"
-					title: "Hammock Cloth"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "chroma:hammock"
-						}
+			x: 4.75d
+			y: 9.5d
+			shape: "diamond"
+			description: ["Can be found in structures deep underground in cold or montainous biomes."]
+			dependencies: ["32DB90A8A43D1F3C"]
+			id: "4FAD52860362291A"
+			tasks: [{
+				id: "78A35BDEA4A583C7"
+				type: "item"
+				item: "tetra:forged_crate"
+			}]
+		}
+		{
+			x: 4.75d
+			y: 8.5d
+			shape: "diamond"
+			description: ["Can be found in structures deep underground in cold or montainous biomes."]
+			dependencies: ["32DB90A8A43D1F3C"]
+			id: "780EFBC7BFC66E5A"
+			tasks: [{
+				id: "075072EE55FB47D6"
+				type: "item"
+				item: "tetra:core_extractor"
+			}]
+		}
+		{
+			x: 4.25d
+			y: 9.0d
+			shape: "diamond"
+			description: ["Can be found in structures deep underground in cold or montainous biomes."]
+			dependencies: ["32DB90A8A43D1F3C"]
+			id: "5C796409D3C28291"
+			tasks: [{
+				id: "08A3A6C5FC45B509"
+				type: "item"
+				item: "tetra:transfer_unit"
+			}]
+		}
+		{
+			x: 3.75d
+			y: 8.5d
+			shape: "diamond"
+			description: ["Can be found in structures deep underground in cold or montainous biomes."]
+			dependencies: ["32DB90A8A43D1F3C"]
+			id: "4F42C75CD6562596"
+			tasks: [{
+				id: "36C5605666809F93"
+				type: "item"
+				item: "tetra:forged_wall"
+			}]
+		}
+		{
+			x: 3.75d
+			y: 9.5d
+			shape: "diamond"
+			description: ["Can be found in structures deep underground in cold or montainous biomes."]
+			dependencies: ["32DB90A8A43D1F3C"]
+			id: "2E366ADF62A8DE98"
+			tasks: [{
+				id: "497BF22934446E4F"
+				type: "item"
+				item: "tetra:forged_workbench"
+			}]
+		}
+		{
+			title: "Tier 2"
+			x: 3.0d
+			y: 6.75d
+			dependencies: ["7A3D3399611B2809"]
+			id: "647694B5D937B505"
+			tasks: [{
+				id: "1FC0E87BEBAB1844"
+				type: "advancement"
+				title: "Stone Hammer"
+				advancement: "tetra:upgrades/hammer_2"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Tier 3"
+			x: 4.25d
+			y: 6.75d
+			dependencies: ["647694B5D937B505"]
+			id: "27065E76761830EC"
+			tasks: [{
+				id: "3CA2E4190C5F20EE"
+				type: "advancement"
+				title: "Iron Hammer"
+				advancement: "tetra:upgrades/hammer_3"
+				criterion: ""
+			}]
+		}
+		{
+			x: 7.25d
+			y: 5.0d
+			description: ["Can be found in structures deep underground in cold or montainous biomes."]
+			dependencies: ["0291D01CF9820B1F"]
+			id: "5D0B6B773A9696D4"
+			tasks: [{
+				id: "7BD8828FC72D5E37"
+				type: "item"
+				title: "Hammer Upgrades"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tetra:combustion_chamber"
+								Count: 1b
+							}
+							{
+								id: "tetra:planar_stabilizer"
+								Count: 1b
+							}
+							{
+								id: "tetra:vent_plate"
+								Count: 1b
+							}
+						]
 					}
 				}
+			}]
+		}
+		{
+			x: 7.25d
+			y: 8.5d
+			description: ["Can be found in structures deep underground in cold or montainous biomes."]
+			dependencies: ["0291D01CF9820B1F"]
+			id: "11DF2D326A5E171F"
+			tasks: [{
+				id: "7B95F0BD72AE0716"
+				type: "item"
+				item: {
+					id: "tetra:magmatic_cell"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				count: 2L
+			}]
+		}
+		{
+			x: 7.25d
+			y: 6.75d
+			shape: "square"
+			description: ["Can be found in structures deep underground in cold or montainous biomes."]
+			dependencies: ["0291D01CF9820B1F"]
+			id: "698D9EF9800A51F9"
+			tasks: [{
+				id: "75DB8BBA001DF6D3"
+				type: "item"
+				item: "tetra:hammer_base"
+			}]
+		}
+		{
+			title: "Tier 4"
+			x: 5.5d
+			y: 6.75d
+			dependencies: ["27065E76761830EC"]
+			id: "0291D01CF9820B1F"
+			tasks: [{
+				id: "647C29B1EB61BFDA"
+				type: "advancement"
+				title: "Blackstone Hammer"
+				advancement: "tetra:upgrades/hammer_4"
+				criterion: ""
+			}]
+		}
+		{
+			x: 9.0d
+			y: 6.75d
+			dependencies: [
+				"5D0B6B773A9696D4"
+				"698D9EF9800A51F9"
+				"11DF2D326A5E171F"
+			]
+			id: "778D8A8CFBEAD668"
+			tasks: [{
+				id: "1B9A1F1230633753"
+				type: "advancement"
+				title: "Obsidian Hammer"
+				advancement: "tetra:upgrades/hammer_5"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Tier 6"
+			x: 10.875d
+			y: 6.75d
+			shape: "pentagon"
+			dependencies: ["778D8A8CFBEAD668"]
+			size: 1.5d
+			id: "04B1E833C54711FF"
+			tasks: [{
+				id: "5EED575C460C31F4"
+				type: "advancement"
+				title: "Netherite Hammer"
+				advancement: "tetra:upgrades/hammer_6"
+				criterion: ""
+			}]
+		}
+		{
+			x: 7.25d
+			y: 3.5d
+			dependencies: ["5D0B6B773A9696D4"]
+			optional: true
+			id: "58BB878B4B44751B"
+			tasks: [{
+				id: "3F35FC8F90AA2915"
+				type: "item"
+				item: "tetra:forged_container"
+			}]
+		}
+		{
+			x: 7.25d
+			y: 2.0d
+			shape: "hexagon"
+			description: [
+				"To mine 3x3 area, Thchonic Extractor must be applied as the second head by a tool."
+				""
+				"Can be found in structures deep underground in cold or montainous biomes."
+			]
+			dependencies: ["58BB878B4B44751B"]
+			optional: true
+			id: "07EC7C1324CB7A8F"
+			tasks: [{
+				id: "1536689C16ABE952"
+				type: "item"
+				item: "tetra:chthonic_extractor"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 4.75d
+			shape: "diamond"
+			description: ["Can be found in structures deep underground in cold or montainous biomes."]
+			dependencies: ["58BB878B4B44751B"]
+			optional: true
+			id: "417C0D4BEE933760"
+			tasks: [{
+				id: "011198254130DFC1"
+				type: "item"
+				item: "tetra:stonecutter"
+			}]
+		}
+		{
+			title: "Useful Stuff"
+			x: 9.0d
+			y: 3.5d
+			shape: "diamond"
+			description: ["Can be found in structures deep underground in cold or montainous biomes."]
+			dependencies: ["58BB878B4B44751B"]
+			optional: true
+			id: "6DBE971A354DF307"
+			tasks: [
 				{
-					id: "44D2161D9E02A376"
+					id: "1BA94223944E4574"
 					type: "item"
-					item: "comforts:rope_and_nail"
-					count: 2L
+					item: "tetra:metal_scrap"
+				}
+				{
+					id: "6EE14B532BBD2C68"
+					type: "item"
+					item: "tetra:forged_mesh"
+				}
+				{
+					id: "4F1C1D410248F6CE"
+					type: "item"
+					item: "tetra:quick_latch"
+				}
+				{
+					id: "64075E80DBDDD44B"
+					type: "item"
+					item: "tetra:forged_beam"
+				}
+				{
+					id: "3DA22FE12EEDA325"
+					type: "item"
+					item: "tetra:forged_bolt"
 				}
 			]
+		}
+		{
+			x: 9.0d
+			y: 2.5d
+			shape: "diamond"
+			description: [
+				"The Earthpiercer is a tool with multi-purpose (Pickaxe \\& Shovel)."
+				""
+				"Can be found in structures deep underground in cold or montainous biomes."
+			]
+			dependencies: ["58BB878B4B44751B"]
+			optional: true
+			id: "08D75A7E1BE46F39"
+			tasks: [{
+				id: "7AB59DB15363C104"
+				type: "item"
+				item: "tetra:earthpiercer"
+			}]
 		}
 	]
 }

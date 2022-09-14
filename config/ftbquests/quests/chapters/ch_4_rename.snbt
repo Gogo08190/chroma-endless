@@ -8,5 +8,482 @@
 	subtitle: ["Undergarden"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	images: [{
+		x: 7.0d
+		y: -13.75d
+		width: 10.0d
+		height: 1.0d
+		rotation: 0.0d
+		image: "chroma:textures/quests/undgard.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "chroma:textures/quests/undergarden_portal.png"
+				}
+			}
+			x: 7.0d
+			y: -11.5d
+			shape: "rsquare"
+			description: ["The Undergarden is a dark, subterranean world located deep below the bedrock of the Overworld. The flora here has adapted to their conditions and can grow anywhere, independent of light. Strange creatures call these dark lands home, and are plagued by the invasive Rotspawn, monsters originating from a chaotic, mysterious realm."]
+			size: 2.0d
+			id: "7958F40FFDC2C5D3"
+			tasks: [
+				{
+					id: "05E4FD7C3336B7C7"
+					type: "dimension"
+					dimension: "undergarden:undergarden"
+				}
+				{
+					id: "75E80AE7235C75D1"
+					type: "checkmark"
+					title: "&aDone&r"
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -12.25d
+			id: "3715DBB336E5FD49"
+			tasks: [{
+				id: "2F7D22BBE3C842F6"
+				type: "item"
+				item: "undergarden:froststeel_ore"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -11.25d
+			id: "7C7D2393D10E51CE"
+			tasks: [{
+				id: "3F6EE7DC3C8225A8"
+				type: "item"
+				item: "undergarden:froststeel_ingot"
+			}]
+		}
+		{
+			x: -4.25d
+			y: -12.25d
+			id: "2FBE218C4015D03F"
+			tasks: [{
+				id: "1EF1BFC1CDEEBAEB"
+				type: "item"
+				item: "undergarden:cloggrum_ore"
+			}]
+		}
+		{
+			x: -4.25d
+			y: -11.25d
+			id: "7D351CB50EFE608B"
+			tasks: [{
+				id: "7EA034A464CB6E16"
+				type: "item"
+				item: "undergarden:cloggrum_ingot"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -12.25d
+			id: "72B61E272B25CFBF"
+			tasks: [{
+				id: "56DB28EC390B3583"
+				type: "item"
+				item: "undergarden:utheric_shard"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -12.25d
+			id: "627C30BAEE85786A"
+			tasks: [{
+				id: "79409F28A1CFC8E1"
+				type: "item"
+				item: "undergarden:utherium_ore"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -11.25d
+			id: "4F496F328C03DC99"
+			tasks: [{
+				id: "222D01FF8039788B"
+				type: "item"
+				item: "undergarden:utherium_chunk"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -11.25d
+			id: "31DB904A4019BD4B"
+			tasks: [{
+				id: "32B0070A0A778FFC"
+				type: "item"
+				item: "undergarden:utherium_ingot"
+			}]
+		}
+		{
+			x: 11.25d
+			y: -9.75d
+			id: "683B58574B625D27"
+			tasks: [{
+				id: "206C3FDFB823935B"
+				type: "item"
+				item: "undergarden:regalium_ore"
+			}]
+		}
+		{
+			x: 11.25d
+			y: -8.75d
+			description: ["A soft, lustrous metal used for trading with Stoneborn."]
+			id: "08672636B514D519"
+			tasks: [{
+				id: "5296C6B9DB750EE0"
+				type: "item"
+				item: "undergarden:regalium_ingot"
+			}]
+		}
+		{
+			x: 10.25d
+			y: -9.75d
+			id: "5FE62A9CD55946E7"
+			tasks: [{
+				id: "7103DD0C77064D2C"
+				type: "item"
+				item: "undergarden:forgotten_nugget"
+			}]
+		}
+		{
+			x: 10.25d
+			y: -8.75d
+			id: "5391B6ED1C3CBC11"
+			tasks: [{
+				id: "7372E3364B76346D"
+				type: "item"
+				item: "undergarden:forgotten_ingot"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.0d
+			subtitle: "The Forgotten Guardian is a mini-boss mob"
+			description: ["The Forgotten Guardian can only be found naturally in the catacombs, spawning with the generation of the world."]
+			id: "7618853E2C7F6B12"
+			tasks: [{
+				id: "4746C99E47082F82"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "chroma:textures/quests/forgo_guard.png"
+					}
+				}
+				entity: "undergarden:forgotten_guardian"
+				value: 5L
+			}]
+		}
+		{
+			x: 5.5d
+			y: -3.0d
+			subtitle: "The Rotbeast is a hostile mobs native to The Otherside"
+			description: ["The Rotbeast can spawn on any solid block with a light level below 7. They have an increased chance of spawning in the Barren Abyss."]
+			id: "6518806517E871F0"
+			tasks: [{
+				id: "7D3AF75899EC6A57"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "chroma:textures/quests/rotbet.png"
+					}
+				}
+				entity: "undergarden:rotbeast"
+				value: 10L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -3.0d
+			id: "792FCB32BAC70D55"
+			tasks: [{
+				id: "5D33EE19642093B6"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "chroma:textures/quests/rotling.png"
+					}
+				}
+				entity: "undergarden:rotling"
+				value: 10L
+			}]
+		}
+		{
+			x: 7.5d
+			y: -3.0d
+			id: "52A1F043FE3C930E"
+			tasks: [{
+				id: "7CA4ADD0E950A224"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "chroma:textures/quests/rotwalker.png"
+					}
+				}
+				entity: "undergarden:rotwalker"
+				value: 10L
+			}]
+		}
+		{
+			x: 8.5d
+			y: -3.0d
+			description: [
+				"The Nargoyle will wander around. When it spots a player, it will run towards them and attack by leaping at them."
+				""
+				"Cavern Creatures can spawn on any solid block with a light level below 7 below Y 32."
+			]
+			id: "680DB39E645E09B1"
+			tasks: [{
+				id: "454D33A6327B5C61"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "chroma:textures/quests/nargle.png"
+					}
+				}
+				entity: "undergarden:nargoyle"
+				value: 10L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -8.75d
+			description: ["A smooth piece of Depthrock, the perfect ammunition for a Slingshot"]
+			dependencies: ["7958F40FFDC2C5D3"]
+			id: "35A56E4F2BD63E3C"
+			tasks: [{
+				id: "6F1A65CFFA6FA60B"
+				type: "item"
+				item: "undergarden:depthrock_pebble"
+			}]
+		}
+		{
+			x: 2.25d
+			y: -8.0d
+			dependencies: ["35A56E4F2BD63E3C"]
+			id: "654B9FAF72AF9939"
+			tasks: [{
+				id: "54527DB6106238A5"
+				type: "item"
+				item: {
+					id: "undergarden:slingshot"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -7.25d
+			description: [
+				"A bed unique to the Undergarden, with the same functions and features as the original bed in Overworld it saves your spawn point in the Undergarden."
+				""
+				"&cUsing it in the Overworld will cause a violent explosion !"
+			]
+			dependencies: ["654B9FAF72AF9939"]
+			id: "7EF4D9152F2BCCF1"
+			tasks: [{
+				id: "1F04B1324A4F9EAE"
+				type: "item"
+				item: "undergarden:depthrock_bed"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -5.75d
+			dependencies: ["3FD90F2027B2B494"]
+			id: "550677B5AA49FB3C"
+			tasks: [{
+				id: "44B76080A2C62D20"
+				type: "item"
+				item: {
+					id: "undergarden:cloggrum_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -7.5d
+			dependencies: ["7958F40FFDC2C5D3"]
+			id: "2A40D8DE41E355D2"
+			tasks: [{
+				id: "15ED983C5CB38F99"
+				type: "item"
+				item: "undergarden:droopvine_item"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -8.5d
+			dependencies: ["7958F40FFDC2C5D3"]
+			id: "0D95E0FD54639369"
+			tasks: [{
+				id: "0D3C8427BB187AEC"
+				type: "item"
+				item: "undergarden:blisterberry"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -8.25d
+			dependencies: ["7958F40FFDC2C5D3"]
+			id: "5A3C3AC4C58BE1F9"
+			tasks: [{
+				id: "3F80216604ED429B"
+				type: "item"
+				item: "undergarden:cooked_gwibling"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -7.25d
+			dependencies: ["7958F40FFDC2C5D3"]
+			id: "3B6121362825D3ED"
+			tasks: [{
+				id: "62539ADBDCB0939A"
+				type: "item"
+				item: "undergarden:dweller_steak"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -5.5d
+			shape: "diamond"
+			dependencies: ["7958F40FFDC2C5D3"]
+			id: "245965EED01A6128"
+			tasks: [{
+				id: "6C88FBDB40FB0B09"
+				type: "item"
+				item: "undergarden:indigo_stew"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -5.5d
+			shape: "diamond"
+			dependencies: ["7958F40FFDC2C5D3"]
+			id: "76EEFCAC1D6C0488"
+			tasks: [{
+				id: "3A32F62C5C3DB197"
+				type: "item"
+				item: "undergarden:inky_stew"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -5.5d
+			shape: "diamond"
+			dependencies: ["7958F40FFDC2C5D3"]
+			id: "168DC54A28D54419"
+			tasks: [{
+				id: "15E810128F0E9CF7"
+				type: "item"
+				item: "undergarden:bloody_stew"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -4.5d
+			shape: "diamond"
+			dependencies: ["7958F40FFDC2C5D3"]
+			id: "3E620F4EB8EA6EAF"
+			tasks: [{
+				id: "0ED4E763E433AB3E"
+				type: "item"
+				item: "undergarden:veiled_stew"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -3.0d
+			id: "3ADD142B42D8BBCA"
+			tasks: [{
+				id: "0985113415FBE8B3"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "chroma:textures/quests/brute.png"
+					}
+				}
+				entity: "undergarden:brute"
+				value: 10L
+			}]
+		}
+		{
+			x: 2.25d
+			y: -6.5d
+			description: ["A makeshift projectile explosive, often sold by shady Stoneborn"]
+			dependencies: ["7EF4D9152F2BCCF1"]
+			id: "3FD90F2027B2B494"
+			tasks: [{
+				id: "406B24E3ACFAC295"
+				type: "item"
+				item: "undergarden:blisterbomb"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -7.25d
+			dependencies: ["7958F40FFDC2C5D3"]
+			id: "3DF041EE4ECCF633"
+			tasks: [{
+				id: "121533CA12B66428"
+				type: "item"
+				item: "undergarden:roasted_underbeans"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -6.5d
+			dependencies: ["7958F40FFDC2C5D3"]
+			id: "3849B5A71DAF3326"
+			tasks: [{
+				id: "3D267D58CF442BDF"
+				type: "item"
+				item: "undergarden:gloomgourd_pie"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -8.25d
+			dependencies: ["7958F40FFDC2C5D3"]
+			id: "2D40C145D83E4ACF"
+			tasks: [{
+				id: "37BDDE28094FEEC3"
+				type: "item"
+				item: "undergarden:gloomper_leg"
+			}]
+		}
+	]
 }
