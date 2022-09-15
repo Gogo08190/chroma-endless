@@ -1,6 +1,6 @@
 {
 	"programs": ["envirotech:parts_miner"],
-	"item": {"raw:item": "ironjetpacks:nitro_capacitor", "count":1},
+	"item": {"raw:item": "ironjetpacks:nitro_thruster", "count":1},
 	"config": [
 		{
 			"weight": 3,
