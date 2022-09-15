@@ -31,5 +31,111 @@
 				item: "compactmachines:machine_tiny"
 			}]
 		}
+		{
+			x: -10.25d
+			y: -3.0d
+			id: "7607D13B4DE67B94"
+			tasks: [{
+				id: "58A24068E4B92516"
+				type: "item"
+				item: "pneumaticcraft:reinforced_stone"
+			}]
+		}
+		{
+			title: "Pressure Chamber"
+			x: -10.25d
+			y: -2.0d
+			id: "7B9FBBCD2F962A0B"
+		}
+		{
+			x: -10.25d
+			y: -1.0d
+			id: "121DF7B31DB4BEF8"
+			tasks: [{
+				id: "033D2475938C8178"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+			}]
+		}
+		{
+			x: -9.25d
+			y: -2.0d
+			id: "3D1D2227EF54E1F3"
+			tasks: [{
+				id: "32EF5C28EDC62817"
+				type: "item"
+				item: "kubejs:extreme_circuit_board"
+			}]
+		}
+		{
+			x: -9.25d
+			y: -3.0d
+			id: "1F9249795027D6AD"
+			tasks: [{
+				id: "3F0226BD2797B6DB"
+				type: "item"
+				item: "pneumaticcraft:reinforced_bricks"
+			}]
+		}
+		{
+			x: -8.25d
+			y: -3.0d
+			id: "6053A7DC51685983"
+			tasks: [{
+				id: "47069C93F4994FA6"
+				type: "item"
+				item: "pneumaticcraft:pressure_chamber_wall"
+			}]
+		}
+		{
+			x: -7.25d
+			y: -3.0d
+			id: "45983CB223F48DBF"
+			tasks: [{
+				id: "66FC4C391209D661"
+				type: "item"
+				item: "pneumaticcraft:pressure_chamber_glass"
+			}]
+		}
+		{
+			x: -8.25d
+			y: -2.0d
+			id: "2E333910717E3BB5"
+			tasks: [{
+				id: "73FF871164B064A6"
+				type: "item"
+				item: "pneumaticcraft:smart_chest"
+			}]
+		}
+		{
+			x: -7.25d
+			y: -2.0d
+			id: "4C32DDB98EFDC15A"
+			tasks: [{
+				id: "4AA11EB37376F977"
+				type: "item"
+				item: "kubejs:advanced_extreme_circuit_board"
+			}]
+		}
+		{
+			x: -9.25d
+			y: -1.0d
+			id: "1BB4E62851AF2A15"
+			tasks: [{
+				id: "249BD590E6B2DD3B"
+				type: "item"
+				item: "pneumaticcraft:printed_circuit_board"
+			}]
+		}
+		{
+			x: -9.25d
+			y: -4.0d
+			id: "2E7BFDA1FA247D89"
+			tasks: [{
+				id: "0995EA0CBB1DB238"
+				type: "item"
+				item: "pneumaticcraft:logistics_core"
+			}]
+		}
 	]
 }

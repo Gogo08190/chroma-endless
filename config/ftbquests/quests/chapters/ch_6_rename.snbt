@@ -13,8 +13,9 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 0.0d
-			y: 3.375d
+			title: "&#80B425Uranium&r"
+			x: -1.5d
+			y: 0.0d
 			shape: "gear"
 			subtitle: "Oh, it's radioactive!"
 			description: [
@@ -24,10 +25,7 @@
 				""
 				" - &l&5The Nether&r, between &lY: 50&r and &lY: 74&r (only in certains biomes, see &oJEI&r)."
 			]
-			dependencies: [
-				"6B8F54AE6DE83F01"
-				"45AF68713E38E23C"
-			]
+			dependencies: ["6B8F54AE6DE83F01"]
 			size: 2.0d
 			min_width: 246
 			id: "7A3F1BC3D6B98D77"
@@ -39,8 +37,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 3.375d
+			x: -4.0d
+			y: 0.0d
 			shape: "octagon"
 			subtitle: "How not to blow it all up?"
 			description: ["&6The Extreme Book&r is like an in-game wiki. Just right click with it in your hand and you will learn a lot about &l&o&6Extreme Reactors&r."]
@@ -69,7 +67,7 @@
 				}
 			}
 			x: 0.0d
-			y: 0.0d
+			y: -4.5d
 			shape: "octagon"
 			subtitle: "Electricity from &#80B425Uranium&r"
 			description: ["&l&o&6Extreme Reactors&r is a mod all about making extreme amounts of energy in an efficient way."]
@@ -82,17 +80,26 @@
 			}]
 		}
 		{
-			x: -0.25d
-			y: 5.75d
+			x: -1.5d
+			y: 2.75d
+			shape: "square"
+			subtitle: "Your very first reactor!"
+			dependencies: [
+				"7A3F1BC3D6B98D77"
+				"6616388BDC1A0BDE"
+				"3D1D2227EF54E1F3"
+			]
+			size: 1.5d
 			id: "47D58FD227B99611"
 			tasks: [{
 				id: "081A91303F139F6C"
 				type: "item"
+				title: "&#4B4E53Basic Reactor Controller&r"
 				item: "bigreactors:basic_reactorcontroller"
 			}]
 		}
 		{
-			x: 0.75d
+			x: 17.0d
 			y: 5.75d
 			id: "5A646FCC3CBF91CF"
 			tasks: [{
@@ -102,17 +109,25 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 5.75d
+			x: -6.25d
+			y: 8.75d
+			shape: "square"
+			dependencies: [
+				"62AE44EF42DE855E"
+				"4C32DDB98EFDC15A"
+				"4486C68BF5B9FCE2"
+			]
+			size: 1.5d
 			id: "6411797C17A84579"
 			tasks: [{
 				id: "7A0D302089E026BF"
 				type: "item"
+				title: "&#929090Basic Turbine Controller&r"
 				item: "bigreactors:basic_turbinecontroller"
 			}]
 		}
 		{
-			x: 3.0d
+			x: 19.25d
 			y: 5.75d
 			id: "1B40272EE7B1DD4F"
 			tasks: [{
@@ -122,18 +137,32 @@
 			}]
 		}
 		{
-			x: 4.25d
-			y: 5.75d
+			x: -1.5d
+			y: 13.5d
+			shape: "square"
+			dependencies: [
+				"5FBB48BC5223C760"
+				"347740BA6C176E93"
+			]
+			size: 1.5d
 			id: "45FC67AC6AAD4EBA"
 			tasks: [{
 				id: "0576EB76860BBEDF"
 				type: "item"
+				title: "&#435548Reprocessor Controller&r"
 				item: "bigreactors:reprocessorcontroller"
 			}]
 		}
 		{
-			x: 5.5d
-			y: 5.75d
+			x: 3.25d
+			y: 8.75d
+			shape: "square"
+			dependencies: [
+				"4AB86B0A78314E07"
+				"4C32DDB98EFDC15A"
+				"347740BA6C176E93"
+			]
+			size: 1.5d
 			id: "4F46D07D4530D22B"
 			tasks: [{
 				id: "1FBA23EFE5B8869A"
@@ -142,8 +171,10 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 5.75d
+			x: 5.75d
+			y: 12.75d
+			hide_dependency_lines: true
+			dependencies: ["4F46D07D4530D22B"]
 			id: "04F2630323C569E0"
 			tasks: [{
 				id: "722CDF991FBF10C0"
@@ -152,38 +183,55 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 5.75d
-			id: "7E170588BD4F5D35"
-			tasks: [{
-				id: "105F714782B2A14B"
-				type: "item"
-				item: "bigreactors:benitoite_crystal"
-			}]
-		}
-		{
-			x: -3.25d
-			y: 21.0d
+			title: "&#97E9FFCyanite&r"
+			x: -1.5d
+			y: 8.75d
+			shape: "gear"
+			dependencies: [
+				"47D58FD227B99611"
+				"5F37968C49761122"
+				"2402979BD3FA1B60"
+				"48A5145F30F1AA63"
+				"479BB2A05EC2A2E6"
+			]
+			size: 2.0d
 			id: "5BD66929CD105E0C"
 			tasks: [{
 				id: "19A27F02019AB288"
 				type: "item"
+				title: "&#97E9FFCyanite Ingot&r"
 				item: "bigreactors:cyanite_ingot"
 			}]
 		}
 		{
-			x: -1.25d
-			y: 21.0d
+			title: "&#4B4E53Graphite&r"
+			x: 1.5d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "Pressured coal"
+			dependencies: ["7B9FBBCD2F962A0B"]
+			size: 2.0d
 			id: "2B68F6BF9FB99C2F"
 			tasks: [{
 				id: "1698A2727411A9B4"
 				type: "item"
+				title: "&#4B4E53Graphite Bar&r"
 				item: "bigreactors:graphite_ingot"
 			}]
 		}
 		{
-			x: -0.25d
-			y: 21.0d
+			x: -1.5d
+			y: 19.0d
+			shape: "gear"
+			dependencies: [
+				"45FC67AC6AAD4EBA"
+				"6702A4F420743A30"
+				"697DF2F516351EF5"
+				"0CEC77C232609E7F"
+				"23AAF9105554A0A4"
+				"11CD63A56D8E853D"
+			]
+			size: 2.0d
 			id: "07E1BACA00C7D0D7"
 			tasks: [{
 				id: "5AE09A771BA1D679"
@@ -192,7 +240,7 @@
 			}]
 		}
 		{
-			x: 1.75d
+			x: 18.0d
 			y: 21.0d
 			id: "02DDA029B6789AA4"
 			tasks: [{
@@ -202,7 +250,7 @@
 			}]
 		}
 		{
-			x: 3.75d
+			x: 20.0d
 			y: 21.0d
 			id: "078727DADC660D58"
 			tasks: [{
@@ -212,7 +260,7 @@
 			}]
 		}
 		{
-			x: 4.75d
+			x: 21.0d
 			y: 21.0d
 			id: "63C3991EACE67994"
 			tasks: [{
@@ -222,7 +270,7 @@
 			}]
 		}
 		{
-			x: 5.75d
+			x: 22.0d
 			y: 21.0d
 			id: "4CE0BEACAE9F5563"
 			tasks: [{
@@ -232,23 +280,10 @@
 			}]
 		}
 		{
-			x: -3.25d
-			y: 22.0d
-			dependencies: ["5BD66929CD105E0C"]
-			id: "5D45E544CC2F8B2A"
-			tasks: [{
-				id: "03837E93B8437E9E"
-				type: "item"
-				item: "bigreactors:cyanite_block"
-			}]
-		}
-		{
-			x: -2.25d
+			x: 15.0d
 			y: 21.5d
-			dependencies: [
-				"5BD66929CD105E0C"
-				"5D45E544CC2F8B2A"
-			]
+			hide_dependency_lines: true
+			dependencies: ["5BD66929CD105E0C"]
 			dependency_requirement: "one_completed"
 			id: "311902BAD0F0EFE0"
 			tasks: [{
@@ -258,8 +293,9 @@
 			}]
 		}
 		{
-			x: 0.75d
-			y: 21.75d
+			x: 17.0d
+			y: 21.5d
+			hide_dependency_lines: true
 			dependencies: ["07E1BACA00C7D0D7"]
 			id: "1A1D558E7ECDF699"
 			tasks: [{
@@ -269,7 +305,7 @@
 			}]
 		}
 		{
-			x: 2.75d
+			x: 19.0d
 			y: 21.5d
 			dependencies: ["02DDA029B6789AA4"]
 			id: "44D3AC1068B07EAE"
@@ -280,8 +316,9 @@
 			}]
 		}
 		{
-			x: -3.25d
-			y: 23.0d
+			x: 3.75d
+			y: 12.75d
+			dependencies: ["4F46D07D4530D22B"]
 			id: "1DC387BD95C01C44"
 			tasks: [{
 				id: "478AE605D1784CC7"
@@ -290,8 +327,12 @@
 			}]
 		}
 		{
-			x: -2.25d
-			y: 23.0d
+			x: 4.75d
+			y: 12.75d
+			dependencies: [
+				"04F2630323C569E0"
+				"4F46D07D4530D22B"
+			]
 			id: "372C9532D5A5BA7D"
 			tasks: [{
 				id: "1FF1827AFA8FB565"
@@ -300,8 +341,12 @@
 			}]
 		}
 		{
-			x: -1.25d
-			y: 23.0d
+			x: 4.25d
+			y: 13.75d
+			dependencies: [
+				"1DC387BD95C01C44"
+				"372C9532D5A5BA7D"
+			]
 			id: "2A935EC97691344D"
 			tasks: [{
 				id: "09D96911D6C55D87"
@@ -310,7 +355,7 @@
 			}]
 		}
 		{
-			x: -0.25d
+			x: 16.0d
 			y: 23.0d
 			id: "42130EA4DBF20045"
 			tasks: [{
@@ -320,8 +365,9 @@
 			}]
 		}
 		{
-			x: 0.75d
-			y: 23.0d
+			x: 1.75d
+			y: 12.75d
+			dependencies: ["4F46D07D4530D22B"]
 			id: "4CB53826EBA5CDB9"
 			tasks: [{
 				id: "16769186BB90FADF"
@@ -330,8 +376,9 @@
 			}]
 		}
 		{
-			x: 1.75d
-			y: 23.0d
+			x: 2.75d
+			y: 12.75d
+			dependencies: ["4F46D07D4530D22B"]
 			id: "6C6C2266CF4C0ECB"
 			tasks: [{
 				id: "0BEF029B8519B049"
@@ -340,7 +387,7 @@
 			}]
 		}
 		{
-			x: 2.75d
+			x: 19.0d
 			y: 23.0d
 			id: "3DC38D81B2EAB898"
 			tasks: [{
@@ -350,97 +397,141 @@
 			}]
 		}
 		{
-			x: -0.25d
-			y: 6.75d
+			x: 1.5d
+			y: 2.75d
+			dependencies: [
+				"2B68F6BF9FB99C2F"
+				"7607D13B4DE67B94"
+			]
 			id: "6616388BDC1A0BDE"
 			tasks: [{
 				id: "4F12643911EAB2D7"
 				type: "item"
+				title: "&#4B4E53Basic Reactor Casing&r"
 				item: "bigreactors:basic_reactorcasing"
 			}]
 		}
 		{
-			x: -0.25d
-			y: 7.75d
+			x: 2.25d
+			y: 5.0d
+			subtitle: "What inside my reactor?"
+			description: ["&nThis block is optional and can be replaced by another Casing block.&r"]
+			dependencies: [
+				"47D58FD227B99611"
+				"45983CB223F48DBF"
+			]
+			optional: true
 			id: "321F5E8109EA5576"
 			tasks: [{
 				id: "6EDFA71B1B16A588"
 				type: "item"
+				title: "&#4B4E53Basic Reactor Glass&r"
 				item: "bigreactors:basic_reactorglass"
 			}]
 		}
 		{
-			x: -0.25d
-			y: 8.75d
+			x: -4.25d
+			y: 5.5d
+			dependencies: [
+				"47D58FD227B99611"
+				"45983CB223F48DBF"
+			]
 			id: "30450540BE132B26"
 			tasks: [{
 				id: "2402979BD3FA1B60"
 				type: "item"
+				title: "&#4B4E53Basic Fuel Rod&r"
 				item: "bigreactors:basic_reactorfuelrod"
 			}]
 		}
 		{
-			x: -0.25d
-			y: 9.75d
+			x: -5.25d
+			y: 5.0d
+			dependencies: ["47D58FD227B99611"]
 			id: "676F58186B56D43C"
 			tasks: [{
 				id: "5F37968C49761122"
 				type: "item"
+				title: "&#4B4E53Basic Control Rod&r"
 				item: "bigreactors:basic_reactorcontrolrod"
 			}]
 		}
 		{
-			x: -0.25d
-			y: 10.75d
+			x: -3.25d
+			y: 6.0d
+			dependencies: [
+				"47D58FD227B99611"
+				"2E333910717E3BB5"
+			]
 			id: "214907422684E900"
 			tasks: [{
 				id: "48A5145F30F1AA63"
 				type: "item"
+				title: "&#4B4E53Basic Access Port&r"
 				item: "bigreactors:basic_reactorsolidaccessport"
 			}]
 		}
 		{
-			x: -0.25d
-			y: 12.75d
+			x: -2.25d
+			y: 6.25d
+			dependencies: ["47D58FD227B99611"]
 			id: "18F3AD8DBD72D34E"
 			tasks: [{
 				id: "479BB2A05EC2A2E6"
 				type: "item"
+				title: "&#4B4E53Basic Active Energy Power Tap&r"
 				item: "bigreactors:basic_reactorpowertapfe_active"
 			}]
 		}
 		{
-			x: -0.25d
-			y: 13.75d
+			x: -0.75d
+			y: 6.25d
+			dependencies: ["47D58FD227B99611"]
+			optional: true
 			id: "68DD20666DB29AA7"
 			tasks: [{
 				id: "734DB903D1E8A7F3"
 				type: "item"
+				title: "&#4B4E53Basic Passive Energy Power Tap&r"
 				item: "bigreactors:basic_reactorpowertapfe_passive"
 			}]
 		}
 		{
-			x: -0.25d
-			y: 15.75d
+			x: 1.25d
+			y: 5.5d
+			dependencies: [
+				"47D58FD227B99611"
+				"058C53606A481B5A"
+			]
+			optional: true
 			id: "651BFAE3993FDCD4"
 			tasks: [{
 				id: "4DA40B987AA47C0C"
 				type: "item"
+				title: "&#4B4E53Basic Redstone Port&r"
 				item: "bigreactors:basic_reactorredstoneport"
 			}]
 		}
 		{
-			x: -0.25d
-			y: 19.75d
+			x: 0.25d
+			y: 6.0d
+			dependencies: [
+				"47D58FD227B99611"
+				"479BB2A05EC2A2E6"
+				"45983CB223F48DBF"
+				"22F1DC9887D7943D"
+			]
+			optional: true
 			id: "7A044167FA3B6DA5"
 			tasks: [{
 				id: "6D8EBE26EDB2A30F"
 				type: "item"
+				title: "&#4B4E53Basic Energy Charging Port&r"
 				item: "bigreactors:basic_reactorchargingportfe"
 			}]
 		}
 		{
-			x: 0.75d
+			x: 17.0d
 			y: 6.75d
 			id: "3BFE4A5ECCADB7D8"
 			tasks: [{
@@ -450,7 +541,7 @@
 			}]
 		}
 		{
-			x: 0.75d
+			x: 17.0d
 			y: 7.75d
 			id: "25444E3E2F16E52B"
 			tasks: [{
@@ -460,7 +551,7 @@
 			}]
 		}
 		{
-			x: 0.75d
+			x: 17.0d
 			y: 8.75d
 			id: "160443F4101D782B"
 			tasks: [{
@@ -470,7 +561,7 @@
 			}]
 		}
 		{
-			x: 0.75d
+			x: 17.0d
 			y: 9.75d
 			id: "1B960DBBC02A786E"
 			tasks: [{
@@ -480,7 +571,7 @@
 			}]
 		}
 		{
-			x: 0.75d
+			x: 17.0d
 			y: 10.75d
 			id: "24FBFA39D836673D"
 			tasks: [{
@@ -490,7 +581,7 @@
 			}]
 		}
 		{
-			x: 0.75d
+			x: 17.0d
 			y: 12.75d
 			id: "111E2F0FE965C0B5"
 			tasks: [{
@@ -500,7 +591,7 @@
 			}]
 		}
 		{
-			x: 0.75d
+			x: 17.0d
 			y: 13.75d
 			id: "04F2BDFA8417D1F5"
 			tasks: [{
@@ -510,7 +601,7 @@
 			}]
 		}
 		{
-			x: 0.75d
+			x: 17.0d
 			y: 15.75d
 			id: "7CDF4B4B249557CD"
 			tasks: [{
@@ -520,7 +611,7 @@
 			}]
 		}
 		{
-			x: 0.75d
+			x: 17.0d
 			y: 19.75d
 			id: "5F1E9C57B9DD202C"
 			tasks: [{
@@ -530,7 +621,7 @@
 			}]
 		}
 		{
-			x: 0.75d
+			x: 17.0d
 			y: 11.75d
 			id: "111DC262F9C93A64"
 			tasks: [{
@@ -540,7 +631,7 @@
 			}]
 		}
 		{
-			x: 0.75d
+			x: 17.0d
 			y: 14.75d
 			id: "3DC68F59B4F54F27"
 			tasks: [{
@@ -550,7 +641,7 @@
 			}]
 		}
 		{
-			x: 0.75d
+			x: 17.0d
 			y: 16.75d
 			id: "5480834AB4126366"
 			tasks: [{
@@ -560,7 +651,7 @@
 			}]
 		}
 		{
-			x: 0.75d
+			x: 17.0d
 			y: 17.75d
 			id: "792DE1724C895F30"
 			tasks: [{
@@ -570,7 +661,7 @@
 			}]
 		}
 		{
-			x: 0.75d
+			x: 17.0d
 			y: 18.75d
 			id: "21B97BC2D84C8B71"
 			tasks: [{
@@ -580,127 +671,163 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 6.75d
+			x: -4.0d
+			y: 8.75d
+			dependencies: [
+				"5BD66929CD105E0C"
+				"121DF7B31DB4BEF8"
+			]
 			id: "62AE44EF42DE855E"
 			tasks: [{
 				id: "57E416BFCC713B40"
 				type: "item"
+				title: "&#929090Basic Turbine Housing&r"
 				item: "bigreactors:basic_turbinecasing"
 			}]
 		}
 		{
-			x: 2.0d
-			y: 7.75d
+			x: -8.5d
+			y: 13.25d
+			subtitle: "What inside my turbine?"
+			dependencies: ["6411797C17A84579"]
+			optional: true
 			id: "4F6636FC32C12F7F"
 			tasks: [{
 				id: "46541C80D220A2FC"
 				type: "item"
+				title: "&#929090Basic Turbine Glass"
 				item: "bigreactors:basic_turbineglass"
 			}]
 		}
 		{
-			x: 2.0d
-			y: 8.75d
+			x: -8.5d
+			y: 4.25d
+			dependencies: [
+				"6411797C17A84579"
+				"1BB4E62851AF2A15"
+			]
 			id: "5901129F9B0EB227"
 			tasks: [{
 				id: "54686521D54396F0"
 				type: "item"
+				title: "&#929090Basic Rotor Bearing&r"
 				item: "bigreactors:basic_turbinerotorbearing"
 			}]
 		}
 		{
-			x: 2.0d
-			y: 9.75d
+			x: -9.0d
+			y: 5.25d
+			dependencies: ["6411797C17A84579"]
 			id: "474DD01A6937B757"
 			tasks: [{
 				id: "3C3842022116642D"
 				type: "item"
+				title: "&#929090Basic Rotor Shaft&r"
 				item: "bigreactors:basic_turbinerotorshaft"
 			}]
 		}
 		{
-			x: 2.0d
-			y: 10.75d
+			x: -9.5d
+			y: 6.25d
+			dependencies: ["6411797C17A84579"]
 			id: "69BB584981DC06DA"
 			tasks: [{
 				id: "5C21F2ED6C4516A0"
 				type: "item"
+				title: "&#929090Basic Rotor Blade&r"
 				item: "bigreactors:basic_turbinerotorblade"
 			}]
 		}
 		{
-			x: 2.0d
-			y: 11.75d
+			x: -10.25d
+			y: 8.25d
+			dependencies: ["6411797C17A84579"]
 			id: "632FC5273B5FAAC0"
 			tasks: [{
 				id: "08760A6A330528E8"
 				type: "item"
+				title: "&#929090Basic Active Energy Power Tap&r"
 				item: "bigreactors:basic_turbinepowertapfe_active"
 			}]
 		}
 		{
-			x: 2.0d
-			y: 12.75d
+			x: -10.0d
+			y: 10.25d
+			dependencies: ["6411797C17A84579"]
+			optional: true
 			id: "62B46A7CC4A884CD"
 			tasks: [{
 				id: "4D94DA8A827C231C"
 				type: "item"
+				title: "&#929090Basic Passive Energy Power Tap&r"
 				item: "bigreactors:basic_turbinepowertapfe_passive"
 			}]
 		}
 		{
-			x: 2.0d
-			y: 13.75d
+			x: -10.0d
+			y: 7.25d
+			dependencies: [
+				"6411797C17A84579"
+				"41051DE2BBCC316F"
+				"1CA1D3344D0D0520"
+			]
 			id: "671C0685033F7E4C"
 			tasks: [{
 				id: "457CF9BA4BA27EC9"
 				type: "item"
+				title: "&#929090Basic Active Fluid Port&r"
 				item: "bigreactors:basic_turbinefluidport_forge_active"
 			}]
 		}
 		{
-			x: 2.0d
-			y: 14.75d
+			x: -10.25d
+			y: 9.25d
+			dependencies: [
+				"6411797C17A84579"
+				"1CA1D3344D0D0520"
+				"41051DE2BBCC316F"
+			]
+			optional: true
 			id: "604D65928B45D27B"
 			tasks: [{
 				id: "207349F2AD01B760"
 				type: "item"
+				title: "&#929090Basic Passive Fluid Port&r"
 				item: "bigreactors:basic_turbinefluidport_forge_passive"
 			}]
 		}
 		{
-			x: 2.0d
-			y: 15.75d
+			x: -9.0d
+			y: 12.25d
+			dependencies: ["6411797C17A84579"]
+			optional: true
 			id: "047FE944FAFA0DE2"
 			tasks: [{
 				id: "212E0089EE083BD5"
 				type: "item"
+				title: "&#929090Basic Redstone Port&r"
 				item: "bigreactors:basic_turbineredstoneport"
 			}]
 		}
 		{
-			x: 2.0d
-			y: 17.75d
-			id: "61073F6F216C4D87"
-			tasks: [{
-				id: "04BA2F7F2AFBD932"
-				type: "item"
-				item: "bigreactors:basic_turbinecreativesteamgenerator"
-			}]
-		}
-		{
-			x: 2.0d
-			y: 18.75d
+			x: -9.5d
+			y: 11.25d
+			dependencies: [
+				"6411797C17A84579"
+				"08760A6A330528E8"
+				"2E7BFDA1FA247D89"
+			]
+			optional: true
 			id: "04C21EFFC6F2062D"
 			tasks: [{
 				id: "379B8095ACE04EBF"
 				type: "item"
+				title: "&#929090Basic Energy Charging Port&r"
 				item: "bigreactors:basic_turbinechargingportfe"
 			}]
 		}
 		{
-			x: 3.0d
+			x: 19.25d
 			y: 6.75d
 			id: "71AE61239D16FF96"
 			tasks: [{
@@ -710,7 +837,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 19.25d
 			y: 7.75d
 			id: "029A2C8714BE9B54"
 			tasks: [{
@@ -720,7 +847,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 19.25d
 			y: 8.75d
 			id: "51881F5AF6816A42"
 			tasks: [{
@@ -730,7 +857,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 19.25d
 			y: 9.75d
 			id: "51A59FFE84666C58"
 			tasks: [{
@@ -740,7 +867,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 19.25d
 			y: 10.75d
 			id: "5630C8571E37B544"
 			tasks: [{
@@ -750,7 +877,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 19.25d
 			y: 11.75d
 			id: "3672B51316F93FE0"
 			tasks: [{
@@ -760,7 +887,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 19.25d
 			y: 12.75d
 			id: "66FA1AC1D9E75871"
 			tasks: [{
@@ -770,7 +897,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 19.25d
 			y: 13.75d
 			id: "0E396416FC39FC48"
 			tasks: [{
@@ -780,7 +907,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 19.25d
 			y: 14.75d
 			id: "6E0EB82FCF23FE03"
 			tasks: [{
@@ -790,7 +917,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 19.25d
 			y: 15.75d
 			id: "70B30EA55EFACDFB"
 			tasks: [{
@@ -800,7 +927,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 19.25d
 			y: 16.75d
 			id: "450FD330D4AE43A9"
 			tasks: [{
@@ -810,18 +937,8 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 19.25d
 			y: 17.75d
-			id: "2AB8EB1AA972E573"
-			tasks: [{
-				id: "65652A2AEEBED21C"
-				type: "item"
-				item: "bigreactors:reinforced_turbinecreativesteamgenerator"
-			}]
-		}
-		{
-			x: 3.0d
-			y: 18.75d
 			id: "4BBB7517B9325088"
 			tasks: [{
 				id: "38F5F78DBB79AB9C"
@@ -830,78 +947,107 @@
 			}]
 		}
 		{
-			x: 4.25d
-			y: 6.75d
+			x: -1.5d
+			y: 11.25d
+			dependencies: [
+				"5BD66929CD105E0C"
+				"121DF7B31DB4BEF8"
+				"68711AC9EA30B4EA"
+			]
 			id: "5FBB48BC5223C760"
 			tasks: [{
 				id: "3EA6A47C2DF72A50"
 				type: "item"
+				title: "&#435548Reprocessor Casing&r"
 				item: "bigreactors:reprocessorcasing"
 			}]
 		}
 		{
-			x: 4.25d
-			y: 7.75d
+			x: 1.25d
+			y: 15.75d
+			subtitle: "What inside my reprocessor?"
+			dependencies: ["45FC67AC6AAD4EBA"]
+			optional: true
 			id: "24C0ED848B23F047"
 			tasks: [{
 				id: "0719E27B3E215F15"
 				type: "item"
+				title: "&#435548Reprocessor Glass&r"
 				item: "bigreactors:reprocessorglass"
 			}]
 		}
 		{
-			x: 4.25d
-			y: 8.75d
+			x: -4.25d
+			y: 15.75d
+			dependencies: ["45FC67AC6AAD4EBA"]
 			id: "5D89A2D8E323E832"
 			tasks: [{
 				id: "6702A4F420743A30"
 				type: "item"
+				title: "&#435548Reprocessor Waste Injector&r"
 				item: "bigreactors:reprocessorwasteinjector"
 			}]
 		}
 		{
-			x: 4.25d
-			y: 9.75d
+			x: -3.25d
+			y: 16.25d
+			dependencies: ["45FC67AC6AAD4EBA"]
 			id: "64982FB592483AC8"
 			tasks: [{
 				id: "697DF2F516351EF5"
 				type: "item"
+				title: "&#435548Reprocessor Fluid Injector&r"
 				item: "bigreactors:reprocessorfluidinjector"
 			}]
 		}
 		{
-			x: 4.25d
-			y: 10.75d
+			x: 0.25d
+			y: 16.25d
+			dependencies: ["45FC67AC6AAD4EBA"]
 			id: "03674348896AD874"
 			tasks: [{
 				id: "11CD63A56D8E853D"
 				type: "item"
+				title: "&#435548Reprocessor Output Port&r"
 				item: "bigreactors:reprocessoroutputport"
 			}]
 		}
 		{
-			x: 4.25d
-			y: 11.75d
+			x: -2.25d
+			y: 16.5d
+			dependencies: [
+				"45FC67AC6AAD4EBA"
+				"4486C68BF5B9FCE2"
+			]
 			id: "584AEA969063CBC9"
 			tasks: [{
 				id: "0CEC77C232609E7F"
 				type: "item"
+				title: "&#435548Reprocessor Power Port&r"
 				item: "bigreactors:reprocessorpowerport"
 			}]
 		}
 		{
-			x: 4.25d
-			y: 12.75d
+			x: -0.75d
+			y: 16.5d
+			dependencies: ["45FC67AC6AAD4EBA"]
 			id: "7E72A56CAFAB30C2"
 			tasks: [{
 				id: "23AAF9105554A0A4"
 				type: "item"
+				title: "&#435548Reprocessor Collector&r"
 				item: "bigreactors:reprocessorcollector"
 			}]
 		}
 		{
-			x: 5.5d
-			y: 6.75d
+			x: 1.0d
+			y: 8.75d
+			hide_dependency_lines: false
+			dependencies: [
+				"5BD66929CD105E0C"
+				"121DF7B31DB4BEF8"
+				"68711AC9EA30B4EA"
+			]
 			id: "4AB86B0A78314E07"
 			tasks: [{
 				id: "6D21E387666AC707"
@@ -911,7 +1057,10 @@
 		}
 		{
 			x: 5.5d
-			y: 7.75d
+			y: 10.75d
+			subtitle: "What inside my fluidizer?"
+			dependencies: ["4F46D07D4530D22B"]
+			optional: true
 			id: "59AB2C85FA12A737"
 			tasks: [{
 				id: "5716E475840066C4"
@@ -921,7 +1070,8 @@
 		}
 		{
 			x: 5.5d
-			y: 8.75d
+			y: 6.75d
+			dependencies: ["4F46D07D4530D22B"]
 			id: "068422FBD494C809"
 			tasks: [{
 				id: "2FC005D9F5FA74B3"
@@ -930,8 +1080,9 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 9.75d
+			x: 6.0d
+			y: 7.75d
+			dependencies: ["4F46D07D4530D22B"]
 			id: "1A964BF877C70AE8"
 			tasks: [{
 				id: "58991B058F15853B"
@@ -940,8 +1091,9 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 10.75d
+			x: 6.0d
+			y: 9.75d
+			dependencies: ["4F46D07D4530D22B"]
 			id: "62055DFEEF5A628E"
 			tasks: [{
 				id: "31F006D109F0AB8E"
@@ -950,8 +1102,12 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 11.75d
+			x: 6.25d
+			y: 8.75d
+			dependencies: [
+				"4F46D07D4530D22B"
+				"4486C68BF5B9FCE2"
+			]
 			id: "43C283F75659D8DE"
 			tasks: [{
 				id: "48E554AD8D1CFF20"
@@ -960,12 +1116,19 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 3.375d
+			x: 4.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "Just... a wrench"
+			dependencies: [
+				"2B68F6BF9FB99C2F"
+				"121DF7B31DB4BEF8"
+			]
 			id: "31CC416B6086FEF1"
 			tasks: [{
 				id: "1573C164ED6DA9E4"
 				type: "item"
+				title: "&6Extreme Wrench&r"
 				item: "bigreactors:wrench"
 			}]
 		}

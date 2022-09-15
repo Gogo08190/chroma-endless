@@ -170,14 +170,23 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 3.25d
 			y: -3.0d
+			shape: "rsquare"
 			subtitle: "The Forgotten Guardian is a mini-boss mob"
-			description: ["The Forgotten Guardian can only be found naturally in the catacombs, spawning with the generation of the world."]
+			description: [
+				"The Forgotten Guardian can only be found naturally in the catacombs, spawning with the generation of the world."
+				""
+				"&bYou can find bottles containing Forgotten Guardian in the catacombs chest !"
+			]
+			hide_dependency_lines: true
+			dependencies: ["7958F40FFDC2C5D3"]
+			size: 1.5d
 			id: "7618853E2C7F6B12"
 			tasks: [{
 				id: "4746C99E47082F82"
 				type: "kill"
+				title: "&cKill: 5x Forgotten Guardian"
 				icon: {
 					id: "ftbquests:custom_icon"
 					Count: 1b
@@ -190,14 +199,19 @@
 			}]
 		}
 		{
-			x: 5.5d
+			x: 7.75d
 			y: -3.0d
+			shape: "rsquare"
 			subtitle: "The Rotbeast is a hostile mobs native to The Otherside"
 			description: ["The Rotbeast can spawn on any solid block with a light level below 7. They have an increased chance of spawning in the Barren Abyss."]
+			hide_dependency_lines: true
+			dependencies: ["7958F40FFDC2C5D3"]
+			size: 1.5d
 			id: "6518806517E871F0"
 			tasks: [{
 				id: "7D3AF75899EC6A57"
 				type: "kill"
+				title: "&cKill: 10x Rotbeast"
 				icon: {
 					id: "ftbquests:custom_icon"
 					Count: 1b
@@ -210,12 +224,18 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 4.75d
 			y: -3.0d
+			shape: "rsquare"
+			description: ["The Rotling can spawn on any solid block with a light level below 7. They have an increased chance of spawning in the Barren Abyss."]
+			hide_dependency_lines: true
+			dependencies: ["7958F40FFDC2C5D3"]
+			size: 1.5d
 			id: "792FCB32BAC70D55"
 			tasks: [{
 				id: "5D33EE19642093B6"
 				type: "kill"
+				title: "&cKill: 10x Rotling"
 				icon: {
 					id: "ftbquests:custom_icon"
 					Count: 1b
@@ -228,12 +248,18 @@
 			}]
 		}
 		{
-			x: 7.5d
+			x: 6.25d
 			y: -3.0d
+			shape: "rsquare"
+			description: ["The Rotwalker can spawn on any solid block with a light level below 7. They have an increased chance of spawning in the Barren Abyss."]
+			hide_dependency_lines: true
+			dependencies: ["7958F40FFDC2C5D3"]
+			size: 1.5d
 			id: "52A1F043FE3C930E"
 			tasks: [{
 				id: "7CA4ADD0E950A224"
 				type: "kill"
+				title: "&cKill: 10x Rotwalker"
 				icon: {
 					id: "ftbquests:custom_icon"
 					Count: 1b
@@ -246,17 +272,22 @@
 			}]
 		}
 		{
-			x: 8.5d
+			x: 12.25d
 			y: -3.0d
+			shape: "rsquare"
 			description: [
 				"The Nargoyle will wander around. When it spots a player, it will run towards them and attack by leaping at them."
 				""
 				"Cavern Creatures can spawn on any solid block with a light level below 7 below Y 32."
 			]
+			hide_dependency_lines: true
+			dependencies: ["7958F40FFDC2C5D3"]
+			size: 1.5d
 			id: "680DB39E645E09B1"
 			tasks: [{
 				id: "454D33A6327B5C61"
 				type: "kill"
+				title: "&cKill: 10x Nargoyle"
 				icon: {
 					id: "ftbquests:custom_icon"
 					Count: 1b
@@ -272,7 +303,6 @@
 			x: 3.0d
 			y: -8.75d
 			description: ["A smooth piece of Depthrock, the perfect ammunition for a Slingshot"]
-			dependencies: ["7958F40FFDC2C5D3"]
 			id: "35A56E4F2BD63E3C"
 			tasks: [{
 				id: "6F1A65CFFA6FA60B"
@@ -283,7 +313,6 @@
 		{
 			x: 2.25d
 			y: -8.0d
-			dependencies: ["35A56E4F2BD63E3C"]
 			id: "654B9FAF72AF9939"
 			tasks: [{
 				id: "54527DB6106238A5"
@@ -305,7 +334,6 @@
 				""
 				"&cUsing it in the Overworld will cause a violent explosion !"
 			]
-			dependencies: ["654B9FAF72AF9939"]
 			id: "7EF4D9152F2BCCF1"
 			tasks: [{
 				id: "1F04B1324A4F9EAE"
@@ -316,7 +344,6 @@
 		{
 			x: 3.0d
 			y: -5.75d
-			dependencies: ["3FD90F2027B2B494"]
 			id: "550677B5AA49FB3C"
 			tasks: [{
 				id: "44B76080A2C62D20"
@@ -423,12 +450,19 @@
 			}]
 		}
 		{
-			x: 9.5d
+			x: 1.75d
 			y: -3.0d
+			shape: "rsquare"
+			subtitle: "A Brute is a neutral mob"
+			description: ["Brutes will naturally spawn in groups of 4 found in the dense forest, forgotten field, gronglegrowth, smogstem forest, and wigglewood forest biomes without any light level requirements."]
+			hide_dependency_lines: true
+			dependencies: ["7958F40FFDC2C5D3"]
+			size: 1.5d
 			id: "3ADD142B42D8BBCA"
 			tasks: [{
 				id: "0985113415FBE8B3"
 				type: "kill"
+				title: "&cKill: 10x Brute"
 				icon: {
 					id: "ftbquests:custom_icon"
 					Count: 1b
@@ -444,7 +478,6 @@
 			x: 2.25d
 			y: -6.5d
 			description: ["A makeshift projectile explosive, often sold by shady Stoneborn"]
-			dependencies: ["7EF4D9152F2BCCF1"]
 			id: "3FD90F2027B2B494"
 			tasks: [{
 				id: "406B24E3ACFAC295"
@@ -483,6 +516,123 @@
 				id: "37BDDE28094FEEC3"
 				type: "item"
 				item: "undergarden:gloomper_leg"
+			}]
+		}
+		{
+			x: 9.25d
+			y: -3.0d
+			shape: "rsquare"
+			subtitle: "The Stoneborn is a neutral mob"
+			description: [
+				"The Stoneborn wanders around slowly and will look at other entities and players. If a player interacts with a Stoneborn, a trade will be initiated. If attacked, it will become hostile and will call for help from other Stoneborn."
+				""
+				"&cIf a Stoneborn is outside of the Undergarden for more than 15 seconds, it will explode, killing itself and destroying a small amount of land."
+			]
+			hide_dependency_lines: true
+			dependencies: ["7958F40FFDC2C5D3"]
+			size: 1.5d
+			id: "3259211814B15415"
+			tasks: [{
+				id: "7180743D9651CF3D"
+				type: "kill"
+				title: "&cKill: 10x Stoneborn"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "chroma:textures/quests/stborn.png"
+					}
+				}
+				entity: "undergarden:stoneborn"
+				value: 10L
+			}]
+		}
+		{
+			x: 2.25d
+			y: -9.5d
+			id: "0A2D533F8AB68EEA"
+			tasks: [{
+				id: "1176CD614054A924"
+				type: "item"
+				item: "undergarden:ditchbulb"
+				count: 4L
+			}]
+		}
+		{
+			x: 10.75d
+			y: -3.0d
+			shape: "rsquare"
+			description: [
+				"The Muncher will wander around. When it senses a player, it will run towards them and bite the player. "
+				""
+				" If there is a block that the muncher can break, separating it and the player, it will break its way towards the player. Upon breaking a block, the Muncher heals for 1 health."
+			]
+			hide_dependency_lines: true
+			dependencies: ["7958F40FFDC2C5D3"]
+			size: 1.5d
+			id: "6DD2CE6BDCB63729"
+			tasks: [{
+				id: "7674AE6F0CE79461"
+				type: "kill"
+				title: "&cKill: 10x Muncher"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "chroma:textures/quests/muncher.png"
+					}
+				}
+				entity: "undergarden:muncher"
+				value: 10L
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.25d
+			shape: "gear"
+			hide_dependency_lines: true
+			dependencies: ["7958F40FFDC2C5D3"]
+			size: 1.3d
+			id: "098726C251241A31"
+			tasks: [{
+				id: "1239E06A64CDC434"
+				type: "advancement"
+				title: "&5Discover every Undergarden biome"
+				advancement: "undergarden:undergarden/all_undergarden_biomes"
+				criterion: ""
+			}]
+		}
+		{
+			x: 8.25d
+			y: -1.25d
+			shape: "gear"
+			hide_dependency_lines: true
+			dependencies: ["7958F40FFDC2C5D3"]
+			size: 1.3d
+			id: "5EDA2AD1B1EFCD3F"
+			tasks: [{
+				id: "53979D9A6EACB5F8"
+				type: "advancement"
+				title: "&aTrade with a Stoneborn"
+				advancement: "undergarden:undergarden/trade_with_stoneborn"
+				criterion: ""
+			}]
+		}
+		{
+			x: 5.75d
+			y: -1.25d
+			shape: "gear"
+			description: ["Create a Forgotten Minion using a Forgotten Block and a Carved Gloomgourd."]
+			hide_dependency_lines: true
+			dependencies: ["7958F40FFDC2C5D3"]
+			size: 1.3d
+			id: "23BDC67CAC69DE8D"
+			tasks: [{
+				id: "39D623304E78E955"
+				type: "advancement"
+				title: "&aCreate a Forgotten Minion"
+				advancement: "undergarden:undergarden/summon_minion"
+				criterion: ""
 			}]
 		}
 	]
