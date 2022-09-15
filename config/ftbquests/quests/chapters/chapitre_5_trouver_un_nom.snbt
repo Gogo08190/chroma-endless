@@ -2297,7 +2297,7 @@
 			]
 		}
 		{
-			title: "Glyph of Color Frequency"
+			title: "EnderChest School"
 			x: -1.5d
 			y: 12.5d
 			dependencies: ["36D7AB33ECC0C810"]
@@ -2383,6 +2383,26 @@
 					type: "item"
 					item: "ars_nouveau:glyph_color_blue"
 				}
+				{
+					id: "576620FA28B33E91"
+					type: "item"
+					item: "ars_nouveau:glyph_enderstorage_place"
+				}
+				{
+					id: "0B32EF98B4A3D701"
+					type: "item"
+					item: "ars_nouveau:glyph_enderstorage_break"
+				}
+				{
+					id: "1858569EFD93C0E6"
+					type: "item"
+					item: "ars_nouveau:glyph_enderstorage_chest"
+				}
+				{
+					id: "48D2022B65AAD1F9"
+					type: "item"
+					item: "ars_nouveau:glyph_enderstorage_tank"
+				}
 			]
 		}
 		{
@@ -2441,6 +2461,169 @@
 					id: "0015A9DCE743EEE7"
 					type: "item"
 					item: "ars_nouveau:glyph_redstone_signal"
+				}
+			]
+		}
+		{
+			title: "School Of Elements"
+			x: -3.5d
+			y: 12.5d
+			dependencies: ["36D7AB33ECC0C810"]
+			id: "58E84351890C0A94"
+			tasks: [
+				{
+					id: "2E6FE92F6C90A27E"
+					type: "item"
+					item: "ars_nouveau:glyph_haste"
+				}
+				{
+					id: "1F849909FD0DF2D9"
+					type: "item"
+					item: "ars_nouveau:glyph_break"
+				}
+				{
+					id: "100051D4C3D4A566"
+					type: "item"
+					item: "ars_nouveau:glyph_harvest"
+				}
+				{
+					id: "31D42D73FCC31412"
+					type: "item"
+					item: "ars_nouveau:glyph_gust"
+				}
+				{
+					id: "447E2D84B1836424"
+					type: "item"
+					item: "ars_nouveau:glyph_launch"
+				}
+				{
+					id: "278B3E5E78BF9122"
+					type: "item"
+					item: "ars_nouveau:glyph_pull"
+				}
+				{
+					id: "17C52AD078C64049"
+					type: "item"
+					item: "ars_nouveau:glyph_snare"
+				}
+				{
+					id: "277A16AEB5E3B831"
+					type: "item"
+					item: "ars_nouveau:glyph_freeze"
+				}
+				{
+					id: "564F0B3D1E523665"
+					type: "item"
+					item: "ars_nouveau:glyph_ignite"
+				}
+				{
+					id: "3B450BCF0A72FE3A"
+					type: "item"
+					item: "ars_nouveau:glyph_aquatic"
+				}
+				{
+					id: "11D305AE1114F671"
+					type: "item"
+					item: "ars_nouveau:glyph_conjure_terrain"
+				}
+				{
+					id: "1E951E3C2B8538AD"
+					type: "item"
+					item: "ars_nouveau:glyph_harm"
+				}
+			]
+		}
+		{
+			title: "No School Needed"
+			x: -4.5d
+			y: 12.5d
+			dependencies: ["36D7AB33ECC0C810"]
+			id: "4CDD605735DE26FD"
+			tasks: [
+				{
+					id: "0E1F79F28EE24D74"
+					type: "item"
+					item: "ars_nouveau:glyph_split"
+				}
+				{
+					id: "61D68FD8F53F1116"
+					type: "item"
+					item: "ars_nouveau:glyph_dampen"
+				}
+				{
+					id: "27190469F921493E"
+					type: "item"
+					item: "ars_nouveau:glyph_orbit"
+				}
+				{
+					id: "08B71B6F044E9A6B"
+					type: "item"
+					item: "ars_nouveau:glyph_accelerate"
+				}
+				{
+					id: "3DF7EC93FF82F667"
+					type: "item"
+					item: "ars_nouveau:glyph_touch"
+				}
+				{
+					id: "55A5C056690BF9CC"
+					type: "item"
+					item: "ars_nouveau:glyph_sensitive"
+				}
+				{
+					id: "0F407D38458FEE9F"
+					type: "item"
+					item: "ars_nouveau:glyph_extract"
+				}
+				{
+					id: "700BBD23C975A93C"
+					type: "item"
+					item: "ars_nouveau:glyph_duration_down"
+				}
+				{
+					id: "6D44374C07F23231"
+					type: "item"
+					item: "ars_nouveau:glyph_amplify"
+				}
+				{
+					id: "4E0B4847CF04C75E"
+					type: "item"
+					item: "ars_nouveau:glyph_underfoot"
+				}
+				{
+					id: "3F8EE5D552947B94"
+					type: "item"
+					item: "ars_nouveau:glyph_extend_time"
+				}
+				{
+					id: "5E880B1918CBB68E"
+					type: "item"
+					item: "ars_nouveau:glyph_pierce"
+				}
+				{
+					id: "6CAB1DF70E71BD36"
+					type: "item"
+					item: "ars_nouveau:glyph_fortune"
+				}
+				{
+					id: "4FEB7B3BF25DC215"
+					type: "item"
+					item: "ars_nouveau:glyph_homing_projectile"
+				}
+				{
+					id: "7D188E93DA02AD15"
+					type: "item"
+					item: "ars_nouveau:glyph_aoe"
+				}
+				{
+					id: "2F25C33E0823BE9C"
+					type: "item"
+					item: "ars_nouveau:glyph_arc_projectile"
+				}
+				{
+					id: "3546A28FFCC21B50"
+					type: "item"
+					item: "ars_nouveau:glyph_projectile"
 				}
 			]
 		}

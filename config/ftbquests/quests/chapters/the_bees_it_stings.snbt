@@ -7,6 +7,44 @@
 	icon: "kubejs:koepss"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -16.0d
+			y: -6.0d
+			width: 14.0d
+			height: 8.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/block_mutation.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -16.0d
+			y: 0.75d
+			width: 14.0d
+			height: 8.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/entity_mutation.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -16.0d
+			y: -12.75d
+			width: 14.0d
+			height: 8.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/mutaiton_image.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
 			x: -1.5d
@@ -165,7 +203,7 @@
 			}]
 		}
 		{
-			x: -10.0d
+			x: -9.75d
 			y: -4.5d
 			dependencies: ["06CC09E0AE4819E5"]
 			id: "068238B670D5838E"
@@ -324,8 +362,8 @@
 			}]
 		}
 		{
-			x: -9.75d
-			y: -6.0d
+			x: -8.75d
+			y: -7.0d
 			id: "73121D1485E47B03"
 			tasks: [{
 				id: "2091EFDFA9F2523C"

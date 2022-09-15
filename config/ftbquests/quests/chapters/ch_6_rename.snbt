@@ -1,7 +1,7 @@
 {
 	id: "20CF13F8BE802398"
 	group: "34085A64296DE6C7"
-	order_index: 8
+	order_index: 9
 	filename: "ch_6_rename"
 	title: "Ch. 9 (rename)"
 	icon: "rftoolsbase:machine_frame"
@@ -99,8 +99,11 @@
 			}]
 		}
 		{
-			x: 17.0d
-			y: 5.75d
+			x: 5.75d
+			y: 2.75d
+			shape: "square"
+			dependencies: ["3BFE4A5ECCADB7D8"]
+			size: 1.5d
 			id: "5A646FCC3CBF91CF"
 			tasks: [{
 				id: "7B661F962DD0685C"
@@ -109,7 +112,7 @@
 			}]
 		}
 		{
-			x: -6.25d
+			x: -2.25d
 			y: 8.75d
 			shape: "square"
 			dependencies: [
@@ -137,7 +140,7 @@
 			}]
 		}
 		{
-			x: -1.5d
+			x: 2.5d
 			y: 13.5d
 			shape: "square"
 			dependencies: [
@@ -154,7 +157,7 @@
 			}]
 		}
 		{
-			x: 3.25d
+			x: 7.25d
 			y: 8.75d
 			shape: "square"
 			dependencies: [
@@ -171,7 +174,7 @@
 			}]
 		}
 		{
-			x: 5.75d
+			x: 9.75d
 			y: 12.75d
 			hide_dependency_lines: true
 			dependencies: ["4F46D07D4530D22B"]
@@ -184,16 +187,14 @@
 		}
 		{
 			title: "&#97E9FFCyanite&r"
-			x: -1.5d
+			x: 2.5d
 			y: 8.75d
 			shape: "gear"
 			dependencies: [
 				"47D58FD227B99611"
-				"5F37968C49761122"
-				"2402979BD3FA1B60"
-				"48A5145F30F1AA63"
-				"479BB2A05EC2A2E6"
+				"5A646FCC3CBF91CF"
 			]
+			dependency_requirement: "one_completed"
 			size: 2.0d
 			id: "5BD66929CD105E0C"
 			tasks: [{
@@ -220,17 +221,10 @@
 			}]
 		}
 		{
-			x: -1.5d
+			x: 2.5d
 			y: 19.0d
 			shape: "gear"
-			dependencies: [
-				"45FC67AC6AAD4EBA"
-				"6702A4F420743A30"
-				"697DF2F516351EF5"
-				"0CEC77C232609E7F"
-				"23AAF9105554A0A4"
-				"11CD63A56D8E853D"
-			]
+			dependencies: ["45FC67AC6AAD4EBA"]
 			size: 2.0d
 			id: "07E1BACA00C7D0D7"
 			tasks: [{
@@ -316,7 +310,7 @@
 			}]
 		}
 		{
-			x: 3.75d
+			x: 7.75d
 			y: 12.75d
 			dependencies: ["4F46D07D4530D22B"]
 			id: "1DC387BD95C01C44"
@@ -327,7 +321,7 @@
 			}]
 		}
 		{
-			x: 4.75d
+			x: 8.75d
 			y: 12.75d
 			dependencies: [
 				"04F2630323C569E0"
@@ -341,7 +335,7 @@
 			}]
 		}
 		{
-			x: 4.25d
+			x: 8.25d
 			y: 13.75d
 			dependencies: [
 				"1DC387BD95C01C44"
@@ -365,7 +359,7 @@
 			}]
 		}
 		{
-			x: 1.75d
+			x: 5.75d
 			y: 12.75d
 			dependencies: ["4F46D07D4530D22B"]
 			id: "4CB53826EBA5CDB9"
@@ -376,7 +370,7 @@
 			}]
 		}
 		{
-			x: 2.75d
+			x: 6.75d
 			y: 12.75d
 			dependencies: ["4F46D07D4530D22B"]
 			id: "6C6C2266CF4C0ECB"
@@ -412,7 +406,7 @@
 			}]
 		}
 		{
-			x: 2.25d
+			x: 2.0d
 			y: 5.0d
 			subtitle: "What inside my reactor?"
 			description: ["&nThis block is optional and can be replaced by another Casing block.&r"]
@@ -430,7 +424,7 @@
 			}]
 		}
 		{
-			x: -4.25d
+			x: -4.0d
 			y: 5.5d
 			dependencies: [
 				"47D58FD227B99611"
@@ -445,7 +439,7 @@
 			}]
 		}
 		{
-			x: -5.25d
+			x: -5.0d
 			y: 5.0d
 			dependencies: ["47D58FD227B99611"]
 			id: "676F58186B56D43C"
@@ -457,7 +451,7 @@
 			}]
 		}
 		{
-			x: -3.25d
+			x: -3.0d
 			y: 6.0d
 			dependencies: [
 				"47D58FD227B99611"
@@ -472,7 +466,7 @@
 			}]
 		}
 		{
-			x: -2.25d
+			x: -2.0d
 			y: 6.25d
 			dependencies: ["47D58FD227B99611"]
 			id: "18F3AD8DBD72D34E"
@@ -484,7 +478,7 @@
 			}]
 		}
 		{
-			x: -0.75d
+			x: -1.0d
 			y: 6.25d
 			dependencies: ["47D58FD227B99611"]
 			optional: true
@@ -497,7 +491,7 @@
 			}]
 		}
 		{
-			x: 1.25d
+			x: 1.0d
 			y: 5.5d
 			dependencies: [
 				"47D58FD227B99611"
@@ -513,7 +507,7 @@
 			}]
 		}
 		{
-			x: 0.25d
+			x: 0.0d
 			y: 6.0d
 			dependencies: [
 				"47D58FD227B99611"
@@ -531,8 +525,9 @@
 			}]
 		}
 		{
-			x: 17.0d
-			y: 6.75d
+			x: 3.5d
+			y: 2.75d
+			dependencies: ["6616388BDC1A0BDE"]
 			id: "3BFE4A5ECCADB7D8"
 			tasks: [{
 				id: "3EB3A3091440A3CB"
@@ -671,7 +666,7 @@
 			}]
 		}
 		{
-			x: -4.0d
+			x: 0.0d
 			y: 8.75d
 			dependencies: [
 				"5BD66929CD105E0C"
@@ -686,8 +681,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 13.25d
+			x: -9.0d
+			y: 17.5d
 			subtitle: "What inside my turbine?"
 			dependencies: ["6411797C17A84579"]
 			optional: true
@@ -700,8 +695,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 4.25d
+			x: -9.0d
+			y: 8.5d
 			dependencies: [
 				"6411797C17A84579"
 				"1BB4E62851AF2A15"
@@ -716,7 +711,7 @@
 		}
 		{
 			x: -9.0d
-			y: 5.25d
+			y: 9.5d
 			dependencies: ["6411797C17A84579"]
 			id: "474DD01A6937B757"
 			tasks: [{
@@ -727,8 +722,8 @@
 			}]
 		}
 		{
-			x: -9.5d
-			y: 6.25d
+			x: -9.0d
+			y: 10.5d
 			dependencies: ["6411797C17A84579"]
 			id: "69BB584981DC06DA"
 			tasks: [{
@@ -739,8 +734,8 @@
 			}]
 		}
 		{
-			x: -10.25d
-			y: 8.25d
+			x: -9.0d
+			y: 12.5d
 			dependencies: ["6411797C17A84579"]
 			id: "632FC5273B5FAAC0"
 			tasks: [{
@@ -751,8 +746,8 @@
 			}]
 		}
 		{
-			x: -10.0d
-			y: 10.25d
+			x: -9.0d
+			y: 13.5d
 			dependencies: ["6411797C17A84579"]
 			optional: true
 			id: "62B46A7CC4A884CD"
@@ -764,8 +759,8 @@
 			}]
 		}
 		{
-			x: -10.0d
-			y: 7.25d
+			x: -9.0d
+			y: 11.5d
 			dependencies: [
 				"6411797C17A84579"
 				"41051DE2BBCC316F"
@@ -780,8 +775,8 @@
 			}]
 		}
 		{
-			x: -10.25d
-			y: 9.25d
+			x: -9.0d
+			y: 15.5d
 			dependencies: [
 				"6411797C17A84579"
 				"1CA1D3344D0D0520"
@@ -798,7 +793,7 @@
 		}
 		{
 			x: -9.0d
-			y: 12.25d
+			y: 16.5d
 			dependencies: ["6411797C17A84579"]
 			optional: true
 			id: "047FE944FAFA0DE2"
@@ -810,8 +805,8 @@
 			}]
 		}
 		{
-			x: -9.5d
-			y: 11.25d
+			x: -9.0d
+			y: 14.5d
 			dependencies: [
 				"6411797C17A84579"
 				"08760A6A330528E8"
@@ -947,7 +942,7 @@
 			}]
 		}
 		{
-			x: -1.5d
+			x: 2.5d
 			y: 11.25d
 			dependencies: [
 				"5BD66929CD105E0C"
@@ -963,7 +958,7 @@
 			}]
 		}
 		{
-			x: 1.25d
+			x: 5.25d
 			y: 15.75d
 			subtitle: "What inside my reprocessor?"
 			dependencies: ["45FC67AC6AAD4EBA"]
@@ -977,7 +972,7 @@
 			}]
 		}
 		{
-			x: -4.25d
+			x: -0.25d
 			y: 15.75d
 			dependencies: ["45FC67AC6AAD4EBA"]
 			id: "5D89A2D8E323E832"
@@ -989,7 +984,7 @@
 			}]
 		}
 		{
-			x: -3.25d
+			x: 0.75d
 			y: 16.25d
 			dependencies: ["45FC67AC6AAD4EBA"]
 			id: "64982FB592483AC8"
@@ -1001,7 +996,7 @@
 			}]
 		}
 		{
-			x: 0.25d
+			x: 4.25d
 			y: 16.25d
 			dependencies: ["45FC67AC6AAD4EBA"]
 			id: "03674348896AD874"
@@ -1013,7 +1008,7 @@
 			}]
 		}
 		{
-			x: -2.25d
+			x: 1.75d
 			y: 16.5d
 			dependencies: [
 				"45FC67AC6AAD4EBA"
@@ -1028,7 +1023,7 @@
 			}]
 		}
 		{
-			x: -0.75d
+			x: 3.25d
 			y: 16.5d
 			dependencies: ["45FC67AC6AAD4EBA"]
 			id: "7E72A56CAFAB30C2"
@@ -1040,7 +1035,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: 5.0d
 			y: 8.75d
 			hide_dependency_lines: false
 			dependencies: [
@@ -1056,7 +1051,7 @@
 			}]
 		}
 		{
-			x: 5.5d
+			x: 9.5d
 			y: 10.75d
 			subtitle: "What inside my fluidizer?"
 			dependencies: ["4F46D07D4530D22B"]
@@ -1069,7 +1064,7 @@
 			}]
 		}
 		{
-			x: 5.5d
+			x: 9.5d
 			y: 6.75d
 			dependencies: ["4F46D07D4530D22B"]
 			id: "068422FBD494C809"
@@ -1080,7 +1075,7 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 10.0d
 			y: 7.75d
 			dependencies: ["4F46D07D4530D22B"]
 			id: "1A964BF877C70AE8"
@@ -1091,7 +1086,7 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 10.0d
 			y: 9.75d
 			dependencies: ["4F46D07D4530D22B"]
 			id: "62055DFEEF5A628E"
@@ -1102,7 +1097,7 @@
 			}]
 		}
 		{
-			x: 6.25d
+			x: 10.25d
 			y: 8.75d
 			dependencies: [
 				"4F46D07D4530D22B"

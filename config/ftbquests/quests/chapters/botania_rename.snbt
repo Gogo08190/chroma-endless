@@ -704,5 +704,56 @@
 				item: "botania:dreamwood"
 			}]
 		}
+		{
+			title: "Color Quartz"
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["1BA1DC174E2C6675"]
+			id: "0204E5C31C281557"
+			tasks: [
+				{
+					id: "600D64D51C54FA91"
+					type: "item"
+					item: "botania:quartz_blaze"
+				}
+				{
+					id: "44B19E5050447103"
+					type: "item"
+					item: "botania:quartz_lavender"
+				}
+				{
+					id: "1A4A99BC57781007"
+					type: "item"
+					item: "botania:quartz_red"
+				}
+				{
+					id: "7CF5BBF191A0F30C"
+					type: "item"
+					item: "botania:quartz_sunny"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -4.5d
+			dependencies: ["40AA0A493F0620AA"]
+			id: "4D4FB37FA0FC638E"
+			tasks: [{
+				id: "4146923010533FB9"
+				type: "item"
+				item: "botania:quartz_mana"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -4.5d
+			dependencies: ["335E059D1698372F"]
+			id: "4F1DAEC73621FBC5"
+			tasks: [{
+				id: "61C7FF0FFD8319AA"
+				type: "item"
+				item: "botania:quartz_elven"
+			}]
+		}
 	]
 }
