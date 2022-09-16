@@ -2,8 +2,7 @@
 
 onEvent('recipes', (event) => {
     const idRemovals = [
-      'undergarden:smelt_catalyst',
-
+      'undergarden:smelt_catalyst'
     ];
 
     const outputRemovals = [
