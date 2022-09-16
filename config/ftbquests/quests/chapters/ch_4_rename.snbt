@@ -10,7 +10,7 @@
 	default_hide_dependency_lines: false
 	images: [{
 		x: 7.0d
-		y: -13.75d
+		y: -14.0d
 		width: 10.0d
 		height: 1.0d
 		rotation: 0.0d
@@ -30,9 +30,10 @@
 				}
 			}
 			x: 7.0d
-			y: -11.5d
+			y: -11.0d
 			shape: "rsquare"
 			description: ["The Undergarden is a dark, subterranean world located deep below the bedrock of the Overworld. The flora here has adapted to their conditions and can grow anywhere, independent of light. Strange creatures call these dark lands home, and are plagued by the invasive Rotspawn, monsters originating from a chaotic, mysterious realm."]
+			dependencies: ["7414B23F3AF2958F"]
 			size: 2.0d
 			id: "7958F40FFDC2C5D3"
 			tasks: [
@@ -49,8 +50,10 @@
 			]
 		}
 		{
-			x: -5.5d
-			y: -12.25d
+			x: 7.5d
+			y: -3.25d
+			hide_dependency_lines: true
+			dependencies: ["7958F40FFDC2C5D3"]
 			id: "3715DBB336E5FD49"
 			tasks: [{
 				id: "2F7D22BBE3C842F6"
@@ -59,8 +62,9 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: -11.25d
+			x: 7.5d
+			y: -2.0d
+			dependencies: ["3715DBB336E5FD49"]
 			id: "7C7D2393D10E51CE"
 			tasks: [{
 				id: "3F6EE7DC3C8225A8"
@@ -69,8 +73,10 @@
 			}]
 		}
 		{
-			x: -4.25d
-			y: -12.25d
+			x: 6.5d
+			y: -3.25d
+			hide_dependency_lines: true
+			dependencies: ["7958F40FFDC2C5D3"]
 			id: "2FBE218C4015D03F"
 			tasks: [{
 				id: "1EF1BFC1CDEEBAEB"
@@ -79,8 +85,9 @@
 			}]
 		}
 		{
-			x: -4.25d
-			y: -11.25d
+			x: 6.5d
+			y: -2.0d
+			dependencies: ["2FBE218C4015D03F"]
 			id: "7D351CB50EFE608B"
 			tasks: [{
 				id: "7EA034A464CB6E16"
@@ -89,8 +96,10 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -12.25d
+			x: 4.5d
+			y: -3.25d
+			hide_dependency_lines: true
+			dependencies: ["7958F40FFDC2C5D3"]
 			id: "72B61E272B25CFBF"
 			tasks: [{
 				id: "56DB28EC390B3583"
@@ -99,8 +108,10 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -12.25d
+			x: 5.5d
+			y: -3.25d
+			hide_dependency_lines: true
+			dependencies: ["7958F40FFDC2C5D3"]
 			id: "627C30BAEE85786A"
 			tasks: [{
 				id: "79409F28A1CFC8E1"
@@ -109,8 +120,9 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -11.25d
+			x: 4.5d
+			y: -2.0d
+			dependencies: ["72B61E272B25CFBF"]
 			id: "4F496F328C03DC99"
 			tasks: [{
 				id: "222D01FF8039788B"
@@ -119,8 +131,13 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -11.25d
+			x: 5.5d
+			y: -2.0d
+			dependencies: [
+				"627C30BAEE85786A"
+				"4F496F328C03DC99"
+			]
+			dependency_requirement: "one_completed"
 			id: "31DB904A4019BD4B"
 			tasks: [{
 				id: "32B0070A0A778FFC"
@@ -129,8 +146,10 @@
 			}]
 		}
 		{
-			x: 11.25d
-			y: -9.75d
+			x: 8.5d
+			y: -3.25d
+			hide_dependency_lines: true
+			dependencies: ["7958F40FFDC2C5D3"]
 			id: "683B58574B625D27"
 			tasks: [{
 				id: "206C3FDFB823935B"
@@ -139,9 +158,10 @@
 			}]
 		}
 		{
-			x: 11.25d
-			y: -8.75d
+			x: 8.5d
+			y: -2.0d
 			description: ["A soft, lustrous metal used for trading with Stoneborn."]
+			dependencies: ["683B58574B625D27"]
 			id: "08672636B514D519"
 			tasks: [{
 				id: "5296C6B9DB750EE0"
@@ -150,8 +170,10 @@
 			}]
 		}
 		{
-			x: 10.25d
-			y: -9.75d
+			x: 9.5d
+			y: -3.25d
+			hide_dependency_lines: true
+			dependencies: ["7958F40FFDC2C5D3"]
 			id: "5FE62A9CD55946E7"
 			tasks: [{
 				id: "7103DD0C77064D2C"
@@ -160,8 +182,9 @@
 			}]
 		}
 		{
-			x: 10.25d
-			y: -8.75d
+			x: 9.5d
+			y: -2.0d
+			dependencies: ["5FE62A9CD55946E7"]
 			id: "5391B6ED1C3CBC11"
 			tasks: [{
 				id: "7372E3364B76346D"
@@ -171,7 +194,7 @@
 		}
 		{
 			x: 3.25d
-			y: -3.0d
+			y: -0.5d
 			shape: "rsquare"
 			subtitle: "The Forgotten Guardian is a mini-boss mob"
 			description: [
@@ -200,7 +223,7 @@
 		}
 		{
 			x: 7.75d
-			y: -3.0d
+			y: -0.5d
 			shape: "rsquare"
 			subtitle: "The Rotbeast is a hostile mobs native to The Otherside"
 			description: ["The Rotbeast can spawn on any solid block with a light level below 7. They have an increased chance of spawning in the Barren Abyss."]
@@ -225,7 +248,7 @@
 		}
 		{
 			x: 4.75d
-			y: -3.0d
+			y: -0.5d
 			shape: "rsquare"
 			description: ["The Rotling can spawn on any solid block with a light level below 7. They have an increased chance of spawning in the Barren Abyss."]
 			hide_dependency_lines: true
@@ -249,7 +272,7 @@
 		}
 		{
 			x: 6.25d
-			y: -3.0d
+			y: -0.5d
 			shape: "rsquare"
 			description: ["The Rotwalker can spawn on any solid block with a light level below 7. They have an increased chance of spawning in the Barren Abyss."]
 			hide_dependency_lines: true
@@ -273,7 +296,7 @@
 		}
 		{
 			x: 12.25d
-			y: -3.0d
+			y: -0.5d
 			shape: "rsquare"
 			description: [
 				"The Nargoyle will wander around. When it spots a player, it will run towards them and attack by leaping at them."
@@ -300,9 +323,11 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -8.75d
+			x: 10.75d
+			y: -7.0d
 			description: ["A smooth piece of Depthrock, the perfect ammunition for a Slingshot"]
+			hide_dependency_lines: true
+			dependencies: ["7958F40FFDC2C5D3"]
 			id: "35A56E4F2BD63E3C"
 			tasks: [{
 				id: "6F1A65CFFA6FA60B"
@@ -311,8 +336,10 @@
 			}]
 		}
 		{
-			x: 2.25d
-			y: -8.0d
+			x: 10.0d
+			y: -6.25d
+			hide_dependency_lines: true
+			dependencies: ["7958F40FFDC2C5D3"]
 			id: "654B9FAF72AF9939"
 			tasks: [{
 				id: "54527DB6106238A5"
@@ -327,13 +354,15 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -7.25d
+			x: 4.0d
+			y: -7.75d
 			description: [
 				"A bed unique to the Undergarden, with the same functions and features as the original bed in Overworld it saves your spawn point in the Undergarden."
 				""
 				"&cUsing it in the Overworld will cause a violent explosion !"
 			]
+			hide_dependency_lines: true
+			dependencies: ["35A56E4F2BD63E3C"]
 			id: "7EF4D9152F2BCCF1"
 			tasks: [{
 				id: "1F04B1324A4F9EAE"
@@ -342,8 +371,10 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -5.75d
+			x: 4.0d
+			y: -6.25d
+			hide_dependency_lines: true
+			dependencies: ["7D351CB50EFE608B"]
 			id: "550677B5AA49FB3C"
 			tasks: [{
 				id: "44B76080A2C62D20"
@@ -451,7 +482,7 @@
 		}
 		{
 			x: 1.75d
-			y: -3.0d
+			y: -0.5d
 			shape: "rsquare"
 			subtitle: "A Brute is a neutral mob"
 			description: ["Brutes will naturally spawn in groups of 4 found in the dense forest, forgotten field, gronglegrowth, smogstem forest, and wigglewood forest biomes without any light level requirements."]
@@ -475,9 +506,11 @@
 			}]
 		}
 		{
-			x: 2.25d
-			y: -6.5d
+			x: 3.25d
+			y: -7.0d
 			description: ["A makeshift projectile explosive, often sold by shady Stoneborn"]
+			hide_dependency_lines: true
+			dependencies: ["0D95E0FD54639369"]
 			id: "3FD90F2027B2B494"
 			tasks: [{
 				id: "406B24E3ACFAC295"
@@ -520,7 +553,7 @@
 		}
 		{
 			x: 9.25d
-			y: -3.0d
+			y: -0.5d
 			shape: "rsquare"
 			subtitle: "The Stoneborn is a neutral mob"
 			description: [
@@ -548,8 +581,10 @@
 			}]
 		}
 		{
-			x: 2.25d
-			y: -9.5d
+			x: 10.0d
+			y: -7.75d
+			hide_dependency_lines: true
+			dependencies: ["7958F40FFDC2C5D3"]
 			id: "0A2D533F8AB68EEA"
 			tasks: [{
 				id: "1176CD614054A924"
@@ -560,7 +595,7 @@
 		}
 		{
 			x: 10.75d
-			y: -3.0d
+			y: -0.5d
 			shape: "rsquare"
 			description: [
 				"The Muncher will wander around. When it senses a player, it will run towards them and bite the player. "
@@ -588,7 +623,7 @@
 		}
 		{
 			x: 7.0d
-			y: -1.25d
+			y: 1.25d
 			shape: "gear"
 			hide_dependency_lines: true
 			dependencies: ["7958F40FFDC2C5D3"]
@@ -604,7 +639,7 @@
 		}
 		{
 			x: 8.25d
-			y: -1.25d
+			y: 1.25d
 			shape: "gear"
 			hide_dependency_lines: true
 			dependencies: ["7958F40FFDC2C5D3"]
@@ -620,7 +655,7 @@
 		}
 		{
 			x: 5.75d
-			y: -1.25d
+			y: 1.25d
 			shape: "gear"
 			description: ["Create a Forgotten Minion using a Forgotten Block and a Carved Gloomgourd."]
 			hide_dependency_lines: true
@@ -634,6 +669,43 @@
 				advancement: "undergarden:undergarden/summon_minion"
 				criterion: ""
 			}]
+		}
+		{
+			title: "&5Undergarden portal"
+			x: 7.0d
+			y: -12.75d
+			shape: "octagon"
+			description: [
+				"An Undergarden portal is built in a very similar manner to the Nether portal."
+				""
+				"It is built as a vertical, rectangular stone frame."
+				""
+				"Once a frame is constructed, it is activated by using a Catalyst on one of the blocks making up the frame."
+				""
+				"&bYou can press Z as default on the Catalyst to see how to build the portal."
+			]
+			dependencies: ["4EA12BDA0EC16BD2"]
+			id: "7414B23F3AF2958F"
+			tasks: [
+				{
+					id: "669C13852CC1623C"
+					type: "item"
+					item: "undergarden:catalyst"
+				}
+				{
+					id: "7FE8FB7372E484DB"
+					type: "item"
+					title: "Stone bricks"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:stone_bricks"
+						}
+					}
+					count: 14L
+				}
+			]
 		}
 	]
 }
