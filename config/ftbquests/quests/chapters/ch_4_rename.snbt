@@ -624,7 +624,7 @@
 		{
 			x: 7.0d
 			y: 1.25d
-			shape: "gear"
+			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["7958F40FFDC2C5D3"]
 			size: 1.3d
@@ -640,7 +640,7 @@
 		{
 			x: 8.25d
 			y: 1.25d
-			shape: "gear"
+			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["7958F40FFDC2C5D3"]
 			size: 1.3d
@@ -656,7 +656,7 @@
 		{
 			x: 5.75d
 			y: 1.25d
-			shape: "gear"
+			shape: "hexagon"
 			description: ["Create a Forgotten Minion using a Forgotten Block and a Carved Gloomgourd."]
 			hide_dependency_lines: true
 			dependencies: ["7958F40FFDC2C5D3"]
@@ -706,6 +706,21 @@
 					count: 14L
 				}
 			]
+		}
+		{
+			icon: "pneumaticcraft:ingot_iron_compressed"
+			x: 7.0d
+			y: 2.75d
+			shape: "gear"
+			hide_dependency_lines: true
+			dependencies: ["7D351CB50EFE608B"]
+			size: 1.5d
+			id: "32EC02B0F16BCB04"
+			tasks: [{
+				id: "16512B2F985FDC1A"
+				type: "checkmark"
+				title: "Unlock : &8Pneumaticcraft&r quest line"
+			}]
 		}
 	]
 }

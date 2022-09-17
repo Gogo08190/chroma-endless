@@ -3681,5 +3681,60 @@
 				}
 			}]
 		}
+		{
+			x: 4.75d
+			y: 11.5d
+			dependencies: ["5CF10CD523A35115"]
+			id: "044C6D8CC54F50C5"
+			tasks: [{
+				id: "5BCA60A85CC665FE"
+				type: "item"
+				item: "miniutilities:etheric_sword"
+			}]
+		}
+		{
+			x: 3.75d
+			y: 11.5d
+			dependencies: ["5CF10CD523A35115"]
+			id: "5B6744CFB0B5CCF5"
+			tasks: [{
+				id: "5D56EB5C8580BD40"
+				type: "item"
+				item: "miniutilities:erosion_shovel"
+			}]
+		}
+		{
+			x: 2.75d
+			y: 11.5d
+			dependencies: ["5CF10CD523A35115"]
+			id: "3780541ADD120EC9"
+			tasks: [{
+				id: "5C7768387428BD02"
+				type: "item"
+				item: "miniutilities:destruction_pickaxe"
+			}]
+		}
+		{
+			x: 1.75d
+			y: 11.5d
+			dependencies: ["5CF10CD523A35115"]
+			id: "52855E5CA003B56F"
+			tasks: [{
+				id: "068EEC43F4320BD1"
+				type: "item"
+				item: "miniutilities:reversing_hoe"
+			}]
+		}
+		{
+			x: 0.75d
+			y: 11.5d
+			dependencies: ["5CF10CD523A35115"]
+			id: "2C9A560ABDBBF34B"
+			tasks: [{
+				id: "74389B19DE2F4F8B"
+				type: "item"
+				item: "miniutilities:healing_axe"
+			}]
+		}
 	]
 }

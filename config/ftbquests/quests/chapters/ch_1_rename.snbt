@@ -4446,5 +4446,25 @@
 				item: "tetra:earthpiercer"
 			}]
 		}
+		{
+			x: 27.0d
+			y: 24.0d
+			id: "0DEF4BE636E96BDF"
+			tasks: [{
+				id: "56A1DDA38B846702"
+				type: "item"
+				item: "extendedcrafting:redstone_ingot"
+			}]
+		}
+		{
+			x: 28.0d
+			y: 24.0d
+			id: "3353CBC78CB05E68"
+			tasks: [{
+				id: "37BB882E65C72AA4"
+				type: "item"
+				item: "extendedcrafting:ender_ingot"
+			}]
+		}
 	]
 }

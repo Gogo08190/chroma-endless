@@ -2661,17 +2661,6 @@
 			]
 		}
 		{
-			title: "Metal Press Molds"
-			x: -45.0d
-			y: 28.0d
-			id: "3F79878767A76A4C"
-			tasks: [{
-				id: "211872400584B89F"
-				type: "item"
-				item: "immersiveengineering:mold_bullet_casing"
-			}]
-		}
-		{
 			x: -4.0d
 			y: 7.5d
 			subtitle: "Just a boring book"
@@ -6020,56 +6009,6 @@
 			}]
 		}
 		{
-			x: -43.0d
-			y: 26.0d
-			hide_dependency_lines: true
-			dependencies: [
-				"3ED30F5B4FCCA4DF"
-				"77602CE4D29A2480"
-			]
-			id: "5A0BB86252A425AB"
-			tasks: [{
-				id: "2CBC5C4788E086AB"
-				type: "item"
-				item: {
-					id: "immersiveengineering:revolver"
-					Count: 1b
-					tag: {
-						bullets: [ ]
-					}
-					ForgeCaps: {
-						Parent: {
-							Size: 21
-							Items: [ ]
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: -41.0d
-			y: 26.0d
-			dependencies: ["5A0BB86252A425AB"]
-			id: "702B87BA7E07E4EC"
-			tasks: [{
-				id: "58D0944B13218EA2"
-				type: "item"
-				item: {
-					id: "immersiveengineering:speedloader"
-					Count: 1b
-					tag: {
-						bullets: [ ]
-					}
-					ForgeCaps: {
-						Parent: {
-							Size: 8
-							Items: [ ]
-						}
-					}
-				}
-			}]
-		}
-		{
 			x: -42.0d
 			y: 28.0d
 			id: "5BA9DECAA50846D4"
@@ -6086,28 +6025,6 @@
 						}
 					}
 				}
-			}]
-		}
-		{
-			x: -39.0d
-			y: 26.0d
-			dependencies: ["5A0BB86252A425AB"]
-			id: "53167E12CA8BEA42"
-			tasks: [{
-				id: "09BE8AB4AB920D2B"
-				type: "item"
-				item: "immersiveengineering:toolupgrade_revolver_magazine"
-			}]
-		}
-		{
-			x: -37.0d
-			y: 26.0d
-			dependencies: ["5A0BB86252A425AB"]
-			id: "1925D0811170B153"
-			tasks: [{
-				id: "7460BC8E455E30E3"
-				type: "item"
-				item: "immersiveengineering:toolupgrade_revolver_bayonet"
 			}]
 		}
 		{
@@ -6133,239 +6050,6 @@
 			}]
 		}
 		{
-			x: -43.0d
-			y: 28.0d
-			dependencies: ["5A0BB86252A425AB"]
-			id: "2FC7A4FF06AE7AE8"
-			tasks: [{
-				id: "76F7FC71ACD08750"
-				type: "item"
-				item: "immersiveengineering:empty_casing"
-			}]
-		}
-		{
-			x: -43.0d
-			y: 40.0d
-			hide_dependency_lines: true
-			dependencies: ["5A0BB86252A425AB"]
-			id: "0D8702B6ED2F930C"
-			tasks: [{
-				id: "78459197933A347E"
-				type: "item"
-				item: "immersiveengineering:empty_shell"
-			}]
-		}
-		{
-			x: -43.0d
-			y: 30.0d
-			subtitle: "&9Common Projectiles&r"
-			dependencies: [
-				"2FC7A4FF06AE7AE8"
-				"55570C4E1D4179BA"
-			]
-			id: "7BBE523BC59953AD"
-			tasks: [{
-				id: "3705CF7359344C0B"
-				type: "item"
-				title: "&9Engineer's Blueprint&r"
-				item: {
-					id: "immersiveengineering:blueprint"
-					Count: 1b
-					tag: {
-						blueprint: "bullet"
-					}
-				}
-			}]
-		}
-		{
-			x: -41.0d
-			y: 30.0d
-			subtitle: "&9Specialized Projectiles&r"
-			description: ["Buy at the Gunsmith villager or find in an Engineer's House."]
-			min_required_dependencies: 2
-			dependencies: [
-				"7BBE523BC59953AD"
-				"55570C4E1D4179BA"
-				"2CBC5C4788E086AB"
-			]
-			id: "1A21AB641B148486"
-			tasks: [{
-				id: "7B6F2DA3220F38B1"
-				type: "item"
-				title: "&9Engineer's Blueprint&r"
-				item: {
-					id: "immersiveengineering:blueprint"
-					Count: 1b
-					tag: {
-						blueprint: "specialBullet"
-					}
-				}
-			}]
-		}
-		{
-			x: -43.0d
-			y: 32.0d
-			dependencies: [
-				"7BBE523BC59953AD"
-				"2FC7A4FF06AE7AE8"
-				"27C0943CDC436B9B"
-			]
-			id: "5DE6221D887958E4"
-			tasks: [{
-				id: "05E1730855E0915A"
-				type: "item"
-				item: "immersiveengineering:armor_piercing"
-			}]
-		}
-		{
-			x: -43.0d
-			y: 34.0d
-			dependencies: [
-				"7BBE523BC59953AD"
-				"2FC7A4FF06AE7AE8"
-			]
-			id: "1038D3C9AEEA0813"
-			tasks: [{
-				id: "2B41EEB663135D27"
-				type: "item"
-				item: "immersiveengineering:casull"
-			}]
-		}
-		{
-			x: -43.0d
-			y: 42.0d
-			dependencies: ["0D8702B6ED2F930C"]
-			id: "5DF632448346486F"
-			tasks: [{
-				id: "0C5F4488EF86B27B"
-				type: "item"
-				item: "immersiveengineering:firework"
-			}]
-		}
-		{
-			x: -43.0d
-			y: 38.0d
-			dependencies: [
-				"7BBE523BC59953AD"
-				"0D8702B6ED2F930C"
-				"500C5CDA64C7122F"
-			]
-			id: "7F393FF2921CD3A6"
-			tasks: [{
-				id: "201428EE773D0140"
-				type: "item"
-				item: "immersiveengineering:buckshot"
-			}]
-		}
-		{
-			x: -43.0d
-			y: 36.0d
-			dependencies: [
-				"7BBE523BC59953AD"
-				"2FC7A4FF06AE7AE8"
-				"6F24F6ECE4AAE751"
-			]
-			id: "276C59FD00023564"
-			tasks: [{
-				id: "03719144140D40E6"
-				type: "item"
-				item: "immersiveengineering:silver"
-			}]
-		}
-		{
-			x: -41.0d
-			y: 32.0d
-			dependencies: [
-				"1A21AB641B148486"
-				"76F7FC71ACD08750"
-			]
-			id: "351B607E287978A4"
-			tasks: [{
-				id: "33BCB5AD335CE58A"
-				type: "item"
-				item: "immersiveengineering:he"
-			}]
-		}
-		{
-			x: -41.0d
-			y: 34.0d
-			dependencies: [
-				"1A21AB641B148486"
-				"76F7FC71ACD08750"
-			]
-			id: "74B239ED576FFBB1"
-			tasks: [{
-				id: "5331F85B7EC1E5C9"
-				type: "item"
-				item: "immersiveengineering:potion"
-			}]
-		}
-		{
-			x: -41.0d
-			y: 38.0d
-			dependencies: [
-				"1A21AB641B148486"
-				"0D8702B6ED2F930C"
-				"41A42B079BF288BA"
-			]
-			id: "2BA1C70509F461A3"
-			tasks: [{
-				id: "0941D248313D7533"
-				type: "item"
-				item: {
-					id: "immersiveengineering:flare"
-					Count: 1b
-					tag: {
-						flareColour: 13381126
-					}
-				}
-			}]
-		}
-		{
-			x: -41.0d
-			y: 40.0d
-			dependencies: [
-				"1A21AB641B148486"
-				"0D8702B6ED2F930C"
-				"7DF69E28BF2AD621"
-			]
-			id: "074D161AC88694A8"
-			tasks: [{
-				id: "0BAC686C0C68A3F8"
-				type: "item"
-				item: "immersiveengineering:wolfpack"
-			}]
-		}
-		{
-			x: -41.0d
-			y: 36.0d
-			dependencies: [
-				"1A21AB641B148486"
-				"76F7FC71ACD08750"
-			]
-			id: "7DF69E28BF2AD621"
-			tasks: [{
-				id: "36A551BFA6DC3FDD"
-				type: "item"
-				item: "immersiveengineering:homing"
-			}]
-		}
-		{
-			x: -41.0d
-			y: 42.0d
-			dependencies: [
-				"1A21AB641B148486"
-				"0D8702B6ED2F930C"
-				"41A42B079BF288BA"
-			]
-			id: "5E3D44D8588509C3"
-			tasks: [{
-				id: "415B23C6C8E9AA0E"
-				type: "item"
-				item: "immersiveengineering:dragons_breath"
-			}]
-		}
-		{
 			x: 4.0d
 			y: 38.25d
 			dependencies: [
@@ -6381,25 +6065,6 @@
 					Count: 1b
 					tag: {
 						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: -43.0d
-			y: 21.25d
-			id: "6B7057E1BA27EF6F"
-			tasks: [{
-				id: "6074C89C7F5D71B9"
-				type: "item"
-				item: {
-					id: "immersiveengineering:skyhook"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							Size: 2
-							Items: [ ]
-						}
 					}
 				}
 			}]
@@ -6433,36 +6098,6 @@
 				id: "0FD7316706955C39"
 				type: "item"
 				item: "immersiveengineering:toolupgrade_chemthrower_multitank"
-			}]
-		}
-		{
-			x: -32.5d
-			y: 31.75d
-			id: "2EFB3D420936BFE8"
-			tasks: [{
-				id: "64A81E8F784859E6"
-				type: "item"
-				item: "immersiveengineering:toolupgrade_shield_magnet"
-			}]
-		}
-		{
-			x: -32.5d
-			y: 30.75d
-			id: "6DEE913221ACD9E8"
-			tasks: [{
-				id: "59CD3DC2E11A448E"
-				type: "item"
-				item: "immersiveengineering:toolupgrade_shield_shock"
-			}]
-		}
-		{
-			x: -32.5d
-			y: 29.75d
-			id: "2B239A4ABED01EA0"
-			tasks: [{
-				id: "5587B4DE8C3160DD"
-				type: "item"
-				item: "immersiveengineering:toolupgrade_shield_flash"
 			}]
 		}
 		{
@@ -6693,8 +6328,8 @@
 			}]
 		}
 		{
-			x: -38.25d
-			y: 35.0d
+			x: -44.0d
+			y: 48.75d
 			id: "7DF0E099420B375C"
 			tasks: [{
 				id: "28D8DF92B223CA0D"
@@ -6703,8 +6338,8 @@
 			}]
 		}
 		{
-			x: -38.25d
-			y: 36.0d
+			x: -44.0d
+			y: 49.75d
 			id: "745FBB9470261C63"
 			tasks: [{
 				id: "64F0FEA37FD8BCFC"
@@ -6902,16 +6537,6 @@
 			}]
 		}
 		{
-			x: -43.0d
-			y: 20.25d
-			id: "2EFD11AAA0D29F08"
-			tasks: [{
-				id: "3017584362935F61"
-				type: "item"
-				item: "immersiveengineering:connector_structural"
-			}]
-		}
-		{
 			x: 5.25d
 			y: 25.25d
 			dependencies: ["4E8AB0EA5262EB30"]
@@ -6920,22 +6545,6 @@
 				id: "4B371C6DE560027E"
 				type: "item"
 				item: "immersiveengineering:strip_curtain"
-			}]
-		}
-		{
-			x: -43.0d
-			y: 23.25d
-			id: "7FC2521F63D23D58"
-			tasks: [{
-				id: "1C2E6BC62C1D7B0C"
-				type: "item"
-				item: {
-					id: "immersiveengineering:balloon"
-					Count: 1b
-					tag: {
-						offset: 0b
-					}
-				}
 			}]
 		}
 		{
@@ -7259,17 +6868,6 @@
 				id: "2EF2E5ECDD34ABD3"
 				type: "item"
 				item: "immersivepetroleum:petcoke"
-			}]
-		}
-		{
-			x: -35.0d
-			y: 26.0d
-			dependencies: ["5A0BB86252A425AB"]
-			id: "49506FA07DFE0C87"
-			tasks: [{
-				id: "60BADB2A6DFA9228"
-				type: "item"
-				item: "immersiveengineering:toolupgrade_revolver_electro"
 			}]
 		}
 		{
@@ -8051,44 +7649,6 @@
 				type: "item"
 				item: "immersiveengineering:wirecoil_electrum_ins"
 			}]
-		}
-		{
-			x: -32.5d
-			y: 28.75d
-			id: "4DFFB41655E69AD2"
-			tasks: [{
-				id: "1EED4752362A4D6B"
-				type: "item"
-				item: {
-					id: "immersiveengineering:shield"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						Parent: {
-							Size: 2
-							Items: [ ]
-						}
-					}
-				}
-			}]
-		}
-		{
-			title: "Avis team quêtes Immersive"
-			x: -45.0d
-			y: 26.0d
-			description: [
-				"benji : Enlever les Belts et laisser le reste"
-				"Gogo : "
-				"koepss : "
-				"Noli : "
-				"Mahat : "
-				"Yuki : "
-				"Alex : "
-			]
-			min_width: 266
-			id: "46842F62331FAAE8"
 		}
 		{
 			x: -0.5d

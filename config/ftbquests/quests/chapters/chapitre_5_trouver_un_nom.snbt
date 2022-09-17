@@ -841,8 +841,10 @@
 			}]
 		}
 		{
-			x: 9.25d
-			y: 0.0d
+			icon: "undergarden:catalyst"
+			x: 8.0d
+			y: 1.25d
+			shape: "gear"
 			hide_dependency_lines: true
 			dependencies: [
 				"4431A21A852F98FA"
@@ -851,11 +853,12 @@
 				"717F8022297E00D2"
 				"42B4D74321A27197"
 			]
+			size: 1.5d
 			id: "4EA12BDA0EC16BD2"
 			tasks: [{
-				id: "03F8A73F3C1CB0ED"
-				type: "item"
-				item: "undergarden:catalyst"
+				id: "29664B9339682121"
+				type: "checkmark"
+				title: "Unlock : &aThe Undergarden &rquest line"
 			}]
 		}
 		{
@@ -877,8 +880,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 1.0d
+			x: 9.25d
+			y: 0.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"4431A21A852F98FA"
