@@ -21,28 +21,51 @@
 			}]
 		}
 		{
-			x: -0.25d
-			y: -16.0d
+			title: "Reinforced Stone"
+			x: -8.25d
+			y: -17.25d
+			shape: "rsquare"
+			description: [
+				"After making &7Compressed Iron Ingot&r, you will have to melt it to obtain &7Molten Compressed Iron&r."
+				""
+				"This &7Molten Compressed Iron&r will have to be cast on stone in order to obtain &6Reinforced Stone&r."
+			]
 			dependencies: [
 				"121DF7B31DB4BEF8"
 				"5174E5B7DC17EF63"
 			]
+			min_width: 240
 			id: "7607D13B4DE67B94"
 			tasks: [{
 				id: "58A24068E4B92516"
 				type: "item"
 				item: "pneumaticcraft:reinforced_stone"
+				count: 8L
 			}]
 		}
 		{
 			title: "Pressure Chamber"
-			x: 2.75d
-			y: -16.0d
+			x: -8.25d
+			y: -14.25d
+			description: [
+				"The Pressure Chamber is a multi-block structure  mainly used to compress various materials into others."
+				""
+				"It is made by creating a hollow cube out of Pressure Chamber Walls/Windows."
+				""
+				"The size of the cube can vary from 3x3x3 to 5x5x5, and windows are not needed to create the Pressure Chamber."
+				""
+				"The Pressure Chamber also requires a Valve, which has to connect to the air blocks in the Pressure Chamber."
+				""
+				"At least one Valve is required, but more can be added. When the Pressure Chamber construction is completed, the GUI can be opened with a right-click of any of its constituent blocks."
+				""
+				"The Pressure Chamber Interface can also be added into the structure to allow the insertion and removal of items to and from the Pressure Chamber to be automated through Pipes."
+			]
 			dependencies: [
 				"3D156DB23470F2D5"
 				"1F9249795027D6AD"
 				"121DF7B31DB4BEF8"
 			]
+			min_width: 350
 			id: "7B9FBBCD2F962A0B"
 			tasks: [
 				{
@@ -68,14 +91,30 @@
 			]
 		}
 		{
-			x: -1.25d
-			y: -16.0d
+			title: "Compressed Iron Ingot"
+			x: -8.25d
+			y: -19.0d
+			shape: "gear"
+			description: [
+				"To obtain this item to begin with, drop &6Cloggrum Ingots&r and activate TNT next to the dropped item(s). 90% of the ingots will be convert into &7Compressed Iron Ingots&r."
+				""
+				"After you have created the &ePressure Chamber&r, any &6Cloggrum Ingots&r you place into it with at least 2.0 bar of pressure will be converted into &7Compressed Iron Ingots&r."
+			]
 			dependencies: ["7D351CB50EFE608B"]
+			size: 1.5d
+			min_width: 240
 			id: "121DF7B31DB4BEF8"
 			tasks: [{
 				id: "033D2475938C8178"
 				type: "item"
 				item: "pneumaticcraft:ingot_iron_compressed"
+				count: 32L
+			}]
+			rewards: [{
+				id: "6BC92067BEC50B4E"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				count: 16
 			}]
 		}
 		{
@@ -96,9 +135,12 @@
 			}]
 		}
 		{
-			x: 0.75d
-			y: -16.0d
+			x: -8.25d
+			y: -15.75d
+			shape: "octagon"
+			description: ["Now you can make &6Reinforced Bricks&r that will allow you to unlock other &5Pneumaticcraft recipes&r."]
 			dependencies: ["7607D13B4DE67B94"]
+			min_width: 240
 			id: "1F9249795027D6AD"
 			tasks: [{
 				id: "3F0226BD2797B6DB"
@@ -176,9 +218,12 @@
 			}]
 		}
 		{
-			x: 1.75d
-			y: -16.0d
+			x: -9.75d
+			y: -15.75d
+			shape: "octagon"
+			description: ["&6Pressure Tubes&r are used to transport compressed air."]
 			dependencies: ["121DF7B31DB4BEF8"]
+			min_width: 240
 			id: "3D156DB23470F2D5"
 			tasks: [{
 				id: "0407B9210E77CB2F"
@@ -809,6 +854,7 @@
 		{
 			x: 6.0d
 			y: -17.75d
+			hide_dependency_lines: true
 			dependencies: [
 				"121DF7B31DB4BEF8"
 				"1490D32522F73F20"
@@ -823,6 +869,7 @@
 		{
 			x: 7.0d
 			y: -17.75d
+			hide_dependency_lines: true
 			dependencies: [
 				"121DF7B31DB4BEF8"
 				"1490D32522F73F20"
@@ -837,6 +884,7 @@
 		{
 			x: 8.0d
 			y: -17.75d
+			hide_dependency_lines: true
 			dependencies: ["1490D32522F73F20"]
 			id: "12DCF063C54CED77"
 			tasks: [{
@@ -848,6 +896,7 @@
 		{
 			x: 9.0d
 			y: -17.75d
+			hide_dependency_lines: true
 			dependencies: [
 				"121DF7B31DB4BEF8"
 				"1490D32522F73F20"
@@ -862,6 +911,7 @@
 		{
 			x: 10.0d
 			y: -17.75d
+			hide_dependency_lines: true
 			dependencies: [
 				"1490D32522F73F20"
 				"121DF7B31DB4BEF8"
@@ -876,6 +926,7 @@
 		{
 			x: 11.0d
 			y: -17.75d
+			hide_dependency_lines: true
 			dependencies: [
 				"1490D32522F73F20"
 				"121DF7B31DB4BEF8"
@@ -890,6 +941,7 @@
 		{
 			x: 12.0d
 			y: -17.75d
+			hide_dependency_lines: true
 			dependencies: [
 				"1490D32522F73F20"
 				"121DF7B31DB4BEF8"
