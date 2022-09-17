@@ -350,8 +350,27 @@ onEvent('recipes', (event) => {
             A:'quark:black_shard'
           },
           id: `${id_prefex}black_stained_glass`
+        },
+        {
+          output: 'explorerscompass:explorerscompass',
+          pattern: ['SAS', 'ACA', 'SAS'],
+          key: {
+            A: '#forge:ingots/andesite_alloy',
+            S: '#chipped:cobweb',
+            C: 'minecraft:compass'
+          },
+          id: 'explorerscompass:explorers_compass'
+        },
+        {
+          output: 'naturescompass:naturescompass',
+          pattern: ['SAS', 'ACA', 'SAS'],
+          key: {
+            A: '#minecraft:logs',
+            S: '#minecraft:leaves',
+            C: 'minecraft:compass'
+          },
+          id: 'naturescompass:natures_compass'
         }
-
     ];
 
     recipes.forEach((recipe) => {
