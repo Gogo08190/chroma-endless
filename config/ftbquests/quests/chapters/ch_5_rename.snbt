@@ -258,6 +258,12 @@
 		{
 			x: -11.0d
 			y: -17.5d
+			description: [
+				"Omnidirection Hopper is an upgraded version of the Minecraft Hopper that has the following improved properties:"
+				""
+				"- It can be oriented in different directions"
+				"- It accepts PneumaticCraft upgrades to speed up the hopper"
+			]
 			dependencies: ["121DF7B31DB4BEF8"]
 			id: "1F0FC143ED336A13"
 			tasks: [{
@@ -319,6 +325,7 @@
 			x: -9.5d
 			y: -12.5d
 			shape: "diamond"
+			description: ["An Air Compressor is used to create compressed air from items that burn in a Furnace."]
 			hide_dependency_lines: true
 			dependencies: [
 				"1490D32522F73F20"
@@ -349,6 +356,7 @@
 			x: -7.0d
 			y: -12.5d
 			shape: "diamond"
+			description: ["The liquid compressor creates compressed air by using liquid fuels (like lava or kerosene)."]
 			hide_dependency_lines: true
 			dependencies: [
 				"387646F8C259D92F"
@@ -877,6 +885,7 @@
 			x: -7.0d
 			y: -0.5d
 			shape: "square"
+			description: ["Charging Station is used to charge or discharge PneumaticCraft items like the Air Canister, Manometer, Pneumatic Wrench, ..."]
 			hide_dependency_lines: true
 			dependencies: [
 				"3D156DB23470F2D5"
