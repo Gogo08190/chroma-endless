@@ -1873,8 +1873,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 8.5d
+			x: -1.75d
+			y: 8.75d
 			dependencies: ["2D280B19DAF910F3"]
 			id: "45CDD9F70819E45A"
 			tasks: [{
@@ -2009,7 +2009,7 @@
 			]
 		}
 		{
-			x: 1.75d
+			x: -5.75d
 			y: 11.0d
 			dependencies: ["31936ED1790DA9BF"]
 			id: "4AF2D320ACBA99E3"
@@ -2031,7 +2031,7 @@
 			}]
 		}
 		{
-			x: -0.25d
+			x: -4.5d
 			y: 11.0d
 			dependencies: ["36D7AB33ECC0C810"]
 			id: "31936ED1790DA9BF"
@@ -2043,8 +2043,8 @@
 		}
 		{
 			title: "Mythical Spells"
-			x: 0.75d
-			y: 12.0d
+			x: -6.5d
+			y: 10.25d
 			shape: "circle"
 			dependencies: [
 				"774870F62D6F3E8A"
@@ -2126,8 +2126,8 @@
 			]
 		}
 		{
-			x: -2.5d
-			y: 7.25d
+			x: 3.75d
+			y: 11.5d
 			dependencies: ["2C180B990E4CCEC3"]
 			id: "120CD537BDE5EAAD"
 			tasks: [{
@@ -2137,8 +2137,8 @@
 			}]
 		}
 		{
-			x: -0.25d
-			y: 7.25d
+			x: 0.75d
+			y: 10.25d
 			dependencies: ["2D280B19DAF910F3"]
 			id: "2C180B990E4CCEC3"
 			tasks: [{
@@ -2150,8 +2150,8 @@
 		}
 		{
 			title: "Marvelous Spells"
-			x: 0.75d
-			y: 10.25d
+			x: -4.5d
+			y: 10.0d
 			dependencies: ["31936ED1790DA9BF"]
 			optional: true
 			min_width: 250
@@ -2627,6 +2627,67 @@
 					id: "3546A28FFCC21B50"
 					type: "item"
 					item: "ars_nouveau:glyph_projectile"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 8.75d
+			dependencies: ["45CDD9F70819E45A"]
+			id: "63AF0CBC9A1F021F"
+			tasks: [{
+				id: "77D900E88DA798E7"
+				type: "item"
+				item: {
+					id: "ars_nouveau:apprentice_spell_book"
+					Count: 1b
+					tag: {
+						mode: 0
+						spells: ",touch,harm,break,self,projectile"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 7.5d
+			dependencies: ["63AF0CBC9A1F021F"]
+			id: "23AB690BEFE535DF"
+			tasks: [{
+				id: "73206796D6505DB4"
+				type: "item"
+				item: {
+					id: "ars_nouveau:archmage_spell_book"
+					Count: 1b
+					tag: {
+						mode: 0
+						spells: ",touch,harm,break,self,projectile"
+					}
+				}
+			}]
+		}
+		{
+			title: "Enchanting Apparatus"
+			x: 2.75d
+			y: 12.25d
+			dependencies: ["2C180B990E4CCEC3"]
+			id: "0F5064AAAA97F693"
+			tasks: [
+				{
+					id: "64A2B77309B901B3"
+					type: "item"
+					item: "ars_nouveau:arcane_pedestal"
+					count: 8L
+				}
+				{
+					id: "491BF431D406E9F8"
+					type: "item"
+					item: "ars_nouveau:arcane_core"
+				}
+				{
+					id: "3E2588B41345A10E"
+					type: "item"
+					item: "ars_nouveau:enchanting_apparatus"
 				}
 			]
 		}

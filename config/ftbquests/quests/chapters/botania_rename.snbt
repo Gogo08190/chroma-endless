@@ -356,8 +356,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -0.25d
+			x: 5.75d
+			y: -2.25d
 			dependencies: ["68E7A3D70265EBF0"]
 			id: "489318A96A0235D0"
 			tasks: [{
@@ -367,7 +367,7 @@
 			}]
 		}
 		{
-			x: 9.75d
+			x: 8.25d
 			y: -0.25d
 			dependencies: ["3E2A68E4B756CD2B"]
 			id: "1290090CFA8EB26B"
@@ -379,7 +379,7 @@
 		}
 		{
 			x: 8.25d
-			y: -0.25d
+			y: -2.25d
 			dependencies: ["489318A96A0235D0"]
 			id: "3E2A68E4B756CD2B"
 			tasks: [{
@@ -414,8 +414,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 0.75d
+			x: 10.25d
+			y: -0.25d
 			id: "78953A039B917BDF"
 			tasks: [{
 				id: "68FC1A6D6A99A60A"
@@ -480,8 +480,8 @@
 		}
 		{
 			title: "Element Runes"
-			x: 14.75d
-			y: -9.0d
+			x: 5.0d
+			y: 1.75d
 			hide_dependency_lines: true
 			dependencies: ["679DF08FABBE8A87"]
 			id: "1550578CA13D8BF5"
@@ -510,8 +510,8 @@
 		}
 		{
 			title: "Rune of the Seasons"
-			x: 13.75d
-			y: -9.0d
+			x: 7.5d
+			y: 1.75d
 			hide_dependency_lines: true
 			dependencies: ["679DF08FABBE8A87"]
 			id: "1AB26ED920215B51"
@@ -539,8 +539,8 @@
 			]
 		}
 		{
-			x: 11.75d
-			y: -9.0d
+			x: 3.0d
+			y: 1.75d
 			hide_dependency_lines: true
 			dependencies: ["679DF08FABBE8A87"]
 			id: "716178CB7E9006EE"
@@ -552,8 +552,8 @@
 		}
 		{
 			title: "Other Runes"
-			x: 12.75d
-			y: -9.0d
+			x: 6.5d
+			y: 1.75d
 			hide_dependency_lines: true
 			dependencies: ["679DF08FABBE8A87"]
 			id: "78D4030D978D9180"
@@ -610,12 +610,13 @@
 			}]
 		}
 		{
-			x: 13.25d
-			y: -7.5d
+			x: 4.0d
+			y: -1.0d
 			dependencies: [
 				"0AC291F444BB3BD7"
 				"1550578CA13D8BF5"
 				"716178CB7E9006EE"
+				"68E7A3D70265EBF0"
 			]
 			id: "7D06301D09F5D628"
 			tasks: [{
@@ -770,12 +771,9 @@
 			}]
 		}
 		{
-			x: 13.25d
-			y: -5.75d
-			dependencies: [
-				"7D06301D09F5D628"
-				"0623F7FAB4511760"
-			]
+			x: 4.0d
+			y: 1.75d
+			dependencies: ["7D06301D09F5D628"]
 			dependency_requirement: "all_started"
 			id: "69E268DB0F8CB0A3"
 			tasks: [{
