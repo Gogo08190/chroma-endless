@@ -1297,7 +1297,9 @@
 		{
 			x: 38.75d
 			y: -6.0d
+			shape: "octagon"
 			dependencies: ["2291A2EA731C5B9E"]
+			size: 2.0d
 			id: "7C4C717137B640C6"
 			tasks: [{
 				id: "036371C7B3B1F0AF"
@@ -1465,7 +1467,9 @@
 		{
 			x: 38.75d
 			y: 4.5d
+			shape: "octagon"
 			dependencies: ["73368EF2948452D9"]
+			size: 2.0d
 			id: "79315953791CB3E5"
 			tasks: [{
 				id: "2FC0C21FAA22693A"
@@ -1476,7 +1480,9 @@
 		{
 			x: 38.75d
 			y: 11.75d
+			shape: "octagon"
 			dependencies: ["79315953791CB3E5"]
+			size: 2.0d
 			id: "6B860E2F39D660BE"
 			tasks: [{
 				id: "672DF9E0832D277F"
@@ -1487,7 +1493,9 @@
 		{
 			x: 38.75d
 			y: 18.75d
+			shape: "octagon"
 			dependencies: ["6B860E2F39D660BE"]
+			size: 2.0d
 			id: "785DDC4B53C7917C"
 			tasks: [{
 				id: "5C94959B050DEB8F"
@@ -2000,8 +2008,9 @@
 			}]
 		}
 		{
-			x: 57.25d
-			y: -1.0d
+			x: 33.75d
+			y: 11.75d
+			dependencies: ["6B860E2F39D660BE"]
 			id: "588D842EA0950EDC"
 			tasks: [{
 				id: "7E9A2C4B50378623"
@@ -2010,8 +2019,9 @@
 			}]
 		}
 		{
-			x: 57.25d
-			y: 0.0d
+			x: 39.25d
+			y: 15.25d
+			dependencies: ["6B860E2F39D660BE"]
 			id: "492A60D27D33CBEC"
 			tasks: [{
 				id: "459BD24824720D6F"
@@ -2020,8 +2030,9 @@
 			}]
 		}
 		{
-			x: 57.25d
-			y: 1.0d
+			x: 38.25d
+			y: 8.25d
+			dependencies: ["6B860E2F39D660BE"]
 			id: "67CCF75F89393ADC"
 			tasks: [{
 				id: "168B3373E386CE71"
@@ -2030,8 +2041,9 @@
 			}]
 		}
 		{
-			x: 56.25d
-			y: 0.0d
+			x: 43.75d
+			y: 11.75d
+			dependencies: ["6B860E2F39D660BE"]
 			id: "46504597C93BAFD7"
 			tasks: [{
 				id: "04F3504F49B4BFF1"
@@ -2040,8 +2052,9 @@
 			}]
 		}
 		{
-			x: 56.25d
-			y: -1.0d
+			x: 39.25d
+			y: 8.25d
+			dependencies: ["6B860E2F39D660BE"]
 			id: "1FA807E4CFB87EE7"
 			tasks: [{
 				id: "7CD560FEEDEC41C8"
@@ -2050,8 +2063,9 @@
 			}]
 		}
 		{
-			x: 56.25d
-			y: 1.0d
+			x: 38.75d
+			y: 1.75d
+			dependencies: ["79315953791CB3E5"]
 			id: "158D0BC1ADBEC2F5"
 			tasks: [{
 				id: "424B1C471496DA8B"
@@ -2060,8 +2074,9 @@
 			}]
 		}
 		{
-			x: 56.25d
-			y: 2.0d
+			x: 38.25d
+			y: 15.25d
+			dependencies: ["6B860E2F39D660BE"]
 			id: "2391C32B478B5D92"
 			tasks: [{
 				id: "2296B794D975D0D0"
@@ -2070,230 +2085,141 @@
 			}]
 		}
 		{
-			x: 48.75d
-			y: -0.5d
+			x: 47.0d
+			y: 5.5d
 			hide_dependency_lines: true
 			dependencies: ["73368EF2948452D9"]
 			id: "20B811B7231BCAE4"
 			tasks: [{
 				id: "09B339C189FD2F01"
 				type: "item"
+				title: "Range Upgrade"
 				item: {
-					id: "industrialforegoing:range_addon0"
+					id: "itemfilters:or"
 					Count: 1b
 					tag: {
-						TitaniumAugment: {
-							Range: 0.0f
-						}
+						items: [
+							{
+								id: "industrialforegoing:range_addon0"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 0.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:range_addon1"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 1.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:range_addon2"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 2.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:range_addon3"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 3.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:range_addon4"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 4.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:range_addon5"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 5.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:range_addon6"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 6.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:range_addon7"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 7.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:range_addon8"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 8.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:range_addon9"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 9.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:range_addon10"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 10.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:range_addon11"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 11.0f
+									}
+								}
+							}
+						]
 					}
 				}
 			}]
 		}
 		{
-			x: 49.75d
-			y: -0.5d
+			x: 46.0d
+			y: 4.5d
 			hide_dependency_lines: true
-			dependencies: ["73368EF2948452D9"]
-			id: "0DDB131AD48955E7"
-			tasks: [{
-				id: "2AA08EAA41195903"
-				type: "item"
-				item: {
-					id: "industrialforegoing:range_addon1"
-					Count: 1b
-					tag: {
-						TitaniumAugment: {
-							Range: 1.0f
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: 50.75d
-			y: -0.5d
-			hide_dependency_lines: true
-			dependencies: ["73368EF2948452D9"]
-			id: "279586E78760E9E4"
-			tasks: [{
-				id: "7C223F0AF76C0B36"
-				type: "item"
-				item: {
-					id: "industrialforegoing:range_addon2"
-					Count: 1b
-					tag: {
-						TitaniumAugment: {
-							Range: 2.0f
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: 51.75d
-			y: -0.5d
-			hide_dependency_lines: true
-			dependencies: ["73368EF2948452D9"]
-			id: "4CA421F00E755F99"
-			tasks: [{
-				id: "2F606C94FA0397FC"
-				type: "item"
-				item: {
-					id: "industrialforegoing:range_addon3"
-					Count: 1b
-					tag: {
-						TitaniumAugment: {
-							Range: 3.0f
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: 52.75d
-			y: -0.5d
-			hide_dependency_lines: true
-			dependencies: ["73368EF2948452D9"]
-			id: "72D132F03FE764E9"
-			tasks: [{
-				id: "2F4727840255EA6B"
-				type: "item"
-				item: {
-					id: "industrialforegoing:range_addon4"
-					Count: 1b
-					tag: {
-						TitaniumAugment: {
-							Range: 4.0f
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: 48.75d
-			y: 0.5d
-			hide_dependency_lines: true
-			dependencies: ["73368EF2948452D9"]
-			id: "1B28CC49B5CB1CD7"
-			tasks: [{
-				id: "3A07DFCCE2009270"
-				type: "item"
-				item: {
-					id: "industrialforegoing:range_addon5"
-					Count: 1b
-					tag: {
-						TitaniumAugment: {
-							Range: 5.0f
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: 49.75d
-			y: 0.5d
-			hide_dependency_lines: true
-			dependencies: ["73368EF2948452D9"]
-			id: "64BBCF99D1FD7FB5"
-			tasks: [{
-				id: "4F3ABD11E80D301A"
-				type: "item"
-				item: {
-					id: "industrialforegoing:range_addon6"
-					Count: 1b
-					tag: {
-						TitaniumAugment: {
-							Range: 6.0f
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: 50.75d
-			y: 0.5d
-			hide_dependency_lines: true
-			dependencies: ["73368EF2948452D9"]
-			id: "210D2AEE47D18460"
-			tasks: [{
-				id: "4E21E117F7C86E4A"
-				type: "item"
-				item: {
-					id: "industrialforegoing:range_addon7"
-					Count: 1b
-					tag: {
-						TitaniumAugment: {
-							Range: 7.0f
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: 51.75d
-			y: 0.5d
-			hide_dependency_lines: true
-			dependencies: ["73368EF2948452D9"]
-			id: "3096B9775E2671E2"
-			tasks: [{
-				id: "75C112AC783B2C5F"
-				type: "item"
-				item: {
-					id: "industrialforegoing:range_addon9"
-					Count: 1b
-					tag: {
-						TitaniumAugment: {
-							Range: 9.0f
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: 53.75d
-			y: 0.0d
-			hide_dependency_lines: true
-			dependencies: ["73368EF2948452D9"]
-			id: "049B82CBAFD50BA2"
-			tasks: [{
-				id: "29C10665A280483C"
-				type: "item"
-				item: {
-					id: "industrialforegoing:range_addon11"
-					Count: 1b
-					tag: {
-						TitaniumAugment: {
-							Range: 11.0f
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: 52.75d
-			y: 0.5d
-			hide_dependency_lines: true
-			dependencies: ["73368EF2948452D9"]
-			id: "5E474C093DB56BC0"
-			tasks: [{
-				id: "219956ECB4333D34"
-				type: "item"
-				item: {
-					id: "industrialforegoing:range_addon10"
-					Count: 1b
-					tag: {
-						TitaniumAugment: {
-							Range: 10.0f
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: 50.25d
-			y: 2.5d
-			hide_dependency_lines: true
-			dependencies: ["73368EF2948452D9"]
+			dependencies: [
+				"73368EF2948452D9"
+				"27752EF28993C22E"
+			]
 			id: "158FBBD64EBF1BA9"
 			tasks: [{
 				id: "0A8AFA082384F862"
@@ -2310,10 +2236,13 @@
 			}]
 		}
 		{
-			x: 50.25d
-			y: 3.5d
+			x: 45.0d
+			y: 4.5d
 			hide_dependency_lines: true
-			dependencies: ["73368EF2948452D9"]
+			dependencies: [
+				"73368EF2948452D9"
+				"158FBBD64EBF1BA9"
+			]
 			id: "5F5DAD0AB8BDF485"
 			tasks: [{
 				id: "1A5FCD56B8CDA66D"
@@ -2330,10 +2259,13 @@
 			}]
 		}
 		{
-			x: 51.25d
-			y: 2.5d
+			x: 47.0d
+			y: 3.5d
 			hide_dependency_lines: true
-			dependencies: ["73368EF2948452D9"]
+			dependencies: [
+				"73368EF2948452D9"
+				"27752EF28993C22E"
+			]
 			id: "060ED1E4602B2C25"
 			tasks: [{
 				id: "4DA7FF351925B2EC"
@@ -2350,10 +2282,13 @@
 			}]
 		}
 		{
-			x: 51.25d
-			y: 3.5d
+			x: 47.0d
+			y: 2.5d
 			hide_dependency_lines: true
-			dependencies: ["73368EF2948452D9"]
+			dependencies: [
+				"73368EF2948452D9"
+				"060ED1E4602B2C25"
+			]
 			id: "4B6CE63B4B154666"
 			tasks: [{
 				id: "23A1B18C94DCA501"
@@ -2370,10 +2305,13 @@
 			}]
 		}
 		{
-			x: 52.25d
-			y: 2.5d
+			x: 48.0d
+			y: 4.5d
 			hide_dependency_lines: true
-			dependencies: ["73368EF2948452D9"]
+			dependencies: [
+				"73368EF2948452D9"
+				"27752EF28993C22E"
+			]
 			id: "647B31EE4593F265"
 			tasks: [{
 				id: "43378F980A88A0B8"
@@ -2390,10 +2328,13 @@
 			}]
 		}
 		{
-			x: 52.25d
-			y: 3.5d
+			x: 49.0d
+			y: 4.5d
 			hide_dependency_lines: true
-			dependencies: ["73368EF2948452D9"]
+			dependencies: [
+				"73368EF2948452D9"
+				"647B31EE4593F265"
+			]
 			id: "2AF5FDF1D8B9A2AF"
 			tasks: [{
 				id: "272F76B0D2D73686"
@@ -2407,6 +2348,18 @@
 						}
 					}
 				}
+			}]
+		}
+		{
+			x: 47.0d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["2291A2EA731C5B9E"]
+			id: "27752EF28993C22E"
+			tasks: [{
+				id: "74EA6CE530A4A020"
+				type: "checkmark"
+				title: "&eIndustrious Upgrades"
 			}]
 		}
 	]

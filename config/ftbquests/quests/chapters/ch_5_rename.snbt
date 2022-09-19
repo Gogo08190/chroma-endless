@@ -5,7 +5,10 @@
 	filename: "ch_5_rename"
 	title: "New technologies"
 	icon: "pneumaticcraft:pressure_gauge"
-	subtitle: ["PneumaticCraft + Refined Storage + Comptact Crafting/Machines"]
+	subtitle: [
+		"PneumaticCraft"
+		"Comptact Crafting/Machines"
+	]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

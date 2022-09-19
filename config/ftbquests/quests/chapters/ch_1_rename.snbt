@@ -9,8 +9,8 @@
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [{
-		x: 23.25d
-		y: 40.0d
+		x: 23.75d
+		y: 25.75d
 		width: 6.0d
 		height: 6.0d
 		rotation: 0.0d
@@ -1500,8 +1500,8 @@
 		{
 			title: "Windmill"
 			icon: "create:propeller"
-			x: 20.0d
-			y: 35.75d
+			x: 21.25d
+			y: 33.75d
 			shape: "octagon"
 			subtitle: "It is composed of a Windmill Bearing and Sails"
 			description: [
@@ -2965,6 +2965,7 @@
 				"&9&n&ohttps://github.com/Creators-of-Create/Create/wiki/Printing-a-Schematic"
 			]
 			dependencies: ["3441111B8198CC9D"]
+			min_width: 300
 			id: "4395EBC605AA491D"
 			tasks: [{
 				id: "15F4852FB6CEAF67"
@@ -2973,8 +2974,12 @@
 			}]
 		}
 		{
-			x: 34.75d
-			y: 34.25d
+			x: 31.25d
+			y: 30.5d
+			dependencies: [
+				"17E63FB824FA537E"
+				"4AC1298723D8A89A"
+			]
 			id: "26F44F9DA212A42C"
 			tasks: [{
 				id: "6CFF7D9F4710F875"
@@ -3008,6 +3013,7 @@
 				"-For positioning in the Air, Hold Ctrl to lock the selected position at a fixed distance.Modify the distance by Scrolling while Ctrl is being held. Right-click to confirm."
 			]
 			dependencies: ["3441111B8198CC9D"]
+			min_width: 300
 			id: "3CBBAC9AEDBDE316"
 			tasks: [
 				{
@@ -3030,8 +3036,8 @@
 		{
 			title: "&#B5A642Brass&r"
 			icon: "create:crushed_brass"
-			x: 24.25d
-			y: 38.5d
+			x: 24.75d
+			y: 24.25d
 			shape: "diamond"
 			description: [
 				"To obtain &#B5A642Brass&r, there are several methods."
@@ -3102,8 +3108,8 @@
 			}]
 		}
 		{
-			x: 34.75d
-			y: 35.5d
+			x: 20.0d
+			y: 31.75d
 			shape: "octagon"
 			description: [
 				"The Wrench is a tool used to rotate, dismantle and configure components."
@@ -3116,6 +3122,7 @@
 				""
 				"For certain components such as the Linear Chassis, ctrl can be held to configure all connected components at once."
 			]
+			dependencies: ["50B9AEC7812CEE92"]
 			id: "6BF43FEAF535AA7F"
 			tasks: [{
 				id: "67E5374E76EDAF30"
@@ -3161,8 +3168,10 @@
 			}]
 		}
 		{
-			x: 33.75d
-			y: 35.5d
+			x: 27.5d
+			y: 32.75d
+			dependencies: ["5FAB66FE3921DAF1"]
+			optional: true
 			id: "7F039EA564AA8A66"
 			tasks: [{
 				id: "6E44A21724B1E8E3"
@@ -3171,8 +3180,12 @@
 			}]
 		}
 		{
-			x: 34.75d
-			y: 33.0d
+			x: 30.25d
+			y: 30.5d
+			dependencies: [
+				"17E63FB824FA537E"
+				"4AC1298723D8A89A"
+			]
 			id: "2BBC9E8C77F211B1"
 			tasks: [{
 				id: "479E4B45BBA83AFB"
@@ -3187,8 +3200,10 @@
 			}]
 		}
 		{
-			x: 33.75d
-			y: 34.25d
+			x: 30.0d
+			y: 37.0d
+			dependencies: ["0256960379E8E5E5"]
+			optional: true
 			id: "5867ADBFEC86FF10"
 			tasks: [{
 				id: "28B6E1C30BDE5700"
@@ -3586,8 +3601,8 @@
 		}
 		{
 			title: "&lCrafting Table&r Method Step 1   "
-			x: 23.0d
-			y: 39.0d
+			x: 23.5d
+			y: 24.75d
 			description: ["Combine 3 &#B87333Copper Dusts&r with a &#BAC4C8Zinc Dust&r in a &lCrafting Table&r."]
 			min_required_dependencies: 2
 			dependencies: ["6F9BF9D7BCEFD22C"]
@@ -3609,8 +3624,8 @@
 		{
 			title: "&oTinkers' Construct&r Method"
 			icon: "tconstruct:molten_brass_bucket"
-			x: 22.5d
-			y: 40.25d
+			x: 23.0d
+			y: 26.0d
 			description: [
 				"Combine &#B87333Molten Copper&r and &#BAC4C8Molten Zinc&r in a &oTinkers' Construct&r &l&#383433Smeltery&r or &l&#3E3029Scorched Alloyer&r. They will mix and form &#B5A642Molten Brass&r. Then cast it to obtain Ingots, Nuggets, Blocks,...."
 				""
@@ -3628,8 +3643,8 @@
 		{
 			title: "&lMechanical Mixer&r and Ingots Method    "
 			icon: "create:mechanical_mixer"
-			x: 24.0d
-			y: 39.75d
+			x: 24.5d
+			y: 25.5d
 			description: ["Combine &#B87333Copper Ingot&r and &#BAC4C8Zinc Ingot&r in a &oCreate&r &lMechanical Mixer&r and &lBasin&r (&4Heated&r). They will mix and form &#B5A642Brass Ingots&r."]
 			dependencies: ["6F9BF9D7BCEFD22C"]
 			id: "36498F5EA504C9EC"
@@ -3648,8 +3663,8 @@
 		}
 		{
 			title: "&lMechanical Mixer&r and Crushed Ores Method Step 1    "
-			x: 25.0d
-			y: 39.5d
+			x: 25.5d
+			y: 25.25d
 			description: ["Combine &#B87333Crushed Copper Ore&r and &#BAC4C8Crushed Zinc Ore&r in a &oCreate&r &lMechanical Mixer&r and &lBasin&r (&4Heated&r). They will mix and form &#B5A642Crushed Brass&r."]
 			dependencies: ["6F9BF9D7BCEFD22C"]
 			id: "517089AD8357DF4A"
@@ -3668,8 +3683,8 @@
 		}
 		{
 			title: "&lCrafting Table&r Method Step 2   "
-			x: 21.5d
-			y: 39.5d
+			x: 22.0d
+			y: 25.25d
 			description: ["Then smelt the obtained &#B5A642Brass Dust&r, and you will get &#B5A642Brass Ingots&r."]
 			dependencies: ["6A428E93D0EC6C7F"]
 			id: "4535FD31815F0C12"
@@ -3683,8 +3698,8 @@
 		}
 		{
 			title: "&lMechanical Mixer&r and Crushed Ores Method Step 2    "
-			x: 25.0d
-			y: 40.5d
+			x: 25.5d
+			y: 26.25d
 			description: [
 				"Then smelt it, and you will get &#B5A642Brass Ingots&r."
 				"You can also bulk wash it with an &lEncased Fan&r behind &#2389DAFlowing Water&r to obtain 10 &#B5A642Brass Nuggets&r and having 50% chance to get 5 more &#B5A642Brass Nuggets&r."
@@ -3700,8 +3715,8 @@
 			}]
 		}
 		{
-			x: 21.75d
-			y: 41.25d
+			x: 22.25d
+			y: 27.0d
 			dependencies: [
 				"4535FD31815F0C12"
 				"6F88D749C9F64C24"
@@ -3719,8 +3734,8 @@
 		}
 		{
 			title: "&#B5A642Brass Nuggets&r"
-			x: 23.5d
-			y: 40.75d
+			x: 24.0d
+			y: 26.5d
 			dependencies: ["501C9D5943ED96BA"]
 			id: "3672A2B3165F31E7"
 			tasks: [{
@@ -3731,39 +3746,16 @@
 			}]
 		}
 		{
-			x: 21.0d
-			y: 33.75d
+			x: 22.75d
+			y: 39.25d
 			shape: "octagon"
-			dependencies: ["50B9AEC7812CEE92"]
-			id: "798CA97E83BF9470"
-			tasks: [
-				{
-					id: "765249230C10098F"
-					type: "item"
-					item: "create:windmill_bearing"
-				}
-				{
-					id: "4BFCCF5B48621C3F"
-					type: "item"
-					item: "create:linear_chassis"
-				}
-				{
-					id: "1B045AC7ABAD4E07"
-					type: "item"
-					item: "create:white_sail"
-					count: 16L
-				}
-			]
-		}
-		{
-			x: 33.75d
-			y: 33.0d
 			subtitle: "\"Nothing better than Tea\" Mahat 2022"
 			description: [
 				"Put any Leaves, 250mb Water, and 250mb Milk in a heated Mechanical Mixer. Then, put the liquid in a bottle with a Spout."
 				""
 				"Gives haste for 3 minutes when drank and restores half a hunger point."
 			]
+			dependencies: ["5174E5B7DC17EF63"]
 			id: "1CDFE832772544D4"
 			tasks: [{
 				id: "0A3B577EE1D955A0"
@@ -3858,11 +3850,13 @@
 		}
 		{
 			x: 23.75d
-			y: 36.5d
+			y: 37.13571428571427d
+			shape: "rsquare"
 			dependencies: [
 				"78E7F0DE6BA873F4"
 				"63C0CBEDE7AE7BB9"
 			]
+			size: 1.5d
 			id: "5174E5B7DC17EF63"
 			tasks: [{
 				id: "0A2AC8B884DB6A51"
@@ -4009,10 +4003,13 @@
 					Icon: "supplementaries:textures/map/end_portal.png"
 				}
 			}
-			x: 37.125d
-			y: 29.25d
+			x: 23.75d
+			y: 40.46309523809522d
 			shape: "rsquare"
-			dependencies: ["6C902F1FE4656987"]
+			dependencies: [
+				"6C902F1FE4656987"
+				"652DEE63C01ED3AB"
+			]
 			size: 1.5d
 			id: "2BA269B9CA2B23C4"
 			tasks: [
@@ -4420,6 +4417,42 @@
 				id: "2EEB9F7433E92D0E"
 				type: "item"
 				item: "emendatusenigmatica:brass_ingot"
+			}]
+		}
+		{
+			x: 23.0d
+			y: 38.25d
+			shape: "octagon"
+			dependencies: ["5174E5B7DC17EF63"]
+			id: "109D647ED52D215D"
+			tasks: [{
+				id: "137F5768445A7B2E"
+				type: "item"
+				item: "extendedcrafting:redstone_ingot"
+			}]
+		}
+		{
+			x: 24.5d
+			y: 38.25d
+			shape: "octagon"
+			dependencies: ["5174E5B7DC17EF63"]
+			id: "74538A4A28AEE1D5"
+			tasks: [{
+				id: "75DF48FF5485A8B5"
+				type: "item"
+				item: "extendedcrafting:ender_ingot"
+			}]
+		}
+		{
+			x: 24.75d
+			y: 39.25d
+			shape: "octagon"
+			dependencies: ["5174E5B7DC17EF63"]
+			id: "652DEE63C01ED3AB"
+			tasks: [{
+				id: "65543A9DCA1A7989"
+				type: "item"
+				item: "minecraft:ender_eye"
 			}]
 		}
 	]
