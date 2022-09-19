@@ -606,26 +606,6 @@
 			}]
 		}
 		{
-			x: 13.0d
-			y: 2.0d
-			id: "7589B29C8FBD3DDF"
-			tasks: [{
-				id: "4D736161FDFB5B90"
-				type: "item"
-				item: "miniutilities:flame_lily_seeds"
-			}]
-		}
-		{
-			x: 13.0d
-			y: 0.0d
-			id: "55B3E4017C97D3E2"
-			tasks: [{
-				id: "1DE30CC05A0C51BA"
-				type: "item"
-				item: "miniutilities:flame_lily"
-			}]
-		}
-		{
 			x: 24.0d
 			y: 7.25d
 			shape: "octagon"

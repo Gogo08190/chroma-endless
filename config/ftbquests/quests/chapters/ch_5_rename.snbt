@@ -250,6 +250,11 @@
 		{
 			x: -6.5d
 			y: -17.25d
+			description: [
+				"Spawner Agitator will prevent the spawned entity from despawning when the player leaves the area."
+				""
+				"Additionally, the spawner will keep spawning white the player is not in the area."
+			]
 			dependencies: ["121DF7B31DB4BEF8"]
 			id: "3C91A579E0AB0FE3"
 			tasks: [{
@@ -278,6 +283,13 @@
 		{
 			x: -5.5d
 			y: -17.5d
+			description: [
+				"This block is used together with a Pneumatic Door Base to form a working door contraption."
+				""
+				"When you placed Pneumatic Door Base nex to the top half oh a Pneumatic Door, will automatically open the door when there are players nearby."
+				""
+				"When the Pneumatic Door Base is within range of a Security Station, the Pneumatic Door Base will only react to players alloyed by the Security Station."
+			]
 			dependencies: ["121DF7B31DB4BEF8"]
 			optional: true
 			id: "2503622E57EF510F"
@@ -347,6 +359,8 @@
 		{
 			x: -10.0d
 			y: -17.25d
+			subtitle: "32,000 mb capacity"
+			description: ["Can be connected with tanks above and below with a wrench."]
 			dependencies: ["121DF7B31DB4BEF8"]
 			id: "625D10DD8943384A"
 			tasks: [{
@@ -533,7 +547,7 @@
 		}
 		{
 			x: -6.0d
-			y: -8.75d
+			y: -5.75d
 			dependencies: ["75B03878AA52F00E"]
 			id: "0F0CE8DBEF01ED7D"
 			tasks: [{
@@ -568,7 +582,7 @@
 		}
 		{
 			x: -3.5d
-			y: -5.75d
+			y: -8.75d
 			dependencies: ["20C1F725A07E9CFF"]
 			id: "4CA86D176876CFCE"
 			tasks: [{
@@ -623,7 +637,7 @@
 		}
 		{
 			x: -3.5d
-			y: -4.5d
+			y: -7.5d
 			dependencies: ["62381F85EF519221"]
 			id: "40E7B5AB012885F7"
 			tasks: [{
@@ -701,8 +715,8 @@
 			}]
 		}
 		{
-			x: -10.5d
-			y: -2.5d
+			x: -5.75d
+			y: -3.25d
 			hide_dependency_lines: true
 			dependencies: [
 				"7607D13B4DE67B94"
@@ -717,8 +731,8 @@
 			}]
 		}
 		{
-			x: -12.0d
-			y: -2.5d
+			x: -5.75d
+			y: -2.0d
 			dependencies: ["34D00106A85CCA8E"]
 			id: "0C34C6AF4EC961E9"
 			tasks: [{
@@ -728,8 +742,8 @@
 			}]
 		}
 		{
-			x: -12.0d
-			y: -3.75d
+			x: -5.0d
+			y: -1.25d
 			dependencies: ["0C34C6AF4EC961E9"]
 			optional: true
 			id: "061FB8A4C85BF765"
@@ -741,7 +755,7 @@
 		}
 		{
 			x: -6.0d
-			y: -5.75d
+			y: -8.75d
 			dependencies: ["75B03878AA52F00E"]
 			id: "58D637659CFA12AB"
 			tasks: [{
@@ -752,7 +766,7 @@
 		}
 		{
 			x: -4.75d
-			y: -5.75d
+			y: -8.75d
 			dependencies: ["58D637659CFA12AB"]
 			id: "62381F85EF519221"
 			tasks: [{
@@ -763,7 +777,7 @@
 		}
 		{
 			x: -3.5d
-			y: -7.0d
+			y: -10.0d
 			dependencies: ["62381F85EF519221"]
 			id: "20C1F725A07E9CFF"
 			tasks: [{
@@ -1430,6 +1444,7 @@
 		}
 		{
 			title: "Master Assembly Factory"
+			icon: "masterfulmachinery:assemblylaser_controller"
 			x: -8.25d
 			y: 20.25d
 			shape: "gear"
@@ -1533,6 +1548,7 @@
 			x: -6.75d
 			y: -15.75d
 			shape: "octagon"
+			description: ["Blastproof chest wich preserves its contents chen broken."]
 			dependencies: [
 				"1F9249795027D6AD"
 				"121DF7B31DB4BEF8"
@@ -1542,6 +1558,64 @@
 				id: "29CD8D2EDA5FE353"
 				type: "item"
 				item: "pneumaticcraft:reinforced_chest"
+			}]
+		}
+		{
+			x: -3.75d
+			y: -3.25d
+			shape: "octagon"
+			dependencies: ["34D00106A85CCA8E"]
+			id: "29787E2FE68792C3"
+			tasks: [{
+				id: "117D714B8F65C865"
+				type: "item"
+				item: "kubejs:litherite_fluid_bucket"
+			}]
+		}
+		{
+			icon: "envirocore:litherite_crystal"
+			x: -2.25d
+			y: -3.25d
+			shape: "gear"
+			subtitle: "Making Litherite Crystal"
+			description: ["{image:chroma:textures/quests/litherite.png width:230 height:150 align:1}"]
+			dependencies: ["29787E2FE68792C3"]
+			size: 1.5d
+			id: "6C1CDB642DADEA2F"
+			tasks: [{
+				id: "18ACDB56873CC4DD"
+				type: "checkmark"
+				title: "Unlock : &aEnvironmental Tech&r quest line"
+			}]
+		}
+		{
+			x: -12.75d
+			y: -7.5d
+			description: ["{image:chroma:textures/quests/tiny_machine_frame.png width:200 height:100 align:1}"]
+			dependencies: [
+				"5C05ABDF754FEC7A"
+				"75B03878AA52F00E"
+			]
+			min_width: 240
+			id: "12658BA7FA33E104"
+			tasks: [{
+				id: "20411A3F25290851"
+				type: "item"
+				item: "rftoolsbase:machine_base"
+			}]
+		}
+		{
+			icon: "rftoolsbase:machine_frame"
+			x: -8.25d
+			y: 22.25d
+			shape: "gear"
+			dependencies: ["3B142D2ED1A34A2F"]
+			size: 1.5d
+			id: "3E3A4B6D727ED70F"
+			tasks: [{
+				id: "1774C39827ADCEA1"
+				type: "checkmark"
+				title: "Unlock : &bRFTools&r quest line"
 			}]
 		}
 	]

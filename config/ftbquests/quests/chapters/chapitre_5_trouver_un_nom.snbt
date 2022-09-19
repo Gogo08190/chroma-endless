@@ -12,6 +12,11 @@
 		{
 			x: -9.0d
 			y: 2.5d
+			subtitle: "Improved Extracting"
+			description: [
+				"The &5Improved Extractor&r is an advanced version of the &3Extractor&r. It extract &2elements&r faster."
+				"As for any other &2Instruments&r, the &5Improved Extractor&r needs to be on top of a &3Container&r but not a &3Small Container&r."
+			]
 			dependencies: ["42794F7270EC5336"]
 			id: "48B6CE2B7C611B03"
 			tasks: [{
@@ -23,6 +28,11 @@
 		{
 			x: -9.0d
 			y: 3.75d
+			subtitle: "Extracting from Elemental orbs"
+			description: [
+				"Use an &5Extractor&r to extract &2elements&r from &3sources&r."
+				"To do so, place the &5Extractor&r above a &3Container&r and below the &3source&r you want to extract."
+			]
 			hide_dependency_lines: true
 			dependencies: ["5269FB3852203971"]
 			id: "42794F7270EC5336"
@@ -33,8 +43,11 @@
 			}]
 		}
 		{
+			title: "Element Holders"
 			x: -7.25d
 			y: 3.75d
+			subtitle: "Moving Elements"
+			description: ["&5Element Holders&r can hold &2elements&r, for transport or for use by &2spells&r. To fill them hold right-click on a &3source&r of the same &2element&r type. You can also transfer &2element&r back to a receiver by holding right-click on it."]
 			dependencies: [
 				"61363AAF911F665B"
 				"42794F7270EC5336"
@@ -118,6 +131,11 @@
 		{
 			x: -11.75d
 			y: 0.5d
+			subtitle: "Fire Blasting Furnace"
+			description: [
+				"The &5Fire Blast Furnace&r is the &5Blast Furnace&r variant of the &3Fire Furnace&r."
+				"As for any other &2Instruments&r, the &5Blast Fire Furnace&r needs to be on top of a &3Container&r but not a &3Small Container&r."
+			]
 			dependencies: ["797866E6B3B0A46F"]
 			id: "0333650A8BE09237"
 			tasks: [{
@@ -129,6 +147,11 @@
 		{
 			x: -11.75d
 			y: -0.5d
+			subtitle: "Cooking with Element"
+			description: [
+				"The &5Fire Furnace&r smelts items by using &2fire element&r instead of fuel. "
+				"As for any other &2Instruments&r, the &5Fire Furnace&r needs to be on top of a &3Container&r but not a &3Small Container&r."
+			]
 			hide_dependency_lines: false
 			dependencies: ["797866E6B3B0A46F"]
 			id: "0EE083BBAA92CAA8"
@@ -141,6 +164,8 @@
 		{
 			x: -10.75d
 			y: 0.0d
+			subtitle: "This Fire Burns "
+			description: ["Put an &n&lInert Crystal&r in a &2Element Infuser&r and infuse it with &4Fire&r."]
 			dependencies: ["2EF6A9F779B7721E"]
 			id: "797866E6B3B0A46F"
 			tasks: [{
@@ -152,6 +177,13 @@
 		{
 			x: -7.25d
 			y: 2.5d
+			subtitle: "Not compatible with all instruments"
+			description: [
+				"The &5Small Element Container&r is a simple &2element&r storage for providing &2elements&r to &2instruments&r."
+				"All &2instruments&r need to be placed on top of a &5Container&r to operate."
+				"The &5Small Element Container&r can only wortk with &3Extractors&r and &3Infusers&r."
+				"You can also transfer &2elements&r from one &5Container&r to another using &3pipes&r."
+			]
 			dependencies: ["43EB5B6F9FA18134"]
 			id: "61363AAF911F665B"
 			tasks: [{
@@ -164,6 +196,7 @@
 			x: -9.25d
 			y: 0.0d
 			shape: "square"
+			subtitle: "Fire Infusing"
 			dependencies: ["03C527A6204354AA"]
 			id: "2EF6A9F779B7721E"
 			tasks: [{
@@ -175,6 +208,7 @@
 		{
 			x: -9.25d
 			y: -1.25d
+			subtitle: "Resmelting Glass"
 			dependencies: ["2EF6A9F779B7721E"]
 			id: "24B28B4198B98016"
 			tasks: [{
@@ -186,6 +220,8 @@
 		{
 			x: -5.0d
 			y: -1.0d
+			subtitle: "Earth Contained"
+			description: ["Put an &n&lInert Crystal&r in a &7Element Infuser&r and infuse it with &2Earth&r."]
 			dependencies: ["50ACA9EBE90B7CBC"]
 			id: "1F072851FDC6EFA4"
 			tasks: [{
@@ -198,6 +234,7 @@
 			x: -6.0d
 			y: 0.0d
 			shape: "square"
+			subtitle: "Earth Infusing"
 			dependencies: ["03C527A6204354AA"]
 			id: "50ACA9EBE90B7CBC"
 			tasks: [{
@@ -209,6 +246,8 @@
 		{
 			x: -6.0d
 			y: -1.5d
+			subtitle: "A new rock "
+			description: ["The &5Whiterock&r is an &2earth infused &5stone&r. It is used in the crafting of advanced &2instruments&r and &2shrines&r. To get it simply put &5stone&r in a &3Element Infuser&r and infused it with &2Earth&r."]
 			dependencies: ["50ACA9EBE90B7CBC"]
 			id: "2B5B7AED6FDF9867"
 			tasks: [{
@@ -220,6 +259,7 @@
 		{
 			x: -5.25d
 			y: -3.25d
+			description: ["Put a &n&lString&r in a &2Element Infuser&r and infuse it with &eAir&r."]
 			dependencies: ["3D4B8DB699CDE202"]
 			id: "491B2193A90E7426"
 			tasks: [{
@@ -232,6 +272,7 @@
 			x: -7.25d
 			y: -3.25d
 			shape: "square"
+			subtitle: "Air Infusing"
 			dependencies: ["03C527A6204354AA"]
 			id: "3D4B8DB699CDE202"
 			tasks: [{
@@ -243,6 +284,11 @@
 		{
 			x: -7.25d
 			y: 0.0d
+			subtitle: "Using Elements"
+			description: [
+				"Now that you can extract &2elements&r, it's time to use them."
+				"To do so you need an &5Infuser&r on top of a &3Container&r. Don't forget to connect it to the &3Extractor's Container&r with a &3pipe&r."
+			]
 			dependencies: ["61363AAF911F665B"]
 			id: "03C527A6204354AA"
 			tasks: [{
@@ -254,6 +300,8 @@
 		{
 			x: -11.0d
 			y: -3.25d
+			subtitle: "Water Power !"
+			description: ["Put a &n&lNether Quartz&r in a &2Element Infuser&r and infuse it with &bWater&r."]
 			dependencies: ["18E78747198F075F"]
 			id: "379064666E7A2E58"
 			tasks: [{
@@ -265,6 +313,8 @@
 		{
 			x: -11.0d
 			y: -4.5d
+			subtitle: "Do not dive"
+			description: ["Put an &n&lInert Crystal&r in a &2Element Infuser&r and infuse it with &bWater&r."]
 			dependencies: ["18E78747198F075F"]
 			id: "68711AC9EA30B4EA"
 			tasks: [{
@@ -277,6 +327,7 @@
 			x: -9.0d
 			y: -3.25d
 			shape: "square"
+			subtitle: "Water Infusing"
 			dependencies: ["03C527A6204354AA"]
 			id: "18E78747198F075F"
 			tasks: [{
@@ -288,6 +339,8 @@
 		{
 			x: -11.0d
 			y: -5.75d
+			subtitle: "Watering Bee"
+			description: ["Put an &n&lIron Bee&r in a &2Element Infuser&r and infuse it with &bWater&r."]
 			dependencies: ["18E78747198F075F"]
 			id: "3DA6AC7423A670E4"
 			tasks: [{
@@ -309,6 +362,8 @@
 		{
 			x: -9.0d
 			y: -4.5d
+			subtitle: "Drowning Iron"
+			description: ["Put an &n&lIron Ingot&r in a &2Element Infuser&r and infuse it with &bWater&r."]
 			dependencies: ["18E78747198F075F"]
 			id: "68CBC7E57700B6BE"
 			tasks: [{
@@ -322,6 +377,8 @@
 			icon: "elementalcraft:spell_desk"
 			x: -9.0d
 			y: -5.75d
+			subtitle: "Wingardium Levioooosa !"
+			description: ["To craft &2spells&r you need to first craft a &5spell desk&r. To use it just right-click it with some &5scroll paper&r and then with some &5infused crystal&r. The bigger the crystal stack, the better chance you have to get a spell, and the resulting spell is aligned with the same &2element&r as the crysal used."]
 			dependencies: [
 				"68CBC7E57700B6BE"
 				"7F18EAF2FA50C3E5"
@@ -343,6 +400,12 @@
 		{
 			x: -7.25d
 			y: -5.75d
+			subtitle: "Air Grinder"
+			description: [
+				"The &6Air Mill Grindstone&r allows you to grind down items like &5stone&r to &5gravel&r."
+				"As for any other &2Instruments&r, the &6Air Mill Grindstone&r needs to be on top of a &3Container&r but not a &3Small Container&r."
+				"As you can understand, it'll consume Air."
+			]
 			dependencies: ["7F18EAF2FA50C3E5"]
 			id: "58973E0689D3AB3D"
 			tasks: [{
@@ -354,6 +417,8 @@
 		{
 			x: -7.25d
 			y: -4.5d
+			subtitle: "Air Force"
+			description: ["Put an &n&lInert Crystal&r in a &2Element Infuser&r and infuse it with &eAir&r."]
 			dependencies: ["3D4B8DB699CDE202"]
 			id: "7F18EAF2FA50C3E5"
 			tasks: [{
@@ -365,6 +430,8 @@
 		{
 			x: -5.25d
 			y: -4.5d
+			subtitle: "A better Stick"
+			description: ["Use the &2Element Binder&r to create this item ! It consumes &2Earth&r!"]
 			dependencies: ["491B2193A90E7426"]
 			id: "381D351161EDF237"
 			tasks: [{
@@ -376,6 +443,11 @@
 		{
 			x: -5.25d
 			y: -5.75d
+			subtitle: "The Power of The Sun"
+			description: [
+				"The &5Solar Element Synthesizer&r allows you to harvest elements from the sun light, it needs to see the sky and only works during the day. You also need to provide lense to make it work."
+				"It must be placed above a &3Container&r."
+			]
 			dependencies: ["381D351161EDF237"]
 			id: "32352E0EF4809F2B"
 			tasks: [{
@@ -387,6 +459,8 @@
 		{
 			x: -3.75d
 			y: -5.75d
+			subtitle: "A better Focus"
+			description: ["Slightly increase the range of &2spells&r."]
 			dependencies: ["5946C729C43E17F5"]
 			id: "393536FA9655608A"
 			tasks: [{
@@ -404,6 +478,11 @@
 		{
 			x: -3.75d
 			y: -4.5d
+			subtitle: "Magic Wand"
+			description: [
+				"A &5Focus&r can hold multiple &2spells&r."
+				"You can add &2spells&r to it by putting the &5focus&r in an anvil with the &5scroll&r of the &2spell&r. You can circle through &2spells&r by holding shift and scrolling."
+			]
 			dependencies: ["381D351161EDF237"]
 			id: "5946C729C43E17F5"
 			tasks: [{
@@ -414,7 +493,9 @@
 		}
 		{
 			x: -0.25d
-			y: 4.5d
+			y: 4.75d
+			subtitle: "Your Ingame Wiki"
+			description: ["Everything you need to know about the &6&lElementalCraft&r mod."]
 			dependencies: ["148AC206C02F9761"]
 			id: "190E6A8147CD1EC5"
 			tasks: [{
@@ -432,7 +513,8 @@
 		{
 			title: "Raw Elements Shards"
 			x: 0.75d
-			y: 5.5d
+			y: 4.25d
+			subtitle: "Can be dropped on mobs "
 			dependencies: ["190E6A8147CD1EC5"]
 			id: "53B53495DEA95E9B"
 			tasks: [
@@ -468,9 +550,22 @@
 				}
 			}
 			x: -1.25d
-			y: 5.5d
-			description: ["mettre les 4 sources en photo"]
+			y: 4.25d
+			subtitle: "Natural Power"
+			description: [
+				"Trough your adventure you will find some &0Elemental Sources&r."
+				"Here are the 4 &4el&bem&6en&2ts&r that you will be able to find :"
+				"- &4Fire Source&r."
+				"{image:chroma:textures/quests/fire.png width:100 height:100 align:1}"
+				"- &eAir Source."
+				"{image:chroma:textures/quests/air.png width:150 height:100 align:1}"
+				"- &2Earth Source&r"
+				"{image:chroma:textures/quests/earth.png width:150 height:100 align:1}"
+				"- &bWater Source&r."
+				"{image:chroma:textures/quests/water.png width:150 height:100 align:1}"
+			]
 			dependencies: ["190E6A8147CD1EC5"]
+			min_width: 250
 			id: "62EC6FBCE097DBC0"
 			tasks: [{
 				id: "6644A18C9A3A75C2"
@@ -488,6 +583,8 @@
 		{
 			x: -3.5d
 			y: -1.75d
+			subtitle: "Faster !"
+			description: ["The &5Improved Element Binder&r works like a &3Binder&r and &3Infuser&r meaning it can do either binding or infusion at a faster rate. As for any other &2Instruments&r, the &5Improved Binder&r needs to be on top of a &3Container&r but not a &3Small Container&r."]
 			dependencies: ["552D81EF1814A4DD"]
 			id: "13DC2D43396579FB"
 			tasks: [{
@@ -499,6 +596,8 @@
 		{
 			x: -2.5d
 			y: -0.75d
+			subtitle: "Binding elements to items"
+			description: ["The &5Binder&r is one of the most important &2Instrument&r. It channels elements to combine multiples items together. Be careful because the order is which you put the items is really important, you need to put them clockwise from the top. As for any other &2Instruments&r, the &5Binder&r needs to be on top of a &3Container&r, but not a &3Small Container&r."]
 			dependencies: ["5269FB3852203971"]
 			id: "552D81EF1814A4DD"
 			tasks: [{
@@ -510,6 +609,8 @@
 		{
 			x: -0.5d
 			y: -0.75d
+			subtitle: "Elemental Tank"
+			description: ["The &5Element Container&r is an &2element&r storage, containing more &2elements&r than the &3Small Container&r, and it is compatible with all &2instruments&r."]
 			dependencies: ["5269FB3852203971"]
 			id: "33958A09FB7E36BE"
 			tasks: [{
@@ -519,8 +620,11 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 0.25d
+			title: "Creating Runes"
+			x: 0.5d
+			y: 0.0d
+			subtitle: "Carving White Rocks"
+			description: ["The &5Rune Inscriber&r is used to create Runes. At the difference of other &2instruments&r it needs to be right-clicked multiple times with a &5Rune Inscription Chisel&r to operate."]
 			dependencies: [
 				"33958A09FB7E36BE"
 				"5269FB3852203971"
@@ -566,6 +670,8 @@
 		{
 			x: -0.5d
 			y: -2.75d
+			subtitle: "Infused by Air"
+			description: ["Use the &2Element Binder&r to create this ingot ! It consumes &eAir&r!"]
 			dependencies: [
 				"552D81EF1814A4DD"
 				"33958A09FB7E36BE"
@@ -580,6 +686,8 @@
 		{
 			x: -2.5d
 			y: -2.75d
+			subtitle: "Swift Alloy Production "
+			description: ["Use the &2Element Binder&r to create this bee ! It consumes &bWater&r!"]
 			dependencies: [
 				"33958A09FB7E36BE"
 				"552D81EF1814A4DD"
@@ -604,6 +712,7 @@
 		{
 			x: -3.75d
 			y: 0.0d
+			subtitle: "The Best Element Pipe"
 			dependencies: [
 				"5269FB3852203971"
 				"4E0EFFD2B6E7E1BE"
@@ -618,6 +727,7 @@
 		{
 			x: -3.75d
 			y: 1.25d
+			subtitle: "A better Element Pipe"
 			dependencies: [
 				"5269FB3852203971"
 				"43EB5B6F9FA18134"
@@ -632,6 +742,14 @@
 		{
 			x: -3.75d
 			y: 2.5d
+			subtitle: "Your First Element Pipe"
+			description: [
+				"&5Pipes&r are used to transport &2elements&r across distances. Their main use is to provide &2instruments&r with the required &2element&r. You can configure a &5pipe&r by right-clicking a section or the core to change it from :"
+				"- &2Connected&r."
+				"- &2Disconnected&r."
+				"- &2Insert&r."
+				"- &2Extract&r."
+			]
 			dependencies: ["5269FB3852203971"]
 			id: "43EB5B6F9FA18134"
 			tasks: [{
@@ -643,6 +761,11 @@
 		{
 			x: -5.25d
 			y: 1.25d
+			subtitle: "Hiding Pipes"
+			description: [
+				"The &5pipe cover frame&r allows you to hide a &3pipe&r behind a block. Use it on a pipe (preferably while sneaking) then right click it with the block you want to hide it behind."
+				"You can hide frames and show pipes by holding a pipe, a frame or having an empty hand."
+			]
 			dependencies: [
 				"43EB5B6F9FA18134"
 				"4E0EFFD2B6E7E1BE"
@@ -659,6 +782,8 @@
 			x: -2.0d
 			y: 1.25d
 			shape: "diamond"
+			subtitle: "A worthy Trade"
+			description: ["Thanks to &2The Alfeihm&r you'll get the &6Contained Crystal&r used for multiple crafting."]
 			dependencies: ["148AC206C02F9761"]
 			id: "5269FB3852203971"
 			tasks: [{
@@ -845,6 +970,7 @@
 			x: 8.0d
 			y: 1.25d
 			shape: "gear"
+			description: ["{image:chroma:textures/quests/catalyst.png width:165 height:100 align:1}"]
 			hide_dependency_lines: true
 			dependencies: [
 				"4431A21A852F98FA"
@@ -882,6 +1008,8 @@
 		{
 			x: 9.25d
 			y: 0.0d
+			subtitle: "Afrit Boss"
+			description: ["In 'rd'r to spawn this new boss, thee shall has't to assembleth the four elements of darkness"]
 			hide_dependency_lines: true
 			dependencies: [
 				"4431A21A852F98FA"
@@ -899,8 +1027,8 @@
 		}
 		{
 			x: 0.5d
-			y: -4.5d
-			dependencies: ["53E0B3F747685F9E"]
+			y: -4.25d
+			dependencies: ["606CA9708A9AC7FC"]
 			id: "3CBC159D69603814"
 			tasks: [{
 				id: "71C553335383D458"
@@ -910,8 +1038,8 @@
 		}
 		{
 			x: 1.5d
-			y: -4.5d
-			dependencies: ["1B5469D64AE3F850"]
+			y: -3.5d
+			dependencies: ["606CA9708A9AC7FC"]
 			id: "4D028441C24B4A1A"
 			tasks: [{
 				id: "60648664EC82D6E6"
@@ -921,8 +1049,8 @@
 		}
 		{
 			x: 2.5d
-			y: -4.5d
-			dependencies: ["45ACEDB8B8D30E96"]
+			y: -3.5d
+			dependencies: ["606CA9708A9AC7FC"]
 			id: "741EEFF078CCEE44"
 			tasks: [{
 				id: "0EA1552193735551"
@@ -932,8 +1060,8 @@
 		}
 		{
 			x: 3.5d
-			y: -4.5d
-			dependencies: ["567BBF4D2121418C"]
+			y: -4.25d
+			dependencies: ["606CA9708A9AC7FC"]
 			id: "7D5B1F21662A6ACD"
 			tasks: [{
 				id: "7CAF7FA76001167A"
@@ -943,8 +1071,9 @@
 		}
 		{
 			x: 3.5d
-			y: -5.75d
+			y: -6.75d
 			shape: "gear"
+			subtitle: "Dragon's Anger"
 			dependencies: ["7BD2D6B517F906ED"]
 			id: "567BBF4D2121418C"
 			tasks: [{
@@ -955,8 +1084,9 @@
 		}
 		{
 			x: 2.5d
-			y: -5.75d
+			y: -6.75d
 			shape: "gear"
+			subtitle: "Dwarf's Exploring"
 			dependencies: ["7BD2D6B517F906ED"]
 			id: "45ACEDB8B8D30E96"
 			tasks: [{
@@ -967,8 +1097,9 @@
 		}
 		{
 			x: 1.5d
-			y: -5.75d
+			y: -6.75d
 			shape: "gear"
+			subtitle: "Avatar's Peace"
 			dependencies: ["7BD2D6B517F906ED"]
 			id: "1B5469D64AE3F850"
 			tasks: [{
@@ -979,8 +1110,9 @@
 		}
 		{
 			x: 0.5d
-			y: -5.75d
+			y: -6.75d
 			shape: "gear"
+			subtitle: "Aquaman's Wrath"
 			dependencies: ["7BD2D6B517F906ED"]
 			id: "53E0B3F747685F9E"
 			tasks: [{
@@ -991,8 +1123,10 @@
 		}
 		{
 			x: 2.0d
-			y: -7.5d
+			y: -8.5d
 			shape: "diamond"
+			subtitle: "Resulting From The Pure Infuser"
+			description: ["Welcome to a new tier of needed ingredient in order to progress through &6&lElementalCraft&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"343F169E9B91EC9B"
@@ -1010,7 +1144,8 @@
 		}
 		{
 			x: 1.0d
-			y: -8.75d
+			y: -9.75d
+			subtitle: "&cFireite&r production"
 			dependencies: ["7BD2D6B517F906ED"]
 			id: "425E218F59F2A24B"
 			tasks: [{
@@ -1031,7 +1166,11 @@
 		}
 		{
 			x: -0.25d
-			y: -7.5d
+			y: -8.5d
+			description: [
+				"The &5Purifier&r takes &5ores&r and purify them to create &5Pure Ores&r at a ration of one to two. You can get them smelt into ingots using any &5Furnaces&r."
+				"As for any other &2Instruments&r, the &5Ore Purifier&r needs to be on top of a &3Container&r but not a &3Small Container&r."
+			]
 			dependencies: ["7BD2D6B517F906ED"]
 			id: "53F48F179B01DBFC"
 			tasks: [{
@@ -1042,7 +1181,8 @@
 		}
 		{
 			x: 3.0d
-			y: -8.75d
+			y: -9.75d
+			subtitle: "Netherite? Nope !"
 			dependencies: ["7BD2D6B517F906ED"]
 			id: "7260BE309AD6DF62"
 			tasks: [{
@@ -1053,7 +1193,9 @@
 		}
 		{
 			x: 3.0d
-			y: -10.0d
+			y: -11.0d
+			subtitle: "The 4 Fantastics"
+			description: ["Combine the holy power of nature ! "]
 			dependencies: ["7260BE309AD6DF62"]
 			id: "70CDDDD6961ED529"
 			tasks: [{
@@ -1064,7 +1206,9 @@
 		}
 		{
 			x: 4.25d
-			y: -10.0d
+			y: -11.0d
+			subtitle: "Elemental Master"
+			description: ["The &6Pure Element Holder&r acts like the normal &6Element Holder&r but can hold the 4 Elements."]
 			dependencies: ["70CDDDD6961ED529"]
 			id: "46D435CD299EF61F"
 			tasks: [{
@@ -1086,7 +1230,9 @@
 		}
 		{
 			x: 4.0d
-			y: -7.5d
+			y: -8.5d
+			subtitle: "Moving Sources"
+			description: ["&5Receptacles&r are power tools that allow you to move &3source&r. You can pick u pand place back &3source&r into the world using right-click."]
 			dependencies: ["7BD2D6B517F906ED"]
 			id: "60A2528E8D290EAB"
 			tasks: [{
@@ -1103,7 +1249,12 @@
 		}
 		{
 			x: 5.0d
-			y: -8.25d
+			y: -9.25d
+			subtitle: "More Durability !"
+			description: [
+				"Acts like the previous &2receptacle&r but has more durability to move more &3sources&r."
+				"It can be repaired by using &cFireite&r."
+			]
 			dependencies: ["60A2528E8D290EAB"]
 			id: "4E066969159206A6"
 			tasks: [{
@@ -1121,6 +1272,7 @@
 		{
 			x: 10.0d
 			y: -3.5d
+			subtitle: "It might burn"
 			dependencies: ["42310EAE3A06F15E"]
 			id: "717F8022297E00D2"
 			tasks: [{
@@ -1132,6 +1284,7 @@
 		{
 			x: 9.0d
 			y: -3.5d
+			subtitle: "Grass not included"
 			dependencies: ["1F1890B436E5414D"]
 			id: "61D352299B41DBB0"
 			tasks: [{
@@ -1144,6 +1297,11 @@
 			x: 8.0d
 			y: -3.5d
 			shape: "hexagon"
+			subtitle: "A new way of using Elements"
+			description: [
+				"The &5Pure Infuser&r is the most powerful crafting tool? it uses &5pedestals&r to channel all 4 &2elements&r into 1 item. To operate, it needs to be circled with each of the 4 &5pedestals&r, each being provided with the correct &2element&r using &3improved pipes&r. "
+				"Once this setup is done, you can start crating by putting the correct &5ingredient&r on each &2pedestal&r and the main one on the &2pure infuser&r."
+			]
 			dependencies: ["0D78C3974BBDEDF3"]
 			id: "42B4D74321A27197"
 			tasks: [{
@@ -1155,6 +1313,7 @@
 		{
 			x: 7.0d
 			y: -3.5d
+			subtitle: "Lighter than air"
 			dependencies: ["217BBDA743C9716C"]
 			id: "343F169E9B91EC9B"
 			tasks: [{
@@ -1166,6 +1325,7 @@
 		{
 			x: 6.0d
 			y: -3.5d
+			subtitle: "Careful, might be slippery"
 			dependencies: ["48E7E8ACC4F2EB9C"]
 			id: "4431A21A852F98FA"
 			tasks: [{
@@ -1178,6 +1338,7 @@
 			x: 6.5d
 			y: -4.75d
 			shape: "pentagon"
+			subtitle: "&bWater&r at it's finest"
 			dependencies: ["1ED7B5CA71DDFF89"]
 			id: "48E7E8ACC4F2EB9C"
 			tasks: [{
@@ -1190,6 +1351,7 @@
 			x: 7.5d
 			y: -4.75d
 			shape: "pentagon"
+			subtitle: "&eAir&r at it's finest"
 			dependencies: ["1ED7B5CA71DDFF89"]
 			id: "217BBDA743C9716C"
 			tasks: [{
@@ -1202,6 +1364,7 @@
 			x: 8.5d
 			y: -4.75d
 			shape: "pentagon"
+			subtitle: "&2Earth&r at it's finest"
 			dependencies: ["1ED7B5CA71DDFF89"]
 			id: "1F1890B436E5414D"
 			tasks: [{
@@ -1214,6 +1377,7 @@
 			x: 9.5d
 			y: -4.75d
 			shape: "pentagon"
+			subtitle: "&4Fire&r at it's finest"
 			dependencies: ["1ED7B5CA71DDFF89"]
 			id: "42310EAE3A06F15E"
 			tasks: [{
@@ -1225,6 +1389,14 @@
 		{
 			x: 8.0d
 			y: -6.0d
+			subtitle: "Quality Gems "
+			description: [
+				"The &5Gem Crystallizer&r allows you to infuse the power of a single &5crystal&r to a &5diamond&r to create &5elemental gem&r. There are 3 qualities of gems :"
+				"- Crude,"
+				"- Fine,"
+				"And Pristine."
+				"To use it place the &5diamond&r first, then the &2crystal&r and finaly up to ten &5shards&r to increase the chance of a better quality &5gem&r."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"058C53606A481B5A"
@@ -1242,6 +1414,9 @@
 			x: -0.25d
 			y: 3.0d
 			shape: "diamond"
+			subtitle: "Your First Ore"
+			description: ["While mining you may find some &l&nInert Ore&r. Mine it and you'll obtain this !"]
+			size: 2.0d
 			id: "148AC206C02F9761"
 			tasks: [{
 				id: "23667129144CD188"
@@ -1631,6 +1806,7 @@
 			x: -9.0d
 			y: -7.25d
 			shape: "rsquare"
+			subtitle: "All the Spells !"
 			dependencies: ["7F6F05F53A58BCD3"]
 			optional: true
 			id: "73D5C86184299230"
@@ -1846,8 +2022,11 @@
 			]
 		}
 		{
-			x: -0.25d
-			y: 8.5d
+			x: -0.5d
+			y: 9.25d
+			shape: "hexagon"
+			hide: false
+			size: 2.0d
 			id: "2D280B19DAF910F3"
 			tasks: [{
 				id: "229F9EECAB22D737"
@@ -1873,8 +2052,8 @@
 			}]
 		}
 		{
-			x: -1.75d
-			y: 8.75d
+			x: -0.5d
+			y: 7.5d
 			dependencies: ["2D280B19DAF910F3"]
 			id: "45CDD9F70819E45A"
 			tasks: [{
@@ -1892,8 +2071,8 @@
 		}
 		{
 			title: "Enchanting Apparatus"
-			x: 1.75d
-			y: 8.5d
+			x: 1.25d
+			y: 8.0d
 			subtitle: "A new way to craft"
 			dependencies: ["2D280B19DAF910F3"]
 			id: "347740BA6C176E93"
@@ -1918,8 +2097,8 @@
 		}
 		{
 			title: "Automatic Compound Infuser I/O"
-			x: 3.25d
-			y: 7.25d
+			x: 2.5d
+			y: 8.0d
 			dependencies: ["347740BA6C176E93"]
 			id: "0603F673A1E78B8D"
 			tasks: [
@@ -1942,8 +2121,8 @@
 		}
 		{
 			title: "Pedestals"
-			x: 3.25d
-			y: 8.5d
+			x: 1.25d
+			y: 6.75d
 			dependencies: ["347740BA6C176E93"]
 			id: "455C11FC5271AF93"
 			tasks: [
@@ -1961,8 +2140,8 @@
 		}
 		{
 			title: "Bees Stuff"
-			x: 3.25d
-			y: 9.75d
+			x: 2.5d
+			y: 6.75d
 			dependencies: ["347740BA6C176E93"]
 			id: "06D11E6229A3AA17"
 			tasks: [
@@ -2009,8 +2188,8 @@
 			]
 		}
 		{
-			x: -5.75d
-			y: 11.0d
+			x: -6.25d
+			y: 10.25d
 			dependencies: ["31936ED1790DA9BF"]
 			id: "4AF2D320ACBA99E3"
 			tasks: [{
@@ -2020,8 +2199,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 11.0d
+			x: -3.25d
+			y: 9.25d
 			dependencies: ["2D280B19DAF910F3"]
 			id: "36D7AB33ECC0C810"
 			tasks: [{
@@ -2031,8 +2210,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 11.0d
+			x: -5.25d
+			y: 9.25d
 			dependencies: ["36D7AB33ECC0C810"]
 			id: "31936ED1790DA9BF"
 			tasks: [{
@@ -2043,9 +2222,9 @@
 		}
 		{
 			title: "Mythical Spells"
-			x: -6.5d
-			y: 10.25d
-			shape: "circle"
+			x: -6.25d
+			y: 11.75d
+			shape: "square"
 			dependencies: [
 				"774870F62D6F3E8A"
 				"4AF2D320ACBA99E3"
@@ -2126,8 +2305,8 @@
 			]
 		}
 		{
-			x: 3.75d
-			y: 11.5d
+			x: 2.5d
+			y: 11.75d
 			dependencies: ["2C180B990E4CCEC3"]
 			id: "120CD537BDE5EAAD"
 			tasks: [{
@@ -2137,8 +2316,9 @@
 			}]
 		}
 		{
-			x: 0.75d
-			y: 10.25d
+			title: "Arcane Stone"
+			x: 1.25d
+			y: 10.0d
 			dependencies: ["2D280B19DAF910F3"]
 			id: "2C180B990E4CCEC3"
 			tasks: [{
@@ -2150,8 +2330,9 @@
 		}
 		{
 			title: "Marvelous Spells"
-			x: -4.5d
-			y: 10.0d
+			x: -6.25d
+			y: 8.25d
+			shape: "square"
 			dependencies: ["31936ED1790DA9BF"]
 			optional: true
 			min_width: 250
@@ -2301,9 +2482,11 @@
 		}
 		{
 			title: "EnderChest School"
-			x: -1.5d
-			y: 12.5d
+			x: -3.75d
+			y: 10.25d
+			shape: "square"
 			dependencies: ["36D7AB33ECC0C810"]
+			optional: true
 			id: "3E32FA480007D4D3"
 			tasks: [
 				{
@@ -2410,9 +2593,11 @@
 		}
 		{
 			title: "School Of Manipulation"
-			x: -2.5d
-			y: 12.5d
+			x: -2.75d
+			y: 10.25d
+			shape: "square"
 			dependencies: ["36D7AB33ECC0C810"]
+			optional: true
 			id: "4E732C30E3322D12"
 			tasks: [
 				{
@@ -2469,9 +2654,11 @@
 		}
 		{
 			title: "School Of Elements"
-			x: -3.5d
-			y: 12.5d
+			x: -2.75d
+			y: 8.25d
+			shape: "square"
 			dependencies: ["36D7AB33ECC0C810"]
+			optional: true
 			id: "58E84351890C0A94"
 			tasks: [
 				{
@@ -2538,9 +2725,11 @@
 		}
 		{
 			title: "No School Needed"
-			x: -4.5d
-			y: 12.5d
+			x: -3.75d
+			y: 8.25d
+			shape: "square"
 			dependencies: ["36D7AB33ECC0C810"]
+			optional: true
 			id: "4CDD605735DE26FD"
 			tasks: [
 				{
@@ -2631,8 +2820,8 @@
 			]
 		}
 		{
-			x: -3.0d
-			y: 8.75d
+			x: -0.5d
+			y: 6.25d
 			dependencies: ["45CDD9F70819E45A"]
 			id: "63AF0CBC9A1F021F"
 			tasks: [{
@@ -2649,8 +2838,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 7.5d
+			x: -2.5d
+			y: 6.25d
 			dependencies: ["63AF0CBC9A1F021F"]
 			id: "23AB690BEFE535DF"
 			tasks: [{
@@ -2668,8 +2857,8 @@
 		}
 		{
 			title: "Enchanting Apparatus"
-			x: 2.75d
-			y: 12.25d
+			x: -0.5d
+			y: 11.75d
 			dependencies: ["2C180B990E4CCEC3"]
 			id: "0F5064AAAA97F693"
 			tasks: [
@@ -2690,6 +2879,316 @@
 					item: "ars_nouveau:enchanting_apparatus"
 				}
 			]
+		}
+		{
+			x: 3.25d
+			y: 10.0d
+			dependencies: ["2C180B990E4CCEC3"]
+			id: "620AE64F27D7DC43"
+			tasks: [{
+				id: "20D75F6AAAF3CA68"
+				type: "item"
+				item: "ars_nouveau:mana_jar"
+			}]
+		}
+		{
+			title: "Source Relays"
+			x: 4.0d
+			y: 9.25d
+			dependencies: ["620AE64F27D7DC43"]
+			id: "025EC5563C39255B"
+			tasks: [
+				{
+					id: "6E26C535D80AC0E8"
+					type: "item"
+					item: "ars_nouveau:relay_deposit"
+				}
+				{
+					id: "648FABF628A98FE2"
+					type: "item"
+					item: "ars_nouveau:relay_warp"
+				}
+				{
+					id: "118E290DB9E87C67"
+					type: "item"
+					item: "ars_nouveau:arcane_relay"
+				}
+				{
+					id: "436BEE28B72380FC"
+					type: "item"
+					item: "ars_nouveau:arcane_relay_splitter"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 9.25d
+			dependencies: ["620AE64F27D7DC43"]
+			id: "63369166FED1B89E"
+			tasks: [{
+				id: "1F068526C6889BB7"
+				type: "item"
+				item: {
+					id: "ars_nouveau:dominion_wand"
+					Count: 1b
+					tag: {
+						en_id: -1
+					}
+				}
+			}]
+		}
+		{
+			title: "Pedestal Stuff"
+			x: 0.75d
+			y: 12.5d
+			dependencies: ["0F5064AAAA97F693"]
+			id: "2FE111BC9D19D25A"
+			tasks: [
+				{
+					id: "510F4F92CAF8E78C"
+					type: "item"
+					item: "pedestals:coin/default"
+				}
+				{
+					id: "1CB113F13CA7BCE1"
+					type: "item"
+					item: "pedestals:coin/cobble"
+				}
+				{
+					id: "5F1FFEE79AA71D1D"
+					type: "item"
+					item: "pedestals:pedestal/stone333"
+				}
+			]
+		}
+		{
+			title: "Bee Stuff"
+			x: -1.25d
+			y: 13.25d
+			dependencies: ["0F5064AAAA97F693"]
+			id: "3C596418F805D2DB"
+			tasks: [
+				{
+					id: "2BFDF0425AD2CC78"
+					type: "item"
+					item: "resourcefulbees:t4_beehive"
+				}
+				{
+					id: "1F18C79E7488F9E6"
+					type: "item"
+					item: "resourcefulbees:t4_hive_upgrade"
+				}
+				{
+					id: "0EAEF085DFE721F9"
+					type: "item"
+					item: {
+						id: "resourcefulbees:bee_jar"
+						Count: 1b
+						tag: {
+							Entity: "resourcefulbees:experience_bee"
+							display: {
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.experience_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+							}
+							Color: "#9ce02f"
+						}
+					}
+				}
+				{
+					id: "1C5676AB31BF2A97"
+					type: "item"
+					item: {
+						id: "resourcefulbees:bee_jar"
+						Count: 1b
+						tag: {
+							Entity: "resourcefulbees:source_steel_bee"
+							display: {
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.source_steel_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+							}
+							Color: "#d1b9e5"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Automatic Compound Infuser I/O"
+			x: -1.75d
+			y: 12.5d
+			dependencies: ["0F5064AAAA97F693"]
+			id: "48EF750FBA9CEA27"
+			tasks: [
+				{
+					id: "14F3CBAEC4E0124B"
+					type: "item"
+					item: "masterfulmachinery:autoinfuser_compound_item_port_items_output"
+				}
+				{
+					id: "002863034917F19C"
+					type: "item"
+					item: "masterfulmachinery:autoinfuser_compound_fluid_port_fluids_input"
+				}
+				{
+					id: "71DC364ECA9D4292"
+					type: "item"
+					item: "masterfulmachinery:autoinfuser_compound_item_port_items_input"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 12.5d
+			shape: "octagon"
+			dependencies: ["2C180B990E4CCEC3"]
+			size: 2.0d
+			id: "2B073D5DCCB463A6"
+			tasks: [{
+				id: "5755A99F5F43CF78"
+				type: "checkmark"
+				title: "Generating Mana"
+			}]
+		}
+		{
+			x: 4.25d
+			y: 13.25d
+			shape: "rsquare"
+			dependencies: ["2B073D5DCCB463A6"]
+			id: "28F2DAA8953FA93D"
+			tasks: [{
+				id: "48F5296D4451B448"
+				type: "item"
+				item: "ars_nouveau:alchemical_sourcelink"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 14.0d
+			shape: "rsquare"
+			dependencies: ["2B073D5DCCB463A6"]
+			id: "5D56176F04A6033D"
+			tasks: [{
+				id: "736A56A05A7B8B36"
+				type: "item"
+				item: "ars_nouveau:volcanic_accumulator"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 14.25d
+			shape: "rsquare"
+			dependencies: ["2B073D5DCCB463A6"]
+			id: "7846EFEAC8899263"
+			tasks: [{
+				id: "0A1BCC0A5CE37B2B"
+				type: "item"
+				item: "ars_nouveau:mana_condenser"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 14.0d
+			shape: "rsquare"
+			dependencies: ["2B073D5DCCB463A6"]
+			id: "694EF935182800E4"
+			tasks: [{
+				id: "7F265B63E37F0D81"
+				type: "item"
+				item: "ars_nouveau:mycelial_sourcelink"
+			}]
+		}
+		{
+			x: 7.75d
+			y: 13.25d
+			shape: "rsquare"
+			dependencies: ["2B073D5DCCB463A6"]
+			id: "60540B4E2F1A4B4C"
+			tasks: [{
+				id: "19523E26A9C096A2"
+				type: "item"
+				item: "ars_nouveau:vitalic_sourcelink"
+			}]
+		}
+		{
+			x: 0.25d
+			y: 13.25d
+			dependencies: ["0F5064AAAA97F693"]
+			id: "27434472ADF568A8"
+			tasks: [
+				{
+					id: "00FA21D8EE3AC3BC"
+					type: "item"
+					item: "ars_nouveau:potion_melder"
+				}
+				{
+					id: "05CFD5AD59129FBC"
+					type: "item"
+					item: "ars_nouveau:potion_jar"
+					count: 3L
+				}
+			]
+		}
+		{
+			x: -1.25d
+			y: 14.25d
+			dependencies: ["0F5064AAAA97F693"]
+			id: "2A2084F619A57295"
+			tasks: [{
+				id: "637AB1CA807ADF6B"
+				type: "item"
+				item: "ars_nouveau:ritual"
+			}]
+		}
+		{
+			x: 0.25d
+			y: 14.25d
+			dependencies: ["0F5064AAAA97F693"]
+			optional: true
+			id: "62342568F702D262"
+			tasks: [
+				{
+					id: "61882E5C872C3DAE"
+					type: "item"
+					item: "ars_nouveau:whelp_charm"
+				}
+				{
+					id: "35C44525053CCABA"
+					type: "item"
+					item: "ars_nouveau:carbuncle_charm"
+				}
+				{
+					id: "0E7411A89577AFC1"
+					type: "item"
+					item: "ars_nouveau:wixie_charm"
+				}
+				{
+					id: "034DDC6BA16C8A2F"
+					type: "item"
+					item: "ars_nouveau:sylph_charm"
+				}
+				{
+					id: "4AFAF53512FA9E7F"
+					type: "item"
+					item: "ars_nouveau:drygmy_charm"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -5.5d
+			subtitle: "Storing ludicrous amount of Element."
+			description: ["The &5Element Reservoirs&r is an advanced &3element&r storage , containing more &2elements&r than the &3Container&r, it is compatible with all &2instruments&r. But there is 4 different version each 1 for each elements."]
+			dependencies: [
+				"53E0B3F747685F9E"
+				"1B5469D64AE3F850"
+				"45ACEDB8B8D30E96"
+				"567BBF4D2121418C"
+			]
+			size: 1.5d
+			id: "606CA9708A9AC7FC"
+			tasks: [{
+				id: "543E56B2B416AAD6"
+				type: "checkmark"
+				title: "Reservoirs"
+			}]
 		}
 	]
 }

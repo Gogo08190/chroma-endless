@@ -509,7 +509,7 @@
 			}]
 		}
 		{
-			x: -3.75d
+			x: -4.0d
 			y: -0.25d
 			dependencies: ["47D58FD227B99611"]
 			id: "676F58186B56D43C"
@@ -1298,7 +1298,10 @@
 			x: 38.75d
 			y: -6.0d
 			shape: "octagon"
-			dependencies: ["2291A2EA731C5B9E"]
+			dependencies: [
+				"2291A2EA731C5B9E"
+				"7B9FBBCD2F962A0B"
+			]
 			size: 2.0d
 			id: "7C4C717137B640C6"
 			tasks: [{
@@ -2360,6 +2363,252 @@
 				id: "74EA6CE530A4A020"
 				type: "checkmark"
 				title: "&eIndustrious Upgrades"
+			}]
+		}
+		{
+			title: "Laser lens"
+			x: 34.25d
+			y: 8.0d
+			dependencies: ["78170A2DCD9F1C3C"]
+			id: "6289C8AE15A4BF73"
+			tasks: [{
+				id: "6574FF23F6389F82"
+				type: "item"
+				title: "Laser lens"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "industrialforegoing:laser_lens0"
+								Count: 1b
+							}
+							{
+								id: "industrialforegoing:laser_lens7"
+								Count: 1b
+							}
+							{
+								id: "industrialforegoing:laser_lens6"
+								Count: 1b
+							}
+							{
+								id: "industrialforegoing:laser_lens5"
+								Count: 1b
+							}
+							{
+								id: "industrialforegoing:laser_lens3"
+								Count: 1b
+							}
+							{
+								id: "industrialforegoing:laser_lens4"
+								Count: 1b
+							}
+							{
+								id: "industrialforegoing:laser_lens2"
+								Count: 1b
+							}
+							{
+								id: "industrialforegoing:laser_lens1"
+								Count: 1b
+							}
+							{
+								id: "industrialforegoing:laser_lens8"
+								Count: 1b
+							}
+							{
+								id: "industrialforegoing:laser_lens9"
+								Count: 1b
+							}
+							{
+								id: "industrialforegoing:laser_lens10"
+								Count: 1b
+							}
+							{
+								id: "industrialforegoing:laser_lens11"
+								Count: 1b
+							}
+							{
+								id: "industrialforegoing:laser_lens13"
+								Count: 1b
+							}
+							{
+								id: "industrialforegoing:laser_lens14"
+								Count: 1b
+							}
+							{
+								id: "industrialforegoing:laser_lens15"
+								Count: 1b
+							}
+							{
+								id: "industrialforegoing:laser_lens12"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 31.25d
+			y: 4.75d
+			hide_dependency_lines: true
+			dependencies: ["674D96570B7CE75F"]
+			optional: true
+			id: "0A735828AD6E393E"
+			tasks: [{
+				id: "56DBCAB5DBF9717B"
+				type: "item"
+				item: "industrialforegoing:sludge_bucket"
+			}]
+		}
+		{
+			x: 30.25d
+			y: 4.75d
+			hide_dependency_lines: true
+			dependencies: ["60617DA0B9FA35D5"]
+			optional: true
+			id: "26E1BD955D2D4C0E"
+			tasks: [{
+				id: "4DE6749C5C127674"
+				type: "item"
+				item: "industrialforegoing:biofuel_bucket"
+			}]
+		}
+		{
+			x: 29.25d
+			y: 4.75d
+			hide_dependency_lines: true
+			dependencies: ["330130D7B723C1A9"]
+			optional: true
+			id: "1E30091B21DC41B9"
+			tasks: [{
+				id: "24D9A39DAC5A3F8C"
+				type: "item"
+				item: "industrialforegoing:latex_bucket"
+			}]
+		}
+		{
+			x: 28.25d
+			y: 4.75d
+			hide_dependency_lines: true
+			dependencies: ["296B3469D6D39BB6"]
+			optional: true
+			id: "644010AF3A731ABB"
+			tasks: [{
+				id: "5E21054DC68FA810"
+				type: "item"
+				item: "industrialforegoing:essence_bucket"
+			}]
+		}
+		{
+			x: 27.25d
+			y: 4.75d
+			hide_dependency_lines: true
+			dependencies: ["00C8869CC6B0933C"]
+			optional: true
+			id: "715BA7D935064CD0"
+			tasks: [{
+				id: "6F1270DD64B619D6"
+				type: "item"
+				item: "industrialforegoing:pink_slime_bucket"
+			}]
+		}
+		{
+			x: 28.25d
+			y: 3.75d
+			hide_dependency_lines: true
+			dependencies: ["00C8869CC6B0933C"]
+			optional: true
+			id: "133EB596DA8E65FE"
+			tasks: [{
+				id: "6215516949A6241A"
+				type: "item"
+				item: "industrialforegoing:meat_bucket"
+			}]
+		}
+		{
+			x: 29.25d
+			y: 3.75d
+			hide_dependency_lines: true
+			dependencies: ["3ABD34D177F0B709"]
+			optional: true
+			id: "2C68A095D80BC93E"
+			tasks: [{
+				id: "5E42D453C8640AD6"
+				type: "item"
+				item: {
+					id: "industrialforegoing:fermented_ore_meat_bucket"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 30.25d
+			y: 3.75d
+			hide_dependency_lines: true
+			dependencies: ["14DBBBDC416F08DA"]
+			optional: true
+			id: "1CB14044F1222E7B"
+			tasks: [{
+				id: "6339FB7A5051D43A"
+				type: "item"
+				item: {
+					id: "industrialforegoing:raw_ore_meat_bucket"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 31.25d
+			y: 3.75d
+			hide_dependency_lines: true
+			dependencies: ["146F580FDDB6FED3"]
+			optional: true
+			id: "1D122C9B48BC56F9"
+			tasks: [{
+				id: "256B55F2AD25CDF5"
+				type: "item"
+				item: "industrialforegoing:ether_gas_bucket"
+			}]
+		}
+		{
+			x: 27.25d
+			y: 3.75d
+			hide_dependency_lines: true
+			dependencies: ["2F2D0CC9A18D0D79"]
+			optional: true
+			id: "7DFCA9EFED067EFD"
+			tasks: [{
+				id: "6B78188E98FFC14B"
+				type: "item"
+				item: "industrialforegoing:sewage_bucket"
+			}]
+		}
+		{
+			x: 32.25d
+			y: 4.25d
+			hide_dependency_lines: true
+			dependencies: ["330130D7B723C1A9"]
+			optional: true
+			id: "17B7AB614DE22881"
+			tasks: [{
+				id: "76B102D62F0BAFEE"
+				type: "item"
+				item: "thermal:resin_bucket"
+			}]
+		}
+		{
+			x: 36.75d
+			y: 7.5d
+			dependencies: ["296B3469D6D39BB6"]
+			id: "4F78CFC9AF94D2BC"
+			tasks: [{
+				id: "3E762B0E0AB33607"
+				type: "item"
+				item: "industrialforegoing:mob_imprisonment_tool"
 			}]
 		}
 	]

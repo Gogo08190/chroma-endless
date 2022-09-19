@@ -525,5 +525,71 @@
 				item: "tconstruct:crafting_station"
 			}]
 		}
+		{
+			x: 0.0d
+			y: 8.75d
+			subtitle: "The Schematicannon is required for building a loaded and positioned Schematic"
+			description: [
+				"It will use materials from adjacent inventories unless a Schematicannon Creatifier Crate has been placed next to it."
+				""
+				"Having prepared a Schematic for placement, you are now ready to consult the Schematicannon for the construction.For this Workflow you will need:"
+				"- A deployed Schematic x1"
+				"- Schematicannon x1"
+				"- Chests or other Inventories x1-4"
+				"- Gunpowder (x1 for every 400 Blocks in the Schematic)"
+				"- Book x1 (Optional)"
+				""
+				"Place the Schematicannon near but outside of the boundaries of your Schematic. It is important that the target area is loaded and not too far away from the cannon."
+				""
+				"As usual for more informations:"
+				"&9&n&ohttps://github.com/Creators-of-Create/Create/wiki/Printing-a-Schematic"
+			]
+			min_width: 300
+			id: "4395EBC605AA491D"
+			tasks: [{
+				id: "15F4852FB6CEAF67"
+				type: "item"
+				item: "create:schematicannon"
+			}]
+		}
+		{
+			x: 1.25d
+			y: 8.75d
+			subtitle: "Using the Schematic module you can load Structures and bring them into the world"
+			description: [
+				"Craft yourself a Schematic Table and place it in your workshop. Open it up and place the Empty Schematic in the input slot on the left. The checkered area shows the schematic file to be loaded onto the item."
+				"You can change it to any of the files available in the &b&o/schematics&r folder:"
+				""
+				"● Scroll on the text to select the Schematic you would like to load."
+				""
+				"● Press the check-mark Button to confirm your choice. The Table will now start to write the schematic onto the item."
+				""
+				"The processing time of this table depends on the size of the schematic you chose.On the technical side - the schematic is being uploaded onto the server in order to be place-able by server side actors.If your structure is very large, you can leave the Table interface while the upload is happening, and come back later."
+				"Once it finished, take the Schematic from the output slot and hold it in your main hand. For initial positioning, you have two options: Using the Deploy Mode, or to input coordinates directly."
+				""
+				"- For positioning the Schematic without coordinates, Right-click with the Schematic when the bounding-box is near the desired location. (Can be moved later)"
+				""
+				"-For positioning in the Air, Hold Ctrl to lock the selected position at a fixed distance.Modify the distance by Scrolling while Ctrl is being held. Right-click to confirm."
+			]
+			min_width: 300
+			id: "3CBBAC9AEDBDE316"
+			tasks: [
+				{
+					id: "37DF63AF814CC754"
+					type: "item"
+					item: "create:schematic_table"
+				}
+				{
+					id: "5F702C9DAD20A59B"
+					type: "item"
+					item: "create:schematic_and_quill"
+				}
+				{
+					id: "6CC9D93B9DA8B1A9"
+					type: "item"
+					item: "create:empty_schematic"
+				}
+			]
+		}
 	]
 }

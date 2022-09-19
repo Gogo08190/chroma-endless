@@ -8,18 +8,32 @@
 	subtitle: ["Minecraft + Tetra + Tinkers + Create"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	images: [{
-		x: 23.75d
-		y: 25.75d
-		width: 6.0d
-		height: 6.0d
-		rotation: 0.0d
-		image: "create:textures/item/brass_ingot.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
-	}]
+	images: [
+		{
+			x: 23.75d
+			y: 25.75d
+			width: 6.0d
+			height: 6.0d
+			rotation: 0.0d
+			image: "create:textures/item/brass_ingot.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 34.75d
+			y: 33.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/gui/presets/isles.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
 			title: "First of all: &#806517Logs&r"
@@ -1424,7 +1438,7 @@
 			x: 23.75d
 			y: 33.0d
 			subtitle: "Casings are blocks used for crafting, and for aesthetic purposes"
-			dependencies: ["776713B4EE3868E7"]
+			dependencies: ["3441111B8198CC9D"]
 			id: "410AC414B2B492D1"
 			tasks: [{
 				id: "15D774EBD0A077FD"
@@ -2946,36 +2960,9 @@
 			}]
 		}
 		{
-			x: 15.0d
-			y: 35.0d
-			subtitle: "The Schematicannon is required for building a loaded and positioned Schematic"
-			description: [
-				"It will use materials from adjacent inventories unless a Schematicannon Creatifier Crate has been placed next to it."
-				""
-				"Having prepared a Schematic for placement, you are now ready to consult the Schematicannon for the construction.For this Workflow you will need:"
-				"- A deployed Schematic x1"
-				"- Schematicannon x1"
-				"- Chests or other Inventories x1-4"
-				"- Gunpowder (x1 for every 400 Blocks in the Schematic)"
-				"- Book x1 (Optional)"
-				""
-				"Place the Schematicannon near but outside of the boundaries of your Schematic. It is important that the target area is loaded and not too far away from the cannon."
-				""
-				"As usual for more informations:"
-				"&9&n&ohttps://github.com/Creators-of-Create/Create/wiki/Printing-a-Schematic"
-			]
-			dependencies: ["3441111B8198CC9D"]
-			min_width: 300
-			id: "4395EBC605AA491D"
-			tasks: [{
-				id: "15F4852FB6CEAF67"
-				type: "item"
-				item: "create:schematicannon"
-			}]
-		}
-		{
-			x: 31.25d
-			y: 30.5d
+			x: 36.75d
+			y: 29.25d
+			hide_dependency_lines: true
 			dependencies: [
 				"17E63FB824FA537E"
 				"4AC1298723D8A89A"
@@ -2992,46 +2979,6 @@
 					}
 				}
 			}]
-		}
-		{
-			x: 13.5d
-			y: 35.0d
-			subtitle: "Using the Schematic module you can load Structures and bring them into the world"
-			description: [
-				"Craft yourself a Schematic Table and place it in your workshop. Open it up and place the Empty Schematic in the input slot on the left. The checkered area shows the schematic file to be loaded onto the item."
-				"You can change it to any of the files available in the &b&o/schematics&r folder:"
-				""
-				"● Scroll on the text to select the Schematic you would like to load."
-				""
-				"● Press the check-mark Button to confirm your choice. The Table will now start to write the schematic onto the item."
-				""
-				"The processing time of this table depends on the size of the schematic you chose.On the technical side - the schematic is being uploaded onto the server in order to be place-able by server side actors.If your structure is very large, you can leave the Table interface while the upload is happening, and come back later."
-				"Once it finished, take the Schematic from the output slot and hold it in your main hand. For initial positioning, you have two options: Using the Deploy Mode, or to input coordinates directly."
-				""
-				"- For positioning the Schematic without coordinates, Right-click with the Schematic when the bounding-box is near the desired location. (Can be moved later)"
-				""
-				"-For positioning in the Air, Hold Ctrl to lock the selected position at a fixed distance.Modify the distance by Scrolling while Ctrl is being held. Right-click to confirm."
-			]
-			dependencies: ["3441111B8198CC9D"]
-			min_width: 300
-			id: "3CBBAC9AEDBDE316"
-			tasks: [
-				{
-					id: "37DF63AF814CC754"
-					type: "item"
-					item: "create:schematic_table"
-				}
-				{
-					id: "5F702C9DAD20A59B"
-					type: "item"
-					item: "create:schematic_and_quill"
-				}
-				{
-					id: "6CC9D93B9DA8B1A9"
-					type: "item"
-					item: "create:empty_schematic"
-				}
-			]
 		}
 		{
 			title: "&#B5A642Brass&r"
@@ -3108,8 +3055,8 @@
 			}]
 		}
 		{
-			x: 20.0d
-			y: 31.75d
+			x: 36.75d
+			y: 30.25d
 			shape: "octagon"
 			description: [
 				"The Wrench is a tool used to rotate, dismantle and configure components."
@@ -3122,6 +3069,7 @@
 				""
 				"For certain components such as the Linear Chassis, ctrl can be held to configure all connected components at once."
 			]
+			hide_dependency_lines: true
 			dependencies: ["50B9AEC7812CEE92"]
 			id: "6BF43FEAF535AA7F"
 			tasks: [{
@@ -3180,8 +3128,9 @@
 			}]
 		}
 		{
-			x: 30.25d
-			y: 30.5d
+			x: 35.75d
+			y: 30.25d
+			hide_dependency_lines: true
 			dependencies: [
 				"17E63FB824FA537E"
 				"4AC1298723D8A89A"
@@ -3200,8 +3149,9 @@
 			}]
 		}
 		{
-			x: 30.0d
-			y: 37.0d
+			x: 35.75d
+			y: 29.25d
+			hide_dependency_lines: true
 			dependencies: ["0256960379E8E5E5"]
 			optional: true
 			id: "5867ADBFEC86FF10"
@@ -3244,8 +3194,8 @@
 			}]
 		}
 		{
-			x: 21.75d
-			y: 33.0d
+			x: 20.0d
+			y: 31.75d
 			description: ["The Engineer's Goggles will show the stress impact of the viewed machine while it is running. It will also give numbers and highlight the current rotation when looking at a Stressometer or Speedometer,. Additionally, it shows how much fluid is stored in a tank along with the total storage capacity of the tank when you look at one of the blocks from the tank."]
 			dependencies: ["50B9AEC7812CEE92"]
 			id: "776713B4EE3868E7"

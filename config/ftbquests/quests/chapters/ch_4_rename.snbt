@@ -672,6 +672,7 @@
 		}
 		{
 			title: "&5Undergarden portal"
+			icon: "undergarden:catalyst"
 			x: 7.0d
 			y: -12.75d
 			shape: "octagon"
@@ -712,6 +713,7 @@
 			x: 7.0d
 			y: 2.75d
 			shape: "gear"
+			description: ["{image:chroma:textures/quests/compressediron.png width:270 height:100 align:1}"]
 			hide_dependency_lines: true
 			dependencies: ["7D351CB50EFE608B"]
 			size: 1.5d

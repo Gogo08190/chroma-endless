@@ -16,8 +16,8 @@
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: 50.25d
-			y: 13.625d
+			x: -27.75d
+			y: 29.875d
 			width: 4.0d
 			height: 4.0d
 			rotation: 0.0d
@@ -28,8 +28,8 @@
 			corner: false
 		}
 		{
-			x: 50.25d
-			y: 17.625d
+			x: -27.75d
+			y: 33.875d
 			width: 4.0d
 			height: 4.0d
 			rotation: 0.0d
@@ -40,8 +40,8 @@
 			corner: false
 		}
 		{
-			x: 56.75d
-			y: 14.875d
+			x: -21.25d
+			y: 31.125d
 			width: 4.0d
 			height: 4.0d
 			rotation: 0.0d
@@ -52,8 +52,8 @@
 			corner: false
 		}
 		{
-			x: 45.5d
-			y: 15.625d
+			x: -32.5d
+			y: 31.875d
 			width: 4.0d
 			height: 4.0d
 			rotation: 0.0d
@@ -65,7 +65,7 @@
 		}
 		{
 			x: -11.75d
-			y: 47.0d
+			y: 55.0d
 			width: 10.75d
 			height: 8.23d
 			rotation: 0.0d
@@ -76,8 +76,8 @@
 			corner: false
 		}
 		{
-			x: -40.2d
-			y: 49.05d
+			x: 22.799999999999997d
+			y: 20.049999999999997d
 			width: 7.49d
 			height: 3.76d
 			rotation: 0.0d
@@ -88,8 +88,8 @@
 			corner: false
 		}
 		{
-			x: -40.25d
-			y: 45.35d
+			x: 22.75d
+			y: 23.35d
 			width: 7.49d
 			height: 3.76d
 			rotation: 0.0d
@@ -139,8 +139,8 @@
 		}
 		{
 			title: "Let's start some weird magic"
-			x: 50.0d
-			y: 3.5d
+			x: -28.0d
+			y: 19.75d
 			subtitle: "&4&kDark&r&l&0Dark Magic&r&k&4Magic&r"
 			description: [
 				"&1The fate of Mankind&r has not always been very bright. Over the years people have tried to be what they could not."
@@ -275,8 +275,8 @@
 			}]
 		}
 		{
-			x: -41.0d
-			y: 20.25d
+			x: 22.25d
+			y: 6.25d
 			id: "79778D4EEF712D00"
 			tasks: [{
 				id: "493069AA37E324EA"
@@ -286,7 +286,7 @@
 		}
 		{
 			x: -15.75d
-			y: 52.0d
+			y: 60.0d
 			dependencies: [
 				"4F10A1E05CEBFE1A"
 				"489C740C46074BBD"
@@ -456,7 +456,7 @@
 			subtitle: "Not the dynamo on your bike"
 			dependencies: [
 				"54DC8317D4B7A510"
-				"147DA28F357CCFAE"
+				"109D647ED52D215D"
 				"24EEF248EEAD4E80"
 			]
 			id: "1A89F0C5AAA08291"
@@ -561,7 +561,7 @@
 		{
 			title: "&#71797EImproved &#422117Blast Furnace&r"
 			x: -9.5d
-			y: 41.0d
+			y: 47.0d
 			shape: "square"
 			subtitle: "Steeled multiblock"
 			dependencies: ["26D4D4A9798EB323"]
@@ -744,8 +744,8 @@
 		{
 			title: "Sawmill"
 			icon: "immersiveengineering:sawmill"
-			x: -31.25d
-			y: 40.25d
+			x: 28.75d
+			y: 8.5d
 			shape: "square"
 			description: [
 				""
@@ -772,8 +772,8 @@
 		{
 			title: "Assembler"
 			icon: "immersiveengineering:assembler"
-			x: -31.25d
-			y: 43.0d
+			x: 28.75d
+			y: 11.25d
 			shape: "square"
 			description: [
 				""
@@ -801,7 +801,7 @@
 			title: "Fermenter"
 			icon: "immersiveengineering:fermenter"
 			x: 9.0d
-			y: 54.25d
+			y: 54.5d
 			shape: "square"
 			description: [
 				"Steel Scaffolding 6x"
@@ -825,7 +825,7 @@
 			title: "Squeezer"
 			icon: "immersiveengineering:squeezer"
 			x: 3.602040816326493d
-			y: 46.75765306122449d
+			y: 47.00765306122449d
 			shape: "square"
 			dependencies: [
 				"19862EE31DFDDAB0"
@@ -860,7 +860,7 @@
 			title: "Refinery"
 			icon: "immersiveengineering:refinery"
 			x: 6.25d
-			y: 54.25d
+			y: 54.5d
 			shape: "square"
 			dependency_requirement: "one_completed"
 			size: 2.75d
@@ -879,7 +879,7 @@
 			title: "Mixer"
 			icon: "immersiveengineering:mixer"
 			x: -1.5d
-			y: 39.0d
+			y: 39.25d
 			shape: "square"
 			dependencies: [
 				"19862EE31DFDDAB0"
@@ -913,8 +913,8 @@
 		{
 			title: "Bottling Machine"
 			icon: "immersiveengineering:bottling_machine"
-			x: -34.0d
-			y: 40.25d
+			x: 26.0d
+			y: 8.5d
 			shape: "square"
 			size: 2.75d
 			id: "18195DDA4F43EFCF"
@@ -931,8 +931,8 @@
 		{
 			title: "&8Automated &#482705Workbench&r"
 			icon: "immersiveengineering:auto_workbench"
-			x: -34.0d
-			y: 43.0d
+			x: 26.0d
+			y: 11.25d
 			shape: "square"
 			description: [
 				"The &8Automated &#482705Workbench&r is used to automate &#482705Engineer's Workbench&r recipes."
@@ -963,7 +963,7 @@
 			title: "&8Arc Furnace&r"
 			icon: "immersiveengineering:arc_furnace"
 			x: 0.0d
-			y: 57.25d
+			y: 57.5d
 			shape: "square"
 			dependencies: [
 				"759C19000789CCC6"
@@ -1047,8 +1047,8 @@
 		}
 		{
 			title: "Seeds ! Why ?"
-			x: 50.0d
-			y: 2.25d
+			x: -28.0d
+			y: 18.5d
 			subtitle: "Who thought Demons were actually growing from seeds?"
 			description: [
 				"Powerful power nature can be."
@@ -1071,8 +1071,8 @@
 			}]
 		}
 		{
-			x: 50.0d
-			y: 6.5d
+			x: -28.0d
+			y: 22.75d
 			subtitle: "Calling demons !"
 			description: ["In order to create the &5SpiritFire&r, you will have to drop the &2Demon Dream Fruit&r on the floor and then right click with a &0Flint'N'Steel&r."]
 			hide_dependency_lines: true
@@ -1086,8 +1086,8 @@
 			}]
 		}
 		{
-			x: 51.5d
-			y: 5.75d
+			x: -26.5d
+			y: 22.0d
 			subtitle: "Spirit Ingredient"
 			description: ["Throw a &b&lDiamond&r into the &5Spiritfire&r."]
 			dependencies: ["28C3F89057684CC6"]
@@ -1099,8 +1099,8 @@
 			}]
 		}
 		{
-			x: 50.0d
-			y: 5.25d
+			x: -28.0d
+			y: 21.5d
 			subtitle: "Crafting Ingredient"
 			description: ["Throw an &2&lOtherworld Wood&r into the &5Spiritfire&r."]
 			dependencies: ["28C3F89057684CC6"]
@@ -1112,8 +1112,8 @@
 			}]
 		}
 		{
-			x: 49.75d
-			y: 8.25d
+			x: -28.25d
+			y: 24.5d
 			subtitle: "Stoned"
 			description: ["The &0&lOtherworld Stone&r is obtainable when you drop andesite in the &5Spiritfire&r. "]
 			dependencies: ["28C3F89057684CC6"]
@@ -1125,8 +1125,8 @@
 			}]
 		}
 		{
-			x: 51.0d
-			y: 7.5d
+			x: -27.0d
+			y: 23.75d
 			dependencies: ["28C3F89057684CC6"]
 			id: "795294F328925FD4"
 			tasks: [{
@@ -1143,8 +1143,8 @@
 					Damage: 0
 				}
 			}
-			x: 50.25d
-			y: 13.5d
+			x: -27.75d
+			y: 29.75d
 			hide_dependency_lines: true
 			dependencies: ["28C3F89057684CC6"]
 			id: "492116474A965E37"
@@ -1161,8 +1161,8 @@
 			}]
 		}
 		{
-			x: 50.25d
-			y: 17.5d
+			x: -27.75d
+			y: 33.75d
 			subtitle: "Second Tier Chalk"
 			hide_dependency_lines: true
 			dependencies: ["28C3F89057684CC6"]
@@ -1180,8 +1180,8 @@
 			}]
 		}
 		{
-			x: 56.75d
-			y: 14.75d
+			x: -21.24659863945576d
+			y: 31.018282312925194d
 			hide_dependency_lines: true
 			dependencies: ["28C3F89057684CC6"]
 			id: "5CA6BAB71797C1A5"
@@ -1198,8 +1198,8 @@
 			}]
 		}
 		{
-			x: 45.5d
-			y: 15.5d
+			x: -32.5d
+			y: 31.75d
 			hide_dependency_lines: true
 			dependencies: [
 				"28C3F89057684CC6"
@@ -1219,8 +1219,8 @@
 			}]
 		}
 		{
-			x: 48.5d
-			y: 6.5d
+			x: -29.5d
+			y: 22.75d
 			subtitle: "The Third Eye"
 			description: [
 				"In order to have those saplings, you will have to throw &2Oak Saplings&r in the &5&lSpiritfire&r. "
@@ -1251,8 +1251,8 @@
 		{
 			title: "Aviar's Circle"
 			icon: "occultism:ritual_dummy/craft_miner_djinni_ores"
-			x: 50.25d
-			y: 12.0d
+			x: -27.75d
+			y: 28.25d
 			subtitle: "Your first ritual"
 			description: ["So the first &8ritual&r is dedicated to the basic of &2Occultism&r. "]
 			hide_dependency_lines: true
@@ -1281,8 +1281,8 @@
 		{
 			title: "Eziveus' Spectral Compulsion"
 			icon: "occultism:ritual_dummy/craft_miner_djinni_ores"
-			x: 49.0d
-			y: 18.0d
+			x: -29.0d
+			y: 34.25d
 			subtitle: "Bind Foliot"
 			hide_dependency_lines: true
 			dependencies: [
@@ -1319,8 +1319,8 @@
 		{
 			title: "Hedyrin's Lure"
 			icon: "occultism:ritual_dummy/craft_miner_djinni_ores"
-			x: 51.5d
-			y: 18.0d
+			x: -26.5d
+			y: 34.25d
 			subtitle: "Foliot Possession"
 			hide_dependency_lines: true
 			dependencies: [
@@ -1351,8 +1351,8 @@
 		{
 			title: "Ophyx' Calling"
 			icon: "occultism:ritual_dummy/summon_foliot_transport_items"
-			x: 55.75d
-			y: 13.5d
+			x: -22.25d
+			y: 29.75d
 			subtitle: "Summon Djinni"
 			hide_dependency_lines: true
 			dependencies: [
@@ -1389,8 +1389,8 @@
 		{
 			title: "Strigeor's Higher Binding"
 			icon: "occultism:ritual_dummy/craft_miner_foliot_unspecialized"
-			x: 58.25d
-			y: 15.0d
+			x: -19.75d
+			y: 31.25d
 			subtitle: "Bind Djinni"
 			hide_dependency_lines: true
 			dependencies: [
@@ -1428,8 +1428,8 @@
 		{
 			title: "Ihagan's Enthrallement"
 			icon: "occultism:ritual_dummy/familiar_beaver"
-			x: 55.5d
-			y: 15.25d
+			x: -22.5d
+			y: 31.5d
 			subtitle: "Djinni Possession"
 			hide_dependency_lines: true
 			dependencies: [
@@ -1467,8 +1467,8 @@
 		{
 			title: "Abras' Conjure"
 			icon: "occultism:ritual_dummy/summon_marid_crusher"
-			x: 44.5d
-			y: 14.25d
+			x: -33.5d
+			y: 30.5d
 			subtitle: "Summon Afrit"
 			hide_dependency_lines: true
 			dependencies: [
@@ -1511,8 +1511,8 @@
 		{
 			title: "Sevira's Permanent Confinement"
 			icon: "occultism:ritual_dummy/familiar_greedy"
-			x: 56.75d
-			y: 16.25d
+			x: -21.25d
+			y: 32.5d
 			subtitle: "Bind Afrit"
 			hide_dependency_lines: true
 			dependencies: [
@@ -1555,8 +1555,8 @@
 		{
 			title: "Abras' Open Conjure"
 			icon: "occultism:ritual_dummy/familiar_deer"
-			x: 56.75d
-			y: 13.25d
+			x: -21.25d
+			y: 29.5d
 			subtitle: "Summon Unbound Afrit"
 			hide_dependency_lines: true
 			dependencies: [
@@ -1599,8 +1599,8 @@
 		{
 			title: "Uphyxes Inverted Tower"
 			icon: "occultism:ritual_dummy/familiar_beaver"
-			x: 46.25d
-			y: 14.25d
+			x: -31.75d
+			y: 30.5d
 			subtitle: "Bind Marid"
 			hide_dependency_lines: true
 			dependencies: [
@@ -1654,8 +1654,8 @@
 		{
 			title: "Osorin's Unbound Calling"
 			icon: "occultism:ritual_dummy/possess_enderman"
-			x: 57.75d
-			y: 13.5d
+			x: -20.25d
+			y: 29.75d
 			hide_dependency_lines: true
 			dependencies: [
 				"492116474A965E37"
@@ -1685,8 +1685,8 @@
 		{
 			title: "Abra's Commanding Conjure"
 			icon: "occultism:ritual_dummy/craft_miner_djinni_ores"
-			x: 46.75d
-			y: 16.0d
+			x: -31.25d
+			y: 32.25d
 			subtitle: "Afrit Possession"
 			hide_dependency_lines: true
 			dependencies: [
@@ -1727,8 +1727,8 @@
 			]
 		}
 		{
-			x: -40.0d
-			y: 20.25d
+			x: 23.25d
+			y: 6.25d
 			id: "6FC77C5EB529AB83"
 			tasks: [{
 				id: "448AAE1936254AD6"
@@ -1739,8 +1739,8 @@
 		{
 			title: "Otherworldian Capacitor"
 			icon: "ironjetpacks:otherworldian_capacitor"
-			x: 49.0d
-			y: 19.5d
+			x: -29.0d
+			y: 35.75d
 			dependencies: ["7BF5F871992F55AE"]
 			id: "1B67B9FE1D5B42B5"
 			tasks: [
@@ -1776,8 +1776,8 @@
 		{
 			title: "Otherworldian Thruster"
 			icon: "ironjetpacks:otherworldian_thruster"
-			x: 48.0d
-			y: 19.5d
+			x: -30.0d
+			y: 35.75d
 			dependencies: ["7BF5F871992F55AE"]
 			id: "391312CB5E2C569B"
 			tasks: [
@@ -1819,8 +1819,8 @@
 					Throttle: 1.0d
 				}
 			}
-			x: 56.75d
-			y: 18.75d
+			x: -21.25d
+			y: 35.0d
 			dependencies: ["4DA463AF4ABD0CA4"]
 			id: "6C3FEE33DA89CD2F"
 			tasks: [
@@ -1906,8 +1906,8 @@
 					}
 				}
 			}
-			x: 54.25d
-			y: 15.25d
+			x: -23.75d
+			y: 31.5d
 			subtitle: "Possessed Bee"
 			description: [
 				"Thanks to &5&lOccultist HoneyCombs&r you'll be able to farm &5Spirit Attuned Gem&r and &b&lIesnium Nugget&r."
@@ -1950,8 +1950,8 @@
 		{
 			title: "Tier 2 Beehive"
 			icon: "resourcefulbees:t2_beehive"
-			x: 57.5d
-			y: 17.25d
+			x: -20.5d
+			y: 33.5d
 			dependencies: ["4DA463AF4ABD0CA4"]
 			id: "728085D8E0D5C906"
 			tasks: [
@@ -1983,8 +1983,8 @@
 		{
 			title: "Tier 2 Hive Upgrade"
 			icon: "resourcefulbees:t2_hive_upgrade"
-			x: 56.0d
-			y: 17.25d
+			x: -22.0d
+			y: 33.5d
 			dependencies: ["4DA463AF4ABD0CA4"]
 			id: "28407F98D7435E9D"
 			tasks: [
@@ -2016,9 +2016,9 @@
 		{
 			title: "Redstone Flux Cell Frame"
 			icon: "thermal:energy_cell_frame"
-			x: 59.25d
-			y: 14.25d
-			subtitle: "Ready For Flux"
+			x: -18.75d
+			y: 30.5d
+			subtitle: "Ready for Flux"
 			dependencies: ["3A99B2052AE4BAC9"]
 			id: "08DD28074EF4CCEA"
 			tasks: [
@@ -2063,9 +2063,9 @@
 		{
 			title: "Fluid Cell Frame"
 			icon: "thermal:fluid_cell_frame"
-			x: 59.25d
-			y: 15.75d
-			subtitle: "Ready For Fluid Storage"
+			x: -18.75d
+			y: 32.0d
+			subtitle: "Ready for Fluid Storage"
 			dependencies: ["3A99B2052AE4BAC9"]
 			id: "2B49BCA647B9F2BA"
 			tasks: [
@@ -2108,57 +2108,10 @@
 			]
 		}
 		{
-			title: "Machine Frame"
-			icon: "thermal:machine_frame"
-			x: 59.75d
-			y: 15.0d
-			subtitle: "Ready for Thermal"
-			dependencies: ["3A99B2052AE4BAC9"]
-			id: "44BDB20559198FA9"
-			tasks: [
-				{
-					id: "2F9E46785BA210BF"
-					type: "item"
-					item: "emendatusenigmatica:steel_plate"
-					count: 8L
-				}
-				{
-					id: "72487D0FBDF2F309"
-					type: "item"
-					item: "emendatusenigmatica:tin_gear"
-					count: 2L
-				}
-				{
-					id: "7B040C1519A08156"
-					type: "item"
-					title: "2x Glass"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:glass"
-						}
-					}
-					count: 2L
-				}
-				{
-					id: "1965969B2AD695A0"
-					type: "item"
-					item: {
-						id: "occultism:book_of_binding_bound_foliot"
-						Count: 1b
-						tag: {
-							spiritName: "Cruarkzur"
-						}
-					}
-				}
-			]
-		}
-		{
 			title: "Terrestrial Agglomeration Plate"
 			icon: "botania:terra_plate"
-			x: 56.75d
-			y: 17.75d
+			x: -21.25d
+			y: 34.0d
 			dependencies: [
 				"4DA463AF4ABD0CA4"
 				"1550578CA13D8BF5"
@@ -2207,8 +2160,8 @@
 		{
 			title: "Fusionner 2000 - Compact Factory Item Output Port"
 			icon: "masterfulmachinery:fusioner_compact_item_port_items_output"
-			x: 51.5d
-			y: 19.5d
+			x: -26.5d
+			y: 35.75d
 			subtitle: "&kUnknown Machine&r"
 			description: ["                          &k&l&0F&rU&k&l&0S&rI&k&l&0O&rN&k&l&0N&rE&k&l&0R&r &k&l&02&r0&k&l&00&r0&r"]
 			dependencies: ["130FD9C228CCC91A"]
@@ -2246,8 +2199,8 @@
 		{
 			title: "Fusionner 2000 - Compact Factory Energy Input Port"
 			icon: "masterfulmachinery:fusioner_compact_energy_port_energy_input"
-			x: 52.75d
-			y: 18.0d
+			x: -25.25d
+			y: 34.25d
 			subtitle: "Darkness can generate things?"
 			description: ["                             &k&l&0F&rU&k&l&0S&rI&k&l&0O&rN&k&l&0N&rE&k&l&0R&r &k&l&02&r0&k&l&00&r0&r"]
 			dependencies: ["130FD9C228CCC91A"]
@@ -2296,8 +2249,8 @@
 		{
 			title: "Fusionner 2000 - Compact Factory Item Input Port"
 			icon: "masterfulmachinery:fusioner_compact_item_port_items_input"
-			x: 52.75d
-			y: 19.5d
+			x: -25.25d
+			y: 35.75d
 			subtitle: "No more comments"
 			description: ["                          &k&l&0F&rU&k&l&0S&rI&k&l&0O&rN&k&l&0N&rE&k&l&0R&r &k&l&02&r0&k&l&00&r0&r"]
 			dependencies: ["130FD9C228CCC91A"]
@@ -2335,8 +2288,8 @@
 		{
 			title: "Otherstone Trader"
 			icon: "occultism:ritual_dummy/summon_foliot_otherstone_trader"
-			x: 50.25d
-			y: 9.75d
+			x: -27.75d
+			y: 26.0d
 			subtitle: "A good deal"
 			description: ["The &5Otherstone Trader&r exchange 1x Stone for 4x Otherstone."]
 			dependencies: ["281F853004D0032C"]
@@ -2378,8 +2331,8 @@
 		{
 			title: "How to get stables ones?"
 			icon: "occultism:ritual_dummy/craft_stable_wormhole"
-			x: 47.0d
-			y: 6.0d
+			x: -31.0d
+			y: 22.25d
 			subtitle: "Sapling Trader"
 			description: [
 				"With the &6Aviar's Circle&r ritual you will be able to summon the &5Otherworld Sapling Trader&r. This guy will trade : "
@@ -2424,8 +2377,8 @@
 		}
 		{
 			title: "Stable Otherworld Saplings"
-			x: 46.0d
-			y: 5.0d
+			x: -32.0d
+			y: 21.25d
 			subtitle: "Farming for life"
 			description: ["Now, as you now have &n&5Stable Saplings&r. You will now be able to farm them without the &eThird Eye&r effect."]
 			dependencies: ["7FFAB1924AA0EAD7"]
@@ -2438,8 +2391,8 @@
 		}
 		{
 			title: "Wireless Storage"
-			x: 51.75d
-			y: 24.75d
+			x: -26.25d
+			y: 41.0d
 			shape: "hexagon"
 			subtitle: "Accessing Storage"
 			description: [
@@ -2465,8 +2418,8 @@
 		}
 		{
 			title: "Wireless interactions"
-			x: 50.25d
-			y: 25.25d
+			x: -27.75d
+			y: 41.5d
 			shape: "hexagon"
 			subtitle: "An enderchest but with crafting"
 			description: [
@@ -2491,8 +2444,8 @@
 			}]
 		}
 		{
-			x: 50.25d
-			y: 23.25d
+			x: -27.75d
+			y: 39.5d
 			shape: "rsquare"
 			subtitle: "Crafting and Storing"
 			description: [
@@ -2514,8 +2467,8 @@
 		}
 		{
 			title: "Dimensional Storage Stabilizers"
-			x: 48.75d
-			y: 24.75d
+			x: -29.25d
+			y: 41.0d
 			shape: "hexagon"
 			subtitle: "Dimensional Upgrades"
 			description: [
@@ -2558,8 +2511,8 @@
 			]
 		}
 		{
-			x: 51.75d
-			y: 21.75d
+			x: -26.25d
+			y: 38.0d
 			subtitle: "The Base"
 			description: ["The &6Storage Actuator Base&r imprisons a &3Foliot&r responsible for interacting with items in a &5Dimensional Storage Matrix&r."]
 			hide_dependency_lines: true
@@ -2572,8 +2525,8 @@
 			}]
 		}
 		{
-			x: 48.75d
-			y: 21.75d
+			x: -29.25d
+			y: 38.0d
 			subtitle: "Matrix"
 			description: ["The &6Dimensional Matrix&r is the entry point to a small dimension used for storing items. A &3Djinni&r bound to the matrix keeps the dimension stable, often supported by additionnal spirits in storage stabilizers, to increase the dimension size."]
 			hide_dependency_lines: true
@@ -2600,8 +2553,8 @@
 					spiritName: "Drakairmur"
 				}
 			}
-			x: 50.25d
-			y: 26.5d
+			x: -27.75d
+			y: 42.75d
 			shape: "hexagon"
 			subtitle: "Demonic crafting"
 			description: [
@@ -2886,7 +2839,7 @@
 			title: "&8Coker&r"
 			icon: "immersivepetroleum:cokerunit"
 			x: -2.5d
-			y: 46.75d
+			y: 47.0d
 			shape: "square"
 			dependencies: [
 				"585CB8C19493CDF1"
@@ -2955,8 +2908,8 @@
 			]
 		}
 		{
-			x: -16.25d
-			y: 18.25d
+			x: 22.0d
+			y: -2.25d
 			shape: "square"
 			dependency_requirement: "one_completed"
 			size: 2.75d
@@ -3007,8 +2960,8 @@
 			]
 		}
 		{
-			x: -16.25d
-			y: 15.5d
+			x: 22.0d
+			y: -5.0d
 			shape: "square"
 			dependency_requirement: "one_completed"
 			size: 2.75d
@@ -3025,7 +2978,7 @@
 		}
 		{
 			x: -9.5d
-			y: 45.5d
+			y: 53.5d
 			shape: "square"
 			description: [
 				""
@@ -3048,8 +3001,8 @@
 			}]
 		}
 		{
-			x: -16.25d
-			y: 23.75d
+			x: 22.0d
+			y: 3.25d
 			shape: "square"
 			dependency_requirement: "one_completed"
 			size: 2.75d
@@ -3066,7 +3019,7 @@
 		}
 		{
 			x: -9.5d
-			y: 49.0d
+			y: 57.0d
 			shape: "square"
 			description: [
 				""
@@ -3131,7 +3084,7 @@
 			title: "&#71797EReinforced &#422117Blast Furnace&r"
 			icon: "immersiveengineering:blastbrick_reinforced"
 			x: -9.5d
-			y: 38.25d
+			y: 44.25d
 			subtitle: "Blast Furnace Mk2"
 			dependencies: ["71D3CE6964067948"]
 			id: "26D4D4A9798EB323"
@@ -3151,8 +3104,8 @@
 			]
 		}
 		{
-			x: -12.25d
-			y: 41.0d
+			x: -9.5d
+			y: 49.75d
 			dependencies: [
 				"75CED07646EE8601"
 				"0C5279A8EE03DC68"
@@ -3172,31 +3125,13 @@
 				"4A018BBC2F5AD675"
 				"083F6BE220D880E0"
 				"6CCE7D835EF8D0DF"
-				"6D2CFAF2D7D7894A"
+				"109D647ED52D215D"
 			]
 			id: "531AF03ED27571D3"
 			tasks: [{
 				id: "73E8B8A555B9C63E"
 				type: "item"
 				item: "immersiveengineering:furnace_heater"
-			}]
-		}
-		{
-			title: "&4Redstone Ingots&r"
-			x: -2.75d
-			y: 24.25d
-			subtitle: "What would iron and redstone do mixed together?"
-			description: ["Craft &4Redstone Ingots&r by filling &4Destabilized Redstone&r on &#61666AIron Ingot&r with a &oCreate&r's &lSpout&r."]
-			dependencies: [
-				"32FAF87264E68467"
-				"5174E5B7DC17EF63"
-			]
-			id: "147DA28F357CCFAE"
-			tasks: [{
-				id: "6D2CFAF2D7D7894A"
-				type: "item"
-				title: "&4Redstone Ingot&r"
-				item: "extendedcrafting:redstone_ingot"
 			}]
 		}
 		{
@@ -3227,25 +3162,6 @@
 				type: "item"
 				title: "&#482705Engineer's Crafting Table&r"
 				item: "immersiveengineering:craftingtable"
-			}]
-		}
-		{
-			title: "&4Destabilized Redstone&r"
-			x: -4.75d
-			y: 24.25d
-			subtitle: "Warning, it seems to be unstable"
-			description: ["Melt &4Redstone Dust&r in &oTinkers' Construct&r's &lMelter&r, &lSmeltery&r or &lFoundry&r for obtain &4Destabilized Redstone&r."]
-			hide_dependency_lines: true
-			dependencies: [
-				"34AB0AFA85B55B89"
-				"184D1F6FEC794C70"
-			]
-			id: "32FAF87264E68467"
-			tasks: [{
-				id: "33097B2959BB6149"
-				type: "item"
-				title: "&4Destabilized Redstone Bucket&r"
-				item: "thermal:redstone_bucket"
 			}]
 		}
 		{
@@ -3518,8 +3434,8 @@
 			}]
 		}
 		{
-			x: 53.25d
-			y: 4.5d
+			x: -24.75d
+			y: 20.75d
 			subtitle: "Iesnium Finder"
 			description: ["The &5&lDivination Rod&r will find Iesnium Ore in the Nether. Simply right click on a &4Netherrack&r to set the &5Rod&r to find &bIesnium Ore&r."]
 			dependencies: ["414FB84D8E12D770"]
@@ -3535,8 +3451,8 @@
 			}]
 		}
 		{
-			x: 53.25d
-			y: 7.0d
+			x: -24.75d
+			y: 23.25d
 			subtitle: "Iesnium Viewer"
 			description: ["The &5Otherworld Googles&r are needed to see the &bIesnium Ore&r. If you don't have them you'll have a simple Netherrack."]
 			dependencies: ["414FB84D8E12D770"]
@@ -3554,8 +3470,8 @@
 			}]
 		}
 		{
-			x: 53.25d
-			y: 5.75d
+			x: -24.75d
+			y: 22.0d
 			subtitle: "Iesnium Breaker"
 			description: ["The &5Iesnium Pickaxe&r is needed to mine &bIesnium Ore&r. "]
 			dependencies: ["414FB84D8E12D770"]
@@ -3574,8 +3490,8 @@
 			}]
 		}
 		{
-			x: 55.0d
-			y: 5.75d
+			x: -23.0d
+			y: 22.0d
 			subtitle: "A new Ore in the Nether"
 			description: ["As you may understand, the &bIesnium Ore&r is only in the &4Nether&r Dimension. "]
 			dependencies: [
@@ -3592,8 +3508,8 @@
 		}
 		{
 			title: "Occultism Useful Items"
-			x: 51.5d
-			y: 3.0d
+			x: -26.5d
+			y: 19.25d
 			subtitle: "Really useful !"
 			description: [
 				"- The &n&lButcher Knife&r is needed to drop some &eTallow&r. You'll need to kill some passive mobs."
@@ -3633,8 +3549,8 @@
 			]
 		}
 		{
-			x: 56.0d
-			y: 9.0d
+			x: -22.0d
+			y: 25.25d
 			shape: "square"
 			subtitle: "Farming these mobs can be a good idea"
 			description: ["Thanks to the &5&lOccultism&r Mod you will be able to summon mobs that will drop you some useful stuff. "]
@@ -3652,8 +3568,8 @@
 		{
 			title: "Possessed Endermen"
 			icon: "minecraft:ender_pearl"
-			x: 54.0d
-			y: 10.5d
+			x: -24.0d
+			y: 26.75d
 			shape: "square"
 			subtitle: "Angry Enderman "
 			description: [
@@ -3841,8 +3757,8 @@
 		{
 			title: "Possessed Endermites"
 			icon: "minecraft:end_stone"
-			x: 57.0d
-			y: 10.5d
+			x: -21.0d
+			y: 26.75d
 			shape: "square"
 			subtitle: "Help ! They're small ! "
 			description: [
@@ -3887,8 +3803,8 @@
 		{
 			title: "Possessed Skeletons"
 			icon: "minecraft:skeleton_skull"
-			x: 55.0d
-			y: 10.5d
+			x: -23.0d
+			y: 26.75d
 			shape: "square"
 			subtitle: "Skeletons V2"
 			description: [
@@ -3923,8 +3839,8 @@
 		{
 			title: "Possessed Ghasts"
 			icon: "minecraft:ghast_tear"
-			x: 56.0d
-			y: 10.5d
+			x: -22.0d
+			y: 26.75d
 			shape: "square"
 			description: [
 				"&l&0Possessed Ghasts&r can be summoned with the &6Ihagan's Enthrallement&r ritual."
@@ -3974,8 +3890,8 @@
 		{
 			title: "The Wild Hunt"
 			icon: "minecraft:wither_skeleton_skull"
-			x: 58.0d
-			y: 10.5d
+			x: -20.0d
+			y: 26.75d
 			shape: "square"
 			subtitle: "Enraged Wither Skeletons"
 			description: [
@@ -4029,8 +3945,8 @@
 		}
 		{
 			title: "Familiars"
-			x: 45.0d
-			y: 10.5d
+			x: -33.0d
+			y: 26.75d
 			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["3A5569B8FB3C4F7B"]
@@ -4050,8 +3966,8 @@
 					Icon: "occultism:textures/gui/book/familiar_deer.png"
 				}
 			}
-			x: 46.0d
-			y: 8.75d
+			x: -32.0d
+			y: 25.0d
 			shape: "square"
 			subtitle: "Christmas is here!"
 			description: [
@@ -4097,8 +4013,8 @@
 					Icon: "occultism:textures/gui/book/otherworld_bird.png"
 				}
 			}
-			x: 44.0d
-			y: 12.25d
+			x: -34.0d
+			y: 28.5d
 			shape: "square"
 			subtitle: "Ultimate Parrot"
 			description: [
@@ -4163,8 +4079,8 @@
 					Icon: "occultism:textures/gui/book/bat_familiar.png"
 				}
 			}
-			x: 46.0d
-			y: 9.75d
+			x: -32.0d
+			y: 26.0d
 			shape: "square"
 			subtitle: "Escaped from the Batcave"
 			description: [
@@ -4224,8 +4140,8 @@
 					Icon: "occultism:textures/gui/book/familiar_cthulhu.png"
 				}
 			}
-			x: 47.0d
-			y: 9.75d
+			x: -31.0d
+			y: 26.0d
 			shape: "square"
 			subtitle: "No more drowning"
 			description: [
@@ -4337,8 +4253,8 @@
 					Icon: "occultism:textures/gui/book/familiar_devil.png"
 				}
 			}
-			x: 47.0d
-			y: 11.25d
+			x: -31.0d
+			y: 27.5d
 			shape: "square"
 			subtitle: "Satan as familiar"
 			description: [
@@ -4384,8 +4300,8 @@
 					Icon: "occultism:textures/gui/book/familiar_dragon.png"
 				}
 			}
-			x: 44.0d
-			y: 8.75d
+			x: -34.0d
+			y: 25.0d
 			shape: "square"
 			subtitle: "You're Wizard... Harry"
 			description: [
@@ -4475,8 +4391,8 @@
 					Icon: "occultism:textures/gui/book/familiar_blacksmith.png"
 				}
 			}
-			x: 44.0d
-			y: 9.75d
+			x: -34.0d
+			y: 26.0d
 			shape: "square"
 			subtitle: "Repairing at it's best"
 			description: [
@@ -4563,8 +4479,8 @@
 					Icon: "occultism:textures/gui/book/familiar_guardian.png"
 				}
 			}
-			x: 44.0d
-			y: 11.25d
+			x: -34.0d
+			y: 27.5d
 			shape: "square"
 			subtitle: "Death can wait"
 			description: [
@@ -4611,8 +4527,8 @@
 					Icon: "occultism:textures/gui/book/familiar_headless_ratman.png"
 				}
 			}
-			x: 43.0d
-			y: 9.75d
+			x: -35.0d
+			y: 26.0d
 			shape: "square"
 			subtitle: "The Headless Horseman"
 			description: [
@@ -4667,8 +4583,8 @@
 					Icon: "occultism:textures/gui/book/familiar_chimera.png"
 				}
 			}
-			x: 43.0d
-			y: 8.75d
+			x: -35.0d
+			y: 25.0d
 			shape: "square"
 			subtitle: "A bigger dog"
 			description: [
@@ -4754,8 +4670,8 @@
 					Icon: "occultism:textures/gui/book/familiar_beholder.png"
 				}
 			}
-			x: 46.0d
-			y: 12.25d
+			x: -32.0d
+			y: 28.5d
 			shape: "square"
 			subtitle: "Eye for an eye"
 			description: [
@@ -4802,8 +4718,8 @@
 				}
 			}
 			disable_toast: true
-			x: 47.0d
-			y: 12.25d
+			x: -31.0d
+			y: 28.5d
 			shape: "square"
 			subtitle: "Life Saver"
 			description: [
@@ -4859,8 +4775,8 @@
 					Icon: "occultism:textures/gui/book/familiar_mummy.png"
 				}
 			}
-			x: 46.0d
-			y: 11.25d
+			x: -32.0d
+			y: 27.5d
 			shape: "square"
 			subtitle: "Sand Protector"
 			description: [
@@ -4926,8 +4842,8 @@
 					Icon: "occultism:textures/gui/book/familiar_greedy.png"
 				}
 			}
-			x: 43.0d
-			y: 11.25d
+			x: -35.0d
+			y: 27.5d
 			shape: "square"
 			subtitle: "Vacuuming Items"
 			description: [
@@ -4981,22 +4897,61 @@
 		}
 		{
 			title: "To Ch. 3 (rename)"
-			x: 63.5d
-			y: 15.0d
+			icon: "thermal:machine_frame"
+			x: -10.625d
+			y: 31.25d
 			shape: "gear"
-			dependencies: ["44BDB20559198FA9"]
+			subtitle: "Ready for Thermal"
+			dependencies: [
+				"3A99B2052AE4BAC9"
+				"19862EE31DFDDAB0"
+			]
 			size: 5.0d
 			id: "3FCE34A647C106C0"
-			tasks: [{
-				id: "726C8738FABF0840"
-				type: "item"
-				item: "thermal:machine_frame"
-			}]
+			tasks: [
+				{
+					id: "4CCDD45B931CA57B"
+					type: "item"
+					title: "8x &#71797ESteel Plates&r"
+					item: "emendatusenigmatica:steel_plate"
+					count: 8L
+				}
+				{
+					id: "58976A959F6D4FCE"
+					type: "item"
+					item: "emendatusenigmatica:tin_gear"
+					count: 2L
+				}
+				{
+					id: "2DBBC2819FA1E1A7"
+					type: "item"
+					title: "2x Glasses"
+					icon: "minecraft:glass"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:glass"
+						}
+					}
+				}
+				{
+					id: "474EA8F731CD4C0B"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_foliot"
+						Count: 1b
+						tag: {
+							spiritName: "Reimeemur"
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Weather And Time Magic"
-			x: 44.5d
-			y: 20.25d
+			x: -33.5d
+			y: 36.5d
 			shape: "square"
 			subtitle: "Please skip the rain ! "
 			description: ["The &5Occultism&r Mod allows you to control the time and weather ! "]
@@ -5013,8 +4968,8 @@
 		{
 			title: "Rainy Weather"
 			icon: "occultism:ritual_dummy/summon_afrit_rain_weather"
-			x: 44.5d
-			y: 19.0d
+			x: -33.5d
+			y: 35.25d
 			shape: "square"
 			subtitle: "I'm singin' in the rain !"
 			description: ["To make &b&lThe Rain&r appear you'll need the &6Abra's Conjure&r ritual and you'll need to sacrifice a &ncow&r."]
@@ -5065,8 +5020,8 @@
 		{
 			title: "Clear Weather"
 			icon: "occultism:ritual_dummy/summon_afrit_rain_weather"
-			x: 45.5d
-			y: 19.0d
+			x: -32.5d
+			y: 35.25d
 			shape: "square"
 			subtitle: "I like the Sun"
 			description: ["To make &b&lThe Sun&r appear you'll need the &6Ophyx' Calling&r ritual."]
@@ -5110,8 +5065,8 @@
 		{
 			title: "Thunderstorm Ritual"
 			icon: "occultism:ritual_dummy/summon_afrit_thunder_weather"
-			x: 43.5d
-			y: 19.0d
+			x: -34.5d
+			y: 35.25d
 			shape: "square"
 			subtitle: "AC/DC will be proud!"
 			description: ["To make &e&lThunder&r appear you'll need the &6Abra's Conjure&r ritual and you'll need to sacrifice a &ncow&r."]
@@ -5151,8 +5106,8 @@
 		{
 			title: "Summoning of Dawn "
 			icon: "ars_nouveau:ritual_sunrise"
-			x: 44.0d
-			y: 21.5d
+			x: -34.0d
+			y: 37.75d
 			shape: "square"
 			subtitle: "Let there be Light !"
 			description: ["In order to summon &eDawn&r you'll need the &6Ophyx' Calling&r ritual."]
@@ -5202,8 +5157,8 @@
 					Icon: "darkpaintings:textures/painting/mr_moon.png"
 				}
 			}
-			x: 45.0d
-			y: 21.5d
+			x: -33.0d
+			y: 37.75d
 			shape: "square"
 			subtitle: "Darkness Comes"
 			description: ["In order to summon &0Dusk&r you'll need the &6Ophyx' Calling&r ritual."]
@@ -5267,8 +5222,8 @@
 			}]
 		}
 		{
-			x: 56.75d
-			y: 12.25d
+			x: -21.25d
+			y: 28.5d
 			subtitle: "A new boss"
 			description: [
 				"Thanks to the &6Abra's Open Conjure&r you'll be able to spawn a new \"boss\" : &4&lThe Unbound Afrit&r. In order to hurt him you'll need to slay his minions first. "
@@ -5413,7 +5368,7 @@
 		}
 		{
 			x: -17.5d
-			y: 45.25d
+			y: 53.25d
 			hide_dependency_lines: true
 			dependencies: [
 				"577923E345CA12E5"
@@ -5428,7 +5383,7 @@
 		}
 		{
 			x: -14.75d
-			y: 49.25d
+			y: 57.25d
 			shape: "square"
 			hide_dependency_lines: true
 			dependencies: [
@@ -5444,7 +5399,7 @@
 		}
 		{
 			x: -12.75d
-			y: 49.25d
+			y: 57.25d
 			shape: "square"
 			hide_dependency_lines: true
 			dependencies: [
@@ -5460,7 +5415,7 @@
 		}
 		{
 			x: -14.75d
-			y: 47.25d
+			y: 55.25d
 			shape: "square"
 			dependencies: [
 				"4F10A1E05CEBFE1A"
@@ -5475,7 +5430,7 @@
 		}
 		{
 			x: -12.75d
-			y: 47.25d
+			y: 55.25d
 			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["0728FA0EBC3963BA"]
@@ -5488,7 +5443,7 @@
 		}
 		{
 			x: -14.75d
-			y: 45.25d
+			y: 53.25d
 			shape: "square"
 			dependencies: ["195002C6E3BDDD9B"]
 			id: "651881C1D25730A3"
@@ -5500,7 +5455,7 @@
 		}
 		{
 			x: -12.75d
-			y: 45.25d
+			y: 53.25d
 			shape: "square"
 			hide_dependency_lines: true
 			dependencies: [
@@ -5586,7 +5541,7 @@
 		}
 		{
 			x: -9.5d
-			y: 34.25d
+			y: 40.25d
 			min_required_dependencies: 2
 			dependencies: [
 				"022FBE09A8760542"
@@ -5602,7 +5557,7 @@
 		}
 		{
 			x: -9.5d
-			y: 36.25d
+			y: 42.25d
 			dependencies: ["71D3CE6964067948"]
 			id: "7E6244CA5CC7CAC2"
 			tasks: [{
@@ -5651,13 +5606,13 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: 34.25d
+			x: -13.5d
+			y: 44.25d
 			min_required_dependencies: 2
 			dependencies: [
 				"022FBE09A8760542"
 				"5AF0FCDA89A764B2"
-				"71D3CE6964067948"
+				"12EB4CA7EDCF87BC"
 			]
 			id: "0B70DAFB9E760CF8"
 			tasks: [{
@@ -5667,8 +5622,8 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: 36.25d
+			x: -13.5d
+			y: 46.25d
 			dependencies: ["0B70DAFB9E760CF8"]
 			id: "0728FA0EBC3963BA"
 			tasks: [{
@@ -5679,7 +5634,7 @@
 		}
 		{
 			x: 4.0d
-			y: 34.25d
+			y: 36.25d
 			min_required_dependencies: 2
 			dependencies: [
 				"022FBE09A8760542"
@@ -5694,8 +5649,8 @@
 			}]
 		}
 		{
-			x: -42.75d
-			y: 48.5d
+			x: 20.25d
+			y: 19.5d
 			shape: "square"
 			hide_dependency_lines: true
 			dependencies: [
@@ -5710,8 +5665,8 @@
 			}]
 		}
 		{
-			x: -37.75d
-			y: 48.5d
+			x: 25.25d
+			y: 19.5d
 			shape: "square"
 			dependencies: ["4D4C83A871B694B0"]
 			id: "3947972E28270050"
@@ -5722,8 +5677,8 @@
 			}]
 		}
 		{
-			x: -41.75d
-			y: 48.5d
+			x: 21.25d
+			y: 19.5d
 			shape: "square"
 			dependencies: ["4D4C83A871B694B0"]
 			id: "41CA34D1037398CD"
@@ -5734,8 +5689,8 @@
 			}]
 		}
 		{
-			x: -40.75d
-			y: 48.5d
+			x: 22.25d
+			y: 19.5d
 			shape: "square"
 			dependencies: ["4D4C83A871B694B0"]
 			id: "52AA5D2B461A66D4"
@@ -5746,8 +5701,8 @@
 			}]
 		}
 		{
-			x: -39.75d
-			y: 48.5d
+			x: 23.25d
+			y: 19.5d
 			shape: "square"
 			dependencies: ["4D4C83A871B694B0"]
 			id: "038C50362C58F479"
@@ -5758,8 +5713,8 @@
 			}]
 		}
 		{
-			x: -38.75d
-			y: 48.5d
+			x: 24.25d
+			y: 19.5d
 			shape: "square"
 			dependencies: [
 				"4D4C83A871B694B0"
@@ -5774,8 +5729,8 @@
 			}]
 		}
 		{
-			x: -42.75d
-			y: 50.0d
+			x: 20.25d
+			y: 21.0d
 			shape: "square"
 			dependencies: [
 				"4D4C83A871B694B0"
@@ -5789,8 +5744,8 @@
 			}]
 		}
 		{
-			x: -41.75d
-			y: 50.0d
+			x: 21.25d
+			y: 21.0d
 			shape: "square"
 			dependencies: [
 				"41CA34D1037398CD"
@@ -5804,8 +5759,8 @@
 			}]
 		}
 		{
-			x: -40.75d
-			y: 50.0d
+			x: 22.25d
+			y: 21.0d
 			shape: "square"
 			dependencies: [
 				"52AA5D2B461A66D4"
@@ -5819,8 +5774,8 @@
 			}]
 		}
 		{
-			x: -38.75d
-			y: 50.0d
+			x: 24.25d
+			y: 21.0d
 			shape: "square"
 			dependencies: [
 				"34A74357CD5E73A7"
@@ -5834,8 +5789,8 @@
 			}]
 		}
 		{
-			x: -39.75d
-			y: 50.0d
+			x: 23.25d
+			y: 21.0d
 			shape: "square"
 			dependencies: [
 				"038C50362C58F479"
@@ -5849,8 +5804,8 @@
 			}]
 		}
 		{
-			x: -38.25d
-			y: 28.75d
+			x: 25.0d
+			y: 14.75d
 			id: "7A8D50D5209CA36E"
 			tasks: [{
 				id: "1A10524765385A50"
@@ -5859,8 +5814,8 @@
 			}]
 		}
 		{
-			x: -38.25d
-			y: 29.75d
+			x: 25.0d
+			y: 15.75d
 			id: "021E9AEA96770A02"
 			tasks: [{
 				id: "31EEC3974AAFBDAF"
@@ -5869,8 +5824,8 @@
 			}]
 		}
 		{
-			x: -38.25d
-			y: 30.75d
+			x: 25.0d
+			y: 16.75d
 			id: "1ABF0C51100741F3"
 			tasks: [{
 				id: "312B5DE29F758B3D"
@@ -5879,8 +5834,8 @@
 			}]
 		}
 		{
-			x: -38.25d
-			y: 31.75d
+			x: 25.0d
+			y: 17.75d
 			id: "11155831F2D47565"
 			tasks: [{
 				id: "29A35863D4CC4137"
@@ -5889,8 +5844,8 @@
 			}]
 		}
 		{
-			x: -37.25d
-			y: 28.75d
+			x: 26.0d
+			y: 14.75d
 			id: "35BF2C726E9A7F0F"
 			tasks: [{
 				id: "59D9D2045F387DA4"
@@ -5899,8 +5854,8 @@
 			}]
 		}
 		{
-			x: -37.25d
-			y: 29.75d
+			x: 26.0d
+			y: 15.75d
 			id: "2D8008D29A287F7B"
 			tasks: [{
 				id: "1D4BFB9EC82D0109"
@@ -5909,8 +5864,8 @@
 			}]
 		}
 		{
-			x: -37.25d
-			y: 30.75d
+			x: 26.0d
+			y: 16.75d
 			id: "1D977330F8AA3978"
 			tasks: [{
 				id: "2F44FE86BD4F6D49"
@@ -5919,8 +5874,8 @@
 			}]
 		}
 		{
-			x: -37.25d
-			y: 31.75d
+			x: 26.0d
+			y: 17.75d
 			id: "7EA70457CE085EBF"
 			tasks: [{
 				id: "61E918EAD74C679B"
@@ -5929,8 +5884,8 @@
 			}]
 		}
 		{
-			x: -36.25d
-			y: 28.75d
+			x: 27.0d
+			y: 14.75d
 			id: "15B297F5FE156D87"
 			tasks: [{
 				id: "03F16AFB7E25A1B4"
@@ -5939,8 +5894,8 @@
 			}]
 		}
 		{
-			x: -36.25d
-			y: 29.75d
+			x: 27.0d
+			y: 15.75d
 			id: "73BA9A645815DD5E"
 			tasks: [{
 				id: "67EF8706CB996E3A"
@@ -5949,8 +5904,8 @@
 			}]
 		}
 		{
-			x: -36.25d
-			y: 30.75d
+			x: 27.0d
+			y: 16.75d
 			id: "31441E9666317157"
 			tasks: [{
 				id: "1B01FDC35F6AA40C"
@@ -5959,8 +5914,8 @@
 			}]
 		}
 		{
-			x: -36.25d
-			y: 31.75d
+			x: 27.0d
+			y: 17.75d
 			id: "4D0063955D016303"
 			tasks: [{
 				id: "790CEDE4713F6ACE"
@@ -5969,8 +5924,8 @@
 			}]
 		}
 		{
-			x: -35.25d
-			y: 28.75d
+			x: 28.0d
+			y: 14.75d
 			id: "7D486C318755D05C"
 			tasks: [{
 				id: "1F9C0130590F0CA0"
@@ -5979,8 +5934,8 @@
 			}]
 		}
 		{
-			x: -35.25d
-			y: 29.75d
+			x: 28.0d
+			y: 15.75d
 			id: "7E7C429B5B394EC3"
 			tasks: [{
 				id: "5770C2BD9060B8B7"
@@ -5989,8 +5944,8 @@
 			}]
 		}
 		{
-			x: -35.25d
-			y: 30.75d
+			x: 28.0d
+			y: 16.75d
 			id: "3E74DB46BF6CE518"
 			tasks: [{
 				id: "514E216A4269FC5D"
@@ -5999,8 +5954,8 @@
 			}]
 		}
 		{
-			x: -35.25d
-			y: 31.75d
+			x: 28.0d
+			y: 17.75d
 			id: "6982D1904374AF84"
 			tasks: [{
 				id: "5816B3FB11F02D43"
@@ -6009,8 +5964,8 @@
 			}]
 		}
 		{
-			x: -42.0d
-			y: 28.0d
+			x: 21.25d
+			y: 14.0d
 			id: "5BA9DECAA50846D4"
 			tasks: [{
 				id: "052E4A0E02A926D4"
@@ -6028,8 +5983,8 @@
 			}]
 		}
 		{
-			x: -41.0d
-			y: 27.0d
+			x: 22.25d
+			y: 13.0d
 			dependencies: ["5BA9DECAA50846D4"]
 			id: "135FEDA2D54E27EC"
 			tasks: [{
@@ -6039,8 +5994,8 @@
 			}]
 		}
 		{
-			x: -41.0d
-			y: 29.0d
+			x: 22.25d
+			y: 15.0d
 			dependencies: ["5BA9DECAA50846D4"]
 			id: "6097339B60C5731F"
 			tasks: [{
@@ -6051,7 +6006,7 @@
 		}
 		{
 			x: 4.0d
-			y: 38.25d
+			y: 40.25d
 			dependencies: [
 				"412EF056E461CAA8"
 				"4145FECAF97B802E"
@@ -6070,8 +6025,8 @@
 			}]
 		}
 		{
-			x: -12.5d
-			y: 32.25d
+			x: -15.5d
+			y: 46.25d
 			dependencies: ["0B70DAFB9E760CF8"]
 			id: "20BE23E4C1BC14DB"
 			tasks: [{
@@ -6081,8 +6036,8 @@
 			}]
 		}
 		{
-			x: -33.5d
-			y: 35.5d
+			x: 29.75d
+			y: 21.5d
 			id: "3923CAFFE5D09459"
 			tasks: [{
 				id: "1D640F15AC31045C"
@@ -6091,8 +6046,8 @@
 			}]
 		}
 		{
-			x: -34.5d
-			y: 34.5d
+			x: 28.75d
+			y: 20.5d
 			id: "5D2611D1E0B9ADA8"
 			tasks: [{
 				id: "0FD7316706955C39"
@@ -6101,8 +6056,8 @@
 			}]
 		}
 		{
-			x: -35.5d
-			y: 34.5d
+			x: 27.75d
+			y: 20.5d
 			id: "2996214D85CE4C52"
 			tasks: [{
 				id: "5047CBEEFD4ECEC5"
@@ -6111,8 +6066,8 @@
 			}]
 		}
 		{
-			x: -30.5d
-			y: 35.5d
+			x: 32.75d
+			y: 21.5d
 			id: "58EE6DF993BEAA7E"
 			tasks: [{
 				id: "7DA5504707FBFDC5"
@@ -6121,8 +6076,8 @@
 			}]
 		}
 		{
-			x: -32.5d
-			y: 36.5d
+			x: 30.75d
+			y: 22.5d
 			id: "0B905B4B664E1168"
 			tasks: [{
 				id: "7445985A2ED36010"
@@ -6131,8 +6086,8 @@
 			}]
 		}
 		{
-			x: -31.5d
-			y: 36.0d
+			x: 31.75d
+			y: 22.0d
 			id: "11643D1D9309E018"
 			tasks: [{
 				id: "7B69AF08C353B164"
@@ -6141,8 +6096,8 @@
 			}]
 		}
 		{
-			x: -33.5d
-			y: 36.5d
+			x: 29.75d
+			y: 22.5d
 			id: "4C4C49C1BEF2355F"
 			tasks: [{
 				id: "6DAA83508FD6E41A"
@@ -6151,8 +6106,8 @@
 			}]
 		}
 		{
-			x: -36.5d
-			y: 34.5d
+			x: 26.75d
+			y: 20.5d
 			id: "215D26032FAE919B"
 			tasks: [{
 				id: "7FACCA87CD61DE5E"
@@ -6187,8 +6142,8 @@
 			}]
 		}
 		{
-			x: -34.5d
-			y: 35.5d
+			x: 28.75d
+			y: 21.5d
 			id: "17661ECE66939F41"
 			tasks: [{
 				id: "2065FA7EC01E3780"
@@ -6203,8 +6158,8 @@
 			}]
 		}
 		{
-			x: -35.5d
-			y: 35.5d
+			x: 27.75d
+			y: 21.5d
 			id: "4E6AB15E1DA62179"
 			tasks: [{
 				id: "4AF69F866CEA28D3"
@@ -6219,8 +6174,8 @@
 			}]
 		}
 		{
-			x: -36.5d
-			y: 35.5d
+			x: 26.75d
+			y: 21.5d
 			id: "4BFD783F25284FEC"
 			tasks: [{
 				id: "384FB0D50BF1CC76"
@@ -6239,8 +6194,8 @@
 			}]
 		}
 		{
-			x: -34.5d
-			y: 36.5d
+			x: 28.75d
+			y: 22.5d
 			id: "0897628A00DED4FB"
 			tasks: [{
 				id: "4A536F0FE4CC7204"
@@ -6249,8 +6204,8 @@
 			}]
 		}
 		{
-			x: -35.5d
-			y: 36.5d
+			x: 27.75d
+			y: 22.5d
 			id: "57783FEF26F2798B"
 			tasks: [{
 				id: "75BA3C9E874DAED1"
@@ -6259,8 +6214,8 @@
 			}]
 		}
 		{
-			x: -36.5d
-			y: 36.5d
+			x: 26.75d
+			y: 22.5d
 			id: "6FB2C0A1D41D947B"
 			tasks: [{
 				id: "381F079E8386B08C"
@@ -6280,7 +6235,7 @@
 		}
 		{
 			x: -13.75d
-			y: 52.0d
+			y: 60.0d
 			dependencies: [
 				"4F10A1E05CEBFE1A"
 				"682D148DB0B5522E"
@@ -6318,7 +6273,7 @@
 		}
 		{
 			x: 4.0d
-			y: 36.25d
+			y: 38.25d
 			dependencies: ["6A568D4357334C8A"]
 			id: "412EF056E461CAA8"
 			tasks: [{
@@ -6328,8 +6283,8 @@
 			}]
 		}
 		{
-			x: -44.0d
-			y: 48.75d
+			x: 19.0d
+			y: 19.75d
 			id: "7DF0E099420B375C"
 			tasks: [{
 				id: "28D8DF92B223CA0D"
@@ -6338,8 +6293,8 @@
 			}]
 		}
 		{
-			x: -44.0d
-			y: 49.75d
+			x: 19.0d
+			y: 20.75d
 			id: "745FBB9470261C63"
 			tasks: [{
 				id: "64F0FEA37FD8BCFC"
@@ -6370,8 +6325,8 @@
 			}]
 		}
 		{
-			x: -10.5d
-			y: 32.25d
+			x: -15.5d
+			y: 44.25d
 			dependencies: ["0B70DAFB9E760CF8"]
 			id: "764B2D2EE76FA0CC"
 			tasks: [{
@@ -6381,8 +6336,8 @@
 			}]
 		}
 		{
-			x: -10.5d
-			y: 30.25d
+			x: -17.5d
+			y: 44.25d
 			hide_dependency_lines: true
 			dependencies: ["0B70DAFB9E760CF8"]
 			dependency_requirement: "one_completed"
@@ -6394,8 +6349,8 @@
 			}]
 		}
 		{
-			x: -10.5d
-			y: 28.25d
+			x: -19.5d
+			y: 44.25d
 			dependencies: [
 				"764B2D2EE76FA0CC"
 				"3D0A270D8C7C8717"
@@ -6409,7 +6364,7 @@
 		}
 		{
 			x: 8.5d
-			y: 52.25d
+			y: 52.5d
 			dependencies: ["5DC309731882A5E1"]
 			id: "27AA4FB5FEF4EE66"
 			tasks: [{
@@ -6419,8 +6374,8 @@
 			}]
 		}
 		{
-			x: -33.5d
-			y: 34.5d
+			x: 29.75d
+			y: 20.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"70CA1655FB8127B2"
@@ -6435,7 +6390,7 @@
 		}
 		{
 			x: 6.5d
-			y: 52.25d
+			y: 52.5d
 			dependencies: [
 				"1C4916687AD96A77"
 				"27AA4FB5FEF4EE66"
@@ -6450,7 +6405,7 @@
 		}
 		{
 			x: 4.5d
-			y: 52.25d
+			y: 52.5d
 			dependencies: ["625FD0330E1BDA54"]
 			id: "74A1DAEB2553F3E4"
 			tasks: [{
@@ -6461,7 +6416,7 @@
 		}
 		{
 			x: -1.5d
-			y: 42.0d
+			y: 42.25d
 			dependencies: ["70CA1655FB8127B2"]
 			id: "78C722E1351B2015"
 			tasks: [{
@@ -6471,8 +6426,8 @@
 			}]
 		}
 		{
-			x: -40.0d
-			y: 21.25d
+			x: 23.25d
+			y: 7.25d
 			id: "464BF453FA921D29"
 			tasks: [{
 				id: "36763DCB5E36068F"
@@ -6481,8 +6436,8 @@
 			}]
 		}
 		{
-			x: -41.0d
-			y: 21.25d
+			x: 22.25d
+			y: 7.25d
 			id: "63623C1AA25A7C18"
 			tasks: [{
 				id: "0230B8EB11240571"
@@ -6491,8 +6446,8 @@
 			}]
 		}
 		{
-			x: -41.0d
-			y: 23.25d
+			x: 22.25d
+			y: 9.25d
 			id: "4894C9776586A4B6"
 			tasks: [{
 				id: "7C42CDC753AA4E0B"
@@ -6501,8 +6456,8 @@
 			}]
 		}
 		{
-			x: -41.0d
-			y: 22.25d
+			x: 22.25d
+			y: 8.25d
 			id: "187CBD1216AFE316"
 			tasks: [{
 				id: "0FD592D3BB8E2C35"
@@ -6580,8 +6535,8 @@
 			}]
 		}
 		{
-			x: -42.0d
-			y: 22.25d
+			x: 21.25d
+			y: 8.25d
 			id: "2EB8259C3BEE32D0"
 			tasks: [{
 				id: "0C7DB53C68998284"
@@ -6590,8 +6545,8 @@
 			}]
 		}
 		{
-			x: -42.0d
-			y: 20.25d
+			x: 21.25d
+			y: 6.25d
 			id: "07B9B8552028B708"
 			tasks: [{
 				id: "19363DC302C7995A"
@@ -6600,8 +6555,8 @@
 			}]
 		}
 		{
-			x: -42.0d
-			y: 21.25d
+			x: 21.25d
+			y: 7.25d
 			id: "4EA1BBC001FD1DBC"
 			tasks: [{
 				id: "014A2476A14F37E3"
@@ -6610,8 +6565,8 @@
 			}]
 		}
 		{
-			x: -40.0d
-			y: 22.25d
+			x: 23.25d
+			y: 8.25d
 			id: "6B58D09C3D17BA17"
 			tasks: [{
 				id: "2A8CEE4D1B1F9590"
@@ -6620,8 +6575,8 @@
 			}]
 		}
 		{
-			x: -42.0d
-			y: 23.25d
+			x: 21.25d
+			y: 9.25d
 			id: "39DA7482A4B5570A"
 			tasks: [{
 				id: "3DB9EF218CB6AE87"
@@ -6645,8 +6600,8 @@
 			}]
 		}
 		{
-			x: -40.25d
-			y: 44.75d
+			x: 22.75d
+			y: 22.75d
 			hide_dependency_lines: true
 			dependencies: [
 				"39F79DC1FE7DABD0"
@@ -6671,8 +6626,8 @@
 			}]
 		}
 		{
-			x: -38.25d
-			y: 46.25d
+			x: 24.75d
+			y: 24.25d
 			dependencies: [
 				"46D7ADD2DCA7BBC9"
 				"36A4D0B08D24B73D"
@@ -6685,8 +6640,8 @@
 			}]
 		}
 		{
-			x: -39.25d
-			y: 46.25d
+			x: 23.75d
+			y: 24.25d
 			dependencies: [
 				"46D7ADD2DCA7BBC9"
 				"49914D309A5A8141"
@@ -6699,8 +6654,8 @@
 			}]
 		}
 		{
-			x: -40.25d
-			y: 46.25d
+			x: 22.75d
+			y: 24.25d
 			dependencies: ["46D7ADD2DCA7BBC9"]
 			id: "6023A97F3DA298F3"
 			tasks: [{
@@ -6710,8 +6665,8 @@
 			}]
 		}
 		{
-			x: -41.25d
-			y: 46.25d
+			x: 21.75d
+			y: 24.25d
 			dependencies: ["46D7ADD2DCA7BBC9"]
 			id: "6BEBA224EBD89B0A"
 			tasks: [{
@@ -6721,8 +6676,8 @@
 			}]
 		}
 		{
-			x: -42.25d
-			y: 46.25d
+			x: 20.75d
+			y: 24.25d
 			dependencies: ["46D7ADD2DCA7BBC9"]
 			id: "3068EFDEF6AF1720"
 			tasks: [{
@@ -6732,8 +6687,8 @@
 			}]
 		}
 		{
-			x: -32.5d
-			y: 34.5d
+			x: 30.75d
+			y: 20.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"70CA1655FB8127B2"
@@ -6747,8 +6702,8 @@
 			}]
 		}
 		{
-			x: -18.0d
-			y: 19.25d
+			x: 20.25d
+			y: -1.25d
 			dependencies: [
 				"413B892C84FCA06C"
 				"23FBADE5F25C5E9A"
@@ -6761,8 +6716,8 @@
 			}]
 		}
 		{
-			x: -18.0d
-			y: 17.25d
+			x: 20.25d
+			y: -3.25d
 			dependencies: [
 				"413B892C84FCA06C"
 				"23FBADE5F25C5E9A"
@@ -6775,8 +6730,8 @@
 			}]
 		}
 		{
-			x: -14.5d
-			y: 23.75d
+			x: 23.75d
+			y: 3.25d
 			dependencies: [
 				"2860A92511D65B51"
 				"6584EF82FE88D68E"
@@ -6789,8 +6744,8 @@
 			}]
 		}
 		{
-			x: -14.5d
-			y: 15.5d
+			x: 23.75d
+			y: -5.0d
 			dependencies: ["5E27C3E81F00DB51"]
 			id: "23FBADE5F25C5E9A"
 			tasks: [{
@@ -6800,8 +6755,8 @@
 			}]
 		}
 		{
-			x: -14.5d
-			y: 19.5d
+			x: 23.75d
+			y: -1.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"413B892C84FCA06C"
@@ -6816,8 +6771,8 @@
 			}]
 		}
 		{
-			x: -12.5d
-			y: 30.25d
+			x: -17.5d
+			y: 46.25d
 			dependencies: ["764B2D2EE76FA0CC"]
 			id: "22489EA45B86FB7B"
 			tasks: [{
@@ -6827,8 +6782,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 30.25d
+			x: -17.5d
+			y: 42.25d
 			dependencies: [
 				"764B2D2EE76FA0CC"
 				"6ECBEEBCF83349A5"
@@ -6842,8 +6797,8 @@
 			}]
 		}
 		{
-			x: -14.5d
-			y: 32.25d
+			x: -15.5d
+			y: 48.25d
 			dependencies: [
 				"20BE23E4C1BC14DB"
 				"11C7B21CC46B4192"
@@ -6858,7 +6813,7 @@
 		}
 		{
 			x: -2.5d
-			y: 50.25d
+			y: 50.5d
 			dependencies: [
 				"01BBDEDBA8C75318"
 				"2F13516D0BF41E98"
@@ -6872,7 +6827,7 @@
 		}
 		{
 			x: 0.0d
-			y: 60.25d
+			y: 60.5d
 			dependencies: ["29A495E5307C19C8"]
 			id: "0050E91053EF43F7"
 			tasks: [{
@@ -6884,7 +6839,7 @@
 		{
 			icon: "immersiveengineering:sheetmetal_steel"
 			x: -2.0d
-			y: 56.25d
+			y: 56.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"71D3CE6964067948"
@@ -6906,7 +6861,7 @@
 		}
 		{
 			x: -2.0d
-			y: 57.25d
+			y: 57.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"3ED30F5B4FCCA4DF"
@@ -6921,7 +6876,7 @@
 		}
 		{
 			x: -2.0d
-			y: 58.25d
+			y: 58.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"7E6244CA5CC7CAC2"
@@ -6938,11 +6893,11 @@
 		}
 		{
 			x: 2.0d
-			y: 56.25d
+			y: 56.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"7E6244CA5CC7CAC2"
-				"147DA28F357CCFAE"
+				"109D647ED52D215D"
 				"0215BF43B38BE67A"
 				"5758E23D320669F3"
 			]
@@ -6955,7 +6910,7 @@
 		}
 		{
 			x: 2.0d
-			y: 57.25d
+			y: 57.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"0728FA0EBC3963BA"
@@ -6972,7 +6927,7 @@
 		}
 		{
 			x: 2.0d
-			y: 58.25d
+			y: 58.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"71D3CE6964067948"
@@ -6987,7 +6942,7 @@
 		}
 		{
 			x: -7.5d
-			y: 34.25d
+			y: 38.25d
 			min_required_dependencies: 2
 			dependencies: [
 				"022FBE09A8760542"
@@ -7003,7 +6958,7 @@
 		}
 		{
 			x: -7.5d
-			y: 36.25d
+			y: 40.25d
 			dependencies: ["4DF9E6658C718676"]
 			id: "48E1765D32C077A0"
 			tasks: [{
@@ -7036,7 +6991,7 @@
 		}
 		{
 			x: 0.0d
-			y: 54.25d
+			y: 54.5d
 			dependencies: ["7D35C6A38DA6B9AD"]
 			id: "3A42B828EBE09335"
 			tasks: [{
@@ -7053,7 +7008,7 @@
 		}
 		{
 			x: 2.5d
-			y: 52.25d
+			y: 52.5d
 			dependencies: [
 				"04C0C78A3BB1B89A"
 				"625FD0330E1BDA54"
@@ -7067,7 +7022,7 @@
 		}
 		{
 			x: -2.5d
-			y: 52.25d
+			y: 52.5d
 			dependencies: ["3F065474A68AC2BF"]
 			id: "04C0C78A3BB1B89A"
 			tasks: [{
@@ -7079,7 +7034,7 @@
 		}
 		{
 			x: -3.5d
-			y: 38.0d
+			y: 38.25d
 			hide_dependency_lines: true
 			dependencies: [
 				"3ED30F5B4FCCA4DF"
@@ -7094,7 +7049,7 @@
 		}
 		{
 			x: -3.5d
-			y: 39.0d
+			y: 39.25d
 			hide_dependency_lines: true
 			dependencies: [
 				"0728FA0EBC3963BA"
@@ -7111,7 +7066,7 @@
 		}
 		{
 			x: -3.5d
-			y: 40.0d
+			y: 40.25d
 			hide_dependency_lines: true
 			dependencies: [
 				"0B70DAFB9E760CF8"
@@ -7126,7 +7081,7 @@
 		}
 		{
 			x: 0.5d
-			y: 38.0d
+			y: 38.25d
 			hide_dependency_lines: true
 			dependencies: [
 				"7E6244CA5CC7CAC2"
@@ -7142,7 +7097,7 @@
 		}
 		{
 			x: 0.5d
-			y: 39.0d
+			y: 39.25d
 			hide_dependency_lines: true
 			dependencies: [
 				"3ED30F5B4FCCA4DF"
@@ -7157,7 +7112,7 @@
 		}
 		{
 			x: 0.5d
-			y: 40.0d
+			y: 40.25d
 			hide_dependency_lines: true
 			dependencies: [
 				"0B70DAFB9E760CF8"
@@ -7172,7 +7127,7 @@
 		}
 		{
 			x: 1.5d
-			y: 45.75d
+			y: 46.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"3ED30F5B4FCCA4DF"
@@ -7187,7 +7142,7 @@
 		}
 		{
 			x: 1.5d
-			y: 46.75d
+			y: 47.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"0728FA0EBC3963BA"
@@ -7204,7 +7159,7 @@
 		}
 		{
 			x: 1.5d
-			y: 47.75d
+			y: 48.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"7E6244CA5CC7CAC2"
@@ -7220,7 +7175,7 @@
 		}
 		{
 			x: 5.5d
-			y: 45.75d
+			y: 46.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"3ED30F5B4FCCA4DF"
@@ -7235,7 +7190,7 @@
 		}
 		{
 			x: 5.5d
-			y: 46.75d
+			y: 47.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"0B70DAFB9E760CF8"
@@ -7250,7 +7205,7 @@
 		}
 		{
 			x: 5.5d
-			y: 47.75d
+			y: 48.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"56D83790E33B0765"
@@ -7265,7 +7220,7 @@
 		}
 		{
 			x: -2.5d
-			y: 44.0d
+			y: 44.25d
 			dependencies: [
 				"78C722E1351B2015"
 				"6B80DB03A7D638B1"
@@ -7280,7 +7235,7 @@
 		}
 		{
 			x: -3.5d
-			y: 42.0d
+			y: 42.25d
 			hide_dependency_lines: true
 			dependencies: ["54DC8317D4B7A510"]
 			id: "6B80DB03A7D638B1"
@@ -7292,7 +7247,7 @@
 		}
 		{
 			x: -5.5d
-			y: 34.25d
+			y: 36.25d
 			min_required_dependencies: 2
 			dependencies: [
 				"022FBE09A8760542"
@@ -7308,7 +7263,7 @@
 		}
 		{
 			x: -5.5d
-			y: 36.25d
+			y: 38.25d
 			dependencies: ["316E7F84DBF9A1A3"]
 			id: "247D93C4F466D600"
 			tasks: [{
@@ -7373,13 +7328,13 @@
 			}]
 		}
 		{
-			x: -13.5d
-			y: 34.25d
+			x: -11.5d
+			y: 42.25d
 			min_required_dependencies: 2
 			dependencies: [
 				"022FBE09A8760542"
 				"5AF0FCDA89A764B2"
-				"0B70DAFB9E760CF8"
+				"71D3CE6964067948"
 			]
 			id: "12EB4CA7EDCF87BC"
 			tasks: [{
@@ -7652,7 +7607,7 @@
 		}
 		{
 			x: -0.5d
-			y: 48.25d
+			y: 48.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"0B70DAFB9E760CF8"
@@ -7777,7 +7732,7 @@
 		}
 		{
 			x: -4.5d
-			y: 45.25d
+			y: 45.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"3ED30F5B4FCCA4DF"
@@ -7792,7 +7747,7 @@
 		}
 		{
 			x: -4.5d
-			y: 46.25d
+			y: 46.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"7E6244CA5CC7CAC2"
@@ -7809,7 +7764,7 @@
 		}
 		{
 			x: -0.5d
-			y: 47.25d
+			y: 47.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"0B70DAFB9E760CF8"
@@ -7824,7 +7779,7 @@
 		}
 		{
 			x: -0.5d
-			y: 46.25d
+			y: 46.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"3ED30F5B4FCCA4DF"
@@ -7839,7 +7794,7 @@
 		}
 		{
 			x: -4.5d
-			y: 47.25d
+			y: 47.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"71D3CE6964067948"
@@ -7854,7 +7809,7 @@
 		}
 		{
 			x: -4.5d
-			y: 48.25d
+			y: 48.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"0728FA0EBC3963BA"
@@ -7871,7 +7826,7 @@
 		}
 		{
 			x: -0.5d
-			y: 45.25d
+			y: 45.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"7E6244CA5CC7CAC2"
