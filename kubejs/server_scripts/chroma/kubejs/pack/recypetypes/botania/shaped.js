@@ -182,6 +182,16 @@ onEvent('recipes', (event) => {
               M:'botania:mana_pool'
           },
           id: 'botania:fabulous_pool'
+      },
+      {
+          output: 'botania:spark',
+          pattern: [' P ', 'QRQ', ' P '],
+          key: {
+              Q:'botania:quartz_blaze',
+              P:'#botania:petals',
+              R:'tconstruct:rose_gold_nugget'
+          },
+          id: 'botania:spark'
       }
 
     ];
