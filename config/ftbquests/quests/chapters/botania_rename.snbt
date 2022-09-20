@@ -18,6 +18,11 @@
 		{
 			x: 1.5d
 			y: 0.0d
+			description: [
+				"The &5Lexica Botania&r is the repository of all knowledge for all botanical matters."
+				""
+				"All well-known botanical knowledge is stored within these pages. For convenience, if a block happens to have an entry in here, it can be sneak-right clicked on with the &5Lexica Botania&r to open said entry."
+			]
 			dependencies: ["1BA1DC174E2C6675"]
 			id: "6F68A51ABF9B9FD3"
 			tasks: [{
@@ -78,21 +83,6 @@
 					item: "botania:mana_powder"
 				}
 			]
-		}
-		{
-			x: 0.0d
-			y: -3.25d
-			dependencies: [
-				"6F15AADF2331F545"
-				"281F853004D0032C"
-				"442961BF5C16C60F"
-			]
-			id: "489F80FE1C998003"
-			tasks: [{
-				id: "025628ECED453188"
-				type: "item"
-				item: "botania:apothecary_default"
-			}]
 		}
 		{
 			title: "Mystical Petals"
@@ -182,6 +172,14 @@
 			title: "Mystical Flowers"
 			x: 0.0d
 			y: 0.0d
+			description: [
+				"Around the world, you may stumble upon a large variety of &5Mystical Flowers&r. Spotting these flowers doesn't take much work, as they glow faintly and sparkle."
+				"They come in a total of &a16&r different colors."
+				""
+				"These flowers can be plucked for &5Mystical Petals&r, which are used in the creation of magical instruments and plants."
+				"Right-clicking a petal upon the ground will &abury it&r, making it emit particles."
+				"These petals can also be crushed into the corresponding &5Dyes&r."
+			]
 			id: "1BA1DC174E2C6675"
 			tasks: [{
 				id: "5C55422752CE8BD0"
@@ -265,7 +263,13 @@
 			title: "Pure Daisy"
 			x: 0.0d
 			y: -4.75d
-			dependencies: ["489F80FE1C998003"]
+			description: [
+				"Far from being just the most basic, the &5Pure Daisy&r is the most important flower a botanist can have."
+				""
+				"This flower will purify any adjacent &5Otherworld Wood&r and &5Otherstone&r blocks into their purified counterparts, Livingwood and Livingrock."
+				"{image:chroma:textures/quests/pure_daisy.png width:100 height:100 align:1}"
+			]
+			dependencies: ["3025A296D481E2D7"]
 			id: "30ED0007E9FE88BD"
 			tasks: [{
 				id: "78283776ECB8F990"
@@ -999,6 +1003,8 @@
 		{
 			x: 6.25d
 			y: -3.5d
+			subtitle: "It's a tiny potato! It believes in you!"
+			description: ["No. Really, that's it. A &5Potato&r, thrown into a &5Mana Pool&r, gains a little spark of life and joy. The &5Tiny Potato&r is lively, but patting it with a right-click will make it even more so!A Potato can also be named in an &5Anvil&r."]
 			dependencies: ["40AA0A493F0620AA"]
 			id: "7E22CACFC65AFEB7"
 			tasks: [{
@@ -1010,6 +1016,13 @@
 		{
 			x: -1.25d
 			y: -1.5d
+			description: [
+				"It stores up to one stack of each color of &5Mystical Flower&r and &5Tall Mystical Flower&r, and passively catches any more that its holder picks up."
+				""
+				"Flowers won't be picked up by the pouch if the pouch is held in your dominant hand."
+				""
+				"Furthermore, sneak-right clicking the pouch on a &5Chest&r or other inventory will dump all flowers the pouch contains into said inventory."
+			]
 			dependencies: ["442961BF5C16C60F"]
 			id: "765DC6C2A6F57093"
 			tasks: [{
@@ -1328,6 +1341,13 @@
 		{
 			x: -3.0d
 			y: 0.0d
+			description: [
+				"&5Sparks&r are interesting things. Created from a combination of raw energy and &aMana&r, they can be placed only on a few specific &aMana&r-containing or -accepting blocks (notably &5Mana Pools&r)."
+				""
+				"Placing a &5Spark&r over a &5Mana Pool&r and another over a nearby block that can accept it will allow the latter to access the former's reserves on demand."
+				""
+				"To remove a &5Spark&r, simply sneak-right click it with a &5Wand of the Forest&r. Regular right-clicking will show which other &5Sparks&r this one can transfer to."
+			]
 			dependencies: ["0204E5C31C281557"]
 			id: "25C615546513B729"
 			tasks: [{
@@ -1367,6 +1387,50 @@
 				id: "67AAC8B1B941422C"
 				type: "item"
 				item: "botania:corporea_spark_master"
+			}]
+		}
+		{
+			title: "Black Lotus"
+			x: 0.0d
+			y: 1.5d
+			description: ["An elusive flower by the name of the &5Black Lotus&r exists; however, it is not known to grow or reproduce. There are no known sources of the Lotus at this time.It is known, however, that each bloom contains a good deal of concentrated &aMana&r that can be released by dissolving it inside a non-empty &5Mana Pool&r. Just throwing it in will do."]
+			dependencies: ["1BA1DC174E2C6675"]
+			id: "3E1DDD833C51220D"
+			tasks: [
+				{
+					id: "37F18BB2A6DCF0E1"
+					type: "item"
+					item: "botania:blacker_lotus"
+				}
+				{
+					id: "16497893F93E61C2"
+					type: "item"
+					item: "botania:black_lotus"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.25d
+			description: [
+				"This block, when placed in the world and given some water (by right-clicking or throwing in a &5Water Bucket&r), will accept any &5Mystical Petals&r thrown into it, absorbing their energies."
+				"Once the correct petals have been provided, throwing any &aSeeds&r in will finalize the crafting process."
+				"All &aFunctional&r and &aGenerating Flora&r are made here."
+				""
+				"If it's filled with &5Lava&r instead of &5Water&r, the Apothecary will serve as a brazier and incinerator, destroying any items that come into contact with it."
+				""
+				"A simple tip for the more efficiency-minded: Up to twenty seconds after crafting a flower and after refilling the water, if you right-click the apothecary with an empty hand, it'll pull another set of the same ingredients out of your inventory, for quick crafting in bulk."
+			]
+			dependencies: [
+				"442961BF5C16C60F"
+				"281F853004D0032C"
+				"6F15AADF2331F545"
+			]
+			id: "3025A296D481E2D7"
+			tasks: [{
+				id: "21169BEAE9DCB0AD"
+				type: "item"
+				item: "botania:apothecary_default"
 			}]
 		}
 	]

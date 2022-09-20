@@ -2011,6 +2011,8 @@
 			x: -0.5d
 			y: 9.25d
 			shape: "hexagon"
+			subtitle: "A New Ore"
+			description: ["Through your adventure you may find some &5Arcane Ore&r."]
 			hide: false
 			size: 2.0d
 			id: "2D280B19DAF910F3"
@@ -2176,6 +2178,7 @@
 		{
 			x: -6.25d
 			y: 10.25d
+			subtitle: "The Finest and Best Clay"
 			dependencies: ["31936ED1790DA9BF"]
 			id: "4AF2D320ACBA99E3"
 			tasks: [{
@@ -2187,6 +2190,7 @@
 		{
 			x: -3.25d
 			y: 9.25d
+			subtitle: "First Clay"
 			dependencies: ["2D280B19DAF910F3"]
 			id: "36D7AB33ECC0C810"
 			tasks: [{
@@ -2198,6 +2202,7 @@
 		{
 			x: -5.25d
 			y: 9.25d
+			subtitle: "A better Clay"
 			dependencies: ["36D7AB33ECC0C810"]
 			id: "31936ED1790DA9BF"
 			tasks: [{
@@ -2293,6 +2298,7 @@
 		{
 			x: 2.5d
 			y: 11.75d
+			subtitle: "Pressing Glyphes"
 			dependencies: ["2C180B990E4CCEC3"]
 			id: "120CD537BDE5EAAD"
 			tasks: [{
@@ -2305,6 +2311,7 @@
 			title: "Arcane Stone"
 			x: 1.25d
 			y: 10.0d
+			subtitle: "Crafting some Stones"
 			dependencies: ["2D280B19DAF910F3"]
 			id: "2C180B990E4CCEC3"
 			tasks: [{
@@ -2845,6 +2852,7 @@
 			title: "Enchanting Apparatus"
 			x: -0.5d
 			y: 11.75d
+			subtitle: "A New Way Of Crafting"
 			dependencies: ["2C180B990E4CCEC3"]
 			id: "0F5064AAAA97F693"
 			tasks: [
@@ -2869,6 +2877,7 @@
 		{
 			x: 3.25d
 			y: 10.0d
+			subtitle: "Stocking Mana"
 			dependencies: ["2C180B990E4CCEC3"]
 			id: "620AE64F27D7DC43"
 			tasks: [{
@@ -2881,6 +2890,7 @@
 			title: "Source Relays"
 			x: 4.0d
 			y: 9.25d
+			subtitle: "Relaying Mana Generation"
 			dependencies: ["620AE64F27D7DC43"]
 			id: "025EC5563C39255B"
 			tasks: [
@@ -2909,6 +2919,7 @@
 		{
 			x: 2.5d
 			y: 9.25d
+			subtitle: "Linking Tool"
 			dependencies: ["620AE64F27D7DC43"]
 			id: "63369166FED1B89E"
 			tasks: [{
@@ -3024,6 +3035,7 @@
 			x: 6.0d
 			y: 12.5d
 			shape: "octagon"
+			subtitle: "Generating Mana"
 			dependencies: ["2C180B990E4CCEC3"]
 			size: 2.0d
 			id: "2B073D5DCCB463A6"
@@ -3037,6 +3049,7 @@
 			x: 4.25d
 			y: 13.25d
 			shape: "rsquare"
+			subtitle: "Generating Mana With Potions"
 			dependencies: ["2B073D5DCCB463A6"]
 			id: "28F2DAA8953FA93D"
 			tasks: [{
@@ -3049,6 +3062,7 @@
 			x: 5.0d
 			y: 14.0d
 			shape: "rsquare"
+			subtitle: "Coal Generates Mana"
 			dependencies: ["2B073D5DCCB463A6"]
 			id: "5D56176F04A6033D"
 			tasks: [{
@@ -3061,6 +3075,7 @@
 			x: 6.0d
 			y: 14.25d
 			shape: "rsquare"
+			subtitle: "Growing Mana Plants !"
 			dependencies: ["2B073D5DCCB463A6"]
 			id: "7846EFEAC8899263"
 			tasks: [{
@@ -3073,6 +3088,7 @@
 			x: 7.0d
 			y: 14.0d
 			shape: "rsquare"
+			subtitle: "Mushrooms are good"
 			dependencies: ["2B073D5DCCB463A6"]
 			id: "694EF935182800E4"
 			tasks: [{
@@ -3085,6 +3101,7 @@
 			x: 7.75d
 			y: 13.25d
 			shape: "rsquare"
+			subtitle: "Life Draining Mana "
 			dependencies: ["2B073D5DCCB463A6"]
 			id: "60540B4E2F1A4B4C"
 			tasks: [{
