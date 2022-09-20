@@ -10,8 +10,14 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -2.75d
-			y: -3.25d
+			x: 0.0d
+			y: -5.75d
+			shape: "gear"
+			dependencies: [
+				"3E3A4B6D727ED70F"
+				"12658BA7FA33E104"
+			]
+			size: 2.0d
 			id: "3B8FE588BB137295"
 			tasks: [{
 				id: "65BAA65EA65F3AFA"
@@ -20,8 +26,10 @@
 			}]
 		}
 		{
-			x: -2.75d
-			y: -1.0d
+			x: 0.5d
+			y: -4.0d
+			shape: "rsquare"
+			dependencies: ["3B8FE588BB137295"]
 			id: "1C0DB5CDE08C77D0"
 			tasks: [{
 				id: "0C8E1EF1A08A13DE"
@@ -30,8 +38,13 @@
 			}]
 		}
 		{
-			x: -1.75d
-			y: -1.0d
+			x: 0.5d
+			y: -3.0d
+			shape: "rsquare"
+			dependencies: [
+				"1C0DB5CDE08C77D0"
+				"5EC2E508FAFBF999"
+			]
 			id: "14FFFA2AA5D8CEAC"
 			tasks: [{
 				id: "54CDF799BC30AB4F"
@@ -40,8 +53,13 @@
 			}]
 		}
 		{
-			x: -2.75d
-			y: -2.0d
+			x: -0.5d
+			y: -4.0d
+			shape: "rsquare"
+			dependencies: [
+				"12658BA7FA33E104"
+				"75B03878AA52F00E"
+			]
 			id: "1FA60A7D153B850E"
 			tasks: [{
 				id: "49F6A5296AA9D8F5"
@@ -50,8 +68,13 @@
 			}]
 		}
 		{
-			x: -1.75d
-			y: -2.0d
+			x: -0.5d
+			y: -3.0d
+			shape: "rsquare"
+			dependencies: [
+				"12658BA7FA33E104"
+				"7B9FBBCD2F962A0B"
+			]
 			id: "5EC2E508FAFBF999"
 			tasks: [{
 				id: "0FD924C0211DD113"
@@ -60,8 +83,10 @@
 			}]
 		}
 		{
-			x: -0.75d
+			x: -0.5d
 			y: -2.0d
+			shape: "rsquare"
+			dependencies: ["12658BA7FA33E104"]
 			id: "4F9C02E738E82240"
 			tasks: [{
 				id: "0DB578834151A7A4"
@@ -70,8 +95,13 @@
 			}]
 		}
 		{
-			x: -0.75d
-			y: -1.0d
+			x: 0.5d
+			y: -2.0d
+			shape: "rsquare"
+			dependencies: [
+				"4F9C02E738E82240"
+				"14FFFA2AA5D8CEAC"
+			]
 			id: "671971636863D7E5"
 			tasks: [{
 				id: "54DA70A97CABE4A9"
@@ -80,8 +110,14 @@
 			}]
 		}
 		{
-			x: 1.25d
-			y: -1.0d
+			x: 0.0d
+			y: 2.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"62125E43C7D92E78"
+				"5EC2E508FAFBF999"
+			]
 			id: "6FFEE10893876C7E"
 			tasks: [{
 				id: "1B74619DA944856E"
@@ -90,8 +126,14 @@
 			}]
 		}
 		{
-			x: 2.25d
-			y: -1.0d
+			x: 0.5d
+			y: 1.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"6FFEE10893876C7E"
+				"4F9C02E738E82240"
+			]
 			id: "5C20688402944B47"
 			tasks: [{
 				id: "05907EEFA6A171D3"
@@ -100,8 +142,14 @@
 			}]
 		}
 		{
-			x: 0.25d
-			y: -1.0d
+			x: -0.5d
+			y: 1.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"3B8FE588BB137295"
+				"1FA60A7D153B850E"
+			]
 			id: "62125E43C7D92E78"
 			tasks: [{
 				id: "03D6DFD7215FA9DD"
@@ -110,8 +158,11 @@
 			}]
 		}
 		{
-			x: -2.75d
-			y: 0.5d
+			x: 0.0d
+			y: 3.5d
+			shape: "octagon"
+			dependencies: ["3B8FE588BB137295"]
+			size: 1.3d
 			id: "54E011FE5DF138FB"
 			tasks: [{
 				id: "51A0D68BC0972357"
@@ -120,8 +171,10 @@
 			}]
 		}
 		{
-			x: -2.75d
-			y: 1.5d
+			x: -1.25d
+			y: 2.75d
+			shape: "diamond"
+			dependencies: ["3B8FE588BB137295"]
 			id: "41874C23EF0F8113"
 			tasks: [{
 				id: "17AF195D5076FA9E"
@@ -130,8 +183,10 @@
 			}]
 		}
 		{
-			x: -1.75d
-			y: 1.5d
+			x: -2.25d
+			y: 1.75d
+			shape: "diamond"
+			dependencies: ["3B8FE588BB137295"]
 			id: "417F4B83BD968772"
 			tasks: [{
 				id: "6FB8B458A70236E1"
@@ -140,8 +195,10 @@
 			}]
 		}
 		{
-			x: -0.75d
-			y: 1.5d
+			x: -1.75d
+			y: 2.25d
+			shape: "diamond"
+			dependencies: ["3B8FE588BB137295"]
 			id: "759ACC878C3E50CB"
 			tasks: [{
 				id: "4FC61D677E892C0D"
@@ -150,8 +207,10 @@
 			}]
 		}
 		{
-			x: -2.75d
-			y: 2.5d
+			x: 1.25d
+			y: 2.75d
+			shape: "diamond"
+			dependencies: ["12658BA7FA33E104"]
 			id: "7641F40575DBF30C"
 			tasks: [{
 				id: "1A9D590506EA1823"
@@ -160,8 +219,10 @@
 			}]
 		}
 		{
-			x: -1.75d
-			y: 2.5d
+			x: 1.75d
+			y: 2.25d
+			shape: "diamond"
+			dependencies: ["3B8FE588BB137295"]
 			id: "75A6905ABDF07648"
 			tasks: [{
 				id: "2FF97F5203809C41"
@@ -170,8 +231,10 @@
 			}]
 		}
 		{
-			x: -0.75d
-			y: 2.5d
+			x: 2.25d
+			y: 1.75d
+			shape: "diamond"
+			dependencies: ["3B8FE588BB137295"]
 			id: "1E35D0500C2D5866"
 			tasks: [{
 				id: "1C832AA2C120E88D"
@@ -180,8 +243,10 @@
 			}]
 		}
 		{
-			x: -2.75d
-			y: 3.5d
+			x: 0.0d
+			y: -0.5d
+			shape: "pentagon"
+			dependencies: ["3B8FE588BB137295"]
 			id: "3CD10BAD22AE1F8B"
 			tasks: [{
 				id: "65AE09ED864EAAFA"
@@ -190,8 +255,11 @@
 			}]
 		}
 		{
-			x: -1.75d
-			y: 3.5d
+			x: 0.0d
+			y: 11.0d
+			shape: "octagon"
+			dependencies: ["3B8FE588BB137295"]
+			size: 1.3d
 			id: "1FD4F995B3B12748"
 			tasks: [{
 				id: "75A60AA28BE0FB2E"
@@ -200,8 +268,12 @@
 			}]
 		}
 		{
-			x: -2.75d
-			y: 4.5d
+			x: -2.5d
+			y: -2.5d
+			dependencies: [
+				"3B8FE588BB137295"
+				"1F71F911773ED178"
+			]
 			id: "506F8F56216F6B7C"
 			tasks: [{
 				id: "14586E68BBE53138"
@@ -210,8 +282,9 @@
 			}]
 		}
 		{
-			x: -1.75d
-			y: 4.5d
+			x: -2.5d
+			y: -1.5d
+			dependencies: ["506F8F56216F6B7C"]
 			id: "28418CDF7F5F1C28"
 			tasks: [{
 				id: "074E52C78CF28775"
@@ -220,8 +293,9 @@
 			}]
 		}
 		{
-			x: -0.75d
-			y: 4.5d
+			x: -2.5d
+			y: -0.5d
+			dependencies: ["28418CDF7F5F1C28"]
 			id: "2AC1D719BF9B088C"
 			tasks: [{
 				id: "520AE19CCF72A158"
@@ -230,8 +304,9 @@
 			}]
 		}
 		{
-			x: 0.25d
-			y: 4.5d
+			x: -2.5d
+			y: 0.5d
+			dependencies: ["2AC1D719BF9B088C"]
 			id: "0D77CA9143A4A9A4"
 			tasks: [{
 				id: "3EF7ADD94FA4191C"
@@ -240,8 +315,9 @@
 			}]
 		}
 		{
-			x: -2.75d
-			y: 5.5d
+			x: 2.5d
+			y: -2.5d
+			dependencies: ["3B8FE588BB137295"]
 			id: "73522C1F2133E416"
 			tasks: [{
 				id: "21FA21A71BB0B6AD"
@@ -250,8 +326,9 @@
 			}]
 		}
 		{
-			x: -1.75d
-			y: 5.5d
+			x: 2.5d
+			y: -1.5d
+			dependencies: ["73522C1F2133E416"]
 			id: "5A2B5A127662EDF6"
 			tasks: [{
 				id: "30A3B3C044BBAFD0"
@@ -260,8 +337,9 @@
 			}]
 		}
 		{
-			x: -0.75d
-			y: 5.5d
+			x: 2.5d
+			y: -0.5d
+			dependencies: ["5A2B5A127662EDF6"]
 			id: "61C77F8185B1F2AF"
 			tasks: [{
 				id: "5799FBFF96DB75A3"
@@ -270,8 +348,11 @@
 			}]
 		}
 		{
-			x: -2.75d
-			y: 6.5d
+			x: -0.75d
+			y: 5.25d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["3B8FE588BB137295"]
 			id: "610EC493F0A330D3"
 			tasks: [{
 				id: "4360599187267B7B"
@@ -280,8 +361,11 @@
 			}]
 		}
 		{
-			x: -1.75d
-			y: 6.5d
+			x: 0.75d
+			y: 5.25d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["3B8FE588BB137295"]
 			id: "0C3AF28CABEB9B5E"
 			tasks: [{
 				id: "2D62D1C0C26A7B03"
@@ -290,8 +374,9 @@
 			}]
 		}
 		{
-			x: -0.75d
-			y: 6.5d
+			x: 0.0d
+			y: 5.25d
+			shape: "hexagon"
 			id: "147FEDFCEDC2F421"
 			tasks: [{
 				id: "6019F22491A77E91"
@@ -300,8 +385,10 @@
 			}]
 		}
 		{
-			x: -2.75d
-			y: 8.5d
+			x: 0.0d
+			y: 9.0d
+			shape: "octagon"
+			dependencies: ["3B8FE588BB137295"]
 			id: "1D3BDCB9625069E4"
 			tasks: [{
 				id: "6A9C243E2D8ECC9D"
@@ -310,8 +397,10 @@
 			}]
 		}
 		{
-			x: -2.75d
-			y: 7.5d
+			x: -1.0d
+			y: 6.75d
+			shape: "diamond"
+			dependencies: ["7939D54C4DAB273F"]
 			id: "75A31500FCAF79B9"
 			tasks: [{
 				id: "69DFDC6C6F551F3C"
@@ -326,8 +415,10 @@
 			}]
 		}
 		{
-			x: -1.75d
-			y: 7.5d
+			x: 1.0d
+			y: 6.75d
+			shape: "diamond"
+			dependencies: ["75A31500FCAF79B9"]
 			id: "4A40B9000AAADF7F"
 			tasks: [{
 				id: "1465C1AEF67177A2"
@@ -342,8 +433,11 @@
 			}]
 		}
 		{
-			x: -0.75d
-			y: 7.5d
+			x: -0.5d
+			y: 7.25d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3B8FE588BB137295"]
 			id: "7939D54C4DAB273F"
 			tasks: [{
 				id: "79FDE88F442D4C43"
@@ -352,8 +446,11 @@
 			}]
 		}
 		{
-			x: 0.25d
-			y: 7.5d
+			x: 0.5d
+			y: 7.25d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3B8FE588BB137295"]
 			id: "543D94A65DEEA1F1"
 			tasks: [{
 				id: "2D4BC72A7C9090D3"
@@ -362,13 +459,726 @@
 			}]
 		}
 		{
-			x: 1.25d
-			y: 7.5d
+			x: 0.0d
+			y: 6.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3B8FE588BB137295"]
+			size: 1.3d
 			id: "6907290F630E49CD"
 			tasks: [{
 				id: "65A7B3E293D515A9"
 				type: "item"
 				item: "rftoolsutility:dialing_device"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 12.5d
+			shape: "diamond"
+			dependencies: ["1FD4F995B3B12748"]
+			size: 1.5d
+			id: "1D83173640E83494"
+			tasks: [{
+				id: "1617F0A4023B4401"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_def"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 13.25d
+			shape: "diamond"
+			dependencies: ["1D83173640E83494"]
+			optional: true
+			id: "2822710796B06DB4"
+			tasks: [{
+				id: "264E27B37FA24854"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_liquid"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 13.25d
+			shape: "diamond"
+			dependencies: ["1D83173640E83494"]
+			optional: true
+			id: "75603678FBBB0CC7"
+			tasks: [{
+				id: "760A6898C6A277C0"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_pump"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 13.75d
+			shape: "diamond"
+			dependencies: ["1D83173640E83494"]
+			optional: true
+			id: "79721AB6B9F3B9AC"
+			tasks: [{
+				id: "5913A654E45C9307"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_pump_clear"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 13.25d
+			shape: "diamond"
+			dependencies: ["1D83173640E83494"]
+			optional: true
+			id: "01190A4EF71DECCD"
+			tasks: [{
+				id: "660EAD6300B7B808"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_quarry"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 13.25d
+			shape: "diamond"
+			dependencies: ["1D83173640E83494"]
+			optional: true
+			id: "55AECFF44183DD90"
+			tasks: [{
+				id: "753B421638ECAD12"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_quarry_clear"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 13.75d
+			shape: "diamond"
+			dependencies: ["1D83173640E83494"]
+			optional: true
+			id: "72979A2879752B54"
+			tasks: [{
+				id: "4B8D8128489ED6B7"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_quarry_clear_fortune"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 14.25d
+			shape: "diamond"
+			dependencies: ["1D83173640E83494"]
+			optional: true
+			id: "7BA0626440925B5D"
+			tasks: [{
+				id: "3A110722B11907DF"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_quarry_clear_silk"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 13.75d
+			shape: "diamond"
+			dependencies: ["1D83173640E83494"]
+			optional: true
+			id: "193BEE1631239648"
+			tasks: [{
+				id: "3CE82DA4B51892D4"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_quarry_fortune"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 14.25d
+			shape: "diamond"
+			dependencies: ["1D83173640E83494"]
+			optional: true
+			id: "01CFB9B8929229F5"
+			tasks: [{
+				id: "239518E7FFF2CAB1"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_quarry_silk"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 14.75d
+			shape: "diamond"
+			dependencies: ["1D83173640E83494"]
+			optional: true
+			id: "4E6C44980E0E46EF"
+			tasks: [{
+				id: "776CB65D2063006C"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_void"
+			}]
+		}
+		{
+			x: -2.75d
+			y: 8.25d
+			shape: "diamond"
+			dependencies: ["3D1D2227EF54E1F3"]
+			size: 1.5d
+			id: "5253C3780E90C914"
+			tasks: [{
+				id: "6E19F75A7874AB0D"
+				type: "item"
+				item: "rftoolsutility:module_template"
+			}]
+		}
+		{
+			x: 2.25d
+			y: 8.25d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["5253C3780E90C914"]
+			size: 1.5d
+			id: "1EC107BB01099867"
+			tasks: [{
+				id: "18EF3C68920DA7D5"
+				type: "item"
+				item: "rftoolsutility:moduleplus_template"
+			}]
+		}
+		{
+			x: 3.25d
+			y: 9.5d
+			shape: "diamond"
+			dependencies: ["1EC107BB01099867"]
+			optional: true
+			id: "312817F8B56A1B53"
+			tasks: [{
+				id: "4DCF8224F96A1C1F"
+				type: "item"
+				item: "rftoolsutility:blindness_module"
+			}]
+		}
+		{
+			x: -1.25d
+			y: 9.0d
+			shape: "diamond"
+			dependencies: ["5253C3780E90C914"]
+			optional: true
+			id: "75419FB8289851C2"
+			tasks: [{
+				id: "1144FA12A65D78BA"
+				type: "item"
+				item: "rftoolsutility:featherfalling_module"
+			}]
+		}
+		{
+			x: 3.25d
+			y: 8.5d
+			shape: "diamond"
+			dependencies: ["1EC107BB01099867"]
+			optional: true
+			id: "45368D519862033E"
+			tasks: [{
+				id: "501AA921F19376BC"
+				type: "item"
+				item: "rftoolsutility:featherfallingplus_module"
+			}]
+		}
+		{
+			x: -4.25d
+			y: 9.0d
+			shape: "diamond"
+			dependencies: ["5253C3780E90C914"]
+			optional: true
+			id: "7432AA3AB395BED6"
+			tasks: [{
+				id: "3E4A107BB7EACF73"
+				type: "item"
+				item: "rftoolsutility:haste_module"
+			}]
+		}
+		{
+			x: 1.75d
+			y: 10.0d
+			shape: "diamond"
+			dependencies: ["1EC107BB01099867"]
+			optional: true
+			id: "6C1ABFF99FCE0C96"
+			tasks: [{
+				id: "53F9B9705DBE404E"
+				type: "item"
+				item: "rftoolsutility:hasteplus_module"
+			}]
+		}
+		{
+			x: 2.25d
+			y: 10.5d
+			shape: "diamond"
+			dependencies: ["1EC107BB01099867"]
+			optional: true
+			id: "6057D7FFE7D286EF"
+			tasks: [{
+				id: "55D21AF128694D11"
+				type: "item"
+				item: "rftoolsutility:flight_module"
+			}]
+		}
+		{
+			x: -1.75d
+			y: 8.5d
+			shape: "diamond"
+			dependencies: ["5253C3780E90C914"]
+			optional: true
+			id: "351912242638DFA1"
+			tasks: [{
+				id: "56E810DB36025E4D"
+				type: "item"
+				item: "rftoolsutility:glowing_module"
+			}]
+		}
+		{
+			x: -2.75d
+			y: 9.5d
+			shape: "diamond"
+			dependencies: ["5253C3780E90C914"]
+			optional: true
+			id: "1C37158297FCA9EA"
+			tasks: [{
+				id: "58BFEBA7354C038E"
+				type: "item"
+				item: "rftoolsutility:luck_module"
+			}]
+		}
+		{
+			x: -2.25d
+			y: 9.0d
+			shape: "diamond"
+			dependencies: ["5253C3780E90C914"]
+			optional: true
+			id: "6CCC5A6036754B1A"
+			tasks: [{
+				id: "02C9F3EF05C03524"
+				type: "item"
+				item: "rftoolsutility:nightvision_module"
+			}]
+		}
+		{
+			x: 1.25d
+			y: 9.5d
+			shape: "diamond"
+			dependencies: ["1EC107BB01099867"]
+			optional: true
+			id: "0D713B69A0D0E3D9"
+			tasks: [{
+				id: "2A6AB28CDD07CE14"
+				type: "item"
+				item: "rftoolsutility:noteleport_module"
+			}]
+		}
+		{
+			x: 2.25d
+			y: 9.5d
+			shape: "diamond"
+			dependencies: ["1EC107BB01099867"]
+			optional: true
+			id: "1C523C9F5D37A475"
+			tasks: [{
+				id: "005C39DFC348FE09"
+				type: "item"
+				item: "rftoolsutility:peaceful_module"
+			}]
+		}
+		{
+			x: -2.25d
+			y: 10.0d
+			shape: "diamond"
+			dependencies: ["5253C3780E90C914"]
+			optional: true
+			id: "3AA3EEA9553DA6C4"
+			tasks: [{
+				id: "35841BFFDCF2593F"
+				type: "item"
+				item: "rftoolsutility:poison_module"
+			}]
+		}
+		{
+			x: -1.75d
+			y: 9.5d
+			shape: "diamond"
+			dependencies: ["5253C3780E90C914"]
+			optional: true
+			id: "7EDE6570BAFECB18"
+			tasks: [{
+				id: "6D2D02AEC4843F4F"
+				type: "item"
+				item: "rftoolsutility:regeneration_module"
+			}]
+		}
+		{
+			x: 2.75d
+			y: 9.0d
+			shape: "diamond"
+			dependencies: ["1EC107BB01099867"]
+			optional: true
+			id: "66DD4A1237510EE1"
+			tasks: [{
+				id: "0125AA53DF860ACC"
+				type: "item"
+				item: "rftoolsutility:regenerationplus_module"
+			}]
+		}
+		{
+			x: -3.75d
+			y: 8.5d
+			shape: "diamond"
+			dependencies: ["5253C3780E90C914"]
+			optional: true
+			id: "4CDC10687B76DF18"
+			tasks: [{
+				id: "34C3C0017AD5A714"
+				type: "item"
+				item: "rftoolsutility:saturation_module"
+			}]
+		}
+		{
+			x: 1.25d
+			y: 8.5d
+			shape: "diamond"
+			dependencies: ["1EC107BB01099867"]
+			optional: true
+			id: "481A4B59B630A9C6"
+			tasks: [{
+				id: "0D99FDB0CF328587"
+				type: "item"
+				item: "rftoolsutility:saturationplus_module"
+			}]
+		}
+		{
+			x: -3.75d
+			y: 9.5d
+			shape: "diamond"
+			dependencies: ["5253C3780E90C914"]
+			optional: true
+			id: "0913341DF5674CA7"
+			tasks: [{
+				id: "406F43F6C737D02A"
+				type: "item"
+				item: "rftoolsutility:slowness_module"
+			}]
+		}
+		{
+			x: -3.25d
+			y: 9.0d
+			shape: "diamond"
+			dependencies: ["5253C3780E90C914"]
+			optional: true
+			id: "28BA9C3897F234D9"
+			tasks: [{
+				id: "14F2CBD0723B309F"
+				type: "item"
+				item: "rftoolsutility:speed_module"
+			}]
+		}
+		{
+			x: 1.75d
+			y: 9.0d
+			shape: "diamond"
+			dependencies: ["1EC107BB01099867"]
+			optional: true
+			id: "53D7821AD9731693"
+			tasks: [{
+				id: "0DE45E12073399C9"
+				type: "item"
+				item: "rftoolsutility:speedplus_module"
+			}]
+		}
+		{
+			x: 2.75d
+			y: 10.0d
+			shape: "diamond"
+			dependencies: ["1EC107BB01099867"]
+			optional: true
+			id: "72730B651BDED4ED"
+			tasks: [{
+				id: "7FAF7FA6EC2BA951"
+				type: "item"
+				item: "rftoolsutility:waterbreathing_module"
+			}]
+		}
+		{
+			x: -3.25d
+			y: 10.0d
+			shape: "diamond"
+			dependencies: ["5253C3780E90C914"]
+			optional: true
+			id: "7A01916BFC56B777"
+			tasks: [{
+				id: "2C67D3690AEFCA20"
+				type: "item"
+				item: "rftoolsutility:weakness_module"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["3B8FE588BB137295"]
+			id: "15B6CF9B41E10B17"
+			tasks: [{
+				id: "493C1B915398535F"
+				type: "item"
+				item: "rftoolspower:powercell_card"
+			}]
+		}
+		{
+			x: 2.75d
+			y: 4.75d
+			shape: "square"
+			dependencies: ["2C58971904F74578"]
+			id: "24B4AB922FCFA956"
+			tasks: [{
+				id: "3A621378D23EF57D"
+				type: "item"
+				item: "rftoolscontrol:cpu_core_500"
+			}]
+		}
+		{
+			x: 2.75d
+			y: 5.75d
+			shape: "square"
+			dependencies: ["24B4AB922FCFA956"]
+			id: "4D0FD2C51E5290BA"
+			tasks: [{
+				id: "3B429DFC5FA77D1E"
+				type: "item"
+				item: "rftoolscontrol:cpu_core_1000"
+			}]
+		}
+		{
+			x: 2.75d
+			y: 6.75d
+			shape: "square"
+			dependencies: ["4D0FD2C51E5290BA"]
+			id: "14FF9B95901366D2"
+			tasks: [{
+				id: "37D7B9E42A3A37C5"
+				type: "item"
+				item: "rftoolscontrol:cpu_core_2000"
+			}]
+		}
+		{
+			x: -2.75d
+			y: 3.75d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["2C58971904F74578"]
+			id: "7D3B3254ECA7A7EA"
+			tasks: [{
+				id: "25B6C15D99B882A6"
+				type: "item"
+				item: "rftoolscontrol:ram_chip"
+			}]
+		}
+		{
+			x: -2.75d
+			y: 4.75d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["2C58971904F74578"]
+			id: "663950C76603F21A"
+			tasks: [{
+				id: "05928F512E2012C4"
+				type: "item"
+				item: "rftoolscontrol:network_card"
+			}]
+		}
+		{
+			x: -2.75d
+			y: 5.75d
+			shape: "square"
+			dependencies: ["663950C76603F21A"]
+			id: "047D75CA603FCA03"
+			tasks: [{
+				id: "376D7CE6C12B0B86"
+				type: "item"
+				item: "rftoolscontrol:advanced_network_card"
+			}]
+		}
+		{
+			x: -2.75d
+			y: 6.75d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["2C58971904F74578"]
+			id: "257380C02320BAC0"
+			tasks: [{
+				id: "29791027B56F49A6"
+				type: "item"
+				item: "rftoolscontrol:graphics_card"
+			}]
+		}
+		{
+			x: 2.75d
+			y: 3.75d
+			shape: "square"
+			dependencies: ["109D647ED52D215D"]
+			id: "2C58971904F74578"
+			tasks: [{
+				id: "6FE3BAFD9F868CB9"
+				type: "item"
+				item: "rftoolscontrol:card_base"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -9.0d
+			shape: "diamond"
+			dependencies: ["12658BA7FA33E104"]
+			optional: true
+			id: "3C396B2CA650B113"
+			tasks: [{
+				id: "0895B47742D443A4"
+				type: "item"
+				item: "rftoolsutility:analog"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.5d
+			shape: "diamond"
+			dependencies: ["12658BA7FA33E104"]
+			optional: true
+			id: "63883D19838B16CF"
+			tasks: [{
+				id: "56B20AD0A25D30B3"
+				type: "item"
+				item: "rftoolsutility:counter"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -9.0d
+			shape: "diamond"
+			dependencies: ["12658BA7FA33E104"]
+			optional: true
+			id: "63E421301E1AB115"
+			tasks: [{
+				id: "0F754832BCBEC7A3"
+				type: "item"
+				item: "rftoolsutility:digit"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -7.5d
+			shape: "diamond"
+			dependencies: ["12658BA7FA33E104"]
+			optional: true
+			id: "5E96368A5FC873F6"
+			tasks: [{
+				id: "26BAD1CCFF7AA86E"
+				type: "item"
+				item: "rftoolsutility:invchecker"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -7.5d
+			shape: "diamond"
+			dependencies: ["12658BA7FA33E104"]
+			optional: true
+			id: "757579CCDCAA02E4"
+			tasks: [{
+				id: "1BB7C6464292B432"
+				type: "item"
+				item: "rftoolsutility:sensor"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -9.5d
+			shape: "diamond"
+			dependencies: ["12658BA7FA33E104"]
+			optional: true
+			id: "140DE4772968F7A8"
+			tasks: [{
+				id: "76650DD1B23DE17D"
+				type: "item"
+				item: "rftoolsutility:sequencer"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -8.0d
+			shape: "diamond"
+			dependencies: ["12658BA7FA33E104"]
+			optional: true
+			id: "69B6B18BCDF8B70D"
+			tasks: [{
+				id: "075CA750D0CA441D"
+				type: "item"
+				item: "rftoolsutility:logic"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -8.0d
+			shape: "diamond"
+			dependencies: ["12658BA7FA33E104"]
+			optional: true
+			id: "554118A37A26B57F"
+			tasks: [{
+				id: "371DAF65EB7AE8EC"
+				type: "item"
+				item: "rftoolsutility:timer"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -8.5d
+			shape: "diamond"
+			dependencies: ["12658BA7FA33E104"]
+			optional: true
+			id: "498D8950B60643E6"
+			tasks: [{
+				id: "3B8E435006A88850"
+				type: "item"
+				item: "rftoolsutility:wire"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.5d
+			shape: "diamond"
+			dependencies: ["12658BA7FA33E104"]
+			optional: true
+			id: "3D07F76FF02D9FC6"
+			tasks: [{
+				id: "0761435A9520E361"
+				type: "item"
+				item: "rftoolsutility:redstone_receiver"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -8.5d
+			shape: "diamond"
+			dependencies: ["12658BA7FA33E104"]
+			optional: true
+			id: "6F00288B9FE67DF7"
+			tasks: [{
+				id: "5B29B90DC3111FC8"
+				type: "item"
+				item: "rftoolsutility:redstone_transmitter"
+			}]
+		}
+		{
+			x: -2.75d
+			y: 2.25d
+			shape: "diamond"
+			dependencies: ["417F4B83BD968772"]
+			id: "28498779A63FA059"
+			tasks: [{
+				id: "2C18B1C9E9F0E973"
+				type: "item"
+				item: "rftoolspower:blazing_rod"
 			}]
 		}
 	]

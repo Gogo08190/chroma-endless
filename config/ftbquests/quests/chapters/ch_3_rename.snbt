@@ -5,31 +5,77 @@
 	filename: "ch_3_rename"
 	title: "Ch. 3 (rename)"
 	icon: "thermal:machine_frame"
-	subtitle: ["Thermal + Pipez"]
+	subtitle: [
+		"Thermal + Pipez"
+		"Note pour Z4RM : Add Redprint image"
+	]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -4.25d
+			y: 11.0d
+			width: 14.0d
+			height: 14.0d
+			rotation: 35.0d
+			image: "thermal:textures/item/redprint.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 5.0d
+			y: 6.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/gui/presets/isles.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
-			title: "&2&lWelcome to Thermal Series"
+			title: "&2&lWelcome to Thermal Series      &r"
 			x: 0.0d
-			y: -4.25d
+			y: 0.0d
+			shape: "octagon"
+			dependencies: ["3FCE34A647C106C0"]
 			id: "1E69AFB22152DFD3"
 			tasks: [{
 				id: "1F02489FFF9153F9"
 				type: "item"
+				title: "&9Crescent Hammer&r"
 				item: "thermal:wrench"
 			}]
-			rewards: [{
-				id: "158D3B26DB90BAE3"
-				type: "item"
-				item: "thermal:redprint"
-			}]
+			rewards: [
+				{
+					id: "5EDD1368C1C2EA4D"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "thermal:guidebook"
+						}
+					}
+				}
+				{
+					id: "5CE73850FFFE47CE"
+					type: "item"
+					item: "thermal:redprint"
+				}
+			]
 		}
 		{
 			x: -5.25d
 			y: -2.5d
 			shape: "octagon"
-			dependencies: ["3FCE34A647C106C0"]
+			hide_dependency_lines: true
+			dependencies: ["1E69AFB22152DFD3"]
 			id: "677773349FE468C2"
 			tasks: [{
 				id: "4DD774EEF05D8854"
@@ -139,7 +185,13 @@
 			}]
 		}
 		{
-			x: 0.0d
+			title: "Fluxbore"
+			icon: {
+				id: "thermal:flux_drill"
+				Count: 1b
+				tag: { }
+			}
+			x: 1.0d
 			y: 0.0d
 			id: "237C289E8081A440"
 			tasks: [
@@ -160,7 +212,13 @@
 			]
 		}
 		{
-			x: 0.0d
+			title: "Fluxsaw"
+			icon: {
+				id: "thermal:flux_saw"
+				Count: 1b
+				tag: { }
+			}
+			x: 1.0d
 			y: 1.0d
 			id: "1F7E1DA9213D38A7"
 			tasks: [
@@ -205,8 +263,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -1.5d
+			x: -6.0d
+			y: 10.0d
 			id: "5E381C4A04E5BB4C"
 			tasks: [{
 				id: "5F160682113B5656"
@@ -215,8 +273,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -0.5d
+			x: -5.25d
+			y: 11.5d
 			id: "1743D05DAACE6C63"
 			tasks: [{
 				id: "6E0EE3444B5612A3"
@@ -225,8 +283,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 0.5d
+			x: -2.25d
+			y: 11.5d
 			id: "4CE9C9D4F681C437"
 			tasks: [{
 				id: "160E273DD88A15A8"
@@ -235,8 +293,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 1.5d
+			x: -1.5d
+			y: 13.0d
 			id: "1C08A35095A43EA1"
 			tasks: [{
 				id: "7AA76B2653FB8435"
@@ -245,8 +303,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: -1.5d
+			x: -7.75d
+			y: 9.0d
 			id: "36BADD0803D416FB"
 			tasks: [{
 				id: "2907088C56218A08"
@@ -255,8 +313,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: -0.25d
+			x: -5.75d
+			y: 9.0d
 			id: "06EE0FAEB74F30B8"
 			tasks: [{
 				id: "73E6D15CB69B842D"
@@ -265,8 +323,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 1.0d
+			x: -3.75d
+			y: 9.0d
 			id: "15770C3D59BEB5DB"
 			tasks: [{
 				id: "259534E5F159C879"
@@ -297,8 +355,8 @@
 			}]
 		}
 		{
-			x: -3.375d
-			y: -6.0d
+			x: -2.625d
+			y: -6.75d
 			dependencies: ["3117CCA141F25CA9"]
 			id: "6F15AADF2331F545"
 			tasks: [{
@@ -321,8 +379,8 @@
 			}]
 		}
 		{
-			x: -7.125d
-			y: -6.0d
+			x: -7.875d
+			y: -6.75d
 			dependencies: ["141E4C0BBA865753"]
 			id: "0AC2E1D9469B0B57"
 			tasks: [{
@@ -367,8 +425,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: 3.5d
+			x: -7.25d
+			y: 3.75d
 			id: "16CD3DCEADC25412"
 			tasks: [{
 				id: "007D342CB82081B7"
@@ -410,8 +468,8 @@
 			}]
 		}
 		{
-			x: 12.75d
-			y: -0.5d
+			x: 6.25d
+			y: -1.5d
 			id: "17E0DF10C7F119A2"
 			tasks: [{
 				id: "79D3FBDF522764E3"
@@ -420,8 +478,8 @@
 			}]
 		}
 		{
-			x: 12.75d
-			y: 0.5d
+			x: 6.25d
+			y: -0.5d
 			id: "4804BC97EF304328"
 			tasks: [{
 				id: "71ACDFADED3D2D9B"
@@ -430,8 +488,8 @@
 			}]
 		}
 		{
-			x: 12.75d
-			y: 1.5d
+			x: 6.25d
+			y: 0.5d
 			id: "458BAAE734893DBA"
 			tasks: [{
 				id: "1B593DB70466165F"
@@ -450,8 +508,8 @@
 			}]
 		}
 		{
-			x: -7.75d
-			y: 2.75d
+			x: -8.25d
+			y: 3.25d
 			id: "4F0254EAFC83FA04"
 			tasks: [{
 				id: "53D2002D3312DB33"
@@ -490,8 +548,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 3.5d
+			x: -3.25d
+			y: 3.75d
 			id: "4AFD81C9B0B85DC5"
 			tasks: [{
 				id: "30BC9C5AA8B9DE75"
@@ -500,8 +558,8 @@
 			}]
 		}
 		{
-			x: -2.75d
-			y: 2.75d
+			x: -2.25d
+			y: 3.25d
 			id: "31A3D8CEE3857019"
 			tasks: [{
 				id: "6825F317FF9EE0A1"
@@ -758,8 +816,8 @@
 			}]
 		}
 		{
-			x: 1.75d
-			y: -2.5d
+			x: -1.75d
+			y: 9.0d
 			id: "226DFDB3CD1C7329"
 			tasks: [{
 				id: "34A3CADBD20B81B7"
@@ -884,8 +942,8 @@
 			}]
 		}
 		{
-			x: 1.75d
-			y: 8.5d
+			x: 2.75d
+			y: 3.5d
 			id: "045746910935D8F1"
 			tasks: [{
 				id: "45669EC29727688F"
@@ -894,8 +952,8 @@
 			}]
 		}
 		{
-			x: 1.75d
-			y: 9.5d
+			x: 2.75d
+			y: 4.5d
 			id: "16AA7C119F7B75B8"
 			tasks: [{
 				id: "282FA3CF459A6337"
@@ -904,8 +962,8 @@
 			}]
 		}
 		{
-			x: 1.75d
-			y: 10.5d
+			x: 2.75d
+			y: 5.5d
 			id: "0184EF99E95D90B1"
 			tasks: [{
 				id: "128FCF2ACBD1920F"
@@ -914,8 +972,8 @@
 			}]
 		}
 		{
-			x: 1.75d
-			y: 11.5d
+			x: 2.75d
+			y: 6.5d
 			id: "153A54F456F379FA"
 			tasks: [{
 				id: "47EDC3B35A86EA15"
@@ -924,8 +982,8 @@
 			}]
 		}
 		{
-			x: 1.75d
-			y: 12.5d
+			x: 2.75d
+			y: 7.5d
 			id: "3E1E596FD35D8CA2"
 			tasks: [{
 				id: "6E9745961550E30C"
@@ -935,7 +993,7 @@
 		}
 		{
 			x: 2.75d
-			y: 3.5d
+			y: 2.5d
 			id: "3FA15345F9B58236"
 			tasks: [{
 				id: "332805F955B38023"
@@ -944,60 +1002,177 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -3.25d
-			id: "75BCB8D72F5AE9DA"
-			tasks: [{
-				id: "72E22A45ADCA9DF9"
-				type: "item"
-				item: {
-					id: "patchouli:guide_book"
-					Count: 1b
-					tag: {
-						"patchouli:book": "thermal:guidebook"
+			title: "Hardened Glass"
+			icon: "thermal:obsidian_glass"
+			x: -6.75d
+			y: -8.0d
+			dependencies: ["3F4EE4690D506E30"]
+			id: "7760AB40C4B58AA2"
+			tasks: [
+				{
+					id: "7AB4960872F5562A"
+					type: "item"
+					title: "Nether Quartz"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:quartz"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:quartz_dust"
+									Count: 1b
+								}
+							]
+						}
 					}
 				}
-			}]
+				{
+					id: "7AE89CCF80F2F3DB"
+					type: "item"
+					title: "&#513573Obsidian&r"
+					icon: "minecraft:obsidian"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:obsidian"
+						}
+					}
+				}
+				{
+					id: "165A547453A716FB"
+					type: "item"
+					title: "&#C2B280Sand&r"
+					icon: "minecraft:sand"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:sand"
+						}
+					}
+				}
+				{
+					id: "75E3089DB46D7665"
+					type: "item"
+					item: "thermal:obsidian_glass"
+				}
+			]
 		}
 		{
-			x: 6.25d
-			y: -2.5d
-			id: "7760AB40C4B58AA2"
-			tasks: [{
-				id: "0261EE184358B2E1"
-				type: "item"
-				item: "thermal:obsidian_glass"
-			}]
-		}
-		{
-			x: 6.25d
-			y: -1.5d
+			title: "&#FA631ASignalum Glass&r"
+			icon: "thermal:signalum_glass"
+			x: -5.75d
+			y: -8.25d
+			dependencies: ["3F4EE4690D506E30"]
 			id: "0A3E7DD2114D9A0D"
-			tasks: [{
-				id: "157C398590ED9B67"
-				type: "item"
-				item: "thermal:signalum_glass"
-			}]
+			tasks: [
+				{
+					id: "14B5A4A7CA274970"
+					type: "item"
+					title: "&#FA631ASignalum&r"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "emendatusenigmatica:signalum_ingot"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:signalum_dust"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "2075789E02415084"
+					type: "item"
+					title: "&#FA631ASignalum Glass&r"
+					item: "thermal:signalum_glass"
+				}
+			]
 		}
 		{
-			x: 6.25d
-			y: -0.5d
+			title: "&#DCEA97Lumium Glass&r"
+			icon: "thermal:lumium_glass"
+			x: -4.75d
+			y: -8.25d
+			dependencies: ["3F4EE4690D506E30"]
 			id: "239C1DCA9CDDD9B0"
-			tasks: [{
-				id: "37090969168522BC"
-				type: "item"
-				item: "thermal:lumium_glass"
-			}]
+			tasks: [
+				{
+					id: "5B8B3FEEE20D9EA0"
+					type: "item"
+					title: "&#DCEA97Lumium&r"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "emendatusenigmatica:lumium_ingot"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:lumium_dust"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "564209DA9FBFBF6D"
+					type: "item"
+					title: "&#DCEA97Lumium Glass&r"
+					item: "thermal:lumium_glass"
+				}
+			]
 		}
 		{
-			x: 6.25d
-			y: 0.5d
+			title: "&#1D7D7EEnderium Glass&r"
+			icon: "thermal:enderium_glass"
+			x: -3.75d
+			y: -8.0d
+			dependencies: ["3F4EE4690D506E30"]
 			id: "57CC5F007AA6A8DF"
-			tasks: [{
-				id: "762B76CF7B79B91C"
-				type: "item"
-				item: "thermal:enderium_glass"
-			}]
+			tasks: [
+				{
+					id: "116226D8FAE98A26"
+					type: "item"
+					title: "&#1D7D7EEnderium&r"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "emendatusenigmatica:enderium_ingot"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:enderium_dust"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "1D74F8B68D3A01A8"
+					type: "item"
+					title: "&#1D7D7EEnderium Glass&r"
+					item: "thermal:enderium_glass"
+				}
+			]
 		}
 		{
 			x: 6.25d
@@ -1012,16 +1187,6 @@
 		{
 			x: 6.25d
 			y: 2.5d
-			id: "37FDE40D83E7E1F0"
-			tasks: [{
-				id: "4B2698ABEDFAD93A"
-				type: "item"
-				item: "thermal:device_collector"
-			}]
-		}
-		{
-			x: 6.25d
-			y: 3.5d
 			id: "05746F984F03865D"
 			tasks: [{
 				id: "78948AB0D7958B9F"
@@ -1045,26 +1210,6 @@
 						value: "forge:coins"
 					}
 				}
-			}]
-		}
-		{
-			x: 10.25d
-			y: 3.5d
-			id: "62DD25CFAF4D0D8F"
-			tasks: [{
-				id: "6E1F41B52AE87767"
-				type: "item"
-				item: "thermal:tar"
-			}]
-		}
-		{
-			x: 10.25d
-			y: 4.5d
-			id: "47FB09A4CFFD21B3"
-			tasks: [{
-				id: "75908078E15B1135"
-				type: "item"
-				item: "thermal:rosin"
 			}]
 		}
 		{
@@ -1105,82 +1250,60 @@
 			]
 		}
 		{
-			x: 10.25d
-			y: 8.5d
-			id: "46996D0FB92BDFD0"
-			tasks: [
-				{
-					id: "5AEA3E81A37D02E3"
-					type: "item"
-					item: "thermal:blitz_rod"
-				}
-				{
-					id: "6237463C3892D25D"
-					type: "item"
-					item: "thermal:blitz_powder"
-				}
-			]
-		}
-		{
-			x: 10.25d
-			y: 9.5d
-			id: "08EAAD80395BE71C"
-			tasks: [
-				{
-					id: "7049F6D6BA2999ED"
-					type: "item"
-					item: "thermal:blizz_rod"
-				}
-				{
-					id: "587F8DC76071BA48"
-					type: "item"
-					item: "thermal:blizz_powder"
-				}
-			]
-		}
-		{
-			x: 10.25d
-			y: 10.5d
-			id: "7E28667D7472086B"
-			tasks: [{
-				id: "0692F9FECFCF3FD4"
-				type: "item"
-				item: "thermal:diving_fabric"
-			}]
-		}
-		{
-			x: 10.25d
-			y: 11.5d
-			id: "47C616018966061D"
-			tasks: [{
-				id: "7F32CFA90EAEB300"
-				type: "item"
-				item: "thermal:hazmat_fabric"
-			}]
-		}
-		{
-			x: 10.25d
-			y: 12.5d
+			title: "&4Redstone Servo&r"
+			icon: "thermal:redstone_servo"
+			x: -4.25d
+			y: 2.25d
+			dependencies: ["063B75CA0BD9A9BC"]
 			id: "3D3D8B33A6D7BE77"
-			tasks: [{
-				id: "475D163085C495AC"
-				type: "item"
-				item: "thermal:redstone_servo"
-			}]
+			tasks: [
+				{
+					id: "270A84F32915DFDA"
+					type: "item"
+					title: "3x &#71797ESteel Rods&r"
+					item: "emendatusenigmatica:steel_rod"
+					count: 3L
+				}
+				{
+					id: "63CE3547B729D28F"
+					type: "item"
+					title: "&4Redstone Servo&r"
+					item: "thermal:redstone_servo"
+				}
+			]
 		}
 		{
-			x: 10.25d
-			y: 13.5d
+			title: "&4Redstone Flux Coil&r"
+			icon: "thermal:rf_coil"
+			x: -6.25d
+			y: 2.25d
+			dependencies: ["063B75CA0BD9A9BC"]
 			id: "3AC2609EA33632B8"
-			tasks: [{
-				id: "2346910EA6F62E52"
-				type: "item"
-				item: "thermal:rf_coil"
-			}]
+			tasks: [
+				{
+					id: "4F6B66ACCE7B6C1D"
+					type: "item"
+					title: "2x &#FFD700Gold Plates&r"
+					item: "emendatusenigmatica:gold_plate"
+					count: 2L
+				}
+				{
+					id: "788EC1505DD621E3"
+					type: "item"
+					title: "&#F2E279Electrum Rod&r"
+					item: "emendatusenigmatica:electrum_rod"
+				}
+				{
+					id: "2B0269A10C4CCA04"
+					type: "item"
+					title: "&4Redstone Flux Coil&r"
+					item: "thermal:rf_coil"
+				}
+			]
 		}
 		{
-			x: 3.0d
-			y: 7.5d
+			x: -7.5d
+			y: 10.0d
 			id: "42BF2353D7B7D67C"
 			tasks: [{
 				id: "5A5B263C499D1126"
@@ -1189,8 +1312,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 8.5d
+			x: -4.5d
+			y: 10.0d
 			id: "0CF8DC0D2789EB76"
 			tasks: [{
 				id: "0C22F5804C1F5856"
@@ -1199,8 +1322,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 9.5d
+			x: -3.0d
+			y: 10.0d
 			id: "27863902F7EBFFF5"
 			tasks: [{
 				id: "6A81E0E08ACEEA09"
@@ -1209,8 +1332,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 10.5d
+			x: -1.5d
+			y: 10.0d
 			id: "04901D991655BCB3"
 			tasks: [{
 				id: "58EA97ABE1DF0A6C"
@@ -1219,7 +1342,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: -6.75d
 			y: 11.5d
 			id: "64316EAACA1F02C2"
 			tasks: [{
@@ -1229,8 +1352,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 12.5d
+			x: -3.75d
+			y: 11.5d
 			id: "75D5727467D1DFD7"
 			tasks: [{
 				id: "0ECB125479DE1F09"
@@ -1239,8 +1362,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 13.5d
+			x: -0.75d
+			y: 11.5d
 			id: "0DEEEBA290BF60AC"
 			tasks: [{
 				id: "6A45B548A3D858DB"
@@ -1249,8 +1372,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 14.5d
+			x: -6.0d
+			y: 13.0d
 			id: "133BA070C31A5D1A"
 			tasks: [{
 				id: "62CA4814613F4E72"
@@ -1259,8 +1382,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 15.5d
+			x: -4.5d
+			y: 13.0d
 			id: "1C35A898F4894F5A"
 			tasks: [{
 				id: "1D8A0EDC714575A7"
@@ -1269,8 +1392,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 7.5d
+			x: -3.0d
+			y: 13.0d
 			id: "7E3F8A64F4E0F199"
 			tasks: [{
 				id: "6E178D719D739827"
@@ -1279,8 +1402,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 8.5d
+			x: 0.0d
+			y: 13.0d
 			id: "7CF8D2306E668E41"
 			tasks: [{
 				id: "5215595BEE1BBB25"
@@ -1289,8 +1412,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 9.5d
+			x: -3.75d
+			y: 14.5d
 			id: "3E5EEC57AEF7E425"
 			tasks: [{
 				id: "366B497A77B3A81F"
@@ -1299,8 +1422,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 10.5d
+			x: -5.25d
+			y: 14.5d
 			id: "0F17CE21471D0CCD"
 			tasks: [{
 				id: "6A96090E803EA2F3"
@@ -1354,46 +1477,6 @@
 				id: "49B462D0ED19AD83"
 				type: "item"
 				item: "thermal:phytogro"
-			}]
-		}
-		{
-			x: 12.75d
-			y: 4.5d
-			id: "6AC01BD43336549F"
-			tasks: [{
-				id: "6B00CA6375D785D4"
-				type: "item"
-				item: "thermal:earth_charge"
-			}]
-		}
-		{
-			x: 12.75d
-			y: 5.5d
-			id: "617B4D34BCA75169"
-			tasks: [{
-				id: "65A728BF90C5BCC8"
-				type: "item"
-				item: "thermal:ice_charge"
-			}]
-		}
-		{
-			x: 12.75d
-			y: 6.5d
-			id: "5E515237791CDA56"
-			tasks: [{
-				id: "0DD4E3DF6CD31C22"
-				type: "item"
-				item: "thermal:lightning_charge"
-			}]
-		}
-		{
-			x: 12.75d
-			y: 7.5d
-			id: "4DF651704EB8BE5D"
-			tasks: [{
-				id: "700F2E05F22C221F"
-				type: "item"
-				item: "thermal:detonator"
 			}]
 		}
 		{

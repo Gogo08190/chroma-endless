@@ -258,13 +258,73 @@
 		}
 		{
 			x: 4.5d
-			y: -2.75d
+			y: -4.75d
 			dependencies: ["62EE24B8F491D351"]
 			id: "647F286EEF48D12D"
 			tasks: [{
 				id: "03F389837E844CAD"
 				type: "checkmark"
 				title: "All seeds"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			size: 2.0d
+			id: "7E61764377CF6D51"
+			tasks: [{
+				id: "17A7E28BC4851230"
+				type: "kill"
+				title: "Kill 100x Basalzs"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "ftbchunks:textures/faces/thermal/basalz.png"
+					}
+				}
+				entity: "thermal:basalz"
+				value: 100L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.25d
+			size: 2.0d
+			id: "426FA1C6E845967B"
+			tasks: [{
+				id: "01FCF78824C4B797"
+				type: "kill"
+				title: "Kill 100x Blitzs"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "ftbchunks:textures/faces/thermal/blitz.png"
+					}
+				}
+				entity: "thermal:blitz"
+				value: 100L
+			}]
+		}
+		{
+			x: 7.75d
+			y: -3.0d
+			size: 2.0d
+			id: "4FBFA55B83887EE4"
+			tasks: [{
+				id: "317C71C1333E4D98"
+				type: "kill"
+				title: "Kill 100x Blizzs"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "ftbchunks:textures/faces/thermal/blizz.png"
+					}
+				}
+				entity: "thermal:blizz"
+				value: 100L
 			}]
 		}
 	]
