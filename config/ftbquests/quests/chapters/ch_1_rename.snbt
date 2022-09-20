@@ -22,12 +22,24 @@
 			corner: false
 		}
 		{
-			x: 34.75d
-			y: 33.0d
-			width: 1.0d
-			height: 1.0d
+			x: 36.5d
+			y: 30.0d
+			width: 4.0d
+			height: 4.0d
 			rotation: 0.0d
-			image: "minecraft:textures/gui/presets/isles.png"
+			image: "miniutilities:textures/item/wrench.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 37.0d
+			y: 35.25d
+			width: 4.0d
+			height: 4.0d
+			rotation: 0.0d
+			image: "prefab:textures/items/item_starter_farm.png"
 			hover: [ ]
 			click: ""
 			dev: false
@@ -290,10 +302,11 @@
 					Damage: 0
 				}
 			}
-			x: 32.51934523809524d
-			y: 26.472278911564615d
+			x: 31.0d
+			y: 29.0d
 			shape: "gear"
-			size: 5.0d
+			dependencies: ["2F7EB9DBC6CE7522"]
+			size: 2.0d
 			id: "12F51EE93A420344"
 		}
 		{
@@ -1886,8 +1899,8 @@
 		{
 			title: "Wheat Farm"
 			icon: "create:mechanical_harvester"
-			x: 37.75d
-			y: 34.5d
+			x: 35.75d
+			y: 34.75d
 			dependencies: ["38CF0F5AACC73C4D"]
 			id: "55DAB1A2D54116E3"
 			tasks: [
@@ -1918,8 +1931,8 @@
 		{
 			title: "Wood Farm"
 			icon: "create:mechanical_saw"
-			x: 37.75d
-			y: 35.5d
+			x: 38.25d
+			y: 34.75d
 			dependencies: ["38CF0F5AACC73C4D"]
 			id: "7400971E05DD7896"
 			tasks: [
@@ -2018,8 +2031,8 @@
 		}
 		{
 			title: "The Portable Interfaces"
-			x: 37.75d
-			y: 33.5d
+			x: 37.0d
+			y: 34.0d
 			description: [
 				"The Portable Fluid Interface is the fluid version of the Portable Storage Interface. It is used to insert or extract from the fluid inventory of a moving structure made by a Cart Assembler, Mechanical Piston, Gantry Carriage, or Bearing."
 				""
@@ -2090,16 +2103,6 @@
 					type: "item"
 					item: "create:rose_quartz"
 					count: 8L
-				}
-				{
-					id: "14160279BFBC0A22"
-					type: "item"
-					item: "create:polished_rose_quartz"
-				}
-				{
-					id: "522DF5DAC77DA1F2"
-					type: "item"
-					item: "create:electron_tube"
 				}
 			]
 		}
@@ -2931,6 +2934,7 @@
 			]
 		}
 		{
+			title: "Advanced Steel"
 			x: 29.0d
 			y: 36.5d
 			dependencies: ["2A0681422D07EFB2"]
@@ -2960,8 +2964,8 @@
 			}]
 		}
 		{
-			x: 36.75d
-			y: 29.25d
+			x: 37.0d
+			y: 28.75d
 			hide_dependency_lines: true
 			dependencies: [
 				"17E63FB824FA537E"
@@ -3055,8 +3059,8 @@
 			}]
 		}
 		{
-			x: 36.75d
-			y: 30.25d
+			x: 37.75d
+			y: 29.5d
 			shape: "octagon"
 			description: [
 				"The Wrench is a tool used to rotate, dismantle and configure components."
@@ -3128,8 +3132,8 @@
 			}]
 		}
 		{
-			x: 35.75d
-			y: 30.25d
+			x: 35.5d
+			y: 31.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"17E63FB824FA537E"
@@ -3149,8 +3153,8 @@
 			}]
 		}
 		{
-			x: 35.75d
-			y: 29.25d
+			x: 36.5d
+			y: 30.0d
 			hide_dependency_lines: true
 			dependencies: ["0256960379E8E5E5"]
 			optional: true
@@ -3309,6 +3313,7 @@
 			}]
 		}
 		{
+			title: "Chassis"
 			x: 17.5d
 			y: 37.25d
 			dependencies: ["4025E313ECC4D6BD"]
@@ -3361,6 +3366,7 @@
 			}]
 		}
 		{
+			title: "Advanced Casing"
 			x: 30.0d
 			y: 35.0d
 			dependencies: ["0256960379E8E5E5"]
@@ -3781,6 +3787,7 @@
 			}]
 		}
 		{
+			title: "Pipe"
 			x: 23.0d
 			y: 35.0d
 			dependencies: ["08528C5E98F66E31"]
@@ -4403,6 +4410,28 @@
 				id: "65543A9DCA1A7989"
 				type: "item"
 				item: "minecraft:ender_eye"
+			}]
+		}
+		{
+			x: 13.25d
+			y: 30.75d
+			dependencies: ["1B29F8E51716D37A"]
+			id: "6B58A9E61BE8FE02"
+			tasks: [{
+				id: "5983544B0902F4E5"
+				type: "item"
+				item: "create:polished_rose_quartz"
+			}]
+		}
+		{
+			x: 12.25d
+			y: 30.75d
+			dependencies: ["6B58A9E61BE8FE02"]
+			id: "21395AA7C28FA759"
+			tasks: [{
+				id: "41C2A896B9CD146B"
+				type: "item"
+				item: "create:electron_tube"
 			}]
 		}
 	]

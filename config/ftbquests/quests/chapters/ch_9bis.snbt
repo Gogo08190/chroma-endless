@@ -1,10 +1,375 @@
 {
 	id: "6BDF214F9D190D38"
 	group: "34085A64296DE6C7"
-	order_index: 10
+	order_index: 9
 	filename: "ch_9bis"
 	title: "Ch. 9bis"
+	icon: "rftoolsbase:machine_frame"
+	subtitle: ["Rftools + EnderIO"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: -2.75d
+			y: -3.25d
+			id: "3B8FE588BB137295"
+			tasks: [{
+				id: "65BAA65EA65F3AFA"
+				type: "item"
+				item: "rftoolsbase:machine_frame"
+			}]
+		}
+		{
+			x: -2.75d
+			y: -1.0d
+			id: "1C0DB5CDE08C77D0"
+			tasks: [{
+				id: "0C8E1EF1A08A13DE"
+				type: "item"
+				item: "rftoolspower:cell1"
+			}]
+		}
+		{
+			x: -1.75d
+			y: -1.0d
+			id: "14FFFA2AA5D8CEAC"
+			tasks: [{
+				id: "54CDF799BC30AB4F"
+				type: "item"
+				item: "rftoolspower:cell2"
+			}]
+		}
+		{
+			x: -2.75d
+			y: -2.0d
+			id: "1FA60A7D153B850E"
+			tasks: [{
+				id: "49F6A5296AA9D8F5"
+				type: "item"
+				item: "rftoolspower:power_core1"
+			}]
+		}
+		{
+			x: -1.75d
+			y: -2.0d
+			id: "5EC2E508FAFBF999"
+			tasks: [{
+				id: "0FD924C0211DD113"
+				type: "item"
+				item: "rftoolspower:power_core2"
+			}]
+		}
+		{
+			x: -0.75d
+			y: -2.0d
+			id: "4F9C02E738E82240"
+			tasks: [{
+				id: "0DB578834151A7A4"
+				type: "item"
+				item: "rftoolspower:power_core3"
+			}]
+		}
+		{
+			x: -0.75d
+			y: -1.0d
+			id: "671971636863D7E5"
+			tasks: [{
+				id: "54DA70A97CABE4A9"
+				type: "item"
+				item: "rftoolspower:cell3"
+			}]
+		}
+		{
+			x: 1.25d
+			y: -1.0d
+			id: "6FFEE10893876C7E"
+			tasks: [{
+				id: "1B74619DA944856E"
+				type: "item"
+				item: "rftoolspower:dimensionalcell"
+			}]
+		}
+		{
+			x: 2.25d
+			y: -1.0d
+			id: "5C20688402944B47"
+			tasks: [{
+				id: "05907EEFA6A171D3"
+				type: "item"
+				item: "rftoolspower:dimensionalcell_advanced"
+			}]
+		}
+		{
+			x: 0.25d
+			y: -1.0d
+			id: "62125E43C7D92E78"
+			tasks: [{
+				id: "03D6DFD7215FA9DD"
+				type: "item"
+				item: "rftoolspower:dimensionalcell_simple"
+			}]
+		}
+		{
+			x: -2.75d
+			y: 0.5d
+			id: "54E011FE5DF138FB"
+			tasks: [{
+				id: "51A0D68BC0972357"
+				type: "item"
+				item: "rftoolsbase:machine_infuser"
+			}]
+		}
+		{
+			x: -2.75d
+			y: 1.5d
+			id: "41874C23EF0F8113"
+			tasks: [{
+				id: "17AF195D5076FA9E"
+				type: "item"
+				item: "rftoolspower:blazing_generator"
+			}]
+		}
+		{
+			x: -1.75d
+			y: 1.5d
+			id: "417F4B83BD968772"
+			tasks: [{
+				id: "6FB8B458A70236E1"
+				type: "item"
+				item: "rftoolspower:blazing_agitator"
+			}]
+		}
+		{
+			x: -0.75d
+			y: 1.5d
+			id: "759ACC878C3E50CB"
+			tasks: [{
+				id: "4FC61D677E892C0D"
+				type: "item"
+				item: "rftoolspower:blazing_infuser"
+			}]
+		}
+		{
+			x: -2.75d
+			y: 2.5d
+			id: "7641F40575DBF30C"
+			tasks: [{
+				id: "1A9D590506EA1823"
+				type: "item"
+				item: "rftoolspower:ender_monitor"
+			}]
+		}
+		{
+			x: -1.75d
+			y: 2.5d
+			id: "75A6905ABDF07648"
+			tasks: [{
+				id: "2FF97F5203809C41"
+				type: "item"
+				item: "rftoolspower:pearl_injector"
+			}]
+		}
+		{
+			x: -0.75d
+			y: 2.5d
+			id: "1E35D0500C2D5866"
+			tasks: [{
+				id: "1C832AA2C120E88D"
+				type: "item"
+				item: "rftoolspower:endergenic"
+			}]
+		}
+		{
+			x: -2.75d
+			y: 3.5d
+			id: "3CD10BAD22AE1F8B"
+			tasks: [{
+				id: "65AE09ED864EAAFA"
+				type: "item"
+				item: "rftoolspower:coalgenerator"
+			}]
+		}
+		{
+			x: -1.75d
+			y: 3.5d
+			id: "1FD4F995B3B12748"
+			tasks: [{
+				id: "75A60AA28BE0FB2E"
+				type: "item"
+				item: "rftoolsbuilder:builder"
+			}]
+		}
+		{
+			x: -2.75d
+			y: 4.5d
+			id: "506F8F56216F6B7C"
+			tasks: [{
+				id: "14586E68BBE53138"
+				type: "item"
+				item: "rftoolsbuilder:shield_block1"
+			}]
+		}
+		{
+			x: -1.75d
+			y: 4.5d
+			id: "28418CDF7F5F1C28"
+			tasks: [{
+				id: "074E52C78CF28775"
+				type: "item"
+				item: "rftoolsbuilder:shield_block2"
+			}]
+		}
+		{
+			x: -0.75d
+			y: 4.5d
+			id: "2AC1D719BF9B088C"
+			tasks: [{
+				id: "520AE19CCF72A158"
+				type: "item"
+				item: "rftoolsbuilder:shield_block3"
+			}]
+		}
+		{
+			x: 0.25d
+			y: 4.5d
+			id: "0D77CA9143A4A9A4"
+			tasks: [{
+				id: "3EF7ADD94FA4191C"
+				type: "item"
+				item: "rftoolsbuilder:shield_block4"
+			}]
+		}
+		{
+			x: -2.75d
+			y: 5.5d
+			id: "73522C1F2133E416"
+			tasks: [{
+				id: "21FA21A71BB0B6AD"
+				type: "item"
+				item: "rftoolsutility:crafter1"
+			}]
+		}
+		{
+			x: -1.75d
+			y: 5.5d
+			id: "5A2B5A127662EDF6"
+			tasks: [{
+				id: "30A3B3C044BBAFD0"
+				type: "item"
+				item: "rftoolsutility:crafter2"
+			}]
+		}
+		{
+			x: -0.75d
+			y: 5.5d
+			id: "61C77F8185B1F2AF"
+			tasks: [{
+				id: "5799FBFF96DB75A3"
+				type: "item"
+				item: "rftoolsutility:crafter3"
+			}]
+		}
+		{
+			x: -2.75d
+			y: 6.5d
+			id: "610EC493F0A330D3"
+			tasks: [{
+				id: "4360599187267B7B"
+				type: "item"
+				item: "rftoolsutility:matter_beamer"
+			}]
+		}
+		{
+			x: -1.75d
+			y: 6.5d
+			id: "0C3AF28CABEB9B5E"
+			tasks: [{
+				id: "2D62D1C0C26A7B03"
+				type: "item"
+				item: "rftoolsutility:spawner"
+			}]
+		}
+		{
+			x: -0.75d
+			y: 6.5d
+			id: "147FEDFCEDC2F421"
+			tasks: [{
+				id: "6019F22491A77E91"
+				type: "item"
+				item: "rftoolsutility:syringe"
+			}]
+		}
+		{
+			x: -2.75d
+			y: 8.5d
+			id: "1D3BDCB9625069E4"
+			tasks: [{
+				id: "6A9C243E2D8ECC9D"
+				type: "item"
+				item: "rftoolsutility:environmental_controller"
+			}]
+		}
+		{
+			x: -2.75d
+			y: 7.5d
+			id: "75A31500FCAF79B9"
+			tasks: [{
+				id: "69DFDC6C6F551F3C"
+				type: "item"
+				item: {
+					id: "rftoolsutility:charged_porter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.75d
+			y: 7.5d
+			id: "4A40B9000AAADF7F"
+			tasks: [{
+				id: "1465C1AEF67177A2"
+				type: "item"
+				item: {
+					id: "rftoolsutility:advanced_charged_porter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.75d
+			y: 7.5d
+			id: "7939D54C4DAB273F"
+			tasks: [{
+				id: "79FDE88F442D4C43"
+				type: "item"
+				item: "rftoolsutility:matter_transmitter"
+			}]
+		}
+		{
+			x: 0.25d
+			y: 7.5d
+			id: "543D94A65DEEA1F1"
+			tasks: [{
+				id: "2D4BC72A7C9090D3"
+				type: "item"
+				item: "rftoolsutility:matter_receiver"
+			}]
+		}
+		{
+			x: 1.25d
+			y: 7.5d
+			id: "6907290F630E49CD"
+			tasks: [{
+				id: "65A7B3E293D515A9"
+				type: "item"
+				item: "rftoolsutility:dialing_device"
+			}]
+		}
+	]
 }

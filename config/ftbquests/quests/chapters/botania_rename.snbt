@@ -855,7 +855,7 @@
 			}]
 		}
 		{
-			x: 9.5d
+			x: 9.75d
 			y: -0.25d
 			dependencies: ["1290090CFA8EB26B"]
 			id: "3ABCDB90769B6AFA"
@@ -1345,6 +1345,28 @@
 				id: "321831AE79F3707B"
 				type: "item"
 				item: "botania:mana_string"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			dependencies: ["25C615546513B729"]
+			id: "77EEAB3FD3C5E582"
+			tasks: [{
+				id: "7FB601C5E5339D70"
+				type: "item"
+				item: "botania:corporea_spark"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.25d
+			dependencies: ["77EEAB3FD3C5E582"]
+			id: "0F617BC67E15346E"
+			tasks: [{
+				id: "67AAC8B1B941422C"
+				type: "item"
+				item: "botania:corporea_spark_master"
 			}]
 		}
 	]

@@ -967,8 +967,8 @@
 		}
 		{
 			icon: "undergarden:catalyst"
-			x: 8.0d
-			y: 1.25d
+			x: 8.01190476190476d
+			y: 0.6500000000000057d
 			shape: "gear"
 			description: ["{image:chroma:textures/quests/catalyst.png width:165 height:100 align:1}"]
 			hide_dependency_lines: true
@@ -988,28 +988,13 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -0.25d
-			hide_dependency_lines: true
-			dependencies: [
-				"717F8022297E00D2"
-				"61D352299B41DBB0"
-				"343F169E9B91EC9B"
-				"4431A21A852F98FA"
-				"42B4D74321A27197"
-			]
-			id: "5D3FCB985C048594"
-			tasks: [{
-				id: "5953137C07797A0F"
-				type: "item"
-				item: "elementalcraft:purerock"
-			}]
-		}
-		{
 			x: 9.25d
 			y: 0.0d
 			subtitle: "Afrit Boss"
-			description: ["In 'rd'r to spawn this new boss, thee shall has't to assembleth the four elements of darkness"]
+			description: [
+				"In order to spawn this new &cboss&r, you shall assemble the four elements of &0&ldarkness&r."
+				"  &k&b&lIesnium Ingot&r &k&4&lFire Shard&r &5&l&kSource Gem&r &9&l&kPixie Dust&r"
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"4431A21A852F98FA"
@@ -1018,6 +1003,7 @@
 				"717F8022297E00D2"
 				"42B4D74321A27197"
 			]
+			min_width: 300
 			id: "6E562801A73D8A28"
 			tasks: [{
 				id: "2AAFA71A5489CD90"
@@ -1038,7 +1024,7 @@
 		}
 		{
 			x: 1.5d
-			y: -3.5d
+			y: -3.75d
 			dependencies: ["606CA9708A9AC7FC"]
 			id: "4D028441C24B4A1A"
 			tasks: [{
@@ -1049,7 +1035,7 @@
 		}
 		{
 			x: 2.5d
-			y: -3.5d
+			y: -3.75d
 			dependencies: ["606CA9708A9AC7FC"]
 			id: "741EEFF078CCEE44"
 			tasks: [{
@@ -1295,7 +1281,7 @@
 		}
 		{
 			x: 8.0d
-			y: -3.5d
+			y: -3.25d
 			shape: "hexagon"
 			subtitle: "A new way of using Elements"
 			description: [
