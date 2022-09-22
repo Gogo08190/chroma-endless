@@ -2168,7 +2168,7 @@
 				{
 					id: "2F17AC75EE4BF554"
 					type: "advancement"
-					title: "Find a &2Earthslime Island&r"
+					title: "Find an &2Earthslime Island&r"
 					icon: "tconstruct:earth_earth_slime_grass"
 					disable_toast: true
 					advancement: "tconstruct:world/earth_island"
@@ -2195,7 +2195,7 @@
 				{
 					id: "3A6765962EB5CC2B"
 					type: "advancement"
-					title: "Find a &5Enderslime Island&r"
+					title: "Find an &5Enderslime Island&r"
 					icon: "tconstruct:ender_ender_slime_grass"
 					disable_toast: true
 					advancement: "tconstruct:world/ender_island"
