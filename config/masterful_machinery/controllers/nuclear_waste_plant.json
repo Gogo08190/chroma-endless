@@ -1,0 +1,44 @@
+{
+    "controllerId": "nuclearwaste",
+    "name": "Nuclear Waste Plant",
+    "textureOverride": "create:block/shadow_steel_casing",
+    "ports": [
+      {
+        "type": "masterfulmachinery:items",
+        "textureOverride": "pneumaticcraft:block/compressed_brick_tile",
+        "name": "Nuclear Waste Item",
+        "id": "nuclearwaste_item",
+        "data": {
+          "rows": 4,
+          "columns": 6
+        }
+      },
+      {
+        "type": "masterfulmachinery:energy",
+        "textureOverride": "create:block/shadow_steel_casing",
+        "name": "Nuclear Waste Energy",
+        "id": "nuclearwaste_energy",
+        "data": {
+          "capacity": 1000000
+        }
+      },
+      {
+        "type": "masterfulmachinery:fluids",
+        "textureOverride": "pneumaticcraft:block/compressed_brick_tile",
+        "name": "Nuclear Waste Fluid",
+        "id": "nuclearwaste_fluid",
+        "data": {
+          "capacity": 150000
+        }
+      },
+      {
+          "type": "masterfulmachinery:mekanism_gas",
+          "textureOverride": "pneumaticcraft:block/compressed_brick_tile",
+          "name": "Nuclear Waste Gas",
+          "id": "nuclearwaste_gas",
+          "data": {
+              "capacity": 100000
+          }
+      }
+    ]
+  }
