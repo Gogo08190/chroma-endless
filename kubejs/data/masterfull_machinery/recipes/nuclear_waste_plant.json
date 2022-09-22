@@ -1,0 +1,72 @@
+{
+  "type": "masterfulmachinery:machine_structure",
+  "id": "nuclear_waste",
+  "controllerId": "nuclearwaste",
+  "name": "Nuclear Waste Plant",
+  "layout": [
+    [
+      ")))))",
+      ")))))",
+      ")))))",
+      ")))))",
+      ")))))"
+    ],
+    [
+      ")*C*)",
+      "+,-,.",
+      "*-,-*",
+      "/,-,0",
+      ")*1*)"
+    ],
+    [
+      ")***)",
+      "*,-,*",
+      "*-,-*",
+      "*,-,*",
+      ")***)"
+    ],
+    [
+      ")***)",
+      "*,-,*",
+      "*-,-*",
+      "*,-,*",
+      ")***)"
+    ],
+    [
+      ")))))",
+      ")))))",
+      ")))))",
+      ")))))",
+      ")))))"
+    ]
+  ],
+  "legend": {
+    "0": {
+      "block": "masterfulmachinery:nuclearwaste_nuclearwaste_gas_port_mekanism_gas_output"
+    },
+    "1": {
+      "block": "masterfulmachinery:nuclearwaste_nuclearwaste_energy_port_energy_input"
+    },
+    ")": {
+      "block": "mekanism:boiler_casing"
+    },
+    "*": {
+      "block": "mekanism:structural_glass"
+    },
+    "+": {
+      "block": "masterfulmachinery:nuclearwaste_nuclearwaste_item_port_items_input"
+    },
+    ",": {
+      "block": "mekanism:superheating_element"
+    },
+    "-": {
+      "block": "mekanism:ultimate_induction_cell"
+    },
+    ".": {
+      "block": "masterfulmachinery:nuclearwaste_nuclearwaste_gas_port_mekanism_gas_input"
+    },
+    "/": {
+      "block": "masterfulmachinery:nuclearwaste_nuclearwaste_fluid_port_fluids_input"
+    }
+  }
+}
