@@ -92,7 +92,7 @@ onEvent('recipes', (event) => {
             outputs: [{ type: 'masterfulmachinery:items', data: { item: 'refinedstorage:crafting_grid', count: 1 } }],
             inputs: [
                 { type: 'masterfulmachinery:items', data: { item: 'refinedstorage:advanced_processor', count: 1 } },
-                { type: 'masterfulmachinery:items', data: { item: 'refinedstorage:grid', count: 4 } },
+                { type: 'masterfulmachinery:items', data: { item: 'refinedstorage:grid', count: 1 } },
                 { type: 'masterfulmachinery:items', data: { item: 'create:mechanical_crafter', count: 4 } },
                 { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 300 * 4 } },
                 { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
@@ -104,7 +104,7 @@ onEvent('recipes', (event) => {
             outputs: [{ type: 'masterfulmachinery:items', data: { item: 'refinedstorage:pattern_grid', count: 1 } }],
             inputs: [
                 { type: 'masterfulmachinery:items', data: { item: 'refinedstorage:advanced_processor', count: 1 } },
-                { type: 'masterfulmachinery:items', data: { item: 'refinedstorage:grid', count: 4 } },
+                { type: 'masterfulmachinery:items', data: { item: 'refinedstorage:grid', count: 1 } },
                 { type: 'masterfulmachinery:items', data: { item: 'refinedstorage:pattern', count: 4 } },
                 { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 300 * 4 } },
                 { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
@@ -116,7 +116,7 @@ onEvent('recipes', (event) => {
             outputs: [{ type: 'masterfulmachinery:items', data: { item: 'refinedstorage:fluid_grid', count: 1 } }],
             inputs: [
                 { type: 'masterfulmachinery:items', data: { item: 'refinedstorage:advanced_processor', count: 1 } },
-                { type: 'masterfulmachinery:items', data: { item: 'refinedstorage:grid', count: 4 } },
+                { type: 'masterfulmachinery:items', data: { item: 'refinedstorage:grid', count: 1 } },
                 { type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:small_tank', count: 4 } },
                 { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 300 * 4 } },
                 { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
