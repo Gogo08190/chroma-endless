@@ -358,6 +358,16 @@
 		{
 			x: 5.5d
 			y: -5.75d
+			description: [
+				"Using &5Mana Spreaders&r to transport &aMana&r is all well and good, but there are other ways of getting the stuff around too."
+				""
+				"The &5Mana Tablet&r is a portable item that can carry &aMana&r within itself."
+				"In addition, other items in an inventory can draw from it for their own use, making it an essential tool."
+				""
+				"Tossing a tablet into a &5Mana Pool&r will allow for flow of &aMana&r between them."
+				""
+				"Sneak-right clicking (or using a &5Dispenser&r) on the &5Mana Pool&r with a &5Wand of the Forest&r will change which way the &aMana&r will flow."
+			]
 			dependencies: ["16749BE6267748CD"]
 			id: "745EB5C8B1009207"
 			tasks: [{
@@ -422,6 +432,15 @@
 		{
 			x: 0.0d
 			y: -8.5d
+			description: [
+				"The &5Mana Spreader&r is the single most important tool a botanist needs to manipulate &aMana&r."
+				""
+				"This block shoots &aMana&r from point A to point B. It faces a cardinal direction when placed, but sneak-right clicking it with a &5Wand of the Forest&r on a face points it elsewhere. It can be aimed at other blocks with a wand in &aBind Mode&r."
+				""
+				"The &5Mana Spreader&r has a small internal buffer of &aMana&r, which will get filled by &aGenerating Flora&r bound to it. (Flowers, when placed, auto-bind to the nearest spreader.)"
+				""
+				"This buffer can be viewed by hovering over the &5Spreader&r with a &5Wand of the Forest&r in hand."
+			]
 			dependencies: ["0E6560337D7FFDAE"]
 			id: "62222FA0EEA728C2"
 			tasks: [{
@@ -1432,6 +1451,49 @@
 				type: "item"
 				item: "botania:apothecary_default"
 			}]
+		}
+		{
+			title: "Spark Augment"
+			x: -3.5d
+			y: 1.0d
+			description: [
+				"The &5Dispersive Augment&r allows a &5Spark&r to drain the &aMana&r in its pool to charge nearby players' &aMana&r-containing items."
+				""
+				"The &5Dominant Augment&r makes a &5Spark&r pull &aMana&r from nearby non-augmented &5Sparks'&r pools into its own, until the latter is full."
+				""
+				"The &5Recessive Augment&r makes a &5Spark&r distribute all of the &aMana&r in its pool into any nearby non-augmented or Dispersive &5Sparks'&r pools, until its own is completely empty."
+				""
+				"Finally, the &5Isolated Augment&r prevents a &5Spark&r from interacting with any Dominant or Recessive &5Sparks&r, but still allows it to interact with blocks that can receive their &aMana&r from the &5Spark&r network."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"1550578CA13D8BF5"
+				"0623F7FAB4511760"
+				"25C615546513B729"
+			]
+			id: "607F43DE3CB7EBBD"
+			tasks: [
+				{
+					id: "11BB2F93384E2635"
+					type: "item"
+					item: "botania:spark_upgrade_isolated"
+				}
+				{
+					id: "7C8D723808DDCD5C"
+					type: "item"
+					item: "botania:spark_upgrade_recessive"
+				}
+				{
+					id: "55881ADE7AA6FA32"
+					type: "item"
+					item: "botania:spark_upgrade_dominant"
+				}
+				{
+					id: "153F270C162B13B6"
+					type: "item"
+					item: "botania:spark_upgrade_dispersive"
+				}
+			]
 		}
 	]
 }

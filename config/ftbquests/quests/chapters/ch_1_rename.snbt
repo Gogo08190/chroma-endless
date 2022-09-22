@@ -2168,7 +2168,7 @@
 				{
 					id: "2F17AC75EE4BF554"
 					type: "advancement"
-					title: "Find &2Earthslime Island&r"
+					title: "Find a &2Earthslime Island&r"
 					icon: "tconstruct:earth_earth_slime_grass"
 					disable_toast: true
 					advancement: "tconstruct:world/earth_island"
@@ -2177,7 +2177,7 @@
 				{
 					id: "28115D66CAB7B751"
 					type: "advancement"
-					title: "Find &3Skyslime Island&r"
+					title: "Find a &3Skyslime Island&r"
 					icon: "tconstruct:sky_sky_slime_grass"
 					disable_toast: true
 					advancement: "tconstruct:world/sky_island"
@@ -2186,7 +2186,7 @@
 				{
 					id: "51AFAE1AF044F57D"
 					type: "advancement"
-					title: "Find &cBlood Island&r"
+					title: "Find a &cBlood Island&r"
 					icon: "tconstruct:blood_ichor_slime_grass"
 					disable_toast: true
 					advancement: "tconstruct:world/blood_island"
@@ -2195,7 +2195,7 @@
 				{
 					id: "3A6765962EB5CC2B"
 					type: "advancement"
-					title: "Find &5Enderslime Island&r"
+					title: "Find a &5Enderslime Island&r"
 					icon: "tconstruct:ender_ender_slime_grass"
 					disable_toast: true
 					advancement: "tconstruct:world/ender_island"
@@ -2257,7 +2257,7 @@
 			tasks: [{
 				id: "2BD62C616FCB49F9"
 				type: "advancement"
-				title: "Find &7Clay Island&r"
+				title: "Find a &7Clay Island&r"
 				icon: "minecraft:grass_block"
 				advancement: "tconstruct:world/clay_island"
 				criterion: ""
@@ -2420,7 +2420,7 @@
 			x: -2.75d
 			y: 33.0d
 			description: [
-				"You can use these blocks replacing the Seared Bricks in the Smeltery."
+				"You can use these blocks to replace the Seared Bricks in the Smeltery."
 				"They can also used as decoration."
 			]
 			dependencies: ["4FF742939987793B"]
@@ -2542,7 +2542,7 @@
 			x: 5.5d
 			y: 39.25d
 			description: [
-				"You can use these blocks replacing the Scorched Bricks in the Foundry."
+				"You can use these blocks to replace the Scorched Bricks in the Foundry."
 				"They can also be used as decoration."
 			]
 			dependencies: ["0F1BD6C918F471B1"]
@@ -2586,7 +2586,7 @@
 			icon: "tconstruct:scorched_glass_pane"
 			x: 5.5d
 			y: 41.25d
-			description: ["These blocks can used as decoration, but NOT as a replacement of Scorched Bricks in the Foundry."]
+			description: ["These blocks can used as decoration, but NOT as a replacement for the Scorched Bricks in the Foundry."]
 			dependencies: ["667A9CA631F41AF2"]
 			optional: true
 			id: "3FFCA0A02D7BDF2D"
@@ -2881,7 +2881,7 @@
 			y: 34.5d
 			subtitle: "Blaze Cake is an item that can be fed to a Blaze Burner in order to make it Super-Heated"
 			description: [
-				"Blaze Cake can be used to feed the Blaze Burner, making it Super-Heated for 50 seconds. It then turns into standard blaze, lasting for 205 seconds."
+				"Blaze Cake can be used to feed the Blaze Burner, making it Super-Heated for 50 seconds. It then turns into standard a blaze, lasting for 205 seconds."
 				""
 				"Then, it turns into the fading phase, lasting for 50 seconds. During this phase the Blaze still provides enough heat to make the Heated recipes."
 				""
