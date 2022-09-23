@@ -148,10 +148,7 @@
 			x: 2.5d
 			y: 13.0d
 			shape: "square"
-			dependencies: [
-				"5FBB48BC5223C760"
-				"347740BA6C176E93"
-			]
+			dependencies: ["5FBB48BC5223C760"]
 			size: 1.5d
 			id: "45FC67AC6AAD4EBA"
 			tasks: [{
@@ -168,7 +165,6 @@
 			dependencies: [
 				"4AB86B0A78314E07"
 				"4C32DDB98EFDC15A"
-				"347740BA6C176E93"
 			]
 			size: 1.5d
 			id: "4F46D07D4530D22B"
@@ -2617,10 +2613,200 @@
 			y: 7.5d
 			dependencies: ["296B3469D6D39BB6"]
 			id: "4F78CFC9AF94D2BC"
+			tasks: [
+				{
+					id: "3E762B0E0AB33607"
+					type: "item"
+					item: "industrialforegoing:mob_imprisonment_tool"
+				}
+				{
+					id: "0875F5178F6DE95A"
+					type: "item"
+					item: {
+						id: "industrialforegoing:infinity_launcher"
+						Count: 1b
+						tag: {
+							CanCharge: 1b
+							Energy: 0L
+							Fluid: {
+								FluidName: "biofuel"
+								Amount: 0
+							}
+							Special: 0b
+							Selected: "POOR"
+							Plunger: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 28.5d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["73368EF2948452D9"]
+			optional: true
+			id: "1910CA542E67ED61"
 			tasks: [{
-				id: "3E762B0E0AB33607"
+				id: "704191AC2DF6D078"
 				type: "item"
-				item: "industrialforegoing:mob_imprisonment_tool"
+				item: {
+					id: "industrialforegoing:infinity_nuke"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 29.5d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["73368EF2948452D9"]
+			optional: true
+			id: "196D1F9D9F517D4C"
+			tasks: [{
+				id: "1F7BE6E7C6C47F45"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_drill"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 30.5d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["73368EF2948452D9"]
+			optional: true
+			id: "0F66F422408424E5"
+			tasks: [{
+				id: "1D5B05E0EF9B22ED"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_trident"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Riptide: 0
+						Channeling: 0b
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0b
+						Selected: "POOR"
+						Loyalty: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 28.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["73368EF2948452D9"]
+			optional: true
+			id: "7BC714FB004AD4A9"
+			tasks: [{
+				id: "4296D2C97182F13C"
+				type: "item"
+				item: "industrialforegoing:meat_feeder"
+			}]
+		}
+		{
+			x: 29.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["73368EF2948452D9"]
+			optional: true
+			id: "67920D13F1BC7EC6"
+			tasks: [{
+				id: "4265400F4061800F"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_saw"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 31.5d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["73368EF2948452D9"]
+			optional: true
+			id: "64A71A0B5A50BDD2"
+			tasks: [{
+				id: "1E2F4E1625C26FDA"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_backpack"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+					}
+				}
+			}]
+		}
+		{
+			x: 30.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["73368EF2948452D9"]
+			optional: true
+			id: "093B32B283C327AA"
+			tasks: [{
+				id: "075AF4F4EEF55EB2"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_hammer"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Energy: 9223372036854775807L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0b
+						Selected: "ARTIFACT"
+						Beheading: 0
+					}
+				}
 			}]
 		}
 	]

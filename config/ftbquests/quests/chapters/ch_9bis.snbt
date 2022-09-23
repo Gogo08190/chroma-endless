@@ -1181,5 +1181,420 @@
 				item: "rftoolspower:blazing_rod"
 			}]
 		}
+		{
+			icon: "mekanism:basic_control_circuit"
+			x: 14.75d
+			y: 4.0d
+			id: "2B471E4CC0E02DED"
+			tasks: [{
+				id: "3C9263A8B9322A17"
+				type: "item"
+				item: "mekanism:basic_control_circuit"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 3.0d
+			id: "282686B58A4A46B3"
+			tasks: [{
+				id: "1294B8D7F25B212A"
+				type: "item"
+				item: "mekanism:basic_smelting_factory"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 4.0d
+			id: "7580EA8FEB09D203"
+			tasks: [{
+				id: "5AF4B6FF03F435BA"
+				type: "item"
+				item: "mekanism:basic_enriching_factory"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 5.0d
+			id: "69EE8C9626ACB3DB"
+			tasks: [{
+				id: "45EEB9EAE2EA7560"
+				type: "item"
+				item: "mekanism:basic_crushing_factory"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 6.0d
+			id: "670832222E94FB36"
+			tasks: [{
+				id: "15C82DAFC562CACE"
+				type: "item"
+				item: "mekanism:basic_compressing_factory"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 7.0d
+			id: "0A619D8601AF32F6"
+			tasks: [{
+				id: "222E57C1ADB3D790"
+				type: "item"
+				item: "mekanism:basic_combining_factory"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 8.0d
+			id: "111B28C345B37E20"
+			tasks: [{
+				id: "18AAEDCCD174EEAC"
+				type: "item"
+				item: "mekanism:basic_purifying_factory"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 9.0d
+			id: "79392517E218E485"
+			tasks: [{
+				id: "6767084583EB31B9"
+				type: "item"
+				item: "mekanism:basic_injecting_factory"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 10.0d
+			id: "32D1047D7DF5EC10"
+			tasks: [{
+				id: "400E8294B26D68D6"
+				type: "item"
+				item: "mekanism:basic_infusing_factory"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 11.0d
+			id: "11EA0877E19BD365"
+			tasks: [{
+				id: "1FF593E860403EA2"
+				type: "item"
+				item: "mekanism:basic_sawing_factory"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -5.75d
+			dependencies: ["3B8FE588BB137295"]
+			size: 1.5d
+			id: "4E811B1DDCA7ACFE"
+			tasks: [{
+				id: "0192C68229054856"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:alloy_smelter"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: -2.5d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "126F8199A5140A17"
+			tasks: [{
+				id: "735E2574870B3E32"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_soularium"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.5d
+			dependencies: ["126F8199A5140A17"]
+			size: 1.5d
+			id: "2B19363B609E6BF3"
+			tasks: [{
+				id: "37459F711636B88F"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:slice_n_splice"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: -3.0d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "5BBFB01F0E06BF9F"
+			tasks: [{
+				id: "0B2864DB6B6A86AF"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_end_steel"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -2.5d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "3380D85F28C8B5EB"
+			tasks: [{
+				id: "0CD35D525E63BFBA"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_electrical_steel"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -2.0d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "1FC021A3877901BF"
+			tasks: [{
+				id: "42CBAF40593D687E"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_vivid_alloy"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -3.5d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "30115FB202198BA8"
+			tasks: [{
+				id: "5DF5855764B79656"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_dark_steel"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -3.0d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "092185A1F03832BE"
+			tasks: [{
+				id: "2E166FD46D2E5210"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_crystalline_pink_slime"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.0d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "085E191BC7D8D97D"
+			tasks: [{
+				id: "750A564698589AC3"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_crystalline_alloy"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "38C929808BBB9FFF"
+			tasks: [{
+				id: "7E95737046913492"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_crude_steel"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -2.0d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "66496828833731B1"
+			tasks: [{
+				id: "6FD370025BE12620"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_energetic_alloy"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -3.0d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "4B0253447D712CBC"
+			tasks: [{
+				id: "7E36E5AB7A301943"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_conductive_iron"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -3.5d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "114B2878B5B32D2E"
+			tasks: [{
+				id: "373071AFE2B26D09"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_energetic_silver"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -3.0d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "3300C7DD0785113B"
+			tasks: [{
+				id: "72D25C6312BEC96C"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_pulsating_iron"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -2.0d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "69B020744DBF26D5"
+			tasks: [{
+				id: "2E62CD44488077BD"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_melodic_alloy"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -2.5d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "6F0F3A66173096A7"
+			tasks: [{
+				id: "5BE3E6EC6DD86C0A"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_redstone_alloy"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.5d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "30E7945206FE2CF7"
+			tasks: [{
+				id: "2F4A099FF01955E9"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_stellar_alloy"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "362BB585EE70BACD"
+			tasks: [{
+				id: "104BBFB33D66DCD1"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_vivid_alloy"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -2.5d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "1130C3F682C33D56"
+			tasks: [{
+				id: "6CFCEAB21D67DF8E"
+				type: "item"
+				item: "enderioalloys:item_material_glazed_nether_brick"
+			}]
+		}
+		{
+			x: 8.25d
+			y: 1.5d
+			dependencies: ["2B19363B609E6BF3"]
+			id: "3D33E91A8207F816"
+			tasks: [{
+				id: "33CA69DBB52FFBB6"
+				type: "item"
+				item: "enderioalloys:item_material_skull_zombie_electrode"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.25d
+			dependencies: ["2B19363B609E6BF3"]
+			id: "6B05686E098DE2C9"
+			tasks: [{
+				id: "4BCA10CE44423A8A"
+				type: "item"
+				item: "enderioalloys:item_material_skull_zombie_controller"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 2.25d
+			dependencies: ["2B19363B609E6BF3"]
+			id: "52F8663AB419BDA9"
+			tasks: [{
+				id: "57A50AE1FED504A2"
+				type: "item"
+				item: "enderioalloys:item_material_skull_skeletal_contractor"
+			}]
+		}
+		{
+			x: 10.75d
+			y: 1.5d
+			dependencies: ["2B19363B609E6BF3"]
+			id: "5AC34B619EB27C7F"
+			tasks: [{
+				id: "75FDDDBC3351D353"
+				type: "item"
+				item: "enderioalloys:item_material_skull_ender_resonator"
+			}]
+		}
+		{
+			x: 14.75d
+			y: 6.0d
+			id: "0596178558C9C0DA"
+			tasks: [{
+				id: "617157357C9B266A"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+			}]
+		}
+		{
+			x: 14.75d
+			y: 7.0d
+			id: "01947FD9C0E2783B"
+			tasks: [{
+				id: "1057E2C76DC74962"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+			}]
+		}
+		{
+			x: 14.75d
+			y: 5.0d
+			id: "5A250FD54B5D5215"
+			tasks: [{
+				id: "4FA64357ED98A682"
+				type: "item"
+				item: "mekanism:advanced_control_circuit"
+			}]
+		}
 	]
 }

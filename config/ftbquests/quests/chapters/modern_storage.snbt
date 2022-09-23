@@ -9,8 +9,9 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 2.75d
-			y: -6.75d
+			x: -9.25d
+			y: -10.0d
+			dependencies: ["15865A4733956F1D"]
 			id: "1476EC5D72316F09"
 			tasks: [{
 				id: "059D88D33018EB83"
@@ -19,8 +20,9 @@
 			}]
 		}
 		{
-			x: 2.75d
-			y: -7.75d
+			x: -9.25d
+			y: -15.0d
+			dependencies: ["15865A4733956F1D"]
 			id: "25E22801C42095BB"
 			tasks: [{
 				id: "7924B638F3004E7E"
@@ -29,9 +31,10 @@
 			}]
 		}
 		{
-			x: -4.25d
-			y: -13.75d
+			x: -1.25d
+			y: -15.625d
 			shape: "gear"
+			dependencies: ["121DF7B31DB4BEF8"]
 			size: 2.5d
 			id: "41408A17D409DA61"
 			tasks: [{
@@ -41,8 +44,9 @@
 			}]
 		}
 		{
-			x: 1.75d
-			y: -9.75d
+			x: -16.75d
+			y: -12.5d
+			dependencies: ["321831AE79F3707B"]
 			id: "069C09E2CF788202"
 			tasks: [{
 				id: "1DE6FB92F0A49F17"
@@ -51,8 +55,9 @@
 			}]
 		}
 		{
-			x: 2.75d
-			y: -9.75d
+			x: -15.25d
+			y: -9.0d
+			dependencies: ["069C09E2CF788202"]
 			id: "651B0FF775242456"
 			tasks: [{
 				id: "40707C133D6A26D3"
@@ -61,8 +66,9 @@
 			}]
 		}
 		{
-			x: 3.75d
-			y: -9.75d
+			x: -15.25d
+			y: -11.0d
+			dependencies: ["069C09E2CF788202"]
 			id: "6067B05CFF4C3A7C"
 			tasks: [{
 				id: "070C08EFCCF34DB7"
@@ -71,8 +77,9 @@
 			}]
 		}
 		{
-			x: 4.75d
-			y: -9.75d
+			x: -15.25d
+			y: -14.0d
+			dependencies: ["069C09E2CF788202"]
 			id: "6C82448C0B294D57"
 			tasks: [{
 				id: "7F5A017F6A41022C"
@@ -81,8 +88,9 @@
 			}]
 		}
 		{
-			x: 2.75d
-			y: -8.75d
+			x: -10.75d
+			y: -9.0d
+			dependencies: ["15865A4733956F1D"]
 			id: "6479C243BAC2D6B1"
 			tasks: [{
 				id: "1A7E24CB4481DB60"
@@ -91,8 +99,9 @@
 			}]
 		}
 		{
-			x: 3.75d
-			y: -8.75d
+			x: -9.25d
+			y: -11.75d
+			dependencies: ["15865A4733956F1D"]
 			id: "1A7CF32D3F88C76D"
 			tasks: [{
 				id: "7D8E4BE4937F6B10"
@@ -101,8 +110,15 @@
 			}]
 		}
 		{
-			x: 20.25d
-			y: -9.25d
+			x: -14.5d
+			y: -1.5d
+			shape: "diamond"
+			description: [
+				"&bThe Stack upgrade&r will improve item or fluid transfer speeds by using a whole stack (64 items) instead of 1 item at a time."
+				""
+				"It can be combined with speed upgrades to let the device go to the next slot quicker."
+			]
+			dependencies: ["41560052D944E372"]
 			id: "0FC363629E8589DC"
 			tasks: [{
 				id: "5C885BB600C2715A"
@@ -111,8 +127,15 @@
 			}]
 		}
 		{
-			x: 21.25d
-			y: -9.25d
+			x: -13.5d
+			y: -1.5d
+			shape: "diamond"
+			description: [
+				"&bThe Crafting Upgrade&r will schedule a crafting task when the item being used in a device is needed but not available."
+				""
+				"By using this upgrade, the amount of FE/t that this device draws will increase."
+			]
+			dependencies: ["41560052D944E372"]
 			id: "3ECF389C5235C876"
 			tasks: [{
 				id: "0A401AE5147A0240"
@@ -121,8 +144,11 @@
 			}]
 		}
 		{
-			x: 22.25d
-			y: -9.25d
+			x: -13.0d
+			y: -2.0d
+			shape: "diamond"
+			description: ["&bThe Range Upgrade&r increases the range of the Wireless Transmitter."]
+			dependencies: ["41560052D944E372"]
 			id: "6D69EB40B8C2B8BE"
 			tasks: [{
 				id: "5B61773FCB8A653B"
@@ -131,8 +157,11 @@
 			}]
 		}
 		{
-			x: 19.25d
-			y: -9.25d
+			x: -15.0d
+			y: -2.0d
+			shape: "diamond"
+			description: ["&bThe Speed Upgrade&r will increase the speed of the device that it is being inserted to."]
+			dependencies: ["41560052D944E372"]
 			id: "70C4FD815EC48EC4"
 			tasks: [{
 				id: "02A092A2A4C6C2FB"
@@ -141,8 +170,16 @@
 			}]
 		}
 		{
-			x: 18.25d
-			y: -9.25d
+			x: -14.0d
+			y: -2.25d
+			shape: "diamond"
+			description: ["&bThe Upgrade&r is the base item used for every type of upgrade."]
+			hide_dependency_lines: true
+			dependencies: [
+				"1A7CF32D3F88C76D"
+				"41408A17D409DA61"
+			]
+			size: 1.5d
 			id: "41560052D944E372"
 			tasks: [{
 				id: "62A7919DE08142E5"
@@ -151,18 +188,9 @@
 			}]
 		}
 		{
-			x: 13.0d
-			y: 1.0d
-			id: "73C2935D745181AA"
-			tasks: [{
-				id: "57AEE918D40FBBC5"
-				type: "item"
-				item: "refinedstorage:storage_housing"
-			}]
-		}
-		{
-			x: 17.0d
-			y: 0.0d
+			x: -8.25d
+			y: -3.75d
+			dependencies: ["0F711C8B7276E896"]
 			id: "73243352BB4BB00F"
 			tasks: [{
 				id: "664036AAFD6115C3"
@@ -171,29 +199,9 @@
 			}]
 		}
 		{
-			x: 17.0d
-			y: 1.0d
-			id: "1B370AAFD37AB99D"
-			tasks: [{
-				id: "225FE9F161567D94"
-				type: "item"
-				item: {
-					id: "refinedstorage:4096k_fluid_storage_disk"
-					Count: 1b
-					tag: {
-						Id: [I;
-							629176098
-							1371753074
-							-1393552907
-							1554893603
-						]
-					}
-				}
-			}]
-		}
-		{
-			x: 16.0d
-			y: 0.0d
+			x: -8.25d
+			y: -4.75d
+			dependencies: ["5495770B359A1400"]
 			id: "613F07C10A246A8F"
 			tasks: [{
 				id: "00C1BBC6BC62F07E"
@@ -202,29 +210,9 @@
 			}]
 		}
 		{
-			x: 16.0d
-			y: 1.0d
-			id: "078658FFB046EAAE"
-			tasks: [{
-				id: "31B871E731DCEFD8"
-				type: "item"
-				item: {
-					id: "refinedstorage:1024k_fluid_storage_disk"
-					Count: 1b
-					tag: {
-						Id: [I;
-							753881501
-							2022394996
-							-1280548606
-							356483701
-						]
-					}
-				}
-			}]
-		}
-		{
-			x: 15.0d
-			y: 0.0d
+			x: -8.25d
+			y: -5.75d
+			dependencies: ["12BABD84E5472CFB"]
 			id: "5B1B12BA2F3776F7"
 			tasks: [{
 				id: "7CC32C60CB223903"
@@ -233,29 +221,9 @@
 			}]
 		}
 		{
-			x: 15.0d
-			y: 1.0d
-			id: "1227545A064DA3CE"
-			tasks: [{
-				id: "1AE203B6064A2161"
-				type: "item"
-				item: {
-					id: "refinedstorage:256k_fluid_storage_disk"
-					Count: 1b
-					tag: {
-						Id: [I;
-							-1111777464
-							1076054137
-							-1593891664
-							144950460
-						]
-					}
-				}
-			}]
-		}
-		{
-			x: 14.0d
-			y: 0.0d
+			x: -8.25d
+			y: -6.75d
+			dependencies: ["00E49B9468513FD2"]
 			id: "41BA023162D0338B"
 			tasks: [{
 				id: "57D2095562629547"
@@ -264,29 +232,9 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: 1.0d
-			id: "1F5202A429B4C458"
-			tasks: [{
-				id: "2975156D5AC21A32"
-				type: "item"
-				item: {
-					id: "refinedstorage:64k_fluid_storage_disk"
-					Count: 1b
-					tag: {
-						Id: [I;
-							152103406
-							-2088089869
-							-1527506342
-							776346239
-						]
-					}
-				}
-			}]
-		}
-		{
-			x: 17.0d
-			y: 4.5d
+			x: 4.75d
+			y: -3.75d
+			dependencies: ["4CB9359D414E5BD7"]
 			id: "1157865BF5EF54A2"
 			tasks: [{
 				id: "580FB24DBDDFDCF8"
@@ -295,29 +243,9 @@
 			}]
 		}
 		{
-			x: 17.0d
-			y: 5.5d
-			id: "64737CC7A70B812B"
-			tasks: [{
-				id: "152830724C7C2172"
-				type: "item"
-				item: {
-					id: "refinedstorage:64k_storage_disk"
-					Count: 1b
-					tag: {
-						Id: [I;
-							-1325575195
-							-1787474809
-							-1408938232
-							-127039096
-						]
-					}
-				}
-			}]
-		}
-		{
-			x: 16.0d
-			y: 4.5d
+			x: 4.75d
+			y: -4.75d
+			dependencies: ["3B0EBD7D45B3A4DC"]
 			id: "6EE7101D8533924B"
 			tasks: [{
 				id: "78C733C2327C4EC4"
@@ -326,8 +254,9 @@
 			}]
 		}
 		{
-			x: 15.0d
-			y: 4.5d
+			x: 4.75d
+			y: -5.75d
+			dependencies: ["1CCDDF83CCA202E5"]
 			id: "3A6E14232E48AC5D"
 			tasks: [{
 				id: "6CF2766DC53F1C04"
@@ -336,50 +265,9 @@
 			}]
 		}
 		{
-			x: 16.0d
-			y: 5.5d
-			id: "0241508979A27506"
-			tasks: [{
-				id: "4B1B698559D28A2E"
-				type: "item"
-				item: {
-					id: "refinedstorage:16k_storage_disk"
-					Count: 1b
-					tag: {
-						Id: [I;
-							939869356
-							-526498074
-							-1922854656
-							-1674690076
-						]
-					}
-				}
-			}]
-		}
-		{
-			x: 15.0d
-			y: 5.5d
-			id: "3F6AA1BE153304CE"
-			tasks: [{
-				id: "5F4C5A241C13A76C"
-				type: "item"
-				item: {
-					id: "refinedstorage:4k_storage_disk"
-					Count: 1b
-					tag: {
-						Id: [I;
-							-1776387493
-							1491160308
-							-1222388469
-							1123199221
-						]
-					}
-				}
-			}]
-		}
-		{
-			x: 14.0d
-			y: 4.5d
+			x: 4.75d
+			y: -6.75d
+			dependencies: ["58B3E8756FDA260B"]
 			id: "5C4597DC0FB5DEFA"
 			tasks: [{
 				id: "0CA6F9D0B715CF2B"
@@ -388,29 +276,10 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: 5.5d
-			id: "53E12ADEC5972201"
-			tasks: [{
-				id: "6BC4DC2FD2A2FA8F"
-				type: "item"
-				item: {
-					id: "refinedstorage:1k_storage_disk"
-					Count: 1b
-					tag: {
-						Id: [I;
-							1236884736
-							-1154529087
-							-1592249303
-							-1354678962
-						]
-					}
-				}
-			}]
-		}
-		{
-			x: -0.75d
-			y: -1.0d
+			x: 1.75d
+			y: -12.75d
+			shape: "octagon"
+			dependencies: ["41408A17D409DA61"]
 			id: "3D60EA3037B7AC3A"
 			tasks: [{
 				id: "157E5045D9AC8667"
@@ -419,8 +288,10 @@
 			}]
 		}
 		{
-			x: -10.0d
-			y: -7.25d
+			x: -3.5d
+			y: -10.5d
+			shape: "square"
+			dependencies: ["2B6CF6292BFF3F64"]
 			id: "44F3BB91F4F95044"
 			tasks: [{
 				id: "23898107E8855DD9"
@@ -429,8 +300,9 @@
 			}]
 		}
 		{
-			x: 4.75d
-			y: -8.75d
+			x: -9.25d
+			y: -13.25d
+			dependencies: ["15865A4733956F1D"]
 			id: "481A8B96221DBD76"
 			tasks: [{
 				id: "75F86188DF77BC40"
@@ -439,8 +311,15 @@
 			}]
 		}
 		{
-			x: 18.25d
-			y: -8.25d
+			x: -13.25d
+			y: -0.75d
+			shape: "diamond"
+			description: [
+				"&bThe Silk Touch Upgrade&r makes the Destructor use Silk Touch on the blocks that it is breaking."
+				""
+				"By using this upgrade, the amount of FE/t that this device draws will increase."
+			]
+			dependencies: ["41560052D944E372"]
 			id: "38A75E8116400CAE"
 			tasks: [{
 				id: "2E43FCFF76DBB1A4"
@@ -449,8 +328,20 @@
 			}]
 		}
 		{
-			x: 19.25d
-			y: -8.25d
+			x: -14.75d
+			y: -0.75d
+			shape: "diamond"
+			description: [
+				"&bThe Fortune Upgrade&r will make the Destructor use a certain fortune level (depending on which Fortune Upgrade you have) on the block it is breaking."
+				""
+				"This upgrade has 3 versions:"
+				"→ Fortune 1"
+				"→ Fortune 2"
+				"→ Fortune 3"
+				""
+				"By using this upgrade, the amount of FE/t that this device draws will increase."
+			]
+			dependencies: ["41560052D944E372"]
 			id: "6CCE409C41F39DB9"
 			tasks: [{
 				id: "58EDDC2C7CE85DC7"
@@ -459,28 +350,19 @@
 			}]
 		}
 		{
-			x: 20.25d
-			y: -8.25d
-			id: "21D17C968561782F"
-			tasks: [{
-				id: "48FE5D2C4A0695EE"
-				type: "item"
-				item: "refinedstorage:fortune_2_upgrade"
-			}]
-		}
-		{
-			x: 21.25d
-			y: -8.25d
-			id: "68CDB39AA8612E4E"
-			tasks: [{
-				id: "4CC5E507C3C2FAF0"
-				type: "item"
-				item: "refinedstorage:fortune_3_upgrade"
-			}]
-		}
-		{
-			x: 22.25d
-			y: -8.25d
+			x: -14.0d
+			y: -1.0d
+			shape: "diamond"
+			description: [
+				"&bThe Regulator Upgrade&r is an upgrade that can be inserted into an Exporter to keep certain items or fluids in stock in the connected inventory."
+				""
+				"It will try to keep the connected inventory stocked by using items or fluids from the storage network."
+				""
+				"Additionally, the Regulator Upgrade can be combined with a Crafting Upgrade to start autocrafting tasks when the stock from the storage network runs out."
+				""
+				"By using this upgrade, the amount of FE/t that this device draws will increase."
+			]
+			dependencies: ["41560052D944E372"]
 			id: "4394174ED730AB2D"
 			tasks: [{
 				id: "2993E6A23C17E8FF"
@@ -489,8 +371,9 @@
 			}]
 		}
 		{
-			x: -8.75d
-			y: -10.5d
+			x: -4.25d
+			y: -14.5d
+			dependencies: ["41408A17D409DA61"]
 			id: "1B7CC06E7A266337"
 			tasks: [{
 				id: "1D1FD06D820198B9"
@@ -499,18 +382,10 @@
 			}]
 		}
 		{
-			x: -11.0d
-			y: -3.75d
-			id: "2EE830D37E41CD57"
-			tasks: [{
-				id: "260999F035A7C4EE"
-				type: "item"
-				item: "refinedstorage:pattern"
-			}]
-		}
-		{
-			x: -6.0d
-			y: -4.75d
+			x: 1.5d
+			y: -7.0d
+			shape: "octagon"
+			dependencies: ["4A8902E267157E88"]
 			id: "1ED46C0FD075DACE"
 			tasks: [{
 				id: "7E342CF926B8612F"
@@ -519,22 +394,9 @@
 			}]
 		}
 		{
-			x: -12.0d
-			y: -4.75d
-			id: "1EBBFAE597A3A1C6"
-			tasks: [{
-				id: "4223A6A0B63BAD1B"
-				type: "item"
-				item: {
-					id: "refinedstorage:portable_grid"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			x: -8.0d
-			y: -4.75d
+			x: 4.5d
+			y: -8.75d
+			dependencies: ["4A8902E267157E88"]
 			id: "50203C029B75E926"
 			tasks: [{
 				id: "2852D3FD521D4F97"
@@ -543,8 +405,10 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -4.75d
+			icon: "refinedstorage:grid"
+			x: 1.5d
+			y: -8.75d
+			dependencies: ["2B6CF6292BFF3F64"]
 			id: "4A8902E267157E88"
 			tasks: [{
 				id: "0C1A31456DAA144C"
@@ -553,8 +417,11 @@
 			}]
 		}
 		{
-			x: -4.25d
-			y: -7.25d
+			x: -1.25d
+			y: -8.75d
+			shape: "hexagon"
+			dependencies: ["736A21D4029789B6"]
+			size: 2.0d
 			id: "2B6CF6292BFF3F64"
 			tasks: [{
 				id: "6FE642E07AE535F7"
@@ -563,8 +430,10 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 3.5d
+			x: -13.0d
+			y: -4.75d
+			shape: "square"
+			dependencies: ["5361C5E7A1077FEF"]
 			id: "1E694C4BB9C48C2F"
 			tasks: [{
 				id: "176CBA4202031F32"
@@ -573,8 +442,10 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 3.5d
+			x: -13.0d
+			y: -5.75d
+			shape: "square"
+			dependencies: ["5361C5E7A1077FEF"]
 			id: "1911DB79BA781EB9"
 			tasks: [{
 				id: "41A7665E237D413F"
@@ -583,8 +454,10 @@
 			}]
 		}
 		{
-			x: 9.25d
-			y: -8.75d
+			x: -3.5d
+			y: -7.0d
+			shape: "square"
+			dependencies: ["2B6CF6292BFF3F64"]
 			id: "3601ECA661EA8C66"
 			tasks: [{
 				id: "15B1C54CA0840825"
@@ -593,8 +466,10 @@
 			}]
 		}
 		{
-			x: -4.25d
-			y: -2.25d
+			x: -15.0d
+			y: -4.75d
+			shape: "square"
+			dependencies: ["78BED8A761104E8C"]
 			id: "00AD6D48977CFA4F"
 			tasks: [{
 				id: "51F6BFEA992B7E37"
@@ -603,8 +478,10 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -2.25d
+			x: -15.0d
+			y: -5.75d
+			shape: "square"
+			dependencies: ["78BED8A761104E8C"]
 			id: "79E5BAD0CD664CD1"
 			tasks: [{
 				id: "7E6E7E8C12312540"
@@ -613,8 +490,10 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 3.5d
+			x: -12.0d
+			y: -5.75d
+			shape: "square"
+			dependencies: ["5361C5E7A1077FEF"]
 			id: "64AEF34D3FC6DA1C"
 			tasks: [{
 				id: "082F203E4BB0D194"
@@ -623,58 +502,10 @@
 			}]
 		}
 		{
-			x: 17.0d
-			y: 6.5d
-			id: "368D805552EE11DD"
-			tasks: [{
-				id: "1C07CB3EE8A88C42"
-				type: "item"
-				item: "refinedstorage:64k_storage_block"
-			}]
-		}
-		{
-			x: 14.0d
-			y: 2.0d
-			id: "5FDD81DB21672CD1"
-			tasks: [{
-				id: "51E5A04665CA19FF"
-				type: "item"
-				item: "refinedstorage:64k_fluid_storage_block"
-			}]
-		}
-		{
-			x: 15.0d
-			y: 2.0d
-			id: "5C5F8CB28CD27CA6"
-			tasks: [{
-				id: "41EF5099C7616AD5"
-				type: "item"
-				item: "refinedstorage:256k_fluid_storage_block"
-			}]
-		}
-		{
-			x: 16.0d
-			y: 2.0d
-			id: "28E1DD61D9CC66DB"
-			tasks: [{
-				id: "2BB76475F026C988"
-				type: "item"
-				item: "refinedstorage:1024k_fluid_storage_block"
-			}]
-		}
-		{
-			x: 17.0d
-			y: 2.0d
-			id: "3748C17D32F32247"
-			tasks: [{
-				id: "0DF7A47D9606F519"
-				type: "item"
-				item: "refinedstorage:4096k_fluid_storage_block"
-			}]
-		}
-		{
-			x: 1.5d
-			y: 3.5d
+			x: -13.0d
+			y: -3.75d
+			shape: "square"
+			dependencies: ["5361C5E7A1077FEF"]
 			id: "7A1A17B6C4A2F58B"
 			tasks: [{
 				id: "7F3F8BF7825A7CEB"
@@ -683,8 +514,10 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 3.5d
+			x: -14.0d
+			y: -5.75d
+			shape: "square"
+			dependencies: ["5361C5E7A1077FEF"]
 			id: "78BED8A761104E8C"
 			tasks: [{
 				id: "64723A212D809028"
@@ -693,38 +526,14 @@
 			}]
 		}
 		{
-			x: 16.0d
-			y: 6.5d
-			id: "0F96657A9435BAEA"
-			tasks: [{
-				id: "2ABABA8A6AEDEC1B"
-				type: "item"
-				item: "refinedstorage:16k_storage_block"
-			}]
-		}
-		{
-			x: 15.0d
-			y: 6.5d
-			id: "2F8CCFD4CB4ED46F"
-			tasks: [{
-				id: "35C62BE9A839809B"
-				type: "item"
-				item: "refinedstorage:4k_storage_block"
-			}]
-		}
-		{
-			x: 14.0d
-			y: 6.5d
-			id: "6AB642B5EC89A0E9"
-			tasks: [{
-				id: "08B62218B2B65DC1"
-				type: "item"
-				item: "refinedstorage:1k_storage_block"
-			}]
-		}
-		{
-			x: -4.25d
-			y: -3.25d
+			x: -1.25d
+			y: -3.75d
+			shape: "rsquare"
+			dependencies: [
+				"736A21D4029789B6"
+				"2B6CF6292BFF3F64"
+			]
+			size: 1.5d
 			id: "6DBC1BDEBCAD61B0"
 			tasks: [{
 				id: "78CCA9F19E10E4B1"
@@ -733,8 +542,12 @@
 			}]
 		}
 		{
-			x: -7.75d
-			y: 2.0d
+			x: -13.0d
+			y: -8.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["41408A17D409DA61"]
+			size: 1.3d
 			id: "5361C5E7A1077FEF"
 			tasks: [{
 				id: "54C270AB382B8C9E"
@@ -743,47 +556,11 @@
 			}]
 		}
 		{
-			x: -6.75d
-			y: 2.0d
-			id: "6C38759673255184"
-			tasks: [{
-				id: "5CE8C1063E281220"
-				type: "item"
-				item: {
-					id: "refinedstorage:hollow_cover"
-					Count: 1b
-					tag: {
-						Item: {
-							id: "minecraft:stone_bricks"
-							Count: 1b
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: -5.75d
-			y: 2.0d
-			id: "2BEE1BEF6C3CF6F5"
-			tasks: [{
-				id: "16622DE3E0C79D0C"
-				type: "item"
-				item: {
-					id: "refinedstorage:cover"
-					Count: 1b
-					tag: {
-						Item: {
-							id: "minecraft:stone_bricks"
-							Count: 1b
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: -4.25d
-			y: -11.0d
+			x: -1.25d
+			y: -12.75d
 			shape: "octagon"
+			dependencies: ["41408A17D409DA61"]
+			size: 1.5d
 			id: "736A21D4029789B6"
 			tasks: [{
 				id: "42DA39D7F00499F5"
@@ -792,18 +569,30 @@
 			}]
 		}
 		{
-			x: -11.0d
-			y: -4.75d
+			icon: "refinedstorage:pattern_grid"
+			x: -1.25d
+			y: 2.0d
+			shape: "hexagon"
+			dependencies: ["6DBC1BDEBCAD61B0"]
+			size: 1.5d
 			id: "10244EFD9DDFBECB"
-			tasks: [{
-				id: "7F623DF5432E353E"
-				type: "item"
-				item: "refinedstorage:pattern_grid"
-			}]
+			tasks: [
+				{
+					id: "7F623DF5432E353E"
+					type: "item"
+					item: "refinedstorage:pattern_grid"
+				}
+				{
+					id: "1829331DAE61CCCC"
+					type: "item"
+					item: "refinedstorage:pattern"
+				}
+			]
 		}
 		{
-			x: -9.0d
-			y: -4.75d
+			x: 7.5d
+			y: -8.75d
+			dependencies: ["50203C029B75E926"]
 			id: "3116FA76D615D875"
 			tasks: [{
 				id: "71C7B45E2C6BCCC8"
@@ -812,8 +601,10 @@
 			}]
 		}
 		{
-			x: 0.25d
-			y: -1.0d
+			x: -16.0d
+			y: -5.75d
+			shape: "square"
+			dependencies: ["42DA39D7F00499F5"]
 			id: "58163ADA083549AD"
 			tasks: [{
 				id: "030AC6B639935A86"
@@ -822,8 +613,10 @@
 			}]
 		}
 		{
-			x: 1.25d
-			y: -1.0d
+			x: -16.0d
+			y: -4.75d
+			shape: "square"
+			dependencies: ["42DA39D7F00499F5"]
 			id: "5EFF513F14435676"
 			tasks: [{
 				id: "0B4BEA4F57C9D224"
@@ -832,8 +625,10 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: -3.25d
+			x: -4.25d
+			y: -12.75d
+			shape: "octagon"
+			dependencies: ["736A21D4029789B6"]
 			id: "16769299E806906D"
 			tasks: [{
 				id: "2D4DE6339E6EA80C"
@@ -842,8 +637,9 @@
 			}]
 		}
 		{
-			x: -7.75d
-			y: -10.5d
+			x: 1.75d
+			y: -14.5d
+			dependencies: ["41408A17D409DA61"]
 			id: "6D8771AA4E5B9F96"
 			tasks: [{
 				id: "62D5AFCE62BC2DCC"
@@ -852,8 +648,10 @@
 			}]
 		}
 		{
-			x: -9.0d
-			y: -7.25d
+			x: -3.5d
+			y: -8.75d
+			shape: "square"
+			dependencies: ["2B6CF6292BFF3F64"]
 			id: "5CAC39CBAAC5D606"
 			tasks: [{
 				id: "110F999E621A1C2C"
@@ -862,8 +660,9 @@
 			}]
 		}
 		{
-			x: 22.0d
-			y: 1.0d
+			x: -1.25d
+			y: -0.25d
+			dependencies: ["6DBC1BDEBCAD61B0"]
 			id: "7AD4AA4EC0999F9A"
 			tasks: [{
 				id: "271654342D7CD01A"
@@ -872,18 +671,14 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -7.25d
-			id: "16A24D1E0F98415B"
-			tasks: [{
-				id: "7409AFB4F70820B8"
-				type: "item"
-				item: "refinedstorage:wireless_transmitter"
-			}]
-		}
-		{
-			x: -7.0d
-			y: 0.25d
+			x: -1.25d
+			y: 4.25d
+			shape: "square"
+			dependencies: [
+				"10244EFD9DDFBECB"
+				"0E98F609F579C0F9"
+				"4BCA10CE44423A8A"
+			]
 			id: "0E08A1DEE423C8EC"
 			tasks: [{
 				id: "709E60E171BDFA74"
@@ -892,8 +687,10 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -3.25d
+			x: -3.25d
+			y: 2.0d
+			shape: "square"
+			dependencies: ["10244EFD9DDFBECB"]
 			id: "007DBB1D334AA9DD"
 			tasks: [{
 				id: "5E007B4929C1BED2"
@@ -902,8 +699,9 @@
 			}]
 		}
 		{
-			x: -10.0d
-			y: -4.75d
+			x: 10.5d
+			y: -8.75d
+			dependencies: ["3116FA76D615D875"]
 			id: "20AB7B8B0D5C366C"
 			tasks: [{
 				id: "7729B4AEA54BAAE2"
@@ -912,8 +710,10 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -5.75d
+			icon: "refinedstorage:wireless_grid"
+			x: 1.5d
+			y: -10.75d
+			dependencies: ["4A8902E267157E88"]
 			id: "5F1E4590EFFE3B6B"
 			tasks: [{
 				id: "21C488E776BC42C3"
@@ -922,8 +722,9 @@
 			}]
 		}
 		{
-			x: -9.0d
-			y: -5.75d
+			x: 7.5d
+			y: -10.75d
+			dependencies: ["3116FA76D615D875"]
 			id: "6F6A20FF443F40C0"
 			tasks: [{
 				id: "54CE01710B041182"
@@ -932,8 +733,9 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: -5.75d
+			x: 4.5d
+			y: -10.75d
+			dependencies: ["50203C029B75E926"]
 			id: "60DAFFBF0838ADEF"
 			tasks: [{
 				id: "1C9B2FD2BCD90CDD"
@@ -942,8 +744,9 @@
 			}]
 		}
 		{
-			x: -10.0d
-			y: -5.75d
+			x: 10.5d
+			y: -10.75d
+			dependencies: ["20AB7B8B0D5C366C"]
 			id: "2C949D9D5B6FFCAD"
 			tasks: [{
 				id: "4BC5D9DDAC7E7371"
@@ -952,28 +755,36 @@
 			}]
 		}
 		{
-			x: -11.0d
-			y: -2.75d
+			icon: "rslargepatterns:large_pattern_encoder"
+			x: 0.75d
+			y: 2.0d
+			shape: "square"
+			dependencies: ["10244EFD9DDFBECB"]
 			id: "4E3EDCCD8631E4B6"
-			tasks: [{
-				id: "613A93A002A0327A"
-				type: "item"
-				item: "rslargepatterns:large_pattern_encoder"
-			}]
+			tasks: [
+				{
+					id: "613A93A002A0327A"
+					type: "item"
+					item: "rslargepatterns:large_pattern_encoder"
+				}
+				{
+					id: "3A9FCDAFFF3BD475"
+					type: "item"
+					item: "rslargepatterns:large_pattern"
+				}
+			]
 		}
 		{
-			x: -11.0d
-			y: -1.75d
-			id: "391ED165FA272D66"
-			tasks: [{
-				id: "104C1CA8F606D819"
-				type: "item"
-				item: "rslargepatterns:large_pattern"
-			}]
-		}
-		{
-			x: 6.75d
-			y: -8.75d
+			x: -11.75d
+			y: -12.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"3AFCC26C20E99C36"
+				"6C82448C0B294D57"
+				"6067B05CFF4C3A7C"
+				"651B0FF775242456"
+				"42DA39D7F00499F5"
+			]
 			id: "15865A4733956F1D"
 			tasks: [{
 				id: "315208816EEFEA8B"
@@ -988,8 +799,9 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: 3.5d
+			x: 5.75d
+			y: -6.75d
+			dependencies: ["3C9263A8B9322A17"]
 			id: "58B3E8756FDA260B"
 			tasks: [{
 				id: "48BD07FF65207950"
@@ -998,8 +810,9 @@
 			}]
 		}
 		{
-			x: 15.0d
-			y: 3.5d
+			x: 5.75d
+			y: -5.75d
+			dependencies: ["58B3E8756FDA260B"]
 			id: "1CCDDF83CCA202E5"
 			tasks: [{
 				id: "47619ACD4477535D"
@@ -1008,8 +821,9 @@
 			}]
 		}
 		{
-			x: 16.0d
-			y: 3.5d
+			x: 5.75d
+			y: -4.75d
+			dependencies: ["1CCDDF83CCA202E5"]
 			id: "3B0EBD7D45B3A4DC"
 			tasks: [{
 				id: "3667DD105224B3B6"
@@ -1018,8 +832,9 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: -1.0d
+			x: -9.25d
+			y: -6.75d
+			dependencies: ["26FAF9E2A41A0CD1"]
 			id: "00E49B9468513FD2"
 			tasks: [{
 				id: "7EF9EFC397D1F8CC"
@@ -1028,8 +843,9 @@
 			}]
 		}
 		{
-			x: 17.0d
-			y: 3.5d
+			x: 5.75d
+			y: -3.75d
+			dependencies: ["3B0EBD7D45B3A4DC"]
 			id: "4CB9359D414E5BD7"
 			tasks: [{
 				id: "1F3D9C81D397A188"
@@ -1038,8 +854,9 @@
 			}]
 		}
 		{
-			x: 15.0d
-			y: -1.0d
+			x: -9.25d
+			y: -5.75d
+			dependencies: ["00E49B9468513FD2"]
 			id: "12BABD84E5472CFB"
 			tasks: [{
 				id: "4E43E3121123A16F"
@@ -1048,8 +865,9 @@
 			}]
 		}
 		{
-			x: 16.0d
-			y: -1.0d
+			x: -9.25d
+			y: -4.75d
+			dependencies: ["12BABD84E5472CFB"]
 			id: "5495770B359A1400"
 			tasks: [{
 				id: "62FDBF156C8B8C09"
@@ -1058,8 +876,9 @@
 			}]
 		}
 		{
-			x: 17.0d
-			y: -1.0d
+			x: -9.25d
+			y: -3.75d
+			dependencies: ["5495770B359A1400"]
 			id: "0F711C8B7276E896"
 			tasks: [{
 				id: "26F0A7819A5F5E9A"
@@ -1068,8 +887,9 @@
 			}]
 		}
 		{
-			x: 18.0d
-			y: 3.5d
+			x: 5.75d
+			y: -2.75d
+			dependencies: ["4CB9359D414E5BD7"]
 			id: "2808D5799C6FEB43"
 			tasks: [{
 				id: "2AA7CB9BD2C3FB33"
@@ -1078,8 +898,9 @@
 			}]
 		}
 		{
-			x: 19.0d
-			y: 3.5d
+			x: 5.75d
+			y: -1.75d
+			dependencies: ["2808D5799C6FEB43"]
 			id: "6B7ACAA5D0153351"
 			tasks: [{
 				id: "2E8529B704746858"
@@ -1088,8 +909,9 @@
 			}]
 		}
 		{
-			x: 20.0d
-			y: 3.5d
+			x: 5.75d
+			y: -0.75d
+			dependencies: ["6B7ACAA5D0153351"]
 			id: "0D4AE6329599374E"
 			tasks: [{
 				id: "2078B77E14BAB34A"
@@ -1098,8 +920,9 @@
 			}]
 		}
 		{
-			x: 18.0d
-			y: -1.0d
+			x: -9.25d
+			y: -2.75d
+			dependencies: ["0F711C8B7276E896"]
 			id: "7F41F57A78B7FEF1"
 			tasks: [{
 				id: "5BE86AE61A82D2D4"
@@ -1108,8 +931,9 @@
 			}]
 		}
 		{
-			x: 21.0d
-			y: 3.5d
+			x: 5.75d
+			y: 0.25d
+			dependencies: ["0D4AE6329599374E"]
 			id: "5BAFD29F7DDCE5E0"
 			tasks: [{
 				id: "6315D0ED58783087"
@@ -1118,8 +942,9 @@
 			}]
 		}
 		{
-			x: 19.0d
-			y: -1.0d
+			x: -9.25d
+			y: -1.75d
+			dependencies: ["7F41F57A78B7FEF1"]
 			id: "070936B336845AC2"
 			tasks: [{
 				id: "007492E7E439D2B4"
@@ -1128,8 +953,9 @@
 			}]
 		}
 		{
-			x: 20.0d
-			y: -1.0d
+			x: -9.25d
+			y: -0.75d
+			dependencies: ["070936B336845AC2"]
 			id: "4FB93B398B039835"
 			tasks: [{
 				id: "5F2F54445A0FA25B"
@@ -1138,8 +964,9 @@
 			}]
 		}
 		{
-			x: 21.0d
-			y: -1.0d
+			x: -9.25d
+			y: 0.25d
+			dependencies: ["4FB93B398B039835"]
 			id: "58D5D4009D4FE8A1"
 			tasks: [{
 				id: "3684F65DB7ED02DC"
@@ -1148,8 +975,16 @@
 			}]
 		}
 		{
-			x: -11.0d
-			y: 0.25d
+			x: 0.75d
+			y: 4.25d
+			shape: "square"
+			dependencies: [
+				"2587D7FD1E461E79"
+				"01947FD9C0E2783B"
+				"4C32DDB98EFDC15A"
+				"444936B29FBDCB48"
+				"0BC66BB4F4B5D047"
+			]
 			id: "77663F844677B313"
 			tasks: [{
 				id: "537BF8F360161865"
@@ -1158,8 +993,14 @@
 			}]
 		}
 		{
-			x: -10.0d
-			y: 0.25d
+			x: -0.25d
+			y: 5.75d
+			shape: "square"
+			dependencies: [
+				"60E82CF31223EA18"
+				"0596178558C9C0DA"
+				"15770C3D59BEB5DB"
+			]
 			id: "2587D7FD1E461E79"
 			tasks: [{
 				id: "0CDBDC51B66EE830"
@@ -1168,8 +1009,14 @@
 			}]
 		}
 		{
-			x: -9.0d
-			y: 0.25d
+			x: -2.25d
+			y: 5.75d
+			shape: "square"
+			dependencies: [
+				"3CA85459EABDA11E"
+				"5A250FD54B5D5215"
+				"06EE0FAEB74F30B8"
+			]
 			id: "60E82CF31223EA18"
 			tasks: [{
 				id: "7D7223B94E0BC401"
@@ -1178,8 +1025,15 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: 0.25d
+			x: -3.25d
+			y: 4.25d
+			shape: "square"
+			dependencies: [
+				"0E08A1DEE423C8EC"
+				"2B471E4CC0E02DED"
+				"36BADD0803D416FB"
+				"2E333910717E3BB5"
+			]
 			id: "3CA85459EABDA11E"
 			tasks: [{
 				id: "1A568E4C0A9D7E5B"
@@ -1188,18 +1042,10 @@
 			}]
 		}
 		{
-			x: 21.0d
-			y: 2.0d
-			id: "1511EC73F48E9028"
-			tasks: [{
-				id: "2BE470D3E2E57FFA"
-				type: "item"
-				item: "extrastorage:block_1048576k_fluid"
-			}]
-		}
-		{
-			x: -0.5d
-			y: 3.5d
+			x: -12.0d
+			y: -4.75d
+			shape: "square"
+			dependencies: ["64AEF34D3FC6DA1C"]
 			id: "37FF5696D8214A2C"
 			tasks: [{
 				id: "583B5430D6EA3AA8"
@@ -1208,8 +1054,10 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 3.5d
+			x: -14.0d
+			y: -4.75d
+			shape: "square"
+			dependencies: ["78BED8A761104E8C"]
 			id: "56B3EADA5A082325"
 			tasks: [{
 				id: "7A7497306A5E25B6"
@@ -1218,8 +1066,9 @@
 			}]
 		}
 		{
-			x: 5.75d
-			y: -9.75d
+			x: -15.25d
+			y: -16.0d
+			dependencies: ["069C09E2CF788202"]
 			id: "3AFCC26C20E99C36"
 			tasks: [{
 				id: "63066DD97EBB7EEB"
@@ -1228,8 +1077,9 @@
 			}]
 		}
 		{
-			x: 5.75d
-			y: -8.75d
+			x: -10.75d
+			y: -16.0d
+			dependencies: ["15865A4733956F1D"]
 			id: "040BA26E02982BB4"
 			tasks: [{
 				id: "101B74D8D20A51EF"
@@ -1238,8 +1088,9 @@
 			}]
 		}
 		{
-			x: 18.0d
-			y: 4.5d
+			x: 4.75d
+			y: -2.75d
+			dependencies: ["2808D5799C6FEB43"]
 			id: "453C5B1C29C3BA67"
 			tasks: [{
 				id: "7CA0259ADD94E3DA"
@@ -1248,8 +1099,9 @@
 			}]
 		}
 		{
-			x: 19.0d
-			y: 4.5d
+			x: 4.75d
+			y: -1.75d
+			dependencies: ["6B7ACAA5D0153351"]
 			id: "1C06D4F0A5488A94"
 			tasks: [{
 				id: "1BD408970F1F796E"
@@ -1258,8 +1110,9 @@
 			}]
 		}
 		{
-			x: 20.0d
-			y: 4.5d
+			x: 4.75d
+			y: -0.75d
+			dependencies: ["0D4AE6329599374E"]
 			id: "7B03C7844EEEF538"
 			tasks: [{
 				id: "16AEE7EA12EBDAE7"
@@ -1268,8 +1121,9 @@
 			}]
 		}
 		{
-			x: 21.0d
-			y: 4.5d
+			x: 4.75d
+			y: 0.25d
+			dependencies: ["5BAFD29F7DDCE5E0"]
 			id: "4EFC6830B0AFFF08"
 			tasks: [{
 				id: "26604D70A67A5E85"
@@ -1278,8 +1132,9 @@
 			}]
 		}
 		{
-			x: 18.0d
-			y: 0.0d
+			x: -8.25d
+			y: -2.75d
+			dependencies: ["7F41F57A78B7FEF1"]
 			id: "5E5F1E1E0C7BA949"
 			tasks: [{
 				id: "36F290DB56F81356"
@@ -1288,134 +1143,9 @@
 			}]
 		}
 		{
-			x: 19.0d
-			y: 1.0d
-			id: "13226DF2AA4DB038"
-			tasks: [{
-				id: "6581F9D94C11496C"
-				type: "item"
-				item: {
-					id: "extrastorage:disk_65536k_fluid"
-					Count: 1b
-					tag: {
-						ID: [I;
-							-49852786
-							-858699514
-							-2075852273
-							1891265511
-						]
-					}
-				}
-			}]
-		}
-		{
-			x: 18.0d
-			y: 1.0d
-			id: "1E30BFA2AAAB3EFB"
-			tasks: [{
-				id: "2750D726F9F1B56A"
-				type: "item"
-				item: {
-					id: "extrastorage:disk_16384k_fluid"
-					Count: 1b
-					tag: {
-						ID: [I;
-							225138855
-							-1112259403
-							-1746924427
-							-80498127
-						]
-					}
-				}
-			}]
-		}
-		{
-			x: 21.0d
-			y: 5.5d
-			id: "54978DC369A181C7"
-			tasks: [{
-				id: "079978B5BED5FF86"
-				type: "item"
-				item: {
-					id: "extrastorage:disk_16384k"
-					Count: 1b
-					tag: {
-						ID: [I;
-							-49933112
-							1693796864
-							-1181808841
-							761502793
-						]
-					}
-				}
-			}]
-		}
-		{
-			x: 20.0d
-			y: 5.5d
-			id: "21164D7AB9FC5CD8"
-			tasks: [{
-				id: "30764847A367099D"
-				type: "item"
-				item: {
-					id: "extrastorage:disk_4096k"
-					Count: 1b
-					tag: {
-						ID: [I;
-							1192683606
-							1933920562
-							-1683143491
-							403450673
-						]
-					}
-				}
-			}]
-		}
-		{
-			x: 19.0d
-			y: 5.5d
-			id: "15D0F1D793A2EFEA"
-			tasks: [{
-				id: "56CC19D632938553"
-				type: "item"
-				item: {
-					id: "extrastorage:disk_1024k"
-					Count: 1b
-					tag: {
-						ID: [I;
-							509628976
-							-418429720
-							-1407148001
-							64012078
-						]
-					}
-				}
-			}]
-		}
-		{
-			x: 18.0d
-			y: 5.5d
-			id: "02A1F0A7C88557FA"
-			tasks: [{
-				id: "437AF20A5A24D1B1"
-				type: "item"
-				item: {
-					id: "extrastorage:disk_256k"
-					Count: 1b
-					tag: {
-						ID: [I;
-							-560777497
-							-1484698966
-							-1646835831
-							-1022601861
-						]
-					}
-				}
-			}]
-		}
-		{
-			x: 21.0d
-			y: 0.0d
+			x: -8.25d
+			y: 0.25d
+			dependencies: ["58D5D4009D4FE8A1"]
 			id: "5E29ED310932B7E8"
 			tasks: [{
 				id: "15B5287D3283977E"
@@ -1424,8 +1154,9 @@
 			}]
 		}
 		{
-			x: 20.0d
-			y: 0.0d
+			x: -8.25d
+			y: -0.75d
+			dependencies: ["4FB93B398B039835"]
 			id: "6E57C6B63433F3C8"
 			tasks: [{
 				id: "4B9698BBB3701A79"
@@ -1434,8 +1165,9 @@
 			}]
 		}
 		{
-			x: 19.0d
-			y: 0.0d
+			x: -8.25d
+			y: -1.75d
+			dependencies: ["070936B336845AC2"]
 			id: "5E9E508F1D640ED4"
 			tasks: [{
 				id: "6185C6A546741169"
@@ -1444,125 +1176,361 @@
 			}]
 		}
 		{
-			x: 20.0d
-			y: 1.0d
-			id: "2CD515A7E9AA1C4D"
-			tasks: [{
-				id: "0C69C67FB7BA1231"
-				type: "item"
-				item: {
-					id: "extrastorage:disk_262144k_fluid"
-					Count: 1b
-					tag: {
-						ID: [I;
-							-1066233749
-							-1158069427
-							-1959616405
-							-198519875
-						]
-					}
-				}
-			}]
-		}
-		{
-			x: 21.0d
-			y: 1.0d
-			id: "326F5617B598A9C7"
-			tasks: [{
-				id: "3FFDB25C864341B9"
-				type: "item"
-				item: {
-					id: "extrastorage:disk_1048576k_fluid"
-					Count: 1b
-					tag: {
-						ID: [I;
-							-848371132
-							1993557692
-							-1548137640
-							414748198
-						]
-					}
-				}
-			}]
-		}
-		{
-			x: 18.0d
-			y: 6.5d
-			id: "37F04CA5762EFBC2"
-			tasks: [{
-				id: "46385784CFA385BE"
-				type: "item"
-				item: "extrastorage:block_256k"
-			}]
-		}
-		{
-			x: 19.0d
-			y: 6.5d
-			id: "5A3E74476757337F"
-			tasks: [{
-				id: "62E6C9D3C299F3F6"
-				type: "item"
-				item: "extrastorage:block_1024k"
-			}]
-		}
-		{
-			x: 20.0d
-			y: 6.5d
-			id: "6BCA626578A2D0F1"
-			tasks: [{
-				id: "0ACC12AA0EE88A6B"
-				type: "item"
-				item: "extrastorage:block_4096k"
-			}]
-		}
-		{
-			x: 21.0d
-			y: 6.5d
-			id: "5307954630E52CEF"
-			tasks: [{
-				id: "4569FFAE6D0E823F"
-				type: "item"
-				item: "extrastorage:block_16384k"
-			}]
-		}
-		{
-			x: 18.0d
-			y: 2.0d
-			id: "27233B65E7B221BB"
-			tasks: [{
-				id: "5FE750422F49B0C2"
-				type: "item"
-				item: "extrastorage:block_16384k_fluid"
-			}]
-		}
-		{
-			x: 19.0d
-			y: 2.0d
-			id: "2E203D4C93C11D9D"
-			tasks: [{
-				id: "0DFD2D81B3E5B817"
-				type: "item"
-				item: "extrastorage:block_65536k_fluid"
-			}]
-		}
-		{
-			x: 20.0d
-			y: 2.0d
-			id: "7982171B7C6189D7"
-			tasks: [{
-				id: "0A72B3E50D2632E8"
-				type: "item"
-				item: "extrastorage:block_262144k_fluid"
-			}]
-		}
-		{
-			x: 1.75d
-			y: -8.75d
+			x: -13.75d
+			y: -12.5d
+			dependencies: [
+				"134355C7D75FC7F3"
+				"3AFCC26C20E99C36"
+				"6C82448C0B294D57"
+				"6067B05CFF4C3A7C"
+				"651B0FF775242456"
+			]
+			dependency_requirement: "one_completed"
 			id: "5C7AB3AA250737D1"
 			tasks: [{
 				id: "545578B269D50265"
 				type: "item"
 				item: "emendatusenigmatica:silicon_gem"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.75d
+			shape: "hexagon"
+			dependencies: [
+				"613F07C10A246A8F"
+				"5B1B12BA2F3776F7"
+				"41BA023162D0338B"
+				"73243352BB4BB00F"
+				"5E5F1E1E0C7BA949"
+				"5E9E508F1D640ED4"
+				"6E57C6B63433F3C8"
+				"5E29ED310932B7E8"
+			]
+			dependency_requirement: "one_completed"
+			size: 1.5d
+			id: "2B59D9C95CC1111F"
+			tasks: [{
+				id: "3931776CC389A7EB"
+				type: "item"
+				title: "Fluid Storage Disk"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "refinedstorage:64k_fluid_storage_disk"
+								Count: 1b
+								tag: {
+									Id: [I;
+										-1507938803
+										1682263026
+										-1827543564
+										-1312917083
+									]
+								}
+							}
+							{
+								id: "refinedstorage:256k_fluid_storage_disk"
+								Count: 1b
+								tag: {
+									Id: [I;
+										1888706750
+										-1962062773
+										-2086472004
+										793192038
+									]
+								}
+							}
+							{
+								id: "refinedstorage:1024k_fluid_storage_disk"
+								Count: 1b
+								tag: {
+									Id: [I;
+										-1749169968
+										-434026786
+										-1868251862
+										-909638930
+									]
+								}
+							}
+							{
+								id: "refinedstorage:4096k_fluid_storage_disk"
+								Count: 1b
+								tag: {
+									Id: [I;
+										1779120324
+										1835616906
+										-2029247521
+										668010665
+									]
+								}
+							}
+							{
+								id: "extrastorage:disk_16384k_fluid"
+								Count: 1b
+								tag: {
+									ID: [I;
+										-237064090
+										-1308275849
+										-1734882859
+										1650988325
+									]
+								}
+							}
+							{
+								id: "extrastorage:disk_65536k_fluid"
+								Count: 1b
+								tag: {
+									ID: [I;
+										1669776343
+										1677084193
+										-1522219879
+										1692256455
+									]
+								}
+							}
+							{
+								id: "extrastorage:disk_262144k_fluid"
+								Count: 1b
+								tag: {
+									ID: [I;
+										1099659224
+										-968603502
+										-1839603585
+										-1133840612
+									]
+								}
+							}
+							{
+								id: "extrastorage:disk_1048576k_fluid"
+								Count: 1b
+								tag: {
+									ID: [I;
+										1471275332
+										1562201717
+										-1579518343
+										-61599282
+									]
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 13.25d
+			y: -10.75d
+			dependencies: [
+				"5F1E4590EFFE3B6B"
+				"60DAFFBF0838ADEF"
+				"6F6A20FF443F40C0"
+			]
+			id: "564766B68FB5B787"
+			tasks: [{
+				id: "2F7B892D89AED54C"
+				type: "item"
+				item: "universalgrid:wireless_universal_grid"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -12.5d
+			shape: "rsquare"
+			dependencies: [
+				"2C949D9D5B6FFCAD"
+				"6F6A20FF443F40C0"
+				"60DAFFBF0838ADEF"
+				"5F1E4590EFFE3B6B"
+			]
+			dependency_requirement: "one_completed"
+			id: "14AF3CD480D5A251"
+			tasks: [{
+				id: "4D88C7AA958420B3"
+				type: "item"
+				item: "refinedstorage:wireless_transmitter"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -6.75d
+			shape: "square"
+			dependencies: ["5361C5E7A1077FEF"]
+			id: "1450F8FD58EBC92B"
+			tasks: [{
+				id: "32FE1CE87CD6DE8D"
+				type: "item"
+				title: "Cover"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "refinedstorage:cover"
+								Count: 1b
+								tag: {
+									Item: {
+										id: "minecraft:stone_bricks"
+										Count: 1b
+									}
+								}
+							}
+							{
+								id: "refinedstorage:hollow_cover"
+								Count: 1b
+								tag: {
+									Item: {
+										id: "minecraft:stone_bricks"
+										Count: 1b
+									}
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Storage Disk"
+			x: 2.0d
+			y: -3.75d
+			shape: "hexagon"
+			dependencies: [
+				"5C4597DC0FB5DEFA"
+				"3A6E14232E48AC5D"
+				"6EE7101D8533924B"
+				"1157865BF5EF54A2"
+				"453C5B1C29C3BA67"
+				"1C06D4F0A5488A94"
+				"7B03C7844EEEF538"
+				"4EFC6830B0AFFF08"
+			]
+			dependency_requirement: "one_completed"
+			size: 1.5d
+			id: "6E9F66FCA1140A81"
+			tasks: [{
+				id: "1EE8574BFDC913B3"
+				type: "item"
+				title: "Storage Disk"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "refinedstorage:1k_storage_disk"
+								Count: 1b
+								tag: {
+									Id: [I;
+										1511862274
+										-2126168033
+										-1680434206
+										1862416331
+									]
+								}
+							}
+							{
+								id: "refinedstorage:4k_storage_disk"
+								Count: 1b
+								tag: {
+									Id: [I;
+										1947424831
+										1098531358
+										-1623183514
+										-2122454243
+									]
+								}
+							}
+							{
+								id: "refinedstorage:16k_storage_disk"
+								Count: 1b
+								tag: {
+									Id: [I;
+										836004508
+										-1706734597
+										-1533273793
+										1342691814
+									]
+								}
+							}
+							{
+								id: "refinedstorage:64k_storage_disk"
+								Count: 1b
+								tag: {
+									Id: [I;
+										204275092
+										2087077366
+										-1721302381
+										382417672
+									]
+								}
+							}
+							{
+								id: "extrastorage:disk_256k"
+								Count: 1b
+								tag: {
+									ID: [I;
+										1673016573
+										-557235630
+										-1459622669
+										955906421
+									]
+								}
+							}
+							{
+								id: "extrastorage:disk_1024k"
+								Count: 1b
+								tag: {
+									ID: [I;
+										-1243181844
+										-1809365638
+										-2043385669
+										-1116259925
+									]
+								}
+							}
+							{
+								id: "extrastorage:disk_4096k"
+								Count: 1b
+								tag: {
+									ID: [I;
+										-704843602
+										-1179303777
+										-1080049280
+										824832826
+									]
+								}
+							}
+							{
+								id: "extrastorage:disk_16384k"
+								Count: 1b
+								tag: {
+									ID: [I;
+										1474992371
+										-1320727402
+										-1519879551
+										-816724770
+									]
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -14.0d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["41560052D944E372"]
+			id: "6CF56E109FEF8065"
+			tasks: [{
+				id: "711CBF21173902CF"
+				type: "item"
+				item: "rsinfinitybooster:infinity_card"
 			}]
 		}
 	]

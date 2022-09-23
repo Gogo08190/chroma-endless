@@ -1907,5 +1907,240 @@
 				item: "xnet:netcable_routing"
 			}]
 		}
+		{
+			title: "Steel Casing"
+			icon: "mekanism:steel_casing"
+			x: -20.25d
+			y: -7.5d
+			dependencies: [
+				"677773349FE468C2"
+				"61DE66EC5C066250"
+				"7B9FBBCD2F962A0B"
+				"3D1D2227EF54E1F3"
+			]
+			id: "1F22F5BF3BD21A03"
+			tasks: [
+				{
+					id: "7CF44CC7A391A845"
+					type: "item"
+					item: "pneumaticcraft:transistor"
+					count: 2L
+				}
+				{
+					id: "2511F3DF1883410F"
+					type: "item"
+					item: "emendatusenigmatica:steel_block"
+					count: 2L
+				}
+				{
+					id: "7A09D1E92D3DAF4A"
+					type: "item"
+					item: "createdeco:netherite_sheet"
+					count: 2L
+				}
+				{
+					id: "3A4E4D4F5592CA90"
+					type: "item"
+					item: "thermal:machine_frame"
+				}
+				{
+					id: "17D77DD53982E986"
+					type: "item"
+					item: "mekanism:steel_casing"
+				}
+			]
+		}
+		{
+			icon: "mekanism:precision_sawmill"
+			x: -21.75d
+			y: -6.5d
+			id: "24E769412A5B4860"
+			tasks: [{
+				id: "6576DB25F2FC903B"
+				type: "item"
+				item: "mekanism:precision_sawmill"
+			}]
+		}
+		{
+			icon: "mekanism:combiner"
+			x: -21.75d
+			y: -8.5d
+			id: "03B72046B74AB0F7"
+			tasks: [{
+				id: "44FAD95C4B9A216D"
+				type: "item"
+				item: "mekanism:combiner"
+			}]
+		}
+		{
+			icon: "mekanism:crusher"
+			x: -21.0d
+			y: -6.0d
+			id: "2C7CADFB5A4D08E3"
+			tasks: [{
+				id: "5EE3626AC233C672"
+				type: "item"
+				item: "mekanism:crusher"
+			}]
+		}
+		{
+			icon: "mekanism:energized_smelter"
+			x: -21.0d
+			y: -9.0d
+			id: "1D7F8B5ABF753007"
+			tasks: [{
+				id: "3DD5F50BC5B3A8AE"
+				type: "item"
+				item: "mekanism:energized_smelter"
+			}]
+		}
+		{
+			icon: "mekanism:metallurgic_infuser"
+			x: -21.5d
+			y: -7.5d
+			id: "6F350477334C0544"
+			tasks: [{
+				id: "636F91D5DCF1BF51"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+		}
+		{
+			icon: "mekanism:osmium_compressor"
+			x: -24.25d
+			y: -8.5d
+			id: "35E8974B479C476A"
+			tasks: [{
+				id: "0FCEE66F9CD98AB6"
+				type: "item"
+				item: "mekanism:osmium_compressor"
+			}]
+		}
+		{
+			icon: "mekanism:purification_chamber"
+			x: -27.0d
+			y: -7.25d
+			id: "1162CCBEF5DB123C"
+			tasks: [{
+				id: "75BB41E9539EA63C"
+				type: "item"
+				item: "mekanism:purification_chamber"
+			}]
+		}
+		{
+			icon: "mekanism:enrichment_chamber"
+			x: -26.0d
+			y: -7.25d
+			dependencies: ["6A4A1C5F2959DCD1"]
+			id: "74914E0061FE4252"
+			tasks: [{
+				id: "09D2260DB5C5F80F"
+				type: "item"
+				item: "mekanism:enrichment_chamber"
+			}]
+		}
+		{
+			icon: "mekanism:chemical_injection_chamber"
+			x: -28.0d
+			y: -7.25d
+			id: "4CC7D2B0639866A2"
+			tasks: [{
+				id: "1A5DE10CCCEE3D2B"
+				type: "item"
+				item: "mekanism:chemical_injection_chamber"
+			}]
+		}
+		{
+			x: -24.75d
+			y: -10.25d
+			id: "40C970572379006E"
+			tasks: [{
+				id: "2C88F2B60CE55542"
+				type: "item"
+				item: "mekanism:basic_chemical_tank"
+			}]
+		}
+		{
+			x: -23.5d
+			y: -11.0d
+			id: "3C084802A24F44D7"
+			tasks: [{
+				id: "03265861436733A7"
+				type: "item"
+				item: "mekanism:basic_fluid_tank"
+			}]
+		}
+		{
+			x: -22.5d
+			y: -7.5d
+			id: "53D16A4797B86BA1"
+			tasks: [{
+				id: "26FAF9E2A41A0CD1"
+				type: "item"
+				item: "mekanism:alloy_infused"
+			}]
+		}
+		{
+			title: "First impression with drones"
+			x: -15.5d
+			y: 10.5d
+			subtitle: "Programming 101"
+			description: ["To use drones you first need a drone, a programmer and somme puzzle pieces. Place and right click onto the programmer, you'll be greeted with an interface. I'll try to explain most of it but just know for now that it's just like the Scratch programming language."]
+			dependencies: [
+				"6DF3EF704B97047E"
+				"64051736858F3248"
+				"0884F45EDA226387"
+			]
+			dependency_requirement: "all_started"
+			id: "37ABB320CA809E91"
+			tasks: [{
+				id: "722E9E25E9746CB3"
+				type: "checkmark"
+				title: "Using Drones"
+			}]
+		}
+		{
+			title: "Some Basics"
+			x: -17.0d
+			y: 10.5d
+			subtitle: "How boi is this complicated"
+			description: [
+				"On the interface you have three important parts that you'll use throughout making your program. "
+				""
+				"First one is at the top right, this is where you will put your drone, the export arrow is for exporting your program and the import arrow for importing the program stored inside the drone."
+				""
+				"Second one is the middle area, this is where you will put every action you'r drone is going to make. You can zoom out and in with the mouse wheel or sidebar and drag click to move around."
+				""
+				"Lastly and most importantly, the area on the right. First try and hit the \"TAB\" key to open up the menu with all the pieces. Those pieces are the pieces used to make the drones action, you will put them in the middle area. Be aware of the output of those pieces, as you can observe some have different shape and just like when you are little you can't put a square on a triangle."
+				""
+				"(For people that want more complex program, at the bottom left there are three modes each having more pieces than the precedent)"
+			]
+			dependencies: ["37ABB320CA809E91"]
+			id: "37CF7DD738BEB7C7"
+			tasks: [{
+				id: "0736BCFC1E92257D"
+				type: "checkmark"
+				title: "Some basics."
+			}]
+		}
+		{
+			x: -18.5d
+			y: 10.5d
+			subtitle: "Your turn now !"
+			description: [
+				"You might have seen that there is more than one drone. The first one \"Drone\" is fully customizable but requires you to make a full program to work. Whilst the others work without one but aren't as customizable."
+				""
+				"On a side note, drones can be used as a replacement for most if not all of the automation you know of."
+				""
+				"Now go on little one : Fly !"
+			]
+			dependencies: ["37CF7DD738BEB7C7"]
+			id: "050B2EA343C02DFC"
+			tasks: [{
+				id: "6E0FB6D7E365FDF5"
+				type: "checkmark"
+				title: "Some Precisions"
+			}]
+		}
 	]
 }

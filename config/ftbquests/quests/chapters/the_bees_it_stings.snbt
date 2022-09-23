@@ -47,8 +47,8 @@
 	]
 	quests: [
 		{
-			x: -1.5d
-			y: -0.75d
+			x: -5.0d
+			y: -3.5d
 			id: "4F1FF637F2757831"
 			tasks: [{
 				id: "3A6A3315EA78325A"
@@ -59,7 +59,7 @@
 		{
 			title: "Overworld Bee Nest"
 			icon: "resourcefulbees:bee_nest"
-			x: -4.0d
+			x: -5.0d
 			y: -2.0d
 			id: "785F2CDE1802DE93"
 			tasks: [
@@ -118,7 +118,7 @@
 		{
 			title: "End Bee Nest"
 			icon: "resourcefulbees:purpur_bee_nest"
-			x: -3.0d
+			x: -4.0d
 			y: -2.0d
 			id: "060649A06C4ED8C4"
 			tasks: [{
@@ -130,7 +130,7 @@
 		{
 			title: "Nether Bee Nest"
 			icon: "resourcefulbees:nether_bee_nest"
-			x: -2.0d
+			x: -3.0d
 			y: -2.0d
 			id: "48AC7DE7D7FA594A"
 			tasks: [
@@ -183,7 +183,7 @@
 			}]
 		}
 		{
-			x: -2.75d
+			x: -3.0d
 			y: -3.5d
 			id: "0FE303BC86E6C808"
 			tasks: [{
@@ -439,6 +439,86 @@
 				id: "13E7146F26CD7278"
 				type: "item"
 				item: "resourcefulbees:apiary_breed_time_upgrade"
+			}]
+		}
+		{
+			x: -6.25d
+			y: -9.25d
+			id: "11965D0D09236C19"
+			tasks: [{
+				id: "12B6D1BE2C80EE20"
+				type: "item"
+				item: "resourcefulbees:t1_beehive"
+			}]
+		}
+		{
+			x: -5.25d
+			y: -9.25d
+			id: "22139799660D34DD"
+			tasks: [{
+				id: "31A721BF58DA5B55"
+				type: "item"
+				item: "resourcefulbees:t2_beehive"
+			}]
+		}
+		{
+			x: -4.25d
+			y: -9.25d
+			id: "6894990590FEF161"
+			tasks: [{
+				id: "1B8B454680D2AC42"
+				type: "item"
+				item: "resourcefulbees:t3_beehive"
+			}]
+		}
+		{
+			x: -3.25d
+			y: -9.25d
+			id: "3C8A8700FBCFE73D"
+			tasks: [{
+				id: "53584967620A70BF"
+				type: "item"
+				item: "resourcefulbees:t4_beehive"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -9.25d
+			id: "5F7FB82489504D73"
+			tasks: [{
+				id: "66CB059C6FAA1F3F"
+				type: "item"
+				item: "resourcefulbees:t1_apiary"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -9.25d
+			id: "21B3F64BC42AF1EF"
+			tasks: [{
+				id: "09D3AF3CD920D14F"
+				type: "item"
+				item: "resourcefulbees:t2_apiary"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -9.25d
+			id: "5F885DED79DA359E"
+			tasks: [{
+				id: "346D893C413625DE"
+				type: "item"
+				item: "resourcefulbees:t3_apiary"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -9.25d
+			id: "27EF9E9C19C26C77"
+			tasks: [{
+				id: "60C071566428F9EC"
+				type: "item"
+				item: "resourcefulbees:t4_apiary"
 			}]
 		}
 	]

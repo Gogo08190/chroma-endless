@@ -10,8 +10,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -9.0d
-			y: 2.5d
+			x: -7.25d
+			y: 5.25d
 			subtitle: "Improved Extracting"
 			description: [
 				"The &5Improved Extractor&r is an advanced version of the &3Extractor&r. It extract &2elements&r faster."
@@ -26,14 +26,13 @@
 			}]
 		}
 		{
-			x: -9.0d
-			y: 3.75d
+			x: -7.25d
+			y: 4.0d
 			subtitle: "Extracting from Elemental orbs"
 			description: [
 				"Use an &5Extractor&r to extract &2elements&r from &3sources&r."
 				"To do so, place the &5Extractor&r above a &3Container&r and below the &3source&r you want to extract."
 			]
-			hide_dependency_lines: true
 			dependencies: ["5269FB3852203971"]
 			id: "42794F7270EC5336"
 			tasks: [{
@@ -44,9 +43,9 @@
 		}
 		{
 			title: "Element Holders"
-			x: -7.25d
-			y: 3.75d
-			subtitle: "Moving Elements"
+			x: -8.75d
+			y: 3.25d
+			subtitle: "Storing Elements"
 			description: ["&5Element Holders&r can hold &2elements&r, for transport or for use by &2spells&r. To fill them hold right-click on a &3source&r of the same &2element&r type. You can also transfer &2element&r back to a receiver by holding right-click on it."]
 			dependencies: [
 				"61363AAF911F665B"
@@ -176,7 +175,7 @@
 		}
 		{
 			x: -7.25d
-			y: 2.5d
+			y: 2.75d
 			subtitle: "Not compatible with all instruments"
 			description: [
 				"The &5Small Element Container&r is a simple &2element&r storage for providing &2elements&r to &2instruments&r."
@@ -492,8 +491,8 @@
 			}]
 		}
 		{
-			x: -0.25d
-			y: 4.75d
+			x: 2.5d
+			y: 4.0d
 			subtitle: "Your Ingame Wiki"
 			description: ["Everything you need to know about the &6&lElementalCraft&r mod."]
 			dependencies: ["148AC206C02F9761"]
@@ -512,8 +511,8 @@
 		}
 		{
 			title: "Raw Elements Shards"
-			x: 0.75d
-			y: 4.25d
+			x: 4.0d
+			y: 4.0d
 			subtitle: "Can be dropped on mobs "
 			dependencies: ["190E6A8147CD1EC5"]
 			id: "53B53495DEA95E9B"
@@ -549,8 +548,8 @@
 					Icon: "elementalcraft:textures/particle/source.png"
 				}
 			}
-			x: -1.25d
-			y: 4.25d
+			x: 2.5d
+			y: 5.5d
 			subtitle: "Natural Power"
 			description: [
 				"Trough your adventure you will find some &0Elemental Sources&r."
@@ -581,8 +580,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -1.75d
+			x: -2.25d
+			y: 0.5d
 			subtitle: "Faster !"
 			description: ["The &5Improved Element Binder&r works like a &3Binder&r and &3Infuser&r meaning it can do either binding or infusion at a faster rate. As for any other &2Instruments&r, the &5Improved Binder&r needs to be on top of a &3Container&r but not a &3Small Container&r."]
 			dependencies: ["552D81EF1814A4DD"]
@@ -594,8 +593,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -0.75d
+			x: -1.0d
+			y: 2.0d
 			subtitle: "Binding elements to items"
 			description: ["The &5Binder&r is one of the most important &2Instrument&r. It channels elements to combine multiples items together. Be careful because the order is which you put the items is really important, you need to put them clockwise from the top. As for any other &2Instruments&r, the &5Binder&r needs to be on top of a &3Container&r, but not a &3Small Container&r."]
 			dependencies: ["5269FB3852203971"]
@@ -607,8 +606,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -0.75d
+			x: 1.0d
+			y: 2.0d
 			subtitle: "Elemental Tank"
 			description: ["The &5Element Container&r is an &2element&r storage, containing more &2elements&r than the &3Small Container&r, and it is compatible with all &2instruments&r."]
 			dependencies: ["5269FB3852203971"]
@@ -621,8 +620,8 @@
 		}
 		{
 			title: "Creating Runes"
-			x: 0.5d
-			y: 0.0d
+			x: 2.5d
+			y: 2.75d
 			subtitle: "Carving White Rocks"
 			description: ["The &5Rune Inscriber&r is used to create Runes. At the difference of other &2instruments&r it needs to be right-clicked multiple times with a &5Rune Inscription Chisel&r to operate."]
 			dependencies: [
@@ -668,8 +667,8 @@
 			]
 		}
 		{
-			x: -0.5d
-			y: -2.75d
+			x: 0.0d
+			y: 0.25d
 			subtitle: "Infused by Air"
 			description: ["Use the &2Element Binder&r to create this ingot ! It consumes &eAir&r!"]
 			dependencies: [
@@ -684,34 +683,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -2.75d
-			subtitle: "Swift Alloy Production "
-			description: ["Use the &2Element Binder&r to create this bee ! It consumes &bWater&r!"]
-			dependencies: [
-				"33958A09FB7E36BE"
-				"552D81EF1814A4DD"
-			]
-			id: "726F3BE94EA2965E"
-			tasks: [{
-				id: "4DE89C564DAAEFB1"
-				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:swift_alloy_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.swift_alloy_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#f1c57c"
-					}
-				}
-			}]
-		}
-		{
 			x: -3.75d
-			y: 0.0d
+			y: 0.25d
 			subtitle: "The Best Element Pipe"
 			dependencies: [
 				"5269FB3852203971"
@@ -726,7 +699,7 @@
 		}
 		{
 			x: -3.75d
-			y: 1.25d
+			y: 1.5d
 			subtitle: "A better Element Pipe"
 			dependencies: [
 				"5269FB3852203971"
@@ -741,7 +714,7 @@
 		}
 		{
 			x: -3.75d
-			y: 2.5d
+			y: 2.75d
 			subtitle: "Your First Element Pipe"
 			description: [
 				"&5Pipes&r are used to transport &2elements&r across distances. Their main use is to provide &2instruments&r with the required &2element&r. You can configure a &5pipe&r by right-clicking a section or the core to change it from :"
@@ -759,8 +732,8 @@
 			}]
 		}
 		{
-			x: -5.25d
-			y: 1.25d
+			x: -5.0d
+			y: 1.5d
 			subtitle: "Hiding Pipes"
 			description: [
 				"The &5pipe cover frame&r allows you to hide a &3pipe&r behind a block. Use it on a pipe (preferably while sneaking) then right click it with the block you want to hide it behind."
@@ -779,8 +752,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 1.25d
+			x: -3.75d
+			y: 4.0d
 			shape: "diamond"
 			subtitle: "A worthy Trade"
 			description: ["Thanks to &2The Alfeihm&r you'll get the &6Contained Crystal&r used for multiple crafting."]
@@ -793,8 +766,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 2.5d
+			x: 0.0d
+			y: 2.0d
 			dependencies: ["5269FB3852203971"]
 			id: "22BE141241096122"
 			tasks: [{
@@ -804,8 +777,8 @@
 			}]
 		}
 		{
-			x: 6.75d
-			y: 0.0d
+			x: 6.5d
+			y: 0.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"4431A21A852F98FA"
@@ -826,149 +799,9 @@
 			}]
 		}
 		{
-			x: 6.25d
-			y: -1.25d
-			hide_dependency_lines: true
-			dependencies: [
-				"4431A21A852F98FA"
-				"343F169E9B91EC9B"
-				"61D352299B41DBB0"
-				"717F8022297E00D2"
-				"42B4D74321A27197"
-			]
-			id: "3E15FF18B52B7D91"
-			tasks: [{
-				id: "0A9642B19EFF904A"
-				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:regalium_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.regalium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#f6dd9b"
-					}
-				}
-			}]
-		}
-		{
-			x: 7.25d
-			y: -1.25d
-			hide_dependency_lines: true
-			dependencies: [
-				"4431A21A852F98FA"
-				"343F169E9B91EC9B"
-				"61D352299B41DBB0"
-				"717F8022297E00D2"
-				"42B4D74321A27197"
-			]
-			id: "0A45CF74DAB86179"
-			tasks: [{
-				id: "36FE55A758616DFA"
-				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:froststeel_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.froststeel_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#8aadcf"
-					}
-				}
-			}]
-		}
-		{
-			x: 8.0d
-			y: -2.0d
-			hide_dependency_lines: true
-			dependencies: [
-				"4431A21A852F98FA"
-				"343F169E9B91EC9B"
-				"61D352299B41DBB0"
-				"717F8022297E00D2"
-				"42B4D74321A27197"
-			]
-			id: "235AFFF591D04046"
-			tasks: [{
-				id: "5A2EB01FA5E96AA3"
-				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:cloggrum_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.cloggrum_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#ba9d7b"
-					}
-				}
-			}]
-		}
-		{
-			x: 8.75d
-			y: -1.25d
-			hide_dependency_lines: true
-			dependencies: [
-				"4431A21A852F98FA"
-				"343F169E9B91EC9B"
-				"61D352299B41DBB0"
-				"717F8022297E00D2"
-				"42B4D74321A27197"
-			]
-			id: "380FEA433065B183"
-			tasks: [{
-				id: "09FE79FC9B995FA7"
-				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:utherium_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.utherium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#d76559"
-					}
-				}
-			}]
-		}
-		{
-			x: 9.75d
-			y: -1.25d
-			hide_dependency_lines: true
-			dependencies: [
-				"4431A21A852F98FA"
-				"343F169E9B91EC9B"
-				"61D352299B41DBB0"
-				"717F8022297E00D2"
-				"42B4D74321A27197"
-			]
-			id: "6D92B8B6A17E35EC"
-			tasks: [{
-				id: "1629FB3F9919389B"
-				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:forgotten_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.forgotten_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#57e3b3"
-					}
-				}
-			}]
-		}
-		{
 			icon: "undergarden:catalyst"
-			x: 8.01190476190476d
-			y: 0.6500000000000057d
+			x: 7.761904761904759d
+			y: 1.1500000000000057d
 			shape: "gear"
 			description: ["{image:chroma:textures/quests/catalyst.png width:165 height:100 align:1}"]
 			hide_dependency_lines: true
@@ -988,8 +821,8 @@
 			}]
 		}
 		{
-			x: 9.25d
-			y: 0.0d
+			x: 9.0d
+			y: 0.5d
 			subtitle: "Afrit Boss"
 			description: [
 				"In order to spawn this new &cboss&r, you shall assemble the four elements of &0&ldarkness&r."
@@ -1012,8 +845,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -4.25d
+			x: 6.25d
+			y: -0.75d
 			dependencies: ["606CA9708A9AC7FC"]
 			id: "3CBC159D69603814"
 			tasks: [{
@@ -1023,8 +856,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -3.75d
+			x: 7.25d
+			y: -0.25d
 			dependencies: ["606CA9708A9AC7FC"]
 			id: "4D028441C24B4A1A"
 			tasks: [{
@@ -1034,8 +867,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -3.75d
+			x: 8.25d
+			y: -0.25d
 			dependencies: ["606CA9708A9AC7FC"]
 			id: "741EEFF078CCEE44"
 			tasks: [{
@@ -1045,8 +878,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -4.25d
+			x: 9.25d
+			y: -0.75d
 			dependencies: ["606CA9708A9AC7FC"]
 			id: "7D5B1F21662A6ACD"
 			tasks: [{
@@ -1056,8 +889,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -6.75d
+			x: 9.25d
+			y: -3.25d
 			shape: "gear"
 			subtitle: "Dragon's Anger"
 			dependencies: ["7BD2D6B517F906ED"]
@@ -1069,8 +902,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -6.75d
+			x: 8.25d
+			y: -3.25d
 			shape: "gear"
 			subtitle: "Dwarf's Exploring"
 			dependencies: ["7BD2D6B517F906ED"]
@@ -1082,8 +915,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -6.75d
+			x: 7.25d
+			y: -3.25d
 			shape: "gear"
 			subtitle: "Avatar's Peace"
 			dependencies: ["7BD2D6B517F906ED"]
@@ -1095,8 +928,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -6.75d
+			x: 6.25d
+			y: -3.25d
 			shape: "gear"
 			subtitle: "Aquaman's Wrath"
 			dependencies: ["7BD2D6B517F906ED"]
@@ -1108,8 +941,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -8.5d
+			x: 7.75d
+			y: -5.0d
 			shape: "diamond"
 			subtitle: "Resulting From The Pure Infuser"
 			description: ["Welcome to a new tier of needed ingredient in order to progress through &6&lElementalCraft&r."]
@@ -1129,8 +962,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -9.75d
+			x: 6.75d
+			y: -6.25d
 			subtitle: "&cFireite&r production"
 			dependencies: ["7BD2D6B517F906ED"]
 			id: "425E218F59F2A24B"
@@ -1151,8 +984,8 @@
 			}]
 		}
 		{
-			x: -0.25d
-			y: -8.5d
+			x: 5.5d
+			y: -5.0d
 			description: [
 				"The &5Purifier&r takes &5ores&r and purify them to create &5Pure Ores&r at a ration of one to two. You can get them smelt into ingots using any &5Furnaces&r."
 				"As for any other &2Instruments&r, the &5Ore Purifier&r needs to be on top of a &3Container&r but not a &3Small Container&r."
@@ -1166,8 +999,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -9.75d
+			x: 8.75d
+			y: -6.25d
 			subtitle: "Netherite? Nope !"
 			dependencies: ["7BD2D6B517F906ED"]
 			id: "7260BE309AD6DF62"
@@ -1178,8 +1011,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -11.0d
+			x: 8.75d
+			y: -7.5d
 			subtitle: "The 4 Fantastics"
 			description: ["Combine the holy power of nature ! "]
 			dependencies: ["7260BE309AD6DF62"]
@@ -1191,8 +1024,8 @@
 			}]
 		}
 		{
-			x: 4.25d
-			y: -11.0d
+			x: 10.0d
+			y: -7.5d
 			subtitle: "Elemental Master"
 			description: ["The &6Pure Element Holder&r acts like the normal &6Element Holder&r but can hold the 4 Elements."]
 			dependencies: ["70CDDDD6961ED529"]
@@ -1215,8 +1048,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -8.5d
+			x: 9.75d
+			y: -5.0d
 			subtitle: "Moving Sources"
 			description: ["&5Receptacles&r are power tools that allow you to move &3source&r. You can pick u pand place back &3source&r into the world using right-click."]
 			dependencies: ["7BD2D6B517F906ED"]
@@ -1234,8 +1067,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: -9.25d
+			x: 10.75d
+			y: -5.75d
 			subtitle: "More Durability !"
 			description: [
 				"Acts like the previous &2receptacle&r but has more durability to move more &3sources&r."
@@ -1256,8 +1089,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: -3.5d
+			x: 3.5d
+			y: -2.75d
 			subtitle: "It might burn"
 			dependencies: ["42310EAE3A06F15E"]
 			id: "717F8022297E00D2"
@@ -1268,8 +1101,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -3.5d
+			x: 2.5d
+			y: -2.75d
 			subtitle: "Grass not included"
 			dependencies: ["1F1890B436E5414D"]
 			id: "61D352299B41DBB0"
@@ -1280,8 +1113,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -3.25d
+			x: 1.5d
+			y: -2.5d
 			shape: "hexagon"
 			subtitle: "A new way of using Elements"
 			description: [
@@ -1297,8 +1130,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: -3.5d
+			x: 0.5d
+			y: -2.75d
 			subtitle: "Lighter than air"
 			dependencies: ["217BBDA743C9716C"]
 			id: "343F169E9B91EC9B"
@@ -1309,8 +1142,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -3.5d
+			x: -0.5d
+			y: -2.75d
 			subtitle: "Careful, might be slippery"
 			dependencies: ["48E7E8ACC4F2EB9C"]
 			id: "4431A21A852F98FA"
@@ -1321,8 +1154,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -4.75d
+			x: 0.0d
+			y: -4.0d
 			shape: "pentagon"
 			subtitle: "&bWater&r at it's finest"
 			dependencies: ["1ED7B5CA71DDFF89"]
@@ -1334,8 +1167,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -4.75d
+			x: 1.0d
+			y: -4.0d
 			shape: "pentagon"
 			subtitle: "&eAir&r at it's finest"
 			dependencies: ["1ED7B5CA71DDFF89"]
@@ -1347,8 +1180,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: -4.75d
+			x: 2.0d
+			y: -4.0d
 			shape: "pentagon"
 			subtitle: "&2Earth&r at it's finest"
 			dependencies: ["1ED7B5CA71DDFF89"]
@@ -1360,8 +1193,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: -4.75d
+			x: 3.0d
+			y: -4.0d
 			shape: "pentagon"
 			subtitle: "&4Fire&r at it's finest"
 			dependencies: ["1ED7B5CA71DDFF89"]
@@ -1373,8 +1206,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -6.0d
+			x: 1.5d
+			y: -5.25d
 			subtitle: "Quality Gems "
 			description: [
 				"The &5Gem Crystallizer&r allows you to infuse the power of a single &5crystal&r to a &5diamond&r to create &5elemental gem&r. There are 3 qualities of gems :"
@@ -1397,8 +1230,8 @@
 			}]
 		}
 		{
-			x: -0.25d
-			y: 3.0d
+			x: 0.0d
+			y: 4.0d
 			shape: "diamond"
 			subtitle: "Your First Ore"
 			description: ["While mining you may find some &l&nInert Ore&r. Mine it and you'll obtain this !"]
@@ -1566,8 +1399,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 1.25d
+			x: -9.5d
+			y: 8.75d
 			shape: "rsquare"
 			dependencies: ["5269FB3852203971"]
 			optional: true
@@ -1579,8 +1412,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -0.25d
+			x: -12.5d
+			y: 9.25d
 			shape: "rsquare"
 			dependencies: ["551BFC49CAD12F5D"]
 			optional: true
@@ -1592,8 +1425,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -0.25d
+			x: -11.5d
+			y: 9.25d
 			shape: "rsquare"
 			dependencies: ["551BFC49CAD12F5D"]
 			optional: true
@@ -1605,8 +1438,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -0.25d
+			x: -13.5d
+			y: 9.25d
 			shape: "rsquare"
 			dependencies: ["551BFC49CAD12F5D"]
 			optional: true
@@ -1618,8 +1451,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -1.25d
+			x: -13.5d
+			y: 8.25d
 			shape: "rsquare"
 			dependencies: ["551BFC49CAD12F5D"]
 			optional: true
@@ -1631,8 +1464,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -1.25d
+			x: -12.5d
+			y: 8.25d
 			shape: "rsquare"
 			dependencies: ["551BFC49CAD12F5D"]
 			optional: true
@@ -1644,8 +1477,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -1.25d
+			x: -11.5d
+			y: 8.25d
 			shape: "rsquare"
 			dependencies: ["551BFC49CAD12F5D"]
 			optional: true
@@ -1657,8 +1490,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 2.75d
+			x: -9.0d
+			y: 10.5d
 			shape: "rsquare"
 			dependencies: ["551BFC49CAD12F5D"]
 			optional: true
@@ -1670,8 +1503,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 2.75d
+			x: -10.0d
+			y: 12.5d
 			shape: "rsquare"
 			dependencies: ["551BFC49CAD12F5D"]
 			optional: true
@@ -1683,8 +1516,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 2.75d
+			x: -9.0d
+			y: 13.5d
 			shape: "rsquare"
 			dependencies: ["551BFC49CAD12F5D"]
 			optional: true
@@ -1696,8 +1529,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 3.75d
+			x: -9.0d
+			y: 11.5d
 			shape: "rsquare"
 			dependencies: ["551BFC49CAD12F5D"]
 			optional: true
@@ -1709,8 +1542,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 3.75d
+			x: -9.0d
+			y: 12.5d
 			shape: "rsquare"
 			dependencies: ["551BFC49CAD12F5D"]
 			optional: true
@@ -1722,8 +1555,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 3.75d
+			x: -10.0d
+			y: 13.5d
 			shape: "rsquare"
 			dependencies: ["551BFC49CAD12F5D"]
 			optional: true
@@ -1735,8 +1568,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -2.25d
+			x: -14.5d
+			y: 8.25d
 			shape: "rsquare"
 			dependencies: ["551BFC49CAD12F5D"]
 			optional: true
@@ -1748,8 +1581,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -2.25d
+			x: -14.5d
+			y: 9.25d
 			shape: "rsquare"
 			dependencies: ["551BFC49CAD12F5D"]
 			optional: true
@@ -1761,8 +1594,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 4.75d
+			x: -10.0d
+			y: 11.5d
 			shape: "rsquare"
 			dependencies: ["551BFC49CAD12F5D"]
 			optional: true
@@ -1774,8 +1607,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 4.75d
+			x: -10.0d
+			y: 10.5d
 			shape: "rsquare"
 			dependencies: ["551BFC49CAD12F5D"]
 			optional: true
@@ -2042,6 +1875,8 @@
 		{
 			x: -0.5d
 			y: 7.5d
+			subtitle: "Your First Book"
+			description: ["Can cast Tier 1 glyphes or lower."]
 			dependencies: ["2D280B19DAF910F3"]
 			id: "45CDD9F70819E45A"
 			tasks: [{
@@ -2056,124 +1891,6 @@
 					}
 				}
 			}]
-		}
-		{
-			title: "Enchanting Apparatus"
-			x: 1.25d
-			y: 8.0d
-			subtitle: "A new way to craft"
-			dependencies: ["2D280B19DAF910F3"]
-			id: "347740BA6C176E93"
-			tasks: [
-				{
-					id: "6BB5210B742C8013"
-					type: "item"
-					item: "ars_nouveau:arcane_pedestal"
-					count: 8L
-				}
-				{
-					id: "11293E15B0627ADA"
-					type: "item"
-					item: "ars_nouveau:arcane_core"
-				}
-				{
-					id: "4EE8636D38B804F9"
-					type: "item"
-					item: "ars_nouveau:enchanting_apparatus"
-				}
-			]
-		}
-		{
-			title: "Automatic Compound Infuser I/O"
-			x: 2.5d
-			y: 8.0d
-			dependencies: ["347740BA6C176E93"]
-			id: "0603F673A1E78B8D"
-			tasks: [
-				{
-					id: "31CDFA709A927CDD"
-					type: "item"
-					item: "masterfulmachinery:autoinfuser_compound_fluid_port_fluids_input"
-				}
-				{
-					id: "4E8D00ADFB3B2843"
-					type: "item"
-					item: "masterfulmachinery:autoinfuser_compound_item_port_items_input"
-				}
-				{
-					id: "79D9E0FC60BF2DA5"
-					type: "item"
-					item: "masterfulmachinery:autoinfuser_compound_item_port_items_output"
-				}
-			]
-		}
-		{
-			title: "Pedestals"
-			x: 1.25d
-			y: 6.75d
-			dependencies: ["347740BA6C176E93"]
-			id: "455C11FC5271AF93"
-			tasks: [
-				{
-					id: "09439B24250C05E5"
-					type: "item"
-					item: "pedestals:coin/cobble"
-				}
-				{
-					id: "1DA7A2AA1F79FB43"
-					type: "item"
-					item: "pedestals:pedestal/stone333"
-				}
-			]
-		}
-		{
-			title: "Bees Stuff"
-			x: 2.5d
-			y: 6.75d
-			dependencies: ["347740BA6C176E93"]
-			id: "06D11E6229A3AA17"
-			tasks: [
-				{
-					id: "6C364D55F59B3CB0"
-					type: "item"
-					item: {
-						id: "resourcefulbees:bee_jar"
-						Count: 1b
-						tag: {
-							Entity: "resourcefulbees:experience_bee"
-							display: {
-								Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.experience_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-							}
-							Color: "#9ce02f"
-						}
-					}
-				}
-				{
-					id: "06BE9C796FCD97D1"
-					type: "item"
-					item: {
-						id: "resourcefulbees:bee_jar"
-						Count: 1b
-						tag: {
-							Entity: "resourcefulbees:source_steel_bee"
-							display: {
-								Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.source_steel_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-							}
-							Color: "#d1b9e5"
-						}
-					}
-				}
-				{
-					id: "4E9D4BA12F1F8021"
-					type: "item"
-					item: "resourcefulbees:t4_hive_upgrade"
-				}
-				{
-					id: "5AD39F9EE5AA52E7"
-					type: "item"
-					item: "resourcefulbees:t4_beehive"
-				}
-			]
 		}
 		{
 			x: -6.25d
@@ -2297,7 +2014,7 @@
 		}
 		{
 			x: 2.5d
-			y: 11.75d
+			y: 11.5d
 			subtitle: "Pressing Glyphes"
 			dependencies: ["2C180B990E4CCEC3"]
 			id: "120CD537BDE5EAAD"
@@ -2309,7 +2026,7 @@
 		}
 		{
 			title: "Arcane Stone"
-			x: 1.25d
+			x: 1.75d
 			y: 10.0d
 			subtitle: "Crafting some Stones"
 			dependencies: ["2D280B19DAF910F3"]
@@ -2813,8 +2530,10 @@
 			]
 		}
 		{
-			x: -0.5d
-			y: 6.25d
+			x: -1.25d
+			y: 6.5d
+			subtitle: "A Better Book"
+			description: ["Can cast Tier 2 glyphes or lower."]
 			dependencies: ["45CDD9F70819E45A"]
 			id: "63AF0CBC9A1F021F"
 			tasks: [{
@@ -2833,6 +2552,8 @@
 		{
 			x: -2.5d
 			y: 6.25d
+			subtitle: "The Best Book"
+			description: ["Can cast Tier 3 glyphes or lower."]
 			dependencies: ["63AF0CBC9A1F021F"]
 			id: "23AB690BEFE535DF"
 			tasks: [{
@@ -2851,7 +2572,7 @@
 		{
 			title: "Enchanting Apparatus"
 			x: -0.5d
-			y: 11.75d
+			y: 12.25d
 			subtitle: "A New Way Of Crafting"
 			dependencies: ["2C180B990E4CCEC3"]
 			id: "0F5064AAAA97F693"
@@ -2888,8 +2609,8 @@
 		}
 		{
 			title: "Source Relays"
-			x: 4.0d
-			y: 9.25d
+			x: 4.25d
+			y: 11.5d
 			subtitle: "Relaying Mana Generation"
 			dependencies: ["620AE64F27D7DC43"]
 			id: "025EC5563C39255B"
@@ -2917,8 +2638,8 @@
 			]
 		}
 		{
-			x: 2.5d
-			y: 9.25d
+			x: 5.0d
+			y: 10.0d
 			subtitle: "Linking Tool"
 			dependencies: ["620AE64F27D7DC43"]
 			id: "63369166FED1B89E"
@@ -2960,8 +2681,8 @@
 		}
 		{
 			title: "Bee Stuff"
-			x: -1.25d
-			y: 13.25d
+			x: -1.75d
+			y: 13.5d
 			dependencies: ["0F5064AAAA97F693"]
 			id: "3C596418F805D2DB"
 			tasks: [
@@ -2974,36 +2695,6 @@
 					id: "1F18C79E7488F9E6"
 					type: "item"
 					item: "resourcefulbees:t4_hive_upgrade"
-				}
-				{
-					id: "0EAEF085DFE721F9"
-					type: "item"
-					item: {
-						id: "resourcefulbees:bee_jar"
-						Count: 1b
-						tag: {
-							Entity: "resourcefulbees:experience_bee"
-							display: {
-								Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.experience_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-							}
-							Color: "#9ce02f"
-						}
-					}
-				}
-				{
-					id: "1C5676AB31BF2A97"
-					type: "item"
-					item: {
-						id: "resourcefulbees:bee_jar"
-						Count: 1b
-						tag: {
-							Entity: "resourcefulbees:source_steel_bee"
-							display: {
-								Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.source_steel_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-							}
-							Color: "#d1b9e5"
-						}
-					}
 				}
 			]
 		}
@@ -3032,9 +2723,9 @@
 			]
 		}
 		{
-			x: 6.0d
-			y: 12.5d
-			shape: "octagon"
+			x: 5.7392857142856855d
+			y: 6.5119047619047805d
+			shape: "rsquare"
 			subtitle: "Generating Mana"
 			dependencies: ["2C180B990E4CCEC3"]
 			size: 2.0d
@@ -3046,8 +2737,8 @@
 			}]
 		}
 		{
-			x: 4.25d
-			y: 13.25d
+			x: 7.25d
+			y: 6.0d
 			shape: "rsquare"
 			subtitle: "Generating Mana With Potions"
 			dependencies: ["2B073D5DCCB463A6"]
@@ -3059,8 +2750,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 14.0d
+			x: 5.25d
+			y: 8.0d
 			shape: "rsquare"
 			subtitle: "Coal Generates Mana"
 			dependencies: ["2B073D5DCCB463A6"]
@@ -3072,8 +2763,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 14.25d
+			x: 6.25d
+			y: 8.0d
 			shape: "rsquare"
 			subtitle: "Growing Mana Plants !"
 			dependencies: ["2B073D5DCCB463A6"]
@@ -3085,8 +2776,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 14.0d
+			x: 7.25d
+			y: 8.0d
 			shape: "rsquare"
 			subtitle: "Mushrooms are good"
 			dependencies: ["2B073D5DCCB463A6"]
@@ -3098,8 +2789,8 @@
 			}]
 		}
 		{
-			x: 7.75d
-			y: 13.25d
+			x: 7.25d
+			y: 7.0d
 			shape: "rsquare"
 			subtitle: "Life Draining Mana "
 			dependencies: ["2B073D5DCCB463A6"]
@@ -3111,8 +2802,8 @@
 			}]
 		}
 		{
-			x: 0.25d
-			y: 13.25d
+			x: 0.75d
+			y: 13.5d
 			dependencies: ["0F5064AAAA97F693"]
 			id: "27434472ADF568A8"
 			tasks: [
@@ -3130,8 +2821,8 @@
 			]
 		}
 		{
-			x: -1.25d
-			y: 14.25d
+			x: -1.75d
+			y: 14.5d
 			dependencies: ["0F5064AAAA97F693"]
 			id: "2A2084F619A57295"
 			tasks: [{
@@ -3141,8 +2832,8 @@
 			}]
 		}
 		{
-			x: 0.25d
-			y: 14.25d
+			x: 0.75d
+			y: 14.5d
 			dependencies: ["0F5064AAAA97F693"]
 			optional: true
 			id: "62342568F702D262"
@@ -3175,8 +2866,8 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: -5.5d
+			x: 7.75d
+			y: -2.0d
 			subtitle: "Storing ludicrous amount of Element."
 			description: ["The &5Element Reservoirs&r is an advanced &3element&r storage , containing more &2elements&r than the &3Container&r, it is compatible with all &2instruments&r. But there is 4 different version each 1 for each elements."]
 			dependencies: [
@@ -3191,6 +2882,38 @@
 				id: "543E56B2B416AAD6"
 				type: "checkmark"
 				title: "Reservoirs"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 13.5d
+			dependencies: ["0F5064AAAA97F693"]
+			id: "00E6F30F0B847212"
+			tasks: [{
+				id: "5734534A9935DB35"
+				type: "item"
+				item: "arsarsenal:source_steel_ingot"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 15.5d
+			shape: "gear"
+			dependencies: ["00E6F30F0B847212"]
+			size: 2.0d
+			id: "1D2E4590B915476A"
+			tasks: [{
+				id: "67EA3BC28EBB9F3A"
+				type: "item"
+				item: {
+					id: "tiab:timeinabottle"
+					Count: 1b
+					tag: {
+						timeData: {
+							storedTime: 3280
+						}
+					}
+				}
 			}]
 		}
 	]
