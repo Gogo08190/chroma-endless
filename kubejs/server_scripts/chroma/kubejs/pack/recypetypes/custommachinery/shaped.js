@@ -34,9 +34,9 @@ onEvent('recipes', (event) => {
             output: Item.of('custommachinery:custom_machine_item', '{machine:"custommachinery:inscriber"}'),
             pattern: ['ICI', 'SGS', 'IRI'],
             key: {
-                I: 'pneumaticcraft:ingot_iron_compressed',
+                I: 'refinedstorage:quartz_enriched_iron',
                 C: 'pneumaticcraft:capacitor',
-                G: 'emendatusenigmatica:copper_gear',
+                G: 'refinedstorage:machine_casing',
                 S: 'create:sticky_mechanical_piston',
                 R: 'thermal:rf_coil'
             },
