@@ -57,7 +57,7 @@
     },
     "SpawnData": {
         "canSpawnInWorld": true,
-        "biomeWhitelist": "cold",
+        "biomeWhitelist": "tag:cold",
         "spawnWeight": 5,
         "minYLevel": 0,
         "maxYLevel": 255,
