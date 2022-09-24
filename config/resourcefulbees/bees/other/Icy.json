@@ -40,7 +40,7 @@
   "SpawnData": {
     "canSpawnInWorld": true,
     "biomeWhitelist": "tag:COLD",
-    "biomeBlacklist": "tag:ocean"
+    "biomeBlacklist": "tag:OCEAN,NETHER,END"
   },
   "BreedData": {
     "isBreedable": true,
