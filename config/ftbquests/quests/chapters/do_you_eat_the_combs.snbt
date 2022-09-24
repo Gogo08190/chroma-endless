@@ -7,5 +7,1066 @@
 	icon: "resourcefulbees:rgbee_honeycomb"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: -3.25d
+			y: -1.0d
+			id: "7FFC47685156B8BE"
+			tasks: [{
+				id: "06D115E64B5927D3"
+				type: "item"
+				item: "resourcefulbees:aeternium_honeycomb"
+			}]
+		}
+		{
+			x: -2.25d
+			y: -1.0d
+			id: "414E4FA1ACB58D0E"
+			tasks: [{
+				id: "7331FA783FE4A09F"
+				type: "item"
+				item: "resourcefulbees:aluminum_honeycomb"
+			}]
+		}
+		{
+			x: -1.25d
+			y: -1.0d
+			id: "684095BF56EDB8D5"
+			tasks: [{
+				id: "0F86D4D338111D64"
+				type: "item"
+				item: "resourcefulbees:awakened_honeycomb"
+			}]
+		}
+		{
+			x: -0.25d
+			y: -1.0d
+			id: "57D22D2E3B611E87"
+			tasks: [{
+				id: "045C816065DA15BD"
+				type: "item"
+				item: "resourcefulbees:basalz_honeycomb"
+			}]
+		}
+		{
+			x: 0.75d
+			y: -1.0d
+			id: "6666422A4EAA4359"
+			tasks: [{
+				id: "65770931FBB7A556"
+				type: "item"
+				item: "resourcefulbees:bitumen_honeycomb"
+			}]
+		}
+		{
+			x: 1.75d
+			y: -1.0d
+			id: "5D1BB7EB84DAE28B"
+			tasks: [{
+				id: "3A2FCDDEC37FB76B"
+				type: "item"
+				item: "resourcefulbees:blaze_honeycomb"
+			}]
+		}
+		{
+			x: 2.75d
+			y: -1.0d
+			id: "341CE7CC927A0D17"
+			tasks: [{
+				id: "7E9544C9300B349C"
+				type: "item"
+				item: "resourcefulbees:blazing_honeycomb"
+			}]
+		}
+		{
+			x: 3.75d
+			y: -1.0d
+			id: "1DB735BFAB8C788D"
+			tasks: [{
+				id: "25293A6B88F169E3"
+				type: "item"
+				item: "resourcefulbees:blitz_honeycomb"
+			}]
+		}
+		{
+			x: 4.75d
+			y: -1.0d
+			id: "43C27A470B778437"
+			tasks: [{
+				id: "71B0DEA6E4E7D4FA"
+				type: "item"
+				item: "resourcefulbees:blizz_honeycomb"
+			}]
+		}
+		{
+			x: 5.75d
+			y: -1.0d
+			id: "4FC0745BC7175965"
+			tasks: [{
+				id: "7BA111895FBBDC96"
+				type: "item"
+				item: "resourcefulbees:blutonium_honeycomb"
+			}]
+		}
+		{
+			x: 6.75d
+			y: -1.0d
+			id: "3E0AC9FCB47A0799"
+			tasks: [{
+				id: "6FC6A3B56C69A530"
+				type: "item"
+				item: "resourcefulbees:brass_honeycomb"
+			}]
+		}
+		{
+			x: 7.75d
+			y: -1.0d
+			id: "102A896ABF75807E"
+			tasks: [{
+				id: "0D589F274483A182"
+				type: "item"
+				item: "resourcefulbees:bronze_honeycomb"
+			}]
+		}
+		{
+			x: -3.25d
+			y: 0.0d
+			id: "36C15DACAE516084"
+			tasks: [{
+				id: "702DDAF59212AD1D"
+				type: "item"
+				item: "resourcefulbees:catnip_honeycomb"
+			}]
+		}
+		{
+			x: -2.25d
+			y: 0.0d
+			id: "6D6CAADAD38F0FCF"
+			tasks: [{
+				id: "32068EE660CBCF46"
+				type: "item"
+				item: "resourcefulbees:chaotic_honeycomb"
+			}]
+		}
+		{
+			x: -1.25d
+			y: 0.0d
+			id: "1407AA98365E7E72"
+			tasks: [{
+				id: "79380263230A3092"
+				type: "item"
+				item: "resourcefulbees:clay_honeycomb"
+			}]
+		}
+		{
+			x: -0.25d
+			y: 0.0d
+			id: "18ABB320E6DA1024"
+			tasks: [{
+				id: "52B51EFCCF09766E"
+				type: "item"
+				item: "resourcefulbees:cloggrum_honeycomb"
+			}]
+		}
+		{
+			x: 0.75d
+			y: 0.0d
+			id: "281F43DB48BB0F21"
+			tasks: [{
+				id: "1ECCCAEFC82E991E"
+				type: "item"
+				item: "resourcefulbees:coal_honeycomb"
+			}]
+		}
+		{
+			x: 1.75d
+			y: 0.0d
+			id: "03AE05C3099273B3"
+			tasks: [{
+				id: "7E89374A4ADA3ABA"
+				type: "item"
+				item: "resourcefulbees:cobalt_honeycomb"
+			}]
+		}
+		{
+			x: 2.75d
+			y: 0.0d
+			id: "115D85919E781615"
+			tasks: [{
+				id: "35138C4842CE9E81"
+				type: "item"
+				item: "resourcefulbees:compressed_iron_honeycomb"
+			}]
+		}
+		{
+			x: 3.75d
+			y: 0.0d
+			id: "40E096F6349416A0"
+			tasks: [{
+				id: "17A2A4502F319D04"
+				type: "item"
+				item: "resourcefulbees:constantan_honeycomb"
+			}]
+		}
+		{
+			x: 4.75d
+			y: 0.0d
+			id: "7A89FFC1B4290FCC"
+			tasks: [{
+				id: "4D96FB8CF2C17CA2"
+				type: "item"
+				item: "resourcefulbees:copper_honeycomb"
+			}]
+		}
+		{
+			x: 5.75d
+			y: 0.0d
+			id: "4B4D3CD43189B1EE"
+			tasks: [{
+				id: "2F4ED3626CECD5BA"
+				type: "item"
+				item: "resourcefulbees:creeper_honeycomb"
+			}]
+		}
+		{
+			x: 6.75d
+			y: 0.0d
+			id: "70673F2D1932833F"
+			tasks: [{
+				id: "544ADB43AF833DFD"
+				type: "item"
+				item: "resourcefulbees:cyanite_honeycomb"
+			}]
+		}
+		{
+			x: 7.75d
+			y: 0.0d
+			id: "4B18559C3EA6F424"
+			tasks: [{
+				id: "552EDCDFDA359E48"
+				type: "item"
+				item: "resourcefulbees:diamond_honeycomb"
+			}]
+		}
+		{
+			x: -3.25d
+			y: 1.0d
+			id: "32F5E12FF3118289"
+			tasks: [{
+				id: "2C49E529304F0E4B"
+				type: "item"
+				item: "resourcefulbees:draconium_honeycomb"
+			}]
+		}
+		{
+			x: -2.25d
+			y: 1.0d
+			id: "34EA2A5327E95763"
+			tasks: [{
+				id: "7C9DE7EAAC6B75C9"
+				type: "item"
+				item: "resourcefulbees:dragon_honeycomb"
+			}]
+		}
+		{
+			x: -1.25d
+			y: 1.0d
+			id: "08E0351B06E4BFB3"
+			tasks: [{
+				id: "3F26AFD393CC3C78"
+				type: "item"
+				item: "resourcefulbees:drenched_iron_honeycomb"
+			}]
+		}
+		{
+			x: -0.25d
+			y: 1.0d
+			id: "05FA93FC8B069705"
+			tasks: [{
+				id: "0D2AF6DDC9E69EDE"
+				type: "item"
+				item: "resourcefulbees:electrum_honeycomb"
+			}]
+		}
+		{
+			x: 0.75d
+			y: 1.0d
+			id: "346227DD5FA4ADE1"
+			tasks: [{
+				id: "41BCC69052BC2C6D"
+				type: "item"
+				item: "resourcefulbees:elementium_honeycomb"
+			}]
+		}
+		{
+			x: 1.75d
+			y: 1.0d
+			id: "16D0AD556C48EDA5"
+			tasks: [{
+				id: "37EB09E06103A77D"
+				type: "item"
+				item: "resourcefulbees:emerald_honeycomb"
+			}]
+		}
+		{
+			x: 2.75d
+			y: 1.0d
+			id: "1BF3815B9EE58545"
+			tasks: [{
+				id: "10F6A96073428C54"
+				type: "item"
+				item: "resourcefulbees:end_honeycomb"
+			}]
+		}
+		{
+			x: 3.75d
+			y: 1.0d
+			id: "400185F303BE1CF8"
+			tasks: [{
+				id: "49FD570311A61B15"
+				type: "item"
+				item: "resourcefulbees:ender_honeycomb"
+			}]
+		}
+		{
+			x: 4.75d
+			y: 1.0d
+			id: "7F2F21764C3BCECA"
+			tasks: [{
+				id: "7CA4F3CA6F7CEDA3"
+				type: "item"
+				item: "resourcefulbees:ender_slime_honeycomb"
+			}]
+		}
+		{
+			x: 6.75d
+			y: 1.0d
+			id: "5B2278D8757C6D5B"
+			tasks: [{
+				id: "1F89A46F7408132D"
+				type: "item"
+				item: "resourcefulbees:energized_honeycomb"
+			}]
+		}
+		{
+			x: 5.75d
+			y: 1.0d
+			id: "5789A0B6FCE7F3D2"
+			tasks: [{
+				id: "2F3104185CEEB5C0"
+				type: "item"
+				item: "resourcefulbees:enderium_honeycomb"
+			}]
+		}
+		{
+			x: 7.75d
+			y: 1.0d
+			id: "460041ABBD07926A"
+			tasks: [{
+				id: "08289DCF11078E1B"
+				type: "item"
+				item: "resourcefulbees:experience_honeycomb"
+			}]
+		}
+		{
+			x: -3.25d
+			y: 2.0d
+			id: "663E6060BD3B055A"
+			tasks: [{
+				id: "5E6C2990843DF65D"
+				type: "item"
+				item: "resourcefulbees:fairy_honeycomb"
+			}]
+		}
+		{
+			x: -2.25d
+			y: 2.0d
+			id: "6A95ABB87397ED03"
+			tasks: [{
+				id: "6AB1324C618C59D1"
+				type: "item"
+				item: "resourcefulbees:fireite_honeycomb"
+			}]
+		}
+		{
+			x: -1.25d
+			y: 2.0d
+			id: "6E22FD06A82DCD10"
+			tasks: [{
+				id: "176699D8E5069C7A"
+				type: "item"
+				item: "resourcefulbees:fluorite_honeycomb"
+			}]
+		}
+		{
+			x: -0.25d
+			y: 2.0d
+			id: "095EBA7369DE3F7E"
+			tasks: [{
+				id: "3B28E82B4ACE8E4E"
+				type: "item"
+				item: "resourcefulbees:forest_honeycomb"
+			}]
+		}
+		{
+			x: 0.75d
+			y: 2.0d
+			id: "70E64F08D9A8A414"
+			tasks: [{
+				id: "7CBC0356A83A95BF"
+				type: "item"
+				item: "resourcefulbees:forgotten_honeycomb"
+			}]
+		}
+		{
+			x: 1.75d
+			y: 2.0d
+			id: "633ED9AB5BA382EE"
+			tasks: [{
+				id: "2F0B6E97C9AFB14A"
+				type: "item"
+				item: "resourcefulbees:froststeel_honeycomb"
+			}]
+		}
+		{
+			x: 2.75d
+			y: 2.0d
+			id: "32550FD78C900F01"
+			tasks: [{
+				id: "3A6FB9482AF0CC4E"
+				type: "item"
+				item: "resourcefulbees:gaia_honeycomb"
+			}]
+		}
+		{
+			x: 3.75d
+			y: 2.0d
+			id: "429ECF8F075931DA"
+			tasks: [{
+				id: "0387BF86A19E3FF1"
+				type: "item"
+				item: "resourcefulbees:ghast_honeycomb"
+			}]
+		}
+		{
+			x: 4.75d
+			y: 2.0d
+			id: "2855B62371333D6E"
+			tasks: [{
+				id: "2E37A78F94300415"
+				type: "item"
+				item: "resourcefulbees:glowstone_honeycomb"
+			}]
+		}
+		{
+			x: 5.75d
+			y: 2.0d
+			id: "6BB49002525E1256"
+			tasks: [{
+				id: "527029ABB3CF1ECD"
+				type: "item"
+				item: "resourcefulbees:gold_honeycomb"
+			}]
+		}
+		{
+			x: 6.75d
+			y: 2.0d
+			id: "3A96EBC40F5986CB"
+			tasks: [{
+				id: "5BE7687FB5B1DAFC"
+				type: "item"
+				item: "resourcefulbees:graphite_honeycomb"
+			}]
+		}
+		{
+			x: 7.75d
+			y: 2.0d
+			id: "0FC0E4479C1CFB14"
+			tasks: [{
+				id: "41A89FC7A7A82AF5"
+				type: "item"
+				item: "resourcefulbees:gravel_honeycomb"
+			}]
+		}
+		{
+			x: -3.25d
+			y: 3.0d
+			id: "457A16A25F64CF20"
+			tasks: [{
+				id: "0C81A64910F4019F"
+				type: "item"
+				item: "resourcefulbees:guardian_honeycomb"
+			}]
+		}
+		{
+			x: -2.25d
+			y: 3.0d
+			id: "4083C09DD73251BF"
+			tasks: [{
+				id: "7D17D6B506C45424"
+				type: "item"
+				item: "resourcefulbees:hepatizon_honeycomb"
+			}]
+		}
+		{
+			x: -1.25d
+			y: 3.0d
+			id: "214DB247C8D5A937"
+			tasks: [{
+				id: "3D5AB06CEA99CC7B"
+				type: "item"
+				item: "minecraft:honeycomb"
+			}]
+		}
+		{
+			x: -0.25d
+			y: 3.0d
+			id: "4F9A93FCD61B8920"
+			tasks: [{
+				id: "6375075FC42261BB"
+				type: "item"
+				item: "resourcefulbees:ichor_slime_honeycomb"
+			}]
+		}
+		{
+			x: 0.75d
+			y: 3.0d
+			id: "1C40C1C4A24F408B"
+			tasks: [{
+				id: "1B5033B46F037A20"
+				type: "item"
+				item: "resourcefulbees:inanite_honeycomb"
+			}]
+		}
+		{
+			x: 1.75d
+			y: 3.0d
+			id: "77CFFF8911D00110"
+			tasks: [{
+				id: "31A9B151C60F6E43"
+				type: "item"
+				item: "resourcefulbees:invar_honeycomb"
+			}]
+		}
+		{
+			x: 2.75d
+			y: 3.0d
+			id: "41281774FBA20428"
+			tasks: [{
+				id: "1D64B3A816738B8B"
+				type: "item"
+				item: "resourcefulbees:iron_honeycomb"
+			}]
+		}
+		{
+			x: 3.75d
+			y: 3.0d
+			id: "25935D41CC1D12B1"
+			tasks: [{
+				id: "657AB1A9309F49E3"
+				type: "item"
+				item: "resourcefulbees:lapis_honeycomb"
+			}]
+		}
+		{
+			x: 4.75d
+			y: 3.0d
+			id: "5D45526825C3F907"
+			tasks: [{
+				id: "6965D1E7C4835753"
+				type: "item"
+				item: "resourcefulbees:lava_honeycomb"
+			}]
+		}
+		{
+			x: 5.75d
+			y: 3.0d
+			id: "5669499C9BC20C4C"
+			tasks: [{
+				id: "794CBFF9F463190B"
+				type: "item"
+				item: "resourcefulbees:lead_honeycomb"
+			}]
+		}
+		{
+			x: 6.75d
+			y: 3.0d
+			id: "2E16E3054C5046AB"
+			tasks: [{
+				id: "355A6066A583F517"
+				type: "item"
+				item: "resourcefulbees:ludicrite_honeycomb"
+			}]
+		}
+		{
+			x: 7.75d
+			y: 3.0d
+			id: "049F6284C6E91C9E"
+			tasks: [{
+				id: "6B3C3B0DB530EC89"
+				type: "item"
+				item: "resourcefulbees:lumium_honeycomb"
+			}]
+		}
+		{
+			x: -3.25d
+			y: 4.0d
+			id: "3C552A97AB2C327A"
+			tasks: [{
+				id: "412167FFD2F94866"
+				type: "item"
+				item: "resourcefulbees:magentite_honeycomb"
+			}]
+		}
+		{
+			x: -2.25d
+			y: 4.0d
+			id: "0661C822362F350A"
+			tasks: [{
+				id: "052084E8CAD818DF"
+				type: "item"
+				item: "resourcefulbees:magma_honeycomb"
+			}]
+		}
+		{
+			x: -1.25d
+			y: 4.0d
+			id: "4F37348D69C615FD"
+			tasks: [{
+				id: "13232117012C7575"
+				type: "item"
+				item: "resourcefulbees:manasteel_honeycomb"
+			}]
+		}
+		{
+			x: -0.25d
+			y: 4.0d
+			id: "6896D51D31E26224"
+			tasks: [{
+				id: "7AEF903A0B2C8C0F"
+				type: "item"
+				item: "resourcefulbees:nether_honeycomb"
+			}]
+		}
+		{
+			x: 0.75d
+			y: 4.0d
+			id: "7182B29AE1754A44"
+			tasks: [{
+				id: "7876283400EC107D"
+				type: "item"
+				item: "resourcefulbees:nether_quartz_honeycomb"
+			}]
+		}
+		{
+			x: 1.75d
+			y: 4.0d
+			id: "72E7F8C890D71AD2"
+			tasks: [{
+				id: "63C9C5AB6483AE19"
+				type: "item"
+				item: "resourcefulbees:netherite_honeycomb"
+			}]
+		}
+		{
+			x: 2.75d
+			y: 4.0d
+			id: "00EA46A9E4A2FF0D"
+			tasks: [{
+				id: "4F0DD8826F2E31A4"
+				type: "item"
+				item: "resourcefulbees:nickel_honeycomb"
+			}]
+		}
+		{
+			x: 3.75d
+			y: 4.0d
+			id: "2344049B3B5509FE"
+			tasks: [{
+				id: "706D9C4B512625A0"
+				type: "item"
+				item: "resourcefulbees:niotic_honeycomb"
+			}]
+		}
+		{
+			x: 4.75d
+			y: 4.0d
+			id: "58255D43560203E6"
+			tasks: [{
+				id: "5D972643EC9753D6"
+				type: "item"
+				item: "resourcefulbees:obsidian_honeycomb"
+			}]
+		}
+		{
+			x: 5.75d
+			y: 4.0d
+			id: "7F2DC4534F5C657E"
+			tasks: [{
+				id: "663062E1A6782330"
+				type: "item"
+				item: "resourcefulbees:occultist_honeycomb"
+			}]
+		}
+		{
+			x: 6.75d
+			y: 4.0d
+			id: "70E6A1EC4E54914E"
+			tasks: [{
+				id: "7A888072EF63A155"
+				type: "item"
+				item: "resourcefulbees:osmium_honeycomb"
+			}]
+		}
+		{
+			x: 7.75d
+			y: 4.0d
+			id: "7B5846CFAA88642B"
+			tasks: [{
+				id: "3BCA1D563268B25C"
+				type: "item"
+				item: "resourcefulbees:pigman_honeycomb"
+			}]
+		}
+		{
+			x: -3.25d
+			y: 5.0d
+			id: "57C86C7015B9922A"
+			tasks: [{
+				id: "0DC77BE2E82C62B8"
+				type: "item"
+				item: "resourcefulbees:potassium_honeycomb"
+			}]
+		}
+		{
+			x: -2.25d
+			y: 5.0d
+			id: "5400DE65843A2897"
+			tasks: [{
+				id: "11A4D968D244B120"
+				type: "item"
+				item: "resourcefulbees:rainbow_glass_honeycomb"
+			}]
+		}
+		{
+			x: -1.25d
+			y: 5.0d
+			id: "1527B7CBBDDB4459"
+			tasks: [{
+				id: "408FE3725A06F754"
+				type: "item"
+				item: "resourcefulbees:redstone_honeycomb"
+			}]
+		}
+		{
+			x: -0.25d
+			y: 5.0d
+			id: "093A07CCC5DBB9E8"
+			tasks: [{
+				id: "1C3F1021769379D7"
+				type: "item"
+				item: "resourcefulbees:refined_glowstone_honeycomb"
+			}]
+		}
+		{
+			x: 0.75d
+			y: 5.0d
+			id: "0B3F5C431A99751F"
+			tasks: [{
+				id: "3E89423018113B7A"
+				type: "item"
+				item: "resourcefulbees:refined_obsidian_honeycomb"
+			}]
+		}
+		{
+			x: 1.75d
+			y: 5.0d
+			id: "7B58D2A0C7588256"
+			tasks: [{
+				id: "57561EFD0C4EFCA4"
+				type: "item"
+				item: "resourcefulbees:regalium_honeycomb"
+			}]
+		}
+		{
+			x: 2.75d
+			y: 5.0d
+			id: "5235D3134A4914B0"
+			tasks: [{
+				id: "69FC4025BBA0476B"
+				type: "item"
+				item: "resourcefulbees:rgbee_honeycomb"
+			}]
+		}
+		{
+			x: 3.75d
+			y: 5.0d
+			id: "5C89261CC648E250"
+			tasks: [{
+				id: "3D85BEDF0F85E7B3"
+				type: "item"
+				item: "resourcefulbees:ridiculite_honeycomb"
+			}]
+		}
+		{
+			x: 4.75d
+			y: 5.0d
+			id: "0828F31DBEE34A12"
+			tasks: [{
+				id: "5EED546E5905BD05"
+				type: "item"
+				item: "resourcefulbees:rose_gold_honeycomb"
+			}]
+		}
+		{
+			x: 5.75d
+			y: 5.0d
+			id: "000ACC7744AE77D8"
+			tasks: [{
+				id: "513F4AF5F7DEAB37"
+				type: "item"
+				item: "resourcefulbees:sand_honeycomb"
+			}]
+		}
+		{
+			x: 6.75d
+			y: 5.0d
+			id: "17F6816A493DF9A2"
+			tasks: [{
+				id: "3745F350987A795F"
+				type: "item"
+				item: "resourcefulbees:seared_honeycomb"
+			}]
+		}
+		{
+			x: 7.75d
+			y: 5.0d
+			id: "74267A5C22AFC4BE"
+			tasks: [{
+				id: "15A8016CEFD5C4B4"
+				type: "item"
+				item: "resourcefulbees:signalum_honeycomb"
+			}]
+		}
+		{
+			x: -3.25d
+			y: 6.0d
+			id: "32A9AE5F68A16470"
+			tasks: [{
+				id: "0E605EA4952B3D30"
+				type: "item"
+				item: "resourcefulbees:silver_honeycomb"
+			}]
+		}
+		{
+			x: -2.25d
+			y: 6.0d
+			id: "5BC1B59745228F7A"
+			tasks: [{
+				id: "317BE6EB41BD9C75"
+				type: "item"
+				item: "resourcefulbees:skeleton_honeycomb"
+			}]
+		}
+		{
+			x: -1.25d
+			y: 6.0d
+			id: "58E7F69270E1625E"
+			tasks: [{
+				id: "58DB8E1A58DCBCEF"
+				type: "item"
+				item: "resourcefulbees:sky_slime_honeycomb"
+			}]
+		}
+		{
+			x: -0.25d
+			y: 6.0d
+			id: "591602ADA1AEB165"
+			tasks: [{
+				id: "0B19DEE2B9D7CEF2"
+				type: "item"
+				item: "resourcefulbees:slime_honeycomb"
+			}]
+		}
+		{
+			x: 0.75d
+			y: 6.0d
+			id: "0CEA45F1DA6DA0D8"
+			tasks: [{
+				id: "6FE517002DCF3EF7"
+				type: "item"
+				item: "resourcefulbees:source_steel_honeycomb"
+			}]
+		}
+		{
+			x: 1.75d
+			y: 6.0d
+			id: "76F0D88B9078E34F"
+			tasks: [{
+				id: "64DE6483209B7E32"
+				type: "item"
+				item: "resourcefulbees:spirited_honeycomb"
+			}]
+		}
+		{
+			x: 2.75d
+			y: 6.0d
+			id: "016DFBA6BBFF30F6"
+			tasks: [{
+				id: "70EF6AD2FBD4D9CF"
+				type: "item"
+				item: "resourcefulbees:starry_lexxie_honeycomb"
+			}]
+		}
+		{
+			x: 3.75d
+			y: 6.0d
+			id: "28630B64F3BC609E"
+			tasks: [{
+				id: "4407006089AE7CF5"
+				type: "item"
+				item: "resourcefulbees:steel_honeycomb"
+			}]
+		}
+		{
+			x: 4.75d
+			y: 6.0d
+			id: "403CEC4576AE5B30"
+			tasks: [{
+				id: "2E91571EFDEBDE19"
+				type: "item"
+				item: "resourcefulbees:stone_honeycomb"
+			}]
+		}
+		{
+			x: 5.75d
+			y: 6.0d
+			id: "4C9EB0680AC3F9DC"
+			tasks: [{
+				id: "5B6A636D2535FB9E"
+				type: "item"
+				item: "resourcefulbees:swift_alloy_honeycomb"
+			}]
+		}
+		{
+			x: 6.75d
+			y: 6.0d
+			id: "600804D7A6CC2477"
+			tasks: [{
+				id: "71BE6AC75BCA3B87"
+				type: "item"
+				item: "resourcefulbees:terminite_honeycomb"
+			}]
+		}
+		{
+			x: 7.75d
+			y: 6.0d
+			id: "1B90A3612F24857F"
+			tasks: [{
+				id: "06D9EAED5FD151F6"
+				type: "item"
+				item: "resourcefulbees:terrasteel_honeycomb"
+			}]
+		}
+		{
+			x: -3.25d
+			y: 7.0d
+			id: "1EA7E9C71443E637"
+			tasks: [{
+				id: "78BB40CB27090F4F"
+				type: "item"
+				item: "resourcefulbees:thallasium_honeycomb"
+			}]
+		}
+		{
+			x: -2.25d
+			y: 7.0d
+			id: "52B84B5FA008D1EC"
+			tasks: [{
+				id: "04D68476D9CADC00"
+				type: "item"
+				item: "resourcefulbees:tin_honeycomb"
+			}]
+		}
+		{
+			x: -1.25d
+			y: 7.0d
+			id: "2045FB958C1681B3"
+			tasks: [{
+				id: "61FFC3521916458F"
+				type: "item"
+				item: "resourcefulbees:uraninite_honeycomb"
+			}]
+		}
+		{
+			x: -0.25d
+			y: 7.0d
+			id: "7B0A886B605111BE"
+			tasks: [{
+				id: "1D63B22D07605096"
+				type: "item"
+				item: "resourcefulbees:uranium_honeycomb"
+			}]
+		}
+		{
+			x: 0.75d
+			y: 7.0d
+			id: "447476D2551FFD95"
+			tasks: [{
+				id: "3DB7618ED99F9B95"
+				type: "item"
+				item: "resourcefulbees:utherium_honeycomb"
+			}]
+		}
+		{
+			x: 1.75d
+			y: 7.0d
+			id: "1CD8C2B26EC0743F"
+			tasks: [{
+				id: "76B3F1B44A1C82D4"
+				type: "item"
+				item: "resourcefulbees:water_honeycomb"
+			}]
+		}
+		{
+			x: 2.75d
+			y: 7.0d
+			id: "454FE092F560AFE8"
+			tasks: [{
+				id: "3512A8082DCC70EF"
+				type: "item"
+				item: "resourcefulbees:wither_honeycomb"
+			}]
+		}
+		{
+			x: 3.75d
+			y: 7.0d
+			id: "666E2148B85F1BB6"
+			tasks: [{
+				id: "68B7A2F488E1F80E"
+				type: "item"
+				item: "resourcefulbees:xion_honeycomb"
+			}]
+		}
+		{
+			x: 4.75d
+			y: 7.0d
+			id: "7E76B77935740977"
+			tasks: [{
+				id: "46A34AF3D5B39B3C"
+				type: "item"
+				item: "resourcefulbees:zinc_honeycomb"
+			}]
+		}
+		{
+			x: 5.75d
+			y: 7.0d
+			id: "0A8F45ABBF4516F6"
+			tasks: [{
+				id: "79F5A13700DEA5E1"
+				type: "item"
+				item: "resourcefulbees:zombie_honeycomb"
+			}]
+		}
+	]
 }

@@ -13,17 +13,6 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Compact crafting"
-			x: 14.75d
-			y: 0.0d
-			id: "109CE5FC227C2501"
-			tasks: [{
-				id: "0EB25D29C2F2BFAB"
-				type: "item"
-				item: "compactmachines:machine_tiny"
-			}]
-		}
-		{
 			title: "Reinforced Stone"
 			x: -8.25d
 			y: -17.25d
@@ -2140,6 +2129,324 @@
 				id: "6E0FB6D7E365FDF5"
 				type: "checkmark"
 				title: "Some Precisions"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			shape: "diamond"
+			subtitle: "3x3x3"
+			dependencies: ["0C3C545117A50271"]
+			id: "0885C4E617DFE640"
+			tasks: [{
+				id: "110E4EA91CF567E2"
+				type: "item"
+				item: "compactmachines:machine_tiny"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			shape: "diamond"
+			subtitle: "5x5x5"
+			dependencies: ["0885C4E617DFE640"]
+			id: "72420CEE866C425C"
+			tasks: [{
+				id: "78C9521426BCFEBE"
+				type: "item"
+				item: "compactmachines:machine_small"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			shape: "diamond"
+			subtitle: "7x7x7"
+			dependencies: ["72420CEE866C425C"]
+			id: "3137691FEB302A87"
+			tasks: [{
+				id: "041AC445C3439860"
+				type: "item"
+				item: "compactmachines:machine_normal"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.0d
+			shape: "diamond"
+			subtitle: "9x9x9"
+			dependencies: ["3137691FEB302A87"]
+			id: "7551757602335544"
+			tasks: [{
+				id: "009E8C5AB6F86ADB"
+				type: "item"
+				item: "compactmachines:machine_large"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.5d
+			shape: "diamond"
+			subtitle: "11x11x11"
+			dependencies: ["7551757602335544"]
+			id: "61522C8151F7B02A"
+			tasks: [{
+				id: "1CBAB5425F1ACF52"
+				type: "item"
+				item: "compactmachines:machine_giant"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -4.0d
+			shape: "diamond"
+			subtitle: "13x13x13"
+			dependencies: ["61522C8151F7B02A"]
+			id: "40AD83638DEA80D7"
+			tasks: [{
+				id: "3E8F0D6FB9A51076"
+				type: "item"
+				item: "compactmachines:machine_maximum"
+			}]
+		}
+		{
+			x: 2.75d
+			y: -10.25d
+			shape: "diamond"
+			dependencies: [
+				"3AC2609EA33632B8"
+				"7958F40FFDC2C5D3"
+				"68E7A3D70265EBF0"
+			]
+			id: "6D2B8CFA26118F23"
+			tasks: [{
+				id: "45799C6A9694FF7D"
+				type: "item"
+				item: "compactcrafting:base"
+			}]
+		}
+		{
+			x: 2.25d
+			y: -9.75d
+			shape: "diamond"
+			description: ["Rescan proxies are used to trigger a forced rescan on a field. Miniaturization fields sometimes fail to pick up on changes from automation-style block placers, so you can use these proxies to trigger a scan on a field. They're especially helpful on a hands-free timer setup, for easy automation of highly-used resources!"]
+			dependencies: ["6D2B8CFA26118F23"]
+			id: "584CE2112B8DB37C"
+			tasks: [{
+				id: "088D07B8408DF281"
+				type: "item"
+				item: "compactcrafting:rescan_proxy"
+			}]
+		}
+		{
+			x: 4.25d
+			y: -9.75d
+			shape: "diamond"
+			description: ["Match proxies are used to read recipe state from an active field. They give full redstone signal (15) when a recipe is matched or actively crafting inside the field."]
+			dependencies: ["6D2B8CFA26118F23"]
+			id: "68B92629A6520D7F"
+			tasks: [{
+				id: "7A4CA92583E8275D"
+				type: "item"
+				item: "compactcrafting:match_proxy"
+			}]
+		}
+		{
+			x: 3.75d
+			y: -10.25d
+			shape: "diamond"
+			dependencies: [
+				"68E7A3D70265EBF0"
+				"0B70DAFB9E760CF8"
+				"7958F40FFDC2C5D3"
+			]
+			id: "468F0882201844A0"
+			tasks: [{
+				id: "58A8E33A02D9B8BD"
+				type: "item"
+				item: "compactcrafting:projector_dish"
+			}]
+		}
+		{
+			x: 3.25d
+			y: -9.75d
+			shape: "diamond"
+			dependencies: [
+				"468F0882201844A0"
+				"6D2B8CFA26118F23"
+			]
+			id: "0319BD8E77EE7CE9"
+			tasks: [{
+				id: "7977983F580B6049"
+				type: "item"
+				item: "compactcrafting:field_projector"
+			}]
+		}
+		{
+			x: 3.25d
+			y: -8.5d
+			shape: "octagon"
+			dependencies: ["0319BD8E77EE7CE9"]
+			id: "699619B4EE083179"
+			tasks: [{
+				id: "3594C20DD5BB56E4"
+				type: "item"
+				item: "compactmachines:wall"
+			}]
+		}
+		{
+			title: "Compact Factory Component - Part 1"
+			icon: "masterfulmachinery:compactfactory_controller"
+			x: 2.75d
+			y: -7.0d
+			dependencies: ["699619B4EE083179"]
+			id: "2C93E081CFE8E74F"
+			tasks: [
+				{
+					id: "05B3036C5A2F103A"
+					type: "item"
+					item: "immersiveengineering:alu_scaffolding_standard"
+					count: 38L
+				}
+				{
+					id: "32A2DA50C1C69093"
+					type: "item"
+					item: "create:andesite_casing"
+					count: 179L
+				}
+				{
+					id: "59B68E0F03DB658F"
+					type: "item"
+					item: "kubejs:spirit_attuned_block"
+					count: 8L
+				}
+				{
+					id: "5F268C2FE4F77B0B"
+					type: "item"
+					item: "elevatorid:elevator_brown"
+					count: 3L
+				}
+				{
+					id: "4145F2FBA19DAE63"
+					type: "item"
+					item: "compactmachines:wall"
+					count: 20L
+				}
+				{
+					id: "15020906D632E8E2"
+					type: "item"
+					item: "chisel:factory/hazard"
+					count: 10L
+				}
+				{
+					id: "5D3A17D6404BD595"
+					type: "item"
+					item: "compactcrafting:field_projector"
+					count: 4L
+				}
+				{
+					id: "2E7EB8C33A8AE5DA"
+					type: "item"
+					item: "simplylight:illuminant_gray_block_on"
+					count: 12L
+				}
+				{
+					id: "430BCECC8B56490D"
+					type: "item"
+					item: "simplylight:illuminant_red_block_on"
+					count: 61L
+				}
+				{
+					id: "2E802E02989A08AF"
+					type: "item"
+					item: "immersiveposts:fence_iron"
+					count: 158L
+				}
+				{
+					id: "205A29023F59D41B"
+					type: "item"
+					item: "thermal:polished_rich_slag"
+					count: 27L
+				}
+				{
+					id: "2807A3F2DEAB92EA"
+					type: "item"
+					item: "create:refined_radiance_casing"
+					count: 8L
+				}
+				{
+					id: "7D6BA91DA66886D9"
+					type: "item"
+					item: "create:shadow_steel_casing"
+					count: 8L
+				}
+				{
+					id: "1F0143B46BC43511"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 1471L
+				}
+			]
+		}
+		{
+			x: 3.25d
+			y: -11.25d
+			shape: "diamond"
+			dependencies: [
+				"68E7A3D70265EBF0"
+				"7958F40FFDC2C5D3"
+				"6556C41B660B08F6"
+			]
+			id: "349239D741735A69"
+			tasks: [{
+				id: "35EEC2EF8ECEDBF0"
+				type: "item"
+				item: "compactmachines:personal_shrinking_device"
+			}]
+		}
+		{
+			title: "Compact Factory Component - Part 2"
+			icon: "masterfulmachinery:compactfactory_controller"
+			x: 3.75d
+			y: -7.0d
+			dependencies: ["699619B4EE083179"]
+			id: "7682355BCC714BB6"
+			tasks: [
+				{
+					id: "186F4E58DC71BA95"
+					type: "item"
+					item: "masterfulmachinery:compactfactory_controller"
+				}
+				{
+					id: "3A192121C7D02F5D"
+					type: "item"
+					item: "masterfulmachinery:compactfactory_compact_item_port_items_input"
+				}
+				{
+					id: "394198CD8C741C18"
+					type: "item"
+					item: "masterfulmachinery:compactfactory_compact_item_port_items_output"
+				}
+				{
+					id: "13701736F5478191"
+					type: "item"
+					item: "masterfulmachinery:compactfactory_compact_energy_port_energy_input"
+				}
+			]
+		}
+		{
+			x: 3.25d
+			y: -6.0d
+			shape: "gear"
+			dependencies: [
+				"7682355BCC714BB6"
+				"2C93E081CFE8E74F"
+			]
+			id: "0C3C545117A50271"
+			tasks: [{
+				id: "76593CC05DEA90CB"
+				type: "checkmark"
+				title: "Build The Compact Machine Factory"
 			}]
 		}
 	]

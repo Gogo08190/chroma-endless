@@ -11,7 +11,7 @@
 	quests: [
 		{
 			x: -7.25d
-			y: 5.25d
+			y: 5.75d
 			subtitle: "Improved Extracting"
 			description: [
 				"The &5Improved Extractor&r is an advanced version of the &3Extractor&r. It extract &2elements&r faster."
@@ -27,7 +27,7 @@
 		}
 		{
 			x: -7.25d
-			y: 4.0d
+			y: 4.5d
 			subtitle: "Extracting from Elemental orbs"
 			description: [
 				"Use an &5Extractor&r to extract &2elements&r from &3sources&r."
@@ -43,8 +43,8 @@
 		}
 		{
 			title: "Element Holders"
-			x: -8.75d
-			y: 3.25d
+			x: -8.5d
+			y: 3.75d
 			subtitle: "Storing Elements"
 			description: ["&5Element Holders&r can hold &2elements&r, for transport or for use by &2spells&r. To fill them hold right-click on a &3source&r of the same &2element&r type. You can also transfer &2element&r back to a receiver by holding right-click on it."]
 			dependencies: [
@@ -208,6 +208,7 @@
 			x: -9.25d
 			y: -1.25d
 			subtitle: "Resmelting Glass"
+			description: ["Used for some craft but mainly for decoration."]
 			dependencies: ["2EF6A9F779B7721E"]
 			id: "24B28B4198B98016"
 			tasks: [{
@@ -492,7 +493,7 @@
 		}
 		{
 			x: 2.5d
-			y: 4.0d
+			y: 4.5d
 			subtitle: "Your Ingame Wiki"
 			description: ["Everything you need to know about the &6&lElementalCraft&r mod."]
 			dependencies: ["148AC206C02F9761"]
@@ -512,7 +513,7 @@
 		{
 			title: "Raw Elements Shards"
 			x: 4.0d
-			y: 4.0d
+			y: 4.5d
 			subtitle: "Can be dropped on mobs "
 			dependencies: ["190E6A8147CD1EC5"]
 			id: "53B53495DEA95E9B"
@@ -549,7 +550,7 @@
 				}
 			}
 			x: 2.5d
-			y: 5.5d
+			y: 6.0d
 			subtitle: "Natural Power"
 			description: [
 				"Trough your adventure you will find some &0Elemental Sources&r."
@@ -580,8 +581,8 @@
 			}]
 		}
 		{
-			x: -2.25d
-			y: 0.5d
+			x: -1.0d
+			y: 0.0d
 			subtitle: "Faster !"
 			description: ["The &5Improved Element Binder&r works like a &3Binder&r and &3Infuser&r meaning it can do either binding or infusion at a faster rate. As for any other &2Instruments&r, the &5Improved Binder&r needs to be on top of a &3Container&r but not a &3Small Container&r."]
 			dependencies: ["552D81EF1814A4DD"]
@@ -594,7 +595,7 @@
 		}
 		{
 			x: -1.0d
-			y: 2.0d
+			y: 1.5d
 			subtitle: "Binding elements to items"
 			description: ["The &5Binder&r is one of the most important &2Instrument&r. It channels elements to combine multiples items together. Be careful because the order is which you put the items is really important, you need to put them clockwise from the top. As for any other &2Instruments&r, the &5Binder&r needs to be on top of a &3Container&r, but not a &3Small Container&r."]
 			dependencies: ["5269FB3852203971"]
@@ -606,8 +607,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 2.0d
+			x: 2.5d
+			y: 1.5d
 			subtitle: "Elemental Tank"
 			description: ["The &5Element Container&r is an &2element&r storage, containing more &2elements&r than the &3Small Container&r, and it is compatible with all &2instruments&r."]
 			dependencies: ["5269FB3852203971"]
@@ -667,10 +668,10 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: 0.25d
+			x: 0.75d
+			y: 0.0d
 			subtitle: "Infused by Air"
-			description: ["Use the &2Element Binder&r to create this ingot ! It consumes &eAir&r!"]
+			description: ["Use the &2Element Binder&r to create this ingot ! It consumes &eAir&r !"]
 			dependencies: [
 				"552D81EF1814A4DD"
 				"33958A09FB7E36BE"
@@ -686,6 +687,7 @@
 			x: -3.75d
 			y: 0.25d
 			subtitle: "The Best Element Pipe"
+			description: ["Those are the cables needed to craft the &#a2a9f1&lPure Crystal&r."]
 			dependencies: [
 				"5269FB3852203971"
 				"4E0EFFD2B6E7E1BE"
@@ -753,7 +755,7 @@
 		}
 		{
 			x: -3.75d
-			y: 4.0d
+			y: 4.5d
 			shape: "diamond"
 			subtitle: "A worthy Trade"
 			description: ["Thanks to &2The Alfeihm&r you'll get the &6Contained Crystal&r used for multiple crafting."]
@@ -766,8 +768,10 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 2.0d
+			x: 0.75d
+			y: 1.5d
+			subtitle: "Creating Elemental Source With Shards"
+			description: ["Place this on any &2Container&r and right-click with any &#a2a9f1Elements&r. It will fill the &2Container&r with the &#a2a9f1Element&r of the Shard."]
 			dependencies: ["5269FB3852203971"]
 			id: "22BE141241096122"
 			tasks: [{
@@ -893,6 +897,7 @@
 			y: -3.25d
 			shape: "gear"
 			subtitle: "Dragon's Anger"
+			description: ["See the &6Gem Crystallizer&r quest to have more information."]
 			dependencies: ["7BD2D6B517F906ED"]
 			id: "567BBF4D2121418C"
 			tasks: [{
@@ -906,6 +911,7 @@
 			y: -3.25d
 			shape: "gear"
 			subtitle: "Dwarf's Exploring"
+			description: ["See the &6Gem Crystallizer&r quest to have more information."]
 			dependencies: ["7BD2D6B517F906ED"]
 			id: "45ACEDB8B8D30E96"
 			tasks: [{
@@ -919,6 +925,7 @@
 			y: -3.25d
 			shape: "gear"
 			subtitle: "Avatar's Peace"
+			description: ["See the &6Gem Crystallizer&r quest to have more information."]
 			dependencies: ["7BD2D6B517F906ED"]
 			id: "1B5469D64AE3F850"
 			tasks: [{
@@ -932,6 +939,7 @@
 			y: -3.25d
 			shape: "gear"
 			subtitle: "Aquaman's Wrath"
+			description: ["See the &6Gem Crystallizer&r quest to have more information."]
 			dependencies: ["7BD2D6B517F906ED"]
 			id: "53E0B3F747685F9E"
 			tasks: [{
@@ -962,28 +970,6 @@
 			}]
 		}
 		{
-			x: 6.75d
-			y: -6.25d
-			subtitle: "&cFireite&r production"
-			dependencies: ["7BD2D6B517F906ED"]
-			id: "425E218F59F2A24B"
-			tasks: [{
-				id: "371134D2081CD8EC"
-				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:fireite_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.fireite_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#c53d10"
-					}
-				}
-			}]
-		}
-		{
 			x: 5.5d
 			y: -5.0d
 			description: [
@@ -1002,6 +988,7 @@
 			x: 8.75d
 			y: -6.25d
 			subtitle: "Netherite? Nope !"
+			description: ["A new Ingot used for some crafts."]
 			dependencies: ["7BD2D6B517F906ED"]
 			id: "7260BE309AD6DF62"
 			tasks: [{
@@ -1089,8 +1076,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -2.75d
+			x: 2.75d
+			y: -3.25d
 			subtitle: "It might burn"
 			dependencies: ["42310EAE3A06F15E"]
 			id: "717F8022297E00D2"
@@ -1101,8 +1088,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -2.75d
+			x: 1.75d
+			y: -3.25d
 			subtitle: "Grass not included"
 			dependencies: ["1F1890B436E5414D"]
 			id: "61D352299B41DBB0"
@@ -1113,15 +1100,21 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -2.5d
+			x: 1.25d
+			y: -2.0d
 			shape: "hexagon"
 			subtitle: "A new way of using Elements"
 			description: [
 				"The &5Pure Infuser&r is the most powerful crafting tool? it uses &5pedestals&r to channel all 4 &2elements&r into 1 item. To operate, it needs to be circled with each of the 4 &5pedestals&r, each being provided with the correct &2element&r using &3improved pipes&r. "
 				"Once this setup is done, you can start crating by putting the correct &5ingredient&r on each &2pedestal&r and the main one on the &2pure infuser&r."
 			]
-			dependencies: ["0D78C3974BBDEDF3"]
+			dependencies: [
+				"0D78C3974BBDEDF3"
+				"4431A21A852F98FA"
+				"343F169E9B91EC9B"
+				"61D352299B41DBB0"
+				"717F8022297E00D2"
+			]
 			id: "42B4D74321A27197"
 			tasks: [{
 				id: "3AF6615857DF69AD"
@@ -1130,8 +1123,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -2.75d
+			x: 0.75d
+			y: -3.25d
 			subtitle: "Lighter than air"
 			dependencies: ["217BBDA743C9716C"]
 			id: "343F169E9B91EC9B"
@@ -1142,8 +1135,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -2.75d
+			x: -0.25d
+			y: -3.25d
 			subtitle: "Careful, might be slippery"
 			dependencies: ["48E7E8ACC4F2EB9C"]
 			id: "4431A21A852F98FA"
@@ -1154,8 +1147,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -4.0d
+			x: -0.25d
+			y: -4.5d
 			shape: "pentagon"
 			subtitle: "&bWater&r at it's finest"
 			dependencies: ["1ED7B5CA71DDFF89"]
@@ -1167,8 +1160,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -4.0d
+			x: 0.75d
+			y: -4.5d
 			shape: "pentagon"
 			subtitle: "&eAir&r at it's finest"
 			dependencies: ["1ED7B5CA71DDFF89"]
@@ -1180,8 +1173,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -4.0d
+			x: 1.75d
+			y: -4.5d
 			shape: "pentagon"
 			subtitle: "&2Earth&r at it's finest"
 			dependencies: ["1ED7B5CA71DDFF89"]
@@ -1193,8 +1186,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -4.0d
+			x: 2.75d
+			y: -4.5d
 			shape: "pentagon"
 			subtitle: "&4Fire&r at it's finest"
 			dependencies: ["1ED7B5CA71DDFF89"]
@@ -1206,8 +1199,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -5.25d
+			x: 1.25d
+			y: -5.75d
 			subtitle: "Quality Gems "
 			description: [
 				"The &5Gem Crystallizer&r allows you to infuse the power of a single &5crystal&r to a &5diamond&r to create &5elemental gem&r. There are 3 qualities of gems :"
@@ -1231,7 +1224,7 @@
 		}
 		{
 			x: 0.0d
-			y: 4.0d
+			y: 4.5d
 			shape: "diamond"
 			subtitle: "Your First Ore"
 			description: ["While mining you may find some &l&nInert Ore&r. Mine it and you'll obtain this !"]
@@ -1626,6 +1619,7 @@
 			y: -7.25d
 			shape: "rsquare"
 			subtitle: "All the Spells !"
+			description: ["You can find all the informations about the spells in the &2&lElementopedia&r"]
 			dependencies: ["7F6F05F53A58BCD3"]
 			optional: true
 			id: "73D5C86184299230"
@@ -2016,6 +2010,10 @@
 			x: 2.5d
 			y: 11.5d
 			subtitle: "Pressing Glyphes"
+			description: [
+				"Accessing new spells requires a special machine designed to convert items into glyphs. These glyphs can be used to unlock new spells in a spell book or may be used in special crafting recipes. Creating a Glyph will require a special form of magical clay, a reagent for the spell, and nearby source jar. To use the glyph press, first place your clay into the press."
+				"Then, use the reagent provided on the press. If there is enough source nearby, the press will begin crafting. &5Mana&r can be provided by a nearby &#c69c6dSource Jar&r. The glyph press may be automated using &eHoppers&r. A hopper from any side will place &bClay&r, while a hopper from the top can insert the reagant the clay. If there is enough source nearby, the crafting will start automatically."
+			]
 			dependencies: ["2C180B990E4CCEC3"]
 			id: "120CD537BDE5EAAD"
 			tasks: [{
@@ -2029,6 +2027,7 @@
 			x: 1.75d
 			y: 10.0d
 			subtitle: "Crafting some Stones"
+			description: ["&5Arcane Stones&r are a usefull component that are going to be used for almost all crafts."]
 			dependencies: ["2D280B19DAF910F3"]
 			id: "2C180B990E4CCEC3"
 			tasks: [{
@@ -2572,7 +2571,7 @@
 		{
 			title: "Enchanting Apparatus"
 			x: -0.5d
-			y: 12.25d
+			y: 13.5d
 			subtitle: "A New Way Of Crafting"
 			dependencies: ["2C180B990E4CCEC3"]
 			id: "0F5064AAAA97F693"
@@ -2599,6 +2598,7 @@
 			x: 3.25d
 			y: 10.0d
 			subtitle: "Stocking Mana"
+			description: ["&#FF69B4Source Jars&r store source gathered from nearby &5Sourcelinks&r. &5Mana&r is used in glyphs and rituals by powering devices like the &5Glyph Press&r and &6Enchanting Apparatus&r. &5Mana&r may be moved using a bucket; or the jar can be picked up and moved. To use &5Mana&r in a jar, simply place the jar near your desired device. &#c69c6dSource Jars&r will provide a signal to Redstone Comparators&r based on their fill level."]
 			dependencies: ["2C180B990E4CCEC3"]
 			id: "620AE64F27D7DC43"
 			tasks: [{
@@ -2612,7 +2612,18 @@
 			x: 4.25d
 			y: 11.5d
 			subtitle: "Relaying Mana Generation"
+			description: [
+				"What is a &#FF69B4Source Relay&r ?"
+				"Enables the transport of &5Mana&r between &#c69c6dSource Jars&r and other &#FF69B4Source Relays&r. To pull &5Mana&r source from jars, use the &6Dominion Wand&r on the jar, and then on the relay. To send between relay or from a relay to a jar, use the wand on the relay and then the target you wish to send &5Mana&r to. &#FF69B4Relays&r may only reach up to 30 blocks away. To clear connections, sneak while using the &6Dominion Wand&r on the relay."
+				""
+				"The &#FF69B4Source Relay: Depositor&r operates similar to the &#c69c6dSource Jar&r, but will deposit to jars it is not linked to within 5 blocks."
+				""
+				"The &#FF69B4Source Relay: Splitter&r operates similar to the &#FF69B4Source Relay&r, but will support taking from and transferring to multiple jars at once. The Splitter has a much larger through-put than the &#FF69B4Source Relay&r, and will split this through-put amongst all of its jars."
+				""
+				"The &#FF69B4Source Relay: Warper&r operates similar to the                       &#FF69B4Source Relay: Splitter&r, but can teleport source an endless distance between other &5Warp&r relays. For distances beyond 30 block, there is a chance that some source will be lost during warp."
+			]
 			dependencies: ["620AE64F27D7DC43"]
+			min_width: 350
 			id: "025EC5563C39255B"
 			tasks: [
 				{
@@ -2641,6 +2652,14 @@
 			x: 5.0d
 			y: 10.0d
 			subtitle: "Linking Tool"
+			description: [
+				"A tool for confuring &5Source Relays&r and automation entities. To set a transfer path, use the wand of the object that you would like to take source from, and then use it on the block you would like to send source to. "
+				"For example : "
+				"&5Source Jar&r to &#FF69B4Source Relay&r,"
+				"&#FF69B4Source Relay&r to &#FF69B4Source Relay&r,"
+				"&#FF69B4Source Relay&r to &5Source Jar&r."
+				"To clear conenctions, sneak and use this wand on a &5relay&r."
+			]
 			dependencies: ["620AE64F27D7DC43"]
 			id: "63369166FED1B89E"
 			tasks: [{
@@ -2681,7 +2700,7 @@
 		}
 		{
 			title: "Bee Stuff"
-			x: -1.75d
+			x: -2.5d
 			y: 13.5d
 			dependencies: ["0F5064AAAA97F693"]
 			id: "3C596418F805D2DB"
@@ -2723,17 +2742,19 @@
 			]
 		}
 		{
+			title: "Generating Some Mana"
 			x: 5.7392857142856855d
 			y: 6.5119047619047805d
 			shape: "rsquare"
 			subtitle: "Generating Mana"
+			description: ["Multiple sources of &5Mana&r generation !"]
 			dependencies: ["2C180B990E4CCEC3"]
 			size: 2.0d
 			id: "2B073D5DCCB463A6"
 			tasks: [{
 				id: "5755A99F5F43CF78"
 				type: "checkmark"
-				title: "Generating Mana"
+				title: "Mana Generated"
 			}]
 		}
 		{
@@ -2741,6 +2762,7 @@
 			y: 6.0d
 			shape: "rsquare"
 			subtitle: "Generating Mana With Potions"
+			description: ["Generates &5Mana&r by consuming potions from adjacent potion jars. The amout of &5Mana&r varies per potion and is dependent on the complexity of the potion. Bonus source is given for the length and level of the potion with multipliers for each effect a potion contains. Utilizing &#FF69B4Wixies&r and &5Potion Melders&r is recommanded for creating highly complex potions."]
 			dependencies: ["2B073D5DCCB463A6"]
 			id: "28F2DAA8953FA93D"
 			tasks: [{
@@ -2753,7 +2775,11 @@
 			x: 5.25d
 			y: 8.0d
 			shape: "rsquare"
-			subtitle: "Coal Generates Mana"
+			subtitle: "Mana with Fuel"
+			description: [
+				"The Volcanic Sourcelink generates source by consuming burnable items. &5Archwood Logs&r will generate bonus mana, with &cBlazing Archwood&r generating the most. As the &6Volcanic Sourcelink&r procudes &2Source&r, it aslo produce &cHeat&r used for spawning Lava Lilies and converting stone into lava. The &6Volcanic Sourcelink&r automatically outputs the nearby jars, starting with the one closest to it."
+				"Nearby &cBlazing Archwood&r items will be burned up in exchange for a chunk of mana and a moderate amount of &cHeat&r. The &6Volcanic Sourcelink&r will also take items from surronding pedestals."
+			]
 			dependencies: ["2B073D5DCCB463A6"]
 			id: "5D56176F04A6033D"
 			tasks: [{
@@ -2767,6 +2793,7 @@
 			y: 8.0d
 			shape: "rsquare"
 			subtitle: "Growing Mana Plants !"
+			description: ["The &6Agronomic Sourcelink&r generates source from nearby crop and tree growth. Bonus mana is generated for magical plants such as &2Mageblooms Source Berry Bushes&r, and &2Archwood Sapling&r. Source will be output from the &6Sourcelink&r to nearby jars within 5 blocks. "]
 			dependencies: ["2B073D5DCCB463A6"]
 			id: "7846EFEAC8899263"
 			tasks: [{
@@ -2780,6 +2807,7 @@
 			y: 8.0d
 			shape: "rsquare"
 			subtitle: "Mushrooms are good"
+			description: ["Generates a moderate amout of source from nearby food, generating more for more nourishing food. &2Source Berry&r food is worth far more than other mundane foods. Additionaly, the &6Mycelial Sourcelink&r will convert &2Grass&r or &cDirt&r in the 3x3 below it into &5Mycelium&r and will  gros mushrooms around it given that space is empty. The &6Sourcelink&r will also pull items from nearby pedestals."]
 			dependencies: ["2B073D5DCCB463A6"]
 			id: "694EF935182800E4"
 			tasks: [{
@@ -2793,6 +2821,7 @@
 			y: 7.0d
 			shape: "rsquare"
 			subtitle: "Life Draining Mana "
+			description: ["Generates a moderate amout of &5Mana&r from nearby mob death and animal breeding. Additionaly, the &6Vitalic Sourcelink&r will provide passive &5Mana&r from nearby baby animals and will accelerate their growth."]
 			dependencies: ["2B073D5DCCB463A6"]
 			id: "60540B4E2F1A4B4C"
 			tasks: [{
@@ -2802,8 +2831,10 @@
 			}]
 		}
 		{
-			x: 0.75d
+			x: 1.5d
 			y: 13.5d
+			subtitle: "Mixing Potions"
+			description: ["Converts 3 doses of a ption from 2 adjacents &#c69c6dPotion Jars&r, and outputs a single dose of mixed potion into a &#c69c6dPotion Jar&r beneath it. The &5Potion Melder&r requires &5Mana&r per mix."]
 			dependencies: ["0F5064AAAA97F693"]
 			id: "27434472ADF568A8"
 			tasks: [
@@ -2823,6 +2854,8 @@
 		{
 			x: -1.75d
 			y: 14.5d
+			subtitle: "Rituals! "
+			description: ["A brazier that may be used as decoration or for performing rituals. To light the brazier for decoration, cast a &l&nLight&r Spell on the brazier. The color of the brazier corresponds with the color of the spell. Applying a redstone signal will disable a running ritual. For information on performing rituals, see the dedicated section on rituals."]
 			dependencies: ["0F5064AAAA97F693"]
 			id: "2A2084F619A57295"
 			tasks: [{
@@ -2886,7 +2919,9 @@
 		}
 		{
 			x: -0.5d
-			y: 13.5d
+			y: 15.25d
+			subtitle: "A new ingot"
+			description: ["When making &5Source Steel&r, you must inject netherite with source at the &6Enchanting Appartus&r."]
 			dependencies: ["0F5064AAAA97F693"]
 			id: "00E6F30F0B847212"
 			tasks: [{
@@ -2896,24 +2931,16 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 15.5d
-			shape: "gear"
-			dependencies: ["00E6F30F0B847212"]
-			size: 2.0d
-			id: "1D2E4590B915476A"
+			x: 1.25d
+			y: 8.0d
+			subtitle: "Ingame Wiki"
+			description: ["All informations about &5Ars Nouveau&r can be found in this book !"]
+			dependencies: ["2D280B19DAF910F3"]
+			id: "6B3064791F58A13C"
 			tasks: [{
-				id: "67EA3BC28EBB9F3A"
+				id: "246A48055F0913AE"
 				type: "item"
-				item: {
-					id: "tiab:timeinabottle"
-					Count: 1b
-					tag: {
-						timeData: {
-							storedTime: 3280
-						}
-					}
-				}
+				item: "ars_nouveau:worn_notebook"
 			}]
 		}
 	]

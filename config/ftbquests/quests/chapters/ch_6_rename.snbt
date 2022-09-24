@@ -1321,6 +1321,7 @@
 		{
 			x: 38.0d
 			y: -4.0d
+			description: ["The fluid extractor will extract &9&llatex&r from &6&lwood&r that are placed in front of the machine. Multiple extractors can be used to extract from the same log at the same time."]
 			dependencies: ["7C4C717137B640C6"]
 			id: "330130D7B723C1A9"
 			tasks: [{
@@ -1332,6 +1333,7 @@
 		{
 			x: 39.5d
 			y: -4.0d
+			description: ["The Latex Processing Unit will use 100mb of &9&llatex&r and 500mb of &1&lwater&r to produce 1 &7&ltiny dry rubber&r."]
 			dependencies: ["7C4C717137B640C6"]
 			id: "1A1A454F8FD83B74"
 			tasks: [{
@@ -1464,6 +1466,7 @@
 		{
 			x: 38.75d
 			y: 0.0d
+			description: ["A powerful machine used to craft materials using up to 8 items and/or 1 fluid."]
 			dependencies: [
 				"036371C7B3B1F0AF"
 				"2D54A1A013FB3774"
@@ -1726,6 +1729,7 @@
 		{
 			x: 38.75d
 			y: -2.0d
+			description: ["&7&lThe Plastic&r is used as a crafting component for many machines and items within the mod."]
 			dependencies: [
 				"1A1A454F8FD83B74"
 				"330130D7B723C1A9"
@@ -2098,6 +2102,7 @@
 		{
 			x: 47.0d
 			y: 5.5d
+			description: ["Increase the range of machines that have a working area, not all machines accept range addons. Each tier increases the range by 1."]
 			hide_dependency_lines: true
 			dependencies: ["73368EF2948452D9"]
 			id: "20B811B7231BCAE4"
@@ -2226,6 +2231,7 @@
 		{
 			x: 46.0d
 			y: 4.5d
+			description: ["Decreases by -10% the amount of ticks need to complete an operation."]
 			hide_dependency_lines: true
 			dependencies: [
 				"73368EF2948452D9"
@@ -2249,6 +2255,7 @@
 		{
 			x: 45.0d
 			y: 4.5d
+			description: ["Decreases by -20% the amount of ticks need to complete an operation."]
 			hide_dependency_lines: true
 			dependencies: [
 				"73368EF2948452D9"
@@ -2272,6 +2279,7 @@
 		{
 			x: 47.0d
 			y: 3.5d
+			description: ["Increased by 1 the amount of operations done when a machine finishes processing."]
 			hide_dependency_lines: true
 			dependencies: [
 				"73368EF2948452D9"
@@ -2295,6 +2303,7 @@
 		{
 			x: 47.0d
 			y: 2.5d
+			description: ["Increased by 2 the amount of operations done when a machine finishes processing."]
 			hide_dependency_lines: true
 			dependencies: [
 				"73368EF2948452D9"
@@ -2318,6 +2327,7 @@
 		{
 			x: 48.0d
 			y: 4.5d
+			description: ["Increase by 1 how much the progress bar advances every tick."]
 			hide_dependency_lines: true
 			dependencies: [
 				"73368EF2948452D9"
@@ -2341,6 +2351,7 @@
 		{
 			x: 49.0d
 			y: 4.5d
+			description: ["Increase by 2 how much the progress bar advances every tick."]
 			hide_dependency_lines: true
 			dependencies: [
 				"73368EF2948452D9"
@@ -2365,7 +2376,10 @@
 			x: 47.0d
 			y: 4.5d
 			hide_dependency_lines: true
-			dependencies: ["2291A2EA731C5B9E"]
+			dependencies: [
+				"2291A2EA731C5B9E"
+				"73368EF2948452D9"
+			]
 			id: "27752EF28993C22E"
 			tasks: [{
 				id: "74EA6CE530A4A020"
@@ -2460,6 +2474,7 @@
 		{
 			x: 31.25d
 			y: 4.75d
+			description: ["A fluid produced by the &9&lPlant Gatherer&r and used in the &9&lSludge Refiner&r."]
 			hide_dependency_lines: true
 			dependencies: ["674D96570B7CE75F"]
 			optional: true
@@ -2473,6 +2488,11 @@
 		{
 			x: 30.25d
 			y: 4.75d
+			description: [
+				"The fluid produced by the &9&lBioreactor&r."
+				""
+				"Used in a &9&lBiofuel Generator&r or in &9&lInfinity Tools&r."
+			]
 			hide_dependency_lines: true
 			dependencies: ["60617DA0B9FA35D5"]
 			optional: true
@@ -2486,6 +2506,7 @@
 		{
 			x: 29.25d
 			y: 4.75d
+			description: ["This fluid is used in a &9&lLatex Processing Unit&r to make &7&lTiny Dry Rubber&r."]
 			hide_dependency_lines: true
 			dependencies: ["330130D7B723C1A9"]
 			optional: true
@@ -2499,6 +2520,7 @@
 		{
 			x: 28.25d
 			y: 4.75d
+			description: ["The fluid form of experience produced by the &9&lMob Crusher&r."]
 			hide_dependency_lines: true
 			dependencies: ["296B3469D6D39BB6"]
 			optional: true
@@ -2512,6 +2534,7 @@
 		{
 			x: 27.25d
 			y: 4.75d
+			description: ["A fluid produced by the &9&lMob Slaughter Factory&r."]
 			hide_dependency_lines: true
 			dependencies: ["00C8869CC6B0933C"]
 			optional: true
@@ -2525,6 +2548,7 @@
 		{
 			x: 28.25d
 			y: 3.75d
+			description: ["A fluid produced by the &9&lMob Slaughter Factory&r."]
 			hide_dependency_lines: true
 			dependencies: ["00C8869CC6B0933C"]
 			optional: true
@@ -2572,6 +2596,7 @@
 		{
 			x: 31.25d
 			y: 3.75d
+			description: ["The fluid produced by the &9&lFluid Laser Base&r when placed right on top of a &0&lWither&r."]
 			hide_dependency_lines: true
 			dependencies: ["146F580FDDB6FED3"]
 			optional: true
@@ -2585,6 +2610,7 @@
 		{
 			x: 27.25d
 			y: 3.75d
+			description: ["The fluid produced by the &9&lSewer&r. You don't want to know about it."]
 			hide_dependency_lines: true
 			dependencies: ["2F2D0CC9A18D0D79"]
 			optional: true

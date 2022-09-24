@@ -322,8 +322,8 @@
 			}]
 		}
 		{
-			x: -8.75d
-			y: -4.5d
+			x: -9.75d
+			y: -5.5d
 			id: "06CC09E0AE4819E5"
 			tasks: [{
 				id: "546D8467E5186A2C"
@@ -519,6 +519,2636 @@
 				id: "60C071566428F9EC"
 				type: "item"
 				item: "resourcefulbees:t4_apiary"
+			}]
+		}
+		{
+			title: "Centrifuge T1"
+			x: 3.5d
+			y: -9.25d
+			id: "7A66C68E1C3AF881"
+			tasks: [
+				{
+					id: "7558B172420815E9"
+					type: "item"
+					item: "resourcefulbees:centrifuge_controller"
+				}
+				{
+					id: "5B755CB69B70328A"
+					type: "item"
+					item: "resourcefulbees:centrifuge_casing"
+					count: 35L
+				}
+			]
+		}
+		{
+			title: "Centrifuge T2"
+			x: 4.5d
+			y: -9.25d
+			id: "4141EE8BD098B5F7"
+			tasks: [
+				{
+					id: "382E4E757DB90E68"
+					type: "item"
+					item: "resourcefulbees:elite_centrifuge_controller"
+				}
+				{
+					id: "4F5C7CFE86D51BAA"
+					type: "item"
+					item: "resourcefulbees:elite_centrifuge_casing"
+					count: 35L
+				}
+			]
+		}
+		{
+			title: "Centrifuge T3"
+			x: 5.5d
+			y: -9.25d
+			id: "5D668A7645CA9D75"
+			tasks: [
+				{
+					id: "105DEADDB203BF17"
+					type: "item"
+					item: "ctiers:centrifuge_controller_tier_3"
+				}
+				{
+					id: "232888367DD72158"
+					type: "item"
+					item: "ctiers:centrifuge_casing_tier_3"
+					count: 35L
+				}
+			]
+		}
+		{
+			title: "Centrifuge T4"
+			x: 6.5d
+			y: -9.25d
+			id: "5B4B6227A4AD5BF6"
+			tasks: [
+				{
+					id: "1BFB8A7F1F449090"
+					type: "item"
+					item: "ctiers:centrifuge_controller_tier_4"
+				}
+				{
+					id: "13CDC029977CEF81"
+					type: "item"
+					item: "ctiers:centrifuge_casing_tier_4"
+					count: 35L
+				}
+			]
+		}
+		{
+			title: "Centrifuge T5"
+			x: 7.5d
+			y: -9.25d
+			id: "27F9CF6E66440A3E"
+			tasks: [
+				{
+					id: "3F9097FDD2A52564"
+					type: "item"
+					item: "ctiers:centrifuge_controller_tier_5"
+				}
+				{
+					id: "621AF3FD8A589775"
+					type: "item"
+					item: "ctiers:centrifuge_casing_tier_5"
+					count: 35L
+				}
+			]
+		}
+		{
+			x: -2.75d
+			y: -4.75d
+			id: "3976D489E9603FD4"
+			tasks: [{
+				id: "20AB11496A5DB3AC"
+				type: "item"
+				item: "resourcefulbees:honey_generator"
+			}]
+		}
+		{
+			x: -3.75d
+			y: -4.75d
+			id: "191848C1A5D159D5"
+			tasks: [{
+				id: "65651D036DFE9A10"
+				type: "item"
+				item: "resourcefulbees:apiary_storage"
+			}]
+		}
+		{
+			title: "Blaze Bee"
+			x: 1.5d
+			y: -7.0d
+			id: "589D4FAB92ACB60C"
+			tasks: [{
+				id: "51996E6647F34CCE"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:blaze_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.blaze_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#fff32d"
+					}
+				}
+			}]
+		}
+		{
+			title: "Bitumen Bee"
+			x: 2.5d
+			y: -7.0d
+			id: "2F8774E9410F9C4F"
+			tasks: [{
+				id: "5F9363632EE3E115"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:bitumen_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.bitumen_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#35424f"
+					}
+				}
+			}]
+		}
+		{
+			title: "Beeper Bee"
+			x: 3.5d
+			y: -7.0d
+			id: "005A0621823CB942"
+			tasks: [{
+				id: "60E2F3C608D829FB"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:creeper_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.creeper_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#0C9F0A"
+					}
+				}
+			}]
+		}
+		{
+			title: "Blazalz Bee"
+			x: 4.5d
+			y: -7.0d
+			id: "7D2B680872E34FE3"
+			tasks: [{
+				id: "2E1C9957EC46B471"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:basalz_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.basalz_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#1b141d"
+					}
+				}
+			}]
+		}
+		{
+			title: "Awakened Bee"
+			x: 5.5d
+			y: -7.0d
+			id: "7419F92850195AF6"
+			tasks: [{
+				id: "728A1DB4422015E7"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:awakened_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.awakened_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#FF4C00"
+					}
+				}
+			}]
+		}
+		{
+			title: "Aluminium Bee"
+			x: 6.5d
+			y: -7.0d
+			id: "6D17FF2CFD79A44D"
+			tasks: [{
+				id: "751CE9E8B450F9BF"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:aluminum_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.aluminum_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#dce6f7"
+					}
+				}
+			}]
+		}
+		{
+			title: "AllTheModium Bee"
+			x: 7.5d
+			y: -7.0d
+			id: "1A6EA32BFBE0BAAE"
+			tasks: [{
+				id: "711FCC2B360FE68D"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:allthemodium_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.allthemodium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#fcc50c"
+					}
+				}
+			}]
+		}
+		{
+			title: "Aeternium Bee"
+			x: 8.5d
+			y: -7.0d
+			id: "1524181F40000154"
+			tasks: [{
+				id: "08CCDAC38F0BF47C"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:aeternium_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.aeternium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#075a52"
+					}
+				}
+			}]
+		}
+		{
+			title: "AbBee"
+			x: 9.5d
+			y: -7.0d
+			id: "40DCBD615084C6C3"
+			tasks: [{
+				id: "5B07275520606AD7"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:abbee_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.abbee_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#E5DED5"
+					}
+				}
+			}]
+		}
+		{
+			title: "Cloggrum Bee"
+			x: 1.5d
+			y: -6.0d
+			id: "7515931B78C983B4"
+			tasks: [{
+				id: "349237F1436E154C"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:cloggrum_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.cloggrum_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#ba9d7b"
+					}
+				}
+			}]
+		}
+		{
+			title: "Chaotic Bee"
+			x: 3.5d
+			y: -6.0d
+			id: "61570EC6C55AA5A1"
+			tasks: [{
+				id: "20CFF6EBE9ACF53C"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:chaotic_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.chaotic_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#161616"
+					}
+				}
+			}]
+		}
+		{
+			title: "Clay Bee"
+			x: 2.5d
+			y: -6.0d
+			id: "6545A0C21D34826C"
+			tasks: [{
+				id: "1E01733E090B202D"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:clay_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.clay_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#acaebd"
+					}
+				}
+			}]
+		}
+		{
+			title: "Bronze Bee"
+			x: 4.5d
+			y: -6.0d
+			id: "4FA5CFA4E3974878"
+			tasks: [{
+				id: "2FA08BCA559696A7"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:bronze_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.bronze_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#e5b770"
+					}
+				}
+			}]
+		}
+		{
+			title: "Brass Bee"
+			x: 5.5d
+			y: -6.0d
+			id: "2B794BD7028969E9"
+			tasks: [{
+				id: "2186D3425F174E39"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:brass_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.brass_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#c3c45a"
+					}
+				}
+			}]
+		}
+		{
+			title: "Blutonium Bee"
+			x: 6.5d
+			y: -6.0d
+			id: "01A2C48E3267094D"
+			tasks: [{
+				id: "67D72F1E11C1E69D"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:blutonium_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.blutonium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#3535cc"
+					}
+				}
+			}]
+		}
+		{
+			title: "Blizz Bee"
+			x: 7.5d
+			y: -6.0d
+			id: "16A03F5CFE8884CD"
+			tasks: [{
+				id: "6FC208526D718DF2"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:blizz_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.blizz_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#37b7fe"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: -6.0d
+			id: "6A75FA5BAA7397EE"
+			tasks: [{
+				id: "475C415004911134"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:blitz_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.blitz_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#def7fa"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: -6.0d
+			id: "56358130A39993C7"
+			tasks: [{
+				id: "4E951AB27708D54F"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:blazing_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.blazing_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#ffe01f"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.0d
+			id: "050F2D70D0777FB3"
+			tasks: [{
+				id: "317EFE606B882383"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:dragon_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.dragon_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#222222"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.0d
+			id: "5A07D9CF3FD9C816"
+			tasks: [{
+				id: "69F0D89A66FBAF8A"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:draconium_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.draconium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#8419FF"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -5.0d
+			id: "33C16FAD439619C2"
+			tasks: [{
+				id: "526A113C7FA25663"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:diamond_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.diamond_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#00ffff"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -5.0d
+			id: "4D42659154BDCE04"
+			tasks: [{
+				id: "2F8C28B1B1C78846"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:cyanite_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.cyanite_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#acddff"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -5.0d
+			id: "3DB1DBE894C2FA8B"
+			tasks: [{
+				id: "42F60A699A97FA15"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:copper_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.copper_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#bb5b30"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: -5.0d
+			id: "4A475D327919C897"
+			tasks: [{
+				id: "47BC222DA08B1A3C"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:constantan_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.constantan_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#dbab81"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: -5.0d
+			id: "7162685E96B5836D"
+			tasks: [{
+				id: "4175A43B54BE5C04"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:compressed_iron_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.compressed_iron_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#66625e"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: -5.0d
+			id: "5BC68FBD947AEB91"
+			tasks: [{
+				id: "412D63A23D4690CF"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:cobalt_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.cobalt_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#116fa6"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: -5.0d
+			id: "5AE479976404293E"
+			tasks: [{
+				id: "502E60E3F595B09F"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:coal_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.coal_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#303030"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			id: "7B10A976B887C6AC"
+			tasks: [{
+				id: "1CC6BAFD444F934E"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:ender_slime_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.ender_slime_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#a777e1"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			id: "577DB248DD78EAAB"
+			tasks: [{
+				id: "0FF9FB799A2B90A7"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:enderium_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.enderium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#289799"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.0d
+			id: "1C2488763CCCA93F"
+			tasks: [{
+				id: "3876A19B3552D1DF"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:ender_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.ender_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#339786"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -4.0d
+			id: "111E33A961DC42F6"
+			tasks: [{
+				id: "67FD3D1F03F46ABF"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:end_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.end_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#E1E9A6"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -4.0d
+			id: "2D5EC8FEBAB64AB9"
+			tasks: [{
+				id: "3FB77264B87DA947"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:emerald_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.emerald_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#18eb09"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: -4.0d
+			id: "3189DCB3226F9AC0"
+			tasks: [{
+				id: "1B8FD83F9BD33A2C"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:elementium_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.elementium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#f51fff"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: -4.0d
+			id: "76E20AA80F5BE12F"
+			tasks: [{
+				id: "11C7DB2D412064C0"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:electrum_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.electrum_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#e5b840"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: -4.0d
+			id: "5673D229209207E6"
+			tasks: [{
+				id: "62B6BF93694F5D86"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:dungeon_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.dungeon_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#2A4455"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: -4.0d
+			id: "6DC436C371D0ECF2"
+			tasks: [{
+				id: "04F065E9F6B662D3"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:drenched_iron_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.drenched_iron_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#95bae2"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			id: "7D155A473CFE9687"
+			tasks: [{
+				id: "425FFA9F5B4A65D1"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:gaia_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.gaia_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#7b5c75"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			id: "0DE49A94A38583BF"
+			tasks: [{
+				id: "14AD5935F26DABE1"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:froststeel_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.froststeel_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#8aadcf"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.0d
+			id: "7AD3A385444D5E7E"
+			tasks: [{
+				id: "03A568F26E9A0EE9"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:forgotten_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.forgotten_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#57e3b3"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.0d
+			id: "24058CE8785ACBF8"
+			tasks: [{
+				id: "35FBD7315B652762"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:forest_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.forest_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#4c4c26"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -3.0d
+			id: "415F1AAF4C0FBEF6"
+			tasks: [{
+				id: "5A08B719B6D815EE"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:fluorite_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.fluorite_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#b3c7d4"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: -3.0d
+			id: "3F0CC889E4CF19B5"
+			tasks: [{
+				id: "01E67615B5534890"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:fireite_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.fireite_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#c53d10"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: -3.0d
+			id: "44629B5FE3F169C4"
+			tasks: [{
+				id: "3A023BE1598223AB"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:fairy_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.fairy_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#f2268e"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: -3.0d
+			id: "1FDD9735E7F58EC1"
+			tasks: [{
+				id: "703B5F6CDF58576C"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:experience_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.experience_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#9ce02f"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: -3.0d
+			id: "342AB62D3434E3BF"
+			tasks: [{
+				id: "5E632057C5F6C954"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:energized_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.energized_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#a78f65"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			id: "13FD0A0106F7266A"
+			tasks: [{
+				id: "634E1990DBC736A6"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:icy_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.icy_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#92b9fe"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			id: "5F554A8E51154AB5"
+			tasks: [{
+				id: "5F3D76EA116BAB1D"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:ichor_slime_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.ichor_slime_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#ff7d2b"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			id: "75297DFF01338114"
+			tasks: [{
+				id: "7243EB082EDF3A1C"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:hepatizon_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.hepatizon_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#725b7d"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			id: "18A32022D590D223"
+			tasks: [{
+				id: "424C21B4E66B249D"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:guardian_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.guardian_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#8FC0AA"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.0d
+			id: "3C1ED4ADAEC1A528"
+			tasks: [{
+				id: "2E58C920BA6A7A0B"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:gravel_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.gravel_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#968e8e"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.0d
+			id: "776921B1DEC0A297"
+			tasks: [{
+				id: "5953A5FF68C4C0DC"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:graphite_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.graphite_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#44413f"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.0d
+			id: "448EA86687BE6A64"
+			tasks: [{
+				id: "29F5C000BA6EB706"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:gold_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.gold_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#FFDC00"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: -2.0d
+			id: "4B62CECB7C22C581"
+			tasks: [{
+				id: "0EAD37E1ADA939DF"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:glowstone_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.glowstone_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#ffbc5e"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: -2.0d
+			id: "3C2409703CB7A690"
+			tasks: [{
+				id: "429DB74C97C333B1"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:ghast_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.ghast_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#faebd7"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			id: "4D536F297A8D2A36"
+			tasks: [{
+				id: "4FB033500CDDA1C4"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:lumium_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.lumium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#dfed99"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			id: "4F20ABECDDF633B4"
+			tasks: [{
+				id: "155AA2170820C07D"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:ludicrite_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.ludicrite_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#ac48e0"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			id: "6C4F7E8498D9A01C"
+			tasks: [{
+				id: "4292F234B9E236B5"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:lead_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.lead_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#32335c"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			id: "4D6DA222145EE14F"
+			tasks: [{
+				id: "61F02BAC3D95D368"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:lava_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.lava_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#C93806"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			id: "5C0249E7EC12F8B1"
+			tasks: [{
+				id: "665E88B0EC4C840C"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:lapis_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.lapis_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#345ec3"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.0d
+			id: "4CBF35606533B089"
+			tasks: [{
+				id: "64FF3D35B9F37C6C"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:kitten_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.kitten_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#EAA939"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			id: "6B6D7B4AA8FFDC17"
+			tasks: [{
+				id: "17693588DF856B16"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:iron_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.iron_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#ffcc99"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.0d
+			id: "1F730D10456EB873"
+			tasks: [{
+				id: "50BE22276C5B37B2"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:invar_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.invar_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#b8c4bf"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: -1.0d
+			id: "1A9B7F94420A1FAE"
+			tasks: [{
+				id: "71F0C8ACD20F3EC7"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:inanite_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.inanite_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#f42665"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			id: "087BAE46F4305FC8"
+			tasks: [{
+				id: "4AC9101990F8389A"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:nickel_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.nickel_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#a0a883"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			id: "0ECE7517056CFEC5"
+			tasks: [{
+				id: "743DBA76D6841DF4"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:netherite_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.netherite_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#654740"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			id: "605C1A4203A832F0"
+			tasks: [{
+				id: "3CAF5640AD0BB569"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:nether_quartz_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.nether_quartz_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#d4caba"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			id: "10CF9A9C60204ABB"
+			tasks: [{
+				id: "460AAC64B18DF92D"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:nether_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.nether_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#511515"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			id: "58DBB67DDB0ECCA6"
+			tasks: [{
+				id: "7442B8A77E54F977"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:mystical_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.mystical_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "rainbow"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			id: "3AF63C3FE37D80C9"
+			tasks: [{
+				id: "1F715A585A394887"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:manyullyn_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.manyullyn_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#9261cc"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			id: "70A9CA8A58DB8873"
+			tasks: [{
+				id: "187116D83C25DDEB"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:manasteel_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.manasteel_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#2f79c6"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			id: "75DBEAD012A0991A"
+			tasks: [{
+				id: "61BC995B87DD3526"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:magma_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.magma_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#C73405"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.0d
+			id: "54AB52FCA0B56C97"
+			tasks: [{
+				id: "41A657E706AAF604"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:magentite_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.magentite_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#e27ae2"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			id: "27D5F14596359639"
+			tasks: [{
+				id: "3F4A792BD83913F0"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:rainbow_glass_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.rainbow_glass_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "rainbow"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			id: "7CF488059F7C4FF9"
+			tasks: [{
+				id: "11485C2296366A24"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:potassium_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.potassium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#c6bfcc"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			id: "6AFDB77ABAA77390"
+			tasks: [{
+				id: "13405C256FA3E0FE"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:pigman_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.pigman_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#885956"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			id: "642C1DB5802E0123"
+			tasks: [{
+				id: "5BDA1A1683E53D91"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:osmium_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.osmium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#83b0bd"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.0d
+			id: "0F304E760CEF2C4E"
+			tasks: [{
+				id: "7DA6C3B7577528BB"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:oreo_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.oreo_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#442920"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.0d
+			id: "3075675593E8F32F"
+			tasks: [{
+				id: "1C079F6440C001A4"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:occultist_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.occultist_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#4f2b79"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.0d
+			id: "348E5CA782AD3F4C"
+			tasks: [{
+				id: "31B75B2B8D15757C"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:obsidian_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.obsidian_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#663399"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 1.0d
+			id: "7F1E768894FCCA3C"
+			tasks: [{
+				id: "31C1C3580D981331"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:nitro_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.nitro_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#e80000"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 1.0d
+			id: "586B127CE4C8758B"
+			tasks: [{
+				id: "4275189F363923E5"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:niotic_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.niotic_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#0099b7"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			id: "55B461F94D9750BE"
+			tasks: [{
+				id: "10195A91052AF65E"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:seared_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.seared_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#474340"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			id: "43246CFF8E31A654"
+			tasks: [{
+				id: "3FACE99CF103237F"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:sand_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.sand_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#e7e4bb"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			id: "584AEB5D1BD552F6"
+			tasks: [{
+				id: "6FD96865C4B20902"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:rose_gold_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.rose_gold_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#f7cdbb"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.0d
+			id: "636E2DCCA8630485"
+			tasks: [{
+				id: "4A317FA0E0312E2D"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:ridiculite_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.ridiculite_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#c7a3cc"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.0d
+			id: "1759DCC8A2F5E01F"
+			tasks: [{
+				id: "5DA9AFE0052338A4"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:rgbee_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.rgbee_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "rainbow"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 2.0d
+			id: "5B7CB0F4DC76A848"
+			tasks: [{
+				id: "42579251EA05C996"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:regalium_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.regalium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#f6dd9b"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.0d
+			id: "1FD4F9D0BFC63F98"
+			tasks: [{
+				id: "5CE2CF75BD98BFD1"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:refined_obsidian_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.refined_obsidian_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#a83cff"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 2.0d
+			id: "07ECB6159F9C5C92"
+			tasks: [{
+				id: "71CBF2D70D6166B7"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:refined_glowstone_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.refined_glowstone_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#ffbc5e"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 2.0d
+			id: "745803B38BA58076"
+			tasks: [{
+				id: "44CA9287EE66E7E4"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:redstone_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.redstone_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#aa0f01"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			id: "24F82352AF6987DB"
+			tasks: [{
+				id: "6EBFF1ABA4061B3A"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:starry_lexxie_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.starry_lexxie_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#FFFFFF"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.0d
+			id: "654785390F5310A1"
+			tasks: [{
+				id: "1A8A3B9425350363"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:spirited_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.spirited_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#70af00"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.0d
+			id: "5DEEF55D4D1BF78D"
+			tasks: [{
+				id: "4CF1ECB562908927"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:source_steel_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.source_steel_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#d1b9e5"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.0d
+			id: "51512A9F63424E85"
+			tasks: [{
+				id: "19576C196ACA953C"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:soul_lava_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.soul_lava_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#2762a1"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.0d
+			id: "150E3865671A78DC"
+			tasks: [{
+				id: "2835F008FEB19026"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:slime_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.slime_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#73c262"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 3.0d
+			id: "5F33C011FBE18C29"
+			tasks: [{
+				id: "2B61C427EF4E18CB"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:sky_slime_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.sky_slime_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#4ab1a4"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.0d
+			id: "68C959E70C5FB27F"
+			tasks: [{
+				id: "22569AD4A5E80513"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:skeleton_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.skeleton_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#F6F2E6"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.0d
+			id: "6061CB6EADFDDAD8"
+			tasks: [{
+				id: "2B96D8F26D9E8EA3"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:silver_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.silver_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#c5d1fe"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 3.0d
+			id: "5C8699E85D872351"
+			tasks: [{
+				id: "746EDD9F5D7DECF3"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:signalum_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.signalum_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#fc8638"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			id: "5EB56CFF82B20CF5"
+			tasks: [{
+				id: "2D082E1407290D6B"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:uraninite_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.uraninite_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#00a400"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.0d
+			id: "713036714476EF69"
+			tasks: [{
+				id: "3DDA0EAC7B20E707"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:unobtainium_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.unobtainium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#a62be0"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.0d
+			id: "7272BBFF9AAC9CA7"
+			tasks: [{
+				id: "15CDAA9EE49A6402"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:tin_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.tin_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#bccbe5"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 4.0d
+			id: "5300901FD4BA85DC"
+			tasks: [{
+				id: "19ECB92D6675CBEC"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:thallasium_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.thallasium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#54b0bf"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 4.0d
+			id: "239B5A55E70CD33C"
+			tasks: [{
+				id: "627D42B9EA68F994"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:terrasteel_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.terrasteel_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#37f900"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 4.0d
+			id: "487D00E19338C817"
+			tasks: [{
+				id: "0B8395CFD4C60BF4"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:terminite_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.terminite_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#34c8bd"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 4.0d
+			id: "4D0FEA96A6DFE6C9"
+			tasks: [{
+				id: "731D653E941DD1A5"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:swift_alloy_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.swift_alloy_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#f1c57c"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 4.0d
+			id: "2BC1BD4FBA3C3EAC"
+			tasks: [{
+				id: "788C7AC29DEBEC15"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:stone_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.stone_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#8f8f8f"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 4.0d
+			id: "33F152A85C0B28CD"
+			tasks: [{
+				id: "5DA97F8BFE814854"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:steel_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.steel_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#858585"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			id: "701010A9F0A99495"
+			tasks: [{
+				id: "2538ECB1572235F9"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:zombie_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.zombie_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#2F4E32"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.0d
+			id: "58D08C026677106B"
+			tasks: [{
+				id: "58DE84AD04DB8189"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:zinc_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.zinc_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#a6ad6b"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 5.0d
+			id: "4732814EE3CEB7B3"
+			tasks: [{
+				id: "1DD6F30218071DB4"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:yeti_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.yeti_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#E9F4F6"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 5.0d
+			id: "3764DC6E12EC052E"
+			tasks: [{
+				id: "2238FA5DB1F46FDC"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:xion_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.xion_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#39c4d0"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 5.0d
+			id: "173E32122B3FBF1A"
+			tasks: [{
+				id: "2CFBCE0123D8E871"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:wither_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.wither_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#444444"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 5.0d
+			id: "5E749C6498C40569"
+			tasks: [{
+				id: "75AB019BD245A6A6"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:water_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.water_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#5979ef"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 5.0d
+			id: "0760AEB4D4BB74C5"
+			tasks: [{
+				id: "4A4B50A054088513"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:vibranium_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.vibranium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#1bb188"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 5.0d
+			id: "6AE60E6312DF4B23"
+			tasks: [{
+				id: "1C12466270AFCE32"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:utherium_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.utherium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#d76559"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 5.0d
+			id: "42419E07F45208E2"
+			tasks: [{
+				id: "40E602B1729937FA"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						Entity: "resourcefulbees:uranium_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.uranium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						Color: "#424d3c"
+					}
+				}
+			}]
+		}
+		{
+			title: "Bee"
+			x: 0.0d
+			y: -7.0d
+			id: "1356E497437B716A"
+			tasks: [{
+				id: "006DBF1B4AC3EBA0"
+				type: "item"
+				item: {
+					id: "resourcefulbees:bee_jar"
+					Count: 1b
+					tag: {
+						NoGravity: 1b
+						Entity: "minecraft:bee"
+						Brain: {
+							memories: { }
+						}
+						HurtByTimestamp: 0
+						ForgeData: { }
+						HasStung: 0b
+						Attributes: [
+							{
+								Base: 0.30000001192092896d
+								Name: "minecraft:generic.movement_speed"
+							}
+							{
+								Base: 48.0d
+								Modifiers: [{
+									Operation: 1
+									UUID: [I;
+										-472770470
+										-477803061
+										-1849921011
+										1695129739
+									]
+									Amount: 0.08758462705296567d
+									Name: "Random spawn bonus"
+								}]
+								Name: "minecraft:generic.follow_range"
+							}
+							{
+								Base: 0.0d
+								Name: "minecraft:generic.knockback_resistance"
+							}
+							{
+								Base: 0.08d
+								Name: "forge:entity_gravity"
+							}
+						]
+						Invulnerable: 0b
+						FallFlying: 0b
+						ForcedAge: 0
+						PortalCooldown: 0
+						AbsorptionAmount: 0.0f
+						FallDistance: 0.0f
+						InLove: 0
+						CanUpdate: 1b
+						DeathTime: 0s
+						BoundingBox: [
+							-141.9281251176403d
+							117.91106088992697d
+							1982.2281729442616d
+							-141.22812512956122d
+							118.51106091376883d
+							1982.9281729323407d
+						]
+						ForgeCaps: {
+							"structure_gel:gel_entity": {
+								portal: "structure_gel:empty"
+							}
+							"citadel:extended_entity_data_citadel": { }
+							"mekanism:radiation": {
+								radiation: 1.0E-7d
+							}
+							"pneumaticcraft:hacking": { }
+							"shrink:shrunk": {
+								width: 0.7f
+								defaulteyeheight: 0.3f
+								scale: 1.0f
+								isshrinking: 0b
+								fixed: 0b
+								isshrunk: 0b
+								height: 0.6f
+							}
+						}
+						HandDropChances: [
+							0.085f
+							0.085f
+						]
+						CannotEnterHiveTicks: 0
+						PersistenceRequired: 0b
+						UUID: [I;
+							-236559725
+							94195483
+							-2012529016
+							-567198177
+						]
+						Age: 0
+						TicksSincePollination: 18
+						AngerTime: 0
+						Motion: [
+							-0.07292902487616208d
+							0.0637788260132279d
+							0.07292435548374777d
+						]
+						Health: 10.0f
+						HasNectar: 0b
+						Color: "#edc343"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.minecraft.bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+						KubeJSPersistentData: { }
+						LeftHanded: 0b
+						Air: 300s
+						OnGround: 0b
+						CitadelData: { }
+						Rotation: [
+							45.00151f
+							0.0f
+						]
+						HandItems: [
+							{ }
+							{ }
+						]
+						ArmorDropChances: [
+							0.085f
+							0.085f
+							0.085f
+							0.085f
+						]
+						Pos: [
+							-141.57812512360076d
+							117.91106088992697d
+							1982.5781729383011d
+						]
+						Fire: -1s
+						ArmorItems: [
+							{ }
+							{ }
+							{ }
+							{ }
+						]
+						CropsGrownSincePollination: 0
+						CanPickUpLoot: 0b
+						HurtTime: 0s
+					}
+				}
+			}]
+		}
+		{
+			x: -4.75d
+			y: -4.75d
+			id: "3F699C17917FFE2D"
+			tasks: [{
+				id: "20E4BA133D32D102"
+				type: "item"
+				item: "minecraft:bee_nest"
 			}]
 		}
 	]

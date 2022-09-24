@@ -377,6 +377,7 @@
 			x: 0.0d
 			y: 5.25d
 			shape: "hexagon"
+			dependencies: ["4055881864FF87C5"]
 			id: "147FEDFCEDC2F421"
 			tasks: [{
 				id: "6019F22491A77E91"
