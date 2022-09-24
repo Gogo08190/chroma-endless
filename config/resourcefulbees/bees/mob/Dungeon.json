@@ -45,7 +45,7 @@
   "SpawnData": {
     "canSpawnInWorld": true,
     "biomeWhitelist": "tag:undergarden",
-    "biomeBlacklist": "tag:nether,overworld",
+    "biomeBlacklist": "tag:nether",
     "spawnWeight": 5,
     "minGroupSize": 1,
     "maxGroupSize": 1,
