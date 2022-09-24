@@ -2609,36 +2609,16 @@
 			}]
 		}
 		{
-			x: 36.75d
-			y: 7.5d
-			dependencies: ["296B3469D6D39BB6"]
+			x: 27.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["2D54A1A013FB3774"]
 			id: "4F78CFC9AF94D2BC"
-			tasks: [
-				{
-					id: "3E762B0E0AB33607"
-					type: "item"
-					item: "industrialforegoing:mob_imprisonment_tool"
-				}
-				{
-					id: "0875F5178F6DE95A"
-					type: "item"
-					item: {
-						id: "industrialforegoing:infinity_launcher"
-						Count: 1b
-						tag: {
-							CanCharge: 1b
-							Energy: 0L
-							Fluid: {
-								FluidName: "biofuel"
-								Amount: 0
-							}
-							Special: 0b
-							Selected: "POOR"
-							Plunger: 0
-						}
-					}
-				}
-			]
+			tasks: [{
+				id: "3E762B0E0AB33607"
+				type: "item"
+				item: "industrialforegoing:mob_imprisonment_tool"
+			}]
 		}
 		{
 			x: 28.5d
@@ -2805,6 +2785,33 @@
 						Special: 0b
 						Selected: "ARTIFACT"
 						Beheading: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 27.5d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["73368EF2948452D9"]
+			optional: true
+			id: "1C3F0AB8EBC48615"
+			tasks: [{
+				id: "05715E10E80FD2EF"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_launcher"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0b
+						Selected: "POOR"
+						Plunger: 0
 					}
 				}
 			}]

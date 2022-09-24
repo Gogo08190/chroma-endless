@@ -188,8 +188,9 @@
 			}]
 		}
 		{
-			x: -8.25d
-			y: -3.75d
+			x: -7.25d
+			y: -4.25d
+			shape: "rsquare"
 			dependencies: ["0F711C8B7276E896"]
 			id: "73243352BB4BB00F"
 			tasks: [{
@@ -199,8 +200,9 @@
 			}]
 		}
 		{
-			x: -8.25d
-			y: -4.75d
+			x: -7.25d
+			y: -5.25d
+			shape: "rsquare"
 			dependencies: ["5495770B359A1400"]
 			id: "613F07C10A246A8F"
 			tasks: [{
@@ -210,8 +212,9 @@
 			}]
 		}
 		{
-			x: -8.25d
-			y: -5.75d
+			x: -7.25d
+			y: -6.25d
+			shape: "rsquare"
 			dependencies: ["12BABD84E5472CFB"]
 			id: "5B1B12BA2F3776F7"
 			tasks: [{
@@ -221,8 +224,9 @@
 			}]
 		}
 		{
-			x: -8.25d
-			y: -6.75d
+			x: -7.25d
+			y: -7.25d
+			shape: "rsquare"
 			dependencies: ["00E49B9468513FD2"]
 			id: "41BA023162D0338B"
 			tasks: [{
@@ -233,7 +237,8 @@
 		}
 		{
 			x: 4.75d
-			y: -3.75d
+			y: -4.25d
+			shape: "rsquare"
 			dependencies: ["4CB9359D414E5BD7"]
 			id: "1157865BF5EF54A2"
 			tasks: [{
@@ -244,7 +249,8 @@
 		}
 		{
 			x: 4.75d
-			y: -4.75d
+			y: -5.25d
+			shape: "rsquare"
 			dependencies: ["3B0EBD7D45B3A4DC"]
 			id: "6EE7101D8533924B"
 			tasks: [{
@@ -255,7 +261,8 @@
 		}
 		{
 			x: 4.75d
-			y: -5.75d
+			y: -6.25d
+			shape: "rsquare"
 			dependencies: ["1CCDDF83CCA202E5"]
 			id: "3A6E14232E48AC5D"
 			tasks: [{
@@ -266,7 +273,8 @@
 		}
 		{
 			x: 4.75d
-			y: -6.75d
+			y: -7.25d
+			shape: "rsquare"
 			dependencies: ["58B3E8756FDA260B"]
 			id: "5C4597DC0FB5DEFA"
 			tasks: [{
@@ -526,6 +534,7 @@
 			}]
 		}
 		{
+			title: "&5Disk Drive"
 			x: -1.25d
 			y: -3.75d
 			shape: "rsquare"
@@ -661,7 +670,7 @@
 		}
 		{
 			x: -1.25d
-			y: -0.25d
+			y: -1.0d
 			dependencies: ["6DBC1BDEBCAD61B0"]
 			id: "7AD4AA4EC0999F9A"
 			tasks: [{
@@ -800,7 +809,8 @@
 		}
 		{
 			x: 5.75d
-			y: -6.75d
+			y: -7.25d
+			shape: "rsquare"
 			dependencies: ["3C9263A8B9322A17"]
 			id: "58B3E8756FDA260B"
 			tasks: [{
@@ -811,7 +821,8 @@
 		}
 		{
 			x: 5.75d
-			y: -5.75d
+			y: -6.25d
+			shape: "rsquare"
 			dependencies: ["58B3E8756FDA260B"]
 			id: "1CCDDF83CCA202E5"
 			tasks: [{
@@ -822,7 +833,8 @@
 		}
 		{
 			x: 5.75d
-			y: -4.75d
+			y: -5.25d
+			shape: "rsquare"
 			dependencies: ["1CCDDF83CCA202E5"]
 			id: "3B0EBD7D45B3A4DC"
 			tasks: [{
@@ -832,8 +844,9 @@
 			}]
 		}
 		{
-			x: -9.25d
-			y: -6.75d
+			x: -8.25d
+			y: -7.25d
+			shape: "rsquare"
 			dependencies: ["26FAF9E2A41A0CD1"]
 			id: "00E49B9468513FD2"
 			tasks: [{
@@ -844,7 +857,8 @@
 		}
 		{
 			x: 5.75d
-			y: -3.75d
+			y: -4.25d
+			shape: "rsquare"
 			dependencies: ["3B0EBD7D45B3A4DC"]
 			id: "4CB9359D414E5BD7"
 			tasks: [{
@@ -854,8 +868,9 @@
 			}]
 		}
 		{
-			x: -9.25d
-			y: -5.75d
+			x: -8.25d
+			y: -6.25d
+			shape: "rsquare"
 			dependencies: ["00E49B9468513FD2"]
 			id: "12BABD84E5472CFB"
 			tasks: [{
@@ -865,8 +880,9 @@
 			}]
 		}
 		{
-			x: -9.25d
-			y: -4.75d
+			x: -8.25d
+			y: -5.25d
+			shape: "rsquare"
 			dependencies: ["12BABD84E5472CFB"]
 			id: "5495770B359A1400"
 			tasks: [{
@@ -876,8 +892,9 @@
 			}]
 		}
 		{
-			x: -9.25d
-			y: -3.75d
+			x: -8.25d
+			y: -4.25d
+			shape: "rsquare"
 			dependencies: ["5495770B359A1400"]
 			id: "0F711C8B7276E896"
 			tasks: [{
@@ -888,7 +905,8 @@
 		}
 		{
 			x: 5.75d
-			y: -2.75d
+			y: -3.25d
+			shape: "rsquare"
 			dependencies: ["4CB9359D414E5BD7"]
 			id: "2808D5799C6FEB43"
 			tasks: [{
@@ -899,7 +917,8 @@
 		}
 		{
 			x: 5.75d
-			y: -1.75d
+			y: -2.25d
+			shape: "rsquare"
 			dependencies: ["2808D5799C6FEB43"]
 			id: "6B7ACAA5D0153351"
 			tasks: [{
@@ -910,7 +929,8 @@
 		}
 		{
 			x: 5.75d
-			y: -0.75d
+			y: -1.25d
+			shape: "rsquare"
 			dependencies: ["6B7ACAA5D0153351"]
 			id: "0D4AE6329599374E"
 			tasks: [{
@@ -920,8 +940,9 @@
 			}]
 		}
 		{
-			x: -9.25d
-			y: -2.75d
+			x: -8.25d
+			y: -3.25d
+			shape: "rsquare"
 			dependencies: ["0F711C8B7276E896"]
 			id: "7F41F57A78B7FEF1"
 			tasks: [{
@@ -932,7 +953,8 @@
 		}
 		{
 			x: 5.75d
-			y: 0.25d
+			y: -0.25d
+			shape: "rsquare"
 			dependencies: ["0D4AE6329599374E"]
 			id: "5BAFD29F7DDCE5E0"
 			tasks: [{
@@ -942,8 +964,9 @@
 			}]
 		}
 		{
-			x: -9.25d
-			y: -1.75d
+			x: -8.25d
+			y: -2.25d
+			shape: "rsquare"
 			dependencies: ["7F41F57A78B7FEF1"]
 			id: "070936B336845AC2"
 			tasks: [{
@@ -953,8 +976,9 @@
 			}]
 		}
 		{
-			x: -9.25d
-			y: -0.75d
+			x: -8.25d
+			y: -1.25d
+			shape: "rsquare"
 			dependencies: ["070936B336845AC2"]
 			id: "4FB93B398B039835"
 			tasks: [{
@@ -964,8 +988,9 @@
 			}]
 		}
 		{
-			x: -9.25d
-			y: 0.25d
+			x: -8.25d
+			y: -0.25d
+			shape: "rsquare"
 			dependencies: ["4FB93B398B039835"]
 			id: "58D5D4009D4FE8A1"
 			tasks: [{
@@ -1089,7 +1114,8 @@
 		}
 		{
 			x: 4.75d
-			y: -2.75d
+			y: -3.25d
+			shape: "rsquare"
 			dependencies: ["2808D5799C6FEB43"]
 			id: "453C5B1C29C3BA67"
 			tasks: [{
@@ -1100,7 +1126,8 @@
 		}
 		{
 			x: 4.75d
-			y: -1.75d
+			y: -2.25d
+			shape: "rsquare"
 			dependencies: ["6B7ACAA5D0153351"]
 			id: "1C06D4F0A5488A94"
 			tasks: [{
@@ -1111,7 +1138,8 @@
 		}
 		{
 			x: 4.75d
-			y: -0.75d
+			y: -1.25d
+			shape: "rsquare"
 			dependencies: ["0D4AE6329599374E"]
 			id: "7B03C7844EEEF538"
 			tasks: [{
@@ -1122,7 +1150,8 @@
 		}
 		{
 			x: 4.75d
-			y: 0.25d
+			y: -0.25d
+			shape: "rsquare"
 			dependencies: ["5BAFD29F7DDCE5E0"]
 			id: "4EFC6830B0AFFF08"
 			tasks: [{
@@ -1132,8 +1161,9 @@
 			}]
 		}
 		{
-			x: -8.25d
-			y: -2.75d
+			x: -7.25d
+			y: -3.25d
+			shape: "rsquare"
 			dependencies: ["7F41F57A78B7FEF1"]
 			id: "5E5F1E1E0C7BA949"
 			tasks: [{
@@ -1143,8 +1173,9 @@
 			}]
 		}
 		{
-			x: -8.25d
-			y: 0.25d
+			x: -7.25d
+			y: -0.25d
+			shape: "rsquare"
 			dependencies: ["58D5D4009D4FE8A1"]
 			id: "5E29ED310932B7E8"
 			tasks: [{
@@ -1154,8 +1185,9 @@
 			}]
 		}
 		{
-			x: -8.25d
-			y: -0.75d
+			x: -7.25d
+			y: -1.25d
+			shape: "rsquare"
 			dependencies: ["4FB93B398B039835"]
 			id: "6E57C6B63433F3C8"
 			tasks: [{
@@ -1165,8 +1197,9 @@
 			}]
 		}
 		{
-			x: -8.25d
-			y: -1.75d
+			x: -7.25d
+			y: -2.25d
+			shape: "rsquare"
 			dependencies: ["070936B336845AC2"]
 			id: "5E9E508F1D640ED4"
 			tasks: [{
@@ -1194,6 +1227,7 @@
 			}]
 		}
 		{
+			title: "&bFluid Storage Disk"
 			x: -4.5d
 			y: -3.75d
 			shape: "hexagon"
@@ -1394,7 +1428,7 @@
 			}]
 		}
 		{
-			title: "Storage Disk"
+			title: "&6Storage Disk"
 			x: 2.0d
 			y: -3.75d
 			shape: "hexagon"
