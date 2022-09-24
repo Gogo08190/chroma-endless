@@ -70,10 +70,6 @@ onEvent('recipes', (event) => {
             inputs: ['minecraft:book', '#forge:dyes/yellow']
         },
         { output: 'minecraft:crafting_table', inputs: ['#forge:workbenches'] },
-        {
-            output: Item.of('patchouli:guide_book', { 'patchouli:book': 'resourcefulbees:fifty_shades_of_bees' }),
-            inputs: ['minecraft:sugar', 'minecraft:book']
-        },
 
         {
             output: 'prettypipes:crafting_terminal',
