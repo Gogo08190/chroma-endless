@@ -11,7 +11,7 @@ onEvent('recipes', (event) => {
 
       //Block Uranium
       {
-        input: { ingredient: { item: 'emendatusenigmatica:uranium_block' } },
+        input: { ingredient: { item: 'kubejs:energized_uranium_block' } },
         output: { amount: 90, infuse_type: 'kubejs:uranium' },
         id: `${id_prefix}uranium_from_block`
       },
