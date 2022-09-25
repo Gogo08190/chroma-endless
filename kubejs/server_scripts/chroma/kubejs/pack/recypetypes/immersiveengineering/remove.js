@@ -17,7 +17,8 @@ onEvent('recipes', (event) => {
       'immersiveengineering:crafting/sheetmetal_electrum',
       'immersiveengineering:crafting/sheetmetal_constantan',
       'immersiveengineering:crafting/sheetmetal_uranium',
-      'immersiveengineering:squeezer/graphite_dust'
+      'immersiveengineering:squeezer/graphite_dust',
+      'createaddition:compat/immersiveengineering/blastfurnace_preheater'
 
     ];
 
