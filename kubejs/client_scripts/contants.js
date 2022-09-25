@@ -290,6 +290,12 @@ const itemsToHide = [
     'bigreactors:yellorium_ingot',
     'bigreactors:yellorium_block',
 
+    'createaddition:diamond_grit',
+    'createaddition:copper_rod',
+    'createaddition:iron_rod',
+    'createaddition:gold_rod',
+    'createaddition:brass_rod',
+
     'quark:biotite',
     'quark:biotite_ore',
     'quark:tallow',
