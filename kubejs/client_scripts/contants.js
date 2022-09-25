@@ -296,6 +296,7 @@ const itemsToHide = [
     'createaddition:gold_rod',
     'createaddition:brass_rod',
     'createaddition:zinc_sheet',
+    'createaddition:copper_wire',
 
     'quark:biotite',
     'quark:biotite_ore',
