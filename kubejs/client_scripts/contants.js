@@ -406,6 +406,9 @@ const itemsToHide = [
     'custommachinery:box_creator_item',
     Item.of('custommachinery:structure_creator', '{custommachinery:{}}'),
 
+    Item.of('tconstruct:creative_slot', '{slot:"sensor"}'),
+    Item.of('tconstruct:creative_slot', '{slot:"souls"}'),
+
     'kubejs:challenges',
     'kubejs:chunks',
     'kubejs:discord',
