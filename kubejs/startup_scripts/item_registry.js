@@ -81,7 +81,8 @@ onEvent('item.registry', (event) => {
         'blue_ingot',
         'orange_ingot',
         'purple_ingot',
-        'arcana'
+        'arcana',
+        'incomplete_upgrade'
     ];
 
     generalItems.forEach((item) => {
