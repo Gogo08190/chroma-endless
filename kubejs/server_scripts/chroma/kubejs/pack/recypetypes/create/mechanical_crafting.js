@@ -302,7 +302,7 @@ onEvent('recipes', (event) => {
         // Alternator
         {
             output: 'createaddition:alternator',
-            pattern: ['  A  ', ' PCP ', 'PCTCP', ' POP'],
+            pattern: ['     ', '  A  ', ' PCP ', 'PCTCP', ' POP'],
             key: {
                 A: 'create:andesite_alloy',
                 P: 'emendatusenigmatica:iron_plate',
@@ -316,7 +316,7 @@ onEvent('recipes', (event) => {
         // Alternator
         {
             output: 'createaddition:electric_motor',
-            pattern: ['  A  ', ' PCP ', 'PCTCP', ' POP'],
+            pattern: ['     ', '  A  ', ' PCP ', 'PCTCP', ' POP'],
             key: {
                 A: 'create:andesite_alloy',
                 P: 'emendatusenigmatica:brass_plate',
