@@ -367,7 +367,7 @@ onEvent('recipes', (event) => {
         id: 'createaddition:crafting/capacitor_1'
       },
       {
-        output: Item.of('createaddition:capacitor', 2),
+        output: Item.of('createaddition:connector', 2),
         pattern: [' R ', 'ASA', ' A '],
         key: {
             R: '#forge:rods/copper',
