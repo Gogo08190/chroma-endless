@@ -99,11 +99,11 @@ onEvent('recipes', (event) => {
         //Basic Fluid Tank
         {
           output: 'mekanism:basic_fluid_tank',
-          pattern: ['RSR','SCS','RSR'],
+          pattern: ['RIR','ITI','RIR'],
           key: {
-            S: 'emendatusenigmatica:steel_ingot',
+            I: 'occultism:iesnium_ingot',
             R: 'extendedcrafting:redstone_ingot',
-            C: 'industrialforegoing:common_black_hole_tank'
+            T: 'pneumaticcraft:medium_tank'
           },
           id: 'mekanism:fluid_tank/basic'
         },
