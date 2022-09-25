@@ -345,6 +345,36 @@ onEvent('recipes', (event) => {
             R: '#forge:workbench'
         },
         id: 'create:crafting/kinetics/mechanical_crafter'
+      },
+      {
+        output: Item.of('createaddition:spool', 4),
+        pattern: ['P', 'R', 'P'],
+        key: {
+            P: '#forge:plates/iron',
+            R: '#forge:rods/iron'
+        },
+        id: 'createaddition:crafting/spool'
+      },
+      {
+        output: 'createaddition:capacitor',
+        pattern: [' Z ', 'ISI', ' T '],
+        key: {
+            Z: '#forge:plates/zinc',
+            I: '#forge:plates/iron',
+            S: '#forge:plates/signalum',
+            T: 'create:electron_tube'
+        },
+        id: 'createaddition:crafting/capacitor_1'
+      },
+      {
+        output: Item.of('createaddition:capacitor', 2),
+        pattern: [' R ', 'ASA', ' A '],
+        key: {
+            R: '#forge:rods/copper',
+            A: '#forge:ingots/andesite_alloy',
+            S: '#forge:slimeballs'
+        },
+        id: 'createaddition:crafting/connector'
       }
     ];
 

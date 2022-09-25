@@ -12,7 +12,8 @@ onEvent('recipes', (event) => {
       'createaddition:compat/tconstruct/queens_slime',
       'createaddition:compat/tconstruct/rose_gold',
       'createaddition:compat/tconstruct/slimesteel_ingot',
-      'createaddition:compat/tconstruct/tinkers_bronze'
+      'createaddition:compat/tconstruct/tinkers_bronze',
+      'createaddition:crafting/capacitor_2'
     ];
 
     const outputRemovals = [

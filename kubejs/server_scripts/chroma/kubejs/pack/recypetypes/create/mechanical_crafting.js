@@ -297,8 +297,35 @@ onEvent('recipes', (event) => {
                 H: 'kubejs:light_ingot'
             },
             id: `${id_prefix}the_ultimate_ingot`
-        }
+        },
 
+        // Alternator
+        {
+            output: 'createaddition:alternator',
+            pattern: ['  A  ', ' PCP ', 'PCTCP', ' POP'],
+            key: {
+                A: 'create:andesite_alloy',
+                P: 'emendatusenigmatica:iron_plate',
+                C: 'createaddition:copper_spool',
+                T: 'createaddition:tesla_coil',
+                O: 'createaddition:capacitor'
+            },
+            id: 'createaddition:mechanical_crafting/alternator'
+        },
+
+        // Alternator
+        {
+            output: 'createaddition:electric_motor',
+            pattern: ['  A  ', ' PCP ', 'PCTCP', ' POP'],
+            key: {
+                A: 'create:andesite_alloy',
+                P: 'emendatusenigmatica:brass_plate',
+                C: 'createaddition:copper_spool',
+                T: 'createaddition:tesla_coil',
+                O: 'createaddition:capacitor'
+            },
+            id: 'createaddition:mechanical_crafting/electric_motor'
+        }
     ];
 
     recipes.forEach((recipe) => {
