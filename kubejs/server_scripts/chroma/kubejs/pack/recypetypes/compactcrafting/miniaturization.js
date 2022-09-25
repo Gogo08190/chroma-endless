@@ -281,7 +281,7 @@ onEvent('recipes', (event) => {
         components: {
           'C': {
             type: "compactcrafting:block",
-            block: 'immersiveengineering:sheetmetal_steel'
+            block: 'immersiveengineering:sheetmetal_colored_black'
           },
           'G': {
             type: "compactcrafting:block",

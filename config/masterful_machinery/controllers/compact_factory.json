@@ -1,11 +1,11 @@
 {
   "controllerId": "compactfactory",
   "name": "Compact Machine Factory",
-  "textureOverride": "immersiveengineering:block/metal/sheetmetal_steel",
+  "textureOverride": "immersiveengineering:block/metal/sheetmetal_black",
   "ports": [
     {
       "type": "masterfulmachinery:items",
-      "textureOverride": "immersiveengineering:block/metal/sheetmetal_steel",
+      "textureOverride": "immersiveengineering:block/metal/sheetmetal_black",
       "name": "Compact Factory Item",
       "id": "compact_item",
       "data": {

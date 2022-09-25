@@ -67,7 +67,7 @@ onEvent('recipes', (event) => {
             output: 'masterfulmachinery:compactfactory_compact_item_port_items_input',
             pattern: ['SCS', 'UPU', 'SFS'],
             key: {
-                S: 'immersiveengineering:sheetmetal_steel',
+                S: 'immersiveengineering:sheetmetal_colored_black',
                 C: 'create:smart_chute',
                 U: '#forge:ingots/utherium',
                 P: 'pipez:item_pipe',
@@ -79,7 +79,7 @@ onEvent('recipes', (event) => {
             output: 'masterfulmachinery:compactfactory_compact_item_port_items_output',
             pattern: ['SFS', 'UPU', 'SCS'],
             key: {
-                S: 'immersiveengineering:sheetmetal_steel',
+                S: 'immersiveengineering:sheetmetal_colored_black',
                 C: 'engineersdecor:factory_hopper',
                 U: '#forge:ingots/utherium',
                 P: 'pipez:item_pipe',
@@ -91,7 +91,7 @@ onEvent('recipes', (event) => {
             output: 'masterfulmachinery:compactfactory_compact_energy_port_energy_input',
             pattern: ['SFS', 'UPU', 'SCS'],
             key: {
-                S: 'immersiveengineering:sheetmetal_steel',
+                S: 'immersiveengineering:sheetmetal_colored_black',
                 C: 'immersiveengineering:capacitor_hv',
                 U: '#forge:ingots/utherium',
                 P: 'pipez:energy_pipe',
