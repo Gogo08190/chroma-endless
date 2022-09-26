@@ -640,6 +640,7 @@
 			title: "Blaze Bee"
 			x: 1.5d
 			y: -7.0d
+			description: ["Spawn in &4Nether&r"]
 			id: "589D4FAB92ACB60C"
 			tasks: [{
 				id: "51996E6647F34CCE"
@@ -682,6 +683,7 @@
 			title: "Beeper Bee"
 			x: 3.5d
 			y: -7.0d
+			description: ["Spawn in &2Overworld&r"]
 			id: "005A0621823CB942"
 			tasks: [{
 				id: "60E2F3C608D829FB"
@@ -700,7 +702,7 @@
 			}]
 		}
 		{
-			title: "Blazalz Bee"
+			title: "Basalz Bee"
 			x: 4.5d
 			y: -7.0d
 			id: "7D2B680872E34FE3"
@@ -808,6 +810,7 @@
 			title: "AbBee"
 			x: 9.5d
 			y: -7.0d
+			description: ["Spawn in &2Overworld&r"]
 			id: "40DCBD615084C6C3"
 			tasks: [{
 				id: "5B07275520606AD7"
@@ -871,6 +874,7 @@
 			title: "Clay Bee"
 			x: 2.5d
 			y: -6.0d
+			description: ["Spawn in &2Overworld&r"]
 			id: "6545A0C21D34826C"
 			tasks: [{
 				id: "1E01733E090B202D"

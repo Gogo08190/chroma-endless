@@ -1,0 +1,390 @@
+{
+	id: "254DB275DB4CF0DD"
+	group: ""
+	order_index: 13
+	filename: "jetpacks"
+	title: "Jetpacks"
+	icon: {
+		id: "ironjetpacks:terrasteel_jetpack"
+		Count: 1b
+		tag: {
+			Throttle: 1.0d
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -5.75d
+			y: -4.5d
+			id: "7F020681CFFDB568"
+			tasks: [{
+				id: "05E27717AB9114F5"
+				type: "item"
+				item: "ironjetpacks:strap"
+			}]
+		}
+		{
+			x: -7.25d
+			y: -3.5d
+			id: "13446A385D0DD1BA"
+			tasks: [{
+				id: "61593DB558BBD1BC"
+				type: "item"
+				item: "ironjetpacks:basic_coil"
+			}]
+		}
+		{
+			x: -6.25d
+			y: -3.5d
+			id: "4207988A2711BFD1"
+			tasks: [{
+				id: "0F8D7188C36794E5"
+				type: "item"
+				item: "ironjetpacks:advanced_coil"
+			}]
+		}
+		{
+			x: -5.25d
+			y: -3.5d
+			id: "065348771A647171"
+			tasks: [{
+				id: "26F704F83676BA2E"
+				type: "item"
+				item: "ironjetpacks:elite_coil"
+			}]
+		}
+		{
+			x: -4.25d
+			y: -3.5d
+			id: "54ECD5468EAC1B26"
+			tasks: [{
+				id: "2596B01D0360B5CB"
+				type: "item"
+				item: "ironjetpacks:ultimate_coil"
+			}]
+		}
+		{
+			x: -7.25d
+			y: -2.5d
+			id: "28F65AB06F632E4C"
+			tasks: [{
+				id: "2B2DFA3B5D1CB22E"
+				type: "item"
+				item: "ironjetpacks:stellar_cell"
+			}]
+		}
+		{
+			x: -6.25d
+			y: -2.5d
+			id: "5072216A8B07BC59"
+			tasks: [{
+				id: "0B14FE27BA05EC13"
+				type: "item"
+				item: "ironjetpacks:stellar_thruster"
+			}]
+		}
+		{
+			x: -5.25d
+			y: -2.5d
+			id: "6271F71E47DA8F8B"
+			tasks: [{
+				id: "6DDDBB4A0FBE14B5"
+				type: "item"
+				item: "ironjetpacks:stellar_capacitor"
+			}]
+		}
+		{
+			x: -4.25d
+			y: -2.5d
+			id: "35E466F8B378343F"
+			tasks: [{
+				id: "106A505BEDB3CE02"
+				type: "item"
+				item: {
+					id: "ironjetpacks:stellar_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -6.25d
+			y: -1.5d
+			id: "018F1C35300E1792"
+			tasks: [{
+				id: "5F7BF4FC4987368F"
+				type: "item"
+				item: "ironjetpacks:terrasteel_thruster"
+			}]
+		}
+		{
+			x: -7.25d
+			y: -1.5d
+			id: "59F8023BEB99C34A"
+			tasks: [{
+				id: "387F91B06CC76E1D"
+				type: "item"
+				item: "ironjetpacks:terrasteel_cell"
+			}]
+		}
+		{
+			x: -5.25d
+			y: -1.5d
+			id: "5FFFB9F1D06A332A"
+			tasks: [{
+				id: "0F3BBE2EFBC9FBCD"
+				type: "item"
+				item: "ironjetpacks:terrasteel_capacitor"
+			}]
+		}
+		{
+			x: -4.25d
+			y: -1.5d
+			id: "3569AA04F0AE3682"
+			tasks: [{
+				id: "2CB36B0F1C7429DA"
+				type: "item"
+				item: {
+					id: "ironjetpacks:terrasteel_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -7.25d
+			y: -0.5d
+			id: "685F94719391D77F"
+			tasks: [{
+				id: "438B1C77DBE7D93F"
+				type: "item"
+				item: "ironjetpacks:nitro_cell"
+			}]
+		}
+		{
+			x: -6.25d
+			y: -0.5d
+			id: "0C4BB75A847B5143"
+			tasks: [{
+				id: "2973F35B1A6E6811"
+				type: "item"
+				item: "ironjetpacks:nitro_thruster"
+			}]
+		}
+		{
+			x: -5.25d
+			y: -0.5d
+			id: "07C51EEE022BF8A1"
+			tasks: [{
+				id: "3CD3601E8933C768"
+				type: "item"
+				item: "ironjetpacks:nitro_capacitor"
+			}]
+		}
+		{
+			x: -4.25d
+			y: -0.5d
+			id: "61BD6F6549ABCE1D"
+			tasks: [{
+				id: "129FF1FE3245EAEC"
+				type: "item"
+				item: {
+					id: "ironjetpacks:nitro_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -7.25d
+			y: 0.5d
+			id: "0B086A4E1638EFBA"
+			tasks: [{
+				id: "2B1102D29975F698"
+				type: "item"
+				item: "ironjetpacks:otherworldian_cell"
+			}]
+		}
+		{
+			x: -6.25d
+			y: 0.5d
+			id: "00B345F47553EA72"
+			tasks: [{
+				id: "6BE671C6EE06FBB5"
+				type: "item"
+				item: "ironjetpacks:otherworldian_thruster"
+			}]
+		}
+		{
+			x: -5.25d
+			y: 0.5d
+			id: "0ACAD13C5F639666"
+			tasks: [{
+				id: "48A8E404617DC64E"
+				type: "item"
+				item: "ironjetpacks:otherworldian_capacitor"
+			}]
+		}
+		{
+			x: -4.25d
+			y: 0.5d
+			id: "47BC225F3820724B"
+			tasks: [{
+				id: "18227E535E014002"
+				type: "item"
+				item: {
+					id: "ironjetpacks:otherworldian_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -7.25d
+			y: 1.5d
+			id: "4EC4ECA83ADD6135"
+			tasks: [{
+				id: "4D88EAFA902253E5"
+				type: "item"
+				item: "ironjetpacks:regalium_cell"
+			}]
+		}
+		{
+			x: -6.25d
+			y: 1.5d
+			id: "260F4399A442FB59"
+			tasks: [{
+				id: "21B4F61719F710DE"
+				type: "item"
+				item: "ironjetpacks:regalium_thruster"
+			}]
+		}
+		{
+			x: -5.25d
+			y: 1.5d
+			id: "5C2E98450FB34A2C"
+			tasks: [{
+				id: "6F5A4E7073179DDC"
+				type: "item"
+				item: "ironjetpacks:regalium_capacitor"
+			}]
+		}
+		{
+			x: -4.25d
+			y: 1.5d
+			id: "5FA07205D8BC20F7"
+			tasks: [{
+				id: "71C77BD181ADBED7"
+				type: "item"
+				item: {
+					id: "ironjetpacks:regalium_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -7.25d
+			y: 2.5d
+			id: "1273070937E58B44"
+			tasks: [{
+				id: "6AA9B7BECD4A9A5D"
+				type: "item"
+				item: "ironjetpacks:mechanical_cell"
+			}]
+		}
+		{
+			x: -6.25d
+			y: 2.5d
+			id: "164B6A3448808077"
+			tasks: [{
+				id: "1B8910D48D620416"
+				type: "item"
+				item: "ironjetpacks:mechanical_thruster"
+			}]
+		}
+		{
+			x: -5.25d
+			y: 2.5d
+			id: "525D184EC233D716"
+			tasks: [{
+				id: "22DFD31598C6C566"
+				type: "item"
+				item: "ironjetpacks:mechanical_capacitor"
+			}]
+		}
+		{
+			x: -4.25d
+			y: 2.5d
+			id: "0A29B302F28F3AF1"
+			tasks: [{
+				id: "00E73E0FC500DC53"
+				type: "item"
+				item: {
+					id: "ironjetpacks:mechanical_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -7.25d
+			y: 3.5d
+			id: "3DA966C6436DB383"
+			tasks: [{
+				id: "21A33FF4882A404E"
+				type: "item"
+				item: "ironjetpacks:inanite_cell"
+			}]
+		}
+		{
+			x: -6.25d
+			y: 3.5d
+			id: "7618457DC31F6DFB"
+			tasks: [{
+				id: "124B747C74EF78B6"
+				type: "item"
+				item: "ironjetpacks:inanite_thruster"
+			}]
+		}
+		{
+			x: -5.25d
+			y: 3.5d
+			id: "4AF26F6881D26ED4"
+			tasks: [{
+				id: "344776D9D1D04C2E"
+				type: "item"
+				item: "ironjetpacks:inanite_capacitor"
+			}]
+		}
+		{
+			x: -4.25d
+			y: 3.5d
+			id: "7D5739EF61CB79DA"
+			tasks: [{
+				id: "6BE5AFC53F55F5E4"
+				type: "item"
+				item: {
+					id: "ironjetpacks:inanite_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+	]
+}
