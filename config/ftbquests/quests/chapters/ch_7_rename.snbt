@@ -305,7 +305,7 @@
 		{
 			x: 1.0d
 			y: 9.0d
-			dependencies: ["3C49CC6E641D4BC4"]
+			dependencies: ["74538A4A28AEE1D5"]
 			id: "60E1726207640669"
 			tasks: [
 				{
@@ -319,28 +319,6 @@
 					item: "extendedcrafting:ender_alternator"
 				}
 			]
-		}
-		{
-			x: -0.25d
-			y: 8.0d
-			dependencies: ["5174E5B7DC17EF63"]
-			id: "0FA8A721C492824C"
-			tasks: [{
-				id: "7B09C59AC9ADC808"
-				type: "item"
-				item: "extendedcrafting:redstone_ingot"
-			}]
-		}
-		{
-			x: 1.0d
-			y: 7.25d
-			dependencies: ["5174E5B7DC17EF63"]
-			id: "3C49CC6E641D4BC4"
-			tasks: [{
-				id: "3A7A970AA36F8DFD"
-				type: "item"
-				item: "extendedcrafting:ender_ingot"
-			}]
 		}
 		{
 			x: 1.0d
@@ -357,8 +335,8 @@
 			}]
 		}
 		{
-			x: 2.25d
-			y: 8.0d
+			x: 1.0d
+			y: 7.5d
 			dependencies: ["5174E5B7DC17EF63"]
 			id: "31F9EB836FD32716"
 			tasks: [{
