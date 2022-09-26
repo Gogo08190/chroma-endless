@@ -1345,6 +1345,7 @@
 		{
 			x: 35.25d
 			y: -2.5d
+			description: ["This machine can get resources from animals without killing them. It gets Milk from Cows, Wool from sheep, and Ink Sacs from Squid."]
 			dependencies: ["2D54A1A013FB3774"]
 			id: "51390E8BD5F612B7"
 			tasks: [{
@@ -1378,6 +1379,7 @@
 		{
 			x: 32.25d
 			y: -2.5d
+			description: ["Insert the food item to use to feed the animals in the work area."]
 			dependencies: ["2D54A1A013FB3774"]
 			id: "2DC06E55D8E2A6D1"
 			tasks: [{
@@ -1389,6 +1391,7 @@
 		{
 			x: 37.25d
 			y: 8.5d
+			description: ["When connected to power, this machine will kill any mobs in the work area as though a Player killed it, and collect any drops from the mob. This machine also produces Essence."]
 			dependencies: ["6B860E2F39D660BE"]
 			id: "296B3469D6D39BB6"
 			tasks: [{
@@ -1400,6 +1403,7 @@
 		{
 			x: 35.5d
 			y: 13.75d
+			description: ["This machine requires power and some Mob Essence to work. Insert a Mob Imprisonment Tool with the mob you want to duplicate captured inside, and this machine will spawn a duplicate of that mob."]
 			dependencies: ["6B860E2F39D660BE"]
 			id: "329997617DD121F5"
 			tasks: [{
@@ -1422,6 +1426,7 @@
 		{
 			x: 34.25d
 			y: -2.5d
+			description: ["Connect this machine to power and this machine will kill mobs in the work area and produces Liquid Meat and Pink Slime."]
 			dependencies: ["2D54A1A013FB3774"]
 			id: "00C8869CC6B0933C"
 			tasks: [{
@@ -1433,6 +1438,7 @@
 		{
 			x: 33.25d
 			y: -2.5d
+			description: ["Place this machine in the ground below where you keep your animals, and, when supplied with power, this machine will produce liquid Sewage."]
 			dependencies: ["2D54A1A013FB3774"]
 			id: "2F2D0CC9A18D0D79"
 			tasks: [{
@@ -1455,6 +1461,7 @@
 		{
 			x: 35.25d
 			y: -1.5d
+			description: ["When supplied with power, this machine will move baby animals from inside the work area to behind the machine."]
 			dependencies: ["2D54A1A013FB3774"]
 			id: "7079235BE3A4A537"
 			tasks: [{
@@ -1531,6 +1538,7 @@
 		{
 			x: 31.25d
 			y: -1.5d
+			description: ["This machine accepts Biofuel and turns it into a decent amount of energy."]
 			dependencies: ["2D54A1A013FB3774"]
 			id: "1DE1D97BB37C04F3"
 			tasks: [{
@@ -1718,6 +1726,7 @@
 		{
 			x: 46.25d
 			y: -2.5d
+			description: ["This machine accepts certain bio-degradable items and turns them into Biofuel to be used in the &9&lBiofuel Generator&r."]
 			dependencies: ["2D54A1A013FB3774"]
 			id: "60617DA0B9FA35D5"
 			tasks: [{
@@ -1745,6 +1754,15 @@
 		{
 			x: 40.75d
 			y: 2.75d
+			description: [
+				"This can only store one type of item, but it can store up to 2.1 billion of it according to its tier. This block keeps its contents when it is mined. You can delete everything stored inside the Black Hole Unit by putting it in a crafting grid."
+				""
+				"Common → 2,048 items"
+				"Pity → 16,384 items"
+				"Simple → 524,288 items"
+				"Advanced → 67,108,864 items"
+				"Supreme → 2,147,483,647 items"
+			]
 			dependencies: ["79315953791CB3E5"]
 			id: "3DA940DF68A29FA8"
 			tasks: [{
@@ -1756,6 +1774,15 @@
 		{
 			x: 40.0d
 			y: 2.0d
+			description: [
+				"This can store up to 2.1 billion buckets worth of a single type of fluid, according to its tier. The fluid remains stored when the Black Hole Tank is mined. You can delete all of the fluid stored inside by putting the Black Hole Tank in a crafting grid."
+				""
+				"Common → 16,000 mB"
+				"Pity → 64,000 mB"
+				"Simple → 1,024,000 mB"
+				"Advanced → 65,536,000 mB"
+				"Supreme → 2,147,483,647 mB"
+			]
 			dependencies: ["79315953791CB3E5"]
 			id: "27BA923167966331"
 			tasks: [{
@@ -1767,6 +1794,7 @@
 		{
 			x: 36.75d
 			y: 5.75d
+			description: ["Counts the number of mobs in the work area and outputs a redstone signal with a strength equal to the number of mobs. This machine requires power to function."]
 			dependencies: ["79315953791CB3E5"]
 			id: "51292D41FB65DA45"
 			tasks: [{
@@ -1778,6 +1806,10 @@
 		{
 			x: 37.5d
 			y: 6.5d
+			description: [
+				"The Fermentation Station has additional requirements besides just being connected to power. There must be a heat source below the machine, and a cold source on any other side."
+				"Once all requirements are met, insert the Raw Ore Meat you produced from the &9&lWashing Factory&r and this machine will turn it into Fermented Ore meat to be used in the &9&lFluid Sieve Machine&r."
+			]
 			dependencies: ["79315953791CB3E5"]
 			id: "1664839C7048A9C8"
 			tasks: [{
@@ -1803,6 +1835,7 @@
 		{
 			x: 36.75d
 			y: 2.75d
+			description: ["Hook this machine up to power and place directly over a 3x3 area of water and this machine will auto-fish."]
 			dependencies: ["79315953791CB3E5"]
 			id: "6DBEF60C7B432A07"
 			tasks: [{
@@ -1825,6 +1858,7 @@
 		{
 			x: 37.5d
 			y: 2.0d
+			description: ["This machine when combined with power and Water (or Lava) it will speed up growth crop a bit."]
 			dependencies: ["79315953791CB3E5"]
 			id: "76D0E2266396E8C9"
 			tasks: [{
@@ -1836,6 +1870,7 @@
 		{
 			x: 35.0d
 			y: 10.75d
+			description: ["First connect this machine to power. Insert Liquid Meat that you get from the &9&lMob Slaughter Factory&r and the Ore that you wish to wash. This process consumes the Ore but produces Raw Ore Meat which must be transferred over to the &9&lFermentation Station&r."]
 			dependencies: ["6B860E2F39D660BE"]
 			id: "14DBBBDC416F08DA"
 			tasks: [{
@@ -1847,6 +1882,13 @@
 		{
 			x: 36.25d
 			y: 14.5d
+			description: [
+				"Provide some Energy to this machine and it will produce Cobblestone. Additionally, it can perform up to 4 work processes on the Cobblestone. The processes are Smelt, 2x2 Craft, Grind, and 3x3 Craft."
+				""
+				"So for example, if you set the first process to Smelt, that will turn the Cobblestone to  Stone, then you can set the second process to 2x2 Craft and that will produce  Stone Bricks."
+				""
+				"This machine is very useful when playing with mods that require Silicon, because you can set the machine to Grind 3 times in a row, which transforms the Cobblestone into Gravel, then Sand, then Silicon!"
+			]
 			dependencies: ["6B860E2F39D660BE"]
 			id: "3E28EC582756B80F"
 			tasks: [{
@@ -1858,6 +1900,11 @@
 		{
 			x: 35.0d
 			y: 12.75d
+			description: [
+				"Insert Fermented Ore Meat that you get from the Fermentation Station, and some Sand, and this machine will produce Dust of the type of Ore that you used."
+				""
+				"But to get Pink Slime Ingots you need to insert liquid Pink Slime, which you get from the Mob Slaughter Factory, and an Iron Ingot."
+			]
 			dependencies: ["6B860E2F39D660BE"]
 			id: "7AB0EE35821AFACD"
 			tasks: [{
@@ -1880,6 +1927,7 @@
 		{
 			x: 42.25d
 			y: -1.5d
+			description: ["When supplied with power, this machine will break blocks directly in front of it and stores them in its internal inventory."]
 			hide_dependency_lines: true
 			dependencies: ["2D54A1A013FB3774"]
 			id: "1D512F04784B4738"
@@ -1903,6 +1951,7 @@
 		{
 			x: 45.25d
 			y: -1.5d
+			description: ["It places fluids."]
 			dependencies: ["2D54A1A013FB3774"]
 			id: "6061FF5E2FCCD9A5"
 			tasks: [{
@@ -1914,6 +1963,7 @@
 		{
 			x: 42.25d
 			y: -2.5d
+			description: ["When supplied with power, this machine will place blocks directly in front of it."]
 			dependencies: ["2D54A1A013FB3774"]
 			hide: false
 			id: "15CEF5C15ACF1F1B"
@@ -1926,6 +1976,7 @@
 		{
 			x: 44.25d
 			y: -1.5d
+			description: ["When connected to a source of power, this can smelt 3 things at once and also produces a bit of Essence."]
 			dependencies: ["2D54A1A013FB3774"]
 			id: "62CA095E0C362BB7"
 			tasks: [{
@@ -1970,6 +2021,7 @@
 		{
 			x: 37.25d
 			y: 15.0d
+			description: ["An advanced form of the Brewing Stand. You must supply this machine with power, water, Glass Bottles, and any potion ingredients. This machine will first fill Empty Bottles with Water then brew the ingredients into the potion in order from left to right."]
 			dependencies: ["6B860E2F39D660BE"]
 			id: "44DEC5D57FE85AA3"
 			tasks: [{
@@ -1981,6 +2033,7 @@
 		{
 			x: 45.25d
 			y: -2.5d
+			description: ["This machine takes in Sludge from the &9&lPlant Gatherer&r and produces a dirt-like block according to the information in the table below."]
 			dependencies: ["2D54A1A013FB3774"]
 			id: "66C8A752AA3CEEE8"
 			tasks: [{
@@ -1992,6 +2045,7 @@
 		{
 			x: 32.25d
 			y: -1.5d
+			description: ["Place this machine beside at least 2 Water sources and it will start to produce water."]
 			dependencies: ["2D54A1A013FB3774"]
 			id: "198DB67334489811"
 			tasks: [{
@@ -2025,6 +2079,7 @@
 		{
 			x: 33.75d
 			y: 11.75d
+			description: ["This machine can be thought of as an advanced Enchantment Table. When supplied with power, and some Essence, this machine can enchant an item. 3 buckets of Essence are required to perform a Lv 30 Enchantment."]
 			dependencies: ["6B860E2F39D660BE"]
 			id: "588D842EA0950EDC"
 			tasks: [{
@@ -2047,6 +2102,7 @@
 		{
 			x: 38.25d
 			y: 8.25d
+			description: ["This machine sorts Enchanted items into the top inventory, and non-Enchanted items into the bottom inventory. This machine requires power to function."]
 			dependencies: ["6B860E2F39D660BE"]
 			id: "67CCF75F89393ADC"
 			tasks: [{
@@ -2058,6 +2114,7 @@
 		{
 			x: 43.75d
 			y: 11.75d
+			description: ["Adds Enchanted Books to items, just like an Anvil, except this machine uses power and Essence."]
 			dependencies: ["6B860E2F39D660BE"]
 			id: "46504597C93BAFD7"
 			tasks: [{
@@ -2069,23 +2126,13 @@
 		{
 			x: 39.25d
 			y: 8.25d
+			description: ["When connected to power, insert Books, and an Enchanted item, and this machine will remove one Enchantment at a time and apply it to a Book. The Enchanted Item is not damaged in the process."]
 			dependencies: ["6B860E2F39D660BE"]
 			id: "1FA807E4CFB87EE7"
 			tasks: [{
 				id: "7CD560FEEDEC41C8"
 				type: "item"
 				item: "industrialforegoing:enchantment_extractor"
-			}]
-		}
-		{
-			x: 38.75d
-			y: 1.75d
-			dependencies: ["79315953791CB3E5"]
-			id: "158D0BC1ADBEC2F5"
-			tasks: [{
-				id: "424B1C471496DA8B"
-				type: "item"
-				item: "industrialforegoing:mob_detector"
 			}]
 		}
 		{
@@ -2840,6 +2887,141 @@
 						Plunger: 0
 					}
 				}
+			}]
+		}
+		{
+			x: 52.5d
+			y: 0.0d
+			dependencies: [
+				"73368EF2948452D9"
+				"4486C68BF5B9FCE2"
+			]
+			id: "1BF981F84C1738BC"
+			tasks: [{
+				id: "3668993E41FBDDE2"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+			}]
+		}
+		{
+			x: 52.5d
+			y: -1.25d
+			dependencies: ["1BF981F84C1738BC"]
+			id: "395D58879056EBCD"
+			tasks: [{
+				id: "1AEA930A3E547187"
+				type: "item"
+				item: "mekanism:elite_tier_installer"
+			}]
+		}
+		{
+			x: 53.75d
+			y: 0.0d
+			id: "23571821756B8CE8"
+			tasks: [{
+				id: "2856D4DAA24DFE22"
+				type: "item"
+				item: "mekanism:elite_smelting_factory"
+			}]
+		}
+		{
+			x: 54.75d
+			y: 0.0d
+			id: "5FF13772EE9F992C"
+			tasks: [{
+				id: "78BA55A66BB783BD"
+				type: "item"
+				item: "mekanism:elite_enriching_factory"
+			}]
+		}
+		{
+			x: 55.75d
+			y: 0.0d
+			id: "7666C6FB2EF56615"
+			tasks: [{
+				id: "50681DF6653F6A93"
+				type: "item"
+				item: "mekanism:elite_crushing_factory"
+			}]
+		}
+		{
+			x: 56.75d
+			y: 0.0d
+			id: "236D8D3DE240D5E3"
+			tasks: [{
+				id: "0D5C34376E0E41D0"
+				type: "item"
+				item: "mekanism:elite_compressing_factory"
+			}]
+		}
+		{
+			x: 57.75d
+			y: 0.75d
+			id: "76D5910D901D5325"
+			tasks: [{
+				id: "1C1BB934B2D2893B"
+				type: "item"
+				item: "mekanism:elite_combining_factory"
+			}]
+		}
+		{
+			x: 53.75d
+			y: 1.0d
+			id: "4754877D508865F7"
+			tasks: [{
+				id: "48CE2A584EBF177E"
+				type: "item"
+				item: "mekanism:elite_purifying_factory"
+			}]
+		}
+		{
+			x: 54.75d
+			y: 1.0d
+			id: "6F5EB98E69E13A04"
+			tasks: [{
+				id: "761CEE0704931541"
+				type: "item"
+				item: "mekanism:elite_injecting_factory"
+			}]
+		}
+		{
+			x: 55.75d
+			y: 1.0d
+			id: "76039821FC3EB834"
+			tasks: [{
+				id: "665D3865B87A1559"
+				type: "item"
+				item: "mekanism:elite_sawing_factory"
+			}]
+		}
+		{
+			x: 56.75d
+			y: 1.0d
+			id: "009EF272AA19EA36"
+			tasks: [{
+				id: "041F96167D78D46D"
+				type: "item"
+				item: "mekanism:elite_infusing_factory"
+			}]
+		}
+		{
+			x: 54.5d
+			y: -1.75d
+			id: "6EEA323FA5734729"
+			tasks: [{
+				id: "58582144A88C0FE4"
+				type: "item"
+				item: "mekanism:ultimate_fluid_tank"
+			}]
+		}
+		{
+			x: 55.5d
+			y: -1.75d
+			id: "735E5F76AE3BA5EA"
+			tasks: [{
+				id: "225160C246FD56B5"
+				type: "item"
+				item: "mekanism:ultimate_chemical_tank"
 			}]
 		}
 	]

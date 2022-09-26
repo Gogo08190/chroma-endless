@@ -2042,6 +2042,8 @@
 				""
 				"Portable Storage Interfaces are used on moving contraptions including Mechanical Pistons, Bearings, or Cart Contraptions. For Portable Storage Interfaces to interact they must face each other at 1-2 blocks apart. The moving interface must have an onboard inventory while the stationary interface has something inserting or extracting directly from it, such as a Mechanical Belt or Funnel. Inventory will then be exchanged at the rate of the inserting or extracting component."
 			]
+			hide_dependency_lines: true
+			dependencies: ["5FAB66FE3921DAF1"]
 			id: "38CF0F5AACC73C4D"
 			tasks: [
 				{
@@ -2935,7 +2937,7 @@
 		}
 		{
 			title: "Advanced Steel"
-			x: 29.0d
+			x: 29.5d
 			y: 36.5d
 			dependencies: ["2A0681422D07EFB2"]
 			id: "0256960379E8E5E5"
@@ -3222,7 +3224,7 @@
 			]
 		}
 		{
-			x: 18.5d
+			x: 18.75d
 			y: 38.25d
 			subtitle: "Mechanical Piston is a piston that can extend multiple blocks when powered with Rotational power"
 			description: [
@@ -3253,8 +3255,8 @@
 			]
 		}
 		{
-			x: 19.0d
-			y: 37.5d
+			x: 19.5d
+			y: 37.25d
 			dependencies: ["23F1D63DE3B8F27E"]
 			id: "494A7A9323593162"
 			tasks: [{
@@ -3264,7 +3266,7 @@
 			}]
 		}
 		{
-			x: 16.5d
+			x: 16.25d
 			y: 38.25d
 			subtitle: "Mechanical Bearing is meant to create and rotate moving structures"
 			description: [
@@ -3300,8 +3302,8 @@
 			}]
 		}
 		{
-			x: 16.0d
-			y: 37.5d
+			x: 15.5d
+			y: 37.25d
 			subtitle: "Cart Assembler can attach a structure to carts that pass through it when supplied with a redstone signal"
 			description: ["Using a Wrench, the Cart Assembler can be configured to set the movement of cart contraptions to \"Always face toward motion (default,)\" \"Pause actors while rotating,\" and \"Lock Rotation.\" On the second setting, actors such as a Deployer will not work while the cart rotates. On the third setting, the contraption will not change alignment along with the cart, and will retain the same rotation from when it was built, much like the effect of a Mechanical Bearing on a cart contraption."]
 			dependencies: ["23F1D63DE3B8F27E"]
@@ -3332,7 +3334,7 @@
 			]
 		}
 		{
-			x: 18.75d
+			x: 19.0d
 			y: 39.5d
 			dependencies: [
 				"1A4E5F4D3B0997C1"
@@ -3367,8 +3369,8 @@
 		}
 		{
 			title: "Advanced Casing"
-			x: 30.0d
-			y: 35.0d
+			x: 30.25d
+			y: 35.25d
 			dependencies: ["0256960379E8E5E5"]
 			id: "63BFABD722A4669D"
 			tasks: [
@@ -3521,7 +3523,7 @@
 			]
 		}
 		{
-			x: 28.0d
+			x: 28.25d
 			y: 35.75d
 			dependencies: ["2035F6C5153C3D90"]
 			id: "2A0681422D07EFB2"
@@ -3702,7 +3704,7 @@
 			}]
 		}
 		{
-			x: 22.75d
+			x: 22.25d
 			y: 39.25d
 			shape: "octagon"
 			subtitle: "\"Nothing better than Tea\" Mahat 2022"
@@ -3953,16 +3955,10 @@
 		}
 		{
 			title: "&5The End&r"
-			icon: {
-				id: "ftbquests:custom_icon"
-				Count: 1b
-				tag: {
-					Icon: "supplementaries:textures/map/end_portal.png"
-				}
-			}
-			x: 23.75d
-			y: 40.46309523809522d
-			shape: "rsquare"
+			icon: "minecraft:end_portal_frame"
+			x: 23.723639455782305d
+			y: 40.337585034013614d
+			shape: "hexagon"
 			dependencies: [
 				"6C902F1FE4656987"
 				"652DEE63C01ED3AB"
@@ -4401,8 +4397,8 @@
 			}]
 		}
 		{
-			x: 24.75d
-			y: 39.25d
+			x: 25.25d
+			y: 39.5d
 			shape: "octagon"
 			dependencies: ["5174E5B7DC17EF63"]
 			id: "652DEE63C01ED3AB"

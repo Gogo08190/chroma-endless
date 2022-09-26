@@ -303,7 +303,7 @@
 			y: 17.0d
 			shape: "square"
 			subtitle: "You aren't a real engineer if you haven't that"
-			description: ["The &#482705Engineer's Workbench&r is used for crafting a lot of &oImmersive Engineering&r's items. View &oJEI&r for see all recipes with this &#482705Workbench&r."]
+			description: ["The &#482705Engineer's Workbench&r is used for crafting a lot of &oImmersive Engineering&r's items. View &oJEI&r to see all recipes with this &#482705Workbench&r."]
 			dependencies: [
 				"71295F41D2D36494"
 				"470CDE7A74BC60EB"
@@ -321,7 +321,7 @@
 			x: 3.75d
 			y: 17.0d
 			subtitle: "\"Mechanic\"? I'm going to build a car?"
-			description: ["You can craft &#71797ESteel Mechanical Component&r with 4 &#71797ESteel Plates&r and a &#B87333Copper Ingot&r, but it is cheaper in the &#482705Engineer's Workbench&r; so we advise you to craft only one for the &#482705Workbench&r and after use it."]
+			description: ["You can craft &#71797ESteel Mechanical Components&r with 4 &#71797ESteel Plates&r and a &#B87333Copper Ingot&r, but it is cheaper in the &#482705Engineer's Workbench&r; so we advise you to craft only one for the &#482705Workbench&r and after use it."]
 			dependencies: [
 				"2CD1D3F4A706D6BF"
 				"4339BD51E04343A5"
@@ -584,9 +584,9 @@
 			shape: "square"
 			subtitle: "Another alloying method"
 			description: [
-				"Mix &#C2B280Sandstone&r and &#D5A372Molten Clay&r in a &oCreate&r's &lMechanical Mixer&r and &lBasin&r for obtain &#D5A372Kiln Brick&r."
+				"Mix &#C2B280Sandstone&r and &#D5A372Molten Clay&r in a &oCreate&r's &lMechanical Mixer&r and &lBasin&r to obtain &#D5A372Kiln Brick&r."
 				"Repeat the operation &n8 times&r, and create a &n2x2x2 structure&r with the &#D5A372Kiln Bricks&r."
-				"Now &nright click&r on the structure with an &6Engineer's Hammer&r for form an &#D5A372Alloy Kiln&r."
+				"Now &nright click&r on the structure with an &6Engineer's Hammer&r to form an &#D5A372Alloy Kiln&r."
 			]
 			min_required_dependencies: 2
 			dependencies: [
@@ -613,7 +613,7 @@
 			shape: "square"
 			subtitle: "Let's make steel!"
 			description: [
-				"Mix &7Grout&r, &#EE7B06Magma Block&r and &#422117Nether Brick&r in a &oCreate&r's &lMechanical Mixer&r and &lBasin&r (&3Super-Heated&r) for obtain &#422117Blast Brick&r."
+				"Mix &7Grout&r, &#EE7B06Magma Block's&r and &#422117Nether Brick's&r in a &oCreate's&r &lMechanical Mixer&r and &lBasin&r (&3Super-Heated&r) for obtain &#422117Blast Brick&r."
 				"Repeat the operation &n27 times&r, and create a &n3x3x3 structure&r with the &#422117Blast Brick&r."
 				"Now &nright click&r on the structure with an &6Engineer's Hammer&r (on the middle block) to form a &l&#422117Crude Blast Furnace&r."
 			]
@@ -639,10 +639,9 @@
 			shape: "octagon"
 			subtitle: "Everything you need to know is in there"
 			description: ["The &6Engineer's Manual&r is like an in-game wiki. Just right click with it in your hand and you will learn a lot about &oImmersive&r."]
-			dependencies: [
-				"3A8134BD03B1E6B6"
-				"3FFF595F4FAC7B2B"
-			]
+			hide_dependency_lines: true
+			dependencies: ["1E42C4D579CA5556"]
+			dependency_requirement: "all_started"
 			id: "34AB0AFA85B55B89"
 			tasks: [{
 				id: "577923E345CA12E5"
@@ -659,9 +658,9 @@
 			shape: "square"
 			subtitle: "Sss... BAM!"
 			description: [
-				"The &8Metal Press&r is used for transform metals into differents forms with molds."
+				"The &8Metal Press&r is used for transforming metals into different forms with molds."
 				""
-				"Display a preview with your &6Projector&r, and place this blocks:"
+				"Display a preview with your &6Projector&r, and place those blocks:"
 				" - &#71797ESteel Scaffoldings&r 2x"
 				" - &4Redstone Engineering Block&r 1x"
 				" - &6Conveyor Belts&r 2x"
@@ -2614,30 +2613,6 @@
 			]
 		}
 		{
-			x: -4.0d
-			y: 7.5d
-			subtitle: "Just a boring book"
-			dependencies: ["12F51EE93A420344"]
-			id: "3A8134BD03B1E6B6"
-			tasks: [{
-				id: "64455EFD1ADC8F3B"
-				type: "item"
-				item: "minecraft:book"
-			}]
-		}
-		{
-			x: -2.0d
-			y: 7.5d
-			subtitle: "On/off redstone"
-			dependencies: ["12F51EE93A420344"]
-			id: "3FFF595F4FAC7B2B"
-			tasks: [{
-				id: "3BAAA7AAF74568C0"
-				type: "item"
-				item: "minecraft:lever"
-			}]
-		}
-		{
 			x: 1.25d
 			y: 9.5d
 			shape: "octagon"
@@ -2645,14 +2620,14 @@
 			description: [
 				"The &6Projector&r shows you how to build &oImmersive&r's multiblocks. Right click with it in your hand and you will see all the available multiblocks."
 				""
-				"If you click on one, you will have a preview at the right, and buttons at the middle."
-				"The first two are for confirm the choice of the multiblock or cancel (close the menu)."
-				"The third is for mirror the projection, and the last two for change rotation."
+				"If you click on one, you will have a preview at the right, and buttons in the middle."
+				"The first two are to confirm the choice of the multiblock or to cancel the placement (that closes the menu)."
+				"The third is to mirror the projection, and the last two to change the rotation."
 				""
-				"There is also some keybinds:"
+				"There are also some keybinds:"
 				" - &lShift&r + &lScroll&r = Rotate"
 				" - &l,&r (comma) = Mirror (Can be configured)"
-				" - &lSneak&r + &lRight Click&r = Change Mode"
+				" - &lSneak&r + &lRight Click&r = Changing the Mode"
 			]
 			dependencies: [
 				"56D83790E33B0765"
@@ -2674,7 +2649,7 @@
 			description: [
 				"Craft &#482705Treated Wood Planks&r with any &#806517Planks&r."
 				""
-				"See &oJEI&r for the four methods (&lCrafting&r, &lThrow item in fluid&r, &oCreate&r's &lMixing&r, and &oTinkers' Construct&r's &lCasting&r)."
+				"See &oJEI&r for the four methods (&lCrafting&r, &lThrow item in fluid&r, &oCreate&r &lMixing&r, and &oTinker's Construct&r &lCasting&r)."
 			]
 			dependencies: ["70D42E93AF9E275A"]
 			id: "56D83790E33B0765"
@@ -2726,7 +2701,7 @@
 				"{image:chroma:textures/quests/immersive_coke_oven_gui.png width:200 height:153 align:1}"
 				""
 				"In the &l&nInput&r slot, you can put &#806517Logs&r, &#151716Blocks of Coal&r, and &#151716Coal&r. They will produce respectively &#34282CCharcoal&r, &#2A2E2CBlocks of Coal Coke&r, and &#2A2E2CCoal Coke&r (that will appear in the &l&nOutput&r slot after a moment)."
-				"It will also produce &#482705Creosote Oil&r, that you can take placing a bucket, tank or other fluid container in the top right slot."
+				"It will also produce &#482705Creosote Oil&r, that you can output by placing a bucket, tank or other fluid container in the top right slot."
 			]
 			dependencies: ["0219A1F0FA4A1092"]
 			min_width: 210
@@ -2745,7 +2720,7 @@
 			shape: "square"
 			subtitle: "First multiblock"
 			description: [
-				"Mix &7Grout&r and &#C2B280Sandstone&r in a &oCreate&r's &lMechanical Mixer&r and &lBasin&r (&4Heated&r) for obtain &#6A6A6ACoke Brick&r."
+				"Mix &7Grout&r and &#C2B280Sandstone&r in a &lMechanical Mixer&r and &lBasin&r from &oCreate&r (&4Heated&r) to obtain &#6A6A6ACoke Brick&r."
 				"Repeat the operation &n27 times&r, and create a &n3x3x3 structure&r with the &#6A6A6ACoke Bricks&r."
 				"Now &nright click&r on the structure with an &6Engineer's Hammer&r (on the middle block) to form a &l&#6A6A6ACoke Oven&r."
 			]
@@ -2789,15 +2764,15 @@
 			y: -2.0d
 			subtitle: "Sequenced crafting"
 			description: [
-				"The &6Engineer's Hammer&r is THE tool you need for &oImmersive Engineerging&r. It is used for &nforming multiblocks&r and &nconfiguring various blocks&r."
+				"The &6Engineer's Hammer&r is THE tool you need for &oImmersive Engineering&r. It is used for &nforming multiblocks&r and &nconfiguring various blocks&r."
 				""
 				"First of all, create a &oCreate&r process like this with &lDeployers&r and &lMechanical Belt&r:"
 				"{image:chroma:textures/quests/deploy_engineer_hammer.png width:256 height:196 align:1}"
 				""
 				"Then place 2 &#61666AIron Ingots&r in the first &lDeployer&r, 2 &#806517Cogwheels&r in the second, and 2 &#747878Andesite Alloys&r in the last. Finally drop a &#382969Lead Rod&r on the &lBelt&r."
 				""
-				"Entrain the &lDeployers&r and the &lBelt&r with &nkinetic source&r. The &#382969Lead Rod&r will move on the &lBelt&r, and the &lDeployers&r will apply the differents items on it."
-				"Repeat once the operation placing the &6Partial Hammer&r in place of the &#382969Lead Rod&r and you will obtain your &6Engineer's Hammer&r!"
+				"Power the &lDeployers&r and the &lBelt&r with some &nkinetic enrergy&r. The &#382969Lead Rod&r will move on the &lBelt&r, and the &lDeployers&r will combine the different items with it."
+				"Repeat the operation once more whilst replacing the &#382969Lead Rod&r with the &6Partial Hammer&r and you will obtain your &6Engineer's Hammer&r!"
 			]
 			dependencies: [
 				"12F51EE93A420344"
@@ -3001,23 +2976,6 @@
 			}]
 		}
 		{
-			x: 22.0d
-			y: 3.25d
-			shape: "square"
-			dependency_requirement: "one_completed"
-			size: 2.75d
-			id: "2860A92511D65B51"
-			tasks: [{
-				id: "1E8B9AA60E3440D7"
-				type: "observation"
-				title: "Sulfur Recovery Unit"
-				icon: "immersivepetroleum:hydrotreater"
-				timer: 0L
-				observe_type: 0
-				to_observe: "immersivepetroleum:hydrotreater"
-			}]
-		}
-		{
 			x: -9.5d
 			y: 57.0d
 			shape: "square"
@@ -3047,13 +3005,13 @@
 			y: 17.0d
 			shape: "gear"
 			description: [
-				"Right click on the &#422117Crude Blast Furnace&r. On the interface, the left slots are for &l&nInputs&r, and the rights for &l&nOutputs&r. The flame at the left represent the &l&nremaining fuel&r, and the middle arrow is for the &l&nprogress&r. You can click on it for see recipes and fuels."
+				"Right click on the &#422117Crude Blast Furnace&r. On the interface, the left slots are for &l&nInputs&r, and the right slots for &l&nOutputs&r. The flame at the left represent the &l&nremaining fuel&r, and the middle arrow is for the &l&nprogress&r. You can click on it to see recipes and fuels."
 				""
-				"Put &#61666AIron Ingot&r or &#61666ABlock&r in the top &l&nInput&r slot and fuel in the bottom (look at &oJEI&r for list of fuels and their burn duration)."
-				"After a moment, &#71797ESteel Ingot&r (or &#71797EBlock&r) will appear in the top &l&nOutput&r slot."
-				"It also produce &8Slag&r, principally used for crafting decoration blocks."
+				"Put &#61666AIron Ingot&r or &#61666ABlock&r in the top &l&nInput&r slot and fuel in the bottom (look at &oJEI&r for the full list of fuels and their burn duration)."
+				"After some time, a &#71797ESteel Ingot&r (or &#71797EBlock&r) will appear in the top &l&nOutput&r slot."
+				"It also produces &8Slag&r, principally used for crafting decoration blocks."
 				""
-				"&oThere is many other ways to craft &l&#71797ESteel&r&o, look at &rJEI&o to see them."
+				"&oThere are many other ways to craft &l&#71797ESteel&r&o, look at &rJEI&o to see them."
 			]
 			dependencies: ["70885C4B9975D97D"]
 			size: 2.0d
@@ -3138,7 +3096,7 @@
 			x: -3.25d
 			y: 17.0d
 			subtitle: "&3Mr.Freeze®&r taste steel"
-			description: ["Craft &#71797ESteel Rod&r with &oTinkers' Construct&r &lCasting&r."]
+			description: ["Craft &#71797ESteel Rods&r with &oTinkers' Construct&r &lCasting&r."]
 			dependencies: ["54DC8317D4B7A510"]
 			id: "793A201C5DDEAA9E"
 			tasks: [{
@@ -3153,7 +3111,7 @@
 			y: 19.25d
 			shape: "square"
 			subtitle: "Crafting Table for engineers"
-			description: ["The &#482705Engineer's Crafting Table&r works like a vanilla &#806517Crafting Table&r, but keeps items when the player leave it, and has a little integrated inventory."]
+			description: ["The &#482705Engineer's Crafting Table&r works like a vanilla &#806517Crafting Table&r, but keeps items when you close the interface, and has a little integrated inventory."]
 			hide_dependency_lines: true
 			dependencies: ["56D83790E33B0765"]
 			id: "470CDE7A74BC60EB"
@@ -3206,7 +3164,7 @@
 				""
 				"See &#B5A642Brass&r quests in Ch. 1 (rename) for view other craft methods."
 				""
-				"&oThere is many other ways to craft &l&#F2E279Electrum&r&o, look at &rJEI&o to see them."
+				"&oThere are many other ways to craft &l&#F2E279Electrum&r&o, look at &rJEI&o to see them."
 			]
 			dependencies: [
 				"412DC2EA2FB47B68"
@@ -3647,8 +3605,8 @@
 				""
 				"Then place 2 &#71797ESteel Ingots&r in the first &lDeployer&r, 2 &#747878Andesite Alloys&r in the second, and 2 &#71797ESteel Ingots&r in the last. Finally drop a &#382969Lead Rod&r on the &lBelt&r."
 				""
-				"Entrain the &lDeployers&r and the &lBelt&r with &nkinetic source&r. The &#382969Lead Rod&r will move on the &lBelt&r, and the &lDeployers&r will apply the differents items on it."
-				"Repeat once the operation placing the &6Partial Wirecutter&r in place of the &#382969Lead Rod&r and you will obtain your &6Engineer's Wire Cutters&r!"
+				"Power the &lDeployers&r and the &lBelt&r with some &nkinetic enrergy&r. The &#382969Lead Rod&r will move on the &lBelt&r, and the &lDeployers&r will combine the different items with it."
+				"Repeat the operation once more whilst replacing the &#382969Lead Rod&r with the &6Partial Wirecutter&r and you will obtain your &6Engineer's Wire Cutters&r!"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -6731,20 +6689,6 @@
 		}
 		{
 			x: 23.75d
-			y: 3.25d
-			dependencies: [
-				"2860A92511D65B51"
-				"6584EF82FE88D68E"
-			]
-			id: "76AC1DAB23079366"
-			tasks: [{
-				id: "09AA74E4CE34C95A"
-				type: "item"
-				item: "immersivepetroleum:diesel_bucket"
-			}]
-		}
-		{
-			x: 23.75d
 			y: -5.0d
 			dependencies: ["5E27C3E81F00DB51"]
 			id: "23FBADE5F25C5E9A"
@@ -6756,7 +6700,7 @@
 		}
 		{
 			x: 23.75d
-			y: -1.0d
+			y: -1.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"413B892C84FCA06C"

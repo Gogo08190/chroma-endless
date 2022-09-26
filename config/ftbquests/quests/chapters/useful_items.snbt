@@ -1,7 +1,7 @@
 {
 	id: "05F7FCA81A7AC3EC"
 	group: ""
-	order_index: 9
+	order_index: 10
 	filename: "useful_items"
 	title: "Useful Items"
 	icon: {
@@ -17,6 +17,11 @@
 		{
 			x: 0.0d
 			y: 0.0d
+			dependencies: [
+				"0623F7FAB4511760"
+				"679DF08FABBE8A87"
+				"00E6F30F0B847212"
+			]
 			id: "6321C311B46FC390"
 			tasks: [{
 				id: "17B3F79AF03D031C"
@@ -324,6 +329,11 @@
 		{
 			x: 5.0d
 			y: 0.0d
+			dependencies: [
+				"54DC8317D4B7A510"
+				"677773349FE468C2"
+				"3AC2609EA33632B8"
+			]
 			id: "716B778C431200EB"
 			tasks: [{
 				id: "27347C05B60753DB"

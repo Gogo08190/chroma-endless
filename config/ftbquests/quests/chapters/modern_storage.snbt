@@ -965,7 +965,7 @@
 			y: -7.25d
 			shape: "rsquare"
 			description: ["&bThe Unassembled 64k Fluid Storage Part&r is used to craft the 64k Fluid Storage Part in the &6Assembly line&r from Pneumaticcraft."]
-			dependencies: ["26FAF9E2A41A0CD1"]
+			dependencies: ["3C04F89B893C3AD4"]
 			id: "00E49B9468513FD2"
 			tasks: [{
 				id: "7EF9EFC397D1F8CC"
@@ -1163,8 +1163,8 @@
 			]
 			dependencies: [
 				"60E82CF31223EA18"
-				"0596178558C9C0DA"
 				"15770C3D59BEB5DB"
+				"1BF981F84C1738BC"
 			]
 			id: "2587D7FD1E461E79"
 			tasks: [{
@@ -1777,6 +1777,36 @@
 				id: "55295733D23612CD"
 				type: "item"
 				item: "rsinfinitybooster:dimension_card"
+			}]
+		}
+		{
+			x: 0.25d
+			y: -18.5d
+			id: "441C69EE987FE187"
+			tasks: [{
+				id: "6DA9865EF86461C9"
+				type: "item"
+				item: "refinedcooking:kitchen_network_card"
+			}]
+		}
+		{
+			x: -0.75d
+			y: -18.5d
+			id: "5DE83F1A988EB6A8"
+			tasks: [{
+				id: "3CA5730577F8F822"
+				type: "item"
+				item: "refinedcooking:kitchen_access_point"
+			}]
+		}
+		{
+			x: -1.75d
+			y: -18.5d
+			id: "5A1E36170BEFE806"
+			tasks: [{
+				id: "167E0C853B8A1567"
+				type: "item"
+				item: "refinedcooking:kitchen_station"
 			}]
 		}
 	]
