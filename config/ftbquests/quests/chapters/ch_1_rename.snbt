@@ -33,18 +33,6 @@
 			dev: false
 			corner: false
 		}
-		{
-			x: 37.0d
-			y: 35.25d
-			width: 4.0d
-			height: 4.0d
-			rotation: 0.0d
-			image: "prefab:textures/items/item_starter_farm.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
 	]
 	quests: [
 		{
@@ -1899,8 +1887,8 @@
 		{
 			title: "Wheat Farm"
 			icon: "create:mechanical_harvester"
-			x: 35.75d
-			y: 34.75d
+			x: 35.25d
+			y: 34.25d
 			dependencies: ["38CF0F5AACC73C4D"]
 			id: "55DAB1A2D54116E3"
 			tasks: [
@@ -1931,8 +1919,8 @@
 		{
 			title: "Wood Farm"
 			icon: "create:mechanical_saw"
-			x: 38.25d
-			y: 34.75d
+			x: 37.75d
+			y: 34.25d
 			dependencies: ["38CF0F5AACC73C4D"]
 			id: "7400971E05DD7896"
 			tasks: [
@@ -2031,8 +2019,8 @@
 		}
 		{
 			title: "The Portable Interfaces"
-			x: 37.0d
-			y: 34.0d
+			x: 36.5d
+			y: 34.25d
 			description: [
 				"The Portable Fluid Interface is the fluid version of the Portable Storage Interface. It is used to insert or extract from the fluid inventory of a moving structure made by a Cart Assembler, Mechanical Piston, Gantry Carriage, or Bearing."
 				""
@@ -4428,6 +4416,168 @@
 				id: "41C2A896B9CD146B"
 				type: "item"
 				item: "create:electron_tube"
+			}]
+		}
+		{
+			x: 34.5d
+			y: 38.75d
+			id: "2A20668C1672F83C"
+			tasks: [{
+				id: "5D0C53EBC86E08DF"
+				type: "item"
+				item: "createaddition:electric_motor"
+			}]
+		}
+		{
+			x: 35.5d
+			y: 38.75d
+			id: "64536569949CBA6F"
+			tasks: [{
+				id: "6BBDF6E54310F1E8"
+				type: "item"
+				item: "createaddition:alternator"
+			}]
+		}
+		{
+			x: 36.5d
+			y: 38.75d
+			id: "768CC1767B102F84"
+			tasks: [{
+				id: "764D6E1634E421F5"
+				type: "item"
+				item: "createaddition:rolling_mill"
+			}]
+		}
+		{
+			x: 34.5d
+			y: 39.75d
+			id: "536CB838E162C3ED"
+			tasks: [{
+				id: "025B08D431C64E54"
+				type: "item"
+				item: "createaddition:connector"
+			}]
+		}
+		{
+			x: 35.5d
+			y: 39.75d
+			id: "5AB27C13D2DF513C"
+			tasks: [{
+				id: "655EEAE5F5D88A61"
+				type: "item"
+				item: "createaddition:spool"
+			}]
+		}
+		{
+			x: 36.5d
+			y: 39.75d
+			id: "4C82C5C97F726EE3"
+			tasks: [{
+				id: "34938AC644D76559"
+				type: "item"
+				item: "createaddition:copper_spool"
+			}]
+		}
+		{
+			x: 37.5d
+			y: 39.75d
+			id: "1064B056A8870245"
+			tasks: [{
+				id: "5DB9791404E5B557"
+				type: "item"
+				item: "createaddition:gold_spool"
+			}]
+		}
+		{
+			x: 37.5d
+			y: 38.75d
+			id: "223C9C122646249B"
+			tasks: [{
+				id: "63E173CD75D5D55F"
+				type: "item"
+				item: "createaddition:accumulator"
+			}]
+		}
+		{
+			x: 34.5d
+			y: 40.75d
+			id: "7BCF705DF9C8B80A"
+			tasks: [{
+				id: "3E12639344E3ADB0"
+				type: "item"
+				item: "createaddition:heater"
+			}]
+		}
+		{
+			x: 36.5d
+			y: 40.75d
+			id: "7B09748E7626FD2D"
+			tasks: [{
+				id: "5434F179EE1580D4"
+				type: "item"
+				item: "createaddition:furnace_burner"
+			}]
+		}
+		{
+			x: 35.5d
+			y: 40.75d
+			id: "47F195BAF43E5EB2"
+			tasks: [{
+				id: "72ED79EB095AE416"
+				type: "item"
+				item: "createaddition:crude_burner"
+			}]
+		}
+		{
+			x: 37.5d
+			y: 40.75d
+			id: "479ED7D689A2D407"
+			tasks: [{
+				id: "76E1F6FF1BABBA09"
+				type: "item"
+				item: "createaddition:tesla_coil"
+			}]
+		}
+		{
+			x: 34.5d
+			y: 41.75d
+			id: "2ED78AFF8A7A6686"
+			tasks: [{
+				id: "033C5DDFAB7F939C"
+				type: "item"
+				item: {
+					id: "createaddition:diamond_grit_sandpaper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 37.5d
+			y: 41.75d
+			id: "4735A8CD445137E7"
+			tasks: [{
+				id: "26883380D95031D7"
+				type: "item"
+				item: "createaddition:overcharged_alloy"
+			}]
+		}
+		{
+			x: 36.5d
+			y: 41.75d
+			id: "7F8F5511CB86FEF3"
+			tasks: [{
+				id: "773C6DD290D0E913"
+				type: "item"
+				item: {
+					id: "createaddition:overcharged_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 	]

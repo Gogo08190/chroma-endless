@@ -321,7 +321,7 @@
 			]
 		}
 		{
-			x: 1.0d
+			x: 0.25d
 			y: 10.75d
 			dependencies: [
 				"5174E5B7DC17EF63"
@@ -355,6 +355,17 @@
 				id: "7970F51FBD2B499D"
 				type: "item"
 				item: "extendedcrafting:luminessence"
+			}]
+		}
+		{
+			x: 1.75d
+			y: 10.75d
+			dependencies: ["60E1726207640669"]
+			id: "102035F52CE5271C"
+			tasks: [{
+				id: "0EFD3CB80B1F3521"
+				type: "item"
+				item: "extendedcrafting:ender_star"
 			}]
 		}
 	]
