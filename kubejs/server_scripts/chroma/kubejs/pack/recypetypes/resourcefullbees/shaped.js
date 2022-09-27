@@ -92,7 +92,7 @@ onEvent('recipes', (event) => {
           output: 'resourcefulbees:apiary_storage',
           pattern: ['BIB', 'NHG', 'BDB'],
           key: {
-              B: 'minecraft:honeycomb_block',
+              B: 'resourcefulbees:waxed_machine_block',
               I: 'metalbarrels:iron_barrel',
               G: 'metalbarrels:gold_barrel',
               D: 'metalbarrels:diamond_barrel',
