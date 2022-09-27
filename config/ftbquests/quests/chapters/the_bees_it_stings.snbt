@@ -44,6 +44,18 @@
 			dev: false
 			corner: false
 		}
+		{
+			x: 20.5d
+			y: -5.25d
+			width: 17.0d
+			height: 17.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/honeycombs.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
 	]
 	quests: [
 		{
@@ -681,8 +693,9 @@
 		}
 		{
 			title: "Beeper Bee"
-			x: 3.5d
-			y: -7.0d
+			x: 23.25d
+			y: -3.5d
+			shape: "hexagon"
 			description: ["Spawn in &2Overworld&r"]
 			id: "005A0621823CB942"
 			tasks: [{
@@ -703,8 +716,9 @@
 		}
 		{
 			title: "Basalz Bee"
-			x: 4.5d
-			y: -7.0d
+			x: 26.25d
+			y: -2.75d
+			shape: "hexagon"
 			id: "7D2B680872E34FE3"
 			tasks: [{
 				id: "2E1C9957EC46B471"
@@ -724,8 +738,9 @@
 		}
 		{
 			title: "Awakened Bee"
-			x: 5.5d
-			y: -7.0d
+			x: 23.5d
+			y: -6.75d
+			shape: "hexagon"
 			id: "7419F92850195AF6"
 			tasks: [{
 				id: "728A1DB4422015E7"
@@ -745,8 +760,9 @@
 		}
 		{
 			title: "Aluminium Bee"
-			x: 6.5d
-			y: -7.0d
+			x: 24.75d
+			y: -9.0d
+			shape: "hexagon"
 			id: "6D17FF2CFD79A44D"
 			tasks: [{
 				id: "751CE9E8B450F9BF"
@@ -766,8 +782,9 @@
 		}
 		{
 			title: "AllTheModium Bee"
-			x: 7.5d
-			y: -7.0d
+			x: 21.75d
+			y: -10.75d
+			shape: "hexagon"
 			id: "1A6EA32BFBE0BAAE"
 			tasks: [{
 				id: "711FCC2B360FE68D"
@@ -787,8 +804,9 @@
 		}
 		{
 			title: "Aeternium Bee"
-			x: 8.5d
-			y: -7.0d
+			x: 21.25d
+			y: -8.5d
+			shape: "hexagon"
 			id: "1524181F40000154"
 			tasks: [{
 				id: "08CCDAC38F0BF47C"
@@ -808,8 +826,9 @@
 		}
 		{
 			title: "AbBee"
-			x: 9.5d
-			y: -7.0d
+			x: 20.5d
+			y: -11.5d
+			shape: "hexagon"
 			description: ["Spawn in &2Overworld&r"]
 			id: "40DCBD615084C6C3"
 			tasks: [{
@@ -851,8 +870,9 @@
 		}
 		{
 			title: "Chaotic Bee"
-			x: 3.5d
-			y: -6.0d
+			x: 23.75d
+			y: -4.25d
+			shape: "hexagon"
 			id: "61570EC6C55AA5A1"
 			tasks: [{
 				id: "20CFF6EBE9ACF53C"
@@ -894,8 +914,9 @@
 		}
 		{
 			title: "Bronze Bee"
-			x: 4.5d
-			y: -6.0d
+			x: 23.25d
+			y: -2.0d
+			shape: "hexagon"
 			id: "4FA5CFA4E3974878"
 			tasks: [{
 				id: "2FA08BCA559696A7"
@@ -915,8 +936,9 @@
 		}
 		{
 			title: "Brass Bee"
-			x: 5.5d
-			y: -6.0d
+			x: 23.75d
+			y: -1.25d
+			shape: "hexagon"
 			id: "2B794BD7028969E9"
 			tasks: [{
 				id: "2186D3425F174E39"
@@ -936,8 +958,9 @@
 		}
 		{
 			title: "Blutonium Bee"
-			x: 6.5d
-			y: -6.0d
+			x: 26.0d
+			y: -6.75d
+			shape: "hexagon"
 			id: "01A2C48E3267094D"
 			tasks: [{
 				id: "67D72F1E11C1E69D"
@@ -957,8 +980,9 @@
 		}
 		{
 			title: "Blizz Bee"
-			x: 7.5d
-			y: -6.0d
+			x: 23.0d
+			y: -7.5d
+			shape: "hexagon"
 			id: "16A03F5CFE8884CD"
 			tasks: [{
 				id: "6FC208526D718DF2"
@@ -978,8 +1002,9 @@
 		}
 		{
 			title: "Blitz Bee"
-			x: 8.5d
-			y: -6.0d
+			x: 18.75d
+			y: -10.0d
+			shape: "hexagon"
 			id: "6A75FA5BAA7397EE"
 			tasks: [{
 				id: "475C415004911134"
@@ -999,8 +1024,9 @@
 		}
 		{
 			title: "Blazing Bee"
-			x: 9.5d
-			y: -6.0d
+			x: 19.75d
+			y: -8.5d
+			shape: "hexagon"
 			id: "56358130A39993C7"
 			tasks: [{
 				id: "4E951AB27708D54F"
@@ -1062,8 +1088,9 @@
 		}
 		{
 			title: "Diamond Bee"
-			x: 3.5d
-			y: -5.0d
+			x: 24.5d
+			y: -4.25d
+			shape: "hexagon"
 			id: "33C16FAD439619C2"
 			tasks: [{
 				id: "526A113C7FA25663"
@@ -1083,8 +1110,9 @@
 		}
 		{
 			title: "Cyanite Bee"
-			x: 4.5d
-			y: -5.0d
+			x: 24.5d
+			y: -1.25d
+			shape: "hexagon"
 			id: "4D42659154BDCE04"
 			tasks: [{
 				id: "2F8C28B1B1C78846"
@@ -1104,8 +1132,9 @@
 		}
 		{
 			title: "Copper Bee"
-			x: 5.5d
-			y: -5.0d
+			x: 21.75d
+			y: -6.0d
+			shape: "hexagon"
 			id: "3DB1DBE894C2FA8B"
 			tasks: [{
 				id: "42F60A699A97FA15"
@@ -1125,8 +1154,9 @@
 		}
 		{
 			title: "Constantan Bee"
-			x: 6.5d
-			y: -5.0d
+			x: 24.0d
+			y: -6.0d
+			shape: "hexagon"
 			id: "4A475D327919C897"
 			tasks: [{
 				id: "47BC222DA08B1A3C"
@@ -1146,8 +1176,9 @@
 		}
 		{
 			title: "Compressed Iron Bee"
-			x: 7.5d
-			y: -5.0d
+			x: 23.5d
+			y: -8.25d
+			shape: "hexagon"
 			id: "7162685E96B5836D"
 			tasks: [{
 				id: "4175A43B54BE5C04"
@@ -1167,8 +1198,9 @@
 		}
 		{
 			title: "Cobalt Bee"
-			x: 8.5d
-			y: -5.0d
+			x: 19.25d
+			y: -10.75d
+			shape: "hexagon"
 			id: "5BC68FBD947AEB91"
 			tasks: [{
 				id: "412D63A23D4690CF"
@@ -1188,8 +1220,9 @@
 		}
 		{
 			title: "Coal Bee"
-			x: 9.5d
-			y: -5.0d
+			x: 19.75d
+			y: -11.5d
+			shape: "hexagon"
 			id: "5AE479976404293E"
 			tasks: [{
 				id: "502E60E3F595B09F"
@@ -1251,8 +1284,9 @@
 		}
 		{
 			title: "Ender Bee"
-			x: 3.5d
-			y: -4.0d
+			x: 25.25d
+			y: -4.25d
+			shape: "hexagon"
 			id: "1C2488763CCCA93F"
 			tasks: [{
 				id: "3876A19B3552D1DF"
@@ -1272,8 +1306,9 @@
 		}
 		{
 			title: "End Bee"
-			x: 4.5d
-			y: -4.0d
+			x: 22.75d
+			y: -2.75d
+			shape: "hexagon"
 			id: "111E33A961DC42F6"
 			tasks: [{
 				id: "67FD3D1F03F46ABF"
@@ -1293,8 +1328,9 @@
 		}
 		{
 			title: "Emerald Bee"
-			x: 5.5d
-			y: -4.0d
+			x: 22.25d
+			y: -5.25d
+			shape: "hexagon"
 			id: "2D5EC8FEBAB64AB9"
 			tasks: [{
 				id: "3FB77264B87DA947"
@@ -1314,8 +1350,9 @@
 		}
 		{
 			title: "Elementium Bee"
-			x: 6.5d
-			y: -4.0d
+			x: 24.75d
+			y: -6.0d
+			shape: "hexagon"
 			id: "3189DCB3226F9AC0"
 			tasks: [{
 				id: "1B8FD83F9BD33A2C"
@@ -1335,8 +1372,9 @@
 		}
 		{
 			title: "Electrum Bee"
-			x: 7.5d
-			y: -4.0d
+			x: 26.5d
+			y: -7.5d
+			shape: "hexagon"
 			id: "76E20AA80F5BE12F"
 			tasks: [{
 				id: "11C7DB2D412064C0"
@@ -1356,8 +1394,9 @@
 		}
 		{
 			title: "Dungeon Bee"
-			x: 8.5d
-			y: -4.0d
+			x: 20.5d
+			y: -8.5d
+			shape: "hexagon"
 			id: "5673D229209207E6"
 			tasks: [{
 				id: "62B6BF93694F5D86"
@@ -1377,8 +1416,9 @@
 		}
 		{
 			title: "Drenched Iron Bee"
-			x: 9.5d
-			y: -4.0d
+			x: 19.25d
+			y: -9.25d
+			shape: "hexagon"
 			id: "6DC436C371D0ECF2"
 			tasks: [{
 				id: "04F065E9F6B662D3"
@@ -1461,8 +1501,9 @@
 		}
 		{
 			title: "Forest Bee"
-			x: 4.5d
-			y: -3.0d
+			x: 25.25d
+			y: -1.25d
+			shape: "hexagon"
 			id: "24058CE8785ACBF8"
 			tasks: [{
 				id: "35FBD7315B652762"
@@ -1482,8 +1523,9 @@
 		}
 		{
 			title: "Fluorite Bee"
-			x: 5.5d
-			y: -3.0d
+			x: 21.25d
+			y: -6.75d
+			shape: "hexagon"
 			id: "415F1AAF4C0FBEF6"
 			tasks: [{
 				id: "5A08B719B6D815EE"
@@ -1503,8 +1545,9 @@
 		}
 		{
 			title: "Fireite Bee"
-			x: 6.5d
-			y: -3.0d
+			x: 26.0d
+			y: -8.25d
+			shape: "hexagon"
 			id: "3F0CC889E4CF19B5"
 			tasks: [{
 				id: "01E67615B5534890"
@@ -1524,8 +1567,9 @@
 		}
 		{
 			title: "Fairy Bee"
-			x: 7.5d
-			y: -3.0d
+			x: 25.5d
+			y: -9.0d
+			shape: "hexagon"
 			id: "44629B5FE3F169C4"
 			tasks: [{
 				id: "3A023BE1598223AB"
@@ -1545,8 +1589,9 @@
 		}
 		{
 			title: "Experience Bee"
-			x: 8.5d
-			y: -3.0d
+			x: 24.0d
+			y: -9.0d
+			shape: "hexagon"
 			id: "1FDD9735E7F58EC1"
 			tasks: [{
 				id: "703B5F6CDF58576C"
@@ -1566,8 +1611,9 @@
 		}
 		{
 			title: "Energized Bee"
-			x: 9.5d
-			y: -3.0d
+			x: 21.75d
+			y: -9.25d
+			shape: "hexagon"
 			id: "342AB62D3434E3BF"
 			tasks: [{
 				id: "5E632057C5F6C954"
@@ -1650,8 +1696,9 @@
 		}
 		{
 			title: "Guardian Bee"
-			x: 4.5d
+			x: 25.75d
 			y: -2.0d
+			shape: "hexagon"
 			id: "18A32022D590D223"
 			tasks: [{
 				id: "424C21B4E66B249D"
@@ -1671,8 +1718,9 @@
 		}
 		{
 			title: "Gravel Bee"
-			x: 5.5d
-			y: -2.0d
+			x: 20.5d
+			y: -6.75d
+			shape: "hexagon"
 			id: "3C1ED4ADAEC1A528"
 			tasks: [{
 				id: "2E58C920BA6A7A0B"
@@ -1692,8 +1740,9 @@
 		}
 		{
 			title: "Graphite Bee"
-			x: 6.5d
-			y: -2.0d
+			x: 14.5d
+			y: -7.5d
+			shape: "hexagon"
 			id: "776921B1DEC0A297"
 			tasks: [{
 				id: "5953A5FF68C4C0DC"
@@ -1713,8 +1762,9 @@
 		}
 		{
 			title: "Gold Bee"
-			x: 7.5d
-			y: -2.0d
+			x: 15.5d
+			y: -6.0d
+			shape: "hexagon"
 			id: "448EA86687BE6A64"
 			tasks: [{
 				id: "29F5C000BA6EB706"
@@ -1734,8 +1784,9 @@
 		}
 		{
 			title: "Glowstone Bee"
-			x: 8.5d
-			y: -2.0d
+			x: 25.5d
+			y: -6.0d
+			shape: "hexagon"
 			id: "4B62CECB7C22C581"
 			tasks: [{
 				id: "0EAD37E1ADA939DF"
@@ -1755,8 +1806,9 @@
 		}
 		{
 			title: "Ghast Bee"
-			x: 9.5d
-			y: -2.0d
+			x: 21.25d
+			y: -11.5d
+			shape: "hexagon"
 			id: "3C2409703CB7A690"
 			tasks: [{
 				id: "429DB74C97C333B1"
@@ -1818,8 +1870,9 @@
 		}
 		{
 			title: "Lead Bee"
-			x: 3.5d
-			y: -1.0d
+			x: 25.75d
+			y: -3.5d
+			shape: "hexagon"
 			id: "6C4F7E8498D9A01C"
 			tasks: [{
 				id: "4292F234B9E236B5"
@@ -1839,8 +1892,9 @@
 		}
 		{
 			title: "Lava Bee"
-			x: 4.5d
-			y: -1.0d
+			x: 19.75d
+			y: -6.75d
+			shape: "hexagon"
 			id: "4D6DA222145EE14F"
 			tasks: [{
 				id: "61F02BAC3D95D368"
@@ -1860,8 +1914,9 @@
 		}
 		{
 			title: "Lapis Bee"
-			x: 5.5d
-			y: -1.0d
+			x: 18.75d
+			y: -5.25d
+			shape: "hexagon"
 			id: "5C0249E7EC12F8B1"
 			tasks: [{
 				id: "665E88B0EC4C840C"
@@ -1881,8 +1936,9 @@
 		}
 		{
 			title: "Kitten Bee"
-			x: 6.5d
-			y: -1.0d
+			x: 16.25d
+			y: -9.0d
+			shape: "hexagon"
 			id: "4CBF35606533B089"
 			tasks: [{
 				id: "64FF3D35B9F37C6C"
@@ -1902,8 +1958,9 @@
 		}
 		{
 			title: "Iron Bee"
-			x: 7.5d
-			y: -1.0d
+			x: 15.0d
+			y: -8.25d
+			shape: "hexagon"
 			id: "6B6D7B4AA8FFDC17"
 			tasks: [{
 				id: "17693588DF856B16"
@@ -1923,8 +1980,9 @@
 		}
 		{
 			title: "Invar Bee"
-			x: 8.5d
-			y: -1.0d
+			x: 16.25d
+			y: -6.0d
+			shape: "hexagon"
 			id: "1F730D10456EB873"
 			tasks: [{
 				id: "50BE22276C5B37B2"
@@ -1944,8 +2002,9 @@
 		}
 		{
 			title: "Inanite Bee"
-			x: 9.5d
-			y: -1.0d
+			x: 22.25d
+			y: -10.0d
+			shape: "hexagon"
 			id: "1A9B7F94420A1FAE"
 			tasks: [{
 				id: "71F0C8ACD20F3EC7"
@@ -2028,8 +2087,9 @@
 		}
 		{
 			title: "Nether Bee"
-			x: 4.5d
-			y: 0.0d
+			x: 19.25d
+			y: -6.0d
+			shape: "hexagon"
 			id: "10CF9A9C60204ABB"
 			tasks: [{
 				id: "460AAC64B18DF92D"
@@ -2049,8 +2109,9 @@
 		}
 		{
 			title: "Mystical Bee"
-			x: 5.5d
-			y: 0.0d
+			x: 19.75d
+			y: -3.75d
+			shape: "hexagon"
 			id: "58DBB67DDB0ECCA6"
 			tasks: [{
 				id: "7442B8A77E54F977"
@@ -2070,8 +2131,9 @@
 		}
 		{
 			title: "Manyulyum Bee"
-			x: 6.5d
-			y: 0.0d
+			x: 15.75d
+			y: -1.25d
+			shape: "hexagon"
 			id: "3AF63C3FE37D80C9"
 			tasks: [{
 				id: "1F715A585A394887"
@@ -2091,8 +2153,9 @@
 		}
 		{
 			title: "Manasteel Bee"
-			x: 7.5d
-			y: 0.0d
+			x: 17.0d
+			y: -9.0d
+			shape: "hexagon"
 			id: "70A9CA8A58DB8873"
 			tasks: [{
 				id: "187116D83C25DDEB"
@@ -2112,8 +2175,9 @@
 		}
 		{
 			title: "Magma Bee"
-			x: 8.5d
-			y: 0.0d
+			x: 15.0d
+			y: -6.75d
+			shape: "hexagon"
 			id: "75DBEAD012A0991A"
 			tasks: [{
 				id: "61BC995B87DD3526"
@@ -2133,8 +2197,9 @@
 		}
 		{
 			title: "Magentite Bee"
-			x: 9.5d
-			y: 0.0d
+			x: 17.0d
+			y: -6.0d
+			shape: "hexagon"
 			id: "54AB52FCA0B56C97"
 			tasks: [{
 				id: "41A657E706AAF604"
@@ -2217,8 +2282,9 @@
 		}
 		{
 			title: "Osmium Bee"
-			x: 4.5d
-			y: 1.0d
+			x: 21.75d
+			y: -4.5d
+			shape: "hexagon"
 			id: "642C1DB5802E0123"
 			tasks: [{
 				id: "5BDA1A1683E53D91"
@@ -2238,8 +2304,9 @@
 		}
 		{
 			title: "Oreo Bee"
-			x: 5.5d
-			y: 1.0d
+			x: 15.75d
+			y: -4.25d
+			shape: "hexagon"
 			id: "0F304E760CEF2C4E"
 			tasks: [{
 				id: "7DA6C3B7577528BB"
@@ -2259,8 +2326,9 @@
 		}
 		{
 			title: "Occultist Bee"
-			x: 6.5d
-			y: 1.0d
+			x: 17.25d
+			y: -1.25d
+			shape: "hexagon"
 			id: "3075675593E8F32F"
 			tasks: [{
 				id: "1C079F6440C001A4"
@@ -2280,8 +2348,9 @@
 		}
 		{
 			title: "Obsidian Bee"
-			x: 7.5d
-			y: 1.0d
+			x: 16.5d
+			y: -1.25d
+			shape: "hexagon"
 			id: "348E5CA782AD3F4C"
 			tasks: [{
 				id: "31B75B2B8D15757C"
@@ -2301,8 +2370,9 @@
 		}
 		{
 			title: "Nitro Bee"
-			x: 8.5d
-			y: 1.0d
+			x: 18.0d
+			y: -7.5d
+			shape: "hexagon"
 			id: "7F1E768894FCCA3C"
 			tasks: [{
 				id: "31C1C3580D981331"
@@ -2322,8 +2392,9 @@
 		}
 		{
 			title: "Niotic Bee"
-			x: 9.5d
-			y: 1.0d
+			x: 17.5d
+			y: -6.75d
+			shape: "hexagon"
 			id: "586B127CE4C8758B"
 			tasks: [{
 				id: "4275189F363923E5"
@@ -2406,8 +2477,9 @@
 		}
 		{
 			title: "Ridiculite Bee"
-			x: 4.5d
-			y: 2.0d
+			x: 19.25d
+			y: -4.5d
+			shape: "hexagon"
 			id: "636E2DCCA8630485"
 			tasks: [{
 				id: "4A317FA0E0312E2D"
@@ -2427,8 +2499,9 @@
 		}
 		{
 			title: "RGBee"
-			x: 5.5d
-			y: 2.0d
+			x: 20.5d
+			y: -3.75d
+			shape: "hexagon"
 			id: "1759DCC8A2F5E01F"
 			tasks: [{
 				id: "5DA9AFE0052338A4"
@@ -2448,8 +2521,9 @@
 		}
 		{
 			title: "Regalium Bee"
-			x: 6.5d
-			y: 2.0d
+			x: 16.5d
+			y: -4.25d
+			shape: "hexagon"
 			id: "5B7CB0F4DC76A848"
 			tasks: [{
 				id: "42579251EA05C996"
@@ -2469,8 +2543,9 @@
 		}
 		{
 			title: "Refined Obsidian Bee"
-			x: 7.5d
-			y: 2.0d
+			x: 15.25d
+			y: -2.0d
+			shape: "hexagon"
 			id: "1FD4F9D0BFC63F98"
 			tasks: [{
 				id: "5CE2CF75BD98BFD1"
@@ -2490,8 +2565,9 @@
 		}
 		{
 			title: "Refined Glowstone Bee"
-			x: 8.5d
-			y: 2.0d
+			x: 15.5d
+			y: -9.0d
+			shape: "hexagon"
 			id: "07ECB6159F9C5C92"
 			tasks: [{
 				id: "71CBF2D70D6166B7"
@@ -2511,8 +2587,9 @@
 		}
 		{
 			title: "Redstone Bee"
-			x: 9.5d
-			y: 2.0d
+			x: 17.5d
+			y: -8.25d
+			shape: "hexagon"
 			id: "745803B38BA58076"
 			tasks: [{
 				id: "44CA9287EE66E7E4"
@@ -2595,8 +2672,9 @@
 		}
 		{
 			title: "Soul Lava Bee"
-			x: 4.5d
-			y: 3.0d
+			x: 20.5d
+			y: -2.0d
+			shape: "hexagon"
 			id: "51512A9F63424E85"
 			tasks: [{
 				id: "19576C196ACA953C"
@@ -2616,8 +2694,9 @@
 		}
 		{
 			title: "Slime Bee"
-			x: 5.5d
-			y: 3.0d
+			x: 19.75d
+			y: -2.0d
+			shape: "hexagon"
 			id: "150E3865671A78DC"
 			tasks: [{
 				id: "2835F008FEB19026"
@@ -2637,8 +2716,9 @@
 		}
 		{
 			title: "Skyslime Bee"
-			x: 6.5d
-			y: 3.0d
+			x: 18.75d
+			y: -0.5d
+			shape: "hexagon"
 			id: "5F33C011FBE18C29"
 			tasks: [{
 				id: "2B61C427EF4E18CB"
@@ -2658,8 +2738,9 @@
 		}
 		{
 			title: "Skeleton Bee"
-			x: 7.5d
-			y: 3.0d
+			x: 17.25d
+			y: -4.25d
+			shape: "hexagon"
 			id: "68C959E70C5FB27F"
 			tasks: [{
 				id: "22569AD4A5E80513"
@@ -2679,8 +2760,9 @@
 		}
 		{
 			title: "Silver Bee"
-			x: 8.5d
-			y: 3.0d
+			x: 17.75d
+			y: -2.0d
+			shape: "hexagon"
 			id: "6061CB6EADFDDAD8"
 			tasks: [{
 				id: "2B96D8F26D9E8EA3"
@@ -2700,8 +2782,9 @@
 		}
 		{
 			title: "Signalum Bee"
-			x: 9.5d
-			y: 3.0d
+			x: 15.25d
+			y: -3.5d
+			shape: "hexagon"
 			id: "5C8699E85D872351"
 			tasks: [{
 				id: "746EDD9F5D7DECF3"
@@ -2784,8 +2867,9 @@
 		}
 		{
 			title: "Thallasium Bee"
-			x: 4.5d
-			y: 4.0d
+			x: 21.25d
+			y: -2.0d
+			shape: "hexagon"
 			id: "5300901FD4BA85DC"
 			tasks: [{
 				id: "19ECB92D6675CBEC"
@@ -2805,8 +2889,9 @@
 		}
 		{
 			title: "Terrasteel Bee"
-			x: 5.5d
-			y: 4.0d
+			x: 19.25d
+			y: -1.25d
+			shape: "hexagon"
 			id: "239B5A55E70CD33C"
 			tasks: [{
 				id: "627D42B9EA68F994"
@@ -2826,8 +2911,9 @@
 		}
 		{
 			title: "Terminite Bee"
-			x: 6.5d
-			y: 4.0d
+			x: 21.75d
+			y: 0.25d
+			shape: "hexagon"
 			id: "487D00E19338C817"
 			tasks: [{
 				id: "0B8395CFD4C60BF4"
@@ -2847,8 +2933,9 @@
 		}
 		{
 			title: "Swift Alloy Bee"
-			x: 7.5d
-			y: 4.0d
+			x: 20.5d
+			y: 1.0d
+			shape: "hexagon"
 			id: "4D0FEA96A6DFE6C9"
 			tasks: [{
 				id: "731D653E941DD1A5"
@@ -2868,8 +2955,9 @@
 		}
 		{
 			title: "Stone Bee"
-			x: 8.5d
-			y: 4.0d
+			x: 17.75d
+			y: -3.5d
+			shape: "hexagon"
 			id: "2BC1BD4FBA3C3EAC"
 			tasks: [{
 				id: "788C7AC29DEBEC15"
@@ -2889,8 +2977,9 @@
 		}
 		{
 			title: "Steel Bee"
-			x: 9.5d
-			y: 4.0d
+			x: 18.25d
+			y: -2.75d
+			shape: "hexagon"
 			id: "33F152A85C0B28CD"
 			tasks: [{
 				id: "5DA97F8BFE814854"
@@ -2952,8 +3041,9 @@
 		}
 		{
 			title: "Yeti Bee"
-			x: 3.5d
-			y: 5.0d
+			x: 21.25d
+			y: -3.75d
+			shape: "hexagon"
 			id: "4732814EE3CEB7B3"
 			tasks: [{
 				id: "1DD6F30218071DB4"
@@ -2973,8 +3063,9 @@
 		}
 		{
 			title: "Xion Bee"
-			x: 4.5d
-			y: 5.0d
+			x: 21.75d
+			y: -1.25d
+			shape: "hexagon"
 			id: "3764DC6E12EC052E"
 			tasks: [{
 				id: "2238FA5DB1F46FDC"
@@ -2994,8 +3085,9 @@
 		}
 		{
 			title: "Wither Bee"
-			x: 5.5d
-			y: 5.0d
+			x: 22.25d
+			y: -0.5d
+			shape: "hexagon"
 			id: "173E32122B3FBF1A"
 			tasks: [{
 				id: "2CFBCE0123D8E871"
@@ -3015,8 +3107,9 @@
 		}
 		{
 			title: "Water Bee"
-			x: 6.5d
-			y: 5.0d
+			x: 19.75d
+			y: 1.0d
+			shape: "hexagon"
 			id: "5E749C6498C40569"
 			tasks: [{
 				id: "75AB019BD245A6A6"
@@ -3036,8 +3129,9 @@
 		}
 		{
 			title: "Vibranium Bee"
-			x: 7.5d
-			y: 5.0d
+			x: 19.25d
+			y: 0.25d
+			shape: "hexagon"
 			id: "0760AEB4D4BB74C5"
 			tasks: [{
 				id: "4A4B50A054088513"
@@ -3057,8 +3151,9 @@
 		}
 		{
 			title: "Utherium Bee"
-			x: 8.5d
-			y: 5.0d
+			x: 21.25d
+			y: 1.0d
+			shape: "hexagon"
 			id: "6AE60E6312DF4B23"
 			tasks: [{
 				id: "1C12466270AFCE32"
@@ -3078,8 +3173,9 @@
 		}
 		{
 			title: "Uranium Bee"
-			x: 9.5d
-			y: 5.0d
+			x: 14.75d
+			y: -2.75d
+			shape: "hexagon"
 			id: "42419E07F45208E2"
 			tasks: [{
 				id: "40E602B1729937FA"
