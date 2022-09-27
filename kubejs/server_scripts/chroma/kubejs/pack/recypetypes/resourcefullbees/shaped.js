@@ -123,7 +123,7 @@ onEvent('recipes', (event) => {
           key: {
               G: 'minecraft:gold_ingot',
               C: 'expandedstorage:gold_chest',
-              A: 'resourcefulbees:apiary_storage'
+              A: 'resourcefulbees:iron_storage_upgrade'
           },
           id: 'resourcefulbees:gold_storage_upgrade'
       },
@@ -136,7 +136,7 @@ onEvent('recipes', (event) => {
           key: {
               D: 'minecraft:diamond_block',
               C: 'expandedstorage:diamond_chest',
-              A: 'resourcefulbees:apiary_storage'
+              A: 'resourcefulbees:gold_storage_upgrade'
           },
           id: 'resourcefulbees:diamond_storage_upgrade'
       },
@@ -149,7 +149,7 @@ onEvent('recipes', (event) => {
           key: {
               E: 'minecraft:emerald_block',
               C: 'expandedstorage:netherite_chest',
-              A: 'resourcefulbees:apiary_storage'
+              A: 'resourcefulbees:diamond_storage_upgrade'
           },
           id: 'resourcefulbees:emerald_storage_upgrade'
       },
