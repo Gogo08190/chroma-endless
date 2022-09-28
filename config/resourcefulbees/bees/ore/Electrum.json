@@ -53,6 +53,7 @@
     },
     "BreedData": {
     "isBreedable": true,
+    "breedChance": 0.5,
     "parent1": "silver",
     "parent2": "gold",
     "feedItem": "emendatusenigmatica:electrum_block"

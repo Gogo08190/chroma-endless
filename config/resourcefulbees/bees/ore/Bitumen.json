@@ -53,6 +53,7 @@
     },
     "BreedData": {
     "isBreedable": true,
+    "breedChance": 0.5,
     "parent1": "water",
     "parent2": "coal",
     "feedItem": "emendatusenigmatica:bitumen_ore"

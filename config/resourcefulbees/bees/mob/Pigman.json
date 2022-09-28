@@ -60,6 +60,7 @@
   },
   "BreedData": {
     "isBreedable": true,
+    "breedChance": 0.5,
     "feedItem": "minecraft:rotten_flesh",
     "feedAmount": 1,
     "childGrowthDelay": -24000,

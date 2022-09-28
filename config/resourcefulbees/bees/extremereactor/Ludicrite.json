@@ -50,6 +50,7 @@
     "BreedData": {
       "isBreedable": true,
       "feedItem": "bigreactors:ludicrite_block",
+      "breedChance": 0.10,
       "feedAmount": 5,
       "childGrowthDelay": -24000,
       "breedDelay": 6000

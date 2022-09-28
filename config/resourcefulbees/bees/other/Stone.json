@@ -64,6 +64,7 @@
     },
     "BreedData": {
         "isBreedable":true,
+        "breedChance": 0.5,
         "feedItem": "minecraft:stone",
         "feedAmount": 4,
         "childGrowthDelay": -24000,

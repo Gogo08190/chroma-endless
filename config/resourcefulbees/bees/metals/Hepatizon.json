@@ -50,6 +50,7 @@
     "BreedData": {
       "isBreedable": true,
       "feedItem": "tconstruct:hepatizon_block",
+      "breedChance": 0.5,
       "feedAmount": 5,
       "childGrowthDelay": -24000,
       "breedDelay": 6000

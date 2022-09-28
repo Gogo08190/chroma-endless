@@ -51,6 +51,7 @@
       "isBreedable": true,
       "parent1": "zinc",
       "parent2": "copper",
+      "breedChance": 0.5,
       "feedItem": "emendatusenigmatica:brass_block",
       "feedAmount": 5,
       "childGrowthDelay": -24000,

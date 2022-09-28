@@ -51,6 +51,7 @@
       "isBreedable": true,
       "parent1": "copper",
       "parent2": "tin",
+      "breedChance": 0.5,
       "feedItem": "emendatusenigmatica:bronze_block",
       "childGrowthDelay": -24000,
       "breedDelay": 6000

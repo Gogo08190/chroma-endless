@@ -53,6 +53,7 @@
         "isBreedable": true,
         "parent1": "clay",
         "parent2": "sand",
+        "breedChance": 0.5,
         "feedItem": "tconstruct:seared_bricks",
         "feedAmount": 4,
         "childGrowthDelay": -24000,

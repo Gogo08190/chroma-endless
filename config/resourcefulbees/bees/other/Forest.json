@@ -75,6 +75,7 @@
     },
     "BreedData": {
         "isBreedable": true,
+        "breedChance": 0.5,
         "feedItem": "tag:minecraft:logs",
         "feedAmount": 1,
         "childGrowthDelay": -24000,

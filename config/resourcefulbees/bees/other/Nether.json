@@ -76,6 +76,7 @@
     },
     "BreedData": {
         "isBreedable": true,
+        "breedChance": 0.5,
         "feedItem": "minecraft:netherrack",
         "feedAmount": 1,
         "childGrowthDelay": -24000,

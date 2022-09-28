@@ -46,6 +46,7 @@
   },
   "BreedData": {
       "isBreedable": true,
+      "breedChance": 0.5,
       "feedItem": "allthemodium:allthemodium_apple",
       "feedAmount": 5,
       "childGrowthDelay": -24000,

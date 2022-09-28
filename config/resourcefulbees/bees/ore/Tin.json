@@ -53,6 +53,7 @@
     },
     "BreedData": {
     "isBreedable": true,
+    "breedChance": 0.5,
     "feedItem": "emendatusenigmatica:tin_block",
     "feedAmount": 5,
     "childGrowthDelay": -24000,

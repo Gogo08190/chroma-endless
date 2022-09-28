@@ -52,6 +52,7 @@
     "isBreedable": true,
     "parent1": "Coal",
     "parent2": "Skeleton",
+    "breedChance": 0.4,
     "feedItem": "minecraft:wither_skeleton_skull",
     "feedAmount": 20
   },

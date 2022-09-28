@@ -52,6 +52,7 @@
   },
   "BreedData": {
     "isBreedable": true,
+    "breedChance": 0.5,
     "feedItem": "minecraft:skeleton_skull",
     "feedAmount": 8
   },

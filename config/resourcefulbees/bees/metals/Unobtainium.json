@@ -38,6 +38,7 @@
       "isBreedable": true,
       "feedItem": "allthemodium:unobtainium_block",
       "feedAmount": 10,
+      "breedChance": 0.1,
       "childGrowthDelay": -24000,
       "breedDelay": 6000
     },

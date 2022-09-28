@@ -53,6 +53,7 @@
   },
   "BreedData": {
       "isBreedable": true,
+      "breedChance": 0.5,
       "feedItem": "tconstruct:lavawood",
       "feedAmount": 4,
       "childGrowthDelay": -24000,

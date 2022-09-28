@@ -67,6 +67,7 @@
         "isBreedable": true,
         "parent1": "diamond",
         "parent2": "slime",
+        "breedChance": 0.5,
         "feedItem": "tag:forge:storage_blocks/emerald",
         "feedAmount": 1,
         "childGrowthDelay": -24000,

@@ -62,7 +62,7 @@
   "BreedData": {
     "isBreedable": true,
     "breedWeight": 10,
-    "breedChance": 0.8,
+    "breedChance": 0.5,
     "feedItem": "minecraft:prismarine_crystals",
     "feedAmount": 5,
     "childGrowthDelay": -24000,

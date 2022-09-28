@@ -66,8 +66,9 @@
     "isBreedable": true,
     "parent1": "Wither",
     "parent2": "Diamond",
+    "breedChance": 0.4,
     "feedItem": "minecraft:netherite_block",
-    "feedAmount": 5,
+    "feedAmount": 2,
     "childGrowthDelay": -24000,
     "breedDelay": 6000
   },

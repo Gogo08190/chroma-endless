@@ -89,6 +89,7 @@
   },
   "BreedData": {
     "isBreedable": true,
+    "breedChance": 0.5,
     "parent1": "Diamond",
     "parent2": "RGBee",
     "feedItem": "tag:forge:gems/diamond"

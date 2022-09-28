@@ -61,6 +61,7 @@
   "BreedData": {
     "isBreedable": true,
     "feedItem": "miniutilities:ender_pearl_block",
+    "breedChance": 0.5,
     "feedAmount": 5,
     "childGrowthDelay": -24000,
     "breedDelay": 6000

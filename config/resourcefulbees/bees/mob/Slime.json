@@ -54,6 +54,7 @@
     },
     "BreedData": {
         "isBreedable": true,
+        "breedChance": 0.5,
         "feedItem": "minecraft:slime_block",
         "feedAmount": 2,
         "childGrowthDelay": -24000,

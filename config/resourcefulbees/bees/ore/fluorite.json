@@ -55,6 +55,7 @@
     "isBreedable": true,
     "parent1": "osmium",
     "parent2": "lapis",
+    "breedChance": 0.5,
     "feedItem": "emendatusenigmatica:fluorite_block",
     "feedAmount": 5,
     "childGrowthDelay": -24000,

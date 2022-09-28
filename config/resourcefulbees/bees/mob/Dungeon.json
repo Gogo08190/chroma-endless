@@ -53,9 +53,7 @@
     "lightLevel": "NIGHT"
   },
   "BreedData": {
-    "isBreedable": true,
-    "feedItem": "minecraft:mossy_cobblestone",
-    "feedAmount": 4
+    "isBreedable": false
   },
   "TraitData": {
     "hasTraits": true

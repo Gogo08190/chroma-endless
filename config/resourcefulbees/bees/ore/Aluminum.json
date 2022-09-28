@@ -53,6 +53,7 @@
     },
     "BreedData": {
     "isBreedable": true,
+    "breedChance": 0.5,
     "feedItem": "emendatusenigmatica:aluminum_block"
   },
   "TraitData": {

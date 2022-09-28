@@ -48,6 +48,7 @@
     },
     "BreedData": {
       "isBreedable": true,
+      "breedChance": 0.5,
       "feedItem": "minecraft:gravel",
       "feedAmount": 1,
       "childGrowthDelay": -24000,

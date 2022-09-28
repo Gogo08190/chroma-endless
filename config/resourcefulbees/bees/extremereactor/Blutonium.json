@@ -51,6 +51,7 @@
       "isBreedable": true,
       "feedItem": "bigreactors:blutonium_block",
       "feedAmount": 5,
+      "breedChance": 0.10,
       "childGrowthDelay": -24000,
       "breedDelay": 6000
     },

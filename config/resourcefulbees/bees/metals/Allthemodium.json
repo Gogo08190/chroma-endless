@@ -37,6 +37,7 @@
     "BreedData": {
       "isBreedable": true,
       "feedItem": "allthemodium:allthemodium_block",
+      "breedChance": 0.10,
       "feedAmount": 10,
       "childGrowthDelay": -24000,
       "breedDelay": 6000

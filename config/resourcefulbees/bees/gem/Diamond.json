@@ -71,6 +71,7 @@
       "isBreedable": true,
       "parent1": "nether_quartz",
       "parent2": "lapis",
+      "breedChance": 0.5,
       "feedItem": "tag:forge:storage_blocks/diamond",
       "feedAmount": 1,
       "childGrowthDelay": -24000,

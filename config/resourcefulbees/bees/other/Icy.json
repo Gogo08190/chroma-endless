@@ -44,6 +44,7 @@
   },
   "BreedData": {
     "isBreedable": true,
+    "breedChance": 0.5,
     "feedItem": "minecraft:packed_ice",
     "feedAmount": 4,
     "childGrowthDelay": -24000,

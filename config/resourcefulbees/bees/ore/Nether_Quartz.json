@@ -68,6 +68,7 @@
   },
   "BreedData": {
     "isBreedable": true,
+    "breedChance": 0.5,
     "feedItem": "minecraft:quartz_block",
     "feedAmount": 5,
     "childGrowthDelay": -24000,

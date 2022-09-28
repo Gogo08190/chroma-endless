@@ -51,6 +51,7 @@
       "isBreedable": true,
       "parent1": "glowstone",
       "parent2": "tin",
+      "breedChance": 0.5,
       "feedItem": "emendatusenigmatica:lumium_block"
     },
     "TraitData": {

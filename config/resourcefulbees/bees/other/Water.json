@@ -84,6 +84,7 @@
     },
     "BreedData": {
         "isBreedable": true,
+        "breedChance": 0.5,
         "feedItem": "minecraft:seagrass",
         "feedAmount": 4,
         "childGrowthDelay": -24000,

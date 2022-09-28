@@ -65,6 +65,7 @@
     },
     "BreedData": {
         "isBreedable": true,
+        "breedChance": 0.6,
         "feedItem": "tag:forge:storage_blocks/clay",
         "feedAmount": 1,
         "childGrowthDelay": -24000,

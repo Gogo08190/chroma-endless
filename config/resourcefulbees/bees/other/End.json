@@ -61,6 +61,7 @@
     },
     "BreedData": {
         "isBreedable": true,
+        "breedChance": 0.5,
         "feedItem": "minecraft:end_stone",
         "feedAmount": 5,
         "childGrowthDelay": -24000,

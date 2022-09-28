@@ -49,6 +49,7 @@
   },
   "BreedData": {
       "isBreedable": true,
+      "breedChance": 0.5,
       "feedItem": "minecraft:magma_block",
       "feedAmount": 3,
       "childGrowthDelay": -24000,

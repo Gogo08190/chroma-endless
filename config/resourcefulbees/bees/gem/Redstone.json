@@ -73,6 +73,7 @@
       "isBreedable": true,
       "parent1": "rgbee",
       "parent2": "stone",
+      "breedChance": 0.5,
       "feedItem": "tag:forge:storage_blocks/redstone",
       "feedAmount": 5,
       "childGrowthDelay": -24000,

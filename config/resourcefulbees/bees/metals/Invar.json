@@ -51,6 +51,7 @@
       "isBreedable": true,
       "parent1": "nickel",
       "parent2": "iron",
+      "breedChance": 0.5,
       "feedItem":"emendatusenigmatica:invar_block"
     },
     "TraitData": {
