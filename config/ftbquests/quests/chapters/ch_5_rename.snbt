@@ -395,10 +395,7 @@
 			y: -12.0d
 			shape: "diamond"
 			hide_dependency_lines: true
-			dependencies: [
-				"121DF7B31DB4BEF8"
-				"3D9704407EEE5330"
-			]
+			dependencies: ["121DF7B31DB4BEF8"]
 			id: "58E2FB84B9A9425B"
 			tasks: [{
 				id: "4BE57528752D6C3D"
@@ -414,7 +411,6 @@
 			dependencies: [
 				"3D156DB23470F2D5"
 				"121DF7B31DB4BEF8"
-				"3D9704407EEE5330"
 			]
 			id: "296D966FDD569C54"
 			tasks: [{

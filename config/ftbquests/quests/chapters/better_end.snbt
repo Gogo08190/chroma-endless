@@ -1,0 +1,138 @@
+{
+	id: "19E5AB27433548E8"
+	group: ""
+	order_index: 15
+	filename: "better_end"
+	title: "Better End"
+	icon: "betterendforge:infusion_pedestal"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.25d
+			y: -12.25d
+			id: "0225B8C87FA1AE88"
+			tasks: [{
+				id: "3F128B2C9CCE6295"
+				type: "dimension"
+				dimension: "minecraft:the_end"
+			}]
+		}
+		{
+			x: 0.25d
+			y: -11.0d
+			id: "7BEEA494034E85E0"
+			tasks: [{
+				id: "6EC099769ED0B392"
+				type: "item"
+				item: "betterendforge:thallasium_ore"
+			}]
+		}
+		{
+			x: 0.25d
+			y: -9.75d
+			dependencies: ["7BEEA494034E85E0"]
+			id: "7AB46CAA9425281D"
+			tasks: [{
+				id: "32E0B7725DF6525F"
+				type: "item"
+				item: "betterendforge:thallasium_ingot"
+			}]
+		}
+		{
+			x: 2.25d
+			y: -11.0d
+			id: "44C378B73E3ED63E"
+			tasks: [{
+				id: "66D927BEED626A57"
+				type: "item"
+				item: "betterendforge:end_stone_furnace"
+			}]
+		}
+		{
+			x: -0.25d
+			y: -8.5d
+			dependencies: ["7AB46CAA9425281D"]
+			id: "1F0FCC8187B2D3E6"
+			tasks: [{
+				id: "0A566D16BF407F60"
+				type: "item"
+				item: "betterendforge:thallasium_sword_handle"
+			}]
+		}
+		{
+			x: 0.75d
+			y: -8.5d
+			dependencies: ["7AB46CAA9425281D"]
+			id: "13F45D3C40B6CD57"
+			tasks: [{
+				id: "1DAC93FCE0BF481E"
+				type: "item"
+				item: "betterendforge:thallasium_sword_blade"
+			}]
+		}
+		{
+			x: 0.25d
+			y: -7.5d
+			dependencies: [
+				"13F45D3C40B6CD57"
+				"1F0FCC8187B2D3E6"
+			]
+			id: "722B241956FBF61F"
+			tasks: [{
+				id: "434564ADB0548074"
+				type: "item"
+				item: {
+					id: "betterendforge:thallasium_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.25d
+			y: -9.75d
+			dependencies: ["44C378B73E3ED63E"]
+			id: "714DFE80CDA0DE08"
+			tasks: [{
+				id: "29DCE269058267ED"
+				type: "item"
+				item: "betterendforge:end_stone_smelter"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -10.25d
+			dependencies: ["714DFE80CDA0DE08"]
+			id: "76623C16574C8BB7"
+			tasks: [{
+				id: "10A0339E9CED1E99"
+				type: "item"
+				item: "betterendforge:aeternium_ingot"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -9.25d
+			dependencies: ["714DFE80CDA0DE08"]
+			id: "5F0CB9858CDFA417"
+			tasks: [{
+				id: "2FA9024374B45945"
+				type: "item"
+				item: "betterendforge:terminite_ingot"
+			}]
+		}
+		{
+			x: 2.75d
+			y: -8.25d
+			id: "2DC2B3266CD0DBF5"
+			tasks: [{
+				id: "5522E1343DF80420"
+				type: "item"
+				item: "betterendforge:infusion_pedestal"
+			}]
+		}
+	]
+}

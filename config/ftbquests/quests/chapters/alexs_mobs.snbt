@@ -13,5 +13,29 @@
 	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: -2.0d
+			y: -0.25d
+			id: "79A75390155A639A"
+			tasks: [{
+				id: "57FFDD2EACE40630"
+				type: "item"
+				item: "alexsmobs:animal_dictionary"
+			}]
+		}
+		{
+			x: -5.25d
+			y: -3.0d
+			id: "7D5F8664B6285406"
+			tasks: [{
+				id: "6FAD15FA6D74A095"
+				type: "questsadditions:interaction"
+				entity: "alexsmobs:alligator_snapping_turtle"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+	]
 }

@@ -10,24 +10,24 @@
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: 23.75d
-			y: 25.75d
-			width: 6.0d
-			height: 6.0d
+			x: 36.5d
+			y: 30.0d
+			width: 5.0d
+			height: 5.0d
 			rotation: 0.0d
-			image: "create:textures/item/brass_ingot.png"
+			image: "miniutilities:textures/item/wrench.png"
 			hover: [ ]
 			click: ""
 			dev: false
 			corner: false
 		}
 		{
-			x: 36.5d
-			y: 30.0d
+			x: 36.0d
+			y: 36.0d
 			width: 4.0d
 			height: 4.0d
 			rotation: 0.0d
-			image: "miniutilities:textures/item/wrench.png"
+			image: "emendatusenigmatica:textures/items/steel_gear.png"
 			hover: [ ]
 			click: ""
 			dev: false
@@ -290,8 +290,8 @@
 					Damage: 0
 				}
 			}
-			x: 31.0d
-			y: 29.0d
+			x: 34.0d
+			y: 25.0d
 			shape: "gear"
 			dependencies: ["2F7EB9DBC6CE7522"]
 			size: 2.0d
@@ -1353,8 +1353,8 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: 28.25d
+			x: 14.5d
+			y: 29.0d
 			subtitle: "The Mechanical Mixer is a mechanical component that applies Mixing recipes and shapeless Crafting recipes to items in Basins."
 			description: [
 				"The Mechanical Mixer is powered by an internal cogwheel, and will behave as one to any adjacent components, relaying and reversing rotation sideways."
@@ -1382,8 +1382,8 @@
 			]
 		}
 		{
-			x: 29.0d
-			y: 31.5d
+			x: 31.5d
+			y: 27.0d
 			subtitle: "The Deployer simulates player actions on blocks up 2 to blocks away from it"
 			description: [
 				"The Deployer simulates right clicks by default. It can be adjusted to left click instead with a Wrench."
@@ -1425,8 +1425,8 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: 29.0d
+			x: 16.5d
+			y: 28.25d
 			dependencies: ["3EE564D2D7642605"]
 			id: "3892F7C2CF403F2F"
 			tasks: [{
@@ -1449,8 +1449,8 @@
 		}
 		{
 			title: "Manual Kinetic Sources"
-			x: 20.0d
-			y: 34.5d
+			x: 19.25d
+			y: 35.0d
 			shape: "octagon"
 			dependencies: ["50B9AEC7812CEE92"]
 			id: "5A15F4F1EFF567AC"
@@ -1468,7 +1468,7 @@
 			]
 		}
 		{
-			x: 21.0d
+			x: 20.75d
 			y: 35.0d
 			shape: "octagon"
 			subtitle: "Water Wheel is a source of rotational power"
@@ -1515,7 +1515,7 @@
 		{
 			title: "Windmill"
 			icon: "create:propeller"
-			x: 21.25d
+			x: 21.0d
 			y: 33.75d
 			shape: "octagon"
 			subtitle: "It is composed of a Windmill Bearing and Sails"
@@ -1549,8 +1549,8 @@
 		}
 		{
 			icon: "create:furnace_engine"
-			x: 19.0d
-			y: 35.0d
+			x: 20.0d
+			y: 32.0d
 			shape: "octagon"
 			subtitle: "Furnace Engine can be used to generate Rotational Force when a furnace burns"
 			description: [
@@ -1578,8 +1578,8 @@
 			]
 		}
 		{
-			x: 26.25d
-			y: 29.25d
+			x: 28.0d
+			y: 27.0d
 			dependencies: ["5FAB66FE3921DAF1"]
 			id: "2A83D8FCCCFE217C"
 			tasks: [{
@@ -1590,8 +1590,8 @@
 		}
 		{
 			title: "Crushing Wheels"
-			x: 28.5d
-			y: 29.25d
+			x: 29.25d
+			y: 23.75d
 			subtitle: "Crushing Wheels are the more advanced version of the Millstone"
 			description: [
 				"It applies Crushing recipes to any items inserted from the direction they are spinning away from. At 16 RPM, 1 wheel uses 128 Stress units."
@@ -1888,8 +1888,9 @@
 			title: "Wheat Farm"
 			icon: "create:mechanical_harvester"
 			x: 35.25d
-			y: 34.25d
+			y: 35.25d
 			dependencies: ["38CF0F5AACC73C4D"]
+			optional: true
 			id: "55DAB1A2D54116E3"
 			tasks: [
 				{
@@ -1919,9 +1920,10 @@
 		{
 			title: "Wood Farm"
 			icon: "create:mechanical_saw"
-			x: 37.75d
-			y: 34.25d
+			x: 36.75d
+			y: 35.25d
 			dependencies: ["38CF0F5AACC73C4D"]
+			optional: true
 			id: "7400971E05DD7896"
 			tasks: [
 				{
@@ -1993,8 +1995,8 @@
 			]
 		}
 		{
-			x: 26.25d
-			y: 27.75d
+			x: 27.0d
+			y: 27.5d
 			subtitle: "The Mechanical Arm is a block used to transfer items"
 			description: [
 				"With the Mechanical Arm in hand, right clicking valid inventories will select them to have items be taken from it, or deposited to it if the inventory cannot have items be taken from it."
@@ -2019,8 +2021,8 @@
 		}
 		{
 			title: "The Portable Interfaces"
-			x: 36.5d
-			y: 34.25d
+			x: 36.0d
+			y: 36.0d
 			description: [
 				"The Portable Fluid Interface is the fluid version of the Portable Storage Interface. It is used to insert or extract from the fluid inventory of a moving structure made by a Cart Assembler, Mechanical Piston, Gantry Carriage, or Bearing."
 				""
@@ -2047,8 +2049,8 @@
 			]
 		}
 		{
-			x: 24.75d
-			y: 29.25d
+			x: 27.0d
+			y: 26.5d
 			subtitle: "The Rotation Speed Controller is a mechanical component that allows the player to precisely control rotational speed"
 			description: [
 				"For the Rotation Speed Controller to work, it must be paired with a Large Cogwheel. The Rotation Speed Controller, when powered by the Large Cogwheel, outputs any desired speed of rotational force from its sides. It also does the opposite; when powered from its sides, it controls the speed of the Large Cogwheel."
@@ -2856,8 +2858,8 @@
 			]
 		}
 		{
-			x: 30.25d
-			y: 31.5d
+			x: 32.25d
+			y: 28.0d
 			dependencies: ["2F7EB9DBC6CE7522"]
 			id: "17E63FB824FA537E"
 			tasks: [{
@@ -2868,7 +2870,7 @@
 		}
 		{
 			x: 27.5d
-			y: 34.5d
+			y: 33.0d
 			subtitle: "Blaze Cake is an item that can be fed to a Blaze Burner in order to make it Super-Heated"
 			description: [
 				"Blaze Cake can be used to feed the Blaze Burner, making it Super-Heated for 50 seconds. It then turns into standard a blaze, lasting for 205 seconds."
@@ -2904,7 +2906,7 @@
 			}]
 		}
 		{
-			x: 28.75d
+			x: 27.5d
 			y: 34.5d
 			subtitle: "A Blaze Burner is a heating component that is required for certain Mixing recipes"
 			description: ["Blaze Burners must have Blazes in them to function. To put a Blaze in an Empty Blaze Burner, right-click on a Blaze to capture it. Alternatively, Empty Blaze Burner can be filled by clicking on a Blaze Spawner."]
@@ -2925,8 +2927,8 @@
 		}
 		{
 			title: "Advanced Steel"
-			x: 29.5d
-			y: 36.5d
+			x: 28.25d
+			y: 35.25d
 			dependencies: ["2A0681422D07EFB2"]
 			id: "0256960379E8E5E5"
 			tasks: [
@@ -2955,12 +2957,13 @@
 		}
 		{
 			x: 37.0d
-			y: 28.75d
+			y: 28.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"17E63FB824FA537E"
 				"4AC1298723D8A89A"
 			]
+			optional: true
 			id: "26F44F9DA212A42C"
 			tasks: [{
 				id: "6CFF7D9F4710F875"
@@ -2972,32 +2975,6 @@
 						Damage: 0
 					}
 				}
-			}]
-		}
-		{
-			title: "&#B5A642Brass&r"
-			icon: "create:crushed_brass"
-			x: 24.75d
-			y: 24.25d
-			shape: "diamond"
-			description: [
-				"To obtain &#B5A642Brass&r, there are several methods."
-				""
-				"At your level, there are four."
-				""
-				"&o(You just need to complete one of the following four quests to unlock the sequel)&r"
-			]
-			hide_dependency_lines: true
-			dependencies: [
-				"4339BD51E04343A5"
-				"36E35F066EAA5687"
-				"410AC414B2B492D1"
-			]
-			id: "6F9BF9D7BCEFD22C"
-			tasks: [{
-				id: "60A371F89A8F52C1"
-				type: "checkmark"
-				title: "&aValidate&r"
 			}]
 		}
 		{
@@ -3049,8 +3026,8 @@
 			}]
 		}
 		{
-			x: 37.75d
-			y: 29.5d
+			x: 36.75d
+			y: 29.75d
 			shape: "octagon"
 			description: [
 				"The Wrench is a tool used to rotate, dismantle and configure components."
@@ -3110,8 +3087,8 @@
 			}]
 		}
 		{
-			x: 27.5d
-			y: 32.75d
+			x: 30.25d
+			y: 28.0d
 			dependencies: ["5FAB66FE3921DAF1"]
 			optional: true
 			id: "7F039EA564AA8A66"
@@ -3122,13 +3099,14 @@
 			}]
 		}
 		{
-			x: 35.5d
-			y: 31.0d
+			x: 35.25d
+			y: 31.25d
 			hide_dependency_lines: true
 			dependencies: [
 				"17E63FB824FA537E"
 				"4AC1298723D8A89A"
 			]
+			optional: true
 			id: "2BBC9E8C77F211B1"
 			tasks: [{
 				id: "479E4B45BBA83AFB"
@@ -3143,8 +3121,8 @@
 			}]
 		}
 		{
-			x: 36.5d
-			y: 30.0d
+			x: 38.0d
+			y: 29.5d
 			hide_dependency_lines: true
 			dependencies: ["0256960379E8E5E5"]
 			optional: true
@@ -3189,7 +3167,7 @@
 		}
 		{
 			x: 20.0d
-			y: 31.75d
+			y: 34.25d
 			description: ["The Engineer's Goggles will show the stress impact of the viewed machine while it is running. It will also give numbers and highlight the current rotation when looking at a Stressometer or Speedometer,. Additionally, it shows how much fluid is stored in a tank along with the total storage capacity of the tank when you look at one of the blocks from the tank."]
 			dependencies: ["50B9AEC7812CEE92"]
 			id: "776713B4EE3868E7"
@@ -3357,8 +3335,8 @@
 		}
 		{
 			title: "Advanced Casing"
-			x: 30.25d
-			y: 35.25d
+			x: 27.5d
+			y: 36.25d
 			dependencies: ["0256960379E8E5E5"]
 			id: "63BFABD722A4669D"
 			tasks: [
@@ -3511,8 +3489,8 @@
 			]
 		}
 		{
-			x: 28.25d
-			y: 35.75d
+			x: 26.75d
+			y: 35.25d
 			dependencies: ["2035F6C5153C3D90"]
 			id: "2A0681422D07EFB2"
 			tasks: [{
@@ -3546,53 +3524,12 @@
 			}]
 		}
 		{
-			title: "&lCrafting Table&r Method Step 1   "
-			x: 23.5d
-			y: 24.75d
-			description: ["Combine 3 &#B87333Copper Dusts&r with a &#BAC4C8Zinc Dust&r in a &lCrafting Table&r."]
-			min_required_dependencies: 2
-			dependencies: ["6F9BF9D7BCEFD22C"]
-			id: "6A428E93D0EC6C7F"
-			tasks: [
-				{
-					id: "5FDC4AE3C02CF2EE"
-					type: "item"
-					item: "emendatusenigmatica:copper_dust"
-					count: 3L
-				}
-				{
-					id: "4A9C1E4DC927547B"
-					type: "item"
-					item: "emendatusenigmatica:zinc_dust"
-				}
-			]
-		}
-		{
-			title: "&oTinkers' Construct&r Method"
-			icon: "tconstruct:molten_brass_bucket"
-			x: 23.0d
-			y: 26.0d
-			description: [
-				"Combine &#B87333Molten Copper&r and &#BAC4C8Molten Zinc&r in a &oTinkers' Construct&r &l&#383433Smeltery&r or &l&#3E3029Scorched Alloyer&r. They will mix and form &#B5A642Molten Brass&r. Then cast it to obtain Ingots, Nuggets, Blocks,...."
-				""
-				"Check this when it's done."
-			]
-			min_required_dependencies: 2
-			dependencies: ["6F9BF9D7BCEFD22C"]
-			id: "6F88D749C9F64C24"
-			tasks: [{
-				id: "51D767B1EE3CCA98"
-				type: "checkmark"
-				title: "&aDone&r"
-			}]
-		}
-		{
 			title: "&lMechanical Mixer&r and Ingots Method    "
 			icon: "create:mechanical_mixer"
-			x: 24.5d
-			y: 25.5d
+			x: 29.25d
+			y: 33.0d
 			description: ["Combine &#B87333Copper Ingot&r and &#BAC4C8Zinc Ingot&r in a &oCreate&r &lMechanical Mixer&r and &lBasin&r (&4Heated&r). They will mix and form &#B5A642Brass Ingots&r."]
-			dependencies: ["6F9BF9D7BCEFD22C"]
+			dependencies: ["410AC414B2B492D1"]
 			id: "36498F5EA504C9EC"
 			tasks: [
 				{
@@ -3606,90 +3543,6 @@
 					item: "emendatusenigmatica:zinc_ingot"
 				}
 			]
-		}
-		{
-			title: "&lMechanical Mixer&r and Crushed Ores Method Step 1    "
-			x: 25.5d
-			y: 25.25d
-			description: ["Combine &#B87333Crushed Copper Ore&r and &#BAC4C8Crushed Zinc Ore&r in a &oCreate&r &lMechanical Mixer&r and &lBasin&r (&4Heated&r). They will mix and form &#B5A642Crushed Brass&r."]
-			dependencies: ["6F9BF9D7BCEFD22C"]
-			id: "517089AD8357DF4A"
-			tasks: [
-				{
-					id: "0631467D473A999F"
-					type: "item"
-					item: "create:crushed_copper_ore"
-				}
-				{
-					id: "2A95B54DD98A5C44"
-					type: "item"
-					item: "create:crushed_zinc_ore"
-				}
-			]
-		}
-		{
-			title: "&lCrafting Table&r Method Step 2   "
-			x: 22.0d
-			y: 25.25d
-			description: ["Then smelt the obtained &#B5A642Brass Dust&r, and you will get &#B5A642Brass Ingots&r."]
-			dependencies: ["6A428E93D0EC6C7F"]
-			id: "4535FD31815F0C12"
-			tasks: [{
-				id: "0AAC004F55523BBA"
-				type: "item"
-				title: "&#B5A6424x Brass Dusts&r"
-				item: "emendatusenigmatica:brass_dust"
-				count: 4L
-			}]
-		}
-		{
-			title: "&lMechanical Mixer&r and Crushed Ores Method Step 2    "
-			x: 25.5d
-			y: 26.25d
-			description: [
-				"Then smelt it, and you will get &#B5A642Brass Ingots&r."
-				"You can also bulk wash it with an &lEncased Fan&r behind &#2389DAFlowing Water&r to obtain 10 &#B5A642Brass Nuggets&r and having 50% chance to get 5 more &#B5A642Brass Nuggets&r."
-			]
-			dependencies: ["517089AD8357DF4A"]
-			id: "501C9D5943ED96BA"
-			tasks: [{
-				id: "28A56B9E6ABF5D69"
-				type: "item"
-				title: "&#B5A6422x Crushed Brasses&r"
-				item: "create:crushed_brass"
-				count: 2L
-			}]
-		}
-		{
-			x: 22.25d
-			y: 27.0d
-			dependencies: [
-				"4535FD31815F0C12"
-				"6F88D749C9F64C24"
-				"36498F5EA504C9EC"
-				"501C9D5943ED96BA"
-			]
-			dependency_requirement: "one_completed"
-			id: "3D9704407EEE5330"
-			tasks: [{
-				id: "7A48BF55803B1005"
-				type: "item"
-				title: "&#B5A642Brass Ingot&r"
-				item: "emendatusenigmatica:brass_ingot"
-			}]
-		}
-		{
-			title: "&#B5A642Brass Nuggets&r"
-			x: 24.0d
-			y: 26.5d
-			dependencies: ["501C9D5943ED96BA"]
-			id: "3672A2B3165F31E7"
-			tasks: [{
-				id: "26689B9518E40A09"
-				type: "item"
-				item: "emendatusenigmatica:brass_nugget"
-				count: 10L
-			}]
 		}
 		{
 			x: 22.25d
@@ -3913,8 +3766,8 @@
 			}]
 		}
 		{
-			x: 28.0d
-			y: 30.25d
+			x: 29.25d
+			y: 25.25d
 			dependencies: ["5FAB66FE3921DAF1"]
 			id: "4AC1298723D8A89A"
 			tasks: [
@@ -4350,9 +4203,9 @@
 			}]
 		}
 		{
-			x: 27.5d
-			y: 31.5d
-			dependencies: ["410AC414B2B492D1"]
+			x: 29.25d
+			y: 27.0d
+			dependencies: ["36498F5EA504C9EC"]
 			id: "5FAB66FE3921DAF1"
 			tasks: [{
 				id: "2EEB9F7433E92D0E"
@@ -4364,7 +4217,10 @@
 			x: 23.0d
 			y: 38.25d
 			shape: "octagon"
-			dependencies: ["5174E5B7DC17EF63"]
+			dependencies: [
+				"5174E5B7DC17EF63"
+				"13446A385D0DD1BA"
+			]
 			id: "109D647ED52D215D"
 			tasks: [{
 				id: "137F5768445A7B2E"
@@ -4410,7 +4266,10 @@
 		{
 			x: 12.25d
 			y: 30.75d
-			dependencies: ["6B58A9E61BE8FE02"]
+			dependencies: [
+				"6B58A9E61BE8FE02"
+				"13446A385D0DD1BA"
+			]
 			id: "21395AA7C28FA759"
 			tasks: [{
 				id: "41C2A896B9CD146B"
@@ -4419,8 +4278,9 @@
 			}]
 		}
 		{
-			x: 34.5d
-			y: 38.75d
+			x: 30.25d
+			y: 24.25d
+			dependencies: ["4AC1298723D8A89A"]
 			id: "2A20668C1672F83C"
 			tasks: [{
 				id: "5D0C53EBC86E08DF"
@@ -4429,8 +4289,9 @@
 			}]
 		}
 		{
-			x: 35.5d
-			y: 38.75d
+			x: 28.25d
+			y: 24.25d
+			dependencies: ["4AC1298723D8A89A"]
 			id: "64536569949CBA6F"
 			tasks: [{
 				id: "6BBDF6E54310F1E8"
@@ -4439,8 +4300,9 @@
 			}]
 		}
 		{
-			x: 36.5d
-			y: 38.75d
+			x: 15.5d
+			y: 27.75d
+			dependencies: ["3EE564D2D7642605"]
 			id: "768CC1767B102F84"
 			tasks: [{
 				id: "764D6E1634E421F5"
@@ -4449,8 +4311,9 @@
 			}]
 		}
 		{
-			x: 34.5d
-			y: 39.75d
+			x: 13.5d
+			y: 26.25d
+			dependencies: ["5AB27C13D2DF513C"]
 			id: "536CB838E162C3ED"
 			tasks: [{
 				id: "025B08D431C64E54"
@@ -4459,8 +4322,9 @@
 			}]
 		}
 		{
-			x: 35.5d
-			y: 39.75d
+			x: 14.5d
+			y: 27.0d
+			dependencies: ["768CC1767B102F84"]
 			id: "5AB27C13D2DF513C"
 			tasks: [{
 				id: "655EEAE5F5D88A61"
@@ -4469,8 +4333,9 @@
 			}]
 		}
 		{
-			x: 36.5d
-			y: 39.75d
+			x: 13.5d
+			y: 27.25d
+			dependencies: ["5AB27C13D2DF513C"]
 			id: "4C82C5C97F726EE3"
 			tasks: [{
 				id: "34938AC644D76559"
@@ -4479,8 +4344,9 @@
 			}]
 		}
 		{
-			x: 37.5d
-			y: 39.75d
+			x: 14.5d
+			y: 26.0d
+			dependencies: ["5AB27C13D2DF513C"]
 			id: "1064B056A8870245"
 			tasks: [{
 				id: "5DB9791404E5B557"
@@ -4489,8 +4355,9 @@
 			}]
 		}
 		{
-			x: 37.5d
-			y: 38.75d
+			x: 30.5d
+			y: 25.25d
+			dependencies: ["4AC1298723D8A89A"]
 			id: "223C9C122646249B"
 			tasks: [{
 				id: "63E173CD75D5D55F"
@@ -4499,8 +4366,9 @@
 			}]
 		}
 		{
-			x: 34.5d
-			y: 40.75d
+			x: 15.75d
+			y: 30.5d
+			dependencies: ["3EE564D2D7642605"]
 			id: "7BCF705DF9C8B80A"
 			tasks: [{
 				id: "3E12639344E3ADB0"
@@ -4509,8 +4377,9 @@
 			}]
 		}
 		{
-			x: 36.5d
-			y: 40.75d
+			x: 19.25d
+			y: 31.25d
+			dependencies: ["68484812D253D45A"]
 			id: "7B09748E7626FD2D"
 			tasks: [{
 				id: "5434F179EE1580D4"
@@ -4519,8 +4388,9 @@
 			}]
 		}
 		{
-			x: 35.5d
-			y: 40.75d
+			x: 20.75d
+			y: 31.25d
+			dependencies: ["68484812D253D45A"]
 			id: "47F195BAF43E5EB2"
 			tasks: [{
 				id: "72ED79EB095AE416"
@@ -4529,8 +4399,9 @@
 			}]
 		}
 		{
-			x: 37.5d
-			y: 40.75d
+			x: 28.0d
+			y: 25.25d
+			dependencies: ["4AC1298723D8A89A"]
 			id: "479ED7D689A2D407"
 			tasks: [{
 				id: "76E1F6FF1BABBA09"
@@ -4539,8 +4410,9 @@
 			}]
 		}
 		{
-			x: 34.5d
-			y: 41.75d
+			x: 13.5d
+			y: 29.0d
+			dependencies: ["3EE564D2D7642605"]
 			id: "2ED78AFF8A7A6686"
 			tasks: [{
 				id: "033C5DDFAB7F939C"
@@ -4555,8 +4427,9 @@
 			}]
 		}
 		{
-			x: 37.5d
-			y: 41.75d
+			x: 26.75d
+			y: 25.25d
+			dependencies: ["479ED7D689A2D407"]
 			id: "4735A8CD445137E7"
 			tasks: [{
 				id: "26883380D95031D7"
@@ -4565,8 +4438,11 @@
 			}]
 		}
 		{
-			x: 36.5d
-			y: 41.75d
+			x: 36.0d
+			y: 30.5d
+			hide_dependency_lines: true
+			dependencies: ["4735A8CD445137E7"]
+			optional: true
 			id: "7F8F5511CB86FEF3"
 			tasks: [{
 				id: "773C6DD290D0E913"

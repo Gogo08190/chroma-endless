@@ -13,6 +13,7 @@
 			x: 1.0d
 			y: -1.0d
 			shape: "gear"
+			subtitle: "The first Ingot"
 			dependencies: [
 				"121DF7B31DB4BEF8"
 				"04C0C78A3BB1B89A"
@@ -28,6 +29,7 @@
 		{
 			x: -1.25d
 			y: -1.0d
+			subtitle: "Everything you need to know"
 			dependencies: ["067E4E1175D3BBFA"]
 			id: "7ECEB3A83898CA46"
 			tasks: [{
@@ -46,6 +48,7 @@
 			x: 1.0d
 			y: 0.75d
 			shape: "octagon"
+			subtitle: "Important ! "
 			dependencies: ["067E4E1175D3BBFA"]
 			id: "6D4CE7DB9226C36C"
 			tasks: [{
@@ -55,8 +58,9 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: 3.75d
 			y: 0.25d
+			subtitle: "Crafting Component"
 			dependencies: ["6D4CE7DB9226C36C"]
 			id: "0717E9C87971D20A"
 			tasks: [{
@@ -69,6 +73,7 @@
 			x: -3.25d
 			y: 2.0d
 			shape: "square"
+			subtitle: "The First Component"
 			dependencies: [
 				"6D4CE7DB9226C36C"
 				"19398704702EA1E4"
@@ -81,9 +86,23 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 0.5d
+			title: "Combination Crafting"
+			x: 5.25d
+			y: 0.25d
+			subtitle: "The Combination begins"
+			description: [
+				"&6Combination Crafting&r is an in-world multi-block crafting setup where items are combined together to create something.... &especial&r."
+				""
+				"This setup consists of a &6Crafting Core&r in the center and pedestals placed around it. Pedestals can be placed anywhere around the &6Crafting Core&r in a 3 block radius, and must be on the same Y-level."
+				""
+				"Power must be provided to &6Crafting Core&r for this structure to fonction."
+				""
+				"Recipes have a center item which goes on the &6Crafting Core&r, and pedestals items which go on the pedestals around it."
+				""
+				"Right clicking on the side of the &6Crafting Core&r will show you information about the current crafting operation, such as progress or power cost, as well as how much power is stored in it."
+			]
 			dependencies: ["0717E9C87971D20A"]
+			min_width: 300
 			id: "2451E767B2700F8B"
 			tasks: [
 				{
@@ -99,9 +118,27 @@
 			]
 		}
 		{
-			x: 3.25d
-			y: -0.5d
+			title: "Compression Crafting"
+			x: 5.25d
+			y: -1.5d
+			subtitle: "Quantum Processing "
+			description: [
+				"&3Quantum Compression&r is the process of compressing items a little too muh. This is done using the &6Quantum Compressor&r."
+				""
+				"This block is a powered machine that can hold and compress extremly large amount of materials. It can be done thanks to the large internal buffer that is represented with a &1Blue bar&r."
+				""
+				"Each singularity needs a &bCatalyst&r, that needs to placed in the left slot and does not get used up."
+				""
+				"Once there are enough items the buffer, the machine will begin to craft the item with power."
+				""
+				"The eject button is really useful if you put other items or too much of items that you want to get back."
+				""
+				"Be careful, if you break the machine while operating, you will loose the items inside ! "
+				""
+				"Finally the item input buffer of the machine is capable of holding &5Billions&r of items, by default will only hold as many as the recipe requires. You can disable this limit by clicking on the lock button next to the input buffer."
+			]
 			dependencies: ["0717E9C87971D20A"]
+			min_width: 350
 			id: "724E91718108731D"
 			tasks: [{
 				id: "3CAB84B2C29ECBE6"
@@ -139,6 +176,7 @@
 			x: 0.0d
 			y: 3.5d
 			shape: "square"
+			subtitle: "Better Component"
 			dependencies: [
 				"6D4CE7DB9226C36C"
 				"19398704702EA1E4"
@@ -154,6 +192,7 @@
 			x: 2.0d
 			y: 3.5d
 			shape: "square"
+			subtitle: "The best...not yet ! "
 			dependencies: [
 				"6D4CE7DB9226C36C"
 				"19398704702EA1E4"
@@ -169,6 +208,7 @@
 			x: 5.25d
 			y: 2.0d
 			shape: "square"
+			subtitle: "The Best Component"
 			dependencies: [
 				"6D4CE7DB9226C36C"
 				"19398704702EA1E4"
@@ -261,7 +301,17 @@
 		{
 			x: -4.25d
 			y: 4.75d
+			description: [
+				"&6Auto Crafting Tables&r are an upgraded version of &2Crafting Tables&r that can automatically insert items and be piped out of."
+				""
+				"Item insertion is done by simply placing a &nchest above&r the table, and inserting items into saif chest. Item insertion uses power."
+				""
+				"For item insertion to work, you must lay out a recipes in the grid ans save the recipe. This is done by &1shift+left clicking&r on one of the 3 recipe slots in the top right. You can then select the recipe by clicking on it. You can delete the recipe by &1shift + left clicking it&r."
+				""
+				"Items can be extracted from the table by a hopper or any other compatible item extraction mechanism. You can disable auto-crafting by clicking on the down arrow under the output slot."
+			]
 			dependencies: ["50C431C512BBBD59"]
+			min_width: 300
 			id: "17A567E6BDB5B4AF"
 			tasks: [{
 				id: "79C0882BBE543E7C"
@@ -272,7 +322,17 @@
 		{
 			x: -1.0d
 			y: 6.25d
+			description: [
+				"&6Auto Crafting Tables&r are an upgraded version of &2Crafting Tables&r that can automatically insert items and be piped out of."
+				""
+				"Item insertion is done by simply placing a &nchest above&r the table, and inserting items into saif chest. Item insertion uses power."
+				""
+				"For item insertion to work, you must lay out a recipes in the grid ans save the recipe. This is done by &1shift+left clicking&r on one of the 3 recipe slots in the top right. You can then select the recipe by clicking on it. You can delete the recipe by &1shift + left clicking it&r."
+				""
+				"Items can be extracted from the table by a hopper or any other compatible item extraction mechanism. You can disable auto-crafting by clicking on the down arrow under the output slot."
+			]
 			dependencies: ["4BD29526B90994E7"]
+			min_width: 300
 			id: "53E8852A74D15C06"
 			tasks: [{
 				id: "0669C3128A963C55"
@@ -283,7 +343,17 @@
 		{
 			x: 3.0d
 			y: 6.25d
+			description: [
+				"&6Auto Crafting Tables&r are an upgraded version of &2Crafting Tables&r that can automatically insert items and be piped out of."
+				""
+				"Item insertion is done by simply placing a &nchest above&r the table, and inserting items into saif chest. Item insertion uses power."
+				""
+				"For item insertion to work, you must lay out a recipes in the grid ans save the recipe. This is done by &1shift+left clicking&r on one of the 3 recipe slots in the top right. You can then select the recipe by clicking on it. You can delete the recipe by &1shift + left clicking it&r."
+				""
+				"Items can be extracted from the table by a hopper or any other compatible item extraction mechanism. You can disable auto-crafting by clicking on the down arrow under the output slot."
+			]
 			dependencies: ["05ACC19A1694AD16"]
+			min_width: 300
 			id: "282492EFA9EE3940"
 			tasks: [{
 				id: "0E5CE62F2271A60A"
@@ -294,7 +364,17 @@
 		{
 			x: 6.25d
 			y: 4.75d
+			description: [
+				"&6Auto Crafting Tables&r are an upgraded version of &2Crafting Tables&r that can automatically insert items and be piped out of."
+				""
+				"Item insertion is done by simply placing a &nchest above&r the table, and inserting items into saif chest. Item insertion uses power."
+				""
+				"For item insertion to work, you must lay out a recipes in the grid ans save the recipe. This is done by &1shift+left clicking&r on one of the 3 recipe slots in the top right. You can then select the recipe by clicking on it. You can delete the recipe by &1shift + left clicking it&r.q"
+				""
+				"Items can be extracted from the table by a hopper or any other compatible item extraction mechanism. You can disable auto-crafting by clicking on the down arrow under the output slot."
+			]
 			dependencies: ["68CE8FF470DB60ED"]
+			min_width: 300
 			id: "2311E59D52682747"
 			tasks: [{
 				id: "1368FC97227605BA"
@@ -303,9 +383,17 @@
 			}]
 		}
 		{
+			title: "Ender Crafting"
 			x: 1.0d
-			y: 9.0d
+			y: 7.25d
+			subtitle: "Power of the End"
+			description: [
+				"The &2Ender Crafting&r is crafting using the power of waiting."
+				"An &2Ender Crafting&r setup consists of an &6Ender Crafter&r and &6Ender Alternators&r. The Crafter will take energy from the void via the alternators. The more alternators you have, the faster it will craft ! "
+				"&6Ender Alternators&r can be placed anywhere around the &6Ender Crafter&r in a &l&n3 block radius&r. Even above or below !"
+			]
 			dependencies: ["74538A4A28AEE1D5"]
+			min_width: 300
 			id: "60E1726207640669"
 			tasks: [
 				{
@@ -322,7 +410,7 @@
 		}
 		{
 			x: 0.25d
-			y: 10.75d
+			y: 8.75d
 			dependencies: [
 				"5174E5B7DC17EF63"
 				"60E1726207640669"
@@ -336,8 +424,30 @@
 		}
 		{
 			x: 1.0d
-			y: 7.5d
+			y: 5.75d
+			subtitle: "A ingot made for the Gods"
+			description: [
+				"To craft the &bCrystaltine Ingot&r you need to go through two important steps ! "
+				"The first is to create the &1Mesophase&r liquid in a &7&lTinker Alloying Furnace&r heated with &c&lBlazing Blood&r. To create this liquid you'll need :"
+				"- Molten &6Nether Star&r"
+				"- Molten &7Steel&r"
+				"- Molten &eBrass&r"
+				"- Molten &5Mana Diamond&r"
+				"- &aXion Honey&r"
+				"- Molten &dIionite&r"
+				"- Molten &1Lapis Lazuli&r."
+				""
+				"The second step is to create the &6&lRefined Radiance Ingot&r."
+				""
+				"To create this ingot you have two options : "
+				"- Throw a &6Chromatic Compound&r on the ground and let the &e&lSun&r charge the ingot."
+				""
+				"- Craft the ingot with the &l&n&6Automatic Compound Infuser&r."
+				""
+				"Then when both ingredients are created simply pour the &6&lRefined Radiance Ingot&r with the &1&lMesophase Fluid&r with a &c&lSpout&r !"
+			]
 			dependencies: ["5174E5B7DC17EF63"]
+			min_width: 300
 			id: "31F9EB836FD32716"
 			tasks: [{
 				id: "0FFE45103B66FE4F"
@@ -359,13 +469,1050 @@
 		}
 		{
 			x: 1.75d
-			y: 10.75d
+			y: 8.75d
 			dependencies: ["60E1726207640669"]
 			id: "102035F52CE5271C"
 			tasks: [{
 				id: "0EFD3CB80B1F3521"
 				type: "item"
 				item: "extendedcrafting:ender_star"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.5d
+			shape: "gear"
+			subtitle: "Rule The Universe ! "
+			description: [
+				"As you can imagine, all &l&n&5Singularities&r are going to be useful."
+				"By claiming this quest, you will see two groups of usefulness : "
+				"- &6Creative&r Group "
+				"- &6Ultimate Singularity&r Crafting Recipe."
+			]
+			dependencies: ["724E91718108731D"]
+			size: 1.5d
+			id: "46B4FD465AC64012"
+			tasks: [{
+				id: "5E24CA8240BD7DF8"
+				type: "checkmark"
+				title: "Singularities !"
+			}]
+		}
+		{
+			title: "Creative Crafting"
+			icon: "pneumaticcraft:creative_upgrade"
+			x: 7.5d
+			y: -5.25d
+			shape: "square"
+			dependencies: ["46B4FD465AC64012"]
+			id: "1C0C1073F5EE3BE7"
+			tasks: [{
+				id: "32C8E8E0AB8B5974"
+				type: "checkmark"
+				title: "Creative C"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -4.25d
+			dependencies: ["1C0C1073F5EE3BE7"]
+			id: "3886985C11A3117D"
+			tasks: [{
+				id: "02BDBCF8F3F523BD"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:elementium"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: -4.25d
+			dependencies: ["1C0C1073F5EE3BE7"]
+			id: "1C653600EAA831BA"
+			tasks: [{
+				id: "20A08896499487A5"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:fireite"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -3.25d
+			dependencies: ["1C0C1073F5EE3BE7"]
+			id: "589C54DFECA88B4E"
+			tasks: [{
+				id: "4975C7C2352C9324"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:nitro"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: -3.25d
+			dependencies: ["1C0C1073F5EE3BE7"]
+			id: "2A0CFB5D9EC82AA0"
+			tasks: [{
+				id: "1AA89FF611AE6223"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:niotic"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -5.25d
+			dependencies: ["1C0C1073F5EE3BE7"]
+			id: "38829E9F1DA14F00"
+			tasks: [{
+				id: "1762E277D9A4ED22"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:tiny_potato"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: -4.25d
+			dependencies: ["1C0C1073F5EE3BE7"]
+			id: "4FD7A246E35B2109"
+			tasks: [{
+				id: "4EEB6352BB955F12"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:swift_alloy"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: -4.25d
+			dependencies: ["1C0C1073F5EE3BE7"]
+			id: "6E03428096A542E0"
+			tasks: [{
+				id: "6DBCC54C76A8BE16"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:spirited"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: -3.25d
+			dependencies: ["1C0C1073F5EE3BE7"]
+			id: "39A56435058F4343"
+			tasks: [{
+				id: "341CD244D6A0988A"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:compressed_iron"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: -3.25d
+			dependencies: ["1C0C1073F5EE3BE7"]
+			id: "1F29B47B54F6EB47"
+			tasks: [{
+				id: "7E70428D9E303278"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:experience"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: -3.75d
+			dependencies: ["1C0C1073F5EE3BE7"]
+			id: "7894FA8D6EB029BA"
+			tasks: [{
+				id: "4F18A3D7F8D128E7"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:manasteel"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: -6.25d
+			dependencies: ["1C0C1073F5EE3BE7"]
+			id: "0C220D0FAEBA95DD"
+			tasks: [{
+				id: "6BBC441A4AECBE16"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:chaos_shard"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: -6.25d
+			dependencies: ["1C0C1073F5EE3BE7"]
+			id: "4D5F83CCA33F6745"
+			tasks: [{
+				id: "0D789498AFBA6C3F"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:terrasteel"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: -7.25d
+			dependencies: ["1C0C1073F5EE3BE7"]
+			id: "733E3E9D4858CC8B"
+			tasks: [{
+				id: "11E11B1B0B4CC028"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:energized_steel"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: -7.25d
+			dependencies: ["1C0C1073F5EE3BE7"]
+			id: "5FDC83B130F4D296"
+			tasks: [{
+				id: "113FF7FC259DDCF1"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:quartz_enriched_iron"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -5.25d
+			dependencies: ["1C0C1073F5EE3BE7"]
+			id: "691703BCEFAA5DD3"
+			tasks: [{
+				id: "6CE16685174163DE"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:red_matter"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -7.25d
+			dependencies: ["1C0C1073F5EE3BE7"]
+			id: "17281DC9082AF5D9"
+			tasks: [{
+				id: "3B11BFF8C8D35C17"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:source_gem"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: -7.25d
+			dependencies: ["1C0C1073F5EE3BE7"]
+			id: "06AA19373B591F1A"
+			tasks: [{
+				id: "34A508E22C319E1F"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:uraninite"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: -6.75d
+			dependencies: ["1C0C1073F5EE3BE7"]
+			id: "5422D13421A82412"
+			tasks: [{
+				id: "29E03804CAC6EAF1"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:blazing"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -6.25d
+			dependencies: ["1C0C1073F5EE3BE7"]
+			id: "5DD06746CA55DC13"
+			tasks: [{
+				id: "71AC601D90E88549"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:bar_of_chocolate"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: -6.25d
+			dependencies: ["1C0C1073F5EE3BE7"]
+			id: "3F3542472466A631"
+			tasks: [{
+				id: "35857E4FB4DBB9D9"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:comb"
+					}
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["46B4FD465AC64012"]
+			id: "7438670294697FD7"
+			tasks: [{
+				id: "6C0BF98BFC4D2B26"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:allthemodium"
+					}
+				}
+			}]
+		}
+		{
+			x: 16.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["46B4FD465AC64012"]
+			id: "30ED6BF51F4C3BAF"
+			tasks: [{
+				id: "365862F501811878"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:brass"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["46B4FD465AC64012"]
+			hide: false
+			id: "2A92B8D9C6409DC0"
+			tasks: [{
+				id: "373EEB44A15DB7C4"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:blizz"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["46B4FD465AC64012"]
+			id: "61BEB2EA2FFC90B7"
+			tasks: [{
+				id: "325075D37B0D3F76"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:blitz"
+					}
+				}
+			}]
+		}
+		{
+			x: 16.0d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["46B4FD465AC64012"]
+			id: "53ACDDC2411A6D95"
+			tasks: [{
+				id: "5909A507D049A597"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:dimensional_shard"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["46B4FD465AC64012"]
+			id: "3903B806B92C76BA"
+			tasks: [{
+				id: "4A2682832DF23D82"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:vibranium"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["46B4FD465AC64012"]
+			id: "78752D626F76EACC"
+			tasks: [{
+				id: "71676D08C60AF625"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:plastic"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["46B4FD465AC64012"]
+			id: "7A101EA5263C0819"
+			tasks: [{
+				id: "56DB5BB6BA095BA9"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:pladium"
+					}
+				}
+			}]
+		}
+		{
+			x: 16.0d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["46B4FD465AC64012"]
+			id: "62A8FB4DE1BA64A4"
+			tasks: [{
+				id: "58F68C9BC38AC6F4"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:aethium"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["46B4FD465AC64012"]
+			id: "1ECDB9B9DED23CEF"
+			tasks: [{
+				id: "74062E8E976B4CCA"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:bitumen"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["46B4FD465AC64012"]
+			id: "421EE616CCC6B5A9"
+			tasks: [{
+				id: "08FB4358DBE9406E"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:graphite"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["46B4FD465AC64012"]
+			id: "21073DC5B8ACE90B"
+			tasks: [{
+				id: "05109587108A531B"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:steel"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: ["46B4FD465AC64012"]
+			id: "3904426C6E616FFE"
+			tasks: [{
+				id: "7F1367F2122ED828"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:hepatizon"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["46B4FD465AC64012"]
+			id: "79F246FB0FEA1687"
+			tasks: [{
+				id: "34CBF65997EA93F7"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:erodium"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["46B4FD465AC64012"]
+			id: "50559718EB5DA3B1"
+			tasks: [{
+				id: "69795F2E9AD0256B"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:froststeel"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["46B4FD465AC64012"]
+			id: "4A99B9AF8E77DECC"
+			tasks: [{
+				id: "445AF87C3338172E"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:draconium"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["46B4FD465AC64012"]
+			id: "5C0FBB7AA662CFC3"
+			tasks: [{
+				id: "0B50549A2F28D6C2"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:utherium"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["46B4FD465AC64012"]
+			id: "178922DE82BF811C"
+			tasks: [{
+				id: "3F37CC3A638DB5E8"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:cloggrum"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["46B4FD465AC64012"]
+			id: "429E63CADCA539F8"
+			tasks: [{
+				id: "5DA912878EC08D0D"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:inanite"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["46B4FD465AC64012"]
+			id: "5D53A8A60F2CC909"
+			tasks: [{
+				id: "0448882EB4608F7D"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:enderslime"
+					}
+				}
+			}]
+		}
+		{
+			x: 16.0d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["46B4FD465AC64012"]
+			id: "324E97B77DDD681D"
+			tasks: [{
+				id: "43F0BA68E36D60E2"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:spirit_attuned_gem"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["46B4FD465AC64012"]
+			id: "3827753A4C343B06"
+			tasks: [{
+				id: "6C7C7F837E6280D1"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:kyronite"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["46B4FD465AC64012"]
+			id: "0025E2FCF69FBC8F"
+			tasks: [{
+				id: "158EDC57A6D16892"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:nanorite"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["46B4FD465AC64012"]
+			id: "0F98CCD91F893353"
+			tasks: [{
+				id: "08ADBA6E7943C651"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:refined_obsidian"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["46B4FD465AC64012"]
+			id: "21BF1E26E1244035"
+			tasks: [{
+				id: "62B1389FEA71493F"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:unobtaninium"
+					}
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: ["46B4FD465AC64012"]
+			id: "2924D651D34ED7AF"
+			tasks: [{
+				id: "52D21789CA1F6C11"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:refined_glowstone"
+					}
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["46B4FD465AC64012"]
+			id: "52E7DABCB591E5EB"
+			tasks: [{
+				id: "779E7A07EB68E6D5"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:litherite"
+					}
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["46B4FD465AC64012"]
+			id: "79AA5C0AFB87DC1A"
+			tasks: [{
+				id: "446F0C8398AB48F4"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:forgotten"
+					}
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["46B4FD465AC64012"]
+			id: "6A99D04DB4099934"
+			tasks: [{
+				id: "416289523CCFF18F"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:iesnium"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: ["46B4FD465AC64012"]
+			id: "086B8762C5552C08"
+			tasks: [{
+				id: "1DDEF7CC5390D72E"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:ionite"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: ["46B4FD465AC64012"]
+			id: "1BF3648596878F7E"
+			tasks: [{
+				id: "6161D0BCA612A371"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:xerothium"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: ["46B4FD465AC64012"]
+			id: "7C0387EF794611DF"
+			tasks: [{
+				id: "51848D9B66D59797"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:xion"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.5d
+			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: ["46B4FD465AC64012"]
+			id: "2F032D52BDADE65D"
+			tasks: [{
+				id: "6BC16F83CD94ADCD"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:regalium"
+					}
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["46B4FD465AC64012"]
+			id: "58FDA5E5912E7DEF"
+			tasks: [{
+				id: "2753C605B47DFCC8"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:basalz"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: 5.0d
+			shape: "rsquare"
+			subtitle: "The End is... Quite near !"
+			hide_dependency_lines: true
+			dependencies: [
+				"3903B806B92C76BA"
+				"1ECDB9B9DED23CEF"
+				"79F246FB0FEA1687"
+				"3827753A4C343B06"
+				"7C0387EF794611DF"
+				"0025E2FCF69FBC8F"
+				"421EE616CCC6B5A9"
+				"50559718EB5DA3B1"
+				"78752D626F76EACC"
+				"2A92B8D9C6409DC0"
+				"61BEB2EA2FFC90B7"
+				"21073DC5B8ACE90B"
+				"7A101EA5263C0819"
+				"4A99B9AF8E77DECC"
+				"0F98CCD91F893353"
+				"1BF3648596878F7E"
+				"086B8762C5552C08"
+				"21BF1E26E1244035"
+				"5D53A8A60F2CC909"
+				"429E63CADCA539F8"
+				"178922DE82BF811C"
+				"5C0FBB7AA662CFC3"
+				"7438670294697FD7"
+				"52E7DABCB591E5EB"
+				"58FDA5E5912E7DEF"
+				"6A99D04DB4099934"
+				"79AA5C0AFB87DC1A"
+				"3904426C6E616FFE"
+				"2924D651D34ED7AF"
+				"324E97B77DDD681D"
+				"53ACDDC2411A6D95"
+				"30ED6BF51F4C3BAF"
+				"62A8FB4DE1BA64A4"
+				"2F032D52BDADE65D"
+			]
+			size: 2.0d
+			id: "78E53CD9BD1EDA95"
+			tasks: [{
+				id: "63ADA2A1C34BA93F"
+				type: "item"
+				item: "extendedcrafting:ultimate_singularity"
 			}]
 		}
 	]

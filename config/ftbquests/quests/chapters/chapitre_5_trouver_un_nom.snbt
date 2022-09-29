@@ -675,6 +675,7 @@
 			dependencies: [
 				"552D81EF1814A4DD"
 				"33958A09FB7E36BE"
+				"4207988A2711BFD1"
 			]
 			id: "058C53606A481B5A"
 			tasks: [{
@@ -2675,52 +2676,9 @@
 			}]
 		}
 		{
-			title: "Pedestal Stuff"
-			x: 0.75d
-			y: 12.5d
-			dependencies: ["0F5064AAAA97F693"]
-			id: "2FE111BC9D19D25A"
-			tasks: [
-				{
-					id: "510F4F92CAF8E78C"
-					type: "item"
-					item: "pedestals:coin/default"
-				}
-				{
-					id: "1CB113F13CA7BCE1"
-					type: "item"
-					item: "pedestals:coin/cobble"
-				}
-				{
-					id: "5F1FFEE79AA71D1D"
-					type: "item"
-					item: "pedestals:pedestal/stone333"
-				}
-			]
-		}
-		{
-			title: "Bee Stuff"
-			x: -2.5d
-			y: 13.5d
-			dependencies: ["0F5064AAAA97F693"]
-			id: "3C596418F805D2DB"
-			tasks: [
-				{
-					id: "2BFDF0425AD2CC78"
-					type: "item"
-					item: "resourcefulbees:t4_beehive"
-				}
-				{
-					id: "1F18C79E7488F9E6"
-					type: "item"
-					item: "resourcefulbees:t4_hive_upgrade"
-				}
-			]
-		}
-		{
 			title: "Automatic Compound Infuser I/O"
 			x: -1.75d
-			y: 12.5d
+			y: 13.25d
 			dependencies: ["0F5064AAAA97F693"]
 			id: "48EF750FBA9CEA27"
 			tasks: [
@@ -2831,8 +2789,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 13.5d
+			x: 0.75d
+			y: 13.25d
 			subtitle: "Mixing Potions"
 			description: ["Converts 3 doses of a ption from 2 adjacents &#c69c6dPotion Jars&r, and outputs a single dose of mixed potion into a &#c69c6dPotion Jar&r beneath it. The &5Potion Melder&r requires &5Mana&r per mix."]
 			dependencies: ["0F5064AAAA97F693"]

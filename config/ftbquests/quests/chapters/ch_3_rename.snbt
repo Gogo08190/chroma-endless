@@ -5,19 +5,16 @@
 	filename: "ch_3_rename"
 	title: "Ch. 3 (rename)"
 	icon: "thermal:machine_frame"
-	subtitle: [
-		"Thermal + Pipez"
-		"Note pour Z4RM : Add Redprint image"
-	]
+	subtitle: ["Thermal + Pipez"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [{
-		x: -29.5d
-		y: 2.25d
-		width: 14.0d
-		height: 14.0d
-		rotation: 35.0d
-		image: "thermal:textures/item/redprint.png"
+		x: 8.25d
+		y: 5.5d
+		width: 8.239d
+		height: 6.336d
+		rotation: 0.0d
+		image: "chroma:textures/quests/thermal_augments.png"
 		hover: [ ]
 		click: ""
 		dev: false
@@ -29,7 +26,6 @@
 			x: 0.0d
 			y: 0.0d
 			shape: "octagon"
-			dependencies: ["3FCE34A647C106C0"]
 			id: "1E69AFB22152DFD3"
 			tasks: [{
 				id: "1F02489FFF9153F9"
@@ -60,7 +56,10 @@
 			x: 0.0d
 			y: 7.75d
 			shape: "octagon"
-			dependencies: ["1E69AFB22152DFD3"]
+			dependencies: [
+				"1E69AFB22152DFD3"
+				"3A99B2052AE4BAC9"
+			]
 			id: "677773349FE468C2"
 			tasks: [{
 				id: "4DD774EEF05D8854"
@@ -146,8 +145,8 @@
 			}]
 		}
 		{
-			x: -3.75d
-			y: 11.75d
+			x: -4.0d
+			y: 11.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"3AC2609EA33632B8"
@@ -217,8 +216,8 @@
 			}]
 		}
 		{
-			x: -3.75d
-			y: 10.75d
+			x: -4.0d
+			y: 10.5d
 			hide_dependency_lines: true
 			dependencies: ["3AC2609EA33632B8"]
 			id: "328E9DA2F86CF055"
@@ -229,8 +228,8 @@
 			}]
 		}
 		{
-			x: -31.75d
-			y: 0.5d
+			x: 6.75d
+			y: 5.25d
 			id: "5E381C4A04E5BB4C"
 			tasks: [{
 				id: "5F160682113B5656"
@@ -239,8 +238,8 @@
 			}]
 		}
 		{
-			x: -31.0d
-			y: 2.0d
+			x: 6.25d
+			y: 6.25d
 			id: "1743D05DAACE6C63"
 			tasks: [{
 				id: "6E0EE3444B5612A3"
@@ -249,8 +248,8 @@
 			}]
 		}
 		{
-			x: -28.0d
-			y: 2.0d
+			x: 8.25d
+			y: 6.25d
 			id: "4CE9C9D4F681C437"
 			tasks: [{
 				id: "160E273DD88A15A8"
@@ -259,8 +258,8 @@
 			}]
 		}
 		{
-			x: -27.25d
-			y: 3.5d
+			x: 7.75d
+			y: 7.25d
 			id: "1C08A35095A43EA1"
 			tasks: [{
 				id: "7AA76B2653FB8435"
@@ -269,8 +268,42 @@
 			}]
 		}
 		{
-			x: -33.5d
-			y: -0.5d
+			x: 5.5d
+			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"3F4EE4690D506E30"
+				"6F15AADF2331F545"
+				"5B1BA329958A7ACC"
+				"6D13192722E04C16"
+				"4A0F36F90F6004CC"
+				"66035000D47F11CF"
+				"5A2860254AFFB8AE"
+				"50DD44C13F24CB3C"
+				"063B75CA0BD9A9BC"
+				"3EC3FED0BF7D2577"
+				"7725395D23ABF6DD"
+				"0400FB276B76BCD9"
+				"0D4FABA90E9DCAEE"
+				"2C237D8A42C15549"
+				"2CBD9D2771248605"
+				"0AC2E1D9469B0B57"
+				"05746F984F03865D"
+				"1F4368F20FE9AD62"
+				"17E0DF10C7F119A2"
+				"4804BC97EF304328"
+				"328E9DA2F86CF055"
+				"072D2A286F0D70DA"
+				"22B354C296A3342F"
+				"4F0254EAFC83FA04"
+				"16CD3DCEADC25412"
+				"4EFBF89BA702CF28"
+				"72E898EEB37A8C0D"
+				"33DC7ECAC9FFC226"
+				"4AFD81C9B0B85DC5"
+				"31A3D8CEE3857019"
+			]
+			dependency_requirement: "one_completed"
 			id: "36BADD0803D416FB"
 			tasks: [{
 				id: "2907088C56218A08"
@@ -279,8 +312,9 @@
 			}]
 		}
 		{
-			x: -31.5d
-			y: -0.5d
+			x: 6.5d
+			y: 4.0d
+			dependencies: ["36BADD0803D416FB"]
 			id: "06EE0FAEB74F30B8"
 			tasks: [{
 				id: "73E6D15CB69B842D"
@@ -289,8 +323,12 @@
 			}]
 		}
 		{
-			x: -29.5d
-			y: -0.5d
+			x: 7.5d
+			y: 4.0d
+			dependencies: [
+				"06EE0FAEB74F30B8"
+				"2075789E02415084"
+			]
 			id: "15770C3D59BEB5DB"
 			tasks: [{
 				id: "259534E5F159C879"
@@ -301,7 +339,7 @@
 		{
 			x: -1.125d
 			y: 5.0d
-			dependencies: ["08DD28074EF4CCEA"]
+			dependencies: ["3A99B2052AE4BAC9"]
 			id: "141E4C0BBA865753"
 			tasks: [{
 				id: "5BA6B43BD53F10D2"
@@ -312,7 +350,7 @@
 		{
 			x: 1.125d
 			y: 5.0d
-			dependencies: ["2B49BCA647B9F2BA"]
+			dependencies: ["3A99B2052AE4BAC9"]
 			id: "3117CCA141F25CA9"
 			tasks: [{
 				id: "7DB5A985BE58B309"
@@ -505,8 +543,8 @@
 			]
 		}
 		{
-			x: -5.75d
-			y: 10.75d
+			x: -6.0d
+			y: 10.5d
 			hide_dependency_lines: true
 			dependencies: ["6F15AADF2331F545"]
 			id: "17E0DF10C7F119A2"
@@ -517,8 +555,8 @@
 			}]
 		}
 		{
-			x: -4.75d
-			y: 10.25d
+			x: -5.0d
+			y: 10.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"3D3D8B33A6D7BE77"
@@ -532,8 +570,8 @@
 			}]
 		}
 		{
-			x: -4.75d
-			y: 11.25d
+			x: -5.0d
+			y: 11.0d
 			hide_dependency_lines: true
 			dependencies: ["3D3D8B33A6D7BE77"]
 			id: "458BAAE734893DBA"
@@ -905,8 +943,17 @@
 			}]
 		}
 		{
-			x: -27.5d
-			y: -0.5d
+			x: 11.0d
+			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"50DD44C13F24CB3C"
+				"3F4EE4690D506E30"
+				"5B1BA329958A7ACC"
+				"063B75CA0BD9A9BC"
+				"2CBD9D2771248605"
+			]
+			dependency_requirement: "one_completed"
 			id: "226DFDB3CD1C7329"
 			tasks: [{
 				id: "34A3CADBD20B81B7"
@@ -1264,8 +1311,8 @@
 			]
 		}
 		{
-			x: -5.75d
-			y: 11.75d
+			x: -6.0d
+			y: 11.5d
 			hide_dependency_lines: true
 			dependencies: ["3D3D8B33A6D7BE77"]
 			id: "1F4368F20FE9AD62"
@@ -1276,8 +1323,8 @@
 			}]
 		}
 		{
-			x: -4.75d
-			y: 12.25d
+			x: -5.0d
+			y: 12.0d
 			hide_dependency_lines: true
 			dependencies: ["3D3D8B33A6D7BE77"]
 			id: "05746F984F03865D"
@@ -1395,8 +1442,8 @@
 			]
 		}
 		{
-			x: -33.25d
-			y: 0.5d
+			x: 5.75d
+			y: 5.25d
 			id: "42BF2353D7B7D67C"
 			tasks: [{
 				id: "5A5B263C499D1126"
@@ -1405,8 +1452,8 @@
 			}]
 		}
 		{
-			x: -30.25d
-			y: 0.5d
+			x: 7.75d
+			y: 5.25d
 			id: "0CF8DC0D2789EB76"
 			tasks: [{
 				id: "0C22F5804C1F5856"
@@ -1415,8 +1462,8 @@
 			}]
 		}
 		{
-			x: -28.75d
-			y: 0.5d
+			x: 8.75d
+			y: 5.25d
 			id: "27863902F7EBFFF5"
 			tasks: [{
 				id: "6A81E0E08ACEEA09"
@@ -1425,8 +1472,8 @@
 			}]
 		}
 		{
-			x: -27.25d
-			y: 0.5d
+			x: 9.75d
+			y: 5.25d
 			id: "04901D991655BCB3"
 			tasks: [{
 				id: "58EA97ABE1DF0A6C"
@@ -1435,8 +1482,8 @@
 			}]
 		}
 		{
-			x: -32.5d
-			y: 2.0d
+			x: 10.75d
+			y: 5.25d
 			id: "64316EAACA1F02C2"
 			tasks: [{
 				id: "44AAE82F8CB7A672"
@@ -1445,8 +1492,8 @@
 			}]
 		}
 		{
-			x: -29.5d
-			y: 2.0d
+			x: 7.25d
+			y: 6.25d
 			id: "75D5727467D1DFD7"
 			tasks: [{
 				id: "0ECB125479DE1F09"
@@ -1455,8 +1502,8 @@
 			}]
 		}
 		{
-			x: -26.5d
-			y: 2.0d
+			x: 9.25d
+			y: 6.25d
 			id: "0DEEEBA290BF60AC"
 			tasks: [{
 				id: "6A45B548A3D858DB"
@@ -1465,8 +1512,8 @@
 			}]
 		}
 		{
-			x: -31.75d
-			y: 3.5d
+			x: 10.25d
+			y: 6.25d
 			id: "133BA070C31A5D1A"
 			tasks: [{
 				id: "62CA4814613F4E72"
@@ -1475,8 +1522,8 @@
 			}]
 		}
 		{
-			x: -30.25d
-			y: 3.5d
+			x: 5.75d
+			y: 7.25d
 			id: "1C35A898F4894F5A"
 			tasks: [{
 				id: "1D8A0EDC714575A7"
@@ -1485,8 +1532,8 @@
 			}]
 		}
 		{
-			x: -28.75d
-			y: 3.5d
+			x: 6.75d
+			y: 7.25d
 			id: "7E3F8A64F4E0F199"
 			tasks: [{
 				id: "6E178D719D739827"
@@ -1495,8 +1542,8 @@
 			}]
 		}
 		{
-			x: -25.75d
-			y: 3.5d
+			x: 8.75d
+			y: 7.25d
 			id: "7CF8D2306E668E41"
 			tasks: [{
 				id: "5215595BEE1BBB25"
@@ -1505,8 +1552,8 @@
 			}]
 		}
 		{
-			x: -29.5d
-			y: 5.0d
+			x: 10.75d
+			y: 7.25d
 			id: "3E5EEC57AEF7E425"
 			tasks: [{
 				id: "366B497A77B3A81F"
@@ -1515,8 +1562,8 @@
 			}]
 		}
 		{
-			x: -31.0d
-			y: 5.0d
+			x: 9.75d
+			y: 7.25d
 			id: "0F17CE21471D0CCD"
 			tasks: [{
 				id: "6A96090E803EA2F3"
