@@ -1,7 +1,7 @@
 {
 	id: "05F7FCA81A7AC3EC"
 	group: ""
-	order_index: 10
+	order_index: 11
 	filename: "useful_items"
 	title: "Useful Items"
 	icon: {
@@ -600,6 +600,1013 @@
 					item: "create:empty_schematic"
 				}
 			]
+		}
+		{
+			x: 15.0d
+			y: 5.25d
+			shape: "diamond"
+			dependencies: [
+				"54DC8317D4B7A510"
+				"531AF03ED27571D3"
+				"0AC2E1D9469B0B57"
+				"3AC2609EA33632B8"
+			]
+			id: "6330A65090AB666B"
+			tasks: [{
+				id: "290F384C9AA2FBF4"
+				type: "item"
+				item: "ironfurnaces:heater"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 4.5d
+			shape: "diamond"
+			dependencies: [
+				"3441111B8198CC9D"
+				"3D3D8B33A6D7BE77"
+			]
+			id: "10EE1D9522E830E5"
+			tasks: [{
+				id: "6D9D2774DD1A67BE"
+				type: "item"
+				item: "ironfurnaces:item_copy"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 3.5d
+			shape: "diamond"
+			dependencies: [
+				"14083B579D63FAF8"
+				"3441111B8198CC9D"
+				"109D647ED52D215D"
+			]
+			id: "3C8956111C8648AA"
+			tasks: [{
+				id: "291418BD8BBB6383"
+				type: "item"
+				item: "ironfurnaces:augment_smoking"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 4.0d
+			shape: "diamond"
+			dependencies: [
+				"3441111B8198CC9D"
+				"109D647ED52D215D"
+			]
+			id: "02D76463D55BA3EC"
+			tasks: [{
+				id: "19B95E4D137AFFAA"
+				type: "item"
+				item: "ironfurnaces:augment_fuel"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 5.25d
+			shape: "diamond"
+			dependencies: [
+				"54DC8317D4B7A510"
+				"3AC2609EA33632B8"
+				"3D3D8B33A6D7BE77"
+			]
+			id: "4AB791DF05DD76D5"
+			tasks: [{
+				id: "35C14EBE8FA80D4D"
+				type: "item"
+				item: "ironfurnaces:item_heater"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 4.0d
+			shape: "diamond"
+			dependencies: [
+				"3441111B8198CC9D"
+				"109D647ED52D215D"
+			]
+			id: "642A1973E5978C6F"
+			tasks: [{
+				id: "113377F9E929662B"
+				type: "item"
+				item: "ironfurnaces:augment_speed"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 3.5d
+			shape: "diamond"
+			dependencies: [
+				"3441111B8198CC9D"
+				"109D647ED52D215D"
+				"0372B8AFF3B231B0"
+			]
+			id: "213B364A5C1CFDA5"
+			tasks: [{
+				id: "7A0A5C44C0895412"
+				type: "item"
+				item: "ironfurnaces:augment_blasting"
+			}]
+		}
+		{
+			x: 21.75d
+			y: 3.0d
+			shape: "rsquare"
+			dependencies: ["0EE91E18C97F2206"]
+			id: "5BF1FAA9A29BF036"
+			tasks: [{
+				id: "58C45843F58E69B1"
+				type: "item"
+				item: "ironfurnaces:unobtainium_furnace"
+			}]
+		}
+		{
+			x: 20.5d
+			y: 2.75d
+			shape: "rsquare"
+			dependencies: ["7D7DAFCF00B389A6"]
+			id: "0EE91E18C97F2206"
+			tasks: [{
+				id: "40053EEF44B2101D"
+				type: "item"
+				item: "ironfurnaces:vibranium_furnace"
+			}]
+		}
+		{
+			x: 19.25d
+			y: 2.5d
+			shape: "rsquare"
+			dependencies: ["20C428EA1F5489F6"]
+			id: "7D7DAFCF00B389A6"
+			tasks: [{
+				id: "745BE6B96149DD26"
+				type: "item"
+				item: "ironfurnaces:allthemodium_furnace"
+			}]
+		}
+		{
+			x: 18.0d
+			y: 2.25d
+			shape: "rsquare"
+			dependencies: [
+				"79B1C8033477ADC2"
+				"2E7BFDA1FA247D89"
+				"121DF7B31DB4BEF8"
+				"61DE66EC5C066250"
+			]
+			id: "20C428EA1F5489F6"
+			tasks: [{
+				id: "69FAE3C1138BFD63"
+				type: "item"
+				item: "ironfurnaces:netherite_furnace"
+			}]
+		}
+		{
+			x: 16.75d
+			y: 2.0d
+			shape: "rsquare"
+			dependencies: [
+				"556A3F480CA2CCF8"
+				"31DB904A4019BD4B"
+			]
+			id: "79B1C8033477ADC2"
+			tasks: [{
+				id: "12778D5CFC19861C"
+				type: "item"
+				item: "ironfurnaces:obsidian_furnace"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 2.0d
+			shape: "rsquare"
+			dependencies: [
+				"0DFB35270EEE03C3"
+				"7260BE309AD6DF62"
+			]
+			id: "556A3F480CA2CCF8"
+			tasks: [{
+				id: "75DFCCC1F456AB75"
+				type: "item"
+				item: "ironfurnaces:emerald_furnace"
+			}]
+		}
+		{
+			x: 14.25d
+			y: 2.0d
+			shape: "rsquare"
+			dependencies: [
+				"567219ED39ED4114"
+				"68E7A3D70265EBF0"
+			]
+			id: "0DFB35270EEE03C3"
+			tasks: [{
+				id: "0C28EE7B6FA5E88C"
+				type: "item"
+				item: "ironfurnaces:diamond_furnace"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 2.25d
+			shape: "rsquare"
+			dependencies: [
+				"693C170D5C372A5D"
+				"57CC5F007AA6A8DF"
+			]
+			id: "567219ED39ED4114"
+			tasks: [{
+				id: "07D46A0156996876"
+				type: "item"
+				item: "ironfurnaces:gold_furnace"
+			}]
+		}
+		{
+			x: 11.75d
+			y: 2.5d
+			shape: "rsquare"
+			dependencies: [
+				"3843BC8578F53EEA"
+				"414FB84D8E12D770"
+			]
+			id: "693C170D5C372A5D"
+			tasks: [{
+				id: "58E8A92834969F3E"
+				type: "item"
+				item: "ironfurnaces:silver_furnace"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 2.75d
+			shape: "rsquare"
+			dependencies: [
+				"7FE7112E50515EC3"
+				"54DC8317D4B7A510"
+			]
+			id: "3843BC8578F53EEA"
+			tasks: [{
+				id: "328353ED7BFF980F"
+				type: "item"
+				item: "ironfurnaces:iron_furnace"
+			}]
+		}
+		{
+			x: 9.25d
+			y: 3.0d
+			shape: "rsquare"
+			dependencies: [
+				"60E0E583C1CBCE56"
+				"08528C5E98F66E31"
+			]
+			id: "7FE7112E50515EC3"
+			tasks: [{
+				id: "5F07E1991BE9376E"
+				type: "item"
+				item: "ironfurnaces:copper_furnace"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 12.0d
+			shape: "square"
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "7FF7D1CFDA3E23C1"
+			tasks: [{
+				id: "430D2E6AE257D167"
+				type: "item"
+				item: {
+					id: "modularrouters:activator_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: 14.0d
+			shape: "square"
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "077F54E23DB98DAE"
+			tasks: [{
+				id: "6581055B0AC28458"
+				type: "item"
+				item: {
+					id: "modularrouters:puller_module_1"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: 13.0d
+			shape: "square"
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "62E891A8B012DAD6"
+			tasks: [{
+				id: "12E0F092B2F58267"
+				type: "item"
+				item: {
+					id: "modularrouters:extruder_module_1"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: 12.0d
+			shape: "square"
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "7D2B3E0BBA1F8066"
+			tasks: [{
+				id: "1F078B5C71423AC0"
+				type: "item"
+				item: {
+					id: "modularrouters:breaker_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: 13.0d
+			shape: "square"
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "4679E31D0EAEF85C"
+			tasks: [{
+				id: "1624290B71E758EE"
+				type: "item"
+				item: {
+					id: "modularrouters:extruder_module_2"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 14.5d
+			y: 13.0d
+			shape: "square"
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "3DE6B26FAF4BD237"
+			tasks: [{
+				id: "5DFE3C3CCFC6201A"
+				type: "item"
+				item: {
+					id: "modularrouters:flinger_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							Pitch: 0.0f
+							Speed: 0.0f
+							ModuleFilter: { }
+							Direction: "NONE"
+							Yaw: 0.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 14.5d
+			y: 12.0d
+			shape: "square"
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "0243246953371F59"
+			tasks: [{
+				id: "2D6B19826C380295"
+				type: "item"
+				item: {
+					id: "modularrouters:detector_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							StrongSignal: 0b
+							SignalLevel: 15
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 15.5d
+			y: 12.0d
+			shape: "square"
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "38DA1BD30E1B10D2"
+			tasks: [{
+				id: "362D03B876CD2E4B"
+				type: "item"
+				item: {
+					id: "modularrouters:distributor_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 15.5d
+			y: 13.0d
+			shape: "square"
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "042DDB1FDAA0645F"
+			tasks: [{
+				id: "161B02DD43CF1491"
+				type: "item"
+				item: {
+					id: "modularrouters:fluid_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							FluidDir: 0b
+							MaxTransfer: 1000
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 16.5d
+			y: 13.0d
+			shape: "square"
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "6CFC8DF1EB0C923B"
+			tasks: [{
+				id: "0D5FBB5B032F87EC"
+				type: "item"
+				item: {
+					id: "modularrouters:fluid_module_2"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							FluidDir: 0b
+							MaxTransfer: 1000
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 16.5d
+			y: 12.0d
+			shape: "square"
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "22EFAA1868522D03"
+			tasks: [{
+				id: "32AAC867D94DC396"
+				type: "item"
+				item: {
+					id: "modularrouters:dropper_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 17.5d
+			y: 12.0d
+			shape: "square"
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "375BC4081E13BD30"
+			tasks: [{
+				id: "2E6A70C781761D93"
+				type: "item"
+				item: {
+					id: "modularrouters:energy_distributor_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 17.5d
+			y: 13.0d
+			shape: "square"
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "6F5E77909AE14928"
+			tasks: [{
+				id: "54D1C91A8DC8D484"
+				type: "item"
+				item: {
+					id: "modularrouters:placer_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 18.5d
+			y: 13.0d
+			shape: "square"
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "47577A1D5FD3A9FA"
+			tasks: [{
+				id: "5B4837250BACD144"
+				type: "item"
+				item: {
+					id: "modularrouters:player_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 18.5d
+			y: 12.0d
+			shape: "square"
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "3191D602DA278DD2"
+			tasks: [{
+				id: "389F89E7EB26DEE5"
+				type: "item"
+				item: {
+					id: "modularrouters:energy_output_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 18.5d
+			y: 14.0d
+			shape: "square"
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "29C10B36B7B5D130"
+			tasks: [{
+				id: "0A82E167BF90349B"
+				type: "item"
+				item: {
+					id: "modularrouters:void_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 17.5d
+			y: 14.0d
+			shape: "square"
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "033B301D67E728B4"
+			tasks: [{
+				id: "612DA2388AA216FE"
+				type: "item"
+				item: {
+					id: "modularrouters:vacuum_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 16.5d
+			y: 14.0d
+			shape: "square"
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "1DC99012B697B393"
+			tasks: [{
+				id: "16ABFA458E9CB625"
+				type: "item"
+				item: {
+					id: "modularrouters:sender_module_3"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 15.5d
+			y: 14.0d
+			shape: "square"
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "495B6600182C5479"
+			tasks: [{
+				id: "3936E184935D39F8"
+				type: "item"
+				item: {
+					id: "modularrouters:sender_module_2"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: 14.0d
+			shape: "square"
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "1D98BB310BFCBDCC"
+			tasks: [{
+				id: "1157C5E9E1594C59"
+				type: "item"
+				item: {
+					id: "modularrouters:puller_module_2"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 15.5d
+			y: 10.25d
+			shape: "octagon"
+			dependencies: ["7AF65DD50D0EDA7A"]
+			size: 1.2d
+			id: "2BE9A56F04E9A59C"
+			tasks: [{
+				id: "334F20E8770B585B"
+				type: "item"
+				item: "modularrouters:blank_module"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 8.0d
+			shape: "gear"
+			dependencies: [
+				"5E6932FE693B1BAA"
+				"6B12289F3D68A2C1"
+				"15CD0545458B6513"
+			]
+			size: 2.0d
+			id: "7AF65DD50D0EDA7A"
+			tasks: [{
+				id: "22CCC714D20F6623"
+				type: "item"
+				item: "modularrouters:item_router"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 14.0d
+			shape: "square"
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "23728F9B42AE8BFB"
+			tasks: [{
+				id: "0D6422E3B2BB9B26"
+				type: "item"
+				item: {
+					id: "modularrouters:sender_module_1"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 13.25d
+			y: 8.0d
+			shape: "octagon"
+			dependencies: ["7AF65DD50D0EDA7A"]
+			size: 1.2d
+			id: "037FB1EF30A6D443"
+			tasks: [{
+				id: "124F368F69F494FF"
+				type: "item"
+				item: "modularrouters:blank_upgrade"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 9.0d
+			shape: "square"
+			dependencies: ["037FB1EF30A6D443"]
+			id: "511599B20F7EAB7E"
+			tasks: [{
+				id: "7ED287674DC03094"
+				type: "item"
+				item: "modularrouters:speed_upgrade"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 8.0d
+			shape: "square"
+			dependencies: ["037FB1EF30A6D443"]
+			id: "441909867458B81A"
+			tasks: [{
+				id: "3C16680A9F7251C2"
+				type: "item"
+				item: "modularrouters:camouflage_upgrade"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 7.0d
+			shape: "square"
+			dependencies: ["037FB1EF30A6D443"]
+			id: "6AA09AFC6FAA63DA"
+			tasks: [{
+				id: "7F5137EF26B16CDC"
+				type: "item"
+				item: "modularrouters:blast_upgrade"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 7.0d
+			shape: "square"
+			dependencies: ["037FB1EF30A6D443"]
+			id: "63C2B0D03BD0C612"
+			tasks: [{
+				id: "4533ECEED8411007"
+				type: "item"
+				item: "modularrouters:energy_upgrade"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 8.0d
+			shape: "square"
+			dependencies: ["037FB1EF30A6D443"]
+			id: "3DCED36AC1A645B5"
+			tasks: [{
+				id: "3E9ED17BC56E695B"
+				type: "item"
+				item: "modularrouters:muffler_upgrade"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 9.0d
+			shape: "square"
+			dependencies: ["037FB1EF30A6D443"]
+			id: "122948B8A9B72C20"
+			tasks: [{
+				id: "4F898009EA149A03"
+				type: "item"
+				item: "modularrouters:sync_upgrade"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 9.0d
+			shape: "square"
+			dependencies: ["037FB1EF30A6D443"]
+			id: "4CEDC6946C79E792"
+			tasks: [{
+				id: "70F47CDE802FF35E"
+				type: "item"
+				item: "modularrouters:stack_upgrade"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 8.0d
+			shape: "square"
+			dependencies: ["037FB1EF30A6D443"]
+			id: "789308C6D247F877"
+			tasks: [{
+				id: "3E80149F426235BD"
+				type: "item"
+				item: "modularrouters:security_upgrade"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 7.0d
+			shape: "square"
+			dependencies: ["037FB1EF30A6D443"]
+			id: "0FE9786F86D02B3D"
+			tasks: [{
+				id: "2088FA39D605C197"
+				type: "item"
+				item: "modularrouters:fluid_upgrade"
+			}]
+		}
+		{
+			x: 17.75d
+			y: 8.0d
+			shape: "octagon"
+			dependencies: ["7AF65DD50D0EDA7A"]
+			size: 1.2d
+			id: "6CFD6E1CE7405E59"
+			tasks: [{
+				id: "1D87AB96ED75CF5F"
+				type: "item"
+				item: "modularrouters:augment_core"
+			}]
+		}
+		{
+			x: 19.5d
+			y: 9.0d
+			shape: "square"
+			dependencies: ["6CFD6E1CE7405E59"]
+			id: "1CD0CBB8131F0E1C"
+			tasks: [{
+				id: "0E0895BB65B4692B"
+				type: "item"
+				item: "modularrouters:redstone_augment"
+			}]
+		}
+		{
+			x: 19.5d
+			y: 8.0d
+			shape: "square"
+			dependencies: ["6CFD6E1CE7405E59"]
+			id: "45375A2F7E5360A6"
+			tasks: [{
+				id: "119485FFA4147237"
+				type: "item"
+				item: "modularrouters:pickup_delay_augment"
+			}]
+		}
+		{
+			x: 19.5d
+			y: 7.0d
+			shape: "square"
+			dependencies: ["6CFD6E1CE7405E59"]
+			id: "4E8024A60B451274"
+			tasks: [{
+				id: "585A52C7D707F4F3"
+				type: "item"
+				item: "modularrouters:fast_pickup_augment"
+			}]
+		}
+		{
+			x: 20.5d
+			y: 7.0d
+			shape: "square"
+			dependencies: ["6CFD6E1CE7405E59"]
+			id: "78A5AD3A617F3E35"
+			tasks: [{
+				id: "741D2578BB40253C"
+				type: "item"
+				item: "modularrouters:filter_round_robin_augment"
+			}]
+		}
+		{
+			x: 20.5d
+			y: 8.0d
+			shape: "square"
+			dependencies: ["6CFD6E1CE7405E59"]
+			id: "41193073A44A79EA"
+			tasks: [{
+				id: "5887CC116BD6DB00"
+				type: "item"
+				item: "modularrouters:range_down_augment"
+			}]
+		}
+		{
+			x: 20.5d
+			y: 9.0d
+			shape: "square"
+			dependencies: ["6CFD6E1CE7405E59"]
+			id: "5CDD12B6597A77EE"
+			tasks: [{
+				id: "581BEB467293E9BB"
+				type: "item"
+				item: "modularrouters:regulator_augment"
+			}]
+		}
+		{
+			x: 21.5d
+			y: 9.0d
+			shape: "square"
+			dependencies: ["6CFD6E1CE7405E59"]
+			id: "5F7600CB80164892"
+			tasks: [{
+				id: "2DBC3139CDE35AED"
+				type: "item"
+				item: "modularrouters:stack_augment"
+			}]
+		}
+		{
+			x: 21.5d
+			y: 8.0d
+			shape: "square"
+			dependencies: ["6CFD6E1CE7405E59"]
+			id: "6C8777B6BAE55128"
+			tasks: [{
+				id: "43F9BF2D45ACA362"
+				type: "item"
+				item: "modularrouters:range_up_augment"
+			}]
+		}
+		{
+			x: 21.5d
+			y: 7.0d
+			shape: "square"
+			dependencies: ["6CFD6E1CE7405E59"]
+			id: "1228FF7B324FE670"
+			tasks: [{
+				id: "3324BB43ED5A8983"
+				type: "item"
+				item: "modularrouters:mimic_augment"
+			}]
+		}
+		{
+			x: 22.5d
+			y: 7.5d
+			shape: "square"
+			dependencies: ["6CFD6E1CE7405E59"]
+			id: "03E24A59CC0B87DF"
+			tasks: [{
+				id: "0A8753AD16475D85"
+				type: "item"
+				item: "modularrouters:xp_vacuum_augment"
+			}]
+		}
+		{
+			x: 22.5d
+			y: 8.5d
+			shape: "square"
+			dependencies: ["6CFD6E1CE7405E59"]
+			id: "40EC26556BB0740B"
+			tasks: [{
+				id: "785837A7B3BB71B3"
+				type: "item"
+				item: "modularrouters:pushing_augment"
+			}]
 		}
 	]
 }

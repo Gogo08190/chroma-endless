@@ -174,7 +174,7 @@
 		}
 		{
 			x: 0.0d
-			y: 3.5d
+			y: 4.0d
 			shape: "square"
 			subtitle: "Better Component"
 			dependencies: [
@@ -190,7 +190,7 @@
 		}
 		{
 			x: 2.0d
-			y: 3.5d
+			y: 4.0d
 			shape: "square"
 			subtitle: "The best...not yet ! "
 			dependencies: [
@@ -222,7 +222,7 @@
 		}
 		{
 			x: -2.0d
-			y: 3.5d
+			y: 4.0d
 			dependencies: ["1D3080A4FD7A3E39"]
 			id: "37170BC60D347B64"
 			tasks: [{
@@ -233,7 +233,7 @@
 		}
 		{
 			x: -1.0d
-			y: 5.0d
+			y: 5.5d
 			shape: "rsquare"
 			dependencies: [
 				"1D3080A4FD7A3E39"
@@ -248,7 +248,7 @@
 		}
 		{
 			x: 4.0d
-			y: 3.5d
+			y: 4.0d
 			dependencies: ["0BB14D4B1B332290"]
 			id: "3D6F74B32BEE0D0E"
 			tasks: [{
@@ -259,7 +259,7 @@
 		}
 		{
 			x: 3.0d
-			y: 5.0d
+			y: 5.5d
 			shape: "rsquare"
 			dependencies: [
 				"0BB14D4B1B332290"
@@ -321,7 +321,7 @@
 		}
 		{
 			x: -1.0d
-			y: 6.25d
+			y: 6.75d
 			description: [
 				"&6Auto Crafting Tables&r are an upgraded version of &2Crafting Tables&r that can automatically insert items and be piped out of."
 				""
@@ -342,7 +342,7 @@
 		}
 		{
 			x: 3.0d
-			y: 6.25d
+			y: 6.75d
 			description: [
 				"&6Auto Crafting Tables&r are an upgraded version of &2Crafting Tables&r that can automatically insert items and be piped out of."
 				""
@@ -457,9 +457,12 @@
 		}
 		{
 			x: 1.0d
-			y: 2.0d
+			y: 3.0d
 			shape: "pentagon"
-			dependencies: ["5174E5B7DC17EF63"]
+			dependencies: [
+				"5174E5B7DC17EF63"
+				"13B6CFCD31CA39EB"
+			]
 			id: "19398704702EA1E4"
 			tasks: [{
 				id: "7970F51FBD2B499D"
@@ -1513,6 +1516,17 @@
 				id: "63ADA2A1C34BA93F"
 				type: "item"
 				item: "extendedcrafting:ultimate_singularity"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.75d
+			shape: "diamond"
+			id: "13B6CFCD31CA39EB"
+			tasks: [{
+				id: "3FCAA68DC755DF3B"
+				type: "item"
+				item: "kubejs:inert_luminessence"
 			}]
 		}
 	]

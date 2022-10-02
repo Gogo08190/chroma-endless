@@ -1242,6 +1242,7 @@
 			y: 4.0d
 			shape: "rsquare"
 			dependencies: ["73FFCC7EC4B4F978"]
+			optional: true
 			id: "7976FBC4DF2D2877"
 			tasks: [{
 				id: "373E065D55BE0D25"
