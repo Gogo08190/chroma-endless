@@ -4456,5 +4456,823 @@
 				}
 			}]
 		}
+		{
+			x: 20.5d
+			y: 44.0d
+			dependencies: ["2BA269B9CA2B23C4"]
+			id: "7BEEA494034E85E0"
+			tasks: [{
+				id: "6EC099769ED0B392"
+				type: "item"
+				item: "betterendforge:thallasium_ore"
+			}]
+		}
+		{
+			x: 20.5d
+			y: 46.0d
+			shape: "diamond"
+			dependencies: ["7BEEA494034E85E0"]
+			size: 1.5d
+			id: "7AB46CAA9425281D"
+			tasks: [{
+				id: "32E0B7725DF6525F"
+				type: "item"
+				item: "betterendforge:thallasium_ingot"
+			}]
+		}
+		{
+			x: 27.0d
+			y: 44.0d
+			dependencies: ["2BA269B9CA2B23C4"]
+			id: "44C378B73E3ED63E"
+			tasks: [{
+				id: "66D927BEED626A57"
+				type: "item"
+				item: "betterendforge:end_stone_furnace"
+			}]
+		}
+		{
+			x: 20.5d
+			y: 52.25d
+			shape: "square"
+			dependencies: ["7AB46CAA9425281D"]
+			id: "1F0FCC8187B2D3E6"
+			tasks: [{
+				id: "0A566D16BF407F60"
+				type: "item"
+				item: "betterendforge:thallasium_sword_handle"
+			}]
+		}
+		{
+			x: 20.5d
+			y: 50.0d
+			shape: "square"
+			dependencies: ["0911B41023E09299"]
+			id: "13F45D3C40B6CD57"
+			tasks: [{
+				id: "1DAC93FCE0BF481E"
+				type: "item"
+				item: "betterendforge:thallasium_sword_blade"
+			}]
+		}
+		{
+			x: 20.5d
+			y: 51.0d
+			shape: "square"
+			dependencies: [
+				"13F45D3C40B6CD57"
+				"1F0FCC8187B2D3E6"
+			]
+			id: "722B241956FBF61F"
+			tasks: [{
+				id: "434564ADB0548074"
+				type: "item"
+				item: {
+					id: "betterendforge:thallasium_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 27.0d
+			y: 46.0d
+			shape: "octagon"
+			dependencies: [
+				"44C378B73E3ED63E"
+				"7AB46CAA9425281D"
+			]
+			id: "714DFE80CDA0DE08"
+			tasks: [{
+				id: "29DCE269058267ED"
+				type: "item"
+				item: "betterendforge:end_stone_smelter"
+			}]
+		}
+		{
+			x: 27.0d
+			y: 47.25d
+			shape: "diamond"
+			dependencies: ["714DFE80CDA0DE08"]
+			size: 1.5d
+			id: "76623C16574C8BB7"
+			tasks: [{
+				id: "10A0339E9CED1E99"
+				type: "item"
+				item: "betterendforge:aeternium_ingot"
+			}]
+		}
+		{
+			x: 28.25d
+			y: 46.0d
+			shape: "diamond"
+			dependencies: ["714DFE80CDA0DE08"]
+			size: 1.5d
+			id: "5F0CB9858CDFA417"
+			tasks: [{
+				id: "2FA9024374B45945"
+				type: "item"
+				item: "betterendforge:terminite_ingot"
+			}]
+		}
+		{
+			title: "&5Infusion Ritual"
+			x: 16.0d
+			y: 46.0d
+			shape: "octagon"
+			description: [
+				"At first, you need to craft &aInfusion Pedestal&r and &a8 Pedestals&r of any type."
+				""
+				"Then you need to place Infusion Pedestal at the center and other pedestals around."
+				""
+				"{image:chroma:textures/quests/ritual_structure_be.png width:120 height:100 align:1}"
+			]
+			dependencies: ["7AB46CAA9425281D"]
+			size: 1.5d
+			id: "2DC2B3266CD0DBF5"
+			tasks: [
+				{
+					id: "5522E1343DF80420"
+					type: "item"
+					item: "betterendforge:infusion_pedestal"
+				}
+				{
+					id: "62FA45FDD1A0C909"
+					type: "item"
+					title: "Pedestals"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "betterendforge:quartz_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterendforge:purpur_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterendforge:andesite_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterendforge:diorite_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterendforge:granite_pedestal"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 8L
+				}
+			]
+		}
+		{
+			x: 20.5d
+			y: 48.5d
+			shape: "pentagon"
+			dependencies: ["7AB46CAA9425281D"]
+			id: "0911B41023E09299"
+			tasks: [{
+				id: "3C873DC11068CFB9"
+				type: "item"
+				item: {
+					id: "betterendforge:thallasium_anvil"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 20.5d
+			y: 47.25d
+			dependencies: ["7AB46CAA9425281D"]
+			id: "4062AA07D514DA85"
+			tasks: [{
+				id: "0769607745C3EC4C"
+				type: "item"
+				title: "Hammer"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "betterendforge:iron_hammer"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "betterendforge:golden_hammer"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "betterendforge:diamond_hammer"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "betterendforge:netherite_hammer"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "betterendforge:thallasium_hammer"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "betterendforge:terminite_hammer"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "betterendforge:aeternium_hammer"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 19.5d
+			y: 50.0d
+			shape: "square"
+			dependencies: ["0911B41023E09299"]
+			id: "1A40B00B4209F894"
+			tasks: [{
+				id: "49A2E60D49947DA4"
+				type: "item"
+				item: "betterendforge:thallasium_shovel_head"
+			}]
+		}
+		{
+			x: 18.5d
+			y: 50.0d
+			shape: "square"
+			dependencies: ["0911B41023E09299"]
+			id: "61569F5A9DBF1EA3"
+			tasks: [{
+				id: "7ED7744293C279F4"
+				type: "item"
+				item: "betterendforge:thallasium_pickaxe_head"
+			}]
+		}
+		{
+			x: 21.5d
+			y: 50.0d
+			shape: "square"
+			dependencies: ["0911B41023E09299"]
+			id: "3C85343FEA574580"
+			tasks: [{
+				id: "0D0902EB97403182"
+				type: "item"
+				item: "betterendforge:thallasium_axe_head"
+			}]
+		}
+		{
+			x: 22.5d
+			y: 50.0d
+			shape: "square"
+			dependencies: ["0911B41023E09299"]
+			id: "01048674048EE5CB"
+			tasks: [{
+				id: "5046358DB88CD95F"
+				type: "item"
+				item: "betterendforge:thallasium_hoe_head"
+			}]
+		}
+		{
+			x: 19.5d
+			y: 51.0d
+			shape: "square"
+			dependencies: ["1A40B00B4209F894"]
+			id: "6DF8F74D4194C52B"
+			tasks: [{
+				id: "7851D4F142B8CC33"
+				type: "item"
+				item: {
+					id: "betterendforge:thallasium_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 22.5d
+			y: 51.0d
+			shape: "square"
+			dependencies: ["01048674048EE5CB"]
+			id: "245DAF63994C13C6"
+			tasks: [{
+				id: "1233A01B71E9F386"
+				type: "item"
+				item: {
+					id: "betterendforge:thallasium_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 18.5d
+			y: 51.0d
+			shape: "square"
+			dependencies: ["61569F5A9DBF1EA3"]
+			id: "2EB8BC4A995C8B03"
+			tasks: [{
+				id: "7CC27D6FC1C1588E"
+				type: "item"
+				item: {
+					id: "betterendforge:thallasium_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 21.5d
+			y: 51.0d
+			shape: "square"
+			dependencies: ["3C85343FEA574580"]
+			id: "6D2BC3752F4470F4"
+			tasks: [{
+				id: "541464805344F340"
+				type: "item"
+				item: {
+					id: "betterendforge:thallasium_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 31.0d
+			y: 45.0d
+			shape: "square"
+			dependencies: ["133EDE4446E9139E"]
+			id: "14467EC43B51B467"
+			tasks: [{
+				id: "3AB139E8E4F10801"
+				type: "item"
+				item: "betterendforge:terminite_shovel_head"
+			}]
+		}
+		{
+			x: 31.0d
+			y: 44.0d
+			shape: "square"
+			dependencies: ["133EDE4446E9139E"]
+			id: "6530D8DC8B8A116E"
+			tasks: [{
+				id: "333F6FDA5885CA44"
+				type: "item"
+				item: "betterendforge:terminite_pickaxe_head"
+			}]
+		}
+		{
+			x: 31.0d
+			y: 47.0d
+			shape: "square"
+			dependencies: ["133EDE4446E9139E"]
+			id: "0CD3DE1840A126C3"
+			tasks: [{
+				id: "183D4963036B0453"
+				type: "item"
+				item: "betterendforge:terminite_axe_head"
+			}]
+		}
+		{
+			x: 31.0d
+			y: 48.0d
+			shape: "square"
+			dependencies: ["133EDE4446E9139E"]
+			id: "7B249B2097EA15F7"
+			tasks: [{
+				id: "43EAB2A932DDA567"
+				type: "item"
+				item: "betterendforge:terminite_hoe_head"
+			}]
+		}
+		{
+			x: 33.25d
+			y: 46.0d
+			shape: "square"
+			dependencies: ["5F0CB9858CDFA417"]
+			id: "3CDD35D8AEAB9C08"
+			tasks: [{
+				id: "538A70351DE02FC9"
+				type: "item"
+				item: "betterendforge:terminite_sword_handle"
+			}]
+		}
+		{
+			x: 31.0d
+			y: 46.0d
+			shape: "square"
+			dependencies: ["133EDE4446E9139E"]
+			id: "0CE4B65FD0BCAA08"
+			tasks: [{
+				id: "231760678935920A"
+				type: "item"
+				item: "betterendforge:terminite_sword_blade"
+			}]
+		}
+		{
+			x: 32.0d
+			y: 46.0d
+			shape: "square"
+			dependencies: [
+				"0CE4B65FD0BCAA08"
+				"3CDD35D8AEAB9C08"
+			]
+			id: "43002C2BFE1B03FF"
+			tasks: [{
+				id: "4337021B90D1046D"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 32.0d
+			y: 45.0d
+			shape: "square"
+			dependencies: ["14467EC43B51B467"]
+			id: "72664FCE8598613D"
+			tasks: [{
+				id: "6DC350C5D2D46E49"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 32.0d
+			y: 47.0d
+			shape: "square"
+			dependencies: ["0CD3DE1840A126C3"]
+			id: "4380F4C5A660EA41"
+			tasks: [{
+				id: "07CBC9A571E0CE66"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 32.0d
+			y: 48.0d
+			shape: "square"
+			dependencies: ["7B249B2097EA15F7"]
+			id: "1B8AA146B449CDDD"
+			tasks: [{
+				id: "7D33E8A20E9CEA49"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 32.0d
+			y: 44.0d
+			shape: "square"
+			dependencies: ["6530D8DC8B8A116E"]
+			id: "2EBB1E40B9566623"
+			tasks: [{
+				id: "006AAD42998257E0"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 29.5d
+			y: 46.0d
+			shape: "pentagon"
+			dependencies: ["5F0CB9858CDFA417"]
+			id: "133EDE4446E9139E"
+			tasks: [{
+				id: "19D54527A663FA13"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_anvil"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 27.0d
+			y: 48.5d
+			shape: "pentagon"
+			dependencies: ["76623C16574C8BB7"]
+			id: "788B9F9B68E6A915"
+			tasks: [{
+				id: "29FDCC48FD030D79"
+				type: "item"
+				item: {
+					id: "betterendforge:aeternium_anvil"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 27.0d
+			y: 52.25d
+			shape: "square"
+			dependencies: ["76623C16574C8BB7"]
+			id: "7E91683FD0EF4C94"
+			tasks: [{
+				id: "2589594A140405EC"
+				type: "item"
+				item: "betterendforge:aeternium_sword_handle"
+			}]
+		}
+		{
+			x: 27.0d
+			y: 50.0d
+			shape: "square"
+			dependencies: ["788B9F9B68E6A915"]
+			id: "027D4039082CE989"
+			tasks: [{
+				id: "41462AF1029D29C2"
+				type: "item"
+				item: "betterendforge:aeternium_sword_blade"
+			}]
+		}
+		{
+			x: 29.0d
+			y: 50.0d
+			shape: "square"
+			dependencies: ["788B9F9B68E6A915"]
+			id: "4AC3966DCD2BC0C0"
+			tasks: [{
+				id: "6F896B5253586215"
+				type: "item"
+				item: "betterendforge:aeternium_hoe_head"
+			}]
+		}
+		{
+			x: 28.0d
+			y: 50.0d
+			shape: "square"
+			dependencies: ["788B9F9B68E6A915"]
+			id: "171C6C3D4CA8EB25"
+			tasks: [{
+				id: "680FF95A2CAC3324"
+				type: "item"
+				item: "betterendforge:aeternium_axe_head"
+			}]
+		}
+		{
+			x: 26.0d
+			y: 50.0d
+			shape: "square"
+			dependencies: ["788B9F9B68E6A915"]
+			id: "09350CD87D2940A3"
+			tasks: [{
+				id: "075CFC66AECA1FFD"
+				type: "item"
+				item: "betterendforge:aeternium_shovel_head"
+			}]
+		}
+		{
+			x: 25.0d
+			y: 50.0d
+			shape: "square"
+			dependencies: ["788B9F9B68E6A915"]
+			id: "0B0DA3CAA95B7DD0"
+			tasks: [{
+				id: "7BFFBE96607CAFC4"
+				type: "item"
+				item: "betterendforge:aeternium_pickaxe_head"
+			}]
+		}
+		{
+			x: 29.0d
+			y: 51.0d
+			shape: "square"
+			dependencies: ["4AC3966DCD2BC0C0"]
+			id: "13881850FA479E2A"
+			tasks: [{
+				id: "4FD53880E564D0A0"
+				type: "item"
+				item: {
+					id: "betterendforge:aeternium_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 28.0d
+			y: 51.0d
+			shape: "square"
+			dependencies: ["171C6C3D4CA8EB25"]
+			id: "3702EB30063241C1"
+			tasks: [{
+				id: "5E2E11199DA89431"
+				type: "item"
+				item: {
+					id: "betterendforge:aeternium_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 26.0d
+			y: 51.0d
+			shape: "square"
+			dependencies: ["09350CD87D2940A3"]
+			id: "74566E0F1D8A3012"
+			tasks: [{
+				id: "2BA98CC313A6BF37"
+				type: "item"
+				item: {
+					id: "betterendforge:aeternium_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 27.0d
+			y: 51.0d
+			shape: "square"
+			dependencies: [
+				"7E91683FD0EF4C94"
+				"027D4039082CE989"
+			]
+			id: "768D97F5BF9D29DC"
+			tasks: [{
+				id: "677EE71068134859"
+				type: "item"
+				item: {
+					id: "betterendforge:aeternium_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 25.0d
+			y: 51.0d
+			shape: "square"
+			dependencies: ["0B0DA3CAA95B7DD0"]
+			id: "7AFEE27943ED98A7"
+			tasks: [{
+				id: "1307BF03E82FB726"
+				type: "item"
+				item: {
+					id: "betterendforge:aeternium_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 16.0d
+			y: 43.75d
+			dependencies: ["2BA269B9CA2B23C4"]
+			id: "511313DAFA1FD606"
+			tasks: [{
+				id: "0B3D4393689B3180"
+				type: "item"
+				item: "betterendforge:crystal_shards"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 48.25d
+			dependencies: [
+				"511313DAFA1FD606"
+				"2DC2B3266CD0DBF5"
+			]
+			id: "0C1A0B516A0A88F5"
+			tasks: [{
+				id: "40396283EC5C652D"
+				type: "item"
+				item: "betterendforge:eternal_crystal"
+			}]
+		}
+		{
+			x: 23.75d
+			y: 44.75d
+			shape: "octagon"
+			description: [
+				"White traveling around the world of the End, you can come across ancient ruins."
+				""
+				"There is destoyed (or not) frame of &6Runed Flavolite&r and 6 pedestals around it."
+				""
+				"{image:chroma:textures/quests/portal_structure_be.png width:120 height:100 align:1}"
+				""
+				""
+				"These are the remains of the majestic portals that one linked the worlds of the End and Overworld."
+				""
+				"To activate the portal you need to recover frame (if it's broken)."
+				""
+				"{image:chroma:textures/quests/portal_frame_full_be.png width:120 height:100 align:1}"
+				""
+				"And place 6 &dEternal Crystals&r to pedestals."
+				""
+				"{image:chroma:textures/quests/ritual_finished_be.png width:120 height:100 align:1}"
+				""
+				"After you'll place the last crystal, portal will be activated."
+				""
+				"&6Runed Flavolite&r (to recover the frame) and &dEternal Crystals&r can be obtained by &5Infusion Ritual&r."
+			]
+			dependencies: ["2BA269B9CA2B23C4"]
+			size: 1.3d
+			min_width: 380
+			id: "1E0417811B9D95FF"
+			tasks: [{
+				id: "3A78B9EEA5F64D34"
+				type: "structure"
+				title: "Find the &6Ancient Ruins"
+				icon: "betterendforge:eternal_pedestal"
+				structure: "betterendforge:eternal_portal_structure"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 44.5d
+			dependencies: ["511313DAFA1FD606"]
+			id: "55BC1D112F36F121"
+			tasks: [{
+				id: "3E5CBFB759BAE301"
+				type: "item"
+				item: "betterendforge:guidebook"
+			}]
+		}
 	]
 }
