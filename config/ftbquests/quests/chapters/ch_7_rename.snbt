@@ -1,7 +1,7 @@
 {
 	id: "610DA02408D00F36"
 	group: "34085A64296DE6C7"
-	order_index: 11
+	order_index: 12
 	filename: "ch_7_rename"
 	title: "Ch. 10 (rename)"
 	icon: "mekanism:steel_casing"
@@ -389,8 +389,8 @@
 			subtitle: "Power of the End"
 			description: [
 				"The &2Ender Crafting&r is crafting using the power of waiting."
+				""
 				"An &2Ender Crafting&r setup consists of an &6Ender Crafter&r and &6Ender Alternators&r. The Crafter will take energy from the void via the alternators. The more alternators you have, the faster it will craft ! "
-				"&6Ender Alternators&r can be placed anywhere around the &6Ender Crafter&r in a &l&n3 block radius&r. Even above or below !"
 			]
 			dependencies: ["74538A4A28AEE1D5"]
 			min_width: 300
@@ -1527,6 +1527,22 @@
 				id: "3FCAA68DC755DF3B"
 				type: "item"
 				item: "kubejs:inert_luminessence"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.25d
+			shape: "octagon"
+			dependencies: [
+				"522508C95BF66664"
+				"2451E767B2700F8B"
+			]
+			size: 1.5d
+			id: "50C64872CE0193E9"
+			tasks: [{
+				id: "4A243E0BEA675BC9"
+				type: "item"
+				item: "miniutilities:angel_ring"
 			}]
 		}
 	]

@@ -1,7 +1,7 @@
 {
 	id: "20CF13F8BE802398"
 	group: "34085A64296DE6C7"
-	order_index: 10
+	order_index: 11
 	filename: "ch_6_rename"
 	title: "Ch. 9 (rename)"
 	icon: "industrialforegoing:machine_frame_pity"
@@ -52,28 +52,6 @@
 						"patchouli:book": "bigreactors:erguide"
 					}
 				}
-			}]
-		}
-		{
-			title: "&l&6Extreme Reactors&r    "
-			icon: {
-				id: "ftbquests:custom_icon"
-				Count: 1b
-				tag: {
-					Icon: "chroma:textures/quests/extreme_reactor.png"
-				}
-			}
-			x: 0.0d
-			y: -4.5d
-			shape: "octagon"
-			subtitle: "Electricity from &#80B425Uranium&r"
-			description: ["&l&o&6Extreme Reactors&r is a mod all about making extreme amounts of energy in an efficient way."]
-			size: 3.0d
-			id: "45AF68713E38E23C"
-			tasks: [{
-				id: "0E6AD5D3DF85007A"
-				type: "checkmark"
-				title: "&aValidate&r"
 			}]
 		}
 		{

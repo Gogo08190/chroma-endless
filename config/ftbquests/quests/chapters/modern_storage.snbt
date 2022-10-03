@@ -1,7 +1,7 @@
 {
 	id: "037F40DB8CCEEA52"
 	group: "34085A64296DE6C7"
-	order_index: 8
+	order_index: 9
 	filename: "modern_storage"
 	title: "Modern storage"
 	icon: "refinedstorage:controller"
@@ -1777,36 +1777,6 @@
 				id: "55295733D23612CD"
 				type: "item"
 				item: "rsinfinitybooster:dimension_card"
-			}]
-		}
-		{
-			x: 0.25d
-			y: -18.5d
-			id: "441C69EE987FE187"
-			tasks: [{
-				id: "6DA9865EF86461C9"
-				type: "item"
-				item: "refinedcooking:kitchen_network_card"
-			}]
-		}
-		{
-			x: -0.75d
-			y: -18.5d
-			id: "5DE83F1A988EB6A8"
-			tasks: [{
-				id: "3CA5730577F8F822"
-				type: "item"
-				item: "refinedcooking:kitchen_access_point"
-			}]
-		}
-		{
-			x: -1.75d
-			y: -18.5d
-			id: "5A1E36170BEFE806"
-			tasks: [{
-				id: "167E0C853B8A1567"
-				type: "item"
-				item: "refinedcooking:kitchen_station"
 			}]
 		}
 	]

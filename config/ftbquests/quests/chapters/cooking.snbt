@@ -52,116 +52,6 @@
 			}]
 		}
 		{
-			x: 23.75d
-			y: 9.5d
-			id: "7BF7A778443B08E8"
-			tasks: [{
-				id: "2B4C645049208E22"
-				type: "item"
-				item: "betterendforge:shadow_berry_raw"
-			}]
-		}
-		{
-			x: 24.75d
-			y: 9.5d
-			id: "13A08244320A87C8"
-			tasks: [{
-				id: "3E8F9D8982A2CF08"
-				type: "item"
-				item: "betterendforge:shadow_berry_cooked"
-			}]
-		}
-		{
-			x: 25.75d
-			y: 9.5d
-			id: "2C2D23DFF8D61A92"
-			tasks: [{
-				id: "1DD5A48A2994060D"
-				type: "item"
-				item: "betterendforge:end_fish_raw"
-			}]
-		}
-		{
-			x: 26.75d
-			y: 9.5d
-			id: "03C06FC52803D598"
-			tasks: [{
-				id: "7E75503645E29E63"
-				type: "item"
-				item: "betterendforge:end_fish_cooked"
-			}]
-		}
-		{
-			x: 27.75d
-			y: 9.5d
-			id: "78C4C0C63AAE9C9B"
-			tasks: [{
-				id: "62A346615E5E7EB5"
-				type: "item"
-				item: "betterendforge:sweet_berry_jelly"
-			}]
-		}
-		{
-			x: 28.75d
-			y: 9.5d
-			id: "58265A6F54F62509"
-			tasks: [{
-				id: "3ADC2C5FF2368721"
-				type: "item"
-				item: "betterendforge:shadow_berry_jelly"
-			}]
-		}
-		{
-			x: 29.75d
-			y: 9.5d
-			id: "31378314550CAB9A"
-			tasks: [{
-				id: "440773EAE9E7B77D"
-				type: "item"
-				item: "betterendforge:blossom_berry"
-			}]
-		}
-		{
-			x: 30.75d
-			y: 9.5d
-			id: "78C2E7CD7886EDF4"
-			tasks: [{
-				id: "5D2D626CA047A02F"
-				type: "item"
-				item: "betterendforge:amber_root_raw"
-			}]
-		}
-		{
-			x: 31.75d
-			y: 9.5d
-			id: "0E0505F0BD06F8A2"
-			tasks: [{
-				id: "7E9D388CD9841217"
-				type: "item"
-				item: "betterendforge:chorus_mushroom_raw"
-			}]
-		}
-		{
-			x: 32.75d
-			y: 9.5d
-			id: "081D89CAA4EBDCA2"
-			tasks: [{
-				id: "449EE19B2E7E5100"
-				type: "item"
-				item: "betterendforge:chorus_mushroom_cooked"
-			}]
-		}
-		{
-			x: 33.75d
-			y: 9.5d
-			id: "5ACA05215B7FED06"
-			tasks: [{
-				id: "6C269DF74467FE24"
-				type: "item"
-				item: "betterendforge:umbrella_cluster_juice"
-			}]
-		}
-		{
 			x: -13.5d
 			y: 4.5d
 			id: "706311CE86E5093D"
@@ -2729,6 +2619,36 @@
 				id: "14DF200CAE628BA3"
 				type: "item"
 				item: "sushigocrafting:cooler_box"
+			}]
+		}
+		{
+			x: -29.0d
+			y: -31.5d
+			id: "5A1E36170BEFE806"
+			tasks: [{
+				id: "167E0C853B8A1567"
+				type: "item"
+				item: "refinedcooking:kitchen_station"
+			}]
+		}
+		{
+			x: -29.0d
+			y: -30.5d
+			id: "5DE83F1A988EB6A8"
+			tasks: [{
+				id: "3CA5730577F8F822"
+				type: "item"
+				item: "refinedcooking:kitchen_access_point"
+			}]
+		}
+		{
+			x: -29.0d
+			y: -29.5d
+			id: "441C69EE987FE187"
+			tasks: [{
+				id: "6DA9865EF86461C9"
+				type: "item"
+				item: "refinedcooking:kitchen_network_card"
 			}]
 		}
 	]

@@ -1611,6 +1611,8 @@
 		{
 			x: -3.3500000000000014d
 			y: 14.75d
+			subtitle: "Basic stuff"
+			description: ["Unlocks Create's and Occultism's Jetpack. "]
 			dependencies: [
 				"137F5768445A7B2E"
 				"41C2A896B9CD146B"
@@ -1625,6 +1627,8 @@
 		{
 			x: 0.6454081632653086d
 			y: 22.705272108843538d
+			subtitle: "I am speed"
+			description: ["Unlocks Botania's and Undergarden's Jetpack. "]
 			dependencies: [
 				"7892883CB3B0A12C"
 				"2F31A00279CCC783"
@@ -1639,6 +1643,8 @@
 		{
 			x: 4.69302721088436d
 			y: 14.795748299319733d
+			subtitle: "Nyoooom"
+			description: ["Unlocks Extreme Reactor's and EnderIO Alloys's Jetpack. "]
 			dependencies: [
 				"19A27F02019AB288"
 				"6DC4C73055E5FE09"
@@ -1653,6 +1659,8 @@
 		{
 			x: 9.5d
 			y: 18.75d
+			subtitle: "Faster Than Light"
+			description: ["Unlocks Powah's Jetpack. "]
 			id: "54ECD5468EAC1B26"
 			tasks: [{
 				id: "2596B01D0360B5CB"
@@ -1663,6 +1671,7 @@
 		{
 			x: 5.25d
 			y: 18.75d
+			description: ["Crafted in Custom Machinery's Alloy Smelter."]
 			dependencies: [
 				"3DA966C6436DB383"
 				"4E811B1DDCA7ACFE"
@@ -1678,6 +1687,8 @@
 		{
 			x: 6.5d
 			y: 16.25d
+			subtitle: "Uhh does anyone know how that works ?"
+			description: ["Crafted in Extended's Crafting Advanced Crafting Table."]
 			dependencies: ["4BD29526B90994E7"]
 			id: "5072216A8B07BC59"
 			tasks: [{
@@ -1689,6 +1700,8 @@
 		{
 			x: 5.25d
 			y: 17.5d
+			subtitle: "The sun is a deadly laser"
+			description: ["Crafted in Extended's Crafting Advanced Crafting Table."]
 			dependencies: [
 				"28F65AB06F632E4C"
 				"4BD29526B90994E7"
@@ -1703,6 +1716,8 @@
 		{
 			x: 5.25d
 			y: 16.25d
+			subtitle: "Stars stored on your back"
+			description: ["Crafted in Extended's Crafting Ultimate Crafting Table."]
 			dependencies: [
 				"6271F71E47DA8F8B"
 				"5072216A8B07BC59"
@@ -1726,6 +1741,8 @@
 		{
 			x: -1.25d
 			y: 21.25d
+			subtitle: "Oooo magic"
+			description: ["Crafted in Botania's Runic Altar."]
 			dependencies: ["679DF08FABBE8A87"]
 			id: "018F1C35300E1792"
 			tasks: [{
@@ -1737,6 +1754,8 @@
 		{
 			x: 0.0d
 			y: 18.75d
+			subtitle: "Shiny"
+			description: ["Crafted using Botania's Terrastrial Agglomeration Plate."]
 			dependencies: [
 				"0B086A4E1638EFBA"
 				"7D06301D09F5D628"
@@ -1751,6 +1770,8 @@
 		{
 			x: 0.0d
 			y: 20.0d
+			subtitle: "Uses the mana for electricity"
+			description: ["Crafted in Botania's Runic Altar."]
 			dependencies: [
 				"59F8023BEB99C34A"
 				"69E268DB0F8CB0A3"
@@ -1766,6 +1787,8 @@
 		{
 			x: 0.0d
 			y: 21.25d
+			subtitle: "Magic is in the air "
+			description: ["Crafted using Botania's Terrastrial Agglomeration Plate."]
 			dependencies: [
 				"5FFFB9F1D06A332A"
 				"018F1C35300E1792"
@@ -1788,6 +1811,8 @@
 		{
 			x: 8.0d
 			y: 18.75d
+			subtitle: "Energy from the void"
+			description: ["Obtained from Environmental Tech's Void Miner Tier 6 or more with the custom \"Black Hole Harvester\" in the End Dimenstion. (Note that the \"Red Lens\" doubles the chances of obtaining it)."]
 			dependencies: ["28F65AB06F632E4C"]
 			id: "685F94719391D77F"
 			tasks: [{
@@ -1799,6 +1824,8 @@
 		{
 			x: 8.0d
 			y: 17.75d
+			subtitle: "Litteral rocket"
+			description: ["Obtained from Environmental Tech's Void Miner Tier 6 or more with the custom \"Black Hole Harvester\" in the End Dimenstion. (Note that the \"Red Lens\" doubles the chances of obtaining it)."]
 			dependencies: ["685F94719391D77F"]
 			id: "0C4BB75A847B5143"
 			tasks: [{
@@ -1810,6 +1837,8 @@
 		{
 			x: 8.0d
 			y: 19.75d
+			subtitle: "If this explodes we're screwed"
+			description: ["Crafted in Environmental Tech's Assembler."]
 			dependencies: ["685F94719391D77F"]
 			id: "07C51EEE022BF8A1"
 			tasks: [{
@@ -1821,6 +1850,8 @@
 		{
 			x: 11.5d
 			y: 18.75d
+			subtitle: "I'm fast as f boiiii"
+			description: ["Crafted in Environmental Tech's Assembler."]
 			dependencies: [
 				"0C4BB75A847B5143"
 				"07C51EEE022BF8A1"
@@ -1842,6 +1873,8 @@
 		{
 			x: -2.75d
 			y: 18.75d
+			subtitle: "How does that work ?"
+			description: ["Crafted by throwing the mechanical cell into the Spirit Fire from Occultism."]
 			dependencies: [
 				"1273070937E58B44"
 				"28C3F89057684CC6"
@@ -1856,6 +1889,8 @@
 		{
 			x: -1.5d
 			y: 16.25d
+			subtitle: "You can hear demons screaming"
+			description: ["Crafted with Occultism's Ritual \"Ezivieus' Spectral Compulsion\"."]
 			dependencies: ["7BF5F871992F55AE"]
 			id: "00B345F47553EA72"
 			tasks: [{
@@ -1867,6 +1902,8 @@
 		{
 			x: -2.75d
 			y: 17.5d
+			subtitle: "How do demons even have electricity ?"
+			description: ["Crafted with Occultism's Ritual \"Ezivieus' Spectral Compulsion\"."]
 			dependencies: [
 				"0B086A4E1638EFBA"
 				"7BF5F871992F55AE"
@@ -1881,6 +1918,8 @@
 		{
 			x: -2.75d
 			y: 16.25d
+			subtitle: "It radiates dark magic"
+			description: ["Crafted using Occultism's ritual \"Sevira's Permanent Confinment\"."]
 			dependencies: [
 				"0ACAD13C5F639666"
 				"00B345F47553EA72"
@@ -1904,6 +1943,8 @@
 		{
 			x: 1.25d
 			y: 18.75d
+			subtitle: "Un régal"
+			description: ["Crafted in Pneumaticraft's Assembly Line."]
 			dependencies: [
 				"1FDDA157DFAF2A7F"
 				"59F8023BEB99C34A"
@@ -1918,6 +1959,8 @@
 		{
 			x: 2.5d
 			y: 21.25d
+			subtitle: "Whatever it uses to fly, it's good stuff"
+			description: ["Crafted using Pneumaticraft's Pressure Chamber."]
 			dependencies: ["7B9FBBCD2F962A0B"]
 			id: "260F4399A442FB59"
 			tasks: [{
@@ -1929,6 +1972,8 @@
 		{
 			x: 1.25d
 			y: 20.0d
+			subtitle: "Stores the energy of the depth"
+			description: ["Crafted using Pneumaticraft's Pressure Chamber."]
 			dependencies: [
 				"4EC4ECA83ADD6135"
 				"7B9FBBCD2F962A0B"
@@ -1943,6 +1988,8 @@
 		{
 			x: 1.25d
 			y: 21.25d
+			subtitle: "Going to the bottom to reach new height "
+			description: ["Crafted using Pneumaticraft's Pressure Chamber."]
 			dependencies: [
 				"5C2E98450FB34A2C"
 				"260F4399A442FB59"
@@ -1966,6 +2013,8 @@
 		{
 			x: -4.0d
 			y: 18.75d
+			subtitle: "James Watt would be happy"
+			description: ["Crafted in a regular Crafting Table."]
 			min_required_dependencies: 2
 			dependencies: [
 				"41C2A896B9CD146B"
@@ -1982,6 +2031,8 @@
 		{
 			x: -5.25d
 			y: 16.25d
+			subtitle: "You sure you want to fly with this ?"
+			description: ["Crafted in Create's Compacter."]
 			dependencies: ["761BAE3E76AB71A3"]
 			id: "164B6A3448808077"
 			tasks: [{
@@ -1993,6 +2044,8 @@
 		{
 			x: -4.0d
 			y: 17.5d
+			subtitle: "Is that a potato or a capacitor ?"
+			description: ["Crafted in Create's Compacter."]
 			dependencies: ["1273070937E58B44"]
 			id: "525D184EC233D716"
 			tasks: [{
@@ -2004,6 +2057,8 @@
 		{
 			x: -4.0d
 			y: 16.25d
+			subtitle: "Click click click"
+			description: ["Crafted using Create's Mechanical Crafters."]
 			dependencies: [
 				"164B6A3448808077"
 				"525D184EC233D716"
@@ -2025,6 +2080,8 @@
 		{
 			x: 4.0d
 			y: 18.75d
+			subtitle: "Pinky"
+			description: ["Crafted using Industiral Forgoing's Dissolution Chamber (With 0.5 Bucket of Rossinite)."]
 			dependencies: [
 				"4EC4ECA83ADD6135"
 				"73368EF2948452D9"
@@ -2039,6 +2096,8 @@
 		{
 			x: 2.75d
 			y: 16.25d
+			subtitle: "I'm not even sure what it shoots out anymore"
+			description: ["Crafted in a regular Crafting Table."]
 			dependencies: [
 				"6BDC59E82AB5068C"
 				"492A60D27D33CBEC"
@@ -2053,6 +2112,8 @@
 		{
 			x: 4.0d
 			y: 17.5d
+			subtitle: "Stores Radiation /!\\"
+			description: ["Crafted in a regular Crafting Table."]
 			dependencies: ["3DA966C6436DB383"]
 			id: "4AF26F6881D26ED4"
 			tasks: [{
@@ -2064,6 +2125,8 @@
 		{
 			x: 4.0d
 			y: 16.25d
+			subtitle: "Beware of the radiations "
+			description: ["Crafted using Industiral Forgoing's Dissolution Chamber (With 8 Buckets of Ether Gas). "]
 			dependencies: [
 				"7618457DC31F6DFB"
 				"4AF26F6881D26ED4"
@@ -2085,8 +2148,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: 17.75d
+			x: 8.0d
+			y: 16.75d
 			id: "03945677D4B2922E"
 			tasks: [{
 				id: "45D0F672F96F0ADF"
@@ -2096,8 +2159,8 @@
 		}
 		{
 			title: "Mettre cristaux powah"
-			x: 11.5d
-			y: 17.75d
+			x: 9.75d
+			y: 17.5d
 			id: "117795A1C2C388CC"
 			tasks: [{
 				id: "0DF80884B4C90331"
@@ -2108,9 +2171,13 @@
 			x: -8.0d
 			y: 18.75d
 			description: [
-				"Jetpacks are essential whilst playing. Flying is very usefull, when it commes to adventuring or even building. This page is made to make you aware of each tier, and when it's unlocked. "
+				"Jetpacks are used throughout the game. They come in different tier, ranging from a very slow and with almsot no enrgy jetpack, to one if not the best way to travel. "
 				""
-				"So have fun, fly like no man will ever !"
+				"Each tier is represented by it's \"coil\". If some quests aren't unlocked check the dependencies !"
+				""
+				"Note that each jetpack is made with a custom craft linked to the mod it represents (i.e mechanical for create)"
+				""
+				"This is everything i've got to say, now fly little one !"
 			]
 			id: "772D69D5F95A9009"
 			tasks: [{

@@ -1,7 +1,7 @@
 {
 	id: "0770C55A3FC66088"
 	group: "7DE7BB1CA4872D7D"
-	order_index: 2
+	order_index: 1
 	filename: "do_you_eat_the_combs"
 	title: "Do you eat the combs?"
 	icon: "resourcefulbees:rgbee_honeycomb"
@@ -1089,453 +1089,993 @@
 			}]
 		}
 		{
-			x: 11.0d
+			x: 9.25d
 			y: -1.0d
-			id: "2E621BC6239741AE"
+			id: "28DA27ABE3ABF0AF"
 			tasks: [{
-				id: "61218026DBC8FEC0"
+				id: "0D20AE69D9A7FA84"
 				type: "item"
-				item: "resourcefulbees:aeternium_honeycomb_block"
+				item: "resourcefulbees:aeternium_honey_bottle"
 			}]
 		}
 		{
-			x: 12.0d
+			x: 10.25d
 			y: -1.0d
-			id: "3B6359F7423BE1F5"
+			id: "5D97A40FF98A3E97"
 			tasks: [{
-				id: "5C065816A23E10D9"
+				id: "06217DF856393CA2"
 				type: "item"
-				item: "resourcefulbees:allthemodium_honeycomb_block"
+				item: "resourcefulbees:aluminum_honey_bottle"
 			}]
 		}
 		{
-			x: 13.0d
+			x: 11.25d
 			y: -1.0d
-			id: "1C984246C23CB14C"
+			id: "04F5DA7D74468531"
 			tasks: [{
-				id: "48AF2D3DFA0945B8"
+				id: "37BCDF2ED83127E1"
 				type: "item"
-				item: "resourcefulbees:aluminum_honeycomb_block"
+				item: "resourcefulbees:awakened_honey_bottle"
 			}]
 		}
 		{
-			x: 14.0d
+			x: 12.25d
 			y: -1.0d
-			id: "473B84B07C7F0CC7"
+			id: "40A88FD752207B77"
 			tasks: [{
-				id: "22B598FAC0775EE3"
+				id: "1F03F3E62BC51E6D"
 				type: "item"
-				item: "resourcefulbees:awakened_honeycomb_block"
+				item: "resourcefulbees:basalz_honey_bottle"
 			}]
 		}
 		{
-			x: 15.0d
+			x: 13.25d
 			y: -1.0d
-			id: "170FC25F9C209967"
+			id: "2CC396D79D3B9CA5"
 			tasks: [{
-				id: "7AC1487BEE02BF98"
+				id: "5FD1FDDC9E2F81C5"
 				type: "item"
-				item: "resourcefulbees:basalz_honeycomb_block"
+				item: "resourcefulbees:bitumen_honey_bottle"
 			}]
 		}
 		{
-			x: 16.0d
+			x: 14.25d
 			y: -1.0d
-			id: "4D7EE0402BC73C3D"
+			id: "34A8D0F86AC95867"
 			tasks: [{
-				id: "7BD57D87D6DF641C"
+				id: "44FE60AE7DC7A2DA"
 				type: "item"
-				item: "resourcefulbees:bitumen_honeycomb_block"
+				item: "resourcefulbees:blaze_honey_bottle"
 			}]
 		}
 		{
-			x: 17.0d
+			x: 15.25d
 			y: -1.0d
-			id: "52D3B3150744C78B"
+			id: "0DE5C667663F3127"
 			tasks: [{
-				id: "189EC7FC8BA6EF29"
+				id: "363FF69CCCE93549"
 				type: "item"
-				item: "resourcefulbees:blaze_honeycomb_block"
+				item: "resourcefulbees:blazing_crystal_honey_bottle"
 			}]
 		}
 		{
-			x: 18.0d
+			x: 16.25d
 			y: -1.0d
-			id: "257F0A0B658EAF1C"
+			id: "205EBE3A51C30CEA"
 			tasks: [{
-				id: "103A1F25FA81804A"
+				id: "08173425C183FF79"
 				type: "item"
-				item: "resourcefulbees:blazing_honeycomb_block"
+				item: "resourcefulbees:blitz_honey_bottle"
 			}]
 		}
 		{
-			x: 19.0d
+			x: 17.25d
 			y: -1.0d
-			id: "46D193986A5221ED"
+			id: "4A02945707AC3005"
 			tasks: [{
-				id: "6E40340216D77168"
+				id: "7BBDFC8A43FBA9EC"
 				type: "item"
-				item: "resourcefulbees:blitz_honeycomb_block"
+				item: "resourcefulbees:blizz_honey_bottle"
 			}]
 		}
 		{
-			x: 11.0d
+			x: 9.25d
 			y: 0.0d
-			id: "3393E3939AD81C31"
+			id: "0EE15E3290601442"
 			tasks: [{
-				id: "0B496E79397F8B66"
+				id: "68CEC3EC47B40F82"
 				type: "item"
-				item: "resourcefulbees:blizz_honeycomb_block"
+				item: "resourcefulbees:blutonium_honey_bottle"
 			}]
 		}
 		{
-			x: 12.0d
+			x: 10.25d
 			y: 0.0d
-			id: "5B06EE5EA06E85F7"
+			id: "10CF0618B432A5B3"
 			tasks: [{
-				id: "3EBE6DAB1FA38D1C"
+				id: "09F2ED77A69314C5"
 				type: "item"
-				item: "resourcefulbees:blutonium_honeycomb_block"
+				item: "resourcefulbees:brass_honey_bottle"
 			}]
 		}
 		{
-			x: 13.0d
+			x: 11.25d
 			y: 0.0d
-			id: "2625F4D5DB69014B"
+			id: "5C457EA8D09B5559"
 			tasks: [{
-				id: "3C1DC47964A5E1D2"
+				id: "3E9B5545860C1C47"
 				type: "item"
-				item: "resourcefulbees:brass_honeycomb_block"
+				item: "resourcefulbees:bronze_honey_bottle"
 			}]
 		}
 		{
-			x: 14.0d
+			x: 12.25d
 			y: 0.0d
-			id: "5981160D0FD8BAEC"
+			id: "4BBEB5AED00B9BAD"
 			tasks: [{
-				id: "14C8A292C6C90A42"
+				id: "723C62D061DA97B3"
 				type: "item"
-				item: "resourcefulbees:catnip_honeycomb_block"
+				item: "resourcefulbees:catnip_honey_bottle"
 			}]
 		}
 		{
-			x: 15.0d
+			x: 13.25d
 			y: 0.0d
-			id: "451E45DD3474137E"
+			id: "03861CE6F1FFD5A5"
 			tasks: [{
-				id: "777DB967ACF70C4B"
+				id: "483FEB73ADA26B3A"
 				type: "item"
-				item: "resourcefulbees:chaotic_honeycomb_block"
+				item: "resourcefulbees:chaotic_honey_bottle"
 			}]
 		}
 		{
-			x: 16.0d
+			x: 14.25d
 			y: 0.0d
-			id: "108DF90A28D561A8"
+			id: "645D4E5BC31BA591"
 			tasks: [{
-				id: "17737F9CECCC9781"
+				id: "0F8D88F114C4CD44"
 				type: "item"
-				item: "resourcefulbees:clay_honeycomb_block"
+				item: "resourcefulbees:clay_honey_bottle"
 			}]
 		}
 		{
-			x: 17.0d
+			x: 15.25d
 			y: 0.0d
-			id: "51D87BC0EC1D3B57"
+			id: "665AD741025A0A69"
 			tasks: [{
-				id: "21DF00E7D05B5C6B"
+				id: "603FFDD3FA9FD9BA"
 				type: "item"
-				item: "resourcefulbees:cloggrum_honeycomb_block"
+				item: "resourcefulbees:cloggrum_honey_bottle"
 			}]
 		}
 		{
-			x: 18.0d
+			x: 16.25d
 			y: 0.0d
-			id: "3EB8ECC1A6544668"
+			id: "79345B9031AF3ED5"
 			tasks: [{
-				id: "68AA4C18A23E7996"
+				id: "56F0004DC189ACF9"
 				type: "item"
-				item: "resourcefulbees:coal_honeycomb_block"
+				item: "resourcefulbees:coal_honey_bottle"
 			}]
 		}
 		{
-			x: 19.0d
+			x: 17.25d
 			y: 0.0d
-			id: "7BC7C112D2686B81"
+			id: "66D973A47AF7B417"
 			tasks: [{
-				id: "4FD16E5BB5F8EA1E"
+				id: "56E8A0A4D3F59170"
 				type: "item"
-				item: "resourcefulbees:cobalt_honeycomb_block"
+				item: "resourcefulbees:cobalt_honey_bottle"
 			}]
 		}
 		{
-			x: 11.0d
+			x: 9.25d
 			y: 1.0d
-			id: "68427FF89DB43863"
+			id: "1440EC4A7718E7C5"
 			tasks: [{
-				id: "371239EB9979CF3D"
+				id: "1A79B7856A64E412"
 				type: "item"
-				item: "resourcefulbees:compressed_iron_honeycomb_block"
+				item: "resourcefulbees:compressed_iron_honey_bottle"
 			}]
 		}
 		{
-			x: 12.0d
+			x: 10.25d
 			y: 1.0d
-			id: "54B50241DE24B3B4"
+			id: "2316F209B23927EF"
 			tasks: [{
-				id: "2DFD7079A22BFD22"
+				id: "114869E0B33F648B"
 				type: "item"
-				item: "resourcefulbees:constantan_honeycomb_block"
+				item: "resourcefulbees:constantan_honey_bottle"
 			}]
 		}
 		{
-			x: 13.0d
+			x: 11.25d
 			y: 1.0d
-			id: "11C7F9938693D3FD"
+			id: "123E3BB3CE54F550"
 			tasks: [{
-				id: "0AFC95B7A72023DA"
+				id: "4F6564239CBD92C4"
 				type: "item"
-				item: "resourcefulbees:copper_honeycomb_block"
+				item: "resourcefulbees:copper_honey_bottle"
 			}]
 		}
 		{
-			x: 14.0d
+			x: 12.25d
 			y: 1.0d
-			id: "33E1CE368F95D27B"
+			id: "0DE611FCBDF272ED"
 			tasks: [{
-				id: "0036E08CA39A3EA5"
+				id: "3688A2CDA10B2E89"
 				type: "item"
-				item: "resourcefulbees:creeper_honeycomb_block"
+				item: "resourcefulbees:crystal_spirited_honey_bottle"
 			}]
 		}
 		{
-			x: 15.0d
+			x: 13.25d
 			y: 1.0d
-			id: "5ED0A48B6F1A22DA"
+			id: "1FD4FA6E5446B9ED"
 			tasks: [{
-				id: "3B06D72B9D845604"
+				id: "6936D5F96E70AAF7"
 				type: "item"
-				item: "resourcefulbees:cyanite_honeycomb_block"
+				item: "resourcefulbees:cyanite_honey_bottle"
 			}]
 		}
 		{
-			x: 16.0d
+			x: 14.25d
 			y: 1.0d
-			id: "6C74D801352AC5CD"
+			id: "0E9B72B41592B6FE"
 			tasks: [{
-				id: "6FA779493F80B2F1"
+				id: "20EB383652EBF3DB"
 				type: "item"
-				item: "resourcefulbees:diamond_honeycomb_block"
+				item: "resourcefulbees:diamond_honey_bottle"
 			}]
 		}
 		{
-			x: 17.0d
+			x: 15.25d
 			y: 1.0d
-			id: "2E7E0826A0749EAE"
+			id: "091C9C430855A7B8"
 			tasks: [{
-				id: "25B6158374C14204"
+				id: "10DE14AF356E8F41"
 				type: "item"
-				item: "resourcefulbees:draconium_honeycomb_block"
+				item: "resourcefulbees:draconium_honey_bottle"
 			}]
 		}
 		{
-			x: 18.0d
+			x: 17.25d
 			y: 1.0d
-			id: "790928F0993720A7"
+			id: "2E616374B6EC906E"
 			tasks: [{
-				id: "6EAC6F8B24B29577"
+				id: "1F059D41A9F0F91A"
 				type: "item"
-				item: "resourcefulbees:dragon_honeycomb_block"
+				item: "resourcefulbees:drenched_iron_honey_bottle"
 			}]
 		}
 		{
-			x: 19.0d
+			x: 16.25d
 			y: 1.0d
-			id: "3110E7CE76447D20"
+			id: "7CE2B9741170345E"
 			tasks: [{
-				id: "471B45B9CCFB89A8"
+				id: "404400B5460003A0"
 				type: "item"
-				item: "resourcefulbees:electrum_honeycomb_block"
+				item: "resourcefulbees:dragon_honey_bottle"
 			}]
 		}
 		{
-			x: 11.0d
+			x: 9.25d
 			y: 2.0d
-			id: "416A950F8F44E123"
+			id: "596E8B91D10BF7F5"
 			tasks: [{
-				id: "690D537AB61201DE"
+				id: "290A9FE8F304D40F"
 				type: "item"
-				item: "resourcefulbees:elementium_honeycomb_block"
+				item: "resourcefulbees:electrum_honey_bottle"
 			}]
 		}
 		{
-			x: 12.0d
+			x: 10.25d
 			y: 2.0d
-			id: "7294C8E1B9217C68"
+			id: "35A664DEEFAE6498"
 			tasks: [{
-				id: "0CD967D881D559F8"
+				id: "27CB5BAEBE2EA2C3"
 				type: "item"
-				item: "resourcefulbees:emerald_honeycomb_block"
+				item: "resourcefulbees:elementium_honey_bottle"
 			}]
 		}
 		{
-			x: 13.0d
+			x: 11.25d
 			y: 2.0d
-			id: "61E47B7AEC1D99B9"
+			id: "48F5A205D0AAB607"
 			tasks: [{
-				id: "444501864D28E2FA"
+				id: "7C2465D8782ACA2A"
 				type: "item"
-				item: "resourcefulbees:end_honeycomb_block"
+				item: "resourcefulbees:emerald_honey_bottle"
 			}]
 		}
 		{
-			x: 14.0d
+			x: 12.25d
 			y: 2.0d
-			id: "420C4407D0C432B7"
+			id: "58A4B42A4D5A3CEC"
 			tasks: [{
-				id: "11A80A2870CA2E84"
+				id: "20F3A9E5E6E89000"
 				type: "item"
-				item: "resourcefulbees:ender_honeycomb_block"
+				item: "resourcefulbees:end_honey_bottle"
 			}]
 		}
 		{
-			x: 15.0d
+			x: 13.25d
 			y: 2.0d
-			id: "2B663B3A9D0ECCDA"
+			id: "49F183A2CB25FE5E"
 			tasks: [{
-				id: "6AF9C40DD9FB24DA"
+				id: "2187E53A4A97440B"
 				type: "item"
-				item: "resourcefulbees:enderium_honeycomb_block"
+				item: "resourcefulbees:ender_slime_honey_bottle"
 			}]
 		}
 		{
-			x: 16.0d
+			x: 14.25d
 			y: 2.0d
-			id: "3E7ADD8343C68F17"
+			id: "25EE9DF80CC1227B"
 			tasks: [{
-				id: "7DA88659AE3B8743"
+				id: "2A1070A477AC885D"
 				type: "item"
-				item: "resourcefulbees:energized_honeycomb_block"
+				item: "resourcefulbees:enderium_honey_bottle"
 			}]
 		}
 		{
-			x: 17.0d
+			x: 15.25d
 			y: 2.0d
-			id: "1E9CA0C7B93C74FA"
+			id: "482C9D30929E8959"
 			tasks: [{
-				id: "5341B97C227E4C0C"
+				id: "1F768373D9570E66"
 				type: "item"
-				item: "resourcefulbees:experience_honeycomb_block"
+				item: "resourcefulbees:energized_steel_honey_bottle"
 			}]
 		}
 		{
-			x: 18.0d
+			x: 16.25d
 			y: 2.0d
-			id: "4F1B0F0250060AE8"
+			id: "5405222D0C0F0542"
 			tasks: [{
-				id: "5D8D08604761D1AA"
+				id: "1F44E2C43F2CF049"
 				type: "item"
-				item: "resourcefulbees:fairy_honeycomb_block"
+				item: "resourcefulbees:experience_honey_bottle"
 			}]
 		}
 		{
-			x: 19.0d
+			x: 17.25d
 			y: 2.0d
-			id: "6E1586F77A7C1D66"
+			id: "72EEAF7624EA4AEE"
 			tasks: [{
-				id: "7534D90F7A652EC7"
+				id: "7A90781D07B0EA2F"
 				type: "item"
-				item: "resourcefulbees:fireite_honeycomb_block"
+				item: "resourcefulbees:fairy_honey_bottle"
 			}]
 		}
 		{
-			x: 11.0d
+			x: 9.25d
 			y: 3.0d
-			id: "0D99D0A98DF0BD9D"
+			id: "735A3DD2F8EEB434"
 			tasks: [{
-				id: "57654A4C28DF9DA7"
+				id: "4DA69733EFA81A1F"
 				type: "item"
-				item: "resourcefulbees:fluorite_honeycomb_block"
+				item: "resourcefulbees:fireite_honey_bottle"
 			}]
 		}
 		{
-			x: 12.0d
+			x: 10.25d
 			y: 3.0d
-			id: "5BDC31D6A948E30B"
+			id: "17FC2D58FF89EC26"
 			tasks: [{
-				id: "168A5E37A3F75625"
+				id: "1F4D7108FAC0CD36"
 				type: "item"
-				item: "resourcefulbees:forest_honeycomb_block"
+				item: "resourcefulbees:fluorite_honey_bottle"
 			}]
 		}
 		{
-			x: 13.0d
+			x: 11.25d
 			y: 3.0d
-			id: "2649823BA7C214E7"
+			id: "23D040362F9E9E24"
 			tasks: [{
-				id: "02BA2D2CBB3F0FB3"
+				id: "7B1E7C96FADE1592"
 				type: "item"
-				item: "resourcefulbees:forgotten_honeycomb_block"
+				item: "resourcefulbees:forgotten_honey_bottle"
 			}]
 		}
 		{
-			x: 14.0d
+			x: 12.25d
 			y: 3.0d
-			id: "3161F60D4456AF37"
+			id: "5DB2A18F6F015425"
 			tasks: [{
-				id: "29F2F21A1FC8EB12"
+				id: "28B107038DE073E0"
 				type: "item"
-				item: "resourcefulbees:froststeel_honeycomb_block"
+				item: "resourcefulbees:froststeel_honey_bottle"
 			}]
 		}
 		{
-			x: 15.0d
+			x: 13.25d
 			y: 3.0d
-			id: "4ECAD5E7D2333D62"
+			id: "28B74CE8194C92F6"
 			tasks: [{
-				id: "2A89A10BB5A3EE3A"
+				id: "60F1D8DA0A8E841C"
 				type: "item"
-				item: "resourcefulbees:gaia_honeycomb_block"
+				item: "resourcefulbees:gaia_honey_bottle"
 			}]
 		}
 		{
-			x: 16.0d
+			x: 14.25d
 			y: 3.0d
-			id: "65ABD6A5680A8301"
+			id: "735EFDDB8BE2B815"
 			tasks: [{
-				id: "1F4C6908F0EE40D9"
+				id: "1766F73DAB79B3C4"
 				type: "item"
-				item: "resourcefulbees:ghast_honeycomb_block"
+				item: "resourcefulbees:ghast_honey_bottle"
 			}]
 		}
 		{
-			x: 17.0d
+			x: 15.25d
 			y: 3.0d
-			id: "6E9C3091D52C60E6"
+			id: "2C2EEB3DB782D397"
 			tasks: [{
-				id: "4AA517073F35B4D9"
+				id: "711DDBE7DA297E63"
 				type: "item"
-				item: "resourcefulbees:glowstone_honeycomb_block"
+				item: "resourcefulbees:glowstone_honey_bottle"
 			}]
 		}
 		{
-			x: 18.0d
+			x: 16.25d
 			y: 3.0d
-			id: "7F17B6566B86EC23"
+			id: "46588A3A149142ED"
 			tasks: [{
-				id: "602F26AED44EE2CF"
+				id: "5ECD4031C2B8EDEB"
 				type: "item"
-				item: "resourcefulbees:gold_honeycomb_block"
+				item: "resourcefulbees:gold_honey_bottle"
 			}]
 		}
 		{
-			x: 19.0d
+			x: 17.25d
 			y: 3.0d
-			id: "3D5A494221D7ADD7"
+			id: "18A31B10174F9054"
 			tasks: [{
-				id: "3AB45B787BE6AA2F"
+				id: "4C1EB38F3778AA48"
 				type: "item"
-				item: "resourcefulbees:graphite_honeycomb_block"
+				item: "resourcefulbees:graphite_honey_bottle"
+			}]
+		}
+		{
+			x: 9.25d
+			y: 4.0d
+			id: "77D6559D332AF5E5"
+			tasks: [{
+				id: "7B2D9CD930BA32C5"
+				type: "item"
+				item: "resourcefulbees:gravel_honey_bottle"
+			}]
+		}
+		{
+			x: 10.25d
+			y: 4.0d
+			id: "51F0CF83387B831F"
+			tasks: [{
+				id: "138DBA2105655126"
+				type: "item"
+				item: "resourcefulbees:guardian_honey_bottle"
+			}]
+		}
+		{
+			x: 11.25d
+			y: 4.0d
+			id: "4D79EDAA39259801"
+			tasks: [{
+				id: "6560BDB10EF7558D"
+				type: "item"
+				item: "resourcefulbees:hepatizon_honey_bottle"
+			}]
+		}
+		{
+			x: 12.25d
+			y: 4.0d
+			id: "2CB9EEB5517656FF"
+			tasks: [{
+				id: "7CFB272BEC5CF96F"
+				type: "item"
+				item: "resourcefulbees:ichor_slime_honey_bottle"
+			}]
+		}
+		{
+			x: 13.25d
+			y: 4.0d
+			id: "74DCF52A062DD993"
+			tasks: [{
+				id: "1543B94A88833E7D"
+				type: "item"
+				item: "resourcefulbees:illuminating_honey_bottle"
+			}]
+		}
+		{
+			x: 14.25d
+			y: 4.0d
+			id: "5FD0DD6D7294CC86"
+			tasks: [{
+				id: "4A2CC0ADBFAE9147"
+				type: "item"
+				item: "resourcefulbees:inanite_honey_bottle"
+			}]
+		}
+		{
+			x: 15.25d
+			y: 4.0d
+			id: "245C3A16348386D1"
+			tasks: [{
+				id: "120B35A13D92DB5B"
+				type: "item"
+				item: "resourcefulbees:invar_honey_bottle"
+			}]
+		}
+		{
+			x: 16.25d
+			y: 4.0d
+			id: "7C2B8C00B749BED8"
+			tasks: [{
+				id: "12C0A395DC3F97DE"
+				type: "item"
+				item: "resourcefulbees:iron_honey_bottle"
+			}]
+		}
+		{
+			x: 17.25d
+			y: 4.0d
+			id: "59F43CA12ED7377F"
+			tasks: [{
+				id: "2423A23EFEA89E11"
+				type: "item"
+				item: "resourcefulbees:lapis_honey_bottle"
+			}]
+		}
+		{
+			x: 9.25d
+			y: 5.0d
+			id: "35C9F038D1655FB4"
+			tasks: [{
+				id: "5BDA1E8CE4D58224"
+				type: "item"
+				item: "resourcefulbees:lava_honey_bottle"
+			}]
+		}
+		{
+			x: 10.25d
+			y: 5.0d
+			id: "0596BABEAC0BB46D"
+			tasks: [{
+				id: "19E27DC9300EB6F9"
+				type: "item"
+				item: "resourcefulbees:lead_honey_bottle"
+			}]
+		}
+		{
+			x: 11.25d
+			y: 5.0d
+			id: "50E530A6CD691F8C"
+			tasks: [{
+				id: "1D363BADC0C63C96"
+				type: "item"
+				item: "resourcefulbees:ludicrite_honey_bottle"
+			}]
+		}
+		{
+			x: 12.25d
+			y: 5.0d
+			id: "49562B99ECAE8CF5"
+			tasks: [{
+				id: "215D452AACCDEEDD"
+				type: "item"
+				item: "resourcefulbees:lumium_honey_bottle"
+			}]
+		}
+		{
+			x: 13.25d
+			y: 5.0d
+			id: "0297C5841633D137"
+			tasks: [{
+				id: "6D91C30E11F63F8C"
+				type: "item"
+				item: "resourcefulbees:magentite_honey_bottle"
+			}]
+		}
+		{
+			x: 14.25d
+			y: 5.0d
+			id: "1A352B1CA7DDDC80"
+			tasks: [{
+				id: "5A98B1E0D69C9A99"
+				type: "item"
+				item: "resourcefulbees:magma_honey_bottle"
+			}]
+		}
+		{
+			x: 15.25d
+			y: 5.0d
+			id: "09E0773A2F94F930"
+			tasks: [{
+				id: "35FEE73474FDFDEB"
+				type: "item"
+				item: "resourcefulbees:manasteel_honey_bottle"
+			}]
+		}
+		{
+			x: 16.25d
+			y: 5.0d
+			id: "27D82A93A9EEC000"
+			tasks: [{
+				id: "0EA33BC7A2ADD235"
+				type: "item"
+				item: "resourcefulbees:manyullyn_honey_bottle"
+			}]
+		}
+		{
+			x: 17.25d
+			y: 5.0d
+			id: "64A19323A2957C73"
+			tasks: [{
+				id: "1BECF61CC89E440B"
+				type: "item"
+				item: "resourcefulbees:nether_honey_bottle"
+			}]
+		}
+		{
+			x: 9.25d
+			y: 6.0d
+			id: "77951266A0FBFB75"
+			tasks: [{
+				id: "3AC1602CEB6185F4"
+				type: "item"
+				item: "resourcefulbees:nether_quartz_honey_bottle"
+			}]
+		}
+		{
+			x: 10.25d
+			y: 6.0d
+			id: "7B53E74993758127"
+			tasks: [{
+				id: "7808F45B10FDD30F"
+				type: "item"
+				item: "resourcefulbees:netherite_honey_bottle"
+			}]
+		}
+		{
+			x: 11.25d
+			y: 6.0d
+			id: "6D9A2ED2CF81B095"
+			tasks: [{
+				id: "68FBB957520E8DFC"
+				type: "item"
+				item: "resourcefulbees:nickel_honey_bottle"
+			}]
+		}
+		{
+			x: 12.25d
+			y: 6.0d
+			id: "1C418BB761A1892E"
+			tasks: [{
+				id: "5AFA8EFE8B3E3434"
+				type: "item"
+				item: "resourcefulbees:niotic_crystal_honey_bottle"
+			}]
+		}
+		{
+			x: 13.25d
+			y: 6.0d
+			id: "2A703394D55BFE78"
+			tasks: [{
+				id: "36F9D595C07E0045"
+				type: "item"
+				item: "resourcefulbees:nitro_crystal_honey_bottle"
+			}]
+		}
+		{
+			x: 14.25d
+			y: 6.0d
+			id: "1E98BAF17EF42D35"
+			tasks: [{
+				id: "4B6B6C41BF008579"
+				type: "item"
+				item: "resourcefulbees:obsidian_honey_bottle"
+			}]
+		}
+		{
+			x: 15.25d
+			y: 6.0d
+			id: "12CCA9B4332E02C0"
+			tasks: [{
+				id: "666483488BFC2A8E"
+				type: "item"
+				item: "resourcefulbees:occultist_honey_bottle"
+			}]
+		}
+		{
+			x: 16.25d
+			y: 6.0d
+			id: "3047257C1D1DAA35"
+			tasks: [{
+				id: "511F7FD7466D1A00"
+				type: "item"
+				item: "resourcefulbees:osmium_honey_bottle"
+			}]
+		}
+		{
+			x: 17.25d
+			y: 6.0d
+			id: "269D02A47C3A8C8D"
+			tasks: [{
+				id: "577C60582D7D94AF"
+				type: "item"
+				item: "resourcefulbees:potassium_honey_bottle"
+			}]
+		}
+		{
+			x: 9.25d
+			y: 7.0d
+			id: "299C3555CC5F9EF3"
+			tasks: [{
+				id: "7DEC1A0917A95E17"
+				type: "item"
+				item: "resourcefulbees:rainbow_honey_bottle"
+			}]
+		}
+		{
+			x: 10.25d
+			y: 7.0d
+			id: "5A42B267210A65B4"
+			tasks: [{
+				id: "44EFD045C74C50F1"
+				type: "item"
+				item: "resourcefulbees:redstone_honey_bottle"
+			}]
+		}
+		{
+			x: 11.25d
+			y: 7.0d
+			id: "215FBE85900D067E"
+			tasks: [{
+				id: "2036B47E1C5FA49C"
+				type: "item"
+				item: "resourcefulbees:refined_glowstone_honey_bottle"
+			}]
+		}
+		{
+			x: 12.25d
+			y: 7.0d
+			id: "2A1105CC6584C6EE"
+			tasks: [{
+				id: "109BCF4B495D3526"
+				type: "item"
+				item: "resourcefulbees:refined_obsidian_honey_bottle"
+			}]
+		}
+		{
+			x: 13.25d
+			y: 7.0d
+			id: "35CEB15FE12E14BD"
+			tasks: [{
+				id: "0B449C486CF427E2"
+				type: "item"
+				item: "resourcefulbees:regalium_honey_bottle"
+			}]
+		}
+		{
+			x: 14.25d
+			y: 7.0d
+			id: "2E1D7F31D676FF18"
+			tasks: [{
+				id: "7E93304A8C74FC04"
+				type: "item"
+				item: "resourcefulbees:ridiculite_honey_bottle"
+			}]
+		}
+		{
+			x: 15.25d
+			y: 7.0d
+			id: "53A11079674105D0"
+			tasks: [{
+				id: "3EA5296A69C1BBAD"
+				type: "item"
+				item: "resourcefulbees:rose_gold_honey_bottle"
+			}]
+		}
+		{
+			x: 16.25d
+			y: 7.0d
+			id: "32F9405423B12EBE"
+			tasks: [{
+				id: "511C20212603EF37"
+				type: "item"
+				item: "resourcefulbees:sand_honey_bottle"
+			}]
+		}
+		{
+			x: 17.25d
+			y: 7.0d
+			id: "15E6EE4B31E1E651"
+			tasks: [{
+				id: "57273A305921F05F"
+				type: "item"
+				item: "resourcefulbees:seared_honey_bottle"
+			}]
+		}
+		{
+			x: 9.25d
+			y: 8.0d
+			id: "3CCBBB689E638D10"
+			tasks: [{
+				id: "1610E0708686D8D6"
+				type: "item"
+				item: "resourcefulbees:signalum_honey_bottle"
+			}]
+		}
+		{
+			x: 10.25d
+			y: 8.0d
+			id: "333782FF63E4829B"
+			tasks: [{
+				id: "24D72C82284E9B69"
+				type: "item"
+				item: "resourcefulbees:silver_honey_bottle"
+			}]
+		}
+		{
+			x: 11.25d
+			y: 8.0d
+			id: "37C4E1B47ACDE4A4"
+			tasks: [{
+				id: "0F817239EB78A80D"
+				type: "item"
+				item: "resourcefulbees:sky_slime_honey_bottle"
+			}]
+		}
+		{
+			x: 12.25d
+			y: 8.0d
+			id: "32F1CF42871CCA5E"
+			tasks: [{
+				id: "2458257084CEB48D"
+				type: "item"
+				item: "resourcefulbees:slime_honey_bottle"
+			}]
+		}
+		{
+			x: 13.25d
+			y: 8.0d
+			id: "3E82579E8760405F"
+			tasks: [{
+				id: "1C8AA1AA53F1D081"
+				type: "item"
+				item: "resourcefulbees:source_steel_honey_bottle"
+			}]
+		}
+		{
+			x: 14.25d
+			y: 8.0d
+			id: "6A2546ACD4F607E2"
+			tasks: [{
+				id: "245FAE540F6F339B"
+				type: "item"
+				item: "resourcefulbees:starry_honey_bottle"
+			}]
+		}
+		{
+			x: 15.25d
+			y: 8.0d
+			id: "46695C0915784BAE"
+			tasks: [{
+				id: "21BFDD0F6202F3BE"
+				type: "item"
+				item: "resourcefulbees:steel_honey_bottle"
+			}]
+		}
+		{
+			x: 16.25d
+			y: 8.0d
+			id: "39A7AF60B5A162CD"
+			tasks: [{
+				id: "733349F496922D26"
+				type: "item"
+				item: "resourcefulbees:stone_honey_bottle"
+			}]
+		}
+		{
+			x: 17.25d
+			y: 8.0d
+			id: "4F696A21171F9551"
+			tasks: [{
+				id: "38BADC4F155C32C0"
+				type: "item"
+				item: "resourcefulbees:swift_alloy_honey_bottle"
+			}]
+		}
+		{
+			x: 9.25d
+			y: 9.0d
+			id: "1FC98C83FF338CAD"
+			tasks: [{
+				id: "746E90086ACE2DAD"
+				type: "item"
+				item: "resourcefulbees:terminite_honey_bottle"
+			}]
+		}
+		{
+			x: 10.25d
+			y: 9.0d
+			id: "0CC508CB6B716588"
+			tasks: [{
+				id: "3FD7478FF202D093"
+				type: "item"
+				item: "resourcefulbees:terrasteel_honey_bottle"
+			}]
+		}
+		{
+			x: 11.25d
+			y: 9.0d
+			id: "699D74BF639C1E44"
+			tasks: [{
+				id: "52F446416D6B1EF1"
+				type: "item"
+				item: "resourcefulbees:thallasium_honey_bottle"
+			}]
+		}
+		{
+			x: 12.25d
+			y: 9.0d
+			id: "73DE70B148BE5DEC"
+			tasks: [{
+				id: "7492730F2D53BE18"
+				type: "item"
+				item: "resourcefulbees:tin_honey_bottle"
+			}]
+		}
+		{
+			x: 13.25d
+			y: 9.0d
+			id: "636D7EBD981FCA0A"
+			tasks: [{
+				id: "6CF0170831998472"
+				type: "item"
+				item: "resourcefulbees:uraninite_honey_bottle"
+			}]
+		}
+		{
+			x: 14.25d
+			y: 9.0d
+			id: "691472CEB7C60B64"
+			tasks: [{
+				id: "43DEEDEA92EF46FE"
+				type: "item"
+				item: "resourcefulbees:uranium_honey_bottle"
+			}]
+		}
+		{
+			x: 15.25d
+			y: 9.0d
+			id: "4B3E424BE209A157"
+			tasks: [{
+				id: "06C2BD6CCBCD4E40"
+				type: "item"
+				item: "resourcefulbees:utherium_honey_bottle"
+			}]
+		}
+		{
+			x: 16.25d
+			y: 9.0d
+			id: "54725D2969CA9EE1"
+			tasks: [{
+				id: "70B3ADA6CF512836"
+				type: "item"
+				item: "resourcefulbees:water_honey_bottle"
+			}]
+		}
+		{
+			x: 17.25d
+			y: 9.0d
+			id: "3CF63229E1496681"
+			tasks: [{
+				id: "6AC9781C1D051F97"
+				type: "item"
+				item: "resourcefulbees:xion_honey_bottle"
 			}]
 		}
 	]

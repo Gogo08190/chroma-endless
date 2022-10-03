@@ -1,7 +1,7 @@
 {
 	id: "4DD0CAE9F61C3C09"
 	group: "34085A64296DE6C7"
-	order_index: 5
+	order_index: 6
 	filename: "new_mechanics"
 	title: "New mechanics"
 	icon: "miniutilities:the_final_opinium_core"
@@ -205,39 +205,6 @@
 			}]
 		}
 		{
-			x: 34.75d
-			y: 1.0d
-			dependencies: ["5A9C79DA84F6B481"]
-			id: "5297E4E4D46A8EA6"
-			tasks: [{
-				id: "27003A893FD8BCA8"
-				type: "item"
-				item: "miniutilities:cursed_earth"
-			}]
-		}
-		{
-			x: 34.75d
-			y: 2.0d
-			dependencies: ["319E6BC1D896F0C0"]
-			id: "04846422EE133675"
-			tasks: [{
-				id: "509C73E601701D04"
-				type: "item"
-				item: "miniutilities:blessed_earth"
-			}]
-		}
-		{
-			x: 31.75d
-			y: 1.5d
-			dependencies: ["627BF82564368D02"]
-			id: "262B1039DE900087"
-			tasks: [{
-				id: "4F7690A883537521"
-				type: "item"
-				item: "miniutilities:blursed_earth"
-			}]
-		}
-		{
 			x: 29.75d
 			y: 1.5d
 			shape: "gear"
@@ -308,60 +275,6 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 0.0d
-			id: "165C76440701F97D"
-			tasks: [{
-				id: "28F8E1DAFC64771D"
-				type: "item"
-				item: "miniutilities:wooden_spikes"
-			}]
-		}
-		{
-			x: 8.0d
-			y: 1.0d
-			dependencies: ["165C76440701F97D"]
-			id: "4F2D7287C80A2976"
-			tasks: [{
-				id: "4EAC21B890DCF1FE"
-				type: "item"
-				item: "miniutilities:iron_spikes"
-			}]
-		}
-		{
-			x: 8.0d
-			y: 2.0d
-			dependencies: ["4F2D7287C80A2976"]
-			id: "304205471B996324"
-			tasks: [{
-				id: "7A15907D2457C4B1"
-				type: "item"
-				item: "miniutilities:gold_spikes"
-			}]
-		}
-		{
-			x: 8.0d
-			y: 3.0d
-			dependencies: ["304205471B996324"]
-			id: "705C0B77E7D98D11"
-			tasks: [{
-				id: "7887E74C457A08C1"
-				type: "item"
-				item: "miniutilities:diamond_spikes"
-			}]
-		}
-		{
-			x: 8.0d
-			y: 4.0d
-			dependencies: ["705C0B77E7D98D11"]
-			id: "54049F9F45AAC9EB"
-			tasks: [{
-				id: "5078CA09C62CD42E"
-				type: "item"
-				item: "miniutilities:netherite_spikes"
-			}]
-		}
-		{
 			x: 12.0d
 			y: -1.0d
 			id: "43645BDBA669BB44"
@@ -374,7 +287,6 @@
 		{
 			x: 27.25d
 			y: 3.5d
-			dependencies: ["5C7768387428BD02"]
 			id: "585139F620B2DAF9"
 			tasks: [{
 				id: "133C7277A2234063"
@@ -479,30 +391,8 @@
 			}]
 		}
 		{
-			x: 16.0d
-			y: -3.0d
-			dependencies: ["5CF10CD523A35115"]
-			id: "6F55C0EB87CBFD46"
-			tasks: [{
-				id: "428674458F4F6919"
-				type: "item"
-				item: "miniutilities:ethereal_glass"
-			}]
-		}
-		{
-			x: 16.0d
-			y: -2.0d
-			dependencies: ["6F55C0EB87CBFD46"]
-			id: "5C2DCBB349B0DF25"
-			tasks: [{
-				id: "0F4EF2428137C0F8"
-				type: "item"
-				item: "miniutilities:reverse_ethereal_glass"
-			}]
-		}
-		{
 			x: 11.0d
-			y: 2.0d
+			y: 2.25d
 			id: "000CC03588A888C5"
 			tasks: [{
 				id: "623D5D6F335231AC"
@@ -512,7 +402,7 @@
 		}
 		{
 			x: 11.0d
-			y: 3.0d
+			y: 3.25d
 			id: "34CBB2C5434966C5"
 			tasks: [{
 				id: "0B1A2E8ABB658B45"
@@ -522,34 +412,12 @@
 		}
 		{
 			x: 11.0d
-			y: 4.0d
+			y: 4.25d
 			id: "29536AB8409A44CB"
 			tasks: [{
 				id: "75BA4981CDE19CF8"
 				type: "item"
 				item: "miniutilities:dark_glass"
-			}]
-		}
-		{
-			x: 17.0d
-			y: -3.0d
-			dependencies: ["6F55C0EB87CBFD46"]
-			id: "3B98BC43E3B044BB"
-			tasks: [{
-				id: "3CF98CB38670D69A"
-				type: "item"
-				item: "miniutilities:dark_ethereal_glass"
-			}]
-		}
-		{
-			x: 17.0d
-			y: -2.0d
-			dependencies: ["5C2DCBB349B0DF25"]
-			id: "7FF3C1F0E7444995"
-			tasks: [{
-				id: "0F94AA3D1E8D631B"
-				type: "item"
-				item: "miniutilities:dark_reverse_ethereal_glass"
 			}]
 		}
 		{
@@ -603,19 +471,6 @@
 				id: "1D8763064363E643"
 				type: "item"
 				item: "miniutilities:ender_lily_seeds"
-			}]
-		}
-		{
-			x: 24.0d
-			y: 7.25d
-			shape: "octagon"
-			dependencies: ["522508C95BF66664"]
-			size: 1.5d
-			id: "50C64872CE0193E9"
-			tasks: [{
-				id: "4A243E0BEA675BC9"
-				type: "item"
-				item: "miniutilities:angel_ring"
 			}]
 		}
 		{
@@ -781,61 +636,6 @@
 				id: "30E3719A208F2C39"
 				type: "item"
 				item: "miniutilities:experience_pearl_4x"
-			}]
-		}
-		{
-			x: 21.25d
-			y: -3.25d
-			shape: "gear"
-			dependencies: [
-				"5CF10CD523A35115"
-				"549773FFAA0D69FA"
-			]
-			size: 2.0d
-			id: "055C33DF21E33F50"
-			tasks: [{
-				id: "076F05DFDC1BBF65"
-				type: "item"
-				item: "miniutilities:magical_egg"
-			}]
-		}
-		{
-			x: 32.75d
-			y: 1.5d
-			dependencies: [
-				"319E6BC1D896F0C0"
-				"5A9C79DA84F6B481"
-			]
-			id: "627BF82564368D02"
-			tasks: [{
-				id: "16774B5CEF2A3AFA"
-				type: "item"
-				item: "kubejs:blursed_fluid_bucket"
-			}]
-		}
-		{
-			x: 33.75d
-			y: 2.0d
-			dependencies: ["055C33DF21E33F50"]
-			id: "319E6BC1D896F0C0"
-			tasks: [{
-				id: "091E2EFD598DF072"
-				type: "item"
-				item: "kubejs:blessed_fluid_bucket"
-			}]
-		}
-		{
-			x: 33.75d
-			y: 1.0d
-			dependencies: [
-				"2D2AD10E28D5C2C8"
-				"055C33DF21E33F50"
-			]
-			id: "5A9C79DA84F6B481"
-			tasks: [{
-				id: "6C7249D008376E64"
-				type: "item"
-				item: "kubejs:cursed_fluid_bucket"
 			}]
 		}
 		{

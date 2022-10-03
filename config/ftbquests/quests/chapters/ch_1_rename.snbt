@@ -5,7 +5,7 @@
 	filename: "ch_1_rename"
 	title: "&l&6Middle Ages&r"
 	icon: "minecraft:crafting_table"
-	subtitle: ["Minecraft + Tetra + Tinkers + Create"]
+	subtitle: ["Minecraft + Tetra + Tinkers + Create + BetterEnd"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [
@@ -2024,7 +2024,6 @@
 			x: 36.0d
 			y: 36.0d
 			description: [
-				"The Portable Fluid Interface is the fluid version of the Portable Storage Interface. It is used to insert or extract from the fluid inventory of a moving structure made by a Cart Assembler, Mechanical Piston, Gantry Carriage, or Bearing."
 				""
 				"The Interfaces must be placed facing each other at 1-2 blocks apart, one on a moving structure with a Fluid Tank and one stationary. A Fluid Pump is required to insert or extract liquid from the moving structure. Moving structures will automatically stall for an Interface. A Redstone signal can be applied to break off the connection early."
 				""
@@ -2035,18 +2034,11 @@
 			hide_dependency_lines: true
 			dependencies: ["5FAB66FE3921DAF1"]
 			id: "38CF0F5AACC73C4D"
-			tasks: [
-				{
-					id: "17ACEF5DC40EAF36"
-					type: "item"
-					item: "create:portable_storage_interface"
-				}
-				{
-					id: "5DD27D9A8764DC0D"
-					type: "item"
-					item: "create:portable_fluid_interface"
-				}
-			]
+			tasks: [{
+				id: "17ACEF5DC40EAF36"
+				type: "item"
+				item: "create:portable_storage_interface"
+			}]
 		}
 		{
 			x: 27.0d
