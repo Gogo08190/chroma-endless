@@ -122,6 +122,12 @@ onEvent('recipes', (event) => {
             output: 'ironjetpacks:mechanical_thruster',
             type: 'unheated',
             id: `${id_prefix}mechanical_thruster`
+        },
+        {
+            inputs: [Item.of('ironjetpacks:mechanical_cell',2), 'create:gearbox'],
+            output: 'ironjetpacks:mechanical_capacitor',
+            type: 'unheated',
+            id: `${id_prefix}mechanical_thruster`
         }
     ];
 
