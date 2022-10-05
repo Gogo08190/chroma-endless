@@ -15,8 +15,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -2.0d
-			y: -0.25d
+			x: -4.75d
+			y: 0.0d
 			id: "79A75390155A639A"
 			tasks: [{
 				id: "57FFDD2EACE40630"
@@ -25,16 +25,36 @@
 			}]
 		}
 		{
-			x: -5.25d
-			y: -3.0d
-			id: "7D5F8664B6285406"
+			x: -4.75d
+			y: -1.75d
+			id: "2B1C8C81DB441CD7"
 			tasks: [{
-				id: "6FAD15FA6D74A095"
-				type: "questsadditions:interaction"
-				entity: "alexsmobs:alligator_snapping_turtle"
-				nbt: { }
-				value: 1L
-				checkItem: false
+				id: "7ED87842865458E4"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/tame_bald_eagle"
+				criterion: ""
+			}]
+		}
+		{
+			x: -3.75d
+			y: -1.75d
+			id: "0B5844BD3DBA3CE9"
+			tasks: [{
+				id: "16E2A72253658842"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/sunbird_blessing"
+				criterion: ""
+			}]
+		}
+		{
+			x: -2.75d
+			y: -1.75d
+			id: "5EBA810A0BC1C7CA"
+			tasks: [{
+				id: "39EBA7F30F6A2F83"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/tame_mantis_shrimp"
+				criterion: ""
 			}]
 		}
 	]
