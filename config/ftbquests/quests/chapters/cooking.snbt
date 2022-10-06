@@ -5,7 +5,7 @@
 	filename: "cooking"
 	title: "Kitchen"
 	icon: "cookingforblockheads:cooking_table"
-	default_quest_shape: "square"
+	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [{
 		x: 23.0d

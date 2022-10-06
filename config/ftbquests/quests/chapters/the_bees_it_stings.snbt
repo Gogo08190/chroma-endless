@@ -73,7 +73,9 @@
 			title: "Overworld Bee Nest"
 			icon: "resourcefulbees:bee_nest"
 			x: -5.0d
-			y: -2.0d
+			y: -0.75d
+			dependencies: ["7C54F45255FD8996"]
+			optional: true
 			id: "785F2CDE1802DE93"
 			tasks: [
 				{
@@ -132,7 +134,9 @@
 			title: "End Bee Nest"
 			icon: "resourcefulbees:purpur_bee_nest"
 			x: -4.0d
-			y: -2.0d
+			y: -0.75d
+			dependencies: ["7C54F45255FD8996"]
+			optional: true
 			id: "060649A06C4ED8C4"
 			tasks: [{
 				id: "069823B4EA4C24C3"
@@ -144,7 +148,9 @@
 			title: "Nether Bee Nest"
 			icon: "resourcefulbees:nether_bee_nest"
 			x: -3.0d
-			y: -2.0d
+			y: -0.75d
+			dependencies: ["7C54F45255FD8996"]
+			optional: true
 			id: "48AC7DE7D7FA594A"
 			tasks: [
 				{
@@ -207,8 +213,9 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: -2.75d
+			x: -7.75d
+			y: -3.5d
+			dependencies: ["2A1D8B33F51B85A1"]
 			id: "59B083CFB85E29C4"
 			tasks: [{
 				id: "149E8629E8E7390F"
@@ -250,6 +257,7 @@
 		{
 			x: -8.5d
 			y: -1.75d
+			dependencies: ["7C54F45255FD8996"]
 			id: "6EFE7C9EF202CD9D"
 			tasks: [{
 				id: "507B868D9BD6A149"
@@ -260,6 +268,7 @@
 		{
 			x: -7.5d
 			y: -1.75d
+			dependencies: ["7C54F45255FD8996"]
 			id: "1DE078858BC0E120"
 			tasks: [{
 				id: "5E4C361AA317AF57"
@@ -270,6 +279,7 @@
 		{
 			x: -6.5d
 			y: -1.75d
+			dependencies: ["7C54F45255FD8996"]
 			id: "44FEC42A09F27601"
 			tasks: [{
 				id: "4E8157B829B78558"
@@ -280,6 +290,7 @@
 		{
 			x: -8.5d
 			y: -0.75d
+			dependencies: ["7C54F45255FD8996"]
 			id: "650D38C031213267"
 			tasks: [{
 				id: "1B78DDC4368235A1"
@@ -290,6 +301,7 @@
 		{
 			x: -7.5d
 			y: -0.75d
+			dependencies: ["7C54F45255FD8996"]
 			id: "11F856DB9FC55F37"
 			tasks: [{
 				id: "06E038B048A8A541"
@@ -333,6 +345,7 @@
 		{
 			x: -6.5d
 			y: 0.25d
+			dependencies: ["7C54F45255FD8996"]
 			id: "0D9A01E4A3636752"
 			tasks: [{
 				id: "5C2746CB3052DF10"
@@ -465,6 +478,7 @@
 		{
 			x: -2.75d
 			y: -6.0d
+			dependencies: ["2DC06E55D8E2A6D1"]
 			id: "78AFD1B23CB68E8C"
 			tasks: [{
 				id: "13E7146F26CD7278"
@@ -668,6 +682,13 @@
 		{
 			x: -3.75d
 			y: -4.5d
+			dependencies: [
+				"6F15AADF2331F545"
+				"3AC2609EA33632B8"
+				"7C54F45255FD8996"
+				"54DC8317D4B7A510"
+				"57CC5F007AA6A8DF"
+			]
 			id: "3976D489E9603FD4"
 			tasks: [{
 				id: "20AB11496A5DB3AC"
@@ -3419,8 +3440,10 @@
 			}]
 		}
 		{
-			x: -3.75d
-			y: -3.5d
+			x: -2.0d
+			y: -0.75d
+			dependencies: ["7C54F45255FD8996"]
+			optional: true
 			id: "3F699C17917FFE2D"
 			tasks: [{
 				id: "20E4BA133D32D102"
