@@ -57,5 +57,751 @@
 				criterion: ""
 			}]
 		}
+		{
+			x: -1.75d
+			y: -1.75d
+			id: "034EF6BD61EFF06D"
+			tasks: [{
+				id: "44D3EA6A5FFBD5F8"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/seagull_steal"
+				criterion: ""
+			}]
+		}
+		{
+			x: -0.25d
+			y: -1.75d
+			id: "15CE8BB7F8F15066"
+			tasks: [{
+				id: "50CB71689CB5D944"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/banana"
+				criterion: ""
+			}]
+		}
+		{
+			x: -4.75d
+			y: -2.75d
+			dependencies: ["2B1C8C81DB441CD7"]
+			id: "76E0C362F2441A1F"
+			tasks: [{
+				id: "68E6D43EB68B4C34"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/falconry_glove"
+				criterion: ""
+			}]
+		}
+		{
+			x: -4.75d
+			y: -3.75d
+			dependencies: ["76E0C362F2441A1F"]
+			id: "43161522033A5796"
+			tasks: [{
+				id: "077349EEEAE6B530"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/falconry_hood"
+				criterion: ""
+			}]
+		}
+		{
+			x: -4.75d
+			y: -4.75d
+			dependencies: ["43161522033A5796"]
+			id: "39D3210B449C654F"
+			tasks: [{
+				id: "2538FE17EAC443CD"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/bald_eagle_challenge"
+				criterion: ""
+			}]
+		}
+		{
+			x: -2.75d
+			y: -2.75d
+			dependencies: ["5EBA810A0BC1C7CA"]
+			id: "53284FDBB09185B3"
+			tasks: [{
+				id: "7BBCEFCA628FB216"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/mantis_shrimp_bucket"
+				criterion: ""
+			}]
+		}
+		{
+			x: -0.75d
+			y: -2.75d
+			dependencies: ["15CE8BB7F8F15066"]
+			id: "3F184FFDFD769A72"
+			tasks: [{
+				id: "4A02A9FED2DB0C07"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/tame_capuchin"
+				criterion: ""
+			}]
+		}
+		{
+			x: -0.75d
+			y: -3.75d
+			dependencies: ["3F184FFDFD769A72"]
+			id: "32514B62F026B648"
+			tasks: [{
+				id: "100DD1DDB0A7B803"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/sopa_de_macaco"
+				criterion: ""
+			}]
+		}
+		{
+			x: 0.25d
+			y: -2.75d
+			dependencies: ["15CE8BB7F8F15066"]
+			id: "17363AB625FAFA60"
+			tasks: [{
+				id: "0B343106AD5FED32"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/tame_gorilla"
+				criterion: ""
+			}]
+		}
+		{
+			x: 1.75d
+			y: -1.75d
+			id: "0D1F611A49AA590E"
+			tasks: [{
+				id: "1B228A8282C163FC"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/soul_vulture"
+				criterion: ""
+			}]
+		}
+		{
+			x: 1.75d
+			y: -2.75d
+			dependencies: ["0D1F611A49AA590E"]
+			id: "61CCF5417CEA930B"
+			tasks: [{
+				id: "0EC2526C8E411244"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/soul_heart"
+				criterion: ""
+			}]
+		}
+		{
+			x: 1.75d
+			y: -3.75d
+			dependencies: ["61CCF5417CEA930B"]
+			id: "2386DF2BDE4A1D1D"
+			tasks: [{
+				id: "7BCC4BA39C2B109C"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/spectre"
+				criterion: ""
+			}]
+		}
+		{
+			x: 3.75d
+			y: -1.75d
+			id: "538243F7BEE6CAC0"
+			tasks: [{
+				id: "20A5EB68BF9B8413"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/straddler"
+				criterion: ""
+			}]
+		}
+		{
+			x: 3.25d
+			y: -2.75d
+			dependencies: ["538243F7BEE6CAC0"]
+			id: "566857A493D2E77C"
+			tasks: [{
+				id: "74AFF7F81DF0891B"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/stradpole_feed"
+				criterion: ""
+			}]
+		}
+		{
+			x: 4.25d
+			y: -2.75d
+			dependencies: ["538243F7BEE6CAC0"]
+			id: "71CD26FF5D567057"
+			tasks: [{
+				id: "6B060164457183E6"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/straddleboard"
+				criterion: ""
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.75d
+			id: "384B2ACC511CD4D9"
+			tasks: [{
+				id: "3740A2B040A4F705"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/guster"
+				criterion: ""
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.75d
+			dependencies: ["384B2ACC511CD4D9"]
+			id: "08023E3360BC08B3"
+			tasks: [{
+				id: "7516FE454EB3DE8C"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/pocket_sand"
+				criterion: ""
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.75d
+			dependencies: ["384B2ACC511CD4D9"]
+			id: "79BD1F4B9DC6B3E6"
+			tasks: [{
+				id: "674F4D4A4309935B"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/gustmaker"
+				criterion: ""
+			}]
+		}
+		{
+			x: 7.75d
+			y: -1.75d
+			id: "1FBFFB67133EB1F3"
+			tasks: [{
+				id: "6F1112E0086F92E1"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/breed_hummingbird"
+				criterion: ""
+			}]
+		}
+		{
+			x: 7.75d
+			y: -2.75d
+			dependencies: ["1FBFFB67133EB1F3"]
+			id: "0D67C96E83CA65B5"
+			tasks: [{
+				id: "37F2BCC48629D372"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/hummingbird_feeder"
+				criterion: ""
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.75d
+			id: "4E566DEE9D4C96A7"
+			tasks: [{
+				id: "318374246A6C5B00"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/kangaroo"
+				criterion: ""
+			}]
+		}
+		{
+			x: 9.0d
+			y: -3.75d
+			dependencies: ["454471DBED49864B"]
+			id: "4CD67FA78CF4533D"
+			tasks: [{
+				id: "14762E5DD1A53C63"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/emu_dodge"
+				criterion: ""
+			}]
+		}
+		{
+			x: 9.0d
+			y: -2.75d
+			dependencies: ["4E566DEE9D4C96A7"]
+			id: "454471DBED49864B"
+			tasks: [{
+				id: "2DACAE4B87A1A3AF"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/emu"
+				criterion: ""
+			}]
+		}
+		{
+			x: 10.25d
+			y: -1.75d
+			id: "2A8F3F136EB8485A"
+			tasks: [{
+				id: "701F7CA03097FE5C"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/save_cachalot_whale"
+				criterion: ""
+			}]
+		}
+		{
+			x: 10.25d
+			y: -2.75d
+			dependencies: ["2A8F3F136EB8485A"]
+			id: "502819258E065AD3"
+			tasks: [{
+				id: "517E3A4873606187"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/echolocator"
+				criterion: ""
+			}]
+		}
+		{
+			x: 10.25d
+			y: -3.75d
+			dependencies: ["502819258E065AD3"]
+			id: "422A0957DC7FF997"
+			tasks: [{
+				id: "4926FDD580A9F599"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/endolocator"
+				criterion: ""
+			}]
+		}
+		{
+			x: 11.5d
+			y: -1.75d
+			id: "1B65B782F3E46420"
+			tasks: [{
+				id: "0993DAB3403B6F5C"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/rattlesnake"
+				criterion: ""
+			}]
+		}
+		{
+			x: 11.5d
+			y: -2.75d
+			dependencies: ["1B65B782F3E46420"]
+			id: "0405F092BE2F54E6"
+			tasks: [{
+				id: "78A5EE3D2EE8E07B"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/maraca"
+				criterion: ""
+			}]
+		}
+		{
+			x: 11.5d
+			y: -3.75d
+			dependencies: ["0405F092BE2F54E6"]
+			id: "4FAE5FC80187F4FD"
+			tasks: [{
+				id: "541AA55760EF99BF"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/la_cucaracha"
+				criterion: ""
+			}]
+		}
+		{
+			x: -8.0d
+			y: -1.75d
+			id: "5E2731D71084CA19"
+			tasks: [{
+				id: "1661F2EB6FD6A7DA"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/crimson_mosquito"
+				criterion: ""
+			}]
+		}
+		{
+			x: -8.0d
+			y: -2.75d
+			id: "76E7733EAAC40B8D"
+			tasks: [{
+				id: "71004357910E6582"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/blood_sprayer"
+				criterion: ""
+			}]
+		}
+		{
+			x: -7.0d
+			y: -2.75d
+			id: "3831E05A66F5DC96"
+			tasks: [{
+				id: "2EE416D8F51582C9"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/crimson_mosquito_larva"
+				criterion: ""
+			}]
+		}
+		{
+			x: -9.0d
+			y: -2.75d
+			id: "24CAAF4B70E6E209"
+			tasks: [{
+				id: "60ACB945CB700421"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/crimson_mosquito_sick"
+				criterion: ""
+			}]
+		}
+		{
+			x: -7.0d
+			y: -3.75d
+			id: "1FEF238486E8120C"
+			tasks: [{
+				id: "62AACC3F6D7994EF"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/tame_warped_toad"
+				criterion: ""
+			}]
+		}
+		{
+			x: -9.0d
+			y: -3.75d
+			dependencies: ["24CAAF4B70E6E209"]
+			id: "29C6953A186D2285"
+			tasks: [{
+				id: "7D57C37E1B571D6D"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/warped_mosco_kill"
+				criterion: ""
+			}]
+		}
+		{
+			x: -9.0d
+			y: -4.75d
+			dependencies: ["29C6953A186D2285"]
+			id: "30FE1AC026528DC9"
+			tasks: [{
+				id: "3C983B0EA7C0E180"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/hemolymph_blaster"
+				criterion: ""
+			}]
+		}
+		{
+			x: -11.75d
+			y: -2.75d
+			id: "74ADD9A5258F9247"
+			tasks: [{
+				id: "05AD5CC7E2A4ACE2"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/crocodile"
+				criterion: ""
+			}]
+		}
+		{
+			x: -11.25d
+			y: -3.75d
+			dependencies: ["74ADD9A5258F9247"]
+			id: "402D6BD7A01F3C98"
+			tasks: [{
+				id: "1C4B05CAAF751B65"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/alligator_snapping_turtle"
+				criterion: ""
+			}]
+		}
+		{
+			x: -12.25d
+			y: -3.75d
+			dependencies: ["74ADD9A5258F9247"]
+			id: "4D4DA7D53F1A2BD6"
+			tasks: [{
+				id: "31A626B780E64BC1"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/breed_crocodile"
+				criterion: ""
+			}]
+		}
+		{
+			x: -12.25d
+			y: -4.75d
+			dependencies: ["4D4DA7D53F1A2BD6"]
+			id: "1C77819659DE35DE"
+			tasks: [{
+				id: "16736043061BAD16"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/crocodile_chestplate"
+				criterion: ""
+			}]
+		}
+		{
+			x: -11.25d
+			y: -4.75d
+			dependencies: ["402D6BD7A01F3C98"]
+			id: "01DAF235E6CBD7A3"
+			tasks: [{
+				id: "0AB8894E76181BFB"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/spiked_scute"
+				criterion: ""
+			}]
+		}
+		{
+			x: -11.25d
+			y: -5.75d
+			dependencies: ["01DAF235E6CBD7A3"]
+			id: "20A511C453D94BB6"
+			tasks: [{
+				id: "1B922B646687086D"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/spiked_turtle_shell"
+				criterion: ""
+			}]
+		}
+		{
+			x: -13.75d
+			y: -2.75d
+			id: "36731EB5B663B029"
+			tasks: [{
+				id: "68516D278AC5B134"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/orcas_might"
+				criterion: ""
+			}]
+		}
+		{
+			x: -15.5d
+			y: -2.75d
+			id: "0D19AC1E203BA931"
+			tasks: [{
+				id: "7F56B9CAF0A67847"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/enderiophage"
+				criterion: ""
+			}]
+		}
+		{
+			x: -16.0d
+			y: -3.75d
+			dependencies: ["0D19AC1E203BA931"]
+			id: "0E091A80E9D8E4D4"
+			tasks: [{
+				id: "7E777B0D88F2C522"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/ender_flu"
+				criterion: ""
+			}]
+		}
+		{
+			x: -15.0d
+			y: -3.75d
+			dependencies: ["0D19AC1E203BA931"]
+			id: "72941F53A3897F41"
+			tasks: [{
+				id: "392D47D6755865FC"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/capsid"
+				criterion: ""
+			}]
+		}
+		{
+			x: -14.5d
+			y: -4.75d
+			dependencies: ["72941F53A3897F41"]
+			id: "1CCB2740B845C17D"
+			tasks: [{
+				id: "39E95FC2E84180AA"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/enderiophage_rocket"
+				criterion: ""
+			}]
+		}
+		{
+			x: -15.5d
+			y: -4.75d
+			dependencies: ["72941F53A3897F41"]
+			id: "0EF3E38B205D5D3F"
+			tasks: [{
+				id: "5B9BDBC74714AA0A"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/mysterious_worm"
+				criterion: ""
+			}]
+		}
+		{
+			x: -15.5d
+			y: -5.75d
+			dependencies: ["0EF3E38B205D5D3F"]
+			id: "32F80A35A1C5A42A"
+			tasks: [{
+				id: "2C891F07B7B28833"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/void_worm_summon"
+				criterion: ""
+			}]
+		}
+		{
+			x: -16.0d
+			y: -6.75d
+			dependencies: ["32F80A35A1C5A42A"]
+			id: "445154DC9F481968"
+			tasks: [{
+				id: "4704E0F9EEBFE042"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/void_worm_split"
+				criterion: ""
+			}]
+		}
+		{
+			x: -15.0d
+			y: -6.75d
+			dependencies: ["32F80A35A1C5A42A"]
+			id: "48EBEDE281A70BEB"
+			tasks: [{
+				id: "0FF4BA5AF66FF131"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/void_worm_kill"
+				criterion: ""
+			}]
+		}
+		{
+			x: -15.0d
+			y: -7.75d
+			dependencies: ["48EBEDE281A70BEB"]
+			id: "73F2BDD47E95495B"
+			tasks: [{
+				id: "0307D9B1D50DDC99"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/dimensional_carver"
+				criterion: ""
+			}]
+		}
+		{
+			x: -18.5d
+			y: -2.75d
+			id: "74D01EEFEE9265BB"
+			tasks: [{
+				id: "6116F33E050030CB"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/acacia_blossom"
+				criterion: ""
+			}]
+		}
+		{
+			x: -18.5d
+			y: -3.75d
+			dependencies: ["74D01EEFEE9265BB"]
+			id: "1217CE0D1409B563"
+			tasks: [{
+				id: "3844340F628EDC7F"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/tame_elephant"
+				criterion: ""
+			}]
+		}
+		{
+			x: -19.0d
+			y: -4.75d
+			dependencies: ["1217CE0D1409B563"]
+			id: "5305A32D66F76E70"
+			tasks: [{
+				id: "6E15A84DBD153489"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/tame_elephant_tusked"
+				criterion: ""
+			}]
+		}
+		{
+			x: -18.0d
+			y: -4.75d
+			dependencies: ["1217CE0D1409B563"]
+			id: "4AA7C7D377AA24EB"
+			tasks: [{
+				id: "02905FB51ED75593"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/elephant_swag"
+				criterion: ""
+			}]
+		}
+		{
+			x: -20.75d
+			y: -2.75d
+			id: "643C238C61A2B183"
+			tasks: [{
+				id: "4C5422DC41EAA24F"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/grizzly_bear"
+				criterion: ""
+			}]
+		}
+		{
+			x: -20.75d
+			y: -3.75d
+			dependencies: ["643C238C61A2B183"]
+			id: "6F38BA9383A9BE70"
+			tasks: [{
+				id: "5B3B9F954B6C8BA8"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/tame_grizzly_bear"
+				criterion: ""
+			}]
+		}
+		{
+			x: -22.5d
+			y: -2.75d
+			id: "406B9E68123A06B0"
+			tasks: [{
+				id: "61A8A864551BD1AD"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/tigers_blessing"
+				criterion: ""
+			}]
+		}
+		{
+			x: -24.25d
+			y: -2.75d
+			id: "431BF8F52DC3F9C2"
+			tasks: [{
+				id: "689F3A711C54C1C1"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/stomp_leafcutter_anthill"
+				criterion: ""
+			}]
+		}
+		{
+			x: -24.25d
+			y: -3.75d
+			dependencies: ["431BF8F52DC3F9C2"]
+			id: "52B1951D996DD5FC"
+			tasks: [{
+				id: "26D3B58540418C2C"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/gongylidia"
+				criterion: ""
+			}]
+		}
+		{
+			x: -24.25d
+			y: -4.75d
+			dependencies: ["52B1951D996DD5FC"]
+			id: "1FA27D5D00473B33"
+			tasks: [{
+				id: "7D1817075D783BA2"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/leafcutter_ant_pupa"
+				criterion: ""
+			}]
+		}
+		{
+			x: -25.75d
+			y: -2.75d
+			id: "7157183EE75EF04A"
+			tasks: [{
+				id: "5CEC74AD55BF9C5D"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/tarantula_hawk"
+				criterion: ""
+			}]
+		}
+		{
+			x: -25.75d
+			y: -3.75d
+			dependencies: ["7157183EE75EF04A"]
+			id: "08AFE6242CBD54E7"
+			tasks: [{
+				id: "329E58B8AE8FE307"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/tame_tarantula_hawk"
+				criterion: ""
+			}]
+		}
 	]
 }
