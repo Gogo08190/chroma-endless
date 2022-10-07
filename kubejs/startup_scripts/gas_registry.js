@@ -4,7 +4,7 @@ onEvent('gas.registry', (event) => {
         id: 'black',
         color: 000000,
         texture: 'kubejs:gas/base_gas_texture',
-        display: 'Black'
+        display: 'Black Gas'
       },
       ];
       generalGas.forEach((gas) => {
