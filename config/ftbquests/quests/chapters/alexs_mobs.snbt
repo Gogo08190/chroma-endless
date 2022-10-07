@@ -13,6 +13,18 @@
 	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [{
+		x: -5.75d
+		y: -13.75d
+		width: 20.0d
+		height: 10.0d
+		rotation: 0.0d
+		image: "chroma:textures/quests/savana.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
 			x: -4.75d
@@ -27,6 +39,7 @@
 		{
 			x: -4.75d
 			y: -1.75d
+			description: ["Tame a &4Bald Eagle&r with fish oil."]
 			id: "2B1C8C81DB441CD7"
 			tasks: [{
 				id: "7ED87842865458E4"
@@ -38,6 +51,7 @@
 		{
 			x: -3.75d
 			y: -1.75d
+			description: ["Receive a blessing from the great and noble sunbird."]
 			id: "0B5844BD3DBA3CE9"
 			tasks: [{
 				id: "16E2A72253658842"
@@ -49,6 +63,7 @@
 		{
 			x: -2.75d
 			y: -1.75d
+			description: ["Tame a Mantis Shrimp with many feedings of Tropical Fish."]
 			id: "5EBA810A0BC1C7CA"
 			tasks: [{
 				id: "39EBA7F30F6A2F83"
@@ -60,6 +75,7 @@
 		{
 			x: -1.75d
 			y: -1.75d
+			description: ["Have food stolen from your inventory by a Seagull."]
 			id: "034EF6BD61EFF06D"
 			tasks: [{
 				id: "44D3EA6A5FFBD5F8"
@@ -71,41 +87,74 @@
 		{
 			x: -0.25d
 			y: -1.75d
+			description: ["Obtain a Banana."]
 			id: "15CE8BB7F8F15066"
-			tasks: [{
-				id: "50CB71689CB5D944"
-				type: "advancement"
-				advancement: "alexsmobs:alexsmobs/banana"
-				criterion: ""
-			}]
+			tasks: [
+				{
+					id: "50CB71689CB5D944"
+					type: "advancement"
+					advancement: "alexsmobs:alexsmobs/banana"
+					criterion: ""
+				}
+				{
+					id: "4AE0A5789CE7E550"
+					type: "item"
+					item: "alexsmobs:banana"
+				}
+			]
 		}
 		{
 			x: -4.75d
 			y: -2.75d
+			description: [
+				"Craft a &2Falconry Glove&r from Leather and Hair of Bear."
+				""
+				"Use it to pick up and launch tamed eagles !"
+			]
 			dependencies: ["2B1C8C81DB441CD7"]
 			id: "76E0C362F2441A1F"
-			tasks: [{
-				id: "68E6D43EB68B4C34"
-				type: "advancement"
-				advancement: "alexsmobs:alexsmobs/falconry_glove"
-				criterion: ""
-			}]
+			tasks: [
+				{
+					id: "68E6D43EB68B4C34"
+					type: "advancement"
+					advancement: "alexsmobs:alexsmobs/falconry_glove"
+					criterion: ""
+				}
+				{
+					id: "63BCD9F712E5ED62"
+					type: "item"
+					item: "alexsmobs:falconry_glove"
+				}
+			]
 		}
 		{
 			x: -4.75d
 			y: -3.75d
+			description: [
+				"Craft a &2Falconry Hood&r from Leather and Roadrunner Feather."
+				""
+				"Eagles wearing one can manually directed !"
+			]
 			dependencies: ["76E0C362F2441A1F"]
 			id: "43161522033A5796"
-			tasks: [{
-				id: "077349EEEAE6B530"
-				type: "advancement"
-				advancement: "alexsmobs:alexsmobs/falconry_hood"
-				criterion: ""
-			}]
+			tasks: [
+				{
+					id: "077349EEEAE6B530"
+					type: "advancement"
+					advancement: "alexsmobs:alexsmobs/falconry_hood"
+					criterion: ""
+				}
+				{
+					id: "1A643D95178C0FD7"
+					type: "item"
+					item: "alexsmobs:falconry_hood"
+				}
+			]
 		}
 		{
 			x: -4.75d
 			y: -4.75d
+			description: ["Kill any creature from 100 blocks away with an eagle wearing a hood."]
 			dependencies: ["43161522033A5796"]
 			id: "39D3210B449C654F"
 			tasks: [{
@@ -118,6 +167,7 @@
 		{
 			x: -2.75d
 			y: -2.75d
+			description: ["Sneak and give a tamed Mantis Shrimp a bucket of water so that it can live on land indefinitely."]
 			dependencies: ["5EBA810A0BC1C7CA"]
 			id: "53284FDBB09185B3"
 			tasks: [{
@@ -130,6 +180,7 @@
 		{
 			x: -0.75d
 			y: -2.75d
+			description: ["Tame a Capuchin Monkey with bananas."]
 			dependencies: ["15CE8BB7F8F15066"]
 			id: "3F184FFDFD769A72"
 			tasks: [{
@@ -141,8 +192,9 @@
 		}
 		{
 			x: -0.75d
-			y: -3.75d
-			dependencies: ["3F184FFDFD769A72"]
+			y: -4.75d
+			description: ["Craft Sopa de Macaco with a banana peel."]
+			dependencies: ["74E91FB7E82BA7E3"]
 			id: "32514B62F026B648"
 			tasks: [{
 				id: "100DD1DDB0A7B803"
@@ -154,6 +206,7 @@
 		{
 			x: 0.25d
 			y: -2.75d
+			description: ["Tame a Gorilla with bananas."]
 			dependencies: ["15CE8BB7F8F15066"]
 			id: "17363AB625FAFA60"
 			tasks: [{
@@ -801,6 +854,18 @@
 				type: "advancement"
 				advancement: "alexsmobs:alexsmobs/tame_tarantula_hawk"
 				criterion: ""
+			}]
+		}
+		{
+			x: -0.75d
+			y: -3.75d
+			description: ["Occassionally, Monkey can drop a &eBanana Peel&r when eating a &eBanana&r."]
+			dependencies: ["3F184FFDFD769A72"]
+			id: "74E91FB7E82BA7E3"
+			tasks: [{
+				id: "7ABBABB2EF9EF28A"
+				type: "item"
+				item: "alexsmobs:banana_peel"
 			}]
 		}
 	]
