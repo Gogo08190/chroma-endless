@@ -56,6 +56,18 @@
 			dev: false
 			corner: false
 		}
+		{
+			x: -9.25d
+			y: -11.25d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/bee.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
 	]
 	quests: [
 		{
@@ -421,8 +433,8 @@
 			}]
 		}
 		{
-			x: -7.75d
-			y: -6.0d
+			x: -5.0d
+			y: -6.75d
 			dependencies: ["191848C1A5D159D5"]
 			id: "3A056224220A611C"
 			tasks: [{
@@ -432,8 +444,8 @@
 			}]
 		}
 		{
-			x: -6.75d
-			y: -6.0d
+			x: -3.5d
+			y: -6.75d
 			dependencies: ["3A056224220A611C"]
 			id: "6CFEFF50AA1B77DB"
 			tasks: [{
@@ -443,8 +455,8 @@
 			}]
 		}
 		{
-			x: -5.75d
-			y: -6.0d
+			x: -2.0d
+			y: -6.75d
 			dependencies: ["6CFEFF50AA1B77DB"]
 			id: "4C72A0DB200F92FC"
 			tasks: [{
@@ -454,8 +466,8 @@
 			}]
 		}
 		{
-			x: -4.75d
-			y: -6.0d
+			x: -0.5d
+			y: -6.75d
 			dependencies: ["4C72A0DB200F92FC"]
 			id: "4315D9A406D07DC5"
 			tasks: [{
@@ -465,8 +477,8 @@
 			}]
 		}
 		{
-			x: -3.75d
-			y: -6.0d
+			x: 1.0d
+			y: -6.75d
 			dependencies: ["4315D9A406D07DC5"]
 			id: "5CC07C7C25634002"
 			tasks: [{
@@ -697,8 +709,8 @@
 			}]
 		}
 		{
-			x: -7.75d
-			y: -7.0d
+			x: -5.0d
+			y: -8.0d
 			dependencies: [
 				"05CAF0142A173FFB"
 				"5250A6AE4D2B7F99"
@@ -3292,8 +3304,8 @@
 		}
 		{
 			title: "Bee"
-			x: 0.0d
-			y: -7.0d
+			x: -2.0d
+			y: -4.5d
 			id: "1356E497437B716A"
 			tasks: [{
 				id: "006DBF1B4AC3EBA0"
@@ -3440,10 +3452,9 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -0.75d
-			dependencies: ["7C54F45255FD8996"]
-			optional: true
+			x: -3.0d
+			y: -3.5d
+			description: [""]
 			id: "3F699C17917FFE2D"
 			tasks: [{
 				id: "20E4BA133D32D102"
