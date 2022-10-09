@@ -143,14 +143,29 @@ onEvent('recipes', (event) => {
         },
         {
             output: 'betterendforge:amber_ore',
-            weight: 50,
+            weight: 100,
             id: `${id_prefix}amber_ore`
         },
         {
             output: 'betterendforge:ender_ore',
-            weight: 50,
+            weight: 100,
             id: `${id_prefix}ender_ore`
-        }
+        },
+        {
+            output: 'allthemodium:allthemodium_nugget',
+            weight: 100,
+            id: `${id_prefix}allthemodium_nugget`
+        },
+        {
+            output: 'allthemodium:vibranium_nugget',
+            weight: 100,
+            id: `${id_prefix}vibranium_nugget`
+        },
+        {
+            output: 'allthemodium:unobtainium_nugget',
+            weight: 100,
+            id: `${id_prefix}unobtainium_nugget`
+        },
     ];
 
     recipes.forEach((recipe) => {
