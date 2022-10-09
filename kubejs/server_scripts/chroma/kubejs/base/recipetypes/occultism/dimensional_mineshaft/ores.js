@@ -165,7 +165,7 @@ onEvent('recipes', (event) => {
             output: 'allthemodium:unobtainium_nugget',
             weight: 100,
             id: `${id_prefix}unobtainium_nugget`
-        },
+        }
     ];
 
     recipes.forEach((recipe) => {
