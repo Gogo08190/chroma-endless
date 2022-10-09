@@ -184,7 +184,7 @@ onEvent('recipes', (event) => {
             input: 'mekanism:steel_casing',
             outputs: ['mekanismgenerators:heat_generator'],
             transitionalItem: 'kubejs:partial_heat_generator',
-            loops: 3,
+            loops: 1,
             sequence: [
                 {
                     type: 'deploying',
@@ -218,6 +218,132 @@ onEvent('recipes', (event) => {
                 },
             ],
             id: 'mekanismgenerators:generator/heat'
+        },
+
+        //Creative slot 1
+        {
+            input: 'tconstruct:tinkers_anvil',
+            outputs: [Item.of('tconstruct:creative_slot', '{slot:"upgrades"}')],
+            transitionalItem: 'kubejs:incomplete_upgrade',
+            loops: 6,
+            sequence: [
+                {
+                    type: 'filling',
+                    input: ['kubejs:incomplete_upgrade', Fluid.of('allthemodium:molten_bluelava', 500)],
+                    output: 'kubejs:incomplete_upgrade'
+                },
+                {
+                    type: 'deploying',
+                    input: ['kubejs:incomplete_upgrade', 'undergarden:utherium_ingot'],
+                    output: 'kubejs:incomplete_upgrade'
+                },
+                {
+                    type: 'cutting',
+                    input: 'kubejs:incomplete_upgrade',
+                    output: 'kubejs:incomplete_upgrade',
+                    processingTime: 50
+                },
+                {
+                    type: 'filling',
+                    input: ['kubejs:incomplete_upgrade', Fluid.of('tconstruct:molten_hepatizon', 500)],
+                    output: 'kubejs:incomplete_upgrade'
+                },
+                {
+                    type: 'deploying',
+                    input: ['kubejs:incomplete_upgrade', 'betterendforge:iron_hammer'],
+                    output: 'kubejs:incomplete_upgrade'
+                },
+                {
+                    type: 'pressing',
+                    input: ['kubejs:incomplete_upgrade'],
+                    output: 'kubejs:incomplete_upgrade'
+                },
+            ],
+            id: `${id_prefix}creative_slot_1`
+        },
+
+        //Creative slot 2
+        {
+            input: 'tconstruct:plate_chestplate',
+            outputs: [Item.of('tconstruct:creative_slot', '{slot:"defense"}')],
+            transitionalItem: 'kubejs:incomplete_upgrade',
+            loops: 6,
+            sequence: [
+                {
+                    type: 'filling',
+                    input: ['kubejs:incomplete_upgrade', Fluid.of('allthemodium:molten_bluelava', 500)],
+                    output: 'kubejs:incomplete_upgrade'
+                },
+                {
+                    type: 'deploying',
+                    input: ['kubejs:incomplete_upgrade', 'undergarden:utherium_ingot'],
+                    output: 'kubejs:incomplete_upgrade'
+                },
+                {
+                    type: 'cutting',
+                    input: 'kubejs:incomplete_upgrade',
+                    output: 'kubejs:incomplete_upgrade',
+                    processingTime: 50
+                },
+                {
+                    type: 'filling',
+                    input: ['kubejs:incomplete_upgrade', Fluid.of('tconstruct:molten_hepatizon', 500)],
+                    output: 'kubejs:incomplete_upgrade'
+                },
+                {
+                    type: 'deploying',
+                    input: ['kubejs:incomplete_upgrade', 'emendatusenigmatica:emerald_plate'],
+                    output: 'kubejs:incomplete_upgrade'
+                },
+                {
+                    type: 'pressing',
+                    input: ['kubejs:incomplete_upgrade'],
+                    output: 'kubejs:incomplete_upgrade'
+                },
+            ],
+            id: `${id_prefix}creative_slot_2`
+        },
+
+        //Creative slot 3
+        {
+            input: 'minecraft:nether_star',
+            outputs: [Item.of('tconstruct:creative_slot', '{slot:"abilities"}')],
+            transitionalItem: 'kubejs:incomplete_upgrade',
+            loops: 6,
+            sequence: [
+                {
+                    type: 'filling',
+                    input: ['kubejs:incomplete_upgrade', Fluid.of('allthemodium:molten_bluelava', 500)],
+                    output: 'kubejs:incomplete_upgrade'
+                },
+                {
+                    type: 'deploying',
+                    input: ['kubejs:incomplete_upgrade', 'undergarden:utherium_ingot'],
+                    output: 'kubejs:incomplete_upgrade'
+                },
+                {
+                    type: 'cutting',
+                    input: 'kubejs:incomplete_upgrade',
+                    output: 'kubejs:incomplete_upgrade',
+                    processingTime: 50
+                },
+                {
+                    type: 'filling',
+                    input: ['kubejs:incomplete_upgrade', Fluid.of('tconstruct:molten_hepatizon', 500)],
+                    output: 'kubejs:incomplete_upgrade'
+                },
+                {
+                    type: 'deploying',
+                    input: ['kubejs:incomplete_upgrade', 'minecraft:enchanted_golden_apple'],
+                    output: 'kubejs:incomplete_upgrade'
+                },
+                {
+                    type: 'pressing',
+                    input: ['kubejs:incomplete_upgrade'],
+                    output: 'kubejs:incomplete_upgrade'
+                },
+            ],
+            id: `${id_prefix}creative_slot_3`
         }
     ];
 
