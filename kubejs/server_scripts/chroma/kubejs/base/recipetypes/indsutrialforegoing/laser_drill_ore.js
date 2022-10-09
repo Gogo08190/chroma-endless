@@ -756,6 +756,48 @@ onEvent('recipes', (event) => {
             ],
             catalyst: { item: industrialforegoing.laser_lens.yellow },
             id: `${id_prefix}amber_ore`
+        },
+        {
+            output: { item: 'allthemodium:unobtainium_ore' },
+            rarity: [
+                {
+                    whitelist: endBiomes,
+                    blacklist: {},
+                    depth_min: 30,
+                    depth_max: 60,
+                    weight: 1
+                }
+            ],
+            catalyst: { item: industrialforegoing.laser_lens.magenta },
+            id: `${id_prefix}unobtainium_ore`
+        },
+        {
+            output: { item: 'allthemodium:vibranium_ore' },
+            rarity: [
+                {
+                    whitelist: netherBiomes,
+                    blacklist: {},
+                    depth_min: 107,
+                    depth_max: 113,
+                    weight: 1
+                }
+            ],
+            catalyst: { item: industrialforegoing.laser_lens.lime },
+            id: `${id_prefix}vibranium_ore`
+        },
+        {
+            output: { item: 'allthemodium:allthemodium_ore' },
+            rarity: [
+                {
+                    whitelist: {},
+                    blacklist: netherAndEndBiomes,
+                    depth_min: 5,
+                    depth_max: 45,
+                    weight: 1
+                }
+            ],
+            catalyst: { item: industrialforegoing.laser_lens.yellow },
+            id: `${id_prefix}allthemodium_ore`
         }
     ];
     recipes.forEach((recipe) => {
