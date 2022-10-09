@@ -4,6 +4,7 @@ onEvent('item.registry', (event) => {
         'partial_wirecutter',
         'part_central_windmill',
         'part_garden_cloche',
+        'partial_heat_generator',
         'central_windmill',
         'advanced_extreme_circuit_board',
         'extreme_circuit_board',
