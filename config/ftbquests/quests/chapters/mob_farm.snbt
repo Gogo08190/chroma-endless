@@ -194,5 +194,477 @@
 				item: "miniutilities:magical_egg"
 			}]
 		}
+		{
+			x: 13.0d
+			y: 5.5d
+			shape: "octagon"
+			dependencies: ["281F853004D0032C"]
+			id: "68DB7AE14FE8B8EE"
+			tasks: [{
+				id: "529F95E74B239C5D"
+				type: "item"
+				item: "darkutils:blank_plate"
+			}]
+		}
+		{
+			x: 10.75d
+			y: 3.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["68DB7AE14FE8B8EE"]
+			id: "130B4B5E3C4C3555"
+			tasks: [{
+				id: "0AFBCDD207582076"
+				type: "item"
+				item: "darkutils:vector_plate"
+			}]
+		}
+		{
+			x: 11.75d
+			y: 3.5d
+			shape: "diamond"
+			dependencies: ["24DA4E93D5985952"]
+			id: "6D6D4A1C8F376045"
+			tasks: [{
+				id: "41C631BC98F5465F"
+				type: "item"
+				item: "darkutils:vector_plate_extreme"
+			}]
+		}
+		{
+			x: 11.25d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["130B4B5E3C4C3555"]
+			id: "24DA4E93D5985952"
+			tasks: [{
+				id: "396D52DF2815051F"
+				type: "item"
+				item: "darkutils:vector_plate_fast"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 4.25d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["68DB7AE14FE8B8EE"]
+			id: "7935DBCA23153C43"
+			tasks: [{
+				id: "30F5A651A918F032"
+				type: "item"
+				item: "darkutils:export_plate"
+			}]
+		}
+		{
+			x: 14.25d
+			y: 3.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["68DB7AE14FE8B8EE"]
+			id: "7131F1610B94624C"
+			tasks: [{
+				id: "158A5D68B0FA12EC"
+				type: "item"
+				item: "darkutils:import_plate"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 3.75d
+			shape: "diamond"
+			dependencies: ["7935DBCA23153C43"]
+			id: "07F5BCCF8C5C1FA8"
+			tasks: [{
+				id: "3614F1753788032B"
+				type: "item"
+				item: "darkutils:export_plate_fast"
+			}]
+		}
+		{
+			x: 14.75d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["7131F1610B94624C"]
+			id: "145D8952B19E785A"
+			tasks: [{
+				id: "5A89AEB3C1A4D185"
+				type: "item"
+				item: "darkutils:import_plate_fast"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 4.25d
+			shape: "diamond"
+			dependencies: ["07F5BCCF8C5C1FA8"]
+			id: "7E929508168976C0"
+			tasks: [{
+				id: "7CB91DEF63CF3DA4"
+				type: "item"
+				item: "darkutils:export_plate_extreme"
+			}]
+		}
+		{
+			x: 15.25d
+			y: 3.5d
+			shape: "diamond"
+			dependencies: ["145D8952B19E785A"]
+			id: "21E817FD548D36D8"
+			tasks: [{
+				id: "75F94169C9843C94"
+				type: "item"
+				item: "darkutils:import_plate_extreme"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 1.75d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["68DB7AE14FE8B8EE"]
+			id: "1B6136E5FACFACA1"
+			tasks: [{
+				id: "6BEB660DA3546CC6"
+				type: "item"
+				item: "darkutils:rune_damage"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 1.25d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["68DB7AE14FE8B8EE"]
+			id: "529EB2C23EEA6FE6"
+			tasks: [{
+				id: "5CC0B9CFEAF25473"
+				type: "item"
+				item: "darkutils:rune_damage_player"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 0.75d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["68DB7AE14FE8B8EE"]
+			id: "4C0A0B5883FEAA8E"
+			tasks: [{
+				id: "71B5935AE43FE320"
+				type: "item"
+				item: "darkutils:rune_poison"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 0.25d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["68DB7AE14FE8B8EE"]
+			id: "247B956A4C7D2EBA"
+			tasks: [{
+				id: "71B2C965ACFEECEF"
+				type: "item"
+				item: "darkutils:rune_weakness"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 0.75d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["68DB7AE14FE8B8EE"]
+			id: "066BC4CD84322F03"
+			tasks: [{
+				id: "0680DB9878CD55AB"
+				type: "item"
+				item: "darkutils:rune_slowness"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 1.25d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["68DB7AE14FE8B8EE"]
+			id: "002CAC5406705727"
+			tasks: [{
+				id: "615CEEAA8A199BC5"
+				type: "item"
+				item: "darkutils:rune_wither"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 1.75d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["68DB7AE14FE8B8EE"]
+			id: "2E01E0A3495ABC93"
+			tasks: [{
+				id: "735F04AA1F33BE04"
+				type: "item"
+				item: "darkutils:rune_fire"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 1.75d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["68DB7AE14FE8B8EE"]
+			id: "60ACD135F51682DD"
+			tasks: [{
+				id: "35561C5675E3A527"
+				type: "item"
+				item: "darkutils:rune_fatigue"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 1.25d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["68DB7AE14FE8B8EE"]
+			id: "796971C7A932EFDE"
+			tasks: [{
+				id: "5554ED19D9BE32FF"
+				type: "item"
+				item: "darkutils:rune_glowing"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 1.75d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["68DB7AE14FE8B8EE"]
+			id: "5AF36AA0BAA7ED3A"
+			tasks: [{
+				id: "394D16FD61E2FDB8"
+				type: "item"
+				item: "darkutils:rune_hunger"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 2.25d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["68DB7AE14FE8B8EE"]
+			id: "67E583314CED4DE3"
+			tasks: [{
+				id: "201C10B5D96FA9CC"
+				type: "item"
+				item: "darkutils:rune_blindness"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 2.25d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["68DB7AE14FE8B8EE"]
+			id: "4731547BDEC3833B"
+			tasks: [{
+				id: "6479F310887578D9"
+				type: "item"
+				item: "darkutils:rune_nausea"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 2.25d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["68DB7AE14FE8B8EE"]
+			id: "558526320739675F"
+			tasks: [{
+				id: "45F6D8FF4C229127"
+				type: "item"
+				item: "darkutils:anchor_plate"
+			}]
+		}
+		{
+			x: 19.75d
+			y: 2.25d
+			id: "5609BD57EC92834D"
+			tasks: [{
+				id: "67A06E440C31DA50"
+				type: "item"
+				item: "mob_grinding_utils:fan"
+			}]
+		}
+		{
+			x: 20.75d
+			y: 2.25d
+			id: "26577CC462684AB1"
+			tasks: [{
+				id: "3385B279B01E387E"
+				type: "item"
+				item: "mob_grinding_utils:saw"
+			}]
+		}
+		{
+			x: 21.75d
+			y: 2.25d
+			id: "0FF47A346AE50665"
+			tasks: [{
+				id: "77D47655F5EBFA65"
+				type: "item"
+				item: "mob_grinding_utils:xpsolidifier"
+			}]
+		}
+		{
+			x: 22.75d
+			y: 2.25d
+			id: "1FB2018B3B60EADF"
+			tasks: [{
+				id: "150516D138B94D8C"
+				type: "item"
+				item: "mob_grinding_utils:solid_xp_mould_blank"
+			}]
+		}
+		{
+			x: 23.75d
+			y: 2.25d
+			id: "1F43C72862E11AE6"
+			tasks: [{
+				id: "1415FAC17506EF46"
+				type: "item"
+				item: "mob_grinding_utils:solid_xp_mould_baby"
+			}]
+		}
+		{
+			x: 24.75d
+			y: 2.25d
+			id: "356B54396D9A8EA5"
+			tasks: [{
+				id: "65C26AD3158978A2"
+				type: "item"
+				item: "mob_grinding_utils:solid_xp_baby"
+			}]
+		}
+		{
+			x: 20.5d
+			y: 3.25d
+			id: "4241371C088F9392"
+			tasks: [{
+				id: "59340CBBE41E93ED"
+				type: "item"
+				item: "mob_grinding_utils:saw_upgrade_smite"
+			}]
+		}
+		{
+			x: 21.5d
+			y: 3.25d
+			id: "32EA66D28EE31F84"
+			tasks: [{
+				id: "54CD9703CA6C37C9"
+				type: "item"
+				item: "mob_grinding_utils:fan_upgrade_width"
+			}]
+		}
+		{
+			x: 22.5d
+			y: 3.25d
+			id: "53BF47607311281C"
+			tasks: [{
+				id: "5E9BA461C108EB61"
+				type: "item"
+				item: "mob_grinding_utils:fan_upgrade_height"
+			}]
+		}
+		{
+			x: 23.5d
+			y: 3.25d
+			id: "216F0657CE331FDC"
+			tasks: [{
+				id: "5D855BB6D10A710E"
+				type: "item"
+				item: "mob_grinding_utils:fan_upgrade_speed"
+			}]
+		}
+		{
+			x: 24.5d
+			y: 3.25d
+			id: "271448F3E6078E56"
+			tasks: [{
+				id: "3C33F3E1F2B7A9B8"
+				type: "item"
+				item: "mob_grinding_utils:absorption_upgrade"
+			}]
+		}
+		{
+			x: 20.5d
+			y: 4.25d
+			id: "7C59A1A7E4D9770F"
+			tasks: [{
+				id: "1BBF9BEA0FBD3AB4"
+				type: "item"
+				item: "mob_grinding_utils:saw_upgrade_arthropod"
+			}]
+		}
+		{
+			x: 21.5d
+			y: 4.25d
+			id: "3E8EF54FB142EE81"
+			tasks: [{
+				id: "268132B032D88FEB"
+				type: "item"
+				item: "mob_grinding_utils:saw_upgrade_beheading"
+			}]
+		}
+		{
+			x: 22.5d
+			y: 4.25d
+			id: "48A6766A89D933F2"
+			tasks: [{
+				id: "57266478C6748D02"
+				type: "item"
+				item: "mob_grinding_utils:saw_upgrade_fire"
+			}]
+		}
+		{
+			x: 23.5d
+			y: 4.25d
+			id: "49093E7E2E19F1B3"
+			tasks: [{
+				id: "35156985347CD197"
+				type: "item"
+				item: "mob_grinding_utils:saw_upgrade_looting"
+			}]
+		}
+		{
+			x: 24.5d
+			y: 4.25d
+			id: "783CA229E615D989"
+			tasks: [{
+				id: "152395C1E090AD9E"
+				type: "item"
+				item: "mob_grinding_utils:saw_upgrade_sharpness"
+			}]
+		}
+		{
+			x: 20.5d
+			y: 5.25d
+			id: "3B6F96CB05560BB0"
+			tasks: [{
+				id: "1FBDB3F49A816617"
+				type: "item"
+				item: "mob_grinding_utils:xp_solidifier_upgrade"
+			}]
+		}
+		{
+			x: 21.5d
+			y: 5.25d
+			id: "67295781D3314F23"
+			tasks: [{
+				id: "258E692148432D78"
+				type: "item"
+				item: "mob_grinding_utils:ender_inhibitor_off"
+			}]
+		}
 	]
 }

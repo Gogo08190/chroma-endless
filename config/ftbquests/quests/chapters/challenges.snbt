@@ -327,5 +327,221 @@
 				value: 100L
 			}]
 		}
+		{
+			x: -1.25d
+			y: 8.0d
+			dependencies: ["54F09A89160506CE"]
+			id: "597E85A136A44CFD"
+			tasks: [{
+				id: "191FD7F586234C00"
+				type: "item"
+				item: "meetyourfight:spectres_grasp"
+			}]
+		}
+		{
+			x: -0.75d
+			y: 8.5d
+			dependencies: ["54F09A89160506CE"]
+			id: "23CC85EBCA3C36F9"
+			tasks: [{
+				id: "47C260DC73996BF5"
+				type: "item"
+				item: "meetyourfight:spectres_eye"
+			}]
+		}
+		{
+			x: 0.25d
+			y: 8.5d
+			dependencies: ["54F09A89160506CE"]
+			id: "3940EC53A3A4E9F6"
+			tasks: [{
+				id: "6B38854694534DA2"
+				type: "item"
+				item: "meetyourfight:passages_toll"
+			}]
+		}
+		{
+			x: 0.75d
+			y: 8.0d
+			dependencies: ["54F09A89160506CE"]
+			id: "5936157719A9C148"
+			tasks: [{
+				id: "2D374C4FF79C6770"
+				type: "item"
+				item: "meetyourfight:aether_glazed_cupcake"
+			}]
+		}
+		{
+			x: -0.25d
+			y: 7.25d
+			shape: "octagon"
+			dependencies: ["4AC7E52260A7BA17"]
+			id: "54F09A89160506CE"
+			tasks: [{
+				id: "387773DD6BB1B601"
+				type: "item"
+				item: "meetyourfight:phantoplasm"
+			}]
+		}
+		{
+			x: -0.25d
+			y: 5.75d
+			shape: "hexagon"
+			size: 1.5d
+			id: "4AC7E52260A7BA17"
+			tasks: [{
+				id: "463D6538D147C609"
+				type: "item"
+				item: "meetyourfight:haunted_bell"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 9.0d
+			dependencies: ["73241000EFDD006F"]
+			id: "426096C59D431337"
+			tasks: [{
+				id: "07C22A173DDB5BFE"
+				type: "item"
+				item: {
+					id: "meetyourfight:depth_star"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 9.5d
+			dependencies: ["73241000EFDD006F"]
+			id: "26400E4670B80C5E"
+			tasks: [{
+				id: "3EBA7B6BFCE30289"
+				type: "item"
+				item: "meetyourfight:bone_raker"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 9.5d
+			dependencies: ["73241000EFDD006F"]
+			id: "34EB141C1D638C04"
+			tasks: [{
+				id: "7195DA9A8E227007"
+				type: "item"
+				item: "meetyourfight:marshy_delight"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 8.5d
+			shape: "octagon"
+			dependencies: ["55D0613BF723E506"]
+			id: "73241000EFDD006F"
+			tasks: [{
+				id: "066807D7B350F3BD"
+				type: "item"
+				item: "meetyourfight:mossy_tooth"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 7.0d
+			shape: "hexagon"
+			size: 1.5d
+			id: "55D0613BF723E506"
+			tasks: [{
+				id: "73AEECC0DA2150F5"
+				type: "item"
+				item: "meetyourfight:fossil_bait"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 9.0d
+			dependencies: ["73241000EFDD006F"]
+			id: "22CC732B23295A3A"
+			tasks: [{
+				id: "209DF8F82FCF7D2D"
+				type: "item"
+				item: "meetyourfight:caged_heart"
+			}]
+		}
+		{
+			x: 8.25d
+			y: 8.0d
+			dependencies: ["48D08424492F08CE"]
+			id: "222F75FBD6B35826"
+			tasks: [{
+				id: "4A551EDF78ABD07C"
+				type: "item"
+				item: "meetyourfight:ace_of_iron"
+			}]
+		}
+		{
+			x: 8.75d
+			y: 8.5d
+			dependencies: ["48D08424492F08CE"]
+			id: "27709BBCDD3AE081"
+			tasks: [{
+				id: "01DD685CA5762983"
+				type: "item"
+				item: "meetyourfight:velvet_fortune"
+			}]
+		}
+		{
+			x: 9.25d
+			y: 7.25d
+			shape: "octagon"
+			dependencies: ["64EE7A091B7CFA13"]
+			id: "48D08424492F08CE"
+			tasks: [{
+				id: "5E032DF364343EF7"
+				type: "item"
+				item: "meetyourfight:fortunes_favor"
+			}]
+		}
+		{
+			x: 9.25d
+			y: 5.75d
+			shape: "hexagon"
+			size: 1.5d
+			id: "64EE7A091B7CFA13"
+			tasks: [{
+				id: "76CDCC4CA949B89C"
+				type: "item"
+				item: "meetyourfight:devils_ante"
+			}]
+		}
+		{
+			x: 9.75d
+			y: 8.5d
+			dependencies: ["48D08424492F08CE"]
+			id: "176E69EC9936F59C"
+			tasks: [{
+				id: "6058D3FF23E2D26C"
+				type: "item"
+				item: "meetyourfight:slicers_dice"
+			}]
+		}
+		{
+			x: 10.25d
+			y: 8.0d
+			dependencies: ["48D08424492F08CE"]
+			id: "5E8C0DEBFB453422"
+			tasks: [{
+				id: "13DE402405F337D6"
+				type: "item"
+				item: {
+					id: "meetyourfight:cocktail_cutlass"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
 	]
 }
