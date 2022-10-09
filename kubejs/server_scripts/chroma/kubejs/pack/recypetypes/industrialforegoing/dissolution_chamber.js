@@ -1037,7 +1037,27 @@ onEvent('recipes', (event) => {
             outputFluid: '',
             outputFluidAmount: 0,
             id: 'mekanism:factory/elite/purifying'
-          }
+          },
+        // Bio Generator
+        {
+            inputs: [
+                'mekanism:alloy_reinforced',
+                'enderioalloys:item_material_skull_zombie_controller',
+                'mekanism:alloy_reinforced',
+                'mekanism:bio_fuel',
+                'mekanism:bio_fuel',
+                'mekanism:elite_control_circuit',
+                'mekanism:steel_casing',
+                'mekanism:elite_control_circuit'
+            ],
+            inputFluid: 'pneumaticcraft:biodiesel',
+            inputFluidAmount: 2000,
+            processingTime: 300,
+            outputItem: { item: 'mekanismgenerators:bio_generator', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: 'mekanismgenerators:generator/bio'
+          },
     ];
 
     recipes.forEach((recipe) => {

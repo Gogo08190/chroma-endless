@@ -334,6 +334,32 @@ onEvent('recipes', (event) => {
           pressure: 2.0,
           results: [{item: 'bigreactors:graphite_block', count: 1}],
           id: 'bigreactors:blasting/graphite_from_coalblock'
+        },
+        {
+          inputs:[
+            { item: 'mekanismgenerators:solar_panel', count: 3},
+            { item: 'mekanism:alloy_infused', count: 2},
+            { item: 'pneumaticcraft:transistor', count: 2},
+            { item: 'mekanism:energy_tablet', count: 1},
+            { item: 'emendatusenigmatica:steel_ingot', count: 2}
+          ],
+          pressure: 2.0,
+          results: [{item: 'mekanismgenerators:solar_generator', count: 1}],
+          id: 'mekanismgenerators:generator/solar'
+        },
+        {
+          inputs:[
+            { item: 'pneumaticcraft:turbine_rotor', count: 1},
+            { item: 'mekanism:alloy_infused', count: 2},
+            { item: 'mekanism:basic_control_circuit', count: 1},
+            { item: 'mekanism:energy_tablet', count: 2},
+            { item: 'bigreactors:reinforced_turbinerotorblade', count: 3},
+            { item: 'mekanism:steel_casing', count: 1},
+            { item: 'emendatusenigmatica:osmium_ingot', count: 3}
+          ],
+          pressure: 2.0,
+          results: [{item: 'mekanismgenerators:wind_generator', count: 1}],
+          id: 'mekanismgenerators:generator/wind'
         }
     ];
 

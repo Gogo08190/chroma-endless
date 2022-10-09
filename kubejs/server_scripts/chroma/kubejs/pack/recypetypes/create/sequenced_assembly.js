@@ -177,6 +177,47 @@ onEvent('recipes', (event) => {
                 }
             ],
             id: 'create:sequenced_assembly/large_cogwheel'
+        },
+
+        //Heat Generator
+        {
+            input: 'mekanism:steel_casing',
+            outputs: ['mekanismgenerators:heat_generator'],
+            transitionalItem: 'kubejs:partial_heat_generator',
+            loops: 3,
+            sequence: [
+                {
+                    type: 'deploying',
+                    input: ['kubejs:partial_heat_generator', 'ironfurnaces:netherite_furnace'],
+                    output: 'kubejs:partial_heat_generator'
+                },
+                {
+                    type: 'deploying',
+                    input: ['kubejs:partial_heat_generator', 'emendatusenigmatica:copper_gear'],
+                    output: 'kubejs:partial_heat_generator'
+                },
+                {
+                    type: 'deploying',
+                    input: ['kubejs:partial_heat_generator', 'emendatusenigmatica:osmium_plate'],
+                    output: 'kubejs:partial_heat_generator'
+                },
+                {
+                    type: 'deploying',
+                    input: ['kubejs:partial_heat_generator', 'immersiveengineering:sheetmetal_iron'],
+                    output: 'kubejs:partial_heat_generator'
+                },
+                {
+                    type: 'deploying',
+                    input: ['kubejs:partial_heat_generator', 'pneumaticcraft:heat_sink'],
+                    output: 'kubejs:partial_heat_generator'
+                },
+                {
+                    type: 'pressing',
+                    input: ['kubejs:partial_heat_generator'],
+                    output: 'kubejs:partial_heat_generator'
+                },
+            ],
+            id: 'mekanismgenerators:generator/heat'
         }
     ];
 

@@ -661,6 +661,22 @@ onEvent('recipes', (event) => {
               count: 1
           },
           id: `${id_prefix}arcana`
+      },
+      {
+          ingredients: [
+              { item: 'mekanism:steel_casing' },
+              { item: 'mekanism:steel_casing' },
+              { item: 'mekanism:electrolytic_core' },
+              { item: 'mekanism:alloy_atomic' },
+              { item: 'mekanism:alloy_atomic' },
+              { item: 'mekanism:ultimate_control_circuit' }
+          ],
+          energy: 66000,
+          result: {
+              item: 'mekanismgenerators:gas_burning_generator',
+              count: 1
+          },
+          id: 'mekanismgenerators:generator/gas_burning'
       }
     ];
 
