@@ -658,7 +658,7 @@
 			shape: "square"
 			subtitle: "Sss... BAM!"
 			description: [
-				"The &8Metal Press&r is used for transforming metals into different forms with molds."
+				"The &8Metal Press&r is used to transform metals into different forms with molds."
 				""
 				"Display a preview with your &6Projector&r, and place those blocks:"
 				" - &#71797ESteel Scaffoldings&r 2x"
@@ -667,7 +667,7 @@
 				" - Piston 1x"
 				" - &#71797EHeavy Engineering Block&r 1x"
 				""
-				"Finally, right click with an &6Engineer's Hammer&r on the piston, and the multiblock will form."
+				"Finally, right click with an &6Engineer's Hammer&r on the piston, and the multiblock will be formed"
 			]
 			dependencies: [
 				"1ADD7F8A69F0DDEC"
@@ -704,8 +704,6 @@
 			y: 31.25d
 			shape: "square"
 			description: [
-				""
-				""
 				" - &#71797ESteel Scaffoldings&r 10x"
 				" - &eLight Engineering Blocks&r 10x"
 				" - &4Redstone Engineering Block&r 1x"
@@ -747,8 +745,6 @@
 			y: 8.5d
 			shape: "square"
 			description: [
-				""
-				""
 				" - &#71797ESteel Scaffoldings&r 8x"
 				" - &#61666AIron Sheetmetals&r 4x"
 				" - &eLight Engineering Blocks&r 6x"
@@ -775,8 +771,6 @@
 			y: 11.25d
 			shape: "square"
 			description: [
-				""
-				""
 				" - &#71797ESteel Scaffoldings&r 6x"
 				" - &4Redstone Engineering Blocks&r 2x"
 				" - &eLight Engineering Blocks&r 2x"
@@ -944,7 +938,7 @@
 				" - &#482705Treated Wood Slabs&r 2x"
 				" - &6Conveyor Belts&r 4x"
 				""
-				"Finally, right click with an &6Engineer's Hammer&r on the middle &#482705Treated Wood Slab&r, and the multiblock will form."
+				"Finally, right click with an &6Engineer's Hammer&r on the middle &#482705Treated Wood Slab&r, and the multiblock will be formed."
 			]
 			size: 2.75d
 			id: "5E1E836B766A4AA0"
@@ -2343,15 +2337,15 @@
 			y: -2.0d
 			subtitle: "Sequenced crafting"
 			description: [
-				"The &6Engineer's Hammer&r is THE tool you need for &oImmersive Engineering&r. It is used for &nforming multiblocks&r and &nconfiguring various blocks&r."
+				"The &6Engineer's Hammer&r is THE tool you need for &oImmersive Engineering&r. It is used to &nform multiblocks&r and &nconfigure various blocks&r."
 				""
-				"First of all, create a &oCreate&r process like this with &lDeployers&r and &lMechanical Belt&r:"
+				"First of all, build a &oCreate&r process like this with &lDeployers&r and &lMechanical Belt&r:"
 				"{image:chroma:textures/quests/deploy_engineer_hammer.png width:256 height:196 align:1}"
 				""
 				"Then place 2 &#61666AIron Ingots&r in the first &lDeployer&r, 2 &#806517Cogwheels&r in the second, and 2 &#747878Andesite Alloys&r in the last. Finally drop a &#382969Lead Rod&r on the &lBelt&r."
 				""
-				"Power the &lDeployers&r and the &lBelt&r with some &nkinetic enrergy&r. The &#382969Lead Rod&r will move on the &lBelt&r, and the &lDeployers&r will combine the different items with it."
-				"Repeat the operation once more whilst replacing the &#382969Lead Rod&r with the &6Partial Hammer&r and you will obtain your &6Engineer's Hammer&r!"
+				"Power the &lDeployers&r and the &lBelt&r with some &nkinetic energy&r. The &#382969Lead Rod&r will move on the &lBelt&r, and the &lDeployers&r will combine the different items with it."
+				"Repeat the operation once more but by replacing the &#382969Lead Rod&r with the &6Partial Hammer&r and you will obtain your &6Engineer's Hammer&r!"
 			]
 			dependencies: [
 				"12F51EE93A420344"
@@ -2790,7 +2784,6 @@
 			x: 7.25d
 			y: 23.25d
 			subtitle: "Speed up &#482705Windmill&r!"
-			description: [""]
 			dependencies: ["4E8AB0EA5262EB30"]
 			id: "094F0CE67ED1F041"
 			tasks: [{
@@ -3180,12 +3173,12 @@
 			description: [
 				"The &6Engineer's Wire Cutters&r is used in some &oImmersive Engineerging&r recipes, like &ncutting&r plates into wires."
 				""
-				"First of all, create a &oCreate&r process like the &6Engineer's Hammer&r one with &lDeployers&r and &lMechanical Belt&r."
+				"First of all, build a &oCreate&r process like the &6Engineer's Hammer&r one with &lDeployers&r and &lMechanical Belt&r."
 				""
 				"Then place 2 &#71797ESteel Ingots&r in the first &lDeployer&r, 2 &#747878Andesite Alloys&r in the second, and 2 &#71797ESteel Ingots&r in the last. Finally drop a &#382969Lead Rod&r on the &lBelt&r."
 				""
-				"Power the &lDeployers&r and the &lBelt&r with some &nkinetic enrergy&r. The &#382969Lead Rod&r will move on the &lBelt&r, and the &lDeployers&r will combine the different items with it."
-				"Repeat the operation once more whilst replacing the &#382969Lead Rod&r with the &6Partial Wirecutter&r and you will obtain your &6Engineer's Wire Cutters&r!"
+				"Power the &lDeployers&r and the &lBelt&r with some &nkinetic energy&r. The &#382969Lead Rod&r will move on the &lBelt&r, and the &lDeployers&r will combine the different items with it."
+				"Repeat the operation once more by replacing the &#382969Lead Rod&r with the &6Partial Wirecutter&r and you will obtain your &6Engineer's Wire Cutters&r!"
 			]
 			hide_dependency_lines: true
 			dependencies: [
