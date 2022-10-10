@@ -487,7 +487,7 @@ onEvent('recipes', (event) => {
               'envirocore:structure_panel'
             ],
             inputFluid: 'kubejs:molten_mana_diamond',
-            inputFluidAmount: 1000,
+            inputFluidAmount: 8000,
             processingTime: 150,
             outputItem: { item: 'envirotech:litherite_void_miner_ccu', count: 1 },
             outputFluid: '',
