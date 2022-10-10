@@ -53,6 +53,15 @@ onEvent('recipes', (event) => {
 
     },
     {
+      input: 'envirocore:litherite_crystal',
+      output: 'envirocore:litherite_powder',
+      count: 1,
+      mana: 600,
+      catalyst: 'botania:conjuration_catalyst',
+      id: `${id_prefix}litherite_powder`
+
+    },
+    {
       input: 'envirocore:erodium_crystal',
       output: 'envirocore:erodium_powder',
       count: 1,
