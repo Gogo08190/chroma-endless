@@ -149,7 +149,7 @@ onEvent('recipes', (event) => {
           catalyst: { item: 'envirotech:nanorite_void_miner_ccu' },
           total_energy: 200000000,
           result: { item: 'envirotech:xerothium_void_miner_ccu' },
-          id: 'enviroenergy:block/lightning/ct_xerothium'
+          id: 'enviroenergy:block/void_miner/ct_xerothium'
       },
 
       {
