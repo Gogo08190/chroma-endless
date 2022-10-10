@@ -449,7 +449,7 @@ onEvent('recipes', (event) => {
               'envirocore:litherite_interconnect'
             ],
             inputFluid: 'tconstruct:molten_lumium',
-            inputFluidAmount: 1000,
+            inputFluidAmount: 8000,
             processingTime: 150,
             outputItem: { item: 'enviroenergy:litherite_solar_ccu', count: 1 },
             outputFluid: '',
@@ -468,7 +468,7 @@ onEvent('recipes', (event) => {
               'envirocore:litherite_interconnect'
             ],
             inputFluid: 'tconstruct:molten_lumium',
-            inputFluidAmount: 1000,
+            inputFluidAmount: 8000,
             processingTime: 150,
             outputItem: { item: 'enviroenergy:litherite_lightning_ccu', count: 1 },
             outputFluid: '',
