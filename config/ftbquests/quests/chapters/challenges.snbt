@@ -257,17 +257,6 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -4.75d
-			dependencies: ["62EE24B8F491D351"]
-			id: "647F286EEF48D12D"
-			tasks: [{
-				id: "03F389837E844CAD"
-				type: "checkmark"
-				title: "All seeds"
-			}]
-		}
-		{
 			x: 1.5d
 			y: -3.0d
 			size: 2.0d
