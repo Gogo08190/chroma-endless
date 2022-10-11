@@ -1,0 +1,224 @@
+{
+	id: "33467FFDAA62F581"
+	group: ""
+	order_index: 13
+	filename: "envirotech"
+	title: "EnviroTech"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -6.0d
+			y: -2.0d
+			shape: "octagon"
+			dependencies: [
+				"6FC22D028042D507"
+				"7D50FDFB133F3C3B"
+				"6C056E8AF56BEE37"
+				"085507458BC5E5AE"
+				"4C32DDB98EFDC15A"
+			]
+			id: "509BB4FBE8A13799"
+			tasks: [{
+				id: "601BBB9B248171D5"
+				type: "item"
+				item: "envirocore:assembler"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.5d
+			dependencies: [
+				"6C056E8AF56BEE37"
+				"4F496F328C03DC99"
+				"4146923010533FB9"
+			]
+			id: "085507458BC5E5AE"
+			tasks: [{
+				id: "7C2069C0ADD6248D"
+				type: "item"
+				item: "envirocore:structure_panel"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.5d
+			dependencies: ["761BAE3E76AB71A3"]
+			id: "6C056E8AF56BEE37"
+			tasks: [{
+				id: "4856399FF118461A"
+				type: "item"
+				item: "envirocore:obsidian_plate"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -3.5d
+			dependencies: [
+				"6C1CDB642DADEA2F"
+				"54DC8317D4B7A510"
+				"3D33E91A8207F816"
+			]
+			id: "7D50FDFB133F3C3B"
+			tasks: [{
+				id: "07937D489E6EE07C"
+				type: "item"
+				item: "envirocore:volatile_memory"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -3.5d
+			dependencies: [
+				"6C1CDB642DADEA2F"
+				"24B4AB922FCFA956"
+			]
+			id: "6FC22D028042D507"
+			tasks: [{
+				id: "16619FA5D0F278F4"
+				type: "item"
+				item: "envirocore:cpu"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -1.0d
+			dependencies: [
+				"7D50FDFB133F3C3B"
+				"30115FB202198BA8"
+				"6F0F3A66173096A7"
+				"5AC34B619EB27C7F"
+			]
+			id: "410B9715305CEB04"
+			tasks: [{
+				id: "68E202D762C4F796"
+				type: "item"
+				item: "envirocore:flash_memory"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -2.0d
+			shape: "octagon"
+			dependencies: [
+				"7D50FDFB133F3C3B"
+				"6C056E8AF56BEE37"
+				"085507458BC5E5AE"
+				"6FC22D028042D507"
+				"4C32DDB98EFDC15A"
+			]
+			id: "3F1813701894B81D"
+			tasks: [{
+				id: "20ACCDEC431A04C5"
+				type: "item"
+				item: "envirocore:memory_programmer"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			dependencies: [
+				"6289C8AE15A4BF73"
+				"1FDDA157DFAF2A7F"
+			]
+			id: "419B7A7F02681648"
+			tasks: [{
+				id: "5B11F772A0D11E93"
+				type: "item"
+				item: "envirocore:lens"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.5d
+			dependencies: ["6FC22D028042D507"]
+			id: "64293168CA145116"
+			tasks: [{
+				id: "5E4167B7A3BA3BED"
+				type: "item"
+				item: "envirocore:lens_grinder"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"6C056E8AF56BEE37"
+				"6FC22D028042D507"
+				"410B9715305CEB04"
+				"5235D3134A4914B0"
+			]
+			id: "3D5014826143FC43"
+			tasks: [{
+				id: "22690F38BC89F8E1"
+				type: "item"
+				item: {
+					id: "envirocore:rgb_controller"
+					Count: 1b
+					tag: {
+						colors: { }
+					}
+				}
+			}]
+		}
+		{
+			x: -8.25d
+			y: 0.5d
+			subtitle: "Chunks for days "
+			description: ["The Chunk Miner is like its name implies, a void miner that creates chunks from emandatus. It can be useful if you want to do some automations with those or to have ressources."]
+			dependencies: ["4A34BD6688EE9DA1"]
+			id: "7846C1B5A918BDC0"
+			tasks: [{
+				id: "2A9914E1AB2B0433"
+				type: "item"
+				title: "&#46FCB8Chunk Miner&r"
+				item: {
+					id: "envirocore:flash_memory"
+					Count: 1b
+					tag: {
+						config: {
+							color: -8382597
+							program: "envirotech:chunk_miner"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.75d
+			y: 0.5d
+			subtitle: "Light itself isn't safe"
+			description: ["The Black Hole Harvester on the other hand is a very special miner, harvesting lost items from a black hole (In The End) or from beneath bedrock itself (In The Overworld). You can expect to find very interesting items, just know that each tier makes the miner more powerful, harvesting items more and more close to the heart of the black hole (Every item you can get with this miner is present in the quests tied to each tier needed to obtain it)."]
+			dependencies: ["4A34BD6688EE9DA1"]
+			id: "3EAB4C4E47E658EA"
+			tasks: [{
+				id: "47817A43C0FC2EA7"
+				type: "item"
+				title: "&#46FCB8Black Hole Harvester&r"
+				item: {
+					id: "envirocore:flash_memory"
+					Count: 1b
+					tag: {
+						config: {
+							color: -7598168
+							program: "envirotech:parts_miner"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.5d
+			description: ["This pack adds custom made environmental tech miners programs: the Chunk Miner and the Black Hole Harvester."]
+			dependencies: ["410B9715305CEB04"]
+			id: "4A34BD6688EE9DA1"
+			tasks: [{
+				id: "7211F0E3941F9C5D"
+				type: "checkmark"
+				title: "Custom Miners"
+			}]
+		}
+	]
+}

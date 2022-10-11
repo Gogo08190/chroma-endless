@@ -8,6 +8,7 @@ onEvent('item.tags', (event) => {
       'tconstruct:tool_handle',
       'tconstruct:pickaxe',
       'tetra:modular_double',
-      'resourcefulbees:bee_jar'
+      'resourcefulbees:bee_jar',
+      'envirocore:flash_memory'
   ]);
 });

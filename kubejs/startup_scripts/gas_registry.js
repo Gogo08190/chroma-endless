@@ -17,42 +17,42 @@ onEvent('gas.registry', (event) => {
       //Green
       {
         id: 'green',
-        color: 2486811,
+        color: 4648251,
         texture: 'kubejs:gas/base_gas_texture',
         display: 'Green Gas'
       },
       //Pink
       {
         id: 'pink',
-        color: 16711854,
+        color: 15547316,
         texture: 'kubejs:gas/base_gas_texture',
         display: 'Pink Gas'
       },
       //Red
       {
         id: 'red',
-        color: 16711684,
+        color: 15548731,
         texture: 'kubejs:gas/base_gas_texture',
         display: 'Red Gas'
       },
       //blue
       {
         id: 'blue',
-        color: 2752767,
+        color: 3925997,
         texture: 'kubejs:gas/base_gas_texture',
         display: 'Blue Gas'
       },
       //orange
       {
         id: 'orange',
-        color: 15744019,
+        color: 15571259,
         texture: 'kubejs:gas/base_gas_texture',
         display: 'Orange Gas'
       },
       //purple
       {
         id: 'purple',
-        color: 13048818,
+        color: 12991469,
         texture: 'kubejs:gas/base_gas_texture',
         display: 'Purple Gas'
       },

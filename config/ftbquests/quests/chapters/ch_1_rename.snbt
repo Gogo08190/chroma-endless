@@ -168,7 +168,7 @@
 			x: 2.0d
 			y: 8.75d
 			shape: "square"
-			description: ["Right clik a crafting table with a hammer to create a workbench."]
+			description: ["Right click a crafting table with a hammer to create a workbench."]
 			dependencies: ["7A3D3399611B2809"]
 			size: 1.5d
 			id: "32DB90A8A43D1F3C"
@@ -1193,6 +1193,7 @@
 				"● When placed one space above a Mechanical Belt, it will automatically press stacks of incoming items, stalling the belt until each operation is done. Items with no pressing recipe are ignored."
 			]
 			dependencies: ["3EE564D2D7642605"]
+			min_width: 300
 			id: "761BAE3E76AB71A3"
 			tasks: [{
 				id: "250B3DF7EF1694AE"
@@ -1205,7 +1206,10 @@
 			x: 14.25d
 			y: 33.0d
 			shape: "gear"
-			description: ["cet item débloque beaucoup d'autres items dans le reste de create"]
+			description: [
+				"cet item débloque beaucoup d'autres items dans le reste de create"
+				"This item unlocks many other Create items !"
+			]
 			dependencies: ["4FF742939987793B"]
 			size: 2.0d
 			id: "3441111B8198CC9D"
@@ -1340,7 +1344,7 @@
 			y: 22.75d
 			shape: "square"
 			subtitle: "Fast Ore like...well...nothing I think"
-			description: ["A Blast Furnace works like a Furnace, but only cooks ores (and other specifics things) but run twice as fast."]
+			description: ["A Blast Furnace works like a Furnace, but only smelts ores (and other specifics things) but run twice as fast."]
 			dependencies: [
 				"250B3DF7EF1694AE"
 				"60E0E583C1CBCE56"
@@ -1733,6 +1737,7 @@
 				"● Two Large Cogwheels interlock when placed perpendicular to each other, effectively changing its axis and direction, but not its speed."
 			]
 			dependencies: ["15267232FEECB502"]
+			min_width: 300
 			id: "50B9AEC7812CEE92"
 			tasks: [
 				{
@@ -1767,6 +1772,7 @@
 				"● Hoppers, Extractors, Transposers, and other exporters can pull items out of the output buffer from any side."
 			]
 			dependencies: ["3EE564D2D7642605"]
+			min_width: 300
 			id: "57D7D56E363627AF"
 			tasks: [{
 				id: "6132D23FAAD61D78"
@@ -2063,7 +2069,7 @@
 			x: 14.25d
 			y: 30.75d
 			description: [
-				"Sand Paper is a tool used solely to create Polished Rose Quartz."
+				"Sand Paper is a tool used only to create Polished Rose Quartz."
 				""
 				"Rose Quartz may be used to make Polished Rose Quartz. To do this, the player must hold Sand Paper in their offhand, Rose Quartz in their main hand, and right click. The polished version will then drop on the ground."
 			]
@@ -3504,7 +3510,7 @@
 			icon: "create:mechanical_mixer"
 			x: 29.25d
 			y: 33.0d
-			description: ["Combine &#B87333Copper Ingot&r and &#BAC4C8Zinc Ingot&r in a &oCreate&r &lMechanical Mixer&r and &lBasin&r (&4Heated&r). They will mix and form &#B5A642Brass Ingots&r."]
+			description: ["Combine a &#B87333Copper Ingot&r and a &#BAC4C8Zinc Ingot&r in a &oCreate&r &lMechanical Mixer&r and &lBasin&r (&4Heated&r). They will mix and form &#B5A642Brass Ingots&r."]
 			dependencies: ["410AC414B2B492D1"]
 			id: "36498F5EA504C9EC"
 			tasks: [
@@ -4001,6 +4007,7 @@
 			}]
 		}
 		{
+			title: "Thermal Cells"
 			x: 7.25d
 			y: 8.5d
 			description: ["Can be found in structures deep underground in cold or montainous biomes."]
@@ -4559,9 +4566,9 @@
 			y: 46.0d
 			shape: "octagon"
 			description: [
-				"At first, you need to craft &aInfusion Pedestal&r and &a8 Pedestals&r of any type."
+				"At first, you need to craft an &aInfusion Pedestal&r and &a8 Pedestals&r of any type."
 				""
-				"Then you need to place Infusion Pedestal at the center and other pedestals around."
+				"Then you need to place the Infusion Pedestal at the center and the other pedestals around."
 				""
 				"{image:chroma:textures/quests/ritual_structure_be.png width:120 height:100 align:1}"
 			]
@@ -5208,24 +5215,24 @@
 			description: [
 				"White traveling around the world of the End, you can come across ancient ruins."
 				""
-				"There is destoyed (or not) frame of &6Runed Flavolite&r and 6 pedestals around it."
+				"There are destoyed (or not) frames of &6Runed Flavolite&r and 6 pedestals around it."
 				""
 				"{image:chroma:textures/quests/portal_structure_be.png width:120 height:100 align:1}"
 				""
 				""
-				"These are the remains of the majestic portals that one linked the worlds of the End and Overworld."
+				"These are the remains of the majestic portals that once linked the worlds of the End and the Overworld."
 				""
-				"To activate the portal you need to recover frame (if it's broken)."
+				"To activate the portal you need to recover some frames to fill the remaining blocks."
 				""
 				"{image:chroma:textures/quests/portal_frame_full_be.png width:120 height:100 align:1}"
 				""
-				"And place 6 &dEternal Crystals&r to pedestals."
+				"And place 6 &dEternal Crystals&r on the pedestals."
 				""
 				"{image:chroma:textures/quests/ritual_finished_be.png width:120 height:100 align:1}"
 				""
-				"After you'll place the last crystal, portal will be activated."
+				"After you'll have placed the last crystal, the portal will be activated."
 				""
-				"&6Runed Flavolite&r (to recover the frame) and &dEternal Crystals&r can be obtained by &5Infusion Ritual&r."
+				"&6Runed Flavolite&r (to recover the frames) and &dEternal Crystals&r can be obtained with the &5Infusion Ritual&r."
 			]
 			dependencies: ["2BA269B9CA2B23C4"]
 			size: 1.3d

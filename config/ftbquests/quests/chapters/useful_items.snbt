@@ -1671,6 +1671,7 @@
 		{
 			x: 5.25d
 			y: 18.75d
+			subtitle: "The sun in a bottle"
 			description: ["Crafted in Custom Machinery's Alloy Smelter."]
 			dependencies: [
 				"3DA966C6436DB383"
@@ -1813,7 +1814,10 @@
 			y: 18.75d
 			subtitle: "Energy from the void"
 			description: ["Obtained from Environmental Tech's Void Miner Tier 6 or more with the custom \"Black Hole Harvester\" in the End Dimenstion. (Note that the \"Red Lens\" doubles the chances of obtaining it)."]
-			dependencies: ["28F65AB06F632E4C"]
+			dependencies: [
+				"28F65AB06F632E4C"
+				"7846C1B5A918BDC0"
+			]
 			id: "685F94719391D77F"
 			tasks: [{
 				id: "438B1C77DBE7D93F"
@@ -1826,7 +1830,10 @@
 			y: 17.75d
 			subtitle: "Litteral rocket"
 			description: ["Obtained from Environmental Tech's Void Miner Tier 6 or more with the custom \"Black Hole Harvester\" in the End Dimenstion. (Note that the \"Red Lens\" doubles the chances of obtaining it)."]
-			dependencies: ["685F94719391D77F"]
+			dependencies: [
+				"685F94719391D77F"
+				"3EAB4C4E47E658EA"
+			]
 			id: "0C4BB75A847B5143"
 			tasks: [{
 				id: "2973F35B1A6E6811"
@@ -1839,7 +1846,10 @@
 			y: 19.75d
 			subtitle: "If this explodes we're screwed"
 			description: ["Crafted in Environmental Tech's Assembler."]
-			dependencies: ["685F94719391D77F"]
+			dependencies: [
+				"685F94719391D77F"
+				"3EAB4C4E47E658EA"
+			]
 			id: "07C51EEE022BF8A1"
 			tasks: [{
 				id: "3CD3601E8933C768"
@@ -1890,7 +1900,7 @@
 			x: -1.5d
 			y: 16.25d
 			subtitle: "You can hear demons screaming"
-			description: ["Crafted with Occultism's Ritual \"Ezivieus' Spectral Compulsion\"."]
+			description: ["Crafted with Occultism's Ritual \"Eziveus' Spectral Compulsion\"."]
 			dependencies: ["7BF5F871992F55AE"]
 			id: "00B345F47553EA72"
 			tasks: [{
@@ -1903,7 +1913,7 @@
 			x: -2.75d
 			y: 17.5d
 			subtitle: "How do demons even have electricity ?"
-			description: ["Crafted with Occultism's Ritual \"Ezivieus' Spectral Compulsion\"."]
+			description: ["Crafted with Occultism's Ritual \"Eziveus' Spectral Compulsion\"."]
 			dependencies: [
 				"0B086A4E1638EFBA"
 				"7BF5F871992F55AE"
@@ -2081,7 +2091,7 @@
 			x: 4.0d
 			y: 18.75d
 			subtitle: "Pinky"
-			description: ["Crafted using Industiral Forgoing's Dissolution Chamber (With 0.5 Bucket of Rossinite)."]
+			description: ["Crafted using Industiral Foregoing's Dissolution Chamber (With 0.5 Bucket of Rossinite)."]
 			dependencies: [
 				"4EC4ECA83ADD6135"
 				"73368EF2948452D9"
@@ -2126,7 +2136,7 @@
 			x: 4.0d
 			y: 16.25d
 			subtitle: "Beware of the radiations "
-			description: ["Crafted using Industiral Forgoing's Dissolution Chamber (With 8 Buckets of Ether Gas). "]
+			description: ["Crafted using Industiral Foregoing's Dissolution Chamber (With 8 Buckets of Ether Gas). "]
 			dependencies: [
 				"7618457DC31F6DFB"
 				"4AF26F6881D26ED4"
@@ -2148,6 +2158,7 @@
 			}]
 		}
 		{
+			title: "Mettre les tiers de void ores correspondant en plus"
 			x: 8.0d
 			y: 16.75d
 			id: "03945677D4B2922E"
@@ -2171,7 +2182,7 @@
 			x: -8.0d
 			y: 18.75d
 			description: [
-				"Jetpacks are used throughout the game. They come in different tier, ranging from a very slow and with almsot no enrgy jetpack, to one if not the best way to travel. "
+				"Jetpacks are used throughout the game. They come in different tier, ranging from a very slow and with almost no energy jetpack, to one; if not the best way; to travel. "
 				""
 				"Each tier is represented by it's \"coil\". If some quests aren't unlocked check the dependencies !"
 				""

@@ -48,17 +48,17 @@
 			y: -13.839285714285715d
 			shape: "rsquare"
 			description: [
-				"The Pressure Chamber is a multi-block structure  mainly used to compress various materials into others."
+				"The Pressure Chamber is a multi-block structure mainly used to compress various materials into others."
 				""
 				"It is made by creating a hollow cube out of Pressure Chamber Walls/Windows."
 				""
 				"The size of the cube can vary from 3x3x3 to 5x5x5, and windows are not needed to create the Pressure Chamber."
 				""
-				"The Pressure Chamber also requires a Valve, which has to connect to the air blocks in the Pressure Chamber."
+				"The Pressure Chamber also requires a Valve, which has to be connected to the air blocks in the Pressure Chamber."
 				""
 				"At least one Valve is required, but more can be added. When the Pressure Chamber construction is completed, the GUI can be opened with a right-click of any of its constituent blocks."
 				""
-				"The Pressure Chamber Interface can also be added into the structure to allow the insertion and removal of items to and from the Pressure Chamber to be automated through Pipes."
+				"The Pressure Chamber Interface can also be added into the structure to allow the insertion and removal of items to and from the Pressure Chamber enabling the automation with Pipes."
 			]
 			dependencies: [
 				"3D156DB23470F2D5"
@@ -97,9 +97,9 @@
 			y: -19.0d
 			shape: "gear"
 			description: [
-				"To obtain this item to begin with, drop &6Cloggrum Ingots&r and activate TNT next to the dropped item(s). 90% of the ingots will be convert into &7Compressed Iron Ingots&r."
+				"To obtain this item to begin with, drop &6Cloggrum Ingots&r and activate TNT next to the dropped item(s). 90% of the ingots will be converted into &7Compressed Iron Ingots&r."
 				""
-				"After you have created the &ePressure Chamber&r, any &6Cloggrum Ingots&r you place into it with at least 2.0 bar of pressure will be converted into &7Compressed Iron Ingots&r."
+				"But don't worry there is a way to get a 100% compressed iron, by creating the &ePressure Chamber&r, any &6Cloggrum Ingots&r you place into it with at least 2.0 bar of pressure will be converted into &7Compressed Iron Ingots&r."
 			]
 			dependencies: ["7D351CB50EFE608B"]
 			size: 1.5d
@@ -329,7 +329,7 @@
 			x: -9.5d
 			y: -12.5d
 			shape: "diamond"
-			description: ["An Air Compressor is used to create compressed air from items that burn in a Furnace."]
+			description: ["The Air Compressor is used to create compressed air from items that burn in a Furnace."]
 			hide_dependency_lines: true
 			dependencies: [
 				"1490D32522F73F20"
@@ -1534,7 +1534,7 @@
 			x: -6.75d
 			y: -15.75d
 			shape: "octagon"
-			description: ["Blastproof chest wich preserves its contents chen broken."]
+			description: ["This chest is blastproof and preserves its contents when broken."]
 			dependencies: [
 				"1F9249795027D6AD"
 				"121DF7B31DB4BEF8"
@@ -1547,7 +1547,7 @@
 			}]
 		}
 		{
-			x: -3.75d
+			x: -4.0d
 			y: -3.25d
 			shape: "octagon"
 			dependencies: ["34D00106A85CCA8E"]
@@ -1559,19 +1559,20 @@
 			}]
 		}
 		{
+			title: "Unlock : &aEnvironmental Tech&r quest line"
 			icon: "envirocore:litherite_crystal"
-			x: -2.25d
+			x: -0.75d
 			y: -3.25d
 			shape: "gear"
 			subtitle: "Making Litherite Crystal"
 			description: ["{image:chroma:textures/quests/litherite.png width:230 height:150 align:1}"]
-			dependencies: ["29787E2FE68792C3"]
+			dependencies: ["7C17F05252A4FC79"]
 			size: 1.5d
 			id: "6C1CDB642DADEA2F"
 			tasks: [{
-				id: "18ACDB56873CC4DD"
-				type: "checkmark"
-				title: "Unlock : &aEnvironmental Tech&r quest line"
+				id: "4EB574A1E645F670"
+				type: "item"
+				item: "envirocore:litherite_crystal"
 			}]
 		}
 		{
@@ -2499,6 +2500,20 @@
 				id: "0270AFFFECC8760C"
 				type: "item"
 				item: "mekanism:enrichment_chamber"
+			}]
+		}
+		{
+			x: -2.25d
+			y: -3.25d
+			dependencies: [
+				"29787E2FE68792C3"
+				"5174E5B7DC17EF63"
+			]
+			id: "7C17F05252A4FC79"
+			tasks: [{
+				id: "196A1D8C147F36E4"
+				type: "item"
+				item: "kubejs:contained_litherite_crystal"
 			}]
 		}
 	]

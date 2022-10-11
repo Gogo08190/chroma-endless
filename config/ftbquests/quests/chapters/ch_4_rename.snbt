@@ -357,7 +357,7 @@
 			x: 4.0d
 			y: -7.75d
 			description: [
-				"A bed unique to the Undergarden, with the same functions and features as the original bed in Overworld it saves your spawn point in the Undergarden."
+				"A bed unique to the Undergarden, with the same functions and features as the original bed in the Overworld, it saves your spawn point in the Undergarden."
 				""
 				"&cUsing it in the Overworld will cause a violent explosion !"
 			]
@@ -485,7 +485,7 @@
 			y: -0.5d
 			shape: "rsquare"
 			subtitle: "A Brute is a neutral mob"
-			description: ["Brutes will naturally spawn in groups of 4 found in the dense forest, forgotten field, gronglegrowth, smogstem forest, and wigglewood forest biomes without any light level requirements."]
+			description: ["Brutes will naturally spawn in groups of 4 and are found in the dense forest, forgotten field, gronglegrowth, smogstem forest, and wigglewood forest biomes without any light level requirements."]
 			hide_dependency_lines: true
 			dependencies: ["7958F40FFDC2C5D3"]
 			size: 1.5d
@@ -598,9 +598,9 @@
 			y: -0.5d
 			shape: "rsquare"
 			description: [
-				"The Muncher will wander around. When it senses a player, it will run towards them and bite the player. "
+				"The Muncher will wander around. When it senses a player, it will run towards them and bite them. "
 				""
-				" If there is a block that the muncher can break, separating it and the player, it will break its way towards the player. Upon breaking a block, the Muncher heals for 1 health."
+				"If there is a block that the muncher can break, separating it and the player, it will break its way towards the player. Upon breaking a block, the Muncher heals for 1 health."
 			]
 			hide_dependency_lines: true
 			dependencies: ["7958F40FFDC2C5D3"]
@@ -677,11 +677,11 @@
 			y: -12.75d
 			shape: "octagon"
 			description: [
-				"An Undergarden portal is built in a very similar manner to the Nether portal."
+				"The Undergarden portal is built in a very similar manner to the Nether portal."
 				""
 				"It is built as a vertical, rectangular stone frame."
 				""
-				"Once a frame is constructed, it is activated by using a Catalyst on one of the blocks making up the frame."
+				"Once the frame is constructed, it is activated by using a Catalyst on one of the blocks making up the frame."
 				""
 				"&bYou can press Z as default on the Catalyst to see how to build the portal."
 			]

@@ -13,22 +13,36 @@
 	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	images: [{
-		x: -5.75d
-		y: -13.75d
-		width: 20.0d
-		height: 10.0d
-		rotation: 0.0d
-		image: "chroma:textures/quests/savana.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
-	}]
+	images: [
+		{
+			x: -8.75d
+			y: -5.75d
+			width: 20.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/savana.png"
+			hover: [""]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -8.0d
+			y: 8.25d
+			width: 23.0d
+			height: 23.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/zoo.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
-			x: -4.75d
-			y: 0.0d
+			x: -8.25d
+			y: 9.75d
 			description: ["Discover the unique creatures of the world !"]
 			id: "79A75390155A639A"
 			tasks: [{
@@ -38,8 +52,8 @@
 			}]
 		}
 		{
-			x: -4.75d
-			y: -1.75d
+			x: -1.75d
+			y: 13.0d
 			description: ["Tame a &4Bald Eagle&r with fish oil."]
 			id: "2B1C8C81DB441CD7"
 			tasks: [{
@@ -51,7 +65,7 @@
 		}
 		{
 			x: -3.75d
-			y: -1.75d
+			y: 13.0d
 			description: ["Receive a blessing from the great and noble sunbird."]
 			id: "0B5844BD3DBA3CE9"
 			tasks: [{
@@ -62,8 +76,8 @@
 			}]
 		}
 		{
-			x: -2.75d
-			y: -1.75d
+			x: -10.75d
+			y: 9.0d
 			description: ["Tame a Mantis Shrimp with many feedings of Tropical Fish."]
 			id: "5EBA810A0BC1C7CA"
 			tasks: [{
@@ -74,8 +88,8 @@
 			}]
 		}
 		{
-			x: -1.75d
-			y: -1.75d
+			x: -2.5d
+			y: 4.25d
 			description: ["Have food stolen from your inventory by a Seagull."]
 			id: "034EF6BD61EFF06D"
 			tasks: [{
@@ -86,8 +100,8 @@
 			}]
 		}
 		{
-			x: -0.25d
-			y: -1.75d
+			x: -12.75d
+			y: 9.25d
 			description: ["Obtain a Banana."]
 			id: "15CE8BB7F8F15066"
 			tasks: [
@@ -105,8 +119,8 @@
 			]
 		}
 		{
-			x: -4.75d
-			y: -2.75d
+			x: -2.25d
+			y: 14.5d
 			description: [
 				"Craft a &2Falconry Glove&r from Leather and Hair of Bear."
 				""
@@ -129,8 +143,8 @@
 			]
 		}
 		{
-			x: -4.75d
-			y: -3.75d
+			x: -3.5d
+			y: 15.5d
 			description: [
 				"Craft a &2Falconry Hood&r from Leather and Roadrunner Feather."
 				""
@@ -154,7 +168,7 @@
 		}
 		{
 			x: -4.75d
-			y: -4.75d
+			y: 15.25d
 			description: ["Kill any creature from 100 blocks away with an eagle wearing a hood."]
 			dependencies: ["43161522033A5796"]
 			id: "39D3210B449C654F"
@@ -166,8 +180,8 @@
 			}]
 		}
 		{
-			x: -2.75d
-			y: -2.75d
+			x: -10.5d
+			y: 7.75d
 			description: ["Sneak and give a tamed Mantis Shrimp a bucket of water so that it can live on land indefinitely."]
 			dependencies: ["5EBA810A0BC1C7CA"]
 			id: "53284FDBB09185B3"
@@ -179,8 +193,8 @@
 			}]
 		}
 		{
-			x: -0.75d
-			y: -2.75d
+			x: -13.25d
+			y: 8.0d
 			description: ["Tame a Capuchin Monkey with bananas."]
 			dependencies: ["15CE8BB7F8F15066"]
 			id: "3F184FFDFD769A72"
@@ -192,8 +206,8 @@
 			}]
 		}
 		{
-			x: -0.75d
-			y: -4.75d
+			x: -12.5d
+			y: 10.5d
 			description: ["Craft Sopa de Macaco with a banana peel."]
 			dependencies: ["74E91FB7E82BA7E3"]
 			id: "32514B62F026B648"
@@ -205,8 +219,8 @@
 			}]
 		}
 		{
-			x: 0.25d
-			y: -2.75d
+			x: -12.0d
+			y: 8.5d
 			description: ["Tame a Gorilla with bananas."]
 			dependencies: ["15CE8BB7F8F15066"]
 			id: "17363AB625FAFA60"
@@ -218,8 +232,8 @@
 			}]
 		}
 		{
-			x: 1.75d
-			y: -1.75d
+			x: -10.25d
+			y: 12.25d
 			description: ["Encounter a Soul Vulture in the nether."]
 			id: "0D1F611A49AA590E"
 			tasks: [{
@@ -230,8 +244,8 @@
 			}]
 		}
 		{
-			x: 1.75d
-			y: -2.75d
+			x: -8.75d
+			y: 12.75d
 			description: ["Obtain a soul heart from slaying a bloated Soul Vulture."]
 			dependencies: ["0D1F611A49AA590E"]
 			id: "61CCF5417CEA930B"
@@ -250,8 +264,8 @@
 			]
 		}
 		{
-			x: 1.75d
-			y: -3.75d
+			x: -7.5d
+			y: 12.25d
 			description: ["Lure a Spectre in the end with a Soul Heart. Use a lead on them to hitch a ride !"]
 			dependencies: ["61CCF5417CEA930B"]
 			id: "2386DF2BDE4A1D1D"
@@ -263,8 +277,8 @@
 			}]
 		}
 		{
-			x: 3.75d
-			y: -1.75d
+			x: -12.5d
+			y: 12.25d
 			description: ["Encounter a Straddler in the Basalt Deltas."]
 			id: "538243F7BEE6CAC0"
 			tasks: [{
@@ -275,8 +289,8 @@
 			}]
 		}
 		{
-			x: 3.25d
-			y: -2.75d
+			x: -13.5d
+			y: 12.0d
 			description: ["Feed a Stradpole some Mosquito Larva, in hopes of turning it into a Straddler."]
 			dependencies: ["538243F7BEE6CAC0"]
 			id: "566857A493D2E77C"
@@ -288,8 +302,8 @@
 			}]
 		}
 		{
-			x: 4.25d
-			y: -2.75d
+			x: -13.5d
+			y: 13.0d
 			description: ["Craft a Straddleboard from some Netherite and Straddlerite."]
 			dependencies: ["538243F7BEE6CAC0"]
 			id: "71CD26FF5D567057"
@@ -314,8 +328,8 @@
 			]
 		}
 		{
-			x: 6.0d
-			y: -1.75d
+			x: -3.5d
+			y: 10.25d
 			description: ["Encounter a Guster during a stormy day in the desert."]
 			id: "384B2ACC511CD4D9"
 			tasks: [{
@@ -326,8 +340,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -2.75d
+			x: -3.75d
+			y: 9.0d
 			subtitle: "Sha-sha !"
 			description: ["Craft a Pocket Of Sand."]
 			dependencies: ["384B2ACC511CD4D9"]
@@ -353,8 +367,8 @@
 			]
 		}
 		{
-			x: 6.5d
-			y: -2.75d
+			x: -2.25d
+			y: 9.0d
 			description: ["Craft a Gustmaker. Now you can make your own mini-storms !"]
 			dependencies: ["384B2ACC511CD4D9"]
 			id: "79BD1F4B9DC6B3E6"
@@ -373,8 +387,8 @@
 			]
 		}
 		{
-			x: 7.75d
-			y: -1.75d
+			x: -9.5d
+			y: 0.5d
 			description: ["Breed two hummingbirds with flowers."]
 			id: "1FBFFB67133EB1F3"
 			tasks: [{
@@ -385,8 +399,8 @@
 			}]
 		}
 		{
-			x: 7.75d
-			y: -2.75d
+			x: -9.75d
+			y: 2.25d
 			description: ["Craft a Hummingbird Feeder in order to keep hummingbirds nearby."]
 			dependencies: ["1FBFFB67133EB1F3"]
 			id: "0D67C96E83CA65B5"
@@ -405,8 +419,8 @@
 			]
 		}
 		{
-			x: 9.0d
-			y: -1.75d
+			x: -11.5d
+			y: 2.75d
 			description: ["Encounter a Kangoroo."]
 			id: "4E566DEE9D4C96A7"
 			tasks: [{
@@ -417,8 +431,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -3.75d
+			x: -13.5d
+			y: 2.75d
 			description: ["See an emu dodge a launched projectile."]
 			dependencies: ["454471DBED49864B"]
 			id: "4CD67FA78CF4533D"
@@ -430,8 +444,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -2.75d
+			x: -12.5d
+			y: 1.0d
 			description: ["Encounter an Emu. Exercise caution."]
 			dependencies: ["4E566DEE9D4C96A7"]
 			id: "454471DBED49864B"
@@ -443,8 +457,8 @@
 			}]
 		}
 		{
-			x: 10.25d
-			y: -1.75d
+			x: -4.75d
+			y: 1.0d
 			description: ["Save a beached Cachalot Whale by pushing it into the water, and then have it reward you by coughing up some Ambergris."]
 			id: "2A8F3F136EB8485A"
 			tasks: [{
@@ -455,8 +469,8 @@
 			}]
 		}
 		{
-			x: 10.25d
-			y: -2.75d
+			x: -3.0d
+			y: 1.5d
 			description: ["Craft an Echolocator, which can reveal nearby caves."]
 			dependencies: ["2A8F3F136EB8485A"]
 			id: "502819258E065AD3"
@@ -481,8 +495,8 @@
 			]
 		}
 		{
-			x: 10.25d
-			y: -3.75d
+			x: -2.0d
+			y: 2.5d
 			description: ["Craft an Endolocator, which can reveal nearby End Portal Frames."]
 			dependencies: ["502819258E065AD3"]
 			id: "422A0957DC7FF997"
@@ -507,8 +521,8 @@
 			]
 		}
 		{
-			x: 11.5d
-			y: -1.75d
+			x: -13.75d
+			y: 5.5d
 			description: ["Encounter a Rattlesnake."]
 			id: "1B65B782F3E46420"
 			tasks: [{
@@ -519,8 +533,8 @@
 			}]
 		}
 		{
-			x: 11.5d
-			y: -2.75d
+			x: -12.75d
+			y: 6.5d
 			description: ["Craft a Maraca with a Rattlesnake rattle."]
 			dependencies: ["1B65B782F3E46420"]
 			id: "0405F092BE2F54E6"
@@ -539,8 +553,8 @@
 			]
 		}
 		{
-			x: 11.5d
-			y: -3.75d
+			x: -11.75d
+			y: 5.75d
 			subtitle: "La Cucuracha !"
 			description: ["Give a Maraca to a cockroach and enjoy the show."]
 			dependencies: ["0405F092BE2F54E6"]
@@ -553,8 +567,8 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: -1.75d
+			x: -11.25d
+			y: 16.0d
 			description: ["Encounter a Crimson Mosquito !"]
 			id: "5E2731D71084CA19"
 			tasks: [{
@@ -565,8 +579,8 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: -2.75d
+			x: -10.5d
+			y: 14.5d
 			description: ["Craft a &4Blood Sprayer&r from the dropts of a Crimson Mosquito."]
 			id: "76E7733EAAC40B8D"
 			tasks: [
@@ -590,8 +604,8 @@
 			]
 		}
 		{
-			x: -7.0d
-			y: -2.75d
+			x: -10.75d
+			y: 13.5d
 			description: ["Craft a Crimson Mosquito Larvae from a Maggot and a Special Proboscis."]
 			id: "3831E05A66F5DC96"
 			tasks: [
@@ -609,8 +623,8 @@
 			]
 		}
 		{
-			x: -9.0d
-			y: -2.75d
+			x: -11.5d
+			y: 15.0d
 			description: [
 				"Feed a Crimson Mosquito a strange fungal creature covered in Warped Fungus."
 				""
@@ -625,8 +639,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -3.75d
+			x: -12.0d
+			y: 13.5d
 			description: ["Tame a Warped Toad, the perfect defense against any giant bug, with some larvae."]
 			id: "1FEF238486E8120C"
 			tasks: [{
@@ -637,8 +651,8 @@
 			}]
 		}
 		{
-			x: -9.0d
-			y: -3.75d
+			x: -12.75d
+			y: 15.0d
 			description: ["Slay the Warped Mosco, the swole defender of the Warped Forest."]
 			dependencies: ["24CAAF4B70E6E209"]
 			id: "29C6953A186D2285"
@@ -650,8 +664,8 @@
 			}]
 		}
 		{
-			x: -9.0d
-			y: -4.75d
+			x: -13.25d
+			y: 14.0d
 			description: ["Craft a Hemolyph Blaster, the ultimate upgrade to the Blood Sprayer."]
 			dependencies: ["29C6953A186D2285"]
 			id: "30FE1AC026528DC9"
@@ -676,8 +690,8 @@
 			]
 		}
 		{
-			x: -11.75d
-			y: -2.75d
+			x: -8.75d
+			y: 5.25d
 			description: ["Encounter a Crocodile !"]
 			id: "74ADD9A5258F9247"
 			tasks: [{
@@ -688,8 +702,8 @@
 			}]
 		}
 		{
-			x: -11.25d
-			y: -3.75d
+			x: -7.25d
+			y: 5.0d
 			description: ["Encounter an Alligator Snapping Turtle !"]
 			dependencies: ["74ADD9A5258F9247"]
 			id: "402D6BD7A01F3C98"
@@ -701,8 +715,8 @@
 			}]
 		}
 		{
-			x: -12.25d
-			y: -3.75d
+			x: -8.5d
+			y: 4.0d
 			description: [
 				"Breed two crocodiles with rotten flesh."
 				""
@@ -718,8 +732,8 @@
 			}]
 		}
 		{
-			x: -12.25d
-			y: -4.75d
+			x: -7.25d
+			y: 2.75d
 			description: ["Craft a crocodile chestplate from many crocodile scutes."]
 			dependencies: ["4D4DA7D53F1A2BD6"]
 			id: "1C77819659DE35DE"
@@ -744,8 +758,8 @@
 			]
 		}
 		{
-			x: -11.25d
-			y: -4.75d
+			x: -7.25d
+			y: 4.0d
 			description: ["Shear a moss-covered Alligator Snapping Turtle and obtain a Spiked Scute !"]
 			dependencies: ["402D6BD7A01F3C98"]
 			id: "01DAF235E6CBD7A3"
@@ -764,8 +778,8 @@
 			]
 		}
 		{
-			x: -11.25d
-			y: -5.75d
+			x: -6.25d
+			y: 4.0d
 			description: ["Craft a Spiked Turtle Shell."]
 			dependencies: ["01DAF235E6CBD7A3"]
 			id: "20A511C453D94BB6"
@@ -790,8 +804,8 @@
 			]
 		}
 		{
-			x: -13.75d
-			y: -2.75d
+			x: -6.5d
+			y: 0.75d
 			description: ["Be granted a blessing from a wild Orca."]
 			id: "36731EB5B663B029"
 			tasks: [{
@@ -802,8 +816,8 @@
 			}]
 		}
 		{
-			x: -15.5d
-			y: -2.75d
+			x: -8.5d
+			y: 14.5d
 			description: [
 				"Encounter an Enderiophage, a giant biomechanical construct found in the &5End Midlands&r."
 				""
@@ -818,8 +832,8 @@
 			}]
 		}
 		{
-			x: -16.0d
-			y: -3.75d
+			x: -7.75d
+			y: 13.5d
 			description: [
 				"Catch the Ender Flu effect."
 				""
@@ -835,8 +849,8 @@
 			}]
 		}
 		{
-			x: -15.0d
-			y: -3.75d
+			x: -7.75d
+			y: 15.75d
 			description: [
 				"Obtain a Capsid from a slain Enderiophage."
 				""
@@ -852,8 +866,8 @@
 			}]
 		}
 		{
-			x: -14.5d
-			y: -4.75d
+			x: -7.0d
+			y: 14.25d
 			description: ["Craft an Enderiophage Rocket, which can be used in place of Firework Rockets when in the End."]
 			dependencies: ["72941F53A3897F41"]
 			id: "1CCB2740B845C17D"
@@ -872,8 +886,8 @@
 			]
 		}
 		{
-			x: -15.5d
-			y: -4.75d
+			x: -9.0d
+			y: 16.0d
 			description: ["Create a Mysterious Work by putting a Crimson Mosquiton Larva in a Capsid."]
 			dependencies: ["72941F53A3897F41"]
 			id: "0EF3E38B205D5D3F"
@@ -885,8 +899,8 @@
 			}]
 		}
 		{
-			x: -15.5d
-			y: -5.75d
+			x: -8.25d
+			y: 16.75d
 			description: ["Toss the Mysterious Worm into the void oh the End, and prepare to meet the Void Worm."]
 			dependencies: ["0EF3E38B205D5D3F"]
 			id: "32F80A35A1C5A42A"
@@ -898,8 +912,8 @@
 			}]
 		}
 		{
-			x: -16.0d
-			y: -6.75d
+			x: -7.25d
+			y: 17.25d
 			description: ["Split a void worm in half by attacking one of its body segments. More worms, more problems !"]
 			dependencies: ["32F80A35A1C5A42A"]
 			id: "445154DC9F481968"
@@ -911,8 +925,8 @@
 			}]
 		}
 		{
-			x: -15.0d
-			y: -6.75d
+			x: -6.75d
+			y: 15.25d
 			description: ["Destroy the End Worm."]
 			dependencies: ["32F80A35A1C5A42A"]
 			id: "48EBEDE281A70BEB"
@@ -924,8 +938,8 @@
 			}]
 		}
 		{
-			x: -15.0d
-			y: -7.75d
+			x: -6.5d
+			y: 16.5d
 			description: ["Using the drops of the Void Worm, create the Dimensional Carver, which allows you to dig through the fabric of reality to return home at any given point."]
 			dependencies: ["48EBEDE281A70BEB"]
 			id: "73F2BDD47E95495B"
@@ -950,8 +964,8 @@
 			]
 		}
 		{
-			x: -18.5d
-			y: -2.75d
+			x: -2.75d
+			y: 5.75d
 			description: ["Obtain an Acacia Blossom from breaking Acacia Leaves."]
 			id: "74D01EEFEE9265BB"
 			tasks: [
@@ -969,8 +983,8 @@
 			]
 		}
 		{
-			x: -18.5d
-			y: -3.75d
+			x: -2.75d
+			y: 7.0d
 			description: ["Tame an Elephant by feeding it Acacia Blossoms."]
 			dependencies: ["74D01EEFEE9265BB"]
 			id: "1217CE0D1409B563"
@@ -982,8 +996,8 @@
 			}]
 		}
 		{
-			x: -19.0d
-			y: -4.75d
+			x: -4.0d
+			y: 7.5d
 			description: ["Tame a tusked elephant when it is a baby."]
 			dependencies: ["1217CE0D1409B563"]
 			id: "5305A32D66F76E70"
@@ -995,8 +1009,8 @@
 			}]
 		}
 		{
-			x: -18.0d
-			y: -4.75d
+			x: -4.25d
+			y: 6.25d
 			description: ["Place a colored carpet on an elephant."]
 			dependencies: ["1217CE0D1409B563"]
 			id: "4AA7C7D377AA24EB"
@@ -1008,8 +1022,8 @@
 			}]
 		}
 		{
-			x: -20.75d
-			y: -2.75d
+			x: -5.75d
+			y: 12.0d
 			description: ["Encounter a Grizzly Bear."]
 			id: "643C238C61A2B183"
 			tasks: [{
@@ -1020,8 +1034,8 @@
 			}]
 		}
 		{
-			x: -20.75d
-			y: -3.75d
+			x: -4.75d
+			y: 10.5d
 			description: ["Tame a Grizzly Bear by feeding it honey and salmon."]
 			dependencies: ["643C238C61A2B183"]
 			id: "6F38BA9383A9BE70"
@@ -1033,8 +1047,8 @@
 			}]
 		}
 		{
-			x: -22.5d
-			y: -2.75d
+			x: -12.0d
+			y: 7.5d
 			description: ["Receive a Tiger's Blessing after feeding it Porkchops, Chicken or other meats."]
 			id: "406B9E68123A06B0"
 			tasks: [{
@@ -1045,8 +1059,8 @@
 			}]
 		}
 		{
-			x: -24.25d
-			y: -2.75d
+			x: -6.75d
+			y: 9.0d
 			description: ["Stomp on a Leafcutter Anthill - beware the angry denizens within !"]
 			id: "431BF8F52DC3F9C2"
 			tasks: [{
@@ -1057,8 +1071,8 @@
 			}]
 		}
 		{
-			x: -24.25d
-			y: -3.75d
+			x: -7.0d
+			y: 8.0d
 			description: ["Harvest Gongylidia from a Leafcutter Ant Chamber underground. Place Shroomlight near the camber to make sure you don't upset the locals."]
 			dependencies: ["431BF8F52DC3F9C2"]
 			id: "52B1951D996DD5FC"
@@ -1077,8 +1091,8 @@
 			]
 		}
 		{
-			x: -24.25d
-			y: -4.75d
+			x: -7.25d
+			y: 7.0d
 			description: ["Obtain a Leafcutter Ant Pupa, which can be placed on dirt to start a Leafcutter Ant colony."]
 			dependencies: ["52B1951D996DD5FC"]
 			id: "1FA27D5D00473B33"
@@ -1097,8 +1111,8 @@
 			]
 		}
 		{
-			x: -25.75d
-			y: -2.75d
+			x: -4.75d
+			y: 5.0d
 			description: ["Encounter a Tarantula Hawk in a desert."]
 			id: "7157183EE75EF04A"
 			tasks: [{
@@ -1109,8 +1123,8 @@
 			}]
 		}
 		{
-			x: -25.75d
-			y: -3.75d
+			x: -4.75d
+			y: 3.75d
 			description: ["Tame a Tarantula Hawk by feeding it Spider Eyes."]
 			dependencies: ["7157183EE75EF04A"]
 			id: "08AFE6242CBD54E7"
@@ -1122,8 +1136,8 @@
 			}]
 		}
 		{
-			x: -0.75d
-			y: -3.75d
+			x: -14.0d
+			y: 9.0d
 			description: ["Occassionally, Monkey can drop a &eBanana Peel&r when eating a &eBanana&r."]
 			dependencies: ["3F184FFDFD769A72"]
 			id: "74E91FB7E82BA7E3"

@@ -11,7 +11,7 @@
 		{
 			x: -9.25d
 			y: -10.0d
-			description: ["&bThe Construction Core&r is used in recipes for devices that turn items from the storage network into items in the world."]
+			description: ["&bThe Construction Cores&r are used in recipes for devices that turn items from the storage network into items in the world."]
 			dependencies: ["15865A4733956F1D"]
 			id: "1476EC5D72316F09"
 			tasks: [{
@@ -23,7 +23,7 @@
 		{
 			x: -9.25d
 			y: -15.0d
-			description: ["&bThe Destruction Core&r is used in recipes for devices that turn items from the world into items in the storage network."]
+			description: ["&bThe Destruction Cores&r are used in recipes for devices that turn items from the world into items in the storage network."]
 			dependencies: ["15865A4733956F1D"]
 			id: "25E22801C42095BB"
 			tasks: [{
@@ -97,7 +97,7 @@
 		{
 			x: -10.75d
 			y: -9.0d
-			description: ["&bThe Processor&r is used to craft the various Refined Storage devices."]
+			description: ["&bThe Processors&r are used to craft the various Refined Storage devices."]
 			dependencies: ["15865A4733956F1D"]
 			id: "6479C243BAC2D6B1"
 			tasks: [{
@@ -109,7 +109,7 @@
 		{
 			x: -9.25d
 			y: -11.75d
-			description: ["&bThe Processor&r is used to craft the various Refined Storage devices."]
+			description: ["&bThe Processors&r are used to craft the various Refined Storage devices."]
 			dependencies: ["15865A4733956F1D"]
 			id: "1A7CF32D3F88C76D"
 			tasks: [{
@@ -353,7 +353,7 @@
 		{
 			x: -9.25d
 			y: -13.25d
-			description: ["&bThe Processor&r is used to craft the various Refined Storage devices."]
+			description: ["&bThe Processors&r are used to craft the various Refined Storage devices."]
 			dependencies: ["15865A4733956F1D"]
 			id: "481A8B96221DBD76"
 			tasks: [{
@@ -488,7 +488,7 @@
 			description: [
 				"&bThe Controller &fis the core of the Refined Storage network. "
 				""
-				"You need to connect all the Refined Storage devices to this block. (You can connect devices by placing them right next to the Controller or with cables.)"
+				"You need to connect all the Refined Storage devices to this block. (You can connect devices by placing them right next to the Controller or with cables connected to said Controller.)"
 			]
 			dependencies: ["736A21D4029789B6"]
 			size: 2.0d
@@ -571,7 +571,7 @@
 			x: -11.5d
 			y: -5.75d
 			shape: "square"
-			description: ["&bThe Exporter &fextracts items or fluids from the storage network and inserts it in the inventory or tank in front of it."]
+			description: ["&bThe Exporter &fextracts items or fluids from the storage network and inserts it in the inventory or tank connected to the device."]
 			dependencies: ["5361C5E7A1077FEF"]
 			id: "64AEF34D3FC6DA1C"
 			tasks: [{
@@ -584,7 +584,7 @@
 			x: -13.0d
 			y: -3.75d
 			shape: "square"
-			description: ["&bThe External&r Storage is a block that provides the storage network with storage of the inventory or fluid tank in front of the device."]
+			description: ["&bThe External&r Storage is a block that provides the storage network with an access to the storage of the inventory or fluid tank connected to the device making everything stored in it appear in the grid."]
 			dependencies: ["5361C5E7A1077FEF"]
 			id: "7A1A17B6C4A2F58B"
 			tasks: [{
@@ -597,7 +597,7 @@
 			x: -13.5d
 			y: -5.75d
 			shape: "square"
-			description: ["&bThe Importer&f imports items or fluids from an inventory in front of the block and inserts it in the storage network (if there is space)."]
+			description: ["&bThe Importer&f imports items or fluids from the inventory connected to the device and inserts it in the storage network (if there is space)."]
 			dependencies: ["5361C5E7A1077FEF"]
 			id: "78BED8A761104E8C"
 			tasks: [{
@@ -629,7 +629,7 @@
 			y: -8.450000000000001d
 			shape: "square"
 			description: [
-				"&bCable&r is used to connect devices to the Controller."
+				"&bCables&r are used to connect devices to the Controller."
 				""
 				"Cables are not always necessary, as long as the devices are next to each other in any direction a connection will be established as well."
 			]
@@ -843,7 +843,7 @@
 		{
 			x: 4.5d
 			y: -10.75d
-			description: ["With the &bWireless Crafting Grid &rthe player can access their items from anywhere."]
+			description: ["With the &bWireless Crafting Grid &rthe player can access their items from anywhere and craft directly in the gui."]
 			dependencies: ["50203C029B75E926"]
 			id: "60DAFFBF0838ADEF"
 			tasks: [{
@@ -872,7 +872,7 @@
 			description: [
 				"&bA Large Pattern Encoder&r is used to create patterns meant for machine automation."
 				""
-				"It takes up to 9 inputs and 9 outputs, so the storage network knows what to take and what to expect."
+				"It takes up to 81 inputs and 9 outputs, so the storage network knows what to take and what to expect."
 				""
 				"This block can’t be connected to a storage network."
 			]
@@ -1133,11 +1133,7 @@
 			x: 0.75d
 			y: 4.25d
 			shape: "square"
-			description: [
-				"&bThe Crafter&r is a block that crafts items with patterns. It can take speed upgrades to increase the crafting speed."
-				""
-				"Can hold 81 patterns."
-			]
+			description: ["&bThe Netherite Crafter&r is the final upgrade to the crafter holding 81 patterns."]
 			dependencies: [
 				"2587D7FD1E461E79"
 				"01947FD9C0E2783B"
@@ -1156,11 +1152,7 @@
 			x: -0.25d
 			y: 5.75d
 			shape: "square"
-			description: [
-				"&bThe Crafter&r is a block that crafts items with patterns. It can take speed upgrades to increase the crafting speed."
-				""
-				"Can hold 63 patterns."
-			]
+			description: ["&bThe Diamond Crafter&r can hold 63 patterns."]
 			dependencies: [
 				"60E82CF31223EA18"
 				"15770C3D59BEB5DB"
@@ -1177,11 +1169,7 @@
 			x: -2.25d
 			y: 5.75d
 			shape: "square"
-			description: [
-				"&bThe Crafter&r is a block that crafts items with patterns. It can take speed upgrades to increase the crafting speed."
-				""
-				"Can hold 45 patterns."
-			]
+			description: ["&bThe Gold Crafter&r can hold 45 patterns."]
 			dependencies: [
 				"3CA85459EABDA11E"
 				"5A250FD54B5D5215"
@@ -1199,9 +1187,9 @@
 			y: 4.25d
 			shape: "square"
 			description: [
-				"&bThe Crafter&r is a block that crafts items with patterns. It can take speed upgrades to increase the crafting speed."
+				"&bThe Iron Crafter&r and it's upgrades are all upgraded version of the regular crafter, each having more patern slots."
 				""
-				"Can hold 27 patterns."
+				"&bThe Iron Crafter&r can hold 27 patterns."
 			]
 			dependencies: [
 				"0E08A1DEE423C8EC"
@@ -1257,7 +1245,7 @@
 		{
 			x: -10.75d
 			y: -16.0d
-			description: ["&bThe Processor&r is used to craft the various Refined Storage devices."]
+			description: ["&bThe Processors&r are used to craft the various Refined Storage devices."]
 			dependencies: ["15865A4733956F1D"]
 			id: "040BA26E02982BB4"
 			tasks: [{
@@ -1757,7 +1745,7 @@
 			x: -13.0d
 			y: 0.25d
 			shape: "diamond"
-			description: ["With this upgrade you can access your Storage System over an &dInfinite Range&r. "]
+			description: ["With this upgrade you can access to your Storage System over an &dInfinite Range&r. "]
 			dependencies: ["41560052D944E372"]
 			id: "6CF56E109FEF8065"
 			tasks: [{
@@ -1770,7 +1758,7 @@
 			x: -13.0d
 			y: 1.25d
 			shape: "diamond"
-			description: ["Same as Infinity Upgrade but with this upgrade you can access to your Storage System &dAccross Dimensions&r and with an &dInfinite Range&r !"]
+			description: ["Same as the Infinity Upgrade but with this upgrade you can access to your Storage System &dAccross Dimensions&r and with an &dInfinite Range&r !"]
 			dependencies: ["6CF56E109FEF8065"]
 			id: "0E2E1BC262FC4B46"
 			tasks: [{
