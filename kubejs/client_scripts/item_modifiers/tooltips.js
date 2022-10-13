@@ -72,21 +72,82 @@ onEvent('item.tooltip', (event) => {
             text: [Text.of('Extremely hot!').darkRed()]
         },
         {
-            items: [
-                'resourcefulbees:t1_beehive',
-                'resourcefulbees:t2_beehive',
-                'resourcefulbees:t3_beehive',
-                'resourcefulbees:t4_beehive'
-            ],
+            items: ['clockout:clockout_block'],
+            text: [Text.of(`Outputs redstone when the player is online.`).aqua()]
+        },
+        {
+            items: ['kubejs:creative_catalyst'],
+            text: [Text.of(`Obtain in the Void ore miner from Tier 8 in The End`).gold()]
+        },
+        {
+            items: ['projecte:high_covalence_dust'],
             text: [
-                Text.of(`Tiered Beehives have been depreciated.`).red(),
-                Text.of(`Use the Hive Upgrade items on nests found in the world instead.`).red(),
-                Text.of(`Tiered Beehives can be converted to Hive Upgrades in a crafting grid.`).red()
+              Text.of(`Obtain in the Void ore miner from Tier 5 in The End`).gold(),
+              Text.of(`More drop with Blue Lens`).blue()
             ]
         },
         {
-            items: ['clockout:clockout_block'],
-            text: [Text.of(`Outputs redstone when the player is online.`).aqua()]
+            items: ['projecte:low_covalence_dust'],
+            text: [
+              Text.of(`Obtain in the Void ore miner from Tier 5 in The End`).gold(),
+              Text.of(`More drop with Lime Lens`).green()
+            ]
+        },
+        {
+            items: ['projecte:medium_covalence_dust'],
+            text: [
+              Text.of(`Obtain in the Void ore miner from Tier 5 in The End`).gold(),
+              Text.of(`More drop with Cyan Lens`).aqua()
+            ]
+        },
+        {
+            items: ['ironjetpacks:nitro_cell'],
+            text: [
+              Text.of(`Obtain in the Void ore miner from Tier 6 in The End`).gold(),
+              Text.of(`More drop with Red Lens`).red()
+            ]
+        },
+        {
+            items: ['ironjetpacks:nitro_thruster'],
+            text: [
+              Text.of(`Obtain in the Void ore miner from Tier 6 in The End`).gold(),
+              Text.of(`More drop with Red Lens`).red()
+            ]
+        },
+        {
+            items: ['create:andesite_alloy'],
+            text: [
+              Text.of(`You can also get it in the Void ore miner`).gold(),
+              Text.of(`More drop with Gray Lens`).gray()
+            ]
+        },
+        {
+            items: ['emendatusenigmatica:coke_gem'],
+            text: [
+              Text.of(`You can also get it in the Void ore miner from Tier 4`).gold(),
+              Text.of(`More drop with Black Lens`).black()
+            ]
+        },
+        {
+            items: ['powah:dielectric_paste'],
+            text: [
+              Text.of(`You can also get it in the Void ore miner from Tier 7`).gold(),
+              Text.of(`More drop with Black Lens`).black()
+            ]
+        },
+        {
+            items: ['occultism:otherstone'],
+            text: [
+              Text.of(`You can also get it in the Void ore miner`).gold(),
+              Text.of(`More drop with Black Lens`).black()
+            ]
+        },
+        {
+            items: ['occultism:otherworld_log'],
+            text: [
+              Text.of(`You can also get it in the Void ore miner`).gold(),
+              Text.of(`More drop with Purple Lens`).darkPurple()
+            ]
         }
     ];
 
