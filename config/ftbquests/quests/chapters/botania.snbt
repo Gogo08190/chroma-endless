@@ -1,7 +1,7 @@
 {
 	id: "31294A053EAA9FF3"
 	group: "34085A64296DE6C7"
-	order_index: 14
+	order_index: 13
 	filename: "botania"
 	title: "Botania"
 	icon: {
@@ -815,7 +815,7 @@
 		}
 		{
 			x: 1.5d
-			y: -2.75d
+			y: -2.5d
 			dependencies: [
 				"366B41D084311452"
 				"68E7A3D70265EBF0"
@@ -1492,6 +1492,133 @@
 						soulbindUUID: "831a44ac-a31b-4a60-9fc4-e1300b3f55e0"
 					}
 				}
+			}]
+		}
+		{
+			x: 4.25d
+			y: 3.0d
+			dependencies: ["69E268DB0F8CB0A3"]
+			id: "40EAF924DE3DA1C0"
+			tasks: [{
+				id: "3A23968D85BC21B2"
+				type: "item"
+				item: "botania:thorn_chakram"
+			}]
+		}
+		{
+			title: "Flare Chakram"
+			x: 5.5d
+			y: 3.0d
+			dependencies: ["40EAF924DE3DA1C0"]
+			id: "19312DC657954D6E"
+			tasks: [{
+				id: "736DAEAB942D56FA"
+				type: "item"
+				item: "botania:flare_chakram"
+				count: 2L
+			}]
+		}
+		{
+			x: 19.5d
+			y: -5.75d
+			dependencies: ["42856B5A8C028800"]
+			id: "7E223B6D17137FBB"
+			tasks: [{
+				id: "77E1317ABB85AF7D"
+				type: "item"
+				item: "botania:corporea_retainer"
+			}]
+		}
+		{
+			x: 18.5d
+			y: -5.75d
+			dependencies: ["42856B5A8C028800"]
+			id: "2CDBBA552E150934"
+			tasks: [{
+				id: "23E2AC1D4E3CE445"
+				type: "item"
+				item: "botania:corporea_crystal_cube"
+			}]
+		}
+		{
+			x: 18.5d
+			y: -6.75d
+			dependencies: ["42856B5A8C028800"]
+			id: "29A5558CA25B41E3"
+			tasks: [{
+				id: "2DCFA9483CC77364"
+				type: "item"
+				item: "botania:corporea_spark_master"
+			}]
+		}
+		{
+			x: 19.5d
+			y: -6.75d
+			dependencies: ["42856B5A8C028800"]
+			id: "68A769C216C2280F"
+			tasks: [{
+				id: "0726A60792478370"
+				type: "item"
+				item: "botania:corporea_spark"
+			}]
+		}
+		{
+			x: 20.5d
+			y: -6.75d
+			dependencies: ["42856B5A8C028800"]
+			id: "372795CDA256037C"
+			tasks: [{
+				id: "44DC5EF7ED3FEA43"
+				type: "item"
+				item: "botania:corporea_index"
+			}]
+		}
+		{
+			x: 21.5d
+			y: -6.75d
+			dependencies: ["42856B5A8C028800"]
+			id: "729FC7F4D0CEE17D"
+			tasks: [{
+				id: "0430C189C27F2D2B"
+				type: "item"
+				item: "botania:corporea_funnel"
+			}]
+		}
+		{
+			x: 20.5d
+			y: -5.75d
+			dependencies: ["42856B5A8C028800"]
+			id: "46EEDB03B0987EF9"
+			tasks: [{
+				id: "7FDB14BE2AD3F763"
+				type: "item"
+				item: "botania:corporea_interceptor"
+			}]
+		}
+		{
+			x: 17.0d
+			y: -6.75d
+			description: [
+				"The &aCorporea&r system uses the energy of the &aEnd&r, and the void between worlds, to transport items from point A to point B instantly without intervening blocks.The system, at its core, uses variant &5Sparks&r (called &5Corporea Sparks&r) that transport items instead of &aMana&r."
+				""
+				"A few things to know: &5Corporea Sparks&r are placed over &aInventories&r (like a &5Chest&r or &5Dispenser&r), as opposed to &aMana Containers&r. There are two types of &5Corporea Sparks&r: the plain old &5Corporea Spark&r, and the &5Master Corporea Spark&r. These Sparks work in networks: each &aCorporea Network&r needs one &5Master Corporea Spark&r, but any spark can communicate with any other in the network."
+				""
+				"When a &5Corporea Spark&r is placed or right-clicked, each spark in the network will connect (or reconnect) to nearby sparks, adding them to the network (as long as a &5Master Corporea Spark&r is somewhere in the network). While each individual spark's connection range is only around eight blocks, the entire spark network can go for a virtually infinite distance."
+				""
+				"A &5Corporea Spark&r can see the inventory directly beneath it, but can only access items from its top side. Each &5Corporea Spark&r can see the items of every other spark in the network, and certain blocks can use their Sparks to request items from the network."
+				""
+				"The &5Master Corporea Spark&r, unfortunately, is too busy managing the network to see its own inventory.Furthermore, &5Corporea Sparks&r can't push items into their respective inventories; those should be added through means like &5Hoppers&r."
+				""
+				"Like normal &5Sparks&r, &5Corporea Sparks&r can be dyed with &5Dye&r; the little star icon floating around the spark shows its current color. &5Corporea Sparks&r of different colors won't interact. Thus, multiple independent Networks can be in an area without interacting."
+				""
+				"Visualizing a Network and removing a spark from a container are performed the same way they are on ordinary &5Sparks&r.Note that having two &5Master Corporea Sparks&r in the same network is a bad idea and can cause &oundefined behavior&r."
+			]
+			min_width: 400
+			id: "42856B5A8C028800"
+			tasks: [{
+				id: "3C5A2C5C7C3D3787"
+				type: "checkmark"
+				title: "Basics of Corporea"
 			}]
 		}
 	]

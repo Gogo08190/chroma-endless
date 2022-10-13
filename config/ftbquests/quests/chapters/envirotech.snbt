@@ -6,6 +6,32 @@
 	title: "EnviroTech"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 6.25d
+			y: -10.75d
+			width: 10.0d
+			height: 12.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/lens_chunk.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 19.0d
+			y: -10.75d
+			width: 10.0d
+			height: 12.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/lens_ore.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
 			x: -6.0d
@@ -554,6 +580,7 @@
 		{
 			x: 3.5d
 			y: 0.25d
+			dependencies: ["2530752B6D0A80C3"]
 			id: "41B58B3AE1C8AC68"
 			tasks: [{
 				id: "26D0C6F7A046BB58"
@@ -564,6 +591,7 @@
 		{
 			x: 4.5d
 			y: 0.25d
+			dependencies: ["4064A650842130A9"]
 			id: "5A8DC34306E3611C"
 			tasks: [{
 				id: "31BDE178BD651223"
@@ -574,6 +602,7 @@
 		{
 			x: 5.5d
 			y: 0.25d
+			dependencies: ["3F4C7780DB78732F"]
 			id: "1F4F644F031BF322"
 			tasks: [{
 				id: "1E2659A8984C00AB"
@@ -584,6 +613,7 @@
 		{
 			x: 6.5d
 			y: 0.25d
+			dependencies: ["0FB1E08909378867"]
 			id: "62D70E7FDD7AC85C"
 			tasks: [{
 				id: "3931F5277290012D"
@@ -594,6 +624,7 @@
 		{
 			x: 7.5d
 			y: 0.25d
+			dependencies: ["51A865804BE34E1F"]
 			id: "0DA4BB6121CB2B87"
 			tasks: [{
 				id: "29382E372CAAD20E"
@@ -604,6 +635,7 @@
 		{
 			x: 8.5d
 			y: 0.25d
+			dependencies: ["6D5FA44C1427C6C0"]
 			id: "5D74D945848445C2"
 			tasks: [{
 				id: "5EA08D4A6FA1F6A2"
@@ -614,6 +646,7 @@
 		{
 			x: 9.5d
 			y: 0.25d
+			dependencies: ["0264AA0CFBD9FC84"]
 			id: "1E0C9B0DACFD17B4"
 			tasks: [{
 				id: "09A70524125D2FD7"
@@ -624,6 +657,7 @@
 		{
 			x: 3.5d
 			y: 1.25d
+			dependencies: ["41B58B3AE1C8AC68"]
 			id: "1A40B5EAD92BE894"
 			tasks: [{
 				id: "0190DB38B8FF2333"
@@ -634,6 +668,7 @@
 		{
 			x: 5.5d
 			y: 1.25d
+			dependencies: ["1F4F644F031BF322"]
 			id: "4A9D2B30BD434476"
 			tasks: [{
 				id: "701AEAE99D9E0297"
@@ -644,6 +679,7 @@
 		{
 			x: 4.5d
 			y: 1.25d
+			dependencies: ["5A8DC34306E3611C"]
 			id: "4328FFF03A35CF1B"
 			tasks: [{
 				id: "7F45BAB899F3A2FD"
@@ -654,6 +690,7 @@
 		{
 			x: 2.5d
 			y: 1.25d
+			dependencies: ["29787E2FE68792C3"]
 			id: "3C62FDA88FDDD092"
 			tasks: [{
 				id: "704B1BD27C7C6F7C"
@@ -664,6 +701,7 @@
 		{
 			x: 6.5d
 			y: 1.25d
+			dependencies: ["62D70E7FDD7AC85C"]
 			id: "713A60575A232115"
 			tasks: [{
 				id: "13C295FF2B05CFCC"
@@ -674,6 +712,7 @@
 		{
 			x: 7.5d
 			y: 1.25d
+			dependencies: ["0DA4BB6121CB2B87"]
 			id: "194C8CF161DEF028"
 			tasks: [{
 				id: "7346946A36ABE083"
@@ -684,6 +723,7 @@
 		{
 			x: 8.5d
 			y: 1.25d
+			dependencies: ["5D74D945848445C2"]
 			id: "0C08ADC54CEA40EB"
 			tasks: [{
 				id: "6DDDA41A85E52AC0"
@@ -694,6 +734,7 @@
 		{
 			x: 9.5d
 			y: 1.25d
+			dependencies: ["1E0C9B0DACFD17B4"]
 			id: "203400A10830C4FB"
 			tasks: [{
 				id: "0F65B605BEB16B71"
@@ -704,6 +745,10 @@
 		{
 			x: 2.5d
 			y: 2.25d
+			dependencies: [
+				"3C62FDA88FDDD092"
+				"204DB31D0BD2FC23"
+			]
 			id: "537E2B2EF349FEFA"
 			tasks: [{
 				id: "15620F94E5B868B4"
@@ -714,6 +759,10 @@
 		{
 			x: 3.5d
 			y: 2.25d
+			dependencies: [
+				"1A40B5EAD92BE894"
+				"41B58B3AE1C8AC68"
+			]
 			id: "7DEAC56E3E03B455"
 			tasks: [{
 				id: "376009638A5A47CC"
@@ -724,6 +773,10 @@
 		{
 			x: 4.5d
 			y: 2.25d
+			dependencies: [
+				"4328FFF03A35CF1B"
+				"5A8DC34306E3611C"
+			]
 			id: "07332F88E56415EC"
 			tasks: [{
 				id: "33C02D323D67E8B8"
@@ -734,6 +787,10 @@
 		{
 			x: 5.5d
 			y: 2.25d
+			dependencies: [
+				"4A9D2B30BD434476"
+				"1F4F644F031BF322"
+			]
 			id: "3A6877DCA53D9C3A"
 			tasks: [{
 				id: "2610B7F59C31DF14"
@@ -744,6 +801,10 @@
 		{
 			x: 6.5d
 			y: 2.25d
+			dependencies: [
+				"713A60575A232115"
+				"62D70E7FDD7AC85C"
+			]
 			id: "1DF9D6BE206457CA"
 			tasks: [{
 				id: "47168E00B409EE60"
@@ -754,6 +815,10 @@
 		{
 			x: 7.5d
 			y: 2.25d
+			dependencies: [
+				"194C8CF161DEF028"
+				"0DA4BB6121CB2B87"
+			]
 			id: "03A9E3D0BAAE65B9"
 			tasks: [{
 				id: "43350FEFDE0C6C9A"
@@ -764,6 +829,10 @@
 		{
 			x: 8.5d
 			y: 2.25d
+			dependencies: [
+				"0C08ADC54CEA40EB"
+				"5D74D945848445C2"
+			]
 			id: "0B9F6E3C614A1266"
 			tasks: [{
 				id: "0D7B3AC1BB235A0C"
@@ -774,6 +843,10 @@
 		{
 			x: 9.5d
 			y: 2.25d
+			dependencies: [
+				"203400A10830C4FB"
+				"1E0C9B0DACFD17B4"
+			]
 			id: "5C25792BCC99B805"
 			tasks: [{
 				id: "1268EDD5B1F41472"
@@ -784,6 +857,10 @@
 		{
 			x: 2.5d
 			y: 3.25d
+			dependencies: [
+				"6B4110A5FF52ABE8"
+				"537E2B2EF349FEFA"
+			]
 			id: "34292F07E0ACEF5C"
 			tasks: [{
 				id: "496F7B8413C3540A"
@@ -794,6 +871,10 @@
 		{
 			x: 3.5d
 			y: 3.25d
+			dependencies: [
+				"6B4110A5FF52ABE8"
+				"7DEAC56E3E03B455"
+			]
 			id: "129E7B5DDCBC2B71"
 			tasks: [{
 				id: "46D42596F6B76516"
@@ -804,6 +885,10 @@
 		{
 			x: 4.5d
 			y: 3.25d
+			dependencies: [
+				"6B4110A5FF52ABE8"
+				"07332F88E56415EC"
+			]
 			id: "3E9110BE61953C2F"
 			tasks: [{
 				id: "625CA4EBF56212BE"
@@ -814,6 +899,10 @@
 		{
 			x: 5.5d
 			y: 3.25d
+			dependencies: [
+				"6B4110A5FF52ABE8"
+				"3A6877DCA53D9C3A"
+			]
 			id: "4993566AC36F0E84"
 			tasks: [{
 				id: "09D6F988F971AA44"
@@ -824,6 +913,10 @@
 		{
 			x: 6.5d
 			y: 3.25d
+			dependencies: [
+				"6B4110A5FF52ABE8"
+				"1DF9D6BE206457CA"
+			]
 			id: "2F54FF8929742720"
 			tasks: [{
 				id: "38A083E3E16078B9"
@@ -834,6 +927,10 @@
 		{
 			x: 7.5d
 			y: 3.25d
+			dependencies: [
+				"6B4110A5FF52ABE8"
+				"03A9E3D0BAAE65B9"
+			]
 			id: "5D36A963B630388A"
 			tasks: [{
 				id: "48EF1241B619D981"
@@ -844,6 +941,10 @@
 		{
 			x: 8.5d
 			y: 3.25d
+			dependencies: [
+				"6B4110A5FF52ABE8"
+				"0B9F6E3C614A1266"
+			]
 			id: "0178887D79B8FAA7"
 			tasks: [{
 				id: "4EB5B8A2BEEDBDDA"
@@ -854,6 +955,10 @@
 		{
 			x: 9.5d
 			y: 3.25d
+			dependencies: [
+				"6B4110A5FF52ABE8"
+				"5C25792BCC99B805"
+			]
 			id: "5E8E2C5F708C650C"
 			tasks: [{
 				id: "791DB8C07B4C4898"
@@ -864,6 +969,11 @@
 		{
 			x: 2.5d
 			y: 4.25d
+			dependencies: [
+				"509BB4FBE8A13799"
+				"204DB31D0BD2FC23"
+				"3199AB49342B0F4F"
+			]
 			id: "5E5D6DA74DC6FE43"
 			tasks: [{
 				id: "02A9CE766673FF98"
@@ -874,6 +984,11 @@
 		{
 			x: 3.5d
 			y: 4.25d
+			dependencies: [
+				"509BB4FBE8A13799"
+				"41B58B3AE1C8AC68"
+				"5E5D6DA74DC6FE43"
+			]
 			id: "3D9C2717B58BD67A"
 			tasks: [{
 				id: "4327E89D1694D9DB"
@@ -884,6 +999,11 @@
 		{
 			x: 4.5d
 			y: 4.25d
+			dependencies: [
+				"509BB4FBE8A13799"
+				"3D9C2717B58BD67A"
+				"5A8DC34306E3611C"
+			]
 			id: "00A5E4C7804456BD"
 			tasks: [{
 				id: "4226CE0FA969DB89"
@@ -894,6 +1014,11 @@
 		{
 			x: 5.5d
 			y: 4.25d
+			dependencies: [
+				"509BB4FBE8A13799"
+				"00A5E4C7804456BD"
+				"1F4F644F031BF322"
+			]
 			id: "10047618C2CF4601"
 			tasks: [{
 				id: "1AF9B16E365AC3FB"
@@ -904,6 +1029,11 @@
 		{
 			x: 6.5d
 			y: 4.25d
+			dependencies: [
+				"509BB4FBE8A13799"
+				"10047618C2CF4601"
+				"62D70E7FDD7AC85C"
+			]
 			id: "1B8E162EDCFB8AE9"
 			tasks: [{
 				id: "0D7B2B4D0560F282"
@@ -914,6 +1044,11 @@
 		{
 			x: 7.5d
 			y: 4.25d
+			dependencies: [
+				"509BB4FBE8A13799"
+				"1B8E162EDCFB8AE9"
+				"0DA4BB6121CB2B87"
+			]
 			id: "674EC72A3443B266"
 			tasks: [{
 				id: "03257376D4E82641"
@@ -924,6 +1059,11 @@
 		{
 			x: 8.5d
 			y: 4.25d
+			dependencies: [
+				"509BB4FBE8A13799"
+				"674EC72A3443B266"
+				"5D74D945848445C2"
+			]
 			id: "77669127763D62EB"
 			tasks: [{
 				id: "0F8AFBB6DC68A8C2"
@@ -934,6 +1074,11 @@
 		{
 			x: 9.5d
 			y: 4.25d
+			dependencies: [
+				"509BB4FBE8A13799"
+				"77669127763D62EB"
+				"1E0C9B0DACFD17B4"
+			]
 			id: "1AE554062A3D1379"
 			tasks: [{
 				id: "13D46F3D98A266A6"
@@ -1022,8 +1167,10 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 7.0d
+			x: 16.25d
+			y: 5.25d
+			shape: "diamond"
+			size: 2.0d
 			id: "5406C09C6DB130BD"
 			tasks: [{
 				id: "4837EBC204717E9B"
@@ -1036,8 +1183,10 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 7.0d
+			x: 17.25d
+			y: 4.75d
+			shape: "diamond"
+			dependencies: ["5406C09C6DB130BD"]
 			id: "2831181500FBDEC6"
 			tasks: [{
 				id: "07C44A753891C394"
@@ -1050,8 +1199,10 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 7.0d
+			x: 16.75d
+			y: 4.25d
+			shape: "diamond"
+			dependencies: ["5406C09C6DB130BD"]
 			id: "037BA9C3F1B0C7EA"
 			tasks: [{
 				id: "1DFFFFF4AEBB309E"
@@ -1064,8 +1215,10 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 7.0d
+			x: 15.75d
+			y: 4.25d
+			shape: "diamond"
+			dependencies: ["5406C09C6DB130BD"]
 			id: "1A7CC0A580388774"
 			tasks: [{
 				id: "64511A4F15158E9F"
@@ -1078,8 +1231,10 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 7.0d
+			x: 15.25d
+			y: 4.75d
+			shape: "diamond"
+			dependencies: ["5406C09C6DB130BD"]
 			id: "1967D5F7306D3183"
 			tasks: [{
 				id: "0CD10B35908085AE"
@@ -1092,8 +1247,10 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 7.0d
+			x: 17.25d
+			y: 5.75d
+			shape: "diamond"
+			dependencies: ["5406C09C6DB130BD"]
 			id: "47CEBC6AE35AD53F"
 			tasks: [{
 				id: "318B3C8B982A77C3"
@@ -1106,8 +1263,10 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 7.0d
+			x: 16.75d
+			y: 6.25d
+			shape: "diamond"
+			dependencies: ["5406C09C6DB130BD"]
 			id: "614D3ED31930538C"
 			tasks: [{
 				id: "6F4CEAA9544EC5C2"
@@ -1120,8 +1279,10 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 7.0d
+			x: 16.25d
+			y: 6.75d
+			shape: "diamond"
+			dependencies: ["5406C09C6DB130BD"]
 			id: "2A8A2FC13E6647E9"
 			tasks: [{
 				id: "1903ADD7C4A11231"
@@ -1134,8 +1295,10 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 7.0d
+			x: 15.25d
+			y: 5.75d
+			shape: "diamond"
+			dependencies: ["5406C09C6DB130BD"]
 			id: "025D475038BBD548"
 			tasks: [{
 				id: "5868321E6AD99060"
@@ -1148,8 +1311,10 @@
 			}]
 		}
 		{
-			x: 11.5d
-			y: 7.0d
+			x: 15.75d
+			y: 6.25d
+			shape: "diamond"
+			dependencies: ["5406C09C6DB130BD"]
 			id: "216A31F3813F7029"
 			tasks: [{
 				id: "4B4C94F92DD0AF73"
@@ -1230,11 +1395,167 @@
 		{
 			x: 2.5d
 			y: 0.25d
+			dependencies: ["6C1CDB642DADEA2F"]
 			id: "204DB31D0BD2FC23"
 			tasks: [{
 				id: "5F2565CC78061527"
 				type: "item"
 				item: "envirocore:litherite_crystal"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.25d
+			dependencies: [
+				"509BB4FBE8A13799"
+				"6C056E8AF56BEE37"
+				"6F0F3A66173096A7"
+			]
+			id: "3199AB49342B0F4F"
+			tasks: [{
+				id: "42939D5652AF7248"
+				type: "item"
+				item: "envirocore:redstone_imbued_obsidian_plate"
+			}]
+		}
+		{
+			title: "Cutting Machine Factory Component - Part 1"
+			icon: "masterfulmachinery:cuttingmachine_controller"
+			x: -7.5d
+			y: 4.25d
+			shape: "gear"
+			min_width: 300
+			id: "0A2DF111E5396620"
+			tasks: [
+				{
+					id: "31D0CB975E6690F7"
+					type: "item"
+					item: "pneumaticcraft:assembly_drill"
+				}
+				{
+					id: "7A2258A071CCECC0"
+					type: "item"
+					item: "pneumaticcraft:assembly_io_unit_import"
+				}
+				{
+					id: "09CF869BA1BDE293"
+					type: "item"
+					item: "pneumaticcraft:assembly_io_unit_export"
+				}
+				{
+					id: "2886D648589E8111"
+					type: "item"
+					item: "pneumaticcraft:assembly_laser"
+				}
+				{
+					id: "060D161E535BCD61"
+					type: "item"
+					item: "thermal:lumium_glass"
+					count: 3L
+				}
+				{
+					id: "2E992CA7B114C0A9"
+					type: "item"
+					item: "create:belt_connector"
+					count: 2L
+				}
+				{
+					id: "2DD21FE9675F6DE3"
+					type: "item"
+					item: "create:mechanical_saw"
+				}
+				{
+					id: "166678D1ACC9A72A"
+					type: "item"
+					item: "immersiveengineering:metal_ladder_none"
+					count: 4L
+				}
+				{
+					id: "284823AEE5AC065B"
+					type: "item"
+					item: "enviromats:alabaster_gray_polished"
+					count: 64L
+				}
+				{
+					id: "1611CB511412921E"
+					type: "item"
+					item: "pneumaticcraft:security_station"
+					count: 2L
+				}
+				{
+					id: "35174D7F01FEF348"
+					type: "item"
+					item: "create:shaft"
+					count: 4L
+				}
+				{
+					id: "360F4E5E00768557"
+					type: "item"
+					item: "engineersdecor:steel_railing"
+					count: 28L
+				}
+				{
+					id: "3293E5DB6FFF68CE"
+					type: "item"
+					item: "immersiveengineering:steel_slope"
+					count: 23L
+				}
+				{
+					id: "74856E6C98690776"
+					type: "item"
+					item: "envirocore:structure_panel"
+					count: 27L
+				}
+				{
+					id: "481512D6945BB0B9"
+					type: "item"
+					item: "pneumaticcraft:compressed_brick_stairs"
+					count: 4L
+				}
+			]
+		}
+		{
+			title: "Cutting Machine Factory Component - Part 2"
+			icon: "masterfulmachinery:cuttingmachine_controller"
+			x: -6.5d
+			y: 4.25d
+			shape: "gear"
+			id: "14550162EEE40261"
+			tasks: [
+				{
+					id: "2FAAEA178F323F2F"
+					type: "item"
+					item: "masterfulmachinery:cuttingmachine_controller"
+				}
+				{
+					id: "4532503941490E4F"
+					type: "item"
+					item: "masterfulmachinery:cuttingmachine_cuttingmachine_item_port_items_input"
+				}
+				{
+					id: "58953BD484FD2193"
+					type: "item"
+					item: "masterfulmachinery:cuttingmachine_cuttingmachine_item_port_items_output"
+				}
+				{
+					id: "2A989C9D6945795A"
+					type: "item"
+					item: "masterfulmachinery:cuttingmachine_cuttingmachine_speed_port_create_rotation_input"
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 5.25d
+			dependencies: [
+				"14550162EEE40261"
+				"0A2DF111E5396620"
+			]
+			id: "6B4110A5FF52ABE8"
+			tasks: [{
+				id: "1C1D452D6BC3A640"
+				type: "checkmark"
+				title: "Build The Cutting Machine Factory"
 			}]
 		}
 	]

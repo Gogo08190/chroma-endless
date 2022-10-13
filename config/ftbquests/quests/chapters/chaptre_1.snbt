@@ -1,0 +1,1504 @@
+{
+	id: "7A987BD58A43D7F3"
+	group: "0889EAB460A6BD29"
+	order_index: 0
+	filename: "chaptre_1"
+	title: "Chapter 1"
+	icon: "minecraft:grass_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "First of all: &#806517Logs&r"
+			x: -6.5d
+			y: -11.75d
+			shape: "gear"
+			subtitle: "Logging time!"
+			description: [
+				"Cut down a tree to collect &#806517logs&r (any &#806517logs&r work)."
+				"Pro tip: don't forget FTB Ultimine!"
+			]
+			size: 2.0d
+			id: "5818D79835BC71DA"
+			tasks: [{
+				id: "56E33A3A0C9966C3"
+				type: "item"
+				title: "4x Logs"
+				icon: "minecraft:oak_log"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "13211B8EB62FC150"
+					type: "item"
+					item: "minecraft:oak_planks"
+					count: 16
+				}
+				{
+					id: "515F0FCF114DABA7"
+					type: "random"
+					table_id: 3261296973996135385L
+				}
+			]
+		}
+		{
+			title: "Second of all: &#5F6366Flints&r"
+			x: -3.5d
+			y: -11.75d
+			shape: "gear"
+			subtitle: "Careful, you risk to burn everything."
+			description: ["Several ways to get flint, but which one to choose? Maybe JEI can tell you; although at the beginning we advise you to ultimine gravel or craft it with 3."]
+			size: 2.0d
+			id: "506463BEE4D51982"
+			tasks: [{
+				id: "1F6AD2EF12A9D3E0"
+				type: "item"
+				title: "2x Flints"
+				item: "minecraft:flint"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "26206B2E6D205C79"
+					type: "item"
+					item: "minecraft:gravel"
+					count: 8
+				}
+				{
+					id: "7CEEEBB18A7DC5A5"
+					type: "random"
+					table_id: 3261296973996135385L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -8.5d
+			shape: "square"
+			subtitle: "The beginning of serious things."
+			dependencies: [
+				"5818D79835BC71DA"
+				"506463BEE4D51982"
+			]
+			size: 2.75d
+			id: "1C7C41C2FA427B8F"
+			tasks: [{
+				id: "59AD33D92E98AE40"
+				type: "item"
+				title: "&#806517Crafting Table&r"
+				item: "minecraft:crafting_table"
+			}]
+		}
+		{
+			x: 2.25d
+			y: -6.5d
+			shape: "hexagon"
+			description: [
+				"To mine 3x3 area, Thchonic Extractor must be applied as the second head by a tool."
+				""
+				"Can be found in structures deep underground in cold or montainous biomes."
+			]
+			dependencies: ["58BB878B4B44751B"]
+			optional: true
+			id: "07EC7C1324CB7A8F"
+			tasks: [{
+				id: "1536689C16ABE952"
+				type: "item"
+				item: "tetra:chthonic_extractor"
+			}]
+		}
+		{
+			x: 2.25d
+			y: -5.0d
+			dependencies: ["5D0B6B773A9696D4"]
+			optional: true
+			id: "58BB878B4B44751B"
+			tasks: [{
+				id: "3F35FC8F90AA2915"
+				type: "item"
+				item: "tetra:forged_container"
+			}]
+		}
+		{
+			title: "Useful Stuff"
+			x: 4.0d
+			y: -5.0d
+			shape: "diamond"
+			description: ["Can be found in structures deep underground in cold or montainous biomes."]
+			dependencies: ["58BB878B4B44751B"]
+			optional: true
+			id: "6DBE971A354DF307"
+			tasks: [
+				{
+					id: "1BA94223944E4574"
+					type: "item"
+					item: "tetra:metal_scrap"
+				}
+				{
+					id: "6EE14B532BBD2C68"
+					type: "item"
+					item: "tetra:forged_mesh"
+				}
+				{
+					id: "4F1C1D410248F6CE"
+					type: "item"
+					item: "tetra:quick_latch"
+				}
+				{
+					id: "64075E80DBDDD44B"
+					type: "item"
+					item: "tetra:forged_beam"
+				}
+				{
+					id: "3DA22FE12EEDA325"
+					type: "item"
+					item: "tetra:forged_bolt"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -6.0d
+			shape: "diamond"
+			description: [
+				"The Earthpiercer is a multi-purpose tool(Pickaxe \\& Shovel)."
+				""
+				"Can be found in structures deep underground in cold or montainous biomes."
+			]
+			dependencies: ["58BB878B4B44751B"]
+			optional: true
+			id: "08D75A7E1BE46F39"
+			tasks: [{
+				id: "7AB59DB15363C104"
+				type: "item"
+				item: "tetra:earthpiercer"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.75d
+			shape: "diamond"
+			description: ["Can be found in structures deep underground in cold or montainous biomes."]
+			dependencies: ["58BB878B4B44751B"]
+			optional: true
+			id: "417C0D4BEE933760"
+			tasks: [{
+				id: "011198254130DFC1"
+				type: "item"
+				item: "tetra:stonecutter"
+			}]
+		}
+		{
+			x: 2.25d
+			y: -3.5d
+			description: ["Can be found in structures deep underground in cold or montainous biomes."]
+			dependencies: ["0291D01CF9820B1F"]
+			id: "5D0B6B773A9696D4"
+			tasks: [{
+				id: "7BD8828FC72D5E37"
+				type: "item"
+				title: "Hammer Upgrades"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tetra:combustion_chamber"
+								Count: 1b
+							}
+							{
+								id: "tetra:planar_stabilizer"
+								Count: 1b
+							}
+							{
+								id: "tetra:vent_plate"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 2.25d
+			y: -1.75d
+			shape: "square"
+			description: ["Can be found in structures deep underground in cold or montainous biomes."]
+			dependencies: ["0291D01CF9820B1F"]
+			id: "698D9EF9800A51F9"
+			tasks: [{
+				id: "75DB8BBA001DF6D3"
+				type: "item"
+				item: "tetra:hammer_base"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.75d
+			dependencies: [
+				"5D0B6B773A9696D4"
+				"698D9EF9800A51F9"
+				"11DF2D326A5E171F"
+			]
+			id: "778D8A8CFBEAD668"
+			tasks: [{
+				id: "1B9A1F1230633753"
+				type: "advancement"
+				title: "Obsidian Hammer"
+				advancement: "tetra:upgrades/hammer_5"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Tier 6"
+			x: 5.875d
+			y: -1.75d
+			shape: "pentagon"
+			dependencies: ["778D8A8CFBEAD668"]
+			size: 1.5d
+			id: "04B1E833C54711FF"
+			tasks: [{
+				id: "5EED575C460C31F4"
+				type: "advancement"
+				title: "Netherite Hammer"
+				advancement: "tetra:upgrades/hammer_6"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Thermal Cells"
+			x: 2.25d
+			y: 0.0d
+			description: ["Can be found in structures deep underground in cold or montainous biomes."]
+			dependencies: ["0291D01CF9820B1F"]
+			id: "11DF2D326A5E171F"
+			tasks: [{
+				id: "7B95F0BD72AE0716"
+				type: "item"
+				item: {
+					id: "tetra:magmatic_cell"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				count: 2L
+			}]
+		}
+		{
+			title: "Tier 4"
+			x: 0.5d
+			y: -1.75d
+			dependencies: ["27065E76761830EC"]
+			id: "0291D01CF9820B1F"
+			tasks: [{
+				id: "647C29B1EB61BFDA"
+				type: "advancement"
+				title: "Blackstone Hammer"
+				advancement: "tetra:upgrades/hammer_4"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Tier 3"
+			x: -0.75d
+			y: -1.75d
+			dependencies: ["647694B5D937B505"]
+			id: "27065E76761830EC"
+			tasks: [{
+				id: "3CA2E4190C5F20EE"
+				type: "advancement"
+				title: "Iron Hammer"
+				advancement: "tetra:upgrades/hammer_3"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Tetra's Hammer"
+			x: -3.5d
+			y: -1.75d
+			description: [
+				"Tetra revolves around modular items and attempting to blend it together with other concepts such as adventure and technology."
+				""
+				"Tetra allows you to replace parts of items with different parts of different types and materials, some parts can also be improved. Which parts you may use is limited by the items capacity, called integrity. Some parts increase an items integrity while some parts has an integrity cost. Some parts require tools of differing quality to craft."
+				""
+				"Getting Started:"
+				"1) Craft a Wooden Hammer using two sticks and two planks"
+				"2) Craft and place a vanilla crafting table"
+				"3) Right click the table with the hammer to upgrade it into a workbench"
+				"4) Craft a vanilla weapon, tool shield or a bow and place it in the workbench"
+			]
+			dependencies: [
+				"5905919B35D651A5"
+				"53D7FCF8BE62ACFC"
+			]
+			dependency_requirement: "one_completed"
+			min_required_tasks: 300
+			id: "7A3D3399611B2809"
+			tasks: [{
+				id: "79F9270891EB823F"
+				type: "item"
+				item: {
+					id: "tetra:modular_double"
+					Count: 1b
+					tag: {
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						"double/basic_hammer_right_material": "basic_hammer/oak"
+						Damage: 0
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/basic_hammer_left_material": "basic_hammer/oak"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.25d
+			y: -3.75d
+			description: ["Eye of Ender combined with Holosphere in workbench will help you to find Forges easier."]
+			dependencies: ["7A3D3399611B2809"]
+			id: "38D63D2A59047069"
+			tasks: [{
+				id: "52F29CF4ED25976D"
+				type: "item"
+				item: {
+					id: "tetra:holo"
+					Count: 1b
+					tag: {
+						"holo/core_material": "frame/dim"
+						"holo/frame": "holo/frame"
+						"holo/core": "holo/core"
+						"holo/frame_material": "core/ancient"
+					}
+				}
+			}]
+		}
+		{
+			title: "Tier 2"
+			x: -2.0d
+			y: -1.75d
+			dependencies: ["7A3D3399611B2809"]
+			id: "647694B5D937B505"
+			tasks: [{
+				id: "1FC0E87BEBAB1844"
+				type: "advancement"
+				title: "Stone Hammer"
+				advancement: "tetra:upgrades/hammer_2"
+				criterion: ""
+			}]
+		}
+		{
+			title: "&#806517Wooden Tools&r"
+			x: -4.0d
+			y: -3.75d
+			subtitle: "Don't use this!"
+			dependencies: ["4F9CEE6539022521"]
+			id: "53D7FCF8BE62ACFC"
+			tasks: [
+				{
+					id: "25EE9037AE20F5DF"
+					type: "item"
+					title: "&#806517Wooden Pickaxe&r"
+					item: {
+						id: "minecraft:wooden_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2E70715A64E7B8A5"
+					type: "item"
+					title: "&#806517Wooden Axe&r"
+					item: {
+						id: "minecraft:wooden_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Tinkers' Construct / Tetra"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "tetra:textures/mob_effect/small_strength.png"
+				}
+			}
+			x: -5.0d
+			y: -5.75d
+			shape: "diamond"
+			description: [
+				"Vanilla tools only have 1 durability, so if you break a block with them, they will break."
+				"At first, you should use Tinkers' Construct or Tetra tools instead."
+				"In the following quests, there are two paths: Tinkers' Construct and Tetra. You can do both, or just one, and maybe the other one later; but in no case will you be blocked for the rest."
+				""
+				"Tinkers' Construct is at the left, and Tetra at the right."
+			]
+			dependencies: ["1C7C41C2FA427B8F"]
+			id: "4F9CEE6539022521"
+			tasks: [{
+				id: "5905919B35D651A5"
+				type: "checkmark"
+				title: "&aValidate&r"
+			}]
+		}
+		{
+			title: "Pattern"
+			x: -6.0d
+			y: -3.75d
+			dependencies: ["4F9CEE6539022521"]
+			id: "4CA0051417A86918"
+			tasks: [{
+				id: "13F06C8D3E995E47"
+				type: "item"
+				title: "Pattern"
+				item: "tconstruct:pattern"
+			}]
+		}
+		{
+			title: "Tinker's Stations"
+			x: -6.5d
+			y: -1.75d
+			shape: "square"
+			dependencies: ["4CA0051417A86918"]
+			size: 1.5d
+			id: "1E198C450382D37F"
+			tasks: [
+				{
+					id: "0A6F4773E9E68217"
+					type: "item"
+					item: "tconstruct:part_builder"
+				}
+				{
+					id: "3B618C986116C0DD"
+					type: "item"
+					item: "tconstruct:tinker_station"
+				}
+			]
+		}
+		{
+			title: "Tinker's Chests"
+			x: -8.5d
+			y: -1.25d
+			dependencies: ["72B3CFA86B00A3F2"]
+			id: "00E8D257D09E8DB9"
+			tasks: [
+				{
+					id: "2E4BDADE4854BD30"
+					type: "item"
+					item: "tconstruct:part_chest"
+				}
+				{
+					id: "34D992482B52460D"
+					type: "item"
+					item: "tconstruct:tinkers_chest"
+				}
+			]
+		}
+		{
+			x: -10.25d
+			y: -0.75d
+			hide_dependency_lines: true
+			dependencies: ["1C7C41C2FA427B8F"]
+			id: "706572395DE678AD"
+			tasks: [{
+				id: "54CC8EDE1D6BDAB7"
+				type: "item"
+				item: "tconstruct:flint_shuriken"
+			}]
+		}
+		{
+			title: "Traveler's Gear"
+			x: -10.25d
+			y: -1.75d
+			hide_dependency_lines: true
+			dependencies: ["4339BD51E04343A5"]
+			id: "49B73C45E3F76F48"
+			tasks: [
+				{
+					id: "3BE99CF7C0036140"
+					type: "item"
+					item: {
+						id: "tconstruct:travelers_helmet"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 110.0f
+								"tconstruct:armor": 1.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+						}
+					}
+				}
+				{
+					id: "6CCF05E89E2C54D5"
+					type: "item"
+					item: {
+						id: "tconstruct:travelers_chestplate"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 160.0f
+								"tconstruct:armor": 5.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+						}
+					}
+				}
+				{
+					id: "1B06659C63F2FBA9"
+					type: "item"
+					item: {
+						id: "tconstruct:travelers_leggings"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 150.0f
+								"tconstruct:armor": 4.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+						}
+					}
+				}
+				{
+					id: "7045A7B547142F49"
+					type: "item"
+					item: {
+						id: "tconstruct:travelers_boots"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 130.0f
+								"tconstruct:armor": 1.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -11.25d
+			y: -1.75d
+			hide_dependency_lines: true
+			dependencies: ["1C7C41C2FA427B8F"]
+			id: "7737CB8EF8917F0B"
+			tasks: [{
+				id: "3283E7C597D0D08F"
+				type: "item"
+				item: "tconstruct:efln_ball"
+			}]
+		}
+		{
+			x: -11.25d
+			y: -0.75d
+			hide_dependency_lines: true
+			dependencies: ["0A5605FD0BE42BAF"]
+			id: "1FC7780C404D3A5F"
+			tasks: [{
+				id: "0278E7E1AAD5AFF3"
+				type: "item"
+				item: "tconstruct:quartz_shuriken"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 4.0d
+			dependencies: ["26B79EAEB1274ED9"]
+			id: "171E5CDF2CB9C763"
+			tasks: [{
+				id: "30EF86E8C0FB1160"
+				type: "checkmark"
+				title: "Diamond Pickaxe or equivalent"
+			}]
+		}
+		{
+			x: -9.25d
+			y: 4.0d
+			dependencies: ["11EFAC50282A683E"]
+			id: "26B79EAEB1274ED9"
+			tasks: [{
+				id: "1F38AD356D6437F3"
+				type: "checkmark"
+				title: "Iron Pickaxe or equivalent"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 4.0d
+			dependencies: ["311247214F1D95B3"]
+			id: "11EFAC50282A683E"
+			tasks: [{
+				id: "40C08E7A481C70B0"
+				type: "checkmark"
+				title: "Stone Pickaxe or equivalent"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 2.25d
+			subtitle: "Oh, that's better."
+			dependencies: ["72B3CFA86B00A3F2"]
+			id: "311247214F1D95B3"
+			tasks: [{
+				id: "34E5E08365596A54"
+				type: "item"
+				title: "&#806517Wooden Pickaxe&r"
+				item: {
+					id: "tconstruct:pickaxe"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:mining_speed": 2.0f
+							"tconstruct:attack_damage": 0.0f
+							"tconstruct:harvest_level": 0.0f
+							"tconstruct:durability": 60.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [
+							{
+								name: "tconstruct:cultivated"
+								level: 3s
+							}
+							{
+								name: "tconstruct:piercing"
+								level: 1s
+							}
+						]
+						tic_materials: [
+							"tconstruct:wood"
+							"tconstruct:wood"
+							"tconstruct:wood"
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "&#806517Wooden Pickaxe&r Parts"
+			icon: {
+				id: "tconstruct:pickaxe_head"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:wood"
+				}
+			}
+			x: -7.0d
+			y: 0.25d
+			subtitle: "Wait...that pickaxe doesn't work!"
+			dependencies: ["1E198C450382D37F"]
+			id: "72B3CFA86B00A3F2"
+			tasks: [
+				{
+					id: "79D2944035185965"
+					type: "item"
+					title: "&#806517Wooden Pickaxe&r Head"
+					item: {
+						id: "tconstruct:pickaxe_head"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+				{
+					id: "4E5AF00AE0836653"
+					type: "item"
+					title: "&#806517Wooden&r Tool Handle"
+					item: {
+						id: "tconstruct:tool_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+				{
+					id: "23E4F8FD05BEC76E"
+					type: "item"
+					title: "&#806517Wooden&r Tool Binding"
+					item: {
+						id: "tconstruct:tool_binding"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Cobblestone"
+			icon: "minecraft:cobblestone"
+			x: -5.0d
+			y: 3.0d
+			dependencies: [
+				"2CA476D501E67C38"
+				"311247214F1D95B3"
+			]
+			dependency_requirement: "one_completed"
+			id: "0BF43EA3825CC0BA"
+			tasks: [{
+				id: "214B452BFC21411E"
+				type: "item"
+				title: "16x Cobblestones"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:cobblestone"
+					}
+				}
+				count: 16L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.25d
+			subtitle: "Finally a working tool."
+			description: [
+				"Put your previously crafted vanilla &#806517Wooden Pickaxe&r into the Tetra Workbench."
+				""
+				"Then click &o\"Repair\"&r and place a &#806517Plank&r in the slot."
+				""
+				"If you have a &#806517Wooden Axe&r (or another level 1 axe) in your inventory, you will be able to click &o\"Craft\"&r."
+				""
+				"Your Minecraft &#806517Wooden Pickaxe&r is now a Tetra &#806517Wooden Pickaxe&r and has a durability of 59."
+				""
+				"{image:chroma:textures/quests/tetra_wooden_pickaxe_repair.png width:256 height:196 align:1}"
+			]
+			dependencies: [
+				"2E70715A64E7B8A5"
+				"32DB90A8A43D1F3C"
+			]
+			min_width: 266
+			id: "2CA476D501E67C38"
+			tasks: [{
+				id: "7F11C1AEA85E976B"
+				type: "item"
+				title: "&#806517Wooden Pickaxe&r"
+				item: {
+					id: "tetra:modular_double"
+					Count: 1b
+					tag: {
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_pickaxe_left"
+						"double/head_right": "double/basic_pickaxe_right"
+						"double/basic_pickaxe_right_material": "basic_pickaxe/oak"
+						"double/basic_pickaxe_left_material": "basic_pickaxe/oak"
+						Damage: 0
+						"double/basic_handle_material": "basic_handle/stick"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 4.0d
+			dependencies: ["2CA476D501E67C38"]
+			id: "491972CCE5DDE06C"
+			tasks: [{
+				id: "1DC705601CB08327"
+				type: "checkmark"
+				title: "Stone Pickaxe or equivalent"
+			}]
+		}
+		{
+			x: -0.75d
+			y: 4.0d
+			dependencies: ["491972CCE5DDE06C"]
+			id: "2AB9254E7A945A22"
+			tasks: [{
+				id: "34781E57640B6562"
+				type: "checkmark"
+				title: "Iron Pickaxe or equivalent"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			dependencies: ["2AB9254E7A945A22"]
+			id: "1802A196B75EE8D9"
+			tasks: [{
+				id: "63794326DA100B1F"
+				type: "checkmark"
+				title: "Diamond Pickaxe or equivalent"
+			}]
+		}
+		{
+			x: -0.25d
+			y: 1.0d
+			shape: "diamond"
+			description: ["Can be found in structures deep underground in cold or montainous biomes."]
+			dependencies: ["32DB90A8A43D1F3C"]
+			id: "4FAD52860362291A"
+			tasks: [{
+				id: "78A35BDEA4A583C7"
+				type: "item"
+				item: "tetra:forged_crate"
+			}]
+		}
+		{
+			x: -0.75d
+			y: 0.5d
+			shape: "diamond"
+			description: ["Can be found in structures deep underground in cold or montainous biomes."]
+			dependencies: ["32DB90A8A43D1F3C"]
+			id: "5C796409D3C28291"
+			tasks: [{
+				id: "08A3A6C5FC45B509"
+				type: "item"
+				item: "tetra:transfer_unit"
+			}]
+		}
+		{
+			x: -0.25d
+			y: 0.0d
+			shape: "diamond"
+			description: ["Can be found in structures deep underground in cold or montainous biomes."]
+			dependencies: ["32DB90A8A43D1F3C"]
+			id: "780EFBC7BFC66E5A"
+			tasks: [{
+				id: "075072EE55FB47D6"
+				type: "item"
+				item: "tetra:core_extractor"
+			}]
+		}
+		{
+			x: -1.25d
+			y: 0.0d
+			shape: "diamond"
+			description: ["Can be found in structures deep underground in cold or montainous biomes."]
+			dependencies: ["32DB90A8A43D1F3C"]
+			id: "4F42C75CD6562596"
+			tasks: [{
+				id: "36C5605666809F93"
+				type: "item"
+				item: "tetra:forged_wall"
+			}]
+		}
+		{
+			x: -1.25d
+			y: 1.0d
+			shape: "diamond"
+			description: ["Can be found in structures deep underground in cold or montainous biomes."]
+			dependencies: ["32DB90A8A43D1F3C"]
+			id: "2E366ADF62A8DE98"
+			tasks: [{
+				id: "497BF22934446E4F"
+				type: "item"
+				item: "tetra:forged_workbench"
+			}]
+		}
+		{
+			title: "Tetra Workbench"
+			x: -3.0d
+			y: 0.25d
+			shape: "square"
+			description: ["Right click a crafting table with a hammer to create a workbench."]
+			dependencies: ["7A3D3399611B2809"]
+			size: 1.5d
+			id: "32DB90A8A43D1F3C"
+			tasks: [{
+				id: "31EBDD2B18A28C44"
+				type: "observation"
+				title: "Workbench"
+				icon: "tetra:basic_workbench"
+				timer: 0L
+				observe_type: 0
+				to_observe: "tetra:basic_workbench"
+			}]
+		}
+		{
+			title: "Mining"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbultimine:textures/item/ultiminer.png"
+				}
+			}
+			x: -5.0d
+			y: 5.0d
+			shape: "diamond"
+			description: [
+				"The following quests show you what ores you can find in &2Overworld&r."
+				""
+				"There is three categories :"
+				""
+				"   - Ores that can be mined with a &#806517Wooden Pickaxe&r or another pickaxe with equivalent mining level."
+				""
+				"   - Ores that can be mined with a &#918E85Stone Pickaxe&r or another pickaxe with equivalent mining level."
+				""
+				"   - Ores that can be mined with an &#61666AIron Pickaxe&r or another pickaxe with equivalent mining level."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"2CA476D501E67C38"
+				"311247214F1D95B3"
+			]
+			dependency_requirement: "one_completed"
+			id: "7FF11CD4F28B658F"
+			tasks: [{
+				id: "6EF6ED995F8CBDAC"
+				type: "checkmark"
+				title: "&aValidate&r"
+			}]
+		}
+		{
+			title: "&#61666AGold&r"
+			x: -7.0d
+			y: 6.25d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"26B79EAEB1274ED9"
+				"2AB9254E7A945A22"
+			]
+			dependency_requirement: "one_completed"
+			id: "412DC2EA2FB47B68"
+			tasks: [{
+				id: "537F9DB085A66BD8"
+				type: "item"
+				item: "emendatusenigmatica:gold_chunk"
+			}]
+		}
+		{
+			title: "&#918E85Iron&r"
+			x: -6.0d
+			y: 6.5d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"11EFAC50282A683E"
+				"491972CCE5DDE06C"
+			]
+			dependency_requirement: "one_completed"
+			id: "4055881864FF87C5"
+			tasks: [{
+				id: "720842180A6EFB2B"
+				type: "item"
+				item: "emendatusenigmatica:iron_chunk"
+			}]
+		}
+		{
+			title: "&#806517Coal&r"
+			x: -5.0d
+			y: 6.75d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"311247214F1D95B3"
+				"2CA476D501E67C38"
+			]
+			dependency_requirement: "one_completed"
+			id: "1A641FA1C6E549DB"
+			tasks: [{
+				id: "320B0C11386DCE8F"
+				type: "item"
+				item: "minecraft:coal"
+			}]
+		}
+		{
+			title: "&#918E85Copper&r"
+			x: -4.0d
+			y: 6.5d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"11EFAC50282A683E"
+				"491972CCE5DDE06C"
+			]
+			dependency_requirement: "one_completed"
+			id: "4339BD51E04343A5"
+			tasks: [{
+				id: "0115C672497D08A4"
+				type: "item"
+				item: "emendatusenigmatica:copper_chunk"
+			}]
+		}
+		{
+			title: "&#61666AUranium&r"
+			x: -3.0d
+			y: 6.25d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"26B79EAEB1274ED9"
+				"2AB9254E7A945A22"
+			]
+			dependency_requirement: "one_completed"
+			id: "6B8F54AE6DE83F01"
+			tasks: [{
+				id: "4F156B40F11BDBFA"
+				type: "item"
+				item: "emendatusenigmatica:uranium_chunk"
+			}]
+		}
+		{
+			title: "&#61666AEmerald&r"
+			x: -2.25d
+			y: 7.0d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"26B79EAEB1274ED9"
+				"2AB9254E7A945A22"
+			]
+			dependency_requirement: "one_completed"
+			id: "63B277F4C396E4F7"
+			tasks: [{
+				id: "2DB94DDE60BB621E"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "&#918E85Dimensional Shard&r"
+			x: -3.25d
+			y: 7.25d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"11EFAC50282A683E"
+				"491972CCE5DDE06C"
+			]
+			dependency_requirement: "one_completed"
+			id: "6792EC1B4CA2A2EA"
+			tasks: [{
+				id: "0CC1A5930EAD1678"
+				type: "item"
+				item: "emendatusenigmatica:dimensional_gem"
+			}]
+		}
+		{
+			title: "&#806517Cinnabar&r"
+			x: -4.25d
+			y: 7.5d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"311247214F1D95B3"
+				"2CA476D501E67C38"
+			]
+			dependency_requirement: "one_completed"
+			id: "39282948263FCF67"
+			tasks: [{
+				id: "7F4573A304764D8A"
+				type: "item"
+				item: "emendatusenigmatica:cinnabar_chunk"
+			}]
+		}
+		{
+			title: "&#806517Uraninite&r"
+			x: -5.75d
+			y: 7.5d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"311247214F1D95B3"
+				"2CA476D501E67C38"
+			]
+			dependency_requirement: "one_completed"
+			id: "7CE5A37CB1D7F967"
+			tasks: [{
+				id: "72D76092A0F5255A"
+				type: "item"
+				item: "powah:uraninite_raw"
+			}]
+		}
+		{
+			title: "&#918E85Lapis Lazuli&r"
+			x: -6.75d
+			y: 7.25d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"11EFAC50282A683E"
+				"491972CCE5DDE06C"
+			]
+			dependency_requirement: "one_completed"
+			id: "50DB58A0B18629D9"
+			tasks: [{
+				id: "7D52E60AE4219CBC"
+				type: "item"
+				item: "minecraft:lapis_lazuli"
+			}]
+		}
+		{
+			title: "&#61666ADiamond&r"
+			x: -7.75d
+			y: 7.0d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"26B79EAEB1274ED9"
+				"2AB9254E7A945A22"
+			]
+			dependency_requirement: "one_completed"
+			id: "0976209956D1ADCD"
+			tasks: [{
+				id: "54591D0BE8B38873"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+		{
+			title: "&#61666ARedstone&r"
+			x: -7.5d
+			y: 8.0d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"26B79EAEB1274ED9"
+				"2AB9254E7A945A22"
+			]
+			id: "52A9D4F9E61253F4"
+			tasks: [{
+				id: "29A1E3878C8462CB"
+				type: "item"
+				item: "minecraft:redstone"
+			}]
+		}
+		{
+			title: "&#918E85Aluminum&r"
+			x: -6.5d
+			y: 8.25d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"11EFAC50282A683E"
+				"491972CCE5DDE06C"
+			]
+			dependency_requirement: "one_completed"
+			id: "682D148DB0B5522E"
+			tasks: [{
+				id: "79028EFBCDF5F6F5"
+				type: "item"
+				item: "emendatusenigmatica:aluminum_chunk"
+			}]
+		}
+		{
+			title: "&#918E85Fluorite&r"
+			x: -5.75d
+			y: 9.0d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"11EFAC50282A683E"
+				"491972CCE5DDE06C"
+			]
+			dependency_requirement: "one_completed"
+			id: "01204D8CC1E02844"
+			tasks: [{
+				id: "73A2BD333F42F3CF"
+				type: "item"
+				item: "emendatusenigmatica:fluorite_gem"
+			}]
+		}
+		{
+			title: "&#806517Bitumen&r"
+			x: -5.0d
+			y: 8.25d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"311247214F1D95B3"
+				"2CA476D501E67C38"
+			]
+			dependency_requirement: "one_completed"
+			id: "2F13516D0BF41E98"
+			tasks: [{
+				id: "328275770A0936D5"
+				type: "item"
+				item: "emendatusenigmatica:bitumen_gem"
+			}]
+		}
+		{
+			title: "&#918E85Apatite&r"
+			x: -4.25d
+			y: 9.0d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"11EFAC50282A683E"
+				"491972CCE5DDE06C"
+			]
+			dependency_requirement: "one_completed"
+			id: "77499DE54CBB863E"
+			tasks: [{
+				id: "74390BE80E8F9137"
+				type: "item"
+				item: "emendatusenigmatica:apatite_gem"
+			}]
+		}
+		{
+			title: "&#918E85Tin&r"
+			x: -3.5d
+			y: 8.25d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"11EFAC50282A683E"
+				"491972CCE5DDE06C"
+			]
+			dependency_requirement: "one_completed"
+			id: "7DD76F9B6426DCA3"
+			tasks: [{
+				id: "6FCA20B8F8C31882"
+				type: "item"
+				item: "emendatusenigmatica:tin_chunk"
+			}]
+		}
+		{
+			title: "&#61666ADraconium&r"
+			x: -2.5d
+			y: 8.0d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"26B79EAEB1274ED9"
+				"2AB9254E7A945A22"
+			]
+			dependency_requirement: "one_completed"
+			id: "4A523013734520E4"
+			tasks: [{
+				id: "1817225CC9D8FBE7"
+				type: "item"
+				item: "draconicevolution:draconium_dust"
+			}]
+		}
+		{
+			title: "&#61666ASilver&r"
+			x: -2.25d
+			y: 9.0d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"26B79EAEB1274ED9"
+				"2AB9254E7A945A22"
+			]
+			dependency_requirement: "one_completed"
+			id: "6F24F6ECE4AAE751"
+			tasks: [{
+				id: "776CDEB62E01985D"
+				type: "item"
+				item: "emendatusenigmatica:silver_chunk"
+			}]
+		}
+		{
+			title: "&#61666AZinc&r"
+			x: -3.25d
+			y: 9.25d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"26B79EAEB1274ED9"
+				"2AB9254E7A945A22"
+			]
+			dependency_requirement: "one_completed"
+			id: "36E35F066EAA5687"
+			tasks: [{
+				id: "643CD94E1FEE4777"
+				type: "item"
+				item: "emendatusenigmatica:zinc_chunk"
+			}]
+		}
+		{
+			title: "&#918E85Potassium Nitrate&r"
+			x: -4.0d
+			y: 10.0d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"11EFAC50282A683E"
+				"491972CCE5DDE06C"
+			]
+			dependency_requirement: "one_completed"
+			id: "6973FBAEF1EF28DC"
+			tasks: [{
+				id: "3CBD93D66CBF8B2A"
+				type: "item"
+				item: "emendatusenigmatica:potassium_nitrate_gem"
+			}]
+		}
+		{
+			title: "&#918E85Osmium&r"
+			x: -5.0d
+			y: 9.75d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"11EFAC50282A683E"
+				"491972CCE5DDE06C"
+			]
+			dependency_requirement: "one_completed"
+			id: "3AD73289DB7D473E"
+			tasks: [{
+				id: "417576DBD6EDDC20"
+				type: "item"
+				item: "emendatusenigmatica:osmium_chunk"
+			}]
+		}
+		{
+			title: "&#918E85Source Gem&r"
+			x: -6.0d
+			y: 10.0d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"11EFAC50282A683E"
+				"491972CCE5DDE06C"
+			]
+			dependency_requirement: "one_completed"
+			id: "577AC7DCEDCE1DE0"
+			tasks: [{
+				id: "267E6F2B5039FFF0"
+				type: "item"
+				item: "emendatusenigmatica:arcane_gem"
+			}]
+		}
+		{
+			title: "&#61666ALead&r"
+			x: -6.75d
+			y: 9.25d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"26B79EAEB1274ED9"
+				"2AB9254E7A945A22"
+			]
+			dependency_requirement: "one_completed"
+			id: "2EBB702869B9D13C"
+			tasks: [{
+				id: "58BAD7E9AC3B1955"
+				type: "item"
+				item: "emendatusenigmatica:lead_chunk"
+			}]
+		}
+		{
+			title: "&#61666ANickel&r"
+			x: -7.75d
+			y: 9.0d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"26B79EAEB1274ED9"
+				"2AB9254E7A945A22"
+			]
+			dependency_requirement: "one_completed"
+			id: "1B35982B907DD91A"
+			tasks: [{
+				id: "51586FFCE6302A03"
+				type: "item"
+				item: "emendatusenigmatica:nickel_chunk"
+			}]
+		}
+		{
+			x: -7.25d
+			y: 14.25d
+			shape: "square"
+			subtitle: "Fast Ore like...well...nothing I think"
+			description: ["A Blast Furnace works like a Furnace, but only smelts ores (and other specifics things) but run twice as fast."]
+			dependencies: [
+				"250B3DF7EF1694AE"
+				"60E0E583C1CBCE56"
+			]
+			id: "0372B8AFF3B231B0"
+			tasks: [{
+				id: "1A66E7B3D0F79227"
+				type: "item"
+				item: "minecraft:blast_furnace"
+			}]
+		}
+		{
+			x: -7.25d
+			y: 12.25d
+			shape: "square"
+			subtitle: "Fast Food like &#D52B1EMcDonald's®&r"
+			description: ["A Smoker works like a Furnace, but only cooks food but run twice as fast."]
+			dependencies: ["60E0E583C1CBCE56"]
+			id: "14083B579D63FAF8"
+			tasks: [{
+				id: "07C7703EF7BF2EE3"
+				type: "item"
+				item: "minecraft:smoker"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 12.25d
+			shape: "square"
+			dependencies: [
+				"1A641FA1C6E549DB"
+				"0BF43EA3825CC0BA"
+			]
+			size: 1.5d
+			id: "60E0E583C1CBCE56"
+			tasks: [{
+				id: "0AEE69AB984906DD"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+		}
+	]
+}

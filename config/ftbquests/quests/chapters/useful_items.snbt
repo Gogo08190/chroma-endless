@@ -1816,7 +1816,8 @@
 			description: ["Obtained from Environmental Tech's Void Miner Tier 6 or more with the custom \"Black Hole Harvester\" in the End Dimenstion. (Note that the \"Red Lens\" doubles the chances of obtaining it)."]
 			dependencies: [
 				"28F65AB06F632E4C"
-				"7846C1B5A918BDC0"
+				"3EAB4C4E47E658EA"
+				"6D5FA44C1427C6C0"
 			]
 			id: "685F94719391D77F"
 			tasks: [{
@@ -1833,6 +1834,7 @@
 			dependencies: [
 				"685F94719391D77F"
 				"3EAB4C4E47E658EA"
+				"6D5FA44C1427C6C0"
 			]
 			id: "0C4BB75A847B5143"
 			tasks: [{
@@ -1846,10 +1848,7 @@
 			y: 19.75d
 			subtitle: "If this explodes we're screwed"
 			description: ["Crafted in Environmental Tech's Assembler."]
-			dependencies: [
-				"685F94719391D77F"
-				"3EAB4C4E47E658EA"
-			]
+			dependencies: ["685F94719391D77F"]
 			id: "07C51EEE022BF8A1"
 			tasks: [{
 				id: "3CD3601E8933C768"
@@ -2155,17 +2154,6 @@
 						Throttle: 1.0d
 					}
 				}
-			}]
-		}
-		{
-			title: "Mettre les tiers de void ores correspondant en plus"
-			x: 8.0d
-			y: 16.75d
-			id: "03945677D4B2922E"
-			tasks: [{
-				id: "45D0F672F96F0ADF"
-				type: "checkmark"
-				title: "Mettre les dépendances au void ore correspondants"
 			}]
 		}
 		{

@@ -1,7 +1,7 @@
 {
 	id: "6BFF5120144F32C7"
 	group: "34085A64296DE6C7"
-	order_index: 1
+	order_index: 0
 	filename: "ch_2_rename"
 	title: "&l&#71797ESteel Age&r"
 	icon: {
@@ -28,8 +28,8 @@
 			corner: false
 		}
 		{
-			x: -27.75d
-			y: 33.875d
+			x: -27.760714285714286d
+			y: 33.84821428571428d
 			width: 4.0d
 			height: 4.0d
 			rotation: 0.0d
@@ -40,8 +40,8 @@
 			corner: false
 		}
 		{
-			x: -21.25d
-			y: 31.125d
+			x: -22.75d
+			y: 31.625d
 			width: 4.0d
 			height: 4.0d
 			rotation: 0.0d
@@ -1154,8 +1154,8 @@
 			}]
 		}
 		{
-			x: -27.75d
-			y: 33.75d
+			x: -27.760714285714286d
+			y: 33.7625d
 			subtitle: "Second Tier Chalk"
 			hide_dependency_lines: true
 			dependencies: ["28C3F89057684CC6"]
@@ -1173,8 +1173,8 @@
 			}]
 		}
 		{
-			x: -21.24659863945576d
-			y: 31.018282312925194d
+			x: -22.74659863945576d
+			y: 31.518282312925194d
 			hide_dependency_lines: true
 			dependencies: ["28C3F89057684CC6"]
 			id: "5CA6BAB71797C1A5"
@@ -1344,8 +1344,8 @@
 		{
 			title: "Ophyx' Calling"
 			icon: "occultism:ritual_dummy/summon_foliot_transport_items"
-			x: -22.25d
-			y: 29.75d
+			x: -23.75d
+			y: 30.25d
 			subtitle: "Summon Djinni"
 			hide_dependency_lines: true
 			dependencies: [
@@ -1382,8 +1382,8 @@
 		{
 			title: "Strigeor's Higher Binding"
 			icon: "occultism:ritual_dummy/craft_miner_foliot_unspecialized"
-			x: -19.75d
-			y: 31.25d
+			x: -21.25d
+			y: 31.75d
 			subtitle: "Bind Djinni"
 			hide_dependency_lines: true
 			dependencies: [
@@ -1421,8 +1421,8 @@
 		{
 			title: "Ihagan's Enthrallement"
 			icon: "occultism:ritual_dummy/familiar_beaver"
-			x: -22.5d
-			y: 31.5d
+			x: -24.0d
+			y: 32.0d
 			subtitle: "Djinni Possession"
 			hide_dependency_lines: true
 			dependencies: [
@@ -1504,8 +1504,8 @@
 		{
 			title: "Sevira's Permanent Confinement"
 			icon: "occultism:ritual_dummy/familiar_greedy"
-			x: -21.25d
-			y: 32.5d
+			x: -22.75d
+			y: 33.0d
 			subtitle: "Bind Afrit"
 			hide_dependency_lines: true
 			dependencies: [
@@ -1548,8 +1548,8 @@
 		{
 			title: "Abras' Open Conjure"
 			icon: "occultism:ritual_dummy/familiar_deer"
-			x: -21.25d
-			y: 29.5d
+			x: -22.75d
+			y: 30.0d
 			subtitle: "Summon Unbound Afrit"
 			hide_dependency_lines: true
 			dependencies: [
@@ -1647,8 +1647,8 @@
 		{
 			title: "Osorin's Unbound Calling"
 			icon: "occultism:ritual_dummy/possess_enderman"
-			x: -20.25d
-			y: 29.75d
+			x: -21.75d
+			y: 30.25d
 			hide_dependency_lines: true
 			dependencies: [
 				"492116474A965E37"
@@ -4699,8 +4699,8 @@
 			}]
 		}
 		{
-			x: -21.25d
-			y: 28.5d
+			x: -22.75d
+			y: 29.0d
 			subtitle: "A new boss"
 			description: [
 				"Thanks to the &6Abra's Open Conjure&r you'll be able to spawn a new \"boss\" : &4&lThe Unbound Afrit&r. In order to hurt him you'll need to slay his minions first. "
@@ -7319,6 +7319,138 @@
 				id: "29F99A0264620A8C"
 				type: "item"
 				item: "immersiveengineering:rs_engineering"
+			}]
+		}
+		{
+			x: -20.25d
+			y: 33.0d
+			subtitle: "Demons can mine ! "
+			description: [
+				"The &4Dimensional Mineshaft&r houses a &1Djinni&r which opens up a stable connection into a uninhabited dimension, perfectly suited for mining. While the portal is too small ti transfer humans, other spirits can use it to enter the mining dimension and bring back resources."
+				""
+				"The &4Mineshaft&r will discard any items it cannot store, so it is important to regularly empty the mineshaft either manually or with hoppers or evn transporter spirit. Spirits in lamps can be inserted from the top all other sides can be used to extract items."
+			]
+			dependencies: ["3A99B2052AE4BAC9"]
+			min_width: 250
+			id: "30025EBB21D3F798"
+			tasks: [{
+				id: "4B7F2BB968D8FE22"
+				type: "item"
+				item: "occultism:dimensional_mineshaft"
+			}]
+		}
+		{
+			x: -20.25d
+			y: 34.25d
+			shape: "gear"
+			subtitle: "Powders on the ground"
+			description: [
+				"&5Crusher&r spirits are summoned to crush ores into dusts, effectively multiplying the metal output. They will pick up appropriate ores and drop the resulting dusts into the world."
+				"A purple particle effect and crushing sound will indicate the crusher is at work."
+				""
+				"To ease automation, try summoning a &bTransporter Spirit&r to place items from chests in the crusher's inventory, and a &bJanitor Spirit&r to collect the processed items."
+			]
+			dependencies: ["30025EBB21D3F798"]
+			id: "24E3F1153AA2456D"
+			tasks: [{
+				id: "6CE46AC5D399C7DC"
+				type: "checkmark"
+				title: "Ore Crushers !"
+			}]
+		}
+		{
+			x: -21.75d
+			y: 34.75d
+			description: ["The &6Foliot Crusher&r is the most basic crusher spirit."]
+			dependencies: ["24E3F1153AA2456D"]
+			id: "49E79360D99BE691"
+			tasks: [{
+				id: "31AC4F59714E632F"
+				type: "item"
+				item: "occultism:ritual_dummy/summon_foliot_crusher"
+			}]
+		}
+		{
+			x: -21.0d
+			y: 35.75d
+			description: ["The &6Djinni Crusher&r is both more resistant to essance decay and faster than the &bFoliot Crusher&r."]
+			dependencies: [
+				"24E3F1153AA2456D"
+				"49E79360D99BE691"
+			]
+			id: "62DF3A8488AADD91"
+			tasks: [{
+				id: "51764FD8163AF23B"
+				type: "item"
+				item: "occultism:ritual_dummy/summon_djinni_crusher"
+			}]
+		}
+		{
+			x: -19.5d
+			y: 35.75d
+			description: ["The &6Afrit Crusher&r is both more resistant to essence decay and faster than the &bDjinni Crusher&r."]
+			dependencies: [
+				"24E3F1153AA2456D"
+				"62DF3A8488AADD91"
+			]
+			id: "259480AC145386BF"
+			tasks: [{
+				id: "12B3126278DB3A92"
+				type: "item"
+				item: "occultism:ritual_dummy/summon_afrit_crusher"
+			}]
+		}
+		{
+			x: -18.75d
+			y: 34.75d
+			description: ["The &6Marid Crusher&r is both more resistant to essence decay and faster than the &bAfrit Crusher&r."]
+			dependencies: [
+				"24E3F1153AA2456D"
+				"259480AC145386BF"
+			]
+			id: "02866DDF5415AECF"
+			tasks: [{
+				id: "515E197221DFFFAD"
+				type: "item"
+				item: "occultism:ritual_dummy/summon_marid_crusher"
+			}]
+		}
+		{
+			x: -21.75d
+			y: 33.5d
+			description: ["The &6Djinni Ore Miner&r harvests ores specifically. The greater power of the djinni it damages the magic lamp relatively quickly."]
+			dependencies: ["30025EBB21D3F798"]
+			id: "6FCB27EE54C1A75D"
+			tasks: [{
+				id: "3486AEE445C471A8"
+				type: "item"
+				item: {
+					id: "occultism:miner_djinni_ores"
+					Count: 1b
+					tag: {
+						spiritName: "Marurakzur"
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -18.75d
+			y: 33.5d
+			description: ["The &6Foliot Miner&r harvests block without much aim and returns anything it finds. The mining process is quite slow, due to this the foliot expends only minor amounts of energy, damaging the lamp it is housed in slowly over time."]
+			dependencies: ["30025EBB21D3F798"]
+			id: "493DE1645D850D16"
+			tasks: [{
+				id: "690FD696E66105E6"
+				type: "item"
+				item: {
+					id: "occultism:miner_foliot_unspecialized"
+					Count: 1b
+					tag: {
+						spiritName: "Drakaircred"
+						Damage: 0
+					}
+				}
 			}]
 		}
 	]

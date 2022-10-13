@@ -1,0 +1,1187 @@
+{
+	id: "014F2F5348AE81B1"
+	group: "0889EAB460A6BD29"
+	order_index: 1
+	filename: "chaptre_2"
+	title: "Chapter 2"
+	icon: "tconstruct:smeltery_controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "&7Tinkers' Construct Clay Island&r"
+			x: -5.0d
+			y: -10.0d
+			dependencies: ["56E33A3A0C9966C3"]
+			optional: true
+			id: "3378D54ED18FC564"
+			tasks: [{
+				id: "2BD62C616FCB49F9"
+				type: "advancement"
+				title: "Find a &7Clay Island&r"
+				icon: "minecraft:grass_block"
+				advancement: "tconstruct:world/clay_island"
+				criterion: ""
+			}]
+		}
+		{
+			title: "&7Clay&r, &#C2B280Sand&r \\& &#909BA3Gravel&r for &7Grout&r"
+			icon: "tconstruct:grout"
+			x: -5.0d
+			y: -8.0d
+			dependencies: [
+				"3378D54ED18FC564"
+				"56E33A3A0C9966C3"
+			]
+			dependency_requirement: "one_completed"
+			id: "381C9C82AD9505C7"
+			tasks: [
+				{
+					id: "69D93E0629AF5C10"
+					type: "item"
+					title: "16x &7Clay&r"
+					item: "minecraft:clay"
+					count: 16L
+				}
+				{
+					id: "0329A34A4A84F74A"
+					type: "item"
+					title: "64x &#C2B280Sand&r"
+					item: "minecraft:sand"
+					count: 64L
+				}
+				{
+					id: "104193E87E7EB0A7"
+					type: "item"
+					title: "64x &#909BA3Gravel&r"
+					item: "minecraft:gravel"
+					count: 64L
+				}
+			]
+		}
+		{
+			title: "&2Tinkers' Construct Slime Islands&r"
+			icon: "tconstruct:earth_earth_slime_grass"
+			disable_toast: true
+			x: -3.0d
+			y: -10.0d
+			description: ["Find one of the four &2Tinkers' Construct Slime Islands&r."]
+			hide_dependency_lines: true
+			dependencies: ["5818D79835BC71DA"]
+			min_required_tasks: 1
+			id: "34314A6F16C3D15F"
+			tasks: [
+				{
+					id: "2F17AC75EE4BF554"
+					type: "advancement"
+					title: "Find an &2Earthslime Island&r"
+					icon: "tconstruct:earth_earth_slime_grass"
+					disable_toast: true
+					advancement: "tconstruct:world/earth_island"
+					criterion: ""
+				}
+				{
+					id: "28115D66CAB7B751"
+					type: "advancement"
+					title: "Find a &3Skyslime Island&r"
+					icon: "tconstruct:sky_sky_slime_grass"
+					disable_toast: true
+					advancement: "tconstruct:world/sky_island"
+					criterion: ""
+				}
+				{
+					id: "51AFAE1AF044F57D"
+					type: "advancement"
+					title: "Find a &cBlood Island&r"
+					icon: "tconstruct:blood_ichor_slime_grass"
+					disable_toast: true
+					advancement: "tconstruct:world/blood_island"
+					criterion: ""
+				}
+				{
+					id: "3A6765962EB5CC2B"
+					type: "advancement"
+					title: "Find an &5Enderslime Island&r"
+					icon: "tconstruct:ender_ender_slime_grass"
+					disable_toast: true
+					advancement: "tconstruct:world/ender_island"
+					criterion: ""
+				}
+				{
+					id: "10ABC481802465E1"
+					type: "checkmark"
+					title: "Find &2Tinkers' Construct Slime Island&r"
+					icon: "tconstruct:earth_earth_slime_grass"
+					secret: true
+				}
+			]
+			rewards: [
+				{
+					id: "37BDF84ECC488BD5"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 2F17AC75EE4BF554"
+					player_command: false
+				}
+				{
+					id: "661C70A04D4E075E"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 28115D66CAB7B751"
+					player_command: false
+				}
+				{
+					id: "6B4271F6328D7B25"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 51AFAE1AF044F57D"
+					player_command: false
+				}
+				{
+					id: "79F914711FBE8D36"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 3A6765962EB5CC2B"
+					player_command: false
+				}
+				{
+					id: "4375B4536FA7A432"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 10ABC481802465E1"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "&2Slime&r"
+			icon: "minecraft:slime_block"
+			x: -3.0d
+			y: -8.0d
+			dependencies: ["34314A6F16C3D15F"]
+			id: "4866C5C9EF6794DA"
+			tasks: [
+				{
+					id: "4CF6F7DF3A32CEA2"
+					type: "item"
+					title: "Congealed Slime"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:congealed_slime"
+						}
+					}
+				}
+				{
+					id: "41A75385842C8BAA"
+					type: "item"
+					title: "Slime Dirt"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tconstruct:earth_slime_dirt"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:sky_slime_dirt"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:ichor_slime_dirt"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:ender_slime_dirt"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "5A0D685D56365735"
+					type: "item"
+					title: "Slimy Logs"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:slimy_logs"
+						}
+					}
+				}
+				{
+					id: "070FCF56ED24BF9A"
+					type: "item"
+					title: "Slimy Saplings"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:slimy_saplings"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -8.0d
+			dependencies: ["4866C5C9EF6794DA"]
+			id: "7A172669A4672D91"
+			tasks: [{
+				id: "6C75B5590C3D79B3"
+				type: "item"
+				title: "Slime Sling"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tconstruct:earth_slime_sling"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "tconstruct:sky_slime_sling"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "tconstruct:ender_slime_sling"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "tconstruct:ichor_slime_sling"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -4.75d
+			shape: "square"
+			dependencies: ["6A82E78F5A86DE03"]
+			size: 1.5d
+			id: "30C07DD7980BEC2B"
+			tasks: [{
+				id: "3446BC472BC8BE77"
+				type: "item"
+				item: "tconstruct:tinker_station"
+			}]
+		}
+		{
+			x: -4.75d
+			y: -4.75d
+			hide_dependency_lines: true
+			dependencies: ["1C7C41C2FA427B8F"]
+			id: "6A82E78F5A86DE03"
+			tasks: [{
+				id: "676501597E4C0701"
+				type: "item"
+				item: "tconstruct:pattern"
+			}]
+		}
+		{
+			title: "Tinker's Bronze"
+			x: -4.75d
+			y: -2.25d
+			dependencies: ["4FF742939987793B"]
+			id: "2AE06ADF534ADDEC"
+			tasks: [{
+				id: "0B0664B538512CF4"
+				type: "item"
+				title: "3x Blocks of Tinker's Bronze"
+				item: "tconstruct:tinkers_bronze_block"
+				count: 3L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.25d
+			shape: "square"
+			dependencies: [
+				"2AE06ADF534ADDEC"
+				"30C07DD7980BEC2B"
+			]
+			size: 1.5d
+			id: "6FE5CBD8A8FF0431"
+			tasks: [{
+				id: "239ECC5B5FF55428"
+				type: "item"
+				item: "tconstruct:tinkers_anvil"
+			}]
+		}
+		{
+			title: "Smeltery"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "chroma:textures/quests/tinkers_smeltery_icon.png"
+				}
+			}
+			x: -7.5d
+			y: -0.1875d
+			shape: "square"
+			dependencies: [
+				"52157E7FBFE05315"
+				"0115C672497D08A4"
+			]
+			size: 2.75d
+			id: "4FF742939987793B"
+			tasks: [
+				{
+					id: "24FB616B8D0A3D50"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "73D3D0CFD94A040F"
+					type: "item"
+					item: "tconstruct:seared_drain"
+				}
+				{
+					id: "301991D81A850D16"
+					type: "item"
+					title: "2x Seared Faucets"
+					item: "tconstruct:seared_faucet"
+					count: 2L
+				}
+				{
+					id: "3A5CB7FF92D9AD92"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+				{
+					id: "76B1099AB64C9E43"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+				{
+					id: "1125892676BDAC19"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+				{
+					id: "64E5D17AFE8E68C7"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "39B2F3AAE1D45ACF"
+				type: "item"
+				item: "supplementaries:timber_brace"
+			}]
+		}
+		{
+			title: "Seared Ingot \\& Fuel Gauge"
+			x: -7.5d
+			y: -5.5d
+			description: [
+				"Seared Ingot ..."
+				"Seared Fuel ..."
+				""
+				"You have to use one of the two for crafting the Seared Melter."
+				""
+				"&o(No need to craft both to complete the quest, only one is enough)&r"
+			]
+			dependencies: ["25090E1CB30B5131"]
+			min_required_tasks: 1
+			id: "5B8F2CFF9902433F"
+			tasks: [
+				{
+					id: "110B23513D58296F"
+					type: "item"
+					item: "tconstruct:seared_ingot_gauge"
+				}
+				{
+					id: "5C5FF9D6A0B3CA7B"
+					type: "item"
+					item: "tconstruct:seared_fuel_gauge"
+				}
+			]
+		}
+		{
+			icon: "tconstruct:seared_melter"
+			x: -7.5d
+			y: -3.25d
+			shape: "square"
+			dependencies: ["5B8F2CFF9902433F"]
+			size: 1.5d
+			id: "52157E7FBFE05315"
+			tasks: [
+				{
+					id: "19A823FFDAB2A18D"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+				{
+					id: "17438198156A1FD6"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+				{
+					id: "19AD2C03483DCDAF"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+				}
+				{
+					id: "36653CFBF20C5158"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+				{
+					id: "728723F58EECA01A"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+				{
+					id: "7AF336A6DB3EF3B9"
+					type: "item"
+					item: "tconstruct:seared_heater"
+				}
+			]
+		}
+		{
+			title: "Seared Bricks"
+			x: -7.5d
+			y: -8.0d
+			shape: "gear"
+			dependencies: [
+				"60E0E583C1CBCE56"
+				"381C9C82AD9505C7"
+			]
+			size: 2.0d
+			id: "25090E1CB30B5131"
+			tasks: [{
+				id: "5A8C02CC1E501307"
+				type: "item"
+				title: "Seared Bricks"
+				item: "tconstruct:seared_brick"
+				count: 8L
+			}]
+		}
+		{
+			x: -10.25d
+			y: -6.25d
+			dependencies: [
+				"24FB616B8D0A3D50"
+				"0835044722D233E5"
+			]
+			dependency_requirement: "one_completed"
+			id: "2E65402DD10F08FD"
+			tasks: [{
+				id: "62013FAABCBEBBCD"
+				type: "item"
+				item: "tconstruct:seared_lantern"
+			}]
+		}
+		{
+			x: -10.25d
+			y: -4.25d
+			dependencies: [
+				"24FB616B8D0A3D50"
+				"1EBD3772CE7EB54E"
+			]
+			dependency_requirement: "one_completed"
+			id: "0835044722D233E5"
+			tasks: [{
+				id: "6E7A9054B2AEE9D4"
+				type: "item"
+				item: "tconstruct:seared_channel"
+			}]
+		}
+		{
+			x: -12.25d
+			y: -4.25d
+			dependencies: [
+				"24FB616B8D0A3D50"
+				"6A16A114B17C2C46"
+			]
+			dependency_requirement: "one_completed"
+			id: "1EBD3772CE7EB54E"
+			tasks: [{
+				id: "0CD81A180D647958"
+				type: "item"
+				item: "tconstruct:seared_ingot_tank"
+			}]
+		}
+		{
+			x: -12.25d
+			y: -2.25d
+			dependencies: [
+				"24FB616B8D0A3D50"
+				"10A681804E6DAC4E"
+			]
+			dependency_requirement: "one_completed"
+			id: "6A16A114B17C2C46"
+			tasks: [{
+				id: "059C2FF7500C8422"
+				type: "item"
+				item: "tconstruct:seared_duct"
+			}]
+		}
+		{
+			title: "Decorative Seared blocks"
+			icon: "tconstruct:seared_glass_pane"
+			x: -10.25d
+			y: -2.25d
+			description: ["These blocks can used as decoration, but NOT as a replacement of Seared Bricks in the Smeltery."]
+			dependencies: ["59BEB656F387591D"]
+			optional: true
+			id: "0ED7F51D56C65AB0"
+			tasks: [
+				{
+					id: "5F698A43AEB18520"
+					type: "item"
+					item: "tconstruct:seared_stone_slab"
+				}
+				{
+					id: "4A8AD93D9EA382C8"
+					type: "item"
+					item: "tconstruct:seared_stone_stairs"
+				}
+				{
+					id: "4ECA214FCFCACA16"
+					type: "item"
+					item: "tconstruct:seared_cobble_slab"
+				}
+				{
+					id: "0CB8EB822B3AE03C"
+					type: "item"
+					item: "tconstruct:seared_cobble_stairs"
+				}
+				{
+					id: "5ED2CC3CE5ABD5AD"
+					type: "item"
+					item: "tconstruct:seared_cobble_wall"
+				}
+				{
+					id: "41077237715A541C"
+					type: "item"
+					item: "tconstruct:seared_paver_slab"
+				}
+				{
+					id: "72B9A3D1387C10C3"
+					type: "item"
+					item: "tconstruct:seared_paver_stairs"
+				}
+				{
+					id: "7B1F523429739BAB"
+					type: "item"
+					item: "tconstruct:seared_bricks_slab"
+				}
+				{
+					id: "1CB968C9001116DD"
+					type: "item"
+					item: "tconstruct:seared_bricks_stairs"
+				}
+				{
+					id: "3F3C42010BCFEE92"
+					type: "item"
+					item: "tconstruct:seared_bricks_wall"
+				}
+				{
+					id: "6A3DB801AE035523"
+					type: "item"
+					item: "tconstruct:seared_glass_pane"
+				}
+			]
+		}
+		{
+			title: "Alternatives to Seared Bricks"
+			icon: "tconstruct:seared_glass"
+			x: -10.25d
+			y: -0.25d
+			description: [
+				"You can use these blocks to replace the Seared Bricks in the Smeltery."
+				"They can also used as decoration."
+			]
+			dependencies: ["4FF742939987793B"]
+			optional: true
+			id: "59BEB656F387591D"
+			tasks: [
+				{
+					id: "3A502319030AAF51"
+					type: "item"
+					item: "tconstruct:seared_stone"
+				}
+				{
+					id: "58C40E641A6EC4FE"
+					type: "item"
+					item: "tconstruct:seared_cobble"
+				}
+				{
+					id: "27803CB9E1CC4A56"
+					type: "item"
+					item: "tconstruct:seared_paver"
+				}
+				{
+					id: "143D78C7F3CF2345"
+					type: "item"
+					item: "tconstruct:seared_cracked_bricks"
+				}
+				{
+					id: "03E2C80FE368D5EF"
+					type: "item"
+					item: "tconstruct:seared_fancy_bricks"
+				}
+				{
+					id: "73BA57B46EE6FC61"
+					type: "item"
+					item: "tconstruct:seared_triangle_bricks"
+				}
+				{
+					id: "3E777B2A7AED8744"
+					type: "item"
+					item: "tconstruct:seared_ladder"
+				}
+				{
+					id: "1AE0E4211CDCCC40"
+					type: "item"
+					item: "tconstruct:seared_glass"
+				}
+			]
+		}
+		{
+			x: -12.25d
+			y: -0.25d
+			dependencies: [
+				"24FB616B8D0A3D50"
+				"59BEB656F387591D"
+			]
+			dependency_requirement: "one_completed"
+			id: "10A681804E6DAC4E"
+			tasks: [{
+				id: "335D5F492BF3B450"
+				type: "item"
+				item: "tconstruct:seared_chute"
+			}]
+		}
+		{
+			x: -4.75d
+			y: 1.75d
+			dependencies: [
+				"4FF742939987793B"
+				"720842180A6EFB2B"
+			]
+			id: "2B867BAFE6E5AACB"
+			tasks: [{
+				id: "22AE21ACC7179387"
+				type: "item"
+				item: "tconstruct:pig_iron_ingot"
+			}]
+		}
+		{
+			title: "&dPiggybackpack&r"
+			x: -2.75d
+			y: 1.75d
+			dependencies: ["2B867BAFE6E5AACB"]
+			id: "52E9C3B4FDF846D2"
+			tasks: [{
+				id: "7200669576388AA5"
+				type: "item"
+				item: "tconstruct:piggy_backpack"
+			}]
+		}
+		{
+			x: -4.75d
+			y: 3.25d
+			dependencies: ["4FF742939987793B"]
+			id: "48CFB9E00EDBDCC7"
+			tasks: [{
+				id: "7D2680A9502CBAC0"
+				type: "item"
+				item: "tconstruct:rose_gold_ingot"
+			}]
+		}
+		{
+			title: "Gold Cast"
+			icon: "tconstruct:blank_cast"
+			x: -7.5d
+			y: 2.5d
+			dependencies: ["4FF742939987793B"]
+			id: "3F047B28738897A0"
+			tasks: [{
+				id: "62D0F17BF463D8EC"
+				type: "item"
+				title: "Gold Cast"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tconstruct:casts/gold"
+					}
+				}
+			}]
+			rewards: [{
+				id: "58B86CDAB788FEBF"
+				type: "item"
+				item: "tconstruct:plate_cast"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 2.5d
+			dependencies: [
+				"3F047B28738897A0"
+				"1195924B8477153E"
+			]
+			id: "7ECBCEE8AE68DF35"
+			tasks: [{
+				id: "7608AD438CCAEC1F"
+				type: "item"
+				item: "tconstruct:cast_chest"
+			}]
+		}
+		{
+			title: "Flint and _____"
+			x: -7.5d
+			y: 4.5d
+			dependencies: ["3F047B28738897A0"]
+			id: "6770AB2A85C49A63"
+			tasks: [{
+				id: "403E5F81136B97B9"
+				type: "item"
+				title: "Flint and Steel or Bronze"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "supplementaries:fire_sources"
+					}
+				}
+			}]
+		}
+		{
+			title: "&#B9F2FFObsidian&r"
+			x: -7.5d
+			y: 6.5d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"1802A196B75EE8D9"
+				"171E5CDF2CB9C763"
+			]
+			dependency_requirement: "one_completed"
+			id: "0F01F4CCB3915082"
+			tasks: [{
+				id: "7FEF20DF46B2E091"
+				type: "item"
+				title: "10x Obsidians"
+				item: "minecraft:obsidian"
+				count: 10L
+			}]
+		}
+		{
+			title: "&5The Nether&r"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "supplementaries:textures/map/nether_portal.png"
+				}
+			}
+			x: -7.5d
+			y: 8.75d
+			shape: "rsquare"
+			dependencies: [
+				"6770AB2A85C49A63"
+				"0F01F4CCB3915082"
+			]
+			size: 1.5d
+			id: "3A3CDBD5FF1985DB"
+			tasks: [
+				{
+					id: "6C902F1FE4656987"
+					type: "dimension"
+					title: "Go to &5The Nether&r"
+					dimension: "minecraft:the_nether"
+				}
+				{
+					id: "1A50D8484E987C47"
+					type: "checkmark"
+					title: "&aDone&r"
+				}
+			]
+		}
+		{
+			title: "&#61666ACobalt&r"
+			x: -9.75d
+			y: 9.75d
+			shape: "pentagon"
+			dependencies: ["3A3CDBD5FF1985DB"]
+			id: "1599025DD921CA80"
+			tasks: [{
+				id: "165857D0CC60892D"
+				type: "item"
+				item: "emendatusenigmatica:cobalt_chunk"
+			}]
+		}
+		{
+			title: "&#B9F2FFAncient Debris&r"
+			x: -9.75d
+			y: 8.75d
+			shape: "pentagon"
+			dependencies: ["3A3CDBD5FF1985DB"]
+			id: "739CDA0F590031A0"
+			tasks: [{
+				id: "408EC6E11C879489"
+				type: "item"
+				item: "minecraft:ancient_debris"
+			}]
+		}
+		{
+			title: "&#61666ANether Quartz&r"
+			x: -9.75d
+			y: 7.75d
+			shape: "pentagon"
+			dependencies: ["3A3CDBD5FF1985DB"]
+			id: "0A5605FD0BE42BAF"
+			tasks: [{
+				id: "134355C7D75FC7F3"
+				type: "item"
+				item: "minecraft:quartz"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 13.0d
+			dependencies: ["359039A14143712B"]
+			id: "7E649617C4BF0894"
+			tasks: [{
+				id: "2AF35418559DC1C8"
+				type: "item"
+				item: "tconstruct:glow_ball"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 11.0d
+			dependencies: ["3A3CDBD5FF1985DB"]
+			id: "359039A14143712B"
+			tasks: [{
+				id: "7AA6A8D070E60A22"
+				type: "item"
+				item: "minecraft:glowstone_dust"
+			}]
+		}
+		{
+			icon: "tconstruct:scorched_alloyer"
+			x: -4.75d
+			y: 13.0d
+			shape: "square"
+			dependencies: ["13D4E1A361C32E93"]
+			size: 1.5d
+			id: "19507D1E11AAF241"
+			tasks: [
+				{
+					id: "3D65A0782550795D"
+					type: "item"
+					item: "tconstruct:scorched_alloyer"
+				}
+				{
+					id: "4B93C0A14541E4A6"
+					type: "item"
+					item: "tconstruct:scorched_fuel_tank"
+				}
+				{
+					id: "6021289B2D99804C"
+					type: "item"
+					item: "tconstruct:scorched_faucet"
+				}
+				{
+					id: "20ECC849032AF4BF"
+					type: "item"
+					item: "tconstruct:scorched_basin"
+				}
+				{
+					id: "342CE959D983380F"
+					type: "item"
+					item: "tconstruct:scorched_table"
+				}
+			]
+		}
+		{
+			title: "Scorched Ingot \\& Fuel Gauge"
+			x: -4.75d
+			y: 10.75d
+			description: [
+				"Scorched Ingot ..."
+				"Scorched Fuel..."
+				""
+				"You have to use one of the two for crafting the Scorched Alloyer."
+				""
+				"&o(No need to craft both to complete the quest, only one is enough)&r"
+			]
+			dependencies: ["11525ED89B361FB8"]
+			min_required_tasks: 1
+			id: "13D4E1A361C32E93"
+			tasks: [
+				{
+					id: "450F2EB58FFE9968"
+					type: "item"
+					item: "tconstruct:scorched_ingot_gauge"
+				}
+				{
+					id: "3839BB110244F0E5"
+					type: "item"
+					item: "tconstruct:scorched_fuel_gauge"
+				}
+			]
+		}
+		{
+			title: "Scorched Bricks"
+			x: -4.75d
+			y: 8.75d
+			dependencies: ["3A3CDBD5FF1985DB"]
+			id: "11525ED89B361FB8"
+			tasks: [{
+				id: "517378CFB6ECFC36"
+				type: "item"
+				title: "89x Scorched Bricks"
+				item: "tconstruct:scorched_brick"
+				count: 89L
+			}]
+		}
+		{
+			title: "Decorative Scorched blocks"
+			icon: "tconstruct:scorched_glass_pane"
+			x: -2.0d
+			y: 8.0d
+			description: ["These blocks can used as decoration, but NOT as a replacement for the Scorched Bricks in the Foundry."]
+			dependencies: ["667A9CA631F41AF2"]
+			optional: true
+			id: "3FFCA0A02D7BDF2D"
+			tasks: [
+				{
+					id: "7411E007B896820D"
+					type: "item"
+					item: "tconstruct:scorched_bricks_slab"
+				}
+				{
+					id: "71776C6C3AB7FF70"
+					type: "item"
+					item: "tconstruct:scorched_bricks_stairs"
+				}
+				{
+					id: "24369BD9C70485A0"
+					type: "item"
+					item: "tconstruct:scorched_bricks_fence"
+				}
+				{
+					id: "0FE57A3C8EE784C4"
+					type: "item"
+					item: "tconstruct:scorched_road_slab"
+				}
+				{
+					id: "4B92EA2D5925247D"
+					type: "item"
+					item: "tconstruct:scorched_road_stairs"
+				}
+				{
+					id: "20FFAF0449947E8E"
+					type: "item"
+					item: "tconstruct:scorched_glass_pane"
+				}
+			]
+		}
+		{
+			title: "Alternatives to Scorched Bricks"
+			icon: "tconstruct:scorched_glass"
+			x: -2.0d
+			y: 6.0d
+			description: [
+				"You can use these blocks to replace the Scorched Bricks in the Foundry."
+				"They can also be used as decoration."
+			]
+			dependencies: ["0F1BD6C918F471B1"]
+			optional: true
+			id: "667A9CA631F41AF2"
+			tasks: [
+				{
+					id: "553808B18A79CAC3"
+					type: "item"
+					item: "tconstruct:scorched_stone"
+				}
+				{
+					id: "057A2A03D5AD1FC0"
+					type: "item"
+					item: "tconstruct:polished_scorched_stone"
+				}
+				{
+					id: "4B158967BC863381"
+					type: "item"
+					item: "tconstruct:scorched_road"
+				}
+				{
+					id: "7D5C18B52DB72392"
+					type: "item"
+					item: "tconstruct:chiseled_scorched_bricks"
+				}
+				{
+					id: "36910F09911E1B3C"
+					type: "item"
+					item: "tconstruct:scorched_ladder"
+				}
+				{
+					id: "02A3AFB105E25AB0"
+					type: "item"
+					item: "tconstruct:scorched_glass"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			dependencies: [
+				"3886A8B4A5FA3CE1"
+				"667A9CA631F41AF2"
+			]
+			dependency_requirement: "one_completed"
+			id: "7F6EDBDC585DC024"
+			tasks: [{
+				id: "3871A799E8CC6AC8"
+				type: "item"
+				item: "tconstruct:scorched_chute"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			dependencies: [
+				"3886A8B4A5FA3CE1"
+				"7F6EDBDC585DC024"
+			]
+			dependency_requirement: "one_completed"
+			id: "7F5CC2E6BCE2516A"
+			tasks: [{
+				id: "1451CC18B5C10EF1"
+				type: "item"
+				item: "tconstruct:scorched_duct"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 10.0d
+			dependencies: [
+				"3886A8B4A5FA3CE1"
+				"7F5CC2E6BCE2516A"
+			]
+			dependency_requirement: "one_completed"
+			id: "29E0E777AE4E3751"
+			tasks: [{
+				id: "3CECA51A0EC0AFC9"
+				type: "item"
+				item: "tconstruct:scorched_ingot_tank"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 10.0d
+			dependencies: [
+				"3886A8B4A5FA3CE1"
+				"29E0E777AE4E3751"
+			]
+			dependency_requirement: "one_completed"
+			id: "46D4A8F6AF52A228"
+			tasks: [{
+				id: "083CADD8AD2E974C"
+				type: "item"
+				item: "tconstruct:scorched_channel"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 12.0d
+			dependencies: [
+				"3886A8B4A5FA3CE1"
+				"46D4A8F6AF52A228"
+			]
+			dependency_requirement: "one_completed"
+			id: "68ACE8898919F6F4"
+			tasks: [{
+				id: "6FCA493C6B5C049F"
+				type: "item"
+				item: "tconstruct:scorched_lantern"
+			}]
+		}
+		{
+			title: "Foundry"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "chroma:textures/quests/tinkers_foundry_icon.png"
+				}
+			}
+			x: -4.75d
+			y: 6.0d
+			shape: "square"
+			dependencies: ["11525ED89B361FB8"]
+			size: 2.75d
+			id: "0F1BD6C918F471B1"
+			tasks: [
+				{
+					id: "3886A8B4A5FA3CE1"
+					type: "item"
+					item: "tconstruct:foundry_controller"
+				}
+				{
+					id: "1E6483F70F454507"
+					type: "item"
+					item: "tconstruct:scorched_drain"
+				}
+				{
+					id: "6D3455F04F54C45F"
+					type: "item"
+					title: "2x Scorched Faucets"
+					item: "tconstruct:scorched_faucet"
+					count: 2L
+				}
+				{
+					id: "4ADECE5FB8D0D565"
+					type: "item"
+					item: "tconstruct:scorched_table"
+				}
+				{
+					id: "3EEED2FB85F62699"
+					type: "item"
+					item: "tconstruct:scorched_basin"
+				}
+				{
+					id: "483D4C83B9D754D1"
+					type: "item"
+					item: "tconstruct:scorched_fuel_tank"
+				}
+				{
+					id: "52BCA335A830C4DE"
+					type: "item"
+					item: "tconstruct:scorched_bricks"
+					count: 14L
+				}
+			]
+		}
+	]
+}
