@@ -1570,9 +1570,9 @@
 			size: 1.5d
 			id: "6C1CDB642DADEA2F"
 			tasks: [{
-				id: "4EB574A1E645F670"
-				type: "item"
-				item: "envirocore:litherite_crystal"
+				id: "0A0E965A2D94D8DD"
+				type: "checkmark"
+				title: "Unlock : &aEnvironmental Tech&r quest line"
 			}]
 		}
 		{
@@ -1908,36 +1908,11 @@
 			]
 			size: 1.25d
 			id: "1F22F5BF3BD21A03"
-			tasks: [
-				{
-					id: "7CF44CC7A391A845"
-					type: "item"
-					item: "pneumaticcraft:transistor"
-					count: 2L
-				}
-				{
-					id: "2511F3DF1883410F"
-					type: "item"
-					item: "emendatusenigmatica:steel_block"
-					count: 2L
-				}
-				{
-					id: "7A09D1E92D3DAF4A"
-					type: "item"
-					item: "createdeco:netherite_sheet"
-					count: 2L
-				}
-				{
-					id: "3A4E4D4F5592CA90"
-					type: "item"
-					item: "thermal:machine_frame"
-				}
-				{
-					id: "17D77DD53982E986"
-					type: "item"
-					item: "mekanism:steel_casing"
-				}
-			]
+			tasks: [{
+				id: "17D77DD53982E986"
+				type: "item"
+				item: "mekanism:steel_casing"
+			}]
 		}
 		{
 			icon: "mekanism:precision_sawmill"
@@ -2098,6 +2073,7 @@
 				"(For people that want more complex program, at the bottom left there are three modes each having more pieces than the precedent)"
 			]
 			dependencies: ["37ABB320CA809E91"]
+			min_width: 300
 			id: "37CF7DD738BEB7C7"
 			tasks: [{
 				id: "0736BCFC1E92257D"
@@ -2110,7 +2086,7 @@
 			y: 10.5d
 			subtitle: "Your turn now !"
 			description: [
-				"You might have seen that there is more than one drone. The first one \"Drone\" is fully customizable but requires you to make a full program to work. Whilst the others work without one but aren't as customizable."
+				"You might have seen that there is more than one drone. The first \"Drone\" is fully customizable but requires you to make a full program to work. Whilst the others work without one but aren't as customizable."
 				""
 				"On a side note, drones can be used as a replacement for most if not all of the automation you know of."
 				""

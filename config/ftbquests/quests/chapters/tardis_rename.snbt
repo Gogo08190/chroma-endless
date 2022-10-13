@@ -7,5 +7,31 @@
 	icon: "tardis:telescope"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -31.75d
+			y: -8.0d
+			width: 35.0d
+			height: 25.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/tardis.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -3.5d
+			y: -10.25d
+			width: 25.0d
+			height: 35.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/dalek.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
 	quests: [ ]
 }
