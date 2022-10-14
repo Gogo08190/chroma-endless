@@ -1,0 +1,2962 @@
+{
+	id: "1D74DF085621FD4E"
+	group: "248890104A858230"
+	order_index: 1
+	filename: "chap5"
+	title: "Chapter 2"
+	icon: "occultism:spirit_fire"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 1.25d
+			y: 3.357142857142854d
+			width: 4.0d
+			height: 4.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/pentagram_rouge.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 5.99285714285714d
+			y: 1.3285714285714292d
+			width: 4.0d
+			height: 4.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/pentagram_rouge.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 5.964285714285715d
+			y: 5.357142857142854d
+			width: 4.0d
+			height: 4.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/pentagram_rouge.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 10.979591836734699d
+			y: 3.091836734693871d
+			width: 4.0d
+			height: 4.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/pentagram_rouge.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Seeds ! Why ?"
+			x: 5.75d
+			y: -10.0d
+			subtitle: "Who thought Demons were actually growing from seeds?"
+			description: [
+				"Powerful power nature can be."
+				"Break &2grass&r, you shall."
+				"&5Seeds&r you will obtain."
+				"       &k&0&lDemons are watching you&r"
+			]
+			id: "4E84E8ADA1739E71"
+			tasks: [{
+				id: "13C6CDB51BA5FF8B"
+				type: "item"
+				title: "Demon Seeds"
+				item: "occultism:datura_seeds"
+				count: 9L
+			}]
+			rewards: [{
+				id: "173BC690F5FD7CCC"
+				type: "item"
+				item: "occultism:datura"
+			}]
+		}
+		{
+			title: "Let's start some weird magic"
+			x: 5.75d
+			y: -8.75d
+			subtitle: "&4&kDark&r&l&0Dark Magic&r&k&4Magic&r"
+			description: [
+				"&1The fate of Mankind&r has not always been very bright. Over the years people have tried to be what they could not."
+				"Many men thought they could tame the true power of &l&0Dark Magic&r, but they were too weak"
+				"Because of this weakness, they decided to forbid this magic."
+				"For centuries, some people tried to learn this magic, but none of them had the &6true potential&r. "
+				"One day, and old mage named &5KliKli&r found some old books about this magic and decided to use it for a good cause, but unfortunately he could not finish his works and before his death, he decided to give his knowledge to his heir: You! "
+				""
+				"Thanks to the power of &4Nature&r and the old mage's works, you will be able to resurrect this power and thus carry the Dark Magic's Legacy"
+			]
+			dependencies: ["4E84E8ADA1739E71"]
+			min_width: 400
+			id: "3A5569B8FB3C4F7B"
+			tasks: [{
+				id: "74682588D39C2D2B"
+				type: "item"
+				item: "occultism:dictionary_of_spirits"
+			}]
+		}
+		{
+			title: "Occultism Useful Items"
+			x: 7.25d
+			y: -9.25d
+			subtitle: "Really useful !"
+			description: [
+				"- The &n&lButcher Knife&r is needed to drop some &eTallow&r. You'll need to kill some passive mobs."
+				"- The &l&nChalk Brush&r is needed to erase chalks that you might misplace."
+				"- The &n&lSatchet&r is like a Backpack. To craft it you'll need to build the &eEziveus Spectral Compulsion&r."
+			]
+			dependencies: ["3A5569B8FB3C4F7B"]
+			id: "43C5F40A67C61EF9"
+			tasks: [
+				{
+					id: "45374E581F144756"
+					type: "item"
+					item: {
+						id: "occultism:butcher_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0045DAA2287E4343"
+					type: "item"
+					item: "occultism:brush"
+				}
+				{
+					id: "35E72B10F36B7261"
+					type: "item"
+					item: {
+						id: "occultism:satchel"
+						Count: 1b
+						tag: {
+							spiritName: "Reislamarder"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.75d
+			y: -7.0d
+			subtitle: "Crafting Ingredient"
+			description: ["Throw an &2&lOtherworld Wood&r into the &5Spiritfire&r."]
+			dependencies: ["28C3F89057684CC6"]
+			id: "1C3E182744A46821"
+			tasks: [{
+				id: "101C60D9A1BB24DE"
+				type: "item"
+				item: "occultism:otherworld_ashes"
+			}]
+		}
+		{
+			x: 5.75d
+			y: -5.75d
+			subtitle: "Calling demons !"
+			description: ["In order to create the &5SpiritFire&r, you will have to drop the &2Demon Dream Fruit&r on the floor and then right click with a &0Flint'N'Steel&r."]
+			hide_dependency_lines: true
+			dependencies: ["4E84E8ADA1739E71"]
+			id: "28C3F89057684CC6"
+			tasks: [{
+				id: "2B5AB3E75F1A0A7D"
+				type: "checkmark"
+				title: "Spiritfire !"
+				icon: "occultism:spirit_fire"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -4.0d
+			subtitle: "Stoned"
+			description: ["The &0&lOtherworld Stone&r is obtainable when you drop andesite in the &5Spiritfire&r. "]
+			dependencies: ["28C3F89057684CC6"]
+			id: "281F853004D0032C"
+			tasks: [{
+				id: "69995795F85D1B9B"
+				type: "item"
+				item: "occultism:otherstone"
+			}]
+		}
+		{
+			title: "Otherstone Trader"
+			icon: "occultism:ritual_dummy/summon_foliot_otherstone_trader"
+			x: 6.0d
+			y: -2.5d
+			subtitle: "A good deal"
+			description: ["The &5Otherstone Trader&r exchange 1x Stone for 4x Otherstone."]
+			dependencies: ["281F853004D0032C"]
+			id: "6A5EBC02B04CDB0D"
+			tasks: [
+				{
+					id: "5C1265E64882455E"
+					type: "item"
+					item: "minecraft:granite"
+				}
+				{
+					id: "1A0F53B1901107DC"
+					type: "item"
+					item: "minecraft:diorite"
+				}
+				{
+					id: "5DA164796ADD4D3E"
+					type: "item"
+					item: "minecraft:andesite"
+				}
+				{
+					id: "707074857C0AA9E1"
+					type: "item"
+					item: "minecraft:stone"
+				}
+				{
+					id: "715109E3D3E8EAC3"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_foliot"
+						Count: 1b
+						tag: {
+							spiritName: "Breired"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.75d
+			y: -4.75d
+			dependencies: ["28C3F89057684CC6"]
+			id: "795294F328925FD4"
+			tasks: [{
+				id: "1F255B9EBE45E909"
+				type: "item"
+				item: "ironjetpacks:otherworldian_cell"
+			}]
+		}
+		{
+			x: 7.25d
+			y: -6.5d
+			subtitle: "Spirit Ingredient"
+			description: ["Throw a &b&lDiamond&r into the &5Spiritfire&r."]
+			dependencies: ["28C3F89057684CC6"]
+			id: "414FB84D8E12D770"
+			tasks: [{
+				id: "0143BF09043C8A81"
+				type: "item"
+				item: "occultism:spirit_attuned_gem"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -6.5d
+			subtitle: "Iesnium Breaker"
+			description: ["The &5Iesnium Pickaxe&r is needed to mine &bIesnium Ore&r. "]
+			dependencies: ["414FB84D8E12D770"]
+			id: "521BDBA45B181D70"
+			tasks: [{
+				id: "3B40F4E001BAD39E"
+				type: "item"
+				item: {
+					id: "occultism:infused_pickaxe"
+					Count: 1b
+					tag: {
+						spiritName: "Merzermed"
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -7.75d
+			subtitle: "Iesnium Finder"
+			description: ["The &5&lDivination Rod&r will find Iesnium Ore in the Nether. Simply right click on a &4Netherrack&r to set the &5Rod&r to find &bIesnium Ore&r."]
+			dependencies: ["414FB84D8E12D770"]
+			id: "3BF844653D8EDF5B"
+			tasks: [{
+				id: "517B8A15E866E4D5"
+				type: "item"
+				item: {
+					id: "occultism:divination_rod"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 10.75d
+			y: -6.5d
+			subtitle: "A new Ore in the Nether"
+			description: ["As you may understand, the &bIesnium Ore&r is only in the &4Nether&r Dimension. "]
+			dependencies: [
+				"521BDBA45B181D70"
+				"11EA6BD16C6054B4"
+				"3BF844653D8EDF5B"
+			]
+			id: "6556C41B660B08F6"
+			tasks: [{
+				id: "2B66464C48955F1E"
+				type: "item"
+				item: "occultism:iesnium_ore"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -5.25d
+			subtitle: "Iesnium Viewer"
+			description: ["The &5Otherworld Googles&r are needed to see the &bIesnium Ore&r. If you don't have them you'll have a simple Netherrack."]
+			dependencies: ["414FB84D8E12D770"]
+			id: "11EA6BD16C6054B4"
+			tasks: [{
+				id: "3BC21E94C95FF0F6"
+				type: "item"
+				item: {
+					id: "occultism:otherworld_goggles"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.25d
+			y: -5.75d
+			subtitle: "The Third Eye"
+			description: [
+				"In order to have those saplings, you will have to throw &2Oak Saplings&r in the &5&lSpiritfire&r. "
+				"To have the &7&lOtherworld Wood&r you will have to eat a &2Demon's Dream Fruit&r that will grant you the &eThird Eye Effect&r and then you will be able to have the wood. If the effect disappear, you will have normal &2Oak Wood&r."
+			]
+			dependencies: ["28C3F89057684CC6"]
+			id: "04CDB65B58341D53"
+			tasks: [
+				{
+					id: "526CB96E9DC5DCE0"
+					type: "item"
+					item: {
+						id: "occultism:otherworld_sapling_natural"
+						Count: 1b
+						tag: {
+							isInventoryItem: 1b
+						}
+					}
+				}
+				{
+					id: "1399C60097704E14"
+					type: "item"
+					item: "occultism:otherworld_log"
+					count: 4L
+				}
+			]
+		}
+		{
+			title: "How to get stables ones?"
+			icon: "occultism:ritual_dummy/craft_stable_wormhole"
+			x: 2.75d
+			y: -6.25d
+			subtitle: "Sapling Trader"
+			description: [
+				"With the &6Aviar's Circle&r ritual you will be able to summon the &5Otherworld Sapling Trader&r. This guy will trade : "
+				"> Vanilla Saplings for &2Unstable Otherworld Saplings&r. "
+				"> Unstable Otherwood Saplings for &5Stable Otherworld Saplings&r. "
+			]
+			dependencies: ["04CDB65B58341D53"]
+			id: "7FFAB1924AA0EAD7"
+			tasks: [
+				{
+					id: "242194E418412CE9"
+					type: "item"
+					item: "minecraft:jungle_sapling"
+				}
+				{
+					id: "0E7FCD77E918DD37"
+					type: "item"
+					item: "minecraft:spruce_sapling"
+				}
+				{
+					id: "47DF0183F0E220DA"
+					type: "item"
+					item: "minecraft:birch_sapling"
+				}
+				{
+					id: "3A22EFE5BB83BB46"
+					type: "item"
+					item: "minecraft:oak_sapling"
+				}
+				{
+					id: "3C4366FE70BBB989"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_foliot"
+						Count: 1b
+						tag: {
+							spiritName: "Mjolairure"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Stable Otherworld Saplings"
+			x: 1.75d
+			y: -7.25d
+			subtitle: "Farming for life"
+			description: ["Now, as you now have &n&5Stable Saplings&r. You will now be able to farm them without the &eThird Eye&r effect."]
+			dependencies: ["7FFAB1924AA0EAD7"]
+			id: "5F550AA4ADBABA8D"
+			tasks: [{
+				id: "1FFAB313335708D9"
+				type: "item"
+				item: "occultism:otherworld_sapling"
+			}]
+		}
+		{
+			title: "Deer Familiar"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "occultism:textures/gui/book/familiar_deer.png"
+				}
+			}
+			x: 1.75d
+			y: -3.5d
+			shape: "square"
+			subtitle: "Christmas is here!"
+			description: [
+				"In order to summon the &3Deer Familiar&r you'll need the &6Heydrin's Lure&r ritual."
+				"You will need to sacrifice a &3Cow&r for this ritual."
+				"More Information can be found in the &e&lDictionnary Of Spirits&r."
+			]
+			dependencies: ["682300BC795A0E9C"]
+			optional: true
+			id: "2A4458719C36177D"
+			tasks: [
+				{
+					id: "26ED2444D25DD9E9"
+					type: "item"
+					item: "minecraft:stick"
+					count: 4L
+				}
+				{
+					id: "6FAA6A0B32E7E53B"
+					type: "item"
+					item: "minecraft:string"
+					count: 2L
+				}
+				{
+					id: "11FC46398B1B9599"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_foliot"
+						Count: 1b
+						tag: {
+							spiritName: "Mrokredure"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Bat Familiar"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "occultism:textures/gui/book/bat_familiar.png"
+				}
+			}
+			x: 1.75d
+			y: -2.5d
+			shape: "square"
+			subtitle: "Escaped from the Batcave"
+			description: [
+				"The &5Bat&r familiar is summoned with the &6Ihagan's Enthrallment&r."
+				"To summon this familiar you'll need to sacrifice a &0&lBat&r."
+				"When the familiar is near, you'll gain the &bNight Vision&r effect. "
+				"If you upgrade the &5Bat&r familiar with a &eBlackSmith&r familiar, you will gain a &4Life-Steal&r effect."
+			]
+			dependencies: ["682300BC795A0E9C"]
+			optional: true
+			id: "25971F55D8AE540E"
+			tasks: [
+				{
+					id: "1358FC59B83C5312"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "25405D788C6850FF"
+					type: "item"
+					item: "minecraft:glowstone"
+				}
+				{
+					id: "3B14A5976EC9306A"
+					type: "item"
+					item: "minecraft:spider_eye"
+				}
+				{
+					id: "132C60EEEE0372E1"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+				{
+					id: "5CD344B87B3DBE87"
+					type: "item"
+					item: "minecraft:torch"
+				}
+				{
+					id: "488163D64F119DDF"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Azurtimd"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Cthulhu Familiar"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "occultism:textures/gui/book/familiar_cthulhu.png"
+				}
+			}
+			x: 2.75d
+			y: -2.5d
+			shape: "square"
+			subtitle: "No more drowning"
+			description: [
+				"In order to summon the &3Cthulhu Familiar&r you'll need the &6Ihagan's Enthrallment&r ritual."
+				"To summon this familiar you'll need to sacrifice a &b&lSquid&r."
+				"More Information can be found in the &e&lDictionnary Of Spirits&r."
+			]
+			dependencies: ["682300BC795A0E9C"]
+			optional: true
+			id: "59F12A804D7E5FDB"
+			tasks: [
+				{
+					id: "41FF674A028B1D16"
+					type: "item"
+					title: "8x Fishes"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "upgrade_aquatic:cooked_perch"
+									Count: 1b
+								}
+								{
+									id: "upgrade_aquatic:perch"
+									Count: 1b
+								}
+								{
+									id: "upgrade_aquatic:cooked_lionfish"
+									Count: 1b
+								}
+								{
+									id: "upgrade_aquatic:lionfish"
+									Count: 1b
+								}
+								{
+									id: "upgrade_aquatic:cooked_pike"
+									Count: 1b
+								}
+								{
+									id: "undergarden:raw_gwibling"
+									Count: 1b
+								}
+								{
+									id: "minecraft:pufferfish"
+									Count: 1b
+								}
+								{
+									id: "minecraft:cod"
+									Count: 1b
+								}
+								{
+									id: "minecraft:salmon"
+									Count: 1b
+								}
+								{
+									id: "environmental:koi"
+									Count: 1b
+								}
+								{
+									id: "sushigocrafting:raw_tuna"
+									Count: 1b
+								}
+								{
+									id: "sushigocrafting:shrimp"
+									Count: 1b
+								}
+								{
+									id: "upgrade_aquatic:pike"
+									Count: 1b
+								}
+								{
+									id: "undergarden:cooked_gwibling"
+									Count: 1b
+								}
+								{
+									id: "minecraft:tropical_fish"
+									Count: 1b
+								}
+								{
+									id: "minecraft:cooked_salmon"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 8L
+				}
+				{
+					id: "7F21AD4DDA85606A"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Ramiaeus"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Devil Familiar"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "occultism:textures/gui/book/familiar_devil.png"
+				}
+			}
+			x: 2.75d
+			y: -1.0d
+			shape: "square"
+			subtitle: "Satan as familiar"
+			description: [
+				"In order to summon the &4Devil Familiar&r you'll need the &6Ihagan's Enthrallment&r ritual."
+				"To summon this familiar you'll need to sacrifice a &c&lHorse&r."
+				"When the familiar is near, you'll gain the &4&lFire Resistance&r effect. "
+			]
+			dependencies: ["682300BC795A0E9C"]
+			optional: true
+			id: "146E968EECF879FF"
+			tasks: [
+				{
+					id: "24E918A22A7B0469"
+					type: "item"
+					item: "minecraft:bone"
+					count: 4L
+				}
+				{
+					id: "0E4100C59DAA193F"
+					type: "item"
+					item: "minecraft:lava_bucket"
+					count: 4L
+				}
+				{
+					id: "12013045D4DC711C"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Ratimtron"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Mummy Familiar"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "occultism:textures/gui/book/familiar_mummy.png"
+				}
+			}
+			x: 1.75d
+			y: -1.0d
+			shape: "square"
+			subtitle: "Sand Protector"
+			description: [
+				"In order to summon the &eMummy Familiar&r you'll need the &6Ihagan's Enthrallment&r ritual and a Llama has to be sacrified. "
+				"This familiar gives a protection to their master. Simple as that."
+				"When upgraded with the &eBlackmith Familiar&r it will deal more damage."
+			]
+			dependencies: ["682300BC795A0E9C"]
+			optional: true
+			id: "02D4502E38CF5785"
+			tasks: [
+				{
+					id: "1CA1A0BF52EFE64A"
+					type: "item"
+					title: "4x Wools"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:wool"
+						}
+					}
+					count: 4L
+				}
+				{
+					id: "28261FB8FA6F0FEC"
+					type: "item"
+					item: "minecraft:paper"
+					count: 2L
+				}
+				{
+					id: "63790B5A2C5F300A"
+					type: "item"
+					title: "2x Slimeballs"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:slimeballs"
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "60C37E4C426FCB8D"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Jagsalmarmur"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Beholder Familiar"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "occultism:textures/gui/book/familiar_beholder.png"
+				}
+			}
+			x: 1.75d
+			y: 0.0d
+			shape: "square"
+			subtitle: "Eye for an eye"
+			description: [
+				"In order to summon the &cBeholder Familiar&r you'll need the &6Ihagan's Enthrallment&r ritual."
+				"To summon this familiar you'll need to sacrifice a &0&lSpider&r."
+				"More Information can be found in the &e&lDictionnary Of Spirits&r."
+			]
+			dependencies: ["682300BC795A0E9C"]
+			optional: true
+			id: "2C9C290AA1BD54E9"
+			tasks: [
+				{
+					id: "2C0F623040357AEB"
+					type: "item"
+					item: "minecraft:spider_eye"
+					count: 4L
+				}
+				{
+					id: "547F6994D145A3CC"
+					type: "item"
+					item: "minecraft:glowstone_dust"
+					count: 4L
+				}
+				{
+					id: "49B61501ABF59555"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Zurmizur"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Fairy Familiar"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "occultism:textures/gui/book/familiar_fairy.png"
+				}
+			}
+			disable_toast: true
+			x: 2.75d
+			y: 0.0d
+			shape: "square"
+			subtitle: "Life Saver"
+			description: [
+				"In order to summon the &cFairy Familiar&r you'll need the &6Ihagan's Enthrallment&r ritual."
+				"To summon this familiar you'll need to sacrifice a &1&lHorse&r."
+				"More Information can be found in the &e&lDictionnary Of Spirits&r."
+			]
+			dependencies: ["682300BC795A0E9C"]
+			optional: true
+			id: "5AE56434FFA6FCAE"
+			tasks: [
+				{
+					id: "2D354455E7130669"
+					type: "item"
+					item: "minecraft:gunpowder"
+					count: 3L
+				}
+				{
+					id: "6EF38B5EB400AAB9"
+					type: "item"
+					item: "minecraft:golden_apple"
+					count: 2L
+				}
+				{
+					id: "4D2B3069495965EB"
+					type: "item"
+					item: "minecraft:ghast_tear"
+				}
+				{
+					id: "1595FAB7D573F4F6"
+					type: "item"
+					item: "minecraft:dragon_breath"
+				}
+				{
+					id: "5AF60CA0034B42EB"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Mjolslamared"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Familiars"
+			x: 0.75d
+			y: -1.75d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["3A5569B8FB3C4F7B"]
+			optional: true
+			id: "682300BC795A0E9C"
+			tasks: [{
+				id: "0073C52D0E7CA434"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Blacksmith Familiar"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "occultism:textures/gui/book/familiar_blacksmith.png"
+				}
+			}
+			x: -0.25d
+			y: -2.5d
+			shape: "square"
+			subtitle: "Repairing at it's best"
+			description: [
+				"In order to summon the &eBlacksmith Familiar&r you'll need the &6Heydrin's Lure&r ritual."
+				"You will need to sacrifice a &2&lZombie&r for this ritual."
+				"When summoned, the &eBlacksmith&r will be able to repair your items."
+				"The other cool thing is that he can upgrade other familiars."
+				"To do that , you'll need to give him &nIron Blocks&r or &nIngots&r. (&7&lYou'll need to right-click on him to do so and of course your Familiar that you want to be upgraded)&r."
+			]
+			dependencies: ["682300BC795A0E9C"]
+			optional: true
+			id: "58F4A9639F74EC86"
+			tasks: [
+				{
+					id: "3B0CE2F640BAC968"
+					type: "item"
+					item: {
+						id: "minecraft:iron_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5E400125A9A5FA37"
+					type: "item"
+					item: {
+						id: "minecraft:iron_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "410B0B911D4511AF"
+					type: "item"
+					item: {
+						id: "minecraft:iron_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "05DA38E2553B3B9F"
+					type: "item"
+					title: "4x Stones"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:stone"
+						}
+					}
+					count: 4L
+				}
+				{
+					id: "01B4038DE2E853B9"
+					type: "item"
+					item: "minecraft:anvil"
+				}
+				{
+					id: "0B7FCF36D9897640"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_foliot"
+						Count: 1b
+						tag: {
+							spiritName: "Creoredarc"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Dragon Familiar"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "occultism:textures/gui/book/familiar_dragon.png"
+				}
+			}
+			x: -0.25d
+			y: -3.5d
+			shape: "square"
+			subtitle: "You're Wizard... Harry"
+			description: [
+				"In order to summon the &aDragon Familiar&r you'll need the &6Ihagan's Enthrallment&r ritual."
+				"To summon this familiar you'll need to sacrifice a &c&lHorse&r."
+				"More Information can be found in the &e&lDictionnary Of Spirits&r."
+			]
+			dependencies: ["682300BC795A0E9C"]
+			optional: true
+			id: "67B027EFA7AAAA85"
+			tasks: [
+				{
+					id: "2D70F3BB6C0CE022"
+					type: "item"
+					title: "Quartz Block"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:storage_blocks/quartz"
+						}
+					}
+				}
+				{
+					id: "1FA52C885BAA7126"
+					type: "item"
+					title: "Coal Block"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:storage_blocks/coal"
+						}
+					}
+				}
+				{
+					id: "04D38B5DD2B87D8D"
+					type: "item"
+					item: "chipped:obsidian_4"
+					count: 2L
+				}
+				{
+					id: "593337FF58ED04F5"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "48E63BE0A43F4323"
+					type: "item"
+					item: "minecraft:gold_block"
+				}
+				{
+					id: "42D19D49208B4720"
+					type: "item"
+					item: "minecraft:gunpowder"
+				}
+				{
+					id: "2964B4BC1699C9C5"
+					type: "item"
+					item: {
+						id: "minecraft:flint_and_steel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0C8C3C2A3FFADEA0"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Azakzermur"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Chimera Familiar"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "occultism:textures/gui/book/familiar_chimera.png"
+				}
+			}
+			x: -1.25d
+			y: -3.5d
+			shape: "square"
+			subtitle: "A bigger dog"
+			description: [
+				"The &cChimera&r Familiar is like a giant dog. It can protect their master. If you give them meat they will start to grow and increase their &nspeed&r and &ndamage&r. You can also ride it ! Cool right?"
+				"To summon the familiar, you'll need the &6Ihagan's Enthrallment&r ritual. Don't forget to sacrifice a sheep to summon your familiar !"
+				"More Information can be found in the &e&lDictionnary Of Spirits&r."
+			]
+			dependencies: ["682300BC795A0E9C"]
+			optional: true
+			id: "0BF172F72A01A388"
+			tasks: [
+				{
+					id: "0808595C1629B587"
+					type: "item"
+					title: "Wool"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:wool"
+						}
+					}
+				}
+				{
+					id: "59B3FC87E996C7C0"
+					type: "item"
+					item: "minecraft:porkchop"
+				}
+				{
+					id: "2D60880414BBAD01"
+					type: "item"
+					item: "minecraft:beef"
+				}
+				{
+					id: "79B3527FF14FA8F8"
+					type: "item"
+					item: "minecraft:feather"
+				}
+				{
+					id: "7CF7F803F2FF2D7E"
+					type: "item"
+					item: "minecraft:string"
+				}
+				{
+					id: "1486F21EC0C03C20"
+					type: "item"
+					item: "minecraft:mutton"
+				}
+				{
+					id: "59FAF6799BCC4F61"
+					type: "item"
+					item: "minecraft:bone"
+				}
+				{
+					id: "5896A27E7AF500BC"
+					type: "item"
+					item: "minecraft:chicken"
+				}
+				{
+					id: "351435D3097B4815"
+					type: "item"
+					item: "minecraft:leather"
+				}
+				{
+					id: "43278F7E14B173D0"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Crymirimur"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Headless Ratman Familiar"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "occultism:textures/gui/book/familiar_headless_ratman.png"
+				}
+			}
+			x: -1.25d
+			y: -2.5d
+			shape: "square"
+			subtitle: "The Headless Horseman"
+			description: [
+				"The &c&lHeadless Ratman&r Familiar steals heads of mobs near the ratman when they are killed. It then provides a damage buff against that type of mob to their Master. Don't forget to sacrifice a SnowGolem to summon your familiar !"
+				"More Information can be found in the &e&lDictionnary Of Spirits&r."
+			]
+			dependencies: ["682300BC795A0E9C"]
+			optional: true
+			id: "7B0E0CC7C05CE1DB"
+			tasks: [
+				{
+					id: "1D7F039BC0BD0231"
+					type: "item"
+					item: "minecraft:wheat"
+					count: 2L
+				}
+				{
+					id: "0DEFF00532401260"
+					type: "item"
+					item: "minecraft:stick"
+					count: 2L
+				}
+				{
+					id: "2B72A284B2909406"
+					type: "item"
+					item: "minecraft:carved_pumpkin"
+				}
+				{
+					id: "5A87571114983994"
+					type: "item"
+					item: "minecraft:hay_block"
+				}
+				{
+					id: "2774A7147ED17767"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Crymirimur"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Drikwing Familiar"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "occultism:textures/gui/book/otherworld_bird.png"
+				}
+			}
+			x: -0.25d
+			y: 0.0d
+			shape: "square"
+			subtitle: "Ultimate Parrot"
+			description: [
+				"In order to summon the &5Drikwing Familiar&r you'll need the &6Ihagan's Enthrallment&r ritual and a Parrot has to be sacrified."
+				"The familiar grants : "
+				"-> &aMulti-Jump&r"
+				"->&a Jump Boost&r"
+				"->&a Slow Falling."
+				"More Information can be found in the &e&lDictionnary Of Spirits&r."
+			]
+			dependencies: ["682300BC795A0E9C"]
+			optional: true
+			id: "7A74AC82BF8D5B38"
+			tasks: [
+				{
+					id: "019495AEBCABB4AE"
+					type: "item"
+					item: "minecraft:feather"
+					count: 2L
+				}
+				{
+					id: "23D1303113924AE6"
+					type: "item"
+					item: "minecraft:string"
+				}
+				{
+					id: "373EBCA99575BDAB"
+					type: "item"
+					title: "1x Leaves"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:leaves"
+						}
+					}
+				}
+				{
+					id: "433EB21D9D49D6F6"
+					type: "item"
+					item: "minecraft:cobweb"
+				}
+				{
+					id: "5F321AF1EE6E9E17"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Mrokslamares"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Greedy Familiar"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "occultism:textures/gui/book/familiar_greedy.png"
+				}
+			}
+			x: -1.25d
+			y: -1.0d
+			shape: "square"
+			subtitle: "Vacuuming Items"
+			description: [
+				"In order to summon the &2Greedy Familiar&r you'll need the &6Heydrin's Lure&r ritual."
+				"You will need to sacrifice a &2&lZombie&r for this ritual."
+				"More Information can be found in the &e&lDictionnary Of Spirits&r."
+			]
+			dependencies: ["682300BC795A0E9C"]
+			optional: true
+			id: "4F1A427671EC0899"
+			tasks: [
+				{
+					id: "76415C056D283CAF"
+					type: "item"
+					item: "minecraft:iron_block"
+				}
+				{
+					id: "566EDE10AD14AA35"
+					type: "item"
+					item: "minecraft:dispenser"
+				}
+				{
+					id: "657F2BD8B71C3BDF"
+					type: "item"
+					item: "minecraft:hopper"
+				}
+				{
+					id: "01B512950EE71D3B"
+					type: "item"
+					title: "Chest"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:chests"
+						}
+					}
+				}
+				{
+					id: "04B36C231465D1A6"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_foliot"
+						Count: 1b
+						tag: {
+							spiritName: "Crusalmarder"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Guardian Familiar"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "occultism:textures/gui/book/familiar_guardian.png"
+				}
+			}
+			x: -0.25d
+			y: -1.0d
+			shape: "square"
+			subtitle: "Death can wait"
+			description: [
+				"The &b&lGuardian Familiar&r sacrifices a limb everytime it's master is about to die and thus prevents the death. Once the &bGuardian&r dies, the player is no longer protected. When summoned, the &bGuardian&r spawns with &lrandom amount of limbs&r, there is no garantee thata complete &bguardian&r is summoned."
+				"Limbs can be regained with the &eBlacksmith&r."
+				""
+				"To summon the &b&lGuardian&r the &6Abra's Commanding Conjure&r ritual and a Villager sacrifice will be needed."
+			]
+			dependencies: ["682300BC795A0E9C"]
+			optional: true
+			id: "1D66F0CD3F955DBD"
+			tasks: [
+				{
+					id: "543E62A648B7BDD9"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 4L
+				}
+				{
+					id: "720E399AA6CAB2B4"
+					type: "item"
+					item: "minecraft:golden_apple"
+					count: 2L
+				}
+				{
+					id: "731DE4E7E4B6A597"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_afrit"
+						Count: 1b
+						tag: {
+							spiritName: "Toastbroat"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 11.75d
+			y: -3.25d
+			shape: "square"
+			subtitle: "Farming these mobs can be a good idea"
+			description: ["Thanks to the &5&lOccultism&r Mod you will be able to summon mobs that will drop you some useful stuff. "]
+			hide_dependency_lines: true
+			dependencies: ["3A5569B8FB3C4F7B"]
+			hide_text_until_complete: false
+			optional: true
+			id: "7260260F71172224"
+			tasks: [{
+				id: "0EBF6F37781F263E"
+				type: "checkmark"
+				title: "Occultism Mob Summoning"
+			}]
+		}
+		{
+			title: "Possessed Endermen"
+			icon: "minecraft:ender_pearl"
+			x: 9.75d
+			y: -1.75d
+			shape: "square"
+			subtitle: "Angry Enderman "
+			description: [
+				"In order to spawn &0&lPossessed Endermen&r you will have to use the &6Ihagan's Enthrallement&r ritual."
+				"In order to complete the &0Ritual&r you'll need to sacrifice a &cPig&r."
+				"These &0&lEndermen&r will drop at least 1x enderpearl !"
+			]
+			dependencies: ["7260260F71172224"]
+			optional: true
+			id: "058892C1D78CDDB5"
+			tasks: [
+				{
+					id: "3DBD9B23931011E4"
+					type: "item"
+					item: "minecraft:string"
+				}
+				{
+					id: "177DC1CBB919F7CB"
+					type: "item"
+					item: "minecraft:bone"
+				}
+				{
+					id: "1D1A8AF014EE6E85"
+					type: "item"
+					item: "minecraft:rotten_flesh"
+				}
+				{
+					id: "29F9DBFF7C6A262B"
+					type: "item"
+					item: "minecraft:end_stone"
+				}
+				{
+					id: "65B4344D058DEB8C"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Cruarczur"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Possessed Skeletons"
+			icon: "minecraft:skeleton_skull"
+			x: 10.75d
+			y: -1.75d
+			shape: "square"
+			subtitle: "Skeletons V2"
+			description: [
+				"&l&7Possessed Skeletons&r can be summoned thanks to the &6Heydrin's Lure&r ritual."
+				"In order to complete the &0ritual&r, you will have to sacrifice a Chicken near the &6Golden Sacrifical Bowl&r."
+				"These &l&7Skeletons&r will drop you at least 1x Skeleton Skull."
+			]
+			dependencies: ["7260260F71172224"]
+			optional: true
+			secret: true
+			id: "3C5F10DE4AFF6964"
+			tasks: [
+				{
+					id: "60A7BB08C1D10BFE"
+					type: "item"
+					item: "minecraft:bone"
+					count: 4L
+				}
+				{
+					id: "77880B9FADFC77EB"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_foliot"
+						Count: 1b
+						tag: {
+							spiritName: "Madarkmed"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Possessed Ghasts"
+			icon: "minecraft:ghast_tear"
+			x: 11.75d
+			y: -1.75d
+			shape: "square"
+			description: [
+				"&l&0Possessed Ghasts&r can be summoned with the &6Ihagan's Enthrallement&r ritual."
+				"In order to complete the &0ritual&r, you will need to sacrifice a cow near the &6Golden Sacrificial Bowl&r."
+				"These &0&lGhasts&r will drop you at least 1x Ghast Tear."
+			]
+			dependencies: ["7260260F71172224"]
+			optional: true
+			id: "59B1012D83958A06"
+			tasks: [
+				{
+					id: "0447D2F6646766D4"
+					type: "item"
+					item: "minecraft:lava_bucket"
+					count: 3L
+				}
+				{
+					id: "7836D81AD3FD6F31"
+					type: "item"
+					item: "minecraft:netherrack"
+					count: 3L
+				}
+				{
+					id: "35AC2DF37895B886"
+					type: "item"
+					item: "minecraft:magma_block"
+					count: 3L
+				}
+				{
+					id: "408EC85CE252AD6E"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "26C721CA68546761"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Cryairmed"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Possessed Endermites"
+			icon: "minecraft:end_stone"
+			x: 12.75d
+			y: -1.75d
+			shape: "square"
+			subtitle: "Help ! They're small ! "
+			description: [
+				"&5&lPossessed Endermites&r can be summoned thanks to the &6Heydrin's Lure&r &0ritual&r."
+				"In order to complete the &0Ritual&r you'll need to throw (with a right-click) the egg near the &6Golden Ritual Bowl&r."
+				"&5&lPossessed Endermites&r will at least drop 1x End Stone !"
+			]
+			dependencies: ["7260260F71172224"]
+			optional: true
+			id: "29097E9D8404A837"
+			tasks: [
+				{
+					id: "1BE1FFA0AFF30F8F"
+					type: "item"
+					item: "minecraft:stone"
+					count: 2L
+				}
+				{
+					id: "443E892896EEF896"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 2L
+				}
+				{
+					id: "06D3C79072D2FF3E"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_foliot"
+						Count: 1b
+						tag: {
+							spiritName: "Cacramed"
+						}
+					}
+				}
+				{
+					id: "63DB51361711828C"
+					type: "item"
+					item: "minecraft:egg"
+				}
+			]
+		}
+		{
+			title: "The Wild Hunt"
+			icon: "minecraft:wither_skeleton_skull"
+			x: 13.75d
+			y: -1.75d
+			shape: "square"
+			subtitle: "Enraged Wither Skeletons"
+			description: [
+				"&0&lThe Wild Hunt&r is a group of &0Wither Skeletons&r that will summon &7Skeletons&r minions. You will need to kill the minions first in order to kill the &0Wither Skeletons&r."
+				"After being killed, they will drop at least 1x Wither Skeleton Skull."
+			]
+			dependencies: ["7260260F71172224"]
+			optional: true
+			id: "5AE2FDC5E1D367DF"
+			tasks: [
+				{
+					id: "5E96DCCA351C866C"
+					type: "item"
+					item: "emendatusenigmatica:copper_block"
+				}
+				{
+					id: "4D7A9DB5F190740A"
+					type: "item"
+					item: "minecraft:netherrack"
+				}
+				{
+					id: "177EB19593A745EA"
+					type: "item"
+					item: "minecraft:soul_sand"
+				}
+				{
+					id: "55D70C7F1A24A8CA"
+					type: "item"
+					item: "emendatusenigmatica:silver_block"
+				}
+				{
+					id: "33CE61B389062599"
+					type: "item"
+					item: "minecraft:gold_block"
+				}
+				{
+					id: "79DB73DBEEB82521"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "58B4660CC0694AEB"
+					type: "item"
+					item: {
+						id: "minecraft:skeleton_skull"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 0.5d
+			subtitle: "A new boss"
+			description: [
+				"Thanks to the &6Abra's Open Conjure&r you'll be able to spawn a new \"boss\" : &4&lThe Unbound Afrit&r. In order to hurt him you'll need to slay his minions first. "
+				"He will drop his &4&lEssence&r needed to craft the &c&lRed Chalk&r."
+			]
+			dependencies: ["40349C9C598C267B"]
+			id: "06010DF800031AA0"
+			tasks: [{
+				id: "48A47C0DC8C09FF2"
+				type: "item"
+				item: "occultism:afrit_essence"
+			}]
+		}
+		{
+			title: "Aviar's Circle"
+			icon: "occultism:ritual_dummy/craft_miner_djinni_ores"
+			x: 6.0d
+			y: -0.25d
+			subtitle: "Your first ritual"
+			description: ["So the first &8ritual&r is dedicated to the basic of &2Occultism&r. "]
+			hide_dependency_lines: true
+			dependencies: ["492116474A965E37"]
+			id: "3FF0CBC2AD6C6278"
+			tasks: [
+				{
+					id: "12DA6606FCDDAE54"
+					type: "item"
+					item: "occultism:candle_white"
+					count: 4L
+				}
+				{
+					id: "647263B83AB32152"
+					type: "item"
+					item: "occultism:sacrificial_bowl"
+					count: 4L
+				}
+				{
+					id: "693BC7788D967A4B"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "occultism:chalk_white"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 6.0d
+			y: 1.25d
+			hide_dependency_lines: true
+			dependencies: ["28C3F89057684CC6"]
+			id: "492116474A965E37"
+			tasks: [{
+				id: "70AF4EFD727EEECC"
+				type: "item"
+				item: {
+					id: "occultism:chalk_white"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Uphyxes Inverted Tower"
+			icon: "occultism:ritual_dummy/familiar_beaver"
+			x: 2.0d
+			y: 2.0d
+			subtitle: "Bind Marid"
+			hide_dependency_lines: true
+			dependencies: [
+				"492116474A965E37"
+				"1B0F10E649F86494"
+				"731299D4DEB93C9F"
+			]
+			id: "609ABEA205AC2CB7"
+			tasks: [
+				{
+					id: "261677CCCE1697D8"
+					type: "item"
+					item: "occultism:candle_white"
+					count: 8L
+				}
+				{
+					id: "0FCE5B56D9A99933"
+					type: "item"
+					item: "occultism:spirit_attuned_crystal"
+					count: 8L
+				}
+				{
+					id: "6A68380B6DBA73F4"
+					type: "item"
+					item: {
+						id: "minecraft:skeleton_skull"
+						Count: 1b
+						tag: { }
+					}
+					count: 4L
+				}
+				{
+					id: "37D165473A4894B1"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+					count: 4L
+				}
+				{
+					id: "53A14472CF09E6DD"
+					type: "item"
+					item: "occultism:sacrificial_bowl"
+					count: 5L
+				}
+				{
+					id: "4A9523530C7430A2"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
+				}
+			]
+		}
+		{
+			title: "Abras' Conjure"
+			icon: "occultism:ritual_dummy/summon_marid_crusher"
+			x: 0.25d
+			y: 2.0d
+			subtitle: "Summon Afrit"
+			hide_dependency_lines: true
+			dependencies: [
+				"492116474A965E37"
+				"731299D4DEB93C9F"
+			]
+			id: "630BD45ADDB20675"
+			tasks: [
+				{
+					id: "68EB7F3801314C8A"
+					type: "item"
+					item: "occultism:candle_white"
+					count: 8L
+				}
+				{
+					id: "5C12BD9C6EC7908A"
+					type: "item"
+					item: "minecraft:skeleton_skull"
+					count: 2L
+				}
+				{
+					id: "321F40465CB278A6"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+					count: 2L
+				}
+				{
+					id: "2D2AA253A0B8685B"
+					type: "item"
+					item: "occultism:sacrificial_bowl"
+					count: 4L
+				}
+				{
+					id: "407E4C4AC872BEF2"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
+				}
+			]
+		}
+		{
+			x: 1.25d
+			y: 3.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"28C3F89057684CC6"
+				"48A47C0DC8C09FF2"
+			]
+			id: "731299D4DEB93C9F"
+			tasks: [{
+				id: "681B44EC16C06D50"
+				type: "item"
+				item: {
+					id: "occultism:chalk_red"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Abra's Commanding Conjure"
+			icon: "occultism:ritual_dummy/craft_miner_djinni_ores"
+			x: 2.5d
+			y: 3.75d
+			subtitle: "Afrit Possession"
+			hide_dependency_lines: true
+			dependencies: [
+				"492116474A965E37"
+				"1B0F10E649F86494"
+				"5CA6BAB71797C1A5"
+				"731299D4DEB93C9F"
+			]
+			id: "4B9B233033B8C185"
+			tasks: [
+				{
+					id: "6A368C1FC164C323"
+					type: "item"
+					item: "occultism:candle_white"
+					count: 8L
+				}
+				{
+					id: "606B57CC00898099"
+					type: "item"
+					item: {
+						id: "minecraft:skeleton_skull"
+						Count: 1b
+						tag: { }
+					}
+					count: 2L
+				}
+				{
+					id: "104D5DEC22A1BBB4"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+					count: 2L
+				}
+				{
+					id: "0E00C68E8441A5EC"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
+				}
+			]
+		}
+		{
+			title: "Ophyx' Calling"
+			icon: "occultism:ritual_dummy/summon_foliot_transport_items"
+			x: 10.0d
+			y: 1.75d
+			subtitle: "Summon Djinni"
+			hide_dependency_lines: true
+			dependencies: [
+				"492116474A965E37"
+				"5CA6BAB71797C1A5"
+			]
+			id: "31C03F89D3110A36"
+			tasks: [
+				{
+					id: "421DFD28AD39D26B"
+					type: "item"
+					item: "occultism:candle_white"
+					count: 8L
+				}
+				{
+					id: "3AC1A54F13CC4187"
+					type: "item"
+					item: "minecraft:skeleton_skull"
+					count: 4L
+				}
+				{
+					id: "4D92C041FA00EA38"
+					type: "item"
+					item: "occultism:sacrificial_bowl"
+					count: 4L
+				}
+				{
+					id: "6590FBF5C8980272"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
+				}
+			]
+		}
+		{
+			title: "Abras' Open Conjure"
+			icon: "occultism:ritual_dummy/familiar_deer"
+			x: 11.0d
+			y: 1.5d
+			subtitle: "Summon Unbound Afrit"
+			hide_dependency_lines: true
+			dependencies: [
+				"492116474A965E37"
+				"5CA6BAB71797C1A5"
+			]
+			id: "40349C9C598C267B"
+			tasks: [
+				{
+					id: "6D1DC2B9BB224A50"
+					type: "item"
+					item: "occultism:candle_white"
+					count: 8L
+				}
+				{
+					id: "4E409A7AC678CD37"
+					type: "item"
+					item: "minecraft:skeleton_skull"
+					count: 2L
+				}
+				{
+					id: "4139B27BC75FBC78"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+					count: 2L
+				}
+				{
+					id: "17815443719E113A"
+					type: "item"
+					item: "occultism:sacrificial_bowl"
+					count: 4L
+				}
+				{
+					id: "5BE83118FDC08818"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
+				}
+			]
+		}
+		{
+			title: "Osorin's Unbound Calling"
+			icon: "occultism:ritual_dummy/possess_enderman"
+			x: 12.0d
+			y: 1.75d
+			hide_dependency_lines: true
+			dependencies: [
+				"492116474A965E37"
+				"5CA6BAB71797C1A5"
+			]
+			id: "32D3524C5FBA1045"
+			tasks: [
+				{
+					id: "6023AD90ED661B39"
+					type: "item"
+					item: "minecraft:skeleton_skull"
+					count: 4L
+				}
+				{
+					id: "67F2458FAFB15DAB"
+					type: "item"
+					item: "occultism:sacrificial_bowl"
+					count: 4L
+				}
+				{
+					id: "04C17EA3164824A2"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
+				}
+			]
+		}
+		{
+			x: 11.003401360544238d
+			y: 3.0182823129251943d
+			hide_dependency_lines: true
+			dependencies: ["28C3F89057684CC6"]
+			id: "5CA6BAB71797C1A5"
+			tasks: [{
+				id: "7BE8B45EAC3CD6C4"
+				type: "item"
+				item: {
+					id: "occultism:chalk_purple"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Strigeor's Higher Binding"
+			icon: "occultism:ritual_dummy/craft_miner_foliot_unspecialized"
+			x: 12.5d
+			y: 3.25d
+			subtitle: "Bind Djinni"
+			hide_dependency_lines: true
+			dependencies: [
+				"492116474A965E37"
+				"5CA6BAB71797C1A5"
+				"1B0F10E649F86494"
+			]
+			id: "3A99B2052AE4BAC9"
+			tasks: [
+				{
+					id: "557AFD7DCE721DDE"
+					type: "item"
+					item: "occultism:candle_white"
+					count: 4L
+				}
+				{
+					id: "7FF440937D4F2E13"
+					type: "item"
+					item: "occultism:spirit_attuned_crystal"
+					count: 4L
+				}
+				{
+					id: "658869CA04D1E7DF"
+					type: "item"
+					item: "occultism:sacrificial_bowl"
+					count: 4L
+				}
+				{
+					id: "21439FA6E1FBA7B9"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
+				}
+			]
+		}
+		{
+			title: "Sevira's Permanent Confinement"
+			icon: "occultism:ritual_dummy/familiar_greedy"
+			x: 11.0d
+			y: 4.5d
+			subtitle: "Bind Afrit"
+			hide_dependency_lines: true
+			dependencies: [
+				"492116474A965E37"
+				"5CA6BAB71797C1A5"
+				"1B0F10E649F86494"
+			]
+			id: "4DA463AF4ABD0CA4"
+			tasks: [
+				{
+					id: "519C13BEC2B982D5"
+					type: "item"
+					item: "occultism:candle_white"
+					count: 12L
+				}
+				{
+					id: "664771CBA462EF24"
+					type: "item"
+					item: "minecraft:skeleton_skull"
+					count: 3L
+				}
+				{
+					id: "3375F4311B8B69EE"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+				}
+				{
+					id: "195AA72630B443E5"
+					type: "item"
+					item: "occultism:sacrificial_bowl"
+					count: 4L
+				}
+				{
+					id: "1FF238A02FAC7F8D"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
+				}
+			]
+		}
+		{
+			title: "Ihagan's Enthrallement"
+			icon: "occultism:ritual_dummy/familiar_beaver"
+			x: 9.75d
+			y: 3.5d
+			subtitle: "Djinni Possession"
+			hide_dependency_lines: true
+			dependencies: [
+				"492116474A965E37"
+				"5CA6BAB71797C1A5"
+				"1B0F10E649F86494"
+			]
+			id: "04834CC722C4C4C8"
+			tasks: [
+				{
+					id: "650931F7B55A3A14"
+					type: "item"
+					item: "occultism:candle_white"
+					count: 8L
+				}
+				{
+					id: "023EE2F8EC8FEA00"
+					type: "item"
+					item: "minecraft:skeleton_skull"
+					count: 4L
+				}
+				{
+					id: "2E5B095E04507889"
+					type: "item"
+					item: "occultism:sacrificial_bowl"
+					count: 4L
+				}
+				{
+					id: "23A465CB87C553C8"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: 4.5d
+			subtitle: "Demons can mine ! "
+			description: [
+				"The &4Dimensional Mineshaft&r houses a &1Djinni&r which opens up a stable connection into a uninhabited dimension, perfectly suited for mining. While the portal is too small ti transfer humans, other spirits can use it to enter the mining dimension and bring back resources."
+				""
+				"The &4Mineshaft&r will discard any items it cannot store, so it is important to regularly empty the mineshaft either manually or with hoppers or evn transporter spirit. Spirits in lamps can be inserted from the top all other sides can be used to extract items."
+			]
+			dependencies: ["3A99B2052AE4BAC9"]
+			min_width: 250
+			id: "30025EBB21D3F798"
+			tasks: [{
+				id: "4B7F2BB968D8FE22"
+				type: "item"
+				item: "occultism:dimensional_mineshaft"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 5.0d
+			description: ["The &6Djinni Ore Miner&r harvests ores specifically. The greater power of the djinni it damages the magic lamp relatively quickly."]
+			dependencies: ["30025EBB21D3F798"]
+			id: "6FCB27EE54C1A75D"
+			tasks: [{
+				id: "3486AEE445C471A8"
+				type: "item"
+				item: {
+					id: "occultism:miner_djinni_ores"
+					Count: 1b
+					tag: {
+						spiritName: "Marurakzur"
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: 5.0d
+			description: ["The &6Foliot Miner&r harvests block without much aim and returns anything it finds. The mining process is quite slow, due to this the foliot expends only minor amounts of energy, damaging the lamp it is housed in slowly over time."]
+			dependencies: ["30025EBB21D3F798"]
+			id: "493DE1645D850D16"
+			tasks: [{
+				id: "690FD696E66105E6"
+				type: "item"
+				item: {
+					id: "occultism:miner_foliot_unspecialized"
+					Count: 1b
+					tag: {
+						spiritName: "Drakaircred"
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: 5.75d
+			shape: "gear"
+			subtitle: "Powders on the ground"
+			description: [
+				"&5Crusher&r spirits are summoned to crush ores into dusts, effectively multiplying the metal output. They will pick up appropriate ores and drop the resulting dusts into the world."
+				"A purple particle effect and crushing sound will indicate the crusher is at work."
+				""
+				"To ease automation, try summoning a &bTransporter Spirit&r to place items from chests in the crusher's inventory, and a &bJanitor Spirit&r to collect the processed items."
+			]
+			dependencies: ["30025EBB21D3F798"]
+			id: "24E3F1153AA2456D"
+			tasks: [{
+				id: "6CE46AC5D399C7DC"
+				type: "checkmark"
+				title: "Ore Crushers !"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 6.25d
+			description: [
+				"The &6Marid Crusher&r is both more resistant to essence decay and faster than the &bAfrit Crusher&r."
+				"This crusher can crush your ores into 6 !"
+			]
+			dependencies: [
+				"24E3F1153AA2456D"
+				"259480AC145386BF"
+			]
+			id: "02866DDF5415AECF"
+			tasks: [{
+				id: "515E197221DFFFAD"
+				type: "item"
+				item: "occultism:ritual_dummy/summon_marid_crusher"
+			}]
+		}
+		{
+			x: 14.25d
+			y: 7.25d
+			description: [
+				"The &6Afrit Crusher&r is both more resistant to essence decay and faster than the &bDjinni Crusher&r."
+				"This crusher can quadruple your ores !"
+			]
+			dependencies: [
+				"24E3F1153AA2456D"
+				"62DF3A8488AADD91"
+			]
+			id: "259480AC145386BF"
+			tasks: [{
+				id: "12B3126278DB3A92"
+				type: "item"
+				item: "occultism:ritual_dummy/summon_afrit_crusher"
+			}]
+		}
+		{
+			x: 12.75d
+			y: 7.25d
+			description: [
+				"The &6Djinni Crusher&r is both more resistant to essance decay and faster than the &bFoliot Crusher&r."
+				"This crusher can triple your ores !"
+			]
+			dependencies: [
+				"24E3F1153AA2456D"
+				"49E79360D99BE691"
+			]
+			id: "62DF3A8488AADD91"
+			tasks: [{
+				id: "51764FD8163AF23B"
+				type: "item"
+				item: "occultism:ritual_dummy/summon_djinni_crusher"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 6.25d
+			description: [
+				"The &6Foliot Crusher&r is the most basic crusher spirit."
+				"This crusher can double your ores !"
+			]
+			dependencies: ["24E3F1153AA2456D"]
+			id: "49E79360D99BE691"
+			tasks: [{
+				id: "31AC4F59714E632F"
+				type: "item"
+				item: "occultism:ritual_dummy/summon_foliot_crusher"
+			}]
+		}
+		{
+			title: "Fusionner 2000 - Compact Factory Energy Input Port"
+			icon: "masterfulmachinery:fusioner_compact_energy_port_energy_input"
+			x: 8.5d
+			y: 5.75d
+			subtitle: "Darkness can generate things?"
+			description: ["                             &k&l&0F&rU&k&l&0S&rI&k&l&0O&rN&k&l&0N&rE&k&l&0R&r &k&l&02&r0&k&l&00&r0&r"]
+			dependencies: ["130FD9C228CCC91A"]
+			id: "1A58467C60F1008E"
+			tasks: [
+				{
+					id: "5DADA032264CB3A5"
+					type: "item"
+					item: "emendatusenigmatica:enderium_ingot"
+					count: 4L
+				}
+				{
+					id: "01322FA602DE3DAB"
+					type: "item"
+					item: "occultism:iesnium_ingot"
+					count: 2L
+				}
+				{
+					id: "7E6C12C933710C0A"
+					type: "item"
+					item: "pipez:energy_pipe"
+				}
+				{
+					id: "03958699998C85E6"
+					type: "item"
+					item: "immersiveengineering:wirecoil_steel"
+				}
+				{
+					id: "75BA9A2574E322AD"
+					type: "item"
+					item: {
+						id: "thermal:energy_cell"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								EnergyMax: 1000000
+								EnergySend: 1000
+								Energy: 0
+								EnergyRecv: 1000
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Hedyrin's Lure"
+			icon: "occultism:ritual_dummy/craft_miner_djinni_ores"
+			x: 7.25d
+			y: 5.75d
+			subtitle: "Foliot Possession"
+			hide_dependency_lines: true
+			dependencies: [
+				"492116474A965E37"
+				"1B0F10E649F86494"
+			]
+			id: "130FD9C228CCC91A"
+			tasks: [
+				{
+					id: "25E64B4D4325F41F"
+					type: "item"
+					item: "occultism:candle_white"
+					count: 8L
+				}
+				{
+					id: "1A3E46A2A20A0E20"
+					type: "item"
+					item: "occultism:sacrificial_bowl"
+					count: 4L
+				}
+				{
+					id: "096D972CC4E3EC39"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
+				}
+			]
+		}
+		{
+			x: 5.989285714285714d
+			y: 5.262500000000003d
+			subtitle: "Second Tier Chalk"
+			hide_dependency_lines: true
+			dependencies: ["28C3F89057684CC6"]
+			id: "1B0F10E649F86494"
+			tasks: [{
+				id: "58DFC9FC714116E8"
+				type: "item"
+				item: {
+					id: "occultism:chalk_gold"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Eziveus' Spectral Compulsion"
+			icon: "occultism:ritual_dummy/craft_miner_djinni_ores"
+			x: 4.75d
+			y: 5.75d
+			subtitle: "Bind Foliot"
+			hide_dependency_lines: true
+			dependencies: [
+				"492116474A965E37"
+				"1B0F10E649F86494"
+			]
+			id: "7BF5F871992F55AE"
+			tasks: [
+				{
+					id: "09CF6980AB505C8E"
+					type: "item"
+					item: "occultism:candle_white"
+					count: 2L
+				}
+				{
+					id: "67E05949D1DD4005"
+					type: "item"
+					item: "occultism:spirit_attuned_crystal"
+					count: 2L
+				}
+				{
+					id: "031FABFBE99BDA07"
+					type: "item"
+					item: "occultism:sacrificial_bowl"
+					count: 4L
+				}
+				{
+					id: "55DAC9344231D647"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
+				}
+			]
+		}
+		{
+			title: "Fusionner 2000 - Compact Factory Item Output Port"
+			icon: "masterfulmachinery:fusioner_compact_item_port_items_output"
+			x: 7.25d
+			y: 7.25d
+			subtitle: "&kUnknown Machine&r"
+			description: ["                          &k&l&0F&rU&k&l&0S&rI&k&l&0O&rN&k&l&0N&rE&k&l&0R&r &k&l&02&r0&k&l&00&r0&r"]
+			dependencies: ["130FD9C228CCC91A"]
+			id: "41D643D39E1D946F"
+			tasks: [
+				{
+					id: "400F6D5963BFE07E"
+					type: "item"
+					item: "emendatusenigmatica:enderium_ingot"
+					count: 4L
+				}
+				{
+					id: "4CB5597E05BA1F24"
+					type: "item"
+					item: "occultism:iesnium_ingot"
+					count: 2L
+				}
+				{
+					id: "4872F4DB46AB7ECF"
+					type: "item"
+					item: "refinedpipes:advanced_item_pipe"
+				}
+				{
+					id: "3F930BD96EE5CCB1"
+					type: "item"
+					item: "expandedstorage:netherite_chest"
+				}
+				{
+					id: "43CE3D5270C2B95B"
+					type: "item"
+					item: "create:brass_hand"
+				}
+			]
+		}
+		{
+			title: "Fusionner 2000 - Compact Factory Item Input Port"
+			icon: "masterfulmachinery:fusioner_compact_item_port_items_input"
+			x: 8.5d
+			y: 7.25d
+			subtitle: "No more comments"
+			description: ["                          &k&l&0F&rU&k&l&0S&rI&k&l&0O&rN&k&l&0N&rE&k&l&0R&r &k&l&02&r0&k&l&00&r0&r"]
+			dependencies: ["130FD9C228CCC91A"]
+			id: "30E398C08A1F89DC"
+			tasks: [
+				{
+					id: "133997AB028129C8"
+					type: "item"
+					item: "emendatusenigmatica:enderium_ingot"
+					count: 4L
+				}
+				{
+					id: "5171261183C0BEA7"
+					type: "item"
+					item: "occultism:iesnium_ingot"
+					count: 2L
+				}
+				{
+					id: "6F2A0DE968EEE86B"
+					type: "item"
+					item: "expandedstorage:netherite_chest"
+				}
+				{
+					id: "081404C8C0A38CF5"
+					type: "item"
+					item: "refinedpipes:advanced_item_pipe"
+				}
+				{
+					id: "4EDDF6F8B0A6F7C9"
+					type: "item"
+					item: "create:depot"
+				}
+			]
+		}
+		{
+			title: "Clear Weather"
+			icon: "occultism:ritual_dummy/summon_afrit_rain_weather"
+			x: 1.25d
+			y: 6.75d
+			shape: "square"
+			subtitle: "I like the Sun"
+			description: ["To make &b&lThe Sun&r appear you'll need the &6Ophyx' Calling&r ritual."]
+			dependencies: ["500F618789FA9762"]
+			optional: true
+			id: "1750586C1E84A02E"
+			tasks: [
+				{
+					id: "0EA2FA3E72DF11FA"
+					type: "item"
+					item: "minecraft:carrot"
+				}
+				{
+					id: "43AE820BD260753A"
+					type: "item"
+					item: "minecraft:potato"
+				}
+				{
+					id: "23149528D24EB9EA"
+					type: "item"
+					item: "minecraft:wheat"
+				}
+				{
+					id: "52F5D5E56430FEB8"
+					type: "item"
+					item: "minecraft:beetroot"
+				}
+				{
+					id: "2D2F47C31F5854C1"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Mormuraeus"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Rainy Weather"
+			icon: "occultism:ritual_dummy/summon_afrit_rain_weather"
+			x: 0.25d
+			y: 6.75d
+			shape: "square"
+			subtitle: "I'm singin' in the rain !"
+			description: ["To make &b&lThe Rain&r appear you'll need the &6Abra's Conjure&r ritual and you'll need to sacrifice a &ncow&r."]
+			dependencies: ["500F618789FA9762"]
+			optional: true
+			id: "2CB9F897A60A376F"
+			tasks: [
+				{
+					id: "2764B1B7B9BAEA7C"
+					type: "item"
+					title: "Sand"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:sand"
+						}
+					}
+				}
+				{
+					id: "7166A69A8DE170F8"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "7BE40ADF29BFC586"
+					type: "item"
+					item: "minecraft:cactus"
+				}
+				{
+					id: "7F553BBB48BD8F0B"
+					type: "item"
+					item: "minecraft:dead_bush"
+				}
+				{
+					id: "475F1C09B160A30D"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_afrit"
+						Count: 1b
+						tag: {
+							spiritName: "Barcresmur"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Thunderstorm Ritual"
+			icon: "occultism:ritual_dummy/summon_afrit_thunder_weather"
+			x: -0.75d
+			y: 6.75d
+			shape: "square"
+			subtitle: "AC/DC will be proud!"
+			description: ["To make &e&lThunder&r appear you'll need the &6Abra's Conjure&r ritual and you'll need to sacrifice a &ncow&r."]
+			dependencies: ["500F618789FA9762"]
+			optional: true
+			id: "24E77AD49FCF6730"
+			tasks: [
+				{
+					id: "12A78B1AE4223C22"
+					type: "item"
+					item: "minecraft:gunpowder"
+					count: 2L
+				}
+				{
+					id: "328A21E508806330"
+					type: "item"
+					item: "minecraft:ghast_tear"
+				}
+				{
+					id: "358ACFCC60213862"
+					type: "item"
+					item: "minecraft:bone"
+				}
+				{
+					id: "4D0AC072CE6596B5"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_afrit"
+						Count: 1b
+						tag: {
+							spiritName: "Merarcark"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Weather And Time Magic"
+			x: 0.25d
+			y: 8.0d
+			shape: "square"
+			subtitle: "Please skip the rain ! "
+			description: ["The &5Occultism&r Mod allows you to control the time and weather ! "]
+			hide_dependency_lines: true
+			dependencies: ["3A5569B8FB3C4F7B"]
+			optional: true
+			id: "500F618789FA9762"
+			tasks: [{
+				id: "24167C00658808C2"
+				type: "checkmark"
+				title: "Weather And Time"
+			}]
+		}
+		{
+			title: "Summoning of Dawn "
+			icon: "ars_nouveau:ritual_sunrise"
+			x: -0.25d
+			y: 9.25d
+			shape: "square"
+			subtitle: "Let there be Light !"
+			description: ["In order to summon &eDawn&r you'll need the &6Ophyx' Calling&r ritual."]
+			dependencies: ["500F618789FA9762"]
+			optional: true
+			id: "31B14361DB4F095F"
+			tasks: [
+				{
+					id: "7D881990417A89C6"
+					type: "item"
+					item: "betterendforge:lucernia_sapling"
+				}
+				{
+					id: "145186FB821C413A"
+					type: "item"
+					item: "minecraft:torch"
+				}
+				{
+					id: "2A9AD2F55E4B813B"
+					type: "item"
+					item: "minecraft:wheat"
+				}
+				{
+					id: "2B0DA23292EB1581"
+					type: "item"
+					item: "minecraft:yellow_dye"
+				}
+				{
+					id: "3ABAF2ED612C97ED"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Madcraaeus"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Summoning of Dusk"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "darkpaintings:textures/painting/mr_moon.png"
+				}
+			}
+			x: 0.75d
+			y: 9.25d
+			shape: "square"
+			subtitle: "Darkness Comes"
+			description: ["In order to summon &0Dusk&r you'll need the &6Ophyx' Calling&r ritual."]
+			dependencies: ["500F618789FA9762"]
+			optional: true
+			id: "58A0B76EC5EAE974"
+			tasks: [
+				{
+					id: "1F39300D9F983EC2"
+					type: "item"
+					item: "minecraft:rotten_flesh"
+				}
+				{
+					id: "7727C71D8863FA14"
+					type: "item"
+					item: "minecraft:bone"
+				}
+				{
+					id: "02DCA5D740494B88"
+					type: "item"
+					item: "minecraft:black_dye"
+				}
+				{
+					id: "26BA28433689F48C"
+					type: "item"
+					title: "Bed"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:beds"
+						}
+					}
+				}
+				{
+					id: "48270D15005591C2"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Mrokslamarure"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 9.5d
+			subtitle: "Matrix"
+			description: ["The &6Dimensional Matrix&r is the entry point to a small dimension used for storing items. A &3Djinni&r bound to the matrix keeps the dimension stable, often supported by additionnal spirits in storage stabilizers, to increase the dimension size."]
+			hide_dependency_lines: true
+			dependencies: ["3A99B2052AE4BAC9"]
+			id: "7B5DF9B562DB7BA0"
+			tasks: [{
+				id: "2B2F6802B188B301"
+				type: "item"
+				item: {
+					id: "occultism:dimensional_matrix"
+					Count: 1b
+					tag: {
+						spiritName: "Zurmaracarc"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 11.0d
+			shape: "rsquare"
+			subtitle: "Crafting and Storing"
+			description: [
+				"The &5Dimensional Storage Actuator&r consists of a &6Dimensional Matrix&r inhabited by a &2Djinni&r that creates and manages a storage dimension and a &6Base&r, infused with a &2Foliot&r that moves items in and out the storage dimension."
+				""
+				"By default, the &5Storage Actuator&r can only hold 128 types of different items or 2048 stacks approximatively. Of course that number can be upgraded with &6Dimensional Storage Upgrades&r."
+			]
+			dependencies: [
+				"7B5DF9B562DB7BA0"
+				"0C0C74A282D40D04"
+			]
+			size: 2.5d
+			id: "794D8B87D0FA7DDE"
+			tasks: [{
+				id: "7046044DC4D81881"
+				type: "item"
+				item: "occultism:storage_controller"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 9.5d
+			subtitle: "The Base"
+			description: ["The &6Storage Actuator Base&r imprisons a &3Foliot&r responsible for interacting with items in a &5Dimensional Storage Matrix&r."]
+			hide_dependency_lines: true
+			dependencies: ["7BF5F871992F55AE"]
+			id: "0C0C74A282D40D04"
+			tasks: [{
+				id: "1F9F3929306A99D6"
+				type: "item"
+				item: "occultism:storage_controller_base"
+			}]
+		}
+		{
+			title: "Wireless Storage"
+			x: 7.5d
+			y: 12.5d
+			shape: "hexagon"
+			subtitle: "Accessing Storage"
+			description: [
+				"The &3Storage Accessors&r are similar to the stable wormhole, but allow mobile access to the storage for players."
+				"As you might ask yourself, the &3Accessor&r is cross dimensions !"
+				"In order to bind it to your &2Storage&r a simple shift right-click will be needed."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"794D8B87D0FA7DDE"
+				"3A99B2052AE4BAC9"
+			]
+			id: "65413446C0ACCB2D"
+			tasks: [{
+				id: "686E3366CB35DD42"
+				type: "item"
+				item: {
+					id: "occultism:storage_remote"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Wireless interactions"
+			x: 6.0d
+			y: 13.0d
+			shape: "hexagon"
+			subtitle: "An enderchest but with crafting"
+			description: [
+				"The &5Stable Wormhole&r is a way to access your &6Storage Actuator&r."
+				"you will have to place it. Before doing so, you will have to link it to your &6Dimensional Storage Actuator&r with a right click with the &5Wormhole&r in hand."
+				"The main idea of this item is to output and input items from your &6Actuator&r."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"794D8B87D0FA7DDE"
+				"7BF5F871992F55AE"
+			]
+			id: "2010F5E14AD87032"
+			tasks: [{
+				id: "1FAAE4627733FF5D"
+				type: "item"
+				item: {
+					id: "occultism:stable_wormhole"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Dimensional Storage Stabilizers"
+			x: 4.5d
+			y: 12.5d
+			shape: "hexagon"
+			subtitle: "Dimensional Upgrades"
+			description: [
+				"As we saw on the previous chapter, by default your &6Storage Actuator&r can contains 128 types of items."
+				"Here is the list of the possible upgrades and what they do : "
+				"- &cTier 1 Dimensional Storage Stabilizer&r:"
+				"   > Goes from 128 to 384 types of items."
+				"-&7 Tier 2 Dimensional Storage Stabilizer:"
+				"   > Goes from 384 to 640 types of items."
+				"-&e Tier 3 Dimensional Storage Stabilizer:"
+				"   > Goes from 640 to 1152 types of items."
+				"-&b Tier 4 Dimensional Storage Stabilizer:"
+				"   > Goes from 1152 to 2176 types of items."
+			]
+			hide_dependency_lines: true
+			dependencies: ["794D8B87D0FA7DDE"]
+			min_width: 350
+			id: "5354A67B9858F203"
+			tasks: [
+				{
+					id: "00FC570794791116"
+					type: "item"
+					item: "occultism:storage_stabilizer_tier1"
+				}
+				{
+					id: "7520DFB59A6CB80F"
+					type: "item"
+					item: "occultism:storage_stabilizer_tier2"
+				}
+				{
+					id: "4A3DCB2803AB5CDE"
+					type: "item"
+					item: "occultism:storage_stabilizer_tier3"
+				}
+				{
+					id: "7E234D0C61AEC947"
+					type: "item"
+					item: "occultism:storage_stabilizer_tier4"
+				}
+			]
+		}
+		{
+			title: "Demons Can Autocraft?"
+			icon: {
+				id: "occultism:book_of_calling_djinni_manage_machine"
+				Count: 1b
+				tag: {
+					spiritName: "Drakairmur"
+				}
+			}
+			x: 6.0d
+			y: 14.25d
+			shape: "hexagon"
+			subtitle: "Demonic crafting"
+			description: [
+				"Trough your adventure in the &5&lOccultism Mod&r you are now aware that you can store items. "
+				"If you noticed well there are two tabs : "
+				"-> A &eCrafting Table&r used to craft with your stored items."
+				"-> A &eFurnace&r. This tab is linked to another thing that we did not got through."
+				"The items asked are indeed useful to summon the &2Machine Operator&r. This dude will allow you to connect any type of \"machine\" (ex: Furnace)."
+				"Before linking this &2Operator&r to a machine, please make sure to link him to your &6Storage Actuator&r."
+				"Once it's done link him to your machine. Now it should appear in the &eFurnace Tab&r. If not it means that it's not correctly linked."
+				"You will notice that in the top left corner there is another tab that we've not talked about. This is simply to \"place\" an order to your &2Operator&r. "
+				"Place your item that you want to be placed in your machine and trust the process ! "
+			]
+			hide_dependency_lines: true
+			dependencies: ["794D8B87D0FA7DDE"]
+			min_width: 300
+			id: "1CDE01D11B26CD1C"
+			tasks: [
+				{
+					id: "5163849B906FD43A"
+					type: "item"
+					title: "Block of Coal"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:storage_blocks/coal"
+						}
+					}
+				}
+				{
+					id: "06E70700D4A1C4B1"
+					type: "item"
+					item: "minecraft:gold_ingot"
+				}
+				{
+					id: "38F861AA1AFEA540"
+					type: "item"
+					item: "minecraft:iron_ingot"
+				}
+				{
+					id: "1790BEF8B13E0B52"
+					type: "item"
+					item: "minecraft:furnace"
+				}
+				{
+					id: "749513A9C398775F"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Mrokairmur"
+						}
+					}
+				}
+			]
+		}
+	]
+}

@@ -1,17 +1,66 @@
 {
 	id: "61A1400DBD2B767B"
 	group: ""
-	order_index: 9
+	order_index: 8
 	filename: "food"
 	title: "Food"
 	icon: "minecraft:enchanted_golden_apple"
-	default_quest_shape: "circle"
+	default_quest_shape: "square"
 	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 17.75d
+			y: -11.75d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "sushigocrafting:textures/mob_effect/steady_hands.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 23.5d
+			y: 2.25d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "prefab:textures/items/base_basket.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -6.75d
+			y: 12.75d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "occultism:textures/item/butcher_knife.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 23.75d
+			y: 26.5d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "cookingforblockheads:textures/item/slot_skillet.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
-			x: -249.5d
-			y: -163.0d
-			shape: "square"
+			x: 17.0d
+			y: 0.25d
 			id: "26426B6995EACEA3"
 			tasks: [{
 				id: "5B0064E6D1181ADC"
@@ -20,9 +69,8 @@
 			}]
 		}
 		{
-			x: -248.5d
-			y: -163.0d
-			shape: "square"
+			x: -0.75d
+			y: 5.75d
 			id: "21103BAA6077ECDF"
 			tasks: [{
 				id: "3E86734ADEC304A9"
@@ -31,9 +79,8 @@
 			}]
 		}
 		{
-			x: -247.5d
-			y: -163.0d
-			shape: "square"
+			x: 14.5d
+			y: 10.5d
 			id: "77FD9BE44232F3D6"
 			tasks: [{
 				id: "7ADF761ADA95C228"
@@ -42,9 +89,8 @@
 			}]
 		}
 		{
-			x: -246.5d
-			y: -163.0d
-			shape: "square"
+			x: -0.75d
+			y: 9.5d
 			id: "09B6E23A5A9010F9"
 			tasks: [{
 				id: "1145BAF1E008E3C8"
@@ -53,9 +99,9 @@
 			}]
 		}
 		{
-			x: -245.5d
-			y: -163.0d
-			shape: "square"
+			x: -0.75d
+			y: 10.5d
+			dependencies: ["09B6E23A5A9010F9"]
 			id: "6AE7FBCC9285438E"
 			tasks: [{
 				id: "09A6A74D4645E70C"
@@ -64,9 +110,9 @@
 			}]
 		}
 		{
-			x: -244.5d
-			y: -163.0d
-			shape: "square"
+			x: 18.0d
+			y: 0.25d
+			dependencies: ["26426B6995EACEA3"]
 			id: "366F670A82595879"
 			tasks: [{
 				id: "3B8462148F115F7A"
@@ -75,9 +121,9 @@
 			}]
 		}
 		{
-			x: -243.5d
-			y: -163.0d
-			shape: "square"
+			x: 19.0d
+			y: 0.25d
+			dependencies: ["366F670A82595879"]
 			id: "2D4F3EA4A195EE04"
 			tasks: [{
 				id: "2BE1E0B9FFD1D423"
@@ -86,9 +132,9 @@
 			}]
 		}
 		{
-			x: -244.5d
-			y: -160.0d
-			shape: "square"
+			x: 2.25d
+			y: 7.75d
+			dependencies: ["7D0F54D8499F0F3D"]
 			id: "1BAA781F50A42EA2"
 			tasks: [{
 				id: "3D5D2A9097183B3A"
@@ -97,9 +143,8 @@
 			}]
 		}
 		{
-			x: -245.5d
-			y: -160.0d
-			shape: "square"
+			x: 2.25d
+			y: 6.75d
 			id: "7D0F54D8499F0F3D"
 			tasks: [{
 				id: "7B41B87BABB919CC"
@@ -108,20 +153,8 @@
 			}]
 		}
 		{
-			x: -242.5d
-			y: -160.0d
-			shape: "square"
-			id: "44B83C55159E7CEA"
-			tasks: [{
-				id: "5E687BBB44789FA9"
-				type: "item"
-				item: "minecraft:honey_bottle"
-			}]
-		}
-		{
-			x: -243.5d
-			y: -160.0d
-			shape: "square"
+			x: 13.0d
+			y: 3.25d
 			id: "079F44EC97B3EB53"
 			tasks: [{
 				id: "1AB00BA2013024A5"
@@ -130,9 +163,8 @@
 			}]
 		}
 		{
-			x: -246.5d
-			y: -160.0d
-			shape: "square"
+			x: 16.0d
+			y: 4.25d
 			id: "09058D1280393C6F"
 			tasks: [{
 				id: "2F5ABD6ABE41FB8E"
@@ -141,9 +173,9 @@
 			}]
 		}
 		{
-			x: -247.5d
-			y: -160.0d
-			shape: "square"
+			x: 1.25d
+			y: 10.5d
+			dependencies: ["413C5202B752D5D2"]
 			id: "5E65D942077D4ACC"
 			tasks: [{
 				id: "57FB6FEE689A7676"
@@ -152,9 +184,8 @@
 			}]
 		}
 		{
-			x: -248.5d
-			y: -160.0d
-			shape: "square"
+			x: 1.25d
+			y: 9.5d
 			id: "413C5202B752D5D2"
 			tasks: [{
 				id: "6ABE75FC883C3F89"
@@ -163,9 +194,9 @@
 			}]
 		}
 		{
-			x: -249.5d
-			y: -160.0d
-			shape: "square"
+			x: 14.5d
+			y: 21.5d
+			hide_dependency_lines: true
 			id: "5285CF8AAEC5383C"
 			tasks: [{
 				id: "15D14897C5130CE2"
@@ -174,9 +205,9 @@
 			}]
 		}
 		{
-			x: -240.5d
-			y: -161.0d
-			shape: "square"
+			x: 2.25d
+			y: 13.0d
+			dependencies: ["1BA19168AE3FD59C"]
 			id: "28EFADBCFB512AED"
 			tasks: [{
 				id: "2C3DF59D4CD604EB"
@@ -185,9 +216,8 @@
 			}]
 		}
 		{
-			x: -241.5d
-			y: -161.0d
-			shape: "square"
+			x: 2.25d
+			y: 12.0d
 			id: "1BA19168AE3FD59C"
 			tasks: [{
 				id: "3A318A5270132A04"
@@ -196,9 +226,8 @@
 			}]
 		}
 		{
-			x: -242.5d
-			y: -161.0d
-			shape: "square"
+			x: 0.5d
+			y: 30.25d
 			id: "0E1E0EDD2F73719F"
 			tasks: [{
 				id: "749004D37B810A79"
@@ -207,9 +236,9 @@
 			}]
 		}
 		{
-			x: -243.5d
-			y: -161.0d
-			shape: "square"
+			x: -1.75d
+			y: 7.75d
+			dependencies: ["6F9E65374B62993C"]
 			id: "5CE78D9A0617A487"
 			tasks: [{
 				id: "13ADBCE012E7A44C"
@@ -218,20 +247,8 @@
 			}]
 		}
 		{
-			x: -244.5d
-			y: -161.0d
-			shape: "square"
-			id: "1EFF87536A77C72B"
-			tasks: [{
-				id: "1EECBC0F841E6DAE"
-				type: "item"
-				item: "minecraft:poisonous_potato"
-			}]
-		}
-		{
-			x: -246.5d
-			y: -161.0d
-			shape: "square"
+			x: 4.25d
+			y: 5.75d
 			id: "25509DE288CE1C74"
 			tasks: [{
 				id: "30232B87B26A6334"
@@ -240,9 +257,9 @@
 			}]
 		}
 		{
-			x: -245.5d
-			y: -161.0d
-			shape: "square"
+			x: 4.25d
+			y: 6.75d
+			dependencies: ["25509DE288CE1C74"]
 			id: "6349F0D7DE47B281"
 			tasks: [{
 				id: "410763881CEF2073"
@@ -251,9 +268,8 @@
 			}]
 		}
 		{
-			x: -247.5d
-			y: -161.0d
-			shape: "square"
+			x: -1.75d
+			y: 6.75d
 			id: "6F9E65374B62993C"
 			tasks: [{
 				id: "5259B0B9FBD56B7F"
@@ -262,31 +278,9 @@
 			}]
 		}
 		{
-			x: -248.5d
-			y: -161.0d
-			shape: "square"
-			id: "05E5F8E5FBA1C86D"
-			tasks: [{
-				id: "6D34B5627001471F"
-				type: "item"
-				item: "minecraft:spider_eye"
-			}]
-		}
-		{
-			x: -249.5d
-			y: -161.0d
-			shape: "square"
-			id: "331FA863BE01BD52"
-			tasks: [{
-				id: "2C616AEA61702841"
-				type: "item"
-				item: "minecraft:rotten_flesh"
-			}]
-		}
-		{
-			x: -240.5d
-			y: -162.0d
-			shape: "square"
+			x: -1.75d
+			y: 10.5d
+			dependencies: ["46A4ED75C1610270"]
 			id: "19B80E196C07A38C"
 			tasks: [{
 				id: "3B21A5326F881C51"
@@ -295,9 +289,8 @@
 			}]
 		}
 		{
-			x: -241.5d
-			y: -162.0d
-			shape: "square"
+			x: -1.75d
+			y: 9.5d
 			id: "46A4ED75C1610270"
 			tasks: [{
 				id: "5BF5360A2BE46C31"
@@ -306,9 +299,9 @@
 			}]
 		}
 		{
-			x: -242.5d
-			y: -162.0d
-			shape: "square"
+			x: 0.25d
+			y: 10.5d
+			dependencies: ["5B8641E0A58B61D9"]
 			id: "71ECA2AC18638C3E"
 			tasks: [{
 				id: "7C6C57236BDCF7F8"
@@ -317,9 +310,8 @@
 			}]
 		}
 		{
-			x: -243.5d
-			y: -162.0d
-			shape: "square"
+			x: 0.25d
+			y: 9.5d
 			id: "5B8641E0A58B61D9"
 			tasks: [{
 				id: "0F85CE8D45E32472"
@@ -328,9 +320,8 @@
 			}]
 		}
 		{
-			x: -244.5d
-			y: -162.0d
-			shape: "square"
+			x: 13.5d
+			y: 10.5d
 			id: "28AF081010DDB307"
 			tasks: [{
 				id: "158B7CF04B01ADA1"
@@ -339,9 +330,8 @@
 			}]
 		}
 		{
-			x: -245.5d
-			y: -162.0d
-			shape: "square"
+			x: 16.0d
+			y: 0.25d
 			id: "78997C7F705B08F3"
 			tasks: [{
 				id: "53451238A3F62934"
@@ -350,9 +340,8 @@
 			}]
 		}
 		{
-			x: -246.5d
-			y: -162.0d
-			shape: "square"
+			x: 1.5d
+			y: 30.25d
 			id: "046642A3EEC6C6A9"
 			tasks: [{
 				id: "34B6531E16580723"
@@ -361,9 +350,9 @@
 			}]
 		}
 		{
-			x: -247.5d
-			y: -162.0d
-			shape: "square"
+			x: 0.5d
+			y: 16.5d
+			dependencies: ["60298C9F0B877FC2"]
 			id: "2105AC80B5937D14"
 			tasks: [{
 				id: "7168533944371B61"
@@ -372,9 +361,9 @@
 			}]
 		}
 		{
-			x: -248.5d
-			y: -162.0d
-			shape: "square"
+			x: -0.5d
+			y: 16.5d
+			dependencies: ["7C519C540A1A2A85"]
 			id: "3E6D8B544CAB9B35"
 			tasks: [{
 				id: "488E5D1EBFE34034"
@@ -383,9 +372,8 @@
 			}]
 		}
 		{
-			x: -249.5d
-			y: -162.0d
-			shape: "square"
+			x: 13.5d
+			y: 15.5d
 			id: "2DE67227FDA2ABE2"
 			tasks: [{
 				id: "74132FDBBA277077"
@@ -394,9 +382,8 @@
 			}]
 		}
 		{
-			x: -240.5d
-			y: -163.0d
-			shape: "square"
+			x: 12.5d
+			y: 15.5d
 			id: "136C19533D88E088"
 			tasks: [{
 				id: "330A0A3656A1DEEF"
@@ -405,9 +392,8 @@
 			}]
 		}
 		{
-			x: -242.5d
-			y: -163.0d
-			shape: "square"
+			x: -0.5d
+			y: 15.5d
 			id: "7C519C540A1A2A85"
 			tasks: [{
 				id: "785DD62DA8E1D12A"
@@ -416,9 +402,8 @@
 			}]
 		}
 		{
-			x: -241.5d
-			y: -163.0d
-			shape: "square"
+			x: 0.5d
+			y: 15.5d
 			id: "60298C9F0B877FC2"
 			tasks: [{
 				id: "72B926BC818E7013"
@@ -427,9 +412,9 @@
 			}]
 		}
 		{
-			x: -237.5d
-			y: -162.0d
-			shape: "square"
+			x: 2.5d
+			y: 16.5d
+			dependencies: ["26CBDA3B3EA0E6AE"]
 			id: "2F99F339121BDA2C"
 			tasks: [{
 				id: "05903EBC6F8193B3"
@@ -438,9 +423,8 @@
 			}]
 		}
 		{
-			x: -237.5d
-			y: -161.0d
-			shape: "square"
+			x: 3.5d
+			y: 15.5d
 			id: "03A8A67697206596"
 			tasks: [{
 				id: "020A9074690A4DF2"
@@ -449,9 +433,9 @@
 			}]
 		}
 		{
-			x: -236.5d
-			y: -161.0d
-			shape: "square"
+			x: 3.5d
+			y: 16.5d
+			dependencies: ["03A8A67697206596"]
 			id: "6142973E420B22FF"
 			tasks: [{
 				id: "24A67B3468979461"
@@ -460,9 +444,8 @@
 			}]
 		}
 		{
-			x: -235.5d
-			y: -161.0d
-			shape: "square"
+			x: 6.5d
+			y: 27.25d
 			id: "38313CF7FF5937C7"
 			tasks: [{
 				id: "681FCE9A5FC92998"
@@ -471,9 +454,8 @@
 			}]
 		}
 		{
-			x: -234.5d
-			y: -161.0d
-			shape: "square"
+			x: 7.5d
+			y: 21.5d
 			id: "540B20EF187A2F1B"
 			tasks: [{
 				id: "6EB750EE9CD59448"
@@ -482,9 +464,8 @@
 			}]
 		}
 		{
-			x: -236.0d
-			y: -160.0d
-			shape: "square"
+			x: 6.5d
+			y: 26.25d
 			id: "5063F55DCF58DA69"
 			tasks: [{
 				id: "58C3DC088DA7AE38"
@@ -493,9 +474,8 @@
 			}]
 		}
 		{
-			x: -234.5d
-			y: -162.0d
-			shape: "square"
+			x: 7.5d
+			y: 22.5d
 			id: "3943773D7351CC7E"
 			tasks: [{
 				id: "5FD2BBC671D8E56B"
@@ -504,9 +484,8 @@
 			}]
 		}
 		{
-			x: -235.5d
-			y: -162.0d
-			shape: "square"
+			x: 7.5d
+			y: 20.5d
 			id: "565AD8C73AA5945A"
 			tasks: [{
 				id: "7079D93285B780E0"
@@ -515,9 +494,8 @@
 			}]
 		}
 		{
-			x: -234.5d
-			y: -163.0d
-			shape: "square"
+			x: 7.5d
+			y: 19.5d
 			id: "40ECB8B0390D87CC"
 			tasks: [{
 				id: "359A08F57743A136"
@@ -526,9 +504,8 @@
 			}]
 		}
 		{
-			x: -236.5d
-			y: -163.0d
-			shape: "square"
+			x: 6.5d
+			y: 22.5d
 			id: "52F77FDC7AC6673A"
 			tasks: [{
 				id: "23882E9E34AF4462"
@@ -537,9 +514,8 @@
 			}]
 		}
 		{
-			x: -235.5d
-			y: -163.0d
-			shape: "square"
+			x: 7.5d
+			y: 18.5d
 			id: "5A6A470B765842BB"
 			tasks: [{
 				id: "4FBDFF1017487C0C"
@@ -548,9 +524,8 @@
 			}]
 		}
 		{
-			x: -236.5d
-			y: -162.0d
-			shape: "square"
+			x: 3.5d
+			y: 28.25d
 			id: "0C54907162ED0F1D"
 			tasks: [{
 				id: "06F1733696D4B188"
@@ -559,9 +534,8 @@
 			}]
 		}
 		{
-			x: -237.5d
-			y: -163.0d
-			shape: "square"
+			x: 2.5d
+			y: 15.5d
 			id: "26CBDA3B3EA0E6AE"
 			tasks: [{
 				id: "158FBB82D8157032"
@@ -570,31 +544,8 @@
 			}]
 		}
 		{
-			x: -232.0d
-			y: -162.5d
-			shape: "diamond"
-			id: "7E5A89F929AECCF5"
-			tasks: [{
-				id: "5C55F5C64522938B"
-				type: "item"
-				item: "alexsmobs:maggot"
-			}]
-		}
-		{
-			x: -232.0d
-			y: -161.5d
-			shape: "diamond"
-			id: "440F46D04C3BE795"
-			tasks: [{
-				id: "68BE7077CEDFB4C3"
-				type: "item"
-				item: "alexsmobs:banana"
-			}]
-		}
-		{
-			x: -231.5d
-			y: -163.0d
-			shape: "diamond"
+			x: 5.5d
+			y: 15.5d
 			id: "0C7288CB9F24609C"
 			tasks: [{
 				id: "7D026FB1ABDC9F3C"
@@ -603,9 +554,9 @@
 			}]
 		}
 		{
-			x: -230.5d
-			y: -163.0d
-			shape: "diamond"
+			x: 5.5d
+			y: 16.5d
+			dependencies: ["0C7288CB9F24609C"]
 			id: "1206B74E47D609D5"
 			tasks: [{
 				id: "1388687B6BEC040E"
@@ -614,9 +565,8 @@
 			}]
 		}
 		{
-			x: -232.5d
-			y: -162.0d
-			shape: "diamond"
+			x: 10.5d
+			y: 21.5d
 			id: "38611A49F2DD06E1"
 			tasks: [{
 				id: "615CC97ECCC904DB"
@@ -625,9 +575,8 @@
 			}]
 		}
 		{
-			x: -230.0d
-			y: -162.5d
-			shape: "diamond"
+			x: 4.25d
+			y: 12.0d
 			id: "3CC0DA60FB0A271D"
 			tasks: [{
 				id: "77CE8D9CA0904246"
@@ -636,9 +585,9 @@
 			}]
 		}
 		{
-			x: -229.5d
-			y: -162.0d
-			shape: "diamond"
+			x: 4.25d
+			y: 13.0d
+			dependencies: ["3CC0DA60FB0A271D"]
 			id: "4FFF6576CE47C36E"
 			tasks: [{
 				id: "6557853564BAA21D"
@@ -647,9 +596,8 @@
 			}]
 		}
 		{
-			x: -231.5d
-			y: -161.0d
-			shape: "diamond"
+			x: 13.5d
+			y: 16.5d
 			id: "3C589E5AA4A9643F"
 			tasks: [{
 				id: "5C59C143914EBAA5"
@@ -658,9 +606,8 @@
 			}]
 		}
 		{
-			x: -231.0d
-			y: -161.5d
-			shape: "diamond"
+			x: 10.5d
+			y: 22.5d
 			id: "6EF14F653963C566"
 			tasks: [{
 				id: "61FE38FB6131E877"
@@ -669,9 +616,8 @@
 			}]
 		}
 		{
-			x: -230.5d
-			y: -161.0d
-			shape: "diamond"
+			x: 8.5d
+			y: 20.5d
 			id: "57AAA46EB19115A9"
 			tasks: [{
 				id: "43738C86BE6CFB43"
@@ -680,9 +626,8 @@
 			}]
 		}
 		{
-			x: -231.5d
-			y: -162.0d
-			shape: "diamond"
+			x: 5.25d
+			y: 12.0d
 			id: "48E21FEDA8983D0F"
 			tasks: [{
 				id: "7EAB74B17338DE34"
@@ -691,9 +636,9 @@
 			}]
 		}
 		{
-			x: -231.0d
-			y: -162.5d
-			shape: "diamond"
+			x: 5.25d
+			y: 13.0d
+			dependencies: ["48E21FEDA8983D0F"]
 			id: "69967CC1C34D1495"
 			tasks: [{
 				id: "5C2E4D410E5AD1ED"
@@ -702,9 +647,10 @@
 			}]
 		}
 		{
-			x: -230.0d
-			y: -161.5d
-			shape: "diamond"
+			x: 14.5d
+			y: 23.5d
+			hide_dependency_lines: true
+			dependencies: ["69967CC1C34D1495"]
 			id: "7F86F7A959D3C4B9"
 			tasks: [{
 				id: "4B3C1C8367B6229C"
@@ -713,20 +659,9 @@
 			}]
 		}
 		{
-			x: -230.5d
-			y: -162.0d
-			shape: "diamond"
-			id: "0F064C57F079C963"
-			tasks: [{
-				id: "329808EF993681C0"
-				type: "item"
-				item: "alexsmobs:gongylidia"
-			}]
-		}
-		{
-			x: -226.5d
-			y: -162.5d
-			shape: "square"
+			x: 20.0d
+			y: 0.25d
+			dependencies: ["26426B6995EACEA3"]
 			id: "4CC15681ECFF0576"
 			tasks: [{
 				id: "2D112685B64F320F"
@@ -735,9 +670,9 @@
 			}]
 		}
 		{
-			x: -225.5d
-			y: -162.5d
-			shape: "square"
+			x: -2.75d
+			y: 6.75d
+			dependencies: ["6F9E65374B62993C"]
 			id: "28D06F4A7B752394"
 			tasks: [{
 				id: "20226814641221B1"
@@ -746,9 +681,10 @@
 			}]
 		}
 		{
-			x: -224.5d
-			y: -162.5d
-			shape: "square"
+			x: 6.5d
+			y: 29.25d
+			hide_dependency_lines: true
+			dependencies: ["3F2AA31E86DED4B3"]
 			id: "0A843238D0BE4B9F"
 			tasks: [{
 				id: "6D6FF131281D0723"
@@ -757,9 +693,11 @@
 			}]
 		}
 		{
-			x: -223.5d
-			y: -162.0d
-			shape: "square"
+			x: 16.5d
+			y: 26.25d
+			hide_dependency_lines: true
+			dependencies: ["3F2AA31E86DED4B3"]
+			hide: true
 			id: "63BE9DC15730C222"
 			tasks: [{
 				id: "408CEC9068BF17A2"
@@ -768,9 +706,8 @@
 			}]
 		}
 		{
-			x: -226.5d
-			y: -161.5d
-			shape: "square"
+			x: 12.0d
+			y: 0.25d
 			id: "3F2AA31E86DED4B3"
 			tasks: [{
 				id: "24CC6AD08FF87037"
@@ -779,9 +716,8 @@
 			}]
 		}
 		{
-			x: -224.5d
-			y: -161.5d
-			shape: "square"
+			x: 8.25d
+			y: 9.5d
 			id: "6DDBFAB9904178F6"
 			tasks: [{
 				id: "2936CD792F23B608"
@@ -790,9 +726,9 @@
 			}]
 		}
 		{
-			x: -225.5d
-			y: -161.5d
-			shape: "square"
+			x: 8.25d
+			y: 10.5d
+			dependencies: ["6DDBFAB9904178F6"]
 			id: "5CDAC49D360DCB1F"
 			tasks: [{
 				id: "7C72FD5AB439A470"
@@ -801,9 +737,8 @@
 			}]
 		}
 		{
-			x: -249.5d
-			y: -157.25d
-			shape: "square"
+			x: 17.0d
+			y: 5.25d
 			id: "4A40ADF7DAE7AB40"
 			tasks: [{
 				id: "5F008B23A510DAE9"
@@ -812,9 +747,9 @@
 			}]
 		}
 		{
-			x: -249.5d
-			y: -158.25d
-			shape: "square"
+			x: 17.0d
+			y: 6.25d
+			dependencies: ["4A40ADF7DAE7AB40"]
 			id: "6C8934071D674684"
 			tasks: [{
 				id: "6249AC9B9A41902A"
@@ -823,9 +758,10 @@
 			}]
 		}
 		{
-			x: -248.5d
-			y: -157.25d
-			shape: "square"
+			x: 3.5d
+			y: 30.25d
+			hide_dependency_lines: true
+			dependencies: ["4A40ADF7DAE7AB40"]
 			id: "611739D04A054535"
 			tasks: [{
 				id: "6210290A650CD56C"
@@ -834,9 +770,10 @@
 			}]
 		}
 		{
-			x: -248.5d
-			y: -158.25d
-			shape: "square"
+			x: 4.5d
+			y: 29.25d
+			hide_dependency_lines: true
+			dependencies: ["4A40ADF7DAE7AB40"]
 			id: "5711FCB285BE9F87"
 			tasks: [{
 				id: "6F719DB441BC3494"
@@ -845,9 +782,8 @@
 			}]
 		}
 		{
-			x: -247.5d
-			y: -157.25d
-			shape: "square"
+			x: 15.0d
+			y: 5.25d
 			id: "747246543F03A771"
 			tasks: [{
 				id: "72E0ADA628F9B952"
@@ -856,9 +792,9 @@
 			}]
 		}
 		{
-			x: -246.5d
-			y: -157.25d
-			shape: "square"
+			x: 15.0d
+			y: 6.25d
+			dependencies: ["747246543F03A771"]
 			id: "25BA51F4AB2C472D"
 			tasks: [{
 				id: "2CF812B3B75CCABB"
@@ -867,9 +803,8 @@
 			}]
 		}
 		{
-			x: -246.5d
-			y: -158.25d
-			shape: "square"
+			x: 15.5d
+			y: 10.5d
 			id: "03BF8F76FCEB36F6"
 			tasks: [{
 				id: "4120B6B0A809BACA"
@@ -878,9 +813,9 @@
 			}]
 		}
 		{
-			x: -247.5d
-			y: -158.25d
-			shape: "square"
+			x: 15.5d
+			y: 11.5d
+			dependencies: ["03BF8F76FCEB36F6"]
 			id: "5E5C230899738124"
 			tasks: [{
 				id: "0853118CF014CAE1"
@@ -889,9 +824,8 @@
 			}]
 		}
 		{
-			x: -237.0d
-			y: -153.0d
-			shape: "gear"
+			x: 15.0d
+			y: 4.25d
 			id: "68131842C6400CE7"
 			tasks: [{
 				id: "0B4BACA978D78518"
@@ -900,9 +834,8 @@
 			}]
 		}
 		{
-			x: -236.0d
-			y: -153.0d
-			shape: "gear"
+			x: 4.25d
+			y: 9.5d
 			id: "68B5D5A65B5C923A"
 			tasks: [{
 				id: "24DD1E18623D0D3F"
@@ -911,9 +844,9 @@
 			}]
 		}
 		{
-			x: -235.0d
-			y: -153.0d
-			shape: "gear"
+			x: 4.25d
+			y: 10.5d
+			dependencies: ["68B5D5A65B5C923A"]
 			id: "22DBA248B2C9133A"
 			tasks: [{
 				id: "0A8B4A901ABE2CB2"
@@ -922,9 +855,8 @@
 			}]
 		}
 		{
-			x: -234.0d
-			y: -153.0d
-			shape: "gear"
+			x: 14.5d
+			y: 15.5d
 			id: "71431B2881D7DFA6"
 			tasks: [{
 				id: "3709239EF09547A4"
@@ -933,9 +865,8 @@
 			}]
 		}
 		{
-			x: -233.0d
-			y: -153.0d
-			shape: "gear"
+			x: 6.25d
+			y: 9.5d
 			id: "6AF1B8A09AF072CE"
 			tasks: [{
 				id: "3DDA6D74E1FE0002"
@@ -944,9 +875,9 @@
 			}]
 		}
 		{
-			x: -237.0d
-			y: -152.0d
-			shape: "gear"
+			x: 6.25d
+			y: 10.5d
+			dependencies: ["6AF1B8A09AF072CE"]
 			id: "3EC55DFAF1677C70"
 			tasks: [{
 				id: "0962AD1FF3832270"
@@ -955,9 +886,8 @@
 			}]
 		}
 		{
-			x: -249.5d
-			y: -153.0d
-			shape: "rsquare"
+			x: -0.5d
+			y: 19.5d
 			id: "437EEBE3C4FAA7A5"
 			tasks: [{
 				id: "46BB5146FACF7261"
@@ -966,9 +896,8 @@
 			}]
 		}
 		{
-			x: -233.0d
-			y: -152.0d
-			shape: "gear"
+			x: 9.5d
+			y: 22.5d
 			id: "03C074A5B3874D4F"
 			tasks: [{
 				id: "0690CB3E50A555FA"
@@ -977,9 +906,8 @@
 			}]
 		}
 		{
-			x: -234.0d
-			y: -152.0d
-			shape: "gear"
+			x: 14.0d
+			y: 4.25d
 			id: "2A70227469AA7922"
 			tasks: [{
 				id: "49F177D93A53EEA8"
@@ -988,9 +916,8 @@
 			}]
 		}
 		{
-			x: -235.0d
-			y: -152.0d
-			shape: "gear"
+			x: 8.5d
+			y: 19.5d
 			id: "6BCDB05581AFF4DA"
 			tasks: [{
 				id: "4DF8DF237D271054"
@@ -999,9 +926,8 @@
 			}]
 		}
 		{
-			x: -236.0d
-			y: -152.0d
-			shape: "gear"
+			x: 2.5d
+			y: 20.5d
 			id: "491A44BC458CA550"
 			tasks: [{
 				id: "1B0BB87346F7DBB2"
@@ -1010,8 +936,8 @@
 			}]
 		}
 		{
-			x: -226.5d
-			y: -158.5d
+			x: 9.75d
+			y: 10.25d
 			id: "311DF8D4972A422D"
 			tasks: [{
 				id: "4365C86ECC730944"
@@ -1020,8 +946,9 @@
 			}]
 		}
 		{
-			x: -225.5d
-			y: -158.5d
+			x: -0.75d
+			y: 7.75d
+			dependencies: ["79DCA2F446357DB4"]
 			id: "17AE4BBC84A1E692"
 			tasks: [{
 				id: "26A41C2563D0CE43"
@@ -1030,8 +957,8 @@
 			}]
 		}
 		{
-			x: -225.5d
-			y: -156.5d
+			x: 16.5d
+			y: 10.5d
 			id: "408DFB0753FC3E73"
 			tasks: [{
 				id: "1E5779735D64F46B"
@@ -1040,8 +967,8 @@
 			}]
 		}
 		{
-			x: -226.5d
-			y: -156.5d
+			x: 8.5d
+			y: 18.5d
 			id: "1B1B3FF842B6433E"
 			tasks: [{
 				id: "69EEFC7F52CAB31F"
@@ -1050,8 +977,9 @@
 			}]
 		}
 		{
-			x: -222.5d
-			y: -157.5d
+			x: 9.75d
+			y: 12.25d
+			dependencies: ["0F0A4628D309A0CB"]
 			id: "0E8AFA26F3DB5A64"
 			tasks: [{
 				id: "28D989196336217B"
@@ -1060,8 +988,9 @@
 			}]
 		}
 		{
-			x: -226.5d
-			y: -157.5d
+			x: 10.75d
+			y: 12.25d
+			dependencies: ["0429697557A12612"]
 			id: "5D933E8FE5B65774"
 			tasks: [{
 				id: "7C0545CB5E455B3C"
@@ -1070,8 +999,9 @@
 			}]
 		}
 		{
-			x: -224.5d
-			y: -157.5d
+			x: 5.25d
+			y: 7.75d
+			dependencies: ["171B52F0BAD25DCB"]
 			id: "51E3D4EADA8B193A"
 			tasks: [{
 				id: "5F90DB64360AB924"
@@ -1080,8 +1010,9 @@
 			}]
 		}
 		{
-			x: -225.5d
-			y: -157.5d
+			x: 4.25d
+			y: 7.75d
+			dependencies: ["70CA60CDB5FB50EC"]
 			id: "2C47563CF9252AFE"
 			tasks: [{
 				id: "3C0A54105754E427"
@@ -1090,8 +1021,9 @@
 			}]
 		}
 		{
-			x: -222.5d
-			y: -158.5d
+			x: 10.75d
+			y: 11.25d
+			dependencies: ["0F0A4628D309A0CB"]
 			id: "0429697557A12612"
 			tasks: [{
 				id: "375263DEF23CD370"
@@ -1100,8 +1032,9 @@
 			}]
 		}
 		{
-			x: -223.5d
-			y: -158.5d
+			x: 6.25d
+			y: 6.75d
+			dependencies: ["70CA60CDB5FB50EC"]
 			id: "171B52F0BAD25DCB"
 			tasks: [{
 				id: "5560ACC09F08DE90"
@@ -1110,8 +1043,9 @@
 			}]
 		}
 		{
-			x: -224.5d
-			y: -158.5d
+			x: 5.25d
+			y: 6.75d
+			dependencies: ["25509DE288CE1C74"]
 			id: "70CA60CDB5FB50EC"
 			tasks: [{
 				id: "2E5AC59C3C4619ED"
@@ -1120,8 +1054,9 @@
 			}]
 		}
 		{
-			x: -223.5d
-			y: -157.5d
+			x: 9.75d
+			y: 11.25d
+			dependencies: ["311DF8D4972A422D"]
 			id: "0F0A4628D309A0CB"
 			tasks: [{
 				id: "4623560FF6A2F4CD"
@@ -1130,8 +1065,8 @@
 			}]
 		}
 		{
-			x: -224.5d
-			y: -156.5d
+			x: 16.5d
+			y: 8.5d
 			id: "1D644973BD455A04"
 			tasks: [{
 				id: "31A85E5B45CABE4D"
@@ -1140,8 +1075,9 @@
 			}]
 		}
 		{
-			x: -197.0d
-			y: -153.5d
+			x: 14.5d
+			y: 11.5d
+			dependencies: ["77FD9BE44232F3D6"]
 			id: "673A5137CC4C9783"
 			tasks: [{
 				id: "6DDE28A7B57209DF"
@@ -1150,8 +1086,8 @@
 			}]
 		}
 		{
-			x: -197.0d
-			y: -151.5d
+			x: 12.5d
+			y: 19.5d
 			id: "6120EFAC56EAB907"
 			tasks: [{
 				id: "0DB9500C56927E1B"
@@ -1160,8 +1096,9 @@
 			}]
 		}
 		{
-			x: -197.0d
-			y: -152.5d
+			x: 3.25d
+			y: 6.75d
+			dependencies: ["25509DE288CE1C74"]
 			id: "0A788471FB732AE8"
 			tasks: [{
 				id: "4AAED5E0A747C526"
@@ -1170,8 +1107,8 @@
 			}]
 		}
 		{
-			x: -197.0d
-			y: -150.5d
+			x: 11.5d
+			y: 19.5d
 			id: "6366DDD85F0E08E9"
 			tasks: [{
 				id: "7715146A0E652CCA"
@@ -1180,8 +1117,8 @@
 			}]
 		}
 		{
-			x: -238.75d
-			y: -158.5d
+			x: -0.5d
+			y: 29.25d
 			id: "1306A23A2EA49989"
 			tasks: [{
 				id: "3F037FA115EED8E7"
@@ -1190,8 +1127,8 @@
 			}]
 		}
 		{
-			x: -237.75d
-			y: -158.5d
+			x: 5.5d
+			y: 26.25d
 			id: "2F8DD25471E61C6C"
 			tasks: [{
 				id: "7D20C654C9B6EC83"
@@ -1200,8 +1137,10 @@
 			}]
 		}
 		{
-			x: -236.75d
-			y: -158.5d
+			x: 6.5d
+			y: 30.25d
+			hide_dependency_lines: true
+			dependencies: ["079F44EC97B3EB53"]
 			id: "6717521DE7A4F4F3"
 			tasks: [{
 				id: "0F668DC3C4C9D9D4"
@@ -1210,8 +1149,10 @@
 			}]
 		}
 		{
-			x: -235.75d
-			y: -158.5d
+			x: 3.5d
+			y: 29.25d
+			hide_dependency_lines: true
+			dependencies: ["26426B6995EACEA3"]
 			id: "26B16B450A71CB6C"
 			tasks: [{
 				id: "356FB473A871E8E5"
@@ -1220,8 +1161,8 @@
 			}]
 		}
 		{
-			x: -234.75d
-			y: -158.5d
+			x: 0.5d
+			y: 29.25d
 			id: "598BC4B1ED8AEE90"
 			tasks: [{
 				id: "79133E5207B38FD3"
@@ -1230,8 +1171,8 @@
 			}]
 		}
 		{
-			x: -232.75d
-			y: -158.5d
+			x: 1.5d
+			y: 29.25d
 			id: "371AB9094C5817AE"
 			tasks: [{
 				id: "10ECC5D8B1058774"
@@ -1240,8 +1181,8 @@
 			}]
 		}
 		{
-			x: -233.75d
-			y: -158.5d
+			x: -1.5d
+			y: 29.25d
 			id: "76DDEC5A12861D98"
 			tasks: [{
 				id: "07163D926578668D"
@@ -1250,8 +1191,8 @@
 			}]
 		}
 		{
-			x: -231.75d
-			y: -158.5d
+			x: 2.5d
+			y: 29.25d
 			id: "358CF7BBD17048C5"
 			tasks: [{
 				id: "74AB446734B800E0"
@@ -1260,8 +1201,9 @@
 			}]
 		}
 		{
-			x: -233.25d
-			y: -157.5d
+			x: 11.5d
+			y: 30.25d
+			dependencies: ["6A558AE08D8BBC98"]
 			id: "7133C4C5E877D255"
 			tasks: [{
 				id: "7735FC4432879358"
@@ -1270,8 +1212,9 @@
 			}]
 		}
 		{
-			x: -234.25d
-			y: -157.5d
+			x: 11.5d
+			y: 28.25d
+			dependencies: ["6A558AE08D8BBC98"]
 			id: "4E307527A07E168D"
 			tasks: [{
 				id: "2C7432FFB7BB5FB6"
@@ -1280,8 +1223,9 @@
 			}]
 		}
 		{
-			x: -235.25d
-			y: -157.5d
+			x: 12.5d
+			y: 26.25d
+			dependencies: ["6A558AE08D8BBC98"]
 			id: "01C1722EEEAF9F21"
 			tasks: [{
 				id: "60040B79FEC7BBDC"
@@ -1290,8 +1234,9 @@
 			}]
 		}
 		{
-			x: -236.25d
-			y: -157.5d
+			x: 11.5d
+			y: 29.25d
+			dependencies: ["6A558AE08D8BBC98"]
 			id: "2E597623930759D0"
 			tasks: [{
 				id: "2D0A529768FEF638"
@@ -1300,8 +1245,8 @@
 			}]
 		}
 		{
-			x: -237.25d
-			y: -157.5d
+			x: 11.5d
+			y: 27.25d
 			id: "6A558AE08D8BBC98"
 			tasks: [{
 				id: "4BAC006C5B92DEBB"
@@ -1310,8 +1255,10 @@
 			}]
 		}
 		{
-			x: -238.25d
-			y: -157.5d
+			x: 7.5d
+			y: 30.25d
+			hide_dependency_lines: true
+			dependencies: ["079F44EC97B3EB53"]
 			id: "71F4F6036461D74A"
 			tasks: [{
 				id: "77DCD9EC636AA689"
@@ -1320,8 +1267,10 @@
 			}]
 		}
 		{
-			x: -228.75d
-			y: -158.5d
+			x: 4.5d
+			y: 30.25d
+			hide_dependency_lines: true
+			dependencies: ["079F44EC97B3EB53"]
 			id: "272CA602AB356769"
 			tasks: [{
 				id: "4595D8CDA6411DD7"
@@ -1330,8 +1279,10 @@
 			}]
 		}
 		{
-			x: -229.75d
-			y: -158.5d
+			x: 5.5d
+			y: 30.25d
+			hide_dependency_lines: true
+			dependencies: ["079F44EC97B3EB53"]
 			id: "13342AE13A39416C"
 			tasks: [{
 				id: "5DABAA617C2BAC0C"
@@ -1340,8 +1291,10 @@
 			}]
 		}
 		{
-			x: -230.75d
-			y: -158.5d
+			x: 8.5d
+			y: 30.25d
+			hide_dependency_lines: true
+			dependencies: ["079F44EC97B3EB53"]
 			id: "4B5043E8AB1221CE"
 			tasks: [{
 				id: "122599D5BDD4953D"
@@ -1350,8 +1303,9 @@
 			}]
 		}
 		{
-			x: -232.25d
-			y: -157.5d
+			x: 12.5d
+			y: 27.25d
+			dependencies: ["6A558AE08D8BBC98"]
 			id: "105F14C9BA24142D"
 			tasks: [{
 				id: "6BFCB5551C4BEC96"
@@ -1360,8 +1314,9 @@
 			}]
 		}
 		{
-			x: -231.25d
-			y: -157.5d
+			x: 12.5d
+			y: 28.25d
+			dependencies: ["105F14C9BA24142D"]
 			id: "571DBC57CB0E375F"
 			tasks: [{
 				id: "12389F2873A6205F"
@@ -1370,8 +1325,8 @@
 			}]
 		}
 		{
-			x: -230.25d
-			y: -157.5d
+			x: 7.5d
+			y: 26.25d
 			id: "69867BC8DC5E7E06"
 			tasks: [{
 				id: "48E197F130FB2D3A"
@@ -1380,8 +1335,8 @@
 			}]
 		}
 		{
-			x: -229.25d
-			y: -157.5d
+			x: 9.5d
+			y: 30.25d
 			id: "4C2A5DEF679306B4"
 			tasks: [{
 				id: "2A8CF3754C860805"
@@ -1390,8 +1345,8 @@
 			}]
 		}
 		{
-			x: -237.75d
-			y: -156.5d
+			x: 6.5d
+			y: 28.25d
 			id: "31F7E825175446AB"
 			tasks: [{
 				id: "026E15F0342EB1C2"
@@ -1400,8 +1355,9 @@
 			}]
 		}
 		{
-			x: -236.75d
-			y: -156.5d
+			x: 2.5d
+			y: 27.25d
+			dependencies: ["358CF7BBD17048C5"]
 			id: "08C3295C83ABC3D8"
 			tasks: [{
 				id: "233A20EB39E81269"
@@ -1410,8 +1366,9 @@
 			}]
 		}
 		{
-			x: -235.75d
-			y: -156.5d
+			x: -1.5d
+			y: 27.25d
+			dependencies: ["76DDEC5A12861D98"]
 			id: "03CFAEF47CEFFEC4"
 			tasks: [{
 				id: "2223FB51AC14AFF2"
@@ -1420,8 +1377,9 @@
 			}]
 		}
 		{
-			x: -234.75d
-			y: -156.5d
+			x: 0.5d
+			y: 27.25d
+			dependencies: ["598BC4B1ED8AEE90"]
 			id: "3CA4900AD693A589"
 			tasks: [{
 				id: "592D00B0D1BA38A0"
@@ -1430,8 +1388,9 @@
 			}]
 		}
 		{
-			x: -233.75d
-			y: -156.5d
+			x: 1.5d
+			y: 28.25d
+			dependencies: ["371AB9094C5817AE"]
 			id: "284A217493C172E4"
 			tasks: [{
 				id: "29FD0538D5A947AB"
@@ -1440,8 +1399,9 @@
 			}]
 		}
 		{
-			x: -233.25d
-			y: -155.5d
+			x: 2.5d
+			y: 28.25d
+			dependencies: ["358CF7BBD17048C5"]
 			id: "7BCDED61E4AE6D0C"
 			tasks: [{
 				id: "1A7DC2FAFAB63D8A"
@@ -1450,8 +1410,9 @@
 			}]
 		}
 		{
-			x: -234.25d
-			y: -155.5d
+			x: 1.5d
+			y: 27.25d
+			dependencies: ["371AB9094C5817AE"]
 			id: "7FF989D2C1EE8478"
 			tasks: [{
 				id: "77133148F99A1A6C"
@@ -1460,8 +1421,9 @@
 			}]
 		}
 		{
-			x: -235.25d
-			y: -155.5d
+			x: 0.5d
+			y: 26.25d
+			dependencies: ["598BC4B1ED8AEE90"]
 			id: "4A2C304C00565E12"
 			tasks: [{
 				id: "4F1A19666FDDD14B"
@@ -1470,8 +1432,9 @@
 			}]
 		}
 		{
-			x: -236.25d
-			y: -155.5d
+			x: -0.5d
+			y: 27.25d
+			dependencies: ["1306A23A2EA49989"]
 			id: "22ED02F44380162D"
 			tasks: [{
 				id: "7EDF215AE547A26E"
@@ -1480,8 +1443,9 @@
 			}]
 		}
 		{
-			x: -237.25d
-			y: -155.5d
+			x: 2.5d
+			y: 25.25d
+			dependencies: ["358CF7BBD17048C5"]
 			id: "0E8F2DCC90592F44"
 			tasks: [{
 				id: "78A422B06CC7CEBA"
@@ -1490,8 +1454,9 @@
 			}]
 		}
 		{
-			x: -229.75d
-			y: -156.5d
+			x: 1.5d
+			y: 26.25d
+			dependencies: ["371AB9094C5817AE"]
 			id: "3955986321AEB337"
 			tasks: [{
 				id: "1E127FE1CCAA32AB"
@@ -1500,8 +1465,9 @@
 			}]
 		}
 		{
-			x: -230.75d
-			y: -156.5d
+			x: -1.5d
+			y: 26.25d
+			dependencies: ["76DDEC5A12861D98"]
 			id: "0B4F7E8AA36D4F2A"
 			tasks: [{
 				id: "390BB7FEB292D0F6"
@@ -1510,8 +1476,9 @@
 			}]
 		}
 		{
-			x: -231.75d
-			y: -156.5d
+			x: -0.5d
+			y: 26.25d
+			dependencies: ["1306A23A2EA49989"]
 			id: "67560FDE01D84B0C"
 			tasks: [{
 				id: "581DD7906B8ED36F"
@@ -1520,8 +1487,9 @@
 			}]
 		}
 		{
-			x: -232.75d
-			y: -156.5d
+			x: 2.5d
+			y: 26.25d
+			dependencies: ["358CF7BBD17048C5"]
 			id: "123EF537E3917DBA"
 			tasks: [{
 				id: "38898D3407172C37"
@@ -1530,8 +1498,9 @@
 			}]
 		}
 		{
-			x: -232.25d
-			y: -155.5d
+			x: -0.5d
+			y: 28.25d
+			dependencies: ["1306A23A2EA49989"]
 			id: "04AA2FE73EDFD718"
 			tasks: [{
 				id: "6721DEFA6ECD8F19"
@@ -1540,8 +1509,9 @@
 			}]
 		}
 		{
-			x: -231.25d
-			y: -155.5d
+			x: -1.5d
+			y: 28.25d
+			dependencies: ["76DDEC5A12861D98"]
 			id: "02036DE6AB825BFC"
 			tasks: [{
 				id: "16A5741769543222"
@@ -1550,8 +1520,9 @@
 			}]
 		}
 		{
-			x: -230.25d
-			y: -155.5d
+			x: 0.5d
+			y: 28.25d
+			dependencies: ["598BC4B1ED8AEE90"]
 			id: "5AB957CF8C9932F0"
 			tasks: [{
 				id: "5DBCA80765CA93DE"
@@ -1560,9 +1531,8 @@
 			}]
 		}
 		{
-			x: -242.5d
-			y: -153.0d
-			shape: "rsquare"
+			x: 1.25d
+			y: 6.75d
 			id: "6E8F3820845CD549"
 			tasks: [{
 				id: "0624762953D4E20C"
@@ -1571,9 +1541,8 @@
 			}]
 		}
 		{
-			x: -246.5d
-			y: -152.0d
-			shape: "rsquare"
+			x: 12.0d
+			y: 5.25d
 			id: "0142524635201B65"
 			tasks: [{
 				id: "47D5D30FB0206728"
@@ -1582,9 +1551,8 @@
 			}]
 		}
 		{
-			x: -239.5d
-			y: -152.0d
-			shape: "rsquare"
+			x: -0.75d
+			y: 6.75d
 			id: "79DCA2F446357DB4"
 			tasks: [{
 				id: "01CFD85D23E5A0ED"
@@ -1593,9 +1561,9 @@
 			}]
 		}
 		{
-			x: -243.5d
-			y: -151.0d
-			shape: "rsquare"
+			x: 12.0d
+			y: 6.25d
+			dependencies: ["0142524635201B65"]
 			id: "71B81D218B7CD75F"
 			tasks: [{
 				id: "344B99C5C406277A"
@@ -1604,9 +1572,8 @@
 			}]
 		}
 		{
-			x: -249.5d
-			y: -151.0d
-			shape: "rsquare"
+			x: 5.25d
+			y: 9.5d
 			id: "783DB4270D7C230C"
 			tasks: [{
 				id: "6D8AEF79B2E1A149"
@@ -1615,9 +1582,9 @@
 			}]
 		}
 		{
-			x: -245.5d
-			y: -152.0d
-			shape: "rsquare"
+			x: 8.25d
+			y: 13.0d
+			dependencies: ["7BA3D3ABF1DA0F20"]
 			id: "29693939E7FC1F3F"
 			tasks: [{
 				id: "0F54B46D7B42F2AE"
@@ -1626,20 +1593,20 @@
 			}]
 		}
 		{
-			x: -241.5d
-			y: -153.0d
-			shape: "rsquare"
+			x: 8.25d
+			y: 12.0d
 			id: "7BA3D3ABF1DA0F20"
 			tasks: [{
 				id: "2E4902D9A9A8F8E3"
 				type: "item"
 				item: "farmersdelight:chicken_cuts"
+				consume_items: false
 			}]
 		}
 		{
-			x: -248.5d
-			y: -153.0d
-			shape: "rsquare"
+			x: 2.25d
+			y: 10.5d
+			dependencies: ["1DA4FCF9CB2DC5F9"]
 			id: "09AFC00685E9023C"
 			tasks: [{
 				id: "2B552B40B9D6D92D"
@@ -1648,9 +1615,8 @@
 			}]
 		}
 		{
-			x: -244.5d
-			y: -148.0d
-			shape: "rsquare"
+			x: 2.25d
+			y: 9.5d
 			id: "1DA4FCF9CB2DC5F9"
 			tasks: [{
 				id: "76B002D00319E59F"
@@ -1659,9 +1625,9 @@
 			}]
 		}
 		{
-			x: -239.5d
-			y: -149.0d
-			shape: "rsquare"
+			x: 1.25d
+			y: 7.75d
+			dependencies: ["6E8F3820845CD549"]
 			id: "46F2A0A5A12B1AF5"
 			tasks: [{
 				id: "7549536AC4736F9B"
@@ -1670,9 +1636,8 @@
 			}]
 		}
 		{
-			x: -245.5d
-			y: -149.0d
-			shape: "rsquare"
+			x: 5.5d
+			y: 27.25d
 			id: "0C71490497BAE3AB"
 			tasks: [{
 				id: "5C39C92F988A50DD"
@@ -1681,9 +1646,8 @@
 			}]
 		}
 		{
-			x: -240.5d
-			y: -150.0d
-			shape: "rsquare"
+			x: 1.5d
+			y: 21.5d
 			id: "6933ABAEDAD11A33"
 			tasks: [{
 				id: "51D8CB1737A84562"
@@ -1692,9 +1656,8 @@
 			}]
 		}
 		{
-			x: -247.5d
-			y: -150.0d
-			shape: "rsquare"
+			x: 16.5d
+			y: 11.5d
 			id: "58E3EB3697E635C2"
 			tasks: [{
 				id: "049D2EC9D8D34D2C"
@@ -1703,9 +1666,9 @@
 			}]
 		}
 		{
-			x: -242.5d
-			y: -151.0d
-			shape: "rsquare"
+			x: 5.25d
+			y: 10.5d
+			dependencies: ["783DB4270D7C230C"]
 			id: "4E7F7BB8AE816799"
 			tasks: [{
 				id: "162F1EF34C7C0262"
@@ -1714,9 +1677,8 @@
 			}]
 		}
 		{
-			x: -246.5d
-			y: -150.0d
-			shape: "rsquare"
+			x: 4.5d
+			y: 15.5d
 			id: "3EE54ABE2738C206"
 			tasks: [{
 				id: "76882CCAE29A9D2E"
@@ -1725,9 +1687,8 @@
 			}]
 		}
 		{
-			x: -244.5d
-			y: -149.0d
-			shape: "rsquare"
+			x: 1.5d
+			y: 15.5d
 			id: "2E12248C4C74C6CA"
 			tasks: [{
 				id: "187629003213ED72"
@@ -1736,9 +1697,9 @@
 			}]
 		}
 		{
-			x: -239.5d
-			y: -150.0d
-			shape: "rsquare"
+			x: 4.5d
+			y: 16.5d
+			dependencies: ["3EE54ABE2738C206"]
 			id: "3482CF0E39B71F60"
 			tasks: [{
 				id: "279D100859F45D21"
@@ -1747,9 +1708,9 @@
 			}]
 		}
 		{
-			x: -249.5d
-			y: -148.0d
-			shape: "rsquare"
+			x: 1.5d
+			y: 16.5d
+			dependencies: ["2E12248C4C74C6CA"]
 			id: "6EE0EF60D097E103"
 			tasks: [{
 				id: "2268142EF23345AE"
@@ -1758,9 +1719,8 @@
 			}]
 		}
 		{
-			x: -243.5d
-			y: -148.0d
-			shape: "rsquare"
+			x: 3.25d
+			y: 12.0d
 			id: "30AA06E6101DC218"
 			tasks: [{
 				id: "07CAF520897CDE05"
@@ -1769,9 +1729,9 @@
 			}]
 		}
 		{
-			x: -247.5d
-			y: -153.0d
-			shape: "rsquare"
+			x: 3.25d
+			y: 13.0d
+			dependencies: ["30AA06E6101DC218"]
 			id: "7BBB5EE30B6E91CA"
 			tasks: [{
 				id: "62CF57022276CC5B"
@@ -1780,9 +1740,8 @@
 			}]
 		}
 		{
-			x: -240.5d
-			y: -153.0d
-			shape: "rsquare"
+			x: 3.25d
+			y: 9.5d
 			id: "3E47CC99199EBE53"
 			tasks: [{
 				id: "18514FBF74D349CE"
@@ -1791,9 +1750,9 @@
 			}]
 		}
 		{
-			x: -244.5d
-			y: -152.0d
-			shape: "rsquare"
+			x: 3.25d
+			y: 10.5d
+			dependencies: ["3E47CC99199EBE53"]
 			id: "63BEFDFB44A1AC52"
 			tasks: [{
 				id: "328A29ABA7F759FB"
@@ -1802,9 +1761,8 @@
 			}]
 		}
 		{
-			x: -239.5d
-			y: -153.0d
-			shape: "rsquare"
+			x: 2.5d
+			y: 19.5d
 			id: "750C41B6A6FD71C2"
 			tasks: [{
 				id: "773958EE0BFFDD13"
@@ -1813,9 +1771,8 @@
 			}]
 		}
 		{
-			x: -242.5d
-			y: -148.0d
-			shape: "rsquare"
+			x: 5.5d
+			y: 28.25d
 			id: "01EAB12C03E79A9C"
 			tasks: [{
 				id: "2D5831A40504171B"
@@ -1824,9 +1781,8 @@
 			}]
 		}
 		{
-			x: -246.5d
-			y: -153.0d
-			shape: "rsquare"
+			x: 1.5d
+			y: 19.5d
 			id: "37DD888434EDF74D"
 			tasks: [{
 				id: "6BA80763FA4E8093"
@@ -1835,9 +1791,8 @@
 			}]
 		}
 		{
-			x: -248.5d
-			y: -148.0d
-			shape: "rsquare"
+			x: 4.5d
+			y: 26.25d
 			id: "4A5D2D9481228040"
 			tasks: [{
 				id: "235F82F84EA4D075"
@@ -1846,9 +1801,8 @@
 			}]
 		}
 		{
-			x: -243.5d
-			y: -149.0d
-			shape: "rsquare"
+			x: 7.5d
+			y: 29.25d
 			id: "3731BD8DD349ED45"
 			tasks: [{
 				id: "0A703AA6045EA641"
@@ -1857,9 +1811,8 @@
 			}]
 		}
 		{
-			x: -249.5d
-			y: -149.0d
-			shape: "rsquare"
+			x: 3.5d
+			y: 27.25d
 			id: "64451FFAE1515CD5"
 			tasks: [{
 				id: "6D5F01962B5D7074"
@@ -1868,9 +1821,8 @@
 			}]
 		}
 		{
-			x: -245.5d
-			y: -150.0d
-			shape: "rsquare"
+			x: 4.5d
+			y: 27.25d
 			id: "7A9FE4007589FA0D"
 			tasks: [{
 				id: "18D77758BACF1FE2"
@@ -1879,9 +1831,8 @@
 			}]
 		}
 		{
-			x: -241.5d
-			y: -151.0d
-			shape: "rsquare"
+			x: 3.5d
+			y: 26.25d
 			id: "15C25CE064392B9F"
 			tasks: [{
 				id: "36FADACDAD48DBC9"
@@ -1890,9 +1841,8 @@
 			}]
 		}
 		{
-			x: -248.5d
-			y: -151.0d
-			shape: "rsquare"
+			x: 17.5d
+			y: 11.5d
 			id: "01DD0A1A683702A8"
 			tasks: [{
 				id: "71A6FC945D9C7D84"
@@ -1901,9 +1851,8 @@
 			}]
 		}
 		{
-			x: -243.5d
-			y: -152.0d
-			shape: "rsquare"
+			x: 1.5d
+			y: 18.5d
 			id: "652A524B5D5C0A0F"
 			tasks: [{
 				id: "3D15CBB27A0BBC5A"
@@ -1912,9 +1861,8 @@
 			}]
 		}
 		{
-			x: -247.5d
-			y: -151.0d
-			shape: "rsquare"
+			x: 3.5d
+			y: 21.5d
 			id: "149274FEC326DC4B"
 			tasks: [{
 				id: "09EFDC3FA8C31F49"
@@ -1923,9 +1871,8 @@
 			}]
 		}
 		{
-			x: -240.5d
-			y: -151.0d
-			shape: "rsquare"
+			x: 4.5d
+			y: 18.5d
 			id: "61A97DFC74FD32BB"
 			tasks: [{
 				id: "51E096586C938F11"
@@ -1934,9 +1881,8 @@
 			}]
 		}
 		{
-			x: -244.5d
-			y: -150.0d
-			shape: "rsquare"
+			x: 5.5d
+			y: 22.5d
 			id: "29E241B604B7E9D1"
 			tasks: [{
 				id: "0D3F62EB23C56581"
@@ -1945,9 +1891,8 @@
 			}]
 		}
 		{
-			x: -248.5d
-			y: -149.0d
-			shape: "rsquare"
+			x: 4.5d
+			y: 19.5d
 			id: "620B557AFB3FFF54"
 			tasks: [{
 				id: "2D915F23AAB24D1A"
@@ -1956,9 +1901,8 @@
 			}]
 		}
 		{
-			x: -242.5d
-			y: -149.0d
-			shape: "rsquare"
+			x: 2.5d
+			y: 22.5d
 			id: "533FB8CED6C8964A"
 			tasks: [{
 				id: "315CF38A7019A9CE"
@@ -1967,9 +1911,8 @@
 			}]
 		}
 		{
-			x: -245.5d
-			y: -153.0d
-			shape: "rsquare"
+			x: 1.5d
+			y: 20.5d
 			id: "356CAA079054885F"
 			tasks: [{
 				id: "6CFBDE4B81F40420"
@@ -1978,9 +1921,8 @@
 			}]
 		}
 		{
-			x: -247.5d
-			y: -148.0d
-			shape: "rsquare"
+			x: 0.5d
+			y: 21.5d
 			id: "61B4B23BF28206DD"
 			tasks: [{
 				id: "3865C12CD7536431"
@@ -1989,9 +1931,8 @@
 			}]
 		}
 		{
-			x: -241.5d
-			y: -148.0d
-			shape: "rsquare"
+			x: 0.5d
+			y: 22.5d
 			id: "4D8ECBA345BD9C08"
 			tasks: [{
 				id: "78F517EFB3760FFE"
@@ -2000,9 +1941,8 @@
 			}]
 		}
 		{
-			x: -240.5d
-			y: -148.0d
-			shape: "rsquare"
+			x: 6.5d
+			y: 21.5d
 			id: "677EB63DDB0413D6"
 			tasks: [{
 				id: "47702DA2C0BCCF50"
@@ -2011,9 +1951,8 @@
 			}]
 		}
 		{
-			x: -246.5d
-			y: -148.0d
-			shape: "rsquare"
+			x: 4.5d
+			y: 20.5d
 			id: "408D905284F51D81"
 			tasks: [{
 				id: "0AB773CDBBFF1C18"
@@ -2022,9 +1961,9 @@
 			}]
 		}
 		{
-			x: -241.5d
-			y: -149.0d
-			shape: "rsquare"
+			x: 1.5d
+			y: 22.5d
+			shape: "square"
 			id: "232BDA3C3D79C563"
 			tasks: [{
 				id: "628F551BAC55001B"
@@ -2033,9 +1972,8 @@
 			}]
 		}
 		{
-			x: -247.5d
-			y: -149.0d
-			shape: "rsquare"
+			x: 5.5d
+			y: 21.5d
 			id: "39C31CAFCCE29291"
 			tasks: [{
 				id: "723971CC7F387265"
@@ -2044,9 +1982,8 @@
 			}]
 		}
 		{
-			x: -243.5d
-			y: -150.0d
-			shape: "rsquare"
+			x: 4.5d
+			y: 22.5d
 			id: "4D2831F98917C73F"
 			tasks: [{
 				id: "791889DC652DD811"
@@ -2055,9 +1992,8 @@
 			}]
 		}
 		{
-			x: -239.5d
-			y: -151.0d
-			shape: "rsquare"
+			x: 3.5d
+			y: 20.5d
 			id: "3D23DBA7F0AEF16B"
 			tasks: [{
 				id: "7F1C5615C16650F8"
@@ -2066,9 +2002,8 @@
 			}]
 		}
 		{
-			x: -246.5d
-			y: -151.0d
-			shape: "rsquare"
+			x: 4.5d
+			y: 21.5d
 			id: "093EBC3C95E4D9A3"
 			tasks: [{
 				id: "3C6C2EE9FE97E885"
@@ -2077,9 +2012,8 @@
 			}]
 		}
 		{
-			x: -242.5d
-			y: -152.0d
-			shape: "rsquare"
+			x: 2.5d
+			y: 18.5d
 			id: "3DEC698D278E43BC"
 			tasks: [{
 				id: "601DDC63306EE084"
@@ -2088,9 +2022,8 @@
 			}]
 		}
 		{
-			x: -249.5d
-			y: -152.0d
-			shape: "rsquare"
+			x: -0.5d
+			y: 20.5d
 			id: "0BABFACED99A31F5"
 			tasks: [{
 				id: "078A87E13A0BE847"
@@ -2099,9 +2032,8 @@
 			}]
 		}
 		{
-			x: -244.5d
-			y: -153.0d
-			shape: "rsquare"
+			x: -0.5d
+			y: 18.5d
 			id: "33A776D62C6494E1"
 			tasks: [{
 				id: "752024F375C8E42D"
@@ -2110,9 +2042,8 @@
 			}]
 		}
 		{
-			x: -248.5d
-			y: -152.0d
-			shape: "rsquare"
+			x: 0.5d
+			y: 19.5d
 			id: "75D6035F3F9E94A8"
 			tasks: [{
 				id: "7CA6F66FC923C601"
@@ -2121,9 +2052,8 @@
 			}]
 		}
 		{
-			x: -241.5d
-			y: -152.0d
-			shape: "rsquare"
+			x: 3.5d
+			y: 18.5d
 			id: "56F2310C93394784"
 			tasks: [{
 				id: "728F1C0F6543CBF1"
@@ -2132,9 +2062,8 @@
 			}]
 		}
 		{
-			x: -245.5d
-			y: -151.0d
-			shape: "rsquare"
+			x: 5.5d
+			y: 18.5d
 			id: "1829F852CE0CA402"
 			tasks: [{
 				id: "5D069C80A3A18FAE"
@@ -2143,9 +2072,8 @@
 			}]
 		}
 		{
-			x: -249.5d
-			y: -150.0d
-			shape: "rsquare"
+			x: 5.5d
+			y: 20.5d
 			id: "7B27CEA3FDA36CEB"
 			tasks: [{
 				id: "1B75F184818BCC84"
@@ -2154,9 +2082,8 @@
 			}]
 		}
 		{
-			x: -242.5d
-			y: -150.0d
-			shape: "rsquare"
+			x: 3.5d
+			y: 22.5d
 			id: "7A727B5E7B3C8ACB"
 			tasks: [{
 				id: "6E828423E8E6D696"
@@ -2165,9 +2092,8 @@
 			}]
 		}
 		{
-			x: -246.5d
-			y: -149.0d
-			shape: "rsquare"
+			x: 6.5d
+			y: 18.5d
 			id: "0831CF10F2AE5E58"
 			tasks: [{
 				id: "62908F3A97111744"
@@ -2176,9 +2102,8 @@
 			}]
 		}
 		{
-			x: -240.5d
-			y: -149.0d
-			shape: "rsquare"
+			x: -0.5d
+			y: 22.5d
 			id: "4BE69DCD86A3D634"
 			tasks: [{
 				id: "45CB5B9D24BDE49C"
@@ -2187,9 +2112,8 @@
 			}]
 		}
 		{
-			x: -245.5d
-			y: -148.0d
-			shape: "rsquare"
+			x: -0.5d
+			y: 21.5d
 			id: "7D2692012050B0CF"
 			tasks: [{
 				id: "0CC6E791196C41AC"
@@ -2198,9 +2122,8 @@
 			}]
 		}
 		{
-			x: -241.5d
-			y: -150.0d
-			shape: "rsquare"
+			x: 6.5d
+			y: 19.5d
 			id: "2F904B2EB0CEBFB5"
 			tasks: [{
 				id: "41014CC088AEA8BF"
@@ -2209,9 +2132,8 @@
 			}]
 		}
 		{
-			x: -248.5d
-			y: -150.0d
-			shape: "rsquare"
+			x: 5.5d
+			y: 19.5d
 			id: "685C3A77DEF1DE54"
 			tasks: [{
 				id: "635F8BE7971BB462"
@@ -2220,9 +2142,8 @@
 			}]
 		}
 		{
-			x: -244.5d
-			y: -151.0d
-			shape: "rsquare"
+			x: 2.5d
+			y: 21.5d
 			id: "59075203F6CD02DE"
 			tasks: [{
 				id: "0851C24C4BEA6340"
@@ -2231,9 +2152,8 @@
 			}]
 		}
 		{
-			x: -240.5d
-			y: -152.0d
-			shape: "rsquare"
+			x: 3.5d
+			y: 19.5d
 			id: "674B542D9167CE7F"
 			tasks: [{
 				id: "54E22A3EAD366EEF"
@@ -2242,9 +2162,8 @@
 			}]
 		}
 		{
-			x: -247.5d
-			y: -152.0d
-			shape: "rsquare"
+			x: 0.5d
+			y: 20.5d
 			id: "7F69DB8355C4871C"
 			tasks: [{
 				id: "61A3189EDFF7BD94"
@@ -2253,9 +2172,8 @@
 			}]
 		}
 		{
-			x: -243.5d
-			y: -153.0d
-			shape: "rsquare"
+			x: 0.5d
+			y: 18.5d
 			id: "61D88A345CCF1280"
 			tasks: [{
 				id: "0011BFD27BF276E5"
@@ -2264,9 +2182,8 @@
 			}]
 		}
 		{
-			x: -239.5d
-			y: -148.0d
-			shape: "rsquare"
+			x: 6.5d
+			y: 20.5d
 			id: "5B6A0B8B62D696A7"
 			tasks: [{
 				id: "50DB0D6C558222D2"
@@ -2275,9 +2192,9 @@
 			}]
 		}
 		{
-			x: -237.0d
-			y: -150.0d
-			shape: "octagon"
+			x: 7.25d
+			y: 10.5d
+			dependencies: ["764BA4BB7C5FE748"]
 			id: "52F27D1D0A750D41"
 			tasks: [{
 				id: "5945F9562AE963D6"
@@ -2286,31 +2203,8 @@
 			}]
 		}
 		{
-			x: -236.0d
-			y: -150.0d
-			shape: "octagon"
-			id: "020DC01C8CB4FA0B"
-			tasks: [{
-				id: "3D5E882F4895DFBF"
-				type: "item"
-				item: "meetyourfight:aether_glazed_cupcake"
-			}]
-		}
-		{
-			x: -235.0d
-			y: -150.0d
-			shape: "octagon"
-			id: "36F353B848B15489"
-			tasks: [{
-				id: "51668B847458C573"
-				type: "item"
-				item: "meetyourfight:velvet_fortune"
-			}]
-		}
-		{
-			x: -234.0d
-			y: -150.0d
-			shape: "octagon"
+			x: 9.5d
+			y: 21.5d
 			id: "23406328700749E1"
 			tasks: [{
 				id: "74794E56DBF206F4"
@@ -2319,9 +2213,8 @@
 			}]
 		}
 		{
-			x: -233.0d
-			y: -150.0d
-			shape: "octagon"
+			x: 6.25d
+			y: 12.0d
 			id: "12C16C2C662461E9"
 			tasks: [{
 				id: "4B52AC7EFFD5C177"
@@ -2330,9 +2223,9 @@
 			}]
 		}
 		{
-			x: -237.0d
-			y: -149.0d
-			shape: "octagon"
+			x: 6.25d
+			y: 13.0d
+			dependencies: ["12C16C2C662461E9"]
 			id: "4E4F655454F9C440"
 			tasks: [{
 				id: "2C8C638ABD5F94C4"
@@ -2341,9 +2234,8 @@
 			}]
 		}
 		{
-			x: -236.0d
-			y: -149.0d
-			shape: "octagon"
+			x: 8.5d
+			y: 21.5d
 			id: "7EDAC68A03B4B07D"
 			tasks: [{
 				id: "2BB77945ED169ADC"
@@ -2352,18 +2244,19 @@
 			}]
 		}
 		{
-			x: -199.0d
-			y: -146.5d
+			x: 15.0d
+			y: 0.25d
 			id: "5FA9A185997E7CB7"
 			tasks: [{
 				id: "480E0EBEA045055D"
 				type: "item"
 				item: "nethers_delight:propelpearl"
+				consume_items: false
 			}]
 		}
 		{
-			x: -199.0d
-			y: -147.5d
+			x: 10.5d
+			y: 20.5d
 			id: "13FE3AAF6E575EEC"
 			tasks: [{
 				id: "3D9CC7A41B7D48BD"
@@ -2372,8 +2265,8 @@
 			}]
 		}
 		{
-			x: -199.0d
-			y: -148.5d
+			x: 10.5d
+			y: 19.5d
 			id: "6BA21DC6AC6B9184"
 			tasks: [{
 				id: "511BAF53227DCC4E"
@@ -2382,8 +2275,8 @@
 			}]
 		}
 		{
-			x: -199.0d
-			y: -149.5d
+			x: 10.5d
+			y: 18.5d
 			id: "3F2F3C49ADA25C9A"
 			tasks: [{
 				id: "388586495D324942"
@@ -2392,8 +2285,8 @@
 			}]
 		}
 		{
-			x: -199.0d
-			y: -150.5d
+			x: 11.5d
+			y: 18.5d
 			id: "7B0A34D63D9ECDD2"
 			tasks: [{
 				id: "244FD4C754FCA0D3"
@@ -2402,9 +2295,8 @@
 			}]
 		}
 		{
-			x: -232.0d
-			y: -149.5d
-			shape: "octagon"
+			x: 9.5d
+			y: 20.5d
 			id: "23CBD37FB9288B3A"
 			tasks: [{
 				id: "427A37B922D4297C"
@@ -2413,9 +2305,8 @@
 			}]
 		}
 		{
-			x: -233.0d
-			y: -149.0d
-			shape: "octagon"
+			x: 9.5d
+			y: 19.5d
 			id: "7B6795B7EF67EBFD"
 			tasks: [{
 				id: "65E8C39E778840C8"
@@ -2424,9 +2315,8 @@
 			}]
 		}
 		{
-			x: -234.0d
-			y: -149.0d
-			shape: "octagon"
+			x: 9.5d
+			y: 18.5d
 			id: "0D60331EA7791A2A"
 			tasks: [{
 				id: "3535E6B271567801"
@@ -2435,9 +2325,8 @@
 			}]
 		}
 		{
-			x: -235.0d
-			y: -149.0d
-			shape: "octagon"
+			x: 8.5d
+			y: 22.5d
 			id: "58363D36C2BE014A"
 			tasks: [{
 				id: "3071F077BB1DA882"
@@ -2446,8 +2335,8 @@
 			}]
 		}
 		{
-			x: -199.0d
-			y: -145.5d
+			x: 13.5d
+			y: 22.5d
 			id: "0A6589E5C9CCFAB9"
 			tasks: [{
 				id: "7C8D2CC04C882064"
@@ -2456,8 +2345,8 @@
 			}]
 		}
 		{
-			x: -199.0d
-			y: -144.5d
+			x: 14.5d
+			y: 19.5d
 			id: "6148033E3816D135"
 			tasks: [{
 				id: "7868321BA53A24AB"
@@ -2466,8 +2355,8 @@
 			}]
 		}
 		{
-			x: -198.0d
-			y: -153.5d
+			x: 17.0d
+			y: 3.25d
 			id: "1E0774A013B66F98"
 			tasks: [{
 				id: "096D24158B7EDFAF"
@@ -2476,8 +2365,8 @@
 			}]
 		}
 		{
-			x: -198.0d
-			y: -152.5d
+			x: 13.0d
+			y: 0.25d
 			id: "5C66D5D8438E8BC0"
 			tasks: [{
 				id: "5F84B521B070E0EA"
@@ -2486,8 +2375,8 @@
 			}]
 		}
 		{
-			x: -198.0d
-			y: -151.5d
+			x: 12.0d
+			y: 4.25d
 			id: "2E13E291CB226E52"
 			tasks: [{
 				id: "5949063FD1D38C94"
@@ -2496,8 +2385,10 @@
 			}]
 		}
 		{
-			x: -198.0d
-			y: -150.5d
+			x: 5.5d
+			y: 29.25d
+			hide_dependency_lines: true
+			dependencies: ["2E13E291CB226E52"]
 			id: "34B818017C250E47"
 			tasks: [{
 				id: "38D22E0D76E4E297"
@@ -2506,8 +2397,9 @@
 			}]
 		}
 		{
-			x: -198.0d
-			y: -149.5d
+			x: 14.0d
+			y: 6.25d
+			dependencies: ["5CCA0DE62590F789"]
 			id: "613B23ACB9A39FFD"
 			tasks: [{
 				id: "71974F3778E239E1"
@@ -2516,8 +2408,8 @@
 			}]
 		}
 		{
-			x: -198.0d
-			y: -148.5d
+			x: 14.0d
+			y: 5.25d
 			id: "5CCA0DE62590F789"
 			tasks: [{
 				id: "3AD2D8E76B6B2EE0"
@@ -2526,8 +2418,8 @@
 			}]
 		}
 		{
-			x: -198.0d
-			y: -147.5d
+			x: 12.0d
+			y: 3.25d
 			id: "0F29F106661943E3"
 			tasks: [{
 				id: "1E8F3D6B2C79FA0B"
@@ -2536,8 +2428,10 @@
 			}]
 		}
 		{
-			x: -198.0d
-			y: -146.5d
+			x: 10.5d
+			y: 29.25d
+			hide_dependency_lines: true
+			dependencies: ["0F29F106661943E3"]
 			id: "78E1A75A53654DD6"
 			tasks: [{
 				id: "5EA6269D2DCB3BE0"
@@ -2546,8 +2440,8 @@
 			}]
 		}
 		{
-			x: -198.0d
-			y: -145.5d
+			x: 2.25d
+			y: 5.75d
 			id: "2A5636EFA247009A"
 			tasks: [{
 				id: "2DB50176F9ECDB55"
@@ -2556,8 +2450,8 @@
 			}]
 		}
 		{
-			x: -198.0d
-			y: -144.5d
+			x: 1.25d
+			y: 5.75d
 			id: "396ADF28151372CD"
 			tasks: [{
 				id: "6A6A2E4D17B7FFFF"
@@ -2566,8 +2460,8 @@
 			}]
 		}
 		{
-			x: -198.0d
-			y: -143.5d
+			x: 14.0d
+			y: 0.25d
 			id: "52E29C2C0A4412B8"
 			tasks: [{
 				id: "3259E7331B82FA39"
@@ -2576,8 +2470,10 @@
 			}]
 		}
 		{
-			x: -198.0d
-			y: -142.5d
+			x: 9.5d
+			y: 29.25d
+			hide_dependency_lines: true
+			dependencies: ["52E29C2C0A4412B8"]
 			id: "0FDCEEFDD1629B70"
 			tasks: [{
 				id: "48DE383E9434E855"
@@ -2586,8 +2482,8 @@
 			}]
 		}
 		{
-			x: -198.0d
-			y: -141.5d
+			x: 0.25d
+			y: 4.75d
 			id: "189465B9FC864051"
 			tasks: [{
 				id: "262D58273DE1692A"
@@ -2596,8 +2492,8 @@
 			}]
 		}
 		{
-			x: -198.0d
-			y: -140.5d
+			x: 1.25d
+			y: 4.75d
 			id: "11A3DFDCD3C8266F"
 			tasks: [{
 				id: "37947051EEF73FFF"
@@ -2606,8 +2502,8 @@
 			}]
 		}
 		{
-			x: -198.0d
-			y: -139.5d
+			x: 2.25d
+			y: 4.75d
 			id: "565574E739CEEAB4"
 			tasks: [{
 				id: "16AE56B3B39CDA52"
@@ -2616,8 +2512,8 @@
 			}]
 		}
 		{
-			x: -198.0d
-			y: -138.5d
+			x: -0.75d
+			y: 4.75d
 			id: "7E9D2C2A58401B69"
 			tasks: [{
 				id: "12F4BB8989E59360"
@@ -2626,8 +2522,8 @@
 			}]
 		}
 		{
-			x: -198.0d
-			y: -137.5d
+			x: 17.0d
+			y: 4.25d
 			id: "4FA319B72FB6E6C7"
 			tasks: [{
 				id: "5BAD63372EEE2532"
@@ -2636,8 +2532,10 @@
 			}]
 		}
 		{
-			x: -198.0d
-			y: -136.5d
+			x: 8.5d
+			y: 29.25d
+			hide_dependency_lines: true
+			dependencies: ["4FA319B72FB6E6C7"]
 			id: "3EDE647C037A3FB2"
 			tasks: [{
 				id: "6C241332026F3ADB"
@@ -2646,8 +2544,8 @@
 			}]
 		}
 		{
-			x: -196.0d
-			y: -150.5d
+			x: 10.75d
+			y: 10.25d
 			id: "2FEDD30B4354E116"
 			tasks: [{
 				id: "31B62CFA4BF18005"
@@ -2656,8 +2554,8 @@
 			}]
 		}
 		{
-			x: -196.0d
-			y: -149.5d
+			x: 15.0d
+			y: 3.25d
 			id: "0CD0336FCD18557B"
 			tasks: [{
 				id: "4752C6AA636082A4"
@@ -2666,8 +2564,8 @@
 			}]
 		}
 		{
-			x: -195.0d
-			y: -150.5d
+			x: 13.0d
+			y: 5.25d
 			id: "0EF4E57E2EB38F94"
 			tasks: [{
 				id: "74C809B7C6279CFB"
@@ -2676,8 +2574,9 @@
 			}]
 		}
 		{
-			x: -195.0d
-			y: -149.5d
+			x: 13.0d
+			y: 6.25d
+			dependencies: ["0EF4E57E2EB38F94"]
 			id: "0AE0636D112674C6"
 			tasks: [{
 				id: "3B01CAB814B9D246"
@@ -2686,8 +2585,8 @@
 			}]
 		}
 		{
-			x: -194.0d
-			y: -150.5d
+			x: 7.5d
+			y: 15.5d
 			id: "1400EFE4ECD1CF0C"
 			tasks: [{
 				id: "1EEDD0B5E6381D15"
@@ -2696,8 +2595,9 @@
 			}]
 		}
 		{
-			x: -194.0d
-			y: -149.5d
+			x: 7.5d
+			y: 16.5d
+			dependencies: ["1400EFE4ECD1CF0C"]
 			id: "0CC31E0806C5242A"
 			tasks: [{
 				id: "0ACAFC8686AB5940"
@@ -2706,8 +2606,8 @@
 			}]
 		}
 		{
-			x: -194.0d
-			y: -148.5d
+			x: 8.5d
+			y: 15.5d
 			id: "4E853C52363E652D"
 			tasks: [{
 				id: "797D660FD60F1EA9"
@@ -2716,8 +2616,9 @@
 			}]
 		}
 		{
-			x: -194.0d
-			y: -147.5d
+			x: 8.5d
+			y: 16.5d
+			dependencies: ["4E853C52363E652D"]
 			id: "2761FC50F30636E6"
 			tasks: [{
 				id: "5C9449E7E83607F8"
@@ -2726,8 +2627,9 @@
 			}]
 		}
 		{
-			x: -194.0d
-			y: -146.5d
+			x: 9.5d
+			y: 16.5d
+			dependencies: ["4E853C52363E652D"]
 			id: "628EF773C5CD6CB8"
 			tasks: [{
 				id: "170F4EF142A85E39"
@@ -2736,8 +2638,8 @@
 			}]
 		}
 		{
-			x: -193.0d
-			y: -149.5d
+			x: 8.5d
+			y: 26.25d
 			id: "57D75452828F61F7"
 			tasks: [{
 				id: "5DD84FC68E930B08"
@@ -2746,8 +2648,8 @@
 			}]
 		}
 		{
-			x: -193.0d
-			y: -150.5d
+			x: 7.5d
+			y: 27.25d
 			id: "2A7041D3C80803CA"
 			tasks: [{
 				id: "13E6EC3376635F72"
@@ -2756,8 +2658,8 @@
 			}]
 		}
 		{
-			x: -192.0d
-			y: -150.5d
+			x: 11.5d
+			y: 21.5d
 			id: "06D8C24DCA31C1AC"
 			tasks: [{
 				id: "53C1DA436B1BA881"
@@ -2766,8 +2668,8 @@
 			}]
 		}
 		{
-			x: -192.0d
-			y: -141.5d
+			x: 14.5d
+			y: 20.5d
 			id: "1F1505B861C3D0BE"
 			tasks: [{
 				id: "147638C7A8614A71"
@@ -2776,8 +2678,8 @@
 			}]
 		}
 		{
-			x: -192.0d
-			y: -142.5d
+			x: 10.5d
+			y: 27.25d
 			id: "7DDBBE5DF43EFE26"
 			tasks: [{
 				id: "0D2D99D2B30348FD"
@@ -2786,8 +2688,8 @@
 			}]
 		}
 		{
-			x: -191.0d
-			y: -144.5d
+			x: 12.5d
+			y: 22.5d
 			id: "46D1072D0E5ECAE6"
 			tasks: [{
 				id: "7479E99DB37FAEC7"
@@ -2796,8 +2698,8 @@
 			}]
 		}
 		{
-			x: -191.0d
-			y: -143.5d
+			x: 10.5d
+			y: 26.25d
 			id: "3D631CBB9945C363"
 			tasks: [{
 				id: "7F38953EA76CC7D2"
@@ -2806,8 +2708,8 @@
 			}]
 		}
 		{
-			x: -192.0d
-			y: -143.5d
+			x: 9.5d
+			y: 28.25d
 			id: "344F2A59AE8277E7"
 			tasks: [{
 				id: "2F207ED8D7359580"
@@ -2816,8 +2718,8 @@
 			}]
 		}
 		{
-			x: -191.0d
-			y: -145.5d
+			x: 13.5d
+			y: 19.5d
 			id: "0C2310875EFEEE11"
 			tasks: [{
 				id: "47745E4F115117BC"
@@ -2826,8 +2728,8 @@
 			}]
 		}
 		{
-			x: -192.0d
-			y: -144.5d
+			x: 9.5d
+			y: 27.25d
 			id: "310ADDEA624B5B96"
 			tasks: [{
 				id: "79A8BFC003305A30"
@@ -2836,8 +2738,8 @@
 			}]
 		}
 		{
-			x: -191.0d
-			y: -146.5d
+			x: 13.5d
+			y: 18.5d
 			id: "7F88ABF43E813775"
 			tasks: [{
 				id: "26E278CBCCD7CB38"
@@ -2846,8 +2748,8 @@
 			}]
 		}
 		{
-			x: -192.0d
-			y: -145.5d
+			x: 14.5d
+			y: 18.5d
 			id: "0BA6D9BDA419A227"
 			tasks: [{
 				id: "2F9885003C541AEF"
@@ -2856,8 +2758,8 @@
 			}]
 		}
 		{
-			x: -191.0d
-			y: -147.5d
+			x: 12.5d
+			y: 21.5d
 			id: "6FA21FA56D5C9378"
 			tasks: [{
 				id: "56F140829D040F77"
@@ -2866,8 +2768,8 @@
 			}]
 		}
 		{
-			x: -190.0d
-			y: -149.5d
+			x: 11.5d
+			y: 22.5d
 			id: "5BCC535BAE142EE3"
 			tasks: [{
 				id: "62D0F538C887956A"
@@ -2876,8 +2778,8 @@
 			}]
 		}
 		{
-			x: -190.0d
-			y: -150.5d
+			x: 9.5d
+			y: 26.25d
 			id: "2C53BA8F555A9B0C"
 			tasks: [{
 				id: "0D5932C3CCA3991E"
@@ -2886,8 +2788,8 @@
 			}]
 		}
 		{
-			x: -191.0d
-			y: -148.5d
+			x: 12.5d
+			y: 18.5d
 			id: "57333338912735C8"
 			tasks: [{
 				id: "29477E6BD7E93B46"
@@ -2896,8 +2798,8 @@
 			}]
 		}
 		{
-			x: -192.0d
-			y: -146.5d
+			x: 13.5d
+			y: 21.5d
 			id: "31181E29AF7B5F34"
 			tasks: [{
 				id: "3DA3CEB833DFD216"
@@ -2906,8 +2808,8 @@
 			}]
 		}
 		{
-			x: -192.0d
-			y: -147.5d
+			x: 8.5d
+			y: 28.25d
 			id: "5F966CF3FBEE0270"
 			tasks: [{
 				id: "162AA9695FBBF2CE"
@@ -2916,8 +2818,8 @@
 			}]
 		}
 		{
-			x: -191.0d
-			y: -149.5d
+			x: 12.5d
+			y: 20.5d
 			id: "16692A9C86892ECD"
 			tasks: [{
 				id: "57846DDDA8FD784E"
@@ -2926,8 +2828,8 @@
 			}]
 		}
 		{
-			x: -191.0d
-			y: -140.5d
+			x: 10.5d
+			y: 30.25d
 			id: "1468A562F4FCB928"
 			tasks: [{
 				id: "6A55152EF7C72814"
@@ -2936,8 +2838,8 @@
 			}]
 		}
 		{
-			x: -191.0d
-			y: -150.5d
+			x: 4.5d
+			y: 28.25d
 			id: "1F3149228D2208D0"
 			tasks: [{
 				id: "27E1C82444EFA910"
@@ -2946,8 +2848,8 @@
 			}]
 		}
 		{
-			x: -191.0d
-			y: -141.5d
+			x: 13.5d
+			y: 20.5d
 			id: "3FD13EAECBAA927D"
 			tasks: [{
 				id: "42B8293D08A9692A"
@@ -2956,8 +2858,8 @@
 			}]
 		}
 		{
-			x: -192.0d
-			y: -148.5d
+			x: 8.5d
+			y: 27.25d
 			id: "6290881BF3052DC9"
 			tasks: [{
 				id: "2292AC33E6D8EE13"
@@ -2966,8 +2868,8 @@
 			}]
 		}
 		{
-			x: -192.0d
-			y: -149.5d
+			x: 11.5d
+			y: 20.5d
 			id: "3517A89341949955"
 			tasks: [{
 				id: "12F2B5DF2DA52052"
@@ -2976,8 +2878,8 @@
 			}]
 		}
 		{
-			x: -192.0d
-			y: -140.5d
+			x: 11.5d
+			y: 26.25d
 			id: "49FEE462E34219F1"
 			tasks: [{
 				id: "5CD3013193634951"
@@ -2986,8 +2888,8 @@
 			}]
 		}
 		{
-			x: -191.0d
-			y: -142.5d
+			x: 10.5d
+			y: 28.25d
 			id: "6510DD05B5AE9E65"
 			tasks: [{
 				id: "3E99EE1BE5D8FCF0"
@@ -2996,9 +2898,8 @@
 			}]
 		}
 		{
-			x: -243.75d
-			y: -158.25d
-			shape: "hexagon"
+			x: 16.0d
+			y: 5.25d
 			id: "7BF7A778443B08E8"
 			tasks: [{
 				id: "2B4C645049208E22"
@@ -3007,9 +2908,9 @@
 			}]
 		}
 		{
-			x: -242.75d
-			y: -158.25d
-			shape: "hexagon"
+			x: 16.0d
+			y: 6.25d
+			dependencies: ["7BF7A778443B08E8"]
 			id: "13A08244320A87C8"
 			tasks: [{
 				id: "3E8F9D8982A2CF08"
@@ -3018,9 +2919,8 @@
 			}]
 		}
 		{
-			x: -241.75d
-			y: -158.25d
-			shape: "hexagon"
+			x: 6.5d
+			y: 15.5d
 			id: "2C2D23DFF8D61A92"
 			tasks: [{
 				id: "1DD5A48A2994060D"
@@ -3029,9 +2929,9 @@
 			}]
 		}
 		{
-			x: -240.75d
-			y: -158.25d
-			shape: "hexagon"
+			x: 6.5d
+			y: 16.5d
+			dependencies: ["2C2D23DFF8D61A92"]
 			id: "03C06FC52803D598"
 			tasks: [{
 				id: "7E75503645E29E63"
@@ -3040,9 +2940,8 @@
 			}]
 		}
 		{
-			x: -242.75d
-			y: -157.25d
-			shape: "hexagon"
+			x: 2.5d
+			y: 30.25d
 			id: "78C4C0C63AAE9C9B"
 			tasks: [{
 				id: "62A346615E5E7EB5"
@@ -3051,9 +2950,8 @@
 			}]
 		}
 		{
-			x: -241.75d
-			y: -157.25d
-			shape: "hexagon"
+			x: -0.5d
+			y: 30.25d
 			id: "58265A6F54F62509"
 			tasks: [{
 				id: "3ADC2C5FF2368721"
@@ -3062,9 +2960,8 @@
 			}]
 		}
 		{
-			x: -240.75d
-			y: -157.25d
-			shape: "hexagon"
+			x: 13.0d
+			y: 4.25d
 			id: "31378314550CAB9A"
 			tasks: [{
 				id: "440773EAE9E7B77D"
@@ -3073,9 +2970,8 @@
 			}]
 		}
 		{
-			x: -243.75d
-			y: -157.25d
-			shape: "hexagon"
+			x: 14.0d
+			y: 3.25d
 			id: "78C2E7CD7886EDF4"
 			tasks: [{
 				id: "5D2D626CA047A02F"
@@ -3084,9 +2980,8 @@
 			}]
 		}
 		{
-			x: -243.25d
-			y: -156.25d
-			shape: "hexagon"
+			x: 0.25d
+			y: 6.75d
 			id: "0E0505F0BD06F8A2"
 			tasks: [{
 				id: "7E9D388CD9841217"
@@ -3095,9 +2990,9 @@
 			}]
 		}
 		{
-			x: -242.25d
-			y: -156.25d
-			shape: "hexagon"
+			x: 0.25d
+			y: 7.75d
+			dependencies: ["0E0505F0BD06F8A2"]
 			id: "081D89CAA4EBDCA2"
 			tasks: [{
 				id: "449EE19B2E7E5100"
@@ -3106,14 +3001,2735 @@
 			}]
 		}
 		{
-			x: -241.25d
-			y: -156.25d
-			shape: "hexagon"
-			id: "5ACA05215B7FED06"
+			x: 7.25d
+			y: 9.5d
+			id: "764BA4BB7C5FE748"
 			tasks: [{
-				id: "6C269DF74467FE24"
+				id: "609650EC25AA3A47"
 				type: "item"
-				item: "betterendforge:umbrella_cluster_juice"
+				item: "kubejs:larve"
+			}]
+		}
+		{
+			x: 14.75d
+			y: -7.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "5E3793DD18CF9D8B"
+			tasks: [{
+				id: "21CDACB9DA55C7C8"
+				type: "item"
+				item: "sushigocrafting:avocado_slices"
+			}]
+		}
+		{
+			x: 15.75d
+			y: -7.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "30CFD7A13177AA76"
+			tasks: [{
+				id: "76CC35DB73EC5F9E"
+				type: "item"
+				item: "sushigocrafting:tuna_fillet"
+			}]
+		}
+		{
+			x: 16.75d
+			y: -7.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "68A718FC6FF97AC7"
+			tasks: [{
+				id: "526DFD9E2AC5C979"
+				type: "item"
+				item: "sushigocrafting:salmon_fillet"
+			}]
+		}
+		{
+			x: 18.75d
+			y: -7.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "095C3198A1CE8426"
+			tasks: [{
+				id: "57E92D5846998162"
+				type: "item"
+				item: "sushigocrafting:cucumber_slices"
+			}]
+		}
+		{
+			x: 19.75d
+			y: -7.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "7E9DBA245564D81D"
+			tasks: [{
+				id: "1005807594BABB6E"
+				type: "item"
+				item: "sushigocrafting:imitation_crab"
+			}]
+		}
+		{
+			x: 17.75d
+			y: -7.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "42402792DAAC804C"
+			tasks: [{
+				id: "5ACB11F3EBFCFF6A"
+				type: "item"
+				item: "sushigocrafting:cooked_rice"
+			}]
+		}
+		{
+			x: 20.75d
+			y: -7.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "325DD12E8F2FEA43"
+			tasks: [{
+				id: "181E1565B745EC4C"
+				type: "item"
+				item: "sushigocrafting:sesame_seed"
+			}]
+		}
+		{
+			x: 21.75d
+			y: -7.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "3C5A1BB03F49894F"
+			tasks: [{
+				id: "1665CCDB3AEE5C2C"
+				type: "item"
+				item: "sushigocrafting:tobiko"
+			}]
+		}
+		{
+			x: 21.75d
+			y: -6.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "2A735A93F7765A88"
+			tasks: [{
+				id: "5118D8CE2ECC0E62"
+				type: "item"
+				item: "sushigocrafting:crab_maki"
+			}]
+		}
+		{
+			x: 20.75d
+			y: -6.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "16F9612F9AD38324"
+			tasks: [{
+				id: "3DC2AC554AEA0CD2"
+				type: "item"
+				item: "sushigocrafting:cucumber_maki"
+			}]
+		}
+		{
+			x: 19.75d
+			y: -6.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "798A02540158D365"
+			tasks: [{
+				id: "7520B65549F14F71"
+				type: "item"
+				item: "sushigocrafting:avocado_maki"
+			}]
+		}
+		{
+			x: 18.75d
+			y: -6.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "5AE802634C6AB2AB"
+			tasks: [{
+				id: "367666E4DF0962B1"
+				type: "item"
+				item: "sushigocrafting:tuna_maki"
+			}]
+		}
+		{
+			x: 17.75d
+			y: -6.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "71E6233719D44729"
+			tasks: [{
+				id: "57CFDE5F1A087068"
+				type: "item"
+				item: "sushigocrafting:salmon_maki"
+			}]
+		}
+		{
+			x: 15.75d
+			y: -6.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "59AE401A4E26F6DB"
+			tasks: [{
+				id: "516ED99E3074C94E"
+				type: "item"
+				item: "sushigocrafting:soy_sauce"
+			}]
+		}
+		{
+			x: 16.75d
+			y: -6.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "594509986A462AAE"
+			tasks: [{
+				id: "797C4BF9A0D87E7A"
+				type: "item"
+				item: "sushigocrafting:wasabi_paste"
+			}]
+		}
+		{
+			x: 14.75d
+			y: -6.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "3B074BC609F88AC4"
+			tasks: [{
+				id: "254D112C6127D9B3"
+				type: "item"
+				item: {
+					id: "sushigocrafting:shrimp"
+					Count: 1b
+					tag: {
+						Amount: 25
+					}
+				}
+			}]
+		}
+		{
+			x: 13.75d
+			y: -6.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "557B368A5907F461"
+			tasks: [{
+				id: "7FC69BFBB4D4DBE1"
+				type: "item"
+				item: "sushigocrafting:cheese"
+			}]
+		}
+		{
+			x: 13.75d
+			y: -5.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "48208094545BCDCF"
+			tasks: [{
+				id: "422F0B899CB7C6CE"
+				type: "item"
+				item: "sushigocrafting:salmon_gunkan"
+			}]
+		}
+		{
+			x: 14.75d
+			y: -5.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "36B0DBCAE6D85396"
+			tasks: [{
+				id: "3B087F7BA2755084"
+				type: "item"
+				item: "sushigocrafting:tuna_gunkan"
+			}]
+		}
+		{
+			x: 15.75d
+			y: -5.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "0C68B01DE191E135"
+			tasks: [{
+				id: "7F02AAB9DE7B909A"
+				type: "item"
+				item: "sushigocrafting:wakame_gunkan"
+			}]
+		}
+		{
+			x: 16.75d
+			y: -5.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "16317F37A3BD938A"
+			tasks: [{
+				id: "311B918D0D49020B"
+				type: "item"
+				item: "sushigocrafting:tobiko_tuna_cucumber_california"
+			}]
+		}
+		{
+			x: 19.75d
+			y: -5.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "5B87F9589BBCCFBF"
+			tasks: [{
+				id: "545D5AE9533D0503"
+				type: "item"
+				item: "sushigocrafting:tuna_california"
+			}]
+		}
+		{
+			x: 17.75d
+			y: -5.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "743B45B63A13D7F1"
+			tasks: [{
+				id: "3EDD76E6EB015936"
+				type: "item"
+				item: "sushigocrafting:tuna_cucumber_california"
+			}]
+		}
+		{
+			x: 20.75d
+			y: -5.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "3C04E18F1AC451BE"
+			tasks: [{
+				id: "0BE436CECA09F939"
+				type: "item"
+				item: "sushigocrafting:tobiko_tuna_cheese_california"
+			}]
+		}
+		{
+			x: 21.75d
+			y: -5.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "6262A21D95A2C571"
+			tasks: [{
+				id: "4F9FE0446E978F9D"
+				type: "item"
+				item: "sushigocrafting:tuna_cheese_california"
+			}]
+		}
+		{
+			x: 18.75d
+			y: -5.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "28E46BB1348BE93D"
+			tasks: [{
+				id: "598B45537362C422"
+				type: "item"
+				item: "sushigocrafting:tobiko_tuna_california"
+			}]
+		}
+		{
+			x: 13.75d
+			y: -4.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "2D8DFA032DE59892"
+			tasks: [{
+				id: "74C7A49682D034C5"
+				type: "item"
+				item: "sushigocrafting:tobiko_salmon_cucumber_california"
+			}]
+		}
+		{
+			x: 14.75d
+			y: -4.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "0CB5104F44EEF5EA"
+			tasks: [{
+				id: "349ED8A782AC375E"
+				type: "item"
+				item: "sushigocrafting:salmon_cucumber_california"
+			}]
+		}
+		{
+			x: 14.75d
+			y: -3.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "3EBA25D13921DEA1"
+			tasks: [{
+				id: "6788E821267E6984"
+				type: "item"
+				item: "sushigocrafting:tobiko_crab_cheese_california"
+			}]
+		}
+		{
+			x: 18.75d
+			y: -2.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "5DE88768E49F1A3A"
+			tasks: [{
+				id: "5EBB33298C43763E"
+				type: "item"
+				item: "sushigocrafting:shrimp_temaki"
+			}]
+		}
+		{
+			x: 13.75d
+			y: -7.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "3034422C2CC71E3C"
+			tasks: [{
+				id: "677E821487E4480A"
+				type: "item"
+				item: "sushigocrafting:chicken_temaki"
+			}]
+		}
+		{
+			x: 13.75d
+			y: -3.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "22A22CAE83C9A12C"
+			tasks: [{
+				id: "438C4C67D7203C8A"
+				type: "item"
+				item: "sushigocrafting:crab_california"
+			}]
+		}
+		{
+			x: 15.75d
+			y: -3.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "3A7EC0F80833B287"
+			tasks: [{
+				id: "59965BAA533ABE0B"
+				type: "item"
+				item: "sushigocrafting:crab_cheese_california"
+			}]
+		}
+		{
+			x: 15.75d
+			y: -4.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "4AFD3D3D7F38098C"
+			tasks: [{
+				id: "74DDAE53BADCD7BF"
+				type: "item"
+				item: "sushigocrafting:tobiko_salmon_california"
+			}]
+		}
+		{
+			x: 16.75d
+			y: -4.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "7DBCEE0B79044318"
+			tasks: [{
+				id: "7617488CD5D06725"
+				type: "item"
+				item: "sushigocrafting:salmon_california"
+			}]
+		}
+		{
+			x: 16.75d
+			y: -3.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "798E2693AD0E4F9F"
+			tasks: [{
+				id: "2870BAEABF794EBC"
+				type: "item"
+				item: "sushigocrafting:salmon_nigiri"
+			}]
+		}
+		{
+			x: 17.75d
+			y: -3.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "243BBBF4E424A098"
+			tasks: [{
+				id: "043606F331AF07F7"
+				type: "item"
+				item: "sushigocrafting:tuna_nigiri"
+			}]
+		}
+		{
+			x: 17.75d
+			y: -4.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "3689D78E050E8ACE"
+			tasks: [{
+				id: "5B60E345685FBD25"
+				type: "item"
+				item: "sushigocrafting:tobiko_salmon_cheese_california"
+			}]
+		}
+		{
+			x: 18.75d
+			y: -3.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "574E8982D4B61D0D"
+			tasks: [{
+				id: "70E5B12218D78EDB"
+				type: "item"
+				item: "sushigocrafting:shrimp_nigiri"
+			}]
+		}
+		{
+			x: 18.75d
+			y: -4.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "764C9C24DC829DF1"
+			tasks: [{
+				id: "2D7A9B2B9C4EBA64"
+				type: "item"
+				item: "sushigocrafting:salmon_cheese_california"
+			}]
+		}
+		{
+			x: 19.75d
+			y: -4.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "4E70FB3FC4132B46"
+			tasks: [{
+				id: "47E2DF4522030988"
+				type: "item"
+				item: "sushigocrafting:tobiko_crab_cucumber_california"
+			}]
+		}
+		{
+			x: 19.75d
+			y: -3.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "55B452A0C61606F5"
+			tasks: [{
+				id: "44D95F708415F240"
+				type: "item"
+				item: "sushigocrafting:onigiri"
+			}]
+		}
+		{
+			x: 20.75d
+			y: -3.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "3AF1D132B023E7F3"
+			tasks: [{
+				id: "6F899270559933B4"
+				type: "item"
+				item: "sushigocrafting:salmon_temaki"
+			}]
+		}
+		{
+			x: 20.75d
+			y: -4.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "7B08978812BF73FB"
+			tasks: [{
+				id: "1042070811940786"
+				type: "item"
+				item: "sushigocrafting:crab_cucumber_california"
+			}]
+		}
+		{
+			x: 21.75d
+			y: -4.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "7303CC18C0F84D6E"
+			tasks: [{
+				id: "61FBC09B6443983D"
+				type: "item"
+				item: "sushigocrafting:tobiko_crab_california"
+			}]
+		}
+		{
+			x: 21.75d
+			y: -3.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "3155A9B29BA34A04"
+			tasks: [{
+				id: "1A1DBF6EB57FDD2A"
+				type: "item"
+				item: "sushigocrafting:tuna_temaki"
+			}]
+		}
+		{
+			x: 17.75d
+			y: -8.75d
+			id: "0A428C8DC8A38839"
+			tasks: [{
+				id: "1D3547D62F0B8AB0"
+				type: "item"
+				item: "sushigocrafting:roller"
+			}]
+		}
+		{
+			x: 9.25d
+			y: -3.5d
+			dependencies: ["5DD910CC64152089"]
+			id: "5A1E36170BEFE806"
+			tasks: [{
+				id: "167E0C853B8A1567"
+				type: "item"
+				item: "refinedcooking:kitchen_station"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -3.5d
+			dependencies: ["5DD910CC64152089"]
+			id: "441C69EE987FE187"
+			tasks: [{
+				id: "6DA9865EF86461C9"
+				type: "item"
+				item: "refinedcooking:kitchen_network_card"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -6.0d
+			dependencies: ["1FB3C1B5403D8285"]
+			id: "3B88B4E16C98D538"
+			tasks: [{
+				id: "002CA27955CEE12F"
+				type: "item"
+				item: "cookingforblockheads:recipe_book"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -6.0d
+			dependencies: ["3B88B4E16C98D538"]
+			id: "3135EC6C1E292F6B"
+			tasks: [{
+				id: "4B90CE1721EEBC91"
+				type: "item"
+				item: "cookingforblockheads:crafting_book"
+			}]
+		}
+		{
+			x: 2.25d
+			y: 0.75d
+			dependencies: ["0512195374E84676"]
+			id: "343C1EAB202F2CA6"
+			tasks: [{
+				id: "166386FD23E54C9B"
+				type: "item"
+				item: "cookingforblockheads:heating_unit"
+			}]
+		}
+		{
+			x: 0.25d
+			y: 0.75d
+			id: "2498700E5DE54817"
+			tasks: [{
+				id: "4065242D21E37E35"
+				type: "item"
+				item: "farmersdelight:stove"
+			}]
+		}
+		{
+			x: -1.75d
+			y: 0.75d
+			id: "37A579F0F4A74D97"
+			tasks: [{
+				id: "0BFE75B40FD78D8C"
+				type: "item"
+				item: {
+					id: "farmersdelight:iron_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 16.75d
+			y: -2.5d
+			dependencies: ["0A428C8DC8A38839"]
+			id: "78F5D2D6CB66DC53"
+			tasks: [{
+				id: "4994EEE7916E25D6"
+				type: "item"
+				item: "sushigocrafting:seaweed"
+			}]
+			rewards: [{
+				id: "3D0626EC24C88BF0"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "sushigocrafting:sushigocrafting"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.75d
+			y: -0.25d
+			id: "3AD8866E2110EC44"
+			tasks: [{
+				id: "7E3CBD90AFB2E51C"
+				type: "item"
+				item: "solcarrot:food_book"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -3.5d
+			dependencies: ["5DD910CC64152089"]
+			id: "5DE83F1A988EB6A8"
+			tasks: [{
+				id: "3CA5730577F8F822"
+				type: "item"
+				item: "refinedcooking:kitchen_access_point"
+			}]
+		}
+		{
+			x: 3.25d
+			y: -3.25d
+			id: "6801AA2A88049CC1"
+			tasks: [
+				{
+					id: "1D524383825427B9"
+					type: "item"
+					item: "cookingforblockheads:milk_jar"
+				}
+				{
+					id: "42877DC3776F4E94"
+					type: "item"
+					item: "cookingforblockheads:cow_jar"
+				}
+			]
+		}
+		{
+			x: 6.25d
+			y: -2.25d
+			id: "233601043A9BB91D"
+			tasks: [{
+				id: "7F0860671958A5D6"
+				type: "item"
+				item: "cookingforblockheads:spice_rack"
+			}]
+		}
+		{
+			x: 3.25d
+			y: -0.25d
+			id: "40CAFDA38F402BD5"
+			tasks: [{
+				id: "4874DF8DF5DF4A49"
+				type: "item"
+				item: "cookingforblockheads:counter"
+			}]
+		}
+		{
+			x: 3.25d
+			y: -2.25d
+			id: "7466159125783619"
+			tasks: [{
+				id: "7C14074858EEA3AF"
+				type: "item"
+				item: "cookingforblockheads:fruit_basket"
+			}]
+		}
+		{
+			x: 15.75d
+			y: -8.5d
+			id: "66E3F74A962DB50B"
+			tasks: [{
+				id: "14DF200CAE628BA3"
+				type: "item"
+				item: "sushigocrafting:cooler_box"
+			}]
+		}
+		{
+			x: 20.75d
+			y: -8.5d
+			id: "7107A4F9013E83DC"
+			tasks: [{
+				id: "3822DC4B1CA97E7C"
+				type: "item"
+				item: "sushigocrafting:fermentation_barrel"
+			}]
+		}
+		{
+			x: 14.75d
+			y: -8.5d
+			id: "0C1B0E7C35406302"
+			tasks: [{
+				id: "708F21844F8FC1A0"
+				type: "item"
+				item: "sushigocrafting:rice_cooker"
+			}]
+		}
+		{
+			x: 19.75d
+			y: -8.5d
+			id: "680D3B7FE5764860"
+			tasks: [{
+				id: "2F89C7E7CCC01F13"
+				type: "item"
+				item: "sushigocrafting:cutting_board"
+			}]
+		}
+		{
+			x: 2.25d
+			y: -0.25d
+			id: "0512195374E84676"
+			tasks: [{
+				id: "291169A90BE6E5A7"
+				type: "item"
+				item: "cookingforblockheads:oven"
+			}]
+		}
+		{
+			x: 5.25d
+			y: -0.25d
+			id: "679A63703DA72542"
+			tasks: [{
+				id: "0085AFE48E4F6869"
+				type: "item"
+				item: "cookingforblockheads:sink"
+			}]
+		}
+		{
+			x: 6.25d
+			y: -1.25d
+			id: "68E884628368D053"
+			tasks: [{
+				id: "7247161CD724A782"
+				type: "item"
+				item: "cookingforblockheads:tool_rack"
+			}]
+		}
+		{
+			x: 3.25d
+			y: -1.25d
+			id: "491B202F129CD16C"
+			tasks: [{
+				id: "5A05F42549EC090C"
+				type: "item"
+				item: "cookingforblockheads:toaster"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.75d
+			id: "17797F07B18465A1"
+			tasks: [{
+				id: "75ED674168055AFF"
+				type: "item"
+				item: "culinaryconstruct:culinary_station"
+			}]
+		}
+		{
+			x: 6.75d
+			y: 0.75d
+			dependencies: ["4553C9F8CC88FD09"]
+			id: "7D0951ED1F22A34E"
+			tasks: [{
+				id: "0FA84053B9C5F74D"
+				type: "item"
+				item: "cookingforblockheads:preservation_chamber"
+			}]
+		}
+		{
+			x: 7.75d
+			y: 0.75d
+			dependencies: ["4553C9F8CC88FD09"]
+			id: "4B20CFFD8A8EA695"
+			tasks: [{
+				id: "7A52A65F8E5203D9"
+				type: "item"
+				item: "cookingforblockheads:ice_unit"
+			}]
+		}
+		{
+			x: -0.75d
+			y: -0.25d
+			id: "470D7199F995F6C9"
+			tasks: [{
+				id: "7C7E2C87328A2A9C"
+				type: "item"
+				item: "farmersdelight:cooking_pot"
+			}]
+		}
+		{
+			x: 0.25d
+			y: -0.25d
+			id: "5A72F37E04A2E812"
+			tasks: [{
+				id: "7CC5D87AD5ED27C0"
+				type: "item"
+				item: {
+					id: "farmersdelight:skillet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.75d
+			y: 0.75d
+			id: "136D43E8E47984E7"
+			tasks: [{
+				id: "0FEC9BDA11FC6C5B"
+				type: "item"
+				item: "farmersdelight:cutting_board"
+			}]
+		}
+		{
+			x: 4.25d
+			y: -0.25d
+			id: "670147859F2E5A19"
+			tasks: [{
+				id: "3454E496CDC3E051"
+				type: "item"
+				item: "cookingforblockheads:cooking_table"
+			}]
+		}
+		{
+			x: 4.25d
+			y: -1.25d
+			id: "20622217992F16B0"
+			tasks: [{
+				id: "080CB912A1B01AC4"
+				type: "item"
+				item: "cookingforblockheads:hanging_corner"
+			}]
+		}
+		{
+			x: 7.25d
+			y: -0.25d
+			id: "4553C9F8CC88FD09"
+			tasks: [{
+				id: "291BF8AAF2CFB2F7"
+				type: "item"
+				item: "cookingforblockheads:fridge"
+				count: 2L
+			}]
+		}
+		{
+			x: 4.25d
+			y: -2.25d
+			id: "0A1E402753E07846"
+			tasks: [{
+				id: "7E77D59C3401BA53"
+				type: "item"
+				item: "cookingforblockheads:cabinet"
+			}]
+		}
+		{
+			x: 6.25d
+			y: -0.25d
+			id: "6E44FB72D518207C"
+			tasks: [{
+				id: "6EFBF05BFB1F9EA8"
+				type: "item"
+				item: "cookingforblockheads:corner"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -6.0d
+			id: "1FB3C1B5403D8285"
+			tasks: [{
+				id: "7674DC5DCAE9C692"
+				type: "item"
+				item: "cookingforblockheads:no_filter_edition"
+			}]
+		}
+		{
+			x: 9.25d
+			y: -1.5d
+			id: "5DD910CC64152089"
+			tasks: [{
+				id: "3DB3A6290CDBD7A8"
+				type: "checkmark"
+				title: "Refined Cooking"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 30.25d
+			id: "3F7F4B22B0833521"
+			tasks: [{
+				id: "791C39E003E7D347"
+				type: "item"
+				item: "supplementaries:candy"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 16.5d
+			dependencies: ["6DA6C47765FB2697"]
+			id: "0D681E28C2CBAA62"
+			tasks: [{
+				id: "6D504C4B5CCD1646"
+				type: "item"
+				item: "upgrade_aquatic:cooked_perch"
+			}]
+		}
+		{
+			x: 18.5d
+			y: 10.5d
+			id: "3320F58D7E3AD839"
+			tasks: [{
+				id: "2F84627003E78C8C"
+				type: "item"
+				item: "upgrade_aquatic:boiled_blue_pickerelweed"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 10.5d
+			id: "1E43B0FBC9292DEC"
+			tasks: [{
+				id: "1D606BE82280C9E4"
+				type: "item"
+				item: "upgrade_aquatic:boiled_purple_pickerelweed"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 15.5d
+			id: "3176715511800ECB"
+			tasks: [{
+				id: "150CFD75A13C3BA9"
+				type: "item"
+				item: "upgrade_aquatic:pike"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 16.5d
+			dependencies: ["3176715511800ECB"]
+			id: "0CCE66749939B185"
+			tasks: [{
+				id: "6887083505B9D495"
+				type: "item"
+				item: "upgrade_aquatic:cooked_pike"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 15.5d
+			id: "6DA6C47765FB2697"
+			tasks: [{
+				id: "56F4789B77ECD3A4"
+				type: "item"
+				item: "upgrade_aquatic:perch"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 15.5d
+			id: "5E2C418EFC3B96F8"
+			tasks: [{
+				id: "6E72A8CD91C6D4A4"
+				type: "item"
+				item: "upgrade_aquatic:lionfish"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 16.5d
+			dependencies: ["5E2C418EFC3B96F8"]
+			id: "32CD549B9069B9F6"
+			tasks: [{
+				id: "5FEB2EE7393CDB93"
+				type: "item"
+				item: "upgrade_aquatic:cooked_lionfish"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 26.25d
+			hide_dependency_lines: true
+			dependencies: ["59CA7F7996970119"]
+			id: "38F35184B4FF9B76"
+			tasks: [{
+				id: "31E2FBBDEFBB5A0E"
+				type: "item"
+				item: "upgrade_aquatic:mulberry_pie"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 30.25d
+			hide_dependency_lines: true
+			dependencies: ["59CA7F7996970119"]
+			id: "10B6C51E42FED5A3"
+			tasks: [{
+				id: "618152CA30928E5B"
+				type: "item"
+				item: "upgrade_aquatic:mulberry_bread"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 29.25d
+			hide_dependency_lines: true
+			dependencies: ["59CA7F7996970119"]
+			id: "12F0B3677399362D"
+			tasks: [{
+				id: "5DEA1A135D1ECD27"
+				type: "item"
+				item: "upgrade_aquatic:mulberry_jam_bottle"
+			}]
+		}
+		{
+			x: 18.0d
+			y: 4.25d
+			id: "59CA7F7996970119"
+			tasks: [{
+				id: "5B2AAD574CFD97BF"
+				type: "item"
+				item: "upgrade_aquatic:mulberry"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 28.25d
+			id: "1AA8F92B4FEC38E7"
+			tasks: [{
+				id: "0BE7413BC0E6AFEE"
+				type: "item"
+				item: "thermal:syrup_bottle"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 22.5d
+			id: "4BE3D136184B94D9"
+			tasks: [{
+				id: "11764652CAECD5BF"
+				type: "item"
+				item: "tconstruct:bacon"
+			}]
+		}
+		{
+			x: 18.0d
+			y: -0.75d
+			dependencies: ["26426B6995EACEA3"]
+			id: "5F6C4E750758EFBF"
+			tasks: [{
+				id: "74763E5C23922477"
+				type: "item"
+				item: "tconstruct:jeweled_apple"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 15.5d
+			id: "02B62AAB29DA5F9E"
+			tasks: [{
+				id: "139B058520B6936D"
+				type: "item"
+				item: "undergarden:raw_gwibling"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 16.5d
+			dependencies: ["02B62AAB29DA5F9E"]
+			id: "7EE834B9D2F19524"
+			tasks: [{
+				id: "28A1F4144B0A860E"
+				type: "item"
+				item: "undergarden:cooked_gwibling"
+			}]
+		}
+		{
+			x: 0.25d
+			y: 12.0d
+			id: "64E9ED79DFE597F4"
+			tasks: [{
+				id: "138883F747E7B502"
+				type: "item"
+				item: "undergarden:raw_gloomper_leg"
+			}]
+		}
+		{
+			x: 18.5d
+			y: 11.5d
+			id: "64F5F9E28AD7E81F"
+			tasks: [{
+				id: "3A8685238E725EA9"
+				type: "item"
+				item: "undergarden:underbeans"
+			}]
+		}
+		{
+			x: 18.0d
+			y: 3.25d
+			id: "6C0AAD6AA6433339"
+			tasks: [{
+				id: "41374C55F4DEE4BA"
+				type: "item"
+				item: "undergarden:droopvine_item"
+			}]
+		}
+		{
+			x: 0.25d
+			y: 13.0d
+			dependencies: ["64E9ED79DFE597F4"]
+			id: "79744B0032092AFE"
+			tasks: [{
+				id: "48137C9515B16E1B"
+				type: "item"
+				item: "undergarden:gloomper_leg"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 18.5d
+			id: "0F22970428DDD207"
+			tasks: [{
+				id: "6DDB7F8D0D305B0C"
+				type: "item"
+				item: "undergarden:bloody_stew"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 9.5d
+			id: "144BF520204297E2"
+			tasks: [{
+				id: "0B58C0DE87D08AFA"
+				type: "item"
+				item: "undergarden:roasted_underbeans"
+			}]
+		}
+		{
+			x: 19.0d
+			y: 3.25d
+			id: "0CFB14C2AE78DB48"
+			tasks: [{
+				id: "4D497514898A4F85"
+				type: "item"
+				item: "undergarden:blisterberry"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 19.5d
+			id: "1DD56B2E429134DC"
+			tasks: [{
+				id: "6BB87080754249AE"
+				type: "item"
+				item: "undergarden:inky_stew"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 27.25d
+			id: "468C1C0F0F14DB7C"
+			tasks: [{
+				id: "28676CFF6E0EC3F2"
+				type: "item"
+				item: "undergarden:gloomgourd_pie"
+			}]
+		}
+		{
+			x: 1.25d
+			y: 12.0d
+			id: "4A205595A5EBC697"
+			tasks: [{
+				id: "60A11BBAFE4428FA"
+				type: "item"
+				item: "undergarden:raw_dweller_meat"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 21.5d
+			id: "0259950B12C70507"
+			tasks: [{
+				id: "211097014CFBCCC7"
+				type: "item"
+				item: "undergarden:veiled_stew"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 20.5d
+			id: "67DEF8D661661B26"
+			tasks: [{
+				id: "004373DC9BA3C146"
+				type: "item"
+				item: "undergarden:indigo_stew"
+			}]
+		}
+		{
+			x: 1.25d
+			y: 13.0d
+			dependencies: ["4A205595A5EBC697"]
+			id: "753F8DF50862DEE6"
+			tasks: [{
+				id: "23454B2261DD85CE"
+				type: "item"
+				item: "undergarden:dweller_steak"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 2.25d
+			id: "706311CE86E5093D"
+			tasks: [{
+				id: "309B85DC69FD3138"
+				type: "item"
+				item: "simplefarming:apricot"
+			}]
+		}
+		{
+			x: 17.0d
+			y: 2.25d
+			id: "1C338CB8072A04F9"
+			tasks: [{
+				id: "2013B88F4290FD16"
+				type: "item"
+				item: "simplefarming:banana"
+			}]
+		}
+		{
+			x: 19.0d
+			y: 4.25d
+			id: "24D2AC9A48592276"
+			tasks: [{
+				id: "747EBE7E425BD8E8"
+				type: "item"
+				item: "simplefarming:blackberries"
+			}]
+		}
+		{
+			x: 18.0d
+			y: 2.25d
+			id: "106619138CC76B5C"
+			tasks: [{
+				id: "6F81AEC7F43FE1B9"
+				type: "item"
+				item: "simplefarming:blueberries"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 1.25d
+			id: "1FF068E6A55327E7"
+			tasks: [{
+				id: "0FA9DB2FD0E84548"
+				type: "item"
+				item: "simplefarming:cactus_fruit"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 1.25d
+			id: "1F7DE7928C7BCF8A"
+			tasks: [{
+				id: "3F1ABBCB45135BDB"
+				type: "item"
+				item: "simplefarming:cantaloupe"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 1.25d
+			id: "743FA23D3D4165A8"
+			tasks: [{
+				id: "718E21F3D68F7253"
+				type: "item"
+				item: "simplefarming:cherries"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 1.25d
+			id: "40BA6D0A43E044A5"
+			tasks: [{
+				id: "4DDBDFCEB9EABCF0"
+				type: "item"
+				item: "simplefarming:grapes"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 1.25d
+			id: "191872D00C9CE8ED"
+			tasks: [{
+				id: "60B25CF03D93AD4B"
+				type: "item"
+				item: "simplefarming:honeydew"
+			}]
+		}
+		{
+			x: 17.0d
+			y: 1.25d
+			id: "12BFD97A539EEC0C"
+			tasks: [{
+				id: "4F482860A632CC57"
+				type: "item"
+				item: "simplefarming:mango"
+			}]
+		}
+		{
+			x: 18.0d
+			y: 1.25d
+			id: "540098E02CC288D3"
+			tasks: [{
+				id: "30724627E60BE5BA"
+				type: "item"
+				item: "simplefarming:olives"
+			}]
+		}
+		{
+			x: 19.0d
+			y: 1.25d
+			id: "1855EBC45378DD5F"
+			tasks: [{
+				id: "65F11B18026AC499"
+				type: "item"
+				item: "simplefarming:orange"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 2.25d
+			id: "475CCBBEAE3A4585"
+			tasks: [{
+				id: "6E810B76CCEB1EDC"
+				type: "item"
+				item: "simplefarming:pear"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 2.25d
+			id: "4DF5EE47DA00B80B"
+			tasks: [{
+				id: "19CA040527767E35"
+				type: "item"
+				item: "simplefarming:plum"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 2.25d
+			id: "6FBDCE27063129C5"
+			tasks: [{
+				id: "318927D611E47155"
+				type: "item"
+				item: "simplefarming:raspberries"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 2.25d
+			id: "7496A2F97892BD96"
+			tasks: [{
+				id: "566DA4E02362478D"
+				type: "item"
+				item: "simplefarming:strawberries"
+			}]
+		}
+		{
+			x: -1.75d
+			y: 4.75d
+			id: "1B072D3775C4685F"
+			tasks: [{
+				id: "26F9479CA879182D"
+				type: "item"
+				item: "simplefarming:broccoli"
+			}]
+		}
+		{
+			x: -1.75d
+			y: 3.75d
+			id: "6EB1C48B8838D391"
+			tasks: [{
+				id: "6022DFB45E6E40F3"
+				type: "item"
+				item: "simplefarming:cassava"
+			}]
+		}
+		{
+			x: 5.25d
+			y: 4.75d
+			id: "01B9DF8B3466F931"
+			tasks: [{
+				id: "6D360526DE5E9F7B"
+				type: "item"
+				item: "simplefarming:corn"
+			}]
+		}
+		{
+			x: 19.0d
+			y: 2.25d
+			id: "612B03D590AA7AE7"
+			tasks: [{
+				id: "66EED3CB2F4F83AC"
+				type: "item"
+				item: "simplefarming:cucumber"
+			}]
+		}
+		{
+			x: 4.25d
+			y: 4.75d
+			id: "2741D644E6AF9771"
+			tasks: [{
+				id: "06D0296F4CFD81B6"
+				type: "item"
+				item: "simplefarming:eggplant"
+			}]
+		}
+		{
+			x: 20.0d
+			y: 4.25d
+			id: "4F8EFDA85FCE2108"
+			tasks: [{
+				id: "3DCE2677B6ED8FCB"
+				type: "item"
+				item: "simplefarming:habanero"
+			}]
+		}
+		{
+			x: 3.25d
+			y: 5.75d
+			id: "5AE27F42984012C2"
+			tasks: [{
+				id: "2571ADB36541F312"
+				type: "item"
+				item: "simplefarming:ginger"
+			}]
+		}
+		{
+			x: -1.75d
+			y: 5.75d
+			id: "26D411872F9E67C9"
+			tasks: [{
+				id: "3736C29C757CB249"
+				type: "item"
+				item: "simplefarming:lettuce"
+			}]
+		}
+		{
+			x: 3.25d
+			y: 4.75d
+			id: "5DFE9C3A7F089499"
+			tasks: [{
+				id: "280F4A1D36171099"
+				type: "item"
+				item: "simplefarming:onion"
+			}]
+		}
+		{
+			x: -0.75d
+			y: 3.75d
+			id: "7FD96F6D1E17B0C8"
+			tasks: [{
+				id: "2149D806877FDB63"
+				type: "item"
+				item: "simplefarming:pea_pod"
+			}]
+		}
+		{
+			x: 2.25d
+			y: 3.75d
+			id: "3BFB61DF39E12CD7"
+			tasks: [{
+				id: "784DA089EF0834C9"
+				type: "item"
+				item: "simplefarming:peanut"
+			}]
+		}
+		{
+			x: 3.25d
+			y: 3.75d
+			id: "2693F751152F50C2"
+			tasks: [{
+				id: "75FFC4522958E719"
+				type: "item"
+				item: "simplefarming:pepper"
+			}]
+		}
+		{
+			x: 4.25d
+			y: 3.75d
+			id: "71A9B33F85961B59"
+			tasks: [{
+				id: "10F9D2338E2006DE"
+				type: "item"
+				item: "simplefarming:radish"
+			}]
+		}
+		{
+			x: 5.25d
+			y: 3.75d
+			id: "0430EB0255C4D9AB"
+			tasks: [{
+				id: "11A440DE088219D0"
+				type: "item"
+				item: "simplefarming:sorghum"
+			}]
+		}
+		{
+			x: 6.25d
+			y: 4.75d
+			id: "79B8D78E6C270544"
+			tasks: [{
+				id: "6D3D713C24B419F9"
+				type: "item"
+				item: "simplefarming:soybean"
+			}]
+		}
+		{
+			x: 0.25d
+			y: 3.75d
+			id: "4B4D75B9EFE71C72"
+			tasks: [{
+				id: "35C5960667F441AA"
+				type: "item"
+				item: "simplefarming:spinach"
+			}]
+		}
+		{
+			x: 20.0d
+			y: 3.25d
+			id: "1620A65E2B1F400F"
+			tasks: [{
+				id: "23609A634C7D2DCE"
+				type: "item"
+				item: "simplefarming:squash"
+			}]
+		}
+		{
+			x: 1.25d
+			y: 3.75d
+			id: "54163367EE6C984C"
+			tasks: [{
+				id: "72553C08020A7FFA"
+				type: "item"
+				item: "simplefarming:sweet_potato"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 3.25d
+			id: "3730F282EE95FB70"
+			tasks: [{
+				id: "3B02261AE7FF2FE5"
+				type: "item"
+				item: "simplefarming:tomato"
+			}]
+		}
+		{
+			x: 6.25d
+			y: 3.75d
+			id: "2134254828EB0DA9"
+			tasks: [{
+				id: "69DBFE0350D688ED"
+				type: "item"
+				item: "simplefarming:turnip"
+			}]
+		}
+		{
+			x: 5.25d
+			y: 5.75d
+			id: "454C9C18496C5F10"
+			tasks: [{
+				id: "7FAEB513891FD4C4"
+				type: "item"
+				item: "simplefarming:yam"
+			}]
+		}
+		{
+			x: 0.25d
+			y: 5.75d
+			id: "0E2444804F82445D"
+			tasks: [{
+				id: "0B2E13E1C4C14579"
+				type: "item"
+				item: "simplefarming:zucchini"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 9.5d
+			id: "6E22DA2DC1CB0D83"
+			tasks: [{
+				id: "2BE9CDAD51FD1149"
+				type: "item"
+				item: "simplefarming:chicory_root"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 9.5d
+			id: "6950F97C2948BE6C"
+			tasks: [{
+				id: "1B57E5555F06430A"
+				type: "item"
+				item: "simplefarming:cumin_seeds"
+			}]
+		}
+		{
+			x: 18.5d
+			y: 9.5d
+			id: "46E018DE4D5F59D6"
+			tasks: [{
+				id: "143CB65219611DB4"
+				type: "item"
+				item: "simplefarming:marshmallow_root"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 8.5d
+			id: "0C44E15D6891367A"
+			tasks: [{
+				id: "32F49BF752E045D9"
+				type: "item"
+				item: "simplefarming:quinoa_seeds"
+			}]
+		}
+		{
+			x: 19.5d
+			y: 9.5d
+			id: "03ACEA0DDD37F6F4"
+			tasks: [{
+				id: "3124D1AEC844D529"
+				type: "item"
+				item: "simplefarming:sunflower_seeds"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 26.25d
+			id: "60E252B980557F23"
+			tasks: [{
+				id: "6B9DA6413D3A3434"
+				type: "item"
+				item: "simplefarming:apricot_pie"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 9.5d
+			id: "1D2872EEC3469722"
+			tasks: [{
+				id: "229FB13A988AEEEF"
+				type: "item"
+				item: "simplefarming:baked_sweet_potato"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 9.5d
+			id: "679FEDAE72C2A72D"
+			tasks: [{
+				id: "03B416A7491929E5"
+				type: "item"
+				item: "simplefarming:baked_yam"
+			}]
+		}
+		{
+			x: 18.5d
+			y: 8.5d
+			id: "02B3097DD7A5FB82"
+			tasks: [{
+				id: "0EADA7C11C55A4EF"
+				type: "item"
+				item: "simplefarming:banana_bread"
+			}]
+		}
+		{
+			x: 20.5d
+			y: 9.5d
+			id: "2390D40BB8E4D8FC"
+			tasks: [{
+				id: "42961FC305A63336"
+				type: "item"
+				item: "simplefarming:barley_bread"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 18.5d
+			id: "4EA0FDFB783D8C6E"
+			tasks: [{
+				id: "23CE5DF4AA20388A"
+				type: "item"
+				item: "simplefarming:beef_and_broccoli"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 18.5d
+			id: "130B610B3FD27C26"
+			tasks: [{
+				id: "269B51F01B59C9B0"
+				type: "item"
+				item: "simplefarming:beef_curry"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 27.25d
+			id: "13E2536720BD3354"
+			tasks: [{
+				id: "198CF192C68599E8"
+				type: "item"
+				item: "simplefarming:blackberry_pie"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 19.5d
+			id: "5D7F4CFEBBC323A8"
+			tasks: [{
+				id: "22330806F6F28F44"
+				type: "item"
+				item: "simplefarming:blt"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 21.5d
+			id: "71817D6387B04E7A"
+			tasks: [{
+				id: "2224FFA8B739FCEA"
+				type: "item"
+				item: "simplefarming:borscht"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 22.5d
+			id: "0816843A169779B2"
+			tasks: [{
+				id: "6756F3F0ADDB52E9"
+				type: "item"
+				item: "simplefarming:broccoli_cheese_soup"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 18.5d
+			id: "5A1CB963EDE3D93C"
+			tasks: [{
+				id: "4465C464AF3471A4"
+				type: "item"
+				item: "simplefarming:caesar_salad"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 29.25d
+			id: "7B65C5EE7E2C691D"
+			tasks: [{
+				id: "4336551E326F8B6C"
+				type: "item"
+				item: "simplefarming:candy"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 30.25d
+			id: "1DC085D682385CF6"
+			tasks: [{
+				id: "745CE458EA698DA1"
+				type: "item"
+				item: "simplefarming:candy_cane"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 18.5d
+			id: "3FD12DFBDD1B5F91"
+			tasks: [{
+				id: "3797FC48D51FB55E"
+				type: "item"
+				item: "simplefarming:carrot_soup"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 30.25d
+			id: "662A9290FB3EEA4F"
+			tasks: [{
+				id: "3397EDC9FE9602F5"
+				type: "item"
+				item: "simplefarming:cassava_cake"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 29.25d
+			id: "5CF99E0923A707CB"
+			tasks: [{
+				id: "1AF2AE3BE58E0803"
+				type: "item"
+				item: "simplefarming:cheese_slice"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 20.5d
+			id: "4274047F66440CD4"
+			tasks: [{
+				id: "691320BF53C74E96"
+				type: "item"
+				item: "simplefarming:cheeseburger"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 28.25d
+			id: "45201BC5DD9CE6F6"
+			tasks: [{
+				id: "451172B8294C2D12"
+				type: "item"
+				item: "simplefarming:cherry_pie"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 19.5d
+			id: "55AB0E2B707A00B4"
+			tasks: [{
+				id: "425D6C55E6D9BE8A"
+				type: "item"
+				item: "simplefarming:chicken_curry"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 20.5d
+			id: "1A609E8F404B0D92"
+			tasks: [{
+				id: "5776C063AD393B12"
+				type: "item"
+				item: "simplefarming:chicken_noodle_soup"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 21.5d
+			id: "0259A3AD7A398254"
+			tasks: [{
+				id: "0949EB163708FBFA"
+				type: "item"
+				item: "simplefarming:chicken_parmesan"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 22.5d
+			id: "3B142E0EA2EB6E9B"
+			tasks: [{
+				id: "62FCD124F80B867E"
+				type: "item"
+				item: "simplefarming:chicory_gratin"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 19.5d
+			id: "0CB1669D7D6CF44B"
+			tasks: [{
+				id: "6A27BC49304609AF"
+				type: "item"
+				item: "simplefarming:chili"
+			}]
+		}
+		{
+			x: -0.75d
+			y: 13.0d
+			dependencies: ["0510B1FAE1D8D8B7"]
+			id: "51FC0C282FC7EEDA"
+			tasks: [{
+				id: "535BD30A6AE9E290"
+				type: "item"
+				item: "simplefarming:cooked_chicken_wings"
+			}]
+		}
+		{
+			x: 7.25d
+			y: 13.0d
+			dependencies: ["01882844FBE90CB3"]
+			id: "1F60B22F091F7A1E"
+			tasks: [{
+				id: "4044D38277100BA8"
+				type: "item"
+				item: "simplefarming:cooked_horse_meat"
+			}]
+		}
+		{
+			x: -1.75d
+			y: 13.0d
+			dependencies: ["071CC17343F9539D"]
+			id: "0E1470A9527FB97E"
+			tasks: [{
+				id: "3C143E307CA1C344"
+				type: "item"
+				item: "simplefarming:cooked_sausage"
+			}]
+		}
+		{
+			x: 21.5d
+			y: 10.5d
+			id: "3957EA5F03241E1D"
+			tasks: [{
+				id: "1C4C7B55E38D981A"
+				type: "item"
+				item: "simplefarming:cornbread"
+			}]
+		}
+		{
+			x: 18.5d
+			y: 20.5d
+			id: "65EE1D664247237D"
+			tasks: [{
+				id: "3DC80F9FFC4FD7CC"
+				type: "item"
+				item: "simplefarming:corn_salad"
+			}]
+		}
+		{
+			x: 18.5d
+			y: 21.5d
+			id: "1F6F05E29F746784"
+			tasks: [{
+				id: "2B59FE22FA4C324B"
+				type: "item"
+				item: "simplefarming:cucumber_soup"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 22.5d
+			id: "4A8838AAD03F94C0"
+			tasks: [{
+				id: "1B15BDB1F34AA69C"
+				type: "item"
+				item: "simplefarming:egg_sandwich"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 21.5d
+			id: "04AA4231E5B1582D"
+			tasks: [{
+				id: "2A90AF70004FF7DE"
+				type: "item"
+				item: "simplefarming:eggplant_parmesan"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 20.5d
+			id: "645D6716A724FE52"
+			tasks: [{
+				id: "2854155A47E61175"
+				type: "item"
+				item: "simplefarming:fish_and_chips"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 21.5d
+			id: "72F93DCBCEBAF99F"
+			tasks: [{
+				id: "7D0E71D64147E9FE"
+				type: "item"
+				item: "simplefarming:fish_fillet"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 20.5d
+			id: "1CCA489973C7B4ED"
+			tasks: [{
+				id: "5B65250FF3BC8634"
+				type: "item"
+				item: "simplefarming:fish_sandwich"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 16.5d
+			dependencies: ["30FEAB446EFF72C8"]
+			id: "2D8DB8E14F64A2BE"
+			tasks: [{
+				id: "5C00FA7D19B2A62A"
+				type: "item"
+				item: "simplefarming:fried_calamari"
+			}]
+		}
+		{
+			x: 18.5d
+			y: 22.5d
+			id: "0EFE715A848093BD"
+			tasks: [{
+				id: "6C4E61A9EC5DEF8A"
+				type: "item"
+				item: "simplefarming:fried_rice"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 28.25d
+			id: "53617ECFD19E27F7"
+			tasks: [{
+				id: "70A55948488B9AE7"
+				type: "item"
+				item: "simplefarming:fruit_salad"
+			}]
+		}
+		{
+			x: 20.0d
+			y: 5.25d
+			dependencies: ["4F8EFDA85FCE2108"]
+			id: "1BB365338A46E990"
+			tasks: [{
+				id: "2C9603B4B4C07D85"
+				type: "item"
+				item: "simplefarming:golden_habanero"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 22.5d
+			id: "484EC972CCE7E250"
+			tasks: [{
+				id: "2A57B83D13F33097"
+				type: "item"
+				item: "simplefarming:hamburger"
+			}]
+		}
+		{
+			x: 18.5d
+			y: 19.5d
+			id: "58194DFF5F912C36"
+			tasks: [{
+				id: "78695625B7481E35"
+				type: "item"
+				item: "simplefarming:hotdog"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 26.25d
+			id: "0BB05A43AEC44BB5"
+			tasks: [{
+				id: "54B5B4503C224207"
+				type: "item"
+				item: "simplefarming:ice_cream_sundae"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 19.5d
+			id: "64915A04A92410B9"
+			tasks: [{
+				id: "551AC439D251B97B"
+				type: "item"
+				item: "simplefarming:italian_beef"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 27.25d
+			id: "391369F8BF766749"
+			tasks: [{
+				id: "74BF432696CF1635"
+				type: "item"
+				item: "simplefarming:jaffa_cake"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 18.5d
+			id: "0AFA1B6E0E379D4C"
+			tasks: [{
+				id: "0CAA4ABD1321682C"
+				type: "item"
+				item: "simplefarming:lasagna"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 19.5d
+			id: "133598DB2F48DE41"
+			tasks: [{
+				id: "22149A333BF2EF2D"
+				type: "item"
+				item: "simplefarming:mac_and_cheese"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 29.25d
+			id: "41F68BC0B1AF4A57"
+			tasks: [{
+				id: "389D9ACFFE6BE512"
+				type: "item"
+				item: "simplefarming:marshmallow"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 21.5d
+			id: "0B93D6EFA7D7D6C8"
+			tasks: [{
+				id: "64BA68DDE4F41326"
+				type: "item"
+				item: "simplefarming:mushroom_barley"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 22.5d
+			id: "3762798E17834F94"
+			tasks: [{
+				id: "34C6CFA7241301EB"
+				type: "item"
+				item: "simplefarming:mutton_curry"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 20.5d
+			id: "45E6BE3B7D94B6A1"
+			tasks: [{
+				id: "1EB44DA6FF561EFD"
+				type: "item"
+				item: "simplefarming:oatmeal"
+			}]
+		}
+		{
+			x: 20.5d
+			y: 10.5d
+			id: "1CC13E7102AF4F93"
+			tasks: [{
+				id: "2ADE1CFA70B95B11"
+				type: "item"
+				item: "simplefarming:oat_bread"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 19.5d
+			id: "42BB6062ECFED0D2"
+			tasks: [{
+				id: "5E3229799B75D44F"
+				type: "item"
+				item: "simplefarming:olive_tomato_salad"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 20.5d
+			id: "59C7AD9F04B74904"
+			tasks: [{
+				id: "0E679BE7A16F6CB5"
+				type: "item"
+				item: "simplefarming:onion_soup"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 21.5d
+			id: "5F60021F4F93838C"
+			tasks: [{
+				id: "51088BE17D13A280"
+				type: "item"
+				item: "simplefarming:pad_thai"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 27.25d
+			id: "278834CEAD0B5F07"
+			tasks: [{
+				id: "31F7B9059DA34A00"
+				type: "item"
+				item: "simplefarming:pancakes"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 22.5d
+			id: "5D20AE865917C91D"
+			tasks: [{
+				id: "25785CBD2534709D"
+				type: "item"
+				item: "simplefarming:pasta"
+			}]
+		}
+		{
+			x: 19.5d
+			y: 18.5d
+			id: "03FA8134D40DF738"
+			tasks: [{
+				id: "33BFC45691196367"
+				type: "item"
+				item: "simplefarming:pbj"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 18.5d
+			id: "432FFC3DC65FDEF7"
+			tasks: [{
+				id: "70E7C66E296AEE8E"
+				type: "item"
+				item: "simplefarming:pea_soup"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 26.25d
+			id: "00094ACE1FC5AAD6"
+			tasks: [{
+				id: "159BABD53F804024"
+				type: "item"
+				item: "simplefarming:peanut_butter_cookie"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 30.25d
+			id: "2D09669150C3988B"
+			tasks: [{
+				id: "3B72AF48ED4B85F3"
+				type: "item"
+				item: "simplefarming:peanut_butter_pie"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 30.25d
+			id: "0E7F070A23575FA7"
+			tasks: [{
+				id: "2A807F4C97513DC0"
+				type: "item"
+				item: "simplefarming:pear_pie"
+			}]
+		}
+		{
+			x: 6.25d
+			y: 5.75d
+			id: "5EB662B4DB36BC2C"
+			tasks: [{
+				id: "780AD826CACBB9BD"
+				type: "item"
+				item: "simplefarming:pickle"
+			}]
+		}
+		{
+			x: 3.25d
+			y: 7.75d
+			dependencies: ["7D0F54D8499F0F3D"]
+			id: "4668C4DC024DAFEE"
+			tasks: [{
+				id: "6E815AB4E45E9C7A"
+				type: "item"
+				item: "simplefarming:pickled_beetroot"
+			}]
+		}
+		{
+			x: 19.5d
+			y: 21.5d
+			id: "54A9F15D823A4757"
+			tasks: [{
+				id: "1F51B27614154D29"
+				type: "item"
+				item: "simplefarming:pizza"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 29.25d
+			id: "28023D4C973E642D"
+			tasks: [{
+				id: "2236EA08D148ABF1"
+				type: "item"
+				item: "simplefarming:plum_pie"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 28.25d
+			id: "4D53FDEB84E07454"
+			tasks: [{
+				id: "3CF1B8633E42459B"
+				type: "item"
+				item: "simplefarming:popcorn"
+			}]
+		}
+		{
+			x: 19.5d
+			y: 20.5d
+			id: "5BACD7C3D29AD20A"
+			tasks: [{
+				id: "643D83E18F9819EC"
+				type: "item"
+				item: "simplefarming:pork_curry"
+			}]
+		}
+		{
+			x: 19.5d
+			y: 19.5d
+			id: "11976D68E4E5CFDB"
+			tasks: [{
+				id: "1D0F8C476E1A7AB8"
+				type: "item"
+				item: "simplefarming:potato_knish"
+			}]
+		}
+		{
+			x: 18.5d
+			y: 18.5d
+			id: "1B26ED59736EF9BC"
+			tasks: [{
+				id: "7FDF4275402A54D2"
+				type: "item"
+				item: "simplefarming:pulled_pork_sandwich"
+			}]
+		}
+		{
+			x: 19.5d
+			y: 22.5d
+			id: "3245F2384EA70610"
+			tasks: [{
+				id: "34DFEDE1F6116F9D"
+				type: "item"
+				item: "simplefarming:pumpkin_soup"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 18.5d
+			id: "3D2C0B6031667C80"
+			tasks: [{
+				id: "6973EA49E75EA83C"
+				type: "item"
+				item: "simplefarming:quinoa_salad"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 19.5d
+			id: "6DE9D1D0C9D9B414"
+			tasks: [{
+				id: "659572A9E5DF4683"
+				type: "item"
+				item: "simplefarming:radish_soup"
+			}]
+		}
+		{
+			x: 20.0d
+			y: 2.25d
+			id: "7ED26A90F80E1E3F"
+			tasks: [{
+				id: "3BCDF134E4DEB3C5"
+				type: "item"
+				item: "simplefarming:raisins"
+			}]
+		}
+		{
+			x: -0.75d
+			y: 12.0d
+			id: "0510B1FAE1D8D8B7"
+			tasks: [{
+				id: "3E92DBC5B2846A5F"
+				type: "item"
+				item: "simplefarming:raw_chicken_wings"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 28.25d
+			id: "76DDE5CD824BEC34"
+			tasks: [{
+				id: "64765F4766852EC9"
+				type: "item"
+				item: "simplefarming:raspberry_pie"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 15.5d
+			id: "30FEAB446EFF72C8"
+			tasks: [{
+				id: "546B88EA193626D6"
+				type: "item"
+				item: "simplefarming:raw_calamari"
+			}]
+		}
+		{
+			x: 7.25d
+			y: 12.0d
+			id: "01882844FBE90CB3"
+			tasks: [{
+				id: "6ED508C246680D3E"
+				type: "item"
+				item: "simplefarming:raw_horse_meat"
+			}]
+		}
+		{
+			x: -1.75d
+			y: 12.0d
+			id: "071CC17343F9539D"
+			tasks: [{
+				id: "3134D7E41987A9B8"
+				type: "item"
+				item: "simplefarming:raw_sausage"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 20.5d
+			id: "056E1FCEDF088014"
+			tasks: [{
+				id: "15AD51DA77FC0E2F"
+				type: "item"
+				item: "simplefarming:rice_bowl"
+			}]
+		}
+		{
+			x: 20.5d
+			y: 11.5d
+			id: "5F8C3713691649BA"
+			tasks: [{
+				id: "6B04059158E7A9C6"
+				type: "item"
+				item: "simplefarming:rice_bread"
+			}]
+		}
+		{
+			x: 19.5d
+			y: 11.5d
+			id: "6B851A1A17A23664"
+			tasks: [{
+				id: "03B977F4C55C5C7B"
+				type: "item"
+				item: "simplefarming:rye_bread"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 21.5d
+			id: "214AF388018326E3"
+			tasks: [{
+				id: "190BB1FD1E7CADF1"
+				type: "item"
+				item: "simplefarming:salad"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 22.5d
+			id: "3A393B3E777D8E5E"
+			tasks: [{
+				id: "345CA10FF426B7EE"
+				type: "item"
+				item: "simplefarming:sandwich"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 23.5d
+			id: "0FD6E4B1545E7845"
+			tasks: [{
+				id: "4BB3D72A98873CDF"
+				type: "item"
+				item: "simplefarming:sausage_barley_soup"
+			}]
+		}
+		{
+			x: 19.5d
+			y: 10.5d
+			id: "6A6390B1E5E5EB73"
+			tasks: [{
+				id: "19639BE960E72421"
+				type: "item"
+				item: "simplefarming:sorghum_bread"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 23.5d
+			id: "22C614FF8C2931B9"
+			tasks: [{
+				id: "13A61E693AA5A04B"
+				type: "item"
+				item: "simplefarming:sorghum_porridge"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 23.5d
+			id: "33FA14529EBE125B"
+			tasks: [{
+				id: "4A529F9DDD5CC149"
+				type: "item"
+				item: "simplefarming:spaghetti"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 22.5d
+			id: "281C2D7172865B16"
+			tasks: [{
+				id: "0AA1C1872B3014BF"
+				type: "item"
+				item: "simplefarming:spinach_mushroom_quiche"
+			}]
+		}
+		{
+			x: 18.5d
+			y: 23.5d
+			id: "570FC4CAF993C699"
+			tasks: [{
+				id: "08BCD62A165113B2"
+				type: "item"
+				item: "simplefarming:spinach_quinoa_quiche"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 23.5d
+			id: "253955A17E55C900"
+			tasks: [{
+				id: "3A07990C0CAFE4F1"
+				type: "item"
+				item: "simplefarming:squash_casserole"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 23.5d
+			id: "095B0DDAC6FAD205"
+			tasks: [{
+				id: "041CE5B82D6DDC07"
+				type: "item"
+				item: "simplefarming:squash_soup"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 23.5d
+			id: "3BD972123263BDD2"
+			tasks: [{
+				id: "730FF93A9EAC6436"
+				type: "item"
+				item: "simplefarming:squid_ink_pasta"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 28.25d
+			id: "3B8B4F4672985B99"
+			tasks: [{
+				id: "5E8A1DF1E1D72BFA"
+				type: "item"
+				item: "simplefarming:strawberry_pie"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 23.5d
+			id: "77409F904859C426"
+			tasks: [{
+				id: "4B80E2AB0578DCC7"
+				type: "item"
+				item: "simplefarming:stuffed_corn_zucchini"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 23.5d
+			id: "7EADF4F88F319E90"
+			tasks: [{
+				id: "29673410256FF20A"
+				type: "item"
+				item: "simplefarming:sushi"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 29.25d
+			id: "1D94DF82EF6E7B4B"
+			tasks: [{
+				id: "425B8443CA350ADE"
+				type: "item"
+				item: "simplefarming:sweet_potato_quinoa_cakes"
+			}]
+		}
+		{
+			x: 19.5d
+			y: 23.5d
+			id: "2BCA254C56393721"
+			tasks: [{
+				id: "1B4301F1D4835C7E"
+				type: "item"
+				item: "simplefarming:tofu"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 23.5d
+			id: "47B7ABB0749DE3A7"
+			tasks: [{
+				id: "121A3A22E322A7C6"
+				type: "item"
+				item: "simplefarming:tofu_scramble"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 27.25d
+			id: "4817D48E7CA99B2B"
+			tasks: [{
+				id: "7930E0D7F73CF523"
+				type: "item"
+				item: "simplefarming:trail_mix"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 5.25d
+			dependencies: ["0142524635201B65"]
+			id: "4F54F7B4B379BE14"
+			tasks: [{
+				id: "5D7AD1B6720665CD"
+				type: "item"
+				item: "simplefarming:tomato_soup"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 23.5d
+			id: "6B7AE5B64DE60605"
+			tasks: [{
+				id: "2D3F1092F228A33B"
+				type: "item"
+				item: "simplefarming:turnip_beetroot_gratin"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 23.5d
+			id: "2A8FC8E8F93D3408"
+			tasks: [{
+				id: "3FA6F214B2914472"
+				type: "item"
+				item: "simplefarming:vegetable_curry"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 30.25d
+			id: "19195390C23347DC"
+			tasks: [{
+				id: "6CD2D3454831AEAB"
+				type: "item"
+				item: "simplefarming:vegetable_medley"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 23.5d
+			id: "095154DEDC4150B0"
+			tasks: [{
+				id: "487A3B61B09A45DB"
+				type: "item"
+				item: "simplefarming:veggie_burger"
+			}]
+		}
+		{
+			x: 21.5d
+			y: 9.5d
+			id: "333A07818F2D1F42"
+			tasks: [{
+				id: "646F2A655A5DD416"
+				type: "item"
+				item: "simplefarming:zucchini_bread"
 			}]
 		}
 	]

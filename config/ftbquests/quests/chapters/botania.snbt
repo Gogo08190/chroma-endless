@@ -1,7 +1,7 @@
 {
 	id: "31294A053EAA9FF3"
 	group: "34085A64296DE6C7"
-	order_index: 13
+	order_index: 11
 	filename: "botania"
 	title: "Botania"
 	icon: {
@@ -1519,9 +1519,10 @@
 			}]
 		}
 		{
-			x: 19.5d
-			y: -5.75d
-			dependencies: ["42856B5A8C028800"]
+			x: 18.25d
+			y: -9.5d
+			description: [""]
+			dependencies: ["68A769C216C2280F"]
 			id: "7E223B6D17137FBB"
 			tasks: [{
 				id: "77E1317ABB85AF7D"
@@ -1530,9 +1531,9 @@
 			}]
 		}
 		{
-			x: 18.5d
+			x: 18.0d
 			y: -5.75d
-			dependencies: ["42856B5A8C028800"]
+			dependencies: ["68A769C216C2280F"]
 			id: "2CDBBA552E150934"
 			tasks: [{
 				id: "23E2AC1D4E3CE445"
@@ -1541,9 +1542,12 @@
 			}]
 		}
 		{
-			x: 18.5d
-			y: -6.75d
-			dependencies: ["42856B5A8C028800"]
+			x: 17.0d
+			y: -9.0d
+			dependencies: [
+				"42856B5A8C028800"
+				"68A769C216C2280F"
+			]
 			id: "29A5558CA25B41E3"
 			tasks: [{
 				id: "2DCFA9483CC77364"
@@ -1552,8 +1556,8 @@
 			}]
 		}
 		{
-			x: 19.5d
-			y: -6.75d
+			x: 17.0d
+			y: -7.75d
 			dependencies: ["42856B5A8C028800"]
 			id: "68A769C216C2280F"
 			tasks: [{
@@ -1563,9 +1567,9 @@
 			}]
 		}
 		{
-			x: 20.5d
-			y: -6.75d
-			dependencies: ["42856B5A8C028800"]
+			x: 19.0d
+			y: -7.75d
+			dependencies: ["68A769C216C2280F"]
 			id: "372795CDA256037C"
 			tasks: [{
 				id: "44DC5EF7ED3FEA43"
@@ -1574,9 +1578,9 @@
 			}]
 		}
 		{
-			x: 21.5d
-			y: -6.75d
-			dependencies: ["42856B5A8C028800"]
+			x: 19.0d
+			y: -8.75d
+			dependencies: ["68A769C216C2280F"]
 			id: "729FC7F4D0CEE17D"
 			tasks: [{
 				id: "0430C189C27F2D2B"
@@ -1585,9 +1589,9 @@
 			}]
 		}
 		{
-			x: 20.5d
-			y: -5.75d
-			dependencies: ["42856B5A8C028800"]
+			x: 18.75d
+			y: -6.5d
+			dependencies: ["68A769C216C2280F"]
 			id: "46EEDB03B0987EF9"
 			tasks: [{
 				id: "7FDB14BE2AD3F763"
@@ -1597,7 +1601,7 @@
 		}
 		{
 			x: 17.0d
-			y: -6.75d
+			y: -5.75d
 			description: [
 				"The &aCorporea&r system uses the energy of the &aEnd&r, and the void between worlds, to transport items from point A to point B instantly without intervening blocks.The system, at its core, uses variant &5Sparks&r (called &5Corporea Sparks&r) that transport items instead of &aMana&r."
 				""
@@ -1619,6 +1623,35 @@
 				id: "3C5A2C5C7C3D3787"
 				type: "checkmark"
 				title: "Basics of Corporea"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -4.0d
+			dependencies: [
+				"10DEB660ACF55813"
+				"7FC982064D3D7009"
+			]
+			id: "3F722A5856C63EAD"
+			tasks: [{
+				id: "597C13358CE59086"
+				type: "item"
+				item: {
+					id: "botania:black_hole_talisman"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: -5.5d
+			dependencies: ["2BA269B9CA2B23C4"]
+			id: "7FC982064D3D7009"
+			tasks: [{
+				id: "3807D60BAEB0F04C"
+				type: "item"
+				item: "botania:ender_air_bottle"
 			}]
 		}
 	]

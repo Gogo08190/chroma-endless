@@ -1,9 +1,9 @@
 {
 	id: "65EFB5CE6E7BD3EB"
-	group: "34085A64296DE6C7"
-	order_index: 1
+	group: "248890104A858230"
+	order_index: 2
 	filename: "mob_farm"
-	title: "Mob farm"
+	title: "Chapter 3"
 	icon: "mob_grinding_utils:saw"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -744,6 +744,253 @@
 				id: "42B2C5576BF69EFA"
 				type: "item"
 				item: "darkutils:ender_hopper"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 13.5d
+			id: "263FA48FAA595AC0"
+			tasks: [{
+				id: "693A21759137F72D"
+				type: "item"
+				item: "apotheosis:null_book"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 12.5d
+			id: "16288F5BAABE8D40"
+			tasks: [{
+				id: "7AF7EB54D8D49136"
+				type: "item"
+				item: "apotheosis:armor_head_book"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 12.5d
+			id: "071EF3E64216C428"
+			tasks: [{
+				id: "203D24667FCFA873"
+				type: "item"
+				item: "apotheosis:armor_chest_book"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 12.5d
+			id: "76EB7B22AEB495C2"
+			tasks: [{
+				id: "1C45FB6D94A1E34A"
+				type: "item"
+				item: "apotheosis:armor_legs_book"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 12.5d
+			id: "7BBD6DA9195DA42B"
+			tasks: [{
+				id: "71F7B77D1DF10C69"
+				type: "item"
+				item: "apotheosis:armor_feet_book"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 13.5d
+			id: "58673AC15F0D23B3"
+			tasks: [{
+				id: "127E347A699E04BC"
+				type: "item"
+				item: "apotheosis:weapon_book"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 13.5d
+			id: "06FA10529FE77E9B"
+			tasks: [{
+				id: "60518FA1187159A6"
+				type: "item"
+				item: "apotheosis:digger_book"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 13.5d
+			id: "2F6C130D6361CA26"
+			tasks: [{
+				id: "4A01111934261DFB"
+				type: "item"
+				item: "apotheosis:fishing_rod_book"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 13.5d
+			id: "42A8931F8E4E96CE"
+			tasks: [{
+				id: "2F3C9CE0B56A267F"
+				type: "item"
+				item: "apotheosis:bow_book"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 12.5d
+			id: "7622E7134BBC817F"
+			tasks: [{
+				id: "2DD14A4ECFA1B46A"
+				type: "item"
+				item: "apotheosis:scrap_tome"
+			}]
+		}
+		{
+			x: 7.75d
+			y: 12.5d
+			dependencies: ["24966C6B5CAE46EC"]
+			id: "7FE4790AC99A14C9"
+			tasks: [{
+				id: "012BB501C5F132AB"
+				type: "item"
+				item: "apotheosis:enchantment_library"
+			}]
+		}
+		{
+			x: 7.75d
+			y: 13.5d
+			dependencies: [
+				"5E9AD8143A6AF837"
+				"7FE4790AC99A14C9"
+			]
+			id: "6FE324F12D9A107F"
+			tasks: [{
+				id: "3DBE6FB14E14503C"
+				type: "item"
+				item: "apotheosis:ender_library"
+			}]
+		}
+		{
+			x: 8.75d
+			y: 12.5d
+			id: "5C2FDE60CC4D356C"
+			tasks: [{
+				id: "0E93B95F082758BB"
+				type: "item"
+				item: "apotheosis:sightshelf"
+			}]
+		}
+		{
+			x: 8.75d
+			y: 13.5d
+			id: "5B777FA409FB6BC8"
+			tasks: [{
+				id: "7B6D63DE0BB43607"
+				type: "item"
+				item: "apotheosis:sightshelf_t2"
+			}]
+		}
+		{
+			x: 7.75d
+			y: 15.0d
+			id: "5E9AD8143A6AF837"
+			tasks: [
+				{
+					id: "1759A9C5E89A290C"
+					type: "item"
+					item: "apotheosis:melonshelf"
+					count: 4L
+				}
+				{
+					id: "3658F5CF8507E09F"
+					type: "item"
+					item: "apotheosis:pearl_endshelf"
+					count: 14L
+				}
+				{
+					id: "7B223E7F32D9EB9E"
+					type: "item"
+					item: "apotheosis:draconic_endshelf"
+					count: 3L
+				}
+			]
+		}
+		{
+			x: 7.75d
+			y: 11.0d
+			id: "24966C6B5CAE46EC"
+			tasks: [
+				{
+					id: "2BBEBE1EF4B6F3D9"
+					type: "item"
+					title: "10x Bookshelves"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:bookshelves"
+						}
+					}
+					count: 10L
+				}
+				{
+					id: "51A19AFF6BBE57C0"
+					type: "item"
+					item: "apotheosis:hellshelf"
+					count: 10L
+				}
+			]
+		}
+		{
+			title: "Only The Best"
+			x: 10.25d
+			y: 13.0d
+			description: ["{image:chroma:textures/quests/enchant_full.png width:100 height:100 align:1 fit:true}"]
+			id: "63965C431E5ACF3D"
+			tasks: [
+				{
+					id: "1583BC1F3BF0C371"
+					type: "item"
+					item: "apotheosis:pearl_endshelf"
+					count: 14L
+				}
+				{
+					id: "6C22BC5D04BFE019"
+					type: "item"
+					item: "apotheosis:draconic_endshelf"
+					count: 3L
+				}
+				{
+					id: "1DDA3B8EF824048C"
+					type: "item"
+					item: "apotheosis:rectifier_t3"
+					count: 5L
+				}
+				{
+					id: "5734D4C22D330173"
+					type: "item"
+					item: "apotheosis:sightshelf_t2"
+					count: 3L
+				}
+				{
+					id: "6E9F9DAD9935BC4F"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+					count: 2L
+				}
+			]
+		}
+		{
+			x: 11.25d
+			y: 13.0d
+			dependencies: ["63965C431E5ACF3D"]
+			id: "5706E874FFB76723"
+			tasks: [{
+				id: "2B3A4EB279B9F7E5"
+				type: "advancement"
+				advancement: "apotheosis:enchanting/max_rectified"
+				criterion: ""
 			}]
 		}
 	]
