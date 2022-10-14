@@ -398,19 +398,6 @@
 			}]
 		}
 		{
-			x: -10.75d
-			y: 23.25d
-			description: ["Craft &#B87333Copper Sheetmetal&r with &oCreate&r &lCompacting&r."]
-			dependencies: ["410DE957C60A9106"]
-			id: "2F571C765B55CFEE"
-			tasks: [{
-				id: "69B8835302C8B686"
-				type: "item"
-				title: "&#B87333Copper Sheetmetal&r"
-				item: "immersiveengineering:sheetmetal_copper"
-			}]
-		}
-		{
 			x: -11.0d
 			y: 12.25d
 			description: ["Craft &#F2E279Electrum Sheetmetal&r with &oCreate&r's &lCompacting&r."]
@@ -2696,24 +2683,6 @@
 			}]
 		}
 		{
-			title: "&#B87333Copper Plates&r"
-			x: -8.75d
-			y: 23.25d
-			description: ["Craft &#B87333Copper Plates&r with &oCreate&r &lPressing&r or &oTinkers' Construct&r &lCasting&r."]
-			hide_dependency_lines: true
-			dependencies: [
-				"34AB0AFA85B55B89"
-				"184D1F6FEC794C70"
-			]
-			id: "410DE957C60A9106"
-			tasks: [{
-				id: "2F53134EAB50A18F"
-				type: "item"
-				title: "&#B87333Copper Plate&r"
-				item: "emendatusenigmatica:copper_plate"
-			}]
-		}
-		{
 			title: "&#F2E279Electrum Plates&r"
 			x: -9.0d
 			y: 12.25d
@@ -2846,10 +2815,7 @@
 			title: "&#B87333Copper Wires&r"
 			x: -6.75d
 			y: 22.25d
-			dependencies: [
-				"410DE957C60A9106"
-				"3230CD23CFDAB598"
-			]
+			dependencies: ["3230CD23CFDAB598"]
 			id: "28352D32B8969CAE"
 			tasks: [{
 				id: "5F71A91A4464BCEB"
@@ -4731,7 +4697,6 @@
 			dependencies: [
 				"4D8942C7B8E9CB37"
 				"0075822DF2359FE4"
-				"2F53134EAB50A18F"
 			]
 			id: "0D3B58EA40DC53A8"
 			tasks: [{
@@ -4833,7 +4798,6 @@
 			hide_dependency_lines: true
 			dependencies: [
 				"5E6932FE693B1BAA"
-				"2F571C765B55CFEE"
 				"410455305B56D52A"
 			]
 			id: "30598236CEA8E594"

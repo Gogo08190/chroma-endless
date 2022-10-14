@@ -1,15 +1,15 @@
 {
 	id: "33467FFDAA62F581"
-	group: ""
-	order_index: 13
+	group: "44A22EED2BE11886"
+	order_index: 0
 	filename: "envirotech"
-	title: "EnviroTech"
+	title: "Chapter 3 : EnviroTech"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: 6.25d
-			y: -10.75d
+			x: -13.25d
+			y: 18.0d
 			width: 10.0d
 			height: 12.0d
 			rotation: 0.0d
@@ -20,8 +20,8 @@
 			corner: false
 		}
 		{
-			x: 19.0d
-			y: -10.75d
+			x: -21.75d
+			y: 18.0d
 			width: 10.0d
 			height: 12.0d
 			rotation: 0.0d
@@ -32,8 +32,8 @@
 			corner: false
 		}
 		{
-			x: 30.0d
-			y: -10.5d
+			x: -4.75d
+			y: 18.0d
 			width: 10.0d
 			height: 12.0d
 			rotation: 0.0d
@@ -46,8 +46,8 @@
 	]
 	quests: [
 		{
-			x: -6.0d
-			y: -2.0d
+			x: -12.25d
+			y: -11.0d
 			shape: "octagon"
 			dependencies: [
 				"6FC22D028042D507"
@@ -64,8 +64,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -3.5d
+			x: -13.25d
+			y: -12.25d
 			dependencies: [
 				"6C056E8AF56BEE37"
 				"4F496F328C03DC99"
@@ -79,8 +79,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -3.5d
+			x: -12.25d
+			y: -13.5d
 			dependencies: ["761BAE3E76AB71A3"]
 			id: "6C056E8AF56BEE37"
 			tasks: [{
@@ -90,8 +90,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -3.5d
+			x: -13.25d
+			y: -13.5d
 			dependencies: [
 				"6C1CDB642DADEA2F"
 				"54DC8317D4B7A510"
@@ -105,8 +105,8 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: -3.5d
+			x: -14.25d
+			y: -13.5d
 			dependencies: [
 				"6C1CDB642DADEA2F"
 				"24B4AB922FCFA956"
@@ -119,8 +119,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -1.0d
+			x: -13.25d
+			y: -10.0d
 			dependencies: [
 				"7D50FDFB133F3C3B"
 				"30115FB202198BA8"
@@ -135,8 +135,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -2.0d
+			x: -13.25d
+			y: -11.0d
 			shape: "octagon"
 			dependencies: [
 				"7D50FDFB133F3C3B"
@@ -153,8 +153,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -3.5d
+			x: -15.25d
+			y: -11.0d
 			dependencies: [
 				"6289C8AE15A4BF73"
 				"1FDDA157DFAF2A7F"
@@ -167,8 +167,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -3.5d
+			x: -14.25d
+			y: -11.0d
 			dependencies: ["6FC22D028042D507"]
 			id: "64293168CA145116"
 			tasks: [{
@@ -178,8 +178,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -2.0d
+			x: -11.0d
+			y: -11.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"6C056E8AF56BEE37"
@@ -201,8 +201,8 @@
 			}]
 		}
 		{
-			x: -8.25d
-			y: 0.5d
+			x: -14.5d
+			y: -8.5d
 			subtitle: "Chunks for days "
 			description: ["The Chunk Miner is like its name implies, a void miner that creates chunks from emandatus. It can be useful if you want to do some automations with those or to have ressources."]
 			dependencies: ["4A34BD6688EE9DA1"]
@@ -224,8 +224,8 @@
 			}]
 		}
 		{
-			x: -5.75d
-			y: 0.5d
+			x: -12.0d
+			y: -8.5d
 			subtitle: "Light itself isn't safe"
 			description: ["The Black Hole Harvester on the other hand is a very special miner, harvesting lost items from a black hole (In The End) or from beneath bedrock itself (In The Overworld). You can expect to find very interesting items, just know that each tier makes the miner more powerful, harvesting items more and more close to the heart of the black hole (Every item you can get with this miner is present in the quests tied to each tier needed to obtain it)."]
 			dependencies: ["4A34BD6688EE9DA1"]
@@ -247,8 +247,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: 0.5d
+			x: -13.25d
+			y: -8.5d
 			description: ["This pack adds custom made environmental tech miners programs: the Chunk Miner and the Black Hole Harvester."]
 			dependencies: ["410B9715305CEB04"]
 			id: "4A34BD6688EE9DA1"
@@ -259,8 +259,9 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -4.75d
+			x: -23.5d
+			y: 5.25d
+			shape: "rsquare"
 			description: ["{image:chroma:textures/quests/et_tier1.png width:150 height:100 align:1}"]
 			id: "2530752B6D0A80C3"
 			tasks: [{
@@ -270,8 +271,9 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -4.75d
+			x: -18.0d
+			y: 5.25d
+			shape: "rsquare"
 			id: "4064A650842130A9"
 			tasks: [{
 				id: "7AFDB5E9CE528821"
@@ -280,8 +282,9 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -4.75d
+			x: -12.5d
+			y: 5.25d
+			shape: "rsquare"
 			id: "3F4C7780DB78732F"
 			tasks: [{
 				id: "018B8BE56F59D88C"
@@ -290,8 +293,9 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -4.75d
+			x: -7.0d
+			y: 5.25d
+			shape: "rsquare"
 			id: "0FB1E08909378867"
 			tasks: [{
 				id: "6E2AA271F21BE5B0"
@@ -300,8 +304,9 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -4.75d
+			x: -1.5d
+			y: 5.25d
+			shape: "rsquare"
 			id: "51A865804BE34E1F"
 			tasks: [{
 				id: "3C30F1C6C88F7893"
@@ -310,8 +315,9 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -4.75d
+			x: 4.0d
+			y: 5.25d
+			shape: "rsquare"
 			id: "6D5FA44C1427C6C0"
 			tasks: [{
 				id: "5EDDDED1C1BA28BB"
@@ -320,8 +326,9 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: -4.75d
+			x: 9.5d
+			y: 5.25d
+			shape: "rsquare"
 			id: "0264AA0CFBD9FC84"
 			tasks: [{
 				id: "4530F1A4FFBBF0EB"
@@ -330,8 +337,9 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: -4.75d
+			x: 15.0d
+			y: 5.25d
+			shape: "rsquare"
 			id: "2FAF18A1E67E08F4"
 			tasks: [{
 				id: "5A78EE8FF8873577"
@@ -340,8 +348,9 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -3.75d
+			x: -22.5d
+			y: 5.25d
+			shape: "rsquare"
 			id: "14697C237BED1D6D"
 			tasks: [{
 				id: "403FE572D2744BB0"
@@ -350,8 +359,9 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -3.75d
+			x: -17.0d
+			y: 5.25d
+			shape: "rsquare"
 			id: "37401A14AE5E099A"
 			tasks: [{
 				id: "4946ADAA61533147"
@@ -360,8 +370,9 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -3.75d
+			x: -11.5d
+			y: 5.25d
+			shape: "rsquare"
 			id: "00B972AFE900CE93"
 			tasks: [{
 				id: "3A72AF3BECFED12B"
@@ -370,8 +381,9 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -3.75d
+			x: -0.5d
+			y: 5.25d
+			shape: "rsquare"
 			id: "6B57359F34C8D320"
 			tasks: [{
 				id: "1B499FA6E1EB75A4"
@@ -380,8 +392,9 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -3.75d
+			x: -6.0d
+			y: 5.25d
+			shape: "rsquare"
 			id: "464504C4B92354FF"
 			tasks: [{
 				id: "05E387C0FB46EEFC"
@@ -390,8 +403,9 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -3.75d
+			x: 5.0d
+			y: 5.25d
+			shape: "rsquare"
 			id: "09284E0C45B88801"
 			tasks: [{
 				id: "0BF9CB4E9704F8E9"
@@ -400,8 +414,9 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: -3.75d
+			x: 10.5d
+			y: 5.25d
+			shape: "rsquare"
 			id: "6CB95C9DD0C21CFC"
 			tasks: [{
 				id: "2C76719A791AF53F"
@@ -410,18 +425,9 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: -3.75d
-			id: "34FD3EE5244B1AC6"
-			tasks: [{
-				id: "7109948555A57E5C"
-				type: "item"
-				item: "enviroenergy:nanorite_solar_ccu"
-			}]
-		}
-		{
-			x: 2.5d
-			y: -0.75d
+			x: -21.5d
+			y: 5.25d
+			shape: "rsquare"
 			id: "1AB86F4EFC6EA106"
 			tasks: [{
 				id: "3F99756F3F6AB9C8"
@@ -430,8 +436,9 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -0.75d
+			x: -16.0d
+			y: 5.25d
+			shape: "rsquare"
 			id: "399DB7EF332FC382"
 			tasks: [{
 				id: "1A91C3CA169FC7AF"
@@ -440,8 +447,9 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -0.75d
+			x: -10.5d
+			y: 5.25d
+			shape: "rsquare"
 			id: "71272D5AC84F251B"
 			tasks: [{
 				id: "2AC57E86C9FF7577"
@@ -450,8 +458,9 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -0.75d
+			x: -5.0d
+			y: 5.25d
+			shape: "rsquare"
 			id: "6F8708AB223DA553"
 			tasks: [{
 				id: "59190246642B897F"
@@ -460,8 +469,9 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -0.75d
+			x: 0.5d
+			y: 5.25d
+			shape: "rsquare"
 			id: "037942D65088F58E"
 			tasks: [{
 				id: "1EF40701D39C81D8"
@@ -470,8 +480,9 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -0.75d
+			x: 6.0d
+			y: 5.25d
+			shape: "rsquare"
 			id: "63FE242A34D65C1A"
 			tasks: [{
 				id: "54295574DEE26224"
@@ -480,8 +491,9 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: -0.75d
+			x: 11.5d
+			y: 5.25d
+			shape: "rsquare"
 			id: "04173DEAEB7824A2"
 			tasks: [{
 				id: "121903D4418831F6"
@@ -490,8 +502,9 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: -0.75d
+			x: 17.0d
+			y: 5.25d
+			shape: "rsquare"
 			id: "4BE3E2E7F01168F2"
 			tasks: [{
 				id: "2F36B26CFE74FC4A"
@@ -500,8 +513,9 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -1.75d
+			x: -22.5d
+			y: 7.25d
+			shape: "rsquare"
 			dependencies: [
 				"3B142D2ED1A34A2F"
 				"3A8A888E56068BDE"
@@ -516,8 +530,9 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -1.75d
+			x: -17.0d
+			y: 7.25d
+			shape: "rsquare"
 			dependencies: [
 				"3B142D2ED1A34A2F"
 				"628286F1A53404BC"
@@ -532,8 +547,9 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -1.75d
+			x: -11.5d
+			y: 7.25d
+			shape: "rsquare"
 			dependencies: [
 				"3B142D2ED1A34A2F"
 				"198B71976F5199B9"
@@ -548,8 +564,9 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -1.75d
+			x: -6.0d
+			y: 7.25d
+			shape: "rsquare"
 			dependencies: [
 				"3B142D2ED1A34A2F"
 				"21439CB5FC22086F"
@@ -564,8 +581,9 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -1.75d
+			x: -0.5d
+			y: 7.25d
+			shape: "rsquare"
 			dependencies: [
 				"3B142D2ED1A34A2F"
 				"0E9CF6ACC722C374"
@@ -580,8 +598,9 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -1.75d
+			x: 5.0d
+			y: 7.25d
+			shape: "rsquare"
 			dependencies: [
 				"3B142D2ED1A34A2F"
 				"200BA4830939AC0B"
@@ -596,8 +615,9 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: -1.75d
+			x: 10.5d
+			y: 7.25d
+			shape: "rsquare"
 			dependencies: [
 				"3B142D2ED1A34A2F"
 				"43FAD4CA620C4E46"
@@ -612,8 +632,9 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: -1.75d
+			x: 16.0d
+			y: 7.25d
+			shape: "rsquare"
 			dependencies: [
 				"3B142D2ED1A34A2F"
 				"1AEAF2EFDCEB66B9"
@@ -628,13 +649,16 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -1.75d
+			x: -25.25d
+			y: 7.25d
+			shape: "octagon"
+			hide_dependency_lines: true
 			dependencies: [
 				"64293168CA145116"
 				"085507458BC5E5AE"
 				"3199AB49342B0F4F"
 			]
+			size: 1.25d
 			id: "3A8A888E56068BDE"
 			tasks: [{
 				id: "4C69CE20EAF4FABF"
@@ -643,9 +667,12 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 0.25d
+			x: -17.0d
+			y: -2.0d
+			shape: "octagon"
+			hide_dependency_lines: true
 			dependencies: ["2530752B6D0A80C3"]
+			size: 2.0d
 			id: "41B58B3AE1C8AC68"
 			tasks: [{
 				id: "26D0C6F7A046BB58"
@@ -654,9 +681,12 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 0.25d
+			x: -11.5d
+			y: -2.0d
+			shape: "octagon"
+			hide_dependency_lines: true
 			dependencies: ["4064A650842130A9"]
+			size: 2.0d
 			id: "5A8DC34306E3611C"
 			tasks: [{
 				id: "31BDE178BD651223"
@@ -665,9 +695,12 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 0.25d
+			x: -6.0d
+			y: -2.0d
+			shape: "octagon"
+			hide_dependency_lines: true
 			dependencies: ["3F4C7780DB78732F"]
+			size: 2.0d
 			id: "1F4F644F031BF322"
 			tasks: [{
 				id: "1E2659A8984C00AB"
@@ -676,9 +709,12 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 0.25d
+			x: -0.5d
+			y: -2.0d
+			shape: "octagon"
+			hide_dependency_lines: true
 			dependencies: ["0FB1E08909378867"]
+			size: 2.0d
 			id: "62D70E7FDD7AC85C"
 			tasks: [{
 				id: "3931F5277290012D"
@@ -687,9 +723,12 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 0.25d
+			x: 5.0d
+			y: -2.0d
+			shape: "octagon"
+			hide_dependency_lines: true
 			dependencies: ["51A865804BE34E1F"]
+			size: 2.0d
 			id: "0DA4BB6121CB2B87"
 			tasks: [{
 				id: "29382E372CAAD20E"
@@ -698,9 +737,12 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 0.25d
+			x: 10.5d
+			y: -2.0d
+			shape: "octagon"
+			hide_dependency_lines: true
 			dependencies: ["6D5FA44C1427C6C0"]
+			size: 2.0d
 			id: "5D74D945848445C2"
 			tasks: [{
 				id: "5EA08D4A6FA1F6A2"
@@ -709,9 +751,12 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 0.25d
+			x: 16.0d
+			y: -2.0d
+			shape: "octagon"
+			hide_dependency_lines: true
 			dependencies: ["0264AA0CFBD9FC84"]
+			size: 2.0d
 			id: "1E0C9B0DACFD17B4"
 			tasks: [{
 				id: "09A70524125D2FD7"
@@ -720,8 +765,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 1.25d
+			x: -17.0d
+			y: -0.25d
 			dependencies: ["41B58B3AE1C8AC68"]
 			id: "1A40B5EAD92BE894"
 			tasks: [{
@@ -731,8 +776,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 1.25d
+			x: -6.0d
+			y: -0.25d
 			dependencies: ["1F4F644F031BF322"]
 			id: "4A9D2B30BD434476"
 			tasks: [{
@@ -742,8 +787,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 1.25d
+			x: -11.5d
+			y: -0.25d
 			dependencies: ["5A8DC34306E3611C"]
 			id: "4328FFF03A35CF1B"
 			tasks: [{
@@ -753,8 +798,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 1.25d
+			x: -22.5d
+			y: -0.25d
 			dependencies: ["29787E2FE68792C3"]
 			id: "3C62FDA88FDDD092"
 			tasks: [{
@@ -764,8 +809,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 1.25d
+			x: -0.5d
+			y: -0.25d
 			dependencies: ["62D70E7FDD7AC85C"]
 			id: "713A60575A232115"
 			tasks: [{
@@ -775,8 +820,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 1.25d
+			x: 5.0d
+			y: -0.25d
 			dependencies: ["0DA4BB6121CB2B87"]
 			id: "194C8CF161DEF028"
 			tasks: [{
@@ -786,8 +831,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 1.25d
+			x: 10.5d
+			y: -0.25d
 			dependencies: ["5D74D945848445C2"]
 			id: "0C08ADC54CEA40EB"
 			tasks: [{
@@ -797,8 +842,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 1.25d
+			x: 16.0d
+			y: -0.25d
 			dependencies: ["1E0C9B0DACFD17B4"]
 			id: "203400A10830C4FB"
 			tasks: [{
@@ -808,8 +853,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 2.25d
+			x: -22.5d
+			y: 0.75d
 			dependencies: [
 				"3C62FDA88FDDD092"
 				"204DB31D0BD2FC23"
@@ -822,8 +867,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 2.25d
+			x: -17.0d
+			y: 0.75d
 			dependencies: [
 				"1A40B5EAD92BE894"
 				"41B58B3AE1C8AC68"
@@ -836,8 +881,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 2.25d
+			x: -11.5d
+			y: 0.75d
 			dependencies: [
 				"4328FFF03A35CF1B"
 				"5A8DC34306E3611C"
@@ -850,8 +895,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 2.25d
+			x: -6.0d
+			y: 0.75d
 			dependencies: [
 				"4A9D2B30BD434476"
 				"1F4F644F031BF322"
@@ -864,8 +909,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 2.25d
+			x: -0.5d
+			y: 0.75d
 			dependencies: [
 				"713A60575A232115"
 				"62D70E7FDD7AC85C"
@@ -878,8 +923,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 2.25d
+			x: 5.0d
+			y: 0.75d
 			dependencies: [
 				"194C8CF161DEF028"
 				"0DA4BB6121CB2B87"
@@ -892,8 +937,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 2.25d
+			x: 10.5d
+			y: 0.75d
 			dependencies: [
 				"0C08ADC54CEA40EB"
 				"5D74D945848445C2"
@@ -906,8 +951,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 2.25d
+			x: 16.0d
+			y: 0.75d
 			dependencies: [
 				"203400A10830C4FB"
 				"1E0C9B0DACFD17B4"
@@ -920,8 +965,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 3.25d
+			x: -22.5d
+			y: 1.75d
 			dependencies: [
 				"6B4110A5FF52ABE8"
 				"537E2B2EF349FEFA"
@@ -934,8 +979,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 3.25d
+			x: -17.0d
+			y: 1.75d
 			dependencies: [
 				"6B4110A5FF52ABE8"
 				"7DEAC56E3E03B455"
@@ -948,8 +993,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 3.25d
+			x: -11.5d
+			y: 1.75d
 			dependencies: [
 				"6B4110A5FF52ABE8"
 				"07332F88E56415EC"
@@ -962,8 +1007,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 3.25d
+			x: -6.0d
+			y: 1.75d
 			dependencies: [
 				"6B4110A5FF52ABE8"
 				"3A6877DCA53D9C3A"
@@ -976,8 +1021,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 3.25d
+			x: -0.5d
+			y: 1.75d
 			dependencies: [
 				"6B4110A5FF52ABE8"
 				"1DF9D6BE206457CA"
@@ -990,8 +1035,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 3.25d
+			x: 5.0d
+			y: 1.75d
 			dependencies: [
 				"6B4110A5FF52ABE8"
 				"03A9E3D0BAAE65B9"
@@ -1004,8 +1049,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 3.25d
+			x: 10.5d
+			y: 1.75d
 			dependencies: [
 				"6B4110A5FF52ABE8"
 				"0B9F6E3C614A1266"
@@ -1018,8 +1063,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 3.25d
+			x: 16.0d
+			y: 1.75d
 			dependencies: [
 				"6B4110A5FF52ABE8"
 				"5C25792BCC99B805"
@@ -1032,8 +1077,10 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 4.25d
+			x: -22.5d
+			y: 2.75d
+			shape: "hexagon"
+			hide_dependency_lines: true
 			dependencies: [
 				"509BB4FBE8A13799"
 				"204DB31D0BD2FC23"
@@ -1047,8 +1094,9 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 4.25d
+			x: -17.0d
+			y: 2.75d
+			shape: "hexagon"
 			dependencies: [
 				"509BB4FBE8A13799"
 				"41B58B3AE1C8AC68"
@@ -1062,8 +1110,9 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 4.25d
+			x: -11.5d
+			y: 2.75d
+			shape: "hexagon"
 			dependencies: [
 				"509BB4FBE8A13799"
 				"3D9C2717B58BD67A"
@@ -1077,8 +1126,9 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 4.25d
+			x: -6.0d
+			y: 2.75d
+			shape: "hexagon"
 			dependencies: [
 				"509BB4FBE8A13799"
 				"00A5E4C7804456BD"
@@ -1092,8 +1142,9 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 4.25d
+			x: -0.5d
+			y: 2.75d
+			shape: "hexagon"
 			dependencies: [
 				"509BB4FBE8A13799"
 				"10047618C2CF4601"
@@ -1107,8 +1158,9 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 4.25d
+			x: 5.0d
+			y: 2.75d
+			shape: "hexagon"
 			dependencies: [
 				"509BB4FBE8A13799"
 				"1B8E162EDCFB8AE9"
@@ -1122,8 +1174,9 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 4.25d
+			x: 10.5d
+			y: 2.75d
+			shape: "hexagon"
 			dependencies: [
 				"509BB4FBE8A13799"
 				"674EC72A3443B266"
@@ -1137,8 +1190,9 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 4.25d
+			x: 16.0d
+			y: 2.75d
+			shape: "hexagon"
 			dependencies: [
 				"509BB4FBE8A13799"
 				"77669127763D62EB"
@@ -1152,14 +1206,16 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 5.25d
+			x: -22.5d
+			y: 4.0d
+			shape: "octagon"
 			dependencies: [
 				"6D4CE7DB9226C36C"
 				"1E6277225CA889FC"
 				"5E5D6DA74DC6FE43"
 				"085507458BC5E5AE"
 			]
+			size: 1.5d
 			id: "2683AF767C3345AE"
 			tasks: [{
 				id: "677B295DF1FA849A"
@@ -1168,14 +1224,16 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 5.25d
+			x: -17.0d
+			y: 4.0d
+			shape: "octagon"
 			dependencies: [
 				"2683AF767C3345AE"
 				"3D9C2717B58BD67A"
 				"1E6277225CA889FC"
 				"6D4CE7DB9226C36C"
 			]
+			size: 1.5d
 			id: "6E987BAADA0CD4C5"
 			tasks: [{
 				id: "65853078E88E53B6"
@@ -1184,12 +1242,14 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 5.25d
+			x: -11.5d
+			y: 4.0d
+			shape: "octagon"
 			dependencies: [
 				"6E987BAADA0CD4C5"
 				"00A5E4C7804456BD"
 			]
+			size: 1.5d
 			id: "6865E8E02A0FC66C"
 			tasks: [{
 				id: "58A488459745F549"
@@ -1198,12 +1258,16 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 5.25d
+			x: -6.0d
+			y: 4.0d
+			shape: "octagon"
 			dependencies: [
 				"7487A5A3991D1222"
 				"1BF981F84C1738BC"
+				"6865E8E02A0FC66C"
+				"10047618C2CF4601"
 			]
+			size: 1.5d
 			id: "4CA004B0F2640371"
 			tasks: [{
 				id: "5101CC2CBA1C1221"
@@ -1212,8 +1276,14 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 5.25d
+			x: -0.5d
+			y: 4.0d
+			shape: "octagon"
+			dependencies: [
+				"1B8E162EDCFB8AE9"
+				"4CA004B0F2640371"
+			]
+			size: 1.5d
 			id: "70B6E95C8B4C9DD5"
 			tasks: [{
 				id: "05D4917735002C58"
@@ -1222,8 +1292,14 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 5.25d
+			x: 5.0d
+			y: 4.0d
+			shape: "octagon"
+			dependencies: [
+				"70B6E95C8B4C9DD5"
+				"674EC72A3443B266"
+			]
+			size: 1.5d
 			id: "700892CDE1B5D01F"
 			tasks: [{
 				id: "73C4546D414C4F05"
@@ -1232,8 +1308,14 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 5.25d
+			x: 10.5d
+			y: 4.0d
+			shape: "octagon"
+			dependencies: [
+				"700892CDE1B5D01F"
+				"77669127763D62EB"
+			]
+			size: 1.5d
 			id: "2BF759063CE492C4"
 			tasks: [{
 				id: "30D73DF62E0D995B"
@@ -1242,8 +1324,14 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 5.25d
+			x: 16.0d
+			y: 4.0d
+			shape: "octagon"
+			dependencies: [
+				"2BF759063CE492C4"
+				"1AE554062A3D1379"
+			]
+			size: 1.5d
 			id: "29177C5D56D0BAC2"
 			tasks: [{
 				id: "5B81E8E117C5EA2F"
@@ -1252,8 +1340,8 @@
 			}]
 		}
 		{
-			x: 16.25d
-			y: 5.25d
+			x: 5.5d
+			y: -11.0d
 			shape: "diamond"
 			dependencies: [
 				"7760AB40C4B58AA2"
@@ -1273,8 +1361,8 @@
 			}]
 		}
 		{
-			x: 17.25d
-			y: 4.75d
+			x: 6.5d
+			y: -11.5d
 			shape: "diamond"
 			dependencies: ["5406C09C6DB130BD"]
 			id: "2831181500FBDEC6"
@@ -1289,8 +1377,8 @@
 			}]
 		}
 		{
-			x: 16.75d
-			y: 4.25d
+			x: 6.0d
+			y: -12.0d
 			shape: "diamond"
 			dependencies: ["5406C09C6DB130BD"]
 			id: "037BA9C3F1B0C7EA"
@@ -1305,8 +1393,8 @@
 			}]
 		}
 		{
-			x: 15.75d
-			y: 4.25d
+			x: 5.0d
+			y: -12.0d
 			shape: "diamond"
 			dependencies: ["5406C09C6DB130BD"]
 			id: "1A7CC0A580388774"
@@ -1321,8 +1409,8 @@
 			}]
 		}
 		{
-			x: 15.25d
-			y: 4.75d
+			x: 4.5d
+			y: -11.5d
 			shape: "diamond"
 			dependencies: ["5406C09C6DB130BD"]
 			id: "1967D5F7306D3183"
@@ -1337,8 +1425,8 @@
 			}]
 		}
 		{
-			x: 17.25d
-			y: 5.75d
+			x: 6.5d
+			y: -10.5d
 			shape: "diamond"
 			dependencies: ["5406C09C6DB130BD"]
 			id: "47CEBC6AE35AD53F"
@@ -1353,8 +1441,8 @@
 			}]
 		}
 		{
-			x: 16.75d
-			y: 6.25d
+			x: 6.0d
+			y: -10.0d
 			shape: "diamond"
 			dependencies: ["5406C09C6DB130BD"]
 			id: "614D3ED31930538C"
@@ -1369,8 +1457,8 @@
 			}]
 		}
 		{
-			x: 16.25d
-			y: 6.75d
+			x: 5.5d
+			y: -9.5d
 			shape: "diamond"
 			dependencies: ["5406C09C6DB130BD"]
 			id: "2A8A2FC13E6647E9"
@@ -1385,8 +1473,8 @@
 			}]
 		}
 		{
-			x: 15.25d
-			y: 5.75d
+			x: 4.5d
+			y: -10.5d
 			shape: "diamond"
 			dependencies: ["5406C09C6DB130BD"]
 			id: "025D475038BBD548"
@@ -1401,8 +1489,8 @@
 			}]
 		}
 		{
-			x: 15.75d
-			y: 6.25d
+			x: 5.0d
+			y: -10.0d
 			shape: "diamond"
 			dependencies: ["5406C09C6DB130BD"]
 			id: "216A31F3813F7029"
@@ -1417,8 +1505,8 @@
 			}]
 		}
 		{
-			x: 19.25d
-			y: 6.25d
+			x: 8.5d
+			y: -10.0d
 			shape: "diamond"
 			dependencies: ["75FC648E24DAC3D9"]
 			id: "395E9DEB2A565B6E"
@@ -1433,8 +1521,8 @@
 			}]
 		}
 		{
-			x: 20.25d
-			y: 6.25d
+			x: 9.5d
+			y: -10.0d
 			shape: "diamond"
 			dependencies: ["75FC648E24DAC3D9"]
 			id: "3497593E15BE23B1"
@@ -1449,8 +1537,8 @@
 			}]
 		}
 		{
-			x: 19.75d
-			y: 6.75d
+			x: 9.0d
+			y: -9.5d
 			shape: "diamond"
 			dependencies: ["75FC648E24DAC3D9"]
 			id: "5947F49A7EE60BB8"
@@ -1465,8 +1553,8 @@
 			}]
 		}
 		{
-			x: 19.75d
-			y: 5.25d
+			x: 9.0d
+			y: -11.0d
 			shape: "diamond"
 			dependencies: [
 				"085507458BC5E5AE"
@@ -1486,8 +1574,13 @@
 			}]
 		}
 		{
-			x: -9.0d
-			y: -3.5d
+			x: -15.25d
+			y: -13.5d
+			dependencies: [
+				"1E7C7E14842E3A7B"
+				"239C1DCA9CDDD9B0"
+				"6F0F3A66173096A7"
+			]
 			id: "59232D063C6F0096"
 			tasks: [{
 				id: "742E8C2E4C769DFE"
@@ -1496,9 +1589,11 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 0.25d
+			x: -22.5d
+			y: -2.0d
+			shape: "octagon"
 			dependencies: ["6C1CDB642DADEA2F"]
+			size: 2.0d
 			id: "204DB31D0BD2FC23"
 			tasks: [{
 				id: "5F2565CC78061527"
@@ -1507,8 +1602,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 4.25d
+			x: -11.25d
+			y: -13.5d
 			dependencies: [
 				"509BB4FBE8A13799"
 				"6C056E8AF56BEE37"
@@ -1524,8 +1619,8 @@
 		{
 			title: "Cutting Machine Factory Component - Part 1"
 			icon: "masterfulmachinery:cuttingmachine_controller"
-			x: -7.5d
-			y: 4.25d
+			x: -13.75d
+			y: -7.25d
 			shape: "gear"
 			min_width: 300
 			id: "0A2DF111E5396620"
@@ -1620,8 +1715,8 @@
 		{
 			title: "Cutting Machine Factory Component - Part 2"
 			icon: "masterfulmachinery:cuttingmachine_controller"
-			x: -6.5d
-			y: 4.25d
+			x: -12.75d
+			y: -7.25d
 			shape: "gear"
 			id: "14550162EEE40261"
 			tasks: [
@@ -1648,8 +1743,8 @@
 			]
 		}
 		{
-			x: -7.0d
-			y: 5.25d
+			x: -13.25d
+			y: -6.25d
 			dependencies: [
 				"14550162EEE40261"
 				"0A2DF111E5396620"
@@ -1662,8 +1757,9 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -2.75d
+			x: -22.5d
+			y: 6.25d
+			shape: "square"
 			dependencies: [
 				"085507458BC5E5AE"
 				"239C1DCA9CDDD9B0"
@@ -1678,8 +1774,9 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -2.75d
+			x: -17.0d
+			y: 6.25d
+			shape: "square"
 			dependencies: [
 				"085507458BC5E5AE"
 				"239C1DCA9CDDD9B0"
@@ -1694,8 +1791,9 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -2.75d
+			x: -11.5d
+			y: 6.25d
+			shape: "square"
 			dependencies: [
 				"085507458BC5E5AE"
 				"239C1DCA9CDDD9B0"
@@ -1710,8 +1808,9 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -2.75d
+			x: -6.0d
+			y: 6.25d
+			shape: "square"
 			dependencies: [
 				"085507458BC5E5AE"
 				"239C1DCA9CDDD9B0"
@@ -1726,8 +1825,9 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -2.75d
+			x: -0.5d
+			y: 6.25d
+			shape: "square"
 			dependencies: [
 				"085507458BC5E5AE"
 				"239C1DCA9CDDD9B0"
@@ -1742,8 +1842,9 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -2.75d
+			x: 5.0d
+			y: 6.25d
+			shape: "square"
 			dependencies: [
 				"085507458BC5E5AE"
 				"239C1DCA9CDDD9B0"
@@ -1758,8 +1859,9 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: -2.75d
+			x: 10.5d
+			y: 6.25d
+			shape: "square"
 			dependencies: [
 				"085507458BC5E5AE"
 				"239C1DCA9CDDD9B0"
@@ -1774,8 +1876,9 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: -2.75d
+			x: 16.0d
+			y: 6.25d
+			shape: "square"
 			dependencies: [
 				"085507458BC5E5AE"
 				"239C1DCA9CDDD9B0"
@@ -1787,6 +1890,17 @@
 				id: "77F335CECA1B7C45"
 				type: "item"
 				item: "kubejs:xerothium_photovoltaic_panel"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 5.25d
+			shape: "rsquare"
+			id: "6CDF59E46C0D76AD"
+			tasks: [{
+				id: "4F961D8A214E269E"
+				type: "item"
+				item: "enviroenergy:xerothium_solar_ccu"
 			}]
 		}
 	]
