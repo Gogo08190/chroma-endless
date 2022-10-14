@@ -21,12 +21,12 @@
 			corner: false
 		}
 		{
-			x: 23.5d
-			y: 2.25d
+			x: 21.0d
+			y: 6.25d
 			width: 5.0d
 			height: 5.0d
 			rotation: 0.0d
-			image: "prefab:textures/items/base_basket.png"
+			image: "alexsmobs:textures/item/banana.png"
 			hover: [ ]
 			click: ""
 			dev: false
@@ -257,7 +257,7 @@
 			}]
 		}
 		{
-			x: 4.25d
+			x: 3.25d
 			y: 6.75d
 			dependencies: ["25509DE288CE1C74"]
 			id: "6349F0D7DE47B281"
@@ -1032,7 +1032,7 @@
 			}]
 		}
 		{
-			x: 6.25d
+			x: 5.25d
 			y: 6.75d
 			dependencies: ["70CA60CDB5FB50EC"]
 			id: "171B52F0BAD25DCB"
@@ -1043,7 +1043,7 @@
 			}]
 		}
 		{
-			x: 5.25d
+			x: 4.25d
 			y: 6.75d
 			dependencies: ["25509DE288CE1C74"]
 			id: "70CA60CDB5FB50EC"
@@ -1083,37 +1083,6 @@
 				id: "6DDE28A7B57209DF"
 				type: "item"
 				item: "pneumaticcraft:sourdough_bread"
-			}]
-		}
-		{
-			x: 12.5d
-			y: 19.5d
-			id: "6120EFAC56EAB907"
-			tasks: [{
-				id: "0DB9500C56927E1B"
-				type: "item"
-				item: "pneumaticcraft:cod_n_chips"
-			}]
-		}
-		{
-			x: 3.25d
-			y: 6.75d
-			dependencies: ["25509DE288CE1C74"]
-			id: "0A788471FB732AE8"
-			tasks: [{
-				id: "4AAED5E0A747C526"
-				type: "item"
-				item: "pneumaticcraft:chips"
-			}]
-		}
-		{
-			x: 11.5d
-			y: 19.5d
-			id: "6366DDD85F0E08E9"
-			tasks: [{
-				id: "7715146A0E652CCA"
-				type: "item"
-				item: "pneumaticcraft:salmon_tempura"
 			}]
 		}
 		{

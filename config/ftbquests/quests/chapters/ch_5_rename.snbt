@@ -381,6 +381,13 @@
 		{
 			x: -12.0d
 			y: -17.75d
+			description: [
+				"The &bLiquid Hopper&r is a device which you can use to transfer fluids."
+				""
+				"Like the Omnidirectional Hopper, its input and output can point in any direction, and it uses the same placement and rotation rules."
+				""
+				"You can add &5Speed Upgrades&r to increase the transfer rate."
+			]
 			dependencies: ["121DF7B31DB4BEF8"]
 			optional: true
 			id: "197C7C3A59698566"
@@ -394,6 +401,11 @@
 			x: -9.0d
 			y: -12.0d
 			shape: "diamond"
+			description: [
+				"&5Heat Sink&r is a block used to get rid of Heat."
+				""
+				"He only dissipate heat from the block they're directly connected to. To connect up many Heat Sinks, use Heat Pipes to provide more surfaces."
+			]
 			hide_dependency_lines: true
 			dependencies: ["121DF7B31DB4BEF8"]
 			id: "58E2FB84B9A9425B"
@@ -407,6 +419,11 @@
 			x: -7.5d
 			y: -12.0d
 			shape: "diamond"
+			description: [
+				"&5Vortex Tube&r is a dynamic heat source which converts pressure directly to heat and cold."
+				""
+				"It's highly recommended to put a Heat Sink on the unused side of a Vortex Tube, for efficiency."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"3D156DB23470F2D5"
@@ -657,6 +674,7 @@
 			x: -8.25d
 			y: -3.25d
 			shape: "hexagon"
+			description: ["&5Heat Frame&r is a gadget that can be used to heat (or freeze) items in any inventory."]
 			hide_dependency_lines: true
 			dependencies: ["121DF7B31DB4BEF8"]
 			id: "73F46C7D022F9708"
@@ -702,6 +720,13 @@
 		{
 			x: -5.75d
 			y: -3.25d
+			description: [
+				"A &5Fluid Mixer&r uses pressure to combine two fluids into a resulting fluid and/or item."
+				""
+				"Its primary use is in Biodiesel production."
+				""
+				"The Fluid Mixer will run faster if more pressure is provided."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"7607D13B4DE67B94"
@@ -856,6 +881,11 @@
 		{
 			x: -9.25d
 			y: 9.0d
+			description: [
+				"The &5Etching Tank&r should first be filled with &bEtching Acid&r. Then insert up 25 Empty PCB's which have already been either partially or fully exposed in a &bUV Light Box&r."
+				""
+				"While it's possible juste to pour Etching Acid into the world and throw PCB's into the pool, using the Etching Tank is a much safer and faster way to do it."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"625D10DD8943384A"
@@ -871,6 +901,7 @@
 		{
 			x: -7.25d
 			y: 9.0d
+			description: ["&5Etching Acid&r is used to chemically develop PCB's. Etching Acid is made in a Pressure Chamber and used in the Ething Tank."]
 			hide_dependency_lines: true
 			dependencies: [
 				"5C05ABDF754FEC7A"
@@ -1331,6 +1362,11 @@
 			x: -8.75d
 			y: 18.0d
 			shape: "diamond"
+			description: [
+				"&5Advanced Liquid Compressor&r is the Tier 2 version of the Liquid Compressor, which a maximum safe pressure of 20 bar. It generates a base 50mL air/tick, and can be upgraded with &bSpeed Upgrades&r."
+				""
+				"This generator must be cooled, as its efficiency will drop as the temperature rises, up to the point where no air is generated at all."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"01247DAB4826AAF3"
@@ -1349,6 +1385,11 @@
 			x: -7.75d
 			y: 18.0d
 			shape: "diamond"
+			description: [
+				"&5Advanced Air Compressor&r is the Tier 2 version of the Air Compressor, which a maximum safe pressure of 20 bar. It generates a base 50mL air/tick, and can be upgraded with &bSpeed Upgrades&r."
+				""
+				"This generator must be cooled, as its efficiency will drop as the temperature rises, up to the point where no air is generated at all."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"01247DAB4826AAF3"
@@ -1367,6 +1408,15 @@
 			x: -7.5d
 			y: 18.75d
 			shape: "diamond"
+			description: [
+				"&5Electrostatic Compressor&r is a tier 2 air compressor, which uses lightning for the energy to produce compressed air."
+				""
+				"When it is struck by lightning it will instantly produce 200,000mL of air. Seems like a lot, but how often do you see a Charged Creeper sneaking around ? You have to have it get struck."
+				""
+				"To increase the charge of this happening, you can connect Iron Bars to this machine which act as a conductor for the lightning bolt."
+				""
+				"Advice wold be to create a large grid of Iron Bars : they can be up 5 blocks away horizontally (circular radius), and up to 5 blocks above or below, but they must all be connected to the Electrostatic Compressor via each other."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"6AF898598004DEC3"
@@ -1374,6 +1424,7 @@
 				"169D1E526779D774"
 				"08672636B514D519"
 			]
+			min_width: 300
 			id: "58DFAD4B5B6A2123"
 			tasks: [{
 				id: "4B9E8E9BBE3BD719"
@@ -1385,6 +1436,13 @@
 			x: -9.0d
 			y: 18.75d
 			shape: "diamond"
+			description: [
+				"The &5Pneumatic Dynamo&r converts compressed air into &6Forge Energy&r."
+				""
+				"It produces 40 FE/tick by default; but can be upgraded with &bSpeed Upgrades&r."
+				""
+				"An important factor that influence efficiency is the Dynamo's temperature. The Dynamo need to be cooled, or its efficiency will drop as the temperature rises, up to the point where no air is generated at all."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"121DF7B31DB4BEF8"
@@ -2290,6 +2348,11 @@
 			x: -8.25d
 			y: -9.25d
 			shape: "diamond"
+			description: [
+				"A &5Gas Lift&r is a pump, basically. It uses pressure to decrease the density of a liquid to force it upwards."
+				""
+				"When pressurized, it extrudes Drill Pipes downwards until it hits any liquid, at which point it will pump it. This makes it perfect for Oil extraction, as Oil might be deep underground."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"625D10DD8943384A"
@@ -2314,6 +2377,33 @@
 				id: "196A1D8C147F36E4"
 				type: "item"
 				item: "kubejs:contained_litherite_crystal"
+			}]
+		}
+		{
+			x: -8.25d
+			y: 18.5d
+			shape: "diamond"
+			description: [
+				"&rFlux Compressor&r converts Forge Energy into compressed air. It consumes a base 40 FE/tick, but can be upgraded with &bSpeed Upgrades&r."
+				""
+				"The Flux Compressor has a capacity of 100,000 FE and accepts FE at double the rate it uses it."
+				""
+				"This generator must be cooled, as its efficiency will drop as the temperature rises, up to the point where no air is generated at all."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"01247DAB4826AAF3"
+				"1996234F379C69E0"
+				"1E6277225CA889FC"
+				"4AC1298723D8A89A"
+				"7607D13B4DE67B94"
+				"3AC2609EA33632B8"
+			]
+			id: "7022058396F8C145"
+			tasks: [{
+				id: "114748E711A001AE"
+				type: "item"
+				item: "pneumaticcraft:flux_compressor"
 			}]
 		}
 	]
