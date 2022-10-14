@@ -31,6 +31,18 @@
 			dev: false
 			corner: false
 		}
+		{
+			x: 30.0d
+			y: -10.5d
+			width: 10.0d
+			height: 12.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/lens_part.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
 	]
 	quests: [
 		{
@@ -248,7 +260,7 @@
 		}
 		{
 			x: 2.5d
-			y: -3.75d
+			y: -4.75d
 			description: ["{image:chroma:textures/quests/et_tier1.png width:150 height:100 align:1}"]
 			id: "2530752B6D0A80C3"
 			tasks: [{
@@ -259,7 +271,7 @@
 		}
 		{
 			x: 3.5d
-			y: -3.75d
+			y: -4.75d
 			id: "4064A650842130A9"
 			tasks: [{
 				id: "7AFDB5E9CE528821"
@@ -269,7 +281,7 @@
 		}
 		{
 			x: 4.5d
-			y: -3.75d
+			y: -4.75d
 			id: "3F4C7780DB78732F"
 			tasks: [{
 				id: "018B8BE56F59D88C"
@@ -279,7 +291,7 @@
 		}
 		{
 			x: 5.5d
-			y: -3.75d
+			y: -4.75d
 			id: "0FB1E08909378867"
 			tasks: [{
 				id: "6E2AA271F21BE5B0"
@@ -289,7 +301,7 @@
 		}
 		{
 			x: 6.5d
-			y: -3.75d
+			y: -4.75d
 			id: "51A865804BE34E1F"
 			tasks: [{
 				id: "3C30F1C6C88F7893"
@@ -299,7 +311,7 @@
 		}
 		{
 			x: 7.5d
-			y: -3.75d
+			y: -4.75d
 			id: "6D5FA44C1427C6C0"
 			tasks: [{
 				id: "5EDDDED1C1BA28BB"
@@ -309,7 +321,7 @@
 		}
 		{
 			x: 8.5d
-			y: -3.75d
+			y: -4.75d
 			id: "0264AA0CFBD9FC84"
 			tasks: [{
 				id: "4530F1A4FFBBF0EB"
@@ -319,7 +331,7 @@
 		}
 		{
 			x: 9.5d
-			y: -3.75d
+			y: -4.75d
 			id: "2FAF18A1E67E08F4"
 			tasks: [{
 				id: "5A78EE8FF8873577"
@@ -329,7 +341,7 @@
 		}
 		{
 			x: 2.5d
-			y: -2.75d
+			y: -3.75d
 			id: "14697C237BED1D6D"
 			tasks: [{
 				id: "403FE572D2744BB0"
@@ -339,7 +351,7 @@
 		}
 		{
 			x: 3.5d
-			y: -2.75d
+			y: -3.75d
 			id: "37401A14AE5E099A"
 			tasks: [{
 				id: "4946ADAA61533147"
@@ -349,7 +361,7 @@
 		}
 		{
 			x: 4.5d
-			y: -2.75d
+			y: -3.75d
 			id: "00B972AFE900CE93"
 			tasks: [{
 				id: "3A72AF3BECFED12B"
@@ -359,7 +371,7 @@
 		}
 		{
 			x: 6.5d
-			y: -2.75d
+			y: -3.75d
 			id: "6B57359F34C8D320"
 			tasks: [{
 				id: "1B499FA6E1EB75A4"
@@ -369,7 +381,7 @@
 		}
 		{
 			x: 5.5d
-			y: -2.75d
+			y: -3.75d
 			id: "464504C4B92354FF"
 			tasks: [{
 				id: "05E387C0FB46EEFC"
@@ -379,7 +391,7 @@
 		}
 		{
 			x: 7.5d
-			y: -2.75d
+			y: -3.75d
 			id: "09284E0C45B88801"
 			tasks: [{
 				id: "0BF9CB4E9704F8E9"
@@ -389,7 +401,7 @@
 		}
 		{
 			x: 8.5d
-			y: -2.75d
+			y: -3.75d
 			id: "6CB95C9DD0C21CFC"
 			tasks: [{
 				id: "2C76719A791AF53F"
@@ -399,7 +411,7 @@
 		}
 		{
 			x: 9.5d
-			y: -2.75d
+			y: -3.75d
 			id: "34FD3EE5244B1AC6"
 			tasks: [{
 				id: "7109948555A57E5C"
@@ -490,6 +502,12 @@
 		{
 			x: 2.5d
 			y: -1.75d
+			dependencies: [
+				"3B142D2ED1A34A2F"
+				"3A8A888E56068BDE"
+				"443D9948A2F25A5E"
+				"4C32DDB98EFDC15A"
+			]
 			id: "628286F1A53404BC"
 			tasks: [{
 				id: "7E98FAAC08E9B8EF"
@@ -500,6 +518,12 @@
 		{
 			x: 3.5d
 			y: -1.75d
+			dependencies: [
+				"3B142D2ED1A34A2F"
+				"628286F1A53404BC"
+				"4A1D1848BA194F38"
+				"4C32DDB98EFDC15A"
+			]
 			id: "198B71976F5199B9"
 			tasks: [{
 				id: "58F7B33E97AAED8D"
@@ -510,6 +534,12 @@
 		{
 			x: 4.5d
 			y: -1.75d
+			dependencies: [
+				"3B142D2ED1A34A2F"
+				"198B71976F5199B9"
+				"55CD72BA624C3C0A"
+				"4C32DDB98EFDC15A"
+			]
 			id: "21439CB5FC22086F"
 			tasks: [{
 				id: "5065D96A8BB5DAC4"
@@ -520,6 +550,12 @@
 		{
 			x: 5.5d
 			y: -1.75d
+			dependencies: [
+				"3B142D2ED1A34A2F"
+				"21439CB5FC22086F"
+				"49E00EC791FFE519"
+				"4C32DDB98EFDC15A"
+			]
 			id: "0E9CF6ACC722C374"
 			tasks: [{
 				id: "372528216BAC7A5F"
@@ -530,6 +566,12 @@
 		{
 			x: 6.5d
 			y: -1.75d
+			dependencies: [
+				"3B142D2ED1A34A2F"
+				"0E9CF6ACC722C374"
+				"47AB1CB6D1136E77"
+				"4C32DDB98EFDC15A"
+			]
 			id: "200BA4830939AC0B"
 			tasks: [{
 				id: "5C74F077EA6AC1B1"
@@ -540,6 +582,12 @@
 		{
 			x: 7.5d
 			y: -1.75d
+			dependencies: [
+				"3B142D2ED1A34A2F"
+				"200BA4830939AC0B"
+				"37CF370B37135D96"
+				"4C32DDB98EFDC15A"
+			]
 			id: "43FAD4CA620C4E46"
 			tasks: [{
 				id: "23BFDEA4B1B37CCA"
@@ -550,6 +598,12 @@
 		{
 			x: 8.5d
 			y: -1.75d
+			dependencies: [
+				"3B142D2ED1A34A2F"
+				"43FAD4CA620C4E46"
+				"6CCE3033E5E16CAB"
+				"4C32DDB98EFDC15A"
+			]
 			id: "1AEAF2EFDCEB66B9"
 			tasks: [{
 				id: "7CA5809C7001FB4D"
@@ -560,6 +614,12 @@
 		{
 			x: 9.5d
 			y: -1.75d
+			dependencies: [
+				"3B142D2ED1A34A2F"
+				"1AEAF2EFDCEB66B9"
+				"2F85DB9515B20F38"
+				"4C32DDB98EFDC15A"
+			]
 			id: "5779EC9CE2687832"
 			tasks: [{
 				id: "1FAC53331B760D9D"
@@ -570,6 +630,11 @@
 		{
 			x: 1.5d
 			y: -1.75d
+			dependencies: [
+				"64293168CA145116"
+				"085507458BC5E5AE"
+				"3199AB49342B0F4F"
+			]
 			id: "3A8A888E56068BDE"
 			tasks: [{
 				id: "4C69CE20EAF4FABF"
@@ -1089,6 +1154,12 @@
 		{
 			x: 2.5d
 			y: 5.25d
+			dependencies: [
+				"6D4CE7DB9226C36C"
+				"1E6277225CA889FC"
+				"5E5D6DA74DC6FE43"
+				"085507458BC5E5AE"
+			]
 			id: "2683AF767C3345AE"
 			tasks: [{
 				id: "677B295DF1FA849A"
@@ -1099,6 +1170,12 @@
 		{
 			x: 3.5d
 			y: 5.25d
+			dependencies: [
+				"2683AF767C3345AE"
+				"3D9C2717B58BD67A"
+				"1E6277225CA889FC"
+				"6D4CE7DB9226C36C"
+			]
 			id: "6E987BAADA0CD4C5"
 			tasks: [{
 				id: "65853078E88E53B6"
@@ -1109,6 +1186,10 @@
 		{
 			x: 4.5d
 			y: 5.25d
+			dependencies: [
+				"6E987BAADA0CD4C5"
+				"00A5E4C7804456BD"
+			]
 			id: "6865E8E02A0FC66C"
 			tasks: [{
 				id: "58A488459745F549"
@@ -1119,6 +1200,10 @@
 		{
 			x: 5.5d
 			y: 5.25d
+			dependencies: [
+				"7487A5A3991D1222"
+				"1BF981F84C1738BC"
+			]
 			id: "4CA004B0F2640371"
 			tasks: [{
 				id: "5101CC2CBA1C1221"
@@ -1170,6 +1255,11 @@
 			x: 16.25d
 			y: 5.25d
 			shape: "diamond"
+			dependencies: [
+				"7760AB40C4B58AA2"
+				"085E191BC7D8D97D"
+				"085507458BC5E5AE"
+			]
 			size: 2.0d
 			id: "5406C09C6DB130BD"
 			tasks: [{
@@ -1327,8 +1417,10 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 8.0d
+			x: 19.25d
+			y: 6.25d
+			shape: "diamond"
+			dependencies: ["75FC648E24DAC3D9"]
 			id: "395E9DEB2A565B6E"
 			tasks: [{
 				id: "7BDE6AFA463EAA22"
@@ -1341,8 +1433,10 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 8.0d
+			x: 20.25d
+			y: 6.25d
+			shape: "diamond"
+			dependencies: ["75FC648E24DAC3D9"]
 			id: "3497593E15BE23B1"
 			tasks: [{
 				id: "4064505BF2F2475C"
@@ -1355,8 +1449,10 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 8.0d
+			x: 19.75d
+			y: 6.75d
+			shape: "diamond"
+			dependencies: ["75FC648E24DAC3D9"]
 			id: "5947F49A7EE60BB8"
 			tasks: [{
 				id: "3120B6F829851DE8"
@@ -1369,8 +1465,15 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 8.0d
+			x: 19.75d
+			y: 5.25d
+			shape: "diamond"
+			dependencies: [
+				"085507458BC5E5AE"
+				"6F0F3A66173096A7"
+				"1E7C7E14842E3A7B"
+			]
+			size: 2.0d
 			id: "75FC648E24DAC3D9"
 			tasks: [{
 				id: "6BC7972917EB684E"
@@ -1556,6 +1659,134 @@
 				id: "1C1D452D6BC3A640"
 				type: "checkmark"
 				title: "Build The Cutting Machine Factory"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.75d
+			dependencies: [
+				"085507458BC5E5AE"
+				"239C1DCA9CDDD9B0"
+				"34292F07E0ACEF5C"
+				"5E5D6DA74DC6FE43"
+			]
+			id: "443D9948A2F25A5E"
+			tasks: [{
+				id: "210E6E86D529CB51"
+				type: "item"
+				item: "kubejs:litherite_photovoltaic_panel"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.75d
+			dependencies: [
+				"085507458BC5E5AE"
+				"239C1DCA9CDDD9B0"
+				"3D9C2717B58BD67A"
+				"129E7B5DDCBC2B71"
+			]
+			id: "4A1D1848BA194F38"
+			tasks: [{
+				id: "4F4C6C76E704D595"
+				type: "item"
+				item: "kubejs:erodium_photovoltaic_panel"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.75d
+			dependencies: [
+				"085507458BC5E5AE"
+				"239C1DCA9CDDD9B0"
+				"00A5E4C7804456BD"
+				"3E9110BE61953C2F"
+			]
+			id: "55CD72BA624C3C0A"
+			tasks: [{
+				id: "4C6B72369D4BFE8E"
+				type: "item"
+				item: "kubejs:kyronite_photovoltaic_panel"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.75d
+			dependencies: [
+				"085507458BC5E5AE"
+				"239C1DCA9CDDD9B0"
+				"10047618C2CF4601"
+				"4993566AC36F0E84"
+			]
+			id: "49E00EC791FFE519"
+			tasks: [{
+				id: "32B01803E8458088"
+				type: "item"
+				item: "kubejs:pladium_photovoltaic_panel"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.75d
+			dependencies: [
+				"085507458BC5E5AE"
+				"239C1DCA9CDDD9B0"
+				"1B8E162EDCFB8AE9"
+				"2F54FF8929742720"
+			]
+			id: "47AB1CB6D1136E77"
+			tasks: [{
+				id: "10517A9446ADF4A2"
+				type: "item"
+				item: "kubejs:ionite_photovoltaic_panel"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.75d
+			dependencies: [
+				"085507458BC5E5AE"
+				"239C1DCA9CDDD9B0"
+				"674EC72A3443B266"
+				"5D36A963B630388A"
+			]
+			id: "37CF370B37135D96"
+			tasks: [{
+				id: "2FC78256477A672F"
+				type: "item"
+				item: "kubejs:aethium_photovoltaic_panel"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -2.75d
+			dependencies: [
+				"085507458BC5E5AE"
+				"239C1DCA9CDDD9B0"
+				"77669127763D62EB"
+				"0178887D79B8FAA7"
+			]
+			id: "6CCE3033E5E16CAB"
+			tasks: [{
+				id: "71BA0C2919A1F4B9"
+				type: "item"
+				item: "kubejs:nanorite_photovoltaic_panel"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -2.75d
+			dependencies: [
+				"085507458BC5E5AE"
+				"239C1DCA9CDDD9B0"
+				"1AE554062A3D1379"
+				"5E8E2C5F708C650C"
+			]
+			id: "2F85DB9515B20F38"
+			tasks: [{
+				id: "77F335CECA1B7C45"
+				type: "item"
+				item: "kubejs:xerothium_photovoltaic_panel"
 			}]
 		}
 	]

@@ -1894,126 +1894,6 @@
 			}]
 		}
 		{
-			title: "Steel Casing"
-			icon: "mekanism:steel_casing"
-			x: -20.25d
-			y: -7.5d
-			shape: "gear"
-			hide_dependency_lines: true
-			dependencies: [
-				"677773349FE468C2"
-				"61DE66EC5C066250"
-				"7B9FBBCD2F962A0B"
-				"3D1D2227EF54E1F3"
-			]
-			size: 1.25d
-			id: "1F22F5BF3BD21A03"
-			tasks: [{
-				id: "17D77DD53982E986"
-				type: "item"
-				item: "mekanism:steel_casing"
-			}]
-		}
-		{
-			icon: "mekanism:precision_sawmill"
-			x: -20.25d
-			y: -6.0d
-			dependencies: ["1F22F5BF3BD21A03"]
-			id: "24E769412A5B4860"
-			tasks: [{
-				id: "6576DB25F2FC903B"
-				type: "item"
-				item: "mekanism:precision_sawmill"
-			}]
-		}
-		{
-			icon: "mekanism:combiner"
-			x: -21.25d
-			y: -6.5d
-			dependencies: ["1F22F5BF3BD21A03"]
-			id: "03B72046B74AB0F7"
-			tasks: [{
-				id: "44FAD95C4B9A216D"
-				type: "item"
-				item: "mekanism:combiner"
-			}]
-		}
-		{
-			icon: "mekanism:crusher"
-			x: -19.25d
-			y: -6.5d
-			dependencies: ["1F22F5BF3BD21A03"]
-			id: "2C7CADFB5A4D08E3"
-			tasks: [{
-				id: "5EE3626AC233C672"
-				type: "item"
-				item: "mekanism:crusher"
-			}]
-		}
-		{
-			icon: "mekanism:energized_smelter"
-			x: -18.75d
-			y: -7.5d
-			dependencies: ["1F22F5BF3BD21A03"]
-			id: "1D7F8B5ABF753007"
-			tasks: [{
-				id: "3DD5F50BC5B3A8AE"
-				type: "item"
-				item: "mekanism:energized_smelter"
-			}]
-		}
-		{
-			icon: "mekanism:metallurgic_infuser"
-			x: -20.25d
-			y: -10.5d
-			dependencies: ["1F22F5BF3BD21A03"]
-			id: "6F350477334C0544"
-			tasks: [{
-				id: "636F91D5DCF1BF51"
-				type: "item"
-				item: "mekanism:metallurgic_infuser"
-			}]
-		}
-		{
-			icon: "mekanism:osmium_compressor"
-			x: -21.75d
-			y: -7.5d
-			dependencies: [
-				"1F22F5BF3BD21A03"
-				"40C970572379006E"
-			]
-			id: "35E8974B479C476A"
-			tasks: [{
-				id: "0FCEE66F9CD98AB6"
-				type: "item"
-				item: "mekanism:osmium_compressor"
-			}]
-		}
-		{
-			icon: "mekanism:purification_chamber"
-			x: -24.0d
-			y: -7.5d
-			dependencies: ["0353C32DEEC76D85"]
-			id: "1162CCBEF5DB123C"
-			tasks: [{
-				id: "75BB41E9539EA63C"
-				type: "item"
-				item: "mekanism:purification_chamber"
-			}]
-		}
-		{
-			icon: "mekanism:chemical_injection_chamber"
-			x: -25.0d
-			y: -7.5d
-			dependencies: ["1162CCBEF5DB123C"]
-			id: "4CC7D2B0639866A2"
-			tasks: [{
-				id: "1A5DE10CCCEE3D2B"
-				type: "item"
-				item: "mekanism:chemical_injection_chamber"
-			}]
-		}
-		{
 			x: -21.75d
 			y: -8.75d
 			hide_dependency_lines: true
@@ -2023,18 +1903,6 @@
 				id: "2C88F2B60CE55542"
 				type: "item"
 				item: "mekanism:basic_chemical_tank"
-			}]
-		}
-		{
-			x: -18.75d
-			y: -8.75d
-			hide_dependency_lines: true
-			dependencies: ["4B85D83C46CDB7E5"]
-			id: "3C084802A24F44D7"
-			tasks: [{
-				id: "03265861436733A7"
-				type: "item"
-				item: "mekanism:basic_fluid_tank"
 			}]
 		}
 		{
@@ -2419,39 +2287,6 @@
 			}]
 		}
 		{
-			x: -18.75d
-			y: -10.5d
-			dependencies: ["6F350477334C0544"]
-			id: "44EA7B9CD882DADB"
-			tasks: [{
-				id: "2BD0E14195CE79EA"
-				type: "item"
-				item: "mekanism:alloy_reinforced"
-			}]
-		}
-		{
-			x: -21.75d
-			y: -10.5d
-			dependencies: ["6F350477334C0544"]
-			id: "20018C60ECEA7ED6"
-			tasks: [{
-				id: "3C9F03BD5AAD64B4"
-				type: "item"
-				item: "mekanism:alloy_atomic"
-			}]
-		}
-		{
-			x: -20.25d
-			y: -12.0d
-			dependencies: ["6F350477334C0544"]
-			id: "3CE25095E2661776"
-			tasks: [{
-				id: "3C04F89B893C3AD4"
-				type: "item"
-				item: "mekanism:alloy_infused"
-			}]
-		}
-		{
 			x: -8.25d
 			y: -9.25d
 			shape: "diamond"
@@ -2465,17 +2300,6 @@
 				id: "1ED5C65AE6E816C6"
 				type: "item"
 				item: "pneumaticcraft:gas_lift"
-			}]
-		}
-		{
-			x: -23.0d
-			y: -7.5d
-			dependencies: ["1F22F5BF3BD21A03"]
-			id: "0353C32DEEC76D85"
-			tasks: [{
-				id: "0270AFFFECC8760C"
-				type: "item"
-				item: "mekanism:enrichment_chamber"
 			}]
 		}
 		{
