@@ -2264,56 +2264,6 @@
 			}]
 		}
 		{
-			title: "Fusionner 2000 - Compact Factory Energy Input Port"
-			icon: "masterfulmachinery:fusioner_compact_energy_port_energy_input"
-			x: 8.5d
-			y: 5.75d
-			subtitle: "Darkness can generate things?"
-			description: ["                             &k&l&0F&rU&k&l&0S&rI&k&l&0O&rN&k&l&0N&rE&k&l&0R&r &k&l&02&r0&k&l&00&r0&r"]
-			dependencies: ["130FD9C228CCC91A"]
-			id: "1A58467C60F1008E"
-			tasks: [
-				{
-					id: "5DADA032264CB3A5"
-					type: "item"
-					item: "emendatusenigmatica:enderium_ingot"
-					count: 4L
-				}
-				{
-					id: "01322FA602DE3DAB"
-					type: "item"
-					item: "occultism:iesnium_ingot"
-					count: 2L
-				}
-				{
-					id: "7E6C12C933710C0A"
-					type: "item"
-					item: "pipez:energy_pipe"
-				}
-				{
-					id: "03958699998C85E6"
-					type: "item"
-					item: "immersiveengineering:wirecoil_steel"
-				}
-				{
-					id: "75BA9A2574E322AD"
-					type: "item"
-					item: {
-						id: "thermal:energy_cell"
-						Count: 1b
-						tag: {
-							BlockEntityTag: {
-								EnergyMax: 1000000
-								EnergySend: 1000
-								Energy: 0
-								EnergyRecv: 1000
-							}
-						}
-					}
-				}
-			]
-		}
-		{
 			title: "Hedyrin's Lure"
 			icon: "occultism:ritual_dummy/craft_miner_djinni_ores"
 			x: 7.25d
@@ -2399,84 +2349,6 @@
 					id: "55DAC9344231D647"
 					type: "item"
 					item: "occultism:golden_sacrificial_bowl"
-				}
-			]
-		}
-		{
-			title: "Fusionner 2000 - Compact Factory Item Output Port"
-			icon: "masterfulmachinery:fusioner_compact_item_port_items_output"
-			x: 7.25d
-			y: 7.25d
-			subtitle: "&kUnknown Machine&r"
-			description: ["                          &k&l&0F&rU&k&l&0S&rI&k&l&0O&rN&k&l&0N&rE&k&l&0R&r &k&l&02&r0&k&l&00&r0&r"]
-			dependencies: ["130FD9C228CCC91A"]
-			id: "41D643D39E1D946F"
-			tasks: [
-				{
-					id: "400F6D5963BFE07E"
-					type: "item"
-					item: "emendatusenigmatica:enderium_ingot"
-					count: 4L
-				}
-				{
-					id: "4CB5597E05BA1F24"
-					type: "item"
-					item: "occultism:iesnium_ingot"
-					count: 2L
-				}
-				{
-					id: "4872F4DB46AB7ECF"
-					type: "item"
-					item: "refinedpipes:advanced_item_pipe"
-				}
-				{
-					id: "3F930BD96EE5CCB1"
-					type: "item"
-					item: "expandedstorage:netherite_chest"
-				}
-				{
-					id: "43CE3D5270C2B95B"
-					type: "item"
-					item: "create:brass_hand"
-				}
-			]
-		}
-		{
-			title: "Fusionner 2000 - Compact Factory Item Input Port"
-			icon: "masterfulmachinery:fusioner_compact_item_port_items_input"
-			x: 8.5d
-			y: 7.25d
-			subtitle: "No more comments"
-			description: ["                          &k&l&0F&rU&k&l&0S&rI&k&l&0O&rN&k&l&0N&rE&k&l&0R&r &k&l&02&r0&k&l&00&r0&r"]
-			dependencies: ["130FD9C228CCC91A"]
-			id: "30E398C08A1F89DC"
-			tasks: [
-				{
-					id: "133997AB028129C8"
-					type: "item"
-					item: "emendatusenigmatica:enderium_ingot"
-					count: 4L
-				}
-				{
-					id: "5171261183C0BEA7"
-					type: "item"
-					item: "occultism:iesnium_ingot"
-					count: 2L
-				}
-				{
-					id: "6F2A0DE968EEE86B"
-					type: "item"
-					item: "expandedstorage:netherite_chest"
-				}
-				{
-					id: "081404C8C0A38CF5"
-					type: "item"
-					item: "refinedpipes:advanced_item_pipe"
-				}
-				{
-					id: "4EDDF6F8B0A6F7C9"
-					type: "item"
-					item: "create:depot"
 				}
 			]
 		}
@@ -2966,6 +2838,161 @@
 							spiritName: "Mrokairmur"
 						}
 					}
+				}
+			]
+		}
+		{
+			title: "How to automate Thermal Machines Frames?"
+			x: 15.0d
+			y: 2.625d
+			shape: "gear"
+			subtitle: "Xnet is your best friend"
+			description: [
+				"In order to automate the &6Machine Frames&r of &bThermal&r you will need &2Xnet&r and &5Entangled&r."
+				""
+				"The first thing to know is that xnet has to take the items from any storage, so the first thing to do is to create any storage capable of holding the needed items for the &aritual&r."
+				""
+				"Next up you'll have to set up filters for each &0sacrificial bowls&r and insert the main item in a &eModular Router&r. Be sure to setup it correctly as you should add the &7&lActivator Module&r (configuration needed: &nRight-click&r and &credstone mode&r set to high). Also don't forget to setup your filter correctly on the &eRouter&r."
+				""
+				"Now with the &5Entangled Mod&r you will be able to bind your &6Golden Sacricial Bowl&r. Now that it's done setup a &4Logic Channel&r where you'll have to put the &nConnector&r in sensor mode on the entangled. For configuration, please be sure to look at the screenshots below."
+				"{image:chroma:textures/quests/auto_occultism_1.png width:100 height:150 align:1}"
+				""
+				"{image:chroma:textures/quests/auto_occultism_2.png width:100 height:100 align:1}"
+				""
+				"On the &eRouter&r Connector you should put &nOutput&r as this screenshot shows :"
+				"{image:chroma:textures/quests/auto_occultism_3.png width:100 height:100 align:1}"
+				""
+				"Finally, you should know that the &0ritual&r will make the output pop out. So you should prepare an &5Absorption Hopper&r to obtain the &6Output&r."
+				""
+				"Here are two screenshots that will help you to build your automation : "
+				""
+				"{image:chroma:textures/quests/auto_occultism_4.png width:100 height:100 align:1}"
+				""
+				"{image:chroma:textures/quests/auto_occultism_5.png width:200 height:100 align:1}"
+			]
+			dependencies: ["3A99B2052AE4BAC9"]
+			size: 1.5d
+			min_width: 350
+			id: "179E03468E28F776"
+			tasks: [{
+				id: "4E71887780ACE945"
+				type: "checkmark"
+				title: "Thermal Machine Frame automation"
+			}]
+		}
+		{
+			title: "Fusionner 2000"
+			icon: "masterfulmachinery:fusioner_controller"
+			x: 12.0d
+			y: 11.25d
+			shape: "gear"
+			description: [
+				"Build The Fusionner 2000 Machine Factory."
+				""
+				"              &k&l&0F&rU&k&l&0S&rI&k&l&0O&rN&k&l&0N&rE&k&l&0R&r &k&l&02&r0&k&l&00&r0&r"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"281F853004D0032C"
+				"2F7EB9DBC6CE7522"
+				"752D0E77356EF94B"
+				"0C0C74A282D40D04"
+				"3F4EE4690D506E30"
+				"5C545750FEB2314B"
+				"130FD9C228CCC91A"
+			]
+			size: 2.0d
+			id: "47FB5940D83B6DF2"
+			tasks: [
+				{
+					id: "44C95DE5D6D8821E"
+					type: "item"
+					item: "masterfulmachinery:fusioner_controller"
+				}
+				{
+					id: "3654EB956823AA4A"
+					type: "item"
+					item: "masterfulmachinery:fusioner_compact_item_port_items_input"
+				}
+				{
+					id: "53D8A80A6E77D771"
+					type: "item"
+					item: "masterfulmachinery:fusioner_compact_item_port_items_output"
+				}
+				{
+					id: "71D9E9A98B98AF7C"
+					type: "item"
+					item: "masterfulmachinery:fusioner_compact_energy_port_energy_input"
+				}
+				{
+					id: "77647F628FEFF287"
+					type: "item"
+					item: "create:deployer"
+					count: 4L
+				}
+				{
+					id: "3E0461C1903C5E85"
+					type: "item"
+					item: "create:depot"
+				}
+				{
+					id: "2D804FA9F7244421"
+					type: "item"
+					item: "chisel:factory/hazard"
+					count: 6L
+				}
+				{
+					id: "14C491A7117E4C8A"
+					type: "item"
+					item: "chisel:factory/column"
+					count: 8L
+				}
+				{
+					id: "5556DFCF0E7532AD"
+					type: "item"
+					item: "simplylight:illuminant_gray_block_on"
+					count: 4L
+				}
+				{
+					id: "6CB36C03FD9F7CEC"
+					type: "item"
+					item: "simplylight:illuminant_red_block_on"
+				}
+				{
+					id: "3BF4D01C91671DBF"
+					type: "item"
+					item: "immersiveposts:fence_iron"
+					count: 16L
+				}
+				{
+					id: "07D65567D614E223"
+					type: "item"
+					item: "chisel:laboratory/fuzzscreen"
+					count: 17L
+				}
+				{
+					id: "1B62708319B4B950"
+					type: "item"
+					item: "immersiveengineering:lantern"
+					count: 4L
+				}
+				{
+					id: "27920EC2FDF778D7"
+					type: "item"
+					item: "immersiveengineering:connector_probe"
+					count: 4L
+				}
+				{
+					id: "103178FB257CAE6D"
+					type: "item"
+					item: "occultism:spirit_attuned_crystal"
+					count: 8L
+				}
+				{
+					id: "53D10528B8613E74"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 83L
 				}
 			]
 		}

@@ -1,7 +1,7 @@
 {
 	id: "6BDF214F9D190D38"
 	group: "34085A64296DE6C7"
-	order_index: 6
+	order_index: 5
 	filename: "ch_9bis"
 	title: "Ch. 9bis"
 	icon: "rftoolsbase:machine_frame"
@@ -30,6 +30,7 @@
 			x: 0.5d
 			y: -4.0d
 			shape: "rsquare"
+			description: ["The more powercell you put for the multiblock, more energy will be stocked"]
 			dependencies: ["3B8FE588BB137295"]
 			id: "1C0DB5CDE08C77D0"
 			tasks: [{
@@ -146,6 +147,17 @@
 			x: -0.5d
 			y: 1.5d
 			shape: "diamond"
+			subtitle: "Wireless Energy"
+			description: [
+				"&4Powercells&r are used to create a wireless network for your energy"
+				""
+				"Depending on the cell it will be less or more effective."
+				""
+				"How does it work? take a &cCell Card&r and put it in a &1Powercell, put it in the first slot and it will have a number on it."
+				"That number corresponds to your network. the second slot is to copy your network to another cell, take the new created card and put it in another &1Powercell&r."
+				""
+				"Be aware that players can copy your networkd and put it on their own &1Powercell&r."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"3B8FE588BB137295"
@@ -162,6 +174,11 @@
 			x: 0.0d
 			y: 3.5d
 			shape: "octagon"
+			description: [
+				"The &3Infuser&r can \"upgrade\" your &bRFtools&r machines"
+				""
+				"They will be faster ! But be aware, it does consume a lot more energy and you have to upgrade with those &1Dimensional Shards&r"
+			]
 			dependencies: ["3B8FE588BB137295"]
 			size: 1.3d
 			id: "54E011FE5DF138FB"
@@ -175,6 +192,12 @@
 			x: -1.25d
 			y: 2.75d
 			shape: "diamond"
+			subtitle: "Generates RF with &6Blazing Rods&r"
+			description: [
+				"So as we saw on the last quest"
+				""
+				"Just put your &bInfused&r &6Blazing Rods&r and generate some RF !"
+			]
 			dependencies: ["3B8FE588BB137295"]
 			id: "41874C23EF0F8113"
 			tasks: [{
@@ -187,6 +210,11 @@
 			x: -2.25d
 			y: 1.75d
 			shape: "diamond"
+			description: [
+				"With some energy, you will be able to craft some &6Blazing Rods&r"
+				""
+				"Just put 9 of them and thoses will be transformed"
+			]
 			dependencies: ["3B8FE588BB137295"]
 			id: "417F4B83BD968772"
 			tasks: [{
@@ -199,6 +227,13 @@
 			x: -1.75d
 			y: 2.25d
 			shape: "diamond"
+			description: [
+				"Once you have crafted the &6Blazing Rods&r you can infuse them with some &bDimensional Shards&r"
+				""
+				"Put one rod and shards and let the recipe do it's job."
+				""
+				"Once that is done this &bInfused&r &6Blazing Rod&r will generates more RF than a singular &6Blazing Rod&r"
+			]
 			dependencies: ["3B8FE588BB137295"]
 			id: "759ACC878C3E50CB"
 			tasks: [{
@@ -235,6 +270,8 @@
 			x: 2.25d
 			y: 1.75d
 			shape: "diamond"
+			subtitle: "Endergenic Power Generation"
+			description: ["Throw an Ender Pearl at an Endergenic Generator at just the right moment and energy will be produced."]
 			dependencies: ["3B8FE588BB137295"]
 			id: "1E35D0500C2D5866"
 			tasks: [{
@@ -259,6 +296,15 @@
 			x: 0.0d
 			y: 11.0d
 			shape: "octagon"
+			description: [
+				"Here is the &3Builder !&r"
+				""
+				"Build some cool stuff with it ? You can!"
+				""
+				"Just put the wanted shape card in it."
+				""
+				"How does it work? shift Right Click with a shape card in the main hand and select two blocks that are opposed to each other, you do not want to select a radius of two blocks... unless that's what you really want of course."
+			]
 			dependencies: ["3B8FE588BB137295"]
 			size: 1.3d
 			id: "1FD4F995B3B12748"
@@ -271,6 +317,11 @@
 		{
 			x: -2.5d
 			y: -2.5d
+			description: [
+				"In order to create a &bShield&r you must use those &5Shield Projectors&r"
+				""
+				"Each projector has a better protection depending on the tier you're using."
+			]
 			dependencies: [
 				"3B8FE588BB137295"
 				"1F71F911773ED178"
@@ -318,6 +369,13 @@
 		{
 			x: 2.5d
 			y: -2.5d
+			description: [
+				"Three different tiers of &bCrafters&r"
+				""
+				"Each Crafter has the double of the previous used in the crafting"
+				""
+				"Tier 1 : Two Crafts"
+			]
 			dependencies: ["3B8FE588BB137295"]
 			id: "73522C1F2133E416"
 			tasks: [{
@@ -329,6 +387,7 @@
 		{
 			x: 2.5d
 			y: -1.5d
+			description: ["Tier 2 : Four Crafts"]
 			dependencies: ["73522C1F2133E416"]
 			id: "5A2B5A127662EDF6"
 			tasks: [{
@@ -340,6 +399,7 @@
 		{
 			x: 2.5d
 			y: -0.5d
+			description: ["Tier 3 : Eight Crafts"]
 			dependencies: ["5A2B5A127662EDF6"]
 			id: "61C77F8185B1F2AF"
 			tasks: [{
@@ -365,6 +425,14 @@
 			x: 0.75d
 			y: 5.25d
 			shape: "hexagon"
+			subtitle: "Spawning mobs"
+			description: [
+				"In Order to spawn mobs you will have to craft 3 beams."
+				""
+				"The &cSyringue&r has to be entirely filled with mob essence (Note that Dragons are not spawnable)"
+				""
+				"Each beam has to be filled with one single item."
+			]
 			hide_dependency_lines: true
 			dependencies: ["3B8FE588BB137295"]
 			id: "0C3AF28CABEB9B5E"
@@ -478,6 +546,11 @@
 			x: 0.0d
 			y: 12.5d
 			shape: "diamond"
+			description: [
+				"This quest will adk you to craft all &2Shape Cards&r for the &6Builder&r"
+				""
+				"I suggest you check on the &bRFtools&r guide to see what they do.... Unless you wanna have a surprise, it's up to you"
+			]
 			dependencies: ["1FD4F995B3B12748"]
 			size: 1.5d
 			id: "1D83173640E83494"
@@ -1030,7 +1103,7 @@
 		}
 		{
 			x: -0.5d
-			y: -9.0d
+			y: -10.0d
 			shape: "diamond"
 			dependencies: ["12658BA7FA33E104"]
 			optional: true
@@ -1043,7 +1116,7 @@
 		}
 		{
 			x: 0.0d
-			y: -8.5d
+			y: -9.5d
 			shape: "diamond"
 			dependencies: ["12658BA7FA33E104"]
 			optional: true
@@ -1056,7 +1129,7 @@
 		}
 		{
 			x: 0.5d
-			y: -9.0d
+			y: -10.0d
 			shape: "diamond"
 			dependencies: ["12658BA7FA33E104"]
 			optional: true
@@ -1069,7 +1142,7 @@
 		}
 		{
 			x: -1.0d
-			y: -7.5d
+			y: -8.5d
 			shape: "diamond"
 			dependencies: ["12658BA7FA33E104"]
 			optional: true
@@ -1082,7 +1155,7 @@
 		}
 		{
 			x: 1.0d
-			y: -7.5d
+			y: -8.5d
 			shape: "diamond"
 			dependencies: ["12658BA7FA33E104"]
 			optional: true
@@ -1095,7 +1168,7 @@
 		}
 		{
 			x: 0.0d
-			y: -9.5d
+			y: -10.5d
 			shape: "diamond"
 			dependencies: ["12658BA7FA33E104"]
 			optional: true
@@ -1108,7 +1181,7 @@
 		}
 		{
 			x: -0.5d
-			y: -8.0d
+			y: -9.0d
 			shape: "diamond"
 			dependencies: ["12658BA7FA33E104"]
 			optional: true
@@ -1121,7 +1194,7 @@
 		}
 		{
 			x: 0.5d
-			y: -8.0d
+			y: -9.0d
 			shape: "diamond"
 			dependencies: ["12658BA7FA33E104"]
 			optional: true
@@ -1134,7 +1207,7 @@
 		}
 		{
 			x: 1.0d
-			y: -8.5d
+			y: -9.5d
 			shape: "diamond"
 			dependencies: ["12658BA7FA33E104"]
 			optional: true
@@ -1147,7 +1220,7 @@
 		}
 		{
 			x: 0.0d
-			y: -7.5d
+			y: -8.5d
 			shape: "diamond"
 			dependencies: ["12658BA7FA33E104"]
 			optional: true
@@ -1160,7 +1233,7 @@
 		}
 		{
 			x: -1.0d
-			y: -8.5d
+			y: -9.5d
 			shape: "diamond"
 			dependencies: ["12658BA7FA33E104"]
 			optional: true
@@ -1181,120 +1254,6 @@
 				id: "2C18B1C9E9F0E973"
 				type: "item"
 				item: "rftoolspower:blazing_rod"
-			}]
-		}
-		{
-			icon: "mekanism:basic_control_circuit"
-			x: 13.75d
-			y: 6.75d
-			dependencies: [
-				"14FF9B95901366D2"
-				"55F3634100ED3E10"
-			]
-			id: "2B471E4CC0E02DED"
-			tasks: [{
-				id: "3C9263A8B9322A17"
-				type: "item"
-				item: "mekanism:basic_control_circuit"
-			}]
-		}
-		{
-			x: 15.0d
-			y: 4.75d
-			dependencies: ["2B471E4CC0E02DED"]
-			id: "282686B58A4A46B3"
-			tasks: [{
-				id: "1294B8D7F25B212A"
-				type: "item"
-				item: "mekanism:basic_smelting_factory"
-			}]
-		}
-		{
-			x: 18.0d
-			y: 6.75d
-			dependencies: ["2B471E4CC0E02DED"]
-			id: "7580EA8FEB09D203"
-			tasks: [{
-				id: "5AF4B6FF03F435BA"
-				type: "item"
-				item: "mekanism:basic_enriching_factory"
-			}]
-		}
-		{
-			x: 16.0d
-			y: 5.0d
-			dependencies: ["2B471E4CC0E02DED"]
-			id: "69EE8C9626ACB3DB"
-			tasks: [{
-				id: "45EEB9EAE2EA7560"
-				type: "item"
-				item: "mekanism:basic_crushing_factory"
-			}]
-		}
-		{
-			x: 17.5d
-			y: 7.5d
-			dependencies: ["2B471E4CC0E02DED"]
-			id: "670832222E94FB36"
-			tasks: [{
-				id: "15C82DAFC562CACE"
-				type: "item"
-				item: "mekanism:basic_compressing_factory"
-			}]
-		}
-		{
-			x: 16.75d
-			y: 8.0d
-			dependencies: ["2B471E4CC0E02DED"]
-			id: "0A619D8601AF32F6"
-			tasks: [{
-				id: "222E57C1ADB3D790"
-				type: "item"
-				item: "mekanism:basic_combining_factory"
-			}]
-		}
-		{
-			x: 16.0d
-			y: 8.5d
-			dependencies: ["2B471E4CC0E02DED"]
-			id: "111B28C345B37E20"
-			tasks: [{
-				id: "18AAEDCCD174EEAC"
-				type: "item"
-				item: "mekanism:basic_purifying_factory"
-			}]
-		}
-		{
-			x: 15.0d
-			y: 8.75d
-			dependencies: ["2B471E4CC0E02DED"]
-			id: "79392517E218E485"
-			tasks: [{
-				id: "6767084583EB31B9"
-				type: "item"
-				item: "mekanism:basic_injecting_factory"
-			}]
-		}
-		{
-			x: 17.5d
-			y: 6.0d
-			dependencies: ["2B471E4CC0E02DED"]
-			id: "32D1047D7DF5EC10"
-			tasks: [{
-				id: "400E8294B26D68D6"
-				type: "item"
-				item: "mekanism:basic_infusing_factory"
-			}]
-		}
-		{
-			x: 16.75d
-			y: 5.5d
-			dependencies: ["2B471E4CC0E02DED"]
-			id: "11EA0877E19BD365"
-			tasks: [{
-				id: "1FF593E860403EA2"
-				type: "item"
-				item: "mekanism:basic_sawing_factory"
 			}]
 		}
 		{
@@ -1594,236 +1553,23 @@
 			}]
 		}
 		{
-			x: 13.75d
-			y: -5.75d
-			hide_dependency_lines: true
-			dependencies: ["2B471E4CC0E02DED"]
-			id: "5A250FD54B5D5215"
-			tasks: [{
-				id: "4FA64357ED98A682"
-				type: "item"
-				item: "mekanism:advanced_control_circuit"
-			}]
-		}
-		{
-			x: 13.75d
-			y: 8.0d
-			dependencies: [
-				"2B471E4CC0E02DED"
-				"56D83790E33B0765"
-				"109D647ED52D215D"
+			x: 0.0d
+			y: -7.25d
+			shape: "rsquare"
+			description: [
+				"This &3Wrench&r can do a lot of stuff with the mod &6RFtools&r"
+				""
+				"When you right click with it on a &6RFtools&r machine you can setup the &b input&r and obviously the &4output&r"
+				""
+				"But when you &nshift right click&r, you beack the machine instantly, so you better use that unless you pickaxe is unbreakable or has a very large durability"
 			]
-			id: "0B9616C3E8DAA216"
+			dependencies: ["6AF898598004DEC3"]
+			id: "00A63DC5CACB32D7"
 			tasks: [{
-				id: "57DFA0AD6C9EC93E"
+				id: "5980B3847A5B169A"
 				type: "item"
-				item: "mekanism:basic_tier_installer"
+				item: "rftoolsbase:smartwrench"
 			}]
-		}
-		{
-			x: 13.75d
-			y: -3.25d
-			dependencies: [
-				"114B2878B5B32D2E"
-				"4B0253447D712CBC"
-				"5A250FD54B5D5215"
-			]
-			id: "785726F5B8A14533"
-			tasks: [{
-				id: "4296FCADB3A0BBA7"
-				type: "item"
-				item: "mekanism:advanced_tier_installer"
-			}]
-		}
-		{
-			x: 12.0d
-			y: -5.75d
-			dependencies: ["5A250FD54B5D5215"]
-			id: "0EF4B58CE03935A0"
-			tasks: [{
-				id: "460A14EDD5C86EF1"
-				type: "item"
-				item: "mekanism:advanced_smelting_factory"
-			}]
-		}
-		{
-			x: 12.75d
-			y: -9.0d
-			dependencies: ["5A250FD54B5D5215"]
-			id: "6E9AF8DA6275CF59"
-			tasks: [{
-				id: "4EC27FCF9D68A15C"
-				type: "item"
-				item: "mekanism:advanced_enriching_factory"
-			}]
-		}
-		{
-			x: 12.0d
-			y: -7.0d
-			dependencies: ["5A250FD54B5D5215"]
-			id: "116C7F18D346AB1A"
-			tasks: [{
-				id: "569527C0838AE2AA"
-				type: "item"
-				item: "mekanism:advanced_crushing_factory"
-			}]
-		}
-		{
-			x: 14.75d
-			y: -9.0d
-			dependencies: ["5A250FD54B5D5215"]
-			id: "5EDB7459BD7AE48C"
-			tasks: [{
-				id: "4A5261E0B9B692F2"
-				type: "item"
-				item: "mekanism:advanced_compressing_factory"
-			}]
-		}
-		{
-			x: 15.25d
-			y: -8.0d
-			dependencies: ["5A250FD54B5D5215"]
-			id: "1D775E93455EBDC2"
-			tasks: [{
-				id: "1B9F4892F5A76A48"
-				type: "item"
-				item: "mekanism:advanced_combining_factory"
-			}]
-		}
-		{
-			x: 15.5d
-			y: -7.0d
-			dependencies: ["5A250FD54B5D5215"]
-			id: "0512FA22CE3F14B4"
-			tasks: [{
-				id: "34EC08A160DC8F87"
-				type: "item"
-				item: "mekanism:advanced_purifying_factory"
-			}]
-		}
-		{
-			x: 15.5d
-			y: -5.75d
-			dependencies: ["5A250FD54B5D5215"]
-			id: "3ADA0A827DBF2DA8"
-			tasks: [{
-				id: "616503B1CDF3B35E"
-				type: "item"
-				item: "mekanism:advanced_injecting_factory"
-			}]
-		}
-		{
-			x: 13.75d
-			y: -9.5d
-			dependencies: ["5A250FD54B5D5215"]
-			id: "203AE381220EE8A5"
-			tasks: [{
-				id: "2784BBA36E698720"
-				type: "item"
-				item: "mekanism:advanced_infusing_factory"
-			}]
-		}
-		{
-			x: 12.25d
-			y: -8.0d
-			dependencies: ["5A250FD54B5D5215"]
-			id: "46D40D3B5B4374AA"
-			tasks: [{
-				id: "44BDE025F5793A69"
-				type: "item"
-				item: "mekanism:advanced_sawing_factory"
-			}]
-		}
-		{
-			x: 11.0d
-			y: 5.75d
-			dependencies: [
-				"033D2475938C8178"
-				"3C084802A24F44D7"
-				"3CE25095E2661776"
-			]
-			id: "06E929A9B225DED8"
-			tasks: [{
-				id: "0B112710EDCE2346"
-				type: "item"
-				item: "mekanism:advanced_fluid_tank"
-			}]
-		}
-		{
-			x: 11.0d
-			y: 7.75d
-			dependencies: [
-				"033D2475938C8178"
-				"40C970572379006E"
-				"3C04F89B893C3AD4"
-			]
-			id: "7B334DD859CD2A0D"
-			tasks: [{
-				id: "084ADA8E26BDA7D3"
-				type: "item"
-				item: "mekanism:advanced_chemical_tank"
-			}]
-		}
-		{
-			x: 12.75d
-			y: -4.5d
-			hide_dependency_lines: true
-			dependencies: [
-				"114B2878B5B32D2E"
-				"7B334DD859CD2A0D"
-				"44EA7B9CD882DADB"
-			]
-			id: "39973947CA6FE895"
-			tasks: [{
-				id: "2F1608DE4365F0CD"
-				type: "item"
-				item: "mekanism:elite_chemical_tank"
-			}]
-		}
-		{
-			x: 14.75d
-			y: -4.5d
-			hide_dependency_lines: true
-			dependencies: [
-				"114B2878B5B32D2E"
-				"06E929A9B225DED8"
-				"44EA7B9CD882DADB"
-			]
-			id: "223F7BFBBAB30209"
-			tasks: [{
-				id: "30EAC78843013E4E"
-				type: "item"
-				item: "mekanism:elite_fluid_tank"
-			}]
-		}
-		{
-			x: 13.75d
-			y: 5.25d
-			dependencies: ["0CFC7C9AB7128966"]
-			id: "55F3634100ED3E10"
-			tasks: [{
-				id: "5E23FADA593DA1EA"
-				type: "item"
-				item: "kubejs:enriched_energized_uranium"
-			}]
-		}
-		{
-			x: 12.25d
-			y: 5.25d
-			dependencies: ["5174E5B7DC17EF63"]
-			id: "0CFC7C9AB7128966"
-			tasks: [
-				{
-					id: "36D236C206322F7D"
-					type: "item"
-					item: "kubejs:energized_uranium_block"
-				}
-				{
-					id: "5BFDD65E1BEECFF1"
-					type: "item"
-					item: "kubejs:energized_uranium"
-				}
-			]
 		}
 	]
 }

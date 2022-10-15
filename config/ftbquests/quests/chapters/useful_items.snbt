@@ -15,13 +15,15 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 0.0d
-			y: 0.0d
+			x: 15.5d
+			y: 16.5d
+			shape: "gear"
 			dependencies: [
 				"0623F7FAB4511760"
 				"679DF08FABBE8A87"
 				"00E6F30F0B847212"
 			]
+			size: 2.0d
 			id: "6321C311B46FC390"
 			tasks: [{
 				id: "17B3F79AF03D031C"
@@ -36,8 +38,9 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 0.0d
+			x: 20.5d
+			y: 5.75d
+			shape: "hexagon"
 			id: "55A1B520C4AB7A8C"
 			tasks: [{
 				id: "5BDCCD7B2D798F18"
@@ -50,8 +53,9 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 0.0d
+			x: 22.5d
+			y: 5.75d
+			shape: "hexagon"
 			id: "607038F8C91DC55C"
 			tasks: [{
 				id: "44294B3AA706FF94"
@@ -65,8 +69,9 @@
 		}
 		{
 			title: "&#806517Handled Crafting Table&r"
-			x: 3.0d
-			y: 0.0d
+			x: 17.25d
+			y: -1.5d
+			shape: "square"
 			subtitle: "Store your crafting table in your pocket."
 			dependencies: ["1C7C41C2FA427B8F"]
 			id: "6F206C31ECDB6FCB"
@@ -78,8 +83,9 @@
 		}
 		{
 			icon: "waystones:waystone"
-			x: 4.0d
-			y: 0.0d
+			x: 21.5d
+			y: 5.75d
+			shape: "octagon"
 			id: "0C6C8EEA525B1E98"
 			tasks: [{
 				id: "548591A6FDEBBC19"
@@ -108,8 +114,9 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 1.25d
+			x: 17.5d
+			y: 3.5d
+			shape: "diamond"
 			description: ["Can place up to 9 blocks at once!"]
 			id: "638165806CD28566"
 			tasks: [{
@@ -126,8 +133,9 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 1.25d
+			x: 18.0d
+			y: 4.0d
+			shape: "diamond"
 			description: ["Can place up to 27 blocks at once!"]
 			id: "63F28BD0AF216A10"
 			tasks: [{
@@ -144,8 +152,9 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 1.25d
+			x: 18.5d
+			y: 4.5d
+			shape: "diamond"
 			description: ["Can place up to 128 blocks at once!"]
 			id: "6C2EDE1E42BE0A94"
 			tasks: [{
@@ -162,8 +171,9 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 1.25d
+			x: 19.0d
+			y: 5.0d
+			shape: "diamond"
 			description: ["Can place up to 1024 blocks at once!"]
 			id: "048043A236E1665A"
 			tasks: [{
@@ -179,8 +189,9 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 2.5d
+			x: 12.0d
+			y: -1.0d
+			shape: "rsquare"
 			id: "11EF1BF56CF6467F"
 			tasks: [{
 				id: "661AD39C50A7226A"
@@ -189,8 +200,9 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 2.5d
+			x: 12.0d
+			y: 0.0d
+			shape: "rsquare"
 			id: "5C879571A9D252AE"
 			tasks: [{
 				id: "475608E181E9584C"
@@ -199,8 +211,9 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 3.75d
+			x: 12.0d
+			y: 5.0d
+			shape: "diamond"
 			id: "0F68C52D0DC642D4"
 			tasks: [{
 				id: "7D621DB67A125D61"
@@ -209,8 +222,9 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 3.75d
+			x: 12.5d
+			y: 4.5d
+			shape: "diamond"
 			id: "7A5CF37CA4758C02"
 			tasks: [{
 				id: "0A56F5DA7E15EB11"
@@ -219,8 +233,9 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 3.75d
+			x: 13.0d
+			y: 4.0d
+			shape: "diamond"
 			id: "71DF957C13C681EF"
 			tasks: [{
 				id: "2A5E71D6EC685B78"
@@ -229,8 +244,9 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 3.75d
+			x: 13.5d
+			y: 3.5d
+			shape: "diamond"
 			id: "7B7B1D359C4A42DA"
 			tasks: [{
 				id: "0E6395C0634315AA"
@@ -239,8 +255,9 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 5.0d
+			x: 21.25d
+			y: 10.75d
+			shape: "rsquare"
 			id: "2E8A9D0CED3B0627"
 			tasks: [{
 				id: "3803CE27C418CDF3"
@@ -321,8 +338,9 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 5.0d
+			x: 21.25d
+			y: 11.75d
+			shape: "rsquare"
 			id: "71D5F6597073E0DF"
 			tasks: [{
 				id: "26EE6A09AB9E78F6"
@@ -331,8 +349,9 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 0.0d
+			x: 13.75d
+			y: -1.5d
+			shape: "square"
 			dependencies: [
 				"54DC8317D4B7A510"
 				"677773349FE468C2"
@@ -352,9 +371,9 @@
 		{
 			title: "Sleeping Bag"
 			icon: "comforts:sleeping_bag_light_blue"
-			x: 0.0d
-			y: 6.25d
-			dependencies: ["1C7C41C2FA427B8F"]
+			x: 10.0d
+			y: 10.75d
+			shape: "rsquare"
 			id: "38D2E67E3EAF0C45"
 			tasks: [{
 				id: "0C6A1F0C9EC0F8BE"
@@ -437,9 +456,9 @@
 		{
 			title: "Hammock"
 			icon: "comforts:hammock_light_blue"
-			x: 1.0d
-			y: 6.25d
-			dependencies: ["1C7C41C2FA427B8F"]
+			x: 10.0d
+			y: 11.75d
+			shape: "rsquare"
 			id: "4CF7A627823E69EE"
 			tasks: [
 				{
@@ -528,8 +547,9 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: 7.25d
+			x: 8.5d
+			y: 5.5d
+			shape: "hexagon"
 			subtitle: "The Schematicannon is required for building a loaded and positioned Schematic"
 			description: [
 				"It will use materials from adjacent inventories unless a Schematicannon Creatifier Crate has been placed next to it."
@@ -555,8 +575,9 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 7.25d
+			x: 10.5d
+			y: 5.5d
+			shape: "hexagon"
 			subtitle: "Using the Schematic module you can load Structures and bring them into the world"
 			description: [
 				"Craft yourself a Schematic Table and place it in your workshop. Open it up and place the Empty Schematic in the input slot on the left. The checkered area shows the schematic file to be loaded onto the item."
@@ -1359,8 +1380,8 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: 8.0d
+			x: 15.52976190476192d
+			y: 8.043112244898033d
 			shape: "gear"
 			description: [
 				"The Modular Router is the centre of the system: it has a single buffer slot for items, nine module slots, and five upgrade slots."
@@ -1372,7 +1393,7 @@
 				"6B12289F3D68A2C1"
 				"15CD0545458B6513"
 			]
-			size: 2.0d
+			size: 2.5d
 			id: "7AF65DD50D0EDA7A"
 			tasks: [{
 				id: "22CCC714D20F6623"
@@ -1748,8 +1769,8 @@
 			}]
 		}
 		{
-			x: -3.3500000000000014d
-			y: 14.75d
+			x: 11.149999999999999d
+			y: 16.5d
 			subtitle: "Basic stuff"
 			description: ["Unlocks Create's and Occultism's Jetpack. "]
 			dependencies: [
@@ -1764,8 +1785,8 @@
 			}]
 		}
 		{
-			x: 0.6454081632653086d
-			y: 22.705272108843538d
+			x: 15.5d
+			y: 24.75d
 			subtitle: "I am speed"
 			description: ["Unlocks Botania's and Undergarden's Jetpack. "]
 			dependencies: [
@@ -1780,8 +1801,8 @@
 			}]
 		}
 		{
-			x: 4.69302721088436d
-			y: 14.795748299319733d
+			x: 19.94302721088436d
+			y: 16.5d
 			subtitle: "Nyoooom"
 			description: ["Unlocks Extreme Reactor's and EnderIO Alloys's Jetpack. "]
 			dependencies: [
@@ -1796,8 +1817,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 18.75d
+			x: 24.75d
+			y: 20.454251700680267d
 			subtitle: "Faster Than Light"
 			description: ["Unlocks Powah's Jetpack. "]
 			id: "54ECD5468EAC1B26"
@@ -1808,8 +1829,8 @@
 			}]
 		}
 		{
-			x: 5.25d
-			y: 18.75d
+			x: 20.5d
+			y: 20.454251700680267d
 			subtitle: "The sun in a bottle"
 			description: ["Crafted in Custom Machinery's Alloy Smelter."]
 			dependencies: [
@@ -1825,8 +1846,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 16.25d
+			x: 21.75d
+			y: 17.954251700680267d
 			subtitle: "Uhh does anyone know how that works ?"
 			description: ["Crafted in Extended's Crafting Advanced Crafting Table."]
 			dependencies: ["4BD29526B90994E7"]
@@ -1838,8 +1859,8 @@
 			}]
 		}
 		{
-			x: 5.25d
-			y: 17.5d
+			x: 20.5d
+			y: 19.204251700680267d
 			subtitle: "The sun is a deadly laser"
 			description: ["Crafted in Extended's Crafting Advanced Crafting Table."]
 			dependencies: [
@@ -1854,8 +1875,8 @@
 			}]
 		}
 		{
-			x: 5.25d
-			y: 16.25d
+			x: 20.5d
+			y: 17.954251700680267d
 			subtitle: "Stars stored on your back"
 			description: ["Crafted in Extended's Crafting Ultimate Crafting Table."]
 			dependencies: [
@@ -1879,8 +1900,8 @@
 			}]
 		}
 		{
-			x: -1.25d
-			y: 21.25d
+			x: 13.0d
+			y: 23.0d
 			subtitle: "Oooo magic"
 			description: ["Crafted in Botania's Runic Altar."]
 			dependencies: ["679DF08FABBE8A87"]
@@ -1892,8 +1913,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 18.75d
+			x: 14.25d
+			y: 20.5d
 			subtitle: "Shiny"
 			description: ["Crafted using Botania's Terrastrial Agglomeration Plate."]
 			dependencies: [
@@ -1908,8 +1929,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 20.0d
+			x: 14.25d
+			y: 21.75d
 			subtitle: "Uses the mana for electricity"
 			description: ["Crafted in Botania's Runic Altar."]
 			dependencies: [
@@ -1925,8 +1946,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 21.25d
+			x: 14.25d
+			y: 23.0d
 			subtitle: "Magic is in the air "
 			description: ["Crafted using Botania's Terrastrial Agglomeration Plate."]
 			dependencies: [
@@ -1949,8 +1970,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 18.75d
+			x: 23.25d
+			y: 20.454251700680267d
 			subtitle: "Energy from the void"
 			description: ["Obtained from Environmental Tech's Void Miner Tier 6 or more with the custom \"Black Hole Harvester\" in the End Dimenstion. (Note that the \"Red Lens\" doubles the chances of obtaining it)."]
 			dependencies: [
@@ -1966,8 +1987,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 17.75d
+			x: 23.25d
+			y: 19.454251700680267d
 			subtitle: "Litteral rocket"
 			description: ["Obtained from Environmental Tech's Void Miner Tier 6 or more with the custom \"Black Hole Harvester\" in the End Dimenstion. (Note that the \"Red Lens\" doubles the chances of obtaining it)."]
 			dependencies: [
@@ -1983,8 +2004,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 19.75d
+			x: 23.25d
+			y: 21.454251700680267d
 			subtitle: "If this explodes we're screwed"
 			description: ["Crafted in Environmental Tech's Assembler."]
 			dependencies: ["685F94719391D77F"]
@@ -1996,8 +2017,8 @@
 			}]
 		}
 		{
-			x: 11.5d
-			y: 18.75d
+			x: 26.75d
+			y: 20.454251700680267d
 			subtitle: "I'm fast as f boiiii"
 			description: ["Crafted in Environmental Tech's Assembler."]
 			dependencies: [
@@ -2019,8 +2040,8 @@
 			}]
 		}
 		{
-			x: -2.75d
-			y: 18.75d
+			x: 11.75d
+			y: 20.5d
 			subtitle: "How does that work ?"
 			description: ["Crafted by throwing the mechanical cell into the Spirit Fire from Occultism."]
 			dependencies: [
@@ -2035,8 +2056,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 16.25d
+			x: 13.0d
+			y: 18.0d
 			subtitle: "You can hear demons screaming"
 			description: ["Crafted with Occultism's Ritual \"Eziveus' Spectral Compulsion\"."]
 			dependencies: ["7BF5F871992F55AE"]
@@ -2048,8 +2069,8 @@
 			}]
 		}
 		{
-			x: -2.75d
-			y: 17.5d
+			x: 11.75d
+			y: 19.25d
 			subtitle: "How do demons even have electricity ?"
 			description: ["Crafted with Occultism's Ritual \"Eziveus' Spectral Compulsion\"."]
 			dependencies: [
@@ -2064,8 +2085,8 @@
 			}]
 		}
 		{
-			x: -2.75d
-			y: 16.25d
+			x: 11.75d
+			y: 18.0d
 			subtitle: "It radiates dark magic"
 			description: ["Crafted using Occultism's ritual \"Sevira's Permanent Confinment\"."]
 			dependencies: [
@@ -2089,8 +2110,8 @@
 			}]
 		}
 		{
-			x: 1.25d
-			y: 18.75d
+			x: 16.75d
+			y: 20.5d
 			subtitle: "Un régal"
 			description: ["Crafted in Pneumaticraft's Assembly Line."]
 			dependencies: [
@@ -2105,8 +2126,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 21.25d
+			x: 18.0d
+			y: 23.0d
 			subtitle: "Whatever it uses to fly, it's good stuff"
 			description: ["Crafted using Pneumaticraft's Pressure Chamber."]
 			dependencies: ["7B9FBBCD2F962A0B"]
@@ -2118,8 +2139,8 @@
 			}]
 		}
 		{
-			x: 1.25d
-			y: 20.0d
+			x: 16.75d
+			y: 21.75d
 			subtitle: "Stores the energy of the depth"
 			description: ["Crafted using Pneumaticraft's Pressure Chamber."]
 			dependencies: [
@@ -2134,8 +2155,8 @@
 			}]
 		}
 		{
-			x: 1.25d
-			y: 21.25d
+			x: 16.75d
+			y: 23.0d
 			subtitle: "Going to the bottom to reach new height "
 			description: ["Crafted using Pneumaticraft's Pressure Chamber."]
 			dependencies: [
@@ -2159,8 +2180,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 18.75d
+			x: 10.5d
+			y: 20.5d
 			subtitle: "James Watt would be happy"
 			description: ["Crafted in a regular Crafting Table."]
 			min_required_dependencies: 2
@@ -2177,8 +2198,8 @@
 			}]
 		}
 		{
-			x: -5.25d
-			y: 16.25d
+			x: 9.25d
+			y: 18.0d
 			subtitle: "You sure you want to fly with this ?"
 			description: ["Crafted in Create's Compacter."]
 			dependencies: ["761BAE3E76AB71A3"]
@@ -2190,8 +2211,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 17.5d
+			x: 10.5d
+			y: 19.25d
 			subtitle: "Is that a potato or a capacitor ?"
 			description: ["Crafted in Create's Compacter."]
 			dependencies: ["1273070937E58B44"]
@@ -2203,8 +2224,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 16.25d
+			x: 10.5d
+			y: 18.0d
 			subtitle: "Click click click"
 			description: ["Crafted using Create's Mechanical Crafters."]
 			dependencies: [
@@ -2226,8 +2247,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 18.75d
+			x: 19.25d
+			y: 20.454251700680267d
 			subtitle: "Pinky"
 			description: ["Crafted using Industiral Foregoing's Dissolution Chamber (With 0.5 Bucket of Rossinite)."]
 			dependencies: [
@@ -2242,8 +2263,8 @@
 			}]
 		}
 		{
-			x: 2.75d
-			y: 16.25d
+			x: 18.0d
+			y: 17.954251700680267d
 			subtitle: "I'm not even sure what it shoots out anymore"
 			description: ["Crafted in a regular Crafting Table."]
 			dependencies: [
@@ -2258,8 +2279,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 17.5d
+			x: 19.25d
+			y: 19.204251700680267d
 			subtitle: "Stores Radiation /!\\"
 			description: ["Crafted in a regular Crafting Table."]
 			dependencies: ["3DA966C6436DB383"]
@@ -2271,8 +2292,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 16.25d
+			x: 19.25d
+			y: 17.954251700680267d
 			subtitle: "Beware of the radiations "
 			description: ["Crafted using Industiral Foregoing's Dissolution Chamber (With 8 Buckets of Ether Gas). "]
 			dependencies: [
@@ -2297,8 +2318,8 @@
 		}
 		{
 			title: "Mettre cristaux powah"
-			x: 9.75d
-			y: 17.5d
+			x: 27.75d
+			y: 20.25d
 			id: "117795A1C2C388CC"
 			tasks: [{
 				id: "0DF80884B4C90331"
@@ -2306,8 +2327,8 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: 18.75d
+			x: 7.5d
+			y: 20.5d
 			description: [
 				"Jetpacks are used throughout the game. They come in different tier, ranging from a very slow and with almost no energy jetpack, to one; if not the best way; to travel. "
 				""
@@ -2326,14 +2347,15 @@
 		}
 		{
 			title: "&dInformation about Create Schematics !"
-			x: 0.5d
-			y: 8.25d
+			x: 9.5d
+			y: 5.5d
+			shape: "octagon"
 			description: [
-				"On Chroma Endless you will be able to find a lot of custom multiblocks, we advise you to use the create schematics that we have provided you with to build the custom machines."
+				"On Chroma Endless you will be able to find a lot of custom multiblocks, we advise you to use the create schematics that we have provided you to build the custom machines."
 				""
 				"They are named MM_name_of_machine for Masterfull multiblock and CC_name_of_machine for mutiblock which are made with Compact Crafting !"
 				""
-				"You can find them all in the Schematics Table !"
+				"You can find them in the Schematics Table !"
 			]
 			dependencies: [
 				"3CBBAC9AEDBDE316"
@@ -2346,8 +2368,9 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -1.25d
+			x: 15.5d
+			y: -4.25d
+			shape: "octagon"
 			description: ["The Building Gadget allows you to build structures using a set of different Building Modes."]
 			id: "7927897C054A2F05"
 			tasks: [{
@@ -2369,8 +2392,9 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -1.25d
+			x: 14.25d
+			y: -3.0d
+			shape: "octagon"
 			description: ["The Exchanging Gadget provides basic exchanging abilities using a set of different Exchanging Modes."]
 			id: "1ECD79FC519D7BEC"
 			tasks: [{
@@ -2392,8 +2416,9 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -1.25d
+			x: 16.75d
+			y: -3.0d
+			shape: "octagon"
 			description: ["The Copy Paste Gadget allows you to select a large radius to copy and paste in a different location."]
 			id: "35FD512BD7931A6B"
 			tasks: [{
@@ -2415,8 +2440,9 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -1.25d
+			x: 15.5d
+			y: -1.75d
+			shape: "octagon"
 			description: ["The Destruction Gadget allows you to void a large area."]
 			id: "1D56E78A72A293DC"
 			tasks: [{
@@ -2433,8 +2459,10 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -1.25d
+			x: 15.5d
+			y: -3.0d
+			shape: "gear"
+			size: 1.5d
 			id: "735DFE40CEA8DAB7"
 			tasks: [{
 				id: "7BFE606899F1FD0B"
@@ -2443,8 +2471,9 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -2.25d
+			x: 18.75d
+			y: -1.0d
+			shape: "rsquare"
 			description: [
 				"&lBinding an Entangled Block&r"
 				"1. Craft an Entangled Block and an Entangled Binder"
@@ -2469,8 +2498,9 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -2.25d
+			x: 18.75d
+			y: 0.0d
+			shape: "rsquare"
 			description: ["Entangled Binder Allows you to control what blocks bind together!"]
 			id: "05E92D8B7478247F"
 			tasks: [{
@@ -2484,8 +2514,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -3.5d
+			x: 15.5d
+			y: -0.5d
 			description: ["You can trash Items !"]
 			id: "51C1BD39EFFC3779"
 			tasks: [{
@@ -2495,8 +2525,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -3.5d
+			x: 14.25d
+			y: 0.0d
 			description: ["You can trash Fluids !"]
 			id: "49E136B1520B2146"
 			tasks: [{
@@ -2506,8 +2536,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -3.5d
+			x: 16.75d
+			y: 0.0d
 			description: ["You can trash Energy !"]
 			id: "025EE85BB25CB285"
 			tasks: [{
@@ -2517,14 +2547,341 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -3.5d
+			x: 15.5d
+			y: 0.75d
 			description: ["You can trash everything."]
+			dependencies: [
+				"025EE85BB25CB285"
+				"49E136B1520B2146"
+				"51C1BD39EFFC3779"
+			]
 			id: "4A47C3C6F8C08B44"
 			tasks: [{
 				id: "7799A4A0F862DDEB"
 				type: "item"
 				item: "trashcans:ultimate_trash_can"
+			}]
+		}
+		{
+			x: 42.5d
+			y: 12.25d
+			subtitle: "Tier 2"
+			description: ["&bEnergy Capacity: 8,000,000 FE"]
+			dependencies: ["2D31986387CE4C65"]
+			id: "7598222D3C2DDB3B"
+			tasks: [{
+				id: "537E59A687B230C5"
+				type: "item"
+				item: "fluxnetworks:herculean_flux_storage"
+			}]
+		}
+		{
+			x: 41.25d
+			y: 11.25d
+			subtitle: "Used to Store Energy in the network"
+			description: [
+				"Flux Storage is used to store excess energy. It will only be filled once each Flux Point has received enough energy."
+				""
+				"This energy can only be accessed by removing energy with a Flux Point."
+				""
+				"&7&lThis energy can only be accessed by removing energy with a Flux Point."
+				""
+				"&bEnergy Capacity: 1,000,000 FE"
+			]
+			dependencies: ["1F71F911773ED178"]
+			min_width: 240
+			id: "2D31986387CE4C65"
+			tasks: [{
+				id: "0CAE0D826DE41651"
+				type: "item"
+				item: "fluxnetworks:basic_flux_storage"
+			}]
+		}
+		{
+			x: 43.75d
+			y: 11.5d
+			subtitle: "Tier 3"
+			description: ["&bEnergy Capacity: 128,000,000 FE"]
+			dependencies: ["7598222D3C2DDB3B"]
+			id: "1EA3FA891CD9D86B"
+			tasks: [{
+				id: "27948C2546309C33"
+				type: "item"
+				item: "fluxnetworks:gargantuan_flux_storage"
+			}]
+		}
+		{
+			x: 39.0d
+			y: 11.75d
+			subtitle: "Other key crafting ingredients of the mod !"
+			dependencies: ["0346878606EED7AF"]
+			min_width: 240
+			id: "641BEA5DCB499C89"
+			tasks: [{
+				id: "6521FD4200918689"
+				type: "item"
+				item: "fluxnetworks:flux_core"
+			}]
+		}
+		{
+			x: 39.0d
+			y: 10.25d
+			subtitle: "Other key crafting ingredients of the mod !"
+			dependencies: ["0346878606EED7AF"]
+			min_width: 240
+			id: "1F71F911773ED178"
+			tasks: [{
+				id: "63E3CC8DDDEC0897"
+				type: "item"
+				item: "fluxnetworks:flux_block"
+			}]
+		}
+		{
+			x: 39.0d
+			y: 8.75d
+			subtitle: "The key crafting ingredient of the mod"
+			dependencies: ["5E2A78C08B7A29B1"]
+			id: "0346878606EED7AF"
+			tasks: [{
+				id: "0350848958D861DE"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+			}]
+		}
+		{
+			x: 39.0d
+			y: 15.0d
+			shape: "pentagon"
+			description: ["Required to activate &lCross-dimensional inventory charging&r"]
+			dependencies: [
+				"1F71F911773ED178"
+				"0D3B58EA40DC53A8"
+			]
+			min_width: 240
+			id: "6FF7B4E1C7187615"
+			tasks: [{
+				id: "77C8636502F22F8F"
+				type: "item"
+				item: "fluxnetworks:flux_controller"
+			}]
+		}
+		{
+			x: 37.0d
+			y: 14.5d
+			subtitle: "Used to Remove Energy from the network"
+			description: ["You can remove energy from all sides simultaneously."]
+			dependencies: ["256631A4863B5967"]
+			min_width: 240
+			id: "3AC7B8BCFAEA298F"
+			tasks: [{
+				id: "0C452ACC04DC8B2F"
+				type: "item"
+				item: "fluxnetworks:flux_point"
+			}]
+		}
+		{
+			x: 36.5d
+			y: 12.75d
+			subtitle: "The Flux Configurator can also be connected to a network"
+			description: [
+				"● It can be used to access, edit, delete networks on the go. And shares the same GUI as connectors."
+				""
+				"● It can also be used to copy / paste settings between connectors."
+				""
+				"&lCopying Settings:&r Shift-Right Click on a connector to copy it's settings and then Right Click on a connector you wish to paste the settings to. If you right click something which isn't a connector you'll bring up the Network GUI and also you'll be able to edit the settings which the Configurator will paste. The configurator can also be renamed here, with the name field."
+			]
+			dependencies: ["641BEA5DCB499C89"]
+			min_width: 240
+			id: "256631A4863B5967"
+			tasks: [{
+				id: "7A49376458495B60"
+				type: "item"
+				item: "fluxnetworks:flux_configurator"
+			}]
+		}
+		{
+			x: 35.0d
+			y: 14.0d
+			subtitle: "Used for Adding Energy to the network"
+			description: ["You can add energy from all sides simultaneously."]
+			dependencies: ["256631A4863B5967"]
+			min_width: 240
+			id: "4ECC7C1447375BC6"
+			tasks: [{
+				id: "091665EC9CE00211"
+				type: "item"
+				item: "fluxnetworks:flux_plug"
+			}]
+		}
+		{
+			x: 40.75d
+			y: 3.75d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["032D6D89B4986CC0"]
+			id: "6EE391988F2155A8"
+			tasks: [{
+				id: "77C41A8145F58B1B"
+				type: "item"
+				item: "pipez:advanced_upgrade"
+			}]
+		}
+		{
+			x: 40.25d
+			y: 4.25d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["6EE391988F2155A8"]
+			id: "6846C6A978E3805F"
+			tasks: [{
+				id: "5E70D5AAF4512EBC"
+				type: "item"
+				item: "pipez:ultimate_upgrade"
+			}]
+		}
+		{
+			x: 39.75d
+			y: 5.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["6846C6A978E3805F"]
+			id: "69ECF2E281408712"
+			tasks: [{
+				id: "3BF87521C2426870"
+				type: "item"
+				item: "pipez:infinity_upgrade"
+			}]
+		}
+		{
+			x: 39.25d
+			y: 4.25d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["5E14FAAB6F872A18"]
+			id: "032D6D89B4986CC0"
+			tasks: [{
+				id: "328F58E48B7049AC"
+				type: "item"
+				item: "pipez:improved_upgrade"
+			}]
+		}
+		{
+			x: 39.75d
+			y: 3.25d
+			shape: "diamond"
+			dependencies: [
+				"659E0ADFDBC41623"
+				"5175DE9956FEAE1D"
+				"15CD0545458B6513"
+				"6B12289F3D68A2C1"
+			]
+			size: 2.0d
+			id: "3DD90A96D72BC85A"
+			tasks: [{
+				id: "5DA4E84E50DC22B8"
+				type: "item"
+				item: "pipez:universal_pipe"
+			}]
+		}
+		{
+			x: 40.25d
+			y: 2.25d
+			shape: "diamond"
+			id: "15CD0545458B6513"
+			tasks: [{
+				id: "508A3940637D5BF5"
+				type: "item"
+				item: "pipez:item_pipe"
+			}]
+		}
+		{
+			x: 40.75d
+			y: 2.75d
+			shape: "diamond"
+			id: "6B12289F3D68A2C1"
+			tasks: [{
+				id: "690D7572810902CA"
+				type: "item"
+				item: "pipez:fluid_pipe"
+			}]
+		}
+		{
+			x: 40.75d
+			y: 1.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"659E0ADFDBC41623"
+				"5175DE9956FEAE1D"
+				"15CD0545458B6513"
+				"6B12289F3D68A2C1"
+			]
+			dependency_requirement: "one_completed"
+			id: "477C8B01B0FED3E8"
+			tasks: [{
+				id: "30BB4B715680DD31"
+				type: "item"
+				item: "pipez:filter_destination_tool"
+			}]
+		}
+		{
+			x: 39.25d
+			y: 2.25d
+			shape: "diamond"
+			id: "5175DE9956FEAE1D"
+			tasks: [{
+				id: "19F36712BE53EB5C"
+				type: "item"
+				item: "pipez:gas_pipe"
+			}]
+		}
+		{
+			x: 38.75d
+			y: 1.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"659E0ADFDBC41623"
+				"5175DE9956FEAE1D"
+				"15CD0545458B6513"
+				"6B12289F3D68A2C1"
+			]
+			dependency_requirement: "one_completed"
+			id: "5009C69A5F2BF603"
+			tasks: [{
+				id: "4DE097E6B65FB931"
+				type: "item"
+				item: "pipez:wrench"
+			}]
+		}
+		{
+			x: 38.75d
+			y: 2.75d
+			shape: "diamond"
+			id: "659E0ADFDBC41623"
+			tasks: [{
+				id: "3515832DFED2DE70"
+				type: "item"
+				item: "pipez:energy_pipe"
+			}]
+		}
+		{
+			x: 38.75d
+			y: 3.75d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"659E0ADFDBC41623"
+				"5175DE9956FEAE1D"
+				"15CD0545458B6513"
+				"6B12289F3D68A2C1"
+			]
+			dependency_requirement: "one_completed"
+			id: "5E14FAAB6F872A18"
+			tasks: [{
+				id: "075DF069A10BBED0"
+				type: "item"
+				item: "pipez:basic_upgrade"
 			}]
 		}
 	]

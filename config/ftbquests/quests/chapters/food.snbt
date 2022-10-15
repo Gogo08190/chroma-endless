@@ -706,8 +706,8 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: 0.25d
+			x: 19.0d
+			y: 5.25d
 			id: "3F2AA31E86DED4B3"
 			tasks: [{
 				id: "24CC6AD08FF87037"
@@ -2513,8 +2513,8 @@
 			}]
 		}
 		{
-			x: 10.75d
-			y: 10.25d
+			x: 9.75d
+			y: 9.0d
 			id: "2FEDD30B4354E116"
 			tasks: [{
 				id: "31B62CFA4BF18005"
@@ -2799,6 +2799,8 @@
 		{
 			x: 10.5d
 			y: 30.25d
+			hide_dependency_lines: true
+			dependencies: ["706311CE86E5093D"]
 			id: "1468A562F4FCB928"
 			tasks: [{
 				id: "6A55152EF7C72814"
@@ -3505,6 +3507,7 @@
 		{
 			x: 9.25d
 			y: -3.5d
+			description: ["&aThe Kitchen Station&r needs to be placed as part of the kitchen network."]
 			dependencies: ["5DD910CC64152089"]
 			id: "5A1E36170BEFE806"
 			tasks: [{
@@ -3516,6 +3519,13 @@
 		{
 			x: 8.0d
 			y: -3.5d
+			description: [
+				"The Kitchen Station acts as Refined Storage Network Receiver and needs to be attached to a Kitchen Network Card."
+				""
+				"Then this Kitchen Network Card needs to be placed inside a Kitchen Access Point, which acts a Refined Storage Network Transmitter."
+				""
+				"Once everything is connected, you'll be able to consume items from your Refined Storage network right from your cooking table."
+			]
 			dependencies: ["5DD910CC64152089"]
 			id: "441C69EE987FE187"
 			tasks: [{
@@ -3623,6 +3633,7 @@
 		{
 			x: 10.5d
 			y: -3.5d
+			description: ["&aThe Kitchen Access Points&r needs to be placed in the Refined Storage Network."]
 			dependencies: ["5DD910CC64152089"]
 			id: "5DE83F1A988EB6A8"
 			tasks: [{
@@ -4501,8 +4512,8 @@
 			}]
 		}
 		{
-			x: 2.25d
-			y: 3.75d
+			x: 18.0d
+			y: 5.25d
 			id: "3BFB61DF39E12CD7"
 			tasks: [{
 				id: "784DA089EF0834C9"
@@ -5286,8 +5297,8 @@
 			}]
 		}
 		{
-			x: 6.25d
-			y: 5.75d
+			x: 2.25d
+			y: 3.75d
 			id: "5EB662B4DB36BC2C"
 			tasks: [{
 				id: "780AD826CACBB9BD"

@@ -9,8 +9,8 @@
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: -31.75d
-			y: -8.0d
+			x: -28.75d
+			y: -8.5d
 			width: 35.0d
 			height: 25.0d
 			rotation: 0.0d
@@ -21,10 +21,10 @@
 			corner: false
 		}
 		{
-			x: -3.5d
-			y: -10.25d
-			width: 25.0d
-			height: 35.0d
+			x: 2.0d
+			y: -16.5d
+			width: 4.0d
+			height: 6.0d
 			rotation: 0.0d
 			image: "chroma:textures/quests/dalek.png"
 			hover: [ ]
@@ -32,6 +32,843 @@
 			dev: false
 			corner: false
 		}
+		{
+			x: -9.25d
+			y: -13.25d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/gui/presets/isles.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
 	]
-	quests: [ ]
+	quests: [
+		{
+			x: -43.0d
+			y: -4.5d
+			id: "4F888FC4269D104E"
+			tasks: [{
+				id: "748A5A869A5F05FD"
+				type: "item"
+				item: {
+					id: "tardis:manual"
+					Count: 1b
+					tag: {
+						chapter: 14
+						page: 12
+					}
+				}
+			}]
+		}
+		{
+			x: -45.0d
+			y: -4.5d
+			id: "445EBC860C3ABE3C"
+			tasks: [{
+				id: "2E3E2E8D303D73BF"
+				type: "item"
+				item: "tardis:telescope"
+			}]
+		}
+		{
+			title: "Tardis Key"
+			x: -46.5d
+			y: -6.75d
+			id: "1B526DD30E043004"
+			tasks: [{
+				id: "0D5EA9C931C52553"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tardis:key_pirate"
+								Count: 1b
+							}
+							{
+								id: "tardis:key_gallifreyan"
+								Count: 1b
+							}
+							{
+								id: "tardis:tardis_key"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -49.5d
+			y: -5.0d
+			dependencies: [
+				"54DC8317D4B7A510"
+				"7260BE309AD6DF62"
+				"1E7C7E14842E3A7B"
+			]
+			id: "3036833D11AB9650"
+			tasks: [{
+				id: "143E262B4428FBB0"
+				type: "item"
+				item: {
+					id: "tardis:blank_upgrade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -49.5d
+			y: -4.0d
+			dependencies: ["3036833D11AB9650"]
+			id: "0F8A02D5EB56D6CB"
+			tasks: [{
+				id: "30036C964F5C3651"
+				type: "item"
+				item: {
+					id: "tardis:upgrades/structure"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -49.5d
+			y: -3.0d
+			dependencies: ["3036833D11AB9650"]
+			id: "7D677EE98177CDA2"
+			tasks: [{
+				id: "10455C5393754F15"
+				type: "item"
+				item: {
+					id: "tardis:upgrades/time_link"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -48.5d
+			y: -4.0d
+			dependencies: ["3036833D11AB9650"]
+			id: "131F6571537A8D7E"
+			tasks: [{
+				id: "110E46BF56038680"
+				type: "item"
+				item: {
+					id: "tardis:upgrades/zero_room"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -48.5d
+			y: -3.0d
+			dependencies: ["3036833D11AB9650"]
+			id: "7A13637117EF1A6A"
+			tasks: [{
+				id: "00571CD3B0C51D01"
+				type: "item"
+				item: {
+					id: "tardis:upgrades/key_fob"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -49.5d
+			y: -2.0d
+			dependencies: ["3036833D11AB9650"]
+			id: "2C40339B6D0E8C0E"
+			tasks: [{
+				id: "62BCF7E0F2F09236"
+				type: "item"
+				item: {
+					id: "tardis:upgrades/electro_convert"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -51.25d
+			y: -7.0d
+			id: "7C02780047FC1C4E"
+			tasks: [{
+				id: "55A78CAF5423BC81"
+				type: "item"
+				item: "tardis:leaky_capacitor"
+			}]
+		}
+		{
+			x: -50.25d
+			y: -7.0d
+			dependencies: ["7C02780047FC1C4E"]
+			id: "3BA3545E0A9DDDF5"
+			tasks: [{
+				id: "12DF56F429B4E8DC"
+				type: "item"
+				item: "tardis:artron_capacitor"
+			}]
+		}
+		{
+			x: -49.25d
+			y: -7.0d
+			dependencies: ["3BA3545E0A9DDDF5"]
+			id: "1861A8ED425D6810"
+			tasks: [{
+				id: "18D1691A3D15D9F0"
+				type: "item"
+				item: "tardis:artron_capacitor_mid"
+			}]
+		}
+		{
+			x: -46.5d
+			y: -9.5d
+			dependencies: ["1861A8ED425D6810"]
+			id: "685EA473650AFE87"
+			tasks: [{
+				id: "17F2782BA86AA5A8"
+				type: "item"
+				item: "tardis:artron_capacitor_high"
+			}]
+		}
+		{
+			x: -52.25d
+			y: -8.25d
+			id: "63A23EAC8AFC90C1"
+			tasks: [{
+				id: "3B152BBE54807C78"
+				type: "item"
+				item: {
+					id: "tardis:artron_battery"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -51.25d
+			y: -8.25d
+			dependencies: ["63A23EAC8AFC90C1"]
+			id: "6A7D9B30A8CEB450"
+			tasks: [{
+				id: "4929DBAA022A257A"
+				type: "item"
+				item: {
+					id: "tardis:artron_battery_medium"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -50.25d
+			y: -8.25d
+			dependencies: ["6A7D9B30A8CEB450"]
+			id: "4E6150E4B58BE8C4"
+			tasks: [{
+				id: "6D8491988E927B74"
+				type: "item"
+				item: "tardis:artron_battery_high"
+			}]
+		}
+		{
+			x: -53.0d
+			y: -10.5d
+			id: "3D98E6811CF859D7"
+			tasks: [
+				{
+					id: "543E233D457E00A5"
+					type: "item"
+					item: {
+						id: "tardis:subsystem/nav_com"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "055979974B89E0EC"
+					type: "item"
+					item: {
+						id: "tardis:subsystem/stabilizer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6E747E1755F592B8"
+					type: "item"
+					item: {
+						id: "tardis:subsystem/shield_generator"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "22792E6119257F8B"
+					type: "item"
+					item: {
+						id: "tardis:subsystem/temporal_grace"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "60D7094FAEDA7FCC"
+					type: "item"
+					item: {
+						id: "tardis:subsystem/interstitial_antenna"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "01964BE9D83ECA57"
+					type: "item"
+					item: {
+						id: "tardis:subsystem/chameleon_circuit"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "51BA0EE872BAFC13"
+					type: "item"
+					item: {
+						id: "tardis:subsystem/fluid_link"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "289C3B0F997D979C"
+					type: "item"
+					item: {
+						id: "tardis:subsystem/dematerialisation_circuit"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -56.5d
+			y: -8.5d
+			subtitle: "An Alembic is a device that processes raw materials. It can be mined with a pickaxe."
+			description: [
+				"Uses"
+				"-Converting Cinnabar Dust to Mercury Bottles."
+				"-Creating Circuit Paste."
+				"{image:chroma:textures/quests/alembic.png width:150 height:200 align:1}"
+			]
+			id: "0D4598E401996079"
+			tasks: [{
+				id: "44E8F8DECF6B1BF7"
+				type: "item"
+				item: "tardis:alembic"
+			}]
+		}
+		{
+			x: -55.5d
+			y: -8.0d
+			dependencies: ["0D4598E401996079"]
+			id: "3F83723C50953694"
+			tasks: [{
+				id: "1FB3C599A3762256"
+				type: "item"
+				item: "tardis:circuit_paste"
+			}]
+		}
+		{
+			x: -55.25d
+			y: -9.75d
+			dependencies: ["3F83723C50953694"]
+			id: "425D01177270DC27"
+			tasks: [{
+				id: "1A39E5C4BB1B3FA3"
+				type: "item"
+				item: "tardis:circuits"
+			}]
+		}
+		{
+			x: -58.0d
+			y: -8.25d
+			dependencies: ["0D4598E401996079"]
+			id: "57A8BC4F35239A61"
+			tasks: [{
+				id: "2AC11C32373EDC5E"
+				type: "item"
+				item: "tardis:mercury_bottle"
+			}]
+		}
+		{
+			x: -58.5d
+			y: -9.75d
+			id: "54A50CC1EF5FDF39"
+			tasks: [{
+				id: "64EFD48EF81C7055"
+				type: "item"
+				item: {
+					id: "tardis:sonic"
+					Count: 1b
+					tag: {
+						cap_sync: {
+							mode: "tardis:block_interaction"
+							charge: 500.0f
+							schematics: [ ]
+							progress: 0.0f
+							emmiter: 1
+							handle: 1
+							end: 1
+							activator: 1
+							forge_energy: -1
+						}
+					}
+					ForgeCaps: {
+						"tardis:sonic_cap": {
+							mode: "tardis:block_interaction"
+							charge: 500.0f
+							schematics: [ ]
+							progress: 0.0f
+							emmiter: 1
+							handle: 1
+							end: 1
+							activator: 1
+							forge_energy: -1
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -58.5d
+			y: -11.0d
+			id: "383BEF7A4E76F4A5"
+			tasks: [{
+				id: "689B9A31B708098D"
+				type: "item"
+				item: "tardis:waypoint_bank"
+			}]
+		}
+		{
+			title: "Quantiscope"
+			x: -56.25d
+			y: -6.25d
+			subtitle: "The Quantiscope is a block that allows users to craft and modify various items."
+			description: [
+				"Uses:"
+				"-Can modify each casing part of a Sonic Screwdriver."
+				"-Does not require any energy to change Sonic casing."
+				"-Can be used to craft Tardis Mod Items."
+				"-Repair Tardis Sub-systems"
+				"{image:chroma:textures/quests/quantiscope_fabricate.png width:150 height:150 align:1}"
+				"Sonic Customisation"
+				"{image:chroma:textures/quests/quantiscope_reconfig.png width:150 height:150 align:1}"
+			]
+			id: "6558A4451C4D3B9B"
+			tasks: [{
+				id: "09241B420CDC6817"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tardis:quantiscope_brass"
+								Count: 1b
+							}
+							{
+								id: "tardis:quantiscope_iron"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -57.0d
+			y: -12.25d
+			id: "70E98AE77ED17996"
+			tasks: [{
+				id: "476E5D8BBFB6EA9B"
+				type: "item"
+				item: {
+					id: "tardis:stattenheim_remote"
+					Count: 1b
+					tag: {
+						cap_sync: {
+							loc: {
+								name: ""
+								dim: "minecraft:overworld"
+								dir: 2
+								pos: 0L
+							}
+							time_left: 0.0d
+							is_flying: 0b
+							fuel: 0.0f
+						}
+					}
+					ForgeCaps: {
+						"tardis:remote": {
+							loc: {
+								pos: 0L
+								name: ""
+								dim: "minecraft:overworld"
+								dir: 2
+							}
+							time_left: 0.0d
+							is_flying: 0b
+							fuel: 0.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -56.0d
+			y: -12.25d
+			id: "53CB21797EB0D903"
+			tasks: [{
+				id: "08B862B1E3ECDD3F"
+				type: "item"
+				item: {
+					id: "tardis:diagnostic_tool"
+					Count: 1b
+					tag: {
+						cap_sync: {
+							rotation_target: 0.0f
+							power: 0
+							subsystems: [ ]
+							on: 0b
+						}
+					}
+					ForgeCaps: {
+						"tardis:locator": {
+							rotation_target: 0.0f
+							power: 0
+							subsystems: [ ]
+							on: 0b
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -54.5d
+			y: -12.25d
+			id: "727BFE884A970CAD"
+			tasks: [{
+				id: "09E64EDA4F163433"
+				type: "item"
+				item: "tardis:monitor_remote"
+			}]
+		}
+		{
+			x: -53.5d
+			y: -12.25d
+			id: "5BBC774C3A787868"
+			tasks: [{
+				id: "7203F58A87C19132"
+				type: "item"
+				item: "tardis:timeship_backdoor"
+			}]
+		}
+		{
+			x: -52.5d
+			y: -12.25d
+			id: "3D57CE33D4EA8A14"
+			tasks: [{
+				id: "76AC678AA067253D"
+				type: "item"
+				item: {
+					id: "tardis:ars_tablet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -51.5d
+			y: -12.25d
+			id: "3521110EA6252CAA"
+			tasks: [{
+				id: "5D3911BE59E217E2"
+				type: "item"
+				item: "tardis:artifact_map"
+			}]
+		}
+		{
+			x: -50.5d
+			y: -12.25d
+			id: "1FF942CB25D5A8AD"
+			tasks: [{
+				id: "2E7A662EA33AFDDE"
+				type: "item"
+				item: "tardis:pocket_watch"
+			}]
+		}
+		{
+			x: -49.5d
+			y: -12.25d
+			id: "7CD75FCA7BA0B415"
+			tasks: [{
+				id: "55C328607EA119D3"
+				type: "item"
+				item: "tardis:data_crystal"
+			}]
+		}
+		{
+			x: -52.0d
+			y: -10.5d
+			id: "28A05F8218355507"
+			tasks: [{
+				id: "1C4106253BBBE918"
+				type: "item"
+				item: "tardis:vm_strap"
+			}]
+		}
+		{
+			x: -51.0d
+			y: -10.5d
+			id: "203848E34CF7D12C"
+			tasks: [{
+				id: "522150A1B1FD112C"
+				type: "item"
+				item: "tardis:vm_module"
+			}]
+		}
+		{
+			x: -45.0d
+			y: -8.0d
+			id: "3D3AC37237398EDD"
+			tasks: [{
+				id: "20864D166574FC49"
+				type: "item"
+				item: {
+					id: "tardis:vm"
+					Count: 1b
+					tag: {
+						cap_sync: {
+							battery_inv: {
+								Size: 3
+								Items: [ ]
+							}
+							has_teleported: 0b
+							discharge_amount: 0.0f
+							used: 0b
+							total_charge: 0.0f
+						}
+					}
+					ForgeCaps: {
+						"tardis:vortex": {
+							battery_inv: {
+								Size: 3
+								Items: [ ]
+							}
+							discharge_amount: 0.0f
+							has_teleported: 0b
+							used: 0b
+							total_charge: 0.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -58.5d
+			y: -14.0d
+			id: "3F369A736D7598DB"
+			tasks: [{
+				id: "119E21E8809E8F86"
+				type: "item"
+				item: "tardis:psychic_cube"
+			}]
+		}
+		{
+			x: -58.5d
+			y: -12.25d
+			description: [
+				"Uses"
+				"The Item Access Panel is like an Ender Chest that connects to a Tardis interior dimension's internal Item Buffer."
+				""
+				"This buffer can store up to 9 stacks (9x64) of items which can be transferred around the Tardis."
+				""
+				"-Transferring items wirelessly within Tardis interior dimension."
+				"-Transferring items from Tardis exterior to Tardis interior."
+				"-Transferring items from Tardis interior to Tardis exterior."
+			]
+			id: "1F6EB3B5B3FA9115"
+			tasks: [{
+				id: "6E300877544AA6AB"
+				type: "item"
+				item: "tardis:item_access_panel"
+			}]
+		}
+		{
+			x: -57.0d
+			y: -14.0d
+			id: "479E2F607957EC9E"
+			tasks: [
+				{
+					id: "3C874F9DC709F1D8"
+					type: "item"
+					item: "tardis:artron_collector"
+				}
+				{
+					id: "17418DC59E31854A"
+					type: "item"
+					item: "tardis:artron_pylon"
+				}
+			]
+		}
+		{
+			x: -55.75d
+			y: -14.0d
+			id: "17EF84F760BE6F2C"
+			tasks: [{
+				id: "784BF6B929D1CCAF"
+				type: "item"
+				item: "tardis:vortex_detector"
+			}]
+		}
+		{
+			x: -54.75d
+			y: -14.0d
+			id: "66758B3A8C008836"
+			tasks: [{
+				id: "58EEC18E25361359"
+				type: "item"
+				item: "tardis:transduction_barrier"
+			}]
+		}
+		{
+			x: -53.75d
+			y: -14.0d
+			id: "234B3A5B1671EC36"
+			tasks: [{
+				id: "22CC32C3990E0C7D"
+				type: "item"
+				item: "tardis:landing_pad"
+			}]
+		}
+		{
+			x: -52.75d
+			y: -14.0d
+			id: "3731B9C0AA295D50"
+			tasks: [{
+				id: "46062A20B5D9F7F1"
+				type: "item"
+				item: "tardis:roundel_tap"
+			}]
+		}
+		{
+			x: -47.75d
+			y: -14.75d
+			description: [
+				"The Architectural Reconfiguration System (ARS) Egg is a block that allows the player to obtain a variety of decoration blocks and other items in exchange for the depletion of the Tardis' Artron banks."
+				"{image:chroma:textures/quests/ars.png width:100 height:100 align:1}"
+			]
+			id: "2097C3BB8CBACD62"
+			tasks: [{
+				id: "5DB806CFCA71614A"
+				type: "item"
+				item: "tardis:ars_egg"
+			}]
+		}
+		{
+			x: -60.5d
+			y: -12.25d
+			description: [
+				"1. Place down an Item Access Panel inside the Tardis interior. This is our input site."
+				"2. Place down a second Item Access Panel elsewhere inside the Tardis interior. This is our output site."
+				"3. Place a hopper or similar item transfer capable block next to the input site."
+				"4. Insert items into the hopper/similar item transfer capable block."
+				"5. Place a hopper or similar block beneath the output site."
+				"6. See that items are being added to the hopper beneath the output site."
+			]
+			dependencies: ["1F6EB3B5B3FA9115"]
+			id: "2FF3803EE2BDCD64"
+			tasks: [{
+				id: "54A42ED32295AF1A"
+				type: "checkmark"
+				title: "Transfer items within Tardis Interior"
+			}]
+		}
+		{
+			x: -60.5d
+			y: -11.25d
+			description: [
+				"1. Place down an Item Access Panel inside the Tardis interior. This is our input site."
+				"2. Place an item piping block on the Tardis Exterior block. This is our output site."
+				"2.1 This can be a \"pipe\" or similar blocks from other mods."
+				"3. Place a hopper or similar item transfer capable block next to or above the Item Access Panel inside the Tardis."
+				"4. Insert items into the hopper/similar item transfer capable block."
+				"5. See that items are being added to the item piping block at the Tardis Exterior."
+			]
+			dependencies: ["1F6EB3B5B3FA9115"]
+			id: "7036D5301FD904E8"
+			tasks: [{
+				id: "781282CB1F066ADD"
+				type: "checkmark"
+				title: "Transfer items from Tardis Interior to Tardis Exterior "
+			}]
+		}
+		{
+			x: -60.5d
+			y: -13.25d
+			description: [
+				"1. Place an item piping block on the Tardis Exterior block. This is our input site."
+				"2. Place down an Item Access Panel inside the Tardis interior. This is our output site."
+				"2.1 This can be a \"pipe\" or similar blocks from other mods."
+				"3. Place a hopper or similar item transfer capable block beneath the Item Access Panel inside the Tardis."
+				"4. Insert items into the hopper/similar item transfer capable block at the Tardis Exterior input site."
+				"5. See that items are being added to the item piping block below the Item Access Panel inside the Tardis."
+			]
+			dependencies: ["1F6EB3B5B3FA9115"]
+			id: "76ED3402D01F13B8"
+			tasks: [{
+				id: "617E184FAD256AAD"
+				type: "checkmark"
+				title: "Transfer items from Tardis Exterior to Tardis Interior"
+			}]
+		}
+	]
 }

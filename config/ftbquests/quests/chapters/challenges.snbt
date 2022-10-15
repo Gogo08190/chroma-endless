@@ -532,5 +532,18 @@
 				}
 			}]
 		}
+		{
+			x: 3.0d
+			y: -4.0d
+			description: ["Open 100 instanced, per-plaer Loot containers and collect your rewards !"]
+			size: 2.0d
+			id: "7A5BDCBFD80916AB"
+			tasks: [{
+				id: "6A4EEF77C8EAB07B"
+				type: "advancement"
+				advancement: "lootr:100loot"
+				criterion: ""
+			}]
+		}
 	]
 }

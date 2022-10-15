@@ -1,7 +1,7 @@
 {
 	id: "43BFF269728987B2"
 	group: "34085A64296DE6C7"
-	order_index: 4
+	order_index: 3
 	filename: "ch_5_rename"
 	title: "New technologies"
 	icon: "pneumaticcraft:pressure_gauge"
@@ -2031,18 +2031,6 @@
 				id: "2294C1C3B0133C7F"
 				type: "item"
 				item: "xnet:netcable_routing"
-			}]
-		}
-		{
-			x: -21.75d
-			y: -8.75d
-			hide_dependency_lines: true
-			dependencies: ["4E53F7ACC383103C"]
-			id: "40C970572379006E"
-			tasks: [{
-				id: "2C88F2B60CE55542"
-				type: "item"
-				item: "mekanism:basic_chemical_tank"
 			}]
 		}
 		{
