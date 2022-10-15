@@ -114,7 +114,7 @@ onEvent('recipes', (event) => {
                 T: 'immersiveengineering:tesla_coil',
                 E: 'powah:aerial_pearl'
             },
-            id: 'powah:crafting/player_transmitter_basic'
+            id: 'powah:crafting/player_tranmitter_basic'
         },
         {
             output: Item.of('powah:energy_cable_basic', 6),
