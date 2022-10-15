@@ -43,6 +43,17 @@ onEvent('recipes', (event) => {
           ],
           output: {item: 'tardis:artron_capacitor'},
           id: 'tardis:quantiscope/artron_capacitor'
+      },
+      {
+          inputs: [
+            {item: 'tardis:blank_upgrade' },
+            {item: 'explorerscompass:explorerscompass' },
+            {item: 'minecraft:compass' },
+            {item: 'tardis:circuits' },
+            {item: 'extendedcrafting:redstone_ingot' },
+          ],
+          output: {item: 'tardis:upgrades/structure'},
+          id: 'tardis:upgrades/structure'
       }
 
     ];
