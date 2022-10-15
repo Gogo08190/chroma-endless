@@ -563,7 +563,7 @@
 			}]
 		}
 		{
-			x: 1.25d
+			x: 1.0d
 			y: 8.75d
 			subtitle: "Using the Schematic module you can load Structures and bring them into the world"
 			description: [
@@ -2183,6 +2183,27 @@
 				id: "1B2E2D3FD5C1EEFD"
 				type: "checkmark"
 				title: "You will need this !"
+			}]
+		}
+		{
+			title: "&dInformation about Create Schematics !"
+			x: 0.5d
+			y: 9.75d
+			description: [
+				"On Chroma Endless you will be able to find a lot of custom multiblocks, we advise you to use the create schematics that we have provided you with to build the custom machines."
+				""
+				"They are named MM_name_of_machine for Masterfull multiblock and CC_name_of_machine for mutiblock which are made with Compact Crafting !"
+				""
+				"You can find them all in the Schematics Table !"
+			]
+			dependencies: [
+				"3CBBAC9AEDBDE316"
+				"4395EBC605AA491D"
+			]
+			id: "55F1A6E2D7BE8D7A"
+			tasks: [{
+				id: "6D87F8382A595E02"
+				type: "checkmark"
 			}]
 		}
 	]

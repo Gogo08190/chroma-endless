@@ -154,6 +154,7 @@
 			x: -11.0d
 			y: 11.0d
 			shape: "square"
+			description: ["The &5Smart Chest&r is a 72-slot chest which has obsidian-level blast resistance, and keeps its inventory when broken."]
 			hide_dependency_lines: true
 			dependencies: [
 				"1F0FC143ED336A13"
@@ -214,6 +215,7 @@
 		{
 			x: -10.5d
 			y: -8.75d
+			description: ["The &5Upgrade Matrix&r can be used in place of Lapis Lazuli for the crafting of any upgrade."]
 			dependencies: ["75B03878AA52F00E"]
 			id: "1E6277225CA889FC"
 			tasks: [{
@@ -226,7 +228,11 @@
 			x: -9.75d
 			y: -15.75d
 			shape: "octagon"
-			description: ["&6Pressure Tubes&r are used to transport compressed air."]
+			description: [
+				"&6Pressure Tubes&r are used to transport compressed air."
+				""
+				"They can contain up to 5 bar of pressure, and have a capacity of 1000mL of Air."
+			]
 			dependencies: ["121DF7B31DB4BEF8"]
 			min_width: 240
 			id: "3D156DB23470F2D5"
@@ -440,6 +446,17 @@
 			x: -8.75d
 			y: -11.0d
 			shape: "diamond"
+			description: [
+				"The &5Refinery&r is a multiblock machine which uses heat to refine Oil into various fuels."
+				""
+				"The fuels that can be produced are, sorted from lightests to haviest :"
+				"• LPG"
+				"• Gasoline"
+				"• Kerosene"
+				"• Diesel"
+				""
+				"The &5Refinery&r is a multiblock structure: place down a Refinery Controller, than stack 2-4 Refinery Outputs on top of or beside the Controller."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"625D10DD8943384A"
@@ -550,6 +567,11 @@
 		{
 			x: -6.0d
 			y: -5.75d
+			description: [
+				"&5Lubricant&r is required for crafting &bSpeed Upgrade&r."
+				""
+				"It is created in a Thermopneumatic Processing Plant with Diesel (or Biodiesel) and Redstone."
+			]
 			dependencies: ["75B03878AA52F00E"]
 			id: "0F0CE8DBEF01ED7D"
 			tasks: [{
@@ -562,6 +584,7 @@
 			x: -8.25d
 			y: -5.25d
 			shape: "octagon"
+			description: ["&5Molten Plastic&r is made from LPG and Coal, or Biodiesel and Chacoal in the Thermopneumatic Processing Plant."]
 			dependencies: ["75B03878AA52F00E"]
 			size: 2.0d
 			id: "5C05ABDF754FEC7A"
@@ -688,6 +711,11 @@
 			x: -8.25d
 			y: -1.25d
 			shape: "square"
+			description: [
+				"Place a bucket or tank of Molten Plastic into an inventory with Heat Frame attached, and chill the Heat Frame, ideally yo below -80C (the colder the better)."
+				""
+				"Molten Plastic will be consumed from the bucket or tank, and you will have a chance for a second &5Plastic Sheet&r for each 1000mb of Molten Plastic consumed."
+			]
 			dependencies: [
 				"5C05ABDF754FEC7A"
 				"73F46C7D022F9708"
@@ -704,6 +732,8 @@
 			x: -9.5d
 			y: -0.5d
 			shape: "square"
+			subtitle: "64,000 mb capacity"
+			description: ["Can be connected with tanks above and below with a wrench."]
 			hide_dependency_lines: true
 			dependencies: [
 				"3D156DB23470F2D5"
@@ -1078,6 +1108,11 @@
 			x: -8.25d
 			y: 3.0d
 			shape: "rsquare"
+			description: [
+				"The &5Amadron Tablet&r is an item than can be used to order items and fluids for delivery by Drones."
+				""
+				"To do so, an inventory and/or fluid tank needs to be selected by right-clicking with the tablet to bind it. This inventory/tank is then used to take items as payment, and receive the items you ordered."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"63F334577EE6C971"
@@ -1095,6 +1130,11 @@
 		{
 			x: -8.25d
 			y: 5.75d
+			description: [
+				"The &5PCB Blueprint&r is a special component, required in the crafting of the UV Light Box."
+				""
+				"It cannot be crafted normally, but must be traded for, usually via Amadron Tablet."
+			]
 			dependencies: ["71A53E095D73463A"]
 			id: "372CC7F5B1EB8424"
 			tasks: [{
@@ -1142,6 +1182,14 @@
 		{
 			x: -8.25d
 			y: 7.0d
+			description: [
+				"The &5UV Light Box&r is a machine in which you can expose PCB's to UV light, at certain places."
+				""
+				"The exposure process takes a maximum of 10 minutes, less if you add Speed Upgrades to the machines."
+				""
+				"After the full 10 minutes, you'll have 100% chance that the PCB will be successfully etched in Etching Acid."
+				"You can however expose PCB for shorter time, which will result in a lower chance of PCB successfully being etched."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"372CC7F5B1EB8424"
@@ -1220,6 +1268,13 @@
 			x: -12.5d
 			y: 10.0d
 			shape: "square"
+			description: [
+				"The &5Programmer&r is a machine used to program Drones, using a visual programming system where Puzzle Pieces are assembled in a programming GUI."
+				""
+				"The Programmer does not require pressure to operate."
+				""
+				"Refear at the manual to learn how drone programming works."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"1BB4E62851AF2A15"
@@ -1235,6 +1290,13 @@
 		{
 			x: -7.25d
 			y: 16.75d
+			description: [
+				"The &5Aerial Interface&r is a very powerful device which can connect directly with a player's inventory. When sufficiently pressurized, it can be interacted with just like any other inventory."
+				""
+				"Instead of landing in the Interface, items get sent directly to do owning player."
+				""
+				"You coul use a Logistics Resquester Frame on the Interface to keep yourself supplied with 64 torches, for example."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"01247DAB4826AAF3"
@@ -1244,6 +1306,7 @@
 				"1996234F379C69E0"
 				"4AC1298723D8A89A"
 			]
+			min_width: 300
 			id: "26B1D972E03CE299"
 			tasks: [{
 				id: "22B6E0C805144767"
@@ -1273,6 +1336,13 @@
 			x: -8.25d
 			y: 14.0d
 			shape: "octagon"
+			description: [
+				"To be able to craft higher tier materials, you'll need an &5Assembly System&r, a collection of Assembly Machines."
+				""
+				"These machines communicate witheach other when they're horizontally ajacent. Only one machine of each type can exist."
+				""
+				"The assembly line runs on compressed air, but you only need to suply air to the Assembly Controller to power the whole system."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"1BB4E62851AF2A15"
@@ -1333,6 +1403,7 @@
 		{
 			x: -8.25d
 			y: 15.5d
+			description: ["&5Advanced Pressure Tubes&r require an Assembly Controller to manufacture. They can contain up to 20 bar of pressure and have a capacity of 4000mL of air."]
 			hide_dependency_lines: true
 			dependencies: ["1FDDA157DFAF2A7F"]
 			id: "1996234F379C69E0"
@@ -1345,6 +1416,8 @@
 		{
 			x: -9.25d
 			y: 15.25d
+			subtitle: "128,000 mb capacity"
+			description: ["Can be connected with tanks above and below with a wrench."]
 			hide_dependency_lines: true
 			dependencies: [
 				"4B85D83C46CDB7E5"
@@ -1474,6 +1547,8 @@
 		{
 			x: -9.25d
 			y: 16.75d
+			subtitle: "512,000 mb capacity"
+			description: ["Can be connected with tanks above and below with a wrench."]
 			dependencies: [
 				"319E93987C9DB62B"
 				"77745626200420A0"
@@ -1491,6 +1566,13 @@
 			x: -8.25d
 			y: 20.25d
 			shape: "gear"
+			description: [
+				"The &aMaster Assembly Factory&r is a custom machinery to make different items and block like Pneumaticcraft Armor or RfTools Machine frame."
+				""
+				"It needs energy and pressure to operate."
+				""
+				"You can use the create schematic to build it !"
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"2997A86BEE2B7CFF"
