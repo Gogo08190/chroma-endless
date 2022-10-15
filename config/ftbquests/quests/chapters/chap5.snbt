@@ -2195,7 +2195,8 @@
 			y: 6.25d
 			description: [
 				"The &6Marid Crusher&r is both more resistant to essence decay and faster than the &bAfrit Crusher&r."
-				"This crusher can crush your ores into 6 !"
+				""
+				"This crusher can crush your ores into 6 dusts!"
 			]
 			dependencies: [
 				"24E3F1153AA2456D"
@@ -2213,6 +2214,7 @@
 			y: 7.25d
 			description: [
 				"The &6Afrit Crusher&r is both more resistant to essence decay and faster than the &bDjinni Crusher&r."
+				""
 				"This crusher can quadruple your ores !"
 			]
 			dependencies: [
@@ -2231,6 +2233,7 @@
 			y: 7.25d
 			description: [
 				"The &6Djinni Crusher&r is both more resistant to essance decay and faster than the &bFoliot Crusher&r."
+				""
 				"This crusher can triple your ores !"
 			]
 			dependencies: [
@@ -2249,6 +2252,7 @@
 			y: 6.25d
 			description: [
 				"The &6Foliot Crusher&r is the most basic crusher spirit."
+				""
 				"This crusher can double your ores !"
 			]
 			dependencies: ["24E3F1153AA2456D"]
@@ -2798,7 +2802,9 @@
 			subtitle: "Accessing Storage"
 			description: [
 				"The &3Storage Accessors&r are similar to the stable wormhole, but allow mobile access to the storage for players."
+				""
 				"As you might ask yourself, the &3Accessor&r is cross dimensions !"
+				""
 				"In order to bind it to your &2Storage&r a simple shift right-click will be needed."
 			]
 			hide_dependency_lines: true
@@ -2907,10 +2913,15 @@
 				"If you noticed well there are two tabs : "
 				"-> A &eCrafting Table&r used to craft with your stored items."
 				"-> A &eFurnace&r. This tab is linked to another thing that we did not got through."
-				"The items asked are indeed useful to summon the &2Machine Operator&r. This dude will allow you to connect any type of \"machine\" (ex: Furnace)."
+				""
+				"The items asked are indeed useful to summon the &2Machine Operator&r. This dude will allow you to connect any type of \\\"machine\\\" (ex: Furnace)."
+				""
 				"Before linking this &2Operator&r to a machine, please make sure to link him to your &6Storage Actuator&r."
+				""
 				"Once it's done link him to your machine. Now it should appear in the &eFurnace Tab&r. If not it means that it's not correctly linked."
+				""
 				"You will notice that in the top left corner there is another tab that we've not talked about. This is simply to \"place\" an order to your &2Operator&r. "
+				""
 				"Place your item that you want to be placed in your machine and trust the process ! "
 			]
 			hide_dependency_lines: true

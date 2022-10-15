@@ -10,7 +10,7 @@
 	images: [
 		{
 			x: 17.75d
-			y: -11.75d
+			y: -13.25d
 			width: 5.0d
 			height: 5.0d
 			rotation: 0.0d
@@ -3494,6 +3494,7 @@
 		{
 			x: 17.75d
 			y: -8.75d
+			dependencies: ["64176D550FB4BDD6"]
 			id: "0A428C8DC8A38839"
 			tasks: [{
 				id: "1D3547D62F0B8AB0"
@@ -3559,6 +3560,7 @@
 		{
 			x: 0.25d
 			y: 0.75d
+			subtitle: "Campfire Automation"
 			id: "2498700E5DE54817"
 			tasks: [{
 				id: "4065242D21E37E35"
@@ -3569,6 +3571,8 @@
 		{
 			x: -1.75d
 			y: 0.75d
+			subtitle: "Please use it in your kitchen only..."
+			description: ["The Cutting Board needs it to make some interesting foods "]
 			id: "37A579F0F4A74D97"
 			tasks: [{
 				id: "0BFE75B40FD78D8C"
@@ -3607,6 +3611,8 @@
 		{
 			x: -1.75d
 			y: -0.25d
+			subtitle: "It knows everything "
+			description: ["This &6Book&r keeps a record of what you ate in your adventure and what you did not eat! Plenty of food can be eaten ! So what are you waiting for?"]
 			id: "3AD8866E2110EC44"
 			tasks: [{
 				id: "7E3CBD90AFB2E51C"
@@ -3628,6 +3634,8 @@
 		{
 			x: 3.25d
 			y: -3.25d
+			subtitle: "Moooh"
+			description: ["Placed on the &6Kitchen Counter&r"]
 			id: "6801AA2A88049CC1"
 			tasks: [
 				{
@@ -3655,6 +3663,7 @@
 		{
 			x: 3.25d
 			y: -0.25d
+			subtitle: "Made to build the multiblock"
 			id: "40CAFDA38F402BD5"
 			tasks: [{
 				id: "4874DF8DF5DF4A49"
@@ -3665,6 +3674,7 @@
 		{
 			x: 3.25d
 			y: -2.25d
+			subtitle: "Kitcher Counter are really useful you know?"
 			id: "7466159125783619"
 			tasks: [{
 				id: "7C14074858EEA3AF"
@@ -3675,6 +3685,7 @@
 		{
 			x: 15.75d
 			y: -8.5d
+			dependencies: ["64176D550FB4BDD6"]
 			id: "66E3F74A962DB50B"
 			tasks: [{
 				id: "14DF200CAE628BA3"
@@ -3685,6 +3696,7 @@
 		{
 			x: 20.75d
 			y: -8.5d
+			dependencies: ["64176D550FB4BDD6"]
 			id: "7107A4F9013E83DC"
 			tasks: [{
 				id: "3822DC4B1CA97E7C"
@@ -3695,6 +3707,7 @@
 		{
 			x: 14.75d
 			y: -8.5d
+			dependencies: ["64176D550FB4BDD6"]
 			id: "0C1B0E7C35406302"
 			tasks: [{
 				id: "708F21844F8FC1A0"
@@ -3705,6 +3718,7 @@
 		{
 			x: 19.75d
 			y: -8.5d
+			dependencies: ["64176D550FB4BDD6"]
 			id: "680D3B7FE5764860"
 			tasks: [{
 				id: "2F89C7E7CCC01F13"
@@ -3715,6 +3729,7 @@
 		{
 			x: 2.25d
 			y: -0.25d
+			subtitle: "Kitchening is really hot"
 			id: "0512195374E84676"
 			tasks: [{
 				id: "291169A90BE6E5A7"
@@ -3745,6 +3760,7 @@
 		{
 			x: 3.25d
 			y: -1.25d
+			subtitle: "Place it on Kitchen Counter"
 			id: "491B202F129CD16C"
 			tasks: [{
 				id: "5A05F42549EC090C"
@@ -3753,8 +3769,13 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -3.75d
+			x: -0.75d
+			y: -2.25d
+			subtitle: "Create your own sandwich !"
+			description: [
+				"To start your sandwich simply place one single bread in &6the left slot&r."
+				"Then add any ingredient you wish in your sandwich !"
+			]
 			id: "17797F07B18465A1"
 			tasks: [{
 				id: "75ED674168055AFF"
@@ -3787,6 +3808,7 @@
 		{
 			x: -0.75d
 			y: -0.25d
+			subtitle: "Cooking Chief"
 			id: "470D7199F995F6C9"
 			tasks: [{
 				id: "7C7E2C87328A2A9C"
@@ -3797,6 +3819,7 @@
 		{
 			x: 0.25d
 			y: -0.25d
+			subtitle: "Students best friend"
 			id: "5A72F37E04A2E812"
 			tasks: [{
 				id: "7CC5D87AD5ED27C0"
@@ -3854,6 +3877,8 @@
 		{
 			x: 4.25d
 			y: -2.25d
+			subtitle: "Stocking ingredients for kitchen"
+			description: ["Can be placed above the kitchen !"]
 			id: "0A1E402753E07846"
 			tasks: [{
 				id: "7E77D59C3401BA53"
@@ -3883,7 +3908,8 @@
 		}
 		{
 			x: 9.25d
-			y: -1.5d
+			y: -2.25d
+			subtitle: "Refined Storage + Kitchen "
 			id: "5DD910CC64152089"
 			tasks: [{
 				id: "3DB3A6290CDBD7A8"
@@ -5662,8 +5688,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 23.5d
+			x: 11.5d
+			y: 19.5d
 			id: "2A8FC8E8F93D3408"
 			tasks: [{
 				id: "3FA6F214B2914472"
@@ -5682,8 +5708,8 @@
 			}]
 		}
 		{
-			x: 13.5d
-			y: 23.5d
+			x: 12.5d
+			y: 19.5d
 			id: "095154DEDC4150B0"
 			tasks: [{
 				id: "487A3B61B09A45DB"
@@ -5699,6 +5725,21 @@
 				id: "646F2A655A5DD416"
 				type: "item"
 				item: "simplefarming:zucchini_bread"
+			}]
+		}
+		{
+			x: 17.75d
+			y: -10.0d
+			subtitle: "Japanese Food at it's best"
+			description: [
+				"This mod will allow you to craft sushis ! "
+				"Willy you manage to create them all? To do so my only advice is to &nexplore the world !&r"
+			]
+			id: "64176D550FB4BDD6"
+			tasks: [{
+				id: "5B9B5A870F0D8644"
+				type: "checkmark"
+				title: "Sushi Go Crafting "
 			}]
 		}
 	]
