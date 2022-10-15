@@ -4,7 +4,8 @@ onEvent('recipes', (event) => {
     const idRemovals = [
       'tardis:quantiscope_brass_alt1',
       'tardis:quantiscope_brass_alt2',
-      'tardis:quantiscope_iron_alt'
+      'tardis:quantiscope_iron_alt',
+      'tardis:upgrades/atrium'
     ];
 
     const outputRemovals = [
