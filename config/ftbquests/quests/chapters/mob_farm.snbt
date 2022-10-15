@@ -11,6 +11,7 @@
 		{
 			x: 2.0d
 			y: 3.0d
+			shape: "rsquare"
 			dependencies: ["5A9C79DA84F6B481"]
 			id: "5297E4E4D46A8EA6"
 			tasks: [{
@@ -22,6 +23,7 @@
 		{
 			x: 1.0d
 			y: 3.0d
+			shape: "rsquare"
 			dependencies: ["319E6BC1D896F0C0"]
 			id: "04846422EE133675"
 			tasks: [{
@@ -33,6 +35,7 @@
 		{
 			x: 2.0d
 			y: 1.0d
+			shape: "rsquare"
 			dependencies: ["165C76440701F97D"]
 			id: "4F2D7287C80A2976"
 			tasks: [{
@@ -44,6 +47,7 @@
 		{
 			x: 2.0d
 			y: 0.0d
+			shape: "rsquare"
 			id: "165C76440701F97D"
 			tasks: [{
 				id: "28F8E1DAFC64771D"
@@ -54,6 +58,7 @@
 		{
 			x: 1.0d
 			y: 0.0d
+			shape: "rsquare"
 			dependencies: ["6F55C0EB87CBFD46"]
 			id: "3B98BC43E3B044BB"
 			tasks: [{
@@ -65,6 +70,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
+			shape: "rsquare"
 			dependencies: ["5CF10CD523A35115"]
 			id: "6F55C0EB87CBFD46"
 			tasks: [{
@@ -76,6 +82,7 @@
 		{
 			x: 0.0d
 			y: 1.0d
+			shape: "rsquare"
 			dependencies: ["6F55C0EB87CBFD46"]
 			id: "5C2DCBB349B0DF25"
 			tasks: [{
@@ -87,6 +94,7 @@
 		{
 			x: 1.0d
 			y: 1.0d
+			shape: "rsquare"
 			dependencies: ["5C2DCBB349B0DF25"]
 			id: "7FF3C1F0E7444995"
 			tasks: [{
@@ -98,6 +106,7 @@
 		{
 			x: 1.0d
 			y: 2.0d
+			shape: "rsquare"
 			dependencies: ["304205471B996324"]
 			id: "705C0B77E7D98D11"
 			tasks: [{
@@ -109,6 +118,7 @@
 		{
 			x: 0.0d
 			y: 2.0d
+			shape: "rsquare"
 			dependencies: ["705C0B77E7D98D11"]
 			id: "54049F9F45AAC9EB"
 			tasks: [{
@@ -120,6 +130,7 @@
 		{
 			x: 2.0d
 			y: 2.0d
+			shape: "rsquare"
 			dependencies: ["4F2D7287C80A2976"]
 			id: "304205471B996324"
 			tasks: [{
@@ -131,6 +142,7 @@
 		{
 			x: 2.0d
 			y: 4.0d
+			shape: "rsquare"
 			dependencies: [
 				"2D2AD10E28D5C2C8"
 				"055C33DF21E33F50"
@@ -145,6 +157,7 @@
 		{
 			x: 1.0d
 			y: 4.0d
+			shape: "rsquare"
 			dependencies: ["055C33DF21E33F50"]
 			id: "319E6BC1D896F0C0"
 			tasks: [{
@@ -156,6 +169,7 @@
 		{
 			x: 0.0d
 			y: 4.0d
+			shape: "rsquare"
 			dependencies: [
 				"319E6BC1D896F0C0"
 				"5A9C79DA84F6B481"
@@ -170,6 +184,7 @@
 		{
 			x: 0.0d
 			y: 3.0d
+			shape: "rsquare"
 			dependencies: ["627BF82564368D02"]
 			id: "262B1039DE900087"
 			tasks: [{
@@ -747,8 +762,9 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 13.5d
+			x: 2.0d
+			y: 10.25d
+			shape: "square"
 			id: "263FA48FAA595AC0"
 			tasks: [{
 				id: "693A21759137F72D"
@@ -757,8 +773,9 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 12.5d
+			x: 1.0d
+			y: 8.25d
+			shape: "square"
 			id: "16288F5BAABE8D40"
 			tasks: [{
 				id: "7AF7EB54D8D49136"
@@ -767,8 +784,9 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 12.5d
+			x: 0.0d
+			y: 9.25d
+			shape: "square"
 			id: "071EF3E64216C428"
 			tasks: [{
 				id: "203D24667FCFA873"
@@ -777,8 +795,9 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 12.5d
+			x: 0.0d
+			y: 10.25d
+			shape: "square"
 			id: "76EB7B22AEB495C2"
 			tasks: [{
 				id: "1C45FB6D94A1E34A"
@@ -787,8 +806,9 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 12.5d
+			x: 2.0d
+			y: 9.25d
+			shape: "square"
 			id: "7BBD6DA9195DA42B"
 			tasks: [{
 				id: "71F7B77D1DF10C69"
@@ -797,8 +817,9 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 13.5d
+			x: 1.0d
+			y: 9.25d
+			shape: "square"
 			id: "58673AC15F0D23B3"
 			tasks: [{
 				id: "127E347A699E04BC"
@@ -807,8 +828,9 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 13.5d
+			x: 0.0d
+			y: 11.25d
+			shape: "square"
 			id: "06FA10529FE77E9B"
 			tasks: [{
 				id: "60518FA1187159A6"
@@ -817,8 +839,9 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 13.5d
+			x: 2.0d
+			y: 11.25d
+			shape: "square"
 			id: "2F6C130D6361CA26"
 			tasks: [{
 				id: "4A01111934261DFB"
@@ -827,8 +850,9 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 13.5d
+			x: 1.0d
+			y: 11.25d
+			shape: "square"
 			id: "42A8931F8E4E96CE"
 			tasks: [{
 				id: "2F3C9CE0B56A267F"
@@ -837,8 +861,9 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 12.5d
+			x: 1.0d
+			y: 10.25d
+			shape: "square"
 			id: "7622E7134BBC817F"
 			tasks: [{
 				id: "2DD14A4ECFA1B46A"
@@ -847,8 +872,8 @@
 			}]
 		}
 		{
-			x: 7.75d
-			y: 12.5d
+			x: 5.75d
+			y: 9.25d
 			dependencies: ["24966C6B5CAE46EC"]
 			id: "7FE4790AC99A14C9"
 			tasks: [{
@@ -858,8 +883,8 @@
 			}]
 		}
 		{
-			x: 7.75d
-			y: 13.5d
+			x: 5.75d
+			y: 10.75d
 			dependencies: [
 				"5E9AD8143A6AF837"
 				"7FE4790AC99A14C9"
@@ -873,7 +898,7 @@
 		}
 		{
 			x: 8.75d
-			y: 12.5d
+			y: 10.75d
 			dependencies: ["788AF4B2DBB6826E"]
 			id: "5C2FDE60CC4D356C"
 			tasks: [{
@@ -884,7 +909,7 @@
 		}
 		{
 			x: 8.75d
-			y: 13.5d
+			y: 12.25d
 			dependencies: ["5C2FDE60CC4D356C"]
 			id: "5B777FA409FB6BC8"
 			tasks: [{
@@ -894,8 +919,8 @@
 			}]
 		}
 		{
-			x: 7.75d
-			y: 15.0d
+			x: 5.75d
+			y: 12.25d
 			id: "5E9AD8143A6AF837"
 			tasks: [
 				{
@@ -920,8 +945,8 @@
 		}
 		{
 			title: "My first Enchanting Setup"
-			x: 7.75d
-			y: 11.0d
+			x: 7.25d
+			y: 8.25d
 			id: "24966C6B5CAE46EC"
 			tasks: [
 				{
@@ -947,8 +972,8 @@
 		}
 		{
 			title: "Only The Best"
-			x: 11.25d
-			y: 12.0d
+			x: 7.25d
+			y: 10.0d
 			description: ["{image:chroma:textures/quests/enchant_full.png width:100 height:100 align:1 fit:true}"]
 			id: "63965C431E5ACF3D"
 			tasks: [
@@ -985,8 +1010,8 @@
 			]
 		}
 		{
-			x: 11.25d
-			y: 13.0d
+			x: 7.25d
+			y: 11.5d
 			dependencies: ["63965C431E5ACF3D"]
 			id: "5706E874FFB76723"
 			tasks: [{
@@ -998,7 +1023,7 @@
 		}
 		{
 			x: 8.75d
-			y: 11.0d
+			y: 9.25d
 			dependencies: ["24966C6B5CAE46EC"]
 			id: "788AF4B2DBB6826E"
 			tasks: [{
@@ -1014,6 +1039,176 @@
 						}]
 					}
 				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 8.4d
+			shape: "gear"
+			dependencies: ["7B9FBBCD2F962A0B"]
+			size: 1.2d
+			id: "09AFC471849DFBA1"
+			tasks: [{
+				id: "7EF31A734943CD1B"
+				type: "item"
+				item: "cagedmobs:mobcage"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 12.75d
+			shape: "gear"
+			dependencies: [
+				"09AFC471849DFBA1"
+				"1F0FC143ED336A13"
+				"109D647ED52D215D"
+			]
+			size: 1.2d
+			id: "30435F82D0209F95"
+			tasks: [{
+				id: "7F823C35365E84FE"
+				type: "item"
+				item: "cagedmobs:hoppingmobcage"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 11.5d
+			shape: "hexagon"
+			dependencies: [
+				"7760AB40C4B58AA2"
+				"54DC8317D4B7A510"
+			]
+			id: "656AECA3DF9792CB"
+			tasks: [{
+				id: "316F6F4D7263D28F"
+				type: "item"
+				item: "cagedmobs:dnasampler"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 11.5d
+			shape: "hexagon"
+			dependencies: [
+				"57CC5F007AA6A8DF"
+				"4486C68BF5B9FCE2"
+			]
+			id: "52ACF33CAFAB9867"
+			tasks: [{
+				id: "45631EE7F5EB00CC"
+				type: "item"
+				item: "cagedmobs:dnasamplerdiamond"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 11.5d
+			shape: "hexagon"
+			dependencies: [
+				"52ACF33CAFAB9867"
+				"45CADBA54E478BCE"
+			]
+			id: "206D06C108D65CD6"
+			tasks: [{
+				id: "546458B203AFC143"
+				type: "item"
+				item: "cagedmobs:dnasamplernetherite"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 10.5d
+			shape: "octagon"
+			dependencies: ["09AFC471849DFBA1"]
+			id: "14601E457F71CE7F"
+			tasks: [{
+				id: "634596AB3A8F7E50"
+				type: "item"
+				item: "cagedmobs:cookingupgrade"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 10.5d
+			shape: "octagon"
+			dependencies: ["09AFC471849DFBA1"]
+			id: "0C3B17C32CCFE071"
+			tasks: [{
+				id: "098C5164B1AF1B0C"
+				type: "item"
+				item: "cagedmobs:lightningupgrade"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 10.5d
+			shape: "octagon"
+			dependencies: ["09AFC471849DFBA1"]
+			id: "08275DD5315CCD39"
+			tasks: [{
+				id: "1639F2779A5629F7"
+				type: "item"
+				item: "cagedmobs:arrowupgrade"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 11.5d
+			shape: "hexagon"
+			id: "45CADBA54E478BCE"
+			tasks: [{
+				id: "3428319D846E0160"
+				type: "item"
+				item: "cagedmobs:star_infused_netherite_ingot"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 9.5d
+			shape: "hexagon"
+			dependencies: ["09AFC471849DFBA1"]
+			id: "10DF6FE4413DA76F"
+			tasks: [{
+				id: "54EDDCEC97D7A3F4"
+				type: "item"
+				item: "cagedmobs:dragon_scale"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 9.5d
+			shape: "hexagon"
+			dependencies: ["09AFC471849DFBA1"]
+			id: "6353B5D46B33FF0F"
+			tasks: [{
+				id: "6F9EC25FC12852C9"
+				type: "item"
+				item: "cagedmobs:sponge_fragment"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 9.5d
+			shape: "hexagon"
+			dependencies: ["09AFC471849DFBA1"]
+			id: "257806B531626184"
+			tasks: [{
+				id: "2F705772194247CC"
+				type: "item"
+				item: "cagedmobs:nether_star_fragment"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 9.5d
+			shape: "hexagon"
+			dependencies: ["09AFC471849DFBA1"]
+			id: "72CB68B2302818C3"
+			tasks: [{
+				id: "7E3B01A6715D326E"
+				type: "item"
+				item: "cagedmobs:honey_drop"
 			}]
 		}
 	]

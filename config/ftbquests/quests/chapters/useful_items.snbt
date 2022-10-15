@@ -1388,6 +1388,7 @@
 				""
 				"The Modular Router has a single-slot buffer for items."
 			]
+			hide_dependency_lines: true
 			dependencies: [
 				"5E6932FE693B1BAA"
 				"6B12289F3D68A2C1"
@@ -1771,6 +1772,7 @@
 		{
 			x: 11.149999999999999d
 			y: 16.5d
+			shape: "hexagon"
 			subtitle: "Basic stuff"
 			description: ["Unlocks Create's and Occultism's Jetpack. "]
 			dependencies: [
@@ -1787,6 +1789,7 @@
 		{
 			x: 15.5d
 			y: 24.75d
+			shape: "hexagon"
 			subtitle: "I am speed"
 			description: ["Unlocks Botania's and Undergarden's Jetpack. "]
 			dependencies: [
@@ -1803,6 +1806,7 @@
 		{
 			x: 19.94302721088436d
 			y: 16.5d
+			shape: "hexagon"
 			subtitle: "Nyoooom"
 			description: ["Unlocks Extreme Reactor's and EnderIO Alloys's Jetpack. "]
 			dependencies: [
@@ -1819,8 +1823,13 @@
 		{
 			x: 24.75d
 			y: 20.454251700680267d
+			shape: "hexagon"
 			subtitle: "Faster Than Light"
 			description: ["Unlocks Powah's Jetpack. "]
+			dependencies: [
+				"576932BEEA63B919"
+				"59B336127CA627CD"
+			]
 			id: "54ECD5468EAC1B26"
 			tasks: [{
 				id: "2596B01D0360B5CB"
@@ -1831,6 +1840,7 @@
 		{
 			x: 20.5d
 			y: 20.454251700680267d
+			shape: "rsquare"
 			subtitle: "The sun in a bottle"
 			description: ["Crafted in Custom Machinery's Alloy Smelter."]
 			dependencies: [
@@ -1847,7 +1857,8 @@
 		}
 		{
 			x: 21.75d
-			y: 17.954251700680267d
+			y: 18.0d
+			shape: "rsquare"
 			subtitle: "Uhh does anyone know how that works ?"
 			description: ["Crafted in Extended's Crafting Advanced Crafting Table."]
 			dependencies: ["4BD29526B90994E7"]
@@ -1861,6 +1872,7 @@
 		{
 			x: 20.5d
 			y: 19.204251700680267d
+			shape: "rsquare"
 			subtitle: "The sun is a deadly laser"
 			description: ["Crafted in Extended's Crafting Advanced Crafting Table."]
 			dependencies: [
@@ -1877,6 +1889,7 @@
 		{
 			x: 20.5d
 			y: 17.954251700680267d
+			shape: "gear"
 			subtitle: "Stars stored on your back"
 			description: ["Crafted in Extended's Crafting Ultimate Crafting Table."]
 			dependencies: [
@@ -1902,6 +1915,7 @@
 		{
 			x: 13.0d
 			y: 23.0d
+			shape: "rsquare"
 			subtitle: "Oooo magic"
 			description: ["Crafted in Botania's Runic Altar."]
 			dependencies: ["679DF08FABBE8A87"]
@@ -1915,6 +1929,7 @@
 		{
 			x: 14.25d
 			y: 20.5d
+			shape: "rsquare"
 			subtitle: "Shiny"
 			description: ["Crafted using Botania's Terrastrial Agglomeration Plate."]
 			dependencies: [
@@ -1931,6 +1946,7 @@
 		{
 			x: 14.25d
 			y: 21.75d
+			shape: "rsquare"
 			subtitle: "Uses the mana for electricity"
 			description: ["Crafted in Botania's Runic Altar."]
 			dependencies: [
@@ -1948,6 +1964,7 @@
 		{
 			x: 14.25d
 			y: 23.0d
+			shape: "gear"
 			subtitle: "Magic is in the air "
 			description: ["Crafted using Botania's Terrastrial Agglomeration Plate."]
 			dependencies: [
@@ -1972,6 +1989,7 @@
 		{
 			x: 23.25d
 			y: 20.454251700680267d
+			shape: "rsquare"
 			subtitle: "Energy from the void"
 			description: ["Obtained from Environmental Tech's Void Miner Tier 6 or more with the custom \"Black Hole Harvester\" in the End Dimenstion. (Note that the \"Red Lens\" doubles the chances of obtaining it)."]
 			dependencies: [
@@ -1989,6 +2007,7 @@
 		{
 			x: 23.25d
 			y: 19.454251700680267d
+			shape: "rsquare"
 			subtitle: "Litteral rocket"
 			description: ["Obtained from Environmental Tech's Void Miner Tier 6 or more with the custom \"Black Hole Harvester\" in the End Dimenstion. (Note that the \"Red Lens\" doubles the chances of obtaining it)."]
 			dependencies: [
@@ -2006,6 +2025,7 @@
 		{
 			x: 23.25d
 			y: 21.454251700680267d
+			shape: "rsquare"
 			subtitle: "If this explodes we're screwed"
 			description: ["Crafted in Environmental Tech's Assembler."]
 			dependencies: ["685F94719391D77F"]
@@ -2019,6 +2039,7 @@
 		{
 			x: 26.75d
 			y: 20.454251700680267d
+			shape: "gear"
 			subtitle: "I'm fast as f boiiii"
 			description: ["Crafted in Environmental Tech's Assembler."]
 			dependencies: [
@@ -2042,6 +2063,7 @@
 		{
 			x: 11.75d
 			y: 20.5d
+			shape: "rsquare"
 			subtitle: "How does that work ?"
 			description: ["Crafted by throwing the mechanical cell into the Spirit Fire from Occultism."]
 			dependencies: [
@@ -2058,6 +2080,7 @@
 		{
 			x: 13.0d
 			y: 18.0d
+			shape: "rsquare"
 			subtitle: "You can hear demons screaming"
 			description: ["Crafted with Occultism's Ritual \"Eziveus' Spectral Compulsion\"."]
 			dependencies: ["7BF5F871992F55AE"]
@@ -2071,6 +2094,7 @@
 		{
 			x: 11.75d
 			y: 19.25d
+			shape: "rsquare"
 			subtitle: "How do demons even have electricity ?"
 			description: ["Crafted with Occultism's Ritual \"Eziveus' Spectral Compulsion\"."]
 			dependencies: [
@@ -2087,6 +2111,7 @@
 		{
 			x: 11.75d
 			y: 18.0d
+			shape: "gear"
 			subtitle: "It radiates dark magic"
 			description: ["Crafted using Occultism's ritual \"Sevira's Permanent Confinment\"."]
 			dependencies: [
@@ -2112,6 +2137,7 @@
 		{
 			x: 16.75d
 			y: 20.5d
+			shape: "rsquare"
 			subtitle: "Un régal"
 			description: ["Crafted in Pneumaticraft's Assembly Line."]
 			dependencies: [
@@ -2128,6 +2154,7 @@
 		{
 			x: 18.0d
 			y: 23.0d
+			shape: "rsquare"
 			subtitle: "Whatever it uses to fly, it's good stuff"
 			description: ["Crafted using Pneumaticraft's Pressure Chamber."]
 			dependencies: ["7B9FBBCD2F962A0B"]
@@ -2141,6 +2168,7 @@
 		{
 			x: 16.75d
 			y: 21.75d
+			shape: "rsquare"
 			subtitle: "Stores the energy of the depth"
 			description: ["Crafted using Pneumaticraft's Pressure Chamber."]
 			dependencies: [
@@ -2157,6 +2185,7 @@
 		{
 			x: 16.75d
 			y: 23.0d
+			shape: "gear"
 			subtitle: "Going to the bottom to reach new height "
 			description: ["Crafted using Pneumaticraft's Pressure Chamber."]
 			dependencies: [
@@ -2182,6 +2211,7 @@
 		{
 			x: 10.5d
 			y: 20.5d
+			shape: "rsquare"
 			subtitle: "James Watt would be happy"
 			description: ["Crafted in a regular Crafting Table."]
 			min_required_dependencies: 2
@@ -2200,6 +2230,7 @@
 		{
 			x: 9.25d
 			y: 18.0d
+			shape: "rsquare"
 			subtitle: "You sure you want to fly with this ?"
 			description: ["Crafted in Create's Compacter."]
 			dependencies: ["761BAE3E76AB71A3"]
@@ -2213,6 +2244,7 @@
 		{
 			x: 10.5d
 			y: 19.25d
+			shape: "rsquare"
 			subtitle: "Is that a potato or a capacitor ?"
 			description: ["Crafted in Create's Compacter."]
 			dependencies: ["1273070937E58B44"]
@@ -2226,6 +2258,7 @@
 		{
 			x: 10.5d
 			y: 18.0d
+			shape: "gear"
 			subtitle: "Click click click"
 			description: ["Crafted using Create's Mechanical Crafters."]
 			dependencies: [
@@ -2249,6 +2282,7 @@
 		{
 			x: 19.25d
 			y: 20.454251700680267d
+			shape: "rsquare"
 			subtitle: "Pinky"
 			description: ["Crafted using Industiral Foregoing's Dissolution Chamber (With 0.5 Bucket of Rossinite)."]
 			dependencies: [
@@ -2264,7 +2298,8 @@
 		}
 		{
 			x: 18.0d
-			y: 17.954251700680267d
+			y: 18.0d
+			shape: "rsquare"
 			subtitle: "I'm not even sure what it shoots out anymore"
 			description: ["Crafted in a regular Crafting Table."]
 			dependencies: [
@@ -2281,6 +2316,7 @@
 		{
 			x: 19.25d
 			y: 19.204251700680267d
+			shape: "rsquare"
 			subtitle: "Stores Radiation /!\\"
 			description: ["Crafted in a regular Crafting Table."]
 			dependencies: ["3DA966C6436DB383"]
@@ -2294,6 +2330,7 @@
 		{
 			x: 19.25d
 			y: 17.954251700680267d
+			shape: "gear"
 			subtitle: "Beware of the radiations "
 			description: ["Crafted using Industiral Foregoing's Dissolution Chamber (With 8 Buckets of Ether Gas). "]
 			dependencies: [
@@ -2318,8 +2355,8 @@
 		}
 		{
 			title: "Mettre cristaux powah"
-			x: 27.75d
-			y: 20.25d
+			x: 28.75d
+			y: 20.5d
 			id: "117795A1C2C388CC"
 			tasks: [{
 				id: "0DF80884B4C90331"
@@ -2563,8 +2600,9 @@
 			}]
 		}
 		{
-			x: 42.5d
-			y: 12.25d
+			x: 8.75d
+			y: 15.25d
+			shape: "diamond"
 			subtitle: "Tier 2"
 			description: ["&bEnergy Capacity: 8,000,000 FE"]
 			dependencies: ["2D31986387CE4C65"]
@@ -2576,8 +2614,9 @@
 			}]
 		}
 		{
-			x: 41.25d
-			y: 11.25d
+			x: 8.25d
+			y: 14.75d
+			shape: "diamond"
 			subtitle: "Used to Store Energy in the network"
 			description: [
 				"Flux Storage is used to store excess energy. It will only be filled once each Flux Point has received enough energy."
@@ -2598,8 +2637,9 @@
 			}]
 		}
 		{
-			x: 43.75d
-			y: 11.5d
+			x: 9.25d
+			y: 14.75d
+			shape: "diamond"
 			subtitle: "Tier 3"
 			description: ["&bEnergy Capacity: 128,000,000 FE"]
 			dependencies: ["7598222D3C2DDB3B"]
@@ -2611,8 +2651,9 @@
 			}]
 		}
 		{
-			x: 39.0d
-			y: 11.75d
+			x: 7.75d
+			y: 14.25d
+			shape: "diamond"
 			subtitle: "Other key crafting ingredients of the mod !"
 			dependencies: ["0346878606EED7AF"]
 			min_width: 240
@@ -2624,8 +2665,9 @@
 			}]
 		}
 		{
-			x: 39.0d
-			y: 10.25d
+			x: 9.75d
+			y: 14.25d
+			shape: "diamond"
 			subtitle: "Other key crafting ingredients of the mod !"
 			dependencies: ["0346878606EED7AF"]
 			min_width: 240
@@ -2637,10 +2679,12 @@
 			}]
 		}
 		{
-			x: 39.0d
-			y: 8.75d
+			x: 8.75d
+			y: 13.0d
+			shape: "diamond"
 			subtitle: "The key crafting ingredient of the mod"
 			dependencies: ["5E2A78C08B7A29B1"]
+			size: 1.5d
 			id: "0346878606EED7AF"
 			tasks: [{
 				id: "0350848958D861DE"
@@ -2649,9 +2693,9 @@
 			}]
 		}
 		{
-			x: 39.0d
-			y: 15.0d
-			shape: "pentagon"
+			x: 8.75d
+			y: 14.25d
+			shape: "diamond"
 			description: ["Required to activate &lCross-dimensional inventory charging&r"]
 			dependencies: [
 				"1F71F911773ED178"
@@ -2666,8 +2710,9 @@
 			}]
 		}
 		{
-			x: 37.0d
-			y: 14.5d
+			x: 9.25d
+			y: 15.75d
+			shape: "diamond"
 			subtitle: "Used to Remove Energy from the network"
 			description: ["You can remove energy from all sides simultaneously."]
 			dependencies: ["256631A4863B5967"]
@@ -2680,8 +2725,9 @@
 			}]
 		}
 		{
-			x: 36.5d
-			y: 12.75d
+			x: 8.75d
+			y: 16.25d
+			shape: "diamond"
 			subtitle: "The Flux Configurator can also be connected to a network"
 			description: [
 				"● It can be used to access, edit, delete networks on the go. And shares the same GUI as connectors."
@@ -2700,8 +2746,9 @@
 			}]
 		}
 		{
-			x: 35.0d
-			y: 14.0d
+			x: 8.25d
+			y: 15.75d
+			shape: "diamond"
 			subtitle: "Used for Adding Energy to the network"
 			description: ["You can add energy from all sides simultaneously."]
 			dependencies: ["256631A4863B5967"]
@@ -2714,8 +2761,8 @@
 			}]
 		}
 		{
-			x: 40.75d
-			y: 3.75d
+			x: 16.5d
+			y: 27.75d
 			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["032D6D89B4986CC0"]
@@ -2727,8 +2774,8 @@
 			}]
 		}
 		{
-			x: 40.25d
-			y: 4.25d
+			x: 16.0d
+			y: 28.25d
 			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["6EE391988F2155A8"]
@@ -2740,8 +2787,8 @@
 			}]
 		}
 		{
-			x: 39.75d
-			y: 5.0d
+			x: 15.5d
+			y: 29.0d
 			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["6846C6A978E3805F"]
@@ -2753,8 +2800,8 @@
 			}]
 		}
 		{
-			x: 39.25d
-			y: 4.25d
+			x: 15.0d
+			y: 28.25d
 			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["5E14FAAB6F872A18"]
@@ -2766,8 +2813,8 @@
 			}]
 		}
 		{
-			x: 39.75d
-			y: 3.25d
+			x: 15.5d
+			y: 27.25d
 			shape: "diamond"
 			dependencies: [
 				"659E0ADFDBC41623"
@@ -2784,8 +2831,8 @@
 			}]
 		}
 		{
-			x: 40.25d
-			y: 2.25d
+			x: 16.0d
+			y: 26.25d
 			shape: "diamond"
 			id: "15CD0545458B6513"
 			tasks: [{
@@ -2795,8 +2842,8 @@
 			}]
 		}
 		{
-			x: 40.75d
-			y: 2.75d
+			x: 16.5d
+			y: 26.75d
 			shape: "diamond"
 			id: "6B12289F3D68A2C1"
 			tasks: [{
@@ -2806,8 +2853,8 @@
 			}]
 		}
 		{
-			x: 40.75d
-			y: 1.5d
+			x: 16.5d
+			y: 25.5d
 			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: [
@@ -2825,8 +2872,8 @@
 			}]
 		}
 		{
-			x: 39.25d
-			y: 2.25d
+			x: 15.0d
+			y: 26.25d
 			shape: "diamond"
 			id: "5175DE9956FEAE1D"
 			tasks: [{
@@ -2836,8 +2883,8 @@
 			}]
 		}
 		{
-			x: 38.75d
-			y: 1.5d
+			x: 14.5d
+			y: 25.5d
 			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: [
@@ -2855,8 +2902,8 @@
 			}]
 		}
 		{
-			x: 38.75d
-			y: 2.75d
+			x: 14.5d
+			y: 26.75d
 			shape: "diamond"
 			id: "659E0ADFDBC41623"
 			tasks: [{
@@ -2866,8 +2913,8 @@
 			}]
 		}
 		{
-			x: 38.75d
-			y: 3.75d
+			x: 14.5d
+			y: 27.75d
 			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: [
@@ -2882,6 +2929,485 @@
 				id: "075DF069A10BBED0"
 				type: "item"
 				item: "pipez:basic_upgrade"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 6.0d
+			shape: "hexagon"
+			dependencies: [
+				"027D4039082CE989"
+				"7E91683FD0EF4C94"
+				"4FF742939987793B"
+			]
+			id: "51037328E98FFA1E"
+			tasks: [{
+				id: "7F65D98B32AD18FB"
+				type: "item"
+				item: {
+					id: "wstweaks:blaze_blade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: 6.0d
+			shape: "hexagon"
+			dependencies: [
+				"027D4039082CE989"
+				"7E91683FD0EF4C94"
+				"4FF742939987793B"
+			]
+			id: "53BFA2FDD764A234"
+			tasks: [{
+				id: "4479C21DFD77BA45"
+				type: "item"
+				item: {
+					id: "wstweaks:lava_blade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 22.499999999999993d
+			y: 13.0d
+			shape: "diamond"
+			dependencies: ["3AC2609EA33632B8"]
+			size: 1.5d
+			id: "7972EC10283246EF"
+			tasks: [{
+				id: "5F8A3DBAF4CB278F"
+				type: "item"
+				item: "scannable:scanner"
+			}]
+		}
+		{
+			x: 22.5d
+			y: 14.26190476190476d
+			shape: "diamond"
+			dependencies: ["0D3B58EA40DC53A8"]
+			id: "6697C99058C41FA5"
+			tasks: [{
+				id: "2C198389AE64A54A"
+				type: "item"
+				item: "scannable:module_blank"
+			}]
+		}
+		{
+			x: 21.5d
+			y: 14.26190476190476d
+			shape: "diamond"
+			dependencies: ["6697C99058C41FA5"]
+			id: "202FA63D166AA020"
+			tasks: [{
+				id: "72FC5760E4A8D55B"
+				type: "item"
+				item: "scannable:module_range"
+			}]
+		}
+		{
+			x: 22.0d
+			y: 14.76190476190476d
+			shape: "diamond"
+			dependencies: ["6697C99058C41FA5"]
+			id: "1B14A7D5D52741B0"
+			tasks: [{
+				id: "18B9CC2260BA06F7"
+				type: "item"
+				item: "scannable:module_entity"
+			}]
+		}
+		{
+			x: 23.0d
+			y: 14.76190476190476d
+			shape: "diamond"
+			dependencies: ["6697C99058C41FA5"]
+			id: "1002B4F6498E2D6A"
+			tasks: [{
+				id: "1D6DFB4CAAF03B42"
+				type: "item"
+				item: "scannable:module_animal"
+			}]
+		}
+		{
+			x: 23.5d
+			y: 14.26190476190476d
+			shape: "diamond"
+			dependencies: ["6697C99058C41FA5"]
+			id: "65A288AD24EF8240"
+			tasks: [{
+				id: "6449E43CC13F553D"
+				type: "item"
+				item: "scannable:module_monster"
+			}]
+		}
+		{
+			x: 22.0d
+			y: 15.76190476190476d
+			shape: "diamond"
+			dependencies: ["6697C99058C41FA5"]
+			id: "44860787A372B5E5"
+			tasks: [{
+				id: "62DD224E5DCE3360"
+				type: "item"
+				item: "scannable:module_block"
+			}]
+		}
+		{
+			x: 22.5d
+			y: 16.26190476190476d
+			shape: "diamond"
+			dependencies: ["6697C99058C41FA5"]
+			id: "7EB5436EC36A095D"
+			tasks: [{
+				id: "5FC3D718B31E1F81"
+				type: "item"
+				item: "scannable:module_ore_common"
+			}]
+		}
+		{
+			x: 22.5d
+			y: 15.26190476190476d
+			shape: "diamond"
+			dependencies: ["6697C99058C41FA5"]
+			id: "5B0525A4EB6AE21A"
+			tasks: [{
+				id: "57FD136297E5972E"
+				type: "item"
+				item: "scannable:module_ore_rare"
+			}]
+		}
+		{
+			x: 23.0d
+			y: 15.76190476190476d
+			shape: "diamond"
+			dependencies: ["6697C99058C41FA5"]
+			id: "3E873C31329D9BF0"
+			tasks: [{
+				id: "34F9B0A216428F48"
+				type: "item"
+				item: "scannable:module_fluid"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 18.0d
+			shape: "diamond"
+			dependencies: ["559F61F3E7E1AA0F"]
+			id: "2916786E16B58AEA"
+			tasks: [{
+				id: "7C3F4D7019636FF9"
+				type: "item"
+				item: "chipped:botanist_workbench"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 19.0d
+			shape: "diamond"
+			dependencies: ["559F61F3E7E1AA0F"]
+			id: "1F3366A1C6491FA8"
+			tasks: [{
+				id: "488C1EC27BBE218F"
+				type: "item"
+				item: "chipped:glassblower"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 19.0d
+			shape: "diamond"
+			dependencies: ["559F61F3E7E1AA0F"]
+			id: "6FCD15DFE99279E5"
+			tasks: [{
+				id: "01E5B114E9A76366"
+				type: "item"
+				item: "chipped:carpenters_table"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 18.5d
+			shape: "diamond"
+			dependencies: ["559F61F3E7E1AA0F"]
+			id: "696E93D496F81E0D"
+			tasks: [{
+				id: "516F58A66E81C763"
+				type: "item"
+				item: "chipped:loom_table"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 18.5d
+			shape: "diamond"
+			dependencies: ["559F61F3E7E1AA0F"]
+			id: "1F27C6879966C76F"
+			tasks: [{
+				id: "063F2C78F7C351C9"
+				type: "item"
+				item: "chipped:mason_table"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 18.0d
+			shape: "diamond"
+			dependencies: ["559F61F3E7E1AA0F"]
+			id: "4EAD195E1AAA5292"
+			tasks: [{
+				id: "00B5170A55677085"
+				type: "item"
+				item: "chipped:alchemy_bench"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 19.5d
+			shape: "diamond"
+			dependencies: ["559F61F3E7E1AA0F"]
+			id: "34AB2FF94120C200"
+			tasks: [{
+				id: "53673B32E0F876D7"
+				type: "item"
+				item: "chipped:mechanist_workbench"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 18.5d
+			shape: "diamond"
+			id: "559F61F3E7E1AA0F"
+			tasks: [{
+				id: "1CD3A0A1FB6AF006"
+				type: "checkmark"
+				title: "Chipped"
+			}]
+		}
+		{
+			x: 19.25d
+			y: 26.0d
+			shape: "square"
+			description: [
+				"A tugboat powered by Forge Energy, can be charged when docked with a Vessel Charger."
+				""
+				"The tug has an extra slot for a capacitor, this is useful if the tug ran out of energy mid-way and needs to be recharged."
+			]
+			id: "17FA09C5EBA8FA12"
+			tasks: [{
+				id: "22D215327FE19025"
+				type: "item"
+				item: "littlelogistics:energy_tug"
+			}]
+		}
+		{
+			x: 19.25d
+			y: 25.0d
+			shape: "square"
+			description: [
+				"A basic tugboat that can operate on any furnace fuel."
+				""
+				"Fuel can be loaded with hoppers placed on top of tug docks."
+			]
+			id: "72147CB81D9DB69A"
+			tasks: [{
+				id: "41A98E1275D8414D"
+				type: "item"
+				item: "littlelogistics:tug"
+			}]
+		}
+		{
+			x: 20.25d
+			y: 26.0d
+			shape: "square"
+			description: ["Place under a block of water, works similar to vanilla powered rail. Can be used to force the tug to take a specific route. Does not affect barges. Shift-right-click to rotate."]
+			id: "28C28E3705B41DB8"
+			tasks: [{
+				id: "59C97B8360FA7D7D"
+				type: "item"
+				item: "littlelogistics:guide_rail_tug"
+			}]
+		}
+		{
+			x: 20.25d
+			y: 25.0d
+			shape: "square"
+			description: ["&bThe Tug Dock&r can only insert into the tug, place a hopper on top of the dock to extract. Shift right-click the tug dock to flip the dock direction."]
+			id: "2976C8F71BD90A63"
+			tasks: [{
+				id: "5379C4D8E3AE005D"
+				type: "item"
+				item: "littlelogistics:tug_dock"
+			}]
+		}
+		{
+			x: 20.25d
+			y: 24.0d
+			shape: "square"
+			description: [
+				"&bTug Route&r stores a route for the tug. When the item is placed in the tug's route slot, the tug will follow the route in order from node 0."
+				""
+				"Right click at any coordinate to add a node to the back of the tug route."
+				"Right click at the location of any existing node to remove it."
+				""
+				"The nodes will be indicated with beams when the item is held in the main hand."
+			]
+			id: "0E99ED4A033B5BF3"
+			tasks: [{
+				id: "5726D2F19DA7618F"
+				type: "item"
+				item: "littlelogistics:tug_route"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 31.5d
+			shape: "square"
+			description: ["Emits a redstone signal when a vessel is within 3 blocks in a given direction. Needs a straight line of water."]
+			id: "4E18D14B8B6F3A34"
+			tasks: [{
+				id: "7DFE51C82D947E9E"
+				type: "item"
+				item: "littlelogistics:vessel_detector"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 30.5d
+			shape: "square"
+			description: ["A charger for &bEnergy Rug&r, connect to any forge energy cable to add power to the charger. Place on top of a dock to charge the vessel when docking."]
+			id: "11B3FBEFCBA81B64"
+			tasks: [{
+				id: "2F54C3DADAEB9E42"
+				type: "item"
+				item: "littlelogistics:vessel_charger"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 31.5d
+			shape: "square"
+			description: [
+				"A hopper but for fluids, can import from the top and export from the sides."
+				"Can be loaded by right-clicking with buckets."
+				"Can be used to load/unload vessels using Docks."
+			]
+			id: "0160BCBD25F5A54B"
+			tasks: [{
+				id: "41E5B3767A45AD75"
+				type: "item"
+				item: "littlelogistics:fluid_hopper"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 31.5d
+			shape: "square"
+			description: [
+				"Assists vessels around sharp corners, should always be used on shard corners or near entrances to narrow waterways."
+				""
+				"Affects both tugs and barges. Shift-right-click to flip direction."
+				""
+				"Must not have a full solid block directly on top."
+			]
+			id: "3C5F76E40FB21228"
+			tasks: [{
+				id: "014EC328D5F0CF8A"
+				type: "item"
+				item: "littlelogistics:guide_rail_corner"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 32.5d
+			shape: "square"
+			description: [
+				"Used to link &bVessels&r together."
+				""
+				"Right click vessels in order to create a \"Vesserl train\". A train can only have one tugboat and cannot have loops."
+				"Will break if vessels are more than 20 blocks apart."
+			]
+			id: "572DE70FE0E80A42"
+			tasks: [{
+				id: "16EDB82BAA34DCF5"
+				type: "item"
+				item: {
+					id: "littlelogistics:spring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 10.75d
+			y: 26.0d
+			shape: "square"
+			description: ["&bThe Barge Docks&r can both output and input to/from the barges, shift-right click to switch the mode. Place a hopper underneath the barge's path to extract resources."]
+			id: "5FC04EAB2C9A5BFF"
+			tasks: [{
+				id: "3011640F66D61C8F"
+				type: "item"
+				item: "littlelogistics:barge_dock"
+			}]
+		}
+		{
+			x: 10.75d
+			y: 25.0d
+			shape: "square"
+			description: ["Use this barge to transport fluids, can be loaded with a Fluid Hopper."]
+			id: "6886D58F0CDEDC40"
+			tasks: [{
+				id: "51E6FE475AD2C4FD"
+				type: "item"
+				item: "littlelogistics:fluid_barge"
+			}]
+		}
+		{
+			x: 10.75d
+			y: 24.0d
+			shape: "square"
+			description: [
+				"A simple barge that holds items, similar to chest minecart."
+				""
+				"The barge must be docked and part of a tug-train to interface with hoppers."
+			]
+			id: "5ECD7092BD6D6CB8"
+			tasks: [{
+				id: "6A014D568253CA53"
+				type: "item"
+				item: "littlelogistics:barge"
+			}]
+		}
+		{
+			x: 11.75d
+			y: 26.0d
+			shape: "square"
+			description: ["Nees to be in open water for nets to be deployed. Use on long routes in open oceans to avoir \"Shallow water\" and \"overfishing\" penalties."]
+			id: "48541A9AAB05258E"
+			tasks: [{
+				id: "47D57FDECDE333A8"
+				type: "item"
+				item: "littlelogistics:fishing_barge"
+			}]
+		}
+		{
+			x: 11.75d
+			y: 25.0d
+			shape: "square"
+			subtitle: "Welcome on board Captain !"
+			description: ["A simple barge that seats one player."]
+			id: "1275849B6A9A4663"
+			tasks: [{
+				id: "69B893015E66FB4E"
+				type: "item"
+				item: "littlelogistics:seater_barge"
 			}]
 		}
 	]

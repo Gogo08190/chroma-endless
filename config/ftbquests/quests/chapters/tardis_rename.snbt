@@ -106,6 +106,7 @@
 		{
 			x: -49.5d
 			y: -5.0d
+			description: ["Allows for crafting of other Upgrades."]
 			dependencies: [
 				"54DC8317D4B7A510"
 				"7260BE309AD6DF62"
@@ -127,6 +128,7 @@
 		{
 			x: -49.5d
 			y: -4.0d
+			description: ["Allows the telepathic circuits to locate specific structures within 500 blocks of the exterior."]
 			dependencies: ["3036833D11AB9650"]
 			id: "0F8A02D5EB56D6CB"
 			tasks: [{
@@ -144,6 +146,7 @@
 		{
 			x: -49.5d
 			y: -3.0d
+			description: ["Allows a Tardis to tow another connected Tardis. To connect this upgrade to a Tardis, right click the upgrade on the console of the Timeship you wish to tow, then place this into the Upgrade Slot of the engine belonging to the Tardis that you are using to move the other one."]
 			dependencies: ["3036833D11AB9650"]
 			id: "7D677EE98177CDA2"
 			tasks: [{
@@ -161,6 +164,7 @@
 		{
 			x: -48.5d
 			y: -4.0d
+			description: ["Cures poison debuffs and heals all entities below their maximum health in the interior of a Tardis. Takes 1 damage for each heart healed. Currently unable to be repaired."]
 			dependencies: ["3036833D11AB9650"]
 			id: "131F6571537A8D7E"
 			tasks: [{
@@ -178,6 +182,7 @@
 		{
 			x: -48.5d
 			y: -3.0d
+			description: ["Allows players with a Tardis key attuned to that Tardis to remotely lock/unlock the Timeship remotely. Works within a limited range of the exterior and an unlimited range within the interior."]
 			dependencies: ["3036833D11AB9650"]
 			id: "7A13637117EF1A6A"
 			tasks: [{
@@ -195,6 +200,7 @@
 		{
 			x: -49.5d
 			y: -2.0d
+			description: ["If the exterior is submerged in water, will give nearby water submerged entities the Water Breathing effect."]
 			dependencies: ["3036833D11AB9650"]
 			id: "2C40339B6D0E8C0E"
 			tasks: [{
@@ -293,103 +299,8 @@
 			}]
 		}
 		{
-			x: -53.0d
-			y: -10.5d
-			id: "3D98E6811CF859D7"
-			tasks: [
-				{
-					id: "543E233D457E00A5"
-					type: "item"
-					item: {
-						id: "tardis:subsystem/nav_com"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "055979974B89E0EC"
-					type: "item"
-					item: {
-						id: "tardis:subsystem/stabilizer"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "6E747E1755F592B8"
-					type: "item"
-					item: {
-						id: "tardis:subsystem/shield_generator"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "22792E6119257F8B"
-					type: "item"
-					item: {
-						id: "tardis:subsystem/temporal_grace"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "60D7094FAEDA7FCC"
-					type: "item"
-					item: {
-						id: "tardis:subsystem/interstitial_antenna"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "01964BE9D83ECA57"
-					type: "item"
-					item: {
-						id: "tardis:subsystem/chameleon_circuit"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "51BA0EE872BAFC13"
-					type: "item"
-					item: {
-						id: "tardis:subsystem/fluid_link"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "289C3B0F997D979C"
-					type: "item"
-					item: {
-						id: "tardis:subsystem/dematerialisation_circuit"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
 			x: -56.5d
-			y: -8.5d
+			y: -8.0d
 			subtitle: "An Alembic is a device that processes raw materials. It can be mined with a pickaxe."
 			description: [
 				"Uses"
@@ -524,47 +435,9 @@
 			}]
 		}
 		{
-			x: -57.0d
-			y: -12.25d
-			id: "70E98AE77ED17996"
-			tasks: [{
-				id: "476E5D8BBFB6EA9B"
-				type: "item"
-				item: {
-					id: "tardis:stattenheim_remote"
-					Count: 1b
-					tag: {
-						cap_sync: {
-							loc: {
-								name: ""
-								dim: "minecraft:overworld"
-								dir: 2
-								pos: 0L
-							}
-							time_left: 0.0d
-							is_flying: 0b
-							fuel: 0.0f
-						}
-					}
-					ForgeCaps: {
-						"tardis:remote": {
-							loc: {
-								pos: 0L
-								name: ""
-								dim: "minecraft:overworld"
-								dir: 2
-							}
-							time_left: 0.0d
-							is_flying: 0b
-							fuel: 0.0f
-						}
-					}
-				}
-			}]
-		}
-		{
 			x: -56.0d
 			y: -12.25d
+			description: ["The Diagnostic Tool is a multi-purpose device that allows a player to view dashboards and track their Tardis"]
 			id: "53CB21797EB0D903"
 			tasks: [{
 				id: "08B862B1E3ECDD3F"
@@ -638,6 +511,7 @@
 		{
 			x: -50.5d
 			y: -12.25d
+			description: ["The Pocket Watch is a device that allows a player to view the outside world's time when inside the Tardis interior."]
 			id: "1FF942CB25D5A8AD"
 			tasks: [{
 				id: "2E7A662EA33AFDDE"
@@ -743,8 +617,10 @@
 			}]
 		}
 		{
-			x: -57.0d
-			y: -14.0d
+			title: "Rift"
+			x: -57.75d
+			y: -15.5d
+			dependencies: ["7249BC3BF63A36B8"]
 			id: "479E2F607957EC9E"
 			tasks: [
 				{
@@ -868,6 +744,271 @@
 				id: "617E184FAD256AAD"
 				type: "checkmark"
 				title: "Transfer items from Tardis Exterior to Tardis Interior"
+			}]
+		}
+		{
+			x: -51.5d
+			y: -18.75d
+			description: [
+				"Subsystems must be enabled after they are installed in order to function."
+				""
+				"They can be enabled by flicking a switch above or below the component in the engine. When the switch is activated, it will glow a bright red and an activated sound will play."
+				""
+				"{image:chroma:textures/quests/activate_2.png width:200 height:100 align:1}"
+			]
+			dependencies: ["0C761DEAE05AF0E8"]
+			id: "68C298CD58B3F481"
+			tasks: [{
+				id: "62B5CC70CE6B4C94"
+				type: "checkmark"
+				title: "Activation"
+			}]
+		}
+		{
+			x: -53.25d
+			y: -17.25d
+			subtitle: "Optional"
+			description: ["Sending and receiving messages. Receiving distress calls."]
+			dependencies: ["68C298CD58B3F481"]
+			id: "1D7AAAC8A0889D68"
+			tasks: [{
+				id: "391A627F9DC5DA9C"
+				type: "item"
+				item: {
+					id: "tardis:subsystem/interstitial_antenna"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -52.25d
+			y: -17.25d
+			subtitle: "Optional"
+			description: ["Change the exterior shell of the Tardis."]
+			dependencies: ["68C298CD58B3F481"]
+			id: "588923D2B27C820B"
+			tasks: [{
+				id: "343E420F00A10993"
+				type: "item"
+				item: {
+					id: "tardis:subsystem/chameleon_circuit"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -51.25d
+			y: -17.25d
+			subtitle: "Optional"
+			description: ["Cancels all damage inside the interior and allows for the Temporal Scoop feature to be used if this is activated."]
+			dependencies: ["68C298CD58B3F481"]
+			id: "1E36296CD248F719"
+			tasks: [{
+				id: "630119D0E8370130"
+				type: "item"
+				item: {
+					id: "tardis:subsystem/temporal_grace"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -50.25d
+			y: -17.25d
+			subtitle: "Optional"
+			description: ["Protect other subsystems when exterior is hit. Enabling forcefield."]
+			dependencies: ["68C298CD58B3F481"]
+			id: "508574EC349748FF"
+			tasks: [{
+				id: "3B0ACC29BCD1D336"
+				type: "item"
+				item: {
+					id: "tardis:subsystem/shield_generator"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -49.25d
+			y: -17.25d
+			subtitle: "Optional"
+			description: ["Allowing the activation of stabilised mode."]
+			dependencies: ["68C298CD58B3F481"]
+			id: "0385BDAA60AC23B9"
+			tasks: [{
+				id: "0AA2ADDE6A89A44E"
+				type: "item"
+				item: {
+					id: "tardis:subsystem/stabilizer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -48.25d
+			y: -17.25d
+			subtitle: "Optional"
+			description: ["Displaying current and destination co-ordinates. Setting non-randomised destination co-ordinates."]
+			dependencies: ["68C298CD58B3F481"]
+			id: "77927BEBA73A16C1"
+			tasks: [{
+				id: "4B8FC2E70CD50A52"
+				type: "item"
+				item: {
+					id: "tardis:subsystem/nav_com"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -47.25d
+			y: -17.25d
+			subtitle: "Essential"
+			description: ["Flight, if the Fluid Link is also installed. Exterior anti-gravity functionality."]
+			dependencies: ["68C298CD58B3F481"]
+			id: "53E71DE552F4CDD7"
+			tasks: [{
+				id: "5AFF7487B5CA8AC8"
+				type: "item"
+				item: {
+					id: "tardis:subsystem/dematerialisation_circuit"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -46.25d
+			y: -17.25d
+			subtitle: "Essential"
+			description: ["Flight, if Dematerialisation Circuit is also installed. Required to enable the refuel button."]
+			dependencies: ["68C298CD58B3F481"]
+			id: "7FDB5B15B5F619CF"
+			tasks: [{
+				id: "1B26EB5DEDE30254"
+				type: "item"
+				item: {
+					id: "tardis:subsystem/fluid_link"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -54.5d
+			y: -18.75d
+			description: ["Essential subsystems are required to allow a Tardis to enter flight mode. The Tardis console will emit smoke when one or more of these is under 10% of their total durability and will spark when under 5% of total durability. These effects will stop when the component is removed from the engine. Currently, only the Dematerialisation Circuit and Fluid Link are considered essential."]
+			id: "060009E44354CAAA"
+			tasks: [{
+				id: "322F5C9F111604D2"
+				type: "checkmark"
+				title: "Essential"
+			}]
+		}
+		{
+			x: -53.0d
+			y: -18.75d
+			description: ["Optional subsystems are not required for flight, however, certain other functions of the Tardis may require a specific optional subsystem. For example, the Chameleon Circuit is required for the Tardis to change its exterior. There are no special effects when one of these is low in durability, so ensure you check your engine or Diagnostic Tool regularly and perform appropriate repairs."]
+			dependencies: ["060009E44354CAAA"]
+			id: "0C761DEAE05AF0E8"
+			tasks: [{
+				id: "17F40F32EAFF63F3"
+				type: "checkmark"
+				title: "Optional"
+			}]
+		}
+		{
+			x: -50.5d
+			y: -5.0d
+			description: [
+				"Upgrades must be enabled after they are installed in order to function. They can be enabled by flicking a switch above or below the component in the engine. When the switch is activated, it will glow a bright red and an activated sound will play."
+				""
+				"Upgrades can be removed from the engine or disabled at any time by toggling its switch."
+				"{image:chroma:textures/quests/activation.png width:200 height:100 align:1}"
+			]
+			id: "579BCBD73667F654"
+			tasks: [{
+				id: "17FB6A2C1E831207"
+				type: "checkmark"
+				title: "Activation"
+			}]
+		}
+		{
+			x: -56.5d
+			y: -15.5d
+			id: "7249BC3BF63A36B8"
+			tasks: [{
+				id: "01D0DC5A8C987844"
+				type: "checkmark"
+				title: "Rift Chunk"
+			}]
+		}
+		{
+			x: -56.5d
+			y: -16.75d
+			description: [
+				"Any chunk, at any time, will have a chance to become a rift. Rifts will have limited energy, and that will build overtime."
+				""
+				"A fully drained rift will close and not gain any power again, but like every other chunk it has a chance to become a rift again."
+			]
+			dependencies: ["7249BC3BF63A36B8"]
+			id: "1E1901611F025610"
+			tasks: [{
+				id: "03595FE5717FC321"
+				type: "checkmark"
+				title: "Generation"
+			}]
+		}
+		{
+			x: -55.25d
+			y: -16.75d
+			description: ["When a Sonic Screwdriver on Passive Prove mode is in the inventory of a player which enters a Rift Chunk, a notification message and sound will be sent to the player."]
+			dependencies: ["1E1901611F025610"]
+			id: "42C1B84F1A72B43C"
+			tasks: [{
+				id: "0BF2E75E7B65A4A1"
+				type: "checkmark"
+				title: "Detection"
+			}]
+		}
+		{
+			x: -55.25d
+			y: -15.5d
+			description: [
+				"1. Detect a Rift Chunk"
+				"2. Place down an Artron Collector and Artron Pylon within the Rift Chunk."
+				"{image:chroma:textures/quests/rift.png width:150 height:100 align:1}"
+				"{image:chroma:textures/quests/rift2.png width:150 height:100 align:1}"
+				"Take out the item from the Artron Collector. If the item has been charged, its store Artron Units will have increased."
+			]
+			dependencies: ["42C1B84F1A72B43C"]
+			id: "360FBB77F43CA6C6"
+			tasks: [{
+				id: "374F0802DC7C9281"
+				type: "checkmark"
+				title: "Charging Artron compatible items"
 			}]
 		}
 	]

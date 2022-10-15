@@ -36,7 +36,8 @@
 	quests: [
 		{
 			x: 0.0d
-			y: -5.5d
+			y: -3.5d
+			shape: "gear"
 			description: ["Obtained by breaking some &5Draconium Ore&r"]
 			id: "511D1F9D645AB548"
 			tasks: [{
@@ -47,7 +48,8 @@
 		}
 		{
 			x: 0.0d
-			y: -4.5d
+			y: -2.5d
+			shape: "diamond"
 			dependencies: ["511D1F9D645AB548"]
 			id: "2B5A3B1370B700C4"
 			tasks: [{
@@ -57,8 +59,9 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -3.5d
+			x: -0.5d
+			y: -2.0d
+			shape: "diamond"
 			dependencies: ["2B5A3B1370B700C4"]
 			id: "4CD972E08A4DFE88"
 			tasks: [{
@@ -68,8 +71,9 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -2.5d
+			x: 0.5d
+			y: -2.0d
+			shape: "diamond"
 			dependencies: ["4CD972E08A4DFE88"]
 			id: "2FFF2B223BF2968D"
 			tasks: [{
@@ -81,6 +85,7 @@
 		{
 			x: 0.0d
 			y: -1.5d
+			shape: "diamond"
 			dependencies: [
 				"47FB5940D83B6DF2"
 				"2FFF2B223BF2968D"
@@ -110,10 +115,10 @@
 		{
 			x: 0.0d
 			y: 0.5d
+			shape: "diamond"
 			dependencies: [
 				"47FB5940D83B6DF2"
 				"180340AB4EC31ADC"
-				"2FFF2B223BF2968D"
 			]
 			id: "5A0FCB248609EAB1"
 			tasks: [{
@@ -123,8 +128,9 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 1.5d
+			x: -0.5d
+			y: 1.0d
+			shape: "diamond"
 			dependencies: [
 				"6F350477334C0544"
 				"5A0FCB248609EAB1"
@@ -137,8 +143,9 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 2.5d
+			x: 0.5d
+			y: 1.0d
+			shape: "diamond"
 			dependencies: ["40A58B7BA95C6FEA"]
 			id: "092891E48F64913A"
 			tasks: [{
@@ -149,7 +156,8 @@
 		}
 		{
 			x: 0.0d
-			y: 3.5d
+			y: 1.5d
+			shape: "diamond"
 			dependencies: ["092891E48F64913A"]
 			id: "42341880DAF0DB55"
 			tasks: [{
@@ -1052,9 +1060,10 @@
 			}]
 		}
 		{
-			x: -7.25d
-			y: -6.25d
+			x: -6.75d
+			y: 1.0d
 			description: ["&dThe Item Dislocator&r is a magnet with a range of 8 blocks."]
+			dependencies: ["6E050B72C6B8E358"]
 			id: "391AB68B6BC4A677"
 			tasks: [{
 				id: "044BD89A1DA00D5B"
@@ -1063,9 +1072,10 @@
 			}]
 		}
 		{
-			x: -6.25d
-			y: -6.25d
+			x: -5.75d
+			y: -1.25d
 			description: ["&dThe Awakened Item Dislocator&r is an upgrade of the item dislocator with a range of 32 blocks."]
+			hide_dependency_lines: true
 			dependencies: ["391AB68B6BC4A677"]
 			id: "52C4B36F2ECEEB0A"
 			tasks: [{
@@ -1075,8 +1085,8 @@
 			}]
 		}
 		{
-			x: -5.25d
-			y: -6.25d
+			x: -5.75d
+			y: 1.75d
 			description: [
 				"&dThe dislocator pedestal&r allows to put a dislocator on it."
 				""
@@ -1090,14 +1100,16 @@
 			}]
 		}
 		{
-			x: -4.25d
-			y: -6.25d
+			x: -5.75d
+			y: 0.0d
 			subtitle: "Whoosh !"
 			description: [
 				"&dThe Dislocator&r is used to teleport you."
 				""
 				"&6Shift right-click&r to set the teleportation position, then you can just &6right-click&r it to teleport you to the location (work in any dimension)."
 			]
+			hide_dependency_lines: true
+			dependencies: ["2FFF2B223BF2968D"]
 			id: "6E050B72C6B8E358"
 			tasks: [{
 				id: "7113ACB33781B508"
@@ -1179,8 +1191,8 @@
 		}
 		{
 			title: "Draconic Energy Transportation"
-			x: -6.0d
-			y: -3.75d
+			x: -5.5d
+			y: -6.0d
 			description: [
 				"&dThe Draconic Energy Relay Crystal&r is used to make a relay between I/O Crystal and Energy Crystal, it can store 64M RF and has 32 links, and it has a range of 128 blocks."
 				""
@@ -1209,8 +1221,8 @@
 			]
 		}
 		{
-			x: -6.0d
-			y: -1.75d
+			x: -5.0d
+			y: -7.0d
 			description: [
 				"&dThe Basic Energy Relay Crystal &ris used to make a relay between I/O Crystal and Energy Crystal, it can store 4M RF and has 8 links, and has a range of 32 blocks."
 				""
@@ -1218,6 +1230,7 @@
 				""
 				"&dThe Basic Wireless Energy Crystal &ris used to powered machines wirelessly,  can store 4M RF and has 4 links, can provide wireless RF to 16 machines, and it has a range of 128 blocks."
 			]
+			dependencies: ["269DDB274DB80BDF"]
 			id: "1AD1E4C908C25DE0"
 			tasks: [
 				{
@@ -1238,8 +1251,8 @@
 			]
 		}
 		{
-			x: -6.0d
-			y: -2.75d
+			x: -3.0d
+			y: -7.0d
 			description: [
 				"&dThe Wyvern Energy Relay Crystal&r is used to make a relay between I/O Crystal and Energy Crystal, It can store 16M RF and has 16 links, and it has a range of 64 blocks."
 				""
@@ -1284,14 +1297,11 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -2.75d
+			x: -2.5d
+			y: -6.0d
 			description: ["Generate energy from solid fuel."]
 			hide_dependency_lines: true
-			dependencies: [
-				"0581F004215D7680"
-				"59A15DA7104A2EB8"
-			]
+			dependencies: ["180340AB4EC31ADC"]
 			id: "7240C479C13D75DB"
 			tasks: [{
 				id: "1307E067C7075BD5"
@@ -1300,8 +1310,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -1.75d
+			x: -1.25d
+			y: 5.0d
 			subtitle: "KILLER 2000 !"
 			description: [
 				"&dThe Mob Grinder&r is used to kill mob with a powerful filter."
@@ -1312,6 +1322,8 @@
 				""
 				"You can provide it with any sword (can be enchanted) it will uses it's durability."
 			]
+			hide_dependency_lines: true
+			dependencies: ["180340AB4EC31ADC"]
 			id: "3EDC0AC8669F124B"
 			tasks: [{
 				id: "65092E246F001B94"
@@ -1320,8 +1332,10 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -0.75d
+			x: -2.25d
+			y: 6.0d
+			hide_dependency_lines: true
+			dependencies: ["180340AB4EC31ADC"]
 			id: "6FB9BE145BBBE3C2"
 			tasks: [{
 				id: "43F56467D5C48122"
@@ -1330,8 +1344,8 @@
 			}]
 		}
 		{
-			x: -3.25d
-			y: -6.25d
+			x: -4.75d
+			y: 1.0d
 			description: [
 				"&bThe Advanced Dislocator&r is a device that stores a lot of teleportation points. "
 				""
@@ -1887,8 +1901,9 @@
 		}
 		{
 			title: "Draconic Energy Storage"
-			x: -1.75d
-			y: -6.25d
+			x: -4.0d
+			y: -6.0d
+			shape: "hexagon"
 			description: [
 				"&dDraconic Energy Storage&r is used to store a lot of energy."
 				""
@@ -1935,6 +1950,9 @@
 				"• 786 Draconium Blocks"
 				"• 36 Energy Core Stabilizer"
 			]
+			hide_dependency_lines: true
+			dependencies: ["40A58B7BA95C6FEA"]
+			size: 2.0d
 			min_width: 400
 			id: "1F9B04D8190E9439"
 			tasks: [
@@ -1958,13 +1976,9 @@
 			]
 		}
 		{
-			x: -4.0d
-			y: -0.75d
-			hide_dependency_lines: true
-			dependencies: [
-				"14546760EE1D4281"
-				"5DF689E0F93130A9"
-			]
+			x: -3.25d
+			y: -4.75d
+			dependencies: ["7240C479C13D75DB"]
 			id: "2A5940EAB5B8E3A4"
 			tasks: [{
 				id: "46A6D7002E98482D"
@@ -1973,8 +1987,10 @@
 			}]
 		}
 		{
-			x: -6.75d
-			y: 1.75d
+			x: -2.25d
+			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: ["6FFCB22B7BE222E4"]
 			id: "5F5A359BA9212A2B"
 			tasks: [{
 				id: "3CF14DD7F25EFAE3"
@@ -1983,8 +1999,10 @@
 			}]
 		}
 		{
-			x: -5.75d
-			y: 1.75d
+			x: -1.25d
+			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: ["092891E48F64913A"]
 			id: "54EE09C1D305976A"
 			tasks: [{
 				id: "44544DDDE20714A0"
@@ -1993,8 +2011,10 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -1.75d
+			x: -3.25d
+			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: ["180340AB4EC31ADC"]
 			id: "12426B987494AD7E"
 			tasks: [{
 				id: "7B60223A158825A6"
@@ -2003,8 +2023,10 @@
 			}]
 		}
 		{
-			x: -6.75d
-			y: 2.75d
+			x: -3.25d
+			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: ["40A58B7BA95C6FEA"]
 			id: "384FC578046906D0"
 			tasks: [{
 				id: "4C0842B4C2D7DC41"
@@ -2014,8 +2036,11 @@
 		}
 		{
 			title: "Draconic Reactor"
-			x: -5.75d
-			y: 2.75d
+			icon: "draconicevolution:reactor_core"
+			x: -4.75d
+			y: -4.75d
+			hide_dependency_lines: true
+			dependencies: ["13D4EFBF9D6020E0"]
 			id: "5650F66F25DC9F77"
 			tasks: [
 				{
@@ -2037,8 +2062,10 @@
 			]
 		}
 		{
-			x: -4.75d
-			y: 2.75d
+			x: -1.25d
+			y: 6.0d
+			hide_dependency_lines: true
+			dependencies: ["180340AB4EC31ADC"]
 			id: "37D7E16719A06951"
 			tasks: [{
 				id: "4CFAC49977893D12"
@@ -2047,8 +2074,10 @@
 			}]
 		}
 		{
-			x: -4.75d
-			y: 1.75d
+			x: -3.25d
+			y: 6.0d
+			hide_dependency_lines: true
+			dependencies: ["180340AB4EC31ADC"]
 			id: "6316ED8472238969"
 			tasks: [{
 				id: "416C47480E07799C"
@@ -2057,9 +2086,11 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -3.75d
+			x: -3.75d
+			y: -8.75d
 			description: ["&dThe Crystal Binder&r is used when linking Energy I/O Crystal."]
+			hide_dependency_lines: true
+			dependencies: ["180340AB4EC31ADC"]
 			id: "269DDB274DB80BDF"
 			tasks: [{
 				id: "6858BF17B8165F20"

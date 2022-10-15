@@ -1,0 +1,327 @@
+{
+	id: "1EB5904A17E52E3D"
+	group: ""
+	order_index: 13
+	filename: "prefab"
+	title: "Prefab"
+	icon: "prefab:item_starter_farm"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.0d
+			y: -12.75d
+			shape: "rsquare"
+			id: "279A04C78949BFC6"
+			tasks: [{
+				id: "2B22EC69493AA31D"
+				type: "item"
+				item: "prefab:item_starter_farm"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -11.75d
+			shape: "rsquare"
+			dependencies: ["279A04C78949BFC6"]
+			id: "716D947E7A743685"
+			tasks: [{
+				id: "19D060200697AE46"
+				type: "item"
+				item: "prefab:item_moderate_farm"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -10.75d
+			shape: "rsquare"
+			dependencies: ["716D947E7A743685"]
+			id: "0AA6706431A68D1F"
+			tasks: [{
+				id: "68475BC62A30FC82"
+				type: "item"
+				item: "prefab:item_advanced_farm"
+			}]
+		}
+		{
+			x: -1.75d
+			y: -8.5d
+			shape: "octagon"
+			id: "780A9DA22F2B8B3D"
+			tasks: [{
+				id: "1D6F6DAACA7D52ED"
+				type: "item"
+				item: {
+					id: "prefab:item_modern_buildings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.25d
+			y: -6.25d
+			shape: "square"
+			id: "6838A7591783515A"
+			tasks: [{
+				id: "5E6FCEF2D8AB2FCD"
+				type: "item"
+				item: "prefab:item_warehouse"
+			}]
+		}
+		{
+			x: 3.25d
+			y: -5.25d
+			shape: "square"
+			dependencies: ["6838A7591783515A"]
+			id: "7369922AE8C855ED"
+			tasks: [{
+				id: "5D47CF3181192EDB"
+				type: "item"
+				item: "prefab:item_advanced_warehouse"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -7.5d
+			shape: "square"
+			id: "4511B0D5DFECAC21"
+			tasks: [{
+				id: "2A7974ED4097B397"
+				type: "item"
+				item: {
+					id: "prefab:item_villager_houses"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.5d
+			shape: "square"
+			id: "2B05605041838C85"
+			tasks: [{
+				id: "72CB8D2181312FA6"
+				type: "item"
+				item: "prefab:item_workshop"
+			}]
+		}
+		{
+			x: -1.25d
+			y: -5.25d
+			shape: "square"
+			dependencies: ["78346ABB2E20D47C"]
+			id: "465EF35E998E9EA9"
+			tasks: [{
+				id: "3209A895E8EB5FD0"
+				type: "item"
+				item: "prefab:item_advanced_aqua_base"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.25d
+			shape: "hexagon"
+			id: "40F39A63CA623232"
+			tasks: [{
+				id: "2718F4303F25BBCB"
+				type: "item"
+				item: "prefab:item_nether_gate"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -7.5d
+			shape: "square"
+			id: "7A28E558A687140A"
+			tasks: [{
+				id: "5861BE518F83D309"
+				type: "item"
+				item: "prefab:item_town_hall"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -8.5d
+			shape: "square"
+			id: "79DDF8B6DA66F3B1"
+			tasks: [{
+				id: "11228BE0E5255BF1"
+				type: "item"
+				item: "prefab:item_wind_mill"
+			}]
+		}
+		{
+			x: 3.75d
+			y: -8.5d
+			shape: "octagon"
+			id: "2CF31C77D31F5325"
+			tasks: [{
+				id: "1ABEC3FA38A04A93"
+				type: "item"
+				item: "prefab:item_ski_lodge"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -9.5d
+			shape: "square"
+			id: "5694ED605664B052"
+			tasks: [{
+				id: "3A4DCA0A9458C63B"
+				type: "item"
+				item: "prefab:item_saloon"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.5d
+			shape: "square"
+			id: "52163272E019BC29"
+			tasks: [{
+				id: "55A3BB209A6A4DC7"
+				type: "item"
+				item: "prefab:item_jail"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -8.5d
+			shape: "square"
+			id: "670ED955EB8E4B6C"
+			tasks: [{
+				id: "01B52E440D3EBCCF"
+				type: "item"
+				item: "prefab:item_watch_tower"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.75d
+			shape: "hexagon"
+			id: "3E67BF98F36D6D80"
+			tasks: [{
+				id: "7993841C20830FB7"
+				type: "item"
+				item: "prefab:item_magic_temple"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			shape: "hexagon"
+			id: "07926832238C1298"
+			tasks: [{
+				id: "2F7866F03569A214"
+				type: "item"
+				item: "prefab:item_grassy_plain"
+			}]
+		}
+		{
+			x: -1.25d
+			y: -6.25d
+			shape: "square"
+			id: "78346ABB2E20D47C"
+			tasks: [{
+				id: "59E3B964DD3B1F4C"
+				type: "item"
+				item: "prefab:item_aqua_base"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			shape: "hexagon"
+			id: "361E10527613BF8F"
+			tasks: [{
+				id: "51F33A5C7FA21F70"
+				type: "item"
+				item: "prefab:item_ender_gateway"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.25d
+			shape: "hexagon"
+			id: "0427208D1E1467FE"
+			tasks: [{
+				id: "6D7336E175096062"
+				type: "item"
+				item: "prefab:item_mineshaft_entrance"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.75d
+			shape: "hexagon"
+			id: "6B5C99F2CABFA76D"
+			tasks: [{
+				id: "3FABC4291C8443B6"
+				type: "item"
+				item: "prefab:item_defense_bunker"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -9.5d
+			shape: "square"
+			id: "31FCBCD7C99747C7"
+			tasks: [{
+				id: "2700853F61DEE1D0"
+				type: "item"
+				item: "prefab:item_machinery_tower"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.75d
+			shape: "gear"
+			size: 1.5d
+			id: "5FFC2D372F4EF9D1"
+			tasks: [{
+				id: "13C62DD2EED941B5"
+				type: "item"
+				item: {
+					id: "prefab:item_bulldozer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -9.5d
+			shape: "square"
+			id: "59A8BE208A1433B3"
+			tasks: [{
+				id: "28B237013B4DC05A"
+				type: "item"
+				item: "prefab:item_moderate_house"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			shape: "hexagon"
+			id: "6E2FCDB60E58D6A8"
+			tasks: [{
+				id: "58E518C463C8B69E"
+				type: "item"
+				item: {
+					id: "prefab:item_instant_bridge"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}
