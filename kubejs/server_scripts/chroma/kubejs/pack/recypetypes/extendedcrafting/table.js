@@ -2727,4 +2727,331 @@ onEvent("recipes", (event) => {
       }
     }
   ).id(`${id_prefix}ultimate_singularity`)
+
+  event.custom (
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCDADCBA",
+        "BEFFGFFEB",
+        "CFHIJIHFC",
+        "DFIKLKIFD",
+        "AMJLNLJOA",
+        "DFPKLKPFD",
+        "CFHPJPHFC",
+        "BEFFQFFEB",
+        "ABCDADCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "ars_nouveau:mythical_clay"
+        },
+        "B": {
+          "item": "occultism:iesnium_ingot"
+        },
+        "C": {
+          "item": "occultism:afrit_essence"
+        },
+        "D": {
+          "item": "emendatusenigmatica:arcane_gem"
+        },
+        "E": {
+          "item": "ars_elemental:necrotic_focus"
+        },
+        "F": {
+          "item": "arsarsenal:source_steel_ingot"
+        },
+        "G": {
+          "item": "ars_elemental:fire_focus"
+        },
+        "H": {
+          "item": "extendedcrafting:luminessence"
+        },
+        "I": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:source_gem\"}"
+        },
+        "J": {
+          "item": "extendedcrafting:the_ultimate_ingot"
+        },
+        "K": {
+          "item": "kubejs:chroma_matter"
+        },
+        "L": {
+          "item": "kubejs:creative_catalyst"
+        },
+        "M": {
+          "item": "ars_elemental:air_focus"
+        },
+        "N": {
+          "item": "ars_nouveau:archmage_spell_book"
+        },
+        "O": {
+          "item": "ars_elemental:water_focus"
+        },
+        "P": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:spirit_attuned_gem\"}"
+        },
+        "Q": {
+          "item": "ars_elemental:earth_focus"
+        }
+      },
+      "result": {
+        "item": ""
+      }
+    }
+  ).id(`${id_prefix}creative_spell_book`)
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCBDBCBE",
+        "BFGHIJGFB",
+        "CGKLMLKGC",
+        "BNLOPOLNB",
+        "QRMPSPMTU",
+        "BNLOPOLNB",
+        "CGKLMLKGC",
+        "BFGJVHGFB",
+        "WBCBXBCBY"
+      ],
+      "key": {
+        "A": {
+          "item": "ars_nouveau:mana_condenser"
+        },
+        "B": {
+          "item": "emendatusenigmatica:arcane_gem"
+        },
+        "C": {
+          "item": "kubejs:creative_catalyst"
+        },
+        "D": {
+          "item": "ars_nouveau:arcane_relay"
+        },
+        "E": {
+          "item": "ars_nouveau:volcanic_accumulator"
+        },
+        "F": {
+          "item": "ars_nouveau:mythical_clay"
+        },
+        "G": {
+          "item": "occultism:iesnium_ingot"
+        },
+        "H": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:source_gem\"}"
+        },
+        "I": {
+          "item": "ars_nouveau:potion_jar"
+        },
+        "J": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:spirit_attuned_gem\"}"
+        },
+        "K": {
+          "item": "extendedcrafting:the_ultimate_ingot"
+        },
+        "L": {
+          "item": "ars_nouveau:purple_archwood_wood"
+        },
+        "M": {
+          "item": "ars_nouveau:as_gold_stone"
+        },
+        "N": {
+          "item": "arsarsenal:source_steel_ingot"
+        },
+        "O": {
+          "item": "ars_nouveau:phantom_block"
+        },
+        "P": {
+          "item": "ars_nouveau:warding_stone"
+        },
+        "Q": {
+          "item": "ars_nouveau:relay_deposit"
+        },
+        "R": {
+          "item": "ars_nouveau:timer_spell_turret"
+        },
+        "S": {
+          "item": "ars_nouveau:mana_jar"
+        },
+        "T": {
+          "item": "ars_nouveau:spell_turret"
+        },
+        "U": {
+          "item": "ars_nouveau:relay_warp"
+        },
+        "V": {
+          "item": "ars_nouveau:basic_spell_turret"
+        },
+        "W": {
+          "item": "ars_nouveau:alchemical_sourcelink"
+        },
+        "X": {
+          "item": "ars_nouveau:mycelial_sourcelink"
+        },
+        "Y": {
+          "item": "ars_nouveau:vitalic_sourcelink"
+        }
+      },
+      "result": {
+        "item": ""
+      }
+    }
+  ).id(`${id_prefix}creative_source_jar`)
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCDEDCBA",
+        "BFGHIHGJB",
+        "CGKLMLKGC",
+        "NOLPQPLRN",
+        "STUVWXYZ1",
+        "NOLP2PLRN",
+        "CGKL3LKGC",
+        "B4G565G7B",
+        "ABCD8DCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "elementalcraft:swift_alloy_block"
+        },
+        "B": {
+          "item": "elementalcraft:elementpipe_improved"
+        },
+        "C": {
+          "item": "elementalcraft:drenched_iron_block"
+        },
+        "D": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:swift_alloy\"}"
+        },
+        "E": {
+          "type": "forge:nbt",
+          "item": "elementalcraft:reservoir_fire",
+          "count": 1,
+          "nbt": "{BlockEntityTag:{element_storage:{element_capacity:5000000,element_amount:5000000,element_type:\"fire\"}}}"
+        },
+        "F": {
+          "item": "elementalcraft:firecrystal_block"
+        },
+        "G": {
+          "item": "elementalcraft:whiterock"
+        },
+        "H": {
+          "item": "elementalcraft:pedestal_fire"
+        },
+        "I": {
+          "item": "elementalcraft:crude_fire_gem"
+        },
+        "J": {
+          "item": "elementalcraft:aircrystal_block"
+        },
+        "K": {
+          "item": "elementalcraft:purecrystal"
+        },
+        "L": {
+          "item": "elementalcraft:shrine_upgrade_core"
+        },
+        "M": {
+          "item": "elementalcraft:fine_fire_gem"
+        },
+        "N": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:fireite\"}"
+        },
+        "O": {
+          "item": "elementalcraft:pedestal_water"
+        },
+        "P": {
+          "item": "elementalcraft:fireite_block"
+        },
+        "Q": {
+          "item": "elementalcraft:pristine_fire_gem"
+        },
+        "R": {
+          "item": "elementalcraft:pedestal_air"
+        },
+        "S": {
+          "type": "forge:nbt",
+          "item": "elementalcraft:reservoir_water",
+          "count": 1,
+          "nbt": "{BlockEntityTag:{element_storage:{element_capacity:5000000,element_amount:5000000,element_type:\"water\"}}}"
+        },
+        "T": {
+          "item": "elementalcraft:crude_water_gem"
+        },
+        "U": {
+          "item": "elementalcraft:fine_water_gem"
+        },
+        "V": {
+          "item": "elementalcraft:pristine_water_gem"
+        },
+        "W": {
+          "type": "forge:nbt",
+          "item": "elementalcraft:pure_element_holder",
+          "count": 1,
+          "nbt": "{earth:100000,fire:100000,air:100000,water:100000}"
+        },
+        "X": {
+          "item": "elementalcraft:pristine_air_gem"
+        },
+        "Y": {
+          "item": "elementalcraft:fine_air_gem"
+        },
+        "Z": {
+          "item": "elementalcraft:crude_air_gem"
+        },
+        "1": {
+          "type": "forge:nbt",
+          "item": "elementalcraft:reservoir_air",
+          "count": 1,
+          "nbt": "{BlockEntityTag:{element_storage:{element_capacity:5000000,element_amount:5000000,element_type:\"air\"}}}"
+        },
+        "2": {
+          "item": "elementalcraft:pristine_earth_gem"
+        },
+        "3": {
+          "item": "elementalcraft:fine_earth_gem"
+        },
+        "4": {
+          "item": "elementalcraft:watercrystal_block"
+        },
+        "5": {
+          "item": "elementalcraft:pedestal_earth"
+        },
+        "6": {
+          "item": "elementalcraft:crude_earth_gem"
+        },
+        "7": {
+          "item": "elementalcraft:earthcrystal_block"
+        },
+        "8": {
+          "type": "forge:nbt",
+          "item": "elementalcraft:reservoir_earth",
+          "count": 1,
+          "nbt": "{BlockEntityTag:{element_storage:{element_capacity:5000000,element_amount:5000000,element_type:\"earth\"}}}"
+        }
+      },
+      "result": {
+        "item": ""
+      }
+    }
+  ).id(`${id_prefix}creative_element_container`)
 });
