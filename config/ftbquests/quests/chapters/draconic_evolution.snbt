@@ -35,8 +35,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 0.0d
-			y: -3.5d
+			x: -0.25d
+			y: -5.75d
 			shape: "gear"
 			description: ["Obtained by breaking some &5Draconium Ore&r"]
 			id: "511D1F9D645AB548"
@@ -47,8 +47,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -2.5d
+			x: -0.25d
+			y: -4.75d
 			shape: "diamond"
 			dependencies: ["511D1F9D645AB548"]
 			id: "2B5A3B1370B700C4"
@@ -59,8 +59,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -2.0d
+			x: -0.75d
+			y: -4.25d
 			shape: "diamond"
 			dependencies: ["2B5A3B1370B700C4"]
 			id: "4CD972E08A4DFE88"
@@ -71,8 +71,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -2.0d
+			x: 0.25d
+			y: -4.25d
 			shape: "diamond"
 			dependencies: ["4CD972E08A4DFE88"]
 			id: "2FFF2B223BF2968D"
@@ -83,8 +83,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -1.5d
+			x: -0.25d
+			y: -3.75d
 			shape: "diamond"
 			dependencies: [
 				"47FB5940D83B6DF2"
@@ -99,8 +99,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -0.5d
+			x: -0.25d
+			y: -2.75d
 			dependencies: [
 				"6F350477334C0544"
 				"3C77DBFB806317A9"
@@ -113,8 +113,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 0.5d
+			x: -0.25d
+			y: -1.75d
 			shape: "diamond"
 			dependencies: [
 				"47FB5940D83B6DF2"
@@ -128,8 +128,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 1.0d
+			x: -0.75d
+			y: -1.25d
 			shape: "diamond"
 			dependencies: [
 				"6F350477334C0544"
@@ -143,8 +143,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 1.0d
+			x: 0.25d
+			y: -1.25d
 			shape: "diamond"
 			dependencies: ["40A58B7BA95C6FEA"]
 			id: "092891E48F64913A"
@@ -155,8 +155,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 1.5d
+			x: -0.25d
+			y: -0.75d
 			shape: "diamond"
 			dependencies: ["092891E48F64913A"]
 			id: "42341880DAF0DB55"
@@ -1060,8 +1060,8 @@
 			}]
 		}
 		{
-			x: -6.75d
-			y: 1.0d
+			x: -7.5d
+			y: -1.75d
 			description: ["&dThe Item Dislocator&r is a magnet with a range of 8 blocks."]
 			dependencies: ["6E050B72C6B8E358"]
 			id: "391AB68B6BC4A677"
@@ -1072,8 +1072,8 @@
 			}]
 		}
 		{
-			x: -5.75d
-			y: -1.25d
+			x: -6.5d
+			y: -4.0d
 			description: ["&dThe Awakened Item Dislocator&r is an upgrade of the item dislocator with a range of 32 blocks."]
 			hide_dependency_lines: true
 			dependencies: ["391AB68B6BC4A677"]
@@ -1085,8 +1085,8 @@
 			}]
 		}
 		{
-			x: -5.75d
-			y: 1.75d
+			x: -6.5d
+			y: -1.0d
 			description: [
 				"&dThe dislocator pedestal&r allows to put a dislocator on it."
 				""
@@ -1100,8 +1100,8 @@
 			}]
 		}
 		{
-			x: -5.75d
-			y: 0.0d
+			x: -6.5d
+			y: -2.75d
 			subtitle: "Whoosh !"
 			description: [
 				"&dThe Dislocator&r is used to teleport you."
@@ -1191,8 +1191,8 @@
 		}
 		{
 			title: "Draconic Energy Transportation"
-			x: -5.5d
-			y: -6.0d
+			x: -4.25d
+			y: -5.75d
 			description: [
 				"&dThe Draconic Energy Relay Crystal&r is used to make a relay between I/O Crystal and Energy Crystal, it can store 64M RF and has 32 links, and it has a range of 128 blocks."
 				""
@@ -1221,8 +1221,8 @@
 			]
 		}
 		{
-			x: -5.0d
-			y: -7.0d
+			x: -4.25d
+			y: -8.25d
 			description: [
 				"&dThe Basic Energy Relay Crystal &ris used to make a relay between I/O Crystal and Energy Crystal, it can store 4M RF and has 8 links, and has a range of 32 blocks."
 				""
@@ -1251,7 +1251,7 @@
 			]
 		}
 		{
-			x: -3.0d
+			x: -5.0d
 			y: -7.0d
 			description: [
 				"&dThe Wyvern Energy Relay Crystal&r is used to make a relay between I/O Crystal and Energy Crystal, It can store 16M RF and has 16 links, and it has a range of 64 blocks."
@@ -1281,8 +1281,8 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: -0.5d
+			x: -2.25d
+			y: -2.75d
 			description: [
 				"&dThe Energy Transfuser&r is used to recharge your draconic stuff faster."
 				""
@@ -1297,8 +1297,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -6.0d
+			x: -2.0d
+			y: -7.0d
 			description: ["Generate energy from solid fuel."]
 			hide_dependency_lines: true
 			dependencies: ["180340AB4EC31ADC"]
@@ -1310,8 +1310,8 @@
 			}]
 		}
 		{
-			x: -1.25d
-			y: 5.0d
+			x: -2.0d
+			y: 2.25d
 			subtitle: "KILLER 2000 !"
 			description: [
 				"&dThe Mob Grinder&r is used to kill mob with a powerful filter."
@@ -1332,8 +1332,8 @@
 			}]
 		}
 		{
-			x: -2.25d
-			y: 6.0d
+			x: -3.0d
+			y: 3.25d
 			hide_dependency_lines: true
 			dependencies: ["180340AB4EC31ADC"]
 			id: "6FB9BE145BBBE3C2"
@@ -1344,8 +1344,8 @@
 			}]
 		}
 		{
-			x: -4.75d
-			y: 1.0d
+			x: -5.5d
+			y: -1.75d
 			description: [
 				"&bThe Advanced Dislocator&r is a device that stores a lot of teleportation points. "
 				""
@@ -1366,8 +1366,8 @@
 			}]
 		}
 		{
-			x: 13.0d
-			y: -6.5d
+			x: 10.25d
+			y: -5.25d
 			shape: "diamond"
 			description: ["&dThe Module Core&r is the base of every Module for your Draconic Evolution Stuff."]
 			hide_dependency_lines: true
@@ -1386,8 +1386,8 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: -6.0d
+			x: 9.25d
+			y: -4.75d
 			shape: "diamond"
 			description: ["&dThe Speed Module&r is used to increase your movement speed."]
 			dependencies: ["43D8A13A6332EED2"]
@@ -1416,8 +1416,8 @@
 			]
 		}
 		{
-			x: 14.5d
-			y: -6.5d
+			x: 11.75d
+			y: -5.25d
 			shape: "diamond"
 			subtitle: "Bye bye Enderman !"
 			description: ["&dThe Projectile Immunity Cancellation Module&r is used to cancel the enderman's teleportation when you want to shoot them."]
@@ -1430,8 +1430,8 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: -5.5d
+			x: 9.75d
+			y: -4.25d
 			shape: "diamond"
 			description: ["&dThe Hill Step Module&r gives you the ability to have a step assist."]
 			dependencies: ["43D8A13A6332EED2"]
@@ -1443,8 +1443,8 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: -6.0d
+			x: 11.25d
+			y: -4.75d
 			shape: "diamond"
 			description: ["&dThe AOE Module&r is used to increase your AOE on your tools and weapons."]
 			dependencies: ["43D8A13A6332EED2"]
@@ -1474,8 +1474,8 @@
 		}
 		{
 			title: "Projectil Gravity Compensation Module"
-			x: 13.5d
-			y: -5.5d
+			x: 10.75d
+			y: -4.25d
 			shape: "diamond"
 			description: ["&dThe Projectile Gravity Compensation Module&r is used to make your bow shot straighter and therefore shoot farther."]
 			dependencies: ["43D8A13A6332EED2"]
@@ -1499,8 +1499,8 @@
 			]
 		}
 		{
-			x: 12.0d
-			y: -7.0d
+			x: 9.25d
+			y: -5.75d
 			shape: "diamond"
 			subtitle: "SPAAAM !!"
 			description: ["&dThe Auto Fire Module&r, is used to add an auto fire to your bow."]
@@ -1514,8 +1514,8 @@
 		}
 		{
 			title: "Flight Module"
-			x: 14.0d
-			y: -7.0d
+			x: 11.25d
+			y: -5.75d
 			shape: "diamond"
 			subtitle: "Better than Elytra"
 			description: [
@@ -1544,8 +1544,8 @@
 			]
 		}
 		{
-			x: 12.5d
-			y: -7.5d
+			x: 9.75d
+			y: -6.25d
 			shape: "diamond"
 			description: ["&dThe Damage Module&r is used to increase the damage done by your weapons."]
 			dependencies: ["43D8A13A6332EED2"]
@@ -1575,8 +1575,8 @@
 		}
 		{
 			title: "Undying Module"
-			x: 13.5d
-			y: -7.5d
+			x: 10.75d
+			y: -6.25d
 			shape: "diamond"
 			subtitle: "Invincible ?"
 			description: ["&dThe Undying Module&r is basically a totem of undying installable on your Chest Piece."]
@@ -1601,8 +1601,8 @@
 			]
 		}
 		{
-			x: 11.5d
-			y: -7.5d
+			x: 8.75d
+			y: -6.25d
 			shape: "diamond"
 			description: ["&dThe Energy Module&r is used to increase the energy of your stuff."]
 			dependencies: ["43D8A13A6332EED2"]
@@ -1631,8 +1631,8 @@
 			]
 		}
 		{
-			x: 11.0d
-			y: -7.0d
+			x: 8.25d
+			y: -5.75d
 			shape: "diamond"
 			description: ["&dThe Auto Feed Module&r is used to store food and auto feed you."]
 			dependencies: ["43D8A13A6332EED2"]
@@ -1662,8 +1662,8 @@
 		}
 		{
 			title: "Projectile Velocity Module"
-			x: 15.0d
-			y: -7.0d
+			x: 12.25d
+			y: -5.75d
 			shape: "diamond"
 			description: ["&dThe Projectile Velocity Module&r is used to increase the velocity of your arrow when you shoot."]
 			dependencies: ["43D8A13A6332EED2"]
@@ -1688,8 +1688,8 @@
 		}
 		{
 			title: "Projectile Penetration Module"
-			x: 11.5d
-			y: -6.5d
+			x: 8.75d
+			y: -5.25d
 			shape: "diamond"
 			description: ["&dThe Projectile Penetration Module&r is used to penetrate armor when you shoot an arrow, sometimes you can even pass through a target and potentially hit additional targets."]
 			dependencies: ["43D8A13A6332EED2"]
@@ -1714,8 +1714,8 @@
 		}
 		{
 			title: "Projectile Damage Module"
-			x: 13.0d
-			y: -8.0d
+			x: 10.25d
+			y: -6.75d
 			shape: "diamond"
 			description: ["&dThe Projectile Damage Module&r is used to increase the damage done by your arrows."]
 			dependencies: ["43D8A13A6332EED2"]
@@ -1740,8 +1740,8 @@
 		}
 		{
 			title: "Shield Recovery Module"
-			x: 13.0d
-			y: -5.0d
+			x: 10.25d
+			y: -3.75d
 			shape: "diamond"
 			description: ["&dThe Shield Recovery Module&r allows you to improve your shield recharge of your Chest Piece."]
 			dependencies: ["43D8A13A6332EED2"]
@@ -1765,8 +1765,8 @@
 			]
 		}
 		{
-			x: 14.0d
-			y: -8.0d
+			x: 11.25d
+			y: -6.75d
 			shape: "diamond"
 			description: ["&dThe Jump Module&r is used to give you a Jump Boost effect."]
 			dependencies: ["43D8A13A6332EED2"]
@@ -1796,8 +1796,8 @@
 		}
 		{
 			title: "Projectile Accuracy Module"
-			x: 14.5d
-			y: -7.5d
+			x: 11.75d
+			y: -6.25d
 			shape: "diamond"
 			description: ["&dThe Projectile Accuracy Module&r is used to improve your accuracy with the bow."]
 			dependencies: ["43D8A13A6332EED2"]
@@ -1822,8 +1822,8 @@
 		}
 		{
 			title: "Shield Control Module"
-			x: 12.0d
-			y: -8.0d
+			x: 9.25d
+			y: -6.75d
 			shape: "diamond"
 			description: ["&dThe Shield Control Module&r is used to decrease the Shield Cooldown."]
 			dependencies: ["43D8A13A6332EED2"]
@@ -1848,8 +1848,8 @@
 		}
 		{
 			title: "Large Shield Capacity Module"
-			x: 12.0d
-			y: -5.0d
+			x: 9.25d
+			y: -3.75d
 			shape: "diamond"
 			subtitle: "Better, stronger !"
 			description: ["&dThe Large Shield Capacity Module&r is used to increase your Energy Shield but take less place in your tool modules GUI."]
@@ -1875,8 +1875,8 @@
 		}
 		{
 			title: "Shield Capacity Module"
-			x: 14.0d
-			y: -5.0d
+			x: 11.25d
+			y: -3.75d
 			shape: "diamond"
 			description: ["&dThe Shield Capacity Module&r is used to increaser your Energy Shield."]
 			dependencies: ["43D8A13A6332EED2"]
@@ -1901,8 +1901,8 @@
 		}
 		{
 			title: "Draconic Energy Storage"
-			x: -4.0d
-			y: -6.0d
+			x: -3.5d
+			y: -7.0d
 			shape: "hexagon"
 			description: [
 				"&dDraconic Energy Storage&r is used to store a lot of energy."
@@ -1976,8 +1976,8 @@
 			]
 		}
 		{
-			x: -3.25d
-			y: -4.75d
+			x: -2.75d
+			y: -5.75d
 			dependencies: ["7240C479C13D75DB"]
 			id: "2A5940EAB5B8E3A4"
 			tasks: [{
@@ -1987,8 +1987,8 @@
 			}]
 		}
 		{
-			x: -2.25d
-			y: 4.0d
+			x: -3.0d
+			y: 1.25d
 			hide_dependency_lines: true
 			dependencies: ["6FFCB22B7BE222E4"]
 			id: "5F5A359BA9212A2B"
@@ -1999,8 +1999,8 @@
 			}]
 		}
 		{
-			x: -1.25d
-			y: 4.0d
+			x: -2.0d
+			y: 1.25d
 			hide_dependency_lines: true
 			dependencies: ["092891E48F64913A"]
 			id: "54EE09C1D305976A"
@@ -2011,8 +2011,8 @@
 			}]
 		}
 		{
-			x: -3.25d
-			y: 5.0d
+			x: -4.0d
+			y: 2.25d
 			hide_dependency_lines: true
 			dependencies: ["180340AB4EC31ADC"]
 			id: "12426B987494AD7E"
@@ -2023,8 +2023,8 @@
 			}]
 		}
 		{
-			x: -3.25d
-			y: 4.0d
+			x: -4.0d
+			y: 1.25d
 			hide_dependency_lines: true
 			dependencies: ["40A58B7BA95C6FEA"]
 			id: "384FC578046906D0"
@@ -2037,8 +2037,8 @@
 		{
 			title: "Draconic Reactor"
 			icon: "draconicevolution:reactor_core"
-			x: -4.75d
-			y: -4.75d
+			x: -2.75d
+			y: -8.25d
 			hide_dependency_lines: true
 			dependencies: ["13D4EFBF9D6020E0"]
 			id: "5650F66F25DC9F77"
@@ -2062,8 +2062,8 @@
 			]
 		}
 		{
-			x: -1.25d
-			y: 6.0d
+			x: -2.0d
+			y: 3.25d
 			hide_dependency_lines: true
 			dependencies: ["180340AB4EC31ADC"]
 			id: "37D7E16719A06951"
@@ -2074,8 +2074,8 @@
 			}]
 		}
 		{
-			x: -3.25d
-			y: 6.0d
+			x: -4.0d
+			y: 3.25d
 			hide_dependency_lines: true
 			dependencies: ["180340AB4EC31ADC"]
 			id: "6316ED8472238969"
@@ -2086,8 +2086,8 @@
 			}]
 		}
 		{
-			x: -3.75d
-			y: -8.75d
+			x: -3.5d
+			y: -9.0d
 			description: ["&dThe Crystal Binder&r is used when linking Energy I/O Crystal."]
 			hide_dependency_lines: true
 			dependencies: ["180340AB4EC31ADC"]
