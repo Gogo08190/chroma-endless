@@ -1,180 +1,17 @@
 {
 	id: "4DD0CAE9F61C3C09"
 	group: "34085A64296DE6C7"
-	order_index: 2
+	order_index: 1
 	filename: "new_mechanics"
 	title: "New mechanics"
 	icon: "miniutilities:the_final_opinium_core"
 	subtitle: ["Flux Networks + Mini Utilities + Wormhole"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	images: [{
-		x: -3.75d
-		y: 0.75d
-		width: 3.0d
-		height: 3.0d
-		rotation: 0.0d
-		image: "chroma:textures/quests/flux_network.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
-	}]
 	quests: [
 		{
-			x: -5.5d
-			y: -4.0d
-			subtitle: "The key crafting ingredient of the mod"
-			dependencies: ["5E2A78C08B7A29B1"]
-			id: "0346878606EED7AF"
-			tasks: [{
-				id: "0350848958D861DE"
-				type: "item"
-				item: "fluxnetworks:flux_dust"
-			}]
-		}
-		{
-			x: -5.5d
-			y: -2.5d
-			subtitle: "Other key crafting ingredients of the mod !"
-			dependencies: ["0346878606EED7AF"]
-			min_width: 240
-			id: "1F71F911773ED178"
-			tasks: [{
-				id: "63E3CC8DDDEC0897"
-				type: "item"
-				item: "fluxnetworks:flux_block"
-			}]
-		}
-		{
-			x: -5.5d
-			y: -1.0d
-			subtitle: "Other key crafting ingredients of the mod !"
-			dependencies: ["0346878606EED7AF"]
-			min_width: 240
-			id: "641BEA5DCB499C89"
-			tasks: [{
-				id: "6521FD4200918689"
-				type: "item"
-				item: "fluxnetworks:flux_core"
-			}]
-		}
-		{
-			x: -3.25d
-			y: -1.5d
-			subtitle: "Used to Store Energy in the network"
-			description: [
-				"Flux Storage is used to store excess energy. It will only be filled once each Flux Point has received enough energy."
-				""
-				"This energy can only be accessed by removing energy with a Flux Point."
-				""
-				"&7&lThis energy can only be accessed by removing energy with a Flux Point."
-				""
-				"&bEnergy Capacity: 1,000,000 FE"
-			]
-			dependencies: ["1F71F911773ED178"]
-			min_width: 240
-			id: "2D31986387CE4C65"
-			tasks: [{
-				id: "0CAE0D826DE41651"
-				type: "item"
-				item: "fluxnetworks:basic_flux_storage"
-			}]
-		}
-		{
-			x: -2.0d
-			y: -0.5d
-			subtitle: "Tier 2"
-			description: ["&bEnergy Capacity: 8,000,000 FE"]
-			dependencies: ["2D31986387CE4C65"]
-			id: "7598222D3C2DDB3B"
-			tasks: [{
-				id: "537E59A687B230C5"
-				type: "item"
-				item: "fluxnetworks:herculean_flux_storage"
-			}]
-		}
-		{
-			x: -0.75d
-			y: -1.25d
-			subtitle: "Tier 3"
-			description: ["&bEnergy Capacity: 128,000,000 FE"]
-			dependencies: ["7598222D3C2DDB3B"]
-			id: "1EA3FA891CD9D86B"
-			tasks: [{
-				id: "27948C2546309C33"
-				type: "item"
-				item: "fluxnetworks:gargantuan_flux_storage"
-			}]
-		}
-		{
-			x: -8.0d
-			y: 0.0d
-			subtitle: "The Flux Configurator can also be connected to a network"
-			description: [
-				"● It can be used to access, edit, delete networks on the go. And shares the same GUI as connectors."
-				""
-				"● It can also be used to copy / paste settings between connectors."
-				""
-				"&lCopying Settings:&r Shift-Right Click on a connector to copy it's settings and then Right Click on a connector you wish to paste the settings to. If you right click something which isn't a connector you'll bring up the Network GUI and also you'll be able to edit the settings which the Configurator will paste. The configurator can also be renamed here, with the name field."
-			]
-			dependencies: ["641BEA5DCB499C89"]
-			min_width: 240
-			id: "256631A4863B5967"
-			tasks: [{
-				id: "7A49376458495B60"
-				type: "item"
-				item: "fluxnetworks:flux_configurator"
-			}]
-		}
-		{
-			x: -9.5d
-			y: 1.25d
-			subtitle: "Used for Adding Energy to the network"
-			description: ["You can add energy from all sides simultaneously."]
-			dependencies: ["256631A4863B5967"]
-			min_width: 240
-			id: "4ECC7C1447375BC6"
-			tasks: [{
-				id: "091665EC9CE00211"
-				type: "item"
-				item: "fluxnetworks:flux_plug"
-			}]
-		}
-		{
-			x: -7.5d
-			y: 1.75d
-			subtitle: "Used to Remove Energy from the network"
-			description: ["You can remove energy from all sides simultaneously."]
-			dependencies: ["256631A4863B5967"]
-			min_width: 240
-			id: "3AC7B8BCFAEA298F"
-			tasks: [{
-				id: "0C452ACC04DC8B2F"
-				type: "item"
-				item: "fluxnetworks:flux_point"
-			}]
-		}
-		{
-			x: -5.5d
-			y: 2.25d
-			shape: "pentagon"
-			description: ["Required to activate &lCross-dimensional inventory charging&r"]
-			dependencies: [
-				"1F71F911773ED178"
-				"0D3B58EA40DC53A8"
-			]
-			min_width: 240
-			id: "6FF7B4E1C7187615"
-			tasks: [{
-				id: "77C8636502F22F8F"
-				type: "item"
-				item: "fluxnetworks:flux_controller"
-			}]
-		}
-		{
-			x: 9.0d
-			y: -11.0d
+			x: 14.0d
+			y: -11.5d
 			shape: "gear"
 			size: 2.0d
 			id: "5CF10CD523A35115"
@@ -191,8 +28,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: -5.0d
+			x: 12.5d
+			y: -13.0d
 			dependencies: [
 				"5CF10CD523A35115"
 				"0CB05E2C72CD2F8B"
@@ -206,7 +43,7 @@
 		}
 		{
 			x: 17.0d
-			y: -6.0d
+			y: -4.0d
 			shape: "gear"
 			dependencies: ["1DD1C1798D8F0ABA"]
 			size: 2.0d
@@ -218,8 +55,8 @@
 			}]
 		}
 		{
-			x: 8.25d
-			y: -3.25d
+			x: 9.5d
+			y: -14.5d
 			id: "3B98DD729789BA19"
 			tasks: [{
 				id: "5D189648E98934B4"
@@ -228,8 +65,8 @@
 			}]
 		}
 		{
-			x: 8.25d
-			y: -5.0d
+			x: 9.0d
+			y: -13.25d
 			dependencies: ["3B98DD729789BA19"]
 			id: "768DA735AF3CF018"
 			tasks: [{
@@ -239,8 +76,8 @@
 			}]
 		}
 		{
-			x: 8.25d
-			y: -6.25d
+			x: 10.0d
+			y: -12.25d
 			dependencies: ["768DA735AF3CF018"]
 			id: "370FAF0C90DB123C"
 			tasks: [{
@@ -250,8 +87,8 @@
 			}]
 		}
 		{
-			x: 8.25d
-			y: -7.5d
+			x: 9.5d
+			y: -11.0d
 			dependencies: ["370FAF0C90DB123C"]
 			id: "20E21B9A52542C73"
 			tasks: [{
@@ -261,8 +98,8 @@
 			}]
 		}
 		{
-			x: 8.25d
-			y: -8.75d
+			x: 11.75d
+			y: -9.75d
 			dependencies: [
 				"20E21B9A52542C73"
 				"5CF10CD523A35115"
@@ -275,28 +112,26 @@
 			}]
 		}
 		{
-			x: 22.5d
-			y: -8.25d
-			id: "43645BDBA669BB44"
-			tasks: [{
-				id: "720D7C9593EE07FB"
-				type: "item"
-				item: "miniutilities:mechanical_placer"
-			}]
-		}
-		{
-			x: 15.0d
-			y: -4.5d
+			title: "Mechanical Machines"
+			x: 20.0d
+			y: -6.5d
 			id: "585139F620B2DAF9"
-			tasks: [{
-				id: "133C7277A2234063"
-				type: "item"
-				item: "miniutilities:mechanical_miner"
-			}]
+			tasks: [
+				{
+					id: "133C7277A2234063"
+					type: "item"
+					item: "miniutilities:mechanical_miner"
+				}
+				{
+					id: "33FEB079F159E622"
+					type: "item"
+					item: "miniutilities:mechanical_placer"
+				}
+			]
 		}
 		{
-			x: 15.0d
-			y: -6.25d
+			x: 17.0d
+			y: -6.5d
 			dependencies: [
 				"06BCCE580AA519CC"
 				"2D2AD10E28D5C2C8"
@@ -310,8 +145,8 @@
 			}]
 		}
 		{
-			x: 13.75d
-			y: -4.5d
+			x: 13.25d
+			y: -5.25d
 			dependencies: ["7D1DA3B110C7991D"]
 			id: "1E504907855001C3"
 			tasks: [{
@@ -321,8 +156,8 @@
 			}]
 		}
 		{
-			x: 13.0d
-			y: -2.0d
+			x: 12.0d
+			y: -5.25d
 			dependencies: ["0A52425E05BF3CC2"]
 			id: "2CAADD989F790DD3"
 			tasks: [{
@@ -332,8 +167,8 @@
 			}]
 		}
 		{
-			x: 13.75d
-			y: -6.25d
+			x: 13.25d
+			y: -6.5d
 			dependencies: [
 				"1E504907855001C3"
 				"44F54CA9814342B5"
@@ -346,8 +181,8 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: -3.25d
+			x: 13.25d
+			y: -4.0d
 			id: "7D1DA3B110C7991D"
 			tasks: [{
 				id: "7C84050B7C2695AB"
@@ -356,8 +191,8 @@
 			}]
 		}
 		{
-			x: 13.0d
-			y: -3.25d
+			x: 12.0d
+			y: -4.0d
 			id: "0A52425E05BF3CC2"
 			tasks: [{
 				id: "33C5D25B73E2EF9D"
@@ -366,8 +201,8 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: -9.75d
+			x: 14.0d
+			y: -9.25d
 			dependencies: [
 				"5CF10CD523A35115"
 				"147F3AE2799C6351"
@@ -380,8 +215,8 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: -6.25d
+			x: 12.0d
+			y: -6.5d
 			dependencies: ["1A3C70D595561F61"]
 			id: "54A3B771F9E056CD"
 			tasks: [{
@@ -391,38 +226,31 @@
 			}]
 		}
 		{
-			x: 21.5d
-			y: -8.25d
-			id: "000CC03588A888C5"
-			tasks: [{
-				id: "623D5D6F335231AC"
-				type: "item"
-				item: "miniutilities:redstone_glass"
-			}]
-		}
-		{
-			x: 23.5d
-			y: -9.25d
+			title: "Some Really Cool Glasses"
+			x: 22.0d
+			y: -6.5d
 			id: "34CBB2C5434966C5"
-			tasks: [{
-				id: "0B1A2E8ABB658B45"
-				type: "item"
-				item: "miniutilities:glowing_glass"
-			}]
+			tasks: [
+				{
+					id: "0B1A2E8ABB658B45"
+					type: "item"
+					item: "miniutilities:glowing_glass"
+				}
+				{
+					id: "284658748CD10314"
+					type: "item"
+					item: "miniutilities:redstone_glass"
+				}
+				{
+					id: "06529FCBE0E2B46F"
+					type: "item"
+					item: "miniutilities:dark_glass"
+				}
+			]
 		}
 		{
 			x: 21.5d
 			y: -7.25d
-			id: "29536AB8409A44CB"
-			tasks: [{
-				id: "75BA4981CDE19CF8"
-				type: "item"
-				item: "miniutilities:dark_glass"
-			}]
-		}
-		{
-			x: 23.5d
-			y: -8.25d
 			id: "5858FA8B5E0BA21B"
 			tasks: [{
 				id: "4E0ABFBA0C3A5FB1"
@@ -431,7 +259,7 @@
 			}]
 		}
 		{
-			x: 22.5d
+			x: 20.5d
 			y: -7.25d
 			id: "3A0378CB8B600989"
 			tasks: [{
@@ -441,8 +269,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: -3.25d
+			x: 12.5d
+			y: -14.5d
 			id: "0CB05E2C72CD2F8B"
 			tasks: [{
 				id: "251E91A5EFB302EA"
@@ -451,8 +279,8 @@
 			}]
 		}
 		{
-			x: 19.760714285714286d
-			y: -10.8202380952381d
+			x: 18.375d
+			y: -13.5d
 			shape: "octagon"
 			dependencies: ["522508C95BF66664"]
 			size: 1.5d
@@ -464,8 +292,8 @@
 			}]
 		}
 		{
-			x: 17.0d
-			y: -3.25d
+			x: 15.0d
+			y: -4.0d
 			id: "1DD1C1798D8F0ABA"
 			tasks: [{
 				id: "1D8763064363E643"
@@ -474,8 +302,8 @@
 			}]
 		}
 		{
-			x: 11.25d
-			y: -8.75d
+			x: 9.5d
+			y: -7.75d
 			id: "2C532C845E796EB9"
 			tasks: [{
 				id: "11C2C39DB429C683"
@@ -484,7 +312,7 @@
 			}]
 		}
 		{
-			x: 11.25d
+			x: 10.75d
 			y: -7.75d
 			dependencies: ["2C532C845E796EB9"]
 			id: "43ACF88FBD6B160D"
@@ -495,7 +323,7 @@
 			}]
 		}
 		{
-			x: 12.5d
+			x: 12.0d
 			y: -7.75d
 			dependencies: ["43ACF88FBD6B160D"]
 			id: "1A3C70D595561F61"
@@ -506,7 +334,7 @@
 			}]
 		}
 		{
-			x: 13.75d
+			x: 13.25d
 			y: -7.75d
 			dependencies: ["1A3C70D595561F61"]
 			id: "44F54CA9814342B5"
@@ -528,7 +356,7 @@
 			}]
 		}
 		{
-			x: 16.5d
+			x: 18.0d
 			y: -7.75d
 			dependencies: ["06BCCE580AA519CC"]
 			id: "2D5C30C88EF8D7C9"
@@ -540,7 +368,7 @@
 		}
 		{
 			x: 18.0d
-			y: -7.75d
+			y: -9.25d
 			dependencies: ["2D5C30C88EF8D7C9"]
 			id: "147F3AE2799C6351"
 			tasks: [{
@@ -551,7 +379,7 @@
 		}
 		{
 			x: 18.0d
-			y: -11.0d
+			y: -11.5d
 			dependencies: [
 				"147F3AE2799C6351"
 				"5CF10CD523A35115"
@@ -564,8 +392,8 @@
 			}]
 		}
 		{
-			x: 19.75d
-			y: -7.75d
+			x: 19.5d
+			y: -11.5d
 			dependencies: ["7BC4C667F34F12A2"]
 			id: "522508C95BF66664"
 			tasks: [{
@@ -575,8 +403,8 @@
 			}]
 		}
 		{
-			x: 22.5d
-			y: -9.25d
+			x: 21.0d
+			y: -6.5d
 			id: "2F4A06569C2CC36E"
 			tasks: [{
 				id: "58F5F9EDDF1AF656"
@@ -585,8 +413,9 @@
 			}]
 		}
 		{
-			x: 22.75d
-			y: -3.25d
+			x: 23.25d
+			y: -11.75d
+			description: ["&aExperience Pearls&r are gotten when you kill a mob with &5experience harvester&r enchant."]
 			id: "549773FFAA0D69FA"
 			tasks: [{
 				id: "2D2DFC20CD13189C"
@@ -595,8 +424,8 @@
 			}]
 		}
 		{
-			x: 22.75d
-			y: -4.75d
+			x: 22.0d
+			y: -11.75d
 			dependencies: ["549773FFAA0D69FA"]
 			id: "2E0B64EAE3CA31B4"
 			tasks: [{
@@ -606,8 +435,8 @@
 			}]
 		}
 		{
-			x: 21.5d
-			y: -4.75d
+			x: 22.0d
+			y: -10.5d
 			dependencies: ["2E0B64EAE3CA31B4"]
 			id: "46D3D2C5FB1B4CD5"
 			tasks: [{
@@ -617,8 +446,8 @@
 			}]
 		}
 		{
-			x: 20.25d
-			y: -4.75d
+			x: 20.75d
+			y: -10.5d
 			dependencies: ["46D3D2C5FB1B4CD5"]
 			id: "7192D649ED9FEE78"
 			tasks: [{
@@ -628,8 +457,8 @@
 			}]
 		}
 		{
-			x: 19.0d
-			y: -4.75d
+			x: 20.75d
+			y: -9.25d
 			dependencies: ["7192D649ED9FEE78"]
 			id: "780FBA10E6C0FF46"
 			tasks: [{
@@ -640,8 +469,8 @@
 		}
 		{
 			title: "Experience Bee"
-			x: 19.0d
-			y: -6.0d
+			x: 19.5d
+			y: -9.25d
 			dependencies: [
 				"780FBA10E6C0FF46"
 				"147F3AE2799C6351"
@@ -651,6 +480,19 @@
 				id: "22C98154A231F540"
 				type: "checkmark"
 				title: "Xp Bee"
+			}]
+		}
+		{
+			x: 20.625d
+			y: -13.5d
+			shape: "octagon"
+			dependencies: ["522508C95BF66664"]
+			size: 1.5d
+			id: "651E90978072DD1D"
+			tasks: [{
+				id: "1C97B58139BCE585"
+				type: "item"
+				item: "miniutilities:angel_ring"
 			}]
 		}
 	]

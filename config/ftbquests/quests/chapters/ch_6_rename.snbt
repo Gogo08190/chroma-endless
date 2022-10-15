@@ -1,7 +1,7 @@
 {
 	id: "20CF13F8BE802398"
 	group: "34085A64296DE6C7"
-	order_index: 7
+	order_index: 6
 	filename: "ch_6_rename"
 	title: "Ch. 9 (rename)"
 	icon: "industrialforegoing:machine_frame_pity"
@@ -1323,7 +1323,7 @@
 		{
 			x: 35.25d
 			y: -2.5d
-			description: ["This machine can get resources from animals without killing them. It gets Milk from Cows, Wool from sheep, and Ink Sacs from Squid."]
+			description: ["&2Harvests resources&r from animals on the block in front of it. This includes shearing sheep, milking cows, and collecting ink sacs from squid.&3Does not require tools to do these actions&r."]
 			dependencies: ["2D54A1A013FB3774"]
 			id: "51390E8BD5F612B7"
 			tasks: [{
@@ -1335,6 +1335,7 @@
 		{
 			x: 33.25d
 			y: -1.5d
+			description: ["A machine used to &echop&r trees and &eharvest&r crops. Each operation creates a little bit of &1Sludge&r"]
 			dependencies: ["2D54A1A013FB3774"]
 			id: "674D96570B7CE75F"
 			tasks: [{
@@ -1346,6 +1347,7 @@
 		{
 			x: 46.25d
 			y: -1.5d
+			description: ["A machine used to &eplant&r crops and saplings."]
 			dependencies: ["2D54A1A013FB3774"]
 			id: "2841600C11858452"
 			tasks: [{
@@ -1357,7 +1359,7 @@
 		{
 			x: 32.25d
 			y: -2.5d
-			description: ["Insert the food item to use to feed the animals in the work area."]
+			description: ["Breeds animals which are on the block in front of it using food given as an input. The input must be the correct food type (pigs eat carrots, cows eat wheat, etc)."]
 			dependencies: ["2D54A1A013FB3774"]
 			id: "2DC06E55D8E2A6D1"
 			tasks: [{
@@ -1393,6 +1395,7 @@
 		{
 			x: 34.75d
 			y: 11.75d
+			description: ["A machine used to spawn withers. When provided with power, &e3 Wither Skulls&r and &e4 soulsand&r, it will completely build the wither spawning structure in the working area."]
 			dependencies: ["6B860E2F39D660BE"]
 			id: "2388DCBCDA31E898"
 			tasks: [{
@@ -1404,7 +1407,7 @@
 		{
 			x: 34.25d
 			y: -2.5d
-			description: ["Connect this machine to power and this machine will kill mobs in the work area and produces Liquid Meat and Pink Slime."]
+			description: ["Kills all mobs on the block in front of it. &dCreates liquid Meat and Pink Slime&r, but does &1not store or drop experience or mob drops&r. Requires power."]
 			dependencies: ["2D54A1A013FB3774"]
 			id: "00C8869CC6B0933C"
 			tasks: [{
@@ -1416,7 +1419,7 @@
 		{
 			x: 33.25d
 			y: -2.5d
-			description: ["Place this machine in the ground below where you keep your animals, and, when supplied with power, this machine will produce liquid Sewage."]
+			description: ["A machine used to collect &1Sewage&r from animals and experience to turn int into essence."]
 			dependencies: ["2D54A1A013FB3774"]
 			id: "2F2D0CC9A18D0D79"
 			tasks: [{
@@ -1428,6 +1431,7 @@
 		{
 			x: 34.25d
 			y: -1.5d
+			description: ["When provided with &1Sewage&r this machine will create &1Fertilizer&r from it."]
 			dependencies: ["2D54A1A013FB3774"]
 			id: "2029575816C23FFF"
 			tasks: [{
@@ -1451,11 +1455,17 @@
 		{
 			x: 38.75d
 			y: 0.0d
-			description: ["A powerful machine used to craft materials using up to 8 items and/or 1 fluid."]
+			shape: "hexagon"
+			description: [
+				"A powerfull machine used to craft material using up to &e8&r item and/or &e1&r fluid. This machine can produce items and/or fluids."
+				""
+				"All the recipe are shapeless meaning that the ingredients can be in any slot."
+			]
 			dependencies: [
 				"036371C7B3B1F0AF"
 				"2D54A1A013FB3774"
 			]
+			size: 2.0d
 			id: "73368EF2948452D9"
 			tasks: [{
 				id: "0F28BB09038DA65A"
@@ -1505,6 +1515,10 @@
 		{
 			x: 40.25d
 			y: 20.0d
+			description: [
+				"Using the &eMycelial Network&r (A subspace domain containing a living vegetable mass of fungus called the mycelium"
+				"This reactor can detect the other &eMycelial generator&r and generate massive amount of FE."
+			]
 			dependencies: ["785DDC4B53C7917C"]
 			id: "6BDC59E82AB5068C"
 			tasks: [{
@@ -1516,7 +1530,7 @@
 		{
 			x: 31.25d
 			y: -1.5d
-			description: ["This machine accepts Biofuel and turns it into a decent amount of energy."]
+			description: ["Turns liquid Biofuel into power. Liquid Biofuel can be obtained using a Bioreactor"]
 			dependencies: ["2D54A1A013FB3774"]
 			id: "1DE1D97BB37C04F3"
 			tasks: [{
@@ -1704,7 +1718,7 @@
 		{
 			x: 46.25d
 			y: -2.5d
-			description: ["This machine accepts certain bio-degradable items and turns them into Biofuel to be used in the &9&lBiofuel Generator&r."]
+			description: ["A machine that when provided with water and some &eseeds&r,&esapplings&r,&edyes&r and &eskulls&r... it will create &1Biofuel&r"]
 			dependencies: ["2D54A1A013FB3774"]
 			id: "60617DA0B9FA35D5"
 			tasks: [{
@@ -1732,15 +1746,7 @@
 		{
 			x: 40.75d
 			y: 2.75d
-			description: [
-				"This can only store one type of item, but it can store up to 2.1 billion of it according to its tier. This block keeps its contents when it is mined. You can delete everything stored inside the Black Hole Unit by putting it in a crafting grid."
-				""
-				"Common → 2,048 items"
-				"Pity → 16,384 items"
-				"Simple → 524,288 items"
-				"Advanced → 67,108,864 items"
-				"Supreme → 2,147,483,647 items"
-			]
+			subtitle: "Can Hold : &3524,288 &ritems"
 			dependencies: ["79315953791CB3E5"]
 			id: "3DA940DF68A29FA8"
 			tasks: [{
@@ -1752,15 +1758,7 @@
 		{
 			x: 40.0d
 			y: 2.0d
-			description: [
-				"This can store up to 2.1 billion buckets worth of a single type of fluid, according to its tier. The fluid remains stored when the Black Hole Tank is mined. You can delete all of the fluid stored inside by putting the Black Hole Tank in a crafting grid."
-				""
-				"Common → 16,000 mB"
-				"Pity → 64,000 mB"
-				"Simple → 1,024,000 mB"
-				"Advanced → 65,536,000 mB"
-				"Supreme → 2,147,483,647 mB"
-			]
+			subtitle: "Can Hold : &31,024,000 &rmb"
 			dependencies: ["79315953791CB3E5"]
 			id: "27BA923167966331"
 			tasks: [{
@@ -1799,6 +1797,7 @@
 		{
 			x: 35.25d
 			y: 8.75d
+			description: ["This machine, when provided with power, charges the first &1Ore Laser Base&r and &1fluid Laser base&r that finds in its working area."]
 			dependencies: [
 				"146F580FDDB6FED3"
 				"0C5CC606E4A403DE"
@@ -1813,7 +1812,7 @@
 		{
 			x: 36.75d
 			y: 2.75d
-			description: ["Hook this machine up to power and place directly over a 3x3 area of water and this machine will auto-fish."]
+			description: ["When placed above a &ewater pool&r of at least &13×3&r and &e1&r block deep, it will start &efishing&r ans put the fish in the internal inventory, at the cost of &e5000&rRF per operation."]
 			dependencies: ["79315953791CB3E5"]
 			id: "6DBEF60C7B432A07"
 			tasks: [{
@@ -1825,6 +1824,7 @@
 		{
 			x: 36.5d
 			y: 3.75d
+			description: ["Bonemeals crops directly in front of it when supplied with fertilizer (bonemeal)."]
 			dependencies: ["79315953791CB3E5"]
 			id: "2ADC31E16FC78C72"
 			tasks: [{
@@ -1836,7 +1836,11 @@
 		{
 			x: 37.5d
 			y: 2.0d
-			description: ["This machine when combined with power and Water (or Lava) it will speed up growth crop a bit."]
+			description: [
+				"This machine when combined with power and &ewater&r (ore &elava&r for nether crops) it will speed up growth crop a bit."
+				""
+				"By providing very small amouts of &1Ether Gas&r crops will grow much faster and they will be replanted automatically."
+			]
 			dependencies: ["79315953791CB3E5"]
 			id: "76D0E2266396E8C9"
 			tasks: [{
@@ -1894,6 +1898,11 @@
 		{
 			x: 31.25d
 			y: -2.5d
+			description: [
+				"Imbued with unknow technology, this block will spawn &emob&r at a fast rate when certain condition are met."
+				""
+				"Firstly it requires &e1000RF&r and &e20mb&r of &eLiquid Meat&r per operation, secondly normal mob spawn condition have to be met (this means the light level has to be &e7&r or lower and the block has to be loaded)"
+			]
 			dependencies: ["2D54A1A013FB3774"]
 			id: "2C26F27A43B08DB7"
 			tasks: [{
@@ -1905,7 +1914,7 @@
 		{
 			x: 42.25d
 			y: -1.5d
-			description: ["When supplied with power, this machine will break blocks directly in front of it and stores them in its internal inventory."]
+			description: ["Break any block in front of it and places it in the internal inventory, at the cost of &e1000&rRF per operation."]
 			hide_dependency_lines: true
 			dependencies: ["2D54A1A013FB3774"]
 			id: "1D512F04784B4738"
@@ -1918,6 +1927,7 @@
 		{
 			x: 36.5d
 			y: 4.75d
+			description: ["Using raw ore meat this machine will seal its contents when reached the configured level and it will ferment that meat using the selected production type."]
 			dependencies: ["79315953791CB3E5"]
 			id: "3ABD34D177F0B709"
 			tasks: [{
@@ -1954,7 +1964,11 @@
 		{
 			x: 44.25d
 			y: -1.5d
-			description: ["When connected to a source of power, this can smelt 3 things at once and also produces a bit of Essence."]
+			description: [
+				"When connected to a source of power, this can smelt 3 things at once and also produces a bit of Essence."
+				""
+				"Returns &e2mb&r of essence per item melted."
+			]
 			dependencies: ["2D54A1A013FB3774"]
 			id: "62CA095E0C362BB7"
 			tasks: [{
@@ -1977,6 +1991,7 @@
 		{
 			x: 43.25d
 			y: -2.5d
+			description: ["It drains a fluid source block in front of it."]
 			dependencies: ["2D54A1A013FB3774"]
 			id: "46FC20CA61CE7975"
 			tasks: [{
@@ -1988,6 +2003,11 @@
 		{
 			x: 43.25d
 			y: -1.5d
+			description: [
+				"Duplicates &efungi&r."
+				""
+				"For nether fungi it needs &elava&r."
+			]
 			dependencies: ["2D54A1A013FB3774"]
 			id: "7256A9F5797EB7BC"
 			tasks: [{
@@ -2011,7 +2031,11 @@
 		{
 			x: 45.25d
 			y: -2.5d
-			description: ["This machine takes in Sludge from the &9&lPlant Gatherer&r and produces a dirt-like block according to the information in the table below."]
+			description: [
+				"A machine that fransforms &esludge&r into something useful."
+				""
+				"When supplied with &esludge&r, obtained from the &1Plant Gatherer&r, it will generate &esomething&r"
+			]
 			dependencies: ["2D54A1A013FB3774"]
 			id: "66C8A752AA3CEEE8"
 			tasks: [{
@@ -2023,7 +2047,11 @@
 		{
 			x: 32.25d
 			y: -1.5d
-			description: ["Place this machine beside at least 2 Water sources and it will start to produce water."]
+			description: [
+				"A machine that generates &ewater&r from surrounding sourceblocks."
+				""
+				"When adjacent to at least &e2 water source blocks&r, it will start working."
+			]
 			dependencies: ["2D54A1A013FB3774"]
 			id: "198DB67334489811"
 			tasks: [{
@@ -2035,6 +2063,7 @@
 		{
 			x: 44.25d
 			y: -2.5d
+			description: ["This machine mixes primal dye colours to create the colours of the raindow."]
 			dependencies: ["2D54A1A013FB3774"]
 			id: "6726ADB2CCB425A8"
 			tasks: [{
@@ -2046,6 +2075,15 @@
 		{
 			x: 36.25d
 			y: 9.0d
+			description: [
+				"When fully charged with a &bLaser Drill &fit will drain fluids. To do it will need a specific catalyst that won't be consumed and the machine will need to be placed in a specific biome and drill at a specific depth."
+				""
+				"To make &bEther Gas&f, it has to be over a Wither."
+				""
+				"In order to keep the Wither contained, I suggest you to use &cwither proof blocks&f."
+				""
+				"Place the &3Stasis Chamber&r underneath the Wither to make sure it can't move anymore."
+			]
 			dependencies: ["6B860E2F39D660BE"]
 			id: "146F580FDDB6FED3"
 			tasks: [{
@@ -2069,6 +2107,7 @@
 		{
 			x: 39.25d
 			y: 15.25d
+			description: ["Charges items that can hold power. It charges &einfinity&r items very fast."]
 			dependencies: ["6B860E2F39D660BE"]
 			id: "492A60D27D33CBEC"
 			tasks: [{
@@ -2080,7 +2119,7 @@
 		{
 			x: 38.25d
 			y: 8.25d
-			description: ["This machine sorts Enchanted items into the top inventory, and non-Enchanted items into the bottom inventory. This machine requires power to function."]
+			description: ["This machine will sort items that are enchanted from the one that aren't."]
 			dependencies: ["6B860E2F39D660BE"]
 			id: "67CCF75F89393ADC"
 			tasks: [{
@@ -2116,6 +2155,7 @@
 		{
 			x: 38.25d
 			y: 15.25d
+			description: ["When provided with power this machine will &6freeze &fand &6heal &fany entity that are in its working area."]
 			dependencies: ["6B860E2F39D660BE"]
 			id: "2391C32B478B5D92"
 			tasks: [{
@@ -2700,6 +2740,7 @@
 		{
 			x: 29.5d
 			y: 1.5d
+			description: ["A drill which gets upgraded as energy is put into it. The easiest way to get started charging your drill is with a Wireless Charger from the Chargers mod."]
 			hide_dependency_lines: true
 			dependencies: ["73368EF2948452D9"]
 			optional: true
@@ -2726,6 +2767,12 @@
 		{
 			x: 30.5d
 			y: 1.5d
+			description: [
+				"The Infinity Trident is a tool that allows you to release the true power of a trident."
+				"Increasing the tier will give you access to different levels of &eLoyalty, Riptide&r and &eChanneling&r."
+				""
+				"Channeling and hit damage will be applied in aoe."
+			]
 			hide_dependency_lines: true
 			dependencies: ["73368EF2948452D9"]
 			optional: true
@@ -2768,6 +2815,10 @@
 		{
 			x: 29.5d
 			y: 0.5d
+			description: [
+				"The Infinity Saw is a tool that allows you to chop trees efficiently, the bigger the tier the more blocks you can chop at the same time."
+				"Keep breaking the same block to chop big trees."
+			]
 			hide_dependency_lines: true
 			dependencies: ["73368EF2948452D9"]
 			optional: true
@@ -2794,9 +2845,22 @@
 		{
 			x: 31.5d
 			y: 1.0d
+			description: [
+				"The Infinity Backpack is a tool that allow you to store big amounts of items in a portable way."
+				""
+				"It can hold 3 specific fluids:"
+				"&ebiofuel&r to allow automatic operations to fonction, and &eliquid meat&r to feed you automatically."
+				""
+				"When &eMagnet Mode&r is enabled nearby item will be teleported to the player when they can be picked up."
+				""
+				"When &eAuto-Pickup Mode&r is enabled item that can go in the backpack picked up by the player it will go into the backpack automatically."
+				""
+				"Each slot can be configured to &evoid&r excess or to &erefill&r stacks that aren't full in your inventory."
+			]
 			hide_dependency_lines: true
 			dependencies: ["73368EF2948452D9"]
 			optional: true
+			min_width: 300
 			id: "64A71A0B5A50BDD2"
 			tasks: [{
 				id: "1E2F4E1625C26FDA"
@@ -2816,6 +2880,11 @@
 		{
 			x: 30.5d
 			y: 0.5d
+			description: [
+				"The Infinity Hammer is a tool that allows you damage enemies in an area. Increasing the tier will give you access to different level of &eBeheading&r, allowing you to get mob heads easily."
+				""
+				"When right clicked into the ground it will make a &eshatter&r effect into the ground in a cone shape in front of the user."
+			]
 			hide_dependency_lines: true
 			dependencies: ["73368EF2948452D9"]
 			optional: true
@@ -2843,6 +2912,11 @@
 		{
 			x: 27.5d
 			y: 1.5d
+			description: [
+				"The Infinity Launcher is a tool that allows you to capture or release entities from &4Mob Imprisonment Tool&r at a range."
+				""
+				"When selecting the mode in the GUI and firing the launcher you will be able to release or capture mob using the &eMIT&r in your inventory."
+			]
 			hide_dependency_lines: true
 			dependencies: ["73368EF2948452D9"]
 			optional: true
@@ -2865,6 +2939,82 @@
 						Plunger: 0
 					}
 				}
+			}]
+		}
+		{
+			x: 30.25d
+			y: -2.0d
+			subtitle: "Can Hold : &316,000 &rmb"
+			dependencies: [
+				"2D54A1A013FB3774"
+				"7CCCE060E49A883E"
+				"68E7A3D70265EBF0"
+			]
+			id: "5357CC7480FBE1C9"
+			tasks: [{
+				id: "43C8803966F8123E"
+				type: "item"
+				item: "industrialforegoing:common_black_hole_tank"
+			}]
+		}
+		{
+			x: 47.25d
+			y: -2.0d
+			subtitle: "Can Hold : &364,000 &rmb"
+			dependencies: ["5357CC7480FBE1C9"]
+			id: "32345E62ACFAC0A3"
+			tasks: [{
+				id: "2A1EF9E09820D23C"
+				type: "item"
+				item: "industrialforegoing:pity_black_hole_tank"
+			}]
+		}
+		{
+			x: 35.25d
+			y: 14.75d
+			subtitle: "Can Hold : &367,108,864 &ritems"
+			dependencies: ["6B860E2F39D660BE"]
+			id: "38763FF0015EC56B"
+			tasks: [{
+				id: "03595F0744578C93"
+				type: "item"
+				item: "industrialforegoing:advanced_black_hole_unit"
+			}]
+		}
+		{
+			x: 42.25d
+			y: 14.75d
+			subtitle: "Can Hold : &365,536,000 &rmb"
+			dependencies: ["6B860E2F39D660BE"]
+			id: "68BCD47389872C2A"
+			tasks: [{
+				id: "362A55EA819F2761"
+				type: "item"
+				item: "industrialforegoing:advanced_black_hole_tank"
+			}]
+		}
+		{
+			x: 37.25d
+			y: 18.75d
+			subtitle: "Can Hold : &32,147,483,647 &ritems"
+			dependencies: ["785DDC4B53C7917C"]
+			id: "165A1AA099D148CD"
+			tasks: [{
+				id: "4B0E88CD8E12E868"
+				type: "item"
+				item: "industrialforegoing:supreme_black_hole_unit"
+			}]
+		}
+		{
+			x: 40.25d
+			y: 18.75d
+			subtitle: "Can Hold : &32,147,483,647 &rmb"
+			dependencies: ["785DDC4B53C7917C"]
+			id: "1484658259C082A1"
+			tasks: [{
+				id: "6B9C8B7F517FE610"
+				type: "item"
+				item: "industrialforegoing:supreme_black_hole_tank"
 			}]
 		}
 	]

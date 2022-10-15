@@ -124,12 +124,45 @@
 		{
 			x: -3.0d
 			y: -17.75d
+			description: [
+				"&lVoid Miner Programs&r:"
+				"• &aCrystal Miner&r - This mines the tiered crystals in Environmental Core."
+				""
+				"• &aOre Miner&r - This mines Ores."
+				""
+				"• &aResource Miner&r - This mines stuff like various Dirt's, Stones, Sands, Gravels etc."
+				""
+				"• &aBotanic Miner&r - This mines Leaves, Logs, Plants, Crops, Sapling's etc."
+				""
+				"• &aMulti Miner&r - This mines any drop from any program."
+				""
+				"• &aGemstone Ore&r - Gem based ores such as Diamonds, Emeralds and other crystals."
+				""
+				"• &aMetallic Ore&r - Metalic ores such as Iron, Copper, Gold, Silver, etc."
+				""
+				"• &aMineral Ore&r - Ores that are considered Minerals such as Coal, Redstone, Sulfer, Nitor etc."
+				""
+				"• &aMagical Ore&r - This will mine magical ores from magic mods if any are present."
+				""
+				"• &aFrozen Resource&r - Ice, Snow and other Frozen materials."
+				""
+				"• &aLoose Resource&r - Dirts, Gravels, Sands etc."
+				""
+				"• &aRocky Resource&r - Stones and other hard/rocky materials."
+				""
+				"• &aFlowery Botanic&r - Flowers"
+				""
+				"• &aForesty Botanic&r - Leaves, Logs, Saplings etc."
+				""
+				"• &aGargen Botanic&r - Crops, Seeds etc."
+			]
 			dependencies: [
 				"7D50FDFB133F3C3B"
 				"30115FB202198BA8"
 				"6F0F3A66173096A7"
 				"5AC34B619EB27C7F"
 			]
+			min_width: 400
 			id: "410B9715305CEB04"
 			tasks: [{
 				id: "68E202D762C4F796"
@@ -158,10 +191,18 @@
 		{
 			x: -4.75d
 			y: -11.0d
+			description: [
+				"Using lenses inside the Lens Holder on the Void Miner will increase the mine rate of certain items."
+				""
+				"For example, if you used a Red Lens on a Mineral Miner program, your miner would produce more Redstone than it usually would without the lens."
+				""
+				"You can also increase that rate even further using Amplification Modifiers."
+			]
 			dependencies: [
 				"6289C8AE15A4BF73"
 				"1FDDA157DFAF2A7F"
 			]
+			min_width: 300
 			id: "419B7A7F02681648"
 			tasks: [{
 				id: "5B11F772A0D11E93"
@@ -1283,7 +1324,6 @@
 			shape: "octagon"
 			dependencies: [
 				"7487A5A3991D1222"
-				"1BF981F84C1738BC"
 				"6865E8E02A0FC66C"
 				"10047618C2CF4601"
 			]
@@ -1360,6 +1400,7 @@
 			}]
 		}
 		{
+			title: "&bNull Modifier"
 			x: -6.75d
 			y: -8.5d
 			shape: "diamond"
@@ -1381,9 +1422,11 @@
 			}]
 		}
 		{
+			title: "&6Amplification Modifier"
 			x: -5.75d
 			y: -9.0d
 			shape: "diamond"
+			subtitle: "Amplification modifier is new Accuracy. Modifier for lenses once they are implemented"
 			dependencies: ["5406C09C6DB130BD"]
 			id: "2831181500FBDEC6"
 			tasks: [{
@@ -1397,9 +1440,11 @@
 			}]
 		}
 		{
+			title: "&6Bandwidth Modifier"
 			x: -6.25d
 			y: -9.5d
 			shape: "diamond"
+			subtitle: "Bandwidth increases amount of drops in miner"
 			dependencies: ["5406C09C6DB130BD"]
 			id: "037BA9C3F1B0C7EA"
 			tasks: [{
@@ -1413,9 +1458,11 @@
 			}]
 		}
 		{
+			title: "&6Frequency Modifier"
 			x: -7.25d
 			y: -9.5d
 			shape: "diamond"
+			subtitle: "Frequency increases speed"
 			dependencies: ["5406C09C6DB130BD"]
 			id: "1A7CC0A580388774"
 			tasks: [{
@@ -1429,9 +1476,11 @@
 			}]
 		}
 		{
+			title: "&6Radiant Modifier"
 			x: -7.75d
 			y: -9.0d
 			shape: "diamond"
+			subtitle: "Radiant allows lightning rod to generate energy passively in sunny weather"
 			dependencies: ["5406C09C6DB130BD"]
 			id: "1967D5F7306D3183"
 			tasks: [{
@@ -1445,25 +1494,11 @@
 			}]
 		}
 		{
-			x: -6.25d
-			y: -7.5d
-			shape: "diamond"
-			dependencies: ["5406C09C6DB130BD"]
-			id: "47CEBC6AE35AD53F"
-			tasks: [{
-				id: "318B3C8B982A77C3"
-				type: "item"
-				item: {
-					id: "envirocore:thermal_modifier"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
+			title: "&6Piezo Modifier"
 			x: -5.75d
 			y: -8.0d
 			shape: "diamond"
+			subtitle: "Piezo Modifier allows solars to generate energy in rain/thunderstorms from vibrations"
 			dependencies: ["5406C09C6DB130BD"]
 			id: "614D3ED31930538C"
 			tasks: [{
@@ -1477,9 +1512,11 @@
 			}]
 		}
 		{
-			x: -6.75d
-			y: -7.0d
+			title: "&6Electrostatic Modifier"
+			x: -6.25d
+			y: -7.5d
 			shape: "diamond"
+			subtitle: "Electrostatic modifier allows Lightning rods to generate energy passively in rain and thunder"
 			dependencies: ["5406C09C6DB130BD"]
 			id: "2A8A2FC13E6647E9"
 			tasks: [{
@@ -1493,9 +1530,11 @@
 			}]
 		}
 		{
+			title: "&6Dimensional Modifier"
 			x: -7.75d
 			y: -8.0d
 			shape: "diamond"
+			subtitle: "Dimensional allows all items from all biomes from the dimension that the void miner is in to be mined"
 			dependencies: ["5406C09C6DB130BD"]
 			id: "025D475038BBD548"
 			tasks: [{
@@ -1509,9 +1548,11 @@
 			}]
 		}
 		{
+			title: "&6Interdimensional Modifier"
 			x: -7.25d
 			y: -7.5d
 			shape: "diamond"
+			subtitle: "Interdimensional allows you to get all materials in any dimension"
 			dependencies: ["5406C09C6DB130BD"]
 			id: "216A31F3813F7029"
 			tasks: [{
@@ -1525,6 +1566,7 @@
 			}]
 		}
 		{
+			title: "&6FE Input"
 			x: 0.0d
 			y: -7.5d
 			shape: "diamond"
@@ -1541,6 +1583,7 @@
 			}]
 		}
 		{
+			title: "&6FE Output"
 			x: 1.0d
 			y: -7.5d
 			shape: "diamond"
@@ -1557,6 +1600,7 @@
 			}]
 		}
 		{
+			title: "&6Item Output"
 			x: 0.5d
 			y: -7.0d
 			shape: "diamond"
@@ -1573,6 +1617,7 @@
 			}]
 		}
 		{
+			title: "&bNull IO"
 			x: 0.49693877551021615d
 			y: -8.369727891156472d
 			shape: "diamond"

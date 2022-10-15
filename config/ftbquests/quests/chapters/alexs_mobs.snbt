@@ -15,13 +15,13 @@
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: -8.75d
-			y: -5.75d
+			x: -10.25d
+			y: -6.5d
 			width: 20.0d
 			height: 10.0d
 			rotation: 0.0d
 			image: "chroma:textures/quests/savana.png"
-			hover: [""]
+			hover: [ ]
 			click: ""
 			dev: false
 			corner: false

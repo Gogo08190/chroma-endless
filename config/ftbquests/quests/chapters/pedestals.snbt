@@ -1,0 +1,647 @@
+{
+	id: "275F3DFC7AA4CDAA"
+	group: "60C88776031840B1"
+	order_index: 2
+	filename: "pedestals"
+	title: "Pedestals"
+	icon: "pedestals:coin/default"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 3.25d
+			y: -8.5d
+			shape: "hexagon"
+			description: [
+				"Pedestals can send 4 kinds of things:"
+				""
+				"• Items, The Item Will Render On the 'Top' of the pedestal when it has items."
+				"• Fluids, A blue particle will show when fluid is in the pedestal."
+				"• Energy, A red particle will display when Energy is in the pedestal"
+				"• Experience, A green particle will display when there is experience in the pedestal."
+				""
+				"You can also use Modifiers to effect the rate at which it transfers at for a period of time, modifiers only effect the 1 pedestal it is applied to, so modifying a long line of pedestals would require giving the modifier to each pedestal in the chain."
+			]
+			dependencies: [
+				"6F6A4FCF06CDAA5A"
+				"0F5064AAAA97F693"
+			]
+			size: 2.0d
+			id: "283ACA77E3F1E9D6"
+			tasks: [{
+				id: "1C06EA0B381DC70C"
+				type: "item"
+				item: "pedestals:pedestal/stone333"
+			}]
+		}
+		{
+			x: 3.25d
+			y: -10.75d
+			shape: "gear"
+			description: [
+				"Pedestals can transfer displayed items from one to another by linking them together. They can also transfer fluids, FE, and XP in their upgrades this way."
+				""
+				"This is done with the Linking Tool: Sneak Right-Click a pedestal with the tool to choose the receiving Pedestal, and then do the same to choose the sending Pedestal. If this sounds backwards crouch-right-click the Linking Tool in the air to convert it into a Backwards Linking Tool, which links Sender -> Receiver."
+				""
+				"Each Sending Pedestal can be linked to a maximum of 8 Receivers; Receivers can be linked to any number of senders.You can right click a Sender with the Linking wand to display information about it, and to get a visual indication of which pedestals it’s linked to. By default the sending mechanism uses a priority system, which is indicated by the color particles emitted - black is first, white is last."
+			]
+			dependencies: ["68E7A3D70265EBF0"]
+			size: 1.5d
+			min_width: 300
+			id: "6F6A4FCF06CDAA5A"
+			tasks: [{
+				id: "24C8414A1153CD45"
+				type: "item"
+				item: "pedestals:linkingtool"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -10.75d
+			description: ["Right-Click a pedestal with the Upgrade Tool to get information about the upgrade on it."]
+			dependencies: ["6F6A4FCF06CDAA5A"]
+			id: "74280DC39D53843D"
+			tasks: [{
+				id: "40C9BC482DBA26A0"
+				type: "item"
+				item: "pedestals:upgradetool"
+			}]
+		}
+		{
+			x: 1.25d
+			y: -10.25d
+			description: [
+				"The Tool Swapper will allow you to add or remove Tools to some upgrades. Hold a tool you'd like to add in your off-hand and Right-Click the pedestal with the swapper to insert a tool, or Right-Click the pedestal with the tool when your off-hand is empty to remove one."
+				""
+				"Tool durability isn't used when a tool is inserted into a pedestal, but it does confer any enchantments on the tool (i.e. Fortune or Silk Touch) to the operation of the upgrade."
+			]
+			dependencies: ["6F6A4FCF06CDAA5A"]
+			id: "459EDAB80462D93B"
+			tasks: [{
+				id: "7696B16E2FAE6763"
+				type: "item"
+				item: "pedestals:toolswapper"
+			}]
+		}
+		{
+			title: "Pedestal Filters"
+			x: 0.5d
+			y: -9.75d
+			description: [
+				"Filters allow control over which items are allowed in a pedestal display. Filter type (whitelist/blacklist) can be changed by crouch-right-clicking the air. The filters that need to be programmed (such as Item or Mod filters) can be crouch-right-clicked on an inventory to set them to the contents of that inventory."
+				""
+				"Filters can be added to a pedestal by holding them in your offhand while right-clicking the pedestal with an empty hand. They can be removed by doing the same with either a filter or a filter tool in your offhand."
+				""
+				"The Filter Tool will allow you to remove filters (as above), but it will also allow you to get information on the filter in a pedestal by right-clicking it."
+			]
+			dependencies: ["6F6A4FCF06CDAA5A"]
+			min_width: 300
+			id: "6A83A6B104A46DA9"
+			tasks: [
+				{
+					id: "594C4C545C54C5F9"
+					type: "item"
+					item: "pedestals:filter/filterbase"
+				}
+				{
+					id: "589002E49FD313A1"
+					type: "item"
+					item: "pedestals:filterswapper"
+				}
+			]
+		}
+		{
+			x: 3.25d
+			y: -5.75d
+			shape: "hexagon"
+			description: [
+				"Displaying items and moving them between pedestals is good, but you can add additional functionality with Upgrades. You'll need a number of these Upgrade Bases to get started."
+				""
+				"Pedestal Upgrades can be added to a pedestal by holding them in your offhand and right-clicking the pedestal. They can be removed by holding another upgrade or the Upgrade Tool in your offhand while left-clicking the pedestal."
+			]
+			dependencies: ["0F5064AAAA97F693"]
+			size: 2.0d
+			min_width: 250
+			id: "5FC7404520358E37"
+			tasks: [{
+				id: "692DA6D69A8F147D"
+				type: "item"
+				item: "pedestals:coin/default"
+			}]
+		}
+		{
+			title: "Energy Transfer"
+			x: 2.25d
+			y: -3.5d
+			shape: "rsquare"
+			description: [
+				"&cImports Energy&f from Blocks/Machines or Inserted Items, into the Pedestal Energy Network (PEN). Can Send Energy To Other Connected Pedestals In the PEN."
+				""
+				"&cExports Energy&f from the PEN, into Inserted Items, or Attached Blocks/Machines. Cannot Send Energy to Other Connected Pedestals."
+			]
+			dependencies: ["5FC7404520358E37"]
+			id: "74B6104861F8E82F"
+			tasks: [
+				{
+					id: "75A3B68D44A09645"
+					type: "item"
+					title: "Energy Import Upgrade"
+					item: "pedestals:coin/rfimport"
+				}
+				{
+					id: "7C4E765EB04E9C8B"
+					type: "item"
+					title: "Energy Export Upgrade"
+					item: "pedestals:coin/rfexport"
+				}
+			]
+		}
+		{
+			title: "Item Transportation Upgrade"
+			x: 3.25d
+			y: -3.5d
+			shape: "rsquare"
+			description: [
+				"&bImports items &ffrom the 'below' inventory into the Pedestal Item Network. Default speed is 1 item transferred per second, but can be increased to 64 items per tick (1280 items per second at 20tps)."
+				""
+				"&bExports items&f from the Pedestal Item Network into a 'below' inventory. Default speed is 1 item transferred per second, but can be increased to 64 items per tick (1280 items per second at 20tps)."
+			]
+			dependencies: ["5FC7404520358E37"]
+			id: "4E214C706CC0D2C8"
+			tasks: [
+				{
+					id: "4A7840311F4DF14B"
+					type: "item"
+					item: "pedestals:coin/import"
+				}
+				{
+					id: "214F3F6DBDC52BFC"
+					type: "item"
+					title: "Item Export Upgrade"
+					item: "pedestals:coin/export"
+				}
+			]
+		}
+		{
+			title: "Fluid Transfer"
+			x: 4.25d
+			y: -3.5d
+			shape: "rsquare"
+			description: [
+				"&3Imports fluids&f from items (inserted in the pedestal) or tanks (below the pedestal) into the PEN. Items that are in the pedestal, will be automatically sent to a connected pedestal once they are empty of fluid."
+				""
+				"&3Exports fluids&f from the PEN by filling buckets or items inserted in the pedestal, or tanks below the pedestal. Items in the pedestal will be automatically sent once they have been filled with fluid, providing there is a pedestal it can send the item to."
+			]
+			dependencies: ["5FC7404520358E37"]
+			id: "1607FBD21B655BEA"
+			tasks: [
+				{
+					id: "6E6C4CFDB2CEEE67"
+					type: "item"
+					title: "Fluid Import Upgrade"
+					item: "pedestals:coin/fluidimport"
+				}
+				{
+					id: "2BECAF0229A2EB57"
+					type: "item"
+					title: "Fluid Export Upgrade"
+					item: "pedestals:coin/fluidexport"
+				}
+			]
+		}
+		{
+			x: 3.25d
+			y: 0.75d
+			shape: "rsquare"
+			description: [
+				"Slot this in a pedestal to generate cobblestone in the pedestal, once there is a full stack in the pedestal it will buffer the rest. The maximum amount of buffer is around 2.3 billion. Because there is already a stack in the pedestal you can't add cobble to the buffer yourself normally, if you want to store cobble in the pedestal (like when you've gone mining and have a ton of cobble) you can drop the cobble onto the pedestal using 'Q' key (default) or pulling stacks out of your inventory right infront of the pedestal so they fall on it and not on the ground."
+				""
+				"Using the &5Exp Anvil&f you can enchant the upgrade with silktouch, which will generate stone instead of cobble."
+			]
+			dependencies: ["5FC7404520358E37"]
+			size: 1.5d
+			min_width: 300
+			id: "7496B532D7C475AD"
+			tasks: [{
+				id: "030312BE1E2B5E4E"
+				type: "item"
+				title: "Cobble Generator Upgrade"
+				item: "pedestals:coin/cobble"
+			}]
+		}
+		{
+			x: 0.25d
+			y: -2.5d
+			shape: "rsquare"
+			description: ["Just like the Normal Quarry Upgrade, except you need to connect it to the PEN as it'll consume energy and not require solid fuel to be used."]
+			dependencies: ["5FC7404520358E37"]
+			id: "4CAFA3369FC0A9EF"
+			tasks: [{
+				id: "4885E0D609417C93"
+				type: "item"
+				title: "Quarry Upgrade"
+				item: "pedestals:coin/quarry"
+			}]
+		}
+		{
+			x: 1.25d
+			y: -2.5d
+			shape: "rsquare"
+			description: ["Just like the Normal Furnace Upgrade, except you need to connect it to the PEN as it'll consume energy and not require solid fuel to be used."]
+			dependencies: ["5FC7404520358E37"]
+			id: "3BDE4E1992941B0B"
+			tasks: [{
+				id: "5B79137F33B8D340"
+				type: "item"
+				title: "Smelting Upgrades"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/smelter"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/rfsmelter"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 2.25d
+			y: -2.5d
+			shape: "rsquare"
+			description: ["Just like the Normal Sawmill Upgrade, except you need to connect it to the PEN as it'll consume energy and not require solid fuel to be used."]
+			dependencies: ["5FC7404520358E37"]
+			id: "6D743BD4B8E03A9A"
+			tasks: [{
+				id: "1E802BA08A7D7B6A"
+				type: "item"
+				title: "Sawmill Upgrades"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/sawmill"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/rfsawmill"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 3.25d
+			y: -2.5d
+			shape: "rsquare"
+			description: ["Just like the Normal Crusher Upgrade, except you need to connect it to the PEN as it'll consume energy and not require solid fuel to be used."]
+			dependencies: ["5FC7404520358E37"]
+			id: "5CB82BDD9185BE64"
+			tasks: [{
+				id: "5B883451CA5BA491"
+				type: "item"
+				title: "Crusher Upgrades"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/crusher"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/rfcrusher"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 4.25d
+			y: -2.5d
+			shape: "rsquare"
+			description: [
+				"Needs an inventory below the pedestal for empty bucket inputs. This upgrade looks for cows in the area and will milk them, filling any buckts in the input chest, and putting the full buckets in the pedestal to be transferred out."
+				""
+				"The upgrades range can be extended for dairy farms with large pastures, but due to how vanilla cows can be milked indefinitely, 1 cow near the pedestal at default range is all thats necessary."
+			]
+			dependencies: ["5FC7404520358E37"]
+			min_width: 250
+			id: "68B458881249535C"
+			tasks: [{
+				id: "157180B7DE8FA1A2"
+				type: "item"
+				title: "Milker Upgrade"
+				item: "pedestals:coin/milker"
+			}]
+		}
+		{
+			x: 5.25d
+			y: -2.5d
+			shape: "rsquare"
+			description: ["&3Pumps fluids &ffrom its work area and into its internal buffer. If the pedestal has items in it, it will replace the pumped spaces with the provided blocks"]
+			dependencies: ["5FC7404520358E37"]
+			id: "2B7DB8805F3AF804"
+			tasks: [{
+				id: "5F2C768BC9344A2C"
+				type: "item"
+				title: "Fluid Pump Upgrade"
+				item: "pedestals:coin/fluidpump"
+			}]
+		}
+		{
+			x: 3.25d
+			y: -0.5d
+			shape: "rsquare"
+			description: ["This upgrade convert fluid like Experience, Essence, Memory Essence, ... to XP."]
+			dependencies: ["5FC7404520358E37"]
+			id: "149D37E4F77ADD38"
+			tasks: [{
+				id: "0235C5EFB9FCAA8C"
+				type: "item"
+				title: "Fuid to XP converter Upgrade"
+				item: "pedestals:coin/fluidxpconverter"
+			}]
+		}
+		{
+			x: 6.25d
+			y: -2.5d
+			shape: "rsquare"
+			description: ["Places fluids from its internal buffer into the world."]
+			dependencies: ["5FC7404520358E37"]
+			id: "20FA13EF0A3E9191"
+			tasks: [{
+				id: "268F799519D674ED"
+				type: "item"
+				title: "Fluid Drain Upgrade"
+				item: "pedestals:coin/fluiddrain"
+			}]
+		}
+		{
+			x: 2.75d
+			y: -1.5d
+			shape: "rsquare"
+			description: [
+				"&aThe bottler &fwill pull empty bottles from the inventory 'below' the pedestal, fill them, outputting the bottle of experience to the pedestal."
+				""
+				"&bExp Dropper &fworks similar to the Item Dropper, except it drops xp. Connect it to an exp source and when its not powered by redstone it will drop xp orbs in world to be picked up."
+			]
+			dependencies: ["5FC7404520358E37"]
+			id: "61540CE7E11EE1EF"
+			tasks: [{
+				id: "27F4F98BCECEB08A"
+				type: "item"
+				title: "XP Output"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/xpdropper"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/xpbottler"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 1.75d
+			y: -1.5d
+			shape: "rsquare"
+			description: [
+				"&5Exp Enchanter &fis similar to a normal enchanting table, this enchanter requires book shelves, or some block with enchanting power to be placed around it, the exception is, it can receive enchanting power from book shelves stacked 3 high."
+				""
+				"This means a fully sorrounded enchanting pedestal can enchant at level 96 using only vanilla book shelves.The enchanter will always try to enchant items at the maximum level it can, so some system to move bookshelves out of range would be needed if one wants to enchant below their maximum enchanting setup. Due to this enchanter working under water, torches between the enchanter and bookshelves do not decrease the enchantment level."
+			]
+			dependencies: ["5FC7404520358E37"]
+			min_width: 300
+			id: "51C9C6085335ABB3"
+			tasks: [{
+				id: "4539D41EF0983E52"
+				type: "item"
+				title: "Enchanter Upgrade"
+				item: "pedestals:coin/xpenchanter"
+			}]
+		}
+		{
+			x: 4.25d
+			y: -0.5d
+			shape: "rsquare"
+			description: [
+				"&6Exp anvil &fcan repair items in the inventory 'below' using its stored xp, the repair cost is similar to the mending enchantment."
+				""
+				"For combing enchantments or renaming tools, an infusion style structure is required.In relation to the pedestal with the anvil upgrade, a pedestal needs to be placed with a 1 block space in between, to the north, east, south, and west. You are not required to have these 4 additional pedestals, it just increases the amount of items that can be combined at once."
+				""
+				"Items in the below inventory will be repaired first, and then the anvil pedestal will check if there is anything to be combined, if nothing exists it will output the item into the pedestal."
+			]
+			dependencies: ["5FC7404520358E37"]
+			min_width: 300
+			id: "2B755EFABCA49847"
+			tasks: [{
+				id: "759B858B4ABFA81A"
+				type: "item"
+				title: "XP Anvil"
+				item: "pedestals:coin/xpanvil"
+			}]
+		}
+		{
+			x: 2.25d
+			y: -0.5d
+			shape: "rsquare"
+			description: ["This upgrade can store a large amount of levels when upgraded with the capacity enchantment.It is best to have this upgrade connected between the source of your exp, and the pedestal upgrades that consume exp to create other items."]
+			dependencies: ["5FC7404520358E37"]
+			id: "7B57D818434CCE0A"
+			tasks: [{
+				id: "77F26AD7AD274A26"
+				type: "item"
+				title: "Exp Tank Upgrade"
+				item: "pedestals:coin/xptank"
+			}]
+		}
+		{
+			x: 3.25d
+			y: -12.0d
+			description: [
+				"The Color Pallet can be used to customize the color of your Pedestals. Throw the pallet on the ground with up to 3 each of Red, Green, and/or Blue dye, and right click it with your Linking tool to set its color. You can then right-click pedestals with it to paint them. The pedestal will retain its color if you break it."
+				""
+				"Pedestals can be lit up by Right-Clicking them with a glowstone block. They can also be water-logged by Sneak Right-Clicking them with a bucket of water."
+			]
+			dependencies: ["6F6A4FCF06CDAA5A"]
+			min_width: 250
+			id: "610803B83C82E065"
+			tasks: [{
+				id: "3775C0502BA66087"
+				type: "item"
+				item: "pedestals:itemcolorpalletdefault"
+			}]
+		}
+		{
+			x: 5.25d
+			y: -10.25d
+			description: ["It's wonderful that you can enchant your upgrades, but that can be so... random. These books allow you to ensure you get the particular enchant you need. Keep in mind that you cannot combine these with an upgrade in a vanilla anvil - you MUST use the XP Anvil from Pedestals."]
+			dependencies: ["6F6A4FCF06CDAA5A"]
+			id: "5352186C65DA3D58"
+			tasks: [{
+				id: "1A88D61BBD15DC48"
+				type: "item"
+				title: "Enchantment Focused Books"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:bookarea"
+								Count: 1b
+							}
+							{
+								id: "pedestals:bookcapacity"
+								Count: 1b
+							}
+							{
+								id: "pedestals:bookmagnet"
+								Count: 1b
+							}
+							{
+								id: "pedestals:bookrange"
+								Count: 1b
+							}
+							{
+								id: "pedestals:bookspeed"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -10.75d
+			description: [
+				"Augments can be added to a Pedestal to enhance a pedestal's item sending behavior. You can add up to 5 of each of the first 3 augments - the other 3 only require 1."
+				""
+				"&bSpeed&f - Decreases the delay between transfers."
+				""
+				"&aCapacity&f - Increases how many items are transferred."
+				""
+				"&eRange&f - Increases the distance allowed between linked pedestals."
+				""
+				"&8Sound Muffler&f - Removes any sound an upgrade makes (except for tool equip sounds)."
+				""
+				"&5Particle Diffuser&f - Removes any particles produced by the upgrade."
+				""
+				"&4Round Robin Augment&f - Changes the sending behavior of the pedestal from Priority to Round Robin."
+			]
+			dependencies: ["6F6A4FCF06CDAA5A"]
+			min_width: 300
+			id: "087F2CA38C15569F"
+			tasks: [{
+				id: "31B4611EFF579B65"
+				type: "item"
+				title: "Augments"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:upgradespeed"
+								Count: 1b
+							}
+							{
+								id: "pedestals:upgradecapacity"
+								Count: 1b
+							}
+							{
+								id: "pedestals:upgraderange"
+								Count: 1b
+							}
+							{
+								id: "pedestals:upgraderoundrobin"
+								Count: 1b
+							}
+							{
+								id: "pedestals:upgradesoundmuffler"
+								Count: 1b
+							}
+							{
+								id: "pedestals:upgradeparticlediffuser"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -9.75d
+			description: [
+				"The Advanced enchantment allows upgrades that manipulate an inventory below the pedestal to interact with the inventories of entities. This can, for example, be used to import items from or export items to mobs using the appropriate upgrades."
+				""
+				"The Advanced enchantment requires an enchanting level of 92; because of this it will need a modded enchanting method such as the XP Enchanter upgrade."
+			]
+			dependencies: ["6F6A4FCF06CDAA5A"]
+			id: "09115840895F2752"
+			tasks: [{
+				id: "77227549EF1C3278"
+				type: "item"
+				item: "pedestals:bookadvanced"
+			}]
+		}
+		{
+			x: 3.75d
+			y: -1.5d
+			shape: "rsquare"
+			description: ["&bExp Grindstone&f requires an inventory below it, this upgrade will pull enchanted items out of the inventory below it and grind the enchant off leaving the unenchanted item in the pedestal to be removed. The enchants that got \"ground\" off are converted into xp and will be stored in the upgrades internal buffer, which can be extracted by connecting it to another exp upgrade that consumes or stores xp."]
+			dependencies: ["5FC7404520358E37"]
+			id: "314E2C63DB305703"
+			tasks: [{
+				id: "2804CD5216B7A3C3"
+				type: "item"
+				title: "Exp Grindstone Upgrade"
+				item: "pedestals:coin/xpgrindstone"
+			}]
+		}
+		{
+			x: 4.75d
+			y: -1.5d
+			shape: "rsquare"
+			description: [
+				"Similar to the Magnet upgrade except it will &acollect xp&f, and hold it in its internal buffer.It will also absorb xp from a player who is colliding (has their body against) with the pedestal with this upgrade.The speed enchant increases how fast it pulls xp and capacity enchant will increase how many levels itll absorb at one time."
+				""
+				"You need to connect another exp upgrade, like the &bExp Tank&f to this upgrade in order to transfer the levels out, as the buffer maxes at 30 levels of storage."
+			]
+			dependencies: ["5FC7404520358E37"]
+			min_width: 250
+			id: "7E461FAE2BEB19A0"
+			tasks: [{
+				id: "06881A38EEC3889A"
+				type: "item"
+				title: "Exp Magnet Upgrade"
+				item: "pedestals:coin/xpmagnet"
+			}]
+		}
+	]
+}

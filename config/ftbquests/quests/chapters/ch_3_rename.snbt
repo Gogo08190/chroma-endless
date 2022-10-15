@@ -26,6 +26,14 @@
 			x: 0.0d
 			y: 0.0d
 			shape: "octagon"
+			subtitle: "The Wrench"
+			description: [
+				"The &bCrescent Hammer&r."
+				""
+				"So this is the main wrench to the thermal mod."
+				""
+				"With it you can turn machines or break them instantly."
+			]
 			id: "1E69AFB22152DFD3"
 			tasks: [{
 				id: "1F02489FFF9153F9"
@@ -60,6 +68,7 @@
 				"1E69AFB22152DFD3"
 				"3A99B2052AE4BAC9"
 			]
+			size: 2.0d
 			id: "677773349FE468C2"
 			tasks: [{
 				id: "4DD774EEF05D8854"
@@ -70,6 +79,8 @@
 		{
 			x: 1.125d
 			y: 10.5d
+			subtitle: "Ain't Reversible"
+			description: ["Smashes things into more broken things. Useful for processing ores or converting items."]
 			dependencies: ["677773349FE468C2"]
 			id: "50DD44C13F24CB3C"
 			tasks: [{
@@ -81,6 +92,8 @@
 		{
 			x: 2.75d
 			y: 6.625d
+			subtitle: "Good Furnace"
+			description: ["Smelts things using FE. Uses very little energy to cook food."]
 			dependencies: ["677773349FE468C2"]
 			id: "6D13192722E04C16"
 			tasks: [{
@@ -92,6 +105,8 @@
 		{
 			x: 0.0d
 			y: 4.75d
+			subtitle: "Not used to cook food"
+			description: ["Smelts metals and things that require high temperatures. Useful for processing ores and creating advanced blocks."]
 			dependencies: ["677773349FE468C2"]
 			id: "3F4EE4690D506E30"
 			tasks: [{
@@ -103,6 +118,8 @@
 		{
 			x: 0.0d
 			y: 10.75d
+			subtitle: "Pressing"
+			description: ["Squeezes and deforms items. Can use a manufacturing die to determine the output."]
 			dependencies: ["677773349FE468C2"]
 			id: "063B75CA0BD9A9BC"
 			tasks: [{
@@ -114,6 +131,8 @@
 		{
 			x: 2.75d
 			y: 8.875d
+			subtitle: "Watch your hands"
+			description: ["Cuts logs into planks and reprocesses wooden objects. Very useful for making the most out of a tree ."]
 			dependencies: ["677773349FE468C2"]
 			id: "66035000D47F11CF"
 			tasks: [{
@@ -125,6 +144,8 @@
 		{
 			x: -1.125d
 			y: 10.5d
+			subtitle: "Melting"
+			description: ["Turns solid materials into fluids, at high heat. Very useful for creating advanced blocks."]
 			dependencies: ["677773349FE468C2"]
 			id: "3EC3FED0BF7D2577"
 			tasks: [{
@@ -136,6 +157,8 @@
 		{
 			x: -2.75d
 			y: 8.875d
+			subtitle: "Refreshing"
+			description: ["Fills containers with fluids. This is required to consume certain beverages. "]
 			dependencies: ["677773349FE468C2"]
 			id: "0400FB276B76BCD9"
 			tasks: [{
@@ -147,6 +170,8 @@
 		{
 			x: -4.0d
 			y: 11.5d
+			subtitle: "Charging Items"
+			description: ["Charges items with Forge Energy. Items can be inserted and removed with automation."]
 			hide_dependency_lines: true
 			dependencies: [
 				"3AC2609EA33632B8"
@@ -160,8 +185,10 @@
 			}]
 		}
 		{
-			x: -22.5d
-			y: 2.0d
+			x: 7.5d
+			y: 16.0d
+			hide_dependency_lines: true
+			dependencies: ["3AC2609EA33632B8"]
 			id: "3E3505A28B6926FC"
 			tasks: [{
 				id: "4448A5D209263139"
@@ -174,8 +201,10 @@
 			}]
 		}
 		{
-			x: -22.5d
-			y: 0.0d
+			x: 6.5d
+			y: 14.5d
+			hide_dependency_lines: true
+			dependencies: ["3AC2609EA33632B8"]
 			id: "237C289E8081A440"
 			tasks: [{
 				id: "2484E614D5C29131"
@@ -188,8 +217,10 @@
 			}]
 		}
 		{
-			x: -22.5d
-			y: 1.0d
+			x: 6.5d
+			y: 15.5d
+			hide_dependency_lines: true
+			dependencies: ["3AC2609EA33632B8"]
 			id: "1F7E1DA9213D38A7"
 			tasks: [{
 				id: "712AED175A49A85B"
@@ -202,8 +233,10 @@
 			}]
 		}
 		{
-			x: -22.5d
-			y: 3.0d
+			x: 7.5d
+			y: 14.0d
+			hide_dependency_lines: true
+			dependencies: ["3AC2609EA33632B8"]
 			id: "7527CD860ECA4809"
 			tasks: [{
 				id: "3FD03CFE88BACB1D"
@@ -230,6 +263,7 @@
 		{
 			x: 6.75d
 			y: 5.25d
+			shape: "rsquare"
 			id: "5E381C4A04E5BB4C"
 			tasks: [{
 				id: "5F160682113B5656"
@@ -240,6 +274,7 @@
 		{
 			x: 6.25d
 			y: 6.25d
+			shape: "rsquare"
 			id: "1743D05DAACE6C63"
 			tasks: [{
 				id: "6E0EE3444B5612A3"
@@ -250,6 +285,7 @@
 		{
 			x: 8.25d
 			y: 6.25d
+			shape: "rsquare"
 			id: "4CE9C9D4F681C437"
 			tasks: [{
 				id: "160E273DD88A15A8"
@@ -260,6 +296,7 @@
 		{
 			x: 7.75d
 			y: 7.25d
+			shape: "rsquare"
 			id: "1C08A35095A43EA1"
 			tasks: [{
 				id: "7AA76B2653FB8435"
@@ -270,6 +307,8 @@
 		{
 			x: 5.5d
 			y: 4.0d
+			shape: "square"
+			description: ["Upgrade augments improve the overall stats of machines, devices, dynamos, and tools."]
 			hide_dependency_lines: true
 			dependencies: [
 				"3F4EE4690D506E30"
@@ -314,6 +353,8 @@
 		{
 			x: 6.5d
 			y: 4.0d
+			shape: "square"
+			description: ["Upgrade augments improve the overall stats of machines, devices, dynamos, and tools."]
 			dependencies: ["36BADD0803D416FB"]
 			id: "06EE0FAEB74F30B8"
 			tasks: [{
@@ -325,6 +366,8 @@
 		{
 			x: 7.5d
 			y: 4.0d
+			shape: "square"
+			description: ["Upgrade augments improve the overall stats of machines, devices, dynamos, and tools."]
 			dependencies: [
 				"06EE0FAEB74F30B8"
 				"2075789E02415084"
@@ -361,6 +404,8 @@
 		{
 			x: 2.625d
 			y: 3.5d
+			subtitle: "Manage Fluids"
+			description: ["Stores and Transfers Fluids."]
 			dependencies: ["3117CCA141F25CA9"]
 			id: "6F15AADF2331F545"
 			tasks: [{
@@ -385,6 +430,8 @@
 		{
 			x: -2.625d
 			y: 3.5d
+			subtitle: "Manage Forge Energy"
+			description: ["Stores and Transfers Forge Energy."]
 			dependencies: ["141E4C0BBA865753"]
 			id: "0AC2E1D9469B0B57"
 			tasks: [{
@@ -437,6 +484,20 @@
 		{
 			x: -2.0d
 			y: 14.0d
+			subtitle: "Liquifying Fuel"
+			description: [
+				"To generate RF with this &6Dyanmo&r, you will have to use Liquified Fuels."
+				""
+				"What are those liquified fuels?"
+				""
+				"→ Refined Fuel"
+				"→ Tree Oil "
+				"→ Gasoline"
+				"→ Diesel"
+				"→ Biodiesel"
+				""
+				"Each fuel has a different energy generation. Check JEI for further informations."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"3AC2609EA33632B8"
@@ -545,6 +606,7 @@
 		{
 			x: -6.0d
 			y: 10.5d
+			description: ["Provides copius amounts of water. Requires adjacent water sources to function."]
 			hide_dependency_lines: true
 			dependencies: ["6F15AADF2331F545"]
 			id: "17E0DF10C7F119A2"
@@ -557,6 +619,8 @@
 		{
 			x: -5.0d
 			y: 10.0d
+			subtitle: "Vacuum Hopper"
+			description: ["Picks up things from a nearby area"]
 			hide_dependency_lines: true
 			dependencies: [
 				"3D3D8B33A6D7BE77"
@@ -572,6 +636,8 @@
 		{
 			x: -5.0d
 			y: 11.0d
+			subtitle: "Trash Can "
+			description: ["Destroy anything placed to it. Items and fluid inserted with automation are destroyed instantly."]
 			hide_dependency_lines: true
 			dependencies: ["3D3D8B33A6D7BE77"]
 			id: "458BAAE734893DBA"
@@ -582,8 +648,9 @@
 			}]
 		}
 		{
-			x: -21.5d
-			y: 3.0d
+			x: 7.5d
+			y: 15.0d
+			dependencies: ["7DD76F9B6426DCA3"]
 			id: "2FEB865C2D01A142"
 			tasks: [{
 				id: "7B4BBD2AE0B183B0"
@@ -594,6 +661,12 @@
 		{
 			x: -3.0d
 			y: 13.5d
+			subtitle: "FE with Solid Fuel"
+			description: [
+				"This &7Dynamo&r can generate FE with, like said in the subtitle, solid fuel."
+				""
+				"Solid Fuels are what you can use in a furnace in order to smelt or cook items."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"3AC2609EA33632B8"
@@ -611,6 +684,8 @@
 		{
 			x: -1.0d
 			y: 14.5d
+			subtitle: "FE with lava"
+			description: ["In order to make energy with this &4Dynamo&r you have to insert lava in it."]
 			hide_dependency_lines: true
 			dependencies: [
 				"3AC2609EA33632B8"
@@ -628,6 +703,12 @@
 		{
 			x: 0.0d
 			y: 14.75d
+			subtitle: "Coins for FE"
+			description: [
+				"This &eDynamo&r will generate FE with Coins."
+				""
+				"How to make coins? Craft the &7MultiServo Press&r and put the &8Numismatic Press&r in the second Slot (the one on the bottom)"
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"3AC2609EA33632B8"
@@ -646,6 +727,8 @@
 		{
 			x: 1.0d
 			y: 14.5d
+			subtitle: "Gems for FE"
+			description: ["This &bDynamo&r can generate energy with gems (type forge:gems in JEI to see all gems)"]
 			hide_dependency_lines: true
 			dependencies: [
 				"3AC2609EA33632B8"
@@ -697,6 +780,8 @@
 		{
 			x: 2.0d
 			y: 5.75d
+			subtitle: "Not exactly \"organic\" farming"
+			description: ["Infuses nutrients and light into plants using Forge Energy."]
 			dependencies: ["677773349FE468C2"]
 			id: "5B1BA329958A7ACC"
 			tasks: [{
@@ -708,6 +793,8 @@
 		{
 			x: 3.0d
 			y: 7.75d
+			subtitle: "Separates thing"
+			description: ["Separates items into their components. Some items will process into a fluid component."]
 			dependencies: ["677773349FE468C2"]
 			id: "4A0F36F90F6004CC"
 			tasks: [{
@@ -719,6 +806,8 @@
 		{
 			x: -3.0d
 			y: 7.75d
+			subtitle: "BRRRR !"
+			description: ["Rapidly freezes items and fluids. Can use a forming mold with fluids to determine the output."]
 			dependencies: ["677773349FE468C2"]
 			id: "0D4FABA90E9DCAEE"
 			tasks: [{
@@ -752,6 +841,8 @@
 		{
 			x: -2.75d
 			y: 6.625d
+			subtitle: "Bottles Not Included"
+			description: ["Brews potions and imbues fluids. You might want a few of these in a row"]
 			dependencies: ["677773349FE468C2"]
 			id: "2C237D8A42C15549"
 			tasks: [{
@@ -763,183 +854,14 @@
 		{
 			x: -2.0d
 			y: 5.75d
+			subtitle: "Crafting Automation"
+			description: ["Insert items into the grid to set a crafting recipe. Simply press the confirm button and it should craft without you nearby"]
 			dependencies: ["677773349FE468C2"]
 			id: "2CBD9D2771248605"
 			tasks: [{
 				id: "79E2A6CEB3491685"
 				type: "item"
 				item: "thermal:machine_crafter"
-			}]
-		}
-		{
-			x: 21.25d
-			y: -1.5d
-			shape: "diamond"
-			id: "15CD0545458B6513"
-			tasks: [{
-				id: "508A3940637D5BF5"
-				type: "item"
-				item: "pipez:item_pipe"
-			}]
-		}
-		{
-			x: 21.75d
-			y: -1.0d
-			shape: "diamond"
-			id: "6B12289F3D68A2C1"
-			tasks: [{
-				id: "690D7572810902CA"
-				type: "item"
-				item: "pipez:fluid_pipe"
-			}]
-		}
-		{
-			x: 19.75d
-			y: -1.0d
-			shape: "diamond"
-			id: "659E0ADFDBC41623"
-			tasks: [{
-				id: "3515832DFED2DE70"
-				type: "item"
-				item: "pipez:energy_pipe"
-			}]
-		}
-		{
-			x: 20.25d
-			y: -1.5d
-			shape: "diamond"
-			id: "5175DE9956FEAE1D"
-			tasks: [{
-				id: "19F36712BE53EB5C"
-				type: "item"
-				item: "pipez:gas_pipe"
-			}]
-		}
-		{
-			x: 20.75d
-			y: -0.5d
-			shape: "diamond"
-			dependencies: [
-				"659E0ADFDBC41623"
-				"5175DE9956FEAE1D"
-				"15CD0545458B6513"
-				"6B12289F3D68A2C1"
-			]
-			size: 2.0d
-			id: "3DD90A96D72BC85A"
-			tasks: [{
-				id: "5DA4E84E50DC22B8"
-				type: "item"
-				item: "pipez:universal_pipe"
-			}]
-		}
-		{
-			x: 19.75d
-			y: 0.0d
-			shape: "diamond"
-			hide_dependency_lines: true
-			dependencies: [
-				"659E0ADFDBC41623"
-				"5175DE9956FEAE1D"
-				"15CD0545458B6513"
-				"6B12289F3D68A2C1"
-			]
-			dependency_requirement: "one_completed"
-			id: "5E14FAAB6F872A18"
-			tasks: [{
-				id: "075DF069A10BBED0"
-				type: "item"
-				item: "pipez:basic_upgrade"
-			}]
-		}
-		{
-			x: 20.25d
-			y: 0.5d
-			shape: "diamond"
-			hide_dependency_lines: true
-			dependencies: ["5E14FAAB6F872A18"]
-			id: "032D6D89B4986CC0"
-			tasks: [{
-				id: "328F58E48B7049AC"
-				type: "item"
-				item: "pipez:improved_upgrade"
-			}]
-		}
-		{
-			x: 21.75d
-			y: 0.0d
-			shape: "diamond"
-			hide_dependency_lines: true
-			dependencies: ["032D6D89B4986CC0"]
-			id: "6EE391988F2155A8"
-			tasks: [{
-				id: "77C41A8145F58B1B"
-				type: "item"
-				item: "pipez:advanced_upgrade"
-			}]
-		}
-		{
-			x: 21.25d
-			y: 0.5d
-			shape: "diamond"
-			hide_dependency_lines: true
-			dependencies: ["6EE391988F2155A8"]
-			id: "6846C6A978E3805F"
-			tasks: [{
-				id: "5E70D5AAF4512EBC"
-				type: "item"
-				item: "pipez:ultimate_upgrade"
-			}]
-		}
-		{
-			x: 20.75d
-			y: 1.25d
-			shape: "diamond"
-			hide_dependency_lines: true
-			dependencies: ["6846C6A978E3805F"]
-			id: "69ECF2E281408712"
-			tasks: [{
-				id: "3BF87521C2426870"
-				type: "item"
-				item: "pipez:infinity_upgrade"
-			}]
-		}
-		{
-			x: 19.75d
-			y: -2.25d
-			shape: "diamond"
-			hide_dependency_lines: true
-			dependencies: [
-				"659E0ADFDBC41623"
-				"5175DE9956FEAE1D"
-				"15CD0545458B6513"
-				"6B12289F3D68A2C1"
-			]
-			dependency_requirement: "one_completed"
-			id: "5009C69A5F2BF603"
-			tasks: [{
-				id: "4DE097E6B65FB931"
-				type: "item"
-				item: "pipez:wrench"
-			}]
-		}
-		{
-			x: 21.75d
-			y: -2.25d
-			shape: "diamond"
-			hide_dependency_lines: true
-			dependencies: [
-				"659E0ADFDBC41623"
-				"5175DE9956FEAE1D"
-				"15CD0545458B6513"
-				"6B12289F3D68A2C1"
-			]
-			dependency_requirement: "one_completed"
-			id: "477C8B01B0FED3E8"
-			tasks: [{
-				id: "30BB4B715680DD31"
-				type: "item"
-				item: "pipez:filter_destination_tool"
 			}]
 		}
 		{
@@ -976,8 +898,13 @@
 			}]
 		}
 		{
-			x: -21.5d
-			y: 0.0d
+			x: 9.5d
+			y: 15.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"387646F8C259D92F"
+				"3D3D8B33A6D7BE77"
+			]
 			id: "0AC6F9D845E9160A"
 			tasks: [{
 				id: "2888C6FC163E38A7"
@@ -990,8 +917,10 @@
 			}]
 		}
 		{
-			x: -21.5d
-			y: 1.0d
+			x: 8.5d
+			y: 14.5d
+			hide_dependency_lines: true
+			dependencies: ["387646F8C259D92F"]
 			id: "0FD98E3C554738EF"
 			tasks: [{
 				id: "3EE1633DDAF4E562"
@@ -1004,8 +933,10 @@
 			}]
 		}
 		{
-			x: -21.5d
-			y: 2.0d
+			x: 8.5d
+			y: 15.5d
+			hide_dependency_lines: true
+			dependencies: ["387646F8C259D92F"]
 			id: "096A7A40D50C6C69"
 			tasks: [{
 				id: "59BF69EE99FE7AF3"
@@ -1193,6 +1124,8 @@
 		{
 			x: -6.0d
 			y: 11.5d
+			subtitle: "Stone Generation"
+			description: ["Generates various types of stone. Requires an adjacent lava source and cooling (Water). The block beneath may also affect the product."]
 			hide_dependency_lines: true
 			dependencies: ["3D3D8B33A6D7BE77"]
 			id: "1F4368F20FE9AD62"
@@ -1205,6 +1138,8 @@
 		{
 			x: -5.0d
 			y: 12.0d
+			subtitle: "Potions Splasher"
+			description: ["Spreads potions within the nearby area. Use reageants to boost effectiveness."]
 			hide_dependency_lines: true
 			dependencies: ["3D3D8B33A6D7BE77"]
 			id: "05746F984F03865D"
@@ -1231,43 +1166,6 @@
 					}
 				}
 			}]
-		}
-		{
-			x: -41.5d
-			y: 1.0d
-			id: "1F365086BE93B623"
-			tasks: [{
-				id: "6DAF4032CBC235C5"
-				type: "item"
-				item: "thermal:slag"
-			}]
-		}
-		{
-			x: -41.5d
-			y: 2.0d
-			id: "42FFAB8EE1F2168B"
-			tasks: [{
-				id: "143E11746F2E1FD2"
-				type: "item"
-				item: "thermal:rich_slag"
-			}]
-		}
-		{
-			x: -41.5d
-			y: 3.0d
-			id: "6CCF544618C723CC"
-			tasks: [
-				{
-					id: "1C9855DC51A82B5C"
-					type: "item"
-					item: "thermal:basalz_rod"
-				}
-				{
-					id: "23D4736B14CA794C"
-					type: "item"
-					item: "thermal:basalz_powder"
-				}
-			]
 		}
 		{
 			title: "&4Redstone Servo&r"
@@ -1324,6 +1222,7 @@
 		{
 			x: 5.75d
 			y: 5.25d
+			shape: "rsquare"
 			id: "42BF2353D7B7D67C"
 			tasks: [{
 				id: "5A5B263C499D1126"
@@ -1334,6 +1233,7 @@
 		{
 			x: 7.75d
 			y: 5.25d
+			shape: "rsquare"
 			id: "0CF8DC0D2789EB76"
 			tasks: [{
 				id: "0C22F5804C1F5856"
@@ -1344,6 +1244,7 @@
 		{
 			x: 8.75d
 			y: 5.25d
+			shape: "rsquare"
 			id: "27863902F7EBFFF5"
 			tasks: [{
 				id: "6A81E0E08ACEEA09"
@@ -1354,6 +1255,7 @@
 		{
 			x: 9.75d
 			y: 5.25d
+			shape: "rsquare"
 			id: "04901D991655BCB3"
 			tasks: [{
 				id: "58EA97ABE1DF0A6C"
@@ -1364,6 +1266,7 @@
 		{
 			x: 10.75d
 			y: 5.25d
+			shape: "rsquare"
 			id: "64316EAACA1F02C2"
 			tasks: [{
 				id: "44AAE82F8CB7A672"
@@ -1374,6 +1277,7 @@
 		{
 			x: 7.25d
 			y: 6.25d
+			shape: "rsquare"
 			id: "75D5727467D1DFD7"
 			tasks: [{
 				id: "0ECB125479DE1F09"
@@ -1384,6 +1288,7 @@
 		{
 			x: 9.25d
 			y: 6.25d
+			shape: "rsquare"
 			id: "0DEEEBA290BF60AC"
 			tasks: [{
 				id: "6A45B548A3D858DB"
@@ -1394,6 +1299,7 @@
 		{
 			x: 10.25d
 			y: 6.25d
+			shape: "rsquare"
 			id: "133BA070C31A5D1A"
 			tasks: [{
 				id: "62CA4814613F4E72"
@@ -1404,6 +1310,7 @@
 		{
 			x: 5.75d
 			y: 7.25d
+			shape: "rsquare"
 			id: "1C35A898F4894F5A"
 			tasks: [{
 				id: "1D8A0EDC714575A7"
@@ -1414,6 +1321,7 @@
 		{
 			x: 6.75d
 			y: 7.25d
+			shape: "rsquare"
 			id: "7E3F8A64F4E0F199"
 			tasks: [{
 				id: "6E178D719D739827"
@@ -1424,6 +1332,7 @@
 		{
 			x: 8.75d
 			y: 7.25d
+			shape: "rsquare"
 			id: "7CF8D2306E668E41"
 			tasks: [{
 				id: "5215595BEE1BBB25"
@@ -1434,6 +1343,7 @@
 		{
 			x: 10.75d
 			y: 7.25d
+			shape: "rsquare"
 			id: "3E5EEC57AEF7E425"
 			tasks: [{
 				id: "366B497A77B3A81F"
@@ -1444,81 +1354,12 @@
 		{
 			x: 9.75d
 			y: 7.25d
+			shape: "rsquare"
 			id: "0F17CE21471D0CCD"
 			tasks: [{
 				id: "6A96090E803EA2F3"
 				type: "item"
 				item: "thermal:potion_duration_augment"
-			}]
-		}
-		{
-			x: -41.5d
-			y: 4.0d
-			id: "473DC84AC6CBCFE0"
-			tasks: [{
-				id: "23A1618FC245CF67"
-				type: "item"
-				item: {
-					id: "thermal:rf_potato"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			x: -41.5d
-			y: 5.0d
-			id: "3A79926BE1F83F5F"
-			tasks: [{
-				id: "0E0959387B1A0E0E"
-				type: "item"
-				item: {
-					id: "thermal:xp_crystal"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			x: -41.5d
-			y: 6.0d
-			id: "373D10B2093C14AB"
-			tasks: [{
-				id: "16B672289E8047F3"
-				type: "item"
-				item: "thermal:lock"
-			}]
-		}
-		{
-			x: -40.5d
-			y: 2.0d
-			id: "07DF1DA79AAAAED1"
-			tasks: [{
-				id: "49B462D0ED19AD83"
-				type: "item"
-				item: "thermal:phytogro"
-			}]
-		}
-		{
-			title: "Sap"
-			x: -38.0d
-			y: 1.0d
-			id: "53AFB1CA7E81660A"
-			tasks: [{
-				id: "2D59DE3DADD26CD5"
-				type: "item"
-				item: "thermal:sap_bucket"
-			}]
-		}
-		{
-			title: "Syrup"
-			x: -38.0d
-			y: 2.0d
-			id: "42AD796C67B9A68F"
-			tasks: [{
-				id: "159310FAEC61B403"
-				type: "item"
-				item: "thermal:syrup_bucket"
 			}]
 		}
 		{
@@ -1531,39 +1372,6 @@
 				id: "67598149BCE8EC9A"
 				type: "item"
 				item: "thermal:resin_bucket"
-			}]
-		}
-		{
-			title: "Heavy Oil"
-			x: -38.0d
-			y: 3.0d
-			id: "2E4A24CBE3968371"
-			tasks: [{
-				id: "1B014E1194119F6B"
-				type: "item"
-				item: "thermal:heavy_oil_bucket"
-			}]
-		}
-		{
-			title: "Light Oil"
-			x: -38.0d
-			y: 4.0d
-			id: "51444C2B2A16DA48"
-			tasks: [{
-				id: "6B02159571513916"
-				type: "item"
-				item: "thermal:light_oil_bucket"
-			}]
-		}
-		{
-			title: "Refined Fuel"
-			x: -38.0d
-			y: 5.0d
-			id: "6DFC11E91240F556"
-			tasks: [{
-				id: "32B375FA3CDDBF24"
-				type: "item"
-				item: "thermal:refined_fuel_bucket"
 			}]
 		}
 	]
