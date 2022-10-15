@@ -2369,6 +2369,7 @@
 			x: 3.25d
 			y: -11.25d
 			shape: "diamond"
+			description: ["This tool allows you to enter your Compact Machines."]
 			dependencies: [
 				"68E7A3D70265EBF0"
 				"7958F40FFDC2C5D3"

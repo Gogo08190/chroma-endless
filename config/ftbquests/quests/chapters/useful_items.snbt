@@ -110,6 +110,7 @@
 		{
 			x: 0.0d
 			y: 1.25d
+			description: ["Can place up to 9 blocks at once!"]
 			id: "638165806CD28566"
 			tasks: [{
 				id: "2422238994B5A2B6"
@@ -127,6 +128,7 @@
 		{
 			x: 1.0d
 			y: 1.25d
+			description: ["Can place up to 27 blocks at once!"]
 			id: "63F28BD0AF216A10"
 			tasks: [{
 				id: "77D5E494E9766A32"
@@ -144,6 +146,7 @@
 		{
 			x: 2.0d
 			y: 1.25d
+			description: ["Can place up to 128 blocks at once!"]
 			id: "6C2EDE1E42BE0A94"
 			tasks: [{
 				id: "04327FC5CC811648"
@@ -161,6 +164,7 @@
 		{
 			x: 3.0d
 			y: 1.25d
+			description: ["Can place up to 1024 blocks at once!"]
 			id: "048043A236E1665A"
 			tasks: [{
 				id: "7A6E4CFA7E826A3A"
@@ -525,19 +529,7 @@
 		}
 		{
 			x: 0.0d
-			y: 7.5d
-			shape: "square"
-			dependencies: ["4CA0051417A86918"]
-			id: "219744BBC14D2451"
-			tasks: [{
-				id: "3409339E295468D9"
-				type: "item"
-				item: "tconstruct:crafting_station"
-			}]
-		}
-		{
-			x: 0.0d
-			y: 8.75d
+			y: 7.25d
 			subtitle: "The Schematicannon is required for building a loaded and positioned Schematic"
 			description: [
 				"It will use materials from adjacent inventories unless a Schematicannon Creatifier Crate has been placed next to it."
@@ -564,7 +556,7 @@
 		}
 		{
 			x: 1.0d
-			y: 8.75d
+			y: 7.25d
 			subtitle: "Using the Schematic module you can load Structures and bring them into the world"
 			description: [
 				"Craft yourself a Schematic Table and place it in your workshop. Open it up and place the Empty Schematic in the input slot on the left. The checkered area shows the schematic file to be loaded onto the item."
@@ -894,6 +886,11 @@
 			x: 12.5d
 			y: 14.0d
 			shape: "square"
+			description: [
+				"This module tries to pull the first eligible item from the adjacent inventory in its configured direction into the router's buffer."
+				""
+				"If the buffer is full or contains something that stacks with nothing in the inventory, nothing will be pulled."
+			]
 			dependencies: ["2BE9A56F04E9A59C"]
 			id: "077F54E23DB98DAE"
 			tasks: [{
@@ -915,6 +912,13 @@
 			x: 12.5d
 			y: 13.0d
 			shape: "square"
+			description: [
+				"This module extends and withdraws a row of blocks (from the router's buffer) in the module's configured direction."
+				""
+				"By default, the module extends blocks when the router has a redstone signal, and withdraws them when the router has no signal, but a Redstone Enhancement can be added to the module to customise this behaviour."
+				""
+				"Using this module, it's possible to build large extending bridges and doorways."
+			]
 			dependencies: ["2BE9A56F04E9A59C"]
 			id: "62E891A8B012DAD6"
 			tasks: [{
@@ -936,6 +940,13 @@
 			x: 13.5d
 			y: 12.0d
 			shape: "square"
+			description: [
+				"This module tries to break a block, adjacent to the router in the module's configured direction."
+				""
+				"Most blocks are breakable, although anything with an unbreakable hardness can not be broken, nor can any fluid blocks."
+				""
+				"If the block is broken, its primary drop(s) will be pulled into the item router's buffer."
+			]
 			dependencies: ["2BE9A56F04E9A59C"]
 			id: "7D2B3E0BBA1F8066"
 			tasks: [{
@@ -957,6 +968,7 @@
 			x: 13.5d
 			y: 13.0d
 			shape: "square"
+			description: ["This module behaves rather like the Extruder Module Mk1, but with some important differences."]
 			dependencies: ["2BE9A56F04E9A59C"]
 			id: "4679E31D0EAEF85C"
 			tasks: [{
@@ -978,6 +990,11 @@
 			x: 14.5d
 			y: 13.0d
 			shape: "square"
+			description: [
+				"This module behaves like the dropper module, except that it also imparts a configurable velocity to the dropped item, potentially throwing the item a considerable distance."
+				""
+				"You can adjust the item's speed, pitch and yaw via the module's GUI."
+			]
 			dependencies: ["2BE9A56F04E9A59C"]
 			id: "3DE6B26FAF4BD237"
 			tasks: [{
@@ -1002,6 +1019,13 @@
 			x: 14.5d
 			y: 12.0d
 			shape: "square"
+			description: [
+				"This module doesn't actually manipulate items, but instead detects specific items in the router's buffer."
+				""
+				"If the buffer contents are matched by the module's filter, it will make the router emit a redstone signal in the configured direction, or all directions if the configured direction is None."
+				""
+				"The signal level (default: 15) and signal type (default: weak) can be adjust via the module GUI."
+			]
 			dependencies: ["2BE9A56F04E9A59C"]
 			id: "0243246953371F59"
 			tasks: [{
@@ -1045,6 +1069,11 @@
 			x: 15.5d
 			y: 13.0d
 			shape: "square"
+			description: [
+				"While Item Routers can't handle fluids directly, they can manipulate fluids if there is a fluid container item in the buffer."
+				""
+				"This includes buckets and any fluid containers added by other mods."
+			]
 			dependencies: ["2BE9A56F04E9A59C"]
 			id: "042DDB1FDAA0645F"
 			tasks: [{
@@ -1090,6 +1119,13 @@
 			x: 16.5d
 			y: 12.0d
 			shape: "square"
+			description: [
+				"This module tries to drop an item from the router's buffer as an item entity in the world. "
+				""
+				"The drop will be adjacent to the router in the module's configured direction."
+				""
+				"The item entity will be placed with a zero velocity, unlike the vanilla Dropper which adds an irritating random velocity to the item."
+			]
 			dependencies: ["2BE9A56F04E9A59C"]
 			id: "22EFAA1868522D03"
 			tasks: [{
@@ -1132,6 +1168,7 @@
 			x: 17.5d
 			y: 13.0d
 			shape: "square"
+			description: ["This module tries to place an item from the router's buffer as a block, adjacent to the router in the module's configured direction."]
 			dependencies: ["2BE9A56F04E9A59C"]
 			id: "6F5E77909AE14928"
 			tasks: [{
@@ -1153,6 +1190,11 @@
 			x: 18.5d
 			y: 13.0d
 			shape: "square"
+			description: [
+				"This module tries to transfer items between the router and a player's own inventory."
+				""
+				"The player can be anywhere in any dimension, making this a rather powerful module."
+			]
 			dependencies: ["2BE9A56F04E9A59C"]
 			id: "47577A1D5FD3A9FA"
 			tasks: [{
@@ -1194,6 +1236,11 @@
 			x: 18.5d
 			y: 14.0d
 			shape: "square"
+			description: [
+				"This dangerous module permanently destroys items in the router's buffer!"
+				""
+				"It is strongly recommended to configure this module with a Whitelist to prevent accidental deletion of valuable items..."
+			]
 			dependencies: ["2BE9A56F04E9A59C"]
 			id: "29C10B36B7B5D130"
 			tasks: [{
@@ -1214,6 +1261,7 @@
 			x: 17.5d
 			y: 14.0d
 			shape: "square"
+			description: ["This module scans for dropped items in a 13x13x13 cubic area around the router, and absorbs them into the router's buffer, if possible."]
 			dependencies: ["2BE9A56F04E9A59C"]
 			id: "033B301D67E728B4"
 			tasks: [{
@@ -1235,6 +1283,11 @@
 			x: 16.5d
 			y: 14.0d
 			shape: "square"
+			description: [
+				"This top-end sender module operates very much like the Mk2 Sender, but can send to any inventory (in any dimension) with no restrictions!"
+				""
+				"Note: the target inventory must be chunk-loaded; Modular Routers will not do this for you."
+			]
 			dependencies: ["2BE9A56F04E9A59C"]
 			id: "1DC99012B697B393"
 			tasks: [{
@@ -1255,6 +1308,7 @@
 			x: 15.5d
 			y: 14.0d
 			shape: "square"
+			description: ["This more powerful sender module tries to send an item from the router's buffer to a nearby inventory."]
 			dependencies: ["2BE9A56F04E9A59C"]
 			id: "495B6600182C5479"
 			tasks: [{
@@ -1308,6 +1362,11 @@
 			x: 15.5d
 			y: 8.0d
 			shape: "gear"
+			description: [
+				"The Modular Router is the centre of the system: it has a single buffer slot for items, nine module slots, and five upgrade slots."
+				""
+				"The Modular Router has a single-slot buffer for items."
+			]
 			dependencies: [
 				"5E6932FE693B1BAA"
 				"6B12289F3D68A2C1"
@@ -1325,6 +1384,7 @@
 			x: 14.5d
 			y: 14.0d
 			shape: "square"
+			description: ["This module tries to send an item from the router's buffer to an inventory in the module's configured direction."]
 			dependencies: ["2BE9A56F04E9A59C"]
 			id: "23728F9B42AE8BFB"
 			tasks: [{
@@ -1359,6 +1419,11 @@
 			x: 11.5d
 			y: 9.0d
 			shape: "square"
+			description: [
+				"By default, a router ticks every 20 server ticks, or once per second."
+				""
+				"On each tick, every installed module is executed in order, left to right."
+			]
 			dependencies: ["037FB1EF30A6D443"]
 			id: "511599B20F7EAB7E"
 			tasks: [{
@@ -1371,6 +1436,11 @@
 			x: 11.5d
 			y: 8.0d
 			shape: "square"
+			description: [
+				"This upgrade allows you to disguise the router as another block. Sneak+Right-click the module against a block to record that block on the camouflage upgrade."
+				""
+				"When inserted into a router, that router will take on the appearance of the recorded block."
+			]
 			dependencies: ["037FB1EF30A6D443"]
 			id: "441909867458B81A"
 			tasks: [{
@@ -1383,6 +1453,7 @@
 			x: 11.5d
 			y: 7.0d
 			shape: "square"
+			description: ["This upgrade makes the router fully immune to explosion damage, and also to being destroyed by boss mobs."]
 			dependencies: ["037FB1EF30A6D443"]
 			id: "6AA09AFC6FAA63DA"
 			tasks: [{
@@ -1407,6 +1478,7 @@
 			x: 10.5d
 			y: 8.0d
 			shape: "square"
+			description: ["This upgrade can be used to suppress sounds and particle effects made by item routers, and can be useful if a noisy module is regularly running in a place where a player often is."]
 			dependencies: ["037FB1EF30A6D443"]
 			id: "3DCED36AC1A645B5"
 			tasks: [{
@@ -1419,6 +1491,13 @@
 			x: 10.5d
 			y: 9.0d
 			shape: "square"
+			description: [
+				"This upgrade is used to guarantee that two or more routers run at the same time."
+				""
+				"The Sync Upgrade has a tuning value of 0 .. 19 (i.e. 1 less than the base router tick rate of 20)."
+				""
+				"This tuning value can be set by right-clicking the Sync Upgrade to open its GUI, or quickly set to a random value by sneak-right-clicking the upgrade."
+			]
 			dependencies: ["037FB1EF30A6D443"]
 			id: "122948B8A9B72C20"
 			tasks: [{
@@ -1431,6 +1510,7 @@
 			x: 9.5d
 			y: 9.0d
 			shape: "square"
+			description: ["Modules in a router operate on a single item at a time: e.g. a Sender module will send a single item from the router's buffer, regardless of how many items are in the buffer."]
 			dependencies: ["037FB1EF30A6D443"]
 			id: "4CEDC6946C79E792"
 			tasks: [{
@@ -1443,6 +1523,11 @@
 			x: 9.5d
 			y: 8.0d
 			shape: "square"
+			description: [
+				"This upgrade, when inserted, will restrict the players who can open the router's GUI."
+				""
+				"By default, it only permits the player who crafted the upgrade."
+			]
 			dependencies: ["037FB1EF30A6D443"]
 			id: "789308C6D247F877"
 			tasks: [{
@@ -1455,6 +1540,12 @@
 			x: 9.5d
 			y: 7.0d
 			shape: "square"
+			description: [
+				"This upgrade only affects the Fluid Module."
+				"It increases the overall fluid transfer rate of the Item Router from the base rate of 50mB/tick by 10mB/tick, up to a maximum of 400mB/tick."
+				""
+				"Therefore the maximum useful number of Fluid Transfer Upgrades in a router is 35."
+			]
 			dependencies: ["037FB1EF30A6D443"]
 			id: "0FE9786F86D02B3D"
 			tasks: [{
@@ -1480,6 +1571,11 @@
 			x: 19.5d
 			y: 9.0d
 			shape: "square"
+			description: [
+				"This augment can be added to any module. Normally, modules are run when the router runs, no questions asked."
+				""
+				"However, if this augment is added to a module, that module can define its own redstone behaviour; an extra button is added to the module's GUI to control this."
+			]
 			dependencies: ["6CFD6E1CE7405E59"]
 			id: "1CD0CBB8131F0E1C"
 			tasks: [{
@@ -1492,6 +1588,13 @@
 			x: 19.5d
 			y: 8.0d
 			shape: "square"
+			description: [
+				"This augment can only be added to the Dropper and Flinger modules."
+				""
+				"It can be stacked; each augment added will increase the pickup delay on dropped/flung items by 10 ticks (0.5 sec)."
+				""
+				"This can be useful if you don't want players accidentally picking up nearby dropped items, for example."
+			]
 			dependencies: ["6CFD6E1CE7405E59"]
 			id: "45375A2F7E5360A6"
 			tasks: [{
@@ -1504,6 +1607,11 @@
 			x: 19.5d
 			y: 7.0d
 			shape: "square"
+			description: [
+				"This augment can only be added to the Vacuum Module."
+				""
+				"It allows the Vacuum Module to ignore the normal pickup delay on dropped items - 40 ticks for items dropped by players, and 10 ticks for items dropped by other means and pick up items as soon as it sees them."
+			]
 			dependencies: ["6CFD6E1CE7405E59"]
 			id: "4E8024A60B451274"
 			tasks: [{
@@ -1528,6 +1636,13 @@
 			x: 20.5d
 			y: 8.0d
 			shape: "square"
+			description: [
+				"This augment can be added to any module which has a range (Sender Mk1/Mk2, Puller Mk1/Mk2, Extruder Mk1/Mk2, Vacuum)."
+				""
+				"It can be stacked; each augment will reduce the range of the module by one block."
+				""
+				"This is probably only useful in conjunction with the Vacuum Module, to control the range it scans for items."
+			]
 			dependencies: ["6CFD6E1CE7405E59"]
 			id: "41193073A44A79EA"
 			tasks: [{
@@ -1540,6 +1655,13 @@
 			x: 20.5d
 			y: 9.0d
 			shape: "square"
+			description: [
+				"The Regulator Augment allows for precise control over how many items may be sent to or pulled from an inventory, or the router's buffer."
+				""
+				"When a module has the Regulator Augment activated, you will see an extra numeric textfield in its GUI where you can configure a limit."
+				""
+				"The module's tooltip text will also show the limit."
+			]
 			dependencies: ["6CFD6E1CE7405E59"]
 			id: "5CDD12B6597A77EE"
 			tasks: [{
@@ -1552,6 +1674,11 @@
 			x: 21.5d
 			y: 9.0d
 			shape: "square"
+			description: [
+				"This module can be added to any module which handles items (as opposed to blocks or fluids)."
+				""
+				"Adding Stack Augments to a module increases the number of items it can process per tick; each Stack Augment doubles the number of items, up to a maximum of the item's natural stack size (64 for most items)."
+			]
 			dependencies: ["6CFD6E1CE7405E59"]
 			id: "5F7600CB80164892"
 			tasks: [{
@@ -1564,6 +1691,11 @@
 			x: 21.5d
 			y: 8.0d
 			shape: "square"
+			description: [
+				"This augment can be added to any module which has a range (Sender Mk1/Mk2, Puller Mk1/Mk2, Extruder Mk1/Mk2, Vacuum)."
+				""
+				"It can be stacked; each augment will increase the range of the module by one block."
+			]
 			dependencies: ["6CFD6E1CE7405E59"]
 			id: "6C8777B6BAE55128"
 			tasks: [{
@@ -1573,8 +1705,8 @@
 			}]
 		}
 		{
-			x: 21.5d
-			y: 7.0d
+			x: 22.5d
+			y: 7.5d
 			shape: "square"
 			dependencies: ["6CFD6E1CE7405E59"]
 			id: "1228FF7B324FE670"
@@ -1585,9 +1717,16 @@
 			}]
 		}
 		{
-			x: 22.5d
-			y: 7.5d
+			x: 21.5d
+			y: 7.0d
 			shape: "square"
+			description: [
+				"This augment can only added to a Vacuum Module."
+				""
+				"When this augment is added, the Vacuum Module will absorb experience orbs instead of items."
+				""
+				"The orbs will be converted into Bottles o' Enchanting at the rate of 7XP per bottle"
+			]
 			dependencies: ["6CFD6E1CE7405E59"]
 			id: "03E24A59CC0B87DF"
 			tasks: [{
@@ -2188,7 +2327,7 @@
 		{
 			title: "&dInformation about Create Schematics !"
 			x: 0.5d
-			y: 9.75d
+			y: 8.25d
 			description: [
 				"On Chroma Endless you will be able to find a lot of custom multiblocks, we advise you to use the create schematics that we have provided you with to build the custom machines."
 				""
@@ -2204,6 +2343,188 @@
 			tasks: [{
 				id: "6D87F8382A595E02"
 				type: "checkmark"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.25d
+			description: ["The Building Gadget allows you to build structures using a set of different Building Modes."]
+			id: "7927897C054A2F05"
+			tasks: [{
+				id: "63C08F9D4E5EA5A8"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_building"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.25d
+			description: ["The Exchanging Gadget provides basic exchanging abilities using a set of different Exchanging Modes."]
+			id: "1ECD79FC519D7BEC"
+			tasks: [{
+				id: "26709FDD8DE6E0D9"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_exchanging"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.25d
+			description: ["The Copy Paste Gadget allows you to select a large radius to copy and paste in a different location."]
+			id: "35FD512BD7931A6B"
+			tasks: [{
+				id: "2EEB142A5677D2BF"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_copy_paste"
+					Count: 1b
+					tag: {
+						mode: 0b
+						template_id: [I;
+							-1555422228
+							667175199
+							-1364033967
+							-260765143
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.25d
+			description: ["The Destruction Gadget allows you to void a large area."]
+			id: "1D56E78A72A293DC"
+			tasks: [{
+				id: "20396F4A3BA589B9"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_destruction"
+					Count: 1b
+					tag: {
+						overlay: 1b
+						fuzzy: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.25d
+			id: "735DFE40CEA8DAB7"
+			tasks: [{
+				id: "7BFE606899F1FD0B"
+				type: "item"
+				item: "buildinggadgets:template_manager"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.25d
+			description: [
+				"&lBinding an Entangled Block&r"
+				"1. Craft an Entangled Block and an Entangled Binder"
+				"2. Place down your Entangled Block"
+				"3. Right-Click on the block you want to bind with the Entangled Binder"
+				"4. Right-Click on your Entangled Block with the Entangled Binder"
+				""
+				"&lUnbinding an Entangled Block&r"
+				"1. Select an empty slot on your hotbar"
+				"2. Start crouching"
+				"3. Right-Click on the Entangled Block"
+			]
+			id: "5458B4B77C7D8370"
+			tasks: [{
+				id: "2D54093870371BE2"
+				type: "item"
+				item: {
+					id: "entangled:block"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.25d
+			description: ["Entangled Binder Allows you to control what blocks bind together!"]
+			id: "05E92D8B7478247F"
+			tasks: [{
+				id: "74297583706C3B04"
+				type: "item"
+				item: {
+					id: "entangled:item"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			description: ["You can trash Items !"]
+			id: "51C1BD39EFFC3779"
+			tasks: [{
+				id: "26B792CA2E0CC56A"
+				type: "item"
+				item: "trashcans:item_trash_can"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			description: ["You can trash Fluids !"]
+			id: "49E136B1520B2146"
+			tasks: [{
+				id: "63BC66BDAA5B7A27"
+				type: "item"
+				item: "trashcans:liquid_trash_can"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			description: ["You can trash Energy !"]
+			id: "025EE85BB25CB285"
+			tasks: [{
+				id: "79BA239AC69D75F4"
+				type: "item"
+				item: "trashcans:energy_trash_can"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			description: ["You can trash everything."]
+			id: "4A47C3C6F8C08B44"
+			tasks: [{
+				id: "7799A4A0F862DDEB"
+				type: "item"
+				item: "trashcans:ultimate_trash_can"
 			}]
 		}
 	]

@@ -99,6 +99,7 @@
 		{
 			x: 5.0d
 			y: -11.5d
+			description: ["Increases the storage amount of the drawer it is applied to by 2."]
 			dependencies: [
 				"6F7E038577E9E093"
 				"0F01F4CCB3915082"
@@ -113,6 +114,7 @@
 		{
 			x: 5.0d
 			y: -10.25d
+			description: ["Increases the storage amount of the drawer it is applied to by 4."]
 			dependencies: [
 				"6F7E038577E9E093"
 				"4055881864FF87C5"
@@ -149,6 +151,7 @@
 		{
 			x: 5.0d
 			y: -7.75d
+			description: ["Increases the storage amount of the drawer it is applied to by 16."]
 			dependencies: [
 				"6F7E038577E9E093"
 				"0976209956D1ADCD"
@@ -163,6 +166,7 @@
 		{
 			x: 5.0d
 			y: -9.0d
+			description: ["Increases the storage amount of the drawer it is applied to by 8."]
 			dependencies: [
 				"6F7E038577E9E093"
 				"412DC2EA2FB47B68"
@@ -188,6 +192,7 @@
 		{
 			x: 5.0d
 			y: -6.5d
+			description: ["Increases the storage amount of the drawer it is applied to by 32."]
 			dependencies: [
 				"6F7E038577E9E093"
 				"63B277F4C396E4F7"
@@ -216,6 +221,7 @@
 		{
 			x: 6.25d
 			y: -10.25d
+			description: ["This upgrade sends any items over the capacity of the drawer into the void to never be seen again."]
 			dependencies: [
 				"6F7E038577E9E093"
 				"0F01F4CCB3915082"
@@ -272,6 +278,7 @@
 		{
 			x: 6.25d
 			y: -7.75d
+			description: ["This upgrade illuminates the contained block/item, good for night time!"]
 			dependencies: [
 				"6F7E038577E9E093"
 				"359039A14143712B"
@@ -914,6 +921,7 @@
 		{
 			x: 27.25d
 			y: 4.25d
+			description: ["Tier 4 - 16x."]
 			dependencies: ["6C2651531A1357D9"]
 			id: "2F0BBA26EB4A9CAB"
 			tasks: [{
@@ -925,6 +933,7 @@
 		{
 			x: 27.25d
 			y: 3.25d
+			description: ["Tier 3 - 8x."]
 			dependencies: ["230D42DD6AC83ABB"]
 			id: "6C2651531A1357D9"
 			tasks: [{
@@ -936,6 +945,7 @@
 		{
 			x: 26.25d
 			y: 3.25d
+			description: ["Pumps experience between Tank upgrade and player."]
 			dependencies: ["2FF19C93998D7B8A"]
 			id: "1D570B4D982237F5"
 			tasks: [{
@@ -947,6 +957,11 @@
 		{
 			x: 26.25d
 			y: 2.25d
+			description: [
+				"Pumps fluids between Tank upgrade and adjacent blocks."
+				"Works with fluid containers in hand and fluid blocks in world."
+				"Allow to filter which fluids are pumped."
+			]
 			dependencies: ["47698AD606A9A21E"]
 			id: "2FF19C93998D7B8A"
 			tasks: [{
@@ -958,6 +973,7 @@
 		{
 			x: 27.25d
 			y: 2.25d
+			description: ["Tier 2 - 4x."]
 			dependencies: ["0DF3EBD59EA79D8C"]
 			id: "230D42DD6AC83ABB"
 			tasks: [{
@@ -969,6 +985,7 @@
 		{
 			x: 23.75d
 			y: 1.25d
+			description: ["Advanced one has more filtering options - match by item/mod/tags, match nbt, match damage and 16 slots that can be used to filter."]
 			dependencies: ["30132A9E617EB032"]
 			id: "11FDB31F0C75438A"
 			tasks: [{
@@ -980,6 +997,7 @@
 		{
 			x: 23.0d
 			y: 0.5d
+			description: ["Advanced one has filters which allow to filter what gets swapped."]
 			dependencies: ["762CCB05AA3AFE42"]
 			id: "0FB58C6787C5561D"
 			tasks: [{
@@ -991,6 +1009,7 @@
 		{
 			x: 22.0d
 			y: -1.0d
+			description: ["Advanced one has 16 slots and can compact items using both 2x2 and 3x3 recipes."]
 			dependencies: ["2FFCD09CBE6F9163"]
 			id: "785827104D47D761"
 			tasks: [{
@@ -1013,6 +1032,7 @@
 		{
 			x: 22.0d
 			y: -3.0d
+			description: ["Advanced one has bigger magnet range more filtering options - match by item/mod/tags, match nbt, match damage and 16 slots that can be used to filter."]
 			dependencies: ["50D4F08C9A173BD5"]
 			id: "6B97AA5D5C9BE323"
 			tasks: [{
@@ -1024,6 +1044,7 @@
 		{
 			x: 22.0d
 			y: -4.0d
+			description: ["Advanced one has more filtering options - match by item/mod/tags, match nbt, match damage and 16 slots that can be used to filter."]
 			dependencies: ["77BF7BEB7C7B5229"]
 			id: "1F62DA38EA9904FE"
 			tasks: [{
@@ -1035,6 +1056,7 @@
 		{
 			x: 31.5d
 			y: -4.0d
+			description: ["Advanced one has more filtering options - match by item/mod/tags, match nbt, match damage and 16 slots that can be used to filter."]
 			dependencies: ["2CC66059833AF128"]
 			id: "71A5D604E50E941E"
 			tasks: [{
@@ -1046,6 +1068,10 @@
 		{
 			x: 31.5d
 			y: -3.0d
+			description: [
+				"Blasting ores and metal stuff in an upgrade tab."
+				"Automatically auto pulls/pushes items."
+			]
 			dependencies: [
 				"7EA0C32C7CECD338"
 				"67FFD62BFB4EEF3B"
@@ -1067,6 +1093,7 @@
 		{
 			x: 31.5d
 			y: -2.0d
+			description: ["Auto smelting one will automatically pull fuel, items to smelt and will automatically push smelted items back into backpack."]
 			dependencies: ["5E531159FD478B4A"]
 			id: "67FFD62BFB4EEF3B"
 			tasks: [{
@@ -1084,6 +1111,7 @@
 		{
 			x: 31.5d
 			y: -1.0d
+			description: ["Automatically pulls/pushes items."]
 			dependencies: [
 				"6515A975C833F307"
 				"67FFD62BFB4EEF3B"
@@ -1105,6 +1133,7 @@
 		{
 			x: 30.5d
 			y: 0.5d
+			description: ["Advanced one has more filtering options - match by item/mod/tags, match nbt, match damage and 16 slots that can be used to filter."]
 			dependencies: ["020C08865451A39F"]
 			id: "345D4FB87B5D323D"
 			tasks: [{
@@ -1116,6 +1145,7 @@
 		{
 			x: 29.75d
 			y: 1.25d
+			description: ["Advanced one has more filtering options - match by item/mod/tags, match nbt, match damage and 16 slots that can be used to filter."]
 			dependencies: ["363080D6237592BA"]
 			id: "50195DA20A4EA86A"
 			tasks: [{
@@ -1135,6 +1165,7 @@
 			}
 			x: 26.75d
 			y: -6.5d
+			description: ["Your first backpack will be made with an occultism ritual !"]
 			hide_dependency_lines: true
 			dependencies: [
 				"4DA463AF4ABD0CA4"
@@ -1246,6 +1277,7 @@
 		{
 			x: 25.25d
 			y: -6.25d
+			description: ["Up to 6 stacks can be defined in its filter to refill."]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
 			id: "2B88688E253AC3B6"
@@ -1258,6 +1290,7 @@
 		{
 			x: 24.5d
 			y: -5.5d
+			description: ["Makes backpack indestructible."]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
 			id: "3C6268F8DCBA976E"
@@ -1270,6 +1303,13 @@
 		{
 			x: 23.75d
 			y: -4.75d
+			description: [
+				"Also remembers the last recipe used."
+				""
+				"If the same block is inserted it will preselect that recipe."
+				""
+				"So stonecutting multiple stacks of the same block is much faster."
+			]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
 			id: "7185F14ECC706925"
@@ -1282,6 +1322,7 @@
 		{
 			x: 23.0d
 			y: -4.0d
+			description: ["Regular upgrade can only filter by item and has 9 filter slots."]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
 			id: "77BF7BEB7C7B5229"
@@ -1294,6 +1335,7 @@
 		{
 			x: 23.0d
 			y: -3.0d
+			description: ["Regular upgrade can only filter by item and has 9 filter slots."]
 			dependencies: ["77BF7BEB7C7B5229"]
 			id: "50D4F08C9A173BD5"
 			tasks: [{
@@ -1305,6 +1347,7 @@
 		{
 			x: 23.0d
 			y: -2.0d
+			description: ["Has filters to allow limiting what food items should be fed to player (pretty useful in case you're picking up stuff like rotten flesh and similar with negative effects)."]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
 			id: "1A5578C3634286B1"
@@ -1317,6 +1360,7 @@
 		{
 			x: 23.0d
 			y: -1.0d
+			description: ["Regular upgrade only has 9 filter slots and can only compact items using 2x2 recipes."]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
 			id: "2FFCD09CBE6F9163"
@@ -1329,6 +1373,7 @@
 		{
 			x: 23.75d
 			y: -0.25d
+			description: ["Regular upgrade will automatically swap right tool into player's hand from backpack when block or entity is clicked ."]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
 			id: "762CCB05AA3AFE42"
@@ -1341,6 +1386,7 @@
 		{
 			x: 24.5d
 			y: 0.5d
+			description: ["Regular upgrade can only filter by item and has 9 filter slots."]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
 			id: "30132A9E617EB032"
@@ -1353,6 +1399,7 @@
 		{
 			x: 25.25d
 			y: 1.25d
+			description: ["Replaces part of backpack's inventory with fluid storage."]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
 			id: "60D02E4EBA5B16D3"
@@ -1365,6 +1412,7 @@
 		{
 			x: 26.25d
 			y: 1.25d
+			description: ["Pumps fluids between Tank upgrade and adjacent blocks."]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
 			id: "47698AD606A9A21E"
@@ -1377,6 +1425,11 @@
 		{
 			x: 27.25d
 			y: 1.25d
+			description: [
+				"Multiplies the max stack size limit by a value."
+				""
+				"Tier 1 - 2x."
+			]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
 			id: "0DF3EBD59EA79D8C"
@@ -1389,6 +1442,7 @@
 		{
 			x: 28.25d
 			y: 1.25d
+			description: ["Replaces part of backpack's inventory with energy storage."]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
 			id: "3B786CEAECB69205"
@@ -1401,6 +1455,7 @@
 		{
 			x: 29.0d
 			y: 0.5d
+			description: ["Regular upgrade can only filter by item and has 9 filter slots."]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
 			id: "363080D6237592BA"
@@ -1413,6 +1468,7 @@
 		{
 			x: 29.75d
 			y: -0.25d
+			description: ["Regular upgrade can only filter by item and has 9 filter slots."]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
 			id: "020C08865451A39F"
@@ -1425,6 +1481,7 @@
 		{
 			x: 30.5d
 			y: -1.0d
+			description: ["Smoking food in an upgrade tab."]
 			hide_dependency_lines: true
 			dependencies: [
 				"4DDE60CE13BDA795"
@@ -1447,6 +1504,7 @@
 		{
 			x: 30.5d
 			y: -2.0d
+			description: ["Regular upgrade works just as furnace would."]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
 			id: "5E531159FD478B4A"
@@ -1465,6 +1523,7 @@
 		{
 			x: 30.5d
 			y: -3.0d
+			description: ["Blasting ores and metal stuff in an upgrade tab."]
 			hide_dependency_lines: true
 			dependencies: [
 				"4DDE60CE13BDA795"
@@ -1487,6 +1546,7 @@
 		{
 			x: 30.5d
 			y: -4.0d
+			description: ["Regular upgrade can only filter by item and has 9 filter slots."]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
 			id: "2CC66059833AF128"
@@ -1499,6 +1559,7 @@
 		{
 			x: 29.75d
 			y: -4.75d
+			description: ["Allows to play music discs in upgrade tab."]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
 			id: "3D5E399364D63AD0"
@@ -1511,6 +1572,11 @@
 		{
 			x: 29.0d
 			y: -5.5d
+			description: [
+				"Integration with crafting tweaks and mouse tweaks."
+				""
+				"Also has performance enhancements that make it faster in crafting than vanilla workbench."
+			]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
 			id: "1FA17117928A3036"
@@ -1529,6 +1595,17 @@
 		{
 			x: 28.25d
 			y: -6.25d
+			description: [
+				"Only allows this on one level so no backpack in backpack in backpack."
+				""
+				"Upgrades in these backpacks will also work so you can have for example pickup upgrade in one of these picking up items directly into it."
+				""
+				"Upgrades in the main backpack can access inventory of the subbackpacks and there's an option that defines whether they use inventory in subbackpacks first or the main one first."
+				""
+				"Filter upgrade in subbackpacks can be used to limit what items get inserted / pulled from them."
+				""
+				"Backpacks in backpack can be open using open backpack keybind when cursor is over them."
+			]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
 			id: "547352F2F51CA91E"
