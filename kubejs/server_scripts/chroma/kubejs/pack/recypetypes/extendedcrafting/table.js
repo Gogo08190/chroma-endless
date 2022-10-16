@@ -2802,7 +2802,7 @@ onEvent("recipes", (event) => {
         }
       },
       "result": {
-        "item": ""
+        "item": "ars_nouveau:creative_spell_book"
       }
     }
   ).id(`${id_prefix}creative_spell_book`)
@@ -2905,7 +2905,7 @@ onEvent("recipes", (event) => {
         }
       },
       "result": {
-        "item": ""
+        "item": "elementalcraft:tank_creative"
       }
     }
   ).id(`${id_prefix}creative_source_jar`)
@@ -3050,7 +3050,7 @@ onEvent("recipes", (event) => {
         }
       },
       "result": {
-        "item": ""
+        "item": "elementalcraft:tank_creative"
       }
     }
   ).id(`${id_prefix}creative_element_container`)
