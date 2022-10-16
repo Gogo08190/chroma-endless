@@ -491,30 +491,6 @@
 			}]
 		}
 		{
-			icon: "mekanism:energized_smelter"
-			x: -12.5d
-			y: -0.5d
-			dependencies: ["1F22F5BF3BD21A03"]
-			id: "1D7F8B5ABF753007"
-			tasks: [{
-				id: "3DD5F50BC5B3A8AE"
-				type: "item"
-				item: "mekanism:energized_smelter"
-			}]
-		}
-		{
-			icon: "mekanism:crusher"
-			x: -13.0d
-			y: 0.5d
-			dependencies: ["1F22F5BF3BD21A03"]
-			id: "2C7CADFB5A4D08E3"
-			tasks: [{
-				id: "5EE3626AC233C672"
-				type: "item"
-				item: "mekanism:crusher"
-			}]
-		}
-		{
 			title: "Steel Casing"
 			icon: "mekanism:steel_casing"
 			x: -14.0d
@@ -533,80 +509,6 @@
 				id: "17D77DD53982E986"
 				type: "item"
 				item: "mekanism:steel_casing"
-			}]
-		}
-		{
-			icon: "mekanism:precision_sawmill"
-			x: -14.0d
-			y: 1.0d
-			dependencies: ["1F22F5BF3BD21A03"]
-			id: "24E769412A5B4860"
-			tasks: [{
-				id: "6576DB25F2FC903B"
-				type: "item"
-				item: "mekanism:precision_sawmill"
-			}]
-		}
-		{
-			icon: "mekanism:combiner"
-			x: -15.0d
-			y: 0.5d
-			dependencies: ["1F22F5BF3BD21A03"]
-			id: "03B72046B74AB0F7"
-			tasks: [{
-				id: "44FAD95C4B9A216D"
-				type: "item"
-				item: "mekanism:combiner"
-			}]
-		}
-		{
-			icon: "mekanism:osmium_compressor"
-			x: -15.5d
-			y: -0.5d
-			dependencies: [
-				"1F22F5BF3BD21A03"
-				"40C970572379006E"
-			]
-			id: "35E8974B479C476A"
-			tasks: [{
-				id: "0FCEE66F9CD98AB6"
-				type: "item"
-				item: "mekanism:osmium_compressor"
-			}]
-		}
-		{
-			x: -16.75d
-			y: -0.5d
-			dependencies: ["1F22F5BF3BD21A03"]
-			id: "0353C32DEEC76D85"
-			tasks: [{
-				id: "0270AFFFECC8760C"
-				type: "item"
-				item: "mekanism:enrichment_chamber"
-			}]
-		}
-		{
-			icon: "mekanism:purification_chamber"
-			x: -17.75d
-			y: -0.5d
-			dependencies: ["0353C32DEEC76D85"]
-			id: "1162CCBEF5DB123C"
-			tasks: [{
-				id: "75BB41E9539EA63C"
-				type: "item"
-				item: "mekanism:purification_chamber"
-			}]
-		}
-		{
-			icon: "mekanism:chemical_injection_chamber"
-			x: -18.75d
-			y: -0.5d
-			dependencies: ["1162CCBEF5DB123C"]
-			id: "4CC7D2B0639866A2"
-			tasks: [{
-				id: "1A5DE10CCCEE3D2B"
-				type: "item"
-				item: "mekanism:chemical_injection_chamber"
 			}]
 		}
 		{
@@ -743,83 +645,6 @@
 			}]
 		}
 		{
-			x: -0.25d
-			y: 10.5d
-			dependencies: ["2B471E4CC0E02DED"]
-			id: "0A619D8601AF32F6"
-			tasks: [{
-				id: "222E57C1ADB3D790"
-				type: "item"
-				item: "mekanism:basic_combining_factory"
-			}]
-		}
-		{
-			x: 0.5d
-			y: 10.0d
-			dependencies: ["2B471E4CC0E02DED"]
-			id: "670832222E94FB36"
-			tasks: [{
-				id: "15C82DAFC562CACE"
-				type: "item"
-				item: "mekanism:basic_compressing_factory"
-			}]
-		}
-		{
-			x: 1.0d
-			y: 9.25d
-			dependencies: ["2B471E4CC0E02DED"]
-			id: "7580EA8FEB09D203"
-			tasks: [{
-				id: "5AF4B6FF03F435BA"
-				type: "item"
-				item: "mekanism:basic_enriching_factory"
-			}]
-		}
-		{
-			x: 0.5d
-			y: 8.5d
-			dependencies: ["2B471E4CC0E02DED"]
-			id: "32D1047D7DF5EC10"
-			tasks: [{
-				id: "400E8294B26D68D6"
-				type: "item"
-				item: "mekanism:basic_infusing_factory"
-			}]
-		}
-		{
-			x: -0.25d
-			y: 8.0d
-			dependencies: ["2B471E4CC0E02DED"]
-			id: "11EA0877E19BD365"
-			tasks: [{
-				id: "1FF593E860403EA2"
-				type: "item"
-				item: "mekanism:basic_sawing_factory"
-			}]
-		}
-		{
-			x: -1.0d
-			y: 7.5d
-			dependencies: ["2B471E4CC0E02DED"]
-			id: "69EE8C9626ACB3DB"
-			tasks: [{
-				id: "45EEB9EAE2EA7560"
-				type: "item"
-				item: "mekanism:basic_crushing_factory"
-			}]
-		}
-		{
-			x: -2.0d
-			y: 7.25d
-			dependencies: ["2B471E4CC0E02DED"]
-			id: "282686B58A4A46B3"
-			tasks: [{
-				id: "1294B8D7F25B212A"
-				type: "item"
-				item: "mekanism:basic_smelting_factory"
-			}]
-		}
-		{
 			x: -4.25d
 			y: -2.0d
 			hide_dependency_lines: true
@@ -879,105 +704,6 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -3.25d
-			dependencies: ["5A250FD54B5D5215"]
-			id: "0EF4B58CE03935A0"
-			tasks: [{
-				id: "460A14EDD5C86EF1"
-				type: "item"
-				item: "mekanism:advanced_smelting_factory"
-			}]
-		}
-		{
-			x: -5.0d
-			y: -4.5d
-			dependencies: ["5A250FD54B5D5215"]
-			id: "116C7F18D346AB1A"
-			tasks: [{
-				id: "569527C0838AE2AA"
-				type: "item"
-				item: "mekanism:advanced_crushing_factory"
-			}]
-		}
-		{
-			x: -4.75d
-			y: -5.5d
-			dependencies: ["5A250FD54B5D5215"]
-			id: "46D40D3B5B4374AA"
-			tasks: [{
-				id: "44BDE025F5793A69"
-				type: "item"
-				item: "mekanism:advanced_sawing_factory"
-			}]
-		}
-		{
-			x: -4.25d
-			y: -6.5d
-			dependencies: ["5A250FD54B5D5215"]
-			id: "6E9AF8DA6275CF59"
-			tasks: [{
-				id: "4EC27FCF9D68A15C"
-				type: "item"
-				item: "mekanism:advanced_enriching_factory"
-			}]
-		}
-		{
-			x: -3.25d
-			y: -7.0d
-			dependencies: ["5A250FD54B5D5215"]
-			id: "203AE381220EE8A5"
-			tasks: [{
-				id: "2784BBA36E698720"
-				type: "item"
-				item: "mekanism:advanced_infusing_factory"
-			}]
-		}
-		{
-			x: -2.25d
-			y: -6.5d
-			dependencies: ["5A250FD54B5D5215"]
-			id: "5EDB7459BD7AE48C"
-			tasks: [{
-				id: "4A5261E0B9B692F2"
-				type: "item"
-				item: "mekanism:advanced_compressing_factory"
-			}]
-		}
-		{
-			x: -1.75d
-			y: -5.5d
-			dependencies: ["5A250FD54B5D5215"]
-			id: "1D775E93455EBDC2"
-			tasks: [{
-				id: "1B9F4892F5A76A48"
-				type: "item"
-				item: "mekanism:advanced_combining_factory"
-			}]
-		}
-		{
-			x: -1.5d
-			y: -4.5d
-			dependencies: ["5A250FD54B5D5215"]
-			id: "0512FA22CE3F14B4"
-			tasks: [{
-				id: "34EC08A160DC8F87"
-				type: "item"
-				item: "mekanism:advanced_purifying_factory"
-			}]
-		}
-		{
-			x: -1.5d
-			y: -3.25d
-			dependencies: ["5A250FD54B5D5215"]
-			id: "3ADA0A827DBF2DA8"
-			tasks: [{
-				id: "616503B1CDF3B35E"
-				type: "item"
-				item: "mekanism:advanced_injecting_factory"
-			}]
-		}
-		{
 			x: -15.25d
 			y: 9.5d
 			id: "0E4A27067D64FFCE"
@@ -995,6 +721,26 @@
 				id: "5678E46EFCEF7DE2"
 				type: "item"
 				item: "mekanism:energy_tablet"
+			}]
+		}
+		{
+			x: -16.25d
+			y: 10.5d
+			id: "2D17968D3B7C09B4"
+			tasks: [{
+				id: "635CEF82894D545E"
+				type: "item"
+				item: "mekanism:hdpe_rod"
+			}]
+		}
+		{
+			x: -15.25d
+			y: 10.5d
+			id: "558CE25F994A46AB"
+			tasks: [{
+				id: "609C276EDBC22AA2"
+				type: "item"
+				item: "mekanism:ingot_refined_obsidian"
 			}]
 		}
 	]

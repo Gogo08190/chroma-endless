@@ -1374,5 +1374,22 @@
 				item: "thermal:resin_bucket"
 			}]
 		}
+		{
+			x: 10.0d
+			y: 10.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"7725395D23ABF6DD"
+				"4A0F36F90F6004CC"
+				"5A2860254AFFB8AE"
+			]
+			dependency_requirement: "one_completed"
+			id: "3EAFE946D0476552"
+			tasks: [{
+				id: "3292C491BBDFB465"
+				type: "item"
+				item: "thermal:tar"
+			}]
+		}
 	]
 }

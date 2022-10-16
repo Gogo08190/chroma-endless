@@ -44,6 +44,18 @@
 			dev: false
 			corner: false
 		}
+		{
+			x: -50.0d
+			y: -15.25d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/item_acces.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
 	]
 	quests: [
 		{
@@ -390,6 +402,7 @@
 		{
 			x: -58.5d
 			y: -11.0d
+			description: ["The Waypoint Bank is a block that increases the Tardis' total waypoint capacity."]
 			id: "383BEF7A4E76F4A5"
 			tasks: [{
 				id: "689B9A31B708098D"
@@ -399,8 +412,8 @@
 		}
 		{
 			title: "Quantiscope"
-			x: -56.25d
-			y: -6.25d
+			x: -53.5d
+			y: -9.75d
 			subtitle: "The Quantiscope is a block that allows users to craft and modify various items."
 			description: [
 				"Uses:"
@@ -638,6 +651,7 @@
 		{
 			x: -55.75d
 			y: -14.0d
+			description: ["The Vortex Detector block is a block similar to the Daylight Sensor. It emits a Redstone signal when it detects if a Tardis is in flight, and can be inverted for its opposite behavior."]
 			id: "17EF84F760BE6F2C"
 			tasks: [{
 				id: "784BF6B929D1CCAF"
@@ -648,6 +662,7 @@
 		{
 			x: -54.75d
 			y: -14.0d
+			description: ["The Transduction Barrier is a block that prevents nearby Tardises from landing within its defined radius if the Tardis' Landing Codes don't match that of the barrier."]
 			id: "66758B3A8C008836"
 			tasks: [{
 				id: "58EEC18E25361359"
@@ -658,6 +673,7 @@
 		{
 			x: -53.75d
 			y: -14.0d
+			description: ["The Landing Pad is a block that allows nearby Tardises to land precisely on this block."]
 			id: "234B3A5B1671EC36"
 			tasks: [{
 				id: "22CC32C3990E0C7D"
@@ -666,8 +682,16 @@
 			}]
 		}
 		{
-			x: -52.75d
-			y: -14.0d
+			x: -59.75d
+			y: -17.5d
+			description: ["The Roundel Tap block allows for the transferring of Forge Energy within the Tardis interior dimension, or piping energy between the Tardis exterior and interior."]
+			dependencies: [
+				"7EFA7E873D6D662D"
+				"0D95BB72F3EF2EF7"
+				"453DC6175AA9267E"
+				"50B86956469CDE66"
+				"199D23BE5909C68E"
+			]
 			id: "3731B9C0AA295D50"
 			tasks: [{
 				id: "46062A20B5D9F7F1"
@@ -920,6 +944,7 @@
 			x: -54.5d
 			y: -18.75d
 			description: ["Essential subsystems are required to allow a Tardis to enter flight mode. The Tardis console will emit smoke when one or more of these is under 10% of their total durability and will spark when under 5% of total durability. These effects will stop when the component is removed from the engine. Currently, only the Dematerialisation Circuit and Fluid Link are considered essential."]
+			dependencies: ["32B12D10660F4037"]
 			id: "060009E44354CAAA"
 			tasks: [{
 				id: "322F5C9F111604D2"
@@ -958,6 +983,7 @@
 		{
 			x: -56.5d
 			y: -15.5d
+			dependencies: ["32B12D10660F4037"]
 			id: "7249BC3BF63A36B8"
 			tasks: [{
 				id: "01D0DC5A8C987844"
@@ -1009,6 +1035,134 @@
 				id: "374F0802DC7C9281"
 				type: "checkmark"
 				title: "Charging Artron compatible items"
+			}]
+		}
+		{
+			x: -60.75d
+			y: -18.5d
+			description: [
+				"1. Place down a Roundel Tap inside the Tardis interior. This is the energy input site."
+				""
+				"2. Place down a second Roundel Tap elsewhere inside the Tardis interior. This is the energy output site."
+				""
+				"3. Place a Forge Energy generator block near the input Roundel Tap."
+				""
+				"4. Using wire blocks from other mods, connect the Forge Energy generator block to the input Roundel Tap."
+				""
+				"5. Right click the input Roundel Tap so that its \"emit\" blockstate value is set to false."
+				"5.1 A message similar to \"Tap is now pushing energy to Tardis\" will be shown."
+				""
+				"6. Place a Forge Energy storage block near the output Roundel Tap."
+				"6.1 E.g. Mekanism's Energy Cube."
+				""
+				"7. Using wire blocks from other mods, connect the Forge Energy storage block to the output Roundel Tap."
+				""
+				"8. Right click the output Roundel Tap so that its \"emit\" blockstate value is set to true."
+				"8.1 A message similar to \"Tap is now pushing energy to nearby blocks\" will be shown."
+				""
+				"9. See that energy is being transferred around."
+				""
+				"To see the current capacity of the Tardis' Forge Energy Buffer, use an attuned Tardis Diagnostic tool."
+			]
+			dependencies: ["32B12D10660F4037"]
+			id: "7EFA7E873D6D662D"
+			tasks: [{
+				id: "6F98234BF595F141"
+				type: "checkmark"
+				title: "Transfer energy within Tardis Interior"
+			}]
+		}
+		{
+			x: -59.75d
+			y: -18.5d
+			description: [
+				"1. Place down a Roundel Tap inside the Tardis interior. This is the energy input site."
+				""
+				"2. Place a Forge Energy generator block near the input Roundel Tap."
+				""
+				"3. Using wire blocks from other mods, connect the Forge Energy generator block to the input Roundel Tap."
+				""
+				"4. Right click the input Roundel Tap so that its \"emit\" blockstate value is set to false."
+				"4.1 A message similar to \"Tap is now pushing energy to Tardis\" will be shown."
+				""
+				"5. At the Tardis Exterior, place a Forge Energy storage block near the exterior block."
+				"5.1 E.g. Mekanism's Energy Cube."
+				""
+				"6. Using wire blocks from other mods, connect the Forge Energy storage block to the exterior block."
+				""
+				"7. See that energy is being piped from interior to exterior."
+				"7.1 If the transfer is not occurring, please ensure the Tardis interior dimension is chunkloaded."
+			]
+			dependencies: ["32B12D10660F4037"]
+			id: "0D95BB72F3EF2EF7"
+			tasks: [{
+				id: "61B5E26367A2FD9A"
+				type: "checkmark"
+				title: "Transfer items from Tardis Interior to Tardis Exterior "
+			}]
+		}
+		{
+			x: -58.75d
+			y: -18.5d
+			description: [
+				"1. At the Tardis Exterior, place a Forge Energy generator block near the exterior block. This is the energy input site."
+				""
+				"2. Using wire blocks from other mods, connect the Forge Energy generator block to the exterior block."
+				""
+				"3. In the Tardis interior, place down a Roundel Tap. This is the energy output site."
+				""
+				"4. Place a Forge Energy storage block near the output Roundel Tap."
+				"4.1 E.g. Mekanism's Energy Cube."
+				""
+				"5. Using wire blocks from other mods, connect the Forge Energy storage block to the output Roundel Tap."
+				""
+				"6. Right click the output Roundel Tap so that its \"emit\" blockstate value is set to true."
+				"6.1 A message similar to \"Tap is now pushing energy to nearby blocks\" will be shown."
+				""
+				"7. See that energy is being piped from exterior to interior."
+				"7.1 If the transfer is not occurring, please ensure the Tardis exterior dimension is chunkloaded."
+			]
+			dependencies: ["32B12D10660F4037"]
+			id: "453DC6175AA9267E"
+			tasks: [{
+				id: "015000B21CDB6594"
+				type: "checkmark"
+				title: "Transfer items from Tardis Exterior to Tardis Interior"
+			}]
+		}
+		{
+			x: -60.75d
+			y: -17.5d
+			description: ["{image:chroma:textures/quests/push_to_block.png width:100 height:100 align:1}"]
+			dependencies: ["32B12D10660F4037"]
+			id: "199D23BE5909C68E"
+			tasks: [{
+				id: "37FE534F0A6BD002"
+				type: "checkmark"
+				title: "Figure 1 - State when Roundel Tap is pushing energy to nearby blocks"
+			}]
+		}
+		{
+			x: -58.75d
+			y: -17.5d
+			description: ["{image:chroma:textures/quests/push_to_tardis.png width:100 height:100 align:1}"]
+			dependencies: ["32B12D10660F4037"]
+			id: "50B86956469CDE66"
+			tasks: [{
+				id: "64F66CF0714CC922"
+				type: "checkmark"
+				title: "Figure 2 - State when Roundel Tap is pushing energy to the Tardis."
+			}]
+		}
+		{
+			x: -62.5d
+			y: -14.0d
+			description: ["A Xion Crystal is an ore block that is used in many crafting recipes"]
+			id: "32B12D10660F4037"
+			tasks: [{
+				id: "3B98EA4C8E15AD17"
+				type: "item"
+				item: "tardis:xion_crystal"
 			}]
 		}
 	]

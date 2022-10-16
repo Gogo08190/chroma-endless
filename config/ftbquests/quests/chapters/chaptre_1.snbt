@@ -1161,9 +1161,29 @@
 			dependency_requirement: "one_completed"
 			id: "7CE5A37CB1D7F967"
 			tasks: [{
-				id: "72D76092A0F5255A"
+				id: "1472D590D74FCE1E"
 				type: "item"
-				item: "powah:uraninite_raw"
+				title: "Raw Uraninite"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "powah:uraninite_raw_poor"
+								Count: 1b
+							}
+							{
+								id: "powah:uraninite_raw"
+								Count: 1b
+							}
+							{
+								id: "powah:uraninite_raw_dense"
+								Count: 1b
+							}
+						]
+					}
+				}
 			}]
 		}
 		{
