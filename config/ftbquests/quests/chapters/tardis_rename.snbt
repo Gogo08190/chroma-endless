@@ -1,7 +1,7 @@
 {
 	id: "517173498A1D1695"
 	group: ""
-	order_index: 11
+	order_index: 10
 	filename: "tardis_rename"
 	title: "Tardis (rename)"
 	icon: "tardis:telescope"
@@ -45,8 +45,8 @@
 			corner: false
 		}
 		{
-			x: -50.0d
-			y: -15.25d
+			x: -50.25d
+			y: -15.75d
 			width: 1.0d
 			height: 1.0d
 			rotation: 0.0d
@@ -56,11 +56,23 @@
 			dev: false
 			corner: false
 		}
+		{
+			x: -32.25d
+			y: -11.75d
+			width: 5.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/spacesuit.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
 	]
 	quests: [
 		{
-			x: -43.0d
-			y: -4.5d
+			x: -52.75d
+			y: -9.75d
 			id: "4F888FC4269D104E"
 			tasks: [{
 				id: "748A5A869A5F05FD"
@@ -76,8 +88,9 @@
 			}]
 		}
 		{
-			x: -45.0d
-			y: -4.5d
+			x: -50.25d
+			y: -10.0d
+			description: ["Find in village."]
 			id: "445EBC860C3ABE3C"
 			tasks: [{
 				id: "2E3E2E8D303D73BF"
@@ -87,8 +100,9 @@
 		}
 		{
 			title: "Tardis Key"
-			x: -46.5d
-			y: -6.75d
+			x: -48.5d
+			y: -10.25d
+			description: ["The Tardis Key is an item that is used to lock and unlock the Tardis."]
 			id: "1B526DD30E043004"
 			tasks: [{
 				id: "0D5EA9C931C52553"
@@ -400,8 +414,8 @@
 			}]
 		}
 		{
-			x: -58.5d
-			y: -11.0d
+			x: -52.75d
+			y: -14.0d
 			description: ["The Waypoint Bank is a block that increases the Tardis' total waypoint capacity."]
 			id: "383BEF7A4E76F4A5"
 			tasks: [{
@@ -412,8 +426,8 @@
 		}
 		{
 			title: "Quantiscope"
-			x: -53.5d
-			y: -9.75d
+			x: -47.0d
+			y: -13.0d
 			subtitle: "The Quantiscope is a block that allows users to craft and modify various items."
 			description: [
 				"Uses:"
@@ -448,7 +462,7 @@
 			}]
 		}
 		{
-			x: -56.0d
+			x: -54.5d
 			y: -12.25d
 			description: ["The Diagnostic Tool is a multi-purpose device that allows a player to view dashboards and track their Tardis"]
 			id: "53CB21797EB0D903"
@@ -478,18 +492,9 @@
 			}]
 		}
 		{
-			x: -54.5d
-			y: -12.25d
-			id: "727BFE884A970CAD"
-			tasks: [{
-				id: "09E64EDA4F163433"
-				type: "item"
-				item: "tardis:monitor_remote"
-			}]
-		}
-		{
 			x: -53.5d
 			y: -12.25d
+			description: ["A Timeship Backdoor is a form of emergency access to a Tardis."]
 			id: "5BBC774C3A787868"
 			tasks: [{
 				id: "7203F58A87C19132"
@@ -500,6 +505,7 @@
 		{
 			x: -52.5d
 			y: -12.25d
+			description: ["The ARS Tablet is an item used to generate and delete rooms inside the Tardis"]
 			id: "3D57CE33D4EA8A14"
 			tasks: [{
 				id: "76AC678AA067253D"
@@ -512,8 +518,12 @@
 			}]
 		}
 		{
-			x: -51.5d
-			y: -12.25d
+			x: -49.0d
+			y: -13.0d
+			description: [
+				"The Artifact Map is a scroll that holds a Treasure Map that leads to rumoured space-time anomalies."
+				"{image:chroma:textures/quests/map.png width:300 height:150 align:1}"
+			]
 			id: "3521110EA6252CAA"
 			tasks: [{
 				id: "5D3911BE59E217E2"
@@ -522,8 +532,8 @@
 			}]
 		}
 		{
-			x: -50.5d
-			y: -12.25d
+			x: -48.0d
+			y: -13.0d
 			description: ["The Pocket Watch is a device that allows a player to view the outside world's time when inside the Tardis interior."]
 			id: "1FF942CB25D5A8AD"
 			tasks: [{
@@ -533,8 +543,8 @@
 			}]
 		}
 		{
-			x: -49.5d
-			y: -12.25d
+			x: -50.0d
+			y: -13.0d
 			id: "7CD75FCA7BA0B415"
 			tasks: [{
 				id: "55C328607EA119D3"
@@ -543,8 +553,8 @@
 			}]
 		}
 		{
-			x: -52.0d
-			y: -10.5d
+			x: -45.5d
+			y: -10.25d
 			id: "28A05F8218355507"
 			tasks: [{
 				id: "1C4106253BBBE918"
@@ -553,8 +563,8 @@
 			}]
 		}
 		{
-			x: -51.0d
-			y: -10.5d
+			x: -44.5d
+			y: -10.25d
 			id: "203848E34CF7D12C"
 			tasks: [{
 				id: "522150A1B1FD112C"
@@ -565,6 +575,10 @@
 		{
 			x: -45.0d
 			y: -8.0d
+			dependencies: [
+				"28A05F8218355507"
+				"203848E34CF7D12C"
+			]
 			id: "3D3AC37237398EDD"
 			tasks: [{
 				id: "20864D166574FC49"
@@ -597,16 +611,6 @@
 						}
 					}
 				}
-			}]
-		}
-		{
-			x: -58.5d
-			y: -14.0d
-			id: "3F369A736D7598DB"
-			tasks: [{
-				id: "119E21E8809E8F86"
-				type: "item"
-				item: "tardis:psychic_cube"
 			}]
 		}
 		{
@@ -700,8 +704,8 @@
 			}]
 		}
 		{
-			x: -47.75d
-			y: -14.75d
+			x: -45.25d
+			y: -17.25d
 			description: [
 				"The Architectural Reconfiguration System (ARS) Egg is a block that allows the player to obtain a variety of decoration blocks and other items in exchange for the depletion of the Tardis' Artron banks."
 				"{image:chroma:textures/quests/ars.png width:100 height:100 align:1}"
@@ -973,6 +977,7 @@
 				"Upgrades can be removed from the engine or disabled at any time by toggling its switch."
 				"{image:chroma:textures/quests/activation.png width:200 height:100 align:1}"
 			]
+			dependencies: ["3036833D11AB9650"]
 			id: "579BCBD73667F654"
 			tasks: [{
 				id: "17FB6A2C1E831207"
@@ -1163,6 +1168,153 @@
 				id: "3B98EA4C8E15AD17"
 				type: "item"
 				item: "tardis:xion_crystal"
+			}]
+		}
+		{
+			title: "Space Armor"
+			x: -49.25d
+			y: -14.75d
+			id: "43C1622EE516C74D"
+			tasks: [
+				{
+					id: "1A3C123D2802E768"
+					type: "item"
+					item: "tardis:space_helm"
+				}
+				{
+					id: "5EDC11F02526FD22"
+					type: "item"
+					item: "tardis:space_chest"
+				}
+				{
+					id: "171B14E065D01485"
+					type: "item"
+					item: "tardis:space_legs"
+				}
+				{
+					id: "460353B9BFCC2D65"
+					type: "item"
+					item: "tardis:space_boots"
+				}
+			]
+		}
+		{
+			x: -61.0d
+			y: -9.75d
+			description: [
+				"Schematics are a \"blueprint\" that holds information such as Tardis Interiors, Exteriors or Consoles."
+				"It can be stored inside Sonic Screwdrivers."
+				"They are used to unlock various interiors, exteriors and consoles."
+			]
+			dependencies: ["54A50CC1EF5FDF39"]
+			id: "520F210D4023A44F"
+			tasks: [{
+				id: "0847DEBED1F8EB1B"
+				type: "checkmark"
+				title: "Schematics"
+			}]
+		}
+		{
+			x: -61.0d
+			y: -8.75d
+			description: [
+				"Using a Neutronic Spectrometer with an item"
+				"Extracting data fragments from Ship Computers in particular structures."
+			]
+			dependencies: ["54A50CC1EF5FDF39"]
+			id: "45F2ABC555330A9E"
+			tasks: [{
+				id: "2F1F5BD782BA693C"
+				type: "checkmark"
+				title: "Unlocking an Object"
+			}]
+		}
+		{
+			x: -61.0d
+			y: -7.75d
+			description: [
+				"1. Place down a Neutronic Spectrometer"
+				"2. Open the GUI of the Spectrometer block"
+				"3. Add an item into the left hand slot of the GUI. If a valid item is added, the Spectromer will proceed to \"extract\" information from the item and a blue progress bar will slowly increase."
+				"{image:chroma:textures/quests/shematic_input.png width:100 height:100 align:1}"
+				"4. Wait until the blue progress bar for the \"extraction\" process to be completed. A green lamp on the top left hand side will be lit."
+				"{image:chroma:textures/quests/shematic_extract.png width:100 height:100 align:1}"
+				"5. If you hover over the screen display on the top right, you can see view what Schematic was extracted."
+				"{image:chroma:textures/quests/shematic_display.png width:100 height:100 align:1}"
+				"6. Place a Sonic Screwdriver into the bottom right slot to download the Schematic into the screwdriver. This slot has an outline indicating this."
+				"{image:chroma:textures/quests/progress_dowload.png width:100 height:100 align:1}"
+				"7. The Spectrometer will now proceed to download the Schematic into the Sonic Screwdriver. Two red lamps will be lit and a second progress bar will slowly increment. "
+				"8. Once the download process has completed, the red lamps will turn off, and only one of the lamps will be lit green."
+				"8.1 The Sonic Screwdriver now contains the Schematic"
+				"{image:chroma:textures/quests/shematic_finish.png width:100 height:100 align:1}"
+			]
+			dependencies: ["54A50CC1EF5FDF39"]
+			min_width: 300
+			id: "7957FA1C01B609CB"
+			tasks: [{
+				id: "7D265585385CAFE4"
+				type: "checkmark"
+				title: "Obtaining Schematics"
+			}]
+		}
+		{
+			x: -60.0d
+			y: -7.75d
+			description: [
+				"1. Obtain a Sonic Screwdriver and set its mode to \"Block Interaction\" mode."
+				""
+				"2. Right click with a Sonic Screwdriver on a Ship Computer block inside a generated structure."
+				""
+				"3. If a computer contains a Schematic, a message similar to \"Downloaded Data Fragments!\" will be shown above the hotbar. Otherwise, there is not a valid schematic stored in the Ship Computer."
+				""
+				"4. You can view the downloaded Schematic in your Sonic Screwdriver by holding Left Control."
+			]
+			dependencies: ["54A50CC1EF5FDF39"]
+			id: "63F80F9BAA852EBA"
+			tasks: [{
+				id: "2CA54FE95925B7D9"
+				type: "checkmark"
+				title: "Ship Computer"
+			}]
+		}
+		{
+			x: -60.0d
+			y: -8.75d
+			description: [
+				"1. Enter the Tardis you wish to install the Schematic for."
+				""
+				"2. Right click with the Sonic Screwdriver into the Sonic Port Control of the Console."
+				""
+				"3. The Tardis will install any schematic stored inside the Sonic Screwdriver."
+				"3.1 It will not install the schematic if the Tardis already contains the interior/exterior/console."
+				"{image:chroma:textures/quests/schematic_unlocked.png width:200 height:100 align:1}"
+			]
+			dependencies: ["54A50CC1EF5FDF39"]
+			id: "6899380AA1DCEC80"
+			tasks: [{
+				id: "0F79E6687B75D986"
+				type: "checkmark"
+				title: "Installing Schematic into Tardis"
+			}]
+		}
+		{
+			x: -56.5d
+			y: -11.75d
+			description: [
+				"{image:chroma:textures/quests/control.png width:130 height:110 align:1 fit:true}"
+				"Brachacki/1963 Console Unit Control Layout"
+			]
+			id: "7232EEE913AC0F49"
+			tasks: [{
+				id: "0CD160B182A0B77B"
+				type: "checkmark"
+				title: "Tardis Console Controls"
+			}]
+			rewards: [{
+				id: "5226C9B55ACE76C2"
+				type: "command"
+				command: "/tellraw @p [\"\",{\"text\":\"Go check check the Wiki at this \"},{\"text\":\"link\",\"color\":\"aqua\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://tardis-mod.com/books/deprecated-features/page/tardis-console-controls-112\"}},{\"text\":\".\",\"color\":\"aqua\"}]"
+				player_command: false
 			}]
 		}
 	]

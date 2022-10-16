@@ -3,7 +3,7 @@
 	group: "0889EAB460A6BD29"
 	order_index: 1
 	filename: "chaptre_2"
-	title: "Chapter 2"
+	title: "&bChapter 2&r &6-&r Smeltery and better tools"
 	icon: "tconstruct:smeltery_controller"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -29,6 +29,8 @@
 			icon: "tconstruct:grout"
 			x: -5.0d
 			y: -8.0d
+			subtitle: "Making Grout"
+			description: ["As you travel the world, those materials will really be necessary."]
 			dependencies: [
 				"3378D54ED18FC564"
 				"56E33A3A0C9966C3"
@@ -231,6 +233,7 @@
 		{
 			x: -1.0d
 			y: -8.0d
+			subtitle: "Making Travelling Cool"
 			dependencies: ["4866C5C9EF6794DA"]
 			id: "7A172669A4672D91"
 			tasks: [{
@@ -342,11 +345,29 @@
 			x: -7.5d
 			y: -0.1875d
 			shape: "square"
+			subtitle: "Hotter Than Furnaces"
+			description: [
+				"&n&6&lStructure Requirements :&r"
+				""
+				"Your smeltery has some requirements to run correctly. "
+				""
+				"First of all, your smeltery must have a floor made of acceptable smeltery blocks excluding glass. It also has to be rectangular, it can't be L shaped, circle shaped or dodecahedron shaped."
+				"The max size of your smeltery is 16x16x65 external or 14x14x64 internal."
+				""
+				"&6&l&nAlloying :&r"
+				""
+				"Alloying is a process that will allow you to combine your materialsinto stronger ones."
+				""
+				"In order to alloy, you will have to find two materials that can be alloyed together. "
+				""
+				"Some materials need hotter fuels in order to alloy, we will come back to this later in the quests."
+			]
 			dependencies: [
 				"52157E7FBFE05315"
 				"0115C672497D08A4"
 			]
 			size: 2.75d
+			min_width: 350
 			id: "4FF742939987793B"
 			tasks: [
 				{
@@ -427,8 +448,21 @@
 			x: -7.5d
 			y: -3.25d
 			shape: "square"
+			subtitle: "Early Smelting"
+			description: [
+				"{image:chroma:textures/quests/melter.png width:200 height:150 align:1}"
+				""
+				"&l&n&6Operation :&r"
+				""
+				"There are as you can see &33&r slots where you put in what you want to melt. It may be ores, ingots, or anything else you fell like attempting to melt!."
+				""
+				"The &3Gauge&r in the middle is where your molten material will show. Remember that you may only have one molten material at a time in the melter."
+				""
+				"The &3Right Slot&r is where your fuel is shown. If you have a heater it will appear as shown and you will be able to insert any item that can be used as fuel. If you have a seared tank, it will show a bar with liquid fuel in it."
+			]
 			dependencies: ["5B8F2CFF9902433F"]
 			size: 1.5d
+			min_width: 350
 			id: "52157E7FBFE05315"
 			tasks: [
 				{
@@ -468,6 +502,8 @@
 			x: -7.5d
 			y: -8.0d
 			shape: "gear"
+			subtitle: "Smelting Grout"
+			description: ["&7&lTinker Construct's&r best friend"]
 			dependencies: [
 				"60E0E583C1CBCE56"
 				"381C9C82AD9505C7"
@@ -721,6 +757,8 @@
 			icon: "tconstruct:blank_cast"
 			x: -7.5d
 			y: 2.5d
+			subtitle: "Reusable "
+			description: ["&e&l&nGold Casts&r are reusable&r. To make one, simply pour one ingot worht of molten gold over a tool part placed in a casting table. The tool part is used up in the process."]
 			dependencies: ["4FF742939987793B"]
 			id: "3F047B28738897A0"
 			tasks: [{
@@ -744,6 +782,7 @@
 		{
 			x: -9.5d
 			y: 2.5d
+			subtitle: "Storing Casts"
 			dependencies: [
 				"3F047B28738897A0"
 				"1195924B8477153E"
@@ -806,6 +845,7 @@
 			x: -7.5d
 			y: 8.75d
 			shape: "rsquare"
+			subtitle: "Going to Hell"
 			dependencies: [
 				"6770AB2A85C49A63"
 				"0F01F4CCB3915082"
@@ -892,8 +932,27 @@
 			x: -4.75d
 			y: 13.0d
 			shape: "square"
+			subtitle: "Scorched Alloying "
+			description: [
+				"{image:chroma:textures/quests/alloyer.png width:150 height:125 align:1}"
+				""
+				"Since the &6Foundry&r can't alloy here is a solution simplier to use."
+				""
+				"As you can see, it requires a fuel tank or a heater, better fuel allows making better alloys."
+				""
+				"It can takes input from tanks around the alloyer, adding more tanks gives you more metals to alloy it with at once."
+				""
+				"&6&l&nAlloyer Gui :&r"
+				""
+				"The &3first slot&r is the area where you see the materials in the side tanks, more tanks equals more spots for materials."
+				""
+				"The &3Gauge&r in the middle is where your alloyed materials will show once they are finished working their magic."
+				""
+				"The &3Left Slot&r is where your fuel shows. Hotter fuels means you can melt more things."
+			]
 			dependencies: ["13D4E1A361C32E93"]
 			size: 1.5d
+			min_width: 300
 			id: "19507D1E11AAF241"
 			tasks: [
 				{
@@ -960,9 +1019,9 @@
 			tasks: [{
 				id: "517378CFB6ECFC36"
 				type: "item"
-				title: "89x Scorched Bricks"
+				title: "Scorched Bricks"
 				item: "tconstruct:scorched_brick"
-				count: 89L
+				count: 8L
 			}]
 		}
 		{
@@ -1139,8 +1198,27 @@
 			x: -4.75d
 			y: 6.0d
 			shape: "square"
+			subtitle: "Hotter Than The Smeltery"
+			description: [
+				"&n&6&lStructure Requirements :&r"
+				""
+				"Your foundry has some requirements to run correctly. "
+				""
+				"First of all, your foundry must have a floor made of acceptable foundry blocks excluding glass. It also has to be rectangular, it can't be L shaped, circle shaped or dodecahedron shaped."
+				""
+				"It must have corners and edges to work correctly ! "
+				""
+				"&n&6&lFoundry GUI :&r"
+				""
+				"First of all, &3the left slot&r is where your item go that you want smelted. The number of slots will change depending on the size of your foundry."
+				""
+				"The &3Gauge&r in the middle is where your molten materials will be seen. You can click on one to select it for pouring, hovering over the blank section will give you details avout the capacity of the foundry."
+				""
+				"Finally, the &3Right Slot&r is where you can see the fuel you have. Hovering over it wills how the exact amout and type."
+			]
 			dependencies: ["11525ED89B361FB8"]
 			size: 2.75d
+			min_width: 350
 			id: "0F1BD6C918F471B1"
 			tasks: [
 				{

@@ -1,0 +1,161 @@
+{
+	id: "6D379516A49F0857"
+	group: "35B3FA4E85C275BD"
+	order_index: 0
+	filename: "projecte"
+	title: "ProjectE"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -4.25d
+			y: -0.75d
+			id: "48EB93D18A30079C"
+			tasks: [{
+				id: "542C0EF253D97BF5"
+				type: "item"
+				item: "projecte:alchemical_chest"
+			}]
+		}
+		{
+			x: -3.25d
+			y: -0.75d
+			id: "665D1CD7675BDED3"
+			tasks: [{
+				id: "188CD7EAF807B0A6"
+				type: "item"
+				item: "projecte:alchemical_coal_block"
+			}]
+		}
+		{
+			x: -2.25d
+			y: -0.75d
+			id: "535A68EDC1FBE247"
+			tasks: [{
+				id: "00DD49356B643EE6"
+				type: "item"
+				item: "projecte:mobius_fuel_block"
+			}]
+		}
+		{
+			x: -1.25d
+			y: -0.75d
+			id: "36414E1D662C2768"
+			tasks: [{
+				id: "10EBADC395CBA9B9"
+				type: "item"
+				item: "projecte:aeternalis_fuel_block"
+			}]
+		}
+		{
+			x: -0.25d
+			y: -0.75d
+			id: "1360A84908C0020A"
+			tasks: [{
+				id: "3E3B8C64B24908D8"
+				type: "item"
+				item: "projecte:collector_mk1"
+			}]
+		}
+		{
+			x: 0.75d
+			y: -0.75d
+			id: "28F4FE9C114B0B5A"
+			tasks: [{
+				id: "71E06FD217E7A040"
+				type: "item"
+				item: "projecte:collector_mk2"
+			}]
+		}
+		{
+			x: 1.75d
+			y: -0.75d
+			id: "74070BB4E9D6A48A"
+			tasks: [{
+				id: "0C6F46001C6652C2"
+				type: "item"
+				item: "projecte:collector_mk3"
+			}]
+		}
+		{
+			x: 2.75d
+			y: -0.75d
+			id: "79E866F736ACC793"
+			tasks: [{
+				id: "6C8B4A8070CD5A03"
+				type: "item"
+				item: "projecte:condenser_mk1"
+			}]
+		}
+		{
+			x: 3.75d
+			y: -0.75d
+			id: "0680D8A54CA010F1"
+			tasks: [{
+				id: "3E7526D870F2A1A0"
+				type: "item"
+				item: "projecte:condenser_mk2"
+			}]
+		}
+		{
+			x: -4.25d
+			y: 0.25d
+			id: "7DCDC1168F8A0BD0"
+			tasks: [{
+				id: "2C9A21F2522F2612"
+				type: "item"
+				item: "projecte:dm_pedestal"
+			}]
+		}
+		{
+			x: -3.25d
+			y: 0.25d
+			id: "42B943F933ACF9CB"
+			tasks: [{
+				id: "512A58DD3BC9CC26"
+				type: "item"
+				item: "projecte:dm_furnace"
+			}]
+		}
+		{
+			x: -2.25d
+			y: 0.25d
+			id: "62A3913AA7FF7B8E"
+			tasks: [{
+				id: "151D3351198D0DCD"
+				type: "item"
+				item: "projecte:rm_furnace"
+			}]
+		}
+		{
+			x: -1.25d
+			y: 0.25d
+			id: "28F5BDC86BAF6895"
+			tasks: [{
+				id: "2B25B7DB5371011B"
+				type: "item"
+				item: "projecte:dark_matter_block"
+			}]
+		}
+		{
+			x: -0.25d
+			y: 0.25d
+			id: "3247BFB5933EB97F"
+			tasks: [{
+				id: "22B215DC50D1FED5"
+				type: "item"
+				item: "projecte:red_matter_block"
+			}]
+		}
+		{
+			x: 0.75d
+			y: 0.25d
+			id: "7BC9244C4C491F21"
+			tasks: [{
+				id: "70A8D9A15C768419"
+				type: "item"
+				item: "projecte:interdiction_torch"
+			}]
+		}
+	]
+}

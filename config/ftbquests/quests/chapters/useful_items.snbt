@@ -1,7 +1,7 @@
 {
 	id: "05F7FCA81A7AC3EC"
 	group: ""
-	order_index: 10
+	order_index: 9
 	filename: "useful_items"
 	title: "Useful Items"
 	icon: {
@@ -341,6 +341,7 @@
 			x: 21.25d
 			y: 11.75d
 			shape: "rsquare"
+			dependencies: ["4055881864FF87C5"]
 			id: "71D5F6597073E0DF"
 			tasks: [{
 				id: "26EE6A09AB9E78F6"
@@ -1829,6 +1830,7 @@
 			dependencies: [
 				"576932BEEA63B919"
 				"59B336127CA627CD"
+				"109D647ED52D215D"
 			]
 			id: "54ECD5468EAC1B26"
 			tasks: [{
@@ -2046,6 +2048,7 @@
 				"0C4BB75A847B5143"
 				"07C51EEE022BF8A1"
 				"54ECD5468EAC1B26"
+				"509BB4FBE8A13799"
 			]
 			id: "61BD6F6549ABCE1D"
 			tasks: [{
@@ -2351,16 +2354,6 @@
 						Throttle: 1.0d
 					}
 				}
-			}]
-		}
-		{
-			title: "Mettre cristaux powah"
-			x: 28.75d
-			y: 20.5d
-			id: "117795A1C2C388CC"
-			tasks: [{
-				id: "0DF80884B4C90331"
-				type: "checkmark"
 			}]
 		}
 		{
@@ -2834,6 +2827,7 @@
 			x: 16.0d
 			y: 26.25d
 			shape: "diamond"
+			dependencies: ["44CC0C8D21ACB085"]
 			id: "15CD0545458B6513"
 			tasks: [{
 				id: "508A3940637D5BF5"
@@ -2845,6 +2839,7 @@
 			x: 16.5d
 			y: 26.75d
 			shape: "diamond"
+			dependencies: ["1E796A43D7E14A82"]
 			id: "6B12289F3D68A2C1"
 			tasks: [{
 				id: "690D7572810902CA"
@@ -2875,6 +2870,7 @@
 			x: 15.0d
 			y: 26.25d
 			shape: "diamond"
+			dependencies: ["3CE25095E2661776"]
 			id: "5175DE9956FEAE1D"
 			tasks: [{
 				id: "19F36712BE53EB5C"
@@ -2905,6 +2901,10 @@
 			x: 14.5d
 			y: 26.75d
 			shape: "diamond"
+			dependencies: [
+				"109D647ED52D215D"
+				"4A018BBC2F5AD675"
+			]
 			id: "659E0ADFDBC41623"
 			tasks: [{
 				id: "3515832DFED2DE70"
@@ -3200,6 +3200,7 @@
 				""
 				"The tug has an extra slot for a capacitor, this is useful if the tug ran out of energy mid-way and needs to be recharged."
 			]
+			dependencies: ["0AC2E1D9469B0B57"]
 			id: "17FA09C5EBA8FA12"
 			tasks: [{
 				id: "22D215327FE19025"
@@ -3216,6 +3217,7 @@
 				""
 				"Fuel can be loaded with hoppers placed on top of tug docks."
 			]
+			dependencies: ["4F0254EAFC83FA04"]
 			id: "72147CB81D9DB69A"
 			tasks: [{
 				id: "41A98E1275D8414D"
@@ -3228,6 +3230,8 @@
 			y: 26.0d
 			shape: "square"
 			description: ["Place under a block of water, works similar to vanilla powered rail. Can be used to force the tug to take a specific route. Does not affect barges. Shift-right-click to rotate."]
+			hide_dependency_lines: true
+			dependencies: ["572DE70FE0E80A42"]
 			id: "28C28E3705B41DB8"
 			tasks: [{
 				id: "59C97B8360FA7D7D"
@@ -3240,6 +3244,11 @@
 			y: 25.0d
 			shape: "square"
 			description: ["&bThe Tug Dock&r can only insert into the tug, place a hopper on top of the dock to extract. Shift right-click the tug dock to flip the dock direction."]
+			hide_dependency_lines: true
+			dependencies: [
+				"572DE70FE0E80A42"
+				"54DC8317D4B7A510"
+			]
 			id: "2976C8F71BD90A63"
 			tasks: [{
 				id: "5379C4D8E3AE005D"
@@ -3259,6 +3268,10 @@
 				""
 				"The nodes will be indicated with beams when the item is held in the main hand."
 			]
+			dependencies: [
+				"109D647ED52D215D"
+				"3441111B8198CC9D"
+			]
 			id: "0E99ED4A033B5BF3"
 			tasks: [{
 				id: "5726D2F19DA7618F"
@@ -3268,9 +3281,10 @@
 		}
 		{
 			x: 15.5d
-			y: 31.5d
+			y: 33.0d
 			shape: "square"
 			description: ["Emits a redstone signal when a vessel is within 3 blocks in a given direction. Needs a straight line of water."]
+			dependencies: ["572DE70FE0E80A42"]
 			id: "4E18D14B8B6F3A34"
 			tasks: [{
 				id: "7DFE51C82D947E9E"
@@ -3280,9 +3294,14 @@
 		}
 		{
 			x: 15.5d
-			y: 30.5d
+			y: 32.0d
 			shape: "square"
 			description: ["A charger for &bEnergy Rug&r, connect to any forge energy cable to add power to the charger. Place on top of a dock to charge the vessel when docking."]
+			dependencies: [
+				"0AC2E1D9469B0B57"
+				"3AC2609EA33632B8"
+				"0728FA0EBC3963BA"
+			]
 			id: "11B3FBEFCBA81B64"
 			tasks: [{
 				id: "2F54C3DADAEB9E42"
@@ -3292,13 +3311,14 @@
 		}
 		{
 			x: 14.5d
-			y: 31.5d
+			y: 33.0d
 			shape: "square"
 			description: [
 				"A hopper but for fluids, can import from the top and export from the sides."
 				"Can be loaded by right-clicking with buckets."
 				"Can be used to load/unload vessels using Docks."
 			]
+			dependencies: ["7CCCE060E49A883E"]
 			id: "0160BCBD25F5A54B"
 			tasks: [{
 				id: "41E5B3767A45AD75"
@@ -3308,7 +3328,7 @@
 		}
 		{
 			x: 16.5d
-			y: 31.5d
+			y: 33.0d
 			shape: "square"
 			description: [
 				"Assists vessels around sharp corners, should always be used on shard corners or near entrances to narrow waterways."
@@ -3317,6 +3337,7 @@
 				""
 				"Must not have a full solid block directly on top."
 			]
+			dependencies: ["572DE70FE0E80A42"]
 			id: "3C5F76E40FB21228"
 			tasks: [{
 				id: "014EC328D5F0CF8A"
@@ -3326,7 +3347,7 @@
 		}
 		{
 			x: 15.5d
-			y: 32.5d
+			y: 34.0d
 			shape: "square"
 			description: [
 				"Used to link &bVessels&r together."
@@ -3334,6 +3355,7 @@
 				"Right click vessels in order to create a \"Vesserl train\". A train can only have one tugboat and cannot have loops."
 				"Will break if vessels are more than 20 blocks apart."
 			]
+			dependencies: ["3441111B8198CC9D"]
 			id: "572DE70FE0E80A42"
 			tasks: [{
 				id: "16EDB82BAA34DCF5"
@@ -3350,6 +3372,11 @@
 			y: 26.0d
 			shape: "square"
 			description: ["&bThe Barge Docks&r can both output and input to/from the barges, shift-right click to switch the mode. Place a hopper underneath the barge's path to extract resources."]
+			hide_dependency_lines: true
+			dependencies: [
+				"572DE70FE0E80A42"
+				"54DC8317D4B7A510"
+			]
 			id: "5FC04EAB2C9A5BFF"
 			tasks: [{
 				id: "3011640F66D61C8F"
@@ -3362,6 +3389,10 @@
 			y: 25.0d
 			shape: "square"
 			description: ["Use this barge to transport fluids, can be loaded with a Fluid Hopper."]
+			dependencies: [
+				"0728FA0EBC3963BA"
+				"7CCCE060E49A883E"
+			]
 			id: "6886D58F0CDEDC40"
 			tasks: [{
 				id: "51E6FE475AD2C4FD"
@@ -3378,6 +3409,7 @@
 				""
 				"The barge must be docked and part of a tug-train to interface with hoppers."
 			]
+			dependencies: ["0728FA0EBC3963BA"]
 			id: "5ECD7092BD6D6CB8"
 			tasks: [{
 				id: "6A014D568253CA53"
@@ -3390,6 +3422,7 @@
 			y: 26.0d
 			shape: "square"
 			description: ["Nees to be in open water for nets to be deployed. Use on long routes in open oceans to avoir \"Shallow water\" and \"overfishing\" penalties."]
+			dependencies: ["0728FA0EBC3963BA"]
 			id: "48541A9AAB05258E"
 			tasks: [{
 				id: "47D57FDECDE333A8"
@@ -3403,11 +3436,358 @@
 			shape: "square"
 			subtitle: "Welcome on board Captain !"
 			description: ["A simple barge that seats one player."]
+			dependencies: ["0728FA0EBC3963BA"]
 			id: "1275849B6A9A4663"
 			tasks: [{
 				id: "69B893015E66FB4E"
 				type: "item"
 				item: "littlelogistics:seater_barge"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 31.0d
+			shape: "hexagon"
+			dependencies: ["54DC8317D4B7A510"]
+			id: "2D43FB509195BCA4"
+			tasks: [{
+				id: "0E9A5FFAE3B58945"
+				type: "item"
+				item: "wormhole:portal_frame"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 31.0d
+			shape: "hexagon"
+			dependencies: [
+				"2D43FB509195BCA4"
+				"3D3D8B33A6D7BE77"
+				"42B4D74321A27197"
+			]
+			id: "275F0E1A9C9B1899"
+			tasks: [{
+				id: "3BA0E918A52B8874"
+				type: "item"
+				item: {
+					id: "wormhole:portal_stabilizer"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: 30.0d
+			shape: "hexagon"
+			dependencies: [
+				"2B0269A10C4CCA04"
+				"489C740C46074BBD"
+			]
+			id: "6FAC177221C1194F"
+			tasks: [{
+				id: "3137772F79BFF68E"
+				type: "item"
+				item: {
+					id: "wormhole:basic_energy_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 14.5d
+			y: 30.0d
+			shape: "hexagon"
+			dependencies: ["6FAC177221C1194F"]
+			id: "33661D5C39C1EEB0"
+			tasks: [{
+				id: "2DEF554AF11903D4"
+				type: "item"
+				item: {
+					id: "wormhole:advanced_energy_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 16.5d
+			y: 30.0d
+			shape: "hexagon"
+			dependencies: [
+				"489C740C46074BBD"
+				"68CBC7E57700B6BE"
+				"3D3D8B33A6D7BE77"
+			]
+			id: "731167C7B277FDC3"
+			tasks: [{
+				id: "028DAFC5CD36FEE7"
+				type: "item"
+				item: {
+					id: "wormhole:basic_target_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 17.5d
+			y: 30.0d
+			shape: "hexagon"
+			dependencies: [
+				"731167C7B277FDC3"
+				"489C740C46074BBD"
+				"3D3D8B33A6D7BE77"
+				"058C53606A481B5A"
+			]
+			id: "7B4009295B3B1C49"
+			tasks: [{
+				id: "3F931F1E01979F72"
+				type: "item"
+				item: {
+					id: "wormhole:advanced_target_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 15.5d
+			y: 30.5d
+			shape: "hexagon"
+			dependencies: [
+				"54DC8317D4B7A510"
+				"109D647ED52D215D"
+				"68E7A3D70265EBF0"
+			]
+			id: "78E8021C1118D465"
+			tasks: [{
+				id: "5832A762A3325CB0"
+				type: "item"
+				item: {
+					id: "wormhole:coal_generator"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 16.5d
+			y: 31.0d
+			shape: "hexagon"
+			dependencies: [
+				"3D3D8B33A6D7BE77"
+				"109D647ED52D215D"
+				"54DC8317D4B7A510"
+				"68E7A3D70265EBF0"
+			]
+			id: "5E09238C6211D544"
+			tasks: [{
+				id: "7F4F786C4A0CA06B"
+				type: "item"
+				item: {
+					id: "wormhole:target_device"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 17.5d
+			y: 31.0d
+			shape: "hexagon"
+			dependencies: [
+				"5E09238C6211D544"
+				"54DC8317D4B7A510"
+				"5269FB3852203971"
+				"058C53606A481B5A"
+			]
+			id: "3D29B363627CFF2F"
+			tasks: [{
+				id: "097122B88553EBBF"
+				type: "item"
+				item: {
+					id: "wormhole:advanced_target_device"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: 6.25d
+			id: "003C667F315390DD"
+			tasks: [{
+				id: "4B1F01F298FEA8FB"
+				type: "item"
+				title: "Botany Pots"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "botanypots:botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:white_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:orange_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:magenta_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:light_blue_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:yellow_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:lime_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:pink_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:gray_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:light_gray_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:cyan_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:purple_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:blue_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:brown_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:green_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:red_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:black_botany_pot"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 16.0d
+			y: 6.25d
+			dependencies: [
+				"003C667F315390DD"
+				"380CF1D8364DD30D"
+			]
+			id: "4C66DC19783A95A1"
+			tasks: [{
+				id: "78A37160C0D75AC5"
+				type: "item"
+				title: "Hopper Botany Pots"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "botanypots:hopper_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:hopper_white_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:hopper_orange_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:hopper_magenta_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:hopper_light_blue_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:hopper_yellow_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:hopper_lime_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:hopper_pink_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:hopper_gray_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:hopper_light_gray_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:hopper_cyan_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:hopper_purple_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:hopper_blue_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:hopper_brown_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:hopper_green_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:hopper_red_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:hopper_black_botany_pot"
+								Count: 1b
+							}
+						]
+					}
+				}
 			}]
 		}
 	]

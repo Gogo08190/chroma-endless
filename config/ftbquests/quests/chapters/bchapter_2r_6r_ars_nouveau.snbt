@@ -1,0 +1,1058 @@
+{
+	id: "1E682597F30066ED"
+	group: "60C88776031840B1"
+	order_index: 2
+	filename: "bchapter_2r_6r_ars_nouveau"
+	title: "&bChapter 2&r &6-&r Ars Nouveau"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Mythical Spells"
+			x: -6.25d
+			y: 2.5d
+			shape: "square"
+			dependencies: [
+				"774870F62D6F3E8A"
+				"4AF2D320ACBA99E3"
+			]
+			optional: true
+			id: "1F811FEA2BA3BF40"
+			tasks: [
+				{
+					id: "5E529B8E7CD63120"
+					type: "item"
+					item: "ars_nouveau:glyph_blink"
+				}
+				{
+					id: "6189153DFCEC065B"
+					type: "item"
+					item: "ars_nouveau:glyph_orbit"
+				}
+				{
+					id: "5698355CCD843452"
+					type: "item"
+					item: "ars_nouveau:glyph_hex"
+				}
+				{
+					id: "17DB84CBAA71BC86"
+					type: "item"
+					item: "ars_nouveau:glyph_strength"
+				}
+				{
+					id: "13515AA72C080FA8"
+					type: "item"
+					item: "ars_nouveau:glyph_split"
+				}
+				{
+					id: "7A301EDCEF336A74"
+					type: "item"
+					item: "ars_nouveau:glyph_intangible"
+				}
+				{
+					id: "1D55EC96E05F48AB"
+					type: "item"
+					item: "ars_nouveau:glyph_homing_projectile"
+				}
+				{
+					id: "7F8F72DD90F72D1D"
+					type: "item"
+					item: "ars_nouveau:glyph_summon_decoy"
+				}
+				{
+					id: "55D419C322E46A80"
+					type: "item"
+					item: "ars_nouveau:glyph_wither"
+				}
+				{
+					id: "30A5453CE65C6BA3"
+					type: "item"
+					item: "ars_nouveau:glyph_lightning"
+				}
+				{
+					id: "2BC8E9BAC4982D96"
+					type: "item"
+					item: "ars_nouveau:glyph_fangs"
+				}
+				{
+					id: "01D5EB486758BC9A"
+					type: "item"
+					item: "ars_nouveau:glyph_summon_vex"
+				}
+				{
+					id: "6992DF0F2FE67BFE"
+					type: "item"
+					item: "ars_nouveau:glyph_glide"
+				}
+				{
+					id: "635A384B47F81DAC"
+					type: "item"
+					item: "ars_nouveau:glyph_linger"
+				}
+			]
+		}
+		{
+			x: -6.25d
+			y: 1.0d
+			subtitle: "The Finest and Best Clay"
+			dependencies: ["31936ED1790DA9BF"]
+			id: "4AF2D320ACBA99E3"
+			tasks: [{
+				id: "6858A1A4C3FC9222"
+				type: "item"
+				item: "ars_nouveau:mythical_clay"
+			}]
+		}
+		{
+			title: "Marvelous Spells"
+			x: -6.25d
+			y: -1.0d
+			shape: "square"
+			dependencies: ["31936ED1790DA9BF"]
+			optional: true
+			min_width: 250
+			id: "77D59BCA31512467"
+			tasks: [
+				{
+					id: "6B45885F3734E5B5"
+					type: "item"
+					item: "ars_nouveau:glyph_exchange"
+				}
+				{
+					id: "2BA7ADCA6EB4EA74"
+					type: "item"
+					item: "ars_nouveau:glyph_invisibility"
+				}
+				{
+					id: "1305F9F7C7711590"
+					type: "item"
+					item: "ars_nouveau:glyph_shield"
+				}
+				{
+					id: "41CDB41A0CE2A58C"
+					type: "item"
+					item: "ars_nouveau:glyph_fell"
+				}
+				{
+					id: "38335A14247AFCBA"
+					type: "item"
+					item: "ars_nouveau:glyph_slowfall"
+				}
+				{
+					id: "3EDF6A457D72269C"
+					type: "item"
+					item: "ars_nouveau:glyph_heal"
+				}
+				{
+					id: "59815A5C3EA775EB"
+					type: "item"
+					item: "ars_nouveau:glyph_smelt"
+				}
+				{
+					id: "351C9604ED0D5CC6"
+					type: "item"
+					item: "ars_nouveau:glyph_arc_projectile"
+				}
+				{
+					id: "286C0AAE9D3BB4AB"
+					type: "item"
+					item: "ars_nouveau:glyph_firework"
+				}
+				{
+					id: "2D556C74AB6A771E"
+					type: "item"
+					item: "ars_nouveau:glyph_duration_down"
+				}
+				{
+					id: "310AC9D8DF265EED"
+					type: "item"
+					item: "ars_nouveau:glyph_extract"
+				}
+				{
+					id: "3EBACA53BF99DA13"
+					type: "item"
+					item: "ars_nouveau:glyph_ender_inventory"
+				}
+				{
+					id: "61971F1299E0514D"
+					type: "item"
+					item: "ars_nouveau:glyph_extend_time"
+				}
+				{
+					id: "604F93AFF6014CDD"
+					type: "item"
+					item: "ars_nouveau:glyph_conjure_water"
+				}
+				{
+					id: "300B1B0CD6FC711A"
+					type: "item"
+					item: "ars_nouveau:glyph_explosion"
+				}
+				{
+					id: "00CA2C1EE4F94049"
+					type: "item"
+					item: "ars_nouveau:glyph_aoe"
+				}
+				{
+					id: "05F7F2DBA894DAEA"
+					type: "item"
+					item: "ars_nouveau:glyph_pierce"
+				}
+				{
+					id: "78FCACCCFF97E873"
+					type: "item"
+					item: "ars_nouveau:glyph_accelerate"
+				}
+				{
+					id: "0EAD1F0372F1370C"
+					type: "item"
+					item: "ars_nouveau:glyph_dampen"
+				}
+				{
+					id: "798B334421DA4E33"
+					type: "item"
+					item: "ars_nouveau:glyph_enderstorage_chest"
+				}
+				{
+					id: "748397AD9AD7CC7B"
+					type: "item"
+					item: "ars_nouveau:glyph_wind_shear"
+				}
+				{
+					id: "0A60D0C068B28069"
+					type: "item"
+					item: "ars_nouveau:glyph_cold_snap"
+				}
+				{
+					id: "2FB1D7A572F8B35E"
+					type: "item"
+					item: "ars_nouveau:glyph_gravity"
+				}
+				{
+					id: "66B100C4A849C9F3"
+					type: "item"
+					item: "ars_nouveau:glyph_flare"
+				}
+				{
+					id: "66F48A100668E9D5"
+					type: "item"
+					item: "ars_nouveau:glyph_enderstorage_tank"
+				}
+				{
+					id: "171B5396DD6EDA76"
+					type: "item"
+					item: "ars_nouveau:glyph_crush"
+				}
+				{
+					id: "3189898C141C6EE7"
+					type: "item"
+					item: "ars_nouveau:glyph_fortune"
+				}
+				{
+					id: "2E60AC17618630FC"
+					type: "item"
+					item: "ars_nouveau:glyph_grow"
+				}
+			]
+		}
+		{
+			x: -5.25d
+			y: 0.0d
+			subtitle: "A better Clay"
+			dependencies: ["36D7AB33ECC0C810"]
+			id: "31936ED1790DA9BF"
+			tasks: [{
+				id: "607CBCDF5D28777A"
+				type: "item"
+				item: "ars_nouveau:marvelous_clay"
+			}]
+		}
+		{
+			title: "No School Needed"
+			x: -3.75d
+			y: -1.0d
+			shape: "square"
+			dependencies: ["36D7AB33ECC0C810"]
+			optional: true
+			id: "4CDD605735DE26FD"
+			tasks: [
+				{
+					id: "0E1F79F28EE24D74"
+					type: "item"
+					item: "ars_nouveau:glyph_split"
+				}
+				{
+					id: "61D68FD8F53F1116"
+					type: "item"
+					item: "ars_nouveau:glyph_dampen"
+				}
+				{
+					id: "27190469F921493E"
+					type: "item"
+					item: "ars_nouveau:glyph_orbit"
+				}
+				{
+					id: "08B71B6F044E9A6B"
+					type: "item"
+					item: "ars_nouveau:glyph_accelerate"
+				}
+				{
+					id: "3DF7EC93FF82F667"
+					type: "item"
+					item: "ars_nouveau:glyph_touch"
+				}
+				{
+					id: "55A5C056690BF9CC"
+					type: "item"
+					item: "ars_nouveau:glyph_sensitive"
+				}
+				{
+					id: "0F407D38458FEE9F"
+					type: "item"
+					item: "ars_nouveau:glyph_extract"
+				}
+				{
+					id: "700BBD23C975A93C"
+					type: "item"
+					item: "ars_nouveau:glyph_duration_down"
+				}
+				{
+					id: "6D44374C07F23231"
+					type: "item"
+					item: "ars_nouveau:glyph_amplify"
+				}
+				{
+					id: "4E0B4847CF04C75E"
+					type: "item"
+					item: "ars_nouveau:glyph_underfoot"
+				}
+				{
+					id: "3F8EE5D552947B94"
+					type: "item"
+					item: "ars_nouveau:glyph_extend_time"
+				}
+				{
+					id: "5E880B1918CBB68E"
+					type: "item"
+					item: "ars_nouveau:glyph_pierce"
+				}
+				{
+					id: "6CAB1DF70E71BD36"
+					type: "item"
+					item: "ars_nouveau:glyph_fortune"
+				}
+				{
+					id: "4FEB7B3BF25DC215"
+					type: "item"
+					item: "ars_nouveau:glyph_homing_projectile"
+				}
+				{
+					id: "7D188E93DA02AD15"
+					type: "item"
+					item: "ars_nouveau:glyph_aoe"
+				}
+				{
+					id: "2F25C33E0823BE9C"
+					type: "item"
+					item: "ars_nouveau:glyph_arc_projectile"
+				}
+				{
+					id: "3546A28FFCC21B50"
+					type: "item"
+					item: "ars_nouveau:glyph_projectile"
+				}
+			]
+		}
+		{
+			title: "School Of Elements"
+			x: -2.75d
+			y: -1.0d
+			shape: "square"
+			dependencies: ["36D7AB33ECC0C810"]
+			optional: true
+			id: "58E84351890C0A94"
+			tasks: [
+				{
+					id: "2E6FE92F6C90A27E"
+					type: "item"
+					item: "ars_nouveau:glyph_haste"
+				}
+				{
+					id: "1F849909FD0DF2D9"
+					type: "item"
+					item: "ars_nouveau:glyph_break"
+				}
+				{
+					id: "100051D4C3D4A566"
+					type: "item"
+					item: "ars_nouveau:glyph_harvest"
+				}
+				{
+					id: "31D42D73FCC31412"
+					type: "item"
+					item: "ars_nouveau:glyph_gust"
+				}
+				{
+					id: "447E2D84B1836424"
+					type: "item"
+					item: "ars_nouveau:glyph_launch"
+				}
+				{
+					id: "278B3E5E78BF9122"
+					type: "item"
+					item: "ars_nouveau:glyph_pull"
+				}
+				{
+					id: "17C52AD078C64049"
+					type: "item"
+					item: "ars_nouveau:glyph_snare"
+				}
+				{
+					id: "277A16AEB5E3B831"
+					type: "item"
+					item: "ars_nouveau:glyph_freeze"
+				}
+				{
+					id: "564F0B3D1E523665"
+					type: "item"
+					item: "ars_nouveau:glyph_ignite"
+				}
+				{
+					id: "3B450BCF0A72FE3A"
+					type: "item"
+					item: "ars_nouveau:glyph_aquatic"
+				}
+				{
+					id: "11D305AE1114F671"
+					type: "item"
+					item: "ars_nouveau:glyph_conjure_terrain"
+				}
+				{
+					id: "1E951E3C2B8538AD"
+					type: "item"
+					item: "ars_nouveau:glyph_harm"
+				}
+			]
+		}
+		{
+			x: -3.25d
+			y: 0.0d
+			subtitle: "First Clay"
+			dependencies: ["2D280B19DAF910F3"]
+			id: "36D7AB33ECC0C810"
+			tasks: [{
+				id: "59967F2C7D7CC53F"
+				type: "item"
+				item: "ars_nouveau:magic_clay"
+			}]
+		}
+		{
+			title: "EnderChest School"
+			x: -3.75d
+			y: 1.0d
+			shape: "square"
+			dependencies: ["36D7AB33ECC0C810"]
+			optional: true
+			id: "3E32FA480007D4D3"
+			tasks: [
+				{
+					id: "22C577F09AED1004"
+					type: "item"
+					item: "ars_nouveau:glyph_color_orange"
+				}
+				{
+					id: "438EE1B0163E54BB"
+					type: "item"
+					item: "ars_nouveau:glyph_color_green"
+				}
+				{
+					id: "3E5A83CF954FBEBB"
+					type: "item"
+					item: "ars_nouveau:glyph_color_yellow"
+				}
+				{
+					id: "4CAD25BA401EEC3B"
+					type: "item"
+					item: "ars_nouveau:glyph_color_purple"
+				}
+				{
+					id: "760FAD788D9A3FCE"
+					type: "item"
+					item: "ars_nouveau:glyph_color_brown"
+				}
+				{
+					id: "09F98D053A789551"
+					type: "item"
+					item: "ars_nouveau:glyph_color_lime"
+				}
+				{
+					id: "0D614C3344B2FCC4"
+					type: "item"
+					item: "ars_nouveau:glyph_color_light_blue"
+				}
+				{
+					id: "6DB6A1987A7282C1"
+					type: "item"
+					item: "ars_nouveau:glyph_color_pink"
+				}
+				{
+					id: "15447BF63B287397"
+					type: "item"
+					item: "ars_nouveau:glyph_color_cyan"
+				}
+				{
+					id: "64F5A56D2708DEB1"
+					type: "item"
+					item: "ars_nouveau:glyph_color_black"
+				}
+				{
+					id: "1FB1C5EA8AD12440"
+					type: "item"
+					item: "ars_nouveau:glyph_color_white"
+				}
+				{
+					id: "213E7D9572095B02"
+					type: "item"
+					item: "ars_nouveau:glyph_color_red"
+				}
+				{
+					id: "322B6D12838C83C9"
+					type: "item"
+					item: "ars_nouveau:glyph_color_gray"
+				}
+				{
+					id: "75E165B176B2DED8"
+					type: "item"
+					item: "ars_nouveau:glyph_color_magenta"
+				}
+				{
+					id: "2BDA1C81D2851DFF"
+					type: "item"
+					item: "ars_nouveau:glyph_color_light_gray"
+				}
+				{
+					id: "4EDED06CD5E5D4EE"
+					type: "item"
+					item: "ars_nouveau:glyph_color_blue"
+				}
+				{
+					id: "576620FA28B33E91"
+					type: "item"
+					item: "ars_nouveau:glyph_enderstorage_place"
+				}
+				{
+					id: "0B32EF98B4A3D701"
+					type: "item"
+					item: "ars_nouveau:glyph_enderstorage_break"
+				}
+				{
+					id: "1858569EFD93C0E6"
+					type: "item"
+					item: "ars_nouveau:glyph_enderstorage_chest"
+				}
+				{
+					id: "48D2022B65AAD1F9"
+					type: "item"
+					item: "ars_nouveau:glyph_enderstorage_tank"
+				}
+			]
+		}
+		{
+			title: "School Of Manipulation"
+			x: -2.75d
+			y: 1.0d
+			shape: "square"
+			dependencies: ["36D7AB33ECC0C810"]
+			optional: true
+			id: "4E732C30E3322D12"
+			tasks: [
+				{
+					id: "03D81E003F7BBF46"
+					type: "item"
+					item: "ars_nouveau:glyph_delay"
+				}
+				{
+					id: "7D059E72268255C0"
+					type: "item"
+					item: "ars_nouveau:glyph_cut"
+				}
+				{
+					id: "2A26899727835AAD"
+					type: "item"
+					item: "ars_nouveau:glyph_evaporate"
+				}
+				{
+					id: "06136706E6F74AC6"
+					type: "item"
+					item: "ars_nouveau:glyph_pickup"
+				}
+				{
+					id: "08BE84396E07A1CB"
+					type: "item"
+					item: "ars_nouveau:glyph_toss"
+				}
+				{
+					id: "24859D486F0249E3"
+					type: "item"
+					item: "ars_nouveau:glyph_craft"
+				}
+				{
+					id: "5E0464D0A491763B"
+					type: "item"
+					item: "ars_nouveau:glyph_place_block"
+				}
+				{
+					id: "7F7467210040C056"
+					type: "item"
+					item: "ars_nouveau:glyph_rune"
+				}
+				{
+					id: "7EF6E8B58DB483C8"
+					type: "item"
+					item: "ars_nouveau:glyph_interact"
+				}
+				{
+					id: "0015A9DCE743EEE7"
+					type: "item"
+					item: "ars_nouveau:glyph_redstone_signal"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "A New Ore"
+			description: ["Through your adventure you may find some &5Arcane Ore&r."]
+			hide: false
+			size: 2.0d
+			id: "2D280B19DAF910F3"
+			tasks: [{
+				id: "229F9EECAB22D737"
+				type: "item"
+				title: "Source Gem"
+				icon: "emendatusenigmatica:arcane_gem"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "emendatusenigmatica:arcane_gem"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:mana_gem"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.75d
+			subtitle: "Your First Book"
+			description: ["Can cast Tier 1 glyphes or lower."]
+			dependencies: ["2D280B19DAF910F3"]
+			id: "45CDD9F70819E45A"
+			tasks: [{
+				id: "1B42EF52C608A096"
+				type: "item"
+				item: {
+					id: "ars_nouveau:novice_spell_book"
+					Count: 1b
+					tag: {
+						mode: 0
+						spells: ",touch,harm,break,self,projectile"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.25d
+			y: -2.75d
+			subtitle: "A Better Book"
+			description: ["Can cast Tier 2 glyphes or lower."]
+			dependencies: ["45CDD9F70819E45A"]
+			id: "63AF0CBC9A1F021F"
+			tasks: [{
+				id: "77D900E88DA798E7"
+				type: "item"
+				item: {
+					id: "ars_nouveau:apprentice_spell_book"
+					Count: 1b
+					tag: {
+						mode: 0
+						spells: ",touch,harm,break,self,projectile"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.0d
+			subtitle: "The Best Book"
+			description: ["Can cast Tier 3 glyphes or lower."]
+			dependencies: ["63AF0CBC9A1F021F"]
+			id: "23AB690BEFE535DF"
+			tasks: [{
+				id: "73206796D6505DB4"
+				type: "item"
+				item: {
+					id: "ars_nouveau:archmage_spell_book"
+					Count: 1b
+					tag: {
+						mode: 0
+						spells: ",touch,harm,break,self,projectile"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.25d
+			y: -1.25d
+			subtitle: "Ingame Wiki"
+			description: ["All informations about &5Ars Nouveau&r can be found in this book !"]
+			dependencies: ["2D280B19DAF910F3"]
+			id: "6B3064791F58A13C"
+			tasks: [{
+				id: "246A48055F0913AE"
+				type: "item"
+				item: "ars_nouveau:worn_notebook"
+			}]
+		}
+		{
+			title: "Generating Some Mana"
+			x: 5.7392857142856855d
+			y: -2.7380952380952195d
+			shape: "rsquare"
+			subtitle: "Generating Mana"
+			description: ["Multiple sources of &5Mana&r generation !"]
+			dependencies: ["2C180B990E4CCEC3"]
+			size: 2.0d
+			id: "2B073D5DCCB463A6"
+			tasks: [{
+				id: "5755A99F5F43CF78"
+				type: "checkmark"
+				title: "Mana Generated"
+			}]
+		}
+		{
+			x: 5.25d
+			y: -1.25d
+			shape: "rsquare"
+			subtitle: "Mana with Fuel"
+			description: [
+				"The Volcanic Sourcelink generates source by consuming burnable items. &5Archwood Logs&r will generate bonus mana, with &cBlazing Archwood&r generating the most. As the &6Volcanic Sourcelink&r procudes &2Source&r, it aslo produce &cHeat&r used for spawning Lava Lilies and converting stone into lava. The &6Volcanic Sourcelink&r automatically outputs the nearby jars, starting with the one closest to it."
+				"Nearby &cBlazing Archwood&r items will be burned up in exchange for a chunk of mana and a moderate amount of &cHeat&r. The &6Volcanic Sourcelink&r will also take items from surronding pedestals."
+			]
+			dependencies: ["2B073D5DCCB463A6"]
+			id: "5D56176F04A6033D"
+			tasks: [{
+				id: "736A56A05A7B8B36"
+				type: "item"
+				item: "ars_nouveau:volcanic_accumulator"
+			}]
+		}
+		{
+			x: 6.25d
+			y: -1.25d
+			shape: "rsquare"
+			subtitle: "Growing Mana Plants !"
+			description: ["The &6Agronomic Sourcelink&r generates source from nearby crop and tree growth. Bonus mana is generated for magical plants such as &2Mageblooms Source Berry Bushes&r, and &2Archwood Sapling&r. Source will be output from the &6Sourcelink&r to nearby jars within 5 blocks. "]
+			dependencies: ["2B073D5DCCB463A6"]
+			id: "7846EFEAC8899263"
+			tasks: [{
+				id: "0A1BCC0A5CE37B2B"
+				type: "item"
+				item: "ars_nouveau:mana_condenser"
+			}]
+		}
+		{
+			x: 7.25d
+			y: -1.25d
+			shape: "rsquare"
+			subtitle: "Mushrooms are good"
+			description: ["Generates a moderate amout of source from nearby food, generating more for more nourishing food. &2Source Berry&r food is worth far more than other mundane foods. Additionaly, the &6Mycelial Sourcelink&r will convert &2Grass&r or &cDirt&r in the 3x3 below it into &5Mycelium&r and will  gros mushrooms around it given that space is empty. The &6Sourcelink&r will also pull items from nearby pedestals."]
+			dependencies: ["2B073D5DCCB463A6"]
+			id: "694EF935182800E4"
+			tasks: [{
+				id: "7F265B63E37F0D81"
+				type: "item"
+				item: "ars_nouveau:mycelial_sourcelink"
+			}]
+		}
+		{
+			x: 7.25d
+			y: -2.25d
+			shape: "rsquare"
+			subtitle: "Life Draining Mana "
+			description: ["Generates a moderate amout of &5Mana&r from nearby mob death and animal breeding. Additionaly, the &6Vitalic Sourcelink&r will provide passive &5Mana&r from nearby baby animals and will accelerate their growth."]
+			dependencies: ["2B073D5DCCB463A6"]
+			id: "60540B4E2F1A4B4C"
+			tasks: [{
+				id: "19523E26A9C096A2"
+				type: "item"
+				item: "ars_nouveau:vitalic_sourcelink"
+			}]
+		}
+		{
+			x: 7.25d
+			y: -3.25d
+			shape: "rsquare"
+			subtitle: "Generating Mana With Potions"
+			description: ["Generates &5Mana&r by consuming potions from adjacent potion jars. The amout of &5Mana&r varies per potion and is dependent on the complexity of the potion. Bonus source is given for the length and level of the potion with multipliers for each effect a potion contains. Utilizing &#FF69B4Wixies&r and &5Potion Melders&r is recommanded for creating highly complex potions."]
+			dependencies: ["2B073D5DCCB463A6"]
+			id: "28F2DAA8953FA93D"
+			tasks: [{
+				id: "48F5296D4451B448"
+				type: "item"
+				item: "ars_nouveau:alchemical_sourcelink"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.75d
+			subtitle: "Linking Tool"
+			description: [
+				"A tool for confuring &5Source Relays&r and automation entities. To set a transfer path, use the wand of the object that you would like to take source from, and then use it on the block you would like to send source to. "
+				"For example : "
+				"&5Source Jar&r to &#FF69B4Source Relay&r,"
+				"&#FF69B4Source Relay&r to &#FF69B4Source Relay&r,"
+				"&#FF69B4Source Relay&r to &5Source Jar&r."
+				"To clear conenctions, sneak and use this wand on a &5relay&r."
+			]
+			dependencies: ["620AE64F27D7DC43"]
+			id: "63369166FED1B89E"
+			tasks: [{
+				id: "1F068526C6889BB7"
+				type: "item"
+				item: {
+					id: "ars_nouveau:dominion_wand"
+					Count: 1b
+					tag: {
+						en_id: -1
+					}
+				}
+			}]
+		}
+		{
+			x: 3.25d
+			y: 0.75d
+			subtitle: "Stocking Mana"
+			description: ["&#FF69B4Source Jars&r store source gathered from nearby &5Sourcelinks&r. &5Mana&r is used in glyphs and rituals by powering devices like the &5Glyph Press&r and &6Enchanting Apparatus&r. &5Mana&r may be moved using a bucket; or the jar can be picked up and moved. To use &5Mana&r in a jar, simply place the jar near your desired device. &#c69c6dSource Jars&r will provide a signal to Redstone Comparators&r based on their fill level."]
+			dependencies: ["2C180B990E4CCEC3"]
+			id: "620AE64F27D7DC43"
+			tasks: [{
+				id: "20D75F6AAAF3CA68"
+				type: "item"
+				item: "ars_nouveau:mana_jar"
+			}]
+		}
+		{
+			title: "Arcane Stone"
+			x: 1.75d
+			y: 0.75d
+			subtitle: "Crafting some Stones"
+			description: ["&5Arcane Stones&r are a usefull component that are going to be used for almost all crafts."]
+			dependencies: ["2D280B19DAF910F3"]
+			id: "2C180B990E4CCEC3"
+			tasks: [{
+				id: "02C011C10BB55339"
+				type: "item"
+				item: "ars_nouveau:arcane_stone"
+				count: 8L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.25d
+			subtitle: "Pressing Glyphes"
+			description: [
+				"Accessing new spells requires a special machine designed to convert items into glyphs. These glyphs can be used to unlock new spells in a spell book or may be used in special crafting recipes. Creating a Glyph will require a special form of magical clay, a reagent for the spell, and nearby source jar. To use the glyph press, first place your clay into the press."
+				"Then, use the reagent provided on the press. If there is enough source nearby, the press will begin crafting. &5Mana&r can be provided by a nearby &#c69c6dSource Jar&r. The glyph press may be automated using &eHoppers&r. A hopper from any side will place &bClay&r, while a hopper from the top can insert the reagant the clay. If there is enough source nearby, the crafting will start automatically."
+			]
+			dependencies: ["2C180B990E4CCEC3"]
+			id: "120CD537BDE5EAAD"
+			tasks: [{
+				id: "774870F62D6F3E8A"
+				type: "item"
+				item: "ars_nouveau:glyph_press"
+			}]
+		}
+		{
+			title: "Source Relays"
+			x: 4.25d
+			y: 2.25d
+			subtitle: "Relaying Mana Generation"
+			description: [
+				"What is a &#FF69B4Source Relay&r ?"
+				"Enables the transport of &5Mana&r between &#c69c6dSource Jars&r and other &#FF69B4Source Relays&r. To pull &5Mana&r source from jars, use the &6Dominion Wand&r on the jar, and then on the relay. To send between relay or from a relay to a jar, use the wand on the relay and then the target you wish to send &5Mana&r to. &#FF69B4Relays&r may only reach up to 30 blocks away. To clear connections, sneak while using the &6Dominion Wand&r on the relay."
+				""
+				"The &#FF69B4Source Relay: Depositor&r operates similar to the &#c69c6dSource Jar&r, but will deposit to jars it is not linked to within 5 blocks."
+				""
+				"The &#FF69B4Source Relay: Splitter&r operates similar to the &#FF69B4Source Relay&r, but will support taking from and transferring to multiple jars at once. The Splitter has a much larger through-put than the &#FF69B4Source Relay&r, and will split this through-put amongst all of its jars."
+				""
+				"The &#FF69B4Source Relay: Warper&r operates similar to the                       &#FF69B4Source Relay: Splitter&r, but can teleport source an endless distance between other &5Warp&r relays. For distances beyond 30 block, there is a chance that some source will be lost during warp."
+			]
+			dependencies: ["620AE64F27D7DC43"]
+			min_width: 350
+			id: "025EC5563C39255B"
+			tasks: [
+				{
+					id: "6E26C535D80AC0E8"
+					type: "item"
+					item: "ars_nouveau:relay_deposit"
+				}
+				{
+					id: "648FABF628A98FE2"
+					type: "item"
+					item: "ars_nouveau:relay_warp"
+				}
+				{
+					id: "118E290DB9E87C67"
+					type: "item"
+					item: "ars_nouveau:arcane_relay"
+				}
+				{
+					id: "436BEE28B72380FC"
+					type: "item"
+					item: "ars_nouveau:arcane_relay_splitter"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 6.0d
+			subtitle: "A new ingot"
+			description: ["When making &5Source Steel&r, you must inject netherite with source at the &6Enchanting Appartus&r."]
+			dependencies: ["0F5064AAAA97F693"]
+			id: "00E6F30F0B847212"
+			tasks: [{
+				id: "5734534A9935DB35"
+				type: "item"
+				item: "arsarsenal:source_steel_ingot"
+			}]
+		}
+		{
+			title: "Enchanting Apparatus"
+			x: -0.5d
+			y: 4.25d
+			subtitle: "A New Way Of Crafting"
+			dependencies: ["2C180B990E4CCEC3"]
+			id: "0F5064AAAA97F693"
+			tasks: [
+				{
+					id: "64A2B77309B901B3"
+					type: "item"
+					item: "ars_nouveau:arcane_pedestal"
+					count: 8L
+				}
+				{
+					id: "491BF431D406E9F8"
+					type: "item"
+					item: "ars_nouveau:arcane_core"
+				}
+				{
+					id: "3E2588B41345A10E"
+					type: "item"
+					item: "ars_nouveau:enchanting_apparatus"
+				}
+			]
+		}
+		{
+			title: "Automatic Compound Infuser I/O"
+			x: -1.75d
+			y: 4.0d
+			dependencies: ["0F5064AAAA97F693"]
+			id: "48EF750FBA9CEA27"
+			tasks: [
+				{
+					id: "14F3CBAEC4E0124B"
+					type: "item"
+					item: "masterfulmachinery:autoinfuser_compound_item_port_items_output"
+				}
+				{
+					id: "002863034917F19C"
+					type: "item"
+					item: "masterfulmachinery:autoinfuser_compound_fluid_port_fluids_input"
+				}
+				{
+					id: "71DC364ECA9D4292"
+					type: "item"
+					item: "masterfulmachinery:autoinfuser_compound_item_port_items_input"
+				}
+			]
+		}
+		{
+			x: -1.75d
+			y: 5.25d
+			subtitle: "Rituals! "
+			description: ["A brazier that may be used as decoration or for performing rituals. To light the brazier for decoration, cast a &l&nLight&r Spell on the brazier. The color of the brazier corresponds with the color of the spell. Applying a redstone signal will disable a running ritual. For information on performing rituals, see the dedicated section on rituals."]
+			dependencies: ["0F5064AAAA97F693"]
+			id: "2A2084F619A57295"
+			tasks: [{
+				id: "637AB1CA807ADF6B"
+				type: "item"
+				item: "ars_nouveau:ritual"
+			}]
+		}
+		{
+			x: 0.75d
+			y: 5.25d
+			dependencies: ["0F5064AAAA97F693"]
+			optional: true
+			id: "62342568F702D262"
+			tasks: [
+				{
+					id: "61882E5C872C3DAE"
+					type: "item"
+					item: "ars_nouveau:whelp_charm"
+				}
+				{
+					id: "35C44525053CCABA"
+					type: "item"
+					item: "ars_nouveau:carbuncle_charm"
+				}
+				{
+					id: "0E7411A89577AFC1"
+					type: "item"
+					item: "ars_nouveau:wixie_charm"
+				}
+				{
+					id: "034DDC6BA16C8A2F"
+					type: "item"
+					item: "ars_nouveau:sylph_charm"
+				}
+				{
+					id: "4AFAF53512FA9E7F"
+					type: "item"
+					item: "ars_nouveau:drygmy_charm"
+				}
+			]
+		}
+		{
+			x: 0.75d
+			y: 4.0d
+			subtitle: "Mixing Potions"
+			description: ["Converts 3 doses of a ption from 2 adjacents &#c69c6dPotion Jars&r, and outputs a single dose of mixed potion into a &#c69c6dPotion Jar&r beneath it. The &5Potion Melder&r requires &5Mana&r per mix."]
+			dependencies: ["0F5064AAAA97F693"]
+			id: "27434472ADF568A8"
+			tasks: [
+				{
+					id: "00FA21D8EE3AC3BC"
+					type: "item"
+					item: "ars_nouveau:potion_melder"
+				}
+				{
+					id: "05CFD5AD59129FBC"
+					type: "item"
+					item: "ars_nouveau:potion_jar"
+					count: 3L
+				}
+			]
+		}
+	]
+}

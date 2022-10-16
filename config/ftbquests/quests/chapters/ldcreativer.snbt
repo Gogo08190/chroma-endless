@@ -15,5 +15,442 @@
 	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: -8.5d
+			y: -4.0d
+			shape: "hexagon"
+			id: "772B01DD47F7EE43"
+			tasks: [{
+				id: "74EEAAA29D23C91D"
+				type: "item"
+				item: "ars_nouveau:creative_spell_book"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -3.25d
+			shape: "hexagon"
+			id: "1AB1D72DFF5591DE"
+			tasks: [{
+				id: "7CBFD59552DAC8E7"
+				type: "item"
+				item: "ars_nouveau:creative_mana_jar"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.0d
+			shape: "diamond"
+			id: "5F685F9D666F731D"
+			tasks: [{
+				id: "48F4346E5727530B"
+				type: "item"
+				item: {
+					id: "botania:mana_tablet"
+					Count: 1b
+					tag: {
+						mana: 500000
+						creative: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			shape: "diamond"
+			id: "1EE5AE3000515D01"
+			tasks: [{
+				id: "248F9F4BA859A5BA"
+				type: "item"
+				item: "kubejs:empty_creative_pool"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			shape: "diamond"
+			id: "181FAE81F9DD91B7"
+			tasks: [{
+				id: "1D0C857223CC099B"
+				type: "item"
+				item: "botanicalmachinery:mana_battery_creative"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -8.0d
+			shape: "diamond"
+			id: "577DDED53B7DD39E"
+			tasks: [{
+				id: "6911391AD43EB89F"
+				type: "item"
+				item: "create:creative_blaze_cake"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -7.0d
+			shape: "diamond"
+			id: "1BCA70DD05E08DD0"
+			tasks: [{
+				id: "5B6CB9F63C2CFCA9"
+				type: "item"
+				item: "create:creative_motor"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -4.25d
+			shape: "octagon"
+			id: "7B5CB225431EB55A"
+			tasks: [{
+				id: "0A5C3862CCCE7AFA"
+				type: "item"
+				item: "draconicevolution:creative_op_capacitor"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.25d
+			shape: "octagon"
+			id: "37234AB7F1F6C43A"
+			tasks: [{
+				id: "03E3A9B49F17214E"
+				type: "item"
+				item: {
+					id: "draconicevolution:creative_capacitor"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-504437168
+									-1441772408
+									-1091412500
+									-2057204297
+								]
+								modules: [ ]
+								properties: {
+									charge_main: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_armor: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -7.5d
+			shape: "diamond"
+			id: "687FE28F55C71241"
+			tasks: [{
+				id: "1B7A3AFC7D5804E0"
+				type: "item"
+				item: "elementalcraft:tank_creative"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -5.25d
+			shape: "hexagon"
+			id: "0D338117F43F66AB"
+			tasks: [{
+				id: "4896D444D8416D40"
+				type: "item"
+				item: "mekanism:creative_fluid_tank"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.25d
+			shape: "hexagon"
+			id: "35CE96B831D96522"
+			tasks: [{
+				id: "783C3B013AD3F1F9"
+				type: "item"
+				item: "mekanism:creative_chemical_tank"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.25d
+			shape: "hexagon"
+			id: "47597A83A1EA4679"
+			tasks: [{
+				id: "665EBA716B2F5561"
+				type: "item"
+				item: "pneumaticcraft:creative_compressor"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.25d
+			shape: "hexagon"
+			id: "22D0C5510E19515A"
+			tasks: [{
+				id: "6AA11424E93CC3B0"
+				type: "item"
+				item: "pneumaticcraft:creative_compressed_iron_block"
+			}]
+		}
+		{
+			x: 2.75d
+			y: -3.25d
+			shape: "hexagon"
+			id: "7D226B28CB70F45B"
+			tasks: [{
+				id: "7345BB8F029D60D3"
+				type: "item"
+				item: "refinedstorage:creative_controller"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.25d
+			shape: "hexagon"
+			id: "58758E8C0CB4D2C1"
+			tasks: [{
+				id: "4B6F971B40BCA8A6"
+				type: "item"
+				item: "storagedrawers:creative_vending_upgrade"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -7.5d
+			shape: "diamond"
+			id: "6D09EFE39B4E8EAA"
+			tasks: [{
+				id: "1F53ADB30E363BA1"
+				type: "item"
+				item: "tardis:artron_battery_creative"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -3.25d
+			shape: "hexagon"
+			id: "12231EBC7A007090"
+			tasks: [{
+				id: "5D47A20B175F218A"
+				type: "item"
+				item: "creativeapiary:tcreative_apiary"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -4.0d
+			shape: "hexagon"
+			id: "5A1790931D404AF2"
+			tasks: [{
+				id: "7DB5AF7D7506A5E4"
+				type: "item"
+				item: "creativeapiary:creative_apiary_storage"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -2.5d
+			shape: "hexagon"
+			id: "4C13D07EC0FA88E0"
+			tasks: [{
+				id: "4E03A34AB96C09C8"
+				type: "item"
+				item: "creativeapiary:creative_apiary_breeder"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -2.5d
+			shape: "hexagon"
+			id: "7E98AEA2445EF5CE"
+			tasks: [{
+				id: "52407FC9273E2491"
+				type: "item"
+				item: "ctiers:centrifuge_controller_tier_creative"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -3.25d
+			shape: "hexagon"
+			id: "53509E7E8123D87E"
+			tasks: [{
+				id: "5E5A0E2BD3A35D60"
+				type: "item"
+				item: "ctiers:centrifuge_casing_tier_creative"
+				count: 26L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.25d
+			shape: "hexagon"
+			id: "21E5D839E1064FE7"
+			tasks: [{
+				id: "7525076532D46AA9"
+				type: "item"
+				item: "storagedrawers:creative_storage_upgrade"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.25d
+			shape: "octagon"
+			id: "65BD23C098830370"
+			tasks: [{
+				id: "6B116527411A2465"
+				type: "item"
+				item: "powah:energy_cell_creative"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.25d
+			shape: "octagon"
+			id: "7C9C962507A58F89"
+			tasks: [{
+				id: "62BA6F1F93C860C1"
+				type: "item"
+				item: "thermal:machine_efficiency_creative_augment"
+			}]
+		}
+		{
+			x: 2.25d
+			y: -4.0d
+			shape: "hexagon"
+			id: "68C384AA26863659"
+			tasks: [{
+				id: "45C2E9B6DBA37D60"
+				type: "item"
+				item: "universalgrid:creative_wireless_universal_grid"
+			}]
+		}
+		{
+			x: 2.25d
+			y: -2.5d
+			shape: "hexagon"
+			id: "22B66AEE63E626D4"
+			tasks: [{
+				id: "3574A0F4E78052D6"
+				type: "item"
+				item: "refinedstorage:creative_fluid_storage_disk"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			shape: "hexagon"
+			id: "7D89D85758FDC059"
+			tasks: [{
+				id: "0021830FCDCA603B"
+				type: "item"
+				item: "refinedstorage:creative_storage_disk"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			shape: "diamond"
+			id: "13F76EDBED0BEF5D"
+			tasks: [{
+				id: "15078A3CB3D4D355"
+				type: "item"
+				item: "botania:creative_pool"
+			}]
+		}
+		{
+			x: -9.75d
+			y: -7.0d
+			shape: "octagon"
+			id: "3218C95F9BACEA1E"
+			tasks: [{
+				id: "571EDE212934917C"
+				type: "item"
+				item: {
+					id: "tconstruct:creative_slot"
+					Count: 1b
+					tag: {
+						slot: "abilities"
+					}
+				}
+			}]
+		}
+		{
+			x: -10.75d
+			y: -7.0d
+			shape: "octagon"
+			id: "36CE36C4C61E01EB"
+			tasks: [{
+				id: "496F1E3E6BE4526D"
+				type: "item"
+				item: {
+					id: "tconstruct:creative_slot"
+					Count: 1b
+					tag: {
+						slot: "upgrades"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.25d
+			shape: "hexagon"
+			id: "03095E3039A9E99D"
+			tasks: [{
+				id: "1001A3B28CA90011"
+				type: "item"
+				item: "refinedstorage:creative_fluid_storage_block"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			shape: "hexagon"
+			id: "186A77A8FF63A093"
+			tasks: [{
+				id: "31AF41E93355E26C"
+				type: "item"
+				item: "refinedstorage:creative_storage_block"
+			}]
+		}
+		{
+			x: -8.75d
+			y: -7.0d
+			shape: "octagon"
+			id: "0E686DA81A911AF4"
+			tasks: [{
+				id: "4E617314C809560D"
+				type: "item"
+				item: {
+					id: "tconstruct:creative_slot"
+					Count: 1b
+					tag: {
+						slot: "defense"
+					}
+				}
+			}]
+		}
+	]
 }

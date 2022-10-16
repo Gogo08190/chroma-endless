@@ -3,7 +3,7 @@
 	group: "248890104A858230"
 	order_index: 0
 	filename: "ch_2_rename"
-	title: "Chapter 1"
+	title: "&bChapter 1&r &6-&r Steel Age"
 	icon: {
 		id: "immersiveengineering:hammer"
 		Count: 1b
@@ -11,7 +11,6 @@
 			Damage: 0
 		}
 	}
-	subtitle: ["Immersive + Occultism"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [

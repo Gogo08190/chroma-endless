@@ -1260,8 +1260,19 @@
 			x: 9.5d
 			y: -5.75d
 			shape: "octagon"
+			subtitle: "Can't craft Tinker's Ingots"
+			description: [
+				"The &6Alloy Smelter&r can be upgraded ! "
+				""
+				"The first available upgrade is the &5Basic Capacitor&r, it reduces the cost of energy and the recipe duration by &n20%&r."
+				""
+				"The second upgrade is the &5Double-Layered Capacitor&r, it reduces the cost of energy and the recipe duration by &n35%&r."
+				""
+				"The third and final upgrade is the &5Octadic Capacitor&r, it reduces the cost of energy and the recipe duration by &n50%&r."
+			]
 			dependencies: ["3B8FE588BB137295"]
 			size: 1.5d
+			min_width: 250
 			id: "4E811B1DDCA7ACFE"
 			tasks: [{
 				id: "0192C68229054856"
@@ -1291,8 +1302,19 @@
 			x: 9.5d
 			y: 0.5d
 			shape: "octagon"
+			subtitle: "Slicing and Splicing"
+			description: [
+				"The &6Slice'N'Plice&r can be upgraded ! "
+				""
+				"The first available upgrade is the &5Basic Capacitor&r, it reduces the cost of energy and the recipe duration by &n20%&r."
+				""
+				"The second upgrade is the &5Double-Layered Capacitor&r, it reduces the cost of energy and the recipe duration by &n35%&r."
+				""
+				"The third and final upgrade is the &5Octadic Capacitor&r, it reduces the cost of energy and the recipe duration by &n50%&r."
+			]
 			dependencies: ["126F8199A5140A17"]
 			size: 1.5d
+			min_width: 250
 			id: "2B19363B609E6BF3"
 			tasks: [{
 				id: "37459F711636B88F"
@@ -1540,16 +1562,6 @@
 				id: "75FDDDBC3351D353"
 				type: "item"
 				item: "enderioalloys:item_material_skull_ender_resonator"
-			}]
-		}
-		{
-			x: 4.75d
-			y: 2.0d
-			id: "01947FD9C0E2783B"
-			tasks: [{
-				id: "1057E2C76DC74962"
-				type: "item"
-				item: "mekanism:ultimate_control_circuit"
 			}]
 		}
 		{

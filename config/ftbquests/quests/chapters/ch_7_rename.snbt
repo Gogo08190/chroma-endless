@@ -424,7 +424,7 @@
 		}
 		{
 			x: 1.0d
-			y: 5.75d
+			y: 5.5d
 			subtitle: "A ingot made for the Gods"
 			description: [
 				"To craft the &bCrystaltine Ingot&r you need to go through two important steps ! "
@@ -1522,6 +1522,14 @@
 			x: 1.0d
 			y: 1.75d
 			shape: "diamond"
+			dependencies: [
+				"47FB5940D83B6DF2"
+				"6556C41B660B08F6"
+				"414FB84D8E12D770"
+				"0623F7FAB4511760"
+				"68E7A3D70265EBF0"
+				"06010DF800031AA0"
+			]
 			id: "13B6CFCD31CA39EB"
 			tasks: [{
 				id: "3FCAA68DC755DF3B"
@@ -1530,19 +1538,113 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 0.25d
-			shape: "octagon"
-			dependencies: [
-				"522508C95BF66664"
-				"2451E767B2700F8B"
-			]
-			size: 1.5d
-			id: "50C64872CE0193E9"
+			x: -1.75d
+			y: 9.75d
+			shape: "diamond"
+			id: "6FD0CEB7984BDC32"
 			tasks: [{
-				id: "4A243E0BEA675BC9"
+				id: "3C9FC25987702329"
 				type: "item"
-				item: "miniutilities:angel_ring"
+				item: "kubejs:dark_ingot"
+			}]
+		}
+		{
+			x: -1.25d
+			y: 10.5d
+			shape: "diamond"
+			id: "5E2956AAA202B3EB"
+			tasks: [{
+				id: "51DAC04B2C7C2C2E"
+				type: "item"
+				item: "kubejs:red_ingot"
+			}]
+		}
+		{
+			x: -0.75d
+			y: 9.75d
+			shape: "diamond"
+			id: "37E0FFDCDEE5CE9F"
+			tasks: [{
+				id: "298BBD18F04B105A"
+				type: "item"
+				item: "kubejs:orange_ingot"
+			}]
+		}
+		{
+			x: -0.25d
+			y: 10.5d
+			shape: "diamond"
+			id: "6CDE073EC25AD7BF"
+			tasks: [{
+				id: "51CDD8D72F11429D"
+				type: "item"
+				item: "kubejs:purple_ingot"
+			}]
+		}
+		{
+			x: 2.25d
+			y: 10.5d
+			shape: "diamond"
+			id: "25C395671F61EDF4"
+			tasks: [{
+				id: "155A02C3C9851EE9"
+				type: "item"
+				item: "kubejs:pink_ingot"
+			}]
+		}
+		{
+			x: 2.75d
+			y: 9.75d
+			shape: "diamond"
+			id: "3668C2F51E001A14"
+			tasks: [{
+				id: "772A029993D600B7"
+				type: "item"
+				item: "kubejs:blue_ingot"
+			}]
+		}
+		{
+			x: 3.25d
+			y: 10.5d
+			shape: "diamond"
+			id: "57019AC4E2D9921B"
+			tasks: [{
+				id: "2242A9ADF0D38562"
+				type: "item"
+				item: "kubejs:green_ingot"
+			}]
+		}
+		{
+			x: 3.75d
+			y: 9.75d
+			shape: "diamond"
+			id: "4E0E9B614C5F5DFB"
+			tasks: [{
+				id: "412473A1E8E55CBE"
+				type: "item"
+				item: "kubejs:light_ingot"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 11.5d
+			shape: "gear"
+			dependencies: [
+				"4E0E9B614C5F5DFB"
+				"3668C2F51E001A14"
+				"57019AC4E2D9921B"
+				"25C395671F61EDF4"
+				"6CDE073EC25AD7BF"
+				"37E0FFDCDEE5CE9F"
+				"6FD0CEB7984BDC32"
+				"5E2956AAA202B3EB"
+			]
+			size: 2.0d
+			id: "52DF88FA64094131"
+			tasks: [{
+				id: "303E8E2C6CD50779"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_ingot"
 			}]
 		}
 	]

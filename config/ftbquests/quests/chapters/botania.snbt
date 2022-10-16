@@ -3,7 +3,7 @@
 	group: "60C88776031840B1"
 	order_index: 0
 	filename: "botania"
-	title: "Botania"
+	title: "&bChapter 1&r &6-&r Magic Botany"
 	icon: {
 		id: "botania:lexicon"
 		Count: 1b
@@ -1652,6 +1652,16 @@
 				id: "3807D60BAEB0F04C"
 				type: "item"
 				item: "botania:ender_air_bottle"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -0.75d
+			id: "53A398E54C8A19F8"
+			tasks: [{
+				id: "4378423A9915065B"
+				type: "item"
+				item: "kubejs:ultimate_rune"
 			}]
 		}
 	]
