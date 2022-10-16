@@ -2688,7 +2688,7 @@
 		}
 		{
 			x: 32.25d
-			y: 4.25d
+			y: 4.75d
 			hide_dependency_lines: true
 			dependencies: ["330130D7B723C1A9"]
 			optional: true
@@ -3015,6 +3015,18 @@
 				id: "6B9C8B7F517FE610"
 				type: "item"
 				item: "industrialforegoing:supreme_black_hole_tank"
+			}]
+		}
+		{
+			x: 32.25d
+			y: 3.75d
+			hide_dependency_lines: true
+			dependencies: ["146F580FDDB6FED3"]
+			id: "448F25B9DDE7F8E4"
+			tasks: [{
+				id: "182BD5D23FD2F23A"
+				type: "item"
+				item: "kubejs:silicon_oil_bucket"
 			}]
 		}
 	]

@@ -101,6 +101,7 @@
 		{
 			x: -0.25d
 			y: -2.75d
+			shape: "hexagon"
 			dependencies: [
 				"6F350477334C0544"
 				"3C77DBFB806317A9"
@@ -1060,8 +1061,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: -1.75d
+			x: -6.5d
+			y: -2.75d
 			description: ["&dThe Item Dislocator&r is a magnet with a range of 8 blocks."]
 			dependencies: ["6E050B72C6B8E358"]
 			id: "391AB68B6BC4A677"
@@ -1076,7 +1077,10 @@
 			y: -4.0d
 			description: ["&dThe Awakened Item Dislocator&r is an upgrade of the item dislocator with a range of 32 blocks."]
 			hide_dependency_lines: true
-			dependencies: ["391AB68B6BC4A677"]
+			dependencies: [
+				"391AB68B6BC4A677"
+				"4B1766B43273C192"
+			]
 			id: "52C4B36F2ECEEB0A"
 			tasks: [{
 				id: "244DF4AA7D873881"
@@ -1100,8 +1104,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: -2.75d
+			x: -7.5d
+			y: -1.75d
 			subtitle: "Whoosh !"
 			description: [
 				"&dThe Dislocator&r is used to teleport you."
@@ -1193,6 +1197,7 @@
 			title: "Draconic Energy Transportation"
 			x: -4.25d
 			y: -5.75d
+			shape: "hexagon"
 			description: [
 				"&dThe Draconic Energy Relay Crystal&r is used to make a relay between I/O Crystal and Energy Crystal, it can store 64M RF and has 32 links, and it has a range of 128 blocks."
 				""
@@ -1223,6 +1228,7 @@
 		{
 			x: -4.25d
 			y: -8.25d
+			shape: "hexagon"
 			description: [
 				"&dThe Basic Energy Relay Crystal &ris used to make a relay between I/O Crystal and Energy Crystal, it can store 4M RF and has 8 links, and has a range of 32 blocks."
 				""
@@ -1253,6 +1259,7 @@
 		{
 			x: -5.0d
 			y: -7.0d
+			shape: "hexagon"
 			description: [
 				"&dThe Wyvern Energy Relay Crystal&r is used to make a relay between I/O Crystal and Energy Crystal, It can store 16M RF and has 16 links, and it has a range of 64 blocks."
 				""
@@ -1299,6 +1306,7 @@
 		{
 			x: -2.0d
 			y: -7.0d
+			shape: "hexagon"
 			description: ["Generate energy from solid fuel."]
 			hide_dependency_lines: true
 			dependencies: ["180340AB4EC31ADC"]
@@ -1312,6 +1320,7 @@
 		{
 			x: -2.0d
 			y: 2.25d
+			shape: "rsquare"
 			subtitle: "KILLER 2000 !"
 			description: [
 				"&dThe Mob Grinder&r is used to kill mob with a powerful filter."
@@ -1334,6 +1343,7 @@
 		{
 			x: -3.0d
 			y: 3.25d
+			shape: "rsquare"
 			hide_dependency_lines: true
 			dependencies: ["180340AB4EC31ADC"]
 			id: "6FB9BE145BBBE3C2"
@@ -1951,7 +1961,11 @@
 				"• 36 Energy Core Stabilizer"
 			]
 			hide_dependency_lines: true
-			dependencies: ["40A58B7BA95C6FEA"]
+			dependencies: [
+				"40A58B7BA95C6FEA"
+				"0581F004215D7680"
+				"6F350477334C0544"
+			]
 			size: 2.0d
 			min_width: 400
 			id: "1F9B04D8190E9439"
@@ -1978,6 +1992,7 @@
 		{
 			x: -2.75d
 			y: -5.75d
+			shape: "hexagon"
 			dependencies: ["7240C479C13D75DB"]
 			id: "2A5940EAB5B8E3A4"
 			tasks: [{
@@ -1989,6 +2004,7 @@
 		{
 			x: -3.0d
 			y: 1.25d
+			shape: "rsquare"
 			hide_dependency_lines: true
 			dependencies: ["6FFCB22B7BE222E4"]
 			id: "5F5A359BA9212A2B"
@@ -2001,6 +2017,7 @@
 		{
 			x: -2.0d
 			y: 1.25d
+			shape: "rsquare"
 			hide_dependency_lines: true
 			dependencies: ["092891E48F64913A"]
 			id: "54EE09C1D305976A"
@@ -2013,6 +2030,7 @@
 		{
 			x: -4.0d
 			y: 2.25d
+			shape: "rsquare"
 			hide_dependency_lines: true
 			dependencies: ["180340AB4EC31ADC"]
 			id: "12426B987494AD7E"
@@ -2025,6 +2043,7 @@
 		{
 			x: -4.0d
 			y: 1.25d
+			shape: "rsquare"
 			hide_dependency_lines: true
 			dependencies: ["40A58B7BA95C6FEA"]
 			id: "384FC578046906D0"
@@ -2037,10 +2056,16 @@
 		{
 			title: "Draconic Reactor"
 			icon: "draconicevolution:reactor_core"
-			x: -2.75d
-			y: -8.25d
+			x: -2.25d
+			y: -8.5d
+			shape: "gear"
 			hide_dependency_lines: true
-			dependencies: ["13D4EFBF9D6020E0"]
+			dependencies: [
+				"13D4EFBF9D6020E0"
+				"4B1766B43273C192"
+				"0C33C381806BB2C1"
+			]
+			size: 1.3d
 			id: "5650F66F25DC9F77"
 			tasks: [
 				{
@@ -2064,6 +2089,7 @@
 		{
 			x: -2.0d
 			y: 3.25d
+			shape: "rsquare"
 			hide_dependency_lines: true
 			dependencies: ["180340AB4EC31ADC"]
 			id: "37D7E16719A06951"
@@ -2076,6 +2102,7 @@
 		{
 			x: -4.0d
 			y: 3.25d
+			shape: "rsquare"
 			hide_dependency_lines: true
 			dependencies: ["180340AB4EC31ADC"]
 			id: "6316ED8472238969"
@@ -2088,6 +2115,7 @@
 		{
 			x: -3.5d
 			y: -9.0d
+			shape: "hexagon"
 			description: ["&dThe Crystal Binder&r is used when linking Energy I/O Crystal."]
 			hide_dependency_lines: true
 			dependencies: ["180340AB4EC31ADC"]

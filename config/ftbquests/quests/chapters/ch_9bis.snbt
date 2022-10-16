@@ -1571,5 +1571,33 @@
 				item: "rftoolsbase:smartwrench"
 			}]
 		}
+		{
+			x: -1.5d
+			y: -6.75d
+			dependencies: [
+				"6792EC1B4CA2A2EA"
+				"335E059D1698372F"
+			]
+			id: "2E012C406BEC6CD7"
+			tasks: [{
+				id: "49D32A0C76778A3E"
+				type: "item"
+				item: "rftoolsbase:infused_enderpearl"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -6.75d
+			dependencies: [
+				"6792EC1B4CA2A2EA"
+				"335E059D1698372F"
+			]
+			id: "5E43D8523D2DF728"
+			tasks: [{
+				id: "324B4405F4182C96"
+				type: "item"
+				item: "rftoolsbase:infused_diamond"
+			}]
+		}
 	]
 }

@@ -4,17 +4,24 @@
 	order_index: 1
 	filename: "powah"
 	title: "Powah"
+	icon: {
+		id: "powah:battery_nitro"
+		Count: 1b
+		tag: { }
+	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -14.75d
-			y: -5.5d
+			x: -21.0d
+			y: -1.75d
+			shape: "hexagon"
 			description: ["&bThe Energy Cell &fis a block used to &6store energy (FE)&f."]
+			hide_dependency_lines: true
 			dependencies: [
-				"6521FD4200918689"
-				"5E57A07BE0464541"
 				"7F84739D2B32F4B2"
+				"40BF3EE3318C55B4"
+				"641BEA5DCB499C89"
 			]
 			id: "618E76E66210CFC0"
 			tasks: [{
@@ -24,13 +31,14 @@
 			}]
 		}
 		{
-			x: -10.75d
-			y: -5.5d
+			x: -14.25d
+			y: -1.75d
+			shape: "hexagon"
 			description: ["&bThe Energy Cell &fis a block used to &6store energy (FE)&f."]
+			hide_dependency_lines: true
 			dependencies: [
+				"40129BA102A1B0B3"
 				"763A0C0A6F308E5D"
-				"7735A69F14DA3E23"
-				"67B13386C5EA0302"
 			]
 			id: "6C516743C08AF40A"
 			tasks: [{
@@ -40,9 +48,15 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -5.5d
+			x: -7.5d
+			y: -1.75d
+			shape: "hexagon"
 			description: ["&bThe Energy Cell &fis a block used to &6store energy (FE)&f."]
+			hide_dependency_lines: true
+			dependencies: [
+				"09F8D23FB3250808"
+				"5444D07EC3245BB8"
+			]
 			id: "023CFEE7ED52B156"
 			tasks: [{
 				id: "37105BCA6CF5C6C2"
@@ -51,9 +65,15 @@
 			}]
 		}
 		{
-			x: -14.75d
-			y: 1.5d
+			x: -21.0d
+			y: 2.75d
+			shape: "hexagon"
 			description: ["&bThe Energy Cell &fis a block used to &6store energy (FE)&f."]
+			hide_dependency_lines: true
+			dependencies: [
+				"2532E79548B58213"
+				"5896C9C33F79614E"
+			]
 			id: "2F8C481AC1306B62"
 			tasks: [{
 				id: "0E32A406874477E3"
@@ -62,9 +82,15 @@
 			}]
 		}
 		{
-			x: -9.5d
-			y: 1.5d
+			x: -14.25d
+			y: 2.75d
+			shape: "hexagon"
 			description: ["&bThe Energy Cell &fis a block used to &6store energy (FE)&f."]
+			hide_dependency_lines: true
+			dependencies: [
+				"576932BEEA63B919"
+				"2A520FDAD9C61888"
+			]
 			id: "636B8D1AC1CA627F"
 			tasks: [{
 				id: "51FB333D35A157F2"
@@ -73,9 +99,15 @@
 			}]
 		}
 		{
-			x: -5.25d
-			y: 1.5d
+			x: -7.5d
+			y: 2.75d
+			shape: "hexagon"
 			description: ["&bThe Energy Cell &fis a block used to &6store energy (FE)&f."]
+			hide_dependency_lines: true
+			dependencies: [
+				"59B336127CA627CD"
+				"0DAB80BC67662FB0"
+			]
 			id: "4B4E270489DFE512"
 			tasks: [{
 				id: "6EFF1E9C9AB0567C"
@@ -84,14 +116,16 @@
 			}]
 		}
 		{
-			x: -13.75d
-			y: -1.5d
+			x: -19.5d
+			y: 0.5d
+			shape: "hexagon"
+			hide_dependency_lines: true
 			dependencies: [
+				"41408A17D409DA61"
+				"4ADD9913716BA3E2"
+				"40BF3EE3318C55B4"
 				"7F84739D2B32F4B2"
-				"3CFDFFBC9FC5B752"
-				"5E57A07BE0464541"
-				"5DF5855764B79656"
-				"5678E46EFCEF7DE2"
+				"30115FB202198BA8"
 			]
 			id: "7DDD14189F826E3D"
 			tasks: [{
@@ -101,14 +135,16 @@
 			}]
 		}
 		{
-			x: -9.75d
-			y: -1.5d
+			x: -12.75d
+			y: 0.5d
+			shape: "hexagon"
+			hide_dependency_lines: true
 			dependencies: [
+				"41408A17D409DA61"
+				"4ADD9913716BA3E2"
+				"40BF3EE3318C55B4"
 				"763A0C0A6F308E5D"
-				"330A4AFA9019A5B7"
-				"5678E46EFCEF7DE2"
-				"67B13386C5EA0302"
-				"3CFDFFBC9FC5B752"
+				"40129BA102A1B0B3"
 			]
 			id: "73F234838DB0F26F"
 			tasks: [{
@@ -119,7 +155,16 @@
 		}
 		{
 			x: -6.0d
-			y: -1.5d
+			y: 0.5d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"41408A17D409DA61"
+				"4ADD9913716BA3E2"
+				"40BF3EE3318C55B4"
+				"09F8D23FB3250808"
+				"5444D07EC3245BB8"
+			]
 			id: "7BBB77F3220A78F2"
 			tasks: [{
 				id: "7CF506764A86744C"
@@ -128,8 +173,17 @@
 			}]
 		}
 		{
-			x: -13.75d
-			y: 5.5d
+			x: -19.5d
+			y: 5.0d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"41408A17D409DA61"
+				"4ADD9913716BA3E2"
+				"40BF3EE3318C55B4"
+				"2532E79548B58213"
+				"5896C9C33F79614E"
+			]
 			id: "577E83010D622454"
 			tasks: [{
 				id: "441BD9D911E0079A"
@@ -138,8 +192,17 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 5.5d
+			x: -12.75d
+			y: 5.0d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"41408A17D409DA61"
+				"4ADD9913716BA3E2"
+				"40BF3EE3318C55B4"
+				"576932BEEA63B919"
+				"2A520FDAD9C61888"
+			]
 			id: "0F612EACB2C3144E"
 			tasks: [{
 				id: "7498B94C7011F29F"
@@ -148,8 +211,17 @@
 			}]
 		}
 		{
-			x: -4.25d
-			y: 5.5d
+			x: -6.0d
+			y: 5.0d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"41408A17D409DA61"
+				"4ADD9913716BA3E2"
+				"40BF3EE3318C55B4"
+				"59B336127CA627CD"
+				"0DAB80BC67662FB0"
+			]
 			id: "2AF43AC2B670B463"
 			tasks: [{
 				id: "52810D17B57E47B5"
@@ -158,13 +230,25 @@
 			}]
 		}
 		{
-			x: 2.25d
-			y: -0.75d
+			x: -13.75d
+			y: -5.25d
+			shape: "gear"
 			description: [
 				"&bThe Energizing Orb &fis a block used to energize items, require at least one &6Energizing Rod &fin range of 9X9 to work the energizing speed depends on amount of rods and the rod tier (I/O rate)."
 				""
 				"The orb does not require energy but the rods must be placed on cables or any &6Forge Energy (FE) &fblock to work."
 			]
+			dependencies: [
+				"445FDA407135DFE7"
+				"2911A1ABA35B09A4"
+				"40BF3EE3318C55B4"
+				"0E4A27067D64FFCE"
+				"4C32DDB98EFDC15A"
+				"2CDBBA552E150934"
+				"5830C8569392DC78"
+				"4AC1298723D8A89A"
+			]
+			size: 2.0d
 			id: "1D23D686D1A72DC6"
 			tasks: [{
 				id: "47ECB6DD5B2351AB"
@@ -173,17 +257,20 @@
 			}]
 		}
 		{
-			x: -14.75d
-			y: -1.5d
+			x: -20.0d
+			y: -0.25d
+			shape: "hexagon"
 			description: [
 				"The &bEnder Gate &ftransfers energy between the &6adjacent block &fand the &6ender network&f."
 				""
 				"Unlike the &6Ender cell &fyou can not Upgrade the network from it."
 			]
+			hide_dependency_lines: true
 			dependencies: [
+				"491873ED9FE9FD5D"
+				"46FBC0E73EDEE865"
+				"7B9FBBCD2F962A0B"
 				"7F84739D2B32F4B2"
-				"4B254A5D603FC0A6"
-				"13158CAD1203489C"
 			]
 			id: "3516DF7FE1749E74"
 			tasks: [{
@@ -193,18 +280,20 @@
 			}]
 		}
 		{
-			x: -10.75d
-			y: -1.5d
+			x: -13.25d
+			y: -0.25d
+			shape: "hexagon"
 			description: [
 				"The &bEnder Gate &ftransfers energy between the &6adjacent block &fand the &6ender network&f."
 				""
 				"Unlike the &6Ender cell &fyou can not Upgrade the network from it."
 			]
+			hide_dependency_lines: true
 			dependencies: [
+				"491873ED9FE9FD5D"
+				"46FBC0E73EDEE865"
+				"7B9FBBCD2F962A0B"
 				"763A0C0A6F308E5D"
-				"528CD9517F318099"
-				"4B254A5D603FC0A6"
-				"13158CAD1203489C"
 			]
 			id: "5476FA7BA74B8F11"
 			tasks: [{
@@ -214,12 +303,20 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -1.5d
+			x: -6.5d
+			y: -0.25d
+			shape: "hexagon"
 			description: [
 				"The &bEnder Gate &ftransfers energy between the &6adjacent block &fand the &6ender network&f."
 				""
 				"Unlike the &6Ender cell &fyou can not Upgrade the network from it."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"491873ED9FE9FD5D"
+				"46FBC0E73EDEE865"
+				"7B9FBBCD2F962A0B"
+				"5444D07EC3245BB8"
 			]
 			id: "257DBF7103AB1E2B"
 			tasks: [{
@@ -229,12 +326,20 @@
 			}]
 		}
 		{
-			x: -14.75d
-			y: 5.5d
+			x: -20.0d
+			y: 4.25d
+			shape: "hexagon"
 			description: [
 				"The &bEnder Gate &ftransfers energy between the &6adjacent block &fand the &6ender network&f."
 				""
 				"Unlike the &6Ender cell &fyou can not Upgrade the network from it."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"491873ED9FE9FD5D"
+				"46FBC0E73EDEE865"
+				"7B9FBBCD2F962A0B"
+				"5896C9C33F79614E"
 			]
 			id: "5DF02A8503FDBC50"
 			tasks: [{
@@ -244,12 +349,20 @@
 			}]
 		}
 		{
-			x: -9.5d
-			y: 5.5d
+			x: -13.25d
+			y: 4.25d
+			shape: "hexagon"
 			description: [
 				"The &bEnder Gate &ftransfers energy between the &6adjacent block &fand the &6ender network&f."
 				""
 				"Unlike the &6Ender cell &fyou can not Upgrade the network from it."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"491873ED9FE9FD5D"
+				"46FBC0E73EDEE865"
+				"7B9FBBCD2F962A0B"
+				"2A520FDAD9C61888"
 			]
 			id: "1CD10AED0FCD35BE"
 			tasks: [{
@@ -259,12 +372,20 @@
 			}]
 		}
 		{
-			x: -5.25d
-			y: 5.5d
+			x: -6.5d
+			y: 4.25d
+			shape: "hexagon"
 			description: [
 				"The &bEnder Gate &ftransfers energy between the &6adjacent block &fand the &6ender network&f."
 				""
 				"Unlike the &6Ender cell &fyou can not Upgrade the network from it."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"491873ED9FE9FD5D"
+				"46FBC0E73EDEE865"
+				"7B9FBBCD2F962A0B"
+				"0DAB80BC67662FB0"
 			]
 			id: "3A743E64F36093AF"
 			tasks: [{
@@ -274,17 +395,19 @@
 			}]
 		}
 		{
-			x: -13.75d
-			y: -2.5d
+			x: -21.5d
+			y: 0.5d
+			shape: "hexagon"
 			description: [
 				"&bCables &fare used to &6transfer power &fbetween machines."
 				""
 				"You can change &6transfer mode &fof by &6right-clicking &fa cable using &bWrench &fwith Config mode selected."
 			]
+			hide_dependency_lines: true
 			dependencies: [
+				"445FDA407135DFE7"
+				"3380D85F28C8B5EB"
 				"7F84739D2B32F4B2"
-				"5BFF945646CF0D3E"
-				"0CD35D525E63BFBA"
 			]
 			id: "0E7BB4A4775F331B"
 			tasks: [{
@@ -294,9 +417,15 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -2.5d
+			x: -8.0d
+			y: 0.5d
+			shape: "hexagon"
 			description: ["&bCables &fare used to &6transfer power &fbetween machines."]
+			hide_dependency_lines: true
+			dependencies: [
+				"445FDA407135DFE7"
+				"5444D07EC3245BB8"
+			]
 			id: "687262D72B92E8E4"
 			tasks: [{
 				id: "31287043B925EA3F"
@@ -305,13 +434,14 @@
 			}]
 		}
 		{
-			x: -9.75d
-			y: -2.5d
+			x: -14.75d
+			y: 0.5d
+			shape: "hexagon"
 			description: ["&bCables &fare used to &6transfer power &fbetween machines."]
+			hide_dependency_lines: true
 			dependencies: [
+				"445FDA407135DFE7"
 				"763A0C0A6F308E5D"
-				"1FDF8C9F0C2E22F5"
-				"5BFF945646CF0D3E"
 			]
 			id: "7E870E4452C9A2A2"
 			tasks: [{
@@ -321,9 +451,15 @@
 			}]
 		}
 		{
-			x: -13.75d
-			y: 4.5d
+			x: -21.5d
+			y: 5.0d
+			shape: "hexagon"
 			description: ["&bCables &fare used to &6transfer power &fbetween machines."]
+			hide_dependency_lines: true
+			dependencies: [
+				"445FDA407135DFE7"
+				"5896C9C33F79614E"
+			]
 			id: "69D3DC65DF0D8121"
 			tasks: [{
 				id: "733D8B6A131050B5"
@@ -332,9 +468,15 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 4.5d
+			x: -14.75d
+			y: 5.0d
+			shape: "hexagon"
 			description: ["&bCables &fare used to &6transfer power &fbetween machines."]
+			hide_dependency_lines: true
+			dependencies: [
+				"445FDA407135DFE7"
+				"2A520FDAD9C61888"
+			]
 			id: "46F4351EE97FAF6A"
 			tasks: [{
 				id: "523983A49AB66622"
@@ -343,9 +485,15 @@
 			}]
 		}
 		{
-			x: -4.25d
-			y: 4.5d
+			x: -8.0d
+			y: 5.0d
+			shape: "hexagon"
 			description: ["&bCables &fare used to &6transfer power &fbetween machines."]
+			hide_dependency_lines: true
+			dependencies: [
+				"445FDA407135DFE7"
+				"0DAB80BC67662FB0"
+			]
 			id: "6D31CE21DE0F5E6E"
 			tasks: [{
 				id: "25C00BBAE40BD6B1"
@@ -354,17 +502,19 @@
 			}]
 		}
 		{
-			x: -12.75d
-			y: -2.5d
+			x: -20.0d
+			y: -1.75d
+			shape: "hexagon"
 			description: [
 				"&bThe Ender Cell &fis a block used to &6store energy (FE) &fto a specific channel of the &6ender network &fof the owner."
 				""
 				"You can access the energy stored of a selected channel from anywhere in the world if the &bEnder Cell &fthat you want to transfer power from/to have an active channel with a valid capacity."
 			]
+			hide_dependency_lines: true
 			dependencies: [
+				"1F71F911773ED178"
+				"491873ED9FE9FD5D"
 				"7F84739D2B32F4B2"
-				"13158CAD1203489C"
-				"63E3CC8DDDEC0897"
 			]
 			id: "15FDBED548AE59B3"
 			tasks: [{
@@ -374,17 +524,19 @@
 			}]
 		}
 		{
-			x: -8.75d
-			y: -2.5d
+			x: -13.25d
+			y: -1.75d
+			shape: "hexagon"
 			description: [
 				"&bThe Ender Cell &fis a block used to &6store energy (FE) &fto a specific channel of the &6ender network &fof the owner."
 				""
 				"You can access the energy stored of a selected channel from anywhere in the world if the &bEnder Cell &fthat you want to transfer power from/to have an active channel with a valid capacity."
 			]
+			hide_dependency_lines: true
 			dependencies: [
+				"1F71F911773ED178"
+				"491873ED9FE9FD5D"
 				"763A0C0A6F308E5D"
-				"67B13386C5EA0302"
-				"2BA901508D98AA99"
 			]
 			id: "1D5579F14651B6E8"
 			tasks: [{
@@ -394,12 +546,19 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -2.5d
+			x: -6.5d
+			y: -1.75d
+			shape: "hexagon"
 			description: [
 				"&bThe Ender Cell &fis a block used to &6store energy (FE) &fto a specific channel of the &6ender network &fof the owner."
 				""
 				"You can access the energy stored of a selected channel from anywhere in the world if the &bEnder Cell &fthat you want to transfer power from/to have an active channel with a valid capacity."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"1F71F911773ED178"
+				"491873ED9FE9FD5D"
+				"5444D07EC3245BB8"
 			]
 			id: "2F5F4B6833DCE32F"
 			tasks: [{
@@ -409,12 +568,19 @@
 			}]
 		}
 		{
-			x: -12.75d
-			y: 4.5d
+			x: -20.0d
+			y: 2.75d
+			shape: "hexagon"
 			description: [
 				"&bThe Ender Cell &fis a block used to &6store energy (FE) &fto a specific channel of the &6ender network &fof the owner."
 				""
 				"You can access the energy stored of a selected channel from anywhere in the world if the &bEnder Cell &fthat you want to transfer power from/to have an active channel with a valid capacity."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"1F71F911773ED178"
+				"491873ED9FE9FD5D"
+				"5896C9C33F79614E"
 			]
 			id: "5E6FA152ECB76B5C"
 			tasks: [{
@@ -424,12 +590,19 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: 4.5d
+			x: -13.25d
+			y: 2.75d
+			shape: "hexagon"
 			description: [
 				"&bThe Ender Cell &fis a block used to &6store energy (FE) &fto a specific channel of the &6ender network &fof the owner."
 				""
 				"You can access the energy stored of a selected channel from anywhere in the world if the &bEnder Cell &fthat you want to transfer power from/to have an active channel with a valid capacity."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"1F71F911773ED178"
+				"491873ED9FE9FD5D"
+				"2A520FDAD9C61888"
 			]
 			id: "00C750FEFB4F8099"
 			tasks: [{
@@ -439,12 +612,19 @@
 			}]
 		}
 		{
-			x: -3.25d
-			y: 4.5d
+			x: -6.5d
+			y: 2.75d
+			shape: "hexagon"
 			description: [
 				"&bThe Ender Cell &fis a block used to &6store energy (FE) &fto a specific channel of the &6ender network &fof the owner."
 				""
 				"You can access the energy stored of a selected channel from anywhere in the world if the &bEnder Cell &fthat you want to transfer power from/to have an active channel with a valid capacity."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"1F71F911773ED178"
+				"491873ED9FE9FD5D"
+				"0DAB80BC67662FB0"
 			]
 			id: "72B785772BE01174"
 			tasks: [{
@@ -454,14 +634,16 @@
 			}]
 		}
 		{
-			x: -14.75d
-			y: -2.5d
+			x: -19.5d
+			y: -1.0d
+			shape: "hexagon"
 			description: ["&bThe Furnator&f is a &6FE generator &fthat generates energy from &6solid Furnace fuel &f like coal, wood..."]
+			hide_dependency_lines: true
 			dependencies: [
+				"40BF3EE3318C55B4"
+				"4F0254EAFC83FA04"
+				"3380D85F28C8B5EB"
 				"7F84739D2B32F4B2"
-				"5E57A07BE0464541"
-				"0CD35D525E63BFBA"
-				"53D2002D3312DB33"
 			]
 			id: "29F068A61ABE856F"
 			tasks: [{
@@ -471,14 +653,16 @@
 			}]
 		}
 		{
-			x: -10.75d
-			y: -2.5d
+			x: -12.75d
+			y: -1.0d
+			shape: "hexagon"
 			description: ["&bThe Furnator&f is a &6FE generator &fthat generates energy from &6solid Furnace fuel &f like coal, wood..."]
+			hide_dependency_lines: true
 			dependencies: [
+				"40BF3EE3318C55B4"
+				"4F0254EAFC83FA04"
+				"3380D85F28C8B5EB"
 				"763A0C0A6F308E5D"
-				"5E57A07BE0464541"
-				"0CD35D525E63BFBA"
-				"53D2002D3312DB33"
 			]
 			id: "7BCD4E0E7253E6C3"
 			tasks: [{
@@ -488,9 +672,17 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -2.5d
+			x: -6.0d
+			y: -1.0d
+			shape: "hexagon"
 			description: ["&bThe Furnator&f is a &6FE generator &fthat generates energy from &6solid Furnace fuel &f like coal, wood..."]
+			hide_dependency_lines: true
+			dependencies: [
+				"40BF3EE3318C55B4"
+				"4F0254EAFC83FA04"
+				"3380D85F28C8B5EB"
+				"5444D07EC3245BB8"
+			]
 			id: "301797B9B8D237C4"
 			tasks: [{
 				id: "06612FBE7546F8BF"
@@ -499,9 +691,17 @@
 			}]
 		}
 		{
-			x: -14.75d
-			y: 4.5d
+			x: -19.5d
+			y: 3.5d
+			shape: "hexagon"
 			description: ["&bThe Furnator&f is a &6FE generator &fthat generates energy from &6solid Furnace fuel &f like coal, wood..."]
+			hide_dependency_lines: true
+			dependencies: [
+				"40BF3EE3318C55B4"
+				"4F0254EAFC83FA04"
+				"3380D85F28C8B5EB"
+				"5896C9C33F79614E"
+			]
 			id: "5991CA0CEB193479"
 			tasks: [{
 				id: "2E4C659FD6B4A212"
@@ -510,9 +710,17 @@
 			}]
 		}
 		{
-			x: -9.5d
-			y: 4.5d
+			x: -12.75d
+			y: 3.5d
+			shape: "hexagon"
 			description: ["&bThe Furnator&f is a &6FE generator &fthat generates energy from &6solid Furnace fuel &f like coal, wood..."]
+			hide_dependency_lines: true
+			dependencies: [
+				"40BF3EE3318C55B4"
+				"4F0254EAFC83FA04"
+				"3380D85F28C8B5EB"
+				"2A520FDAD9C61888"
+			]
 			id: "6FDD3E6D11AC88E6"
 			tasks: [{
 				id: "79095D6D4066B8CE"
@@ -521,9 +729,17 @@
 			}]
 		}
 		{
-			x: -5.25d
-			y: 4.5d
+			x: -6.0d
+			y: 3.5d
+			shape: "hexagon"
 			description: ["&bThe Furnator&f is a &6FE generator &fthat generates energy from &6solid Furnace fuel &f like coal, wood..."]
+			hide_dependency_lines: true
+			dependencies: [
+				"40BF3EE3318C55B4"
+				"4F0254EAFC83FA04"
+				"3380D85F28C8B5EB"
+				"0DAB80BC67662FB0"
+			]
 			id: "70984CB7D5157684"
 			tasks: [{
 				id: "3FF0EDAAA8C7D994"
@@ -532,15 +748,18 @@
 			}]
 		}
 		{
-			x: -14.75d
-			y: -3.5d
+			x: -21.5d
+			y: -1.0d
+			shape: "hexagon"
 			description: ["&bThe Magmator &fis a &6FE generator &fthat generates energy from &6high temp fluid &flike Lava."]
+			hide_dependency_lines: true
 			dependencies: [
-				"0CD35D525E63BFBA"
+				"40BF3EE3318C55B4"
+				"4EFBF89BA702CF28"
+				"625D10DD8943384A"
+				"3380D85F28C8B5EB"
+				"0E7BB4A4775F331B"
 				"7F84739D2B32F4B2"
-				"5E57A07BE0464541"
-				"4389A6321D4B143F"
-				"6487609623A9AE22"
 			]
 			id: "31A1AB599F484638"
 			tasks: [{
@@ -550,16 +769,18 @@
 			}]
 		}
 		{
-			x: -10.75d
-			y: -3.5d
+			x: -14.75d
+			y: -1.0d
+			shape: "hexagon"
 			description: ["&bThe Magmator &fis a &6FE generator &fthat generates energy from &6high temp fluid &flike Lava."]
+			hide_dependency_lines: true
 			dependencies: [
+				"40BF3EE3318C55B4"
+				"4EFBF89BA702CF28"
+				"625D10DD8943384A"
+				"3380D85F28C8B5EB"
+				"7E870E4452C9A2A2"
 				"763A0C0A6F308E5D"
-				"4389A6321D4B143F"
-				"0CD35D525E63BFBA"
-				"5E57A07BE0464541"
-				"416935BA859C1E74"
-				"6487609623A9AE22"
 			]
 			id: "19F24A5DB9A302F2"
 			tasks: [{
@@ -569,9 +790,19 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -3.5d
+			x: -8.0d
+			y: -1.0d
+			shape: "hexagon"
 			description: ["&bThe Magmator &fis a &6FE generator &fthat generates energy from &6high temp fluid &flike Lava."]
+			hide_dependency_lines: true
+			dependencies: [
+				"40BF3EE3318C55B4"
+				"4EFBF89BA702CF28"
+				"625D10DD8943384A"
+				"3380D85F28C8B5EB"
+				"687262D72B92E8E4"
+				"5444D07EC3245BB8"
+			]
 			id: "1BFBD37FEE24D481"
 			tasks: [{
 				id: "45EE0A5343DC36F8"
@@ -580,9 +811,19 @@
 			}]
 		}
 		{
-			x: -14.75d
+			x: -21.5d
 			y: 3.5d
+			shape: "hexagon"
 			description: ["&bThe Magmator &fis a &6FE generator &fthat generates energy from &6high temp fluid &flike Lava."]
+			hide_dependency_lines: true
+			dependencies: [
+				"40BF3EE3318C55B4"
+				"4EFBF89BA702CF28"
+				"625D10DD8943384A"
+				"3380D85F28C8B5EB"
+				"69D3DC65DF0D8121"
+				"5896C9C33F79614E"
+			]
 			id: "3BCA1223C7504E97"
 			tasks: [{
 				id: "5B26B1A19CEBD350"
@@ -591,9 +832,19 @@
 			}]
 		}
 		{
-			x: -9.5d
+			x: -14.75d
 			y: 3.5d
+			shape: "hexagon"
 			description: ["&bThe Magmator &fis a &6FE generator &fthat generates energy from &6high temp fluid &flike Lava."]
+			hide_dependency_lines: true
+			dependencies: [
+				"40BF3EE3318C55B4"
+				"4EFBF89BA702CF28"
+				"625D10DD8943384A"
+				"3380D85F28C8B5EB"
+				"46F4351EE97FAF6A"
+				"2A520FDAD9C61888"
+			]
 			id: "67B1DE171838F2AE"
 			tasks: [{
 				id: "4BCF349ACAF5CE04"
@@ -602,9 +853,19 @@
 			}]
 		}
 		{
-			x: -5.25d
+			x: -8.0d
 			y: 3.5d
+			shape: "hexagon"
 			description: ["&bThe Magmator &fis a &6FE generator &fthat generates energy from &6high temp fluid &flike Lava."]
+			hide_dependency_lines: true
+			dependencies: [
+				"40BF3EE3318C55B4"
+				"4EFBF89BA702CF28"
+				"625D10DD8943384A"
+				"3380D85F28C8B5EB"
+				"6D31CE21DE0F5E6E"
+				"0DAB80BC67662FB0"
+			]
 			id: "4BBBCC7BC49CA7DF"
 			tasks: [{
 				id: "2B9ED97E8EC675E1"
@@ -613,15 +874,17 @@
 			}]
 		}
 		{
-			x: -13.75d
-			y: -4.5d
+			x: -18.5d
+			y: -1.0d
+			shape: "hexagon"
 			description: ["&bThe Thermo Generator &fis a &68FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			hide_dependency_lines: true
 			dependencies: [
-				"53F8625897311920"
+				"40BF3EE3318C55B4"
+				"4C7E009F56E15106"
+				"531AF03ED27571D3"
 				"7F84739D2B32F4B2"
-				"2C6052D07A87E785"
-				"5E57A07BE0464541"
-				"73E8B8A555B9C63E"
+				"31A1AB599F484638"
 			]
 			id: "57874F8CD7F4971B"
 			tasks: [{
@@ -631,15 +894,17 @@
 			}]
 		}
 		{
-			x: -9.75d
-			y: -4.5d
+			x: -11.75d
+			y: -1.0d
+			shape: "hexagon"
 			description: ["&bThe Thermo Generator &fis a &68FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			hide_dependency_lines: true
 			dependencies: [
+				"40BF3EE3318C55B4"
+				"4C7E009F56E15106"
+				"531AF03ED27571D3"
 				"763A0C0A6F308E5D"
-				"1C3826A96C3CF915"
-				"73E8B8A555B9C63E"
-				"5E57A07BE0464541"
-				"2C6052D07A87E785"
+				"19F24A5DB9A302F2"
 			]
 			id: "3C25E0BF9D6D366C"
 			tasks: [{
@@ -649,9 +914,18 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -4.5d
+			x: -5.0d
+			y: -1.0d
+			shape: "hexagon"
 			description: ["&bThe Thermo Generator &fis a &68FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			hide_dependency_lines: true
+			dependencies: [
+				"40BF3EE3318C55B4"
+				"4C7E009F56E15106"
+				"531AF03ED27571D3"
+				"5444D07EC3245BB8"
+				"1BFBD37FEE24D481"
+			]
 			id: "0AD5F92B0C52D9CA"
 			tasks: [{
 				id: "384076A4D9066BD5"
@@ -660,9 +934,18 @@
 			}]
 		}
 		{
-			x: -13.75d
-			y: 2.5d
+			x: -18.5d
+			y: 3.5d
+			shape: "hexagon"
 			description: ["&bThe Thermo Generator &fis a &68FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			hide_dependency_lines: true
+			dependencies: [
+				"40BF3EE3318C55B4"
+				"4C7E009F56E15106"
+				"531AF03ED27571D3"
+				"5896C9C33F79614E"
+				"3BCA1223C7504E97"
+			]
 			id: "1B04290E42399BA0"
 			tasks: [{
 				id: "3EAE1C2C6DD840F6"
@@ -671,9 +954,18 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 2.5d
+			x: -11.75d
+			y: 3.5d
+			shape: "hexagon"
 			description: ["&bThe Thermo Generator &fis a &68FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			hide_dependency_lines: true
+			dependencies: [
+				"40BF3EE3318C55B4"
+				"4C7E009F56E15106"
+				"531AF03ED27571D3"
+				"2A520FDAD9C61888"
+				"67B1DE171838F2AE"
+			]
 			id: "6706AD3C3820D4DD"
 			tasks: [{
 				id: "66602FE1F1EDCECA"
@@ -682,9 +974,18 @@
 			}]
 		}
 		{
-			x: -4.25d
-			y: 2.5d
+			x: -5.0d
+			y: 3.5d
+			shape: "hexagon"
 			description: ["&bThe Thermo Generator &fis a &68FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			hide_dependency_lines: true
+			dependencies: [
+				"40BF3EE3318C55B4"
+				"4C7E009F56E15106"
+				"531AF03ED27571D3"
+				"0DAB80BC67662FB0"
+				"4BBBCC7BC49CA7DF"
+			]
 			id: "0FDDB42FE77C5CE6"
 			tasks: [{
 				id: "5AF2241BF6107876"
@@ -693,14 +994,16 @@
 			}]
 		}
 		{
-			x: -12.75d
-			y: -3.5d
+			x: -19.0d
+			y: -0.25d
+			shape: "hexagon"
 			description: ["&bThe Solar Panel &fis an &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
+			hide_dependency_lines: true
 			dependencies: [
+				"40BF3EE3318C55B4"
 				"7F84739D2B32F4B2"
-				"0CD35D525E63BFBA"
-				"5E57A07BE0464541"
-				"2B93C0151986801E"
+				"6CB95C8CABA5E2B4"
+				"3380D85F28C8B5EB"
 			]
 			id: "47CB001EBAA0BB0E"
 			tasks: [{
@@ -710,13 +1013,15 @@
 			}]
 		}
 		{
-			x: -8.75d
-			y: -3.5d
+			x: -12.25d
+			y: -0.25d
+			shape: "hexagon"
 			description: ["&bThe Solar Panel &fis an &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
+			hide_dependency_lines: true
 			dependencies: [
+				"47CB001EBAA0BB0E"
+				"40129BA102A1B0B3"
 				"763A0C0A6F308E5D"
-				"4EFBDB2973291D04"
-				"67B13386C5EA0302"
 			]
 			id: "18D374ACE57BB341"
 			tasks: [{
@@ -726,9 +1031,16 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -3.5d
+			x: -5.5d
+			y: -0.25d
+			shape: "hexagon"
 			description: ["&bThe Solar Panel &fis an &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
+			hide_dependency_lines: true
+			dependencies: [
+				"47CB001EBAA0BB0E"
+				"09F8D23FB3250808"
+				"5444D07EC3245BB8"
+			]
 			id: "2BFCB7DAE41C475C"
 			tasks: [{
 				id: "1B88655A1ACAA656"
@@ -737,9 +1049,16 @@
 			}]
 		}
 		{
-			x: -12.75d
-			y: 3.5d
+			x: -19.0d
+			y: 4.25d
+			shape: "hexagon"
 			description: ["&bThe Solar Panel &fis an &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
+			hide_dependency_lines: true
+			dependencies: [
+				"5896C9C33F79614E"
+				"2532E79548B58213"
+				"47CB001EBAA0BB0E"
+			]
 			id: "702B0D61B8D70064"
 			tasks: [{
 				id: "158D43FF1F642BC9"
@@ -748,9 +1067,16 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: 3.5d
+			x: -12.25d
+			y: 4.25d
+			shape: "hexagon"
 			description: ["&bThe Solar Panel &fis an &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
+			hide_dependency_lines: true
+			dependencies: [
+				"47CB001EBAA0BB0E"
+				"576932BEEA63B919"
+				"2A520FDAD9C61888"
+			]
 			id: "1DCA06AF25E3282C"
 			tasks: [{
 				id: "495C047D69316DAA"
@@ -759,9 +1085,16 @@
 			}]
 		}
 		{
-			x: -3.25d
-			y: 3.5d
+			x: -5.5d
+			y: 4.25d
+			shape: "hexagon"
 			description: ["&bThe Solar Panel &fis an &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
+			hide_dependency_lines: true
+			dependencies: [
+				"47CB001EBAA0BB0E"
+				"59B336127CA627CD"
+				"0DAB80BC67662FB0"
+			]
 			id: "18BBD2D4D99E8F5F"
 			tasks: [{
 				id: "273DE2EB522F6241"
@@ -770,95 +1103,129 @@
 			}]
 		}
 		{
-			x: -12.75d
-			y: -4.5d
+			x: -22.5d
+			y: -1.0d
+			shape: "hexagon"
 			description: ["&bThe Reactor &fis a multi-block &6FE generator &fthat use &6Uraninite &fas main fuel."]
+			hide_dependency_lines: true
 			dependencies: [
+				"0BC66BB4F4B5D047"
+				"40BF3EE3318C55B4"
 				"7F84739D2B32F4B2"
-				"79AB8C8AA1A59E3D"
-				"5E57A07BE0464541"
 			]
 			id: "3ACDB77543A1B827"
 			tasks: [{
 				id: "0C05120B4E92282E"
 				type: "item"
 				item: "powah:reactor_basic"
-				count: 2L
+				count: 36L
 			}]
 		}
 		{
-			x: -8.75d
-			y: -4.5d
+			x: -15.75d
+			y: -1.0d
+			shape: "hexagon"
 			description: ["&bThe Reactor &fis a multi-block &6FE generator &fthat use &6Uraninite &fas main fuel."]
+			hide_dependency_lines: true
 			dependencies: [
+				"0BC66BB4F4B5D047"
+				"40BF3EE3318C55B4"
 				"763A0C0A6F308E5D"
-				"79AB8C8AA1A59E3D"
-				"5E57A07BE0464541"
 			]
 			id: "450773F538F39056"
 			tasks: [{
 				id: "75FC7F41854C333D"
 				type: "item"
 				item: "powah:reactor_hardened"
-				count: 2L
+				count: 36L
 			}]
 		}
 		{
-			x: -5.0d
-			y: -4.5d
+			x: -9.0d
+			y: -1.0d
+			shape: "hexagon"
 			description: ["&bThe Reactor &fis a multi-block &6FE generator &fthat use &6Uraninite &fas main fuel."]
+			hide_dependency_lines: true
+			dependencies: [
+				"0BC66BB4F4B5D047"
+				"40BF3EE3318C55B4"
+				"5444D07EC3245BB8"
+			]
 			id: "707674F4E01CEE5B"
 			tasks: [{
 				id: "7A01CC28C83549C2"
 				type: "item"
 				item: "powah:reactor_blazing"
-				count: 2L
+				count: 36L
 			}]
 		}
 		{
-			x: -12.75d
-			y: 2.5d
+			x: -22.5d
+			y: 3.5d
+			shape: "hexagon"
 			description: ["&bThe Reactor &fis a multi-block &6FE generator &fthat use &6Uraninite &fas main fuel."]
+			hide_dependency_lines: true
+			dependencies: [
+				"0BC66BB4F4B5D047"
+				"40BF3EE3318C55B4"
+				"5896C9C33F79614E"
+			]
 			id: "6D15CFFDCD475028"
 			tasks: [{
 				id: "4A624F67C3997440"
 				type: "item"
 				item: "powah:reactor_niotic"
-				count: 2L
+				count: 36L
 			}]
 		}
 		{
-			x: -7.5d
-			y: 2.5d
+			x: -15.75d
+			y: 3.5d
+			shape: "hexagon"
 			description: ["&bThe Reactor &fis a multi-block &6FE generator &fthat use &6Uraninite &fas main fuel."]
+			hide_dependency_lines: true
+			dependencies: [
+				"0BC66BB4F4B5D047"
+				"40BF3EE3318C55B4"
+				"2A520FDAD9C61888"
+			]
 			id: "1A9D2B1ED3BDC91E"
 			tasks: [{
 				id: "37864DCCF3473B4A"
 				type: "item"
 				item: "powah:reactor_spirited"
-				count: 2L
+				count: 36L
 			}]
 		}
 		{
-			x: -3.25d
-			y: 2.5d
+			x: -9.0d
+			y: 3.5d
+			shape: "hexagon"
 			description: ["&bThe Reactor &fis a multi-block &6FE generator &fthat use &6Uraninite &fas main fuel."]
+			hide_dependency_lines: true
+			dependencies: [
+				"0BC66BB4F4B5D047"
+				"40BF3EE3318C55B4"
+				"0DAB80BC67662FB0"
+			]
 			id: "1614874758A1C891"
 			tasks: [{
 				id: "225D9AE127794FFC"
 				type: "item"
 				item: "powah:reactor_nitro"
-				count: 2L
+				count: 36L
 			}]
 		}
 		{
-			x: -14.75d
-			y: -4.5d
+			x: -21.0d
+			y: -0.25d
+			shape: "hexagon"
 			description: ["&bThe Player Transmitter &fis a block used to &6charge items wirelessly &fin a &6linked player inventory &fincluding armor slots and off-hand anywhere in the &6same dimension &fwhen you use a normal &6binding card &fand &6across dimensions &fwhen you use a &6dimensional binding card&f."]
+			hide_dependency_lines: true
 			dependencies: [
+				"11F5BC9ED455C37F"
 				"7F84739D2B32F4B2"
-				"1E40486BB22DE04D"
-				"402ED0650EF43815"
+				"5E561F1B20DF3C89"
 			]
 			id: "0F59312901AF148D"
 			tasks: [{
@@ -868,13 +1235,15 @@
 			}]
 		}
 		{
-			x: -10.75d
-			y: -4.5d
+			x: -14.25d
+			y: -0.25d
+			shape: "hexagon"
 			description: ["&bThe Player Transmitter &fis a block used to &6charge items wirelessly &fin a &6linked player inventory &fincluding armor slots and off-hand anywhere in the &6same dimension &fwhen you use a normal &6binding card &fand &6across dimensions &fwhen you use a &6dimensional binding card&f."]
+			hide_dependency_lines: true
 			dependencies: [
+				"0F59312901AF148D"
+				"40BF3EE3318C55B4"
 				"763A0C0A6F308E5D"
-				"5FEDBE429906F3C8"
-				"5E57A07BE0464541"
 			]
 			id: "56224E4603CB137A"
 			tasks: [{
@@ -884,9 +1253,16 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -4.5d
+			x: -7.5d
+			y: -0.25d
+			shape: "hexagon"
 			description: ["&bThe Player Transmitter &fis a block used to &6charge items wirelessly &fin a &6linked player inventory &fincluding armor slots and off-hand anywhere in the &6same dimension &fwhen you use a normal &6binding card &fand &6across dimensions &fwhen you use a &6dimensional binding card&f."]
+			hide_dependency_lines: true
+			dependencies: [
+				"0F59312901AF148D"
+				"40BF3EE3318C55B4"
+				"5444D07EC3245BB8"
+			]
 			id: "537399EC1882444D"
 			tasks: [{
 				id: "4A4FAD82D1217282"
@@ -895,9 +1271,16 @@
 			}]
 		}
 		{
-			x: -14.75d
-			y: 2.5d
+			x: -21.0d
+			y: 4.25d
+			shape: "hexagon"
 			description: ["&bThe Player Transmitter &fis a block used to &6charge items wirelessly &fin a &6linked player inventory &fincluding armor slots and off-hand anywhere in the &6same dimension &fwhen you use a normal &6binding card &fand &6across dimensions &fwhen you use a &6dimensional binding card&f."]
+			hide_dependency_lines: true
+			dependencies: [
+				"0F59312901AF148D"
+				"40BF3EE3318C55B4"
+				"5896C9C33F79614E"
+			]
 			id: "681DF390A8932F25"
 			tasks: [{
 				id: "1CD5A972E8AD3CCF"
@@ -906,9 +1289,16 @@
 			}]
 		}
 		{
-			x: -9.5d
-			y: 2.5d
+			x: -14.25d
+			y: 4.25d
+			shape: "hexagon"
 			description: ["&bThe Player Transmitter &fis a block used to &6charge items wirelessly &fin a &6linked player inventory &fincluding armor slots and off-hand anywhere in the &6same dimension &fwhen you use a normal &6binding card &fand &6across dimensions &fwhen you use a &6dimensional binding card&f."]
+			hide_dependency_lines: true
+			dependencies: [
+				"0F59312901AF148D"
+				"40BF3EE3318C55B4"
+				"2A520FDAD9C61888"
+			]
 			id: "795F9C618EFF933F"
 			tasks: [{
 				id: "47AE68AA42CDC5EC"
@@ -917,9 +1307,16 @@
 			}]
 		}
 		{
-			x: -5.25d
-			y: 2.5d
+			x: -7.5d
+			y: 4.25d
+			shape: "hexagon"
 			description: ["&bThe Player Transmitter &fis a block used to &6charge items wirelessly &fin a &6linked player inventory &fincluding armor slots and off-hand anywhere in the &6same dimension &fwhen you use a normal &6binding card &fand &6across dimensions &fwhen you use a &6dimensional binding card&f."]
+			hide_dependency_lines: true
+			dependencies: [
+				"0F59312901AF148D"
+				"40BF3EE3318C55B4"
+				"0DAB80BC67662FB0"
+			]
 			id: "48B92ADDD10F8395"
 			tasks: [{
 				id: "4B918FC9FCBEB4CA"
@@ -928,15 +1325,17 @@
 			}]
 		}
 		{
-			x: -12.75d
-			y: -5.5d
+			x: -22.0d
+			y: -1.75d
+			shape: "hexagon"
 			description: ["&bThe Energy Hopper &fits a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
+			hide_dependency_lines: true
 			dependencies: [
+				"3AC2609EA33632B8"
+				"2911A1ABA35B09A4"
+				"40BF3EE3318C55B4"
+				"618E76E66210CFC0"
 				"7F84739D2B32F4B2"
-				"7735A69F14DA3E23"
-				"5E57A07BE0464541"
-				"4A91E1943995BB01"
-				"2B0269A10C4CCA04"
 			]
 			id: "3CD9D033808646DF"
 			tasks: [{
@@ -946,15 +1345,16 @@
 			}]
 		}
 		{
-			x: -8.75d
-			y: -5.5d
+			x: -15.25d
+			y: -1.75d
+			shape: "hexagon"
 			description: ["&bThe Energy Hopper &fits a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
+			hide_dependency_lines: true
 			dependencies: [
+				"3AC2609EA33632B8"
+				"2911A1ABA35B09A4"
+				"40BF3EE3318C55B4"
 				"763A0C0A6F308E5D"
-				"6C516743C08AF40A"
-				"5E57A07BE0464541"
-				"2B0269A10C4CCA04"
-				"4A91E1943995BB01"
 			]
 			id: "1B0B7496702B1D0F"
 			tasks: [{
@@ -964,9 +1364,17 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -5.5d
+			x: -8.5d
+			y: -1.75d
+			shape: "hexagon"
 			description: ["&bThe Energy Hopper &fits a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
+			hide_dependency_lines: true
+			dependencies: [
+				"3AC2609EA33632B8"
+				"2911A1ABA35B09A4"
+				"40BF3EE3318C55B4"
+				"5444D07EC3245BB8"
+			]
 			id: "3E928D543F3FE78E"
 			tasks: [{
 				id: "00B49480E95BDB09"
@@ -975,9 +1383,17 @@
 			}]
 		}
 		{
-			x: -12.75d
-			y: 1.5d
+			x: -22.0d
+			y: 2.75d
+			shape: "hexagon"
 			description: ["&bThe Energy Hopper &fits a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
+			hide_dependency_lines: true
+			dependencies: [
+				"3AC2609EA33632B8"
+				"2911A1ABA35B09A4"
+				"40BF3EE3318C55B4"
+				"5896C9C33F79614E"
+			]
 			id: "417C8BE12B05BE89"
 			tasks: [{
 				id: "17B862968185C860"
@@ -986,9 +1402,17 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: 1.5d
+			x: -15.25d
+			y: 2.75d
+			shape: "hexagon"
 			description: ["&bThe Energy Hopper &fits a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
+			hide_dependency_lines: true
+			dependencies: [
+				"3AC2609EA33632B8"
+				"2911A1ABA35B09A4"
+				"40BF3EE3318C55B4"
+				"2A520FDAD9C61888"
+			]
 			id: "06AF0E1E09569ABB"
 			tasks: [{
 				id: "504B78F9979AC3D5"
@@ -997,9 +1421,17 @@
 			}]
 		}
 		{
-			x: -3.25d
-			y: 1.5d
+			x: -8.5d
+			y: 2.75d
+			shape: "hexagon"
 			description: ["&bThe Energy Hopper &fits a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
+			hide_dependency_lines: true
+			dependencies: [
+				"3AC2609EA33632B8"
+				"2911A1ABA35B09A4"
+				"40BF3EE3318C55B4"
+				"0DAB80BC67662FB0"
+			]
 			id: "07876B258E146369"
 			tasks: [{
 				id: "4140D861E5DB3418"
@@ -1008,15 +1440,17 @@
 			}]
 		}
 		{
-			x: -12.75d
-			y: -1.5d
+			x: -19.0d
+			y: -1.75d
+			shape: "hexagon"
 			description: ["&bThe energy Discharger &fis a block used to &6drain energy &fout of &6charged items &fand then store it to an internal buffer if then connected via cables to extract that stored power and re-using it again."]
+			hide_dependency_lines: true
 			dependencies: [
+				"618E76E66210CFC0"
 				"7F84739D2B32F4B2"
-				"5E44863C44AC9509"
-				"7735A69F14DA3E23"
-				"5E57A07BE0464541"
-				"4A91E1943995BB01"
+				"2911A1ABA35B09A4"
+				"40BF3EE3318C55B4"
+				"3CD9D033808646DF"
 			]
 			id: "7ADCCC78B8FB3882"
 			tasks: [{
@@ -1026,15 +1460,15 @@
 			}]
 		}
 		{
-			x: -8.75d
-			y: -1.5d
+			x: -12.25d
+			y: -1.75d
+			shape: "hexagon"
 			description: ["&bThe energy Discharger &fis a block used to &6drain energy &fout of &6charged items &fand then store it to an internal buffer if then connected via cables to extract that stored power and re-using it again."]
+			hide_dependency_lines: true
 			dependencies: [
 				"763A0C0A6F308E5D"
-				"3FBA57E0425D6D7E"
-				"0D89636AA57F077A"
-				"4A91E1943995BB01"
-				"5E57A07BE0464541"
+				"2911A1ABA35B09A4"
+				"40BF3EE3318C55B4"
 			]
 			id: "4447E95A20BDAD1B"
 			tasks: [{
@@ -1044,9 +1478,16 @@
 			}]
 		}
 		{
-			x: -12.75d
-			y: 5.5d
+			x: -19.0d
+			y: 2.75d
+			shape: "hexagon"
 			description: ["&bThe energy Discharger &fis a block used to &6drain energy &fout of &6charged items &fand then store it to an internal buffer if then connected via cables to extract that stored power and re-using it again."]
+			hide_dependency_lines: true
+			dependencies: [
+				"2911A1ABA35B09A4"
+				"40BF3EE3318C55B4"
+				"5896C9C33F79614E"
+			]
 			id: "544A5553BEAACD79"
 			tasks: [{
 				id: "3D420D7BCABF0E79"
@@ -1055,9 +1496,16 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -1.5d
+			x: -5.5d
+			y: -1.75d
+			shape: "hexagon"
 			description: ["&bThe energy Discharger &fis a block used to &6drain energy &fout of &6charged items &fand then store it to an internal buffer if then connected via cables to extract that stored power and re-using it again."]
+			hide_dependency_lines: true
+			dependencies: [
+				"2911A1ABA35B09A4"
+				"40BF3EE3318C55B4"
+				"5444D07EC3245BB8"
+			]
 			id: "50725C0DD2EC640E"
 			tasks: [{
 				id: "1147F788598F051C"
@@ -1066,9 +1514,16 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: 5.5d
+			x: -12.25d
+			y: 2.75d
+			shape: "hexagon"
 			description: ["&bThe energy Discharger &fis a block used to &6drain energy &fout of &6charged items &fand then store it to an internal buffer if then connected via cables to extract that stored power and re-using it again."]
+			hide_dependency_lines: true
+			dependencies: [
+				"2911A1ABA35B09A4"
+				"40BF3EE3318C55B4"
+				"2A520FDAD9C61888"
+			]
 			id: "2BEED63BEF3C5638"
 			tasks: [{
 				id: "7C4E324690CD3398"
@@ -1077,9 +1532,16 @@
 			}]
 		}
 		{
-			x: -3.25d
-			y: 5.5d
+			x: -5.5d
+			y: 2.75d
+			shape: "hexagon"
 			description: ["&bThe energy Discharger &fis a block used to &6drain energy &fout of &6charged items &fand then store it to an internal buffer if then connected via cables to extract that stored power and re-using it again."]
+			hide_dependency_lines: true
+			dependencies: [
+				"2911A1ABA35B09A4"
+				"40BF3EE3318C55B4"
+				"0DAB80BC67662FB0"
+			]
 			id: "0DB815FB5C9A64E0"
 			tasks: [{
 				id: "65F6FE2A3A295272"
@@ -1088,8 +1550,11 @@
 			}]
 		}
 		{
-			x: 3.25d
-			y: -0.75d
+			x: -14.25d
+			y: -3.25d
+			shape: "diamond"
+			description: ["Dry Ice used mainly to cool down reactors, it can be found underground at levels 1 - 64, you can also obtain it by energizing twi pieces of blue ice."]
+			dependencies: ["1D23D686D1A72DC6"]
 			id: "485B8E77AFCC1B9B"
 			tasks: [{
 				id: "0AA2ED4EE38FDF35"
@@ -1098,18 +1563,8 @@
 			}]
 		}
 		{
-			x: 9.25d
-			y: -4.0d
-			id: "48E905AE2A0DD595"
-			tasks: [{
-				id: "5C73B3D445C22743"
-				type: "item"
-				item: "powah:book"
-			}]
-		}
-		{
-			x: 10.25d
-			y: -4.0d
+			x: -12.5d
+			y: -9.25d
 			description: [
 				"&bThe Wrench &fas 3 modes :"
 				""
@@ -1118,6 +1573,10 @@
 				"&6Link Mode&f: used to link linkable blocks like energizing orb and rods."
 				""
 				"&6Rotate Mode&f: used to rotate blocks horizontally."
+			]
+			dependencies: [
+				"46FBC0E73EDEE865"
+				"558CE25F994A46AB"
 			]
 			id: "386853612717056E"
 			tasks: [{
@@ -1131,15 +1590,22 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1537EF10FA94F0DE"
+				type: "item"
+				item: "powah:book"
+			}]
 		}
 		{
-			x: -13.75d
-			y: -3.5d
+			x: -20.5d
+			y: 0.75d
+			shape: "hexagon"
 			dependencies: [
 				"4B254A5D603FC0A6"
 				"5BE3E6EC6DD86C0A"
 				"489C740C46074BBD"
 			]
+			size: 1.5d
 			id: "30A45FF6825DE09B"
 			tasks: [{
 				id: "153A604D85C3E1DE"
@@ -1149,11 +1615,13 @@
 			}]
 		}
 		{
-			x: -13.75d
-			y: -6.5d
+			x: -20.5d
+			y: -1.0d
+			shape: "hexagon"
+			hide_dependency_lines: true
 			dependencies: [
-				"153A604D85C3E1DE"
 				"30A45FF6825DE09B"
+				"5C545750FEB2314B"
 			]
 			id: "7F84739D2B32F4B2"
 			tasks: [{
@@ -1164,9 +1632,15 @@
 			}]
 		}
 		{
-			x: -9.75d
-			y: -6.5d
-			dependencies: ["40129BA102A1B0B3"]
+			x: -13.75d
+			y: -1.0d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"7F84739D2B32F4B2"
+				"40129BA102A1B0B3"
+				"46FBC0E73EDEE865"
+			]
 			id: "763A0C0A6F308E5D"
 			tasks: [{
 				id: "1CA3E12BC5420E4E"
@@ -1176,8 +1650,15 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -6.5d
+			x: -7.0d
+			y: -1.0d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"09F8D23FB3250808"
+				"7F84739D2B32F4B2"
+				"46FBC0E73EDEE865"
+			]
 			id: "5444D07EC3245BB8"
 			tasks: [{
 				id: "6DC374C88EDBED49"
@@ -1187,8 +1668,15 @@
 			}]
 		}
 		{
-			x: -13.75d
-			y: 0.5d
+			x: -20.5d
+			y: 3.5d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"2532E79548B58213"
+				"7F84739D2B32F4B2"
+				"46FBC0E73EDEE865"
+			]
 			id: "5896C9C33F79614E"
 			tasks: [{
 				id: "02105658DCF8CBFD"
@@ -1197,8 +1685,15 @@
 			}]
 		}
 		{
-			x: -4.25d
-			y: 0.5d
+			x: -7.0d
+			y: 3.5d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"59B336127CA627CD"
+				"7F84739D2B32F4B2"
+				"46FBC0E73EDEE865"
+			]
 			id: "0DAB80BC67662FB0"
 			tasks: [{
 				id: "15C3C855D0F3130B"
@@ -1207,8 +1702,15 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 0.5d
+			x: -13.75d
+			y: 3.5d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"576932BEEA63B919"
+				"7F84739D2B32F4B2"
+				"46FBC0E73EDEE865"
+			]
 			id: "2A520FDAD9C61888"
 			tasks: [{
 				id: "54B7B983FA07E188"
@@ -1217,15 +1719,17 @@
 			}]
 		}
 		{
-			x: -13.75d
-			y: -5.5d
+			x: -22.0d
+			y: -0.25d
+			shape: "hexagon"
 			description: ["&bBattery &fcharge items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
+			hide_dependency_lines: true
 			dependencies: [
-				"0CD35D525E63BFBA"
-				"4A91E1943995BB01"
-				"4448A5D209263139"
-				"5BE3E6EC6DD86C0A"
+				"2911A1ABA35B09A4"
+				"6F0F3A66173096A7"
 				"7F84739D2B32F4B2"
+				"3380D85F28C8B5EB"
+				"3E3505A28B6926FC"
 			]
 			id: "1C96DA971E267F45"
 			tasks: [{
@@ -1239,15 +1743,17 @@
 			}]
 		}
 		{
-			x: -9.75d
-			y: -5.5d
+			x: -15.25d
+			y: -0.25d
+			shape: "hexagon"
 			description: ["&bBattery &fcharge items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
+			hide_dependency_lines: true
 			dependencies: [
+				"1C96DA971E267F45"
+				"2911A1ABA35B09A4"
+				"6F0F3A66173096A7"
+				"40129BA102A1B0B3"
 				"763A0C0A6F308E5D"
-				"4A91E1943995BB01"
-				"67B13386C5EA0302"
-				"4D3DA933036E09F4"
-				"5BE3E6EC6DD86C0A"
 			]
 			id: "38B2260A1F74C6BB"
 			tasks: [{
@@ -1261,9 +1767,18 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -5.5d
+			x: -8.5d
+			y: -0.25d
+			shape: "hexagon"
 			description: ["&bBattery &fcharge items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
+			hide_dependency_lines: true
+			dependencies: [
+				"1C96DA971E267F45"
+				"2911A1ABA35B09A4"
+				"6F0F3A66173096A7"
+				"09F8D23FB3250808"
+				"5444D07EC3245BB8"
+			]
 			id: "13EA440EFC078FDE"
 			tasks: [{
 				id: "754730F2319AF131"
@@ -1276,9 +1791,18 @@
 			}]
 		}
 		{
-			x: -13.75d
-			y: 1.5d
+			x: -22.0d
+			y: 4.25d
+			shape: "hexagon"
 			description: ["&bBattery &fcharge items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
+			hide_dependency_lines: true
+			dependencies: [
+				"1C96DA971E267F45"
+				"2911A1ABA35B09A4"
+				"5896C9C33F79614E"
+				"2532E79548B58213"
+				"6F0F3A66173096A7"
+			]
 			id: "2317340F5B1B67EC"
 			tasks: [{
 				id: "0BA7CABE27A9C09B"
@@ -1291,9 +1815,18 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 1.5d
+			x: -15.25d
+			y: 4.25d
+			shape: "hexagon"
 			description: ["&bBattery &fcharge items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
+			hide_dependency_lines: true
+			dependencies: [
+				"1C96DA971E267F45"
+				"2911A1ABA35B09A4"
+				"6F0F3A66173096A7"
+				"576932BEEA63B919"
+				"2A520FDAD9C61888"
+			]
 			id: "2C0E6A52701D88A3"
 			tasks: [{
 				id: "70D32325828BEC6B"
@@ -1306,9 +1839,18 @@
 			}]
 		}
 		{
-			x: -4.25d
-			y: 1.5d
+			x: -8.5d
+			y: 4.25d
+			shape: "hexagon"
 			description: ["&bBattery &fcharge items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
+			hide_dependency_lines: true
+			dependencies: [
+				"1C96DA971E267F45"
+				"2911A1ABA35B09A4"
+				"6F0F3A66173096A7"
+				"59B336127CA627CD"
+				"0DAB80BC67662FB0"
+			]
 			id: "6C9CF5FC554CE59B"
 			tasks: [{
 				id: "58AD2A5FBEB397A1"
@@ -1321,8 +1863,10 @@
 			}]
 		}
 		{
-			x: 4.25d
-			y: 3.25d
+			x: -21.0d
+			y: -4.25d
+			hide_dependency_lines: true
+			dependencies: ["46FBC0E73EDEE865"]
 			id: "11F5BC9ED455C37F"
 			tasks: [{
 				id: "402ED0650EF43815"
@@ -1331,13 +1875,14 @@
 			}]
 		}
 		{
-			x: 5.25d
-			y: 3.25d
+			x: -20.0d
+			y: -4.25d
 			description: [
 				"&bPlayer Aerial Pearl &fis used to craft the &6player transmitter&f."
 				""
 				"You can get it by &6using &fan &bAerial Pearl &fon a &6Zombie &for &6Husk&f."
 			]
+			dependencies: ["11F5BC9ED455C37F"]
 			id: "46161447319C0795"
 			tasks: [{
 				id: "1C388325A6060376"
@@ -1346,13 +1891,14 @@
 			}]
 		}
 		{
-			x: 8.75d
-			y: -0.5d
+			x: -20.5d
+			y: -5.25d
 			description: [
 				"The &bBinding Card &f is used to &6link a player &fwith a &6Player Transmitter &fin the &6same dimension&f."
 				""
 				"You need to link it with you before addind it to the player transmitter. &6Right-click &fit to bind."
 			]
+			dependencies: ["2EF228B32D5B76D4"]
 			id: "71BC6D8DCFC92E64"
 			tasks: [{
 				id: "69949927EFA87D3C"
@@ -1361,13 +1907,14 @@
 			}]
 		}
 		{
-			x: 9.75d
-			y: -0.5d
+			x: -19.5d
+			y: -5.25d
 			description: [
 				"The &bDimensional Bind Card &f is used to link a &6player &fwith a &6Player Transmitter across dimensions&f."
 				""
 				"You need to link it with you before addind it to the player transmitter. &6Right-click &fit to bind."
 			]
+			dependencies: ["71BC6D8DCFC92E64"]
 			id: "45781D5DAAF07721"
 			tasks: [{
 				id: "74DC9A546BB5E2F8"
@@ -1376,8 +1923,10 @@
 			}]
 		}
 		{
-			x: 7.75d
-			y: 0.5d
+			x: -6.75d
+			y: -5.25d
+			description: ["When Applying a &2Lens Of Ender&r to a Solar Panel will make it see through blocks."]
+			dependencies: ["6CB95C8CABA5E2B4"]
 			id: "4CE6CFDF8581D135"
 			tasks: [{
 				id: "4ADD863906732438"
@@ -1386,8 +1935,12 @@
 			}]
 		}
 		{
-			x: 3.25d
-			y: 3.25d
+			x: -5.75d
+			y: -5.25d
+			dependencies: [
+				"082742EC52214523"
+				"75B03878AA52F00E"
+			]
 			id: "4C7E009F56E15106"
 			tasks: [{
 				id: "2C6052D07A87E785"
@@ -1396,8 +1949,13 @@
 			}]
 		}
 		{
-			x: 5.25d
-			y: 4.25d
+			x: -7.75d
+			y: -5.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"46FBC0E73EDEE865"
+				"1E6277225CA889FC"
+			]
 			id: "6CB95C8CABA5E2B4"
 			tasks: [{
 				id: "2B93C0151986801E"
@@ -1406,8 +1964,15 @@
 			}]
 		}
 		{
-			x: 13.75d
-			y: 2.25d
+			x: -13.75d
+			y: -8.5d
+			shape: "diamond"
+			description: ["To obtain &8Dielectric Paste&r you must process &7Silicon Grease&r in a Metallurgic Infuser. "]
+			dependencies: [
+				"7C5F37BC2F4601FD"
+				"6F350477334C0544"
+				"4931CF875954DA46"
+			]
 			id: "46FBC0E73EDEE865"
 			tasks: [{
 				id: "4B254A5D603FC0A6"
@@ -1416,8 +1981,13 @@
 			}]
 		}
 		{
-			x: 13.25d
-			y: 3.25d
+			x: -14.25d
+			y: -8.0d
+			shape: "diamond"
+			dependencies: [
+				"46FBC0E73EDEE865"
+				"2D17968D3B7C09B4"
+			]
 			id: "2911A1ABA35B09A4"
 			tasks: [{
 				id: "4A91E1943995BB01"
@@ -1427,8 +1997,13 @@
 			}]
 		}
 		{
-			x: 14.25d
-			y: 3.25d
+			x: -13.25d
+			y: -8.0d
+			shape: "diamond"
+			dependencies: [
+				"46FBC0E73EDEE865"
+				"2D17968D3B7C09B4"
+			]
 			id: "445FDA407135DFE7"
 			tasks: [{
 				id: "5BFF945646CF0D3E"
@@ -1438,8 +2013,15 @@
 			}]
 		}
 		{
-			x: 15.25d
-			y: 3.25d
+			x: -13.75d
+			y: -7.0d
+			shape: "octagon"
+			dependencies: [
+				"445FDA407135DFE7"
+				"2911A1ABA35B09A4"
+				"10047618C2CF4601"
+				"30115FB202198BA8"
+			]
 			id: "40BF3EE3318C55B4"
 			tasks: [{
 				id: "5E57A07BE0464541"
@@ -1448,12 +2030,16 @@
 			}]
 		}
 		{
-			x: -9.75d
-			y: -3.5d
+			x: -13.75d
+			y: 0.75d
+			shape: "hexagon"
+			hide_dependency_lines: true
 			dependencies: [
 				"47ECB6DD5B2351AB"
 				"489C740C46074BBD"
+				"1D23D686D1A72DC6"
 			]
+			size: 1.5d
 			id: "40129BA102A1B0B3"
 			tasks: [{
 				id: "67B13386C5EA0302"
@@ -1462,8 +2048,12 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -3.5d
+			x: -7.0d
+			y: 0.75d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["1D23D686D1A72DC6"]
+			size: 1.5d
 			id: "09F8D23FB3250808"
 			tasks: [{
 				id: "68E496605DF40BB4"
@@ -1472,8 +2062,15 @@
 			}]
 		}
 		{
-			x: -13.75d
-			y: 3.5d
+			x: -20.5d
+			y: 5.25d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"1D23D686D1A72DC6"
+				"4486C68BF5B9FCE2"
+			]
+			size: 1.5d
 			id: "2532E79548B58213"
 			tasks: [{
 				id: "0548F30A95FA67FE"
@@ -1482,8 +2079,15 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 3.5d
+			x: -13.75d
+			y: 5.25d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"1D23D686D1A72DC6"
+				"16749BE6267748CD"
+			]
+			size: 1.5d
 			id: "576932BEEA63B919"
 			tasks: [{
 				id: "10E25BF11597414D"
@@ -1492,8 +2096,16 @@
 			}]
 		}
 		{
-			x: -4.25d
-			y: 3.5d
+			x: -7.0d
+			y: 5.25d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"1D23D686D1A72DC6"
+				"09F8D23FB3250808"
+				"6F0F3A66173096A7"
+			]
+			size: 1.5d
 			id: "59B336127CA627CD"
 			tasks: [{
 				id: "04E15C3893393DE3"
@@ -1502,8 +2114,10 @@
 			}]
 		}
 		{
-			x: 2.25d
-			y: 0.25d
+			x: -13.75d
+			y: -3.75d
+			shape: "diamond"
+			dependencies: ["1D23D686D1A72DC6"]
 			id: "491873ED9FE9FD5D"
 			tasks: [{
 				id: "13158CAD1203489C"
@@ -1512,9 +2126,11 @@
 			}]
 		}
 		{
-			x: 3.25d
-			y: 0.25d
+			x: -13.25d
+			y: -3.25d
+			shape: "diamond"
 			description: ["Throwing a &bCharged Snowball &fwill cause a &6bolt of lightning &fto spawn when hitting the ground or when it hits the mod, obtained by energizing a snowball."]
+			dependencies: ["1D23D686D1A72DC6"]
 			id: "5049E0E345147121"
 			tasks: [{
 				id: "0D0989EAA2FFF6A3"
@@ -1523,8 +2139,17 @@
 			}]
 		}
 		{
-			x: 7.75d
-			y: -0.5d
+			x: -21.5d
+			y: -5.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"445FDA407135DFE7"
+				"2911A1ABA35B09A4"
+				"20018C60ECEA7ED6"
+				"2E012C406BEC6CD7"
+				"7B9FBBCD2F962A0B"
+			]
+			dependency_requirement: "one_completed"
 			id: "2EF228B32D5B76D4"
 			tasks: [{
 				id: "4D46829EDB2DC635"
@@ -1533,43 +2158,35 @@
 			}]
 		}
 		{
-			x: 11.25d
-			y: 4.25d
-			id: "705646F12A26BECC"
-			tasks: [{
-				id: "4D190589F0ECA64C"
-				type: "item"
-				item: "powah:uraninite_raw_poor"
-			}]
-		}
-		{
-			x: 12.25d
-			y: 4.25d
-			id: "3B18E177E717CED5"
-			tasks: [{
-				id: "6972A19EC7433AA0"
-				type: "item"
-				item: "powah:uraninite_raw"
-			}]
-		}
-		{
-			x: 13.25d
-			y: 4.25d
-			id: "4B0B502A79928F49"
-			tasks: [{
-				id: "7F4728B16F5F2DCD"
-				type: "item"
-				item: "powah:uraninite_raw_dense"
-			}]
-		}
-		{
-			x: 14.25d
-			y: 4.25d
+			x: -15.0d
+			y: -9.25d
+			dependencies: ["7CE5A37CB1D7F967"]
 			id: "4931CF875954DA46"
 			tasks: [{
 				id: "7DE6E419D6F8146A"
 				type: "item"
 				item: "powah:uraninite"
+			}]
+		}
+		{
+			x: -13.75d
+			y: -10.0d
+			shape: "pentagon"
+			description: [
+				"&7Silicon Grease&r is obtained by treating &8TAR&r with &7Silicon Oil&r in a Thermopneumatic Processor."
+				""
+				"You can generate Silicon Oil with a fluid laser drill."
+			]
+			dependencies: [
+				"3EAFE946D0476552"
+				"448F25B9DDE7F8E4"
+				"75B03878AA52F00E"
+			]
+			id: "7C5F37BC2F4601FD"
+			tasks: [{
+				id: "70B3D65BA724CDAB"
+				type: "item"
+				item: "kubejs:silicon_grease"
 			}]
 		}
 	]
