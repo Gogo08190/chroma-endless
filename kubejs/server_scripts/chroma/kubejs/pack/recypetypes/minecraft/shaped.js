@@ -370,6 +370,16 @@ onEvent('recipes', (event) => {
             C: 'minecraft:compass'
           },
           id: 'naturescompass:natures_compass'
+        },
+        {
+          output: 'minecraft:heart_of_the_sea',
+          pattern: ['NNN', 'PDP', 'NNN'],
+          key: {
+            N: 'minecraft:nautilus_shell',
+            P: 'minecraft:prismarine_shard',
+            D: 'rftoolsbase:infused_diamond'
+          },
+          id: `${id_prefex}heart_of_the_sea`
         }
     ];
 
