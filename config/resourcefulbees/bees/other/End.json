@@ -35,7 +35,24 @@
         "attackDamage": 1
     },
     "MutationData": {
-        "hasMutation": false
+        "hasMutation": true,
+        "mutationCount": 4,
+        "mutations" : [
+          {
+            "type": "BLOCK",
+            "inputID": "minecraft:netherrack",
+            "outputs": [
+              {"outputID": "bigreactors:benitoite_ore", "weight": 5}
+            ]
+          },
+          {
+            "type": "BLOCK",
+            "inputID": "minecraft:end_stone",
+            "outputs": [
+              {"outputID": "bigreactors:anglesite_ore", "weight": 5}
+            ]
+          }
+        ]
     },
     "CentrifugeData": {
         "hasCentrifugeOutput": true,
