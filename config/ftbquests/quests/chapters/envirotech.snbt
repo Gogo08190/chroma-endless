@@ -306,7 +306,21 @@
 			x: -24.25d
 			y: 5.25d
 			shape: "rsquare"
-			description: ["{image:chroma:textures/quests/et_tier1.png width:150 height:100 align:1}"]
+			description: [
+				"20x Frame (Tier>=1)"
+				"18x Panel"
+				"04x IO Block or Frame (Tier>=1)"
+				"02x Modifier"
+				"02x Laser Core"
+				"01x Laser Lens Holder"
+			]
+			dependencies: [
+				"4486C68BF5B9FCE2"
+				"73368EF2948452D9"
+				"742E8C2E4C769DFE"
+				"7C2069C0ADD6248D"
+				"02A9CE766673FF98"
+			]
 			id: "2530752B6D0A80C3"
 			tasks: [{
 				id: "797ACDBEC4AD6910"
@@ -318,6 +332,20 @@
 			x: -18.5d
 			y: 5.25d
 			shape: "rsquare"
+			description: [
+				"28x Frame (Tier>=2)"
+				"16x Panel"
+				"04x IO Block or Frame (Tier>=2)"
+				"04 Modifier"
+				"03x Laser Core"
+				"01x Laser Lens Holder"
+			]
+			dependencies: [
+				"73368EF2948452D9"
+				"742E8C2E4C769DFE"
+				"4327E89D1694D9DB"
+				"797ACDBEC4AD6910"
+			]
 			id: "4064A650842130A9"
 			tasks: [{
 				id: "7AFDB5E9CE528821"
@@ -329,6 +357,21 @@
 			x: -13.25d
 			y: 5.25d
 			shape: "rsquare"
+			description: [
+				"44x Frame (Tier>=3)"
+				"36x Panel"
+				"04x IO Block or Frame (Tier>=3)"
+				"08x Modifier"
+				"04x Laser Core"
+				"01x Laser Lens Holder"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"73368EF2948452D9"
+				"00A5E4C7804456BD"
+				"4064A650842130A9"
+				"59232D063C6F0096"
+			]
 			id: "3F4C7780DB78732F"
 			tasks: [{
 				id: "018B8BE56F59D88C"
@@ -340,6 +383,21 @@
 			x: -7.5d
 			y: 5.25d
 			shape: "rsquare"
+			description: [
+				"52x Frame (Tier>=4)"
+				"56x Panel"
+				"04x IO Block or Frame (Tier>=4)"
+				"12x Modifier"
+				"05x Laser Core"
+				"01x Laser Lens Holder"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"73368EF2948452D9"
+				"10047618C2CF4601"
+				"3F4C7780DB78732F"
+				"59232D063C6F0096"
+			]
 			id: "0FB1E08909378867"
 			tasks: [{
 				id: "6E2AA271F21BE5B0"
@@ -351,6 +409,13 @@
 			x: -0.5d
 			y: 5.25d
 			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: [
+				"1D23D686D1A72DC6"
+				"70B6E95C8B4C9DD5"
+				"0FB1E08909378867"
+				"59232D063C6F0096"
+			]
 			id: "51A865804BE34E1F"
 			tasks: [{
 				id: "3C30F1C6C88F7893"
@@ -362,6 +427,13 @@
 			x: 5.0d
 			y: 5.25d
 			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: [
+				"1D23D686D1A72DC6"
+				"51A865804BE34E1F"
+				"700892CDE1B5D01F"
+				"59232D063C6F0096"
+			]
 			id: "6D5FA44C1427C6C0"
 			tasks: [{
 				id: "5EDDDED1C1BA28BB"
@@ -373,6 +445,14 @@
 			x: 10.5d
 			y: 5.25d
 			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: [
+				"3225C3BC59E31296"
+				"2BF759063CE492C4"
+				"6D5FA44C1427C6C0"
+				"59232D063C6F0096"
+				"40A58B7BA95C6FEA"
+			]
 			id: "0264AA0CFBD9FC84"
 			tasks: [{
 				id: "4530F1A4FFBBF0EB"
@@ -384,6 +464,13 @@
 			x: 16.0d
 			y: 5.25d
 			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: [
+				"59232D063C6F0096"
+				"0264AA0CFBD9FC84"
+				"29177C5D56D0BAC2"
+				"092891E48F64913A"
+			]
 			id: "2FAF18A1E67E08F4"
 			tasks: [{
 				id: "5A78EE8FF8873577"
@@ -395,6 +482,18 @@
 			x: -23.25d
 			y: 5.25d
 			shape: "rsquare"
+			description: [
+				"16x Frame (Tier>=1)"
+				"04x IO Block or Frame (Tier>=1)"
+				"04x Modifier"
+				"09x Solar Cell"
+			]
+			dependencies: [
+				"73368EF2948452D9"
+				"628286F1A53404BC"
+				"02A9CE766673FF98"
+				"7C2069C0ADD6248D"
+			]
 			id: "14697C237BED1D6D"
 			tasks: [{
 				id: "403FE572D2744BB0"
@@ -406,6 +505,19 @@
 			x: -17.5d
 			y: 5.25d
 			shape: "rsquare"
+			description: [
+				"24x Frame (Tier>=2)"
+				"04x IO Block or Frame (Tier>=2)"
+				"04x Modifier"
+				"25x Solar Cell"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"73368EF2948452D9"
+				"3D9C2717B58BD67A"
+				"198B71976F5199B9"
+				"14697C237BED1D6D"
+			]
 			id: "37401A14AE5E099A"
 			tasks: [{
 				id: "4946ADAA61533147"
@@ -417,6 +529,19 @@
 			x: -12.25d
 			y: 5.25d
 			shape: "rsquare"
+			description: [
+				"32x Frame (Tier>=3)"
+				"04x IO Block or Frame (Tier>=3)"
+				"08x Modifier"
+				"49x Solar Cell"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"73368EF2948452D9"
+				"00A5E4C7804456BD"
+				"21439CB5FC22086F"
+				"37401A14AE5E099A"
+			]
 			id: "00B972AFE900CE93"
 			tasks: [{
 				id: "3A72AF3BECFED12B"
@@ -428,6 +553,13 @@
 			x: 0.5d
 			y: 5.25d
 			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: [
+				"1D23D686D1A72DC6"
+				"464504C4B92354FF"
+				"200BA4830939AC0B"
+				"70B6E95C8B4C9DD5"
+			]
 			id: "6B57359F34C8D320"
 			tasks: [{
 				id: "1B499FA6E1EB75A4"
@@ -439,6 +571,19 @@
 			x: -6.5d
 			y: 5.25d
 			shape: "rsquare"
+			description: [
+				"40x Frame (Tier>=4)"
+				"04x IO Block or Frame (Tier>=4)"
+				"08x Modifier"
+				"81x Solar Cell"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"73368EF2948452D9"
+				"10047618C2CF4601"
+				"00B972AFE900CE93"
+				"0E9CF6ACC722C374"
+			]
 			id: "464504C4B92354FF"
 			tasks: [{
 				id: "05E387C0FB46EEFC"
@@ -450,6 +595,13 @@
 			x: 6.0d
 			y: 5.25d
 			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: [
+				"1D23D686D1A72DC6"
+				"6B57359F34C8D320"
+				"700892CDE1B5D01F"
+				"43FAD4CA620C4E46"
+			]
 			id: "09284E0C45B88801"
 			tasks: [{
 				id: "0BF9CB4E9704F8E9"
@@ -461,6 +613,13 @@
 			x: 11.5d
 			y: 5.25d
 			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: [
+				"3225C3BC59E31296"
+				"1AEAF2EFDCEB66B9"
+				"09284E0C45B88801"
+				"40A58B7BA95C6FEA"
+			]
 			id: "6CB95C9DD0C21CFC"
 			tasks: [{
 				id: "2C76719A791AF53F"
@@ -472,6 +631,19 @@
 			x: -22.25d
 			y: 5.25d
 			shape: "rsquare"
+			description: [
+				"4x Frame (Tier>=1)"
+				"1x IO Block or Frame (Tier>=1)"
+				"3x Modifier"
+				"3x Lightning Rod"
+				"3x Insulated Lightning Rod"
+			]
+			dependencies: [
+				"73368EF2948452D9"
+				"02A9CE766673FF98"
+				"72A61D960AF1647A"
+				"7C2069C0ADD6248D"
+			]
 			id: "1AB86F4EFC6EA106"
 			tasks: [{
 				id: "3F99756F3F6AB9C8"
@@ -483,6 +655,20 @@
 			x: -16.5d
 			y: 5.25d
 			shape: "rsquare"
+			description: [
+				"4x Frame (Tier>=2)"
+				"1x IO Block or Frame (Tier>=2)"
+				"3x Modifier"
+				"5x Lightning Rod"
+				"4x Insulated Lightning Rod"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"73368EF2948452D9"
+				"3D9C2717B58BD67A"
+				"570D71E8C576DD90"
+				"1AB86F4EFC6EA106"
+			]
 			id: "399DB7EF332FC382"
 			tasks: [{
 				id: "1A91C3CA169FC7AF"
@@ -494,6 +680,20 @@
 			x: -11.25d
 			y: 5.25d
 			shape: "rsquare"
+			description: [
+				"09x Frame (Tier>=3)"
+				"01x IO Block or Frame (Tier>=3)"
+				"03x Modifier"
+				"04x Lightning Rod"
+				"16x Insulated Lightning Rod"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"73368EF2948452D9"
+				"00A5E4C7804456BD"
+				"399DB7EF332FC382"
+				"570D71E8C576DD90"
+			]
 			id: "71272D5AC84F251B"
 			tasks: [{
 				id: "2AC57E86C9FF7577"
@@ -505,6 +705,13 @@
 			x: -5.5d
 			y: 5.25d
 			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: [
+				"73368EF2948452D9"
+				"10047618C2CF4601"
+				"71272D5AC84F251B"
+				"570D71E8C576DD90"
+			]
 			id: "6F8708AB223DA553"
 			tasks: [{
 				id: "59190246642B897F"
@@ -516,6 +723,13 @@
 			x: 1.5d
 			y: 5.25d
 			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: [
+				"1D23D686D1A72DC6"
+				"6F8708AB223DA553"
+				"70B6E95C8B4C9DD5"
+				"72A61D960AF1647A"
+			]
 			id: "037942D65088F58E"
 			tasks: [{
 				id: "1EF40701D39C81D8"
@@ -527,6 +741,13 @@
 			x: 7.0d
 			y: 5.25d
 			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: [
+				"1D23D686D1A72DC6"
+				"72A61D960AF1647A"
+				"700892CDE1B5D01F"
+				"037942D65088F58E"
+			]
 			id: "63FE242A34D65C1A"
 			tasks: [{
 				id: "54295574DEE26224"
@@ -538,6 +759,13 @@
 			x: 12.5d
 			y: 5.25d
 			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: [
+				"3225C3BC59E31296"
+				"2BF759063CE492C4"
+				"63FE242A34D65C1A"
+				"40A58B7BA95C6FEA"
+			]
 			id: "04173DEAEB7824A2"
 			tasks: [{
 				id: "121903D4418831F6"
@@ -549,6 +777,12 @@
 			x: 18.0d
 			y: 5.25d
 			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: [
+				"29177C5D56D0BAC2"
+				"04173DEAEB7824A2"
+				"092891E48F64913A"
+			]
 			id: "4BE3E2E7F01168F2"
 			tasks: [{
 				id: "2F36B26CFE74FC4A"
@@ -1275,6 +1509,7 @@
 				"1E6277225CA889FC"
 				"5E5D6DA74DC6FE43"
 				"085507458BC5E5AE"
+				"509BB4FBE8A13799"
 			]
 			size: 1.5d
 			id: "2683AF767C3345AE"
@@ -1309,6 +1544,8 @@
 			dependencies: [
 				"6E987BAADA0CD4C5"
 				"00A5E4C7804456BD"
+				"7487A5A3991D1222"
+				"1BF981F84C1738BC"
 			]
 			size: 1.5d
 			id: "6865E8E02A0FC66C"
@@ -1326,6 +1563,7 @@
 				"7487A5A3991D1222"
 				"6865E8E02A0FC66C"
 				"10047618C2CF4601"
+				"0E4A27067D64FFCE"
 			]
 			size: 1.5d
 			id: "4CA004B0F2640371"
@@ -1342,6 +1580,8 @@
 			dependencies: [
 				"1B8E162EDCFB8AE9"
 				"4CA004B0F2640371"
+				"59B336127CA627CD"
+				"5896C9C33F79614E"
 			]
 			size: 1.5d
 			id: "70B6E95C8B4C9DD5"
@@ -1374,6 +1614,8 @@
 			dependencies: [
 				"700892CDE1B5D01F"
 				"77669127763D62EB"
+				"40A58B7BA95C6FEA"
+				"51740725C2A36728"
 			]
 			size: 1.5d
 			id: "2BF759063CE492C4"
@@ -1390,6 +1632,8 @@
 			dependencies: [
 				"2BF759063CE492C4"
 				"1AE554062A3D1379"
+				"092891E48F64913A"
+				"40A58B7BA95C6FEA"
 			]
 			size: 1.5d
 			id: "29177C5D56D0BAC2"
@@ -1688,6 +1932,12 @@
 			x: -4.5d
 			y: -6.0d
 			shape: "gear"
+			hide_dependency_lines: true
+			dependencies: [
+				"085507458BC5E5AE"
+				"57D556F29CAF21FC"
+				"1FDDA157DFAF2A7F"
+			]
 			size: 2.0d
 			min_width: 300
 			id: "0A2DF111E5396620"
@@ -1785,6 +2035,16 @@
 			x: -1.5d
 			y: -6.0d
 			shape: "gear"
+			hide_dependency_lines: true
+			dependencies: [
+				"085507458BC5E5AE"
+				"2683AF767C3345AE"
+				"7487A5A3991D1222"
+				"60E1726207640669"
+				"1F22F5BF3BD21A03"
+				"3EBBC97D89557513"
+				"102035F52CE5271C"
+			]
 			size: 2.0d
 			id: "14550162EEE40261"
 			tasks: [
@@ -1972,6 +2232,12 @@
 			x: 17.0d
 			y: 5.25d
 			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: [
+				"5779EC9CE2687832"
+				"6CB95C9DD0C21CFC"
+				"092891E48F64913A"
+			]
 			id: "6CDF59E46C0D76AD"
 			tasks: [{
 				id: "4F961D8A214E269E"

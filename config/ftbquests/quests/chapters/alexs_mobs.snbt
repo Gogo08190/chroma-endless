@@ -421,7 +421,7 @@
 		{
 			x: -11.5d
 			y: 2.75d
-			description: ["Encounter a Kangoroo."]
+			description: ["Encounter a Kangaroo."]
 			id: "4E566DEE9D4C96A7"
 			tasks: [{
 				id: "318374246A6C5B00"
@@ -433,7 +433,7 @@
 		{
 			x: -13.5d
 			y: 2.75d
-			description: ["See an emu dodge a launched projectile."]
+			description: ["Watch an emu dodge a launched projectile."]
 			dependencies: ["454471DBED49864B"]
 			id: "4CD67FA78CF4533D"
 			tasks: [{

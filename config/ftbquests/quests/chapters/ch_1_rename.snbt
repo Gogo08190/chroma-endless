@@ -76,13 +76,10 @@
 		}
 		{
 			title: "Andesite Alloys"
-			x: 14.25d
+			x: 15.0d
 			y: 33.0d
 			shape: "gear"
-			description: [
-				"cet item débloque beaucoup d'autres items dans le reste de create"
-				"This item unlocks many other Create items !"
-			]
+			description: ["This item unlocks many other Create items !"]
 			dependencies: ["4FF742939987793B"]
 			size: 2.0d
 			id: "3441111B8198CC9D"
@@ -694,12 +691,12 @@
 		{
 			title: "Rose Quartz"
 			icon: "create:rose_quartz"
-			x: 14.25d
-			y: 30.75d
+			x: 13.0d
+			y: 32.0d
 			description: [
-				"Sand Paper is a tool used only to create Polished Rose Quartz."
+				"&4Sand Paper&r is a tool used only to create Polished Rose Quartz."
 				""
-				"Rose Quartz may be used to make Polished Rose Quartz. To do this, the player must hold Sand Paper in their offhand, Rose Quartz in their main hand, and right click. The polished version will then drop on the ground."
+				"&eRose Quartz&r may be used to make &c&lPolished Rose Quartz&r. To do this, the player must hold Sand Paper in their offhand, Rose Quartz in their main hand, and right click. The polished version will then drop on the ground."
 			]
 			dependencies: ["3441111B8198CC9D"]
 			id: "1B29F8E51716D37A"
@@ -1542,8 +1539,8 @@
 			}]
 		}
 		{
-			x: 13.25d
-			y: 30.75d
+			x: 11.75d
+			y: 33.0d
 			dependencies: ["1B29F8E51716D37A"]
 			id: "6B58A9E61BE8FE02"
 			tasks: [{
@@ -1553,8 +1550,8 @@
 			}]
 		}
 		{
-			x: 12.25d
-			y: 30.75d
+			x: 10.75d
+			y: 32.0d
 			dependencies: [
 				"6B58A9E61BE8FE02"
 				"13446A385D0DD1BA"

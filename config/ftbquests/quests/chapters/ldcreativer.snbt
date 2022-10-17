@@ -380,40 +380,6 @@
 			}]
 		}
 		{
-			x: -9.75d
-			y: -7.0d
-			shape: "octagon"
-			id: "3218C95F9BACEA1E"
-			tasks: [{
-				id: "571EDE212934917C"
-				type: "item"
-				item: {
-					id: "tconstruct:creative_slot"
-					Count: 1b
-					tag: {
-						slot: "abilities"
-					}
-				}
-			}]
-		}
-		{
-			x: -10.75d
-			y: -7.0d
-			shape: "octagon"
-			id: "36CE36C4C61E01EB"
-			tasks: [{
-				id: "496F1E3E6BE4526D"
-				type: "item"
-				item: {
-					id: "tconstruct:creative_slot"
-					Count: 1b
-					tag: {
-						slot: "upgrades"
-					}
-				}
-			}]
-		}
-		{
 			x: 1.0d
 			y: -3.25d
 			shape: "hexagon"
@@ -433,23 +399,6 @@
 				id: "31AF41E93355E26C"
 				type: "item"
 				item: "refinedstorage:creative_storage_block"
-			}]
-		}
-		{
-			x: -8.75d
-			y: -7.0d
-			shape: "octagon"
-			id: "0E686DA81A911AF4"
-			tasks: [{
-				id: "4E617314C809560D"
-				type: "item"
-				item: {
-					id: "tconstruct:creative_slot"
-					Count: 1b
-					tag: {
-						slot: "defense"
-					}
-				}
 			}]
 		}
 	]

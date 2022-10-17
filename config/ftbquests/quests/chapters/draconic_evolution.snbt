@@ -33,6 +33,18 @@
 	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [{
+		x: 1.5d
+		y: -9.0d
+		width: 7.0d
+		height: 7.0d
+		rotation: 0.0d
+		image: "chroma:textures/quests/energy_core.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
 			x: -0.25d
@@ -605,7 +617,14 @@
 		{
 			x: 12.5d
 			y: 3.25d
-			dependencies: ["14546760EE1D4281"]
+			hide_dependency_lines: true
+			dependencies: [
+				"14546760EE1D4281"
+				"13D4EFBF9D6020E0"
+				"26A2AB430C384D80"
+				"092891E48F64913A"
+				"1B8E162EDCFB8AE9"
+			]
 			id: "2D2A5032AA1C01EA"
 			tasks: [{
 				id: "6E5604D2F651EF89"
@@ -943,7 +962,14 @@
 		{
 			x: 12.5d
 			y: 1.25d
-			dependencies: ["0581F004215D7680"]
+			hide_dependency_lines: true
+			dependencies: [
+				"0581F004215D7680"
+				"4B1766B43273C192"
+				"40A58B7BA95C6FEA"
+				"3225C3BC59E31296"
+				"10047618C2CF4601"
+			]
 			id: "14546760EE1D4281"
 			tasks: [{
 				id: "3C02BAD7AD7644C2"
@@ -1005,6 +1031,12 @@
 		{
 			x: 12.5d
 			y: -0.75d
+			hide_dependency_lines: true
+			dependencies: [
+				"180340AB4EC31ADC"
+				"2FFF2B223BF2968D"
+				"1D23D686D1A72DC6"
+			]
 			id: "0581F004215D7680"
 			tasks: [{
 				id: "3569523B366BCE18"
@@ -2006,7 +2038,13 @@
 			y: 1.25d
 			shape: "rsquare"
 			hide_dependency_lines: true
-			dependencies: ["6FFCB22B7BE222E4"]
+			dependencies: [
+				"6FFCB22B7BE222E4"
+				"42341880DAF0DB55"
+				"2D2A5032AA1C01EA"
+				"3EBBC97D89557513"
+				"4B1766B43273C192"
+			]
 			id: "5F5A359BA9212A2B"
 			tasks: [{
 				id: "3CF14DD7F25EFAE3"
@@ -2019,7 +2057,10 @@
 			y: 1.25d
 			shape: "rsquare"
 			hide_dependency_lines: true
-			dependencies: ["092891E48F64913A"]
+			dependencies: [
+				"092891E48F64913A"
+				"51740725C2A36728"
+			]
 			id: "54EE09C1D305976A"
 			tasks: [{
 				id: "44544DDDE20714A0"
@@ -2124,6 +2165,19 @@
 				id: "6858BF17B8165F20"
 				type: "item"
 				item: "draconicevolution:crystal_binder"
+			}]
+		}
+		{
+			x: -0.25d
+			y: 0.25d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["2FFF2B223BF2968D"]
+			id: "51740725C2A36728"
+			tasks: [{
+				id: "62D4A60C5542EA89"
+				type: "item"
+				item: "draconicmachinery:redstone_core"
 			}]
 		}
 	]

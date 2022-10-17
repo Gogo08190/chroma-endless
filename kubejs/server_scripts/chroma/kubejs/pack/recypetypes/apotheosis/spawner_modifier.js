@@ -50,8 +50,8 @@ onEvent('recipes', (event) => {
             id: 'apotheosis:spawner/ignore_players_inverted'
         },
         {
-            mainhand: { item: 'ars_nouveau:glyph_intangible' },
-            offhand: { item: 'storagedrawers:emerald_storage_upgrade' },
+            mainhand: { item: 'minecraft:barrier' },
+            offhand: { item: 'minecraft:barrier' },
             consumes_offhand: false,
             stat_changes: [
                 {
@@ -62,8 +62,8 @@ onEvent('recipes', (event) => {
             id: 'apotheosis:spawner/ignore_conditions'
         },
         {
-            mainhand: { item: 'ars_nouveau:glyph_intangible' },
-            offhand: { item: 'storagedrawers:one_stack_upgrade' },
+            mainhand: { item: 'minecraft:barrier' },
+            offhand: { item: 'minecraft:barrier' },
             consumes_offhand: false,
             stat_changes: [
                 {

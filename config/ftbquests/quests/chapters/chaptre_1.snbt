@@ -53,7 +53,7 @@
 			x: -3.5d
 			y: -11.75d
 			shape: "gear"
-			subtitle: "Careful, you risk to burn everything."
+			subtitle: "Careful, you might burn everything."
 			description: ["Several ways to get flint, but which one to choose? Maybe JEI can tell you; although at the beginning we advise you to ultimine gravel or craft it with 3."]
 			size: 2.0d
 			id: "506463BEE4D51982"
@@ -103,7 +103,7 @@
 			description: [
 				"To mine 3x3 area, Thchonic Extractor must be applied as the second head by a tool."
 				""
-				"Can be found in structures deep underground in cold or montainous biomes."
+				"Can be found in structures deep underground in cold or montains biomes."
 			]
 			dependencies: ["58BB878B4B44751B"]
 			optional: true
@@ -131,7 +131,7 @@
 			x: 4.0d
 			y: -5.0d
 			shape: "diamond"
-			description: ["Can be found in structures deep underground in cold or montainous biomes."]
+			description: ["Can be found in structures deep underground in cold or montains biomes."]
 			dependencies: ["58BB878B4B44751B"]
 			optional: true
 			id: "6DBE971A354DF307"
@@ -170,7 +170,7 @@
 			description: [
 				"The Earthpiercer is a multi-purpose tool(Pickaxe \\& Shovel)."
 				""
-				"Can be found in structures deep underground in cold or montainous biomes."
+				"Can be found in structures deep underground in cold or montains biomes."
 			]
 			dependencies: ["58BB878B4B44751B"]
 			optional: true
@@ -185,7 +185,7 @@
 			x: 4.0d
 			y: -3.75d
 			shape: "diamond"
-			description: ["Can be found in structures deep underground in cold or montainous biomes."]
+			description: ["Can be found in structures deep underground in cold or montains biomes."]
 			dependencies: ["58BB878B4B44751B"]
 			optional: true
 			id: "417C0D4BEE933760"
@@ -198,7 +198,7 @@
 		{
 			x: 2.25d
 			y: -3.5d
-			description: ["Can be found in structures deep underground in cold or montainous biomes."]
+			description: ["Can be found in structures deep underground in cold or montains biomes."]
 			dependencies: ["0291D01CF9820B1F"]
 			id: "5D0B6B773A9696D4"
 			tasks: [{
@@ -231,7 +231,7 @@
 			x: 2.25d
 			y: -1.75d
 			shape: "square"
-			description: ["Can be found in structures deep underground in cold or montainous biomes."]
+			description: ["Can be found in structures deep underground in cold or montains biomes."]
 			dependencies: ["0291D01CF9820B1F"]
 			id: "698D9EF9800A51F9"
 			tasks: [{
@@ -326,14 +326,14 @@
 			x: -3.5d
 			y: -1.75d
 			description: [
-				"Tetra revolves around modular items and attempting to blend it together with other concepts such as adventure and technology."
+				"&6&lTetra&r revolves around modular items and attempting to blend it together with other concepts such as adventure and technology."
 				""
-				"Tetra allows you to replace parts of items with different parts of different types and materials, some parts can also be improved. Which parts you may use is limited by the items capacity, called integrity. Some parts increase an items integrity while some parts has an integrity cost. Some parts require tools of differing quality to craft."
+				"&l&6Tetra&r allows you to replace parts of items with different parts of different types and materials, some parts can also be improved. Each parts you may use is limited by the item capacity, called integrity. Some parts increase an item integrity while some parts has an integrity cost. Some parts are requiring tools of different quality to craft."
 				""
 				"Getting Started:"
-				"1) Craft a Wooden Hammer using two sticks and two planks"
-				"2) Craft and place a vanilla crafting table"
-				"3) Right click the table with the hammer to upgrade it into a workbench"
+				"1) Craft a Wooden Hammer using two sticks and two planks."
+				"2) Craft and place a vanilla crafting table."
+				"3) Right click on the table with the hammer to upgrade it into a workbench"
 				"4) Craft a vanilla weapon, tool shield or a bow and place it in the workbench"
 			]
 			dependencies: [
@@ -341,6 +341,7 @@
 				"53D7FCF8BE62ACFC"
 			]
 			dependency_requirement: "one_completed"
+			min_width: 350
 			min_required_tasks: 300
 			id: "7A3D3399611B2809"
 			tasks: [{
@@ -364,7 +365,7 @@
 		{
 			x: -2.25d
 			y: -3.75d
-			description: ["Eye of Ender combined with Holosphere in workbench will help you to find Forges easier."]
+			description: ["&5Eye of Ender&r combined with &6Holosphere&r in workbench will help you to find Forges easier."]
 			dependencies: ["7A3D3399611B2809"]
 			id: "38D63D2A59047069"
 			tasks: [{
@@ -442,14 +443,16 @@
 			x: -5.0d
 			y: -5.75d
 			shape: "diamond"
+			subtitle: "Which way?"
 			description: [
-				"Vanilla tools only have 1 durability, so if you break a block with them, they will break."
-				"At first, you should use Tinkers' Construct or Tetra tools instead."
-				"In the following quests, there are two paths: Tinkers' Construct and Tetra. You can do both, or just one, and maybe the other one later; but in no case will you be blocked for the rest."
+				"Vanilla tools only have &61 durability&r, so if you break a block with them, they will break."
+				""
+				"In the following quests, there are two paths: &2Tinkers' Construct&r and &2Tetra&r. You can do both, or just one, and maybe the other one later; but in no case will you be blocked for the rest."
 				""
 				"Tinkers' Construct is at the left, and Tetra at the right."
 			]
 			dependencies: ["1C7C41C2FA427B8F"]
+			min_width: 150
 			id: "4F9CEE6539022521"
 			tasks: [{
 				id: "5905919B35D651A5"
@@ -469,12 +472,19 @@
 				title: "Pattern"
 				item: "tconstruct:pattern"
 			}]
+			rewards: [{
+				id: "214C1F37D5D788B8"
+				type: "item"
+				item: "tconstruct:pattern"
+				count: 5
+			}]
 		}
 		{
 			title: "Tinker's Stations"
 			x: -6.5d
 			y: -1.75d
 			shape: "square"
+			subtitle: "Useful Stations "
 			dependencies: ["4CA0051417A86918"]
 			size: 1.5d
 			id: "1E198C450382D37F"
@@ -888,7 +898,7 @@
 			x: -0.25d
 			y: 1.0d
 			shape: "diamond"
-			description: ["Can be found in structures deep underground in cold or montainous biomes."]
+			description: ["Can be found in structures deep underground in cold or montains biomes."]
 			dependencies: ["32DB90A8A43D1F3C"]
 			id: "4FAD52860362291A"
 			tasks: [{
@@ -901,7 +911,7 @@
 			x: -0.75d
 			y: 0.5d
 			shape: "diamond"
-			description: ["Can be found in structures deep underground in cold or montainous biomes."]
+			description: ["Can be found in structures deep underground in cold or montains biomes."]
 			dependencies: ["32DB90A8A43D1F3C"]
 			id: "5C796409D3C28291"
 			tasks: [{
@@ -914,7 +924,7 @@
 			x: -0.25d
 			y: 0.0d
 			shape: "diamond"
-			description: ["Can be found in structures deep underground in cold or montainous biomes."]
+			description: ["Can be found in structures deep underground in cold or montains biomes."]
 			dependencies: ["32DB90A8A43D1F3C"]
 			id: "780EFBC7BFC66E5A"
 			tasks: [{
@@ -927,7 +937,7 @@
 			x: -1.25d
 			y: 0.0d
 			shape: "diamond"
-			description: ["Can be found in structures deep underground in cold or montainous biomes."]
+			description: ["Can be found in structures deep underground in cold or montains biomes."]
 			dependencies: ["32DB90A8A43D1F3C"]
 			id: "4F42C75CD6562596"
 			tasks: [{
@@ -940,7 +950,7 @@
 			x: -1.25d
 			y: 1.0d
 			shape: "diamond"
-			description: ["Can be found in structures deep underground in cold or montainous biomes."]
+			description: ["Can be found in structures deep underground in cold or montains biomes."]
 			dependencies: ["32DB90A8A43D1F3C"]
 			id: "2E366ADF62A8DE98"
 			tasks: [{
@@ -985,11 +995,11 @@
 				""
 				"There is three categories :"
 				""
-				"   - Ores that can be mined with a &#806517Wooden Pickaxe&r or another pickaxe with equivalent mining level."
+				"   - Ores that can be mined with a &6Wooden Pickaxe&r or another pickaxe with equivalent mining level."
 				""
-				"   - Ores that can be mined with a &#918E85Stone Pickaxe&r or another pickaxe with equivalent mining level."
+				"   - Ores that can be mined with a &5Stone Pickaxe&r or another pickaxe with equivalent mining level."
 				""
-				"   - Ores that can be mined with an &#61666AIron Pickaxe&r or another pickaxe with equivalent mining level."
+				"   - Ores that can be mined with an &bIron Pickaxe&r or another pickaxe with equivalent mining level."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1005,7 +1015,7 @@
 			}]
 		}
 		{
-			title: "&#61666AGold&r"
+			title: "&bGold&r"
 			x: -7.0d
 			y: 6.25d
 			shape: "pentagon"
@@ -1023,7 +1033,7 @@
 			}]
 		}
 		{
-			title: "&#918E85Iron&r"
+			title: "&5Iron&r"
 			x: -6.0d
 			y: 6.5d
 			shape: "pentagon"
@@ -1041,7 +1051,7 @@
 			}]
 		}
 		{
-			title: "&#806517Coal&r"
+			title: "&6Coal&r"
 			x: -5.0d
 			y: 6.75d
 			shape: "pentagon"
@@ -1059,7 +1069,7 @@
 			}]
 		}
 		{
-			title: "&#918E85Copper&r"
+			title: "&5Copper&r"
 			x: -4.0d
 			y: 6.5d
 			shape: "pentagon"
@@ -1068,7 +1078,7 @@
 				"11EFAC50282A683E"
 				"491972CCE5DDE06C"
 			]
-			dependency_requirement: "one_completed"
+			dependency_requirement: "all_started"
 			id: "4339BD51E04343A5"
 			tasks: [{
 				id: "0115C672497D08A4"
@@ -1077,7 +1087,7 @@
 			}]
 		}
 		{
-			title: "&#61666AUranium&r"
+			title: "&bUranium&r"
 			x: -3.0d
 			y: 6.25d
 			shape: "pentagon"
@@ -1095,7 +1105,7 @@
 			}]
 		}
 		{
-			title: "&#61666AEmerald&r"
+			title: "&bEmerald&r"
 			x: -2.25d
 			y: 7.0d
 			shape: "pentagon"
@@ -1113,7 +1123,7 @@
 			}]
 		}
 		{
-			title: "&#918E85Dimensional Shard&r"
+			title: "&5Dimensional Shard&r"
 			x: -3.25d
 			y: 7.25d
 			shape: "pentagon"
@@ -1131,7 +1141,7 @@
 			}]
 		}
 		{
-			title: "&#806517Cinnabar&r"
+			title: "&6Cinnabar&r"
 			x: -4.25d
 			y: 7.5d
 			shape: "pentagon"
@@ -1149,7 +1159,7 @@
 			}]
 		}
 		{
-			title: "&#806517Uraninite&r"
+			title: "&6Uraninite&r"
 			x: -5.75d
 			y: 7.5d
 			shape: "pentagon"
@@ -1187,7 +1197,7 @@
 			}]
 		}
 		{
-			title: "&#918E85Lapis Lazuli&r"
+			title: "&5Lapis Lazuli&r"
 			x: -6.75d
 			y: 7.25d
 			shape: "pentagon"
@@ -1205,7 +1215,7 @@
 			}]
 		}
 		{
-			title: "&#61666ADiamond&r"
+			title: "&bDiamond&r"
 			x: -7.75d
 			y: 7.0d
 			shape: "pentagon"
@@ -1223,7 +1233,7 @@
 			}]
 		}
 		{
-			title: "&#61666ARedstone&r"
+			title: "&bRedstone&r"
 			x: -7.5d
 			y: 8.0d
 			shape: "pentagon"
@@ -1240,7 +1250,7 @@
 			}]
 		}
 		{
-			title: "&#918E85Aluminum&r"
+			title: "&5Aluminum&r"
 			x: -6.5d
 			y: 8.25d
 			shape: "pentagon"
@@ -1258,7 +1268,7 @@
 			}]
 		}
 		{
-			title: "&#918E85Fluorite&r"
+			title: "&5Fluorite&r"
 			x: -5.75d
 			y: 9.0d
 			shape: "pentagon"
@@ -1276,7 +1286,7 @@
 			}]
 		}
 		{
-			title: "&#806517Bitumen&r"
+			title: "&6Bitumen&r"
 			x: -5.0d
 			y: 8.25d
 			shape: "pentagon"
@@ -1294,7 +1304,7 @@
 			}]
 		}
 		{
-			title: "&#918E85Apatite&r"
+			title: "&5Apatite&r"
 			x: -4.25d
 			y: 9.0d
 			shape: "pentagon"
@@ -1312,7 +1322,7 @@
 			}]
 		}
 		{
-			title: "&#918E85Tin&r"
+			title: "&5Tin&r"
 			x: -3.5d
 			y: 8.25d
 			shape: "pentagon"
@@ -1330,7 +1340,7 @@
 			}]
 		}
 		{
-			title: "&#61666ADraconium&r"
+			title: "&bDraconium&r"
 			x: -2.5d
 			y: 8.0d
 			shape: "pentagon"
@@ -1348,7 +1358,7 @@
 			}]
 		}
 		{
-			title: "&#61666ASilver&r"
+			title: "&bSilver&r"
 			x: -2.25d
 			y: 9.0d
 			shape: "pentagon"
@@ -1366,7 +1376,7 @@
 			}]
 		}
 		{
-			title: "&#61666AZinc&r"
+			title: "&bZinc&r"
 			x: -3.25d
 			y: 9.25d
 			shape: "pentagon"
@@ -1384,7 +1394,7 @@
 			}]
 		}
 		{
-			title: "&#918E85Potassium Nitrate&r"
+			title: "&5Potassium Nitrate&r"
 			x: -4.0d
 			y: 10.0d
 			shape: "pentagon"
@@ -1402,7 +1412,7 @@
 			}]
 		}
 		{
-			title: "&#918E85Osmium&r"
+			title: "&5Osmium&r"
 			x: -5.0d
 			y: 9.75d
 			shape: "pentagon"
@@ -1420,7 +1430,7 @@
 			}]
 		}
 		{
-			title: "&#918E85Source Gem&r"
+			title: "&5Source Gem&r"
 			x: -6.0d
 			y: 10.0d
 			shape: "pentagon"
@@ -1438,7 +1448,7 @@
 			}]
 		}
 		{
-			title: "&#61666ALead&r"
+			title: "&bLead&r"
 			x: -6.75d
 			y: 9.25d
 			shape: "pentagon"
@@ -1456,7 +1466,7 @@
 			}]
 		}
 		{
-			title: "&#61666ANickel&r"
+			title: "&bNickel&r"
 			x: -7.75d
 			y: 9.0d
 			shape: "pentagon"
@@ -1474,8 +1484,8 @@
 			}]
 		}
 		{
-			x: -7.25d
-			y: 14.25d
+			x: -2.75d
+			y: 12.25d
 			shape: "square"
 			subtitle: "Fast Ore like...well...nothing I think"
 			description: ["A Blast Furnace works like a Furnace, but only smelts ores (and other specifics things) but run twice as fast."]

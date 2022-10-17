@@ -9,8 +9,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -26.25d
-			y: 3.25d
+			x: -22.5d
+			y: 4.5d
 			shape: "diamond"
 			description: ["&bBins&r is a storage block that can only store a single item, however many it can store is based on its tier. It will retain its inventory when broken."]
 			dependencies: [
@@ -25,8 +25,8 @@
 			}]
 		}
 		{
-			x: -20.25d
-			y: 5.5d
+			x: -27.25d
+			y: 11.25d
 			shape: "diamond"
 			description: ["&bBins&f is a storage block that can only store a single item, however many it can store is based on its tier. It will retain its inventory when broken."]
 			hide_dependency_lines: true
@@ -43,8 +43,9 @@
 			}]
 		}
 		{
-			x: -28.5d
-			y: 9.5d
+			x: -20.75d
+			y: 11.25d
+			shape: "diamond"
 			description: ["&bBins&f is a storage block that can only store a single item, however many it can store is based on its tier. It will retain its inventory when broken."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -60,8 +61,9 @@
 			}]
 		}
 		{
-			x: -14.0d
-			y: 9.5d
+			x: -24.0d
+			y: 15.0d
+			shape: "diamond"
 			description: ["&bBins&f is a storage block that can only store a single item, however many it can store is based on its tier. It will retain its inventory when broken."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -77,10 +79,10 @@
 			}]
 		}
 		{
-			x: -26.25d
-			y: 4.75d
+			x: -22.5d
+			y: 6.0d
 			shape: "diamond"
-			description: ["The &bbasic tier&r give &a3 slots&r in the machine"]
+			description: ["The &belite tier&r improves the number of &2slots to 3&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"2B471E4CC0E02DED"
@@ -96,10 +98,10 @@
 			}]
 		}
 		{
-			x: -29.25d
-			y: 4.75d
+			x: -25.5d
+			y: 6.0d
 			shape: "diamond"
-			description: ["The &bbasic tier&r give &a3 slots&r in the machine"]
+			description: ["The &belite tier&r improves the number of &2slots to 3&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"2B471E4CC0E02DED"
@@ -115,10 +117,10 @@
 			}]
 		}
 		{
-			x: -29.25d
-			y: 3.25d
+			x: -25.5d
+			y: 4.5d
 			shape: "diamond"
-			description: ["The &bbasic tier&r give &a3 slots&r in the machine"]
+			description: ["The &belite tier&r improves the number of &2slots to 3&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"2B471E4CC0E02DED"
@@ -134,10 +136,10 @@
 			}]
 		}
 		{
-			x: -27.75d
-			y: 5.5d
+			x: -24.0d
+			y: 6.75d
 			shape: "diamond"
-			description: ["The &bbasic tier&r give &a3 slots&r in the machine"]
+			description: ["The &belite tier&r improves the number of &2slots to 3&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"2B471E4CC0E02DED"
@@ -152,10 +154,10 @@
 			}]
 		}
 		{
-			x: -26.75d
-			y: 4.0d
+			x: -23.0d
+			y: 5.25d
 			shape: "diamond"
-			description: ["The &bbasic tier&r give &a3 slots&r in the machine"]
+			description: ["The &belite tier&r improves the number of &2slots to 3&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"2B471E4CC0E02DED"
@@ -171,10 +173,10 @@
 			}]
 		}
 		{
-			x: -28.75d
-			y: 4.0d
+			x: -25.0d
+			y: 5.25d
 			shape: "diamond"
-			description: ["The &bbasic tier&r give &a3 slots&r in the machine"]
+			description: ["The &belite tier&r improves the number of &2slots to 3&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"2B471E4CC0E02DED"
@@ -190,10 +192,10 @@
 			}]
 		}
 		{
-			x: -27.75d
-			y: 2.5d
+			x: -24.0d
+			y: 3.75d
 			shape: "diamond"
-			description: ["The &bbasic tier&r give &a3 slots&r in the machine"]
+			description: ["The &belite tier&r improves the number of &2slots to 3&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"2B471E4CC0E02DED"
@@ -209,10 +211,10 @@
 			}]
 		}
 		{
-			x: -27.25d
-			y: 3.25d
+			x: -23.5d
+			y: 4.5d
 			shape: "diamond"
-			description: ["The &bbasic tier&r give &a3 slots&r in the machine"]
+			description: ["The &belite tier&r improves the number of &2slots to 3&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"2B471E4CC0E02DED"
@@ -228,10 +230,10 @@
 			}]
 		}
 		{
-			x: -28.25d
-			y: 3.25d
+			x: -24.5d
+			y: 4.5d
 			shape: "diamond"
-			description: ["The &bbasic tier&r give &a3 slots&r in the machine"]
+			description: ["The &belite tier&r improves the number of &2slots to 3&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"2B471E4CC0E02DED"
@@ -247,10 +249,10 @@
 			}]
 		}
 		{
-			x: -19.5d
-			y: 5.75d
+			x: -25.75d
+			y: 9.0d
 			shape: "diamond"
-			description: ["The &badvanced tier&r give &45 slots&r in the machine"]
+			description: ["The &belite tier&r improves the number of &4slots to 5&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"5A250FD54B5D5215"
@@ -266,10 +268,10 @@
 			}]
 		}
 		{
-			x: -19.75d
-			y: 4.75d
+			x: -26.75d
+			y: 10.5d
 			shape: "diamond"
-			description: ["The &badvanced tier&r give &45 slots&r in the machine"]
+			description: ["The &belite tier&r improves the number of &4slots to 5&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"5A250FD54B5D5215"
@@ -285,10 +287,10 @@
 			}]
 		}
 		{
-			x: -19.25d
-			y: 4.0d
+			x: -26.25d
+			y: 9.75d
 			shape: "diamond"
-			description: ["The &badvanced tier&r give &45 slots&r in the machine"]
+			description: ["The &belite tier&r improves the number of &4slots to 5&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"5A250FD54B5D5215"
@@ -304,10 +306,10 @@
 			}]
 		}
 		{
-			x: -19.75d
-			y: 3.25d
+			x: -26.75d
+			y: 9.0d
 			shape: "diamond"
-			description: ["The &badvanced tier&r give &45 slots&r in the machine"]
+			description: ["The &belite tier&r improves the number of &4slots to 5&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"5A250FD54B5D5215"
@@ -323,8 +325,8 @@
 			}]
 		}
 		{
-			x: -20.75d
-			y: 3.25d
+			x: -27.75d
+			y: 9.0d
 			shape: "diamond"
 			description: ["The &belite tier&r improves the number of &4slots to 5&r."]
 			hide_dependency_lines: true
@@ -342,8 +344,8 @@
 			}]
 		}
 		{
-			x: -21.25d
-			y: 4.0d
+			x: -28.25d
+			y: 9.75d
 			shape: "diamond"
 			description: ["The &belite tier&r improves the number of &4slots to 5&r."]
 			hide_dependency_lines: true
@@ -361,10 +363,10 @@
 			}]
 		}
 		{
-			x: -20.75d
-			y: 4.75d
+			x: -27.75d
+			y: 10.5d
 			shape: "diamond"
-			description: ["The &badvanced tier&r give &45 slots&r in the machine"]
+			description: ["The &belite tier&r improves the number of &4slots to 5&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"5A250FD54B5D5215"
@@ -380,8 +382,8 @@
 			}]
 		}
 		{
-			x: -20.25d
-			y: 2.5d
+			x: -27.25d
+			y: 8.25d
 			shape: "diamond"
 			description: ["The &belite tier&r improves the number of &4slots to 5&r."]
 			hide_dependency_lines: true
@@ -399,10 +401,10 @@
 			}]
 		}
 		{
-			x: -21.0d
-			y: 5.75d
+			x: -28.75d
+			y: 9.0d
 			shape: "diamond"
-			description: ["The &badvanced tier&r give &45 slots&r in the machine"]
+			description: ["The &belite tier&r improves the number of &4slots to 5&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"5A250FD54B5D5215"
@@ -418,8 +420,9 @@
 			}]
 		}
 		{
-			x: -29.5d
-			y: 9.5d
+			x: -19.75d
+			y: 9.75d
+			shape: "diamond"
 			description: ["The &belite tier&r improves the number of &3slots to 7&r."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -437,8 +440,9 @@
 			}]
 		}
 		{
-			x: -30.5d
-			y: 9.5d
+			x: -20.25d
+			y: 9.0d
+			shape: "diamond"
 			description: ["The &belite tier&r improves the number of &3slots to 7&r."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -456,8 +460,9 @@
 			}]
 		}
 		{
-			x: -31.5d
-			y: 9.5d
+			x: -21.25d
+			y: 9.0d
+			shape: "diamond"
 			description: ["The &belite tier&r improves the number of &3slots to 7&r."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -475,8 +480,9 @@
 			}]
 		}
 		{
-			x: -32.5d
-			y: 9.5d
+			x: -20.75d
+			y: 8.25d
+			shape: "diamond"
 			description: ["The &belite tier&r improves the number of &3slots to 7&r."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -494,8 +500,9 @@
 			}]
 		}
 		{
-			x: -33.5d
-			y: 9.5d
+			x: -22.25d
+			y: 9.0d
+			shape: "diamond"
 			description: ["The &belite tier&r improves the number of &3slots to 7&r."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -513,8 +520,9 @@
 			}]
 		}
 		{
-			x: -34.5d
-			y: 9.5d
+			x: -19.25d
+			y: 9.0d
+			shape: "diamond"
 			description: ["The &belite tier&r improves the number of &3slots to 7&r."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -532,8 +540,9 @@
 			}]
 		}
 		{
-			x: -35.5d
-			y: 9.5d
+			x: -21.75d
+			y: 9.75d
+			shape: "diamond"
 			description: ["The &belite tier&r improves the number of &3slots to 7&r."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -551,8 +560,9 @@
 			}]
 		}
 		{
-			x: -36.5d
-			y: 9.5d
+			x: -21.25d
+			y: 10.5d
+			shape: "diamond"
 			description: ["The &belite tier&r improves the number of &3slots to 7&r."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -570,8 +580,9 @@
 			}]
 		}
 		{
-			x: -37.5d
-			y: 9.5d
+			x: -20.25d
+			y: 10.5d
+			shape: "diamond"
 			description: ["The &belite tier&r improves the number of &3slots to 7&r."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -589,8 +600,9 @@
 			}]
 		}
 		{
-			x: -15.0d
-			y: 9.5d
+			x: -24.0d
+			y: 12.0d
+			shape: "diamond"
 			description: ["The &bultimate tier&r improves the number of &5slots to 9&r."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -608,8 +620,9 @@
 			}]
 		}
 		{
-			x: -16.0d
-			y: 9.5d
+			x: -22.5d
+			y: 12.75d
+			shape: "diamond"
 			description: ["The &bultimate tier&r improves the number of &5slots to 9&r."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -627,8 +640,9 @@
 			}]
 		}
 		{
-			x: -17.0d
-			y: 9.5d
+			x: -23.5d
+			y: 12.75d
+			shape: "diamond"
 			description: ["The &bultimate tier&r improves the number of &5slots to 9&r."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -646,8 +660,9 @@
 			}]
 		}
 		{
-			x: -18.0d
-			y: 9.5d
+			x: -24.5d
+			y: 12.75d
+			shape: "diamond"
 			description: ["The &bultimate tier&r improves the number of &5slots to 9&r."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -665,8 +680,9 @@
 			}]
 		}
 		{
-			x: -19.0d
-			y: 9.5d
+			x: -25.5d
+			y: 12.75d
+			shape: "diamond"
 			description: ["The &bultimate tier&r improves the number of &5slots to 9&r."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -684,8 +700,9 @@
 			}]
 		}
 		{
-			x: -20.0d
-			y: 9.5d
+			x: -23.0d
+			y: 13.5d
+			shape: "diamond"
 			description: ["The &bultimate tier&r improves the number of &5slots to 9&r."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -703,8 +720,9 @@
 			}]
 		}
 		{
-			x: -21.0d
-			y: 9.5d
+			x: -25.0d
+			y: 13.5d
+			shape: "diamond"
 			description: ["The &bultimate tier&r improves the number of &5slots to 9&r."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -722,8 +740,9 @@
 			}]
 		}
 		{
-			x: -22.0d
-			y: 9.5d
+			x: -23.5d
+			y: 14.25d
+			shape: "diamond"
 			description: ["The &bultimate tier&r improves the number of &5slots to 9&r."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -741,8 +760,9 @@
 			}]
 		}
 		{
-			x: -23.0d
-			y: 9.5d
+			x: -24.5d
+			y: 14.25d
+			shape: "diamond"
 			description: ["The &bultimate tier&r improves the number of &5slots to 9&r."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -760,8 +780,9 @@
 			}]
 		}
 		{
-			x: -24.5d
-			y: 9.5d
+			x: -20.75d
+			y: 9.75d
+			shape: "pentagon"
 			dependencies: [
 				"73368EF2948452D9"
 				"4486C68BF5B9FCE2"
@@ -774,8 +795,9 @@
 			}]
 		}
 		{
-			x: -25.5d
-			y: 9.5d
+			x: -20.75d
+			y: 12.25d
+			shape: "diamond"
 			description: ["Turn your machine into a &3Elite Tier&r. "]
 			dependencies: ["3668993E41FBDDE2"]
 			id: "395D58879056EBCD"
@@ -836,8 +858,8 @@
 			}]
 		}
 		{
-			x: -26.5d
-			y: 5.75d
+			x: -22.75d
+			y: 7.0d
 			shape: "diamond"
 			description: ["&bFluid Tanks&f are storage blocks to store &efluids&f."]
 			hide_dependency_lines: true
@@ -886,8 +908,8 @@
 			}]
 		}
 		{
-			x: -29.0d
-			y: 5.75d
+			x: -25.25d
+			y: 7.0d
 			shape: "diamond"
 			description: ["&bChemical Tanks&f are storage blocks to store &egases&f."]
 			hide_dependency_lines: true
@@ -904,8 +926,8 @@
 			}]
 		}
 		{
-			x: -21.75d
-			y: 3.25d
+			x: -28.0d
+			y: 11.5d
 			shape: "diamond"
 			description: ["&bChemical Tanks&f are storage blocks to store &egases&f."]
 			dependencies: [
@@ -921,8 +943,8 @@
 			}]
 		}
 		{
-			x: -18.75d
-			y: 3.25d
+			x: -26.5d
+			y: 11.5d
 			shape: "diamond"
 			description: ["&bFluid Tanks&f are storage blocks to store &efluids&f."]
 			dependencies: [
@@ -938,8 +960,8 @@
 			}]
 		}
 		{
-			x: -27.25d
-			y: 4.75d
+			x: -23.5d
+			y: 6.0d
 			shape: "diamond"
 			dependencies: ["5174E5B7DC17EF63"]
 			id: "0CFC7C9AB7128966"
@@ -950,8 +972,8 @@
 			}]
 		}
 		{
-			x: -28.25d
-			y: 4.75d
+			x: -24.5d
+			y: 6.0d
 			shape: "diamond"
 			dependencies: ["0CFC7C9AB7128966"]
 			id: "55F3634100ED3E10"
@@ -963,8 +985,8 @@
 		}
 		{
 			icon: "mekanism:basic_control_circuit"
-			x: -27.75d
-			y: 4.0d
+			x: -24.0d
+			y: 5.25d
 			shape: "pentagon"
 			dependencies: [
 				"14FF9B95901366D2"
@@ -978,8 +1000,8 @@
 			}]
 		}
 		{
-			x: -27.75d
-			y: 6.75d
+			x: -24.0d
+			y: 8.0d
 			shape: "diamond"
 			description: ["Turn your machine into a &2Basic Tier&r. "]
 			dependencies: [
@@ -995,8 +1017,9 @@
 			}]
 		}
 		{
-			x: -27.5d
-			y: 9.5d
+			x: -21.5d
+			y: 11.5d
+			shape: "diamond"
 			description: ["&bChemical Tanks&f are storage blocks to store &egases&f."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1012,8 +1035,8 @@
 			}]
 		}
 		{
-			x: -20.25d
-			y: 6.5d
+			x: -27.25d
+			y: 12.25d
 			shape: "diamond"
 			description: ["Turn your machine into a &4Advanced Tier&r. "]
 			dependencies: [
@@ -1029,8 +1052,9 @@
 			}]
 		}
 		{
-			x: -26.5d
-			y: 9.5d
+			x: -20.0d
+			y: 11.5d
+			shape: "diamond"
 			description: ["&bFluid Tanks&f are storage blocks to store &efluids&f."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1046,8 +1070,8 @@
 			}]
 		}
 		{
-			x: -20.25d
-			y: 4.0d
+			x: -27.25d
+			y: 9.75d
 			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["2B471E4CC0E02DED"]
@@ -1059,8 +1083,9 @@
 			}]
 		}
 		{
-			x: -10.0d
-			y: 9.5d
+			x: -24.0d
+			y: 13.5d
+			shape: "pentagon"
 			dependencies: ["3668993E41FBDDE2"]
 			id: "0E4A27067D64FFCE"
 			tasks: [{
@@ -1110,8 +1135,9 @@
 			}]
 		}
 		{
-			x: -13.0d
-			y: 9.5d
+			x: -24.75d
+			y: 15.25d
+			shape: "diamond"
 			description: ["&bChemical Tanks&f are storage blocks to store &egases&f."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1126,8 +1152,9 @@
 			}]
 		}
 		{
-			x: -12.0d
-			y: 9.5d
+			x: -23.25d
+			y: 15.25d
+			shape: "diamond"
 			description: ["&bFluid Tanks&f are storage blocks to store &efluids&f."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1142,8 +1169,9 @@
 			}]
 		}
 		{
-			x: -11.0d
-			y: 9.5d
+			x: -24.0d
+			y: 16.0d
+			shape: "diamond"
 			description: ["Turn your machine into a &5Ultimate Tier&r. "]
 			dependencies: ["1E64E0E2FA479666"]
 			id: "446C8269FC6018F3"
@@ -1629,8 +1657,8 @@
 			}]
 		}
 		{
-			x: -14.0d
-			y: 13.25d
+			x: -2.75d
+			y: 3.0d
 			shape: "diamond"
 			id: "380E175AD6A16CD6"
 			tasks: [{
@@ -1646,8 +1674,8 @@
 			}]
 		}
 		{
-			x: -15.0d
-			y: 13.25d
+			x: -3.75d
+			y: 3.0d
 			shape: "diamond"
 			id: "6224CB33E3699F55"
 			tasks: [{
@@ -1663,8 +1691,8 @@
 			}]
 		}
 		{
-			x: -15.0d
-			y: 14.25d
+			x: -3.75d
+			y: 4.0d
 			shape: "diamond"
 			id: "682E097593123192"
 			tasks: [{
@@ -1680,8 +1708,8 @@
 			}]
 		}
 		{
-			x: -14.0d
-			y: 14.25d
+			x: -2.75d
+			y: 4.0d
 			shape: "diamond"
 			id: "6575F9CF4CF939D3"
 			tasks: [{
@@ -1697,8 +1725,8 @@
 			}]
 		}
 		{
-			x: -14.5d
-			y: 13.75d
+			x: -3.25d
+			y: 3.5d
 			shape: "diamond"
 			id: "7E27215DCAA51489"
 			tasks: [{
@@ -1714,8 +1742,9 @@
 			}]
 		}
 		{
-			x: -9.75d
-			y: 11.75d
+			x: -7.0d
+			y: 2.0d
+			shape: "diamond"
 			dependencies: ["2EBB702869B9D13C"]
 			id: "6F6CBEA161CB94F2"
 			tasks: [{
@@ -1731,8 +1760,9 @@
 			}]
 		}
 		{
-			x: -9.75d
-			y: 12.75d
+			x: -6.0d
+			y: 2.0d
+			shape: "diamond"
 			dependencies: ["2EBB702869B9D13C"]
 			id: "78B81350AC2D24A1"
 			tasks: [{
@@ -1748,8 +1778,9 @@
 			}]
 		}
 		{
-			x: -9.75d
-			y: 13.75d
+			x: -7.0d
+			y: 3.0d
+			shape: "diamond"
 			dependencies: ["2EBB702869B9D13C"]
 			id: "5B657CCC8CE1E2CE"
 			tasks: [{
@@ -1765,8 +1796,9 @@
 			}]
 		}
 		{
-			x: -9.75d
-			y: 14.75d
+			x: -6.0d
+			y: 3.0d
+			shape: "diamond"
 			dependencies: ["2EBB702869B9D13C"]
 			id: "51FE044B77CCF30E"
 			tasks: [{
@@ -3026,8 +3058,8 @@
 			}]
 		}
 		{
-			x: -14.5d
-			y: 14.75d
+			x: -3.25d
+			y: 4.5d
 			shape: "diamond"
 			description: ["The &dModification Station&r is used for applying modular upgrades to the Meka-Suit in exchange for energy."]
 			id: "3E34DCCD95A33B4C"
@@ -3076,6 +3108,12 @@
 		{
 			x: -6.75d
 			y: 12.75d
+			hide_dependency_lines: true
+			dependencies: [
+				"0E4A27067D64FFCE"
+				"3C9F03BD5AAD64B4"
+				"625F7139C06E41C8"
+			]
 			id: "5167033DA80EFDD1"
 			tasks: [{
 				id: "2F224DD2AEF52ED8"
@@ -3093,6 +3131,10 @@
 				"With the &bTeleporter frame&f together with the Teleporter you can create a Teleporter Portal."
 				""
 				"This portal can be walked directly into for instant teleportation."
+			]
+			dependencies: [
+				"73368EF2948452D9"
+				"625F7139C06E41C8"
 			]
 			id: "704766D213E3306F"
 			tasks: [
@@ -3244,8 +3286,8 @@
 			}]
 		}
 		{
-			x: -14.5d
-			y: 12.75d
+			x: -3.25d
+			y: 2.5d
 			shape: "diamond"
 			id: "52CE6BB578D13AB9"
 			tasks: [{
@@ -3555,6 +3597,47 @@
 				id: "67EF6830666AF58D"
 				type: "item"
 				item: "mekanism:bio_fuel"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 2.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["2B471E4CC0E02DED"]
+			id: "0E58373C4155E36C"
+			tasks: [{
+				id: "3C0B3765C036472A"
+				type: "item"
+				item: "mekanism:geiger_counter"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 1.5d
+			shape: "diamond"
+			dependencies: ["2EBB702869B9D13C"]
+			id: "4C3F1C83C6F40522"
+			tasks: [{
+				id: "5AFF0F2CBCAE5646"
+				type: "item"
+				item: "mekanism:dosimeter"
+			}]
+		}
+		{
+			x: -5.75d
+			y: 11.75d
+			hide_dependency_lines: true
+			dependencies: [
+				"4486C68BF5B9FCE2"
+				"1E7C7E14842E3A7B"
+				"0E4A27067D64FFCE"
+			]
+			id: "625F7139C06E41C8"
+			tasks: [{
+				id: "3FDE254F6CBCA379"
+				type: "item"
+				item: "mekanism:teleportation_core"
 			}]
 		}
 	]
