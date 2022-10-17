@@ -3184,6 +3184,13 @@
 			x: 15.5d
 			y: 18.5d
 			shape: "diamond"
+			description: [
+				"&eChipped&r expands on the variety of blocks you can use in-game."
+				""
+				"The mod offers over 2000 unique building blocks."
+				""
+				"Chipped works in the same way as the stone cutter."
+			]
 			id: "559F61F3E7E1AA0F"
 			tasks: [{
 				id: "1CD3A0A1FB6AF006"
