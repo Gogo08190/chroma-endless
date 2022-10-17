@@ -4,7 +4,7 @@ onEvent('recipes', (event) => {
       {
           outputs: [{ type: 'masterfulmachinery:items', data: { item: 'create:refined_radiance', count: 1 } }],
           inputs: [
-              { type: 'masterfulmachinery:items', data: { item: 'create:chromatic_compound'', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'create:chromatic_compound', count: 1 } },
               { type: 'masterfulmachinery:items', data: { item: 'tconstruct:glow_ball', count: 1 } },
               { type: 'masterfulmachinery:items', data: { item: 'thermal:lightning_charge', count: 1 } },
               { type: 'masterfulmachinery:fluids', data: { fluid: 'tconstruct:blazing_blood', amount: 250 } },
@@ -16,7 +16,7 @@ onEvent('recipes', (event) => {
       {
           outputs: [{ type: 'masterfulmachinery:items', data: { item: 'create:shadow_steel', count: 1 } }],
           inputs: [
-              { type: 'masterfulmachinery:items', data: { item: 'create:chromatic_compound'', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'create:chromatic_compound', count: 1 } },
               { type: 'masterfulmachinery:items', data: { item: 'occultism:spirit_attuned_crystal', count: 1 } },
               { type: 'masterfulmachinery:items', data: { item: 'occultism:otherstone', count: 1 } },
               { type: 'masterfulmachinery:fluids', data: { fluid: 'tconstruct:blazing_blood', amount: 250 } },

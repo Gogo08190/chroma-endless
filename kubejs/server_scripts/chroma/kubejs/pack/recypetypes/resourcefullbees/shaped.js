@@ -45,7 +45,7 @@ onEvent('recipes', (event) => {
           pattern: ['I  ', 'BR ', 'I  '],
           key: {
               I: 'minecraft:iron_trapdoor',
-              B: 'metalbarrels:netherite_barrel',
+              B: 'expandedstorage:netherite_barrel',
               R: 'rsgauges:rustic_lever'
           },
           id: 'resourcefulbees:mechanical_centrifuge'
@@ -93,10 +93,10 @@ onEvent('recipes', (event) => {
           pattern: ['BIB', 'NHG', 'BDB'],
           key: {
               B: 'resourcefulbees:waxed_machine_block',
-              I: 'metalbarrels:iron_barrel',
-              G: 'metalbarrels:gold_barrel',
-              D: 'metalbarrels:diamond_barrel',
-              N: 'metalbarrels:netherite_barrel',
+              I: 'expandedstorage:iron_barrel',
+              G: 'expandedstorage:gold_barrel',
+              D: 'expandedstorage:diamond_barrel',
+              N: 'expandedstorage:netherite_barrel',
               H: 'minecraft:hopper'
           },
           id: 'resourcefulbees:apiary_storage'
