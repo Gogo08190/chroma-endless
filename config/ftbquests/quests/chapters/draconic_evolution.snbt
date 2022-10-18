@@ -1,9 +1,9 @@
 {
 	id: "1722DA9D7436A961"
-	group: "35B3FA4E85C275BD"
-	order_index: 1
+	group: "44A22EED2BE11886"
+	order_index: 2
 	filename: "draconic_evolution"
-	title: "Draconic Evolution"
+	title: "&bChapter 3&r &6-&r Draconic Evolution"
 	icon: {
 		id: "draconicevolution:chaotic_staff"
 		Count: 1b
@@ -2178,6 +2178,261 @@
 				id: "62D4A60C5542EA89"
 				type: "item"
 				item: "draconicmachinery:redstone_core"
+			}]
+		}
+		{
+			icon: "masterfulmachinery:endlessreactor_controller"
+			x: 0.25d
+			y: 5.75d
+			shape: "hexagon"
+			id: "1078728FC1760BB3"
+			tasks: [
+				{
+					id: "5EF6BB5874A92460"
+					type: "item"
+					item: "masterfulmachinery:endlessreactor_controller"
+				}
+				{
+					id: "3815240BB026EFD5"
+					type: "item"
+					item: "masterfulmachinery:endlessreactor_endless_item_port_items_input"
+				}
+				{
+					id: "0442E383A08A78B2"
+					type: "item"
+					item: "masterfulmachinery:endlessreactor_endless_item_port_items_output"
+				}
+				{
+					id: "14F3E8812A0BF967"
+					type: "item"
+					item: "masterfulmachinery:endlessreactor_endless_air_port_pncr_pressure_input"
+				}
+				{
+					id: "51264BEEACF2E816"
+					type: "item"
+					item: "masterfulmachinery:endlessreactor_endless_energy_port_energy_output"
+				}
+				{
+					id: "360D629036160A2F"
+					type: "item"
+					item: "masterfulmachinery:endlessreactor_endless_fluid_port_fluids_input"
+				}
+				{
+					id: "4C9F5A4E25C4D4FF"
+					type: "item"
+					item: "masterfulmachinery:endlessreactor_endless_speed_port_create_rotation_output"
+					count: 3L
+				}
+				{
+					id: "20F25D6A149BEE3F"
+					type: "item"
+					item: "masterfulmachinery:endlessreactor_endless_gas_port_mekanism_gas_input"
+				}
+				{
+					id: "2BC3E93296B92D42"
+					type: "item"
+					item: "mekanism:basic_induction_cell"
+					count: 94L
+				}
+				{
+					id: "1906200D134A1511"
+					type: "item"
+					item: "tardis:crash_chair"
+					count: 4L
+				}
+				{
+					id: "54F9357A59180895"
+					type: "item"
+					item: "elevatorid:elevator_gray"
+				}
+				{
+					id: "32FB6531A1089B49"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 40L
+				}
+				{
+					id: "615006C0C226D578"
+					type: "item"
+					item: "simplylight:illuminant_blue_block_on"
+					count: 20L
+				}
+				{
+					id: "65D0AF1809326C23"
+					type: "item"
+					item: "simplylight:illuminant_red_block_on"
+					count: 28L
+				}
+				{
+					id: "08C96C89FF935E22"
+					type: "item"
+					item: "mekanism:laser"
+				}
+			]
+		}
+		{
+			icon: "masterfulmachinery:endlessreactor_controller"
+			x: 1.25d
+			y: 5.75d
+			shape: "hexagon"
+			size: 2.0d
+			id: "14B312DBA79509DB"
+			tasks: [
+				{
+					id: "73E1420EA4B80998"
+					type: "item"
+					item: "mekanism:laser_amplifier"
+				}
+				{
+					id: "1C25BA1867EEC779"
+					type: "item"
+					item: "miniutilities:laser_port"
+					count: 4L
+				}
+				{
+					id: "44C3578EB8E495AC"
+					type: "item"
+					item: "create:mechanical_bearing"
+					count: 2L
+				}
+				{
+					id: "362533445CD92AD9"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_glass"
+					count: 34L
+				}
+				{
+					id: "28AB083CE6196268"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_interface"
+					count: 2L
+				}
+				{
+					id: "1B84AB451DFC5DE6"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_valve"
+					count: 2L
+				}
+				{
+					id: "7734E6519125EC02"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_wall"
+					count: 60L
+				}
+				{
+					id: "706CA32269A29F2F"
+					type: "item"
+					item: "pneumaticcraft:programmer"
+					count: 4L
+				}
+				{
+					id: "6452E96982BE885D"
+					type: "item"
+					item: "create:refined_radiance_casing"
+					count: 16L
+				}
+				{
+					id: "1BF7EF90B70D94CD"
+					type: "item"
+					item: "engineersdecor:steel_catwalk_ta"
+					count: 181L
+				}
+				{
+					id: "3CDCC00995F94632"
+					type: "item"
+					item: "mekanismgenerators:reactor_glass"
+					count: 61L
+				}
+				{
+					id: "16EFD6003907AACB"
+					type: "item"
+					item: "create:shadow_steel_casing"
+					count: 107L
+				}
+				{
+					id: "442C1CAA7DDB1FFC"
+					type: "item"
+					item: "create:shaft"
+					count: 12L
+				}
+				{
+					id: "0B4BEE06C2F1777C"
+					type: "item"
+					item: "engineersdecor:steel_catwalk_stairs"
+					count: 17L
+				}
+				{
+					id: "1C36FABD667D20D2"
+					type: "item"
+					item: "engineersdecor:steel_railing"
+					count: 109L
+				}
+			]
+		}
+		{
+			icon: "masterfulmachinery:endlessreactor_controller"
+			x: 2.25d
+			y: 5.75d
+			shape: "hexagon"
+			size: 2.0d
+			id: "3D69A56B2F4BA228"
+			tasks: [
+				{
+					id: "6F9C40CC472ADB95"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 1705L
+				}
+				{
+					id: "364E50B24CADF753"
+					type: "item"
+					item: {
+						id: "create:super_glue"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					count: 8L
+				}
+				{
+					id: "5B88FB0D324EBADD"
+					type: "item"
+					item: "mekanism:supercharged_coil"
+					count: 8L
+				}
+				{
+					id: "57984DE2918752BB"
+					type: "item"
+					item: "tardis:tungsten_screen"
+					count: 2L
+				}
+				{
+					id: "68A7B492F1470E88"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_colored_white"
+					count: 314L
+				}
+				{
+					id: "363EF52BED5B4408"
+					type: "item"
+					item: "botania:corporea_index"
+				}
+			]
+		}
+		{
+			x: 1.25d
+			y: 7.0d
+			dependencies: [
+				"3D69A56B2F4BA228"
+				"14B312DBA79509DB"
+				"1078728FC1760BB3"
+			]
+			id: "3B58DF30C3472F0F"
+			tasks: [{
+				id: "79C5EDF63507D874"
+				type: "checkmark"
+				title: "Build The Endless Reactor"
 			}]
 		}
 	]

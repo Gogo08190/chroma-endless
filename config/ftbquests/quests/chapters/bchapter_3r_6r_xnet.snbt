@@ -1,0 +1,300 @@
+{
+	id: "08CAB32239A3C554"
+	group: "649CE452F2BBF13D"
+	order_index: 2
+	filename: "bchapter_3r_6r_xnet"
+	title: "&bChapter 3&r &6-&r Xnet"
+	icon: "xnet:controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.25d
+			y: 2.75d
+			shape: "diamond"
+			description: ["An antenna dish has to be placed on top of an antenna base and allows very extreme wireless range."]
+			dependencies: ["36ED9B870BA8D62B"]
+			id: "3AC8C0F1AD4DC5A8"
+			tasks: [{
+				id: "7FABC83D0E041571"
+				type: "item"
+				item: "xnet:antenna_dish"
+			}]
+		}
+		{
+			x: -0.75d
+			y: 2.25d
+			shape: "diamond"
+			description: ["An antenna base has to be places on top of a wireless router."]
+			dependencies: ["3D9EAE5C80C31F67"]
+			id: "36ED9B870BA8D62B"
+			tasks: [{
+				id: "10622922727F07BB"
+				type: "item"
+				item: "xnet:antenna_base"
+			}]
+		}
+		{
+			x: -0.25d
+			y: 2.75d
+			shape: "diamond"
+			description: ["Place one or two antenna's on top of an antenna base."]
+			dependencies: ["36ED9B870BA8D62B"]
+			id: "6FED5234887A2287"
+			tasks: [{
+				id: "676606AF92B577F6"
+				type: "item"
+				item: "xnet:antenna"
+			}]
+		}
+		{
+			x: 0.25d
+			y: 0.0d
+			shape: "square"
+			description: ["Advanced connectors have other advantages. They allow higher speeds for item and fluid transfer and can store more RF."]
+			dependencies: ["75DBA9C5F7F613A3"]
+			id: "56874C2267490738"
+			tasks: [{
+				id: "33285BFEA30D258C"
+				type: "item"
+				title: "Advanced Connector"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "xnet:advanced_connector_red"
+								Count: 1b
+							}
+							{
+								id: "xnet:advanced_connector_green"
+								Count: 1b
+							}
+							{
+								id: "xnet:advanced_connector_blue"
+								Count: 1b
+							}
+							{
+								id: "xnet:advanced_connector_yellow"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 0.25d
+			y: 1.0d
+			shape: "square"
+			dependencies: ["02F5B9A518E24A05"]
+			id: "3B438AED0021F845"
+			tasks: [{
+				id: "07C8A8B3E374F997"
+				type: "item"
+				item: "xnet:advanced_connector_routing"
+			}]
+		}
+		{
+			x: -0.75d
+			y: 1.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["7FDB198388B18E4A"]
+			id: "02F5B9A518E24A05"
+			tasks: [{
+				id: "582F01AA45A975AB"
+				type: "item"
+				item: "xnet:connector_routing"
+			}]
+		}
+		{
+			x: -0.75d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"You use connectors to connect machines to your network."
+				""
+				"Normal connectors only allow access through the side from which you are placing the connector."
+			]
+			hide_dependency_lines: true
+			dependencies: ["53C00669B4F7C55C"]
+			id: "75DBA9C5F7F613A3"
+			tasks: [{
+				id: "1075039F3691230A"
+				type: "item"
+				title: "Connector"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "xnet:connector_red"
+								Count: 1b
+							}
+							{
+								id: "xnet:connector_green"
+								Count: 1b
+							}
+							{
+								id: "xnet:connector_blue"
+								Count: 1b
+							}
+							{
+								id: "xnet:connector_yellow"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -1.75d
+			y: 1.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["7FDB198388B18E4A"]
+			id: "2F5134834B9EC4FA"
+			tasks: [{
+				id: "2294C1C3B0133C7F"
+				type: "item"
+				item: "xnet:netcable_routing"
+			}]
+		}
+		{
+			x: -1.75d
+			y: 0.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["53C00669B4F7C55C"]
+			id: "5578C8C13E39DD7D"
+			tasks: [{
+				id: "498DFFED7A6A65BD"
+				type: "item"
+				title: "Network Cable"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "xnet:netcable_red"
+								Count: 1b
+							}
+							{
+								id: "xnet:netcable_green"
+								Count: 1b
+							}
+							{
+								id: "xnet:netcable_blue"
+								Count: 1b
+							}
+							{
+								id: "xnet:netcable_yellow"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -1.75d
+			y: -1.75d
+			shape: "octagon"
+			description: [
+				"A network is basically a single section of connected cables connected (via connectors) to various blocks (chests, machines, ...) and one controller. The controller is the block that does the actual work for that network."
+				""
+				"Every network can have 8 channels maximum. Every channel has a type (energy, item, fluid, logic, ...) that you can configure in the controller. Depending on the type of a channel and the machines that are connected to that channel various things can happen."
+			]
+			dependencies: [
+				"3D9EAE5C80C31F67"
+				"121DF7B31DB4BEF8"
+			]
+			min_width: 240
+			id: "53C00669B4F7C55C"
+			tasks: [{
+				id: "22A04B1E108FC894"
+				type: "item"
+				item: "xnet:controller"
+			}]
+		}
+		{
+			x: -0.75d
+			y: -1.0d
+			description: [
+				"The Facade is a block which can \"mimic\" blocks (inherit their texture). It can cover a regular or advanced Connector, a Network Cable, or a Routing Cable."
+				""
+				"To mimic a block, the player must place or find the block they want mimicked and shift-right click on it. Then, they can right-click on one of the blocks above with the Facade to apply it."
+			]
+			dependencies: ["3D9EAE5C80C31F67"]
+			id: "7F80F5EADC88B370"
+			tasks: [{
+				id: "106AE40177055671"
+				type: "item"
+				item: "xnet:facade"
+			}]
+		}
+		{
+			x: 0.25d
+			y: -1.75d
+			shape: "octagon"
+			description: [
+				"If you want to go beyond the 8 channel limit or you want to connect multiple distinct networks you can make a 'routing network' using routers."
+				""
+				" A single router is already sufficient to connect up to six (six sides of the router) channels but using routing cables and routing connectors you can also make a routing network out of routers."
+				""
+				"Note that on a single routing network you can only have 32 published channels."
+				"{image:chroma:textures/quests/router.png width:250 height:180 align:1}"
+			]
+			dependencies: [
+				"121DF7B31DB4BEF8"
+				"3D9EAE5C80C31F67"
+			]
+			min_width: 300
+			id: "7FDB198388B18E4A"
+			tasks: [{
+				id: "778F4EAF12F84590"
+				type: "item"
+				title: "Router"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "xnet:router"
+								Count: 1b
+							}
+							{
+								id: "xnet:wireless_router"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -0.75d
+			y: -3.5d
+			shape: "gear"
+			dependencies: [
+				"2CD1D3F4A706D6BF"
+				"3AC2609EA33632B8"
+				"141E4C0BBA865753"
+				"57CC5F007AA6A8DF"
+			]
+			size: 1.5d
+			id: "3D9EAE5C80C31F67"
+			tasks: [{
+				id: "284CD41307F92069"
+				type: "item"
+				item: "kubejs:xnet_machine_frame"
+			}]
+		}
+	]
+}

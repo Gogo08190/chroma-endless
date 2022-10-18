@@ -246,6 +246,7 @@
 			}
 			x: 0.0d
 			y: -3.0d
+			dependencies: ["1416718F40ED7569"]
 			id: "3F6525C9F04A5EA5"
 			tasks: [{
 				id: "09C9AE62C617B067"
@@ -258,6 +259,7 @@
 			x: 0.0d
 			y: 3.0d
 			description: ["expliquer comment mute/modif config"]
+			dependencies: ["1416718F40ED7569"]
 			id: "515692CECD9B85B8"
 			tasks: [{
 				id: "530C64F5D864DB84"
@@ -287,6 +289,26 @@
 				id: "5CD4D421813019F6"
 				type: "checkmark"
 				title: "Get a server !"
+			}]
+		}
+		{
+			title: "&dInformation about Create Schematics !"
+			icon: "create:schematic_and_quill"
+			x: -3.0d
+			y: 0.0d
+			description: [
+				"On Chroma Endless you will be able to find a lot of custom multiblocks, we advise you to use the create schematics that we have provided you to build the custom machines."
+				""
+				"They are named MM_name_of_machine for Masterfull multiblock and CC_name_of_machine for mutiblock which are made with Compact Crafting !"
+				""
+				"You can find them in the Schematics Table !"
+			]
+			dependencies: ["1416718F40ED7569"]
+			id: "03A7B400A1F002B5"
+			tasks: [{
+				id: "6A5654BCADFF14BF"
+				type: "checkmark"
+				title: "Create Schematics"
 			}]
 		}
 	]

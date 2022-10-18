@@ -1,0 +1,431 @@
+{
+	id: "337FF47FA6834F12"
+	group: "4B06503CAA5674FC"
+	order_index: 3
+	filename: "bchapter_2r_6r_new_alloying"
+	title: "&bChapter 4&r &6-&r New alloying"
+	icon: "enderioalloys:item_material_skull_zombie_controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.25d
+			y: 2.25d
+			dependencies: ["2B19363B609E6BF3"]
+			id: "3D33E91A8207F816"
+			tasks: [{
+				id: "33CA69DBB52FFBB6"
+				type: "item"
+				item: "enderioalloys:item_material_skull_zombie_electrode"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			dependencies: ["2B19363B609E6BF3"]
+			id: "6B05686E098DE2C9"
+			tasks: [{
+				id: "4BCA10CE44423A8A"
+				type: "item"
+				item: "enderioalloys:item_material_skull_zombie_controller"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.25d
+			shape: "octagon"
+			subtitle: "Slicing and Splicing"
+			description: [
+				"The &6Slice'N'Plice&r can be upgraded ! "
+				""
+				"The first available upgrade is the &5Basic Capacitor&r, it reduces the cost of energy and the recipe duration by &n20%&r."
+				""
+				"The second upgrade is the &5Double-Layered Capacitor&r, it reduces the cost of energy and the recipe duration by &n35%&r."
+				""
+				"The third and final upgrade is the &5Octadic Capacitor&r, it reduces the cost of energy and the recipe duration by &n50%&r."
+			]
+			dependencies: ["126F8199A5140A17"]
+			size: 1.5d
+			min_width: 250
+			id: "2B19363B609E6BF3"
+			tasks: [{
+				id: "37459F711636B88F"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:slice_n_splice"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			dependencies: ["2B19363B609E6BF3"]
+			id: "52F8663AB419BDA9"
+			tasks: [{
+				id: "57A50AE1FED504A2"
+				type: "item"
+				item: "enderioalloys:item_material_skull_skeletal_contractor"
+			}]
+		}
+		{
+			x: 1.25d
+			y: 2.25d
+			dependencies: ["2B19363B609E6BF3"]
+			id: "5AC34B619EB27C7F"
+			tasks: [{
+				id: "75FDDDBC3351D353"
+				type: "item"
+				item: "enderioalloys:item_material_skull_ender_resonator"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -0.75d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "38C929808BBB9FFF"
+			tasks: [{
+				id: "7E95737046913492"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_crude_steel"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.25d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "69B020744DBF26D5"
+			tasks: [{
+				id: "2E62CD44488077BD"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_melodic_alloy"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.75d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "6F0F3A66173096A7"
+			tasks: [{
+				id: "5BE3E6EC6DD86C0A"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_redstone_alloy"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.25d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "3300C7DD0785113B"
+			tasks: [{
+				id: "72D25C6312BEC96C"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_pulsating_iron"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.75d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "3380D85F28C8B5EB"
+			tasks: [{
+				id: "0CD35D525E63BFBA"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_electrical_steel"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.25d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "66496828833731B1"
+			tasks: [{
+				id: "6FD370025BE12620"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_energetic_alloy"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.75d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "126F8199A5140A17"
+			tasks: [{
+				id: "735E2574870B3E32"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_soularium"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.25d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "5BBFB01F0E06BF9F"
+			tasks: [{
+				id: "0B2864DB6B6A86AF"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_end_steel"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.75d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "30115FB202198BA8"
+			tasks: [{
+				id: "5DF5855764B79656"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_dark_steel"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.75d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "114B2878B5B32D2E"
+			tasks: [{
+				id: "373071AFE2B26D09"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_energetic_silver"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.25d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "4B0253447D712CBC"
+			tasks: [{
+				id: "7E36E5AB7A301943"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_conductive_iron"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.75d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "1130C3F682C33D56"
+			tasks: [{
+				id: "6CFCEAB21D67DF8E"
+				type: "item"
+				item: "enderioalloys:item_material_glazed_nether_brick"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.25d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "085E191BC7D8D97D"
+			tasks: [{
+				id: "750A564698589AC3"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_crystalline_alloy"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -0.75d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "362BB585EE70BACD"
+			tasks: [{
+				id: "104BBFB33D66DCD1"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_vivid_alloy"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.25d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "1FC021A3877901BF"
+			tasks: [{
+				id: "42CBAF40593D687E"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_vivid_alloy"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.75d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "30E7945206FE2CF7"
+			tasks: [{
+				id: "2F4A099FF01955E9"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_stellar_alloy"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.25d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "092185A1F03832BE"
+			tasks: [{
+				id: "2E166FD46D2E5210"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_crystalline_pink_slime"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			shape: "octagon"
+			subtitle: "Can't craft Tinker's Ingots"
+			description: [
+				"The &6Alloy Smelter&r can be upgraded ! "
+				""
+				"The first available upgrade is the &5Basic Capacitor&r, it reduces the cost of energy and the recipe duration by &n20%&r."
+				""
+				"The second upgrade is the &5Double-Layered Capacitor&r, it reduces the cost of energy and the recipe duration by &n35%&r."
+				""
+				"The third and final upgrade is the &5Octadic Capacitor&r, it reduces the cost of energy and the recipe duration by &n50%&r."
+			]
+			dependencies: ["3B8FE588BB137295"]
+			size: 1.5d
+			min_width: 250
+			id: "4E811B1DDCA7ACFE"
+			tasks: [{
+				id: "0192C68229054856"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:alloy_smelter"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -6.25d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["6F0F3A66173096A7"]
+			id: "63A29FE5B540965D"
+			tasks: [{
+				id: "168A602C2849FEEB"
+				type: "item"
+				item: "kubejs:basic_capacitor"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			shape: "hexagon"
+			dependencies: [
+				"63A29FE5B540965D"
+				"6FD370025BE12620"
+			]
+			id: "248BD7594496B815"
+			tasks: [{
+				id: "7F782BA213B760EB"
+				type: "item"
+				item: "kubejs:double-layer_capacitor"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.25d
+			shape: "hexagon"
+			dependencies: [
+				"248BD7594496B815"
+				"4804D5C7A7BA55BF"
+			]
+			id: "23D4D5A08A70D5F6"
+			tasks: [{
+				id: "0172673C89B1BA45"
+				type: "item"
+				item: "kubejs:octadic_capacitor"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.75d
+			shape: "diamond"
+			dependencies: ["4E811B1DDCA7ACFE"]
+			id: "110DC7DC1EEF3FB0"
+			tasks: [{
+				id: "4804D5C7A7BA55BF"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_vibrant_alloy"
+			}]
+		}
+		{
+			x: 2.25d
+			y: -0.75d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"74620C853A80A58E"
+				"37C8524602AC71CD"
+				"127EA9518CC437D4"
+			]
+			id: "4B7F5124DA8D74AC"
+			tasks: [{
+				id: "468796FD3F1BC3AA"
+				type: "item"
+				item: "enderioalloys:item_material_weather_crystal"
+			}]
+		}
+		{
+			x: -2.25d
+			y: -0.75d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["110DC7DC1EEF3FB0"]
+			id: "37C8524602AC71CD"
+			tasks: [{
+				id: "701B350275217531"
+				type: "item"
+				item: "enderioalloys:item_material_vibrant_crystal"
+			}]
+		}
+		{
+			x: 1.75d
+			y: -0.25d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3300C7DD0785113B"]
+			id: "127EA9518CC437D4"
+			tasks: [{
+				id: "71EE793844B9619E"
+				type: "item"
+				item: "enderioalloys:item_material_pulsating_crystal"
+			}]
+		}
+		{
+			x: -1.75d
+			y: -0.25d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["37C8524602AC71CD"]
+			id: "74620C853A80A58E"
+			tasks: [{
+				id: "79A430091FC6234A"
+				type: "item"
+				item: "enderioalloys:item_material_ender_crystal"
+			}]
+		}
+	]
+}

@@ -1,11 +1,10 @@
 {
 	id: "7F728D9BC9D8E907"
-	group: "34085A64296DE6C7"
+	group: "206AEEAA9A4E5484"
 	order_index: 0
 	filename: "ch_3_rename"
-	title: "Ch. 3 (rename)"
+	title: "&bChapter 1&r &6-&r Thermal"
 	icon: "thermal:machine_frame"
-	subtitle: ["Thermal + Pipez"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [{
@@ -1390,6 +1389,93 @@
 				type: "item"
 				item: "thermal:tar"
 			}]
+		}
+		{
+			title: "Auto Smithing Table"
+			icon: "masterfulmachinery:autosmithing_controller"
+			x: 0.0d
+			y: 19.0d
+			shape: "gear"
+			description: ["A multiblick allow you to automate &6Smiting Table&r !"]
+			hide_dependency_lines: true
+			dependencies: [
+				"56D83790E33B0765"
+				"7760AB40C4B58AA2"
+				"32EBB3938122A6D9"
+				"24EEF248EEAD4E80"
+				"33A8A07EEB0A763B"
+				"3AC2609EA33632B8"
+			]
+			size: 2.0d
+			id: "2CFFC67E15ED0A92"
+			tasks: [
+				{
+					id: "3CB769456B43F014"
+					type: "item"
+					item: "masterfulmachinery:autosmithing_controller"
+				}
+				{
+					id: "64E921A98AC60E37"
+					type: "item"
+					item: "masterfulmachinery:autosmithing_autosmithing_item_port_items_input"
+				}
+				{
+					id: "2C79378C51C48DDE"
+					type: "item"
+					item: "masterfulmachinery:autosmithing_autosmithing_item_port_items_output"
+				}
+				{
+					id: "5DCAE53EE4A5D42C"
+					type: "item"
+					item: "masterfulmachinery:autosmithing_autosmithing_energy_port_energy_input"
+				}
+				{
+					id: "7244876BB28498BE"
+					type: "item"
+					item: "immersiveengineering:blastfurnace_preheater"
+					count: 2L
+				}
+				{
+					id: "06841301AFAA8590"
+					type: "item"
+					item: "tconstruct:brown_clear_stained_glass"
+					count: 24L
+				}
+				{
+					id: "0F02275B8C575FD1"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 4L
+				}
+				{
+					id: "2793AF43FFFE1AE2"
+					type: "item"
+					item: "immersiveengineering:coil_hv"
+					count: 4L
+				}
+				{
+					id: "15D077077DAEB6E4"
+					type: "item"
+					item: "create:shadow_steel_casing"
+					count: 62L
+				}
+				{
+					id: "6240569823E346DA"
+					type: "item"
+					item: "minecraft:smithing_table"
+				}
+				{
+					id: "050AF0A5DB091A9D"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+				}
+				{
+					id: "12A7DDB57DBA31C1"
+					type: "item"
+					item: "immersiveengineering:treated_wood_horizontal"
+					count: 69L
+				}
+			]
 		}
 	]
 }

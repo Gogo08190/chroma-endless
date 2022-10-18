@@ -476,7 +476,8 @@
 				id: "214C1F37D5D788B8"
 				type: "item"
 				item: "tconstruct:pattern"
-				count: 5
+				count: 4
+				random_bonus: 4
 			}]
 		}
 		{
@@ -1528,6 +1529,20 @@
 				id: "0AEE69AB984906DD"
 				type: "item"
 				item: "minecraft:furnace"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 10.75d
+			shape: "pentagon"
+			subtitle: "Cobalt Harvest Level required"
+			description: ["&6Any Ocean Biomes, Y 5 to 45"]
+			dependencies: ["7FF11CD4F28B658F"]
+			id: "766AF7476B2AA9B6"
+			tasks: [{
+				id: "54EEFBC52F7C967D"
+				type: "item"
+				item: "allthemodium:allthemodium_ore"
 			}]
 		}
 	]

@@ -852,5 +852,19 @@
 				item: "betterendforge:thallasium_sword_handle"
 			}]
 		}
+		{
+			x: 2.75d
+			y: -6.0d
+			shape: "octagon"
+			subtitle: "Vibranium Harvest Level required"
+			description: ["&5End Highlands Biomes Only"]
+			dependencies: ["2BA269B9CA2B23C4"]
+			id: "4B22713DFC0993A7"
+			tasks: [{
+				id: "46C59809F1527E0A"
+				type: "item"
+				item: "allthemodium:unobtainium_ore"
+			}]
+		}
 	]
 }
