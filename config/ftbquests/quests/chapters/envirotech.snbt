@@ -409,6 +409,14 @@
 			x: -0.5d
 			y: 5.25d
 			shape: "rsquare"
+			description: [
+				"68x Frame (Tier>=5)"
+				"36x Panel"
+				"04x IO Block or Frame (Tier>=5)"
+				"16x Modifier"
+				"06x Laser Core"
+				"01x Laser Lens Holder"
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"1D23D686D1A72DC6"
@@ -427,6 +435,14 @@
 			x: 5.0d
 			y: 5.25d
 			shape: "rsquare"
+			description: [
+				"88x Frame (Tier>=6)"
+				"56x Panel"
+				"04x IO Block or Frame (Tier>=6)"
+				"20x Modifier"
+				"06x Laser Core"
+				"01x Laser Lens Holder"
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"1D23D686D1A72DC6"
@@ -445,6 +461,14 @@
 			x: 10.5d
 			y: 5.25d
 			shape: "rsquare"
+			description: [
+				"92x Frame (Tier>=7)"
+				"56x Panel"
+				"04x IO Block or Frame (Tier>=7)"
+				"20x Modifier"
+				"07x Laser Core"
+				"01x Laser Lens Holder"
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"3225C3BC59E31296"
@@ -464,6 +488,14 @@
 			x: 16.0d
 			y: 5.25d
 			shape: "rsquare"
+			description: [
+				"100x Frame (Tier>=8)"
+				"88x Panel"
+				"04x IO Block or Frame (Tier>=8)"
+				"20x Modifier"
+				"07x Laser Core"
+				"01x Laser Lens Holder"
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"59232D063C6F0096"
@@ -553,6 +585,12 @@
 			x: 0.5d
 			y: 5.25d
 			shape: "rsquare"
+			description: [
+				"48x Frame (Tier>=5)"
+				"04x IO Block or Frame (Tier>=5)"
+				"12x Modifier"
+				"121x Solar Cell"
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"1D23D686D1A72DC6"
@@ -595,6 +633,12 @@
 			x: 6.0d
 			y: 5.25d
 			shape: "rsquare"
+			description: [
+				"56x Frame (Tier>=6)"
+				"04x IO Block or Frame (Tier>=6)"
+				"12x Modifier"
+				"169x Solar Cell"
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"1D23D686D1A72DC6"
@@ -613,6 +657,12 @@
 			x: 11.5d
 			y: 5.25d
 			shape: "rsquare"
+			description: [
+				"64x Frame (Tier>=7)"
+				"04x IO Block or Frame (Tier>=7)"
+				"16x Modifier"
+				"225x Solar Cell"
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"3225C3BC59E31296"
@@ -705,6 +755,12 @@
 			x: -5.5d
 			y: 5.25d
 			shape: "rsquare"
+			description: [
+				"09x Frame (Tier>=4)"
+				"01x IO Block or Frame (Tier>=4)"
+				"03x Modifier"
+				"05x Lightning Rod"
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"73368EF2948452D9"
@@ -723,6 +779,13 @@
 			x: 1.5d
 			y: 5.25d
 			shape: "rsquare"
+			description: [
+				"09x Frame (Tier>=5)"
+				"01x IO Block or Frame (Tier>=5)"
+				"03x Modifier"
+				"06x Lightning Rod"
+				"26x Insulated Lightning Rod"
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"1D23D686D1A72DC6"
@@ -741,6 +804,13 @@
 			x: 7.0d
 			y: 5.25d
 			shape: "rsquare"
+			description: [
+				"09x Frame (Tier>=6)"
+				"01x IO Block or Frame (Tier>=6)"
+				"03x Modifier"
+				"07x Lightning Rod"
+				"31x Insulated Lightning Rod"
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"1D23D686D1A72DC6"
@@ -759,6 +829,14 @@
 			x: 12.5d
 			y: 5.25d
 			shape: "rsquare"
+			description: [
+				"34x Frame (Tier>=7)"
+				"03x Panel"
+				"01x IO Block or Frame (Tier>=7)"
+				"04x Modifier"
+				"07x Lightning Rod"
+				"55x Insulated Lightning Rod"
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"3225C3BC59E31296"
@@ -777,6 +855,14 @@
 			x: 18.0d
 			y: 5.25d
 			shape: "rsquare"
+			description: [
+				"34x Frame (Tier>=8)"
+				"03x Panel"
+				"01x IO Block or Frame (Tier>=8)"
+				"04x Modifier"
+				"07x Lightning Rod"
+				"68x Insulated Lightning Rod"
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"29177C5D56D0BAC2"
@@ -2232,6 +2318,12 @@
 			x: 17.0d
 			y: 5.25d
 			shape: "rsquare"
+			description: [
+				"72x Frame (Tier>=8)"
+				"04x IO Block or Frame (Tier>=8)"
+				"16x Modifier"
+				"289x Solar Cell"
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"5779EC9CE2687832"

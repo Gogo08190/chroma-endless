@@ -10,7 +10,7 @@
 	quests: [
 		{
 			x: 1.0d
-			y: -12.75d
+			y: -10.75d
 			shape: "rsquare"
 			id: "279A04C78949BFC6"
 			tasks: [{
@@ -33,7 +33,7 @@
 		}
 		{
 			x: 1.0d
-			y: -10.75d
+			y: -12.75d
 			shape: "rsquare"
 			dependencies: ["716D947E7A743685"]
 			id: "0AA6706431A68D1F"

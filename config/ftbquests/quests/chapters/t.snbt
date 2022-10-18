@@ -12,7 +12,7 @@
 			x: -22.5d
 			y: 4.5d
 			shape: "diamond"
-			description: ["&bBins&r is a storage block that can only store a single item, however many it can store is based on its tier. It will retain its inventory when broken."]
+			description: ["&bBins&r are a storage block that can only store a single item, however many it can store is based on its tier. It will retain its inventory when broken."]
 			dependencies: [
 				"3C9263A8B9322A17"
 				"109D647ED52D215D"
@@ -1292,7 +1292,7 @@
 			x: -21.0d
 			y: -1.0d
 			shape: "octagon"
-			description: ["The &bCombiner&f allows the player to create an &aore block&f from &28 dust&f."]
+			description: ["The &bCombiner&f allows the player to create an &aore block&f from &28 dusts&f."]
 			dependencies: [
 				"6A4A1C5F2959DCD1"
 				"121DF7B31DB4BEF8"
@@ -1395,6 +1395,7 @@
 			y: 0.5d
 			shape: "diamond"
 			description: ["The &bAdvanced Solar Generator&f is a highly upgraded version of the basic Solar Generator."]
+			dependencies: ["4A6ED34F6D6B12E3"]
 			id: "21F421C391628AD1"
 			tasks: [{
 				id: "4F566DE29B8C89CA"
@@ -1876,7 +1877,7 @@
 			x: -16.75d
 			y: 2.75d
 			shape: "diamond"
-			description: ["The &bAtomic Disassembler&f is Mekanism's an all-in-one tool, essentially the ultimate, electronic version of the paxel."]
+			description: ["The &bAtomic Disassembler&f is Mekanism's all-in-one tool, essentially the ultimate, electronic version of the paxel."]
 			hide_dependency_lines: true
 			dependencies: [
 				"4ADD9913716BA3E2"
@@ -1901,7 +1902,7 @@
 			x: -17.5d
 			y: -4.25d
 			shape: "diamond"
-			description: ["A &bMekanism machine upgrade&f to make them &eprocess items faster&f, you can install 8 of these in each Mekanism machine."]
+			description: ["The &bSpeed upgrade&f is made to &eprocess items faster&f, you can install 8 of these in each Mekanism machine."]
 			hide_dependency_lines: true
 			dependencies: [
 				"6556C41B660B08F6"
@@ -1919,7 +1920,7 @@
 			x: -17.0d
 			y: -5.0d
 			shape: "diamond"
-			description: ["The &benergy upgrade&f upgrade allows you to increase the &epower storage capacity&f of a Mekanism machine which has an upgrade slot, as well as &ereduce its power consumption&f."]
+			description: ["The &bEnergy Upgrade&f upgrade allows you to increase the &epower storage capacity&f of a Mekanism machine which has an upgrade slot, as well as &ereduce its power consumption&f."]
 			hide_dependency_lines: true
 			dependencies: [
 				"73368EF2948452D9"
@@ -1970,7 +1971,7 @@
 			x: -17.0d
 			y: -3.5d
 			shape: "diamond"
-			description: ["The &bgas upgrade&f allows you to &eincrease the gas usage efficiency&f of a Mekanism machine which allows it."]
+			description: ["The &bGas Upgrade&f allows you to &eincrease the gas usage efficiency&f of a Mekanism machine which allows it."]
 			hide_dependency_lines: true
 			dependencies: [
 				"73368EF2948452D9"
@@ -3438,7 +3439,7 @@
 			x: -12.75d
 			y: -0.25d
 			shape: "diamond"
-			description: ["&dQIO Dashboards&r allow a user to interface with the contents of a QIO Drive Array. It looks similar to a chest inventory, but it can be searched, sorted, scrolled through, and shows all items of one type as a single stack, even if there are thousands of them. In order to access a drive array, the dashboard must be set to the same frequency as the drive array."]
+			description: ["&dQIO Dashboards&r allow users to interface with the contents of a QIO Drive Array. It looks similar to a chest inventory, but you can search, sort and scroll through. It shows all items of one type as a single stack, even if there are thousands of them. In order to access a drive array, the dashboard must be set to the same frequency as the drive array."]
 			min_width: 300
 			id: "463514656D61C9F4"
 			tasks: [{
