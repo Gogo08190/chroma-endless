@@ -1,11 +1,10 @@
 {
 	id: "610DA02408D00F36"
-	group: "34085A64296DE6C7"
-	order_index: 2
+	group: "56CE41B21EC10C89"
+	order_index: 0
 	filename: "ch_7_rename"
-	title: "Extended Crafting"
+	title: "&bChapter 1&r &6-&r Extended Crafting"
 	icon: "extendedcrafting:the_ultimate_ingot"
-	subtitle: ["Meka part 1 + Extended + Void miner T1"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -49,7 +48,10 @@
 			y: 0.75d
 			shape: "octagon"
 			subtitle: "Important ! "
-			dependencies: ["067E4E1175D3BBFA"]
+			dependencies: [
+				"067E4E1175D3BBFA"
+				"761BAE3E76AB71A3"
+			]
 			id: "6D4CE7DB9226C36C"
 			tasks: [{
 				id: "11F0446FF23E8FE9"
