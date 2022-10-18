@@ -1312,5 +1312,19 @@
 				}
 			}]
 		}
+		{
+			x: -11.0d
+			y: 8.75d
+			shape: "hexagon"
+			subtitle: "AllTheModium Harvest Level required"
+			description: ["&aWarped Forests and Crimson Forest, Y 107 to 113"]
+			dependencies: ["3A3CDBD5FF1985DB"]
+			id: "15CE779A150EDE8F"
+			tasks: [{
+				id: "0E83E743C0AFFBC1"
+				type: "item"
+				item: "allthemodium:vibranium_ore"
+			}]
+		}
 	]
 }

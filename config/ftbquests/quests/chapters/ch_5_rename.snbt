@@ -1865,5 +1865,22 @@
 				item: "pneumaticcraft:flux_compressor"
 			}]
 		}
+		{
+			x: -5.867346938775505d
+			y: -13.839285714285715d
+			shape: "octagon"
+			dependencies: [
+				"7B9FBBCD2F962A0B"
+				"7D06301D09F5D628"
+				"766AF7476B2AA9B6"
+			]
+			size: 1.3d
+			id: "28AB74353D3FBC81"
+			tasks: [{
+				id: "0CB9C49A22430DAD"
+				type: "item"
+				item: "allthemodium:teleport_pad"
+			}]
+		}
 	]
 }

@@ -1764,5 +1764,164 @@
 				item: "create:refined_radiance_casing"
 			}]
 		}
+		{
+			title: "Compound Factory Components - Part 1"
+			icon: "masterfulmachinery:autoinfuser_controller"
+			x: 29.25d
+			y: 39.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: [
+				"63BFABD722A4669D"
+				"5F069B0DBD798FFA"
+				"44F8EB952B8779B0"
+				"5174E5B7DC17EF63"
+				"7CCCE060E49A883E"
+				"21395AA7C28FA759"
+				"0319BD8E77EE7CE9"
+			]
+			size: 2.0d
+			id: "246C93E648C19494"
+			tasks: [
+				{
+					id: "0655256E29FAB3E4"
+					type: "item"
+					item: "masterfulmachinery:autoinfuser_controller"
+				}
+				{
+					id: "3F66F7CBBE85EB31"
+					type: "item"
+					item: "masterfulmachinery:autoinfuser_compound_item_port_items_input"
+				}
+				{
+					id: "2245A4F721121923"
+					type: "item"
+					item: "masterfulmachinery:autoinfuser_compound_item_port_items_output"
+				}
+				{
+					id: "2C361CBB77711656"
+					type: "item"
+					item: "masterfulmachinery:autoinfuser_compound_fluid_port_fluids_input"
+					count: 2L
+				}
+			]
+		}
+		{
+			title: "Compound Factory Components - Part 2"
+			icon: "masterfulmachinery:autoinfuser_controller"
+			x: 31.5d
+			y: 39.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["246C93E648C19494"]
+			size: 2.0d
+			id: "1DE3DBD772BE1138"
+			tasks: [
+				{
+					id: "5F0BA873F54FB45D"
+					type: "item"
+					item: "dustrial_decor:barbed_iron_bars"
+					count: 123L
+				}
+				{
+					id: "66BA985468AD2738"
+					type: "item"
+					item: "chisel:basalt/tiles_large"
+					count: 123L
+				}
+				{
+					id: "3E54C65E7F5098D5"
+					type: "item"
+					item: "connectedglass:clear_glass"
+					count: 41L
+				}
+				{
+					id: "2681D07F82B4FCB9"
+					type: "item"
+					item: "chisel:factory/hazard"
+					count: 53L
+				}
+				{
+					id: "58D1D84EF57CD304"
+					type: "item"
+					item: "create:depot"
+				}
+				{
+					id: "09A3F26BB8D165AC"
+					type: "item"
+					item: "immersiveengineering:floodlight"
+					count: 6L
+				}
+				{
+					id: "2E962A65DB4A50A1"
+					type: "item"
+					item: "create:fluid_pipe"
+					count: 36L
+				}
+				{
+					id: "38B3289CEF14AF62"
+					type: "item"
+					item: "create:fluid_tank"
+					count: 90L
+				}
+				{
+					id: "45644E60E406F3EB"
+					type: "item"
+					item: "create:refined_radiance_casing"
+					count: 9L
+				}
+				{
+					id: "49392DCC7434FC50"
+					type: "item"
+					item: "immersiveengineering:razor_wire"
+					count: 41L
+				}
+				{
+					id: "50CB810510953241"
+					type: "item"
+					item: "create:shadow_steel_casing"
+					count: 12L
+				}
+				{
+					id: "5F41FAB6F4A95E3C"
+					type: "item"
+					item: "create:spout"
+				}
+				{
+					id: "5EEEB849DB0A5BF7"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 48L
+				}
+				{
+					id: "52BB1D544D4F2115"
+					type: "item"
+					item: "occultism:storage_stabilizer_tier2"
+					count: 3L
+				}
+				{
+					id: "4BB064D981F9EB77"
+					type: "item"
+					item: "immersiveengineering:slab_sheetmetal_steel"
+					count: 5L
+				}
+			]
+		}
+		{
+			x: 30.35289115646257d
+			y: 40.36054421768708d
+			shape: "gear"
+			description: ["This multiblock allow you to automate &bShadow Steel&r and &bRefined Radiant&r"]
+			dependencies: [
+				"1DE3DBD772BE1138"
+				"246C93E648C19494"
+			]
+			id: "1AB8F5F98E6D570E"
+			tasks: [{
+				id: "556B1FBCF1F1286E"
+				type: "checkmark"
+				title: "Build The Compact Machine Factory"
+			}]
+		}
 	]
 }

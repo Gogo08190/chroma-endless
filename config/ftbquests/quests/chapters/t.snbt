@@ -897,8 +897,9 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 7.75d
+			x: -32.75d
+			y: 11.0d
+			shape: "diamond"
 			dependencies: ["027E251F81A6E279"]
 			id: "7487A5A3991D1222"
 			tasks: [{
@@ -1095,8 +1096,8 @@
 			}]
 		}
 		{
-			x: 13.75d
-			y: 4.0d
+			x: -22.5d
+			y: -10.0d
 			shape: "octagon"
 			description: ["The &bEnergy Tablet&f is a portable, rechargeable battery pack that can be charged with up to 1,000kJ of energy and can then be used to power other devices. It is also an ingredient in many recipes."]
 			dependencies: [
@@ -1112,8 +1113,9 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 7.75d
+			x: -34.25d
+			y: 11.0d
+			shape: "diamond"
 			dependencies: ["027E251F81A6E279"]
 			id: "2D17968D3B7C09B4"
 			tasks: [{
@@ -1194,9 +1196,10 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 6.75d
-			dependencies: ["742B02F5F371D041"]
+			x: -33.5d
+			y: 11.5d
+			shape: "diamond"
+			dependencies: ["2F417F6013D43F9F"]
 			id: "027E251F81A6E279"
 			tasks: [{
 				id: "3F18EBB3F1A119B7"
@@ -1364,8 +1367,9 @@
 			}]
 		}
 		{
-			x: -2.25d
-			y: -4.5d
+			x: -35.5d
+			y: 2.75d
+			shape: "diamond"
 			description: ["A &bWind Turbine's&f giant blades harness the force of the wind to generate &6power&f. Each Wind Turbine requires a fairly large 1x1x5 area. The machine will generate power day and night, in sun or rain, but the turbine must have a clear view of the sky."]
 			id: "57692119B3F25CD2"
 			tasks: [{
@@ -1375,8 +1379,9 @@
 			}]
 		}
 		{
-			x: -1.25d
-			y: -4.5d
+			x: -35.5d
+			y: 1.25d
+			shape: "diamond"
 			description: ["The &bSolar Generator&f harnesses sunlight to create &6power&f. The generator is particularly useful for generating passive energy for above-ground machines instead of draining your main stores."]
 			id: "4A6ED34F6D6B12E3"
 			tasks: [{
@@ -1386,8 +1391,9 @@
 			}]
 		}
 		{
-			x: -1.25d
-			y: -3.5d
+			x: -35.0d
+			y: 0.5d
+			shape: "diamond"
 			description: ["The &bAdvanced Solar Generator&f is a highly upgraded version of the basic Solar Generator."]
 			id: "21F421C391628AD1"
 			tasks: [{
@@ -1397,8 +1403,9 @@
 			}]
 		}
 		{
-			x: -2.25d
-			y: -5.5d
+			x: -35.0d
+			y: 2.0d
+			shape: "diamond"
 			description: ["A &bHeat Generator&f converts &4heat energy&f into &6power&f. This is often the first generator to craft because, although it provides only a small amount of power,"]
 			id: "6994DE322CF93E31"
 			tasks: [{
@@ -1408,8 +1415,9 @@
 			}]
 		}
 		{
-			x: -2.25d
-			y: -3.5d
+			x: -34.5d
+			y: 2.75d
+			shape: "diamond"
 			description: ["A &bGas-Burning Generator&f creates power by consuming any burnable gas for example the Hydrogen produced by an Electrolytic Separator or Ethylene."]
 			id: "657B1E3384051C37"
 			tasks: [{
@@ -1419,8 +1427,9 @@
 			}]
 		}
 		{
-			x: -1.25d
-			y: -5.5d
+			x: -34.5d
+			y: 1.25d
+			shape: "diamond"
 			description: ["&bBio-Generators&f produce electricity from &aBio Fuel&f."]
 			id: "6F8C54148EEEAA99"
 			tasks: [{
@@ -1431,8 +1440,9 @@
 		}
 		{
 			title: "Fusion Reactor"
-			x: 2.75d
-			y: -2.0d
+			x: -34.5d
+			y: -4.75d
+			shape: "diamond"
 			description: [
 				"The &bFusion Reactor&r is a multiblock structure that allows for variable input rates of 3 types of fuel: Deuterium, Tritium and D-T Fuel. By water cooling the structure, steam can be produced alongside power, which is useful for powering an Industrial Turbine."
 				""
@@ -1473,8 +1483,9 @@
 			]
 		}
 		{
-			x: 3.25d
-			y: 1.0d
+			x: -33.25d
+			y: -4.0d
+			shape: "diamond"
 			id: "2AA660F6890847CF"
 			tasks: [{
 				id: "1C7415A87895D45B"
@@ -1483,8 +1494,9 @@
 			}]
 		}
 		{
-			x: 2.75d
-			y: 0.25d
+			x: -32.75d
+			y: -4.5d
+			shape: "diamond"
 			id: "3FD6381CE80AB5E3"
 			tasks: [{
 				id: "0AE69BAAF87AB97B"
@@ -1493,8 +1505,9 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 1.0d
+			x: -32.25d
+			y: -4.0d
+			shape: "diamond"
 			id: "6DE7587A56565AAE"
 			tasks: [{
 				id: "68722D928BABA5EE"
@@ -1504,8 +1517,9 @@
 		}
 		{
 			title: "SPS Reactor"
-			x: 2.75d
-			y: -3.75d
+			x: -33.25d
+			y: -7.5d
+			shape: "diamond"
 			description: [
 				"A &dSupercritical Phase Shifter&r is a multiblock structure that consumes large amount of energy and polonium gas to create antimatter gas, which can be crystallized into antimatter pellets. Antimatter pellets are used in a number of endgame recipes."
 				""
@@ -1546,8 +1560,9 @@
 			]
 		}
 		{
-			x: 2.75d
-			y: -4.75d
+			x: -32.25d
+			y: -7.5d
+			shape: "diamond"
 			id: "30396C78FA1F82FF"
 			tasks: [{
 				id: "30EBA37F630FB11B"
@@ -1556,8 +1571,9 @@
 			}]
 		}
 		{
-			x: 2.75d
-			y: -5.75d
+			x: -32.75d
+			y: -8.25d
+			shape: "diamond"
 			id: "678264A742DDA038"
 			tasks: [{
 				id: "16BD9AB1243FBA18"
@@ -1566,8 +1582,9 @@
 			}]
 		}
 		{
-			x: -1.25d
-			y: 7.75d
+			x: -33.0d
+			y: 7.25d
+			shape: "diamond"
 			description: ["The &bChemical Crystallizer&f turns Clean Slurry into Crystals and Lithium into Lithium Dust."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1584,8 +1601,9 @@
 			}]
 		}
 		{
-			x: -1.25d
-			y: 6.75d
+			x: -33.5d
+			y: 8.0d
+			shape: "diamond"
 			description: ["The &bChemical Washer&f turns Slurry into Clean Slurry using Water."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1603,8 +1621,9 @@
 			}]
 		}
 		{
-			x: -0.25d
-			y: 6.75d
+			x: -32.5d
+			y: 8.0d
+			shape: "diamond"
 			description: ["The &bChemical Dissolution Chamber&f is the first machine in the &cx5 ore processing setup&f. It turns &6raw ores&f into &6slurry&f using Sulfuric Acid."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1621,8 +1640,9 @@
 			}]
 		}
 		{
-			x: -0.25d
-			y: 7.75d
+			x: -34.5d
+			y: 8.0d
+			shape: "diamond"
 			description: ["The &bChemical Oxidizer&f is used for making gases from materials."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1639,8 +1659,9 @@
 			}]
 		}
 		{
-			x: -1.25d
-			y: 5.75d
+			x: -33.5d
+			y: 6.5d
+			shape: "diamond"
 			description: ["The &bChemical Infuser&f combines or reacts two gases to create another gas."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1657,8 +1678,8 @@
 			}]
 		}
 		{
-			x: -2.75d
-			y: 3.0d
+			x: -29.75d
+			y: 3.5d
 			shape: "diamond"
 			id: "380E175AD6A16CD6"
 			tasks: [{
@@ -1674,8 +1695,8 @@
 			}]
 		}
 		{
-			x: -3.75d
-			y: 3.0d
+			x: -30.75d
+			y: 3.5d
 			shape: "diamond"
 			id: "6224CB33E3699F55"
 			tasks: [{
@@ -1691,8 +1712,8 @@
 			}]
 		}
 		{
-			x: -3.75d
-			y: 4.0d
+			x: -30.75d
+			y: 4.5d
 			shape: "diamond"
 			id: "682E097593123192"
 			tasks: [{
@@ -1708,8 +1729,8 @@
 			}]
 		}
 		{
-			x: -2.75d
-			y: 4.0d
+			x: -29.75d
+			y: 4.5d
 			shape: "diamond"
 			id: "6575F9CF4CF939D3"
 			tasks: [{
@@ -1725,8 +1746,8 @@
 			}]
 		}
 		{
-			x: -3.25d
-			y: 3.5d
+			x: -30.25d
+			y: 4.0d
 			shape: "diamond"
 			id: "7E27215DCAA51489"
 			tasks: [{
@@ -1742,8 +1763,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: 2.0d
+			x: -30.75d
+			y: 1.0d
 			shape: "diamond"
 			dependencies: ["2EBB702869B9D13C"]
 			id: "6F6CBEA161CB94F2"
@@ -1760,8 +1781,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 2.0d
+			x: -29.75d
+			y: 1.0d
 			shape: "diamond"
 			dependencies: ["2EBB702869B9D13C"]
 			id: "78B81350AC2D24A1"
@@ -1778,8 +1799,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: 3.0d
+			x: -30.75d
+			y: 2.0d
 			shape: "diamond"
 			dependencies: ["2EBB702869B9D13C"]
 			id: "5B657CCC8CE1E2CE"
@@ -1796,8 +1817,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 3.0d
+			x: -29.75d
+			y: 2.0d
 			shape: "diamond"
 			dependencies: ["2EBB702869B9D13C"]
 			id: "51FE044B77CCF30E"
@@ -1816,8 +1837,9 @@
 		{
 			title: "It's beautiful"
 			icon: "mekanism:robit"
-			x: -7.75d
-			y: 10.75d
+			x: -19.75d
+			y: 3.5d
+			shape: "diamond"
 			subtitle: "Easter egg"
 			description: ["&bRobit&f is Mekanism's mechanical companion. He can act as a crafting grid, a furnace, an anvil, a chest, or simply a cute little buddy."]
 			hide_dependency_lines: true
@@ -1835,8 +1857,9 @@
 			}]
 		}
 		{
-			x: -7.75d
-			y: 11.75d
+			x: -19.25d
+			y: 5.25d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: [
 				"4ADD9913716BA3E2"
@@ -1850,8 +1873,9 @@
 			}]
 		}
 		{
-			x: -7.75d
-			y: 12.75d
+			x: -16.75d
+			y: 2.75d
+			shape: "diamond"
 			description: ["The &bAtomic Disassembler&f is Mekanism's an all-in-one tool, essentially the ultimate, electronic version of the paxel."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1874,8 +1898,9 @@
 			}]
 		}
 		{
-			x: -3.25d
-			y: 10.25d
+			x: -17.5d
+			y: -4.25d
+			shape: "diamond"
 			description: ["A &bMekanism machine upgrade&f to make them &eprocess items faster&f, you can install 8 of these in each Mekanism machine."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1891,8 +1916,9 @@
 			}]
 		}
 		{
-			x: -3.25d
-			y: 11.25d
+			x: -17.0d
+			y: -5.0d
+			shape: "diamond"
 			description: ["The &benergy upgrade&f upgrade allows you to increase the &epower storage capacity&f of a Mekanism machine which has an upgrade slot, as well as &ereduce its power consumption&f."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1907,8 +1933,9 @@
 			}]
 		}
 		{
-			x: -3.25d
-			y: 12.25d
+			x: -18.0d
+			y: -3.5d
+			shape: "diamond"
 			description: ["The &bFilter Upgrade&f is an upgrade that, when used in the &eElectric Pump&f, allows the Electric Pump to produce &9Heavy Water&f."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1923,8 +1950,9 @@
 			}]
 		}
 		{
-			x: -2.25d
-			y: 10.25d
+			x: -16.5d
+			y: -4.25d
+			shape: "diamond"
 			description: ["The &bMuffling Upgrade&r reduces noise from Mekanism machinery. This upgrade works well with the Precision Sawmill, as it produces a lot of noise when active."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1939,8 +1967,9 @@
 			}]
 		}
 		{
-			x: -2.25d
-			y: 11.25d
+			x: -17.0d
+			y: -3.5d
+			shape: "diamond"
 			description: ["The &bgas upgrade&f allows you to &eincrease the gas usage efficiency&f of a Mekanism machine which allows it."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1955,8 +1984,9 @@
 			}]
 		}
 		{
-			x: -2.25d
-			y: 12.25d
+			x: -16.0d
+			y: -3.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: [
 				"73368EF2948452D9"
@@ -1971,8 +2001,9 @@
 		}
 		{
 			title: "Thermal Evaporation Plant"
-			x: 2.0d
-			y: 4.0d
+			x: -32.75d
+			y: -2.0d
+			shape: "diamond"
 			description: [
 				"The &bThermal Evaporation Plant&f is a multiblock structure with the purpose of converting Water to &eBrine&f, which can be further converted to &eLithium&f by the use of a second Thermal Evaporation Plant."
 				""
@@ -1999,8 +2030,9 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: 2.0d
+			x: -32.75d
+			y: -3.25d
+			shape: "diamond"
 			id: "3BBC97985B0D3B81"
 			tasks: [{
 				id: "1E542CC06E4592DF"
@@ -2009,8 +2041,9 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 5.0d
+			x: -32.25d
+			y: -2.5d
+			shape: "diamond"
 			id: "4FF328FAD369F911"
 			tasks: [{
 				id: "3A666874FF384B6E"
@@ -2019,8 +2052,9 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 3.0d
+			x: -33.25d
+			y: -2.5d
+			shape: "diamond"
 			id: "7F74A2574A0EF6D7"
 			tasks: [{
 				id: "4C01B92342C7F419"
@@ -2029,8 +2063,8 @@
 			}]
 		}
 		{
-			x: 16.75d
-			y: 7.0d
+			x: -19.5d
+			y: -7.0d
 			shape: "octagon"
 			description: ["&bInduction Casing&f makes up the multi-block that is the &eInduction Matrix&f, a &6energy storage&f structure that can hold a large amount of energy."]
 			id: "3CB39A3A144C90ED"
@@ -2053,8 +2087,8 @@
 			]
 		}
 		{
-			x: 15.0d
-			y: 4.25d
+			x: -21.25d
+			y: -9.75d
 			shape: "diamond"
 			description: ["&bInduction Cells&f are components in the &eInduction Matrix&f. Each cell &dincreases the total energy storage&f of a Matrix."]
 			dependencies: ["2B37E2E818D39D16"]
@@ -2066,8 +2100,8 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: 4.75d
+			x: -20.75d
+			y: -9.25d
 			shape: "diamond"
 			description: ["&bInduction Cells&f are components in the &eInduction Matrix&f. Each cell &dincreases the total energy storage&f of a Matrix."]
 			dependencies: [
@@ -2082,8 +2116,8 @@
 			}]
 		}
 		{
-			x: 16.0d
-			y: 5.25d
+			x: -20.25d
+			y: -8.75d
 			shape: "diamond"
 			description: ["&bInduction Cells&f are components in the &eInduction Matrix&f. Each cell &dincreases the total energy storage&f of a Matrix."]
 			dependencies: [
@@ -2098,8 +2132,8 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: 5.75d
+			x: -19.75d
+			y: -8.25d
 			shape: "diamond"
 			description: ["&bInduction Cells&f are components in the &eInduction Matrix&f. Each cell &dincreases the total energy storage&f of a Matrix."]
 			dependencies: [
@@ -2114,8 +2148,9 @@
 			}]
 		}
 		{
-			x: 2.75d
-			y: -1.0d
+			x: -33.5d
+			y: -5.75d
+			shape: "diamond"
 			id: "64EC50500054889D"
 			tasks: [
 				{
@@ -2136,8 +2171,8 @@
 			]
 		}
 		{
-			x: 14.0d
-			y: 5.25d
+			x: -22.25d
+			y: -8.75d
 			shape: "diamond"
 			description: ["The &bInduction Providers&f are used in the &eInduction Matrix&f to determine &dhow fast it is able to output energy&f through the Induction Port."]
 			dependencies: ["2B37E2E818D39D16"]
@@ -2149,8 +2184,8 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: 5.75d
+			x: -21.75d
+			y: -8.25d
 			shape: "diamond"
 			description: ["The &bInduction Providers&f are used in the &eInduction Matrix&f to determine &dhow fast it is able to output energy&f through the Induction Port."]
 			dependencies: [
@@ -2165,8 +2200,8 @@
 			}]
 		}
 		{
-			x: 15.0d
-			y: 6.25d
+			x: -21.25d
+			y: -7.75d
 			shape: "diamond"
 			description: ["The &bInduction Providers&f are used in the &eInduction Matrix&f to determine &dhow fast it is able to output energy&f through the Induction Port."]
 			dependencies: [
@@ -2181,8 +2216,8 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: 6.75d
+			x: -20.75d
+			y: -7.25d
 			shape: "diamond"
 			description: ["The &bInduction Providers&f are used in the &eInduction Matrix&f to determine &dhow fast it is able to output energy&f through the Induction Port."]
 			dependencies: [
@@ -2197,8 +2232,9 @@
 			}]
 		}
 		{
-			x: -10.75d
-			y: -7.75d
+			x: -26.5d
+			y: -10.25d
+			shape: "diamond"
 			description: ["&bUniversal Cables&f are Mekanism's way to transfer power."]
 			dependencies: ["3380D85F28C8B5EB"]
 			id: "60FC831769A993EB"
@@ -2209,8 +2245,9 @@
 			}]
 		}
 		{
-			x: -9.75d
-			y: -7.75d
+			x: -27.0d
+			y: -9.75d
+			shape: "diamond"
 			description: ["&bMechanical Pipe&f is the fluid pipe for Mekanism logistics. It can be used to connect to any blocks with Fluid Handlers in them."]
 			dependencies: ["3380D85F28C8B5EB"]
 			id: "7E6B171CC6C9F590"
@@ -2221,8 +2258,9 @@
 			}]
 		}
 		{
-			x: -8.75d
-			y: -7.75d
+			x: -27.5d
+			y: -9.25d
+			shape: "diamond"
 			description: ["&bPressurized Tubes&f are used to transport Gases."]
 			dependencies: ["3380D85F28C8B5EB"]
 			id: "55A15F5BB992B919"
@@ -2233,8 +2271,9 @@
 			}]
 		}
 		{
-			x: -6.75d
-			y: -7.75d
+			x: -28.5d
+			y: -8.25d
+			shape: "diamond"
 			description: ["Similar to the Universal Cable, the &bThermodynamic Conductor&f is Mekanism's way of transferring power in the form of heat."]
 			dependencies: ["3380D85F28C8B5EB"]
 			id: "0567A77FE38BAAFB"
@@ -2245,8 +2284,9 @@
 			}]
 		}
 		{
-			x: -7.75d
-			y: -7.75d
+			x: -28.0d
+			y: -8.75d
+			shape: "diamond"
 			description: ["&bLogistical Transporter&r are used for transport item"]
 			dependencies: [
 				"3380D85F28C8B5EB"
@@ -2260,8 +2300,9 @@
 			}]
 		}
 		{
-			x: -10.75d
-			y: -6.75d
+			x: -26.0d
+			y: -9.75d
+			shape: "diamond"
 			description: ["&bUniversal Cables&f are Mekanism's way to transfer power."]
 			dependencies: [
 				"60FC831769A993EB"
@@ -2275,8 +2316,9 @@
 			}]
 		}
 		{
-			x: -9.75d
-			y: -6.75d
+			x: -26.5d
+			y: -9.25d
+			shape: "diamond"
 			description: ["&bMechanical Pipe&f is the fluid pipe for Mekanism logistics. It can be used to connect to any blocks with Fluid Handlers in them."]
 			dependencies: [
 				"7E6B171CC6C9F590"
@@ -2290,8 +2332,9 @@
 			}]
 		}
 		{
-			x: -8.75d
-			y: -6.75d
+			x: -27.0d
+			y: -8.75d
+			shape: "diamond"
 			description: ["&bPressurized Tubes&f are used to transport Gases."]
 			dependencies: [
 				"55A15F5BB992B919"
@@ -2305,8 +2348,9 @@
 			}]
 		}
 		{
-			x: -7.75d
-			y: -6.75d
+			x: -27.5d
+			y: -8.25d
+			shape: "diamond"
 			description: ["&bLogistical Transporter&r are used for transport item"]
 			dependencies: [
 				"7BB85D104C59947E"
@@ -2320,8 +2364,9 @@
 			}]
 		}
 		{
-			x: -6.75d
-			y: -6.75d
+			x: -28.0d
+			y: -7.75d
+			shape: "diamond"
 			description: ["Similar to the Universal Cable, the &bThermodynamic Conductor&f is Mekanism's way of transferring power in the form of heat."]
 			dependencies: [
 				"0567A77FE38BAAFB"
@@ -2335,8 +2380,9 @@
 			}]
 		}
 		{
-			x: -10.75d
-			y: -5.75d
+			x: -25.5d
+			y: -9.25d
+			shape: "diamond"
 			description: ["&bUniversal Cables&f are Mekanism's way to transfer power."]
 			dependencies: [
 				"1376047747763E2B"
@@ -2350,8 +2396,9 @@
 			}]
 		}
 		{
-			x: -9.75d
-			y: -5.75d
+			x: -26.0d
+			y: -8.75d
+			shape: "diamond"
 			description: ["&bMechanical Pipe&f is the fluid pipe for Mekanism logistics. It can be used to connect to any blocks with Fluid Handlers in them."]
 			dependencies: [
 				"3D1FF785B5A3BE93"
@@ -2365,8 +2412,9 @@
 			}]
 		}
 		{
-			x: -8.75d
-			y: -5.75d
+			x: -26.5d
+			y: -8.25d
+			shape: "diamond"
 			description: ["&bPressurized Tubes&f are used to transport Gases."]
 			dependencies: [
 				"4A3F8A61E0C96284"
@@ -2380,8 +2428,9 @@
 			}]
 		}
 		{
-			x: -7.75d
-			y: -5.75d
+			x: -27.0d
+			y: -7.75d
+			shape: "diamond"
 			description: ["&bLogistical Transporter&r are used for transport item"]
 			dependencies: [
 				"65731420BC8A57BA"
@@ -2395,8 +2444,9 @@
 			}]
 		}
 		{
-			x: -6.75d
-			y: -5.75d
+			x: -27.5d
+			y: -7.25d
+			shape: "diamond"
 			description: ["Similar to the Universal Cable, the &bThermodynamic Conductor&f is Mekanism's way of transferring power in the form of heat."]
 			dependencies: [
 				"7707378FBA216DE5"
@@ -2410,8 +2460,9 @@
 			}]
 		}
 		{
-			x: -10.75d
-			y: -4.75d
+			x: -25.0d
+			y: -8.75d
+			shape: "diamond"
 			description: ["&bUniversal Cables&f are Mekanism's way to transfer power."]
 			dependencies: [
 				"4084EB56091CB118"
@@ -2425,8 +2476,9 @@
 			}]
 		}
 		{
-			x: -9.75d
-			y: -4.75d
+			x: -25.5d
+			y: -8.25d
+			shape: "diamond"
 			description: ["&bMechanical Pipe&f is the fluid pipe for Mekanism logistics. It can be used to connect to any blocks with Fluid Handlers in them."]
 			dependencies: [
 				"2530BAC444F49758"
@@ -2440,8 +2492,9 @@
 			}]
 		}
 		{
-			x: -8.75d
-			y: -4.75d
+			x: -26.0d
+			y: -7.75d
+			shape: "diamond"
 			description: ["&bPressurized Tubes&f are used to transport Gases."]
 			dependencies: [
 				"0F4A80345372DFDA"
@@ -2455,8 +2508,9 @@
 			}]
 		}
 		{
-			x: -7.75d
-			y: -4.75d
+			x: -26.5d
+			y: -7.25d
+			shape: "diamond"
 			description: ["&bLogistical Transporter&r are used for transport item"]
 			dependencies: [
 				"6FA2FB491BA35E31"
@@ -2470,8 +2524,9 @@
 			}]
 		}
 		{
-			x: -6.75d
-			y: -4.75d
+			x: -27.0d
+			y: -6.75d
+			shape: "diamond"
 			description: ["Similar to the Universal Cable, the &bThermodynamic Conductor&f is Mekanism's way of transferring power in the form of heat."]
 			dependencies: [
 				"5C49C666C7FC1CEE"
@@ -2485,8 +2540,9 @@
 			}]
 		}
 		{
-			x: -0.25d
-			y: 5.75d
+			x: -33.5d
+			y: 9.5d
+			shape: "diamond"
 			description: ["The &bPressurized Reaction Chamber (PRC)&f is used primarily to create &1Substrate&f (to create HDPE Pellets), &1HDPE Pellets&f (to create HDPE Sheets), and &1Ethylene&f (an efficient source of fuel used in the Gas-Burning Generator)."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -2504,8 +2560,9 @@
 			}]
 		}
 		{
-			x: 12.25d
-			y: -6.75d
+			x: -31.5d
+			y: -5.25d
+			shape: "diamond"
 			id: "0217C354938487DE"
 			tasks: [{
 				id: "6D1B7838AAF210F3"
@@ -2514,8 +2571,9 @@
 			}]
 		}
 		{
-			x: -1.25d
-			y: 4.75d
+			x: -34.0d
+			y: 7.25d
+			shape: "diamond"
 			description: ["The &bElectrolytic Separator&f sends controlled amounts of direct current into a fluid, causing the atoms in the fluid to break their bonds. This process of electrolysis is used to &ecreate some very useful gases&f from some rather ordinary fluids."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -2531,8 +2589,8 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: 4.75d
+			x: -21.75d
+			y: -9.25d
 			shape: "diamond"
 			description: ["An &bEnergy Cube&f is an advanced type of battery that is compatible with multiple energy systems. Energy can be input from 5 sides, and output on 1 side."]
 			hide_dependency_lines: true
@@ -2550,8 +2608,8 @@
 			}]
 		}
 		{
-			x: 15.0d
-			y: 5.25d
+			x: -21.25d
+			y: -8.75d
 			shape: "diamond"
 			description: ["An &bEnergy Cube&f is an advanced type of battery that is compatible with multiple energy systems. Energy can be input from 5 sides, and output on 1 side."]
 			dependencies: ["2B37E2E818D39D16"]
@@ -2563,8 +2621,8 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: 5.75d
+			x: -20.75d
+			y: -8.25d
 			shape: "diamond"
 			description: ["An &bEnergy Cube&f is an advanced type of battery that is compatible with multiple energy systems. Energy can be input from 5 sides, and output on 1 side."]
 			dependencies: ["59F9F23B352D3B25"]
@@ -2576,8 +2634,8 @@
 			}]
 		}
 		{
-			x: 16.0d
-			y: 6.25d
+			x: -20.25d
+			y: -7.75d
 			shape: "diamond"
 			description: ["An &bEnergy Cube&f is an advanced type of battery that is compatible with multiple energy systems. Energy can be input from 5 sides, and output on 1 side."]
 			dependencies: ["530661120D8CAB3A"]
@@ -2589,8 +2647,9 @@
 			}]
 		}
 		{
-			x: -7.75d
-			y: 9.75d
+			x: -16.75d
+			y: 5.25d
+			shape: "diamond"
 			description: ["The &bpersonal chest&f used to be called, \"Electric Chest\" that could lock with the use of electricity."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -2606,8 +2665,9 @@
 		}
 		{
 			title: "Dynamic Tank"
-			x: -1.0d
-			y: -1.0d
+			x: -32.75d
+			y: -5.5d
+			shape: "diamond"
 			description: [
 				"&bDynamic Tank&f makes up the multi-block that is the Dynamic Tank, a &efluid storage&f structure that can hold a large amount of a single type of fluid."
 				""
@@ -2616,6 +2676,7 @@
 			]
 			hide_dependency_lines: true
 			dependencies: ["2B471E4CC0E02DED"]
+			dependency_requirement: "one_completed"
 			id: "565591A7A93D4E60"
 			tasks: [
 				{
@@ -2632,8 +2693,8 @@
 			]
 		}
 		{
-			x: 4.5d
-			y: 15.0d
+			x: -12.25d
+			y: 9.0d
 			shape: "diamond"
 			dependencies: ["71936154C575DC28"]
 			optional: true
@@ -2645,8 +2706,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 13.0d
+			x: -14.25d
+			y: 7.0d
 			shape: "diamond"
 			description: ["&bEnergy Units&r are modules that will double the current energy capacity of the selected MekaSuit armor piece."]
 			dependencies: ["71936154C575DC28"]
@@ -2659,8 +2720,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 15.5d
+			x: -12.75d
+			y: 9.5d
 			shape: "diamond"
 			dependencies: ["71936154C575DC28"]
 			optional: true
@@ -2672,8 +2733,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 16.0d
+			x: -12.25d
+			y: 10.0d
 			shape: "diamond"
 			description: ["&bRadiation Shielding Units&r are modules that allows your MekaSuit armor piece to act like the respective Hazmat Suit pieces and provide protection from radiation."]
 			dependencies: ["71936154C575DC28"]
@@ -2686,8 +2747,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 15.0d
+			x: -14.25d
+			y: 9.0d
 			shape: "diamond"
 			description: ["&bThe Excavation Escalation Unit&r is a module that when added to a Meka-Tool Increases the Mining speed of all blocks."]
 			dependencies: ["71936154C575DC28"]
@@ -2700,8 +2761,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 14.0d
+			x: -11.25d
+			y: 8.0d
 			shape: "diamond"
 			description: [
 				"&bThe Attack Amplification Unit&r Is a Module that Amplifies Melee attacks to both players and mobs."
@@ -2718,8 +2779,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 15.5d
+			x: -13.75d
+			y: 9.5d
 			shape: "diamond"
 			description: [
 				"&bThe Farming unit&r is a Module that is applied to the Meka-Tool. It Gives the tool several agriculture-based functions, Up to 4 can be stacked on one tool."
@@ -2739,8 +2800,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 13.5d
+			x: -13.75d
+			y: 7.5d
 			shape: "diamond"
 			dependencies: ["71936154C575DC28"]
 			optional: true
@@ -2752,8 +2813,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 14.0d
+			x: -13.25d
+			y: 8.0d
 			shape: "diamond"
 			description: ["&bThe Silk Touch Unit&r is a Module in Mekanism that is installed onto the Meka-Tool, which gives the tool the property of the Silk-Touch Enchantment."]
 			dependencies: ["71936154C575DC28"]
@@ -2766,8 +2827,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 15.5d
+			x: -11.75d
+			y: 9.5d
 			shape: "diamond"
 			description: ["&bVein Mining Unit&r allows for quick mining of ore deposits and rapid felling of trees."]
 			dependencies: ["71936154C575DC28"]
@@ -2780,8 +2841,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 13.5d
+			x: -11.75d
+			y: 7.5d
 			shape: "diamond"
 			description: ["&bTeleportation Unit &rprovides for quick travel to nearby blocks."]
 			dependencies: ["71936154C575DC28"]
@@ -2794,8 +2855,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 13.0d
+			x: -11.25d
+			y: 7.0d
 			shape: "diamond"
 			description: [
 				"&bElectrolytic Breathing Units&r are modules that allows you to breathe underwater."
@@ -2812,8 +2873,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 16.0d
+			x: -13.25d
+			y: 10.0d
 			shape: "diamond"
 			description: ["&bInhalation Purification Units&r are modules that can protect the player from selected potion effects including beneficial, neutral, and harmful ones."]
 			dependencies: ["71936154C575DC28"]
@@ -2826,8 +2887,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 14.0d
+			x: -14.25d
+			y: 8.0d
 			shape: "diamond"
 			description: ["&bVision Enhancement Units&r are modules that can be installed on a MekaSuit Helmet to improve night vision."]
 			dependencies: ["71936154C575DC28"]
@@ -2840,8 +2901,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 14.5d
+			x: -12.75d
+			y: 8.5d
 			shape: "diamond"
 			description: ["&bSolar Recharging Units&r are modules that charge your MekaSuit during direct exposure to sunlight."]
 			dependencies: ["71936154C575DC28"]
@@ -2854,8 +2915,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 14.5d
+			x: -14.75d
+			y: 8.5d
 			shape: "diamond"
 			description: [
 				"&bNutritional Injection Units&r are modules that can be installed on a MekaSuit Helmet to remove the need to manually eat."
@@ -2872,8 +2933,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 14.0d
+			x: -12.25d
+			y: 8.0d
 			shape: "diamond"
 			description: ["&bDosimeter Units&r are modules that will display your radiation dose in the HUD on the bottom right corner."]
 			dependencies: ["71936154C575DC28"]
@@ -2886,8 +2947,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 16.5d
+			x: -12.75d
+			y: 10.5d
 			shape: "diamond"
 			dependencies: ["71936154C575DC28"]
 			optional: true
@@ -2899,8 +2960,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 14.5d
+			x: -13.75d
+			y: 8.5d
 			shape: "diamond"
 			dependencies: ["71936154C575DC28"]
 			optional: true
@@ -2912,8 +2973,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 15.0d
+			x: -13.25d
+			y: 9.0d
 			shape: "diamond"
 			description: [
 				"&bJetpack Units&r are modules that allows your MekaSuit Bodyarmor to have the functions of a Jetpack."
@@ -2932,8 +2993,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 13.5d
+			x: -10.75d
+			y: 7.5d
 			shape: "diamond"
 			description: ["&bCharge Distribution Units&r are modules that distributes gained energy evenly to all MekaSuit armor pieces. Normally if you have installed Solar Recharging Units onto your MekaSuit Helmet, only the helmet will gain all the energy it's producing. With the Charge Distribution Unit installed, the produced energy will be evenly distributed throughout all MekaSuit armor pieces."]
 			dependencies: ["71936154C575DC28"]
@@ -2946,8 +3007,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 15.0d
+			x: -11.25d
+			y: 9.0d
 			shape: "diamond"
 			description: [
 				"&bGravitational Modulating Units&r are modules that allows the user to utilize creative flight."
@@ -2964,8 +3025,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 14.5d
+			x: -10.75d
+			y: 8.5d
 			shape: "diamond"
 			dependencies: ["71936154C575DC28"]
 			optional: true
@@ -2977,8 +3038,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 14.5d
+			x: -11.75d
+			y: 8.5d
 			shape: "diamond"
 			description: [
 				"&bLocomotive Boosting Units&r are modules that will allow you to boost your sprinting speed and jumping distance."
@@ -2995,8 +3056,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 14.0d
+			x: -10.25d
+			y: 8.0d
 			shape: "diamond"
 			description: ["&bHydraulic Propulsion Units&r are modules that allows you to climb over a maximum of 2 blocks. It also allows you to jump higher when you hold Left Control and jump (LCrtl+Spacebar)."]
 			dependencies: ["71936154C575DC28"]
@@ -3009,8 +3070,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 14.0d
+			x: -15.25d
+			y: 8.0d
 			shape: "diamond"
 			description: [
 				"&bMagnetic Attraction Unit&r is a Module that is applied to the Mekasuit Boots."
@@ -3027,8 +3088,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 13.5d
+			x: -14.75d
+			y: 7.5d
 			shape: "diamond"
 			dependencies: ["71936154C575DC28"]
 			optional: true
@@ -3040,8 +3101,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 13.0d
+			x: -12.75d
+			y: 7.0d
 			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: [
@@ -3058,8 +3119,8 @@
 			}]
 		}
 		{
-			x: -3.25d
-			y: 4.5d
+			x: -30.25d
+			y: 5.0d
 			shape: "diamond"
 			description: ["The &dModification Station&r is used for applying modular upgrades to the Meka-Suit in exchange for energy."]
 			id: "3E34DCCD95A33B4C"
@@ -3070,8 +3131,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 6.75d
+			x: -30.75d
+			y: -0.5d
 			shape: "diamond"
 			description: ["A sturdy machine capable of mixing two pigments together to produce a new pigment."]
 			id: "10BC08F12AFEBB50"
@@ -3082,8 +3143,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 6.25d
+			x: -30.25d
+			y: -1.0d
 			shape: "diamond"
 			description: ["A machine used to extract pigments from blocks and items."]
 			id: "240EAB68009EF925"
@@ -3094,8 +3155,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 6.75d
+			x: -29.75d
+			y: -0.5d
 			shape: "diamond"
 			description: ["A machine used to color blocks and items via a careful application of a stored pigment."]
 			id: "2A872ECDB1C841D2"
@@ -3106,8 +3167,9 @@
 			}]
 		}
 		{
-			x: -6.75d
-			y: 12.75d
+			x: -19.25d
+			y: 2.75d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: [
 				"0E4A27067D64FFCE"
@@ -3123,8 +3185,9 @@
 		}
 		{
 			title: "Teleporter"
-			x: -6.75d
-			y: 11.75d
+			x: -16.25d
+			y: 3.5d
+			shape: "diamond"
 			description: [
 				"The &bTeleporter&f is used with the Teleporter Frame to build a Teleporter Portal."
 				""
@@ -3152,8 +3215,9 @@
 			]
 		}
 		{
-			x: -6.75d
-			y: 10.75d
+			x: -19.75d
+			y: 4.5d
+			shape: "diamond"
 			description: ["The &bDigital Miner&f is the scale &9mining machine&f of Mekanism. However, this machine is like no other as it \"magically-teleports\" mined blocks to its inventory."]
 			id: "072D0FED1AEB3986"
 			tasks: [{
@@ -3163,8 +3227,9 @@
 			}]
 		}
 		{
-			x: -3.75d
-			y: -3.5d
+			x: -18.0d
+			y: 2.5d
+			shape: "diamond"
 			description: ["The &bChargepad&f is a wireless electric charging station. Any rechargeable items you have in your inventory will be charged while standing on it."]
 			dependencies: [
 				"68DB7AE14FE8B8EE"
@@ -3179,8 +3244,9 @@
 			}]
 		}
 		{
-			x: -7.75d
-			y: 13.75d
+			x: -17.0d
+			y: 4.0d
+			shape: "diamond"
 			subtitle: "FIRE !!!!"
 			description: ["The &bFlamethrower&f is a ranged weapon which uses Hydrogen gas as its fuel."]
 			id: "3016E517F60380BB"
@@ -3191,8 +3257,9 @@
 			}]
 		}
 		{
-			x: -7.75d
-			y: 14.75d
+			x: -19.0d
+			y: 4.0d
+			shape: "diamond"
 			id: "0CF65971C1EEBE3C"
 			tasks: [{
 				id: "759F7084AC05F338"
@@ -3212,8 +3279,9 @@
 			}]
 		}
 		{
-			x: -7.75d
-			y: 15.75d
+			x: -18.5d
+			y: 4.75d
+			shape: "diamond"
 			description: ["The &bGas Mask&f is an utility head armor piece, used in conjunction with the Scuba Tank to breathe underwater."]
 			id: "25DDB958BB3EF85E"
 			tasks: [{
@@ -3229,8 +3297,9 @@
 			}]
 		}
 		{
-			x: -6.75d
-			y: 15.75d
+			x: -17.5d
+			y: 4.75d
+			shape: "diamond"
 			description: ["The &bScuba Tank&f is a piece of equipment worn on the backpack that provides underwater respiration when a Gas Mask is worn"]
 			id: "03789CFBE79E2CC1"
 			tasks: [{
@@ -3246,8 +3315,9 @@
 			}]
 		}
 		{
-			x: -7.75d
-			y: 16.75d
+			x: -18.5d
+			y: 3.25d
+			shape: "diamond"
 			description: ["The &bJetpack&f is an item that allows the player to fly, equippable in the chestplate slot. It uses Hydrogen gas as a fuel."]
 			id: "2B6FB57F68D86470"
 			tasks: [{
@@ -3263,8 +3333,9 @@
 			}]
 		}
 		{
-			x: -6.75d
-			y: 16.75d
+			x: -17.5d
+			y: 3.25d
+			shape: "diamond"
 			description: ["The &bArmored Jetpack&f is an upgraded version of the Jetpack. It provides &e12 armor points&f, offering slightly better protection than a &9diamond chestplate&f with &5Protection IV&f."]
 			dependencies: ["2B6FB57F68D86470"]
 			id: "5BDED8B4C8B90A60"
@@ -3275,8 +3346,9 @@
 			}]
 		}
 		{
-			x: -7.75d
-			y: 17.75d
+			x: -18.0d
+			y: 4.0d
+			shape: "diamond"
 			description: ["&bFree Runners&f are an item that allows players to ascend 1-block inclines automatically, as well as preventing fall damage as long as they are charged. A fall will reduce the item's charge, depending on how far the fall was."]
 			id: "7CB547078313F627"
 			tasks: [{
@@ -3286,8 +3358,8 @@
 			}]
 		}
 		{
-			x: -3.25d
-			y: 2.5d
+			x: -30.25d
+			y: 3.0d
 			shape: "diamond"
 			id: "52CE6BB578D13AB9"
 			tasks: [{
@@ -3297,8 +3369,9 @@
 			}]
 		}
 		{
-			x: -13.25d
-			y: 17.75d
+			x: -14.5d
+			y: -1.75d
+			shape: "diamond"
 			description: [
 				"&bQIO Drives&r are inserted into a Drive Array, allowing it to store more items. Each drive has a number of items and item types it can contain."
 				""
@@ -3312,8 +3385,9 @@
 			}]
 		}
 		{
-			x: -12.25d
-			y: 17.75d
+			x: -13.5d
+			y: -1.75d
+			shape: "diamond"
 			id: "51CE9BBFEB7660AA"
 			tasks: [{
 				id: "667695FE4DE8336B"
@@ -3322,8 +3396,9 @@
 			}]
 		}
 		{
-			x: -11.25d
-			y: 17.75d
+			x: -14.5d
+			y: 0.25d
+			shape: "diamond"
 			id: "2F266C23AE6CAFB4"
 			tasks: [{
 				id: "4C3FCA3F86EA649D"
@@ -3332,8 +3407,9 @@
 			}]
 		}
 		{
-			x: -10.25d
-			y: 17.75d
+			x: -13.5d
+			y: 0.25d
+			shape: "diamond"
 			id: "04A63EC6756009CC"
 			tasks: [{
 				id: "0A737C25BE0C7CB4"
@@ -3342,13 +3418,15 @@
 			}]
 		}
 		{
-			x: -13.25d
-			y: 18.75d
+			x: -14.0d
+			y: -0.75d
+			shape: "diamond"
 			description: [
 				"&bQIO Drive Array&r is a blocks that contains QIO Drives and wirelessly transmits their contents to other QIO devices."
 				""
 				"In order to work, the drive array must be set to a frequency."
 			]
+			size: 2.0d
 			id: "64EF64E67DA42EA9"
 			tasks: [{
 				id: "53EC2C94C434E649"
@@ -3357,8 +3435,9 @@
 			}]
 		}
 		{
-			x: -12.25d
-			y: 18.75d
+			x: -12.75d
+			y: -0.25d
+			shape: "diamond"
 			description: ["&dQIO Dashboards&r allow a user to interface with the contents of a QIO Drive Array. It looks similar to a chest inventory, but it can be searched, sorted, scrolled through, and shows all items of one type as a single stack, even if there are thousands of them. In order to access a drive array, the dashboard must be set to the same frequency as the drive array."]
 			min_width: 300
 			id: "463514656D61C9F4"
@@ -3374,8 +3453,9 @@
 			}]
 		}
 		{
-			x: -11.25d
-			y: 18.75d
+			x: -15.25d
+			y: -1.25d
+			shape: "diamond"
 			description: ["A QIO-linked item import unit. Place on a block and import its contents to your QIO system."]
 			id: "5362C3D25195A787"
 			tasks: [{
@@ -3385,8 +3465,9 @@
 			}]
 		}
 		{
-			x: -10.25d
-			y: 18.75d
+			x: -15.25d
+			y: -0.25d
+			shape: "diamond"
 			description: ["A QIO-linked item export unit. Place on a block and export contents from your QIO systeme to the block."]
 			id: "168ECF65027746B1"
 			tasks: [{
@@ -3396,8 +3477,9 @@
 			}]
 		}
 		{
-			x: -13.25d
-			y: 19.75d
+			x: -12.75d
+			y: -1.25d
+			shape: "diamond"
 			description: ["A QIO-linked redstone adapter. Use to monitor your QIO system's contents."]
 			id: "4C7BF5AFDF3A7928"
 			tasks: [{
@@ -3407,8 +3489,9 @@
 			}]
 		}
 		{
-			x: -1.25d
+			x: -34.0d
 			y: 8.75d
+			shape: "diamond"
 			description: ["&bThe Electric Pump&r is used to pump fluids out of a reservoir in the world or a storage."]
 			id: "4B371BAC03A79CFA"
 			tasks: [{
@@ -3418,8 +3501,9 @@
 			}]
 		}
 		{
-			x: -0.25d
+			x: -33.0d
 			y: 8.75d
+			shape: "diamond"
 			description: [
 				"The &bRotary Condensentrator&f is used for converting substances between liquid and gaseous forms at a rate of 1:1."
 				""
@@ -3437,8 +3521,9 @@
 			}]
 		}
 		{
-			x: 2.75d
-			y: -7.5d
+			x: -32.75d
+			y: -6.75d
+			shape: "diamond"
 			description: [
 				"&bTurbine Casing&f is a pressure-resistant casing that is used in the creation of the &cIndustrial Turbine&f multi block structure."
 				""
@@ -3490,8 +3575,9 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: -1.5d
+			x: -34.0d
+			y: -5.25d
+			shape: "diamond"
 			id: "70FEA0C3AE008C6A"
 			tasks: [{
 				id: "06A5CE726FEB09CC"
@@ -3500,8 +3586,9 @@
 			}]
 		}
 		{
-			x: 13.5d
+			x: -30.5d
 			y: -5.25d
+			shape: "diamond"
 			id: "53F8FF29F8F02DC0"
 			tasks: [{
 				id: "1387ED64A936676A"
@@ -3510,8 +3597,9 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: -6.75d
+			x: -32.0d
+			y: -5.75d
+			shape: "diamond"
 			id: "5B90740E1EE0F130"
 			tasks: [{
 				id: "5F19E6478F46364D"
@@ -3520,8 +3608,9 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: -5.25d
+			x: -31.5d
+			y: -6.25d
+			shape: "diamond"
 			id: "20DF6A4548EA8540"
 			tasks: [{
 				id: "79780A44F75E4D33"
@@ -3531,8 +3620,9 @@
 		}
 		{
 			title: "Fission Reactor"
-			x: 13.5d
-			y: -6.75d
+			x: -31.0d
+			y: -4.75d
+			shape: "diamond"
 			description: [
 				"A &bFission Reactor&r is a multiblock structure that generates massive amounts of heat but does not produce power on its own. How much heat is generated depends on the rate at which it burns Fissile Fuel."
 				""
@@ -3580,8 +3670,10 @@
 			]
 		}
 		{
-			x: -9.5d
-			y: 4.0d
+			x: -33.5d
+			y: 10.5d
+			shape: "diamond"
+			dependencies: ["742B02F5F371D041"]
 			id: "2F417F6013D43F9F"
 			tasks: [{
 				id: "0C2222B9C56EB92E"
@@ -3590,8 +3682,10 @@
 			}]
 		}
 		{
-			x: -10.5d
-			y: 4.0d
+			x: -21.0d
+			y: 1.5d
+			shape: "diamond"
+			dependencies: ["0439577171ECB180"]
 			id: "06D640816C34A82A"
 			tasks: [{
 				id: "67EF6830666AF58D"
@@ -3600,8 +3694,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 2.5d
+			x: -30.25d
+			y: 1.5d
 			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["2B471E4CC0E02DED"]
@@ -3613,8 +3707,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 1.5d
+			x: -30.25d
+			y: 0.5d
 			shape: "diamond"
 			dependencies: ["2EBB702869B9D13C"]
 			id: "4C3F1C83C6F40522"
@@ -3625,8 +3719,9 @@
 			}]
 		}
 		{
-			x: -5.75d
-			y: 11.75d
+			x: -16.25d
+			y: 4.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: [
 				"4486C68BF5B9FCE2"

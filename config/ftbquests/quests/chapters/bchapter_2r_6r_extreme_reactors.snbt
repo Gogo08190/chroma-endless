@@ -411,6 +411,7 @@
 			title: "&#009C00Verderium&r"
 			x: 6.5d
 			y: -2.25d
+			description: ["Verderium will be obtain in a Fluidizer with Liquid Blutonium and Liquid Yellorium."]
 			dependencies: [
 				"4CB53826EBA5CDB9"
 				"1A1D558E7ECDF699"
@@ -427,6 +428,7 @@
 			title: "&#6A0000Rossinite&r"
 			x: 3.75d
 			y: 3.5d
+			description: ["&#6A0000Liquid Rossinite&r will be obtain in a Reinforced Reactor with &#009C00Verderium Fuel&r."]
 			dependencies: ["6C6C2266CF4C0ECB"]
 			id: "3DC38D81B2EAB898"
 			tasks: [{
@@ -438,9 +440,10 @@
 		}
 		{
 			title: "&#F53389Inanite&r"
-			x: 4.75d
+			x: 1.75d
 			y: 6.0d
 			shape: "gear"
+			description: ["Obtain &#F53389Inanite&r in a Reprocessor with &#D2B8D5Ridiculite&r and &#D2B8D5Liquid Rossinite&r."]
 			dependencies: [
 				"63C3991EACE67994"
 				"3DC38D81B2EAB898"
@@ -456,9 +459,10 @@
 		}
 		{
 			title: "&#D2B8D5Ridiculite&r"
-			x: 1.75d
+			x: -1.25d
 			y: 6.0d
 			shape: "gear"
+			description: ["Obtain &#D2B8D5Ridiculite&r in a Reprocessor with &#7D08AFLudicrite&r and &#EA26EALiquid Magentite&r."]
 			dependencies: [
 				"078727DADC660D58"
 				"44D3AC1068B07EAE"
@@ -474,9 +478,10 @@
 		}
 		{
 			title: "&#7D08AFLudicrite&r"
-			x: -1.25d
+			x: -4.25d
 			y: 6.0d
 			shape: "gear"
+			description: ["Obtain &#7D08AFLudicrite&r in a Reprocessor with &#1D1DB4Blutonium&r and &#97E9FFLiquid Cyanite&r."]
 			dependencies: [
 				"07E1BACA00C7D0D7"
 				"311902BAD0F0EFE0"
@@ -492,9 +497,10 @@
 		}
 		{
 			title: "&#1D1DB4Blutonium&r"
-			x: -4.25d
+			x: -7.25d
 			y: 6.0d
 			shape: "gear"
+			description: ["Obtain &#1D1DB4Blutonium&r in a Reprocessor with &#97E9FFCyanite&r and &bWater&r."]
 			dependencies: ["45FC67AC6AAD4EBA"]
 			size: 2.0d
 			id: "07E1BACA00C7D0D7"
@@ -507,9 +513,10 @@
 		}
 		{
 			title: "&#EA26EAMagentite&r"
-			x: -7.25d
+			x: -10.25d
 			y: 6.0d
 			shape: "gear"
+			description: ["Obtain &#EA26EAMagentite&r in a Reinforced Reactor with &#1D1DB4Blutonium fuel&r."]
 			dependencies: [
 				"07E1BACA00C7D0D7"
 				"7B661F962DD0685C"
@@ -524,19 +531,10 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: 2.0d
-			id: "42130EA4DBF20045"
-			tasks: [{
-				id: "0555BE4189F9092B"
-				type: "item"
-				item: "bigreactors:steam_bucket"
-			}]
-		}
-		{
 			title: "&#EA26EALiquid Magentite&r"
 			x: 1.75d
 			y: 3.5d
+			description: ["&#EA26EALiquid Magentite&r will be obtain in a Fluidizer with &#EA26EAMagentite ingot&r."]
 			dependencies: [
 				"6DC4C73055E5FE09"
 				"4F46D07D4530D22B"
@@ -552,6 +550,7 @@
 			title: "&#97E9FFLiquid Cyanite&r"
 			x: -0.25d
 			y: 3.5d
+			description: ["&#97E9FFLiquid Cyanite&r will be obtain in a Fluidizer with &#97E9FFCyanite ingot&r."]
 			hide_dependency_lines: false
 			dependencies: ["4F46D07D4530D22B"]
 			dependency_requirement: "one_completed"

@@ -2189,5 +2189,44 @@
 				item: "kubejs:silicon_grease"
 			}]
 		}
+		{
+			x: -14.75d
+			y: 7.0d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["1D23D686D1A72DC6"]
+			id: "5D8336AF90EFB45E"
+			tasks: [{
+				id: "584374B1A0E8EB04"
+				type: "item"
+				item: "allthemodium:unobtainium_allthemodium_alloy_ingot"
+			}]
+		}
+		{
+			x: -13.75d
+			y: 7.25d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["1D23D686D1A72DC6"]
+			id: "19766092527F3280"
+			tasks: [{
+				id: "371730BFC10916D9"
+				type: "item"
+				item: "allthemodium:unobtainium_vibranium_alloy_ingot"
+			}]
+		}
+		{
+			x: -12.75d
+			y: 7.0d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["1D23D686D1A72DC6"]
+			id: "00F5524F3B6AAA24"
+			tasks: [{
+				id: "236B4E68EE70E6BD"
+				type: "item"
+				item: "allthemodium:vibranium_allthemodium_alloy_ingot"
+			}]
+		}
 	]
 }

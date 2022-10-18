@@ -149,8 +149,8 @@
 			}]
 		}
 		{
-			x: 34.25d
-			y: -2.5d
+			x: 35.25d
+			y: -1.5d
 			description: ["Kills all mobs on the block in front of it. &dCreates liquid Meat and Pink Slime&r, but does &1not store or drop experience or mob drops&r. Requires power."]
 			dependencies: ["2D54A1A013FB3774"]
 			id: "00C8869CC6B0933C"
@@ -185,8 +185,8 @@
 			}]
 		}
 		{
-			x: 35.25d
-			y: -1.5d
+			x: 34.25d
+			y: -2.5d
 			description: ["When supplied with power, this machine will move baby animals from inside the work area to behind the machine."]
 			dependencies: ["2D54A1A013FB3774"]
 			id: "7079235BE3A4A537"
@@ -1281,8 +1281,8 @@
 			}]
 		}
 		{
-			x: 31.25d
-			y: 4.75d
+			x: 33.25d
+			y: -0.5d
 			description: ["A fluid produced by the &9&lPlant Gatherer&r and used in the &9&lSludge Refiner&r."]
 			hide_dependency_lines: true
 			dependencies: ["674D96570B7CE75F"]
@@ -1295,8 +1295,8 @@
 			}]
 		}
 		{
-			x: 30.25d
-			y: 4.75d
+			x: 46.25d
+			y: -3.5d
 			description: [
 				"The fluid produced by the &9&lBioreactor&r."
 				""
@@ -1313,8 +1313,8 @@
 			}]
 		}
 		{
-			x: 29.25d
-			y: 4.75d
+			x: 37.0d
+			y: -4.5d
 			description: ["This fluid is used in a &9&lLatex Processing Unit&r to make &7&lTiny Dry Rubber&r."]
 			hide_dependency_lines: true
 			dependencies: ["330130D7B723C1A9"]
@@ -1327,8 +1327,8 @@
 			}]
 		}
 		{
-			x: 28.25d
-			y: 4.75d
+			x: 36.75d
+			y: 7.5d
 			description: ["The fluid form of experience produced by the &9&lMob Crusher&r."]
 			hide_dependency_lines: true
 			dependencies: ["296B3469D6D39BB6"]
@@ -1341,8 +1341,8 @@
 			}]
 		}
 		{
-			x: 27.25d
-			y: 4.75d
+			x: 34.75d
+			y: -0.5d
 			description: ["A fluid produced by the &9&lMob Slaughter Factory&r."]
 			hide_dependency_lines: true
 			dependencies: ["00C8869CC6B0933C"]
@@ -1355,8 +1355,8 @@
 			}]
 		}
 		{
-			x: 28.25d
-			y: 3.75d
+			x: 35.75d
+			y: -0.5d
 			description: ["A fluid produced by the &9&lMob Slaughter Factory&r."]
 			hide_dependency_lines: true
 			dependencies: ["00C8869CC6B0933C"]
@@ -1369,8 +1369,8 @@
 			}]
 		}
 		{
-			x: 29.25d
-			y: 3.75d
+			x: 35.5d
+			y: 5.0d
 			hide_dependency_lines: true
 			dependencies: ["3ABD34D177F0B709"]
 			optional: true
@@ -1386,8 +1386,8 @@
 			}]
 		}
 		{
-			x: 30.25d
-			y: 3.75d
+			x: 34.0d
+			y: 10.5d
 			hide_dependency_lines: true
 			dependencies: ["14DBBBDC416F08DA"]
 			optional: true
@@ -1403,8 +1403,8 @@
 			}]
 		}
 		{
-			x: 31.25d
-			y: 3.75d
+			x: 34.0d
+			y: 9.0d
 			description: ["The fluid produced by the &9&lFluid Laser Base&r when placed right on top of a &0&lWither&r."]
 			hide_dependency_lines: true
 			dependencies: ["146F580FDDB6FED3"]
@@ -1417,8 +1417,8 @@
 			}]
 		}
 		{
-			x: 27.25d
-			y: 3.75d
+			x: 33.25d
+			y: -3.5d
 			description: ["The fluid produced by the &9&lSewer&r. You don't want to know about it."]
 			hide_dependency_lines: true
 			dependencies: ["2F2D0CC9A18D0D79"]
@@ -1431,8 +1431,8 @@
 			}]
 		}
 		{
-			x: 32.25d
-			y: 4.75d
+			x: 37.0d
+			y: -3.75d
 			hide_dependency_lines: true
 			dependencies: ["330130D7B723C1A9"]
 			optional: true
@@ -1444,8 +1444,8 @@
 			}]
 		}
 		{
-			x: 27.5d
-			y: 0.5d
+			x: 31.25d
+			y: 3.25d
 			hide_dependency_lines: true
 			dependencies: ["2D54A1A013FB3774"]
 			id: "4F78CFC9AF94D2BC"
@@ -1456,8 +1456,8 @@
 			}]
 		}
 		{
-			x: 28.5d
-			y: 1.5d
+			x: 30.0d
+			y: 2.0d
 			hide_dependency_lines: true
 			dependencies: ["73368EF2948452D9"]
 			optional: true
@@ -1482,8 +1482,8 @@
 			}]
 		}
 		{
-			x: 29.5d
-			y: 1.5d
+			x: 31.25d
+			y: 4.25d
 			description: ["A drill which gets upgraded as energy is put into it. The easiest way to get started charging your drill is with a Wireless Charger from the Chargers mod."]
 			hide_dependency_lines: true
 			dependencies: ["73368EF2948452D9"]
@@ -1509,8 +1509,8 @@
 			}]
 		}
 		{
-			x: 30.5d
-			y: 1.5d
+			x: 30.25d
+			y: 3.25d
 			description: [
 				"The Infinity Trident is a tool that allows you to release the true power of a trident."
 				"Increasing the tier will give you access to different levels of &eLoyalty, Riptide&r and &eChanneling&r."
@@ -1544,8 +1544,8 @@
 			}]
 		}
 		{
-			x: 28.5d
-			y: 0.5d
+			x: 32.5d
+			y: 4.5d
 			hide_dependency_lines: true
 			dependencies: ["73368EF2948452D9"]
 			optional: true
@@ -1557,8 +1557,8 @@
 			}]
 		}
 		{
-			x: 29.5d
-			y: 0.5d
+			x: 32.5d
+			y: 2.0d
 			description: [
 				"The Infinity Saw is a tool that allows you to chop trees efficiently, the bigger the tier the more blocks you can chop at the same time."
 				"Keep breaking the same block to chop big trees."
@@ -1587,8 +1587,8 @@
 			}]
 		}
 		{
-			x: 31.5d
-			y: 1.0d
+			x: 31.25d
+			y: 2.25d
 			description: [
 				"The Infinity Backpack is a tool that allow you to store big amounts of items in a portable way."
 				""
@@ -1622,8 +1622,8 @@
 			}]
 		}
 		{
-			x: 30.5d
-			y: 0.5d
+			x: 32.25d
+			y: 3.25d
 			description: [
 				"The Infinity Hammer is a tool that allows you damage enemies in an area. Increasing the tier will give you access to different level of &eBeheading&r, allowing you to get mob heads easily."
 				""
@@ -1654,8 +1654,8 @@
 			}]
 		}
 		{
-			x: 27.5d
-			y: 1.5d
+			x: 30.0d
+			y: 4.5d
 			description: [
 				"The Infinity Launcher is a tool that allows you to capture or release entities from &4Mob Imprisonment Tool&r at a range."
 				""
@@ -1762,8 +1762,8 @@
 			}]
 		}
 		{
-			x: 32.25d
-			y: 3.75d
+			x: 35.25d
+			y: 7.5d
 			hide_dependency_lines: true
 			dependencies: ["146F580FDDB6FED3"]
 			id: "448F25B9DDE7F8E4"

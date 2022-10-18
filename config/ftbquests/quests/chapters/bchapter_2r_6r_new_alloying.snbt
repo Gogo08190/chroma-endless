@@ -371,5 +371,61 @@
 				item: "enderioalloys:item_alloy_ingot_vibrant_alloy"
 			}]
 		}
+		{
+			x: 2.25d
+			y: -0.75d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"74620C853A80A58E"
+				"37C8524602AC71CD"
+				"127EA9518CC437D4"
+			]
+			id: "4B7F5124DA8D74AC"
+			tasks: [{
+				id: "468796FD3F1BC3AA"
+				type: "item"
+				item: "enderioalloys:item_material_weather_crystal"
+			}]
+		}
+		{
+			x: -2.25d
+			y: -0.75d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["110DC7DC1EEF3FB0"]
+			id: "37C8524602AC71CD"
+			tasks: [{
+				id: "701B350275217531"
+				type: "item"
+				item: "enderioalloys:item_material_vibrant_crystal"
+			}]
+		}
+		{
+			x: 1.75d
+			y: -0.25d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3300C7DD0785113B"]
+			id: "127EA9518CC437D4"
+			tasks: [{
+				id: "71EE793844B9619E"
+				type: "item"
+				item: "enderioalloys:item_material_pulsating_crystal"
+			}]
+		}
+		{
+			x: -1.75d
+			y: -0.25d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["37C8524602AC71CD"]
+			id: "74620C853A80A58E"
+			tasks: [{
+				id: "79A430091FC6234A"
+				type: "item"
+				item: "enderioalloys:item_material_ender_crystal"
+			}]
+		}
 	]
 }

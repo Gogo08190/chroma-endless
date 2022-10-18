@@ -39,8 +39,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 1.0d
+			x: -2.0d
+			y: -7.5d
 			shape: "diamond"
 			id: "5F685F9D666F731D"
 			tasks: [{
@@ -57,8 +57,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 0.5d
+			x: -1.5d
+			y: -8.0d
 			shape: "diamond"
 			id: "1EE5AE3000515D01"
 			tasks: [{
@@ -68,8 +68,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 1.5d
+			x: -1.5d
+			y: -7.0d
 			shape: "diamond"
 			id: "181FAE81F9DD91B7"
 			tasks: [{
@@ -79,7 +79,7 @@
 			}]
 		}
 		{
-			x: -3.0d
+			x: -4.5d
 			y: -8.0d
 			shape: "diamond"
 			id: "577DDED53B7DD39E"
@@ -90,7 +90,7 @@
 			}]
 		}
 		{
-			x: -3.0d
+			x: -4.5d
 			y: -7.0d
 			shape: "diamond"
 			id: "1BCA70DD05E08DD0"
@@ -159,7 +159,7 @@
 			}]
 		}
 		{
-			x: -2.5d
+			x: -4.0d
 			y: -7.5d
 			shape: "diamond"
 			id: "687FE28F55C71241"
@@ -236,7 +236,7 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: -5.0d
 			y: -7.5d
 			shape: "diamond"
 			id: "6D09EFE39B4E8EAA"
@@ -369,8 +369,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 1.0d
+			x: -1.0d
+			y: -7.5d
 			shape: "diamond"
 			id: "13F76EDBED0BEF5D"
 			tasks: [{
@@ -399,6 +399,99 @@
 				id: "31AF41E93355E26C"
 				type: "item"
 				item: "refinedstorage:creative_storage_block"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			shape: "diamond"
+			id: "4CB23A756989867D"
+			tasks: [{
+				id: "5F09A23F0DBC99FF"
+				type: "item"
+				item: {
+					id: "allthemodium:alloy_pick"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.5d
+			shape: "diamond"
+			id: "6F1AF96F1030FD4A"
+			tasks: [{
+				id: "6A763DAD82BB01FE"
+				type: "item"
+				item: {
+					id: "allthemodium:alloy_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.5d
+			shape: "diamond"
+			id: "1399AC890172C43D"
+			tasks: [{
+				id: "56C06B017DCC13D4"
+				type: "item"
+				item: {
+					id: "allthemodium:alloy_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			shape: "diamond"
+			id: "63434E800B423BA7"
+			tasks: [{
+				id: "760B199984125BDF"
+				type: "item"
+				item: {
+					id: "allthemodium:alloy_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			shape: "diamond"
+			dependencies: [
+				"4CB23A756989867D"
+				"1399AC890172C43D"
+				"6F1AF96F1030FD4A"
+				"63434E800B423BA7"
+				"0C33C381806BB2C1"
+			]
+			size: 1.5d
+			id: "3F279E99ECB588CD"
+			tasks: [{
+				id: "56BA465BCB266AB7"
+				type: "item"
+				item: {
+					id: "allthemodium:alloy_paxel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 	]
