@@ -1,9 +1,9 @@
 {
 	id: "6BFF5120144F32C7"
 	group: "248890104A858230"
-	order_index: 0
+	order_index: 1
 	filename: "ch_2_rename"
-	title: "&bChapter 1&r &6-&r Steel Age"
+	title: "Chapter 1"
 	icon: {
 		id: "immersiveengineering:hammer"
 		Count: 1b
@@ -16,8 +16,8 @@
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: -3.75d
-			y: 33.5d
+			x: -11.75d
+			y: 55.0d
 			width: 10.75d
 			height: 8.23d
 			rotation: 0.0d
@@ -52,8 +52,8 @@
 			corner: false
 		}
 		{
-			x: 21.25d
-			y: 16.5d
+			x: 21.75d
+			y: 38.375d
 			width: 10.75d
 			height: 8.23d
 			rotation: 0.0d
@@ -179,8 +179,8 @@
 			}]
 		}
 		{
-			x: -7.650000000000002d
-			y: 37.99999999999999d
+			x: -15.75d
+			y: 60.0d
 			dependencies: [
 				"4F10A1E05CEBFE1A"
 				"489C740C46074BBD"
@@ -193,7 +193,7 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 6.0d
 			y: 17.0d
 			shape: "square"
 			subtitle: "You aren't a real engineer if you haven't that"
@@ -212,7 +212,7 @@
 			}]
 		}
 		{
-			x: 4.75d
+			x: 3.75d
 			y: 17.0d
 			subtitle: "\"Mechanic\"? I'm going to build a car?"
 			description: ["You can craft &#71797ESteel Mechanical Components&r with 4 &#71797ESteel Plates&r and a &#B87333Copper Ingot&r, but it is cheaper in the &#482705Engineer's Workbench&r; so we advise you to craft only one for the &#482705Workbench&r and after use it."]
@@ -230,10 +230,9 @@
 			}]
 		}
 		{
-			x: 19.0d
-			y: 15.25d
+			x: 20.0d
+			y: 37.25d
 			shape: "square"
-			description: ["The Thermoelectric Generator  can generate energy based on the temperature difference of the blocks surrounding it."]
 			hide_dependency_lines: true
 			dependencies: [
 				"33A8A07EEB0A763B"
@@ -328,6 +327,20 @@
 				type: "item"
 				title: "&#B87333Copper Coil Block&r"
 				item: "immersiveengineering:coil_lv"
+			}]
+		}
+		{
+			x: 3.25d
+			y: 23.25d
+			shape: "octagon"
+			subtitle: "Water electricity"
+			dependencies: ["6587EFA0D574A4BE"]
+			id: "27101AAB36E02A4F"
+			tasks: [{
+				id: "732537254674AA71"
+				type: "item"
+				title: "&#482705Water Wheel&r"
+				item: "immersiveengineering:watermill"
 			}]
 		}
 		{
@@ -427,23 +440,26 @@
 			}]
 		}
 		{
-			title: "Build a &6Metal Press"
+			title: "&8Metal Press&r"
 			icon: "immersiveengineering:metal_press"
 			x: -0.75d
-			y: 26.25d
+			y: 31.25d
 			shape: "square"
 			subtitle: "Sss... BAM!"
 			description: [
-				"The metal press allows you to make plates, gears, rods and more."
+				"The &8Metal Press&r is used to transform metals into different forms with molds."
 				""
-				"1x Piston"
-				"2x Steel Scaffolding"
-				"1x Redstone Engineering Block"
-				"1x Heavy Engineering Block"
-				"2x Conveyor Belt"
+				"Display a preview with your &6Projector&r, and place those blocks:"
+				" - &#71797ESteel Scaffoldings&r 2x"
+				" - &4Redstone Engineering Block&r 1x"
+				" - &6Conveyor Belts&r 2x"
+				" - Piston 1x"
+				" - &#71797EHeavy Engineering Block&r 1x"
+				""
+				"Finally, right click with an &6Engineer's Hammer&r on the piston, and the multiblock will be formed"
 			]
 			dependencies: [
-				"678EDD326EC324D1"
+				"4D4C83A871B694B0"
 				"794647270D7D0016"
 				"0EA98AAA8B4EF363"
 				"2330B9960BD20526"
@@ -453,83 +469,110 @@
 			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "19862EE31DFDDAB0"
-			tasks: [{
-				id: "022FBE09A8760542"
-				type: "observation"
-				title: "Look at a complete &6Metal Press"
-				icon: "immersiveengineering:metal_press"
-				timer: 0L
-				observe_type: 0
-				to_observe: "immersiveengineering:metal_press"
-			}]
+			tasks: [
+				{
+					id: "410455305B56D52A"
+					type: "checkmark"
+					title: "&aCheck to start the quest&r"
+				}
+				{
+					id: "022FBE09A8760542"
+					type: "observation"
+					title: "Observe &8Metal Press&r"
+					icon: "immersiveengineering:metal_press"
+					secret: true
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:metal_press"
+				}
+			]
 		}
 		{
-			title: "Build a &6Crusher"
+			title: "&8Crusher&r"
 			icon: "immersiveengineering:crusher"
-			x: 4.125d
-			y: 26.225d
+			x: 11.25d
+			y: 31.25d
 			shape: "square"
 			description: [
-				"The crusher allows you to crush materials into dust. You can use this as a replacement for Create."
-				""
-				"10x Steel Scaffolding"
-				"10x Light Engineering Block"
-				"01x Redstone Engineering Block"
-				"08x Steel Fence"
-				"09x Hopper"
+				" - &#71797ESteel Scaffoldings&r 10x"
+				" - &eLight Engineering Blocks&r 10x"
+				" - &4Redstone Engineering Block&r 1x"
+				" - &#71797ESteel Fences&r 8x"
+				" - &#61666AHoppers&r 9x"
 			]
 			dependencies: [
 				"2330B9960BD20526"
 				"794647270D7D0016"
 				"0EA98AAA8B4EF363"
 				"4722CEB4B3228E7C"
-				"1A89F0C5AAA08291"
 			]
 			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "073EACF91190BEA0"
+			tasks: [
+				{
+					id: "2E2B5FDF15A9B6B6"
+					type: "checkmark"
+					title: "&aCheck to start the quest&r"
+				}
+				{
+					id: "5B5A505F07CFBEB1"
+					type: "observation"
+					title: "Observe &8Crusher&r"
+					icon: "immersiveengineering:crusher"
+					secret: true
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:crusher"
+				}
+			]
+		}
+		{
+			title: "Sawmill"
+			icon: "immersiveengineering:sawmill"
+			x: 28.75d
+			y: 8.5d
+			shape: "square"
+			description: [
+				" - &#71797ESteel Scaffoldings&r 8x"
+				" - &#61666AIron Sheetmetals&r 4x"
+				" - &eLight Engineering Blocks&r 6x"
+				" - &#71797EHeavy Engineering Blocks&r 2x"
+				" - &4Redstone Engineering Block&r 1x"
+				" - &6Conveyor Belts&r 4x"
+			]
+			size: 2.75d
+			id: "2AB4AE22B6E73EBA"
 			tasks: [{
-				id: "5B5A505F07CFBEB1"
+				id: "03EE64425FD4082C"
 				type: "observation"
-				title: "Look at a complete &6Crusher"
-				icon: "immersiveengineering:crusher"
+				title: "Sawmil"
+				icon: "immersiveengineering:sawmill"
 				timer: 0L
 				observe_type: 0
-				to_observe: "immersiveengineering:crusher"
+				to_observe: "immersiveengineering:sawmill"
 			}]
 		}
 		{
-			title: "Build an &6Assembler"
+			title: "Assembler"
 			icon: "immersiveengineering:assembler"
 			x: 28.75d
-			y: 10.650000000000002d
+			y: 11.25d
 			shape: "square"
 			description: [
-				"The Assembler is used to automatically craft items."
-				"Recipes can be set inside of the Assembler."
-				"The fluid tanks in the Assembler will automatically fill liquid containers used in recipes, such as Water Buckets."
-				"The Assembler will automatically craft the set recipes if it has the correct materials."
-				""
-				"6x Steel Scaffolding"
-				"2x Redstone Engineering Block"
-				"2x Light Engineering Block"
-				"9x Iron Sheetmetal"
-				"6x Iron Sheetmetal Slab"
-				"2x Conveyor Belt"
-			]
-			dependencies: [
-				"2330B9960BD20526"
-				"0EA98AAA8B4EF363"
-				"794647270D7D0016"
-				"0C5279A8EE03DC68"
-				"678EDD326EC324D1"
+				" - &#71797ESteel Scaffoldings&r 6x"
+				" - &4Redstone Engineering Blocks&r 2x"
+				" - &eLight Engineering Blocks&r 2x"
+				" - &#61666AIron Sheetmetals&r 9x"
+				" - &#61666AIron Sheetmetals Slabs&r 6x"
+				" - &6Conveyor Belts&r 2x"
 			]
 			size: 2.75d
 			id: "65B718DAC2C88A4C"
 			tasks: [{
 				id: "0D9F70CBDE0836CE"
 				type: "observation"
-				title: "Look at a complete &6Assembler"
+				title: "Assembler"
 				icon: "immersiveengineering:assembler"
 				timer: 0L
 				observe_type: 0
@@ -537,20 +580,15 @@
 			}]
 		}
 		{
-			title: "Build an &6Industrial Fermenter"
+			title: "Fermenter"
 			icon: "immersiveengineering:fermenter"
-			x: 15.0d
-			y: 34.4d
+			x: 4.5d
+			y: 48.0d
 			shape: "square"
 			description: [
-				"The Fermenter is used to make Ethanol."
-				""
-				"6x Steel Scaffolding"
-				"4x Cauldron"
-				"4x Iron Sheetmetal"
-				"2x Fluid Pipes"
-				"2x Light Engineering Blocks"
-				"1x Redstone Engineering Block"
+				"Steel Scaffolding 6x"
+				"Light Engineering Block 2x"
+				"Cauldron 4x"
 			]
 			dependencies: [
 				"2330B9960BD20526"
@@ -565,7 +603,7 @@
 			tasks: [{
 				id: "129949F4A24CE753"
 				type: "observation"
-				title: "Look at a complete &6Industrial Fermenter"
+				title: "Industrial Fermenter"
 				icon: "immersiveengineering:fermenter"
 				timer: 0L
 				observe_type: 0
@@ -573,22 +611,11 @@
 			}]
 		}
 		{
-			title: "Build a &6Squeezer"
+			title: "Squeezer"
 			icon: "immersiveengineering:squeezer"
-			x: 9.625d
-			y: 34.375d
+			x: -0.8979591836735068d
+			y: 40.50765306122449d
 			shape: "square"
-			description: [
-				"The Industrial Squeezer is to make Plant Oil or HOP Graphite Dust."
-				""
-				"6x Steel Scaffolding"
-				"4x Wooden Barrel"
-				"3x Steel Fence"
-				"2x Fluid Pipe"
-				"2x Light Engineering Block"
-				"1x Redstone Engineering Block"
-				"1x Piston"
-			]
 			dependencies: [
 				"2330B9960BD20526"
 				"794647270D7D0016"
@@ -600,32 +627,29 @@
 			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "625FD0330E1BDA54"
-			tasks: [{
-				id: "78D393254D3E1683"
-				type: "observation"
-				title: "Look at a complete &6Squeezer"
-				icon: "immersiveengineering:squeezer"
-				timer: 0L
-				observe_type: 0
-				to_observe: "immersiveengineering:squeezer"
-			}]
+			tasks: [
+				{
+					id: "7B952F5D55381CDA"
+					type: "checkmark"
+					title: "&aCheck to start the quest&r"
+				}
+				{
+					id: "78D393254D3E1683"
+					type: "observation"
+					title: "Observe &8Squeezer&r"
+					icon: "immersiveengineering:squeezer"
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:squeezer"
+				}
+			]
 		}
 		{
-			title: "Build a &6Refinery"
+			title: "Refinery"
 			icon: "immersiveengineering:refinery"
-			x: 12.25d
-			y: 34.4d
+			x: 1.75d
+			y: 48.0d
 			shape: "square"
-			description: [
-				"The Refinery is used to make Biodiesel."
-				""
-				"16x Iron Sheetmetal"
-				"08x Steel Scaffolding"
-				"05x Fluid Pipe"
-				"02x Light Engineering Block"
-				"02x Heavy Engineering Block"
-				"01x Redstone Engineering Block"
-			]
 			dependencies: [
 				"2330B9960BD20526"
 				"794647270D7D0016"
@@ -640,7 +664,7 @@
 			tasks: [{
 				id: "541DFBBDCAA49B2F"
 				type: "observation"
-				title: "Look at a complete &6Refinery"
+				title: "Refinery"
 				icon: "immersiveengineering:refinery"
 				timer: 0L
 				observe_type: 0
@@ -648,21 +672,11 @@
 			}]
 		}
 		{
-			title: "Build a &6Mixer"
+			title: "Mixer"
 			icon: "immersiveengineering:mixer"
-			x: 8.0d
-			y: 23.75d
+			x: -6.0d
+			y: 32.75d
 			shape: "square"
-			description: [
-				"The Mixer accepts items, liquid, and energy, and produces new liquids from the result."
-				""
-				"3x Fluid Pipe"
-				"4x Iron Sheetmetal"
-				"4x Light Engineering Block"
-				"1x Steel Fence"
-				"5x Steel Scaffolding"
-				"1x Redstone Engineering Block"
-			]
 			dependencies: [
 				"2330B9960BD20526"
 				"794647270D7D0016"
@@ -670,51 +684,39 @@
 				"0EA98AAA8B4EF363"
 				"4722CEB4B3228E7C"
 				"22CE0BA0E6011439"
-				"1A89F0C5AAA08291"
 			]
 			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "70CA1655FB8127B2"
-			tasks: [{
-				id: "69352429E892FC13"
-				type: "observation"
-				title: "Look at a complet &6Mixer"
-				icon: "immersiveengineering:mixer"
-				timer: 0L
-				observe_type: 0
-				to_observe: "immersiveengineering:mixer"
-			}]
+			tasks: [
+				{
+					id: "623FFFD2EB66EE7A"
+					type: "checkmark"
+					title: "&aCheck to start the quest&r"
+				}
+				{
+					id: "69352429E892FC13"
+					type: "observation"
+					title: "Observe &8Mixer&r"
+					icon: "immersiveengineering:mixer"
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:mixer"
+				}
+			]
 		}
 		{
-			title: "Build a &6Bottling Machine"
+			title: "Bottling Machine"
 			icon: "immersiveengineering:bottling_machine"
-			x: 27.40000000000002d
-			y: 7.900000000000002d
+			x: 26.0d
+			y: 8.5d
 			shape: "square"
-			description: [
-				"The Bottling Machine is used to fill liquid containers."
-				""
-				"3x Steel Scaffoldings"
-				"2x Iron Sheetmetal"
-				"1x Redstone Engineering Block"
-				"2x Light Engineering Blocks"
-				"3x Conveyor Belts"
-				"2x Fluid Pump"
-			]
-			dependencies: [
-				"2330B9960BD20526"
-				"0C5279A8EE03DC68"
-				"0EA98AAA8B4EF363"
-				"794647270D7D0016"
-				"764BB2F2862B4793"
-				"678EDD326EC324D1"
-			]
 			size: 2.75d
 			id: "18195DDA4F43EFCF"
 			tasks: [{
 				id: "1D65AF4DED2E9370"
 				type: "observation"
-				title: "Look at a complete &6Bottling Machine"
+				title: "Bottling Machine"
 				icon: "immersiveengineering:bottling_machine"
 				timer: 0L
 				observe_type: 0
@@ -722,35 +724,30 @@
 			}]
 		}
 		{
-			title: "Build an &6Automated Workbench"
+			title: "&8Automated &#482705Workbench&r"
 			icon: "immersiveengineering:auto_workbench"
 			x: 26.0d
-			y: 10.650000000000002d
+			y: 11.25d
 			shape: "square"
 			description: [
-				"The Automated Workbench is an automated version of the Engineer's Workbench."
+				"The &8Automated &#482705Workbench&r is used to automate &#482705Engineer's Workbench&r recipes."
 				""
-				"5x Steel Scaffolding"
-				"4x Light Engineering"
-				"4x Conveyor Belt"
-				"2x Treated Wood Slab"
-				"2x Heavy Engineering Block"
-				"1x Redstone Engineering Block"
-			]
-			dependencies: [
-				"2330B9960BD20526"
-				"794647270D7D0016"
-				"678EDD326EC324D1"
-				"7FA5496D2D5C9E03"
-				"2CE99BAF89F348F0"
-				"0EA98AAA8B4EF363"
+				"Display a preview with your &6Projector&r, and place this blocks:"
+				" - &#71797ESteel Scaffoldings&r 5x"
+				" - &eLight Engineering Blocks&r 4x"
+				" - &4Redstone Engineering Block&r 1x"
+				" - &#71797EHeavy Engineering Block&r 2x"
+				" - &#482705Treated Wood Slabs&r 2x"
+				" - &6Conveyor Belts&r 4x"
+				""
+				"Finally, right click with an &6Engineer's Hammer&r on the middle &#482705Treated Wood Slab&r, and the multiblock will be formed."
 			]
 			size: 2.75d
 			id: "5E1E836B766A4AA0"
 			tasks: [{
 				id: "4C93FD90264443F5"
 				type: "observation"
-				title: "Look a complete &6Auto Workbench"
+				title: "Observe &8Automated &#482705Engineer's Workbench&r"
 				icon: "immersiveengineering:auto_workbench"
 				timer: 0L
 				observe_type: 0
@@ -758,25 +755,11 @@
 			}]
 		}
 		{
-			title: "Build an &6Arc Furnace"
+			title: "&8Arc Furnace&r"
 			icon: "immersiveengineering:arc_furnace"
-			x: 14.098469387755081d
-			y: 36.95756802721086d
+			x: -4.5d
+			y: 51.0d
 			shape: "square"
-			description: [
-				"The Arc Furnace is used for smelting ores and grits into ingots, creating alloys including steel, and recycling certain tools and armor."
-				"For it to operate, the Arc Furnace needs power and three working Graphite Electrodes."
-				""
-				"27x Reinforced Blast Brick"
-				"14x Steel Sheetmetal Slab"
-				"10x Light Engineering Block"
-				"08x Steel Sheetmetal"
-				"06x Steel Block"
-				"05x Steel Scaffolding"
-				"05x Heavy Engineering Block"
-				"01x Cauldron"
-				"01x Redstone Engineering Block"
-			]
 			dependencies: [
 				"3A42B828EBE09335"
 				"6835288E08C68089"
@@ -788,18 +771,25 @@
 			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "29A495E5307C19C8"
-			tasks: [{
-				id: "2586FEE258D74AED"
-				type: "observation"
-				title: "Look at a complete &6Arc Furnace"
-				icon: "immersiveengineering:arc_furnace"
-				timer: 0L
-				observe_type: 0
-				to_observe: "immersiveengineering:arc_furnace"
-			}]
+			tasks: [
+				{
+					id: "5758E23D320669F3"
+					type: "checkmark"
+					title: "&aCheck to start the quest&r"
+				}
+				{
+					id: "2586FEE258D74AED"
+					type: "observation"
+					title: "Observe &8Arc Furnace&r"
+					icon: "immersiveengineering:arc_furnace"
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:arc_furnace"
+				}
+			]
 		}
 		{
-			title: "Build an &6Excavator"
+			title: "&8Excavator&r"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -807,23 +797,25 @@
 					Icon: "chroma:textures/quests/immersive_excavator.png"
 				}
 			}
-			x: 4.270238095238078d
-			y: 18.80909863945579d
+			x: 8.25d
+			y: 34.25d
 			shape: "square"
 			description: ["Finally, right click with an &6Engineer's Hammer&r on the Heavy Engineering Block (at the back), and the multiblock will form."]
-			dependencies: [
-				"716FBC2A2B0FED39"
-				"295FDDB62528FA0D"
-				"1CD4B02E543E84A8"
-			]
+			hide_dependency_lines: true
+			dependencies: ["33A8A07EEB0A763B"]
 			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "219D232C263901B6"
 			tasks: [
 				{
+					id: "0CBFCE35AB5F1D54"
+					type: "checkmark"
+					title: "&aCheck to start the quest&r"
+				}
+				{
 					id: "05354E4CDF3CD676"
 					type: "observation"
-					title: "Look at a complet &6Excavator"
+					title: "Observe &8Excavator&r"
 					icon: "immersiveengineering:excavator"
 					timer: 0L
 					observe_type: 0
@@ -832,7 +824,7 @@
 				{
 					id: "3DCE3F3798D52EC6"
 					type: "observation"
-					title: "Look at a complet &6Bucket Wheel"
+					title: "Observe &8Bucket Wheel&r"
 					icon: "immersiveengineering:bucket_wheel"
 					timer: 0L
 					observe_type: 0
@@ -1015,27 +1007,11 @@
 			]
 		}
 		{
-			title: "Build a &6Coker"
+			title: "&8Coker&r"
 			icon: "immersivepetroleum:cokerunit"
-			x: 7.0d
-			y: 31.5d
+			x: -7.0d
+			y: 40.5d
 			shape: "square"
-			description: [
-				"The Coker is used to process Bitumen into Petroleum Coke and Diesel as a byproduct."
-				""
-				"012x Concrete"
-				"098x Steel Scaffolding"
-				"001x Steel Sheetmetal"
-				"005x Light Engineering Block"
-				"001x Redstone Engineering Block"
-				"045x Concrete Tile"
-				"088x Steel Fence"
-				"162x Iron Sheetmetal"
-				"045x Steel Scaffolding Slab"
-				"047x Fluid Pipe"
-				"003x Steel Structural Arm"
-				"005x Heavy Engineering Blocks"
-			]
 			dependencies: [
 				"585CB8C19493CDF1"
 				"2330B9960BD20526"
@@ -1050,32 +1026,29 @@
 			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "01BBDEDBA8C75318"
-			tasks: [{
-				id: "5C8E4DB35D18E32A"
-				type: "observation"
-				title: "Look at a complete &6Coker"
-				icon: "immersivepetroleum:cokerunit"
-				timer: 0L
-				observe_type: 0
-				to_observe: "immersivepetroleum:cokerunit"
-			}]
+			tasks: [
+				{
+					id: "42469322783C6D01"
+					type: "checkmark"
+					title: "&aCheck to start the quest&r"
+				}
+				{
+					id: "5C8E4DB35D18E32A"
+					type: "observation"
+					title: "Observe &8Coker&r"
+					icon: "immersivepetroleum:cokerunit"
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersivepetroleum:cokerunit"
+				}
+			]
 		}
 		{
-			title: "Build a &6Diesel Generator"
+			title: "&8Diesel Generator&r"
 			icon: "immersiveengineering:diesel_generator"
-			x: 19.0d
-			y: 18.0d
+			x: 20.0d
+			y: 40.0d
 			shape: "square"
-			description: [
-				"The Diesel Generator generates energy by burning Biodiesel or other modded fuels."
-				""
-				"13x Heavy Engineering Block"
-				"09x Radiator Block"
-				"06x Steel Scaffolding"
-				"05x Fluid Pipe"
-				"04x Generator Block"
-				"01x Redstone Engineering Block"
-			]
 			dependencies: [
 				"2330B9960BD20526"
 				"45A574DBD3982B81"
@@ -1095,7 +1068,7 @@
 				{
 					id: "0F0DC8959D770D82"
 					type: "observation"
-					title: "Look at a complete &6Diesel Generator"
+					title: "Observe &8Diesel Generator&r"
 					icon: "immersiveengineering:diesel_generator"
 					timer: 0L
 					observe_type: 0
@@ -1104,26 +1077,9 @@
 			]
 		}
 		{
-			x: 16.099999999999994d
-			y: 5.25d
+			x: 22.0d
+			y: -2.25d
 			shape: "square"
-			description: [
-				"The Distillation Tower is primarily used to convert Crude Oil into usable Diesel and Gasoline fuels and Lubricant, creating Bitumen as a byproduct."
-				""
-				"25x Steel Scaffolding"
-				"30x Steel Scaffolding Slab"
-				"17x Fluid Pipe"
-				"60x Iron Sheetmetal"
-				"04x Heavy Engineering Block"
-				"01x Redstone Engineering Block"
-			]
-			dependencies: [
-				"2330B9960BD20526"
-				"22CE0BA0E6011439"
-				"0C5279A8EE03DC68"
-				"2CE99BAF89F348F0"
-				"0EA98AAA8B4EF363"
-			]
 			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "413B892C84FCA06C"
@@ -1138,24 +1094,11 @@
 			}]
 		}
 		{
-			title: "Build a &6Lightning Rod"
+			title: "&8Lightning Rod&r"
 			icon: "immersiveengineering:lightning_rod"
-			x: 22.5d
-			y: 15.25d
+			x: 23.5d
+			y: 37.25d
 			shape: "square"
-			description: [
-				"The Lightning Rod is used to generate energy with thunder."
-				"Stacking many Steel Fences on the middle block increases the chance of lightning hitting the middle block dramatically."
-				""
-				"One lightning strike will generate 16,000,000 IF."
-				""
-				"8x Copper Coil Block"
-				"4x Steel Scaffolding"
-				"4x HV Capacitor"
-				"4x Light Engineering Block"
-				"4x Treated Wood Fence"
-				"3x High-Voltage Coil Block"
-			]
 			dependencies: ["022FBE09A8760542"]
 			dependency_requirement: "one_completed"
 			size: 2.75d
@@ -1169,7 +1112,7 @@
 				{
 					id: "17112F0894443736"
 					type: "observation"
-					title: "Look at a complete &6Lightning Rod"
+					title: "Observe &8Lightning Rod&r"
 					icon: "immersiveengineering:lightning_rod"
 					timer: 0L
 					observe_type: 0
@@ -1178,33 +1121,9 @@
 			]
 		}
 		{
-			x: 16.124999999999993d
-			y: 2.4875000000000007d
+			x: 22.0d
+			y: -5.0d
 			shape: "square"
-			description: [
-				"The Pumpjack extracts fluid like Crude Oil from reservoirs."
-				"A Core Sample Drill tests for these reservoirs."
-				""
-				"Once it's powered, the pumpjack pumps at a rate of 15 mB/tick"
-				""
-				"04x Steel Sheetmetal"
-				"11x Steel Scaffolding"
-				"06x Treated Wood Fence"
-				"04x Fluid Pipe"
-				"02x Steel Block"
-				"02x Light Engineering Block"
-				"02x Heavy Engineering Block"
-				"01x Redstone Engineering Block"
-			]
-			dependencies: [
-				"6835288E08C68089"
-				"2330B9960BD20526"
-				"7FA5496D2D5C9E03"
-				"22CE0BA0E6011439"
-				"2CE99BAF89F348F0"
-				"794647270D7D0016"
-				"0EA98AAA8B4EF363"
-			]
 			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "5E27C3E81F00DB51"
@@ -1219,16 +1138,14 @@
 			}]
 		}
 		{
-			title: "Build a &6Silo"
-			x: -1.2999999999999998d
-			y: 32.0d
+			x: -9.5d
+			y: 53.5d
 			shape: "square"
 			description: [
-				"Used to store items."
-				"Can store 41,472 items of one type."
 				""
-				"04x Treated Wood Fence"
-				"50x Iron Shettmetal"
+				""
+				" - &#482705Treated Wood Fences&r 4x"
+				" - &#61666AIron Shhetmetals&r 50x"
 			]
 			hide_dependency_lines: true
 			dependencies: ["0728FA0EBC3963BA"]
@@ -1237,7 +1154,7 @@
 			tasks: [{
 				id: "5631BF3B8469A3D4"
 				type: "observation"
-				title: "Look at a complete &6Silo"
+				title: "Silo"
 				icon: "immersiveengineering:silo"
 				timer: 0L
 				observe_type: 0
@@ -1245,16 +1162,14 @@
 			}]
 		}
 		{
-			title: "Build a &6Tank"
-			x: -1.3999999999999995d
-			y: 35.3d
+			x: -9.5d
+			y: 57.0d
 			shape: "square"
 			description: [
-				"Used to store fluids."
-				"Can store 512 buckets."
 				""
-				"04x Treated Wood Fence"
-				"34x Iron Sheetmetal"
+				""
+				" - &#482705Treated Wood Fences&r 4x"
+				" - &#61666AIron Shhetmetals&r 34x"
 			]
 			hide_dependency_lines: true
 			dependencies: ["0728FA0EBC3963BA"]
@@ -1263,7 +1178,7 @@
 			tasks: [{
 				id: "2EA3E57783919E2A"
 				type: "observation"
-				title: "Look at a complete &6Tank"
+				title: "Tank"
 				icon: "immersiveengineering:tank"
 				timer: 0L
 				observe_type: 0
@@ -1344,7 +1259,7 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 6.0d
 			y: 19.25d
 			shape: "square"
 			subtitle: "Crafting Table for engineers"
@@ -1469,8 +1384,8 @@
 			}]
 		}
 		{
-			x: 22.5d
-			y: 18.0d
+			x: 23.5d
+			y: 40.0d
 			shape: "square"
 			dependencies: [
 				"566749447E9ACD6B"
@@ -1525,8 +1440,8 @@
 		{
 			title: "Craft &#482705Water Wheel&r"
 			icon: "immersiveengineering:watermill"
-			x: 1.0d
-			y: 20.0d
+			x: 1.25d
+			y: 23.25d
 			subtitle: "Mechanical crafting"
 			dependencies: [
 				"1A89F0C5AAA08291"
@@ -1623,7 +1538,7 @@
 			}]
 		}
 		{
-			x: 12.5d
+			x: 11.5d
 			y: 18.25d
 			dependencies: ["4D8942C7B8E9CB37"]
 			id: "6EF3881E47B55A47"
@@ -1634,7 +1549,7 @@
 			}]
 		}
 		{
-			x: 11.0d
+			x: 10.0d
 			y: 19.75d
 			dependencies: [
 				"4D8942C7B8E9CB37"
@@ -1648,7 +1563,7 @@
 			}]
 		}
 		{
-			x: 10.25d
+			x: 9.25d
 			y: 15.25d
 			dependencies: ["4D8942C7B8E9CB37"]
 			id: "39F79DC1FE7DABD0"
@@ -1659,7 +1574,7 @@
 			}]
 		}
 		{
-			x: 12.25d
+			x: 11.25d
 			y: 23.5d
 			dependencies: ["4D1D481E8D4DD07B"]
 			id: "0075822DF2359FE4"
@@ -1670,7 +1585,7 @@
 			}]
 		}
 		{
-			x: 10.25d
+			x: 9.25d
 			y: 17.0d
 			subtitle: "&9Crafting Components&r"
 			dependencies: [
@@ -1692,9 +1607,12 @@
 			}]
 		}
 		{
-			x: 12.25d
+			x: 11.25d
 			y: 27.0d
-			dependencies: ["12F51EE93A420344"]
+			dependencies: [
+				"12F51EE93A420344"
+				"073EACF91190BEA0"
+			]
 			id: "4D1D481E8D4DD07B"
 			tasks: [{
 				id: "080A35E1969E3602"
@@ -1703,8 +1621,8 @@
 			}]
 		}
 		{
-			x: -9.3d
-			y: 32.25d
+			x: -17.5d
+			y: 53.25d
 			hide_dependency_lines: true
 			dependencies: [
 				"577923E345CA12E5"
@@ -1718,8 +1636,8 @@
 			}]
 		}
 		{
-			x: -6.5500000000000025d
-			y: 35.75d
+			x: -14.75d
+			y: 57.25d
 			shape: "square"
 			hide_dependency_lines: true
 			dependencies: [
@@ -1734,8 +1652,8 @@
 			}]
 		}
 		{
-			x: -4.550000000000001d
-			y: 35.75d
+			x: -12.75d
+			y: 57.25d
 			shape: "square"
 			hide_dependency_lines: true
 			dependencies: [
@@ -1750,8 +1668,8 @@
 			}]
 		}
 		{
-			x: -6.550000000000001d
-			y: 34.25d
+			x: -14.75d
+			y: 55.25d
 			shape: "square"
 			dependencies: [
 				"4F10A1E05CEBFE1A"
@@ -1765,8 +1683,8 @@
 			}]
 		}
 		{
-			x: -4.550000000000001d
-			y: 34.25d
+			x: -12.75d
+			y: 55.25d
 			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["0728FA0EBC3963BA"]
@@ -1778,8 +1696,8 @@
 			}]
 		}
 		{
-			x: -6.550000000000001d
-			y: 32.25d
+			x: -14.75d
+			y: 53.25d
 			shape: "square"
 			dependencies: ["195002C6E3BDDD9B"]
 			id: "651881C1D25730A3"
@@ -1790,8 +1708,8 @@
 			}]
 		}
 		{
-			x: -4.550000000000001d
-			y: 31.75d
+			x: -12.75d
+			y: 53.25d
 			shape: "square"
 			hide_dependency_lines: true
 			dependencies: [
@@ -1806,7 +1724,7 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 6.0d
 			y: 14.75d
 			subtitle: "&9Metal Press Molds&r"
 			dependencies: [
@@ -1829,7 +1747,7 @@
 		}
 		{
 			title: "Gear"
-			x: 6.0d
+			x: 5.0d
 			y: 12.75d
 			dependencies: ["492E69B26A726C95"]
 			id: "475A6699858FFDEB"
@@ -1841,7 +1759,7 @@
 		}
 		{
 			title: "Rod"
-			x: 8.0d
+			x: 7.0d
 			y: 12.75d
 			dependencies: ["492E69B26A726C95"]
 			id: "315675355F36438D"
@@ -1853,7 +1771,7 @@
 		}
 		{
 			title: "Plate"
-			x: 4.0d
+			x: 3.0d
 			y: 12.75d
 			dependencies: ["492E69B26A726C95"]
 			id: "5A71B78E129B810A"
@@ -1865,7 +1783,7 @@
 		}
 		{
 			title: "Wire"
-			x: 10.0d
+			x: 9.0d
 			y: 12.75d
 			dependencies: ["492E69B26A726C95"]
 			id: "6A533229D52A4567"
@@ -1928,7 +1846,7 @@
 		}
 		{
 			x: 1.25d
-			y: 26.25d
+			y: 32.0d
 			min_required_dependencies: 2
 			dependencies: [
 				"022FBE09A8760542"
@@ -1943,8 +1861,8 @@
 			}]
 		}
 		{
-			x: -15.75d
-			y: 29.25d
+			x: -14.75d
+			y: 29.5d
 			shape: "square"
 			hide_dependency_lines: true
 			dependencies: [
@@ -1959,8 +1877,8 @@
 			}]
 		}
 		{
-			x: 23.49999999999998d
-			y: 22.049999999999997d
+			x: 25.0d
+			y: 14.75d
 			id: "7A8D50D5209CA36E"
 			tasks: [{
 				id: "1A10524765385A50"
@@ -1969,8 +1887,8 @@
 			}]
 		}
 		{
-			x: 23.49999999999998d
-			y: 23.05d
+			x: 25.0d
+			y: 15.75d
 			id: "021E9AEA96770A02"
 			tasks: [{
 				id: "31EEC3974AAFBDAF"
@@ -1979,8 +1897,8 @@
 			}]
 		}
 		{
-			x: 23.49999999999998d
-			y: 24.050000000000004d
+			x: 25.0d
+			y: 16.75d
 			id: "1ABF0C51100741F3"
 			tasks: [{
 				id: "312B5DE29F758B3D"
@@ -1989,8 +1907,8 @@
 			}]
 		}
 		{
-			x: 23.49999999999998d
-			y: 25.050000000000004d
+			x: 25.0d
+			y: 17.75d
 			id: "11155831F2D47565"
 			tasks: [{
 				id: "29A35863D4CC4137"
@@ -1999,8 +1917,8 @@
 			}]
 		}
 		{
-			x: 24.49999999999998d
-			y: 22.049999999999997d
+			x: 26.0d
+			y: 14.75d
 			id: "35BF2C726E9A7F0F"
 			tasks: [{
 				id: "59D9D2045F387DA4"
@@ -2009,8 +1927,8 @@
 			}]
 		}
 		{
-			x: 24.59999999999998d
-			y: 23.05d
+			x: 26.0d
+			y: 15.75d
 			id: "2D8008D29A287F7B"
 			tasks: [{
 				id: "1D4BFB9EC82D0109"
@@ -2019,8 +1937,8 @@
 			}]
 		}
 		{
-			x: 24.49999999999998d
-			y: 24.050000000000004d
+			x: 26.0d
+			y: 16.75d
 			id: "1D977330F8AA3978"
 			tasks: [{
 				id: "2F44FE86BD4F6D49"
@@ -2029,8 +1947,8 @@
 			}]
 		}
 		{
-			x: 24.49999999999998d
-			y: 25.050000000000004d
+			x: 26.0d
+			y: 17.75d
 			id: "7EA70457CE085EBF"
 			tasks: [{
 				id: "61E918EAD74C679B"
@@ -2039,8 +1957,8 @@
 			}]
 		}
 		{
-			x: 25.49999999999998d
-			y: 22.049999999999997d
+			x: 27.0d
+			y: 14.75d
 			id: "15B297F5FE156D87"
 			tasks: [{
 				id: "03F16AFB7E25A1B4"
@@ -2049,8 +1967,8 @@
 			}]
 		}
 		{
-			x: 25.59999999999998d
-			y: 23.05d
+			x: 27.0d
+			y: 15.75d
 			id: "73BA9A645815DD5E"
 			tasks: [{
 				id: "67EF8706CB996E3A"
@@ -2059,8 +1977,8 @@
 			}]
 		}
 		{
-			x: 25.49999999999998d
-			y: 24.050000000000004d
+			x: 27.0d
+			y: 16.75d
 			id: "31441E9666317157"
 			tasks: [{
 				id: "1B01FDC35F6AA40C"
@@ -2069,8 +1987,8 @@
 			}]
 		}
 		{
-			x: 25.49999999999998d
-			y: 25.050000000000004d
+			x: 27.0d
+			y: 17.75d
 			id: "4D0063955D016303"
 			tasks: [{
 				id: "790CEDE4713F6ACE"
@@ -2079,8 +1997,8 @@
 			}]
 		}
 		{
-			x: 26.49999999999998d
-			y: 22.049999999999997d
+			x: 28.0d
+			y: 14.75d
 			id: "7D486C318755D05C"
 			tasks: [{
 				id: "1F9C0130590F0CA0"
@@ -2089,8 +2007,8 @@
 			}]
 		}
 		{
-			x: 26.49999999999998d
-			y: 23.05d
+			x: 28.0d
+			y: 15.75d
 			id: "7E7C429B5B394EC3"
 			tasks: [{
 				id: "5770C2BD9060B8B7"
@@ -2099,8 +2017,8 @@
 			}]
 		}
 		{
-			x: 26.49999999999998d
-			y: 24.050000000000004d
+			x: 28.0d
+			y: 16.75d
 			id: "3E74DB46BF6CE518"
 			tasks: [{
 				id: "514E216A4269FC5D"
@@ -2109,8 +2027,8 @@
 			}]
 		}
 		{
-			x: 26.49999999999998d
-			y: 25.050000000000004d
+			x: 28.0d
+			y: 17.75d
 			id: "6982D1904374AF84"
 			tasks: [{
 				id: "5816B3FB11F02D43"
@@ -2119,13 +2037,8 @@
 			}]
 		}
 		{
-			x: 7.04999999999999d
-			y: 9.0d
-			dependencies: [
-				"7AE8CA444FAC0082"
-				"1FB633E696E09992"
-				"7FA5496D2D5C9E03"
-			]
+			x: 21.25d
+			y: 14.0d
 			id: "5BA9DECAA50846D4"
 			tasks: [{
 				id: "052E4A0E02A926D4"
@@ -2143,8 +2056,8 @@
 			}]
 		}
 		{
-			x: 7.0773809523809845d
-			y: 7.695493197278907d
+			x: 22.25d
+			y: 13.0d
 			dependencies: ["5BA9DECAA50846D4"]
 			id: "135FEDA2D54E27EC"
 			tasks: [{
@@ -2154,8 +2067,8 @@
 			}]
 		}
 		{
-			x: 7.049999999999976d
-			y: 10.2d
+			x: 22.25d
+			y: 15.0d
 			dependencies: ["5BA9DECAA50846D4"]
 			id: "6097339B60C5731F"
 			tasks: [{
@@ -2165,8 +2078,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 28.0d
+			x: 2.75d
+			y: 33.5d
 			dependencies: [
 				"412EF056E461CAA8"
 				"4145FECAF97B802E"
@@ -2185,8 +2098,8 @@
 			}]
 		}
 		{
-			x: -3.1999999999999993d
-			y: 35.75d
+			x: -11.5d
+			y: 57.25d
 			hide_dependency_lines: true
 			dependencies: ["0B70DAFB9E760CF8"]
 			id: "20BE23E4C1BC14DB"
@@ -2197,8 +2110,8 @@
 			}]
 		}
 		{
-			x: 14.649999999999999d
-			y: 12.09999999999998d
+			x: 36.75d
+			y: 21.5d
 			dependencies: ["4BFD783F25284FEC"]
 			id: "3923CAFFE5D09459"
 			tasks: [{
@@ -2208,8 +2121,8 @@
 			}]
 		}
 		{
-			x: 9.29234693877553d
-			y: 7.695493197278907d
+			x: 35.75d
+			y: 20.5d
 			dependencies: ["215D26032FAE919B"]
 			id: "5D2611D1E0B9ADA8"
 			tasks: [{
@@ -2219,8 +2132,8 @@
 			}]
 		}
 		{
-			x: 9.300000000000004d
-			y: 10.25d
+			x: 34.75d
+			y: 20.5d
 			dependencies: ["215D26032FAE919B"]
 			id: "2996214D85CE4C52"
 			tasks: [{
@@ -2230,8 +2143,8 @@
 			}]
 		}
 		{
-			x: 11.995748299319757d
-			y: 6.103656462585036d
+			x: 31.75d
+			y: 21.5d
 			dependencies: [
 				"6FB2C0A1D41D947B"
 				"4BFD783F25284FEC"
@@ -2246,8 +2159,8 @@
 			}]
 		}
 		{
-			x: 10.505952380952394d
-			y: 11.246513605442182d
+			x: 37.75d
+			y: 22.5d
 			dependencies: ["6FB2C0A1D41D947B"]
 			id: "0B905B4B664E1168"
 			tasks: [{
@@ -2257,8 +2170,8 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: 10.0d
+			x: 32.75d
+			y: 22.0d
 			dependencies: [
 				"6FB2C0A1D41D947B"
 				"4BFD783F25284FEC"
@@ -2272,8 +2185,8 @@
 			}]
 		}
 		{
-			x: 10.44472789115649d
-			y: 10.103656462585036d
+			x: 36.75d
+			y: 22.5d
 			dependencies: ["6FB2C0A1D41D947B"]
 			id: "4C4C49C1BEF2355F"
 			tasks: [{
@@ -2283,12 +2196,8 @@
 			}]
 		}
 		{
-			x: 9.300000000000004d
-			y: 9.0d
-			dependencies: [
-				"2CE99BAF89F348F0"
-				"22CE0BA0E6011439"
-			]
+			x: 33.75d
+			y: 20.5d
 			id: "215D26032FAE919B"
 			tasks: [{
 				id: "7FACCA87CD61DE5E"
@@ -2306,9 +2215,9 @@
 			}]
 		}
 		{
-			x: 6.25d
-			y: 20.25d
-			dependencies: ["4E8AB0EA5262EB30"]
+			x: 5.5d
+			y: 33.25d
+			dependencies: ["219D232C263901B6"]
 			id: "716FBC2A2B0FED39"
 			tasks: [{
 				id: "4336F4282F5A6EDE"
@@ -2323,8 +2232,8 @@
 			}]
 		}
 		{
-			x: 13.900000000000006d
-			y: 13.249999999999993d
+			x: 35.75d
+			y: 21.5d
 			dependencies: ["4BFD783F25284FEC"]
 			id: "17661ECE66939F41"
 			tasks: [{
@@ -2340,8 +2249,8 @@
 			}]
 		}
 		{
-			x: 13.149999999999991d
-			y: 12.099999999999987d
+			x: 34.75d
+			y: 21.5d
 			dependencies: ["4BFD783F25284FEC"]
 			id: "4E6AB15E1DA62179"
 			tasks: [{
@@ -2357,13 +2266,8 @@
 			}]
 		}
 		{
-			x: 13.849999999999994d
-			y: 9.99999999999999d
-			dependencies: [
-				"7FA5496D2D5C9E03"
-				"24ABFB993682884F"
-				"6F12B52BF15AFC39"
-			]
+			x: 33.75d
+			y: 21.5d
 			id: "4BFD783F25284FEC"
 			tasks: [{
 				id: "384FB0D50BF1CC76"
@@ -2382,8 +2286,8 @@
 			}]
 		}
 		{
-			x: 11.25d
-			y: 8.0d
+			x: 35.75d
+			y: 22.5d
 			dependencies: ["6FB2C0A1D41D947B"]
 			id: "0897628A00DED4FB"
 			tasks: [{
@@ -2393,8 +2297,8 @@
 			}]
 		}
 		{
-			x: 10.75d
-			y: 9.0d
+			x: 34.75d
+			y: 22.5d
 			dependencies: ["6FB2C0A1D41D947B"]
 			id: "57783FEF26F2798B"
 			tasks: [{
@@ -2404,12 +2308,8 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: 9.0d
-			dependencies: [
-				"2CE99BAF89F348F0"
-				"7FA5496D2D5C9E03"
-			]
+			x: 33.75d
+			y: 22.5d
 			id: "6FB2C0A1D41D947B"
 			tasks: [{
 				id: "381F079E8386B08C"
@@ -2428,8 +2328,8 @@
 			}]
 		}
 		{
-			x: -5.650000000000002d
-			y: 37.99999999999999d
+			x: -13.75d
+			y: 60.0d
 			dependencies: [
 				"4F10A1E05CEBFE1A"
 				"682D148DB0B5522E"
@@ -2467,7 +2367,7 @@
 		}
 		{
 			x: 1.25d
-			y: 28.0d
+			y: 33.5d
 			dependencies: ["6A568D4357334C8A"]
 			id: "412EF056E461CAA8"
 			tasks: [{
@@ -2477,9 +2377,8 @@
 			}]
 		}
 		{
-			x: 5.79999999999999d
-			y: 7.75d
-			dependencies: ["7D186A698DDFC48D"]
+			x: 19.0d
+			y: 19.75d
 			id: "7DF0E099420B375C"
 			tasks: [{
 				id: "28D8DF92B223CA0D"
@@ -2488,9 +2387,8 @@
 			}]
 		}
 		{
-			x: 8.061054421768723d
-			y: 7.695493197278907d
-			dependencies: ["215D26032FAE919B"]
+			x: 19.0d
+			y: 20.75d
 			id: "745FBB9470261C63"
 			tasks: [{
 				id: "64F0FEA37FD8BCFC"
@@ -2510,10 +2408,9 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 18.75d
-			description: ["The Core Sample Drill is used to detect and analyze Mineral Deposits that can be extracted by an Excavator or a PumpJack for fluids."]
-			dependencies: ["0FECECFE7A12A515"]
+			x: 5.5d
+			y: 35.25d
+			dependencies: ["219D232C263901B6"]
 			id: "295FDDB62528FA0D"
 			tasks: [{
 				id: "3918561707625EB8"
@@ -2533,8 +2430,8 @@
 			}]
 		}
 		{
-			x: 18.099999999999994d
-			y: 7.25d
+			x: 24.0d
+			y: 0.25d
 			hide_dependency_lines: true
 			dependencies: ["0B70DAFB9E760CF8"]
 			dependency_requirement: "one_completed"
@@ -2560,8 +2457,8 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: 32.4d
+			x: 4.0d
+			y: 46.0d
 			dependencies: ["5DC309731882A5E1"]
 			id: "27AA4FB5FEF4EE66"
 			tasks: [{
@@ -2571,8 +2468,8 @@
 			}]
 		}
 		{
-			x: 16.0d
-			y: 30.9d
+			x: 5.5d
+			y: 44.5d
 			dependencies: [
 				"69352429E892FC13"
 				"27AA4FB5FEF4EE66"
@@ -2585,8 +2482,8 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: 32.4d
+			x: 2.0d
+			y: 46.0d
 			dependencies: [
 				"1C4916687AD96A77"
 				"27AA4FB5FEF4EE66"
@@ -2600,8 +2497,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 32.4d
+			x: 0.0d
+			y: 46.0d
 			dependencies: ["625FD0330E1BDA54"]
 			id: "74A1DAEB2553F3E4"
 			tasks: [{
@@ -2611,8 +2508,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 26.75d
+			x: -6.0d
+			y: 35.75d
 			dependencies: ["70CA1655FB8127B2"]
 			id: "78C722E1351B2015"
 			tasks: [{
@@ -2879,8 +2776,8 @@
 			}]
 		}
 		{
-			x: 12.999999999999993d
-			y: 3.5d
+			x: 18.25d
+			y: 0.75d
 			dependencies: [
 				"69352429E892FC13"
 				"690D9AB4F6F3589D"
@@ -2893,8 +2790,8 @@
 			}]
 		}
 		{
-			x: 14.249999999999993d
-			y: 3.5d
+			x: 20.25d
+			y: -1.25d
 			dependencies: [
 				"413B892C84FCA06C"
 				"23FBADE5F25C5E9A"
@@ -2907,8 +2804,8 @@
 			}]
 		}
 		{
-			x: 11.550000000000004d
-			y: 3.55d
+			x: 20.25d
+			y: -3.25d
 			dependencies: [
 				"413B892C84FCA06C"
 				"23FBADE5F25C5E9A"
@@ -2921,8 +2818,8 @@
 			}]
 		}
 		{
-			x: 14.249999999999993d
-			y: 2.0d
+			x: 23.75d
+			y: -5.0d
 			dependencies: ["5E27C3E81F00DB51"]
 			id: "23FBADE5F25C5E9A"
 			tasks: [{
@@ -2932,11 +2829,12 @@
 			}]
 		}
 		{
-			x: 18.099999999999994d
-			y: 5.25d
+			x: 23.75d
+			y: -1.5d
+			hide_dependency_lines: true
 			dependencies: [
 				"413B892C84FCA06C"
-				"5C8E4DB35D18E32A"
+				"01BBDEDBA8C75318"
 			]
 			dependency_requirement: "one_completed"
 			id: "6584EF82FE88D68E"
@@ -2947,8 +2845,8 @@
 			}]
 		}
 		{
-			x: 8.550000000000004d
-			y: 3.55d
+			x: 17.25d
+			y: -3.25d
 			dependencies: ["4BB8C02076D5F6D0"]
 			id: "22489EA45B86FB7B"
 			tasks: [{
@@ -2958,8 +2856,8 @@
 			}]
 		}
 		{
-			x: 16.099999999999994d
-			y: 7.25d
+			x: 22.0d
+			y: 0.25d
 			dependencies: [
 				"6ECBEEBCF83349A5"
 				"413B892C84FCA06C"
@@ -2972,8 +2870,8 @@
 			}]
 		}
 		{
-			x: 10.050000000000004d
-			y: 3.55d
+			x: 18.75d
+			y: -3.25d
 			dependencies: ["316D200392804818"]
 			dependency_requirement: "one_completed"
 			id: "4BB8C02076D5F6D0"
@@ -2984,8 +2882,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 35.0d
+			x: -7.0d
+			y: 44.0d
 			dependencies: [
 				"01BBDEDBA8C75318"
 				"2F13516D0BF41E98"
@@ -2998,8 +2896,8 @@
 			}]
 		}
 		{
-			x: 11.600000000000001d
-			y: 36.949999999999996d
+			x: -4.5d
+			y: 48.0d
 			dependencies: ["7D35C6A38DA6B9AD"]
 			id: "3A42B828EBE09335"
 			tasks: [{
@@ -3015,8 +2913,8 @@
 			}]
 		}
 		{
-			x: 9.600000000000001d
-			y: 37.0d
+			x: -2.0d
+			y: 46.0d
 			dependencies: [
 				"04C0C78A3BB1B89A"
 				"625FD0330E1BDA54"
@@ -3029,8 +2927,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 37.0d
+			x: -7.0d
+			y: 46.0d
 			dependencies: ["3F065474A68AC2BF"]
 			id: "04C0C78A3BB1B89A"
 			tasks: [{
@@ -3041,8 +2939,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 28.75d
+			x: -7.0d
+			y: 37.75d
 			dependencies: [
 				"78C722E1351B2015"
 				"6B80DB03A7D638B1"
@@ -3056,8 +2954,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 26.75d
+			x: -8.0d
+			y: 35.75d
 			hide_dependency_lines: true
 			dependencies: ["54DC8317D4B7A510"]
 			id: "6B80DB03A7D638B1"
@@ -3068,8 +2966,8 @@
 			}]
 		}
 		{
-			x: 26.499999999999993d
-			y: 14.649999999999999d
+			x: 27.499999999999993d
+			y: 36.65d
 			min_required_dependencies: 2
 			dependencies: ["761BAE3E76AB71A3"]
 			id: "316E7F84DBF9A1A3"
@@ -3080,8 +2978,8 @@
 			}]
 		}
 		{
-			x: 26.5d
-			y: 16.25d
+			x: 27.5d
+			y: 38.25d
 			dependencies: ["316E7F84DBF9A1A3"]
 			id: "247D93C4F466D600"
 			tasks: [{
@@ -3159,8 +3057,8 @@
 			}]
 		}
 		{
-			x: 26.5d
-			y: 18.0d
+			x: 27.5d
+			y: 40.0d
 			dependencies: [
 				"53DF35CBE66E2BCA"
 				"6835288E08C68089"
@@ -3217,10 +3115,9 @@
 			}]
 		}
 		{
-			x: 14.698333333333323d
-			y: 16.948843537414987d
+			x: 13.75d
+			y: 17.0d
 			shape: "octagon"
-			description: ["The &aGarden Cloche&r is used to grow crops placed in it."]
 			dependencies: [
 				"0075822DF2359FE4"
 				"6EF3881E47B55A47"
@@ -3231,6 +3128,16 @@
 				type: "item"
 				title: "&6Garden Cloche&r"
 				item: "immersiveengineering:cloche"
+			}]
+		}
+		{
+			x: -14.75d
+			y: 30.75d
+			id: "2365EA28498E68DC"
+			tasks: [{
+				id: "38A8B66890FB38AE"
+				type: "checkmark"
+				title: "Faire quête unique d'explication des types"
 			}]
 		}
 		{
@@ -3312,151 +3219,6 @@
 				id: "4722CEB4B3228E7C"
 				type: "item"
 				item: "immersiveengineering:steel_fence"
-			}]
-		}
-		{
-			x: -15.75d
-			y: 30.5d
-			shape: "square"
-			hide_dependency_lines: true
-			dependencies: ["1E42C4D579CA5556"]
-			id: "5DD838391905F04D"
-			tasks: [{
-				id: "064C06F78F1D96EF"
-				type: "item"
-				item: "immersiveengineering:conveyor_redstone"
-			}]
-		}
-		{
-			x: -14.25d
-			y: 29.25d
-			shape: "square"
-			hide_dependency_lines: true
-			dependencies: ["1E42C4D579CA5556"]
-			id: "0571EE861836DC1E"
-			tasks: [{
-				id: "08BDC0738375A5DE"
-				type: "item"
-				item: "immersiveengineering:conveyor_dropper"
-			}]
-		}
-		{
-			x: -12.75d
-			y: 29.25d
-			shape: "square"
-			hide_dependency_lines: true
-			dependencies: ["1E42C4D579CA5556"]
-			id: "25A28BC52FE23116"
-			tasks: [{
-				id: "59C866630C13C9F1"
-				type: "item"
-				item: "immersiveengineering:conveyor_vertical"
-			}]
-		}
-		{
-			x: -14.25d
-			y: 30.5d
-			shape: "square"
-			hide_dependency_lines: true
-			dependencies: ["1E42C4D579CA5556"]
-			id: "6AA656858BC62E81"
-			tasks: [{
-				id: "4616419C3061A31F"
-				type: "item"
-				item: "immersiveengineering:conveyor_extract"
-			}]
-		}
-		{
-			x: -12.75d
-			y: 30.5d
-			shape: "square"
-			hide_dependency_lines: true
-			dependencies: ["1E42C4D579CA5556"]
-			id: "3542AE6AF9D181FA"
-			tasks: [{
-				id: "79C1E85A0CA2FFA5"
-				type: "item"
-				item: "immersiveengineering:conveyor_splitter"
-			}]
-		}
-		{
-			x: 22.25d
-			y: 23.5d
-			description: ["Si on peut faire une petite quête pour présenter engineer's deco je vois pas l'intêret de tout mettre ^^"]
-			id: "1E1D9B3AAE650741"
-			tasks: [{
-				id: "339DD4B0FD426716"
-				type: "checkmark"
-				title: "Quête pour item déco "
-			}]
-		}
-		{
-			x: 5.79999999999999d
-			y: 9.05d
-			dependencies: [
-				"489C740C46074BBD"
-				"24ABFB993682884F"
-				"7FA5496D2D5C9E03"
-				"6F12B52BF15AFC39"
-			]
-			id: "7D186A698DDFC48D"
-			tasks: [{
-				id: "646205538267286B"
-				type: "item"
-				item: {
-					id: "immersiveengineering:revolver"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							Size: 21
-							Items: [ ]
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: 5.800000000000011d
-			y: 10.199999999999996d
-			dependencies: ["7D186A698DDFC48D"]
-			id: "3C0F0180FDA30F14"
-			tasks: [{
-				id: "26E34A3DCB794D24"
-				type: "item"
-				item: "immersiveengineering:toolupgrade_revolver_electro"
-			}]
-		}
-		{
-			x: 4.2999999999999865d
-			y: 10.25d
-			dependencies: ["7D186A698DDFC48D"]
-			id: "4052D3B0AEC31A52"
-			tasks: [{
-				id: "53F76E9BE06CBD8D"
-				type: "item"
-				item: "immersiveengineering:toolupgrade_revolver_magazine"
-			}]
-		}
-		{
-			x: 4.2999999999999865d
-			y: 7.75d
-			dependencies: ["7D186A698DDFC48D"]
-			id: "1ECFF10E68D2B705"
-			tasks: [{
-				id: "16BF594756B6427F"
-				type: "item"
-				item: "immersiveengineering:toolupgrade_revolver_bayonet"
-			}]
-		}
-		{
-			x: 22.25d
-			y: 4.75d
-			description: ["Expliquer peut être porte logiques etc ou mettre un lien tuto jsp"]
-			id: "63B5EF053B030F83"
-			tasks: [{
-				id: "3FD432FC9456113F"
-				type: "checkmark"
-				title: "Faire une qûete unique pour tout les items"
 			}]
 		}
 	]
