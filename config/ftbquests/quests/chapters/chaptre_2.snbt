@@ -77,7 +77,6 @@
 		{
 			title: "&2Tinkers' Construct Slime Islands&r"
 			icon: "tconstruct:earth_earth_slime_grass"
-			disable_toast: true
 			x: -3.0d
 			y: -10.0d
 			description: ["Find one of the four &2Tinkers' Construct Slime Islands&r."]
@@ -91,7 +90,6 @@
 					type: "advancement"
 					title: "Find an &2Earthslime Island&r"
 					icon: "tconstruct:earth_earth_slime_grass"
-					disable_toast: true
 					advancement: "tconstruct:world/earth_island"
 					criterion: ""
 				}
@@ -100,7 +98,6 @@
 					type: "advancement"
 					title: "Find a &3Skyslime Island&r"
 					icon: "tconstruct:sky_sky_slime_grass"
-					disable_toast: true
 					advancement: "tconstruct:world/sky_island"
 					criterion: ""
 				}
@@ -109,7 +106,6 @@
 					type: "advancement"
 					title: "Find a &cBlood Island&r"
 					icon: "tconstruct:blood_ichor_slime_grass"
-					disable_toast: true
 					advancement: "tconstruct:world/blood_island"
 					criterion: ""
 				}
@@ -118,7 +114,6 @@
 					type: "advancement"
 					title: "Find an &5Enderslime Island&r"
 					icon: "tconstruct:ender_ender_slime_grass"
-					disable_toast: true
 					advancement: "tconstruct:world/ender_island"
 					criterion: ""
 				}

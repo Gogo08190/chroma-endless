@@ -148,7 +148,6 @@
 		}
 		{
 			title: "&#505050Reinforced Energy Power Tap&r"
-			disable_toast: true
 			x: 1.75d
 			y: -8.75d
 			dependencies: ["5A646FCC3CBF91CF"]
@@ -214,7 +213,6 @@
 		}
 		{
 			title: "&#505050Reinforced Fluid Port&r"
-			disable_toast: true
 			x: 2.75d
 			y: -8.25d
 			dependencies: [
@@ -867,7 +865,6 @@
 		}
 		{
 			title: "&#50565FReinforced Fluid Port&r"
-			disable_toast: true
 			x: -5.75d
 			y: 14.0d
 			dependencies: [
@@ -894,7 +891,6 @@
 		}
 		{
 			title: "&#50565FReinforced Energy Power Tap&r"
-			disable_toast: true
 			x: -4.75d
 			y: 14.25d
 			dependencies: ["1B40272EE7B1DD4F"]
@@ -1057,7 +1053,6 @@
 		}
 		{
 			title: "&#4B4E53Basic Energy Power Tap&r"
-			disable_toast: true
 			x: -12.0d
 			y: -9.75d
 			dependencies: ["47D58FD227B99611"]
@@ -1168,7 +1163,6 @@
 		}
 		{
 			title: "&#929090Basic Fluid Port&r"
-			disable_toast: true
 			x: -10.0d
 			y: -1.0d
 			dependencies: [
@@ -1195,7 +1189,6 @@
 		}
 		{
 			title: "&#929090Basic Energy Power Tap&r"
-			disable_toast: true
 			x: -9.0d
 			y: -0.75d
 			dependencies: ["6411797C17A84579"]
