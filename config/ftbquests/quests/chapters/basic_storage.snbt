@@ -21,6 +21,11 @@
 				type: "item"
 				item: "framedcompactdrawers:framed_full_one"
 			}]
+			rewards: [{
+				id: "6F8BDCDE47D8DD21"
+				type: "item"
+				item: "framedcompactdrawers:framed_full_one"
+			}]
 		}
 		{
 			x: 2.5d
@@ -29,6 +34,11 @@
 			id: "41AEB34D3AA3A76D"
 			tasks: [{
 				id: "551FB12C9F7090C6"
+				type: "item"
+				item: "framedcompactdrawers:framed_compact_drawer"
+			}]
+			rewards: [{
+				id: "4CD7DE67BE26A3C4"
 				type: "item"
 				item: "framedcompactdrawers:framed_compact_drawer"
 			}]
@@ -43,6 +53,11 @@
 				type: "item"
 				item: "framedcompactdrawers:framed_drawer_controller"
 			}]
+			rewards: [{
+				id: "3212E8BB9B75D55D"
+				type: "item"
+				item: "framedcompactdrawers:framed_drawer_controller"
+			}]
 		}
 		{
 			x: 6.5d
@@ -54,6 +69,11 @@
 				type: "item"
 				item: "framedcompactdrawers:framed_trim"
 			}]
+			rewards: [{
+				id: "2B71457446240C4D"
+				type: "item"
+				item: "framedcompactdrawers:framed_trim"
+			}]
 		}
 		{
 			x: 8.5d
@@ -62,6 +82,11 @@
 			id: "1A5727723DDD4690"
 			tasks: [{
 				id: "3C745BB3D602E21D"
+				type: "item"
+				item: "framedcompactdrawers:framed_slave"
+			}]
+			rewards: [{
+				id: "14FA928EC9825935"
 				type: "item"
 				item: "framedcompactdrawers:framed_slave"
 			}]
@@ -94,6 +119,11 @@
 				type: "item"
 				item: "storagedrawers:upgrade_template"
 			}]
+			rewards: [{
+				id: "21DB1C5151C27087"
+				type: "item"
+				item: "storagedrawers:upgrade_template"
+			}]
 		}
 		{
 			x: 5.0d
@@ -109,6 +139,11 @@
 				type: "item"
 				item: "storagedrawers:obsidian_storage_upgrade"
 			}]
+			rewards: [{
+				id: "1726551C239FD1CC"
+				type: "item"
+				item: "storagedrawers:obsidian_storage_upgrade"
+			}]
 		}
 		{
 			x: 5.0d
@@ -121,6 +156,11 @@
 			id: "3165308FA1AD681B"
 			tasks: [{
 				id: "4BADA58281C67331"
+				type: "item"
+				item: "storagedrawers:iron_storage_upgrade"
+			}]
+			rewards: [{
+				id: "6B31AA0ED31F2616"
 				type: "item"
 				item: "storagedrawers:iron_storage_upgrade"
 			}]
@@ -161,6 +201,11 @@
 				type: "item"
 				item: "storagedrawers:diamond_storage_upgrade"
 			}]
+			rewards: [{
+				id: "49B90070B8649A00"
+				type: "item"
+				item: "storagedrawers:diamond_storage_upgrade"
+			}]
 		}
 		{
 			x: 5.0d
@@ -176,14 +221,25 @@
 				type: "item"
 				item: "storagedrawers:gold_storage_upgrade"
 			}]
+			rewards: [{
+				id: "228AB4513BB81456"
+				type: "item"
+				item: "storagedrawers:gold_storage_upgrade"
+			}]
 		}
 		{
 			x: 6.25d
 			y: -9.0d
 			dependencies: ["6F7E038577E9E093"]
+			optional: true
 			id: "4167C9663B06C4C0"
 			tasks: [{
 				id: "1DE11D8DA6105D1A"
+				type: "item"
+				item: "storagedrawers:one_stack_upgrade"
+			}]
+			rewards: [{
+				id: "577252EB8CA4A663"
 				type: "item"
 				item: "storagedrawers:one_stack_upgrade"
 			}]
@@ -202,6 +258,11 @@
 				type: "item"
 				item: "storagedrawers:emerald_storage_upgrade"
 			}]
+			rewards: [{
+				id: "33A410F5A20ABD65"
+				type: "item"
+				item: "storagedrawers:emerald_storage_upgrade"
+			}]
 		}
 		{
 			x: 7.5d
@@ -210,9 +271,15 @@
 				"6F7E038577E9E093"
 				"52A9D4F9E61253F4"
 			]
+			optional: true
 			id: "2CC70D6987409E61"
 			tasks: [{
 				id: "655FFCCD35076CFC"
+				type: "item"
+				item: "storagedrawers:redstone_upgrade"
+			}]
+			rewards: [{
+				id: "2C70725ECF3229B6"
 				type: "item"
 				item: "storagedrawers:redstone_upgrade"
 			}]
@@ -231,6 +298,11 @@
 				type: "item"
 				item: "storagedrawers:void_upgrade"
 			}]
+			rewards: [{
+				id: "46D3007662A90446"
+				type: "item"
+				item: "storagedrawers:void_upgrade"
+			}]
 		}
 		{
 			x: 7.5d
@@ -239,9 +311,15 @@
 				"6F7E038577E9E093"
 				"52A9D4F9E61253F4"
 			]
+			optional: true
 			id: "05FBFC6908571073"
 			tasks: [{
 				id: "78E8548F43FAA489"
+				type: "item"
+				item: "storagedrawers:max_redstone_upgrade"
+			}]
+			rewards: [{
+				id: "51D7D266642F9829"
 				type: "item"
 				item: "storagedrawers:max_redstone_upgrade"
 			}]
@@ -253,9 +331,15 @@
 				"6F7E038577E9E093"
 				"52A9D4F9E61253F4"
 			]
+			optional: true
 			id: "00061AD328CCF221"
 			tasks: [{
 				id: "3039F817A8936413"
+				type: "item"
+				item: "storagedrawers:min_redstone_upgrade"
+			}]
+			rewards: [{
+				id: "377E673424872BC0"
 				type: "item"
 				item: "storagedrawers:min_redstone_upgrade"
 			}]
@@ -267,9 +351,15 @@
 				"6F7E038577E9E093"
 				"52A9D4F9E61253F4"
 			]
+			optional: true
 			id: "5C06D8614A2BA0ED"
 			tasks: [{
 				id: "0F7391B0855E7409"
+				type: "item"
+				item: "storagedrawers:fill_level_upgrade"
+			}]
+			rewards: [{
+				id: "70A8B2D7F239A49F"
 				type: "item"
 				item: "storagedrawers:fill_level_upgrade"
 			}]
@@ -282,9 +372,15 @@
 				"6F7E038577E9E093"
 				"359039A14143712B"
 			]
+			optional: true
 			id: "28036D6566C362A7"
 			tasks: [{
 				id: "2417C6B06D01BFE2"
+				type: "item"
+				item: "storagedrawers:illumination_upgrade"
+			}]
+			rewards: [{
+				id: "59C6457302E7CBC9"
 				type: "item"
 				item: "storagedrawers:illumination_upgrade"
 			}]
@@ -299,6 +395,11 @@
 				type: "item"
 				item: "storagedrawers:controller_slave"
 			}]
+			rewards: [{
+				id: "122271031D6CF46E"
+				type: "item"
+				item: "storagedrawers:controller_slave"
+			}]
 		}
 		{
 			x: 6.5d
@@ -306,7 +407,52 @@
 			dependencies: ["3A34A14E10BCDD68"]
 			id: "0C5661B30E9EC087"
 			tasks: [{
-				id: "6EBA6451B59E4AA8"
+				id: "3E06CE0F6EC564C8"
+				type: "item"
+				title: "Trim"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "storagedrawers:oak_trim"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:spruce_trim"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:birch_trim"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:jungle_trim"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:acacia_trim"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:dark_oak_trim"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:crimson_trim"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:warped_trim"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "6B57D05F2C3D642E"
 				type: "item"
 				item: "storagedrawers:oak_trim"
 			}]
@@ -321,6 +467,11 @@
 				type: "item"
 				item: "storagedrawers:controller"
 			}]
+			rewards: [{
+				id: "09DECB3E48760664"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
 		}
 		{
 			x: 2.5d
@@ -329,6 +480,11 @@
 			id: "1E43D2BF44BAABEB"
 			tasks: [{
 				id: "41F9719B98702644"
+				type: "item"
+				item: "storagedrawers:compacting_drawers_3"
+			}]
+			rewards: [{
+				id: "5F241B9FBDCE3DC9"
 				type: "item"
 				item: "storagedrawers:compacting_drawers_3"
 			}]
@@ -354,6 +510,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0CF6B6E71FD69562"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_1"
+			}]
 		}
 		{
 			x: 0.0d
@@ -375,6 +536,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "54212A181A0E8D96"
+				type: "item"
+				item: "minecraft:chest"
+			}]
 		}
 		{
 			x: 2.5d
@@ -385,7 +551,7 @@
 				""
 				"→ In void for change mode :"
 				""
-				"   - Merge > Use on two adjacents chests will merge them.              &4&l&nDON'T USE THIS ON DIFFERENTS CHESTS, IT COULD CRASH YOUR&r                  &4&l&nGAME OR SERVER!&r"
+				"   - Merge > Use on two adjacents chests will merge them. &4&l&nDON'T USE THIS ON DIFFERENTS CHESTS, IT COULD CRASH YOUR GAME OR SERVER!&r"
 				""
 				"   - Split > The opposite of merge; use on a double chest to split it into two single chests."
 				""
@@ -397,6 +563,7 @@
 				"→ On a chest to apply the selected mode to it."
 			]
 			dependencies: ["1195924B8477153E"]
+			min_width: 300
 			id: "2C8FACF586696C1B"
 			tasks: [{
 				id: "1923B2A1006AB24F"
@@ -409,6 +576,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "083393303257CCA4"
+				type: "item"
+				item: "minecraft:chest"
+			}]
 		}
 		{
 			x: 2.5d
@@ -420,6 +592,11 @@
 				id: "6386AEAF94CB058A"
 				type: "item"
 				item: "expandedstorage:iron_chest"
+			}]
+			rewards: [{
+				id: "26A8F87E1F50D7D6"
+				type: "item"
+				item: "expandedstorage:old_iron_chest"
 			}]
 		}
 		{
@@ -442,6 +619,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2D0BD724BD4B1A16"
+				type: "item"
+				item: "minecraft:barrel"
+			}]
 		}
 		{
 			x: 2.5d
@@ -451,6 +633,11 @@
 			id: "1D0D84318A63C568"
 			tasks: [{
 				id: "04692AA22F41A8D6"
+				type: "item"
+				item: "expandedstorage:iron_barrel"
+			}]
+			rewards: [{
+				id: "5DCE0BA937E52418"
 				type: "item"
 				item: "expandedstorage:iron_barrel"
 			}]
@@ -466,6 +653,11 @@
 				type: "item"
 				item: "expandedstorage:gold_barrel"
 			}]
+			rewards: [{
+				id: "662FF72DCB34F66A"
+				type: "item"
+				item: "expandedstorage:gold_barrel"
+			}]
 		}
 		{
 			x: 4.5d
@@ -477,6 +669,11 @@
 				id: "6EC01DA3CAD39C05"
 				type: "item"
 				item: "expandedstorage:gold_chest"
+			}]
+			rewards: [{
+				id: "5E83AA1E5592BD3C"
+				type: "item"
+				item: "expandedstorage:old_gold_chest"
 			}]
 		}
 		{
@@ -490,6 +687,11 @@
 				type: "item"
 				item: "expandedstorage:diamond_chest"
 			}]
+			rewards: [{
+				id: "13412EA0D799AAA3"
+				type: "item"
+				item: "expandedstorage:old_diamond_chest"
+			}]
 		}
 		{
 			x: 6.5d
@@ -499,6 +701,11 @@
 			id: "7DCD4F808954C828"
 			tasks: [{
 				id: "112AD8AA77B57F8C"
+				type: "item"
+				item: "expandedstorage:diamond_barrel"
+			}]
+			rewards: [{
+				id: "412F71F2FF6A6D0B"
 				type: "item"
 				item: "expandedstorage:diamond_barrel"
 			}]
@@ -514,6 +721,11 @@
 				type: "item"
 				item: "expandedstorage:obsidian_barrel"
 			}]
+			rewards: [{
+				id: "452322B01BE9BDC1"
+				type: "item"
+				item: "expandedstorage:obsidian_barrel"
+			}]
 		}
 		{
 			x: 8.5d
@@ -525,6 +737,11 @@
 				id: "7DB408D4018092A8"
 				type: "item"
 				item: "expandedstorage:obsidian_chest"
+			}]
+			rewards: [{
+				id: "1B0FC68888C5E228"
+				type: "item"
+				item: "expandedstorage:old_obsidian_chest"
 			}]
 		}
 		{
@@ -538,6 +755,11 @@
 				type: "item"
 				item: "expandedstorage:netherite_chest"
 			}]
+			rewards: [{
+				id: "225673564F34ED41"
+				type: "item"
+				item: "expandedstorage:old_netherite_chest"
+			}]
 		}
 		{
 			x: 10.5d
@@ -550,11 +772,17 @@
 				type: "item"
 				item: "expandedstorage:netherite_barrel"
 			}]
+			rewards: [{
+				id: "6FEE16DF2DEE687D"
+				type: "item"
+				item: "expandedstorage:netherite_barrel"
+			}]
 		}
 		{
 			x: 15.0d
 			y: 3.5d
 			shape: "diamond"
+			description: ["On server don't forget to put a diamand to make your chest private."]
 			dependencies: ["679DF08FABBE8A87"]
 			size: 1.5d
 			id: "41321939C7659A8B"
@@ -563,16 +791,27 @@
 				type: "item"
 				item: "enderstorage:ender_chest"
 			}]
+			rewards: [{
+				id: "176C7E41F0B3BFE8"
+				type: "item"
+				item: "enderstorage:ender_chest"
+			}]
 		}
 		{
 			x: 17.25d
 			y: 4.25d
 			shape: "diamond"
+			description: ["On server don't forget to put a diamand to make your tank private."]
 			dependencies: ["679DF08FABBE8A87"]
 			size: 1.5d
 			id: "600A8F12B279150A"
 			tasks: [{
 				id: "340B457AE0B21A87"
+				type: "item"
+				item: "enderstorage:ender_tank"
+			}]
+			rewards: [{
+				id: "72154FF1A98C9ECA"
 				type: "item"
 				item: "enderstorage:ender_tank"
 			}]
@@ -589,6 +828,17 @@
 				type: "item"
 				item: "enderstorage:ender_pouch"
 			}]
+			rewards: [{
+				id: "6B417FFF3C44FC00"
+				type: "item"
+				item: {
+					id: "quark:seed_pouch"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			x: 14.75d
@@ -602,6 +852,11 @@
 				type: "item"
 				item: "dankstorage:dock"
 			}]
+			rewards: [{
+				id: "54609BD436FCCBF9"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 14.75d
@@ -612,6 +867,11 @@
 				id: "681D12E4DC01ED5E"
 				type: "item"
 				item: "dankstorage:dank_1"
+			}]
+			rewards: [{
+				id: "4ADA813DF3872260"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -624,6 +884,11 @@
 				type: "item"
 				item: "dankstorage:dank_2"
 			}]
+			rewards: [{
+				id: "24BE06FDEEF449BE"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 13.0d
@@ -634,6 +899,11 @@
 				id: "0841DF6C548AFDAF"
 				type: "item"
 				item: "dankstorage:dank_3"
+			}]
+			rewards: [{
+				id: "095A99D500ADEC47"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -646,6 +916,11 @@
 				type: "item"
 				item: "dankstorage:dank_4"
 			}]
+			rewards: [{
+				id: "5849EFA7FFE81C98"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 14.75d
@@ -656,6 +931,11 @@
 				id: "5E54631537C4901B"
 				type: "item"
 				item: "dankstorage:dank_5"
+			}]
+			rewards: [{
+				id: "28245B21111F4E2C"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -668,6 +948,11 @@
 				type: "item"
 				item: "dankstorage:dank_6"
 			}]
+			rewards: [{
+				id: "23E8A4DF5DB84808"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 16.5d
@@ -679,17 +964,28 @@
 				type: "item"
 				item: "dankstorage:dank_7"
 			}]
+			rewards: [{
+				id: "4AE7AAA0FD8DF3B9"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 17.75d
 			y: -1.0d
 			shape: "octagon"
+			dependencies: ["0728FA0EBC3963BA"]
 			size: 2.0d
 			id: "5FEB0F04A332203A"
 			tasks: [{
 				id: "1FF3DADCCC9A199F"
 				type: "item"
 				item: "tanknull:dock"
+			}]
+			rewards: [{
+				id: "61F4782987B11077"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -711,6 +1007,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "38DC87CE0AB9DF48"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 19.0d
@@ -727,6 +1028,11 @@
 						fluidinv: { }
 					}
 				}
+			}]
+			rewards: [{
+				id: "08CC7C9ECAAF617E"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -745,6 +1051,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2E0E3A05F3C0809C"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 19.0d
@@ -761,6 +1072,11 @@
 						fluidinv: { }
 					}
 				}
+			}]
+			rewards: [{
+				id: "0F359ED888211BAB"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -779,6 +1095,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5AC9A894169F2FF3"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 16.5d
@@ -795,6 +1116,11 @@
 						fluidinv: { }
 					}
 				}
+			}]
+			rewards: [{
+				id: "5D923097CEFEE6CF"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -813,17 +1139,28 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "021B624200CA8A7A"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 27.25d
 			y: 4.25d
 			description: ["Tier 4 - 16x."]
 			dependencies: ["6C2651531A1357D9"]
+			optional: true
 			id: "2F0BBA26EB4A9CAB"
 			tasks: [{
 				id: "76EE014F735B2A0B"
 				type: "item"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+			}]
+			rewards: [{
+				id: "757A7CBF67DC7A5F"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -831,11 +1168,17 @@
 			y: 3.25d
 			description: ["Tier 3 - 8x."]
 			dependencies: ["230D42DD6AC83ABB"]
+			optional: true
 			id: "6C2651531A1357D9"
 			tasks: [{
 				id: "598CAD30BB026582"
 				type: "item"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+			}]
+			rewards: [{
+				id: "532CB40617D3803C"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -843,11 +1186,17 @@
 			y: 3.25d
 			description: ["Pumps experience between Tank upgrade and player."]
 			dependencies: ["2FF19C93998D7B8A"]
+			optional: true
 			id: "1D570B4D982237F5"
 			tasks: [{
 				id: "172B7FD8BB4DC902"
 				type: "item"
 				item: "sophisticatedbackpacks:xp_pump_upgrade"
+			}]
+			rewards: [{
+				id: "0AFD8C5AFE756A66"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -859,11 +1208,17 @@
 				"Allow to filter which fluids are pumped."
 			]
 			dependencies: ["47698AD606A9A21E"]
+			optional: true
 			id: "2FF19C93998D7B8A"
 			tasks: [{
 				id: "4DF4BB45272A0BA7"
 				type: "item"
 				item: "sophisticatedbackpacks:advanced_pump_upgrade"
+			}]
+			rewards: [{
+				id: "57444EF821E860C7"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -871,11 +1226,17 @@
 			y: 2.25d
 			description: ["Tier 2 - 4x."]
 			dependencies: ["0DF3EBD59EA79D8C"]
+			optional: true
 			id: "230D42DD6AC83ABB"
 			tasks: [{
 				id: "4052AEC3AB4F6109"
 				type: "item"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+			}]
+			rewards: [{
+				id: "5A49481D0E03732C"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -883,11 +1244,17 @@
 			y: 1.25d
 			description: ["Advanced one has more filtering options - match by item/mod/tags, match nbt, match damage and 16 slots that can be used to filter."]
 			dependencies: ["30132A9E617EB032"]
+			optional: true
 			id: "11FDB31F0C75438A"
 			tasks: [{
 				id: "4B6556526989B1CE"
 				type: "item"
 				item: "sophisticatedbackpacks:advanced_restock_upgrade"
+			}]
+			rewards: [{
+				id: "6C93217895E3F7E8"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -895,11 +1262,17 @@
 			y: 0.5d
 			description: ["Advanced one has filters which allow to filter what gets swapped."]
 			dependencies: ["762CCB05AA3AFE42"]
+			optional: true
 			id: "0FB58C6787C5561D"
 			tasks: [{
 				id: "1337F7CBD7FB69BF"
 				type: "item"
 				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+			}]
+			rewards: [{
+				id: "5BE08623A816CD14"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -907,22 +1280,34 @@
 			y: -1.0d
 			description: ["Advanced one has 16 slots and can compact items using both 2x2 and 3x3 recipes."]
 			dependencies: ["2FFCD09CBE6F9163"]
+			optional: true
 			id: "785827104D47D761"
 			tasks: [{
 				id: "52C00A33C6F76C4D"
 				type: "item"
 				item: "sophisticatedbackpacks:advanced_compacting_upgrade"
 			}]
+			rewards: [{
+				id: "27972CCEB95E2577"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 22.0d
 			y: -2.0d
 			dependencies: ["1A5578C3634286B1"]
+			optional: true
 			id: "563688BAB1C39A0E"
 			tasks: [{
 				id: "4BC70F212E0213EE"
 				type: "item"
 				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+			}]
+			rewards: [{
+				id: "59D422DCCAB08FB9"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -930,11 +1315,17 @@
 			y: -3.0d
 			description: ["Advanced one has bigger magnet range more filtering options - match by item/mod/tags, match nbt, match damage and 16 slots that can be used to filter."]
 			dependencies: ["50D4F08C9A173BD5"]
+			optional: true
 			id: "6B97AA5D5C9BE323"
 			tasks: [{
 				id: "111B03DC19F674CB"
 				type: "item"
 				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+			}]
+			rewards: [{
+				id: "7CBBACD29E72A26D"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -942,11 +1333,17 @@
 			y: -4.0d
 			description: ["Advanced one has more filtering options - match by item/mod/tags, match nbt, match damage and 16 slots that can be used to filter."]
 			dependencies: ["77BF7BEB7C7B5229"]
+			optional: true
 			id: "1F62DA38EA9904FE"
 			tasks: [{
 				id: "3BAA9DA7C59B4A41"
 				type: "item"
 				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+			}]
+			rewards: [{
+				id: "308AA4C161FB1315"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -954,11 +1351,17 @@
 			y: -4.0d
 			description: ["Advanced one has more filtering options - match by item/mod/tags, match nbt, match damage and 16 slots that can be used to filter."]
 			dependencies: ["2CC66059833AF128"]
+			optional: true
 			id: "71A5D604E50E941E"
 			tasks: [{
 				id: "5325B8A042DD9807"
 				type: "item"
 				item: "sophisticatedbackpacks:advanced_filter_upgrade"
+			}]
+			rewards: [{
+				id: "4300E73DB7223789"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -973,6 +1376,7 @@
 				"67FFD62BFB4EEF3B"
 			]
 			dependency_requirement: "one_completed"
+			optional: true
 			id: "489E6C38004005CC"
 			tasks: [{
 				id: "63E300EA944CD974"
@@ -985,12 +1389,18 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "01A14998AB8501B5"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 31.5d
 			y: -2.0d
 			description: ["Auto smelting one will automatically pull fuel, items to smelt and will automatically push smelted items back into backpack."]
 			dependencies: ["5E531159FD478B4A"]
+			optional: true
 			id: "67FFD62BFB4EEF3B"
 			tasks: [{
 				id: "75C7A1AC3795FF87"
@@ -1003,6 +1413,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "689636A0869956E4"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 31.5d
@@ -1013,6 +1428,7 @@
 				"67FFD62BFB4EEF3B"
 			]
 			dependency_requirement: "one_completed"
+			optional: true
 			id: "61EE6B8D9DD624CC"
 			tasks: [{
 				id: "34EDD0AB004DC967"
@@ -1025,17 +1441,28 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7D1CE23B1E40DE64"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 30.5d
 			y: 0.5d
 			description: ["Advanced one has more filtering options - match by item/mod/tags, match nbt, match damage and 16 slots that can be used to filter."]
 			dependencies: ["020C08865451A39F"]
+			optional: true
 			id: "345D4FB87B5D323D"
 			tasks: [{
 				id: "5F858401290FDDCE"
 				type: "item"
 				item: "sophisticatedbackpacks:advanced_void_upgrade"
+			}]
+			rewards: [{
+				id: "130AF66110D43A72"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1043,11 +1470,17 @@
 			y: 1.25d
 			description: ["Advanced one has more filtering options - match by item/mod/tags, match nbt, match damage and 16 slots that can be used to filter."]
 			dependencies: ["363080D6237592BA"]
+			optional: true
 			id: "50195DA20A4EA86A"
 			tasks: [{
 				id: "40E6BB9B038A8728"
 				type: "item"
 				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
+			}]
+			rewards: [{
+				id: "3A8BE12330B885AF"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1098,6 +1531,11 @@
 					item: "kubejs:sac"
 				}
 			]
+			rewards: [{
+				id: "5275BFBB75D54662"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: 26.75d
@@ -1110,6 +1548,11 @@
 				type: "item"
 				item: "sophisticatedbackpacks:backpack"
 			}]
+			rewards: [{
+				id: "1FFBC3922B744CCC"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 26.75d
@@ -1118,6 +1561,11 @@
 			id: "4DDE60CE13BDA795"
 			tasks: [{
 				id: "08407E12BE87497B"
+				type: "item"
+				item: "sophisticatedbackpacks:upgrade_base"
+			}]
+			rewards: [{
+				id: "381E15CDA4B52F55"
 				type: "item"
 				item: "sophisticatedbackpacks:upgrade_base"
 			}]
@@ -1133,6 +1581,11 @@
 				type: "item"
 				item: "sophisticatedbackpacks:iron_backpack"
 			}]
+			rewards: [{
+				id: "58CF5ED1EFE16EBD"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 27.75d
@@ -1144,6 +1597,11 @@
 				id: "285E4F54F0B03DAA"
 				type: "item"
 				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+			rewards: [{
+				id: "7BBD1EFF8024DC2E"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1157,6 +1615,11 @@
 				type: "item"
 				item: "sophisticatedbackpacks:diamond_backpack"
 			}]
+			rewards: [{
+				id: "2F0A95A7C08E823C"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 24.75d
@@ -1169,6 +1632,11 @@
 				type: "item"
 				item: "sophisticatedbackpacks:netherite_backpack"
 			}]
+			rewards: [{
+				id: "3CD1ADD32FC9165F"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 25.25d
@@ -1176,11 +1644,17 @@
 			description: ["Up to 6 stacks can be defined in its filter to refill."]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
+			optional: true
 			id: "2B88688E253AC3B6"
 			tasks: [{
 				id: "3AA07016B865EDF8"
 				type: "item"
 				item: "sophisticatedbackpacks:refill_upgrade"
+			}]
+			rewards: [{
+				id: "6FF2CF6EF5BFCC83"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1189,11 +1663,17 @@
 			description: ["Makes backpack indestructible."]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
+			optional: true
 			id: "3C6268F8DCBA976E"
 			tasks: [{
 				id: "7B3DAAF1829B7583"
 				type: "item"
 				item: "sophisticatedbackpacks:everlasting_upgrade"
+			}]
+			rewards: [{
+				id: "55DAC34669809A79"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1208,11 +1688,17 @@
 			]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
+			optional: true
 			id: "7185F14ECC706925"
 			tasks: [{
 				id: "44B6D1222EB0E206"
 				type: "item"
 				item: "sophisticatedbackpacks:stonecutter_upgrade"
+			}]
+			rewards: [{
+				id: "6C062260447E0B99"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1221,11 +1707,17 @@
 			description: ["Regular upgrade can only filter by item and has 9 filter slots."]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
+			optional: true
 			id: "77BF7BEB7C7B5229"
 			tasks: [{
 				id: "0121DED71BD78077"
 				type: "item"
 				item: "sophisticatedbackpacks:pickup_upgrade"
+			}]
+			rewards: [{
+				id: "531F7FA2F8FAC961"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1233,11 +1725,17 @@
 			y: -3.0d
 			description: ["Regular upgrade can only filter by item and has 9 filter slots."]
 			dependencies: ["77BF7BEB7C7B5229"]
+			optional: true
 			id: "50D4F08C9A173BD5"
 			tasks: [{
 				id: "17ABB97818C75F7A"
 				type: "item"
 				item: "sophisticatedbackpacks:magnet_upgrade"
+			}]
+			rewards: [{
+				id: "5467E1E4AB4B124F"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1246,11 +1744,17 @@
 			description: ["Has filters to allow limiting what food items should be fed to player (pretty useful in case you're picking up stuff like rotten flesh and similar with negative effects)."]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
+			optional: true
 			id: "1A5578C3634286B1"
 			tasks: [{
 				id: "2324A4582A5F7605"
 				type: "item"
 				item: "sophisticatedbackpacks:feeding_upgrade"
+			}]
+			rewards: [{
+				id: "2E99D53690C6D9B6"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1259,11 +1763,17 @@
 			description: ["Regular upgrade only has 9 filter slots and can only compact items using 2x2 recipes."]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
+			optional: true
 			id: "2FFCD09CBE6F9163"
 			tasks: [{
 				id: "44DE19E2365CC99B"
 				type: "item"
 				item: "sophisticatedbackpacks:compacting_upgrade"
+			}]
+			rewards: [{
+				id: "685DB115080DBE2A"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1272,11 +1782,17 @@
 			description: ["Regular upgrade will automatically swap right tool into player's hand from backpack when block or entity is clicked ."]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
+			optional: true
 			id: "762CCB05AA3AFE42"
 			tasks: [{
 				id: "2E1C36C59FA39DCB"
 				type: "item"
 				item: "sophisticatedbackpacks:tool_swapper_upgrade"
+			}]
+			rewards: [{
+				id: "4641B359815FFE69"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1285,11 +1801,17 @@
 			description: ["Regular upgrade can only filter by item and has 9 filter slots."]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
+			optional: true
 			id: "30132A9E617EB032"
 			tasks: [{
 				id: "24E79CB7F7496371"
 				type: "item"
 				item: "sophisticatedbackpacks:restock_upgrade"
+			}]
+			rewards: [{
+				id: "42DA5B727D525610"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1298,11 +1820,17 @@
 			description: ["Replaces part of backpack's inventory with fluid storage."]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
+			optional: true
 			id: "60D02E4EBA5B16D3"
 			tasks: [{
 				id: "5FC9F61D6430100E"
 				type: "item"
 				item: "sophisticatedbackpacks:tank_upgrade"
+			}]
+			rewards: [{
+				id: "5F5263771D4B04BF"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1311,11 +1839,17 @@
 			description: ["Pumps fluids between Tank upgrade and adjacent blocks."]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
+			optional: true
 			id: "47698AD606A9A21E"
 			tasks: [{
 				id: "3942A25BB851C14B"
 				type: "item"
 				item: "sophisticatedbackpacks:pump_upgrade"
+			}]
+			rewards: [{
+				id: "68A52584853B5D9C"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1328,11 +1862,17 @@
 			]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
+			optional: true
 			id: "0DF3EBD59EA79D8C"
 			tasks: [{
 				id: "50E09D289E8BE8F7"
 				type: "item"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+			}]
+			rewards: [{
+				id: "76F6D21A83B0E329"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1341,11 +1881,17 @@
 			description: ["Replaces part of backpack's inventory with energy storage."]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
+			optional: true
 			id: "3B786CEAECB69205"
 			tasks: [{
 				id: "3C9918FCAF6A5A8A"
 				type: "item"
 				item: "sophisticatedbackpacks:battery_upgrade"
+			}]
+			rewards: [{
+				id: "0D06A88B8990D586"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1354,11 +1900,17 @@
 			description: ["Regular upgrade can only filter by item and has 9 filter slots."]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
+			optional: true
 			id: "363080D6237592BA"
 			tasks: [{
 				id: "36B8F13306B33D3B"
 				type: "item"
 				item: "sophisticatedbackpacks:deposit_upgrade"
+			}]
+			rewards: [{
+				id: "3135ED4C89BB624B"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1367,11 +1919,17 @@
 			description: ["Regular upgrade can only filter by item and has 9 filter slots."]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
+			optional: true
 			id: "020C08865451A39F"
 			tasks: [{
 				id: "656726FF3C7F571A"
 				type: "item"
 				item: "sophisticatedbackpacks:void_upgrade"
+			}]
+			rewards: [{
+				id: "74A74857E75BFB07"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1384,6 +1942,7 @@
 				"5E531159FD478B4A"
 			]
 			dependency_requirement: "one_completed"
+			optional: true
 			id: "6515A975C833F307"
 			tasks: [{
 				id: "538E7C214AE8B45C"
@@ -1396,6 +1955,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1FFEA92DDEB2F5F1"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 30.5d
@@ -1403,6 +1967,7 @@
 			description: ["Regular upgrade works just as furnace would."]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
+			optional: true
 			id: "5E531159FD478B4A"
 			tasks: [{
 				id: "0FF949DC8403AD1E"
@@ -1415,6 +1980,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6D1E002CF1BAF6D7"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 30.5d
@@ -1426,6 +1996,7 @@
 				"5E531159FD478B4A"
 			]
 			dependency_requirement: "one_completed"
+			optional: true
 			id: "7EA0C32C7CECD338"
 			tasks: [{
 				id: "492ABCCE5B37010B"
@@ -1438,6 +2009,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "478771A18EE94EE3"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 30.5d
@@ -1445,11 +2021,17 @@
 			description: ["Regular upgrade can only filter by item and has 9 filter slots."]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
+			optional: true
 			id: "2CC66059833AF128"
 			tasks: [{
 				id: "7BAF7B43881014D5"
 				type: "item"
 				item: "sophisticatedbackpacks:filter_upgrade"
+			}]
+			rewards: [{
+				id: "435C50CC668DA464"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1458,11 +2040,17 @@
 			description: ["Allows to play music discs in upgrade tab."]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
+			optional: true
 			id: "3D5E399364D63AD0"
 			tasks: [{
 				id: "12E2A85A671A8B5E"
 				type: "item"
 				item: "sophisticatedbackpacks:jukebox_upgrade"
+			}]
+			rewards: [{
+				id: "1238F173A334EA3D"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1475,6 +2063,7 @@
 			]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
+			optional: true
 			id: "1FA17117928A3036"
 			tasks: [{
 				id: "2C5DD0F1BD4895F6"
@@ -1486,6 +2075,11 @@
 						"polymorph:stack_recipe_data": { }
 					}
 				}
+			}]
+			rewards: [{
+				id: "1590AD0D5CDFA46B"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1504,11 +2098,17 @@
 			]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
+			optional: true
 			id: "547352F2F51CA91E"
 			tasks: [{
 				id: "6CADB502C520638E"
 				type: "item"
 				item: "sophisticatedbackpacks:inception_upgrade"
+			}]
+			rewards: [{
+				id: "7ECFBE00DA44C1D6"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1522,6 +2122,11 @@
 				id: "660BE4216509769B"
 				type: "item"
 				item: "prettypipes:wrench"
+			}]
+			rewards: [{
+				id: "3629282D9D148911"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1540,6 +2145,11 @@
 				type: "item"
 				item: "prettypipes:blank_module"
 			}]
+			rewards: [{
+				id: "2A83BCE26BF22E4A"
+				type: "item"
+				item: "prettypipes:blank_module"
+			}]
 		}
 		{
 			x: 15.0d
@@ -1555,6 +2165,12 @@
 				id: "26B50E3631343320"
 				type: "item"
 				item: "prettypipes:pipe"
+			}]
+			rewards: [{
+				id: "3D3A36C86379011A"
+				type: "item"
+				item: "prettypipes:pipe"
+				count: 4
 			}]
 		}
 		{
@@ -1615,13 +2231,19 @@
 				type: "item"
 				item: "ppfluids:fluid_pipe"
 			}]
+			rewards: [{
+				id: "15D1CAFEC93FEEDA"
+				type: "item"
+				item: "ppfluids:fluid_pipe"
+				count: 4
+			}]
 		}
 		{
-			disable_toast: true
 			x: 15.5d
 			y: -13.75d
 			shape: "diamond"
 			dependencies: ["34FE57E3E0A13469"]
+			optional: true
 			min_required_tasks: 1
 			id: "63CBEFB8AB0A4FF4"
 			tasks: [
@@ -1636,13 +2258,18 @@
 					item: "ppfluids:low_fluid_extraction_module"
 				}
 			]
+			rewards: [{
+				id: "55FEC87078AB2C1D"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
-			disable_toast: true
 			x: 17.5d
 			y: -12.75d
 			shape: "diamond"
 			dependencies: ["34FE57E3E0A13469"]
+			optional: true
 			min_required_tasks: 1
 			id: "481542D4EE78B7DE"
 			tasks: [
@@ -1657,17 +2284,28 @@
 					item: "ppfluids:low_fluid_filter_module"
 				}
 			]
+			rewards: [{
+				id: "2B3568BD7AEB6DC4"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 16.0d
 			y: -10.25d
 			shape: "diamond"
 			dependencies: ["34FE57E3E0A13469"]
+			optional: true
 			id: "425C98AF56DD6A8F"
 			tasks: [{
 				id: "52205F727B877A85"
 				type: "item"
 				item: "prettypipes:low_speed_module"
+			}]
+			rewards: [{
+				id: "2CFE160967BF59DF"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1675,11 +2313,17 @@
 			y: -13.25d
 			shape: "diamond"
 			dependencies: ["34FE57E3E0A13469"]
+			optional: true
 			id: "7195FA6DD4A65225"
 			tasks: [{
 				id: "77D327C84FF83CAB"
 				type: "item"
 				item: "prettypipes:low_low_priority_module"
+			}]
+			rewards: [{
+				id: "5746079C18AAD394"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1687,19 +2331,25 @@
 			y: -13.25d
 			shape: "diamond"
 			dependencies: ["34FE57E3E0A13469"]
+			optional: true
 			id: "12C1123687104F00"
 			tasks: [{
 				id: "64AAE99B5A13E44B"
 				type: "item"
 				item: "prettypipes:low_high_priority_module"
 			}]
+			rewards: [{
+				id: "311251715775E7B6"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
-			disable_toast: true
 			x: 16.5d
 			y: -13.75d
 			shape: "diamond"
 			dependencies: ["34FE57E3E0A13469"]
+			optional: true
 			min_required_tasks: 1
 			id: "4A2EE48D752835C0"
 			tasks: [
@@ -1714,17 +2364,28 @@
 					item: "ppfluids:low_fluid_retrieval_module"
 				}
 			]
+			rewards: [{
+				id: "40AB7A73D7E652A1"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 14.0d
 			y: -12.25d
 			shape: "diamond"
 			dependencies: ["34FE57E3E0A13469"]
+			optional: true
 			id: "77AD4A69B96822BA"
 			tasks: [{
 				id: "5194A13C8111D611"
 				type: "item"
 				item: "prettypipes:stack_size_module"
+			}]
+			rewards: [{
+				id: "3F65AF6884233625"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1732,11 +2393,17 @@
 			y: -11.75d
 			shape: "diamond"
 			dependencies: ["34FE57E3E0A13469"]
+			optional: true
 			id: "661D0B2EE1983E60"
 			tasks: [{
 				id: "4BF9183523B458B1"
 				type: "item"
 				item: "prettypipes:damage_filter_modifier"
+			}]
+			rewards: [{
+				id: "53EDD827B1CC72E3"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1744,11 +2411,17 @@
 			y: -11.25d
 			shape: "diamond"
 			dependencies: ["34FE57E3E0A13469"]
+			optional: true
 			id: "74D96A507DD31F2C"
 			tasks: [{
 				id: "0FE0FB252163FB72"
 				type: "item"
 				item: "prettypipes:mod_filter_modifier"
+			}]
+			rewards: [{
+				id: "6FF3292B81DBAF6D"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1756,11 +2429,17 @@
 			y: -10.75d
 			shape: "diamond"
 			dependencies: ["34FE57E3E0A13469"]
+			optional: true
 			id: "7EBAF84789C05180"
 			tasks: [{
 				id: "351B05ED845E4D46"
 				type: "item"
 				item: "prettypipes:nbt_filter_modifier"
+			}]
+			rewards: [{
+				id: "5C91E0B917471C19"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1768,11 +2447,17 @@
 			y: -14.25d
 			shape: "diamond"
 			dependencies: ["34FE57E3E0A13469"]
+			optional: true
 			id: "642CA77491BBF448"
 			tasks: [{
 				id: "1037FFDB66EBD46F"
 				type: "item"
 				item: "prettypipes:redstone_module"
+			}]
+			rewards: [{
+				id: "0CA17011C617923D"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1780,11 +2465,17 @@
 			y: -11.25d
 			shape: "diamond"
 			dependencies: ["34FE57E3E0A13469"]
+			optional: true
 			id: "30229EC0B2F066C5"
 			tasks: [{
 				id: "6132108F1A272CFE"
 				type: "item"
 				item: "prettypipes:tag_filter_modifier"
+			}]
+			rewards: [{
+				id: "2B7F3958E421045C"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1792,11 +2483,17 @@
 			y: -10.75d
 			shape: "diamond"
 			dependencies: ["34FE57E3E0A13469"]
+			optional: true
 			id: "13C5FABA9701EA44"
 			tasks: [{
 				id: "4083F523E6B80288"
 				type: "item"
 				item: "prettypipes:filter_increase_modifier"
+			}]
+			rewards: [{
+				id: "166D06E864A97333"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1804,11 +2501,17 @@
 			y: -12.75d
 			shape: "diamond"
 			dependencies: ["34FE57E3E0A13469"]
+			optional: true
 			id: "2FFE053F97022B92"
 			tasks: [{
 				id: "675A2C06E8506CBA"
 				type: "item"
 				item: "prettypipes:low_crafting_module"
+			}]
+			rewards: [{
+				id: "0585F769B9A121B5"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1816,11 +2519,17 @@
 			y: -12.25d
 			shape: "diamond"
 			dependencies: ["34FE57E3E0A13469"]
+			optional: true
 			id: "48F559DE21B202EC"
 			tasks: [{
 				id: "4826997497A70EF1"
 				type: "item"
 				item: "prettypipes:round_robin_sorting_modifier"
+			}]
+			rewards: [{
+				id: "7FC46DAACEDB635C"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1828,19 +2537,25 @@
 			y: -11.75d
 			shape: "diamond"
 			dependencies: ["34FE57E3E0A13469"]
+			optional: true
 			id: "1E6C6ABFE40FFDA0"
 			tasks: [{
 				id: "56B221CD673DB73F"
 				type: "item"
 				item: "prettypipes:random_sorting_modifier"
 			}]
+			rewards: [{
+				id: "0A8108131D2BF7BE"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
-			disable_toast: true
 			x: 17.0d
 			y: -14.25d
 			shape: "diamond"
 			dependencies: ["4A2EE48D752835C0"]
+			optional: true
 			min_required_tasks: 1
 			id: "3E7089AB19068557"
 			tasks: [
@@ -1855,13 +2570,18 @@
 					item: "ppfluids:medium_fluid_retrieval_module"
 				}
 			]
+			rewards: [{
+				id: "0FE1129AC4FC5684"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
-			disable_toast: true
 			x: 17.5d
 			y: -14.75d
 			shape: "diamond"
 			dependencies: ["3E7089AB19068557"]
+			optional: true
 			min_required_tasks: 1
 			id: "5D0D327E2571F34D"
 			tasks: [
@@ -1876,17 +2596,28 @@
 					item: "ppfluids:high_fluid_retrieval_module"
 				}
 			]
+			rewards: [{
+				id: "6D921587E74C6849"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 17.5d
 			y: -13.75d
 			shape: "diamond"
 			dependencies: ["12C1123687104F00"]
+			optional: true
 			id: "03FFF27A97E93EC4"
 			tasks: [{
 				id: "0B2BE53AD9A5687E"
 				type: "item"
 				item: "prettypipes:medium_high_priority_module"
+			}]
+			rewards: [{
+				id: "41802294FDA4FB3E"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1894,19 +2625,25 @@
 			y: -14.25d
 			shape: "diamond"
 			dependencies: ["03FFF27A97E93EC4"]
+			optional: true
 			id: "5E7B4745A93C5DDB"
 			tasks: [{
 				id: "1CF23503D2A13651"
 				type: "item"
 				item: "prettypipes:high_high_priority_module"
 			}]
+			rewards: [{
+				id: "102170E140199B9A"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
-			disable_toast: true
 			x: 18.0d
 			y: -13.25d
 			shape: "diamond"
 			dependencies: ["481542D4EE78B7DE"]
+			optional: true
 			min_required_tasks: 1
 			id: "669C5BA86D095513"
 			tasks: [
@@ -1921,13 +2658,18 @@
 					item: "ppfluids:medium_fluid_filter_module"
 				}
 			]
+			rewards: [{
+				id: "3564ABB5C9686E00"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
-			disable_toast: true
 			x: 18.5d
 			y: -13.75d
 			shape: "diamond"
 			dependencies: ["669C5BA86D095513"]
+			optional: true
 			min_required_tasks: 1
 			id: "1FC7102CE6129EBB"
 			tasks: [
@@ -1942,17 +2684,28 @@
 					item: "ppfluids:high_fluid_filter_module"
 				}
 			]
+			rewards: [{
+				id: "0AA505D9B2C0249F"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 16.0d
 			y: -9.25d
 			shape: "diamond"
 			dependencies: ["425C98AF56DD6A8F"]
+			optional: true
 			id: "01CCAF109D553970"
 			tasks: [{
 				id: "1660A0DF6C584784"
 				type: "item"
 				item: "prettypipes:medium_speed_module"
+			}]
+			rewards: [{
+				id: "7C0893D059AC88CB"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1960,11 +2713,17 @@
 			y: -8.25d
 			shape: "diamond"
 			dependencies: ["01CCAF109D553970"]
+			optional: true
 			id: "02069364D394248A"
 			tasks: [{
 				id: "45B16F45861A8B2A"
 				type: "item"
 				item: "prettypipes:high_speed_module"
+			}]
+			rewards: [{
+				id: "054CCB9EBD3C006B"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1972,11 +2731,17 @@
 			y: -13.25d
 			shape: "diamond"
 			dependencies: ["2FFE053F97022B92"]
+			optional: true
 			id: "518419866A3306E3"
 			tasks: [{
 				id: "317A6D174700D34D"
 				type: "item"
 				item: "prettypipes:medium_crafting_module"
+			}]
+			rewards: [{
+				id: "35074E94FBDE3F42"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1984,11 +2749,17 @@
 			y: -13.75d
 			shape: "diamond"
 			dependencies: ["518419866A3306E3"]
+			optional: true
 			id: "4EFBABE914631411"
 			tasks: [{
 				id: "1309D26C7549FBDC"
 				type: "item"
 				item: "prettypipes:high_crafting_module"
+			}]
+			rewards: [{
+				id: "5E6C720F52602E64"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1996,11 +2767,17 @@
 			y: -13.75d
 			shape: "diamond"
 			dependencies: ["7195FA6DD4A65225"]
+			optional: true
 			id: "3D4DA40D188A2BF0"
 			tasks: [{
 				id: "673087AC1A2A7BBE"
 				type: "item"
 				item: "prettypipes:medium_low_priority_module"
+			}]
+			rewards: [{
+				id: "34861E179958AA53"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -2008,19 +2785,25 @@
 			y: -14.25d
 			shape: "diamond"
 			dependencies: ["3D4DA40D188A2BF0"]
+			optional: true
 			id: "7362095EB8E4DBE3"
 			tasks: [{
 				id: "46626A5CF09A0C4D"
 				type: "item"
 				item: "prettypipes:high_low_priority_module"
 			}]
+			rewards: [{
+				id: "1F16B621EAAF45B6"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
-			disable_toast: true
 			x: 15.0d
 			y: -14.25d
 			shape: "diamond"
 			dependencies: ["63CBEFB8AB0A4FF4"]
+			optional: true
 			min_required_tasks: 1
 			id: "6F42A52C4F98CD2D"
 			tasks: [
@@ -2035,13 +2818,18 @@
 					item: "ppfluids:medium_fluid_extraction_module"
 				}
 			]
+			rewards: [{
+				id: "37B3002FB1B0C642"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
-			disable_toast: true
 			x: 14.5d
 			y: -14.75d
 			shape: "diamond"
 			dependencies: ["6F42A52C4F98CD2D"]
+			optional: true
 			min_required_tasks: 1
 			id: "59B9F0712892AD7C"
 			tasks: [
@@ -2056,6 +2844,11 @@
 					item: "ppfluids:high_fluid_extraction_module"
 				}
 			]
+			rewards: [{
+				id: "34E912056ED08BC0"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 	]
 }

@@ -1,0 +1,26 @@
+{
+	id: "56F0616919B31A11"
+	order_index: 4
+	title: "Terminite Rewards"
+	icon: "betterendforge:terminite_bulb_lantern_magenta"
+	loot_size: 1
+	rewards: [
+		{ item: "betterendforge:terminite_bulb_lantern" }
+		{ item: "betterendforge:terminite_bulb_lantern_white" }
+		{ item: "betterendforge:terminite_bulb_lantern_orange" }
+		{ item: "betterendforge:terminite_bulb_lantern_magenta" }
+		{ item: "betterendforge:terminite_bulb_lantern_light_blue" }
+		{ item: "betterendforge:terminite_bulb_lantern_yellow" }
+		{ item: "betterendforge:terminite_bulb_lantern_lime" }
+		{ item: "betterendforge:terminite_bulb_lantern_pink" }
+		{ item: "betterendforge:terminite_bulb_lantern_gray" }
+		{ item: "betterendforge:terminite_bulb_lantern_light_gray" }
+		{ item: "betterendforge:terminite_bulb_lantern_cyan" }
+		{ item: "betterendforge:terminite_bulb_lantern_purple" }
+		{ item: "betterendforge:terminite_bulb_lantern_blue" }
+		{ item: "betterendforge:terminite_bulb_lantern_brown" }
+		{ item: "betterendforge:terminite_bulb_lantern_green" }
+		{ item: "betterendforge:terminite_bulb_lantern_red" }
+		{ item: "betterendforge:terminite_bulb_lantern_black" }
+	]
+}

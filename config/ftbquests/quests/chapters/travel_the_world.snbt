@@ -3,9 +3,3504 @@
 	group: ""
 	order_index: 10
 	filename: "travel_the_world"
-	title: "Travel the world"
+	title: "Travel around the world"
 	icon: "environmental:cartwheel"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "3F89C1FE81B0CF9E"
+			tasks: [{
+				id: "527EB3F01BBB8DC6"
+				type: "checkmark"
+				title: "To adventure and the beyond"
+			}]
+		}
+		{
+			icon: "atmospheric:rosewood_sapling"
+			x: -7.25d
+			y: -1.75d
+			id: "22467A10B8FEBCE1"
+			tasks: [{
+				id: "5DD44517A3A1EE0F"
+				type: "biome"
+				biome: "atmospheric:rainforest"
+			}]
+		}
+		{
+			x: -7.25d
+			y: -2.75d
+			id: "03824D6C31BCD3D7"
+			tasks: [{
+				id: "5DD83B1192C9D9F7"
+				type: "biome"
+				biome: "atmospheric:dunes_hills"
+			}]
+		}
+		{
+			x: -6.25d
+			y: -2.75d
+			id: "68F4D2D4DD44B8B0"
+			tasks: [{
+				id: "3AD996F27F468EC2"
+				type: "biome"
+				biome: "atmospheric:dunes"
+			}]
+		}
+		{
+			x: -6.25d
+			y: -1.75d
+			id: "5FF44686EC51903B"
+			tasks: [{
+				id: "303FB9B3555520CF"
+				type: "biome"
+				biome: "atmospheric:flourishing_dunes"
+			}]
+		}
+		{
+			x: -5.25d
+			y: -2.75d
+			id: "1F36F6E9EB3E5CE6"
+			tasks: [{
+				id: "0BA5254365E1B327"
+				type: "biome"
+				biome: "atmospheric:petrified_dunes"
+			}]
+		}
+		{
+			x: -5.25d
+			y: -1.75d
+			id: "6CF38FB306C3059E"
+			tasks: [{
+				id: "657DEC5D253F08CF"
+				type: "biome"
+				biome: "atmospheric:rainforest_basin"
+			}]
+		}
+		{
+			x: -7.25d
+			y: -0.75d
+			id: "3E9857BA557CA18C"
+			tasks: [{
+				id: "6B62EBDABA48763E"
+				type: "biome"
+				biome: "atmospheric:rainforest_mountains"
+			}]
+		}
+		{
+			icon: "atmospheric:scalding_monkey_brush"
+			x: -6.25d
+			y: -0.75d
+			id: "3CF1C6D4CAFDAEEE"
+			tasks: [{
+				id: "5330BB1E1DCC6704"
+				type: "biome"
+				biome: "atmospheric:rainforest_plateau"
+			}]
+		}
+		{
+			x: -5.25d
+			y: -0.75d
+			id: "6792F8B17589101F"
+			tasks: [{
+				id: "024D3BCABDAEF7F4"
+				type: "biome"
+				biome: "atmospheric:rocky_dunes_hills"
+			}]
+		}
+		{
+			x: -7.25d
+			y: 0.25d
+			id: "5ADD3AD03D41D9C4"
+			tasks: [{
+				id: "74C4A8E97C1D48A2"
+				type: "biome"
+				biome: "atmospheric:rocky_dunes"
+			}]
+		}
+		{
+			x: -6.25d
+			y: 0.25d
+			id: "09B0FB91FA3DF107"
+			tasks: [{
+				id: "055F386AE60990BA"
+				type: "biome"
+				biome: "atmospheric:sparse_rainforest_basin"
+			}]
+		}
+		{
+			icon: "atmospheric:warm_monkey_brush"
+			x: -5.25d
+			y: 0.25d
+			id: "49515C653A0E62F7"
+			tasks: [{
+				id: "32268A4A49D3BDCC"
+				type: "biome"
+				biome: "atmospheric:sparse_rainforest_plateau"
+			}]
+		}
+		{
+			x: -1.75d
+			y: -6.75d
+			id: "3C5913BD2BEEEA00"
+			tasks: [{
+				id: "2116BF9EFF47653A"
+				type: "biome"
+				biome: "betterendforge:amber_land"
+			}]
+		}
+		{
+			x: -0.75d
+			y: -6.75d
+			id: "7CBFCE12FFAEFA80"
+			tasks: [{
+				id: "47328CC4F7BBA766"
+				type: "biome"
+				biome: "betterendforge:blossoming_spires"
+			}]
+		}
+		{
+			x: -1.75d
+			y: -5.75d
+			id: "53C1614F07F43099"
+			tasks: [{
+				id: "2C82779118298641"
+				type: "biome"
+				biome: "betterendforge:chorus_forest"
+			}]
+		}
+		{
+			x: -0.75d
+			y: -5.75d
+			id: "78B950E5BB243748"
+			tasks: [{
+				id: "4169B750365B6E1A"
+				type: "biome"
+				biome: "betterendforge:crystal_mountains"
+			}]
+		}
+		{
+			x: 0.25d
+			y: -6.75d
+			id: "5F362C62347978B6"
+			tasks: [{
+				id: "24C55458119FDC3A"
+				type: "biome"
+				biome: "betterendforge:dust_wastelands"
+			}]
+		}
+		{
+			x: 0.25d
+			y: -5.75d
+			id: "769210B37E9F3832"
+			tasks: [{
+				id: "402360AD2FBC9821"
+				type: "biome"
+				biome: "betterendforge:foggy_mushroomland"
+			}]
+		}
+		{
+			x: -1.75d
+			y: -4.75d
+			id: "133B1AD10F76A30F"
+			tasks: [{
+				id: "4D744895526EBEE7"
+				type: "biome"
+				biome: "betterendforge:glowing_grasslands"
+			}]
+		}
+		{
+			x: -0.75d
+			y: -4.75d
+			id: "7D9F459DFE9550A2"
+			tasks: [{
+				id: "1FCF211C4261F581"
+				type: "biome"
+				biome: "betterendforge:ice_starfield"
+			}]
+		}
+		{
+			x: 0.25d
+			y: -4.75d
+			id: "5D04460FEFA027AF"
+			tasks: [{
+				id: "71585D0A11E708A8"
+				type: "biome"
+				biome: "betterendforge:megalake_grove"
+			}]
+		}
+		{
+			x: -1.75d
+			y: -7.75d
+			id: "14635A8ED6A99AEB"
+			tasks: [{
+				id: "576AFA28BC3D7275"
+				type: "biome"
+				biome: "betterendforge:megalake"
+			}]
+		}
+		{
+			x: -0.75d
+			y: -7.75d
+			id: "380BF438AAD6D875"
+			tasks: [{
+				id: "24E9510161722DFE"
+				type: "biome"
+				biome: "betterendforge:painted_mountains"
+			}]
+		}
+		{
+			x: 0.25d
+			y: -7.75d
+			id: "0DC5F8426EC2ED1E"
+			tasks: [{
+				id: "0278B4953F24BC5C"
+				type: "biome"
+				biome: "betterendforge:shadow_forest"
+			}]
+		}
+		{
+			x: -1.75d
+			y: -8.75d
+			id: "5C46088BAF21C796"
+			tasks: [{
+				id: "6A63E0307FDB9661"
+				type: "biome"
+				biome: "betterendforge:sulphur_springs"
+			}]
+		}
+		{
+			x: -0.75d
+			y: -8.75d
+			id: "1F36F22B1CC89655"
+			tasks: [{
+				id: "226D7F08EAAF805E"
+				type: "biome"
+				biome: "betterendforge:umbrella_jungle"
+			}]
+		}
+		{
+			icon: "byg:tall_pink_allium"
+			x: 4.75d
+			y: -8.5d
+			id: "682103E9418E7E19"
+			tasks: [{
+				id: "41185D65B0EC29D9"
+				type: "biome"
+				biome: "byg:allium_fields"
+			}]
+		}
+		{
+			x: 5.75d
+			y: -8.5d
+			id: "39BDED46F2446CDB"
+			tasks: [{
+				id: "5C76999ECEB8083A"
+				type: "biome"
+				biome: "byg:alpine_foothills"
+			}]
+		}
+		{
+			icon: "minecraft:snow"
+			x: 6.75d
+			y: -8.5d
+			id: "7C7695573B718259"
+			tasks: [{
+				id: "3C7302FDB402BED9"
+				type: "biome"
+				biome: "byg:alps"
+			}]
+		}
+		{
+			icon: "byg:amaranth"
+			x: 4.75d
+			y: -7.5d
+			id: "2BB0CEAFBFAE75C8"
+			tasks: [{
+				id: "77450ECA2C910E16"
+				type: "biome"
+				biome: "byg:amaranth_fields"
+			}]
+		}
+		{
+			icon: "projectvibrantjourneys:bark_mushroom"
+			x: 5.75d
+			y: -7.5d
+			id: "22CDBA8173C12E87"
+			tasks: [{
+				id: "1B196092707B4ED6"
+				type: "biome"
+				biome: "byg:ancient_forest"
+			}]
+		}
+		{
+			x: 6.75d
+			y: -7.5d
+			id: "68465FC197FB9839"
+			tasks: [{
+				id: "0776A2E7BF23599A"
+				type: "biome"
+				biome: "byg:araucaria_forest"
+			}]
+		}
+		{
+			x: 4.75d
+			y: -6.5d
+			id: "409070343F84D726"
+			tasks: [{
+				id: "1B1947A880D4F46D"
+				type: "biome"
+				biome: "byg:araucaria_savanna"
+			}]
+		}
+		{
+			x: 5.75d
+			y: -6.5d
+			id: "3F844EF0FA965E41"
+			tasks: [{
+				id: "338A589F542CD713"
+				type: "biome"
+				biome: "byg:aspen_clearing"
+			}]
+		}
+		{
+			x: 6.75d
+			y: -6.5d
+			id: "33E90D1CE66DBE73"
+			tasks: [{
+				id: "3401CA3C875297DF"
+				type: "biome"
+				biome: "byg:aspen_forest_hills"
+			}]
+		}
+		{
+			x: 4.75d
+			y: -5.5d
+			id: "0DD8B83E7A417867"
+			tasks: [{
+				id: "066A41AF74653F8D"
+				type: "biome"
+				biome: "byg:aspen_forest"
+			}]
+		}
+		{
+			x: 5.75d
+			y: -5.5d
+			id: "0D5570DD70EC9597"
+			tasks: [{
+				id: "51904F7091FE9D16"
+				type: "biome"
+				biome: "byg:autumnal_valley"
+			}]
+		}
+		{
+			x: 6.75d
+			y: -5.5d
+			id: "7551D8020F8D5202"
+			tasks: [{
+				id: "4619A52A9F813821"
+				type: "biome"
+				biome: "byg:bamboo_forest"
+			}]
+		}
+		{
+			icon: "byg:baobab_sapling"
+			x: 7.75d
+			y: -8.5d
+			id: "60E2022F038E9C38"
+			tasks: [{
+				id: "43F19A241E2A6F61"
+				type: "biome"
+				biome: "byg:baobab_savanna"
+			}]
+		}
+		{
+			icon: "minecraft:basalt"
+			x: 7.75d
+			y: -7.5d
+			id: "071D40EBD009CDE0"
+			tasks: [{
+				id: "791A9B7D477D1854"
+				type: "biome"
+				biome: "byg:basalt_barrera"
+			}]
+		}
+		{
+			x: 7.75d
+			y: -6.5d
+			id: "3228145D62375692"
+			tasks: [{
+				id: "5E898AD806D23385"
+				type: "biome"
+				biome: "byg:bayou"
+			}]
+		}
+		{
+			x: 7.75d
+			y: -5.5d
+			id: "6A92CAEE608496A6"
+			tasks: [{
+				id: "2AF8383A16D57F2C"
+				type: "biome"
+				biome: "byg:black_forest_clearing"
+			}]
+		}
+		{
+			x: 4.75d
+			y: -4.5d
+			id: "5480F14913139DB0"
+			tasks: [{
+				id: "7E1309238B921761"
+				type: "biome"
+				biome: "byg:black_forest_hills"
+			}]
+		}
+		{
+			x: 5.75d
+			y: -4.5d
+			id: "4D340C7A0AD67844"
+			tasks: [{
+				id: "0D1ECBFB25F6009B"
+				type: "biome"
+				biome: "byg:blue_giant_taiga"
+			}]
+		}
+		{
+			x: 6.75d
+			y: -4.5d
+			id: "523166CDEFEC5A42"
+			tasks: [{
+				id: "5C4BBD4A32535EEE"
+				type: "biome"
+				biome: "byg:blue_taiga_hills"
+			}]
+		}
+		{
+			x: 7.75d
+			y: -4.5d
+			id: "0C1ECB9623CDB3B1"
+			tasks: [{
+				id: "4C380BB074B10EEC"
+				type: "biome"
+				biome: "byg:blue_taiga"
+			}]
+		}
+		{
+			icon: "quark:slate"
+			x: 8.75d
+			y: -8.5d
+			id: "4443A8640F232B95"
+			tasks: [{
+				id: "475D22240A9B45F7"
+				type: "biome"
+				biome: "byg:bluff_peaks"
+			}]
+		}
+		{
+			x: 8.75d
+			y: -7.5d
+			id: "4073C36E3410B688"
+			tasks: [{
+				id: "59FBC7A8EAECDE16"
+				type: "biome"
+				biome: "byg:bluff_steeps"
+			}]
+		}
+		{
+			x: 8.75d
+			y: -6.5d
+			id: "5FBB29182B03E59F"
+			tasks: [{
+				id: "1F37069A8915A355"
+				type: "biome"
+				biome: "byg:bog"
+			}]
+		}
+		{
+			icon: "projectvibrantjourneys:fallen_leaves"
+			x: 8.75d
+			y: -5.5d
+			id: "7E3118A2009406E7"
+			tasks: [{
+				id: "770FD2A890A0C6C9"
+				type: "biome"
+				biome: "byg:boreal_clearing"
+			}]
+		}
+		{
+			x: 8.75d
+			y: -4.5d
+			id: "36135CEDAA216F9A"
+			tasks: [{
+				id: "530FF59A947867AC"
+				type: "biome"
+				biome: "byg:boreal_forest_hills"
+			}]
+		}
+		{
+			icon: "byg:yellow_birch_sapling"
+			x: 9.75d
+			y: -8.5d
+			id: "7F20678CAC2420E0"
+			tasks: [{
+				id: "62DD743F7FC9A616"
+				type: "biome"
+				biome: "byg:boreal_forest"
+			}]
+		}
+		{
+			x: 9.75d
+			y: -7.5d
+			id: "53B37517281DDE8B"
+			tasks: [{
+				id: "1CD781DB60568814"
+				type: "biome"
+				biome: "byg:brimstone_caverns"
+			}]
+		}
+		{
+			x: 9.75d
+			y: -6.5d
+			id: "087B4788B4707B9B"
+			tasks: [{
+				id: "70A3570D4C1E6EB5"
+				type: "biome"
+				biome: "byg:bulbis_gardens_edge"
+			}]
+		}
+		{
+			x: 9.75d
+			y: -5.5d
+			id: "51227A919EB4CDC7"
+			tasks: [{
+				id: "69032FF8F73ACC8A"
+				type: "biome"
+				biome: "byg:bulbis_gardens"
+			}]
+		}
+		{
+			x: 9.75d
+			y: -4.5d
+			id: "639D4B79601CAF09"
+			tasks: [{
+				id: "3A62D769DCA1E478"
+				type: "biome"
+				biome: "byg:canyon_edge"
+			}]
+		}
+		{
+			x: 10.75d
+			y: -8.5d
+			id: "06B59AE84C6BFB02"
+			tasks: [{
+				id: "2666A49F137C2FB8"
+				type: "biome"
+				biome: "byg:canyons"
+			}]
+		}
+		{
+			icon: "byg:pink_cherry_sapling"
+			x: 10.75d
+			y: -7.5d
+			id: "21379BAD7E0074A4"
+			tasks: [{
+				id: "7566A9EAC32A0B00"
+				type: "biome"
+				biome: "byg:cherry_blossom_clearing"
+			}]
+		}
+		{
+			icon: "byg:white_cherry_sapling"
+			x: 10.75d
+			y: -6.5d
+			id: "2B945F8BCB653E62"
+			tasks: [{
+				id: "3851A9BDC16F7038"
+				type: "biome"
+				biome: "byg:cherry_blossom_forest"
+			}]
+		}
+		{
+			x: 10.75d
+			y: -5.5d
+			id: "3E42761733F402F1"
+			tasks: [{
+				id: "1AEC0F380D9BDB11"
+				type: "biome"
+				biome: "byg:cika_mountains"
+			}]
+		}
+		{
+			x: 10.75d
+			y: -4.5d
+			id: "3B80315D3775826E"
+			tasks: [{
+				id: "515FB72C120E7D4D"
+				type: "biome"
+				biome: "byg:cika_woods"
+			}]
+		}
+		{
+			x: 11.75d
+			y: -8.5d
+			id: "19A5B35C5D2AA7DA"
+			tasks: [{
+				id: "70F628401E6895F8"
+				type: "biome"
+				biome: "byg:cold_swamplands"
+			}]
+		}
+		{
+			icon: "byg:fir_log"
+			x: 11.75d
+			y: -7.5d
+			id: "3019F9C665D8AC5A"
+			tasks: [{
+				id: "7F6E448EB09DC788"
+				type: "biome"
+				biome: "byg:coniferous_clearing"
+			}]
+		}
+		{
+			x: 11.75d
+			y: -6.5d
+			id: "552D301516B164B0"
+			tasks: [{
+				id: "05665441D66D47C8"
+				type: "biome"
+				biome: "byg:coniferous_forest_hills"
+			}]
+		}
+		{
+			x: 11.75d
+			y: -5.5d
+			id: "21C261A2DC5147AF"
+			tasks: [{
+				id: "7443B37D6D0E7749"
+				type: "biome"
+				biome: "byg:coniferous_forest"
+			}]
+		}
+		{
+			x: 11.75d
+			y: -4.5d
+			id: "449B441527FEAC63"
+			tasks: [{
+				id: "5EBBB3ED1C3BEEE0"
+				type: "biome"
+				biome: "byg:coral_mangroves"
+			}]
+		}
+		{
+			icon: "minecraft:podzol"
+			x: 12.75d
+			y: -8.5d
+			id: "5B180AEF9C022EC2"
+			tasks: [{
+				id: "754EB0F6F6743D79"
+				type: "biome"
+				biome: "byg:crag_gardens"
+			}]
+		}
+		{
+			x: 12.75d
+			y: -7.5d
+			id: "7E25FCEC277E2BBB"
+			tasks: [{
+				id: "0994BD87678914F0"
+				type: "biome"
+				biome: "byg:crimson_gardens"
+			}]
+		}
+		{
+			x: 12.75d
+			y: -6.5d
+			id: "19A9D6527D357D88"
+			tasks: [{
+				id: "274805EA60BB8DCD"
+				type: "biome"
+				biome: "byg:cryptic_wastes"
+			}]
+		}
+		{
+			x: 12.75d
+			y: -5.5d
+			id: "107FA9F60A149FBC"
+			tasks: [{
+				id: "4E35AA4A46B38300"
+				type: "biome"
+				biome: "byg:cypress_swamplands"
+			}]
+		}
+		{
+			x: 12.75d
+			y: -4.5d
+			id: "66B3D1D2BD08BD07"
+			tasks: [{
+				id: "535F809ED4198429"
+				type: "biome"
+				biome: "byg:dead_sea"
+			}]
+		}
+		{
+			icon: "byg:horseweed"
+			x: 13.75d
+			y: -8.5d
+			id: "4504CEC538FB484A"
+			tasks: [{
+				id: "1A63845B9EB4F4EB"
+				type: "biome"
+				biome: "byg:deciduous_clearing"
+			}]
+		}
+		{
+			x: 13.75d
+			y: -7.5d
+			id: "07629CA83D244D01"
+			tasks: [{
+				id: "7D47B15F227421BC"
+				type: "biome"
+				biome: "byg:deciduous_forest_hills"
+			}]
+		}
+		{
+			x: 13.75d
+			y: -6.5d
+			id: "018717716DC8BA45"
+			tasks: [{
+				id: "0338E1FEE18B1DC0"
+				type: "biome"
+				biome: "byg:deciduous_forest"
+			}]
+		}
+		{
+			x: 13.75d
+			y: -5.5d
+			id: "4A1B0FDDB79A1464"
+			tasks: [{
+				id: "45564A36F9833A4F"
+				type: "biome"
+				biome: "byg:dover_mountains"
+			}]
+		}
+		{
+			x: 13.75d
+			y: -4.5d
+			id: "27F988EFDCA21CE4"
+			tasks: [{
+				id: "416145C91CB2DDAB"
+				type: "biome"
+				biome: "byg:dummy"
+			}]
+		}
+		{
+			x: 14.75d
+			y: -8.5d
+			id: "27A7E8AA6FFC7AE9"
+			tasks: [{
+				id: "22316DEC4A322A5E"
+				type: "biome"
+				biome: "byg:dunes"
+			}]
+		}
+		{
+			x: 14.75d
+			y: -7.5d
+			id: "671FC733C89DCCC3"
+			tasks: [{
+				id: "2ACF719B3B721681"
+				type: "biome"
+				biome: "byg:ebony_hills"
+			}]
+		}
+		{
+			x: 14.75d
+			y: -6.5d
+			id: "2730F82BDC95334D"
+			tasks: [{
+				id: "1700A4FC366B4484"
+				type: "biome"
+				biome: "byg:ebony_woods"
+			}]
+		}
+		{
+			x: 14.75d
+			y: -5.5d
+			id: "4CC9D0D27CC37DBF"
+			tasks: [{
+				id: "06D0CAF3DBD9EB75"
+				type: "biome"
+				biome: "byg:embur_bog"
+			}]
+		}
+		{
+			x: 14.75d
+			y: -4.5d
+			id: "3D93E29BB0D5495D"
+			tasks: [{
+				id: "304DB3BFD89069F5"
+				type: "biome"
+				biome: "byg:enchanted_forest_hills"
+			}]
+		}
+		{
+			icon: "byg:blue_enchanted_sapling"
+			x: 15.75d
+			y: -8.5d
+			id: "40A1F75E1537FC60"
+			tasks: [{
+				id: "66CAC89ABCBC45B7"
+				type: "biome"
+				biome: "byg:enchanted_forest"
+			}]
+		}
+		{
+			icon: "byg:blue_enchanted_leaves"
+			x: 15.75d
+			y: -7.5d
+			id: "5C89BDDEC7C49442"
+			tasks: [{
+				id: "3E081F29B5411531"
+				type: "biome"
+				biome: "byg:enchanted_grove"
+			}]
+		}
+		{
+			x: 15.75d
+			y: -6.5d
+			id: "7269D6697699DB5D"
+			tasks: [{
+				id: "27181BF304F21633"
+				type: "biome"
+				biome: "byg:ethereal_clearing"
+			}]
+		}
+		{
+			x: 15.75d
+			y: -5.5d
+			id: "2274A9E078F008FB"
+			tasks: [{
+				id: "4574DB28297FD21D"
+				type: "biome"
+				biome: "byg:ethereal_forest"
+			}]
+		}
+		{
+			x: 15.75d
+			y: -4.5d
+			id: "488E57D5AD6F2574"
+			tasks: [{
+				id: "1D6D1391A9F14B03"
+				type: "biome"
+				biome: "byg:ethereal_islands"
+			}]
+		}
+		{
+			icon: "byg:holly_berries"
+			x: 16.75d
+			y: -8.5d
+			id: "10F2FB0D26A6EFDA"
+			tasks: [{
+				id: "27606DA439300CBF"
+				type: "biome"
+				biome: "byg:evergreen_clearing"
+			}]
+		}
+		{
+			x: 16.75d
+			y: -7.5d
+			id: "62835C46C12A4212"
+			tasks: [{
+				id: "15E69B58F2C79964"
+				type: "biome"
+				biome: "byg:evergreen_hills"
+			}]
+		}
+		{
+			x: 16.75d
+			y: -6.5d
+			id: "37110990C5520B56"
+			tasks: [{
+				id: "3AD47548BE578CC4"
+				type: "biome"
+				biome: "byg:evergreen_taiga"
+			}]
+		}
+		{
+			x: 16.75d
+			y: -5.5d
+			id: "65612A72406875E7"
+			tasks: [{
+				id: "4F09250862FDFB9E"
+				type: "biome"
+				biome: "byg:flowering_ancient_forest"
+			}]
+		}
+		{
+			icon: "byg:green_enchanted_sapling"
+			x: 16.75d
+			y: -4.5d
+			id: "6A70D08593DDBAA4"
+			tasks: [{
+				id: "5F3B22F5E3F5CA0F"
+				type: "biome"
+				biome: "byg:flowering_enchanted_grove"
+			}]
+		}
+		{
+			icon: "environmental:bird_of_paradise"
+			x: 17.75d
+			y: -8.5d
+			id: "76DDF3ABE505FA1F"
+			tasks: [{
+				id: "117479E615817513"
+				type: "biome"
+				biome: "byg:flowering_grove"
+			}]
+		}
+		{
+			icon: "byg:azalea"
+			x: 17.75d
+			y: -7.5d
+			id: "418C6C5376FEA22A"
+			tasks: [{
+				id: "334A5934E006BC1F"
+				type: "biome"
+				biome: "byg:flowering_meadow"
+			}]
+		}
+		{
+			x: 17.75d
+			y: -6.5d
+			id: "30B752B3F29085B8"
+			tasks: [{
+				id: "7D2E189FB7C9E432"
+				type: "biome"
+				biome: "byg:forest_fault"
+			}]
+		}
+		{
+			x: 17.75d
+			y: -5.5d
+			id: "69FEF71FFF4B00B6"
+			tasks: [{
+				id: "5F2F177E6B9A002A"
+				type: "biome"
+				biome: "byg:fresh_water_lake"
+			}]
+		}
+		{
+			x: 17.75d
+			y: -4.5d
+			id: "1FFFE3ED7D51D9F9"
+			tasks: [{
+				id: "563D89B626974D7D"
+				type: "biome"
+				biome: "byg:frozen_lake"
+			}]
+		}
+		{
+			icon: "byg:brown_mushroom_stem"
+			x: 18.75d
+			y: -8.5d
+			id: "0B6B8B79E2607A5F"
+			tasks: [{
+				id: "101E0FB6E246D235"
+				type: "biome"
+				biome: "byg:fungal_patch"
+			}]
+		}
+		{
+			icon: "byg:glowcelium_block"
+			x: 18.75d
+			y: -7.5d
+			id: "0045C9FF942B226D"
+			tasks: [{
+				id: "6D579F3B9F303374"
+				type: "biome"
+				biome: "byg:glowing_ancient_forest"
+			}]
+		}
+		{
+			x: 18.75d
+			y: -6.5d
+			id: "4BEFA48BACC7693A"
+			tasks: [{
+				id: "7CF91239E64E40ED"
+				type: "biome"
+				biome: "byg:glowshroom_bayou"
+			}]
+		}
+		{
+			x: 18.75d
+			y: -5.5d
+			id: "3A1553348FA826B6"
+			tasks: [{
+				id: "69B00E78720849AA"
+				type: "biome"
+				biome: "byg:glowstone_gardens"
+			}]
+		}
+		{
+			x: 18.75d
+			y: -4.5d
+			id: "0EFD49568E845680"
+			tasks: [{
+				id: "2CDD9F60A317B5EB"
+				type: "biome"
+				biome: "byg:grassland_plateau"
+			}]
+		}
+		{
+			icon: "byg:osiria_rose"
+			x: 19.75d
+			y: -8.5d
+			id: "73D632983DCFE43C"
+			tasks: [{
+				id: "3C3814EA15140B9B"
+				type: "biome"
+				biome: "byg:great_lake_isles"
+			}]
+		}
+		{
+			x: 19.75d
+			y: -7.5d
+			id: "66D542473B45A3FB"
+			tasks: [{
+				id: "3D3C8B454BC2C648"
+				type: "biome"
+				biome: "byg:great_lakes"
+			}]
+		}
+		{
+			x: 19.75d
+			y: -6.5d
+			id: "1FF5A0A4E1F93748"
+			tasks: [{
+				id: "71A946EFA86FA992"
+				type: "biome"
+				biome: "byg:grove"
+			}]
+		}
+		{
+			x: 19.75d
+			y: -5.5d
+			id: "69B010B62B2F5D25"
+			tasks: [{
+				id: "052A85BA2E6FE041"
+				type: "biome"
+				biome: "byg:guiana_clearing"
+			}]
+		}
+		{
+			icon: "byg:mahogany_sapling"
+			x: 19.75d
+			y: -4.5d
+			id: "12BFAB9A824F7B41"
+			tasks: [{
+				id: "046528440D418E12"
+				type: "biome"
+				biome: "byg:guiana_shield"
+			}]
+		}
+		{
+			x: 20.75d
+			y: -8.5d
+			id: "36F643BD072BB71C"
+			tasks: [{
+				id: "7EE0F73B66CF3242"
+				type: "biome"
+				biome: "byg:imparius_clearing"
+			}]
+		}
+		{
+			x: 20.75d
+			y: -7.5d
+			id: "3CD84702599048C1"
+			tasks: [{
+				id: "236B2BAA76EA76A7"
+				type: "biome"
+				biome: "byg:imparius_grove"
+			}]
+		}
+		{
+			x: 20.75d
+			y: -6.5d
+			id: "57396FA4A45A4882"
+			tasks: [{
+				id: "270A76837B7343C2"
+				type: "biome"
+				biome: "byg:ivis_fields"
+			}]
+		}
+		{
+			icon: "byg:jacaranda_sapling"
+			x: 20.75d
+			y: -5.5d
+			id: "5E78598853C1B7EC"
+			tasks: [{
+				id: "405AEE329024B7CB"
+				type: "biome"
+				biome: "byg:jacaranda_clearing"
+			}]
+		}
+		{
+			x: 20.75d
+			y: -4.5d
+			id: "23F3C0B2AEBFC745"
+			tasks: [{
+				id: "389DACEFE63B3C55"
+				type: "biome"
+				biome: "byg:jacaranda_forest_hills"
+			}]
+		}
+		{
+			icon: "byg:flowering_jacaranda_leaves"
+			x: 21.75d
+			y: -8.5d
+			id: "7E59D05A3C2C37A8"
+			tasks: [{
+				id: "3120C6B8E22D908F"
+				type: "biome"
+				biome: "byg:jacaranda_forest"
+			}]
+		}
+		{
+			icon: "byg:prickly_pear_cactus"
+			x: 21.75d
+			y: -7.5d
+			id: "76FB4D4BBB8825EC"
+			tasks: [{
+				id: "5D31236C725C7864"
+				type: "biome"
+				biome: "byg:lush_red_desert"
+			}]
+		}
+		{
+			x: 21.75d
+			y: -6.5d
+			id: "5F262366F5ABFAA2"
+			tasks: [{
+				id: "0580CD5C5604C966"
+				type: "biome"
+				biome: "byg:lush_tundra"
+			}]
+		}
+		{
+			x: 21.75d
+			y: -5.5d
+			id: "009CA3057A23E758"
+			tasks: [{
+				id: "2E0CC4A244227689"
+				type: "biome"
+				biome: "byg:magma_wastes"
+			}]
+		}
+		{
+			x: 21.75d
+			y: -4.5d
+			id: "6113550125AC33B0"
+			tasks: [{
+				id: "189DBD55A9827EFA"
+				type: "biome"
+				biome: "byg:mangrove_marshes"
+			}]
+		}
+		{
+			x: 22.75d
+			y: -8.5d
+			id: "253B16D8F167C2BD"
+			tasks: [{
+				id: "1F42969AAD9B5F63"
+				type: "biome"
+				biome: "byg:maple_hills"
+			}]
+		}
+		{
+			icon: "byg:silver_maple_leaves"
+			x: 22.75d
+			y: -7.5d
+			id: "3615A74B0528ED4F"
+			tasks: [{
+				id: "1832CEF93FBE2E18"
+				type: "biome"
+				biome: "byg:maple_taiga"
+			}]
+		}
+		{
+			x: 22.75d
+			y: -6.5d
+			id: "428DB7A7531303DA"
+			tasks: [{
+				id: "3849645E8E6E61E7"
+				type: "biome"
+				biome: "byg:marshlands"
+			}]
+		}
+		{
+			x: 22.75d
+			y: -5.5d
+			id: "679178322F789ACF"
+			tasks: [{
+				id: "6780738B0988C552"
+				type: "biome"
+				biome: "byg:meadow"
+			}]
+		}
+		{
+			x: 22.75d
+			y: -4.5d
+			id: "25765AEF90EDCE1A"
+			tasks: [{
+				id: "536AB47CDB30F1D3"
+				type: "biome"
+				biome: "byg:mojave_desert"
+			}]
+		}
+		{
+			x: 23.75d
+			y: -8.5d
+			id: "75F6D62EEBDDCDE8"
+			tasks: [{
+				id: "2608BAAE6CADE4B4"
+				type: "biome"
+				biome: "byg:nightshade_forest"
+			}]
+		}
+		{
+			x: 23.75d
+			y: -7.5d
+			id: "301E1C02CB2875F9"
+			tasks: [{
+				id: "295C41FA44C2B84B"
+				type: "biome"
+				biome: "byg:northern_forest"
+			}]
+		}
+		{
+			x: 23.75d
+			y: -6.5d
+			id: "19690AE4C0AA4F10"
+			tasks: [{
+				id: "12B4A4410D476CD7"
+				type: "biome"
+				biome: "byg:oasis"
+			}]
+		}
+		{
+			x: 23.75d
+			y: -5.5d
+			id: "3202BCE877A7B624"
+			tasks: [{
+				id: "754B2BAB60F1033C"
+				type: "biome"
+				biome: "byg:orchard"
+			}]
+		}
+		{
+			x: 23.75d
+			y: -4.5d
+			id: "4BB6D090184FD50C"
+			tasks: [{
+				id: "62CB906F4EE516FB"
+				type: "biome"
+				biome: "byg:pointed_stone_forest"
+			}]
+		}
+		{
+			x: 4.75d
+			y: -3.5d
+			id: "10EBB0AEB387360C"
+			tasks: [{
+				id: "224022C1AE261DFA"
+				type: "biome"
+				biome: "byg:polluted_lake"
+			}]
+		}
+		{
+			x: 5.75d
+			y: -3.5d
+			id: "7818400EEBEE9329"
+			tasks: [{
+				id: "4E77D9B9D84AACE2"
+				type: "biome"
+				biome: "byg:prairie_clearing"
+			}]
+		}
+		{
+			x: 6.75d
+			y: -3.5d
+			id: "6896A7A5CC0E97AB"
+			tasks: [{
+				id: "697E5301A6635614"
+				type: "biome"
+				biome: "byg:prairie"
+			}]
+		}
+		{
+			icon: "byg:witch_hazel_sapling"
+			x: 7.75d
+			y: -3.5d
+			id: "68A01CCF2C3C8C20"
+			tasks: [{
+				id: "02F061D5CB30CF4D"
+				type: "biome"
+				biome: "byg:pumpkin_forest"
+			}]
+		}
+		{
+			x: 8.75d
+			y: -3.5d
+			id: "57337AD3BF09BD0A"
+			tasks: [{
+				id: "6A175F0747F0ACC4"
+				type: "biome"
+				biome: "byg:purpur_peaks"
+			}]
+		}
+		{
+			x: 9.75d
+			y: -3.5d
+			id: "1D81B2717681F3CB"
+			tasks: [{
+				id: "3BD744230451477B"
+				type: "biome"
+				biome: "byg:quartz_desert"
+			}]
+		}
+		{
+			x: 10.75d
+			y: -3.5d
+			id: "5A22078024D43DBC"
+			tasks: [{
+				id: "6E3F2B2DF572CB28"
+				type: "biome"
+				biome: "byg:rainbow_beach"
+			}]
+		}
+		{
+			x: 11.75d
+			y: -3.5d
+			id: "141BC0252898626C"
+			tasks: [{
+				id: "78D27A82100E2374"
+				type: "biome"
+				biome: "byg:red_desert_dunes"
+			}]
+		}
+		{
+			x: 12.75d
+			y: -3.5d
+			id: "713BF5BCC89316CF"
+			tasks: [{
+				id: "2BF6B3054EC3F16F"
+				type: "biome"
+				biome: "byg:red_desert"
+			}]
+		}
+		{
+			x: 13.75d
+			y: -3.5d
+			id: "6AD48C8D49AF4C20"
+			tasks: [{
+				id: "3AFD6E53A7007CBB"
+				type: "biome"
+				biome: "byg:red_oak_forest_hills"
+			}]
+		}
+		{
+			x: 14.75d
+			y: -3.5d
+			id: "004D7FF28069DD8D"
+			tasks: [{
+				id: "490A7236C8512804"
+				type: "biome"
+				biome: "byg:red_oak_forest"
+			}]
+		}
+		{
+			icon: "byg:red_rock"
+			x: 15.75d
+			y: -3.5d
+			id: "09DB256E2ED28C09"
+			tasks: [{
+				id: "06DA3FFC47D7D6B0"
+				type: "biome"
+				biome: "byg:red_rock_highlands"
+			}]
+		}
+		{
+			x: 16.75d
+			y: -3.5d
+			id: "2B69E55B4ABD109D"
+			tasks: [{
+				id: "685F4F9E8B1071A7"
+				type: "biome"
+				biome: "byg:red_rock_lowlands"
+			}]
+		}
+		{
+			x: 17.75d
+			y: -3.5d
+			id: "2B7D723E39F441FA"
+			tasks: [{
+				id: "4DE4942B576E2333"
+				type: "biome"
+				biome: "byg:red_rock_mountains"
+			}]
+		}
+		{
+			x: 18.75d
+			y: -3.5d
+			id: "585A090162425289"
+			tasks: [{
+				id: "683D8AB4E04165A8"
+				type: "biome"
+				biome: "byg:red_spruce_taiga"
+			}]
+		}
+		{
+			x: 19.75d
+			y: -3.5d
+			id: "0784C6A1DFAD7331"
+			tasks: [{
+				id: "6643AE033C23DC50"
+				type: "biome"
+				biome: "byg:redwood_clearing"
+			}]
+		}
+		{
+			x: 20.75d
+			y: -3.5d
+			id: "72289EAD62A3B5D1"
+			tasks: [{
+				id: "16CE8606ED3C562C"
+				type: "biome"
+				biome: "byg:redwood_mountains"
+			}]
+		}
+		{
+			x: 21.75d
+			y: -3.5d
+			id: "02F43E5B13BC4A0C"
+			tasks: [{
+				id: "7F09A111C5467F42"
+				type: "biome"
+				biome: "byg:redwood_tropics"
+			}]
+		}
+		{
+			x: 22.75d
+			y: -3.5d
+			id: "49CA7BEFFEBE8D8F"
+			tasks: [{
+				id: "14616DE13EB4FCA8"
+				type: "biome"
+				biome: "byg:rocky_beach"
+			}]
+		}
+		{
+			x: 23.75d
+			y: -3.5d
+			id: "529ACA5D8CFE5122"
+			tasks: [{
+				id: "1C746391CEDBE879"
+				type: "biome"
+				biome: "byg:rose_fields"
+			}]
+		}
+		{
+			x: 4.75d
+			y: -2.5d
+			id: "07633267A18053AD"
+			tasks: [{
+				id: "00F74769DC0FA2BA"
+				type: "biome"
+				biome: "byg:seasonal_birch_forest_hills"
+			}]
+		}
+		{
+			icon: "byg:red_birch_sapling"
+			x: 5.75d
+			y: -2.5d
+			id: "413F1E9BC087372E"
+			tasks: [{
+				id: "5D3A9D9070690606"
+				type: "biome"
+				biome: "byg:seasonal_birch_forest"
+			}]
+		}
+		{
+			x: 6.75d
+			y: -2.5d
+			id: "408019D1AADE8712"
+			tasks: [{
+				id: "509CB671D75DA7E3"
+				type: "biome"
+				biome: "byg:seasonal_deciduous_clearing"
+			}]
+		}
+		{
+			x: 7.75d
+			y: -2.5d
+			id: "4432D38764F81004"
+			tasks: [{
+				id: "78FF4AB197924136"
+				type: "biome"
+				biome: "byg:seasonal_deciduous_forest_hills"
+			}]
+		}
+		{
+			x: 8.75d
+			y: -2.5d
+			id: "0EE902DA0751A3CA"
+			tasks: [{
+				id: "4B16BD13D8A85E55"
+				type: "biome"
+				biome: "byg:seasonal_deciduous_forest"
+			}]
+		}
+		{
+			x: 9.75d
+			y: -2.5d
+			id: "3DAB9723E750BC4E"
+			tasks: [{
+				id: "04B78BE76792102B"
+				type: "biome"
+				biome: "byg:seasonal_forest_hills"
+			}]
+		}
+		{
+			x: 10.75d
+			y: -2.5d
+			id: "5A77F2858A8405C2"
+			tasks: [{
+				id: "677020D8FA3B00AC"
+				type: "biome"
+				biome: "byg:seasonal_forest"
+			}]
+		}
+		{
+			x: 11.75d
+			y: -2.5d
+			id: "0CACA2E705DC67C1"
+			tasks: [{
+				id: "1BBB25BFEDD7EDDE"
+				type: "biome"
+				biome: "byg:seasonal_giant_taiga"
+			}]
+		}
+		{
+			x: 12.75d
+			y: -2.5d
+			id: "43D9F59E0A644558"
+			tasks: [{
+				id: "7D333C71EE52CDF4"
+				type: "biome"
+				biome: "byg:seasonal_taiga_hills"
+			}]
+		}
+		{
+			x: 13.75d
+			y: -2.5d
+			id: "0354553F77F7D1E6"
+			tasks: [{
+				id: "0D902F0D4AB35F65"
+				type: "biome"
+				biome: "byg:seasonal_taiga"
+			}]
+		}
+		{
+			x: 14.75d
+			y: -2.5d
+			id: "0250D59F1D52F440"
+			tasks: [{
+				id: "7125962A93A57E6E"
+				type: "biome"
+				biome: "byg:shattered_desert_isles"
+			}]
+		}
+		{
+			x: 15.75d
+			y: -2.5d
+			id: "0E6A16AD4D1F3A6C"
+			tasks: [{
+				id: "47DE1ADBDA68D080"
+				type: "biome"
+				biome: "byg:shattered_desert"
+			}]
+		}
+		{
+			x: 16.75d
+			y: -2.5d
+			id: "2F66D1B9FE222A43"
+			tasks: [{
+				id: "08C8FDDF97888201"
+				type: "biome"
+				biome: "byg:shattered_glacier"
+			}]
+		}
+		{
+			x: 17.75d
+			y: -2.5d
+			id: "52CD7F22D1B4C493"
+			tasks: [{
+				id: "73D1D5F6EA17EE01"
+				type: "biome"
+				biome: "byg:shattered_viscal_isles"
+			}]
+		}
+		{
+			x: 18.75d
+			y: -2.5d
+			id: "1814BC9941334622"
+			tasks: [{
+				id: "6ECDBF2DE28650B3"
+				type: "biome"
+				biome: "byg:shrublands"
+			}]
+		}
+		{
+			x: 19.75d
+			y: -2.5d
+			id: "6F6EC09526145EB9"
+			tasks: [{
+				id: "21681A675AA16867"
+				type: "biome"
+				biome: "byg:shulkren_forest"
+			}]
+		}
+		{
+			icon: "byg:palo_verde_sapling"
+			x: 20.75d
+			y: -2.5d
+			id: "7B9745577651D4D0"
+			tasks: [{
+				id: "4C49093059187E67"
+				type: "biome"
+				biome: "byg:sierra_range"
+			}]
+		}
+		{
+			x: 21.75d
+			y: -2.5d
+			id: "1C58010ED9A18D2D"
+			tasks: [{
+				id: "202CD6725B12344C"
+				type: "biome"
+				biome: "byg:sierra_valley"
+			}]
+		}
+		{
+			x: 22.75d
+			y: -2.5d
+			id: "455EAF825380E64F"
+			tasks: [{
+				id: "12FB786264937799"
+				type: "biome"
+				biome: "byg:skyris_highlands_clearing"
+			}]
+		}
+		{
+			x: 23.75d
+			y: -2.5d
+			id: "5AF066DCF4590FDD"
+			tasks: [{
+				id: "1829EF030AE0A220"
+				type: "biome"
+				biome: "byg:skyris_highlands"
+			}]
+		}
+		{
+			x: 4.75d
+			y: -1.5d
+			id: "0FE6D4C6B6B3BABC"
+			tasks: [{
+				id: "10B85AF2EBC1D518"
+				type: "biome"
+				biome: "byg:skyris_peaks"
+			}]
+		}
+		{
+			x: 5.75d
+			y: -1.5d
+			id: "5A0E0C90C22C28B5"
+			tasks: [{
+				id: "5789F026E8C484A8"
+				type: "biome"
+				biome: "byg:skyris_steeps"
+			}]
+		}
+		{
+			x: 6.75d
+			y: -1.5d
+			id: "4EAFD325D772A176"
+			tasks: [{
+				id: "54F856AC19224E8C"
+				type: "biome"
+				biome: "byg:snowy_black_beach"
+			}]
+		}
+		{
+			x: 7.75d
+			y: -1.5d
+			id: "60FCC89E9D7BDEE4"
+			tasks: [{
+				id: "62B04D906CFDA779"
+				type: "biome"
+				biome: "byg:snowy_blue_giant_taiga"
+			}]
+		}
+		{
+			x: 8.75d
+			y: -1.5d
+			id: "599F1DB3B6BE9F93"
+			tasks: [{
+				id: "5C0F53C6A7DFA9E3"
+				type: "biome"
+				biome: "byg:snowy_blue_taiga_hills"
+			}]
+		}
+		{
+			x: 9.75d
+			y: -1.5d
+			id: "0E040DD3F7E37D2C"
+			tasks: [{
+				id: "69E9331550829581"
+				type: "biome"
+				biome: "byg:snowy_blue_taiga"
+			}]
+		}
+		{
+			x: 10.75d
+			y: -1.5d
+			id: "4F39AA26C8B7C8BD"
+			tasks: [{
+				id: "198BBD45B2AA12E6"
+				type: "biome"
+				biome: "byg:snowy_coniferous_clearing"
+			}]
+		}
+		{
+			x: 11.75d
+			y: -1.5d
+			id: "016D1710A9109FF8"
+			tasks: [{
+				id: "4A12E52FF7D1AF7F"
+				type: "biome"
+				biome: "byg:snowy_coniferous_forest_hills"
+			}]
+		}
+		{
+			x: 12.75d
+			y: -1.5d
+			id: "77174F5F29DCAF8D"
+			tasks: [{
+				id: "7D64352C12E6807D"
+				type: "biome"
+				biome: "byg:snowy_coniferous_forest"
+			}]
+		}
+		{
+			x: 13.75d
+			y: -1.5d
+			id: "47E2B17DD55E9286"
+			tasks: [{
+				id: "6F373126BCBA1C6F"
+				type: "biome"
+				biome: "byg:snowy_deciduous_clearing"
+			}]
+		}
+		{
+			x: 14.75d
+			y: -1.5d
+			id: "77B3661A48DDBBF8"
+			tasks: [{
+				id: "23055C3F77E5DD19"
+				type: "biome"
+				biome: "byg:snowy_deciduous_forest_hills"
+			}]
+		}
+		{
+			x: 15.75d
+			y: -1.5d
+			id: "47A76F435CD5CE7E"
+			tasks: [{
+				id: "53BCB6C9EDCEAD78"
+				type: "biome"
+				biome: "byg:snowy_deciduous_forest"
+			}]
+		}
+		{
+			x: 16.75d
+			y: -1.5d
+			id: "2254701BB24F135D"
+			tasks: [{
+				id: "463BC1AE1472A143"
+				type: "biome"
+				biome: "byg:snowy_evergreen_clearing"
+			}]
+		}
+		{
+			x: 17.75d
+			y: -1.5d
+			id: "35CFFA67C5C628FB"
+			tasks: [{
+				id: "3B7BEFAFBDB624C3"
+				type: "biome"
+				biome: "byg:snowy_evergreen_hills"
+			}]
+		}
+		{
+			x: 18.75d
+			y: -1.5d
+			id: "7250473929599B79"
+			tasks: [{
+				id: "30D0280BFECEBD29"
+				type: "biome"
+				biome: "byg:snowy_evergreen_taiga"
+			}]
+		}
+		{
+			x: 19.75d
+			y: -1.5d
+			id: "1346DC9B51C917EE"
+			tasks: [{
+				id: "797F1505E2342A05"
+				type: "biome"
+				biome: "byg:snowy_rocky_black_beach"
+			}]
+		}
+		{
+			x: 20.75d
+			y: -1.5d
+			id: "26B86969CEEF6FCB"
+			tasks: [{
+				id: "005BB611602B37F1"
+				type: "biome"
+				biome: "byg:stone_forest"
+			}]
+		}
+		{
+			x: 21.75d
+			y: -1.5d
+			id: "1C07E753BE4765D0"
+			tasks: [{
+				id: "1361D38764B0D4DD"
+				type: "biome"
+				biome: "byg:subzero_hypogeal"
+			}]
+		}
+		{
+			x: 22.75d
+			y: -1.5d
+			id: "6D738E4A74A13D63"
+			tasks: [{
+				id: "5D0172A1FEEFB00F"
+				type: "biome"
+				biome: "byg:sythian_torrids"
+			}]
+		}
+		{
+			x: 23.75d
+			y: -1.5d
+			id: "319BA4B77881C507"
+			tasks: [{
+				id: "7DF934F1897E0626"
+				type: "biome"
+				biome: "byg:the_black_forest"
+			}]
+		}
+		{
+			x: 4.75d
+			y: -0.5d
+			id: "3A2D7E391DEFA55C"
+			tasks: [{
+				id: "1F2CE3BA3B3D8717"
+				type: "biome"
+				biome: "byg:tropical_fungal_forest"
+			}]
+		}
+		{
+			x: 5.75d
+			y: -0.5d
+			id: "0FCF18485D8A69FE"
+			tasks: [{
+				id: "02E5CEDE65CB220D"
+				type: "biome"
+				biome: "byg:tropical_fungal_rainforest_hills"
+			}]
+		}
+		{
+			icon: "minecraft:bamboo"
+			x: 6.75d
+			y: -0.5d
+			id: "12834859EEA2D54C"
+			tasks: [{
+				id: "1B7BC63C63AB4E74"
+				type: "biome"
+				biome: "byg:tropical_islands"
+			}]
+		}
+		{
+			x: 7.75d
+			y: -0.5d
+			id: "6CF1676E81E1CA84"
+			tasks: [{
+				id: "6190055BE8DEF218"
+				type: "biome"
+				biome: "byg:tropical_rainforest_hills"
+			}]
+		}
+		{
+			x: 8.75d
+			y: -0.5d
+			id: "7F33971E2F83A301"
+			tasks: [{
+				id: "45167264A92D85FF"
+				type: "biome"
+				biome: "byg:tropical_rainforest"
+			}]
+		}
+		{
+			x: 9.75d
+			y: -0.5d
+			id: "01C5EC3BA411B06C"
+			tasks: [{
+				id: "5E4947FC9F89900B"
+				type: "biome"
+				biome: "byg:twilight_valley_hills"
+			}]
+		}
+		{
+			x: 10.75d
+			y: -0.5d
+			id: "7F47944DA8E4A0F9"
+			tasks: [{
+				id: "388B5DDD1E9C3DB5"
+				type: "biome"
+				biome: "byg:twilight_valley"
+			}]
+		}
+		{
+			x: 11.75d
+			y: -0.5d
+			id: "5498B10E30BE70F5"
+			tasks: [{
+				id: "3C44142021190C7E"
+				type: "biome"
+				biome: "byg:vibrant_swamplands"
+			}]
+		}
+		{
+			x: 12.75d
+			y: -0.5d
+			id: "24E6E61DECD66B65"
+			tasks: [{
+				id: "25545C284C146821"
+				type: "biome"
+				biome: "byg:viscal_isles"
+			}]
+		}
+		{
+			x: 13.75d
+			y: -0.5d
+			id: "7B5A91182EC3F3A9"
+			tasks: [{
+				id: "4197776091B2BA38"
+				type: "biome"
+				biome: "byg:wailing_garth"
+			}]
+		}
+		{
+			x: 14.75d
+			y: -0.5d
+			id: "65D796FFFF725749"
+			tasks: [{
+				id: "7B849D3DD5351C7C"
+				type: "biome"
+				biome: "byg:warped_desert"
+			}]
+		}
+		{
+			x: 15.75d
+			y: -0.5d
+			id: "751F71FA24DC5003"
+			tasks: [{
+				id: "72B90CB0B9FF949D"
+				type: "biome"
+				biome: "byg:weeping_mire"
+			}]
+		}
+		{
+			x: 16.75d
+			y: -0.5d
+			id: "13CC9334376A2F9B"
+			tasks: [{
+				id: "3240E7E4657C814B"
+				type: "biome"
+				biome: "byg:weeping_witch_clearing"
+			}]
+		}
+		{
+			x: 17.75d
+			y: -0.5d
+			id: "4D471CD9287C6B36"
+			tasks: [{
+				id: "3127D6E6253E0307"
+				type: "biome"
+				biome: "byg:weeping_witch_forest"
+			}]
+		}
+		{
+			x: 18.75d
+			y: -0.5d
+			id: "6D15821BD452FB76"
+			tasks: [{
+				id: "1739A25BBAF3CA5E"
+				type: "biome"
+				biome: "byg:white_beach"
+			}]
+		}
+		{
+			x: 19.75d
+			y: -0.5d
+			id: "311F8CF146359C22"
+			tasks: [{
+				id: "4BB88344C56C0C08"
+				type: "biome"
+				biome: "byg:withering_woods"
+			}]
+		}
+		{
+			x: 20.75d
+			y: -0.5d
+			id: "76D5EA1C28054EA7"
+			tasks: [{
+				id: "58B6294578EF4D77"
+				type: "biome"
+				biome: "byg:wooded_grassland_plateau"
+			}]
+		}
+		{
+			x: 21.75d
+			y: -0.5d
+			id: "0E2F9D106CEE9BDC"
+			tasks: [{
+				id: "2F95B50A54616C90"
+				type: "biome"
+				biome: "byg:wooded_meadow"
+			}]
+		}
+		{
+			x: 22.75d
+			y: -0.5d
+			id: "26988D1EF576AC32"
+			tasks: [{
+				id: "3133F707B2D6CE53"
+				type: "biome"
+				biome: "byg:wooded_red_rock_mountains"
+			}]
+		}
+		{
+			x: 23.75d
+			y: -0.5d
+			id: "2D16B7809729E6A4"
+			tasks: [{
+				id: "3CE24F73880930BD"
+				type: "biome"
+				biome: "byg:woodlands"
+			}]
+		}
+		{
+			x: 4.75d
+			y: 0.5d
+			id: "2341D5106B6CB8CD"
+			tasks: [{
+				id: "59C3740CDCDA3A29"
+				type: "biome"
+				biome: "byg:zelkova_clearing"
+			}]
+		}
+		{
+			x: 5.75d
+			y: 0.5d
+			id: "7B85C53D4E86F14B"
+			tasks: [{
+				id: "37F0237BD6AF3880"
+				type: "biome"
+				biome: "byg:zelkova_forest_hills"
+			}]
+		}
+		{
+			x: 6.75d
+			y: 0.5d
+			id: "643350618E743D64"
+			tasks: [{
+				id: "5C78256FB32E8885"
+				type: "biome"
+				biome: "byg:zelkova_forest"
+			}]
+		}
+		{
+			x: -14.25d
+			y: -10.0d
+			id: "2EB0A90A979B9E6F"
+			tasks: [{
+				id: "3DB23E8928C5F993"
+				type: "biome"
+				biome: "minecraft:badlands_plateau"
+			}]
+		}
+		{
+			x: -13.25d
+			y: -10.0d
+			id: "5B605A843D6D7C49"
+			tasks: [{
+				id: "606883186004DB15"
+				type: "biome"
+				biome: "minecraft:badlands"
+			}]
+		}
+		{
+			x: -12.25d
+			y: -10.0d
+			id: "672A20EB999CDE33"
+			tasks: [{
+				id: "79E32C7EC203462F"
+				type: "biome"
+				biome: "minecraft:bamboo_jungle_hills"
+			}]
+		}
+		{
+			x: -11.25d
+			y: -10.0d
+			id: "6F5A7E619ED82B9C"
+			tasks: [{
+				id: "0745414582969335"
+				type: "biome"
+				biome: "minecraft:bamboo_jungle"
+			}]
+		}
+		{
+			x: -14.25d
+			y: -9.0d
+			id: "1035B2AF01FC9CF5"
+			tasks: [{
+				id: "0A135EC04C0B7842"
+				type: "biome"
+				biome: "minecraft:basalt_deltas"
+			}]
+		}
+		{
+			x: -13.25d
+			y: -9.0d
+			id: "0FF705186EF707FF"
+			tasks: [{
+				id: "2BEC69C7BF951F97"
+				type: "biome"
+				biome: "minecraft:beach"
+			}]
+		}
+		{
+			x: -12.25d
+			y: -9.0d
+			id: "3AD845B436EF99B8"
+			tasks: [{
+				id: "24ED25B1D34C8F06"
+				type: "biome"
+				biome: "minecraft:birch_forest_hills"
+			}]
+		}
+		{
+			x: -11.25d
+			y: -9.0d
+			id: "351A56917A37875C"
+			tasks: [{
+				id: "293582EEF783E002"
+				type: "biome"
+				biome: "minecraft:birch_forest"
+			}]
+		}
+		{
+			x: -14.25d
+			y: -8.0d
+			id: "498C69A8FB0DE231"
+			tasks: [{
+				id: "0C2167D32E14EAAF"
+				type: "biome"
+				biome: "minecraft:cold_ocean"
+			}]
+		}
+		{
+			x: -13.25d
+			y: -8.0d
+			id: "6A1E418E2F6332EC"
+			tasks: [{
+				id: "6CD8D52782BE93DB"
+				type: "biome"
+				biome: "minecraft:crimson_forest"
+			}]
+		}
+		{
+			x: -12.25d
+			y: -8.0d
+			id: "581E1ACD1DA73A9A"
+			tasks: [{
+				id: "325F05183BE83498"
+				type: "biome"
+				biome: "minecraft:dark_forest_hills"
+			}]
+		}
+		{
+			icon: "minecraft:dark_oak_sapling"
+			x: -11.25d
+			y: -8.0d
+			id: "4EE66E89F3F0DF94"
+			tasks: [{
+				id: "2427047C3DCAD63C"
+				type: "biome"
+				biome: "minecraft:dark_forest"
+			}]
+		}
+		{
+			x: -14.25d
+			y: -7.0d
+			id: "71EE13EFD6A292AB"
+			tasks: [{
+				id: "10179BDE8A50F647"
+				type: "biome"
+				biome: "minecraft:deep_cold_ocean"
+			}]
+		}
+		{
+			x: -13.25d
+			y: -7.0d
+			id: "2BAAA7A61766165F"
+			tasks: [{
+				id: "7AE78DF414C5AD70"
+				type: "biome"
+				biome: "minecraft:deep_frozen_ocean"
+			}]
+		}
+		{
+			x: -12.25d
+			y: -7.0d
+			id: "7EB7E3C2CC86D814"
+			tasks: [{
+				id: "4EF5CE26E7C33100"
+				type: "biome"
+				biome: "minecraft:deep_lukewarm_ocean"
+			}]
+		}
+		{
+			x: -11.25d
+			y: -7.0d
+			id: "285FAFD00EDAFF09"
+			tasks: [{
+				id: "3E37BBA64CCF5407"
+				type: "biome"
+				biome: "minecraft:deep_ocean"
+			}]
+		}
+		{
+			x: -14.25d
+			y: -6.0d
+			id: "7BB12887DBFAE104"
+			tasks: [{
+				id: "24642ACC39C1CA54"
+				type: "biome"
+				biome: "minecraft:deep_warm_ocean"
+			}]
+		}
+		{
+			x: -13.25d
+			y: -6.0d
+			id: "6D1A0222368A1604"
+			tasks: [{
+				id: "60A659D6C2DF5FE5"
+				type: "biome"
+				biome: "minecraft:desert_hills"
+			}]
+		}
+		{
+			x: -12.25d
+			y: -6.0d
+			id: "6E4CF0547EE37628"
+			tasks: [{
+				id: "4273B7B7F339B777"
+				type: "biome"
+				biome: "minecraft:desert_lakes"
+			}]
+		}
+		{
+			x: -11.25d
+			y: -6.0d
+			id: "6200432EE6A43BBF"
+			tasks: [{
+				id: "7672AB5B08CF1C2E"
+				type: "biome"
+				biome: "minecraft:desert"
+			}]
+		}
+		{
+			x: -14.25d
+			y: -5.0d
+			id: "767BACBC70236666"
+			tasks: [{
+				id: "71F8C433C4ACE1BD"
+				type: "biome"
+				biome: "minecraft:end_barrens"
+			}]
+		}
+		{
+			x: -13.25d
+			y: -5.0d
+			id: "16B3FDEA1EC6CBCE"
+			tasks: [{
+				id: "40083E0572CC2AEB"
+				type: "biome"
+				biome: "minecraft:end_highlands"
+			}]
+		}
+		{
+			x: -12.25d
+			y: -5.0d
+			id: "2C2E423B4B79C7E3"
+			tasks: [{
+				id: "09F924E1109F4E08"
+				type: "biome"
+				biome: "minecraft:end_midlands"
+			}]
+		}
+		{
+			x: -11.25d
+			y: -5.0d
+			id: "4CD24A3FABB2EF42"
+			tasks: [{
+				id: "3C3E9957383068AF"
+				type: "biome"
+				biome: "minecraft:eroded_badlands"
+			}]
+		}
+		{
+			icon: "minecraft:white_tulip"
+			x: -14.25d
+			y: -4.0d
+			id: "3979300B04CFCBD3"
+			tasks: [{
+				id: "02DF718B4DDB4E26"
+				type: "biome"
+				biome: "minecraft:flower_forest"
+			}]
+		}
+		{
+			x: -13.25d
+			y: -4.0d
+			id: "04F32C07ABFDD1AA"
+			tasks: [{
+				id: "4D160F74FFA5833A"
+				type: "biome"
+				biome: "minecraft:forest"
+			}]
+		}
+		{
+			x: -12.25d
+			y: -4.0d
+			id: "242A046F5B06456F"
+			tasks: [{
+				id: "4A9C0C0F26147A87"
+				type: "biome"
+				biome: "minecraft:frozen_ocean"
+			}]
+		}
+		{
+			x: -11.25d
+			y: -4.0d
+			id: "4B2BB50DA3DC9E35"
+			tasks: [{
+				id: "3C3B4A93C4E8B774"
+				type: "biome"
+				biome: "minecraft:frozen_river"
+			}]
+		}
+		{
+			x: -14.25d
+			y: -3.0d
+			id: "1095DFC9FBEA8C54"
+			tasks: [{
+				id: "790A8FCF66373DD5"
+				type: "biome"
+				biome: "minecraft:giant_spruce_taiga_hills"
+			}]
+		}
+		{
+			x: -13.25d
+			y: -3.0d
+			id: "43693776D2B5F277"
+			tasks: [{
+				id: "2F76EFCBD6ECCAFA"
+				type: "biome"
+				biome: "minecraft:giant_spruce_taiga"
+			}]
+		}
+		{
+			x: -12.25d
+			y: -3.0d
+			id: "116C011A1AE7ABB0"
+			tasks: [{
+				id: "35C68878635CCC9E"
+				type: "biome"
+				biome: "minecraft:giant_tree_taiga_hills"
+			}]
+		}
+		{
+			x: -11.25d
+			y: -3.0d
+			id: "7762C9B643133B72"
+			tasks: [{
+				id: "1E5D89D6BCF597F7"
+				type: "biome"
+				biome: "minecraft:giant_tree_taiga"
+			}]
+		}
+		{
+			x: -14.25d
+			y: -2.0d
+			id: "4DE913AF43BB2947"
+			tasks: [{
+				id: "63F1FB679CDD473E"
+				type: "biome"
+				biome: "minecraft:gravelly_mountains"
+			}]
+		}
+		{
+			x: -13.25d
+			y: -2.0d
+			id: "67DC48999B993BFA"
+			tasks: [{
+				id: "141DBCDCEB184808"
+				type: "biome"
+				biome: "minecraft:ice_spikes"
+			}]
+		}
+		{
+			x: -12.25d
+			y: -2.0d
+			id: "1DCAE21EFFE84EB6"
+			tasks: [{
+				id: "6637B21CF2E767D2"
+				type: "biome"
+				biome: "minecraft:jungle_edge"
+			}]
+		}
+		{
+			x: -11.25d
+			y: -2.0d
+			id: "415A62774EB342A1"
+			tasks: [{
+				id: "5F41AE0F1B6DBEFF"
+				type: "biome"
+				biome: "minecraft:jungle_hills"
+			}]
+		}
+		{
+			icon: "minecraft:jungle_sapling"
+			x: -14.25d
+			y: -1.0d
+			id: "4E4E68F497DDAE64"
+			tasks: [{
+				id: "17E721BB6E31E4D1"
+				type: "biome"
+				biome: "minecraft:jungle"
+			}]
+		}
+		{
+			x: -13.25d
+			y: -1.0d
+			id: "49B9217C0FBB4064"
+			tasks: [{
+				id: "115A52FD53B7838B"
+				type: "biome"
+				biome: "minecraft:lukewarm_ocean"
+			}]
+		}
+		{
+			x: -12.25d
+			y: -1.0d
+			id: "6AD4DB68F84D9ABA"
+			tasks: [{
+				id: "69342320485AEE0A"
+				type: "biome"
+				biome: "minecraft:modified_badlands_plateau"
+			}]
+		}
+		{
+			x: -11.25d
+			y: -1.0d
+			id: "78C375796C92D83F"
+			tasks: [{
+				id: "7A3E80B5F03F084F"
+				type: "biome"
+				biome: "minecraft:modified_gravelly_mountains"
+			}]
+		}
+		{
+			x: -14.25d
+			y: 0.0d
+			id: "0FD482E0D6B2DEF7"
+			tasks: [{
+				id: "0835DFF69DBD4755"
+				type: "biome"
+				biome: "minecraft:modified_jungle_edge"
+			}]
+		}
+		{
+			x: -13.25d
+			y: 0.0d
+			id: "66037D9CA95C8CFB"
+			tasks: [{
+				id: "1A78AD54199A4CE2"
+				type: "biome"
+				biome: "minecraft:modified_jungle"
+			}]
+		}
+		{
+			x: -12.25d
+			y: 0.0d
+			id: "27CB0C238B064BEB"
+			tasks: [{
+				id: "0FDD4463FE8F0E8E"
+				type: "biome"
+				biome: "minecraft:modified_wooded_badlands_plateau"
+			}]
+		}
+		{
+			x: -11.25d
+			y: 0.0d
+			id: "03FFD914C1E4C2CC"
+			tasks: [{
+				id: "548BF7D12E0C80E7"
+				type: "biome"
+				biome: "minecraft:mountain_edge"
+			}]
+		}
+		{
+			x: -14.25d
+			y: 1.0d
+			id: "2379000BA5471496"
+			tasks: [{
+				id: "6E40FEC85D7A95ED"
+				type: "biome"
+				biome: "minecraft:mountains"
+			}]
+		}
+		{
+			x: -13.25d
+			y: 1.0d
+			id: "51D78A0BC0186B35"
+			tasks: [{
+				id: "08260F7CF6C83FD2"
+				type: "biome"
+				biome: "minecraft:mushroom_field_shore"
+			}]
+		}
+		{
+			x: -12.25d
+			y: 1.0d
+			id: "298262B1CB9F1EC5"
+			tasks: [{
+				id: "6634D92B57D4E283"
+				type: "biome"
+				biome: "minecraft:mushroom_fields"
+			}]
+		}
+		{
+			x: -11.25d
+			y: 1.0d
+			id: "74DB1764E4FA13CB"
+			tasks: [{
+				id: "65D6C2E2D44B3A63"
+				type: "biome"
+				biome: "minecraft:nether_wastes"
+			}]
+		}
+		{
+			icon: "minecraft:seagrass"
+			x: -14.25d
+			y: 2.0d
+			id: "046C02618EA68BC1"
+			tasks: [{
+				id: "156929129AC5FD50"
+				type: "biome"
+				biome: "minecraft:ocean"
+			}]
+		}
+		{
+			icon: "minecraft:grass"
+			x: -13.25d
+			y: 2.0d
+			id: "2BC34E5815BCCA5D"
+			tasks: [{
+				id: "552437AFC52CE040"
+				type: "biome"
+				biome: "minecraft:plains"
+			}]
+		}
+		{
+			icon: "environmental:tall_cattail"
+			x: -12.25d
+			y: 2.0d
+			id: "4968CFBB706D7A3A"
+			tasks: [{
+				id: "4B20461D7A17BA01"
+				type: "biome"
+				biome: "minecraft:river"
+			}]
+		}
+		{
+			x: -11.25d
+			y: 2.0d
+			id: "324C32EBBA8FAA32"
+			tasks: [{
+				id: "7894C53C763F0FB9"
+				type: "biome"
+				biome: "minecraft:savanna_plateau"
+			}]
+		}
+		{
+			x: -10.25d
+			y: -10.0d
+			id: "1E9A97693D7F340D"
+			tasks: [{
+				id: "55D55CB587056A44"
+				type: "biome"
+				biome: "minecraft:savanna"
+			}]
+		}
+		{
+			x: -10.25d
+			y: -9.0d
+			id: "393B0BA2EF127834"
+			tasks: [{
+				id: "6A76389088885BCD"
+				type: "biome"
+				biome: "minecraft:shattered_savanna_plateau"
+			}]
+		}
+		{
+			x: -10.25d
+			y: -8.0d
+			id: "2AF7FE4E17CC8638"
+			tasks: [{
+				id: "1EFCE8DCB2BF2764"
+				type: "biome"
+				biome: "minecraft:shattered_savanna"
+			}]
+		}
+		{
+			x: -10.25d
+			y: -7.0d
+			id: "0CFE63074A792BFD"
+			tasks: [{
+				id: "7E91E5930AA2055C"
+				type: "biome"
+				biome: "minecraft:small_end_islands"
+			}]
+		}
+		{
+			x: -10.25d
+			y: -6.0d
+			id: "0C7120D5A6651DDB"
+			tasks: [{
+				id: "3B564941BB757231"
+				type: "biome"
+				biome: "minecraft:snowy_beach"
+			}]
+		}
+		{
+			x: -10.25d
+			y: -5.0d
+			id: "18378F12A11FF593"
+			tasks: [{
+				id: "29C899E6A812E8F7"
+				type: "biome"
+				biome: "minecraft:snowy_mountains"
+			}]
+		}
+		{
+			x: -10.25d
+			y: -4.0d
+			id: "6CD55D059356678D"
+			tasks: [{
+				id: "662C5494008E1273"
+				type: "biome"
+				biome: "minecraft:snowy_taiga_hills"
+			}]
+		}
+		{
+			x: -10.25d
+			y: -3.0d
+			id: "076F4234C9ED4818"
+			tasks: [{
+				id: "118AA671E17B0612"
+				type: "biome"
+				biome: "minecraft:snowy_taiga_mountains"
+			}]
+		}
+		{
+			x: -10.25d
+			y: -2.0d
+			id: "793E78549CC3A0EC"
+			tasks: [{
+				id: "4027C8AF9873A86A"
+				type: "biome"
+				biome: "minecraft:snowy_taiga"
+			}]
+		}
+		{
+			x: -10.25d
+			y: -1.0d
+			id: "5799CDAA4D8711CD"
+			tasks: [{
+				id: "0D43295A065EDA14"
+				type: "biome"
+				biome: "minecraft:snowy_tundra"
+			}]
+		}
+		{
+			x: -10.25d
+			y: 0.0d
+			id: "6363BB97D4B9B11A"
+			tasks: [{
+				id: "7A4AF265767657A0"
+				type: "biome"
+				biome: "minecraft:soul_sand_valley"
+			}]
+		}
+		{
+			x: -10.25d
+			y: 1.0d
+			id: "212C0D394C9042B0"
+			tasks: [{
+				id: "1202F289BC35AADC"
+				type: "biome"
+				biome: "minecraft:stone_shore"
+			}]
+		}
+		{
+			x: -10.25d
+			y: 2.0d
+			id: "251609EBC5567CBE"
+			tasks: [{
+				id: "4B4493D623AC0F50"
+				type: "biome"
+				biome: "minecraft:sunflower_plains"
+			}]
+		}
+		{
+			x: -9.25d
+			y: -10.0d
+			id: "670EBE7438E85AB8"
+			tasks: [{
+				id: "3DF378328C06A139"
+				type: "biome"
+				biome: "minecraft:swamp_hills"
+			}]
+		}
+		{
+			x: -9.25d
+			y: -9.0d
+			id: "6E05D736544F3391"
+			tasks: [{
+				id: "6ABF7AA038FFC401"
+				type: "biome"
+				biome: "minecraft:swamp"
+			}]
+		}
+		{
+			x: -9.25d
+			y: -8.0d
+			id: "3EFEB311DC03C532"
+			tasks: [{
+				id: "717C24B9F4614C8F"
+				type: "biome"
+				biome: "minecraft:taiga_hills"
+			}]
+		}
+		{
+			x: -9.25d
+			y: -7.0d
+			id: "7AD2A3FBEB40EE5F"
+			tasks: [{
+				id: "4463F934575ADC7D"
+				type: "biome"
+				biome: "minecraft:taiga_mountains"
+			}]
+		}
+		{
+			x: -9.25d
+			y: -6.0d
+			id: "29C5B16CF6D66F3C"
+			tasks: [{
+				id: "7881FBFA0EA95FBB"
+				type: "biome"
+				biome: "minecraft:taiga"
+			}]
+		}
+		{
+			x: -9.25d
+			y: -5.0d
+			id: "560166A2D1F821F9"
+			tasks: [{
+				id: "588AE936C199F457"
+				type: "biome"
+				biome: "minecraft:tall_birch_forest"
+			}]
+		}
+		{
+			x: -9.25d
+			y: -4.0d
+			id: "47811AFE2CF551B5"
+			tasks: [{
+				id: "726E61B434C9C93B"
+				type: "biome"
+				biome: "minecraft:tall_birch_hills"
+			}]
+		}
+		{
+			x: -9.25d
+			y: -3.0d
+			id: "51FD3A2DDD4AB074"
+			tasks: [{
+				id: "7E2FD66DDDA26154"
+				type: "biome"
+				biome: "minecraft:the_end"
+			}]
+		}
+		{
+			x: -9.25d
+			y: -2.0d
+			id: "1EC8DEF4E4BE76A5"
+			tasks: [{
+				id: "694C6185FB8AC9D2"
+				type: "biome"
+				biome: "minecraft:warm_ocean"
+			}]
+		}
+		{
+			x: -9.25d
+			y: -1.0d
+			id: "1910AC6E0BA34D37"
+			tasks: [{
+				id: "6A0E5B80E4085D86"
+				type: "biome"
+				biome: "minecraft:warped_forest"
+			}]
+		}
+		{
+			x: -9.25d
+			y: 0.0d
+			id: "53F8D97676BF1E18"
+			tasks: [{
+				id: "0FCF35871DB3F30D"
+				type: "biome"
+				biome: "minecraft:wooded_badlands_plateau"
+			}]
+		}
+		{
+			x: -9.25d
+			y: 1.0d
+			id: "296E98EF61E12745"
+			tasks: [{
+				id: "3AED1577B2CF0957"
+				type: "biome"
+				biome: "minecraft:wooded_hills"
+			}]
+		}
+		{
+			x: -9.25d
+			y: 2.0d
+			id: "77EAA652BB75FA7F"
+			tasks: [{
+				id: "4390B244911A6B98"
+				type: "biome"
+				biome: "minecraft:wooded_mountains"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.25d
+			id: "60CFACE6DF7184ED"
+			tasks: [{
+				id: "337F08E73C66884E"
+				type: "biome"
+				biome: "terraforged:bryce"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.25d
+			id: "2225E720533F9DBE"
+			tasks: [{
+				id: "6BA57488150299D0"
+				type: "biome"
+				biome: "terraforged:cold_marshland"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.25d
+			id: "1AD822D399665B47"
+			tasks: [{
+				id: "0DF9E1892A6B1263"
+				type: "biome"
+				biome: "terraforged:cold_steppe"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.25d
+			id: "09B01E1C2B32C77E"
+			tasks: [{
+				id: "2D7D8627BB11F1BE"
+				type: "biome"
+				biome: "terraforged:fir_forest"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 6.25d
+			id: "08E261A66442B2A2"
+			tasks: [{
+				id: "08F0D57F2E5D338D"
+				type: "biome"
+				biome: "terraforged:flower_plains"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 6.25d
+			id: "208E218D4437EEF0"
+			tasks: [{
+				id: "6BA240B5C6167DCF"
+				type: "biome"
+				biome: "terraforged:frozen_lake"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.25d
+			id: "545CDB8D2948F1FB"
+			tasks: [{
+				id: "2F87FFE44B0613C5"
+				type: "biome"
+				biome: "terraforged:frozen_marsh"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.25d
+			id: "0EC957DD458F720D"
+			tasks: [{
+				id: "1C71C9D4C0348FD9"
+				type: "biome"
+				biome: "terraforged:lake"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 7.25d
+			id: "4E31F283A1EE7E26"
+			tasks: [{
+				id: "32D370B18372B790"
+				type: "biome"
+				biome: "terraforged:marshland"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 7.25d
+			id: "679F82ACE01CE527"
+			tasks: [{
+				id: "689A0FDB23B7D651"
+				type: "biome"
+				biome: "terraforged:savanna_scrub"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 7.25d
+			id: "30D46D01DE622307"
+			tasks: [{
+				id: "4E38FBE35E478F2F"
+				type: "biome"
+				biome: "terraforged:shattered_savanna_scrub"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.25d
+			id: "367BBC482C228F83"
+			tasks: [{
+				id: "3C787A950727A1A3"
+				type: "biome"
+				biome: "terraforged:snowy_fir_forest"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 8.25d
+			id: "0766B293636E6037"
+			tasks: [{
+				id: "4B55608AA85EA865"
+				type: "biome"
+				biome: "terraforged:snowy_taiga_scrub"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 8.25d
+			id: "7CE57BA954EA1E47"
+			tasks: [{
+				id: "478C9A243BBFD4BD"
+				type: "biome"
+				biome: "terraforged:steppe"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 8.25d
+			id: "7804C843A1039288"
+			tasks: [{
+				id: "34234CFC7FA16D72"
+				type: "biome"
+				biome: "terraforged:stone_forest"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.25d
+			id: "3F4B6CCE605AE10C"
+			tasks: [{
+				id: "6E74B03B899D3A9D"
+				type: "biome"
+				biome: "terraforged:taiga_scrub"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.25d
+			id: "6E491D1DA4C41383"
+			tasks: [{
+				id: "765FF3473438DF57"
+				type: "biome"
+				biome: "terraforged:warm_beach"
+			}]
+		}
+		{
+			icon: "undergarden:ink_mushroom"
+			x: 5.0d
+			y: 4.25d
+			id: "02EAF1F6F7ED4A32"
+			tasks: [{
+				id: "61D9AF473143FDB3"
+				type: "biome"
+				biome: "undergarden:barren_abyss"
+			}]
+		}
+		{
+			icon: "undergarden:tall_shimmerweed"
+			x: 6.0d
+			y: 4.25d
+			id: "0844B202E45E0A01"
+			tasks: [{
+				id: "6145F6E7865A65C4"
+				type: "biome"
+				biome: "undergarden:dense_forest"
+			}]
+		}
+		{
+			icon: "undergarden:depthrock_pebbles"
+			x: 7.0d
+			y: 4.25d
+			id: "04D1C44F59CA4A23"
+			tasks: [{
+				id: "6922EBC3ABB7E4B9"
+				type: "biome"
+				biome: "undergarden:forgotten_field"
+			}]
+		}
+		{
+			icon: "undergarden:shimmerweed"
+			x: 5.0d
+			y: 5.25d
+			id: "6E72C3050C480B07"
+			tasks: [{
+				id: "72CD3251284F8098"
+				type: "biome"
+				biome: "undergarden:frostfields"
+			}]
+		}
+		{
+			icon: "undergarden:glowing_kelp"
+			x: 6.0d
+			y: 5.25d
+			id: "69E3A17332BCDAD7"
+			tasks: [{
+				id: "018A8DBD2142E733"
+				type: "biome"
+				biome: "undergarden:gronglegrowth"
+			}]
+		}
+		{
+			icon: "undergarden:blood_mushroom_globule"
+			x: 7.0d
+			y: 5.25d
+			id: "134508F7DBC93B2A"
+			tasks: [{
+				id: "385924B336FEE9EA"
+				type: "biome"
+				biome: "undergarden:mushroom_bog"
+			}]
+		}
+		{
+			icon: "undergarden:smog_vent"
+			x: 5.0d
+			y: 6.25d
+			id: "61F825284B43B061"
+			tasks: [{
+				id: "4A35CB248521A76D"
+				type: "biome"
+				biome: "undergarden:smog_spires"
+			}]
+		}
+		{
+			icon: "undergarden:smogstem_sapling"
+			x: 6.0d
+			y: 6.25d
+			id: "5C212B55D6697AD2"
+			tasks: [{
+				id: "33D1F510C307161E"
+				type: "biome"
+				biome: "undergarden:smogstem_forest"
+			}]
+		}
+		{
+			icon: "undergarden:wigglewood_sapling"
+			x: 7.0d
+			y: 6.25d
+			id: "18196B6967F9DCFA"
+			tasks: [{
+				id: "3051489740D0FEAC"
+				type: "biome"
+				biome: "undergarden:wigglewood_forest"
+			}]
+		}
+		{
+			x: 11.75d
+			y: 3.0d
+			id: "48B4601ABA48BFA1"
+			tasks: [{
+				id: "78A481981E4C3442"
+				type: "biome"
+				biome: "projectvibrantjourneys:alpine_heights"
+			}]
+		}
+		{
+			x: 12.75d
+			y: 3.0d
+			id: "3F9B929DE16EE15D"
+			tasks: [{
+				id: "5D177236F594812A"
+				type: "biome"
+				biome: "projectvibrantjourneys:aspen_grove"
+			}]
+		}
+		{
+			x: 13.75d
+			y: 3.0d
+			id: "5A018402F081B22C"
+			tasks: [{
+				id: "781F9B20BC2A8875"
+				type: "biome"
+				biome: "projectvibrantjourneys:aspen_grove_hills"
+			}]
+		}
+		{
+			x: 14.75d
+			y: 3.0d
+			id: "08AB1CD5DAF05E6F"
+			tasks: [{
+				id: "2CADD2FB66201F1E"
+				type: "biome"
+				biome: "projectvibrantjourneys:autumnal_coniferous_forest"
+			}]
+		}
+		{
+			x: 15.75d
+			y: 3.0d
+			id: "7CCBBFB9D1EC97AB"
+			tasks: [{
+				id: "7DE1FC21F5CDEB41"
+				type: "biome"
+				biome: "projectvibrantjourneys:baobab_fields"
+			}]
+		}
+		{
+			x: 11.75d
+			y: 4.0d
+			id: "2364F5703B0E6A0E"
+			tasks: [{
+				id: "19324DD982F17A0D"
+				type: "biome"
+				biome: "projectvibrantjourneys:blossoming_fields"
+			}]
+		}
+		{
+			x: 12.75d
+			y: 4.0d
+			id: "6AB07A6011E50F38"
+			tasks: [{
+				id: "43F1C87829677F94"
+				type: "biome"
+				biome: "projectvibrantjourneys:boreal_forest"
+			}]
+		}
+		{
+			x: 13.75d
+			y: 4.0d
+			id: "5FC4B57057D737FB"
+			tasks: [{
+				id: "15ED3EB83C2C2B10"
+				type: "biome"
+				biome: "projectvibrantjourneys:boreal_plateau"
+			}]
+		}
+		{
+			x: 14.75d
+			y: 4.0d
+			id: "08C9965189369CB7"
+			tasks: [{
+				id: "450666AB35D21DC5"
+				type: "biome"
+				biome: "projectvibrantjourneys:crimson_thicket"
+			}]
+		}
+		{
+			x: 15.75d
+			y: 4.0d
+			id: "7CD14DD8CB1C2316"
+			tasks: [{
+				id: "335F7F9B8ADF19FD"
+				type: "biome"
+				biome: "projectvibrantjourneys:crystal_lakes"
+			}]
+		}
+		{
+			x: 11.75d
+			y: 5.0d
+			id: "54D5C5A0F41F8F90"
+			tasks: [{
+				id: "5EAF97ED43BBD06B"
+				type: "biome"
+				biome: "projectvibrantjourneys:desert_shrubland"
+			}]
+		}
+		{
+			x: 12.75d
+			y: 5.0d
+			id: "5A0DC63717B11AFD"
+			tasks: [{
+				id: "239D09897919D5E5"
+				type: "biome"
+				biome: "projectvibrantjourneys:flooded_woodlands"
+			}]
+		}
+		{
+			x: 13.75d
+			y: 5.0d
+			id: "55C82B026221E9E9"
+			tasks: [{
+				id: "2C8EA2C5E7F8C343"
+				type: "biome"
+				biome: "projectvibrantjourneys:gravel_shore"
+			}]
+		}
+		{
+			x: 14.75d
+			y: 5.0d
+			id: "3D63C52F7A1D4029"
+			tasks: [{
+				id: "2C8203CB5D1486F8"
+				type: "biome"
+				biome: "projectvibrantjourneys:mangrove_marsh"
+			}]
+		}
+		{
+			icon: "minecraft:coarse_dirt"
+			x: 15.75d
+			y: 5.0d
+			id: "5DD5D52135FD5505"
+			tasks: [{
+				id: "7B2C766DD839C3B8"
+				type: "biome"
+				biome: "projectvibrantjourneys:meadows"
+			}]
+		}
+		{
+			x: 11.75d
+			y: 6.0d
+			id: "61C3805DFDFCC48D"
+			tasks: [{
+				id: "6D114A84C34AD386"
+				type: "biome"
+				biome: "projectvibrantjourneys:overgrown_spires"
+			}]
+		}
+		{
+			x: 12.75d
+			y: 6.0d
+			id: "64567210E5F46B06"
+			tasks: [{
+				id: "5C78F8EB05BD8977"
+				type: "biome"
+				biome: "projectvibrantjourneys:pine_meadows"
+			}]
+		}
+		{
+			x: 13.75d
+			y: 6.0d
+			id: "4E8F9E16F1F32A45"
+			tasks: [{
+				id: "6B0B2DE782BA871F"
+				type: "biome"
+				biome: "projectvibrantjourneys:prairie"
+			}]
+		}
+		{
+			x: 14.75d
+			y: 6.0d
+			id: "4876CB30584678C7"
+			tasks: [{
+				id: "1CD2ACE0E27FC136"
+				type: "biome"
+				biome: "projectvibrantjourneys:red_rock_valley"
+			}]
+		}
+		{
+			x: 15.75d
+			y: 6.0d
+			id: "6FA7A702A7D146BD"
+			tasks: [{
+				id: "33FD26E786487970"
+				type: "biome"
+				biome: "projectvibrantjourneys:redwood_peaks"
+			}]
+		}
+		{
+			x: 11.75d
+			y: 7.0d
+			id: "1BA6E4A1A3F6754F"
+			tasks: [{
+				id: "7D199DAB080DB3AC"
+				type: "biome"
+				biome: "projectvibrantjourneys:redwoods"
+			}]
+		}
+		{
+			x: 12.75d
+			y: 7.0d
+			id: "50B21E08A1FBDAA6"
+			tasks: [{
+				id: "538C753FD4E6AE74"
+				type: "biome"
+				biome: "projectvibrantjourneys:snowy_boreal_forest"
+			}]
+		}
+		{
+			x: 13.75d
+			y: 7.0d
+			id: "76ADF74D684BA376"
+			tasks: [{
+				id: "7AD87D805F5C0C73"
+				type: "biome"
+				biome: "projectvibrantjourneys:snowy_redwoods"
+			}]
+		}
+		{
+			x: 14.75d
+			y: 7.0d
+			id: "5D64BEBF684B52BB"
+			tasks: [{
+				id: "4FEAEEBC1C2F9E2F"
+				type: "biome"
+				biome: "projectvibrantjourneys:stony_fields"
+			}]
+		}
+		{
+			icon: "projectvibrantjourneys:coconut"
+			x: 15.75d
+			y: 7.0d
+			id: "1527CBFAC0B49076"
+			tasks: [{
+				id: "63C6F01DA41CDEF4"
+				type: "biome"
+				biome: "projectvibrantjourneys:tropical_beach"
+			}]
+		}
+		{
+			x: 11.75d
+			y: 8.0d
+			id: "5878618A93900DFB"
+			tasks: [{
+				id: "770B60C01397CC97"
+				type: "biome"
+				biome: "projectvibrantjourneys:verdant_sands"
+			}]
+		}
+		{
+			x: 12.75d
+			y: 8.0d
+			id: "20D76AAF99A6025F"
+			tasks: [{
+				id: "7646F32732E8BABF"
+				type: "biome"
+				biome: "projectvibrantjourneys:willow_wetlands"
+			}]
+		}
+		{
+			x: 13.75d
+			y: 8.0d
+			id: "0F2BEE82DBE83FBF"
+			tasks: [{
+				id: "4C5B1587F12388D7"
+				type: "biome"
+				biome: "projectvibrantjourneys:windswept_cliffs"
+			}]
+		}
+		{
+			x: 14.75d
+			y: 8.0d
+			id: "056429C7979DE24E"
+			tasks: [{
+				id: "474033A49881DC8B"
+				type: "biome"
+				biome: "projectvibrantjourneys:windswept_shore"
+			}]
+		}
+		{
+			icon: "byg:overgrown_stone"
+			x: 24.75d
+			y: -4.75d
+			id: "74D26F00A22ED50E"
+			tasks: [{
+				id: "5891455CE9EFFCD3"
+				type: "biome"
+				biome: "byg:guiana_springs"
+			}]
+		}
+	]
 }

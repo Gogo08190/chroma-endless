@@ -105,6 +105,11 @@
 				type: "item"
 				item: "occultism:dictionary_of_spirits"
 			}]
+			rewards: [{
+				id: "2F0BB05DFCD2FF14"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			title: "Occultism Useful Items"
@@ -147,6 +152,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "4314A6BB1D41885D"
+				type: "item"
+				item: "occultism:tallow"
+			}]
 		}
 		{
 			x: 5.75d
@@ -157,6 +167,11 @@
 			id: "1C3E182744A46821"
 			tasks: [{
 				id: "101C60D9A1BB24DE"
+				type: "item"
+				item: "occultism:otherworld_ashes"
+			}]
+			rewards: [{
+				id: "1253430BF44209D4"
 				type: "item"
 				item: "occultism:otherworld_ashes"
 			}]
@@ -187,6 +202,13 @@
 				id: "69995795F85D1B9B"
 				type: "item"
 				item: "occultism:otherstone"
+			}]
+			rewards: [{
+				id: "0EF7DCEB1504D335"
+				type: "item"
+				item: "occultism:otherstone"
+				count: 4
+				random_bonus: 8
 			}]
 		}
 		{
@@ -231,16 +253,10 @@
 					}
 				}
 			]
-		}
-		{
-			x: 6.75d
-			y: -4.75d
-			dependencies: ["28C3F89057684CC6"]
-			id: "795294F328925FD4"
-			tasks: [{
-				id: "1F255B9EBE45E909"
+			rewards: [{
+				id: "4B88E3F250C4677C"
 				type: "item"
-				item: "ironjetpacks:otherworldian_cell"
+				item: "minecraft:stone"
 			}]
 		}
 		{
@@ -252,6 +268,11 @@
 			id: "414FB84D8E12D770"
 			tasks: [{
 				id: "0143BF09043C8A81"
+				type: "item"
+				item: "occultism:spirit_attuned_gem"
+			}]
+			rewards: [{
+				id: "113FF7B9526108AB"
 				type: "item"
 				item: "occultism:spirit_attuned_gem"
 			}]
@@ -275,6 +296,20 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6264F8C5E23DFDCD"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:efficiency"
+						}]
+					}
+				}
+			}]
 		}
 		{
 			x: 9.0d
@@ -292,6 +327,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "09455EC528112172"
+				type: "item"
+				item: "minecraft:netherrack"
+			}]
 		}
 		{
 			x: 10.75d
@@ -306,6 +346,11 @@
 			id: "6556C41B660B08F6"
 			tasks: [{
 				id: "2B66464C48955F1E"
+				type: "item"
+				item: "occultism:iesnium_ore"
+			}]
+			rewards: [{
+				id: "7D3763AD95CB68D0"
 				type: "item"
 				item: "occultism:iesnium_ore"
 			}]
@@ -326,6 +371,15 @@
 					tag: {
 						Damage: 0
 					}
+				}
+			}]
+			rewards: [{
+				id: "09690E0D93024089"
+				type: "item"
+				item: {
+					id: "botania:cosmetic_googly_eyes"
+					Count: 1b
+					tag: { }
 				}
 			}]
 		}
@@ -358,6 +412,13 @@
 					count: 4L
 				}
 			]
+			rewards: [{
+				id: "0803CF057986CA81"
+				type: "item"
+				item: "occultism:otherworld_log"
+				count: 2
+				random_bonus: 4
+			}]
 		}
 		{
 			title: "How to get stables ones?"
@@ -405,6 +466,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "6DDE31A9571E3901"
+				type: "item"
+				item: "minecraft:oak_sapling"
+			}]
 		}
 		{
 			title: "Stable Otherworld Saplings"
@@ -416,6 +482,11 @@
 			id: "5F550AA4ADBABA8D"
 			tasks: [{
 				id: "1FFAB313335708D9"
+				type: "item"
+				item: "occultism:otherworld_sapling"
+			}]
+			rewards: [{
+				id: "7C3AAA2A2ED4ACFF"
 				type: "item"
 				item: "occultism:otherworld_sapling"
 			}]
@@ -1696,6 +1767,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "1F1BA3694515187E"
+				type: "item"
+				item: "occultism:brush"
 			}]
 		}
 		{

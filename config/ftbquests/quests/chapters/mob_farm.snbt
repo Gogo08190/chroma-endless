@@ -19,6 +19,11 @@
 				type: "item"
 				item: "miniutilities:cursed_earth"
 			}]
+			rewards: [{
+				id: "2DCFE789DBAA76E6"
+				type: "item"
+				item: "miniutilities:cursed_earth"
+			}]
 		}
 		{
 			x: 1.0d
@@ -28,6 +33,11 @@
 			id: "04846422EE133675"
 			tasks: [{
 				id: "509C73E601701D04"
+				type: "item"
+				item: "miniutilities:blessed_earth"
+			}]
+			rewards: [{
+				id: "67590FDFE93DFD71"
 				type: "item"
 				item: "miniutilities:blessed_earth"
 			}]
@@ -43,16 +53,27 @@
 				type: "item"
 				item: "miniutilities:iron_spikes"
 			}]
+			rewards: [{
+				id: "00B7E7C85125CD6D"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 2.0d
 			y: 0.0d
 			shape: "rsquare"
+			dependencies: ["5818D79835BC71DA"]
 			id: "165C76440701F97D"
 			tasks: [{
 				id: "28F8E1DAFC64771D"
 				type: "item"
 				item: "miniutilities:wooden_spikes"
+			}]
+			rewards: [{
+				id: "3E38E5F5EB4D73A1"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -66,6 +87,11 @@
 				type: "item"
 				item: "miniutilities:dark_ethereal_glass"
 			}]
+			rewards: [{
+				id: "74D67AADA258E0E2"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 0.0d
@@ -77,6 +103,11 @@
 				id: "428674458F4F6919"
 				type: "item"
 				item: "miniutilities:ethereal_glass"
+			}]
+			rewards: [{
+				id: "2C82D876BAD7ED0B"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -90,6 +121,11 @@
 				type: "item"
 				item: "miniutilities:reverse_ethereal_glass"
 			}]
+			rewards: [{
+				id: "70C59B50306E6CDC"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 1.0d
@@ -101,6 +137,11 @@
 				id: "0F94AA3D1E8D631B"
 				type: "item"
 				item: "miniutilities:dark_reverse_ethereal_glass"
+			}]
+			rewards: [{
+				id: "355ABE9992AB9852"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -114,6 +155,11 @@
 				type: "item"
 				item: "miniutilities:diamond_spikes"
 			}]
+			rewards: [{
+				id: "17909C04C721F227"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 0.0d
@@ -126,6 +172,11 @@
 				type: "item"
 				item: "miniutilities:netherite_spikes"
 			}]
+			rewards: [{
+				id: "59FF8AA81F4689FD"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 2.0d
@@ -137,6 +188,11 @@
 				id: "7A15907D2457C4B1"
 				type: "item"
 				item: "miniutilities:gold_spikes"
+			}]
+			rewards: [{
+				id: "4D910CA35BFB0269"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -153,6 +209,12 @@
 				type: "item"
 				item: "kubejs:cursed_fluid_bucket"
 			}]
+			rewards: [{
+				id: "70ACD875FB8DCD0E"
+				type: "item"
+				item: "minecraft:dirt"
+				count: 8
+			}]
 		}
 		{
 			x: 1.0d
@@ -164,6 +226,12 @@
 				id: "091E2EFD598DF072"
 				type: "item"
 				item: "kubejs:blessed_fluid_bucket"
+			}]
+			rewards: [{
+				id: "2A13B4318C0791C2"
+				type: "item"
+				item: "minecraft:dirt"
+				count: 8
 			}]
 		}
 		{
@@ -180,6 +248,12 @@
 				type: "item"
 				item: "kubejs:blursed_fluid_bucket"
 			}]
+			rewards: [{
+				id: "4002206D2858B19E"
+				type: "item"
+				item: "minecraft:dirt"
+				count: 8
+			}]
 		}
 		{
 			x: 0.0d
@@ -189,6 +263,11 @@
 			id: "262B1039DE900087"
 			tasks: [{
 				id: "4F7690A883537521"
+				type: "item"
+				item: "miniutilities:blursed_earth"
+			}]
+			rewards: [{
+				id: "4024BAF1D79E00ED"
 				type: "item"
 				item: "miniutilities:blursed_earth"
 			}]
@@ -221,6 +300,12 @@
 				type: "item"
 				item: "darkutils:blank_plate"
 			}]
+			rewards: [{
+				id: "7C32874581C78F5B"
+				type: "item"
+				item: "darkutils:blank_plate"
+				count: 4
+			}]
 		}
 		{
 			x: -6.75d
@@ -234,6 +319,11 @@
 				type: "item"
 				item: "darkutils:vector_plate"
 			}]
+			rewards: [{
+				id: "6640C8286D85AEC8"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: -5.75d
@@ -246,6 +336,11 @@
 				type: "item"
 				item: "darkutils:vector_plate_extreme"
 			}]
+			rewards: [{
+				id: "2C77A8F48E01A072"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: -6.25d
@@ -257,6 +352,11 @@
 				id: "396D52DF2815051F"
 				type: "item"
 				item: "darkutils:vector_plate_fast"
+			}]
+			rewards: [{
+				id: "285293D1F742C88F"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -271,6 +371,11 @@
 				type: "item"
 				item: "darkutils:export_plate"
 			}]
+			rewards: [{
+				id: "3BCFEF6F09154E71"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: -3.25d
@@ -284,6 +389,11 @@
 				type: "item"
 				item: "darkutils:import_plate"
 			}]
+			rewards: [{
+				id: "14DF82FC5146F995"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: -4.5d
@@ -295,6 +405,11 @@
 				id: "3614F1753788032B"
 				type: "item"
 				item: "darkutils:export_plate_fast"
+			}]
+			rewards: [{
+				id: "3BD3DAF1B871C881"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -308,6 +423,11 @@
 				type: "item"
 				item: "darkutils:import_plate_fast"
 			}]
+			rewards: [{
+				id: "355A5A4FDCF00293"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: -4.0d
@@ -320,6 +440,11 @@
 				type: "item"
 				item: "darkutils:export_plate_extreme"
 			}]
+			rewards: [{
+				id: "431CA7B5C236FE01"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: -2.25d
@@ -331,6 +456,11 @@
 				id: "75F94169C9843C94"
 				type: "item"
 				item: "darkutils:import_plate_extreme"
+			}]
+			rewards: [{
+				id: "2C015B782966CCB0"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -345,6 +475,11 @@
 				type: "item"
 				item: "darkutils:rune_damage"
 			}]
+			rewards: [{
+				id: "74508E63647DE541"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: -5.5d
@@ -357,6 +492,11 @@
 				id: "5CC0B9CFEAF25473"
 				type: "item"
 				item: "darkutils:rune_damage_player"
+			}]
+			rewards: [{
+				id: "5498E427BBB0C2E9"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -371,6 +511,11 @@
 				type: "item"
 				item: "darkutils:rune_poison"
 			}]
+			rewards: [{
+				id: "5BE4690879534CFB"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: -4.5d
@@ -383,6 +528,11 @@
 				id: "71B2C965ACFEECEF"
 				type: "item"
 				item: "darkutils:rune_weakness"
+			}]
+			rewards: [{
+				id: "5C69B54E256DD5F1"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -397,6 +547,11 @@
 				type: "item"
 				item: "darkutils:rune_slowness"
 			}]
+			rewards: [{
+				id: "0EF1951D80BFEC16"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: -3.5d
@@ -409,6 +564,11 @@
 				id: "615CEEAA8A199BC5"
 				type: "item"
 				item: "darkutils:rune_wither"
+			}]
+			rewards: [{
+				id: "35D39C35AF7B4031"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -423,6 +583,11 @@
 				type: "item"
 				item: "darkutils:rune_fire"
 			}]
+			rewards: [{
+				id: "2FBBEBD936C4A234"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: -5.0d
@@ -435,6 +600,11 @@
 				id: "35561C5675E3A527"
 				type: "item"
 				item: "darkutils:rune_fatigue"
+			}]
+			rewards: [{
+				id: "5F80231EDAA3A083"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -449,6 +619,11 @@
 				type: "item"
 				item: "darkutils:rune_glowing"
 			}]
+			rewards: [{
+				id: "03D73B46BF602A85"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: -4.0d
@@ -461,6 +636,11 @@
 				id: "394D16FD61E2FDB8"
 				type: "item"
 				item: "darkutils:rune_hunger"
+			}]
+			rewards: [{
+				id: "773FCA6FA59D5B3E"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -475,6 +655,11 @@
 				type: "item"
 				item: "darkutils:rune_blindness"
 			}]
+			rewards: [{
+				id: "2E2204CDAF953CF7"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: -4.5d
@@ -487,6 +672,11 @@
 				id: "6479F310887578D9"
 				type: "item"
 				item: "darkutils:rune_nausea"
+			}]
+			rewards: [{
+				id: "38D04CFD9D3DBFBD"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -501,6 +691,11 @@
 				type: "item"
 				item: "darkutils:anchor_plate"
 			}]
+			rewards: [{
+				id: "0DBC3751526F1723"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 6.25d
@@ -511,6 +706,11 @@
 				id: "67A06E440C31DA50"
 				type: "item"
 				item: "mob_grinding_utils:fan"
+			}]
+			rewards: [{
+				id: "1765C58DC4D887DA"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -528,6 +728,11 @@
 				id: "3385B279B01E387E"
 				type: "item"
 				item: "mob_grinding_utils:saw"
+			}]
+			rewards: [{
+				id: "10EFBA5AB756FA31"
+				type: "item"
+				item: "minecraft:redstone_block"
 			}]
 		}
 		{
@@ -553,6 +758,11 @@
 				type: "item"
 				item: "mob_grinding_utils:solid_xp_mould_blank"
 			}]
+			rewards: [{
+				id: "3F7B41F69D6C22A5"
+				type: "item"
+				item: "mob_grinding_utils:fluid_xp_bucket"
+			}]
 		}
 		{
 			x: 7.75d
@@ -565,6 +775,11 @@
 				type: "item"
 				item: "mob_grinding_utils:solid_xp_mould_baby"
 			}]
+			rewards: [{
+				id: "710B63068ABCA8EB"
+				type: "item"
+				item: "mob_grinding_utils:fluid_xp_bucket"
+			}]
 		}
 		{
 			x: 7.25d
@@ -574,6 +789,11 @@
 			id: "356B54396D9A8EA5"
 			tasks: [{
 				id: "65C26AD3158978A2"
+				type: "item"
+				item: "mob_grinding_utils:solid_xp_baby"
+			}]
+			rewards: [{
+				id: "2BABFB266925D307"
 				type: "item"
 				item: "mob_grinding_utils:solid_xp_baby"
 			}]
@@ -590,6 +810,11 @@
 				type: "item"
 				item: "mob_grinding_utils:saw_upgrade_smite"
 			}]
+			rewards: [{
+				id: "0795DD8235D4113F"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 6.25d
@@ -602,6 +827,11 @@
 				id: "54CD9703CA6C37C9"
 				type: "item"
 				item: "mob_grinding_utils:fan_upgrade_width"
+			}]
+			rewards: [{
+				id: "2B2D6834DCCD8C7F"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -616,6 +846,11 @@
 				type: "item"
 				item: "mob_grinding_utils:fan_upgrade_height"
 			}]
+			rewards: [{
+				id: "74525BF8FFE601E0"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 8.25d
@@ -628,6 +863,11 @@
 				id: "5D855BB6D10A710E"
 				type: "item"
 				item: "mob_grinding_utils:fan_upgrade_speed"
+			}]
+			rewards: [{
+				id: "4AA516AD7F02EBAF"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -642,6 +882,11 @@
 				type: "item"
 				item: "mob_grinding_utils:absorption_upgrade"
 			}]
+			rewards: [{
+				id: "15101697F8563BEA"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 4.75d
@@ -654,6 +899,11 @@
 				id: "1BBF9BEA0FBD3AB4"
 				type: "item"
 				item: "mob_grinding_utils:saw_upgrade_arthropod"
+			}]
+			rewards: [{
+				id: "0B4C1EA21A11A58A"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -668,6 +918,11 @@
 				type: "item"
 				item: "mob_grinding_utils:saw_upgrade_beheading"
 			}]
+			rewards: [{
+				id: "7BA3AEFD9B17418E"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 6.75d
@@ -680,6 +935,11 @@
 				id: "57266478C6748D02"
 				type: "item"
 				item: "mob_grinding_utils:saw_upgrade_fire"
+			}]
+			rewards: [{
+				id: "024B03FDF74707F4"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -694,6 +954,11 @@
 				type: "item"
 				item: "mob_grinding_utils:saw_upgrade_looting"
 			}]
+			rewards: [{
+				id: "418A1071F380CF0C"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 8.75d
@@ -706,6 +971,11 @@
 				id: "152395C1E090AD9E"
 				type: "item"
 				item: "mob_grinding_utils:saw_upgrade_sharpness"
+			}]
+			rewards: [{
+				id: "3A29AF6E3D13FBE9"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -720,6 +990,11 @@
 				type: "item"
 				item: "mob_grinding_utils:xp_solidifier_upgrade"
 			}]
+			rewards: [{
+				id: "7A052B98CCE5E3FC"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 8.25d
@@ -730,6 +1005,11 @@
 				id: "7673FF6E3B908148"
 				type: "item"
 				item: "mob_grinding_utils:ender_inhibitor_on"
+			}]
+			rewards: [{
+				id: "6AAB84AC7B299A45"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -746,6 +1026,11 @@
 				type: "item"
 				item: "mob_grinding_utils:absorption_hopper"
 			}]
+			rewards: [{
+				id: "210484E343A8DDE5"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: -4.5d
@@ -760,11 +1045,17 @@
 				type: "item"
 				item: "darkutils:ender_hopper"
 			}]
+			rewards: [{
+				id: "4654339E4C926020"
+				type: "item"
+				item: "minecraft:chest"
+			}]
 		}
 		{
 			x: 2.0d
 			y: 10.25d
 			shape: "square"
+			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "263FA48FAA595AC0"
 			tasks: [{
 				id: "693A21759137F72D"
@@ -776,9 +1067,15 @@
 			x: 1.0d
 			y: 8.25d
 			shape: "square"
+			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "16288F5BAABE8D40"
 			tasks: [{
 				id: "7AF7EB54D8D49136"
+				type: "item"
+				item: "apotheosis:armor_head_book"
+			}]
+			rewards: [{
+				id: "7C7525A034C1C8BC"
 				type: "item"
 				item: "apotheosis:armor_head_book"
 			}]
@@ -787,9 +1084,15 @@
 			x: 0.0d
 			y: 9.25d
 			shape: "square"
+			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "071EF3E64216C428"
 			tasks: [{
 				id: "203D24667FCFA873"
+				type: "item"
+				item: "apotheosis:armor_chest_book"
+			}]
+			rewards: [{
+				id: "51767BC424FF8A16"
 				type: "item"
 				item: "apotheosis:armor_chest_book"
 			}]
@@ -798,9 +1101,15 @@
 			x: 0.0d
 			y: 10.25d
 			shape: "square"
+			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "76EB7B22AEB495C2"
 			tasks: [{
 				id: "1C45FB6D94A1E34A"
+				type: "item"
+				item: "apotheosis:armor_legs_book"
+			}]
+			rewards: [{
+				id: "44658CEBA9F24D49"
 				type: "item"
 				item: "apotheosis:armor_legs_book"
 			}]
@@ -809,6 +1118,7 @@
 			x: 2.0d
 			y: 9.25d
 			shape: "square"
+			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "7BBD6DA9195DA42B"
 			tasks: [{
 				id: "71F7B77D1DF10C69"
@@ -820,9 +1130,15 @@
 			x: 1.0d
 			y: 9.25d
 			shape: "square"
+			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "58673AC15F0D23B3"
 			tasks: [{
 				id: "127E347A699E04BC"
+				type: "item"
+				item: "apotheosis:weapon_book"
+			}]
+			rewards: [{
+				id: "68D578BCC5A1B5FC"
 				type: "item"
 				item: "apotheosis:weapon_book"
 			}]
@@ -831,9 +1147,15 @@
 			x: 0.0d
 			y: 11.25d
 			shape: "square"
+			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "06FA10529FE77E9B"
 			tasks: [{
 				id: "60518FA1187159A6"
+				type: "item"
+				item: "apotheosis:digger_book"
+			}]
+			rewards: [{
+				id: "1C8E1F2F8EB5D528"
 				type: "item"
 				item: "apotheosis:digger_book"
 			}]
@@ -842,9 +1164,15 @@
 			x: 2.0d
 			y: 11.25d
 			shape: "square"
+			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "2F6C130D6361CA26"
 			tasks: [{
 				id: "4A01111934261DFB"
+				type: "item"
+				item: "apotheosis:fishing_rod_book"
+			}]
+			rewards: [{
+				id: "73E823ED05130658"
 				type: "item"
 				item: "apotheosis:fishing_rod_book"
 			}]
@@ -853,9 +1181,15 @@
 			x: 1.0d
 			y: 11.25d
 			shape: "square"
+			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "42A8931F8E4E96CE"
 			tasks: [{
 				id: "2F3C9CE0B56A267F"
+				type: "item"
+				item: "apotheosis:bow_book"
+			}]
+			rewards: [{
+				id: "3BA608622AF29EFA"
 				type: "item"
 				item: "apotheosis:bow_book"
 			}]
@@ -864,9 +1198,15 @@
 			x: 1.0d
 			y: 10.25d
 			shape: "square"
+			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "7622E7134BBC817F"
 			tasks: [{
 				id: "2DD14A4ECFA1B46A"
+				type: "item"
+				item: "apotheosis:scrap_tome"
+			}]
+			rewards: [{
+				id: "540FD168B9CC2600"
 				type: "item"
 				item: "apotheosis:scrap_tome"
 			}]
@@ -1214,6 +1554,7 @@
 		{
 			x: 6.25d
 			y: 0.25d
+			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "58C5E374CDC3C86C"
 			tasks: [{
 				id: "0EE633C8489A9693"
@@ -1224,6 +1565,7 @@
 		{
 			x: 8.25d
 			y: 0.25d
+			dependencies: ["2BA269B9CA2B23C4"]
 			id: "3A5F76DAD707594B"
 			tasks: [{
 				id: "63DFE378D39DFB4B"

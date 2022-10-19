@@ -19,6 +19,18 @@
 				type: "item"
 				item: "betterendforge:aeternium_sword_handle"
 			}]
+			rewards: [
+				{
+					id: "4BD778B3D1299D65"
+					type: "random"
+					table_id: 6264614185702988305L
+				}
+				{
+					id: "2A479A8E8ED15BBD"
+					type: "random"
+					table_id: 960886588911272940L
+				}
+			]
 		}
 		{
 			x: 3.25d
@@ -40,6 +52,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "5BC472C41F44FA44"
+					type: "random"
+					table_id: 6264614185702988305L
+				}
+				{
+					id: "748DA48931650E2B"
+					type: "random"
+					table_id: 960886588911272940L
+				}
+			]
 		}
 		{
 			x: 3.25d
@@ -52,6 +76,18 @@
 				type: "item"
 				item: "betterendforge:aeternium_sword_blade"
 			}]
+			rewards: [
+				{
+					id: "7C7030177A19D644"
+					type: "random"
+					table_id: 6264614185702988305L
+				}
+				{
+					id: "38C146498322C0DB"
+					type: "random"
+					table_id: 960886588911272940L
+				}
+			]
 		}
 		{
 			x: 2.25d
@@ -64,6 +100,18 @@
 				type: "item"
 				item: "betterendforge:aeternium_shovel_head"
 			}]
+			rewards: [
+				{
+					id: "28303F91A2BB6368"
+					type: "random"
+					table_id: 6264614185702988305L
+				}
+				{
+					id: "5388387351509608"
+					type: "random"
+					table_id: 960886588911272940L
+				}
+			]
 		}
 		{
 			x: 2.25d
@@ -82,6 +130,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "2E2BD10EB0729A3B"
+					type: "random"
+					table_id: 6264614185702988305L
+				}
+				{
+					id: "779803403FF7029E"
+					type: "random"
+					table_id: 960886588911272940L
+				}
+			]
 		}
 		{
 			x: 1.25d
@@ -100,6 +160,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "6B34CF124945D196"
+					type: "random"
+					table_id: 6264614185702988305L
+				}
+				{
+					id: "09B691B6962D853C"
+					type: "random"
+					table_id: 960886588911272940L
+				}
+			]
 		}
 		{
 			x: 1.25d
@@ -112,6 +184,18 @@
 				type: "item"
 				item: "betterendforge:aeternium_pickaxe_head"
 			}]
+			rewards: [
+				{
+					id: "582A238B544C74E7"
+					type: "random"
+					table_id: 6264614185702988305L
+				}
+				{
+					id: "7421501B80804CD6"
+					type: "random"
+					table_id: 960886588911272940L
+				}
+			]
 		}
 		{
 			x: 3.25d
@@ -128,6 +212,12 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "1E6026690FF4B067"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+				count: 3
+			}]
 		}
 		{
 			x: 4.25d
@@ -140,6 +230,18 @@
 				type: "item"
 				item: "betterendforge:aeternium_axe_head"
 			}]
+			rewards: [
+				{
+					id: "3D6F1ECD1BE6A365"
+					type: "random"
+					table_id: 6264614185702988305L
+				}
+				{
+					id: "632F58F6FDFBC53D"
+					type: "random"
+					table_id: 960886588911272940L
+				}
+			]
 		}
 		{
 			x: 4.25d
@@ -158,6 +260,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "1974A329C8012332"
+					type: "random"
+					table_id: 6264614185702988305L
+				}
+				{
+					id: "504F05A23A907696"
+					type: "random"
+					table_id: 960886588911272940L
+				}
+			]
 		}
 		{
 			x: 5.25d
@@ -176,6 +290,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "34CA7E8D2129E492"
+					type: "random"
+					table_id: 6264614185702988305L
+				}
+				{
+					id: "35E763651A16C1C3"
+					type: "random"
+					table_id: 960886588911272940L
+				}
+			]
 		}
 		{
 			x: 5.25d
@@ -188,6 +314,18 @@
 				type: "item"
 				item: "betterendforge:aeternium_hoe_head"
 			}]
+			rewards: [
+				{
+					id: "32496A5E88B8AEFB"
+					type: "random"
+					table_id: 6264614185702988305L
+				}
+				{
+					id: "015EE050E769BF10"
+					type: "random"
+					table_id: 960886588911272940L
+				}
+			]
 		}
 		{
 			x: 3.25d
@@ -198,6 +336,11 @@
 			id: "76623C16574C8BB7"
 			tasks: [{
 				id: "10A0339E9CED1E99"
+				type: "item"
+				item: "betterendforge:aeternium_ingot"
+			}]
+			rewards: [{
+				id: "5806B7223D9A39F0"
 				type: "item"
 				item: "betterendforge:aeternium_ingot"
 			}]
@@ -227,6 +370,13 @@
 				type: "item"
 				item: "betterendforge:end_stone_furnace"
 			}]
+			rewards: [{
+				id: "5C55CC7650EC4FCC"
+				type: "item"
+				item: "minecraft:coal"
+				count: 4
+				random_bonus: 4
+			}]
 		}
 		{
 			x: 4.5d
@@ -237,6 +387,11 @@
 			id: "5F0CB9858CDFA417"
 			tasks: [{
 				id: "2FA9024374B45945"
+				type: "item"
+				item: "betterendforge:terminite_ingot"
+			}]
+			rewards: [{
+				id: "4C92A41451C463B6"
 				type: "item"
 				item: "betterendforge:terminite_ingot"
 			}]
@@ -256,6 +411,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "7A99B66F49703DE6"
+				type: "random"
+				table_id: 6264614185702988305L
+			}]
 		}
 		{
 			x: 7.25d
@@ -267,6 +427,11 @@
 				id: "43EAB2A932DDA567"
 				type: "item"
 				item: "betterendforge:terminite_hoe_head"
+			}]
+			rewards: [{
+				id: "2674611D49FBA95B"
+				type: "random"
+				table_id: 6264614185702988305L
 			}]
 		}
 		{
@@ -280,6 +445,11 @@
 				type: "item"
 				item: "betterendforge:terminite_axe_head"
 			}]
+			rewards: [{
+				id: "3A234380AF0C60F8"
+				type: "random"
+				table_id: 6264614185702988305L
+			}]
 		}
 		{
 			x: 7.25d
@@ -291,6 +461,11 @@
 				id: "231760678935920A"
 				type: "item"
 				item: "betterendforge:terminite_sword_blade"
+			}]
+			rewards: [{
+				id: "4FDEAF7C5B29EE15"
+				type: "random"
+				table_id: 6264614185702988305L
 			}]
 		}
 		{
@@ -304,6 +479,11 @@
 				type: "item"
 				item: "betterendforge:terminite_shovel_head"
 			}]
+			rewards: [{
+				id: "62AE12896DE743E9"
+				type: "random"
+				table_id: 6264614185702988305L
+			}]
 		}
 		{
 			x: 7.25d
@@ -315,6 +495,11 @@
 				id: "333F6FDA5885CA44"
 				type: "item"
 				item: "betterendforge:terminite_pickaxe_head"
+			}]
+			rewards: [{
+				id: "520376B5B4A66AEA"
+				type: "random"
+				table_id: 6264614185702988305L
 			}]
 		}
 		{
@@ -334,6 +519,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2C17F990F6C52DE2"
+				type: "random"
+				table_id: 6264614185702988305L
+			}]
 		}
 		{
 			x: 8.25d
@@ -351,6 +541,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "537EA61AC55E74D4"
+				type: "random"
+				table_id: 6264614185702988305L
 			}]
 		}
 		{
@@ -373,6 +568,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "392FFDC5253E5342"
+				type: "random"
+				table_id: 6264614185702988305L
+			}]
 		}
 		{
 			x: 8.25d
@@ -390,6 +590,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "7F1A29F9B91F196B"
+				type: "random"
+				table_id: 6264614185702988305L
 			}]
 		}
 		{
@@ -409,6 +614,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "53E65BFC835575B4"
+				type: "random"
+				table_id: 6264614185702988305L
+			}]
 		}
 		{
 			x: 9.5d
@@ -420,6 +630,11 @@
 				id: "538A70351DE02FC9"
 				type: "item"
 				item: "betterendforge:terminite_sword_handle"
+			}]
+			rewards: [{
+				id: "222073B859AC2C65"
+				type: "random"
+				table_id: 6264614185702988305L
 			}]
 		}
 		{
@@ -459,6 +674,18 @@
 				icon: "betterendforge:eternal_pedestal"
 				structure: "betterendforge:eternal_portal_structure"
 			}]
+			rewards: [
+				{
+					id: "4ABC9EAC89B1238B"
+					type: "item"
+					item: "betterendforge:flavolite_runed"
+				}
+				{
+					id: "083B2F2A5171E517"
+					type: "random"
+					table_id: 3493554908132610433L
+				}
+			]
 		}
 		{
 			title: "&5The End&r"
@@ -485,6 +712,18 @@
 					title: "&aDone&r"
 				}
 			]
+			rewards: [
+				{
+					id: "09C7A5B567781C0F"
+					type: "item"
+					item: "minecraft:carved_pumpkin"
+				}
+				{
+					id: "21DC68E0665A7DFD"
+					type: "random"
+					table_id: 3493554908132610433L
+				}
+			]
 		}
 		{
 			x: -3.25d
@@ -493,6 +732,11 @@
 			id: "7BEEA494034E85E0"
 			tasks: [{
 				id: "6EC099769ED0B392"
+				type: "item"
+				item: "betterendforge:thallasium_ore"
+			}]
+			rewards: [{
+				id: "11EFD2672D709DBE"
 				type: "item"
 				item: "betterendforge:thallasium_ore"
 			}]
@@ -506,6 +750,11 @@
 			id: "7AB46CAA9425281D"
 			tasks: [{
 				id: "32E0B7725DF6525F"
+				type: "item"
+				item: "betterendforge:thallasium_ingot"
+			}]
+			rewards: [{
+				id: "2F06B1AE9A268E7D"
 				type: "item"
 				item: "betterendforge:thallasium_ingot"
 			}]
@@ -577,6 +826,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2B685817CE7F2D5B"
+				type: "item"
+				item: {
+					id: "betterendforge:golden_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			title: "&5Infusion Ritual"
@@ -634,6 +894,11 @@
 					count: 8L
 				}
 			]
+			rewards: [{
+				id: "73FB295596B6EE59"
+				type: "random"
+				table_id: 3493554908132610433L
+			}]
 		}
 		{
 			x: -7.75d
@@ -645,16 +910,26 @@
 				type: "item"
 				item: "betterendforge:crystal_shards"
 			}]
+			rewards: [{
+				id: "627AB74AA14402B6"
+				type: "item"
+				item: "betterendforge:aurora_crystal"
+			}]
 		}
 		{
-			x: -9.0d
-			y: -1.5d
+			x: -7.75d
+			y: -3.5d
 			dependencies: ["511313DAFA1FD606"]
 			id: "55BC1D112F36F121"
 			tasks: [{
 				id: "3E5CBFB759BAE301"
 				type: "item"
 				item: "betterendforge:guidebook"
+			}]
+			rewards: [{
+				id: "64150E1C148E5D7A"
+				type: "random"
+				table_id: 3493554908132610433L
 			}]
 		}
 		{
@@ -670,6 +945,11 @@
 				type: "item"
 				item: "betterendforge:eternal_crystal"
 			}]
+			rewards: [{
+				id: "106FBC41131EC019"
+				type: "item"
+				item: "minecraft:end_crystal"
+			}]
 		}
 		{
 			x: -5.25d
@@ -681,6 +961,11 @@
 				id: "7ED7744293C279F4"
 				type: "item"
 				item: "betterendforge:thallasium_pickaxe_head"
+			}]
+			rewards: [{
+				id: "316757808D42511B"
+				type: "random"
+				table_id: 960886588911272940L
 			}]
 		}
 		{
@@ -694,6 +979,11 @@
 				type: "item"
 				item: "betterendforge:thallasium_shovel_head"
 			}]
+			rewards: [{
+				id: "5021160B0A0CB662"
+				type: "random"
+				table_id: 960886588911272940L
+			}]
 		}
 		{
 			x: -3.25d
@@ -705,6 +995,11 @@
 				id: "1DAC93FCE0BF481E"
 				type: "item"
 				item: "betterendforge:thallasium_sword_blade"
+			}]
+			rewards: [{
+				id: "6BF5969F2496259C"
+				type: "random"
+				table_id: 960886588911272940L
 			}]
 		}
 		{
@@ -722,6 +1017,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "55DE8A9513FF67F6"
+				type: "random"
+				table_id: 960886588911272940L
+			}]
 		}
 		{
 			x: -2.25d
@@ -734,6 +1034,11 @@
 				type: "item"
 				item: "betterendforge:thallasium_axe_head"
 			}]
+			rewards: [{
+				id: "5F45010F4D7DDF4A"
+				type: "random"
+				table_id: 960886588911272940L
+			}]
 		}
 		{
 			x: -1.25d
@@ -745,6 +1050,11 @@
 				id: "5046358DB88CD95F"
 				type: "item"
 				item: "betterendforge:thallasium_hoe_head"
+			}]
+			rewards: [{
+				id: "2BA2855BAEF714E6"
+				type: "random"
+				table_id: 960886588911272940L
 			}]
 		}
 		{
@@ -764,6 +1074,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "13432A8E276FC687"
+				type: "random"
+				table_id: 960886588911272940L
+			}]
 		}
 		{
 			x: -2.25d
@@ -781,6 +1096,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "451B5BACFF0B9514"
+				type: "random"
+				table_id: 960886588911272940L
 			}]
 		}
 		{
@@ -803,6 +1123,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6EF4C90F868D9FFA"
+				type: "random"
+				table_id: 960886588911272940L
+			}]
 		}
 		{
 			x: -4.25d
@@ -820,6 +1145,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "214D8BBB18314F01"
+				type: "random"
+				table_id: 960886588911272940L
 			}]
 		}
 		{
@@ -839,6 +1169,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4BF299FA6F4B3CC2"
+				type: "random"
+				table_id: 960886588911272940L
+			}]
 		}
 		{
 			x: -3.25d
@@ -851,6 +1186,11 @@
 				type: "item"
 				item: "betterendforge:thallasium_sword_handle"
 			}]
+			rewards: [{
+				id: "40B5B7F9D18F3972"
+				type: "random"
+				table_id: 960886588911272940L
+			}]
 		}
 		{
 			x: 2.75d
@@ -862,6 +1202,11 @@
 			id: "4B22713DFC0993A7"
 			tasks: [{
 				id: "46C59809F1527E0A"
+				type: "item"
+				item: "allthemodium:unobtainium_ore"
+			}]
+			rewards: [{
+				id: "54C28C03256438A2"
 				type: "item"
 				item: "allthemodium:unobtainium_ore"
 			}]

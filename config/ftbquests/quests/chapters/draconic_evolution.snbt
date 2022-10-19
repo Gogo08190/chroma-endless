@@ -2181,10 +2181,19 @@
 			}]
 		}
 		{
+			title: "Endless Reactor Components - Part 1"
 			icon: "masterfulmachinery:endlessreactor_controller"
-			x: 0.25d
-			y: 5.75d
+			x: -2.25d
+			y: 6.25d
 			shape: "hexagon"
+			dependencies: [
+				"5F069B0DBD798FFA"
+				"0319BD8E77EE7CE9"
+				"2246096523E43F64"
+				"7C67C9F3ED5CB20E"
+				"699E0B770AF81BE4"
+			]
+			size: 2.0d
 			id: "1078728FC1760BB3"
 			tasks: [
 				{
@@ -2271,10 +2280,17 @@
 			]
 		}
 		{
+			title: "Endless Reactor Components - Part 2"
 			icon: "masterfulmachinery:endlessreactor_controller"
-			x: 1.25d
-			y: 5.75d
+			x: 0.25d
+			y: 6.25d
 			shape: "hexagon"
+			dependencies: [
+				"7C67C9F3ED5CB20E"
+				"0319BD8E77EE7CE9"
+				"2246096523E43F64"
+				"699E0B770AF81BE4"
+			]
 			size: 2.0d
 			id: "14B312DBA79509DB"
 			tasks: [
@@ -2370,10 +2386,18 @@
 			]
 		}
 		{
+			title: "Endless Reactor Components - Part 3"
 			icon: "masterfulmachinery:endlessreactor_controller"
-			x: 2.25d
-			y: 5.75d
+			x: 2.75d
+			y: 6.25d
 			shape: "hexagon"
+			dependencies: [
+				"699E0B770AF81BE4"
+				"2246096523E43F64"
+				"5F069B0DBD798FFA"
+				"0319BD8E77EE7CE9"
+				"7C67C9F3ED5CB20E"
+			]
 			size: 2.0d
 			id: "3D69A56B2F4BA228"
 			tasks: [
@@ -2421,8 +2445,8 @@
 			]
 		}
 		{
-			x: 1.25d
-			y: 7.0d
+			x: 0.25d
+			y: 8.25d
 			dependencies: [
 				"3D69A56B2F4BA228"
 				"14B312DBA79509DB"

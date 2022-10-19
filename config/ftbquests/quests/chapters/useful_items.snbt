@@ -16,7 +16,7 @@
 	quests: [
 		{
 			x: 15.5d
-			y: 16.5d
+			y: 16.0d
 			shape: "gear"
 			dependencies: [
 				"0623F7FAB4511760"
@@ -36,6 +36,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1DC58826ACD4A10D"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "alexsmobs:speed_iii"
+					}
+				}
+			}]
 		}
 		{
 			x: 20.5d
@@ -51,6 +62,12 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "4B30DAB2695B5726"
+				type: "item"
+				item: "atmospheric:aloe_leaves"
+				count: 4
+			}]
 		}
 		{
 			x: 22.5d
@@ -65,6 +82,17 @@
 					id: "explorerscompass:explorerscompass"
 					Count: 1b
 					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "47973094DAC145AB"
+				type: "item"
+				item: {
+					id: "quark:forgotten_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
 				}
 			}]
 		}
@@ -113,6 +141,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5EB0368C1F400EBE"
+				type: "item"
+				item: "waystones:portstone"
+			}]
 		}
 		{
 			x: 17.5d
@@ -131,6 +164,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "3E58EB7D474AD011"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 4
 			}]
 		}
 		{
@@ -151,6 +190,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "00D4B16F793CCB47"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 8
+			}]
 		}
 		{
 			x: 18.5d
@@ -170,6 +215,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2014BDC7F591A87B"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 16
+			}]
 		}
 		{
 			x: 19.0d
@@ -188,6 +239,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "177EC61AF8398574"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 32
+			}]
 		}
 		{
 			x: 12.0d
@@ -196,6 +253,11 @@
 			id: "11EF1BF56CF6467F"
 			tasks: [{
 				id: "661AD39C50A7226A"
+				type: "item"
+				item: "nomowanderer:no_soliciting_sign"
+			}]
+			rewards: [{
+				id: "173682B7ED0B8F82"
 				type: "item"
 				item: "nomowanderer:no_soliciting_sign"
 			}]
@@ -210,6 +272,11 @@
 				type: "item"
 				item: "nomowanderer:no_mo_wanderer_totem"
 			}]
+			rewards: [{
+				id: "1DBC5D96F6320BA9"
+				type: "item"
+				item: "minecraft:totem_of_undying"
+			}]
 		}
 		{
 			x: 12.0d
@@ -220,6 +287,11 @@
 				id: "7D621DB67A125D61"
 				type: "item"
 				item: "darkutils:charm_portal"
+			}]
+			rewards: [{
+				id: "09C50930D84D4C61"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -232,6 +304,11 @@
 				type: "item"
 				item: "darkutils:charm_sleep"
 			}]
+			rewards: [{
+				id: "571D66825D941604"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 13.0d
@@ -243,6 +320,11 @@
 				type: "item"
 				item: "darkutils:charm_experience"
 			}]
+			rewards: [{
+				id: "01B60C6128D1830D"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 13.5d
@@ -253,6 +335,11 @@
 				id: "0E6395C0634315AA"
 				type: "item"
 				item: "darkutils:charm_gluttony"
+			}]
+			rewards: [{
+				id: "5EAC29F3E3793F35"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -337,6 +424,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "79C9AC61C082789D"
+				type: "item"
+				item: "elevatorid:elevator_white"
+			}]
 		}
 		{
 			x: 21.25d
@@ -349,11 +441,17 @@
 				type: "item"
 				item: "energymeter:meter"
 			}]
+			rewards: [{
+				id: "37C0AEB28BC9E4B3"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 13.75d
 			y: -1.5d
 			shape: "square"
+			subtitle: "Mooooooooooooooo !"
 			dependencies: [
 				"54DC8317D4B7A510"
 				"677773349FE468C2"
@@ -369,6 +467,302 @@
 					tag: { }
 				}
 			}]
+			rewards: [
+				{
+					id: "5975010576D72AE6"
+					type: "item"
+					item: {
+						id: "shrink:mob_bottle"
+						Count: 1b
+						tag: {
+							Brain: {
+								memories: { }
+							}
+							HurtByTimestamp: 0
+							ForgeData: { }
+							Attributes: [
+								{
+									Base: 0.0d
+									Name: "minecraft:generic.knockback_resistance"
+								}
+								{
+									Base: 0.08d
+									Name: "forge:entity_gravity"
+								}
+								{
+									Base: 16.0d
+									Modifiers: [{
+										Operation: 1
+										UUID: [I;
+											1935233019
+											1998474279
+											-1815266517
+											34271669
+										]
+										Amount: 0.05105994877915796d
+										Name: "Random spawn bonus"
+									}]
+									Name: "minecraft:generic.follow_range"
+								}
+								{
+									Base: 0.20000000298023224d
+									Name: "minecraft:generic.movement_speed"
+								}
+							]
+							Invulnerable: 0b
+							FallFlying: 0b
+							ForcedAge: 0
+							PortalCooldown: 0
+							AbsorptionAmount: 0.0f
+							FallDistance: 0.0f
+							InLove: 0
+							CanUpdate: 1b
+							DeathTime: 0s
+							BoundingBox: [
+								-92.94999998807907d
+								63.0d
+								1884.050000011921d
+								-92.05000001192093d
+								64.39999997615814d
+								1884.949999988079d
+							]
+							ForgeCaps: {
+								"structure_gel:gel_entity": {
+									portal: "structure_gel:empty"
+								}
+								"citadel:extended_entity_data_citadel": { }
+								"mekanism:radiation": {
+									radiation: 1.0E-7d
+								}
+								"pneumaticcraft:hacking": { }
+								"shrink:shrunk": {
+									width: 0.9f
+									defaulteyeheight: 1.3f
+									scale: 10.050002f
+									isshrinking: 1b
+									fixed: 0b
+									isshrunk: 1b
+									height: 1.4f
+								}
+							}
+							HandDropChances: [
+								0.085f
+								0.085f
+							]
+							PersistenceRequired: 0b
+							id: "minecraft:cow"
+							UUID: [I;
+								-334747941
+								485115880
+								-1127469910
+								169992620
+							]
+							Age: 0
+							Motion: [
+								0.0d
+								-0.0784000015258789d
+								0.0d
+							]
+							Health: 10.0f
+							KubeJSPersistentData: { }
+							LeftHanded: 0b
+							Air: 300s
+							OnGround: 1b
+							CitadelData: { }
+							Rotation: [
+								-41.944824f
+								0.0f
+							]
+							HandItems: [
+								{ }
+								{ }
+							]
+							ArmorDropChances: [
+								0.085f
+								0.085f
+								0.085f
+								0.085f
+							]
+							Pos: [
+								-92.5d
+								63.0d
+								1884.5d
+							]
+							Fire: -1s
+							ArmorItems: [
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							CanPickUpLoot: 0b
+							HurtTime: 0s
+							entity: "minecraft:cow"
+						}
+					}
+				}
+				{
+					id: "111B69102A61466D"
+					type: "item"
+					item: {
+						id: "shrink:mob_bottle"
+						Count: 1b
+						tag: {
+							Brain: {
+								memories: { }
+							}
+							HurtByTimestamp: 1580
+							Attributes: [
+								{
+									Base: 0.8999999761581421d
+									Name: "minecraft:generic.knockback_resistance"
+								}
+								{
+									Base: 15.0d
+									Name: "minecraft:generic.attack_damage"
+								}
+								{
+									Base: 0.0d
+									Name: "minecraft:generic.armor"
+								}
+								{
+									Base: 1.0d
+									Name: "forge:swim_speed"
+								}
+								{
+									Base: 0.08d
+									Name: "forge:entity_gravity"
+								}
+								{
+									Base: 32.0d
+									Modifiers: [{
+										Operation: 1
+										UUID: [I;
+											1812432935
+											247876758
+											-2085011746
+											-631644724
+										]
+										Amount: 0.01216496835251498d
+										Name: "Random spawn bonus"
+									}]
+									Name: "minecraft:generic.follow_range"
+								}
+								{
+									Base: 0.3499999940395355d
+									Name: "minecraft:generic.movement_speed"
+								}
+								{
+									Base: 80.0d
+									Name: "minecraft:generic.max_health"
+								}
+							]
+							Invulnerable: 0b
+							Carpet: -1
+							AbsorptionAmount: 0.0f
+							FallDistance: 0.0f
+							InLove: 0
+							CanUpdate: 1b
+							ChargeCooldown: 0
+							ForgeCaps: {
+								"structure_gel:gel_entity": {
+									portal: "structure_gel:empty"
+								}
+								"citadel:extended_entity_data_citadel": { }
+								"mekanism:radiation": {
+									radiation: 1.0E-7d
+								}
+								"pneumaticcraft:hacking": { }
+								"shrink:shrunk": {
+									width: 2.1f
+									defaulteyeheight: 2.125f
+									scale: 0.21f
+									isshrinking: 1b
+									fixed: 0b
+									isshrunk: 1b
+									height: 2.5f
+								}
+							}
+							HandDropChances: [
+								0.085f
+								0.085f
+							]
+							PersistenceRequired: 0b
+							Items: [ ]
+							id: "alexsmobs:elephant"
+							UUID: [I;
+								-139685216
+								-1494595430
+								-2073495642
+								1619742342
+							]
+							Air: 300s
+							CitadelData: { }
+							HandItems: [
+								{ }
+								{ }
+							]
+							ArmorDropChances: [
+								0.085f
+								0.085f
+								0.085f
+								0.085f
+							]
+							Pos: [
+								-80.51490611430884d
+								64.0d
+								1855.952811342891d
+							]
+							CanPickUpLoot: 0b
+							HurtTime: 0s
+							Chested: 0b
+							ForgeData: { }
+							Sitting: 0b
+							FallFlying: 0b
+							ForcedAge: 0
+							PortalCooldown: 0
+							Tamed: 0b
+							DeathTime: 0s
+							ForcedToSit: 0b
+							BoundingBox: [
+								-81.66490609046699d
+								64.0d
+								1854.8028113667328d
+								-79.3649061381507d
+								66.75d
+								1857.1028113190491d
+							]
+							Age: 0
+							Motion: [
+								-0.007522705966863222d
+								-0.0784000015258789d
+								-0.04999999839584514d
+							]
+							Health: 80.0f
+							Tusked: 1b
+							Trader: 0b
+							KubeJSPersistentData: { }
+							LeftHanded: 0b
+							OnGround: 1b
+							Rotation: [
+								160.58043f
+								0.0f
+							]
+							ElephantSitting: 0b
+							Fire: -1s
+							ArmorItems: [
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							DespawnDelay: 47999
+							Standing: 0b
+							entity: "alexsmobs:elephant"
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Sleeping Bag"
@@ -453,6 +847,11 @@
 						]
 					}
 				}
+			}]
+			rewards: [{
+				id: "3E85F18B682C0B6D"
+				type: "item"
+				item: "upgrade_aquatic:bedroll"
 			}]
 		}
 		{
@@ -547,6 +946,11 @@
 					count: 2L
 				}
 			]
+			rewards: [{
+				id: "45E643A560CCBEEF"
+				type: "item"
+				item: "comforts:hammock_purple"
+			}]
 		}
 		{
 			x: 8.5d
@@ -632,6 +1036,11 @@
 				type: "item"
 				item: "ironfurnaces:heater"
 			}]
+			rewards: [{
+				id: "732ADF7EE875E580"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 15.5d
@@ -646,6 +1055,11 @@
 				id: "6D9D2774DD1A67BE"
 				type: "item"
 				item: "ironfurnaces:item_copy"
+			}]
+			rewards: [{
+				id: "1E2B8349F9318999"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -663,6 +1077,11 @@
 				type: "item"
 				item: "ironfurnaces:augment_smoking"
 			}]
+			rewards: [{
+				id: "5F0A1CD2726110FB"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 16.5d
@@ -677,6 +1096,11 @@
 				id: "19B95E4D137AFFAA"
 				type: "item"
 				item: "ironfurnaces:augment_fuel"
+			}]
+			rewards: [{
+				id: "163E8F644C03486D"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -694,6 +1118,11 @@
 				type: "item"
 				item: "ironfurnaces:item_heater"
 			}]
+			rewards: [{
+				id: "3811D2C8EBC231AF"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 14.5d
@@ -708,6 +1137,11 @@
 				id: "113377F9E929662B"
 				type: "item"
 				item: "ironfurnaces:augment_speed"
+			}]
+			rewards: [{
+				id: "21F8EA8E6C0EF2EE"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -725,6 +1159,11 @@
 				type: "item"
 				item: "ironfurnaces:augment_blasting"
 			}]
+			rewards: [{
+				id: "7E0CF937AA303EA3"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 21.75d
@@ -736,6 +1175,11 @@
 				id: "58C45843F58E69B1"
 				type: "item"
 				item: "ironfurnaces:unobtainium_furnace"
+			}]
+			rewards: [{
+				id: "664671399F12FB1C"
+				type: "item"
+				item: "ironfurnaces:rainbow_coal"
 			}]
 		}
 		{
@@ -749,6 +1193,12 @@
 				type: "item"
 				item: "ironfurnaces:vibranium_furnace"
 			}]
+			rewards: [{
+				id: "34D815740282BCFA"
+				type: "item"
+				item: "minecraft:coal"
+				count: 22
+			}]
 		}
 		{
 			x: 19.25d
@@ -760,6 +1210,12 @@
 				id: "745BE6B96149DD26"
 				type: "item"
 				item: "ironfurnaces:allthemodium_furnace"
+			}]
+			rewards: [{
+				id: "5D4384B6D29F8B34"
+				type: "item"
+				item: "minecraft:coal"
+				count: 20
 			}]
 		}
 		{
@@ -778,6 +1234,12 @@
 				type: "item"
 				item: "ironfurnaces:netherite_furnace"
 			}]
+			rewards: [{
+				id: "46FCAFEB71AC3E85"
+				type: "item"
+				item: "minecraft:coal"
+				count: 18
+			}]
 		}
 		{
 			x: 16.75d
@@ -792,6 +1254,12 @@
 				id: "12778D5CFC19861C"
 				type: "item"
 				item: "ironfurnaces:obsidian_furnace"
+			}]
+			rewards: [{
+				id: "538317F1A65CF764"
+				type: "item"
+				item: "minecraft:coal"
+				count: 16
 			}]
 		}
 		{
@@ -808,6 +1276,12 @@
 				type: "item"
 				item: "ironfurnaces:emerald_furnace"
 			}]
+			rewards: [{
+				id: "3BB5CB8593F05C18"
+				type: "item"
+				item: "minecraft:coal"
+				count: 14
+			}]
 		}
 		{
 			x: 14.25d
@@ -822,6 +1296,12 @@
 				id: "0C28EE7B6FA5E88C"
 				type: "item"
 				item: "ironfurnaces:diamond_furnace"
+			}]
+			rewards: [{
+				id: "7A0CD19C908A6837"
+				type: "item"
+				item: "minecraft:coal"
+				count: 12
 			}]
 		}
 		{
@@ -838,6 +1318,12 @@
 				type: "item"
 				item: "ironfurnaces:gold_furnace"
 			}]
+			rewards: [{
+				id: "26FE3C565402B82F"
+				type: "item"
+				item: "minecraft:coal"
+				count: 10
+			}]
 		}
 		{
 			x: 11.75d
@@ -852,6 +1338,12 @@
 				id: "58E8A92834969F3E"
 				type: "item"
 				item: "ironfurnaces:silver_furnace"
+			}]
+			rewards: [{
+				id: "39BF401644FB1C27"
+				type: "item"
+				item: "minecraft:coal"
+				count: 8
 			}]
 		}
 		{
@@ -868,6 +1360,12 @@
 				type: "item"
 				item: "ironfurnaces:iron_furnace"
 			}]
+			rewards: [{
+				id: "4EE56A2387CF61B7"
+				type: "item"
+				item: "minecraft:coal"
+				count: 6
+			}]
 		}
 		{
 			x: 9.25d
@@ -882,6 +1380,12 @@
 				id: "5F07E1991BE9376E"
 				type: "item"
 				item: "ironfurnaces:copper_furnace"
+			}]
+			rewards: [{
+				id: "035A3FFE1FB60799"
+				type: "item"
+				item: "minecraft:coal"
+				count: 4
 			}]
 		}
 		{
@@ -903,6 +1407,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "6C753BB71AA17330"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -929,6 +1438,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "18C10F7DD5432760"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -958,6 +1472,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5F3F0BFD65B97A07"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 13.5d
@@ -986,6 +1505,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3123CAF29A8BEB02"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 13.5d
@@ -1007,6 +1531,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "78DF9110EDA6291C"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1036,6 +1565,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "56B3C2A7EDE7B9C4"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1067,6 +1601,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "329E2F31562E911A"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 15.5d
@@ -1086,6 +1625,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "2EC3FBA07821D7A7"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1115,6 +1659,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "79FA4B75C35FA81F"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 16.5d
@@ -1136,6 +1685,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "3C4B37729F866D47"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1165,6 +1719,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "44F6BEF66B6E31AA"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 17.5d
@@ -1185,6 +1744,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "62AE35B25A2BFCE1"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1207,6 +1771,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "6EA37A39FC34DF56"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1233,6 +1802,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "22A105B274149B81"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 18.5d
@@ -1253,6 +1827,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "4ED1EA5A418DF415"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1279,6 +1858,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5BF4C2A5B99F1932"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 17.5d
@@ -1300,6 +1884,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "309A4F3FF8BB19CF"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1326,6 +1915,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4E541CB8D15E6FBC"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 15.5d
@@ -1347,6 +1941,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4A0F2008C00242CE"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 13.5d
@@ -1367,6 +1966,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3107B22E85D7F0F3"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 15.5d
@@ -1377,6 +1981,11 @@
 			id: "2BE9A56F04E9A59C"
 			tasks: [{
 				id: "334F20E8770B585B"
+				type: "item"
+				item: "modularrouters:blank_module"
+			}]
+			rewards: [{
+				id: "5489951E7417CEBE"
 				type: "item"
 				item: "modularrouters:blank_module"
 			}]
@@ -1403,6 +2012,11 @@
 				type: "item"
 				item: "modularrouters:item_router"
 			}]
+			rewards: [{
+				id: "3F95C3F01C0916CE"
+				type: "item"
+				item: "modularrouters:item_router"
+			}]
 		}
 		{
 			x: 14.5d
@@ -1425,6 +2039,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4D9DE51578D14D6E"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 13.25d
@@ -1435,6 +2054,11 @@
 			id: "037FB1EF30A6D443"
 			tasks: [{
 				id: "124F368F69F494FF"
+				type: "item"
+				item: "modularrouters:blank_upgrade"
+			}]
+			rewards: [{
+				id: "061289142296BA68"
 				type: "item"
 				item: "modularrouters:blank_upgrade"
 			}]
@@ -1455,6 +2079,11 @@
 				type: "item"
 				item: "modularrouters:speed_upgrade"
 			}]
+			rewards: [{
+				id: "56F1DC4BB50372C4"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 11.5d
@@ -1472,6 +2101,11 @@
 				type: "item"
 				item: "modularrouters:camouflage_upgrade"
 			}]
+			rewards: [{
+				id: "780E69775AD6B313"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 11.5d
@@ -1485,6 +2119,11 @@
 				type: "item"
 				item: "modularrouters:blast_upgrade"
 			}]
+			rewards: [{
+				id: "2E510985FDAC825A"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 10.5d
@@ -1496,6 +2135,11 @@
 				id: "4533ECEED8411007"
 				type: "item"
 				item: "modularrouters:energy_upgrade"
+			}]
+			rewards: [{
+				id: "2AE6AD9D0C8FD9AD"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1529,6 +2173,11 @@
 				type: "item"
 				item: "modularrouters:sync_upgrade"
 			}]
+			rewards: [{
+				id: "585A5C800F0328E8"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 9.5d
@@ -1541,6 +2190,11 @@
 				id: "70F47CDE802FF35E"
 				type: "item"
 				item: "modularrouters:stack_upgrade"
+			}]
+			rewards: [{
+				id: "76514F1D0664815A"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1558,6 +2212,11 @@
 				id: "3E80149F426235BD"
 				type: "item"
 				item: "modularrouters:security_upgrade"
+			}]
+			rewards: [{
+				id: "4E3052E3D3E7EF74"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1577,6 +2236,11 @@
 				type: "item"
 				item: "modularrouters:fluid_upgrade"
 			}]
+			rewards: [{
+				id: "15271BE445A98EF1"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 17.75d
@@ -1587,6 +2251,11 @@
 			id: "6CFD6E1CE7405E59"
 			tasks: [{
 				id: "1D87AB96ED75CF5F"
+				type: "item"
+				item: "modularrouters:augment_core"
+			}]
+			rewards: [{
+				id: "1DC9D82538C96798"
 				type: "item"
 				item: "modularrouters:augment_core"
 			}]
@@ -1607,6 +2276,11 @@
 				type: "item"
 				item: "modularrouters:redstone_augment"
 			}]
+			rewards: [{
+				id: "3758801C12968391"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 19.5d
@@ -1626,6 +2300,11 @@
 				type: "item"
 				item: "modularrouters:pickup_delay_augment"
 			}]
+			rewards: [{
+				id: "78F1DFB208A98BC1"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 19.5d
@@ -1643,6 +2322,11 @@
 				type: "item"
 				item: "modularrouters:fast_pickup_augment"
 			}]
+			rewards: [{
+				id: "6BEEDE48D98F6C40"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 20.5d
@@ -1654,6 +2338,11 @@
 				id: "741D2578BB40253C"
 				type: "item"
 				item: "modularrouters:filter_round_robin_augment"
+			}]
+			rewards: [{
+				id: "34245ECC2CEB8BBF"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1674,6 +2363,11 @@
 				type: "item"
 				item: "modularrouters:range_down_augment"
 			}]
+			rewards: [{
+				id: "7414DB2DF4C8BDD7"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 20.5d
@@ -1693,6 +2387,11 @@
 				type: "item"
 				item: "modularrouters:regulator_augment"
 			}]
+			rewards: [{
+				id: "6D81ECCAF81477E9"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 21.5d
@@ -1709,6 +2408,11 @@
 				id: "2DBC3139CDE35AED"
 				type: "item"
 				item: "modularrouters:stack_augment"
+			}]
+			rewards: [{
+				id: "684AF156BF1F7640"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1727,6 +2431,11 @@
 				type: "item"
 				item: "modularrouters:range_up_augment"
 			}]
+			rewards: [{
+				id: "2A237F40D7B08556"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 22.5d
@@ -1738,6 +2447,11 @@
 				id: "3324BB43ED5A8983"
 				type: "item"
 				item: "modularrouters:mimic_augment"
+			}]
+			rewards: [{
+				id: "63F841993258CB98"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1758,6 +2472,11 @@
 				type: "item"
 				item: "modularrouters:xp_vacuum_augment"
 			}]
+			rewards: [{
+				id: "2318E8B47173AB12"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 22.5d
@@ -1769,6 +2488,11 @@
 				id: "785837A7B3BB71B3"
 				type: "item"
 				item: "modularrouters:pushing_augment"
+			}]
+			rewards: [{
+				id: "5F56446DF79E258F"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1950,7 +2674,7 @@
 			x: 14.25d
 			y: 21.75d
 			shape: "rsquare"
-			subtitle: "Uses the mana for electricity"
+			subtitle: "Uses mana for electricity"
 			description: ["Crafted in Botania's Runic Altar."]
 			dependencies: [
 				"59F8023BEB99C34A"
@@ -2421,6 +3145,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "19FF8B5B413FA910"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 14.25d
@@ -2444,6 +3173,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "1381838741D6E9E5"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -2469,6 +3203,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "60D10A9F00DEB2D3"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 15.5d
@@ -2488,6 +3227,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "39F9A1937E80D9FD"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 15.5d
@@ -2499,6 +3243,12 @@
 				id: "7BFE606899F1FD0B"
 				type: "item"
 				item: "buildinggadgets:template_manager"
+			}]
+			rewards: [{
+				id: "3764C821D768BAE7"
+				type: "item"
+				item: "minecraft:paper"
+				count: 8
 			}]
 		}
 		{
@@ -2527,6 +3277,15 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "198795C10F913248"
+				type: "item"
+				item: {
+					id: "entangled:block"
+					Count: 1b
+					tag: { }
+				}
+			}]
 		}
 		{
 			x: 18.75d
@@ -2543,6 +3302,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "627C00120D50E172"
+				type: "item"
+				item: "minecraft:chest"
+			}]
 		}
 		{
 			x: 15.5d
@@ -2553,6 +3317,11 @@
 				id: "26B792CA2E0CC56A"
 				type: "item"
 				item: "trashcans:item_trash_can"
+			}]
+			rewards: [{
+				id: "17F133E01BA94163"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -2565,6 +3334,11 @@
 				type: "item"
 				item: "trashcans:liquid_trash_can"
 			}]
+			rewards: [{
+				id: "7131C89F8A17C3F3"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: 16.75d
@@ -2575,6 +3349,11 @@
 				id: "79BA239AC69D75F4"
 				type: "item"
 				item: "trashcans:energy_trash_can"
+			}]
+			rewards: [{
+				id: "5A4F630289C240B4"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -2592,6 +3371,11 @@
 				type: "item"
 				item: "trashcans:ultimate_trash_can"
 			}]
+			rewards: [{
+				id: "683C96F142D7FDFA"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 8.75d
@@ -2605,6 +3389,12 @@
 				id: "537E59A687B230C5"
 				type: "item"
 				item: "fluxnetworks:herculean_flux_storage"
+			}]
+			rewards: [{
+				id: "36A6C76CA8B18AAB"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+				count: 8
 			}]
 		}
 		{
@@ -2629,6 +3419,12 @@
 				type: "item"
 				item: "fluxnetworks:basic_flux_storage"
 			}]
+			rewards: [{
+				id: "68B8BED45BF6D7CB"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+				count: 8
+			}]
 		}
 		{
 			x: 9.25d
@@ -2643,6 +3439,12 @@
 				type: "item"
 				item: "fluxnetworks:gargantuan_flux_storage"
 			}]
+			rewards: [{
+				id: "230889E5A3AB87A4"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+				count: 8
+			}]
 		}
 		{
 			x: 7.75d
@@ -2654,6 +3456,11 @@
 			id: "641BEA5DCB499C89"
 			tasks: [{
 				id: "6521FD4200918689"
+				type: "item"
+				item: "fluxnetworks:flux_core"
+			}]
+			rewards: [{
+				id: "54DCC65D1BA8A50D"
 				type: "item"
 				item: "fluxnetworks:flux_core"
 			}]
@@ -2671,6 +3478,11 @@
 				type: "item"
 				item: "fluxnetworks:flux_block"
 			}]
+			rewards: [{
+				id: "2A0C78888A04A36B"
+				type: "item"
+				item: "fluxnetworks:flux_core"
+			}]
 		}
 		{
 			x: 8.75d
@@ -2684,6 +3496,14 @@
 				id: "0350848958D861DE"
 				type: "item"
 				item: "fluxnetworks:flux_dust"
+				count: 8L
+			}]
+			rewards: [{
+				id: "6CC4362872E0CEF5"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+				count: 4
+				random_bonus: 4
 			}]
 		}
 		{
@@ -2702,6 +3522,12 @@
 				type: "item"
 				item: "fluxnetworks:flux_controller"
 			}]
+			rewards: [{
+				id: "46B245A1F69F5CBA"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+				count: 8
+			}]
 		}
 		{
 			x: 9.25d
@@ -2714,6 +3540,11 @@
 			id: "3AC7B8BCFAEA298F"
 			tasks: [{
 				id: "0C452ACC04DC8B2F"
+				type: "item"
+				item: "fluxnetworks:flux_point"
+			}]
+			rewards: [{
+				id: "279D3EB74E1C2F85"
 				type: "item"
 				item: "fluxnetworks:flux_point"
 			}]
@@ -2738,6 +3569,12 @@
 				type: "item"
 				item: "fluxnetworks:flux_configurator"
 			}]
+			rewards: [{
+				id: "310BFE9BA925EA6A"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+				count: 4
+			}]
 		}
 		{
 			x: 8.25d
@@ -2750,6 +3587,11 @@
 			id: "4ECC7C1447375BC6"
 			tasks: [{
 				id: "091665EC9CE00211"
+				type: "item"
+				item: "fluxnetworks:flux_plug"
+			}]
+			rewards: [{
+				id: "450C832EB8DCA1AB"
 				type: "item"
 				item: "fluxnetworks:flux_plug"
 			}]
@@ -2766,6 +3608,11 @@
 				type: "item"
 				item: "pipez:advanced_upgrade"
 			}]
+			rewards: [{
+				id: "2965E5D14CECBB2D"
+				type: "item"
+				item: "pipez:advanced_upgrade"
+			}]
 		}
 		{
 			x: 16.0d
@@ -2776,6 +3623,11 @@
 			id: "6846C6A978E3805F"
 			tasks: [{
 				id: "5E70D5AAF4512EBC"
+				type: "item"
+				item: "pipez:ultimate_upgrade"
+			}]
+			rewards: [{
+				id: "48B7BCE8ED402C3B"
 				type: "item"
 				item: "pipez:ultimate_upgrade"
 			}]
@@ -2792,6 +3644,11 @@
 				type: "item"
 				item: "pipez:infinity_upgrade"
 			}]
+			rewards: [{
+				id: "679CE6DC225AD630"
+				type: "item"
+				item: "pipez:infinity_upgrade"
+			}]
 		}
 		{
 			x: 15.0d
@@ -2802,6 +3659,11 @@
 			id: "032D6D89B4986CC0"
 			tasks: [{
 				id: "328F58E48B7049AC"
+				type: "item"
+				item: "pipez:improved_upgrade"
+			}]
+			rewards: [{
+				id: "04BB8C2CA150EC61"
 				type: "item"
 				item: "pipez:improved_upgrade"
 			}]
@@ -2823,6 +3685,12 @@
 				type: "item"
 				item: "pipez:universal_pipe"
 			}]
+			rewards: [{
+				id: "69EE495DE614964F"
+				type: "item"
+				item: "pipez:universal_pipe"
+				count: 3
+			}]
 		}
 		{
 			x: 16.0d
@@ -2835,6 +3703,12 @@
 				type: "item"
 				item: "pipez:item_pipe"
 			}]
+			rewards: [{
+				id: "50026F524B7250DC"
+				type: "item"
+				item: "pipez:item_pipe"
+				count: 16
+			}]
 		}
 		{
 			x: 16.5d
@@ -2846,6 +3720,12 @@
 				id: "690D7572810902CA"
 				type: "item"
 				item: "pipez:fluid_pipe"
+			}]
+			rewards: [{
+				id: "0CB175FD279FE199"
+				type: "item"
+				item: "pipez:fluid_pipe"
+				count: 16
 			}]
 		}
 		{
@@ -2866,6 +3746,11 @@
 				type: "item"
 				item: "pipez:filter_destination_tool"
 			}]
+			rewards: [{
+				id: "1B5FD8193ED90F4A"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: 15.0d
@@ -2877,6 +3762,12 @@
 				id: "19F36712BE53EB5C"
 				type: "item"
 				item: "pipez:gas_pipe"
+			}]
+			rewards: [{
+				id: "6104D49E73E58BAB"
+				type: "item"
+				item: "pipez:gas_pipe"
+				count: 8
 			}]
 		}
 		{
@@ -2897,6 +3788,11 @@
 				type: "item"
 				item: "pipez:wrench"
 			}]
+			rewards: [{
+				id: "2D3024F0DEB2BC8A"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: 14.5d
@@ -2911,6 +3807,12 @@
 				id: "3515832DFED2DE70"
 				type: "item"
 				item: "pipez:energy_pipe"
+			}]
+			rewards: [{
+				id: "1B844B76E6F0EEF7"
+				type: "item"
+				item: "pipez:energy_pipe"
+				count: 8
 			}]
 		}
 		{
@@ -2928,6 +3830,11 @@
 			id: "5E14FAAB6F872A18"
 			tasks: [{
 				id: "075DF069A10BBED0"
+				type: "item"
+				item: "pipez:basic_upgrade"
+			}]
+			rewards: [{
+				id: "529F7CDEEFF20F18"
 				type: "item"
 				item: "pipez:basic_upgrade"
 			}]
@@ -2953,6 +3860,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6A94EA166216A926"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+			}]
 		}
 		{
 			x: 13.5d
@@ -2975,6 +3887,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0A1F7B09220AB1E4"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+			}]
 		}
 		{
 			x: 22.499999999999993d
@@ -2988,6 +3905,11 @@
 				type: "item"
 				item: "scannable:scanner"
 			}]
+			rewards: [{
+				id: "568613B4265B9E77"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 22.5d
@@ -2997,6 +3919,11 @@
 			id: "6697C99058C41FA5"
 			tasks: [{
 				id: "2C198389AE64A54A"
+				type: "item"
+				item: "scannable:module_blank"
+			}]
+			rewards: [{
+				id: "240D8D0C6186466F"
 				type: "item"
 				item: "scannable:module_blank"
 			}]
@@ -3012,6 +3939,11 @@
 				type: "item"
 				item: "scannable:module_range"
 			}]
+			rewards: [{
+				id: "76DA059DC090E07C"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 22.0d
@@ -3023,6 +3955,15 @@
 				id: "18B9CC2260BA06F7"
 				type: "item"
 				item: "scannable:module_entity"
+			}]
+			rewards: [{
+				id: "09B8CABD7B488D83"
+				type: "command"
+				title: "Summon &6Small Cat"
+				icon: "engineersdecor:sign_danger"
+				auto: "no_toast"
+				command: "/summon alexsmobs:tiger"
+				player_command: true
 			}]
 		}
 		{
@@ -3036,6 +3977,15 @@
 				type: "item"
 				item: "scannable:module_animal"
 			}]
+			rewards: [{
+				id: "2F6F05D7F178F8E4"
+				type: "command"
+				title: "Summon &6Cow"
+				icon: "minecraft:cow_spawn_egg"
+				auto: "no_toast"
+				command: "/summon minecraft:cow"
+				player_command: true
+			}]
 		}
 		{
 			x: 23.5d
@@ -3047,6 +3997,15 @@
 				id: "6449E43CC13F553D"
 				type: "item"
 				item: "scannable:module_monster"
+			}]
+			rewards: [{
+				id: "319DB5B327C14C3B"
+				type: "command"
+				title: "Summon &6Skeleton"
+				icon: "minecraft:skeleton_spawn_egg"
+				auto: "no_toast"
+				command: "/summon minecraft:skeleton"
+				player_command: true
 			}]
 		}
 		{
@@ -3060,6 +4019,13 @@
 				type: "item"
 				item: "scannable:module_block"
 			}]
+			rewards: [{
+				id: "1A500D7CE3EFB0B5"
+				type: "item"
+				item: "minecraft:andesite"
+				count: 10
+				random_bonus: 22
+			}]
 		}
 		{
 			x: 22.5d
@@ -3071,6 +4037,13 @@
 				id: "5FC3D718B31E1F81"
 				type: "item"
 				item: "scannable:module_ore_common"
+			}]
+			rewards: [{
+				id: "5B714C151A052B8B"
+				type: "item"
+				item: "emendatusenigmatica:coal_ore"
+				count: 3
+				random_bonus: 10
 			}]
 		}
 		{
@@ -3084,6 +4057,13 @@
 				type: "item"
 				item: "scannable:module_ore_rare"
 			}]
+			rewards: [{
+				id: "5068C3CA9D2934D5"
+				type: "item"
+				item: "emendatusenigmatica:diamond_ore"
+				count: 2
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 23.0d
@@ -3095,6 +4075,11 @@
 				id: "34F9B0A216428F48"
 				type: "item"
 				item: "scannable:module_fluid"
+			}]
+			rewards: [{
+				id: "03E291B58469D22F"
+				type: "item"
+				item: "minecraft:water_bucket"
 			}]
 		}
 		{
@@ -3108,6 +4093,12 @@
 				type: "item"
 				item: "chipped:botanist_workbench"
 			}]
+			rewards: [{
+				id: "202F5C99C8946941"
+				type: "item"
+				item: "minecraft:shroomlight"
+				count: 8
+			}]
 		}
 		{
 			x: 15.0d
@@ -3119,6 +4110,12 @@
 				id: "488C1EC27BBE218F"
 				type: "item"
 				item: "chipped:glassblower"
+			}]
+			rewards: [{
+				id: "08CF03D545389D7A"
+				type: "item"
+				item: "minecraft:glass"
+				count: 8
 			}]
 		}
 		{
@@ -3132,6 +4129,12 @@
 				type: "item"
 				item: "chipped:carpenters_table"
 			}]
+			rewards: [{
+				id: "20F7081F32F6E820"
+				type: "item"
+				item: "minecraft:oak_planks"
+				count: 8
+			}]
 		}
 		{
 			x: 16.5d
@@ -3143,6 +4146,12 @@
 				id: "516F58A66E81C763"
 				type: "item"
 				item: "chipped:loom_table"
+			}]
+			rewards: [{
+				id: "27F38E20D895DE58"
+				type: "item"
+				item: "minecraft:white_wool"
+				count: 8
 			}]
 		}
 		{
@@ -3156,6 +4165,12 @@
 				type: "item"
 				item: "chipped:mason_table"
 			}]
+			rewards: [{
+				id: "0C590B273A835E00"
+				type: "item"
+				item: "minecraft:gray_concrete"
+				count: 16
+			}]
 		}
 		{
 			x: 15.0d
@@ -3168,6 +4183,12 @@
 				type: "item"
 				item: "chipped:alchemy_bench"
 			}]
+			rewards: [{
+				id: "1BC25C66715B3C42"
+				type: "item"
+				item: "minecraft:obsidian"
+				count: 4
+			}]
 		}
 		{
 			x: 15.5d
@@ -3179,6 +4200,12 @@
 				id: "53673B32E0F876D7"
 				type: "item"
 				item: "chipped:mechanist_workbench"
+			}]
+			rewards: [{
+				id: "598C8EB51DF63E0A"
+				type: "item"
+				item: "minecraft:redstone_lamp"
+				count: 4
 			}]
 		}
 		{
@@ -3198,6 +4225,11 @@
 				type: "checkmark"
 				title: "Chipped"
 			}]
+			rewards: [{
+				id: "6ABE9491DD2DD0AD"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: 19.25d
@@ -3214,6 +4246,34 @@
 				id: "22D215327FE19025"
 				type: "item"
 				item: "littlelogistics:energy_tug"
+			}]
+			rewards: [{
+				id: "7432511AC3C62D06"
+				type: "item"
+				item: {
+					id: "transport:modular_boat"
+					Count: 1b
+					tag: {
+						modules: {
+							moduleInstances: [{
+								instance: {
+									capability: {
+										energy: 0
+									}
+									uniqueId: [I;
+										-1317246881
+										-686274299
+										-1534723833
+										1461390729
+									]
+								}
+								moduleSlot: "transport:cargo"
+								type: "transport:cargo"
+								module: "transport:energy"
+							}]
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -3232,6 +4292,37 @@
 				type: "item"
 				item: "littlelogistics:tug"
 			}]
+			rewards: [{
+				id: "4FE25FB0E89BF73B"
+				type: "item"
+				item: {
+					id: "transport:modular_boat"
+					Count: 1b
+					tag: {
+						modules: {
+							moduleInstances: [{
+								instance: {
+									cake: {
+										Properties: {
+											bites: "0"
+										}
+										Name: "minecraft:cake"
+									}
+									uniqueId: [I;
+										-1620672605
+										-67154405
+										-1999009811
+										1831900859
+									]
+								}
+								moduleSlot: "transport:cargo"
+								type: "transport:cargo"
+								module: "transport:cake"
+							}]
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 20.25d
@@ -3245,6 +4336,12 @@
 				id: "59C97B8360FA7D7D"
 				type: "item"
 				item: "littlelogistics:guide_rail_tug"
+			}]
+			rewards: [{
+				id: "50C963562DEA078F"
+				type: "item"
+				item: "littlelogistics:guide_rail_tug"
+				count: 4
 			}]
 		}
 		{
@@ -3286,6 +4383,11 @@
 				type: "item"
 				item: "littlelogistics:tug_route"
 			}]
+			rewards: [{
+				id: "73273CEB71FFB4EE"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: 15.5d
@@ -3298,6 +4400,12 @@
 				id: "7DFE51C82D947E9E"
 				type: "item"
 				item: "littlelogistics:vessel_detector"
+			}]
+			rewards: [{
+				id: "73F9BD4F410818AB"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 4
 			}]
 		}
 		{
@@ -3316,6 +4424,11 @@
 				type: "item"
 				item: "littlelogistics:vessel_charger"
 			}]
+			rewards: [{
+				id: "216C9C750644F24A"
+				type: "item"
+				item: "thermal:rf_coil"
+			}]
 		}
 		{
 			x: 14.5d
@@ -3333,6 +4446,11 @@
 				type: "item"
 				item: "littlelogistics:fluid_hopper"
 			}]
+			rewards: [{
+				id: "0A25B38A0C69D16F"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
 		}
 		{
 			x: 16.5d
@@ -3349,6 +4467,11 @@
 			id: "3C5F76E40FB21228"
 			tasks: [{
 				id: "014EC328D5F0CF8A"
+				type: "item"
+				item: "littlelogistics:guide_rail_corner"
+			}]
+			rewards: [{
+				id: "00F2F02DF8717AC5"
 				type: "item"
 				item: "littlelogistics:guide_rail_corner"
 			}]
@@ -3374,6 +4497,16 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "2C713A01219E63AE"
+				type: "item"
+				item: {
+					id: "littlelogistics:spring"
+					Count: 1b
+					tag: { }
+				}
+				count: 3
+			}]
 		}
 		{
 			x: 10.75d
@@ -3391,6 +4524,11 @@
 				type: "item"
 				item: "littlelogistics:barge_dock"
 			}]
+			rewards: [{
+				id: "44642663103EF91A"
+				type: "item"
+				item: "upgrade_aquatic:tooth_lantern"
+			}]
 		}
 		{
 			x: 10.75d
@@ -3406,6 +4544,11 @@
 				id: "51E6FE475AD2C4FD"
 				type: "item"
 				item: "littlelogistics:fluid_barge"
+			}]
+			rewards: [{
+				id: "10D973DA5AA006B3"
+				type: "item"
+				item: "minecraft:water_bucket"
 			}]
 		}
 		{
@@ -3424,6 +4567,11 @@
 				type: "item"
 				item: "littlelogistics:barge"
 			}]
+			rewards: [{
+				id: "5107B65337C4389E"
+				type: "item"
+				item: "minecraft:chest"
+			}]
 		}
 		{
 			x: 11.75d
@@ -3436,6 +4584,17 @@
 				id: "47D57FDECDE333A8"
 				type: "item"
 				item: "littlelogistics:fishing_barge"
+			}]
+			rewards: [{
+				id: "08E814BF0C110226"
+				type: "item"
+				item: {
+					id: "minecraft:fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -3451,6 +4610,11 @@
 				type: "item"
 				item: "littlelogistics:seater_barge"
 			}]
+			rewards: [{
+				id: "6804788A0C1333C3"
+				type: "item"
+				item: "cfm:cyan_cooler"
+			}]
 		}
 		{
 			x: 13.5d
@@ -3462,6 +4626,12 @@
 				id: "0E9A5FFAE3B58945"
 				type: "item"
 				item: "wormhole:portal_frame"
+			}]
+			rewards: [{
+				id: "67A62B2BEFF48B28"
+				type: "item"
+				item: "wormhole:portal_frame"
+				count: 4
 			}]
 		}
 		{
@@ -3476,6 +4646,15 @@
 			id: "275F0E1A9C9B1899"
 			tasks: [{
 				id: "3BA0E918A52B8874"
+				type: "item"
+				item: {
+					id: "wormhole:portal_stabilizer"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6EBC51A7B659F28B"
 				type: "item"
 				item: {
 					id: "wormhole:portal_stabilizer"
@@ -3502,6 +4681,12 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "0FC12E33BD109748"
+				type: "item"
+				item: "wormhole:portal_frame"
+				count: 2
+			}]
 		}
 		{
 			x: 14.5d
@@ -3517,6 +4702,12 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "5CF69144F8719B95"
+				type: "item"
+				item: "wormhole:portal_frame"
+				count: 2
 			}]
 		}
 		{
@@ -3537,6 +4728,12 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "564E6CCFD0667967"
+				type: "item"
+				item: "wormhole:portal_frame"
+				count: 2
 			}]
 		}
 		{
@@ -3559,6 +4756,12 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "397171D21BED72A1"
+				type: "item"
+				item: "wormhole:portal_frame"
+				count: 2
+			}]
 		}
 		{
 			x: 15.5d
@@ -3578,6 +4781,12 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "23AFED6E8EACA336"
+				type: "item"
+				item: "minecraft:coal"
+				count: 8
 			}]
 		}
 		{
@@ -3600,6 +4809,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "3D570849CAA32B01"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 17.5d
@@ -3620,6 +4834,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "5E5536C8A2D8F986"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -3706,6 +4925,11 @@
 						]
 					}
 				}
+			}]
+			rewards: [{
+				id: "0AB3FB4ADE3EE099"
+				type: "item"
+				item: "botanypots:botany_pot"
 			}]
 		}
 		{
@@ -3796,6 +5020,11 @@
 						]
 					}
 				}
+			}]
+			rewards: [{
+				id: "1162C9799B7DC393"
+				type: "item"
+				item: "botanypots:hopper_botany_pot"
 			}]
 		}
 	]

@@ -239,18 +239,6 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -0.75d
-			shape: "diamond"
-			dependencies: ["4E811B1DDCA7ACFE"]
-			id: "362BB585EE70BACD"
-			tasks: [{
-				id: "104BBFB33D66DCD1"
-				type: "item"
-				item: "enderioalloys:item_alloy_ingot_vivid_alloy"
-			}]
-		}
-		{
 			x: -0.5d
 			y: -1.25d
 			shape: "diamond"
@@ -360,7 +348,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: -1.0d
 			y: -0.75d
 			shape: "diamond"
 			dependencies: ["4E811B1DDCA7ACFE"]

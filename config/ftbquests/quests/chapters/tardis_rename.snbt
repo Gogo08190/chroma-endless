@@ -80,6 +80,18 @@
 			dev: false
 			corner: false
 		}
+		{
+			x: -49.25d
+			y: -3.75d
+			width: 6.0d
+			height: 9.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/tardiss.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
 	]
 	quests: [
 		{

@@ -28,7 +28,7 @@
 			x: -27.25d
 			y: 11.25d
 			shape: "diamond"
-			description: ["&bBins&f is a storage block that can only store a single item, however many it can store is based on its tier. It will retain its inventory when broken."]
+			description: ["&bBins&f are a storage block that can only store a single item, however many it can store is based on its tier. It will retain its inventory when broken."]
 			hide_dependency_lines: true
 			dependencies: [
 				"3CE25095E2661776"
@@ -46,7 +46,7 @@
 			x: -20.75d
 			y: 11.25d
 			shape: "diamond"
-			description: ["&bBins&f is a storage block that can only store a single item, however many it can store is based on its tier. It will retain its inventory when broken."]
+			description: ["&bBins&f are a storage block that can only store a single item, however many it can store is based on its tier. It will retain its inventory when broken."]
 			hide_dependency_lines: true
 			dependencies: [
 				"1BF981F84C1738BC"
@@ -64,7 +64,7 @@
 			x: -24.0d
 			y: 15.0d
 			shape: "diamond"
-			description: ["&bBins&f is a storage block that can only store a single item, however many it can store is based on its tier. It will retain its inventory when broken."]
+			description: ["&bBins&f are a storage block that can only store a single item, however many it can store is based on its tier. It will retain its inventory when broken."]
 			hide_dependency_lines: true
 			dependencies: [
 				"0E4A27067D64FFCE"
@@ -82,7 +82,7 @@
 			x: -22.5d
 			y: 6.0d
 			shape: "diamond"
-			description: ["The &belite tier&r improves the number of &2slots to 3&r."]
+			description: ["The &aBasic Tier&r improves the number of &2slots to 3&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"2B471E4CC0E02DED"
@@ -101,7 +101,7 @@
 			x: -25.5d
 			y: 6.0d
 			shape: "diamond"
-			description: ["The &belite tier&r improves the number of &2slots to 3&r."]
+			description: ["The &aBasic Tier&r improves the number of &2slots to 3&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"2B471E4CC0E02DED"
@@ -120,7 +120,7 @@
 			x: -25.5d
 			y: 4.5d
 			shape: "diamond"
-			description: ["The &belite tier&r improves the number of &2slots to 3&r."]
+			description: ["The &aBasic Tier&r improves the number of &2slots to 3&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"2B471E4CC0E02DED"
@@ -139,7 +139,7 @@
 			x: -24.0d
 			y: 6.75d
 			shape: "diamond"
-			description: ["The &belite tier&r improves the number of &2slots to 3&r."]
+			description: ["The &aBasic Tier&r improves the number of &2slots to 3&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"2B471E4CC0E02DED"
@@ -157,7 +157,7 @@
 			x: -23.0d
 			y: 5.25d
 			shape: "diamond"
-			description: ["The &belite tier&r improves the number of &2slots to 3&r."]
+			description: ["The &aBasic Tier&r improves the number of &2slots to 3&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"2B471E4CC0E02DED"
@@ -176,7 +176,7 @@
 			x: -25.0d
 			y: 5.25d
 			shape: "diamond"
-			description: ["The &belite tier&r improves the number of &2slots to 3&r."]
+			description: ["The &aBasic Tier&r improves the number of &2slots to 3&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"2B471E4CC0E02DED"
@@ -195,7 +195,7 @@
 			x: -24.0d
 			y: 3.75d
 			shape: "diamond"
-			description: ["The &belite tier&r improves the number of &2slots to 3&r."]
+			description: ["The &aBasic Tier&r improves the number of &2slots to 3&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"2B471E4CC0E02DED"
@@ -214,7 +214,7 @@
 			x: -23.5d
 			y: 4.5d
 			shape: "diamond"
-			description: ["The &belite tier&r improves the number of &2slots to 3&r."]
+			description: ["The &aBasic Tier&r improves the number of &2slots to 3&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"2B471E4CC0E02DED"
@@ -233,7 +233,7 @@
 			x: -24.5d
 			y: 4.5d
 			shape: "diamond"
-			description: ["The &belite tier&r improves the number of &2slots to 3&r."]
+			description: ["The &aBasic Tier&r improves the number of &2slots to 3&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"2B471E4CC0E02DED"
@@ -252,7 +252,7 @@
 			x: -25.75d
 			y: 9.0d
 			shape: "diamond"
-			description: ["The &belite tier&r improves the number of &4slots to 5&r."]
+			description: ["The &4Advanced Tier&r improves the number of &cslots to 5&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"5A250FD54B5D5215"
@@ -271,7 +271,7 @@
 			x: -26.75d
 			y: 10.5d
 			shape: "diamond"
-			description: ["The &belite tier&r improves the number of &4slots to 5&r."]
+			description: ["The &4Advanced Tier&r improves the number of &cslots to 5&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"5A250FD54B5D5215"
@@ -290,7 +290,7 @@
 			x: -26.25d
 			y: 9.75d
 			shape: "diamond"
-			description: ["The &belite tier&r improves the number of &4slots to 5&r."]
+			description: ["The &4Advanced Tier&r improves the number of &cslots to 5&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"5A250FD54B5D5215"
@@ -309,7 +309,7 @@
 			x: -26.75d
 			y: 9.0d
 			shape: "diamond"
-			description: ["The &belite tier&r improves the number of &4slots to 5&r."]
+			description: ["The &4Advanced Tier&r improves the number of &cslots to 5&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"5A250FD54B5D5215"
@@ -328,7 +328,7 @@
 			x: -27.75d
 			y: 9.0d
 			shape: "diamond"
-			description: ["The &belite tier&r improves the number of &4slots to 5&r."]
+			description: ["The &4Advanced Tier&r improves the number of &cslots to 5&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"5A250FD54B5D5215"
@@ -347,7 +347,7 @@
 			x: -28.25d
 			y: 9.75d
 			shape: "diamond"
-			description: ["The &belite tier&r improves the number of &4slots to 5&r."]
+			description: ["The &4Advanced Tier&r improves the number of &cslots to 5&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"5A250FD54B5D5215"
@@ -366,7 +366,7 @@
 			x: -27.75d
 			y: 10.5d
 			shape: "diamond"
-			description: ["The &belite tier&r improves the number of &4slots to 5&r."]
+			description: ["The &4Advanced Tier&r improves the number of &cslots to 5&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"5A250FD54B5D5215"
@@ -385,7 +385,7 @@
 			x: -27.25d
 			y: 8.25d
 			shape: "diamond"
-			description: ["The &belite tier&r improves the number of &4slots to 5&r."]
+			description: ["The &4Advanced Tier&r improves the number of &cslots to 5&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"5A250FD54B5D5215"
@@ -404,7 +404,7 @@
 			x: -28.75d
 			y: 9.0d
 			shape: "diamond"
-			description: ["The &belite tier&r improves the number of &4slots to 5&r."]
+			description: ["The &4Advanced Tier&r improves the number of &cslots to 5&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"5A250FD54B5D5215"
@@ -423,7 +423,7 @@
 			x: -19.75d
 			y: 9.75d
 			shape: "diamond"
-			description: ["The &belite tier&r improves the number of &3slots to 7&r."]
+			description: ["The &bElite Tier&r improves the number of &3slots to 7&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"73368EF2948452D9"
@@ -443,7 +443,7 @@
 			x: -20.25d
 			y: 9.0d
 			shape: "diamond"
-			description: ["The &belite tier&r improves the number of &3slots to 7&r."]
+			description: ["The &bElite Tier&r improves the number of &3slots to 7&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"73368EF2948452D9"
@@ -463,7 +463,7 @@
 			x: -21.25d
 			y: 9.0d
 			shape: "diamond"
-			description: ["The &belite tier&r improves the number of &3slots to 7&r."]
+			description: ["The &bElite Tier&r improves the number of &3slots to 7&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"73368EF2948452D9"
@@ -503,7 +503,7 @@
 			x: -22.25d
 			y: 9.0d
 			shape: "diamond"
-			description: ["The &belite tier&r improves the number of &3slots to 7&r."]
+			description: ["The &bElite Tier&r improves the number of &3slots to 7&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"73368EF2948452D9"
@@ -523,7 +523,7 @@
 			x: -19.25d
 			y: 9.0d
 			shape: "diamond"
-			description: ["The &belite tier&r improves the number of &3slots to 7&r."]
+			description: ["The &bElite Tier&r improves the number of &3slots to 7&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"73368EF2948452D9"
@@ -543,7 +543,7 @@
 			x: -21.75d
 			y: 9.75d
 			shape: "diamond"
-			description: ["The &belite tier&r improves the number of &3slots to 7&r."]
+			description: ["The &bElite Tier&r improves the number of &3slots to 7&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"73368EF2948452D9"
@@ -563,7 +563,7 @@
 			x: -21.25d
 			y: 10.5d
 			shape: "diamond"
-			description: ["The &belite tier&r improves the number of &3slots to 7&r."]
+			description: ["The &bElite Tier&r improves the number of &3slots to 7&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"73368EF2948452D9"
@@ -583,7 +583,7 @@
 			x: -20.25d
 			y: 10.5d
 			shape: "diamond"
-			description: ["The &belite tier&r improves the number of &3slots to 7&r."]
+			description: ["The &bElite Tier&r improves the number of &3slots to 7&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"73368EF2948452D9"
@@ -603,7 +603,7 @@
 			x: -24.0d
 			y: 12.0d
 			shape: "diamond"
-			description: ["The &bultimate tier&r improves the number of &5slots to 9&r."]
+			description: ["The &dUltimate Tier&r improves the number of &5slots to 9&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"1D23D686D1A72DC6"
@@ -623,7 +623,7 @@
 			x: -22.5d
 			y: 12.75d
 			shape: "diamond"
-			description: ["The &bultimate tier&r improves the number of &5slots to 9&r."]
+			description: ["The &dUltimate Tier&r improves the number of &5slots to 9&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"1D23D686D1A72DC6"
@@ -643,7 +643,7 @@
 			x: -23.5d
 			y: 12.75d
 			shape: "diamond"
-			description: ["The &bultimate tier&r improves the number of &5slots to 9&r."]
+			description: ["The &dUltimate Tier&r improves the number of &5slots to 9&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"1D23D686D1A72DC6"
@@ -663,7 +663,7 @@
 			x: -24.5d
 			y: 12.75d
 			shape: "diamond"
-			description: ["The &bultimate tier&r improves the number of &5slots to 9&r."]
+			description: ["The &dUltimate Tier&r improves the number of &5slots to 9&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"1D23D686D1A72DC6"
@@ -683,7 +683,7 @@
 			x: -25.5d
 			y: 12.75d
 			shape: "diamond"
-			description: ["The &bultimate tier&r improves the number of &5slots to 9&r."]
+			description: ["The &dUltimate Tier&r improves the number of &5slots to 9&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"1D23D686D1A72DC6"
@@ -703,7 +703,7 @@
 			x: -23.0d
 			y: 13.5d
 			shape: "diamond"
-			description: ["The &bultimate tier&r improves the number of &5slots to 9&r."]
+			description: ["The &dUltimate Tier&r improves the number of &5slots to 9&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"1D23D686D1A72DC6"
@@ -723,7 +723,7 @@
 			x: -25.0d
 			y: 13.5d
 			shape: "diamond"
-			description: ["The &bultimate tier&r improves the number of &5slots to 9&r."]
+			description: ["The &dUltimate Tier&r improves the number of &5slots to 9&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"1D23D686D1A72DC6"
@@ -743,7 +743,7 @@
 			x: -23.5d
 			y: 14.25d
 			shape: "diamond"
-			description: ["The &bultimate tier&r improves the number of &5slots to 9&r."]
+			description: ["The &dUltimate Tier&r improves the number of &5slots to 9&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"1D23D686D1A72DC6"
@@ -763,7 +763,7 @@
 			x: -24.5d
 			y: 14.25d
 			shape: "diamond"
-			description: ["The &bultimate tier&r improves the number of &5slots to 9&r."]
+			description: ["The &dUltimate Tier&r improves the number of &5slots to 9&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"1D23D686D1A72DC6"
@@ -1371,6 +1371,7 @@
 			y: 2.75d
 			shape: "diamond"
 			description: ["A &bWind Turbine's&f giant blades harness the force of the wind to generate &6power&f. Each Wind Turbine requires a fairly large 1x1x5 area. The machine will generate power day and night, in sun or rain, but the turbine must have a clear view of the sky."]
+			dependencies: ["7B9FBBCD2F962A0B"]
 			id: "57692119B3F25CD2"
 			tasks: [{
 				id: "7BB5C0962F1CF703"
@@ -1383,6 +1384,7 @@
 			y: 1.25d
 			shape: "diamond"
 			description: ["The &bSolar Generator&f harnesses sunlight to create &6power&f. The generator is particularly useful for generating passive energy for above-ground machines instead of draining your main stores."]
+			dependencies: ["7B9FBBCD2F962A0B"]
 			id: "4A6ED34F6D6B12E3"
 			tasks: [{
 				id: "1B1574F161FD2A1F"
@@ -1408,6 +1410,10 @@
 			y: 2.0d
 			shape: "diamond"
 			description: ["A &bHeat Generator&f converts &4heat energy&f into &6power&f. This is often the first generator to craft because, although it provides only a small amount of power,"]
+			dependencies: [
+				"2F7EB9DBC6CE7522"
+				"20C428EA1F5489F6"
+			]
 			id: "6994DE322CF93E31"
 			tasks: [{
 				id: "1D9851F9C857C6C8"
@@ -1420,6 +1426,7 @@
 			y: 2.75d
 			shape: "diamond"
 			description: ["A &bGas-Burning Generator&f creates power by consuming any burnable gas for example the Hydrogen produced by an Electrolytic Separator or Ethylene."]
+			dependencies: ["1D23D686D1A72DC6"]
 			id: "657B1E3384051C37"
 			tasks: [{
 				id: "12F93F0A47FB6C26"
@@ -1432,6 +1439,10 @@
 			y: 1.25d
 			shape: "diamond"
 			description: ["&bBio-Generators&f produce electricity from &aBio Fuel&f."]
+			dependencies: [
+				"73368EF2948452D9"
+				"6B05686E098DE2C9"
+			]
 			id: "6F8C54148EEEAA99"
 			tasks: [{
 				id: "5D308719328586CF"
@@ -1487,6 +1498,8 @@
 			x: -33.25d
 			y: -4.0d
 			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["51E7C7AFCCF1BA08"]
 			id: "2AA660F6890847CF"
 			tasks: [{
 				id: "1C7415A87895D45B"
@@ -1498,6 +1511,8 @@
 			x: -32.75d
 			y: -4.5d
 			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["51E7C7AFCCF1BA08"]
 			id: "3FD6381CE80AB5E3"
 			tasks: [{
 				id: "0AE69BAAF87AB97B"
@@ -1509,6 +1524,8 @@
 			x: -32.25d
 			y: -4.0d
 			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["51E7C7AFCCF1BA08"]
 			id: "6DE7587A56565AAE"
 			tasks: [{
 				id: "68722D928BABA5EE"
@@ -1530,6 +1547,15 @@
 				"• 123 Reactor Glass or Structural Glass"
 				"• 3 SPS Ports"
 				"• 1 Supercharged Coil"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"2246096523E43F64"
+				"7487A5A3991D1222"
+				"53F8FF29F8F02DC0"
+				"5B90740E1EE0F130"
+				"0E4A27067D64FFCE"
+				"66496828833731B1"
 			]
 			min_width: 300
 			id: "57820504F4FED574"
@@ -1564,6 +1590,7 @@
 			x: -32.25d
 			y: -7.5d
 			shape: "diamond"
+			dependencies: ["5269FB3852203971"]
 			id: "30396C78FA1F82FF"
 			tasks: [{
 				id: "30EBA37F630FB11B"
@@ -1575,6 +1602,12 @@
 			x: -32.75d
 			y: -8.25d
 			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"30396C78FA1F82FF"
+				"20018C60ECEA7ED6"
+				"0E4A27067D64FFCE"
+			]
 			id: "678264A742DDA038"
 			tasks: [{
 				id: "16BD9AB1243FBA18"
@@ -1682,6 +1715,11 @@
 			x: -29.75d
 			y: 3.5d
 			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"597D594758818298"
+				"2F45D48B924C9654"
+			]
 			id: "380E175AD6A16CD6"
 			tasks: [{
 				id: "152B861F6E8FA55B"
@@ -1699,6 +1737,11 @@
 			x: -30.75d
 			y: 3.5d
 			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"4C044A106F0170AB"
+				"3EBBC97D89557513"
+			]
 			id: "6224CB33E3699F55"
 			tasks: [{
 				id: "1DE8AE97A239E2B7"
@@ -1716,6 +1759,11 @@
 			x: -30.75d
 			y: 4.5d
 			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"1402B87600049542"
+				"3EBBC97D89557513"
+			]
 			id: "682E097593123192"
 			tasks: [{
 				id: "07869D78905E0182"
@@ -1733,6 +1781,11 @@
 			x: -29.75d
 			y: 4.5d
 			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"1EAEC1C8EC95EA3C"
+				"3EBBC97D89557513"
+			]
 			id: "6575F9CF4CF939D3"
 			tasks: [{
 				id: "2DCEC4207EE69A66"
@@ -1750,84 +1803,21 @@
 			x: -30.25d
 			y: 4.0d
 			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"31B537BE16528A84"
+				"0F2515A1C9518EDF"
+				"53F8FF29F8F02DC0"
+				"7C67C9F3ED5CB20E"
+				"0E4A27067D64FFCE"
+				"7487A5A3991D1222"
+			]
 			id: "7E27215DCAA51489"
 			tasks: [{
 				id: "04F37F521AF6A5CE"
 				type: "item"
 				item: {
 					id: "mekanism:meka_tool"
-					Count: 1b
-					tag: {
-						HideFlags: 2
-					}
-				}
-			}]
-		}
-		{
-			x: -30.75d
-			y: 1.0d
-			shape: "diamond"
-			dependencies: ["2EBB702869B9D13C"]
-			id: "6F6CBEA161CB94F2"
-			tasks: [{
-				id: "7F58245458F62345"
-				type: "item"
-				item: {
-					id: "mekanism:hazmat_mask"
-					Count: 1b
-					tag: {
-						HideFlags: 2
-					}
-				}
-			}]
-		}
-		{
-			x: -29.75d
-			y: 1.0d
-			shape: "diamond"
-			dependencies: ["2EBB702869B9D13C"]
-			id: "78B81350AC2D24A1"
-			tasks: [{
-				id: "5F00802B03B94DEA"
-				type: "item"
-				item: {
-					id: "mekanism:hazmat_gown"
-					Count: 1b
-					tag: {
-						HideFlags: 2
-					}
-				}
-			}]
-		}
-		{
-			x: -30.75d
-			y: 2.0d
-			shape: "diamond"
-			dependencies: ["2EBB702869B9D13C"]
-			id: "5B657CCC8CE1E2CE"
-			tasks: [{
-				id: "25420AD97A81DCDA"
-				type: "item"
-				item: {
-					id: "mekanism:hazmat_pants"
-					Count: 1b
-					tag: {
-						HideFlags: 2
-					}
-				}
-			}]
-		}
-		{
-			x: -29.75d
-			y: 2.0d
-			shape: "diamond"
-			dependencies: ["2EBB702869B9D13C"]
-			id: "51FE044B77CCF30E"
-			tasks: [{
-				id: "3E32E697C945A939"
-				type: "item"
-				item: {
-					id: "mekanism:hazmat_boots"
 					Count: 1b
 					tag: {
 						HideFlags: 2
@@ -1988,6 +1978,7 @@
 			x: -16.0d
 			y: -3.5d
 			shape: "diamond"
+			description: ["Added a Stone Generator Upgrade. When installed in a Digital Miner, this upgrade is capable of fulfilling “replace stack” requests of both Stone and Cobblestone"]
 			hide_dependency_lines: true
 			dependencies: [
 				"73368EF2948452D9"
@@ -2010,6 +2001,8 @@
 				""
 				"The minimum height of the structure is 3 blocks. To increase the internal storage and rate of evaporation, the structure can be raised up to 18 blocks high."
 			]
+			hide_dependency_lines: true
+			dependencies: ["5A250FD54B5D5215"]
 			min_width: 300
 			id: "2D13B29409788643"
 			tasks: [
@@ -2034,6 +2027,14 @@
 			x: -32.75d
 			y: -3.25d
 			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"66496828833731B1"
+				"7487A5A3991D1222"
+				"1F22F5BF3BD21A03"
+				"1BF981F84C1738BC"
+				"44EA7B9CD882DADB"
+			]
 			id: "3BBC97985B0D3B81"
 			tasks: [{
 				id: "1E542CC06E4592DF"
@@ -2045,6 +2046,7 @@
 			x: -32.25d
 			y: -2.5d
 			shape: "diamond"
+			dependencies: ["2D13B29409788643"]
 			id: "4FF328FAD369F911"
 			tasks: [{
 				id: "3A666874FF384B6E"
@@ -2056,6 +2058,7 @@
 			x: -33.25d
 			y: -2.5d
 			shape: "diamond"
+			dependencies: ["2D13B29409788643"]
 			id: "7F74A2574A0EF6D7"
 			tasks: [{
 				id: "4C01B92342C7F419"
@@ -2068,6 +2071,12 @@
 			y: -7.0d
 			shape: "octagon"
 			description: ["&bInduction Casing&f makes up the multi-block that is the &eInduction Matrix&f, a &6energy storage&f structure that can hold a large amount of energy."]
+			hide_dependency_lines: true
+			dependencies: [
+				"38C929808BBB9FFF"
+				"1BF981F84C1738BC"
+				"4ADD9913716BA3E2"
+			]
 			id: "3CB39A3A144C90ED"
 			tasks: [
 				{
@@ -3124,6 +3133,11 @@
 			y: 5.0d
 			shape: "diamond"
 			description: ["The &dModification Station&r is used for applying modular upgrades to the Meka-Suit in exchange for energy."]
+			hide_dependency_lines: true
+			dependencies: [
+				"53F8FF29F8F02DC0"
+				"7487A5A3991D1222"
+			]
 			id: "3E34DCCD95A33B4C"
 			tasks: [{
 				id: "2D634B62EE1AAD12"
@@ -3136,6 +3150,13 @@
 			y: -0.5d
 			shape: "diamond"
 			description: ["A sturdy machine capable of mixing two pigments together to produce a new pigment."]
+			hide_dependency_lines: true
+			dependencies: [
+				"1F22F5BF3BD21A03"
+				"2D17968D3B7C09B4"
+				"1BF981F84C1738BC"
+				"44EA7B9CD882DADB"
+			]
 			id: "10BC08F12AFEBB50"
 			tasks: [{
 				id: "34D4C4B888E7F3D0"
@@ -3148,6 +3169,11 @@
 			y: -1.0d
 			shape: "diamond"
 			description: ["A machine used to extract pigments from blocks and items."]
+			hide_dependency_lines: true
+			dependencies: [
+				"1F22F5BF3BD21A03"
+				"2B471E4CC0E02DED"
+			]
 			id: "240EAB68009EF925"
 			tasks: [{
 				id: "6C2449B8054E5040"
@@ -3160,6 +3186,12 @@
 			y: -0.5d
 			shape: "diamond"
 			description: ["A machine used to color blocks and items via a careful application of a stored pigment."]
+			hide_dependency_lines: true
+			dependencies: [
+				"1F22F5BF3BD21A03"
+				"3CE25095E2661776"
+				"5A250FD54B5D5215"
+			]
 			id: "2A872ECDB1C841D2"
 			tasks: [{
 				id: "33B17A73B306F3FA"
@@ -3220,6 +3252,14 @@
 			y: 4.5d
 			shape: "diamond"
 			description: ["The &bDigital Miner&f is the scale &9mining machine&f of Mekanism. However, this machine is like no other as it \"magically-teleports\" mined blocks to its inventory."]
+			hide_dependency_lines: true
+			dependencies: [
+				"7499C5F6FE7EA7C5"
+				"625F7139C06E41C8"
+				"2B471E4CC0E02DED"
+				"20018C60ECEA7ED6"
+				"1F22F5BF3BD21A03"
+			]
 			id: "072D0FED1AEB3986"
 			tasks: [{
 				id: "2DB03A3EAC1946C7"
@@ -3250,6 +3290,11 @@
 			shape: "diamond"
 			subtitle: "FIRE !!!!"
 			description: ["The &bFlamethrower&f is a ranged weapon which uses Hydrogen gas as its fuel."]
+			hide_dependency_lines: true
+			dependencies: [
+				"40C970572379006E"
+				"5A250FD54B5D5215"
+			]
 			id: "3016E517F60380BB"
 			tasks: [{
 				id: "23B91B88CA9E22F8"
@@ -3261,6 +3306,11 @@
 			x: -19.0d
 			y: 4.0d
 			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"3CE25095E2661776"
+				"4ADD9913716BA3E2"
+			]
 			id: "0CF65971C1EEBE3C"
 			tasks: [{
 				id: "759F7084AC05F338"
@@ -3284,6 +3334,8 @@
 			y: 4.75d
 			shape: "diamond"
 			description: ["The &bGas Mask&f is an utility head armor piece, used in conjunction with the Scuba Tank to breathe underwater."]
+			hide_dependency_lines: true
+			dependencies: ["2B471E4CC0E02DED"]
 			id: "25DDB958BB3EF85E"
 			tasks: [{
 				id: "17709F7E23E4AAAC"
@@ -3302,6 +3354,12 @@
 			y: 4.75d
 			shape: "diamond"
 			description: ["The &bScuba Tank&f is a piece of equipment worn on the backpack that provides underwater respiration when a Gas Mask is worn"]
+			hide_dependency_lines: true
+			dependencies: [
+				"40C970572379006E"
+				"2B471E4CC0E02DED"
+				"3CE25095E2661776"
+			]
 			id: "03789CFBE79E2CC1"
 			tasks: [{
 				id: "59F42079788314A9"
@@ -3320,6 +3378,11 @@
 			y: 3.25d
 			shape: "diamond"
 			description: ["The &bJetpack&f is an item that allows the player to fly, equippable in the chestplate slot. It uses Hydrogen gas as a fuel."]
+			hide_dependency_lines: true
+			dependencies: [
+				"40C970572379006E"
+				"2B471E4CC0E02DED"
+			]
 			id: "2B6FB57F68D86470"
 			tasks: [{
 				id: "38B83EA4FA6A84BB"
@@ -3351,6 +3414,12 @@
 			y: 4.0d
 			shape: "diamond"
 			description: ["&bFree Runners&f are an item that allows players to ascend 1-block inclines automatically, as well as preventing fall damage as long as they are charged. A fall will reduce the item's charge, depending on how far the fall was."]
+			hide_dependency_lines: true
+			dependencies: [
+				"2B471E4CC0E02DED"
+				"3CE25095E2661776"
+				"4ADD9913716BA3E2"
+			]
 			id: "7CB547078313F627"
 			tasks: [{
 				id: "5A58E2AAB572087F"
@@ -3362,6 +3431,8 @@
 			x: -30.25d
 			y: 3.0d
 			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["1F22F5BF3BD21A03"]
 			id: "52CE6BB578D13AB9"
 			tasks: [{
 				id: "16BB9149638294FA"
@@ -3378,6 +3449,12 @@
 				""
 				"A basic QIO drive can contain 16000 items and 128 item types."
 			]
+			hide_dependency_lines: true
+			dependencies: [
+				"53F8FF29F8F02DC0"
+				"2EBB702869B9D13C"
+				"0E4A27067D64FFCE"
+			]
 			id: "18676E4AEDFDA34C"
 			tasks: [{
 				id: "56E6373EFF21740B"
@@ -3389,6 +3466,8 @@
 			x: -13.5d
 			y: -1.75d
 			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["18676E4AEDFDA34C"]
 			id: "51CE9BBFEB7660AA"
 			tasks: [{
 				id: "667695FE4DE8336B"
@@ -3400,6 +3479,8 @@
 			x: -14.5d
 			y: 0.25d
 			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["51CE9BBFEB7660AA"]
 			id: "2F266C23AE6CAFB4"
 			tasks: [{
 				id: "4C3FCA3F86EA649D"
@@ -3411,6 +3492,8 @@
 			x: -13.5d
 			y: 0.25d
 			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["2F266C23AE6CAFB4"]
 			id: "04A63EC6756009CC"
 			tasks: [{
 				id: "0A737C25BE0C7CB4"
@@ -3427,6 +3510,13 @@
 				""
 				"In order to work, the drive array must be set to a frequency."
 			]
+			hide_dependency_lines: true
+			dependencies: [
+				"53F8FF29F8F02DC0"
+				"625F7139C06E41C8"
+				"64B5118FFAFD98CB"
+				"0E4A27067D64FFCE"
+			]
 			size: 2.0d
 			id: "64EF64E67DA42EA9"
 			tasks: [{
@@ -3440,6 +3530,11 @@
 			y: -0.25d
 			shape: "diamond"
 			description: ["&dQIO Dashboards&r allow users to interface with the contents of a QIO Drive Array. It looks similar to a chest inventory, but you can search, sort and scroll through. It shows all items of one type as a single stack, even if there are thousands of them. In order to access a drive array, the dashboard must be set to the same frequency as the drive array."]
+			hide_dependency_lines: true
+			dependencies: [
+				"625F7139C06E41C8"
+				"53F8FF29F8F02DC0"
+			]
 			min_width: 300
 			id: "463514656D61C9F4"
 			tasks: [{
@@ -3458,6 +3553,11 @@
 			y: -1.25d
 			shape: "diamond"
 			description: ["A QIO-linked item import unit. Place on a block and import its contents to your QIO system."]
+			hide_dependency_lines: true
+			dependencies: [
+				"625F7139C06E41C8"
+				"53F8FF29F8F02DC0"
+			]
 			id: "5362C3D25195A787"
 			tasks: [{
 				id: "75F6B17935CC9926"
@@ -3470,6 +3570,11 @@
 			y: -0.25d
 			shape: "diamond"
 			description: ["A QIO-linked item export unit. Place on a block and export contents from your QIO systeme to the block."]
+			hide_dependency_lines: true
+			dependencies: [
+				"625F7139C06E41C8"
+				"53F8FF29F8F02DC0"
+			]
 			id: "168ECF65027746B1"
 			tasks: [{
 				id: "60B253CDD7975A8B"
@@ -3482,6 +3587,11 @@
 			y: -1.25d
 			shape: "diamond"
 			description: ["A QIO-linked redstone adapter. Use to monitor your QIO system's contents."]
+			hide_dependency_lines: true
+			dependencies: [
+				"625F7139C06E41C8"
+				"53F8FF29F8F02DC0"
+			]
 			id: "4C7BF5AFDF3A7928"
 			tasks: [{
 				id: "46EC54712DE6E93E"
@@ -3494,6 +3604,10 @@
 			y: 8.75d
 			shape: "diamond"
 			description: ["&bThe Electric Pump&r is used to pump fluids out of a reservoir in the world or a storage."]
+			dependencies: [
+				"1FC021A3877901BF"
+				"7CCCE060E49A883E"
+			]
 			id: "4B371BAC03A79CFA"
 			tasks: [{
 				id: "25A20BD7B6CEC32F"
@@ -3513,6 +3627,12 @@
 				"&6Decondensentrating&f, which turns Liquids into Gases"
 				""
 				"&6Condensentrating&f, which turns Gases into Liquids"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"40C970572379006E"
+				"3C084802A24F44D7"
+				"4ADD9913716BA3E2"
 			]
 			id: "51E7C7AFCCF1BA08"
 			tasks: [{
@@ -3695,8 +3815,8 @@
 			}]
 		}
 		{
-			x: -30.25d
-			y: 1.5d
+			x: -29.75d
+			y: 1.25d
 			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["2B471E4CC0E02DED"]
@@ -3708,8 +3828,8 @@
 			}]
 		}
 		{
-			x: -30.25d
-			y: 0.5d
+			x: -30.75d
+			y: 1.25d
 			shape: "diamond"
 			dependencies: ["2EBB702869B9D13C"]
 			id: "4C3F1C83C6F40522"
@@ -3734,6 +3854,29 @@
 				id: "3FDE254F6CBCA379"
 				type: "item"
 				item: "mekanism:teleportation_core"
+			}]
+		}
+		{
+			x: -30.25d
+			y: 0.75d
+			shape: "diamond"
+			description: [
+				"Radioactive Waste Barrels are used to store (or as buffer for) radioactive materials. They delete their contents at a rate of 1 mB per minute."
+				""
+				""
+				"The player can check the storage status of Radioactive Waste Barrels by crouching and right-clicking it with an empty hand. Green radiation particles start to appear as a barrel fills up (these are just a rough visual indicator of a barrel's fill ratio, not actual radiations)."
+				""
+				""
+				"Radioactive Waste barrels cannot be moved by any means (pistons, cardboard box, etc.). Also because barrels containing any radioactive waste cannot be broken safely, the only way to safely move a non empty barrel is to transfer its contents to another barrel before breaking it. This can be done by connecting a Pressurized Tube to its top or bottom side in pull mode."
+			]
+			hide_dependency_lines: true
+			dependencies: ["3CE25095E2661776"]
+			min_width: 350
+			id: "18C005570AB1F3A1"
+			tasks: [{
+				id: "61F8B64678A03131"
+				type: "item"
+				item: "mekanism:radioactive_waste_barrel"
 			}]
 		}
 	]

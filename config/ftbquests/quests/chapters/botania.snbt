@@ -1664,5 +1664,233 @@
 				item: "kubejs:ultimate_rune"
 			}]
 		}
+		{
+			x: 1.5d
+			y: 8.25d
+			shape: "diamond"
+			optional: true
+			id: "70E795541E58E0D7"
+			tasks: [{
+				id: "601439C7717073E1"
+				type: "item"
+				item: "botania:hydroangeas"
+			}]
+		}
+		{
+			x: 7.25d
+			y: 9.5d
+			shape: "diamond"
+			optional: true
+			id: "2E8A6F64534263B1"
+			tasks: [{
+				id: "4DA28B8CBAEA75F4"
+				type: "item"
+				item: "botania:agricarnation"
+			}]
+		}
+		{
+			x: 9.25d
+			y: 9.5d
+			shape: "diamond"
+			optional: true
+			id: "21EC8E188CB89FFB"
+			tasks: [{
+				id: "6D834AA0E9FD855F"
+				type: "item"
+				item: "botania:rannuncarpus"
+			}]
+		}
+		{
+			x: 8.25d
+			y: 9.5d
+			shape: "diamond"
+			optional: true
+			id: "30CC5C4BD6B80587"
+			tasks: [{
+				id: "5A26E6C1E1BF7D84"
+				type: "item"
+				item: "botania:hopperhock"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 10.5d
+			shape: "diamond"
+			optional: true
+			id: "52989C9EBA6EC2EE"
+			tasks: [{
+				id: "300D66479F671814"
+				type: "item"
+				item: "botania:munchdew"
+			}]
+		}
+		{
+			x: 10.25d
+			y: 9.5d
+			shape: "diamond"
+			optional: true
+			id: "55E939455723480F"
+			tasks: [{
+				id: "4A69C9AB1B9E0C62"
+				type: "item"
+				item: "botania:loonium"
+			}]
+		}
+		{
+			x: 8.75d
+			y: 8.75d
+			shape: "diamond"
+			optional: true
+			id: "2CCEA972A883D6CE"
+			tasks: [{
+				id: "7C33D7687C17AA3D"
+				type: "item"
+				item: "botania:clayconia"
+			}]
+		}
+		{
+			x: 7.75d
+			y: 8.75d
+			shape: "diamond"
+			optional: true
+			id: "4C8B8B2918ACC6D6"
+			tasks: [{
+				id: "3E9F44A621EED2ED"
+				type: "item"
+				item: "botania:orechid_ignem"
+			}]
+		}
+		{
+			x: 9.75d
+			y: 8.75d
+			shape: "diamond"
+			optional: true
+			id: "31246C6FDEBA9C3B"
+			tasks: [{
+				id: "5DD2F6776ED76ED6"
+				type: "item"
+				item: "botania:orechid"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 8.25d
+			shape: "diamond"
+			optional: true
+			id: "704CAF0D619E46D2"
+			tasks: [{
+				id: "0E9FD3ABE96BFECD"
+				type: "item"
+				item: "botania:dandelifeon"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 10.5d
+			shape: "diamond"
+			optional: true
+			id: "244E82D800AF1F89"
+			tasks: [{
+				id: "03F49959EDF1A4E8"
+				type: "item"
+				item: "botania:spectrolus"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 9.75d
+			shape: "diamond"
+			optional: true
+			id: "44DBA17F2699D1A1"
+			tasks: [{
+				id: "51A68C8CE4EA6CF9"
+				type: "item"
+				item: "botania:rafflowsia"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 9.0d
+			shape: "diamond"
+			optional: true
+			id: "171CD77C3E5AB286"
+			tasks: [{
+				id: "7D32BCE1E9EB454D"
+				type: "item"
+				item: "botania:narslimmus"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 9.75d
+			shape: "diamond"
+			optional: true
+			id: "79AFF8FD07F05FF8"
+			tasks: [{
+				id: "1A9A23D85F2CE839"
+				type: "item"
+				item: "botania:shulk_me_not"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 9.75d
+			shape: "diamond"
+			optional: true
+			id: "74DD69E80E49C15D"
+			tasks: [{
+				id: "002D69650013AAEF"
+				type: "item"
+				item: "botania:kekimurus"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 9.75d
+			shape: "diamond"
+			optional: true
+			id: "37E12E8DFDE7961C"
+			tasks: [{
+				id: "61B74294D35E3E52"
+				type: "item"
+				item: "botania:gourmaryllis"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 9.0d
+			shape: "diamond"
+			optional: true
+			id: "77F69DF7CEA20FAA"
+			tasks: [{
+				id: "35C873145EDB332A"
+				type: "item"
+				item: "botania:entropinnyum"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 8.25d
+			shape: "diamond"
+			optional: true
+			id: "723D51915726F898"
+			tasks: [{
+				id: "62EA19B0E67E1DBE"
+				type: "item"
+				item: "botania:thermalily"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 8.25d
+			shape: "diamond"
+			optional: true
+			id: "5EE30E24C7F97C9A"
+			tasks: [{
+				id: "05BD392A4BA85208"
+				type: "item"
+				item: "botania:endoflame"
+			}]
+		}
 	]
 }

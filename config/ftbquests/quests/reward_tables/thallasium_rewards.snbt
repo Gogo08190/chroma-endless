@@ -1,0 +1,26 @@
+{
+	id: "0D55C142F97E43EC"
+	order_index: 5
+	title: "Thallasium Rewards"
+	icon: "betterendforge:thallasium_bulb_lantern_magenta"
+	loot_size: 1
+	rewards: [
+		{ item: "betterendforge:thallasium_bulb_lantern" }
+		{ item: "betterendforge:thallasium_bulb_lantern_white" }
+		{ item: "betterendforge:thallasium_bulb_lantern_orange" }
+		{ item: "betterendforge:thallasium_bulb_lantern_magenta" }
+		{ item: "betterendforge:thallasium_bulb_lantern_light_blue" }
+		{ item: "betterendforge:thallasium_bulb_lantern_yellow" }
+		{ item: "betterendforge:thallasium_bulb_lantern_lime" }
+		{ item: "betterendforge:thallasium_bulb_lantern_pink" }
+		{ item: "betterendforge:thallasium_bulb_lantern_gray" }
+		{ item: "betterendforge:thallasium_bulb_lantern_light_gray" }
+		{ item: "betterendforge:thallasium_bulb_lantern_cyan" }
+		{ item: "betterendforge:thallasium_bulb_lantern_purple" }
+		{ item: "betterendforge:thallasium_bulb_lantern_blue" }
+		{ item: "betterendforge:thallasium_bulb_lantern_brown" }
+		{ item: "betterendforge:thallasium_bulb_lantern_green" }
+		{ item: "betterendforge:thallasium_bulb_lantern_red" }
+		{ item: "betterendforge:thallasium_bulb_lantern_black" }
+	]
+}

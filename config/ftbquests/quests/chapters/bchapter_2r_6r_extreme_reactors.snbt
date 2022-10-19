@@ -411,7 +411,7 @@
 			title: "&#009C00Verderium&r"
 			x: 6.5d
 			y: -2.25d
-			description: ["Verderium will be obtain in a Fluidizer with Liquid Blutonium and Liquid Yellorium."]
+			description: ["Verderium can be obtained in a &6Fluidizer&r with Liquid Blutonium and Liquid Yellorium."]
 			dependencies: [
 				"4CB53826EBA5CDB9"
 				"1A1D558E7ECDF699"
@@ -428,7 +428,7 @@
 			title: "&#6A0000Rossinite&r"
 			x: 3.75d
 			y: 3.5d
-			description: ["&#6A0000Liquid Rossinite&r will be obtain in a Reinforced Reactor with &#009C00Verderium Fuel&r."]
+			description: ["&#6A0000Liquid Rossinite&r can be obtained in a Reinforced Reactor with &#009C00Verderium Fuel&r."]
 			dependencies: ["6C6C2266CF4C0ECB"]
 			id: "3DC38D81B2EAB898"
 			tasks: [{
@@ -443,7 +443,7 @@
 			x: 1.75d
 			y: 6.0d
 			shape: "gear"
-			description: ["Obtain &#F53389Inanite&r in a Reprocessor with &#D2B8D5Ridiculite&r and &#D2B8D5Liquid Rossinite&r."]
+			description: ["Get &#F53389Inanite&r in a Reprocessor with &#D2B8D5Ridiculite&r and &#D2B8D5Liquid Rossinite&r."]
 			dependencies: [
 				"63C3991EACE67994"
 				"3DC38D81B2EAB898"
@@ -481,7 +481,7 @@
 			x: -4.25d
 			y: 6.0d
 			shape: "gear"
-			description: ["Obtain &#7D08AFLudicrite&r in a Reprocessor with &#1D1DB4Blutonium&r and &#97E9FFLiquid Cyanite&r."]
+			description: ["Get &#7D08AFLudicrite&r in a Reprocessor with &#1D1DB4Blutonium&r and &#97E9FFLiquid Cyanite&r."]
 			dependencies: [
 				"07E1BACA00C7D0D7"
 				"311902BAD0F0EFE0"
@@ -500,7 +500,7 @@
 			x: -7.25d
 			y: 6.0d
 			shape: "gear"
-			description: ["Obtain &#1D1DB4Blutonium&r in a Reprocessor with &#97E9FFCyanite&r and &bWater&r."]
+			description: ["Get &#1D1DB4Blutonium&r in a Reprocessor with &#97E9FFCyanite&r and &bWater&r."]
 			dependencies: ["45FC67AC6AAD4EBA"]
 			size: 2.0d
 			id: "07E1BACA00C7D0D7"
@@ -516,7 +516,7 @@
 			x: -10.25d
 			y: 6.0d
 			shape: "gear"
-			description: ["Obtain &#EA26EAMagentite&r in a Reinforced Reactor with &#1D1DB4Blutonium fuel&r."]
+			description: ["Get &#EA26EAMagentite&r in a Reinforced Reactor with &#1D1DB4Blutonium fuel&r."]
 			dependencies: [
 				"07E1BACA00C7D0D7"
 				"7B661F962DD0685C"
@@ -534,7 +534,7 @@
 			title: "&#EA26EALiquid Magentite&r"
 			x: 1.75d
 			y: 3.5d
-			description: ["&#EA26EALiquid Magentite&r will be obtain in a Fluidizer with &#EA26EAMagentite ingot&r."]
+			description: ["&#EA26EALiquid Magentite&r can be obtained in a Fluidizer with &#EA26EAMagentite ingot&r."]
 			dependencies: [
 				"6DC4C73055E5FE09"
 				"4F46D07D4530D22B"
@@ -550,7 +550,7 @@
 			title: "&#97E9FFLiquid Cyanite&r"
 			x: -0.25d
 			y: 3.5d
-			description: ["&#97E9FFLiquid Cyanite&r will be obtain in a Fluidizer with &#97E9FFCyanite ingot&r."]
+			description: ["&#97E9FFLiquid Cyanite&r can be obtained in a Fluidizer with &#97E9FFCyanite ingot&r."]
 			hide_dependency_lines: false
 			dependencies: ["4F46D07D4530D22B"]
 			dependency_requirement: "one_completed"

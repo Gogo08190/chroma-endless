@@ -50,6 +50,11 @@
 				type: "item"
 				item: "alexsmobs:animal_dictionary"
 			}]
+			rewards: [{
+				id: "69F18F6FA51359EC"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: -1.75d
@@ -61,6 +66,11 @@
 				type: "advancement"
 				advancement: "alexsmobs:alexsmobs/tame_bald_eagle"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "0018B9EDB66313EC"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -74,6 +84,11 @@
 				advancement: "alexsmobs:alexsmobs/sunbird_blessing"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "24E919F0C159B593"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: -10.75d
@@ -86,6 +101,11 @@
 				advancement: "alexsmobs:alexsmobs/tame_mantis_shrimp"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "04C5F445A2B6C03F"
+				type: "item"
+				item: "minecraft:tropical_fish"
+			}]
 		}
 		{
 			x: -2.5d
@@ -97,6 +117,11 @@
 				type: "advancement"
 				advancement: "alexsmobs:alexsmobs/seagull_steal"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "4E5F9188F9C55D87"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -117,6 +142,11 @@
 					item: "alexsmobs:banana"
 				}
 			]
+			rewards: [{
+				id: "0301D9BA5FF8A113"
+				type: "item"
+				item: "alexsmobs:banana"
+			}]
 		}
 		{
 			x: -2.25d
@@ -141,6 +171,11 @@
 					item: "alexsmobs:falconry_glove"
 				}
 			]
+			rewards: [{
+				id: "58B03606E1A0ACF4"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: -3.5d
@@ -165,6 +200,11 @@
 					item: "alexsmobs:falconry_hood"
 				}
 			]
+			rewards: [{
+				id: "33BE977D592BFDF3"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: -4.75d
@@ -177,6 +217,11 @@
 				type: "advancement"
 				advancement: "alexsmobs:alexsmobs/bald_eagle_challenge"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "5AF016563B45BB5C"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -191,6 +236,11 @@
 				advancement: "alexsmobs:alexsmobs/mantis_shrimp_bucket"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "5F6127CEF51487B1"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: -13.25d
@@ -203,6 +253,11 @@
 				type: "advancement"
 				advancement: "alexsmobs:alexsmobs/tame_capuchin"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "0B76FFE4BE6AB1E1"
+				type: "item"
+				item: "alexsmobs:banana"
 			}]
 		}
 		{
@@ -217,6 +272,11 @@
 				advancement: "alexsmobs:alexsmobs/sopa_de_macaco"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "1ED6B82277D93BF2"
+				type: "item"
+				item: "alexsmobs:sopa_de_macaco"
+			}]
 		}
 		{
 			x: -12.0d
@@ -230,6 +290,11 @@
 				advancement: "alexsmobs:alexsmobs/tame_gorilla"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "7F1BE0DD017990DA"
+				type: "item"
+				item: "alexsmobs:banana"
+			}]
 		}
 		{
 			x: -10.25d
@@ -241,6 +306,11 @@
 				type: "advancement"
 				advancement: "alexsmobs:alexsmobs/soul_vulture"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "0FC8A5CE30CA80AC"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -262,6 +332,11 @@
 					item: "alexsmobs:soul_heart"
 				}
 			]
+			rewards: [{
+				id: "686535A14306DC79"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: -7.5d
@@ -275,6 +350,11 @@
 				advancement: "alexsmobs:alexsmobs/spectre"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "386DDDA4A3B07118"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: -12.5d
@@ -286,6 +366,11 @@
 				type: "advancement"
 				advancement: "alexsmobs:alexsmobs/straddler"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "29DD6203EAE5A01E"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -299,6 +384,11 @@
 				type: "advancement"
 				advancement: "alexsmobs:alexsmobs/stradpole_feed"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "17EB0725FB49F305"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -326,6 +416,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "3772FBA13FD8CD48"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: -3.5d
@@ -337,6 +432,11 @@
 				type: "advancement"
 				advancement: "alexsmobs:alexsmobs/guster"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "4D33AE273FCC0C06"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -365,6 +465,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "6E776CA6C97CAB68"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: -2.25d
@@ -385,6 +490,11 @@
 					item: "alexsmobs:gustmaker"
 				}
 			]
+			rewards: [{
+				id: "2868FB64C0BBFF76"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: -9.5d
@@ -396,6 +506,11 @@
 				type: "advancement"
 				advancement: "alexsmobs:alexsmobs/breed_hummingbird"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "7BF0B0344BF99D23"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -417,6 +532,11 @@
 					item: "alexsmobs:hummingbird_feeder"
 				}
 			]
+			rewards: [{
+				id: "649DDC2E46438FAC"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: -11.5d
@@ -428,6 +548,11 @@
 				type: "advancement"
 				advancement: "alexsmobs:alexsmobs/kangaroo"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "6766EE84581D61D8"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -442,6 +567,11 @@
 				advancement: "alexsmobs:alexsmobs/emu_dodge"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "45AC6DA8A04219F1"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: -12.5d
@@ -455,6 +585,11 @@
 				advancement: "alexsmobs:alexsmobs/emu"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "279BEEE2731B1CDE"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: -4.75d
@@ -466,6 +601,11 @@
 				type: "advancement"
 				advancement: "alexsmobs:alexsmobs/save_cachalot_whale"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "6E8AFA0FA87AF17A"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -493,6 +633,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "36B463A9CDCF5D29"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: -2.0d
@@ -519,6 +664,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "7C3FC515264C2276"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: -13.75d
@@ -530,6 +680,11 @@
 				type: "advancement"
 				advancement: "alexsmobs:alexsmobs/rattlesnake"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "3A067227F44F644A"
+				type: "item"
+				item: "alexsmobs:rattlesnake_rattle"
 			}]
 		}
 		{
@@ -551,6 +706,11 @@
 					item: "alexsmobs:maraca"
 				}
 			]
+			rewards: [{
+				id: "5B288B4621921594"
+				type: "item"
+				item: "alexsmobs:maraca"
+			}]
 		}
 		{
 			x: -11.75d
@@ -565,6 +725,11 @@
 				advancement: "alexsmobs:alexsmobs/la_cucaracha"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "6CB4F43C66F7F90A"
+				type: "item"
+				item: "immersiveengineering:earmuffs"
+			}]
 		}
 		{
 			x: -11.25d
@@ -576,6 +741,11 @@
 				type: "advancement"
 				advancement: "alexsmobs:alexsmobs/crimson_mosquito"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "684CF344008F4C33"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -602,6 +772,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "4D94300253CB8ADA"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: -10.75d
@@ -621,6 +796,11 @@
 					item: "alexsmobs:mosquito_larva"
 				}
 			]
+			rewards: [{
+				id: "30570015293478EB"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: -11.5d
@@ -637,6 +817,11 @@
 				advancement: "alexsmobs:alexsmobs/crimson_mosquito_sick"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "78F1480F024AD816"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: -12.0d
@@ -648,6 +833,11 @@
 				type: "advancement"
 				advancement: "alexsmobs:alexsmobs/tame_warped_toad"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "6690C6435A874BD6"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -661,6 +851,11 @@
 				type: "advancement"
 				advancement: "alexsmobs:alexsmobs/warped_mosco_kill"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "5335D3990E97115A"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -688,6 +883,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "2CCC07775874F62C"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: -8.75d
@@ -699,6 +899,11 @@
 				type: "advancement"
 				advancement: "alexsmobs:alexsmobs/crocodile"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "408F98FA29F4F7BA"
+				type: "item"
+				item: "alexsmobs:crocodile_scute"
 			}]
 		}
 		{
@@ -712,6 +917,11 @@
 				type: "advancement"
 				advancement: "alexsmobs:alexsmobs/alligator_snapping_turtle"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "4A54FD4558C28213"
+				type: "item"
+				item: "minecraft:turtle_egg"
 			}]
 		}
 		{
@@ -729,6 +939,11 @@
 				type: "advancement"
 				advancement: "alexsmobs:alexsmobs/breed_crocodile"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "520A70BC4496311F"
+				type: "item"
+				item: "alexsmobs:crocodile_egg"
 			}]
 		}
 		{
@@ -756,6 +971,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "358756402CC9D4E8"
+				type: "item"
+				item: "alexsmobs:crocodile_scute"
+			}]
 		}
 		{
 			x: -7.25d
@@ -776,6 +996,11 @@
 					item: "alexsmobs:spiked_scute"
 				}
 			]
+			rewards: [{
+				id: "0F953573158FDB86"
+				type: "item"
+				item: "alexsmobs:spiked_scute"
+			}]
 		}
 		{
 			x: -6.25d
@@ -802,6 +1027,17 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "19625A70FD608C6C"
+				type: "item"
+				item: {
+					id: "minecraft:turtle_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			x: -6.5d
@@ -813,6 +1049,11 @@
 				type: "advancement"
 				advancement: "alexsmobs:alexsmobs/orcas_might"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "4A89F905C77A2732"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -829,6 +1070,11 @@
 				type: "advancement"
 				advancement: "alexsmobs:alexsmobs/enderiophage"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "3D6CCE374E316347"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -847,6 +1093,11 @@
 				advancement: "alexsmobs:alexsmobs/ender_flu"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "657B7FB6D5D7FDC1"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: -7.75d
@@ -863,6 +1114,11 @@
 				type: "advancement"
 				advancement: "alexsmobs:alexsmobs/capsid"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "2A7772BEF43C8513"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -884,6 +1140,11 @@
 					item: "alexsmobs:enderiophage_rocket"
 				}
 			]
+			rewards: [{
+				id: "7E2F995A4FA990F4"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: -9.0d
@@ -896,6 +1157,11 @@
 				type: "advancement"
 				advancement: "alexsmobs:alexsmobs/mysterious_worm"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "6D3E71774617FCAB"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -910,6 +1176,11 @@
 				advancement: "alexsmobs:alexsmobs/void_worm_summon"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "6543FCB2B966720B"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: -7.25d
@@ -923,6 +1194,11 @@
 				advancement: "alexsmobs:alexsmobs/void_worm_split"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "3B19CE6AC1BD01CE"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: -6.75d
@@ -935,6 +1211,11 @@
 				type: "advancement"
 				advancement: "alexsmobs:alexsmobs/void_worm_kill"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "3787F98431903AFE"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -962,6 +1243,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "28A333A8B9A926EA"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: -2.75d
@@ -981,6 +1267,11 @@
 					item: "alexsmobs:acacia_blossom"
 				}
 			]
+			rewards: [{
+				id: "7C857907DBAE9C1C"
+				type: "item"
+				item: "alexsmobs:acacia_blossom"
+			}]
 		}
 		{
 			x: -2.75d
@@ -993,6 +1284,11 @@
 				type: "advancement"
 				advancement: "alexsmobs:alexsmobs/tame_elephant"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "3AF810953855015F"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -1007,6 +1303,11 @@
 				advancement: "alexsmobs:alexsmobs/tame_elephant_tusked"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "4D4ACEF730DC9B55"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: -4.25d
@@ -1020,6 +1321,11 @@
 				advancement: "alexsmobs:alexsmobs/elephant_swag"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "6362D251FA294FFA"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: -5.75d
@@ -1031,6 +1337,11 @@
 				type: "advancement"
 				advancement: "alexsmobs:alexsmobs/grizzly_bear"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "259FCCBA00D3B8B4"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -1045,6 +1356,11 @@
 				advancement: "alexsmobs:alexsmobs/tame_grizzly_bear"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "7444DDDD0297C737"
+				type: "item"
+				item: "minecraft:salmon_bucket"
+			}]
 		}
 		{
 			x: -12.0d
@@ -1057,6 +1373,11 @@
 				advancement: "alexsmobs:alexsmobs/tigers_blessing"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "38D4138600D1EA8E"
+				type: "item"
+				item: "minecraft:porkchop"
+			}]
 		}
 		{
 			x: -6.75d
@@ -1068,6 +1389,11 @@
 				type: "advancement"
 				advancement: "alexsmobs:alexsmobs/stomp_leafcutter_anthill"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "7C376EB09F1F83C8"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -1089,6 +1415,11 @@
 					item: "alexsmobs:gongylidia"
 				}
 			]
+			rewards: [{
+				id: "2CCD16249F0B03A2"
+				type: "item"
+				item: "alexsmobs:gongylidia"
+			}]
 		}
 		{
 			x: -7.25d
@@ -1109,6 +1440,11 @@
 					item: "alexsmobs:leafcutter_ant_pupa"
 				}
 			]
+			rewards: [{
+				id: "72266B307A562FA4"
+				type: "item"
+				item: "alexsmobs:leafcutter_ant_pupa"
+			}]
 		}
 		{
 			x: -4.75d
@@ -1120,6 +1456,11 @@
 				type: "advancement"
 				advancement: "alexsmobs:alexsmobs/tarantula_hawk"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "4719CD6C407601C4"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -1143,6 +1484,11 @@
 			id: "74E91FB7E82BA7E3"
 			tasks: [{
 				id: "7ABBABB2EF9EF28A"
+				type: "item"
+				item: "alexsmobs:banana_peel"
+			}]
+			rewards: [{
+				id: "6CD90826881CF5E2"
 				type: "item"
 				item: "alexsmobs:banana_peel"
 			}]

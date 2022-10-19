@@ -1,0 +1,12 @@
+{
+	id: "5522BA997D40DB86"
+	order_index: 2
+	title: "Tetra Hammer Upgrade"
+	icon: "tetra:combustion_chamber"
+	loot_size: 1
+	rewards: [
+		{ item: "tetra:combustion_chamber" }
+		{ item: "tetra:planar_stabilizer" }
+		{ item: "tetra:vent_plate" }
+	]
+}

@@ -1,0 +1,14 @@
+{
+	id: "11821E0E986716B1"
+	order_index: 1
+	title: "Tetra Useful Items"
+	icon: "tetra:forged_bolt"
+	loot_size: 1
+	rewards: [
+		{ item: "tetra:forged_bolt" }
+		{ item: "tetra:forged_beam" }
+		{ item: "tetra:forged_mesh" }
+		{ item: "tetra:quick_latch" }
+		{ item: "tetra:metal_scrap" }
+	]
+}

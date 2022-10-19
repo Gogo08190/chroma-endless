@@ -807,7 +807,8 @@
 			subtitle: "Afrit Boss"
 			description: [
 				"In order to spawn this new &cboss&r, you shall assemble the four elements of &0&ldarkness&r."
-				"  &k&b&lIesnium Ingot&r &k&4&lFire Shard&r &5&l&kSource Gem&r &9&l&kPixie Dust&r"
+				""
+				"{image:chroma:textures/quests/afrit_essence_craft.png width:150 height:150 align:1}"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -817,7 +818,6 @@
 				"717F8022297E00D2"
 				"42B4D74321A27197"
 			]
-			min_width: 300
 			id: "6E562801A73D8A28"
 			tasks: [{
 				id: "2AAFA71A5489CD90"

@@ -1,0 +1,34 @@
+{
+	id: "5A8C66C503E0BDA4"
+	order_index: 6
+	title: "Ores"
+	icon: "lootr:lootr_chest"
+	loot_size: 1
+	rewards: [
+		{ item: "emendatusenigmatica:coal_ore", random_bonus: 4 }
+		{ item: "emendatusenigmatica:iron_ore", random_bonus: 4 }
+		{ item: "emendatusenigmatica:gold_ore", random_bonus: 4 }
+		{ item: "emendatusenigmatica:diamond_ore", random_bonus: 4 }
+		{ item: "emendatusenigmatica:emerald_ore", random_bonus: 4 }
+		{ item: "emendatusenigmatica:lapis_ore", random_bonus: 4 }
+		{ item: "emendatusenigmatica:redstone_ore", random_bonus: 4 }
+		{ item: "emendatusenigmatica:quartz_ore", random_bonus: 4 }
+		{ item: "emendatusenigmatica:copper_ore", random_bonus: 4 }
+		{ item: "emendatusenigmatica:aluminum_ore", random_bonus: 4 }
+		{ item: "emendatusenigmatica:silver_ore", random_bonus: 4 }
+		{ item: "emendatusenigmatica:lead_ore", random_bonus: 4 }
+		{ item: "emendatusenigmatica:nickel_ore", random_bonus: 4 }
+		{ item: "emendatusenigmatica:uranium_ore", random_bonus: 4 }
+		{ item: "emendatusenigmatica:osmium_ore", random_bonus: 4 }
+		{ item: "emendatusenigmatica:tin_ore", random_bonus: 4 }
+		{ item: "emendatusenigmatica:zinc_ore", random_bonus: 4 }
+		{ item: "emendatusenigmatica:cobalt_ore", random_bonus: 2 }
+		{ item: "emendatusenigmatica:fluorite_ore", random_bonus: 4 }
+		{ item: "emendatusenigmatica:bitumen_ore" }
+		{ item: "emendatusenigmatica:cinnabar_ore", random_bonus: 4 }
+		{ item: "emendatusenigmatica:apatite_ore", random_bonus: 4 }
+		{ item: "emendatusenigmatica:potassium_nitrate_ore", random_bonus: 4 }
+		{ item: "emendatusenigmatica:arcane_ore", random_bonus: 4 }
+		{ item: "emendatusenigmatica:dimensional_ore", random_bonus: 3 }
+	]
+}

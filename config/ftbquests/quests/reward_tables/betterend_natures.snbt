@@ -1,0 +1,30 @@
+{
+	id: "307B99ADE6911181"
+	order_index: 3
+	title: "BetterEnd Natures"
+	icon: "betterendforge:lacugrove_sapling"
+	loot_size: 1
+	rewards: [
+		{ item: "betterendforge:umbrella_tree_sapling" }
+		{ item: "betterendforge:lacugrove_sapling" }
+		{ item: "betterendforge:hydralux_sapling" }
+		{ item: "betterendforge:pythadendron_sapling" }
+		{ item: "betterendforge:dragon_tree_sapling" }
+		{ item: "betterendforge:tenanea_sapling" }
+		{ item: "betterendforge:helix_tree_sapling" }
+		{ item: "betterendforge:mossy_glowshroom_sapling" }
+		{ item: "betterendforge:lucernia_sapling" }
+		{ item: "betterendforge:blue_vine_seed" }
+		{ item: "betterendforge:end_lily_seed" }
+		{ item: "betterendforge:end_lotus_seed" }
+		{ item: "betterendforge:lanceleaf_seed" }
+		{ item: "betterendforge:lumecorn_seed" }
+		{ item: "betterendforge:glowing_pillar_seed" }
+		{ item: "betterendforge:shadow_berry" }
+		{ item: "betterendforge:blossom_berry_seed" }
+		{ item: "betterendforge:amber_root_seed" }
+		{ item: "betterendforge:chorus_mushroom_seed" }
+		{ item: "betterendforge:dense_vine" }
+		{ item: "betterendforge:bulb_vine_seed" }
+	]
+}

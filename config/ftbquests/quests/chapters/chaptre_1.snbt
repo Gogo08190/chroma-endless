@@ -95,6 +95,11 @@
 				title: "&#806517Crafting Table&r"
 				item: "minecraft:crafting_table"
 			}]
+			rewards: [{
+				id: "323975878B818CDE"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: 2.25d
@@ -113,6 +118,11 @@
 				type: "item"
 				item: "tetra:chthonic_extractor"
 			}]
+			rewards: [{
+				id: "25A43401062ACB09"
+				type: "item"
+				item: "tetra:geode"
+			}]
 		}
 		{
 			x: 2.25d
@@ -124,6 +134,11 @@
 				id: "3F35FC8F90AA2915"
 				type: "item"
 				item: "tetra:forged_container"
+			}]
+			rewards: [{
+				id: "52D6DF0AADFCCA34"
+				type: "item"
+				item: "tetra:geode"
 			}]
 		}
 		{
@@ -162,6 +177,11 @@
 					item: "tetra:forged_bolt"
 				}
 			]
+			rewards: [{
+				id: "03539387C029B595"
+				type: "choice"
+				table_id: 1261603893652428465L
+			}]
 		}
 		{
 			x: 4.0d
@@ -180,6 +200,11 @@
 				type: "item"
 				item: "tetra:earthpiercer"
 			}]
+			rewards: [{
+				id: "797731F5A56FAD4B"
+				type: "item"
+				item: "tetra:geode"
+			}]
 		}
 		{
 			x: 4.0d
@@ -193,6 +218,11 @@
 				id: "011198254130DFC1"
 				type: "item"
 				item: "tetra:stonecutter"
+			}]
+			rewards: [{
+				id: "16317C37B251B21D"
+				type: "item"
+				item: "tetra:geode"
 			}]
 		}
 		{
@@ -226,6 +256,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "38EE05F99B1FFB8C"
+				type: "choice"
+				table_id: 6134670810826201990L
+			}]
 		}
 		{
 			x: 2.25d
@@ -238,6 +273,11 @@
 				id: "75DB8BBA001DF6D3"
 				type: "item"
 				item: "tetra:hammer_base"
+			}]
+			rewards: [{
+				id: "431818407142B1E4"
+				type: "item"
+				item: "tetra:geode"
 			}]
 		}
 		{
@@ -256,6 +296,12 @@
 				advancement: "tetra:upgrades/hammer_5"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "1B9FB2CAA31C2177"
+				type: "item"
+				item: "minecraft:obsidian"
+				count: 2
+			}]
 		}
 		{
 			title: "Tier 6"
@@ -271,6 +317,12 @@
 				title: "Netherite Hammer"
 				advancement: "tetra:upgrades/hammer_6"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "2194461AF44B49E7"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+				count: 2
 			}]
 		}
 		{
@@ -292,6 +344,11 @@
 				}
 				count: 2L
 			}]
+			rewards: [{
+				id: "7D877B2A71D0A817"
+				type: "item"
+				item: "tetra:geode"
+			}]
 		}
 		{
 			title: "Tier 4"
@@ -306,6 +363,12 @@
 				advancement: "tetra:upgrades/hammer_4"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "3598BF69B0D4C604"
+				type: "item"
+				item: "minecraft:blackstone"
+				count: 2
+			}]
 		}
 		{
 			title: "Tier 3"
@@ -319,6 +382,12 @@
 				title: "Iron Hammer"
 				advancement: "tetra:upgrades/hammer_3"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "2A6414A944BE15F6"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 2
 			}]
 		}
 		{
@@ -361,6 +430,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "18C0D1A72E4A7A8B"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
 		}
 		{
 			x: -2.25d
@@ -382,6 +456,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0A479370BDB04BAB"
+				type: "item"
+				item: "tetra:metal_scrap"
+				count: 2
+			}]
 		}
 		{
 			title: "Tier 2"
@@ -395,6 +475,12 @@
 				title: "Stone Hammer"
 				advancement: "tetra:upgrades/hammer_2"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "7EE20533AA7C3D68"
+				type: "item"
+				item: "minecraft:stone"
+				count: 2
 			}]
 		}
 		{
@@ -430,6 +516,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "006C6A3BE3B7E44A"
+				type: "item"
+				item: "minecraft:oak_planks"
+				count: 4
+			}]
 		}
 		{
 			title: "Tinkers' Construct / Tetra"
@@ -458,6 +550,11 @@
 				id: "5905919B35D651A5"
 				type: "checkmark"
 				title: "&aValidate&r"
+			}]
+			rewards: [{
+				id: "2D1856809FE10478"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -501,6 +598,12 @@
 					item: "tconstruct:tinker_station"
 				}
 			]
+			rewards: [{
+				id: "68F96A64BC6AD5CE"
+				type: "item"
+				item: "tconstruct:pattern"
+				count: 2
+			}]
 		}
 		{
 			title: "Tinker's Chests"
@@ -520,6 +623,12 @@
 					item: "tconstruct:tinkers_chest"
 				}
 			]
+			rewards: [{
+				id: "19D6566D180E59AE"
+				type: "item"
+				item: "tconstruct:pattern"
+				count: 5
+			}]
 		}
 		{
 			x: -10.25d
@@ -531,6 +640,12 @@
 				id: "54CC8EDE1D6BDAB7"
 				type: "item"
 				item: "tconstruct:flint_shuriken"
+			}]
+			rewards: [{
+				id: "407CAA3FC80A2379"
+				type: "item"
+				item: "minecraft:flint"
+				count: 4
 			}]
 		}
 		{
@@ -638,6 +753,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "1F76C5009639947B"
+				type: "item"
+				item: "minecraft:leather"
+				count: 5
+			}]
 		}
 		{
 			x: -11.25d
@@ -650,6 +771,12 @@
 				type: "item"
 				item: "tconstruct:efln_ball"
 			}]
+			rewards: [{
+				id: "39EBE3C404571FCE"
+				type: "item"
+				item: "minecraft:gunpowder"
+				count: 2
+			}]
 		}
 		{
 			x: -11.25d
@@ -661,6 +788,12 @@
 				id: "0278E7E1AAD5AFF3"
 				type: "item"
 				item: "tconstruct:quartz_shuriken"
+			}]
+			rewards: [{
+				id: "7E677FAD8074D925"
+				type: "item"
+				item: "minecraft:quartz"
+				count: 4
 			}]
 		}
 		{
@@ -743,6 +876,18 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6A8E19842CE901F8"
+				type: "item"
+				item: {
+					id: "tconstruct:repair_kit"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:wood"
+					}
+				}
+				count: 5
+			}]
 		}
 		{
 			title: "&#806517Wooden Pickaxe&r Parts"
@@ -796,6 +941,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "3E31CAA6B5DE0581"
+				type: "item"
+				item: "minecraft:oak_planks"
+				count: 5
+			}]
 		}
 		{
 			title: "Cobblestone"
@@ -820,6 +971,13 @@
 					}
 				}
 				count: 16L
+			}]
+			rewards: [{
+				id: "5AF399B70A43B517"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 8
+				random_bonus: 8
 			}]
 		}
 		{
@@ -860,6 +1018,12 @@
 						"double/basic_handle_material": "basic_handle/stick"
 					}
 				}
+			}]
+			rewards: [{
+				id: "4D496BDD69797871"
+				type: "item"
+				item: "minecraft:oak_planks"
+				count: 5
 			}]
 		}
 		{
@@ -907,6 +1071,11 @@
 				type: "item"
 				item: "tetra:forged_crate"
 			}]
+			rewards: [{
+				id: "142380CB10EE32D4"
+				type: "item"
+				item: "tetra:geode"
+			}]
 		}
 		{
 			x: -0.75d
@@ -919,6 +1088,11 @@
 				id: "08A3A6C5FC45B509"
 				type: "item"
 				item: "tetra:transfer_unit"
+			}]
+			rewards: [{
+				id: "41A4FE0141D99E6C"
+				type: "item"
+				item: "tetra:geode"
 			}]
 		}
 		{
@@ -933,6 +1107,11 @@
 				type: "item"
 				item: "tetra:core_extractor"
 			}]
+			rewards: [{
+				id: "28E6C7AE4C55175E"
+				type: "item"
+				item: "tetra:geode"
+			}]
 		}
 		{
 			x: -1.25d
@@ -946,6 +1125,11 @@
 				type: "item"
 				item: "tetra:forged_wall"
 			}]
+			rewards: [{
+				id: "2E15578D61B8ED50"
+				type: "item"
+				item: "tetra:geode"
+			}]
 		}
 		{
 			x: -1.25d
@@ -958,6 +1142,11 @@
 				id: "497BF22934446E4F"
 				type: "item"
 				item: "tetra:forged_workbench"
+			}]
+			rewards: [{
+				id: "3ACCFB4D745CC7E6"
+				type: "item"
+				item: "tetra:geode"
 			}]
 		}
 		{
@@ -977,6 +1166,11 @@
 				timer: 0L
 				observe_type: 0
 				to_observe: "tetra:basic_workbench"
+			}]
+			rewards: [{
+				id: "4376045FE3F5940D"
+				type: "item"
+				item: "tetra:geode"
 			}]
 		}
 		{
@@ -1014,6 +1208,11 @@
 				type: "checkmark"
 				title: "&aValidate&r"
 			}]
+			rewards: [{
+				id: "3FA5C0D8F64592AB"
+				type: "item"
+				item: "create:builders_tea"
+			}]
 		}
 		{
 			title: "&bGold&r"
@@ -1031,6 +1230,11 @@
 				id: "537F9DB085A66BD8"
 				type: "item"
 				item: "emendatusenigmatica:gold_chunk"
+			}]
+			rewards: [{
+				id: "5F55D58D21ADD797"
+				type: "item"
+				item: "minecraft:gold_ingot"
 			}]
 		}
 		{
@@ -1050,6 +1254,11 @@
 				type: "item"
 				item: "emendatusenigmatica:iron_chunk"
 			}]
+			rewards: [{
+				id: "23B7B6FE6F14DCC1"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
 		}
 		{
 			title: "&6Coal&r"
@@ -1065,6 +1274,11 @@
 			id: "1A641FA1C6E549DB"
 			tasks: [{
 				id: "320B0C11386DCE8F"
+				type: "item"
+				item: "minecraft:coal"
+			}]
+			rewards: [{
+				id: "14A76A42B1380AE1"
 				type: "item"
 				item: "minecraft:coal"
 			}]
@@ -1086,6 +1300,11 @@
 				type: "item"
 				item: "emendatusenigmatica:copper_chunk"
 			}]
+			rewards: [{
+				id: "2B45A96EFC635197"
+				type: "item"
+				item: "emendatusenigmatica:copper_ingot"
+			}]
 		}
 		{
 			title: "&bUranium&r"
@@ -1104,6 +1323,11 @@
 				type: "item"
 				item: "emendatusenigmatica:uranium_chunk"
 			}]
+			rewards: [{
+				id: "7759A6167EB37639"
+				type: "item"
+				item: "emendatusenigmatica:uranium_ingot"
+			}]
 		}
 		{
 			title: "&bEmerald&r"
@@ -1119,6 +1343,11 @@
 			id: "63B277F4C396E4F7"
 			tasks: [{
 				id: "2DB94DDE60BB621E"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+			rewards: [{
+				id: "2403F8B7627F93EB"
 				type: "item"
 				item: "minecraft:emerald"
 			}]
@@ -1140,6 +1369,11 @@
 				type: "item"
 				item: "emendatusenigmatica:dimensional_gem"
 			}]
+			rewards: [{
+				id: "2809388925503A76"
+				type: "item"
+				item: "emendatusenigmatica:dimensional_gem"
+			}]
 		}
 		{
 			title: "&6Cinnabar&r"
@@ -1157,6 +1391,11 @@
 				id: "7F4573A304764D8A"
 				type: "item"
 				item: "emendatusenigmatica:cinnabar_chunk"
+			}]
+			rewards: [{
+				id: "6D417E6C2C67B0EC"
+				type: "item"
+				item: "emendatusenigmatica:cinnabar_gem"
 			}]
 		}
 		{
@@ -1196,6 +1435,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "14FF916DD6C163F1"
+				type: "item"
+				item: "powah:uraninite_raw"
+			}]
 		}
 		{
 			title: "&5Lapis Lazuli&r"
@@ -1211,6 +1455,11 @@
 			id: "50DB58A0B18629D9"
 			tasks: [{
 				id: "7D52E60AE4219CBC"
+				type: "item"
+				item: "minecraft:lapis_lazuli"
+			}]
+			rewards: [{
+				id: "1E0B5EE17A66CBE6"
 				type: "item"
 				item: "minecraft:lapis_lazuli"
 			}]
@@ -1232,6 +1481,11 @@
 				type: "item"
 				item: "minecraft:diamond"
 			}]
+			rewards: [{
+				id: "73A2091F3CEF3B08"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
 		}
 		{
 			title: "&bRedstone&r"
@@ -1246,6 +1500,11 @@
 			id: "52A9D4F9E61253F4"
 			tasks: [{
 				id: "29A1E3878C8462CB"
+				type: "item"
+				item: "minecraft:redstone"
+			}]
+			rewards: [{
+				id: "3B70FB91CF332A73"
 				type: "item"
 				item: "minecraft:redstone"
 			}]
@@ -1267,6 +1526,11 @@
 				type: "item"
 				item: "emendatusenigmatica:aluminum_chunk"
 			}]
+			rewards: [{
+				id: "2F168510946E4383"
+				type: "item"
+				item: "emendatusenigmatica:aluminum_ingot"
+			}]
 		}
 		{
 			title: "&5Fluorite&r"
@@ -1282,6 +1546,11 @@
 			id: "01204D8CC1E02844"
 			tasks: [{
 				id: "73A2BD333F42F3CF"
+				type: "item"
+				item: "emendatusenigmatica:fluorite_gem"
+			}]
+			rewards: [{
+				id: "2257996A462CCDDB"
 				type: "item"
 				item: "emendatusenigmatica:fluorite_gem"
 			}]
@@ -1303,6 +1572,11 @@
 				type: "item"
 				item: "emendatusenigmatica:bitumen_gem"
 			}]
+			rewards: [{
+				id: "1E0475932261C611"
+				type: "item"
+				item: "emendatusenigmatica:bitumen_gem"
+			}]
 		}
 		{
 			title: "&5Apatite&r"
@@ -1318,6 +1592,11 @@
 			id: "77499DE54CBB863E"
 			tasks: [{
 				id: "74390BE80E8F9137"
+				type: "item"
+				item: "emendatusenigmatica:apatite_gem"
+			}]
+			rewards: [{
+				id: "7E40073FF091B76B"
 				type: "item"
 				item: "emendatusenigmatica:apatite_gem"
 			}]
@@ -1339,6 +1618,11 @@
 				type: "item"
 				item: "emendatusenigmatica:tin_chunk"
 			}]
+			rewards: [{
+				id: "3AB1228845EAF616"
+				type: "item"
+				item: "emendatusenigmatica:tin_ingot"
+			}]
 		}
 		{
 			title: "&bDraconium&r"
@@ -1354,6 +1638,11 @@
 			id: "4A523013734520E4"
 			tasks: [{
 				id: "1817225CC9D8FBE7"
+				type: "item"
+				item: "draconicevolution:draconium_dust"
+			}]
+			rewards: [{
+				id: "346841A997B7AF7C"
 				type: "item"
 				item: "draconicevolution:draconium_dust"
 			}]
@@ -1375,6 +1664,11 @@
 				type: "item"
 				item: "emendatusenigmatica:silver_chunk"
 			}]
+			rewards: [{
+				id: "27FE0FE47A9E0E3C"
+				type: "item"
+				item: "emendatusenigmatica:silver_ingot"
+			}]
 		}
 		{
 			title: "&bZinc&r"
@@ -1393,6 +1687,11 @@
 				type: "item"
 				item: "emendatusenigmatica:zinc_chunk"
 			}]
+			rewards: [{
+				id: "4BB135D5B41DF31D"
+				type: "item"
+				item: "emendatusenigmatica:zinc_ingot"
+			}]
 		}
 		{
 			title: "&5Potassium Nitrate&r"
@@ -1408,6 +1707,11 @@
 			id: "6973FBAEF1EF28DC"
 			tasks: [{
 				id: "3CBD93D66CBF8B2A"
+				type: "item"
+				item: "emendatusenigmatica:potassium_nitrate_gem"
+			}]
+			rewards: [{
+				id: "52B4644085AD1A43"
 				type: "item"
 				item: "emendatusenigmatica:potassium_nitrate_gem"
 			}]
@@ -1429,6 +1733,11 @@
 				type: "item"
 				item: "emendatusenigmatica:osmium_chunk"
 			}]
+			rewards: [{
+				id: "2D8CB873794AC2BE"
+				type: "item"
+				item: "emendatusenigmatica:osmium_ingot"
+			}]
 		}
 		{
 			title: "&5Source Gem&r"
@@ -1444,6 +1753,11 @@
 			id: "577AC7DCEDCE1DE0"
 			tasks: [{
 				id: "267E6F2B5039FFF0"
+				type: "item"
+				item: "emendatusenigmatica:arcane_gem"
+			}]
+			rewards: [{
+				id: "0DE6D78EB8A925EC"
 				type: "item"
 				item: "emendatusenigmatica:arcane_gem"
 			}]
@@ -1465,6 +1779,11 @@
 				type: "item"
 				item: "emendatusenigmatica:lead_chunk"
 			}]
+			rewards: [{
+				id: "318985E245FB6A49"
+				type: "item"
+				item: "emendatusenigmatica:lead_ingot"
+			}]
 		}
 		{
 			title: "&bNickel&r"
@@ -1483,6 +1802,11 @@
 				type: "item"
 				item: "emendatusenigmatica:nickel_chunk"
 			}]
+			rewards: [{
+				id: "739A974F67286562"
+				type: "item"
+				item: "emendatusenigmatica:nickel_ingot"
+			}]
 		}
 		{
 			x: -2.75d
@@ -1500,6 +1824,13 @@
 				type: "item"
 				item: "minecraft:blast_furnace"
 			}]
+			rewards: [{
+				id: "6807656CEEB00F65"
+				type: "item"
+				item: "minecraft:coal"
+				count: 4
+				random_bonus: 8
+			}]
 		}
 		{
 			x: -7.25d
@@ -1513,6 +1844,13 @@
 				id: "07C7703EF7BF2EE3"
 				type: "item"
 				item: "minecraft:smoker"
+			}]
+			rewards: [{
+				id: "68912EFB5CEA6C50"
+				type: "item"
+				item: "minecraft:coal"
+				count: 4
+				random_bonus: 8
 			}]
 		}
 		{
@@ -1530,6 +1868,13 @@
 				type: "item"
 				item: "minecraft:furnace"
 			}]
+			rewards: [{
+				id: "44E4EFE442AE11F7"
+				type: "item"
+				item: "minecraft:coal"
+				count: 4
+				random_bonus: 8
+			}]
 		}
 		{
 			x: -5.0d
@@ -1541,6 +1886,11 @@
 			id: "766AF7476B2AA9B6"
 			tasks: [{
 				id: "54EEFBC52F7C967D"
+				type: "item"
+				item: "allthemodium:allthemodium_ore"
+			}]
+			rewards: [{
+				id: "23AA37918483ED65"
 				type: "item"
 				item: "allthemodium:allthemodium_ore"
 			}]

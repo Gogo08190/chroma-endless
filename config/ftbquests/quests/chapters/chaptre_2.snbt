@@ -23,6 +23,12 @@
 				advancement: "tconstruct:world/clay_island"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "01B23671B7402B1A"
+				type: "item"
+				item: "minecraft:clay_ball"
+				count: 16
+			}]
 		}
 		{
 			title: "&7Clay&r, &#C2B280Sand&r \\& &#909BA3Gravel&r for &7Grout&r"
@@ -60,6 +66,13 @@
 					count: 64L
 				}
 			]
+			rewards: [{
+				id: "5E2E4E7567E953E4"
+				type: "item"
+				item: "tconstruct:grout"
+				count: 16
+				random_bonus: 8
+			}]
 		}
 		{
 			title: "&2Tinkers' Construct Slime Islands&r"
@@ -153,6 +166,12 @@
 					command: "/ftbquests change_progress @p complete 10ABC481802465E1"
 					player_command: false
 				}
+				{
+					id: "02458968395F61C9"
+					type: "item"
+					item: "minecraft:slime_ball"
+					count: 16
+				}
 			]
 		}
 		{
@@ -229,6 +248,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "6AC7724CA1752A8B"
+				type: "item"
+				item: "minecraft:slime_block"
+				count: 4
+			}]
 		}
 		{
 			x: -1.0d
@@ -277,6 +302,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "026F846DCD63B737"
+				type: "item"
+				item: "minecraft:slime_ball"
+				count: 5
+			}]
 		}
 		{
 			x: -2.5d
@@ -290,6 +321,12 @@
 				type: "item"
 				item: "tconstruct:tinker_station"
 			}]
+			rewards: [{
+				id: "11478C0631B5897E"
+				type: "item"
+				item: "tconstruct:pattern"
+				count: 3
+			}]
 		}
 		{
 			x: -4.75d
@@ -301,6 +338,12 @@
 				id: "676501597E4C0701"
 				type: "item"
 				item: "tconstruct:pattern"
+			}]
+			rewards: [{
+				id: "7A0DDD6A9C671936"
+				type: "item"
+				item: "tconstruct:pattern"
+				count: 16
 			}]
 		}
 		{
@@ -315,6 +358,13 @@
 				title: "3x Blocks of Tinker's Bronze"
 				item: "tconstruct:tinkers_bronze_block"
 				count: 3L
+			}]
+			rewards: [{
+				id: "32532FA7166CCEC4"
+				type: "item"
+				item: "emendatusenigmatica:bronze_ingot"
+				count: 3
+				random_bonus: 3
 			}]
 		}
 		{
@@ -331,6 +381,11 @@
 				id: "239ECC5B5FF55428"
 				type: "item"
 				item: "tconstruct:tinkers_anvil"
+			}]
+			rewards: [{
+				id: "2F878CF74F065A2E"
+				type: "item"
+				item: "tconstruct:seared_reinforcement"
 			}]
 		}
 		{
@@ -410,9 +465,9 @@
 				}
 			]
 			rewards: [{
-				id: "39B2F3AAE1D45ACF"
+				id: "64B98FFB7090FD74"
 				type: "item"
-				item: "supplementaries:timber_brace"
+				item: "minecraft:lava_bucket"
 			}]
 		}
 		{
@@ -442,6 +497,13 @@
 					item: "tconstruct:seared_fuel_gauge"
 				}
 			]
+			rewards: [{
+				id: "40E4E3139055A178"
+				type: "item"
+				item: "tconstruct:seared_brick"
+				count: 2
+				random_bonus: 2
+			}]
 		}
 		{
 			icon: "tconstruct:seared_melter"
@@ -496,6 +558,12 @@
 					item: "tconstruct:seared_heater"
 				}
 			]
+			rewards: [{
+				id: "5A14BFBEA21DBB3A"
+				type: "item"
+				item: "tconstruct:seared_brick"
+				count: 16
+			}]
 		}
 		{
 			title: "Seared Bricks"
@@ -517,6 +585,13 @@
 				item: "tconstruct:seared_brick"
 				count: 8L
 			}]
+			rewards: [{
+				id: "1812C6BA8FFC8F0A"
+				type: "item"
+				item: "tconstruct:seared_brick"
+				count: 8
+				random_bonus: 8
+			}]
 		}
 		{
 			x: -10.25d
@@ -531,6 +606,12 @@
 				id: "62013FAABCBEBBCD"
 				type: "item"
 				item: "tconstruct:seared_lantern"
+			}]
+			rewards: [{
+				id: "1FE6AF2EA9AD8802"
+				type: "item"
+				item: "tconstruct:seared_lantern"
+				count: 3
 			}]
 		}
 		{
@@ -547,6 +628,12 @@
 				type: "item"
 				item: "tconstruct:seared_channel"
 			}]
+			rewards: [{
+				id: "78DDCD6A806E0B3A"
+				type: "item"
+				item: "tconstruct:seared_brick"
+				count: 4
+			}]
 		}
 		{
 			x: -12.25d
@@ -562,6 +649,12 @@
 				type: "item"
 				item: "tconstruct:seared_ingot_tank"
 			}]
+			rewards: [{
+				id: "06CD126815D0408D"
+				type: "item"
+				item: "tconstruct:seared_bricks"
+				count: 4
+			}]
 		}
 		{
 			x: -12.25d
@@ -576,6 +669,12 @@
 				id: "059C2FF7500C8422"
 				type: "item"
 				item: "tconstruct:seared_duct"
+			}]
+			rewards: [{
+				id: "3A70293BDCB43E95"
+				type: "item"
+				item: "tconstruct:seared_bricks"
+				count: 2
 			}]
 		}
 		{
@@ -644,6 +743,12 @@
 					item: "tconstruct:seared_glass_pane"
 				}
 			]
+			rewards: [{
+				id: "719DC868993EC497"
+				type: "item"
+				item: "tconstruct:seared_cobble_wall"
+				count: 5
+			}]
 		}
 		{
 			title: "Alternatives to Seared Bricks"
@@ -699,6 +804,12 @@
 					item: "tconstruct:seared_glass"
 				}
 			]
+			rewards: [{
+				id: "305564EF4A4D2EA4"
+				type: "item"
+				item: "tconstruct:seared_cobble"
+				count: 5
+			}]
 		}
 		{
 			x: -12.25d
@@ -714,6 +825,12 @@
 				type: "item"
 				item: "tconstruct:seared_chute"
 			}]
+			rewards: [{
+				id: "1EA912154C3975DA"
+				type: "item"
+				item: "tconstruct:seared_bricks"
+				count: 2
+			}]
 		}
 		{
 			x: -4.75d
@@ -725,6 +842,11 @@
 			id: "2B867BAFE6E5AACB"
 			tasks: [{
 				id: "22AE21ACC7179387"
+				type: "item"
+				item: "tconstruct:pig_iron_ingot"
+			}]
+			rewards: [{
+				id: "11B2B783526FBC97"
 				type: "item"
 				item: "tconstruct:pig_iron_ingot"
 			}]
@@ -740,6 +862,11 @@
 				type: "item"
 				item: "tconstruct:piggy_backpack"
 			}]
+			rewards: [{
+				id: "487585352B079B40"
+				type: "item"
+				item: "minecraft:saddle"
+			}]
 		}
 		{
 			x: -4.75d
@@ -748,6 +875,11 @@
 			id: "48CFB9E00EDBDCC7"
 			tasks: [{
 				id: "7D2680A9502CBAC0"
+				type: "item"
+				item: "tconstruct:rose_gold_ingot"
+			}]
+			rewards: [{
+				id: "2A662E9D43419780"
 				type: "item"
 				item: "tconstruct:rose_gold_ingot"
 			}]
@@ -812,6 +944,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "128A6B18E79E11D7"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 2
+			}]
 		}
 		{
 			title: "&#B9F2FFObsidian&r"
@@ -831,6 +969,12 @@
 				title: "10x Obsidians"
 				item: "minecraft:obsidian"
 				count: 10L
+			}]
+			rewards: [{
+				id: "11A1B7C46EA3A8BC"
+				type: "item"
+				item: "architects_palette:molten_nether_bricks"
+				count: 16
 			}]
 		}
 		{
@@ -865,6 +1009,12 @@
 					title: "&aDone&r"
 				}
 			]
+			rewards: [{
+				id: "7B4BD7BC7197FCE6"
+				type: "item"
+				item: "minecraft:soul_sand"
+				count: 8
+			}]
 		}
 		{
 			title: "&#61666ACobalt&r"
@@ -878,6 +1028,11 @@
 				type: "item"
 				item: "emendatusenigmatica:cobalt_chunk"
 			}]
+			rewards: [{
+				id: "1B0A8ACCB4BA4592"
+				type: "item"
+				item: "emendatusenigmatica:cobalt_ingot"
+			}]
 		}
 		{
 			title: "&#B9F2FFAncient Debris&r"
@@ -888,6 +1043,11 @@
 			id: "739CDA0F590031A0"
 			tasks: [{
 				id: "408EC6E11C879489"
+				type: "item"
+				item: "minecraft:ancient_debris"
+			}]
+			rewards: [{
+				id: "0B0F6A311AF02946"
 				type: "item"
 				item: "minecraft:ancient_debris"
 			}]
@@ -904,6 +1064,11 @@
 				type: "item"
 				item: "minecraft:quartz"
 			}]
+			rewards: [{
+				id: "5153DDC87C71D4F7"
+				type: "item"
+				item: "minecraft:quartz"
+			}]
 		}
 		{
 			x: -7.5d
@@ -915,6 +1080,12 @@
 				type: "item"
 				item: "tconstruct:glow_ball"
 			}]
+			rewards: [{
+				id: "519DD33BC4C6BB77"
+				type: "item"
+				item: "tconstruct:glow_ball"
+				count: 8
+			}]
 		}
 		{
 			x: -7.5d
@@ -925,6 +1096,13 @@
 				id: "7AA6A8D070E60A22"
 				type: "item"
 				item: "minecraft:glowstone_dust"
+			}]
+			rewards: [{
+				id: "56F4F32749CBA38F"
+				type: "item"
+				item: "minecraft:glowstone_dust"
+				count: 8
+				random_bonus: 8
 			}]
 		}
 		{
@@ -981,6 +1159,12 @@
 					item: "tconstruct:scorched_table"
 				}
 			]
+			rewards: [{
+				id: "069EE1FDAE870A77"
+				type: "item"
+				item: "tconstruct:scorched_brick"
+				count: 8
+			}]
 		}
 		{
 			title: "Scorched Ingot \\& Fuel Gauge"
@@ -1009,6 +1193,13 @@
 					item: "tconstruct:scorched_fuel_gauge"
 				}
 			]
+			rewards: [{
+				id: "5796462F6330E65D"
+				type: "item"
+				item: "minecraft:quartz"
+				count: 4
+				random_bonus: 4
+			}]
 		}
 		{
 			title: "Scorched Bricks"
@@ -1022,6 +1213,13 @@
 				title: "Scorched Bricks"
 				item: "tconstruct:scorched_brick"
 				count: 8L
+			}]
+			rewards: [{
+				id: "76582435C0A5F9C6"
+				type: "item"
+				item: "tconstruct:scorched_brick"
+				count: 8
+				random_bonus: 4
 			}]
 		}
 		{
@@ -1065,6 +1263,12 @@
 					item: "tconstruct:scorched_glass_pane"
 				}
 			]
+			rewards: [{
+				id: "4EC7ABF8821AE879"
+				type: "item"
+				item: "tconstruct:scorched_bricks_stairs"
+				count: 16
+			}]
 		}
 		{
 			title: "Alternatives to Scorched Bricks"
@@ -1110,6 +1314,12 @@
 					item: "tconstruct:scorched_glass"
 				}
 			]
+			rewards: [{
+				id: "76BB504030D1EE3F"
+				type: "item"
+				item: "tconstruct:scorched_road"
+				count: 16
+			}]
 		}
 		{
 			x: 0.0d
@@ -1124,6 +1334,12 @@
 				id: "3871A799E8CC6AC8"
 				type: "item"
 				item: "tconstruct:scorched_chute"
+			}]
+			rewards: [{
+				id: "5BF28AE29D0C809B"
+				type: "item"
+				item: "tconstruct:scorched_brick"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -1140,6 +1356,12 @@
 				type: "item"
 				item: "tconstruct:scorched_duct"
 			}]
+			rewards: [{
+				id: "2E37B04B6D8EC87E"
+				type: "item"
+				item: "tconstruct:scorched_brick"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 0.0d
@@ -1154,6 +1376,12 @@
 				id: "3CECA51A0EC0AFC9"
 				type: "item"
 				item: "tconstruct:scorched_ingot_tank"
+			}]
+			rewards: [{
+				id: "6DFDA450B80A638D"
+				type: "item"
+				item: "minecraft:quartz"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -1170,6 +1398,12 @@
 				type: "item"
 				item: "tconstruct:scorched_channel"
 			}]
+			rewards: [{
+				id: "1C169367F65B417F"
+				type: "item"
+				item: "tconstruct:scorched_brick"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -2.0d
@@ -1182,6 +1416,11 @@
 			id: "68ACE8898919F6F4"
 			tasks: [{
 				id: "6FCA493C6B5C049F"
+				type: "item"
+				item: "tconstruct:scorched_lantern"
+			}]
+			rewards: [{
+				id: "326FD129A12393A6"
 				type: "item"
 				item: "tconstruct:scorched_lantern"
 			}]
@@ -1260,11 +1499,23 @@
 					count: 14L
 				}
 			]
+			rewards: [{
+				id: "3278FC1453FD4DAC"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
 		}
 		{
-			x: -3.5d
-			y: 15.75d
+			x: 0.5d
+			y: -3.25d
 			shape: "octagon"
+			dependencies: [
+				"31DB904A4019BD4B"
+				"2F7EB9DBC6CE7522"
+				"5174E5B7DC17EF63"
+				"761BAE3E76AB71A3"
+				"5FDA9390E4473140"
+			]
 			id: "0E686DA81A911AF4"
 			tasks: [{
 				id: "4E617314C809560D"
@@ -1277,11 +1528,23 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "760B40736C60115B"
+				type: "item"
+				item: "tconstruct:emerald_reinforcement"
+				count: 12
+			}]
 		}
 		{
-			x: -4.5d
-			y: 15.75d
+			x: 0.5d
+			y: -1.25d
 			shape: "octagon"
+			dependencies: [
+				"31DB904A4019BD4B"
+				"2F7EB9DBC6CE7522"
+				"5174E5B7DC17EF63"
+				"761BAE3E76AB71A3"
+			]
 			id: "3218C95F9BACEA1E"
 			tasks: [{
 				id: "571EDE212934917C"
@@ -1294,11 +1557,24 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1FD5219DFA67B282"
+				type: "item"
+				item: "tconstruct:ichor_slime_ball"
+				count: 34
+			}]
 		}
 		{
-			x: -5.5d
-			y: 15.75d
+			x: 0.5d
+			y: -2.25d
 			shape: "octagon"
+			dependencies: [
+				"31DB904A4019BD4B"
+				"2F7EB9DBC6CE7522"
+				"5174E5B7DC17EF63"
+				"761BAE3E76AB71A3"
+				"6FE5CBD8A8FF0431"
+			]
 			id: "36CE36C4C61E01EB"
 			tasks: [{
 				id: "496F1E3E6BE4526D"
@@ -1311,6 +1587,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "556063C9D68C80EA"
+				type: "item"
+				item: "tconstruct:iron_reinforcement"
+				count: 24
+			}]
 		}
 		{
 			x: -11.0d
@@ -1322,6 +1604,11 @@
 			id: "15CE779A150EDE8F"
 			tasks: [{
 				id: "0E83E743C0AFFBC1"
+				type: "item"
+				item: "allthemodium:vibranium_ore"
+			}]
+			rewards: [{
+				id: "6688246B41951CA9"
 				type: "item"
 				item: "allthemodium:vibranium_ore"
 			}]

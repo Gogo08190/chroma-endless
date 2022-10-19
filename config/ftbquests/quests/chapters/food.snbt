@@ -2991,6 +2991,17 @@
 				type: "item"
 				item: "sushigocrafting:avocado_slices"
 			}]
+			rewards: [{
+				id: "1611F23B1315A4BD"
+				type: "item"
+				item: {
+					id: "sushigocrafting:avocado_slices"
+					Count: 1b
+					tag: {
+						Amount: 250
+					}
+				}
+			}]
 		}
 		{
 			x: 15.75d
@@ -3001,6 +3012,17 @@
 				id: "76CC35DB73EC5F9E"
 				type: "item"
 				item: "sushigocrafting:tuna_fillet"
+			}]
+			rewards: [{
+				id: "2B7A8D11E91B861B"
+				type: "item"
+				item: {
+					id: "sushigocrafting:tuna_fillet"
+					Count: 1b
+					tag: {
+						Amount: 1500
+					}
+				}
 			}]
 		}
 		{
@@ -3013,6 +3035,17 @@
 				type: "item"
 				item: "sushigocrafting:salmon_fillet"
 			}]
+			rewards: [{
+				id: "762721A88782B797"
+				type: "item"
+				item: {
+					id: "sushigocrafting:salmon_fillet"
+					Count: 1b
+					tag: {
+						Amount: 1000
+					}
+				}
+			}]
 		}
 		{
 			x: 18.75d
@@ -3023,6 +3056,17 @@
 				id: "57E92D5846998162"
 				type: "item"
 				item: "sushigocrafting:cucumber_slices"
+			}]
+			rewards: [{
+				id: "259DC3ABEE8EFF90"
+				type: "item"
+				item: {
+					id: "sushigocrafting:cucumber_slices"
+					Count: 1b
+					tag: {
+						Amount: 100
+					}
+				}
 			}]
 		}
 		{
@@ -3035,6 +3079,17 @@
 				type: "item"
 				item: "sushigocrafting:imitation_crab"
 			}]
+			rewards: [{
+				id: "3163D6DE53371BD3"
+				type: "item"
+				item: {
+					id: "sushigocrafting:imitation_crab"
+					Count: 1b
+					tag: {
+						Amount: 100
+					}
+				}
+			}]
 		}
 		{
 			x: 17.75d
@@ -3045,6 +3100,17 @@
 				id: "5ACB11F3EBFCFF6A"
 				type: "item"
 				item: "sushigocrafting:cooked_rice"
+			}]
+			rewards: [{
+				id: "62DEB59CACBD37D7"
+				type: "item"
+				item: {
+					id: "sushigocrafting:cooked_rice"
+					Count: 1b
+					tag: {
+						Amount: 250
+					}
+				}
 			}]
 		}
 		{
@@ -3057,6 +3123,17 @@
 				type: "item"
 				item: "sushigocrafting:sesame_seed"
 			}]
+			rewards: [{
+				id: "24277E9D450BC825"
+				type: "item"
+				item: {
+					id: "sushigocrafting:sesame_seed"
+					Count: 1b
+					tag: {
+						Amount: 50
+					}
+				}
+			}]
 		}
 		{
 			x: 21.75d
@@ -3068,6 +3145,17 @@
 				type: "item"
 				item: "sushigocrafting:tobiko"
 			}]
+			rewards: [{
+				id: "22C3DD86A232F33E"
+				type: "item"
+				item: {
+					id: "sushigocrafting:tobiko"
+					Count: 1b
+					tag: {
+						Amount: 25
+					}
+				}
+			}]
 		}
 		{
 			x: 21.75d
@@ -3076,6 +3164,11 @@
 			id: "2A735A93F7765A88"
 			tasks: [{
 				id: "5118D8CE2ECC0E62"
+				type: "item"
+				item: "sushigocrafting:crab_maki"
+			}]
+			rewards: [{
+				id: "03554C91FCB6C7D2"
 				type: "item"
 				item: "sushigocrafting:crab_maki"
 			}]
@@ -3090,6 +3183,11 @@
 				type: "item"
 				item: "sushigocrafting:cucumber_maki"
 			}]
+			rewards: [{
+				id: "72721BAF739DB978"
+				type: "item"
+				item: "sushigocrafting:cucumber_maki"
+			}]
 		}
 		{
 			x: 19.75d
@@ -3098,6 +3196,11 @@
 			id: "798A02540158D365"
 			tasks: [{
 				id: "7520B65549F14F71"
+				type: "item"
+				item: "sushigocrafting:avocado_maki"
+			}]
+			rewards: [{
+				id: "720353742354CAEA"
 				type: "item"
 				item: "sushigocrafting:avocado_maki"
 			}]
@@ -3112,6 +3215,11 @@
 				type: "item"
 				item: "sushigocrafting:tuna_maki"
 			}]
+			rewards: [{
+				id: "32353E930BF7A72A"
+				type: "item"
+				item: "sushigocrafting:tuna_maki"
+			}]
 		}
 		{
 			x: 17.75d
@@ -3120,6 +3228,11 @@
 			id: "71E6233719D44729"
 			tasks: [{
 				id: "57CFDE5F1A087068"
+				type: "item"
+				item: "sushigocrafting:salmon_maki"
+			}]
+			rewards: [{
+				id: "47AC2EE214993C30"
 				type: "item"
 				item: "sushigocrafting:salmon_maki"
 			}]
@@ -3134,6 +3247,17 @@
 				type: "item"
 				item: "sushigocrafting:soy_sauce"
 			}]
+			rewards: [{
+				id: "7AEB1E43943F41E8"
+				type: "item"
+				item: {
+					id: "sushigocrafting:soy_sauce"
+					Count: 1b
+					tag: {
+						Amount: 25
+					}
+				}
+			}]
 		}
 		{
 			x: 16.75d
@@ -3145,6 +3269,17 @@
 				type: "item"
 				item: "sushigocrafting:wasabi_paste"
 			}]
+			rewards: [{
+				id: "09DBB99E361ADC9B"
+				type: "item"
+				item: {
+					id: "sushigocrafting:wasabi_paste"
+					Count: 1b
+					tag: {
+						Amount: 25
+					}
+				}
+			}]
 		}
 		{
 			x: 14.75d
@@ -3153,6 +3288,17 @@
 			id: "3B074BC609F88AC4"
 			tasks: [{
 				id: "254D112C6127D9B3"
+				type: "item"
+				item: {
+					id: "sushigocrafting:shrimp"
+					Count: 1b
+					tag: {
+						Amount: 25
+					}
+				}
+			}]
+			rewards: [{
+				id: "28F86FD579507F65"
 				type: "item"
 				item: {
 					id: "sushigocrafting:shrimp"
@@ -3173,6 +3319,17 @@
 				type: "item"
 				item: "sushigocrafting:cheese"
 			}]
+			rewards: [{
+				id: "054327026149D5BA"
+				type: "item"
+				item: {
+					id: "sushigocrafting:cheese"
+					Count: 1b
+					tag: {
+						Amount: 125
+					}
+				}
+			}]
 		}
 		{
 			x: 13.75d
@@ -3181,6 +3338,11 @@
 			id: "48208094545BCDCF"
 			tasks: [{
 				id: "422F0B899CB7C6CE"
+				type: "item"
+				item: "sushigocrafting:salmon_gunkan"
+			}]
+			rewards: [{
+				id: "784690D9FB8E88BD"
 				type: "item"
 				item: "sushigocrafting:salmon_gunkan"
 			}]
@@ -3195,6 +3357,11 @@
 				type: "item"
 				item: "sushigocrafting:tuna_gunkan"
 			}]
+			rewards: [{
+				id: "43EC7B844C2BACB1"
+				type: "item"
+				item: "sushigocrafting:tuna_gunkan"
+			}]
 		}
 		{
 			x: 15.75d
@@ -3203,6 +3370,11 @@
 			id: "0C68B01DE191E135"
 			tasks: [{
 				id: "7F02AAB9DE7B909A"
+				type: "item"
+				item: "sushigocrafting:wakame_gunkan"
+			}]
+			rewards: [{
+				id: "6D5C3748A52E8B75"
 				type: "item"
 				item: "sushigocrafting:wakame_gunkan"
 			}]
@@ -3217,6 +3389,11 @@
 				type: "item"
 				item: "sushigocrafting:tobiko_tuna_cucumber_california"
 			}]
+			rewards: [{
+				id: "5226364A28DE354C"
+				type: "item"
+				item: "sushigocrafting:tobiko_tuna_cucumber_california"
+			}]
 		}
 		{
 			x: 19.75d
@@ -3225,6 +3402,11 @@
 			id: "5B87F9589BBCCFBF"
 			tasks: [{
 				id: "545D5AE9533D0503"
+				type: "item"
+				item: "sushigocrafting:tuna_california"
+			}]
+			rewards: [{
+				id: "6D3D2AD0A2E99F17"
 				type: "item"
 				item: "sushigocrafting:tuna_california"
 			}]
@@ -3239,6 +3421,11 @@
 				type: "item"
 				item: "sushigocrafting:tuna_cucumber_california"
 			}]
+			rewards: [{
+				id: "1E89A4222475BBB5"
+				type: "item"
+				item: "sushigocrafting:tuna_cucumber_california"
+			}]
 		}
 		{
 			x: 20.75d
@@ -3247,6 +3434,11 @@
 			id: "3C04E18F1AC451BE"
 			tasks: [{
 				id: "0BE436CECA09F939"
+				type: "item"
+				item: "sushigocrafting:tobiko_tuna_cheese_california"
+			}]
+			rewards: [{
+				id: "090B2B34A42C6103"
 				type: "item"
 				item: "sushigocrafting:tobiko_tuna_cheese_california"
 			}]
@@ -3261,6 +3453,11 @@
 				type: "item"
 				item: "sushigocrafting:tuna_cheese_california"
 			}]
+			rewards: [{
+				id: "55C8D7815631205F"
+				type: "item"
+				item: "sushigocrafting:tuna_cheese_california"
+			}]
 		}
 		{
 			x: 18.75d
@@ -3269,6 +3466,11 @@
 			id: "28E46BB1348BE93D"
 			tasks: [{
 				id: "598B45537362C422"
+				type: "item"
+				item: "sushigocrafting:tobiko_tuna_california"
+			}]
+			rewards: [{
+				id: "3F4C858E8F4CC4B0"
 				type: "item"
 				item: "sushigocrafting:tobiko_tuna_california"
 			}]
@@ -3283,6 +3485,11 @@
 				type: "item"
 				item: "sushigocrafting:tobiko_salmon_cucumber_california"
 			}]
+			rewards: [{
+				id: "5E25F88FEA44A649"
+				type: "item"
+				item: "sushigocrafting:tobiko_salmon_cucumber_california"
+			}]
 		}
 		{
 			x: 14.75d
@@ -3294,6 +3501,11 @@
 				type: "item"
 				item: "sushigocrafting:salmon_cucumber_california"
 			}]
+			rewards: [{
+				id: "5175BC5BFBEB631C"
+				type: "item"
+				item: "sushigocrafting:salmon_cucumber_california"
+			}]
 		}
 		{
 			x: 14.75d
@@ -3302,6 +3514,11 @@
 			id: "3EBA25D13921DEA1"
 			tasks: [{
 				id: "6788E821267E6984"
+				type: "item"
+				item: "sushigocrafting:tobiko_crab_cheese_california"
+			}]
+			rewards: [{
+				id: "26581ABD484E541B"
 				type: "item"
 				item: "sushigocrafting:tobiko_crab_cheese_california"
 			}]
@@ -3327,6 +3544,11 @@
 				type: "item"
 				item: "sushigocrafting:chicken_temaki"
 			}]
+			rewards: [{
+				id: "76E904B6AA42A627"
+				type: "item"
+				item: "sushigocrafting:chicken_temaki"
+			}]
 		}
 		{
 			x: 13.75d
@@ -3335,6 +3557,11 @@
 			id: "22A22CAE83C9A12C"
 			tasks: [{
 				id: "438C4C67D7203C8A"
+				type: "item"
+				item: "sushigocrafting:crab_california"
+			}]
+			rewards: [{
+				id: "045696E851D7FC32"
 				type: "item"
 				item: "sushigocrafting:crab_california"
 			}]
@@ -3349,6 +3576,11 @@
 				type: "item"
 				item: "sushigocrafting:crab_cheese_california"
 			}]
+			rewards: [{
+				id: "7F605E9474CC2B91"
+				type: "item"
+				item: "sushigocrafting:crab_cheese_california"
+			}]
 		}
 		{
 			x: 15.75d
@@ -3357,6 +3589,11 @@
 			id: "4AFD3D3D7F38098C"
 			tasks: [{
 				id: "74DDAE53BADCD7BF"
+				type: "item"
+				item: "sushigocrafting:tobiko_salmon_california"
+			}]
+			rewards: [{
+				id: "20A7D93D77C4011D"
 				type: "item"
 				item: "sushigocrafting:tobiko_salmon_california"
 			}]
@@ -3371,6 +3608,11 @@
 				type: "item"
 				item: "sushigocrafting:salmon_california"
 			}]
+			rewards: [{
+				id: "286C0F06B04615E2"
+				type: "item"
+				item: "sushigocrafting:salmon_california"
+			}]
 		}
 		{
 			x: 16.75d
@@ -3379,6 +3621,11 @@
 			id: "798E2693AD0E4F9F"
 			tasks: [{
 				id: "2870BAEABF794EBC"
+				type: "item"
+				item: "sushigocrafting:salmon_nigiri"
+			}]
+			rewards: [{
+				id: "44CC74B563277DD8"
 				type: "item"
 				item: "sushigocrafting:salmon_nigiri"
 			}]
@@ -3404,6 +3651,11 @@
 				type: "item"
 				item: "sushigocrafting:tobiko_salmon_cheese_california"
 			}]
+			rewards: [{
+				id: "0BF96C48B74F3383"
+				type: "item"
+				item: "sushigocrafting:tobiko_salmon_cheese_california"
+			}]
 		}
 		{
 			x: 18.75d
@@ -3426,6 +3678,11 @@
 				type: "item"
 				item: "sushigocrafting:salmon_cheese_california"
 			}]
+			rewards: [{
+				id: "00FBC733CFB65098"
+				type: "item"
+				item: "sushigocrafting:salmon_cheese_california"
+			}]
 		}
 		{
 			x: 19.75d
@@ -3434,6 +3691,11 @@
 			id: "4E70FB3FC4132B46"
 			tasks: [{
 				id: "47E2DF4522030988"
+				type: "item"
+				item: "sushigocrafting:tobiko_crab_cucumber_california"
+			}]
+			rewards: [{
+				id: "4AC91A499621F609"
 				type: "item"
 				item: "sushigocrafting:tobiko_crab_cucumber_california"
 			}]
@@ -3470,6 +3732,11 @@
 				type: "item"
 				item: "sushigocrafting:crab_cucumber_california"
 			}]
+			rewards: [{
+				id: "6FF42853109AA076"
+				type: "item"
+				item: "sushigocrafting:crab_cucumber_california"
+			}]
 		}
 		{
 			x: 21.75d
@@ -3478,6 +3745,11 @@
 			id: "7303CC18C0F84D6E"
 			tasks: [{
 				id: "61FBC09B6443983D"
+				type: "item"
+				item: "sushigocrafting:tobiko_crab_california"
+			}]
+			rewards: [{
+				id: "75DE78F8606C0C20"
 				type: "item"
 				item: "sushigocrafting:tobiko_crab_california"
 			}]

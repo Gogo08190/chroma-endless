@@ -62,6 +62,18 @@
 			dev: false
 			corner: false
 		}
+		{
+			x: 25.25d
+			y: 23.25d
+			width: 7.49d
+			height: 4.36d
+			rotation: 0.0d
+			image: "chroma:textures/quests/immersive_decor.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
 	]
 	quests: [
 		{
@@ -165,16 +177,6 @@
 				id: "22F993A9919E4F9F"
 				type: "item"
 				item: "immersiveengineering:transformer_hv"
-			}]
-		}
-		{
-			x: 22.25d
-			y: 6.25d
-			id: "79778D4EEF712D00"
-			tasks: [{
-				id: "493069AA37E324EA"
-				type: "item"
-				item: "immersiveengineering:wirecoil_redstone"
 			}]
 		}
 		{
@@ -500,8 +502,8 @@
 		{
 			title: "Build an &6Assembler"
 			icon: "immersiveengineering:assembler"
-			x: 28.75d
-			y: 10.650000000000002d
+			x: 18.5625d
+			y: 28.875d
 			shape: "square"
 			description: [
 				"The Assembler is used to automatically craft items."
@@ -687,8 +689,8 @@
 		{
 			title: "Build a &6Bottling Machine"
 			icon: "immersiveengineering:bottling_machine"
-			x: 27.40000000000002d
-			y: 7.900000000000002d
+			x: 15.125d
+			y: 26.8125d
 			shape: "square"
 			description: [
 				"The Bottling Machine is used to fill liquid containers."
@@ -723,8 +725,8 @@
 		{
 			title: "Build an &6Automated Workbench"
 			icon: "immersiveengineering:auto_workbench"
-			x: 26.0d
-			y: 10.650000000000002d
+			x: 12.375d
+			y: 29.5625d
 			shape: "square"
 			description: [
 				"The Automated Workbench is an automated version of the Engineer's Workbench."
@@ -760,7 +762,7 @@
 			title: "Build an &6Arc Furnace"
 			icon: "immersiveengineering:arc_furnace"
 			x: 14.098469387755081d
-			y: 36.95756802721086d
+			y: 37.05756802721086d
 			shape: "square"
 			description: [
 				"The Arc Furnace is used for smelting ores and grits into ingots, creating alloys including steel, and recycling certain tools and armor."
@@ -838,16 +840,6 @@
 					to_observe: "immersiveengineering:bucket_wheel"
 				}
 			]
-		}
-		{
-			x: 23.25d
-			y: 6.25d
-			id: "6FC77C5EB529AB83"
-			tasks: [{
-				id: "448AAE1936254AD6"
-				type: "item"
-				item: "immersiveengineering:circuit_table"
-			}]
 		}
 		{
 			x: 1.25d
@@ -1958,8 +1950,10 @@
 			}]
 		}
 		{
-			x: 23.49999999999998d
-			y: 22.049999999999997d
+			x: 22.75d
+			y: 22.5d
+			shape: "rsquare"
+			dependencies: ["4055881864FF87C5"]
 			id: "7A8D50D5209CA36E"
 			tasks: [{
 				id: "1A10524765385A50"
@@ -1968,8 +1962,10 @@
 			}]
 		}
 		{
-			x: 23.49999999999998d
-			y: 23.05d
+			x: 26.75d
+			y: 22.5d
+			shape: "rsquare"
+			dependencies: ["4055881864FF87C5"]
 			id: "021E9AEA96770A02"
 			tasks: [{
 				id: "31EEC3974AAFBDAF"
@@ -1978,8 +1974,10 @@
 			}]
 		}
 		{
-			x: 23.49999999999998d
-			y: 24.050000000000004d
+			x: 22.75d
+			y: 23.550000000000004d
+			shape: "rsquare"
+			dependencies: ["4055881864FF87C5"]
 			id: "1ABF0C51100741F3"
 			tasks: [{
 				id: "312B5DE29F758B3D"
@@ -1988,8 +1986,10 @@
 			}]
 		}
 		{
-			x: 23.49999999999998d
-			y: 25.050000000000004d
+			x: 23.75d
+			y: 24.5d
+			shape: "rsquare"
+			dependencies: ["4055881864FF87C5"]
 			id: "11155831F2D47565"
 			tasks: [{
 				id: "29A35863D4CC4137"
@@ -1998,8 +1998,10 @@
 			}]
 		}
 		{
-			x: 24.49999999999998d
-			y: 22.049999999999997d
+			x: 23.75d
+			y: 22.5d
+			shape: "rsquare"
+			dependencies: ["4055881864FF87C5"]
 			id: "35BF2C726E9A7F0F"
 			tasks: [{
 				id: "59D9D2045F387DA4"
@@ -2008,8 +2010,10 @@
 			}]
 		}
 		{
-			x: 24.59999999999998d
-			y: 23.05d
+			x: 26.75000000000002d
+			y: 23.5d
+			shape: "rsquare"
+			dependencies: ["4055881864FF87C5"]
 			id: "2D8008D29A287F7B"
 			tasks: [{
 				id: "1D4BFB9EC82D0109"
@@ -2018,8 +2022,10 @@
 			}]
 		}
 		{
-			x: 24.49999999999998d
-			y: 24.050000000000004d
+			x: 23.75d
+			y: 23.550000000000004d
+			shape: "rsquare"
+			dependencies: ["4055881864FF87C5"]
 			id: "1D977330F8AA3978"
 			tasks: [{
 				id: "2F44FE86BD4F6D49"
@@ -2028,8 +2034,10 @@
 			}]
 		}
 		{
-			x: 24.49999999999998d
-			y: 25.050000000000004d
+			x: 24.75d
+			y: 24.5d
+			shape: "rsquare"
+			dependencies: ["4055881864FF87C5"]
 			id: "7EA70457CE085EBF"
 			tasks: [{
 				id: "61E918EAD74C679B"
@@ -2038,8 +2046,10 @@
 			}]
 		}
 		{
-			x: 25.49999999999998d
-			y: 22.049999999999997d
+			x: 24.75d
+			y: 22.5d
+			shape: "rsquare"
+			dependencies: ["4055881864FF87C5"]
 			id: "15B297F5FE156D87"
 			tasks: [{
 				id: "03F16AFB7E25A1B4"
@@ -2048,8 +2058,10 @@
 			}]
 		}
 		{
-			x: 25.59999999999998d
-			y: 23.05d
+			x: 27.75000000000002d
+			y: 23.5d
+			shape: "rsquare"
+			dependencies: ["4055881864FF87C5"]
 			id: "73BA9A645815DD5E"
 			tasks: [{
 				id: "67EF8706CB996E3A"
@@ -2058,8 +2070,10 @@
 			}]
 		}
 		{
-			x: 25.49999999999998d
-			y: 24.050000000000004d
+			x: 24.75d
+			y: 23.550000000000004d
+			shape: "rsquare"
+			dependencies: ["4055881864FF87C5"]
 			id: "31441E9666317157"
 			tasks: [{
 				id: "1B01FDC35F6AA40C"
@@ -2068,8 +2082,10 @@
 			}]
 		}
 		{
-			x: 25.49999999999998d
-			y: 25.050000000000004d
+			x: 25.75d
+			y: 24.5d
+			shape: "rsquare"
+			dependencies: ["4055881864FF87C5"]
 			id: "4D0063955D016303"
 			tasks: [{
 				id: "790CEDE4713F6ACE"
@@ -2078,8 +2094,10 @@
 			}]
 		}
 		{
-			x: 26.49999999999998d
-			y: 22.049999999999997d
+			x: 25.75d
+			y: 22.5d
+			shape: "rsquare"
+			dependencies: ["4055881864FF87C5"]
 			id: "7D486C318755D05C"
 			tasks: [{
 				id: "1F9C0130590F0CA0"
@@ -2088,8 +2106,10 @@
 			}]
 		}
 		{
-			x: 26.49999999999998d
-			y: 23.05d
+			x: 27.75d
+			y: 22.5d
+			shape: "rsquare"
+			dependencies: ["4055881864FF87C5"]
 			id: "7E7C429B5B394EC3"
 			tasks: [{
 				id: "5770C2BD9060B8B7"
@@ -2098,8 +2118,10 @@
 			}]
 		}
 		{
-			x: 26.49999999999998d
-			y: 24.050000000000004d
+			x: 25.75d
+			y: 23.550000000000004d
+			shape: "rsquare"
+			dependencies: ["4055881864FF87C5"]
 			id: "3E74DB46BF6CE518"
 			tasks: [{
 				id: "514E216A4269FC5D"
@@ -2108,8 +2130,10 @@
 			}]
 		}
 		{
-			x: 26.49999999999998d
-			y: 25.050000000000004d
+			x: 26.75d
+			y: 24.5d
+			shape: "rsquare"
+			dependencies: ["4055881864FF87C5"]
 			id: "6982D1904374AF84"
 			tasks: [{
 				id: "5816B3FB11F02D43"
@@ -2559,7 +2583,7 @@
 			}]
 		}
 		{
-			x: 14.5d
+			x: 14.999999999999998d
 			y: 32.4d
 			dependencies: ["5DC309731882A5E1"]
 			id: "27AA4FB5FEF4EE66"
@@ -2584,7 +2608,7 @@
 			}]
 		}
 		{
-			x: 12.5d
+			x: 12.200000000000001d
 			y: 32.4d
 			dependencies: [
 				"1C4916687AD96A77"
@@ -2599,7 +2623,7 @@
 			}]
 		}
 		{
-			x: 10.5d
+			x: 9.600000000000003d
 			y: 32.4d
 			dependencies: ["625FD0330E1BDA54"]
 			id: "74A1DAEB2553F3E4"
@@ -2618,46 +2642,6 @@
 				id: "5D7E1C45A576F5E1"
 				type: "item"
 				item: "immersiveengineering:concrete_bucket"
-			}]
-		}
-		{
-			x: 23.25d
-			y: 7.25d
-			id: "464BF453FA921D29"
-			tasks: [{
-				id: "36763DCB5E36068F"
-				type: "item"
-				item: "immersiveengineering:logic_circuit"
-			}]
-		}
-		{
-			x: 22.25d
-			y: 7.25d
-			id: "63623C1AA25A7C18"
-			tasks: [{
-				id: "0230B8EB11240571"
-				type: "item"
-				item: "immersiveengineering:connector_redstone"
-			}]
-		}
-		{
-			x: 22.25d
-			y: 9.25d
-			id: "4894C9776586A4B6"
-			tasks: [{
-				id: "7C42CDC753AA4E0B"
-				type: "item"
-				item: "immersiveengineering:connector_bundled"
-			}]
-		}
-		{
-			x: 22.25d
-			y: 8.25d
-			id: "187CBD1216AFE316"
-			tasks: [{
-				id: "0FD592D3BB8E2C35"
-				type: "item"
-				item: "immersiveengineering:connector_probe"
 			}]
 		}
 		{
@@ -2724,56 +2708,6 @@
 				id: "3D03E21A18064034"
 				type: "item"
 				item: "immersiveengineering:treated_post"
-			}]
-		}
-		{
-			x: 21.25d
-			y: 8.25d
-			id: "2EB8259C3BEE32D0"
-			tasks: [{
-				id: "0C7DB53C68998284"
-				type: "item"
-				item: "immersiveengineering:fluid_sorter"
-			}]
-		}
-		{
-			x: 21.25d
-			y: 6.25d
-			id: "07B9B8552028B708"
-			tasks: [{
-				id: "19363DC302C7995A"
-				type: "item"
-				item: "immersiveengineering:item_batcher"
-			}]
-		}
-		{
-			x: 21.25d
-			y: 7.25d
-			id: "4EA1BBC001FD1DBC"
-			tasks: [{
-				id: "014A2476A14F37E3"
-				type: "item"
-				item: "immersiveengineering:sorter"
-			}]
-		}
-		{
-			x: 23.25d
-			y: 8.25d
-			id: "6B58D09C3D17BA17"
-			tasks: [{
-				id: "2A8CEE4D1B1F9590"
-				type: "item"
-				item: "immersiveengineering:logic_unit"
-			}]
-		}
-		{
-			x: 21.25d
-			y: 9.25d
-			id: "39DA7482A4B5570A"
-			tasks: [{
-				id: "3DB9EF218CB6AE87"
-				type: "item"
-				item: "immersiveengineering:turntable"
 			}]
 		}
 		{
@@ -2998,7 +2932,7 @@
 		}
 		{
 			x: 11.600000000000001d
-			y: 36.949999999999996d
+			y: 37.05d
 			dependencies: ["7D35C6A38DA6B9AD"]
 			id: "3A42B828EBE09335"
 			tasks: [{
@@ -3379,17 +3313,6 @@
 			}]
 		}
 		{
-			x: 22.25d
-			y: 23.5d
-			description: ["Si on peut faire une petite quête pour présenter engineer's deco je vois pas l'intêret de tout mettre ^^"]
-			id: "1E1D9B3AAE650741"
-			tasks: [{
-				id: "339DD4B0FD426716"
-				type: "checkmark"
-				title: "Quête pour item déco "
-			}]
-		}
-		{
 			x: 5.79999999999999d
 			y: 9.05d
 			dependencies: [
@@ -3445,17 +3368,6 @@
 				id: "16BF594756B6427F"
 				type: "item"
 				item: "immersiveengineering:toolupgrade_revolver_bayonet"
-			}]
-		}
-		{
-			x: 22.25d
-			y: 4.75d
-			description: ["Expliquer peut être porte logiques etc ou mettre un lien tuto jsp"]
-			id: "63B5EF053B030F83"
-			tasks: [{
-				id: "3FD432FC9456113F"
-				type: "checkmark"
-				title: "Faire une qûete unique pour tout les items"
 			}]
 		}
 	]

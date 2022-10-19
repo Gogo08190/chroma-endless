@@ -73,6 +73,11 @@
 				type: "item"
 				item: "create:mechanical_press"
 			}]
+			rewards: [{
+				id: "12010C0A6FBB6D81"
+				type: "item"
+				item: "emendatusenigmatica:iron_plate"
+			}]
 		}
 		{
 			title: "Andesite Alloys"
@@ -89,6 +94,12 @@
 				title: "32x Andesite Alloys"
 				item: "create:andesite_alloy"
 				count: 32L
+			}]
+			rewards: [{
+				id: "3AF0A147F3170DF5"
+				type: "item"
+				item: "create:andesite_alloy"
+				random_bonus: 31
 			}]
 		}
 		{
@@ -119,6 +130,17 @@
 					item: "create:whisk"
 				}
 			]
+			rewards: [{
+				id: "25DD76FC8A3EA4B0"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "apotheosis:resistance"
+					}
+				}
+			}]
 		}
 		{
 			x: 31.5d
@@ -143,6 +165,11 @@
 					item: "create:brass_hand"
 				}
 			]
+			rewards: [{
+				id: "02ADA7A586FB141A"
+				type: "item"
+				item: "minecraft:hopper"
+			}]
 		}
 		{
 			title: "Shaft"
@@ -162,6 +189,12 @@
 				item: "create:shaft"
 				count: 16L
 			}]
+			rewards: [{
+				id: "42E7F1F60A02A45D"
+				type: "item"
+				item: "create:shaft"
+				random_bonus: 15
+			}]
 		}
 		{
 			x: 16.5d
@@ -173,6 +206,12 @@
 				type: "item"
 				item: "create:basin"
 			}]
+			rewards: [{
+				id: "411684BAC27B3E98"
+				type: "item"
+				item: "create:andesite_alloy"
+				random_bonus: 4
+			}]
 		}
 		{
 			x: 23.75d
@@ -182,6 +221,11 @@
 			id: "410AC414B2B492D1"
 			tasks: [{
 				id: "15D774EBD0A077FD"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+			rewards: [{
+				id: "1D1BBE3B270D1416"
 				type: "item"
 				item: "create:andesite_casing"
 			}]
@@ -205,6 +249,11 @@
 					item: "create:copper_valve_handle"
 				}
 			]
+			rewards: [{
+				id: "099A4C129A74A90D"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
 		}
 		{
 			x: 20.75d
@@ -221,12 +270,18 @@
 				"To maximize the output from a Water Wheel, have water flowing in the right direction around as much of the wheel as possible."
 			]
 			dependencies: ["50B9AEC7812CEE92"]
+			min_width: 300
 			id: "54EA65146A735963"
 			tasks: [{
 				id: "559960DB3A96954B"
 				type: "item"
 				item: "create:water_wheel"
 				count: 3L
+			}]
+			rewards: [{
+				id: "5A7F5E433B3C17F7"
+				type: "item"
+				item: "minecraft:water_bucket"
 			}]
 		}
 		{
@@ -244,11 +299,17 @@
 				"This setup is tied with a Windmill Bearing attached to a single block of Wool as the most compact power source available in Survival mode."
 			]
 			dependencies: ["50B9AEC7812CEE92"]
+			min_width: 300
 			id: "683E4920521BDDA7"
 			tasks: [{
 				id: "6A8A6F5F438CC92A"
 				type: "item"
 				item: "create:encased_fan"
+			}]
+			rewards: [{
+				id: "1A2F1A6A6EE98A3C"
+				type: "item"
+				item: "create:cogwheel"
 			}]
 		}
 		{
@@ -285,6 +346,12 @@
 					count: 32L
 				}
 			]
+			rewards: [{
+				id: "4C190540AB76E3A0"
+				type: "item"
+				item: "minecraft:white_wool"
+				count: 8
+			}]
 		}
 		{
 			icon: "create:furnace_engine"
@@ -315,6 +382,12 @@
 					item: "create:flywheel"
 				}
 			]
+			rewards: [{
+				id: "5304232714956B0A"
+				type: "item"
+				item: "minecraft:coal"
+				count: 8
+			}]
 		}
 		{
 			x: 28.0d
@@ -323,6 +396,11 @@
 			id: "2A83D8FCCCFE217C"
 			tasks: [{
 				id: "201592C6BFFE96D3"
+				type: "item"
+				item: "create:brass_casing"
+			}]
+			rewards: [{
+				id: "695E2447614A860C"
 				type: "item"
 				item: "create:brass_casing"
 			}]
@@ -346,6 +424,12 @@
 				type: "item"
 				item: "create:crushing_wheel"
 				count: 2L
+			}]
+			rewards: [{
+				id: "19976CB090001A7C"
+				type: "item"
+				item: "emendatusenigmatica:iron_ore"
+				count: 4
 			}]
 		}
 		{
@@ -376,6 +460,12 @@
 					item: "create:large_cogwheel"
 				}
 			]
+			rewards: [{
+				id: "5721E51519212F4C"
+				type: "item"
+				item: "create:cogwheel"
+				count: 4
+			}]
 		}
 		{
 			x: 15.75d
@@ -404,6 +494,12 @@
 				type: "item"
 				item: "create:millstone"
 			}]
+			rewards: [{
+				id: "4B3186BB7668CA90"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 16
+			}]
 		}
 		{
 			x: 18.5d
@@ -426,6 +522,11 @@
 				type: "item"
 				item: "create:chute"
 			}]
+			rewards: [{
+				id: "1778FA2EC3095EF4"
+				type: "item"
+				item: "minecraft:hopper"
+			}]
 		}
 		{
 			x: 20.5d
@@ -438,6 +539,11 @@
 				type: "item"
 				item: "create:smart_chute"
 			}]
+			rewards: [{
+				id: "362AB0C100636BF9"
+				type: "item"
+				item: "minecraft:hopper"
+			}]
 		}
 		{
 			x: 16.5d
@@ -448,6 +554,11 @@
 				id: "1820F6C233896119"
 				type: "item"
 				item: "create:andesite_funnel"
+			}]
+			rewards: [{
+				id: "7ED415B3ED25EFBA"
+				type: "item"
+				item: "minecraft:chest"
 			}]
 		}
 		{
@@ -467,6 +578,11 @@
 				id: "511C896F4C34CF69"
 				type: "item"
 				item: "create:brass_funnel"
+			}]
+			rewards: [{
+				id: "57402C9C4E459F28"
+				type: "item"
+				item: "minecraft:chest"
 			}]
 		}
 		{
@@ -514,13 +630,17 @@
 					item: "create:belt_connector"
 				}
 			]
+			rewards: [{
+				id: "16207C45B1BC4A81"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
 		}
 		{
 			title: "Wheat Farm"
 			icon: "create:mechanical_harvester"
 			x: 35.25d
 			y: 35.25d
-			dependencies: ["38CF0F5AACC73C4D"]
 			optional: true
 			id: "55DAB1A2D54116E3"
 			tasks: [
@@ -553,7 +673,6 @@
 			icon: "create:mechanical_saw"
 			x: 36.75d
 			y: 35.25d
-			dependencies: ["38CF0F5AACC73C4D"]
 			optional: true
 			id: "7400971E05DD7896"
 			tasks: [
@@ -643,17 +762,23 @@
 				"● Prefer First - The Mechanical Arm will always take from and deposit to the first available inventory in order of placement."
 			]
 			dependencies: ["2A83D8FCCCFE217C"]
+			min_width: 300
 			id: "1503BC3C224011DC"
 			tasks: [{
 				id: "7E485703F113350A"
 				type: "item"
 				item: "create:mechanical_arm"
 			}]
+			rewards: [{
+				id: "62F2FB904D5163CF"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
 		}
 		{
 			title: "The Portable Interfaces"
-			x: 36.0d
-			y: 36.0d
+			x: 28.0d
+			y: 28.25d
 			description: [
 				""
 				"The Interfaces must be placed facing each other at 1-2 blocks apart, one on a moving structure with a Fluid Tank and one stationary. A Fluid Pump is required to insert or extract liquid from the moving structure. Moving structures will automatically stall for an Interface. A Redstone signal can be applied to break off the connection early."
@@ -662,8 +787,9 @@
 				""
 				"Portable Storage Interfaces are used on moving contraptions including Mechanical Pistons, Bearings, or Cart Contraptions. For Portable Storage Interfaces to interact they must face each other at 1-2 blocks apart. The moving interface must have an onboard inventory while the stationary interface has something inserting or extracting directly from it, such as a Mechanical Belt or Funnel. Inventory will then be exchanged at the rate of the inserting or extracting component."
 			]
-			hide_dependency_lines: true
-			dependencies: ["5FAB66FE3921DAF1"]
+			hide_dependency_lines: false
+			dependencies: ["2A83D8FCCCFE217C"]
+			min_width: 300
 			id: "38CF0F5AACC73C4D"
 			tasks: [{
 				id: "17ACEF5DC40EAF36"
@@ -681,11 +807,17 @@
 				"The rotation speed can be set by looking at the front or the back of the machine and scrolling up or down. Shifting while scrolling allows the player to have more precise control over the speed. The speed can be set to any integer from -256 to 256."
 			]
 			dependencies: ["2A83D8FCCCFE217C"]
+			min_width: 300
 			id: "0CF9ACF63E5F206E"
 			tasks: [{
 				id: "6AC0086E39687A56"
 				type: "item"
 				item: "create:rotation_speed_controller"
+			}]
+			rewards: [{
+				id: "15F4A1C2165E6FE6"
+				type: "item"
+				item: "create:speedometer"
 			}]
 		}
 		{
@@ -720,6 +852,12 @@
 					count: 8L
 				}
 			]
+			rewards: [{
+				id: "06CC290067738395"
+				type: "item"
+				item: "create:rose_quartz"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 17.5d
@@ -737,6 +875,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "15200C65452BAD19"
+				type: "item"
+				item: "minecraft:slime_ball"
+			}]
 		}
 		{
 			x: 32.25d
@@ -745,6 +888,11 @@
 			id: "17E63FB824FA537E"
 			tasks: [{
 				id: "698A7978870E7020"
+				type: "item"
+				item: "create:precision_mechanism"
+			}]
+			rewards: [{
+				id: "3317A88A17583F8F"
 				type: "item"
 				item: "create:precision_mechanism"
 			}]
@@ -774,6 +922,11 @@
 					item: "create:blaze_cake_base"
 				}
 			]
+			rewards: [{
+				id: "09F4E425458ECD80"
+				type: "item"
+				item: "create:blaze_cake_base"
+			}]
 		}
 		{
 			x: 22.75d
@@ -784,6 +937,12 @@
 				id: "0A0EB63E4C1EDA6A"
 				type: "item"
 				item: "create:encased_chain_drive"
+			}]
+			rewards: [{
+				id: "48B38F80380DDB61"
+				type: "item"
+				item: "create:shaft"
+				count: 2
 			}]
 		}
 		{
@@ -805,6 +964,11 @@
 					item: "create:empty_blaze_burner"
 				}
 			]
+			rewards: [{
+				id: "609AFBEB351A19F5"
+				type: "item"
+				item: "minecraft:blaze_rod"
+			}]
 		}
 		{
 			x: 28.25d
@@ -813,6 +977,11 @@
 			id: "0256960379E8E5E5"
 			tasks: [{
 				id: "47EB7A0F6789FE81"
+				type: "item"
+				item: "create:shadow_steel"
+			}]
+			rewards: [{
+				id: "20B163BAA7D72145"
 				type: "item"
 				item: "create:shadow_steel"
 			}]
@@ -826,6 +995,19 @@
 				id: "1822FEB7464D9AA0"
 				type: "item"
 				item: "create:weighted_ejector"
+			}]
+			rewards: [{
+				id: "1D3794B3403C799C"
+				type: "item"
+				item: {
+					id: "cfm:trampoline"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Color: 0
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -849,6 +1031,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "773F7B9EB59CC409"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: 17.5d
@@ -863,23 +1050,17 @@
 			]
 			dependencies: ["15267232FEECB502"]
 			id: "3EE564D2D7642605"
-			tasks: [
-				{
-					id: "392671BB7A4121C4"
-					type: "item"
-					item: "create:belt_connector"
-				}
-				{
-					id: "4E83478F690FE486"
-					type: "item"
-					item: "minecraft:kelp"
-				}
-				{
-					id: "277A761DFFC4A249"
-					type: "item"
-					item: "minecraft:dried_kelp"
-				}
-			]
+			tasks: [{
+				id: "392671BB7A4121C4"
+				type: "item"
+				item: "create:belt_connector"
+			}]
+			rewards: [{
+				id: "5574FE4A65FE831F"
+				type: "item"
+				item: "minecraft:dried_kelp_block"
+				count: 2
+			}]
 		}
 		{
 			x: 23.75d
@@ -896,6 +1077,11 @@
 				id: "0F6A740439CCB6D2"
 				type: "item"
 				item: "create:gearbox"
+			}]
+			rewards: [{
+				id: "7F99348B4905B1E3"
+				type: "item"
+				item: "create:vertical_gearbox"
 			}]
 		}
 		{
@@ -921,6 +1107,11 @@
 				type: "item"
 				item: "create:wrench"
 			}]
+			rewards: [{
+				id: "0DA10CB76E2EEBA0"
+				type: "item"
+				item: "create:cogwheel"
+			}]
 		}
 		{
 			x: 23.75d
@@ -933,6 +1124,11 @@
 				type: "item"
 				item: "create:clutch"
 			}]
+			rewards: [{
+				id: "5252D84D539AC8DE"
+				type: "item"
+				item: "minecraft:lever"
+			}]
 		}
 		{
 			x: 22.75d
@@ -944,6 +1140,11 @@
 				id: "48611676E20B501C"
 				type: "item"
 				item: "create:gearshift"
+			}]
+			rewards: [{
+				id: "2CD518F98748EB60"
+				type: "item"
+				item: "minecraft:lever"
 			}]
 		}
 		{
@@ -958,6 +1159,11 @@
 				type: "item"
 				item: "create:adjustable_chain_gearshift"
 			}]
+			rewards: [{
+				id: "17B218A0E84AED6F"
+				type: "item"
+				item: "create:encased_chain_drive"
+			}]
 		}
 		{
 			x: 30.25d
@@ -969,6 +1175,11 @@
 				id: "6E44A21724B1E8E3"
 				type: "item"
 				item: "create:linked_controller"
+			}]
+			rewards: [{
+				id: "7E957297FFC2E364"
+				type: "item"
+				item: "create:redstone_link"
 			}]
 		}
 		{
@@ -991,6 +1202,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "3226DCD3F4EDDA8A"
+				type: "item"
+				item: "minecraft:potato"
+				count: 8
 			}]
 		}
 		{
@@ -1022,6 +1239,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7B2AF620F369510D"
+				type: "item"
+				item: "minecraft:iron_nugget"
+				count: 2
+			}]
 		}
 		{
 			x: 18.5d
@@ -1037,8 +1260,15 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "3AF53B0A344D6F1E"
+				type: "item"
+				item: "emendatusenigmatica:brass_nugget"
+				count: 2
+			}]
 		}
 		{
+			title: "Speed ans Stress display"
 			x: 20.0d
 			y: 34.25d
 			description: ["The Engineer's Goggles will show the stress impact of the viewed machine while it is running. It will also give numbers and highlight the current rotation when looking at a Stressometer or Speedometer,. Additionally, it shows how much fluid is stored in a tank along with the total storage capacity of the tank when you look at one of the blocks from the tank."]
@@ -1051,16 +1281,16 @@
 					item: "create:speedometer"
 				}
 				{
-					id: "22470C13AA88D789"
-					type: "item"
-					item: "create:stressometer"
-				}
-				{
 					id: "3C12E02714799DF7"
 					type: "item"
 					item: "create:goggles"
 				}
 			]
+			rewards: [{
+				id: "22A33CF93C4C7EE7"
+				type: "item"
+				item: "create:stressometer"
+			}]
 		}
 		{
 			x: 18.75d
@@ -1092,6 +1322,11 @@
 					item: "create:sticky_mechanical_piston"
 				}
 			]
+			rewards: [{
+				id: "73CD4D327BEB4711"
+				type: "item"
+				item: "minecraft:piston"
+			}]
 		}
 		{
 			x: 19.5d
@@ -1102,6 +1337,11 @@
 				id: "4EFAE1B168E4BDD0"
 				type: "item"
 				item: "create:gantry_carriage"
+			}]
+			rewards: [{
+				id: "009FAD29EF32FB69"
+				type: "item"
+				item: "create:cogwheel"
 			}]
 		}
 		{
@@ -1122,6 +1362,11 @@
 				type: "item"
 				item: "create:mechanical_bearing"
 			}]
+			rewards: [{
+				id: "49AE0ACE758A454C"
+				type: "item"
+				item: "create_confectionery:hot_chocolate_bottle"
+			}]
 		}
 		{
 			x: 17.5d
@@ -1139,6 +1384,17 @@
 				type: "item"
 				item: "create:rope_pulley"
 			}]
+			rewards: [{
+				id: "6061B1F33DF52BB1"
+				type: "item"
+				item: {
+					id: "supplementaries:rope_arrow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			x: 15.5d
@@ -1151,6 +1407,11 @@
 				id: "740F7B90F4A20DF5"
 				type: "item"
 				item: "create:cart_assembler"
+			}]
+			rewards: [{
+				id: "3D40590F5598C18E"
+				type: "item"
+				item: "minecraft:minecart"
 			}]
 		}
 		{
@@ -1171,6 +1432,12 @@
 					item: "create:secondary_linear_chassis"
 				}
 			]
+			rewards: [{
+				id: "1CE2C8FD9134A0FA"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 2
+			}]
 		}
 		{
 			x: 19.0d
@@ -1187,6 +1454,11 @@
 				id: "60FD4B02054831EA"
 				type: "item"
 				item: "create:sticker"
+			}]
+			rewards: [{
+				id: "7598795F6EA3C4AF"
+				type: "item"
+				item: "minecraft:slime_block"
 			}]
 		}
 		{
@@ -1205,6 +1477,11 @@
 				type: "item"
 				item: "create:redstone_contact"
 			}]
+			rewards: [{
+				id: "72A3AD6AAA0D594E"
+				type: "item"
+				item: "minecraft:redstone_lamp"
+			}]
 		}
 		{
 			x: 27.5d
@@ -1213,6 +1490,11 @@
 			id: "63BFABD722A4669D"
 			tasks: [{
 				id: "7ECE70A7E951171D"
+				type: "item"
+				item: "create:shadow_steel_casing"
+			}]
+			rewards: [{
+				id: "7CA67230AAD3283A"
 				type: "item"
 				item: "create:shadow_steel_casing"
 			}]
@@ -1226,6 +1508,11 @@
 				id: "4D9CB49C9BBB0C1D"
 				type: "item"
 				item: "create:sequenced_gearshift"
+			}]
+			rewards: [{
+				id: "2C01812B379AFABC"
+				type: "item"
+				item: "create:analog_lever"
 			}]
 		}
 		{
@@ -1246,6 +1533,11 @@
 				type: "item"
 				item: "create:brass_tunnel"
 			}]
+			rewards: [{
+				id: "3D4425F559855012"
+				type: "item"
+				item: "create:belt_connector"
+			}]
 		}
 		{
 			x: 26.75d
@@ -1254,6 +1546,15 @@
 			id: "2A0681422D07EFB2"
 			tasks: [{
 				id: "0992F4FB21DE9141"
+				type: "item"
+				item: {
+					id: "create:chromatic_compound"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "398C0575CF5D52D0"
 				type: "item"
 				item: {
 					id: "create:chromatic_compound"
@@ -1281,6 +1582,11 @@
 				type: "item"
 				item: "create:depot"
 			}]
+			rewards: [{
+				id: "398146F8861F39C0"
+				type: "item"
+				item: "cfm:andesite_coffee_table"
+			}]
 		}
 		{
 			title: "&lMechanical Mixer&r and Ingots Method    "
@@ -1302,6 +1608,11 @@
 					item: "emendatusenigmatica:zinc_ingot"
 				}
 			]
+			rewards: [{
+				id: "01112A3D10FBBDB4"
+				type: "item"
+				item: "emendatusenigmatica:brass_nugget"
+			}]
 		}
 		{
 			x: 22.25d
@@ -1320,6 +1631,11 @@
 				type: "item"
 				item: "create:builders_tea"
 			}]
+			rewards: [{
+				id: "5C633D5577E54C2B"
+				type: "item"
+				item: "create:builders_tea"
+			}]
 		}
 		{
 			x: 20.0d
@@ -1333,11 +1649,18 @@
 				"Shift-right-clicking on a Mechanical Drill with a Wrench will destroy the Mechanical Drill and place it in your inventory."
 			]
 			dependencies: ["23F1D63DE3B8F27E"]
+			min_width: 300
 			id: "3423033CABE58D68"
 			tasks: [{
 				id: "0F6D5C79DF2AA93D"
 				type: "item"
 				item: "create:mechanical_drill"
+			}]
+			rewards: [{
+				id: "1006F34451932414"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 16
 			}]
 		}
 		{
@@ -1351,6 +1674,12 @@
 				id: "172B8AA6D89C89AD"
 				type: "item"
 				item: "create:mechanical_plough"
+			}]
+			rewards: [{
+				id: "398223BD68D1C7DA"
+				type: "item"
+				item: "minecraft:snowball"
+				count: 4
 			}]
 		}
 		{
@@ -1370,6 +1699,12 @@
 				type: "item"
 				item: "create:mechanical_saw"
 			}]
+			rewards: [{
+				id: "499E90FECD0F1CB3"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 8
+			}]
 		}
 		{
 			x: 17.0d
@@ -1386,6 +1721,12 @@
 				id: "1C0C646FE8DA5986"
 				type: "item"
 				item: "create:mechanical_harvester"
+			}]
+			rewards: [{
+				id: "0174E97C89583176"
+				type: "item"
+				item: "minecraft:wheat"
+				count: 8
 			}]
 		}
 		{
@@ -1422,6 +1763,11 @@
 				type: "item"
 				item: "create:spout"
 			}]
+			rewards: [{
+				id: "6905C64997689EB5"
+				type: "item"
+				item: "create:depot"
+			}]
 		}
 		{
 			x: 24.5d
@@ -1432,6 +1778,11 @@
 				id: "66A3F39D3DE7D0A0"
 				type: "item"
 				item: "create:hose_pulley"
+			}]
+			rewards: [{
+				id: "2D1B67328AF7F63F"
+				type: "item"
+				item: "minecraft:lava_bucket"
 			}]
 		}
 		{
@@ -1447,6 +1798,11 @@
 				type: "item"
 				item: "create:fluid_tank"
 			}]
+			rewards: [{
+				id: "22063C4964452087"
+				type: "item"
+				item: "create:fluid_tank"
+			}]
 		}
 		{
 			x: 23.75d
@@ -1455,6 +1811,11 @@
 			id: "08528C5E98F66E31"
 			tasks: [{
 				id: "0F068C4BCCFE34A7"
+				type: "item"
+				item: "create:copper_casing"
+			}]
+			rewards: [{
+				id: "6225FB2397DC3F27"
 				type: "item"
 				item: "create:copper_casing"
 			}]
@@ -1476,6 +1837,11 @@
 					item: "create:crafter_slot_cover"
 				}
 			]
+			rewards: [{
+				id: "79D9ED350A059203"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
 		}
 		{
 			x: 16.5d
@@ -1487,6 +1853,11 @@
 				type: "item"
 				item: "create:andesite_tunnel"
 			}]
+			rewards: [{
+				id: "614B5D0E012130C3"
+				type: "item"
+				item: "create:belt_connector"
+			}]
 		}
 		{
 			x: 29.25d
@@ -1495,6 +1866,11 @@
 			id: "5FAB66FE3921DAF1"
 			tasks: [{
 				id: "2EEB9F7433E92D0E"
+				type: "item"
+				item: "emendatusenigmatica:brass_ingot"
+			}]
+			rewards: [{
+				id: "0806F178FA1111FA"
 				type: "item"
 				item: "emendatusenigmatica:brass_ingot"
 			}]
@@ -1513,6 +1889,11 @@
 				type: "item"
 				item: "extendedcrafting:redstone_ingot"
 			}]
+			rewards: [{
+				id: "2D1801AF74E1C4EE"
+				type: "item"
+				item: "extendedcrafting:redstone_ingot"
+			}]
 		}
 		{
 			x: 24.5d
@@ -1522,6 +1903,11 @@
 			id: "74538A4A28AEE1D5"
 			tasks: [{
 				id: "75DF48FF5485A8B5"
+				type: "item"
+				item: "extendedcrafting:ender_ingot"
+			}]
+			rewards: [{
+				id: "6905218596545AE1"
 				type: "item"
 				item: "extendedcrafting:ender_ingot"
 			}]
@@ -1537,6 +1923,11 @@
 				type: "item"
 				item: "minecraft:ender_eye"
 			}]
+			rewards: [{
+				id: "5C8B156E1E8EF9B1"
+				type: "item"
+				item: "minecraft:ender_eye"
+			}]
 		}
 		{
 			x: 11.75d
@@ -1545,6 +1936,11 @@
 			id: "6B58A9E61BE8FE02"
 			tasks: [{
 				id: "5983544B0902F4E5"
+				type: "item"
+				item: "create:polished_rose_quartz"
+			}]
+			rewards: [{
+				id: "5710809F63323E95"
 				type: "item"
 				item: "create:polished_rose_quartz"
 			}]
@@ -1562,6 +1958,11 @@
 				type: "item"
 				item: "create:electron_tube"
 			}]
+			rewards: [{
+				id: "565727887F5240FA"
+				type: "item"
+				item: "create:electron_tube"
+			}]
 		}
 		{
 			x: 30.25d
@@ -1572,6 +1973,11 @@
 				id: "5D0C53EBC86E08DF"
 				type: "item"
 				item: "createaddition:electric_motor"
+			}]
+			rewards: [{
+				id: "0EB0C03919E0ECB8"
+				type: "item"
+				item: "create:shaft"
 			}]
 		}
 		{
@@ -1584,6 +1990,11 @@
 				type: "item"
 				item: "createaddition:alternator"
 			}]
+			rewards: [{
+				id: "47668D6B23DBE1C3"
+				type: "item"
+				item: "create:shaft"
+			}]
 		}
 		{
 			x: 15.5d
@@ -1594,6 +2005,12 @@
 				id: "764D6E1634E421F5"
 				type: "item"
 				item: "createaddition:rolling_mill"
+			}]
+			rewards: [{
+				id: "1E24D6C3EFAA7F09"
+				type: "item"
+				item: "emendatusenigmatica:iron_plate"
+				count: 2
 			}]
 		}
 		{
@@ -1606,6 +2023,12 @@
 				type: "item"
 				item: "createaddition:connector"
 			}]
+			rewards: [{
+				id: "24C0E9F4FA240ED5"
+				type: "item"
+				item: "createaddition:connector"
+				count: 2
+			}]
 		}
 		{
 			x: 14.5d
@@ -1616,6 +2039,12 @@
 				id: "655EEAE5F5D88A61"
 				type: "item"
 				item: "createaddition:spool"
+			}]
+			rewards: [{
+				id: "77060D99510876AB"
+				type: "item"
+				item: "createaddition:spool"
+				count: 4
 			}]
 		}
 		{
@@ -1628,6 +2057,12 @@
 				type: "item"
 				item: "createaddition:copper_spool"
 			}]
+			rewards: [{
+				id: "3BB6392B14F2FE1E"
+				type: "item"
+				item: "immersiveengineering:wire_copper"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 14.5d
@@ -1638,6 +2073,12 @@
 				id: "5DB9791404E5B557"
 				type: "item"
 				item: "createaddition:gold_spool"
+			}]
+			rewards: [{
+				id: "7C7431980D5B2055"
+				type: "item"
+				item: "createaddition:gold_wire"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -1650,6 +2091,11 @@
 				type: "item"
 				item: "createaddition:accumulator"
 			}]
+			rewards: [{
+				id: "11C460A6EC460C69"
+				type: "item"
+				item: "createaddition:connector"
+			}]
 		}
 		{
 			x: 15.75d
@@ -1660,6 +2106,11 @@
 				id: "3E12639344E3ADB0"
 				type: "item"
 				item: "createaddition:heater"
+			}]
+			rewards: [{
+				id: "4252788FCD02C030"
+				type: "item"
+				item: "minecraft:furnace"
 			}]
 		}
 		{
@@ -1672,6 +2123,12 @@
 				type: "item"
 				item: "createaddition:furnace_burner"
 			}]
+			rewards: [{
+				id: "41BE6C7C366957CD"
+				type: "item"
+				item: "minecraft:coal"
+				count: 4
+			}]
 		}
 		{
 			x: 20.75d
@@ -1683,6 +2140,11 @@
 				type: "item"
 				item: "createaddition:crude_burner"
 			}]
+			rewards: [{
+				id: "45E73673E7A9B261"
+				type: "item"
+				item: "createaddition:seed_oil_bucket"
+			}]
 		}
 		{
 			x: 28.0d
@@ -1693,6 +2155,11 @@
 				id: "76E1F6FF1BABBA09"
 				type: "item"
 				item: "createaddition:tesla_coil"
+			}]
+			rewards: [{
+				id: "4E1660DF82583D1B"
+				type: "item"
+				item: "create:depot"
 			}]
 		}
 		{
@@ -1711,6 +2178,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2F88838DD683C50F"
+				type: "item"
+				item: "minecraft:iron_bars"
+				count: 8
+			}]
 		}
 		{
 			x: 26.75d
@@ -1719,6 +2192,11 @@
 			id: "4735A8CD445137E7"
 			tasks: [{
 				id: "26883380D95031D7"
+				type: "item"
+				item: "createaddition:overcharged_alloy"
+			}]
+			rewards: [{
+				id: "70F85FE345A5A178"
 				type: "item"
 				item: "createaddition:overcharged_alloy"
 			}]
@@ -1741,6 +2219,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5935411FBE5E4EC0"
+				type: "item"
+				item: {
+					id: "tconstruct:hammer_head"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:lead"
+					}
+				}
+			}]
 		}
 		{
 			x: 29.5d
@@ -1752,6 +2241,11 @@
 				type: "item"
 				item: "create:refined_radiance"
 			}]
+			rewards: [{
+				id: "7036817845199926"
+				type: "item"
+				item: "create:refined_radiance"
+			}]
 		}
 		{
 			x: 28.75d
@@ -1760,6 +2254,11 @@
 			id: "44F8EB952B8779B0"
 			tasks: [{
 				id: "1885FE0FC6DD09A4"
+				type: "item"
+				item: "create:refined_radiance_casing"
+			}]
+			rewards: [{
+				id: "61126B0EB64638D8"
 				type: "item"
 				item: "create:refined_radiance_casing"
 			}]
@@ -1805,6 +2304,11 @@
 					count: 2L
 				}
 			]
+			rewards: [{
+				id: "7E57AE02EC75A224"
+				type: "item"
+				item: "create:electron_tube"
+			}]
 		}
 		{
 			title: "Compound Factory Components - Part 2"
@@ -1903,9 +2407,18 @@
 					id: "4BB064D981F9EB77"
 					type: "item"
 					item: "immersiveengineering:slab_sheetmetal_steel"
-					count: 5L
+					count: 4L
 				}
 			]
+			rewards: [{
+				id: "1E5DDB8648CEA086"
+				type: "item"
+				item: {
+					id: "create:chromatic_compound"
+					Count: 1b
+					tag: { }
+				}
+			}]
 		}
 		{
 			x: 30.35289115646257d
@@ -1922,6 +2435,18 @@
 				type: "checkmark"
 				title: "Build The Compact Machine Factory"
 			}]
+			rewards: [
+				{
+					id: "62A52AE8FB479677"
+					type: "item"
+					item: "create:shadow_steel"
+				}
+				{
+					id: "487ED4E0584FB28B"
+					type: "item"
+					item: "create:refined_radiance"
+				}
+			]
 		}
 	]
 }
