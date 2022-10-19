@@ -83,7 +83,23 @@ onEvent('item.registry', (event) => {
         'orange_ingot',
         'purple_ingot',
         'arcana',
-        'incomplete_upgrade'
+        'incomplete_upgrade',
+        'alphaneck',
+        'calphaneck',
+        'cdeltaneck',
+        'cgammaneck',
+        'cksineck',
+        'comeganeck',
+        'cphineck',
+        'ctauneck',
+        'cthetaneck',
+        'deltaneck',
+        'gammaneck',
+        'ksineck',
+        'omeganeck',
+        'phineck',
+        'tauneck',
+        'thetaneck'
     ];
 
     generalItems.forEach((item) => {
