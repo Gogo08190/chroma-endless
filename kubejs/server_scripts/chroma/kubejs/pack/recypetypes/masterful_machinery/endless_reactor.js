@@ -27,12 +27,11 @@ onEvent('recipes', (event) => {
                 type: 'masterfulmachinery:fluids', data: { fluid: 'bigreactors:rossinite', amount: 1000 }
               },
               {
-                consumeInstantly: true,
-                type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 1100 }
-              },
+                type: 'masterfulmachinery:pncr_pressure', data: { air: 1100 }
+              }
           ],
           ticks: 200,
-          id: `${id_prefix}low_energy_generation`
+          id: `${id_prefix}chroma_matter`
       }
     ];
 

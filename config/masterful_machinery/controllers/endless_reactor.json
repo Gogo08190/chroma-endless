@@ -30,7 +30,7 @@
         "name": "Endless Reactor Energy",
         "id": "endless_energy",
         "data": {
-          "capacity": 1000000
+          "capacity": 1000000000
         }
       },
       {
@@ -62,4 +62,3 @@
       }
     ]
   }
-  
