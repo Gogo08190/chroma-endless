@@ -287,6 +287,11 @@
 				type: "item"
 				item: "miniutilities:magical_egg"
 			}]
+			rewards: [{
+				id: "6E68BEE36F144210"
+				type: "item"
+				item: "miniutilities:magical_egg"
+			}]
 		}
 		{
 			x: -4.5d
@@ -1221,6 +1226,36 @@
 				type: "item"
 				item: "apotheosis:enchantment_library"
 			}]
+			rewards: [
+				{
+					id: "247874A976EB5BD5"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "minecraft:unbreaking"
+							}]
+						}
+					}
+				}
+				{
+					id: "69647BF253E0DAED"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "miniutilities:shotgun"
+							}]
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 5.75d
@@ -1235,6 +1270,50 @@
 				type: "item"
 				item: "apotheosis:ender_library"
 			}]
+			rewards: [
+				{
+					id: "4D44C972DE83278E"
+					type: "item"
+					item: {
+						id: "quark:ancient_tome"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 9s
+								id: "minecraft:efficiency"
+							}]
+						}
+					}
+				}
+				{
+					id: "5EECB0A1D419D0D3"
+					type: "item"
+					item: {
+						id: "quark:ancient_tome"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "minecraft:fortune"
+							}]
+						}
+					}
+				}
+				{
+					id: "509FF0658C5D07AE"
+					type: "item"
+					item: {
+						id: "quark:ancient_tome"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 8s
+								id: "minecraft:unbreaking"
+							}]
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 8.75d
@@ -1246,6 +1325,11 @@
 				type: "item"
 				item: "apotheosis:sightshelf"
 			}]
+			rewards: [{
+				id: "492A4602BD352658"
+				type: "xp"
+				xp: 1000
+			}]
 		}
 		{
 			x: 8.75d
@@ -1256,6 +1340,11 @@
 				id: "7B6D63DE0BB43607"
 				type: "item"
 				item: "apotheosis:sightshelf_t2"
+			}]
+			rewards: [{
+				id: "02CB58BDE2832721"
+				type: "xp"
+				xp: 1000
 			}]
 		}
 		{
@@ -1282,6 +1371,11 @@
 					count: 3L
 				}
 			]
+			rewards: [{
+				id: "492B33BF2FE0D7CB"
+				type: "xp"
+				xp: 1000
+			}]
 		}
 		{
 			title: "My first Enchanting Setup"
@@ -1309,6 +1403,11 @@
 					count: 10L
 				}
 			]
+			rewards: [{
+				id: "2D4B5EAF6AEF0DDA"
+				type: "xp"
+				xp: 1000
+			}]
 		}
 		{
 			title: "Only The Best"
@@ -1348,6 +1447,11 @@
 					count: 2L
 				}
 			]
+			rewards: [{
+				id: "6919F7279DEDCF6A"
+				type: "xp_levels"
+				xp_levels: 100
+			}]
 		}
 		{
 			x: 7.25d
@@ -1359,6 +1463,12 @@
 				type: "advancement"
 				advancement: "apotheosis:enchanting/max_rectified"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "461B20FB1EF8C08A"
+				type: "item"
+				item: "minecraft:book"
+				count: 16
 			}]
 		}
 		{
@@ -1380,6 +1490,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "30E6678C1F820AE0"
+				type: "xp"
+				xp: 1000
+			}]
 		}
 		{
 			x: -4.5d
@@ -1392,6 +1507,11 @@
 				id: "7EF31A734943CD1B"
 				type: "item"
 				item: "cagedmobs:mobcage"
+			}]
+			rewards: [{
+				id: "248DCEDA49D30171"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1410,6 +1530,11 @@
 				type: "item"
 				item: "cagedmobs:hoppingmobcage"
 			}]
+			rewards: [{
+				id: "1A078F6EDE29A0D2"
+				type: "item"
+				item: "expandedstorage:netherite_chest"
+			}]
 		}
 		{
 			x: -6.0d
@@ -1424,6 +1549,11 @@
 				id: "316F6F4D7263D28F"
 				type: "item"
 				item: "cagedmobs:dnasampler"
+			}]
+			rewards: [{
+				id: "33D403F125837D3D"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1440,6 +1570,11 @@
 				type: "item"
 				item: "cagedmobs:dnasamplerdiamond"
 			}]
+			rewards: [{
+				id: "51F26ECD53AD0D23"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: -4.0d
@@ -1455,6 +1590,11 @@
 				type: "item"
 				item: "cagedmobs:dnasamplernetherite"
 			}]
+			rewards: [{
+				id: "76283E1A330C242F"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: -5.5d
@@ -1466,6 +1606,11 @@
 				id: "634596AB3A8F7E50"
 				type: "item"
 				item: "cagedmobs:cookingupgrade"
+			}]
+			rewards: [{
+				id: "061C2B4153E41615"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1479,6 +1624,11 @@
 				type: "item"
 				item: "cagedmobs:lightningupgrade"
 			}]
+			rewards: [{
+				id: "6AF06DF839E510F8"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: -3.5d
@@ -1491,6 +1641,11 @@
 				type: "item"
 				item: "cagedmobs:arrowupgrade"
 			}]
+			rewards: [{
+				id: "4A96917AE11687C3"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: -3.0d
@@ -1499,6 +1654,11 @@
 			id: "45CADBA54E478BCE"
 			tasks: [{
 				id: "3428319D846E0160"
+				type: "item"
+				item: "cagedmobs:star_infused_netherite_ingot"
+			}]
+			rewards: [{
+				id: "351809E16603E693"
 				type: "item"
 				item: "cagedmobs:star_infused_netherite_ingot"
 			}]
@@ -1514,6 +1674,11 @@
 				type: "item"
 				item: "cagedmobs:dragon_scale"
 			}]
+			rewards: [{
+				id: "40A612E295CC5BBD"
+				type: "item"
+				item: "cagedmobs:dragon_scale"
+			}]
 		}
 		{
 			x: -5.0d
@@ -1523,6 +1688,11 @@
 			id: "6353B5D46B33FF0F"
 			tasks: [{
 				id: "6F9EC25FC12852C9"
+				type: "item"
+				item: "cagedmobs:sponge_fragment"
+			}]
+			rewards: [{
+				id: "34FB7CD281850C54"
 				type: "item"
 				item: "cagedmobs:sponge_fragment"
 			}]
@@ -1538,6 +1708,11 @@
 				type: "item"
 				item: "cagedmobs:nether_star_fragment"
 			}]
+			rewards: [{
+				id: "78645F63C481A7A9"
+				type: "item"
+				item: "cagedmobs:nether_star_fragment"
+			}]
 		}
 		{
 			x: -3.0d
@@ -1547,6 +1722,11 @@
 			id: "72CB68B2302818C3"
 			tasks: [{
 				id: "7E3B01A6715D326E"
+				type: "item"
+				item: "cagedmobs:honey_drop"
+			}]
+			rewards: [{
+				id: "6CA6CC326B327A9A"
 				type: "item"
 				item: "cagedmobs:honey_drop"
 			}]

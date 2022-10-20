@@ -74,6 +74,11 @@
 				type: "item"
 				item: "thermal:machine_frame"
 			}]
+			rewards: [{
+				id: "059E6D496EA37279"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
 		}
 		{
 			x: 1.125d
@@ -182,6 +187,11 @@
 				type: "item"
 				item: "thermal:charge_bench"
 			}]
+			rewards: [{
+				id: "14DCE49D0CBCB5D8"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 7.5d
@@ -197,6 +207,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "3A74789E896EE568"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -214,6 +229,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "0367D1AA36C5CB03"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 6.5d
@@ -229,6 +249,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "2A2916B42633304E"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -246,6 +271,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "1104C1B5FB8AB5F2"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: -4.0d
@@ -257,6 +287,11 @@
 				id: "760A02760A3CA128"
 				type: "item"
 				item: "thermal:tinker_bench"
+			}]
+			rewards: [{
+				id: "5BA6E15DD0C7A759"
+				type: "item"
+				item: "byg:ebony_crafting_table"
 			}]
 		}
 		{
@@ -388,6 +423,11 @@
 				type: "item"
 				item: "thermal:energy_cell_frame"
 			}]
+			rewards: [{
+				id: "38425B1BD248E694"
+				type: "item"
+				item: "thermal:energy_cell_frame"
+			}]
 		}
 		{
 			x: 1.125d
@@ -396,6 +436,11 @@
 			id: "3117CCA141F25CA9"
 			tasks: [{
 				id: "7DB5A985BE58B309"
+				type: "item"
+				item: "thermal:fluid_cell_frame"
+			}]
+			rewards: [{
+				id: "43E6297966D278A8"
 				type: "item"
 				item: "thermal:fluid_cell_frame"
 			}]
@@ -425,6 +470,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6131EC00C7A5F20C"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: -2.625d
@@ -449,6 +499,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "36D573AF14BDE5BB"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 4.0d
@@ -464,6 +519,11 @@
 				type: "item"
 				item: "thermal:device_tree_extractor"
 			}]
+			rewards: [{
+				id: "4F423452C63B89D8"
+				type: "item"
+				item: "minecraft:birch_sapling"
+			}]
 		}
 		{
 			title: "Tree Oil"
@@ -476,6 +536,11 @@
 			id: "5F7D5FF79209B0EC"
 			tasks: [{
 				id: "1A685588518C37AC"
+				type: "item"
+				item: "thermal:tree_oil_bucket"
+			}]
+			rewards: [{
+				id: "0E4420E82D220E47"
 				type: "item"
 				item: "thermal:tree_oil_bucket"
 			}]
@@ -510,6 +575,11 @@
 				type: "item"
 				item: "thermal:dynamo_compression"
 			}]
+			rewards: [{
+				id: "4F69C4196663A5A9"
+				type: "item"
+				item: "thermal:tree_oil_bucket"
+			}]
 		}
 		{
 			title: "Latex"
@@ -522,6 +592,11 @@
 				type: "item"
 				item: "industrialforegoing:latex_bucket"
 			}]
+			rewards: [{
+				id: "515DC3F54F835543"
+				type: "item"
+				item: "industrialforegoing:latex_bucket"
+			}]
 		}
 		{
 			x: 8.0d
@@ -530,6 +605,11 @@
 			id: "0DA150667336B154"
 			tasks: [{
 				id: "6080D78B7F038256"
+				type: "item"
+				item: "industrialforegoing:dryrubber"
+			}]
+			rewards: [{
+				id: "658D3E9B8CA676F4"
 				type: "item"
 				item: "industrialforegoing:dryrubber"
 			}]
@@ -588,6 +668,7 @@
 				"0DA150667336B154"
 				"139C5B94AFEE863C"
 			]
+			min_width: 300
 			id: "387646F8C259D92F"
 			tasks: [
 				{
@@ -601,6 +682,11 @@
 					item: "thermal:cured_rubber"
 				}
 			]
+			rewards: [{
+				id: "2F938868979FDA11"
+				type: "item"
+				item: "thermal:cured_rubber"
+			}]
 		}
 		{
 			x: -6.0d
@@ -614,12 +700,17 @@
 				type: "item"
 				item: "thermal:device_water_gen"
 			}]
+			rewards: [{
+				id: "2DEB451B20497ADA"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
 		}
 		{
 			x: -5.0d
 			y: 10.0d
 			subtitle: "Vacuum Hopper"
-			description: ["Picks up things from a nearby area"]
+			description: ["Picks up things from a nearby area."]
 			hide_dependency_lines: true
 			dependencies: [
 				"3D3D8B33A6D7BE77"
@@ -630,6 +721,11 @@
 				id: "71ACDFADED3D2D9B"
 				type: "item"
 				item: "thermal:device_collector"
+			}]
+			rewards: [{
+				id: "2252B9A0AAE3592E"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -645,6 +741,12 @@
 				type: "item"
 				item: "thermal:device_nullifier"
 			}]
+			rewards: [{
+				id: "50BF60AA79C61E2D"
+				type: "item"
+				item: "minecraft:gravel"
+				count: 64
+			}]
 		}
 		{
 			x: 7.5d
@@ -655,6 +757,11 @@
 				id: "7B4BBD2AE0B183B0"
 				type: "item"
 				item: "thermal:satchel"
+			}]
+			rewards: [{
+				id: "15E487E746A77CEF"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -679,6 +786,12 @@
 				type: "item"
 				item: "thermal:dynamo_stirling"
 			}]
+			rewards: [{
+				id: "7F2C1EFB073B2901"
+				type: "item"
+				item: "minecraft:coal"
+				count: 8
+			}]
 		}
 		{
 			x: -1.0d
@@ -698,6 +811,11 @@
 				type: "item"
 				item: "thermal:dynamo_magmatic"
 			}]
+			rewards: [{
+				id: "23FF340A76D53BDD"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
 		}
 		{
 			x: 0.0d
@@ -708,19 +826,24 @@
 				""
 				"How to make coins? Craft the &7MultiServo Press&r and put the &8Numismatic Press&r in the second Slot (the one on the bottom)"
 			]
-			hide_dependency_lines: true
 			dependencies: [
-				"3AC2609EA33632B8"
+				"2B0269A10C4CCA04"
 				"6556C41B660B08F6"
-				"3D3D8B33A6D7BE77"
+				"63CE3547B729D28F"
 				"1B35982B907DD91A"
 				"7DD76F9B6426DCA3"
+				"468D1A04B4792CFD"
 			]
 			id: "72E898EEB37A8C0D"
 			tasks: [{
 				id: "0B741EC4816253C2"
 				type: "item"
 				item: "thermal:dynamo_numismatic"
+			}]
+			rewards: [{
+				id: "1796AE22D5AD4FC4"
+				type: "item"
+				item: "thermal:netherite_coin"
 			}]
 		}
 		{
@@ -742,6 +865,12 @@
 				type: "item"
 				item: "thermal:dynamo_lapidary"
 			}]
+			rewards: [{
+				id: "3B06ABB6904FA8F5"
+				type: "item"
+				item: "minecraft:lapis_lazuli"
+				count: 4
+			}]
 		}
 		{
 			x: 2.0d
@@ -757,6 +886,20 @@
 				id: "30BC9C5AA8B9DE75"
 				type: "item"
 				item: "thermal:dynamo_disenchantment"
+			}]
+			rewards: [{
+				id: "513C234DA0CD0D03"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:punch"
+						}]
+					}
+				}
 			}]
 		}
 		{
@@ -774,6 +917,12 @@
 				id: "6825F317FF9EE0A1"
 				type: "item"
 				item: "thermal:dynamo_gourmand"
+			}]
+			rewards: [{
+				id: "4C08D85FBAFE827C"
+				type: "item"
+				item: "minecraft:cookie"
+				count: 8
 			}]
 		}
 		{
@@ -884,17 +1033,26 @@
 		}
 		{
 			x: 0.0d
-			y: 12.75d
-			dependencies: [
-				"063B75CA0BD9A9BC"
-				"72E898EEB37A8C0D"
-			]
+			y: 13.0d
+			dependencies: ["063B75CA0BD9A9BC"]
 			id: "4806B646B6206608"
 			tasks: [{
 				id: "7CA308738ACF1B10"
 				type: "item"
 				item: "thermal:press_coin_die"
 			}]
+			rewards: [
+				{
+					id: "2BD15BF2064F41BB"
+					type: "item"
+					item: "thermal:chiller_ball_cast"
+				}
+				{
+					id: "78040D8198F687DF"
+					type: "item"
+					item: "thermal:chiller_rod_cast"
+				}
+			]
 		}
 		{
 			x: 9.5d
@@ -914,6 +1072,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "073A065F727E7397"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 8.5d
@@ -930,6 +1093,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "3DCCE0B860A51E15"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 8.5d
@@ -945,6 +1113,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "2AA949859F80B513"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1008,6 +1181,11 @@
 					item: "thermal:obsidian_glass"
 				}
 			]
+			rewards: [{
+				id: "593BD7563EE86338"
+				type: "item"
+				item: "thermal:obsidian_glass"
+			}]
 		}
 		{
 			title: "&#FA631ASignalum Glass&r"
@@ -1045,6 +1223,11 @@
 					item: "thermal:signalum_glass"
 				}
 			]
+			rewards: [{
+				id: "59CA8E65C7A281B3"
+				type: "item"
+				item: "thermal:signalum_glass"
+			}]
 		}
 		{
 			title: "&#DCEA97Lumium Glass&r"
@@ -1082,6 +1265,11 @@
 					item: "thermal:lumium_glass"
 				}
 			]
+			rewards: [{
+				id: "62F99C8139225B73"
+				type: "item"
+				item: "thermal:lumium_glass"
+			}]
 		}
 		{
 			title: "&#1D7D7EEnderium Glass&r"
@@ -1119,6 +1307,11 @@
 					item: "thermal:enderium_glass"
 				}
 			]
+			rewards: [{
+				id: "3A07DDC3CEF046E3"
+				type: "item"
+				item: "thermal:enderium_glass"
+			}]
 		}
 		{
 			x: -6.0d
@@ -1133,6 +1326,18 @@
 				type: "item"
 				item: "thermal:device_rock_gen"
 			}]
+			rewards: [
+				{
+					id: "61CA150FDB8C0BBF"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+				{
+					id: "78AF34ED1DDEC94D"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+			]
 		}
 		{
 			x: -5.0d
@@ -1147,11 +1352,22 @@
 				type: "item"
 				item: "thermal:device_potion_diffuser"
 			}]
+			rewards: [{
+				id: "3DDB9149C67E5D56"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+			}]
 		}
 		{
 			x: 0.0d
-			y: 16.75d
-			dependencies: ["72E898EEB37A8C0D"]
+			y: 16.5d
+			dependencies: ["4806B646B6206608"]
 			id: "468D1A04B4792CFD"
 			tasks: [{
 				id: "757D557FF3BF8668"
@@ -1164,6 +1380,12 @@
 						value: "forge:coins"
 					}
 				}
+			}]
+			rewards: [{
+				id: "1B0E551788611581"
+				type: "item"
+				item: "thermal:enderium_coin"
+				count: 4
 			}]
 		}
 		{
@@ -1188,6 +1410,11 @@
 					item: "thermal:redstone_servo"
 				}
 			]
+			rewards: [{
+				id: "400E2D834AAFE677"
+				type: "item"
+				item: "thermal:redstone_servo"
+			}]
 		}
 		{
 			title: "&4Redstone Flux Coil&r"
@@ -1217,6 +1444,11 @@
 					item: "thermal:rf_coil"
 				}
 			]
+			rewards: [{
+				id: "1D6E5599082D0D14"
+				type: "item"
+				item: "thermal:rf_coil"
+			}]
 		}
 		{
 			x: 5.75d
@@ -1372,6 +1604,11 @@
 				type: "item"
 				item: "thermal:resin_bucket"
 			}]
+			rewards: [{
+				id: "4A07B2D56FCAE3CF"
+				type: "item"
+				item: "thermal:resin_bucket"
+			}]
 		}
 		{
 			x: 10.0d
@@ -1386,6 +1623,11 @@
 			id: "3EAFE946D0476552"
 			tasks: [{
 				id: "3292C491BBDFB465"
+				type: "item"
+				item: "thermal:tar"
+			}]
+			rewards: [{
+				id: "4442DB0905D7571D"
 				type: "item"
 				item: "thermal:tar"
 			}]
