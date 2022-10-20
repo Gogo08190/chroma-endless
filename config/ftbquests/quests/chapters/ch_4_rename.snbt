@@ -47,6 +47,11 @@
 					title: "&aDone&r"
 				}
 			]
+			rewards: [{
+				id: "75FED9F9CDF5A911"
+				type: "random"
+				table_id: 2712770743921521456L
+			}]
 		}
 		{
 			x: 7.5d
@@ -56,6 +61,11 @@
 			id: "3715DBB336E5FD49"
 			tasks: [{
 				id: "2F7D22BBE3C842F6"
+				type: "item"
+				item: "undergarden:froststeel_ore"
+			}]
+			rewards: [{
+				id: "0DE672A08E0FB3DB"
 				type: "item"
 				item: "undergarden:froststeel_ore"
 			}]
@@ -70,6 +80,11 @@
 				type: "item"
 				item: "undergarden:froststeel_ingot"
 			}]
+			rewards: [{
+				id: "568757B5B2D2D5F6"
+				type: "item"
+				item: "emendatusenigmatica:froststeel_dust"
+			}]
 		}
 		{
 			x: 6.5d
@@ -79,6 +94,11 @@
 			id: "2FBE218C4015D03F"
 			tasks: [{
 				id: "1EF1BFC1CDEEBAEB"
+				type: "item"
+				item: "undergarden:cloggrum_ore"
+			}]
+			rewards: [{
+				id: "4445CD423864B353"
 				type: "item"
 				item: "undergarden:cloggrum_ore"
 			}]
@@ -93,6 +113,11 @@
 				type: "item"
 				item: "undergarden:cloggrum_ingot"
 			}]
+			rewards: [{
+				id: "75BD6BBAD95828F4"
+				type: "item"
+				item: "emendatusenigmatica:cloggrum_dust"
+			}]
 		}
 		{
 			x: 4.5d
@@ -102,6 +127,11 @@
 			id: "72B61E272B25CFBF"
 			tasks: [{
 				id: "56DB28EC390B3583"
+				type: "item"
+				item: "undergarden:utheric_shard"
+			}]
+			rewards: [{
+				id: "7D3FB05717A40025"
 				type: "item"
 				item: "undergarden:utheric_shard"
 			}]
@@ -117,6 +147,11 @@
 				type: "item"
 				item: "undergarden:utherium_ore"
 			}]
+			rewards: [{
+				id: "218A793CE12AAB0C"
+				type: "item"
+				item: "undergarden:utherium_ore"
+			}]
 		}
 		{
 			x: 4.5d
@@ -125,6 +160,11 @@
 			id: "4F496F328C03DC99"
 			tasks: [{
 				id: "222D01FF8039788B"
+				type: "item"
+				item: "undergarden:utherium_chunk"
+			}]
+			rewards: [{
+				id: "297B1C3C6DF67DCE"
 				type: "item"
 				item: "undergarden:utherium_chunk"
 			}]
@@ -143,6 +183,11 @@
 				type: "item"
 				item: "undergarden:utherium_ingot"
 			}]
+			rewards: [{
+				id: "738A72F1C2F72D63"
+				type: "item"
+				item: "emendatusenigmatica:utherium_dust"
+			}]
 		}
 		{
 			x: 8.5d
@@ -152,6 +197,11 @@
 			id: "683B58574B625D27"
 			tasks: [{
 				id: "206C3FDFB823935B"
+				type: "item"
+				item: "undergarden:regalium_ore"
+			}]
+			rewards: [{
+				id: "3B6CCDB7161F8A0D"
 				type: "item"
 				item: "undergarden:regalium_ore"
 			}]
@@ -167,6 +217,11 @@
 				type: "item"
 				item: "undergarden:regalium_ingot"
 			}]
+			rewards: [{
+				id: "067615F676AC24AD"
+				type: "item"
+				item: "undergarden:regalium_ingot"
+			}]
 		}
 		{
 			x: 9.5d
@@ -176,6 +231,11 @@
 			id: "5FE62A9CD55946E7"
 			tasks: [{
 				id: "7103DD0C77064D2C"
+				type: "item"
+				item: "undergarden:forgotten_nugget"
+			}]
+			rewards: [{
+				id: "45D503A38A61BF44"
 				type: "item"
 				item: "undergarden:forgotten_nugget"
 			}]
@@ -189,6 +249,136 @@
 				id: "7372E3364B76346D"
 				type: "item"
 				item: "undergarden:forgotten_ingot"
+			}]
+			rewards: [{
+				id: "16BF9BD98845AEC8"
+				type: "item"
+				item: {
+					id: "shrink:mob_bottle"
+					Count: 1b
+					tag: {
+						Brain: {
+							memories: { }
+						}
+						HurtByTimestamp: 0
+						ForgeData: { }
+						Attributes: [
+							{
+								Base: 1.0d
+								Name: "minecraft:generic.knockback_resistance"
+							}
+							{
+								Base: 0.08d
+								Name: "forge:entity_gravity"
+							}
+							{
+								Base: 16.0d
+								Modifiers: [{
+									Operation: 1
+									UUID: [I;
+										-1200466023
+										-622442753
+										-1367024392
+										1126610148
+									]
+									Amount: 0.024903142802100677d
+									Name: "Random spawn bonus"
+								}]
+								Name: "minecraft:generic.follow_range"
+							}
+							{
+								Base: 0.2d
+								Name: "minecraft:generic.movement_speed"
+							}
+						]
+						Invulnerable: 0b
+						FallFlying: 0b
+						PortalCooldown: 0
+						AbsorptionAmount: 0.0f
+						FallDistance: 0.0f
+						CanUpdate: 1b
+						DeathTime: 0s
+						BoundingBox: [
+							-220.0d
+							145.0d
+							1323.0d
+							-219.0d
+							148.79999995231628d
+							1324.0d
+						]
+						ForgeCaps: {
+							"structure_gel:gel_entity": {
+								portal: "structure_gel:empty"
+							}
+							"citadel:extended_entity_data_citadel": { }
+							"mekanism:radiation": {
+								radiation: 1.0E-7d
+							}
+							"pneumaticcraft:hacking": { }
+							"shrink:shrunk": {
+								width: 1.0f
+								defaulteyeheight: 3.23f
+								scale: 1.11f
+								isshrinking: 1b
+								fixed: 0b
+								isshrunk: 1b
+								height: 3.8f
+							}
+						}
+						HandDropChances: [
+							0.085f
+							0.085f
+						]
+						PersistenceRequired: 0b
+						id: "undergarden:forgotten_guardian"
+						UUID: [I;
+							623037125
+							319637664
+							-1691322908
+							-866786016
+						]
+						Motion: [
+							0.0d
+							-0.0784000015258789d
+							0.0d
+						]
+						Health: 80.0f
+						KubeJSPersistentData: { }
+						LeftHanded: 0b
+						Air: 300s
+						OnGround: 1b
+						CitadelData: { }
+						Rotation: [
+							165.38808f
+							0.0f
+						]
+						HandItems: [
+							{ }
+							{ }
+						]
+						ArmorDropChances: [
+							0.085f
+							0.085f
+							0.085f
+							0.085f
+						]
+						Pos: [
+							-219.5d
+							145.0d
+							1323.5d
+						]
+						Fire: -1s
+						ArmorItems: [
+							{ }
+							{ }
+							{ }
+							{ }
+						]
+						CanPickUpLoot: 0b
+						HurtTime: 0s
+						entity: "undergarden:forgotten_guardian"
+					}
+				}
 			}]
 		}
 		{
@@ -219,6 +409,11 @@
 				entity: "undergarden:forgotten_guardian"
 				value: 5L
 			}]
+			rewards: [{
+				id: "77604A683C952301"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 		}
 		{
 			x: 7.75d
@@ -244,6 +439,11 @@
 				entity: "undergarden:rotbeast"
 				value: 10L
 			}]
+			rewards: [{
+				id: "4FE98808611336E9"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 		}
 		{
 			x: 4.75d
@@ -268,6 +468,11 @@
 				entity: "undergarden:rotling"
 				value: 10L
 			}]
+			rewards: [{
+				id: "7D2A06E9C790D0A0"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 		}
 		{
 			x: 6.25d
@@ -291,6 +496,11 @@
 				}
 				entity: "undergarden:rotwalker"
 				value: 10L
+			}]
+			rewards: [{
+				id: "49ECEA82F154F34E"
+				type: "xp_levels"
+				xp_levels: 10
 			}]
 		}
 		{
@@ -320,6 +530,11 @@
 				entity: "undergarden:nargoyle"
 				value: 10L
 			}]
+			rewards: [{
+				id: "382D63BDEE99E6AB"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 		}
 		{
 			x: 10.75d
@@ -332,6 +547,12 @@
 				id: "6F1A65CFFA6FA60B"
 				type: "item"
 				item: "undergarden:depthrock_pebble"
+			}]
+			rewards: [{
+				id: "36C123555037DFA4"
+				type: "item"
+				item: "undergarden:depthrock_pebble"
+				count: 16
 			}]
 		}
 		{
@@ -351,6 +572,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "48E207DC2A7C5029"
+				type: "item"
+				item: "undergarden:depthrock_pebble"
+				count: 16
+			}]
 		}
 		{
 			x: 4.0d
@@ -367,6 +594,11 @@
 				id: "1F04B1324A4F9EAE"
 				type: "item"
 				item: "undergarden:depthrock_bed"
+			}]
+			rewards: [{
+				id: "00ED978FF75F402D"
+				type: "random"
+				table_id: 2712770743921521456L
 			}]
 		}
 		{
@@ -386,6 +618,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5D5C4A8248B43C51"
+				type: "random"
+				table_id: 2712770743921521456L
+			}]
 		}
 		{
 			x: 7.0d
@@ -394,6 +631,11 @@
 			id: "2A40D8DE41E355D2"
 			tasks: [{
 				id: "15ED983C5CB38F99"
+				type: "item"
+				item: "undergarden:droopvine_item"
+			}]
+			rewards: [{
+				id: "65ACEFE74CC55DEA"
 				type: "item"
 				item: "undergarden:droopvine_item"
 			}]
@@ -408,6 +650,12 @@
 				type: "item"
 				item: "undergarden:blisterberry"
 			}]
+			rewards: [{
+				id: "20C60F9DFEC90D3C"
+				type: "item"
+				item: "undergarden:blisterberry"
+				count: 2
+			}]
 		}
 		{
 			x: 8.0d
@@ -418,6 +666,11 @@
 				id: "3F80216604ED429B"
 				type: "item"
 				item: "undergarden:cooked_gwibling"
+			}]
+			rewards: [{
+				id: "6F83DAFA74479E58"
+				type: "item"
+				item: "undergarden:raw_gwibling"
 			}]
 		}
 		{
@@ -430,6 +683,11 @@
 				type: "item"
 				item: "undergarden:dweller_steak"
 			}]
+			rewards: [{
+				id: "0A26631857176F2F"
+				type: "item"
+				item: "undergarden:raw_dweller_meat"
+			}]
 		}
 		{
 			x: 6.0d
@@ -439,6 +697,11 @@
 			id: "245965EED01A6128"
 			tasks: [{
 				id: "6C88FBDB40FB0B09"
+				type: "item"
+				item: "undergarden:indigo_stew"
+			}]
+			rewards: [{
+				id: "47E145CC7E96ACC4"
 				type: "item"
 				item: "undergarden:indigo_stew"
 			}]
@@ -454,6 +717,11 @@
 				type: "item"
 				item: "undergarden:inky_stew"
 			}]
+			rewards: [{
+				id: "1CB23D811DD57E2A"
+				type: "item"
+				item: "undergarden:inky_stew"
+			}]
 		}
 		{
 			x: 8.0d
@@ -466,6 +734,11 @@
 				type: "item"
 				item: "undergarden:bloody_stew"
 			}]
+			rewards: [{
+				id: "7E752614E6BC465A"
+				type: "item"
+				item: "undergarden:bloody_stew"
+			}]
 		}
 		{
 			x: 7.0d
@@ -475,6 +748,11 @@
 			id: "3E620F4EB8EA6EAF"
 			tasks: [{
 				id: "0ED4E763E433AB3E"
+				type: "item"
+				item: "undergarden:veiled_stew"
+			}]
+			rewards: [{
+				id: "26156D1F10310989"
 				type: "item"
 				item: "undergarden:veiled_stew"
 			}]
@@ -503,6 +781,11 @@
 				entity: "undergarden:brute"
 				value: 10L
 			}]
+			rewards: [{
+				id: "529DF6F659F5E891"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 		}
 		{
 			x: 3.25d
@@ -515,6 +798,12 @@
 				id: "406B24E3ACFAC295"
 				type: "item"
 				item: "undergarden:blisterbomb"
+			}]
+			rewards: [{
+				id: "025836A884B31AD4"
+				type: "item"
+				item: "undergarden:blisterbomb"
+				count: 2
 			}]
 		}
 		{
@@ -538,6 +827,11 @@
 				type: "item"
 				item: "undergarden:gloomgourd_pie"
 			}]
+			rewards: [{
+				id: "238A63D663DD5967"
+				type: "item"
+				item: "undergarden:gloomgourd_pie"
+			}]
 		}
 		{
 			x: 6.0d
@@ -548,6 +842,11 @@
 				id: "37BDDE28094FEEC3"
 				type: "item"
 				item: "undergarden:gloomper_leg"
+			}]
+			rewards: [{
+				id: "7084FB08D4D856ED"
+				type: "item"
+				item: "undergarden:raw_gloomper_leg"
 			}]
 		}
 		{
@@ -578,6 +877,11 @@
 				entity: "undergarden:stoneborn"
 				value: 10L
 			}]
+			rewards: [{
+				id: "3E972681D6B2AFF3"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 		}
 		{
 			x: 10.0d
@@ -590,6 +894,12 @@
 				type: "item"
 				item: "undergarden:ditchbulb"
 				count: 4L
+			}]
+			rewards: [{
+				id: "6D4E45CE5CED5686"
+				type: "item"
+				item: "undergarden:ditchbulb"
+				count: 4
 			}]
 		}
 		{
@@ -619,6 +929,11 @@
 				entity: "undergarden:muncher"
 				value: 10L
 			}]
+			rewards: [{
+				id: "736F777A67A7DE7C"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 		}
 		{
 			x: 7.0d
@@ -634,6 +949,11 @@
 				title: "&5Discover every Undergarden biome"
 				advancement: "undergarden:undergarden/all_undergarden_biomes"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "2EDF2BCF653B2B88"
+				type: "item"
+				item: "undergarden:music_disc_limax_maximus"
 			}]
 		}
 		{
@@ -651,6 +971,11 @@
 				advancement: "undergarden:undergarden/trade_with_stoneborn"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "59F38A067DCD7D0B"
+				type: "item"
+				item: "undergarden:music_disc_relict"
+			}]
 		}
 		{
 			x: 5.75d
@@ -667,6 +992,11 @@
 				title: "&aCreate a Forgotten Minion"
 				advancement: "undergarden:undergarden/summon_minion"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "77F37A37EBCA6599"
+				type: "item"
+				item: "undergarden:music_disc_gloomper_anthem"
 			}]
 		}
 		{
@@ -706,6 +1036,11 @@
 					count: 14L
 				}
 			]
+			rewards: [{
+				id: "35A394F9BF80A7D2"
+				type: "loot"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			icon: "pneumaticcraft:ingot_iron_compressed"

@@ -92,24 +92,6 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}pink_slime_ingot`
         },
         {
-            output: Fluid.of('materialis:molten_neptunium', 1296),
-            input: '#forge:storage_blocks/neptunium',
-            energy: 40000,
-            id: `${id_prefix}neptunium_block`
-        },
-        {
-            output: Fluid.of('materialis:molten_neptunium', 144),
-            input: '#forge:ingots/neptunium',
-            energy: 5000,
-            id: `${id_prefix}neptunium_ingot`
-        },
-        {
-            output: Fluid.of('materialis:molten_neptunium', 16),
-            input: '#forge:nuggets/neptunium',
-            energy: 555,
-            id: `${id_prefix}neptunium_nugget`
-        },
-        {
             output: Fluid.of('tconstruct:magma', 250),
             input: 'minecraft:magma_cream',
             energy: 5000,

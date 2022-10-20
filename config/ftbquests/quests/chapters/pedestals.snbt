@@ -33,6 +33,11 @@
 				type: "item"
 				item: "pedestals:pedestal/stone333"
 			}]
+			rewards: [{
+				id: "066E7A3BCDBEE6FD"
+				type: "item"
+				item: "pedestals:pedestal/stone303"
+			}]
 		}
 		{
 			x: 3.25d
@@ -54,6 +59,11 @@
 				type: "item"
 				item: "pedestals:linkingtool"
 			}]
+			rewards: [{
+				id: "0D815659B4886626"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 2.0d
@@ -65,6 +75,11 @@
 				id: "40C9BC482DBA26A0"
 				type: "item"
 				item: "pedestals:upgradetool"
+			}]
+			rewards: [{
+				id: "0AE20AEB39290008"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -81,6 +96,11 @@
 				id: "7696B16E2FAE6763"
 				type: "item"
 				item: "pedestals:toolswapper"
+			}]
+			rewards: [{
+				id: "5B5AFFC336C1AC62"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -109,6 +129,11 @@
 					item: "pedestals:filterswapper"
 				}
 			]
+			rewards: [{
+				id: "3544B85954451487"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 3.25d
@@ -125,6 +150,11 @@
 			id: "5FC7404520358E37"
 			tasks: [{
 				id: "692DA6D69A8F147D"
+				type: "item"
+				item: "pedestals:coin/default"
+			}]
+			rewards: [{
+				id: "6145F3DE6333F85E"
 				type: "item"
 				item: "pedestals:coin/default"
 			}]
@@ -155,6 +185,11 @@
 					item: "pedestals:coin/rfexport"
 				}
 			]
+			rewards: [{
+				id: "5821F0A2D3A7D4D2"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			title: "Item Transportation Upgrade"
@@ -181,6 +216,11 @@
 					item: "pedestals:coin/export"
 				}
 			]
+			rewards: [{
+				id: "496551A1089DDB8C"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			title: "Fluid Transfer"
@@ -208,6 +248,11 @@
 					item: "pedestals:coin/fluidexport"
 				}
 			]
+			rewards: [{
+				id: "28784203C499E14F"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 3.25d
@@ -228,6 +273,20 @@
 				title: "Cobble Generator Upgrade"
 				item: "pedestals:coin/cobble"
 			}]
+			rewards: [{
+				id: "20FE0EBE46371BE6"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:silk_touch"
+						}]
+					}
+				}
+			}]
 		}
 		{
 			x: 0.25d
@@ -242,12 +301,22 @@
 				title: "Quarry Upgrade"
 				item: "pedestals:coin/quarry"
 			}]
+			rewards: [{
+				id: "66BC06EBB98379D9"
+				type: "item"
+				item: "minecraft:chest"
+				count: 2
+			}]
 		}
 		{
 			x: 1.25d
 			y: -2.5d
 			shape: "rsquare"
-			description: ["Just like the Normal Furnace Upgrade, except you need to connect it to the PEN as it'll consume energy and not require solid fuel to be used."]
+			description: [
+				"Place an inventory below the pedestal for item inputs."
+				"Drop fuel items on the pedestal to fuel it."
+				"Outputs come out at the top of the pedestal. Can smelt anything a vanilla furnace can."
+			]
 			dependencies: ["5FC7404520358E37"]
 			id: "3BDE4E1992941B0B"
 			tasks: [{
@@ -271,12 +340,22 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "00957F270D1B107C"
+				type: "item"
+				item: "minecraft:coal"
+				count: 8
+			}]
 		}
 		{
 			x: 2.25d
 			y: -2.5d
 			shape: "rsquare"
-			description: ["Just like the Normal Sawmill Upgrade, except you need to connect it to the PEN as it'll consume energy and not require solid fuel to be used."]
+			description: [
+				"Place an inventory below the pedestal for item inputs."
+				"Drop fuel items on the pedestal to fuel it."
+				"Outputs come out at the top of the pedestal. Saws vanilla wood blocks into other wood blocks or sticks."
+			]
 			dependencies: ["5FC7404520358E37"]
 			id: "6D743BD4B8E03A9A"
 			tasks: [{
@@ -300,12 +379,22 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "70382B896A4A63F4"
+				type: "item"
+				item: "minecraft:dark_oak_log"
+				count: 16
+			}]
 		}
 		{
 			x: 3.25d
 			y: -2.5d
 			shape: "rsquare"
-			description: ["Just like the Normal Crusher Upgrade, except you need to connect it to the PEN as it'll consume energy and not require solid fuel to be used."]
+			description: [
+				"Place an inventory below the pedestal for item inputs."
+				"Drop fuel items on the pedestal to fuel it."
+				"Outputs come out at the top of the pedestal. Can crush most Ores, Stone, Cobble, Gravel, blaze Rod, Sugar Cane, Beetroot, P.Potato, Potato, Wheat, Bone, and Vanilla Flowers."
+			]
 			dependencies: ["5FC7404520358E37"]
 			id: "5CB82BDD9185BE64"
 			tasks: [{
@@ -329,6 +418,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "04EAC1F3BFC2D077"
+				type: "item"
+				item: "minecraft:gravel"
+				count: 16
+			}]
 		}
 		{
 			x: 4.25d
@@ -348,6 +443,11 @@
 				title: "Milker Upgrade"
 				item: "pedestals:coin/milker"
 			}]
+			rewards: [{
+				id: "3BA40678155E9720"
+				type: "item"
+				item: "farmersdelight:milk_bottle"
+			}]
 		}
 		{
 			x: 5.25d
@@ -361,6 +461,11 @@
 				type: "item"
 				title: "Fluid Pump Upgrade"
 				item: "pedestals:coin/fluidpump"
+			}]
+			rewards: [{
+				id: "5C236FE01F1B8593"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -376,6 +481,11 @@
 				title: "Fuid to XP converter Upgrade"
 				item: "pedestals:coin/fluidxpconverter"
 			}]
+			rewards: [{
+				id: "0ACF6A756A811C4C"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
 		}
 		{
 			x: 6.25d
@@ -389,6 +499,11 @@
 				type: "item"
 				title: "Fluid Drain Upgrade"
 				item: "pedestals:coin/fluiddrain"
+			}]
+			rewards: [{
+				id: "5ECC47CBB9DA6968"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -423,6 +538,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3843B41FAD45FA8F"
+				type: "item"
+				item: "minecraft:experience_bottle"
+				count: 3
+			}]
 		}
 		{
 			x: 1.75d
@@ -441,6 +562,12 @@
 				type: "item"
 				title: "Enchanter Upgrade"
 				item: "pedestals:coin/xpenchanter"
+			}]
+			rewards: [{
+				id: "430EB16A8F7C9EB9"
+				type: "item"
+				item: "minecraft:book"
+				count: 3
 			}]
 		}
 		{
@@ -463,6 +590,11 @@
 				title: "XP Anvil"
 				item: "pedestals:coin/xpanvil"
 			}]
+			rewards: [{
+				id: "74D8E6B1D2B65E9F"
+				type: "item"
+				item: "minecraft:anvil"
+			}]
 		}
 		{
 			x: 2.25d
@@ -476,6 +608,11 @@
 				type: "item"
 				title: "Exp Tank Upgrade"
 				item: "pedestals:coin/xptank"
+			}]
+			rewards: [{
+				id: "592E71A116717E0B"
+				type: "item"
+				item: "create:fluid_tank"
 			}]
 		}
 		{
@@ -493,6 +630,11 @@
 				id: "3775C0502BA66087"
 				type: "item"
 				item: "pedestals:itemcolorpalletdefault"
+			}]
+			rewards: [{
+				id: "1BBBC4917F1694F5"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -533,6 +675,11 @@
 						]
 					}
 				}
+			}]
+			rewards: [{
+				id: "27B38A38EB1256D9"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -593,6 +740,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "46BF08E0BA582480"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 6.0d
@@ -609,6 +761,11 @@
 				type: "item"
 				item: "pedestals:bookadvanced"
 			}]
+			rewards: [{
+				id: "4AA407B4154008A0"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 3.75d
@@ -622,6 +779,21 @@
 				type: "item"
 				title: "Exp Grindstone Upgrade"
 				item: "pedestals:coin/xpgrindstone"
+			}]
+			rewards: [{
+				id: "60EE475BCB52CDE4"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 1s
+							id: "minecraft:fire_aspect"
+						}]
+					}
+				}
 			}]
 		}
 		{
@@ -641,6 +813,11 @@
 				type: "item"
 				title: "Exp Magnet Upgrade"
 				item: "pedestals:coin/xpmagnet"
+			}]
+			rewards: [{
+				id: "4035DB8FD7544BCD"
+				type: "xp_levels"
+				xp_levels: 3
 			}]
 		}
 	]

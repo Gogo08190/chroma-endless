@@ -1,0 +1,16 @@
+{
+	id: "25A5B29E6483B330"
+	order_index: 7
+	title: "Undergarden Natures"
+	icon: "undergarden:wigglewood_sapling"
+	loot_size: 1
+	rewards: [
+		{ item: "undergarden:grongle_sapling" }
+		{ item: "undergarden:wigglewood_sapling" }
+		{ item: "undergarden:smogstem_sapling" }
+		{ item: "undergarden:blood_mushroom" }
+		{ item: "undergarden:ink_mushroom" }
+		{ item: "undergarden:veil_mushroom" }
+		{ item: "undergarden:indigo_mushroom" }
+	]
+}

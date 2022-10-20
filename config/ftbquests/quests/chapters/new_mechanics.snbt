@@ -29,6 +29,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7E5FD255D26ED5E3"
+				type: "item"
+				item: "miniutilities:green_lapis_caelestis"
+				count: 64
+			}]
 		}
 		{
 			x: 12.5d
@@ -43,6 +49,11 @@
 				type: "item"
 				item: "miniutilities:precision_shears"
 			}]
+			rewards: [{
+				id: "58ED7E14C4F1663C"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 17.0d
@@ -56,6 +67,13 @@
 				type: "item"
 				item: "miniutilities:ender_pearl_block"
 			}]
+			rewards: [{
+				id: "328040998A6EC15F"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 4
+				random_bonus: 2
+			}]
 		}
 		{
 			x: 9.5d
@@ -66,6 +84,11 @@
 				id: "5D189648E98934B4"
 				type: "item"
 				item: "miniutilities:stone_drum"
+			}]
+			rewards: [{
+				id: "51AF72F9B3F090A0"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -78,6 +101,11 @@
 				type: "item"
 				item: "miniutilities:iron_drum"
 			}]
+			rewards: [{
+				id: "11C709BF39EBEEBC"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 10.0d
@@ -89,6 +117,11 @@
 				type: "item"
 				item: "miniutilities:reinforced_large_drum"
 			}]
+			rewards: [{
+				id: "54BD512C4E416801"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 9.5d
@@ -99,6 +132,11 @@
 				id: "6175103B41D8C4CE"
 				type: "item"
 				item: "miniutilities:netherite_reinforced_drum"
+			}]
+			rewards: [{
+				id: "3D730F2E8FDEFC17"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -113,6 +151,11 @@
 				id: "05C67F0A38E38560"
 				type: "item"
 				item: "miniutilities:unstable_drum"
+			}]
+			rewards: [{
+				id: "6A3E6065DB2E62F1"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -136,6 +179,11 @@
 					item: "miniutilities:mechanical_placer"
 				}
 			]
+			rewards: [{
+				id: "0ADBFB4E3F8F5622"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 17.0d
@@ -162,6 +210,11 @@
 				type: "item"
 				item: "miniutilities:solar_panel"
 			}]
+			rewards: [{
+				id: "070D8C567666CEA3"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 12.0d
@@ -172,6 +225,11 @@
 				id: "586562860313D10E"
 				type: "item"
 				item: "miniutilities:lunar_panel"
+			}]
+			rewards: [{
+				id: "62A3E24A6DBCC428"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -187,6 +245,11 @@
 				type: "item"
 				item: "miniutilities:solar_panel_controller"
 			}]
+			rewards: [{
+				id: "1D4BFD99DE5CD278"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 13.25d
@@ -198,6 +261,11 @@
 				type: "item"
 				item: "miniutilities:ender_tile"
 			}]
+			rewards: [{
+				id: "79E3976B1E9D0FF7"
+				type: "item"
+				item: "miniutilities:ender_tile"
+			}]
 		}
 		{
 			x: 12.0d
@@ -205,6 +273,11 @@
 			id: "0A52425E05BF3CC2"
 			tasks: [{
 				id: "33C5D25B73E2EF9D"
+				type: "item"
+				item: "miniutilities:chorus_tile"
+			}]
+			rewards: [{
+				id: "199330A0B6970FFE"
 				type: "item"
 				item: "miniutilities:chorus_tile"
 			}]
@@ -222,6 +295,11 @@
 				type: "item"
 				item: "miniutilities:laser_hub"
 			}]
+			rewards: [{
+				id: "5DCCB09FC1DFCE57"
+				type: "item"
+				item: "miniutilities:laser_hub"
+			}]
 		}
 		{
 			x: 12.0d
@@ -230,6 +308,11 @@
 			id: "54A3B771F9E056CD"
 			tasks: [{
 				id: "6600F65C2041A515"
+				type: "item"
+				item: "miniutilities:laser_port"
+			}]
+			rewards: [{
+				id: "4EBCB1C8F3365AFD"
 				type: "item"
 				item: "miniutilities:laser_port"
 			}]
@@ -256,6 +339,11 @@
 					item: "miniutilities:dark_glass"
 				}
 			]
+			rewards: [{
+				id: "13C5E0158F219E6C"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 21.5d
@@ -264,6 +352,11 @@
 			id: "5858FA8B5E0BA21B"
 			tasks: [{
 				id: "4E0ABFBA0C3A5FB1"
+				type: "item"
+				item: "miniutilities:lapis_lamp"
+			}]
+			rewards: [{
+				id: "426575B68F27DE51"
 				type: "item"
 				item: "miniutilities:lapis_lamp"
 			}]
@@ -281,6 +374,11 @@
 				type: "item"
 				item: "miniutilities:redstone_clock"
 			}]
+			rewards: [{
+				id: "34BD407E19117357"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 12.5d
@@ -290,6 +388,11 @@
 				id: "251E91A5EFB302EA"
 				type: "item"
 				item: "miniutilities:angel_block"
+			}]
+			rewards: [{
+				id: "37EA9BECEE57ECF3"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -304,6 +407,11 @@
 				type: "item"
 				item: "miniutilities:kikoku"
 			}]
+			rewards: [{
+				id: "44A9E4ECC2D3D0ED"
+				type: "item"
+				item: "miniutilities:experience_pearl_1x"
+			}]
 		}
 		{
 			x: 15.0d
@@ -313,6 +421,11 @@
 				id: "1D8763064363E643"
 				type: "item"
 				item: "miniutilities:ender_lily_seeds"
+			}]
+			rewards: [{
+				id: "5FF335C10C754F42"
+				type: "item"
+				item: "miniutilities:flame_lily_seeds"
 			}]
 		}
 		{
@@ -328,6 +441,11 @@
 				type: "item"
 				item: "miniutilities:iron_opinium_core"
 			}]
+			rewards: [{
+				id: "41521932171846CB"
+				type: "item"
+				item: "miniutilities:iron_opinium_core"
+			}]
 		}
 		{
 			x: 10.75d
@@ -336,6 +454,11 @@
 			id: "43ACF88FBD6B160D"
 			tasks: [{
 				id: "020C3750BA0B40AC"
+				type: "item"
+				item: "miniutilities:gold_opinium_core"
+			}]
+			rewards: [{
+				id: "7620DE443A356D7C"
 				type: "item"
 				item: "miniutilities:gold_opinium_core"
 			}]
@@ -350,6 +473,11 @@
 				type: "item"
 				item: "miniutilities:diamond_opinium_core"
 			}]
+			rewards: [{
+				id: "3EB1282FD0599FAD"
+				type: "item"
+				item: "miniutilities:diamond_opinium_core"
+			}]
 		}
 		{
 			x: 13.25d
@@ -358,6 +486,11 @@
 			id: "44F54CA9814342B5"
 			tasks: [{
 				id: "29B055F29472C0B9"
+				type: "item"
+				item: "miniutilities:netherite_opinium_core"
+			}]
+			rewards: [{
+				id: "44B163059BD5EFEC"
 				type: "item"
 				item: "miniutilities:netherite_opinium_core"
 			}]
@@ -372,6 +505,11 @@
 				type: "item"
 				item: "miniutilities:emerald_opinium_core"
 			}]
+			rewards: [{
+				id: "60FDE4A7827706FF"
+				type: "item"
+				item: "miniutilities:emerald_opinium_core"
+			}]
 		}
 		{
 			x: 18.0d
@@ -383,6 +521,11 @@
 				type: "item"
 				item: "miniutilities:chorus_opinium_core"
 			}]
+			rewards: [{
+				id: "3BCE0B936100F7AE"
+				type: "item"
+				item: "miniutilities:chorus_opinium_core"
+			}]
 		}
 		{
 			x: 18.0d
@@ -391,6 +534,11 @@
 			id: "147F3AE2799C6351"
 			tasks: [{
 				id: "250FCD8CECB10CFB"
+				type: "item"
+				item: "miniutilities:experience_opinium_core"
+			}]
+			rewards: [{
+				id: "3FF1B4F8C78B410A"
 				type: "item"
 				item: "miniutilities:experience_opinium_core"
 			}]
@@ -408,6 +556,11 @@
 				type: "item"
 				item: "miniutilities:nether_star_opinium_core"
 			}]
+			rewards: [{
+				id: "4799918CE60FCBBB"
+				type: "item"
+				item: "miniutilities:nether_star_opinium_core"
+			}]
 		}
 		{
 			x: 19.5d
@@ -416,6 +569,11 @@
 			id: "522508C95BF66664"
 			tasks: [{
 				id: "4201153CE0D0523B"
+				type: "item"
+				item: "miniutilities:the_final_opinium_core"
+			}]
+			rewards: [{
+				id: "1B2D163A9F639429"
 				type: "item"
 				item: "miniutilities:the_final_opinium_core"
 			}]
@@ -433,6 +591,11 @@
 				type: "item"
 				item: "miniutilities:speed_upgrade"
 			}]
+			rewards: [{
+				id: "6050DCCEDC09F65C"
+				type: "item"
+				item: "miniutilities:speed_upgrade"
+			}]
 		}
 		{
 			x: 23.25d
@@ -443,6 +606,11 @@
 				id: "2D2DFC20CD13189C"
 				type: "item"
 				item: "miniutilities:experience_pearl"
+			}]
+			rewards: [{
+				id: "3BEEC8748E6C56AC"
+				type: "xp"
+				xp: 256
 			}]
 		}
 		{
@@ -455,6 +623,11 @@
 				type: "item"
 				item: "miniutilities:experience_pearl_1x"
 			}]
+			rewards: [{
+				id: "5354B3BAE8266CF0"
+				type: "xp"
+				xp: 256
+			}]
 		}
 		{
 			x: 22.0d
@@ -465,6 +638,11 @@
 				id: "6773862C655705EE"
 				type: "item"
 				item: "miniutilities:experience_pearl_2x"
+			}]
+			rewards: [{
+				id: "7DF4EEE396A453AF"
+				type: "xp"
+				xp: 256
 			}]
 		}
 		{
@@ -477,6 +655,11 @@
 				type: "item"
 				item: "miniutilities:experience_pearl_3x"
 			}]
+			rewards: [{
+				id: "768FB6D9894C63FB"
+				type: "xp"
+				xp: 256
+			}]
 		}
 		{
 			x: 20.75d
@@ -487,6 +670,11 @@
 				id: "30E3719A208F2C39"
 				type: "item"
 				item: "miniutilities:experience_pearl_4x"
+			}]
+			rewards: [{
+				id: "31E11AA2B5B16460"
+				type: "xp"
+				xp: 256
 			}]
 		}
 		{
@@ -503,6 +691,11 @@
 				type: "checkmark"
 				title: "Xp Bee"
 			}]
+			rewards: [{
+				id: "77C349DF6807DC40"
+				type: "item"
+				item: "mob_grinding_utils:solid_xp_baby"
+			}]
 		}
 		{
 			x: 20.625d
@@ -515,6 +708,12 @@
 				id: "1C97B58139BCE585"
 				type: "item"
 				item: "miniutilities:angel_ring"
+			}]
+			rewards: [{
+				id: "55384A0B8B52444A"
+				type: "item"
+				item: "minecraft:feather"
+				count: 2
 			}]
 		}
 	]

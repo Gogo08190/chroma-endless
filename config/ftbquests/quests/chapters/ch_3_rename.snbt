@@ -92,6 +92,11 @@
 				type: "item"
 				item: "thermal:machine_pulverizer"
 			}]
+			rewards: [{
+				id: "4416A2D826EAA342"
+				type: "item"
+				item: "thermal:slag"
+			}]
 		}
 		{
 			x: 2.75d
@@ -104,6 +109,12 @@
 				id: "6CCB1AE421A11C6F"
 				type: "item"
 				item: "thermal:machine_furnace"
+			}]
+			rewards: [{
+				id: "09282A2F4FA49FA2"
+				type: "item"
+				item: "minecraft:chicken"
+				count: 4
 			}]
 		}
 		{
@@ -118,6 +129,11 @@
 				type: "item"
 				item: "thermal:machine_smelter"
 			}]
+			rewards: [{
+				id: "356859971A160726"
+				type: "item"
+				item: "emendatusenigmatica:electrum_ingot"
+			}]
 		}
 		{
 			x: 0.0d
@@ -130,6 +146,11 @@
 				id: "23781C9821A02FEE"
 				type: "item"
 				item: "thermal:machine_press"
+			}]
+			rewards: [{
+				id: "466D50FDB7C43994"
+				type: "item"
+				item: "emendatusenigmatica:steel_plate"
 			}]
 		}
 		{
@@ -144,6 +165,12 @@
 				type: "item"
 				item: "thermal:machine_sawmill"
 			}]
+			rewards: [{
+				id: "17621764B924F1A2"
+				type: "item"
+				item: "minecraft:spruce_log"
+				count: 8
+			}]
 		}
 		{
 			x: -1.125d
@@ -157,6 +184,11 @@
 				type: "item"
 				item: "thermal:machine_crucible"
 			}]
+			rewards: [{
+				id: "6B39B70DEA6005D2"
+				type: "item"
+				item: "tconstruct:molten_steel_bucket"
+			}]
 		}
 		{
 			x: -2.75d
@@ -169,6 +201,11 @@
 				id: "4A2D6C671C4CE324"
 				type: "item"
 				item: "thermal:machine_bottler"
+			}]
+			rewards: [{
+				id: "42784C32E965EA9D"
+				type: "item"
+				item: "minecraft:honey_bottle"
 			}]
 		}
 		{
@@ -304,6 +341,11 @@
 				type: "item"
 				item: "thermal:rf_coil_augment"
 			}]
+			rewards: [{
+				id: "2CB8B28549C6E305"
+				type: "item"
+				item: "thermal:rf_coil_augment"
+			}]
 		}
 		{
 			x: 6.25d
@@ -312,6 +354,11 @@
 			id: "1743D05DAACE6C63"
 			tasks: [{
 				id: "6E0EE3444B5612A3"
+				type: "item"
+				item: "thermal:machine_speed_augment"
+			}]
+			rewards: [{
+				id: "67B9DFA74B98F7D5"
 				type: "item"
 				item: "thermal:machine_speed_augment"
 			}]
@@ -326,6 +373,11 @@
 				type: "item"
 				item: "thermal:machine_output_augment"
 			}]
+			rewards: [{
+				id: "386F4285A066734B"
+				type: "item"
+				item: "thermal:machine_output_augment"
+			}]
 		}
 		{
 			x: 7.75d
@@ -334,6 +386,11 @@
 			id: "1C08A35095A43EA1"
 			tasks: [{
 				id: "7AA76B2653FB8435"
+				type: "item"
+				item: "thermal:dynamo_fuel_augment"
+			}]
+			rewards: [{
+				id: "3A76648AC446E717"
 				type: "item"
 				item: "thermal:dynamo_fuel_augment"
 			}]
@@ -383,6 +440,11 @@
 				type: "item"
 				item: "thermal:upgrade_augment_1"
 			}]
+			rewards: [{
+				id: "6F394AF5F7450C18"
+				type: "item"
+				item: "thermal:upgrade_augment_1"
+			}]
 		}
 		{
 			x: 6.5d
@@ -393,6 +455,11 @@
 			id: "06EE0FAEB74F30B8"
 			tasks: [{
 				id: "73E6D15CB69B842D"
+				type: "item"
+				item: "thermal:upgrade_augment_2"
+			}]
+			rewards: [{
+				id: "0E59DB7793D1E07E"
 				type: "item"
 				item: "thermal:upgrade_augment_2"
 			}]
@@ -409,6 +476,11 @@
 			id: "15770C3D59BEB5DB"
 			tasks: [{
 				id: "259534E5F159C879"
+				type: "item"
+				item: "thermal:upgrade_augment_3"
+			}]
+			rewards: [{
+				id: "76001475AED47478"
 				type: "item"
 				item: "thermal:upgrade_augment_3"
 			}]
@@ -937,6 +1009,12 @@
 				type: "item"
 				item: "thermal:machine_insolator"
 			}]
+			rewards: [{
+				id: "4FA8891CED922177"
+				type: "item"
+				item: "minecraft:bone_meal"
+				count: 8
+			}]
 		}
 		{
 			x: 3.0d
@@ -949,6 +1027,11 @@
 				id: "76498BA1494D907F"
 				type: "item"
 				item: "thermal:machine_centrifuge"
+			}]
+			rewards: [{
+				id: "332AE909E51CD48D"
+				type: "item"
+				item: "minecraft:magma_cream"
 			}]
 		}
 		{
@@ -963,6 +1046,11 @@
 				type: "item"
 				item: "thermal:machine_chiller"
 			}]
+			rewards: [{
+				id: "2F6354CA948CBE19"
+				type: "item"
+				item: "minecraft:packed_ice"
+			}]
 		}
 		{
 			x: 2.0d
@@ -974,6 +1062,11 @@
 				type: "item"
 				item: "thermal:machine_refinery"
 			}]
+			rewards: [{
+				id: "2E3AF01B85C14CBB"
+				type: "item"
+				item: "thermal:rosin"
+			}]
 		}
 		{
 			x: -2.0d
@@ -984,6 +1077,11 @@
 				id: "1C1359A652256050"
 				type: "item"
 				item: "thermal:machine_pyrolyzer"
+			}]
+			rewards: [{
+				id: "5BE19F6C41B56699"
+				type: "item"
+				item: "emendatusenigmatica:coke_gem"
 			}]
 		}
 		{
@@ -998,6 +1096,11 @@
 				type: "item"
 				item: "thermal:machine_brewer"
 			}]
+			rewards: [{
+				id: "236607AF8E9C08BF"
+				type: "item"
+				item: "minecraft:glistering_melon_slice"
+			}]
 		}
 		{
 			x: -2.0d
@@ -1010,6 +1113,11 @@
 				id: "79E2A6CEB3491685"
 				type: "item"
 				item: "thermal:machine_crafter"
+			}]
+			rewards: [{
+				id: "5CF1915E108D03C2"
+				type: "item"
+				item: "immersiveengineering:craftingtable"
 			}]
 		}
 		{
@@ -1027,6 +1135,11 @@
 			id: "226DFDB3CD1C7329"
 			tasks: [{
 				id: "34A3CADBD20B81B7"
+				type: "item"
+				item: "thermal:slot_seal"
+			}]
+			rewards: [{
+				id: "70A2520606F4246B"
 				type: "item"
 				item: "thermal:slot_seal"
 			}]
@@ -1386,6 +1499,7 @@
 				type: "item"
 				item: "thermal:enderium_coin"
 				count: 4
+				random_bonus: 8
 			}]
 		}
 		{
@@ -1460,6 +1574,11 @@
 				type: "item"
 				item: "thermal:xp_storage_augment"
 			}]
+			rewards: [{
+				id: "0F83E05AD8BBDC04"
+				type: "item"
+				item: "thermal:xp_storage_augment"
+			}]
 		}
 		{
 			x: 7.75d
@@ -1468,6 +1587,11 @@
 			id: "0CF8DC0D2789EB76"
 			tasks: [{
 				id: "0C22F5804C1F5856"
+				type: "item"
+				item: "thermal:rf_coil_storage_augment"
+			}]
+			rewards: [{
+				id: "063F22C1D93ED62C"
 				type: "item"
 				item: "thermal:rf_coil_storage_augment"
 			}]
@@ -1482,6 +1606,11 @@
 				type: "item"
 				item: "thermal:rf_coil_xfer_augment"
 			}]
+			rewards: [{
+				id: "253400ACCCD80F24"
+				type: "item"
+				item: "thermal:rf_coil_xfer_augment"
+			}]
 		}
 		{
 			x: 9.75d
@@ -1490,6 +1619,11 @@
 			id: "04901D991655BCB3"
 			tasks: [{
 				id: "58EA97ABE1DF0A6C"
+				type: "item"
+				item: "thermal:fluid_tank_augment"
+			}]
+			rewards: [{
+				id: "48A40AD309503F81"
 				type: "item"
 				item: "thermal:fluid_tank_augment"
 			}]
@@ -1504,6 +1638,11 @@
 				type: "item"
 				item: "thermal:item_filter_augment"
 			}]
+			rewards: [{
+				id: "0659D1293745EDFA"
+				type: "item"
+				item: "thermal:item_filter_augment"
+			}]
 		}
 		{
 			x: 7.25d
@@ -1512,6 +1651,11 @@
 			id: "75D5727467D1DFD7"
 			tasks: [{
 				id: "0ECB125479DE1F09"
+				type: "item"
+				item: "thermal:machine_efficiency_augment"
+			}]
+			rewards: [{
+				id: "18B990B51FBE1C34"
 				type: "item"
 				item: "thermal:machine_efficiency_augment"
 			}]
@@ -1526,6 +1670,11 @@
 				type: "item"
 				item: "thermal:machine_catalyst_augment"
 			}]
+			rewards: [{
+				id: "3820C0C3892BCEC8"
+				type: "item"
+				item: "thermal:machine_catalyst_augment"
+			}]
 		}
 		{
 			x: 10.25d
@@ -1534,6 +1683,11 @@
 			id: "133BA070C31A5D1A"
 			tasks: [{
 				id: "62CA4814613F4E72"
+				type: "item"
+				item: "thermal:machine_cycle_augment"
+			}]
+			rewards: [{
+				id: "53C321E8AE2AFF29"
 				type: "item"
 				item: "thermal:machine_cycle_augment"
 			}]
@@ -1548,6 +1702,11 @@
 				type: "item"
 				item: "thermal:machine_null_augment"
 			}]
+			rewards: [{
+				id: "39496AC21694020D"
+				type: "item"
+				item: "thermal:machine_null_augment"
+			}]
 		}
 		{
 			x: 6.75d
@@ -1556,6 +1715,11 @@
 			id: "7E3F8A64F4E0F199"
 			tasks: [{
 				id: "6E178D719D739827"
+				type: "item"
+				item: "thermal:dynamo_output_augment"
+			}]
+			rewards: [{
+				id: "776DEDA76E4AFB48"
 				type: "item"
 				item: "thermal:dynamo_output_augment"
 			}]
@@ -1570,6 +1734,11 @@
 				type: "item"
 				item: "thermal:area_radius_augment"
 			}]
+			rewards: [{
+				id: "378A94AE8F9BA572"
+				type: "item"
+				item: "thermal:area_radius_augment"
+			}]
 		}
 		{
 			x: 10.75d
@@ -1581,6 +1750,11 @@
 				type: "item"
 				item: "thermal:potion_amplifier_augment"
 			}]
+			rewards: [{
+				id: "1692235ADA57ED72"
+				type: "item"
+				item: "thermal:potion_amplifier_augment"
+			}]
 		}
 		{
 			x: 9.75d
@@ -1589,6 +1763,11 @@
 			id: "0F17CE21471D0CCD"
 			tasks: [{
 				id: "6A96090E803EA2F3"
+				type: "item"
+				item: "thermal:potion_duration_augment"
+			}]
+			rewards: [{
+				id: "7E64C23ACB7DDFA3"
 				type: "item"
 				item: "thermal:potion_duration_augment"
 			}]
@@ -1630,6 +1809,7 @@
 				id: "4442DB0905D7571D"
 				type: "item"
 				item: "thermal:tar"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -1724,6 +1904,12 @@
 					count: 3L
 				}
 			]
+			rewards: [{
+				id: "72B000DD22414F08"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+				random_bonus: 3
+			}]
 		}
 	]
 }

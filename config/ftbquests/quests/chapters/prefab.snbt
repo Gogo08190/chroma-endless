@@ -12,6 +12,7 @@
 			x: 1.0d
 			y: -10.75d
 			shape: "rsquare"
+			dependencies: ["5818D79835BC71DA"]
 			id: "279A04C78949BFC6"
 			tasks: [{
 				id: "2B22EC69493AA31D"
@@ -281,6 +282,7 @@
 			x: 1.0d
 			y: -5.75d
 			shape: "gear"
+			dependencies: ["0976209956D1ADCD"]
 			size: 1.5d
 			id: "5FFC2D372F4EF9D1"
 			tasks: [{
