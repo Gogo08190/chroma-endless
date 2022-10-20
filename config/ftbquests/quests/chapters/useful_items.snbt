@@ -532,7 +532,7 @@
 								}
 								"citadel:extended_entity_data_citadel": { }
 								"mekanism:radiation": {
-									radiation: 1.0E-7d
+									radiation: "1.0E-7d"
 								}
 								"pneumaticcraft:hacking": { }
 								"shrink:shrunk": {
@@ -670,7 +670,7 @@
 								}
 								"citadel:extended_entity_data_citadel": { }
 								"mekanism:radiation": {
-									radiation: 1.0E-7d
+									radiation: "1.0E-7d"
 								}
 								"pneumaticcraft:hacking": { }
 								"shrink:shrunk": {

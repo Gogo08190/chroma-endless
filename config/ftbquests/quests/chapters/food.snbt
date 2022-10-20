@@ -67,6 +67,11 @@
 				type: "item"
 				item: "minecraft:apple"
 			}]
+			rewards: [{
+				id: "3748C4092364B2C9"
+				type: "item"
+				item: "minecraft:apple"
+			}]
 		}
 		{
 			x: -0.75d
@@ -119,6 +124,11 @@
 				type: "item"
 				item: "minecraft:golden_apple"
 			}]
+			rewards: [{
+				id: "2D31F4C3AE6AF052"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
 		}
 		{
 			x: 19.0d
@@ -127,6 +137,11 @@
 			id: "2D4F3EA4A195EE04"
 			tasks: [{
 				id: "2BE1E0B9FFD1D423"
+				type: "item"
+				item: "minecraft:enchanted_golden_apple"
+			}]
+			rewards: [{
+				id: "6B7F7B2BBD8B7916"
 				type: "item"
 				item: "minecraft:enchanted_golden_apple"
 			}]
@@ -158,6 +173,11 @@
 			id: "079F44EC97B3EB53"
 			tasks: [{
 				id: "1AB00BA2013024A5"
+				type: "item"
+				item: "minecraft:sweet_berries"
+			}]
+			rewards: [{
+				id: "70CCC4F2C2A48AC6"
 				type: "item"
 				item: "minecraft:sweet_berries"
 			}]
@@ -335,6 +355,11 @@
 			id: "78997C7F705B08F3"
 			tasks: [{
 				id: "53451238A3F62934"
+				type: "item"
+				item: "minecraft:melon_slice"
+			}]
+			rewards: [{
+				id: "266F59C799BDED19"
 				type: "item"
 				item: "minecraft:melon_slice"
 			}]
@@ -665,6 +690,11 @@
 			id: "4CC15681ECFF0576"
 			tasks: [{
 				id: "2D112685B64F320F"
+				type: "item"
+				item: "allthemodium:allthemodium_apple"
+			}]
+			rewards: [{
+				id: "262C299321A197BE"
 				type: "item"
 				item: "allthemodium:allthemodium_apple"
 			}]
@@ -2222,6 +2252,11 @@
 				item: "nethers_delight:propelpearl"
 				consume_items: false
 			}]
+			rewards: [{
+				id: "0D8B9528FC3BEFB1"
+				type: "item"
+				item: "nethers_delight:propelpearl"
+			}]
 		}
 		{
 			x: 10.5d
@@ -2332,6 +2367,18 @@
 				type: "item"
 				item: "byg:baobab_fruit"
 			}]
+			rewards: [
+				{
+					id: "5BF319B08E57C1CA"
+					type: "item"
+					item: "byg:baobab_fruit"
+				}
+				{
+					id: "548B4A7EA40EA057"
+					type: "item"
+					item: "byg:baobab_fruit"
+				}
+			]
 		}
 		{
 			x: 13.0d
@@ -2339,6 +2386,11 @@
 			id: "5C66D5D8438E8BC0"
 			tasks: [{
 				id: "5F84B521B070E0EA"
+				type: "item"
+				item: "byg:holly_berries"
+			}]
+			rewards: [{
+				id: "12526633B0E5B13A"
 				type: "item"
 				item: "byg:holly_berries"
 			}]
@@ -2395,6 +2447,11 @@
 				type: "item"
 				item: "byg:crimson_berries"
 			}]
+			rewards: [{
+				id: "13B20500690B2758"
+				type: "item"
+				item: "byg:crimson_berries"
+			}]
 		}
 		{
 			x: 10.5d
@@ -2434,6 +2491,11 @@
 			id: "52E29C2C0A4412B8"
 			tasks: [{
 				id: "3259E7331B82FA39"
+				type: "item"
+				item: "byg:nightshade_berries"
+			}]
+			rewards: [{
+				id: "5C5B4F6E4D5F7AB7"
 				type: "item"
 				item: "byg:nightshade_berries"
 			}]
@@ -2528,6 +2590,11 @@
 			id: "0CD0336FCD18557B"
 			tasks: [{
 				id: "4752C6AA636082A4"
+				type: "item"
+				item: "projectvibrantjourneys:juniper_berries"
+			}]
+			rewards: [{
+				id: "40DE9ADAAA59F072"
 				type: "item"
 				item: "projectvibrantjourneys:juniper_berries"
 			}]
@@ -2946,6 +3013,11 @@
 			id: "78C2E7CD7886EDF4"
 			tasks: [{
 				id: "5D2D626CA047A02F"
+				type: "item"
+				item: "betterendforge:amber_root_raw"
+			}]
+			rewards: [{
+				id: "7BBB1AEA1509944B"
 				type: "item"
 				item: "betterendforge:amber_root_raw"
 			}]
@@ -3533,6 +3605,11 @@
 				type: "item"
 				item: "sushigocrafting:shrimp_temaki"
 			}]
+			rewards: [{
+				id: "44E9246A554890A5"
+				type: "item"
+				item: "sushigocrafting:shrimp_temaki"
+			}]
 		}
 		{
 			x: 13.75d
@@ -3640,6 +3717,11 @@
 				type: "item"
 				item: "sushigocrafting:tuna_nigiri"
 			}]
+			rewards: [{
+				id: "1B1BFC33C6381101"
+				type: "item"
+				item: "sushigocrafting:tuna_nigiri"
+			}]
 		}
 		{
 			x: 17.75d
@@ -3664,6 +3746,11 @@
 			id: "574E8982D4B61D0D"
 			tasks: [{
 				id: "70E5B12218D78EDB"
+				type: "item"
+				item: "sushigocrafting:shrimp_nigiri"
+			}]
+			rewards: [{
+				id: "2C4C2789AC4A9630"
 				type: "item"
 				item: "sushigocrafting:shrimp_nigiri"
 			}]
@@ -3710,6 +3797,11 @@
 				type: "item"
 				item: "sushigocrafting:onigiri"
 			}]
+			rewards: [{
+				id: "2BD3F2A91FF29E3F"
+				type: "item"
+				item: "sushigocrafting:onigiri"
+			}]
 		}
 		{
 			x: 20.75d
@@ -3718,6 +3810,11 @@
 			id: "3AF1D132B023E7F3"
 			tasks: [{
 				id: "6F899270559933B4"
+				type: "item"
+				item: "sushigocrafting:salmon_temaki"
+			}]
+			rewards: [{
+				id: "6F74945E1E20DAE5"
 				type: "item"
 				item: "sushigocrafting:salmon_temaki"
 			}]
@@ -3761,6 +3858,11 @@
 			id: "3155A9B29BA34A04"
 			tasks: [{
 				id: "1A1DBF6EB57FDD2A"
+				type: "item"
+				item: "sushigocrafting:tuna_temaki"
+			}]
+			rewards: [{
+				id: "514C450C26BC9CBF"
 				type: "item"
 				item: "sushigocrafting:tuna_temaki"
 			}]
@@ -4369,6 +4471,11 @@
 				type: "item"
 				item: "tconstruct:jeweled_apple"
 			}]
+			rewards: [{
+				id: "11F1E3F5F4113DA3"
+				type: "item"
+				item: "tconstruct:jeweled_apple"
+			}]
 		}
 		{
 			x: -1.5d
@@ -4420,6 +4527,11 @@
 				type: "item"
 				item: "undergarden:droopvine_item"
 			}]
+			rewards: [{
+				id: "3310F826243A32FE"
+				type: "item"
+				item: "undergarden:droopvine_item"
+			}]
 		}
 		{
 			x: 0.25d
@@ -4461,6 +4573,18 @@
 				type: "item"
 				item: "undergarden:blisterberry"
 			}]
+			rewards: [
+				{
+					id: "40938BC995D9493A"
+					type: "item"
+					item: "undergarden:blisterberry"
+				}
+				{
+					id: "67B4AE5955824581"
+					type: "item"
+					item: "undergarden:blisterberry"
+				}
+			]
 		}
 		{
 			x: 15.5d
@@ -4532,6 +4656,11 @@
 				type: "item"
 				item: "simplefarming:apricot"
 			}]
+			rewards: [{
+				id: "3F9AAF525E4218CB"
+				type: "item"
+				item: "simplefarming:apricot"
+			}]
 		}
 		{
 			x: 17.0d
@@ -4539,6 +4668,11 @@
 			id: "1C338CB8072A04F9"
 			tasks: [{
 				id: "2013B88F4290FD16"
+				type: "item"
+				item: "simplefarming:banana"
+			}]
+			rewards: [{
+				id: "0057B2BD97D2DBDB"
 				type: "item"
 				item: "simplefarming:banana"
 			}]
@@ -4562,6 +4696,11 @@
 				type: "item"
 				item: "simplefarming:blueberries"
 			}]
+			rewards: [{
+				id: "155F5DC457B94881"
+				type: "item"
+				item: "simplefarming:blueberries"
+			}]
 		}
 		{
 			x: 12.0d
@@ -4569,6 +4708,11 @@
 			id: "1FF068E6A55327E7"
 			tasks: [{
 				id: "0FA9DB2FD0E84548"
+				type: "item"
+				item: "simplefarming:cactus_fruit"
+			}]
+			rewards: [{
+				id: "0E059E733910E53A"
 				type: "item"
 				item: "simplefarming:cactus_fruit"
 			}]
@@ -4582,6 +4726,11 @@
 				type: "item"
 				item: "simplefarming:cantaloupe"
 			}]
+			rewards: [{
+				id: "4F1659850CEB64A1"
+				type: "item"
+				item: "simplefarming:cantaloupe"
+			}]
 		}
 		{
 			x: 14.0d
@@ -4589,6 +4738,11 @@
 			id: "743FA23D3D4165A8"
 			tasks: [{
 				id: "718E21F3D68F7253"
+				type: "item"
+				item: "simplefarming:cherries"
+			}]
+			rewards: [{
+				id: "02281BA77CFA5831"
 				type: "item"
 				item: "simplefarming:cherries"
 			}]
@@ -4602,6 +4756,11 @@
 				type: "item"
 				item: "simplefarming:grapes"
 			}]
+			rewards: [{
+				id: "7117A06EFA37750D"
+				type: "item"
+				item: "simplefarming:grapes"
+			}]
 		}
 		{
 			x: 16.0d
@@ -4609,6 +4768,11 @@
 			id: "191872D00C9CE8ED"
 			tasks: [{
 				id: "60B25CF03D93AD4B"
+				type: "item"
+				item: "simplefarming:honeydew"
+			}]
+			rewards: [{
+				id: "2017E511B4E9BAD5"
 				type: "item"
 				item: "simplefarming:honeydew"
 			}]
@@ -4622,6 +4786,11 @@
 				type: "item"
 				item: "simplefarming:mango"
 			}]
+			rewards: [{
+				id: "30FDB15C367F5AB0"
+				type: "item"
+				item: "simplefarming:mango"
+			}]
 		}
 		{
 			x: 18.0d
@@ -4629,6 +4798,11 @@
 			id: "540098E02CC288D3"
 			tasks: [{
 				id: "30724627E60BE5BA"
+				type: "item"
+				item: "simplefarming:olives"
+			}]
+			rewards: [{
+				id: "0596B4A815A333C8"
 				type: "item"
 				item: "simplefarming:olives"
 			}]
@@ -4642,6 +4816,11 @@
 				type: "item"
 				item: "simplefarming:orange"
 			}]
+			rewards: [{
+				id: "347033681F24488A"
+				type: "item"
+				item: "simplefarming:orange"
+			}]
 		}
 		{
 			x: 15.0d
@@ -4649,6 +4828,11 @@
 			id: "475CCBBEAE3A4585"
 			tasks: [{
 				id: "6E810B76CCEB1EDC"
+				type: "item"
+				item: "simplefarming:pear"
+			}]
+			rewards: [{
+				id: "735B06DE2ECABEBD"
 				type: "item"
 				item: "simplefarming:pear"
 			}]
@@ -4662,6 +4846,11 @@
 				type: "item"
 				item: "simplefarming:plum"
 			}]
+			rewards: [{
+				id: "1A50B44ECD9B50D3"
+				type: "item"
+				item: "simplefarming:plum"
+			}]
 		}
 		{
 			x: 13.0d
@@ -4672,6 +4861,11 @@
 				type: "item"
 				item: "simplefarming:raspberries"
 			}]
+			rewards: [{
+				id: "1D429E3814BE4E82"
+				type: "item"
+				item: "simplefarming:raspberries"
+			}]
 		}
 		{
 			x: 14.0d
@@ -4679,6 +4873,11 @@
 			id: "7496A2F97892BD96"
 			tasks: [{
 				id: "566DA4E02362478D"
+				type: "item"
+				item: "simplefarming:strawberries"
+			}]
+			rewards: [{
+				id: "70C94725826DE945"
 				type: "item"
 				item: "simplefarming:strawberries"
 			}]
@@ -4719,6 +4918,11 @@
 			id: "612B03D590AA7AE7"
 			tasks: [{
 				id: "66EED3CB2F4F83AC"
+				type: "item"
+				item: "simplefarming:cucumber"
+			}]
+			rewards: [{
+				id: "22BEC9B0B6E53CFD"
 				type: "item"
 				item: "simplefarming:cucumber"
 			}]
@@ -4869,6 +5073,11 @@
 			id: "3730F282EE95FB70"
 			tasks: [{
 				id: "3B02261AE7FF2FE5"
+				type: "item"
+				item: "simplefarming:tomato"
+			}]
+			rewards: [{
+				id: "3C6EE66CAC7AA72D"
 				type: "item"
 				item: "simplefarming:tomato"
 			}]
@@ -5685,6 +5894,11 @@
 			id: "7ED26A90F80E1E3F"
 			tasks: [{
 				id: "3BCDF134E4DEB3C5"
+				type: "item"
+				item: "simplefarming:raisins"
+			}]
+			rewards: [{
+				id: "55B593AB7003CC51"
 				type: "item"
 				item: "simplefarming:raisins"
 			}]
