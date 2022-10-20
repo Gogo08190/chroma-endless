@@ -1,0 +1,24 @@
+{
+	id: "6B358A9A52111315"
+	order_index: 10
+	title: "ElementalCraft Random"
+	icon: "elementalcraft:focus"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "elementalcraft:inertcrystal" }
+		{ item: "elementalcraft:containedcrystal" }
+		{ item: "elementalcraft:purecrystal" }
+		{ item: "elementalcraft:drenched_iron_nugget" }
+		{ item: "elementalcraft:swift_alloy_nugget" }
+		{ item: "elementalcraft:fireite_nugget" }
+		{ item: "elementalcraft:whiterock" }
+		{ item: "elementalcraft:firecrystal" }
+		{ item: "elementalcraft:watercrystal" }
+		{ item: "elementalcraft:earthcrystal" }
+		{ item: "elementalcraft:aircrystal" }
+		{ item: "elementalcraft:hardened_handle" }
+		{ item: "elementalcraft:air_silk" }
+	]
+}

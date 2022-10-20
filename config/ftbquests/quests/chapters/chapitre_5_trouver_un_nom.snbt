@@ -23,6 +23,11 @@
 				type: "item"
 				item: "elementalcraft:extractor_improved"
 			}]
+			rewards: [{
+				id: "358A2476CBEFB7BA"
+				type: "item"
+				item: "elementalcraft:extractor"
+			}]
 		}
 		{
 			x: -7.25d
@@ -38,6 +43,12 @@
 				id: "22DA189261D82A09"
 				type: "item"
 				item: "elementalcraft:extractor"
+			}]
+			rewards: [{
+				id: "3ED37D366F01910D"
+				type: "item"
+				item: "botania:manasteel_ingot"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -125,6 +136,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "2472047EA436117D"
+				type: "item"
+				item: "elementalcraft:tank_small"
+			}]
 		}
 		{
 			x: -11.75d
@@ -140,6 +156,11 @@
 				id: "41068DFA6D1128DF"
 				type: "item"
 				item: "elementalcraft:fireblastfurnace"
+			}]
+			rewards: [{
+				id: "4EF1B5BA1144E374"
+				type: "random"
+				table_id: 7725233131230401301L
 			}]
 		}
 		{
@@ -158,6 +179,11 @@
 				type: "item"
 				item: "elementalcraft:firefurnace"
 			}]
+			rewards: [{
+				id: "241B7202E14E3E1A"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: -10.75d
@@ -170,6 +196,11 @@
 				id: "323B2846781127F4"
 				type: "item"
 				item: "elementalcraft:firecrystal"
+			}]
+			rewards: [{
+				id: "4E4A97AB53DCE1A5"
+				type: "item"
+				item: "elementalcraft:inertcrystal"
 			}]
 		}
 		{
@@ -188,6 +219,12 @@
 				id: "7F75FA1ED3799CB9"
 				type: "item"
 				item: "elementalcraft:tank_small"
+			}]
+			rewards: [{
+				id: "0CEF9FBA0B5D82AC"
+				type: "item"
+				item: "elementalcraft:elementpipe_impaired"
+				random_bonus: 1
 			}]
 		}
 		{
@@ -215,6 +252,11 @@
 				type: "item"
 				item: "elementalcraft:burnt_glass"
 			}]
+			rewards: [{
+				id: "1B0399EBDFC9E8F7"
+				type: "item"
+				item: "minecraft:glass"
+			}]
 		}
 		{
 			x: -5.0d
@@ -227,6 +269,11 @@
 				id: "54B66530D73CA7DE"
 				type: "item"
 				item: "elementalcraft:earthcrystal"
+			}]
+			rewards: [{
+				id: "26F53BC92D26BE4B"
+				type: "item"
+				item: "elementalcraft:inertcrystal"
 			}]
 		}
 		{
@@ -254,6 +301,11 @@
 				type: "item"
 				item: "elementalcraft:whiterock"
 			}]
+			rewards: [{
+				id: "6A8C1162AAB8A455"
+				type: "item"
+				item: "minecraft:stone"
+			}]
 		}
 		{
 			x: -5.25d
@@ -265,6 +317,11 @@
 				id: "1F9AD2DED262688A"
 				type: "item"
 				item: "elementalcraft:air_silk"
+			}]
+			rewards: [{
+				id: "513E3AB07F0FBF57"
+				type: "item"
+				item: "minecraft:string"
 			}]
 		}
 		{
@@ -295,6 +352,11 @@
 				type: "item"
 				item: "elementalcraft:infuser"
 			}]
+			rewards: [{
+				id: "40F866148CC0E0F6"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: -11.0d
@@ -308,6 +370,11 @@
 				type: "item"
 				item: "minecraft:prismarine_shard"
 			}]
+			rewards: [{
+				id: "5A206F81304E7CBF"
+				type: "item"
+				item: "minecraft:quartz"
+			}]
 		}
 		{
 			x: -11.0d
@@ -320,6 +387,11 @@
 				id: "3C451F130CBE1670"
 				type: "item"
 				item: "elementalcraft:watercrystal"
+			}]
+			rewards: [{
+				id: "2397215BA3C14B91"
+				type: "item"
+				item: "elementalcraft:inertcrystal"
 			}]
 		}
 		{
@@ -347,6 +419,11 @@
 				type: "item"
 				item: "elementalcraft:drenched_iron_ingot"
 			}]
+			rewards: [{
+				id: "2E8547D6EB114F4A"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
 		}
 		{
 			title: "How To Craft Spells"
@@ -372,6 +449,11 @@
 					item: "elementalcraft:scroll_paper"
 				}
 			]
+			rewards: [{
+				id: "42D1323C4DF2D786"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: -7.25d
@@ -389,6 +471,11 @@
 				type: "item"
 				item: "elementalcraft:air_mill"
 			}]
+			rewards: [{
+				id: "6656671D767EBDFF"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: -7.25d
@@ -402,6 +489,11 @@
 				type: "item"
 				item: "elementalcraft:aircrystal"
 			}]
+			rewards: [{
+				id: "39662B42495E5EEE"
+				type: "item"
+				item: "elementalcraft:inertcrystal"
+			}]
 		}
 		{
 			x: -5.25d
@@ -414,6 +506,11 @@
 				id: "7B2C6E5E1B86BCDE"
 				type: "item"
 				item: "elementalcraft:hardened_handle"
+			}]
+			rewards: [{
+				id: "03CD78350C46B2A0"
+				type: "random"
+				table_id: 7725233131230401301L
 			}]
 		}
 		{
@@ -430,6 +527,11 @@
 				id: "451384B3FF6B48CE"
 				type: "item"
 				item: "elementalcraft:solar_synthesizer"
+			}]
+			rewards: [{
+				id: "02C05099613B59F0"
+				type: "random"
+				table_id: 7725233131230401301L
 			}]
 		}
 		{
@@ -450,6 +552,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0F78F6627289AA30"
+				type: "item"
+				item: "elementalcraft:fireite_ingot"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: -3.75d
@@ -465,6 +573,11 @@
 				id: "0E9D3C1826EABDB6"
 				type: "item"
 				item: "elementalcraft:focus"
+			}]
+			rewards: [{
+				id: "347F68F595781E08"
+				type: "random"
+				table_id: 7725233131230401301L
 			}]
 		}
 		{
@@ -484,6 +597,11 @@
 						"patchouli:book": "elementalcraft:element_book"
 					}
 				}
+			}]
+			rewards: [{
+				id: "2717795691555C96"
+				type: "item"
+				item: "elementalcraft:inertcrystal"
 			}]
 		}
 		{
@@ -515,6 +633,11 @@
 					item: "elementalcraft:air_shard"
 				}
 			]
+			rewards: [{
+				id: "480F89320B27EB38"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			title: "Elemental Sources"
@@ -555,6 +678,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1CBB409C86643F16"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: -1.0d
@@ -567,6 +695,11 @@
 				id: "6D24658D6E55ADE5"
 				type: "item"
 				item: "elementalcraft:binder_improved"
+			}]
+			rewards: [{
+				id: "2286D8938A70A7F3"
+				type: "random"
+				table_id: 7725233131230401301L
 			}]
 		}
 		{
@@ -581,6 +714,11 @@
 				type: "item"
 				item: "elementalcraft:binder"
 			}]
+			rewards: [{
+				id: "650FC59838693ED3"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: 2.5d
@@ -593,6 +731,11 @@
 				id: "4B0E1F82E84DD93D"
 				type: "item"
 				item: "elementalcraft:tank"
+			}]
+			rewards: [{
+				id: "06F1E15FFDEDDD24"
+				type: "random"
+				table_id: 7725233131230401301L
 			}]
 		}
 		{
@@ -642,6 +785,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "5EF727BA6E026F79"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: 0.75d
@@ -659,6 +807,11 @@
 				type: "item"
 				item: "elementalcraft:swift_alloy_ingot"
 			}]
+			rewards: [{
+				id: "584FEFCBE2280463"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: -3.75d
@@ -675,6 +828,11 @@
 				type: "item"
 				item: "elementalcraft:elementpipe_improved"
 			}]
+			rewards: [{
+				id: "10514F52BE14324C"
+				type: "item"
+				item: "elementalcraft:swift_alloy_ingot"
+			}]
 		}
 		{
 			x: -3.75d
@@ -689,6 +847,11 @@
 				id: "73FFCC7EC4B4F978"
 				type: "item"
 				item: "elementalcraft:elementpipe"
+			}]
+			rewards: [{
+				id: "473D276E3470463B"
+				type: "item"
+				item: "elementalcraft:drenched_iron_ingot"
 			}]
 		}
 		{
@@ -708,6 +871,11 @@
 				id: "3971C58F1F823877"
 				type: "item"
 				item: "elementalcraft:elementpipe_impaired"
+			}]
+			rewards: [{
+				id: "01815A1C815EEC3C"
+				type: "item"
+				item: "botania:manasteel_ingot"
 			}]
 		}
 		{
@@ -729,6 +897,12 @@
 				type: "item"
 				item: "elementalcraft:cover_frame"
 			}]
+			rewards: [{
+				id: "63442B76E058E5C2"
+				type: "item"
+				item: "elementalcraft:drenched_iron_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -3.75d
@@ -743,6 +917,11 @@
 				type: "item"
 				item: "elementalcraft:containedcrystal"
 			}]
+			rewards: [{
+				id: "6AE673EC29CFCAF1"
+				type: "item"
+				item: "emendatusenigmatica:brass_ingot"
+			}]
 		}
 		{
 			x: 0.75d
@@ -755,6 +934,12 @@
 				id: "4C856C009E89C7AA"
 				type: "item"
 				item: "elementalcraft:evaporator"
+			}]
+			rewards: [{
+				id: "34536A27048449EC"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -778,6 +963,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "283D9AD78A567800"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			icon: "undergarden:catalyst"
@@ -799,6 +989,11 @@
 				id: "29664B9339682121"
 				type: "checkmark"
 				title: "Unlock : &aThe Undergarden &rquest line"
+			}]
+			rewards: [{
+				id: "0A2F5E08C646096C"
+				type: "random"
+				table_id: 7725233131230401301L
 			}]
 		}
 		{
@@ -824,6 +1019,11 @@
 				type: "item"
 				item: "occultism:afrit_essence"
 			}]
+			rewards: [{
+				id: "16001C78FB9D4A7B"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			x: 6.25d
@@ -834,6 +1034,11 @@
 				id: "71C553335383D458"
 				type: "item"
 				item: "elementalcraft:reservoir_water"
+			}]
+			rewards: [{
+				id: "13E18F9404CFFAF9"
+				type: "random"
+				table_id: 7725233131230401301L
 			}]
 		}
 		{
@@ -846,6 +1051,11 @@
 				type: "item"
 				item: "elementalcraft:reservoir_air"
 			}]
+			rewards: [{
+				id: "3E3FEFFFC2D340E8"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: 8.25d
@@ -857,6 +1067,11 @@
 				type: "item"
 				item: "elementalcraft:reservoir_earth"
 			}]
+			rewards: [{
+				id: "52C10363B894B93A"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: 9.25d
@@ -867,6 +1082,11 @@
 				id: "7CAF7FA76001167A"
 				type: "item"
 				item: "elementalcraft:reservoir_fire"
+			}]
+			rewards: [{
+				id: "19F61650146E9B90"
+				type: "random"
+				table_id: 7725233131230401301L
 			}]
 		}
 		{
@@ -882,6 +1102,11 @@
 				type: "item"
 				item: "elementalcraft:pristine_fire_gem"
 			}]
+			rewards: [{
+				id: "42ECCF11E4F70AC0"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: 8.25d
@@ -895,6 +1120,11 @@
 				id: "0E4F12266CAB2C27"
 				type: "item"
 				item: "elementalcraft:pristine_earth_gem"
+			}]
+			rewards: [{
+				id: "7D08C4F03E98F929"
+				type: "random"
+				table_id: 7725233131230401301L
 			}]
 		}
 		{
@@ -910,6 +1140,11 @@
 				type: "item"
 				item: "elementalcraft:pristine_air_gem"
 			}]
+			rewards: [{
+				id: "2A2DBB4260E92ADB"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: 6.25d
@@ -923,6 +1158,11 @@
 				id: "6EFE75ACBBC67073"
 				type: "item"
 				item: "elementalcraft:pristine_water_gem"
+			}]
+			rewards: [{
+				id: "227B38C3D06560B1"
+				type: "random"
+				table_id: 7725233131230401301L
 			}]
 		}
 		{
@@ -944,6 +1184,11 @@
 				id: "3AF295C98933055D"
 				type: "item"
 				item: "elementalcraft:purecrystal"
+			}]
+			rewards: [{
+				id: "46453B1777728521"
+				type: "item"
+				item: "minecraft:diamond"
 			}]
 		}
 		{
@@ -973,6 +1218,11 @@
 				type: "item"
 				item: "elementalcraft:fireite_ingot"
 			}]
+			rewards: [{
+				id: "39CDE6B4A641813A"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: 8.75d
@@ -985,6 +1235,12 @@
 				id: "1C19C5AD0782F601"
 				type: "item"
 				item: "elementalcraft:pure_element_holder_core"
+			}]
+			rewards: [{
+				id: "2900AC4FEA727893"
+				type: "item"
+				item: "elementalcraft:fireite_ingot"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -1010,6 +1266,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "21FFB5124BF3D343"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: 9.75d
@@ -1028,6 +1289,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "43DD6B7013C946D3"
+				type: "item"
+				item: "emendatusenigmatica:brass_ingot"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -1051,6 +1318,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6035D0331DAAA264"
+				type: "item"
+				item: "elementalcraft:swift_alloy_ingot"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: 2.75d
@@ -1063,6 +1336,11 @@
 				type: "item"
 				item: "elementalcraft:pedestal_fire"
 			}]
+			rewards: [{
+				id: "7BF85296FE651734"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: 1.75d
@@ -1074,6 +1352,11 @@
 				id: "407E18794D639433"
 				type: "item"
 				item: "elementalcraft:pedestal_earth"
+			}]
+			rewards: [{
+				id: "43A3233819FA1CD6"
+				type: "random"
+				table_id: 7725233131230401301L
 			}]
 		}
 		{
@@ -1098,6 +1381,12 @@
 				type: "item"
 				item: "elementalcraft:pureinfuser"
 			}]
+			rewards: [{
+				id: "018AEE721140AC1D"
+				type: "item"
+				item: "elementalcraft:whiterock"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 0.75d
@@ -1110,6 +1399,11 @@
 				type: "item"
 				item: "elementalcraft:pedestal_air"
 			}]
+			rewards: [{
+				id: "275B184694F77CEF"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: -0.25d
@@ -1121,6 +1415,11 @@
 				id: "23D101016CB8A900"
 				type: "item"
 				item: "elementalcraft:pedestal_water"
+			}]
+			rewards: [{
+				id: "52120BDAD6004170"
+				type: "random"
+				table_id: 7725233131230401301L
 			}]
 		}
 		{
@@ -1135,6 +1434,11 @@
 				type: "item"
 				item: "elementalcraft:fine_water_gem"
 			}]
+			rewards: [{
+				id: "1DBC5C5739DF0172"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: 0.75d
@@ -1147,6 +1451,11 @@
 				id: "5F31ABA16C8BC9AD"
 				type: "item"
 				item: "elementalcraft:fine_air_gem"
+			}]
+			rewards: [{
+				id: "1E38E6A5CC11DDC7"
+				type: "random"
+				table_id: 7725233131230401301L
 			}]
 		}
 		{
@@ -1161,6 +1470,11 @@
 				type: "item"
 				item: "elementalcraft:fine_earth_gem"
 			}]
+			rewards: [{
+				id: "2AF89BAD034B8954"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: 2.75d
@@ -1173,6 +1487,11 @@
 				id: "70C4842E825CE768"
 				type: "item"
 				item: "elementalcraft:fine_fire_gem"
+			}]
+			rewards: [{
+				id: "7065F16FA470DF41"
+				type: "random"
+				table_id: 7725233131230401301L
 			}]
 		}
 		{
@@ -1212,6 +1531,11 @@
 				type: "item"
 				item: "elementalcraft:inertcrystal"
 			}]
+			rewards: [{
+				id: "6F2A85D394A0C0BA"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: -12.25d
@@ -1238,6 +1562,11 @@
 				type: "item"
 				item: "elementalcraft:enderlockshrine"
 			}]
+			rewards: [{
+				id: "3E630316F8196FF0"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: -13.75d
@@ -1250,6 +1579,11 @@
 				id: "2CD1559CEF685964"
 				type: "item"
 				item: "elementalcraft:sweetshrine"
+			}]
+			rewards: [{
+				id: "3FBD75D46FB781C1"
+				type: "random"
+				table_id: 7725233131230401301L
 			}]
 		}
 		{
@@ -1264,6 +1598,11 @@
 				type: "item"
 				item: "elementalcraft:harvestshrine"
 			}]
+			rewards: [{
+				id: "680EC9E1B2E8063E"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: -12.25d
@@ -1276,6 +1615,11 @@
 				id: "3D29780B513401A2"
 				type: "item"
 				item: "elementalcraft:growthshrine"
+			}]
+			rewards: [{
+				id: "7763CAE37725F408"
+				type: "random"
+				table_id: 7725233131230401301L
 			}]
 		}
 		{
@@ -1290,6 +1634,11 @@
 				type: "item"
 				item: "elementalcraft:vacuumshrine"
 			}]
+			rewards: [{
+				id: "5A5904D67060F213"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: -13.75d
@@ -1302,6 +1651,11 @@
 				id: "2F4539C464F17B03"
 				type: "item"
 				item: "elementalcraft:lavashrine"
+			}]
+			rewards: [{
+				id: "0376FA3A1AAB095A"
+				type: "random"
+				table_id: 7725233131230401301L
 			}]
 		}
 		{
@@ -1316,6 +1670,11 @@
 				type: "item"
 				item: "elementalcraft:oreshrine"
 			}]
+			rewards: [{
+				id: "4D490FC50166387A"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: -10.75d
@@ -1328,6 +1687,11 @@
 				id: "1230F2A7646DA276"
 				type: "item"
 				item: "elementalcraft:springshrine"
+			}]
+			rewards: [{
+				id: "27EE71A8266746F9"
+				type: "random"
+				table_id: 7725233131230401301L
 			}]
 		}
 		{
@@ -1342,6 +1706,11 @@
 				type: "item"
 				item: "elementalcraft:overloadshrine"
 			}]
+			rewards: [{
+				id: "37A6779B24238126"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: -11.75d
@@ -1354,6 +1723,11 @@
 				id: "1C7BDE16CCF23076"
 				type: "item"
 				item: "elementalcraft:breedingshrine"
+			}]
+			rewards: [{
+				id: "02AA6DC4A8220EE4"
+				type: "random"
+				table_id: 7725233131230401301L
 			}]
 		}
 		{
@@ -1368,6 +1742,11 @@
 				type: "item"
 				item: "elementalcraft:groveshrine"
 			}]
+			rewards: [{
+				id: "3685401558E04EC5"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: -9.5d
@@ -1380,6 +1759,11 @@
 				id: "492AEF4BC0E982E8"
 				type: "item"
 				item: "elementalcraft:shrine_upgrade_core"
+			}]
+			rewards: [{
+				id: "6DC7104DC30E787E"
+				type: "random"
+				table_id: 7725233131230401301L
 			}]
 		}
 		{
@@ -1394,6 +1778,11 @@
 				type: "item"
 				item: "elementalcraft:shrine_upgrade_acceleration"
 			}]
+			rewards: [{
+				id: "3542E110AC1AD994"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: -11.5d
@@ -1406,6 +1795,11 @@
 				id: "4E5708BE59473343"
 				type: "item"
 				item: "elementalcraft:shrine_upgrade_range"
+			}]
+			rewards: [{
+				id: "37BCADD0B21F98E6"
+				type: "random"
+				table_id: 7725233131230401301L
 			}]
 		}
 		{
@@ -1420,6 +1814,11 @@
 				type: "item"
 				item: "elementalcraft:shrine_upgrade_capacity"
 			}]
+			rewards: [{
+				id: "69379D420740B0CC"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: -13.5d
@@ -1432,6 +1831,11 @@
 				id: "46BA41646A79A8CE"
 				type: "item"
 				item: "elementalcraft:shrine_upgrade_efficiency"
+			}]
+			rewards: [{
+				id: "0ADB7644B241A9DD"
+				type: "random"
+				table_id: 7725233131230401301L
 			}]
 		}
 		{
@@ -1446,6 +1850,11 @@
 				type: "item"
 				item: "elementalcraft:shrine_upgrade_strength"
 			}]
+			rewards: [{
+				id: "0247F76424447F51"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: -11.5d
@@ -1458,6 +1867,11 @@
 				id: "224E455893B59CF6"
 				type: "item"
 				item: "elementalcraft:shrine_upgrade_optimization"
+			}]
+			rewards: [{
+				id: "2DF123AFB06D33AE"
+				type: "random"
+				table_id: 7725233131230401301L
 			}]
 		}
 		{
@@ -1472,6 +1886,11 @@
 				type: "item"
 				item: "elementalcraft:shrine_upgrade_fortune"
 			}]
+			rewards: [{
+				id: "13F4DA102A4EFE76"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: -10.0d
@@ -1484,6 +1903,11 @@
 				id: "6D1604DE269AF10E"
 				type: "item"
 				item: "elementalcraft:shrine_upgrade_silk_touch"
+			}]
+			rewards: [{
+				id: "126AF289DA3F5E4D"
+				type: "random"
+				table_id: 7725233131230401301L
 			}]
 		}
 		{
@@ -1498,6 +1922,11 @@
 				type: "item"
 				item: "elementalcraft:shrine_upgrade_planting"
 			}]
+			rewards: [{
+				id: "6542ADA8806049A1"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: -9.0d
@@ -1510,6 +1939,11 @@
 				id: "1838B6368A9FFBA3"
 				type: "item"
 				item: "elementalcraft:shrine_upgrade_boneless_growth"
+			}]
+			rewards: [{
+				id: "30BB6B1FBA1130F1"
+				type: "random"
+				table_id: 7725233131230401301L
 			}]
 		}
 		{
@@ -1524,6 +1958,11 @@
 				type: "item"
 				item: "elementalcraft:shrine_upgrade_pickup"
 			}]
+			rewards: [{
+				id: "3C9D2883828307AA"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: -10.0d
@@ -1536,6 +1975,11 @@
 				id: "4BA608BB3D8D983D"
 				type: "item"
 				item: "elementalcraft:shrine_upgrade_nectar"
+			}]
+			rewards: [{
+				id: "53E1A426039FE932"
+				type: "random"
+				table_id: 7725233131230401301L
 			}]
 		}
 		{
@@ -1550,6 +1994,11 @@
 				type: "item"
 				item: "elementalcraft:shrine_upgrade_protection"
 			}]
+			rewards: [{
+				id: "45FF4A7D5D634D72"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: -14.5d
@@ -1562,6 +2011,11 @@
 				id: "5CF5062FBA204D84"
 				type: "item"
 				item: "elementalcraft:shrine_upgrade_stem_pollination"
+			}]
+			rewards: [{
+				id: "2EEF4416F2FE9B45"
+				type: "random"
+				table_id: 7725233131230401301L
 			}]
 		}
 		{
@@ -1576,6 +2030,11 @@
 				type: "item"
 				item: "elementalcraft:shrine_upgrade_filling"
 			}]
+			rewards: [{
+				id: "68F57CA9185242F2"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: -10.0d
@@ -1588,6 +2047,11 @@
 				id: "79102646E549DA54"
 				type: "item"
 				item: "elementalcraft:shrine_upgrade_mystical_grove"
+			}]
+			rewards: [{
+				id: "694DD52BBE432B1E"
+				type: "random"
+				table_id: 7725233131230401301L
 			}]
 		}
 		{
@@ -1811,6 +2275,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "42239C03203C209F"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: 7.75d

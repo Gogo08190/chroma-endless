@@ -1,0 +1,21 @@
+{
+	id: "612BF3AE07D8F8FF"
+	order_index: 9
+	title: "ArsNouveau Random"
+	icon: "ars_nouveau:mana_berry"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "ars_nouveau:marvelous_clay" }
+		{ item: "ars_nouveau:magic_clay" }
+		{ item: "ars_nouveau:mythical_clay" }
+		{ item: "ars_nouveau:mana_fiber" }
+		{ item: "ars_nouveau:wilden_horn" }
+		{ item: "ars_nouveau:wilden_wing" }
+		{ item: "ars_nouveau:wilden_spike" }
+		{ item: "ars_nouveau:mana_bloom_crop" }
+		{ item: "ars_nouveau:mana_berry" }
+		{ item: "arsarsenal:source_steel_ingot" }
+	]
+}

@@ -1,0 +1,27 @@
+{
+	id: "790440F86EDB3C86"
+	order_index: 11
+	title: "Mechanical Random"
+	icon: {
+		id: "ironjetpacks:mechanical_jetpack"
+		Count: 1b
+		tag: {
+			Throttle: 1.0d
+		}
+	}
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "create:shaft", weight: 10 }
+		{ item: "create:flywheel" }
+		{ item: "ironjetpacks:basic_coil", weight: 2 }
+		{ item: "create:cuckoo_clock", weight: 2 }
+		{ item: "create:blaze_burner" }
+		{ item: "ironjetpacks:strap", weight: 2 }
+		{ item: "ironjetpacks:mechanical_thruster" }
+		{ item: "ironjetpacks:mechanical_capacitor" }
+		{ item: "create:encased_fan" }
+		{ item: "ironjetpacks:mechanical_cell" }
+	]
+}

@@ -11,6 +11,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
+			dependency_requirement: "all_started"
 			id: "3F89C1FE81B0CF9E"
 			tasks: [{
 				id: "527EB3F01BBB8DC6"
@@ -22,6 +23,8 @@
 			icon: "atmospheric:rosewood_sapling"
 			x: -7.25d
 			y: -1.75d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "22467A10B8FEBCE1"
 			tasks: [{
 				id: "5DD44517A3A1EE0F"
@@ -30,8 +33,11 @@
 			}]
 		}
 		{
+			icon: "atmospheric:smooth_red_arid_sandstone"
 			x: -7.25d
 			y: -2.75d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "03824D6C31BCD3D7"
 			tasks: [{
 				id: "5DD83B1192C9D9F7"
@@ -40,8 +46,11 @@
 			}]
 		}
 		{
+			icon: "atmospheric:red_arid_sandstone_bricks"
 			x: -6.25d
 			y: -2.75d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "68F4D2D4DD44B8B0"
 			tasks: [{
 				id: "3AD996F27F468EC2"
@@ -52,6 +61,8 @@
 		{
 			x: -6.25d
 			y: -1.75d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5FF44686EC51903B"
 			tasks: [{
 				id: "303FB9B3555520CF"
@@ -60,8 +71,11 @@
 			}]
 		}
 		{
+			icon: "byg:yellow_petal_block"
 			x: -5.25d
 			y: -2.75d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1F36F6E9EB3E5CE6"
 			tasks: [{
 				id: "0BA5254365E1B327"
@@ -70,8 +84,11 @@
 			}]
 		}
 		{
+			icon: "byg:rainbow_eucalyptus_wood"
 			x: -5.25d
 			y: -1.75d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6CF38FB306C3059E"
 			tasks: [{
 				id: "657DEC5D253F08CF"
@@ -80,8 +97,11 @@
 			}]
 		}
 		{
+			icon: "byg:stripped_rainbow_eucalyptus_log"
 			x: -7.25d
 			y: -0.75d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3E9857BA557CA18C"
 			tasks: [{
 				id: "6B62EBDABA48763E"
@@ -93,6 +113,8 @@
 			icon: "atmospheric:scalding_monkey_brush"
 			x: -6.25d
 			y: -0.75d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3CF1C6D4CAFDAEEE"
 			tasks: [{
 				id: "5330BB1E1DCC6704"
@@ -101,8 +123,11 @@
 			}]
 		}
 		{
+			icon: "byg:rocky_stone"
 			x: -5.25d
 			y: -0.75d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6792F8B17589101F"
 			tasks: [{
 				id: "024D3BCABDAEF7F4"
@@ -111,8 +136,11 @@
 			}]
 		}
 		{
+			icon: "upgrade_aquatic:dead_rock_coral"
 			x: -7.25d
 			y: 0.25d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5ADD3AD03D41D9C4"
 			tasks: [{
 				id: "74C4A8E97C1D48A2"
@@ -121,8 +149,11 @@
 			}]
 		}
 		{
+			icon: "byg:stripped_rainbow_eucalyptus_wood"
 			x: -6.25d
 			y: 0.25d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "09B0FB91FA3DF107"
 			tasks: [{
 				id: "055F386AE60990BA"
@@ -134,6 +165,8 @@
 			icon: "atmospheric:warm_monkey_brush"
 			x: -5.25d
 			y: 0.25d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "49515C653A0E62F7"
 			tasks: [{
 				id: "32268A4A49D3BDCC"
@@ -142,8 +175,11 @@
 			}]
 		}
 		{
+			icon: "betterendforge:amber_moss"
 			x: -1.75d
 			y: -6.75d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3C5913BD2BEEEA00"
 			tasks: [{
 				id: "2116BF9EFF47653A"
@@ -152,8 +188,11 @@
 			}]
 		}
 		{
+			icon: "betterendforge:pallidium_thin"
 			x: -0.75d
 			y: -6.75d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7CBFCE12FFAEFA80"
 			tasks: [{
 				id: "47328CC4F7BBA766"
@@ -162,8 +201,11 @@
 			}]
 		}
 		{
+			icon: "betterendforge:chorus_nylium"
 			x: -1.75d
 			y: -5.75d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "53C1614F07F43099"
 			tasks: [{
 				id: "2C82779118298641"
@@ -172,8 +214,11 @@
 			}]
 		}
 		{
+			icon: "betterendforge:smaragdant_crystal"
 			x: -0.75d
 			y: -5.75d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "78B950E5BB243748"
 			tasks: [{
 				id: "4169B750365B6E1A"
@@ -182,8 +227,11 @@
 			}]
 		}
 		{
+			icon: "kubejs:lithium_dust_block"
 			x: 0.25d
 			y: -6.75d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5F362C62347978B6"
 			tasks: [{
 				id: "24C55458119FDC3A"
@@ -192,8 +240,11 @@
 			}]
 		}
 		{
+			icon: "chipped:red_mushroom_15"
 			x: 0.25d
 			y: -5.75d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "769210B37E9F3832"
 			tasks: [{
 				id: "402360AD2FBC9821"
@@ -202,8 +253,11 @@
 			}]
 		}
 		{
+			icon: "tconstruct:ender_sky_slime_grass"
 			x: -1.75d
 			y: -4.75d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "133B1AD10F76A30F"
 			tasks: [{
 				id: "4D744895526EBEE7"
@@ -212,8 +266,11 @@
 			}]
 		}
 		{
+			icon: "betterendforge:ancient_emerald_ice"
 			x: -0.75d
 			y: -4.75d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7D9F459DFE9550A2"
 			tasks: [{
 				id: "1FCF211C4261F581"
@@ -222,8 +279,11 @@
 			}]
 		}
 		{
+			icon: "betterendforge:end_mycelium"
 			x: 0.25d
 			y: -4.75d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5D04460FEFA027AF"
 			tasks: [{
 				id: "71585D0A11E708A8"
@@ -232,8 +292,11 @@
 			}]
 		}
 		{
+			icon: "betterendforge:shadow_grass_path"
 			x: -1.75d
 			y: -7.75d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "14635A8ED6A99AEB"
 			tasks: [{
 				id: "576AFA28BC3D7275"
@@ -242,8 +305,11 @@
 			}]
 		}
 		{
+			icon: "betterendforge:chorus_nylium_path"
 			x: -0.75d
 			y: -7.75d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "380BF438AAD6D875"
 			tasks: [{
 				id: "24E9510161722DFE"
@@ -252,8 +318,11 @@
 			}]
 		}
 		{
+			icon: "betterendforge:rutiscus"
 			x: 0.25d
 			y: -7.75d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0DC5F8426EC2ED1E"
 			tasks: [{
 				id: "0278B4953F24BC5C"
@@ -262,8 +331,11 @@
 			}]
 		}
 		{
+			icon: "betterendforge:crystalline_sulphur"
 			x: -1.75d
 			y: -8.75d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5C46088BAF21C796"
 			tasks: [{
 				id: "6A63E0307FDB9661"
@@ -272,8 +344,11 @@
 			}]
 		}
 		{
+			icon: "betterendforge:umbrella_moss"
 			x: -0.75d
 			y: -8.75d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1F36F22B1CC89655"
 			tasks: [{
 				id: "226D7F08EAAF805E"
@@ -285,6 +360,8 @@
 			icon: "byg:tall_pink_allium"
 			x: 4.75d
 			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "682103E9418E7E19"
 			tasks: [{
 				id: "41185D65B0EC29D9"
@@ -293,8 +370,11 @@
 			}]
 		}
 		{
+			icon: "byg:alpine_bellflower"
 			x: 5.75d
 			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "39BDED46F2446CDB"
 			tasks: [{
 				id: "5C76999ECEB8083A"
@@ -306,6 +386,8 @@
 			icon: "minecraft:snow"
 			x: 6.75d
 			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7C7695573B718259"
 			tasks: [{
 				id: "3C7302FDB402BED9"
@@ -317,6 +399,8 @@
 			icon: "byg:amaranth"
 			x: 4.75d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2BB0CEAFBFAE75C8"
 			tasks: [{
 				id: "77450ECA2C910E16"
@@ -328,6 +412,8 @@
 			icon: "projectvibrantjourneys:bark_mushroom"
 			x: 5.75d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "22CDBA8173C12E87"
 			tasks: [{
 				id: "1B196092707B4ED6"
@@ -336,8 +422,11 @@
 			}]
 		}
 		{
+			icon: "byg:araucaria_sapling"
 			x: 6.75d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "68465FC197FB9839"
 			tasks: [{
 				id: "0776A2E7BF23599A"
@@ -346,8 +435,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:acacia_leaves"
 			x: 4.75d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "409070343F84D726"
 			tasks: [{
 				id: "1B1947A880D4F46D"
@@ -359,6 +451,8 @@
 			icon: "projectvibrantjourneys:short_grass"
 			x: 5.75d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3F844EF0FA965E41"
 			tasks: [{
 				id: "338A589F542CD713"
@@ -367,8 +461,11 @@
 			}]
 		}
 		{
+			icon: "atmospheric:aspen_sapling"
 			x: 6.75d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "33E90D1CE66DBE73"
 			tasks: [{
 				id: "3401CA3C875297DF"
@@ -377,8 +474,11 @@
 			}]
 		}
 		{
+			icon: "byg:aspen_log"
 			x: 4.75d
 			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0DD8B83E7A417867"
 			tasks: [{
 				id: "066A41AF74653F8D"
@@ -387,8 +487,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:pumpkin"
 			x: 5.75d
 			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0D5570DD70EC9597"
 			tasks: [{
 				id: "51904F7091FE9D16"
@@ -397,8 +500,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:bamboo"
 			x: 6.75d
 			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7551D8020F8D5202"
 			tasks: [{
 				id: "4619A52A9F813821"
@@ -410,6 +516,8 @@
 			icon: "byg:baobab_sapling"
 			x: 7.75d
 			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "60E2022F038E9C38"
 			tasks: [{
 				id: "43F19A241E2A6F61"
@@ -421,6 +529,8 @@
 			icon: "minecraft:basalt"
 			x: 7.75d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "071D40EBD009CDE0"
 			tasks: [{
 				id: "791A9B7D477D1854"
@@ -429,8 +539,11 @@
 			}]
 		}
 		{
+			icon: "betterendforge:umbrella_tree_bark"
 			x: 7.75d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3228145D62375692"
 			tasks: [{
 				id: "5E898AD806D23385"
@@ -439,8 +552,11 @@
 			}]
 		}
 		{
+			icon: "byg:fir_log"
 			x: 7.75d
 			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6A92CAEE608496A6"
 			tasks: [{
 				id: "2AF8383A16D57F2C"
@@ -449,8 +565,11 @@
 			}]
 		}
 		{
+			icon: "quark:black_crystal_cluster"
 			x: 4.75d
 			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5480F14913139DB0"
 			tasks: [{
 				id: "7E1309238B921761"
@@ -459,8 +578,11 @@
 			}]
 		}
 		{
+			icon: "upgrade_aquatic:blue_pickerelweed_block"
 			x: 5.75d
 			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4D340C7A0AD67844"
 			tasks: [{
 				id: "0D1ECBFB25F6009B"
@@ -469,8 +591,11 @@
 			}]
 		}
 		{
+			icon: "environmental:blue_wisteria_sapling"
 			x: 6.75d
 			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "523166CDEFEC5A42"
 			tasks: [{
 				id: "5C4BBD4A32535EEE"
@@ -479,8 +604,11 @@
 			}]
 		}
 		{
+			icon: "byg:blue_spruce_leaves"
 			x: 7.75d
 			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0C1ECB9623CDB3B1"
 			tasks: [{
 				id: "4C380BB074B10EEC"
@@ -492,6 +620,8 @@
 			icon: "quark:slate"
 			x: 8.75d
 			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4443A8640F232B95"
 			tasks: [{
 				id: "475D22240A9B45F7"
@@ -500,8 +630,11 @@
 			}]
 		}
 		{
+			icon: "environmental:buried_truffle"
 			x: 8.75d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4073C36E3410B688"
 			tasks: [{
 				id: "59FBC7A8EAECDE16"
@@ -510,8 +643,11 @@
 			}]
 		}
 		{
+			icon: "quark:bonded_rabbit_hide"
 			x: 8.75d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5FBB29182B03E59F"
 			tasks: [{
 				id: "1F37069A8915A355"
@@ -523,6 +659,8 @@
 			icon: "projectvibrantjourneys:fallen_leaves"
 			x: 8.75d
 			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7E3118A2009406E7"
 			tasks: [{
 				id: "770FD2A890A0C6C9"
@@ -531,8 +669,11 @@
 			}]
 		}
 		{
+			icon: "botania:podzol_seeds"
 			x: 8.75d
 			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "36135CEDAA216F9A"
 			tasks: [{
 				id: "530FF59A947867AC"
@@ -544,6 +685,8 @@
 			icon: "byg:yellow_birch_sapling"
 			x: 9.75d
 			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7F20678CAC2420E0"
 			tasks: [{
 				id: "62DD743F7FC9A616"
@@ -552,8 +695,11 @@
 			}]
 		}
 		{
+			icon: "quark:brimstone"
 			x: 9.75d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "53B37517281DDE8B"
 			tasks: [{
 				id: "1CD781DB60568814"
@@ -562,8 +708,11 @@
 			}]
 		}
 		{
+			icon: "environmental:tall_dead_bush"
 			x: 9.75d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "087B4788B4707B9B"
 			tasks: [{
 				id: "70A3570D4C1E6EB5"
@@ -572,8 +721,11 @@
 			}]
 		}
 		{
+			icon: "betterendforge:bulb_moss"
 			x: 9.75d
 			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "51227A919EB4CDC7"
 			tasks: [{
 				id: "69032FF8F73ACC8A"
@@ -582,8 +734,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:smooth_sandstone"
 			x: 9.75d
 			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "639D4B79601CAF09"
 			tasks: [{
 				id: "3A62D769DCA1E478"
@@ -592,8 +747,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:cobblestone"
 			x: 10.75d
 			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "06B59AE84C6BFB02"
 			tasks: [{
 				id: "2666A49F137C2FB8"
@@ -605,6 +763,8 @@
 			icon: "byg:pink_cherry_sapling"
 			x: 10.75d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "21379BAD7E0074A4"
 			tasks: [{
 				id: "7566A9EAC32A0B00"
@@ -616,6 +776,8 @@
 			icon: "byg:white_cherry_sapling"
 			x: 10.75d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2B945F8BCB653E62"
 			tasks: [{
 				id: "3851A9BDC16F7038"
@@ -624,8 +786,11 @@
 			}]
 		}
 		{
+			icon: "create:natural_scoria"
 			x: 10.75d
 			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3E42761733F402F1"
 			tasks: [{
 				id: "1AEC0F380D9BDB11"
@@ -634,8 +799,11 @@
 			}]
 		}
 		{
+			icon: "byg:leaf_pile"
 			x: 10.75d
 			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3B80315D3775826E"
 			tasks: [{
 				id: "515FB72C120E7D4D"
@@ -644,8 +812,11 @@
 			}]
 		}
 		{
+			icon: "architects_palette:coarse_snow"
 			x: 11.75d
 			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "19A5B35C5D2AA7DA"
 			tasks: [{
 				id: "70F628401E6895F8"
@@ -657,6 +828,8 @@
 			icon: "byg:fir_log"
 			x: 11.75d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3019F9C665D8AC5A"
 			tasks: [{
 				id: "7F6E448EB09DC788"
@@ -665,8 +838,11 @@
 			}]
 		}
 		{
+			icon: "upgrade_aquatic:river_sapling"
 			x: 11.75d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "552D301516B164B0"
 			tasks: [{
 				id: "05665441D66D47C8"
@@ -675,8 +851,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:dead_bush"
 			x: 11.75d
 			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "21C261A2DC5147AF"
 			tasks: [{
 				id: "7443B37D6D0E7749"
@@ -685,8 +864,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:tube_coral_block"
 			x: 11.75d
 			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "449B441527FEAC63"
 			tasks: [{
 				id: "5EBBB3ED1C3BEEE0"
@@ -698,6 +880,8 @@
 			icon: "minecraft:podzol"
 			x: 12.75d
 			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5B180AEF9C022EC2"
 			tasks: [{
 				id: "754EB0F6F6743D79"
@@ -706,8 +890,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:crimson_nylium"
 			x: 12.75d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7E25FCEC277E2BBB"
 			tasks: [{
 				id: "0994BD87678914F0"
@@ -716,8 +903,11 @@
 			}]
 		}
 		{
+			icon: "betterendforge:crystal_moss_path"
 			x: 12.75d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "19A9D6527D357D88"
 			tasks: [{
 				id: "274805EA60BB8DCD"
@@ -726,8 +916,11 @@
 			}]
 		}
 		{
+			icon: "byg:cypress_sapling"
 			x: 12.75d
 			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "107FA9F60A149FBC"
 			tasks: [{
 				id: "4E35AA4A46B38300"
@@ -736,8 +929,11 @@
 			}]
 		}
 		{
+			icon: "sushigocrafting:seaweed"
 			x: 12.75d
 			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "66B3D1D2BD08BD07"
 			tasks: [{
 				id: "535F809ED4198429"
@@ -749,6 +945,8 @@
 			icon: "byg:horseweed"
 			x: 13.75d
 			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4504CEC538FB484A"
 			tasks: [{
 				id: "1A63845B9EB4F4EB"
@@ -757,8 +955,11 @@
 			}]
 		}
 		{
+			icon: "botania:metamorphic_forest_stone"
 			x: 13.75d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "07629CA83D244D01"
 			tasks: [{
 				id: "7D47B15F227421BC"
@@ -767,8 +968,11 @@
 			}]
 		}
 		{
+			icon: "byg:winter_succulent"
 			x: 13.75d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "018717716DC8BA45"
 			tasks: [{
 				id: "0338E1FEE18B1DC0"
@@ -777,8 +981,11 @@
 			}]
 		}
 		{
+			icon: "byg:pine_log"
 			x: 13.75d
 			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4A1B0FDDB79A1464"
 			tasks: [{
 				id: "45564A36F9833A4F"
@@ -787,8 +994,11 @@
 			}]
 		}
 		{
+			icon: "kubejs:dummy_fluid_item"
 			x: 13.75d
 			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "27F988EFDCA21CE4"
 			tasks: [{
 				id: "416145C91CB2DDAB"
@@ -797,8 +1007,11 @@
 			}]
 		}
 		{
+			icon: "atmospheric:arid_sand"
 			x: 14.75d
 			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "27A7E8AA6FFC7AE9"
 			tasks: [{
 				id: "22316DEC4A322A5E"
@@ -807,8 +1020,11 @@
 			}]
 		}
 		{
+			icon: "byg:ebony_sapling"
 			x: 14.75d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "671FC733C89DCCC3"
 			tasks: [{
 				id: "2ACF719B3B721681"
@@ -817,8 +1033,11 @@
 			}]
 		}
 		{
+			icon: "byg:weeping_milkcap_mushroom_block"
 			x: 14.75d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2730F82BDC95334D"
 			tasks: [{
 				id: "1700A4FC366B4484"
@@ -827,8 +1046,11 @@
 			}]
 		}
 		{
+			icon: "byg:embur_gel_branch"
 			x: 14.75d
 			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4CC9D0D27CC37DBF"
 			tasks: [{
 				id: "06D0CAF3DBD9EB75"
@@ -837,8 +1059,11 @@
 			}]
 		}
 		{
+			icon: "byg:green_enchanted_wood"
 			x: 14.75d
 			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3D93E29BB0D5495D"
 			tasks: [{
 				id: "304DB3BFD89069F5"
@@ -850,6 +1075,8 @@
 			icon: "byg:blue_enchanted_sapling"
 			x: 15.75d
 			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "40A1F75E1537FC60"
 			tasks: [{
 				id: "66CAC89ABCBC45B7"
@@ -861,6 +1088,8 @@
 			icon: "byg:blue_enchanted_leaves"
 			x: 15.75d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5C89BDDEC7C49442"
 			tasks: [{
 				id: "3E081F29B5411531"
@@ -869,8 +1098,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:nether_sprouts"
 			x: 15.75d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7269D6697699DB5D"
 			tasks: [{
 				id: "27181BF304F21633"
@@ -879,8 +1111,11 @@
 			}]
 		}
 		{
+			icon: "byg:thereal_bellflower"
 			x: 15.75d
 			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2274A9E078F008FB"
 			tasks: [{
 				id: "4574DB28297FD21D"
@@ -889,8 +1124,11 @@
 			}]
 		}
 		{
+			icon: "botania:podzol_seeds"
 			x: 15.75d
 			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "488E57D5AD6F2574"
 			tasks: [{
 				id: "1D6D1391A9F14B03"
@@ -902,6 +1140,8 @@
 			icon: "byg:holly_berries"
 			x: 16.75d
 			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "10F2FB0D26A6EFDA"
 			tasks: [{
 				id: "27606DA439300CBF"
@@ -910,8 +1150,11 @@
 			}]
 		}
 		{
+			icon: "quark:green_crystal"
 			x: 16.75d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "62835C46C12A4212"
 			tasks: [{
 				id: "15E69B58F2C79964"
@@ -920,8 +1163,11 @@
 			}]
 		}
 		{
+			icon: "byg:holly_berry_leaves"
 			x: 16.75d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "37110990C5520B56"
 			tasks: [{
 				id: "3AD47548BE578CC4"
@@ -930,8 +1176,11 @@
 			}]
 		}
 		{
+			icon: "byg:red_petal_block"
 			x: 16.75d
 			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "65612A72406875E7"
 			tasks: [{
 				id: "4F09250862FDFB9E"
@@ -943,6 +1192,8 @@
 			icon: "byg:green_enchanted_sapling"
 			x: 16.75d
 			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6A70D08593DDBAA4"
 			tasks: [{
 				id: "5F3B22F5E3F5CA0F"
@@ -954,6 +1205,8 @@
 			icon: "environmental:bird_of_paradise"
 			x: 17.75d
 			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "76DDF3ABE505FA1F"
 			tasks: [{
 				id: "117479E615817513"
@@ -965,6 +1218,8 @@
 			icon: "byg:azalea"
 			x: 17.75d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "418C6C5376FEA22A"
 			tasks: [{
 				id: "334A5934E006BC1F"
@@ -973,8 +1228,11 @@
 			}]
 		}
 		{
+			icon: "byg:peat"
 			x: 17.75d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "30B752B3F29085B8"
 			tasks: [{
 				id: "7D2E189FB7C9E432"
@@ -983,8 +1241,17 @@
 			}]
 		}
 		{
+			icon: {
+				id: "elementalcraft:water_lense"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
 			x: 17.75d
 			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "69FEF71FFF4B00B6"
 			tasks: [{
 				id: "5F2F177E6B9A002A"
@@ -993,8 +1260,11 @@
 			}]
 		}
 		{
+			icon: "undergarden:frozen_deepturf_block"
 			x: 17.75d
 			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1FFFE3ED7D51D9F9"
 			tasks: [{
 				id: "563D89B626974D7D"
@@ -1006,6 +1276,8 @@
 			icon: "byg:brown_mushroom_stem"
 			x: 18.75d
 			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0B6B8B79E2607A5F"
 			tasks: [{
 				id: "101E0FB6E246D235"
@@ -1017,6 +1289,8 @@
 			icon: "byg:glowcelium_block"
 			x: 18.75d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0045C9FF942B226D"
 			tasks: [{
 				id: "6D579F3B9F303374"
@@ -1025,8 +1299,11 @@
 			}]
 		}
 		{
+			icon: "byg:water_silk"
 			x: 18.75d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4BEFA48BACC7693A"
 			tasks: [{
 				id: "7CF91239E64E40ED"
@@ -1035,8 +1312,11 @@
 			}]
 		}
 		{
+			icon: "byg:blue_glowcane_block"
 			x: 18.75d
 			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3A1553348FA826B6"
 			tasks: [{
 				id: "69B00E78720849AA"
@@ -1045,8 +1325,11 @@
 			}]
 		}
 		{
+			icon: "simplefarming:raspberry_bush"
 			x: 18.75d
 			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0EFD49568E845680"
 			tasks: [{
 				id: "2CDD9F60A317B5EB"
@@ -1058,6 +1341,8 @@
 			icon: "byg:osiria_rose"
 			x: 19.75d
 			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "73D632983DCFE43C"
 			tasks: [{
 				id: "3C3814EA15140B9B"
@@ -1066,8 +1351,11 @@
 			}]
 		}
 		{
+			icon: "architects_palette:overgrown_algal_bricks"
 			x: 19.75d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "66D542473B45A3FB"
 			tasks: [{
 				id: "3D3C8B454BC2C648"
@@ -1076,8 +1364,11 @@
 			}]
 		}
 		{
+			icon: "sushigocrafting:avocado_log"
 			x: 19.75d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1FF5A0A4E1F93748"
 			tasks: [{
 				id: "71A946EFA86FA992"
@@ -1086,8 +1377,11 @@
 			}]
 		}
 		{
+			icon: "create:gabbro"
 			x: 19.75d
 			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "69B010B62B2F5D25"
 			tasks: [{
 				id: "052A85BA2E6FE041"
@@ -1099,6 +1393,8 @@
 			icon: "byg:mahogany_sapling"
 			x: 19.75d
 			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "12BFAB9A824F7B41"
 			tasks: [{
 				id: "046528440D418E12"
@@ -1107,8 +1403,11 @@
 			}]
 		}
 		{
+			icon: "byg:fungal_imparius_stem"
 			x: 20.75d
 			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "36F643BD072BB71C"
 			tasks: [{
 				id: "7EE0F73B66CF3242"
@@ -1117,8 +1416,11 @@
 			}]
 		}
 		{
+			icon: "byg:imparius_mushroom_branch"
 			x: 20.75d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3CD84702599048C1"
 			tasks: [{
 				id: "236B2BAA76EA76A7"
@@ -1127,8 +1429,11 @@
 			}]
 		}
 		{
+			icon: "byg:ivis_roots"
 			x: 20.75d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "57396FA4A45A4882"
 			tasks: [{
 				id: "270A76837B7343C2"
@@ -1140,6 +1445,8 @@
 			icon: "byg:jacaranda_sapling"
 			x: 20.75d
 			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5E78598853C1B7EC"
 			tasks: [{
 				id: "405AEE329024B7CB"
@@ -1148,8 +1455,11 @@
 			}]
 		}
 		{
+			icon: "byg:indigo_jacaranda_bush"
 			x: 20.75d
 			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "23F3C0B2AEBFC745"
 			tasks: [{
 				id: "389DACEFE63B3C55"
@@ -1161,6 +1471,8 @@
 			icon: "byg:flowering_jacaranda_leaves"
 			x: 21.75d
 			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7E59D05A3C2C37A8"
 			tasks: [{
 				id: "3120C6B8E22D908F"
@@ -1172,6 +1484,8 @@
 			icon: "byg:prickly_pear_cactus"
 			x: 21.75d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "76FB4D4BBB8825EC"
 			tasks: [{
 				id: "5D31236C725C7864"
@@ -1180,8 +1494,11 @@
 			}]
 		}
 		{
+			icon: "betterendforge:vaiolush_fern"
 			x: 21.75d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5F262366F5ABFAA2"
 			tasks: [{
 				id: "0580CD5C5604C966"
@@ -1190,8 +1507,11 @@
 			}]
 		}
 		{
+			icon: "byg:magmatic_stone"
 			x: 21.75d
 			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "009CA3057A23E758"
 			tasks: [{
 				id: "2E0CC4A244227689"
@@ -1200,8 +1520,11 @@
 			}]
 		}
 		{
+			icon: "byg:mangrove_leaves"
 			x: 21.75d
 			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6113550125AC33B0"
 			tasks: [{
 				id: "189DBD55A9827EFA"
@@ -1210,8 +1533,11 @@
 			}]
 		}
 		{
+			icon: "byg:maple_sapling"
 			x: 22.75d
 			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "253B16D8F167C2BD"
 			tasks: [{
 				id: "1F42969AAD9B5F63"
@@ -1223,6 +1549,8 @@
 			icon: "byg:silver_maple_leaves"
 			x: 22.75d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3615A74B0528ED4F"
 			tasks: [{
 				id: "1832CEF93FBE2E18"
@@ -1231,8 +1559,11 @@
 			}]
 		}
 		{
+			icon: "projectvibrantjourneys:cattail"
 			x: 22.75d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "428DB7A7531303DA"
 			tasks: [{
 				id: "3849645E8E6E61E7"
@@ -1241,8 +1572,11 @@
 			}]
 		}
 		{
+			icon: "byg:azalea"
 			x: 22.75d
 			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "679178322F789ACF"
 			tasks: [{
 				id: "6780738B0988C552"
@@ -1251,8 +1585,11 @@
 			}]
 		}
 		{
+			icon: "byg:ripe_joshua_leaves"
 			x: 22.75d
 			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "25765AEF90EDCE1A"
 			tasks: [{
 				id: "536AB47CDB30F1D3"
@@ -1261,8 +1598,11 @@
 			}]
 		}
 		{
+			icon: "byg:nightshade_sapling"
 			x: 23.75d
 			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "75F6D62EEBDDCDE8"
 			tasks: [{
 				id: "2608BAAE6CADE4B4"
@@ -1274,6 +1614,8 @@
 			icon: "byg:pine_leaves"
 			x: 23.75d
 			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "301E1C02CB2875F9"
 			tasks: [{
 				id: "295C41FA44C2B84B"
@@ -1282,8 +1624,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:grass_block"
 			x: 23.75d
 			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "19690AE4C0AA4F10"
 			tasks: [{
 				id: "12B4A4410D476CD7"
@@ -1292,8 +1637,11 @@
 			}]
 		}
 		{
+			icon: "byg:ripe_orchard_leaves"
 			x: 23.75d
 			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3202BCE877A7B624"
 			tasks: [{
 				id: "754B2BAB60F1033C"
@@ -1302,8 +1650,11 @@
 			}]
 		}
 		{
+			icon: "byg:ebony_log"
 			x: 23.75d
 			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4BB6D090184FD50C"
 			tasks: [{
 				id: "62CB906F4EE516FB"
@@ -1312,8 +1663,11 @@
 			}]
 		}
 		{
+			icon: "byg:cattail"
 			x: 4.75d
 			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "10EBB0AEB387360C"
 			tasks: [{
 				id: "224022C1AE261DFA"
@@ -1322,8 +1676,11 @@
 			}]
 		}
 		{
+			icon: "byg:california_poppy"
 			x: 5.75d
 			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7818400EEBEE9329"
 			tasks: [{
 				id: "4E77D9B9D84AACE2"
@@ -1332,8 +1689,11 @@
 			}]
 		}
 		{
+			icon: "byg:prairie_grass"
 			x: 6.75d
 			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6896A7A5CC0E97AB"
 			tasks: [{
 				id: "697E5301A6635614"
@@ -1345,6 +1705,8 @@
 			icon: "byg:witch_hazel_sapling"
 			x: 7.75d
 			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "68A01CCF2C3C8C20"
 			tasks: [{
 				id: "02F061D5CB30CF4D"
@@ -1353,8 +1715,11 @@
 			}]
 		}
 		{
+			icon: "environmental:purple_wisteria_sapling"
 			x: 8.75d
 			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "57337AD3BF09BD0A"
 			tasks: [{
 				id: "6A175F0747F0ACC4"
@@ -1363,8 +1728,11 @@
 			}]
 		}
 		{
+			icon: "byg:quartzite_sand"
 			x: 9.75d
 			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1D81B2717681F3CB"
 			tasks: [{
 				id: "3BD744230451477B"
@@ -1373,8 +1741,11 @@
 			}]
 		}
 		{
+			icon: "byg:rainbow_eucalyptus_sapling"
 			x: 10.75d
 			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5A22078024D43DBC"
 			tasks: [{
 				id: "6E3F2B2DF572CB28"
@@ -1383,8 +1754,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:red_sand"
 			x: 11.75d
 			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "141BC0252898626C"
 			tasks: [{
 				id: "78D27A82100E2374"
@@ -1393,8 +1767,11 @@
 			}]
 		}
 		{
+			icon: "byg:golden_spined_cactus"
 			x: 12.75d
 			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "713BF5BCC89316CF"
 			tasks: [{
 				id: "2BF6B3054EC3F16F"
@@ -1403,8 +1780,11 @@
 			}]
 		}
 		{
+			icon: "quark:dark_oak_hedge"
 			x: 13.75d
 			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6AD48C8D49AF4C20"
 			tasks: [{
 				id: "3AFD6E53A7007CBB"
@@ -1413,8 +1793,11 @@
 			}]
 		}
 		{
+			icon: "byg:red_oak_leaves"
 			x: 14.75d
 			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "004D7FF28069DD8D"
 			tasks: [{
 				id: "490A7236C8512804"
@@ -1426,6 +1809,8 @@
 			icon: "byg:red_rock"
 			x: 15.75d
 			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "09DB256E2ED28C09"
 			tasks: [{
 				id: "06DA3FFC47D7D6B0"
@@ -1434,8 +1819,11 @@
 			}]
 		}
 		{
+			icon: "byg:prickly_pear_cactus"
 			x: 16.75d
 			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2B69E55B4ABD109D"
 			tasks: [{
 				id: "685F4F9E8B1071A7"
@@ -1444,8 +1832,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:orange_terracotta"
 			x: 17.75d
 			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2B7D723E39F441FA"
 			tasks: [{
 				id: "4DE4942B576E2333"
@@ -1454,8 +1845,11 @@
 			}]
 		}
 		{
+			icon: "byg:red_oak_leaves"
 			x: 18.75d
 			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "585A090162425289"
 			tasks: [{
 				id: "683D8AB4E04165A8"
@@ -1464,8 +1858,11 @@
 			}]
 		}
 		{
+			icon: "environmental:white_lotus_flower"
 			x: 19.75d
 			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0784C6A1DFAD7331"
 			tasks: [{
 				id: "6643AE033C23DC50"
@@ -1474,8 +1871,11 @@
 			}]
 		}
 		{
+			icon: "byg:redwood_log"
 			x: 20.75d
 			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "72289EAD62A3B5D1"
 			tasks: [{
 				id: "16CE8606ED3C562C"
@@ -1484,8 +1884,11 @@
 			}]
 		}
 		{
+			icon: "byg:redwood_sapling"
 			x: 21.75d
 			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "02F43E5B13BC4A0C"
 			tasks: [{
 				id: "7F09A111C5467F42"
@@ -1494,8 +1897,11 @@
 			}]
 		}
 		{
+			icon: "create:weathered_limestone"
 			x: 22.75d
 			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "49CA7BEFFEBE8D8F"
 			tasks: [{
 				id: "14616DE13EB4FCA8"
@@ -1504,8 +1910,11 @@
 			}]
 		}
 		{
+			icon: "byg:osiria_rose"
 			x: 23.75d
 			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "529ACA5D8CFE5122"
 			tasks: [{
 				id: "1C746391CEDBE879"
@@ -1514,8 +1923,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:birch_sapling"
 			x: 4.75d
 			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "07633267A18053AD"
 			tasks: [{
 				id: "00F74769DC0FA2BA"
@@ -1527,6 +1939,8 @@
 			icon: "byg:red_birch_sapling"
 			x: 5.75d
 			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "413F1E9BC087372E"
 			tasks: [{
 				id: "5D3A9D9070690606"
@@ -1535,8 +1949,11 @@
 			}]
 		}
 		{
+			icon: "botania:pink_double_flower"
 			x: 6.75d
 			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "408019D1AADE8712"
 			tasks: [{
 				id: "509CB671D75DA7E3"
@@ -1545,8 +1962,11 @@
 			}]
 		}
 		{
+			icon: "botania:metamorphic_forest_bricks"
 			x: 7.75d
 			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4432D38764F81004"
 			tasks: [{
 				id: "78FF4AB197924136"
@@ -1555,8 +1975,11 @@
 			}]
 		}
 		{
+			icon: "byg:orange_oak_leaves"
 			x: 8.75d
 			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0EE902DA0751A3CA"
 			tasks: [{
 				id: "4B16BD13D8A85E55"
@@ -1565,8 +1988,11 @@
 			}]
 		}
 		{
+			icon: "byg:brown_oak_leaves"
 			x: 9.75d
 			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3DAB9723E750BC4E"
 			tasks: [{
 				id: "04B78BE76792102B"
@@ -1575,8 +2001,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:oak_leaves"
 			x: 10.75d
 			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5A77F2858A8405C2"
 			tasks: [{
 				id: "677020D8FA3B00AC"
@@ -1585,8 +2014,11 @@
 			}]
 		}
 		{
+			icon: "byg:yellow_spruce_leaves"
 			x: 11.75d
 			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0CACA2E705DC67C1"
 			tasks: [{
 				id: "1BBB25BFEDD7EDDE"
@@ -1595,8 +2027,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:spruce_leaves"
 			x: 12.75d
 			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "43D9F59E0A644558"
 			tasks: [{
 				id: "7D333C71EE52CDF4"
@@ -1605,8 +2040,11 @@
 			}]
 		}
 		{
+			icon: "byg:red_spruce_leaves"
 			x: 13.75d
 			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0354553F77F7D1E6"
 			tasks: [{
 				id: "0D902F0D4AB35F65"
@@ -1615,8 +2053,11 @@
 			}]
 		}
 		{
+			icon: "projectvibrantjourneys:blooming_desert_agave"
 			x: 14.75d
 			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0250D59F1D52F440"
 			tasks: [{
 				id: "7125962A93A57E6E"
@@ -1625,8 +2066,11 @@
 			}]
 		}
 		{
+			icon: "projectvibrantjourneys:desert_sage"
 			x: 15.75d
 			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0E6A16AD4D1F3A6C"
 			tasks: [{
 				id: "47DE1ADBDA68D080"
@@ -1635,8 +2079,11 @@
 			}]
 		}
 		{
+			icon: "byg:packed_black_ice"
 			x: 16.75d
 			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2F66D1B9FE222A43"
 			tasks: [{
 				id: "08C8FDDF97888201"
@@ -1645,8 +2092,11 @@
 			}]
 		}
 		{
+			icon: "byg:ivis_sprout"
 			x: 17.75d
 			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "52CD7F22D1B4C493"
 			tasks: [{
 				id: "73D1D5F6EA17EE01"
@@ -1655,8 +2105,11 @@
 			}]
 		}
 		{
+			icon: "projectvibrantjourneys:twigs"
 			x: 18.75d
 			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1814BC9941334622"
 			tasks: [{
 				id: "6ECDBF2DE28650B3"
@@ -1665,8 +2118,11 @@
 			}]
 		}
 		{
+			icon: "byg:green_apple_skyris_leaves"
 			x: 19.75d
 			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6F6EC09526145EB9"
 			tasks: [{
 				id: "21681A675AA16867"
@@ -1678,6 +2134,8 @@
 			icon: "byg:palo_verde_sapling"
 			x: 20.75d
 			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7B9745577651D4D0"
 			tasks: [{
 				id: "4C49093059187E67"
@@ -1686,8 +2144,11 @@
 			}]
 		}
 		{
+			icon: "projectvibrantjourneys:bones"
 			x: 21.75d
 			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1C58010ED9A18D2D"
 			tasks: [{
 				id: "202CD6725B12344C"
@@ -1696,8 +2157,11 @@
 			}]
 		}
 		{
+			icon: "byg:green_apple"
 			x: 22.75d
 			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "455EAF825380E64F"
 			tasks: [{
 				id: "12FB786264937799"
@@ -1706,8 +2170,11 @@
 			}]
 		}
 		{
+			icon: "byg:skyris_sapling"
 			x: 23.75d
 			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5AF066DCF4590FDD"
 			tasks: [{
 				id: "1829EF030AE0A220"
@@ -1716,8 +2183,11 @@
 			}]
 		}
 		{
+			icon: "byg:skyris_leaves"
 			x: 4.75d
 			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0FE6D4C6B6B3BABC"
 			tasks: [{
 				id: "10B85AF2EBC1D518"
@@ -1726,8 +2196,11 @@
 			}]
 		}
 		{
+			icon: "byg:green_apple_skyris_leaves"
 			x: 5.75d
 			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5A0E0C90C22C28B5"
 			tasks: [{
 				id: "5789F026E8C484A8"
@@ -1736,8 +2209,11 @@
 			}]
 		}
 		{
+			icon: "byg:black_sand"
 			x: 6.75d
 			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4EAFD325D772A176"
 			tasks: [{
 				id: "54F856AC19224E8C"
@@ -1746,8 +2222,11 @@
 			}]
 		}
 		{
+			icon: "byg:blue_spruce_leaves"
 			x: 7.75d
 			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "60FCC89E9D7BDEE4"
 			tasks: [{
 				id: "62B04D906CFDA779"
@@ -1756,8 +2235,11 @@
 			}]
 		}
 		{
+			icon: "byg:blue_spruce_sapling"
 			x: 8.75d
 			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "599F1DB3B6BE9F93"
 			tasks: [{
 				id: "5C0F53C6A7DFA9E3"
@@ -1766,8 +2248,11 @@
 			}]
 		}
 		{
+			icon: "simplefarming:blueberry_bush"
 			x: 9.75d
 			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0E040DD3F7E37D2C"
 			tasks: [{
 				id: "69E9331550829581"
@@ -1776,8 +2261,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:spruce_log"
 			x: 10.75d
 			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4F39AA26C8B7C8BD"
 			tasks: [{
 				id: "198BBD45B2AA12E6"
@@ -1786,8 +2274,11 @@
 			}]
 		}
 		{
+			icon: { id: "minecraft:spruce_sapling", Count: 3b }
 			x: 11.75d
 			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "016D1710A9109FF8"
 			tasks: [{
 				id: "4A12E52FF7D1AF7F"
@@ -1796,8 +2287,11 @@
 			}]
 		}
 		{
+			icon: "byg:pine_leaves"
 			x: 12.75d
 			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "77174F5F29DCAF8D"
 			tasks: [{
 				id: "7D64352C12E6807D"
@@ -1806,8 +2300,11 @@
 			}]
 		}
 		{
+			icon: "byg:pine_sapling"
 			x: 13.75d
 			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "47E2B17DD55E9286"
 			tasks: [{
 				id: "6F373126BCBA1C6F"
@@ -1816,8 +2313,11 @@
 			}]
 		}
 		{
+			icon: "occultism:otherworld_leaves_natural"
 			x: 14.75d
 			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "77B3661A48DDBBF8"
 			tasks: [{
 				id: "23055C3F77E5DD19"
@@ -1826,8 +2326,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:snow"
 			x: 15.75d
 			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "47A76F435CD5CE7E"
 			tasks: [{
 				id: "53BCB6C9EDCEAD78"
@@ -1836,8 +2339,11 @@
 			}]
 		}
 		{
+			icon: "byg:holly_berry_leaves"
 			x: 16.75d
 			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2254701BB24F135D"
 			tasks: [{
 				id: "463BC1AE1472A143"
@@ -1846,8 +2352,11 @@
 			}]
 		}
 		{
+			icon: "byg:snowdrops"
 			x: 17.75d
 			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "35CFFA67C5C628FB"
 			tasks: [{
 				id: "3B7BEFAFBDB624C3"
@@ -1856,8 +2365,11 @@
 			}]
 		}
 		{
+			icon: "byg:holly_leaves"
 			x: 18.75d
 			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7250473929599B79"
 			tasks: [{
 				id: "30D0280BFECEBD29"
@@ -1866,8 +2378,11 @@
 			}]
 		}
 		{
+			icon: "byg:black_sandstone"
 			x: 19.75d
 			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1346DC9B51C917EE"
 			tasks: [{
 				id: "797F1505E2342A05"
@@ -1876,8 +2391,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:infested_stone"
 			x: 20.75d
 			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "26B86969CEEF6FCB"
 			tasks: [{
 				id: "005BB611602B37F1"
@@ -1886,8 +2404,11 @@
 			}]
 		}
 		{
+			icon: "byg:subzero_crystal_cluster"
 			x: 21.75d
 			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1C07E753BE4765D0"
 			tasks: [{
 				id: "1361D38764B0D4DD"
@@ -1896,8 +2417,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:polished_diorite"
 			x: 22.75d
 			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6D738E4A74A13D63"
 			tasks: [{
 				id: "5D0172A1FEEFB00F"
@@ -1906,8 +2430,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:large_fern"
 			x: 23.75d
 			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "319BA4B77881C507"
 			tasks: [{
 				id: "7DF934F1897E0626"
@@ -1916,8 +2443,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:tropical_fish"
 			x: 4.75d
 			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3A2D7E391DEFA55C"
 			tasks: [{
 				id: "1F2CE3BA3B3D8717"
@@ -1926,8 +2456,11 @@
 			}]
 		}
 		{
+			icon: "byg:fungal_imparius"
 			x: 5.75d
 			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0FCF18485D8A69FE"
 			tasks: [{
 				id: "02E5CEDE65CB220D"
@@ -1939,6 +2472,8 @@
 			icon: "minecraft:bamboo"
 			x: 6.75d
 			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "12834859EEA2D54C"
 			tasks: [{
 				id: "1B7BC63C63AB4E74"
@@ -1947,8 +2482,11 @@
 			}]
 		}
 		{
+			icon: "byg:rainbow_eucalyptus_log"
 			x: 7.75d
 			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6CF1676E81E1CA84"
 			tasks: [{
 				id: "6190055BE8DEF218"
@@ -1957,8 +2495,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:tropical_fish_bucket"
 			x: 8.75d
 			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7F33971E2F83A301"
 			tasks: [{
 				id: "45167264A92D85FF"
@@ -1967,8 +2508,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:lily_of_the_valley"
 			x: 9.75d
 			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "01C5EC3BA411B06C"
 			tasks: [{
 				id: "5E4947FC9F89900B"
@@ -1977,8 +2521,11 @@
 			}]
 		}
 		{
+			icon: "undergarden:twistytwig"
 			x: 10.75d
 			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7F47944DA8E4A0F9"
 			tasks: [{
 				id: "388B5DDD1E9C3DB5"
@@ -1987,8 +2534,11 @@
 			}]
 		}
 		{
+			icon: "quark:pink_blossom_sapling"
 			x: 11.75d
 			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5498B10E30BE70F5"
 			tasks: [{
 				id: "3C44142021190C7E"
@@ -1997,8 +2547,11 @@
 			}]
 		}
 		{
+			icon: "atmospheric:passion_vine_bundle"
 			x: 12.75d
 			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "24E6E61DECD66B65"
 			tasks: [{
 				id: "25545C284C146821"
@@ -2007,8 +2560,11 @@
 			}]
 		}
 		{
+			icon: "quark:orange_blossom_sapling"
 			x: 13.75d
 			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7B5A91182EC3F3A9"
 			tasks: [{
 				id: "4197776091B2BA38"
@@ -2017,8 +2573,11 @@
 			}]
 		}
 		{
+			icon: "botania:metamorphic_desert_stone"
 			x: 14.75d
 			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "65D796FFFF725749"
 			tasks: [{
 				id: "7B849D3DD5351C7C"
@@ -2027,8 +2586,11 @@
 			}]
 		}
 		{
+			icon: "atmospheric:flowering_morado_leaves"
 			x: 15.75d
 			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "751F71FA24DC5003"
 			tasks: [{
 				id: "72B90CB0B9FF949D"
@@ -2037,8 +2599,11 @@
 			}]
 		}
 		{
+			icon: "byg:witch_hazel_log"
 			x: 16.75d
 			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "13CC9334376A2F9B"
 			tasks: [{
 				id: "3240E7E4657C814B"
@@ -2047,8 +2612,11 @@
 			}]
 		}
 		{
+			icon: "byg:witch_hazel_sapling"
 			x: 17.75d
 			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4D471CD9287C6B36"
 			tasks: [{
 				id: "3127D6E6253E0307"
@@ -2057,8 +2625,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:snow"
 			x: 18.75d
 			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6D15821BD452FB76"
 			tasks: [{
 				id: "1739A25BBAF3CA5E"
@@ -2067,8 +2638,11 @@
 			}]
 		}
 		{
+			icon: "masonry:stonecarvedwither"
 			x: 19.75d
 			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "311F8CF146359C22"
 			tasks: [{
 				id: "4BB88344C56C0C08"
@@ -2077,8 +2651,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:podzol"
 			x: 20.75d
 			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "76D5EA1C28054EA7"
 			tasks: [{
 				id: "58B6294578EF4D77"
@@ -2087,8 +2664,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:grass"
 			x: 21.75d
 			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0E2F9D106CEE9BDC"
 			tasks: [{
 				id: "2F95B50A54616C90"
@@ -2097,8 +2677,11 @@
 			}]
 		}
 		{
+			icon: "byg:red_rock_bricks"
 			x: 22.75d
 			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "26988D1EF576AC32"
 			tasks: [{
 				id: "3133F707B2D6CE53"
@@ -2107,8 +2690,11 @@
 			}]
 		}
 		{
+			icon: "byg:green_mushroom_block"
 			x: 23.75d
 			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2D16B7809729E6A4"
 			tasks: [{
 				id: "3CE24F73880930BD"
@@ -2117,8 +2703,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:white_glazed_terracotta"
 			x: 4.75d
 			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2341D5106B6CB8CD"
 			tasks: [{
 				id: "59C3740CDCDA3A29"
@@ -2127,8 +2716,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:orange_glazed_terracotta"
 			x: 5.75d
 			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7B85C53D4E86F14B"
 			tasks: [{
 				id: "37F0237BD6AF3880"
@@ -2137,8 +2729,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:magenta_glazed_terracotta"
 			x: 6.75d
 			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "643350618E743D64"
 			tasks: [{
 				id: "5C78256FB32E8885"
@@ -2147,8 +2742,11 @@
 			}]
 		}
 		{
+			icon: "botania:enchanted_soil"
 			x: -14.25d
 			y: -10.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2EB0A90A979B9E6F"
 			tasks: [{
 				id: "3DB23E8928C5F993"
@@ -2157,8 +2755,11 @@
 			}]
 		}
 		{
+			icon: "farmersdelight:rich_soil_farmland"
 			x: -13.25d
 			y: -10.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5B605A843D6D7C49"
 			tasks: [{
 				id: "606883186004DB15"
@@ -2167,8 +2768,11 @@
 			}]
 		}
 		{
+			icon: "byg:baobab_leaves"
 			x: -12.25d
 			y: -10.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "672A20EB999CDE33"
 			tasks: [{
 				id: "79E32C7EC203462F"
@@ -2177,8 +2781,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:bamboo"
 			x: -11.25d
 			y: -10.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6F5A7E619ED82B9C"
 			tasks: [{
 				id: "0745414582969335"
@@ -2187,8 +2794,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:basalt"
 			x: -14.25d
 			y: -9.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1035B2AF01FC9CF5"
 			tasks: [{
 				id: "0A135EC04C0B7842"
@@ -2197,8 +2807,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:sand"
 			x: -13.25d
 			y: -9.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0FF705186EF707FF"
 			tasks: [{
 				id: "2BEC69C7BF951F97"
@@ -2207,8 +2820,11 @@
 			}]
 		}
 		{
+			icon: "byg:yellow_birch_leaves"
 			x: -12.25d
 			y: -9.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3AD845B436EF99B8"
 			tasks: [{
 				id: "24ED25B1D34C8F06"
@@ -2217,8 +2833,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:birch_log"
 			x: -11.25d
 			y: -9.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "351A56917A37875C"
 			tasks: [{
 				id: "293582EEF783E002"
@@ -2227,8 +2846,11 @@
 			}]
 		}
 		{
+			icon: "environmental:chiseled_ice_bricks"
 			x: -14.25d
 			y: -8.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "498C69A8FB0DE231"
 			tasks: [{
 				id: "0C2167D32E14EAAF"
@@ -2237,8 +2859,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:crimson_nylium"
 			x: -13.25d
 			y: -8.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6A1E418E2F6332EC"
 			tasks: [{
 				id: "6CD8D52782BE93DB"
@@ -2247,8 +2872,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:dark_oak_leaves"
 			x: -12.25d
 			y: -8.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "581E1ACD1DA73A9A"
 			tasks: [{
 				id: "325F05183BE83498"
@@ -2260,6 +2888,8 @@
 			icon: "minecraft:dark_oak_sapling"
 			x: -11.25d
 			y: -8.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4EE66E89F3F0DF94"
 			tasks: [{
 				id: "2427047C3DCAD63C"
@@ -2268,8 +2898,11 @@
 			}]
 		}
 		{
+			icon: "architects_palette:packed_ice_pillar"
 			x: -14.25d
 			y: -7.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "71EE13EFD6A292AB"
 			tasks: [{
 				id: "10179BDE8A50F647"
@@ -2278,8 +2911,11 @@
 			}]
 		}
 		{
+			icon: "architects_palette:polished_packed_ice"
 			x: -13.25d
 			y: -7.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2BAAA7A61766165F"
 			tasks: [{
 				id: "7AE78DF414C5AD70"
@@ -2288,8 +2924,11 @@
 			}]
 		}
 		{
+			icon: "upgrade_aquatic:pink_searocket"
 			x: -12.25d
 			y: -7.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7EB7E3C2CC86D814"
 			tasks: [{
 				id: "4EF5CE26E7C33100"
@@ -2298,8 +2937,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:sea_pickle"
 			x: -11.25d
 			y: -7.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "285FAFD00EDAFF09"
 			tasks: [{
 				id: "3E37BBA64CCF5407"
@@ -2308,8 +2950,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:seagrass"
 			x: -14.25d
 			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7BB12887DBFAE104"
 			tasks: [{
 				id: "24642ACC39C1CA54"
@@ -2318,8 +2963,11 @@
 			}]
 		}
 		{
+			icon: "quark:sandstone_bricks"
 			x: -13.25d
 			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6D1A0222368A1604"
 			tasks: [{
 				id: "60A659D6C2DF5FE5"
@@ -2328,8 +2976,11 @@
 			}]
 		}
 		{
+			icon: "atmospheric:arid_sand"
 			x: -12.25d
 			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6E4CF0547EE37628"
 			tasks: [{
 				id: "4273B7B7F339B777"
@@ -2338,8 +2989,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:sand"
 			x: -11.25d
 			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6200432EE6A43BBF"
 			tasks: [{
 				id: "7672AB5B08CF1C2E"
@@ -2348,8 +3002,11 @@
 			}]
 		}
 		{
+			icon: "architects_palette:chiseled_end_stone_bricks"
 			x: -14.25d
 			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "767BACBC70236666"
 			tasks: [{
 				id: "71F8C433C4ACE1BD"
@@ -2358,8 +3015,11 @@
 			}]
 		}
 		{
+			icon: "architects_palette:heavy_cracked_end_stone_bricks"
 			x: -13.25d
 			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "16B3FDEA1EC6CBCE"
 			tasks: [{
 				id: "40083E0572CC2AEB"
@@ -2368,8 +3028,11 @@
 			}]
 		}
 		{
+			icon: "architects_palette:cracked_end_stone_bricks"
 			x: -12.25d
 			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2C2E423B4B79C7E3"
 			tasks: [{
 				id: "09F924E1109F4E08"
@@ -2378,8 +3041,11 @@
 			}]
 		}
 		{
+			icon: "atmospheric:crustose_wood"
 			x: -11.25d
 			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4CD24A3FABB2EF42"
 			tasks: [{
 				id: "3C3E9957383068AF"
@@ -2391,6 +3057,8 @@
 			icon: "minecraft:white_tulip"
 			x: -14.25d
 			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3979300B04CFCBD3"
 			tasks: [{
 				id: "02DF718B4DDB4E26"
@@ -2399,8 +3067,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:oak_sapling"
 			x: -13.25d
 			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "04F32C07ABFDD1AA"
 			tasks: [{
 				id: "4D160F74FFA5833A"
@@ -2409,8 +3080,11 @@
 			}]
 		}
 		{
+			icon: "upgrade_aquatic:white_searocket"
 			x: -12.25d
 			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "242A046F5B06456F"
 			tasks: [{
 				id: "4A9C0C0F26147A87"
@@ -2419,8 +3093,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:packed_ice"
 			x: -11.25d
 			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4B2BB50DA3DC9E35"
 			tasks: [{
 				id: "3C3B4A93C4E8B774"
@@ -2429,8 +3106,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:spruce_leaves"
 			x: -14.25d
 			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1095DFC9FBEA8C54"
 			tasks: [{
 				id: "790A8FCF66373DD5"
@@ -2439,8 +3119,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:spruce_sapling"
 			x: -13.25d
 			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "43693776D2B5F277"
 			tasks: [{
 				id: "2F76EFCBD6ECCAFA"
@@ -2449,8 +3132,11 @@
 			}]
 		}
 		{
+			icon: "botania:metamorphic_taiga_stone"
 			x: -12.25d
 			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "116C011A1AE7ABB0"
 			tasks: [{
 				id: "35C68878635CCC9E"
@@ -2459,8 +3145,11 @@
 			}]
 		}
 		{
+			icon: "betterendforge:umbrella_tree_sapling"
 			x: -11.25d
 			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7762C9B643133B72"
 			tasks: [{
 				id: "1E5D89D6BCF597F7"
@@ -2469,8 +3158,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:gravel"
 			x: -14.25d
 			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4DE913AF43BB2947"
 			tasks: [{
 				id: "63F1FB679CDD473E"
@@ -2479,8 +3171,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:ice"
 			x: -13.25d
 			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "67DC48999B993BFA"
 			tasks: [{
 				id: "141DBCDCEB184808"
@@ -2489,8 +3184,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:jungle_sapling"
 			x: -12.25d
 			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1DCAE21EFFE84EB6"
 			tasks: [{
 				id: "6637B21CF2E767D2"
@@ -2499,8 +3197,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:jungle_log"
 			x: -11.25d
 			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "415A62774EB342A1"
 			tasks: [{
 				id: "5F41AE0F1B6DBEFF"
@@ -2512,6 +3213,8 @@
 			icon: "minecraft:jungle_sapling"
 			x: -14.25d
 			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4E4E68F497DDAE64"
 			tasks: [{
 				id: "17E721BB6E31E4D1"
@@ -2520,8 +3223,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:seagrass"
 			x: -13.25d
 			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "49B9217C0FBB4064"
 			tasks: [{
 				id: "115A52FD53B7838B"
@@ -2530,8 +3236,11 @@
 			}]
 		}
 		{
+			icon: "undergarden:deepsoil_farmland"
 			x: -12.25d
 			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6AD4DB68F84D9ABA"
 			tasks: [{
 				id: "69342320485AEE0A"
@@ -2540,8 +3249,11 @@
 			}]
 		}
 		{
+			icon: "supplementaries:raked_gravel"
 			x: -11.25d
 			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "78C375796C92D83F"
 			tasks: [{
 				id: "7A3E80B5F03F084F"
@@ -2550,8 +3262,11 @@
 			}]
 		}
 		{
+			icon: "quark:jungle_leaf_carpet"
 			x: -14.25d
 			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0FD482E0D6B2DEF7"
 			tasks: [{
 				id: "0835DFF69DBD4755"
@@ -2560,8 +3275,11 @@
 			}]
 		}
 		{
+			icon: "quark:jungle_hedge"
 			x: -13.25d
 			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "66037D9CA95C8CFB"
 			tasks: [{
 				id: "1A78AD54199A4CE2"
@@ -2572,6 +3290,8 @@
 		{
 			x: -12.25d
 			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "27CB0C238B064BEB"
 			tasks: [{
 				id: "0FDD4463FE8F0E8E"
@@ -2580,8 +3300,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:cracked_stone_bricks"
 			x: -11.25d
 			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "03FFD914C1E4C2CC"
 			tasks: [{
 				id: "548BF7D12E0C80E7"
@@ -2590,8 +3313,11 @@
 			}]
 		}
 		{
+			icon: "upgrade_aquatic:dead_rock_coral_block"
 			x: -14.25d
 			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2379000BA5471496"
 			tasks: [{
 				id: "6E40FEC85D7A95ED"
@@ -2600,8 +3326,11 @@
 			}]
 		}
 		{
+			icon: "architects_palette:mushy_limestone_bricks"
 			x: -13.25d
 			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "51D78A0BC0186B35"
 			tasks: [{
 				id: "08260F7CF6C83FD2"
@@ -2610,8 +3339,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:mushroom_stem"
 			x: -12.25d
 			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "298262B1CB9F1EC5"
 			tasks: [{
 				id: "6634D92B57D4E283"
@@ -2620,8 +3352,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:soul_soil"
 			x: -11.25d
 			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "74DB1764E4FA13CB"
 			tasks: [{
 				id: "65D6C2E2D44B3A63"
@@ -2633,6 +3368,8 @@
 			icon: "minecraft:seagrass"
 			x: -14.25d
 			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "046C02618EA68BC1"
 			tasks: [{
 				id: "156929129AC5FD50"
@@ -2644,6 +3381,8 @@
 			icon: "minecraft:grass"
 			x: -13.25d
 			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2BC34E5815BCCA5D"
 			tasks: [{
 				id: "552437AFC52CE040"
@@ -2655,6 +3394,8 @@
 			icon: "environmental:tall_cattail"
 			x: -12.25d
 			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4968CFBB706D7A3A"
 			tasks: [{
 				id: "4B20461D7A17BA01"
@@ -2663,8 +3404,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:red_sand"
 			x: -11.25d
 			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "324C32EBBA8FAA32"
 			tasks: [{
 				id: "7894C53C763F0FB9"
@@ -2673,8 +3417,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:smooth_red_sandstone"
 			x: -10.25d
 			y: -10.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1E9A97693D7F340D"
 			tasks: [{
 				id: "55D55CB587056A44"
@@ -2683,8 +3430,11 @@
 			}]
 		}
 		{
+			icon: "atmospheric:smooth_arid_sandstone"
 			x: -10.25d
 			y: -9.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "393B0BA2EF127834"
 			tasks: [{
 				id: "6A76389088885BCD"
@@ -2693,8 +3443,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:cut_sandstone"
 			x: -10.25d
 			y: -8.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2AF7FE4E17CC8638"
 			tasks: [{
 				id: "1EFCE8DCB2BF2764"
@@ -2703,8 +3456,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:end_stone"
 			x: -10.25d
 			y: -7.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0CFE63074A792BFD"
 			tasks: [{
 				id: "7E91E5930AA2055C"
@@ -2713,8 +3469,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:snow_block"
 			x: -10.25d
 			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0C7120D5A6651DDB"
 			tasks: [{
 				id: "3B564941BB757231"
@@ -2723,8 +3482,11 @@
 			}]
 		}
 		{
+			icon: "architects_palette:coarse_snow"
 			x: -10.25d
 			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "18378F12A11FF593"
 			tasks: [{
 				id: "29C899E6A812E8F7"
@@ -2733,8 +3495,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:snowball"
 			x: -10.25d
 			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6CD55D059356678D"
 			tasks: [{
 				id: "662C5494008E1273"
@@ -2743,8 +3508,11 @@
 			}]
 		}
 		{
+			icon: "quark:snow_bricks"
 			x: -10.25d
 			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "076F4234C9ED4818"
 			tasks: [{
 				id: "118AA671E17B0612"
@@ -2753,8 +3521,11 @@
 			}]
 		}
 		{
+			icon: "quark:snow_bricks_slab"
 			x: -10.25d
 			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "793E78549CC3A0EC"
 			tasks: [{
 				id: "4027C8AF9873A86A"
@@ -2763,8 +3534,11 @@
 			}]
 		}
 		{
+			icon: "byg:snowdrops"
 			x: -10.25d
 			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5799CDAA4D8711CD"
 			tasks: [{
 				id: "0D43295A065EDA14"
@@ -2773,8 +3547,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:soul_sand"
 			x: -10.25d
 			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6363BB97D4B9B11A"
 			tasks: [{
 				id: "7A4AF265767657A0"
@@ -2783,8 +3560,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:smooth_stone"
 			x: -10.25d
 			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "212C0D394C9042B0"
 			tasks: [{
 				id: "1202F289BC35AADC"
@@ -2793,8 +3573,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:sunflower"
 			x: -10.25d
 			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "251609EBC5567CBE"
 			tasks: [{
 				id: "4B4493D623AC0F50"
@@ -2803,8 +3586,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:dirt"
 			x: -9.25d
 			y: -10.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "670EBE7438E85AB8"
 			tasks: [{
 				id: "3DF378328C06A139"
@@ -2813,8 +3599,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:coarse_dirt"
 			x: -9.25d
 			y: -9.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6E05D736544F3391"
 			tasks: [{
 				id: "6ABF7AA038FFC401"
@@ -2823,8 +3612,11 @@
 			}]
 		}
 		{
+			icon: "atmospheric:morado_wood"
 			x: -9.25d
 			y: -8.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3EFEB311DC03C532"
 			tasks: [{
 				id: "717C24B9F4614C8F"
@@ -2833,8 +3625,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:polished_diorite"
 			x: -9.25d
 			y: -7.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7AD2A3FBEB40EE5F"
 			tasks: [{
 				id: "4463F934575ADC7D"
@@ -2843,8 +3638,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:birch_wood"
 			x: -9.25d
 			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "29C5B16CF6D66F3C"
 			tasks: [{
 				id: "7881FBFA0EA95FBB"
@@ -2853,8 +3651,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:birch_log"
 			x: -9.25d
 			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "560166A2D1F821F9"
 			tasks: [{
 				id: "588AE936C199F457"
@@ -2863,8 +3664,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:birch_sapling"
 			x: -9.25d
 			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "47811AFE2CF551B5"
 			tasks: [{
 				id: "726E61B434C9C93B"
@@ -2873,8 +3677,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:end_stone"
 			x: -9.25d
 			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "51FD3A2DDD4AB074"
 			tasks: [{
 				id: "7E2FD66DDDA26154"
@@ -2883,8 +3690,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:sea_pickle"
 			x: -9.25d
 			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1EC8DEF4E4BE76A5"
 			tasks: [{
 				id: "694C6185FB8AC9D2"
@@ -2893,8 +3703,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:warped_stem"
 			x: -9.25d
 			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1910AC6E0BA34D37"
 			tasks: [{
 				id: "6A0E5B80E4085D86"
@@ -2903,8 +3716,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:farmland"
 			x: -9.25d
 			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "53F8D97676BF1E18"
 			tasks: [{
 				id: "0FCF35871DB3F30D"
@@ -2913,8 +3729,11 @@
 			}]
 		}
 		{
+			icon: "architects_palette:chiseled_coal_ore_bricks"
 			x: -9.25d
 			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "296E98EF61E12745"
 			tasks: [{
 				id: "3AED1577B2CF0957"
@@ -2923,8 +3742,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:stone"
 			x: -9.25d
 			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "77EAA652BB75FA7F"
 			tasks: [{
 				id: "4390B244911A6B98"
@@ -2933,8 +3755,11 @@
 			}]
 		}
 		{
+			icon: "environmental:tall_dead_bush"
 			x: -3.0d
 			y: 5.25d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "60CFACE6DF7184ED"
 			tasks: [{
 				id: "337F08E73C66884E"
@@ -2943,8 +3768,11 @@
 			}]
 		}
 		{
+			icon: "architects_palette:coarse_snow"
 			x: -2.0d
 			y: 5.25d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2225E720533F9DBE"
 			tasks: [{
 				id: "6BA57488150299D0"
@@ -2953,8 +3781,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:snow"
 			x: -1.0d
 			y: 5.25d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1AD822D399665B47"
 			tasks: [{
 				id: "0DF9E1892A6B1263"
@@ -2963,8 +3794,11 @@
 			}]
 		}
 		{
+			icon: "upgrade_aquatic:fire_coralstone"
 			x: 0.0d
 			y: 5.25d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "09B01E1C2B32C77E"
 			tasks: [{
 				id: "2D7D8627BB11F1BE"
@@ -2973,8 +3807,11 @@
 			}]
 		}
 		{
+			icon: "atmospheric:yucca_flower"
 			x: -3.0d
 			y: 6.25d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "08E261A66442B2A2"
 			tasks: [{
 				id: "08F0D57F2E5D338D"
@@ -2983,8 +3820,11 @@
 			}]
 		}
 		{
+			icon: "undergarden:frozen_deepturf_block"
 			x: -2.0d
 			y: 6.25d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "208E218D4437EEF0"
 			tasks: [{
 				id: "6BA240B5C6167DCF"
@@ -2993,8 +3833,11 @@
 			}]
 		}
 		{
+			icon: "undergarden:frozen_deepturf"
 			x: -1.0d
 			y: 6.25d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "545CDB8D2948F1FB"
 			tasks: [{
 				id: "2F87FFE44B0613C5"
@@ -3003,8 +3846,11 @@
 			}]
 		}
 		{
+			icon: "byg:overgrown_stone"
 			x: 0.0d
 			y: 6.25d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0EC957DD458F720D"
 			tasks: [{
 				id: "1C71C9D4C0348FD9"
@@ -3013,8 +3859,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:lily_pad"
 			x: -3.0d
 			y: 7.25d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4E31F283A1EE7E26"
 			tasks: [{
 				id: "32D370B18372B790"
@@ -3023,8 +3872,11 @@
 			}]
 		}
 		{
+			icon: "atmospheric:kousa_wood"
 			x: -2.0d
 			y: 7.25d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "679F82ACE01CE527"
 			tasks: [{
 				id: "689A0FDB23B7D651"
@@ -3033,8 +3885,11 @@
 			}]
 		}
 		{
+			icon: "atmospheric:chiseled_red_arid_sandstone"
 			x: -1.0d
 			y: 7.25d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "30D46D01DE622307"
 			tasks: [{
 				id: "4E38FBE35E478F2F"
@@ -3043,8 +3898,11 @@
 			}]
 		}
 		{
+			icon: "quark:snow_bricks"
 			x: 0.0d
 			y: 7.25d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "367BBC482C228F83"
 			tasks: [{
 				id: "3C787A950727A1A3"
@@ -3053,8 +3911,11 @@
 			}]
 		}
 		{
+			icon: "architects_palette:coarse_snow"
 			x: -3.0d
 			y: 8.25d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0766B293636E6037"
 			tasks: [{
 				id: "4B55608AA85EA865"
@@ -3063,8 +3924,11 @@
 			}]
 		}
 		{
+			icon: "create:limestone"
 			x: -2.0d
 			y: 8.25d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7CE57BA954EA1E47"
 			tasks: [{
 				id: "478C9A243BBFD4BD"
@@ -3073,8 +3937,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:stone"
 			x: -1.0d
 			y: 8.25d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7804C843A1039288"
 			tasks: [{
 				id: "34234CFC7FA16D72"
@@ -3083,8 +3950,11 @@
 			}]
 		}
 		{
+			icon: "dustrial_decor:cardboard_scrap"
 			x: 0.0d
 			y: 8.25d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3F4B6CCE605AE10C"
 			tasks: [{
 				id: "6E74B03B899D3A9D"
@@ -3093,8 +3963,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:sand"
 			x: -3.0d
 			y: 4.25d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6E491D1DA4C41383"
 			tasks: [{
 				id: "765FF3473438DF57"
@@ -3106,6 +3979,8 @@
 			icon: "undergarden:ink_mushroom"
 			x: 5.0d
 			y: 4.25d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "02EAF1F6F7ED4A32"
 			tasks: [{
 				id: "61D9AF473143FDB3"
@@ -3117,6 +3992,8 @@
 			icon: "undergarden:tall_shimmerweed"
 			x: 6.0d
 			y: 4.25d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0844B202E45E0A01"
 			tasks: [{
 				id: "6145F6E7865A65C4"
@@ -3128,6 +4005,8 @@
 			icon: "undergarden:depthrock_pebbles"
 			x: 7.0d
 			y: 4.25d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "04D1C44F59CA4A23"
 			tasks: [{
 				id: "6922EBC3ABB7E4B9"
@@ -3139,6 +4018,8 @@
 			icon: "undergarden:shimmerweed"
 			x: 5.0d
 			y: 5.25d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6E72C3050C480B07"
 			tasks: [{
 				id: "72CD3251284F8098"
@@ -3150,6 +4031,8 @@
 			icon: "undergarden:glowing_kelp"
 			x: 6.0d
 			y: 5.25d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "69E3A17332BCDAD7"
 			tasks: [{
 				id: "018A8DBD2142E733"
@@ -3161,6 +4044,8 @@
 			icon: "undergarden:blood_mushroom_globule"
 			x: 7.0d
 			y: 5.25d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "134508F7DBC93B2A"
 			tasks: [{
 				id: "385924B336FEE9EA"
@@ -3172,6 +4057,8 @@
 			icon: "undergarden:smog_vent"
 			x: 5.0d
 			y: 6.25d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "61F825284B43B061"
 			tasks: [{
 				id: "4A35CB248521A76D"
@@ -3183,6 +4070,8 @@
 			icon: "undergarden:smogstem_sapling"
 			x: 6.0d
 			y: 6.25d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5C212B55D6697AD2"
 			tasks: [{
 				id: "33D1F510C307161E"
@@ -3194,6 +4083,8 @@
 			icon: "undergarden:wigglewood_sapling"
 			x: 7.0d
 			y: 6.25d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "18196B6967F9DCFA"
 			tasks: [{
 				id: "3051489740D0FEAC"
@@ -3202,8 +4093,11 @@
 			}]
 		}
 		{
+			icon: "architects_palette:coarse_snow"
 			x: 11.75d
 			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "48B4601ABA48BFA1"
 			tasks: [{
 				id: "78A481981E4C3442"
@@ -3212,8 +4106,11 @@
 			}]
 		}
 		{
+			icon: "atmospheric:grimwood_log"
 			x: 12.75d
 			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3F9B929DE16EE15D"
 			tasks: [{
 				id: "5D177236F594812A"
@@ -3222,8 +4119,11 @@
 			}]
 		}
 		{
+			icon: "atmospheric:stripped_grimwood_log"
 			x: 13.75d
 			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5A018402F081B22C"
 			tasks: [{
 				id: "781F9B20BC2A8875"
@@ -3232,8 +4132,11 @@
 			}]
 		}
 		{
+			icon: "upgrade_aquatic:white_searocket"
 			x: 14.75d
 			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "08AB1CD5DAF05E6F"
 			tasks: [{
 				id: "2CADD2FB66201F1E"
@@ -3242,8 +4145,11 @@
 			}]
 		}
 		{
+			icon: "byg:baobab_sapling"
 			x: 15.75d
 			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7CCBBFB9D1EC97AB"
 			tasks: [{
 				id: "7DE1FC21F5CDEB41"
@@ -3252,8 +4158,11 @@
 			}]
 		}
 		{
+			icon: "quark:blue_blossom_sapling"
 			x: 11.75d
 			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2364F5703B0E6A0E"
 			tasks: [{
 				id: "19324DD982F17A0D"
@@ -3262,8 +4171,11 @@
 			}]
 		}
 		{
+			icon: "quark:lavender_blossom_sapling"
 			x: 12.75d
 			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6AB07A6011E50F38"
 			tasks: [{
 				id: "43F1C87829677F94"
@@ -3272,8 +4184,11 @@
 			}]
 		}
 		{
+			icon: "quark:orange_blossom_sapling"
 			x: 13.75d
 			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5FC4B57057D737FB"
 			tasks: [{
 				id: "15ED3EB83C2C2B10"
@@ -3282,8 +4197,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:crimson_nylium"
 			x: 14.75d
 			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "08C9965189369CB7"
 			tasks: [{
 				id: "450666AB35D21DC5"
@@ -3292,8 +4210,11 @@
 			}]
 		}
 		{
+			icon: "betterendforge:crystal_moss"
 			x: 15.75d
 			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7CD14DD8CB1C2316"
 			tasks: [{
 				id: "335F7F9B8ADF19FD"
@@ -3302,8 +4223,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:sand"
 			x: 11.75d
 			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "54D5C5A0F41F8F90"
 			tasks: [{
 				id: "5EAF97ED43BBD06B"
@@ -3312,8 +4236,11 @@
 			}]
 		}
 		{
+			icon: "environmental:white_lotus_flower"
 			x: 12.75d
 			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5A0DC63717B11AFD"
 			tasks: [{
 				id: "239D09897919D5E5"
@@ -3322,8 +4249,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:gravel"
 			x: 13.75d
 			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "55C82B026221E9E9"
 			tasks: [{
 				id: "2C8EA2C5E7F8C343"
@@ -3332,8 +4262,11 @@
 			}]
 		}
 		{
+			icon: "byg:stripped_mangrove_log"
 			x: 14.75d
 			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3D63C52F7A1D4029"
 			tasks: [{
 				id: "2C8203CB5D1486F8"
@@ -3345,6 +4278,8 @@
 			icon: "minecraft:coarse_dirt"
 			x: 15.75d
 			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5DD5D52135FD5505"
 			tasks: [{
 				id: "7B2C766DD839C3B8"
@@ -3353,8 +4288,11 @@
 			}]
 		}
 		{
+			icon: "architects_palette:overgrown_algal_bricks"
 			x: 11.75d
 			y: 6.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "61C3805DFDFCC48D"
 			tasks: [{
 				id: "6D114A84C34AD386"
@@ -3363,8 +4301,11 @@
 			}]
 		}
 		{
+			icon: "byg:pine_wood"
 			x: 12.75d
 			y: 6.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "64567210E5F46B06"
 			tasks: [{
 				id: "5C78F8EB05BD8977"
@@ -3373,8 +4314,11 @@
 			}]
 		}
 		{
+			icon: "byg:california_poppy"
 			x: 13.75d
 			y: 6.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4E8F9E16F1F32A45"
 			tasks: [{
 				id: "6B0B2DE782BA871F"
@@ -3383,8 +4327,11 @@
 			}]
 		}
 		{
+			icon: "upgrade_aquatic:dead_rock_coral_fan"
 			x: 14.75d
 			y: 6.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4876CB30584678C7"
 			tasks: [{
 				id: "1CD2ACE0E27FC136"
@@ -3393,8 +4340,11 @@
 			}]
 		}
 		{
+			icon: "byg:redwood_leaves"
 			x: 15.75d
 			y: 6.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6FA7A702A7D146BD"
 			tasks: [{
 				id: "33FD26E786487970"
@@ -3403,8 +4353,11 @@
 			}]
 		}
 		{
+			icon: "byg:redwood_sapling"
 			x: 11.75d
 			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1BA6E4A1A3F6754F"
 			tasks: [{
 				id: "7D199DAB080DB3AC"
@@ -3413,8 +4366,11 @@
 			}]
 		}
 		{
+			icon: "botania:podzol_seeds"
 			x: 12.75d
 			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "50B21E08A1FBDAA6"
 			tasks: [{
 				id: "538C753FD4E6AE74"
@@ -3423,8 +4379,11 @@
 			}]
 		}
 		{
+			icon: "byg:redwood_wood"
 			x: 13.75d
 			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "76ADF74D684BA376"
 			tasks: [{
 				id: "7AD87D805F5C0C73"
@@ -3433,8 +4392,11 @@
 			}]
 		}
 		{
+			icon: "minecraft:mossy_stone_bricks"
 			x: 14.75d
 			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5D64BEBF684B52BB"
 			tasks: [{
 				id: "4FEAEEBC1C2F9E2F"
@@ -3446,6 +4408,8 @@
 			icon: "projectvibrantjourneys:coconut"
 			x: 15.75d
 			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1527CBFAC0B49076"
 			tasks: [{
 				id: "63C6F01DA41CDEF4"
@@ -3454,8 +4418,11 @@
 			}]
 		}
 		{
+			icon: "byg:flowering_palo_verde_leaves"
 			x: 11.75d
 			y: 8.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5878618A93900DFB"
 			tasks: [{
 				id: "770B60C01397CC97"
@@ -3464,8 +4431,11 @@
 			}]
 		}
 		{
+			icon: "environmental:willow_sapling"
 			x: 12.75d
 			y: 8.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "20D76AAF99A6025F"
 			tasks: [{
 				id: "7646F32732E8BABF"
@@ -3474,8 +4444,11 @@
 			}]
 		}
 		{
+			icon: "supplementaries:wind_vane"
 			x: 13.75d
 			y: 8.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0F2BEE82DBE83FBF"
 			tasks: [{
 				id: "4C5B1587F12388D7"
@@ -3484,8 +4457,11 @@
 			}]
 		}
 		{
+			icon: "architects_palette:acacia_totem_wing"
 			x: 14.75d
 			y: 8.0d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "056429C7979DE24E"
 			tasks: [{
 				id: "474033A49881DC8B"
@@ -3495,13 +4471,105 @@
 		}
 		{
 			icon: "byg:overgrown_stone"
-			x: 24.75d
-			y: -4.75d
+			x: 7.75d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "74D26F00A22ED50E"
 			tasks: [{
 				id: "5891455CE9EFFCD3"
 				type: "biome"
 				biome: "byg:guiana_springs"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.25d
+			shape: "hexagon"
+			dependencies: ["3F89C1FE81B0CF9E"]
+			id: "55A1B520C4AB7A8C"
+			tasks: [{
+				id: "5BDCCD7B2D798F18"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4B30DAB2695B5726"
+				type: "item"
+				item: "atmospheric:aloe_leaves"
+				count: 4
+			}]
+		}
+		{
+			icon: "waystones:waystone"
+			x: 0.0d
+			y: -2.25d
+			shape: "octagon"
+			dependencies: ["3F89C1FE81B0CF9E"]
+			id: "0C6C8EEA525B1E98"
+			tasks: [{
+				id: "548591A6FDEBBC19"
+				type: "item"
+				title: "Waystone"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "waystones:waystone"
+								Count: 1b
+							}
+							{
+								id: "waystones:mossy_waystone"
+								Count: 1b
+							}
+							{
+								id: "waystones:sandy_waystone"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "5EB0368C1F400EBE"
+				type: "item"
+				item: "waystones:portstone"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.25d
+			shape: "hexagon"
+			dependencies: [
+				"3441111B8198CC9D"
+				"3F89C1FE81B0CF9E"
+			]
+			id: "607038F8C91DC55C"
+			tasks: [{
+				id: "44294B3AA706FF94"
+				type: "item"
+				item: {
+					id: "explorerscompass:explorerscompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "47973094DAC145AB"
+				type: "item"
+				item: {
+					id: "quark:forgotten_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 	]

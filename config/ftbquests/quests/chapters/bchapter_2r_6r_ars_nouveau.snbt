@@ -103,6 +103,12 @@
 				type: "item"
 				item: "ars_nouveau:mythical_clay"
 			}]
+			rewards: [{
+				id: "107042781C0E87F2"
+				type: "item"
+				item: "emendatusenigmatica:arcane_gem"
+				random_bonus: 3
+			}]
 		}
 		{
 			title: "Marvelous Spells"
@@ -266,6 +272,11 @@
 				id: "607CBCDF5D28777A"
 				type: "item"
 				item: "ars_nouveau:marvelous_clay"
+			}]
+			rewards: [{
+				id: "415149EB9E6DA576"
+				type: "random"
+				table_id: 7001957974459087103L
 			}]
 		}
 		{
@@ -445,6 +456,12 @@
 				id: "59967F2C7D7CC53F"
 				type: "item"
 				item: "ars_nouveau:magic_clay"
+			}]
+			rewards: [{
+				id: "3B6D7989FB13B20C"
+				type: "item"
+				item: "extendedcrafting:redstone_ingot"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -650,6 +667,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5D42277363E41989"
+				type: "random"
+				table_id: 7001957974459087103L
+			}]
 		}
 		{
 			x: -0.5d
@@ -669,6 +691,12 @@
 						spells: ",touch,harm,break,self,projectile"
 					}
 				}
+			}]
+			rewards: [{
+				id: "7EA3263D024494F8"
+				type: "item"
+				item: "emendatusenigmatica:arcane_gem"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -690,6 +718,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3BC53249B843A46D"
+				type: "random"
+				table_id: 7001957974459087103L
+			}]
 		}
 		{
 			x: -2.5d
@@ -709,6 +742,11 @@
 						spells: ",touch,harm,break,self,projectile"
 					}
 				}
+			}]
+			rewards: [{
+				id: "24CE833D064111F2"
+				type: "item"
+				item: "minecraft:nether_star"
 			}]
 		}
 		{
@@ -756,6 +794,11 @@
 				type: "item"
 				item: "ars_nouveau:volcanic_accumulator"
 			}]
+			rewards: [{
+				id: "538A805B1B6305A7"
+				type: "random"
+				table_id: 7001957974459087103L
+			}]
 		}
 		{
 			x: 6.25d
@@ -769,6 +812,11 @@
 				id: "0A1BCC0A5CE37B2B"
 				type: "item"
 				item: "ars_nouveau:mana_condenser"
+			}]
+			rewards: [{
+				id: "3C31AA12ECDDDC7D"
+				type: "random"
+				table_id: 7001957974459087103L
 			}]
 		}
 		{
@@ -784,6 +832,11 @@
 				type: "item"
 				item: "ars_nouveau:mycelial_sourcelink"
 			}]
+			rewards: [{
+				id: "66CD8012C68EFD00"
+				type: "random"
+				table_id: 7001957974459087103L
+			}]
 		}
 		{
 			x: 7.25d
@@ -798,6 +851,11 @@
 				type: "item"
 				item: "ars_nouveau:vitalic_sourcelink"
 			}]
+			rewards: [{
+				id: "05B8CEA1446C1E76"
+				type: "random"
+				table_id: 7001957974459087103L
+			}]
 		}
 		{
 			x: 7.25d
@@ -811,6 +869,11 @@
 				id: "48F5296D4451B448"
 				type: "item"
 				item: "ars_nouveau:alchemical_sourcelink"
+			}]
+			rewards: [{
+				id: "4401309C1BA1A0D4"
+				type: "random"
+				table_id: 7001957974459087103L
 			}]
 		}
 		{
@@ -838,6 +901,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0F5440BC0C34F47D"
+				type: "choice"
+				table_id: 7001957974459087103L
+			}]
 		}
 		{
 			x: 3.25d
@@ -850,6 +918,12 @@
 				id: "20D75F6AAAF3CA68"
 				type: "item"
 				item: "ars_nouveau:mana_jar"
+			}]
+			rewards: [{
+				id: "6C1F9E11952DB0DE"
+				type: "item"
+				item: "tconstruct:clear_glass"
+				random_bonus: 6
 			}]
 		}
 		{
@@ -866,6 +940,12 @@
 				item: "ars_nouveau:arcane_stone"
 				count: 8L
 			}]
+			rewards: [{
+				id: "4E302A57FDA16424"
+				type: "item"
+				item: "emendatusenigmatica:arcane_gem"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 2.5d
@@ -876,11 +956,18 @@
 				"Then, use the reagent provided on the press. If there is enough source nearby, the press will begin crafting. &5Mana&r can be provided by a nearby &#c69c6dSource Jar&r. The glyph press may be automated using &eHoppers&r. A hopper from any side will place &bClay&r, while a hopper from the top can insert the reagant the clay. If there is enough source nearby, the crafting will start automatically."
 			]
 			dependencies: ["2C180B990E4CCEC3"]
+			min_width: 350
 			id: "120CD537BDE5EAAD"
 			tasks: [{
 				id: "774870F62D6F3E8A"
 				type: "item"
 				item: "ars_nouveau:glyph_press"
+			}]
+			rewards: [{
+				id: "615EA9B1C0F107B4"
+				type: "item"
+				item: "ars_nouveau:arcane_stone"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -923,6 +1010,11 @@
 					item: "ars_nouveau:arcane_relay_splitter"
 				}
 			]
+			rewards: [{
+				id: "7484E4E2AAE71CD2"
+				type: "random"
+				table_id: 7001957974459087103L
+			}]
 		}
 		{
 			x: -0.5d
@@ -936,12 +1028,21 @@
 				type: "item"
 				item: "arsarsenal:source_steel_ingot"
 			}]
+			rewards: [{
+				id: "1D4038489461D5BA"
+				type: "random"
+				table_id: 7001957974459087103L
+			}]
 		}
 		{
 			title: "Enchanting Apparatus"
 			x: -0.5d
 			y: 4.25d
 			subtitle: "A New Way Of Crafting"
+			description: [
+				"The &6&lEnchanting Appartus&r is a new way of crafting brought by &dArs Nouveau&r. "
+				"There are 5 main items that you can craft with this new method ! "
+			]
 			dependencies: ["2C180B990E4CCEC3"]
 			id: "0F5064AAAA97F693"
 			tasks: [
@@ -962,6 +1063,11 @@
 					item: "ars_nouveau:enchanting_apparatus"
 				}
 			]
+			rewards: [{
+				id: "2A69B2C137A92B56"
+				type: "random"
+				table_id: 7001957974459087103L
+			}]
 		}
 		{
 			title: "Automatic Compound Infuser I/O"
@@ -999,6 +1105,12 @@
 				type: "item"
 				item: "ars_nouveau:ritual"
 			}]
+			rewards: [{
+				id: "045BA2F26834B2CD"
+				type: "item"
+				item: "emendatusenigmatica:brass_ingot"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 0.75d
@@ -1033,6 +1145,11 @@
 					item: "ars_nouveau:drygmy_charm"
 				}
 			]
+			rewards: [{
+				id: "3EFD7BE473E9257C"
+				type: "random"
+				table_id: 7001957974459087103L
+			}]
 		}
 		{
 			x: 0.75d
@@ -1054,6 +1171,11 @@
 					count: 3L
 				}
 			]
+			rewards: [{
+				id: "2487350DDCBB23EA"
+				type: "random"
+				table_id: 7001957974459087103L
+			}]
 		}
 	]
 }

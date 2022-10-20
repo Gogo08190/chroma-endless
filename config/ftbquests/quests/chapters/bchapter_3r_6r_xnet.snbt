@@ -20,6 +20,11 @@
 				type: "item"
 				item: "xnet:antenna_dish"
 			}]
+			rewards: [{
+				id: "016611FF23D5D43C"
+				type: "item"
+				item: "xnet:antenna_dish"
+			}]
 		}
 		{
 			x: -0.75d
@@ -33,6 +38,11 @@
 				type: "item"
 				item: "xnet:antenna_base"
 			}]
+			rewards: [{
+				id: "4EA3F6DCB710AE4C"
+				type: "item"
+				item: "xnet:antenna_base"
+			}]
 		}
 		{
 			x: -0.25d
@@ -43,6 +53,11 @@
 			id: "6FED5234887A2287"
 			tasks: [{
 				id: "676606AF92B577F6"
+				type: "item"
+				item: "xnet:antenna"
+			}]
+			rewards: [{
+				id: "10CE78383DB2F1AC"
 				type: "item"
 				item: "xnet:antenna"
 			}]
@@ -83,6 +98,13 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3CA414CB4B57F4C3"
+				type: "item"
+				item: "xnet:advanced_connector_blue"
+				count: 6
+				random_bonus: 10
+			}]
 		}
 		{
 			x: 0.25d
@@ -94,6 +116,13 @@
 				id: "07C8A8B3E374F997"
 				type: "item"
 				item: "xnet:advanced_connector_routing"
+			}]
+			rewards: [{
+				id: "095AEA9592EBF902"
+				type: "item"
+				item: "xnet:advanced_connector_routing"
+				count: 6
+				random_bonus: 10
 			}]
 		}
 		{
@@ -107,6 +136,13 @@
 				id: "582F01AA45A975AB"
 				type: "item"
 				item: "xnet:connector_routing"
+			}]
+			rewards: [{
+				id: "4115C6207DEF4F36"
+				type: "item"
+				item: "xnet:connector_routing"
+				count: 6
+				random_bonus: 10
 			}]
 		}
 		{
@@ -150,6 +186,13 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "29309DED78C49FD7"
+				type: "item"
+				item: "xnet:connector_blue"
+				count: 6
+				random_bonus: 10
+			}]
 		}
 		{
 			x: -1.75d
@@ -162,6 +205,13 @@
 				id: "2294C1C3B0133C7F"
 				type: "item"
 				item: "xnet:netcable_routing"
+			}]
+			rewards: [{
+				id: "1157D695FE95E49D"
+				type: "item"
+				item: "xnet:netcable_routing"
+				count: 6
+				random_bonus: 10
 			}]
 		}
 		{
@@ -200,6 +250,13 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5C37DC6CC3356F41"
+				type: "item"
+				item: "xnet:netcable_blue"
+				count: 6
+				random_bonus: 10
+			}]
 		}
 		{
 			x: -1.75d
@@ -221,6 +278,11 @@
 				type: "item"
 				item: "xnet:controller"
 			}]
+			rewards: [{
+				id: "46E0B8B7B917E315"
+				type: "item"
+				item: "xnet:controller"
+			}]
 		}
 		{
 			x: -0.75d
@@ -236,6 +298,13 @@
 				id: "106AE40177055671"
 				type: "item"
 				item: "xnet:facade"
+			}]
+			rewards: [{
+				id: "0441918BA07DC6B9"
+				type: "item"
+				item: "xnet:facade"
+				count: 6
+				random_bonus: 10
 			}]
 		}
 		{
@@ -277,6 +346,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "758092321A80D0E8"
+				type: "item"
+				item: "xnet:router"
+			}]
 		}
 		{
 			x: -0.75d
@@ -292,6 +366,11 @@
 			id: "3D9EAE5C80C31F67"
 			tasks: [{
 				id: "284CD41307F92069"
+				type: "item"
+				item: "kubejs:xnet_machine_frame"
+			}]
+			rewards: [{
+				id: "4FBCF7AC61E5435B"
 				type: "item"
 				item: "kubejs:xnet_machine_frame"
 			}]

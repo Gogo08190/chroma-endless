@@ -28,6 +28,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "484E83386AF07BA7"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			title: "&#80B425Uranium&r"
@@ -52,6 +57,13 @@
 				title: "&#80B425Uranium Ingot&r"
 				item: "emendatusenigmatica:uranium_ingot"
 			}]
+			rewards: [{
+				id: "4F00669303BF41DA"
+				type: "item"
+				item: "emendatusenigmatica:uranium_ingot"
+				count: 2
+				random_bonus: 4
+			}]
 		}
 		{
 			title: "&#4B4E53Graphite&r"
@@ -67,6 +79,13 @@
 				type: "item"
 				title: "&#4B4E53Graphite Bar&r"
 				item: "bigreactors:graphite_ingot"
+			}]
+			rewards: [{
+				id: "06AB9EFDC4AF7405"
+				type: "item"
+				item: "bigreactors:graphite_ingot"
+				count: 4
+				random_bonus: 6
 			}]
 		}
 		{
@@ -85,6 +104,11 @@
 				title: "&6Extreme Wrench&r"
 				item: "bigreactors:wrench"
 			}]
+			rewards: [{
+				id: "5C109A6F1272C8DC"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: -5.25d
@@ -100,6 +124,13 @@
 				title: "&#4B4E53Basic Reactor Casing&r"
 				item: "bigreactors:basic_reactorcasing"
 			}]
+			rewards: [{
+				id: "7460DD06BFD02FA4"
+				type: "item"
+				item: "bigreactors:basic_reactorcasing"
+				count: 3
+				random_bonus: 4
+			}]
 		}
 		{
 			x: -3.25d
@@ -111,6 +142,13 @@
 				type: "item"
 				title: "&#505050Reinforced Reactor Casing&r"
 				item: "bigreactors:reinforced_reactorcasing"
+			}]
+			rewards: [{
+				id: "6FED47F1FBB1C5CB"
+				type: "item"
+				item: "bigreactors:reinforced_reactorcasing"
+				count: 2
+				random_bonus: 3
 			}]
 		}
 		{
@@ -129,6 +167,13 @@
 				title: "&#505050Reinforced Reactor Controller&r"
 				item: "bigreactors:reinforced_reactorcontroller"
 			}]
+			rewards: [{
+				id: "029546C7F78E8401"
+				type: "item"
+				item: "bigreactors:graphite_ingot"
+				count: 4
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 1.25d
@@ -144,6 +189,12 @@
 				type: "item"
 				title: "&#505050Reinforced Reactor Glass&r"
 				item: "bigreactors:reinforced_reactorglass"
+			}]
+			rewards: [{
+				id: "2A9447F2C4666C7F"
+				type: "item"
+				item: "bigreactors:reinforced_reactorglass"
+				count: 3
 			}]
 		}
 		{
@@ -167,6 +218,12 @@
 					item: "bigreactors:reinforced_reactorpowertapfe_passive"
 				}
 			]
+			rewards: [{
+				id: "7B907D14D6A571E9"
+				type: "item"
+				item: "bigreactors:graphite_ingot"
+				count: 4
+			}]
 		}
 		{
 			x: 1.25d
@@ -179,6 +236,12 @@
 				title: "&#505050Reinforced Control Rod&r"
 				item: "bigreactors:reinforced_reactorcontrolrod"
 			}]
+			rewards: [{
+				id: "0BFFF278D25FEFAE"
+				type: "item"
+				item: "bigreactors:graphite_ingot"
+				count: 4
+			}]
 		}
 		{
 			x: 1.75d
@@ -189,6 +252,11 @@
 				id: "2507E5225753ADC7"
 				type: "item"
 				title: "&#505050Reinforced Fuel Rod&r"
+				item: "bigreactors:reinforced_reactorfuelrod"
+			}]
+			rewards: [{
+				id: "3921281BB22FE872"
+				type: "item"
 				item: "bigreactors:reinforced_reactorfuelrod"
 			}]
 		}
@@ -209,6 +277,12 @@
 				type: "item"
 				title: "&#505050Reinforced Passive Mekanism Fluid Port&r"
 				item: "bigreactors:reinforced_reactorfluidport_mekanism_passive"
+			}]
+			rewards: [{
+				id: "572DD69A8B94F54C"
+				type: "item"
+				item: "bigreactors:graphite_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -237,6 +311,12 @@
 					item: "bigreactors:reinforced_reactorfluidport_forge_passive"
 				}
 			]
+			rewards: [{
+				id: "5C2AC87541099E54"
+				type: "item"
+				item: "bigreactors:graphite_ingot"
+				count: 4
+			}]
 		}
 		{
 			x: 2.0d
@@ -251,6 +331,12 @@
 				type: "item"
 				title: "&#505050Reinforced Solid Access Port&r"
 				item: "bigreactors:reinforced_reactorsolidaccessport"
+			}]
+			rewards: [{
+				id: "4B70480112B6F9EF"
+				type: "item"
+				item: "bigreactors:graphite_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -269,6 +355,12 @@
 				title: "&#505050Reinforced Computer Port&r"
 				item: "bigreactors:reinforced_reactorcomputerport"
 			}]
+			rewards: [{
+				id: "13D76F12DA5310F2"
+				type: "item"
+				item: "bigreactors:graphite_ingot"
+				count: 4
+			}]
 		}
 		{
 			x: 3.0d
@@ -284,6 +376,12 @@
 				type: "item"
 				title: "&#505050Reinforced Reactor Port&r"
 				item: "bigreactors:reinforced_reactorredstoneport"
+			}]
+			rewards: [{
+				id: "24771F5A58A91263"
+				type: "item"
+				item: "bigreactors:graphite_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -302,6 +400,12 @@
 				title: "&#505050Reinforced Energy Charging Port&r"
 				item: "bigreactors:reinforced_reactorchargingportfe"
 			}]
+			rewards: [{
+				id: "66D8D1760C5287B5"
+				type: "item"
+				item: "bigreactors:graphite_ingot"
+				count: 4
+			}]
 		}
 		{
 			x: 2.25d
@@ -314,6 +418,12 @@
 				type: "item"
 				title: "&#505050Reinforced Fuel Injection Port&r"
 				item: "bigreactors:reinforced_reactorfluidaccessport"
+			}]
+			rewards: [{
+				id: "60583522CC75CA23"
+				type: "item"
+				item: "bigreactors:graphite_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -329,6 +439,11 @@
 				title: "&#F3CD5FAnglesite (PbSO4)&r"
 				item: "bigreactors:anglesite_crystal"
 			}]
+			rewards: [{
+				id: "52175FC5FA95418F"
+				type: "item"
+				item: "bigreactors:anglesite_crystal"
+			}]
 		}
 		{
 			title: "&#680018Cryomisi&r"
@@ -340,6 +455,11 @@
 				id: "478AE605D1784CC7"
 				type: "item"
 				title: "&#680018Cryomisi Bucket&r"
+				item: "bigreactors:cryomisi_bucket"
+			}]
+			rewards: [{
+				id: "1CC5601ECD6C1A36"
+				type: "item"
 				item: "bigreactors:cryomisi_bucket"
 			}]
 		}
@@ -358,6 +478,11 @@
 				title: "&#4F2C1FTangerium Bucket&r"
 				item: "bigreactors:tangerium_bucket"
 			}]
+			rewards: [{
+				id: "66268C78E7B878E5"
+				type: "item"
+				item: "bigreactors:tangerium_bucket"
+			}]
 		}
 		{
 			title: "&#80B425Liquid Uranium&r"
@@ -369,6 +494,11 @@
 				id: "16769186BB90FADF"
 				type: "item"
 				title: "&#80B425Yellorium Bucket&r"
+				item: "bigreactors:yellorium_bucket"
+			}]
+			rewards: [{
+				id: "4EA9C0253CD80292"
+				type: "item"
 				item: "bigreactors:yellorium_bucket"
 			}]
 		}
@@ -388,6 +518,11 @@
 				title: "&#1D1DB4Blutonium Bucket&r"
 				item: "bigreactors:blutonium_bucket"
 			}]
+			rewards: [{
+				id: "100C37CA0BCFDDC6"
+				type: "item"
+				item: "bigreactors:blutonium_bucket"
+			}]
 		}
 		{
 			title: "&#3E6D60Redfrigium&r"
@@ -402,6 +537,11 @@
 				id: "09D96911D6C55D87"
 				type: "item"
 				title: "&#3E6D60Redfrigium Bucket&r"
+				item: "bigreactors:redfrigium_bucket"
+			}]
+			rewards: [{
+				id: "4296A71E775BE016"
+				type: "item"
 				item: "bigreactors:redfrigium_bucket"
 			}]
 		}
@@ -421,6 +561,11 @@
 				title: "&#009C00Verderium Bucket&r"
 				item: "bigreactors:verderium_bucket"
 			}]
+			rewards: [{
+				id: "001880A6B144B963"
+				type: "item"
+				item: "bigreactors:verderium_bucket"
+			}]
 		}
 		{
 			title: "&#6A0000Rossinite&r"
@@ -433,6 +578,11 @@
 				id: "0C811932095A93F8"
 				type: "item"
 				title: "&#6A0000Rossinite Bucket&r"
+				item: "bigreactors:rossinite_bucket"
+			}]
+			rewards: [{
+				id: "67121929F74AA093"
+				type: "item"
 				item: "bigreactors:rossinite_bucket"
 			}]
 		}
@@ -454,6 +604,11 @@
 				title: "&#F53389Inanite Ingot&r"
 				item: "bigreactors:inanite_ingot"
 			}]
+			rewards: [{
+				id: "3307A0828BCE24AE"
+				type: "item"
+				item: "bigreactors:inanite_ingot"
+			}]
 		}
 		{
 			title: "&#D2B8D5Ridiculite&r"
@@ -471,6 +626,11 @@
 				id: "287301CEFE0F4AB2"
 				type: "item"
 				title: "&#D2B8D5Ridiculite Ingot&r"
+				item: "bigreactors:ridiculite_ingot"
+			}]
+			rewards: [{
+				id: "59323540B32133FA"
+				type: "item"
 				item: "bigreactors:ridiculite_ingot"
 			}]
 		}
@@ -492,6 +652,11 @@
 				title: "&#7D08AFLudicrite Ingot&r"
 				item: "bigreactors:ludicrite_ingot"
 			}]
+			rewards: [{
+				id: "6149E56DADE1F3D4"
+				type: "item"
+				item: "bigreactors:ludicrite_ingot"
+			}]
 		}
 		{
 			title: "&#1D1DB4Blutonium&r"
@@ -506,6 +671,11 @@
 				id: "5AE09A771BA1D679"
 				type: "item"
 				title: "&#1D1DB4Blutonium Ingot&r"
+				item: "bigreactors:blutonium_ingot"
+			}]
+			rewards: [{
+				id: "06BF5D7062A3E3E6"
+				type: "item"
 				item: "bigreactors:blutonium_ingot"
 			}]
 		}
@@ -527,6 +697,11 @@
 				title: "&#EA26EAMagentite Ingot&r"
 				item: "bigreactors:magentite_ingot"
 			}]
+			rewards: [{
+				id: "615579F85C56BC91"
+				type: "item"
+				item: "bigreactors:magentite_ingot"
+			}]
 		}
 		{
 			title: "&#EA26EALiquid Magentite&r"
@@ -540,6 +715,11 @@
 			id: "44D3AC1068B07EAE"
 			tasks: [{
 				id: "1F4FCDE3D36C801A"
+				type: "item"
+				item: "bigreactors:magentite_bucket"
+			}]
+			rewards: [{
+				id: "68C57C0F5200F36A"
 				type: "item"
 				item: "bigreactors:magentite_bucket"
 			}]
@@ -558,6 +738,11 @@
 				type: "item"
 				item: "bigreactors:cyanite_bucket"
 			}]
+			rewards: [{
+				id: "3E6904CC51522674"
+				type: "item"
+				item: "bigreactors:cyanite_bucket"
+			}]
 		}
 		{
 			x: -1.5d
@@ -573,6 +758,13 @@
 				type: "item"
 				title: "&#435548Reprocessor Glass&r"
 				item: "bigreactors:reprocessorglass"
+			}]
+			rewards: [{
+				id: "7C53808F4C3D3C81"
+				type: "item"
+				item: "bigreactors:reprocessorglass"
+				count: 2
+				random_bonus: 2
 			}]
 		}
 		{
@@ -625,6 +817,11 @@
 				title: "&#435548Fluid Injector&r"
 				item: "bigreactors:reprocessorfluidinjector"
 			}]
+			rewards: [{
+				id: "51D253A616DFC774"
+				type: "item"
+				item: "bigreactors:reprocessorcasing"
+			}]
 		}
 		{
 			x: -7.0d
@@ -636,6 +833,11 @@
 				type: "item"
 				title: "&#435548Waste Injector&r"
 				item: "bigreactors:reprocessorwasteinjector"
+			}]
+			rewards: [{
+				id: "6DB24180DD9BC8AF"
+				type: "item"
+				item: "bigreactors:reprocessorcasing"
 			}]
 		}
 		{
@@ -650,6 +852,12 @@
 				type: "item"
 				title: "&#435548Reprocessor Controller&r"
 				item: "bigreactors:reprocessorcontroller"
+			}]
+			rewards: [{
+				id: "58EDC2A72BD9EAAD"
+				type: "item"
+				item: "bigreactors:reprocessorcasing"
+				count: 2
 			}]
 		}
 		{
@@ -666,6 +874,13 @@
 				type: "item"
 				title: "&#435548Reprocessor Casing&r"
 				item: "bigreactors:reprocessorcasing"
+			}]
+			rewards: [{
+				id: "1ECC15D669C42DBD"
+				type: "item"
+				item: "bigreactors:reprocessorcasing"
+				count: 2
+				random_bonus: 4
 			}]
 		}
 		{
@@ -686,6 +901,11 @@
 				title: "&#97E9FFCyanite Ingot&r"
 				item: "bigreactors:cyanite_ingot"
 			}]
+			rewards: [{
+				id: "0340C3F5677735A9"
+				type: "item"
+				item: "bigreactors:cyanite_ingot"
+			}]
 		}
 		{
 			x: -1.75d
@@ -701,6 +921,13 @@
 				id: "6D21E387666AC707"
 				type: "item"
 				item: "bigreactors:fluidizercasing"
+			}]
+			rewards: [{
+				id: "64E517984ABC0660"
+				type: "item"
+				item: "bigreactors:fluidizercasing"
+				count: 3
+				random_bonus: 2
 			}]
 		}
 		{
@@ -718,6 +945,12 @@
 				type: "item"
 				item: "bigreactors:fluidizercontroller"
 			}]
+			rewards: [{
+				id: "33ACCFE32C2E3AF3"
+				type: "item"
+				item: "bigreactors:fluidizercasing"
+				count: 2
+			}]
 		}
 		{
 			x: -1.5d
@@ -729,6 +962,12 @@
 				type: "item"
 				title: "Solid Injector"
 				item: "bigreactors:fluidizersolidinjector"
+			}]
+			rewards: [{
+				id: "045A4ABD0C75EE8A"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				count: 2
 			}]
 		}
 		{
@@ -784,6 +1023,13 @@
 				type: "item"
 				item: "bigreactors:fluidizerglass"
 			}]
+			rewards: [{
+				id: "2F0BBF10F3CFA3AE"
+				type: "item"
+				item: "bigreactors:fluidizerglass"
+				count: 2
+				random_bonus: 2
+			}]
 		}
 		{
 			x: -1.75d
@@ -796,6 +1042,12 @@
 				type: "item"
 				title: "&#50565FReinforced Computer Port&r"
 				item: "bigreactors:reinforced_turbinecomputerport"
+			}]
+			rewards: [{
+				id: "279C29EEA7A53447"
+				type: "item"
+				item: "bigreactors:reinforced_turbinecasing"
+				random_bonus: 1
 			}]
 		}
 		{
@@ -826,6 +1078,13 @@
 				title: "&#50565FReinforced Turbine Housing&r"
 				item: "bigreactors:reinforced_turbinecasing"
 			}]
+			rewards: [{
+				id: "4F464D7368657D97"
+				type: "item"
+				item: "bigreactors:reinforced_turbinecasing"
+				count: 2
+				random_bonus: 2
+			}]
 		}
 		{
 			x: -7.75d
@@ -840,6 +1099,11 @@
 				type: "item"
 				title: "&#50565FReinforced Rotor Bearing&r"
 				item: "bigreactors:reinforced_turbinerotorbearing"
+			}]
+			rewards: [{
+				id: "30ABFF03D2721397"
+				type: "item"
+				item: "bigreactors:reinforced_turbinecasing"
 			}]
 		}
 		{
@@ -859,6 +1123,18 @@
 					id: "370EFC4440D1DBF2"
 					type: "item"
 					title: "&#50565FReinforced Rotor Blade&r"
+					item: "bigreactors:reinforced_turbinerotorblade"
+				}
+			]
+			rewards: [
+				{
+					id: "0420B9DEE62D97C8"
+					type: "item"
+					item: "bigreactors:reinforced_turbinerotorshaft"
+				}
+				{
+					id: "6B15A5D349D4EC2A"
+					type: "item"
 					item: "bigreactors:reinforced_turbinerotorblade"
 				}
 			]
@@ -888,6 +1164,11 @@
 					item: "bigreactors:reinforced_turbinefluidport_forge_passive"
 				}
 			]
+			rewards: [{
+				id: "727B80816AE6DFD4"
+				type: "item"
+				item: "bigreactors:reinforced_turbinecasing"
+			}]
 		}
 		{
 			title: "&#50565FReinforced Energy Power Tap&r"
@@ -910,6 +1191,11 @@
 					item: "bigreactors:reinforced_turbinepowertapfe_passive"
 				}
 			]
+			rewards: [{
+				id: "49F8780F6A8909D2"
+				type: "item"
+				item: "bigreactors:reinforced_turbinecasing"
+			}]
 		}
 		{
 			x: -3.75d
@@ -927,6 +1213,11 @@
 				title: "&#50565FReinforced Energy Charging Port&r"
 				item: "bigreactors:reinforced_turbinechargingportfe"
 			}]
+			rewards: [{
+				id: "4FF74EC186EF79F2"
+				type: "item"
+				item: "bigreactors:reinforced_turbinecasing"
+			}]
 		}
 		{
 			x: -2.75d
@@ -939,6 +1230,11 @@
 				type: "item"
 				title: "&#50565FReinforced Redstone Port&r"
 				item: "bigreactors:reinforced_turbineredstoneport"
+			}]
+			rewards: [{
+				id: "6C4487E7CF22ECA4"
+				type: "item"
+				item: "bigreactors:reinforced_turbinecasing"
 			}]
 		}
 		{
@@ -955,6 +1251,13 @@
 				type: "item"
 				title: "&#50565FReinforced Turbine Glass&r"
 				item: "bigreactors:reinforced_turbineglass"
+			}]
+			rewards: [{
+				id: "7C02BFE51AE77D0A"
+				type: "item"
+				item: "bigreactors:reinforced_turbineglass"
+				count: 2
+				random_bonus: 3
 			}]
 		}
 		{
@@ -974,6 +1277,12 @@
 				title: "&#929090Basic Turbine Controller&r"
 				item: "bigreactors:basic_turbinecontroller"
 			}]
+			rewards: [{
+				id: "6F072A749822980B"
+				type: "item"
+				item: "bigreactors:basic_turbinecasing"
+				count: 2
+			}]
 		}
 		{
 			x: -6.75d
@@ -988,6 +1297,12 @@
 				type: "item"
 				title: "&#929090Basic Turbine Housing&r"
 				item: "bigreactors:basic_turbinecasing"
+			}]
+			rewards: [{
+				id: "78B1611B98ADD365"
+				type: "item"
+				item: "bigreactors:basic_turbinecasing"
+				count: 3
 			}]
 		}
 		{
@@ -1008,6 +1323,12 @@
 				title: "&#4B4E53Basic Reactor Controller&r"
 				item: "bigreactors:basic_reactorcontroller"
 			}]
+			rewards: [{
+				id: "1BA28E4524CAC92B"
+				type: "item"
+				item: "bigreactors:graphite_ingot"
+				count: 4
+			}]
 		}
 		{
 			x: -10.75d
@@ -1019,6 +1340,12 @@
 				type: "item"
 				title: "&#4B4E53Basic Control Rod&r"
 				item: "bigreactors:basic_reactorcontrolrod"
+			}]
+			rewards: [{
+				id: "5607E032F51AE467"
+				type: "item"
+				item: "bigreactors:graphite_ingot"
+				count: 3
 			}]
 		}
 		{
@@ -1035,6 +1362,11 @@
 				title: "&#4B4E53Basic Fuel Rod&r"
 				item: "bigreactors:basic_reactorfuelrod"
 			}]
+			rewards: [{
+				id: "0292540EC0EC55CC"
+				type: "item"
+				item: "bigreactors:basic_reactorfuelrod"
+			}]
 		}
 		{
 			x: -11.75d
@@ -1049,6 +1381,12 @@
 				type: "item"
 				title: "&#4B4E53Basic Access Port&r"
 				item: "bigreactors:basic_reactorsolidaccessport"
+			}]
+			rewards: [{
+				id: "2BBA61CDA6CEE289"
+				type: "item"
+				item: "bigreactors:graphite_ingot"
+				count: 3
 			}]
 		}
 		{
@@ -1072,6 +1410,12 @@
 					item: "bigreactors:basic_reactorpowertapfe_passive"
 				}
 			]
+			rewards: [{
+				id: "596363ED764E1662"
+				type: "item"
+				item: "bigreactors:graphite_ingot"
+				count: 3
+			}]
 		}
 		{
 			x: -11.75d
@@ -1090,6 +1434,12 @@
 				title: "&#4B4E53Basic Energy Charging Port&r"
 				item: "bigreactors:basic_reactorchargingportfe"
 			}]
+			rewards: [{
+				id: "4A77A46DA5B12BE8"
+				type: "item"
+				item: "bigreactors:graphite_ingot"
+				count: 3
+			}]
 		}
 		{
 			x: -11.25d
@@ -1105,6 +1455,12 @@
 				type: "item"
 				title: "&#4B4E53Basic Redstone Port&r"
 				item: "bigreactors:basic_reactorredstoneport"
+			}]
+			rewards: [{
+				id: "0B3C156400636996"
+				type: "item"
+				item: "bigreactors:graphite_ingot"
+				count: 3
 			}]
 		}
 		{
@@ -1123,6 +1479,12 @@
 				type: "item"
 				title: "&#4B4E53Basic Reactor Glass&r"
 				item: "bigreactors:basic_reactorglass"
+			}]
+			rewards: [{
+				id: "265CF0A839D07FC8"
+				type: "item"
+				item: "bigreactors:basic_reactorglass"
+				count: 3
 			}]
 		}
 		{
@@ -1157,6 +1519,18 @@
 					id: "071A4CDFE819BDFD"
 					type: "item"
 					title: "&#929090Basic Rotor Blade&r"
+					item: "bigreactors:basic_turbinerotorblade"
+				}
+			]
+			rewards: [
+				{
+					id: "217796F824CF832D"
+					type: "item"
+					item: "bigreactors:basic_turbinerotorshaft"
+				}
+				{
+					id: "6A7E5A518FCE1391"
+					type: "item"
 					item: "bigreactors:basic_turbinerotorblade"
 				}
 			]
@@ -1238,6 +1612,12 @@
 				title: "&#929090Basic Redstone Port&r"
 				item: "bigreactors:basic_turbineredstoneport"
 			}]
+			rewards: [{
+				id: "685394A4A1C58F89"
+				type: "item"
+				item: "emendatusenigmatica:steel_ingot"
+				count: 2
+			}]
 		}
 		{
 			x: -6.0d
@@ -1253,6 +1633,12 @@
 				type: "item"
 				title: "&#929090Basic Turbine Glass"
 				item: "bigreactors:basic_turbineglass"
+			}]
+			rewards: [{
+				id: "0E8DBD4A34AF8792"
+				type: "item"
+				item: "bigreactors:basic_turbineglass"
+				count: 2
 			}]
 		}
 	]

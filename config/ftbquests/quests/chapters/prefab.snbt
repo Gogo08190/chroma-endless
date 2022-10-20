@@ -19,6 +19,12 @@
 				type: "item"
 				item: "prefab:item_starter_farm"
 			}]
+			rewards: [{
+				id: "4A154BFF48C8123C"
+				type: "item"
+				item: "minecraft:wheat_seeds"
+				count: 16
+			}]
 		}
 		{
 			x: 1.0d
@@ -30,6 +36,12 @@
 				id: "19D060200697AE46"
 				type: "item"
 				item: "prefab:item_moderate_farm"
+			}]
+			rewards: [{
+				id: "3597513F7D358B7E"
+				type: "item"
+				item: "sushigocrafting:cucumber_seeds"
+				count: 8
 			}]
 		}
 		{
@@ -43,11 +55,21 @@
 				type: "item"
 				item: "prefab:item_advanced_farm"
 			}]
+			rewards: [{
+				id: "068F41C0BBCABBC0"
+				type: "item"
+				item: "simplefarming:sunflower_seeds"
+				count: 8
+			}]
 		}
 		{
 			x: -1.75d
 			y: -8.5d
 			shape: "octagon"
+			dependencies: [
+				"033D2475938C8178"
+				"5078188812830472"
+			]
 			id: "780A9DA22F2B8B3D"
 			tasks: [{
 				id: "1D6F6DAACA7D52ED"
@@ -60,16 +82,28 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "018A6612E11ACAA8"
+				type: "item"
+				item: "engineersdecor:dark_shingle_roof_chimneytrunk"
+			}]
 		}
 		{
 			x: 3.25d
 			y: -6.25d
 			shape: "square"
+			dependencies: ["121DF7B31DB4BEF8"]
 			id: "6838A7591783515A"
 			tasks: [{
 				id: "5E6FCEF2D8AB2FCD"
 				type: "item"
 				item: "prefab:item_warehouse"
+			}]
+			rewards: [{
+				id: "3888AF1857F640D9"
+				type: "item"
+				item: "minecraft:chest"
+				count: 4
 			}]
 		}
 		{
@@ -83,11 +117,18 @@
 				type: "item"
 				item: "prefab:item_advanced_warehouse"
 			}]
+			rewards: [{
+				id: "5793A6A326D96E86"
+				type: "item"
+				item: "expandedstorage:iron_chest"
+				count: 4
+			}]
 		}
 		{
 			x: 2.0d
 			y: -7.5d
 			shape: "square"
+			dependencies: ["5818D79835BC71DA"]
 			id: "4511B0D5DFECAC21"
 			tasks: [{
 				id: "2A7974ED4097B397"
@@ -100,16 +141,32 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "53DDE70A7AAA7570"
+				type: "item"
+				item: "prefab:item_pallet_of_bricks"
+			}]
 		}
 		{
 			x: 0.0d
 			y: -8.5d
 			shape: "square"
+			hide_dependency_lines: true
+			dependencies: [
+				"5818D79835BC71DA"
+				"121DF7B31DB4BEF8"
+				"59A8BE208A1433B3"
+			]
 			id: "2B05605041838C85"
 			tasks: [{
 				id: "72CB8D2181312FA6"
 				type: "item"
 				item: "prefab:item_workshop"
+			}]
+			rewards: [{
+				id: "2E7DB1E8E7BC40A9"
+				type: "item"
+				item: "minecraft:blast_furnace"
 			}]
 		}
 		{
@@ -123,159 +180,289 @@
 				type: "item"
 				item: "prefab:item_advanced_aqua_base"
 			}]
+			rewards: [{
+				id: "73F7079FBA4120D8"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:long_night_vision"
+					}
+				}
+			}]
 		}
 		{
 			x: 1.5d
 			y: -2.25d
 			shape: "hexagon"
+			dependencies: [
+				"0F01F4CCB3915082"
+				"6770AB2A85C49A63"
+			]
 			id: "40F39A63CA623232"
 			tasks: [{
 				id: "2718F4303F25BBCB"
 				type: "item"
 				item: "prefab:item_nether_gate"
 			}]
+			rewards: [{
+				id: "24927E97EFC45D74"
+				type: "item"
+				item: {
+					id: "minecraft:flint_and_steel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			x: 1.0d
 			y: -7.5d
 			shape: "square"
+			dependencies: ["5818D79835BC71DA"]
 			id: "7A28E558A687140A"
 			tasks: [{
 				id: "5861BE518F83D309"
 				type: "item"
 				item: "prefab:item_town_hall"
 			}]
+			rewards: [{
+				id: "1FA9D0EEA01B84FF"
+				type: "item"
+				item: "prefab:item_wooden_crate"
+				count: 32
+			}]
 		}
 		{
 			x: 1.0d
 			y: -8.5d
 			shape: "square"
+			dependencies: ["5818D79835BC71DA"]
 			id: "79DDF8B6DA66F3B1"
 			tasks: [{
 				id: "11228BE0E5255BF1"
 				type: "item"
 				item: "prefab:item_wind_mill"
 			}]
+			rewards: [{
+				id: "683038C7E1D91989"
+				type: "item"
+				item: "supplementaries:wind_vane"
+			}]
 		}
 		{
 			x: 3.75d
 			y: -8.5d
 			shape: "octagon"
+			dependencies: ["5818D79835BC71DA"]
 			id: "2CF31C77D31F5325"
 			tasks: [{
 				id: "1ABEC3FA38A04A93"
 				type: "item"
 				item: "prefab:item_ski_lodge"
 			}]
+			rewards: [{
+				id: "36AE706586A36649"
+				type: "item"
+				item: "minecraft:snowball"
+				count: 64
+			}]
 		}
 		{
 			x: 1.0d
 			y: -9.5d
 			shape: "square"
+			dependencies: ["5818D79835BC71DA"]
 			id: "5694ED605664B052"
 			tasks: [{
 				id: "3A4DCA0A9458C63B"
 				type: "item"
 				item: "prefab:item_saloon"
 			}]
+			rewards: [{
+				id: "205EC67694498645"
+				type: "item"
+				item: "prefab:item_carton_of_eggs"
+				count: 2
+			}]
 		}
 		{
 			x: 0.0d
 			y: -7.5d
 			shape: "square"
+			dependencies: ["5818D79835BC71DA"]
 			id: "52163272E019BC29"
 			tasks: [{
 				id: "55A3BB209A6A4DC7"
 				type: "item"
 				item: "prefab:item_jail"
 			}]
+			rewards: [{
+				id: "765DAEA441C68894"
+				type: "item"
+				item: "supplementaries:cage"
+			}]
 		}
 		{
 			x: 2.0d
 			y: -8.5d
 			shape: "square"
+			dependencies: ["5818D79835BC71DA"]
 			id: "670ED955EB8E4B6C"
 			tasks: [{
 				id: "01B52E440D3EBCCF"
 				type: "item"
 				item: "prefab:item_watch_tower"
 			}]
+			rewards: [{
+				id: "2628F23420EB8CB3"
+				type: "item"
+				item: "prefab:item_ton_of_timber"
+				count: 3
+			}]
 		}
 		{
 			x: 0.5d
 			y: -3.75d
 			shape: "hexagon"
+			dependencies: [
+				"51C9C6085335ABB3"
+				"51E04796F0F37E9D"
+			]
 			id: "3E67BF98F36D6D80"
 			tasks: [{
 				id: "7993841C20830FB7"
 				type: "item"
 				item: "prefab:item_magic_temple"
 			}]
+			rewards: [
+				{
+					id: "7B00136658E555FD"
+					type: "item"
+					item: "minecraft:experience_bottle"
+					count: 8
+				}
+				{
+					id: "26421FC64BEA72CA"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					count: 16
+				}
+			]
 		}
 		{
 			x: 0.0d
 			y: -3.0d
 			shape: "hexagon"
+			dependencies: ["0BF43EA3825CC0BA"]
 			id: "07926832238C1298"
 			tasks: [{
 				id: "2F7866F03569A214"
 				type: "item"
 				item: "prefab:item_grassy_plain"
 			}]
+			rewards: [{
+				id: "1D6D6AAF79AC92F5"
+				type: "item"
+				item: "minecraft:grass_block"
+				count: 8
+			}]
 		}
 		{
 			x: -1.25d
 			y: -6.25d
 			shape: "square"
+			dependencies: ["0BF43EA3825CC0BA"]
 			id: "78346ABB2E20D47C"
 			tasks: [{
 				id: "59E3B964DD3B1F4C"
 				type: "item"
 				item: "prefab:item_aqua_base"
 			}]
+			rewards: [{
+				id: "7942DF647CA8C1BE"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:water_breathing"
+					}
+				}
+			}]
 		}
 		{
 			x: 2.0d
 			y: -3.0d
 			shape: "hexagon"
+			dependencies: ["0F01F4CCB3915082"]
 			id: "361E10527613BF8F"
 			tasks: [{
 				id: "51F33A5C7FA21F70"
 				type: "item"
 				item: "prefab:item_ender_gateway"
 			}]
+			rewards: [{
+				id: "2E44AC50F2FFCFCE"
+				type: "item"
+				item: "minecraft:ender_eye"
+				count: 6
+			}]
 		}
 		{
 			x: 0.5d
 			y: -2.25d
 			shape: "hexagon"
+			dependencies: ["0976209956D1ADCD"]
 			id: "0427208D1E1467FE"
 			tasks: [{
 				id: "6D7336E175096062"
 				type: "item"
 				item: "prefab:item_mineshaft_entrance"
 			}]
+			rewards: [{
+				id: "0B39962136A704A7"
+				type: "item"
+				item: "chipped:torch_3"
+				count: 32
+			}]
 		}
 		{
 			x: 1.5d
 			y: -3.75d
 			shape: "hexagon"
+			dependencies: ["121DF7B31DB4BEF8"]
 			id: "6B5C99F2CABFA76D"
 			tasks: [{
 				id: "3FABC4291C8443B6"
 				type: "item"
 				item: "prefab:item_defense_bunker"
 			}]
+			rewards: [{
+				id: "6FD2C5D57FAD301B"
+				type: "item"
+				item: "minecraft:dispenser"
+				count: 3
+			}]
 		}
 		{
 			x: 0.0d
 			y: -9.5d
 			shape: "square"
+			dependencies: ["5818D79835BC71DA"]
 			id: "31FCBCD7C99747C7"
 			tasks: [{
 				id: "2700853F61DEE1D0"
 				type: "item"
 				item: "prefab:item_machinery_tower"
+			}]
+			rewards: [{
+				id: "706D4A3148A8711C"
+				type: "item"
+				item: "immersiveengineering:minecart_reinforcedcrate"
 			}]
 		}
 		{
@@ -296,22 +483,85 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2A741D8CB7F5827B"
+				type: "item"
+				item: {
+					id: "tconstruct:excavator"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.3f
+							"tconstruct:attack_damage": 1.2f
+							"tconstruct:durability": 3.75f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 1.1f
+							"tconstruct:mining_speed": 2.4750001f
+							"tconstruct:attack_damage": 4.2000003f
+							"tconstruct:harvest_level": 2.0f
+							"tconstruct:durability": 1515.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [
+							{
+								name: "tconstruct:knockback"
+								level: 2s
+							}
+							{
+								name: "materialis:polished"
+								level: 4s
+							}
+							{
+								name: "tconstruct:shovel_transform_hidden"
+								level: 1s
+							}
+							{
+								name: "tconstruct:two_handed"
+								level: 1s
+							}
+						]
+						tic_materials: [
+							"materialis:brass"
+							"materialis:brass"
+							"materialis:brass"
+							"materialis:brass"
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 2.0d
 			y: -9.5d
 			shape: "square"
+			dependencies: [
+				"5818D79835BC71DA"
+				"121DF7B31DB4BEF8"
+			]
 			id: "59A8BE208A1433B3"
 			tasks: [{
 				id: "28B237013B4DC05A"
 				type: "item"
 				item: "prefab:item_moderate_house"
 			}]
+			rewards: [{
+				id: "2FD866DA91D40672"
+				type: "item"
+				item: "morecfm:byg_cherry_mail_box"
+			}]
 		}
 		{
 			x: 1.0d
 			y: -3.0d
 			shape: "hexagon"
+			dependencies: ["0BF43EA3825CC0BA"]
 			id: "6E2FCDB60E58D6A8"
 			tasks: [{
 				id: "58E518C463C8B69E"
@@ -323,6 +573,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "4C86BC944B542F91"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 	]

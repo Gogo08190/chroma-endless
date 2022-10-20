@@ -24,6 +24,11 @@
 				type: "item"
 				item: "compactmachines:personal_shrinking_device"
 			}]
+			rewards: [{
+				id: "6341B073F6639E5E"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: -0.5d
@@ -40,6 +45,11 @@
 				type: "item"
 				item: "compactcrafting:base"
 			}]
+			rewards: [{
+				id: "007DDDC75C1C2607"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: -1.0d
@@ -52,6 +62,11 @@
 				id: "088D07B8408DF281"
 				type: "item"
 				item: "compactcrafting:rescan_proxy"
+			}]
+			rewards: [{
+				id: "162E3A1E569D80A8"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -67,6 +82,11 @@
 				id: "7977983F580B6049"
 				type: "item"
 				item: "compactcrafting:field_projector"
+			}]
+			rewards: [{
+				id: "114155DB2FB598F0"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -84,6 +104,11 @@
 				type: "item"
 				item: "compactcrafting:projector_dish"
 			}]
+			rewards: [{
+				id: "23D659F57CA5CCD7"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 0.0d
@@ -95,6 +120,12 @@
 				id: "3594C20DD5BB56E4"
 				type: "item"
 				item: "compactmachines:wall"
+			}]
+			rewards: [{
+				id: "134E4747F96C2621"
+				type: "item"
+				item: "compactmachines:wall"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -108,6 +139,11 @@
 				id: "7A4CA92583E8275D"
 				type: "item"
 				item: "compactcrafting:match_proxy"
+			}]
+			rewards: [{
+				id: "1E3B9DB51B864ED7"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -203,6 +239,20 @@
 					count: 1479L
 				}
 			]
+			rewards: [
+				{
+					id: "65C8773C88A6811E"
+					type: "random"
+					table_id: 6524702956512656804L
+				}
+				{
+					id: "3AE63055FCBD945A"
+					type: "item"
+					item: "compactmachines:wall"
+					count: 8
+					random_bonus: 8
+				}
+			]
 		}
 		{
 			title: "Compact Factory Components - Part 2"
@@ -233,6 +283,11 @@
 					item: "masterfulmachinery:compactfactory_compact_energy_port_energy_input"
 				}
 			]
+			rewards: [{
+				id: "25AC1A6257C11771"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 0.0d
@@ -261,6 +316,13 @@
 				type: "item"
 				item: "compactmachines:machine_tiny"
 			}]
+			rewards: [{
+				id: "3601761A4212ED18"
+				type: "item"
+				item: "compactmachines:wall"
+				count: 8
+				random_bonus: 8
+			}]
 		}
 		{
 			x: -0.75d
@@ -273,6 +335,13 @@
 				id: "78C9521426BCFEBE"
 				type: "item"
 				item: "compactmachines:machine_small"
+			}]
+			rewards: [{
+				id: "7E904C8B412DF2DC"
+				type: "item"
+				item: "compactmachines:wall"
+				count: 8
+				random_bonus: 8
 			}]
 		}
 		{
@@ -287,6 +356,13 @@
 				type: "item"
 				item: "compactmachines:machine_normal"
 			}]
+			rewards: [{
+				id: "0CA96D3C7AB32599"
+				type: "item"
+				item: "compactmachines:wall"
+				count: 8
+				random_bonus: 8
+			}]
 		}
 		{
 			x: 0.25d
@@ -299,6 +375,13 @@
 				id: "009E8C5AB6F86ADB"
 				type: "item"
 				item: "compactmachines:machine_large"
+			}]
+			rewards: [{
+				id: "56B3DC0B8BAA67C1"
+				type: "item"
+				item: "compactmachines:wall"
+				count: 16
+				random_bonus: 16
 			}]
 		}
 		{
@@ -313,6 +396,13 @@
 				type: "item"
 				item: "compactmachines:machine_giant"
 			}]
+			rewards: [{
+				id: "28511937D2EA3F64"
+				type: "item"
+				item: "compactmachines:wall"
+				count: 16
+				random_bonus: 16
+			}]
 		}
 		{
 			x: 1.25d
@@ -325,6 +415,13 @@
 				id: "3E8F0D6FB9A51076"
 				type: "item"
 				item: "compactmachines:machine_maximum"
+			}]
+			rewards: [{
+				id: "7A2DD41E54849294"
+				type: "item"
+				item: "compactmachines:wall"
+				count: 16
+				random_bonus: 32
 			}]
 		}
 	]

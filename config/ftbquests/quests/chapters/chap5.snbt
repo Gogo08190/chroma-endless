@@ -190,6 +190,15 @@
 				title: "Spiritfire !"
 				icon: "occultism:spirit_fire"
 			}]
+			rewards: [{
+				id: "0B07039E3FB52EE4"
+				type: "item"
+				item: {
+					id: "occultism:otherworld_sapling_natural"
+					Count: 1b
+					tag: { }
+				}
+			}]
 		}
 		{
 			x: 5.5d
@@ -537,6 +546,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "07CA8E6C9E6BCB6C"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			title: "Bat Familiar"
@@ -598,6 +612,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "6648D00E2EC0C5C2"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			title: "Cthulhu Familiar"
@@ -711,6 +730,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "062D11C1F84BD3E3"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			title: "Devil Familiar"
@@ -758,6 +782,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "58B9B343594FEE14"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			title: "Mummy Familiar"
@@ -825,6 +854,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "0F3D4C0BBB864FE3"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			title: "Beholder Familiar"
@@ -872,6 +906,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "09C8E10558697630"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			title: "Fairy Familiar"
@@ -929,6 +968,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "124B6C8BB5606E97"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			title: "Familiars"
@@ -1031,6 +1075,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "195C1EE6135AC420"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			title: "Dragon Familiar"
@@ -1122,6 +1171,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "7B450DD5324BDD98"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			title: "Chimera Familiar"
@@ -1209,6 +1263,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "0D4D65804E442593"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			title: "Headless Ratman Familiar"
@@ -1265,6 +1324,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "3CB1BD021FA9FE55"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			title: "Drikwing Familiar"
@@ -1331,6 +1395,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "6CB13386003D3F85"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			title: "Greedy Familiar"
@@ -1393,6 +1462,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "5385F88091180AC1"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			title: "Guardian Familiar"
@@ -1441,6 +1515,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "577C7C0C264442D7"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			x: 11.75d
@@ -1507,6 +1586,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "40C07CE180BB377D"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			title: "Possessed Skeletons"
@@ -1543,6 +1627,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "664E199C1F74F52D"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			title: "Possessed Ghasts"
@@ -1594,6 +1683,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "640F314CA6F285BB"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			title: "Possessed Endermites"
@@ -1640,6 +1734,11 @@
 					item: "minecraft:egg"
 				}
 			]
+			rewards: [{
+				id: "00158E33051E9DA7"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			title: "The Wild Hunt"
@@ -1696,6 +1795,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "3B57287EB4903718"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			x: 11.0d
@@ -1742,6 +1846,11 @@
 					item: "occultism:golden_sacrificial_bowl"
 				}
 			]
+			rewards: [{
+				id: "134AE45465467CE4"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			icon: {
@@ -1768,9 +1877,9 @@
 				}
 			}]
 			rewards: [{
-				id: "1F1BA3694515187E"
+				id: "6C85FF3FBE32DE7A"
 				type: "item"
-				item: "occultism:brush"
+				item: "create:andesite_alloy"
 			}]
 		}
 		{
@@ -1827,6 +1936,11 @@
 					item: "occultism:golden_sacrificial_bowl"
 				}
 			]
+			rewards: [{
+				id: "50EB44230CCF96DD"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			title: "Abras' Conjure"
@@ -1871,6 +1985,11 @@
 					item: "occultism:golden_sacrificial_bowl"
 				}
 			]
+			rewards: [{
+				id: "4C2D504E905EF2FA"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			x: 1.25d
@@ -1891,6 +2010,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "264DF244AA191163"
+				type: "random"
+				table_id: 8202122937404650615L
 			}]
 		}
 		{
@@ -1936,6 +2060,11 @@
 					item: "occultism:golden_sacrificial_bowl"
 				}
 			]
+			rewards: [{
+				id: "1FDC214B3C301325"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			title: "Ophyx' Calling"
@@ -1974,6 +2103,11 @@
 					item: "occultism:golden_sacrificial_bowl"
 				}
 			]
+			rewards: [{
+				id: "0F4AFE447F3EE3C2"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			title: "Abras' Open Conjure"
@@ -2018,6 +2152,11 @@
 					item: "occultism:golden_sacrificial_bowl"
 				}
 			]
+			rewards: [{
+				id: "698E671FFDFF46C6"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			title: "Osorin's Unbound Calling"
@@ -2049,6 +2188,11 @@
 					item: "occultism:golden_sacrificial_bowl"
 				}
 			]
+			rewards: [{
+				id: "6F690E57371A43B7"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			x: 11.003401360544238d
@@ -2066,6 +2210,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "1FA6EEBB6EA91B64"
+				type: "item"
+				item: "emendatusenigmatica:obsidian_dust"
+				random_bonus: 1
 			}]
 		}
 		{
@@ -2106,6 +2256,11 @@
 					item: "occultism:golden_sacrificial_bowl"
 				}
 			]
+			rewards: [{
+				id: "3BCCBE591960ACB0"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			title: "Sevira's Permanent Confinement"
@@ -2150,6 +2305,11 @@
 					item: "occultism:golden_sacrificial_bowl"
 				}
 			]
+			rewards: [{
+				id: "3551214365B7968F"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			title: "Ihagan's Enthrallement"
@@ -2189,6 +2349,11 @@
 					item: "occultism:golden_sacrificial_bowl"
 				}
 			]
+			rewards: [{
+				id: "4736115973945FE5"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			x: 13.5d
@@ -2206,6 +2371,12 @@
 				id: "4B7F2BB968D8FE22"
 				type: "item"
 				item: "occultism:dimensional_mineshaft"
+			}]
+			rewards: [{
+				id: "58B7A5FCB19B630F"
+				type: "item"
+				item: "occultism:otherstone"
+				count: 4
 			}]
 		}
 		{
@@ -2226,6 +2397,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0BCEB5A9ACD376C9"
+				type: "item"
+				item: "occultism:iesnium_block"
+			}]
 		}
 		{
 			x: 15.0d
@@ -2245,6 +2421,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "34A937CF5063BB21"
+				type: "item"
+				item: "occultism:iesnium_ingot"
+			}]
 		}
 		{
 			x: 13.5d
@@ -2263,6 +2444,11 @@
 				id: "6CE46AC5D399C7DC"
 				type: "checkmark"
 				title: "Ore Crushers !"
+			}]
+			rewards: [{
+				id: "2B58AD178837BEB0"
+				type: "random"
+				table_id: 8202122937404650615L
 			}]
 		}
 		{
@@ -2302,6 +2488,11 @@
 				type: "item"
 				item: "occultism:ritual_dummy/summon_afrit_crusher"
 			}]
+			rewards: [{
+				id: "13218202200E74A4"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			x: 12.75d
@@ -2321,6 +2512,11 @@
 				type: "item"
 				item: "occultism:ritual_dummy/summon_djinni_crusher"
 			}]
+			rewards: [{
+				id: "7727141D5C1DD34A"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			x: 12.0d
@@ -2336,6 +2532,11 @@
 				id: "31AC4F59714E632F"
 				type: "item"
 				item: "occultism:ritual_dummy/summon_foliot_crusher"
+			}]
+			rewards: [{
+				id: "37B4DB42B440DB3B"
+				type: "random"
+				table_id: 8202122937404650615L
 			}]
 		}
 		{
@@ -2369,6 +2570,11 @@
 					item: "occultism:golden_sacrificial_bowl"
 				}
 			]
+			rewards: [{
+				id: "412E958F01436F8E"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			x: 5.989285714285714d
@@ -2387,6 +2593,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "002EB17B9E9FB793"
+				type: "random"
+				table_id: 8202122937404650615L
 			}]
 		}
 		{
@@ -2426,6 +2637,11 @@
 					item: "occultism:golden_sacrificial_bowl"
 				}
 			]
+			rewards: [{
+				id: "26D7ACBE285581C8"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			title: "Clear Weather"
@@ -2471,6 +2687,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "3A2626C5955119F2"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			title: "Rainy Weather"
@@ -2523,6 +2744,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "6B2CBF92E9BC9EEF"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			title: "Thunderstorm Ritual"
@@ -2564,6 +2790,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "76E07A4E0E95F54C"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			title: "Weather And Time Magic"
@@ -2626,6 +2857,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "1A12BFBCC057AB92"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			title: "Summoning of Dusk"
@@ -2684,6 +2920,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "5D936E1F4F65B180"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			x: 4.5d
@@ -2703,6 +2944,12 @@
 						spiritName: "Zurmaracarc"
 					}
 				}
+			}]
+			rewards: [{
+				id: "5ABAB39AFC480C51"
+				type: "item"
+				item: "create:polished_rose_quartz"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -2726,6 +2973,20 @@
 				type: "item"
 				item: "occultism:storage_controller"
 			}]
+			rewards: [
+				{
+					id: "1D3F461825F9F551"
+					type: "item"
+					item: "create:andesite_alloy"
+					random_bonus: 3
+				}
+				{
+					id: "21A6C563091AA26B"
+					type: "item"
+					item: "emendatusenigmatica:brass_ingot"
+					random_bonus: 2
+				}
+			]
 		}
 		{
 			x: 7.5d
@@ -2739,6 +3000,12 @@
 				id: "1F9F3929306A99D6"
 				type: "item"
 				item: "occultism:storage_controller_base"
+			}]
+			rewards: [{
+				id: "774D582B65C98244"
+				type: "item"
+				item: "emendatusenigmatica:brass_ingot"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -2769,6 +3036,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "677ADF3BCEF4CE72"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			title: "Wireless interactions"
@@ -2795,6 +3067,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "1A51F40858C61FE3"
+				type: "random"
+				table_id: 8202122937404650615L
 			}]
 		}
 		{
@@ -2841,6 +3118,11 @@
 					item: "occultism:storage_stabilizer_tier4"
 				}
 			]
+			rewards: [{
+				id: "189E5561C91EBF5B"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			title: "Demons Can Autocraft?"
@@ -2915,6 +3197,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "175C78AE61DB3C74"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			title: "How to automate Thermal Machines Frames?"
@@ -2954,18 +3241,20 @@
 				type: "checkmark"
 				title: "Thermal Machine Frame automation"
 			}]
+			rewards: [{
+				id: "4EEC579B4DFABCF6"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			title: "Fusionner 2000"
 			icon: "masterfulmachinery:fusioner_controller"
-			x: 12.0d
-			y: 11.25d
+			x: 6.0d
+			y: 8.5d
 			shape: "gear"
-			description: [
-				"Build The Fusionner 2000 Machine Factory."
-				""
-				"              &k&l&0F&rU&k&l&0S&rI&k&l&0O&rN&k&l&0N&rE&k&l&0R&r &k&l&02&r0&k&l&00&r0&r"
-			]
+			subtitle: "&k&l&0F&rU&k&l&0S&rI&k&l&0O&rN&k&l&0N&rE&k&l&0R&r &k&l&02&r0&k&l&00&r0&r"
+			description: ["Build The Fusionner 2000 Machine Factory."]
 			hide_dependency_lines: true
 			dependencies: [
 				"281F853004D0032C"

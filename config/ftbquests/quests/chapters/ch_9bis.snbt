@@ -24,6 +24,11 @@
 				type: "item"
 				item: "rftoolsbase:machine_frame"
 			}]
+			rewards: [{
+				id: "18650F8EF59A6193"
+				type: "item"
+				item: "rftoolsbase:machine_frame"
+			}]
 		}
 		{
 			x: 0.5d
@@ -34,6 +39,11 @@
 			id: "1C0DB5CDE08C77D0"
 			tasks: [{
 				id: "0C8E1EF1A08A13DE"
+				type: "item"
+				item: "rftoolspower:cell1"
+			}]
+			rewards: [{
+				id: "63A46A9BB777DDD1"
 				type: "item"
 				item: "rftoolspower:cell1"
 			}]
@@ -52,6 +62,11 @@
 				type: "item"
 				item: "rftoolspower:cell2"
 			}]
+			rewards: [{
+				id: "42615F185193BEDF"
+				type: "item"
+				item: "rftoolspower:cell2"
+			}]
 		}
 		{
 			x: -0.5d
@@ -64,6 +79,11 @@
 			id: "1FA60A7D153B850E"
 			tasks: [{
 				id: "49F6A5296AA9D8F5"
+				type: "item"
+				item: "rftoolspower:power_core1"
+			}]
+			rewards: [{
+				id: "5D1BB6E68B0BA3D8"
 				type: "item"
 				item: "rftoolspower:power_core1"
 			}]
@@ -82,6 +102,11 @@
 				type: "item"
 				item: "rftoolspower:power_core2"
 			}]
+			rewards: [{
+				id: "2A6BBC0831FA4B8F"
+				type: "item"
+				item: "rftoolspower:power_core2"
+			}]
 		}
 		{
 			x: -0.5d
@@ -91,6 +116,11 @@
 			id: "4F9C02E738E82240"
 			tasks: [{
 				id: "0DB578834151A7A4"
+				type: "item"
+				item: "rftoolspower:power_core3"
+			}]
+			rewards: [{
+				id: "71CC26768AE3BDD1"
 				type: "item"
 				item: "rftoolspower:power_core3"
 			}]
@@ -106,6 +136,11 @@
 			id: "671971636863D7E5"
 			tasks: [{
 				id: "54DA70A97CABE4A9"
+				type: "item"
+				item: "rftoolspower:cell3"
+			}]
+			rewards: [{
+				id: "64E07D971ED51D6F"
 				type: "item"
 				item: "rftoolspower:cell3"
 			}]
@@ -125,6 +160,12 @@
 				type: "item"
 				item: "rftoolspower:dimensionalcell"
 			}]
+			rewards: [{
+				id: "2D0BB4412F55DBB7"
+				type: "item"
+				item: "emendatusenigmatica:dimensional_gem"
+				count: 8
+			}]
 		}
 		{
 			x: 0.5d
@@ -140,6 +181,12 @@
 				id: "05907EEFA6A171D3"
 				type: "item"
 				item: "rftoolspower:dimensionalcell_advanced"
+			}]
+			rewards: [{
+				id: "27B778287D3E59E2"
+				type: "item"
+				item: "emendatusenigmatica:dimensional_gem"
+				count: 8
 			}]
 		}
 		{
@@ -168,6 +215,12 @@
 				type: "item"
 				item: "rftoolspower:dimensionalcell_simple"
 			}]
+			rewards: [{
+				id: "33A947D3A35CAA2E"
+				type: "item"
+				item: "emendatusenigmatica:dimensional_gem"
+				count: 8
+			}]
 		}
 		{
 			x: 0.0d
@@ -185,6 +238,12 @@
 				id: "51A0D68BC0972357"
 				type: "item"
 				item: "rftoolsbase:machine_infuser"
+			}]
+			rewards: [{
+				id: "4ED4BD443648C653"
+				type: "item"
+				item: "emendatusenigmatica:dimensional_gem"
+				count: 16
 			}]
 		}
 		{
@@ -204,6 +263,12 @@
 				type: "item"
 				item: "rftoolspower:blazing_generator"
 			}]
+			rewards: [{
+				id: "2E447AFFFC717633"
+				type: "item"
+				item: "minecraft:blaze_rod"
+				count: 4
+			}]
 		}
 		{
 			x: -2.25d
@@ -220,6 +285,12 @@
 				id: "6FB8B458A70236E1"
 				type: "item"
 				item: "rftoolspower:blazing_agitator"
+			}]
+			rewards: [{
+				id: "2781944102B20464"
+				type: "item"
+				item: "minecraft:blaze_rod"
+				count: 4
 			}]
 		}
 		{
@@ -240,6 +311,12 @@
 				type: "item"
 				item: "rftoolspower:blazing_infuser"
 			}]
+			rewards: [{
+				id: "69DADE5492B64BB1"
+				type: "item"
+				item: "minecraft:blaze_rod"
+				count: 4
+			}]
 		}
 		{
 			x: 1.25d
@@ -252,6 +329,12 @@
 				type: "item"
 				item: "rftoolspower:ender_monitor"
 			}]
+			rewards: [{
+				id: "08DCED5D6BDDCDC8"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 4
+			}]
 		}
 		{
 			x: 1.75d
@@ -263,6 +346,12 @@
 				id: "2FF97F5203809C41"
 				type: "item"
 				item: "rftoolspower:pearl_injector"
+			}]
+			rewards: [{
+				id: "30B80281AC076CF2"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 4
 			}]
 		}
 		{
@@ -278,6 +367,12 @@
 				type: "item"
 				item: "rftoolspower:endergenic"
 			}]
+			rewards: [{
+				id: "7B45B7C8E87E2726"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 4
+			}]
 		}
 		{
 			x: 0.0d
@@ -289,6 +384,13 @@
 				id: "65AE09ED864EAAFA"
 				type: "item"
 				item: "rftoolspower:coalgenerator"
+			}]
+			rewards: [{
+				id: "469DB4FBA3E2247E"
+				type: "item"
+				item: "byg:anthracite"
+				count: 8
+				random_bonus: 6
 			}]
 		}
 		{
@@ -312,6 +414,11 @@
 				type: "item"
 				item: "rftoolsbuilder:builder"
 			}]
+			rewards: [{
+				id: "47B9C21C4AC85FC2"
+				type: "item"
+				item: "create:builders_tea"
+			}]
 		}
 		{
 			x: -2.5d
@@ -331,6 +438,12 @@
 				type: "item"
 				item: "rftoolsbuilder:shield_block1"
 			}]
+			rewards: [{
+				id: "60B7482375712B5D"
+				type: "item"
+				item: "rftoolsbuilder:blue_shield_template_block"
+				count: 16
+			}]
 		}
 		{
 			x: -2.5d
@@ -341,6 +454,12 @@
 				id: "074E52C78CF28775"
 				type: "item"
 				item: "rftoolsbuilder:shield_block2"
+			}]
+			rewards: [{
+				id: "52900CE16F1EF1B2"
+				type: "item"
+				item: "rftoolsbuilder:red_shield_template_block"
+				count: 16
 			}]
 		}
 		{
@@ -353,6 +472,12 @@
 				type: "item"
 				item: "rftoolsbuilder:shield_block3"
 			}]
+			rewards: [{
+				id: "499FE6FB5CAE814F"
+				type: "item"
+				item: "rftoolsbuilder:green_shield_template_block"
+				count: 16
+			}]
 		}
 		{
 			x: -2.5d
@@ -363,6 +488,12 @@
 				id: "3EF7ADD94FA4191C"
 				type: "item"
 				item: "rftoolsbuilder:shield_block4"
+			}]
+			rewards: [{
+				id: "2B5C375E60D03BC8"
+				type: "item"
+				item: "rftoolsbuilder:yellow_shield_template_block"
+				count: 16
 			}]
 		}
 		{
@@ -382,6 +513,11 @@
 				type: "item"
 				item: "rftoolsutility:crafter1"
 			}]
+			rewards: [{
+				id: "78F9AB2B1B4234A9"
+				type: "item"
+				item: "immersiveengineering:craftingtable"
+			}]
 		}
 		{
 			x: 2.5d
@@ -394,6 +530,12 @@
 				type: "item"
 				item: "rftoolsutility:crafter2"
 			}]
+			rewards: [{
+				id: "7D2E7C154E10854C"
+				type: "item"
+				item: "create:mechanical_crafter"
+				count: 6
+			}]
 		}
 		{
 			x: 2.5d
@@ -403,6 +545,11 @@
 			id: "61C77F8185B1F2AF"
 			tasks: [{
 				id: "5799FBFF96DB75A3"
+				type: "item"
+				item: "rftoolsutility:crafter3"
+			}]
+			rewards: [{
+				id: "514842556D54F1A7"
 				type: "item"
 				item: "rftoolsutility:crafter3"
 			}]
@@ -464,6 +611,17 @@
 				type: "item"
 				item: "rftoolsutility:environmental_controller"
 			}]
+			rewards: [{
+				id: "61AF643B3A457FFA"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "atmospheric:relief_strong"
+					}
+				}
+			}]
 		}
 		{
 			x: -1.0d
@@ -481,6 +639,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "34DE7B7C40E0239D"
+				type: "item"
+				item: "emendatusenigmatica:dimensional_gem"
+				count: 4
 			}]
 		}
 		{
@@ -500,6 +664,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7C5562F2D5269562"
+				type: "item"
+				item: "emendatusenigmatica:dimensional_gem"
+				count: 4
+			}]
 		}
 		{
 			x: -0.5d
@@ -512,6 +682,11 @@
 				id: "79FDE88F442D4C43"
 				type: "item"
 				item: "rftoolsutility:matter_transmitter"
+			}]
+			rewards: [{
+				id: "4F548D4129792B7B"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -526,6 +701,11 @@
 				type: "item"
 				item: "rftoolsutility:matter_receiver"
 			}]
+			rewards: [{
+				id: "441F7F3C13503936"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 0.0d
@@ -539,6 +719,12 @@
 				id: "65A7B3E293D515A9"
 				type: "item"
 				item: "rftoolsutility:dialing_device"
+			}]
+			rewards: [{
+				id: "52530F44653B9379"
+				type: "item"
+				item: "wormhole:portal_frame"
+				count: 4
 			}]
 		}
 		{
@@ -558,6 +744,11 @@
 				type: "item"
 				item: "rftoolsbuilder:shape_card_def"
 			}]
+			rewards: [{
+				id: "03F9D2B07AF47819"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_def"
+			}]
 		}
 		{
 			x: -0.5d
@@ -570,6 +761,11 @@
 				id: "264E27B37FA24854"
 				type: "item"
 				item: "rftoolsbuilder:shape_card_liquid"
+			}]
+			rewards: [{
+				id: "1F618777DD406AFA"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -584,6 +780,11 @@
 				type: "item"
 				item: "rftoolsbuilder:shape_card_pump"
 			}]
+			rewards: [{
+				id: "5D5ACD163ED74686"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 0.0d
@@ -596,6 +797,11 @@
 				id: "5913A654E45C9307"
 				type: "item"
 				item: "rftoolsbuilder:shape_card_pump_clear"
+			}]
+			rewards: [{
+				id: "64378D075D7EEB6A"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -610,6 +816,11 @@
 				type: "item"
 				item: "rftoolsbuilder:shape_card_quarry"
 			}]
+			rewards: [{
+				id: "4300BA95D3FC6C26"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 1.5d
@@ -622,6 +833,11 @@
 				id: "753B421638ECAD12"
 				type: "item"
 				item: "rftoolsbuilder:shape_card_quarry_clear"
+			}]
+			rewards: [{
+				id: "63E998ECC31B0902"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -636,6 +852,11 @@
 				type: "item"
 				item: "rftoolsbuilder:shape_card_quarry_clear_fortune"
 			}]
+			rewards: [{
+				id: "3CA4BF855A7A64E6"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 0.5d
@@ -648,6 +869,11 @@
 				id: "3A110722B11907DF"
 				type: "item"
 				item: "rftoolsbuilder:shape_card_quarry_clear_silk"
+			}]
+			rewards: [{
+				id: "6C54C56ED9064168"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -662,6 +888,11 @@
 				type: "item"
 				item: "rftoolsbuilder:shape_card_quarry_fortune"
 			}]
+			rewards: [{
+				id: "17A18439C8CB658E"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: -0.5d
@@ -674,6 +905,11 @@
 				id: "239518E7FFF2CAB1"
 				type: "item"
 				item: "rftoolsbuilder:shape_card_quarry_silk"
+			}]
+			rewards: [{
+				id: "09122646FB78DA34"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -688,6 +924,11 @@
 				type: "item"
 				item: "rftoolsbuilder:shape_card_void"
 			}]
+			rewards: [{
+				id: "103C5D3A26E882C9"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: -2.75d
@@ -698,6 +939,11 @@
 			id: "5253C3780E90C914"
 			tasks: [{
 				id: "6E19F75A7874AB0D"
+				type: "item"
+				item: "rftoolsutility:module_template"
+			}]
+			rewards: [{
+				id: "4CE18D54D8AAC17E"
 				type: "item"
 				item: "rftoolsutility:module_template"
 			}]
@@ -715,6 +961,11 @@
 				type: "item"
 				item: "rftoolsutility:moduleplus_template"
 			}]
+			rewards: [{
+				id: "0BD933C750F18AFD"
+				type: "item"
+				item: "rftoolsutility:moduleplus_template"
+			}]
 		}
 		{
 			x: 3.25d
@@ -727,6 +978,11 @@
 				id: "4DCF8224F96A1C1F"
 				type: "item"
 				item: "rftoolsutility:blindness_module"
+			}]
+			rewards: [{
+				id: "77661194A3154567"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -741,6 +997,11 @@
 				type: "item"
 				item: "rftoolsutility:featherfalling_module"
 			}]
+			rewards: [{
+				id: "5624C4A3998ACECD"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 3.25d
@@ -753,6 +1014,11 @@
 				id: "501AA921F19376BC"
 				type: "item"
 				item: "rftoolsutility:featherfallingplus_module"
+			}]
+			rewards: [{
+				id: "78F5D6012B289758"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -767,6 +1033,11 @@
 				type: "item"
 				item: "rftoolsutility:haste_module"
 			}]
+			rewards: [{
+				id: "575EA1074A5EE24A"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 1.75d
@@ -779,6 +1050,11 @@
 				id: "53F9B9705DBE404E"
 				type: "item"
 				item: "rftoolsutility:hasteplus_module"
+			}]
+			rewards: [{
+				id: "4D1EE1E253583DBF"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -793,6 +1069,11 @@
 				type: "item"
 				item: "rftoolsutility:flight_module"
 			}]
+			rewards: [{
+				id: "67A0F049C3400D9B"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: -1.75d
@@ -805,6 +1086,11 @@
 				id: "56E810DB36025E4D"
 				type: "item"
 				item: "rftoolsutility:glowing_module"
+			}]
+			rewards: [{
+				id: "50EEE86A912C2C94"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -819,6 +1105,11 @@
 				type: "item"
 				item: "rftoolsutility:luck_module"
 			}]
+			rewards: [{
+				id: "7FF4B79DCEBA557E"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: -2.25d
@@ -831,6 +1122,11 @@
 				id: "02C9F3EF05C03524"
 				type: "item"
 				item: "rftoolsutility:nightvision_module"
+			}]
+			rewards: [{
+				id: "57AFCC33D73440CB"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -845,6 +1141,11 @@
 				type: "item"
 				item: "rftoolsutility:noteleport_module"
 			}]
+			rewards: [{
+				id: "3C9F2CB150759E85"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 2.25d
@@ -857,6 +1158,11 @@
 				id: "005C39DFC348FE09"
 				type: "item"
 				item: "rftoolsutility:peaceful_module"
+			}]
+			rewards: [{
+				id: "30A90F526BB16A44"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -871,6 +1177,11 @@
 				type: "item"
 				item: "rftoolsutility:poison_module"
 			}]
+			rewards: [{
+				id: "21290FCB25341573"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: -1.75d
@@ -883,6 +1194,11 @@
 				id: "6D2D02AEC4843F4F"
 				type: "item"
 				item: "rftoolsutility:regeneration_module"
+			}]
+			rewards: [{
+				id: "17333003AC25F1D6"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -897,6 +1213,11 @@
 				type: "item"
 				item: "rftoolsutility:regenerationplus_module"
 			}]
+			rewards: [{
+				id: "63FF4224E693716A"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: -3.75d
@@ -909,6 +1230,11 @@
 				id: "34C3C0017AD5A714"
 				type: "item"
 				item: "rftoolsutility:saturation_module"
+			}]
+			rewards: [{
+				id: "52DDA82D9E85C931"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -923,6 +1249,11 @@
 				type: "item"
 				item: "rftoolsutility:saturationplus_module"
 			}]
+			rewards: [{
+				id: "5E78130CB38CD141"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: -3.75d
@@ -935,6 +1266,11 @@
 				id: "406F43F6C737D02A"
 				type: "item"
 				item: "rftoolsutility:slowness_module"
+			}]
+			rewards: [{
+				id: "4FA72E11B3870C5A"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -949,6 +1285,11 @@
 				type: "item"
 				item: "rftoolsutility:speed_module"
 			}]
+			rewards: [{
+				id: "422FC6B2C32BFFF7"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 1.75d
@@ -961,6 +1302,11 @@
 				id: "0DE45E12073399C9"
 				type: "item"
 				item: "rftoolsutility:speedplus_module"
+			}]
+			rewards: [{
+				id: "62E952023D852C38"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -975,6 +1321,11 @@
 				type: "item"
 				item: "rftoolsutility:waterbreathing_module"
 			}]
+			rewards: [{
+				id: "62ABA58AE128B3B3"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: -3.25d
@@ -988,6 +1339,11 @@
 				type: "item"
 				item: "rftoolsutility:weakness_module"
 			}]
+			rewards: [{
+				id: "4D94DA93739FAC72"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 0.0d
@@ -997,6 +1353,11 @@
 			id: "15B6CF9B41E10B17"
 			tasks: [{
 				id: "493C1B915398535F"
+				type: "item"
+				item: "rftoolspower:powercell_card"
+			}]
+			rewards: [{
+				id: "361BA29B832DAE8B"
 				type: "item"
 				item: "rftoolspower:powercell_card"
 			}]
@@ -1012,6 +1373,11 @@
 				type: "item"
 				item: "rftoolscontrol:cpu_core_500"
 			}]
+			rewards: [{
+				id: "67FE27282CDABD9E"
+				type: "item"
+				item: "rftoolscontrol:cpu_core_500"
+			}]
 		}
 		{
 			x: 2.75d
@@ -1021,6 +1387,11 @@
 			id: "4D0FD2C51E5290BA"
 			tasks: [{
 				id: "3B429DFC5FA77D1E"
+				type: "item"
+				item: "rftoolscontrol:cpu_core_1000"
+			}]
+			rewards: [{
+				id: "581F0CD1161AF477"
 				type: "item"
 				item: "rftoolscontrol:cpu_core_1000"
 			}]
@@ -1036,6 +1407,11 @@
 				type: "item"
 				item: "rftoolscontrol:cpu_core_2000"
 			}]
+			rewards: [{
+				id: "5ECE5E140BBDE877"
+				type: "item"
+				item: "rftoolscontrol:cpu_core_2000"
+			}]
 		}
 		{
 			x: -2.75d
@@ -1046,6 +1422,11 @@
 			id: "7D3B3254ECA7A7EA"
 			tasks: [{
 				id: "25B6C15D99B882A6"
+				type: "item"
+				item: "rftoolscontrol:ram_chip"
+			}]
+			rewards: [{
+				id: "5DDB59B4274C8799"
 				type: "item"
 				item: "rftoolscontrol:ram_chip"
 			}]
@@ -1099,6 +1480,11 @@
 				type: "item"
 				item: "rftoolscontrol:card_base"
 			}]
+			rewards: [{
+				id: "35F7045A73CF1C4F"
+				type: "item"
+				item: "rftoolscontrol:card_base"
+			}]
 		}
 		{
 			x: -0.5d
@@ -1111,6 +1497,11 @@
 				id: "0895B47742D443A4"
 				type: "item"
 				item: "rftoolsutility:analog"
+			}]
+			rewards: [{
+				id: "63B6C9A8601970F8"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1125,6 +1516,11 @@
 				type: "item"
 				item: "rftoolsutility:counter"
 			}]
+			rewards: [{
+				id: "71BE3366260E1104"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 0.5d
@@ -1137,6 +1533,11 @@
 				id: "0F754832BCBEC7A3"
 				type: "item"
 				item: "rftoolsutility:digit"
+			}]
+			rewards: [{
+				id: "0ABD52778EC871AC"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1151,6 +1552,11 @@
 				type: "item"
 				item: "rftoolsutility:invchecker"
 			}]
+			rewards: [{
+				id: "3C4CADB34FEFF350"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 1.0d
@@ -1163,6 +1569,11 @@
 				id: "1BB7C6464292B432"
 				type: "item"
 				item: "rftoolsutility:sensor"
+			}]
+			rewards: [{
+				id: "7A16CE9F7AFF1887"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1177,6 +1588,11 @@
 				type: "item"
 				item: "rftoolsutility:sequencer"
 			}]
+			rewards: [{
+				id: "28577B8D8C68C100"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: -0.5d
@@ -1189,6 +1605,11 @@
 				id: "075CA750D0CA441D"
 				type: "item"
 				item: "rftoolsutility:logic"
+			}]
+			rewards: [{
+				id: "2702C810369F89C2"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1203,6 +1624,11 @@
 				type: "item"
 				item: "rftoolsutility:timer"
 			}]
+			rewards: [{
+				id: "407A77AB4A837D5E"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 1.0d
@@ -1215,6 +1641,11 @@
 				id: "3B8E435006A88850"
 				type: "item"
 				item: "rftoolsutility:wire"
+			}]
+			rewards: [{
+				id: "2B8B86B29DDF74D6"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1229,6 +1660,11 @@
 				type: "item"
 				item: "rftoolsutility:redstone_receiver"
 			}]
+			rewards: [{
+				id: "7BDAC2A8CA1F99BB"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: -1.0d
@@ -1242,6 +1678,11 @@
 				type: "item"
 				item: "rftoolsutility:redstone_transmitter"
 			}]
+			rewards: [{
+				id: "4B9758EBF6F2B429"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: -2.75d
@@ -1251,6 +1692,11 @@
 			id: "28498779A63FA059"
 			tasks: [{
 				id: "2C18B1C9E9F0E973"
+				type: "item"
+				item: "rftoolspower:blazing_rod"
+			}]
+			rewards: [{
+				id: "3578CD15CCB41012"
 				type: "item"
 				item: "rftoolspower:blazing_rod"
 			}]
@@ -1273,6 +1719,11 @@
 				type: "item"
 				item: "rftoolsbase:smartwrench"
 			}]
+			rewards: [{
+				id: "6A5C84906FD365F6"
+				type: "item"
+				item: "rftoolsbase:manual"
+			}]
 		}
 		{
 			x: -1.5d
@@ -1287,6 +1738,11 @@
 				type: "item"
 				item: "rftoolsbase:infused_enderpearl"
 			}]
+			rewards: [{
+				id: "0AE946031A937FAC"
+				type: "item"
+				item: "rftoolsbase:infused_enderpearl"
+			}]
 		}
 		{
 			x: 1.5d
@@ -1298,6 +1754,11 @@
 			id: "5E43D8523D2DF728"
 			tasks: [{
 				id: "324B4405F4182C96"
+				type: "item"
+				item: "rftoolsbase:infused_diamond"
+			}]
+			rewards: [{
+				id: "40B4039BB0C59392"
 				type: "item"
 				item: "rftoolsbase:infused_diamond"
 			}]

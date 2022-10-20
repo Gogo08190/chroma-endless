@@ -23,6 +23,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "12854E31D4B1AD68"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 38.75d
@@ -39,6 +44,11 @@
 				type: "item"
 				item: "industrialforegoing:machine_frame_pity"
 			}]
+			rewards: [{
+				id: "342F1F34B23214BE"
+				type: "item"
+				item: "industrialforegoing:machine_frame_pity"
+			}]
 		}
 		{
 			x: 38.0d
@@ -50,6 +60,12 @@
 				id: "6EFA0B5602BFD86E"
 				type: "item"
 				item: "industrialforegoing:fluid_extractor"
+			}]
+			rewards: [{
+				id: "6B66E9F1D12A4937"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 64
 			}]
 		}
 		{
@@ -63,6 +79,12 @@
 				type: "item"
 				item: "industrialforegoing:latex_processing_unit"
 			}]
+			rewards: [{
+				id: "4786ADCC318C8F39"
+				type: "item"
+				item: "industrialforegoing:tinydryrubber"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 35.25d
@@ -74,6 +96,12 @@
 				id: "062EABD82CBB2306"
 				type: "item"
 				item: "industrialforegoing:animal_rancher"
+			}]
+			rewards: [{
+				id: "7861FF95A40BC628"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				random_bonus: 7
 			}]
 		}
 		{
@@ -87,6 +115,12 @@
 				type: "item"
 				item: "industrialforegoing:plant_gatherer"
 			}]
+			rewards: [{
+				id: "0AA2FC3597A8631C"
+				type: "item"
+				item: "minecraft:spruce_sapling"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 46.25d
@@ -99,6 +133,13 @@
 				type: "item"
 				item: "industrialforegoing:plant_sower"
 			}]
+			rewards: [{
+				id: "75EE02B322601803"
+				type: "item"
+				item: "minecraft:wheat_seeds"
+				count: 8
+				random_bonus: 8
+			}]
 		}
 		{
 			x: 32.25d
@@ -110,6 +151,13 @@
 				id: "5F08B119672CF1DC"
 				type: "item"
 				item: "industrialforegoing:animal_feeder"
+			}]
+			rewards: [{
+				id: "0C1FAFF8B4E42F9F"
+				type: "item"
+				item: "minecraft:carrot"
+				count: 16
+				random_bonus: 16
 			}]
 		}
 		{
@@ -159,6 +207,12 @@
 				type: "item"
 				item: "industrialforegoing:mob_slaughter_factory"
 			}]
+			rewards: [{
+				id: "08D2A3EA5181ED89"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 33.25d
@@ -170,6 +224,12 @@
 				id: "4F25EB86767DDD01"
 				type: "item"
 				item: "industrialforegoing:sewer"
+			}]
+			rewards: [{
+				id: "78CC305E7E758448"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				random_bonus: 7
 			}]
 		}
 		{
@@ -183,6 +243,12 @@
 				type: "item"
 				item: "industrialforegoing:sewage_composter"
 			}]
+			rewards: [{
+				id: "0FE16ADA53A34972"
+				type: "item"
+				item: "industrialforegoing:fertilizer"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 34.25d
@@ -194,6 +260,12 @@
 				id: "44A594A67FEDD22B"
 				type: "item"
 				item: "industrialforegoing:animal_baby_separator"
+			}]
+			rewards: [{
+				id: "1D1FBA60FF0E3A17"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				random_bonus: 7
 			}]
 		}
 		{
@@ -216,6 +288,12 @@
 				type: "item"
 				item: "industrialforegoing:dissolution_chamber"
 			}]
+			rewards: [{
+				id: "0B858347F5F58E62"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_electrical_steel"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 38.75d
@@ -226,6 +304,11 @@
 			id: "79315953791CB3E5"
 			tasks: [{
 				id: "2FC0C21FAA22693A"
+				type: "item"
+				item: "industrialforegoing:machine_frame_simple"
+			}]
+			rewards: [{
+				id: "6EA5283527238554"
 				type: "item"
 				item: "industrialforegoing:machine_frame_simple"
 			}]
@@ -242,6 +325,11 @@
 				type: "item"
 				item: "industrialforegoing:machine_frame_advanced"
 			}]
+			rewards: [{
+				id: "6E47E702A699054F"
+				type: "item"
+				item: "industrialforegoing:machine_frame_advanced"
+			}]
 		}
 		{
 			x: 38.75d
@@ -252,6 +340,11 @@
 			id: "785DDC4B53C7917C"
 			tasks: [{
 				id: "5C94959B050DEB8F"
+				type: "item"
+				item: "industrialforegoing:machine_frame_supreme"
+			}]
+			rewards: [{
+				id: "2673C0DBA5C1557F"
 				type: "item"
 				item: "industrialforegoing:machine_frame_supreme"
 			}]
@@ -282,6 +375,12 @@
 				type: "item"
 				item: "industrialforegoing:biofuel_generator"
 			}]
+			rewards: [{
+				id: "456494FC866DC184"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 41.0d
@@ -292,6 +391,13 @@
 				id: "5C81E6B7FE0E7EC8"
 				type: "item"
 				item: "industrialforegoing:mycelial_furnace"
+			}]
+			rewards: [{
+				id: "2148CC0A3E6271BB"
+				type: "item"
+				item: "minecraft:coal_block"
+				count: 8
+				random_bonus: 8
 			}]
 		}
 		{
@@ -314,6 +420,13 @@
 				id: "254CC308F97F9C7B"
 				type: "item"
 				item: "industrialforegoing:mycelial_culinary"
+			}]
+			rewards: [{
+				id: "1E7D744B1244391A"
+				type: "item"
+				item: "minecraft:golden_carrot"
+				count: 8
+				random_bonus: 8
 			}]
 		}
 		{
@@ -370,6 +483,13 @@
 				type: "item"
 				item: "industrialforegoing:mycelial_frosty"
 			}]
+			rewards: [{
+				id: "7D5027A95AB07B99"
+				type: "item"
+				item: "minecraft:blue_ice"
+				count: 8
+				random_bonus: 8
+			}]
 		}
 		{
 			x: 37.25d
@@ -402,6 +522,13 @@
 				id: "0047091CAE73FD98"
 				type: "item"
 				item: "industrialforegoing:mycelial_pink"
+			}]
+			rewards: [{
+				id: "0AFF1CE1342D6660"
+				type: "item"
+				item: "minecraft:pink_dye"
+				count: 32
+				random_bonus: 32
 			}]
 		}
 		{
@@ -470,6 +597,13 @@
 				type: "item"
 				item: "industrialforegoing:bioreactor"
 			}]
+			rewards: [{
+				id: "164B3ACBFAC6D1BC"
+				type: "item"
+				item: "minecraft:wheat_seeds"
+				count: 8
+				random_bonus: 8
+			}]
 		}
 		{
 			x: 38.75d
@@ -486,6 +620,12 @@
 				item: "industrialforegoing:plastic"
 				count: 8L
 			}]
+			rewards: [{
+				id: "0F6A4BD0ABB16907"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 40.75d
@@ -497,6 +637,11 @@
 				id: "19F68C292DF9BEC5"
 				type: "item"
 				item: "industrialforegoing:simple_black_hole_unit"
+			}]
+			rewards: [{
+				id: "32851D66FA296777"
+				type: "item"
+				item: "minecraft:bucket"
 			}]
 		}
 		{
@@ -510,6 +655,11 @@
 				type: "item"
 				item: "industrialforegoing:simple_black_hole_tank"
 			}]
+			rewards: [{
+				id: "0356074847464490"
+				type: "item"
+				item: "minecraft:bucket"
+			}]
 		}
 		{
 			x: 36.75d
@@ -521,6 +671,12 @@
 				id: "71469668C89C496E"
 				type: "item"
 				item: "industrialforegoing:mob_detector"
+			}]
+			rewards: [{
+				id: "44270797985F70FE"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				random_bonus: 7
 			}]
 		}
 		{
@@ -536,6 +692,11 @@
 				id: "484E94CA0C717448"
 				type: "item"
 				item: "industrialforegoing:fermentation_station"
+			}]
+			rewards: [{
+				id: "715BAD5E50094441"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -564,6 +725,11 @@
 				type: "item"
 				item: "industrialforegoing:marine_fisher"
 			}]
+			rewards: [{
+				id: "67BE45139EA2CE63"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
 		}
 		{
 			x: 36.5d
@@ -575,6 +741,13 @@
 				id: "33E803497338CCDF"
 				type: "item"
 				item: "industrialforegoing:plant_fertilizer"
+			}]
+			rewards: [{
+				id: "5FD8CD857B464311"
+				type: "item"
+				item: "minecraft:bone_meal"
+				count: 16
+				random_bonus: 16
 			}]
 		}
 		{
@@ -591,6 +764,11 @@
 				id: "20D96B39FC6191F8"
 				type: "item"
 				item: "industrialforegoing:hydroponic_bed"
+			}]
+			rewards: [{
+				id: "10284CE70D091387"
+				type: "item"
+				item: "minecraft:water_bucket"
 			}]
 		}
 		{
@@ -654,6 +832,13 @@
 				type: "item"
 				item: "industrialforegoing:mechanical_dirt"
 			}]
+			rewards: [{
+				id: "6ADCC49555285819"
+				type: "item"
+				item: "minecraft:rotten_flesh"
+				count: 8
+				random_bonus: 8
+			}]
 		}
 		{
 			x: 42.25d
@@ -667,6 +852,11 @@
 				type: "item"
 				item: "industrialforegoing:block_breaker"
 			}]
+			rewards: [{
+				id: "759E919B07A75642"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 36.5d
@@ -678,6 +868,11 @@
 				id: "4BE8CED3231E2D77"
 				type: "item"
 				item: "industrialforegoing:fermentation_station"
+			}]
+			rewards: [{
+				id: "48A00451BF4D9457"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -691,6 +886,11 @@
 				type: "item"
 				item: "industrialforegoing:fluid_placer"
 			}]
+			rewards: [{
+				id: "32CEC9225566C009"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
 		}
 		{
 			x: 42.25d
@@ -703,6 +903,13 @@
 				id: "036B34C01B5E320D"
 				type: "item"
 				item: "industrialforegoing:block_placer"
+			}]
+			rewards: [{
+				id: "720A86AFF28C1C30"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 32
+				random_bonus: 32
 			}]
 		}
 		{
@@ -719,6 +926,11 @@
 				id: "11CB0A9F72A25741"
 				type: "item"
 				item: "industrialforegoing:resourceful_furnace"
+			}]
+			rewards: [{
+				id: "6B94EEA0A7FCFCB2"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -743,6 +955,11 @@
 				type: "item"
 				item: "industrialforegoing:fluid_collector"
 			}]
+			rewards: [{
+				id: "08071C9DB3F8E0F2"
+				type: "item"
+				item: "minecraft:bucket"
+			}]
 		}
 		{
 			x: 43.25d
@@ -759,6 +976,20 @@
 				type: "item"
 				item: "industrialforegoing:spores_recreator"
 			}]
+			rewards: [
+				{
+					id: "3182A5E3158F5833"
+					type: "item"
+					item: "minecraft:warped_fungus"
+					random_bonus: 7
+				}
+				{
+					id: "04CED3D055C23A46"
+					type: "item"
+					item: "minecraft:crimson_fungus"
+					random_bonus: 7
+				}
+			]
 		}
 		{
 			x: 37.25d
@@ -787,6 +1018,13 @@
 				type: "item"
 				item: "industrialforegoing:sludge_refiner"
 			}]
+			rewards: [{
+				id: "7612BC2069BA93F5"
+				type: "item"
+				item: "minecraft:sand"
+				count: 16
+				random_bonus: 32
+			}]
 		}
 		{
 			x: 32.25d
@@ -803,6 +1041,11 @@
 				type: "item"
 				item: "industrialforegoing:water_condensator"
 			}]
+			rewards: [{
+				id: "35163A35D7AB7A29"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
 		}
 		{
 			x: 44.25d
@@ -814,6 +1057,13 @@
 				id: "18F779C22243A31A"
 				type: "item"
 				item: "industrialforegoing:dye_mixer"
+			}]
+			rewards: [{
+				id: "717F8949756D967A"
+				type: "item"
+				item: "minecraft:red_dye"
+				count: 16
+				random_bonus: 16
 			}]
 		}
 		{
@@ -1036,6 +1286,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2E4AA834458F5066"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 46.0d
@@ -1059,6 +1315,12 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "1AFEDF7384FA0659"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				random_bonus: 7
 			}]
 		}
 		{
@@ -1084,6 +1346,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5D231AE87B077514"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 47.0d
@@ -1107,6 +1375,12 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "1DB2053370C057CE"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				random_bonus: 7
 			}]
 		}
 		{
@@ -1132,6 +1406,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "62E9868A33D9EA9B"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 48.0d
@@ -1156,6 +1436,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0EBE24E8DD530AB7"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 49.0d
@@ -1179,6 +1465,12 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "0F340A1E0059BF0A"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				random_bonus: 7
 			}]
 		}
 		{
@@ -1293,6 +1585,11 @@
 				type: "item"
 				item: "industrialforegoing:sludge_bucket"
 			}]
+			rewards: [{
+				id: "276E8DD6B87373E0"
+				type: "item"
+				item: "industrialforegoing:sludge_bucket"
+			}]
 		}
 		{
 			x: 46.25d
@@ -1311,10 +1608,15 @@
 				type: "item"
 				item: "industrialforegoing:biofuel_bucket"
 			}]
+			rewards: [{
+				id: "25ADC3784E4247E2"
+				type: "item"
+				item: "industrialforegoing:biofuel_bucket"
+			}]
 		}
 		{
-			x: 37.0d
-			y: -4.5d
+			x: 37.25d
+			y: -4.75d
 			description: ["This fluid is used in a &9&lLatex Processing Unit&r to make &7&lTiny Dry Rubber&r."]
 			hide_dependency_lines: true
 			dependencies: ["330130D7B723C1A9"]
@@ -1322,6 +1624,11 @@
 			id: "1E30091B21DC41B9"
 			tasks: [{
 				id: "24D9A39DAC5A3F8C"
+				type: "item"
+				item: "industrialforegoing:latex_bucket"
+			}]
+			rewards: [{
+				id: "0A8A794CC4105C66"
 				type: "item"
 				item: "industrialforegoing:latex_bucket"
 			}]
@@ -1353,6 +1660,11 @@
 				type: "item"
 				item: "industrialforegoing:pink_slime_bucket"
 			}]
+			rewards: [{
+				id: "354A880610BAFF79"
+				type: "item"
+				item: "industrialforegoing:pink_slime_bucket"
+			}]
 		}
 		{
 			x: 35.75d
@@ -1367,6 +1679,11 @@
 				type: "item"
 				item: "industrialforegoing:meat_bucket"
 			}]
+			rewards: [{
+				id: "42658A7DB178CF52"
+				type: "item"
+				item: "industrialforegoing:meat_bucket"
+			}]
 		}
 		{
 			x: 35.5d
@@ -1377,6 +1694,15 @@
 			id: "2C68A095D80BC93E"
 			tasks: [{
 				id: "5E42D453C8640AD6"
+				type: "item"
+				item: {
+					id: "industrialforegoing:fermented_ore_meat_bucket"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "15DA85B21D04A6BC"
 				type: "item"
 				item: {
 					id: "industrialforegoing:fermented_ore_meat_bucket"
@@ -1429,16 +1755,26 @@
 				type: "item"
 				item: "industrialforegoing:sewage_bucket"
 			}]
+			rewards: [{
+				id: "313EC78D15001441"
+				type: "item"
+				item: "industrialforegoing:sewage_bucket"
+			}]
 		}
 		{
-			x: 37.0d
-			y: -3.75d
+			x: 37.25d
+			y: -3.5d
 			hide_dependency_lines: true
 			dependencies: ["330130D7B723C1A9"]
 			optional: true
 			id: "17B7AB614DE22881"
 			tasks: [{
 				id: "76B102D62F0BAFEE"
+				type: "item"
+				item: "thermal:resin_bucket"
+			}]
+			rewards: [{
+				id: "673B0D756D3887D0"
 				type: "item"
 				item: "thermal:resin_bucket"
 			}]
@@ -1454,13 +1790,179 @@
 				type: "item"
 				item: "industrialforegoing:mob_imprisonment_tool"
 			}]
+			rewards: [{
+				id: "599F26615FF64469"
+				type: "item"
+				item: {
+					id: "industrialforegoing:mob_imprisonment_tool"
+					Count: 1b
+					tag: {
+						Brain: {
+							memories: { }
+						}
+						HurtByTimestamp: 0
+						ForgeData: { }
+						IsBaby: 0b
+						Attributes: [
+							{
+								Base: 0.0d
+								Modifiers: [{
+									Operation: 0
+									UUID: [I;
+										957290520
+										-1592702919
+										-1926378481
+										1742125380
+									]
+									Amount: 0.029762030069906277d
+									Name: "Random spawn bonus"
+								}]
+								Name: "minecraft:generic.knockback_resistance"
+							}
+							{
+								Base: 5.0d
+								Name: "minecraft:generic.attack_damage"
+							}
+							{
+								Base: 0.0d
+								Name: "minecraft:zombie.spawn_reinforcements"
+							}
+							{
+								Base: 0.08d
+								Name: "forge:entity_gravity"
+							}
+							{
+								Base: 35.0d
+								Modifiers: [{
+									Operation: 1
+									UUID: [I;
+										1781096323
+										-1689566518
+										-1350312609
+										-632116247
+									]
+									Amount: -0.037172846352434195d
+									Name: "Random spawn bonus"
+								}]
+								Name: "minecraft:generic.follow_range"
+							}
+							{
+								Base: 0.23000000417232513d
+								Name: "minecraft:generic.movement_speed"
+							}
+							{
+								Base: 20.0d
+								Name: "minecraft:generic.max_health"
+							}
+						]
+						Invulnerable: 0b
+						FallFlying: 0b
+						PortalCooldown: 0
+						AbsorptionAmount: 0.0f
+						InWaterTime: -1
+						FallDistance: 0.0f
+						CanUpdate: 1b
+						DeathTime: 0s
+						BoundingBox: [
+							-14.800000011920929d
+							175.0d
+							820.1999999880791d
+							-14.199999988079071d
+							176.95000004768372d
+							820.8000000119209d
+						]
+						ForgeCaps: {
+							"structure_gel:gel_entity": {
+								portal: "structure_gel:empty"
+							}
+							"mekanism:radiation": {
+								radiation: 1.0E-7d
+							}
+							"tombstone:cap_servant_entity": {
+								caster_type: 0s
+							}
+							"citadel:extended_entity_data_citadel": { }
+							"pneumaticcraft:hacking": { }
+							"shrink:shrunk": {
+								width: 0.6f
+								defaulteyeheight: 1.74f
+								scale: 1.0f
+								isshrinking: 0b
+								fixed: 0b
+								isshrunk: 0b
+								height: 1.95f
+							}
+						}
+						HandDropChances: [
+							0.085f
+							0.085f
+						]
+						PersistenceRequired: 1b
+						UUID: [I;
+							1091547485
+							-1644476919
+							-1864464152
+							895339615
+						]
+						AngerTime: 0
+						Motion: [
+							0.0d
+							-0.0784000015258789d
+							0.0d
+						]
+						Health: 20.0f
+						KubeJSPersistentData: { }
+						LeftHanded: 0b
+						Air: 300s
+						OnGround: 1b
+						CitadelData: { }
+						Rotation: [
+							0.0f
+							0.0f
+						]
+						HandItems: [
+							{
+								id: "minecraft:golden_sword"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{ }
+						]
+						ArmorDropChances: [
+							0.085f
+							0.085f
+							0.085f
+							0.085f
+						]
+						CustomName: "{\"text\":\"Grui Grui do the Mheu Mheu\"}"
+						Pos: [
+							-14.5d
+							175.0d
+							820.5d
+						]
+						CanBreakDoors: 0b
+						Fire: -1s
+						ArmorItems: [
+							{ }
+							{ }
+							{ }
+							{ }
+						]
+						CanPickUpLoot: 0b
+						HurtTime: 0s
+						entity: "minecraft:zombified_piglin"
+						DrownedConversionTime: -1
+					}
+				}
+			}]
 		}
 		{
 			x: 30.0d
 			y: 2.0d
 			hide_dependency_lines: true
 			dependencies: ["73368EF2948452D9"]
-			optional: true
 			id: "1910CA542E67ED61"
 			tasks: [{
 				id: "704191AC2DF6D078"
@@ -1479,6 +1981,13 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "574F6980685A1330"
+				type: "item"
+				item: "minecraft:tnt_minecart"
+				count: 32
+				random_bonus: 32
 			}]
 		}
 		{
@@ -1506,6 +2015,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "170A03D21B880C08"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1542,6 +2056,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3DA860DAF34889F5"
+				type: "item"
+				item: "apotheosis:inert_trident"
+			}]
 		}
 		{
 			x: 32.5d
@@ -1554,6 +2073,136 @@
 				id: "4296D2C97182F13C"
 				type: "item"
 				item: "industrialforegoing:meat_feeder"
+			}]
+			rewards: [{
+				id: "0EF531156AF4A2F8"
+				type: "item"
+				item: {
+					id: "industrialforegoing:mob_imprisonment_tool"
+					Count: 1b
+					tag: {
+						Brain: {
+							memories: { }
+						}
+						HurtByTimestamp: 0
+						ForgeData: { }
+						Attributes: [
+							{
+								Base: 0.0d
+								Name: "minecraft:generic.knockback_resistance"
+							}
+							{
+								Base: 0.08d
+								Name: "forge:entity_gravity"
+							}
+							{
+								Base: 16.0d
+								Modifiers: [{
+									Operation: 1
+									UUID: [I;
+										678441459
+										532103464
+										-1720063487
+										743728079
+									]
+									Amount: -0.1323028428955635d
+									Name: "Random spawn bonus"
+								}]
+								Name: "minecraft:generic.follow_range"
+							}
+							{
+								Base: 0.5d
+								Name: "minecraft:generic.movement_speed"
+							}
+						]
+						Invulnerable: 0b
+						FallFlying: 0b
+						PortalCooldown: 0
+						AbsorptionAmount: 0.0f
+						FallDistance: 0.0f
+						CanUpdate: 1b
+						DeathTime: 0s
+						BoundingBox: [
+							-211.70000004768372d
+							145.0d
+							1318.2999999523163d
+							-209.29999995231628d
+							146.25d
+							1320.7000000476837d
+						]
+						ForgeCaps: {
+							"structure_gel:gel_entity": {
+								portal: "structure_gel:empty"
+							}
+							"citadel:extended_entity_data_citadel": { }
+							"mekanism:radiation": {
+								radiation: 1.0E-7d
+							}
+							"pneumaticcraft:hacking": { }
+							"shrink:shrunk": {
+								width: 2.4f
+								defaulteyeheight: 1.0625f
+								scale: 1.0f
+								isshrinking: 0b
+								fixed: 0b
+								isshrunk: 0b
+								height: 1.25f
+							}
+						}
+						HandDropChances: [
+							0.085f
+							0.085f
+						]
+						PersistenceRequired: 1b
+						UUID: [I;
+							-1705144921
+							-1546958784
+							-1411601179
+							501064819
+						]
+						Motion: [
+							0.0d
+							-0.0784000015258789d
+							0.0d
+						]
+						Health: 30.0f
+						KubeJSPersistentData: { }
+						LeftHanded: 0b
+						Air: 209s
+						OnGround: 1b
+						CitadelData: { }
+						Rotation: [
+							165.28712f
+							0.0f
+						]
+						HandItems: [
+							{ }
+							{ }
+						]
+						ArmorDropChances: [
+							0.085f
+							0.085f
+							0.085f
+							0.085f
+						]
+						CustomName: "{\"text\":\"Your a Shark Mahat. I'm a WHAT?!?!\"}"
+						Pos: [
+							-210.5d
+							145.0d
+							1319.5d
+						]
+						Fire: -1s
+						ArmorItems: [
+							{ }
+							{ }
+							{ }
+							{ }
+						]
+						CanPickUpLoot: 0b
+						HurtTime: 0s
+						entity: "alexsmobs:hammerhead_shark"
+					}
+				}
 			}]
 		}
 		{
@@ -1584,6 +2233,13 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "3280CEED4BC318AB"
+				type: "item"
+				item: "minecraft:dark_oak_sapling"
+				count: 8
+				random_bonus: 8
 			}]
 		}
 		{
@@ -1620,6 +2276,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "18CC958D4EF95116"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 32.25d
@@ -1651,6 +2313,11 @@
 						Beheading: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "2C9E1ABE8F1FB1BF"
+				type: "item"
+				item: "rftoolsbase:infused_diamond"
 			}]
 		}
 		{
@@ -1684,6 +2351,141 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "69DAE428ADF61576"
+				type: "item"
+				item: {
+					id: "industrialforegoing:mob_imprisonment_tool"
+					Count: 1b
+					tag: {
+						IsChickenJockey: 0b
+						Brain: {
+							memories: { }
+						}
+						HurtByTimestamp: 0
+						ForgeData: { }
+						Attributes: [
+							{
+								Base: 0.0d
+								Name: "minecraft:generic.knockback_resistance"
+							}
+							{
+								Base: 0.08d
+								Name: "forge:entity_gravity"
+							}
+							{
+								Base: 16.0d
+								Modifiers: [{
+									Operation: 1
+									UUID: [I;
+										-1946364059
+										-169194808
+										-1350354008
+										-1418771498
+									]
+									Amount: 0.045335395182984815d
+									Name: "Random spawn bonus"
+								}]
+								Name: "minecraft:generic.follow_range"
+							}
+							{
+								Base: 0.25d
+								Name: "minecraft:generic.movement_speed"
+							}
+						]
+						Invulnerable: 0b
+						FallFlying: 0b
+						ForcedAge: 0
+						PortalCooldown: 0
+						AbsorptionAmount: 0.0f
+						FallDistance: 0.0f
+						InLove: 0
+						CanUpdate: 1b
+						DeathTime: 0s
+						BoundingBox: [
+							-216.70000000298023d
+							141.0d
+							1414.2999999970198d
+							-216.29999999701977d
+							141.69999998807907d
+							1414.7000000029802d
+						]
+						ForgeCaps: {
+							"structure_gel:gel_entity": {
+								portal: "structure_gel:empty"
+							}
+							"citadel:extended_entity_data_citadel": { }
+							"mekanism:radiation": {
+								radiation: 0.0d
+							}
+							"pneumaticcraft:hacking": { }
+							"shrink:shrunk": {
+								width: 0.4f
+								defaulteyeheight: 0.644f
+								scale: 1.0f
+								isshrinking: 0b
+								fixed: 0b
+								isshrunk: 0b
+								height: 0.7f
+							}
+						}
+						HandDropChances: [
+							0.085f
+							0.085f
+						]
+						PersistenceRequired: 1b
+						UUID: [I;
+							686401737
+							-116243362
+							-2100376506
+							-795445432
+						]
+						Age: 0
+						Motion: [
+							0.0d
+							-0.0784000015258789d
+							0.0d
+						]
+						Health: 4.0f
+						KubeJSPersistentData: { }
+						LeftHanded: 0b
+						Air: 300s
+						OnGround: 1b
+						CitadelData: { }
+						Rotation: [
+							-10.002075f
+							-40.0f
+						]
+						HandItems: [
+							{ }
+							{ }
+						]
+						ArmorDropChances: [
+							0.085f
+							0.085f
+							0.085f
+							0.085f
+						]
+						EggLayTime: 11643
+						CustomName: "{\"text\":\"The cake is a lie !!!!!!!!!!!\"}"
+						Pos: [
+							-216.5d
+							141.0d
+							1414.5d
+						]
+						Fire: -1s
+						ArmorItems: [
+							{ }
+							{ }
+							{ }
+							{ }
+						]
+						CanPickUpLoot: 0b
+						HurtTime: 0s
+						entity: "minecraft:chicken"
+					}
+				}
+			}]
 		}
 		{
 			x: 30.25d
@@ -1700,6 +2502,12 @@
 				type: "item"
 				item: "industrialforegoing:common_black_hole_tank"
 			}]
+			rewards: [{
+				id: "24A7E8A870E2D92B"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 47.25d
@@ -1711,6 +2519,12 @@
 				id: "2A1EF9E09820D23C"
 				type: "item"
 				item: "industrialforegoing:pity_black_hole_tank"
+			}]
+			rewards: [{
+				id: "13833BBB82086BF1"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				random_bonus: 7
 			}]
 		}
 		{

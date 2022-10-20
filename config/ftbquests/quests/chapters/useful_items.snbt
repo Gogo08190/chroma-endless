@@ -49,54 +49,6 @@
 			}]
 		}
 		{
-			x: 20.5d
-			y: 5.75d
-			shape: "hexagon"
-			id: "55A1B520C4AB7A8C"
-			tasks: [{
-				id: "5BDCCD7B2D798F18"
-				type: "item"
-				item: {
-					id: "naturescompass:naturescompass"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "4B30DAB2695B5726"
-				type: "item"
-				item: "atmospheric:aloe_leaves"
-				count: 4
-			}]
-		}
-		{
-			x: 22.5d
-			y: 5.75d
-			shape: "hexagon"
-			dependencies: ["3441111B8198CC9D"]
-			id: "607038F8C91DC55C"
-			tasks: [{
-				id: "44294B3AA706FF94"
-				type: "item"
-				item: {
-					id: "explorerscompass:explorerscompass"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "47973094DAC145AB"
-				type: "item"
-				item: {
-					id: "quark:forgotten_hat"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
 			title: "&#806517Handled Crafting Table&r"
 			x: 17.25d
 			y: -1.5d
@@ -108,43 +60,6 @@
 				id: "1DB643470509253F"
 				type: "item"
 				item: "extendedcrafting:handheld_table"
-			}]
-		}
-		{
-			icon: "waystones:waystone"
-			x: 21.5d
-			y: 5.75d
-			shape: "octagon"
-			id: "0C6C8EEA525B1E98"
-			tasks: [{
-				id: "548591A6FDEBBC19"
-				type: "item"
-				title: "Waystone"
-				item: {
-					id: "itemfilters:or"
-					Count: 1b
-					tag: {
-						items: [
-							{
-								id: "waystones:waystone"
-								Count: 1b
-							}
-							{
-								id: "waystones:mossy_waystone"
-								Count: 1b
-							}
-							{
-								id: "waystones:sandy_waystone"
-								Count: 1b
-							}
-						]
-					}
-				}
-			}]
-			rewards: [{
-				id: "5EB0368C1F400EBE"
-				type: "item"
-				item: "waystones:portstone"
 			}]
 		}
 		{
@@ -2511,6 +2426,12 @@
 				type: "item"
 				item: "ironjetpacks:basic_coil"
 			}]
+			rewards: [{
+				id: "35DAF7F01CD3E293"
+				type: "item"
+				item: "create:andesite_alloy"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 15.5d
@@ -2545,6 +2466,12 @@
 				type: "item"
 				item: "ironjetpacks:elite_coil"
 			}]
+			rewards: [{
+				id: "57A01284653608C2"
+				type: "item"
+				item: "bigreactors:cyanite_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 24.75d
@@ -2562,6 +2489,12 @@
 				id: "2596B01D0360B5CB"
 				type: "item"
 				item: "ironjetpacks:ultimate_coil"
+			}]
+			rewards: [{
+				id: "43ACCE9A2D06828E"
+				type: "item"
+				item: "powah:crystal_spirited"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -2581,6 +2514,11 @@
 				type: "item"
 				item: "ironjetpacks:stellar_cell"
 			}]
+			rewards: [{
+				id: "2B2AAFE31C5EB14F"
+				type: "item"
+				item: "ironjetpacks:inanite_cell"
+			}]
 		}
 		{
 			x: 21.75d
@@ -2594,6 +2532,12 @@
 				id: "0B14FE27BA05EC13"
 				type: "item"
 				item: "ironjetpacks:stellar_thruster"
+			}]
+			rewards: [{
+				id: "14938752C9C57793"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_stellar_alloy"
+				random_bonus: 9
 			}]
 		}
 		{
@@ -2611,6 +2555,12 @@
 				id: "6DDDBB4A0FBE14B5"
 				type: "item"
 				item: "ironjetpacks:stellar_capacitor"
+			}]
+			rewards: [{
+				id: "48EF5A33E254C774"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_stellar_alloy"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -2638,6 +2588,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5116C47A20419971"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_stellar_alloy"
+				random_bonus: 9
+			}]
 		}
 		{
 			x: 13.0d
@@ -2651,6 +2607,11 @@
 				id: "5F7BF4FC4987368F"
 				type: "item"
 				item: "ironjetpacks:terrasteel_thruster"
+			}]
+			rewards: [{
+				id: "7DA36016A8895F4E"
+				type: "item"
+				item: "botania:terrasteel_ingot"
 			}]
 		}
 		{
@@ -2669,6 +2630,11 @@
 				type: "item"
 				item: "ironjetpacks:terrasteel_cell"
 			}]
+			rewards: [{
+				id: "74D390E477E15C0E"
+				type: "item"
+				item: "ironjetpacks:otherworldian_cell"
+			}]
 		}
 		{
 			x: 14.25d
@@ -2686,6 +2652,11 @@
 				id: "0F3BBE2EFBC9FBCD"
 				type: "item"
 				item: "ironjetpacks:terrasteel_capacitor"
+			}]
+			rewards: [{
+				id: "05A295810C9EC95E"
+				type: "item"
+				item: "ironjetpacks:terrasteel_cell"
 			}]
 		}
 		{
@@ -2712,6 +2683,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "31297143E12F9DEB"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+				random_bonus: 4
+			}]
 		}
 		{
 			x: 23.25d
@@ -2729,6 +2706,12 @@
 				id: "438B1C77DBE7D93F"
 				type: "item"
 				item: "ironjetpacks:nitro_cell"
+			}]
+			rewards: [{
+				id: "51F7BBE86B4D5B9A"
+				type: "item"
+				item: "powah:crystal_nitro"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -2748,6 +2731,12 @@
 				type: "item"
 				item: "ironjetpacks:nitro_thruster"
 			}]
+			rewards: [{
+				id: "765CC6038AF91DD4"
+				type: "item"
+				item: "powah:crystal_nitro"
+				random_bonus: 4
+			}]
 		}
 		{
 			x: 23.25d
@@ -2761,6 +2750,11 @@
 				id: "3CD3601E8933C768"
 				type: "item"
 				item: "ironjetpacks:nitro_capacitor"
+			}]
+			rewards: [{
+				id: "1EF71F3C3F7A702B"
+				type: "item"
+				item: "ironjetpacks:nitro_cell"
 			}]
 		}
 		{
@@ -2787,6 +2781,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "292B643D48C32462"
+				type: "item"
+				item: "powah:crystal_nitro"
+				random_bonus: 9
+			}]
 		}
 		{
 			x: 11.75d
@@ -2804,6 +2804,11 @@
 				type: "item"
 				item: "ironjetpacks:otherworldian_cell"
 			}]
+			rewards: [{
+				id: "494AAEAC92824EC7"
+				type: "item"
+				item: "ironjetpacks:mechanical_cell"
+			}]
 		}
 		{
 			x: 13.0d
@@ -2817,6 +2822,11 @@
 				id: "6BE671C6EE06FBB5"
 				type: "item"
 				item: "ironjetpacks:otherworldian_thruster"
+			}]
+			rewards: [{
+				id: "2ACD1AA1E77F801B"
+				type: "random"
+				table_id: 8202122937404650615L
 			}]
 		}
 		{
@@ -2834,6 +2844,11 @@
 				id: "48A8E404617DC64E"
 				type: "item"
 				item: "ironjetpacks:otherworldian_capacitor"
+			}]
+			rewards: [{
+				id: "7C97BFA3D070AD09"
+				type: "item"
+				item: "ironjetpacks:otherworldian_cell"
 			}]
 		}
 		{
@@ -2861,6 +2876,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6933ECC6F1B7F3BC"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			x: 16.75d
@@ -2878,6 +2898,11 @@
 				type: "item"
 				item: "ironjetpacks:regalium_cell"
 			}]
+			rewards: [{
+				id: "053DF75E81A69746"
+				type: "item"
+				item: "ironjetpacks:terrasteel_cell"
+			}]
 		}
 		{
 			x: 18.0d
@@ -2891,6 +2916,11 @@
 				id: "21B4F61719F710DE"
 				type: "item"
 				item: "ironjetpacks:regalium_thruster"
+			}]
+			rewards: [{
+				id: "4BF633A20EE19320"
+				type: "item"
+				item: "undergarden:gloomgourd_pie"
 			}]
 		}
 		{
@@ -2908,6 +2938,11 @@
 				id: "6F5A4E7073179DDC"
 				type: "item"
 				item: "ironjetpacks:regalium_capacitor"
+			}]
+			rewards: [{
+				id: "20D646E48A8BDFAC"
+				type: "item"
+				item: "ironjetpacks:regalium_cell"
 			}]
 		}
 		{
@@ -2935,6 +2970,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7A7BAE785D289725"
+				type: "item"
+				item: "undergarden:regalium_ingot"
+				random_bonus: 4
+			}]
 		}
 		{
 			x: 10.5d
@@ -2954,6 +2995,12 @@
 				type: "item"
 				item: "ironjetpacks:mechanical_cell"
 			}]
+			rewards: [{
+				id: "6A763C7028D358D0"
+				type: "item"
+				item: "create:shaft"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 9.25d
@@ -2968,6 +3015,12 @@
 				type: "item"
 				item: "ironjetpacks:mechanical_thruster"
 			}]
+			rewards: [{
+				id: "74A379006BE42DA0"
+				type: "item"
+				item: "create:andesite_alloy"
+				random_bonus: 9
+			}]
 		}
 		{
 			x: 10.5d
@@ -2981,6 +3034,11 @@
 				id: "22DFD31598C6C566"
 				type: "item"
 				item: "ironjetpacks:mechanical_capacitor"
+			}]
+			rewards: [{
+				id: "029401C55675CFFE"
+				type: "item"
+				item: "ironjetpacks:mechanical_cell"
 			}]
 		}
 		{
@@ -3006,6 +3064,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "537FBC1A57698DCB"
+				type: "random"
+				table_id: 8720166214252051590L
+			}]
 		}
 		{
 			x: 19.25d
@@ -3022,6 +3085,11 @@
 				id: "21A33FF4882A404E"
 				type: "item"
 				item: "ironjetpacks:inanite_cell"
+			}]
+			rewards: [{
+				id: "311C4ACBEF2E489C"
+				type: "item"
+				item: "ironjetpacks:regalium_cell"
 			}]
 		}
 		{
@@ -3040,6 +3108,11 @@
 				type: "item"
 				item: "ironjetpacks:inanite_thruster"
 			}]
+			rewards: [{
+				id: "657D232DB43F2999"
+				type: "item"
+				item: "bigreactors:inanite_ingot"
+			}]
 		}
 		{
 			x: 19.25d
@@ -3053,6 +3126,11 @@
 				id: "344776D9D1D04C2E"
 				type: "item"
 				item: "ironjetpacks:inanite_capacitor"
+			}]
+			rewards: [{
+				id: "02244FDAFF17B618"
+				type: "item"
+				item: "ironjetpacks:inanite_cell"
 			}]
 		}
 		{
@@ -3079,6 +3157,12 @@
 						Throttle: 1.0d
 					}
 				}
+			}]
+			rewards: [{
+				id: "014D784C0121513F"
+				type: "item"
+				item: "bigreactors:inanite_ingot"
+				random_bonus: 4
 			}]
 		}
 		{

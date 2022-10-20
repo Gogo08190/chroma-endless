@@ -1,0 +1,29 @@
+{
+	id: "71D3CB5AD8167477"
+	order_index: 8
+	title: "Occultism random"
+	icon: "occultism:ritual_dummy/familiar_beaver"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{
+			item: {
+				id: "occultism:otherworld_sapling_natural"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{ item: "occultism:tallow" }
+		{ item: "occultism:otherworld_ashes" }
+		{ item: "occultism:burnt_otherstone" }
+		{ item: "occultism:iesnium_nugget" }
+		{ item: "occultism:crushed_end_stone" }
+		{ item: "occultism:purified_ink" }
+		{ item: "occultism:datura_seeds" }
+		{ item: "occultism:datura" }
+		{ item: "occultism:otherstone" }
+		{ item: "occultism:candle_white" }
+		{ item: "occultism:spirit_attuned_crystal" }
+	]
+}
