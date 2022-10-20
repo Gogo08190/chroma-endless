@@ -10,48 +10,29 @@ onEvent('recipes', (event) => {
             { type: 'masterfulmachinery:items', data: { item: 'kubejs:chroma_matter', count: 1 } },
             {
               perTick: true,
-              type: 'masterfulmachinery:energy', data: { amount: 5000 }
+              type: 'masterfulmachinery:energy', data: { amount: 400000000 }
             }
           ],
           inputs: [
               {
                 consumeInstantly: true,
-                type: 'masterfulmachinery:items', data: { item: 'envirocore:litherite_boule', count: 1 } },
+                type: 'masterfulmachinery:items', data: { item: 'draconicevolution:large_chaos_frag', count: 1 }
+              },
+              {
+                consumeInstantly: true,
+                type: 'masterfulmachinery:mekanism_gas', data: { gas: 'kubejs:light', amount: 1000 }
+              },
+              {
+                consumeInstantly: true,
+                type: 'masterfulmachinery:fluids', data: { fluid: 'bigreactors:rossinite', amount: 1000 }
+              },
+              {
+                consumeInstantly: true,
+                type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 1100 }
+              },
           ],
-          ticks: 512,
+          ticks: 200,
           id: `${id_prefix}low_energy_generation`
-      },
-      {
-          outputs: [
-            { type: 'masterfulmachinery:items', data: { item: 'powah:crystal_nitro', count: 1 } },
-            {
-              perTick: true,
-              type: 'masterfulmachinery:energy', data: { amount: 60000 }
-            }
-          ],
-          inputs: [
-              {
-                consumeInstantly: true,
-                type: 'masterfulmachinery:items', data: { item: "ironjetpacks:nitro_cell", count: 1 } }
-          ],
-          ticks: 512,
-          id: `${id_prefix}nitro_cell_recycling`
-      },
-      {
-          outputs: [
-            { type: 'masterfulmachinery:items', data: { item: 'powah:crystal_nitro', count: 1 } },
-            {
-              perTick: true,
-              type: 'masterfulmachinery:energy', data: { amount: 60000 }
-            }
-          ],
-          inputs: [
-              {
-                consumeInstantly: true,
-                type: 'masterfulmachinery:items', data: { item: "ironjetpacks:nitro_thruster", count: 1 } }
-          ],
-          ticks: 512,
-          id: `${id_prefix}nitro_thruster_recycling`
       }
     ];
 
