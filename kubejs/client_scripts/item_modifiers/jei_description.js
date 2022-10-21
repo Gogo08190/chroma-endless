@@ -333,6 +333,72 @@ onEvent('jei.information', (event) => {
             text: [
                 `Use a tablet of disintegration on a ritual brazier. Power with full source jar. As mobs walk into the field produced by the brazier they will be turned into xp gems.`
             ]
+        },
+        {
+            items: ['kubejs:creative_catalyst'],
+            text: [
+                `Obtain in the Void ore miner from Tier 8 in The End.`
+            ]
+        },
+        {
+            items: ['projecte:high_covalence_dust'],
+            text: [
+                `Obtain in the Void ore miner from Tier 5 in The End. More drop with Blue Lens.`
+            ]
+        },
+        {
+            items: ['projecte:low_covalence_dust']'],
+            text: [
+                `Obtain in the Void ore miner from Tier 5 in The End. More drop with Lime Lens.`
+            ]
+        },
+        {
+            items: ['projecte:medium_covalence_dust'],
+            text: [
+                `Obtain in the Void ore miner from Tier 5 in The End. More drop with Cyan Lens.`
+            ]
+        },
+        {
+            items: ['ironjetpacks:nitro_cell'],
+            text: [
+                `Obtain in the Void ore miner from Tier 6 in The End. More drop with Red Lens.`
+            ]
+        },
+        {
+            items: ['ironjetpacks:nitro_thruster'],
+            text: [
+                `Obtain in the Void ore miner from Tier 6 in The End. More drop with Red Lens.`
+            ]
+        },
+        {
+            items: ['create:andesite_alloy'],
+            text: [
+                `You can also get it in the Void ore miner. More drop with Gray Lens.`
+            ]
+        },
+        {
+            items: ['emendatusenigmatica:coke_gem'],
+            text: [
+                `You can also get it in the Void ore miner from Tier 4. More drop with Black Lens.`
+            ]
+        },
+        {
+            items: ['powah:dielectric_paste'],
+            text: [
+                `You can also get it in the Void ore miner from Tier 7. More drop with Black Lens.`
+            ]
+        },
+        {
+            items: ['occultism:otherstone'],
+            text: [
+                `You can also get it in the Void ore miner. More drop with Black Lens.`
+            ]
+        },
+        {
+            items: ['occultism:otherworld_log'],
+            text: [
+                `You can also get it in the Void ore miner. More drop with Purple Lens.`
+            ]
         }
     ];
 
