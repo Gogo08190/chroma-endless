@@ -18,6 +18,11 @@
 				type: "item"
 				item: "enderioalloys:item_material_skull_zombie_electrode"
 			}]
+			rewards: [{
+				id: "1029D0FAD5D33AA8"
+				type: "item"
+				item: "minecraft:zombie_head"
+			}]
 		}
 		{
 			x: -0.5d
@@ -28,6 +33,11 @@
 				id: "4BCA10CE44423A8A"
 				type: "item"
 				item: "enderioalloys:item_material_skull_zombie_controller"
+			}]
+			rewards: [{
+				id: "133664BC0D4F1788"
+				type: "item"
+				item: "minecraft:zombie_head"
 			}]
 		}
 		{
@@ -59,6 +69,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1E82F65815E71445"
+				type: "item"
+				item: "industrialforegoing:essence_bucket"
+			}]
 		}
 		{
 			x: 0.5d
@@ -69,6 +84,11 @@
 				id: "57A50AE1FED504A2"
 				type: "item"
 				item: "enderioalloys:item_material_skull_skeletal_contractor"
+			}]
+			rewards: [{
+				id: "566CDBD3F7887AF4"
+				type: "item"
+				item: "minecraft:skeleton_skull"
 			}]
 		}
 		{
@@ -81,6 +101,11 @@
 				type: "item"
 				item: "enderioalloys:item_material_skull_ender_resonator"
 			}]
+			rewards: [{
+				id: "6B555DA4B46B261C"
+				type: "item"
+				item: "tconstruct:enderman_head"
+			}]
 		}
 		{
 			x: 1.0d
@@ -90,6 +115,11 @@
 			id: "38C929808BBB9FFF"
 			tasks: [{
 				id: "7E95737046913492"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_crude_steel"
+			}]
+			rewards: [{
+				id: "68780F4E34109D90"
 				type: "item"
 				item: "enderioalloys:item_alloy_ingot_crude_steel"
 			}]
@@ -117,6 +147,11 @@
 				type: "item"
 				item: "enderioalloys:item_alloy_ingot_redstone_alloy"
 			}]
+			rewards: [{
+				id: "3B719F95D7DE78F2"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_redstone_alloy"
+			}]
 		}
 		{
 			x: 1.5d
@@ -126,6 +161,11 @@
 			id: "3300C7DD0785113B"
 			tasks: [{
 				id: "72D25C6312BEC96C"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_pulsating_iron"
+			}]
+			rewards: [{
+				id: "1C217564C1E4B0C0"
 				type: "item"
 				item: "enderioalloys:item_alloy_ingot_pulsating_iron"
 			}]
@@ -141,6 +181,11 @@
 				type: "item"
 				item: "enderioalloys:item_alloy_ingot_electrical_steel"
 			}]
+			rewards: [{
+				id: "6B813ABA434768BA"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_electrical_steel"
+			}]
 		}
 		{
 			x: 0.5d
@@ -150,6 +195,11 @@
 			id: "66496828833731B1"
 			tasks: [{
 				id: "6FD370025BE12620"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_energetic_alloy"
+			}]
+			rewards: [{
+				id: "7324ACAC4E86D4A3"
 				type: "item"
 				item: "enderioalloys:item_alloy_ingot_energetic_alloy"
 			}]
@@ -165,6 +215,11 @@
 				type: "item"
 				item: "enderioalloys:item_alloy_ingot_soularium"
 			}]
+			rewards: [{
+				id: "0D5BB4A203A122B2"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_soularium"
+			}]
 		}
 		{
 			x: 0.5d
@@ -174,6 +229,11 @@
 			id: "5BBFB01F0E06BF9F"
 			tasks: [{
 				id: "0B2864DB6B6A86AF"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_end_steel"
+			}]
+			rewards: [{
+				id: "3FFE42479B164C98"
 				type: "item"
 				item: "enderioalloys:item_alloy_ingot_end_steel"
 			}]
@@ -189,6 +249,11 @@
 				type: "item"
 				item: "enderioalloys:item_alloy_ingot_dark_steel"
 			}]
+			rewards: [{
+				id: "03660EAFAC38FD12"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_dark_steel"
+			}]
 		}
 		{
 			x: -1.0d
@@ -198,6 +263,11 @@
 			id: "114B2878B5B32D2E"
 			tasks: [{
 				id: "373071AFE2B26D09"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_energetic_silver"
+			}]
+			rewards: [{
+				id: "230FC52CEA2CCD12"
 				type: "item"
 				item: "enderioalloys:item_alloy_ingot_energetic_silver"
 			}]
@@ -213,6 +283,11 @@
 				type: "item"
 				item: "enderioalloys:item_alloy_ingot_conductive_iron"
 			}]
+			rewards: [{
+				id: "0C3A0695BA09F5A8"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_conductive_iron"
+			}]
 		}
 		{
 			x: -1.0d
@@ -222,6 +297,11 @@
 			id: "1130C3F682C33D56"
 			tasks: [{
 				id: "6CFCEAB21D67DF8E"
+				type: "item"
+				item: "enderioalloys:item_material_glazed_nether_brick"
+			}]
+			rewards: [{
+				id: "7220B46B6A7ABBDC"
 				type: "item"
 				item: "enderioalloys:item_material_glazed_nether_brick"
 			}]
@@ -237,6 +317,11 @@
 				type: "item"
 				item: "enderioalloys:item_alloy_ingot_crystalline_alloy"
 			}]
+			rewards: [{
+				id: "021C171849D5AC32"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_crystalline_alloy"
+			}]
 		}
 		{
 			x: -0.5d
@@ -246,6 +331,11 @@
 			id: "1FC021A3877901BF"
 			tasks: [{
 				id: "42CBAF40593D687E"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_vivid_alloy"
+			}]
+			rewards: [{
+				id: "5539F6BADE352B4D"
 				type: "item"
 				item: "enderioalloys:item_alloy_ingot_vivid_alloy"
 			}]
@@ -261,6 +351,11 @@
 				type: "item"
 				item: "enderioalloys:item_alloy_ingot_stellar_alloy"
 			}]
+			rewards: [{
+				id: "5C71619E895F5E0D"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_stellar_alloy"
+			}]
 		}
 		{
 			x: -1.5d
@@ -270,6 +365,11 @@
 			id: "092185A1F03832BE"
 			tasks: [{
 				id: "2E166FD46D2E5210"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_crystalline_pink_slime"
+			}]
+			rewards: [{
+				id: "6EA05304B4414221"
 				type: "item"
 				item: "enderioalloys:item_alloy_ingot_crystalline_pink_slime"
 			}]
@@ -303,6 +403,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4A3792A8614384CA"
+				type: "item"
+				item: "emendatusenigmatica:steel_ingot"
+				count: 4
+			}]
 		}
 		{
 			x: -1.0d
@@ -313,6 +419,11 @@
 			id: "63A29FE5B540965D"
 			tasks: [{
 				id: "168A602C2849FEEB"
+				type: "item"
+				item: "kubejs:basic_capacitor"
+			}]
+			rewards: [{
+				id: "785A86521845D121"
 				type: "item"
 				item: "kubejs:basic_capacitor"
 			}]
@@ -331,6 +442,11 @@
 				type: "item"
 				item: "kubejs:double-layer_capacitor"
 			}]
+			rewards: [{
+				id: "780A28C5B8BACC90"
+				type: "item"
+				item: "kubejs:double-layer_capacitor"
+			}]
 		}
 		{
 			x: 1.0d
@@ -346,6 +462,11 @@
 				type: "item"
 				item: "kubejs:octadic_capacitor"
 			}]
+			rewards: [{
+				id: "5AA542E7DD8676C2"
+				type: "item"
+				item: "kubejs:octadic_capacitor"
+			}]
 		}
 		{
 			x: -1.0d
@@ -355,6 +476,11 @@
 			id: "110DC7DC1EEF3FB0"
 			tasks: [{
 				id: "4804D5C7A7BA55BF"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_vibrant_alloy"
+			}]
+			rewards: [{
+				id: "74B0D277B81BBBC1"
 				type: "item"
 				item: "enderioalloys:item_alloy_ingot_vibrant_alloy"
 			}]
@@ -375,6 +501,11 @@
 				type: "item"
 				item: "enderioalloys:item_material_weather_crystal"
 			}]
+			rewards: [{
+				id: "5D9701F5EA063848"
+				type: "item"
+				item: "enderioalloys:item_material_weather_crystal"
+			}]
 		}
 		{
 			x: -2.25d
@@ -385,6 +516,11 @@
 			id: "37C8524602AC71CD"
 			tasks: [{
 				id: "701B350275217531"
+				type: "item"
+				item: "enderioalloys:item_material_vibrant_crystal"
+			}]
+			rewards: [{
+				id: "6CBCD9F39B702DFD"
 				type: "item"
 				item: "enderioalloys:item_material_vibrant_crystal"
 			}]
@@ -401,6 +537,11 @@
 				type: "item"
 				item: "enderioalloys:item_material_pulsating_crystal"
 			}]
+			rewards: [{
+				id: "3B884A7E5F771CEE"
+				type: "item"
+				item: "enderioalloys:item_material_pulsating_crystal"
+			}]
 		}
 		{
 			x: -1.75d
@@ -411,6 +552,11 @@
 			id: "74620C853A80A58E"
 			tasks: [{
 				id: "79A430091FC6234A"
+				type: "item"
+				item: "enderioalloys:item_material_ender_crystal"
+			}]
+			rewards: [{
+				id: "3B650F783E1FB68A"
 				type: "item"
 				item: "enderioalloys:item_material_ender_crystal"
 			}]

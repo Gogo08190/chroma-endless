@@ -24,6 +24,13 @@
 				type: "item"
 				item: "extendedcrafting:black_iron_ingot"
 			}]
+			rewards: [{
+				id: "35324B6C25D1EDE2"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
+				count: 2
+				random_bonus: 2
+			}]
 		}
 		{
 			x: -1.25d
@@ -55,6 +62,11 @@
 			id: "6D4CE7DB9226C36C"
 			tasks: [{
 				id: "11F0446FF23E8FE9"
+				type: "item"
+				item: "extendedcrafting:black_iron_slate"
+			}]
+			rewards: [{
+				id: "3740241E6655F6A2"
 				type: "item"
 				item: "extendedcrafting:black_iron_slate"
 			}]
@@ -409,6 +421,11 @@
 					item: "extendedcrafting:ender_alternator"
 				}
 			]
+			rewards: [{
+				id: "3BB54666F9D796C6"
+				type: "item"
+				item: "extendedcrafting:ender_alternator"
+			}]
 		}
 		{
 			x: 0.25d
@@ -420,6 +437,11 @@
 			id: "358A0D2556CCA397"
 			tasks: [{
 				id: "5B37AB77AD236A6E"
+				type: "item"
+				item: "extendedcrafting:enhanced_ender_ingot"
+			}]
+			rewards: [{
+				id: "5AB1BDE6E5592843"
 				type: "item"
 				item: "extendedcrafting:enhanced_ender_ingot"
 			}]
@@ -456,6 +478,11 @@
 				type: "item"
 				item: "extendedcrafting:crystaltine_ingot"
 			}]
+			rewards: [{
+				id: "6DEFFAE8DF7BBEBB"
+				type: "item"
+				item: "kubejs:mesophase_bucket"
+			}]
 		}
 		{
 			x: 1.0d
@@ -471,6 +498,11 @@
 				type: "item"
 				item: "extendedcrafting:luminessence"
 			}]
+			rewards: [{
+				id: "0398AECAD0FC8917"
+				type: "item"
+				item: "extendedcrafting:luminessence"
+			}]
 		}
 		{
 			x: 1.75d
@@ -479,6 +511,11 @@
 			id: "102035F52CE5271C"
 			tasks: [{
 				id: "0EFD3CB80B1F3521"
+				type: "item"
+				item: "extendedcrafting:ender_star"
+			}]
+			rewards: [{
+				id: "1540A604DE01FE1F"
 				type: "item"
 				item: "extendedcrafting:ender_star"
 			}]
@@ -533,6 +570,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4DAA29DB2BF1DFA7"
+				type: "item"
+				item: "botania:elementium_ingot"
+				count: 16
+			}]
 		}
 		{
 			x: 6.5d
@@ -549,6 +592,12 @@
 						Id: "extendedcrafting:fireite"
 					}
 				}
+			}]
+			rewards: [{
+				id: "277F7404F8E765C0"
+				type: "item"
+				item: "elementalcraft:fireite_ingot"
+				count: 16
 			}]
 		}
 		{
@@ -567,6 +616,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7C94EB3397152B98"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 16
+			}]
 		}
 		{
 			x: 6.5d
@@ -583,6 +638,12 @@
 						Id: "extendedcrafting:niotic"
 					}
 				}
+			}]
+			rewards: [{
+				id: "3136ECCE4464450D"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 16
 			}]
 		}
 		{
@@ -601,6 +662,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "19643BB81C4B3CA2"
+				type: "item"
+				item: "botania:tiny_potato"
+				count: 16
+			}]
 		}
 		{
 			x: 8.5d
@@ -617,6 +684,18 @@
 						Id: "extendedcrafting:swift_alloy"
 					}
 				}
+			}]
+			rewards: [{
+				id: "15F4E56115B48365"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:swift_alloy"
+					}
+				}
+				count: 16
 			}]
 		}
 		{
@@ -635,6 +714,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "77E5B22D961C3B38"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 16
+			}]
 		}
 		{
 			x: 8.5d
@@ -651,6 +736,12 @@
 						Id: "extendedcrafting:compressed_iron"
 					}
 				}
+			}]
+			rewards: [{
+				id: "4BA7EC121CEBA8FA"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				count: 16
 			}]
 		}
 		{
@@ -669,6 +760,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7C26085EC08FA34A"
+				type: "item"
+				item: "miniutilities:experience_pearl"
+				count: 16
+			}]
 		}
 		{
 			x: 7.5d
@@ -685,6 +782,18 @@
 						Id: "extendedcrafting:manasteel"
 					}
 				}
+			}]
+			rewards: [{
+				id: "1AB4D57A8BDEB15F"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:manasteel"
+					}
+				}
+				count: 16
 			}]
 		}
 		{
@@ -703,6 +812,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1D2F11A5119ECC84"
+				type: "item"
+				item: "draconicevolution:chaos_shard"
+				count: 16
+			}]
 		}
 		{
 			x: 9.5d
@@ -719,6 +834,12 @@
 						Id: "extendedcrafting:terrasteel"
 					}
 				}
+			}]
+			rewards: [{
+				id: "3C3B07389B8964C7"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+				count: 16
 			}]
 		}
 		{
@@ -737,6 +858,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0449858510B6D90E"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 16
+			}]
 		}
 		{
 			x: 9.5d
@@ -753,6 +880,12 @@
 						Id: "extendedcrafting:quartz_enriched_iron"
 					}
 				}
+			}]
+			rewards: [{
+				id: "731E22C4A4679AB2"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+				count: 16
 			}]
 		}
 		{
@@ -771,6 +904,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7241A412588F7258"
+				type: "item"
+				item: "projecte:red_matter"
+				count: 16
+			}]
 		}
 		{
 			x: 5.5d
@@ -787,6 +926,12 @@
 						Id: "extendedcrafting:source_gem"
 					}
 				}
+			}]
+			rewards: [{
+				id: "1B64E967D874900A"
+				type: "item"
+				item: "emendatusenigmatica:arcane_gem"
+				count: 16
 			}]
 		}
 		{
@@ -805,6 +950,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1510DCDCA49E70B5"
+				type: "item"
+				item: "powah:uraninite"
+				count: 16
+			}]
 		}
 		{
 			x: 7.5d
@@ -821,6 +972,12 @@
 						Id: "extendedcrafting:blazing"
 					}
 				}
+			}]
+			rewards: [{
+				id: "58ABD05DA238D40C"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 16
 			}]
 		}
 		{
@@ -840,6 +997,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "28A8CA797E070618"
+				type: "item"
+				item: "create:bar_of_chocolate"
+				count: 16
+			}]
 		}
 		{
 			x: 6.5d
@@ -856,6 +1019,12 @@
 						Id: "extendedcrafting:comb"
 					}
 				}
+			}]
+			rewards: [{
+				id: "107A266E1D435237"
+				type: "item"
+				item: "minecraft:honeycomb"
+				count: 16
 			}]
 		}
 		{
@@ -1539,6 +1708,12 @@
 				type: "item"
 				item: "kubejs:inert_luminessence"
 			}]
+			rewards: [{
+				id: "76827990380BD716"
+				type: "item"
+				item: "kubejs:inert_luminessence"
+				random_bonus: 1
+			}]
 		}
 		{
 			x: -1.75d
@@ -1547,6 +1722,11 @@
 			id: "6FD0CEB7984BDC32"
 			tasks: [{
 				id: "3C9FC25987702329"
+				type: "item"
+				item: "kubejs:dark_ingot"
+			}]
+			rewards: [{
+				id: "3245EB7776CA038B"
 				type: "item"
 				item: "kubejs:dark_ingot"
 			}]
@@ -1561,6 +1741,11 @@
 				type: "item"
 				item: "kubejs:red_ingot"
 			}]
+			rewards: [{
+				id: "1E33F7E513B999B6"
+				type: "item"
+				item: "kubejs:red_ingot"
+			}]
 		}
 		{
 			x: -0.75d
@@ -1569,6 +1754,11 @@
 			id: "37E0FFDCDEE5CE9F"
 			tasks: [{
 				id: "298BBD18F04B105A"
+				type: "item"
+				item: "kubejs:orange_ingot"
+			}]
+			rewards: [{
+				id: "59AE1A82F7A75C33"
 				type: "item"
 				item: "kubejs:orange_ingot"
 			}]
@@ -1583,6 +1773,11 @@
 				type: "item"
 				item: "kubejs:purple_ingot"
 			}]
+			rewards: [{
+				id: "62481259B6F1D638"
+				type: "item"
+				item: "kubejs:purple_ingot"
+			}]
 		}
 		{
 			x: 2.25d
@@ -1591,6 +1786,11 @@
 			id: "25C395671F61EDF4"
 			tasks: [{
 				id: "155A02C3C9851EE9"
+				type: "item"
+				item: "kubejs:pink_ingot"
+			}]
+			rewards: [{
+				id: "1E76DE3D9F151255"
 				type: "item"
 				item: "kubejs:pink_ingot"
 			}]
@@ -1605,6 +1805,11 @@
 				type: "item"
 				item: "kubejs:blue_ingot"
 			}]
+			rewards: [{
+				id: "5E2656D81B6F9353"
+				type: "item"
+				item: "kubejs:blue_ingot"
+			}]
 		}
 		{
 			x: 3.25d
@@ -1616,6 +1821,11 @@
 				type: "item"
 				item: "kubejs:green_ingot"
 			}]
+			rewards: [{
+				id: "25E3EDA2564825A7"
+				type: "item"
+				item: "kubejs:green_ingot"
+			}]
 		}
 		{
 			x: 3.75d
@@ -1624,6 +1834,11 @@
 			id: "4E0E9B614C5F5DFB"
 			tasks: [{
 				id: "412473A1E8E55CBE"
+				type: "item"
+				item: "kubejs:light_ingot"
+			}]
+			rewards: [{
+				id: "4F274492C35C3A06"
 				type: "item"
 				item: "kubejs:light_ingot"
 			}]
@@ -1646,6 +1861,11 @@
 			id: "52DF88FA64094131"
 			tasks: [{
 				id: "303E8E2C6CD50779"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_ingot"
+			}]
+			rewards: [{
+				id: "2DD610382F8B997B"
 				type: "item"
 				item: "extendedcrafting:the_ultimate_ingot"
 			}]
