@@ -556,7 +556,7 @@ onEvent('recipes', (event) => {
           pattern: ['AAA', 'CEC', 'DBD'],
           key: {
               A: 'industrialforegoing:plastic',
-              B: 'industrialforegoing:machine_frame_advanced',
+              B: 'industrialforegoing:machine_frame_supreme',
               C: 'minecraft:ender_eye',
               D: 'create:fluid_tank',
               E: 'industrialforegoing:advanced_black_hole_tank'
@@ -580,7 +580,7 @@ onEvent('recipes', (event) => {
           pattern: ['AAA', 'CEC', 'DBD'],
           key: {
               A: 'industrialforegoing:plastic',
-              B: 'industrialforegoing:machine_frame_advanced',
+              B: 'industrialforegoing:machine_frame_supreme',
               C: 'minecraft:ender_eye',
               D: 'pneumaticcraft:reinforced_chest',
               E: 'industrialforegoing:advanced_black_hole_unit'
