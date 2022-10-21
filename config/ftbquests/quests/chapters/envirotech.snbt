@@ -65,6 +65,11 @@
 				type: "item"
 				item: "envirocore:assembler"
 			}]
+			rewards: [{
+				id: "6B6C8EE0CCF21230"
+				type: "item"
+				item: "envirocore:structure_panel"
+			}]
 		}
 		{
 			x: -3.0d
@@ -80,6 +85,12 @@
 				type: "item"
 				item: "envirocore:structure_panel"
 			}]
+			rewards: [{
+				id: "24E02D0EB8EAB929"
+				type: "item"
+				item: "undergarden:utherium_chunk"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 0.25d
@@ -90,6 +101,11 @@
 				id: "4856399FF118461A"
 				type: "item"
 				item: "envirocore:obsidian_plate"
+			}]
+			rewards: [{
+				id: "663FCB1B1E4973FC"
+				type: "item"
+				item: "minecraft:obsidian"
 			}]
 		}
 		{
@@ -106,6 +122,12 @@
 				type: "item"
 				item: "envirocore:volatile_memory"
 			}]
+			rewards: [{
+				id: "6CB86C18C3A0B6D8"
+				type: "item"
+				item: "emendatusenigmatica:steel_ingot"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: -6.5d
@@ -119,6 +141,12 @@
 				id: "16619FA5D0F278F4"
 				type: "item"
 				item: "envirocore:cpu"
+			}]
+			rewards: [{
+				id: "5194F8D0E9CA2D06"
+				type: "item"
+				item: "emendatusenigmatica:electrum_ingot"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -169,6 +197,12 @@
 				type: "item"
 				item: "envirocore:flash_memory"
 			}]
+			rewards: [{
+				id: "37EA54DC1E409CCF"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_dark_steel"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -3.0d
@@ -186,6 +220,12 @@
 				id: "20ACCDEC431A04C5"
 				type: "item"
 				item: "envirocore:memory_programmer"
+			}]
+			rewards: [{
+				id: "50E2A4A0685A415E"
+				type: "item"
+				item: "envirocore:obsidian_plate"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -209,6 +249,11 @@
 				type: "item"
 				item: "envirocore:lens"
 			}]
+			rewards: [{
+				id: "706F3833E32FA97B"
+				type: "item"
+				item: "industrialforegoing:laser_lens0"
+			}]
 		}
 		{
 			x: -6.5d
@@ -219,6 +264,12 @@
 				id: "5E4167B7A3BA3BED"
 				type: "item"
 				item: "envirocore:lens_grinder"
+			}]
+			rewards: [{
+				id: "411327AA5BD390D4"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -243,6 +294,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2F066C8D54865142"
+				type: "item"
+				item: "envirocore:obsidian_plate"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -0.25d
@@ -266,6 +323,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "23FBA58F9B593F72"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_dark_steel"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 1.25d
@@ -288,6 +351,12 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "5A39DD51D4DDFA85"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_dark_steel"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -327,6 +396,12 @@
 				type: "item"
 				item: "envirotech:litherite_void_miner_ccu"
 			}]
+			rewards: [{
+				id: "3A3F206230F83EF8"
+				type: "item"
+				item: "envirocore:litherite_interconnect"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: -18.5d
@@ -351,6 +426,12 @@
 				id: "7AFDB5E9CE528821"
 				type: "item"
 				item: "envirotech:erodium_void_miner_ccu"
+			}]
+			rewards: [{
+				id: "2F68937B648A63DE"
+				type: "item"
+				item: "envirocore:erodium_interconnect"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -379,6 +460,12 @@
 				type: "item"
 				item: "envirotech:kyronite_void_miner_ccu"
 			}]
+			rewards: [{
+				id: "147279B1F4C4757A"
+				type: "item"
+				item: "envirocore:kyronite_interconnect"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: -7.5d
@@ -406,6 +493,12 @@
 				type: "item"
 				item: "envirotech:pladium_void_miner_ccu"
 			}]
+			rewards: [{
+				id: "3D8D9F3E35914C2F"
+				type: "item"
+				item: "envirocore:pladium_interconnect"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: -0.5d
@@ -431,6 +524,11 @@
 				id: "3C30F1C6C88F7893"
 				type: "item"
 				item: "envirotech:ionite_void_miner_ccu"
+			}]
+			rewards: [{
+				id: "0A626BB87AE2FE37"
+				type: "item"
+				item: "envirocore:ionite_interconnect"
 			}]
 		}
 		{
@@ -534,6 +632,12 @@
 				type: "item"
 				item: "enviroenergy:litherite_solar_ccu"
 			}]
+			rewards: [{
+				id: "1DE18830F9995AFA"
+				type: "item"
+				item: "envirocore:litherite_interconnect"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: -17.5d
@@ -557,6 +661,12 @@
 				id: "4946ADAA61533147"
 				type: "item"
 				item: "enviroenergy:erodium_solar_ccu"
+			}]
+			rewards: [{
+				id: "111D0AFBDB6D6E9D"
+				type: "item"
+				item: "envirocore:erodium_interconnect"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -583,6 +693,12 @@
 				type: "item"
 				item: "enviroenergy:kyronite_solar_ccu"
 			}]
+			rewards: [{
+				id: "70D719F1C14B96F1"
+				type: "item"
+				item: "envirocore:kyronite_interconnect"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: 0.5d
@@ -606,6 +722,11 @@
 				id: "1B499FA6E1EB75A4"
 				type: "item"
 				item: "enviroenergy:ionite_solar_ccu"
+			}]
+			rewards: [{
+				id: "1C37BA3394F31FA7"
+				type: "item"
+				item: "envirocore:ionite_interconnect"
 			}]
 		}
 		{
@@ -631,6 +752,12 @@
 				id: "05E387C0FB46EEFC"
 				type: "item"
 				item: "enviroenergy:pladium_solar_ccu"
+			}]
+			rewards: [{
+				id: "43E5B44AC7FA4C8C"
+				type: "item"
+				item: "envirocore:pladium_interconnect"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -704,6 +831,12 @@
 				type: "item"
 				item: "enviroenergy:litherite_lightning_ccu"
 			}]
+			rewards: [{
+				id: "26B67C6F77D44B53"
+				type: "item"
+				item: "envirocore:litherite_interconnect"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: -16.5d
@@ -728,6 +861,12 @@
 				id: "1A91C3CA169FC7AF"
 				type: "item"
 				item: "enviroenergy:erodium_lightning_ccu"
+			}]
+			rewards: [{
+				id: "1261AEE38F138E02"
+				type: "item"
+				item: "envirocore:erodium_interconnect"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -755,6 +894,12 @@
 				type: "item"
 				item: "enviroenergy:kyronite_lightning_ccu"
 			}]
+			rewards: [{
+				id: "180994A3E4F3CE72"
+				type: "item"
+				item: "envirocore:kyronite_interconnect"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: -5.5d
@@ -780,6 +925,12 @@
 				type: "item"
 				item: "enviroenergy:pladium_lightning_ccu"
 			}]
+			rewards: [{
+				id: "4C707B97A15FC48D"
+				type: "item"
+				item: "envirocore:pladium_interconnect"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: 1.5d
@@ -804,6 +955,11 @@
 				id: "1EF40701D39C81D8"
 				type: "item"
 				item: "enviroenergy:ionite_lightning_ccu"
+			}]
+			rewards: [{
+				id: "6779D7C3BA17AC36"
+				type: "item"
+				item: "envirocore:ionite_interconnect"
 			}]
 		}
 		{
@@ -898,6 +1054,12 @@
 				type: "item"
 				item: "enviroenergy:litherite_solar_cell"
 			}]
+			rewards: [{
+				id: "04E785FE02B348DB"
+				type: "item"
+				item: "kubejs:extreme_circuit_board"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -17.5d
@@ -914,6 +1076,12 @@
 				id: "58F7B33E97AAED8D"
 				type: "item"
 				item: "enviroenergy:erodium_solar_cell"
+			}]
+			rewards: [{
+				id: "3237E6882496116F"
+				type: "item"
+				item: "kubejs:extreme_circuit_board"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -932,6 +1100,12 @@
 				type: "item"
 				item: "enviroenergy:kyronite_solar_cell"
 			}]
+			rewards: [{
+				id: "7371F825ADD82CF1"
+				type: "item"
+				item: "kubejs:extreme_circuit_board"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -6.5d
@@ -948,6 +1122,12 @@
 				id: "372528216BAC7A5F"
 				type: "item"
 				item: "enviroenergy:pladium_solar_cell"
+			}]
+			rewards: [{
+				id: "79D7EDF442B443AF"
+				type: "item"
+				item: "kubejs:extreme_circuit_board"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -1035,6 +1215,11 @@
 				type: "item"
 				item: "kubejs:solar_cell_base"
 			}]
+			rewards: [{
+				id: "54CF8D0B8C1AA769"
+				type: "item"
+				item: "envirocore:structure_panel"
+			}]
 		}
 		{
 			x: -17.5d
@@ -1048,6 +1233,12 @@
 				id: "26D0C6F7A046BB58"
 				type: "item"
 				item: "envirocore:erodium_crystal"
+			}]
+			rewards: [{
+				id: "43B626017A2FA4F6"
+				type: "item"
+				item: "envirocore:erodium_crystal"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -1063,6 +1254,12 @@
 				type: "item"
 				item: "envirocore:kyronite_crystal"
 			}]
+			rewards: [{
+				id: "105B9E6EC90EF512"
+				type: "item"
+				item: "envirocore:kyronite_crystal"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: -6.5d
@@ -1077,6 +1274,12 @@
 				type: "item"
 				item: "envirocore:pladium_crystal"
 			}]
+			rewards: [{
+				id: "7CA02F38A886D97E"
+				type: "item"
+				item: "envirocore:pladium_crystal"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: 0.5d
@@ -1090,6 +1293,12 @@
 				id: "3931F5277290012D"
 				type: "item"
 				item: "envirocore:ionite_crystal"
+			}]
+			rewards: [{
+				id: "217868BB43F6C314"
+				type: "item"
+				item: "envirocore:ionite_crystal"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -1144,6 +1353,12 @@
 				type: "item"
 				item: "envirocore:erodium_powder"
 			}]
+			rewards: [{
+				id: "7741B59092AAE3CA"
+				type: "item"
+				item: "envirocore:erodium_crystal"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: -6.5d
@@ -1154,6 +1369,12 @@
 				id: "701AEAE99D9E0297"
 				type: "item"
 				item: "envirocore:pladium_powder"
+			}]
+			rewards: [{
+				id: "5BBB8AE88EA14344"
+				type: "item"
+				item: "envirocore:pladium_crystal"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -1166,6 +1387,12 @@
 				type: "item"
 				item: "envirocore:kyronite_powder"
 			}]
+			rewards: [{
+				id: "58CB59794662797F"
+				type: "item"
+				item: "envirocore:kyronite_crystal"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: -23.25d
@@ -1177,6 +1404,11 @@
 				type: "item"
 				item: "envirocore:litherite_powder"
 			}]
+			rewards: [{
+				id: "30145ECA8FA80F1A"
+				type: "item"
+				item: "kubejs:contained_litherite_crystal"
+			}]
 		}
 		{
 			x: 0.5d
@@ -1187,6 +1419,12 @@
 				id: "13C295FF2B05CFCC"
 				type: "item"
 				item: "envirocore:ionite_powder"
+			}]
+			rewards: [{
+				id: "09B9C9784B4C92C5"
+				type: "item"
+				item: "envirocore:ionite_crystal"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -1235,6 +1473,11 @@
 				type: "item"
 				item: "envirocore:litherite_boule"
 			}]
+			rewards: [{
+				id: "1F6A944A43236F29"
+				type: "item"
+				item: "envirocore:litherite_crystal"
+			}]
 		}
 		{
 			x: -17.5d
@@ -1248,6 +1491,12 @@
 				id: "376009638A5A47CC"
 				type: "item"
 				item: "envirocore:erodium_boule"
+			}]
+			rewards: [{
+				id: "69E7949976501A65"
+				type: "item"
+				item: "envirocore:erodium_crystal"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -1263,6 +1512,12 @@
 				type: "item"
 				item: "envirocore:kyronite_boule"
 			}]
+			rewards: [{
+				id: "74B31770AF3B8432"
+				type: "item"
+				item: "envirocore:kyronite_crystal"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: -6.5d
@@ -1277,6 +1532,12 @@
 				type: "item"
 				item: "envirocore:pladium_boule"
 			}]
+			rewards: [{
+				id: "572678329E63F6D3"
+				type: "item"
+				item: "envirocore:pladium_crystal"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: 0.5d
@@ -1290,6 +1551,12 @@
 				id: "47168E00B409EE60"
 				type: "item"
 				item: "envirocore:ionite_boule"
+			}]
+			rewards: [{
+				id: "47F29FEA95484CFE"
+				type: "item"
+				item: "envirocore:ionite_crystal"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -1363,6 +1630,12 @@
 				type: "item"
 				item: "envirocore:erodium_wafer"
 			}]
+			rewards: [{
+				id: "15DE16796C60542A"
+				type: "item"
+				item: "envirocore:erodium_crystal"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: -12.25d
@@ -1377,6 +1650,12 @@
 				id: "625CA4EBF56212BE"
 				type: "item"
 				item: "envirocore:kyronite_wafer"
+			}]
+			rewards: [{
+				id: "3D5DA8C70F490CDD"
+				type: "item"
+				item: "envirocore:kyronite_crystal"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -1393,6 +1672,12 @@
 				type: "item"
 				item: "envirocore:pladium_wafer"
 			}]
+			rewards: [{
+				id: "61685C4517EB4543"
+				type: "item"
+				item: "envirocore:pladium_crystal"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: 0.5d
@@ -1407,6 +1692,12 @@
 				id: "38A083E3E16078B9"
 				type: "item"
 				item: "envirocore:ionite_wafer"
+			}]
+			rewards: [{
+				id: "76AEC51F3C5DCE1B"
+				type: "item"
+				item: "envirocore:ionite_crystal"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -1471,6 +1762,11 @@
 				type: "item"
 				item: "envirocore:litherite_interconnect"
 			}]
+			rewards: [{
+				id: "47724EE0CAE230FC"
+				type: "item"
+				item: "envirocore:redstone_imbued_obsidian_plate"
+			}]
 		}
 		{
 			x: -17.5d
@@ -1487,6 +1783,11 @@
 				id: "4327E89D1694D9DB"
 				type: "item"
 				item: "envirocore:erodium_interconnect"
+			}]
+			rewards: [{
+				id: "508358E3A9496C86"
+				type: "item"
+				item: "envirocore:litherite_interconnect"
 			}]
 		}
 		{
@@ -1505,6 +1806,11 @@
 				type: "item"
 				item: "envirocore:kyronite_interconnect"
 			}]
+			rewards: [{
+				id: "198529EBC38CBAA1"
+				type: "item"
+				item: "envirocore:erodium_interconnect"
+			}]
 		}
 		{
 			x: -6.5d
@@ -1522,6 +1828,11 @@
 				type: "item"
 				item: "envirocore:pladium_interconnect"
 			}]
+			rewards: [{
+				id: "4CE7E65533843AD4"
+				type: "item"
+				item: "envirocore:kyronite_interconnect"
+			}]
 		}
 		{
 			x: 0.5d
@@ -1538,6 +1849,11 @@
 				id: "0D7B2B4D0560F282"
 				type: "item"
 				item: "envirocore:ionite_interconnect"
+			}]
+			rewards: [{
+				id: "656900B7FCC3B4C3"
+				type: "item"
+				item: "envirocore:pladium_interconnect"
 			}]
 		}
 		{
@@ -1610,6 +1926,11 @@
 				type: "item"
 				item: "envirocore:litherite_frame"
 			}]
+			rewards: [{
+				id: "6FD0D3DA92FD1EB5"
+				type: "item"
+				item: "envirocore:structure_panel"
+			}]
 		}
 		{
 			x: -17.5d
@@ -1627,6 +1948,11 @@
 				id: "65853078E88E53B6"
 				type: "item"
 				item: "envirocore:erodium_frame"
+			}]
+			rewards: [{
+				id: "22E470260CFE1B58"
+				type: "item"
+				item: "envirocore:litherite_frame"
 			}]
 		}
 		{
@@ -1646,6 +1972,11 @@
 				type: "item"
 				item: "envirocore:kyronite_frame"
 			}]
+			rewards: [{
+				id: "704224349E935824"
+				type: "item"
+				item: "envirocore:erodium_frame"
+			}]
 		}
 		{
 			x: -6.5d
@@ -1664,6 +1995,11 @@
 				type: "item"
 				item: "envirocore:pladium_frame"
 			}]
+			rewards: [{
+				id: "2578F8464603B5CC"
+				type: "item"
+				item: "envirocore:kyronite_frame"
+			}]
 		}
 		{
 			x: 0.5d
@@ -1681,6 +2017,11 @@
 				id: "05D4917735002C58"
 				type: "item"
 				item: "envirocore:ionite_frame"
+			}]
+			rewards: [{
+				id: "4D5F0DAE539F15A1"
+				type: "item"
+				item: "envirocore:pladium_frame"
 			}]
 		}
 		{
@@ -1756,6 +2097,12 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "4AA8821A727C6EEB"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_crystalline_alloy"
+				random_bonus: 3
+			}]
 		}
 		{
 			title: "&6Amplification Modifier"
@@ -1770,6 +2117,15 @@
 				type: "item"
 				item: {
 					id: "envirocore:amplification_modifier"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "279BD407BB17389D"
+				type: "item"
+				item: {
+					id: "envirocore:null_modifier"
 					Count: 1b
 					tag: { }
 				}
@@ -1792,6 +2148,15 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "2EC9829FBEEBC7E1"
+				type: "item"
+				item: {
+					id: "envirocore:null_modifier"
+					Count: 1b
+					tag: { }
+				}
+			}]
 		}
 		{
 			title: "&6Frequency Modifier"
@@ -1806,6 +2171,15 @@
 				type: "item"
 				item: {
 					id: "envirocore:frequency_modifier"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "17685EF5829B6B1F"
+				type: "item"
+				item: {
+					id: "envirocore:null_modifier"
 					Count: 1b
 					tag: { }
 				}
@@ -1828,6 +2202,15 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "7E5467EA05789B86"
+				type: "item"
+				item: {
+					id: "envirocore:null_modifier"
+					Count: 1b
+					tag: { }
+				}
+			}]
 		}
 		{
 			title: "&6Piezo Modifier"
@@ -1842,6 +2225,15 @@
 				type: "item"
 				item: {
 					id: "envirocore:piezo_modifier"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6368D4BC09A8AF07"
+				type: "item"
+				item: {
+					id: "envirocore:null_modifier"
 					Count: 1b
 					tag: { }
 				}
@@ -1864,6 +2256,15 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "1341525C4D90F7A4"
+				type: "item"
+				item: {
+					id: "envirocore:null_modifier"
+					Count: 1b
+					tag: { }
+				}
+			}]
 		}
 		{
 			title: "&6Dimensional Modifier"
@@ -1878,6 +2279,15 @@
 				type: "item"
 				item: {
 					id: "envirocore:dimensional_modifier"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "1FB8AB74D0F22D8F"
+				type: "item"
+				item: {
+					id: "envirocore:null_modifier"
 					Count: 1b
 					tag: { }
 				}
@@ -1900,6 +2310,15 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "195ACBE23B1D5F3B"
+				type: "item"
+				item: {
+					id: "envirocore:null_modifier"
+					Count: 1b
+					tag: { }
+				}
+			}]
 		}
 		{
 			title: "&6FE Input"
@@ -1913,6 +2332,15 @@
 				type: "item"
 				item: {
 					id: "envirocore:fe_input"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4FF7C1A2CE50382A"
+				type: "item"
+				item: {
+					id: "envirocore:null_io"
 					Count: 1b
 					tag: { }
 				}
@@ -1934,6 +2362,15 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "43C2E695A203DD74"
+				type: "item"
+				item: {
+					id: "envirocore:null_io"
+					Count: 1b
+					tag: { }
+				}
+			}]
 		}
 		{
 			title: "&6Item Output"
@@ -1947,6 +2384,15 @@
 				type: "item"
 				item: {
 					id: "envirocore:item_output"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "325A388BBBD7121E"
+				type: "item"
+				item: {
+					id: "envirocore:null_io"
 					Count: 1b
 					tag: { }
 				}
@@ -1973,6 +2419,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "4859EF12DFAFA8A2"
+				type: "item"
+				item: "envirocore:structure_panel"
+			}]
 		}
 		{
 			x: -6.5d
@@ -1988,6 +2439,12 @@
 				type: "item"
 				item: "envirocore:laser_diode"
 			}]
+			rewards: [{
+				id: "7B3C548A9D350052"
+				type: "item"
+				item: "thermal:lumium_glass"
+				random_bonus: 4
+			}]
 		}
 		{
 			x: -23.25d
@@ -2000,6 +2457,11 @@
 				id: "5F2565CC78061527"
 				type: "item"
 				item: "envirocore:litherite_crystal"
+			}]
+			rewards: [{
+				id: "4029931E0F57BFE2"
+				type: "item"
+				item: "elementalcraft:containedcrystal"
 			}]
 		}
 		{
@@ -2016,6 +2478,12 @@
 				id: "42939D5652AF7248"
 				type: "item"
 				item: "envirocore:redstone_imbued_obsidian_plate"
+			}]
+			rewards: [{
+				id: "68F025D1B2E905A2"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_redstone_alloy"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -2120,6 +2588,12 @@
 					count: 4L
 				}
 			]
+			rewards: [{
+				id: "727E0878F2B9A069"
+				type: "item"
+				item: "envirocore:structure_panel"
+				random_bonus: 9
+			}]
 		}
 		{
 			title: "Cutting Machine Factory Component - Part 2"
@@ -2161,6 +2635,12 @@
 					item: "masterfulmachinery:cuttingmachine_cuttingmachine_speed_port_create_rotation_input"
 				}
 			]
+			rewards: [{
+				id: "221D3B5F4318236E"
+				type: "item"
+				item: "envirocore:structure_panel"
+				random_bonus: 9
+			}]
 		}
 		{
 			x: -3.0d
@@ -2193,6 +2673,11 @@
 				type: "item"
 				item: "kubejs:litherite_photovoltaic_panel"
 			}]
+			rewards: [{
+				id: "4624E6890708014B"
+				type: "item"
+				item: "envirocore:structure_panel"
+			}]
 		}
 		{
 			x: -17.5d
@@ -2210,6 +2695,11 @@
 				id: "4F4C6C76E704D595"
 				type: "item"
 				item: "kubejs:erodium_photovoltaic_panel"
+			}]
+			rewards: [{
+				id: "1DFC3F639EF9D02D"
+				type: "item"
+				item: "envirocore:structure_panel"
 			}]
 		}
 		{
@@ -2229,6 +2719,11 @@
 				type: "item"
 				item: "kubejs:kyronite_photovoltaic_panel"
 			}]
+			rewards: [{
+				id: "2AA908A69280F7A9"
+				type: "item"
+				item: "envirocore:structure_panel"
+			}]
 		}
 		{
 			x: -6.5d
@@ -2246,6 +2741,11 @@
 				id: "32B01803E8458088"
 				type: "item"
 				item: "kubejs:pladium_photovoltaic_panel"
+			}]
+			rewards: [{
+				id: "523C74D82C05C95E"
+				type: "item"
+				item: "envirocore:structure_panel"
 			}]
 		}
 		{

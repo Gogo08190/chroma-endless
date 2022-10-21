@@ -7,10 +7,73 @@
 	icon: "environmental:cartwheel"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -8.5d
+			y: -14.75d
+			width: 15.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/photo1.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 4.5d
+			y: -14.75d
+			width: 15.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/photo2.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 17.5d
+			y: -14.75d
+			width: 15.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/photo3.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -8.5d
+			y: 7.0d
+			width: 15.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/photo4.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 19.75d
+			y: 2.25d
+			width: 10.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/photo5.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
 			x: 0.0d
 			y: 0.0d
+			dependencies: ["1416718F40ED7569"]
 			dependency_requirement: "all_started"
 			id: "3F89C1FE81B0CF9E"
 			tasks: [{
@@ -23,6 +86,7 @@
 			icon: "atmospheric:rosewood_sapling"
 			x: -7.25d
 			y: -1.75d
+			shape: "rsquare"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "22467A10B8FEBCE1"
@@ -31,11 +95,17 @@
 				type: "biome"
 				biome: "atmospheric:rainforest"
 			}]
+			rewards: [{
+				id: "43DA6A54B779F9F9"
+				type: "random"
+				table_id: 5586844969497332981L
+			}]
 		}
 		{
 			icon: "atmospheric:smooth_red_arid_sandstone"
 			x: -7.25d
 			y: -2.75d
+			shape: "rsquare"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "03824D6C31BCD3D7"
@@ -44,11 +114,17 @@
 				type: "biome"
 				biome: "atmospheric:dunes_hills"
 			}]
+			rewards: [{
+				id: "0178537DC6EBA483"
+				type: "random"
+				table_id: 5586844969497332981L
+			}]
 		}
 		{
 			icon: "atmospheric:red_arid_sandstone_bricks"
 			x: -6.25d
 			y: -2.75d
+			shape: "rsquare"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "68F4D2D4DD44B8B0"
@@ -57,10 +133,16 @@
 				type: "biome"
 				biome: "atmospheric:dunes"
 			}]
+			rewards: [{
+				id: "304421E0647E063C"
+				type: "random"
+				table_id: 5586844969497332981L
+			}]
 		}
 		{
 			x: -6.25d
 			y: -1.75d
+			shape: "rsquare"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5FF44686EC51903B"
@@ -69,11 +151,17 @@
 				type: "biome"
 				biome: "atmospheric:flourishing_dunes"
 			}]
+			rewards: [{
+				id: "41FEBF716BE2F031"
+				type: "random"
+				table_id: 5586844969497332981L
+			}]
 		}
 		{
 			icon: "byg:yellow_petal_block"
 			x: -5.25d
 			y: -2.75d
+			shape: "rsquare"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1F36F6E9EB3E5CE6"
@@ -82,11 +170,17 @@
 				type: "biome"
 				biome: "atmospheric:petrified_dunes"
 			}]
+			rewards: [{
+				id: "382D89177FDED373"
+				type: "random"
+				table_id: 5586844969497332981L
+			}]
 		}
 		{
 			icon: "byg:rainbow_eucalyptus_wood"
 			x: -5.25d
 			y: -1.75d
+			shape: "rsquare"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6CF38FB306C3059E"
@@ -95,11 +189,17 @@
 				type: "biome"
 				biome: "atmospheric:rainforest_basin"
 			}]
+			rewards: [{
+				id: "66CEDC787E8CADD0"
+				type: "random"
+				table_id: 5586844969497332981L
+			}]
 		}
 		{
 			icon: "byg:stripped_rainbow_eucalyptus_log"
 			x: -7.25d
 			y: -0.75d
+			shape: "rsquare"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3E9857BA557CA18C"
@@ -108,11 +208,17 @@
 				type: "biome"
 				biome: "atmospheric:rainforest_mountains"
 			}]
+			rewards: [{
+				id: "08C2CAC8C2DE6227"
+				type: "random"
+				table_id: 5586844969497332981L
+			}]
 		}
 		{
 			icon: "atmospheric:scalding_monkey_brush"
 			x: -6.25d
 			y: -0.75d
+			shape: "rsquare"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3CF1C6D4CAFDAEEE"
@@ -121,11 +227,17 @@
 				type: "biome"
 				biome: "atmospheric:rainforest_plateau"
 			}]
+			rewards: [{
+				id: "7F3C5D8E6E239422"
+				type: "random"
+				table_id: 5586844969497332981L
+			}]
 		}
 		{
 			icon: "byg:rocky_stone"
 			x: -5.25d
 			y: -0.75d
+			shape: "rsquare"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6792F8B17589101F"
@@ -134,11 +246,17 @@
 				type: "biome"
 				biome: "atmospheric:rocky_dunes_hills"
 			}]
+			rewards: [{
+				id: "704FC2AE258A5501"
+				type: "random"
+				table_id: 5586844969497332981L
+			}]
 		}
 		{
 			icon: "upgrade_aquatic:dead_rock_coral"
 			x: -7.25d
 			y: 0.25d
+			shape: "rsquare"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5ADD3AD03D41D9C4"
@@ -147,11 +265,17 @@
 				type: "biome"
 				biome: "atmospheric:rocky_dunes"
 			}]
+			rewards: [{
+				id: "1F36CADFB788E693"
+				type: "random"
+				table_id: 5586844969497332981L
+			}]
 		}
 		{
 			icon: "byg:stripped_rainbow_eucalyptus_wood"
 			x: -6.25d
 			y: 0.25d
+			shape: "rsquare"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "09B0FB91FA3DF107"
@@ -160,11 +284,17 @@
 				type: "biome"
 				biome: "atmospheric:sparse_rainforest_basin"
 			}]
+			rewards: [{
+				id: "2E12E5A27C78720A"
+				type: "random"
+				table_id: 5586844969497332981L
+			}]
 		}
 		{
 			icon: "atmospheric:warm_monkey_brush"
 			x: -5.25d
 			y: 0.25d
+			shape: "rsquare"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "49515C653A0E62F7"
@@ -173,11 +303,17 @@
 				type: "biome"
 				biome: "atmospheric:sparse_rainforest_plateau"
 			}]
+			rewards: [{
+				id: "6F676521447E77E5"
+				type: "random"
+				table_id: 5586844969497332981L
+			}]
 		}
 		{
 			icon: "betterendforge:amber_moss"
 			x: -1.75d
 			y: -6.75d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3C5913BD2BEEEA00"
@@ -186,11 +322,17 @@
 				type: "biome"
 				biome: "betterendforge:amber_land"
 			}]
+			rewards: [{
+				id: "771C9313AC66CF07"
+				type: "random"
+				table_id: 3762411222713583646L
+			}]
 		}
 		{
 			icon: "betterendforge:pallidium_thin"
 			x: -0.75d
 			y: -6.75d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7CBFCE12FFAEFA80"
@@ -199,11 +341,17 @@
 				type: "biome"
 				biome: "betterendforge:blossoming_spires"
 			}]
+			rewards: [{
+				id: "34AAACBE98D549DD"
+				type: "random"
+				table_id: 3762411222713583646L
+			}]
 		}
 		{
 			icon: "betterendforge:chorus_nylium"
 			x: -1.75d
 			y: -5.75d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "53C1614F07F43099"
@@ -212,11 +360,17 @@
 				type: "biome"
 				biome: "betterendforge:chorus_forest"
 			}]
+			rewards: [{
+				id: "7546957080F0E176"
+				type: "random"
+				table_id: 3762411222713583646L
+			}]
 		}
 		{
 			icon: "betterendforge:smaragdant_crystal"
 			x: -0.75d
 			y: -5.75d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "78B950E5BB243748"
@@ -225,11 +379,17 @@
 				type: "biome"
 				biome: "betterendforge:crystal_mountains"
 			}]
+			rewards: [{
+				id: "4850CBFD0A991C3A"
+				type: "random"
+				table_id: 3762411222713583646L
+			}]
 		}
 		{
 			icon: "kubejs:lithium_dust_block"
 			x: 0.25d
 			y: -6.75d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5F362C62347978B6"
@@ -238,11 +398,17 @@
 				type: "biome"
 				biome: "betterendforge:dust_wastelands"
 			}]
+			rewards: [{
+				id: "25C7B5947BB17C1F"
+				type: "random"
+				table_id: 3762411222713583646L
+			}]
 		}
 		{
 			icon: "chipped:red_mushroom_15"
 			x: 0.25d
 			y: -5.75d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "769210B37E9F3832"
@@ -251,11 +417,17 @@
 				type: "biome"
 				biome: "betterendforge:foggy_mushroomland"
 			}]
+			rewards: [{
+				id: "05A7FD0F54A185B5"
+				type: "random"
+				table_id: 3762411222713583646L
+			}]
 		}
 		{
 			icon: "tconstruct:ender_sky_slime_grass"
 			x: -1.75d
 			y: -4.75d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "133B1AD10F76A30F"
@@ -264,11 +436,17 @@
 				type: "biome"
 				biome: "betterendforge:glowing_grasslands"
 			}]
+			rewards: [{
+				id: "06E5EAF9DF1E3B1A"
+				type: "random"
+				table_id: 3762411222713583646L
+			}]
 		}
 		{
 			icon: "betterendforge:ancient_emerald_ice"
 			x: -0.75d
 			y: -4.75d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7D9F459DFE9550A2"
@@ -277,11 +455,17 @@
 				type: "biome"
 				biome: "betterendforge:ice_starfield"
 			}]
+			rewards: [{
+				id: "5CCBA48D75234E51"
+				type: "random"
+				table_id: 3762411222713583646L
+			}]
 		}
 		{
 			icon: "betterendforge:end_mycelium"
 			x: 0.25d
 			y: -4.75d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5D04460FEFA027AF"
@@ -290,11 +474,17 @@
 				type: "biome"
 				biome: "betterendforge:megalake_grove"
 			}]
+			rewards: [{
+				id: "5FF4E335C3849692"
+				type: "random"
+				table_id: 3762411222713583646L
+			}]
 		}
 		{
 			icon: "betterendforge:shadow_grass_path"
 			x: -1.75d
 			y: -7.75d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "14635A8ED6A99AEB"
@@ -303,11 +493,17 @@
 				type: "biome"
 				biome: "betterendforge:megalake"
 			}]
+			rewards: [{
+				id: "78AD9990267F0620"
+				type: "random"
+				table_id: 3762411222713583646L
+			}]
 		}
 		{
 			icon: "betterendforge:chorus_nylium_path"
 			x: -0.75d
 			y: -7.75d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "380BF438AAD6D875"
@@ -316,11 +512,17 @@
 				type: "biome"
 				biome: "betterendforge:painted_mountains"
 			}]
+			rewards: [{
+				id: "55ECFE2954259145"
+				type: "random"
+				table_id: 3762411222713583646L
+			}]
 		}
 		{
 			icon: "betterendforge:rutiscus"
 			x: 0.25d
 			y: -7.75d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0DC5F8426EC2ED1E"
@@ -329,11 +531,17 @@
 				type: "biome"
 				biome: "betterendforge:shadow_forest"
 			}]
+			rewards: [{
+				id: "6FF35DAC3B3A621E"
+				type: "random"
+				table_id: 3762411222713583646L
+			}]
 		}
 		{
 			icon: "betterendforge:crystalline_sulphur"
 			x: -1.75d
 			y: -8.75d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5C46088BAF21C796"
@@ -342,11 +550,17 @@
 				type: "biome"
 				biome: "betterendforge:sulphur_springs"
 			}]
+			rewards: [{
+				id: "56B97E9E45DEB46E"
+				type: "random"
+				table_id: 3762411222713583646L
+			}]
 		}
 		{
 			icon: "betterendforge:umbrella_moss"
-			x: -0.75d
+			x: 0.25d
 			y: -8.75d
+			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1F36F22B1CC89655"
@@ -355,11 +569,17 @@
 				type: "biome"
 				biome: "betterendforge:umbrella_jungle"
 			}]
+			rewards: [{
+				id: "7AC4DAE078A7F2D5"
+				type: "random"
+				table_id: 3762411222713583646L
+			}]
 		}
 		{
 			icon: "byg:tall_pink_allium"
 			x: 4.75d
 			y: -8.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "682103E9418E7E19"
@@ -368,11 +588,17 @@
 				type: "biome"
 				biome: "byg:allium_fields"
 			}]
+			rewards: [{
+				id: "39F1605732CDC95B"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:alpine_bellflower"
 			x: 5.75d
 			y: -8.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "39BDED46F2446CDB"
@@ -381,11 +607,17 @@
 				type: "biome"
 				biome: "byg:alpine_foothills"
 			}]
+			rewards: [{
+				id: "60EDA34D644CD653"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "minecraft:snow"
 			x: 6.75d
 			y: -8.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7C7695573B718259"
@@ -394,11 +626,17 @@
 				type: "biome"
 				biome: "byg:alps"
 			}]
+			rewards: [{
+				id: "746FB501835B7691"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:amaranth"
 			x: 4.75d
 			y: -7.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2BB0CEAFBFAE75C8"
@@ -407,11 +645,17 @@
 				type: "biome"
 				biome: "byg:amaranth_fields"
 			}]
+			rewards: [{
+				id: "013DBCD6FC6872CA"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "projectvibrantjourneys:bark_mushroom"
 			x: 5.75d
 			y: -7.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "22CDBA8173C12E87"
@@ -420,11 +664,17 @@
 				type: "biome"
 				biome: "byg:ancient_forest"
 			}]
+			rewards: [{
+				id: "4C01289DCC046216"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:araucaria_sapling"
 			x: 6.75d
 			y: -7.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "68465FC197FB9839"
@@ -433,11 +683,17 @@
 				type: "biome"
 				biome: "byg:araucaria_forest"
 			}]
+			rewards: [{
+				id: "3DBDCC59917D5B85"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "minecraft:acacia_leaves"
 			x: 4.75d
 			y: -6.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "409070343F84D726"
@@ -446,11 +702,17 @@
 				type: "biome"
 				biome: "byg:araucaria_savanna"
 			}]
+			rewards: [{
+				id: "3DEDD79A6BE61157"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "projectvibrantjourneys:short_grass"
 			x: 5.75d
 			y: -6.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3F844EF0FA965E41"
@@ -459,11 +721,17 @@
 				type: "biome"
 				biome: "byg:aspen_clearing"
 			}]
+			rewards: [{
+				id: "749CDD0F14AE07BC"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "atmospheric:aspen_sapling"
 			x: 6.75d
 			y: -6.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "33E90D1CE66DBE73"
@@ -472,11 +740,17 @@
 				type: "biome"
 				biome: "byg:aspen_forest_hills"
 			}]
+			rewards: [{
+				id: "766A0934465C2E17"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:aspen_log"
 			x: 4.75d
 			y: -5.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0DD8B83E7A417867"
@@ -485,11 +759,17 @@
 				type: "biome"
 				biome: "byg:aspen_forest"
 			}]
+			rewards: [{
+				id: "4AB0E9857C1F31DD"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "minecraft:pumpkin"
 			x: 5.75d
 			y: -5.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0D5570DD70EC9597"
@@ -498,11 +778,17 @@
 				type: "biome"
 				biome: "byg:autumnal_valley"
 			}]
+			rewards: [{
+				id: "5A2D90D93811D25A"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "minecraft:bamboo"
 			x: 6.75d
 			y: -5.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7551D8020F8D5202"
@@ -511,11 +797,17 @@
 				type: "biome"
 				biome: "byg:bamboo_forest"
 			}]
+			rewards: [{
+				id: "7679D80FEC51A11D"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:baobab_sapling"
 			x: 7.75d
 			y: -8.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "60E2022F038E9C38"
@@ -524,11 +816,17 @@
 				type: "biome"
 				biome: "byg:baobab_savanna"
 			}]
+			rewards: [{
+				id: "4ECA4B874EA2B521"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "minecraft:basalt"
 			x: 7.75d
 			y: -7.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "071D40EBD009CDE0"
@@ -537,11 +835,17 @@
 				type: "biome"
 				biome: "byg:basalt_barrera"
 			}]
+			rewards: [{
+				id: "4C4C01AD5AA65E9D"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "betterendforge:umbrella_tree_bark"
 			x: 7.75d
 			y: -6.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3228145D62375692"
@@ -550,11 +854,17 @@
 				type: "biome"
 				biome: "byg:bayou"
 			}]
+			rewards: [{
+				id: "1B5D288058E9CF26"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:fir_log"
 			x: 7.75d
 			y: -5.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6A92CAEE608496A6"
@@ -563,11 +873,17 @@
 				type: "biome"
 				biome: "byg:black_forest_clearing"
 			}]
+			rewards: [{
+				id: "03E4CC4ACCD5A81F"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "quark:black_crystal_cluster"
 			x: 4.75d
 			y: -4.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5480F14913139DB0"
@@ -576,11 +892,17 @@
 				type: "biome"
 				biome: "byg:black_forest_hills"
 			}]
+			rewards: [{
+				id: "60653F6701297C72"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "upgrade_aquatic:blue_pickerelweed_block"
 			x: 5.75d
 			y: -4.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4D340C7A0AD67844"
@@ -589,11 +911,17 @@
 				type: "biome"
 				biome: "byg:blue_giant_taiga"
 			}]
+			rewards: [{
+				id: "1B07E64C9A7FC808"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "environmental:blue_wisteria_sapling"
 			x: 6.75d
 			y: -4.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "523166CDEFEC5A42"
@@ -602,11 +930,17 @@
 				type: "biome"
 				biome: "byg:blue_taiga_hills"
 			}]
+			rewards: [{
+				id: "76C33C352363967A"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:blue_spruce_leaves"
 			x: 7.75d
 			y: -4.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0C1ECB9623CDB3B1"
@@ -615,11 +949,17 @@
 				type: "biome"
 				biome: "byg:blue_taiga"
 			}]
+			rewards: [{
+				id: "34A639140D68EACC"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "quark:slate"
 			x: 8.75d
 			y: -8.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4443A8640F232B95"
@@ -628,11 +968,17 @@
 				type: "biome"
 				biome: "byg:bluff_peaks"
 			}]
+			rewards: [{
+				id: "2B0DD7EE24DB7EE8"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "environmental:buried_truffle"
 			x: 8.75d
 			y: -7.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4073C36E3410B688"
@@ -641,11 +987,17 @@
 				type: "biome"
 				biome: "byg:bluff_steeps"
 			}]
+			rewards: [{
+				id: "5F989E020E28A1D3"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "quark:bonded_rabbit_hide"
 			x: 8.75d
 			y: -6.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5FBB29182B03E59F"
@@ -654,11 +1006,17 @@
 				type: "biome"
 				biome: "byg:bog"
 			}]
+			rewards: [{
+				id: "157F38BA44BBD582"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "projectvibrantjourneys:fallen_leaves"
 			x: 8.75d
 			y: -5.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7E3118A2009406E7"
@@ -667,11 +1025,17 @@
 				type: "biome"
 				biome: "byg:boreal_clearing"
 			}]
+			rewards: [{
+				id: "48BF29A77354A785"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "botania:podzol_seeds"
 			x: 8.75d
 			y: -4.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "36135CEDAA216F9A"
@@ -680,11 +1044,17 @@
 				type: "biome"
 				biome: "byg:boreal_forest_hills"
 			}]
+			rewards: [{
+				id: "51EAFFC20A6EEAE1"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:yellow_birch_sapling"
 			x: 9.75d
 			y: -8.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7F20678CAC2420E0"
@@ -693,11 +1063,17 @@
 				type: "biome"
 				biome: "byg:boreal_forest"
 			}]
+			rewards: [{
+				id: "4FB7ED2FF65AFB81"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "quark:brimstone"
 			x: 9.75d
 			y: -7.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "53B37517281DDE8B"
@@ -706,11 +1082,17 @@
 				type: "biome"
 				biome: "byg:brimstone_caverns"
 			}]
+			rewards: [{
+				id: "6A93C4AF1F427F24"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "environmental:tall_dead_bush"
 			x: 9.75d
 			y: -6.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "087B4788B4707B9B"
@@ -719,11 +1101,17 @@
 				type: "biome"
 				biome: "byg:bulbis_gardens_edge"
 			}]
+			rewards: [{
+				id: "1477F8C27E2EF461"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "betterendforge:bulb_moss"
 			x: 9.75d
 			y: -5.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "51227A919EB4CDC7"
@@ -732,11 +1120,17 @@
 				type: "biome"
 				biome: "byg:bulbis_gardens"
 			}]
+			rewards: [{
+				id: "3D36118A1D5CF763"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "minecraft:smooth_sandstone"
 			x: 9.75d
 			y: -4.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "639D4B79601CAF09"
@@ -745,11 +1139,17 @@
 				type: "biome"
 				biome: "byg:canyon_edge"
 			}]
+			rewards: [{
+				id: "2EE0EFBED512A58E"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "minecraft:cobblestone"
 			x: 10.75d
 			y: -8.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "06B59AE84C6BFB02"
@@ -758,11 +1158,17 @@
 				type: "biome"
 				biome: "byg:canyons"
 			}]
+			rewards: [{
+				id: "032A991BA75332CB"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:pink_cherry_sapling"
 			x: 10.75d
 			y: -7.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "21379BAD7E0074A4"
@@ -771,11 +1177,17 @@
 				type: "biome"
 				biome: "byg:cherry_blossom_clearing"
 			}]
+			rewards: [{
+				id: "59388823DE410146"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:white_cherry_sapling"
 			x: 10.75d
 			y: -6.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2B945F8BCB653E62"
@@ -784,11 +1196,17 @@
 				type: "biome"
 				biome: "byg:cherry_blossom_forest"
 			}]
+			rewards: [{
+				id: "2411B3A9C97DB333"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "create:natural_scoria"
 			x: 10.75d
 			y: -5.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3E42761733F402F1"
@@ -797,11 +1215,17 @@
 				type: "biome"
 				biome: "byg:cika_mountains"
 			}]
+			rewards: [{
+				id: "798906EA175C1346"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:leaf_pile"
 			x: 10.75d
 			y: -4.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3B80315D3775826E"
@@ -810,11 +1234,17 @@
 				type: "biome"
 				biome: "byg:cika_woods"
 			}]
+			rewards: [{
+				id: "25B4969FC78E006D"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "architects_palette:coarse_snow"
 			x: 11.75d
 			y: -8.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "19A5B35C5D2AA7DA"
@@ -823,11 +1253,17 @@
 				type: "biome"
 				biome: "byg:cold_swamplands"
 			}]
+			rewards: [{
+				id: "010E88F474E65651"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:fir_log"
 			x: 11.75d
 			y: -7.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3019F9C665D8AC5A"
@@ -836,11 +1272,17 @@
 				type: "biome"
 				biome: "byg:coniferous_clearing"
 			}]
+			rewards: [{
+				id: "6B1ABEB2B32BB2FD"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "upgrade_aquatic:river_sapling"
 			x: 11.75d
 			y: -6.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "552D301516B164B0"
@@ -849,11 +1291,17 @@
 				type: "biome"
 				biome: "byg:coniferous_forest_hills"
 			}]
+			rewards: [{
+				id: "160009A560EC6781"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "minecraft:dead_bush"
 			x: 11.75d
 			y: -5.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "21C261A2DC5147AF"
@@ -862,11 +1310,17 @@
 				type: "biome"
 				biome: "byg:coniferous_forest"
 			}]
+			rewards: [{
+				id: "192CF1D94049814F"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "minecraft:tube_coral_block"
 			x: 11.75d
 			y: -4.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "449B441527FEAC63"
@@ -875,11 +1329,17 @@
 				type: "biome"
 				biome: "byg:coral_mangroves"
 			}]
+			rewards: [{
+				id: "183A32FBBD20A9B7"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "minecraft:podzol"
 			x: 12.75d
 			y: -8.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5B180AEF9C022EC2"
@@ -888,11 +1348,17 @@
 				type: "biome"
 				biome: "byg:crag_gardens"
 			}]
+			rewards: [{
+				id: "237FD2EB7206396D"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "minecraft:crimson_nylium"
 			x: 12.75d
 			y: -7.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7E25FCEC277E2BBB"
@@ -901,11 +1367,17 @@
 				type: "biome"
 				biome: "byg:crimson_gardens"
 			}]
+			rewards: [{
+				id: "307866FD24873CDB"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "betterendforge:crystal_moss_path"
 			x: 12.75d
 			y: -6.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "19A9D6527D357D88"
@@ -914,11 +1386,17 @@
 				type: "biome"
 				biome: "byg:cryptic_wastes"
 			}]
+			rewards: [{
+				id: "02C7EC97AE403F05"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:cypress_sapling"
 			x: 12.75d
 			y: -5.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "107FA9F60A149FBC"
@@ -927,11 +1405,17 @@
 				type: "biome"
 				biome: "byg:cypress_swamplands"
 			}]
+			rewards: [{
+				id: "0003C43CBEA8B349"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "sushigocrafting:seaweed"
 			x: 12.75d
 			y: -4.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "66B3D1D2BD08BD07"
@@ -940,11 +1424,17 @@
 				type: "biome"
 				biome: "byg:dead_sea"
 			}]
+			rewards: [{
+				id: "2DB21886B97DEBE0"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:horseweed"
 			x: 13.75d
 			y: -8.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4504CEC538FB484A"
@@ -953,11 +1443,17 @@
 				type: "biome"
 				biome: "byg:deciduous_clearing"
 			}]
+			rewards: [{
+				id: "27880445CF4411EF"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "botania:metamorphic_forest_stone"
 			x: 13.75d
 			y: -7.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "07629CA83D244D01"
@@ -966,11 +1462,17 @@
 				type: "biome"
 				biome: "byg:deciduous_forest_hills"
 			}]
+			rewards: [{
+				id: "7B35F26B0B1EBAEC"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:winter_succulent"
 			x: 13.75d
 			y: -6.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "018717716DC8BA45"
@@ -979,11 +1481,17 @@
 				type: "biome"
 				biome: "byg:deciduous_forest"
 			}]
+			rewards: [{
+				id: "1B9A28EEDD8B2560"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:pine_log"
 			x: 13.75d
 			y: -5.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4A1B0FDDB79A1464"
@@ -992,11 +1500,17 @@
 				type: "biome"
 				biome: "byg:dover_mountains"
 			}]
+			rewards: [{
+				id: "2875E4456CBA1546"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "kubejs:dummy_fluid_item"
 			x: 13.75d
 			y: -4.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "27F988EFDCA21CE4"
@@ -1005,11 +1519,17 @@
 				type: "biome"
 				biome: "byg:dummy"
 			}]
+			rewards: [{
+				id: "6D63BD81513E65AE"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "atmospheric:arid_sand"
 			x: 14.75d
 			y: -8.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "27A7E8AA6FFC7AE9"
@@ -1018,11 +1538,17 @@
 				type: "biome"
 				biome: "byg:dunes"
 			}]
+			rewards: [{
+				id: "63B803A368CC5710"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:ebony_sapling"
 			x: 14.75d
 			y: -7.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "671FC733C89DCCC3"
@@ -1031,11 +1557,17 @@
 				type: "biome"
 				biome: "byg:ebony_hills"
 			}]
+			rewards: [{
+				id: "0F9986E327402A7B"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:weeping_milkcap_mushroom_block"
 			x: 14.75d
 			y: -6.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2730F82BDC95334D"
@@ -1044,11 +1576,17 @@
 				type: "biome"
 				biome: "byg:ebony_woods"
 			}]
+			rewards: [{
+				id: "783B0254003A8046"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:embur_gel_branch"
 			x: 14.75d
 			y: -5.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4CC9D0D27CC37DBF"
@@ -1057,11 +1595,17 @@
 				type: "biome"
 				biome: "byg:embur_bog"
 			}]
+			rewards: [{
+				id: "0273175198A91F33"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:green_enchanted_wood"
 			x: 14.75d
 			y: -4.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3D93E29BB0D5495D"
@@ -1070,11 +1614,17 @@
 				type: "biome"
 				biome: "byg:enchanted_forest_hills"
 			}]
+			rewards: [{
+				id: "64AE4A7B4EA07032"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:blue_enchanted_sapling"
 			x: 15.75d
 			y: -8.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "40A1F75E1537FC60"
@@ -1083,11 +1633,17 @@
 				type: "biome"
 				biome: "byg:enchanted_forest"
 			}]
+			rewards: [{
+				id: "3BEAA87387362DB5"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:blue_enchanted_leaves"
 			x: 15.75d
 			y: -7.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5C89BDDEC7C49442"
@@ -1096,11 +1652,17 @@
 				type: "biome"
 				biome: "byg:enchanted_grove"
 			}]
+			rewards: [{
+				id: "234CB779DE40A65D"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "minecraft:nether_sprouts"
 			x: 15.75d
 			y: -6.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7269D6697699DB5D"
@@ -1109,11 +1671,17 @@
 				type: "biome"
 				biome: "byg:ethereal_clearing"
 			}]
+			rewards: [{
+				id: "04C81C4B6CCC48A8"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:thereal_bellflower"
 			x: 15.75d
 			y: -5.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2274A9E078F008FB"
@@ -1122,11 +1690,17 @@
 				type: "biome"
 				biome: "byg:ethereal_forest"
 			}]
+			rewards: [{
+				id: "09D1ED585AC99CCF"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "botania:podzol_seeds"
 			x: 15.75d
 			y: -4.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "488E57D5AD6F2574"
@@ -1135,11 +1709,17 @@
 				type: "biome"
 				biome: "byg:ethereal_islands"
 			}]
+			rewards: [{
+				id: "02F7B8744410DBD2"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:holly_berries"
 			x: 16.75d
 			y: -8.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "10F2FB0D26A6EFDA"
@@ -1148,11 +1728,17 @@
 				type: "biome"
 				biome: "byg:evergreen_clearing"
 			}]
+			rewards: [{
+				id: "054A8FF1DF0DB3FB"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "quark:green_crystal"
 			x: 16.75d
 			y: -7.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "62835C46C12A4212"
@@ -1161,11 +1747,17 @@
 				type: "biome"
 				biome: "byg:evergreen_hills"
 			}]
+			rewards: [{
+				id: "0FB05ECC6EC1CF2B"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:holly_berry_leaves"
 			x: 16.75d
 			y: -6.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "37110990C5520B56"
@@ -1174,11 +1766,17 @@
 				type: "biome"
 				biome: "byg:evergreen_taiga"
 			}]
+			rewards: [{
+				id: "3C0CC2557F527BFF"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:red_petal_block"
 			x: 16.75d
 			y: -5.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "65612A72406875E7"
@@ -1187,11 +1785,17 @@
 				type: "biome"
 				biome: "byg:flowering_ancient_forest"
 			}]
+			rewards: [{
+				id: "10E224799DD038D9"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:green_enchanted_sapling"
 			x: 16.75d
 			y: -4.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6A70D08593DDBAA4"
@@ -1200,11 +1804,17 @@
 				type: "biome"
 				biome: "byg:flowering_enchanted_grove"
 			}]
+			rewards: [{
+				id: "7E4C07F1DC6079DC"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "environmental:bird_of_paradise"
 			x: 17.75d
 			y: -8.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "76DDF3ABE505FA1F"
@@ -1213,11 +1823,17 @@
 				type: "biome"
 				biome: "byg:flowering_grove"
 			}]
+			rewards: [{
+				id: "2AF3FEF549A4A3C7"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:azalea"
 			x: 17.75d
 			y: -7.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "418C6C5376FEA22A"
@@ -1226,11 +1842,17 @@
 				type: "biome"
 				biome: "byg:flowering_meadow"
 			}]
+			rewards: [{
+				id: "392171BEC812C487"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:peat"
 			x: 17.75d
 			y: -6.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "30B752B3F29085B8"
@@ -1238,6 +1860,11 @@
 				id: "7D2E189FB7C9E432"
 				type: "biome"
 				biome: "byg:forest_fault"
+			}]
+			rewards: [{
+				id: "6471515BB619D16B"
+				type: "random"
+				table_id: 7747495196919840633L
 			}]
 		}
 		{
@@ -1250,6 +1877,7 @@
 			}
 			x: 17.75d
 			y: -5.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "69FEF71FFF4B00B6"
@@ -1258,11 +1886,17 @@
 				type: "biome"
 				biome: "byg:fresh_water_lake"
 			}]
+			rewards: [{
+				id: "77FE95B389167C7D"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "undergarden:frozen_deepturf_block"
 			x: 17.75d
 			y: -4.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1FFFE3ED7D51D9F9"
@@ -1271,11 +1905,17 @@
 				type: "biome"
 				biome: "byg:frozen_lake"
 			}]
+			rewards: [{
+				id: "122915304477CC7F"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:brown_mushroom_stem"
 			x: 18.75d
 			y: -8.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0B6B8B79E2607A5F"
@@ -1284,11 +1924,17 @@
 				type: "biome"
 				biome: "byg:fungal_patch"
 			}]
+			rewards: [{
+				id: "0ACC78234973B932"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:glowcelium_block"
 			x: 18.75d
 			y: -7.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0045C9FF942B226D"
@@ -1297,11 +1943,17 @@
 				type: "biome"
 				biome: "byg:glowing_ancient_forest"
 			}]
+			rewards: [{
+				id: "3DF5E41F1E41FB87"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:water_silk"
 			x: 18.75d
 			y: -6.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4BEFA48BACC7693A"
@@ -1310,11 +1962,17 @@
 				type: "biome"
 				biome: "byg:glowshroom_bayou"
 			}]
+			rewards: [{
+				id: "1E268DF87EE273D8"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:blue_glowcane_block"
 			x: 18.75d
 			y: -5.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3A1553348FA826B6"
@@ -1323,11 +1981,17 @@
 				type: "biome"
 				biome: "byg:glowstone_gardens"
 			}]
+			rewards: [{
+				id: "26C50713D3A2B0B2"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "simplefarming:raspberry_bush"
 			x: 18.75d
 			y: -4.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0EFD49568E845680"
@@ -1336,11 +2000,17 @@
 				type: "biome"
 				biome: "byg:grassland_plateau"
 			}]
+			rewards: [{
+				id: "1BED26D73BAD4232"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:osiria_rose"
 			x: 19.75d
 			y: -8.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "73D632983DCFE43C"
@@ -1349,11 +2019,17 @@
 				type: "biome"
 				biome: "byg:great_lake_isles"
 			}]
+			rewards: [{
+				id: "26249F04CC86E90B"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "architects_palette:overgrown_algal_bricks"
 			x: 19.75d
 			y: -7.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "66D542473B45A3FB"
@@ -1362,11 +2038,17 @@
 				type: "biome"
 				biome: "byg:great_lakes"
 			}]
+			rewards: [{
+				id: "5DCC87EB4D061327"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "sushigocrafting:avocado_log"
 			x: 19.75d
 			y: -6.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1FF5A0A4E1F93748"
@@ -1375,11 +2057,17 @@
 				type: "biome"
 				biome: "byg:grove"
 			}]
+			rewards: [{
+				id: "0521414AC7375C01"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "create:gabbro"
 			x: 19.75d
 			y: -5.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "69B010B62B2F5D25"
@@ -1388,11 +2076,17 @@
 				type: "biome"
 				biome: "byg:guiana_clearing"
 			}]
+			rewards: [{
+				id: "76E3AE05D43C3ACF"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:mahogany_sapling"
 			x: 19.75d
 			y: -4.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "12BFAB9A824F7B41"
@@ -1401,11 +2095,17 @@
 				type: "biome"
 				biome: "byg:guiana_shield"
 			}]
+			rewards: [{
+				id: "3B71D3B1D978A902"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:fungal_imparius_stem"
 			x: 20.75d
 			y: -8.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "36F643BD072BB71C"
@@ -1414,11 +2114,17 @@
 				type: "biome"
 				biome: "byg:imparius_clearing"
 			}]
+			rewards: [{
+				id: "25B0B4EE98F0EF22"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:imparius_mushroom_branch"
 			x: 20.75d
 			y: -7.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3CD84702599048C1"
@@ -1427,11 +2133,17 @@
 				type: "biome"
 				biome: "byg:imparius_grove"
 			}]
+			rewards: [{
+				id: "70EE7235D5529794"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:ivis_roots"
 			x: 20.75d
 			y: -6.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "57396FA4A45A4882"
@@ -1440,11 +2152,17 @@
 				type: "biome"
 				biome: "byg:ivis_fields"
 			}]
+			rewards: [{
+				id: "09BAE2B47F2ED0D3"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:jacaranda_sapling"
 			x: 20.75d
 			y: -5.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5E78598853C1B7EC"
@@ -1453,11 +2171,17 @@
 				type: "biome"
 				biome: "byg:jacaranda_clearing"
 			}]
+			rewards: [{
+				id: "59B93DD64C4A04E8"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:indigo_jacaranda_bush"
 			x: 20.75d
 			y: -4.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "23F3C0B2AEBFC745"
@@ -1466,11 +2190,17 @@
 				type: "biome"
 				biome: "byg:jacaranda_forest_hills"
 			}]
+			rewards: [{
+				id: "1A430987973CE73C"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:flowering_jacaranda_leaves"
 			x: 21.75d
 			y: -8.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7E59D05A3C2C37A8"
@@ -1479,11 +2209,17 @@
 				type: "biome"
 				biome: "byg:jacaranda_forest"
 			}]
+			rewards: [{
+				id: "4402C0730E96E978"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:prickly_pear_cactus"
 			x: 21.75d
 			y: -7.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "76FB4D4BBB8825EC"
@@ -1492,11 +2228,17 @@
 				type: "biome"
 				biome: "byg:lush_red_desert"
 			}]
+			rewards: [{
+				id: "0BD1C550976BE768"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "betterendforge:vaiolush_fern"
 			x: 21.75d
 			y: -6.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5F262366F5ABFAA2"
@@ -1505,11 +2247,17 @@
 				type: "biome"
 				biome: "byg:lush_tundra"
 			}]
+			rewards: [{
+				id: "5A97DD2069F7A169"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:magmatic_stone"
 			x: 21.75d
 			y: -5.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "009CA3057A23E758"
@@ -1518,11 +2266,17 @@
 				type: "biome"
 				biome: "byg:magma_wastes"
 			}]
+			rewards: [{
+				id: "02F77BBF729440D6"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:mangrove_leaves"
 			x: 21.75d
 			y: -4.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6113550125AC33B0"
@@ -1531,11 +2285,17 @@
 				type: "biome"
 				biome: "byg:mangrove_marshes"
 			}]
+			rewards: [{
+				id: "2F68A726396D5AA3"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:maple_sapling"
 			x: 22.75d
 			y: -8.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "253B16D8F167C2BD"
@@ -1544,11 +2304,17 @@
 				type: "biome"
 				biome: "byg:maple_hills"
 			}]
+			rewards: [{
+				id: "5F0366534C8176C8"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:silver_maple_leaves"
 			x: 22.75d
 			y: -7.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3615A74B0528ED4F"
@@ -1557,11 +2323,17 @@
 				type: "biome"
 				biome: "byg:maple_taiga"
 			}]
+			rewards: [{
+				id: "48213F4D6078CE37"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "projectvibrantjourneys:cattail"
 			x: 22.75d
 			y: -6.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "428DB7A7531303DA"
@@ -1570,24 +2342,37 @@
 				type: "biome"
 				biome: "byg:marshlands"
 			}]
+			rewards: [{
+				id: "41D2DE5AB6C54D38"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:azalea"
 			x: 22.75d
 			y: -5.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
+			secret: true
 			id: "679178322F789ACF"
 			tasks: [{
 				id: "6780738B0988C552"
 				type: "biome"
 				biome: "byg:meadow"
 			}]
+			rewards: [{
+				id: "251ADD0770B4AC3F"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:ripe_joshua_leaves"
 			x: 22.75d
 			y: -4.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "25765AEF90EDCE1A"
@@ -1596,11 +2381,17 @@
 				type: "biome"
 				biome: "byg:mojave_desert"
 			}]
+			rewards: [{
+				id: "7D83B9F21FCC9E38"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:nightshade_sapling"
 			x: 23.75d
 			y: -8.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "75F6D62EEBDDCDE8"
@@ -1609,11 +2400,17 @@
 				type: "biome"
 				biome: "byg:nightshade_forest"
 			}]
+			rewards: [{
+				id: "5E8D58470A7EFB6C"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:pine_leaves"
 			x: 23.75d
 			y: -7.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "301E1C02CB2875F9"
@@ -1622,11 +2419,17 @@
 				type: "biome"
 				biome: "byg:northern_forest"
 			}]
+			rewards: [{
+				id: "7ADB86882884F9FD"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "minecraft:grass_block"
 			x: 23.75d
 			y: -6.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "19690AE4C0AA4F10"
@@ -1635,11 +2438,17 @@
 				type: "biome"
 				biome: "byg:oasis"
 			}]
+			rewards: [{
+				id: "0096763F3B324670"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:ripe_orchard_leaves"
 			x: 23.75d
 			y: -5.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3202BCE877A7B624"
@@ -1648,11 +2457,17 @@
 				type: "biome"
 				biome: "byg:orchard"
 			}]
+			rewards: [{
+				id: "42E7BD7F1FBC6767"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:ebony_log"
 			x: 23.75d
 			y: -4.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4BB6D090184FD50C"
@@ -1661,11 +2476,17 @@
 				type: "biome"
 				biome: "byg:pointed_stone_forest"
 			}]
+			rewards: [{
+				id: "262FE9BE9799EFA4"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:cattail"
 			x: 4.75d
 			y: -3.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "10EBB0AEB387360C"
@@ -1674,11 +2495,17 @@
 				type: "biome"
 				biome: "byg:polluted_lake"
 			}]
+			rewards: [{
+				id: "5C36CC7910DC3630"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:california_poppy"
 			x: 5.75d
 			y: -3.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7818400EEBEE9329"
@@ -1687,11 +2514,17 @@
 				type: "biome"
 				biome: "byg:prairie_clearing"
 			}]
+			rewards: [{
+				id: "0939DBC95B2098FA"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:prairie_grass"
 			x: 6.75d
 			y: -3.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6896A7A5CC0E97AB"
@@ -1700,11 +2533,17 @@
 				type: "biome"
 				biome: "byg:prairie"
 			}]
+			rewards: [{
+				id: "27A5C4625F053DDB"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:witch_hazel_sapling"
 			x: 7.75d
 			y: -3.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "68A01CCF2C3C8C20"
@@ -1713,11 +2552,17 @@
 				type: "biome"
 				biome: "byg:pumpkin_forest"
 			}]
+			rewards: [{
+				id: "7F60C1CFCB12778D"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "environmental:purple_wisteria_sapling"
 			x: 8.75d
 			y: -3.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "57337AD3BF09BD0A"
@@ -1726,11 +2571,17 @@
 				type: "biome"
 				biome: "byg:purpur_peaks"
 			}]
+			rewards: [{
+				id: "3A9B9EBFB411180C"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:quartzite_sand"
 			x: 9.75d
 			y: -3.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1D81B2717681F3CB"
@@ -1739,11 +2590,17 @@
 				type: "biome"
 				biome: "byg:quartz_desert"
 			}]
+			rewards: [{
+				id: "04DDAB538BCA2F7D"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:rainbow_eucalyptus_sapling"
 			x: 10.75d
 			y: -3.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5A22078024D43DBC"
@@ -1752,11 +2609,17 @@
 				type: "biome"
 				biome: "byg:rainbow_beach"
 			}]
+			rewards: [{
+				id: "6ABACEDADED51106"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "minecraft:red_sand"
 			x: 11.75d
 			y: -3.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "141BC0252898626C"
@@ -1765,11 +2628,17 @@
 				type: "biome"
 				biome: "byg:red_desert_dunes"
 			}]
+			rewards: [{
+				id: "7C598343C1A6E79D"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:golden_spined_cactus"
 			x: 12.75d
 			y: -3.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "713BF5BCC89316CF"
@@ -1778,11 +2647,17 @@
 				type: "biome"
 				biome: "byg:red_desert"
 			}]
+			rewards: [{
+				id: "25CDF03B61D76895"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "quark:dark_oak_hedge"
 			x: 13.75d
 			y: -3.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6AD48C8D49AF4C20"
@@ -1791,11 +2666,17 @@
 				type: "biome"
 				biome: "byg:red_oak_forest_hills"
 			}]
+			rewards: [{
+				id: "7AAE6E47ED9E493F"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:red_oak_leaves"
 			x: 14.75d
 			y: -3.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "004D7FF28069DD8D"
@@ -1804,11 +2685,17 @@
 				type: "biome"
 				biome: "byg:red_oak_forest"
 			}]
+			rewards: [{
+				id: "5E310735C45CD6FA"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:red_rock"
 			x: 15.75d
 			y: -3.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "09DB256E2ED28C09"
@@ -1817,11 +2704,17 @@
 				type: "biome"
 				biome: "byg:red_rock_highlands"
 			}]
+			rewards: [{
+				id: "19130460440799BC"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:prickly_pear_cactus"
 			x: 16.75d
 			y: -3.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2B69E55B4ABD109D"
@@ -1830,11 +2723,17 @@
 				type: "biome"
 				biome: "byg:red_rock_lowlands"
 			}]
+			rewards: [{
+				id: "48F51CAEBCA3069C"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "minecraft:orange_terracotta"
 			x: 17.75d
 			y: -3.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2B7D723E39F441FA"
@@ -1843,11 +2742,17 @@
 				type: "biome"
 				biome: "byg:red_rock_mountains"
 			}]
+			rewards: [{
+				id: "7EC4DEDF296546EC"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:red_oak_leaves"
 			x: 18.75d
 			y: -3.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "585A090162425289"
@@ -1856,11 +2761,17 @@
 				type: "biome"
 				biome: "byg:red_spruce_taiga"
 			}]
+			rewards: [{
+				id: "4E85BE4051F54AC5"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "environmental:white_lotus_flower"
 			x: 19.75d
 			y: -3.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0784C6A1DFAD7331"
@@ -1869,11 +2780,17 @@
 				type: "biome"
 				biome: "byg:redwood_clearing"
 			}]
+			rewards: [{
+				id: "51D17ECBD34CCB61"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:redwood_log"
 			x: 20.75d
 			y: -3.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "72289EAD62A3B5D1"
@@ -1882,11 +2799,17 @@
 				type: "biome"
 				biome: "byg:redwood_mountains"
 			}]
+			rewards: [{
+				id: "2FB02472632ADD63"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:redwood_sapling"
 			x: 21.75d
 			y: -3.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "02F43E5B13BC4A0C"
@@ -1895,11 +2818,17 @@
 				type: "biome"
 				biome: "byg:redwood_tropics"
 			}]
+			rewards: [{
+				id: "5BBA0955AFD32994"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "create:weathered_limestone"
 			x: 22.75d
 			y: -3.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "49CA7BEFFEBE8D8F"
@@ -1908,11 +2837,17 @@
 				type: "biome"
 				biome: "byg:rocky_beach"
 			}]
+			rewards: [{
+				id: "6833F4CA976A2DAC"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:osiria_rose"
 			x: 23.75d
 			y: -3.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "529ACA5D8CFE5122"
@@ -1921,11 +2856,17 @@
 				type: "biome"
 				biome: "byg:rose_fields"
 			}]
+			rewards: [{
+				id: "53085AC3E99EA523"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "minecraft:birch_sapling"
 			x: 4.75d
 			y: -2.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "07633267A18053AD"
@@ -1934,11 +2875,17 @@
 				type: "biome"
 				biome: "byg:seasonal_birch_forest_hills"
 			}]
+			rewards: [{
+				id: "13B08CCC2CB61934"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:red_birch_sapling"
 			x: 5.75d
 			y: -2.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "413F1E9BC087372E"
@@ -1947,11 +2894,17 @@
 				type: "biome"
 				biome: "byg:seasonal_birch_forest"
 			}]
+			rewards: [{
+				id: "667091D3EF000C94"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "botania:pink_double_flower"
 			x: 6.75d
 			y: -2.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "408019D1AADE8712"
@@ -1960,11 +2913,17 @@
 				type: "biome"
 				biome: "byg:seasonal_deciduous_clearing"
 			}]
+			rewards: [{
+				id: "05A8087E18B8F9F9"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "botania:metamorphic_forest_bricks"
 			x: 7.75d
 			y: -2.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4432D38764F81004"
@@ -1973,11 +2932,17 @@
 				type: "biome"
 				biome: "byg:seasonal_deciduous_forest_hills"
 			}]
+			rewards: [{
+				id: "76D013BEF32318ED"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:orange_oak_leaves"
 			x: 8.75d
 			y: -2.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0EE902DA0751A3CA"
@@ -1986,11 +2951,17 @@
 				type: "biome"
 				biome: "byg:seasonal_deciduous_forest"
 			}]
+			rewards: [{
+				id: "26EAB09ADB7E314A"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:brown_oak_leaves"
 			x: 9.75d
 			y: -2.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3DAB9723E750BC4E"
@@ -1999,11 +2970,17 @@
 				type: "biome"
 				biome: "byg:seasonal_forest_hills"
 			}]
+			rewards: [{
+				id: "1930E33A349A3CCF"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "minecraft:oak_leaves"
 			x: 10.75d
 			y: -2.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5A77F2858A8405C2"
@@ -2012,11 +2989,17 @@
 				type: "biome"
 				biome: "byg:seasonal_forest"
 			}]
+			rewards: [{
+				id: "3C0CA52E5CF831D5"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:yellow_spruce_leaves"
 			x: 11.75d
 			y: -2.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0CACA2E705DC67C1"
@@ -2025,11 +3008,17 @@
 				type: "biome"
 				biome: "byg:seasonal_giant_taiga"
 			}]
+			rewards: [{
+				id: "48F06C94D74B692D"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "minecraft:spruce_leaves"
 			x: 12.75d
 			y: -2.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "43D9F59E0A644558"
@@ -2038,11 +3027,17 @@
 				type: "biome"
 				biome: "byg:seasonal_taiga_hills"
 			}]
+			rewards: [{
+				id: "5DB656C890E86973"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:red_spruce_leaves"
 			x: 13.75d
 			y: -2.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0354553F77F7D1E6"
@@ -2051,11 +3046,17 @@
 				type: "biome"
 				biome: "byg:seasonal_taiga"
 			}]
+			rewards: [{
+				id: "72A6759E77D3211E"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "projectvibrantjourneys:blooming_desert_agave"
 			x: 14.75d
 			y: -2.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0250D59F1D52F440"
@@ -2064,11 +3065,17 @@
 				type: "biome"
 				biome: "byg:shattered_desert_isles"
 			}]
+			rewards: [{
+				id: "65BEBBA9E2B57DD9"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "projectvibrantjourneys:desert_sage"
 			x: 15.75d
 			y: -2.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0E6A16AD4D1F3A6C"
@@ -2077,11 +3084,17 @@
 				type: "biome"
 				biome: "byg:shattered_desert"
 			}]
+			rewards: [{
+				id: "3D7FF36F7F77CAA1"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:packed_black_ice"
 			x: 16.75d
 			y: -2.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2F66D1B9FE222A43"
@@ -2090,11 +3103,17 @@
 				type: "biome"
 				biome: "byg:shattered_glacier"
 			}]
+			rewards: [{
+				id: "44C46DEDEBF418FD"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:ivis_sprout"
 			x: 17.75d
 			y: -2.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "52CD7F22D1B4C493"
@@ -2103,11 +3122,17 @@
 				type: "biome"
 				biome: "byg:shattered_viscal_isles"
 			}]
+			rewards: [{
+				id: "35591D53D42FA8A9"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "projectvibrantjourneys:twigs"
 			x: 18.75d
 			y: -2.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1814BC9941334622"
@@ -2116,11 +3141,17 @@
 				type: "biome"
 				biome: "byg:shrublands"
 			}]
+			rewards: [{
+				id: "1848659888B8C105"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:green_apple_skyris_leaves"
 			x: 19.75d
 			y: -2.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6F6EC09526145EB9"
@@ -2129,11 +3160,17 @@
 				type: "biome"
 				biome: "byg:shulkren_forest"
 			}]
+			rewards: [{
+				id: "3B6785331610E67B"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:palo_verde_sapling"
 			x: 20.75d
 			y: -2.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7B9745577651D4D0"
@@ -2142,11 +3179,17 @@
 				type: "biome"
 				biome: "byg:sierra_range"
 			}]
+			rewards: [{
+				id: "327BBE46F0D88A26"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "projectvibrantjourneys:bones"
 			x: 21.75d
 			y: -2.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1C58010ED9A18D2D"
@@ -2155,11 +3198,17 @@
 				type: "biome"
 				biome: "byg:sierra_valley"
 			}]
+			rewards: [{
+				id: "477131C7C30C619F"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:green_apple"
 			x: 22.75d
 			y: -2.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "455EAF825380E64F"
@@ -2168,11 +3217,17 @@
 				type: "biome"
 				biome: "byg:skyris_highlands_clearing"
 			}]
+			rewards: [{
+				id: "6B1E0326762B2F90"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:skyris_sapling"
 			x: 23.75d
 			y: -2.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5AF066DCF4590FDD"
@@ -2181,11 +3236,17 @@
 				type: "biome"
 				biome: "byg:skyris_highlands"
 			}]
+			rewards: [{
+				id: "1A05B2BB6DD93193"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:skyris_leaves"
 			x: 4.75d
 			y: -1.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0FE6D4C6B6B3BABC"
@@ -2194,11 +3255,17 @@
 				type: "biome"
 				biome: "byg:skyris_peaks"
 			}]
+			rewards: [{
+				id: "0F6F5AC5C79B03DA"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:green_apple_skyris_leaves"
 			x: 5.75d
 			y: -1.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5A0E0C90C22C28B5"
@@ -2207,11 +3274,17 @@
 				type: "biome"
 				biome: "byg:skyris_steeps"
 			}]
+			rewards: [{
+				id: "647ED8ADB7ED17E7"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:black_sand"
 			x: 6.75d
 			y: -1.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4EAFD325D772A176"
@@ -2220,11 +3293,17 @@
 				type: "biome"
 				biome: "byg:snowy_black_beach"
 			}]
+			rewards: [{
+				id: "002F7A1A3701444A"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:blue_spruce_leaves"
 			x: 7.75d
 			y: -1.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "60FCC89E9D7BDEE4"
@@ -2233,11 +3312,17 @@
 				type: "biome"
 				biome: "byg:snowy_blue_giant_taiga"
 			}]
+			rewards: [{
+				id: "496F1F85F1B662B8"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:blue_spruce_sapling"
 			x: 8.75d
 			y: -1.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "599F1DB3B6BE9F93"
@@ -2246,11 +3331,17 @@
 				type: "biome"
 				biome: "byg:snowy_blue_taiga_hills"
 			}]
+			rewards: [{
+				id: "78B1C1F2C7E4A990"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "simplefarming:blueberry_bush"
 			x: 9.75d
 			y: -1.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0E040DD3F7E37D2C"
@@ -2259,11 +3350,17 @@
 				type: "biome"
 				biome: "byg:snowy_blue_taiga"
 			}]
+			rewards: [{
+				id: "193A7A3179DF6CFE"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "minecraft:spruce_log"
 			x: 10.75d
 			y: -1.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4F39AA26C8B7C8BD"
@@ -2272,11 +3369,17 @@
 				type: "biome"
 				biome: "byg:snowy_coniferous_clearing"
 			}]
+			rewards: [{
+				id: "2868487AFA970494"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: { id: "minecraft:spruce_sapling", Count: 3b }
 			x: 11.75d
 			y: -1.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "016D1710A9109FF8"
@@ -2285,11 +3388,17 @@
 				type: "biome"
 				biome: "byg:snowy_coniferous_forest_hills"
 			}]
+			rewards: [{
+				id: "2F68D6C15E1532CD"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:pine_leaves"
 			x: 12.75d
 			y: -1.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "77174F5F29DCAF8D"
@@ -2298,11 +3407,17 @@
 				type: "biome"
 				biome: "byg:snowy_coniferous_forest"
 			}]
+			rewards: [{
+				id: "567B9B66F2C1E1A6"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:pine_sapling"
 			x: 13.75d
 			y: -1.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "47E2B17DD55E9286"
@@ -2311,11 +3426,17 @@
 				type: "biome"
 				biome: "byg:snowy_deciduous_clearing"
 			}]
+			rewards: [{
+				id: "63FC5FB9BF548283"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "occultism:otherworld_leaves_natural"
 			x: 14.75d
 			y: -1.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "77B3661A48DDBBF8"
@@ -2324,11 +3445,17 @@
 				type: "biome"
 				biome: "byg:snowy_deciduous_forest_hills"
 			}]
+			rewards: [{
+				id: "17CFBAD9661F0172"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "minecraft:snow"
 			x: 15.75d
 			y: -1.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "47A76F435CD5CE7E"
@@ -2337,11 +3464,17 @@
 				type: "biome"
 				biome: "byg:snowy_deciduous_forest"
 			}]
+			rewards: [{
+				id: "48E27461FE7D19EF"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:holly_berry_leaves"
 			x: 16.75d
 			y: -1.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2254701BB24F135D"
@@ -2350,24 +3483,37 @@
 				type: "biome"
 				biome: "byg:snowy_evergreen_clearing"
 			}]
+			rewards: [{
+				id: "018CFEE7D4E7B5C7"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:snowdrops"
 			x: 17.75d
 			y: -1.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
+			optional: true
 			id: "35CFFA67C5C628FB"
 			tasks: [{
 				id: "3B7BEFAFBDB624C3"
 				type: "biome"
 				biome: "byg:snowy_evergreen_hills"
 			}]
+			rewards: [{
+				id: "31BCC6599D7C4487"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:holly_leaves"
 			x: 18.75d
 			y: -1.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7250473929599B79"
@@ -2376,11 +3522,17 @@
 				type: "biome"
 				biome: "byg:snowy_evergreen_taiga"
 			}]
+			rewards: [{
+				id: "48745D115DCEA5A6"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:black_sandstone"
 			x: 19.75d
 			y: -1.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1346DC9B51C917EE"
@@ -2389,11 +3541,17 @@
 				type: "biome"
 				biome: "byg:snowy_rocky_black_beach"
 			}]
+			rewards: [{
+				id: "511A78DA044A8CE3"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "minecraft:infested_stone"
 			x: 20.75d
 			y: -1.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "26B86969CEEF6FCB"
@@ -2402,11 +3560,17 @@
 				type: "biome"
 				biome: "byg:stone_forest"
 			}]
+			rewards: [{
+				id: "546F60540E20BFAA"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:subzero_crystal_cluster"
 			x: 21.75d
 			y: -1.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1C07E753BE4765D0"
@@ -2415,11 +3579,17 @@
 				type: "biome"
 				biome: "byg:subzero_hypogeal"
 			}]
+			rewards: [{
+				id: "01A88B9A7C568C27"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "minecraft:polished_diorite"
 			x: 22.75d
 			y: -1.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6D738E4A74A13D63"
@@ -2428,11 +3598,17 @@
 				type: "biome"
 				biome: "byg:sythian_torrids"
 			}]
+			rewards: [{
+				id: "283584CB368CF9FF"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "minecraft:large_fern"
 			x: 23.75d
 			y: -1.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "319BA4B77881C507"
@@ -2441,11 +3617,17 @@
 				type: "biome"
 				biome: "byg:the_black_forest"
 			}]
+			rewards: [{
+				id: "5EB9C951CF15F19E"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "minecraft:tropical_fish"
 			x: 4.75d
 			y: -0.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3A2D7E391DEFA55C"
@@ -2454,11 +3636,17 @@
 				type: "biome"
 				biome: "byg:tropical_fungal_forest"
 			}]
+			rewards: [{
+				id: "327056F925139BF5"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:fungal_imparius"
 			x: 5.75d
 			y: -0.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0FCF18485D8A69FE"
@@ -2467,11 +3655,17 @@
 				type: "biome"
 				biome: "byg:tropical_fungal_rainforest_hills"
 			}]
+			rewards: [{
+				id: "3BDDECABFD214A16"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "minecraft:bamboo"
 			x: 6.75d
 			y: -0.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "12834859EEA2D54C"
@@ -2480,11 +3674,17 @@
 				type: "biome"
 				biome: "byg:tropical_islands"
 			}]
+			rewards: [{
+				id: "6A897E0EB761F00F"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:rainbow_eucalyptus_log"
 			x: 7.75d
 			y: -0.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6CF1676E81E1CA84"
@@ -2493,11 +3693,17 @@
 				type: "biome"
 				biome: "byg:tropical_rainforest_hills"
 			}]
+			rewards: [{
+				id: "7C3C3498C4804A83"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "minecraft:tropical_fish_bucket"
 			x: 8.75d
 			y: -0.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7F33971E2F83A301"
@@ -2506,11 +3712,17 @@
 				type: "biome"
 				biome: "byg:tropical_rainforest"
 			}]
+			rewards: [{
+				id: "423049FACC8E2EE1"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "minecraft:lily_of_the_valley"
 			x: 9.75d
 			y: -0.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "01C5EC3BA411B06C"
@@ -2519,11 +3731,17 @@
 				type: "biome"
 				biome: "byg:twilight_valley_hills"
 			}]
+			rewards: [{
+				id: "4EEFE1FF73BC1480"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "undergarden:twistytwig"
 			x: 10.75d
 			y: -0.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7F47944DA8E4A0F9"
@@ -2532,11 +3750,17 @@
 				type: "biome"
 				biome: "byg:twilight_valley"
 			}]
+			rewards: [{
+				id: "62AB557339E54CA4"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "quark:pink_blossom_sapling"
 			x: 11.75d
 			y: -0.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5498B10E30BE70F5"
@@ -2545,11 +3769,17 @@
 				type: "biome"
 				biome: "byg:vibrant_swamplands"
 			}]
+			rewards: [{
+				id: "65637822A1F8830D"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "atmospheric:passion_vine_bundle"
 			x: 12.75d
 			y: -0.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "24E6E61DECD66B65"
@@ -2558,11 +3788,17 @@
 				type: "biome"
 				biome: "byg:viscal_isles"
 			}]
+			rewards: [{
+				id: "4E738DB4F8268B76"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "quark:orange_blossom_sapling"
 			x: 13.75d
 			y: -0.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7B5A91182EC3F3A9"
@@ -2571,11 +3807,17 @@
 				type: "biome"
 				biome: "byg:wailing_garth"
 			}]
+			rewards: [{
+				id: "61DAD48ECEE3E385"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "botania:metamorphic_desert_stone"
 			x: 14.75d
 			y: -0.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "65D796FFFF725749"
@@ -2584,11 +3826,17 @@
 				type: "biome"
 				biome: "byg:warped_desert"
 			}]
+			rewards: [{
+				id: "1CAA8BA65F8CDA72"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "atmospheric:flowering_morado_leaves"
 			x: 15.75d
 			y: -0.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "751F71FA24DC5003"
@@ -2597,11 +3845,17 @@
 				type: "biome"
 				biome: "byg:weeping_mire"
 			}]
+			rewards: [{
+				id: "2786B3C64E2D2CEC"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:witch_hazel_log"
 			x: 16.75d
 			y: -0.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "13CC9334376A2F9B"
@@ -2610,11 +3864,17 @@
 				type: "biome"
 				biome: "byg:weeping_witch_clearing"
 			}]
+			rewards: [{
+				id: "4EBC5D6146AF146C"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:witch_hazel_sapling"
 			x: 17.75d
 			y: -0.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4D471CD9287C6B36"
@@ -2623,11 +3883,17 @@
 				type: "biome"
 				biome: "byg:weeping_witch_forest"
 			}]
+			rewards: [{
+				id: "6F600C890C3B968E"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "minecraft:snow"
 			x: 18.75d
 			y: -0.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6D15821BD452FB76"
@@ -2636,11 +3902,17 @@
 				type: "biome"
 				biome: "byg:white_beach"
 			}]
+			rewards: [{
+				id: "616EB7F57833B8D0"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "masonry:stonecarvedwither"
 			x: 19.75d
 			y: -0.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "311F8CF146359C22"
@@ -2649,11 +3921,17 @@
 				type: "biome"
 				biome: "byg:withering_woods"
 			}]
+			rewards: [{
+				id: "169417AD842D359C"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "minecraft:podzol"
 			x: 20.75d
 			y: -0.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "76D5EA1C28054EA7"
@@ -2662,11 +3940,17 @@
 				type: "biome"
 				biome: "byg:wooded_grassland_plateau"
 			}]
+			rewards: [{
+				id: "0D6E81AD9DB5F23F"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "minecraft:grass"
 			x: 21.75d
 			y: -0.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0E2F9D106CEE9BDC"
@@ -2675,11 +3959,17 @@
 				type: "biome"
 				biome: "byg:wooded_meadow"
 			}]
+			rewards: [{
+				id: "37814296B031D67B"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:red_rock_bricks"
 			x: 22.75d
 			y: -0.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "26988D1EF576AC32"
@@ -2688,11 +3978,17 @@
 				type: "biome"
 				biome: "byg:wooded_red_rock_mountains"
 			}]
+			rewards: [{
+				id: "5189B3EB6C89B1B4"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "byg:green_mushroom_block"
 			x: 23.75d
 			y: -0.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2D16B7809729E6A4"
@@ -2701,11 +3997,17 @@
 				type: "biome"
 				biome: "byg:woodlands"
 			}]
+			rewards: [{
+				id: "4A4F319452CAECC0"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "minecraft:white_glazed_terracotta"
 			x: 4.75d
 			y: 0.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2341D5106B6CB8CD"
@@ -2714,11 +4016,17 @@
 				type: "biome"
 				biome: "byg:zelkova_clearing"
 			}]
+			rewards: [{
+				id: "637CCF1AFE621E10"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "minecraft:orange_glazed_terracotta"
 			x: 5.75d
 			y: 0.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7B85C53D4E86F14B"
@@ -2727,11 +4035,17 @@
 				type: "biome"
 				biome: "byg:zelkova_forest_hills"
 			}]
+			rewards: [{
+				id: "4702574952EAB4F1"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "minecraft:magenta_glazed_terracotta"
 			x: 6.75d
 			y: 0.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "643350618E743D64"
@@ -2740,11 +4054,17 @@
 				type: "biome"
 				biome: "byg:zelkova_forest"
 			}]
+			rewards: [{
+				id: "756759D256265BAF"
+				type: "random"
+				table_id: 7747495196919840633L
+			}]
 		}
 		{
 			icon: "botania:enchanted_soil"
 			x: -14.25d
 			y: -10.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2EB0A90A979B9E6F"
@@ -2753,11 +4073,17 @@
 				type: "biome"
 				biome: "minecraft:badlands_plateau"
 			}]
+			rewards: [{
+				id: "5AB95EED86A6F53C"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "farmersdelight:rich_soil_farmland"
 			x: -13.25d
 			y: -10.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5B605A843D6D7C49"
@@ -2766,11 +4092,17 @@
 				type: "biome"
 				biome: "minecraft:badlands"
 			}]
+			rewards: [{
+				id: "46DA9E82875A05DE"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "byg:baobab_leaves"
 			x: -12.25d
 			y: -10.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "672A20EB999CDE33"
@@ -2779,11 +4111,17 @@
 				type: "biome"
 				biome: "minecraft:bamboo_jungle_hills"
 			}]
+			rewards: [{
+				id: "07E6BCCDC8A68D73"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:bamboo"
 			x: -11.25d
 			y: -10.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6F5A7E619ED82B9C"
@@ -2792,11 +4130,17 @@
 				type: "biome"
 				biome: "minecraft:bamboo_jungle"
 			}]
+			rewards: [{
+				id: "56F52CE8171F86A0"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:basalt"
 			x: -14.25d
 			y: -9.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1035B2AF01FC9CF5"
@@ -2805,11 +4149,17 @@
 				type: "biome"
 				biome: "minecraft:basalt_deltas"
 			}]
+			rewards: [{
+				id: "400C3C43A25F6F54"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:sand"
 			x: -13.25d
 			y: -9.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0FF705186EF707FF"
@@ -2818,11 +4168,17 @@
 				type: "biome"
 				biome: "minecraft:beach"
 			}]
+			rewards: [{
+				id: "038A9F10559CFEDC"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "byg:yellow_birch_leaves"
 			x: -12.25d
 			y: -9.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3AD845B436EF99B8"
@@ -2831,11 +4187,17 @@
 				type: "biome"
 				biome: "minecraft:birch_forest_hills"
 			}]
+			rewards: [{
+				id: "138E7957D7C1CB41"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:birch_log"
 			x: -11.25d
 			y: -9.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "351A56917A37875C"
@@ -2844,11 +4206,17 @@
 				type: "biome"
 				biome: "minecraft:birch_forest"
 			}]
+			rewards: [{
+				id: "7FDFF3E76E1C9036"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "environmental:chiseled_ice_bricks"
 			x: -14.25d
 			y: -8.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "498C69A8FB0DE231"
@@ -2857,11 +4225,17 @@
 				type: "biome"
 				biome: "minecraft:cold_ocean"
 			}]
+			rewards: [{
+				id: "61E2DCCD668B81CD"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:crimson_nylium"
 			x: -13.25d
 			y: -8.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6A1E418E2F6332EC"
@@ -2870,11 +4244,17 @@
 				type: "biome"
 				biome: "minecraft:crimson_forest"
 			}]
+			rewards: [{
+				id: "6D829C459B365EC6"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:dark_oak_leaves"
 			x: -12.25d
 			y: -8.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "581E1ACD1DA73A9A"
@@ -2883,11 +4263,17 @@
 				type: "biome"
 				biome: "minecraft:dark_forest_hills"
 			}]
+			rewards: [{
+				id: "2B215311CFAF7EF3"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:dark_oak_sapling"
 			x: -11.25d
 			y: -8.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4EE66E89F3F0DF94"
@@ -2896,11 +4282,17 @@
 				type: "biome"
 				biome: "minecraft:dark_forest"
 			}]
+			rewards: [{
+				id: "512A239C99273BE9"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "architects_palette:packed_ice_pillar"
 			x: -14.25d
 			y: -7.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "71EE13EFD6A292AB"
@@ -2909,11 +4301,17 @@
 				type: "biome"
 				biome: "minecraft:deep_cold_ocean"
 			}]
+			rewards: [{
+				id: "0AB70550F7F0F8A9"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "architects_palette:polished_packed_ice"
 			x: -13.25d
 			y: -7.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2BAAA7A61766165F"
@@ -2922,11 +4320,17 @@
 				type: "biome"
 				biome: "minecraft:deep_frozen_ocean"
 			}]
+			rewards: [{
+				id: "575DBF56DE4F3D07"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "upgrade_aquatic:pink_searocket"
 			x: -12.25d
 			y: -7.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7EB7E3C2CC86D814"
@@ -2935,11 +4339,17 @@
 				type: "biome"
 				biome: "minecraft:deep_lukewarm_ocean"
 			}]
+			rewards: [{
+				id: "503F4AA25BA36109"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:sea_pickle"
 			x: -11.25d
 			y: -7.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "285FAFD00EDAFF09"
@@ -2948,11 +4358,17 @@
 				type: "biome"
 				biome: "minecraft:deep_ocean"
 			}]
+			rewards: [{
+				id: "7490B251E51FB9C8"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:seagrass"
 			x: -14.25d
 			y: -6.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7BB12887DBFAE104"
@@ -2961,11 +4377,17 @@
 				type: "biome"
 				biome: "minecraft:deep_warm_ocean"
 			}]
+			rewards: [{
+				id: "3E55ED9968B88FBC"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "quark:sandstone_bricks"
 			x: -13.25d
 			y: -6.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6D1A0222368A1604"
@@ -2974,11 +4396,17 @@
 				type: "biome"
 				biome: "minecraft:desert_hills"
 			}]
+			rewards: [{
+				id: "16D55880445B4CA5"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "atmospheric:arid_sand"
 			x: -12.25d
 			y: -6.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6E4CF0547EE37628"
@@ -2987,11 +4415,17 @@
 				type: "biome"
 				biome: "minecraft:desert_lakes"
 			}]
+			rewards: [{
+				id: "7E58ADA0C19D936F"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:sand"
 			x: -11.25d
 			y: -6.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6200432EE6A43BBF"
@@ -3000,11 +4434,17 @@
 				type: "biome"
 				biome: "minecraft:desert"
 			}]
+			rewards: [{
+				id: "481D64037870EC0B"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "architects_palette:chiseled_end_stone_bricks"
 			x: -14.25d
 			y: -5.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "767BACBC70236666"
@@ -3013,11 +4453,17 @@
 				type: "biome"
 				biome: "minecraft:end_barrens"
 			}]
+			rewards: [{
+				id: "46622C8F245FF771"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "architects_palette:heavy_cracked_end_stone_bricks"
 			x: -13.25d
 			y: -5.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "16B3FDEA1EC6CBCE"
@@ -3026,11 +4472,17 @@
 				type: "biome"
 				biome: "minecraft:end_highlands"
 			}]
+			rewards: [{
+				id: "7E6DE2775026BC1E"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "architects_palette:cracked_end_stone_bricks"
 			x: -12.25d
 			y: -5.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2C2E423B4B79C7E3"
@@ -3039,11 +4491,17 @@
 				type: "biome"
 				biome: "minecraft:end_midlands"
 			}]
+			rewards: [{
+				id: "32B2814762A119DD"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "atmospheric:crustose_wood"
 			x: -11.25d
 			y: -5.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4CD24A3FABB2EF42"
@@ -3052,11 +4510,17 @@
 				type: "biome"
 				biome: "minecraft:eroded_badlands"
 			}]
+			rewards: [{
+				id: "6F86520C71D586AE"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:white_tulip"
 			x: -14.25d
 			y: -4.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3979300B04CFCBD3"
@@ -3065,11 +4529,17 @@
 				type: "biome"
 				biome: "minecraft:flower_forest"
 			}]
+			rewards: [{
+				id: "19F15D8B8B54DBD1"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:oak_sapling"
 			x: -13.25d
 			y: -4.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "04F32C07ABFDD1AA"
@@ -3078,11 +4548,17 @@
 				type: "biome"
 				biome: "minecraft:forest"
 			}]
+			rewards: [{
+				id: "2C743997AE7DC3EF"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "upgrade_aquatic:white_searocket"
 			x: -12.25d
 			y: -4.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "242A046F5B06456F"
@@ -3091,11 +4567,17 @@
 				type: "biome"
 				biome: "minecraft:frozen_ocean"
 			}]
+			rewards: [{
+				id: "7DA8074D2F49C6EC"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:packed_ice"
 			x: -11.25d
 			y: -4.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4B2BB50DA3DC9E35"
@@ -3104,11 +4586,17 @@
 				type: "biome"
 				biome: "minecraft:frozen_river"
 			}]
+			rewards: [{
+				id: "2ADF5062439F4FBC"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:spruce_leaves"
 			x: -14.25d
 			y: -3.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1095DFC9FBEA8C54"
@@ -3117,11 +4605,17 @@
 				type: "biome"
 				biome: "minecraft:giant_spruce_taiga_hills"
 			}]
+			rewards: [{
+				id: "7B599E20BAEED07B"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:spruce_sapling"
 			x: -13.25d
 			y: -3.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "43693776D2B5F277"
@@ -3130,11 +4624,17 @@
 				type: "biome"
 				biome: "minecraft:giant_spruce_taiga"
 			}]
+			rewards: [{
+				id: "226A4010F21C76D6"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "botania:metamorphic_taiga_stone"
 			x: -12.25d
 			y: -3.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "116C011A1AE7ABB0"
@@ -3143,11 +4643,17 @@
 				type: "biome"
 				biome: "minecraft:giant_tree_taiga_hills"
 			}]
+			rewards: [{
+				id: "09F00C95339821BD"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "betterendforge:umbrella_tree_sapling"
 			x: -11.25d
 			y: -3.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7762C9B643133B72"
@@ -3156,11 +4662,17 @@
 				type: "biome"
 				biome: "minecraft:giant_tree_taiga"
 			}]
+			rewards: [{
+				id: "7CE5DF4C398F311F"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:gravel"
 			x: -14.25d
 			y: -2.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4DE913AF43BB2947"
@@ -3169,11 +4681,17 @@
 				type: "biome"
 				biome: "minecraft:gravelly_mountains"
 			}]
+			rewards: [{
+				id: "297BB1BE957D0839"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:ice"
 			x: -13.25d
 			y: -2.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "67DC48999B993BFA"
@@ -3182,11 +4700,17 @@
 				type: "biome"
 				biome: "minecraft:ice_spikes"
 			}]
+			rewards: [{
+				id: "47D1824D245F1394"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:jungle_sapling"
 			x: -12.25d
 			y: -2.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1DCAE21EFFE84EB6"
@@ -3195,11 +4719,17 @@
 				type: "biome"
 				biome: "minecraft:jungle_edge"
 			}]
+			rewards: [{
+				id: "7ADFDA7F3C92425C"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:jungle_log"
 			x: -11.25d
 			y: -2.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "415A62774EB342A1"
@@ -3208,11 +4738,17 @@
 				type: "biome"
 				biome: "minecraft:jungle_hills"
 			}]
+			rewards: [{
+				id: "2519F464F5E2E94C"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:jungle_sapling"
 			x: -14.25d
 			y: -1.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4E4E68F497DDAE64"
@@ -3221,11 +4757,17 @@
 				type: "biome"
 				biome: "minecraft:jungle"
 			}]
+			rewards: [{
+				id: "641C4F4C52DBC1DC"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:seagrass"
 			x: -13.25d
 			y: -1.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "49B9217C0FBB4064"
@@ -3234,11 +4776,17 @@
 				type: "biome"
 				biome: "minecraft:lukewarm_ocean"
 			}]
+			rewards: [{
+				id: "070AFAFCF8D2205D"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "undergarden:deepsoil_farmland"
 			x: -12.25d
 			y: -1.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6AD4DB68F84D9ABA"
@@ -3247,11 +4795,17 @@
 				type: "biome"
 				biome: "minecraft:modified_badlands_plateau"
 			}]
+			rewards: [{
+				id: "67D19385807E1E86"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "supplementaries:raked_gravel"
 			x: -11.25d
 			y: -1.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "78C375796C92D83F"
@@ -3260,11 +4814,17 @@
 				type: "biome"
 				biome: "minecraft:modified_gravelly_mountains"
 			}]
+			rewards: [{
+				id: "2F55C0EBC37D75CF"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "quark:jungle_leaf_carpet"
 			x: -14.25d
 			y: 0.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0FD482E0D6B2DEF7"
@@ -3273,11 +4833,17 @@
 				type: "biome"
 				biome: "minecraft:modified_jungle_edge"
 			}]
+			rewards: [{
+				id: "657ACE3EB9AAE11E"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "quark:jungle_hedge"
 			x: -13.25d
 			y: 0.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "66037D9CA95C8CFB"
@@ -3286,10 +4852,16 @@
 				type: "biome"
 				biome: "minecraft:modified_jungle"
 			}]
+			rewards: [{
+				id: "22B148346A71C6CD"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			x: -12.25d
 			y: 0.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "27CB0C238B064BEB"
@@ -3298,11 +4870,17 @@
 				type: "biome"
 				biome: "minecraft:modified_wooded_badlands_plateau"
 			}]
+			rewards: [{
+				id: "7538792F92D8334E"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:cracked_stone_bricks"
 			x: -11.25d
 			y: 0.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "03FFD914C1E4C2CC"
@@ -3311,11 +4889,17 @@
 				type: "biome"
 				biome: "minecraft:mountain_edge"
 			}]
+			rewards: [{
+				id: "7B3C9B6352D8D2D1"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "upgrade_aquatic:dead_rock_coral_block"
 			x: -14.25d
 			y: 1.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2379000BA5471496"
@@ -3324,11 +4908,17 @@
 				type: "biome"
 				biome: "minecraft:mountains"
 			}]
+			rewards: [{
+				id: "3A57083976451763"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "architects_palette:mushy_limestone_bricks"
 			x: -13.25d
 			y: 1.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "51D78A0BC0186B35"
@@ -3337,11 +4927,17 @@
 				type: "biome"
 				biome: "minecraft:mushroom_field_shore"
 			}]
+			rewards: [{
+				id: "280C9B7EDD9198DE"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:mushroom_stem"
 			x: -12.25d
 			y: 1.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "298262B1CB9F1EC5"
@@ -3350,11 +4946,17 @@
 				type: "biome"
 				biome: "minecraft:mushroom_fields"
 			}]
+			rewards: [{
+				id: "35ED83E37DB32033"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:soul_soil"
 			x: -11.25d
 			y: 1.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "74DB1764E4FA13CB"
@@ -3363,11 +4965,17 @@
 				type: "biome"
 				biome: "minecraft:nether_wastes"
 			}]
+			rewards: [{
+				id: "4B2827B4693DC853"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:seagrass"
 			x: -14.25d
 			y: 2.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "046C02618EA68BC1"
@@ -3376,11 +4984,17 @@
 				type: "biome"
 				biome: "minecraft:ocean"
 			}]
+			rewards: [{
+				id: "3FA1678D6CFF800F"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:grass"
 			x: -13.25d
 			y: 2.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2BC34E5815BCCA5D"
@@ -3389,11 +5003,17 @@
 				type: "biome"
 				biome: "minecraft:plains"
 			}]
+			rewards: [{
+				id: "1E32773390D52292"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "environmental:tall_cattail"
 			x: -12.25d
 			y: 2.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4968CFBB706D7A3A"
@@ -3402,11 +5022,17 @@
 				type: "biome"
 				biome: "minecraft:river"
 			}]
+			rewards: [{
+				id: "22053B640221537B"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:red_sand"
 			x: -11.25d
 			y: 2.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "324C32EBBA8FAA32"
@@ -3415,11 +5041,17 @@
 				type: "biome"
 				biome: "minecraft:savanna_plateau"
 			}]
+			rewards: [{
+				id: "0A0A91EF3712916E"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:smooth_red_sandstone"
 			x: -10.25d
 			y: -10.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1E9A97693D7F340D"
@@ -3428,11 +5060,17 @@
 				type: "biome"
 				biome: "minecraft:savanna"
 			}]
+			rewards: [{
+				id: "179D49EFE4E61577"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "atmospheric:smooth_arid_sandstone"
 			x: -10.25d
 			y: -9.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "393B0BA2EF127834"
@@ -3441,11 +5079,17 @@
 				type: "biome"
 				biome: "minecraft:shattered_savanna_plateau"
 			}]
+			rewards: [{
+				id: "411CD76B41FAD47A"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:cut_sandstone"
 			x: -10.25d
 			y: -8.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2AF7FE4E17CC8638"
@@ -3454,11 +5098,17 @@
 				type: "biome"
 				biome: "minecraft:shattered_savanna"
 			}]
+			rewards: [{
+				id: "1EFF809B21C76804"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:end_stone"
 			x: -10.25d
 			y: -7.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0CFE63074A792BFD"
@@ -3467,11 +5117,17 @@
 				type: "biome"
 				biome: "minecraft:small_end_islands"
 			}]
+			rewards: [{
+				id: "24A2B9CAAD97AAD7"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:snow_block"
 			x: -10.25d
 			y: -6.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0C7120D5A6651DDB"
@@ -3480,11 +5136,17 @@
 				type: "biome"
 				biome: "minecraft:snowy_beach"
 			}]
+			rewards: [{
+				id: "28A9B3C72B7EE248"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "architects_palette:coarse_snow"
 			x: -10.25d
 			y: -5.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "18378F12A11FF593"
@@ -3493,11 +5155,17 @@
 				type: "biome"
 				biome: "minecraft:snowy_mountains"
 			}]
+			rewards: [{
+				id: "44C5D356D29338DB"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:snowball"
 			x: -10.25d
 			y: -4.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6CD55D059356678D"
@@ -3506,11 +5174,17 @@
 				type: "biome"
 				biome: "minecraft:snowy_taiga_hills"
 			}]
+			rewards: [{
+				id: "6D5C1A1FBFD1C218"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "quark:snow_bricks"
 			x: -10.25d
 			y: -3.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "076F4234C9ED4818"
@@ -3519,11 +5193,17 @@
 				type: "biome"
 				biome: "minecraft:snowy_taiga_mountains"
 			}]
+			rewards: [{
+				id: "344262DD5A5B8C71"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "quark:snow_bricks_slab"
 			x: -10.25d
 			y: -2.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "793E78549CC3A0EC"
@@ -3532,11 +5212,17 @@
 				type: "biome"
 				biome: "minecraft:snowy_taiga"
 			}]
+			rewards: [{
+				id: "256355CC5E8B8236"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "byg:snowdrops"
 			x: -10.25d
 			y: -1.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5799CDAA4D8711CD"
@@ -3545,11 +5231,17 @@
 				type: "biome"
 				biome: "minecraft:snowy_tundra"
 			}]
+			rewards: [{
+				id: "3B2C15186E1AAFFE"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:soul_sand"
 			x: -10.25d
 			y: 0.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6363BB97D4B9B11A"
@@ -3558,11 +5250,17 @@
 				type: "biome"
 				biome: "minecraft:soul_sand_valley"
 			}]
+			rewards: [{
+				id: "1682B7F49DC255E2"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:smooth_stone"
 			x: -10.25d
 			y: 1.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "212C0D394C9042B0"
@@ -3571,11 +5269,17 @@
 				type: "biome"
 				biome: "minecraft:stone_shore"
 			}]
+			rewards: [{
+				id: "3513CEA96E418916"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:sunflower"
 			x: -10.25d
 			y: 2.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "251609EBC5567CBE"
@@ -3584,11 +5288,17 @@
 				type: "biome"
 				biome: "minecraft:sunflower_plains"
 			}]
+			rewards: [{
+				id: "05BB24F120D5E979"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:dirt"
 			x: -9.25d
 			y: -10.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "670EBE7438E85AB8"
@@ -3597,11 +5307,17 @@
 				type: "biome"
 				biome: "minecraft:swamp_hills"
 			}]
+			rewards: [{
+				id: "1AB962BE1C9D2F6A"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:coarse_dirt"
 			x: -9.25d
 			y: -9.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6E05D736544F3391"
@@ -3610,11 +5326,17 @@
 				type: "biome"
 				biome: "minecraft:swamp"
 			}]
+			rewards: [{
+				id: "2F7143FDF0611CB0"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "atmospheric:morado_wood"
 			x: -9.25d
 			y: -8.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3EFEB311DC03C532"
@@ -3623,11 +5345,17 @@
 				type: "biome"
 				biome: "minecraft:taiga_hills"
 			}]
+			rewards: [{
+				id: "5F7A9BA541D2C34F"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:polished_diorite"
 			x: -9.25d
 			y: -7.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7AD2A3FBEB40EE5F"
@@ -3636,11 +5364,17 @@
 				type: "biome"
 				biome: "minecraft:taiga_mountains"
 			}]
+			rewards: [{
+				id: "5FEA43B6B5D0BEEF"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:birch_wood"
 			x: -9.25d
 			y: -6.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "29C5B16CF6D66F3C"
@@ -3649,11 +5383,17 @@
 				type: "biome"
 				biome: "minecraft:taiga"
 			}]
+			rewards: [{
+				id: "6A8D3F140863D3D9"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:birch_log"
 			x: -9.25d
 			y: -5.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "560166A2D1F821F9"
@@ -3662,11 +5402,17 @@
 				type: "biome"
 				biome: "minecraft:tall_birch_forest"
 			}]
+			rewards: [{
+				id: "6485424852EA3064"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:birch_sapling"
 			x: -9.25d
 			y: -4.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "47811AFE2CF551B5"
@@ -3675,11 +5421,17 @@
 				type: "biome"
 				biome: "minecraft:tall_birch_hills"
 			}]
+			rewards: [{
+				id: "291F076935F04A31"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:end_stone"
 			x: -9.25d
 			y: -3.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "51FD3A2DDD4AB074"
@@ -3688,11 +5440,17 @@
 				type: "biome"
 				biome: "minecraft:the_end"
 			}]
+			rewards: [{
+				id: "46017F0A069B6347"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:sea_pickle"
 			x: -9.25d
 			y: -2.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1EC8DEF4E4BE76A5"
@@ -3701,11 +5459,17 @@
 				type: "biome"
 				biome: "minecraft:warm_ocean"
 			}]
+			rewards: [{
+				id: "3580EF0B2C720010"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:warped_stem"
 			x: -9.25d
 			y: -1.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1910AC6E0BA34D37"
@@ -3714,11 +5478,17 @@
 				type: "biome"
 				biome: "minecraft:warped_forest"
 			}]
+			rewards: [{
+				id: "467300BDD2C7E8F8"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:farmland"
 			x: -9.25d
 			y: 0.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "53F8D97676BF1E18"
@@ -3727,11 +5497,17 @@
 				type: "biome"
 				biome: "minecraft:wooded_badlands_plateau"
 			}]
+			rewards: [{
+				id: "389A229E8B414A3D"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "architects_palette:chiseled_coal_ore_bricks"
 			x: -9.25d
 			y: 1.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "296E98EF61E12745"
@@ -3740,11 +5516,17 @@
 				type: "biome"
 				biome: "minecraft:wooded_hills"
 			}]
+			rewards: [{
+				id: "0AE450714966D758"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:stone"
 			x: -9.25d
 			y: 2.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "77EAA652BB75FA7F"
@@ -3753,11 +5535,17 @@
 				type: "biome"
 				biome: "minecraft:wooded_mountains"
 			}]
+			rewards: [{
+				id: "49AE9FAA1FD325C3"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "environmental:tall_dead_bush"
-			x: -3.0d
+			x: -1.0d
 			y: 5.25d
+			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "60CFACE6DF7184ED"
@@ -3766,11 +5554,17 @@
 				type: "biome"
 				biome: "terraforged:bryce"
 			}]
+			rewards: [{
+				id: "76B1D11C7178D500"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "architects_palette:coarse_snow"
-			x: -2.0d
+			x: 0.0d
 			y: 5.25d
+			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2225E720533F9DBE"
@@ -3779,11 +5573,17 @@
 				type: "biome"
 				biome: "terraforged:cold_marshland"
 			}]
+			rewards: [{
+				id: "5EB5B5B9F344370D"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:snow"
-			x: -1.0d
+			x: 1.0d
 			y: 5.25d
+			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1AD822D399665B47"
@@ -3792,11 +5592,17 @@
 				type: "biome"
 				biome: "terraforged:cold_steppe"
 			}]
+			rewards: [{
+				id: "0107A5E189E6A5C4"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "upgrade_aquatic:fire_coralstone"
-			x: 0.0d
+			x: 2.0d
 			y: 5.25d
+			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "09B01E1C2B32C77E"
@@ -3805,11 +5611,17 @@
 				type: "biome"
 				biome: "terraforged:fir_forest"
 			}]
+			rewards: [{
+				id: "0DC497D376522F01"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "atmospheric:yucca_flower"
-			x: -3.0d
+			x: -1.0d
 			y: 6.25d
+			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "08E261A66442B2A2"
@@ -3818,11 +5630,17 @@
 				type: "biome"
 				biome: "terraforged:flower_plains"
 			}]
+			rewards: [{
+				id: "2E1D4143E8AE17F9"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "undergarden:frozen_deepturf_block"
-			x: -2.0d
+			x: 0.0d
 			y: 6.25d
+			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "208E218D4437EEF0"
@@ -3831,11 +5649,17 @@
 				type: "biome"
 				biome: "terraforged:frozen_lake"
 			}]
+			rewards: [{
+				id: "2CB4A95F3C5EDD04"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "undergarden:frozen_deepturf"
-			x: -1.0d
+			x: 1.0d
 			y: 6.25d
+			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "545CDB8D2948F1FB"
@@ -3844,11 +5668,17 @@
 				type: "biome"
 				biome: "terraforged:frozen_marsh"
 			}]
+			rewards: [{
+				id: "454C12667C4B19AC"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "byg:overgrown_stone"
-			x: 0.0d
+			x: 2.0d
 			y: 6.25d
+			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0EC957DD458F720D"
@@ -3857,11 +5687,17 @@
 				type: "biome"
 				biome: "terraforged:lake"
 			}]
+			rewards: [{
+				id: "7B7599F528055C94"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:lily_pad"
-			x: -3.0d
+			x: -1.0d
 			y: 7.25d
+			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4E31F283A1EE7E26"
@@ -3870,11 +5706,17 @@
 				type: "biome"
 				biome: "terraforged:marshland"
 			}]
+			rewards: [{
+				id: "5466E5C8D7DC4417"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "atmospheric:kousa_wood"
-			x: -2.0d
+			x: 0.0d
 			y: 7.25d
+			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "679F82ACE01CE527"
@@ -3883,11 +5725,17 @@
 				type: "biome"
 				biome: "terraforged:savanna_scrub"
 			}]
+			rewards: [{
+				id: "2A8223DC1FF98082"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "atmospheric:chiseled_red_arid_sandstone"
-			x: -1.0d
+			x: 1.0d
 			y: 7.25d
+			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "30D46D01DE622307"
@@ -3896,11 +5744,17 @@
 				type: "biome"
 				biome: "terraforged:shattered_savanna_scrub"
 			}]
+			rewards: [{
+				id: "78D7BA273F441607"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "quark:snow_bricks"
-			x: 0.0d
+			x: 2.0d
 			y: 7.25d
+			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "367BBC482C228F83"
@@ -3909,11 +5763,17 @@
 				type: "biome"
 				biome: "terraforged:snowy_fir_forest"
 			}]
+			rewards: [{
+				id: "0617DE2817F4CD3B"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "architects_palette:coarse_snow"
-			x: -3.0d
+			x: -1.0d
 			y: 8.25d
+			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0766B293636E6037"
@@ -3922,11 +5782,17 @@
 				type: "biome"
 				biome: "terraforged:snowy_taiga_scrub"
 			}]
+			rewards: [{
+				id: "473C4209AA5D739F"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "create:limestone"
-			x: -2.0d
+			x: 0.0d
 			y: 8.25d
+			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7CE57BA954EA1E47"
@@ -3935,11 +5801,17 @@
 				type: "biome"
 				biome: "terraforged:steppe"
 			}]
+			rewards: [{
+				id: "5C5C3497541AB261"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:stone"
-			x: -1.0d
+			x: 1.0d
 			y: 8.25d
+			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7804C843A1039288"
@@ -3948,11 +5820,17 @@
 				type: "biome"
 				biome: "terraforged:stone_forest"
 			}]
+			rewards: [{
+				id: "522FF235CCFD5B7C"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "dustrial_decor:cardboard_scrap"
-			x: 0.0d
+			x: 2.0d
 			y: 8.25d
+			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3F4B6CCE605AE10C"
@@ -3961,11 +5839,17 @@
 				type: "biome"
 				biome: "terraforged:taiga_scrub"
 			}]
+			rewards: [{
+				id: "02493FF76E0E8E25"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "minecraft:sand"
-			x: -3.0d
+			x: -1.0d
 			y: 4.25d
+			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6E491D1DA4C41383"
@@ -3974,11 +5858,16 @@
 				type: "biome"
 				biome: "terraforged:warm_beach"
 			}]
+			rewards: [{
+				id: "6513C432203D31E3"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			icon: "undergarden:ink_mushroom"
-			x: 5.0d
-			y: 4.25d
+			x: 3.5d
+			y: 5.75d
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "02EAF1F6F7ED4A32"
@@ -3987,11 +5876,16 @@
 				type: "biome"
 				biome: "undergarden:barren_abyss"
 			}]
+			rewards: [{
+				id: "1E2B9400CC0D4CCA"
+				type: "random"
+				table_id: 8797357061003306337L
+			}]
 		}
 		{
 			icon: "undergarden:tall_shimmerweed"
-			x: 6.0d
-			y: 4.25d
+			x: 4.5d
+			y: 5.75d
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0844B202E45E0A01"
@@ -4000,11 +5894,16 @@
 				type: "biome"
 				biome: "undergarden:dense_forest"
 			}]
+			rewards: [{
+				id: "3504A2AB5668CB9B"
+				type: "random"
+				table_id: 8797357061003306337L
+			}]
 		}
 		{
 			icon: "undergarden:depthrock_pebbles"
-			x: 7.0d
-			y: 4.25d
+			x: 5.5d
+			y: 5.75d
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "04D1C44F59CA4A23"
@@ -4013,11 +5912,16 @@
 				type: "biome"
 				biome: "undergarden:forgotten_field"
 			}]
+			rewards: [{
+				id: "571DB0DD57291DC9"
+				type: "random"
+				table_id: 8797357061003306337L
+			}]
 		}
 		{
 			icon: "undergarden:shimmerweed"
-			x: 5.0d
-			y: 5.25d
+			x: 3.5d
+			y: 6.75d
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6E72C3050C480B07"
@@ -4026,11 +5930,16 @@
 				type: "biome"
 				biome: "undergarden:frostfields"
 			}]
+			rewards: [{
+				id: "7E0BE837142E3860"
+				type: "random"
+				table_id: 8797357061003306337L
+			}]
 		}
 		{
 			icon: "undergarden:glowing_kelp"
-			x: 6.0d
-			y: 5.25d
+			x: 4.5d
+			y: 6.75d
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "69E3A17332BCDAD7"
@@ -4039,11 +5948,16 @@
 				type: "biome"
 				biome: "undergarden:gronglegrowth"
 			}]
+			rewards: [{
+				id: "50E1285F0CBDE016"
+				type: "random"
+				table_id: 8797357061003306337L
+			}]
 		}
 		{
 			icon: "undergarden:blood_mushroom_globule"
-			x: 7.0d
-			y: 5.25d
+			x: 5.5d
+			y: 6.75d
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "134508F7DBC93B2A"
@@ -4052,11 +5966,16 @@
 				type: "biome"
 				biome: "undergarden:mushroom_bog"
 			}]
+			rewards: [{
+				id: "074AB41FC4E41372"
+				type: "random"
+				table_id: 8797357061003306337L
+			}]
 		}
 		{
 			icon: "undergarden:smog_vent"
-			x: 5.0d
-			y: 6.25d
+			x: 3.5d
+			y: 7.75d
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "61F825284B43B061"
@@ -4065,11 +5984,16 @@
 				type: "biome"
 				biome: "undergarden:smog_spires"
 			}]
+			rewards: [{
+				id: "42B685C9D23B4B5A"
+				type: "random"
+				table_id: 8797357061003306337L
+			}]
 		}
 		{
 			icon: "undergarden:smogstem_sapling"
-			x: 6.0d
-			y: 6.25d
+			x: 4.5d
+			y: 7.75d
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5C212B55D6697AD2"
@@ -4078,11 +6002,16 @@
 				type: "biome"
 				biome: "undergarden:smogstem_forest"
 			}]
+			rewards: [{
+				id: "24EEAEE298436B3A"
+				type: "random"
+				table_id: 8797357061003306337L
+			}]
 		}
 		{
 			icon: "undergarden:wigglewood_sapling"
-			x: 7.0d
-			y: 6.25d
+			x: 5.5d
+			y: 7.75d
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "18196B6967F9DCFA"
@@ -4091,11 +6020,17 @@
 				type: "biome"
 				biome: "undergarden:wigglewood_forest"
 			}]
+			rewards: [{
+				id: "79217A6F16DD9F80"
+				type: "random"
+				table_id: 8797357061003306337L
+			}]
 		}
 		{
 			icon: "architects_palette:coarse_snow"
-			x: 11.75d
-			y: 3.0d
+			x: 7.75d
+			y: 3.5d
+			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "48B4601ABA48BFA1"
@@ -4104,11 +6039,17 @@
 				type: "biome"
 				biome: "projectvibrantjourneys:alpine_heights"
 			}]
+			rewards: [{
+				id: "03448D10977DEFB7"
+				type: "random"
+				table_id: 397757897220876947L
+			}]
 		}
 		{
 			icon: "atmospheric:grimwood_log"
-			x: 12.75d
-			y: 3.0d
+			x: 8.75d
+			y: 3.5d
+			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3F9B929DE16EE15D"
@@ -4117,11 +6058,17 @@
 				type: "biome"
 				biome: "projectvibrantjourneys:aspen_grove"
 			}]
+			rewards: [{
+				id: "7843540F8E6F5DDB"
+				type: "random"
+				table_id: 397757897220876947L
+			}]
 		}
 		{
 			icon: "atmospheric:stripped_grimwood_log"
-			x: 13.75d
-			y: 3.0d
+			x: 9.75d
+			y: 3.5d
+			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5A018402F081B22C"
@@ -4130,11 +6077,17 @@
 				type: "biome"
 				biome: "projectvibrantjourneys:aspen_grove_hills"
 			}]
+			rewards: [{
+				id: "61C9AC3CFE71359F"
+				type: "random"
+				table_id: 397757897220876947L
+			}]
 		}
 		{
 			icon: "upgrade_aquatic:white_searocket"
-			x: 14.75d
-			y: 3.0d
+			x: 10.75d
+			y: 3.5d
+			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "08AB1CD5DAF05E6F"
@@ -4143,11 +6096,17 @@
 				type: "biome"
 				biome: "projectvibrantjourneys:autumnal_coniferous_forest"
 			}]
+			rewards: [{
+				id: "2F595A90C8FC3709"
+				type: "random"
+				table_id: 397757897220876947L
+			}]
 		}
 		{
 			icon: "byg:baobab_sapling"
-			x: 15.75d
-			y: 3.0d
+			x: 11.75d
+			y: 3.5d
+			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7CCBBFB9D1EC97AB"
@@ -4156,11 +6115,17 @@
 				type: "biome"
 				biome: "projectvibrantjourneys:baobab_fields"
 			}]
+			rewards: [{
+				id: "1F37B37F11E02D96"
+				type: "random"
+				table_id: 397757897220876947L
+			}]
 		}
 		{
 			icon: "quark:blue_blossom_sapling"
-			x: 11.75d
-			y: 4.0d
+			x: 7.75d
+			y: 4.5d
+			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "2364F5703B0E6A0E"
@@ -4169,11 +6134,17 @@
 				type: "biome"
 				biome: "projectvibrantjourneys:blossoming_fields"
 			}]
+			rewards: [{
+				id: "51A897583BD85E5A"
+				type: "random"
+				table_id: 397757897220876947L
+			}]
 		}
 		{
 			icon: "quark:lavender_blossom_sapling"
-			x: 12.75d
-			y: 4.0d
+			x: 8.75d
+			y: 4.5d
+			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6AB07A6011E50F38"
@@ -4182,11 +6153,17 @@
 				type: "biome"
 				biome: "projectvibrantjourneys:boreal_forest"
 			}]
+			rewards: [{
+				id: "0DE7C0B5868475B2"
+				type: "random"
+				table_id: 397757897220876947L
+			}]
 		}
 		{
 			icon: "quark:orange_blossom_sapling"
-			x: 13.75d
-			y: 4.0d
+			x: 9.75d
+			y: 4.5d
+			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5FC4B57057D737FB"
@@ -4195,11 +6172,17 @@
 				type: "biome"
 				biome: "projectvibrantjourneys:boreal_plateau"
 			}]
+			rewards: [{
+				id: "77EC60B856374C64"
+				type: "random"
+				table_id: 397757897220876947L
+			}]
 		}
 		{
 			icon: "minecraft:crimson_nylium"
-			x: 14.75d
-			y: 4.0d
+			x: 10.75d
+			y: 4.5d
+			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "08C9965189369CB7"
@@ -4208,11 +6191,17 @@
 				type: "biome"
 				biome: "projectvibrantjourneys:crimson_thicket"
 			}]
+			rewards: [{
+				id: "33BDE0E5A076ED04"
+				type: "random"
+				table_id: 397757897220876947L
+			}]
 		}
 		{
 			icon: "betterendforge:crystal_moss"
-			x: 15.75d
-			y: 4.0d
+			x: 11.75d
+			y: 4.5d
+			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "7CD14DD8CB1C2316"
@@ -4221,11 +6210,17 @@
 				type: "biome"
 				biome: "projectvibrantjourneys:crystal_lakes"
 			}]
+			rewards: [{
+				id: "30BF1DE9AAACB969"
+				type: "random"
+				table_id: 397757897220876947L
+			}]
 		}
 		{
 			icon: "minecraft:sand"
-			x: 11.75d
-			y: 5.0d
+			x: 7.75d
+			y: 5.5d
+			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "54D5C5A0F41F8F90"
@@ -4234,11 +6229,17 @@
 				type: "biome"
 				biome: "projectvibrantjourneys:desert_shrubland"
 			}]
+			rewards: [{
+				id: "3D9A7A7E674C21D1"
+				type: "random"
+				table_id: 397757897220876947L
+			}]
 		}
 		{
 			icon: "environmental:white_lotus_flower"
-			x: 12.75d
-			y: 5.0d
+			x: 8.75d
+			y: 5.5d
+			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5A0DC63717B11AFD"
@@ -4247,11 +6248,17 @@
 				type: "biome"
 				biome: "projectvibrantjourneys:flooded_woodlands"
 			}]
+			rewards: [{
+				id: "38AAE34BC2F25F7E"
+				type: "random"
+				table_id: 397757897220876947L
+			}]
 		}
 		{
 			icon: "minecraft:gravel"
-			x: 13.75d
-			y: 5.0d
+			x: 9.75d
+			y: 5.5d
+			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "55C82B026221E9E9"
@@ -4260,11 +6267,17 @@
 				type: "biome"
 				biome: "projectvibrantjourneys:gravel_shore"
 			}]
+			rewards: [{
+				id: "1E6BD0F4A7B9ECB6"
+				type: "random"
+				table_id: 397757897220876947L
+			}]
 		}
 		{
 			icon: "byg:stripped_mangrove_log"
-			x: 14.75d
-			y: 5.0d
+			x: 10.75d
+			y: 5.5d
+			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "3D63C52F7A1D4029"
@@ -4273,11 +6286,17 @@
 				type: "biome"
 				biome: "projectvibrantjourneys:mangrove_marsh"
 			}]
+			rewards: [{
+				id: "476A1E6784FC9692"
+				type: "random"
+				table_id: 397757897220876947L
+			}]
 		}
 		{
 			icon: "minecraft:coarse_dirt"
-			x: 15.75d
-			y: 5.0d
+			x: 11.75d
+			y: 5.5d
+			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5DD5D52135FD5505"
@@ -4286,11 +6305,17 @@
 				type: "biome"
 				biome: "projectvibrantjourneys:meadows"
 			}]
+			rewards: [{
+				id: "4F2A0A8F2FC0A56B"
+				type: "random"
+				table_id: 397757897220876947L
+			}]
 		}
 		{
 			icon: "architects_palette:overgrown_algal_bricks"
-			x: 11.75d
-			y: 6.0d
+			x: 7.75d
+			y: 6.5d
+			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "61C3805DFDFCC48D"
@@ -4299,11 +6324,17 @@
 				type: "biome"
 				biome: "projectvibrantjourneys:overgrown_spires"
 			}]
+			rewards: [{
+				id: "213C01D07DEC8533"
+				type: "random"
+				table_id: 397757897220876947L
+			}]
 		}
 		{
 			icon: "byg:pine_wood"
-			x: 12.75d
-			y: 6.0d
+			x: 8.75d
+			y: 6.5d
+			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "64567210E5F46B06"
@@ -4312,11 +6343,17 @@
 				type: "biome"
 				biome: "projectvibrantjourneys:pine_meadows"
 			}]
+			rewards: [{
+				id: "1E3D839A6E34808E"
+				type: "random"
+				table_id: 397757897220876947L
+			}]
 		}
 		{
 			icon: "byg:california_poppy"
-			x: 13.75d
-			y: 6.0d
+			x: 9.75d
+			y: 6.5d
+			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4E8F9E16F1F32A45"
@@ -4325,11 +6362,17 @@
 				type: "biome"
 				biome: "projectvibrantjourneys:prairie"
 			}]
+			rewards: [{
+				id: "6D55763A7EBC7297"
+				type: "random"
+				table_id: 397757897220876947L
+			}]
 		}
 		{
 			icon: "upgrade_aquatic:dead_rock_coral_fan"
-			x: 14.75d
-			y: 6.0d
+			x: 10.75d
+			y: 6.5d
+			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "4876CB30584678C7"
@@ -4338,11 +6381,17 @@
 				type: "biome"
 				biome: "projectvibrantjourneys:red_rock_valley"
 			}]
+			rewards: [{
+				id: "65F66B83D93B8B32"
+				type: "random"
+				table_id: 397757897220876947L
+			}]
 		}
 		{
 			icon: "byg:redwood_leaves"
-			x: 15.75d
-			y: 6.0d
+			x: 11.75d
+			y: 6.5d
+			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "6FA7A702A7D146BD"
@@ -4351,11 +6400,17 @@
 				type: "biome"
 				biome: "projectvibrantjourneys:redwood_peaks"
 			}]
+			rewards: [{
+				id: "1C1CA7F5556BDDB8"
+				type: "random"
+				table_id: 397757897220876947L
+			}]
 		}
 		{
 			icon: "byg:redwood_sapling"
-			x: 11.75d
-			y: 7.0d
+			x: 7.75d
+			y: 7.5d
+			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1BA6E4A1A3F6754F"
@@ -4364,11 +6419,17 @@
 				type: "biome"
 				biome: "projectvibrantjourneys:redwoods"
 			}]
+			rewards: [{
+				id: "27EBA19910C68241"
+				type: "random"
+				table_id: 397757897220876947L
+			}]
 		}
 		{
 			icon: "botania:podzol_seeds"
-			x: 12.75d
-			y: 7.0d
+			x: 8.75d
+			y: 7.5d
+			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "50B21E08A1FBDAA6"
@@ -4377,11 +6438,17 @@
 				type: "biome"
 				biome: "projectvibrantjourneys:snowy_boreal_forest"
 			}]
+			rewards: [{
+				id: "4DE668AAE33C1971"
+				type: "random"
+				table_id: 397757897220876947L
+			}]
 		}
 		{
 			icon: "byg:redwood_wood"
-			x: 13.75d
-			y: 7.0d
+			x: 9.75d
+			y: 7.5d
+			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "76ADF74D684BA376"
@@ -4390,11 +6457,17 @@
 				type: "biome"
 				biome: "projectvibrantjourneys:snowy_redwoods"
 			}]
+			rewards: [{
+				id: "6BA28CE910E16A45"
+				type: "random"
+				table_id: 397757897220876947L
+			}]
 		}
 		{
 			icon: "minecraft:mossy_stone_bricks"
-			x: 14.75d
-			y: 7.0d
+			x: 10.75d
+			y: 7.5d
+			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5D64BEBF684B52BB"
@@ -4403,11 +6476,17 @@
 				type: "biome"
 				biome: "projectvibrantjourneys:stony_fields"
 			}]
+			rewards: [{
+				id: "4E8BD422C686B8E2"
+				type: "random"
+				table_id: 397757897220876947L
+			}]
 		}
 		{
 			icon: "projectvibrantjourneys:coconut"
-			x: 15.75d
-			y: 7.0d
+			x: 11.75d
+			y: 7.5d
+			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "1527CBFAC0B49076"
@@ -4416,11 +6495,17 @@
 				type: "biome"
 				biome: "projectvibrantjourneys:tropical_beach"
 			}]
+			rewards: [{
+				id: "353907222F084F83"
+				type: "random"
+				table_id: 397757897220876947L
+			}]
 		}
 		{
 			icon: "byg:flowering_palo_verde_leaves"
-			x: 11.75d
-			y: 8.0d
+			x: 7.75d
+			y: 8.5d
+			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "5878618A93900DFB"
@@ -4429,11 +6514,17 @@
 				type: "biome"
 				biome: "projectvibrantjourneys:verdant_sands"
 			}]
+			rewards: [{
+				id: "27FC9C6CD40405D9"
+				type: "random"
+				table_id: 397757897220876947L
+			}]
 		}
 		{
 			icon: "environmental:willow_sapling"
-			x: 12.75d
-			y: 8.0d
+			x: 8.75d
+			y: 8.5d
+			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "20D76AAF99A6025F"
@@ -4442,11 +6533,17 @@
 				type: "biome"
 				biome: "projectvibrantjourneys:willow_wetlands"
 			}]
+			rewards: [{
+				id: "4B5929B07949D08A"
+				type: "random"
+				table_id: 397757897220876947L
+			}]
 		}
 		{
 			icon: "supplementaries:wind_vane"
-			x: 13.75d
-			y: 8.0d
+			x: 9.75d
+			y: 8.5d
+			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "0F2BEE82DBE83FBF"
@@ -4455,11 +6552,17 @@
 				type: "biome"
 				biome: "projectvibrantjourneys:windswept_cliffs"
 			}]
+			rewards: [{
+				id: "2DF846D653BF7D52"
+				type: "random"
+				table_id: 397757897220876947L
+			}]
 		}
 		{
 			icon: "architects_palette:acacia_totem_wing"
-			x: 14.75d
-			y: 8.0d
+			x: 10.75d
+			y: 8.5d
+			shape: "octagon"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "056429C7979DE24E"
@@ -4468,11 +6571,17 @@
 				type: "biome"
 				biome: "projectvibrantjourneys:windswept_shore"
 			}]
+			rewards: [{
+				id: "54F21A3FE61F4302"
+				type: "random"
+				table_id: 397757897220876947L
+			}]
 		}
 		{
 			icon: "byg:overgrown_stone"
 			x: 7.75d
 			y: 0.5d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3F89C1FE81B0CF9E"]
 			id: "74D26F00A22ED50E"
@@ -4480,6 +6589,11 @@
 				id: "5891455CE9EFFCD3"
 				type: "biome"
 				biome: "byg:guiana_springs"
+			}]
+			rewards: [{
+				id: "56D685FCABEAD4EC"
+				type: "random"
+				table_id: 7747495196919840633L
 			}]
 		}
 		{

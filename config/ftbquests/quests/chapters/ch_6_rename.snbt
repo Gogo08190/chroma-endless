@@ -89,7 +89,7 @@
 		{
 			x: 35.25d
 			y: -2.5d
-			description: ["&2Harvests resources&r from animals on the block in front of it. This includes shearing sheep, milking cows, and collecting ink sacs from squid.&3Does not require tools to do these actions&r."]
+			description: ["&2Harvests resources&r from animals on the block in front of it. This includes shearing sheep, milking cows, and collecting ink sacs from squid. &3Does not require tools to do these actions&r."]
 			dependencies: ["2D54A1A013FB3774"]
 			id: "51390E8BD5F612B7"
 			tasks: [{
@@ -292,12 +292,12 @@
 				id: "0B858347F5F58E62"
 				type: "item"
 				item: "enderioalloys:item_alloy_ingot_electrical_steel"
-				random_bonus: 7
+				random_bonus: 4
 			}]
 		}
 		{
-			x: 38.75d
-			y: 4.5d
+			x: 38.7d
+			y: 4.214285714285715d
 			shape: "octagon"
 			dependencies: ["73368EF2948452D9"]
 			size: 2.0d
@@ -1576,7 +1576,6 @@
 			x: 33.25d
 			y: -0.5d
 			description: ["A fluid produced by the &9&lPlant Gatherer&r and used in the &9&lSludge Refiner&r."]
-			hide_dependency_lines: true
 			dependencies: ["674D96570B7CE75F"]
 			optional: true
 			id: "0A735828AD6E393E"
@@ -1599,7 +1598,6 @@
 				""
 				"Used in a &9&lBiofuel Generator&r or in &9&lInfinity Tools&r."
 			]
-			hide_dependency_lines: true
 			dependencies: ["60617DA0B9FA35D5"]
 			optional: true
 			id: "26E1BD955D2D4C0E"
@@ -1615,10 +1613,9 @@
 			}]
 		}
 		{
-			x: 37.25d
-			y: -4.75d
+			x: 37.0d
+			y: -4.0d
 			description: ["This fluid is used in a &9&lLatex Processing Unit&r to make &7&lTiny Dry Rubber&r."]
-			hide_dependency_lines: true
 			dependencies: ["330130D7B723C1A9"]
 			optional: true
 			id: "1E30091B21DC41B9"
@@ -1637,7 +1634,6 @@
 			x: 36.75d
 			y: 7.5d
 			description: ["The fluid form of experience produced by the &9&lMob Crusher&r."]
-			hide_dependency_lines: true
 			dependencies: ["296B3469D6D39BB6"]
 			optional: true
 			id: "644010AF3A731ABB"
@@ -1651,7 +1647,6 @@
 			x: 34.75d
 			y: -0.5d
 			description: ["A fluid produced by the &9&lMob Slaughter Factory&r."]
-			hide_dependency_lines: true
 			dependencies: ["00C8869CC6B0933C"]
 			optional: true
 			id: "715BA7D935064CD0"
@@ -1670,7 +1665,6 @@
 			x: 35.75d
 			y: -0.5d
 			description: ["A fluid produced by the &9&lMob Slaughter Factory&r."]
-			hide_dependency_lines: true
 			dependencies: ["00C8869CC6B0933C"]
 			optional: true
 			id: "133EB596DA8E65FE"
@@ -1686,53 +1680,9 @@
 			}]
 		}
 		{
-			x: 35.5d
-			y: 5.0d
-			hide_dependency_lines: true
-			dependencies: ["3ABD34D177F0B709"]
-			optional: true
-			id: "2C68A095D80BC93E"
-			tasks: [{
-				id: "5E42D453C8640AD6"
-				type: "item"
-				item: {
-					id: "industrialforegoing:fermented_ore_meat_bucket"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "15DA85B21D04A6BC"
-				type: "item"
-				item: {
-					id: "industrialforegoing:fermented_ore_meat_bucket"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			x: 34.0d
-			y: 10.5d
-			hide_dependency_lines: true
-			dependencies: ["14DBBBDC416F08DA"]
-			optional: true
-			id: "1CB14044F1222E7B"
-			tasks: [{
-				id: "6339FB7A5051D43A"
-				type: "item"
-				item: {
-					id: "industrialforegoing:raw_ore_meat_bucket"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
 			x: 34.0d
 			y: 9.0d
 			description: ["The fluid produced by the &9&lFluid Laser Base&r when placed right on top of a &0&lWither&r."]
-			hide_dependency_lines: true
 			dependencies: ["146F580FDDB6FED3"]
 			optional: true
 			id: "1D122C9B48BC56F9"
@@ -1759,24 +1709,6 @@
 				id: "313EC78D15001441"
 				type: "item"
 				item: "industrialforegoing:sewage_bucket"
-			}]
-		}
-		{
-			x: 37.25d
-			y: -3.5d
-			hide_dependency_lines: true
-			dependencies: ["330130D7B723C1A9"]
-			optional: true
-			id: "17B7AB614DE22881"
-			tasks: [{
-				id: "76B102D62F0BAFEE"
-				type: "item"
-				item: "thermal:resin_bucket"
-			}]
-			rewards: [{
-				id: "673B0D756D3887D0"
-				type: "item"
-				item: "thermal:resin_bucket"
 			}]
 		}
 		{
@@ -2488,7 +2420,7 @@
 			}]
 		}
 		{
-			x: 30.25d
+			x: 47.25d
 			y: -2.0d
 			subtitle: "Can Hold : &316,000 &rmb"
 			dependencies: [
@@ -2510,7 +2442,7 @@
 			}]
 		}
 		{
-			x: 47.25d
+			x: 48.25d
 			y: -2.0d
 			subtitle: "Can Hold : &364,000 &rmb"
 			dependencies: ["5357CC7480FBE1C9"]
@@ -2578,13 +2510,56 @@
 		{
 			x: 35.25d
 			y: 7.5d
-			hide_dependency_lines: true
 			dependencies: ["146F580FDDB6FED3"]
 			id: "448F25B9DDE7F8E4"
 			tasks: [{
 				id: "182BD5D23FD2F23A"
 				type: "item"
 				item: "kubejs:silicon_oil_bucket"
+			}]
+		}
+		{
+			x: 41.0d
+			y: -6.0d
+			dependencies: ["7C4C717137B640C6"]
+			id: "090F8E9EC6F034EE"
+			tasks: [{
+				id: "3E28BFE98C695E1A"
+				type: "item"
+				item: "industrialforegoing:pitiful_generator"
+			}]
+		}
+		{
+			x: 29.25d
+			y: -2.0d
+			dependencies: ["5A6E6A04F965F235"]
+			id: "187D6878075418DB"
+			tasks: [{
+				id: "7A0A33EF0A4BAF98"
+				type: "item"
+				item: "industrialforegoing:pity_black_hole_unit"
+			}]
+		}
+		{
+			x: 30.25d
+			y: -2.0d
+			dependencies: ["2D54A1A013FB3774"]
+			id: "5A6E6A04F965F235"
+			tasks: [{
+				id: "2CE80F3EBEC3D158"
+				type: "item"
+				item: "industrialforegoing:common_black_hole_unit"
+			}]
+		}
+		{
+			x: 43.0d
+			y: 13.75d
+			dependencies: ["6B860E2F39D660BE"]
+			id: "2A996DA8BBDBDAAD"
+			tasks: [{
+				id: "16237EB31B59B421"
+				type: "item"
+				item: "industrialforegoing:black_hole_controller"
 			}]
 		}
 	]

@@ -1,0 +1,12 @@
+{
+	id: "7A167DA2F7606561"
+	order_index: 15
+	title: "UnderGarden"
+	icon: "undergarden:veil_mushroom"
+	loot_size: 1
+	rewards: [
+		{ item: "undergarden:smogstem_log", count: 64 }
+		{ item: "undergarden:wigglewood_log", count: 64 }
+		{ item: "undergarden:grongle_log", count: 64 }
+	]
+}

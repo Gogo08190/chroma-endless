@@ -19,6 +19,11 @@
 				type: "item"
 				item: "refinedstorage:construction_core"
 			}]
+			rewards: [{
+				id: "3D2E41DFD19D94A8"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: -9.25d
@@ -30,6 +35,11 @@
 				id: "7924B638F3004E7E"
 				type: "item"
 				item: "refinedstorage:destruction_core"
+			}]
+			rewards: [{
+				id: "144309DC137750B6"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -45,6 +55,12 @@
 				type: "item"
 				item: "refinedstorage:quartz_enriched_iron"
 			}]
+			rewards: [{
+				id: "3C22C455ACAAB2E1"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: -16.75d
@@ -56,6 +72,11 @@
 				id: "1DE6FB92F0A49F17"
 				type: "item"
 				item: "refinedstorage:processor_binding"
+			}]
+			rewards: [{
+				id: "5AEC9F2E8D24BEE4"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -69,6 +90,11 @@
 				type: "item"
 				item: "refinedstorage:raw_basic_processor"
 			}]
+			rewards: [{
+				id: "42EEDCBCE1943C57"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: -15.25d
@@ -80,6 +106,11 @@
 				id: "070C08EFCCF34DB7"
 				type: "item"
 				item: "refinedstorage:raw_improved_processor"
+			}]
+			rewards: [{
+				id: "1496524BCF6802CD"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -93,6 +124,11 @@
 				type: "item"
 				item: "refinedstorage:raw_advanced_processor"
 			}]
+			rewards: [{
+				id: "16C35AFCC34756CD"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: -10.75d
@@ -105,6 +141,11 @@
 				type: "item"
 				item: "refinedstorage:basic_processor"
 			}]
+			rewards: [{
+				id: "31C84E15BAA7CF55"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: -9.25d
@@ -116,6 +157,11 @@
 				id: "7D8E4BE4937F6B10"
 				type: "item"
 				item: "refinedstorage:improved_processor"
+			}]
+			rewards: [{
+				id: "5B4A9E89AA03B364"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -134,6 +180,12 @@
 				type: "item"
 				item: "refinedstorage:stack_upgrade"
 			}]
+			rewards: [{
+				id: "5CEB3226E76BED1F"
+				type: "item"
+				item: "minecraft:sugar"
+				random_bonus: 4
+			}]
 		}
 		{
 			x: -12.5d
@@ -151,6 +203,12 @@
 				type: "item"
 				item: "refinedstorage:crafting_upgrade"
 			}]
+			rewards: [{
+				id: "6BAED7277F1E59FC"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+				random_bonus: 4
+			}]
 		}
 		{
 			x: -12.0d
@@ -164,6 +222,12 @@
 				type: "item"
 				item: "refinedstorage:range_upgrade"
 			}]
+			rewards: [{
+				id: "72ECD39070BD0532"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+				random_bonus: 4
+			}]
 		}
 		{
 			x: -14.0d
@@ -176,6 +240,12 @@
 				id: "02A092A2A4C6C2FB"
 				type: "item"
 				item: "refinedstorage:speed_upgrade"
+			}]
+			rewards: [{
+				id: "65083F162754C237"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -195,6 +265,12 @@
 				type: "item"
 				item: "refinedstorage:upgrade"
 			}]
+			rewards: [{
+				id: "1647E4A35BE08036"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: -7.25d
@@ -207,6 +283,11 @@
 				id: "664036AAFD6115C3"
 				type: "item"
 				item: "refinedstorage:4096k_fluid_storage_part"
+			}]
+			rewards: [{
+				id: "1DE208EF867C0C96"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -221,6 +302,11 @@
 				type: "item"
 				item: "refinedstorage:1024k_fluid_storage_part"
 			}]
+			rewards: [{
+				id: "700EA3FDB16112C4"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: -7.25d
@@ -233,6 +319,11 @@
 				id: "7CC32C60CB223903"
 				type: "item"
 				item: "refinedstorage:256k_fluid_storage_part"
+			}]
+			rewards: [{
+				id: "0C9FC991708E64A1"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -247,6 +338,11 @@
 				type: "item"
 				item: "refinedstorage:64k_fluid_storage_part"
 			}]
+			rewards: [{
+				id: "4BC1532C88DC9349"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: 4.75d
@@ -259,6 +355,11 @@
 				id: "580FB24DBDDFDCF8"
 				type: "item"
 				item: "refinedstorage:64k_storage_part"
+			}]
+			rewards: [{
+				id: "658BAF5929E3CB1D"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -273,6 +374,11 @@
 				type: "item"
 				item: "refinedstorage:16k_storage_part"
 			}]
+			rewards: [{
+				id: "49B805D4B8A8BAA1"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: 4.75d
@@ -286,6 +392,11 @@
 				type: "item"
 				item: "refinedstorage:4k_storage_part"
 			}]
+			rewards: [{
+				id: "6239344BDCC84C1B"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: 4.75d
@@ -298,6 +409,11 @@
 				id: "0CA6F9D0B715CF2B"
 				type: "item"
 				item: "refinedstorage:1k_storage_part"
+			}]
+			rewards: [{
+				id: "6EA24EE50EF7748D"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -332,6 +448,11 @@
 					item: "refinedstorage:network_transmitter"
 				}
 			]
+			rewards: [{
+				id: "118769DA69128DAC"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: -3.5d
@@ -349,6 +470,12 @@
 				type: "item"
 				item: "refinedstorage:security_card"
 			}]
+			rewards: [{
+				id: "6946506FB5861ACC"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: -9.25d
@@ -360,6 +487,11 @@
 				id: "75F86188DF77BC40"
 				type: "item"
 				item: "refinedstorage:advanced_processor"
+			}]
+			rewards: [{
+				id: "60DB7CC73D016DC1"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -377,6 +509,12 @@
 				id: "2E43FCFF76DBB1A4"
 				type: "item"
 				item: "refinedstorage:silk_touch_upgrade"
+			}]
+			rewards: [{
+				id: "7B1DC2F2E4907CE0"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -400,6 +538,12 @@
 				type: "item"
 				item: "refinedstorage:fortune_1_upgrade"
 			}]
+			rewards: [{
+				id: "461EF9C68F17D978"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+				random_bonus: 4
+			}]
 		}
 		{
 			x: -13.0d
@@ -421,6 +565,12 @@
 				type: "item"
 				item: "refinedstorage:regulator_upgrade"
 			}]
+			rewards: [{
+				id: "21F37F64D396D315"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+				random_bonus: 4
+			}]
 		}
 		{
 			x: -4.25d
@@ -437,6 +587,12 @@
 				id: "1D1FD06D820198B9"
 				type: "item"
 				item: "refinedstorage:wrench"
+			}]
+			rewards: [{
+				id: "4F52BA1BD2CBAE37"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -455,8 +611,14 @@
 				type: "item"
 				item: "refinedstorage:filter"
 			}]
+			rewards: [{
+				id: "07C270EC3F408BCA"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
+			icon: "refinedstorage:crafting_grid"
 			x: 4.5d
 			y: -8.75d
 			description: ["&bThe Crafting Grid&r is the same as a regular Grid, but has a crafting inventory."]
@@ -465,7 +627,19 @@
 			tasks: [{
 				id: "2852D3FD521D4F97"
 				type: "item"
-				item: "refinedstorage:crafting_grid"
+				title: "Crafting Grid"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "refinedstorage:crafting_grid"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2204B0829BCA7BA5"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -478,7 +652,19 @@
 			tasks: [{
 				id: "0C1A31456DAA144C"
 				type: "item"
-				item: "refinedstorage:grid"
+				title: "Grid"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "refinedstorage:grid"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0A143C9E925EB483"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -498,6 +684,11 @@
 				type: "item"
 				item: "refinedstorage:controller"
 			}]
+			rewards: [{
+				id: "05D5952B5087C7D7"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: -12.5d
@@ -510,6 +701,11 @@
 				id: "176CBA4202031F32"
 				type: "item"
 				item: "refinedstorage:destructor"
+			}]
+			rewards: [{
+				id: "231249553F5080D2"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -524,6 +720,11 @@
 				type: "item"
 				item: "refinedstorage:constructor"
 			}]
+			rewards: [{
+				id: "313D1AED92FAA61A"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: -3.5d
@@ -537,6 +738,11 @@
 				type: "item"
 				item: "refinedstorage:storage_monitor"
 			}]
+			rewards: [{
+				id: "466C373C0A955646"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: -14.5d
@@ -549,6 +755,11 @@
 				id: "51F6BFEA992B7E37"
 				type: "item"
 				item: "refinedstorage:fluid_interface"
+			}]
+			rewards: [{
+				id: "08C820778C602D67"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -566,6 +777,12 @@
 				type: "item"
 				item: "refinedstorage:interface"
 			}]
+			rewards: [{
+				id: "681583D4DFC42459"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -11.5d
@@ -578,6 +795,11 @@
 				id: "082F203E4BB0D194"
 				type: "item"
 				item: "refinedstorage:exporter"
+			}]
+			rewards: [{
+				id: "2D4C8CE530C59ACC"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -592,6 +814,11 @@
 				type: "item"
 				item: "refinedstorage:external_storage"
 			}]
+			rewards: [{
+				id: "3934EE3BCDF5C196"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: -13.5d
@@ -604,6 +831,11 @@
 				id: "64723A212D809028"
 				type: "item"
 				item: "refinedstorage:importer"
+			}]
+			rewards: [{
+				id: "0294D85729DE3F74"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -622,6 +854,12 @@
 				id: "78CCA9F19E10E4B1"
 				type: "item"
 				item: "refinedstorage:disk_drive"
+			}]
+			rewards: [{
+				id: "3F637D02D035A8A7"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+				random_bonus: 11
 			}]
 		}
 		{
@@ -642,6 +880,12 @@
 				type: "item"
 				item: "refinedstorage:cable"
 			}]
+			rewards: [{
+				id: "4000FE63A41B07CB"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: -1.25d
@@ -655,6 +899,11 @@
 				id: "42DA39D7F00499F5"
 				type: "item"
 				item: "refinedstorage:machine_casing"
+			}]
+			rewards: [{
+				id: "6E42773F15FC193B"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -674,7 +923,14 @@
 				{
 					id: "7F623DF5432E353E"
 					type: "item"
-					item: "refinedstorage:pattern_grid"
+					title: "Pattern Grid"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "refinedstorage:pattern_grid"
+						}
+					}
 				}
 				{
 					id: "1829331DAE61CCCC"
@@ -682,8 +938,14 @@
 					item: "refinedstorage:pattern"
 				}
 			]
+			rewards: [{
+				id: "7148E0EC87A5A323"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
+			icon: "refinedstorage:fluid_grid"
 			x: 7.5d
 			y: -8.75d
 			description: ["&bThe Fluid Grid&r is the same as a regular Grid, but is used for viewing fluids in the fluid storage of your storage network."]
@@ -692,7 +954,19 @@
 			tasks: [{
 				id: "71C7B45E2C6BCCC8"
 				type: "item"
-				item: "refinedstorage:fluid_grid"
+				title: "Fluid Grid"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "refinedstorage:fluid_grid"
+					}
+				}
+			}]
+			rewards: [{
+				id: "05A0366620A61F24"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -711,6 +985,11 @@
 				type: "item"
 				item: "refinedstorage:relay"
 			}]
+			rewards: [{
+				id: "308ACC09D244F48D"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: 1.75d
@@ -726,6 +1005,12 @@
 				id: "62D5AFCE62BC2DCC"
 				type: "item"
 				item: "refinedstorage:detector"
+			}]
+			rewards: [{
+				id: "567B2AA979B741DA"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -746,8 +1031,15 @@
 				type: "item"
 				item: "refinedstorage:security_manager"
 			}]
+			rewards: [{
+				id: "53809948EF9CA10E"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+				random_bonus: 3
+			}]
 		}
 		{
+			icon: "refinedstorage:disk_manipulator"
 			x: -1.25d
 			y: -1.0d
 			description: ["&bThe Disk Manipulator&r is a block that adds a fast way of transferring items between storage disks or fluid storage disks and the storage network."]
@@ -756,10 +1048,23 @@
 			tasks: [{
 				id: "271654342D7CD01A"
 				type: "item"
-				item: "refinedstorage:disk_manipulator"
+				title: "Disk Manipulator"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "refinedstorage:disk_manipulator"
+					}
+				}
+			}]
+			rewards: [{
+				id: "36A14B1B7596505E"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
+			icon: "refinedstorage:crafter"
 			x: -1.25d
 			y: 4.25d
 			shape: "square"
@@ -777,10 +1082,23 @@
 			tasks: [{
 				id: "709E60E171BDFA74"
 				type: "item"
-				item: "refinedstorage:crafter"
+				title: "Crafter"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "refinedstorage:crafter"
+					}
+				}
+			}]
+			rewards: [{
+				id: "53B582BB06A2E228"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
+			icon: "refinedstorage:crafter_manager"
 			x: -3.25d
 			y: 2.0d
 			shape: "square"
@@ -790,10 +1108,23 @@
 			tasks: [{
 				id: "5E007B4929C1BED2"
 				type: "item"
-				item: "refinedstorage:crafter_manager"
+				title: "Crafter Manager"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "refinedstorage:crafter_manager"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1387B521D3A474A7"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
+			icon: "refinedstorage:crafting_monitor"
 			x: 10.5d
 			y: -8.75d
 			description: [
@@ -806,7 +1137,19 @@
 			tasks: [{
 				id: "7729B4AEA54BAAE2"
 				type: "item"
-				item: "refinedstorage:crafting_monitor"
+				title: "Crafting Monitor"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "refinedstorage:crafting_monitor"
+					}
+				}
+			}]
+			rewards: [{
+				id: "07DC99CD2508F924"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -827,6 +1170,11 @@
 				type: "item"
 				item: "refinedstorage:wireless_grid"
 			}]
+			rewards: [{
+				id: "6A2A0EE8F2310418"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: 7.5d
@@ -838,6 +1186,11 @@
 				id: "54CE01710B041182"
 				type: "item"
 				item: "refinedstorage:wireless_fluid_grid"
+			}]
+			rewards: [{
+				id: "080258381A8C5C1F"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -851,6 +1204,11 @@
 				type: "item"
 				item: "refinedstorageaddons:wireless_crafting_grid"
 			}]
+			rewards: [{
+				id: "5EC58BAC945B1129"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: 10.5d
@@ -862,6 +1220,11 @@
 				id: "4BC5D9DDAC7E7371"
 				type: "item"
 				item: "refinedstorage:wireless_crafting_monitor"
+			}]
+			rewards: [{
+				id: "27A73A4364BE8876"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -891,6 +1254,11 @@
 					item: "rslargepatterns:large_pattern"
 				}
 			]
+			rewards: [{
+				id: "222EE2BD6FD36C62"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: -11.75d
@@ -920,6 +1288,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "209ECB597E2A3EEF"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 5.75d
@@ -932,6 +1306,11 @@
 				id: "48BD07FF65207950"
 				type: "item"
 				item: "kubejs:unassembled_1k_storage_part"
+			}]
+			rewards: [{
+				id: "2845954E08D049EE"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -946,6 +1325,11 @@
 				type: "item"
 				item: "kubejs:unassembled_4k_storage_part"
 			}]
+			rewards: [{
+				id: "384EE2C460DE9D09"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: 5.75d
@@ -958,6 +1342,11 @@
 				id: "3667DD105224B3B6"
 				type: "item"
 				item: "kubejs:unassembled_16k_storage_part"
+			}]
+			rewards: [{
+				id: "41F47595765190B2"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -972,6 +1361,11 @@
 				type: "item"
 				item: "kubejs:unassembled_64k_fluid_storage_part"
 			}]
+			rewards: [{
+				id: "3E8B0F3592FDCC50"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: 5.75d
@@ -984,6 +1378,11 @@
 				id: "1F3D9C81D397A188"
 				type: "item"
 				item: "kubejs:unassembled_64k_storage_part"
+			}]
+			rewards: [{
+				id: "2EEF38F0EE418DAC"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -998,6 +1397,11 @@
 				type: "item"
 				item: "kubejs:unassembled_256k_fluid_storage_part"
 			}]
+			rewards: [{
+				id: "3419BD4505095AF2"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: -8.25d
@@ -1010,6 +1414,11 @@
 				id: "62FDBF156C8B8C09"
 				type: "item"
 				item: "kubejs:unassembled_1024k_fluid_storage_part"
+			}]
+			rewards: [{
+				id: "5CB3FE183C962A69"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -1024,6 +1433,11 @@
 				type: "item"
 				item: "kubejs:unassembled_4096k_fluid_storage_part"
 			}]
+			rewards: [{
+				id: "0334290C51D0E59F"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: 5.75d
@@ -1036,6 +1450,11 @@
 				id: "2AA7CB9BD2C3FB33"
 				type: "item"
 				item: "kubejs:unassembled_256k_storage_part"
+			}]
+			rewards: [{
+				id: "6DB7E182C80B73AB"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -1050,6 +1469,11 @@
 				type: "item"
 				item: "kubejs:unassembled_1024k_storage_part"
 			}]
+			rewards: [{
+				id: "544F000C6B185C03"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: 5.75d
@@ -1062,6 +1486,11 @@
 				id: "2078B77E14BAB34A"
 				type: "item"
 				item: "kubejs:unassembled_4096k_storage_part"
+			}]
+			rewards: [{
+				id: "50E8567C008B7FA5"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -1076,6 +1505,11 @@
 				type: "item"
 				item: "kubejs:unassembled_16384k_fluid_storage_part"
 			}]
+			rewards: [{
+				id: "40F31DB505DED31C"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: 5.75d
@@ -1088,6 +1522,11 @@
 				id: "6315D0ED58783087"
 				type: "item"
 				item: "kubejs:unassembled_16384k_storage_part"
+			}]
+			rewards: [{
+				id: "63138571846ACB22"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -1102,6 +1541,11 @@
 				type: "item"
 				item: "kubejs:unassembled_65536k_fluid_storage_part"
 			}]
+			rewards: [{
+				id: "30056FDAE1E5B480"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: -8.25d
@@ -1115,6 +1559,11 @@
 				type: "item"
 				item: "kubejs:unassembled_262144k_fluid_storage_part"
 			}]
+			rewards: [{
+				id: "27A929F2EF025B37"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: -8.25d
@@ -1127,6 +1576,11 @@
 				id: "3684F65DB7ED02DC"
 				type: "item"
 				item: "kubejs:unassembled_1048576k_fluid_storage_part"
+			}]
+			rewards: [{
+				id: "5042043FF01ACCB5"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -1147,6 +1601,11 @@
 				type: "item"
 				item: "extrastorage:netherite_crafter"
 			}]
+			rewards: [{
+				id: "3F716F6456FB17A6"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: -0.25d
@@ -1164,6 +1623,11 @@
 				type: "item"
 				item: "extrastorage:diamond_crafter"
 			}]
+			rewards: [{
+				id: "7D1769E91A5118FA"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: -2.25d
@@ -1180,6 +1644,11 @@
 				id: "7D7223B94E0BC401"
 				type: "item"
 				item: "extrastorage:gold_crafter"
+			}]
+			rewards: [{
+				id: "2CF46D0DB4CD3A95"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -1203,6 +1672,11 @@
 				type: "item"
 				item: "extrastorage:iron_crafter"
 			}]
+			rewards: [{
+				id: "635E1675E2741E32"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: -11.5d
@@ -1215,6 +1689,11 @@
 				id: "583B5430D6EA3AA8"
 				type: "item"
 				item: "extrastorage:advanced_exporter"
+			}]
+			rewards: [{
+				id: "151847DB45E21F90"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -1229,6 +1708,11 @@
 				type: "item"
 				item: "extrastorage:advanced_importer"
 			}]
+			rewards: [{
+				id: "6C0A260EA5B9B34A"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: -15.25d
@@ -1241,6 +1725,11 @@
 				type: "item"
 				item: "extrastorage:raw_neural_processor"
 			}]
+			rewards: [{
+				id: "41C2DC77AA827F8D"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: -10.75d
@@ -1252,6 +1741,11 @@
 				id: "101B74D8D20A51EF"
 				type: "item"
 				item: "extrastorage:neural_processor"
+			}]
+			rewards: [{
+				id: "0974728D4D461DE7"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -1266,6 +1760,11 @@
 				type: "item"
 				item: "extrastorage:storagepart_256k"
 			}]
+			rewards: [{
+				id: "42C5EA431578B8CD"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: 4.75d
@@ -1278,6 +1777,11 @@
 				id: "1BD408970F1F796E"
 				type: "item"
 				item: "extrastorage:storagepart_1024k"
+			}]
+			rewards: [{
+				id: "33EDAF6B50E00C05"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -1292,6 +1796,11 @@
 				type: "item"
 				item: "extrastorage:storagepart_4096k"
 			}]
+			rewards: [{
+				id: "4BF1E677AD0F281E"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: 4.75d
@@ -1304,6 +1813,11 @@
 				id: "26604D70A67A5E85"
 				type: "item"
 				item: "extrastorage:storagepart_16384k"
+			}]
+			rewards: [{
+				id: "5D5B6245B669B68B"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -1318,6 +1832,11 @@
 				type: "item"
 				item: "extrastorage:storagepart_16384k_fluid"
 			}]
+			rewards: [{
+				id: "381E4D5AE008E894"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: -7.25d
@@ -1330,6 +1849,11 @@
 				id: "15B5287D3283977E"
 				type: "item"
 				item: "extrastorage:storagepart_1048576k_fluid"
+			}]
+			rewards: [{
+				id: "7D67375B08BB4908"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -1344,6 +1868,11 @@
 				type: "item"
 				item: "extrastorage:storagepart_262144k_fluid"
 			}]
+			rewards: [{
+				id: "14D6EA1FB70F7BD7"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: -7.25d
@@ -1356,6 +1885,11 @@
 				id: "6185C6A546741169"
 				type: "item"
 				item: "extrastorage:storagepart_65536k_fluid"
+			}]
+			rewards: [{
+				id: "61E832E0FEE62D3B"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -1379,6 +1913,11 @@
 				id: "545578B269D50265"
 				type: "item"
 				item: "emendatusenigmatica:silicon_gem"
+			}]
+			rewards: [{
+				id: "550C848B9BEE0701"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -1513,6 +2052,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3644415A9013E1B8"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: 13.25d
@@ -1533,8 +2077,14 @@
 				type: "item"
 				item: "universalgrid:wireless_universal_grid"
 			}]
+			rewards: [{
+				id: "4A2374303D73B681"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
+			icon: "refinedstorage:wireless_transmitter"
 			x: 6.0d
 			y: -12.5d
 			shape: "rsquare"
@@ -1554,7 +2104,19 @@
 			tasks: [{
 				id: "4D88C7AA958420B3"
 				type: "item"
-				item: "refinedstorage:wireless_transmitter"
+				title: "Wireless Transmitter"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "refinedstorage:wireless_transmitter"
+					}
+				}
+			}]
+			rewards: [{
+				id: "61BFAAE4E1515E8C"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -1606,6 +2168,11 @@
 						]
 					}
 				}
+			}]
+			rewards: [{
+				id: "4DFE79B81463B935"
+				type: "random"
+				table_id: 871173972519339659L
 			}]
 		}
 		{
@@ -1740,6 +2307,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0DD6681F467C51D8"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: -13.0d
@@ -1753,6 +2325,11 @@
 				type: "item"
 				item: "rsinfinitybooster:infinity_card"
 			}]
+			rewards: [{
+				id: "023CF9DE82D5E3CE"
+				type: "random"
+				table_id: 871173972519339659L
+			}]
 		}
 		{
 			x: -13.0d
@@ -1765,6 +2342,11 @@
 				id: "55295733D23612CD"
 				type: "item"
 				item: "rsinfinitybooster:dimension_card"
+			}]
+			rewards: [{
+				id: "15D1A357D9CD89C9"
+				type: "random"
+				table_id: 3916289286237792022L
 			}]
 		}
 	]

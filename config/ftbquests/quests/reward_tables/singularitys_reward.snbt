@@ -1,0 +1,315 @@
+{
+	id: "3659745B3FDF2716"
+	order_index: 14
+	title: "Singularity's reward"
+	icon: "extendedcrafting:ultimate_singularity"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:allthemodium"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:brass"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:blizz"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:blitz"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:dimensional_shard"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:vibranium"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:plastic"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:basalz"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:regalium"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:xion"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:xerothium"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:ionite"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:cloggrum"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:inanite"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:enderslime"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:spirit_attuned_gem"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:kyronite"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:nanorite"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:refined_obsidian"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:unobtaninium"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:refined_glowstone"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:litherite"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:forgotten"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:iesnium"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:utherium"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:draconium"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:froststeel"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:erodium"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:hepatizon"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:steel"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:graphite"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:bitumen"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:aethium"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:pladium"
+				}
+			}
+		}
+	]
+}

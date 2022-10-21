@@ -1655,8 +1655,14 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -0.75d
+			x: 8.5d
+			y: 1.5d
+			dependencies: [
+				"716178CB7E9006EE"
+				"1550578CA13D8BF5"
+				"78D4030D978D9180"
+				"1AB26ED920215B51"
+			]
 			id: "53A398E54C8A19F8"
 			tasks: [{
 				id: "4378423A9915065B"
@@ -1668,6 +1674,13 @@
 			x: 1.5d
 			y: 8.25d
 			shape: "diamond"
+			subtitle: "Hydroangeas flowers act as liquid-based passive generators."
+			description: [
+				"They suck up any &dstill water&r in a 3x3 area (at the same altitude) around them, converting the water into &aMana&r."
+				""
+				"Unfortunately, even though they seem to function faster during &aRain&r, their base &aMana&r throughput is still rather slow. In addition, they decay after around three days, making them nonviable for long-term Mana production."
+			]
+			dependencies: ["286ED4EF49887FF8"]
 			optional: true
 			id: "70E795541E58E0D7"
 			tasks: [{
@@ -1680,6 +1693,9 @@
 			x: 7.25d
 			y: 9.5d
 			shape: "diamond"
+			subtitle: "The slow growth of crops is a perpetual problem in the feeding of the masses"
+			description: ["The Agricarnation transforms Mana into a type of natural fertilizer, causing nearby plant-life to grow faster."]
+			dependencies: ["3FF9D870344E172E"]
 			optional: true
 			id: "2E8A6F64534263B1"
 			tasks: [{
@@ -1692,6 +1708,13 @@
 			x: 9.25d
 			y: 9.5d
 			shape: "diamond"
+			subtitle: "Find it in a sandpit?"
+			description: [
+				"Quite a handy flower indeed, the Rannuncarpus will pick up nearby placeable items and place them within a large radius around itself as blocks, preferably facing them towards itself."
+				""
+				"However, it will only place blocks on top of a specific block type at a time; to specify this block, place it right below the soil the flower rests on."
+			]
+			dependencies: ["416DB8DB57EEBC23"]
 			optional: true
 			id: "21EC8E188CB89FFB"
 			tasks: [{
@@ -1704,6 +1727,15 @@
 			x: 8.25d
 			y: 9.5d
 			shape: "diamond"
+			subtitle: "The Hopperhock simply picks up items around it and put them in adjacent inventories."
+			description: [
+				"Mana is optional, but will increase its range if provided.Placing Item Frames on adjacent inventories will specify which items can or can't go in them."
+				""
+				"Any inventory with no adjacent Item Frame can accept any items, but labelled inventories will take priority."
+				""
+				"The rule used to sort items can be changed by sneak-right clicking (or using a Dispenser) on the flower with a Wand of the Forest in Function Mode."
+			]
+			dependencies: ["5BB4CAB70FBD40ED"]
 			optional: true
 			id: "30CC5C4BD6B80587"
 			tasks: [{
@@ -1716,6 +1748,12 @@
 			x: 3.0d
 			y: 10.5d
 			shape: "diamond"
+			subtitle: "Generating the form of natural energy that is Mana is best done from other living materials."
+			description: ["The &dMunchdew&r will eat up any nearby &dLeaves&r and convert them into &aMana&r. However, no saplings (or any other items) will be dropped from the leaves."]
+			dependencies: [
+				"5CC66F915A4C9C4E"
+				"286ED4EF49887FF8"
+			]
 			optional: true
 			id: "52989C9EBA6EC2EE"
 			tasks: [{
@@ -1728,6 +1766,18 @@
 			x: 10.25d
 			y: 9.5d
 			shape: "diamond"
+			subtitle: "Any adventurer knows that Dungeons can hold valuable goodies."
+			description: [
+				"The Loonium will, when fed quite a bit of Mana, summon these items for said adventurers to collect.There's a catch, though: each item is held by a monster protecting it."
+				""
+				"These monsters are extra-strong, but will drop their precious dungeon loot when killed."
+			]
+			dependencies: [
+				"61C28C04FA961761"
+				"5CC66F915A4C9C4E"
+				"286ED4EF49887FF8"
+				"788D47E9058D55A4"
+			]
 			optional: true
 			id: "55E939455723480F"
 			tasks: [{
@@ -1740,6 +1790,16 @@
 			x: 8.75d
 			y: 8.75d
 			shape: "diamond"
+			subtitle: "The Clayconia is a simple flower."
+			description: [
+				"All it does is moisten nearby Sand, turning it into pellets of Clay."
+				""
+				"This process uses a decent amount of Mana, but won't break the bank (or pool, as it were)."
+			]
+			dependencies: [
+				"416DB8DB57EEBC23"
+				"286ED4EF49887FF8"
+			]
 			optional: true
 			id: "2CCEA972A883D6CE"
 			tasks: [{
@@ -1749,21 +1809,21 @@
 			}]
 		}
 		{
-			x: 7.75d
-			y: 8.75d
-			shape: "diamond"
-			optional: true
-			id: "4C8B8B2918ACC6D6"
-			tasks: [{
-				id: "3E9F44A621EED2ED"
-				type: "item"
-				item: "botania:orechid_ignem"
-			}]
-		}
-		{
 			x: 9.75d
 			y: 8.75d
 			shape: "diamond"
+			subtitle: "While going mining is well and good, a renewable and sedentary means of acquiring ores is nothing to scoff at either."
+			description: [
+				"The Orechid uses Mana to synthesize ores from nearby Stone blocks."
+				""
+				"The ores it generates are random, but rarer ores seem to be created less often."
+			]
+			dependencies: [
+				"6E4F434AC3716518"
+				"1A01B88234D229D4"
+				"286ED4EF49887FF8"
+				"03F9D608513BF37F"
+			]
 			optional: true
 			id: "31246C6FDEBA9C3B"
 			tasks: [{
@@ -1773,21 +1833,17 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 8.25d
-			shape: "diamond"
-			optional: true
-			id: "704CAF0D619E46D2"
-			tasks: [{
-				id: "0E9FD3ABE96BFECD"
-				type: "item"
-				item: "botania:dandelifeon"
-			}]
-		}
-		{
 			x: 1.0d
 			y: 10.5d
 			shape: "diamond"
+			subtitle: "The Spectrolus is a flower that's particularly fond of the various hues of Wool."
+			description: ["It'll consume any and all Wool blocks dropped nearby, converting them to Mana.However, it's picky as to what colors it wants. Starting from White, after it eats one piece of Wool, it'll rotate to the next color in the spectrum."]
+			dependencies: [
+				"5DA8E25C10505D27"
+				"5BB4CAB70FBD40ED"
+				"03F9D608513BF37F"
+				"286ED4EF49887FF8"
+			]
 			optional: true
 			id: "244E82D800AF1F89"
 			tasks: [{
@@ -1800,6 +1856,14 @@
 			x: 1.5d
 			y: 9.75d
 			shape: "diamond"
+			subtitle: "The Rafflowsia functions similarly to a Kekimurus"
+			description: ["It'll consume any nearby placed flowers and synthesize Mana from them.While feeding it the same flower several times in a row yields diminishing returns, feeding it a large variety of them can yield ludicrous quantities of Mana."]
+			dependencies: [
+				"416DB8DB57EEBC23"
+				"1A01B88234D229D4"
+				"286ED4EF49887FF8"
+				"03F9D608513BF37F"
+			]
 			optional: true
 			id: "44DBA17F2699D1A1"
 			tasks: [{
@@ -1812,6 +1876,17 @@
 			x: 3.0d
 			y: 9.0d
 			shape: "diamond"
+			subtitle: "There's some unidentified power in the universe that creates Slimes at certain points, seemingly at random."
+			description: [
+				"Slime Chunks, they call those points. The &dNarslimmus&r is a flower that has the ability to tap into that energy; it'll absorb &aSlimes&r created by that power and collect all the Mana generated by the destruction."
+				""
+				"The larger the &aSlime,&r the more &aMana&r is created. (It also makes a bit of a sticky mess.)"
+			]
+			dependencies: [
+				"746060BF1647246C"
+				"286ED4EF49887FF8"
+				"03A2067968F6C211"
+			]
 			optional: true
 			id: "171CD77C3E5AB286"
 			tasks: [{
@@ -1824,6 +1899,14 @@
 			x: 2.5d
 			y: 9.75d
 			shape: "diamond"
+			subtitle: "The Shulk Me Not is a generating flower that creates Mana from the power of the Shulker's Levitation."
+			description: ["If a nearby monster is targeted by and hit with a Shulker's projectile, and the Shulk Me Not's internal buffer is empty, both mob and Shulker will be killed, generating ludicrous amounts of Mana from the process."]
+			dependencies: [
+				"61C28C04FA961761"
+				"1EF285799C2FCE6B"
+				"499678435375CBD4"
+				"286ED4EF49887FF8"
+			]
 			optional: true
 			id: "79AFF8FD07F05FF8"
 			tasks: [{
@@ -1836,6 +1919,13 @@
 			x: 3.5d
 			y: 9.75d
 			shape: "diamond"
+			subtitle: "Cake is delicious; everyone loves it, flowers included."
+			description: ["The &dKekimurus&r is one of these &dCake&r aficionados, and will eat any placed in its vicinity, synthesizing the enriching nutrients into sweet, sweet &aMana&r."]
+			dependencies: [
+				"5CC66F915A4C9C4E"
+				"03F9D608513BF37F"
+				"286ED4EF49887FF8"
+			]
 			optional: true
 			id: "74DD69E80E49C15D"
 			tasks: [{
@@ -1848,6 +1938,17 @@
 			x: 0.5d
 			y: 9.75d
 			shape: "diamond"
+			subtitle: "The Gourmaryllis is one hungry flower."
+			description: [
+				"Thus, a &dSteak&r will take four seconds to digest, an &dApple&r will take two, a loaf of &dBread&r will take two and a half, and so on."
+				""
+				"The rate of &aMana&r production will also vary with nutrition: the &dGourmaryllis&r prefers bigger foods."
+			]
+			dependencies: [
+				"2F31A00279CCC783"
+				"03A2067968F6C211"
+				"286ED4EF49887FF8"
+			]
 			optional: true
 			id: "37E12E8DFDE7961C"
 			tasks: [{
@@ -1860,6 +1961,17 @@
 			x: 1.0d
 			y: 9.0d
 			shape: "diamond"
+			subtitle: "To generate a blast of Mana, in fact, a blast might be required."
+			description: [
+				"Igniting a block of &dTNT&r on dry land near an &dEntropinnyum&r will have the latter absorb all the entropy generated by the blast, converting it into &aMana&r and nullifying any damage in the process."
+				""
+				"However, to absorb the explosion, the flower must not have any &aMana&r stored in it-- otherwise, explosions as usual."
+			]
+			dependencies: [
+				"1EF285799C2FCE6B"
+				"2F31A00279CCC783"
+				"286ED4EF49887FF8"
+			]
 			optional: true
 			id: "77F69DF7CEA20FAA"
 			tasks: [{
@@ -1872,6 +1984,17 @@
 			x: 3.5d
 			y: 8.25d
 			shape: "diamond"
+			subtitle: "The Thermalily is a Lava-flavoured counterpart to the Hydroangeas."
+			description: [
+				"The flower absorbs Lava around it (at the same altitude) to generate Mana."
+				""
+				"After absorbing one block of Lava, the flower will produce Mana continually for around 45 seconds, but afterwards needs a bit of time (around 5 minutes) to cool down before it can absorb more."
+			]
+			dependencies: [
+				"2F31A00279CCC783"
+				"286ED4EF49887FF8"
+				"416DB8DB57EEBC23"
+			]
 			optional: true
 			id: "723D51915726F898"
 			tasks: [{
@@ -1884,12 +2007,70 @@
 			x: 2.5d
 			y: 8.25d
 			shape: "diamond"
+			subtitle: "The Endoflame is a very rudimentary generating flower"
+			description: ["it'll absorb any combustible items or blocks dropped on the nearby vicinity, one at a time, and burn through them to generate &aMana&r."]
+			dependencies: ["286ED4EF49887FF8"]
 			optional: true
 			id: "5EE30E24C7F97C9A"
 			tasks: [{
 				id: "05BD392A4BA85208"
 				type: "item"
 				item: "botania:endoflame"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 8.25d
+			shape: "diamond"
+			subtitle: "The Dandelifeon is not recommended for the faint of heart."
+			description: [
+				"This flower's function is based on a cellular automaton known as &aConway's Game of Life&r."
+				""
+				"The area for this procedure is a 25x25 square, centered around the &dDandelifeon&r itself.As long as the flower receives a redstone signal, it'll step the automaton twice a second."
+				""
+				"Each location within the flower's 25x25 area of effect counts as a &aCell&r. Cells may be alive or dead; a cell counts as alive if its respective block is a &dCellular Block&r (read on), or dead if it's anything else. The &aNeighbors&r of a cell are the eight cells surrounding any cell."
+			]
+			dependencies: [
+				"2F31A00279CCC783"
+				"746060BF1647246C"
+				"416DB8DB57EEBC23"
+				"5BB4CAB70FBD40ED"
+				"499678435375CBD4"
+				"286ED4EF49887FF8"
+			]
+			optional: true
+			id: "6D37A84608DFE356"
+			tasks: [{
+				id: "7A2BCC461BD1BFB3"
+				type: "item"
+				item: "botania:dandelifeon"
+			}]
+		}
+		{
+			x: 7.75d
+			y: 8.75d
+			shape: "diamond"
+			subtitle: "The Orechid is a great flower"
+			description: [
+				" the ability to create raw ores from Mana and Stone can be a great boon to any sedentary botanist's life."
+				""
+				"However, it can't create ores of a more Nether-y variety. Getting that sorted out is easy"
+				""
+				" Switching around a few petals will yield an Orechid Ignem, which creates Nether ores in Netherrack instead."
+				""
+				"The flower must be in the Nether dimension to work."
+			]
+			dependencies: [
+				"6E4F434AC3716518"
+				"1A01B88234D229D4"
+				"286ED4EF49887FF8"
+				"03F9D608513BF37F"
+			]
+			id: "546FB4F7C71BFCCB"
+			tasks: [{
+				id: "20862B955177B62E"
+				type: "item"
+				item: "botania:orechid_ignem"
 			}]
 		}
 	]

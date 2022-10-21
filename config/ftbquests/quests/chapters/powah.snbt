@@ -29,6 +29,11 @@
 				type: "item"
 				item: "powah:energy_cell_basic"
 			}]
+			rewards: [{
+				id: "1488005C4835A45A"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_electrical_steel"
+			}]
 		}
 		{
 			x: -14.25d
@@ -45,6 +50,11 @@
 				id: "3FBA57E0425D6D7E"
 				type: "item"
 				item: "powah:energy_cell_hardened"
+			}]
+			rewards: [{
+				id: "45F565412D9B1C3B"
+				type: "item"
+				item: "powah:steel_energized"
 			}]
 		}
 		{
@@ -63,6 +73,11 @@
 				type: "item"
 				item: "powah:energy_cell_blazing"
 			}]
+			rewards: [{
+				id: "433F0D1F4992F73F"
+				type: "item"
+				item: "powah:crystal_blazing"
+			}]
 		}
 		{
 			x: -21.0d
@@ -79,6 +94,11 @@
 				id: "0E32A406874477E3"
 				type: "item"
 				item: "powah:energy_cell_niotic"
+			}]
+			rewards: [{
+				id: "17DC464F0F7849B1"
+				type: "item"
+				item: "powah:crystal_niotic"
 			}]
 		}
 		{
@@ -97,6 +117,11 @@
 				type: "item"
 				item: "powah:energy_cell_spirited"
 			}]
+			rewards: [{
+				id: "6638703D18E9829E"
+				type: "item"
+				item: "powah:crystal_spirited"
+			}]
 		}
 		{
 			x: -7.5d
@@ -113,6 +138,11 @@
 				id: "6EFF1E9C9AB0567C"
 				type: "item"
 				item: "powah:energy_cell_nitro"
+			}]
+			rewards: [{
+				id: "063D191D81687E9B"
+				type: "item"
+				item: "powah:crystal_nitro"
 			}]
 		}
 		{
@@ -133,6 +163,11 @@
 				type: "item"
 				item: "powah:energizing_rod_basic"
 			}]
+			rewards: [{
+				id: "34F102FE64EFC155"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_electrical_steel"
+			}]
 		}
 		{
 			x: -12.75d
@@ -151,6 +186,11 @@
 				id: "2835BE7E56C3F8E5"
 				type: "item"
 				item: "powah:energizing_rod_hardened"
+			}]
+			rewards: [{
+				id: "78743B3A12815E4C"
+				type: "item"
+				item: "powah:steel_energized"
 			}]
 		}
 		{
@@ -171,6 +211,11 @@
 				type: "item"
 				item: "powah:energizing_rod_blazing"
 			}]
+			rewards: [{
+				id: "6F81577DBC502023"
+				type: "item"
+				item: "powah:crystal_blazing"
+			}]
 		}
 		{
 			x: -19.5d
@@ -189,6 +234,11 @@
 				id: "441BD9D911E0079A"
 				type: "item"
 				item: "powah:energizing_rod_niotic"
+			}]
+			rewards: [{
+				id: "1337C30645481F81"
+				type: "item"
+				item: "powah:crystal_niotic"
 			}]
 		}
 		{
@@ -209,6 +259,11 @@
 				type: "item"
 				item: "powah:energizing_rod_spirited"
 			}]
+			rewards: [{
+				id: "54D180E1BAE70E22"
+				type: "item"
+				item: "powah:crystal_spirited"
+			}]
 		}
 		{
 			x: -6.0d
@@ -227,6 +282,11 @@
 				id: "52810D17B57E47B5"
 				type: "item"
 				item: "powah:energizing_rod_nitro"
+			}]
+			rewards: [{
+				id: "6587CA9847B9B3B1"
+				type: "item"
+				item: "powah:crystal_nitro"
 			}]
 		}
 		{
@@ -255,6 +315,18 @@
 				type: "item"
 				item: "powah:energizing_orb"
 			}]
+			rewards: [
+				{
+					id: "3DC78A2793347319"
+					type: "item"
+					item: "emendatusenigmatica:steel_ingot"
+				}
+				{
+					id: "7B28D25AD0606E10"
+					type: "item"
+					item: "allthemodium:allthemodium_ingot"
+				}
+			]
 		}
 		{
 			x: -20.0d
@@ -277,6 +349,11 @@
 				id: "528CD9517F318099"
 				type: "item"
 				item: "powah:ender_gate_basic"
+			}]
+			rewards: [{
+				id: "3266D0D88FE98581"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_electrical_steel"
 			}]
 		}
 		{
@@ -301,6 +378,11 @@
 				type: "item"
 				item: "powah:ender_gate_hardened"
 			}]
+			rewards: [{
+				id: "4DCB43F22AD6B8AB"
+				type: "item"
+				item: "powah:steel_energized"
+			}]
 		}
 		{
 			x: -6.5d
@@ -323,6 +405,11 @@
 				id: "0E48D952BF42F892"
 				type: "item"
 				item: "powah:ender_gate_blazing"
+			}]
+			rewards: [{
+				id: "446C7E4F40C2F86C"
+				type: "item"
+				item: "powah:crystal_blazing"
 			}]
 		}
 		{
@@ -347,6 +434,11 @@
 				type: "item"
 				item: "powah:ender_gate_niotic"
 			}]
+			rewards: [{
+				id: "352657ACF95E962C"
+				type: "item"
+				item: "powah:crystal_niotic"
+			}]
 		}
 		{
 			x: -13.25d
@@ -369,6 +461,11 @@
 				id: "2ECFC78293E95558"
 				type: "item"
 				item: "powah:ender_gate_spirited"
+			}]
+			rewards: [{
+				id: "565C43AF73415C8E"
+				type: "item"
+				item: "powah:crystal_spirited"
 			}]
 		}
 		{
@@ -393,6 +490,11 @@
 				type: "item"
 				item: "powah:ender_gate_nitro"
 			}]
+			rewards: [{
+				id: "7D1E3B3A650B5E7E"
+				type: "item"
+				item: "powah:crystal_nitro"
+			}]
 		}
 		{
 			x: -21.5d
@@ -415,6 +517,12 @@
 				type: "item"
 				item: "powah:energy_cable_basic"
 			}]
+			rewards: [{
+				id: "663BB0C6BA74DF88"
+				type: "item"
+				item: "powah:energy_cable_basic"
+				count: 8
+			}]
 		}
 		{
 			x: -8.0d
@@ -431,6 +539,12 @@
 				id: "31287043B925EA3F"
 				type: "item"
 				item: "powah:energy_cable_blazing"
+			}]
+			rewards: [{
+				id: "7BEB9501BFA43F03"
+				type: "item"
+				item: "powah:energy_cable_blazing"
+				count: 8
 			}]
 		}
 		{
@@ -449,6 +563,12 @@
 				type: "item"
 				item: "powah:energy_cable_hardened"
 			}]
+			rewards: [{
+				id: "460414831AF34F1D"
+				type: "item"
+				item: "powah:energy_cable_hardened"
+				count: 8
+			}]
 		}
 		{
 			x: -21.5d
@@ -465,6 +585,12 @@
 				id: "733D8B6A131050B5"
 				type: "item"
 				item: "powah:energy_cable_niotic"
+			}]
+			rewards: [{
+				id: "0BBB6DA70E461826"
+				type: "item"
+				item: "powah:energy_cable_niotic"
+				count: 8
 			}]
 		}
 		{
@@ -483,6 +609,12 @@
 				type: "item"
 				item: "powah:energy_cable_spirited"
 			}]
+			rewards: [{
+				id: "51A530E5E13C3766"
+				type: "item"
+				item: "powah:energy_cable_spirited"
+				count: 8
+			}]
 		}
 		{
 			x: -8.0d
@@ -499,6 +631,12 @@
 				id: "25C00BBAE40BD6B1"
 				type: "item"
 				item: "powah:energy_cable_nitro"
+			}]
+			rewards: [{
+				id: "76EED0A24CC0723A"
+				type: "item"
+				item: "powah:energy_cable_nitro"
+				count: 8
 			}]
 		}
 		{
@@ -522,6 +660,11 @@
 				type: "item"
 				item: "powah:ender_cell_basic"
 			}]
+			rewards: [{
+				id: "492A3EB71B343090"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_electrical_steel"
+			}]
 		}
 		{
 			x: -13.25d
@@ -543,6 +686,11 @@
 				id: "3219CA4CBCBABA2B"
 				type: "item"
 				item: "powah:ender_cell_hardened"
+			}]
+			rewards: [{
+				id: "0EF4D79204C493D6"
+				type: "item"
+				item: "powah:steel_energized"
 			}]
 		}
 		{
@@ -566,6 +714,11 @@
 				type: "item"
 				item: "powah:ender_cell_blazing"
 			}]
+			rewards: [{
+				id: "67425850D60361BA"
+				type: "item"
+				item: "powah:crystal_blazing"
+			}]
 		}
 		{
 			x: -20.0d
@@ -587,6 +740,11 @@
 				id: "5AABD891880DDB37"
 				type: "item"
 				item: "powah:ender_cell_niotic"
+			}]
+			rewards: [{
+				id: "3333BF09E78E2109"
+				type: "item"
+				item: "powah:crystal_niotic"
 			}]
 		}
 		{
@@ -610,6 +768,11 @@
 				type: "item"
 				item: "powah:ender_cell_spirited"
 			}]
+			rewards: [{
+				id: "53AD81496F40B432"
+				type: "item"
+				item: "powah:crystal_spirited"
+			}]
 		}
 		{
 			x: -6.5d
@@ -632,6 +795,11 @@
 				type: "item"
 				item: "powah:ender_cell_nitro"
 			}]
+			rewards: [{
+				id: "75D02777D8894BE9"
+				type: "item"
+				item: "powah:crystal_nitro"
+			}]
 		}
 		{
 			x: -19.5d
@@ -650,6 +818,12 @@
 				id: "3D8CD68BE8983F9E"
 				type: "item"
 				item: "powah:furnator_basic"
+			}]
+			rewards: [{
+				id: "5FF39BA7DE633F01"
+				type: "item"
+				item: "emendatusenigmatica:coke_gem"
+				count: 2
 			}]
 		}
 		{
@@ -670,6 +844,12 @@
 				type: "item"
 				item: "powah:furnator_hardened"
 			}]
+			rewards: [{
+				id: "1FB8A712C0AAD100"
+				type: "item"
+				item: "emendatusenigmatica:coke_gem"
+				count: 2
+			}]
 		}
 		{
 			x: -6.0d
@@ -688,6 +868,12 @@
 				id: "06612FBE7546F8BF"
 				type: "item"
 				item: "powah:furnator_blazing"
+			}]
+			rewards: [{
+				id: "0F949500D4192339"
+				type: "item"
+				item: "emendatusenigmatica:coke_gem"
+				count: 2
 			}]
 		}
 		{
@@ -708,6 +894,12 @@
 				type: "item"
 				item: "powah:furnator_niotic"
 			}]
+			rewards: [{
+				id: "5DB77C749B5A5623"
+				type: "item"
+				item: "emendatusenigmatica:coke_gem"
+				count: 2
+			}]
 		}
 		{
 			x: -12.75d
@@ -727,6 +919,12 @@
 				type: "item"
 				item: "powah:furnator_spirited"
 			}]
+			rewards: [{
+				id: "210EC1A5B306BDAB"
+				type: "item"
+				item: "emendatusenigmatica:coke_gem"
+				count: 2
+			}]
 		}
 		{
 			x: -6.0d
@@ -745,6 +943,12 @@
 				id: "3FF0EDAAA8C7D994"
 				type: "item"
 				item: "powah:furnator_nitro"
+			}]
+			rewards: [{
+				id: "70DD5FA04EDB7FBC"
+				type: "item"
+				item: "emendatusenigmatica:coke_gem"
+				count: 2
 			}]
 		}
 		{
@@ -767,6 +971,11 @@
 				type: "item"
 				item: "powah:magmator_basic"
 			}]
+			rewards: [{
+				id: "506569964F22265A"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
 		}
 		{
 			x: -14.75d
@@ -787,6 +996,11 @@
 				id: "1C3826A96C3CF915"
 				type: "item"
 				item: "powah:magmator_hardened"
+			}]
+			rewards: [{
+				id: "2E55671ABDC045E9"
+				type: "item"
+				item: "minecraft:lava_bucket"
 			}]
 		}
 		{
@@ -809,6 +1023,11 @@
 				type: "item"
 				item: "powah:magmator_blazing"
 			}]
+			rewards: [{
+				id: "0DE4ACD61C3940BD"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
 		}
 		{
 			x: -21.5d
@@ -829,6 +1048,11 @@
 				id: "5B26B1A19CEBD350"
 				type: "item"
 				item: "powah:magmator_niotic"
+			}]
+			rewards: [{
+				id: "49835D601A4FE95E"
+				type: "item"
+				item: "minecraft:lava_bucket"
 			}]
 		}
 		{
@@ -851,6 +1075,11 @@
 				type: "item"
 				item: "powah:magmator_spirited"
 			}]
+			rewards: [{
+				id: "7D87418CCF4AF3CC"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
 		}
 		{
 			x: -8.0d
@@ -872,6 +1101,11 @@
 				type: "item"
 				item: "powah:magmator_nitro"
 			}]
+			rewards: [{
+				id: "4BB6AB293774154A"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
 		}
 		{
 			x: -18.5d
@@ -891,6 +1125,11 @@
 				id: "05BB956EF2838321"
 				type: "item"
 				item: "powah:thermo_generator_basic"
+			}]
+			rewards: [{
+				id: "6443B0A877194BC1"
+				type: "item"
+				item: "minecraft:magma_block"
 			}]
 		}
 		{
@@ -912,6 +1151,11 @@
 				type: "item"
 				item: "powah:thermo_generator_hardened"
 			}]
+			rewards: [{
+				id: "03846C6ADC626FFD"
+				type: "item"
+				item: "minecraft:magma_block"
+			}]
 		}
 		{
 			x: -5.0d
@@ -931,6 +1175,11 @@
 				id: "384076A4D9066BD5"
 				type: "item"
 				item: "powah:thermo_generator_blazing"
+			}]
+			rewards: [{
+				id: "6DD68AD45909AC1B"
+				type: "item"
+				item: "minecraft:magma_block"
 			}]
 		}
 		{
@@ -952,6 +1201,11 @@
 				type: "item"
 				item: "powah:thermo_generator_niotic"
 			}]
+			rewards: [{
+				id: "5DC78585FE98E4A5"
+				type: "item"
+				item: "minecraft:magma_block"
+			}]
 		}
 		{
 			x: -11.75d
@@ -971,6 +1225,11 @@
 				id: "66602FE1F1EDCECA"
 				type: "item"
 				item: "powah:thermo_generator_spirited"
+			}]
+			rewards: [{
+				id: "75A22E879F31F745"
+				type: "item"
+				item: "minecraft:magma_block"
 			}]
 		}
 		{
@@ -992,6 +1251,11 @@
 				type: "item"
 				item: "powah:thermo_generator_nitro"
 			}]
+			rewards: [{
+				id: "757E9EA67F6F2598"
+				type: "item"
+				item: "minecraft:magma_block"
+			}]
 		}
 		{
 			x: -19.0d
@@ -1011,6 +1275,11 @@
 				type: "item"
 				item: "powah:solar_panel_basic"
 			}]
+			rewards: [{
+				id: "20CC4F252AFB0E68"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_electrical_steel"
+			}]
 		}
 		{
 			x: -12.25d
@@ -1028,6 +1297,11 @@
 				id: "778F056987C5FAB1"
 				type: "item"
 				item: "powah:solar_panel_hardened"
+			}]
+			rewards: [{
+				id: "5963A2BD45128713"
+				type: "item"
+				item: "powah:steel_energized"
 			}]
 		}
 		{
@@ -1047,6 +1321,11 @@
 				type: "item"
 				item: "powah:solar_panel_blazing"
 			}]
+			rewards: [{
+				id: "3736E1B70F346884"
+				type: "item"
+				item: "powah:crystal_blazing"
+			}]
 		}
 		{
 			x: -19.0d
@@ -1064,6 +1343,11 @@
 				id: "158D43FF1F642BC9"
 				type: "item"
 				item: "powah:solar_panel_niotic"
+			}]
+			rewards: [{
+				id: "42A90B497B3997ED"
+				type: "item"
+				item: "powah:crystal_niotic"
 			}]
 		}
 		{
@@ -1083,6 +1367,11 @@
 				type: "item"
 				item: "powah:solar_panel_spirited"
 			}]
+			rewards: [{
+				id: "114ED80A9CEC731F"
+				type: "item"
+				item: "powah:crystal_spirited"
+			}]
 		}
 		{
 			x: -5.5d
@@ -1100,6 +1389,11 @@
 				id: "273DE2EB522F6241"
 				type: "item"
 				item: "powah:solar_panel_nitro"
+			}]
+			rewards: [{
+				id: "47007BDAA50BAC1D"
+				type: "item"
+				item: "powah:crystal_nitro"
 			}]
 		}
 		{
@@ -1120,6 +1414,12 @@
 				item: "powah:reactor_basic"
 				count: 36L
 			}]
+			rewards: [{
+				id: "1A9770CFE096881C"
+				type: "item"
+				item: "powah:uraninite"
+				count: 8
+			}]
 		}
 		{
 			x: -15.75d
@@ -1138,6 +1438,12 @@
 				type: "item"
 				item: "powah:reactor_hardened"
 				count: 36L
+			}]
+			rewards: [{
+				id: "06CA9C65A99285EB"
+				type: "item"
+				item: "powah:uraninite"
+				count: 8
 			}]
 		}
 		{
@@ -1158,6 +1464,12 @@
 				item: "powah:reactor_blazing"
 				count: 36L
 			}]
+			rewards: [{
+				id: "4832576B06D5D6C1"
+				type: "item"
+				item: "powah:uraninite"
+				count: 8
+			}]
 		}
 		{
 			x: -22.5d
@@ -1176,6 +1488,12 @@
 				type: "item"
 				item: "powah:reactor_niotic"
 				count: 36L
+			}]
+			rewards: [{
+				id: "5A6A05B780B84B96"
+				type: "item"
+				item: "powah:uraninite"
+				count: 8
 			}]
 		}
 		{
@@ -1196,6 +1514,12 @@
 				item: "powah:reactor_spirited"
 				count: 36L
 			}]
+			rewards: [{
+				id: "7FFB795FDEB41947"
+				type: "item"
+				item: "powah:uraninite"
+				count: 8
+			}]
 		}
 		{
 			x: -9.0d
@@ -1215,6 +1539,12 @@
 				item: "powah:reactor_nitro"
 				count: 36L
 			}]
+			rewards: [{
+				id: "3E069CDAFD01F87C"
+				type: "item"
+				item: "powah:uraninite"
+				count: 8
+			}]
 		}
 		{
 			x: -21.0d
@@ -1232,6 +1562,11 @@
 				id: "5FEDBE429906F3C8"
 				type: "item"
 				item: "powah:player_transmitter_basic"
+			}]
+			rewards: [{
+				id: "02F037E9A876ED9A"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_electrical_steel"
 			}]
 		}
 		{
@@ -1251,6 +1586,11 @@
 				type: "item"
 				item: "powah:player_transmitter_hardened"
 			}]
+			rewards: [{
+				id: "56FC25CA9C0F5995"
+				type: "item"
+				item: "powah:steel_energized"
+			}]
 		}
 		{
 			x: -7.5d
@@ -1268,6 +1608,11 @@
 				id: "4A4FAD82D1217282"
 				type: "item"
 				item: "powah:player_transmitter_blazing"
+			}]
+			rewards: [{
+				id: "70A0688A0A04DC65"
+				type: "item"
+				item: "powah:crystal_blazing"
 			}]
 		}
 		{
@@ -1287,6 +1632,11 @@
 				type: "item"
 				item: "powah:player_transmitter_niotic"
 			}]
+			rewards: [{
+				id: "4DF421D94755027E"
+				type: "item"
+				item: "powah:crystal_niotic"
+			}]
 		}
 		{
 			x: -14.25d
@@ -1305,6 +1655,11 @@
 				type: "item"
 				item: "powah:player_transmitter_spirited"
 			}]
+			rewards: [{
+				id: "4015249C69A516C3"
+				type: "item"
+				item: "powah:crystal_spirited"
+			}]
 		}
 		{
 			x: -7.5d
@@ -1322,6 +1677,11 @@
 				id: "4B918FC9FCBEB4CA"
 				type: "item"
 				item: "powah:player_transmitter_nitro"
+			}]
+			rewards: [{
+				id: "1E54CB3DB49E2D4B"
+				type: "item"
+				item: "powah:crystal_nitro"
 			}]
 		}
 		{
@@ -1343,6 +1703,11 @@
 				type: "item"
 				item: "powah:energy_hopper_basic"
 			}]
+			rewards: [{
+				id: "33F163F445ECEA9F"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_electrical_steel"
+			}]
 		}
 		{
 			x: -15.25d
@@ -1361,6 +1726,11 @@
 				id: "0D89636AA57F077A"
 				type: "item"
 				item: "powah:energy_hopper_hardened"
+			}]
+			rewards: [{
+				id: "1BA5C06B1D1E931D"
+				type: "item"
+				item: "powah:steel_energized"
 			}]
 		}
 		{
@@ -1381,6 +1751,11 @@
 				type: "item"
 				item: "powah:energy_hopper_blazing"
 			}]
+			rewards: [{
+				id: "0D7407BDBC1DA224"
+				type: "item"
+				item: "powah:crystal_blazing"
+			}]
 		}
 		{
 			x: -22.0d
@@ -1399,6 +1774,11 @@
 				id: "17B862968185C860"
 				type: "item"
 				item: "powah:energy_hopper_niotic"
+			}]
+			rewards: [{
+				id: "4DA86EBA7F92E844"
+				type: "item"
+				item: "powah:crystal_niotic"
 			}]
 		}
 		{
@@ -1419,6 +1799,11 @@
 				type: "item"
 				item: "powah:energy_hopper_spirited"
 			}]
+			rewards: [{
+				id: "6146D9FD8351FBFF"
+				type: "item"
+				item: "powah:crystal_spirited"
+			}]
 		}
 		{
 			x: -8.5d
@@ -1437,6 +1822,11 @@
 				id: "4140D861E5DB3418"
 				type: "item"
 				item: "powah:energy_hopper_nitro"
+			}]
+			rewards: [{
+				id: "09451DAF48E1FE03"
+				type: "item"
+				item: "powah:crystal_nitro"
 			}]
 		}
 		{
@@ -1458,6 +1848,11 @@
 				type: "item"
 				item: "powah:energy_discharger_basic"
 			}]
+			rewards: [{
+				id: "52AD6566296CB5E4"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_electrical_steel"
+			}]
 		}
 		{
 			x: -12.25d
@@ -1475,6 +1870,11 @@
 				id: "243DBF886CAD7FC6"
 				type: "item"
 				item: "powah:energy_discharger_hardened"
+			}]
+			rewards: [{
+				id: "0C7AA62B9F13A525"
+				type: "item"
+				item: "powah:steel_energized"
 			}]
 		}
 		{
@@ -1494,6 +1894,11 @@
 				type: "item"
 				item: "powah:energy_discharger_niotic"
 			}]
+			rewards: [{
+				id: "638FC9E1F6D7CFB1"
+				type: "item"
+				item: "powah:crystal_niotic"
+			}]
 		}
 		{
 			x: -5.5d
@@ -1511,6 +1916,11 @@
 				id: "1147F788598F051C"
 				type: "item"
 				item: "powah:energy_discharger_blazing"
+			}]
+			rewards: [{
+				id: "7224BD891C67D7C7"
+				type: "item"
+				item: "powah:crystal_blazing"
 			}]
 		}
 		{
@@ -1530,6 +1940,11 @@
 				type: "item"
 				item: "powah:energy_discharger_spirited"
 			}]
+			rewards: [{
+				id: "2D47E84BC771DF18"
+				type: "item"
+				item: "powah:crystal_spirited"
+			}]
 		}
 		{
 			x: -5.5d
@@ -1548,6 +1963,11 @@
 				type: "item"
 				item: "powah:energy_discharger_nitro"
 			}]
+			rewards: [{
+				id: "10C3DA7868A5AED1"
+				type: "item"
+				item: "powah:crystal_nitro"
+			}]
 		}
 		{
 			x: -14.25d
@@ -1560,6 +1980,13 @@
 				id: "0AA2ED4EE38FDF35"
 				type: "item"
 				item: "powah:dry_ice"
+			}]
+			rewards: [{
+				id: "13E37625597542E7"
+				type: "item"
+				item: "powah:dry_ice"
+				count: 2
+				random_bonus: 3
 			}]
 		}
 		{
@@ -1613,6 +2040,12 @@
 				item: "powah:capacitor_basic"
 				count: 2L
 			}]
+			rewards: [{
+				id: "35B78E16151C168F"
+				type: "item"
+				item: "powah:capacitor_basic"
+				count: 2
+			}]
 		}
 		{
 			x: -20.5d
@@ -1629,6 +2062,11 @@
 				type: "item"
 				item: "powah:capacitor_basic_large"
 				count: 2L
+			}]
+			rewards: [{
+				id: "20784F797F734089"
+				type: "item"
+				item: "powah:capacitor_basic_large"
 			}]
 		}
 		{
@@ -1648,6 +2086,11 @@
 				item: "powah:capacitor_hardened"
 				count: 2L
 			}]
+			rewards: [{
+				id: "421E12DD971FE3F3"
+				type: "item"
+				item: "powah:capacitor_hardened"
+			}]
 		}
 		{
 			x: -7.0d
@@ -1666,6 +2109,11 @@
 				item: "powah:capacitor_blazing"
 				count: 2L
 			}]
+			rewards: [{
+				id: "0DBE20DF12FCE22B"
+				type: "item"
+				item: "powah:capacitor_blazing"
+			}]
 		}
 		{
 			x: -20.5d
@@ -1680,6 +2128,11 @@
 			id: "5896C9C33F79614E"
 			tasks: [{
 				id: "02105658DCF8CBFD"
+				type: "item"
+				item: "powah:capacitor_niotic"
+			}]
+			rewards: [{
+				id: "5220DD6319CA98D4"
 				type: "item"
 				item: "powah:capacitor_niotic"
 			}]
@@ -1700,6 +2153,11 @@
 				type: "item"
 				item: "powah:capacitor_nitro"
 			}]
+			rewards: [{
+				id: "6E10BDCD4A4A352D"
+				type: "item"
+				item: "powah:capacitor_nitro"
+			}]
 		}
 		{
 			x: -13.75d
@@ -1714,6 +2172,11 @@
 			id: "2A520FDAD9C61888"
 			tasks: [{
 				id: "54B7B983FA07E188"
+				type: "item"
+				item: "powah:capacitor_spirited"
+			}]
+			rewards: [{
+				id: "421D85929B81FE4F"
 				type: "item"
 				item: "powah:capacitor_spirited"
 			}]
@@ -1741,6 +2204,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "76E8923C71A8B539"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_electrical_steel"
+			}]
 		}
 		{
 			x: -15.25d
@@ -1764,6 +2232,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "2F1929A8DCD03B86"
+				type: "item"
+				item: "powah:steel_energized"
 			}]
 		}
 		{
@@ -1789,6 +2262,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "63C5871277E8B465"
+				type: "item"
+				item: "powah:crystal_blazing"
+			}]
 		}
 		{
 			x: -22.0d
@@ -1812,6 +2290,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "557D4BC991B259D5"
+				type: "item"
+				item: "powah:crystal_niotic"
 			}]
 		}
 		{
@@ -1837,6 +2320,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "61D1EEC66FE8DEF8"
+				type: "item"
+				item: "powah:crystal_spirited"
+			}]
 		}
 		{
 			x: -8.5d
@@ -1861,6 +2349,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "0546B8A14CE2EE6E"
+				type: "item"
+				item: "powah:crystal_nitro"
+			}]
 		}
 		{
 			x: -21.0d
@@ -1870,6 +2363,11 @@
 			id: "11F5BC9ED455C37F"
 			tasks: [{
 				id: "402ED0650EF43815"
+				type: "item"
+				item: "powah:aerial_pearl"
+			}]
+			rewards: [{
+				id: "49DB36D172FC5E7A"
 				type: "item"
 				item: "powah:aerial_pearl"
 			}]
@@ -1889,6 +2387,158 @@
 				type: "item"
 				item: "powah:player_aerial_pearl"
 			}]
+			rewards: [{
+				id: "106135BA17F6D6F9"
+				type: "item"
+				item: {
+					id: "shrink:mob_bottle"
+					Count: 1b
+					tag: {
+						Brain: {
+							memories: { }
+						}
+						HurtByTimestamp: 0
+						ForgeData: { }
+						IsBaby: 0b
+						Attributes: [
+							{
+								Base: 0.08d
+								Name: "forge:entity_gravity"
+							}
+							{
+								Base: 0.0d
+								Modifiers: [{
+									Operation: 0
+									UUID: [I;
+										1643384596
+										783371810
+										-2031876063
+										364609384
+									]
+									Amount: 0.03348381798029159d
+									Name: "Random spawn bonus"
+								}]
+								Name: "minecraft:generic.knockback_resistance"
+							}
+							{
+								Base: 0.009555229736599691d
+								Name: "minecraft:zombie.spawn_reinforcements"
+							}
+							{
+								Base: 35.0d
+								Modifiers: [{
+									Operation: 1
+									UUID: [I;
+										494732482
+										-1113178075
+										-1720348126
+										-1066861107
+									]
+									Amount: 0.05645965845693623d
+									Name: "Random spawn bonus"
+								}]
+								Name: "minecraft:generic.follow_range"
+							}
+							{
+								Base: 0.23000000417232513d
+								Name: "minecraft:generic.movement_speed"
+							}
+						]
+						Invulnerable: 0b
+						FallFlying: 0b
+						PortalCooldown: 0
+						AbsorptionAmount: 0.0f
+						InWaterTime: -1
+						FallDistance: 0.0f
+						CanUpdate: 1b
+						DeathTime: 0s
+						BoundingBox: [
+							-4.810143465838375d
+							141.0d
+							1658.1878217251017d
+							-4.210143441996517d
+							142.95000004768372d
+							1658.7878217489435d
+						]
+						ForgeCaps: {
+							"structure_gel:gel_entity": {
+								portal: "structure_gel:empty"
+							}
+							"mekanism:radiation": {
+								radiation: 1.0E-7d
+							}
+							"tombstone:cap_servant_entity": {
+								caster_type: 0s
+							}
+							"citadel:extended_entity_data_citadel": { }
+							"pneumaticcraft:hacking": { }
+							"shrink:shrunk": {
+								width: 0.6f
+								defaulteyeheight: 1.74f
+								scale: 1.1100001f
+								isshrinking: 1b
+								fixed: 0b
+								isshrunk: 1b
+								height: 1.95f
+							}
+						}
+						HandDropChances: [
+							0.085f
+							0.085f
+						]
+						PersistenceRequired: 0b
+						id: "minecraft:husk"
+						UUID: [I;
+							1406662791
+							-1601486093
+							-1643581507
+							-1844286514
+						]
+						Motion: [
+							0.0d
+							-0.0784000015258789d
+							0.0d
+						]
+						Health: 20.0f
+						KubeJSPersistentData: { }
+						LeftHanded: 0b
+						Air: 300s
+						OnGround: 1b
+						CitadelData: { }
+						Rotation: [
+							317.77014f
+							0.0f
+						]
+						HandItems: [
+							{ }
+							{ }
+						]
+						ArmorDropChances: [
+							0.085f
+							0.085f
+							0.085f
+							0.085f
+						]
+						Pos: [
+							-4.510143453917446d
+							141.0d
+							1658.4878217370226d
+						]
+						CanBreakDoors: 0b
+						Fire: -1s
+						ArmorItems: [
+							{ }
+							{ }
+							{ }
+							{ }
+						]
+						CanPickUpLoot: 0b
+						HurtTime: 0s
+						entity: "minecraft:husk"
+						DrownedConversionTime: -1
+					}
+				}
+			}]
 		}
 		{
 			x: -20.5d
@@ -1904,6 +2554,11 @@
 				id: "69949927EFA87D3C"
 				type: "item"
 				item: "powah:binding_card"
+			}]
+			rewards: [{
+				id: "5618B7C5EE38EC87"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_soularium"
 			}]
 		}
 		{
@@ -1921,6 +2576,138 @@
 				type: "item"
 				item: "powah:binding_card_dim"
 			}]
+			rewards: [{
+				id: "41F640EF8D687CA5"
+				type: "item"
+				item: {
+					id: "shrink:mob_bottle"
+					Count: 1b
+					tag: {
+						Brain: {
+							memories: { }
+						}
+						HurtByTimestamp: 0
+						ForgeData: { }
+						PlayerSpawned: 0b
+						Attributes: [
+							{
+								Base: 0.08d
+								Name: "forge:entity_gravity"
+							}
+							{
+								Base: 0.0d
+								Name: "minecraft:generic.knockback_resistance"
+							}
+							{
+								Base: 16.0d
+								Modifiers: [{
+									Operation: 1
+									UUID: [I;
+										910196471
+										921586428
+										-1802847768
+										611743359
+									]
+									Amount: -0.028641598721675134d
+									Name: "Random spawn bonus"
+								}]
+								Name: "minecraft:generic.follow_range"
+							}
+							{
+								Base: 0.25d
+								Name: "minecraft:generic.movement_speed"
+							}
+						]
+						Invulnerable: 0b
+						FallFlying: 0b
+						PortalCooldown: 0
+						AbsorptionAmount: 0.0f
+						FallDistance: 0.0f
+						CanUpdate: 1b
+						DeathTime: 0s
+						BoundingBox: [
+							-11.663385399318365d
+							141.0d
+							1656.8325897346178d
+							-11.263385393357897d
+							141.30000001192093d
+							1657.2325897405783d
+						]
+						ForgeCaps: {
+							"structure_gel:gel_entity": {
+								portal: "structure_gel:empty"
+							}
+							"citadel:extended_entity_data_citadel": { }
+							"mekanism:radiation": {
+								radiation: 1.0E-7d
+							}
+							"pneumaticcraft:hacking": { }
+							"shrink:shrunk": {
+								width: 0.4f
+								defaulteyeheight: 0.13f
+								scale: 9.710001f
+								isshrinking: 1b
+								fixed: 0b
+								isshrunk: 1b
+								height: 0.3f
+							}
+						}
+						HandDropChances: [
+							0.085f
+							0.085f
+						]
+						PersistenceRequired: 0b
+						id: "minecraft:endermite"
+						UUID: [I;
+							-231915973
+							1461996217
+							-1525421663
+							123466594
+						]
+						Motion: [
+							-0.023230636135560565d
+							-0.0784000015258789d
+							-0.06792374644352218d
+						]
+						Health: 8.0f
+						KubeJSPersistentData: { }
+						LeftHanded: 0b
+						Air: 300s
+						OnGround: 1b
+						CitadelData: { }
+						Rotation: [
+							146.92505f
+							0.0f
+						]
+						HandItems: [
+							{ }
+							{ }
+						]
+						ArmorDropChances: [
+							0.085f
+							0.085f
+							0.085f
+							0.085f
+						]
+						Lifetime: 793
+						Pos: [
+							-11.463385396338131d
+							141.0d
+							1657.032589737598d
+						]
+						Fire: -1s
+						ArmorItems: [
+							{ }
+							{ }
+							{ }
+							{ }
+						]
+						CanPickUpLoot: 0b
+						HurtTime: 0s
+						entity: "minecraft:endermite"
+					}
+				}
+			}]
 		}
 		{
 			x: -6.75d
@@ -1930,6 +2717,11 @@
 			id: "4CE6CFDF8581D135"
 			tasks: [{
 				id: "4ADD863906732438"
+				type: "item"
+				item: "powah:lens_of_ender"
+			}]
+			rewards: [{
+				id: "765D79F0A69F6196"
 				type: "item"
 				item: "powah:lens_of_ender"
 			}]
@@ -1947,6 +2739,11 @@
 				type: "item"
 				item: "powah:thermoelectric_plate"
 			}]
+			rewards: [{
+				id: "3A96A6BA2923F35C"
+				type: "item"
+				item: "powah:thermoelectric_plate"
+			}]
 		}
 		{
 			x: -7.75d
@@ -1959,6 +2756,11 @@
 			id: "6CB95C8CABA5E2B4"
 			tasks: [{
 				id: "2B93C0151986801E"
+				type: "item"
+				item: "powah:photoelectric_pane"
+			}]
+			rewards: [{
+				id: "1F28A784EDB49F5B"
 				type: "item"
 				item: "powah:photoelectric_pane"
 			}]
@@ -1979,6 +2781,12 @@
 				type: "item"
 				item: "powah:dielectric_paste"
 			}]
+			rewards: [{
+				id: "2B2CE5A88D1EF401"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 3
+			}]
 		}
 		{
 			x: -14.25d
@@ -1994,6 +2802,13 @@
 				type: "item"
 				item: "powah:dielectric_rod"
 				count: 8L
+			}]
+			rewards: [{
+				id: "1EBD9D3B273C5193"
+				type: "item"
+				item: "powah:dielectric_rod"
+				count: 2
+				random_bonus: 2
 			}]
 		}
 		{
@@ -2011,6 +2826,13 @@
 				item: "powah:dielectric_rod_horizontal"
 				count: 8L
 			}]
+			rewards: [{
+				id: "312FD0A7A897D4B0"
+				type: "item"
+				item: "powah:dielectric_rod_horizontal"
+				count: 2
+				random_bonus: 2
+			}]
 		}
 		{
 			x: -13.75d
@@ -2025,6 +2847,11 @@
 			id: "40BF3EE3318C55B4"
 			tasks: [{
 				id: "5E57A07BE0464541"
+				type: "item"
+				item: "powah:dielectric_casing"
+			}]
+			rewards: [{
+				id: "2EB919709CF12E03"
 				type: "item"
 				item: "powah:dielectric_casing"
 			}]
@@ -2046,6 +2873,12 @@
 				type: "item"
 				item: "powah:steel_energized"
 			}]
+			rewards: [{
+				id: "473BE6F4EFC495E9"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 2
+			}]
 		}
 		{
 			x: -7.0d
@@ -2059,6 +2892,12 @@
 				id: "68E496605DF40BB4"
 				type: "item"
 				item: "powah:crystal_blazing"
+			}]
+			rewards: [{
+				id: "2A38FAF4691A63A9"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 2
 			}]
 		}
 		{
@@ -2077,6 +2916,12 @@
 				type: "item"
 				item: "powah:crystal_niotic"
 			}]
+			rewards: [{
+				id: "5208BF5A271EEC82"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 2
+			}]
 		}
 		{
 			x: -13.75d
@@ -2093,6 +2938,12 @@
 				id: "10E25BF11597414D"
 				type: "item"
 				item: "powah:crystal_spirited"
+			}]
+			rewards: [{
+				id: "3F0F18342BB6A0EB"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 2
 			}]
 		}
 		{
@@ -2112,6 +2963,12 @@
 				type: "item"
 				item: "powah:crystal_nitro"
 			}]
+			rewards: [{
+				id: "5AD2E8B5C8F4152B"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 2
+			}]
 		}
 		{
 			x: -13.75d
@@ -2121,6 +2978,11 @@
 			id: "491873ED9FE9FD5D"
 			tasks: [{
 				id: "13158CAD1203489C"
+				type: "item"
+				item: "powah:ender_core"
+			}]
+			rewards: [{
+				id: "0F155318B730BFEF"
 				type: "item"
 				item: "powah:ender_core"
 			}]
@@ -2134,6 +2996,11 @@
 			id: "5049E0E345147121"
 			tasks: [{
 				id: "0D0989EAA2FFF6A3"
+				type: "item"
+				item: "powah:charged_snowball"
+			}]
+			rewards: [{
+				id: "314EAF85437A7BB4"
 				type: "item"
 				item: "powah:charged_snowball"
 			}]
@@ -2156,6 +3023,11 @@
 				type: "item"
 				item: "powah:blank_card"
 			}]
+			rewards: [{
+				id: "49DDFED773CB0182"
+				type: "item"
+				item: "powah:dielectric_paste"
+			}]
 		}
 		{
 			x: -15.0d
@@ -2166,6 +3038,13 @@
 				id: "7DE6E419D6F8146A"
 				type: "item"
 				item: "powah:uraninite"
+			}]
+			rewards: [{
+				id: "1EF04977D1DFB7C5"
+				type: "item"
+				item: "powah:uraninite"
+				count: 2
+				random_bonus: 5
 			}]
 		}
 		{
@@ -2188,6 +3067,13 @@
 				type: "item"
 				item: "kubejs:silicon_grease"
 			}]
+			rewards: [{
+				id: "73B1868509AD5051"
+				type: "item"
+				item: "kubejs:silicon_grease"
+				count: 2
+				random_bonus: 1
+			}]
 		}
 		{
 			x: -14.75d
@@ -2198,6 +3084,11 @@
 			id: "5D8336AF90EFB45E"
 			tasks: [{
 				id: "584374B1A0E8EB04"
+				type: "item"
+				item: "allthemodium:unobtainium_allthemodium_alloy_ingot"
+			}]
+			rewards: [{
+				id: "4D70EFA2B9B8DC5B"
 				type: "item"
 				item: "allthemodium:unobtainium_allthemodium_alloy_ingot"
 			}]
@@ -2214,6 +3105,11 @@
 				type: "item"
 				item: "allthemodium:unobtainium_vibranium_alloy_ingot"
 			}]
+			rewards: [{
+				id: "04646AFEE7F605FF"
+				type: "item"
+				item: "allthemodium:unobtainium_vibranium_alloy_ingot"
+			}]
 		}
 		{
 			x: -12.75d
@@ -2224,6 +3120,11 @@
 			id: "00F5524F3B6AAA24"
 			tasks: [{
 				id: "236B4E68EE70E6BD"
+				type: "item"
+				item: "allthemodium:vibranium_allthemodium_alloy_ingot"
+			}]
+			rewards: [{
+				id: "442865073655B0BF"
 				type: "item"
 				item: "allthemodium:vibranium_allthemodium_alloy_ingot"
 			}]

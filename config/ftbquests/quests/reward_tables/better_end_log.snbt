@@ -1,0 +1,19 @@
+{
+	id: "3436C512ACC9481E"
+	order_index: 12
+	title: "Better End Log"
+	icon: "betterendforge:smaragdant_crystal_shard"
+	loot_size: 1
+	rewards: [
+		{ item: "betterendforge:mossy_glowshroom_log", count: 64 }
+		{ item: "betterendforge:lacugrove_log", count: 64 }
+		{ item: "betterendforge:end_lotus_log", count: 64 }
+		{ item: "betterendforge:pythadendron_log", count: 64 }
+		{ item: "betterendforge:dragon_tree_log", count: 64 }
+		{ item: "betterendforge:tenanea_log", count: 64 }
+		{ item: "betterendforge:helix_tree_log", count: 64 }
+		{ item: "betterendforge:umbrella_tree_log", count: 64 }
+		{ item: "betterendforge:jellyshroom_log", count: 64 }
+		{ item: "betterendforge:lucernia_log", count: 64 }
+	]
+}

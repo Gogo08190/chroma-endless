@@ -1,0 +1,23 @@
+{
+	id: "4D8875E63E110CF5"
+	order_index: 16
+	title: "Atmospheric"
+	icon: "atmospheric:grimwood_sapling"
+	loot_size: 1
+	rewards: [
+		{ item: "atmospheric:rosewood_log", count: 64 }
+		{ item: "atmospheric:morado_log", count: 64 }
+		{ item: "atmospheric:yucca_log", count: 64 }
+		{ item: "atmospheric:kousa_log", count: 64 }
+		{ item: "atmospheric:aspen_log", count: 64 }
+		{ item: "atmospheric:watchful_aspen_log", count: 64 }
+		{ item: "atmospheric:crustose_log", count: 64 }
+		{ item: "atmospheric:grimwood_log", count: 64 }
+		{ item: "atmospheric:stripped_rosewood_log", count: 64 }
+		{ item: "atmospheric:stripped_grimwood_log", count: 64 }
+		{ item: "atmospheric:stripped_aspen_log", count: 64 }
+		{ item: "atmospheric:stripped_kousa_log", count: 64 }
+		{ item: "atmospheric:stripped_yucca_log", count: 64 }
+		{ item: "atmospheric:stripped_morado_log", count: 64 }
+	]
+}

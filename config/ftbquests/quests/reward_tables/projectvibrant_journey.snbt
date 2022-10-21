@@ -1,0 +1,23 @@
+{
+	id: "05851EB33A74EA93"
+	order_index: 13
+	title: "ProjectVibrant_Journey"
+	icon: "projectvibrantjourneys:cindercane"
+	loot_size: 1
+	rewards: [
+		{ item: "projectvibrantjourneys:fir_log", count: 64 }
+		{ item: "projectvibrantjourneys:pine_log", count: 64 }
+		{ item: "projectvibrantjourneys:redwood_log", count: 64 }
+		{ item: "projectvibrantjourneys:willow_log", count: 64 }
+		{ item: "projectvibrantjourneys:mangrove_log", count: 64 }
+		{ item: "projectvibrantjourneys:palm_log", count: 64 }
+		{ item: "projectvibrantjourneys:cottonwood_log", count: 64 }
+		{ item: "projectvibrantjourneys:aspen_log", count: 64 }
+		{ item: "projectvibrantjourneys:juniper_log", count: 64 }
+		{ item: "projectvibrantjourneys:joshua_log", count: 64 }
+		{ item: "projectvibrantjourneys:tamarack_log", count: 64 }
+		{ item: "projectvibrantjourneys:sakura_log", count: 64 }
+		{ item: "projectvibrantjourneys:maple_log", count: 64 }
+		{ item: "projectvibrantjourneys:baobab_log", count: 64 }
+	]
+}

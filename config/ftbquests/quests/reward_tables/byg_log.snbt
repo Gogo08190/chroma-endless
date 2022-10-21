@@ -1,0 +1,36 @@
+{
+	id: "6B84A1D56773BF79"
+	order_index: 18
+	title: "BYG log"
+	icon: "byg:purple_bulbis_anomaly"
+	loot_size: 1
+	rewards: [
+		{ item: "byg:aspen_log", count: 64 }
+		{ item: "byg:baobab_log", count: 64 }
+		{ item: "byg:blue_enchanted_log", count: 64 }
+		{ item: "byg:cherry_log", count: 64 }
+		{ item: "byg:cika_log", count: 64 }
+		{ item: "byg:cypress_log", count: 64 }
+		{ item: "byg:ebony_log", count: 64 }
+		{ item: "byg:ether_log", count: 64 }
+		{ item: "byg:fir_log", count: 64 }
+		{ item: "byg:palm_log", count: 64 }
+		{ item: "byg:palo_verde_log", count: 64 }
+		{ item: "byg:pine_log", count: 64 }
+		{ item: "byg:rainbow_eucalyptus_log", count: 64 }
+		{ item: "byg:redwood_log", count: 64 }
+		{ item: "byg:skyris_log", count: 64 }
+		{ item: "byg:willow_log", count: 64 }
+		{ item: "byg:witch_hazel_log", count: 64 }
+		{ item: "byg:zelkova_log", count: 64 }
+		{ item: "byg:green_enchanted_log", count: 64 }
+		{ item: "byg:holly_log", count: 64 }
+		{ item: "byg:jacaranda_log", count: 64 }
+		{ item: "byg:lament_log", count: 64 }
+		{ item: "byg:mahogany_log", count: 64 }
+		{ item: "byg:mangrove_log", count: 64 }
+		{ item: "byg:maple_log", count: 64 }
+		{ item: "byg:withering_oak_log", count: 64 }
+		{ item: "byg:nightshade_log", count: 64 }
+	]
+}
