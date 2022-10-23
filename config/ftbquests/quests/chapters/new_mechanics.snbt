@@ -709,12 +709,20 @@
 				type: "item"
 				item: "miniutilities:angel_ring"
 			}]
-			rewards: [{
-				id: "55384A0B8B52444A"
-				type: "item"
-				item: "minecraft:feather"
-				count: 2
-			}]
+			rewards: [
+				{
+					id: "60D59986D3D4EA49"
+					type: "item"
+					item: "minecraft:black_dye"
+					count: 2
+				}
+				{
+					id: "5D30F96B9D3458FB"
+					type: "item"
+					item: "minecraft:leather"
+					count: 2
+				}
+			]
 		}
 	]
 }

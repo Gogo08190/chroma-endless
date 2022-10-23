@@ -5468,6 +5468,8 @@
 				id: "1D2D8D97A09B4BE5"
 				type: "item"
 				item: "minecraft:apple"
+				count: 3
+				random_bonus: 5
 			}]
 		}
 		{
@@ -5595,6 +5597,8 @@
 				id: "72F1D27AF7B07C3F"
 				type: "item"
 				item: "minecraft:bread"
+				count: 3
+				random_bonus: 5
 			}]
 		}
 		{
@@ -5611,11 +5615,132 @@
 				type: "item"
 				item: "culinaryconstruct:culinary_station"
 			}]
-			rewards: [{
-				id: "2A6B7699EC689E9A"
-				type: "random"
-				table_id: 3261296973996135385L
-			}]
+			rewards: [
+				{
+					id: "68A3F091F60F8E40"
+					type: "item"
+					item: {
+						id: "culinaryconstruct:sandwich"
+						Count: 1b
+						tag: {
+							Size: 5
+							Saturation: 1.0f
+							Quality: 4
+							Ingredients: {
+								Items: [
+									{
+										Slot: 0b
+										id: "minecraft:nether_star"
+										Count: 1b
+									}
+									{
+										Slot: 1b
+										id: "minecraft:nether_star"
+										Count: 1b
+									}
+									{
+										Slot: 2b
+										id: "minecraft:nether_star"
+										Count: 1b
+									}
+									{
+										Slot: 3b
+										id: "minecraft:nether_star"
+										Count: 1b
+									}
+									{
+										Slot: 4b
+										id: "minecraft:nether_star"
+										Count: 1b
+									}
+								]
+							}
+							Base: {
+								id: "minecraft:bread"
+								Count: 1b
+							}
+							Food: 20
+						}
+					}
+				}
+				{
+					id: "71D3D402F990CB7C"
+					type: "item"
+					item: {
+						id: "culinaryconstruct:food_bowl"
+						Count: 1b
+						tag: {
+							SolidsSize: 5
+							Size: 5
+							Saturation: 1.0f
+							Quality: 4
+							Ingredients: {
+								Items: [
+									{
+										Slot: 0b
+										id: "minecraft:nether_star"
+										Count: 1b
+									}
+									{
+										Slot: 1b
+										id: "minecraft:nether_star"
+										Count: 1b
+									}
+									{
+										Slot: 2b
+										id: "minecraft:nether_star"
+										Count: 1b
+									}
+									{
+										Slot: 3b
+										id: "minecraft:nether_star"
+										Count: 1b
+									}
+									{
+										Slot: 4b
+										id: "minecraft:nether_star"
+										Count: 1b
+									}
+								]
+							}
+							Solids: {
+								Items: [
+									{
+										Slot: 0b
+										id: "minecraft:nether_star"
+										Count: 1b
+									}
+									{
+										Slot: 1b
+										id: "minecraft:nether_star"
+										Count: 1b
+									}
+									{
+										Slot: 2b
+										id: "minecraft:nether_star"
+										Count: 1b
+									}
+									{
+										Slot: 3b
+										id: "minecraft:nether_star"
+										Count: 1b
+									}
+									{
+										Slot: 4b
+										id: "minecraft:nether_star"
+										Count: 1b
+									}
+								]
+							}
+							Base: {
+								id: "minecraft:bowl"
+								Count: 1b
+							}
+							Food: 20
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 6.75d

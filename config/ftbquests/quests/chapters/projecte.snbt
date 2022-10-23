@@ -25,6 +25,12 @@
 				type: "item"
 				item: "projecte:collector_mk1"
 			}]
+			rewards: [{
+				id: "6D5CC1579F6C008E"
+				type: "item"
+				item: "minecraft:glowstone_dust"
+				count: 8
+			}]
 		}
 		{
 			x: 10.0d
@@ -79,6 +85,11 @@
 				type: "item"
 				item: "projecte:alchemical_chest"
 			}]
+			rewards: [{
+				id: "61417B4594D00035"
+				type: "item"
+				item: "expandedstorage:netherite_chest"
+			}]
 		}
 		{
 			x: 11.25d
@@ -97,6 +108,12 @@
 				id: "04FA129B687E73EF"
 				type: "item"
 				item: "projecte:condenser_mk1"
+			}]
+			rewards: [{
+				id: "3BDDDA99A572254B"
+				type: "item"
+				item: "minecraft:coal"
+				count: 64
 			}]
 		}
 		{
@@ -187,6 +204,8 @@
 				id: "3814FE59C7FD03D9"
 				type: "item"
 				item: "projecte:low_covalence_dust"
+				count: 3
+				random_bonus: 4
 			}]
 		}
 		{
@@ -208,6 +227,8 @@
 				id: "5546CCA3CBD6F098"
 				type: "item"
 				item: "projecte:medium_covalence_dust"
+				count: 3
+				random_bonus: 4
 			}]
 		}
 		{
@@ -229,6 +250,8 @@
 				id: "38DC06F7F9929A80"
 				type: "item"
 				item: "projecte:high_covalence_dust"
+				count: 3
+				random_bonus: 4
 			}]
 		}
 		{
@@ -986,6 +1009,11 @@
 				type: "item"
 				item: "projectexpansion:basic_collector"
 			}]
+			rewards: [{
+				id: "43C7CA63A53FBD69"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 7.5d
@@ -1000,6 +1028,11 @@
 				id: "4C696A3AF233BEFF"
 				type: "item"
 				item: "projectexpansion:dark_collector"
+			}]
+			rewards: [{
+				id: "350A0F5F86370A80"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1016,6 +1049,11 @@
 				type: "item"
 				item: "projectexpansion:red_collector"
 			}]
+			rewards: [{
+				id: "1277741EAB6C3D56"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 8.5d
@@ -1030,6 +1068,11 @@
 				id: "66B260A1286E7D3B"
 				type: "item"
 				item: "projectexpansion:magenta_collector"
+			}]
+			rewards: [{
+				id: "3A7753C04C5B74F3"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1046,6 +1089,11 @@
 				type: "item"
 				item: "projectexpansion:pink_collector"
 			}]
+			rewards: [{
+				id: "42E6CF8AE91C7BB9"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 9.5d
@@ -1060,6 +1108,11 @@
 				id: "217BD82952C940ED"
 				type: "item"
 				item: "projectexpansion:purple_collector"
+			}]
+			rewards: [{
+				id: "11EA5B32A5A8B631"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1076,6 +1129,11 @@
 				type: "item"
 				item: "projectexpansion:violet_collector"
 			}]
+			rewards: [{
+				id: "0602885E08BA30EA"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 10.5d
@@ -1090,6 +1148,11 @@
 				id: "6DC304A486D459C5"
 				type: "item"
 				item: "projectexpansion:blue_collector"
+			}]
+			rewards: [{
+				id: "6B431B5FB1864EA6"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1106,6 +1169,11 @@
 				type: "item"
 				item: "projectexpansion:cyan_collector"
 			}]
+			rewards: [{
+				id: "72C97956C4593367"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 11.5d
@@ -1120,6 +1188,11 @@
 				id: "464129848E633AF8"
 				type: "item"
 				item: "projectexpansion:green_collector"
+			}]
+			rewards: [{
+				id: "49655B09F2158DCB"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1136,6 +1209,11 @@
 				type: "item"
 				item: "projectexpansion:lime_collector"
 			}]
+			rewards: [{
+				id: "7EA41AE4BBFEF3A7"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 12.5d
@@ -1150,6 +1228,11 @@
 				id: "593BD86EAEB8135C"
 				type: "item"
 				item: "projectexpansion:yellow_collector"
+			}]
+			rewards: [{
+				id: "3EC73B30F9925205"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1166,6 +1249,11 @@
 				type: "item"
 				item: "projectexpansion:orange_collector"
 			}]
+			rewards: [{
+				id: "246944CF80A45A6A"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 13.5d
@@ -1181,6 +1269,11 @@
 				type: "item"
 				item: "projectexpansion:white_collector"
 			}]
+			rewards: [{
+				id: "6C6515B4300FFEFA"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 14.0d
@@ -1195,6 +1288,11 @@
 				id: "2D1444FD7D8DB54D"
 				type: "item"
 				item: "projectexpansion:fading_collector"
+			}]
+			rewards: [{
+				id: "52F0C1171C936175"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -2224,6 +2322,11 @@
 				type: "item"
 				item: "projectexpansion:transmutation_interface"
 			}]
+			rewards: [{
+				id: "480231C7BC90E2FD"
+				type: "item"
+				item: "refinedstorage:external_storage"
+			}]
 		}
 		{
 			x: 13.0d
@@ -2250,6 +2353,11 @@
 						Parent: { }
 					}
 				}
+			}]
+			rewards: [{
+				id: "6EE7624B1453B02D"
+				type: "item"
+				item: "tombstone:book_of_repairing"
 			}]
 		}
 		{
@@ -2284,6 +2392,11 @@
 				type: "item"
 				item: "projecte:interdiction_torch"
 			}]
+			rewards: [{
+				id: "1B33DE542149C6A6"
+				type: "item"
+				item: "projecte:interdiction_torch"
+			}]
 		}
 		{
 			x: 7.0d
@@ -2302,6 +2415,11 @@
 				type: "item"
 				item: "projectexpansion:infinite_fuel"
 			}]
+			rewards: [{
+				id: "58928DFD03B9D480"
+				type: "item"
+				item: "ironfurnaces:rainbow_coal"
+			}]
 		}
 		{
 			x: 14.0d
@@ -2317,6 +2435,11 @@
 				id: "44676B70FF5C36ED"
 				type: "item"
 				item: "projectexpansion:infinite_steak"
+			}]
+			rewards: [{
+				id: "50589ACEA76C2E21"
+				type: "item"
+				item: "farmersdelight:steak_and_potatoes"
 			}]
 		}
 		{

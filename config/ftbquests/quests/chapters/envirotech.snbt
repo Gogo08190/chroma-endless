@@ -370,6 +370,13 @@
 				type: "checkmark"
 				title: "Custom Miners"
 			}]
+			rewards: [{
+				id: "2C669108E90613F5"
+				type: "item"
+				item: "enviromats:alabaster_white"
+				count: 16
+				random_bonus: 16
+			}]
 		}
 		{
 			x: -24.25d
@@ -2831,6 +2838,13 @@
 				id: "1C1D452D6BC3A640"
 				type: "checkmark"
 				title: "Build The Cutting Machine Factory"
+			}]
+			rewards: [{
+				id: "6780273B1A6ACD00"
+				type: "item"
+				item: "enviromats:alabaster_gray"
+				count: 16
+				random_bonus: 16
 			}]
 		}
 		{

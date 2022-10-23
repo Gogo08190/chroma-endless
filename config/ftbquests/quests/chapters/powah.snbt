@@ -2465,7 +2465,7 @@
 								portal: "structure_gel:empty"
 							}
 							"mekanism:radiation": {
-								radiation: 1.0E-7d
+								radiation: "1.0E-7d"
 							}
 							"tombstone:cap_servant_entity": {
 								caster_type: 0s
@@ -2639,7 +2639,7 @@
 							}
 							"citadel:extended_entity_data_citadel": { }
 							"mekanism:radiation": {
-								radiation: 1.0E-7d
+								radiation: "1.0E-7d"
 							}
 							"pneumaticcraft:hacking": { }
 							"shrink:shrunk": {

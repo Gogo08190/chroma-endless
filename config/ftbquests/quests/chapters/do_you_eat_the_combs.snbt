@@ -31,6 +31,12 @@
 				type: "item"
 				item: "resourcefulbees:aluminum_honeycomb"
 			}]
+			rewards: [{
+				id: "5D6948F38ED5BF34"
+				type: "item"
+				item: "resourcefulbees:aluminum_honeycomb"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: -4.75d
@@ -54,6 +60,12 @@
 				id: "045C816065DA15BD"
 				type: "item"
 				item: "resourcefulbees:basalz_honeycomb"
+			}]
+			rewards: [{
+				id: "2A6890F53E39B818"
+				type: "item"
+				item: "resourcefulbees:basalz_honeycomb"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -91,6 +103,12 @@
 				type: "item"
 				item: "resourcefulbees:blazing_honeycomb"
 			}]
+			rewards: [{
+				id: "6B5253A27AC295A3"
+				type: "item"
+				item: "resourcefulbees:blazing_honeycomb"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 6.5d
@@ -103,6 +121,12 @@
 				type: "item"
 				item: "resourcefulbees:blitz_honeycomb"
 			}]
+			rewards: [{
+				id: "50B5862D0D2548ED"
+				type: "item"
+				item: "resourcefulbees:blitz_honeycomb"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 7.5d
@@ -114,6 +138,12 @@
 				id: "71B0DEA6E4E7D4FA"
 				type: "item"
 				item: "resourcefulbees:blizz_honeycomb"
+			}]
+			rewards: [{
+				id: "6C6AAA4ACA7AEFFD"
+				type: "item"
+				item: "resourcefulbees:blizz_honeycomb"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -139,6 +169,12 @@
 				type: "item"
 				item: "resourcefulbees:brass_honeycomb"
 			}]
+			rewards: [{
+				id: "704B495604BB70CC"
+				type: "item"
+				item: "resourcefulbees:brass_honeycomb"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 2.0d
@@ -162,6 +198,12 @@
 				id: "702DDAF59212AD1D"
 				type: "item"
 				item: "resourcefulbees:catnip_honeycomb"
+			}]
+			rewards: [{
+				id: "3A0D34AB85BCDC3F"
+				type: "item"
+				item: "resourcefulbees:catnip_honeycomb"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -198,6 +240,12 @@
 				type: "item"
 				item: "resourcefulbees:cloggrum_honeycomb"
 			}]
+			rewards: [{
+				id: "0EE7D591DBCAC283"
+				type: "item"
+				item: "resourcefulbees:cloggrum_honeycomb"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 12.25d
@@ -220,6 +268,12 @@
 				id: "7E89374A4ADA3ABA"
 				type: "item"
 				item: "resourcefulbees:cobalt_honeycomb"
+			}]
+			rewards: [{
+				id: "0AE774F5FA9CABE4"
+				type: "item"
+				item: "resourcefulbees:cobalt_honeycomb"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -245,6 +299,12 @@
 				type: "item"
 				item: "resourcefulbees:constantan_honeycomb"
 			}]
+			rewards: [{
+				id: "12C331B231C2634A"
+				type: "item"
+				item: "resourcefulbees:constantan_honeycomb"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: -2.25d
@@ -257,6 +317,12 @@
 				type: "item"
 				item: "resourcefulbees:copper_honeycomb"
 			}]
+			rewards: [{
+				id: "5FB78015719DEE37"
+				type: "item"
+				item: "resourcefulbees:copper_honeycomb"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 11.75d
@@ -268,6 +334,12 @@
 				id: "2F4ED3626CECD5BA"
 				type: "item"
 				item: "resourcefulbees:creeper_honeycomb"
+			}]
+			rewards: [{
+				id: "7615D446ABE7FDCE"
+				type: "item"
+				item: "resourcefulbees:creeper_honeycomb"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -340,6 +412,12 @@
 				type: "item"
 				item: "resourcefulbees:electrum_honeycomb"
 			}]
+			rewards: [{
+				id: "69E09CAB722A43B7"
+				type: "item"
+				item: "resourcefulbees:electrum_honeycomb"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 13.5d
@@ -351,6 +429,12 @@
 				id: "41BCC69052BC2C6D"
 				type: "item"
 				item: "resourcefulbees:elementium_honeycomb"
+			}]
+			rewards: [{
+				id: "4A08E4A85F842A2D"
+				type: "item"
+				item: "resourcefulbees:elementium_honeycomb"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -387,6 +471,12 @@
 				type: "item"
 				item: "resourcefulbees:ender_honeycomb"
 			}]
+			rewards: [{
+				id: "06021A1AC0496E6D"
+				type: "item"
+				item: "resourcefulbees:enderium_honeycomb"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: -6.75d
@@ -411,6 +501,12 @@
 				type: "item"
 				item: "resourcefulbees:energized_honeycomb"
 			}]
+			rewards: [{
+				id: "7137462D84A594B9"
+				type: "item"
+				item: "resourcefulbees:energized_honeycomb"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: -4.0d
@@ -423,6 +519,12 @@
 				type: "item"
 				item: "resourcefulbees:enderium_honeycomb"
 			}]
+			rewards: [{
+				id: "61B5D2651FA7C811"
+				type: "item"
+				item: "resourcefulbees:enderium_honeycomb"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 0.75d
@@ -434,6 +536,12 @@
 				id: "08289DCF11078E1B"
 				type: "item"
 				item: "resourcefulbees:experience_honeycomb"
+			}]
+			rewards: [{
+				id: "0457944011D366BA"
+				type: "item"
+				item: "resourcefulbees:experience_honeycomb"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -494,6 +602,12 @@
 				type: "item"
 				item: "resourcefulbees:forgotten_honeycomb"
 			}]
+			rewards: [{
+				id: "5FF26637F5A2E30B"
+				type: "item"
+				item: "resourcefulbees:forgotten_honeycomb"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 18.25d
@@ -506,6 +620,12 @@
 				type: "item"
 				item: "resourcefulbees:froststeel_honeycomb"
 			}]
+			rewards: [{
+				id: "637E6AF1EC233576"
+				type: "item"
+				item: "resourcefulbees:froststeel_honeycomb"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 14.5d
@@ -517,6 +637,12 @@
 				id: "3A6FB9482AF0CC4E"
 				type: "item"
 				item: "resourcefulbees:gaia_honeycomb"
+			}]
+			rewards: [{
+				id: "7B52A32FF7F75BD3"
+				type: "item"
+				item: "resourcefulbees:gaia_honeycomb"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -588,6 +714,12 @@
 				type: "item"
 				item: "resourcefulbees:guardian_honeycomb"
 			}]
+			rewards: [{
+				id: "04000DAB4FF6CEE4"
+				type: "item"
+				item: "resourcefulbees:guardian_honeycomb"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: -0.75d
@@ -647,6 +779,12 @@
 				type: "item"
 				item: "resourcefulbees:invar_honeycomb"
 			}]
+			rewards: [{
+				id: "0C27158863E57194"
+				type: "item"
+				item: "resourcefulbees:invar_honeycomb"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 11.25d
@@ -693,6 +831,12 @@
 				type: "item"
 				item: "resourcefulbees:lead_honeycomb"
 			}]
+			rewards: [{
+				id: "12AED1359BFCE755"
+				type: "item"
+				item: "resourcefulbees:lead_honeycomb"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 10.75d
@@ -716,6 +860,12 @@
 				id: "6B3C3B0DB530EC89"
 				type: "item"
 				item: "resourcefulbees:lumium_honeycomb"
+			}]
+			rewards: [{
+				id: "6B10A1C05FE47714"
+				type: "item"
+				item: "resourcefulbees:lumium_honeycomb"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -752,6 +902,12 @@
 				id: "13232117012C7575"
 				type: "item"
 				item: "resourcefulbees:manasteel_honeycomb"
+			}]
+			rewards: [{
+				id: "4D6FCA497D6903E0"
+				type: "item"
+				item: "resourcefulbees:manasteel_honeycomb"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -801,6 +957,12 @@
 				type: "item"
 				item: "resourcefulbees:nickel_honeycomb"
 			}]
+			rewards: [{
+				id: "43BF823E2C63CBC0"
+				type: "item"
+				item: "resourcefulbees:nickel_honeycomb"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 7.5d
@@ -812,6 +974,12 @@
 				id: "706D9C4B512625A0"
 				type: "item"
 				item: "resourcefulbees:niotic_honeycomb"
+			}]
+			rewards: [{
+				id: "22589DD4E83AAE7A"
+				type: "item"
+				item: "resourcefulbees:niotic_honeycomb"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -860,6 +1028,12 @@
 				type: "item"
 				item: "resourcefulbees:pigman_honeycomb"
 			}]
+			rewards: [{
+				id: "349D529536FD36DE"
+				type: "item"
+				item: "resourcefulbees:pigman_honeycomb"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 0.0d
@@ -883,6 +1057,12 @@
 				id: "11A4D968D244B120"
 				type: "item"
 				item: "resourcefulbees:rainbow_glass_honeycomb"
+			}]
+			rewards: [{
+				id: "03D75185530060B7"
+				type: "item"
+				item: "resourcefulbees:rainbow_glass_honeycomb"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -931,6 +1111,12 @@
 				type: "item"
 				item: "resourcefulbees:regalium_honeycomb"
 			}]
+			rewards: [{
+				id: "45C2E23E6D805F25"
+				type: "item"
+				item: "resourcefulbees:regalium_honeycomb"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 12.75d
@@ -942,6 +1128,12 @@
 				id: "69FC4025BBA0476B"
 				type: "item"
 				item: "resourcefulbees:rgbee_honeycomb"
+			}]
+			rewards: [{
+				id: "7D558F7387D6C17F"
+				type: "item"
+				item: "resourcefulbees:rgbee_honeycomb"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -1026,6 +1218,12 @@
 				type: "item"
 				item: "resourcefulbees:skeleton_honeycomb"
 			}]
+			rewards: [{
+				id: "0A940F1514D9B75D"
+				type: "item"
+				item: "resourcefulbees:skeleton_honeycomb"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: -5.75d
@@ -1047,6 +1245,11 @@
 			id: "591602ADA1AEB165"
 			tasks: [{
 				id: "0B19DEE2B9D7CEF2"
+				type: "item"
+				item: "resourcefulbees:slime_honeycomb"
+			}]
+			rewards: [{
+				id: "14C46564DA0C814F"
 				type: "item"
 				item: "resourcefulbees:slime_honeycomb"
 			}]
@@ -1074,6 +1277,12 @@
 				type: "item"
 				item: "resourcefulbees:spirited_honeycomb"
 			}]
+			rewards: [{
+				id: "0D9D2B3EA447EFD5"
+				type: "item"
+				item: "resourcefulbees:spirited_honeycomb"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 15.25d
@@ -1097,6 +1306,12 @@
 				id: "4407006089AE7CF5"
 				type: "item"
 				item: "resourcefulbees:steel_honeycomb"
+			}]
+			rewards: [{
+				id: "67E8EE9401F760C2"
+				type: "item"
+				item: "resourcefulbees:steel_honeycomb"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -1145,6 +1360,12 @@
 				type: "item"
 				item: "resourcefulbees:terrasteel_honeycomb"
 			}]
+			rewards: [{
+				id: "6DDF1B956E51BF89"
+				type: "item"
+				item: "resourcefulbees:terrasteel_honeycomb"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 5.75d
@@ -1181,6 +1402,12 @@
 				type: "item"
 				item: "resourcefulbees:uraninite_honeycomb"
 			}]
+			rewards: [{
+				id: "0FC04043F074B686"
+				type: "item"
+				item: "resourcefulbees:uraninite_honeycomb"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 10.25d
@@ -1204,6 +1431,12 @@
 				type: "item"
 				item: "resourcefulbees:utherium_honeycomb"
 			}]
+			rewards: [{
+				id: "1F4CF41F54AE76ED"
+				type: "item"
+				item: "resourcefulbees:utherium_honeycomb"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 1.75d
@@ -1216,6 +1449,12 @@
 				type: "item"
 				item: "resourcefulbees:water_honeycomb"
 			}]
+			rewards: [{
+				id: "0880B3F72E3EE9D1"
+				type: "item"
+				item: "resourcefulbees:water_honeycomb"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 10.75d
@@ -1227,6 +1466,12 @@
 				id: "3512A8082DCC70EF"
 				type: "item"
 				item: "resourcefulbees:wither_honeycomb"
+			}]
+			rewards: [{
+				id: "3859BBDBFBD34DD4"
+				type: "item"
+				item: "resourcefulbees:wither_honeycomb"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -1255,6 +1500,12 @@
 				type: "item"
 				item: "resourcefulbees:zinc_honeycomb"
 			}]
+			rewards: [{
+				id: "25A2BFD29129C253"
+				type: "item"
+				item: "resourcefulbees:zinc_honeycomb"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 11.75d
@@ -1266,6 +1517,12 @@
 				id: "79F5A13700DEA5E1"
 				type: "item"
 				item: "resourcefulbees:zombie_honeycomb"
+			}]
+			rewards: [{
+				id: "035F62C9B4D11187"
+				type: "item"
+				item: "resourcefulbees:zombie_honeycomb"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -1291,6 +1548,12 @@
 				type: "item"
 				item: "resourcefulbees:nitro_honeycomb"
 			}]
+			rewards: [{
+				id: "13CC086C104D4B9E"
+				type: "item"
+				item: "resourcefulbees:nitro_honeycomb"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 4.75d
@@ -1315,6 +1578,12 @@
 				type: "item"
 				item: "resourcefulbees:aluminum_honey_bottle"
 			}]
+			rewards: [{
+				id: "16171F79B7FAE039"
+				type: "item"
+				item: "resourcefulbees:aluminum_honey_bottle"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: -4.75d
@@ -1338,6 +1607,12 @@
 				id: "1F03F3E62BC51E6D"
 				type: "item"
 				item: "resourcefulbees:basalz_honey_bottle"
+			}]
+			rewards: [{
+				id: "7BC97E1E9FF773CB"
+				type: "item"
+				item: "resourcefulbees:basalz_honey_bottle"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -1375,6 +1650,12 @@
 				type: "item"
 				item: "resourcefulbees:blazing_crystal_honey_bottle"
 			}]
+			rewards: [{
+				id: "5CBBD9A4DB70794F"
+				type: "item"
+				item: "resourcefulbees:blazing_crystal_honey_bottle"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 6.5d
@@ -1387,6 +1668,12 @@
 				type: "item"
 				item: "resourcefulbees:blitz_honey_bottle"
 			}]
+			rewards: [{
+				id: "2F1A0F1F8AB19B87"
+				type: "item"
+				item: "resourcefulbees:blitz_honey_bottle"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 7.5d
@@ -1398,6 +1685,12 @@
 				id: "7BBDFC8A43FBA9EC"
 				type: "item"
 				item: "resourcefulbees:blizz_honey_bottle"
+			}]
+			rewards: [{
+				id: "60D54B5FFC08A959"
+				type: "item"
+				item: "resourcefulbees:blizz_honey_bottle"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -1423,6 +1716,12 @@
 				type: "item"
 				item: "resourcefulbees:brass_honey_bottle"
 			}]
+			rewards: [{
+				id: "2906CF8225F010CE"
+				type: "item"
+				item: "resourcefulbees:brass_honey_bottle"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 1.5d
@@ -1446,6 +1745,12 @@
 				id: "723C62D061DA97B3"
 				type: "item"
 				item: "resourcefulbees:catnip_honey_bottle"
+			}]
+			rewards: [{
+				id: "0A32E0B1DE4A23D5"
+				type: "item"
+				item: "resourcefulbees:catnip_honey_bottle"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -1482,6 +1787,12 @@
 				type: "item"
 				item: "resourcefulbees:cloggrum_honey_bottle"
 			}]
+			rewards: [{
+				id: "155FA768523F1B4B"
+				type: "item"
+				item: "resourcefulbees:cloggrum_honey_bottle"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 12.25d
@@ -1504,6 +1815,12 @@
 				id: "56E8A0A4D3F59170"
 				type: "item"
 				item: "resourcefulbees:cobalt_honey_bottle"
+			}]
+			rewards: [{
+				id: "6CBEF751A8FAB2A6"
+				type: "item"
+				item: "resourcefulbees:cobalt_honey_bottle"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -1529,6 +1846,12 @@
 				type: "item"
 				item: "resourcefulbees:constantan_honey_bottle"
 			}]
+			rewards: [{
+				id: "70B7E988B4986CEE"
+				type: "item"
+				item: "resourcefulbees:constantan_honey_bottle"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: -1.75d
@@ -1541,6 +1864,12 @@
 				type: "item"
 				item: "resourcefulbees:copper_honey_bottle"
 			}]
+			rewards: [{
+				id: "225AB5DE17A0C9A7"
+				type: "item"
+				item: "resourcefulbees:copper_honey_bottle"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 4.5d
@@ -1552,6 +1881,12 @@
 				id: "3688A2CDA10B2E89"
 				type: "item"
 				item: "resourcefulbees:crystal_spirited_honey_bottle"
+			}]
+			rewards: [{
+				id: "4EFA44A2C06F7F1D"
+				type: "item"
+				item: "resourcefulbees:crystal_spirited_honey_bottle"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -1624,6 +1959,12 @@
 				type: "item"
 				item: "resourcefulbees:electrum_honey_bottle"
 			}]
+			rewards: [{
+				id: "0A94FCEAD4F0EBC1"
+				type: "item"
+				item: "resourcefulbees:electrum_honey_bottle"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 13.5d
@@ -1635,6 +1976,12 @@
 				id: "27CB5BAEBE2EA2C3"
 				type: "item"
 				item: "resourcefulbees:elementium_honey_bottle"
+			}]
+			rewards: [{
+				id: "5CF34C8E6046F9B2"
+				type: "item"
+				item: "resourcefulbees:elementium_honey_bottle"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -1683,6 +2030,12 @@
 				type: "item"
 				item: "resourcefulbees:enderium_honey_bottle"
 			}]
+			rewards: [{
+				id: "59577A9D426E4224"
+				type: "item"
+				item: "resourcefulbees:enderium_honey_bottle"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 6.5d
@@ -1695,6 +2048,12 @@
 				type: "item"
 				item: "resourcefulbees:energized_steel_honey_bottle"
 			}]
+			rewards: [{
+				id: "07562E6FF10CB80C"
+				type: "item"
+				item: "resourcefulbees:energized_steel_honey_bottle"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 1.25d
@@ -1706,6 +2065,12 @@
 				id: "1F44E2C43F2CF049"
 				type: "item"
 				item: "resourcefulbees:experience_honey_bottle"
+			}]
+			rewards: [{
+				id: "511661B4A10A7E59"
+				type: "item"
+				item: "resourcefulbees:experience_honey_bottle"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -1755,6 +2120,12 @@
 				type: "item"
 				item: "resourcefulbees:forgotten_honey_bottle"
 			}]
+			rewards: [{
+				id: "1C4ACE2BD468C821"
+				type: "item"
+				item: "resourcefulbees:forgotten_honey_bottle"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 18.75d
@@ -1767,6 +2138,12 @@
 				type: "item"
 				item: "resourcefulbees:froststeel_honey_bottle"
 			}]
+			rewards: [{
+				id: "105E7887A385A3B0"
+				type: "item"
+				item: "resourcefulbees:froststeel_honey_bottle"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 14.5d
@@ -1778,6 +2155,12 @@
 				id: "60F1D8DA0A8E841C"
 				type: "item"
 				item: "resourcefulbees:gaia_honey_bottle"
+			}]
+			rewards: [{
+				id: "5AB8D6B5B911137C"
+				type: "item"
+				item: "resourcefulbees:gaia_honey_bottle"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -1849,6 +2232,12 @@
 				type: "item"
 				item: "resourcefulbees:guardian_honey_bottle"
 			}]
+			rewards: [{
+				id: "1AFF0DD4E45DBBF5"
+				type: "item"
+				item: "resourcefulbees:guardian_honey_bottle"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: -0.75d
@@ -1908,6 +2297,12 @@
 				type: "item"
 				item: "resourcefulbees:invar_honey_bottle"
 			}]
+			rewards: [{
+				id: "5648F6023EA06FFE"
+				type: "item"
+				item: "resourcefulbees:invar_honey_bottle"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 11.25d
@@ -1954,6 +2349,12 @@
 				type: "item"
 				item: "resourcefulbees:lead_honey_bottle"
 			}]
+			rewards: [{
+				id: "219AB24FA4E9311E"
+				type: "item"
+				item: "resourcefulbees:lead_honey_bottle"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 10.25d
@@ -1977,6 +2378,12 @@
 				id: "215D452AACCDEEDD"
 				type: "item"
 				item: "resourcefulbees:lumium_honey_bottle"
+			}]
+			rewards: [{
+				id: "0E6ACD34DE9471FE"
+				type: "item"
+				item: "resourcefulbees:lumium_honey_bottle"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -2013,6 +2420,12 @@
 				id: "35FEE73474FDFDEB"
 				type: "item"
 				item: "resourcefulbees:manasteel_honey_bottle"
+			}]
+			rewards: [{
+				id: "109AE8EA17579750"
+				type: "item"
+				item: "resourcefulbees:manasteel_honey_bottle"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -2074,6 +2487,12 @@
 				type: "item"
 				item: "resourcefulbees:nickel_honey_bottle"
 			}]
+			rewards: [{
+				id: "71D25F29B71EB500"
+				type: "item"
+				item: "resourcefulbees:nickel_honey_bottle"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 7.5d
@@ -2086,6 +2505,12 @@
 				type: "item"
 				item: "resourcefulbees:niotic_crystal_honey_bottle"
 			}]
+			rewards: [{
+				id: "4A88C7DB9EC43C9B"
+				type: "item"
+				item: "resourcefulbees:niotic_crystal_honey_bottle"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 8.5d
@@ -2097,6 +2522,12 @@
 				id: "36F9D595C07E0045"
 				type: "item"
 				item: "resourcefulbees:nitro_crystal_honey_bottle"
+			}]
+			rewards: [{
+				id: "6603F0EF5C578AB6"
+				type: "item"
+				item: "resourcefulbees:nitro_crystal_honey_bottle"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -2158,6 +2589,12 @@
 				type: "item"
 				item: "resourcefulbees:rainbow_honey_bottle"
 			}]
+			rewards: [{
+				id: "53F379C43F7AE57F"
+				type: "item"
+				item: "resourcefulbees:rainbow_honey_bottle"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 8.25d
@@ -2204,6 +2641,12 @@
 				id: "0B449C486CF427E2"
 				type: "item"
 				item: "resourcefulbees:regalium_honey_bottle"
+			}]
+			rewards: [{
+				id: "35068F29090A0CBB"
+				type: "item"
+				item: "resourcefulbees:regalium_honey_bottle"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -2300,6 +2743,12 @@
 				type: "item"
 				item: "resourcefulbees:slime_honey_bottle"
 			}]
+			rewards: [{
+				id: "3B4FACB1D2588F23"
+				type: "item"
+				item: "resourcefulbees:slime_honey_bottle"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 1.0d
@@ -2335,6 +2784,12 @@
 				id: "21BFDD0F6202F3BE"
 				type: "item"
 				item: "resourcefulbees:steel_honey_bottle"
+			}]
+			rewards: [{
+				id: "3F40B1DEB91764D1"
+				type: "item"
+				item: "resourcefulbees:steel_honey_bottle"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -2383,6 +2838,12 @@
 				type: "item"
 				item: "resourcefulbees:terrasteel_honey_bottle"
 			}]
+			rewards: [{
+				id: "76797DCC0A3B117C"
+				type: "item"
+				item: "resourcefulbees:terrasteel_honey_bottle"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 5.75d
@@ -2419,6 +2880,12 @@
 				type: "item"
 				item: "resourcefulbees:uraninite_honey_bottle"
 			}]
+			rewards: [{
+				id: "62D475B8E9C4B8A2"
+				type: "item"
+				item: "resourcefulbees:uraninite_honey_bottle"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 10.25d
@@ -2442,6 +2909,12 @@
 				type: "item"
 				item: "resourcefulbees:utherium_honey_bottle"
 			}]
+			rewards: [{
+				id: "0363BDFF42D6AF8F"
+				type: "item"
+				item: "resourcefulbees:utherium_honey_bottle"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 2.25d
@@ -2453,6 +2926,12 @@
 				id: "70B3ADA6CF512836"
 				type: "item"
 				item: "resourcefulbees:water_honey_bottle"
+			}]
+			rewards: [{
+				id: "23E46BC46579D0E5"
+				type: "item"
+				item: "resourcefulbees:water_honey_bottle"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -2488,6 +2967,12 @@
 				id: "3874FB827BB43126"
 				type: "item"
 				item: "resourcefulbees:zinc_honey_bottle"
+			}]
+			rewards: [{
+				id: "4734BED3A452BFDD"
+				type: "item"
+				item: "resourcefulbees:zinc_honey_bottle"
+				random_bonus: 5
 			}]
 		}
 	]

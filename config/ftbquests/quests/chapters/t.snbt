@@ -818,6 +818,11 @@
 				type: "item"
 				item: "mekanism:alloy_atomic"
 			}]
+			rewards: [{
+				id: "7A9FE7C75587CC85"
+				type: "item"
+				item: "mekanism:alloy_reinforced"
+			}]
 		}
 		{
 			x: -24.5d
@@ -829,6 +834,11 @@
 				id: "3C04F89B893C3AD4"
 				type: "item"
 				item: "mekanism:alloy_infused"
+			}]
+			rewards: [{
+				id: "0FBBCB333260ABDA"
+				type: "item"
+				item: "undergarden:cloggrum_ingot"
 			}]
 		}
 		{
@@ -844,6 +854,12 @@
 				type: "item"
 				item: "mekanism:metallurgic_infuser"
 			}]
+			rewards: [{
+				id: "3DAFD3B72C983C81"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -23.5d
@@ -855,6 +871,11 @@
 				id: "2BD0E14195CE79EA"
 				type: "item"
 				item: "mekanism:alloy_reinforced"
+			}]
+			rewards: [{
+				id: "61880465FB3D680A"
+				type: "item"
+				item: "mekanism:alloy_infused"
 			}]
 		}
 		{
@@ -892,6 +913,11 @@
 			id: "1F22F5BF3BD21A03"
 			tasks: [{
 				id: "17D77DD53982E986"
+				type: "item"
+				item: "mekanism:steel_casing"
+			}]
+			rewards: [{
+				id: "2B9B0E6F019D92F5"
 				type: "item"
 				item: "mekanism:steel_casing"
 			}]
@@ -1111,6 +1137,12 @@
 				type: "item"
 				item: "mekanism:energy_tablet"
 			}]
+			rewards: [{
+				id: "19E42F32E60087A3"
+				type: "item"
+				item: "undergarden:regalium_ingot"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: -34.25d
@@ -1134,6 +1166,11 @@
 				id: "609C276EDBC22AA2"
 				type: "item"
 				item: "mekanism:ingot_refined_obsidian"
+			}]
+			rewards: [{
+				id: "48700896C316C486"
+				type: "item"
+				item: "mekanism:dust_refined_obsidian"
 			}]
 		}
 		{
@@ -1194,6 +1231,11 @@
 				type: "item"
 				item: "mekanism:ingot_refined_glowstone"
 			}]
+			rewards: [{
+				id: "1028EC451D18ECB8"
+				type: "item"
+				item: "minecraft:glowstone_dust"
+			}]
 		}
 		{
 			x: -33.5d
@@ -1225,6 +1267,12 @@
 				type: "item"
 				item: "mekanism:energized_smelter"
 			}]
+			rewards: [{
+				id: "7BA3CDCAD996CD8C"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -21.75d
@@ -1248,6 +1296,12 @@
 				type: "item"
 				item: "mekanism:enrichment_chamber"
 			}]
+			rewards: [{
+				id: "1979F7D441CDC3FA"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -21.75d
@@ -1268,6 +1322,12 @@
 				type: "item"
 				item: "mekanism:crusher"
 			}]
+			rewards: [{
+				id: "5EEC67546AB9F89E"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -24.0d
@@ -1286,6 +1346,12 @@
 				id: "7737486150CBBA4C"
 				type: "item"
 				item: "mekanism:osmium_compressor"
+			}]
+			rewards: [{
+				id: "31C62667FEA51CFC"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -1307,6 +1373,12 @@
 				type: "item"
 				item: "mekanism:combiner"
 			}]
+			rewards: [{
+				id: "0CED90EDF5609156"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -21.0d
@@ -1325,6 +1397,12 @@
 				id: "7807095075D27ABD"
 				type: "item"
 				item: "mekanism:purification_chamber"
+			}]
+			rewards: [{
+				id: "3347F1345CCE7208"
+				type: "item"
+				item: "mekanism:alloy_infused"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -1345,6 +1423,12 @@
 				type: "item"
 				item: "mekanism:chemical_injection_chamber"
 			}]
+			rewards: [{
+				id: "5B49B9419D05CFFD"
+				type: "item"
+				item: "mekanism:alloy_infused"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -26.75d
@@ -1364,6 +1448,12 @@
 				id: "0B4525DD7FE0B327"
 				type: "item"
 				item: "mekanism:precision_sawmill"
+			}]
+			rewards: [{
+				id: "6EAE7A8DFA6B598B"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -2067,6 +2157,7 @@
 			}]
 		}
 		{
+			title: "Induction Matrix"
 			x: -19.5d
 			y: -7.0d
 			shape: "octagon"
@@ -2095,6 +2186,12 @@
 					item: "mekanism:structural_glass"
 				}
 			]
+			rewards: [{
+				id: "79C9C2D9A5CAD4E6"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_crude_steel"
+				random_bonus: 31
+			}]
 		}
 		{
 			x: -21.25d
@@ -2107,6 +2204,12 @@
 				id: "49FE7BFC38385244"
 				type: "item"
 				item: "mekanism:basic_induction_cell"
+			}]
+			rewards: [{
+				id: "6FDA4A9C12EB9C09"
+				type: "item"
+				item: "kubejs:lithium_dust_block"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -2124,6 +2227,12 @@
 				type: "item"
 				item: "mekanism:advanced_induction_cell"
 			}]
+			rewards: [{
+				id: "3D99C82CCACE5E25"
+				type: "item"
+				item: "mekanism:basic_induction_cell"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: -20.25d
@@ -2140,6 +2249,12 @@
 				type: "item"
 				item: "mekanism:elite_induction_cell"
 			}]
+			rewards: [{
+				id: "6DA0D83ACA14F3BD"
+				type: "item"
+				item: "mekanism:advanced_induction_cell"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: -19.75d
@@ -2155,6 +2270,12 @@
 				id: "2F45D48B924C9654"
 				type: "item"
 				item: "mekanism:ultimate_induction_cell"
+			}]
+			rewards: [{
+				id: "07C298F12FB7360F"
+				type: "item"
+				item: "mekanism:elite_induction_cell"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -2192,6 +2313,12 @@
 				type: "item"
 				item: "mekanism:basic_induction_provider"
 			}]
+			rewards: [{
+				id: "56ED6C41F24E82AA"
+				type: "item"
+				item: "kubejs:lithium_dust_block"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -21.75d
@@ -2207,6 +2334,12 @@
 				id: "3F7F7B96CB8A5C63"
 				type: "item"
 				item: "mekanism:advanced_induction_provider"
+			}]
+			rewards: [{
+				id: "3C7405A67E413EE5"
+				type: "item"
+				item: "mekanism:basic_induction_cell"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -2224,6 +2357,12 @@
 				type: "item"
 				item: "mekanism:elite_induction_provider"
 			}]
+			rewards: [{
+				id: "6DECE9D1EA23B745"
+				type: "item"
+				item: "mekanism:advanced_induction_provider"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: -20.75d
@@ -2239,6 +2378,12 @@
 				id: "063DB2DD1972A795"
 				type: "item"
 				item: "mekanism:ultimate_induction_provider"
+			}]
+			rewards: [{
+				id: "052EB479068EA00F"
+				type: "item"
+				item: "mekanism:elite_induction_provider"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -2616,6 +2761,12 @@
 				type: "item"
 				item: "mekanism:basic_energy_cube"
 			}]
+			rewards: [{
+				id: "36036A434E8E472C"
+				type: "item"
+				item: "extendedcrafting:redstone_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -21.25d
@@ -2628,6 +2779,12 @@
 				id: "18E3F37AD8B1996B"
 				type: "item"
 				item: "mekanism:advanced_energy_cube"
+			}]
+			rewards: [{
+				id: "7BBA1C933B7E3ED8"
+				type: "item"
+				item: "mekanism:alloy_infused"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -2642,6 +2799,12 @@
 				type: "item"
 				item: "mekanism:elite_energy_cube"
 			}]
+			rewards: [{
+				id: "35511381996399A0"
+				type: "item"
+				item: "mekanism:alloy_reinforced"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -20.25d
@@ -2654,6 +2817,12 @@
 				id: "018111ED32CE530B"
 				type: "item"
 				item: "mekanism:ultimate_energy_cube"
+			}]
+			rewards: [{
+				id: "74B789520CF86F68"
+				type: "item"
+				item: "mekanism:alloy_atomic"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -3812,6 +3981,11 @@
 				id: "67EF6830666AF58D"
 				type: "item"
 				item: "mekanism:bio_fuel"
+			}]
+			rewards: [{
+				id: "49ECB5853EA9AB6A"
+				type: "item"
+				item: "minecraft:melon"
 			}]
 		}
 		{
