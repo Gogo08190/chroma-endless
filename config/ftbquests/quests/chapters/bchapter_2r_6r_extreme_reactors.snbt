@@ -1063,6 +1063,12 @@
 				title: "&#50565FReinforced Turbine Controller&r"
 				item: "bigreactors:reinforced_turbinecontroller"
 			}]
+			rewards: [{
+				id: "69E9838C020B414E"
+				type: "item"
+				item: "bigreactors:reinforced_turbinecasing"
+				count: 2
+			}]
 		}
 		{
 			x: -4.25d

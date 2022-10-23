@@ -1443,6 +1443,11 @@
 				type: "item"
 				item: "rftoolscontrol:network_card"
 			}]
+			rewards: [{
+				id: "2C7778E00AA011A9"
+				type: "item"
+				item: "rftoolscontrol:network_card"
+			}]
 		}
 		{
 			x: -2.75d
@@ -1452,6 +1457,11 @@
 			id: "047D75CA603FCA03"
 			tasks: [{
 				id: "376D7CE6C12B0B86"
+				type: "item"
+				item: "rftoolscontrol:advanced_network_card"
+			}]
+			rewards: [{
+				id: "11CDF54A761A1FC3"
 				type: "item"
 				item: "rftoolscontrol:advanced_network_card"
 			}]
@@ -1465,6 +1475,11 @@
 			id: "257380C02320BAC0"
 			tasks: [{
 				id: "29791027B56F49A6"
+				type: "item"
+				item: "rftoolscontrol:graphics_card"
+			}]
+			rewards: [{
+				id: "1DBD761CD1D94C12"
 				type: "item"
 				item: "rftoolscontrol:graphics_card"
 			}]

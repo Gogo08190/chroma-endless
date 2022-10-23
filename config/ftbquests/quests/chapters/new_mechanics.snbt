@@ -199,6 +199,11 @@
 				type: "item"
 				item: "miniutilities:quantum_quarry"
 			}]
+			rewards: [{
+				id: "17A320B5FC73E7EF"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 13.25d

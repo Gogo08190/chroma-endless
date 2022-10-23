@@ -2469,6 +2469,11 @@
 				type: "item"
 				item: "occultism:ritual_dummy/summon_marid_crusher"
 			}]
+			rewards: [{
+				id: "4A45A3B6C07DD349"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
 		}
 		{
 			x: 14.25d

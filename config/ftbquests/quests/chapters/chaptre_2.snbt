@@ -411,11 +411,11 @@
 				""
 				"&6&l&nAlloying :&r"
 				""
-				"Alloying is a process that will allow you to combine your materialsinto stronger ones."
+				"Alloying is a process that will allow you to combine your materials into stronger ones."
 				""
 				"In order to alloy, you will have to find two materials that can be alloyed together. "
 				""
-				"Some materials need hotter fuels in order to alloy, we will come back to this later in the quests."
+				"Some materials need hotter fuels in order to mix, we will come back to this later in the quests."
 			]
 			dependencies: [
 				"52157E7FBFE05315"
@@ -478,7 +478,7 @@
 				"Seared Ingot ..."
 				"Seared Fuel ..."
 				""
-				"You have to use one of the two for crafting the Seared Melter."
+				"You have to use one of the two to craft the Seared Melter."
 				""
 				"&o(No need to craft both to complete the quest, only one is enough)&r"
 			]
@@ -516,7 +516,7 @@
 				""
 				"&l&n&6Operation :&r"
 				""
-				"There are as you can see &33&r slots where you put in what you want to melt. It may be ores, ingots, or anything else you fell like attempting to melt!."
+				"There are as you can see &33&r slots where you put in what you want to melt. It may be ores, ingots, or anything else you feel like attempting to melt!."
 				""
 				"The &3Gauge&r in the middle is where your molten material will show. Remember that you may only have one molten material at a time in the melter."
 				""
@@ -925,6 +925,11 @@
 				type: "item"
 				item: "tconstruct:cast_chest"
 			}]
+			rewards: [{
+				id: "26A33DBED2A3E58C"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			title: "Flint and _____"
@@ -1114,9 +1119,9 @@
 			description: [
 				"{image:chroma:textures/quests/alloyer.png width:150 height:125 align:1}"
 				""
-				"Since the &6Foundry&r can't alloy here is a solution simplier to use."
+				"Since the &6Foundry&r can't alloy here is a solution simpler to use."
 				""
-				"As you can see, it requires a fuel tank or a heater, better fuel allows making better alloys."
+				"As you can see, it requires a fuel tank or a heater, better fuel allows the smeltery to make better alloys."
 				""
 				"It can takes input from tanks around the alloyer, adding more tanks gives you more metals to alloy it with at once."
 				""
@@ -1449,7 +1454,7 @@
 				""
 				"&n&6&lFoundry GUI :&r"
 				""
-				"First of all, &3the left slot&r is where your item go that you want smelted. The number of slots will change depending on the size of your foundry."
+				"First of all, &3the left slot&r is where the item that you want to smelt go. The number of slots will change depending on the size of your foundry."
 				""
 				"The &3Gauge&r in the middle is where your molten materials will be seen. You can click on one to select it for pouring, hovering over the blank section will give you details avout the capacity of the foundry."
 				""

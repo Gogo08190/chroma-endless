@@ -667,6 +667,11 @@
 					item: "minecraft:chest"
 				}
 			]
+			rewards: [{
+				id: "32277F705F39A148"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			title: "Wood Farm"
@@ -743,6 +748,11 @@
 					count: 2L
 				}
 			]
+			rewards: [{
+				id: "6A3AF85936B902D6"
+				type: "random"
+				table_id: 3758553063222819394L
+			}]
 		}
 		{
 			x: 27.0d
@@ -1221,6 +1231,11 @@
 				id: "28B6E1C30BDE5700"
 				type: "item"
 				item: "create:wand_of_symmetry"
+			}]
+			rewards: [{
+				id: "3DFC34597D2556F4"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -1747,6 +1762,11 @@
 					item: "create:mechanical_pump"
 				}
 			]
+			rewards: [{
+				id: "511224371666E749"
+				type: "item"
+				item: "create:fluid_pipe"
+			}]
 		}
 		{
 			x: 23.75d

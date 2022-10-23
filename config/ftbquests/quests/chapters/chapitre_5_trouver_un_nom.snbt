@@ -1205,6 +1205,11 @@
 				type: "item"
 				item: "elementalcraft:purifier"
 			}]
+			rewards: [{
+				id: "680940C3B6065D9B"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 8.75d
@@ -1548,6 +1553,11 @@
 				id: "373E065D55BE0D25"
 				type: "item"
 				item: "elementalcraft:shrinebase"
+			}]
+			rewards: [{
+				id: "46285ACCE3E5C9BA"
+				type: "random"
+				table_id: 7725233131230401301L
 			}]
 		}
 		{

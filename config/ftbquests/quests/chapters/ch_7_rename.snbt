@@ -1472,15 +1472,9 @@
 				}
 			}]
 			rewards: [{
-				id: "60DD00D9EAD3849E"
+				id: "0C4496F96B17BB91"
 				type: "item"
-				item: {
-					id: "extendedcrafting:singularity"
-					Count: 1b
-					tag: {
-						Id: "extendedcrafting:erodium"
-					}
-				}
+				item: "envirocore:erodium_crystal"
 				count: 16
 			}]
 		}

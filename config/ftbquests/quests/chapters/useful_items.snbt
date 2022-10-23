@@ -61,6 +61,11 @@
 				type: "item"
 				item: "extendedcrafting:handheld_table"
 			}]
+			rewards: [{
+				id: "4E1B43C3FC878533"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: 17.5d
@@ -2449,6 +2454,12 @@
 				type: "item"
 				item: "ironjetpacks:advanced_coil"
 			}]
+			rewards: [{
+				id: "3247B0D84237A868"
+				type: "item"
+				item: "elementalcraft:swift_alloy_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 19.94302721088436d
@@ -4443,6 +4454,11 @@
 				id: "5379C4D8E3AE005D"
 				type: "item"
 				item: "littlelogistics:tug_dock"
+			}]
+			rewards: [{
+				id: "4CA5B0F2F768CC22"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
