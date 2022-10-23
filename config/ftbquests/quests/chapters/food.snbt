@@ -5210,6 +5210,11 @@
 				type: "item"
 				item: "sushigocrafting:roller"
 			}]
+			rewards: [{
+				id: "269A80589F4998CE"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: 9.25d
@@ -5221,6 +5226,11 @@
 				id: "167E0C853B8A1567"
 				type: "item"
 				item: "refinedcooking:kitchen_station"
+			}]
+			rewards: [{
+				id: "681EF91790C3E3DF"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -5240,6 +5250,11 @@
 				type: "item"
 				item: "refinedcooking:kitchen_network_card"
 			}]
+			rewards: [{
+				id: "5AC33980A51F496F"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: 5.0d
@@ -5250,6 +5265,11 @@
 				id: "002CA27955CEE12F"
 				type: "item"
 				item: "cookingforblockheads:recipe_book"
+			}]
+			rewards: [{
+				id: "5098F2F690EFA951"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -5262,6 +5282,11 @@
 				type: "item"
 				item: "cookingforblockheads:crafting_book"
 			}]
+			rewards: [{
+				id: "2AE89534602190AD"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: 2.25d
@@ -5273,6 +5298,11 @@
 				type: "item"
 				item: "cookingforblockheads:heating_unit"
 			}]
+			rewards: [{
+				id: "5E9CD2139DF07C46"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: 0.25d
@@ -5283,6 +5313,11 @@
 				id: "4065242D21E37E35"
 				type: "item"
 				item: "farmersdelight:stove"
+			}]
+			rewards: [{
+				id: "1B00078E97234469"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -5301,6 +5336,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "73C2876959D93C5B"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -5336,6 +5376,11 @@
 				type: "item"
 				item: "solcarrot:food_book"
 			}]
+			rewards: [{
+				id: "7E2DCF0186061BC4"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: 10.5d
@@ -5347,6 +5392,11 @@
 				id: "3CA5730577F8F822"
 				type: "item"
 				item: "refinedcooking:kitchen_access_point"
+			}]
+			rewards: [{
+				id: "776F3E87CC30E04E"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -5382,6 +5432,11 @@
 				type: "item"
 				item: "cookingforblockheads:spice_rack"
 			}]
+			rewards: [{
+				id: "5E574B2EFF5BCAC5"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: 3.25d
@@ -5392,6 +5447,11 @@
 				id: "4874DF8DF5DF4A49"
 				type: "item"
 				item: "cookingforblockheads:counter"
+			}]
+			rewards: [{
+				id: "463DACF49F790C30"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -5404,6 +5464,11 @@
 				type: "item"
 				item: "cookingforblockheads:fruit_basket"
 			}]
+			rewards: [{
+				id: "1D2D8D97A09B4BE5"
+				type: "item"
+				item: "minecraft:apple"
+			}]
 		}
 		{
 			x: 15.75d
@@ -5414,6 +5479,11 @@
 				id: "14DF200CAE628BA3"
 				type: "item"
 				item: "sushigocrafting:cooler_box"
+			}]
+			rewards: [{
+				id: "1A956200419D9FF8"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -5426,6 +5496,11 @@
 				type: "item"
 				item: "sushigocrafting:fermentation_barrel"
 			}]
+			rewards: [{
+				id: "030263686E337233"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: 14.75d
@@ -5436,6 +5511,11 @@
 				id: "708F21844F8FC1A0"
 				type: "item"
 				item: "sushigocrafting:rice_cooker"
+			}]
+			rewards: [{
+				id: "5CD5DA7EC7DAF62B"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -5448,6 +5528,11 @@
 				type: "item"
 				item: "sushigocrafting:cutting_board"
 			}]
+			rewards: [{
+				id: "263D4A9E679FF313"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: 2.25d
@@ -5459,6 +5544,12 @@
 				type: "item"
 				item: "cookingforblockheads:oven"
 			}]
+			rewards: [{
+				id: "4CDE87A1C265EF7A"
+				type: "item"
+				item: "minecraft:coal"
+				count: 16
+			}]
 		}
 		{
 			x: 5.25d
@@ -5468,6 +5559,11 @@
 				id: "0085AFE48E4F6869"
 				type: "item"
 				item: "cookingforblockheads:sink"
+			}]
+			rewards: [{
+				id: "2DC9D49B2D4481A8"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -5479,6 +5575,11 @@
 				type: "item"
 				item: "cookingforblockheads:tool_rack"
 			}]
+			rewards: [{
+				id: "6C248BCD74378266"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: 3.25d
@@ -5489,6 +5590,11 @@
 				id: "5A05F42549EC090C"
 				type: "item"
 				item: "cookingforblockheads:toaster"
+			}]
+			rewards: [{
+				id: "72F1D27AF7B07C3F"
+				type: "item"
+				item: "minecraft:bread"
 			}]
 		}
 		{
@@ -5505,6 +5611,11 @@
 				type: "item"
 				item: "culinaryconstruct:culinary_station"
 			}]
+			rewards: [{
+				id: "2A6B7699EC689E9A"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: 6.75d
@@ -5515,6 +5626,11 @@
 				id: "0FA84053B9C5F74D"
 				type: "item"
 				item: "cookingforblockheads:preservation_chamber"
+			}]
+			rewards: [{
+				id: "35012E00D27E5125"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -5527,6 +5643,11 @@
 				type: "item"
 				item: "cookingforblockheads:ice_unit"
 			}]
+			rewards: [{
+				id: "4EE0B467A0992743"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: -0.75d
@@ -5537,6 +5658,11 @@
 				id: "7C7E2C87328A2A9C"
 				type: "item"
 				item: "farmersdelight:cooking_pot"
+			}]
+			rewards: [{
+				id: "45B50A661FE823BB"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -5555,6 +5681,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0E7137F60ABE62E5"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: -0.75d
@@ -5564,6 +5695,11 @@
 				id: "0FEC9BDA11FC6C5B"
 				type: "item"
 				item: "farmersdelight:cutting_board"
+			}]
+			rewards: [{
+				id: "5AD4F668C25CD137"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -5575,6 +5711,11 @@
 				type: "item"
 				item: "cookingforblockheads:cooking_table"
 			}]
+			rewards: [{
+				id: "27A27D6D721E23BF"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: 4.25d
@@ -5584,6 +5725,11 @@
 				id: "080CB912A1B01AC4"
 				type: "item"
 				item: "cookingforblockheads:hanging_corner"
+			}]
+			rewards: [{
+				id: "7FBA47BB542979DA"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -5595,6 +5741,11 @@
 				type: "item"
 				item: "cookingforblockheads:fridge"
 				count: 2L
+			}]
+			rewards: [{
+				id: "4C2F18D685595BD6"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -5608,6 +5759,11 @@
 				type: "item"
 				item: "cookingforblockheads:cabinet"
 			}]
+			rewards: [{
+				id: "7CDD44ABA3B78880"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: 6.25d
@@ -5618,6 +5774,11 @@
 				type: "item"
 				item: "cookingforblockheads:corner"
 			}]
+			rewards: [{
+				id: "0C3742A9B7C241B9"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			x: 4.0d
@@ -5627,6 +5788,11 @@
 				id: "7674DC5DCAE9C692"
 				type: "item"
 				item: "cookingforblockheads:no_filter_edition"
+			}]
+			rewards: [{
+				id: "143C0DF2F25BEE0C"
+				type: "random"
+				table_id: 3261296973996135385L
 			}]
 		}
 		{

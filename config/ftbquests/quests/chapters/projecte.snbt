@@ -183,6 +183,11 @@
 				type: "item"
 				item: "projecte:low_covalence_dust"
 			}]
+			rewards: [{
+				id: "3814FE59C7FD03D9"
+				type: "item"
+				item: "projecte:low_covalence_dust"
+			}]
 		}
 		{
 			x: 10.5d
@@ -199,6 +204,11 @@
 				type: "item"
 				item: "projecte:medium_covalence_dust"
 			}]
+			rewards: [{
+				id: "5546CCA3CBD6F098"
+				type: "item"
+				item: "projecte:medium_covalence_dust"
+			}]
 		}
 		{
 			x: 11.0d
@@ -212,6 +222,11 @@
 			id: "77E182A1ECB1EECA"
 			tasks: [{
 				id: "324B6AB06B561582"
+				type: "item"
+				item: "projecte:high_covalence_dust"
+			}]
+			rewards: [{
+				id: "38DC06F7F9929A80"
 				type: "item"
 				item: "projecte:high_covalence_dust"
 			}]
@@ -625,6 +640,11 @@
 				type: "item"
 				item: "projecte:alchemical_coal"
 			}]
+			rewards: [{
+				id: "4D4426D789CC4554"
+				type: "item"
+				item: "projecte:alchemical_coal"
+			}]
 		}
 		{
 			x: 7.5d
@@ -634,6 +654,11 @@
 			id: "4299C7313F006450"
 			tasks: [{
 				id: "7CDE80A602669D07"
+				type: "item"
+				item: "projecte:mobius_fuel"
+			}]
+			rewards: [{
+				id: "616CF69061ACFD1C"
 				type: "item"
 				item: "projecte:mobius_fuel"
 			}]
@@ -649,6 +674,11 @@
 				type: "item"
 				item: "projecte:aeternalis_fuel"
 			}]
+			rewards: [{
+				id: "19F55AD2A41717C2"
+				type: "item"
+				item: "projecte:aeternalis_fuel"
+			}]
 		}
 		{
 			x: 7.0d
@@ -658,6 +688,11 @@
 			id: "288DCCB707A0BB1D"
 			tasks: [{
 				id: "6D0CA2021B1E00F8"
+				type: "item"
+				item: "projecte:dark_matter"
+			}]
+			rewards: [{
+				id: "3D25FD7EB0F79B86"
 				type: "item"
 				item: "projecte:dark_matter"
 			}]
@@ -676,6 +711,11 @@
 				type: "item"
 				item: "projecte:red_matter"
 			}]
+			rewards: [{
+				id: "1C628479649A3215"
+				type: "item"
+				item: "projecte:red_matter"
+			}]
 		}
 		{
 			x: 8.0d
@@ -688,6 +728,11 @@
 			id: "0345B9F28B5DE1A4"
 			tasks: [{
 				id: "6162417BE811EF25"
+				type: "item"
+				item: "projectexpansion:magenta_matter"
+			}]
+			rewards: [{
+				id: "1FF58862D27E7762"
 				type: "item"
 				item: "projectexpansion:magenta_matter"
 			}]
@@ -706,6 +751,11 @@
 				type: "item"
 				item: "projectexpansion:pink_matter"
 			}]
+			rewards: [{
+				id: "76BA46FD8375B828"
+				type: "item"
+				item: "projectexpansion:pink_matter"
+			}]
 		}
 		{
 			x: 9.0d
@@ -718,6 +768,11 @@
 			id: "68537F5DCB393B2B"
 			tasks: [{
 				id: "6BEDC1CE70A3B19F"
+				type: "item"
+				item: "projectexpansion:purple_matter"
+			}]
+			rewards: [{
+				id: "41A640B43FD627DC"
 				type: "item"
 				item: "projectexpansion:purple_matter"
 			}]
@@ -736,6 +791,11 @@
 				type: "item"
 				item: "projectexpansion:violet_matter"
 			}]
+			rewards: [{
+				id: "1973D26976E5832F"
+				type: "item"
+				item: "projectexpansion:violet_matter"
+			}]
 		}
 		{
 			x: 10.0d
@@ -748,6 +808,11 @@
 			id: "7E7E4CE784C7B667"
 			tasks: [{
 				id: "760F054B109B77AB"
+				type: "item"
+				item: "projectexpansion:blue_matter"
+			}]
+			rewards: [{
+				id: "7DB4438AF9D29ACF"
 				type: "item"
 				item: "projectexpansion:blue_matter"
 			}]
@@ -766,6 +831,11 @@
 				type: "item"
 				item: "projectexpansion:cyan_matter"
 			}]
+			rewards: [{
+				id: "665052E610103C51"
+				type: "item"
+				item: "projectexpansion:cyan_matter"
+			}]
 		}
 		{
 			x: 11.5d
@@ -778,6 +848,11 @@
 			id: "6950F19112AE08D5"
 			tasks: [{
 				id: "2DA3F270D27CEEA4"
+				type: "item"
+				item: "projectexpansion:green_matter"
+			}]
+			rewards: [{
+				id: "757592E411279EAD"
 				type: "item"
 				item: "projectexpansion:green_matter"
 			}]
@@ -796,6 +871,11 @@
 				type: "item"
 				item: "projectexpansion:lime_matter"
 			}]
+			rewards: [{
+				id: "22CC603958C75C13"
+				type: "item"
+				item: "projectexpansion:lime_matter"
+			}]
 		}
 		{
 			x: 12.5d
@@ -808,6 +888,11 @@
 			id: "011E3A25F220DEA6"
 			tasks: [{
 				id: "4A352AE09F3D8EBB"
+				type: "item"
+				item: "projectexpansion:yellow_matter"
+			}]
+			rewards: [{
+				id: "44795A9F6BA9E96A"
 				type: "item"
 				item: "projectexpansion:yellow_matter"
 			}]
@@ -826,6 +911,11 @@
 				type: "item"
 				item: "projectexpansion:orange_matter"
 			}]
+			rewards: [{
+				id: "664FD3A8A4381E72"
+				type: "item"
+				item: "projectexpansion:orange_matter"
+			}]
 		}
 		{
 			x: 13.5d
@@ -841,6 +931,11 @@
 				type: "item"
 				item: "projectexpansion:white_matter"
 			}]
+			rewards: [{
+				id: "15C8F1D4A96B016F"
+				type: "item"
+				item: "projectexpansion:white_matter"
+			}]
 		}
 		{
 			x: 14.0d
@@ -853,6 +948,11 @@
 			id: "147EA00F829DD6A6"
 			tasks: [{
 				id: "4DD5EF0E930D5A99"
+				type: "item"
+				item: "projectexpansion:fading_matter"
+			}]
+			rewards: [{
+				id: "1C5F218E40D99EE6"
 				type: "item"
 				item: "projectexpansion:fading_matter"
 			}]
@@ -2230,6 +2330,11 @@
 				type: "item"
 				item: "projectexpansion:magenta_fuel"
 			}]
+			rewards: [{
+				id: "32868FF172AA6BAA"
+				type: "item"
+				item: "projectexpansion:magenta_fuel"
+			}]
 		}
 		{
 			x: 9.0d
@@ -2239,6 +2344,11 @@
 			id: "4C136B8F2036B725"
 			tasks: [{
 				id: "6DF1666991A915F7"
+				type: "item"
+				item: "projectexpansion:pink_fuel"
+			}]
+			rewards: [{
+				id: "19CC35ACB19D254E"
 				type: "item"
 				item: "projectexpansion:pink_fuel"
 			}]
@@ -2254,6 +2364,11 @@
 				type: "item"
 				item: "projectexpansion:purple_fuel"
 			}]
+			rewards: [{
+				id: "222384D63D244CF0"
+				type: "item"
+				item: "projectexpansion:purple_fuel"
+			}]
 		}
 		{
 			x: 10.0d
@@ -2263,6 +2378,11 @@
 			id: "354C1CA694B54AF8"
 			tasks: [{
 				id: "7B0E96911EC15E5E"
+				type: "item"
+				item: "projectexpansion:violet_fuel"
+			}]
+			rewards: [{
+				id: "1367C45636BF98AA"
 				type: "item"
 				item: "projectexpansion:violet_fuel"
 			}]
@@ -2278,6 +2398,11 @@
 				type: "item"
 				item: "projectexpansion:blue_fuel"
 			}]
+			rewards: [{
+				id: "4D386CA1AE2118D0"
+				type: "item"
+				item: "projectexpansion:blue_fuel"
+			}]
 		}
 		{
 			x: 11.5d
@@ -2287,6 +2412,11 @@
 			id: "13877A96B7230A9B"
 			tasks: [{
 				id: "02276A0436D69527"
+				type: "item"
+				item: "projectexpansion:cyan_fuel"
+			}]
+			rewards: [{
+				id: "06E07F1BBA3698F6"
 				type: "item"
 				item: "projectexpansion:cyan_fuel"
 			}]
@@ -2302,6 +2432,11 @@
 				type: "item"
 				item: "projectexpansion:green_fuel"
 			}]
+			rewards: [{
+				id: "73002B81386DBCBF"
+				type: "item"
+				item: "projectexpansion:green_fuel"
+			}]
 		}
 		{
 			x: 12.5d
@@ -2311,6 +2446,11 @@
 			id: "682F54A607BD6C15"
 			tasks: [{
 				id: "2BBBDF0D0C5E19FC"
+				type: "item"
+				item: "projectexpansion:lime_fuel"
+			}]
+			rewards: [{
+				id: "0D260FB8F0288E43"
 				type: "item"
 				item: "projectexpansion:lime_fuel"
 			}]
@@ -2326,6 +2466,11 @@
 				type: "item"
 				item: "projectexpansion:yellow_fuel"
 			}]
+			rewards: [{
+				id: "448E21A666F6C50A"
+				type: "item"
+				item: "projectexpansion:yellow_fuel"
+			}]
 		}
 		{
 			x: 13.5d
@@ -2338,6 +2483,11 @@
 				type: "item"
 				item: "projectexpansion:orange_fuel"
 			}]
+			rewards: [{
+				id: "7D57CE5BE5AA92FC"
+				type: "item"
+				item: "projectexpansion:orange_fuel"
+			}]
 		}
 		{
 			x: 14.0d
@@ -2347,6 +2497,11 @@
 			id: "692B1E65DED2B36A"
 			tasks: [{
 				id: "7AFF5657528B0313"
+				type: "item"
+				item: "projectexpansion:white_fuel"
+			}]
+			rewards: [{
+				id: "101505D50CE3784E"
 				type: "item"
 				item: "projectexpansion:white_fuel"
 			}]

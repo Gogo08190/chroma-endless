@@ -15,28 +15,6 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -3.75d
-			y: -1.5d
-			dependencies: ["77EEAB3FD3C5E582"]
-			id: "0F617BC67E15346E"
-			tasks: [{
-				id: "67AAC8B1B941422C"
-				type: "item"
-				item: "botania:corporea_spark_master"
-			}]
-		}
-		{
-			x: -3.75d
-			y: -0.25d
-			dependencies: ["25C615546513B729"]
-			id: "77EEAB3FD3C5E582"
-			tasks: [{
-				id: "7FB601C5E5339D70"
-				type: "item"
-				item: "botania:corporea_spark"
-			}]
-		}
-		{
 			x: -2.75d
 			y: -0.25d
 			description: [
@@ -1519,9 +1497,8 @@
 			}]
 		}
 		{
-			x: 18.25d
-			y: -9.5d
-			description: [""]
+			x: -5.0d
+			y: -5.0d
 			dependencies: ["68A769C216C2280F"]
 			id: "7E223B6D17137FBB"
 			tasks: [{
@@ -1531,8 +1508,8 @@
 			}]
 		}
 		{
-			x: 18.0d
-			y: -5.75d
+			x: -4.75d
+			y: -2.0d
 			dependencies: ["68A769C216C2280F"]
 			id: "2CDBBA552E150934"
 			tasks: [{
@@ -1542,8 +1519,8 @@
 			}]
 		}
 		{
-			x: 17.0d
-			y: -9.0d
+			x: -2.75d
+			y: -4.75d
 			dependencies: [
 				"42856B5A8C028800"
 				"68A769C216C2280F"
@@ -1556,8 +1533,8 @@
 			}]
 		}
 		{
-			x: 17.0d
-			y: -7.75d
+			x: -4.5d
+			y: -3.5d
 			dependencies: ["42856B5A8C028800"]
 			id: "68A769C216C2280F"
 			tasks: [{
@@ -1567,8 +1544,8 @@
 			}]
 		}
 		{
-			x: 19.0d
-			y: -7.75d
+			x: -6.25d
+			y: -3.25d
 			dependencies: ["68A769C216C2280F"]
 			id: "372795CDA256037C"
 			tasks: [{
@@ -1578,8 +1555,8 @@
 			}]
 		}
 		{
-			x: 19.0d
-			y: -8.75d
+			x: -6.25d
+			y: -4.25d
 			dependencies: ["68A769C216C2280F"]
 			id: "729FC7F4D0CEE17D"
 			tasks: [{
@@ -1589,8 +1566,8 @@
 			}]
 		}
 		{
-			x: 18.75d
-			y: -6.5d
+			x: -5.75d
+			y: -2.25d
 			dependencies: ["68A769C216C2280F"]
 			id: "46EEDB03B0987EF9"
 			tasks: [{
@@ -1600,8 +1577,8 @@
 			}]
 		}
 		{
-			x: 17.0d
-			y: -5.75d
+			x: -2.75d
+			y: -3.0d
 			description: [
 				"The &aCorporea&r system uses the energy of the &aEnd&r, and the void between worlds, to transport items from point A to point B instantly without intervening blocks.The system, at its core, uses variant &5Sparks&r (called &5Corporea Sparks&r) that transport items instead of &aMana&r."
 				""
@@ -1617,6 +1594,7 @@
 				""
 				"Visualizing a Network and removing a spark from a container are performed the same way they are on ordinary &5Sparks&r.Note that having two &5Master Corporea Sparks&r in the same network is a bad idea and can cause &oundefined behavior&r."
 			]
+			dependencies: ["25C615546513B729"]
 			min_width: 400
 			id: "42856B5A8C028800"
 			tasks: [{
@@ -1694,7 +1672,7 @@
 			y: 9.5d
 			shape: "diamond"
 			subtitle: "The slow growth of crops is a perpetual problem in the feeding of the masses"
-			description: ["The Agricarnation transforms Mana into a type of natural fertilizer, causing nearby plant-life to grow faster."]
+			description: ["The &dAgricarnation&r transforms &aMana&r into a type of natural fertilizer, causing nearby plant-life to grow faster."]
 			dependencies: ["3FF9D870344E172E"]
 			optional: true
 			id: "2E8A6F64534263B1"
@@ -1710,7 +1688,7 @@
 			shape: "diamond"
 			subtitle: "Find it in a sandpit?"
 			description: [
-				"Quite a handy flower indeed, the Rannuncarpus will pick up nearby placeable items and place them within a large radius around itself as blocks, preferably facing them towards itself."
+				"Quite a handy flower indeed, the &dRannuncarpus&r will pick up nearby placeable items and place them within a large radius around itself as blocks, preferably facing them towards itself."
 				""
 				"However, it will only place blocks on top of a specific block type at a time; to specify this block, place it right below the soil the flower rests on."
 			]
@@ -1729,11 +1707,11 @@
 			shape: "diamond"
 			subtitle: "The Hopperhock simply picks up items around it and put them in adjacent inventories."
 			description: [
-				"Mana is optional, but will increase its range if provided.Placing Item Frames on adjacent inventories will specify which items can or can't go in them."
+				"&aMana&r is optional, but will increase its range if provided. Placing &dItem Frames&r on adjacent inventories will specify which items can or can't go in them."
 				""
-				"Any inventory with no adjacent Item Frame can accept any items, but labelled inventories will take priority."
+				"Any inventory with no adjacent &dItem Frame&r can accept any items, but labelled inventories will take priority."
 				""
-				"The rule used to sort items can be changed by sneak-right clicking (or using a Dispenser) on the flower with a Wand of the Forest in Function Mode."
+				"The rule used to sort items can be changed by sneak-right clicking (or using a &dDispenser&r) on the flower with a &dWand of the Forest&r in &aFunction Mode&r."
 			]
 			dependencies: ["5BB4CAB70FBD40ED"]
 			optional: true
@@ -1768,9 +1746,9 @@
 			shape: "diamond"
 			subtitle: "Any adventurer knows that Dungeons can hold valuable goodies."
 			description: [
-				"The Loonium will, when fed quite a bit of Mana, summon these items for said adventurers to collect.There's a catch, though: each item is held by a monster protecting it."
+				"The &dLoonium&r will, when fed quite a bit of &aMana&r, summon these items for said adventurers to collect. There's a catch, though: each item is held by a monster protecting it."
 				""
-				"These monsters are extra-strong, but will drop their precious dungeon loot when killed."
+				"These monsters are extra-strong, but will drop their precious &adungeon loot&r when killed."
 			]
 			dependencies: [
 				"61C28C04FA961761"
@@ -1792,9 +1770,9 @@
 			shape: "diamond"
 			subtitle: "The Clayconia is a simple flower."
 			description: [
-				"All it does is moisten nearby Sand, turning it into pellets of Clay."
+				"All it does is moisten nearby &dSand&r, turning it into pellets of &dClay&r."
 				""
-				"This process uses a decent amount of Mana, but won't break the bank (or pool, as it were)."
+				"This process uses a decent amount of &aMana&r, but won't break the bank (or pool, as it were)."
 			]
 			dependencies: [
 				"416DB8DB57EEBC23"
@@ -1814,7 +1792,7 @@
 			shape: "diamond"
 			subtitle: "While going mining is well and good, a renewable and sedentary means of acquiring ores is nothing to scoff at either."
 			description: [
-				"The Orechid uses Mana to synthesize ores from nearby Stone blocks."
+				"The Orechid uses &aMana&r to synthesize &aores&r from nearby &bStone&r blocks."
 				""
 				"The ores it generates are random, but rarer ores seem to be created less often."
 			]
@@ -1837,7 +1815,7 @@
 			y: 10.5d
 			shape: "diamond"
 			subtitle: "The Spectrolus is a flower that's particularly fond of the various hues of Wool."
-			description: ["It'll consume any and all Wool blocks dropped nearby, converting them to Mana.However, it's picky as to what colors it wants. Starting from White, after it eats one piece of Wool, it'll rotate to the next color in the spectrum."]
+			description: ["It'll consume any and all &dWool&r blocks dropped nearby, converting them to &aMana&r. However, it's picky as to what colors it wants. Starting from &bWhite&r, after it eats one piece of &bWool&r, it'll rotate to the next color in the spectrum."]
 			dependencies: [
 				"5DA8E25C10505D27"
 				"5BB4CAB70FBD40ED"
@@ -1857,7 +1835,7 @@
 			y: 9.75d
 			shape: "diamond"
 			subtitle: "The Rafflowsia functions similarly to a Kekimurus"
-			description: ["It'll consume any nearby placed flowers and synthesize Mana from them.While feeding it the same flower several times in a row yields diminishing returns, feeding it a large variety of them can yield ludicrous quantities of Mana."]
+			description: ["It'll consume any nearby placed flowers and synthesize &aMana&r from them. While feeding it the same flower several times in a row yields diminishing returns, feeding it a large variety of them can yield ludicrous quantities of &aMana&r."]
 			dependencies: [
 				"416DB8DB57EEBC23"
 				"1A01B88234D229D4"
@@ -1900,7 +1878,7 @@
 			y: 9.75d
 			shape: "diamond"
 			subtitle: "The Shulk Me Not is a generating flower that creates Mana from the power of the Shulker's Levitation."
-			description: ["If a nearby monster is targeted by and hit with a Shulker's projectile, and the Shulk Me Not's internal buffer is empty, both mob and Shulker will be killed, generating ludicrous amounts of Mana from the process."]
+			description: ["If a nearby monster is targeted by and hit with a Shulker's projectile, and the &dShulk Me Not's&r internal buffer is empty, both mob and Shulker will be killed, generating ludicrous amounts of Mana from the process."]
 			dependencies: [
 				"61C28C04FA961761"
 				"1EF285799C2FCE6B"
@@ -2052,13 +2030,13 @@
 			shape: "diamond"
 			subtitle: "The Orechid is a great flower"
 			description: [
-				" the ability to create raw ores from Mana and Stone can be a great boon to any sedentary botanist's life."
+				"The ability to create raw ores from &aMana&r and &aStone&r can be a great boon to any sedentary botanist's life."
 				""
-				"However, it can't create ores of a more Nether-y variety. Getting that sorted out is easy"
+				"However, it can't create ores of a more &aNether&r-y variety. Getting that sorted out is easy"
 				""
-				" Switching around a few petals will yield an Orechid Ignem, which creates Nether ores in Netherrack instead."
+				"Switching around a few petals will yield an &dOrechid Ignem&r, which creates &aNether&r ores in &aNetherrack&r instead."
 				""
-				"The flower must be in the Nether dimension to work."
+				"The flower must be in the &aNether&r dimension to work."
 			]
 			dependencies: [
 				"6E4F434AC3716518"

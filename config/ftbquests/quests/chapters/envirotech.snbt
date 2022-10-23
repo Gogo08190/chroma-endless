@@ -529,6 +529,7 @@
 				id: "0A626BB87AE2FE37"
 				type: "item"
 				item: "envirocore:ionite_interconnect"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -555,6 +556,12 @@
 				id: "5EDDDED1C1BA28BB"
 				type: "item"
 				item: "envirotech:aethium_void_miner_ccu"
+			}]
+			rewards: [{
+				id: "223C30B6A6B4D555"
+				type: "item"
+				item: "envirocore:aethium_interconnect"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -583,6 +590,12 @@
 				type: "item"
 				item: "envirotech:nanorite_void_miner_ccu"
 			}]
+			rewards: [{
+				id: "6F4485CA0C280B02"
+				type: "item"
+				item: "envirocore:nanorite_interconnect"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: 16.0d
@@ -608,6 +621,12 @@
 				id: "5A78EE8FF8873577"
 				type: "item"
 				item: "envirotech:xerothium_void_miner_ccu"
+			}]
+			rewards: [{
+				id: "019E0672305AD484"
+				type: "item"
+				item: "envirocore:xerothium_interconnect"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -727,6 +746,7 @@
 				id: "1C37BA3394F31FA7"
 				type: "item"
 				item: "envirocore:ionite_interconnect"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -783,6 +803,12 @@
 				type: "item"
 				item: "enviroenergy:aethium_solar_ccu"
 			}]
+			rewards: [{
+				id: "7FC9191849AEC081"
+				type: "item"
+				item: "envirocore:aethium_interconnect"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: 11.5d
@@ -806,6 +832,12 @@
 				id: "2C76719A791AF53F"
 				type: "item"
 				item: "enviroenergy:nanorite_solar_ccu"
+			}]
+			rewards: [{
+				id: "4E09E7F4F2844081"
+				type: "item"
+				item: "envirocore:nanorite_interconnect"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -960,6 +992,7 @@
 				id: "6779D7C3BA17AC36"
 				type: "item"
 				item: "envirocore:ionite_interconnect"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -985,6 +1018,12 @@
 				id: "54295574DEE26224"
 				type: "item"
 				item: "enviroenergy:aethium_lightning_ccu"
+			}]
+			rewards: [{
+				id: "4AC148E6F9B5C82B"
+				type: "item"
+				item: "envirocore:aethium_interconnect"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -1012,6 +1051,12 @@
 				type: "item"
 				item: "enviroenergy:nanorite_lightning_ccu"
 			}]
+			rewards: [{
+				id: "42D6B1BC7E62577D"
+				type: "item"
+				item: "envirocore:nanorite_interconnect"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: 18.0d
@@ -1036,6 +1081,12 @@
 				id: "2F36B26CFE74FC4A"
 				type: "item"
 				item: "enviroenergy:xerothium_lightning_ccu"
+			}]
+			rewards: [{
+				id: "4F33ED12CBD7965A"
+				type: "item"
+				item: "envirocore:xerothium_interconnect"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -1146,6 +1197,12 @@
 				type: "item"
 				item: "enviroenergy:ionite_solar_cell"
 			}]
+			rewards: [{
+				id: "654A986C03E50304"
+				type: "item"
+				item: "kubejs:extreme_circuit_board"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 6.0d
@@ -1162,6 +1219,12 @@
 				id: "23BFDEA4B1B37CCA"
 				type: "item"
 				item: "enviroenergy:aethium_solar_cell"
+			}]
+			rewards: [{
+				id: "72D492AE8D7ECB26"
+				type: "item"
+				item: "kubejs:extreme_circuit_board"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -1180,6 +1243,12 @@
 				type: "item"
 				item: "enviroenergy:nanorite_solar_cell"
 			}]
+			rewards: [{
+				id: "48CD17F3D9266740"
+				type: "item"
+				item: "kubejs:extreme_circuit_board"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 17.0d
@@ -1196,6 +1265,12 @@
 				id: "1FAC53331B760D9D"
 				type: "item"
 				item: "enviroenergy:xerothium_solar_cell"
+			}]
+			rewards: [{
+				id: "5D03A8D31EE10993"
+				type: "item"
+				item: "kubejs:extreme_circuit_board"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -1314,6 +1389,12 @@
 				type: "item"
 				item: "envirocore:aethium_crystal"
 			}]
+			rewards: [{
+				id: "7E930BA7C9771C0E"
+				type: "item"
+				item: "envirocore:aethium_crystal"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: 11.5d
@@ -1328,6 +1409,12 @@
 				type: "item"
 				item: "envirocore:nanorite_crystal"
 			}]
+			rewards: [{
+				id: "205B7E2909E19721"
+				type: "item"
+				item: "envirocore:nanorite_crystal"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: 17.0d
@@ -1341,6 +1428,12 @@
 				id: "09A70524125D2FD7"
 				type: "item"
 				item: "envirocore:xerothium_crystal"
+			}]
+			rewards: [{
+				id: "3939FFB1A1D58E8C"
+				type: "item"
+				item: "envirocore:xerothium_crystal"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -1437,6 +1530,12 @@
 				type: "item"
 				item: "envirocore:aethium_powder"
 			}]
+			rewards: [{
+				id: "7710E7D2F700D878"
+				type: "item"
+				item: "envirocore:aethium_crystal"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 11.5d
@@ -1448,6 +1547,12 @@
 				type: "item"
 				item: "envirocore:nanorite_powder"
 			}]
+			rewards: [{
+				id: "4DA53BFFB5F898D5"
+				type: "item"
+				item: "envirocore:nanorite_crystal"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 17.0d
@@ -1458,6 +1563,12 @@
 				id: "0F65B605BEB16B71"
 				type: "item"
 				item: "envirocore:xerothium_powder"
+			}]
+			rewards: [{
+				id: "60A2D3AD5D8B44BF"
+				type: "item"
+				item: "envirocore:xerothium_crystal"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -1572,6 +1683,12 @@
 				type: "item"
 				item: "envirocore:aethium_boule"
 			}]
+			rewards: [{
+				id: "7581603661BBDB12"
+				type: "item"
+				item: "envirocore:aethium_crystal"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: 11.5d
@@ -1586,6 +1703,12 @@
 				type: "item"
 				item: "envirocore:nanorite_boule"
 			}]
+			rewards: [{
+				id: "7860334F328E2C2B"
+				type: "item"
+				item: "envirocore:nanorite_crystal"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: 17.0d
@@ -1599,6 +1722,12 @@
 				id: "1268EDD5B1F41472"
 				type: "item"
 				item: "envirocore:xerothium_boule"
+			}]
+			rewards: [{
+				id: "508A93375C48BB65"
+				type: "item"
+				item: "envirocore:xerothium_crystal"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -1715,6 +1844,12 @@
 				type: "item"
 				item: "envirocore:aethium_wafer"
 			}]
+			rewards: [{
+				id: "4A2BB75976B37581"
+				type: "item"
+				item: "envirocore:aethium_crystal"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: 11.5d
@@ -1730,6 +1865,12 @@
 				type: "item"
 				item: "envirocore:nanorite_wafer"
 			}]
+			rewards: [{
+				id: "7C3A66C380246EDF"
+				type: "item"
+				item: "envirocore:nanorite_crystal"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: 17.0d
@@ -1744,6 +1885,12 @@
 				id: "791DB8C07B4C4898"
 				type: "item"
 				item: "envirocore:xerothium_wafer"
+			}]
+			rewards: [{
+				id: "29271F29C19BFAB3"
+				type: "item"
+				item: "envirocore:xerothium_crystal"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -1872,6 +2019,11 @@
 				type: "item"
 				item: "envirocore:aethium_interconnect"
 			}]
+			rewards: [{
+				id: "1D756860CF856500"
+				type: "item"
+				item: "envirocore:ionite_interconnect"
+			}]
 		}
 		{
 			x: 11.5d
@@ -1889,6 +2041,11 @@
 				type: "item"
 				item: "envirocore:nanorite_interconnect"
 			}]
+			rewards: [{
+				id: "20F299C57CDD3C50"
+				type: "item"
+				item: "envirocore:aethium_interconnect"
+			}]
 		}
 		{
 			x: 17.0d
@@ -1905,6 +2062,11 @@
 				id: "13D46F3D98A266A6"
 				type: "item"
 				item: "envirocore:xerothium_interconnect"
+			}]
+			rewards: [{
+				id: "1FEC5E09FEDBBFA1"
+				type: "item"
+				item: "envirocore:nanorite_interconnect"
 			}]
 		}
 		{
@@ -2039,6 +2201,11 @@
 				type: "item"
 				item: "envirocore:aethium_frame"
 			}]
+			rewards: [{
+				id: "297DB44F4F5D678D"
+				type: "item"
+				item: "envirocore:ionite_frame"
+			}]
 		}
 		{
 			x: 11.5d
@@ -2057,6 +2224,11 @@
 				type: "item"
 				item: "envirocore:nanorite_frame"
 			}]
+			rewards: [{
+				id: "692828088F619F7B"
+				type: "item"
+				item: "envirocore:aethium_frame"
+			}]
 		}
 		{
 			x: 17.0d
@@ -2074,6 +2246,11 @@
 				id: "5B81E8E117C5EA2F"
 				type: "item"
 				item: "envirocore:xerothium_frame"
+			}]
+			rewards: [{
+				id: "5497F87A67C1A076"
+				type: "item"
+				item: "envirocore:nanorite_frame"
 			}]
 		}
 		{
@@ -2765,6 +2942,11 @@
 				type: "item"
 				item: "kubejs:ionite_photovoltaic_panel"
 			}]
+			rewards: [{
+				id: "79FFEFDC93BED8CB"
+				type: "item"
+				item: "envirocore:structure_panel"
+			}]
 		}
 		{
 			x: 6.0d
@@ -2782,6 +2964,11 @@
 				id: "2FC78256477A672F"
 				type: "item"
 				item: "kubejs:aethium_photovoltaic_panel"
+			}]
+			rewards: [{
+				id: "59F6ECCE32C696BD"
+				type: "item"
+				item: "envirocore:structure_panel"
 			}]
 		}
 		{
@@ -2801,6 +2988,11 @@
 				type: "item"
 				item: "kubejs:nanorite_photovoltaic_panel"
 			}]
+			rewards: [{
+				id: "2763F5CB53B5C763"
+				type: "item"
+				item: "envirocore:structure_panel"
+			}]
 		}
 		{
 			x: 17.0d
@@ -2818,6 +3010,11 @@
 				id: "77F335CECA1B7C45"
 				type: "item"
 				item: "kubejs:xerothium_photovoltaic_panel"
+			}]
+			rewards: [{
+				id: "2336BE9236718125"
+				type: "item"
+				item: "envirocore:structure_panel"
 			}]
 		}
 		{
@@ -2841,6 +3038,12 @@
 				id: "4F961D8A214E269E"
 				type: "item"
 				item: "enviroenergy:xerothium_solar_ccu"
+			}]
+			rewards: [{
+				id: "333B499B11A49D47"
+				type: "item"
+				item: "envirocore:xerothium_interconnect"
+				random_bonus: 2
 			}]
 		}
 	]
