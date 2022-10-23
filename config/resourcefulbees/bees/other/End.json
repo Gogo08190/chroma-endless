@@ -47,7 +47,7 @@
           },
           {
             "type": "BLOCK",
-            "inputID": "minecraft:end_stone",
+            "inputID": "betterendforge:amber_block",
             "outputs": [
               {"outputID": "bigreactors:anglesite_ore", "weight": 5}
             ]
