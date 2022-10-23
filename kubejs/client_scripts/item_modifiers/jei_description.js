@@ -347,7 +347,7 @@ onEvent('jei.information', (event) => {
             ]
         },
         {
-            items: ['projecte:low_covalence_dust']'],
+            items: ['projecte:low_covalence_dust'],
             text: [
                 `Obtain in the Void ore miner from Tier 5 in The End. More drop with Lime Lens.`
             ]
