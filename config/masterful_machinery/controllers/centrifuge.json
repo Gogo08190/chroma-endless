@@ -1,0 +1,16 @@
+{
+    "controllerId": "centrifuge",
+    "name": "Atomic Centrifuge",
+    "textureOverride": "mekanism:block/boiler_casing",
+    "ports": [
+      {
+          "type": "masterfulmachinery:mekanism_gas",
+          "textureOverride": "mekanism:block/boiler_casing",
+          "name": "Atomic Centrifuge Gas",
+          "id": "centrifuge_gas",
+          "data": {
+              "capacity": 100000
+          }
+      }
+    ]
+  }
