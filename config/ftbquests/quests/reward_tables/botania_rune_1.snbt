@@ -1,0 +1,13 @@
+{
+	id: "63A36AC6DB7A1940"
+	order_index: 21
+	title: "Botania Rune 1"
+	icon: "kubejs:ultimate_rune"
+	loot_size: 1
+	rewards: [
+		{ item: "botania:rune_water" }
+		{ item: "botania:rune_fire" }
+		{ item: "botania:rune_earth" }
+		{ item: "botania:rune_air" }
+	]
+}

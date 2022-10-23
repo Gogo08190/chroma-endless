@@ -225,17 +225,6 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -3.25d
-			shape: "hexagon"
-			id: "58758E8C0CB4D2C1"
-			tasks: [{
-				id: "4B6F971B40BCA8A6"
-				type: "item"
-				item: "storagedrawers:creative_vending_upgrade"
-			}]
-		}
-		{
 			x: -5.0d
 			y: -7.5d
 			shape: "diamond"
@@ -303,9 +292,10 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: -3.0d
 			y: -3.25d
-			shape: "hexagon"
+			shape: "octagon"
+			size: 1.5d
 			id: "21E5D839E1064FE7"
 			tasks: [{
 				id: "7525076532D46AA9"

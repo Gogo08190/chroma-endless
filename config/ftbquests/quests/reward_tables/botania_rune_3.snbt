@@ -1,0 +1,16 @@
+{
+	id: "4FC41672F7A312C2"
+	order_index: 23
+	title: "Botania Rune 3"
+	icon: "kubejs:ultimate_rune"
+	loot_size: 1
+	rewards: [
+		{ item: "botania:rune_lust" }
+		{ item: "botania:rune_gluttony" }
+		{ item: "botania:rune_greed" }
+		{ item: "botania:rune_sloth" }
+		{ item: "botania:rune_wrath" }
+		{ item: "botania:rune_envy" }
+		{ item: "botania:rune_pride" }
+	]
+}
