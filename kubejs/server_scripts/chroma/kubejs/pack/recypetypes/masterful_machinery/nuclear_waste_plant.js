@@ -16,11 +16,40 @@ onEvent('recipes', (event) => {
               },
               {
                 consumeInstantly: true,
+                type: 'masterfulmachinery:items', data: { item: 'ironjetpacks:nitro_cell', count: 1 }
+              },
+              {
+                consumeInstantly: true,
                 type: 'masterfulmachinery:energy', data: { amount: 2500 }
               }
           ],
           ticks: 512,
           id: `${id_prefix}waste_recycling`
+      },
+      {
+          outputs: [
+            { type: 'masterfulmachinery:mekanism_gas', data: { gas: 'mekanism:hydrogen', amount: 250 } }
+          ],
+          inputs: [
+              {
+                consumeInstantly: true,
+                type: 'masterfulmachinery:mekanism_gas', data: { gas: 'mekanism:spent_nuclear_waste', amount: 250 }
+              },
+              {
+                consumeInstantly: true,
+                type: 'masterfulmachinery:fluids', data: { fluid: 'mekanism:heavy_water', amount: 250 }
+              },
+              {
+                consumeInstantly: true,
+                type: 'masterfulmachinery:items', data: { item: 'ironjetpacks:nitro_thruster', count: 1 }
+              },
+              {
+                consumeInstantly: true,
+                type: 'masterfulmachinery:energy', data: { amount: 2500 }
+              }
+          ],
+          ticks: 512,
+          id: `${id_prefix}waste_recycling_bis`
       }
     ];
 
