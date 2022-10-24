@@ -1,11 +1,11 @@
 {
     "controllerId": "centrifuge",
     "name": "Atomic Centrifuge",
-    "textureOverride": "mekanism:block/boiler_casing",
+    "textureOverride": "kubejs:block/centrifuge_casing",
     "ports": [
       {
           "type": "masterfulmachinery:mekanism_gas",
-          "textureOverride": "mekanism:block/boiler_casing",
+          "textureOverride": "kubejs:block/centrifuge_casing",
           "name": "Atomic Centrifuge Gas",
           "id": "centrifuge_gas",
           "data": {
