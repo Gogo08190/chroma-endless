@@ -5,18 +5,31 @@
 	icon: "quark:golden_apple_crate"
 	loot_size: 1
 	rewards: [
-		{ item: "minecraft:apple" }
-		{ item: "minecraft:mushroom_stew" }
-		{ item: "minecraft:bread" }
-		{ item: "minecraft:cooked_porkchop" }
-		{ item: "minecraft:cooked_cod" }
-		{ item: "minecraft:cooked_salmon" }
-		{ item: "minecraft:cookie" }
-		{ item: "minecraft:cooked_beef" }
-		{ item: "minecraft:cooked_chicken" }
-		{ item: "minecraft:pumpkin_pie" }
-		{ item: "minecraft:rabbit_stew" }
-		{ item: "minecraft:cooked_mutton" }
-		{ item: "minecraft:beetroot_soup" }
+		{ item: "minecraft:apple", count: 8 }
+		{ item: "minecraft:bread", count: 4 }
+		{ item: "minecraft:cooked_porkchop", count: 4 }
+		{ item: "minecraft:cooked_cod", count: 4 }
+		{ item: "minecraft:cooked_salmon", count: 4 }
+		{ item: "minecraft:cooked_beef", count: 4 }
+		{ item: "minecraft:cooked_chicken", count: 4 }
+		{ item: "minecraft:cooked_mutton", count: 4 }
+		{ item: "abnormals_delight:cooked_pike_slice", count: 4 }
+		{ item: "alexsmobs:banana", count: 8 }
+		{ item: "alexsmobs:cooked_lobster_tail", count: 4 }
+		{ item: "alexsmobs:cooked_kangaroo_meat", count: 4 }
+		{ item: "atmospheric:passionfruit", count: 8 }
+		{ item: "atmospheric:roasted_yucca_fruit", count: 4 }
+		{ item: "create:bar_of_chocolate", count: 4 }
+		{ item: "environmental:cooked_venison", count: 4 }
+		{ item: "environmental:cooked_duck", count: 4 }
+		{ item: "byg:baobab_fruit", count: 8 }
+		{ item: "byg:cooked_joshua_fruit", count: 4 }
+		{ item: "projectvibrantjourneys:cracked_coconut", count: 4 }
+		{ item: "quark:cooked_crab_leg", count: 4 }
+		{ item: "quark:cooked_frog_leg", count: 4 }
+		{ item: "simplefarming:sushi", count: 4 }
+		{ item: "supplementaries:candy", count: 8 }
+		{ item: "tconstruct:bacon", count: 4 }
+		{ item: "simplefarming:cherries", count: 8 }
 	]
 }
