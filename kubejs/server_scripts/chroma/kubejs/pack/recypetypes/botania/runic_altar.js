@@ -219,6 +219,7 @@ onEvent('recipes', (event) => {
           'botania:terrasteel_ingot',
           'botania:terrasteel_ingot',
           'botania:terrasteel_ingot',
+          'botania:terrasteel_ingot',
           'botania:rune_spring',
           'botania:livingwood_twig',
           'botania:livingwood_twig'
