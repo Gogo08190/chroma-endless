@@ -1,5 +1,7 @@
 {
   "flower": "draconicevolution:awakened_crafting_injector",
+  "lore": "Through Fusion Crafting, this bee will produce Awakaned Draconium",
+  "loreColor": "#ff66cc",
   "maxTimeInHive": 4800,
   "traits": ["awakened"],
   "hasHoneycomb": true,

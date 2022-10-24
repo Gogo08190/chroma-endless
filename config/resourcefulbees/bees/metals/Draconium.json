@@ -1,5 +1,7 @@
 {
   "flower": "draconicevolution:wyvern_crafting_injector",
+  "lore": "Through Fusion Crafting, this bee will produce Draconium",
+  "loreColor": "#ff66cc",
   "maxTimeInHive": 4800,
   "traits": ["draconic"],
   "hasHoneycomb": true,

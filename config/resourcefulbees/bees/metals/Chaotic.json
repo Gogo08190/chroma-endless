@@ -1,5 +1,7 @@
 {
   "flower": "draconicevolution:chaotic_crafting_injector",
+  "lore": "Through Fusion Crafting, this bee will produce Chaotic Shards",
+  "loreColor": "#ff66cc",
   "maxTimeInHive": 4800,
   "traits": ["chaotic"],
   "hasHoneycomb": true,
