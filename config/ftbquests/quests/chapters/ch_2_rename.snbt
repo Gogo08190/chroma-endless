@@ -87,6 +87,11 @@
 				title: "&#2A2E2CCoal Coke&r"
 				item: "emendatusenigmatica:coke_gem"
 			}]
+			rewards: [{
+				id: "4FD056079445EFC4"
+				type: "item"
+				item: "emendatusenigmatica:coke_gem"
+			}]
 		}
 		{
 			x: -4.75d
@@ -211,6 +216,11 @@
 				title: "&#482705Engineer's Workbench&r"
 				item: "immersiveengineering:workbench"
 			}]
+			rewards: [{
+				id: "4416FEAD0762BB07"
+				type: "item"
+				item: "immersiveengineering:component_steel"
+			}]
 		}
 		{
 			x: 4.75d
@@ -228,6 +238,12 @@
 				type: "item"
 				title: "&#71797ESteel Mechanical Component&r"
 				item: "immersiveengineering:component_steel"
+			}]
+			rewards: [{
+				id: "67BDCF44BC2A947E"
+				type: "item"
+				item: "emendatusenigmatica:steel_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -679,7 +695,7 @@
 			tasks: [{
 				id: "69352429E892FC13"
 				type: "observation"
-				title: "Look at a complet &6Mixer"
+				title: "Look at a complete &6Mixer"
 				icon: "immersiveengineering:mixer"
 				timer: 0L
 				observe_type: 0
@@ -824,7 +840,7 @@
 				{
 					id: "05354E4CDF3CD676"
 					type: "observation"
-					title: "Look at a complet &6Excavator"
+					title: "Look at a complete &6Excavator"
 					icon: "immersiveengineering:excavator"
 					timer: 0L
 					observe_type: 0
@@ -833,7 +849,7 @@
 				{
 					id: "3DCE3F3798D52EC6"
 					type: "observation"
-					title: "Look at a complet &6Bucket Wheel"
+					title: "Look at a complete &6Bucket Wheel"
 					icon: "immersiveengineering:bucket_wheel"
 					timer: 0L
 					observe_type: 0
@@ -865,6 +881,11 @@
 				type: "item"
 				item: "immersivepetroleum:projector"
 			}]
+			rewards: [{
+				id: "387798A9AEE5D4A1"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
 		}
 		{
 			title: "&#482705Treated Wood&r"
@@ -883,6 +904,11 @@
 				id: "7FA5496D2D5C9E03"
 				type: "item"
 				title: "&#482705Treated Wood Planks&r"
+				item: "immersiveengineering:treated_wood_horizontal"
+			}]
+			rewards: [{
+				id: "5BE195824A749979"
+				type: "item"
 				item: "immersiveengineering:treated_wood_horizontal"
 			}]
 		}
@@ -905,6 +931,11 @@
 				id: "5FC9696AC43C32BD"
 				type: "item"
 				title: "Bucket of &#482705Creosote Oil&r"
+				item: "immersiveengineering:creosote_bucket"
+			}]
+			rewards: [{
+				id: "402DBC35428C4D2E"
+				type: "item"
 				item: "immersiveengineering:creosote_bucket"
 			}]
 		}
@@ -931,6 +962,11 @@
 				observe_type: 0
 				to_observe: "immersiveengineering:coke_oven"
 			}]
+			rewards: [{
+				id: "49864634FF19C6B3"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 0.0d
@@ -951,6 +987,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "280BAD230C6EA5E9"
+					type: "choice"
+					table_id: 6524702956512656804L
+				}
+				{
+					id: "43505E48F157A20F"
+					type: "item"
+					item: "immersiveengineering:crate"
+				}
+			]
 		}
 		{
 			title: "Craft &6Engineer's Hammer&r"
@@ -964,10 +1012,10 @@
 				"First of all, build a &oCreate&r process like this with &lDeployers&r and &lMechanical Belt&r:"
 				"{image:chroma:textures/quests/deploy_engineer_hammer.png width:256 height:196 align:1}"
 				""
-				"Then place 2 &#61666AIron Ingots&r in the first &lDeployer&r, 2 &#806517Cogwheels&r in the second, and 2 &#747878Andesite Alloys&r in the last. Finally drop a &#382969Lead Rod&r on the &lBelt&r."
+				"Then place 2 &#61666AIron Ingots&r in the first &lDeployer&r, 2 &#806517Cogwheels&r in the second, and 2 &#747878Andesite Alloys&r in the last. Finally drop a &#404969Lead Rod&r on the &lBelt&r."
 				""
-				"Power the &lDeployers&r and the &lBelt&r with some &nkinetic energy&r. The &#382969Lead Rod&r will move on the &lBelt&r, and the &lDeployers&r will combine the different items with it."
-				"Repeat the operation once more but by replacing the &#382969Lead Rod&r with the &6Partial Hammer&r and you will obtain your &6Engineer's Hammer&r!"
+				"Power the &lDeployers&r and the &lBelt&r with some &nkinetic energy&r. The &#404969Lead Rod&r will move on the &lBelt&r, and the &lDeployers&r will combine the different items with it."
+				"Repeat the operation once more but by replacing the &#404969Lead Rod&r with the &6Partial Hammer&r and you will obtain your &6Engineer's Hammer&r!"
 			]
 			dependencies: [
 				"12F51EE93A420344"
@@ -1004,6 +1052,11 @@
 					count: 2L
 				}
 			]
+			rewards: [{
+				id: "70A9932C65BAC629"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			title: "Build a &6Coker"
@@ -1077,24 +1130,18 @@
 			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "58B192367229EBFC"
-			tasks: [
-				{
-					id: "5864BA213ADA9B3E"
-					type: "checkmark"
-					title: "&aCheck to start the quest&r"
-				}
-				{
-					id: "0F0DC8959D770D82"
-					type: "observation"
-					title: "Look at a complete &6Diesel Generator"
-					icon: "immersiveengineering:diesel_generator"
-					timer: 0L
-					observe_type: 0
-					to_observe: "immersiveengineering:diesel_generator"
-				}
-			]
+			tasks: [{
+				id: "0F0DC8959D770D82"
+				type: "observation"
+				title: "Look at a complete &6Diesel Generator"
+				icon: "immersiveengineering:diesel_generator"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:diesel_generator"
+			}]
 		}
 		{
+			title: "Build a &6Distillation Tower"
 			x: 16.099999999999994d
 			y: 5.25d
 			shape: "square"
@@ -1121,7 +1168,7 @@
 			tasks: [{
 				id: "35818F2688B8D2B2"
 				type: "observation"
-				title: "Distillation Tower"
+				title: "Look at a complete &6Distillation Tower"
 				icon: "immersivepetroleum:distillationtower"
 				timer: 0L
 				observe_type: 0
@@ -1151,24 +1198,18 @@
 			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "660C6DD3AED86A77"
-			tasks: [
-				{
-					id: "4AE2E334B13CD793"
-					type: "checkmark"
-					title: "&aCheck to start the quest&r"
-				}
-				{
-					id: "17112F0894443736"
-					type: "observation"
-					title: "Look at a complete &6Lightning Rod"
-					icon: "immersiveengineering:lightning_rod"
-					timer: 0L
-					observe_type: 0
-					to_observe: "immersiveengineering:lightning_rod"
-				}
-			]
+			tasks: [{
+				id: "17112F0894443736"
+				type: "observation"
+				title: "Look at a complete &6Lightning Rod"
+				icon: "immersiveengineering:lightning_rod"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:lightning_rod"
+			}]
 		}
 		{
+			title: "Build a &6Pumpjack"
 			x: 16.124999999999993d
 			y: 2.4875000000000007d
 			shape: "square"
@@ -1202,7 +1243,7 @@
 			tasks: [{
 				id: "5238EF4D792E987F"
 				type: "observation"
-				title: "Pumpjack"
+				title: "Look at a complete &6Pumpjack"
 				icon: "immersivepetroleum:pumpjack"
 				timer: 0L
 				observe_type: 0
@@ -1284,6 +1325,11 @@
 				title: "&#71797ESteel Ingot&r"
 				item: "emendatusenigmatica:steel_ingot"
 			}]
+			rewards: [{
+				id: "1E1D180B9F0CD224"
+				type: "item"
+				item: "emendatusenigmatica:steel_ingot"
+			}]
 		}
 		{
 			title: "&#71797ESteel Plates&r"
@@ -1348,6 +1394,12 @@
 				type: "item"
 				title: "&#482705Engineer's Crafting Table&r"
 				item: "immersiveengineering:craftingtable"
+			}]
+			rewards: [{
+				id: "2DEF1D44F423467B"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+				count: 10
 			}]
 		}
 		{
@@ -1534,11 +1586,18 @@
 			x: 6.75d
 			y: 21.25d
 			subtitle: "&8Engineer&l&#FF0000X&r&aGardener&r"
+			hide_dependency_lines: true
+			dependencies: ["12F51EE93A420344"]
 			id: "75F8F8B9F5336E59"
 			tasks: [{
 				id: "31FB8615A5B2B637"
 				type: "item"
 				title: "&#AD744EIndustrial Hemp Seeds&r"
+				item: "immersiveengineering:seed"
+			}]
+			rewards: [{
+				id: "2FFBD8BA95EBE31E"
+				type: "item"
 				item: "immersiveengineering:seed"
 			}]
 		}
@@ -1553,6 +1612,12 @@
 				type: "item"
 				title: "&#AD744EIndustrial Hemp Fiber&r"
 				item: "immersiveengineering:hemp_fiber"
+			}]
+			rewards: [{
+				id: "315E6B1C513DD175"
+				type: "item"
+				item: "immersiveengineering:hemp_fiber"
+				count: 16
 			}]
 		}
 		{
@@ -1572,10 +1637,10 @@
 				""
 				"First of all, build a &oCreate&r process like the &6Engineer's Hammer&r one with &lDeployers&r and &lMechanical Belt&r."
 				""
-				"Then place 2 &#71797ESteel Ingots&r in the first &lDeployer&r, 2 &#747878Andesite Alloys&r in the second, and 2 &#71797ESteel Ingots&r in the last. Finally drop a &#382969Lead Rod&r on the &lBelt&r."
+				"Then place 2 &#71797ESteel Ingots&r in the first &lDeployer&r, 2 &#747878Andesite Alloys&r in the second, and 2 &#71797ESteel Ingots&r in the last. Finally drop a &#404969Lead Rod&r on the &lBelt&r."
 				""
-				"Power the &lDeployers&r and the &lBelt&r with some &nkinetic energy&r. The &#382969Lead Rod&r will move on the &lBelt&r, and the &lDeployers&r will combine the different items with it."
-				"Repeat the operation once more by replacing the &#382969Lead Rod&r with the &6Partial Wirecutter&r and you will obtain your &6Engineer's Wire Cutters&r!"
+				"Power the &lDeployers&r and the &lBelt&r with some &nkinetic energy&r. The &#404969Lead Rod&r will move on the &lBelt&r, and the &lDeployers&r will combine the different items with it."
+				"Repeat the operation once more by replacing the &#404969Lead Rod&r with the &6Partial Wirecutter&r and you will obtain your &6Engineer's Wire Cutters&r!"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1645,6 +1710,11 @@
 			id: "39F79DC1FE7DABD0"
 			tasks: [{
 				id: "3D0A270D8C7C8717"
+				type: "item"
+				item: "immersiveengineering:component_iron"
+			}]
+			rewards: [{
+				id: "40E2A794F31B1F90"
 				type: "item"
 				item: "immersiveengineering:component_iron"
 			}]
@@ -1829,6 +1899,11 @@
 				type: "item"
 				item: "immersiveengineering:mold_gear"
 			}]
+			rewards: [{
+				id: "05EFCD76D7DE629D"
+				type: "item"
+				item: "emendatusenigmatica:steel_ingot"
+			}]
 		}
 		{
 			title: "Rod"
@@ -1840,6 +1915,11 @@
 				id: "2E6802D0E08F883D"
 				type: "item"
 				item: "immersiveengineering:mold_rod"
+			}]
+			rewards: [{
+				id: "1B632F740A81755F"
+				type: "item"
+				item: "emendatusenigmatica:steel_ingot"
 			}]
 		}
 		{
@@ -1853,6 +1933,11 @@
 				type: "item"
 				item: "immersiveengineering:mold_plate"
 			}]
+			rewards: [{
+				id: "4503342512E429B9"
+				type: "item"
+				item: "emendatusenigmatica:steel_ingot"
+			}]
 		}
 		{
 			title: "Wire"
@@ -1864,6 +1949,11 @@
 				id: "0B7C1BB4B70AEB62"
 				type: "item"
 				item: "immersiveengineering:mold_wire"
+			}]
+			rewards: [{
+				id: "058F389273B55119"
+				type: "item"
+				item: "emendatusenigmatica:steel_ingot"
 			}]
 		}
 		{
@@ -2344,6 +2434,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2EE3965678B0BE31"
+				type: "item"
+				item: "immersiveengineering:hemp_fabric"
+				count: 16
+			}]
 		}
 		{
 			x: 13.900000000000006d
@@ -2508,6 +2604,11 @@
 				id: "28D8DF92B223CA0D"
 				type: "item"
 				item: "immersiveengineering:turret_gun"
+			}]
+			rewards: [{
+				id: "3E34617162AC8D1B"
+				type: "item"
+				item: "emendatusenigmatica:steel_ingot"
 			}]
 		}
 		{
@@ -2824,6 +2925,11 @@
 				type: "item"
 				item: "immersivepetroleum:napalm_bucket"
 			}]
+			rewards: [{
+				id: "1088A73D98D7CB65"
+				type: "item"
+				item: "immersivepetroleum:napalm_bucket"
+			}]
 		}
 		{
 			x: 14.249999999999993d
@@ -2835,6 +2941,11 @@
 			id: "690D9AB4F6F3589D"
 			tasks: [{
 				id: "3C8936A0064D0449"
+				type: "item"
+				item: "immersivepetroleum:gasoline_bucket"
+			}]
+			rewards: [{
+				id: "1EA26E5AEDC85EED"
 				type: "item"
 				item: "immersivepetroleum:gasoline_bucket"
 			}]
@@ -2852,6 +2963,11 @@
 				type: "item"
 				item: "immersivepetroleum:lubricant_bucket"
 			}]
+			rewards: [{
+				id: "0FFACB40644487BE"
+				type: "item"
+				item: "immersivepetroleum:lubricant_bucket"
+			}]
 		}
 		{
 			x: 14.249999999999993d
@@ -2860,6 +2976,11 @@
 			id: "23FBADE5F25C5E9A"
 			tasks: [{
 				id: "03C41E88650BB801"
+				type: "item"
+				item: "pneumaticcraft:oil_bucket"
+			}]
+			rewards: [{
+				id: "3D4E2963390C4658"
 				type: "item"
 				item: "pneumaticcraft:oil_bucket"
 			}]
@@ -2875,6 +2996,11 @@
 			id: "6584EF82FE88D68E"
 			tasks: [{
 				id: "3D3CD7C466DE279B"
+				type: "item"
+				item: "immersivepetroleum:diesel_sulfur_bucket"
+			}]
+			rewards: [{
+				id: "127B8BC566646680"
 				type: "item"
 				item: "immersivepetroleum:diesel_sulfur_bucket"
 			}]
@@ -3336,6 +3462,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1697418C358A5825"
+				type: "item"
+				item: "immersiveengineering:armor_piercing"
+				count: 6
+			}]
 		}
 		{
 			x: 5.800000000000011d
@@ -3346,6 +3478,11 @@
 				id: "26E34A3DCB794D24"
 				type: "item"
 				item: "immersiveengineering:toolupgrade_revolver_electro"
+			}]
+			rewards: [{
+				id: "440CAA6AAEF116B4"
+				type: "item"
+				item: "emendatusenigmatica:steel_ingot"
 			}]
 		}
 		{
@@ -3358,6 +3495,11 @@
 				type: "item"
 				item: "immersiveengineering:toolupgrade_revolver_magazine"
 			}]
+			rewards: [{
+				id: "066AAF60FDF7A2E6"
+				type: "item"
+				item: "emendatusenigmatica:steel_ingot"
+			}]
 		}
 		{
 			x: 4.2999999999999865d
@@ -3368,6 +3510,11 @@
 				id: "16BF594756B6427F"
 				type: "item"
 				item: "immersiveengineering:toolupgrade_revolver_bayonet"
+			}]
+			rewards: [{
+				id: "2B9F0CE7DC066F8E"
+				type: "item"
+				item: "emendatusenigmatica:steel_ingot"
 			}]
 		}
 	]

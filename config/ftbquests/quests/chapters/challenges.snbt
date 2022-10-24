@@ -1,7 +1,7 @@
 {
 	id: "5708E205477E3B79"
 	group: ""
-	order_index: 4
+	order_index: 2
 	filename: "challenges"
 	title: "Challenges"
 	icon: {
@@ -28,6 +28,13 @@
 				entity: "minecraft:zombie"
 				value: 100L
 			}]
+			rewards: [{
+				id: "4488884B7BF04A01"
+				type: "item"
+				item: "minecraft:zombie_head"
+				count: 5
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 3.0d
@@ -42,6 +49,13 @@
 				icon: "minecraft:skeleton_skull"
 				entity: "minecraft:skeleton"
 				value: 100L
+			}]
+			rewards: [{
+				id: "04AA980AF6FAA405"
+				type: "item"
+				item: "minecraft:skeleton_skull"
+				count: 5
+				random_bonus: 5
 			}]
 		}
 		{
@@ -58,6 +72,13 @@
 				entity: "minecraft:creeper"
 				value: 100L
 			}]
+			rewards: [{
+				id: "79DA027C82496513"
+				type: "item"
+				item: "minecraft:gunpowder"
+				count: 16
+				random_bonus: 48
+			}]
 		}
 		{
 			x: 9.0d
@@ -72,6 +93,13 @@
 				icon: "minecraft:wither_skeleton_skull"
 				entity: "minecraft:wither_skeleton"
 				value: 100L
+			}]
+			rewards: [{
+				id: "794090558DAF47E0"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+				count: 5
+				random_bonus: 5
 			}]
 		}
 		{
@@ -94,6 +122,11 @@
 				entity: "minecraft:ender_dragon"
 				value: 10L
 			}]
+			rewards: [{
+				id: "7F73FFD8E18D0D63"
+				type: "item"
+				item: "minecraft:dragon_egg"
+			}]
 		}
 		{
 			x: 6.0d
@@ -115,6 +148,11 @@
 				entity: "minecraft:wither"
 				value: 10L
 			}]
+			rewards: [{
+				id: "0DEC0EAF177EB5EF"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
 		}
 		{
 			x: 4.5d
@@ -128,6 +166,13 @@
 				icon: "tconstruct:enderman_head"
 				entity: "minecraft:enderman"
 				value: 100L
+			}]
+			rewards: [{
+				id: "0535ECFDB3F02679"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 16
+				random_bonus: 48
 			}]
 		}
 		{
@@ -143,6 +188,13 @@
 				entity: "minecraft:spider"
 				value: 100L
 			}]
+			rewards: [{
+				id: "6D09556CC1EECE2E"
+				type: "item"
+				item: "minecraft:string"
+				count: 16
+				random_bonus: 48
+			}]
 		}
 		{
 			x: 7.5d
@@ -156,6 +208,13 @@
 				icon: "tconstruct:cave_spider_head"
 				entity: "minecraft:cave_spider"
 				value: 100L
+			}]
+			rewards: [{
+				id: "12CC78306E92E701"
+				type: "item"
+				item: "minecraft:string"
+				count: 16
+				random_bonus: 48
 			}]
 		}
 		{
@@ -171,6 +230,13 @@
 				entity: "minecraft:blaze"
 				value: 100L
 			}]
+			rewards: [{
+				id: "1300511FF446EE7F"
+				type: "item"
+				item: "minecraft:blaze_rod"
+				count: 16
+				random_bonus: 48
+			}]
 		}
 		{
 			x: 1.5d
@@ -184,6 +250,17 @@
 				icon: "tconstruct:drowned_head"
 				entity: "minecraft:drowned"
 				value: 100L
+			}]
+			rewards: [{
+				id: "03C2B700FAF72345"
+				type: "item"
+				item: {
+					id: "minecraft:trident"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -199,6 +276,12 @@
 				entity: "minecraft:husk"
 				value: 100L
 			}]
+			rewards: [{
+				id: "0D1DE5A00FC31F45"
+				type: "item"
+				item: "tconstruct:husk_head"
+				random_bonus: 4
+			}]
 		}
 		{
 			x: 0.0d
@@ -212,6 +295,13 @@
 				icon: "tconstruct:zombified_piglin_head"
 				entity: "minecraft:zombified_piglin"
 				value: 100L
+			}]
+			rewards: [{
+				id: "640585E0D7EF5138"
+				type: "item"
+				item: "minecraft:gold_nugget"
+				count: 8
+				random_bonus: 24
 			}]
 		}
 		{
@@ -227,6 +317,12 @@
 				entity: "minecraft:stray"
 				value: 100L
 			}]
+			rewards: [{
+				id: "6F06F5DBD50D970B"
+				type: "item"
+				item: "tconstruct:stray_head"
+				random_bonus: 4
+			}]
 		}
 		{
 			x: 3.0d
@@ -241,6 +337,12 @@
 				entity: "minecraft:piglin"
 				value: 100L
 			}]
+			rewards: [{
+				id: "5FDFCB7866537C89"
+				type: "item"
+				item: "tconstruct:piglin_head"
+				random_bonus: 4
+			}]
 		}
 		{
 			x: 6.0d
@@ -254,6 +356,12 @@
 				icon: "tconstruct:piglin_brute_head"
 				entity: "minecraft:piglin_brute"
 				value: 100L
+			}]
+			rewards: [{
+				id: "3756C03FC16D8332"
+				type: "item"
+				item: "tconstruct:piglin_brute_head"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -275,6 +383,13 @@
 				entity: "thermal:basalz"
 				value: 100L
 			}]
+			rewards: [{
+				id: "2510E0E7EDCB0D1A"
+				type: "item"
+				item: "thermal:basalz_rod"
+				count: 16
+				random_bonus: 48
+			}]
 		}
 		{
 			x: 4.5d
@@ -294,6 +409,13 @@
 				}
 				entity: "thermal:blitz"
 				value: 100L
+			}]
+			rewards: [{
+				id: "61D48528EA8AA6F2"
+				type: "item"
+				item: "thermal:blitz_rod"
+				count: 16
+				random_bonus: 48
 			}]
 		}
 		{
@@ -315,6 +437,13 @@
 				entity: "thermal:blizz"
 				value: 100L
 			}]
+			rewards: [{
+				id: "4560CF115B33140F"
+				type: "item"
+				item: "thermal:blizz_rod"
+				count: 16
+				random_bonus: 48
+			}]
 		}
 		{
 			x: -1.25d
@@ -325,6 +454,11 @@
 				id: "191FD7F586234C00"
 				type: "item"
 				item: "meetyourfight:spectres_grasp"
+			}]
+			rewards: [{
+				id: "0BC1D0D1799EDCCD"
+				type: "item"
+				item: "meetyourfight:phantoplasm"
 			}]
 		}
 		{
@@ -337,6 +471,11 @@
 				type: "item"
 				item: "meetyourfight:spectres_eye"
 			}]
+			rewards: [{
+				id: "67119E995A962E2B"
+				type: "item"
+				item: "meetyourfight:phantoplasm"
+			}]
 		}
 		{
 			x: 0.25d
@@ -348,6 +487,11 @@
 				type: "item"
 				item: "meetyourfight:passages_toll"
 			}]
+			rewards: [{
+				id: "3A7335DF3EE7A67D"
+				type: "item"
+				item: "meetyourfight:phantoplasm"
+			}]
 		}
 		{
 			x: 0.75d
@@ -358,6 +502,11 @@
 				id: "2D374C4FF79C6770"
 				type: "item"
 				item: "meetyourfight:aether_glazed_cupcake"
+			}]
+			rewards: [{
+				id: "702CFBAC6AEDD539"
+				type: "item"
+				item: "meetyourfight:phantoplasm"
 			}]
 		}
 		{
@@ -383,6 +532,11 @@
 				type: "item"
 				item: "meetyourfight:haunted_bell"
 			}]
+			rewards: [{
+				id: "38BA74AFB5F54513"
+				type: "item"
+				item: "meetyourfight:phantoplasm"
+			}]
 		}
 		{
 			x: 3.5d
@@ -400,6 +554,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "701D7F2444E2837C"
+					type: "item"
+					item: "meetyourfight:mossy_tooth"
+				}
+				{
+					id: "299508E723955AAF"
+					type: "item"
+					item: "meetyourfight:fortunes_favor"
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -411,6 +577,18 @@
 				type: "item"
 				item: "meetyourfight:bone_raker"
 			}]
+			rewards: [
+				{
+					id: "641E03F6753DBF8A"
+					type: "item"
+					item: "meetyourfight:mossy_tooth"
+				}
+				{
+					id: "75C93842753E704E"
+					type: "item"
+					item: "meetyourfight:fortunes_favor"
+				}
+			]
 		}
 		{
 			x: 5.0d
@@ -422,6 +600,18 @@
 				type: "item"
 				item: "meetyourfight:marshy_delight"
 			}]
+			rewards: [
+				{
+					id: "5349B339CCC1E83B"
+					type: "item"
+					item: "meetyourfight:mossy_tooth"
+				}
+				{
+					id: "26A9D9DB285296B3"
+					type: "item"
+					item: "meetyourfight:fortunes_favor"
+				}
+			]
 		}
 		{
 			x: 4.5d
@@ -446,6 +636,18 @@
 				type: "item"
 				item: "meetyourfight:fossil_bait"
 			}]
+			rewards: [
+				{
+					id: "124BEF4CFBAC4CCF"
+					type: "item"
+					item: "meetyourfight:mossy_tooth"
+				}
+				{
+					id: "1059F08A31F72897"
+					type: "item"
+					item: "meetyourfight:fortunes_favor"
+				}
+			]
 		}
 		{
 			x: 5.5d
@@ -457,6 +659,18 @@
 				type: "item"
 				item: "meetyourfight:caged_heart"
 			}]
+			rewards: [
+				{
+					id: "244B74CDB6E72EDE"
+					type: "item"
+					item: "meetyourfight:mossy_tooth"
+				}
+				{
+					id: "3141D1133AD92DEB"
+					type: "item"
+					item: "meetyourfight:fortunes_favor"
+				}
+			]
 		}
 		{
 			x: 8.25d
@@ -468,6 +682,11 @@
 				type: "item"
 				item: "meetyourfight:ace_of_iron"
 			}]
+			rewards: [{
+				id: "52E8FADD30870042"
+				type: "item"
+				item: "meetyourfight:fortunes_favor"
+			}]
 		}
 		{
 			x: 8.75d
@@ -478,6 +697,11 @@
 				id: "01DD685CA5762983"
 				type: "item"
 				item: "meetyourfight:velvet_fortune"
+			}]
+			rewards: [{
+				id: "6627B1B27BE8CC39"
+				type: "item"
+				item: "meetyourfight:fortunes_favor"
 			}]
 		}
 		{
@@ -503,6 +727,11 @@
 				type: "item"
 				item: "meetyourfight:devils_ante"
 			}]
+			rewards: [{
+				id: "7A65D58F48E6CC63"
+				type: "item"
+				item: "meetyourfight:fortunes_favor"
+			}]
 		}
 		{
 			x: 9.75d
@@ -513,6 +742,11 @@
 				id: "6058D3FF23E2D26C"
 				type: "item"
 				item: "meetyourfight:slicers_dice"
+			}]
+			rewards: [{
+				id: "1A298B48958ACCCD"
+				type: "item"
+				item: "meetyourfight:fortunes_favor"
 			}]
 		}
 		{
@@ -531,11 +765,16 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "23E147372A68AC17"
+				type: "item"
+				item: "meetyourfight:fortunes_favor"
+			}]
 		}
 		{
 			x: 3.0d
 			y: -4.0d
-			description: ["Open 100 instanced, per-plaer Loot containers and collect your rewards !"]
+			description: ["Open 100 instanced, per-player Loot containers and collect your rewards !"]
 			size: 2.0d
 			id: "7A5BDCBFD80916AB"
 			tasks: [{
@@ -543,6 +782,11 @@
 				type: "advancement"
 				advancement: "lootr:100loot"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "265617B4EC3DC53D"
+				type: "random"
+				table_id: 6536409824012758983L
 			}]
 		}
 		{
@@ -897,6 +1141,11 @@
 			]
 			size: 2.0d
 			id: "08FFF926B85A6ECF"
+			rewards: [{
+				id: "04644E32520BE288"
+				type: "random"
+				table_id: 6536409824012758983L
+			}]
 		}
 	]
 }

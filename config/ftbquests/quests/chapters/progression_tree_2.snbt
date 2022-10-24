@@ -1,12 +1,667 @@
 {
 	id: "0CF7BBFBC84B2F49"
 	group: ""
-	order_index: 3
+	order_index: 1
 	filename: "progression_tree_2"
 	title: "Progression Tree"
 	icon: "minecraft:oak_sapling"
-	subtitle: ["Ajouter une image pour l'arbre de progression"]
-	default_quest_shape: ""
+	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
-	quests: [ ]
+	images: [
+		{
+			x: 0.5d
+			y: -1.5d
+			width: 4.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/tome1.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			width: 4.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/tome2.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: 4.5d
+			width: 4.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/tome3.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: 7.5d
+			width: 4.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/tome4.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: 10.5d
+			width: 4.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/tome5.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: 13.5d
+			width: 4.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/tome6.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			width: 11.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "chroma:textures/quests/tome.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			width: 11.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "chroma:textures/quests/tome.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: 5.5d
+			width: 11.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "chroma:textures/quests/tome.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: 8.5d
+			width: 11.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "chroma:textures/quests/tome.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: 11.5d
+			width: 11.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "chroma:textures/quests/tome.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: 14.5d
+			width: 11.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "chroma:textures/quests/tome.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: 16.5d
+			width: 4.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/tome7.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: 17.5d
+			width: 11.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "chroma:textures/quests/tome.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: 19.5d
+			width: 4.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/tome8.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: 20.5d
+			width: 11.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "chroma:textures/quests/tome.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Tetra"
+			icon: "tetra:basic_workbench"
+			x: -0.25d
+			y: -0.25d
+			dependencies: ["7A3D3399611B2809"]
+			id: "257D7C966898688A"
+			tasks: [{
+				id: "677B17399E3B9FB5"
+				type: "item"
+				item: {
+					id: "tetra:modular_double"
+					Count: 1b
+					tag: {
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "d24c27f5-8afa-42e6-9529-fa8e33fecb36"
+						"double/basic_hammer_right_material": "basic_hammer/oak"
+						Damage: 0
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/basic_hammer_left_material": "basic_hammer/oak"
+					}
+				}
+			}]
+		}
+		{
+			title: "Tinkers' Construct (First part)"
+			icon: "tconstruct:tinkers_anvil"
+			x: -1.75d
+			y: -0.25d
+			id: "3B17CF0B4A59603D"
+			tasks: [{
+				id: "1D152AC0AA4D7537"
+				type: "item"
+				item: "tconstruct:pattern"
+			}]
+		}
+		{
+			title: "Create"
+			icon: "create:wrench"
+			x: 2.75d
+			y: -0.25d
+			id: "4E8BE91C68D5256F"
+			tasks: [{
+				id: "0C151D6327909DD9"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+		}
+		{
+			title: "Vanilla"
+			icon: "minecraft:grass_block"
+			x: -3.25d
+			y: -0.25d
+			id: "46972B2667761A95"
+			tasks: [{
+				id: "1A5800623D263F9A"
+				type: "item"
+				title: "Logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+			}]
+		}
+		{
+			title: "Immersive Engineering"
+			icon: {
+				id: "immersiveengineering:hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.0d
+			y: 2.75d
+			id: "31ECBDF65045965D"
+			tasks: [{
+				id: "0A39C8BE6B5161A9"
+				type: "item"
+				item: {
+					id: "immersiveengineering:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Occultism"
+			icon: "occultism:spirit_fire"
+			x: 0.5d
+			y: 2.75d
+			id: "089E94A6B4BA3CE3"
+			tasks: [{
+				id: "382D6CA17EF6639B"
+				type: "item"
+				item: "occultism:dictionary_of_spirits"
+			}]
+		}
+		{
+			title: "Better End"
+			icon: "betterendforge:eternal_crystal"
+			x: 4.25d
+			y: -0.25d
+			id: "0A2C953E1209CA36"
+			tasks: [{
+				id: "58C728F1F8E156BF"
+				type: "item"
+				item: "betterendforge:thallasium_ore"
+			}]
+		}
+		{
+			title: "Mobs Farm"
+			icon: "mob_grinding_utils:saw"
+			x: 2.0d
+			y: 2.75d
+			id: "2D5DCCA4C8F9353D"
+			tasks: [{
+				id: "7D5B91BB788A5FCC"
+				type: "item"
+				item: "miniutilities:wooden_spikes"
+			}]
+		}
+		{
+			title: "Thermal"
+			icon: "thermal:machine_frame"
+			x: -1.0d
+			y: 5.75d
+			id: "0330933B8ED2E6E0"
+			tasks: [{
+				id: "19A10F3BEEFA1466"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
+		}
+		{
+			title: "Botania"
+			icon: {
+				id: "botania:lexicon"
+				Count: 1b
+				tag: {
+					"botania:elven_unlock": 1b
+				}
+			}
+			x: 0.5d
+			y: 5.75d
+			id: "613C1B7A0DADBAAC"
+			tasks: [{
+				id: "209523A96C9093FD"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+		}
+		{
+			title: "Mini Utilities"
+			icon: {
+				id: "miniutilities:unstable_ingot"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.0d
+			y: 5.75d
+			id: "1A27DA39167000D0"
+			tasks: [{
+				id: "5B6719FF21C3354E"
+				type: "item"
+				item: "miniutilities:iron_opinium_core"
+			}]
+		}
+		{
+			title: "Ars Nouveau"
+			icon: "ars_nouveau:enchanting_apparatus"
+			x: -1.75d
+			y: 8.75d
+			id: "6FA6ECF3F4A15C92"
+			tasks: [{
+				id: "4BA528806ABC6402"
+				type: "item"
+				item: "ars_nouveau:arcane_stone"
+			}]
+		}
+		{
+			title: "Elemental Craft"
+			icon: "elementalcraft:pure_element_holder"
+			x: -0.25d
+			y: 8.75d
+			id: "3A98980C960E6FDA"
+			tasks: [{
+				id: "7D474DD773C08142"
+				type: "item"
+				item: "elementalcraft:containedcrystal"
+			}]
+		}
+		{
+			title: "Pedestal"
+			icon: "pedestals:coin/xpenchanter"
+			x: 1.25d
+			y: 8.75d
+			id: "4D588CBE6280EFB3"
+			tasks: [{
+				id: "487183D45196CC46"
+				type: "item"
+				item: "pedestals:linkingtool"
+			}]
+		}
+		{
+			title: "The Undergarden"
+			icon: "undergarden:catalyst"
+			x: 2.75d
+			y: 8.75d
+			id: "28AEE23AA882426F"
+			tasks: [{
+				id: "083D510690512DEC"
+				type: "item"
+				item: "undergarden:catalyst"
+			}]
+		}
+		{
+			title: "PneumaticCraft"
+			icon: "pneumaticcraft:pressure_gauge"
+			x: -2.5d
+			y: 11.75d
+			id: "5F8798C6C42F7C8D"
+			tasks: [{
+				id: "5DB0AD568F97AA36"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+			}]
+		}
+		{
+			title: "Prefab"
+			icon: "prefab:item_starter_farm"
+			x: -1.0d
+			y: 11.75d
+			id: "07FA83D1B95248C2"
+			tasks: [{
+				id: "53B5B8749F7B9367"
+				type: "item"
+				item: "prefab:item_ton_of_timber"
+			}]
+		}
+		{
+			title: "Xnet"
+			icon: "xnet:controller"
+			x: 0.5d
+			y: 11.75d
+			id: "39E93C8810C5BB25"
+			tasks: [{
+				id: "5C5679A363B3A97A"
+				type: "item"
+				item: "xnet:controller"
+			}]
+		}
+		{
+			title: "Compact Machines"
+			icon: "compactmachines:personal_shrinking_device"
+			x: 2.0d
+			y: 11.75d
+			id: "3737EF3F7EF438F8"
+			tasks: [{
+				id: "7D0AAB4FAA18CE06"
+				type: "item"
+				item: "compactmachines:personal_shrinking_device"
+			}]
+		}
+		{
+			title: "Tardis"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "chroma:textures/quests/tardiss.png"
+				}
+			}
+			x: 3.5d
+			y: 11.75d
+			id: "1C844671FC1EC144"
+			tasks: [{
+				id: "141942F4DB172227"
+				type: "item"
+				item: "tardis:xion_crystal"
+			}]
+		}
+		{
+			title: "Industrial Foregoing"
+			icon: "industrialforegoing:machine_frame_advanced"
+			x: -2.5d
+			y: 14.75d
+			id: "40DE641B878E2388"
+			tasks: [{
+				id: "4A60D95F3AEA1F87"
+				type: "item"
+				item: "industrialforegoing:machine_frame_pity"
+			}]
+		}
+		{
+			title: "RFTools"
+			icon: "rftoolsbuilder:builder"
+			x: -1.0d
+			y: 14.75d
+			id: "6547E21B972D62ED"
+			tasks: [{
+				id: "27413A45428AEFD8"
+				type: "item"
+				item: "rftoolsbase:machine_frame"
+			}]
+		}
+		{
+			title: "Extreme Reactors"
+			icon: "bigreactors:basic_reactorfuelrod"
+			x: 0.5d
+			y: 14.75d
+			id: "6BC40A001C73DE50"
+			tasks: [{
+				id: "3E22F200767B6883"
+				type: "item"
+				item: "bigreactors:graphite_ingot"
+			}]
+		}
+		{
+			title: "EnderIO"
+			icon: "enderioalloys:item_material_skull_zombie_controller"
+			x: 2.0d
+			y: 14.75d
+			id: "202917A497B4CAA8"
+			tasks: [{
+				id: "1EA9C7DA5A396201"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:alloy_smelter"
+					}
+				}
+			}]
+		}
+		{
+			title: "Mekanism"
+			icon: "mekanism:ultimate_control_circuit"
+			x: 3.5d
+			y: 14.75d
+			id: "4CB2E7B965489C75"
+			tasks: [{
+				id: "6AAAF2EF8E1A9A27"
+				type: "item"
+				item: "mekanism:steel_casing"
+			}]
+		}
+		{
+			title: "Extended Crafting"
+			icon: "extendedcrafting:elite_table"
+			x: -1.0d
+			y: 17.75d
+			id: "010272BC23A043FB"
+			tasks: [{
+				id: "545FEF755A32FCBB"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
+			}]
+		}
+		{
+			title: "Environmental Tech"
+			icon: "envirotech:nanorite_void_miner_ccu"
+			x: 0.5d
+			y: 17.75d
+			id: "66BB6B093EC932C0"
+			tasks: [{
+				id: "7C95A6F74B59B39D"
+				type: "item"
+				item: "envirocore:litherite_crystal"
+			}]
+		}
+		{
+			title: "Refined Storage"
+			icon: "refinedstorage:creative_controller"
+			x: 2.0d
+			y: 17.75d
+			id: "6F89FD43B6803650"
+			tasks: [{
+				id: "3D9812A9C413C096"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+			}]
+		}
+		{
+			title: "Powah"
+			icon: "powah:crystal_niotic"
+			x: -1.0d
+			y: 20.75d
+			id: "25B82C09B38CDB53"
+			tasks: [{
+				id: "49598F1ED3F67D49"
+				type: "item"
+				item: "kubejs:silicon_grease"
+			}]
+		}
+		{
+			title: "ProjectE"
+			icon: {
+				id: "projecte:philosophers_stone"
+				Count: 1b
+				tag: { }
+				ForgeCaps: {
+					Parent: { }
+				}
+			}
+			x: 2.0d
+			y: 20.75d
+			id: "43FF18CA51A44D61"
+			tasks: [{
+				id: "3DF8C3797B860366"
+				type: "item"
+				item: "projecte:collector_mk1"
+			}]
+		}
+		{
+			title: "Draconic Evolution"
+			icon: "draconicevolution:awakened_core"
+			x: 0.5d
+			y: 20.75d
+			id: "6DCA9DFEA6D89CB9"
+			tasks: [{
+				id: "09922948FF680A87"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+			}]
+		}
+		{
+			icon: "pneumaticcraft:creative_upgrade"
+			x: 0.5d
+			y: 23.25d
+			shape: "octagon"
+			size: 2.5d
+			id: "7383BE89B35A1DCC"
+			tasks: [{
+				id: "46DAD04B683FFF95"
+				type: "checkmark"
+				title: "Creative Chapter"
+			}]
+		}
+		{
+			title: "Tinkers' Construct (Smeltery, Foundry, ..)"
+			icon: "tconstruct:smeltery_controller"
+			x: 1.25d
+			y: -0.25d
+			id: "2D6705A40949736E"
+			tasks: [{
+				id: "263FE54B4C181628"
+				type: "item"
+				item: "tconstruct:seared_brick"
+			}]
+		}
+	]
 }

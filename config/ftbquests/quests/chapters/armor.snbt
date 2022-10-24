@@ -1,7 +1,7 @@
 {
 	id: "33B22BF0C5FCBA9D"
 	group: ""
-	order_index: 8
+	order_index: 7
 	filename: "armor"
 	title: "Dressing Room"
 	icon: {
@@ -34,6 +34,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3D1637C4287E8313"
+				type: "item"
+				item: "minecraft:leather"
+				random_bonus: 4
+			}]
 		}
 		{
 			x: -5.75d
@@ -50,6 +56,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "6410025F820AC627"
+				type: "item"
+				item: "minecraft:leather"
+				random_bonus: 7
 			}]
 		}
 		{
@@ -69,6 +81,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0DD4B63D83C92B13"
+				type: "item"
+				item: "minecraft:leather"
+				random_bonus: 6
+			}]
 		}
 		{
 			x: -5.25d
@@ -85,6 +103,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "2CCD7D756FF4C4A4"
+				type: "item"
+				item: "minecraft:leather"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -103,6 +127,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "060002C6434E0D4C"
+				type: "item"
+				item: "byg:chain_plating"
+				random_bonus: 4
+			}]
 		}
 		{
 			x: -6.75d
@@ -119,6 +149,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "4D457AD13AE9DEA6"
+				type: "item"
+				item: "byg:chain_plating"
+				random_bonus: 7
 			}]
 		}
 		{
@@ -137,6 +173,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2049CFF63E1BD95D"
+				type: "item"
+				item: "byg:chain_plating"
+				random_bonus: 6
+			}]
 		}
 		{
 			x: -6.25d
@@ -153,6 +195,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "29259FB74979D780"
+				type: "item"
+				item: "byg:chain_plating"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -171,6 +219,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6FFE022D83AF8019"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				random_bonus: 4
+			}]
 		}
 		{
 			x: -2.75d
@@ -187,6 +241,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "62823DDFCC4879A3"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				random_bonus: 7
 			}]
 		}
 		{
@@ -205,6 +265,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "633E8D700371E272"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				random_bonus: 6
+			}]
 		}
 		{
 			x: -2.25d
@@ -221,6 +287,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "0D76B108404EB0E0"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -239,6 +311,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0FCBE0B2EB5B509D"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				random_bonus: 4
+			}]
 		}
 		{
 			x: -6.75d
@@ -255,6 +333,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "2059CDD2F1911141"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				random_bonus: 7
 			}]
 		}
 		{
@@ -273,6 +357,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0B0AC71F93739114"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				random_bonus: 6
+			}]
 		}
 		{
 			x: -6.25d
@@ -289,6 +379,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "5730FDD29858FDEE"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -307,6 +403,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7F5E7FE6E0594CF3"
+				type: "item"
+				item: "minecraft:diamond"
+				random_bonus: 4
+			}]
 		}
 		{
 			x: -2.75d
@@ -323,6 +425,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "71AEE7896C333ADC"
+				type: "item"
+				item: "minecraft:diamond"
+				random_bonus: 7
 			}]
 		}
 		{
@@ -341,6 +449,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1896E2FC7763D0DA"
+				type: "item"
+				item: "minecraft:diamond"
+				random_bonus: 6
+			}]
 		}
 		{
 			x: -2.25d
@@ -357,6 +471,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "43F53EE978F34812"
+				type: "item"
+				item: "minecraft:diamond"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -375,6 +495,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1D5CA4A856C38704"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
 		}
 		{
 			x: -3.75d
@@ -391,6 +516,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "051611DD141C92CD"
+				type: "item"
+				item: "minecraft:netherite_ingot"
 			}]
 		}
 		{
@@ -409,6 +539,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1DC93772C270011E"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
 		}
 		{
 			x: -3.25d
@@ -425,6 +560,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "32235B12C89D932A"
+				type: "item"
+				item: "minecraft:netherite_ingot"
 			}]
 		}
 		{
@@ -456,6 +596,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "55156771AD9365FD"
+				type: "item"
+				item: "minecraft:leather"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: -7.5d
@@ -485,6 +631,12 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "035D8F3A571AF42D"
+				type: "item"
+				item: "minecraft:leather"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -516,6 +668,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "560C23973D87CFC5"
+				type: "item"
+				item: "minecraft:leather"
+				random_bonus: 4
+			}]
 		}
 		{
 			x: -7.5d
@@ -545,6 +703,12 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "06D3A881D184D390"
+				type: "item"
+				item: "minecraft:leather"
+				random_bonus: 1
 			}]
 		}
 		{
@@ -577,6 +741,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1D55894CAF182716"
+				type: "item"
+				item: "emendatusenigmatica:cobalt_ingot"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: -7.0d
@@ -607,6 +777,12 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "6708303939CEC9EA"
+				type: "item"
+				item: "emendatusenigmatica:cobalt_ingot"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -639,6 +815,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2100BF4FD76E7FC4"
+				type: "item"
+				item: "emendatusenigmatica:cobalt_ingot"
+				random_bonus: 4
+			}]
 		}
 		{
 			x: -6.5d
@@ -669,6 +851,12 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "5BAF323BFFD1058A"
+				type: "item"
+				item: "emendatusenigmatica:cobalt_ingot"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -706,6 +894,12 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "54125AB772A4B55A"
+				type: "item"
+				item: "tconstruct:ender_slime"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -747,6 +941,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2711AAD752044C4C"
+				type: "item"
+				item: "tconstruct:ender_slime"
+				random_bonus: 6
+			}]
 		}
 		{
 			x: -6.0d
@@ -780,6 +980,12 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "728F4BE56B4FDFCF"
+				type: "item"
+				item: "tconstruct:ender_slime"
+				random_bonus: 7
 			}]
 		}
 		{
@@ -1205,6 +1411,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "126F41F7BEDC8395"
+				type: "item"
+				item: "tconstruct:ender_slime"
+				random_bonus: 4
+			}]
 		}
 		{
 			x: -3.0d
@@ -1220,6 +1432,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "0D5B7E512B1458C1"
+				type: "item"
+				item: "emendatusenigmatica:steel_plate"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -1237,6 +1455,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "70E566AE66646FCD"
+				type: "item"
+				item: "emendatusenigmatica:steel_plate"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -2.5d
@@ -1252,6 +1476,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "489F193BB6705AD6"
+				type: "item"
+				item: "emendatusenigmatica:steel_plate"
+				random_bonus: 6
 			}]
 		}
 		{
@@ -1269,6 +1499,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1531C05A31A7FE33"
+				type: "item"
+				item: "emendatusenigmatica:steel_plate"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -2.0d
@@ -1284,6 +1520,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "03EC1628B3B3F8D4"
+				type: "item"
+				item: "emendatusenigmatica:aluminum_plate"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -1301,6 +1543,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4557331F0D306AEF"
+				type: "item"
+				item: "emendatusenigmatica:aluminum_plate"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -1.5d
@@ -1316,6 +1564,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "4F3BC2C206AD88A5"
+				type: "item"
+				item: "emendatusenigmatica:aluminum_plate"
+				random_bonus: 6
 			}]
 		}
 		{
@@ -1333,6 +1587,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7A8D88382149A9E2"
+				type: "item"
+				item: "emendatusenigmatica:aluminum_plate"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -1.0d
@@ -1348,6 +1608,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "293E550020B7F298"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -1365,6 +1631,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "06A624DCE98CDEDC"
+				type: "item"
+				item: "thermal:diving_fabric"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: -0.5d
@@ -1380,6 +1652,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "1F12FB9077E60606"
+				type: "item"
+				item: "thermal:diving_fabric"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -1397,6 +1675,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4AA8F78C608D5492"
+				type: "item"
+				item: "thermal:diving_fabric"
+				random_bonus: 1
+			}]
 		}
 		{
 			x: -6.5d
@@ -1412,6 +1696,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "2D06FF8ED4AEDD8B"
+				type: "item"
+				item: "thermal:hazmat_fabric"
+				random_bonus: 1
 			}]
 		}
 		{
@@ -1429,6 +1719,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "443EA90037231E9B"
+				type: "item"
+				item: "thermal:hazmat_fabric"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -6.0d
@@ -1444,6 +1740,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "1EDD38996244DF82"
+				type: "item"
+				item: "thermal:hazmat_fabric"
+				random_bonus: 6
 			}]
 		}
 		{
@@ -1461,6 +1763,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "44548F572BEE7866"
+				type: "item"
+				item: "thermal:hazmat_fabric"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -6.0d
@@ -1476,6 +1784,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "39F44991191CA95F"
+				type: "item"
+				item: "botania:manasteel_ingot"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -1493,6 +1807,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6AE512ED78A8E270"
+				type: "item"
+				item: "botania:manasteel_ingot"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -5.5d
@@ -1508,6 +1828,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "0C951BD6203A21DA"
+				type: "item"
+				item: "botania:manasteel_ingot"
+				random_bonus: 6
 			}]
 		}
 		{
@@ -1525,6 +1851,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "280CBBF352ABAB94"
+				type: "item"
+				item: "botania:manasteel_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -4.25d
@@ -1540,6 +1872,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "796EF4938BAEAD6E"
+				type: "item"
+				item: "botania:elementium_ingot"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -1557,6 +1895,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2CDB7BBC4A2D71F9"
+				type: "item"
+				item: "botania:elementium_ingot"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -3.75d
@@ -1572,6 +1916,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "48E9C48396DD5A96"
+				type: "item"
+				item: "botania:elementium_ingot"
+				random_bonus: 6
 			}]
 		}
 		{
@@ -1589,6 +1939,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2CC9069A7746D7D2"
+				type: "item"
+				item: "botania:elementium_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -2.5d
@@ -1604,6 +1960,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "7A3DC2E23420BE8C"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -1621,6 +1983,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "45B043714B0D7164"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -2.0d
@@ -1636,6 +2004,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "5C4F400881CBAAC7"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+				random_bonus: 6
 			}]
 		}
 		{
@@ -1653,6 +2027,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0AD378B108FFF9B2"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -0.75d
@@ -1662,6 +2042,12 @@
 				id: "5C23EB9323BBAEE9"
 				type: "item"
 				item: "miniutilities:unstable_helmet"
+			}]
+			rewards: [{
+				id: "2B3DE13E8E04E900"
+				type: "item"
+				item: "bigreactors:ludicrite_ingot"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -1673,6 +2059,12 @@
 				type: "item"
 				item: "miniutilities:unstable_chestplate"
 			}]
+			rewards: [{
+				id: "5737ED03488AF68C"
+				type: "item"
+				item: "bigreactors:ludicrite_ingot"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -0.25d
@@ -1682,6 +2074,12 @@
 				id: "4F1A4A2C5E5EF25F"
 				type: "item"
 				item: "miniutilities:unstable_leggings"
+			}]
+			rewards: [{
+				id: "581BFA751A61A31C"
+				type: "item"
+				item: "bigreactors:ludicrite_ingot"
+				random_bonus: 6
 			}]
 		}
 		{
@@ -1693,6 +2091,12 @@
 				type: "item"
 				item: "miniutilities:unstable_boots"
 			}]
+			rewards: [{
+				id: "22B2526D50DE7792"
+				type: "item"
+				item: "bigreactors:ludicrite_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -7.75d
@@ -1702,6 +2106,11 @@
 				id: "0DA443EBD63FB794"
 				type: "item"
 				item: "miniutilities:infused_helmet"
+			}]
+			rewards: [{
+				id: "0903397C4400BFC5"
+				type: "item"
+				item: "miniutilities:experience_opinium_core"
 			}]
 		}
 		{
@@ -1713,6 +2122,28 @@
 				type: "item"
 				item: "miniutilities:infused_chestplate"
 			}]
+			rewards: [
+				{
+					id: "79DF6FA9BF37609B"
+					type: "item"
+					item: {
+						id: "miniutilities:unstable_ingot"
+						Count: 1b
+						tag: {
+							timeunstable: 55
+							Damage: 255
+							display: {
+								Name: "{\"translate\":\"text.miniutilities.unstableingot\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "37868D7350B2FA8B"
+					type: "item"
+					item: "miniutilities:experience_opinium_core"
+				}
+			]
 		}
 		{
 			x: -7.25d
@@ -1722,6 +2153,11 @@
 				id: "6ECF48DE6C586D74"
 				type: "item"
 				item: "miniutilities:infused_leggings"
+			}]
+			rewards: [{
+				id: "4EF1771E6D0A9EBA"
+				type: "item"
+				item: "miniutilities:experience_opinium_core"
 			}]
 		}
 		{
@@ -1733,6 +2169,28 @@
 				type: "item"
 				item: "miniutilities:infused_boots"
 			}]
+			rewards: [
+				{
+					id: "67BDA9E9C56AA0DC"
+					type: "item"
+					item: {
+						id: "miniutilities:unstable_ingot"
+						Count: 1b
+						tag: {
+							timeunstable: 55
+							Damage: 255
+							display: {
+								Name: "{\"translate\":\"text.miniutilities.unstableingot\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "27FA18279561C3F5"
+					type: "item"
+					item: "miniutilities:experience_opinium_core"
+				}
+			]
 		}
 		{
 			x: -5.25d
@@ -1748,6 +2206,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "5A5A927036892A36"
+				type: "item"
+				item: "undergarden:cloggrum_ingot"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -1765,6 +2229,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3631B6B894D1CF61"
+				type: "item"
+				item: "undergarden:cloggrum_ingot"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -4.75d
@@ -1780,6 +2250,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "58F3754CC0514B56"
+				type: "item"
+				item: "undergarden:cloggrum_ingot"
+				random_bonus: 6
 			}]
 		}
 		{
@@ -1797,6 +2273,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3214377517AF11DE"
+				type: "item"
+				item: "undergarden:cloggrum_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -3.25d
@@ -1812,6 +2294,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "2B35383B838241F3"
+				type: "item"
+				item: "undergarden:utherium_ingot"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -1829,6 +2317,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "17FD28170A8506F4"
+				type: "item"
+				item: "undergarden:utherium_ingot"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -2.75d
@@ -1844,6 +2338,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "7064F76C6FBBA5E7"
+				type: "item"
+				item: "undergarden:utherium_ingot"
+				random_bonus: 6
 			}]
 		}
 		{
@@ -1861,6 +2361,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3DCA9B7E09F18EFF"
+				type: "item"
+				item: "undergarden:utherium_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -2.0d
@@ -1876,6 +2382,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "3BE68DCD2B94459D"
+				type: "item"
+				item: "undergarden:froststeel_ingot"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -1893,6 +2405,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4363986787D7595A"
+				type: "item"
+				item: "undergarden:froststeel_ingot"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -1.5d
@@ -1908,6 +2426,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "1ED337072E9E269B"
+				type: "item"
+				item: "undergarden:froststeel_ingot"
+				random_bonus: 6
 			}]
 		}
 		{
@@ -1925,6 +2449,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3240C69337CB81CB"
+				type: "item"
+				item: "undergarden:froststeel_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -5.5d
@@ -1940,6 +2470,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "71F52D62212DBBE2"
+				type: "item"
+				item: "ars_nouveau:mana_fiber"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -1957,6 +2493,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3DD3CAC4AB9F4029"
+				type: "item"
+				item: "ars_nouveau:mana_fiber"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -5.0d
@@ -1972,6 +2514,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "1D88892CDC555A9B"
+				type: "item"
+				item: "ars_nouveau:mana_fiber"
+				random_bonus: 6
 			}]
 		}
 		{
@@ -1989,6 +2537,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "354D968CFF4ACEF2"
+				type: "item"
+				item: "ars_nouveau:mana_fiber"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -3.0d
@@ -2004,6 +2558,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "3883655FA2F383FD"
+				type: "item"
+				item: "ars_nouveau:blaze_fiber"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -2021,6 +2581,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "26294D726ED9BD8B"
+				type: "item"
+				item: "emendatusenigmatica:arcane_gem"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: -2.5d
@@ -2036,6 +2602,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "454962D1B5AF282F"
+				type: "item"
+				item: "ars_nouveau:blaze_fiber"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -2053,6 +2625,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6D353739B9C3EB33"
+				type: "item"
+				item: "ars_nouveau:blaze_fiber"
+				random_bonus: 1
+			}]
 		}
 		{
 			x: -4.25d
@@ -2068,6 +2646,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "7DF65DF19D393A0B"
+				type: "item"
+				item: "ars_nouveau:end_fiber"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -2085,6 +2669,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2C0DD94FD962BD80"
+				type: "item"
+				item: "ars_nouveau:end_fiber"
+				random_bonus: 6
+			}]
 		}
 		{
 			x: -3.75d
@@ -2100,6 +2690,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "378E6006DF5060D3"
+				type: "item"
+				item: "ars_nouveau:end_fiber"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -2117,6 +2713,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "08AF069ED6D9CE1C"
+				type: "item"
+				item: "ars_nouveau:end_fiber"
+				random_bonus: 1
+			}]
 		}
 		{
 			x: -7.75d
@@ -2127,6 +2729,17 @@
 				type: "item"
 				item: {
 					id: "arsarsenal:source_steel_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "622DB9F6F2AC3DCA"
+				type: "item"
+				item: {
+					id: "ars_nouveau:archmage_hood"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -2149,6 +2762,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "70786E5C97C5FC24"
+				type: "item"
+				item: {
+					id: "ars_nouveau:archmage_robes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			x: -7.25d
@@ -2159,6 +2783,17 @@
 				type: "item"
 				item: {
 					id: "arsarsenal:source_steel_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7F289A6665A4F832"
+				type: "item"
+				item: {
+					id: "ars_nouveau:archmage_leggings"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -2181,6 +2816,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "696C3BA95F84E589"
+				type: "item"
+				item: {
+					id: "ars_nouveau:archmage_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			x: -4.25d
@@ -2196,6 +2842,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "3BB3E36ED4096423"
+				type: "item"
+				item: "arsarsenal:sigil_of_pyromancy"
 			}]
 		}
 		{
@@ -2213,6 +2864,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0EBCDC49BF5134A2"
+				type: "item"
+				item: "arsarsenal:sigil_of_pyromancy"
+			}]
 		}
 		{
 			x: -3.75d
@@ -2228,6 +2884,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "3228A3EDF0D083F3"
+				type: "item"
+				item: "arsarsenal:sigil_of_pyromancy"
 			}]
 		}
 		{
@@ -2245,6 +2906,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0869FD14908006AC"
+				type: "item"
+				item: "arsarsenal:sigil_of_pyromancy"
+			}]
 		}
 		{
 			x: -6.0d
@@ -2260,6 +2926,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "28DD4B2641F811F3"
+				type: "item"
+				item: "arsarsenal:sigil_of_aquamancy"
 			}]
 		}
 		{
@@ -2277,6 +2948,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "039FAFF94AAD61A7"
+				type: "item"
+				item: "arsarsenal:sigil_of_aquamancy"
+			}]
 		}
 		{
 			x: -5.5d
@@ -2292,6 +2968,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "5C598254FD401190"
+				type: "item"
+				item: "arsarsenal:sigil_of_aquamancy"
 			}]
 		}
 		{
@@ -2309,6 +2990,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7FC3ED5894C6EB0F"
+				type: "item"
+				item: "arsarsenal:sigil_of_aquamancy"
+			}]
 		}
 		{
 			x: -4.25d
@@ -2324,6 +3010,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "2DE42B4DFD4F43A2"
+				type: "item"
+				item: "arsarsenal:sigil_of_geomancy"
 			}]
 		}
 		{
@@ -2341,6 +3032,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "18CF1EC857665EDF"
+				type: "item"
+				item: "arsarsenal:sigil_of_geomancy"
+			}]
 		}
 		{
 			x: -3.75d
@@ -2356,6 +3052,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "433348C4E5EAD63C"
+				type: "item"
+				item: "arsarsenal:sigil_of_geomancy"
 			}]
 		}
 		{
@@ -2373,6 +3074,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "29317BF3B3A3FBAD"
+				type: "item"
+				item: "arsarsenal:sigil_of_geomancy"
+			}]
 		}
 		{
 			x: -2.5d
@@ -2388,6 +3094,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "6B55528F470E6D44"
+				type: "item"
+				item: "arsarsenal:sigil_of_aethermancy"
 			}]
 		}
 		{
@@ -2405,6 +3116,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "04C6B5AE2A371279"
+				type: "item"
+				item: "arsarsenal:sigil_of_aethermancy"
+			}]
 		}
 		{
 			x: -2.0d
@@ -2420,6 +3136,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "57A89FDEF3581E92"
+				type: "item"
+				item: "arsarsenal:sigil_of_aethermancy"
 			}]
 		}
 		{
@@ -2437,6 +3158,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1590C4AA4A3DE4B5"
+				type: "item"
+				item: "arsarsenal:sigil_of_aethermancy"
+			}]
 		}
 		{
 			x: -6.5d
@@ -2452,6 +3178,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "150F18F18156CAAA"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -2469,6 +3201,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0678558BE2415E08"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -6.0d
@@ -2484,6 +3222,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "2CF6EC7CD0F27F6D"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				random_bonus: 6
 			}]
 		}
 		{
@@ -2501,6 +3245,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3B0CA1000D81D3FF"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -5.25d
@@ -2511,6 +3261,17 @@
 				type: "item"
 				item: {
 					id: "pneumaticcraft:pneumatic_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4959380EBAE4B113"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:compressed_iron_helmet"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -2533,6 +3294,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "43160BFB5E0A4BE3"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:compressed_iron_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			x: -4.75d
@@ -2543,6 +3315,17 @@
 				type: "item"
 				item: {
 					id: "pneumaticcraft:pneumatic_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "19912596E2550ADB"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:compressed_iron_leggings"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -2565,6 +3348,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6BC5FEC6952CEEC1"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:compressed_iron_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			x: -7.25d
@@ -2580,6 +3374,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "2AD0336EDF95548C"
+				type: "item"
+				item: "emendatusenigmatica:osmium_ingot"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -2597,6 +3397,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "746F20F34D3B678D"
+				type: "item"
+				item: "emendatusenigmatica:osmium_ingot"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -6.75d
@@ -2612,6 +3418,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "1B9872788A41E4FC"
+				type: "item"
+				item: "emendatusenigmatica:osmium_ingot"
+				random_bonus: 6
 			}]
 		}
 		{
@@ -2629,6 +3441,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "00AB5DAB7FD2F03B"
+				type: "item"
+				item: "emendatusenigmatica:osmium_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -6.25d
@@ -2644,6 +3462,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "43C31BBC8C541152"
+				type: "item"
+				item: "emendatusenigmatica:steel_ingot"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -2661,6 +3485,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1C33D0911B8613B0"
+				type: "item"
+				item: "emendatusenigmatica:steel_ingot"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -5.75d
@@ -2676,6 +3506,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "307A8DF471F57BC3"
+				type: "item"
+				item: "emendatusenigmatica:steel_ingot"
+				random_bonus: 6
 			}]
 		}
 		{
@@ -2693,6 +3529,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "600BD435ADDA5FD9"
+				type: "item"
+				item: "emendatusenigmatica:steel_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -5.75d
@@ -2708,6 +3550,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "2DBA62B0A156ACA5"
+				type: "item"
+				item: "minecraft:lapis_lazuli"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -2725,6 +3573,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "189F1DA48E4DA7F1"
+				type: "item"
+				item: "minecraft:lapis_lazuli"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -5.25d
@@ -2740,6 +3594,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "5E1A2C32C5359644"
+				type: "item"
+				item: "minecraft:lapis_lazuli"
+				random_bonus: 6
 			}]
 		}
 		{
@@ -2757,6 +3617,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7F4DB04DABAA0893"
+				type: "item"
+				item: "minecraft:lapis_lazuli"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -2.25d
@@ -2772,6 +3638,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "7FBC17DCDAC0A254"
+				type: "item"
+				item: "emendatusenigmatica:bronze_ingot"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -2789,6 +3661,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "07E6A262B08A0DF3"
+				type: "item"
+				item: "emendatusenigmatica:bronze_ingot"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -1.75d
@@ -2804,6 +3682,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "665B1BA2F5E3E991"
+				type: "item"
+				item: "emendatusenigmatica:bronze_ingot"
+				random_bonus: 6
 			}]
 		}
 		{
@@ -2821,6 +3705,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "205D002FAADBFBD4"
+				type: "item"
+				item: "emendatusenigmatica:bronze_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -2.75d
@@ -2836,6 +3726,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "2F68D13675DA08A2"
+				type: "item"
+				item: "mekanism:ingot_refined_glowstone"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -2853,6 +3749,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6D19FC23E93F055F"
+				type: "item"
+				item: "mekanism:ingot_refined_glowstone"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -2.25d
@@ -2868,6 +3770,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "04FCBB5BB9B1935A"
+				type: "item"
+				item: "mekanism:ingot_refined_glowstone"
+				random_bonus: 6
 			}]
 		}
 		{
@@ -2885,6 +3793,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "783F80FB10763C1F"
+				type: "item"
+				item: "mekanism:ingot_refined_glowstone"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -1.25d
@@ -2900,6 +3814,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "4A31BD047906A25D"
+				type: "item"
+				item: "mekanism:ingot_refined_obsidian"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -2917,6 +3837,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1C3C525499CEDBD4"
+				type: "item"
+				item: "mekanism:ingot_refined_obsidian"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -0.75d
@@ -2932,6 +3858,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "40690837B91A05A7"
+				type: "item"
+				item: "mekanism:ingot_refined_obsidian"
+				random_bonus: 6
 			}]
 		}
 		{
@@ -2949,6 +3881,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "06A8EA1A8E1CD212"
+				type: "item"
+				item: "mekanism:ingot_refined_obsidian"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -1.0d
@@ -2964,6 +3902,12 @@
 						HideFlags: 2
 					}
 				}
+			}]
+			rewards: [{
+				id: "6A80CD3DFB362711"
+				type: "item"
+				item: "emendatusenigmatica:lead_ingot"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -2981,6 +3925,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2E1EC2239445A376"
+				type: "item"
+				item: "emendatusenigmatica:lead_ingot"
+				random_bonus: 6
+			}]
 		}
 		{
 			x: -1.5d
@@ -2996,6 +3946,12 @@
 						HideFlags: 2
 					}
 				}
+			}]
+			rewards: [{
+				id: "7B9FF4ACDB0A0391"
+				type: "item"
+				item: "emendatusenigmatica:lead_ingot"
+				random_bonus: 7
 			}]
 		}
 		{
@@ -3013,6 +3969,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "792C0EEDAA301FAF"
+				type: "item"
+				item: "emendatusenigmatica:lead_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -1.25d
@@ -3026,6 +3988,17 @@
 					Count: 1b
 					tag: {
 						HideFlags: 2
+					}
+				}
+			}]
+			rewards: [{
+				id: "4188D0AA0DB26267"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:pneumatic_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
 			}]
@@ -3045,6 +4018,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "19073ACB4771C255"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:pneumatic_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			x: -0.75d
@@ -3058,6 +4042,17 @@
 					Count: 1b
 					tag: {
 						HideFlags: 2
+					}
+				}
+			}]
+			rewards: [{
+				id: "04BA7F5D67298D35"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:pneumatic_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
 			}]
@@ -3077,6 +4072,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3868ABBE6D064CA2"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:pneumatic_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			x: -8.25d
@@ -3086,6 +4092,12 @@
 				id: "30F399BE9C3E4685"
 				type: "item"
 				item: "projecte:dm_helmet"
+			}]
+			rewards: [{
+				id: "62C68271396320C9"
+				type: "item"
+				item: "projecte:dark_matter"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -3097,6 +4109,12 @@
 				type: "item"
 				item: "projecte:dm_chestplate"
 			}]
+			rewards: [{
+				id: "653DCB2460C5D2FF"
+				type: "item"
+				item: "projecte:dark_matter"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -7.75d
@@ -3106,6 +4124,12 @@
 				id: "3F939BB737F32B13"
 				type: "item"
 				item: "projecte:dm_leggings"
+			}]
+			rewards: [{
+				id: "5F8C79D49A11D060"
+				type: "item"
+				item: "projecte:dark_matter"
+				random_bonus: 6
 			}]
 		}
 		{
@@ -3117,6 +4141,12 @@
 				type: "item"
 				item: "projecte:dm_boots"
 			}]
+			rewards: [{
+				id: "3BA3B66FD191E49E"
+				type: "item"
+				item: "projecte:dark_matter"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -6.25d
@@ -3126,6 +4156,11 @@
 				id: "4882CD35AE65F0A1"
 				type: "item"
 				item: "projecte:rm_helmet"
+			}]
+			rewards: [{
+				id: "475AC594D9F90811"
+				type: "item"
+				item: "projecte:dm_helmet"
 			}]
 		}
 		{
@@ -3137,6 +4172,11 @@
 				type: "item"
 				item: "projecte:rm_chestplate"
 			}]
+			rewards: [{
+				id: "17D538EFC097EAA6"
+				type: "item"
+				item: "projecte:dm_chestplate"
+			}]
 		}
 		{
 			x: -5.75d
@@ -3146,6 +4186,11 @@
 				id: "201564EB33022A14"
 				type: "item"
 				item: "projecte:rm_leggings"
+			}]
+			rewards: [{
+				id: "48EA3FE47DE73C64"
+				type: "item"
+				item: "projecte:dm_leggings"
 			}]
 		}
 		{
@@ -3157,6 +4202,11 @@
 				type: "item"
 				item: "projecte:rm_boots"
 			}]
+			rewards: [{
+				id: "28D294276F609605"
+				type: "item"
+				item: "projecte:dm_boots"
+			}]
 		}
 		{
 			x: -7.25d
@@ -3166,6 +4216,11 @@
 				id: "32E0A0666E89F45F"
 				type: "item"
 				item: "projecte:gem_helmet"
+			}]
+			rewards: [{
+				id: "1DE9F8BA02809FB5"
+				type: "item"
+				item: "projecte:rm_helmet"
 			}]
 		}
 		{
@@ -3177,6 +4232,11 @@
 				type: "item"
 				item: "projecte:gem_chestplate"
 			}]
+			rewards: [{
+				id: "698D20F1D091D858"
+				type: "item"
+				item: "projecte:rm_chestplate"
+			}]
 		}
 		{
 			x: -6.75d
@@ -3187,6 +4247,11 @@
 				type: "item"
 				item: "projecte:gem_leggings"
 			}]
+			rewards: [{
+				id: "39FC263D3DE80841"
+				type: "item"
+				item: "projecte:rm_leggings"
+			}]
 		}
 		{
 			x: -7.25d
@@ -3196,6 +4261,11 @@
 				id: "2F79ACD1E3290CE7"
 				type: "item"
 				item: "projecte:gem_boots"
+			}]
+			rewards: [{
+				id: "77F7483F9099BDB8"
+				type: "item"
+				item: "projecte:rm_boots"
 			}]
 		}
 		{
@@ -3213,6 +4283,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0068E04721D124A6"
+				type: "item"
+				item: "allthemodium:allthemodium_ingot"
+				random_bonus: 21
+			}]
 		}
 		{
 			x: -2.75d
@@ -3228,6 +4304,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "11D5514ABB4C1C91"
+				type: "item"
+				item: "allthemodium:allthemodium_ingot"
+				random_bonus: 29
 			}]
 		}
 		{
@@ -3245,6 +4327,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0791924D17807C60"
+				type: "item"
+				item: "allthemodium:allthemodium_ingot"
+				random_bonus: 36
+			}]
 		}
 		{
 			x: -2.25d
@@ -3260,6 +4348,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "73A07E604BF82D12"
+				type: "item"
+				item: "allthemodium:allthemodium_ingot"
+				random_bonus: 23
 			}]
 		}
 		{
@@ -3277,6 +4371,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0456A5D856F87560"
+				type: "item"
+				item: "allthemodium:vibranium_block"
+				random_bonus: 4
+			}]
 		}
 		{
 			x: -0.75d
@@ -3292,6 +4392,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "342B7DD54E3D9099"
+				type: "item"
+				item: "allthemodium:vibranium_block"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -3309,6 +4415,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "45A6673347BB815A"
+				type: "item"
+				item: "allthemodium:vibranium_block"
+				random_bonus: 4
+			}]
 		}
 		{
 			x: -0.25d
@@ -3324,6 +4436,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "69975A033D1D7167"
+				type: "item"
+				item: "allthemodium:vibranium_block"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -3341,6 +4459,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4E9473CE41255DD2"
+				type: "item"
+				item: "allthemodium:unobtainium_block"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: -1.75d
@@ -3356,6 +4480,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "4C8B2A7697F5CD5C"
+				type: "item"
+				item: "allthemodium:unobtainium_block"
+				random_bonus: 5
 			}]
 		}
 		{
@@ -3373,6 +4503,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5BF0679FA4D4EC30"
+				type: "item"
+				item: "allthemodium:unobtainium_block"
+				random_bonus: 6
+			}]
 		}
 		{
 			x: -1.25d
@@ -3388,6 +4524,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "790AD3C8D8C5391E"
+				type: "item"
+				item: "allthemodium:unobtainium_block"
+				random_bonus: 6
 			}]
 		}
 		{
@@ -3405,6 +4547,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "002DD4791C14978F"
+				type: "item"
+				item: "betterendforge:aeternium_ingot"
+			}]
 		}
 		{
 			x: -3.75d
@@ -3420,6 +4567,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "1A9485188D02EC3C"
+				type: "item"
+				item: "betterendforge:aeternium_ingot"
 			}]
 		}
 		{
@@ -3437,6 +4589,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7C7F39923FAEAC78"
+				type: "item"
+				item: "betterendforge:aeternium_ingot"
+			}]
 		}
 		{
 			x: -3.25d
@@ -3453,6 +4610,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3311ECAB60AEFB33"
+				type: "item"
+				item: "betterendforge:aeternium_ingot"
+			}]
 		}
 		{
 			x: -2.0d
@@ -3463,6 +4625,17 @@
 				type: "item"
 				item: {
 					id: "betterendforge:crystalite_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7DEE512F9140ABD2"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_helmet"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -3485,6 +4658,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "70ECAFA2C78226BC"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			x: -1.5d
@@ -3495,6 +4679,17 @@
 				type: "item"
 				item: {
 					id: "betterendforge:crystalite_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3E0CEEEE71B070A4"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_leggings"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -3517,6 +4712,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3F525AA79F907089"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			x: -0.75d
@@ -3532,6 +4738,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "0CD5C1BA1E158F95"
+				type: "item"
+				item: "betterendforge:thallasium_ingot"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -3549,6 +4761,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "536932405142D95D"
+				type: "item"
+				item: "betterendforge:thallasium_ingot"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -0.25d
@@ -3564,6 +4782,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "1DD4C82ADE3BB444"
+				type: "item"
+				item: "betterendforge:thallasium_ingot"
+				random_bonus: 6
 			}]
 		}
 		{
@@ -3581,6 +4805,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6C0ECC87AAD2FE01"
+				type: "item"
+				item: "betterendforge:thallasium_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -7.25d
@@ -3596,6 +4826,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "7FE47C2B554E52BF"
+				type: "item"
+				item: "betterendforge:terminite_ingot"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -3613,6 +4849,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1095199DCC21E8B8"
+				type: "item"
+				item: "betterendforge:terminite_ingot"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -6.75d
@@ -3628,6 +4870,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "72DDF5C555D4BC98"
+				type: "item"
+				item: "betterendforge:terminite_ingot"
+				random_bonus: 6
 			}]
 		}
 		{
@@ -3645,6 +4893,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1E3A4DAAD7E07689"
+				type: "item"
+				item: "betterendforge:terminite_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -7.5d
@@ -3660,6 +4914,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "0DA5C367ACC07D79"
+				type: "item"
+				item: "dustrial_decor:cardboard"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -3677,6 +4937,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "712223A403015C2B"
+				type: "item"
+				item: "dustrial_decor:cardboard"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -7.0d
@@ -3693,6 +4959,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5D81BF280330E6E2"
+				type: "item"
+				item: "dustrial_decor:cardboard"
+				random_bonus: 6
+			}]
 		}
 		{
 			x: -7.5d
@@ -3708,6 +4980,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "5129D6B6D14607AD"
+				type: "item"
+				item: "dustrial_decor:cardboard"
+				random_bonus: 3
 			}]
 		}
 	]

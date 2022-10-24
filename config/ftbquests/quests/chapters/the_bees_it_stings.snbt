@@ -200,6 +200,7 @@
 		{
 			x: -0.75d
 			y: -2.25d
+			dependencies: ["006DBF1B4AC3EBA0"]
 			id: "7C54F45255FD8996"
 			tasks: [{
 				id: "1359E3BFFAFC74AC"
@@ -227,6 +228,12 @@
 		{
 			x: -8.0d
 			y: -2.75d
+			subtitle: "The Honey Dipper is a special tool that allows you to direct bees"
+			description: [
+				"You can set where a bee's hive or flower posistion is, allowing for you to split up bees is they all crowd around a single flower."
+				""
+				"To change a bee's settings simply &2Right Click&r on a bee and then &2Right Click&r on a hive or flower."
+			]
 			dependencies: ["2A1D8B33F51B85A1"]
 			id: "59B083CFB85E29C4"
 			tasks: [{
@@ -238,6 +245,13 @@
 		{
 			x: -4.25d
 			y: -7.75d
+			description: [
+				"The &6Centrifuge&r will use RF to turn you combs into resources."
+				""
+				"There is a limitation that it can only process honeycombs, not blocks."
+				""
+				"This process can be automated with &6Hoppers&r."
+			]
 			dependencies: ["06CC09E0AE4819E5"]
 			id: "068238B670D5838E"
 			tasks: [{
@@ -313,6 +327,11 @@
 		{
 			x: -2.75d
 			y: -0.5d
+			description: [
+				"&dConsumes honey, grants bees safety."
+				""
+				"&d[Prevents bees from teleporting in effect range]&r"
+			]
 			dependencies: ["7C54F45255FD8996"]
 			id: "11F856DB9FC55F37"
 			tasks: [{
@@ -323,7 +342,7 @@
 		}
 		{
 			x: -5.75d
-			y: -0.5d
+			y: -2.75d
 			dependencies: ["4E86D96FF3074176"]
 			id: "4E4CCE66D83CB498"
 			tasks: [{
@@ -335,6 +354,7 @@
 		{
 			x: -2.75d
 			y: 0.75d
+			subtitle: "128,000 mb"
 			dependencies: ["480BBEDD4C222E69"]
 			id: "1D74C1A48553742D"
 			tasks: [{
@@ -346,6 +366,7 @@
 		{
 			x: -1.75d
 			y: 0.75d
+			subtitle: "32,000 mb"
 			dependencies: ["0D9A01E4A3636752"]
 			id: "480BBEDD4C222E69"
 			tasks: [{
@@ -357,6 +378,7 @@
 		{
 			x: -0.75d
 			y: 0.75d
+			subtitle: "8,000 mb"
 			dependencies: ["7C54F45255FD8996"]
 			id: "0D9A01E4A3636752"
 			tasks: [{
@@ -368,6 +390,7 @@
 		{
 			x: -4.25d
 			y: -6.5d
+			dependencies: ["28B19C23A8F8E8B3"]
 			id: "06CC09E0AE4819E5"
 			tasks: [{
 				id: "546D8467E5186A2C"
@@ -724,7 +747,9 @@
 			x: 17.22551020408163d
 			y: -7.899659863945544d
 			shape: "hexagon"
-			description: ["Spawn in &4Nether&r"]
+			subtitle: "Spawn in Nether"
+			hide_dependency_lines: true
+			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "589D4FAB92ACB60C"
 			tasks: [{
 				id: "51996E6647F34CCE"
@@ -747,6 +772,8 @@
 			x: 12.30748299319734d
 			y: -4.620748299319693d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["1356E497437B716A"]
 			id: "2F8774E9410F9C4F"
 			tasks: [{
 				id: "5F9363632EE3E115"
@@ -769,7 +796,9 @@
 			x: 6.515646258503381d
 			y: -7.846938775510182d
 			shape: "hexagon"
-			description: ["Spawn in &2Overworld&r"]
+			subtitle: "Spawn in Overworld"
+			hide_dependency_lines: true
+			dependencies: ["28709F340776730B"]
 			id: "005A0621823CB942"
 			tasks: [{
 				id: "60E2F3C608D829FB"
@@ -792,6 +821,9 @@
 			x: 6.5d
 			y: -6.947278911564602d
 			shape: "hexagon"
+			subtitle: "Spawn in Overworld"
+			hide_dependency_lines: true
+			dependencies: ["28709F340776730B"]
 			id: "7D2B680872E34FE3"
 			tasks: [{
 				id: "2E1C9957EC46B471"
@@ -814,6 +846,11 @@
 			x: 18.002721088435365d
 			y: -6.965986394557788d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"5A07D9CF3FD9C816"
+				"26A2AB430C384D80"
+			]
 			id: "7419F92850195AF6"
 			tasks: [{
 				id: "728A1DB4422015E7"
@@ -836,6 +873,8 @@
 			x: 13.042176870748392d
 			y: -5.527551020408133d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "6D17FF2CFD79A44D"
 			tasks: [{
 				id: "751CE9E8B450F9BF"
@@ -855,9 +894,14 @@
 		}
 		{
 			title: "AllTheModium Bee"
-			x: 8.185374149659793d
-			y: -1.357142857142854d
+			x: 7.75d
+			y: -1.5d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"51512A9F63424E85"
+				"68CE8FF470DB60ED"
+			]
 			id: "1A6EA32BFBE0BAAE"
 			tasks: [{
 				id: "711FCC2B360FE68D"
@@ -880,6 +924,8 @@
 			x: 16.13129251700684d
 			y: -6.066326530612194d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["487D00E19338C817"]
 			id: "1524181F40000154"
 			tasks: [{
 				id: "08CCDAC38F0BF47C"
@@ -902,7 +948,9 @@
 			x: 7.2585034013605565d
 			y: -6.048299319727867d
 			shape: "hexagon"
-			description: ["Spawn in &2Overworld&r"]
+			subtitle: "Spawn in Overworld"
+			hide_dependency_lines: true
+			dependencies: ["28709F340776730B"]
 			id: "40DCBD615084C6C3"
 			tasks: [{
 				id: "5B07275520606AD7"
@@ -925,6 +973,11 @@
 			x: 17.834353741496543d
 			y: -3.211224489795846d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"6B6D7B4AA8FFDC17"
+				"42B4D74321A27197"
+			]
 			id: "7515931B78C983B4"
 			tasks: [{
 				id: "349237F1436E154C"
@@ -947,6 +1000,11 @@
 			x: 15.35646258503398d
 			y: -6.0697278911564325d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"7419F92850195AF6"
+				"0C33C381806BB2C1"
+			]
 			id: "61570EC6C55AA5A1"
 			tasks: [{
 				id: "20CFF6EBE9ACF53C"
@@ -969,7 +1027,9 @@
 			x: 13.040476190476099d
 			y: -9.25d
 			shape: "hexagon"
-			description: ["Spawn in &2Overworld&r"]
+			subtitle: "Spawn in Overworld"
+			hide_dependency_lines: true
+			dependencies: ["28709F340776730B"]
 			id: "6545A0C21D34826C"
 			tasks: [{
 				id: "1E01733E090B202D"
@@ -992,6 +1052,11 @@
 			x: 7.404761904761841d
 			y: -3.23673469387753d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"7272BBFF9AAC9CA7"
+				"3DB1DBE894C2FA8B"
+			]
 			id: "4FA5CFA4E3974878"
 			tasks: [{
 				id: "2FA08BCA559696A7"
@@ -1014,6 +1079,11 @@
 			x: 8.180612244897944d
 			y: -3.2306122448979124d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"58D08C026677106B"
+				"3DB1DBE894C2FA8B"
+			]
 			id: "2B794BD7028969E9"
 			tasks: [{
 				id: "2186D3425F174E39"
@@ -1036,6 +1106,9 @@
 			x: 18.187414965986378d
 			y: -2.3935374149658344d
 			shape: "hexagon"
+			subtitle: "Make sure to see the spawn egg recipe on &4JEI&r"
+			hide_dependency_lines: true
+			dependencies: ["4D42659154BDCE04"]
 			id: "01A2C48E3267094D"
 			tasks: [{
 				id: "67D72F1E11C1E69D"
@@ -1058,6 +1131,9 @@
 			x: 7.25d
 			y: -6.947278911564602d
 			shape: "hexagon"
+			subtitle: "Spawn in Overworld"
+			hide_dependency_lines: true
+			dependencies: ["28709F340776730B"]
 			id: "16A03F5CFE8884CD"
 			tasks: [{
 				id: "6FC208526D718DF2"
@@ -1080,6 +1156,9 @@
 			x: 8.0d
 			y: -6.947278911564602d
 			shape: "hexagon"
+			subtitle: "Spawn in Overworld"
+			hide_dependency_lines: true
+			dependencies: ["28709F340776730B"]
 			id: "6A75FA5BAA7397EE"
 			tasks: [{
 				id: "475C415004911134"
@@ -1102,6 +1181,15 @@
 			x: 15.93639455782305d
 			y: -3.9663265306121644d
 			shape: "hexagon"
+			subtitle: "Make sure to see the spawn egg recipe on &4JEI&r"
+			hide_dependency_lines: true
+			dependencies: [
+				"589D4FAB92ACB60C"
+				"5444D07EC3245BB8"
+				"5049E0E345147121"
+				"1D23D686D1A72DC6"
+				"6636AF496628B7DA"
+			]
 			id: "56358130A39993C7"
 			tasks: [{
 				id: "4E951AB27708D54F"
@@ -1124,6 +1212,11 @@
 			x: 16.49251700680273d
 			y: -6.971088435374121d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"1C2488763CCCA93F"
+				"1D20318F0E242E7B"
+			]
 			id: "050F2D70D0777FB3"
 			tasks: [{
 				id: "317EFE606B882383"
@@ -1146,6 +1239,11 @@
 			x: 17.247619047619054d
 			y: -6.971088435374121d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"050F2D70D0777FB3"
+				"3225C3BC59E31296"
+			]
 			id: "5A07D9CF3FD9C816"
 			tasks: [{
 				id: "69F0D89A66FBAF8A"
@@ -1168,6 +1266,11 @@
 			x: 13.792517006802655d
 			y: -10.101360544217663d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"5C0249E7EC12F8B1"
+				"605C1A4203A832F0"
+			]
 			id: "33C16FAD439619C2"
 			tasks: [{
 				id: "526A113C7FA25663"
@@ -1190,6 +1293,9 @@
 			x: 16.691496598639418d
 			y: -2.394897959183602d
 			shape: "hexagon"
+			subtitle: "Make sure to see the spawn egg recipe on &4JEI&r"
+			hide_dependency_lines: true
+			dependencies: ["42419E07F45208E2"]
 			id: "4D42659154BDCE04"
 			tasks: [{
 				id: "2F8C28B1B1C78846"
@@ -1212,6 +1318,8 @@
 			x: 13.009183673469408d
 			y: -6.442346938775501d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "3DB1DBE894C2FA8B"
 			tasks: [{
 				id: "42F60A699A97FA15"
@@ -1234,6 +1342,11 @@
 			x: 6.63639455782311d
 			y: -2.3397959183673294d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"3DB1DBE894C2FA8B"
+				"087BAE46F4305FC8"
+			]
 			id: "4A475D327919C897"
 			tasks: [{
 				id: "47BC222DA08B1A3C"
@@ -1256,6 +1369,8 @@
 			x: 13.062585034013665d
 			y: -4.620748299319693d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["7515931B78C983B4"]
 			id: "7162685E96B5836D"
 			tasks: [{
 				id: "4175A43B54BE5C04"
@@ -1278,6 +1393,8 @@
 			x: 8.19217687074837d
 			y: -4.119897959183632d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["10CF9A9C60204ABB"]
 			id: "5BC68FBD947AEB91"
 			tasks: [{
 				id: "412D63A23D4690CF"
@@ -1300,6 +1417,8 @@
 			x: 12.290476190476099d
 			y: -11.0d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["4FF742939987793B"]
 			id: "5AE479976404293E"
 			tasks: [{
 				id: "502E60E3F595B09F"
@@ -1322,6 +1441,11 @@
 			x: 9.723469387755088d
 			y: -3.2306122448979124d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"150E3865671A78DC"
+				"1C2488763CCCA93F"
+			]
 			id: "7B10A976B887C6AC"
 			tasks: [{
 				id: "1CC6BAFD444F934E"
@@ -1344,6 +1468,11 @@
 			x: 13.81360544217695d
 			y: 0.1231292517007887d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"1C2488763CCCA93F"
+				"33C16FAD439619C2"
+			]
 			id: "577DB248DD78EAAB"
 			tasks: [{
 				id: "0FF9FB799A2B90A7"
@@ -1366,6 +1495,9 @@
 			x: 15.737414965986389d
 			y: -6.971088435374121d
 			shape: "hexagon"
+			subtitle: "Spawn in End"
+			hide_dependency_lines: true
+			dependencies: ["2BA269B9CA2B23C4"]
 			id: "1C2488763CCCA93F"
 			tasks: [{
 				id: "3876A19B3552D1DF"
@@ -1388,6 +1520,9 @@
 			x: 14.951700680272097d
 			y: -6.994897959183646d
 			shape: "hexagon"
+			subtitle: "Spawn in End"
+			hide_dependency_lines: true
+			dependencies: ["2BA269B9CA2B23C4"]
 			id: "111E33A961DC42F6"
 			tasks: [{
 				id: "67FD3D1F03F46ABF"
@@ -1410,6 +1545,11 @@
 			x: 12.292517006802655d
 			y: -10.101360544217663d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"33C16FAD439619C2"
+				"150E3865671A78DC"
+			]
 			id: "2D5EC8FEBAB64AB9"
 			tasks: [{
 				id: "3FB77264B87DA947"
@@ -1432,6 +1572,12 @@
 			x: 13.82108843537425d
 			y: -0.7811224489795023d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"70A9CA8A58DB8873"
+				"0623F7FAB4511760"
+				"335E059D1698372F"
+			]
 			id: "3189DCB3226F9AC0"
 			tasks: [{
 				id: "1B8FD83F9BD33A2C"
@@ -1454,6 +1600,11 @@
 			x: 12.262585034013696d
 			y: 0.1231292517007887d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"6061CB6EADFDDAD8"
+				"448EA86687BE6A64"
+			]
 			id: "76E20AA80F5BE12F"
 			tasks: [{
 				id: "11C7DB2D412064C0"
@@ -1476,6 +1627,9 @@
 			x: 9.530952380952442d
 			y: -6.937414965986349d
 			shape: "hexagon"
+			subtitle: "Spawn in Undergarden"
+			hide_dependency_lines: true
+			dependencies: ["28709F340776730B"]
 			id: "5673D229209207E6"
 			tasks: [{
 				id: "62B6BF93694F5D86"
@@ -1498,6 +1652,11 @@
 			x: 11.19285714285715d
 			y: 1.053741496598711d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"6B6D7B4AA8FFDC17"
+				"03C527A6204354AA"
+			]
 			id: "6DC436C371D0ECF2"
 			tasks: [{
 				id: "04F065E9F6B662D3"
@@ -1520,6 +1679,11 @@
 			x: 13.045578231292609d
 			y: -0.7811224489795023d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"239B5A55E70CD33C"
+				"507767B7232417F3"
+			]
 			id: "7D155A473CFE9687"
 			tasks: [{
 				id: "425FFA9F5B4A65D1"
@@ -1542,6 +1706,8 @@
 			x: 14.405782312925112d
 			y: -2.394897959183602d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["42B4D74321A27197"]
 			id: "0DE49A94A38583BF"
 			tasks: [{
 				id: "14AD5935F26DABE1"
@@ -1564,6 +1730,8 @@
 			x: 15.915986394557777d
 			y: -2.394897959183602d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["42B4D74321A27197"]
 			id: "7AD3A385444D5E7E"
 			tasks: [{
 				id: "03A568F26E9A0EE9"
@@ -1586,6 +1754,9 @@
 			x: 8.75d
 			y: -6.947278911564602d
 			shape: "hexagon"
+			subtitle: "Spawn in Overworld"
+			hide_dependency_lines: true
+			dependencies: ["28709F340776730B"]
 			id: "24058CE8785ACBF8"
 			tasks: [{
 				id: "35FBD7315B652762"
@@ -1608,6 +1779,11 @@
 			x: 10.704761904761924d
 			y: -0.787244897959134d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"642C1DB5802E0123"
+				"5C0249E7EC12F8B1"
+			]
 			id: "415F1AAF4C0FBEF6"
 			tasks: [{
 				id: "5A08B719B6D815EE"
@@ -1630,6 +1806,12 @@
 			x: 12.69285714285715d
 			y: 1.053741496598711d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"4D0FEA96A6DFE6C9"
+				"7BD2D6B517F906ED"
+				"552D81EF1814A4DD"
+			]
 			id: "3F0CC889E4CF19B5"
 			tasks: [{
 				id: "01E67615B5534890"
@@ -1652,6 +1834,11 @@
 			x: 8.187414965986363d
 			y: -2.3397959183673294d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"448EA86687BE6A64"
+				"4FF742939987793B"
+			]
 			id: "44629B5FE3F169C4"
 			tasks: [{
 				id: "3A023BE1598223AB"
@@ -1674,6 +1861,11 @@
 			x: 13.10340136054431d
 			y: -3.670918367346907d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"33C16FAD439619C2"
+				"0F5064AAAA97F693"
+			]
 			id: "1FDD9735E7F58EC1"
 			tasks: [{
 				id: "703B5F6CDF58576C"
@@ -1696,6 +1888,15 @@
 			x: 15.181292517006739d
 			y: -3.9663265306121644d
 			shape: "hexagon"
+			subtitle: "Make sure to see the spawn egg recipe on &4JEI&r"
+			hide_dependency_lines: true
+			dependencies: [
+				"76E20AA80F5BE12F"
+				"33F152A85C0B28CD"
+				"763A0C0A6F308E5D"
+				"5049E0E345147121"
+				"1D23D686D1A72DC6"
+			]
 			id: "342AB62D3434E3BF"
 			tasks: [{
 				id: "5E632057C5F6C954"
@@ -1718,6 +1919,9 @@
 			x: 13.790476190476099d
 			y: -9.25d
 			shape: "hexagon"
+			subtitle: "Spawn in Overworld"
+			hide_dependency_lines: true
+			dependencies: ["28709F340776730B"]
 			id: "13FD0A0106F7266A"
 			tasks: [{
 				id: "634E1990DBC736A6"
@@ -1740,6 +1944,11 @@
 			x: 7.409183673469343d
 			y: -2.3428571428571203d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"10CF9A9C60204ABB"
+				"150E3865671A78DC"
+			]
 			id: "5F554A8E51154AB5"
 			tasks: [{
 				id: "5F3D76EA116BAB1D"
@@ -1762,6 +1971,14 @@
 			x: 8.96292517006799d
 			y: -2.3397959183673294d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"605C1A4203A832F0"
+				"5BC68FBD947AEB91"
+				"3DB1DBE894C2FA8B"
+				"0F5064AAAA97F693"
+				"3F4EE4690D506E30"
+			]
 			id: "75297DFF01338114"
 			tasks: [{
 				id: "7243EB082EDF3A1C"
@@ -1784,6 +2001,8 @@
 			x: 8.043197278911606d
 			y: -7.824829931972737d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["5E749C6498C40569"]
 			id: "18A32022D590D223"
 			tasks: [{
 				id: "424C21B4E66B249D"
@@ -1806,6 +2025,9 @@
 			x: 12.290476190476099d
 			y: -9.25d
 			shape: "hexagon"
+			subtitle: "Spawn in Overworld"
+			hide_dependency_lines: true
+			dependencies: ["28709F340776730B"]
 			id: "3C1ED4ADAEC1A528"
 			tasks: [{
 				id: "2E58C920BA6A7A0B"
@@ -1828,6 +2050,11 @@
 			x: 17.432312925170052d
 			y: -2.3935374149658344d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"5AE479976404293E"
+				"7B9FBBCD2F962A0B"
+			]
 			id: "776921B1DEC0A297"
 			tasks: [{
 				id: "5953A5FF68C4C0DC"
@@ -1850,6 +2077,8 @@
 			x: 10.761904761904688d
 			y: -10.101360544217663d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["4FF742939987793B"]
 			id: "448EA86687BE6A64"
 			tasks: [{
 				id: "29F5C000BA6EB706"
@@ -1872,6 +2101,9 @@
 			x: 17.223129251700655d
 			y: -8.780612244897931d
 			shape: "hexagon"
+			subtitle: "Spawn in Nether"
+			hide_dependency_lines: true
+			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "4B62CECB7C22C581"
 			tasks: [{
 				id: "0EAD37E1ADA939DF"
@@ -1894,6 +2126,9 @@
 			x: 14.97551020408163d
 			y: -7.899659863945544d
 			shape: "hexagon"
+			subtitle: "Spawn in Nether"
+			hide_dependency_lines: true
+			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "3C2409703CB7A690"
 			tasks: [{
 				id: "429DB74C97C333B1"
@@ -1916,6 +2151,11 @@
 			x: 13.038095238095323d
 			y: 0.1231292517007887d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"4B62CECB7C22C581"
+				"7272BBFF9AAC9CA7"
+			]
 			id: "4D536F297A8D2A36"
 			tasks: [{
 				id: "4FB033500CDDA1C4"
@@ -1938,6 +2178,9 @@
 			x: 15.942517006802618d
 			y: -1.4969387755101309d
 			shape: "hexagon"
+			subtitle: "Make sure to see the spawn egg recipe on &4JEI&r"
+			hide_dependency_lines: true
+			dependencies: ["01A2C48E3267094D"]
 			id: "4F20ABECDDF633B4"
 			tasks: [{
 				id: "155AA2170820C07D"
@@ -1960,6 +2203,8 @@
 			x: 10.759183673469394d
 			y: -5.549489795918355d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "6C4F7E8498D9A01C"
 			tasks: [{
 				id: "4292F234B9E236B5"
@@ -1982,6 +2227,9 @@
 			x: 12.301020408163211d
 			y: -8.344557823129229d
 			shape: "hexagon"
+			subtitle: "Spawn in Nether"
+			hide_dependency_lines: true
+			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "4D6DA222145EE14F"
 			tasks: [{
 				id: "61F02BAC3D95D368"
@@ -2004,6 +2252,8 @@
 			x: 11.53741496598633d
 			y: -10.121768707482964d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["4FF742939987793B"]
 			id: "5C0249E7EC12F8B1"
 			tasks: [{
 				id: "665E88B0EC4C840C"
@@ -2026,6 +2276,9 @@
 			x: 7.261904761904688d
 			y: -8.75d
 			shape: "hexagon"
+			subtitle: "Spawn in Overworld"
+			hide_dependency_lines: true
+			dependencies: ["28709F340776730B"]
 			id: "4CBF35606533B089"
 			tasks: [{
 				id: "64FF3D35B9F37C6C"
@@ -2048,6 +2301,8 @@
 			x: 13.040476190476099d
 			y: -11.0d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["4FF742939987793B"]
 			id: "6B6D7B4AA8FFDC17"
 			tasks: [{
 				id: "17693588DF856B16"
@@ -2070,6 +2325,11 @@
 			x: 12.280272108843619d
 			y: -5.515646258503374d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"6B6D7B4AA8FFDC17"
+				"087BAE46F4305FC8"
+			]
 			id: "1F730D10456EB873"
 			tasks: [{
 				id: "50BE22276C5B37B2"
@@ -2092,6 +2352,9 @@
 			x: 17.442517006802618d
 			y: -1.4969387755101309d
 			shape: "hexagon"
+			subtitle: "Make sure to see the spawn egg recipe on &4JEI&r"
+			hide_dependency_lines: true
+			dependencies: ["636E2DCCA8630485"]
 			id: "1A9B7F94420A1FAE"
 			tasks: [{
 				id: "71F0C8ACD20F3EC7"
@@ -2114,6 +2377,8 @@
 			x: 11.509183673469394d
 			y: -5.549489795918355d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "087BAE46F4305FC8"
 			tasks: [{
 				id: "4AC9101990F8389A"
@@ -2136,6 +2401,11 @@
 			x: 17.999319727891162d
 			y: -7.899659863945544d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"33C16FAD439619C2"
+				"173E32122B3FBF1A"
+			]
 			id: "0ECE7517056CFEC5"
 			tasks: [{
 				id: "743DBA76D6841DF4"
@@ -2158,6 +2428,9 @@
 			x: 16.480272108843522d
 			y: -8.780612244897931d
 			shape: "hexagon"
+			subtitle: "Spawn in Nether"
+			hide_dependency_lines: true
+			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "605C1A4203A832F0"
 			tasks: [{
 				id: "3CAF5640AD0BB569"
@@ -2180,6 +2453,9 @@
 			x: 15.737414965986389d
 			y: -8.780612244897931d
 			shape: "hexagon"
+			subtitle: "Spawn in Nether"
+			hide_dependency_lines: true
+			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "10CF9A9C60204ABB"
 			tasks: [{
 				id: "460AAC64B18DF92D"
@@ -2202,6 +2478,12 @@
 			x: 11.494557823129341d
 			y: -0.7811224489795023d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"1356E497437B716A"
+				"3025A296D481E2D7"
+				"442961BF5C16C60F"
+			]
 			id: "58DBB67DDB0ECCA6"
 			tasks: [{
 				id: "7442B8A77E54F977"
@@ -2224,6 +2506,11 @@
 			x: 8.956462585034075d
 			y: -4.109183673469346d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"0ECE7517056CFEC5"
+				"5BC68FBD947AEB91"
+			]
 			id: "3AF63C3FE37D80C9"
 			tasks: [{
 				id: "1F715A585A394887"
@@ -2246,6 +2533,11 @@
 			x: 10.714285714285722d
 			y: 0.10850340136060055d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"6B6D7B4AA8FFDC17"
+				"5E2A78C08B7A29B1"
+			]
 			id: "70A9CA8A58DB8873"
 			tasks: [{
 				id: "187116D83C25DDEB"
@@ -2268,6 +2560,9 @@
 			x: 16.47551020408163d
 			y: -7.899659863945544d
 			shape: "hexagon"
+			subtitle: "Spawn in Nether"
+			hide_dependency_lines: true
+			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "75DBEAD012A0991A"
 			tasks: [{
 				id: "61BC995B87DD3526"
@@ -2290,6 +2585,9 @@
 			x: 15.160884353741451d
 			y: -1.4925170068025722d
 			shape: "hexagon"
+			subtitle: "Make sure to see the spawn egg recipe on &4JEI&r"
+			hide_dependency_lines: true
+			dependencies: ["01A2C48E3267094D"]
 			id: "54AB52FCA0B56C97"
 			tasks: [{
 				id: "41A657E706AAF604"
@@ -2312,6 +2610,11 @@
 			x: 11.580612244897964d
 			y: -3.6760204081632466d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"1759DCC8A2F5E01F"
+				"33C16FAD439619C2"
+			]
 			id: "27D5F14596359639"
 			tasks: [{
 				id: "3F4A792BD83913F0"
@@ -2334,6 +2637,11 @@
 			x: 13.478571428571414d
 			y: 1.053741496598711d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"1356E497437B716A"
+				"3F4EE4690D506E30"
+			]
 			id: "7CF488059F7C4FF9"
 			tasks: [{
 				id: "11485C2296366A24"
@@ -2356,6 +2664,9 @@
 			x: 15.72551020408163d
 			y: -7.899659863945544d
 			shape: "hexagon"
+			subtitle: "Spawn in Nether"
+			hide_dependency_lines: true
+			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "6AFDB77ABAA77390"
 			tasks: [{
 				id: "13405C256FA3E0FE"
@@ -2378,6 +2689,11 @@
 			x: 13.035374149659859d
 			y: -1.7071428571427631d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"2BC1BD4FBA3C3EAC"
+				"6F350477334C0544"
+			]
 			id: "642C1DB5802E0123"
 			tasks: [{
 				id: "5BDA1A1683E53D91"
@@ -2400,6 +2716,9 @@
 			x: 8.008503401360556d
 			y: -6.048299319727867d
 			shape: "hexagon"
+			subtitle: "Spawn in Overworld"
+			hide_dependency_lines: true
+			dependencies: ["28709F340776730B"]
 			id: "0F304E760CEF2C4E"
 			tasks: [{
 				id: "7DA6C3B7577528BB"
@@ -2422,6 +2741,11 @@
 			x: 8.782312925170075d
 			y: -6.048299319727867d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"24058CE8785ACBF8"
+				"04834CC722C4C4C8"
+			]
 			id: "3075675593E8F32F"
 			tasks: [{
 				id: "1C079F6440C001A4"
@@ -2444,6 +2768,11 @@
 			x: 10.790476190476099d
 			y: -9.25d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"4D6DA222145EE14F"
+				"5C0249E7EC12F8B1"
+			]
 			id: "348E5CA782AD3F4C"
 			tasks: [{
 				id: "31B75B2B8D15757C"
@@ -2466,6 +2795,13 @@
 			x: 17.426190476190413d
 			y: -3.9663265306121644d
 			shape: "hexagon"
+			subtitle: "Make sure to see the spawn egg recipe on &4JEI&r"
+			hide_dependency_lines: true
+			dependencies: [
+				"745803B38BA58076"
+				"173E32122B3FBF1A"
+				"56358130A39993C7"
+			]
 			id: "7F1E768894FCCA3C"
 			tasks: [{
 				id: "31C1C3580D981331"
@@ -2488,6 +2824,15 @@
 			x: 16.671088435374074d
 			y: -3.9663265306121644d
 			shape: "hexagon"
+			subtitle: "Make sure to see the spawn egg recipe on &4JEI&r"
+			hide_dependency_lines: true
+			dependencies: [
+				"33C16FAD439619C2"
+				"70A9CA8A58DB8873"
+				"5049E0E345147121"
+				"5896C9C33F79614E"
+				"1D23D686D1A72DC6"
+			]
 			id: "586B127CE4C8758B"
 			tasks: [{
 				id: "4275189F363923E5"
@@ -2510,6 +2855,11 @@
 			x: 7.409183673469386d
 			y: -4.122448979591816d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"43246CFF8E31A654"
+				"6545A0C21D34826C"
+			]
 			id: "55B461F94D9750BE"
 			tasks: [{
 				id: "10195A91052AF65E"
@@ -2532,6 +2882,9 @@
 			x: 11.540476190476099d
 			y: -9.25d
 			shape: "hexagon"
+			subtitle: "Spawn in Overworld"
+			hide_dependency_lines: true
+			dependencies: ["28709F340776730B"]
 			id: "43246CFF8E31A654"
 			tasks: [{
 				id: "3FACE99CF103237F"
@@ -2554,6 +2907,11 @@
 			x: 6.637755102040799d
 			y: -3.2306122448979124d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"3DB1DBE894C2FA8B"
+				"448EA86687BE6A64"
+			]
 			id: "584AEB5D1BD552F6"
 			tasks: [{
 				id: "6FD96865C4B20902"
@@ -2576,6 +2934,9 @@
 			x: 16.692517006802618d
 			y: -1.4969387755101309d
 			shape: "hexagon"
+			subtitle: "Make sure to see the spawn egg recipe on &4JEI&r"
+			hide_dependency_lines: true
+			dependencies: ["4F20ABECDDF633B4"]
 			id: "636E2DCCA8630485"
 			tasks: [{
 				id: "4A317FA0E0312E2D"
@@ -2598,6 +2959,9 @@
 			x: 12.330612244897964d
 			y: -3.6760204081632466d
 			shape: "hexagon"
+			subtitle: "Spawn in Overworld"
+			hide_dependency_lines: true
+			dependencies: ["28709F340776730B"]
 			id: "1759DCC8A2F5E01F"
 			tasks: [{
 				id: "5DA9AFE0052338A4"
@@ -2620,6 +2984,8 @@
 			x: 17.07925170068023d
 			y: -3.211224489795846d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["0A2D533F8AB68EEA"]
 			id: "5B7CB0F4DC76A848"
 			tasks: [{
 				id: "42579251EA05C996"
@@ -2642,6 +3008,11 @@
 			x: 11.48435374149659d
 			y: -1.7071428571427631d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"348E5CA782AD3F4C"
+				"79897476799689B7"
+			]
 			id: "1FD4F9D0BFC63F98"
 			tasks: [{
 				id: "5CE2CF75BD98BFD1"
@@ -2664,6 +3035,11 @@
 			x: 12.256802721088363d
 			y: -1.713265306122402d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"4B62CECB7C22C581"
+				"79897476799689B7"
+			]
 			id: "07ECB6159F9C5C92"
 			tasks: [{
 				id: "71CBF2D70D6166B7"
@@ -2686,6 +3062,8 @@
 			x: 13.042517006802655d
 			y: -10.101360544217663d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["4FF742939987793B"]
 			id: "745803B38BA58076"
 			tasks: [{
 				id: "44CA9287EE66E7E4"
@@ -2708,6 +3086,9 @@
 			x: 13.817687074830005d
 			y: -4.620748299319693d
 			shape: "hexagon"
+			subtitle: "Spawn in End"
+			hide_dependency_lines: true
+			dependencies: ["2BA269B9CA2B23C4"]
 			id: "24F82352AF6987DB"
 			tasks: [{
 				id: "6EBFF1ABA4061B3A"
@@ -2730,6 +3111,15 @@
 			x: 16.334353741496557d
 			y: -3.211224489795846d
 			shape: "hexagon"
+			subtitle: "Make sure to see the spawn egg recipe on &4JEI&r"
+			hide_dependency_lines: true
+			dependencies: [
+				"239B5A55E70CD33C"
+				"2D5EC8FEBAB64AB9"
+				"2A520FDAD9C61888"
+				"5049E0E345147121"
+				"1D23D686D1A72DC6"
+			]
 			id: "654785390F5310A1"
 			tasks: [{
 				id: "1A8A3B9425350363"
@@ -2752,6 +3142,11 @@
 			x: 9.738435374149631d
 			y: -2.3397959183673294d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"33F152A85C0B28CD"
+				"0F5064AAAA97F693"
+			]
 			id: "5DEEF55D4D1BF78D"
 			tasks: [{
 				id: "4CF1ECB562908927"
@@ -2774,6 +3169,8 @@
 			x: 13.051020408163211d
 			y: -8.344557823129229d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["589D4FAB92ACB60C"]
 			id: "51512A9F63424E85"
 			tasks: [{
 				id: "19576C196ACA953C"
@@ -2796,6 +3193,11 @@
 			x: 7.265646258503381d
 			y: -7.846938775510182d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"1356E497437B716A"
+				"4FF742939987793B"
+			]
 			id: "150E3865671A78DC"
 			tasks: [{
 				id: "2835F008FEB19026"
@@ -2818,6 +3220,11 @@
 			x: 8.95204081632653d
 			y: -3.2306122448979124d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"150E3865671A78DC"
+				"5E749C6498C40569"
+			]
 			id: "5F33C011FBE18C29"
 			tasks: [{
 				id: "2B61C427EF4E18CB"
@@ -2840,6 +3247,9 @@
 			x: 8.771768707482863d
 			y: -8.744897959183696d
 			shape: "hexagon"
+			subtitle: "Spawn in Overworld"
+			hide_dependency_lines: true
+			dependencies: ["28709F340776730B"]
 			id: "68C959E70C5FB27F"
 			tasks: [{
 				id: "22569AD4A5E80513"
@@ -2862,6 +3272,8 @@
 			x: 11.509183673469408d
 			y: -6.442346938775501d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "6061CB6EADFDDAD8"
 			tasks: [{
 				id: "2B96D8F26D9E8EA3"
@@ -2884,6 +3296,11 @@
 			x: 11.487074829932055d
 			y: 0.1231292517007887d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"3DB1DBE894C2FA8B"
+				"6061CB6EADFDDAD8"
+			]
 			id: "5C8699E85D872351"
 			tasks: [{
 				id: "746EDD9F5D7DECF3"
@@ -2906,6 +3323,14 @@
 			x: 15.584353741496557d
 			y: -3.211224489795846d
 			shape: "hexagon"
+			subtitle: "Make sure to see the spawn egg recipe on &4JEI&r"
+			hide_dependency_lines: true
+			dependencies: [
+				"4931CF875954DA46"
+				"5049E0E345147121"
+				"42419E07F45208E2"
+				"1D23D686D1A72DC6"
+			]
 			id: "5EB56CFF82B20CF5"
 			tasks: [{
 				id: "2D082E1407290D6B"
@@ -2925,9 +3350,14 @@
 		}
 		{
 			title: "Unobtainium Bee"
-			x: 8.96394557823129d
-			y: -1.3612244897958945d
+			x: 8.5d
+			y: -1.5d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"0760AEB4D4BB74C5"
+				"68CE8FF470DB60ED"
+			]
 			id: "713036714476EF69"
 			tasks: [{
 				id: "3DDA0EAC7B20E707"
@@ -2950,6 +3380,8 @@
 			x: 12.259183673469408d
 			y: -6.442346938775501d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "7272BBFF9AAC9CA7"
 			tasks: [{
 				id: "15CDAA9EE49A6402"
@@ -2972,6 +3404,8 @@
 			x: 16.90340136054425d
 			y: -6.051020408163211d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["1C2488763CCCA93F"]
 			id: "5300901FD4BA85DC"
 			tasks: [{
 				id: "19ECB92D6675CBEC"
@@ -2994,6 +3428,13 @@
 			x: 12.270068027210982d
 			y: -0.7811224489795023d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"70A9CA8A58DB8873"
+				"7D06301D09F5D628"
+				"69E268DB0F8CB0A3"
+				"68E7A3D70265EBF0"
+			]
 			id: "239B5A55E70CD33C"
 			tasks: [{
 				id: "627D42B9EA68F994"
@@ -3016,6 +3457,8 @@
 			x: 17.658503401360562d
 			y: -6.051020408163211d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["5300901FD4BA85DC"]
 			id: "487D00E19338C817"
 			tasks: [{
 				id: "0B8395CFD4C60BF4"
@@ -3038,6 +3481,12 @@
 			x: 11.94285714285715d
 			y: 1.053741496598711d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"6DC436C371D0ECF2"
+				"552D81EF1814A4DD"
+				"7F18EAF2FA50C3E5"
+			]
 			id: "4D0FEA96A6DFE6C9"
 			tasks: [{
 				id: "731D653E941DD1A5"
@@ -3060,6 +3509,9 @@
 			x: 11.540476190476099d
 			y: -11.0d
 			shape: "hexagon"
+			subtitle: "Spawn in Overworld"
+			hide_dependency_lines: true
+			dependencies: ["28709F340776730B"]
 			id: "2BC1BD4FBA3C3EAC"
 			tasks: [{
 				id: "788C7AC29DEBEC15"
@@ -3082,6 +3534,8 @@
 			x: 10.779591836734681d
 			y: -4.630952380952365d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["6B6D7B4AA8FFDC17"]
 			id: "33F152A85C0B28CD"
 			tasks: [{
 				id: "5DA97F8BFE814854"
@@ -3104,6 +3558,9 @@
 			x: 8.017006802721d
 			y: -8.75d
 			shape: "hexagon"
+			subtitle: "Spawn in Overworld"
+			hide_dependency_lines: true
+			dependencies: ["28709F340776730B"]
 			id: "701010A9F0A99495"
 			tasks: [{
 				id: "2538ECB1572235F9"
@@ -3126,6 +3583,8 @@
 			x: 13.813265306122616d
 			y: -5.493707482993145d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "58D08C026677106B"
 			tasks: [{
 				id: "58DE84AD04DB8189"
@@ -3148,6 +3607,9 @@
 			x: 8.805102040816365d
 			y: -7.824829931972737d
 			shape: "hexagon"
+			subtitle: "Spawn in Overworld"
+			hide_dependency_lines: true
+			dependencies: ["28709F340776730B"]
 			id: "4732814EE3CEB7B3"
 			tasks: [{
 				id: "1DD6F30218071DB4"
@@ -3170,6 +3632,12 @@
 			x: 14.834353741496557d
 			y: -3.211224489795846d
 			shape: "hexagon"
+			subtitle: "Make sure to see the spawn egg recipe on &4JEI&r"
+			hide_dependency_lines: true
+			dependencies: [
+				"1C2488763CCCA93F"
+				"32B12D10660F4037"
+			]
 			id: "3764DC6E12EC052E"
 			tasks: [{
 				id: "2238FA5DB1F46FDC"
@@ -3192,6 +3660,11 @@
 			x: 9.56700680272111d
 			y: -7.824829931972737d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"68C959E70C5FB27F"
+				"5AE479976404293E"
+			]
 			id: "173E32122B3FBF1A"
 			tasks: [{
 				id: "2CFBCE0123D8E871"
@@ -3214,6 +3687,9 @@
 			x: 11.551020408163211d
 			y: -8.344557823129229d
 			shape: "hexagon"
+			subtitle: "Spawn in Overworld"
+			hide_dependency_lines: true
+			dependencies: ["28709F340776730B"]
 			id: "5E749C6498C40569"
 			tasks: [{
 				id: "75AB019BD245A6A6"
@@ -3233,9 +3709,14 @@
 		}
 		{
 			title: "Vibranium Bee"
-			x: 7.412925170068021d
-			y: -1.3612244897958945d
+			x: 7.0d
+			y: -1.5d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"1A6EA32BFBE0BAAE"
+				"68CE8FF470DB60ED"
+			]
 			id: "0760AEB4D4BB74C5"
 			tasks: [{
 				id: "4A4B50A054088513"
@@ -3258,6 +3739,8 @@
 			x: 15.160884353741451d
 			y: -2.394897959183602d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["42B4D74321A27197"]
 			id: "6AE60E6312DF4B23"
 			tasks: [{
 				id: "1C12466270AFCE32"
@@ -3280,6 +3763,8 @@
 			x: 11.552380952381014d
 			y: -4.620748299319693d
 			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "42419E07F45208E2"
 			tasks: [{
 				id: "40E602B1729937FA"
@@ -3299,8 +3784,9 @@
 		}
 		{
 			title: "Bee"
-			x: -1.25d
-			y: -7.25d
+			x: -2.5d
+			y: -6.5d
+			dependencies: ["06CC09E0AE4819E5"]
 			id: "1356E497437B716A"
 			tasks: [{
 				id: "006DBF1B4AC3EBA0"
@@ -3448,8 +3934,9 @@
 		}
 		{
 			x: -2.5d
-			y: -7.25d
-			description: [""]
+			y: -7.75d
+			dependencies: ["1356E497437B716A"]
+			optional: true
 			id: "3F699C17917FFE2D"
 			tasks: [{
 				id: "20E4BA133D32D102"

@@ -4,5 +4,20 @@
 	title: "MekaRandom"
 	icon: "mekanism:steel_casing"
 	loot_size: 1
-	rewards: [ ]
+	rewards: [
+		{ item: "mekanism:alloy_infused" }
+		{ item: "mekanism:basic_tier_installer" }
+		{ item: "mekanism:enriched_iron" }
+		{ item: "mekanism:salt" }
+		{ item: "mekanism:substrate" }
+		{ item: "mekanism:bio_fuel" }
+		{ item: "mekanism:dust_netherite" }
+		{ item: "mekanism:nugget_refined_obsidian" }
+		{ item: "mekanism:nugget_refined_glowstone" }
+		{ item: "mekanism:basic_thermodynamic_conductor" }
+		{ item: "mekanism:basic_logistical_transporter" }
+		{ item: "mekanism:basic_pressurized_tube" }
+		{ item: "mekanism:basic_mechanical_pipe" }
+		{ item: "mekanism:basic_universal_cable" }
+	]
 }

@@ -7,18 +7,32 @@
 	icon: "thermal:machine_frame"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	images: [{
-		x: 8.25d
-		y: 5.5d
-		width: 8.239d
-		height: 6.336d
-		rotation: 0.0d
-		image: "chroma:textures/quests/thermal_augments.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
-	}]
+	images: [
+		{
+			x: 8.25d
+			y: 5.5d
+			width: 8.239d
+			height: 6.336d
+			rotation: 0.0d
+			image: "chroma:textures/quests/thermal_augments.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 7.25d
+			y: 15.625d
+			width: 6.0d
+			height: 4.62d
+			rotation: 0.0d
+			image: "chroma:textures/quests/thermal_tools.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
 			title: "&2&lWelcome to Thermal Series      &r"
@@ -139,7 +153,7 @@
 			x: 0.0d
 			y: 10.75d
 			subtitle: "Pressing"
-			description: ["Squeezes and deforms items. Can use a manufacturing die to determine the output."]
+			description: ["Squeezes and deforms items. Can use a manufacturing die to make different results."]
 			dependencies: ["677773349FE468C2"]
 			id: "063B75CA0BD9A9BC"
 			tasks: [{
@@ -231,8 +245,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 16.0d
+			x: 6.75d
+			y: 16.75d
 			hide_dependency_lines: true
 			dependencies: ["3AC2609EA33632B8"]
 			id: "3E3505A28B6926FC"
@@ -252,8 +266,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 14.5d
+			x: 5.75d
+			y: 15.25d
 			hide_dependency_lines: true
 			dependencies: ["3AC2609EA33632B8"]
 			id: "237C289E8081A440"
@@ -273,8 +287,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 15.5d
+			x: 5.75d
+			y: 16.25d
 			hide_dependency_lines: true
 			dependencies: ["3AC2609EA33632B8"]
 			id: "1F7E1DA9213D38A7"
@@ -294,8 +308,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 14.0d
+			x: 6.75d
+			y: 14.75d
 			hide_dependency_lines: true
 			dependencies: ["3AC2609EA33632B8"]
 			id: "7527CD860ECA4809"
@@ -821,8 +835,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 15.0d
+			x: 6.75d
+			y: 15.75d
 			dependencies: ["7DD76F9B6426DCA3"]
 			id: "2FEB865C2D01A142"
 			tasks: [{
@@ -1038,7 +1052,7 @@
 			x: -3.0d
 			y: 7.75d
 			subtitle: "BRRRR !"
-			description: ["Rapidly freezes items and fluids. Can use a forming mold with fluids to determine the output."]
+			description: ["Rapidly freezes items and fluids. Can use a mold with fluids to make different results."]
 			dependencies: ["677773349FE468C2"]
 			id: "0D4FABA90E9DCAEE"
 			tasks: [{
@@ -1168,8 +1182,8 @@
 			]
 		}
 		{
-			x: 9.5d
-			y: 15.0d
+			x: 8.75d
+			y: 15.75d
 			hide_dependency_lines: true
 			dependencies: [
 				"387646F8C259D92F"
@@ -1192,8 +1206,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 14.5d
+			x: 7.75d
+			y: 15.25d
 			hide_dependency_lines: true
 			dependencies: ["387646F8C259D92F"]
 			id: "0FD98E3C554738EF"
@@ -1213,8 +1227,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 15.5d
+			x: 7.75d
+			y: 16.25d
 			hide_dependency_lines: true
 			dependencies: ["387646F8C259D92F"]
 			id: "096A7A40D50C6C69"

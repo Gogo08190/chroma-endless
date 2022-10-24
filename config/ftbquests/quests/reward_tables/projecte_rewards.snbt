@@ -1,0 +1,21 @@
+{
+	id: "22AD400E75DF778B"
+	order_index: 25
+	title: "ProjectE rewards"
+	icon: "projecte:condenser_mk1"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:glowstone_dust", count: 8 }
+		{ item: "minecraft:diamond", count: 4 }
+		{ item: "minecraft:gold_ingot", count: 6 }
+		{ item: "minecraft:iron_ingot", count: 12 }
+		{ item: "minecraft:emerald", count: 2 }
+		{ item: "minecraft:quartz", count: 3 }
+		{ item: "minecraft:coal", count: 16 }
+		{ item: "minecraft:redstone", count: 6 }
+		{ item: "minecraft:lapis_lazuli", count: 6 }
+		{ }
+		{ item: "minecraft:blaze_powder", count: 5 }
+		{ item: "minecraft:gunpowder", count: 6 }
+	]
+}
