@@ -1,5 +1,7 @@
 {
   "flower": "minecraft:magma_block",
+  "lore": "This bee can be found in the Nether. This bee produces Magma Creams",
+  "loreColor": "#00AAAA",
   "maxTimeInHive": 1200,
   "traits": [
     "nether"

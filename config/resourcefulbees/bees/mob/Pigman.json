@@ -1,5 +1,7 @@
 {
   "flower": "minecraft:nether_wart",
+  "lore": "This bee can be found in the Nether. This bee produces Rotten Fleshs",
+  "loreColor": "#00AAAA",
   "maxTimeInHive": 1000,
   "hasHoneycomb": true,
   "apiaryOutputAmounts": [

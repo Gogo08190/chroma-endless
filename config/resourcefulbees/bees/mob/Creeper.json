@@ -1,5 +1,7 @@
 {
   "flower": "thermal:gunpowder_block",
+  "lore": "This bee can be found everywhere at night. This bee produces Gunpowder",
+  "loreColor": "#00AAAA",
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
   "apiaryOutputAmounts": [

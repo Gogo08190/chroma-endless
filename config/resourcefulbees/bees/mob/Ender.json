@@ -1,5 +1,7 @@
 {
   "flower": "minecraft:chorus_flower",
+  "lore": "This bee can be found in the End. This bee produces Ender Pearls",
+  "loreColor": "#00AAAA",
   "hasHoneycomb": true,
   "apiaryOutputAmounts": [
     4,

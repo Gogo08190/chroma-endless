@@ -1,5 +1,7 @@
 {
   "flower": "minecraft:wither_rose",
+  "lore": "Through Bee Breeding, this bee will produce Nether Star Fragments",
+  "loreColor": "#00AAAA",
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
   "apiaryOutputAmounts": [

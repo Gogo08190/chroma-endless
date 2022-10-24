@@ -1,5 +1,7 @@
 {
   "flower": "architects_palette:rotten_flesh_block",
+  "lore": "This bee can be found in the Overworld at night. This bee produces Rotten Fleshs",
+  "loreColor": "#00AAAA",
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
   "apiaryOutputAmounts": [

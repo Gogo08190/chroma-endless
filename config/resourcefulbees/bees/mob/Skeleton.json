@@ -1,5 +1,7 @@
 {
   "flower": "minecraft:bone_block",
+  "lore": "This bee can be found in the Overworld at night. This bee produces Bones",
+  "loreColor": "#00AAAA",
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
   "apiaryOutputAmounts": [

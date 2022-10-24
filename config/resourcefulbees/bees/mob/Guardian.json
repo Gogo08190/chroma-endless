@@ -1,5 +1,7 @@
 {
   "flower": "minecraft:prismarine_bricks",
+  "lore": "Through Bee Breeding, this bee will produce Guardian Diodes",
+  "loreColor": "#00AAAA",
   "maxTimeInHive": 1200,
   "traits": ["can_swim"],
   "hasHoneycomb": true,

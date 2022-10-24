@@ -1,5 +1,7 @@
 {
   "flower": "minecraft:spawner",
+  "lore": "This bee can be found in The Undergarden. This bee produces either Dungeon Loots or Mossy Cobblestone",
+  "loreColor": "#00AAAA",
   "hasHoneycomb": false,
   "traits": [],
   "maxTimeInHive": 1200,
