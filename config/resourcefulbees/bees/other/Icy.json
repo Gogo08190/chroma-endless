@@ -1,5 +1,7 @@
 {
   "flower": "minecraft:water",
+  "lore": "This bee can be found in the Overworld. This bee produces Gravel",
+  "loreColor": "#00AAAAC",
   "hasHoneycomb": false,
   "traits": ["can_swim"],
   "maxTimeInHive": 1200,

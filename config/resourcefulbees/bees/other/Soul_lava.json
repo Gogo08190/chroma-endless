@@ -1,5 +1,7 @@
 {
   "flower": "nethers_delight:rich_soul_soil",
+  "lore": "Through the Casting Table, this bee will produce Soul Lava",
+  "loreColor": "#00AAA",
   "maxTimeInHive": 600,
   "traits":["can_swim", "nether"],
   "hasHoneycomb": true,
