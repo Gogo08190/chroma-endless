@@ -1,5 +1,7 @@
 {
   "flower": "tag:forge:storage_blocks/netherite",
+  "lore": "Through Bee Breeding, this bee will produce Netherite",
+  "loreColor": "#858585",
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
   "apiaryOutputAmounts": [

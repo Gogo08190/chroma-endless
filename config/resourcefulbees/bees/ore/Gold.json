@@ -1,5 +1,7 @@
 {
   "flower": "tag:forge:storage_blocks/gold",
+  "lore": "Through the Casting Table, this bee will produce Gold",
+  "loreColor": "#00ACA",
   "hasHoneycomb": true,
   "apiaryOutputAmounts": [
     4,

@@ -1,5 +1,7 @@
 {
   "flower": "tag:forge:storage_blocks/iron",
+  "lore": "Through the Casting Table, this bee will produce Iron",
+  "loreColor": "#01ACA",
   "hasHoneycomb": true,
   "apiaryOutputAmounts": [
     4,

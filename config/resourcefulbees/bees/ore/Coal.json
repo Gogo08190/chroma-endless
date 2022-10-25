@@ -1,5 +1,7 @@
 {
   "flower": "tag:forge:storage_blocks/coal",
+  "lore": "Through the Casting Table, this bee will produce Coal",
+  "loreColor": "#00AAB",
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
   "apiaryOutputAmounts": [
