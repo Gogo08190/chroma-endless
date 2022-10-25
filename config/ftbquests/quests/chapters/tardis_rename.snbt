@@ -111,18 +111,30 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "08456DCE6CCAD0D3"
+				type: "xp"
+				xp: 10
+			}]
 		}
 		{
 			x: -46.25d
 			y: -10.0d
 			shape: "gear"
-			description: ["Find in village."]
+			description: ["Found in a village."]
+			hide_dependency_lines: true
+			dependencies: ["32B12D10660F4037"]
 			size: 4.0d
 			id: "445EBC860C3ABE3C"
 			tasks: [{
 				id: "2E3E2E8D303D73BF"
 				type: "item"
 				item: "tardis:telescope"
+			}]
+			rewards: [{
+				id: "037479F6D3CCDEC0"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -159,6 +171,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "10D0A9AB8AD9A9BA"
+				type: "item"
+				item: "rftoolsbase:infused_enderpearl"
+			}]
 		}
 		{
 			x: -41.25d
@@ -180,6 +197,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "128992541AA87C3B"
+				type: "item"
+				item: "elementalcraft:fireite_ingot"
+				count: 2
 			}]
 		}
 		{
@@ -217,6 +240,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6B8AC06F056F9E10"
+				type: "item"
+				item: "tardis:circuits"
+			}]
 		}
 		{
 			x: -41.25d
@@ -234,6 +262,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "1466D18636018321"
+				type: "item"
+				item: "minecraft:ghast_tear"
 			}]
 		}
 		{
@@ -253,6 +286,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5FEF9A0BD85B9C1C"
+				type: "item"
+				item: "minecraft:tripwire_hook"
+			}]
 		}
 		{
 			x: -41.25d
@@ -271,6 +309,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1D50713A36308A21"
+				type: "item"
+				item: "minecraft:prismarine_crystals"
+			}]
 		}
 		{
 			x: -54.0d
@@ -281,6 +324,11 @@
 				id: "55A78CAF5423BC81"
 				type: "item"
 				item: "tardis:leaky_capacitor"
+			}]
+			rewards: [{
+				id: "09228F517ECC50D2"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -297,6 +345,11 @@
 				type: "item"
 				item: "tardis:artron_capacitor"
 			}]
+			rewards: [{
+				id: "749E89A229D98487"
+				type: "item"
+				item: "tardis:mercury_bottle"
+			}]
 		}
 		{
 			x: -51.25d
@@ -308,6 +361,11 @@
 				type: "item"
 				item: "tardis:artron_capacitor_mid"
 			}]
+			rewards: [{
+				id: "3610A1F899905EBA"
+				type: "item"
+				item: "tardis:mercury_bottle"
+			}]
 		}
 		{
 			x: -51.25d
@@ -318,6 +376,11 @@
 				id: "17F2782BA86AA5A8"
 				type: "item"
 				item: "tardis:artron_capacitor_high"
+			}]
+			rewards: [{
+				id: "2EAE7B848FCBEB43"
+				type: "item"
+				item: "tardis:mercury_bottle"
 			}]
 		}
 		{
@@ -335,6 +398,12 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "39FE770F33F7E863"
+				type: "item"
+				item: "tardis:xion_crystal"
+				count: 16
+			}]
 		}
 		{
 			x: -36.75d
@@ -350,6 +419,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "5262A85B3AA1F977"
+				type: "item"
+				item: "tardis:circuits"
+			}]
 		}
 		{
 			x: -36.5d
@@ -361,15 +435,21 @@
 				type: "item"
 				item: "tardis:artron_battery_high"
 			}]
+			rewards: [{
+				id: "7FE180AC1B934564"
+				type: "item"
+				item: "tardis:xion_crystal"
+				count: 16
+			}]
 		}
 		{
 			x: -56.25d
 			y: -6.0d
 			subtitle: "An Alembic is a device that processes raw materials. It can be mined with a pickaxe."
 			description: [
-				"Uses"
-				"-Converting Cinnabar Dust to Mercury Bottles."
-				"-Creating Circuit Paste."
+				"It can be used to :"
+				"-Convert Cinnabar Dust to Mercury Bottles."
+				"-Create Circuit Paste."
 				"{image:chroma:textures/quests/alembic.png width:150 height:200 align:1}"
 			]
 			dependencies: [
@@ -384,6 +464,11 @@
 				type: "item"
 				item: "tardis:alembic"
 			}]
+			rewards: [{
+				id: "4D327CABA0E00198"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
 		}
 		{
 			x: -54.5d
@@ -392,6 +477,11 @@
 			id: "3F83723C50953694"
 			tasks: [{
 				id: "1FB3C599A3762256"
+				type: "item"
+				item: "tardis:circuit_paste"
+			}]
+			rewards: [{
+				id: "17E868471DCFF44C"
 				type: "item"
 				item: "tardis:circuit_paste"
 			}]
@@ -406,6 +496,11 @@
 				type: "item"
 				item: "tardis:circuits"
 			}]
+			rewards: [{
+				id: "63BD6DA36F65D54A"
+				type: "item"
+				item: "thermal:redstone_servo"
+			}]
 		}
 		{
 			x: -56.25d
@@ -414,6 +509,11 @@
 			id: "57A8BC4F35239A61"
 			tasks: [{
 				id: "2AC11C32373EDC5E"
+				type: "item"
+				item: "tardis:mercury_bottle"
+			}]
+			rewards: [{
+				id: "29174080E7CBD2B1"
 				type: "item"
 				item: "tardis:mercury_bottle"
 			}]
@@ -458,6 +558,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "30E5696AD076AE40"
+				type: "item"
+				item: "tardis:xion_crystal"
+				count: 16
+			}]
 		}
 		{
 			x: -55.75d
@@ -473,6 +579,11 @@
 				type: "item"
 				item: "tardis:waypoint_bank"
 			}]
+			rewards: [{
+				id: "085897AAE3D95495"
+				type: "item"
+				item: "tardis:circuits"
+			}]
 		}
 		{
 			title: "Quantiscope"
@@ -480,10 +591,10 @@
 			y: -12.5d
 			subtitle: "The Quantiscope is a block that allows users to craft and modify various items."
 			description: [
-				"Uses:"
-				"-Can modify each casing part of a Sonic Screwdriver."
-				"-Does not require any energy to change Sonic casing."
-				"-Can be used to craft Tardis Mod Items."
+				"It can be used to :"
+				"-Modify each casing part of a Sonic Screwdriver."
+				"Note : It does not require any energy to change Sonic casings."
+				"-Craft Tardis Mod Items."
 				"-Repair Tardis Sub-systems"
 				"{image:chroma:textures/quests/quantiscope_fabricate.png width:150 height:150 align:1}"
 				"Sonic Customisation"
@@ -511,6 +622,11 @@
 						]
 					}
 				}
+			}]
+			rewards: [{
+				id: "56B0970095675E82"
+				type: "item"
+				item: "tardis:circuits"
 			}]
 		}
 		{
@@ -543,6 +659,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "59C7F14EADB5E41C"
+				type: "item"
+				item: "tardis:artron_battery"
+			}]
 		}
 		{
 			x: -54.25d
@@ -554,6 +675,11 @@
 				id: "7203F58A87C19132"
 				type: "item"
 				item: "tardis:timeship_backdoor"
+			}]
+			rewards: [{
+				id: "7718701D1CA0418B"
+				type: "item"
+				item: "tardis:int_door"
 			}]
 		}
 		{
@@ -574,6 +700,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "7D685B286D26B37C"
+				type: "item"
+				item: "minecraft:iron_trapdoor"
+			}]
 		}
 		{
 			x: -42.0d
@@ -590,17 +721,28 @@
 				type: "item"
 				item: "tardis:artifact_map"
 			}]
+			rewards: [{
+				id: "66B7934A096FF9D6"
+				type: "xp"
+				xp: 10
+			}]
 		}
 		{
 			x: -50.5d
 			y: -12.5d
-			description: ["The Pocket Watch is a device that allows a player to view the outside world's time when inside the Tardis interior."]
+			description: ["The Pocket Watch is a device that allows a player to view the outside world's time whilst inside the Tardis."]
 			dependencies: ["6558A4451C4D3B9B"]
 			id: "1FF942CB25D5A8AD"
 			tasks: [{
 				id: "2E7A662EA33AFDDE"
 				type: "item"
 				item: "tardis:pocket_watch"
+			}]
+			rewards: [{
+				id: "2C6BD8FE797EAB53"
+				type: "item"
+				item: "tardis:xion_crystal"
+				count: 16
 			}]
 		}
 		{
@@ -617,6 +759,12 @@
 				type: "item"
 				item: "tardis:data_crystal"
 			}]
+			rewards: [{
+				id: "15142E96BF0F9A83"
+				type: "item"
+				item: "tardis:xion_crystal"
+				count: 10
+			}]
 		}
 		{
 			x: -39.0d
@@ -628,6 +776,12 @@
 				id: "1C4106253BBBE918"
 				type: "item"
 				item: "tardis:vm_strap"
+			}]
+			rewards: [{
+				id: "140D7AAA8D5EB6BF"
+				type: "item"
+				item: "minecraft:leather"
+				count: 4
 			}]
 		}
 		{
@@ -642,6 +796,12 @@
 				id: "522150A1B1FD112C"
 				type: "item"
 				item: "tardis:vm_module"
+			}]
+			rewards: [{
+				id: "039D2B1E959DA812"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -684,6 +844,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4AFD8D72FCD14D95"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: -38.5d
@@ -724,17 +889,28 @@
 					item: "tardis:artron_pylon"
 				}
 			]
+			rewards: [{
+				id: "55EBDBF86C2227DB"
+				type: "item"
+				item: "tardis:artron_battery"
+			}]
 		}
 		{
 			x: -50.5d
 			y: -14.25d
-			description: ["The Vortex Detector block is a block similar to the Daylight Sensor. It emits a Redstone signal when it detects if a Tardis is in flight, and can be inverted for its opposite behavior."]
+			description: ["The Vortex Detector block is a block similar to the Daylight Sensor. It emits a Redstone signal when it detects if a Tardis is in flight, and can be inverted for the opposite."]
 			dependencies: ["6558A4451C4D3B9B"]
 			id: "17EF84F760BE6F2C"
 			tasks: [{
 				id: "784BF6B929D1CCAF"
 				type: "item"
 				item: "tardis:vortex_detector"
+			}]
+			rewards: [{
+				id: "5F5A57B3F708FD06"
+				type: "item"
+				item: "tardis:xion_crystal"
+				count: 16
 			}]
 		}
 		{
@@ -748,6 +924,11 @@
 				type: "item"
 				item: "tardis:transduction_barrier"
 			}]
+			rewards: [{
+				id: "08C11CC8169D5202"
+				type: "item"
+				item: "tardis:landing_pad"
+			}]
 		}
 		{
 			x: -54.25d
@@ -759,6 +940,12 @@
 				id: "22CC32C3990E0C7D"
 				type: "item"
 				item: "tardis:landing_pad"
+			}]
+			rewards: [{
+				id: "16E9FA8AADE807A9"
+				type: "item"
+				item: "minecraft:daylight_detector"
+				count: 2
 			}]
 		}
 		{
@@ -779,6 +966,11 @@
 				type: "item"
 				item: "tardis:roundel_tap"
 			}]
+			rewards: [{
+				id: "5BDFC7851B7A7116"
+				type: "item"
+				item: "tardis:circuits"
+			}]
 		}
 		{
 			x: -52.5d
@@ -793,6 +985,11 @@
 				id: "5DB806CFCA71614A"
 				type: "item"
 				item: "tardis:ars_egg"
+			}]
+			rewards: [{
+				id: "414F7D6F8ECF223C"
+				type: "item"
+				item: "tardis:circuits"
 			}]
 		}
 		{
@@ -813,6 +1010,11 @@
 				type: "checkmark"
 				title: "Transfer items within Tardis Interior"
 			}]
+			rewards: [{
+				id: "23CCF74A5C56AF07"
+				type: "xp"
+				xp: 10
+			}]
 		}
 		{
 			x: -37.5d
@@ -831,6 +1033,11 @@
 				id: "781282CB1F066ADD"
 				type: "checkmark"
 				title: "Transfer items from Tardis Interior to Tardis Exterior "
+			}]
+			rewards: [{
+				id: "7936F37FA8F89619"
+				type: "xp"
+				xp: 10
 			}]
 		}
 		{
@@ -851,6 +1058,11 @@
 				type: "checkmark"
 				title: "Transfer items from Tardis Exterior to Tardis Interior"
 			}]
+			rewards: [{
+				id: "1B5EB7BA43D88D87"
+				type: "xp"
+				xp: 10
+			}]
 		}
 		{
 			x: -57.0d
@@ -868,6 +1080,11 @@
 				id: "62B5CC70CE6B4C94"
 				type: "checkmark"
 				title: "Activation"
+			}]
+			rewards: [{
+				id: "0F2F8DE7D6961853"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -888,6 +1105,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "537551B3D5C89B92"
+				type: "item"
+				item: "tardis:circuits"
+			}]
 		}
 		{
 			x: -55.25d
@@ -906,6 +1128,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "6077496E3D29FA16"
+				type: "item"
+				item: "tardis:circuits"
 			}]
 		}
 		{
@@ -926,6 +1153,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "03AE6DB8D0266355"
+				type: "item"
+				item: "tardis:circuits"
+			}]
 		}
 		{
 			x: -57.25d
@@ -944,6 +1176,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "19580DCCAD37E351"
+				type: "item"
+				item: "tardis:circuits"
 			}]
 		}
 		{
@@ -964,6 +1201,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0E49CE0F699317CA"
+				type: "item"
+				item: "tardis:circuits"
+			}]
 		}
 		{
 			x: -59.25d
@@ -982,6 +1224,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "30E54A01DD6CE94C"
+				type: "item"
+				item: "tardis:circuits"
 			}]
 		}
 		{
@@ -1002,6 +1249,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "31EA76C8E5449A04"
+				type: "item"
+				item: "tardis:circuits"
+			}]
 		}
 		{
 			x: -61.25d
@@ -1021,6 +1273,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "71141B097023B6BE"
+				type: "item"
+				item: "tardis:circuits"
+			}]
 		}
 		{
 			x: -52.5d
@@ -1033,6 +1290,11 @@
 				type: "checkmark"
 				title: "Essential"
 			}]
+			rewards: [{
+				id: "274555483B12D3E8"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: -54.25d
@@ -1044,6 +1306,11 @@
 				id: "17F40F32EAFF63F3"
 				type: "checkmark"
 				title: "Optional"
+			}]
+			rewards: [{
+				id: "3D6471736C5AEA6C"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -1062,6 +1329,11 @@
 				type: "checkmark"
 				title: "Activation"
 			}]
+			rewards: [{
+				id: "600CB6A275B8A5AE"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: -50.5d
@@ -1073,6 +1345,11 @@
 				type: "checkmark"
 				title: "Rift Chunk"
 			}]
+			rewards: [{
+				id: "2DB904BF5BCEDD3A"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: -49.75d
@@ -1080,7 +1357,7 @@
 			description: [
 				"Any chunk, at any time, will have a chance to become a rift. Rifts will have limited energy, and that will build overtime."
 				""
-				"A fully drained rift will close and not gain any power again, but like every other chunk it has a chance to become a rift again."
+				"A fully drained rift will close and not gain any power again, but like every other chunk, it has a chance to become a rift again."
 			]
 			dependencies: ["7249BC3BF63A36B8"]
 			id: "1E1901611F025610"
@@ -1088,6 +1365,11 @@
 				id: "03595FE5717FC321"
 				type: "checkmark"
 				title: "Generation"
+			}]
+			rewards: [{
+				id: "74207611520FC4EF"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -1101,6 +1383,11 @@
 				type: "checkmark"
 				title: "Detection"
 			}]
+			rewards: [{
+				id: "47D3944513154BEE"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: -47.75d
@@ -1110,7 +1397,7 @@
 				"2. Place down an Artron Collector and Artron Pylon within the Rift Chunk."
 				"{image:chroma:textures/quests/rift.png width:150 height:100 align:1}"
 				"{image:chroma:textures/quests/rift2.png width:150 height:100 align:1}"
-				"Take out the item from the Artron Collector. If the item has been charged, its store Artron Units will have increased."
+				"Take out the item from the Artron Collector. If the item has been charged, its stored Artron Units will have increased."
 			]
 			dependencies: ["42C1B84F1A72B43C"]
 			id: "360FBB77F43CA6C6"
@@ -1118,6 +1405,11 @@
 				id: "374F0802DC7C9281"
 				type: "checkmark"
 				title: "Charging Artron compatible items"
+			}]
+			rewards: [{
+				id: "0232CE102B0D0DAD"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -1154,6 +1446,11 @@
 				type: "checkmark"
 				title: "Transfer energy within Tardis Interior"
 			}]
+			rewards: [{
+				id: "0DC6FB8EC0784C88"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: -40.5d
@@ -1182,6 +1479,11 @@
 				id: "61B5E26367A2FD9A"
 				type: "checkmark"
 				title: "Transfer items from Tardis Interior to Tardis Exterior "
+			}]
+			rewards: [{
+				id: "46508CDA1D43A9DC"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -1212,6 +1514,11 @@
 				type: "checkmark"
 				title: "Transfer items from Tardis Exterior to Tardis Interior"
 			}]
+			rewards: [{
+				id: "1F34120026E612A7"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: -39.5d
@@ -1224,6 +1531,11 @@
 				type: "checkmark"
 				title: "Figure 1 - State when Roundel Tap is pushing energy to nearby blocks"
 			}]
+			rewards: [{
+				id: "068A1A4930BD396E"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: -42.75d
@@ -1235,6 +1547,11 @@
 				id: "64F66CF0714CC922"
 				type: "checkmark"
 				title: "Figure 2 - State when Roundel Tap is pushing energy to the Tardis."
+			}]
+			rewards: [{
+				id: "6CDAF011CB0F502A"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -1249,6 +1566,12 @@
 				id: "3B98EA4C8E15AD17"
 				type: "item"
 				item: "tardis:xion_crystal"
+			}]
+			rewards: [{
+				id: "49E01A720BCB009C"
+				type: "item"
+				item: "tardis:xion_crystal"
+				count: 16
 			}]
 		}
 		{
@@ -1279,6 +1602,11 @@
 					item: "tardis:space_boots"
 				}
 			]
+			rewards: [{
+				id: "3E810EB9D639C6E3"
+				type: "item"
+				item: "tardis:circuits"
+			}]
 		}
 		{
 			x: -35.5d
@@ -1295,6 +1623,11 @@
 				type: "checkmark"
 				title: "Schematics"
 			}]
+			rewards: [{
+				id: "39400A045C7DBC03"
+				type: "xp"
+				xp: 10
+			}]
 		}
 		{
 			x: -35.5d
@@ -1310,6 +1643,11 @@
 				type: "checkmark"
 				title: "Unlocking an Object"
 			}]
+			rewards: [{
+				id: "6B7F0D32459C3D9A"
+				type: "xp"
+				xp: 10
+			}]
 		}
 		{
 			x: -35.5d
@@ -1317,7 +1655,7 @@
 			description: [
 				"1. Place down a Neutronic Spectrometer"
 				"2. Open the GUI of the Spectrometer block"
-				"3. Add an item into the left hand slot of the GUI. If a valid item is added, the Spectromer will proceed to \"extract\" information from the item and a blue progress bar will slowly increase."
+				"3. Add an item into the left slot of the GUI. If a valid item is added, the Spectromer will proceed to \"extract\" information from the item and a blue progress bar will slowly increase."
 				"{image:chroma:textures/quests/shematic_input.png width:100 height:100 align:1}"
 				"4. Wait until the blue progress bar for the \"extraction\" process to be completed. A green lamp on the top left hand side will be lit."
 				"{image:chroma:textures/quests/shematic_extract.png width:100 height:100 align:1}"
@@ -1337,6 +1675,11 @@
 				id: "7D265585385CAFE4"
 				type: "checkmark"
 				title: "Obtaining Schematics"
+			}]
+			rewards: [{
+				id: "4BD6B53837CC559F"
+				type: "xp"
+				xp: 10
 			}]
 		}
 		{
@@ -1358,6 +1701,11 @@
 				type: "checkmark"
 				title: "Ship Computer"
 			}]
+			rewards: [{
+				id: "19145DB3F41FB0B0"
+				type: "xp"
+				xp: 10
+			}]
 		}
 		{
 			x: -34.5d
@@ -1377,6 +1725,11 @@
 				id: "0F79E6687B75D986"
 				type: "checkmark"
 				title: "Installing Schematic into Tardis"
+			}]
+			rewards: [{
+				id: "74104DFCA685CE34"
+				type: "xp"
+				xp: 10
 			}]
 		}
 		{
@@ -1411,6 +1764,11 @@
 				advancement: "tardis:obtain_tardis"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "55FE94E3F43A145E"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: -61.25d
@@ -1422,6 +1780,11 @@
 				type: "advancement"
 				advancement: "tardis:space/space_suit"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "04C173C14E1CFB5B"
+				type: "xp"
+				xp: 100
 			}]
 		}
 	]

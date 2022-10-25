@@ -3,7 +3,7 @@
 	group: "56CE41B21EC10C89"
 	order_index: 1
 	filename: "envirotech"
-	title: "&bChapter 2&r &6-&r Environmental Tech"
+	title: "&bChapter 2&r &6-&r New Kind Of Machinery"
 	icon: "envirotech:nanorite_void_miner_ccu"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -334,7 +334,7 @@
 			x: 1.25d
 			y: -19.0d
 			subtitle: "Light itself isn't safe"
-			description: ["The Black Hole Harvester on the other hand is a very special miner, harvesting lost items from a black hole (In The End) or from beneath bedrock itself (In The Overworld). You can expect to find very interesting items, just know that each tier makes the miner more powerful, harvesting items more and more close to the heart of the black hole (Every item you can get with this miner is present in the quests tied to each tier needed to obtain it)."]
+			description: ["The Black Hole Harvester on the other hand is a very special miner, harvesting lost items from a black hole (In The End) or from beneath bedrock itself (In The Overworld). You can expect to find very interesting items, just know that each tier makes the miner more powerful, harvesting items closer and closer to the heart of the black hole."]
 			dependencies: ["4A34BD6688EE9DA1"]
 			id: "3EAB4C4E47E658EA"
 			tasks: [{

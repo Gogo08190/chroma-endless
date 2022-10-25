@@ -3,7 +3,7 @@
 	group: "4B06503CAA5674FC"
 	order_index: 2
 	filename: "bchapter_2r_6r_extreme_reactors"
-	title: "&bChapter 3&r &6-&r Extreme Reactors"
+	title: "&bChapter 3&r &6-&r Renewable Energy"
 	icon: "bigreactors:reinforced_reactorfuelrod"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -571,7 +571,7 @@
 			title: "&#6A0000Rossinite&r"
 			x: 3.75d
 			y: 3.5d
-			description: ["&#6A0000Liquid Rossinite&r can be obtained in a Reinforced Reactor with &#009C00Verderium Fuel&r."]
+			description: ["&#6A0000Liquid Rossinite&r can be obtained in a Reinforced Reactor with a &#009C00Verderium Fuel&r."]
 			dependencies: ["6C6C2266CF4C0ECB"]
 			id: "3DC38D81B2EAB898"
 			tasks: [{
@@ -707,7 +707,7 @@
 			title: "&#EA26EALiquid Magentite&r"
 			x: 1.75d
 			y: 3.5d
-			description: ["&#EA26EALiquid Magentite&r can be obtained in a Fluidizer with &#EA26EAMagentite ingot&r."]
+			description: ["&#EA26EALiquid Magentite&r can be obtained in a Fluidizer with a &#EA26EAMagentite ingot&r."]
 			dependencies: [
 				"6DC4C73055E5FE09"
 				"4F46D07D4530D22B"
@@ -728,7 +728,7 @@
 			title: "&#97E9FFLiquid Cyanite&r"
 			x: -0.25d
 			y: 3.5d
-			description: ["&#97E9FFLiquid Cyanite&r can be obtained in a Fluidizer with &#97E9FFCyanite ingot&r."]
+			description: ["&#97E9FFLiquid Cyanite&r can be obtained in a Fluidizer with a &#97E9FFCyanite ingot&r."]
 			hide_dependency_lines: false
 			dependencies: ["4F46D07D4530D22B"]
 			dependency_requirement: "one_completed"

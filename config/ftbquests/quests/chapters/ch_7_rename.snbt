@@ -3,7 +3,7 @@
 	group: "56CE41B21EC10C89"
 	order_index: 0
 	filename: "ch_7_rename"
-	title: "&bChapter 1&r &6-&r Extended Crafting"
+	title: "&bChapter 1&r &6-&r The Culmination"
 	icon: "extendedcrafting:the_ultimate_ingot"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -121,7 +121,7 @@
 				""
 				"This setup consists of a &6Crafting Core&r in the center and pedestals placed around it. Pedestals can be placed anywhere around the &6Crafting Core&r in a 3 block radius, and must be on the same Y-level."
 				""
-				"Power must be provided to &6Crafting Core&r for this structure to fonction."
+				"Power must be provided to the &6Crafting Core&r for this structure to fonction."
 				""
 				"Recipes have a center item which goes on the &6Crafting Core&r, and pedestals items which go on the pedestals around it."
 				""
@@ -155,19 +155,19 @@
 			y: -1.5d
 			subtitle: "Quantum Processing "
 			description: [
-				"&3Quantum Compression&r is the process of compressing items a little too muh. This is done using the &6Quantum Compressor&r."
+				"&3Quantum Compression&r is the process of compressing items a little too much. This is done using the &6Quantum Compressor&r."
 				""
 				"This block is a powered machine that can hold and compress extremly large amount of materials. It can be done thanks to the large internal buffer that is represented with a &1Blue bar&r."
 				""
-				"Each singularity needs a &bCatalyst&r, that needs to placed in the left slot and does not get used up."
+				"Each singularity needs a &bCatalyst&r, that needs to be placed in the left slot and does not get used up."
 				""
-				"Once there are enough items the buffer, the machine will begin to craft the item with power."
+				"Once there are enough items in the buffer, the machine will begin to craft the item with power."
 				""
-				"The eject button is really useful if you put other items or too much of items that you want to get back."
+				"The eject button is really useful if you put other items or too much of the item and you want to get the extra back."
 				""
 				"Be careful, if you break the machine while operating, you will loose the items inside ! "
 				""
-				"Finally the item input buffer of the machine is capable of holding &5Billions&r of items, by default will only hold as many as the recipe requires. You can disable this limit by clicking on the lock button next to the input buffer."
+				"Finally the item input buffer of the machine is capable of holding &5Billions&r of items, by default it will only hold as many as the recipe requires. You can disable this limit by clicking on the lock button next to the input buffer."
 			]
 			dependencies: ["0717E9C87971D20A"]
 			min_width: 350
@@ -406,7 +406,7 @@
 			x: -4.25d
 			y: 4.75d
 			description: [
-				"&6Auto Crafting Tables&r are an upgraded version of &2Crafting Tables&r that can automatically insert items and be piped out of."
+				"&6Auto Crafting Tables&r are an upgraded version of &2Extended's Crafting Tables&r that can automatically insert items and be piped out of."
 				""
 				"Item insertion is done by simply placing a &nchest above&r the table, and inserting items into saif chest. Item insertion uses power."
 				""
@@ -433,7 +433,7 @@
 			x: -1.0d
 			y: 6.75d
 			description: [
-				"&6Auto Crafting Tables&r are an upgraded version of &2Crafting Tables&r that can automatically insert items and be piped out of."
+				"&6Auto Crafting Tables&r are an upgraded version of &2Extended's Crafting Tables&r that can automatically insert items and be piped out of."
 				""
 				"Item insertion is done by simply placing a &nchest above&r the table, and inserting items into saif chest. Item insertion uses power."
 				""
@@ -460,7 +460,7 @@
 			x: 3.0d
 			y: 6.75d
 			description: [
-				"&6Auto Crafting Tables&r are an upgraded version of &2Crafting Tables&r that can automatically insert items and be piped out of."
+				"&6Auto Crafting Tables&r are an upgraded version of &2Extended's Crafting Tables&r that can automatically insert items and be piped out of."
 				""
 				"Item insertion is done by simply placing a &nchest above&r the table, and inserting items into saif chest. Item insertion uses power."
 				""
@@ -487,7 +487,7 @@
 			x: 6.25d
 			y: 4.75d
 			description: [
-				"&6Auto Crafting Tables&r are an upgraded version of &2Crafting Tables&r that can automatically insert items and be piped out of."
+				"&6Auto Crafting Tables&r are an upgraded version of &2Extended's Crafting Tables&r that can automatically insert items and be piped out of."
 				""
 				"Item insertion is done by simply placing a &nchest above&r the table, and inserting items into saif chest. Item insertion uses power."
 				""
@@ -516,7 +516,7 @@
 			y: 7.25d
 			subtitle: "Power of the End"
 			description: [
-				"The &2Ender Crafting&r is crafting using the power of waiting."
+				"The &2Ender Crafter&r is the crafting method using the power of waiting."
 				""
 				"An &2Ender Crafting&r setup consists of an &6Ender Crafter&r and &6Ender Alternators&r. The Crafter will take energy from the void via the alternators. The more alternators you have, the faster it will craft ! "
 			]

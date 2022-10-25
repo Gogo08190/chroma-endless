@@ -60,7 +60,7 @@
 				""
 				"At least one Valve is required, but more can be added. When the Pressure Chamber construction is completed, the GUI can be opened with a right-click of any of its constituent blocks."
 				""
-				"The Pressure Chamber Interface can also be added into the structure to allow the insertion and removal of items to and from the Pressure Chamber enabling the automation with Pipes."
+				"The Pressure Chamber Interface can also be added into the structure to allow the insertion and removal of items to and from the Pressure Chamber making it possible to automate the Input/Output with pipes."
 			]
 			dependencies: [
 				"3D156DB23470F2D5"
@@ -342,9 +342,9 @@
 			description: [
 				"This block is used together with a Pneumatic Door Base to form a working door contraption."
 				""
-				"When you placed Pneumatic Door Base next to the top half on a Pneumatic Door, will automatically open the door when there are players nearby."
+				"When you place the Pneumatic Door Base next to the top half on a Pneumatic Door, the door will automatically when there are players nearby."
 				""
-				"When the Pneumatic Door Base is within range of a Security Station, the Pneumatic Door Base will only react to players alloyed by the Security Station."
+				"When the Pneumatic Door Base is within range of a Security Station, the Pneumatic Door Base will only react to players allowed by the Security Station."
 			]
 			dependencies: ["121DF7B31DB4BEF8"]
 			optional: true
@@ -507,7 +507,7 @@
 			description: [
 				"&5Heat Sink&r is a block used to get rid of Heat."
 				""
-				"He only dissipate heat from the block they're directly connected to. To connect up many Heat Sinks, use Heat Pipes to provide more surfaces."
+				"He only dissipate heat from the block they're directly connected to. To connect more Heat Sinks, use Heat Pipes, the more the heat sinks the less the heat."
 			]
 			hide_dependency_lines: true
 			dependencies: ["121DF7B31DB4BEF8"]
@@ -528,7 +528,7 @@
 			y: -12.0d
 			shape: "diamond"
 			description: [
-				"&5Vortex Tube&r is a dynamic heat source which converts pressure directly to heat and cold."
+				"The &5Vortex Tube&r is a dynamic heat source which converts pressure directly to heat and cold."
 				""
 				"It's highly recommended to put a Heat Sink on the unused side of a Vortex Tube, for efficiency."
 			]
@@ -556,13 +556,13 @@
 			description: [
 				"The &5Refinery&r is a multiblock machine which uses heat to refine Oil into various fuels."
 				""
-				"The fuels that can be produced are, sorted from lightests to haviest :"
+				"The fuels that can be produced are, sorted from lightest to haviest :"
 				"• LPG"
 				"• Gasoline"
 				"• Kerosene"
 				"• Diesel"
 				""
-				"The &5Refinery&r is a multiblock structure: place down a Refinery Controller, than stack 2-4 Refinery Outputs on top of or beside the Controller."
+				"The &5Refinery&r multiblock is made by placing down a Refinery Controller, then stack 2-4 Refinery Outputs on top of or beside the Controller. "
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -912,7 +912,7 @@
 			y: -1.25d
 			shape: "square"
 			description: [
-				"Place a bucket or tank of Molten Plastic into an inventory with Heat Frame attached, and chill the Heat Frame, ideally yo below -80C (the colder the better)."
+				"Place a bucket or tank of Molten Plastic into an inventory with Heat Frame attached, and chill the Heat Frame, ideally try to get a temperature below -80C (the colder the better)."
 				""
 				"Molten Plastic will be consumed from the bucket or tank, and you will have a chance for a second &5Plastic Sheet&r for each 1000mb of Molten Plastic consumed."
 			]
@@ -1185,7 +1185,7 @@
 			x: -9.25d
 			y: 9.0d
 			description: [
-				"The &5Etching Tank&r should first be filled with &bEtching Acid&r. Then insert up 25 Empty PCB's which have already been either partially or fully exposed in a &bUV Light Box&r."
+				"The &5Etching Tank&r should first be filled with &bEtching Acid&r. Then insert up to 25 Empty PCB's which have already been either partially or fully exposed in a &bUV Light Box&r."
 				""
 				"While it's possible juste to pour Etching Acid into the world and throw PCB's into the pool, using the Etching Tank is a much safer and faster way to do it."
 			]
@@ -1550,12 +1550,12 @@
 			x: -8.25d
 			y: 7.0d
 			description: [
-				"The &5UV Light Box&r is a machine in which you can expose PCB's to UV light, at certain places."
+				"The &5UV Light Box&r is a machine in which you can expose PCB's to UV light."
 				""
 				"The exposure process takes a maximum of 10 minutes, less if you add Speed Upgrades to the machines."
 				""
-				"After the full 10 minutes, you'll have 100% chance that the PCB will be successfully etched in Etching Acid."
-				"You can however expose PCB for shorter time, which will result in a lower chance of PCB successfully being etched."
+				"After the full 10 minutes, you'll have a 100% chance that the PCB will be successfully etched in Etching Acid."
+				"You can however expose the PCB for a shorter time, which will result in a lower chance of the PCB successfully being etched."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1689,11 +1689,11 @@
 			x: -7.25d
 			y: 16.75d
 			description: [
-				"The &5Aerial Interface&r is a very powerful device which can connect directly with a player's inventory. When sufficiently pressurized, it can be interacted with just like any other inventory."
+				"The &5Aerial Interface&r is a very powerful device which can connect directly with a player's inventory. When sufficiently pressurized, it can be interacted with, like any other inventory."
 				""
-				"Instead of landing in the Interface, items get sent directly to do owning player."
+				"Instead of landing in the Interface, items get sent directly to the owning player."
 				""
-				"You coul use a Logistics Resquester Frame on the Interface to keep yourself supplied with 64 torches, for example."
+				"You could use a Logistics Resquester Frame on the Interface to keep yourself supplied with 64 torches, for example."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1747,7 +1747,7 @@
 			description: [
 				"To be able to craft higher tier materials, you'll need an &5Assembly System&r, a collection of Assembly Machines."
 				""
-				"These machines communicate witheach other when they're horizontally ajacent. Only one machine of each type can exist."
+				"These machines communicate with each other when they're horizontally ajacent. Only one machine of each type can exist."
 				""
 				"The assembly line runs on compressed air, but you only need to suply air to the Assembly Controller to power the whole system."
 			]
@@ -1918,11 +1918,11 @@
 			description: [
 				"&5Electrostatic Compressor&r is a tier 2 air compressor, which uses lightning for the energy to produce compressed air."
 				""
-				"When it is struck by lightning it will instantly produce 200,000mL of air. Seems like a lot, but how often do you see a Charged Creeper sneaking around ? You have to have it get struck."
+				"When it is struck by lightning it will instantly produce 200,000mL of air. Seems like a lot, but how often do you see a Charged Creeper sneaking around ? Remember, the Electrostatic Compressor needs to get struck by lightning."
 				""
-				"To increase the charge of this happening, you can connect Iron Bars to this machine which act as a conductor for the lightning bolt."
+				"To increase the chance of this happening, you can connect Iron Bars to this machine which act as a conductor for the lightning bolt."
 				""
-				"Advice wold be to create a large grid of Iron Bars : they can be up 5 blocks away horizontally (circular radius), and up to 5 blocks above or below, but they must all be connected to the Electrostatic Compressor via each other."
+				"Some piece of advice would be to create a large grid of Iron Bars : they can be up 5 blocks away horizontally (circular radius), and up to 5 blocks above or below, but they must all be connected to the Electrostatic Compressor via each other."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -2021,7 +2021,7 @@
 			y: 20.25d
 			shape: "gear"
 			description: [
-				"The &aMaster Assembly Factory&r is a custom machinery to make different items and block like Pneumaticcraft Armor or RfTools Machine frame."
+				"The &aMaster Assembly Factory&r is a custom machinery to make different items and block like Pneumaticcraft's Armor or RfTools Machine frame."
 				""
 				"It needs energy and pressure to operate."
 				""
@@ -2140,7 +2140,7 @@
 			x: -6.75d
 			y: -15.75d
 			shape: "octagon"
-			description: ["This chest is blastproof and preserves its contents when broken."]
+			description: ["This chest is blastproof and preserves its content when broken."]
 			dependencies: [
 				"1F9249795027D6AD"
 				"121DF7B31DB4BEF8"
@@ -2184,6 +2184,7 @@
 			description: ["{image:chroma:textures/quests/litherite.png width:230 height:150 align:1}"]
 			dependencies: ["7C17F05252A4FC79"]
 			size: 1.5d
+			min_width: 300
 			id: "6C1CDB642DADEA2F"
 			tasks: [{
 				id: "0A0E965A2D94D8DD"
@@ -2210,20 +2211,6 @@
 				id: "5668B480A8331D22"
 				type: "item"
 				item: "rftoolsbase:machine_base"
-			}]
-		}
-		{
-			icon: "rftoolsbase:machine_frame"
-			x: -8.25d
-			y: 22.25d
-			shape: "gear"
-			dependencies: ["3B142D2ED1A34A2F"]
-			size: 1.5d
-			id: "3E3A4B6D727ED70F"
-			tasks: [{
-				id: "1774C39827ADCEA1"
-				type: "checkmark"
-				title: "Unlock : &bRFTools&r quest line"
 			}]
 		}
 		{

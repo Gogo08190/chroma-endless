@@ -3,7 +3,7 @@
 	group: "44A22EED2BE11886"
 	order_index: 0
 	filename: "powah"
-	title: "&bChapter 1&r &6-&r Powah"
+	title: "&bChapter 1&r &6-&r Fabrication Through Lasers"
 	icon: {
 		id: "powah:battery_nitro"
 		Count: 1b
@@ -294,7 +294,7 @@
 			y: -5.25d
 			shape: "gear"
 			description: [
-				"&bThe Energizing Orb &fis a block used to energize items, require at least one &6Energizing Rod &fin range of 9X9 to work the energizing speed depends on amount of rods and the rod tier (I/O rate)."
+				"&bThe Energizing Orb &fis a block used to energize items, it requires at least one &6Energizing Rod &fin range of 9X9 to work the energizing speed depends on amount of rods and the rod tier (I/O rate)."
 				""
 				"The orb does not require energy but the rods must be placed on cables or any &6Forge Energy (FE) &fblock to work."
 			]
@@ -1111,7 +1111,7 @@
 			x: -18.5d
 			y: -1.0d
 			shape: "hexagon"
-			description: ["&bThe Thermo Generator &fis a &68FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			description: ["&bThe Thermo Generator &fis a &6FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
 			hide_dependency_lines: true
 			dependencies: [
 				"40BF3EE3318C55B4"
@@ -1136,7 +1136,7 @@
 			x: -11.75d
 			y: -1.0d
 			shape: "hexagon"
-			description: ["&bThe Thermo Generator &fis a &68FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			description: ["&bThe Thermo Generator &fis a &6FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
 			hide_dependency_lines: true
 			dependencies: [
 				"40BF3EE3318C55B4"
@@ -1161,7 +1161,7 @@
 			x: -5.0d
 			y: -1.0d
 			shape: "hexagon"
-			description: ["&bThe Thermo Generator &fis a &68FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			description: ["&bThe Thermo Generator &fis a &6FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
 			hide_dependency_lines: true
 			dependencies: [
 				"40BF3EE3318C55B4"
@@ -1186,7 +1186,7 @@
 			x: -18.5d
 			y: 3.5d
 			shape: "hexagon"
-			description: ["&bThe Thermo Generator &fis a &68FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			description: ["&bThe Thermo Generator &fis a &6FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
 			hide_dependency_lines: true
 			dependencies: [
 				"40BF3EE3318C55B4"
@@ -1211,7 +1211,7 @@
 			x: -11.75d
 			y: 3.5d
 			shape: "hexagon"
-			description: ["&bThe Thermo Generator &fis a &68FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			description: ["&bThe Thermo Generator &fis a &6FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
 			hide_dependency_lines: true
 			dependencies: [
 				"40BF3EE3318C55B4"
@@ -1236,7 +1236,7 @@
 			x: -5.0d
 			y: 3.5d
 			shape: "hexagon"
-			description: ["&bThe Thermo Generator &fis a &68FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			description: ["&bThe Thermo Generator &fis a &6FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
 			hide_dependency_lines: true
 			dependencies: [
 				"40BF3EE3318C55B4"
@@ -1261,7 +1261,7 @@
 			x: -19.0d
 			y: -0.25d
 			shape: "hexagon"
-			description: ["&bThe Solar Panel &fis an &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
+			description: ["&bThe Solar Panel &fis a &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
 			hide_dependency_lines: true
 			dependencies: [
 				"40BF3EE3318C55B4"
@@ -1285,7 +1285,7 @@
 			x: -12.25d
 			y: -0.25d
 			shape: "hexagon"
-			description: ["&bThe Solar Panel &fis an &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
+			description: ["&bThe Solar Panel &fis a &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
 			hide_dependency_lines: true
 			dependencies: [
 				"47CB001EBAA0BB0E"
@@ -1308,7 +1308,7 @@
 			x: -5.5d
 			y: -0.25d
 			shape: "hexagon"
-			description: ["&bThe Solar Panel &fis an &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
+			description: ["&bThe Solar Panel &fis a &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
 			hide_dependency_lines: true
 			dependencies: [
 				"47CB001EBAA0BB0E"
@@ -1354,7 +1354,7 @@
 			x: -12.25d
 			y: 4.25d
 			shape: "hexagon"
-			description: ["&bThe Solar Panel &fis an &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
+			description: ["&bThe Solar Panel &fis a &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
 			hide_dependency_lines: true
 			dependencies: [
 				"47CB001EBAA0BB0E"
@@ -1377,7 +1377,7 @@
 			x: -5.5d
 			y: 4.25d
 			shape: "hexagon"
-			description: ["&bThe Solar Panel &fis an &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
+			description: ["&bThe Solar Panel &fis a &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
 			hide_dependency_lines: true
 			dependencies: [
 				"47CB001EBAA0BB0E"
@@ -1688,7 +1688,7 @@
 			x: -22.0d
 			y: -1.75d
 			shape: "hexagon"
-			description: ["&bThe Energy Hopper &fits a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
+			description: ["&bThe Energy Hopper &fis a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
 			hide_dependency_lines: true
 			dependencies: [
 				"3AC2609EA33632B8"
@@ -1713,7 +1713,7 @@
 			x: -15.25d
 			y: -1.75d
 			shape: "hexagon"
-			description: ["&bThe Energy Hopper &fits a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
+			description: ["&bThe Energy Hopper &fis a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
 			hide_dependency_lines: true
 			dependencies: [
 				"3AC2609EA33632B8"
@@ -1737,7 +1737,7 @@
 			x: -8.5d
 			y: -1.75d
 			shape: "hexagon"
-			description: ["&bThe Energy Hopper &fits a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
+			description: ["&bThe Energy Hopper &fis a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
 			hide_dependency_lines: true
 			dependencies: [
 				"3AC2609EA33632B8"
@@ -1761,7 +1761,7 @@
 			x: -22.0d
 			y: 2.75d
 			shape: "hexagon"
-			description: ["&bThe Energy Hopper &fits a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
+			description: ["&bThe Energy Hopper &fis a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
 			hide_dependency_lines: true
 			dependencies: [
 				"3AC2609EA33632B8"
@@ -1785,7 +1785,7 @@
 			x: -15.25d
 			y: 2.75d
 			shape: "hexagon"
-			description: ["&bThe Energy Hopper &fits a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
+			description: ["&bThe Energy Hopper &fis a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
 			hide_dependency_lines: true
 			dependencies: [
 				"3AC2609EA33632B8"
@@ -1809,7 +1809,7 @@
 			x: -8.5d
 			y: 2.75d
 			shape: "hexagon"
-			description: ["&bThe Energy Hopper &fits a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
+			description: ["&bThe Energy Hopper &fis a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
 			hide_dependency_lines: true
 			dependencies: [
 				"3AC2609EA33632B8"
@@ -2185,7 +2185,7 @@
 			x: -22.0d
 			y: -0.25d
 			shape: "hexagon"
-			description: ["&bBattery &fcharge items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
+			description: ["&bBattery &fcharges items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
 			hide_dependency_lines: true
 			dependencies: [
 				"2911A1ABA35B09A4"
@@ -2214,7 +2214,7 @@
 			x: -15.25d
 			y: -0.25d
 			shape: "hexagon"
-			description: ["&bBattery &fcharge items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
+			description: ["&bBattery &fcharges items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
 			hide_dependency_lines: true
 			dependencies: [
 				"1C96DA971E267F45"
@@ -2243,7 +2243,7 @@
 			x: -8.5d
 			y: -0.25d
 			shape: "hexagon"
-			description: ["&bBattery &fcharge items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
+			description: ["&bBattery &fcharges items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
 			hide_dependency_lines: true
 			dependencies: [
 				"1C96DA971E267F45"
@@ -2272,7 +2272,7 @@
 			x: -22.0d
 			y: 4.25d
 			shape: "hexagon"
-			description: ["&bBattery &fcharge items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
+			description: ["&bBattery &fcharges items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
 			hide_dependency_lines: true
 			dependencies: [
 				"1C96DA971E267F45"
@@ -2301,7 +2301,7 @@
 			x: -15.25d
 			y: 4.25d
 			shape: "hexagon"
-			description: ["&bBattery &fcharge items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
+			description: ["&bBattery &fcharges items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
 			hide_dependency_lines: true
 			dependencies: [
 				"1C96DA971E267F45"
@@ -2330,7 +2330,7 @@
 			x: -8.5d
 			y: 4.25d
 			shape: "hexagon"
-			description: ["&bBattery &fcharge items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
+			description: ["&bBattery &fcharges items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
 			hide_dependency_lines: true
 			dependencies: [
 				"1C96DA971E267F45"

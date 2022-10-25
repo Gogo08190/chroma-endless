@@ -207,7 +207,7 @@
 			icon: "tetra:basic_workbench"
 			x: -0.25d
 			y: -0.25d
-			dependencies: ["7A3D3399611B2809"]
+			dependencies: ["1C7C41C2FA427B8F"]
 			id: "257D7C966898688A"
 			tasks: [{
 				id: "677B17399E3B9FB5"
@@ -233,6 +233,7 @@
 			icon: "tconstruct:tinkers_anvil"
 			x: -1.75d
 			y: -0.25d
+			dependencies: ["1C7C41C2FA427B8F"]
 			id: "3B17CF0B4A59603D"
 			tasks: [{
 				id: "1D152AC0AA4D7537"
@@ -245,6 +246,7 @@
 			icon: "create:wrench"
 			x: 2.75d
 			y: -0.25d
+			dependencies: ["52157E7FBFE05315"]
 			id: "4E8BE91C68D5256F"
 			tasks: [{
 				id: "0C151D6327909DD9"
@@ -257,6 +259,7 @@
 			icon: "minecraft:grass_block"
 			x: -3.25d
 			y: -0.25d
+			dependencies: ["1416718F40ED7569"]
 			id: "46972B2667761A95"
 			tasks: [{
 				id: "1A5800623D263F9A"
@@ -282,6 +285,7 @@
 			}
 			x: -1.0d
 			y: 2.75d
+			dependencies: ["2F7EB9DBC6CE7522"]
 			id: "31ECBDF65045965D"
 			tasks: [{
 				id: "0A39C8BE6B5161A9"
@@ -300,6 +304,7 @@
 			icon: "occultism:spirit_fire"
 			x: 0.5d
 			y: 2.75d
+			dependencies: ["4AC1298723D8A89A"]
 			id: "089E94A6B4BA3CE3"
 			tasks: [{
 				id: "382D6CA17EF6639B"
@@ -312,6 +317,7 @@
 			icon: "betterendforge:eternal_crystal"
 			x: 4.25d
 			y: -0.25d
+			dependencies: ["2BA269B9CA2B23C4"]
 			id: "0A2C953E1209CA36"
 			tasks: [{
 				id: "58C728F1F8E156BF"
@@ -324,6 +330,7 @@
 			icon: "mob_grinding_utils:saw"
 			x: 2.0d
 			y: 2.75d
+			dependencies: ["5818D79835BC71DA"]
 			id: "2D5DCCA4C8F9353D"
 			tasks: [{
 				id: "7D5B91BB788A5FCC"
@@ -336,6 +343,7 @@
 			icon: "thermal:machine_frame"
 			x: -1.0d
 			y: 5.75d
+			dependencies: ["3A99B2052AE4BAC9"]
 			id: "0330933B8ED2E6E0"
 			tasks: [{
 				id: "19A10F3BEEFA1466"
@@ -354,6 +362,7 @@
 			}
 			x: 0.5d
 			y: 5.75d
+			dependencies: ["6F15AADF2331F545"]
 			id: "613C1B7A0DADBAAC"
 			tasks: [{
 				id: "209523A96C9093FD"
@@ -372,6 +381,7 @@
 			}
 			x: 2.0d
 			y: 5.75d
+			dependencies: ["54DC8317D4B7A510"]
 			id: "1A27DA39167000D0"
 			tasks: [{
 				id: "5B6719FF21C3354E"
@@ -384,6 +394,7 @@
 			icon: "ars_nouveau:enchanting_apparatus"
 			x: -1.75d
 			y: 8.75d
+			dependencies: ["414FB84D8E12D770"]
 			id: "6FA6ECF3F4A15C92"
 			tasks: [{
 				id: "4BA528806ABC6402"
@@ -396,6 +407,7 @@
 			icon: "elementalcraft:pure_element_holder"
 			x: -0.25d
 			y: 8.75d
+			dependencies: ["335E059D1698372F"]
 			id: "3A98980C960E6FDA"
 			tasks: [{
 				id: "7D474DD773C08142"
@@ -408,6 +420,7 @@
 			icon: "pedestals:coin/xpenchanter"
 			x: 1.25d
 			y: 8.75d
+			dependencies: ["0F5064AAAA97F693"]
 			id: "4D588CBE6280EFB3"
 			tasks: [{
 				id: "487183D45196CC46"
@@ -420,6 +433,7 @@
 			icon: "undergarden:catalyst"
 			x: 2.75d
 			y: 8.75d
+			dependencies: ["42B4D74321A27197"]
 			id: "28AEE23AA882426F"
 			tasks: [{
 				id: "083D510690512DEC"
@@ -432,6 +446,7 @@
 			icon: "pneumaticcraft:pressure_gauge"
 			x: -2.5d
 			y: 11.75d
+			dependencies: ["7D351CB50EFE608B"]
 			id: "5F8798C6C42F7C8D"
 			tasks: [{
 				id: "5DB0AD568F97AA36"
@@ -444,6 +459,7 @@
 			icon: "prefab:item_starter_farm"
 			x: -1.0d
 			y: 11.75d
+			dependencies: ["5818D79835BC71DA"]
 			id: "07FA83D1B95248C2"
 			tasks: [{
 				id: "53B5B8749F7B9367"
@@ -456,6 +472,7 @@
 			icon: "xnet:controller"
 			x: 0.5d
 			y: 11.75d
+			dependencies: ["141E4C0BBA865753"]
 			id: "39E93C8810C5BB25"
 			tasks: [{
 				id: "5C5679A363B3A97A"
@@ -468,6 +485,7 @@
 			icon: "compactmachines:personal_shrinking_device"
 			x: 2.0d
 			y: 11.75d
+			dependencies: ["7958F40FFDC2C5D3"]
 			id: "3737EF3F7EF438F8"
 			tasks: [{
 				id: "7D0AAB4FAA18CE06"
@@ -486,6 +504,7 @@
 			}
 			x: 3.5d
 			y: 11.75d
+			dependencies: ["32B12D10660F4037"]
 			id: "1C844671FC1EC144"
 			tasks: [{
 				id: "141942F4DB172227"
@@ -498,6 +517,10 @@
 			icon: "industrialforegoing:machine_frame_advanced"
 			x: -2.5d
 			y: 14.75d
+			dependencies: [
+				"0BC66BB4F4B5D047"
+				"444936B29FBDCB48"
+			]
 			id: "40DE641B878E2388"
 			tasks: [{
 				id: "4A60D95F3AEA1F87"
@@ -510,6 +533,10 @@
 			icon: "rftoolsbuilder:builder"
 			x: -1.0d
 			y: 14.75d
+			dependencies: [
+				"3B142D2ED1A34A2F"
+				"12658BA7FA33E104"
+			]
 			id: "6547E21B972D62ED"
 			tasks: [{
 				id: "27413A45428AEFD8"
@@ -522,6 +549,7 @@
 			icon: "bigreactors:basic_reactorfuelrod"
 			x: 0.5d
 			y: 14.75d
+			dependencies: ["7B9FBBCD2F962A0B"]
 			id: "6BC40A001C73DE50"
 			tasks: [{
 				id: "3E22F200767B6883"
@@ -534,6 +562,7 @@
 			icon: "enderioalloys:item_material_skull_zombie_controller"
 			x: 2.0d
 			y: 14.75d
+			dependencies: ["3B8FE588BB137295"]
 			id: "202917A497B4CAA8"
 			tasks: [{
 				id: "1EA9C7DA5A396201"
@@ -552,6 +581,10 @@
 			icon: "mekanism:ultimate_control_circuit"
 			x: 3.5d
 			y: 14.75d
+			dependencies: [
+				"444936B29FBDCB48"
+				"7B9FBBCD2F962A0B"
+			]
 			id: "4CB2E7B965489C75"
 			tasks: [{
 				id: "6AAAF2EF8E1A9A27"
@@ -564,6 +597,10 @@
 			icon: "extendedcrafting:elite_table"
 			x: -1.0d
 			y: 17.75d
+			dependencies: [
+				"73368EF2948452D9"
+				"04C0C78A3BB1B89A"
+			]
 			id: "010272BC23A043FB"
 			tasks: [{
 				id: "545FEF755A32FCBB"
@@ -576,6 +613,7 @@
 			icon: "envirotech:nanorite_void_miner_ccu"
 			x: 0.5d
 			y: 17.75d
+			dependencies: ["6C1CDB642DADEA2F"]
 			id: "66BB6B093EC932C0"
 			tasks: [{
 				id: "7C95A6F74B59B39D"
@@ -588,6 +626,7 @@
 			icon: "refinedstorage:creative_controller"
 			x: 2.0d
 			y: 17.75d
+			dependencies: ["73368EF2948452D9"]
 			id: "6F89FD43B6803650"
 			tasks: [{
 				id: "3D9812A9C413C096"
@@ -600,11 +639,12 @@
 			icon: "powah:crystal_niotic"
 			x: -1.0d
 			y: 20.75d
+			dependencies: ["6F350477334C0544"]
 			id: "25B82C09B38CDB53"
 			tasks: [{
-				id: "49598F1ED3F67D49"
+				id: "584EAB3E02D97717"
 				type: "item"
-				item: "kubejs:silicon_grease"
+				item: "powah:dielectric_paste"
 			}]
 		}
 		{
@@ -616,6 +656,10 @@
 			}
 			x: 2.0d
 			y: 20.75d
+			dependencies: [
+				"09F8D23FB3250808"
+				"2532E79548B58213"
+			]
 			id: "43FF18CA51A44D61"
 			tasks: [{
 				id: "3DF8C3797B860366"
@@ -628,6 +672,7 @@
 			icon: "draconicevolution:awakened_core"
 			x: 0.5d
 			y: 20.75d
+			dependencies: ["6F350477334C0544"]
 			id: "6DCA9DFEA6D89CB9"
 			tasks: [{
 				id: "09922948FF680A87"
@@ -640,6 +685,7 @@
 			x: 0.5d
 			y: 23.25d
 			shape: "octagon"
+			dependencies: ["3B58DF30C3472F0F"]
 			size: 2.5d
 			id: "7383BE89B35A1DCC"
 			tasks: [{
@@ -653,6 +699,7 @@
 			icon: "tconstruct:smeltery_controller"
 			x: 1.25d
 			y: -0.25d
+			dependencies: ["60E0E583C1CBCE56"]
 			id: "2D6705A40949736E"
 			tasks: [{
 				id: "263FE54B4C181628"

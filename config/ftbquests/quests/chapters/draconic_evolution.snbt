@@ -3,7 +3,7 @@
 	group: "44A22EED2BE11886"
 	order_index: 1
 	filename: "draconic_evolution"
-	title: "&bChapter 2&r &6-&r Draconic Evolution"
+	title: "&bChapter 2&r &6-&r Draconic Machinery"
 	icon: {
 		id: "draconicevolution:chaotic_staff"
 		Count: 1b
@@ -57,6 +57,12 @@
 				type: "item"
 				item: "draconicevolution:draconium_dust"
 			}]
+			rewards: [{
+				id: "020F1BAD9B9CEC33"
+				type: "item"
+				item: "draconicevolution:draconium_dust"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -0.25d
@@ -68,6 +74,11 @@
 				id: "35B7BDA44FA3AAD4"
 				type: "item"
 				item: "kubejs:purified_draconium_dust"
+			}]
+			rewards: [{
+				id: "16A7A87FA0B07B71"
+				type: "item"
+				item: "draconicevolution:draconium_dust"
 			}]
 		}
 		{
@@ -81,6 +92,11 @@
 				type: "item"
 				item: "kubejs:unstable_draconium_ingot"
 			}]
+			rewards: [{
+				id: "4441E26298ADCA7D"
+				type: "item"
+				item: "envirocore:kyronite_crystal"
+			}]
 		}
 		{
 			x: 0.25d
@@ -92,6 +108,11 @@
 				id: "42220C3944F649E1"
 				type: "item"
 				item: "draconicevolution:draconium_ingot"
+			}]
+			rewards: [{
+				id: "7C65F3CA7CE6B041"
+				type: "item"
+				item: "kubejs:unstable_draconium_ingot"
 			}]
 		}
 		{
@@ -109,6 +130,12 @@
 				type: "item"
 				item: "kubejs:draconium_core_part"
 			}]
+			rewards: [{
+				id: "5010C5C7CAC91F90"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -0.25d
@@ -123,6 +150,11 @@
 				id: "1C1021F7D5B4F14E"
 				type: "item"
 				item: "draconicevolution:draconium_core"
+			}]
+			rewards: [{
+				id: "4873A75B328DC921"
+				type: "item"
+				item: "envirocore:pladium_crystal"
 			}]
 		}
 		{
@@ -139,6 +171,12 @@
 				type: "item"
 				item: "kubejs:wyvern_core_part"
 			}]
+			rewards: [{
+				id: "4716CA12BA464C88"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -0.75d
@@ -154,6 +192,11 @@
 				type: "item"
 				item: "draconicevolution:wyvern_core"
 			}]
+			rewards: [{
+				id: "1F66FFD855342F7F"
+				type: "item"
+				item: "bigreactors:ludicrite_ingot"
+			}]
 		}
 		{
 			x: 0.25d
@@ -165,6 +208,12 @@
 				id: "0EAF586B94CAB58D"
 				type: "item"
 				item: "draconicevolution:awakened_core"
+			}]
+			rewards: [{
+				id: "377CD13B0680E5EF"
+				type: "item"
+				item: "draconicevolution:awakened_draconium_ingot"
+				random_bonus: 1
 			}]
 		}
 		{
@@ -178,6 +227,11 @@
 				type: "item"
 				item: "draconicevolution:chaotic_core"
 			}]
+			rewards: [{
+				id: "1A92C68DDFA40130"
+				type: "item"
+				item: "draconicevolution:large_chaos_frag"
+			}]
 		}
 		{
 			x: 2.517857142857146d
@@ -186,7 +240,7 @@
 			description: [
 				"&dThe Draconium Fusion Crafting Injector&r is the first tier of Fusion Crafting Injectors used in the Fusion crafting process."
 				""
-				"You must place, at least, &ctwo blocks&r away from the Fusion Core and have a maximum of &c3x3&r on one side."
+				"You must place them, at least, &ctwo blocks&r away from the Fusion Core and have a maximum of &c3x3&r on one side."
 			]
 			dependencies: [
 				"4ADD9913716BA3E2"
@@ -201,6 +255,11 @@
 				id: "684B25B5F88D745F"
 				type: "item"
 				item: "draconicevolution:basic_crafting_injector"
+			}]
+			rewards: [{
+				id: "001FD5DF12D4FEA9"
+				type: "item"
+				item: "envirocore:ionite_interconnect"
 			}]
 		}
 		{
@@ -219,6 +278,11 @@
 				type: "item"
 				item: "draconicevolution:wyvern_crafting_injector"
 			}]
+			rewards: [{
+				id: "3B61A44F39625AFD"
+				type: "item"
+				item: "mekanism:alloy_reinforced"
+			}]
 		}
 		{
 			x: 2.5d
@@ -232,6 +296,11 @@
 				id: "009DCB226C016B70"
 				type: "item"
 				item: "draconicevolution:awakened_crafting_injector"
+			}]
+			rewards: [{
+				id: "591D4E268CDB9EDB"
+				type: "item"
+				item: "mekanism:alloy_atomic"
 			}]
 		}
 		{
@@ -247,6 +316,12 @@
 				type: "item"
 				item: "draconicevolution:chaotic_crafting_injector"
 			}]
+			rewards: [{
+				id: "477930FEF705811C"
+				type: "item"
+				item: "envirocore:aethium_crystal"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 5.75d
@@ -257,7 +332,7 @@
 				""
 				"It is used to hold the central item of the craft."
 				""
-				"It crafts by pressing the button on the GUI or by a signal redstone."
+				"You must start the craft by pressing the button on the GUI or by a signal redstone."
 			]
 			dependencies: [
 				"180340AB4EC31ADC"
@@ -269,6 +344,12 @@
 				id: "0C8FC340487EA592"
 				type: "item"
 				item: "draconicevolution:crafting_core"
+			}]
+			rewards: [{
+				id: "5DCEA417760F4801"
+				type: "item"
+				item: "envirocore:pladium_crystal"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -309,6 +390,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0790DA5C93E26623"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+				random_bonus: 1
+			}]
 		}
 		{
 			x: 4.0d
@@ -341,6 +428,12 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "7A017CE88BD33560"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -375,6 +468,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1844096350A0EE29"
+				type: "item"
+				item: "draconicevolution:awakened_draconium_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 5.25d
@@ -408,6 +507,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "74E4A178D406BF21"
+				type: "item"
+				item: "draconicevolution:awakened_draconium_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 6.25d
@@ -440,6 +545,12 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "472E5EE15FD68F77"
+				type: "item"
+				item: "draconicevolution:awakened_draconium_ingot"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -478,6 +589,12 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "4331B5494BF1CF83"
+				type: "item"
+				item: "draconicevolution:awakened_draconium_ingot"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -524,6 +641,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "31DEEAFC5B3678D1"
+				type: "item"
+				item: "draconicevolution:medium_chaos_frag"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 8.25d
@@ -561,6 +684,12 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "12AEEA2FA3013CB1"
+				type: "item"
+				item: "draconicevolution:awakened_draconium_ingot"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -613,6 +742,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3F742E8F2F1BE3DD"
+				type: "item"
+				item: "draconicevolution:awakened_draconium_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 12.5d
@@ -630,6 +765,12 @@
 				id: "6E5604D2F651EF89"
 				type: "item"
 				item: "draconicevolution:chaotic_energy_core"
+			}]
+			rewards: [{
+				id: "7897B1DA3629762C"
+				type: "item"
+				item: "draconicevolution:medium_chaos_frag"
+				random_bonus: 1
 			}]
 		}
 		{
@@ -664,6 +805,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1E83E788AB85B0F8"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 6.25d
@@ -696,6 +843,12 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "30F67873BCFE68EA"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -735,6 +888,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "60A807064B59ECF5"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 8.25d
@@ -772,6 +931,12 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "45D976DFD6833889"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -816,6 +981,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3A97061ED7C4E2DE"
+				type: "item"
+				item: "draconicevolution:awakened_draconium_ingot"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 5.25d
@@ -849,6 +1020,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4B511F058092061F"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+				random_bonus: 1
+			}]
 		}
 		{
 			x: 6.25d
@@ -881,6 +1058,12 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "0C04286BEDE454BE"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+				random_bonus: 1
 			}]
 		}
 		{
@@ -920,6 +1103,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "00BCA65E5D03E84A"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+				random_bonus: 1
+			}]
 		}
 		{
 			x: 8.25d
@@ -958,6 +1147,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "58CAC0B50C14EEE7"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+				random_bonus: 1
+			}]
 		}
 		{
 			x: 12.5d
@@ -975,6 +1170,12 @@
 				id: "3C02BAD7AD7644C2"
 				type: "item"
 				item: "draconicevolution:draconic_energy_core"
+			}]
+			rewards: [{
+				id: "097293149A020C3D"
+				type: "item"
+				item: "draconicevolution:awakened_draconium_ingot"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -1027,6 +1228,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5DDF08A842941037"
+				type: "item"
+				item: "draconicevolution:awakened_draconium_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 12.5d
@@ -1042,6 +1249,12 @@
 				id: "3569523B366BCE18"
 				type: "item"
 				item: "draconicevolution:wyvern_energy_core"
+			}]
+			rewards: [{
+				id: "6F731DEA083AD59E"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -1091,6 +1304,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0D4EB1E74BDB8F0C"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -6.5d
@@ -1102,6 +1321,12 @@
 				id: "044BD89A1DA00D5B"
 				type: "item"
 				item: "draconicevolution:magnet"
+			}]
+			rewards: [{
+				id: "5C5C82899909CC2B"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -1119,6 +1344,12 @@
 				type: "item"
 				item: "draconicevolution:advanced_magnet"
 			}]
+			rewards: [{
+				id: "3C33A2553E691924"
+				type: "item"
+				item: "draconicevolution:awakened_draconium_ingot"
+				random_bonus: 1
+			}]
 		}
 		{
 			x: -6.5d
@@ -1131,6 +1362,11 @@
 			id: "26DAD4D190AF4C24"
 			tasks: [{
 				id: "15E270187C429DFF"
+				type: "item"
+				item: "draconicevolution:dislocator_pedestal"
+			}]
+			rewards: [{
+				id: "0509D45BEA3F82BB"
 				type: "item"
 				item: "draconicevolution:dislocator_pedestal"
 			}]
@@ -1158,6 +1394,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7531446C71440E3C"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 2.5d
@@ -1168,6 +1410,13 @@
 				id: "23190E91CE0E4486"
 				type: "item"
 				item: "draconicevolution:dragon_heart"
+			}]
+			rewards: [{
+				id: "0B5E305D04AEC53A"
+				type: "item"
+				item: "minecraft:end_crystal"
+				count: 2
+				random_bonus: 2
 			}]
 		}
 		{
@@ -1184,6 +1433,12 @@
 				type: "item"
 				item: "draconicevolution:awakened_draconium_block"
 			}]
+			rewards: [{
+				id: "4E2FF515B21BE04C"
+				type: "item"
+				item: "draconicevolution:draconium_core"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: 4.0d
@@ -1195,6 +1450,11 @@
 				type: "item"
 				item: "draconicevolution:awakened_draconium_ingot"
 			}]
+			rewards: [{
+				id: "47FCA942602B120D"
+				type: "item"
+				item: "draconicevolution:draconium_core"
+			}]
 		}
 		{
 			x: 4.0d
@@ -1202,13 +1462,19 @@
 			description: [
 				"After defeating the Chaos Guardian, you can grab the &8Chaotic Shards&r inside the Chaotic Island."
 				""
-				"Chaotic Island are located every 10000 blocks."
+				"Chaotic Island are located every 10000 blocks (i.e 10000 0 or 0 10000)."
 			]
 			id: "13D4EFBF9D6020E0"
 			tasks: [{
 				id: "6435926A69F3D638"
 				type: "item"
 				item: "draconicevolution:chaos_shard"
+			}]
+			rewards: [{
+				id: "34285BC272C74CFF"
+				type: "item"
+				item: "draconicevolution:medium_chaos_frag"
+				random_bonus: 8
 			}]
 		}
 		{
@@ -1223,6 +1489,11 @@
 				id: "492DE42C0C2981AC"
 				type: "item"
 				item: "draconicmachinery:chaos_heart"
+			}]
+			rewards: [{
+				id: "635B175A6AEF2FC5"
+				type: "item"
+				item: "draconicevolution:dragon_heart"
 			}]
 		}
 		{
@@ -1256,6 +1527,12 @@
 					item: "draconicevolution:draconic_wireless_crystal"
 				}
 			]
+			rewards: [{
+				id: "08A3437B27DA27F2"
+				type: "item"
+				item: "draconicevolution:wyvern_energy_core"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -4.25d
@@ -1287,6 +1564,11 @@
 					item: "draconicevolution:basic_wireless_crystal"
 				}
 			]
+			rewards: [{
+				id: "0698677205767C0C"
+				type: "item"
+				item: "draconicevolution:wyvern_energy_core"
+			}]
 		}
 		{
 			x: -5.0d
@@ -1318,6 +1600,12 @@
 					item: "draconicevolution:wyvern_wireless_crystal"
 				}
 			]
+			rewards: [{
+				id: "493D1AAB6F6D4D94"
+				type: "item"
+				item: "draconicevolution:wyvern_energy_core"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -2.25d
@@ -1334,6 +1622,12 @@
 				type: "item"
 				item: "draconicevolution:energy_transfuser"
 			}]
+			rewards: [{
+				id: "1AF18E084FFBA1EA"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -2.0d
@@ -1347,6 +1641,11 @@
 				id: "1307E067C7075BD5"
 				type: "item"
 				item: "draconicevolution:generator"
+			}]
+			rewards: [{
+				id: "36BFB16339F24706"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
 			}]
 		}
 		{
@@ -1371,6 +1670,12 @@
 				type: "item"
 				item: "draconicevolution:grinder"
 			}]
+			rewards: [{
+				id: "5A4A090256AB9788"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+				random_bonus: 4
+			}]
 		}
 		{
 			x: -3.0d
@@ -1383,6 +1688,11 @@
 				id: "43F56467D5C48122"
 				type: "item"
 				item: "draconicevolution:draconium_chest"
+			}]
+			rewards: [{
+				id: "4B790171655E5A2A"
+				type: "item"
+				item: "expandedstorage:netherite_chest"
 			}]
 		}
 		{
@@ -1406,6 +1716,12 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "39C2931F97602EA8"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 10.25d
@@ -1425,6 +1741,12 @@
 				id: "5379EDD03FBA43A9"
 				type: "item"
 				item: "draconicevolution:module_core"
+			}]
+			rewards: [{
+				id: "6B557B58BB6797F0"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_dark_steel"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -1456,6 +1778,18 @@
 					item: "draconicevolution:chaotic_speed_module"
 				}
 			]
+			rewards: [{
+				id: "4A017E8CE905DD8D"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:swiftness"
+					}
+				}
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 11.75d
@@ -1470,6 +1804,18 @@
 				type: "item"
 				item: "draconicevolution:draconic_proj_anti_immune_module"
 			}]
+			rewards: [
+				{
+					id: "51F9A8DA2E4B0ADD"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+				}
+				{
+					id: "706D8CA859218CAA"
+					type: "item"
+					item: "minecraft:ender_pearl"
+				}
+			]
 		}
 		{
 			x: 9.75d
@@ -1483,12 +1829,18 @@
 				type: "item"
 				item: "draconicevolution:wyvern_hill_step_module"
 			}]
+			rewards: [{
+				id: "280A780AA8B35700"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: 11.25d
 			y: -4.75d
 			shape: "diamond"
-			description: ["&dThe AOE Module&r is used to increase your AOE on your tools and weapons."]
+			description: ["&dThe AOE Module&r is used to increase the Arrea Of Effect on your tools and weapons."]
 			dependencies: ["43D8A13A6332EED2"]
 			id: "374D2AA283EF9F9C"
 			tasks: [
@@ -1513,6 +1865,12 @@
 					item: "draconicevolution:chaotic_aoe_module"
 				}
 			]
+			rewards: [{
+				id: "6257C0B31CF78733"
+				type: "item"
+				item: "minecraft:piston"
+				random_bonus: 3
+			}]
 		}
 		{
 			title: "Projectil Gravity Compensation Module"
@@ -1539,6 +1897,12 @@
 					item: "draconicevolution:chaotic_proj_grav_comp_module"
 				}
 			]
+			rewards: [{
+				id: "5C2A1599819A0D89"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 9.25d
@@ -1552,6 +1916,12 @@
 				id: "04130F5F7BCD900D"
 				type: "item"
 				item: "draconicevolution:wyvern_auto_fire_module"
+			}]
+			rewards: [{
+				id: "0980EA5A6A2FB3DB"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -1584,6 +1954,17 @@
 					item: "draconicevolution:chaotic_flight_module"
 				}
 			]
+			rewards: [{
+				id: "4E988B3F1EDB7DDB"
+				type: "item"
+				item: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			x: 9.75d
@@ -1614,6 +1995,18 @@
 					item: "draconicevolution:chaotic_damage_module"
 				}
 			]
+			rewards: [{
+				id: "0C5C76E12325D851"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:strength"
+					}
+				}
+				random_bonus: 3
+			}]
 		}
 		{
 			title: "Undying Module"
@@ -1641,6 +2034,12 @@
 					item: "draconicevolution:chaotic_undying_module"
 				}
 			]
+			rewards: [{
+				id: "11DFF2176F3AE3AA"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: 8.75d
@@ -1671,6 +2070,13 @@
 					item: "draconicevolution:chaotic_energy_module"
 				}
 			]
+			rewards: [{
+				id: "1A2665EC05F2C0FB"
+				type: "item"
+				item: "minecraft:redstone_block"
+				count: 2
+				random_bonus: 4
+			}]
 		}
 		{
 			x: 8.25d
@@ -1701,13 +2107,26 @@
 					item: "draconicadditions:chaotic_auto_feed_module"
 				}
 			]
+			rewards: [
+				{
+					id: "6AF3E8DA91A15237"
+					type: "item"
+					item: "minecraft:cookie"
+					random_bonus: 1
+				}
+				{
+					id: "120BDBDD23A9C246"
+					type: "item"
+					item: "minecraft:golden_apple"
+				}
+			]
 		}
 		{
 			title: "Projectile Velocity Module"
 			x: 12.25d
 			y: -5.75d
 			shape: "diamond"
-			description: ["&dThe Projectile Velocity Module&r is used to increase the velocity of your arrow when you shoot."]
+			description: ["&dThe Projectile Velocity Module&r is used to increase the velocity of your arrow when you shoot thus giving more damage."]
 			dependencies: ["43D8A13A6332EED2"]
 			id: "31B92C93D8A5AD0F"
 			tasks: [
@@ -1727,6 +2146,12 @@
 					item: "draconicevolution:chaotic_proj_velocity_module"
 				}
 			]
+			rewards: [{
+				id: "1863991E861FA0FB"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			title: "Projectile Penetration Module"
@@ -1753,6 +2178,12 @@
 					item: "draconicevolution:chaotic_proj_penetration_module"
 				}
 			]
+			rewards: [{
+				id: "02A5757427915D47"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			title: "Projectile Damage Module"
@@ -1779,6 +2210,12 @@
 					item: "draconicevolution:chaotic_proj_damage_module"
 				}
 			]
+			rewards: [{
+				id: "7C808C32BBA71F9C"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			title: "Shield Recovery Module"
@@ -1805,6 +2242,12 @@
 					item: "draconicevolution:chaotic_shield_recovery_module"
 				}
 			]
+			rewards: [{
+				id: "7A9FB46FADEE6412"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+				random_bonus: 1
+			}]
 		}
 		{
 			x: 11.25d
@@ -1835,6 +2278,18 @@
 					item: "draconicevolution:chaotic_jump_module"
 				}
 			]
+			rewards: [{
+				id: "6168C5E177B6A682"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:leaping"
+					}
+				}
+				random_bonus: 1
+			}]
 		}
 		{
 			title: "Projectile Accuracy Module"
@@ -1861,6 +2316,12 @@
 					item: "draconicevolution:chaotic_proj_accuracy_module"
 				}
 			]
+			rewards: [{
+				id: "073522B2674F0313"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+				random_bonus: 3
+			}]
 		}
 		{
 			title: "Shield Control Module"
@@ -1887,6 +2348,12 @@
 					item: "draconicevolution:chaotic_shield_control_module"
 				}
 			]
+			rewards: [{
+				id: "090E3C3CD7B26A88"
+				type: "item"
+				item: "minecraft:diamond"
+				random_bonus: 3
+			}]
 		}
 		{
 			title: "Large Shield Capacity Module"
@@ -1914,13 +2381,19 @@
 					item: "draconicevolution:chaotic_large_shield_capacity_module"
 				}
 			]
+			rewards: [{
+				id: "6ADD56B6B031041B"
+				type: "item"
+				item: "draconicevolution:draconium_core"
+				random_bonus: 1
+			}]
 		}
 		{
 			title: "Shield Capacity Module"
 			x: 11.25d
 			y: -3.75d
 			shape: "diamond"
-			description: ["&dThe Shield Capacity Module&r is used to increaser your Energy Shield."]
+			description: ["&dThe Shield Capacity Module&r is used to increase your Energy Shield."]
 			dependencies: ["43D8A13A6332EED2"]
 			id: "33169CEAB7D4C86D"
 			tasks: [
@@ -1940,6 +2413,12 @@
 					item: "draconicevolution:chaotic_shield_capacity_module"
 				}
 			]
+			rewards: [{
+				id: "703F375E136CDDC7"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+				random_bonus: 1
+			}]
 		}
 		{
 			title: "Draconic Energy Storage"
@@ -2020,6 +2499,12 @@
 					count: 36L
 				}
 			]
+			rewards: [{
+				id: "410404DF106F29BE"
+				type: "item"
+				item: "envirocore:ionite_interconnect"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -2.75d
@@ -2031,6 +2516,11 @@
 				id: "46A6D7002E98482D"
 				type: "item"
 				item: "draconicmachinery:enhanced_generator"
+			}]
+			rewards: [{
+				id: "050800A4419816F8"
+				type: "item"
+				item: "envirocore:nanorite_interconnect"
 			}]
 		}
 		{
@@ -2051,6 +2541,12 @@
 				type: "item"
 				item: "draconicmachinery:chaos_collector"
 			}]
+			rewards: [{
+				id: "0E9BA26BBC65E05D"
+				type: "item"
+				item: "draconicevolution:awakened_draconium_ingot"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -2.0d
@@ -2067,6 +2563,12 @@
 				type: "item"
 				item: "draconicmachinery:sun_dial"
 			}]
+			rewards: [{
+				id: "392D501B27718B83"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -4.0d
@@ -2080,6 +2582,12 @@
 				type: "item"
 				item: "draconicmachinery:player_grinder"
 			}]
+			rewards: [{
+				id: "69E917BA95F6B92A"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: -4.0d
@@ -2092,6 +2600,12 @@
 				id: "4C0842B4C2D7DC41"
 				type: "item"
 				item: "draconicmachinery:draconium_furnace"
+			}]
+			rewards: [{
+				id: "0BAAB4834925FF00"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -2126,6 +2640,12 @@
 					item: "draconicevolution:reactor_injector"
 				}
 			]
+			rewards: [{
+				id: "1820519A4FC6765C"
+				type: "item"
+				item: "draconicevolution:large_chaos_frag"
+				random_bonus: 1
+			}]
 		}
 		{
 			x: -2.0d
@@ -2139,6 +2659,12 @@
 				type: "item"
 				item: "draconicmachinery:crafting_injector_item_router"
 			}]
+			rewards: [{
+				id: "0A240F944253A8A1"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_dark_steel"
+				random_bonus: 1
+			}]
 		}
 		{
 			x: -4.0d
@@ -2151,6 +2677,12 @@
 				id: "416C47480E07799C"
 				type: "item"
 				item: "draconicmachinery:item_reciever"
+			}]
+			rewards: [{
+				id: "07C05FFA8144BD49"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_dark_steel"
+				random_bonus: 1
 			}]
 		}
 		{
@@ -2166,6 +2698,12 @@
 				type: "item"
 				item: "draconicevolution:crystal_binder"
 			}]
+			rewards: [{
+				id: "5556676B9C3BD42D"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+				random_bonus: 1
+			}]
 		}
 		{
 			x: -0.25d
@@ -2178,6 +2716,12 @@
 				id: "62D4A60C5542EA89"
 				type: "item"
 				item: "draconicmachinery:redstone_core"
+			}]
+			rewards: [{
+				id: "164E432C808FC11A"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -2278,6 +2822,11 @@
 					item: "mekanism:laser"
 				}
 			]
+			rewards: [{
+				id: "2C141DBD8AEDB177"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			title: "Endless Reactor Components - Part 2"
@@ -2384,6 +2933,19 @@
 					count: 109L
 				}
 			]
+			rewards: [
+				{
+					id: "408791A4FC2B0DF1"
+					type: "item"
+					item: "kubejs:chroma_matter"
+					random_bonus: 3
+				}
+				{
+					id: "42067F83B0F74B59"
+					type: "random"
+					table_id: 6524702956512656804L
+				}
+			]
 		}
 		{
 			title: "Endless Reactor Components - Part 3"
@@ -2443,6 +3005,11 @@
 					item: "botania:corporea_index"
 				}
 			]
+			rewards: [{
+				id: "08236E5A5FD25D5B"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 0.25d

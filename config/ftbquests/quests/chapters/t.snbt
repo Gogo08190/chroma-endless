@@ -3,7 +3,7 @@
 	group: "4B06503CAA5674FC"
 	order_index: 4
 	filename: "t"
-	title: "&bChapter 5&r &6-&r Mekanism"
+	title: "&bChapter 5&r &6-&r New Technology Mechanics"
 	icon: "mekanism:steel_casing"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -12,7 +12,7 @@
 			x: -22.5d
 			y: 4.5d
 			shape: "diamond"
-			description: ["&bBins&r are a storage block that can only store a single item, however many it can store is based on its tier. It will retain its inventory when broken."]
+			description: ["&bBins&r are a storage block that can only store a single item, however it can store a lot of the item. The number of items it can store is based on its tier. It will retain its inventory when broken."]
 			dependencies: [
 				"3C9263A8B9322A17"
 				"109D647ED52D215D"
@@ -1030,7 +1030,7 @@
 			x: -20.75d
 			y: 12.25d
 			shape: "diamond"
-			description: ["Turn your machine into a &3Elite Tier&r. "]
+			description: ["Turns your machine into a &3Elite Tier&r. "]
 			dependencies: ["3668993E41FBDDE2"]
 			id: "395D58879056EBCD"
 			tasks: [{
@@ -1307,7 +1307,7 @@
 			x: -24.0d
 			y: 8.0d
 			shape: "diamond"
-			description: ["Turn your machine into a &2Basic Tier&r. "]
+			description: ["Turns your machine into a &2Basic Tier&r. "]
 			dependencies: [
 				"3C9263A8B9322A17"
 				"56D83790E33B0765"
@@ -1353,7 +1353,7 @@
 			x: -27.25d
 			y: 12.25d
 			shape: "diamond"
-			description: ["Turn your machine into a &4Advanced Tier&r. "]
+			description: ["Turns your machine into a &4Advanced Tier&r. "]
 			dependencies: [
 				"114B2878B5B32D2E"
 				"4B0253447D712CBC"
@@ -1534,7 +1534,7 @@
 			x: -24.0d
 			y: 16.0d
 			shape: "diamond"
-			description: ["Turn your machine into a &5Ultimate Tier&r. "]
+			description: ["Turns your machine into a &5Ultimate Tier&r. "]
 			dependencies: ["1E64E0E2FA479666"]
 			id: "446C8269FC6018F3"
 			tasks: [{
@@ -1614,7 +1614,7 @@
 			description: [
 				"This machine uses energy to extract &6dusts &rout of certain blocks and ores, making it essential to producing different kinds of tools. Not to be mistaken with the &6Crusher&f, this machine is the pulverizer equivalent in other mods."
 				""
-				"Can also be used to turn Coal or Charcoal into &2Compressed Carbon&r, Redstone into &2Compressed Redstone&r, Diamond into &2Compressed Diamond&r and Refined Obsidian Dust into &2Compressed Obsidian&r, all for use in the &6Metallurgic Infuser&f."
+				"Can also be used to turn Coal or Charcoal into &2Compressed Carbon&r, Redstone into &2Compressed Redstone&r, Diamond into &2Compressed Diamond&r and Refined Obsidian Dust into &2Compressed Obsidian&r, all of which are used in the &6Metallurgic Infuser&f."
 			]
 			dependencies: [
 				"121DF7B31DB4BEF8"
@@ -1810,7 +1810,7 @@
 			x: -35.5d
 			y: 1.25d
 			shape: "diamond"
-			description: ["The &bSolar Generator&f harnesses sunlight to create &6power&f. The generator is particularly useful for generating passive energy for above-ground machines instead of draining your main stores."]
+			description: ["The &bSolar Generator&f harnesses sunlight to create &6power&f. The generator is particularly useful for generating passive energy for above-ground machines instead of draining your main storages."]
 			dependencies: ["7B9FBBCD2F962A0B"]
 			id: "4A6ED34F6D6B12E3"
 			tasks: [{
@@ -1848,7 +1848,7 @@
 			x: -35.0d
 			y: 2.0d
 			shape: "diamond"
-			description: ["A &bHeat Generator&f converts &4heat energy&f into &6power&f. This is often the first generator to craft because, although it provides only a small amount of power,"]
+			description: ["A &bHeat Generator&f converts &4heat energy&f into &6power&f. This is often the first generator to craft because, although it provides only a small amount of power, it is enough to start the mod."]
 			dependencies: [
 				"2F7EB9DBC6CE7522"
 				"20C428EA1F5489F6"
@@ -2747,7 +2747,7 @@
 			x: -19.5d
 			y: -7.0d
 			shape: "octagon"
-			description: ["&bInduction Casing&f makes up the multi-block that is the &eInduction Matrix&f, a &6energy storage&f structure that can hold a large amount of energy."]
+			description: ["&bInduction Casing&f makes up the multi-block that is the &eInduction Matrix&f, an &6energy storage&f structure that can hold a large amount of energy."]
 			hide_dependency_lines: true
 			dependencies: [
 				"38C929808BBB9FFF"
@@ -2897,7 +2897,7 @@
 			x: -22.25d
 			y: -8.75d
 			shape: "diamond"
-			description: ["The &bInduction Providers&f are used in the &eInduction Matrix&f to determine &dhow fast it is able to output energy&f through the Induction Port."]
+			description: ["The &bInduction Providers&f are used in the &eInduction Matrix&f to determine &dhow much energy it is able to output per trick&f through the Induction Port."]
 			dependencies: ["2B37E2E818D39D16"]
 			id: "14AA0415ED6EB1A2"
 			tasks: [{
@@ -3543,7 +3543,7 @@
 			x: -16.75d
 			y: 5.25d
 			shape: "diamond"
-			description: ["The &bpersonal chest&f used to be called, \"Electric Chest\" that could lock with the use of electricity."]
+			description: ["The &bPersonal Chest&f used to be called, \"Electric Chest\" that could be locked with the use of electricity."]
 			hide_dependency_lines: true
 			dependencies: [
 				"2B471E4CC0E02DED"
@@ -3652,8 +3652,8 @@
 			}]
 		}
 		{
-			x: -14.25d
-			y: 9.0d
+			x: -13.75d
+			y: 8.5d
 			shape: "diamond"
 			description: ["&bThe Excavation Escalation Unit&r is a module that when added to a Meka-Tool Increases the Mining speed of all blocks."]
 			dependencies: ["71936154C575DC28"]
@@ -3684,8 +3684,8 @@
 			}]
 		}
 		{
-			x: -13.75d
-			y: 9.5d
+			x: -14.25d
+			y: 9.0d
 			shape: "diamond"
 			description: [
 				"&bThe Farming unit&r is a Module that is applied to the Meka-Tool. It Gives the tool several agriculture-based functions, Up to 4 can be stacked on one tool."
@@ -3778,8 +3778,8 @@
 			}]
 		}
 		{
-			x: -13.25d
-			y: 10.0d
+			x: -13.75d
+			y: 9.5d
 			shape: "diamond"
 			description: ["&bInhalation Purification Units&r are modules that can protect the player from selected potion effects including beneficial, neutral, and harmful ones."]
 			dependencies: ["71936154C575DC28"]
@@ -3852,8 +3852,8 @@
 			}]
 		}
 		{
-			x: -12.75d
-			y: 10.5d
+			x: -13.25d
+			y: 10.0d
 			shape: "diamond"
 			dependencies: ["71936154C575DC28"]
 			optional: true
@@ -3862,19 +3862,6 @@
 				id: "29D0F8FD1BD1470F"
 				type: "item"
 				item: "mekanism:module_geiger_unit"
-			}]
-		}
-		{
-			x: -13.75d
-			y: 8.5d
-			shape: "diamond"
-			dependencies: ["71936154C575DC28"]
-			optional: true
-			id: "7BC2D1946087C43C"
-			tasks: [{
-				id: "242D7B28E26CF30F"
-				type: "item"
-				item: "mekanism:module_jetpack_unit"
 			}]
 		}
 		{
@@ -4032,7 +4019,7 @@
 			x: -30.25d
 			y: 5.0d
 			shape: "diamond"
-			description: ["The &dModification Station&r is used for applying modular upgrades to the Meka-Suit in exchange for energy."]
+			description: ["The &dModification Station&r is used to apply modular upgrades to the Meka-Suit in exchange for energy."]
 			hide_dependency_lines: true
 			dependencies: [
 				"53F8FF29F8F02DC0"
@@ -4153,7 +4140,7 @@
 			description: [
 				"The &bTeleporter&f is used with the Teleporter Frame to build a Teleporter Portal."
 				""
-				"With the &bTeleporter frame&f together with the Teleporter you can create a Teleporter Portal."
+				"With the &bTeleporter Frames&r and the &bTeleporter&r block, you are able to create a &bTeleporter Portal&r, if you right click the &bTeleporter Block&r you open an interface where you can link the Teleporters one to another with the \"set\" button."
 				""
 				"This portal can be walked directly into for instant teleportation."
 			]
@@ -4186,7 +4173,7 @@
 			x: -19.75d
 			y: 4.5d
 			shape: "diamond"
-			description: ["The &bDigital Miner&f is the scale &9mining machine&f of Mekanism. However, this machine is like no other as it \"magically-teleports\" mined blocks to its inventory."]
+			description: ["The &bDigital Miner&f is the large scale &9mining machine&f of Mekanism. However, this machine is like no other as it \"magically-teleports\" mined blocks to its inventory."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7499C5F6FE7EA7C5"
@@ -4290,7 +4277,7 @@
 			x: -18.5d
 			y: 4.75d
 			shape: "diamond"
-			description: ["The &bGas Mask&f is an utility head armor piece, used in conjunction with the Scuba Tank to breathe underwater."]
+			description: ["The &bScuba Mask&f is an utility head armor piece, used in conjunction with the Scuba Tank to breathe underwater."]
 			hide_dependency_lines: true
 			dependencies: ["2B471E4CC0E02DED"]
 			id: "25DDB958BB3EF85E"
@@ -4316,7 +4303,7 @@
 			x: -17.5d
 			y: 4.75d
 			shape: "diamond"
-			description: ["The &bScuba Tank&f is a piece of equipment worn on the backpack that provides underwater respiration when a Gas Mask is worn"]
+			description: ["The &bScuba Tank&f is a piece of equipment worn as a chestplate that provides underwater respiration when a Gas Mask is worn"]
 			hide_dependency_lines: true
 			dependencies: [
 				"40C970572379006E"
@@ -4393,7 +4380,7 @@
 			x: -18.0d
 			y: 4.0d
 			shape: "diamond"
-			description: ["&bFree Runners&f are an item that allows players to ascend 1-block inclines automatically, as well as preventing fall damage as long as they are charged. A fall will reduce the item's charge, depending on how far the fall was."]
+			description: ["&bFree Runners&f are an item that allows players to ascend 1-block inclines automatically, as well as preventing fall damage as long as they are charged. Falling will reduce the item's charge, depending on how high you've fallen from."]
 			hide_dependency_lines: true
 			dependencies: [
 				"2B471E4CC0E02DED"
@@ -4697,9 +4684,9 @@
 			y: -6.75d
 			shape: "diamond"
 			description: [
-				"&bTurbine Casing&f is a pressure-resistant casing that is used in the creation of the &cIndustrial Turbine&f multi block structure."
+				"The &bTurbine Casing&f is a pressure-resistant casing that is used in the creation of the &cIndustrial Turbine&f multi block structure."
 				""
-				"&bElectromagnetic Coil&f is a block used in creating several multi-block structures, including the Thermoelectric Boiler."
+				"The &bElectromagnetic Coil&f is a block used in creating several multi-block structures, including the Thermoelectric Boiler."
 			]
 			id: "07835CC3D89FB06F"
 			tasks: [
@@ -5072,6 +5059,11 @@
 					count: 32L
 				}
 			]
+			rewards: [{
+				id: "0E2659BA49466E34"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			title: "Nuclear Waste Plant Part 2"
@@ -5174,6 +5166,11 @@
 					count: 7L
 				}
 			]
+			rewards: [{
+				id: "20AA8BE08E6F8917"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			title: "Nuclear Waste Plant Part 4"
@@ -5276,6 +5273,11 @@
 					count: 129L
 				}
 			]
+			rewards: [{
+				id: "707797FC0E4825E0"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			title: "Nuclear Waste Plant Part 3"
@@ -5341,6 +5343,11 @@
 					count: 398L
 				}
 			]
+			rewards: [{
+				id: "00072120FC5357B3"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			icon: "masterfulmachinery:nuclearwaste_controller"
@@ -5380,6 +5387,18 @@
 					id: "2BA936EB98BEAA30"
 					type: "item"
 					item: "masterfulmachinery:nuclearwaste_nuclearwaste_gas_port_mekanism_gas_output"
+				}
+			]
+			rewards: [
+				{
+					id: "2433D5BB57ACE811"
+					type: "item"
+					item: "mekanism:radioactive_waste_barrel"
+				}
+				{
+					id: "268775B6A4902237"
+					type: "random"
+					table_id: 6524702956512656804L
 				}
 			]
 		}

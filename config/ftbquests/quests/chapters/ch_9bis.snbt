@@ -3,7 +3,7 @@
 	group: "4B06503CAA5674FC"
 	order_index: 1
 	filename: "ch_9bis"
-	title: "&bChapter 2&r &6-&r RFTools"
+	title: "&bChapter 2&r &6-&r Control The World"
 	icon: "rftoolsbase:machine_frame"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -14,8 +14,8 @@
 			shape: "gear"
 			description: ["Every machine or device needs some frame, if you will. These do nothing on their own, but are a ubiquitous crafting ingredient."]
 			dependencies: [
-				"3E3A4B6D727ED70F"
 				"12658BA7FA33E104"
+				"3B142D2ED1A34A2F"
 			]
 			size: 2.0d
 			id: "3B8FE588BB137295"
@@ -34,7 +34,7 @@
 			x: 0.5d
 			y: -4.0d
 			shape: "rsquare"
-			description: ["The more powercell you put for the multiblock, more energy will be stocked"]
+			description: ["The more powercell you put for the multiblock, the more energy will be stored."]
 			dependencies: ["3B8FE588BB137295"]
 			id: "1C0DB5CDE08C77D0"
 			tasks: [{
@@ -197,12 +197,12 @@
 			description: [
 				"&4Powercells&r are used to create a wireless network for your energy"
 				""
-				"Depending on the cell it will be less or more effective."
+				"Depending on the cell it will be more or less effective."
 				""
-				"How does it work? take a &cCell Card&r and put it in a &1Powercell, put it in the first slot and it will have a number on it."
-				"That number corresponds to your network. the second slot is to copy your network to another cell, take the new created card and put it in another &1Powercell&r."
+				"How does it work? take a &cCell Card&r and put it in a &1Powercell&r's first slot and it will have a number on it."
+				"That number corresponds to your network. the second slot is to copy your network to another cell, take the newly created card and put it in another &1Powercell&r."
 				""
-				"Be aware that players can copy your networkd and put it on their own &1Powercell&r."
+				"Beware, players can copy your network id and put it in their own &1Powercell&r."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -502,7 +502,7 @@
 			description: [
 				"Three different tiers of &bCrafters&r"
 				""
-				"Each Crafter has the double of the previous used in the crafting"
+				"Each Crafter has twice the capacity for crafts of the previous tier."
 				""
 				"Tier 1 : Two Crafts"
 			]
@@ -1721,11 +1721,11 @@
 			y: -7.25d
 			shape: "rsquare"
 			description: [
-				"This &3Wrench&r can do a lot of stuff with the mod &6RFtools&r"
+				"This &3Wrench&r can interact with a lot of stuff in the mod &6RFtools&r"
 				""
-				"When you right click with it on a &6RFtools&r machine you can setup the &b input&r and obviously the &4output&r"
+				"When you right click with it on a &6RFtools&r machine you can setup the &binput&r and obviously the &4output&r"
 				""
-				"But when you &nshift right click&r, you beack the machine instantly, so you better use that unless you pickaxe is unbreakable or has a very large durability"
+				"But when you &nshift right click&r, you break the machine instantly, so you better use that unless you pickaxe is unbreakable or has a very large durability"
 			]
 			dependencies: ["6AF898598004DEC3"]
 			id: "00A63DC5CACB32D7"

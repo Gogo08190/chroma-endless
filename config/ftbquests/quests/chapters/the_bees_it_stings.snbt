@@ -80,6 +80,11 @@
 				type: "item"
 				item: "resourcefulbees:beepedia"
 			}]
+			rewards: [{
+				id: "0D68D50B1246E0A6"
+				type: "item"
+				item: "minecraft:iron_block"
+			}]
 		}
 		{
 			title: "Overworld Bee Nest"
@@ -214,6 +219,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "21065AC01340259C"
+				type: "item"
+				item: "minecraft:book"
+				count: 4
+			}]
 		}
 		{
 			x: -8.0d
@@ -224,6 +235,12 @@
 				id: "6D3ED494F65418B1"
 				type: "item"
 				item: "resourcefulbees:bee_box"
+			}]
+			rewards: [{
+				id: "5F4AEC30BAE91ABA"
+				type: "item"
+				item: "resourcefulbees:bee_jar"
+				count: 4
 			}]
 		}
 		{
@@ -242,6 +259,11 @@
 				type: "item"
 				item: "resourcefulbees:honey_dipper"
 			}]
+			rewards: [{
+				id: "53A27CF74A524A41"
+				type: "item"
+				item: "minecraft:honey_block"
+			}]
 		}
 		{
 			x: -4.25d
@@ -259,6 +281,24 @@
 				id: "1883C72DAE03C6E0"
 				type: "item"
 				item: "resourcefulbees:centrifuge"
+			}]
+			rewards: [{
+				id: "3C26755409726F3F"
+				type: "item"
+				item: {
+					id: "thermal:fluid_cell"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							TankInv: [{
+								FluidName: "minecraft:empty"
+								Capacity: 32000
+								Tank: 0b
+								Amount: 0
+							}]
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -280,6 +320,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "760D62744A2E57B3"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 4
+			}]
 		}
 		{
 			x: -2.75d
@@ -291,6 +337,12 @@
 				type: "item"
 				item: "resourcefulbees:bellow"
 			}]
+			rewards: [{
+				id: "10EF12DCB341C189"
+				type: "item"
+				item: "minecraft:leather"
+				count: 4
+			}]
 		}
 		{
 			x: -1.25d
@@ -301,6 +353,11 @@
 				id: "5E4C361AA317AF57"
 				type: "item"
 				item: "resourcefulbees:smoker_can"
+			}]
+			rewards: [{
+				id: "276CE46B6414199C"
+				type: "item"
+				item: "minecraft:campfire"
 			}]
 		}
 		{
@@ -324,6 +381,12 @@
 				type: "item"
 				item: "resourcefulbees:honey_congealer"
 			}]
+			rewards: [{
+				id: "11AC6D0A46069897"
+				type: "item"
+				item: "emendatusenigmatica:steel_ingot"
+				count: 2
+			}]
 		}
 		{
 			x: -2.75d
@@ -340,6 +403,11 @@
 				type: "item"
 				item: "resourcefulbees:ender_beecon"
 			}]
+			rewards: [{
+				id: "77D5B508B039BAE8"
+				type: "item"
+				item: "minecraft:beacon"
+			}]
 		}
 		{
 			x: -5.75d
@@ -350,6 +418,11 @@
 				id: "39A504805C4947A3"
 				type: "item"
 				item: "resourcefulbees:bottomless_honey_pot"
+			}]
+			rewards: [{
+				id: "31CB323AA88FE111"
+				type: "item"
+				item: "trashcans:item_trash_can"
 			}]
 		}
 		{
@@ -363,6 +436,11 @@
 				type: "item"
 				item: "resourcefulbees:purpur_honey_tank"
 			}]
+			rewards: [{
+				id: "1B803F9B1D01A7DC"
+				type: "item"
+				item: "resourcefulbees:nether_honey_tank"
+			}]
 		}
 		{
 			x: -1.75d
@@ -375,6 +453,11 @@
 				type: "item"
 				item: "resourcefulbees:nether_honey_tank"
 			}]
+			rewards: [{
+				id: "0A02CB4C967790BC"
+				type: "item"
+				item: "resourcefulbees:wooden_honey_tank"
+			}]
 		}
 		{
 			x: -0.75d
@@ -384,6 +467,11 @@
 			id: "0D9A01E4A3636752"
 			tasks: [{
 				id: "5C2746CB3052DF10"
+				type: "item"
+				item: "resourcefulbees:wooden_honey_tank"
+			}]
+			rewards: [{
+				id: "10A3EE4D08E236C7"
 				type: "item"
 				item: "resourcefulbees:wooden_honey_tank"
 			}]
@@ -398,6 +486,11 @@
 				type: "item"
 				item: "resourcefulbees:mechanical_centrifuge"
 			}]
+			rewards: [{
+				id: "2320EEF9241B6772"
+				type: "item"
+				item: "expandedstorage:obsidian_barrel"
+			}]
 		}
 		{
 			x: -8.0d
@@ -408,6 +501,12 @@
 				id: "0ECBB67D7C137D8C"
 				type: "item"
 				item: "resourcefulbees:wax_block"
+			}]
+			rewards: [{
+				id: "5F3B30A99B26B165"
+				type: "item"
+				item: "resourcefulbees:wax_block"
+				count: 4
 			}]
 		}
 		{
@@ -420,6 +519,12 @@
 				type: "item"
 				item: "resourcefulbees:wax"
 			}]
+			rewards: [{
+				id: "2BB5F9005B916DC8"
+				type: "item"
+				item: "resourcefulbees:wax"
+				count: 16
+			}]
 		}
 		{
 			x: 0.0d
@@ -431,17 +536,29 @@
 				type: "item"
 				item: "resourcefulbees:bee_jar"
 			}]
+			rewards: [{
+				id: "1C1DDA41C7BEA8E6"
+				type: "item"
+				item: "resourcefulbees:bee_jar"
+				count: 4
+				random_bonus: 4
+			}]
 		}
 		{
 			x: -8.0d
 			y: -6.5d
-			description: [""]
 			dependencies: ["3493AD0D5D5B90F9"]
 			id: "73121D1485E47B03"
 			tasks: [{
 				id: "2091EFDFA9F2523C"
 				type: "item"
 				item: "resourcefulbees:trimmed_waxed_planks"
+			}]
+			rewards: [{
+				id: "2FB8B8C487C9CC3E"
+				type: "item"
+				item: "resourcefulbees:trimmed_waxed_planks"
+				count: 4
 			}]
 		}
 		{
@@ -454,6 +571,12 @@
 				type: "item"
 				item: "resourcefulbees:waxed_machine_block"
 			}]
+			rewards: [{
+				id: "6573FD5B7F5C0734"
+				type: "item"
+				item: "resourcefulbees:waxed_machine_block"
+				count: 4
+			}]
 		}
 		{
 			x: -3.25d
@@ -464,6 +587,11 @@
 				id: "7531ADF16453B4EC"
 				type: "item"
 				item: "resourcefulbees:iron_storage_upgrade"
+			}]
+			rewards: [{
+				id: "512A0489494405F6"
+				type: "item"
+				item: "expandedstorage:iron_chest"
 			}]
 		}
 		{
@@ -476,6 +604,11 @@
 				type: "item"
 				item: "resourcefulbees:gold_storage_upgrade"
 			}]
+			rewards: [{
+				id: "2905D5A10B837312"
+				type: "item"
+				item: "expandedstorage:gold_chest"
+			}]
 		}
 		{
 			x: -1.25d
@@ -486,6 +619,11 @@
 				id: "5BB5FAE8E09090F9"
 				type: "item"
 				item: "resourcefulbees:diamond_storage_upgrade"
+			}]
+			rewards: [{
+				id: "4D324C62203D730D"
+				type: "item"
+				item: "expandedstorage:diamond_chest"
 			}]
 		}
 		{
@@ -498,6 +636,11 @@
 				type: "item"
 				item: "resourcefulbees:emerald_storage_upgrade"
 			}]
+			rewards: [{
+				id: "2045B79005C08500"
+				type: "item"
+				item: "expandedstorage:netherite_chest"
+			}]
 		}
 		{
 			x: 1.25d
@@ -509,6 +652,11 @@
 				type: "item"
 				item: "resourcefulbees:apiary_breeder_upgrade"
 			}]
+			rewards: [{
+				id: "24C888FBD1879A38"
+				type: "item"
+				item: "industrialforegoing:animal_feeder"
+			}]
 		}
 		{
 			x: 2.25d
@@ -519,6 +667,11 @@
 				id: "13E7146F26CD7278"
 				type: "item"
 				item: "resourcefulbees:apiary_breed_time_upgrade"
+			}]
+			rewards: [{
+				id: "7FE0A88F77475D2C"
+				type: "item"
+				item: "industrialforegoing:animal_feeder"
 			}]
 		}
 		{
@@ -641,6 +794,11 @@
 					count: 35L
 				}
 			]
+			rewards: [{
+				id: "7D8DCDD54F225EE7"
+				type: "item"
+				item: "resourcefulbees:centrifuge"
+			}]
 		}
 		{
 			title: "Centrifuge T2"
@@ -661,6 +819,11 @@
 					count: 35L
 				}
 			]
+			rewards: [{
+				id: "2B0C07630CD4FA4E"
+				type: "item"
+				item: "enderioalloys:item_material_skull_ender_resonator"
+			}]
 		}
 		{
 			title: "Centrifuge T3"
@@ -681,6 +844,12 @@
 					count: 35L
 				}
 			]
+			rewards: [{
+				id: "38A0A5FAEEC6322C"
+				type: "item"
+				item: "extendedcrafting:luminessence"
+				random_bonus: 2
+			}]
 		}
 		{
 			title: "Centrifuge T4"
@@ -701,6 +870,12 @@
 					count: 35L
 				}
 			]
+			rewards: [{
+				id: "1AE7C1D7610DCDB8"
+				type: "item"
+				item: "powah:crystal_nitro"
+				random_bonus: 5
+			}]
 		}
 		{
 			title: "Centrifuge T5"
@@ -721,6 +896,11 @@
 					count: 35L
 				}
 			]
+			rewards: [{
+				id: "28E988CAC496C440"
+				type: "item"
+				item: "draconicevolution:awakened_core"
+			}]
 		}
 		{
 			x: 2.0d
@@ -738,6 +918,11 @@
 				type: "item"
 				item: "resourcefulbees:honey_generator"
 			}]
+			rewards: [{
+				id: "0B12DE37D1E59FD2"
+				type: "item"
+				item: "thermal:fluid_cell_frame"
+			}]
 		}
 		{
 			x: -4.25d
@@ -749,6 +934,11 @@
 				id: "65651D036DFE9A10"
 				type: "item"
 				item: "resourcefulbees:apiary_storage"
+			}]
+			rewards: [{
+				id: "7F17F63F08137E7A"
+				type: "item"
+				item: "expandedstorage:netherite_barrel"
 			}]
 		}
 		{
@@ -775,6 +965,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "36A9E98C44E9609D"
+				type: "item"
+				item: "minecraft:blaze_rod"
+				count: 16
+			}]
 		}
 		{
 			title: "Bitumen Bee"
@@ -798,6 +994,12 @@
 						Color: "#35424f"
 					}
 				}
+			}]
+			rewards: [{
+				id: "7E468FC20080BAC6"
+				type: "item"
+				item: "emendatusenigmatica:bitumen_gem"
+				count: 4
 			}]
 		}
 		{
@@ -824,6 +1026,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7E1A2BE59B6C2DFB"
+				type: "item"
+				item: "minecraft:gunpowder"
+				count: 4
+			}]
 		}
 		{
 			title: "Basalz Bee"
@@ -848,6 +1056,12 @@
 						Color: "#1b141d"
 					}
 				}
+			}]
+			rewards: [{
+				id: "7D9AEA4CB21EFA08"
+				type: "item"
+				item: "thermal:basalz_rod"
+				count: 4
 			}]
 		}
 		{
@@ -876,6 +1090,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "405EF1535903565C"
+				type: "item"
+				item: "draconicevolution:awakened_draconium_ingot"
+			}]
 		}
 		{
 			title: "Aluminium Bee"
@@ -900,11 +1119,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7BEAACFEAD81498D"
+				type: "item"
+				item: "emendatusenigmatica:aluminum_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "AllTheModium Bee"
-			x: 7.75d
-			y: -1.5d
+			x: 8.184523809523796d
+			y: -1.404761904761898d
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -926,6 +1151,12 @@
 						Color: "#fcc50c"
 					}
 				}
+			}]
+			rewards: [{
+				id: "043351BE06FDEEC1"
+				type: "item"
+				item: "allthemodium:allthemodium_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -951,6 +1182,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3EC890C01ED7CFF8"
+				type: "item"
+				item: "betterendforge:aeternium_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "AbBee"
@@ -975,6 +1212,13 @@
 						Color: "#E5DED5"
 					}
 				}
+			}]
+			rewards: [{
+				id: "3A37681CCAD6EBF6"
+				type: "item"
+				item: "resourcefulbees:strawbeerry_milkshake"
+				count: 2
+				random_bonus: 2
 			}]
 		}
 		{
@@ -1003,6 +1247,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6C4EC77552D19C07"
+				type: "item"
+				item: "undergarden:cloggrum_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "Chaotic Bee"
@@ -1029,6 +1279,12 @@
 						Color: "#161616"
 					}
 				}
+			}]
+			rewards: [{
+				id: "53A50D247B2CC88A"
+				type: "item"
+				item: "draconicevolution:small_chaos_frag"
+				count: 4
 			}]
 		}
 		{
@@ -1082,6 +1338,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5F8861D3EF1E7424"
+				type: "item"
+				item: "emendatusenigmatica:bronze_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "Brass Bee"
@@ -1109,6 +1371,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "46EA0419E1A27B69"
+				type: "item"
+				item: "emendatusenigmatica:brass_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "Blutonium Bee"
@@ -1133,6 +1401,12 @@
 						Color: "#3535cc"
 					}
 				}
+			}]
+			rewards: [{
+				id: "6FF2B1A27AEA4615"
+				type: "item"
+				item: "bigreactors:blutonium_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -1159,6 +1433,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0A1CF68C41F1E58F"
+				type: "item"
+				item: "thermal:blizz_rod"
+				count: 4
+			}]
 		}
 		{
 			title: "Blitz Bee"
@@ -1183,6 +1463,12 @@
 						Color: "#def7fa"
 					}
 				}
+			}]
+			rewards: [{
+				id: "2EBC29DC8888A581"
+				type: "item"
+				item: "thermal:blitz_rod"
+				count: 4
 			}]
 		}
 		{
@@ -1215,6 +1501,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "71910C2F18FF12EF"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 4
+			}]
 		}
 		{
 			title: "Dragon Bee"
@@ -1241,6 +1533,11 @@
 						Color: "#222222"
 					}
 				}
+			}]
+			rewards: [{
+				id: "5825EA48F0D0B986"
+				type: "item"
+				item: "minecraft:dragon_egg"
 			}]
 		}
 		{
@@ -1269,6 +1566,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "57DB4A44142BC8A1"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "Diamond Bee"
@@ -1296,6 +1599,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3661D4D9E4F2D047"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 4
+			}]
 		}
 		{
 			title: "Cyanite Bee"
@@ -1321,6 +1630,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "54C2DF1FD0A1022E"
+				type: "item"
+				item: "bigreactors:cyanite_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "Copper Bee"
@@ -1344,6 +1659,12 @@
 						Color: "#bb5b30"
 					}
 				}
+			}]
+			rewards: [{
+				id: "4DD3F29E55AFFED3"
+				type: "item"
+				item: "emendatusenigmatica:copper_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -1372,6 +1693,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6C8CB78F4E4597E7"
+				type: "item"
+				item: "emendatusenigmatica:constantan_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "Compressed Iron Bee"
@@ -1395,6 +1722,12 @@
 						Color: "#66625e"
 					}
 				}
+			}]
+			rewards: [{
+				id: "4CCFC53D1E9C0043"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				count: 4
 			}]
 		}
 		{
@@ -1420,6 +1753,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "485B0D4E61962837"
+				type: "item"
+				item: "emendatusenigmatica:cobalt_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "Coal Bee"
@@ -1443,6 +1782,12 @@
 						Color: "#303030"
 					}
 				}
+			}]
+			rewards: [{
+				id: "317E7BAAE51A0CDA"
+				type: "item"
+				item: "minecraft:coal"
+				count: 4
 			}]
 		}
 		{
@@ -1471,6 +1816,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1C0DCEF173671347"
+				type: "item"
+				item: "tconstruct:ender_slime_ball"
+				count: 16
+			}]
 		}
 		{
 			title: "Enderium Bee"
@@ -1498,6 +1849,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7221E0CB05CB39D0"
+				type: "item"
+				item: "emendatusenigmatica:enderium_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "Ender Bee"
@@ -1523,6 +1880,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1FC480FEBB9A2EDB"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 16
+			}]
 		}
 		{
 			title: "End Bee"
@@ -1547,6 +1910,12 @@
 						Color: "#E1E9A6"
 					}
 				}
+			}]
+			rewards: [{
+				id: "5CBBD602335EEEF0"
+				type: "item"
+				item: "minecraft:end_stone"
+				count: 16
 			}]
 		}
 		{
@@ -1574,6 +1943,12 @@
 						Color: "#18eb09"
 					}
 				}
+			}]
+			rewards: [{
+				id: "03FAC23C381A53EF"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 4
 			}]
 		}
 		{
@@ -1603,6 +1978,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1CB93313EB6DD4C8"
+				type: "item"
+				item: "botania:elementium_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "Electrum Bee"
@@ -1630,6 +2011,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2C9F1160B580719B"
+				type: "item"
+				item: "emendatusenigmatica:electrum_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "Dungeon Bee"
@@ -1654,6 +2041,11 @@
 						Color: "#2A4455"
 					}
 				}
+			}]
+			rewards: [{
+				id: "2E96DEBA51A3092E"
+				type: "item"
+				item: "botania:black_lotus"
 			}]
 		}
 		{
@@ -1682,6 +2074,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4D0F686A6BF0D45A"
+				type: "item"
+				item: "elementalcraft:drenched_iron_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "Gaia Bee"
@@ -1709,6 +2107,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "47427758EBBEFBEC"
+				type: "item"
+				item: "botania:life_essence"
+				count: 4
+			}]
 		}
 		{
 			title: "Froststeel Bee"
@@ -1732,6 +2136,12 @@
 						Color: "#8aadcf"
 					}
 				}
+			}]
+			rewards: [{
+				id: "7723015510AEBA72"
+				type: "item"
+				item: "undergarden:froststeel_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -1757,6 +2167,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "10C02AF585582EF2"
+				type: "item"
+				item: "undergarden:forgotten_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "Forest Bee"
@@ -1781,6 +2197,12 @@
 						Color: "#4c4c26"
 					}
 				}
+			}]
+			rewards: [{
+				id: "0F826DCB0FF55914"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 16
 			}]
 		}
 		{
@@ -1808,6 +2230,12 @@
 						Color: "#b3c7d4"
 					}
 				}
+			}]
+			rewards: [{
+				id: "5F9F7ABEA31A5132"
+				type: "item"
+				item: "emendatusenigmatica:fluorite_gem"
+				count: 16
 			}]
 		}
 		{
@@ -1837,6 +2265,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5E6E150F3B2FC2A4"
+				type: "item"
+				item: "elementalcraft:fireite_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "Fairy Bee"
@@ -1864,6 +2298,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "147301AC34812E73"
+				type: "item"
+				item: "materialis:fairy_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "Experience Bee"
@@ -1890,6 +2330,11 @@
 						Color: "#9ce02f"
 					}
 				}
+			}]
+			rewards: [{
+				id: "246C73DC8FFAEDEB"
+				type: "item"
+				item: "miniutilities:experience_pearl_2x"
 			}]
 		}
 		{
@@ -1922,6 +2367,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4C3455788A10A2B5"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 4
+			}]
 		}
 		{
 			title: "Icy Bee"
@@ -1946,6 +2397,12 @@
 						Color: "#92b9fe"
 					}
 				}
+			}]
+			rewards: [{
+				id: "127084B2A8E6E7F0"
+				type: "item"
+				item: "minecraft:ice"
+				count: 16
 			}]
 		}
 		{
@@ -1973,6 +2430,12 @@
 						Color: "#ff7d2b"
 					}
 				}
+			}]
+			rewards: [{
+				id: "2F5DF65F86AD1F4E"
+				type: "item"
+				item: "tconstruct:ichor_slime_ball"
+				count: 16
 			}]
 		}
 		{
@@ -2004,6 +2467,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3D02C55D58F67397"
+				type: "item"
+				item: "tconstruct:hepatizon_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "Guardian Bee"
@@ -2027,6 +2496,11 @@
 						Color: "#8FC0AA"
 					}
 				}
+			}]
+			rewards: [{
+				id: "5D0BDA2A29EEC3E5"
+				type: "item"
+				item: "enderioalloys:item_material_skull_guardian_diode"
 			}]
 		}
 		{
@@ -2052,6 +2526,12 @@
 						Color: "#968e8e"
 					}
 				}
+			}]
+			rewards: [{
+				id: "2CB8E6E00F1DAF17"
+				type: "item"
+				item: "minecraft:gravel"
+				count: 16
 			}]
 		}
 		{
@@ -2080,6 +2560,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6FDA5A3E7A7226FD"
+				type: "item"
+				item: "bigreactors:graphite_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "Gold Bee"
@@ -2103,6 +2589,12 @@
 						Color: "#FFDC00"
 					}
 				}
+			}]
+			rewards: [{
+				id: "5AC17806105FC41E"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -2129,6 +2621,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "57EFA3E5C33E6661"
+				type: "item"
+				item: "minecraft:glowstone_dust"
+				count: 16
+			}]
 		}
 		{
 			title: "Ghast Bee"
@@ -2153,6 +2651,12 @@
 						Color: "#faebd7"
 					}
 				}
+			}]
+			rewards: [{
+				id: "353A97796E11338E"
+				type: "item"
+				item: "minecraft:ghast_tear"
+				count: 4
 			}]
 		}
 		{
@@ -2181,6 +2685,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "48BF8F2CE9B7E684"
+				type: "item"
+				item: "emendatusenigmatica:lumium_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "Ludicrite Bee"
@@ -2206,6 +2716,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2D64BF3F4E10E068"
+				type: "item"
+				item: "bigreactors:ludicrite_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "Lead Bee"
@@ -2229,6 +2745,12 @@
 						Color: "#32335c"
 					}
 				}
+			}]
+			rewards: [{
+				id: "3AA9AF4D3A8AA15A"
+				type: "item"
+				item: "emendatusenigmatica:lead_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -2255,6 +2777,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5DCCF8F46C82B512"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
 		}
 		{
 			title: "Lapis Bee"
@@ -2278,6 +2805,12 @@
 						Color: "#345ec3"
 					}
 				}
+			}]
+			rewards: [{
+				id: "4623B63AF83BBCFF"
+				type: "item"
+				item: "minecraft:lapis_lazuli"
+				count: 4
 			}]
 		}
 		{
@@ -2304,6 +2837,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5F064BEE59135E0A"
+				type: "item"
+				item: "minecraft:ocelot_spawn_egg"
+			}]
 		}
 		{
 			title: "Iron Bee"
@@ -2327,6 +2865,12 @@
 						Color: "#ffcc99"
 					}
 				}
+			}]
+			rewards: [{
+				id: "4A4A4D24BB5BCD83"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -2355,6 +2899,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3DAADE04A2D72F9C"
+				type: "item"
+				item: "emendatusenigmatica:invar_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "Inanite Bee"
@@ -2380,6 +2930,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "77D0FB45FDED9448"
+				type: "item"
+				item: "bigreactors:inanite_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "Nickel Bee"
@@ -2403,6 +2959,12 @@
 						Color: "#a0a883"
 					}
 				}
+			}]
+			rewards: [{
+				id: "1EDD1B76DCD756EC"
+				type: "item"
+				item: "emendatusenigmatica:nickel_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -2431,6 +2993,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "66383377F957AED7"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "Nether Quartz Bee"
@@ -2456,6 +3024,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "06CDB0DF154448DC"
+				type: "item"
+				item: "minecraft:quartz"
+				count: 4
+			}]
 		}
 		{
 			title: "Nether Bee"
@@ -2480,6 +3054,12 @@
 						Color: "#511515"
 					}
 				}
+			}]
+			rewards: [{
+				id: "31A75414A80A50F6"
+				type: "item"
+				item: "minecraft:netherrack"
+				count: 16
 			}]
 		}
 		{
@@ -2509,6 +3089,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "272F7AFC20601042"
+				type: "item"
+				item: "kubejs:rgb_petal"
+				count: 16
+			}]
 		}
 		{
 			title: "Manyulyum Bee"
@@ -2535,6 +3121,12 @@
 						Color: "#9261cc"
 					}
 				}
+			}]
+			rewards: [{
+				id: "25A84F91FF4B7392"
+				type: "item"
+				item: "tconstruct:manyullyn_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -2563,6 +3155,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "12C19F32E30008AD"
+				type: "item"
+				item: "botania:manasteel_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "Magma Bee"
@@ -2588,6 +3186,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "098FF6A422A182FA"
+				type: "item"
+				item: "minecraft:magma_block"
+				count: 16
+			}]
 		}
 		{
 			title: "Magentite Bee"
@@ -2612,6 +3216,12 @@
 						Color: "#e27ae2"
 					}
 				}
+			}]
+			rewards: [{
+				id: "07908D9E2EA256AB"
+				type: "item"
+				item: "bigreactors:magentite_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -2640,6 +3250,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "15F11CAE900C9AA9"
+				type: "item"
+				item: "kubejs:rgb_glass_shard"
+				count: 16
+			}]
 		}
 		{
 			title: "Potassium Nitrate Bee"
@@ -2667,6 +3283,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "38BFC9202264FF94"
+				type: "item"
+				item: "emendatusenigmatica:potassium_nitrate_gem"
+				count: 16
+			}]
 		}
 		{
 			title: "Pigman Bee"
@@ -2689,6 +3311,17 @@
 							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.pigman_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
 						}
 						Color: "#885956"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1F7FDD9E31A990E9"
+				type: "item"
+				item: {
+					id: "minecraft:golden_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
 			}]
@@ -2719,6 +3352,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1594F2E5BE4683AA"
+				type: "item"
+				item: "emendatusenigmatica:osmium_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "Oreo Bee"
@@ -2743,6 +3382,13 @@
 						Color: "#442920"
 					}
 				}
+			}]
+			rewards: [{
+				id: "4B8FC9A1FE229D8E"
+				type: "item"
+				item: "resourcefulbees:oreo_cookie"
+				count: 2
+				random_bonus: 2
 			}]
 		}
 		{
@@ -2771,6 +3417,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "25DB6EEBF2BAFFDA"
+				type: "item"
+				item: "occultism:iesnium_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "Obsidian Bee"
@@ -2797,6 +3449,12 @@
 						Color: "#663399"
 					}
 				}
+			}]
+			rewards: [{
+				id: "58275C23CDE0E1C4"
+				type: "item"
+				item: "minecraft:obsidian"
+				count: 4
 			}]
 		}
 		{
@@ -2826,6 +3484,12 @@
 						Color: "#e80000"
 					}
 				}
+			}]
+			rewards: [{
+				id: "19182E79369ECFAF"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 4
 			}]
 		}
 		{
@@ -2858,6 +3522,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5090FEC47D8F3F15"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 4
+			}]
 		}
 		{
 			title: "Seared Bee"
@@ -2885,6 +3555,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "52E66949F0431765"
+				type: "item"
+				item: "tconstruct:seared_brick"
+				count: 16
+			}]
 		}
 		{
 			title: "Sand Bee"
@@ -2909,6 +3585,12 @@
 						Color: "#e7e4bb"
 					}
 				}
+			}]
+			rewards: [{
+				id: "354FAA0B90E9FBF3"
+				type: "item"
+				item: "minecraft:sand"
+				count: 16
 			}]
 		}
 		{
@@ -2937,6 +3619,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "08BC0F924D4E2636"
+				type: "item"
+				item: "tconstruct:rose_gold_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "Ridiculite Bee"
@@ -2961,6 +3649,12 @@
 						Color: "#c7a3cc"
 					}
 				}
+			}]
+			rewards: [{
+				id: "3C0B1CBC4D3CD130"
+				type: "item"
+				item: "bigreactors:ridiculite_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -2987,6 +3681,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2054ED7985945A5E"
+				type: "item"
+				item: "kubejs:rgb_jelly"
+				count: 16
+			}]
 		}
 		{
 			title: "Regalium Bee"
@@ -3010,6 +3710,12 @@
 						Color: "#f6dd9b"
 					}
 				}
+			}]
+			rewards: [{
+				id: "60E359A76387C625"
+				type: "item"
+				item: "undergarden:regalium_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -3038,6 +3744,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7F4A490ADA82B55D"
+				type: "item"
+				item: "mekanism:ingot_refined_obsidian"
+				count: 4
+			}]
 		}
 		{
 			title: "Refined Glowstone Bee"
@@ -3065,6 +3777,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "363C8115E8A39658"
+				type: "item"
+				item: "mekanism:ingot_refined_glowstone"
+				count: 4
+			}]
 		}
 		{
 			title: "Redstone Bee"
@@ -3088,6 +3806,12 @@
 						Color: "#aa0f01"
 					}
 				}
+			}]
+			rewards: [{
+				id: "6479144C7924EFB8"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 16
 			}]
 		}
 		{
@@ -3113,6 +3837,11 @@
 						Color: "#FFFFFF"
 					}
 				}
+			}]
+			rewards: [{
+				id: "0E8FE2F1CDBF983C"
+				type: "item"
+				item: "minecraft:nether_star"
 			}]
 		}
 		{
@@ -3145,6 +3874,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1EDA2395265CCD3D"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 4
+			}]
 		}
 		{
 			title: "Source Steel Bee"
@@ -3172,6 +3907,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "32E814CBE002BFE0"
+				type: "item"
+				item: "arsarsenal:source_steel_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "Soul Lava Bee"
@@ -3195,6 +3936,11 @@
 						Color: "#2762a1"
 					}
 				}
+			}]
+			rewards: [{
+				id: "279AEFED0142DA37"
+				type: "item"
+				item: "allthemodium:molten_bluelava_bucket"
 			}]
 		}
 		{
@@ -3223,6 +3969,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1FBC898F5D46A01E"
+				type: "item"
+				item: "minecraft:slime_ball"
+				count: 16
+			}]
 		}
 		{
 			title: "Skyslime Bee"
@@ -3250,6 +4002,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4D8E79DF595D1314"
+				type: "item"
+				item: "tconstruct:sky_slime_ball"
+				count: 16
+			}]
 		}
 		{
 			title: "Skeleton Bee"
@@ -3275,6 +4033,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "16140E7136F365C3"
+				type: "item"
+				item: "minecraft:bone"
+				count: 4
+			}]
 		}
 		{
 			title: "Silver Bee"
@@ -3298,6 +4062,12 @@
 						Color: "#c5d1fe"
 					}
 				}
+			}]
+			rewards: [{
+				id: "77A8A85BDC26DE42"
+				type: "item"
+				item: "emendatusenigmatica:silver_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -3325,6 +4095,12 @@
 						Color: "#fc8638"
 					}
 				}
+			}]
+			rewards: [{
+				id: "31E9FE47C7992C30"
+				type: "item"
+				item: "emendatusenigmatica:signalum_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -3356,11 +4132,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6DF69721BA2D7FF9"
+				type: "item"
+				item: "powah:uraninite"
+				count: 4
+			}]
 		}
 		{
 			title: "Unobtainium Bee"
-			x: 8.5d
-			y: -1.5d
+			x: 8.934523809523796d
+			y: -1.404761904761898d
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -3382,6 +4164,12 @@
 						Color: "#a62be0"
 					}
 				}
+			}]
+			rewards: [{
+				id: "17F9EB59AC982C21"
+				type: "item"
+				item: "allthemodium:unobtainium_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -3407,6 +4195,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "61F1EDCAEEF026A7"
+				type: "item"
+				item: "emendatusenigmatica:tin_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "Thallasium Bee"
@@ -3430,6 +4224,12 @@
 						Color: "#54b0bf"
 					}
 				}
+			}]
+			rewards: [{
+				id: "29CDE7C685A3F78F"
+				type: "item"
+				item: "betterendforge:thallasium_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -3460,6 +4260,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2A6C3038B900F6F1"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "Terminite Bee"
@@ -3483,6 +4289,12 @@
 						Color: "#34c8bd"
 					}
 				}
+			}]
+			rewards: [{
+				id: "50686003E06C8185"
+				type: "item"
+				item: "betterendforge:terminite_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -3512,6 +4324,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "33C15773654BCDF2"
+				type: "item"
+				item: "elementalcraft:swift_alloy_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "Stone Bee"
@@ -3537,6 +4355,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "419D15512EA64919"
+				type: "item"
+				item: "minecraft:stone"
+				count: 16
+			}]
 		}
 		{
 			title: "Steel Bee"
@@ -3560,6 +4384,12 @@
 						Color: "#858585"
 					}
 				}
+			}]
+			rewards: [{
+				id: "4E6624FD7CFF5541"
+				type: "item"
+				item: "emendatusenigmatica:steel_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -3586,6 +4416,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "516EC5D7A39164D7"
+				type: "item"
+				item: "minecraft:rotten_flesh"
+				count: 4
+			}]
 		}
 		{
 			title: "Zinc Bee"
@@ -3609,6 +4445,12 @@
 						Color: "#a6ad6b"
 					}
 				}
+			}]
+			rewards: [{
+				id: "4A3739A442B49941"
+				type: "item"
+				item: "emendatusenigmatica:zinc_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -3634,6 +4476,11 @@
 						Color: "#E9F4F6"
 					}
 				}
+			}]
+			rewards: [{
+				id: "2F66429C485297EA"
+				type: "item"
+				item: "minecraft:ice"
 			}]
 		}
 		{
@@ -3663,6 +4510,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2B45A8E8DB58D1B3"
+				type: "item"
+				item: "tardis:xion_crystal"
+				count: 4
+			}]
 		}
 		{
 			title: "Wither Bee"
@@ -3690,6 +4543,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "12DAC28200F76837"
+				type: "item"
+				item: "cagedmobs:nether_star_fragment"
+				random_bonus: 8
+			}]
 		}
 		{
 			title: "Water Bee"
@@ -3715,11 +4574,16 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7545D197AE7394CD"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
 		}
 		{
 			title: "Vibranium Bee"
-			x: 7.0d
-			y: -1.5d
+			x: 7.434523809523796d
+			y: -1.404761904761898d
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -3741,6 +4605,12 @@
 						Color: "#1bb188"
 					}
 				}
+			}]
+			rewards: [{
+				id: "27B834D17D1F1A80"
+				type: "item"
+				item: "allthemodium:vibranium_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -3766,6 +4636,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "50DFB49132945FC6"
+				type: "item"
+				item: "undergarden:utherium_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "Uranium Bee"
@@ -3789,6 +4665,12 @@
 						Color: "#424d3c"
 					}
 				}
+			}]
+			rewards: [{
+				id: "03801449890C24D2"
+				type: "item"
+				item: "emendatusenigmatica:uranium_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -3963,6 +4845,12 @@
 				type: "item"
 				item: "resourcefulbees:waxed_planks"
 			}]
+			rewards: [{
+				id: "28982FF263CE2E2E"
+				type: "item"
+				item: "resourcefulbees:waxed_planks"
+				count: 16
+			}]
 		}
 		{
 			x: -4.25d
@@ -3979,6 +4867,18 @@
 				id: "5AC7A37D7E0BDFA1"
 				type: "item"
 				item: "minecraft:beehive"
+			}]
+		}
+		{
+			x: -4.25d
+			y: -13.0d
+			dependencies: ["191848C1A5D159D5"]
+			optional: true
+			id: "79724A2404224A23"
+			tasks: [{
+				id: "62AEB4A2E167FCEC"
+				type: "item"
+				item: "resourcefulbees:apiary_breeder"
 			}]
 		}
 	]

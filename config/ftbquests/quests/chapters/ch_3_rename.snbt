@@ -3,7 +3,7 @@
 	group: "206AEEAA9A4E5484"
 	order_index: 0
 	filename: "ch_3_rename"
-	title: "&bChapter 1&r &6-&r Thermal"
+	title: "&bChapter 1&r &6-&r Classic Machinery"
 	icon: "thermal:machine_frame"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -1137,6 +1137,7 @@
 		{
 			x: 11.0d
 			y: 4.0d
+			description: ["It is used to prevent a slot from being used in a machine. Usefull for conflitcting recipes."]
 			hide_dependency_lines: true
 			dependencies: [
 				"50DD44C13F24CB3C"
@@ -1832,7 +1833,7 @@
 			x: 0.0d
 			y: 19.0d
 			shape: "gear"
-			description: ["A multiblick allow you to automate &6Smiting Table&r !"]
+			description: ["A multiblock that allows you to automate the &6Smiting Table&r !"]
 			hide_dependency_lines: true
 			dependencies: [
 				"56D83790E33B0765"

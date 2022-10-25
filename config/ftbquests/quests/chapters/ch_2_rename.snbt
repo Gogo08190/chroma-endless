@@ -105,9 +105,9 @@
 				item: "immersiveengineering:capacitor_lv"
 			}]
 			rewards: [{
-				id: "6AFCA695C1436A7F"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "2432E5E627B99E60"
+				type: "item"
+				item: "immersiveengineering:coil_lv"
 			}]
 		}
 		{
@@ -126,9 +126,9 @@
 				item: "immersiveengineering:capacitor_hv"
 			}]
 			rewards: [{
-				id: "6CD14BA69FF205BC"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "7F3A5F75D68F81D2"
+				type: "item"
+				item: "immersiveengineering:capacitor_mv"
 			}]
 		}
 		{
@@ -209,9 +209,10 @@
 				item: "immersiveengineering:transformer_hv"
 			}]
 			rewards: [{
-				id: "1C2D7AEC4746D034"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "7C8B07B2955EBB1C"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -228,9 +229,10 @@
 				item: "engineersdecor:metal_crafting_table"
 			}]
 			rewards: [{
-				id: "12E36F9BF48806E5"
-				type: "random"
-				table_id: 3261296973996135385L
+				id: "3CFB27CE9AC99EA5"
+				type: "item"
+				item: "emendatusenigmatica:steel_ingot"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -325,9 +327,9 @@
 				item: "immersiveengineering:charging_station"
 			}]
 			rewards: [{
-				id: "1DC10A8ABB27C9AF"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "6E9C6A44521342ED"
+				type: "item"
+				item: "immersiveengineering:connector_mv"
 			}]
 		}
 		{
@@ -483,7 +485,7 @@
 				to_observe: "immersiveengineering:alloy_smelter"
 			}]
 			rewards: [{
-				id: "5A6FDEAC41E9283B"
+				id: "4BA36B54CC7FEBE1"
 				type: "random"
 				table_id: 6524702956512656804L
 			}]
@@ -515,9 +517,9 @@
 				to_observe: "immersiveengineering:blast_furnace"
 			}]
 			rewards: [{
-				id: "7C746EC2C33FBAC8"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "6322AF76315BCD7E"
+				type: "item"
+				item: "immersiveengineering:coke"
 			}]
 		}
 		{
@@ -535,6 +537,12 @@
 				type: "item"
 				title: "&6Engineer's Manual&r"
 				item: "immersiveengineering:manual"
+			}]
+			rewards: [{
+				id: "3B5B68533B36866E"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+				random_bonus: 7
 			}]
 		}
 		{
@@ -574,9 +582,9 @@
 				to_observe: "immersiveengineering:metal_press"
 			}]
 			rewards: [{
-				id: "3609C5068A60A4EA"
+				id: "1BDF81E12EC82B22"
 				type: "item"
-				item: "emendatusenigmatica:steel_ingot"
+				item: "emendatusenigmatica:steel_plate"
 				count: 6
 			}]
 		}
@@ -752,9 +760,9 @@
 				to_observe: "immersiveengineering:squeezer"
 			}]
 			rewards: [{
-				id: "45E9998581F017DA"
+				id: "4E92E65C2DAD0720"
 				type: "item"
-				item: "minecraft:wheat_seeds"
+				item: "simplefarming:grape_seeds"
 				count: 32
 			}]
 		}
@@ -794,11 +802,18 @@
 				observe_type: 0
 				to_observe: "immersiveengineering:refinery"
 			}]
-			rewards: [{
-				id: "01448870C1D6E179"
-				type: "random"
-				table_id: 6524702956512656804L
-			}]
+			rewards: [
+				{
+					id: "0A77DE4800DA3B5D"
+					type: "item"
+					item: "immersiveengineering:plantoil_bucket"
+				}
+				{
+					id: "08E0D124721F4AA1"
+					type: "item"
+					item: "immersiveengineering:ethanol_bucket"
+				}
+			]
 		}
 		{
 			title: "Build a &6Mixer"
@@ -837,11 +852,25 @@
 				observe_type: 0
 				to_observe: "immersiveengineering:mixer"
 			}]
-			rewards: [{
-				id: "62A430C31CDFA0FF"
-				type: "random"
-				table_id: 6524702956512656804L
-			}]
+			rewards: [
+				{
+					id: "3A98225821603AF5"
+					type: "item"
+					item: "minecraft:sand"
+					count: 64
+				}
+				{
+					id: "55FF848271F4EE97"
+					type: "item"
+					item: "minecraft:gravel"
+					count: 64
+				}
+				{
+					id: "0790A82A008FC8FB"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+			]
 		}
 		{
 			title: "Build a &6Bottling Machine"
@@ -879,9 +908,9 @@
 				to_observe: "immersiveengineering:bottling_machine"
 			}]
 			rewards: [{
-				id: "7F1E556378CEFF5E"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "0B7CE59456F9D858"
+				type: "item"
+				item: "immersiveengineering:fluid_pump"
 			}]
 		}
 		{
@@ -919,11 +948,26 @@
 				observe_type: 0
 				to_observe: "immersiveengineering:auto_workbench"
 			}]
-			rewards: [{
-				id: "07D1EABD83940A53"
-				type: "random"
-				table_id: 6524702956512656804L
-			}]
+			rewards: [
+				{
+					id: "01695A31AF8FFD58"
+					type: "item"
+					item: "immersiveengineering:component_iron"
+					count: 8
+				}
+				{
+					id: "4012C353B7BE0224"
+					type: "item"
+					item: "immersiveengineering:component_steel"
+					count: 8
+				}
+				{
+					id: "18CDD015CB50B197"
+					type: "item"
+					item: "immersiveengineering:electron_tube"
+					count: 4
+				}
+			]
 		}
 		{
 			title: "Build an &6Arc Furnace"
@@ -1019,10 +1063,11 @@
 				}
 			]
 			rewards: [{
-				id: "386B08B58450BCDA"
+				id: "5796E22A46E9F730"
 				type: "item"
-				item: "emendatusenigmatica:aluminum_ore"
-				count: 64
+				item: "emendatusenigmatica:steel_block"
+				count: 2
+				random_bonus: 2
 			}]
 		}
 		{
@@ -1050,9 +1095,9 @@
 				item: "immersivepetroleum:projector"
 			}]
 			rewards: [{
-				id: "387798A9AEE5D4A1"
-				type: "random"
-				table_id: 3261296973996135385L
+				id: "7E295F85606CFE9F"
+				type: "item"
+				item: "immersiveengineering:lantern"
 			}]
 		}
 		{
@@ -1156,18 +1201,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "280BAD230C6EA5E9"
-					type: "choice"
-					table_id: 6524702956512656804L
-				}
-				{
-					id: "43505E48F157A20F"
-					type: "item"
-					item: "immersiveengineering:crate"
-				}
-			]
+			rewards: [{
+				id: "43505E48F157A20F"
+				type: "item"
+				item: "immersiveengineering:crate"
+			}]
 		}
 		{
 			title: "Craft &6Engineer's Hammer&r"
@@ -1273,9 +1311,10 @@
 				to_observe: "immersivepetroleum:cokerunit"
 			}]
 			rewards: [{
-				id: "5F47D4A5167A55FF"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "0922585C046C100E"
+				type: "item"
+				item: "immersivepetroleum:bitumen"
+				count: 16
 			}]
 		}
 		{
@@ -1471,9 +1510,9 @@
 				to_observe: "immersiveengineering:silo"
 			}]
 			rewards: [{
-				id: "41B2C91DD8A3667F"
-				type: "random"
-				table_id: 3261296973996135385L
+				id: "63683B695DD7B6A3"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_1"
 			}]
 		}
 		{
@@ -1502,9 +1541,9 @@
 				to_observe: "immersiveengineering:tank"
 			}]
 			rewards: [{
-				id: "64ABBC349EC017E4"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "4A49EBFC51BBCA2D"
+				type: "item"
+				item: "create:fluid_tank"
 			}]
 		}
 		{
@@ -1575,9 +1614,9 @@
 				item: "immersiveengineering:blastfurnace_preheater"
 			}]
 			rewards: [{
-				id: "54B7B67ADF310C25"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "544CAB74DC325BBE"
+				type: "item"
+				item: "immersiveengineering:blastfurnace_preheater"
 			}]
 		}
 		{
@@ -1744,11 +1783,6 @@
 				type: "item"
 				item: "immersiveengineering:current_transformer"
 			}]
-			rewards: [{
-				id: "046A2D019523EEDD"
-				type: "random"
-				table_id: 6524702956512656804L
-			}]
 		}
 		{
 			x: -3.75d
@@ -1759,11 +1793,6 @@
 				id: "3C089608B811FEF1"
 				type: "item"
 				item: "immersiveengineering:powerpack"
-			}]
-			rewards: [{
-				id: "469600C94BDA35F0"
-				type: "random"
-				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -1963,9 +1992,9 @@
 				item: "immersiveengineering:transformer"
 			}]
 			rewards: [{
-				id: "037CF35C989051BE"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "7FDAE6838399DB3A"
+				type: "item"
+				item: "immersiveengineering:connector_mv"
 			}]
 		}
 		{
@@ -2173,9 +2202,9 @@
 				item: "immersiveengineering:metal_barrel"
 			}]
 			rewards: [{
-				id: "4A829673F639BB6A"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "39ADC058C8A1B277"
+				type: "item"
+				item: "immersiveengineering:metal_barrel"
 			}]
 		}
 		{
@@ -2419,9 +2448,9 @@
 				item: "immersiveengineering:conveyor_basic"
 			}]
 			rewards: [{
-				id: "597EB95FCE9F9E41"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "226CACBB4B6346B2"
+				type: "item"
+				item: "immersiveengineering:conveyor_basic"
 			}]
 		}
 		{
@@ -2807,9 +2836,9 @@
 				item: "immersiveengineering:jerrycan"
 			}]
 			rewards: [{
-				id: "159F0C4C6BF2613B"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "514827E9D989927E"
+				type: "item"
+				item: "immersiveengineering:jerrycan"
 			}]
 		}
 		{
@@ -3173,9 +3202,9 @@
 				}
 			}]
 			rewards: [{
-				id: "2405D6477078F41D"
-				type: "random"
-				table_id: 3261296973996135385L
+				id: "265852BC89A3B5F1"
+				type: "item"
+				item: "immersiveengineering:crate"
 			}]
 		}
 		{
@@ -3191,11 +3220,6 @@
 				id: "0E6F4CE9FDD9F76B"
 				type: "item"
 				item: "immersiveengineering:voltmeter"
-			}]
-			rewards: [{
-				id: "0A27FF1F9C6A1F46"
-				type: "random"
-				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -3257,9 +3281,9 @@
 				item: "immersiveengineering:tesla_coil"
 			}]
 			rewards: [{
-				id: "79F0E017BC2F381D"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "3834AE1725828300"
+				type: "item"
+				item: "immersiveengineering:capacitor_hv"
 			}]
 		}
 		{
@@ -3272,11 +3296,6 @@
 				id: "3918561707625EB8"
 				type: "item"
 				item: "immersiveengineering:sample_drill"
-			}]
-			rewards: [{
-				id: "4B01E00B5E494AC2"
-				type: "random"
-				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -3423,28 +3442,6 @@
 				id: "48BCF040CEB36718"
 				type: "item"
 				item: "immersiveengineering:redstone_breaker"
-			}]
-			rewards: [{
-				id: "52B30733F95F7B16"
-				type: "random"
-				table_id: 6524702956512656804L
-			}]
-		}
-		{
-			x: -4.0d
-			y: 19.25d
-			dependencies: ["1ADD7F8A69F0DDEC"]
-			dependency_requirement: "one_completed"
-			id: "2FB58D9CEDA705CA"
-			tasks: [{
-				id: "7F5F736527447198"
-				type: "item"
-				item: "immersiveengineering:breaker_switch"
-			}]
-			rewards: [{
-				id: "79EF7751045208D8"
-				type: "random"
-				table_id: 3261296973996135385L
 			}]
 		}
 		{
@@ -3867,6 +3864,12 @@
 						graphDmg: 0
 					}
 				}
+				count: 3L
+			}]
+			rewards: [{
+				id: "4532848BD9828820"
+				type: "item"
+				item: "immersiveengineering:ingot_hop_graphite"
 			}]
 		}
 		{
@@ -4086,9 +4089,9 @@
 				item: "immersiveengineering:generator"
 			}]
 			rewards: [{
-				id: "0AD7CA8D7D55D43C"
+				id: "325AF9E4895936DA"
 				type: "item"
-				item: "emendatusenigmatica:electrum_ingot"
+				item: "immersiveengineering:generator"
 			}]
 		}
 		{
@@ -4107,9 +4110,9 @@
 				item: "immersiveengineering:capacitor_mv"
 			}]
 			rewards: [{
-				id: "1A01B8330D3F0B93"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "7F0DBBD5DEE55872"
+				type: "item"
+				item: "immersiveengineering:capacitor_lv"
 			}]
 		}
 		{
@@ -4166,9 +4169,9 @@
 				item: "immersiveengineering:cloche"
 			}]
 			rewards: [{
-				id: "31FFCD4DC7002D4A"
+				id: "657E57B8BFE897B7"
 				type: "item"
-				item: "kubejs:part_garden_cloche"
+				item: "immersiveengineering:cloche"
 			}]
 		}
 		{
@@ -4295,9 +4298,9 @@
 				item: "immersiveengineering:conveyor_redstone"
 			}]
 			rewards: [{
-				id: "03CDAA24E03EB3AE"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "6E0BF81C45AF2258"
+				type: "item"
+				item: "immersiveengineering:conveyor_redstone"
 			}]
 		}
 		{
@@ -4313,9 +4316,9 @@
 				item: "immersiveengineering:conveyor_dropper"
 			}]
 			rewards: [{
-				id: "395A48B1DFF91B86"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "1232C68414810ED9"
+				type: "item"
+				item: "immersiveengineering:conveyor_dropper"
 			}]
 		}
 		{
@@ -4331,9 +4334,9 @@
 				item: "immersiveengineering:conveyor_vertical"
 			}]
 			rewards: [{
-				id: "362BD440E057B24B"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "180D15AB3AFDF880"
+				type: "item"
+				item: "immersiveengineering:conveyor_vertical"
 			}]
 		}
 		{
@@ -4349,9 +4352,9 @@
 				item: "immersiveengineering:conveyor_extract"
 			}]
 			rewards: [{
-				id: "74530B6D967A311B"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "46A90B9B615CD030"
+				type: "item"
+				item: "immersiveengineering:conveyor_extract"
 			}]
 		}
 		{
@@ -4367,9 +4370,9 @@
 				item: "immersiveengineering:conveyor_splitter"
 			}]
 			rewards: [{
-				id: "77B29B0A12EE7288"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "2BB62CE02A897815"
+				type: "item"
+				item: "immersiveengineering:conveyor_splitter"
 			}]
 		}
 		{

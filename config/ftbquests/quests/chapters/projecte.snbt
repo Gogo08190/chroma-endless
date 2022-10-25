@@ -3,7 +3,7 @@
 	group: "44A22EED2BE11886"
 	order_index: 2
 	filename: "projecte"
-	title: "&bChapter 3&r &6-&r ProjectE"
+	title: "&bChapter 3&r &6-&r Equivalent Exchange"
 	icon: "projecte:transmutation_table"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -214,7 +214,7 @@
 			x: 10.0d
 			y: -5.75d
 			shape: "diamond"
-			description: ["&6Obtain in the Void Ore Miner from Tier 5 in The End !"]
+			description: ["&6Obtained in the Void ore miner (Black Hole Harvester card) from Tier 5 in The End !"]
 			dependencies: [
 				"51A865804BE34E1F"
 				"3EAB4C4E47E658EA"
@@ -237,7 +237,7 @@
 			x: 10.5d
 			y: -6.5d
 			shape: "diamond"
-			description: ["&6Obtain in the Void Ore Miner from Tier 5 in The End !"]
+			description: ["&6Obtained in the Void ore miner (Black Hole Harvester card) from Tier 5 in The End !"]
 			dependencies: [
 				"51A865804BE34E1F"
 				"3EAB4C4E47E658EA"
@@ -260,7 +260,7 @@
 			x: 11.0d
 			y: -5.75d
 			shape: "diamond"
-			description: ["&6Obtain in the Void Ore Miner from Tier 5 in The End !"]
+			description: ["&6Obtained in the Void ore miner (Black Hole Harvester card) from Tier 5 in The End !"]
 			dependencies: [
 				"51A865804BE34E1F"
 				"3EAB4C4E47E658EA"
