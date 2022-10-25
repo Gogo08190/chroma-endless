@@ -117,7 +117,7 @@
 			y: -10.0d
 			shape: "gear"
 			description: ["Find in village."]
-			size: 5.0d
+			size: 4.0d
 			id: "445EBC860C3ABE3C"
 			tasks: [{
 				id: "2E3E2E8D303D73BF"
@@ -1240,8 +1240,10 @@
 		{
 			x: -46.5d
 			y: -20.25d
+			shape: "gear"
 			description: ["A Xion Crystal is an ore block that is used in many crafting recipes"]
 			dependencies: ["7FF11CD4F28B658F"]
+			size: 1.5d
 			id: "32B12D10660F4037"
 			tasks: [{
 				id: "3B98EA4C8E15AD17"

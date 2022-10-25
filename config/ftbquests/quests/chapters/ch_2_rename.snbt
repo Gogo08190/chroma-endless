@@ -297,6 +297,18 @@
 				type: "item"
 				item: "immersiveengineering:thermoelectric_generator"
 			}]
+			rewards: [
+				{
+					id: "4B63BB624159FC18"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "4CCC4E4373A1761C"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+			]
 		}
 		{
 			x: -6.5d
@@ -435,6 +447,12 @@
 				observe_type: 0
 				to_observe: "immersiveengineering:advanced_blast_furnace"
 			}]
+			rewards: [{
+				id: "67829137E98D4345"
+				type: "item"
+				item: "minecraft:coal_block"
+				count: 8
+			}]
 		}
 		{
 			title: "&#D5A372Alloy Kiln&r"
@@ -556,9 +574,10 @@
 				to_observe: "immersiveengineering:metal_press"
 			}]
 			rewards: [{
-				id: "311B6E7642FBFAB9"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "3609C5068A60A4EA"
+				type: "item"
+				item: "emendatusenigmatica:steel_ingot"
+				count: 6
 			}]
 		}
 		{
@@ -596,9 +615,10 @@
 				to_observe: "immersiveengineering:crusher"
 			}]
 			rewards: [{
-				id: "1EE7A0F1EB9CB9BB"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "577B121FE11D7627"
+				type: "item"
+				item: "emendatusenigmatica:gold_ore"
+				count: 8
 			}]
 		}
 		{
@@ -638,11 +658,19 @@
 				observe_type: 0
 				to_observe: "immersiveengineering:assembler"
 			}]
-			rewards: [{
-				id: "61E2A928B44B3B52"
-				type: "random"
-				table_id: 6524702956512656804L
-			}]
+			rewards: [
+				{
+					id: "26E87255741C5F53"
+					type: "item"
+					item: "minecraft:oak_planks"
+					count: 8
+				}
+				{
+					id: "3E57CA1A52A98F4A"
+					type: "item"
+					item: "immersiveengineering:creosote_bucket"
+				}
+			]
 		}
 		{
 			title: "Build an &6Industrial Fermenter"
@@ -680,9 +708,10 @@
 				to_observe: "immersiveengineering:fermenter"
 			}]
 			rewards: [{
-				id: "00C90D574DCBECB2"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "70DE288D3A29DA94"
+				type: "item"
+				item: "minecraft:wheat"
+				count: 32
 			}]
 		}
 		{
@@ -723,9 +752,10 @@
 				to_observe: "immersiveengineering:squeezer"
 			}]
 			rewards: [{
-				id: "2A3B452993C94D3E"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "45E9998581F017DA"
+				type: "item"
+				item: "minecraft:wheat_seeds"
+				count: 32
 			}]
 		}
 		{
@@ -1101,9 +1131,10 @@
 				to_observe: "immersiveengineering:coke_oven"
 			}]
 			rewards: [{
-				id: "49864634FF19C6B3"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "73098A9866FC4453"
+				type: "item"
+				item: "minecraft:coal_block"
+				count: 4
 			}]
 		}
 		{
@@ -1323,9 +1354,9 @@
 				to_observe: "immersivepetroleum:distillationtower"
 			}]
 			rewards: [{
-				id: "3D5865A0225BEF2F"
+				id: "65533447A9DB2117"
 				type: "item"
-				item: "immersiveengineering:fluid_pump"
+				item: "pneumaticcraft:oil_bucket"
 			}]
 		}
 		{
@@ -3291,9 +3322,9 @@
 				item: "immersiveengineering:fluid_pump"
 			}]
 			rewards: [{
-				id: "75A5CA25E9C564E6"
+				id: "480066D6E52A8308"
 				type: "item"
-				item: "immersiveengineering:fluid_pump"
+				item: "minecraft:water_bucket"
 			}]
 		}
 		{
@@ -3719,7 +3750,7 @@
 			dependencies: ["5E27C3E81F00DB51"]
 			id: "23FBADE5F25C5E9A"
 			tasks: [{
-				id: "03C41E88650BB801"
+				id: "4A42FB58AD73C04E"
 				type: "item"
 				item: "pneumaticcraft:oil_bucket"
 			}]
