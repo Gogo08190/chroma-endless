@@ -29,7 +29,7 @@ lens_of_ender = true
 	#List of heat source blocks used under Thermo Generator.
 	#Block registry name = heat, eg: ["minecraft:lava=1000", "minecraft:magma_block=800"]
 	#Min = 1, max = 900000000
-	heatSources = ["minecraft:lava=1000", "minecraft:magma_block=800", "powah:blazing_crystal_block=2800"]
+	heatSources = ["minecraft:lava=1000", "minecraft:magma_block=800", "powah:blazing_crystal_block=2800", "allthemodium:molten_bluelava=2000", "draconicevolution:awakened_draconium_block=4000"]
 	#Enable this to allow other mods to add their heat source blocks. [default:true]
 	heatBlocksAPI = true
 	#
@@ -43,4 +43,3 @@ lens_of_ender = true
 	#Eg: Coal has 1600 fuel tick, so will generate 48000 FE.
 	#Range: 1 ~ 1000000
 	solidFuelEnergyBase = 30
-
