@@ -3054,4 +3054,177 @@ onEvent("recipes", (event) => {
       }
     }
   ).id(`${id_prefix}creative_element_container`)
+
+    event.custom(
+      {
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+          "ABBBBBBBA",
+          "BCCDDDCCB",
+          "BCEEEEECB",
+          "BDEFGFEDB",
+          "BDEGHGEDB",
+          "BDEFGFEDB",
+          "BCEEEEECB",
+          "BCCDDDCCB",
+          "ABBBBBBBA"
+        ],
+        "key": {
+          "A": {
+            "item": "kubejs:chroma_matter"
+          },
+          "B": {
+            "item": "minecraft:dragon_head"
+          },
+          "C": {
+            "item": "resourcefulbees:starry_lexxie_honeycomb_block"
+          },
+          "D": {
+            "item": "resourcefulbees:nitro_honeycomb_block"
+          },
+          "E": {
+            "item": "draconicevolution:dragon_heart"
+          },
+          "F": {
+            "item": "draconicevolution:small_chaos_frag"
+          },
+          "G": {
+            "item": "resourcefulbees:t4_apiary"
+          },
+          "H": {
+            "type": "forge:nbt",
+            "item": "extendedcrafting:singularity",
+            "count": 1,
+            "nbt": "{Id:\"extendedcrafting:comb\"}"
+          }
+        },
+        "result": {
+          "item": "creativeapiary:tcreative_apiary"
+        }
+      }
+  ).id('creativeapiary:tcreative_apiary')
+
+    event.custom(
+      {
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+          "ABBBBBBBA",
+          "BCCDDDCCB",
+          "BCEEEEECB",
+          "BDEFGFEDB",
+          "BDEGHGEDB",
+          "BDEFGFEDB",
+          "BCEEEEECB",
+          "BCCDDDCCB",
+          "ABBBBBBBA"
+        ],
+        "key": {
+          "A": {
+            "item": "kubejs:chroma_matter"
+          },
+          "B": {
+            "item": "minecraft:dragon_head"
+          },
+          "C": {
+            "item": "resourcefulbees:starry_lexxie_honeycomb_block"
+          },
+          "D": {
+            "item": "resourcefulbees:nitro_honeycomb_block"
+          },
+          "E": {
+            "item": "draconicevolution:dragon_heart"
+          },
+          "F": {
+            "item": "expandedstorage:netherite_chest"
+          },
+          "G": {
+            "item": "extendedcrafting:nether_star_block"
+          },
+          "H": {
+            "type": "forge:nbt",
+            "item": "extendedcrafting:singularity",
+            "count": 1,
+            "nbt": "{Id:\"extendedcrafting:comb\"}"
+          }
+        },
+        "result": {
+          "item": "creativeapiary:creative_apiary_storage"
+        }
+      }
+  ).id('creativeapiary:creative_apiary_storage')
+
+      event.custom(
+        {
+          "type": "extendedcrafting:shaped_table",
+          "pattern": [
+            "AABAA",
+            "ACDCA",
+            "BDEDB",
+            "ACDCA",
+            "AABAA"
+          ],
+          "key": {
+            "A": {
+              "item": "resourcefulbees:unobtainium_honeycomb_block"
+            },
+            "B": {
+              "item": "draconicevolution:awakened_core"
+            },
+            "C": {
+              "type": "forge:nbt",
+              "item": "extendedcrafting:singularity",
+              "count": 1,
+              "nbt": "{Id:\"extendedcrafting:comb\"}"
+            },
+            "D": {
+              "item": "draconicevolution:chaotic_core"
+            },
+            "E": {
+              "item": "ctiers:centrifuge_controller_tier_5"
+            }
+          },
+          "result": {
+            "item": "ctiers:centrifuge_controller_tier_creative"
+          }
+        }
+  ).id('ctiers:centrifuge_controller_tier_creative')
+
+        event.custom(
+          {
+            "type": "extendedcrafting:shaped_table",
+            "pattern": [
+              "AABAA",
+              "ACDCA",
+              "BDEDB",
+              "ACFCA",
+              "AABAA"
+            ],
+            "key": {
+              "A": {
+                "item": "resourcefulbees:unobtainium_honeycomb_block"
+              },
+              "B": {
+                "item": "draconicevolution:awakened_core"
+              },
+              "C": {
+                "type": "forge:nbt",
+                "item": "extendedcrafting:singularity",
+                "count": 1,
+                "nbt": "{Id:\"extendedcrafting:comb\"}"
+              },
+              "D": {
+                "item": "ctiers:centrifuge_casing_tier_5"
+              },
+              "E": {
+                "item": "draconicevolution:chaotic_core"
+              },
+              "F": {
+                "item": "minecraft:dragon_egg"
+              }
+            },
+            "result": {
+              "item": "3x ctiers:centrifuge_casing_tier_creative"
+            }
+          }
+  ).id('ctiers:centrifuge_casing_tier_creative')
 });

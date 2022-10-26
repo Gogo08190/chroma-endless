@@ -44,7 +44,17 @@ onEvent('recipes', (event) => {
           output: {item: 'tardis:artron_capacitor'},
           id: 'tardis:quantiscope/artron_capacitor'
       },
-
+      {
+          inputs: [
+            {item: 'tardis:artron_battery_high' },
+            {item: 'tardis:artron_battery_high' },
+            Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:nitro"}').weakNBT().toJson(),
+            Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:xion"}').weakNBT().toJson(),
+            {item: 'tardis:circuits' },
+          ],
+          output: {item: 'tardis:artron_battery_creative'},
+          id: `${id_prefix}artron_battery_creative`
+      }
     ];
 
     recipes.forEach((recipe) => {
