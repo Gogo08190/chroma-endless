@@ -329,7 +329,7 @@ onEvent('recipes', (event) => {
         // Creative motor
         {
             output: 'create:creative_motor',
-            pattern: ['AAAAAAAAA', 'BCDDCCCB', 'BCDEFGCB', 'CCHIJKCB', 'CLMNOOOOO', 'CCHIJKCB', 'BCDEFGCB', 'BCDDCCCB', 'AAAAAAAAA'],
+            pattern: ['AAAAAAAAA', 'BCDDCCCB ', 'BCDEFGCB ', 'CCHIJKCB ', 'CLMNOOOOO', 'CCHIJKCB ', 'BCDEFGCB ', 'BCDDCCCB ', 'AAAAAAAAA'],
             key: {
                 A: 'create:andesite_alloy',
                 B: 'bigreactors:magentite_ingot',
@@ -340,15 +340,15 @@ onEvent('recipes', (event) => {
                 G: 'kubejs:chroma_matter',
                 H: 'allthemodium:unobtainium_vibranium_alloy_ingot',
                 I: 'kubejs:creative_catalyst',
-                J: Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:bar_of_chocolate"}').weakNBT(),
+                J: Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:bar_of_chocolate"}').weakNBT().toJson(),
                 K: 'createaddition:overcharged_alloy',
                 L: 'create:rotation_speed_controller',
                 M: 'extendedcrafting:ultimate_singularity',
                 N: 'createaddition:electric_motor',
-                O: 'create:shaft',
+                O: 'create:shaft'
             },
-            id: `${id_prefix}create:creative_motor`
-        },
+            id: `${id_prefix}creative_motor`
+        }
     ];
 
     recipes.forEach((recipe) => {
