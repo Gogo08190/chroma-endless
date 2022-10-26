@@ -2,11 +2,11 @@
 
 onEvent('recipes', (event) => {
     const idRemovals = [
-
+      'creativeapiary:creative_apiary_breeder'
     ];
 
     const outputRemovals = [
-      
+
     ];
 
     idRemovals.forEach((id) => {
