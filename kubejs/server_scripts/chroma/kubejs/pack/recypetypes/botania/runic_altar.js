@@ -480,7 +480,32 @@ onEvent('recipes', (event) => {
         output: 'tardis:alembic',
         count: 1,
         id: `tardis:alembic`
+      },
+      {
+        inputs: [
+          'botanicalmachinery:mana_battery',
+          'botanicalmachinery:mana_battery',
+          'botanicalmachinery:mana_battery',
+          'botanicalmachinery:mana_battery',
+          Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:manasteel"}').weakNBT().toJson(),
+          Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:manasteel"}').weakNBT().toJson(),
+          'botania:corporea_spark_master',
+          Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:terrasteel"}').weakNBT().toJson(),
+          Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:elementium"}').weakNBT().toJson(),
+          'botania:rune_mana',
+          'botania:rune_mana',
+          'kubejs:gaia_spirit_block',
+          'kubejs:gaia_spirit_block',
+          'botania:mana_pool',
+          'botania:blacker_lotus',
+          'botania:corporea_index'
+        ],
+        mana: 60000,
+        output: 'botanicalmachinery:mana_battery_creative',
+        count: 1,
+        id: `${id_prefix}botanicalmachinery:mana_battery_creative`
       }
+
     ];
 
     recipes.forEach((recipe) => {
