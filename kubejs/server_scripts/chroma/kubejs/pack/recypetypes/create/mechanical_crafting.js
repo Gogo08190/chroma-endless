@@ -347,7 +347,7 @@ onEvent('recipes', (event) => {
                 N: 'createaddition:electric_motor',
                 O: 'create:shaft',
             },
-            id: `${id_prefix}'create:creative_motor'
+            id: `${id_prefix}create:creative_motor`
         },
     ];
 
