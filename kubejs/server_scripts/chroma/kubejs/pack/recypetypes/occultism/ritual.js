@@ -362,6 +362,29 @@ onEvent('recipes', (event) => {
             result: 'masterfulmachinery:fusioner_compact_item_port_items_input',
             id: `${id_prefix}fusioner_compact_item_port_items_input`
         },
+        {
+            ritual_type: 'occultism:craft_with_spirit_name',
+            activation_item: Item.of('occultism:book_of_binding_bound_afrit').weakNBT(),
+            pentacle_id: 'occultism:craft_marid',
+            duration: 100,
+            ritual_dummy: 'kubejs:alphaneck',
+            ingredients: [
+                'occultism:iesnium_ingot',
+                'occultism:iesnium_ingot',
+                'occultism:afrit_essence',
+                'occultism:afrit_essence',
+                'mob_grinding_utils:solid_xp_baby',
+                'immersiveengineering:component_steel',
+                'immersiveengineering:component_steel',
+                'occultism:spirit_attuned_gem',
+                'occultism:spirit_attuned_gem',
+                'miniutilities:magical_egg',
+                'immersivepetroleum:petcoke',
+                'immersivepetroleum:petcoke'
+            ],
+            result: 'kubejs:alphaneck',
+            id: `${id_prefix}alphaneck`
+        }
     ];
 
     recipes.forEach((recipe) => {
