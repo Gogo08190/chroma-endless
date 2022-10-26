@@ -100,6 +100,26 @@ onEvent('recipes', (event) => {
                 ],
                 time: 250,
                 id: `${id_prefix}aeternium_bee`
+            },
+            {
+                input: 'betterendforge:eternal_crystal',
+                output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:aeternium_bee' }),
+                output: {
+                  id: 'kubejs:deltaneck',
+                  Count: 1
+                },
+                catalysts: [
+                    { index: 0, item: 'tconstruct:hepatizon_block' },
+                    { index: 1, item: 'allthemodium:allthemodium_ingot' },
+                    { index: 2, item: 'betterendforge:aeternium_ingot' },
+                    { index: 3, item: 'create:electron_tube' },
+                    { index: 4, item: 'tconstruct:hepatizon_block' },
+                    { index: 5, item: 'allthemodium:allthemodium_ingot' },
+                    { index: 6, item: 'betterendforge:aeternium_ingot' },
+                    { index: 7, item: 'create:precision_mechanism' }
+                ],
+                time: 250,
+                id: `${id_prefix}deltaneck`
             }
         ]
     };
