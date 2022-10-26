@@ -536,7 +536,6 @@ onEvent('recipes', (event) => {
             { item: 'draconicevolution:infused_obsidian' },
             { item: 'draconicevolution:infused_obsidian' },
             { item: 'draconicevolution:infused_obsidian' },
-            { item: 'draconicevolution:infused_obsidian' },
             { item: 'draconicevolution:chaotic_energy_core'},
             { item: 'draconicevolution:chaotic_energy_core'},
             { item: 'draconicevolution:chaotic_energy_core'},
