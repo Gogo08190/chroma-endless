@@ -245,6 +245,30 @@ onEvent('recipes', (event) => {
           },
           id: 'universalgrid:wireless_universal_grid'
       },
+      // Creative Fluid Storage Block
+      {
+          output: 'refinedstorage:creative_fluid_storage_block',
+          pattern: ['QCQ', 'QMQ', 'QRQ'],
+          key: {
+              Q: 'refinedstorage:quartz_enriched_iron',
+              C: 'refinedstorage:creative_fluid_storage_disk',
+              M: 'refinedstorage:machine_casing',
+              R: '#forge:dusts/redstone'
+          },
+          id: 'refinedstorage:creative_fluid_storage_block'
+      },
+      // Creative Fluid Storage Block
+      {
+          output: 'refinedstorage:creative_storage_block',
+          pattern: ['QCQ', 'QMQ', 'QRQ'],
+          key: {
+              Q: 'refinedstorage:quartz_enriched_iron',
+              C: 'refinedstorage:creative_storage_disk',
+              M: 'refinedstorage:machine_casing',
+              R: '#forge:dusts/redstone'
+          },
+          id: 'refinedstorage:creative_storage_block'
+      },
     ];
 
     recipes.forEach((recipe) => {

@@ -81,6 +81,16 @@ onEvent('recipes', (event) => {
           output: 'kubejs:unassembled_1048576k_fluid_storage_part',
           inputs: ['extrastorage:storagepart_1048576k_fluid'],
           id: `${id_prefix}unasambled_1048576k_fluid_storage_part_from_1048576k_fluid_storage_part`
+      },
+      {
+          output: 'refinedstorage:creative_storage_disk',
+          inputs: ['refinedstorage:creative_storage_block'],
+          id: `${id_prefix}creative_storage_disk`
+      },
+      {
+          output: 'refinedstorage:creative_fluid_storage_disk',
+          inputs: ['refinedstorage:creative_fluid_storage_block'],
+          id: `${id_prefix}creative_fluid_storage_block`
       }
     ];
 
