@@ -505,6 +505,24 @@ onEvent('recipes', (event) => {
           total_energy: 5000000,
           result: { item: 'allthemodium:alloy_paxel' },
           id: 'allthemodium:main/alloy_paxel'
+      },
+      {
+          inputs: [
+              { item: 'powah:charged_snowball' },
+              { item: 'powah:charged_snowball' },
+              { item: 'draconicevolution:large_chaos_frag' },
+              { item: 'powah:capacitor_nitro' },
+              { item: 'powah:capacitor_nitro' },
+              { item: 'projecte:low_covalence_dust' },
+              { item: 'projectexpansion:fading_matter' },
+              { item: 'projecte:high_covalence_dust'},
+              { item: 'projecte:medium_covalence_dust'}
+          ],
+          tier: "CHAOTIC",
+          catalyst: { item: 'draconicadditions:chaotic_necklace' },
+          total_energy: 5000000,
+          result: { item: 'kubejs:tauneck' },
+          id: `${id_prefix}tauneck`
       }
     ];
 
