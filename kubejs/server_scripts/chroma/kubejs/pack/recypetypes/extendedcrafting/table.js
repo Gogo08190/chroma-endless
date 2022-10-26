@@ -4042,4 +4042,62 @@ onEvent("recipes", (event) => {
       }
     }
   ).id('storagedrawers:creative_storage_upgrade')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "  AABAA  ",
+        " AACCCAA ",
+        "AADEFGDAA",
+        "ACGHIHECA",
+        "BCFJKJFCB",
+        "ACEHIHGCA",
+        "AADGFEDAA",
+        " AACCCAA ",
+        "  AABAA  "
+      ],
+      "key": {
+        "A": {
+          "item": "draconicevolution:chaotic_energy_module"
+        },
+        "B": {
+          "item": "draconicevolution:reactor_stabilizer"
+        },
+        "C": {
+          "item": "draconicevolution:chaotic_energy_core"
+        },
+        "D": {
+          "item": "extendedcrafting:the_ultimate_ingot"
+        },
+        "E": {
+          "item": "kubejs:chroma_matter"
+        },
+        "F": {
+          "item": "projectexpansion:fading_matter"
+        },
+        "G": {
+          "item": "kubejs:creative_catalyst"
+        },
+        "H": {
+          "item": "draconicevolution:chaotic_capacitor"
+        },
+        "I": {
+          "item": "draconicevolution:energy_core"
+        },
+        "J": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:chaos_shard\"}"
+        },
+        "K": {
+          "item": "draconicevolution:reactor_core"
+        }
+      },
+      "result": {
+        "item": "draconicevolution:creative_capacitor"
+      }
+    }
+  ).id('draconicevolution:creative_capacitor')
 });
