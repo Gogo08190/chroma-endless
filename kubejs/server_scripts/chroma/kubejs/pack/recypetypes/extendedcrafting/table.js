@@ -55,7 +55,8 @@ onEvent("recipes", (event) => {
         }
       },
       "result": {
-        "item": "3x ctiers:centrifuge_casing_tier_3"
+        "item": "ctiers:centrifuge_casing_tier_3",
+        "count": 3
       }
     }
   ).id(`${id_prefix}centrifuge_casing_tier_3`)
@@ -3055,176 +3056,1049 @@ onEvent("recipes", (event) => {
     }
   ).id(`${id_prefix}creative_element_container`)
 
-    event.custom(
-      {
-        "type": "extendedcrafting:shaped_table",
-        "pattern": [
-          "ABBBBBBBA",
-          "BCCDDDCCB",
-          "BCEEEEECB",
-          "BDEFGFEDB",
-          "BDEGHGEDB",
-          "BDEFGFEDB",
-          "BCEEEEECB",
-          "BCCDDDCCB",
-          "ABBBBBBBA"
-        ],
-        "key": {
-          "A": {
-            "item": "kubejs:chroma_matter"
-          },
-          "B": {
-            "item": "minecraft:dragon_head"
-          },
-          "C": {
-            "item": "resourcefulbees:starry_lexxie_honeycomb_block"
-          },
-          "D": {
-            "item": "resourcefulbees:nitro_honeycomb_block"
-          },
-          "E": {
-            "item": "draconicevolution:dragon_heart"
-          },
-          "F": {
-            "item": "draconicevolution:small_chaos_frag"
-          },
-          "G": {
-            "item": "resourcefulbees:t4_apiary"
-          },
-          "H": {
-            "type": "forge:nbt",
-            "item": "extendedcrafting:singularity",
-            "count": 1,
-            "nbt": "{Id:\"extendedcrafting:comb\"}"
-          }
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABBBBBBBA",
+        "BCCDDDCCB",
+        "BCEEEEECB",
+        "BDEFGFEDB",
+        "BDEGHGEDB",
+        "BDEFGFEDB",
+        "BCEEEEECB",
+        "BCCDDDCCB",
+        "ABBBBBBBA"
+      ],
+      "key": {
+        "A": {
+          "item": "kubejs:chroma_matter"
         },
-        "result": {
-          "item": "creativeapiary:tcreative_apiary"
-        }
-      }
-  ).id('creativeapiary:tcreative_apiary')
-
-    event.custom(
-      {
-        "type": "extendedcrafting:shaped_table",
-        "pattern": [
-          "ABBBBBBBA",
-          "BCCDDDCCB",
-          "BCEEEEECB",
-          "BDEFGFEDB",
-          "BDEGHGEDB",
-          "BDEFGFEDB",
-          "BCEEEEECB",
-          "BCCDDDCCB",
-          "ABBBBBBBA"
-        ],
-        "key": {
-          "A": {
-            "item": "kubejs:chroma_matter"
-          },
-          "B": {
-            "item": "minecraft:dragon_head"
-          },
-          "C": {
-            "item": "resourcefulbees:starry_lexxie_honeycomb_block"
-          },
-          "D": {
-            "item": "resourcefulbees:nitro_honeycomb_block"
-          },
-          "E": {
-            "item": "draconicevolution:dragon_heart"
-          },
-          "F": {
-            "item": "expandedstorage:netherite_chest"
-          },
-          "G": {
-            "item": "extendedcrafting:nether_star_block"
-          },
-          "H": {
-            "type": "forge:nbt",
-            "item": "extendedcrafting:singularity",
-            "count": 1,
-            "nbt": "{Id:\"extendedcrafting:comb\"}"
-          }
+        "B": {
+          "item": "minecraft:dragon_head"
         },
-        "result": {
-          "item": "creativeapiary:creative_apiary_storage"
+        "C": {
+          "item": "resourcefulbees:starry_lexxie_honeycomb_block"
+        },
+        "D": {
+          "item": "resourcefulbees:nitro_honeycomb_block"
+        },
+        "E": {
+          "item": "draconicevolution:dragon_heart"
+        },
+        "F": {
+          "item": "draconicevolution:small_chaos_frag"
+        },
+        "G": {
+          "item": "resourcefulbees:t4_apiary"
+        },
+        "H": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:comb\"}"
         }
+      },
+      "result": {
+        "item": "creativeapiary:tcreative_apiary"
       }
-  ).id('creativeapiary:creative_apiary_storage')
+    }).id('creativeapiary:tcreative_apiary')
 
-      event.custom(
-        {
-          "type": "extendedcrafting:shaped_table",
-          "pattern": [
-            "AABAA",
-            "ACDCA",
-            "BDEDB",
-            "ACDCA",
-            "AABAA"
-          ],
-          "key": {
-            "A": {
-              "item": "resourcefulbees:unobtainium_honeycomb_block"
-            },
-            "B": {
-              "item": "draconicevolution:awakened_core"
-            },
-            "C": {
-              "type": "forge:nbt",
-              "item": "extendedcrafting:singularity",
-              "count": 1,
-              "nbt": "{Id:\"extendedcrafting:comb\"}"
-            },
-            "D": {
-              "item": "draconicevolution:chaotic_core"
-            },
-            "E": {
-              "item": "ctiers:centrifuge_controller_tier_5"
-            }
-          },
-          "result": {
-            "item": "ctiers:centrifuge_controller_tier_creative"
-          }
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABBBBBBBA",
+        "BCCDDDCCB",
+        "BCEEEEECB",
+        "BDEFGFEDB",
+        "BDEGHGEDB",
+        "BDEFGFEDB",
+        "BCEEEEECB",
+        "BCCDDDCCB",
+        "ABBBBBBBA"
+      ],
+      "key": {
+        "A": {
+          "item": "kubejs:chroma_matter"
+        },
+        "B": {
+          "item": "minecraft:dragon_head"
+        },
+        "C": {
+          "item": "resourcefulbees:starry_lexxie_honeycomb_block"
+        },
+        "D": {
+          "item": "resourcefulbees:nitro_honeycomb_block"
+        },
+        "E": {
+          "item": "draconicevolution:dragon_heart"
+        },
+        "F": {
+          "item": "expandedstorage:netherite_chest"
+        },
+        "G": {
+          "item": "extendedcrafting:nether_star_block"
+        },
+        "H": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:comb\"}"
         }
-  ).id('ctiers:centrifuge_controller_tier_creative')
+      },
+      "result": {
+        "item": "creativeapiary:creative_apiary_storage"
+      }
+    }).id('creativeapiary:creative_apiary_storage')
 
-        event.custom(
-          {
-            "type": "extendedcrafting:shaped_table",
-            "pattern": [
-              "AABAA",
-              "ACDCA",
-              "BDEDB",
-              "ACFCA",
-              "AABAA"
-            ],
-            "key": {
-              "A": {
-                "item": "resourcefulbees:unobtainium_honeycomb_block"
-              },
-              "B": {
-                "item": "draconicevolution:awakened_core"
-              },
-              "C": {
-                "type": "forge:nbt",
-                "item": "extendedcrafting:singularity",
-                "count": 1,
-                "nbt": "{Id:\"extendedcrafting:comb\"}"
-              },
-              "D": {
-                "item": "ctiers:centrifuge_casing_tier_5"
-              },
-              "E": {
-                "item": "draconicevolution:chaotic_core"
-              },
-              "F": {
-                "item": "minecraft:dragon_egg"
-              }
-            },
-            "result": {
-              "item": "3x ctiers:centrifuge_casing_tier_creative"
-            }
-          }
-  ).id('ctiers:centrifuge_casing_tier_creative')
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "AABAA",
+        "ACDCA",
+        "BDEDB",
+        "ACDCA",
+        "AABAA"
+      ],
+      "key": {
+        "A": {
+          "item": "resourcefulbees:unobtainium_honeycomb_block"
+        },
+        "B": {
+          "item": "draconicevolution:awakened_core"
+        },
+        "C": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:comb\"}"
+        },
+        "D": {
+          "item": "draconicevolution:chaotic_core"
+        },
+        "E": {
+          "item": "ctiers:centrifuge_controller_tier_5"
+        }
+      },
+      "result": {
+        "item": "ctiers:centrifuge_controller_tier_creative"
+      }
+    }).id('ctiers:centrifuge_controller_tier_creative')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "AABAA",
+        "ACDCA",
+        "BDEDB",
+        "ACFCA",
+        "AABAA"
+      ],
+      "key": {
+        "A": {
+          "item": "resourcefulbees:unobtainium_honeycomb_block"
+        },
+        "B": {
+          "item": "draconicevolution:awakened_core"
+        },
+        "C": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:comb\"}"
+        },
+        "D": {
+          "item": "ctiers:centrifuge_casing_tier_5"
+        },
+        "E": {
+          "item": "draconicevolution:chaotic_core"
+        },
+        "F": {
+          "item": "minecraft:dragon_egg"
+        }
+      },
+      "result": {
+        "item": "3x ctiers:centrifuge_casing_tier_creative"
+      }
+    }).id('ctiers:centrifuge_casing_tier_creative')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "AABCDCBAA",
+        "AEFGHGFEA",
+        "BFIJKJIFB",
+        "CGJLMLJGC",
+        "DHKMNMKHD",
+        "CGJLMLJGC",
+        "BFIJKJIFB",
+        "AEFGHGFEA",
+        "AABCDCBAA"
+      ],
+      "key": {
+        "A": {
+          "item": "extrastorage:storagepart_16384k"
+        },
+        "B": {
+          "item": "mekanism:qio_drive_supermassive"
+        },
+        "C": {
+          "item": "occultism:storage_stabilizer_tier4"
+        },
+        "D": {
+          "item": "mekanism:ultimate_tier_installer"
+        },
+        "E": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:quartz_enriched_iron\"}"
+        },
+        "F": {
+          "item": "kubejs:chroma_matter"
+        },
+        "G": {
+          "item": "draconicevolution:awakened_core"
+        },
+        "H": {
+          "item": "kubejs:creative_catalyst"
+        },
+        "I": {
+          "item": "projectexpansion:fading_matter"
+        },
+        "J": {
+          "item": "mekanism:hdpe_sheet"
+        },
+        "K": {
+          "item": "allthemodium:unobtainium_vibranium_alloy_ingot"
+        },
+        "L": {
+          "item": "extrastorage:neural_processor"
+        },
+        "M": {
+          "item": "storagedrawers:creative_storage_upgrade"
+        },
+        "N": {
+          "item": "refinedstorage:storage_housing"
+        }
+      },
+      "result": {
+        "item": "refinedstorage:creative_storage_disk"
+      }
+    }
+  ).id('refinedstorage:creative_storage_disk')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "AABCDCBAA",
+        "AEFGHGFEA",
+        "BFIJKJIFB",
+        "CGJLMLJGC",
+        "DHKMNMKHD",
+        "CGJLMLJGC",
+        "BFIJKJIFB",
+        "AEFGHGFEA",
+        "AABCDCBAA"
+      ],
+      "key": {
+        "A": {
+          "item": "extrastorage:storagepart_1048576k_fluid"
+        },
+        "B": {
+          "item": "mekanism:qio_drive_supermassive"
+        },
+        "C": {
+          "item": "occultism:storage_stabilizer_tier4"
+        },
+        "D": {
+          "item": "mekanism:ultimate_tier_installer"
+        },
+        "E": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:quartz_enriched_iron\"}"
+        },
+        "F": {
+          "item": "kubejs:chroma_matter"
+        },
+        "G": {
+          "item": "draconicevolution:awakened_core"
+        },
+        "H": {
+          "item": "kubejs:creative_catalyst"
+        },
+        "I": {
+          "item": "projectexpansion:fading_matter"
+        },
+        "J": {
+          "item": "mekanism:hdpe_sheet"
+        },
+        "K": {
+          "item": "allthemodium:unobtainium_vibranium_alloy_ingot"
+        },
+        "L": {
+          "item": "extrastorage:neural_processor"
+        },
+        "M": {
+          "item": "storagedrawers:creative_storage_upgrade"
+        },
+        "N": {
+          "item": "refinedstorage:storage_housing"
+        }
+      },
+      "result": {
+        "item": "refinedstorage:creative_fluid_storage_disk"
+      }
+    }
+  ).id('refinedstorage:creative_fluid_storage_disk')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCBA",
+        "DEFED",
+        "CFGFC",
+        "DEFED",
+        "ABCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "refinedstorage:quartz_enriched_iron_block"
+        },
+        "B": {
+          "item": "extrastorage:neural_processor"
+        },
+        "C": {
+          "item": "refinedstorage:crafting_upgrade"
+        },
+        "D": {
+          "item": "refinedstorage:range_upgrade"
+        },
+        "E": {
+          "item": "envirocore:aethium_interconnect"
+        },
+        "F": {
+          "item": "mekanism:ultimate_induction_cell"
+        },
+        "G": {
+          "item": "universalgrid:wireless_universal_grid"
+        }
+      },
+      "result": {
+        "item": "universalgrid:creative_wireless_universal_grid"
+      }
+    }
+  ).id('universalgrid:creative_wireless_universal_grid')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCBDBCBA",
+        "BEFGHGFEB",
+        "CGIJBJIGC",
+        "BFKLMLKFB",
+        "DHNOPONHD",
+        "BFKLMLKFB",
+        "CGIJBJIGC",
+        "BEFGHGFEB",
+        "ABCBDBCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "thermal:diving_fabric"
+        },
+        "B": {
+          "item": "thermal:enderium_glass"
+        },
+        "C": {
+          "item": "thermal:flux_capacitor"
+        },
+        "D": {
+          "item": "thermal:hazmat_fabric"
+        },
+        "E": {
+          "item": "thermal:rf_coil"
+        },
+        "F": {
+          "item": "thermal:machine_efficiency_augment"
+        },
+        "G": {
+          "item": "thermal:rf_coil_xfer_augment"
+        },
+        "H": {
+          "item": "thermal:redstone_servo"
+        },
+        "I": {
+          "item": "thermal:fluid_cell_frame"
+        },
+        "J": {
+          "item": "thermal:energy_cell_frame"
+        },
+        "K": {
+          "item": "thermal:machine_frame"
+        },
+        "L": {
+          "item": "kubejs:chroma_matter"
+        },
+        "M": {
+          "item": "kubejs:creative_catalyst"
+        },
+        "N": {
+          "item": "thermal:upgrade_augment_3"
+        },
+        "O": {
+          "item": "thermal:rf_potato"
+        },
+        "P": {
+          "item": "extendedcrafting:ultimate_singularity"
+        }
+      },
+      "result": {
+        "item": "thermal:machine_efficiency_creative_augment"
+      }
+    }
+  ).id('thermal:machine_efficiency_creative_augment')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCDEDFGA",
+        "HIJKHKJLH",
+        "MJNOPONJQ",
+        "DKORRROKD",
+        "EHPRSRPHE",
+        "DKORRROKD",
+        "CJNOPONJQ",
+        "HIJKHKJLH",
+        "AHMDEDFHA"
+      ],
+      "key": {
+        "A": {
+          "item": "kubejs:chroma_matter"
+        },
+        "B": {
+          "type": "forge:nbt",
+          "item": "powah:energy_cell_nitro",
+          "count": 1,
+          "nbt": "{lollipoptile_stack_nbt:{energy_stored_main_energy:10000L}}"
+        },
+        "C": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:uraninite\"}"
+        },
+        "D": {
+          "item": "extendedcrafting:the_ultimate_catalyst"
+        },
+        "E": {
+          "item": "mekanism:supercharged_coil"
+        },
+        "F": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:nitro\"}"
+        },
+        "G": {
+          "type": "forge:nbt",
+          "item": "powah:energy_cell_nitro",
+          "count": 1,
+          "nbt": "{lollipoptile_stack_nbt:{energy_stored_main_energy:101000L}}"
+        },
+        "H": {
+          "item": "powah:energy_cell_nitro"
+        },
+        "I": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:spirited\"}"
+        },
+        "J": {
+          "item": "mekanism:pellet_antimatter"
+        },
+        "K": {
+          "item": "wormhole:advanced_energy_cell"
+        },
+        "L": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:blazing\"}"
+        },
+        "M": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:niotic\"}"
+        },
+        "N": {
+          "item": "mekanism:ultimate_induction_cell"
+        },
+        "O": {
+          "item": "envirocore:xerothium_interconnect"
+        },
+        "P": {
+          "item": "kubejs:creative_catalyst"
+        },
+        "Q": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:energized_steel\"}"
+        },
+        "R": {
+          "item": "projectexpansion:purple_matter"
+        },
+        "S": {
+          "item": "extendedcrafting:ultimate_singularity"
+        }
+      },
+      "result": {
+        "item": "powah:energy_cell_creative"
+      }
+    }
+  ).id('powah:energy_cell_creative')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "         ",
+        " A     A ",
+        "ABA   ABA",
+        "ACA   ACA",
+        "ADEFGFEDA",
+        "AHIJKJIHA",
+        "ALHIIIHLA",
+        " AAAAAAA ",
+        "         "
+      ],
+      "key": {
+        "A": {
+          "item": "botania:livingrock"
+        },
+        "B": {
+          "item": "kubejs:ultimate_rune"
+        },
+        "C": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:tiny_potato\"}"
+        },
+        "D": {
+          "item": "extendedcrafting:the_ultimate_ingot"
+        },
+        "E": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:manasteel\"}"
+        },
+        "F": {
+          "item": "botania:fabulous_pool"
+        },
+        "G": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "H": {
+          "item": "kubejs:gaia_spirit_block"
+        },
+        "I": {
+          "item": "projectexpansion:cyan_matter"
+        },
+        "J": {
+          "item": "kubejs:chroma_matter"
+        },
+        "K": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:terrasteel\"}"
+        },
+        "L": {
+          "item": "kubejs:creative_catalyst"
+        }
+      },
+      "result": {
+        "item": "kubejs:empty_creative_pool"
+      }
+    }
+  ).id('kubejs:empty_creative_pool')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCCDCCBA",
+        "BEFCCCFEB",
+        "CFGHHHGFC",
+        "CCHIJIHCC",
+        "DCHJKJHCD",
+        "CCHIJIHCC",
+        "CFGHHHGFC",
+        "BEFCCCFEB",
+        "ABCCDCCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "createaddition:overcharged_alloy"
+        },
+        "B": {
+          "item": "create:precision_mechanism"
+        },
+        "C": {
+          "item": "create:blaze_cake"
+        },
+        "D": {
+          "item": "create:electron_tube"
+        },
+        "E": {
+          "item": "mekanism:superheating_element"
+        },
+        "F": {
+          "item": "createaddition:capacitor"
+        },
+        "G": {
+          "item": "allthemodium:unobtainium_allthemodium_alloy_ingot"
+        },
+        "H": {
+          "item": "create:blaze_burner"
+        },
+        "I": {
+          "item": "tconstruct:blazing_blood_bucket"
+        },
+        "J": {
+          "item": "extendedcrafting:luminessence"
+        },
+        "K": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:bar_of_chocolate\"}"
+        }
+      },
+      "result": {
+        "item": "create:creative_blaze_cake"
+      }
+    }
+  ).id('create:creative_blaze_cake')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCCDCCBA",
+        "BEFGHGFEB",
+        "CFIJKJIFC",
+        "CGJLMLJGC",
+        "DHKMNMKHD",
+        "CGJLMLJGC",
+        "CFIJKJIFC",
+        "BEFGHGFEB",
+        "ABCCDCCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "mekanismgenerators:fusion_reactor_frame"
+        },
+        "B": {
+          "item": "projectexpansion:fading_matter"
+        },
+        "C": {
+          "item": "mekanism:structural_glass"
+        },
+        "D": {
+          "item": "industrialforegoing:supreme_black_hole_tank"
+        },
+        "E": {
+          "item": "kubejs:chroma_matter"
+        },
+        "F": {
+          "item": "extrastorage:disk_1048576k_fluid"
+        },
+        "G": {
+          "item": "mekanism:pellet_plutonium"
+        },
+        "H": {
+          "item": "mekanism:alloy_atomic"
+        },
+        "I": {
+          "item": "mekanism:ultimate_fluid_tank"
+        },
+        "J": {
+          "item": "extendedcrafting:the_ultimate_catalyst"
+        },
+        "K": {
+          "item": "kubejs:creative_catalyst"
+        },
+        "L": {
+          "item": "mekanism:pellet_antimatter"
+        },
+        "M": {
+          "item": "storagedrawers:creative_storage_upgrade"
+        },
+        "N": {
+          "item": "extendedcrafting:ultimate_singularity"
+        }
+      },
+      "result": {
+        "item": "mekanism:creative_fluid_tank"
+      }
+    }
+  ).id('mekanism:creative_fluid_tank')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCCDCCBA",
+        "BEFGHGFEB",
+        "CFIJKJIFC",
+        "CGJLMLJGC",
+        "DHKMNMKHD",
+        "CGJLMLJGC",
+        "CFIJKJIFC",
+        "BEFGHGFEB",
+        "ABCCDCCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "mekanismgenerators:fusion_reactor_frame"
+        },
+        "B": {
+          "item": "projectexpansion:fading_matter"
+        },
+        "C": {
+          "item": "mekanism:structural_glass"
+        },
+        "D": {
+          "item": "mekanism:ultimate_pressurized_tube"
+        },
+        "E": {
+          "item": "mekanism:pellet_polonium"
+        },
+        "F": {
+          "item": "mekanism:ultimate_chemical_tank"
+        },
+        "G": {
+          "item": "mekanism:pellet_plutonium"
+        },
+        "H": {
+          "item": "mekanism:alloy_atomic"
+        },
+        "I": {
+          "item": "kubejs:chroma_matter"
+        },
+        "J": {
+          "item": "extendedcrafting:the_ultimate_catalyst"
+        },
+        "K": {
+          "item": "kubejs:creative_catalyst"
+        },
+        "L": {
+          "item": "mekanism:pellet_antimatter"
+        },
+        "M": {
+          "item": "storagedrawers:creative_storage_upgrade"
+        },
+        "N": {
+          "item": "extendedcrafting:ultimate_singularity"
+        }
+      },
+      "result": {
+        "item": "mekanism:creative_chemical_tank"
+      }
+    }
+  ).id('mekanism:creative_chemical_tank')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCDCBA",
+        "BEFGFEB",
+        "CFHIHFC",
+        "JGKLKGJ",
+        "CFHIHFC",
+        "BEFGFEB",
+        "ABCDCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "allthemodium:unobtainium_allthemodium_alloy_block"
+        },
+        "B": {
+          "item": "mekanismgenerators:fusion_reactor_frame"
+        },
+        "C": {
+          "item": "mekanism:structural_glass"
+        },
+        "D": {
+          "item": "kubejs:creative_catalyst"
+        },
+        "E": {
+          "item": "extendedcrafting:enhanced_ender_catalyst"
+        },
+        "F": {
+          "item": "refinedstorage:machine_casing"
+        },
+        "G": {
+          "type": "forge:nbt",
+          "item": "mekanism:ultimate_energy_cube",
+          "count": 1,
+          "nbt": "{mekData:{EnergyContainers:[{Container:0b,stored:\"256000000\"}]}}"
+        },
+        "H": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:quartz_enriched_iron\"}"
+        },
+        "I": {
+          "item": "kubejs:chroma_matter"
+        },
+        "J": {
+          "item": "extrastorage:storagepart_16384k"
+        },
+        "K": {
+          "item": "extendedcrafting:the_ultimate_ingot"
+        },
+        "L": {
+          "item": "extendedcrafting:ultimate_singularity"
+        }
+      },
+      "result": {
+        "item": "refinedstorage:creative_controller"
+      }
+    }
+  ).id('refinedstorage:creative_controller')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCDEDCBF",
+        "BGHIJKLGB",
+        "CHMNONMLC",
+        "DPNQRQNSD",
+        "EJTRURTJE",
+        "DVNQRQNWD",
+        "CXMNONMYC",
+        "BGXZJ1YGB",
+        "2BCDEDCB3"
+      ],
+      "key": {
+        "A": {
+          "item": "refinedstorage:creative_storage_disk"
+        },
+        "B": {
+          "item": "extendedcrafting:the_ultimate_catalyst"
+        },
+        "C": {
+          "item": "kubejs:ultimate_honeycomb"
+        },
+        "D": {
+          "item": "allthemodium:unobtainium_vibranium_alloy_block"
+        },
+        "E": {
+          "item": "kubejs:ultimate_rune"
+        },
+        "F": {
+          "item": "refinedstorage:creative_storage_disk"
+        },
+        "G": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "H": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:chaos_shard\"}"
+        },
+        "I": {
+          "item": "mekanism:creative_chemical_tank"
+        },
+        "J": {
+          "item": "kubejs:chroma_matter"
+        },
+        "K": {
+          "item": "mekanism:creative_fluid_tank"
+        },
+        "L": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:experience\"}"
+        },
+        "M": {
+          "item": "mekanism:qio_drive_supermassive"
+        },
+        "N": {
+          "item": "extendedcrafting:crystaltine_block"
+        },
+        "O": {
+          "item": "kubejs:uranium_capacitor"
+        },
+        "P": {
+          "item": "create:creative_blaze_cake"
+        },
+        "Q": {
+          "item": "kubejs:creative_catalyst"
+        },
+        "R": {
+          "item": "extendedcrafting:the_ultimate_block"
+        },
+        "S": {
+          "item": "ars_nouveau:creative_mana_jar"
+        },
+        "T": {
+          "item": "kubejs:netherite_transistor"
+        },
+        "U": {
+          "item": "kubejs:thetaneck"
+        },
+        "V": {
+          "item": "tardis:artron_battery_creative"
+        },
+        "W": {
+          "item": "elementalcraft:tank_creative"
+        },
+        "X": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:red_matter\"}"
+        },
+        "Y": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:nitro\"}"
+        },
+        "Z": {
+          "item": "botania:creative_pool"
+        },
+        "1": {
+          "item": "thermal:machine_efficiency_creative_augment"
+        },
+        "2": {
+          "item": "refinedstorage:creative_storage_disk"
+        },
+        "3": {
+          "item": "refinedstorage:creative_storage_disk"
+        }
+      },
+      "result": {
+        "item": "storagedrawers:creative_vending_upgrade"
+      }
+    }
+  ).id('storagedrawers:creative_vending_upgrade')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCBA",
+        "BDEDB",
+        "CEFEC",
+        "BDEDB",
+        "ABCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "refinedstorage:64k_storage_part"
+        },
+        "B": {
+          "item": "storagedrawers:emerald_storage_upgrade"
+        },
+        "C": {
+          "item": "allthemodium:unobtainium_ingot"
+        },
+        "D": {
+          "item": "mekanism:ultimate_control_circuit"
+        },
+        "E": {
+          "item": "kubejs:uranium_capacitor"
+        },
+        "F": {
+          "item": "storagedrawers:upgrade_template"
+        }
+      },
+      "result": {
+        "item": "storagedrawers:creative_storage_upgrade",
+        "count": 4,
+      }
+    }
+  ).id('storagedrawers:creative_storage_upgrade')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "  AABAA  ",
+        " AACCCAA ",
+        "AADEFGDAA",
+        "ACGHIHECA",
+        "BCFJKJFCB",
+        "ACEHIHGCA",
+        "AADGFEDAA",
+        " AACCCAA ",
+        "  AABAA  "
+      ],
+      "key": {
+        "A": {
+          "item": "draconicevolution:chaotic_energy_module"
+        },
+        "B": {
+          "item": "draconicevolution:reactor_stabilizer"
+        },
+        "C": {
+          "item": "draconicevolution:chaotic_energy_core"
+        },
+        "D": {
+          "item": "extendedcrafting:the_ultimate_ingot"
+        },
+        "E": {
+          "item": "kubejs:chroma_matter"
+        },
+        "F": {
+          "item": "projectexpansion:fading_matter"
+        },
+        "G": {
+          "item": "kubejs:creative_catalyst"
+        },
+        "H": {
+          "item": "draconicevolution:chaotic_capacitor"
+        },
+        "I": {
+          "item": "draconicevolution:energy_core"
+        },
+        "J": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:chaos_shard\"}"
+        },
+        "K": {
+          "item": "draconicevolution:reactor_core"
+        }
+      },
+      "result": {
+        "item": "draconicevolution:creative_capacitor"
+      }
+    }
+  ).id('draconicevolution:creative_capacitor')
 });
