@@ -360,6 +360,19 @@ onEvent('recipes', (event) => {
           pressure: 2.0,
           results: [{item: 'mekanismgenerators:wind_generator', count: 1}],
           id: 'mekanismgenerators:generator/wind'
+        },
+        {
+          inputs:[
+            { item: 'compactmachines:machine_normal', count: 1},
+            { item: 'tardis:atrium_block', count: 8},
+            { item: 'prefab:item_moderate_house', count: 1},
+            { item: 'xnet:controller', count: 1},
+            { item: 'pneumaticcraft:compressed_iron_block', count: 4},
+            { item: 'tardis:artron_battery_high', count: 1}
+          ],
+          pressure: 8.0,
+          results: [{item: 'kubejs:phineck', count: 1}],
+          id: `${id_prefix}phineck`
         }
     ];
 
