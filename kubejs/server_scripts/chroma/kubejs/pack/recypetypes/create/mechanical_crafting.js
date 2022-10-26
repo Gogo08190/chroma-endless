@@ -325,7 +325,30 @@ onEvent('recipes', (event) => {
                 O: 'createaddition:capacitor'
             },
             id: 'createaddition:mechanical_crafting/electric_motor'
-        }
+        },
+        // Creative motor
+        {
+            output: 'create:creative_motor',
+            pattern: ['AAAAAAAAA', 'BCDDCCCB', 'BCDEFGCB', 'CCHIJKCB', 'CLMNOOOOO', 'CCHIJKCB', 'BCDEFGCB', 'BCDDCCCB', 'AAAAAAAAA'],
+            key: {
+                A: 'create:andesite_alloy',
+                B: 'bigreactors:magentite_ingot',
+                C: 'create:shadow_steel_casing',
+                D: 'projectexpansion:pink_matter',
+                E: 'mekanism:pellet_antimatter',
+                F: 'allthemodium:unobtainium_allthemodium_alloy_ingot',
+                G: 'kubejs:chroma_matter',
+                H: 'allthemodium:unobtainium_vibranium_alloy_ingot',
+                I: 'kubejs:creative_catalyst',
+                J: Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:bar_of_chocolate"}').weakNBT(),
+                K: 'createaddition:overcharged_alloy',
+                L: 'create:rotation_speed_controller',
+                M: 'extendedcrafting:ultimate_singularity',
+                N: 'createaddition:electric_motor',
+                O: 'create:shaft',
+            },
+            id: `${id_prefix}'create:creative_motor'
+        },
     ];
 
     recipes.forEach((recipe) => {
