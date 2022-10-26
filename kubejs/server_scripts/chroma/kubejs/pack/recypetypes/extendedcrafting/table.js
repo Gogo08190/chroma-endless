@@ -2905,7 +2905,7 @@ onEvent("recipes", (event) => {
         }
       },
       "result": {
-        "item": "elementalcraft:tank_creative"
+        "item": "ars_nouveau:creative_mana_jar"
       }
     }
   ).id(`${id_prefix}creative_source_jar`)
