@@ -184,6 +184,24 @@ onEvent('recipes', (event) => {
           powerRate: 10000,
           result: { item: 'miniutilities:angel_ring' },
           id: 'miniutilities:angel_ring_crafting'
+      },
+      {
+          inputs: [
+              { item: 'extendedcrafting:the_ultimate_ingot' },
+              { item: 'extendedcrafting:the_ultimate_ingot' },
+              { item: 'envirocore:xerothium_interconnect' },
+              { item: 'envirocore:xerothium_interconnect' },
+              { item: 'envirocore:xerothium_interconnect' },
+              { item: 'envirocore:xerothium_interconnect' },
+              { item: 'extrastorage:neural_processor' },
+              { item: 'extrastorage:neural_processor' }
+
+          ],
+          catalyst: { item: 'extendedcrafting:luminessence'},
+          powerCost: 500000,
+          powerRate: 10000,
+          result: { item: 'kubejs:thetaneck' },
+          id: `${id_prefix}thetaneck`
       }
     ];
 
