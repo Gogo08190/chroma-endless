@@ -55,7 +55,8 @@ onEvent("recipes", (event) => {
         }
       },
       "result": {
-        "item": "3x ctiers:centrifuge_casing_tier_3"
+        "item": "ctiers:centrifuge_casing_tier_3",
+        "count": 3
       }
     }
   ).id(`${id_prefix}centrifuge_casing_tier_3`)
