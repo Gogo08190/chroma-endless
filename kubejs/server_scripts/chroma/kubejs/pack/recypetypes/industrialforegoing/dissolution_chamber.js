@@ -1058,6 +1058,26 @@ onEvent('recipes', (event) => {
             outputFluidAmount: 0,
             id: 'mekanismgenerators:generator/bio'
           },
+
+        {
+            inputs: [
+                'enderioalloys:item_material_skull_guardian_diode',
+                'bigreactors:inanite_block',
+                'enderioalloys:item_material_skull_skeletal_contractor',
+                'rftoolscontrol:cpu_core_2000',
+                'rftoolscontrol:cpu_core_2000',
+                'enderioalloys:item_material_skull_zombie_controller',
+                'mekanism:pellet_polonium',
+                'enderioalloys:item_material_skull_ender_resonator'
+            ],
+            inputFluid: 'bigreactors:redfrigium',
+            inputFluidAmount: 2000,
+            processingTime: 300,
+            outputItem: { item: 'kubejs:omeganeck', count: 1 },
+            outputFluid: '',
+            outputFluidAmount: 0,
+            id: `${id_prefix}omeganeck`
+          }
     ];
 
     recipes.forEach((recipe) => {
