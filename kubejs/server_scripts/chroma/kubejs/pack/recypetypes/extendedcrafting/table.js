@@ -3569,4 +3569,477 @@ onEvent("recipes", (event) => {
       }
     }
   ).id('powah:energy_cell_creative')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "         ",
+        " A     A ",
+        "ABA   ABA",
+        "ACA   ACA",
+        "ADEFGFEDA",
+        "AHIJKJIHA",
+        "ALHIIIHLA",
+        " AAAAAAA ",
+        "         "
+      ],
+      "key": {
+        "A": {
+          "item": "botania:livingrock"
+        },
+        "B": {
+          "item": "kubejs:ultimate_rune"
+        },
+        "C": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:tiny_potato\"}"
+        },
+        "D": {
+          "item": "extendedcrafting:the_ultimate_ingot"
+        },
+        "E": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:manasteel\"}"
+        },
+        "F": {
+          "item": "botania:fabulous_pool"
+        },
+        "G": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "H": {
+          "item": "kubejs:gaia_spirit_block"
+        },
+        "I": {
+          "item": "projectexpansion:cyan_matter"
+        },
+        "J": {
+          "item": "kubejs:chroma_matter"
+        },
+        "K": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:terrasteel\"}"
+        },
+        "L": {
+          "item": "kubejs:creative_catalyst"
+        }
+      },
+      "result": {
+        "item": "kubejs:empty_creative_pool"
+      }
+    }
+  ).id('kubejs:empty_creative_pool')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCCDCCBA",
+        "BEFCCCFEB",
+        "CFGHHHGFC",
+        "CCHIJIHCC",
+        "DCHJKJHCD",
+        "CCHIJIHCC",
+        "CFGHHHGFC",
+        "BEFCCCFEB",
+        "ABCCDCCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "createaddition:overcharged_alloy"
+        },
+        "B": {
+          "item": "create:precision_mechanism"
+        },
+        "C": {
+          "item": "create:blaze_cake"
+        },
+        "D": {
+          "item": "create:electron_tube"
+        },
+        "E": {
+          "item": "mekanism:superheating_element"
+        },
+        "F": {
+          "item": "createaddition:capacitor"
+        },
+        "G": {
+          "item": "allthemodium:unobtainium_allthemodium_alloy_ingot"
+        },
+        "H": {
+          "item": "create:blaze_burner"
+        },
+        "I": {
+          "item": "tconstruct:blazing_blood_bucket"
+        },
+        "J": {
+          "item": "extendedcrafting:luminessence"
+        },
+        "K": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:bar_of_chocolate\"}"
+        }
+      },
+      "result": {
+        "item": "create:creative_blaze_cake"
+      }
+    }
+  ).id('create:creative_blaze_cake')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCCDCCBA",
+        "BEFGHGFEB",
+        "CFIJKJIFC",
+        "CGJLMLJGC",
+        "DHKMNMKHD",
+        "CGJLMLJGC",
+        "CFIJKJIFC",
+        "BEFGHGFEB",
+        "ABCCDCCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "mekanismgenerators:fusion_reactor_frame"
+        },
+        "B": {
+          "item": "projectexpansion:fading_matter"
+        },
+        "C": {
+          "item": "mekanism:structural_glass"
+        },
+        "D": {
+          "item": "industrialforegoing:supreme_black_hole_tank"
+        },
+        "E": {
+          "item": "kubejs:chroma_matter"
+        },
+        "F": {
+          "item": "extrastorage:disk_1048576k_fluid"
+        },
+        "G": {
+          "item": "mekanism:pellet_plutonium"
+        },
+        "H": {
+          "item": "mekanism:alloy_atomic"
+        },
+        "I": {
+          "item": "mekanism:ultimate_fluid_tank"
+        },
+        "J": {
+          "item": "extendedcrafting:the_ultimate_catalyst"
+        },
+        "K": {
+          "item": "kubejs:creative_catalyst"
+        },
+        "L": {
+          "item": "mekanism:pellet_antimatter"
+        },
+        "M": {
+          "item": "storagedrawers:creative_storage_upgrade"
+        },
+        "N": {
+          "item": "extendedcrafting:ultimate_singularity"
+        }
+      },
+      "result": {
+        "item": "mekanism:creative_fluid_tank"
+      }
+    }
+  ).id('mekanism:creative_fluid_tank')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCCDCCBA",
+        "BEFGHGFEB",
+        "CFIJKJIFC",
+        "CGJLMLJGC",
+        "DHKMNMKHD",
+        "CGJLMLJGC",
+        "CFIJKJIFC",
+        "BEFGHGFEB",
+        "ABCCDCCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "mekanismgenerators:fusion_reactor_frame"
+        },
+        "B": {
+          "item": "projectexpansion:fading_matter"
+        },
+        "C": {
+          "item": "mekanism:structural_glass"
+        },
+        "D": {
+          "item": "mekanism:ultimate_pressurized_tube"
+        },
+        "E": {
+          "item": "mekanism:pellet_polonium"
+        },
+        "F": {
+          "item": "mekanism:ultimate_chemical_tank"
+        },
+        "G": {
+          "item": "mekanism:pellet_plutonium"
+        },
+        "H": {
+          "item": "mekanism:alloy_atomic"
+        },
+        "I": {
+          "item": "kubejs:chroma_matter"
+        },
+        "J": {
+          "item": "extendedcrafting:the_ultimate_catalyst"
+        },
+        "K": {
+          "item": "kubejs:creative_catalyst"
+        },
+        "L": {
+          "item": "mekanism:pellet_antimatter"
+        },
+        "M": {
+          "item": "storagedrawers:creative_storage_upgrade"
+        },
+        "N": {
+          "item": "extendedcrafting:ultimate_singularity"
+        }
+      },
+      "result": {
+        "item": "mekanism:creative_chemical_tank"
+      }
+    }
+  ).id('mekanism:creative_chemical_tank')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCDCBA",
+        "BEFGFEB",
+        "CFHIHFC",
+        "JGKLKGJ",
+        "CFHIHFC",
+        "BEFGFEB",
+        "ABCDCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "allthemodium:unobtainium_allthemodium_alloy_block"
+        },
+        "B": {
+          "item": "mekanismgenerators:fusion_reactor_frame"
+        },
+        "C": {
+          "item": "mekanism:structural_glass"
+        },
+        "D": {
+          "item": "kubejs:creative_catalyst"
+        },
+        "E": {
+          "item": "extendedcrafting:enhanced_ender_catalyst"
+        },
+        "F": {
+          "item": "refinedstorage:machine_casing"
+        },
+        "G": {
+          "type": "forge:nbt",
+          "item": "mekanism:ultimate_energy_cube",
+          "count": 1,
+          "nbt": "{mekData:{EnergyContainers:[{Container:0b,stored:\"256000000\"}]}}"
+        },
+        "H": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:quartz_enriched_iron\"}"
+        },
+        "I": {
+          "item": "kubejs:chroma_matter"
+        },
+        "J": {
+          "item": "extrastorage:storagepart_16384k"
+        },
+        "K": {
+          "item": "extendedcrafting:the_ultimate_ingot"
+        },
+        "L": {
+          "item": "extendedcrafting:ultimate_singularity"
+        }
+      },
+      "result": {
+        "item": "refinedstorage:creative_controller"
+      }
+    }
+  ).id('refinedstorage:creative_controller')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCDEDCBF",
+        "BGHIJKLGB",
+        "CHMNONMLC",
+        "DPNQRQNSD",
+        "EJTRURTJE",
+        "DVNQRQNWD",
+        "CXMNONMYC",
+        "BGXZJ1YGB",
+        "2BCDEDCB3"
+      ],
+      "key": {
+        "A": {
+          "item": "refinedstorage:creative_storage_disk"
+        },
+        "B": {
+          "item": "extendedcrafting:the_ultimate_catalyst"
+        },
+        "C": {
+          "item": "kubejs:ultimate_honeycomb"
+        },
+        "D": {
+          "item": "allthemodium:unobtainium_vibranium_alloy_block"
+        },
+        "E": {
+          "item": "kubejs:ultimate_rune"
+        },
+        "F": {
+          "item": "refinedstorage:creative_storage_disk"
+        },
+        "G": {
+          "item": "extendedcrafting:ultimate_singularity"
+        },
+        "H": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:chaos_shard\"}"
+        },
+        "I": {
+          "item": "mekanism:creative_chemical_tank"
+        },
+        "J": {
+          "item": "kubejs:chroma_matter"
+        },
+        "K": {
+          "item": "mekanism:creative_fluid_tank"
+        },
+        "L": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:experience\"}"
+        },
+        "M": {
+          "item": "mekanism:qio_drive_supermassive"
+        },
+        "N": {
+          "item": "extendedcrafting:crystaltine_block"
+        },
+        "O": {
+          "item": "kubejs:uranium_capacitor"
+        },
+        "P": {
+          "item": "create:creative_blaze_cake"
+        },
+        "Q": {
+          "item": "kubejs:creative_catalyst"
+        },
+        "R": {
+          "item": "extendedcrafting:the_ultimate_block"
+        },
+        "S": {
+          "item": "ars_nouveau:creative_mana_jar"
+        },
+        "T": {
+          "item": "kubejs:netherite_transistor"
+        },
+        "U": {
+          "item": "kubejs:thetaneck"
+        },
+        "V": {
+          "item": "tardis:artron_battery_creative"
+        },
+        "W": {
+          "item": "elementalcraft:tank_creative"
+        },
+        "X": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:red_matter\"}"
+        },
+        "Y": {
+          "type": "forge:nbt",
+          "item": "extendedcrafting:singularity",
+          "count": 1,
+          "nbt": "{Id:\"extendedcrafting:nitro\"}"
+        },
+        "Z": {
+          "item": "botania:creative_pool"
+        },
+        "1": {
+          "item": "thermal:machine_efficiency_creative_augment"
+        },
+        "2": {
+          "item": "refinedstorage:creative_storage_disk"
+        },
+        "3": {
+          "item": "refinedstorage:creative_storage_disk"
+        }
+      },
+      "result": {
+        "item": "storagedrawers:creative_vending_upgrade"
+      }
+    }
+  ).id('storagedrawers:creative_vending_upgrade')
+
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "ABCBA",
+        "BDEDB",
+        "CEFEC",
+        "BDEDB",
+        "ABCBA"
+      ],
+      "key": {
+        "A": {
+          "item": "refinedstorage:64k_storage_part"
+        },
+        "B": {
+          "item": "storagedrawers:emerald_storage_upgrade"
+        },
+        "C": {
+          "item": "allthemodium:unobtainium_ingot"
+        },
+        "D": {
+          "item": "mekanism:ultimate_control_circuit"
+        },
+        "E": {
+          "item": "kubejs:uranium_capacitor"
+        },
+        "F": {
+          "item": "storagedrawers:upgrade_template"
+        }
+      },
+      "result": {
+        "item": "storagedrawers:creative_storage_upgrade",
+        "count": 4,
+      }
+    }
+  ).id('storagedrawers:creative_storage_upgrade')
 });
