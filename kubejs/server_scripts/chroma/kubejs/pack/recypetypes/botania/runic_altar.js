@@ -232,7 +232,7 @@ onEvent('recipes', (event) => {
 
       {
         inputs: [
-          'botania:terrasteel_chestplate',
+          'botania:manasteel_chestplate',
           'botania:terrasteel_ingot',
           'botania:terrasteel_ingot',
           'botania:terrasteel_ingot',
