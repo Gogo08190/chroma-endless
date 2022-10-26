@@ -562,7 +562,7 @@ onEvent('recipes', (event) => {
             { item: 'draconicevolution:reactor_stabilizer'},
             { item: 'draconicevolution:reactor_core'},
             { item: 'draconicevolution:reactor_core'},
-            Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:chaos_shard"}').weakNBT,
+            Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:chaos_shard"}').weakNBT(),
         ],
         tier: "CHAOTIC",
         catalyst: { item: 'powah:energy_cell_creative' },
