@@ -89,8 +89,24 @@ onEvent('recipes', (event) => {
           }).toJson(),
           mana: 2000000,
           id: `${id_prefix}gaia_bee_jar`
-      }
-
+      },
+      {
+          inputs: [
+              { item: 'botania:rune_wrath' },
+              { item: 'botania:rune_envy' },
+              { item: 'resourcefulbees:starry_lexxie_honeycomb' },
+              { item: 'miniutilities:experience_opinium_core' },
+              { item: 'miniutilities:experience_opinium_core' },
+              { item: 'thermal:rosin' },
+              { item: 'thermal:cured_rubber' },
+              { item: 'thermal:tar' },
+              { item: 'thermal:redstone_servo' },
+              { item: 'botania:gaia_ingot' }
+          ],
+          output: { item: 'kubejs:gammaneck' },
+          mana: 100000,
+          id: `${id_prefix}gammaneck`
+      },
     ];
 
     recipes.forEach((recipe) => {
