@@ -778,6 +778,11 @@
 				title: "&#435548Output Port&r"
 				item: "bigreactors:reprocessoroutputport"
 			}]
+			rewards: [{
+				id: "1E10F39BBA7067C2"
+				type: "item"
+				item: "kubejs:extreme_circuit_board"
+			}]
 		}
 		{
 			x: -3.5d
@@ -789,6 +794,11 @@
 				type: "item"
 				title: "&#435548Collector&r"
 				item: "bigreactors:reprocessorcollector"
+			}]
+			rewards: [{
+				id: "59CE84E30ACD5B9B"
+				type: "item"
+				item: "bigreactors:reprocessorcasing"
 			}]
 		}
 		{
@@ -804,6 +814,12 @@
 				type: "item"
 				title: "&#435548Power Port&r"
 				item: "bigreactors:reprocessorpowerport"
+			}]
+			rewards: [{
+				id: "332C69E3BFD8D2EB"
+				type: "item"
+				item: "extendedcrafting:redstone_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -821,6 +837,7 @@
 				id: "51D253A616DFC774"
 				type: "item"
 				item: "bigreactors:reprocessorcasing"
+				count: 2
 			}]
 		}
 		{
@@ -835,9 +852,10 @@
 				item: "bigreactors:reprocessorwasteinjector"
 			}]
 			rewards: [{
-				id: "6DB24180DD9BC8AF"
+				id: "6CDB8FCB6DF4CC83"
 				type: "item"
-				item: "bigreactors:reprocessorcasing"
+				item: "extendedcrafting:redstone_ingot"
+				count: 2
 			}]
 		}
 		{
@@ -981,6 +999,12 @@
 				title: "Fluid Injector"
 				item: "bigreactors:fluidizerfluidinjector"
 			}]
+			rewards: [{
+				id: "671439DD4C899733"
+				type: "item"
+				item: "bigreactors:fluidizercasing"
+				count: 2
+			}]
 		}
 		{
 			x: 0.5d
@@ -996,6 +1020,12 @@
 				title: "Power Port"
 				item: "bigreactors:fluidizerpowerport"
 			}]
+			rewards: [{
+				id: "743501F9EE0002BB"
+				type: "item"
+				item: "extendedcrafting:redstone_ingot"
+				count: 4
+			}]
 		}
 		{
 			x: 1.5d
@@ -1007,6 +1037,11 @@
 				type: "item"
 				title: "Output Port"
 				item: "bigreactors:fluidizeroutputport"
+			}]
+			rewards: [{
+				id: "0BF314ED55FCA521"
+				type: "item"
+				item: "kubejs:extreme_circuit_board"
 			}]
 		}
 		{
@@ -1507,6 +1542,11 @@
 				title: "&#929090Basic Rotor Bearing&r"
 				item: "bigreactors:basic_turbinerotorbearing"
 			}]
+			rewards: [{
+				id: "018902D264D1234D"
+				type: "item"
+				item: "bigreactors:basic_turbinecasing"
+			}]
 		}
 		{
 			title: "&#929090Basic Rotor&r"
@@ -1566,6 +1606,11 @@
 					item: "bigreactors:basic_turbinefluidport_forge_passive"
 				}
 			]
+			rewards: [{
+				id: "357A4B38175C0DC2"
+				type: "item"
+				item: "bigreactors:basic_turbinecasing"
+			}]
 		}
 		{
 			title: "&#929090Basic Energy Power Tap&r"
@@ -1588,6 +1633,11 @@
 					item: "bigreactors:basic_turbinepowertapfe_passive"
 				}
 			]
+			rewards: [{
+				id: "411270423D4055D8"
+				type: "item"
+				item: "bigreactors:basic_turbinecasing"
+			}]
 		}
 		{
 			x: -8.0d
@@ -1605,6 +1655,11 @@
 				title: "&#929090Basic Energy Charging Port&r"
 				item: "bigreactors:basic_turbinechargingportfe"
 			}]
+			rewards: [{
+				id: "72D6CDB166DBEBE0"
+				type: "item"
+				item: "bigreactors:basic_turbinecasing"
+			}]
 		}
 		{
 			x: -7.0d
@@ -1619,10 +1674,9 @@
 				item: "bigreactors:basic_turbineredstoneport"
 			}]
 			rewards: [{
-				id: "685394A4A1C58F89"
+				id: "2363A939BA4B7BBA"
 				type: "item"
-				item: "emendatusenigmatica:steel_ingot"
-				count: 2
+				item: "bigreactors:basic_turbinecasing"
 			}]
 		}
 		{
@@ -1645,6 +1699,7 @@
 				type: "item"
 				item: "bigreactors:basic_turbineglass"
 				count: 2
+				random_bonus: 3
 			}]
 		}
 	]

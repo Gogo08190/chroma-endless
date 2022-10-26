@@ -782,6 +782,12 @@
 				type: "item"
 				item: "resourcefulbees:ghast_honeycomb"
 			}]
+			rewards: [{
+				id: "2970970B1A979FC2"
+				type: "item"
+				item: "resourcefulbees:ghast_honeycomb"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 13.25d
@@ -2671,6 +2677,12 @@
 				id: "1766F73DAB79B3C4"
 				type: "item"
 				item: "resourcefulbees:ghast_honey_bottle"
+			}]
+			rewards: [{
+				id: "5930466F66642D35"
+				type: "item"
+				item: "resourcefulbees:ghast_honey_bottle"
+				random_bonus: 5
 			}]
 		}
 		{

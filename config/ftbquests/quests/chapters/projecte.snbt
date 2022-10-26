@@ -143,6 +143,11 @@
 				type: "item"
 				item: "projecte:condenser_mk2"
 			}]
+			rewards: [{
+				id: "2AAF7B458ACED048"
+				type: "item"
+				item: "mekanism:pellet_polonium"
+			}]
 		}
 		{
 			x: 9.0d

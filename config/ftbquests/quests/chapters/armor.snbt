@@ -2736,15 +2736,9 @@
 				}
 			}]
 			rewards: [{
-				id: "622DB9F6F2AC3DCA"
+				id: "507B607E3D41ABDC"
 				type: "item"
-				item: {
-					id: "ars_nouveau:archmage_hood"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "arsarsenal:source_steel_ingot"
 			}]
 		}
 		{
@@ -2763,15 +2757,9 @@
 				}
 			}]
 			rewards: [{
-				id: "70786E5C97C5FC24"
+				id: "2DCCDA47C502A84A"
 				type: "item"
-				item: {
-					id: "ars_nouveau:archmage_robes"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "arsarsenal:source_steel_ingot"
 			}]
 		}
 		{
@@ -2790,15 +2778,9 @@
 				}
 			}]
 			rewards: [{
-				id: "7F289A6665A4F832"
+				id: "10B681FFA11A3981"
 				type: "item"
-				item: {
-					id: "ars_nouveau:archmage_leggings"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "arsarsenal:source_steel_ingot"
 			}]
 		}
 		{
@@ -2817,15 +2799,9 @@
 				}
 			}]
 			rewards: [{
-				id: "696C3BA95F84E589"
+				id: "754C487B49769F13"
 				type: "item"
-				item: {
-					id: "ars_nouveau:archmage_boots"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "arsarsenal:source_steel_ingot"
 			}]
 		}
 		{
@@ -3268,15 +3244,9 @@
 				}
 			}]
 			rewards: [{
-				id: "4959380EBAE4B113"
+				id: "567C14066F1E7F1B"
 				type: "item"
-				item: {
-					id: "pneumaticcraft:compressed_iron_helmet"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "pneumaticcraft:ingot_iron_compressed"
 			}]
 		}
 		{
@@ -3295,15 +3265,9 @@
 				}
 			}]
 			rewards: [{
-				id: "43160BFB5E0A4BE3"
+				id: "62E8B6D939EBC092"
 				type: "item"
-				item: {
-					id: "pneumaticcraft:compressed_iron_chestplate"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "pneumaticcraft:ingot_iron_compressed"
 			}]
 		}
 		{
@@ -3322,15 +3286,9 @@
 				}
 			}]
 			rewards: [{
-				id: "19912596E2550ADB"
+				id: "18A6C497A4BE1C04"
 				type: "item"
-				item: {
-					id: "pneumaticcraft:compressed_iron_leggings"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "pneumaticcraft:ingot_iron_compressed"
 			}]
 		}
 		{
@@ -3349,15 +3307,9 @@
 				}
 			}]
 			rewards: [{
-				id: "6BC5FEC6952CEEC1"
+				id: "0AC70109B93FFB69"
 				type: "item"
-				item: {
-					id: "pneumaticcraft:compressed_iron_boots"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "pneumaticcraft:ingot_iron_compressed"
 			}]
 		}
 		{
@@ -3992,15 +3944,9 @@
 				}
 			}]
 			rewards: [{
-				id: "4188D0AA0DB26267"
+				id: "219ADC68F044FBB2"
 				type: "item"
-				item: {
-					id: "pneumaticcraft:pneumatic_helmet"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "mekanism:pellet_polonium"
 			}]
 		}
 		{
@@ -4019,15 +3965,9 @@
 				}
 			}]
 			rewards: [{
-				id: "19073ACB4771C255"
+				id: "52217367BE96579B"
 				type: "item"
-				item: {
-					id: "pneumaticcraft:pneumatic_chestplate"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "mekanism:pellet_polonium"
 			}]
 		}
 		{
@@ -4046,15 +3986,9 @@
 				}
 			}]
 			rewards: [{
-				id: "04BA7F5D67298D35"
+				id: "447B67AFE4361F4D"
 				type: "item"
-				item: {
-					id: "pneumaticcraft:pneumatic_leggings"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "mekanism:pellet_polonium"
 			}]
 		}
 		{
@@ -4073,15 +4007,9 @@
 				}
 			}]
 			rewards: [{
-				id: "3868ABBE6D064CA2"
+				id: "10C7C3B086A98D4D"
 				type: "item"
-				item: {
-					id: "pneumaticcraft:pneumatic_boots"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "mekanism:pellet_polonium"
 			}]
 		}
 		{
@@ -4158,9 +4086,9 @@
 				item: "projecte:rm_helmet"
 			}]
 			rewards: [{
-				id: "475AC594D9F90811"
+				id: "5AAE0CEF83C4582C"
 				type: "item"
-				item: "projecte:dm_helmet"
+				item: "projecte:red_matter"
 			}]
 		}
 		{
@@ -4173,9 +4101,9 @@
 				item: "projecte:rm_chestplate"
 			}]
 			rewards: [{
-				id: "17D538EFC097EAA6"
+				id: "29C01AECEA204B84"
 				type: "item"
-				item: "projecte:dm_chestplate"
+				item: "projecte:red_matter"
 			}]
 		}
 		{
@@ -4188,9 +4116,9 @@
 				item: "projecte:rm_leggings"
 			}]
 			rewards: [{
-				id: "48EA3FE47DE73C64"
+				id: "053B1B44C723225A"
 				type: "item"
-				item: "projecte:dm_leggings"
+				item: "projecte:red_matter"
 			}]
 		}
 		{
@@ -4203,9 +4131,9 @@
 				item: "projecte:rm_boots"
 			}]
 			rewards: [{
-				id: "28D294276F609605"
+				id: "5D68912DD66B3834"
 				type: "item"
-				item: "projecte:dm_boots"
+				item: "projecte:red_matter"
 			}]
 		}
 		{
@@ -4218,9 +4146,9 @@
 				item: "projecte:gem_helmet"
 			}]
 			rewards: [{
-				id: "1DE9F8BA02809FB5"
+				id: "6DC32611EA336923"
 				type: "item"
-				item: "projecte:rm_helmet"
+				item: "projecte:red_matter"
 			}]
 		}
 		{
@@ -4233,9 +4161,9 @@
 				item: "projecte:gem_chestplate"
 			}]
 			rewards: [{
-				id: "698D20F1D091D858"
+				id: "70BBA61D99600042"
 				type: "item"
-				item: "projecte:rm_chestplate"
+				item: "projecte:red_matter"
 			}]
 		}
 		{
@@ -4248,9 +4176,9 @@
 				item: "projecte:gem_leggings"
 			}]
 			rewards: [{
-				id: "39FC263D3DE80841"
+				id: "308B64C36DE34CEA"
 				type: "item"
-				item: "projecte:rm_leggings"
+				item: "projecte:red_matter"
 			}]
 		}
 		{
@@ -4263,9 +4191,9 @@
 				item: "projecte:gem_boots"
 			}]
 			rewards: [{
-				id: "77F7483F9099BDB8"
+				id: "747959CE4503D979"
 				type: "item"
-				item: "projecte:rm_boots"
+				item: "projecte:red_matter"
 			}]
 		}
 		{
@@ -4632,15 +4560,9 @@
 				}
 			}]
 			rewards: [{
-				id: "7DEE512F9140ABD2"
+				id: "34ECBA722979B285"
 				type: "item"
-				item: {
-					id: "betterendforge:terminite_helmet"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "betterendforge:crystal_shards"
 			}]
 		}
 		{
@@ -4659,15 +4581,10 @@
 				}
 			}]
 			rewards: [{
-				id: "70ECAFA2C78226BC"
+				id: "27DBF29138D568BD"
 				type: "item"
-				item: {
-					id: "betterendforge:terminite_chestplate"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "betterendforge:crystal_shards"
+				random_bonus: 3
 			}]
 		}
 		{
@@ -4686,15 +4603,9 @@
 				}
 			}]
 			rewards: [{
-				id: "3E0CEEEE71B070A4"
+				id: "6FCDA89E3EE23F1D"
 				type: "item"
-				item: {
-					id: "betterendforge:terminite_leggings"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "betterendforge:crystal_shards"
 			}]
 		}
 		{
@@ -4713,15 +4624,9 @@
 				}
 			}]
 			rewards: [{
-				id: "3F525AA79F907089"
+				id: "119D0807498AD497"
 				type: "item"
-				item: {
-					id: "betterendforge:terminite_boots"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "betterendforge:crystal_shards"
 			}]
 		}
 		{

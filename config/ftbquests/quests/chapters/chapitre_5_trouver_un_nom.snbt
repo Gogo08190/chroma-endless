@@ -1522,6 +1522,11 @@
 				type: "item"
 				item: "elementalcraft:crystallizer"
 			}]
+			rewards: [{
+				id: "6A9A61DA0D1E5FB6"
+				type: "random"
+				table_id: 7725233131230401301L
+			}]
 		}
 		{
 			x: 0.0d

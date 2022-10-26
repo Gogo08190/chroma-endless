@@ -700,6 +700,12 @@
 				type: "item"
 				item: "pneumaticcraft:thermopneumatic_processing_plant"
 			}]
+			rewards: [{
+				id: "24F8A8095837EC5B"
+				type: "item"
+				item: "minecraft:coal"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: -6.0d
@@ -905,6 +911,11 @@
 				id: "3B42B6D365F77F47"
 				type: "item"
 				item: "pneumaticcraft:heat_frame"
+			}]
+			rewards: [{
+				id: "41F5D7F583BA38C4"
+				type: "item"
+				item: "minecraft:lava_bucket"
 			}]
 		}
 		{
@@ -1792,6 +1803,12 @@
 					item: "pneumaticcraft:assembly_platform"
 				}
 			]
+			rewards: [{
+				id: "139F70303E9DB1B0"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: -9.25d

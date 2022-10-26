@@ -800,15 +800,9 @@
 				}
 			}]
 			rewards: [{
-				id: "15F4E56115B48365"
+				id: "196A9138AE61F868"
 				type: "item"
-				item: {
-					id: "extendedcrafting:singularity"
-					Count: 1b
-					tag: {
-						Id: "extendedcrafting:swift_alloy"
-					}
-				}
+				item: "elementalcraft:swift_alloy_ingot"
 				count: 16
 			}]
 		}

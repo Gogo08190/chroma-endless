@@ -17,8 +17,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -8.5d
-			y: -4.0d
+			x: -9.0d
+			y: -3.25d
 			shape: "hexagon"
 			id: "772B01DD47F7EE43"
 			tasks: [{
@@ -28,8 +28,8 @@
 			}]
 		}
 		{
-			x: -9.0d
-			y: -3.25d
+			x: -8.5d
+			y: -2.5d
 			shape: "hexagon"
 			id: "1AB1D72DFF5591DE"
 			tasks: [{
@@ -245,27 +245,21 @@
 				type: "item"
 				item: "creativeapiary:tcreative_apiary"
 			}]
+			rewards: [{
+				id: "2C3C8A890986A8EB"
+				type: "item"
+				item: "creativeapiary:creative_apiary_breeder"
+			}]
 		}
 		{
-			x: -7.5d
-			y: -4.0d
+			x: -8.0d
+			y: -4.25d
 			shape: "hexagon"
 			id: "5A1790931D404AF2"
 			tasks: [{
 				id: "7DB5AF7D7506A5E4"
 				type: "item"
 				item: "creativeapiary:creative_apiary_storage"
-			}]
-		}
-		{
-			x: -8.5d
-			y: -2.5d
-			shape: "hexagon"
-			id: "4C13D07EC0FA88E0"
-			tasks: [{
-				id: "4E03A34AB96C09C8"
-				type: "item"
-				item: "creativeapiary:creative_apiary_breeder"
 			}]
 		}
 		{
@@ -367,6 +361,18 @@
 				id: "15078A3CB3D4D355"
 				type: "item"
 				item: "botania:creative_pool"
+			}]
+			rewards: [{
+				id: "037F60548D90ED84"
+				type: "item"
+				item: {
+					id: "botania:mana_tablet"
+					Count: 1b
+					tag: {
+						mana: 500000
+						creative: 1b
+					}
+				}
 			}]
 		}
 		{

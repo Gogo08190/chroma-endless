@@ -1783,6 +1783,11 @@
 				type: "item"
 				item: "immersiveengineering:current_transformer"
 			}]
+			rewards: [{
+				id: "76C03E60C9523B2B"
+				type: "item"
+				item: "immersiveengineering:connector_hv"
+			}]
 		}
 		{
 			x: -3.75d
@@ -1793,6 +1798,11 @@
 				id: "3C089608B811FEF1"
 				type: "item"
 				item: "immersiveengineering:powerpack"
+			}]
+			rewards: [{
+				id: "4B03090CC13158FD"
+				type: "item"
+				item: "immersiveengineering:wirecoil_copper"
 			}]
 		}
 		{
@@ -2465,9 +2475,9 @@
 				item: "engineersdecor:small_tree_cutter"
 			}]
 			rewards: [{
-				id: "466064BF180F5410"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "55846DACB7F97B02"
+				type: "item"
+				item: "engineersdecor:small_tree_cutter"
 			}]
 		}
 		{
@@ -2482,9 +2492,9 @@
 				item: "engineersdecor:small_block_breaker"
 			}]
 			rewards: [{
-				id: "3FC88B17D33DA927"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "13466B3C600E8C4B"
+				type: "item"
+				item: "engineersdecor:small_block_breaker"
 			}]
 		}
 		{
@@ -2499,9 +2509,9 @@
 				item: "engineersdecor:factory_placer"
 			}]
 			rewards: [{
-				id: "1201A7A5E9E0A362"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "248FC10EF2D79F63"
+				type: "item"
+				item: "engineersdecor:factory_placer"
 			}]
 		}
 		{
@@ -2516,9 +2526,9 @@
 				item: "engineersdecor:factory_dropper"
 			}]
 			rewards: [{
-				id: "76B3ACDC0DFC255D"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "4322A1221E65381D"
+				type: "item"
+				item: "engineersdecor:factory_dropper"
 			}]
 		}
 		{
@@ -2533,9 +2543,9 @@
 				item: "engineersdecor:factory_hopper"
 			}]
 			rewards: [{
-				id: "6BE54F2DCC366AF9"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "01D1711A990CAC34"
+				type: "item"
+				item: "engineersdecor:factory_hopper"
 			}]
 		}
 		{
@@ -2550,9 +2560,9 @@
 				item: "engineersdecor:small_electrical_furnace"
 			}]
 			rewards: [{
-				id: "4FD10499D918C8AC"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "46D855040AF5D1C3"
+				type: "item"
+				item: "engineersdecor:small_electrical_furnace"
 			}]
 		}
 		{
@@ -2567,9 +2577,9 @@
 				item: "engineersdecor:small_lab_furnace"
 			}]
 			rewards: [{
-				id: "27E7C1E17F21D5CB"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "2F2F1FB349BF84AE"
+				type: "item"
+				item: "engineersdecor:small_lab_furnace"
 			}]
 		}
 		{
@@ -2584,9 +2594,9 @@
 				item: "engineersdecor:small_fluid_funnel"
 			}]
 			rewards: [{
-				id: "6CADB2E211D42E09"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "31DD13AB4CB47006"
+				type: "item"
+				item: "engineersdecor:small_fluid_funnel"
 			}]
 		}
 		{
@@ -2601,9 +2611,9 @@
 				item: "engineersdecor:straight_pipe_valve_redstone_analog"
 			}]
 			rewards: [{
-				id: "7DF079BC237AAAFB"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "1E8DE512082A2438"
+				type: "item"
+				item: "engineersdecor:straight_pipe_valve_redstone_analog"
 			}]
 		}
 		{
@@ -2618,9 +2628,9 @@
 				item: "engineersdecor:straight_pipe_valve_redstone"
 			}]
 			rewards: [{
-				id: "7EB3FAA51AA28E32"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "2FF94FCA5649E685"
+				type: "item"
+				item: "engineersdecor:straight_pipe_valve_redstone"
 			}]
 		}
 		{
@@ -2635,9 +2645,9 @@
 				item: "engineersdecor:straight_pipe_valve"
 			}]
 			rewards: [{
-				id: "6FD34A812769F0DE"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "7472BDAAD89909AB"
+				type: "item"
+				item: "engineersdecor:straight_pipe_valve"
 			}]
 		}
 		{
@@ -2652,9 +2662,9 @@
 				item: "engineersdecor:small_milking_machine"
 			}]
 			rewards: [{
-				id: "5AF760C2FD3A4FC1"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "211A8250EC6CB59A"
+				type: "item"
+				item: "engineersdecor:small_milking_machine"
 			}]
 		}
 		{
@@ -2669,9 +2679,9 @@
 				item: "engineersdecor:small_freezer"
 			}]
 			rewards: [{
-				id: "472B8F85C2F283FF"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "0A6D7379E1487162"
+				type: "item"
+				item: "engineersdecor:small_freezer"
 			}]
 		}
 		{
@@ -2686,9 +2696,9 @@
 				item: "engineersdecor:small_mineral_smelter"
 			}]
 			rewards: [{
-				id: "213AB66A799DCADB"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "2D41636F593E2FD3"
+				type: "item"
+				item: "engineersdecor:small_mineral_smelter"
 			}]
 		}
 		{
@@ -2703,9 +2713,9 @@
 				item: "engineersdecor:small_waste_incinerator"
 			}]
 			rewards: [{
-				id: "09C3EDA6EBB90FCE"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "72CF3A7AA6CD50EE"
+				type: "item"
+				item: "engineersdecor:small_waste_incinerator"
 			}]
 		}
 		{
@@ -2720,9 +2730,9 @@
 				item: "engineersdecor:small_solar_panel"
 			}]
 			rewards: [{
-				id: "32BF016B820E7FC9"
-				type: "random"
-				table_id: 6524702956512656804L
+				id: "337F9267C832C7E4"
+				type: "item"
+				item: "engineersdecor:small_solar_panel"
 			}]
 		}
 		{
@@ -2958,18 +2968,9 @@
 				item: "immersiveengineering:toolupgrade_drill_waterproof"
 			}]
 			rewards: [{
-				id: "3740389030432967"
+				id: "12DBDDD5B9E60972"
 				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 1s
-							id: "minecraft:aqua_affinity"
-						}]
-					}
-				}
+				item: "immersiveengineering:toolupgrade_drill_waterproof"
 			}]
 		}
 		{
@@ -3173,10 +3174,11 @@
 				}
 			}]
 			rewards: [{
-				id: "7CAD5F625EB2D93F"
+				id: "5E603B19F720773E"
 				type: "item"
-				item: "emendatusenigmatica:aluminum_ore"
-				count: 64
+				auto: "disabled"
+				item: "emendatusenigmatica:steel_ingot"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -3220,6 +3222,11 @@
 				id: "0E6F4CE9FDD9F76B"
 				type: "item"
 				item: "immersiveengineering:voltmeter"
+			}]
+			rewards: [{
+				id: "311B17D582971F46"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
 			}]
 		}
 		{
@@ -3297,6 +3304,11 @@
 				type: "item"
 				item: "immersiveengineering:sample_drill"
 			}]
+			rewards: [{
+				id: "56B665F754E76348"
+				type: "item"
+				item: "immersiveengineering:sample_drill"
+			}]
 		}
 		{
 			x: -13.5d
@@ -3323,6 +3335,11 @@
 			id: "6ECBEEBCF83349A5"
 			tasks: [{
 				id: "248005E963C4365F"
+				type: "item"
+				item: "immersiveengineering:fluid_placer"
+			}]
+			rewards: [{
+				id: "436232E7DB84256C"
 				type: "item"
 				item: "immersiveengineering:fluid_placer"
 			}]
@@ -3443,6 +3460,11 @@
 				type: "item"
 				item: "immersiveengineering:redstone_breaker"
 			}]
+			rewards: [{
+				id: "75A64BA5F40EC39F"
+				type: "item"
+				item: "immersiveengineering:connector_hv"
+			}]
 		}
 		{
 			x: 5.0d
@@ -3546,18 +3568,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "22221A4F577172EE"
-					type: "item"
-					item: "emendatusenigmatica:steel_ingot"
-				}
-				{
-					id: "765D4CBFE645210F"
-					type: "random"
-					table_id: 6524702956512656804L
-				}
-			]
+			rewards: [{
+				id: "22221A4F577172EE"
+				type: "item"
+				item: "emendatusenigmatica:steel_ingot"
+			}]
 		}
 		{
 			x: 18.5d
@@ -3572,18 +3587,11 @@
 				type: "item"
 				item: "immersivepetroleum:upgrade_tank"
 			}]
-			rewards: [
-				{
-					id: "337D12766EB5C410"
-					type: "item"
-					item: "emendatusenigmatica:steel_ingot"
-				}
-				{
-					id: "18E73553BCE64D52"
-					type: "random"
-					table_id: 6524702956512656804L
-				}
-			]
+			rewards: [{
+				id: "337D12766EB5C410"
+				type: "item"
+				item: "emendatusenigmatica:steel_ingot"
+			}]
 		}
 		{
 			x: 17.5d
@@ -3598,18 +3606,11 @@
 				type: "item"
 				item: "immersivepetroleum:upgrade_rudders"
 			}]
-			rewards: [
-				{
-					id: "7AB5036CF0728781"
-					type: "item"
-					item: "emendatusenigmatica:steel_ingot"
-				}
-				{
-					id: "42F56DA7814A9A2F"
-					type: "random"
-					table_id: 6524702956512656804L
-				}
-			]
+			rewards: [{
+				id: "7AB5036CF0728781"
+				type: "item"
+				item: "emendatusenigmatica:steel_ingot"
+			}]
 		}
 		{
 			x: 16.5d
@@ -3621,18 +3622,11 @@
 				type: "item"
 				item: "immersivepetroleum:upgrade_icebreaker"
 			}]
-			rewards: [
-				{
-					id: "1D90DCAF0452BD07"
-					type: "item"
-					item: "emendatusenigmatica:steel_ingot"
-				}
-				{
-					id: "06C9AAD77C5F39F2"
-					type: "random"
-					table_id: 6524702956512656804L
-				}
-			]
+			rewards: [{
+				id: "1D90DCAF0452BD07"
+				type: "item"
+				item: "emendatusenigmatica:steel_ingot"
+			}]
 		}
 		{
 			x: 15.5d
@@ -3644,18 +3638,11 @@
 				type: "item"
 				item: "immersivepetroleum:upgrade_reinforced_hull"
 			}]
-			rewards: [
-				{
-					id: "10A18DE9134E52A3"
-					type: "item"
-					item: "emendatusenigmatica:steel_ingot"
-				}
-				{
-					id: "1F2A259E347C29F1"
-					type: "random"
-					table_id: 6524702956512656804L
-				}
-			]
+			rewards: [{
+				id: "10A18DE9134E52A3"
+				type: "item"
+				item: "emendatusenigmatica:steel_ingot"
+			}]
 		}
 		{
 			x: 14.5d
@@ -3667,18 +3654,12 @@
 				type: "item"
 				item: "immersivepetroleum:upgrade_paddles"
 			}]
-			rewards: [
-				{
-					id: "2C395F76E79AFD58"
-					type: "item"
-					item: "emendatusenigmatica:steel_ingot"
-				}
-				{
-					id: "0742E64E2D357B9E"
-					type: "random"
-					table_id: 6524702956512656804L
-				}
-			]
+			rewards: [{
+				id: "073798A2BA6A01EB"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: 12.999999999999993d

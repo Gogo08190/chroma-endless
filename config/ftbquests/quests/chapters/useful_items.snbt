@@ -899,6 +899,12 @@
 				type: "item"
 				item: "create:schematicannon"
 			}]
+			rewards: [{
+				id: "4670291FE62FC25D"
+				type: "item"
+				item: "minecraft:gunpowder"
+				random_bonus: 15
+			}]
 		}
 		{
 			x: 10.5d
@@ -939,6 +945,11 @@
 					item: "create:empty_schematic"
 				}
 			]
+			rewards: [{
+				id: "2B6CC64711D0C39F"
+				type: "item"
+				item: "create:empty_schematic"
+			}]
 		}
 		{
 			x: 15.0d

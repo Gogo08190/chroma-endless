@@ -146,6 +146,11 @@
 					item: "resourcefulbees:acacia_bee_nest"
 				}
 			]
+			rewards: [{
+				id: "213C27AE8BFAAFC0"
+				type: "item"
+				item: "kubejs:cooked_larva"
+			}]
 		}
 		{
 			title: "End Bee Nest"
@@ -159,6 +164,11 @@
 				id: "069823B4EA4C24C3"
 				type: "item"
 				item: "resourcefulbees:purpur_bee_nest"
+			}]
+			rewards: [{
+				id: "70528E960BF2F32B"
+				type: "item"
+				item: "kubejs:cooked_larva"
 			}]
 		}
 		{
@@ -201,6 +211,11 @@
 					item: "resourcefulbees:crimson_bee_nest"
 				}
 			]
+			rewards: [{
+				id: "0DE3567510EB8D9B"
+				type: "item"
+				item: "kubejs:cooked_larva"
+			}]
 		}
 		{
 			x: -0.75d
@@ -369,6 +384,11 @@
 				id: "4E8157B829B78558"
 				type: "item"
 				item: "resourcefulbees:scraper"
+			}]
+			rewards: [{
+				id: "793FD6DE98CFEDA0"
+				type: "item"
+				item: "minecraft:iron_ingot"
 			}]
 		}
 		{
@@ -685,6 +705,12 @@
 				type: "item"
 				item: "resourcefulbees:t1_beehive"
 			}]
+			rewards: [{
+				id: "723C9307FC06C26A"
+				type: "item"
+				item: "minecraft:honeycomb_block"
+				count: 2
+			}]
 		}
 		{
 			x: -2.25d
@@ -696,6 +722,11 @@
 				id: "31A721BF58DA5B55"
 				type: "item"
 				item: "resourcefulbees:t2_beehive"
+			}]
+			rewards: [{
+				id: "67A99E189D3410D9"
+				type: "item"
+				item: "expandedstorage:diamond_chest"
 			}]
 		}
 		{
@@ -709,6 +740,11 @@
 				type: "item"
 				item: "resourcefulbees:t3_beehive"
 			}]
+			rewards: [{
+				id: "53F725181DD49399"
+				type: "item"
+				item: "botania:gaia_ingot"
+			}]
 		}
 		{
 			x: -0.25d
@@ -720,6 +756,11 @@
 				id: "53584967620A70BF"
 				type: "item"
 				item: "resourcefulbees:t4_beehive"
+			}]
+			rewards: [{
+				id: "5714BF428811A596"
+				type: "item"
+				item: "undergarden:utherium_block"
 			}]
 		}
 		{
@@ -733,6 +774,12 @@
 				type: "item"
 				item: "resourcefulbees:t1_apiary"
 			}]
+			rewards: [{
+				id: "1F7E26B86FC10427"
+				type: "item"
+				item: "extendedcrafting:nether_star_block"
+				count: 2
+			}]
 		}
 		{
 			x: 2.25d
@@ -744,6 +791,12 @@
 				id: "09D3AF3CD920D14F"
 				type: "item"
 				item: "resourcefulbees:t2_apiary"
+			}]
+			rewards: [{
+				id: "2496FF3A4892C566"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_stellar_alloy"
+				count: 2
 			}]
 		}
 		{
@@ -757,6 +810,12 @@
 				type: "item"
 				item: "resourcefulbees:t3_apiary"
 			}]
+			rewards: [{
+				id: "24303825F274A528"
+				type: "item"
+				item: "mekanism:alloy_atomic"
+				count: 2
+			}]
 		}
 		{
 			x: 4.25d
@@ -768,6 +827,11 @@
 				id: "60C071566428F9EC"
 				type: "item"
 				item: "resourcefulbees:t4_apiary"
+			}]
+			rewards: [{
+				id: "662029BD8E936F6B"
+				type: "item"
+				item: "draconicevolution:wyvern_core"
 			}]
 		}
 		{
@@ -4822,6 +4886,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "053D2DF91FE72D85"
+				type: "item"
+				item: "minecraft:honeycomb"
+				count: 4
+			}]
 		}
 		{
 			x: -2.5d
@@ -4833,6 +4903,11 @@
 				id: "20E4BA133D32D102"
 				type: "item"
 				item: "minecraft:bee_nest"
+			}]
+			rewards: [{
+				id: "3A0422BB51CCF4F5"
+				type: "item"
+				item: "kubejs:cooked_larva"
 			}]
 		}
 		{
@@ -4868,6 +4943,11 @@
 				type: "item"
 				item: "minecraft:beehive"
 			}]
+			rewards: [{
+				id: "5B652ADCBA796B9F"
+				type: "item"
+				item: "minecraft:beehive"
+			}]
 		}
 		{
 			x: -4.25d
@@ -4879,6 +4959,11 @@
 				id: "62AEB4A2E167FCEC"
 				type: "item"
 				item: "resourcefulbees:apiary_breeder"
+			}]
+			rewards: [{
+				id: "7C405CD3BFF5BF4D"
+				type: "item"
+				item: "expandedstorage:old_diamond_chest"
 			}]
 		}
 	]

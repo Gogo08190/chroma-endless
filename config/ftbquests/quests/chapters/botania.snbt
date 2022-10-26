@@ -395,6 +395,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "01EAFB71E3D84018"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+			}]
 		}
 		{
 			x: 1.75d
@@ -414,6 +419,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "0E862DBC52DF387D"
+				type: "item"
+				item: "botania:rune_mana"
+			}]
 		}
 		{
 			x: -0.75d
@@ -428,6 +438,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "6908DBB700E47934"
+				type: "item"
+				item: "botania:terrasteel_ingot"
 			}]
 		}
 		{
@@ -447,6 +462,12 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "15CF8B4B15D8955E"
+				type: "item"
+				item: "botania:manasteel_ingot"
+				count: 2
 			}]
 		}
 		{
@@ -853,6 +874,11 @@
 			id: "69E268DB0F8CB0A3"
 			tasks: [{
 				id: "06C25310B1E03227"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+			}]
+			rewards: [{
+				id: "3F1920DD519FB039"
 				type: "item"
 				item: "botania:terrasteel_ingot"
 			}]

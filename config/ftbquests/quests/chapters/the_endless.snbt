@@ -9,8 +9,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -6.75d
-			y: -2.5d
+			x: -5.75d
+			y: -3.5d
 			id: "0F1F6485CF2F3F52"
 			tasks: [{
 				id: "1DD421CA0BBEB595"
@@ -19,8 +19,8 @@
 			}]
 		}
 		{
-			x: -5.75d
-			y: -2.5d
+			x: -4.75d
+			y: -3.5d
 			id: "0585EA45750D7494"
 			tasks: [{
 				id: "3B695660DE821D9E"
@@ -29,8 +29,8 @@
 			}]
 		}
 		{
-			x: -4.75d
-			y: -2.5d
+			x: -6.75d
+			y: -3.5d
 			id: "1D411508B5450BA0"
 			tasks: [{
 				id: "098249DF0EC49B19"
@@ -40,7 +40,7 @@
 		}
 		{
 			x: -3.75d
-			y: -2.5d
+			y: -3.5d
 			id: "6CDC0107D9A90179"
 			tasks: [{
 				id: "4694355AA466053C"
@@ -49,8 +49,8 @@
 			}]
 		}
 		{
-			x: -2.75d
-			y: -2.5d
+			x: -1.75d
+			y: -3.5d
 			id: "38C766504B6EFBA9"
 			tasks: [{
 				id: "2DE3322164EDFB68"
@@ -59,8 +59,8 @@
 			}]
 		}
 		{
-			x: -1.75d
-			y: -2.5d
+			x: -2.75d
+			y: -3.5d
 			id: "4917FF82BD956F30"
 			tasks: [{
 				id: "313355149F5B1FE2"
@@ -69,8 +69,8 @@
 			}]
 		}
 		{
-			x: -0.75d
-			y: -2.5d
+			x: 0.25d
+			y: -3.5d
 			id: "0331397969096E06"
 			tasks: [{
 				id: "2BE488E534F9B7FC"
@@ -79,8 +79,8 @@
 			}]
 		}
 		{
-			x: 0.25d
-			y: -2.5d
+			x: -0.75d
+			y: -3.5d
 			id: "7641525237CE18D4"
 			tasks: [{
 				id: "354AA87DE8BE558A"
@@ -90,7 +90,7 @@
 		}
 		{
 			x: -3.25d
-			y: 0.0d
+			y: -1.25d
 			shape: "hexagon"
 			id: "58758E8C0CB4D2C1"
 			tasks: [{

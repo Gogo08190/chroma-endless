@@ -171,6 +171,11 @@
 				type: "item"
 				item: "industrialforegoing:mob_crusher"
 			}]
+			rewards: [{
+				id: "6B61CB1BB17BC088"
+				type: "item"
+				item: "industrialforegoing:plastic"
+			}]
 		}
 		{
 			x: 35.5d
@@ -183,6 +188,12 @@
 				type: "item"
 				item: "industrialforegoing:mob_duplicator"
 			}]
+			rewards: [{
+				id: "3FDF578F0A835BB1"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 34.75d
@@ -194,6 +205,12 @@
 				id: "50AF3B5FCF311296"
 				type: "item"
 				item: "industrialforegoing:wither_builder"
+			}]
+			rewards: [{
+				id: "27054288B49F5106"
+				type: "item"
+				item: "minecraft:soul_sand"
+				count: 4
 			}]
 		}
 		{
@@ -363,6 +380,11 @@
 				type: "item"
 				item: "industrialforegoing:mycelial_reactor"
 			}]
+			rewards: [{
+				id: "255BA91C7CA91545"
+				type: "item"
+				item: "industrialforegoing:plastic"
+			}]
 		}
 		{
 			x: 31.25d
@@ -410,6 +432,12 @@
 				type: "item"
 				item: "industrialforegoing:mycelial_slimey"
 			}]
+			rewards: [{
+				id: "67E29B4EDAF7FA26"
+				type: "item"
+				item: "minecraft:slime_ball"
+				count: 16
+			}]
 		}
 		{
 			x: 41.0d
@@ -439,6 +467,17 @@
 				type: "item"
 				item: "industrialforegoing:mycelial_potion"
 			}]
+			rewards: [{
+				id: "629120800ED9823B"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:night_vision"
+					}
+				}
+			}]
 		}
 		{
 			x: 42.75d
@@ -449,6 +488,20 @@
 				id: "74163262D0BE97F9"
 				type: "item"
 				item: "industrialforegoing:mycelial_disenchantment"
+			}]
+			rewards: [{
+				id: "3CE938A8B15D1BEF"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:protection"
+						}]
+					}
+				}
 			}]
 		}
 		{
@@ -461,6 +514,12 @@
 				type: "item"
 				item: "industrialforegoing:mycelial_ender"
 			}]
+			rewards: [{
+				id: "3FC6C81626167788"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 16
+			}]
 		}
 		{
 			x: 42.5d
@@ -471,6 +530,12 @@
 				id: "0908D1760414E68D"
 				type: "item"
 				item: "industrialforegoing:mycelial_explosive"
+			}]
+			rewards: [{
+				id: "499048AC8F4A4E95"
+				type: "item"
+				item: "minecraft:tnt"
+				count: 16
 			}]
 		}
 		{
@@ -501,6 +566,11 @@
 				type: "item"
 				item: "industrialforegoing:mycelial_halitosis"
 			}]
+			rewards: [{
+				id: "20FC1F85EC55BE90"
+				type: "item"
+				item: "minecraft:dragon_breath"
+			}]
 		}
 		{
 			x: 42.0d
@@ -511,6 +581,12 @@
 				id: "3EB007F3E09F69FF"
 				type: "item"
 				item: "industrialforegoing:mycelial_magma"
+			}]
+			rewards: [{
+				id: "5CA09B3F62D378F0"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 16
 			}]
 		}
 		{
@@ -541,6 +617,11 @@
 				type: "item"
 				item: "industrialforegoing:mycelial_netherstar"
 			}]
+			rewards: [{
+				id: "7B0E4D01B8D1C49C"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
 		}
 		{
 			x: 41.25d
@@ -551,6 +632,12 @@
 				id: "17332692742766E7"
 				type: "item"
 				item: "industrialforegoing:mycelial_death"
+			}]
+			rewards: [{
+				id: "1B5F36458BAC95DB"
+				type: "item"
+				item: "minecraft:bone"
+				count: 16
 			}]
 		}
 		{
@@ -574,6 +661,11 @@
 				type: "item"
 				item: "industrialforegoing:mycelial_meatallurgic"
 			}]
+			rewards: [{
+				id: "4CF6E9B4179877A4"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 42.0d
@@ -584,6 +676,12 @@
 				id: "34C8FADBB6FCACE5"
 				type: "item"
 				item: "industrialforegoing:mycelial_crimed"
+			}]
+			rewards: [{
+				id: "650EC46E3EBE49EA"
+				type: "item"
+				item: "minecraft:nether_wart_block"
+				count: 16
 			}]
 		}
 		{
@@ -713,6 +811,11 @@
 				type: "item"
 				item: "industrialforegoing:laser_drill"
 			}]
+			rewards: [{
+				id: "5F65EA8363DACC19"
+				type: "item"
+				item: "industrialforegoing:plastic"
+			}]
 		}
 		{
 			x: 36.75d
@@ -782,6 +885,11 @@
 				type: "item"
 				item: "industrialforegoing:washing_factory"
 			}]
+			rewards: [{
+				id: "1E655E54057407B2"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 36.25d
@@ -800,6 +908,12 @@
 				type: "item"
 				item: "industrialforegoing:material_stonework_factory"
 			}]
+			rewards: [{
+				id: "3672AE7150478AB3"
+				type: "item"
+				item: "betterendforge:violecite"
+				count: 4
+			}]
 		}
 		{
 			x: 35.0d
@@ -815,6 +929,12 @@
 				id: "43136B83A48CF299"
 				type: "item"
 				item: "industrialforegoing:fluid_sieving_machine"
+			}]
+			rewards: [{
+				id: "3C18730D3127EC26"
+				type: "item"
+				item: "minecraft:sand"
+				count: 16
 			}]
 		}
 		{
@@ -943,6 +1063,11 @@
 				type: "item"
 				item: "industrialforegoing:ore_laser_base"
 			}]
+			rewards: [{
+				id: "27BC1C6E714B06A9"
+				type: "item"
+				item: "industrialforegoing:plastic"
+			}]
 		}
 		{
 			x: 43.25d
@@ -1001,6 +1126,17 @@
 				id: "62EAAC156A3E33B3"
 				type: "item"
 				item: "industrialforegoing:potion_brewer"
+			}]
+			rewards: [{
+				id: "3133B7D22898A7F9"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:mundane"
+					}
+				}
 			}]
 		}
 		{
@@ -1085,6 +1221,11 @@
 				type: "item"
 				item: "industrialforegoing:fluid_laser_base"
 			}]
+			rewards: [{
+				id: "282701EDF44B5B99"
+				type: "item"
+				item: "industrialforegoing:plastic"
+			}]
 		}
 		{
 			x: 33.75d
@@ -1096,6 +1237,11 @@
 				id: "7E9A2C4B50378623"
 				type: "item"
 				item: "industrialforegoing:enchantment_factory"
+			}]
+			rewards: [{
+				id: "0743AA35EA1C1827"
+				type: "item"
+				item: "industrialforegoing:plastic"
 			}]
 		}
 		{
@@ -1109,6 +1255,12 @@
 				type: "item"
 				item: "industrialforegoing:infinity_charger"
 			}]
+			rewards: [{
+				id: "74690444DFFA2267"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: 38.25d
@@ -1120,6 +1272,12 @@
 				id: "168B3373E386CE71"
 				type: "item"
 				item: "industrialforegoing:enchantment_sorter"
+			}]
+			rewards: [{
+				id: "19365ABA7CFFEE11"
+				type: "item"
+				item: "minecraft:book"
+				count: 4
 			}]
 		}
 		{
@@ -1133,6 +1291,11 @@
 				type: "item"
 				item: "industrialforegoing:enchantment_applicator"
 			}]
+			rewards: [{
+				id: "560F99101841352D"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 39.25d
@@ -1145,6 +1308,12 @@
 				type: "item"
 				item: "industrialforegoing:enchantment_extractor"
 			}]
+			rewards: [{
+				id: "59013E501561B3BC"
+				type: "item"
+				item: "minecraft:book"
+				count: 8
+			}]
 		}
 		{
 			x: 38.25d
@@ -1156,6 +1325,11 @@
 				id: "2296B794D975D0D0"
 				type: "item"
 				item: "industrialforegoing:stasis_chamber"
+			}]
+			rewards: [{
+				id: "5912175CDA27A07F"
+				type: "item"
+				item: "thermal:rf_coil"
 			}]
 		}
 		{
@@ -1571,6 +1745,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1149B7D993ADBCA0"
+				type: "item"
+				item: "industrialforegoing:laser_lens0"
+			}]
 		}
 		{
 			x: 33.25d
@@ -1642,6 +1821,11 @@
 				type: "item"
 				item: "industrialforegoing:essence_bucket"
 			}]
+			rewards: [{
+				id: "5F0D6483ED9253BE"
+				type: "item"
+				item: "industrialforegoing:essence_bucket"
+			}]
 		}
 		{
 			x: 34.75d
@@ -1688,6 +1872,11 @@
 			id: "1D122C9B48BC56F9"
 			tasks: [{
 				id: "256B55F2AD25CDF5"
+				type: "item"
+				item: "industrialforegoing:ether_gas_bucket"
+			}]
+			rewards: [{
+				id: "3BD6B80B528C3CAE"
 				type: "item"
 				item: "industrialforegoing:ether_gas_bucket"
 			}]
@@ -2470,6 +2659,12 @@
 				type: "item"
 				item: "industrialforegoing:advanced_black_hole_unit"
 			}]
+			rewards: [{
+				id: "1E32036A02F46641"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 42.25d
@@ -2481,6 +2676,12 @@
 				id: "362A55EA819F2761"
 				type: "item"
 				item: "industrialforegoing:advanced_black_hole_tank"
+			}]
+			rewards: [{
+				id: "7D5AB60A4876883B"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				random_bonus: 7
 			}]
 		}
 		{
@@ -2494,6 +2695,12 @@
 				type: "item"
 				item: "industrialforegoing:supreme_black_hole_unit"
 			}]
+			rewards: [{
+				id: "65205E0D52843204"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 40.25d
@@ -2506,6 +2713,12 @@
 				type: "item"
 				item: "industrialforegoing:supreme_black_hole_tank"
 			}]
+			rewards: [{
+				id: "65F2B34C60CDDFDD"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 35.25d
@@ -2514,6 +2727,11 @@
 			id: "448F25B9DDE7F8E4"
 			tasks: [{
 				id: "182BD5D23FD2F23A"
+				type: "item"
+				item: "kubejs:silicon_oil_bucket"
+			}]
+			rewards: [{
+				id: "76D0C403097BEB93"
 				type: "item"
 				item: "kubejs:silicon_oil_bucket"
 			}]
@@ -2539,6 +2757,12 @@
 				type: "item"
 				item: "industrialforegoing:pity_black_hole_unit"
 			}]
+			rewards: [{
+				id: "5E31AD5B780E2A3A"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 30.25d
@@ -2550,6 +2774,12 @@
 				type: "item"
 				item: "industrialforegoing:common_black_hole_unit"
 			}]
+			rewards: [{
+				id: "63BFCD1617DDB8AB"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				random_bonus: 7
+			}]
 		}
 		{
 			x: 43.0d
@@ -2560,6 +2790,12 @@
 				id: "16237EB31B59B421"
 				type: "item"
 				item: "industrialforegoing:black_hole_controller"
+			}]
+			rewards: [{
+				id: "29994FD5ACAFBF9E"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				random_bonus: 7
 			}]
 		}
 	]

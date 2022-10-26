@@ -91,6 +91,11 @@
 					item: "ars_nouveau:glyph_linger"
 				}
 			]
+			rewards: [{
+				id: "1090618B0A744865"
+				type: "random"
+				table_id: 7001957974459087103L
+			}]
 		}
 		{
 			x: -6.25d
@@ -261,6 +266,11 @@
 					item: "ars_nouveau:glyph_grow"
 				}
 			]
+			rewards: [{
+				id: "12A61DE6EDF89338"
+				type: "random"
+				table_id: 7001957974459087103L
+			}]
 		}
 		{
 			x: -5.25d
@@ -374,6 +384,11 @@
 					item: "ars_nouveau:glyph_projectile"
 				}
 			]
+			rewards: [{
+				id: "7DFFE4C4B70AF5A5"
+				type: "random"
+				table_id: 7001957974459087103L
+			}]
 		}
 		{
 			title: "School Of Elements"
@@ -445,6 +460,11 @@
 					item: "ars_nouveau:glyph_harm"
 				}
 			]
+			rewards: [{
+				id: "67C5B96A40370A82"
+				type: "random"
+				table_id: 7001957974459087103L
+			}]
 		}
 		{
 			x: -3.25d
@@ -574,6 +594,11 @@
 					item: "ars_nouveau:glyph_enderstorage_tank"
 				}
 			]
+			rewards: [{
+				id: "6AE668CB5DD84C92"
+				type: "random"
+				table_id: 7001957974459087103L
+			}]
 		}
 		{
 			title: "School Of Manipulation"
@@ -635,6 +660,11 @@
 					item: "ars_nouveau:glyph_redstone_signal"
 				}
 			]
+			rewards: [{
+				id: "606F2D0CAD624F07"
+				type: "random"
+				table_id: 7001957974459087103L
+			}]
 		}
 		{
 			x: -0.5d

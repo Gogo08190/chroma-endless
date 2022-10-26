@@ -222,6 +222,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7A359C02C8A50FAB"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: -42.5d
@@ -869,6 +874,11 @@
 				id: "6E300877544AA6AB"
 				type: "item"
 				item: "tardis:item_access_panel"
+			}]
+			rewards: [{
+				id: "7875FFFD5E619DE5"
+				type: "item"
+				item: "tardis:circuits"
 			}]
 		}
 		{

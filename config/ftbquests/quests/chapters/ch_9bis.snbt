@@ -514,9 +514,9 @@
 				item: "rftoolsutility:crafter1"
 			}]
 			rewards: [{
-				id: "78F9AB2B1B4234A9"
+				id: "17CCC74D2B38CBA6"
 				type: "item"
-				item: "immersiveengineering:craftingtable"
+				item: "rftoolsbase:machine_frame"
 			}]
 		}
 		{
@@ -531,10 +531,9 @@
 				item: "rftoolsutility:crafter2"
 			}]
 			rewards: [{
-				id: "7D2E7C154E10854C"
+				id: "3247792B91ECC567"
 				type: "item"
-				item: "create:mechanical_crafter"
-				count: 6
+				item: "rftoolsbase:machine_frame"
 			}]
 		}
 		{
@@ -566,6 +565,12 @@
 				type: "item"
 				item: "rftoolsutility:matter_beamer"
 			}]
+			rewards: [{
+				id: "7E311FE4B89AC718"
+				type: "item"
+				item: "minecraft:rotten_flesh"
+				count: 64
+			}]
 		}
 		{
 			x: 0.75d
@@ -587,6 +592,12 @@
 				type: "item"
 				item: "rftoolsutility:spawner"
 			}]
+			rewards: [{
+				id: "491C4C5D41DFAF25"
+				type: "item"
+				item: "emendatusenigmatica:dimensional_gem"
+				count: 8
+			}]
 		}
 		{
 			x: 0.0d
@@ -598,6 +609,19 @@
 				id: "6019F22491A77E91"
 				type: "item"
 				item: "rftoolsutility:syringe"
+			}]
+			rewards: [{
+				id: "26197DEF3B65DD7E"
+				type: "item"
+				item: {
+					id: "rftoolsutility:syringe"
+					Count: 1b
+					tag: {
+						mobName: "minecraft:zombie"
+						mobId: "minecraft:zombie"
+						level: 10
+					}
+				}
 			}]
 		}
 		{
