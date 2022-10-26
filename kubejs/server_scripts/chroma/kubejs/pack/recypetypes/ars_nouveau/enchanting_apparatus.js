@@ -169,6 +169,23 @@ onEvent('recipes', (event) => {
           sourceCost: 10000,
           output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:experience_bee' }).toJson(),
           id: `${id_prefix}experience_bee`
+      },
+      {
+          inputs: [
+            'elementalcraft:pristine_air_gem',
+            'pedestals:coin/default',
+            'elementalcraft:pristine_earth_gem',
+            'undergarden:forgotten_ingot',
+            'undergarden:regalium_ingot',
+            'elementalcraft:pristine_fire_gem',
+            'ars_elemental:necrotic_focus',
+            'elementalcraft:pristine_water_gem'
+
+          ],
+          reagent: 'ars_nouveau:ring_of_greater_discount',
+          sourceCost: 10000,
+          output: 'kubejs:ksineck',
+          id: `${id_prefix}ksineck`
       }
     ];
 
