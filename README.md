@@ -1,14 +1,23 @@
 <p align="center">
   <a target="_blank" href="https://www.curseforge.com/minecraft/modpacks/chroma-endless">
-    <img border="0" alt="CurseForge" src="https://i.imgur.com/8cH94L7.jpg">
+    <img border="0" alt="CurseForge" src="https://imgur.com/TNq53XD.jpg">
   </a>
 </p>
 
 <p align="center">
 Hello and Welcome to our new modpack <strong>Chroma Endless</strong> developed by our team.<br><br>
-This is an <strong>Expert Modpack</strong> ! <br>
-Bla bla bla bla bla
-</p>
+After developing Chroma Technology and Sky we decided to focus on a modpack where the mods will have to be "unlocked" through your progression in the modpack. But beware because your adventure can also take more surprising turns with new dimensions, new mobs and more than 4000 quests that will help you throughout your adventure.</p>
+
+ 
+
+<p align="center">This modpack has been made to survive on a true minecraft vanilla world. With a unique collection of mods that goes through tech, magic and of course : exploration & structures.</p>
+
+
+<p align="center">This pack has been tweaked to make the survival more complex, so be sure to be prepared.</p>
+
+
+<p align="center">Many have tried to solve the enigma. Will you manage to uncover all the secrets of Chroma Endless ?</p>
+
 
 <p align="center">
   <a target="_blank" href="https://chromatech.fr/">
