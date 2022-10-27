@@ -430,6 +430,22 @@ onEvent('recipes', (event) => {
             ],
             ticks: 140,
             id: 'mekanismgenerators:generator/advanced_solar'
+        },
+
+        // Creative Heat
+        {
+            outputs: [{ type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:creative_compressed_iron_block', count: 1 } }],
+            inputs: [
+                { consumeInstantly: true, type: 'masterfulmachinery:items', data: { item: 'mekanism:superheating_element', count: 64 } },
+                { consumeInstantly: true, type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:compressed_iron_block', count: 1 } },
+                { consumeInstantly: true, type: 'masterfulmachinery:items', data: { item: 'kubejs:creative_catalyst', count: 4 } },
+                { consumeInstantly: true, type: 'masterfulmachinery:items', data: { item: 'kubejs:chroma_matter', count: 4 } },
+                { consumeInstantly: true, type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:advanced_pcb', count: 32 } },
+                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 1100 } },
+                { type: 'masterfulmachinery:energy', data: { amount: 12000 } }
+            ],
+            ticks: 140,
+            id: 'pneumaticcraft:creative_compressed_iron_block'
         }
     ];
 
