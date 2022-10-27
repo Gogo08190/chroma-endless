@@ -1077,6 +1077,26 @@ onEvent('recipes', (event) => {
             outputFluid: '',
             outputFluidAmount: 0,
             id: `${id_prefix}omeganeck`
+        },
+        //Nuclear Waste Fluid Input
+        {
+              inputs: [
+                  'pneumaticcraft:compressed_brick_tile',
+                  'industrialforegoing:supreme_black_hole_tank',
+                  'pneumaticcraft:compressed_brick_tile',
+                  'kubejs:energized_uranium',
+                  'kubejs:energized_uranium',
+                  'pneumaticcraft:compressed_brick_tile',
+                  'industrialforegoing:supreme_black_hole_tank',
+                  'pneumaticcraft:compressed_brick_tile'
+              ],
+              inputFluid: 'bigreactors:redfrigium',
+              inputFluidAmount: 4000,
+              processingTime: 300,
+              outputItem: { item: 'masterfulmachinery:nuclearwaste_nuclearwaste_fluid_port_fluids_input', count: 1 },
+              outputFluid: '',
+              outputFluidAmount: 0,
+              id: `${id_prefix}nuclearwaste_nuclearwaste_fluid_port_fluids_input`
           }
     ];
 

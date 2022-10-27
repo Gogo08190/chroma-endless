@@ -504,6 +504,41 @@ onEvent('recipes', (event) => {
         output: 'botanicalmachinery:mana_battery_creative',
         count: 1,
         id: `${id_prefix}botanicalmachinery:mana_battery_creative`
+      },
+      //Nuclear waste gas output
+      {
+        inputs: [
+          'refinedpipes:ultimate_extractor_attachment',
+          'pneumaticcraft:compressed_brick_tile',
+          'pneumaticcraft:compressed_brick_tile',
+          'mekanism:upgrade_gas',
+          'bigreactors:ludicrite_ingot',
+          'bigreactors:ludicrite_ingot',
+          'bigreactors:ludicrite_ingot',
+          'mekanism:ultimate_chemical_tank',
+          'mekanism:ultimate_chemical_tank'
+        ],
+        mana: 30000,
+        output: 'masterfulmachinery:nuclearwaste_nuclearwaste_gas_port_mekanism_gas_output',
+        count: 1,
+        id: 'masterfulmachinery:nuclearwaste_nuclearwaste_gas_port_mekanism_gas_output'
+      },
+      //Nuclear waste gas input
+      {
+        inputs: [
+          'pneumaticcraft:compressed_brick_tile',
+          'pneumaticcraft:compressed_brick_tile',
+          'mekanism:upgrade_gas',
+          'bigreactors:ludicrite_ingot',
+          'bigreactors:ludicrite_ingot',
+          'bigreactors:ludicrite_ingot',
+          'mekanism:ultimate_chemical_tank',
+          'mekanism:ultimate_chemical_tank'
+        ],
+        mana: 30000,
+        output: 'masterfulmachinery:nuclearwaste_nuclearwaste_gas_port_mekanism_gas_input',
+        count: 1,
+        id: 'masterfulmachinery:nuclearwaste_nuclearwaste_gas_port_mekanism_gas_input'
       }
 
     ];

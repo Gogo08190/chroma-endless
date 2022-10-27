@@ -373,6 +373,17 @@ onEvent('recipes', (event) => {
           pressure: 8.0,
           results: [{item: 'kubejs:phineck', count: 1}],
           id: `${id_prefix}phineck`
+        },
+        //Nuclear Waste Energy Input
+        {
+            inputs: [
+                { item: 'mekanism:ultimate_energy_cube', count: 1 },
+                { item: 'pneumaticcraft:compressed_brick_tile', count: 16 },
+                { item: 'kubejs:energized_uranium', count: 8 }
+            ],
+            pressure: 4.0,
+            results: [{ item: 'masterfulmachinery:nuclearwaste_nuclearwaste_energy_port_energy_input', count: 1 }],
+            id: 'masterfulmachinery:nuclearwaste_nuclearwaste_energy_port_energy_input'
         }
     ];
 

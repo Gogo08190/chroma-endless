@@ -4101,4 +4101,37 @@ onEvent("recipes", (event) => {
       }
     }
   ).id('draconicevolution:creative_capacitor')
+  //Nuclear Waste Item input
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        "CCACC",
+        "CGVGC",
+        "AVHVA",
+        "CGVGC",
+        "CCACC"
+      ],
+      "key": {
+        "C": {
+          "item": "pneumaticcraft:compressed_brick_tile"
+        },
+        "A": {
+          "item": "mekanism:alloy_atomic"
+        },
+        "G": {
+          "item": "enderioalloys:item_material_skull_guardian_diode"
+        },
+        "V": {
+          "item": "enderioalloys:item_alloy_ingot_vibrant_alloy"
+        },
+        "H": {
+          "item": "mekanism:qio_drive_hyper_dense"
+        }
+      },
+      "result": {
+        "item": "masterfulmachinery:nuclearwaste_nuclearwaste_item_port_items_input"
+      }
+    }
+  ).id(`${id_prefix}nuclearwaste_nuclearwaste_item_port_items_input`)
 });
