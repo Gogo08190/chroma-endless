@@ -859,7 +859,7 @@ onEvent('recipes', (event) => {
               type: 'compactcrafting:mixed',
               pattern: [
                 ["B", "B", "B", "B", "B"],
-                ["B", "s", "S", "S", "B"],
+                ["B", "S", "S", "S", "B"],
                 ["B", "S", "S", "S", "B"],
                 ["B", "S", "S", "S", "B"],
                 ["B", "B", "B", "B", "B"],
@@ -925,7 +925,7 @@ onEvent('recipes', (event) => {
                 type: 'compactcrafting:mixed',
                 pattern: [
                   ["B", "B", "B", "B", "B"],
-                  ["B", "s", "S", "S", "B"],
+                  ["B", "S", "S", "S", "B"],
                   ["B", "S", "S", "S", "B"],
                   ["B", "S", "S", "S", "B"],
                   ["B", "B", "B", "B", "B"],
