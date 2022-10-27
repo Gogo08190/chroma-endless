@@ -99,7 +99,8 @@ onEvent('item.registry', (event) => {
         'omeganeck',
         'phineck',
         'tauneck',
-        'thetaneck'
+        'thetaneck',
+        'endless'
     ];
 
     generalItems.forEach((item) => {

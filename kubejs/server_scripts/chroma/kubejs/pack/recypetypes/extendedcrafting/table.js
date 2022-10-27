@@ -3968,7 +3968,7 @@ onEvent("recipes", (event) => {
           "item": "kubejs:netherite_transistor"
         },
         "U": {
-          "item": "kubejs:thetaneck"
+          "item": "kubejs:endless"
         },
         "V": {
           "item": "tardis:artron_battery_creative"
