@@ -61,7 +61,7 @@ onEvent('gas.registry', (event) => {
         id: 'phenolsulfonephtaleine',
         color: 13380416,
         texture: 'kubejs:gas/base_gas_texture',
-        display: 'phenolsulfonephtaleine'
+        display: 'Phenolsulfonephtaleine'
       },
       //lime_hexasulfuric
       {
