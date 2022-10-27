@@ -203,8 +203,8 @@ onEvent('recipes', (event) => {
 
     recipes.forEach((recipe) => {
         recipe.type = 'masterfulmachinery:machine_process';
-        recipe.structureId = 'nuclear_waste';
-        recipe.controllerId = 'nuclearwaste';
+        recipe.structureId = 'centrifuge_str';
+        recipe.controllerId = 'centrifuge';
         event.custom(recipe).id(recipe.id);
     });
 });
