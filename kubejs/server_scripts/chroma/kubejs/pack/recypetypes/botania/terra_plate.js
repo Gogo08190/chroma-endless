@@ -107,6 +107,37 @@ onEvent('recipes', (event) => {
           mana: 100000,
           id: `${id_prefix}gammaneck`
       },
+      {
+          inputs: [
+              { item: 'pneumaticcraft:compressed_brick_tile' },
+              { item: 'pneumaticcraft:compressed_brick_tile' },
+              { item: 'mekanism:upgrade_gas' },
+              { item: 'bigreactors:ludicrite_ingot' },
+              { item: 'bigreactors:ludicrite_ingot' },
+              { item: 'bigreactors:ludicrite_ingot' },
+              { item: 'mekanism:ultimate_chemical_tank' },
+              { item: 'mekanism:ultimate_chemical_tank' }
+          ],
+          output: { item: 'masterfulmachinery:nuclearwaste_nuclearwaste_gas_port_mekanism_gas_input' },
+          mana: 100000,
+          id: `${id_prefix}masterfulmachinery:nuclearwaste_nuclearwaste_gas_port_mekanism_gas_input`
+      },
+      {
+          inputs: [
+              {item:'refinedpipes:ultimate_extractor_attachment'},
+              { item: 'pneumaticcraft:compressed_brick_tile' },
+              { item: 'pneumaticcraft:compressed_brick_tile' },
+              { item: 'mekanism:upgrade_gas' },
+              { item: 'bigreactors:ludicrite_ingot' },
+              { item: 'bigreactors:ludicrite_ingot' },
+              { item: 'bigreactors:ludicrite_ingot' },
+              { item: 'mekanism:ultimate_chemical_tank' },
+              { item: 'mekanism:ultimate_chemical_tank' }
+          ],
+          output: { item: 'masterfulmachinery:nuclearwaste_nuclearwaste_gas_port_mekanism_gas_output' },
+          mana: 100000,
+          id: `${id_prefix}masterfulmachinery:nuclearwaste_nuclearwaste_gas_port_mekanism_gas_output`
+      }
     ];
 
     recipes.forEach((recipe) => {
