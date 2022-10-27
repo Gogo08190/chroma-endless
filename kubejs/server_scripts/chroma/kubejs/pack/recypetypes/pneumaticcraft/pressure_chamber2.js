@@ -23,7 +23,7 @@ onEvent('recipes', (event) => {
                 Item.of('pneumaticcraft:pressure_gauge', 5),
                 Item.of('extendedcrafting:ultimate_singularity', 1)
             ],
-            pressure: 12.0,
+            pressure: 5.0,
             output: [Item.of('pneumaticcraft:creative_compressor', 1)],
             id: `${id_prefix}creative_compressor`
         }

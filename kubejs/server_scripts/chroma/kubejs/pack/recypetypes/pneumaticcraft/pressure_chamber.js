@@ -370,7 +370,7 @@ onEvent('recipes', (event) => {
             { item: 'pneumaticcraft:compressed_iron_block', count: 4},
             { item: 'tardis:artron_battery_high', count: 1}
           ],
-          pressure: 8.0,
+          pressure: 4.0,
           results: [{item: 'kubejs:phineck', count: 1}],
           id: `${id_prefix}phineck`
         },
