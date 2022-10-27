@@ -56,6 +56,20 @@ onEvent('gas.registry', (event) => {
         texture: 'kubejs:gas/base_gas_texture',
         display: 'Purple Gas'
       },
+      //phenolsulfonephtaleine
+      {
+        id: 'phenolsulfonephtaleine',
+        color: 13380416,
+        texture: 'kubejs:gas/base_gas_texture',
+        display: 'phenolsulfonephtaleine'
+      },
+      //lime_hexasulfuric
+      {
+        id: 'lime_hexasulfuric',
+        color: 48415,
+        texture: 'kubejs:gas/base_gas_texture',
+        display: 'Lime hexasulfuric'
+      }
       ];
       generalGas.forEach((gas) => {
           event.create(gas.id).color(gas.color).texture(gas.texture).displayName(gas.display);
