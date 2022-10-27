@@ -1359,6 +1359,7 @@
 				""
 				"Then right click on the pedestal to teleport to the point saved by the dislocator."
 			]
+			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "26DAD4D190AF4C24"
 			tasks: [{
 				id: "15E270187C429DFF"
@@ -1464,6 +1465,7 @@
 				""
 				"Chaotic Island are located every 10000 blocks (i.e 10000 0 or 0 10000)."
 			]
+			dependencies: ["2BA269B9CA2B23C4"]
 			id: "13D4EFBF9D6020E0"
 			tasks: [{
 				id: "6435926A69F3D638"

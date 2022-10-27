@@ -2091,6 +2091,12 @@
 					count: 80L
 				}
 			]
+			rewards: [{
+				id: "057EB9C26405FC57"
+				type: "item"
+				item: "mekanism:pellet_polonium"
+				random_bonus: 3
+			}]
 		}
 		{
 			x: -32.25d
@@ -3609,6 +3615,11 @@
 				type: "item"
 				item: "mekanismgenerators:module_geothermal_generator_unit"
 			}]
+			rewards: [{
+				id: "48BAB6D4CFA0D9CE"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
 		}
 		{
 			x: -14.25d
@@ -3623,6 +3634,11 @@
 				type: "item"
 				item: "mekanism:module_energy_unit"
 			}]
+			rewards: [{
+				id: "550B893A7BE37A8D"
+				type: "item"
+				item: "mekanism:hdpe_sheet"
+			}]
 		}
 		{
 			x: -12.75d
@@ -3635,6 +3651,11 @@
 				id: "1EEFA0C3101E4C73"
 				type: "item"
 				item: "mekanism:module_laser_dissipation_unit"
+			}]
+			rewards: [{
+				id: "2C85C81D84DC68CA"
+				type: "item"
+				item: "mekanism:alloy_infused"
 			}]
 		}
 		{
@@ -3650,6 +3671,11 @@
 				type: "item"
 				item: "mekanism:module_radiation_shielding_unit"
 			}]
+			rewards: [{
+				id: "62D94DD15511C6AE"
+				type: "item"
+				item: "emendatusenigmatica:lead_block"
+			}]
 		}
 		{
 			x: -13.75d
@@ -3663,6 +3689,11 @@
 				id: "629FB8B7545BE171"
 				type: "item"
 				item: "mekanism:module_excavation_escalation_unit"
+			}]
+			rewards: [{
+				id: "1B53FE654441D8F7"
+				type: "item"
+				item: "mekanism:alloy_infused"
 			}]
 		}
 		{
@@ -3681,6 +3712,11 @@
 				id: "168E890B8D16E571"
 				type: "item"
 				item: "mekanism:module_attack_amplification_unit"
+			}]
+			rewards: [{
+				id: "259DF3A7D0F6344C"
+				type: "item"
+				item: "mekanism:alloy_infused"
 			}]
 		}
 		{
@@ -3703,6 +3739,11 @@
 				type: "item"
 				item: "mekanism:module_farming_unit"
 			}]
+			rewards: [{
+				id: "18C380839A3251E3"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
 		}
 		{
 			x: -13.75d
@@ -3715,6 +3756,17 @@
 				id: "346A524B072E8EB3"
 				type: "item"
 				item: "mekanism:module_shearing_unit"
+			}]
+			rewards: [{
+				id: "1155A5C62F593216"
+				type: "item"
+				item: {
+					id: "minecraft:shears"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -3730,6 +3782,20 @@
 				type: "item"
 				item: "mekanism:module_silk_touch_unit"
 			}]
+			rewards: [{
+				id: "2CA35D84429388ED"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:silk_touch"
+						}]
+					}
+				}
+			}]
 		}
 		{
 			x: -11.75d
@@ -3744,6 +3810,11 @@
 				type: "item"
 				item: "mekanism:module_vein_mining_unit"
 			}]
+			rewards: [{
+				id: "6E52F7079A102461"
+				type: "item"
+				item: "mekanism:alloy_reinforced"
+			}]
 		}
 		{
 			x: -11.75d
@@ -3757,6 +3828,11 @@
 				id: "3AD97C92CF603ACE"
 				type: "item"
 				item: "mekanism:module_teleportation_unit"
+			}]
+			rewards: [{
+				id: "6DFF6B1ABB2568B0"
+				type: "item"
+				item: "mekanism:pellet_antimatter"
 			}]
 		}
 		{
@@ -3776,6 +3852,11 @@
 				type: "item"
 				item: "mekanism:module_electrolytic_breathing_unit"
 			}]
+			rewards: [{
+				id: "5DA44140CA031535"
+				type: "item"
+				item: "mekanism:electrolytic_core"
+			}]
 		}
 		{
 			x: -13.75d
@@ -3789,6 +3870,11 @@
 				id: "514713A281D7E9AA"
 				type: "item"
 				item: "mekanism:module_inhalation_purification_unit"
+			}]
+			rewards: [{
+				id: "336FB2336B032A86"
+				type: "item"
+				item: "mekanism:pellet_polonium"
 			}]
 		}
 		{
@@ -3804,6 +3890,11 @@
 				type: "item"
 				item: "mekanism:module_vision_enhancement_unit"
 			}]
+			rewards: [{
+				id: "165710F57039D92F"
+				type: "item"
+				item: "mekanism:alloy_reinforced"
+			}]
 		}
 		{
 			x: -12.75d
@@ -3817,6 +3908,11 @@
 				id: "592625E729490E5D"
 				type: "item"
 				item: "mekanism:module_solar_recharging_unit"
+			}]
+			rewards: [{
+				id: "055E81366C2555C8"
+				type: "item"
+				item: "mekanismgenerators:solar_generator"
 			}]
 		}
 		{
@@ -3836,6 +3932,11 @@
 				type: "item"
 				item: "mekanism:module_nutritional_injection_unit"
 			}]
+			rewards: [{
+				id: "0B0DA79313DB8E7C"
+				type: "item"
+				item: "mekanism:pellet_polonium"
+			}]
 		}
 		{
 			x: -12.25d
@@ -3850,6 +3951,11 @@
 				type: "item"
 				item: "mekanism:module_dosimeter_unit"
 			}]
+			rewards: [{
+				id: "2B802A18C38337DC"
+				type: "item"
+				item: "mekanism:hdpe_sheet"
+			}]
 		}
 		{
 			x: -13.25d
@@ -3862,6 +3968,11 @@
 				id: "29D0F8FD1BD1470F"
 				type: "item"
 				item: "mekanism:module_geiger_unit"
+			}]
+			rewards: [{
+				id: "6CAF835F7F3583CE"
+				type: "item"
+				item: "mekanism:hdpe_sheet"
 			}]
 		}
 		{
@@ -3883,6 +3994,11 @@
 				type: "item"
 				item: "mekanism:module_jetpack_unit"
 			}]
+			rewards: [{
+				id: "05C5831DC9D3DB3C"
+				type: "item"
+				item: "mekanism:alloy_reinforced"
+			}]
 		}
 		{
 			x: -10.75d
@@ -3896,6 +4012,11 @@
 				id: "37FD7D6E3598E8B2"
 				type: "item"
 				item: "mekanism:module_charge_distribution_unit"
+			}]
+			rewards: [{
+				id: "1B697DD88A276E8F"
+				type: "item"
+				item: "mekanism:pellet_polonium"
 			}]
 		}
 		{
@@ -3915,6 +4036,11 @@
 				type: "item"
 				item: "mekanism:module_gravitational_modulating_unit"
 			}]
+			rewards: [{
+				id: "6E6BFBC163284323"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
 		}
 		{
 			x: -10.75d
@@ -3927,6 +4053,11 @@
 				id: "0F56E8109D7CF10C"
 				type: "item"
 				item: "mekanism:module_elytra_unit"
+			}]
+			rewards: [{
+				id: "4347FC48F23479DE"
+				type: "item"
+				item: "mekanism:alloy_reinforced"
 			}]
 		}
 		{
@@ -3946,6 +4077,11 @@
 				type: "item"
 				item: "mekanism:module_locomotive_boosting_unit"
 			}]
+			rewards: [{
+				id: "699F9FD7268BC5A1"
+				type: "item"
+				item: "mekanism:alloy_reinforced"
+			}]
 		}
 		{
 			x: -10.25d
@@ -3959,6 +4095,11 @@
 				id: "3907F403F18B3A42"
 				type: "item"
 				item: "mekanism:module_hydraulic_propulsion_unit"
+			}]
+			rewards: [{
+				id: "60D8BE30115B1CA8"
+				type: "item"
+				item: "mekanism:energy_tablet"
 			}]
 		}
 		{
@@ -3978,6 +4119,11 @@
 				type: "item"
 				item: "mekanism:module_magnetic_attraction_unit"
 			}]
+			rewards: [{
+				id: "1A948324C8B9E4F6"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+			}]
 		}
 		{
 			x: -14.75d
@@ -3990,6 +4136,11 @@
 				id: "69D757F9F53AE40E"
 				type: "item"
 				item: "mekanism:module_frost_walker_unit"
+			}]
+			rewards: [{
+				id: "62F77E06EFF4E714"
+				type: "item"
+				item: "mekanism:pellet_polonium"
 			}]
 		}
 		{
@@ -4010,9 +4161,9 @@
 				item: "mekanism:module_base"
 			}]
 			rewards: [{
-				id: "35BCA57FD0346E1F"
+				id: "229C5FFA3E26EF3E"
 				type: "item"
-				item: "mekanism:hdpe_sheet"
+				item: "mekanism:module_base"
 			}]
 		}
 		{

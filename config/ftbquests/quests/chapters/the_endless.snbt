@@ -92,12 +92,62 @@
 			x: -3.25d
 			y: -1.25d
 			shape: "hexagon"
+			subtitle: "Only one is needed"
+			description: [
+				"Many thought that two &d&lVending Upgrades&r are needed but no ! "
+				""
+				"How can you get multiple vending upgrades? Well it's really simple ! "
+				""
+				"First of all you will need a &e&lHopper&r and the &6&lDrawer Key&r. "
+				""
+				"The first step is simply to stick your &e&lHopper&r against any drawer (the &e&lHopper&r must be facing the drawer)."
+				""
+				"The second step is to put your &d&lVending Upgrade&r in the &e&lHopper&r to store it. Then with the &6&lDrawer Key&r you will need to lock your drawer and then retrieve your upgrade. "
+				""
+				"Since the &d&lVending&r is locked, it remains in the storage ! So now you can apply this &d&lVending&r to the drawer!"
+			]
+			min_width: 250
 			id: "58758E8C0CB4D2C1"
 			tasks: [{
 				id: "4B6F971B40BCA8A6"
 				type: "item"
 				item: "storagedrawers:creative_vending_upgrade"
 			}]
+			rewards: [
+				{
+					id: "31F1DC785989F993"
+					type: "item"
+					item: "storagedrawers:drawer_key"
+				}
+				{
+					id: "0455F761259CAB83"
+					type: "item"
+					item: {
+						id: "framedcompactdrawers:framed_full_one"
+						Count: 1b
+						tag: {
+							MatT: {
+								id: "chisel:antiblock/light_blue"
+								Count: 1b
+							}
+							MatF: {
+								id: "chisel:antiblock/magenta"
+								Count: 1b
+							}
+							MatS: {
+								id: "chisel:antiblock/lime"
+								Count: 1b
+							}
+						}
+					}
+					count: 64
+				}
+				{
+					id: "2EED234B34800AE2"
+					type: "item"
+					item: "minecraft:hopper"
+				}
+			]
 		}
 	]
 }
