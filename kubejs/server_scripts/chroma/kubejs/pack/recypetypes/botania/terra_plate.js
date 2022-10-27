@@ -120,7 +120,7 @@ onEvent('recipes', (event) => {
           ],
           output: { item: 'masterfulmachinery:nuclearwaste_nuclearwaste_gas_port_mekanism_gas_input' },
           mana: 100000,
-          id: `${id_prefix}masterfulmachinery:nuclearwaste_nuclearwaste_gas_port_mekanism_gas_input`
+          id: `${id_prefix}nuclearwaste_nuclearwaste_gas_port_mekanism_gas_input`
       }
     ];
 
