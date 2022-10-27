@@ -114,7 +114,7 @@ onEvent('recipes', (event) => {
       //Blue Gas
       {
           outputs: [
-            { type: 'masterfulmachinery:mekanism_gas', data: { gas: 'kubejs:pink', amount: 250 } }
+            { type: 'masterfulmachinery:mekanism_gas', data: { gas: 'kubejs:blue', amount: 250 } }
           ],
           inputs: [
               {
