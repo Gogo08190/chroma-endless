@@ -299,6 +299,23 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}the_ultimate_ingot`
         },
 
+        // The Endless
+        {
+            output: 'kubejs:endless',
+            pattern: ['ABCDEFGH'],
+            key: {
+                A: 'kubejs:cdeltaneck',
+                B: 'kubejs:calphaneck',
+                C: 'kubejs:cgammaneck',
+                D: 'kubejs:cksineck',
+                E: 'kubejs:cphineck',
+                F: 'kubejs:comeganeck',
+                G: 'kubejs:cthetaneck',
+                H: 'kubejs:ctauneck'
+            },
+            id: `${id_prefix}endless`
+        },
+
         // Alternator
         {
             output: 'createaddition:alternator',
