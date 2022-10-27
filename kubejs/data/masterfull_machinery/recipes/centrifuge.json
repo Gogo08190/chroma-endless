@@ -1,0 +1,103 @@
+{
+  "type": "masterfulmachinery:machine_structure",
+  "id": "centrifuge_str",
+  "controllerId": "centrifuge",
+  "name": "Atomic Centrifuge",
+  "layout": [
+    [
+      ")))))))",
+      ")))))))",
+      ")))))))",
+      ")))))))",
+      ")))))))",
+      ")))))))",
+      ")))))))"
+    ],
+    [
+      ")))))))",
+      "*+,-../",
+      "*010..2",
+      "C-,0302",
+      "*0 + ,2",
+      "*040 -/",
+      ")))))))"
+    ],
+    [
+      ")))))))",
+      "* ,0../",
+      "*   ../",
+      "* ,  0/",
+      "*  , +/",
+      "*  0 0/",
+      ")))))))"
+    ],
+    [
+      ")))))))",
+      "* 30../",
+      "* 04../",
+      "* 10 0/",
+      "*  3 1/",
+      "*  0 0/",
+      ")))))))"
+    ],
+    [
+      ")))))))",
+      "*   ../",
+      "* + ../",
+      "*     /",
+      "*     /",
+      "*  +  /",
+      ")))))))"
+    ],
+    [
+      ")))))))",
+      ")))))))",
+      ")))))))",
+      ")))5)))",
+      ")))))))",
+      ")))))))",
+      ")))))))"
+    ]
+  ],
+  "legend": {
+    ")": {
+      "block": "mekanism:boiler_casing"
+    },
+    "*": {
+      "block": "mekanism:structural_glass"
+    },
+    "+": {
+      "block": "mekanism:ultimate_chemical_tank"
+    },
+    ",": {
+      "block": "engineersdecor:treated_wood_pole"
+    },
+    "-": {
+      "block": "mekanismgenerators:gas_burning_generator"
+    },
+    ".": {
+      "block": "pneumaticcraft:gas_lift"
+    },
+    "/": {
+      "block": "mekanism:superheating_element"
+    },
+    "0": {
+      "block": "mekanism:ultimate_pressurized_tube"
+    },
+    "1": {
+      "block": "mekanism:rotary_condensentrator"
+    },
+    "2": {
+      "block": "masterfulmachinery:centrifuge_centrifuge_gas_port_mekanism_gas_input"
+    },
+    "3": {
+      "block": "mekanism:electrolytic_separator"
+    },
+    "4": {
+      "block": "mekanism:chemical_infuser"
+    },
+    "5": {
+      "block": "masterfulmachinery:centrifuge_centrifuge_gas_port_mekanism_gas_output"
+    }
+  }
+}
