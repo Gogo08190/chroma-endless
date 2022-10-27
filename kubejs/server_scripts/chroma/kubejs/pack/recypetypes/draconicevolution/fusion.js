@@ -565,7 +565,7 @@ onEvent('recipes', (event) => {
         ],
         tier: "CHAOTIC",
         catalyst: { item: 'powah:energy_cell_creative' },
-        total_energy: 5000000,
+        total_energy: 1000000000,
         result: { item: 'draconicevolution:creative_op_capacitor' },
         id: `${id_prefix}creative_op_capacitor`
     }
