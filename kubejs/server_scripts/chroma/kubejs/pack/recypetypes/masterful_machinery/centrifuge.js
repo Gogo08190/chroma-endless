@@ -13,7 +13,7 @@ onEvent('recipes', (event) => {
               },
               {
                 consumeInstantly: true,
-                type: 'masterfulmachinery:mekanism_gas', data: { gas: 'mekanism:dark_red', amount: 1000 }
+                type: 'masterfulmachinery:mekanism_gas', data: { gas: 'mekanism:brine', amount: 1000 }
               },
               {
                 consumeInstantly: true,
@@ -35,7 +35,7 @@ onEvent('recipes', (event) => {
               },
               {
                 consumeInstantly: true,
-                type: 'masterfulmachinery:mekanism_gas', data: { gas: 'mekanism:carbon', amount: 1900 }
+                type: 'masterfulmachinery:mekanism_gas', data: { gas: 'mekanism:fissile_fuel', amount: 1900 }
               },
               {
                 consumeInstantly: true,
@@ -43,7 +43,7 @@ onEvent('recipes', (event) => {
               },
           ],
           ticks: 512,
-          id: `${id_prefix}red_gas`
+          id: `${id_prefix}phenolsulfonephtaleine`
       },
       //Orange Gas
       {
@@ -57,7 +57,7 @@ onEvent('recipes', (event) => {
               },
               {
                 consumeInstantly: true,
-                type: 'masterfulmachinery:mekanism_gas', data: { gas: 'mekanism_orange', amount: 1000 }
+                type: 'masterfulmachinery:mekanism_gas', data: { gas: 'mekanism:chlorine', amount: 1000 }
               },
               {
                 consumeInstantly: true,
@@ -79,7 +79,7 @@ onEvent('recipes', (event) => {
               },
               {
                 consumeInstantly: true,
-                type: 'masterfulmachinery:mekanism_gas', data: { gas: 'mekanism:purple', amount: 1000 }
+                type: 'masterfulmachinery:mekanism_gas', data: { gas: 'mekanism:hydrogen_chloride', amount: 1000 }
               },
               {
                 consumeInstantly: true,
@@ -101,11 +101,11 @@ onEvent('recipes', (event) => {
               },
               {
                 consumeInstantly: true,
-                type: 'masterfulmachinery:mekanism_gas', data: { gas: 'mekanism:pink', amount: 1000 }
+                type: 'masterfulmachinery:mekanism_gas', data: { gas: 'mekanism:ethene', amount: 1000 }
               },
               {
                 consumeInstantly: true,
-                type: 'masterfulmachinery:mekanism_gas', data: { gas: 'mekanism:nutritional_paste', amount: 1000 }
+                type: 'masterfulmachinery:mekanism_gas', data: { gas: 'mekanism:sulfur_trioxide', amount: 1000 }
               },
           ],
           ticks: 512,
@@ -123,7 +123,7 @@ onEvent('recipes', (event) => {
               },
               {
                 consumeInstantly: true,
-                type: 'masterfulmachinery:mekanism_gas', data: { gas: 'mekanism:blue', amount: 1000 }
+                type: 'masterfulmachinery:mekanism_gas', data: { gas: 'mekanism:oxygen', amount: 1000 }
               },
               {
                 consumeInstantly: true,
@@ -145,7 +145,7 @@ onEvent('recipes', (event) => {
               },
               {
                 consumeInstantly: true,
-                type: 'masterfulmachinery:mekanism_gas', data: { gas: 'mekanism:green', amount: 1000 }
+                type: 'masterfulmachinery:mekanism_gas', data: { gas: 'mekanism:chlorine', amount: 1000 }
               },
               {
                 consumeInstantly: true,
@@ -171,7 +171,7 @@ onEvent('recipes', (event) => {
               },
               {
                 consumeInstantly: true,
-                type: 'masterfulmachinery:mekanism_gas', data: { gas: 'mekanism:lime', amount: 1000 }
+                type: 'masterfulmachinery:mekanism_gas', data: { gas: 'mekanism:chlorine', amount: 1000 }
               },
           ],
           ticks: 512,
@@ -189,7 +189,7 @@ onEvent('recipes', (event) => {
               },
               {
                 consumeInstantly: true,
-                type: 'masterfulmachinery:mekanism_gas', data: { gas: 'mekanism:white', amount: 1000 }
+                type: 'masterfulmachinery:mekanism_gas', data: { gas: 'mekanism:hydrogen', amount: 1000 }
               },
               {
                 consumeInstantly: true,
