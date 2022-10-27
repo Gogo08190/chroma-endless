@@ -38,7 +38,7 @@
 				"This &lQuests Book&r is made to guide you all along your survival adventure, but isn't &lmandatory&r."
 				""
 				"                             &3&lHave fun!&r"
-				"la team chroma a pris possession de endless, vous devez le délivrer. à travers les différentes époques de l'histoire, apprenez-en de plus en plus pour le sauver !"
+				"The Chroma Team has taken possession of endless, you must rescue it. Through the different ages of the story, learn from it more and more in order to save it!"
 			]
 			size: 2.0d
 			min_width: 290
@@ -92,7 +92,19 @@
 			}
 			x: 1.5d
 			y: -1.25d
+			description: [
+				"To share your quests with your friends, you need to create a team."
+				""
+				"To do this, execute this command :"
+				"&a/ftbteams party create"
+				""
+				"To invite your friends, execute this command :"
+				"&b/ftbteams party invite &dName"
+				""
+				"Your friends just have to accept, and you are now in a team."
+			]
 			dependencies: ["1416718F40ED7569"]
+			min_width: 300
 			id: "1CA9744CB5D85432"
 			tasks: [{
 				id: "7140C1C22B224BA0"
@@ -104,8 +116,15 @@
 			icon: "ftbquests:book"
 			x: -1.5d
 			y: 1.25d
-			description: ["Quests follow a certain order according to their recipes, but sometimes you will not be able to complete one since you do not have yet certain items used in its recipe. Do not worry, it is normal, you can come back to it later, and it is for sure a secondary quest."]
+			subtitle: "Read the F*ck*ng Quests !"
+			description: [
+				"This &6Questbook&r has a very simple quest system."
+				"In fact a &8quest&r by default does not require a &7&ldependancy&r so you can do it right now or later, up to you to decide."
+				""
+				"As you can see, the majority of quests does need a &7&ldependancy&r. In order to unlock them, you can click on the &0&l&nGrey Arrow&r to list the needed &7&ldependancy&r or &7&ldependancies&r."
+			]
 			dependencies: ["1416718F40ED7569"]
+			min_width: 300
 			id: "0F3AA93C73E3986C"
 			tasks: [{
 				id: "0A24A552ED32FFB7"
@@ -123,7 +142,16 @@
 			}
 			x: 2.0d
 			y: 0.0d
+			subtitle: "Mining at it's best"
+			description: [
+				"&6&lUltimine&r is a very useful mod for mining."
+				""
+				"Indeed, with the ² key (by default) you will see a &nwhite outline&r that we will call the &c&lUltimine Zone&r which represents what you will mine. "
+				""
+				"This &c&lUltimine Zone&r can be changed. In fact you can see that, if you keep pressing the ² key, you can change the shape of this zone and find the one that suits you best."
+			]
 			dependencies: ["1416718F40ED7569"]
+			min_width: 250
 			id: "4C99953231A58014"
 			tasks: [{
 				id: "76BA08A8920CDC83"
@@ -132,7 +160,7 @@
 			}]
 		}
 		{
-			title: "&l&dCreative&r"
+			title: "&dCreative&r"
 			icon: {
 				id: "modularrouters:creative_module"
 				Count: 1b
@@ -144,6 +172,7 @@
 			}
 			x: 1.5d
 			y: 1.25d
+			description: ["At the end of your adventure on the Chroma Endless modpack you will be able to create various creative items !"]
 			dependencies: ["1416718F40ED7569"]
 			id: "32772B06D25FE5FF"
 			tasks: [{
@@ -163,7 +192,17 @@
 			}
 			x: 0.5d
 			y: -2.0d
+			description: [
+				"FTB Chunks allows you to &4claim chunks&r to &4protect&r your blocks. It also has a &9minimap and large map&r ! You can find it in the top left corner of your inventory."
+				""
+				"&6Right-click&r anywhere in map to create a waypoint."
+				""
+				"&6Right-click&r on waypoints and death points to edit or delete them."
+				""
+				"Click on &1Claimed Chunks button&r, then left or &6right-click&r on map to select chunks that will belong to you. &6Shift-left&r or &6right-click&r on claimed chunks to toggle forceloading."
+			]
 			dependencies: ["1416718F40ED7569"]
+			min_width: 300
 			id: "2826677ED26D1D5C"
 			tasks: [{
 				id: "0A5A73AB42F7DDF6"
@@ -175,12 +214,18 @@
 			icon: "solcarrot:food_book"
 			x: -2.0d
 			y: 0.0d
+			description: ["&aSpice of Life: Carrot Edition&r keeps track of how many unique foods a player has eaten. As they pass certain milestone amounts of unique foods, they permanently gain new hearts, increasing their max health! In order to max out their HP bars, players will have to quest for and craft exotic foods."]
 			dependencies: ["1416718F40ED7569"]
 			id: "5B1AA6E54F33323A"
 			tasks: [{
 				id: "6C6142946AD27705"
 				type: "checkmark"
 				title: "Feeding"
+			}]
+			rewards: [{
+				id: "144CB676CF9E08E3"
+				type: "item"
+				item: "solcarrot:food_book"
 			}]
 		}
 		{
@@ -193,6 +238,12 @@
 			}
 			x: -0.5d
 			y: -2.0d
+			subtitle: "Hard but Worth"
+			description: [
+				"In this modpack we have put together some challenges for you."
+				""
+				"Will you succeed?"
+			]
 			dependencies: ["1416718F40ED7569"]
 			id: "57F8BCA00BBD45CA"
 			tasks: [{
@@ -205,12 +256,19 @@
 			icon: "pedestals:upgradesoundmuffler"
 			x: -1.5d
 			y: -1.25d
+			subtitle: "Sh*t up !!!"
+			description: [
+				"To disable the sound of quests or advancements :"
+				""
+				"Echap → Mod Options → Search Plaques → Config → Modify → Client → Modify what you want"
+			]
 			dependencies: ["1416718F40ED7569"]
+			min_width: 300
 			id: "7B91BD470E4DDB96"
 			tasks: [{
 				id: "41FEC8C7FD6401D3"
 				type: "checkmark"
-				title: "Disable Sounds"
+				title: "Advancement \\& Quest Plaques"
 			}]
 		}
 		{
@@ -226,6 +284,7 @@
 			subtitle: "Gogo08's Discord server."
 			description: [
 				"On Gogo08's Discord server, you will find support channels for Chroma Endless."
+				""
 				"It's a french community server, but you can also speak english, the community and staff will most certainly try to help you."
 			]
 			dependencies: ["1416718F40ED7569"]
@@ -246,25 +305,13 @@
 			}
 			x: 0.0d
 			y: -3.0d
+			description: ["&4JEI&r is an item and recipe viewing."]
 			dependencies: ["1416718F40ED7569"]
 			id: "3F6525C9F04A5EA5"
 			tasks: [{
 				id: "09C9AE62C617B067"
 				type: "checkmark"
 				title: "JEI"
-			}]
-		}
-		{
-			icon: "tombstone:advancement_2"
-			x: 0.0d
-			y: 3.0d
-			description: ["expliquer comment mute/modif config"]
-			dependencies: ["1416718F40ED7569"]
-			id: "515692CECD9B85B8"
-			tasks: [{
-				id: "530C64F5D864DB84"
-				type: "checkmark"
-				title: "Advancement \\& Quest Plaques"
 			}]
 		}
 		{
@@ -275,8 +322,8 @@
 					Icon: "bhmenu:textures/icon.png"
 				}
 			}
-			x: 3.0d
-			y: 0.0d
+			x: 2.75d
+			y: 1.0d
 			subtitle: "Promo code : &l&aCHROMATECH&r   "
 			description: [
 				"BisectHosting offers simple, fast and high quality server hosting with over a dozen locations available worldwide, guaranteeing low latency. After your purchase, the server is already configured and ready to use."
@@ -284,6 +331,7 @@
 				"Use the code \"&l&bCHROMATECH&r\" to get 25% off your first month as a new customer for one of their game servers."
 			]
 			dependencies: ["1416718F40ED7569"]
+			min_width: 270
 			id: "262CEB2DAAA6DB6F"
 			tasks: [{
 				id: "5CD4D421813019F6"
@@ -294,12 +342,12 @@
 		{
 			title: "&dInformation about Create Schematics !"
 			icon: "create:schematic_and_quill"
-			x: -3.0d
-			y: 0.0d
+			x: -2.75d
+			y: 1.0d
 			description: [
 				"On Chroma Endless you will be able to find a lot of custom multiblocks, we advise you to use the create schematics that we have provided you to build the custom machines."
 				""
-				"They are named MM_name_of_machine for Masterfull multiblock and CC_name_of_machine for mutiblock which are made with Compact Crafting !"
+				"They are named &3MM_name_of_machine&r for Masterfull multiblock and &3CC_name_of_machine&r for mutiblock which are made with Compact Crafting !"
 				""
 				"You can find them in the Schematics Table !"
 			]

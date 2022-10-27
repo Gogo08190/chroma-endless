@@ -1,0 +1,29 @@
+{
+	id: "283F4CAFCE67B37D"
+	order_index: 27
+	title: "CreateRandomChocolate"
+	icon: "create:bar_of_chocolate"
+	loot_size: 1
+	rewards: [
+		{ item: "create:bar_of_chocolate", count: 64 }
+		{ item: "create_confectionery:bar_of_black_chocolate", count: 64 }
+		{ item: "create_confectionery:bar_of_white_chocolate", count: 64 }
+		{ item: "create_confectionery:bar_of_ruby_chocolate", count: 64 }
+		{ item: "create_confectionery:chocolate_candy", count: 64 }
+		{ item: "create_confectionery:chocolate_candy_1", count: 64 }
+		{ item: "create_confectionery:chocolate_candy_2", count: 64 }
+		{ item: "create_confectionery:chocolate_candy_3", count: 64 }
+		{ item: "create_confectionery:black_chocolate_candy", count: 64 }
+		{ item: "create_confectionery:black_chocolate_candy_1", count: 64 }
+		{ item: "create_confectionery:black_chocolate_candy_2", count: 64 }
+		{ item: "create_confectionery:black_chocolate_candy_3", count: 64 }
+		{ item: "create_confectionery:white_chocolate_candy", count: 64 }
+		{ item: "create_confectionery:white_chocolate_candy_1", count: 64 }
+		{ item: "create_confectionery:white_chocolate_candy_2", count: 64 }
+		{ item: "create_confectionery:white_chocolate_candy_3", count: 64 }
+		{ item: "create_confectionery:ruby_chocolate_candy", count: 64 }
+		{ item: "create_confectionery:ruby_chocolate_candy_1", count: 64 }
+		{ item: "create_confectionery:ruby_chocolate_candy_2", count: 64 }
+		{ item: "create_confectionery:ruby_chocolate_candy_3", count: 64 }
+	]
+}

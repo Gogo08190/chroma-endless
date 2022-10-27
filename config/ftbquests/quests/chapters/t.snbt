@@ -1914,6 +1914,12 @@
 				"• 8x Reactor Glass"
 				"• 1x Laser Focus Matrix"
 			]
+			hide_dependency_lines: true
+			dependencies: [
+				"53F8FF29F8F02DC0"
+				"1F22F5BF3BD21A03"
+				"0E4A27067D64FFCE"
+			]
 			id: "03A7E5F6870CD3EB"
 			tasks: [
 				{
@@ -2874,6 +2880,13 @@
 			x: -33.5d
 			y: -5.75d
 			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"1F22F5BF3BD21A03"
+				"20018C60ECEA7ED6"
+				"2B37E2E818D39D16"
+				"4ADD9913716BA3E2"
+			]
 			id: "64EC50500054889D"
 			tasks: [
 				{
@@ -3426,6 +3439,11 @@
 			x: -31.5d
 			y: -5.25d
 			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"0E4A27067D64FFCE"
+				"40C970572379006E"
+			]
 			id: "0217C354938487DE"
 			tasks: [{
 				id: "6D1B7838AAF210F3"
@@ -4839,6 +4857,11 @@
 				""
 				"The &bElectromagnetic Coil&f is a block used in creating several multi-block structures, including the Thermoelectric Boiler."
 			]
+			hide_dependency_lines: true
+			dependencies: [
+				"3CE25095E2661776"
+				"5A250FD54B5D5215"
+			]
 			id: "07835CC3D89FB06F"
 			tasks: [
 				{
@@ -4894,6 +4917,8 @@
 			x: -34.0d
 			y: -5.25d
 			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["6F350477334C0544"]
 			id: "70FEA0C3AE008C6A"
 			tasks: [{
 				id: "06A5CE726FEB09CC"
@@ -4911,6 +4936,7 @@
 			x: -30.5d
 			y: -5.25d
 			shape: "diamond"
+			dependencies: ["0DFB702DA40899FE"]
 			id: "53F8FF29F8F02DC0"
 			tasks: [{
 				id: "1387ED64A936676A"
@@ -4927,6 +4953,8 @@
 			x: -32.0d
 			y: -5.75d
 			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["0DFB702DA40899FE"]
 			id: "5B90740E1EE0F130"
 			tasks: [{
 				id: "5F19E6478F46364D"
@@ -4943,6 +4971,7 @@
 			x: -31.5d
 			y: -6.25d
 			shape: "diamond"
+			dependencies: ["5B90740E1EE0F130"]
 			id: "20DF6A4548EA8540"
 			tasks: [{
 				id: "79780A44F75E4D33"
@@ -4970,6 +4999,12 @@
 				"• One coolant output"
 				"• One Fissile Fuel input"
 				"• One waste output"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"1F22F5BF3BD21A03"
+				"1BF981F84C1738BC"
+				"5163C5D7908E5DEB"
 			]
 			min_width: 300
 			id: "0DFB702DA40899FE"
@@ -5552,6 +5587,106 @@
 					table_id: 6524702956512656804L
 				}
 			]
+		}
+		{
+			icon: "masterfulmachinery:centrifuge_controller"
+			x: -17.0d
+			y: -8.5d
+			shape: "hexagon"
+			description: ["This Multiblock is used to make Custom Gas !"]
+			hide_dependency_lines: true
+			dependencies: ["678264A742DDA038"]
+			size: 2.0d
+			id: "27B425BCE2848715"
+			tasks: [
+				{
+					id: "26F61FE443229161"
+					type: "item"
+					item: "masterfulmachinery:centrifuge_controller"
+				}
+				{
+					id: "695C5BAA87DA969B"
+					type: "item"
+					item: "masterfulmachinery:centrifuge_centrifuge_gas_port_mekanism_gas_input"
+					count: 3L
+				}
+				{
+					id: "231786216489C388"
+					type: "item"
+					item: "masterfulmachinery:centrifuge_centrifuge_gas_port_mekanism_gas_output"
+				}
+				{
+					id: "0F3FD446336AE51F"
+					type: "item"
+					item: "mekanism:boiler_casing"
+					count: 153L
+				}
+				{
+					id: "0C9629C09647D33D"
+					type: "item"
+					item: "mekanism:electrolytic_separator"
+					count: 3L
+				}
+				{
+					id: "3E6D4697D1AC03E3"
+					type: "item"
+					item: "pneumaticcraft:gas_lift"
+					count: 16L
+				}
+				{
+					id: "35501A4D7BE49943"
+					type: "item"
+					item: "mekanismgenerators:gas_burning_generator"
+					count: 3L
+				}
+				{
+					id: "37AF7FA5A67F1083"
+					type: "item"
+					item: "engineersdecor:treated_wood_pole"
+					count: 6L
+				}
+				{
+					id: "7ECA2ECBE58E0656"
+					type: "item"
+					item: "mekanism:structural_glass"
+					count: 19L
+				}
+				{
+					id: "10196F6F6DABBFCB"
+					type: "item"
+					item: "mekanism:superheating_element"
+					count: 17L
+				}
+				{
+					id: "6F630ADBDF634CC8"
+					type: "item"
+					item: "mekanism:ultimate_chemical_tank"
+					count: 5L
+				}
+				{
+					id: "379423EE10AC380F"
+					type: "item"
+					item: "mekanism:ultimate_pressurized_tube"
+					count: 17L
+				}
+				{
+					id: "356A53F248ADCA97"
+					type: "item"
+					item: "mekanism:rotary_condensentrator"
+					count: 3L
+				}
+				{
+					id: "2B736D358C892974"
+					type: "item"
+					item: "mekanism:chemical_infuser"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "1EBC763C65934607"
+				type: "item"
+				item: "mekanism:ultimate_chemical_tank"
+			}]
 		}
 	]
 }

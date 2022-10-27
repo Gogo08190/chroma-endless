@@ -26,6 +26,12 @@
 				type: "item"
 				item: "ars_nouveau:creative_spell_book"
 			}]
+			rewards: [{
+				id: "4E4AA5C76E383AAE"
+				type: "item"
+				item: "occultism:afrit_essence"
+				count: 5
+			}]
 		}
 		{
 			x: -8.5d
@@ -37,34 +43,28 @@
 				type: "item"
 				item: "ars_nouveau:creative_mana_jar"
 			}]
+			rewards: [{
+				id: "123BAC6DAED0FA36"
+				type: "item"
+				item: "ars_nouveau:mythical_clay"
+				count: 32
+			}]
 		}
 		{
 			x: -2.0d
 			y: -7.5d
-			shape: "diamond"
-			id: "5F685F9D666F731D"
-			tasks: [{
-				id: "48F4346E5727530B"
-				type: "item"
-				item: {
-					id: "botania:mana_tablet"
-					Count: 1b
-					tag: {
-						mana: 500000
-						creative: 1b
-					}
-				}
-			}]
-		}
-		{
-			x: -1.5d
-			y: -8.0d
 			shape: "diamond"
 			id: "1EE5AE3000515D01"
 			tasks: [{
 				id: "248F9F4BA859A5BA"
 				type: "item"
 				item: "kubejs:empty_creative_pool"
+			}]
+			rewards: [{
+				id: "32FB705CD24435DF"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_ingot"
+				count: 2
 			}]
 		}
 		{
@@ -77,6 +77,12 @@
 				type: "item"
 				item: "botanicalmachinery:mana_battery_creative"
 			}]
+			rewards: [{
+				id: "7FE3B316E396F85E"
+				type: "item"
+				item: "kubejs:gaia_spirit_block"
+				count: 10
+			}]
 		}
 		{
 			x: -4.5d
@@ -87,6 +93,11 @@
 				id: "6911391AD43EB89F"
 				type: "item"
 				item: "create:creative_blaze_cake"
+			}]
+			rewards: [{
+				id: "62365EB59441C227"
+				type: "random"
+				table_id: 2900121003015779197L
 			}]
 		}
 		{
@@ -99,6 +110,12 @@
 				type: "item"
 				item: "create:creative_motor"
 			}]
+			rewards: [{
+				id: "7176AF4A6C2D71CB"
+				type: "item"
+				item: "createaddition:overcharged_alloy"
+				count: 32
+			}]
 		}
 		{
 			x: -4.5d
@@ -109,6 +126,11 @@
 				id: "0A5C3862CCCE7AFA"
 				type: "item"
 				item: "draconicevolution:creative_op_capacitor"
+			}]
+			rewards: [{
+				id: "3E2EA72AF1EA7EDD"
+				type: "item"
+				item: "draconicmachinery:alarm"
 			}]
 		}
 		{
@@ -157,6 +179,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2E20152F2BBDCEBC"
+				type: "item"
+				item: "draconicevolution:chaotic_energy_module"
+			}]
 		}
 		{
 			x: -4.0d
@@ -167,6 +194,11 @@
 				id: "1B7A3AFC7D5804E0"
 				type: "item"
 				item: "elementalcraft:tank_creative"
+			}]
+			rewards: [{
+				id: "674B7CF4DE3AFBD4"
+				type: "random"
+				table_id: 7725233131230401301L
 			}]
 		}
 		{
@@ -179,17 +211,35 @@
 				type: "item"
 				item: "mekanism:creative_fluid_tank"
 			}]
+			rewards: [{
+				id: "63E8BE4B0E6CFD37"
+				type: "item"
+				item: "mekanism:creative_fluid_tank"
+			}]
 		}
 		{
 			x: -2.5d
 			y: -5.25d
 			shape: "hexagon"
+			description: ["You can fill it a Gauge !"]
 			id: "35CE96B831D96522"
 			tasks: [{
 				id: "783C3B013AD3F1F9"
 				type: "item"
 				item: "mekanism:creative_chemical_tank"
 			}]
+			rewards: [
+				{
+					id: "52686E7B02FB3DCD"
+					type: "item"
+					item: "mekanism:creative_chemical_tank"
+				}
+				{
+					id: "549CCDB5961BA4D8"
+					type: "item"
+					item: "mekanism:gauge_dropper"
+				}
+			]
 		}
 		{
 			x: -3.5d
@@ -200,6 +250,12 @@
 				id: "665EBA716B2F5561"
 				type: "item"
 				item: "pneumaticcraft:creative_compressor"
+			}]
+			rewards: [{
+				id: "40954B76407F84D5"
+				type: "item"
+				item: "pneumaticcraft:volume_upgrade"
+				count: 25
 			}]
 		}
 		{
@@ -212,16 +268,32 @@
 				type: "item"
 				item: "pneumaticcraft:creative_compressed_iron_block"
 			}]
+			rewards: [{
+				id: "5CCDDC231AB24A9F"
+				type: "item"
+				item: "pneumaticcraft:heat_frame"
+			}]
 		}
 		{
-			x: 2.75d
-			y: -3.25d
+			x: 1.5d
+			y: -4.0d
 			shape: "hexagon"
 			id: "7D226B28CB70F45B"
 			tasks: [{
 				id: "7345BB8F029D60D3"
 				type: "item"
 				item: "refinedstorage:creative_controller"
+			}]
+			rewards: [{
+				id: "76D25D598BA09CC3"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:quartz_enriched_iron"
+					}
+				}
 			}]
 		}
 		{
@@ -233,6 +305,12 @@
 				id: "1F53ADB30E363BA1"
 				type: "item"
 				item: "tardis:artron_battery_creative"
+			}]
+			rewards: [{
+				id: "01022C5993FAB3B4"
+				type: "item"
+				item: "tardis:circuits"
+				count: 20
 			}]
 		}
 		{
@@ -261,6 +339,12 @@
 				type: "item"
 				item: "creativeapiary:creative_apiary_storage"
 			}]
+			rewards: [{
+				id: "179277692414F92B"
+				type: "item"
+				item: "expandedstorage:old_netherite_chest"
+				count: 64
+			}]
 		}
 		{
 			x: -7.5d
@@ -271,6 +355,11 @@
 				id: "52407FC9273E2491"
 				type: "item"
 				item: "ctiers:centrifuge_controller_tier_creative"
+			}]
+			rewards: [{
+				id: "6AD2CC03BA38E4F8"
+				type: "item"
+				item: "draconicevolution:chaotic_core"
 			}]
 		}
 		{
@@ -284,6 +373,12 @@
 				item: "ctiers:centrifuge_casing_tier_creative"
 				count: 26L
 			}]
+			rewards: [{
+				id: "1B5E05DDC87129C2"
+				type: "item"
+				item: "resourcefulbees:dragon_honeycomb_block"
+				count: 64
+			}]
 		}
 		{
 			x: -3.0d
@@ -296,6 +391,12 @@
 				type: "item"
 				item: "storagedrawers:creative_storage_upgrade"
 			}]
+			rewards: [{
+				id: "3FFDB566E607D9F4"
+				type: "item"
+				item: "storagedrawers:creative_storage_upgrade"
+				count: 2
+			}]
 		}
 		{
 			x: -1.5d
@@ -307,6 +408,12 @@
 				type: "item"
 				item: "powah:energy_cell_creative"
 			}]
+			rewards: [{
+				id: "728A0991574D55B6"
+				type: "item"
+				item: "mekanism:pellet_antimatter"
+				count: 4
+			}]
 		}
 		{
 			x: -4.5d
@@ -315,6 +422,11 @@
 			id: "7C9C962507A58F89"
 			tasks: [{
 				id: "62BA6F1F93C860C1"
+				type: "item"
+				item: "thermal:machine_efficiency_creative_augment"
+			}]
+			rewards: [{
+				id: "42958FAD8AE1C994"
 				type: "item"
 				item: "thermal:machine_efficiency_creative_augment"
 			}]
@@ -329,6 +441,11 @@
 				type: "item"
 				item: "universalgrid:creative_wireless_universal_grid"
 			}]
+			rewards: [{
+				id: "3CE664815810F012"
+				type: "item"
+				item: "mekanism:ultimate_induction_cell"
+			}]
 		}
 		{
 			x: 2.25d
@@ -340,6 +457,13 @@
 				type: "item"
 				item: "refinedstorage:creative_fluid_storage_disk"
 			}]
+			rewards: [{
+				id: "3412F52772D26534"
+				type: "item"
+				item: "draconicevolution:awakened_core"
+				count: 2
+				random_bonus: 1
+			}]
 		}
 		{
 			x: 1.5d
@@ -350,6 +474,13 @@
 				id: "0021830FCDCA603B"
 				type: "item"
 				item: "refinedstorage:creative_storage_disk"
+			}]
+			rewards: [{
+				id: "33ED41CE73B94835"
+				type: "item"
+				item: "draconicevolution:awakened_core"
+				count: 2
+				random_bonus: 1
 			}]
 		}
 		{
@@ -385,16 +516,26 @@
 				type: "item"
 				item: "refinedstorage:creative_fluid_storage_block"
 			}]
+			rewards: [{
+				id: "6D1C1250C1AB8869"
+				type: "item"
+				item: "refinedstorage:machine_casing"
+			}]
 		}
 		{
-			x: 1.5d
-			y: -4.0d
+			x: 2.75d
+			y: -3.25d
 			shape: "hexagon"
 			id: "186A77A8FF63A093"
 			tasks: [{
 				id: "31AF41E93355E26C"
 				type: "item"
 				item: "refinedstorage:creative_storage_block"
+			}]
+			rewards: [{
+				id: "642372086BD6DE0F"
+				type: "item"
+				item: "refinedstorage:machine_casing"
 			}]
 		}
 		{
@@ -413,6 +554,26 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "466C80D6E901BD96"
+					type: "item"
+					item: "allthemodium:allthemodium_ore"
+					count: 16
+				}
+				{
+					id: "28F3795E8701C5DF"
+					type: "item"
+					item: "allthemodium:unobtainium_ore"
+					count: 16
+				}
+				{
+					id: "59BE460628BE89C7"
+					type: "item"
+					item: "allthemodium:vibranium_ore"
+					count: 16
+				}
+			]
 		}
 		{
 			x: -2.5d
@@ -430,6 +591,26 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "4A57D1B7B6833C64"
+					type: "item"
+					item: "allthemodium:allthemodium_ore"
+					count: 16
+				}
+				{
+					id: "50F0AECF5ACE5C83"
+					type: "item"
+					item: "allthemodium:unobtainium_ore"
+					count: 16
+				}
+				{
+					id: "0FFD2B8D0ABF67F4"
+					type: "item"
+					item: "allthemodium:vibranium_ore"
+					count: 16
+				}
+			]
 		}
 		{
 			x: -3.5d
@@ -447,6 +628,26 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "51E37F9EA1875C68"
+					type: "item"
+					item: "allthemodium:allthemodium_ore"
+					count: 16
+				}
+				{
+					id: "1EBA246CF8D17363"
+					type: "item"
+					item: "allthemodium:unobtainium_ore"
+					count: 16
+				}
+				{
+					id: "3BA6B35164F21FA0"
+					type: "item"
+					item: "allthemodium:vibranium_ore"
+					count: 16
+				}
+			]
 		}
 		{
 			x: -2.0d
@@ -464,6 +665,26 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "63A99A3849E10772"
+					type: "item"
+					item: "allthemodium:allthemodium_ore"
+					count: 16
+				}
+				{
+					id: "06BC93B8C2B53263"
+					type: "item"
+					item: "allthemodium:unobtainium_ore"
+					count: 16
+				}
+				{
+					id: "1BCB4D10D38953C3"
+					type: "item"
+					item: "allthemodium:vibranium_ore"
+					count: 16
+				}
+			]
 		}
 		{
 			x: -3.0d
@@ -488,6 +709,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "6A1A9C9DF7F1F176"
+				type: "item"
+				item: "allthemodium:allthemodium_apple"
+				count: 64
 			}]
 		}
 	]
