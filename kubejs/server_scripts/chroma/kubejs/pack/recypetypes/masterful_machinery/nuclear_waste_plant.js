@@ -4,7 +4,7 @@ onEvent('recipes', (event) => {
       //Craft Black Gas
       {
           outputs: [
-            { type: 'masterfulmachinery:mekanism_gas', data: { gas: 'mekanism:black', amount: 250 } }
+            { type: 'masterfulmachinery:mekanism_gas', data: { gas: 'kubejs:black', amount: 250 } }
           ],
           inputs: [
               {
@@ -30,7 +30,7 @@ onEvent('recipes', (event) => {
       //Craft Black Gas
       {
           outputs: [
-            { type: 'masterfulmachinery:mekanism_gas', data: { gas: 'mekanism:black', amount: 250 } }
+            { type: 'masterfulmachinery:mekanism_gas', data: { gas: 'kubejs:black', amount: 250 } }
           ],
           inputs: [
               {
