@@ -175,7 +175,7 @@ onEvent('recipes', (event) => {
               },
           ],
           ticks: 512,
-          id: `${id_prefix}lime hexasulfuric`
+          id: `${id_prefix}lime_hexasulfuric`
       },
       //Light Gas
       {
