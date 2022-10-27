@@ -49,7 +49,7 @@ After developing Chroma Technology and Sky we decided to focus on a modpack wher
 
 <p align="center">
   <a target="_blank" href="https://bisecthosting.com/chromatech">
-    <img border="0" alt="BisectHosting" src="https://www.bisecthosting.com/partners/custom-banners/2894a78f-d1ad-4e34-9708-e94eb0023178.png" width="900" height="164">
+    <img border="0" alt="BisectHosting" src="https://imgur.com/Fma0axg.jpg">
   </a>
 </p>                                                                                                                                             
 
