@@ -131,7 +131,17 @@ onEvent('recipes', (event) => {
       ],
         output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:elementium_bee' }).toJson(),
         id: `${id_prefix}elementium_bee_jar`
-      }
+      },
+
+      {
+        inputs: [
+          {item: 'masterfulmachinery:nuclearwaste_nuclearwaste_gas_port_mekanism_gas_input'}
+        ],
+        output: {
+            item: 'masterfulmachinery:nuclearwaste_nuclearwaste_gas_port_mekanism_gas_output'
+        },
+        id: `${id_prefix}nuclearwaste_nuclearwaste_gas_port_mekanism_gas_output`
+      },
 
     ];
 
