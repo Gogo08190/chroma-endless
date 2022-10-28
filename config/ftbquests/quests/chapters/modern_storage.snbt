@@ -2349,5 +2349,15 @@
 				table_id: 3916289286237792022L
 			}]
 		}
+		{
+			x: -1.25d
+			y: -17.75d
+			id: "49F741BF8000061B"
+			tasks: [{
+				id: "71BE31206127EB96"
+				type: "item"
+				item: "kubejs:thetaneck"
+			}]
+		}
 	]
 }

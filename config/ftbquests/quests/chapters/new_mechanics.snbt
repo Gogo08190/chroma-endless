@@ -729,5 +729,15 @@
 				}
 			]
 		}
+		{
+			x: 19.75d
+			y: -4.25d
+			id: "73472FD824C84A22"
+			tasks: [{
+				id: "7143A3E63D523C83"
+				type: "item"
+				item: "kubejs:gammaneck"
+			}]
+		}
 	]
 }

@@ -1211,5 +1211,15 @@
 				item: "allthemodium:unobtainium_ore"
 			}]
 		}
+		{
+			x: 8.0d
+			y: 4.75d
+			id: "1ADFAEE5F8712560"
+			tasks: [{
+				id: "13E86E684E400A91"
+				type: "item"
+				item: "kubejs:deltaneck"
+			}]
+		}
 	]
 }

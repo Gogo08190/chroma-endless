@@ -2135,7 +2135,7 @@
 			description: [
 				"This upgrade, when inserted, will restrict the players who can open the router's GUI."
 				""
-				"By default, it only permits the player who crafted the upgrade."
+				"By default, it only allows the player who crafted the upgrade."
 			]
 			dependencies: ["037FB1EF30A6D443"]
 			id: "789308C6D247F877"
@@ -2390,7 +2390,7 @@
 			y: 7.0d
 			shape: "square"
 			description: [
-				"This augment can only added to a Vacuum Module."
+				"This augment can only be added to a Vacuum Module."
 				""
 				"When this augment is added, the Vacuum Module will absorb experience orbs instead of items."
 				""

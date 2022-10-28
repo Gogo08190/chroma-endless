@@ -1797,5 +1797,15 @@
 				xp: 100
 			}]
 		}
+		{
+			x: -33.75d
+			y: -14.0d
+			id: "12A2DFC826FACA6A"
+			tasks: [{
+				id: "7BF89A2EA41F00F8"
+				type: "item"
+				item: "kubejs:phineck"
+			}]
+		}
 	]
 }
