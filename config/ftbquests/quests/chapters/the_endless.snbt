@@ -18,6 +18,11 @@
 				type: "item"
 				item: "kubejs:calphaneck"
 			}]
+			rewards: [{
+				id: "1AB05640AD2A1418"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 		}
 		{
 			x: -4.75d
@@ -28,6 +33,11 @@
 				id: "3B695660DE821D9E"
 				type: "item"
 				item: "kubejs:cgammaneck"
+			}]
+			rewards: [{
+				id: "4CC64254D9CBF7CF"
+				type: "xp_levels"
+				xp_levels: 10
 			}]
 		}
 		{
@@ -40,6 +50,11 @@
 				type: "item"
 				item: "kubejs:cdeltaneck"
 			}]
+			rewards: [{
+				id: "7BE512139B35DE44"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 		}
 		{
 			x: -3.75d
@@ -50,6 +65,11 @@
 				id: "4694355AA466053C"
 				type: "item"
 				item: "kubejs:cksineck"
+			}]
+			rewards: [{
+				id: "4D68EDECB890F86A"
+				type: "xp_levels"
+				xp_levels: 10
 			}]
 		}
 		{
@@ -62,6 +82,11 @@
 				type: "item"
 				item: "kubejs:comeganeck"
 			}]
+			rewards: [{
+				id: "07E8C87C0F6F60A8"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 		}
 		{
 			x: -2.75d
@@ -72,6 +97,11 @@
 				id: "313355149F5B1FE2"
 				type: "item"
 				item: "kubejs:cphineck"
+			}]
+			rewards: [{
+				id: "108993BAE813EAE9"
+				type: "xp_levels"
+				xp_levels: 10
 			}]
 		}
 		{
@@ -84,6 +114,11 @@
 				type: "item"
 				item: "kubejs:ctauneck"
 			}]
+			rewards: [{
+				id: "4CD966E34762836D"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 		}
 		{
 			x: -0.75d
@@ -94,6 +129,11 @@
 				id: "354AA87DE8BE558A"
 				type: "item"
 				item: "kubejs:cthetaneck"
+			}]
+			rewards: [{
+				id: "1AD72B3525356DFF"
+				type: "xp_levels"
+				xp_levels: 10
 			}]
 		}
 		{
@@ -168,6 +208,11 @@
 				id: "30B4D80B256BA0AE"
 				type: "item"
 				item: "kubejs:endless"
+			}]
+			rewards: [{
+				id: "22351BE4BB42E3DE"
+				type: "xp_levels"
+				xp_levels: 100
 			}]
 		}
 	]

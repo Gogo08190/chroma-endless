@@ -542,6 +542,11 @@
 			x: -4.0d
 			y: 1.0d
 			shape: "diamond"
+			dependencies: [
+				"68CE8FF470DB60ED"
+				"19766092527F3280"
+				"504165F60823E9F5"
+			]
 			id: "4CB23A756989867D"
 			tasks: [{
 				id: "5F09A23F0DBC99FF"
@@ -579,6 +584,11 @@
 			x: -2.5d
 			y: 0.5d
 			shape: "diamond"
+			dependencies: [
+				"68CE8FF470DB60ED"
+				"19766092527F3280"
+				"504165F60823E9F5"
+			]
 			id: "6F1AF96F1030FD4A"
 			tasks: [{
 				id: "6A763DAD82BB01FE"
@@ -616,6 +626,11 @@
 			x: -3.5d
 			y: 0.5d
 			shape: "diamond"
+			dependencies: [
+				"68CE8FF470DB60ED"
+				"19766092527F3280"
+				"504165F60823E9F5"
+			]
 			id: "1399AC890172C43D"
 			tasks: [{
 				id: "56C06B017DCC13D4"
@@ -653,6 +668,11 @@
 			x: -2.0d
 			y: 1.0d
 			shape: "diamond"
+			dependencies: [
+				"68CE8FF470DB60ED"
+				"19766092527F3280"
+				"504165F60823E9F5"
+			]
 			id: "63434E800B423BA7"
 			tasks: [{
 				id: "760B199984125BDF"
