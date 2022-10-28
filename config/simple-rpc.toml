@@ -8,7 +8,7 @@
 	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
 	debugging = false
 	#Enable/Disable the in game config screen
-	configScreen = true
+	configScreen = false
 	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
 	launcherIntegration = false
 	#Internal Version Number. NO TOUCHY!
