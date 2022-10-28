@@ -3028,5 +3028,22 @@
 				title: "Build The Endless Reactor"
 			}]
 		}
+		{
+			x: 0.25d
+			y: 9.5d
+			shape: "octagon"
+			dependencies: ["3B58DF30C3472F0F"]
+			id: "51C3A4360D96900A"
+			tasks: [{
+				id: "4FCD22D9FA8260B2"
+				type: "item"
+				item: "kubejs:chroma_matter"
+			}]
+			rewards: [{
+				id: "4F6B41D270CE3128"
+				type: "item"
+				item: "kubejs:chroma_matter"
+			}]
+		}
 	]
 }

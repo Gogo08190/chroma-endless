@@ -7,32 +7,18 @@
 	icon: "create:large_cogwheel"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	images: [
-		{
-			x: 36.5d
-			y: 30.0d
-			width: 5.0d
-			height: 5.0d
-			rotation: 0.0d
-			image: "miniutilities:textures/item/wrench.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
-		{
-			x: 36.0d
-			y: 36.0d
-			width: 4.0d
-			height: 4.0d
-			rotation: 0.0d
-			image: "emendatusenigmatica:textures/items/steel_gear.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
-	]
+	images: [{
+		x: 36.5d
+		y: 30.0d
+		width: 5.0d
+		height: 5.0d
+		rotation: 0.0d
+		image: "miniutilities:textures/item/wrench.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
 			title: "To &l&#71797ESteel Age&r  "
@@ -634,124 +620,6 @@
 				id: "16207C45B1BC4A81"
 				type: "item"
 				item: "minecraft:lava_bucket"
-			}]
-		}
-		{
-			title: "Wheat Farm"
-			icon: "create:mechanical_harvester"
-			x: 35.25d
-			y: 35.25d
-			optional: true
-			id: "55DAB1A2D54116E3"
-			tasks: [
-				{
-					id: "2DB92538CBF37751"
-					type: "item"
-					item: "create:mechanical_harvester"
-					count: 2L
-				}
-				{
-					id: "13688713E1E74806"
-					type: "item"
-					item: "create:mechanical_bearing"
-				}
-				{
-					id: "1FE7099C1E39DBE2"
-					type: "item"
-					item: "create:linear_chassis"
-					count: 7L
-				}
-				{
-					id: "27FD2262ACBF77E1"
-					type: "item"
-					item: "minecraft:chest"
-				}
-			]
-			rewards: [{
-				id: "32277F705F39A148"
-				type: "random"
-				table_id: 3261296973996135385L
-			}]
-		}
-		{
-			title: "Wood Farm"
-			icon: "create:mechanical_saw"
-			x: 36.75d
-			y: 35.25d
-			optional: true
-			id: "7400971E05DD7896"
-			tasks: [
-				{
-					id: "01E19D8E260D53BE"
-					type: "item"
-					item: "create:mechanical_saw"
-					count: 4L
-				}
-				{
-					id: "7FD1441602BA8AD4"
-					type: "item"
-					item: "minecraft:chest"
-				}
-				{
-					id: "240142F0D7074EDE"
-					type: "item"
-					item: "create:portable_storage_interface"
-					count: 2L
-				}
-				{
-					id: "23C77495CE8EC5CE"
-					type: "item"
-					item: "create:andesite_funnel"
-					count: 2L
-				}
-				{
-					id: "18154999C081EE58"
-					type: "item"
-					item: "create:deployer"
-					count: 4L
-				}
-				{
-					id: "67A8CB727B48648D"
-					type: "item"
-					item: "minecraft:minecart"
-				}
-				{
-					id: "63BCE76F97A0D80C"
-					type: "item"
-					item: "create:linear_chassis"
-					count: 9L
-				}
-				{
-					id: "00F3F054C7AC48D4"
-					type: "item"
-					item: "create:cart_assembler"
-				}
-				{
-					id: "41A5C016E4188EE6"
-					type: "item"
-					item: "minecraft:rail"
-				}
-				{
-					id: "66D55A9F15AF7AA5"
-					type: "item"
-					item: "minecraft:powered_rail"
-				}
-				{
-					id: "41491395C6324C2D"
-					type: "item"
-					item: "create:belt_connector"
-				}
-				{
-					id: "442022D159767FA9"
-					type: "item"
-					item: "create:shaft"
-					count: 2L
-				}
-			]
-			rewards: [{
-				id: "6A3AF85936B902D6"
-				type: "random"
-				table_id: 3758553063222819394L
 			}]
 		}
 		{

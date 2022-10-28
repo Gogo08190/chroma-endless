@@ -2034,8 +2034,10 @@
 		}
 		{
 			x: -1.75d
-			y: 9.75d
+			y: 11.5d
 			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["4BD29526B90994E7"]
 			id: "6FD0CEB7984BDC32"
 			tasks: [{
 				id: "3C9FC25987702329"
@@ -2050,8 +2052,10 @@
 		}
 		{
 			x: -1.25d
-			y: 10.5d
+			y: 12.25d
 			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["4BD29526B90994E7"]
 			id: "5E2956AAA202B3EB"
 			tasks: [{
 				id: "51DAC04B2C7C2C2E"
@@ -2066,8 +2070,10 @@
 		}
 		{
 			x: -0.75d
-			y: 9.75d
+			y: 11.5d
 			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["4BD29526B90994E7"]
 			id: "37E0FFDCDEE5CE9F"
 			tasks: [{
 				id: "298BBD18F04B105A"
@@ -2082,8 +2088,10 @@
 		}
 		{
 			x: -0.25d
-			y: 10.5d
+			y: 12.25d
 			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["4BD29526B90994E7"]
 			id: "6CDE073EC25AD7BF"
 			tasks: [{
 				id: "51CDD8D72F11429D"
@@ -2098,8 +2106,10 @@
 		}
 		{
 			x: 2.25d
-			y: 10.5d
+			y: 12.25d
 			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["4BD29526B90994E7"]
 			id: "25C395671F61EDF4"
 			tasks: [{
 				id: "155A02C3C9851EE9"
@@ -2114,8 +2124,10 @@
 		}
 		{
 			x: 2.75d
-			y: 9.75d
+			y: 11.5d
 			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["4BD29526B90994E7"]
 			id: "3668C2F51E001A14"
 			tasks: [{
 				id: "772A029993D600B7"
@@ -2130,8 +2142,10 @@
 		}
 		{
 			x: 3.25d
-			y: 10.5d
+			y: 12.25d
 			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["4BD29526B90994E7"]
 			id: "57019AC4E2D9921B"
 			tasks: [{
 				id: "2242A9ADF0D38562"
@@ -2146,8 +2160,10 @@
 		}
 		{
 			x: 3.75d
-			y: 9.75d
+			y: 11.5d
 			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["4BD29526B90994E7"]
 			id: "4E0E9B614C5F5DFB"
 			tasks: [{
 				id: "412473A1E8E55CBE"
@@ -2162,7 +2178,7 @@
 		}
 		{
 			x: 1.0d
-			y: 11.5d
+			y: 13.25d
 			shape: "gear"
 			dependencies: [
 				"4E0E9B614C5F5DFB"
@@ -2185,6 +2201,76 @@
 				id: "2DD610382F8B997B"
 				type: "item"
 				item: "extendedcrafting:the_ultimate_ingot"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 15.0d
+			shape: "rsquare"
+			dependencies: ["52DF88FA64094131"]
+			id: "7161596522EFA86F"
+			tasks: [{
+				id: "39F6C66A075F3E05"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_component"
+			}]
+			rewards: [{
+				id: "453535F25755A59C"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_ingot"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 16.5d
+			shape: "hexagon"
+			dependencies: ["7161596522EFA86F"]
+			size: 1.3d
+			id: "16DE33CD6BB0DA52"
+			tasks: [{
+				id: "0B49423937D85088"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_catalyst"
+			}]
+			rewards: [{
+				id: "759C99E733910C3A"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_component"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 10.0d
+			shape: "rsquare"
+			dependencies: ["358A0D2556CCA397"]
+			id: "47CAC691E15A3F80"
+			tasks: [{
+				id: "625BECBA2A381C16"
+				type: "item"
+				item: "extendedcrafting:enhanced_ender_component"
+			}]
+			rewards: [{
+				id: "7957C7B7BF7D9432"
+				type: "item"
+				item: "extendedcrafting:enhanced_ender_ingot"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 11.25d
+			shape: "hexagon"
+			dependencies: ["47CAC691E15A3F80"]
+			size: 1.3d
+			id: "08804E5AA5FC8CCC"
+			tasks: [{
+				id: "27ADEA156CB628AD"
+				type: "item"
+				item: "extendedcrafting:enhanced_ender_catalyst"
+			}]
+			rewards: [{
+				id: "5A9A49D3DC58EAAE"
+				type: "item"
+				item: "extendedcrafting:enhanced_ender_component"
 			}]
 		}
 	]

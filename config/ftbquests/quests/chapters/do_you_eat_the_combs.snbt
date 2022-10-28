@@ -3725,5 +3725,113 @@
 				random_bonus: 5
 			}]
 		}
+		{
+			x: -4.0d
+			y: 0.75d
+			shape: "rsquare"
+			dependencies: ["713036714476EF69"]
+			id: "422F093F84E4C8BD"
+			tasks: [{
+				id: "129B19190C18D420"
+				type: "item"
+				item: "resourcefulbees:unobtainium_honey_bottle"
+			}]
+			rewards: [{
+				id: "4C1F92F2C1E420E0"
+				type: "item"
+				item: "resourcefulbees:unobtainium_honey_bottle"
+				random_bonus: 5
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.75d
+			shape: "rsquare"
+			dependencies: ["0760AEB4D4BB74C5"]
+			id: "6C2D356B53114AA1"
+			tasks: [{
+				id: "47B8667493CA986A"
+				type: "item"
+				item: "resourcefulbees:vibranium_honey_bottle"
+			}]
+			rewards: [{
+				id: "4C9C982A505F5661"
+				type: "item"
+				item: "resourcefulbees:vibranium_honey_bottle"
+				random_bonus: 5
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.75d
+			shape: "rsquare"
+			dependencies: ["1A6EA32BFBE0BAAE"]
+			id: "79E10BF9B4AAF47D"
+			tasks: [{
+				id: "0759D48C74B611B1"
+				type: "item"
+				item: "resourcefulbees:allthemodium_honey_bottle"
+			}]
+			rewards: [{
+				id: "4CF0E379B4D90391"
+				type: "item"
+				item: "resourcefulbees:allthemodium_honey_bottle"
+				random_bonus: 5
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.75d
+			shape: "rsquare"
+			dependencies: ["713036714476EF69"]
+			id: "09BBB9954BFACEA9"
+			tasks: [{
+				id: "1AC2E21AD2FC8DE2"
+				type: "item"
+				item: "resourcefulbees:unobtainium_honeycomb"
+			}]
+			rewards: [{
+				id: "47B5424839F058E0"
+				type: "item"
+				item: "resourcefulbees:unobtainium_honeycomb"
+				random_bonus: 5
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.75d
+			shape: "rsquare"
+			dependencies: ["0760AEB4D4BB74C5"]
+			id: "63118B358B3DB510"
+			tasks: [{
+				id: "258807A4E45F8D37"
+				type: "item"
+				item: "resourcefulbees:vibranium_honeycomb"
+			}]
+			rewards: [{
+				id: "5E3A363EF9CBBC14"
+				type: "item"
+				item: "resourcefulbees:vibranium_honeycomb"
+				random_bonus: 5
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.75d
+			shape: "rsquare"
+			dependencies: ["1A6EA32BFBE0BAAE"]
+			id: "4FF0EBA54A11BB08"
+			tasks: [{
+				id: "441BF8AD504AB734"
+				type: "item"
+				item: "resourcefulbees:allthemodium_honeycomb"
+			}]
+			rewards: [{
+				id: "52F7C248AED4951F"
+				type: "item"
+				item: "resourcefulbees:allthemodium_honeycomb"
+				random_bonus: 5
+			}]
+		}
 	]
 }

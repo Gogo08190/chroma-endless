@@ -634,7 +634,7 @@
 		}
 		{
 			x: -10.25d
-			y: -0.75d
+			y: -1.25d
 			hide_dependency_lines: true
 			dependencies: ["1C7C41C2FA427B8F"]
 			id: "706572395DE678AD"
@@ -648,118 +648,6 @@
 				type: "item"
 				item: "minecraft:flint"
 				count: 4
-			}]
-		}
-		{
-			title: "Traveler's Gear"
-			x: -10.25d
-			y: -1.75d
-			hide_dependency_lines: true
-			dependencies: ["4339BD51E04343A5"]
-			id: "49B73C45E3F76F48"
-			tasks: [
-				{
-					id: "3BE99CF7C0036140"
-					type: "item"
-					item: {
-						id: "tconstruct:travelers_helmet"
-						Count: 1b
-						tag: {
-							tic_multipliers: { }
-							tic_stats: {
-								"tconstruct:durability": 110.0f
-								"tconstruct:armor": 1.0f
-							}
-							tic_broken: 0b
-							HideFlags: 3
-							tic_modifiers: [ ]
-							Damage: 0
-							tic_persistent_data: {
-								abilities: 1
-								defense: 2
-								upgrades: 3
-							}
-						}
-					}
-				}
-				{
-					id: "6CCF05E89E2C54D5"
-					type: "item"
-					item: {
-						id: "tconstruct:travelers_chestplate"
-						Count: 1b
-						tag: {
-							tic_multipliers: { }
-							tic_stats: {
-								"tconstruct:durability": 160.0f
-								"tconstruct:armor": 5.0f
-							}
-							tic_broken: 0b
-							HideFlags: 3
-							tic_modifiers: [ ]
-							Damage: 0
-							tic_persistent_data: {
-								abilities: 1
-								defense: 2
-								upgrades: 3
-							}
-						}
-					}
-				}
-				{
-					id: "1B06659C63F2FBA9"
-					type: "item"
-					item: {
-						id: "tconstruct:travelers_leggings"
-						Count: 1b
-						tag: {
-							tic_multipliers: { }
-							tic_stats: {
-								"tconstruct:durability": 150.0f
-								"tconstruct:armor": 4.0f
-							}
-							tic_broken: 0b
-							HideFlags: 3
-							tic_modifiers: [ ]
-							Damage: 0
-							tic_persistent_data: {
-								abilities: 1
-								defense: 2
-								upgrades: 3
-							}
-						}
-					}
-				}
-				{
-					id: "7045A7B547142F49"
-					type: "item"
-					item: {
-						id: "tconstruct:travelers_boots"
-						Count: 1b
-						tag: {
-							tic_multipliers: { }
-							tic_stats: {
-								"tconstruct:durability": 130.0f
-								"tconstruct:armor": 1.0f
-							}
-							tic_broken: 0b
-							HideFlags: 3
-							tic_modifiers: [ ]
-							Damage: 0
-							tic_persistent_data: {
-								abilities: 1
-								defense: 2
-								upgrades: 3
-							}
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "1F76C5009639947B"
-				type: "item"
-				item: "minecraft:leather"
-				count: 5
 			}]
 		}
 		{

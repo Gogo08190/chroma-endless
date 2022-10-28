@@ -2,7 +2,11 @@
 	id: "3132BF6F6C0E8831"
 	order_index: 22
 	title: "Botania Rune 2"
-	icon: "kubejs:ultimate_rune"
+	icon: {
+		id: "botania:cosmetic_tiny_potato_mask"
+		Count: 1b
+		tag: { }
+	}
 	loot_size: 1
 	rewards: [
 		{ item: "botania:rune_spring" }

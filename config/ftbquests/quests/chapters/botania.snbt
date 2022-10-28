@@ -243,6 +243,7 @@
 				"Right-clicking a petal upon the ground will &abury it&r, making it emit particles."
 				"These petals can also be crushed into the corresponding &5Dyes&r."
 			]
+			dependencies: ["1416718F40ED7569"]
 			id: "1BA1DC174E2C6675"
 			tasks: [{
 				id: "5C55422752CE8BD0"
@@ -473,6 +474,7 @@
 		{
 			x: 0.5d
 			y: 4.25d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["718EC0B761929198"]
 			id: "2000D3ECF04FDFF9"
@@ -490,6 +492,7 @@
 		{
 			x: 0.5d
 			y: 5.5d
+			shape: "hexagon"
 			dependencies: ["2000D3ECF04FDFF9"]
 			id: "25D4750DE65A9B6A"
 			tasks: [{
@@ -506,6 +509,7 @@
 		{
 			x: 1.5d
 			y: 4.25d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["718EC0B761929198"]
 			id: "29C100D7E40EDD02"
@@ -523,6 +527,7 @@
 		{
 			x: 1.5d
 			y: 5.5d
+			shape: "hexagon"
 			dependencies: ["29C100D7E40EDD02"]
 			id: "28A41D9F9F5EDC22"
 			tasks: [{
@@ -539,6 +544,7 @@
 		{
 			x: 2.5d
 			y: 4.25d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["718EC0B761929198"]
 			id: "318D74983BAEF3FE"
@@ -556,6 +562,7 @@
 		{
 			x: 2.5d
 			y: 5.5d
+			shape: "hexagon"
 			dependencies: ["318D74983BAEF3FE"]
 			id: "5FB687094DF02AFA"
 			tasks: [{
@@ -572,6 +579,7 @@
 		{
 			x: 3.5d
 			y: 4.25d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["718EC0B761929198"]
 			id: "3CED595C62B4BD93"
@@ -589,6 +597,7 @@
 		{
 			x: 3.5d
 			y: 5.5d
+			shape: "hexagon"
 			dependencies: ["3CED595C62B4BD93"]
 			id: "0B5CF37CF4C579F9"
 			tasks: [{
@@ -605,6 +614,7 @@
 		{
 			x: 4.5d
 			y: 4.25d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["718EC0B761929198"]
 			id: "2C38E0C394EAC6E4"
@@ -622,6 +632,7 @@
 		{
 			x: 4.5d
 			y: 5.5d
+			shape: "hexagon"
 			dependencies: ["2C38E0C394EAC6E4"]
 			id: "181F5BD182A77428"
 			tasks: [{
@@ -638,6 +649,7 @@
 		{
 			x: 5.5d
 			y: 4.25d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["40AA0A493F0620AA"]
 			id: "7A4EF12F6526A3A0"
@@ -655,6 +667,7 @@
 		{
 			x: 5.5d
 			y: 5.5d
+			shape: "hexagon"
 			dependencies: ["7A4EF12F6526A3A0"]
 			id: "48473BD1A56595D0"
 			tasks: [{
@@ -671,6 +684,7 @@
 		{
 			x: 6.5d
 			y: 4.25d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["40AA0A493F0620AA"]
 			id: "718EC0B761929198"
@@ -688,6 +702,7 @@
 		{
 			x: 6.5d
 			y: 5.5d
+			shape: "hexagon"
 			dependencies: ["718EC0B761929198"]
 			id: "769EBF6320528934"
 			tasks: [{
@@ -704,6 +719,7 @@
 		{
 			x: 7.5d
 			y: 5.5d
+			shape: "hexagon"
 			dependencies: ["4720A19339C73893"]
 			id: "513897B7893A0EE4"
 			tasks: [{
@@ -720,6 +736,7 @@
 		{
 			x: 7.5d
 			y: 4.25d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["718EC0B761929198"]
 			id: "4720A19339C73893"
@@ -1704,6 +1721,7 @@
 		{
 			x: 15.75d
 			y: -3.0d
+			shape: "hexagon"
 			dependencies: ["10DEB660ACF55813"]
 			id: "507767B7232417F3"
 			tasks: [{
@@ -1742,6 +1760,7 @@
 		{
 			x: 14.25d
 			y: 1.75d
+			shape: "square"
 			dependencies: ["6D49CA91CFE7F8B5"]
 			optional: true
 			id: "32C55C3213E49BA8"
@@ -1767,6 +1786,7 @@
 		{
 			x: 15.25d
 			y: 1.75d
+			shape: "square"
 			dependencies: ["6D49CA91CFE7F8B5"]
 			optional: true
 			id: "03A04BF119861F10"
@@ -1793,6 +1813,7 @@
 		{
 			x: 16.25d
 			y: 1.75d
+			shape: "square"
 			dependencies: ["6D49CA91CFE7F8B5"]
 			optional: true
 			id: "2A253B221E8A9318"
@@ -1816,6 +1837,7 @@
 		{
 			x: 17.25d
 			y: 1.75d
+			shape: "square"
 			dependencies: ["6D49CA91CFE7F8B5"]
 			optional: true
 			id: "01A050714F1063CF"
@@ -1839,6 +1861,7 @@
 		{
 			x: 18.25d
 			y: 1.75d
+			shape: "square"
 			dependencies: ["6D49CA91CFE7F8B5"]
 			optional: true
 			id: "548E51819668B016"
@@ -1862,6 +1885,7 @@
 		{
 			x: 19.25d
 			y: 1.75d
+			shape: "square"
 			dependencies: ["6D49CA91CFE7F8B5"]
 			optional: true
 			id: "059D2D844AF07433"
@@ -2105,12 +2129,15 @@
 		{
 			x: 8.5d
 			y: 1.5d
+			shape: "octagon"
 			dependencies: [
 				"716178CB7E9006EE"
 				"1550578CA13D8BF5"
 				"78D4030D978D9180"
 				"1AB26ED920215B51"
+				"4BD29526B90994E7"
 			]
+			size: 1.3d
 			id: "53A398E54C8A19F8"
 			tasks: [{
 				id: "4378423A9915065B"
@@ -2644,8 +2671,9 @@
 			}]
 		}
 		{
-			x: 17.75d
-			y: -5.25d
+			x: 18.25d
+			y: -4.75d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: [
 				"0D85A634D440E434"
@@ -2666,8 +2694,9 @@
 			}]
 		}
 		{
-			x: 17.75d
+			x: 18.75d
 			y: -4.25d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: [
 				"0D85A634D440E434"
@@ -2688,8 +2717,9 @@
 			}]
 		}
 		{
-			x: 17.75d
-			y: -3.25d
+			x: 18.25d
+			y: -2.75d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: [
 				"0D85A634D440E434"
@@ -2710,8 +2740,9 @@
 			}]
 		}
 		{
-			x: 17.75d
+			x: 18.75d
 			y: -2.25d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: [
 				"0D85A634D440E434"
@@ -2733,6 +2764,7 @@
 		{
 			x: 18.75d
 			y: -5.25d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: [
 				"0D85A634D440E434"
@@ -2753,8 +2785,9 @@
 			}]
 		}
 		{
-			x: 18.75d
-			y: -4.25d
+			x: 19.25d
+			y: -4.75d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: [
 				"0D85A634D440E434"
@@ -2776,6 +2809,7 @@
 		{
 			x: 18.75d
 			y: -3.25d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: [
 				"0D85A634D440E434"
@@ -2795,8 +2829,9 @@
 			}]
 		}
 		{
-			x: 18.75d
-			y: -2.25d
+			x: 19.25d
+			y: -2.75d
+			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: [
 				"0D85A634D440E434"
