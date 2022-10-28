@@ -2,7 +2,7 @@
 #General Config Section
 [general]
 	#The Application ID of the Discord App to use
-	clientID = 762726289341677668
+	clientID = 1035468908284608512
 	#Enable/Disable the mod
 	enabled = true
 	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
@@ -215,4 +215,3 @@
 		largeImageText = "In the End"
 		smallImageKey = "mclogo"
 		smallImageText = "%mods% mods installed"
-
