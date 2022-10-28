@@ -2190,6 +2190,11 @@
 				type: "item"
 				item: "prettypipes:item_terminal"
 			}]
+			rewards: [{
+				id: "1DC64FE2691AC247"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 16.5d
@@ -2201,6 +2206,11 @@
 				id: "0A650B4069BD3A99"
 				type: "item"
 				item: "prettypipes:crafting_terminal"
+			}]
+			rewards: [{
+				id: "13C061D28F98FE7B"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{
@@ -2214,6 +2224,11 @@
 				id: "2C5AC652DA411D0E"
 				type: "item"
 				item: "prettypipes:pressurizer"
+			}]
+			rewards: [{
+				id: "1BBDA58609008DD3"
+				type: "random"
+				table_id: 6524702956512656804L
 			}]
 		}
 		{

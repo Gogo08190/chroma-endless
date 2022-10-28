@@ -1899,6 +1899,12 @@
 				type: "item"
 				item: "mekanismgenerators:bio_generator"
 			}]
+			rewards: [{
+				id: "1CC460CB93BB7B59"
+				type: "item"
+				item: "mekanism:bio_fuel"
+				count: 8
+			}]
 		}
 		{
 			title: "Fusion Reactor"
