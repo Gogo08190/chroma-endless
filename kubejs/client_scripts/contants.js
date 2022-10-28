@@ -121,6 +121,9 @@ const itemsToHide = [
     'byg:brimstone_nether_gold_ore',
     'byg:brimstone_nether_quartz_ore',
 
+    'betterendforge:crystalline_sulphur',
+    'betterendforge:sulphur_crystal',
+
     'create:powdered_obsidian',
     'create:honey_bucket',
     'create:copper_ore',
