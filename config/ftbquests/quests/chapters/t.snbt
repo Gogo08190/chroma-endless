@@ -5694,15 +5694,5 @@
 				item: "mekanism:ultimate_chemical_tank"
 			}]
 		}
-		{
-			x: -24.5d
-			y: -12.5d
-			id: "30288625764EB0B0"
-			tasks: [{
-				id: "7F3A3C7AA523FE94"
-				type: "item"
-				item: "kubejs:omeganeck"
-			}]
-		}
 	]
 }

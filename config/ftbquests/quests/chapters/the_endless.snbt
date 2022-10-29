@@ -225,5 +225,158 @@
 				xp_levels: 100
 			}]
 		}
+		{
+			x: -6.75d
+			y: -4.75d
+			dependencies: [
+				"766AF7476B2AA9B6"
+				"4FF742939987793B"
+				"17E63FB824FA537E"
+				"21395AA7C28FA759"
+				"76623C16574C8BB7"
+				"0C1A0B516A0A88F5"
+				"2DC2B3266CD0DBF5"
+			]
+			id: "1ADFAEE5F8712560"
+			tasks: [{
+				id: "13E86E684E400A91"
+				type: "item"
+				item: "kubejs:deltaneck"
+			}]
+		}
+		{
+			x: 0.25d
+			y: -4.75d
+			dependencies: [
+				"77E182A1ECB1EECA"
+				"04F69FBB425339C9"
+				"5168728CB1A4A42E"
+				"147EA00F829DD6A6"
+				"0C33C381806BB2C1"
+				"13D4EFBF9D6020E0"
+				"5049E0E345147121"
+				"0DAB80BC67662FB0"
+			]
+			id: "1653165E1730C16D"
+			tasks: [{
+				id: "5F363EFF263B5D25"
+				type: "item"
+				item: "kubejs:tauneck"
+			}]
+		}
+		{
+			x: -0.75d
+			y: -4.75d
+			dependencies: [
+				"2451E767B2700F8B"
+				"52DF88FA64094131"
+				"040BA26E02982BB4"
+				"19398704702EA1E4"
+				"1AE554062A3D1379"
+			]
+			id: "49F741BF8000061B"
+			tasks: [{
+				id: "71BE31206127EB96"
+				type: "item"
+				item: "kubejs:thetaneck"
+			}]
+		}
+		{
+			x: -1.75d
+			y: -4.75d
+			dependencies: [
+				"73368EF2948452D9"
+				"14FF9B95901366D2"
+				"2A935EC97691344D"
+				"4CE0BEACAE9F5563"
+				"52F8663AB419BDA9"
+				"3D33E91A8207F816"
+				"53F8FF29F8F02DC0"
+			]
+			id: "30288625764EB0B0"
+			tasks: [{
+				id: "7F3A3C7AA523FE94"
+				type: "item"
+				item: "kubejs:omeganeck"
+			}]
+		}
+		{
+			x: -2.75d
+			y: -4.75d
+			dependencies: [
+				"7B9FBBCD2F962A0B"
+				"121DF7B31DB4BEF8"
+				"59A8BE208A1433B3"
+				"53C00669B4F7C55C"
+				"3137691FEB302A87"
+				"4E6150E4B58BE8C4"
+			]
+			id: "12A2DFC826FACA6A"
+			tasks: [{
+				id: "7BF89A2EA41F00F8"
+				type: "item"
+				item: "kubejs:phineck"
+			}]
+		}
+		{
+			x: -3.75d
+			y: -4.75d
+			dependencies: [
+				"0F5064AAAA97F693"
+				"53E0B3F747685F9E"
+				"1B5469D64AE3F850"
+				"45ACEDB8B8D30E96"
+				"567BBF4D2121418C"
+				"5FC7404520358E37"
+				"08672636B514D519"
+				"5391B6ED1C3CBC11"
+			]
+			id: "2FA3554CD4C0C5FE"
+			tasks: [{
+				id: "1A209FBE40F2509D"
+				type: "item"
+				item: "kubejs:ksineck"
+			}]
+		}
+		{
+			x: -4.75d
+			y: -4.75d
+			dependencies: [
+				"3EAFE946D0476552"
+				"387646F8C259D92F"
+				"7A8BBA9059C54D29"
+				"3D3D8B33A6D7BE77"
+				"7D06301D09F5D628"
+				"147F3AE2799C6351"
+				"78D4030D978D9180"
+				"507767B7232417F3"
+				"016DFBA6BBFF30F6"
+			]
+			id: "73472FD824C84A22"
+			tasks: [{
+				id: "7143A3E63D523C83"
+				type: "item"
+				item: "kubejs:gammaneck"
+			}]
+		}
+		{
+			x: -5.75d
+			y: -4.75d
+			dependencies: [
+				"71295F41D2D36494"
+				"3F065474A68AC2BF"
+				"414FB84D8E12D770"
+				"06010DF800031AA0"
+				"6556C41B660B08F6"
+				"609ABEA205AC2CB7"
+				"055C33DF21E33F50"
+			]
+			id: "3573DB71C2E567DE"
+			tasks: [{
+				id: "349343FB8695A158"
+				type: "item"
+				item: "kubejs:alphaneck"
+			}]
+		}
 	]
 }
