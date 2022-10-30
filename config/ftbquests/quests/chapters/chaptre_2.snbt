@@ -397,8 +397,8 @@
 					Icon: "chroma:textures/quests/tinkers_smeltery_icon.png"
 				}
 			}
-			x: -7.5d
-			y: -0.1875d
+			x: -7.5625d
+			y: 0.0d
 			shape: "square"
 			subtitle: "Hotter Than Furnaces"
 			description: [

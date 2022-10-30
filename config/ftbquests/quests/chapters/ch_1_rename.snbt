@@ -701,8 +701,8 @@
 		{
 			title: "Rose Quartz"
 			icon: "create:rose_quartz"
-			x: 13.0d
-			y: 32.0d
+			x: 13.5d
+			y: 32.5d
 			description: [
 				"&4Sand Paper&r is a tool used only to create Polished Rose Quartz."
 				""
@@ -1818,8 +1818,8 @@
 			}]
 		}
 		{
-			x: 11.75d
-			y: 33.0d
+			x: 13.5d
+			y: 33.5d
 			dependencies: ["1B29F8E51716D37A"]
 			id: "6B58A9E61BE8FE02"
 			tasks: [{
@@ -1834,8 +1834,8 @@
 			}]
 		}
 		{
-			x: 10.75d
-			y: 32.0d
+			x: 12.5d
+			y: 33.0d
 			dependencies: [
 				"6B58A9E61BE8FE02"
 				"13446A385D0DD1BA"

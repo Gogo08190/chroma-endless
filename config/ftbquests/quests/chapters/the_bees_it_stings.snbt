@@ -4943,11 +4943,24 @@
 				type: "item"
 				item: "minecraft:beehive"
 			}]
-			rewards: [{
-				id: "5B652ADCBA796B9F"
-				type: "item"
-				item: "minecraft:beehive"
-			}]
+			rewards: [
+				{
+					id: "11F221D4D39C0A89"
+					type: "item"
+					item: {
+						id: "minecraft:shears"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "49810729D4A3FCF1"
+					type: "item"
+					item: "minecraft:dispenser"
+				}
+			]
 		}
 		{
 			x: -4.25d
