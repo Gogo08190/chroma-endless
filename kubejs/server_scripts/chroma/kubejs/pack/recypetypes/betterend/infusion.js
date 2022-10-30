@@ -34,7 +34,6 @@ onEvent('recipes', (event) => {
             },
             {
                 input: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:ender_bee' }).weakNBT().toJson(),
-                output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:thallasium_bee' }),
                 output: {
                   id: 'resourcefulbees:bee_jar',
                   Count: 1,
@@ -57,7 +56,6 @@ onEvent('recipes', (event) => {
             },
             {
                 input: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:thallasium_bee' }).weakNBT().toJson(),
-                output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:terminite_bee' }),
                 output: {
                   id: 'resourcefulbees:bee_jar',
                   Count: 1,
@@ -80,7 +78,6 @@ onEvent('recipes', (event) => {
             },
             {
                 input: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:terminite_bee' }).weakNBT().toJson(),
-                output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:aeternium_bee' }),
                 output: {
                   id: 'resourcefulbees:bee_jar',
                   Count: 1,
@@ -103,7 +100,6 @@ onEvent('recipes', (event) => {
             },
             {
                 input: 'betterendforge:eternal_crystal',
-                output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:aeternium_bee' }),
                 output: {
                   id: 'kubejs:deltaneck',
                   Count: 1
