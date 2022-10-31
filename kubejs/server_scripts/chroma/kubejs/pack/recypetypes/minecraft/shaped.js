@@ -207,7 +207,7 @@ onEvent('recipes', (event) => {
           output: 'minecraft:smithing_table',
           pattern: ['AAA', 'BCD', 'CCC'],
           key: {
-            A: 'create:shadow_steel',
+            A: '#forge:plates/steel',
             B: 'betterendforge:iron_hammer',
             C: 'immersiveengineering:treated_wood_horizontal',
             D: 'minecraft:shears'
