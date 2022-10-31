@@ -111,8 +111,9 @@ onEvent('recipes', (event) => {
             type: 'unheated',
             id: 'refinedstorage:raw_advanced_processor'
         },
+        //Whisk
         {
-            inputs: [Item.of('#forge:plates/iron', 5), Item.of('#forge:ingots/andesite_alloy', 2)],
+            inputs: [Item.of('#forge:plates/iron', 3), Item.of('#forge:ingots/andesite_alloy', 2)],
             output: 'create:whisk',
             type: 'unheated',
             id: 'create:crafting/kinetics/whisk'
