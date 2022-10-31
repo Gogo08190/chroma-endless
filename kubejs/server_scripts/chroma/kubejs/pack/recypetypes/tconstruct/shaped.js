@@ -1,15 +1,6 @@
 onEvent('recipes', (event) => {
     const recipes = [
       {
-          output: 'tconstruct:seared_table',
-          pattern: ['SSS', 'STS', 'S S'],
-          key: {
-              S: 'tconstruct:seared_brick',
-              T: 'create:turntable'
-          },
-          id: 'tconstruct:smeltery/seared/table'
-      },
-      {
           output: 'tconstruct:seared_heater',
           pattern: ['SSS', 'STS', 'SSS'],
           key: {
