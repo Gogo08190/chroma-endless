@@ -60,7 +60,7 @@ onEvent('recipes', (event) => {
             key: {
                 S: 'ars_nouveau:arcane_stone',
                 I: 'elementalcraft:swift_alloy_block',
-                G: 'emendatusenigmatica:arcane_block',
+                G: ['ars_nouveau:mana_gem_block','emendatusenigmatica:arcane_block'],
                 A: 'kubejs:spirit_attuned_block'
             },
             id: 'ars_nouveau:enchanting_apparatus'
@@ -308,7 +308,7 @@ onEvent('recipes', (event) => {
                 B: '#forge:ingots/brass',
                 A: 'kubejs:spirit_attuned_block',
                 P: 'ars_nouveau:arcane_pedestal',
-                S: 'emendatusenigmatica:arcane_block'
+                S: ['ars_nouveau:mana_gem_block','emendatusenigmatica:arcane_block']
 
             },
             id: 'ars_nouveau:ritual'
