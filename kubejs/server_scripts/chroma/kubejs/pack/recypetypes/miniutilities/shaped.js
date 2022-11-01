@@ -290,6 +290,16 @@ onEvent('recipes', (event) => {
         C: '#forge:gems/mana_diamond'
       },
       id: 'miniutilities:unstable_ingot'
+    },
+    {
+      output: 'miniutilities:magical_egg',
+      pattern: [' X ', 'IEI', ' X '],
+      key: {
+        X: 'miniutilities:experience_pearl',
+        I: '#forge:ingots/gaia_spirit',
+        E: '#forge:eggs'
+      },
+      id: 'miniutilities:magical_egg'
     }
   ];
 
