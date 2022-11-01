@@ -46,7 +46,7 @@ onEvent('recipes', (event) => {
             pattern: ['LTL', 'CSC', 'NIN'],
             key: {
                 L: 'prefab:item_coil_of_lanterns',
-                I: 'pneumaticcraft:compressed_iron_block',
+                I: '#forge:storage_blocks/steel',
                 T: 'prefab:item_ton_of_timber',
                 S: 'minecraft:nether_star',
                 C: 'prefab:block_triple_compressed_stone',
@@ -60,7 +60,7 @@ onEvent('recipes', (event) => {
             pattern: ['TTT', 'TDT', 'CWC'],
             key: {
                 D: 'expandedstorage:gold_chest',
-                W: 'pneumaticcraft:compressed_iron_block',
+                W: '#forge:storage_blocks/steel',
                 T: 'prefab:block_triple_compressed_stone',
                 C: 'prefab:item_coil_of_lanterns'
             },
@@ -96,7 +96,7 @@ onEvent('recipes', (event) => {
             key: {
                 L: '#minecraft:logs',
                 C: 'thermal:wrench',
-                I: 'pneumaticcraft:compressed_iron_gear',
+                I: '#forge:gears/steel',
                 W: 'prefab:item_warehouse_upgrade',
                 M: 'prefab:item_moderate_house'
             },
@@ -170,7 +170,7 @@ onEvent('recipes', (event) => {
             pattern: ['CCC', ' C ', ' T '],
             key: {
                 T: 'prefab:block_triple_compressed_stone',
-                C: 'pneumaticcraft:compressed_bricks'
+                C: 'minecraft:polished_blackstone_bricks'
             },
             id: 'prefab:watch_tower'
         },
@@ -180,7 +180,7 @@ onEvent('recipes', (event) => {
             pattern: [' S ', 'SCS', ' S '],
             key: {
                 S: 'prefab:item_start_house',
-                C: 'pneumaticcraft:ingot_iron_compressed'
+                C: '#forge:ingots/steel'
             },
             id: 'prefab:moderate_house'
         },
@@ -206,9 +206,9 @@ onEvent('recipes', (event) => {
                 F: 'minecraft:blast_furnace',
                 S: 'prefab:block_triple_compressed_stone',
                 W: '#minecraft:beds',
-                T: 'prefab:item_ton_of_timber'
+                T: 'prefab:item_bundle_of_timber'
             },
-            id: 'prefab:start_house'
+            id: 'prefab:starting_house'
         },
 
         {
@@ -216,7 +216,7 @@ onEvent('recipes', (event) => {
             pattern: ['ICI', 'TOT', 'III'],
             key: {
                 C: 'prefab:item_coil_of_lanterns',
-                I: 'pneumaticcraft:compressed_iron_block',
+                I: '#forge:storage_blocks/steel',
                 T: 'prefab:block_triple_compressed_stone',
                 O: 'prefab:block_double_compressed_obsidian'
             },
@@ -263,7 +263,7 @@ onEvent('recipes', (event) => {
             pattern: ['LTL', 'CSC', 'INI'],
             key: {
                 N: 'expandedstorage:netherite_chest',
-                I: 'pneumaticcraft:compressed_iron_block',
+                I: '#forge:storage_blocks/steel',
                 C: 'prefab:block_triple_compressed_stone',
                 T: 'prefab:item_ton_of_timber',
                 S: 'minecraft:nether_star',
