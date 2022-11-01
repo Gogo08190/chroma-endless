@@ -16,7 +16,7 @@ onEvent('recipes', (event) => {
           output: 'botania:mana_pylon',
           pattern: [' A ', 'BCB', ' A '],
           key: {
-              A:'arsarsenal:source_steel_ingot',
+              A:'minecraft:netherite_ingot',
               B:'botania:manasteel_block',
               C:'botania:mana_diamond_block'
           },
