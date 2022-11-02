@@ -1,5 +1,5 @@
 onEvent('recipes', (event) => {
-    const id_prefix = 'enigmatica:base/occultism/miners/ores/';
+    const id_prefix = 'chroma:base/occultism/miners/ores/';
     const recipes = [
         {
             output: 'emendatusenigmatica:aluminum_chunk',

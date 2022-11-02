@@ -357,7 +357,7 @@ onEvent('recipes', (event) => {
 
         event
             .shapeless(`emendatusenigmatica:${material}_ore`, [`emendatusenigmatica:${material}_chunk`])
-            .id(`enigmatica:base/emendatusenigmatica/${material}_ore`);
+            .id(`chroma:base/emendatusenigmatica/${material}_ore`);
         event
             .shapeless(Item.of(`emendatusenigmatica:${material}_chunk`, 4), [`emendatusenigmatica:${material}_cluster`])
             .id(`emendatusenigmatica:chunk_from_cluster/${material}`);
@@ -1028,7 +1028,7 @@ onEvent('recipes', (event) => {
             event.recipes.thermal
                 .crucible(Fluid.of(`${modId}:molten_${material}`, recipe.amount), recipe.input)
                 .energy(recipe.energy)
-                .id(`enigmatica:base/thermal/crucible/${material}_${recipe.type}`);
+                .id(`chroma:base/thermal/crucible/${material}_${recipe.type}`);
         });
     }
 
@@ -1123,7 +1123,7 @@ onEvent('recipes', (event) => {
             event.recipes.thermal
                 .crucible(Fluid.of(`${modId}:molten_${material}`, recipe.amount), recipe.input)
                 .energy(recipe.energy)
-                .id(`enigmatica:base/thermal/crucible/${material}_${recipe.type}`);
+                .id(`chroma:base/thermal/crucible/${material}_${recipe.type}`);
         });
     }
 

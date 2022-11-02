@@ -1,5 +1,5 @@
 onEvent('recipes', (event) => {
-    const id_prefix = 'enigmatica:base/thermal/centrifuge/';
+    const id_prefix = 'chroma:base/thermal/centrifuge/';
     const recipes = [
         {
             input: '#forge:ores/bitumen',
