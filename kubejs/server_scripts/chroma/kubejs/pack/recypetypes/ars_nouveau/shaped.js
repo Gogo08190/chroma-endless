@@ -18,7 +18,7 @@ onEvent('recipes', (event) => {
                 B: '#forge:ingots/brass',
                 D: 'occultism:datura',
                 S: 'occultism:spirit_attuned_gem',
-                A: 'emendatusenigmatica:arcane_gem'
+                A: '#forge:gems/mana'
             },
             id: 'ars_nouveau:vitalic_sourcelink'
         },
@@ -26,7 +26,7 @@ onEvent('recipes', (event) => {
             output: Item.of('ars_nouveau:arcane_stone', 8),
             pattern: ['GCG', 'CAC', 'GCG'],
             key: {
-                G: 'emendatusenigmatica:arcane_gem',
+                G: '#forge:gems/mana',
                 A: 'occultism:spirit_attuned_gem',
                 C: '#forge:storage_blocks/compressed_stone',
             },
@@ -39,7 +39,7 @@ onEvent('recipes', (event) => {
                 B: '#forge:ingots/brass',
                 H: '#forge:hay_bales',
                 S: 'occultism:spirit_attuned_gem',
-                A: 'emendatusenigmatica:arcane_gem'
+                A: '#forge:gems/mana'
             },
             id: 'ars_nouveau:mana_condenser'
         },
@@ -60,7 +60,7 @@ onEvent('recipes', (event) => {
             key: {
                 S: 'ars_nouveau:arcane_stone',
                 I: 'elementalcraft:swift_alloy_block',
-                G: 'emendatusenigmatica:arcane_block',
+                G: ['ars_nouveau:mana_gem_block','#forge:storage_blocks/mana'],
                 A: 'kubejs:spirit_attuned_block'
             },
             id: 'ars_nouveau:enchanting_apparatus'
@@ -71,7 +71,7 @@ onEvent('recipes', (event) => {
             key: {
                 S: 'ars_nouveau:arcane_stone',
                 G: 'occultism:spirit_attuned_gem',
-                A: 'emendatusenigmatica:arcane_gem'
+                A: '#forge:gems/mana'
             },
             id: 'ars_nouveau:arcane_pedestal'
         },
@@ -81,7 +81,7 @@ onEvent('recipes', (event) => {
             key: {
                 S: 'elementalcraft:scroll_paper',
                 F: 'ars_nouveau:mana_fiber',
-                G: 'emendatusenigmatica:arcane_gem'
+                G: '#forge:gems/mana'
             },
             id: 'ars_nouveau:blank_parchment'
         },
@@ -92,7 +92,7 @@ onEvent('recipes', (event) => {
                 B: '#forge:ingots/brass',
                 M: '#forge:mushrooms',
                 S: 'occultism:spirit_attuned_gem',
-                G: 'emendatusenigmatica:arcane_gem'
+                G: '#forge:gems/mana'
             },
             id: 'ars_nouveau:mycelial_sourcelink'
         },
@@ -102,7 +102,7 @@ onEvent('recipes', (event) => {
             key: {
                 C: 'tconstruct:clear_glass',
                 S: 'ars_nouveau:arcane_stone',
-                A: 'emendatusenigmatica:arcane_gem'
+                A: '#forge:gems/mana'
             },
             id: 'ars_nouveau:mana_jar'
         },
@@ -112,7 +112,7 @@ onEvent('recipes', (event) => {
             key: {
                 B: 'quark:bonded_leather',
                 S: 'occultism:spirit_attuned_gem',
-                A: 'emendatusenigmatica:arcane_gem'
+                A: '#forge:gems/mana'
             },
             id: 'ars_nouveau:mundane_belt'
         },
@@ -122,7 +122,7 @@ onEvent('recipes', (event) => {
             key: {
                 D: 'elementalcraft:drenched_iron_nugget',
                 S: 'occultism:spirit_attuned_gem',
-                A: 'emendatusenigmatica:arcane_gem'
+                A: '#forge:gems/mana'
             },
             id: 'ars_nouveau:dull_trinket'
         },
@@ -141,7 +141,7 @@ onEvent('recipes', (event) => {
             pattern: [' C ', 'RSR', ' R '],
             key: {
                 C: '#forge:clay',
-                S: 'emendatusenigmatica:arcane_gem',
+                S: '#forge:gems/mana',
                 R: 'extendedcrafting:redstone_ingot'
             },
             id: 'ars_nouveau:magic_clay'
@@ -153,7 +153,7 @@ onEvent('recipes', (event) => {
                 L: 'minecraft:lapis_lazuli',
                 B: '#forge:ingots/brass',
                 M: 'ars_nouveau:magic_clay',
-                S: 'emendatusenigmatica:arcane_gem'
+                S: '#forge:gems/mana'
             },
             id: 'ars_nouveau:marvelous_clay'
         },
@@ -161,7 +161,7 @@ onEvent('recipes', (event) => {
             output: 'ars_nouveau:mythical_clay',
             pattern: ['ASA', 'BMB', 'ASA'],
             key: {
-                A: 'emendatusenigmatica:arcane_gem',
+                A: '#forge:gems/mana',
                 B: 'botania:blaze_block',
                 M: 'ars_nouveau:marvelous_clay',
                 S: 'occultism:spirit_attuned_gem'
@@ -192,7 +192,7 @@ onEvent('recipes', (event) => {
             key: {
                 A: 'occultism:spirit_attuned_gem',
                 B: 'ars_nouveau:blank_parchment',
-                G: 'emendatusenigmatica:arcane_gem'
+                G: '#forge:gems/mana'
             },
             id: 'ars_nouveau:spell_parchment'
         },
@@ -202,7 +202,7 @@ onEvent('recipes', (event) => {
             key: {
                 A: 'occultism:spirit_attuned_gem',
                 B: 'ars_nouveau:blank_parchment',
-                S: 'emendatusenigmatica:arcane_gem',
+                S: '#forge:gems/mana',
                 L: 'emendatusenigmatica:lapis_plate'
             },
             id: 'ars_nouveau:warp_scroll'
@@ -212,7 +212,7 @@ onEvent('recipes', (event) => {
             pattern: ['   ', 'ESE', 'E E'],
             key: {
                 E: 'ars_nouveau:end_fiber',
-                S: 'emendatusenigmatica:arcane_gem'
+                S: '#forge:gems/mana'
             },
             id: 'ars_nouveau:archmage_hood'
         },
@@ -221,7 +221,7 @@ onEvent('recipes', (event) => {
             pattern: ['E E', 'ESE', 'EEE'],
             key: {
                 E: 'ars_nouveau:end_fiber',
-                S: 'emendatusenigmatica:arcane_gem'
+                S: '#forge:gems/mana'
             },
             id: 'ars_nouveau:archmage_robes'
         },
@@ -230,7 +230,7 @@ onEvent('recipes', (event) => {
             pattern: ['ESE', 'E E', 'E E'],
             key: {
                 E: 'ars_nouveau:end_fiber',
-                S: 'emendatusenigmatica:arcane_gem'
+                S: '#forge:gems/mana'
             },
             id: 'ars_nouveau:archmage_leggings'
         },
@@ -239,7 +239,7 @@ onEvent('recipes', (event) => {
             pattern: ['   ', 'S S', 'E E'],
             key: {
                 E: 'ars_nouveau:end_fiber',
-                S: 'emendatusenigmatica:arcane_gem'
+                S: '#forge:gems/mana'
             },
             id: 'ars_nouveau:archmage_boots'
         },
@@ -248,7 +248,7 @@ onEvent('recipes', (event) => {
             pattern: [' S ', 'SBS', ' S '],
             key: {
                 B: 'minecraft:book',
-                S: 'emendatusenigmatica:arcane_gem'
+                S: '#forge:gems/mana'
             },
             id: 'ars_nouveau:worn_notebook'
         },
@@ -258,7 +258,7 @@ onEvent('recipes', (event) => {
             key: {
                 D: 'occultism:dictionary_of_spirits',
                 S: 'occultism:spirit_attuned_gem',
-                A: 'emendatusenigmatica:arcane_gem'
+                A: '#forge:gems/mana'
 
             },
             id: 'ars_nouveau:novice_spell_book'
@@ -270,7 +270,7 @@ onEvent('recipes', (event) => {
                 N: Item.of('ars_nouveau:novice_spell_book', '{mode:0,spells:",touch,harm,break,self,projectile"}').weakNBT(),
                 B: 'botania:blaze_block',
                 S: 'occultism:spirit_attuned_gem',
-                A: 'emendatusenigmatica:arcane_gem',
+                A: '#forge:gems/mana',
                 Q: 'create:rose_quartz'
 
             },
@@ -284,7 +284,7 @@ onEvent('recipes', (event) => {
                 N: 'extendedcrafting:nether_star_block',
                 B: Item.of('ars_nouveau:apprentice_spell_book', '{mode:0,spells:",touch,harm,break,self,projectile"}').weakNBT(),
                 T: 'minecraft:totem_of_undying',
-                A: 'emendatusenigmatica:arcane_gem',
+                A: '#forge:gems/mana',
                 G: 'occultism:spirit_attuned_gem'
 
             },
@@ -296,7 +296,7 @@ onEvent('recipes', (event) => {
             key: {
                 J: 'ars_nouveau:mana_jar',
                 N: 'minecraft:nether_wart',
-                A: 'emendatusenigmatica:arcane_gem'
+                A: '#forge:gems/mana'
 
             },
             id: 'ars_nouveau:potion_jar'
@@ -308,7 +308,7 @@ onEvent('recipes', (event) => {
                 B: '#forge:ingots/brass',
                 A: 'kubejs:spirit_attuned_block',
                 P: 'ars_nouveau:arcane_pedestal',
-                S: 'emendatusenigmatica:arcane_block'
+                S: '#forge:storage_blocks/mana'
 
             },
             id: 'ars_nouveau:ritual'
@@ -320,7 +320,7 @@ onEvent('recipes', (event) => {
                 B: '#forge:ingots/brass',
                 S: 'occultism:spirit_attuned_gem',
                 L: 'minecraft:lava_bucket',
-                A: 'emendatusenigmatica:arcane_gem'
+                A: '#forge:gems/mana'
 
             },
             id: 'ars_nouveau:volcanic_accumulator'
@@ -332,7 +332,7 @@ onEvent('recipes', (event) => {
                 B: '#forge:ingots/brass',
                 S: 'occultism:spirit_attuned_gem',
                 W: 'minecraft:brewing_stand',
-                A: 'emendatusenigmatica:arcane_gem'
+                A: '#forge:gems/mana'
 
             },
             id: 'ars_nouveau:alchemical_sourcelink'
@@ -343,7 +343,7 @@ onEvent('recipes', (event) => {
             key: {
                 P: 'ars_nouveau:blank_parchment',
                 G: 'occultism:spirit_attuned_gem',
-                A: 'emendatusenigmatica:arcane_gem'
+                A: '#forge:gems/mana'
 
             },
             id: 'ars_nouveau:spell_parchment'
@@ -352,7 +352,7 @@ onEvent('recipes', (event) => {
             output: 'ars_nouveau:apprentice_robes',
             pattern: ['S S', 'BSB', 'SSS'],
             key: {
-                S: 'emendatusenigmatica:arcane_gem',
+                S: '#forge:gems/mana',
                 B: 'ars_nouveau:blaze_fiber'
             },
             id: 'ars_nouveau:apprentice_robes'
@@ -361,7 +361,7 @@ onEvent('recipes', (event) => {
             output: 'ars_nouveau:apprentice_leggings',
             pattern: ['SBS', 'B B', 'B B'],
             key: {
-                S: 'emendatusenigmatica:arcane_gem',
+                S: '#forge:gems/mana',
                 B: 'ars_nouveau:blaze_fiber'
             },
             id: 'ars_nouveau:apprentice_leggings'
@@ -370,7 +370,7 @@ onEvent('recipes', (event) => {
             output: 'ars_nouveau:apprentice_hood',
             pattern: ['SBS', 'B B'],
             key: {
-                S: 'emendatusenigmatica:arcane_gem',
+                S: '#forge:gems/mana',
                 B: 'ars_nouveau:blaze_fiber'
             },
             id: 'ars_nouveau:apprentice_hood'
@@ -379,7 +379,7 @@ onEvent('recipes', (event) => {
             output: 'ars_nouveau:apprentice_boots',
             pattern: ['S S', 'B B'],
             key: {
-                S: 'emendatusenigmatica:arcane_gem',
+                S: '#forge:gems/mana',
                 B: 'ars_nouveau:blaze_fiber'
             },
             id: 'ars_nouveau:apprentice_boots'
@@ -399,7 +399,7 @@ onEvent('recipes', (event) => {
             pattern: ['AAA', 'IGI', 'ISI'],
             key: {
                 A: 'ars_nouveau:arcane_stone',
-                S: 'emendatusenigmatica:arcane_gem',
+                S: '#forge:gems/mana',
                 I: 'elementalcraft:swift_alloy_ingot',
                 G: 'occultism:spirit_attuned_gem'
             },

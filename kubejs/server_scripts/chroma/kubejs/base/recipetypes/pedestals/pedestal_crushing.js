@@ -1,5 +1,5 @@
 onEvent('recipes', (event) => {
-    const id_prefix = 'enigmatica:base/pedestals/pedestal_crushing/';
+    const id_prefix = 'chroma:base/pedestals/pedestal_crushing/';
     const recipes = [
         {
             input: 'thermal:blizz_rod',
