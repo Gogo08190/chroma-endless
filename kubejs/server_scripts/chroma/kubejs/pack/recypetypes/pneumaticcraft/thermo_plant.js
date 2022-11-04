@@ -17,7 +17,7 @@ onEvent('recipes', (event) => {
           pressure: 4.5,
           speed: 0.8,
           exothermic: false,
-          temperature: { min_temp: 1873 },
+          temperature: { min_temp: 623 },
           id: 'rftoolsbase:machine_base'
       },
       {
@@ -26,7 +26,7 @@ onEvent('recipes', (event) => {
           item_output: { item: 'rftoolspower:power_core1', count: 1 },
           pressure: 2.0,
           exothermic: false,
-          temperature: { min_temp: 1973 },
+          temperature: { min_temp: 666 },
           id: 'rftoolspower:power_core1'
       },
       {
@@ -44,7 +44,7 @@ onEvent('recipes', (event) => {
           item_output: { item: 'powah:thermoelectric_plate', count: 1 },
           pressure: 3.0,
           exothermic: false,
-          temperature: { min_temp: 1200 },
+          temperature: { min_temp: 600 },
           id: 'powah:crafting/thermoelectric_plate'
       },
     ];
