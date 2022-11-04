@@ -14,7 +14,7 @@ onEvent('recipes', (event) => {
           fluid_input: { type: 'pneumaticcraft:fluid', fluid: 'pneumaticcraft:plastic', amount: 1000 },
           item_input: { item: 'thermal:machine_frame', count: 1 },
           item_output: { item: 'rftoolsbase:machine_base', count: 2 },
-          pressure: 4.5,
+          pressure: 3.5,
           speed: 0.8,
           exothermic: false,
           temperature: { min_temp: 623 },
