@@ -226,6 +226,14 @@ onEvent('recipes', (event) => {
               O: 'resourcefulbees:occultist_honeycomb'
           },
           id: `${id_prefix}otherworld_log`
+      },
+      {
+          output: 'minecraft:honeycomb_block',
+          pattern: ['CCC', 'CCC', 'CCC'],
+          key: {
+              C: 'minecraft:honeycomb'
+          },
+          id: 'minecraft:honeycomb_block'
       }
     ];
 
