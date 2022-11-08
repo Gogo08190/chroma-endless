@@ -1908,6 +1908,7 @@
 		}
 		{
 			title: "Fusion Reactor"
+			icon: "mekanismgenerators:fusion_reactor_controller"
 			x: -34.5d
 			y: -4.75d
 			shape: "diamond"
@@ -2053,6 +2054,7 @@
 		}
 		{
 			title: "SPS Reactor"
+			icon: "mekanism:sps_port"
 			x: -33.25d
 			y: -7.5d
 			shape: "diamond"
@@ -2762,6 +2764,7 @@
 		}
 		{
 			title: "Induction Matrix"
+			icon: "mekanism:induction_port"
 			x: -19.5d
 			y: -7.0d
 			shape: "octagon"
@@ -2883,6 +2886,7 @@
 			}]
 		}
 		{
+			icon: "mekanism:laser"
 			x: -33.5d
 			y: -5.75d
 			shape: "diamond"
@@ -4855,6 +4859,7 @@
 		}
 		{
 			title: "Turbine"
+			icon: "mekanismgenerators:rotational_complex"
 			x: -32.75d
 			y: -6.75d
 			shape: "diamond"
@@ -4992,6 +4997,7 @@
 		}
 		{
 			title: "Fission Reactor"
+			icon: "mekanismgenerators:fission_fuel_assembly"
 			x: -31.0d
 			y: -4.75d
 			shape: "diamond"

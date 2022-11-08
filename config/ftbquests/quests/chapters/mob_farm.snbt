@@ -1363,6 +1363,8 @@
 			}]
 		}
 		{
+			title: "Improved Enchanting Table"
+			icon: "apotheosis:melonshelf"
 			x: 5.75d
 			y: 12.25d
 			id: "5E9AD8143A6AF837"
@@ -1394,6 +1396,7 @@
 		}
 		{
 			title: "My first Enchanting Setup"
+			icon: "minecraft:bookshelf"
 			x: 7.25d
 			y: 8.25d
 			id: "24966C6B5CAE46EC"
@@ -1426,6 +1429,7 @@
 		}
 		{
 			title: "Only The Best"
+			icon: "apotheosis:rectifier_t3"
 			x: 7.25d
 			y: 10.0d
 			description: ["{image:chroma:textures/quests/enchant_full.png width:100 height:100 align:1 fit:true}"]

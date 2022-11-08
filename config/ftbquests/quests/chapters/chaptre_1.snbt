@@ -127,15 +127,16 @@
 			}]
 		}
 		{
+			icon: "tetra:forged_container"
 			x: 2.25d
 			y: -5.0d
 			dependencies: ["5D0B6B773A9696D4"]
 			optional: true
 			id: "58BB878B4B44751B"
 			tasks: [{
-				id: "3F35FC8F90AA2915"
-				type: "item"
-				item: "tetra:forged_container"
+				id: "648A58F4EF053F1A"
+				type: "checkmark"
+				title: "Found Forged Container"
 			}]
 			rewards: [{
 				id: "52D6DF0AADFCCA34"
@@ -145,6 +146,7 @@
 		}
 		{
 			title: "Useful Stuff"
+			icon: "tetra:forged_bolt"
 			x: 4.0d
 			y: -5.0d
 			shape: "diamond"
@@ -228,6 +230,7 @@
 			}]
 		}
 		{
+			icon: "tetra:combustion_chamber"
 			x: 2.25d
 			y: -3.5d
 			description: ["Can be found in structures deep underground in cold or montains biomes."]
@@ -259,12 +262,13 @@
 				}
 			}]
 			rewards: [{
-				id: "38EE05F99B1FFB8C"
-				type: "choice"
+				id: "0FFD99DC94E9424C"
+				type: "random"
 				table_id: 6134670810826201990L
 			}]
 		}
 		{
+			icon: "tetra:hammer_base"
 			x: 2.25d
 			y: -1.75d
 			shape: "square"
@@ -272,9 +276,9 @@
 			dependencies: ["0291D01CF9820B1F"]
 			id: "698D9EF9800A51F9"
 			tasks: [{
-				id: "75DB8BBA001DF6D3"
-				type: "item"
-				item: "tetra:hammer_base"
+				id: "4C3BFC406C125036"
+				type: "checkmark"
+				title: "Found forge hammer"
 			}]
 			rewards: [{
 				id: "431818407142B1E4"
@@ -413,24 +417,13 @@
 			]
 			dependency_requirement: "one_completed"
 			min_width: 350
-			min_required_tasks: 300
 			id: "7A3D3399611B2809"
 			tasks: [{
-				id: "79F9270891EB823F"
-				type: "item"
-				item: {
-					id: "tetra:modular_double"
-					Count: 1b
-					tag: {
-						"double/handle": "double/basic_handle"
-						"double/head_left": "double/basic_hammer_left"
-						"double/head_right": "double/basic_hammer_right"
-						"double/basic_hammer_right_material": "basic_hammer/oak"
-						Damage: 0
-						"double/basic_handle_material": "basic_handle/stick"
-						"double/basic_hammer_left_material": "basic_hammer/oak"
-					}
-				}
+				id: "468F2C8258AB9948"
+				type: "advancement"
+				title: "Tier 1"
+				advancement: "tetra:upgrades/root"
+				criterion: ""
 			}]
 			rewards: [{
 				id: "18C0D1A72E4A7A8B"
@@ -487,6 +480,13 @@
 		}
 		{
 			title: "&#806517Wooden Tools&r"
+			icon: {
+				id: "minecraft:wooden_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
 			x: -4.0d
 			y: -3.75d
 			subtitle: "Don't use this!"
@@ -581,6 +581,7 @@
 		}
 		{
 			title: "Tinker's Stations"
+			icon: "tconstruct:tinker_station"
 			x: -6.5d
 			y: -1.75d
 			shape: "square"
@@ -609,6 +610,7 @@
 		}
 		{
 			title: "Tinker's Chests"
+			icon: "tconstruct:part_chest"
 			x: -8.5d
 			y: -1.25d
 			dependencies: ["72B3CFA86B00A3F2"]
@@ -684,39 +686,6 @@
 				type: "item"
 				item: "minecraft:quartz"
 				count: 4
-			}]
-		}
-		{
-			x: -11.0d
-			y: 4.0d
-			dependencies: ["26B79EAEB1274ED9"]
-			id: "171E5CDF2CB9C763"
-			tasks: [{
-				id: "30EF86E8C0FB1160"
-				type: "checkmark"
-				title: "Diamond Pickaxe or equivalent"
-			}]
-		}
-		{
-			x: -9.25d
-			y: 4.0d
-			dependencies: ["11EFAC50282A683E"]
-			id: "26B79EAEB1274ED9"
-			tasks: [{
-				id: "1F38AD356D6437F3"
-				type: "checkmark"
-				title: "Iron Pickaxe or equivalent"
-			}]
-		}
-		{
-			x: -7.5d
-			y: 4.0d
-			dependencies: ["311247214F1D95B3"]
-			id: "11EFAC50282A683E"
-			tasks: [{
-				id: "40C08E7A481C70B0"
-				type: "checkmark"
-				title: "Stone Pickaxe or equivalent"
 			}]
 		}
 		{
@@ -871,6 +840,7 @@
 			}]
 		}
 		{
+			title: "&#806517Wooden Pickaxe&r"
 			x: -2.5d
 			y: 2.25d
 			subtitle: "Finally a working tool."
@@ -892,61 +862,23 @@
 			min_width: 266
 			id: "2CA476D501E67C38"
 			tasks: [{
-				id: "7F11C1AEA85E976B"
-				type: "item"
-				title: "&#806517Wooden Pickaxe&r"
-				item: {
-					id: "tetra:modular_double"
+				id: "74EB315C154C4B84"
+				type: "advancement"
+				icon: {
+					id: "minecraft:wooden_pickaxe"
 					Count: 1b
 					tag: {
-						"double/handle": "double/basic_handle"
-						"double/head_left": "double/basic_pickaxe_left"
-						"double/head_right": "double/basic_pickaxe_right"
-						"double/basic_pickaxe_right_material": "basic_pickaxe/oak"
-						"double/basic_pickaxe_left_material": "basic_pickaxe/oak"
 						Damage: 0
-						"double/basic_handle_material": "basic_handle/stick"
 					}
 				}
+				advancement: "tetra:upgrades/tool_upgrade"
+				criterion: ""
 			}]
 			rewards: [{
 				id: "4D496BDD69797871"
 				type: "item"
 				item: "minecraft:oak_planks"
 				count: 5
-			}]
-		}
-		{
-			x: -2.5d
-			y: 4.0d
-			dependencies: ["2CA476D501E67C38"]
-			id: "491972CCE5DDE06C"
-			tasks: [{
-				id: "1DC705601CB08327"
-				type: "checkmark"
-				title: "Stone Pickaxe or equivalent"
-			}]
-		}
-		{
-			x: -0.75d
-			y: 4.0d
-			dependencies: ["491972CCE5DDE06C"]
-			id: "2AB9254E7A945A22"
-			tasks: [{
-				id: "34781E57640B6562"
-				type: "checkmark"
-				title: "Iron Pickaxe or equivalent"
-			}]
-		}
-		{
-			x: 1.0d
-			y: 4.0d
-			dependencies: ["2AB9254E7A945A22"]
-			id: "1802A196B75EE8D9"
-			tasks: [{
-				id: "63794326DA100B1F"
-				type: "checkmark"
-				title: "Diamond Pickaxe or equivalent"
 			}]
 		}
 		{
@@ -1110,10 +1042,7 @@
 			y: 6.25d
 			shape: "pentagon"
 			hide_dependency_lines: true
-			dependencies: [
-				"26B79EAEB1274ED9"
-				"2AB9254E7A945A22"
-			]
+			dependencies: ["7FF11CD4F28B658F"]
 			dependency_requirement: "one_completed"
 			id: "412DC2EA2FB47B68"
 			tasks: [{
@@ -1133,10 +1062,7 @@
 			y: 6.5d
 			shape: "pentagon"
 			hide_dependency_lines: true
-			dependencies: [
-				"11EFAC50282A683E"
-				"491972CCE5DDE06C"
-			]
+			dependencies: ["7FF11CD4F28B658F"]
 			dependency_requirement: "one_completed"
 			id: "4055881864FF87C5"
 			tasks: [{
@@ -1156,10 +1082,7 @@
 			y: 6.75d
 			shape: "pentagon"
 			hide_dependency_lines: true
-			dependencies: [
-				"311247214F1D95B3"
-				"2CA476D501E67C38"
-			]
+			dependencies: ["7FF11CD4F28B658F"]
 			dependency_requirement: "one_completed"
 			id: "1A641FA1C6E549DB"
 			tasks: [{
@@ -1179,10 +1102,7 @@
 			y: 6.5d
 			shape: "pentagon"
 			hide_dependency_lines: true
-			dependencies: [
-				"11EFAC50282A683E"
-				"491972CCE5DDE06C"
-			]
+			dependencies: ["7FF11CD4F28B658F"]
 			dependency_requirement: "all_started"
 			id: "4339BD51E04343A5"
 			tasks: [{
@@ -1202,10 +1122,7 @@
 			y: 6.25d
 			shape: "pentagon"
 			hide_dependency_lines: true
-			dependencies: [
-				"26B79EAEB1274ED9"
-				"2AB9254E7A945A22"
-			]
+			dependencies: ["7FF11CD4F28B658F"]
 			dependency_requirement: "one_completed"
 			id: "6B8F54AE6DE83F01"
 			tasks: [{
@@ -1225,10 +1142,7 @@
 			y: 7.0d
 			shape: "pentagon"
 			hide_dependency_lines: true
-			dependencies: [
-				"26B79EAEB1274ED9"
-				"2AB9254E7A945A22"
-			]
+			dependencies: ["7FF11CD4F28B658F"]
 			dependency_requirement: "one_completed"
 			id: "63B277F4C396E4F7"
 			tasks: [{
@@ -1248,10 +1162,7 @@
 			y: 7.25d
 			shape: "pentagon"
 			hide_dependency_lines: true
-			dependencies: [
-				"11EFAC50282A683E"
-				"491972CCE5DDE06C"
-			]
+			dependencies: ["7FF11CD4F28B658F"]
 			dependency_requirement: "one_completed"
 			id: "6792EC1B4CA2A2EA"
 			tasks: [{
@@ -1271,10 +1182,7 @@
 			y: 7.5d
 			shape: "pentagon"
 			hide_dependency_lines: true
-			dependencies: [
-				"311247214F1D95B3"
-				"2CA476D501E67C38"
-			]
+			dependencies: ["7FF11CD4F28B658F"]
 			dependency_requirement: "one_completed"
 			id: "39282948263FCF67"
 			tasks: [{
@@ -1290,14 +1198,12 @@
 		}
 		{
 			title: "&6Uraninite&r"
+			icon: "powah:uraninite_raw_dense"
 			x: -5.75d
 			y: 7.5d
 			shape: "pentagon"
 			hide_dependency_lines: true
-			dependencies: [
-				"311247214F1D95B3"
-				"2CA476D501E67C38"
-			]
+			dependencies: ["7FF11CD4F28B658F"]
 			dependency_requirement: "one_completed"
 			id: "7CE5A37CB1D7F967"
 			tasks: [{
@@ -1337,10 +1243,7 @@
 			y: 7.25d
 			shape: "pentagon"
 			hide_dependency_lines: true
-			dependencies: [
-				"11EFAC50282A683E"
-				"491972CCE5DDE06C"
-			]
+			dependencies: ["7FF11CD4F28B658F"]
 			dependency_requirement: "one_completed"
 			id: "50DB58A0B18629D9"
 			tasks: [{
@@ -1360,10 +1263,7 @@
 			y: 7.0d
 			shape: "pentagon"
 			hide_dependency_lines: true
-			dependencies: [
-				"26B79EAEB1274ED9"
-				"2AB9254E7A945A22"
-			]
+			dependencies: ["7FF11CD4F28B658F"]
 			dependency_requirement: "one_completed"
 			id: "0976209956D1ADCD"
 			tasks: [{
@@ -1383,10 +1283,8 @@
 			y: 8.0d
 			shape: "pentagon"
 			hide_dependency_lines: true
-			dependencies: [
-				"26B79EAEB1274ED9"
-				"2AB9254E7A945A22"
-			]
+			dependencies: ["7FF11CD4F28B658F"]
+			dependency_requirement: "one_completed"
 			id: "52A9D4F9E61253F4"
 			tasks: [{
 				id: "29A1E3878C8462CB"
@@ -1405,10 +1303,7 @@
 			y: 8.25d
 			shape: "pentagon"
 			hide_dependency_lines: true
-			dependencies: [
-				"11EFAC50282A683E"
-				"491972CCE5DDE06C"
-			]
+			dependencies: ["7FF11CD4F28B658F"]
 			dependency_requirement: "one_completed"
 			id: "682D148DB0B5522E"
 			tasks: [{
@@ -1428,10 +1323,7 @@
 			y: 9.0d
 			shape: "pentagon"
 			hide_dependency_lines: true
-			dependencies: [
-				"11EFAC50282A683E"
-				"491972CCE5DDE06C"
-			]
+			dependencies: ["7FF11CD4F28B658F"]
 			dependency_requirement: "one_completed"
 			id: "01204D8CC1E02844"
 			tasks: [{
@@ -1451,10 +1343,7 @@
 			y: 8.25d
 			shape: "pentagon"
 			hide_dependency_lines: true
-			dependencies: [
-				"311247214F1D95B3"
-				"2CA476D501E67C38"
-			]
+			dependencies: ["7FF11CD4F28B658F"]
 			dependency_requirement: "one_completed"
 			id: "2F13516D0BF41E98"
 			tasks: [{
@@ -1474,10 +1363,7 @@
 			y: 9.0d
 			shape: "pentagon"
 			hide_dependency_lines: true
-			dependencies: [
-				"11EFAC50282A683E"
-				"491972CCE5DDE06C"
-			]
+			dependencies: ["7FF11CD4F28B658F"]
 			dependency_requirement: "one_completed"
 			id: "77499DE54CBB863E"
 			tasks: [{
@@ -1497,10 +1383,7 @@
 			y: 8.25d
 			shape: "pentagon"
 			hide_dependency_lines: true
-			dependencies: [
-				"11EFAC50282A683E"
-				"491972CCE5DDE06C"
-			]
+			dependencies: ["7FF11CD4F28B658F"]
 			dependency_requirement: "one_completed"
 			id: "7DD76F9B6426DCA3"
 			tasks: [{
@@ -1520,10 +1403,7 @@
 			y: 8.0d
 			shape: "pentagon"
 			hide_dependency_lines: true
-			dependencies: [
-				"26B79EAEB1274ED9"
-				"2AB9254E7A945A22"
-			]
+			dependencies: ["7FF11CD4F28B658F"]
 			dependency_requirement: "one_completed"
 			id: "4A523013734520E4"
 			tasks: [{
@@ -1543,10 +1423,7 @@
 			y: 9.0d
 			shape: "pentagon"
 			hide_dependency_lines: true
-			dependencies: [
-				"26B79EAEB1274ED9"
-				"2AB9254E7A945A22"
-			]
+			dependencies: ["7FF11CD4F28B658F"]
 			dependency_requirement: "one_completed"
 			id: "6F24F6ECE4AAE751"
 			tasks: [{
@@ -1566,10 +1443,7 @@
 			y: 9.25d
 			shape: "pentagon"
 			hide_dependency_lines: true
-			dependencies: [
-				"26B79EAEB1274ED9"
-				"2AB9254E7A945A22"
-			]
+			dependencies: ["7FF11CD4F28B658F"]
 			dependency_requirement: "one_completed"
 			id: "36E35F066EAA5687"
 			tasks: [{
@@ -1589,10 +1463,7 @@
 			y: 10.0d
 			shape: "pentagon"
 			hide_dependency_lines: true
-			dependencies: [
-				"11EFAC50282A683E"
-				"491972CCE5DDE06C"
-			]
+			dependencies: ["7FF11CD4F28B658F"]
 			dependency_requirement: "one_completed"
 			id: "6973FBAEF1EF28DC"
 			tasks: [{
@@ -1612,10 +1483,7 @@
 			y: 9.75d
 			shape: "pentagon"
 			hide_dependency_lines: true
-			dependencies: [
-				"11EFAC50282A683E"
-				"491972CCE5DDE06C"
-			]
+			dependencies: ["7FF11CD4F28B658F"]
 			dependency_requirement: "one_completed"
 			id: "3AD73289DB7D473E"
 			tasks: [{
@@ -1635,10 +1503,7 @@
 			y: 10.0d
 			shape: "pentagon"
 			hide_dependency_lines: true
-			dependencies: [
-				"11EFAC50282A683E"
-				"491972CCE5DDE06C"
-			]
+			dependencies: ["7FF11CD4F28B658F"]
 			dependency_requirement: "one_completed"
 			id: "577AC7DCEDCE1DE0"
 			tasks: [{
@@ -1658,10 +1523,7 @@
 			y: 9.25d
 			shape: "pentagon"
 			hide_dependency_lines: true
-			dependencies: [
-				"26B79EAEB1274ED9"
-				"2AB9254E7A945A22"
-			]
+			dependencies: ["7FF11CD4F28B658F"]
 			dependency_requirement: "one_completed"
 			id: "2EBB702869B9D13C"
 			tasks: [{
@@ -1681,10 +1543,7 @@
 			y: 9.0d
 			shape: "pentagon"
 			hide_dependency_lines: true
-			dependencies: [
-				"26B79EAEB1274ED9"
-				"2AB9254E7A945A22"
-			]
+			dependencies: ["7FF11CD4F28B658F"]
 			dependency_requirement: "one_completed"
 			id: "1B35982B907DD91A"
 			tasks: [{

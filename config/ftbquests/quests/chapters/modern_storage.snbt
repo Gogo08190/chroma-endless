@@ -1922,6 +1922,7 @@
 		}
 		{
 			title: "&bFluid Storage Disk"
+			icon: "extrastorage:disk_16384k_fluid"
 			x: -4.5d
 			y: -3.75d
 			shape: "hexagon"
@@ -2177,6 +2178,7 @@
 		}
 		{
 			title: "&6Storage Disk"
+			icon: "extrastorage:disk_16384k"
 			x: 2.0d
 			y: -3.75d
 			shape: "hexagon"

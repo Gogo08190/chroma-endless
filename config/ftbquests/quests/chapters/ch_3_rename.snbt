@@ -1493,6 +1493,7 @@
 			}]
 		}
 		{
+			icon: "thermal:electrum_coin"
 			x: 0.0d
 			y: 16.5d
 			dependencies: ["4806B646B6206608"]
@@ -1522,23 +1523,14 @@
 			icon: "thermal:redstone_servo"
 			x: 2.0d
 			y: 12.0d
-			dependencies: ["063B75CA0BD9A9BC"]
+			dependencies: ["109D647ED52D215D"]
 			id: "3D3D8B33A6D7BE77"
-			tasks: [
-				{
-					id: "270A84F32915DFDA"
-					type: "item"
-					title: "3x &#71797ESteel Rods&r"
-					item: "emendatusenigmatica:steel_rod"
-					count: 3L
-				}
-				{
-					id: "63CE3547B729D28F"
-					type: "item"
-					title: "&4Redstone Servo&r"
-					item: "thermal:redstone_servo"
-				}
-			]
+			tasks: [{
+				id: "63CE3547B729D28F"
+				type: "item"
+				title: "&4Redstone Servo&r"
+				item: "thermal:redstone_servo"
+			}]
 			rewards: [{
 				id: "400E2D834AAFE677"
 				type: "item"
@@ -1550,29 +1542,14 @@
 			icon: "thermal:rf_coil"
 			x: -2.0d
 			y: 12.0d
-			dependencies: ["063B75CA0BD9A9BC"]
+			dependencies: ["109D647ED52D215D"]
 			id: "3AC2609EA33632B8"
-			tasks: [
-				{
-					id: "4F6B66ACCE7B6C1D"
-					type: "item"
-					title: "2x &#FFD700Gold Plates&r"
-					item: "emendatusenigmatica:gold_plate"
-					count: 2L
-				}
-				{
-					id: "788EC1505DD621E3"
-					type: "item"
-					title: "&#F2E279Electrum Rod&r"
-					item: "emendatusenigmatica:electrum_rod"
-				}
-				{
-					id: "2B0269A10C4CCA04"
-					type: "item"
-					title: "&4Redstone Flux Coil&r"
-					item: "thermal:rf_coil"
-				}
-			]
+			tasks: [{
+				id: "2B0269A10C4CCA04"
+				type: "item"
+				title: "&4Redstone Flux Coil&r"
+				item: "thermal:rf_coil"
+			}]
 			rewards: [{
 				id: "1D6E5599082D0D14"
 				type: "item"

@@ -48,27 +48,13 @@
 	quests: [
 		{
 			x: -0.25d
-			y: -5.75d
-			shape: "gear"
-			description: ["Obtained by breaking some &5Draconium Ore&r"]
-			id: "511D1F9D645AB548"
-			tasks: [{
-				id: "1E05C6C4EFCCEBE0"
-				type: "item"
-				item: "draconicevolution:draconium_dust"
-			}]
-			rewards: [{
-				id: "020F1BAD9B9CEC33"
-				type: "item"
-				item: "draconicevolution:draconium_dust"
-				random_bonus: 3
-			}]
-		}
-		{
-			x: -0.25d
 			y: -4.75d
 			shape: "diamond"
-			dependencies: ["511D1F9D645AB548"]
+			description: ["You can obtain &5Draconium Dust&r by breaking some &5Draconium Ore&r."]
+			dependencies: [
+				"4A523013734520E4"
+				"1FDDA157DFAF2A7F"
+			]
 			id: "2B5A3B1370B700C4"
 			tasks: [{
 				id: "35B7BDA44FA3AAD4"
@@ -79,6 +65,7 @@
 				id: "16A7A87FA0B07B71"
 				type: "item"
 				item: "draconicevolution:draconium_dust"
+				random_bonus: 4
 			}]
 		}
 		{
@@ -1500,6 +1487,7 @@
 		}
 		{
 			title: "Draconic Energy Transportation"
+			icon: "draconicevolution:draconic_relay_crystal"
 			x: -4.25d
 			y: -5.75d
 			shape: "hexagon"
@@ -1537,6 +1525,7 @@
 			}]
 		}
 		{
+			icon: "draconicevolution:basic_relay_crystal"
 			x: -4.25d
 			y: -8.25d
 			shape: "hexagon"
@@ -1573,6 +1562,7 @@
 			}]
 		}
 		{
+			icon: "draconicevolution:wyvern_relay_crystal"
 			x: -5.0d
 			y: -7.0d
 			shape: "hexagon"
@@ -1752,6 +1742,7 @@
 			}]
 		}
 		{
+			icon: "draconicevolution:draconic_speed_module"
 			x: 9.25d
 			y: -4.75d
 			shape: "diamond"
@@ -1839,6 +1830,7 @@
 			}]
 		}
 		{
+			icon: "draconicevolution:draconic_aoe_module"
 			x: 11.25d
 			y: -4.75d
 			shape: "diamond"
@@ -1876,6 +1868,7 @@
 		}
 		{
 			title: "Projectil Gravity Compensation Module"
+			icon: "draconicevolution:draconic_proj_grav_comp_module"
 			x: 10.75d
 			y: -4.25d
 			shape: "diamond"
@@ -1928,6 +1921,7 @@
 		}
 		{
 			title: "Flight Module"
+			icon: "draconicevolution:draconic_flight_module"
 			x: 11.25d
 			y: -5.75d
 			shape: "diamond"
@@ -1969,6 +1963,7 @@
 			}]
 		}
 		{
+			icon: "draconicevolution:draconic_damage_module"
 			x: 9.75d
 			y: -6.25d
 			shape: "diamond"
@@ -2012,6 +2007,7 @@
 		}
 		{
 			title: "Undying Module"
+			icon: "draconicevolution:draconic_undying_module"
 			x: 10.75d
 			y: -6.25d
 			shape: "diamond"
@@ -2044,6 +2040,7 @@
 			}]
 		}
 		{
+			icon: "draconicevolution:draconic_energy_module"
 			x: 8.75d
 			y: -6.25d
 			shape: "diamond"
@@ -2081,6 +2078,7 @@
 			}]
 		}
 		{
+			icon: "draconicevolution:draconic_auto_feed_module"
 			x: 8.25d
 			y: -5.75d
 			shape: "diamond"
@@ -2125,6 +2123,7 @@
 		}
 		{
 			title: "Projectile Velocity Module"
+			icon: "draconicevolution:draconic_proj_velocity_module"
 			x: 12.25d
 			y: -5.75d
 			shape: "diamond"
@@ -2157,6 +2156,7 @@
 		}
 		{
 			title: "Projectile Penetration Module"
+			icon: "draconicevolution:draconic_proj_penetration_module"
 			x: 8.75d
 			y: -5.25d
 			shape: "diamond"
@@ -2189,6 +2189,7 @@
 		}
 		{
 			title: "Projectile Damage Module"
+			icon: "draconicevolution:draconic_proj_damage_module"
 			x: 10.25d
 			y: -6.75d
 			shape: "diamond"
@@ -2221,6 +2222,7 @@
 		}
 		{
 			title: "Shield Recovery Module"
+			icon: "draconicevolution:draconic_shield_recovery_module"
 			x: 10.25d
 			y: -3.75d
 			shape: "diamond"
@@ -2252,6 +2254,7 @@
 			}]
 		}
 		{
+			icon: "draconicevolution:draconic_jump_module"
 			x: 11.25d
 			y: -6.75d
 			shape: "diamond"
@@ -2327,6 +2330,7 @@
 		}
 		{
 			title: "Shield Control Module"
+			icon: "draconicevolution:draconic_shield_control_module"
 			x: 9.25d
 			y: -6.75d
 			shape: "diamond"
@@ -2359,6 +2363,7 @@
 		}
 		{
 			title: "Large Shield Capacity Module"
+			icon: "draconicevolution:draconic_large_shield_capacity_module"
 			x: 9.25d
 			y: -3.75d
 			shape: "diamond"
@@ -2392,6 +2397,7 @@
 		}
 		{
 			title: "Shield Capacity Module"
+			icon: "draconicevolution:draconic_shield_capacity_module"
 			x: 11.25d
 			y: -3.75d
 			shape: "diamond"
@@ -2424,6 +2430,7 @@
 		}
 		{
 			title: "Draconic Energy Storage"
+			icon: "draconicevolution:energy_core_stabilizer"
 			x: -3.5d
 			y: -7.0d
 			shape: "hexagon"

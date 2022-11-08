@@ -39,6 +39,7 @@
 		}
 		{
 			title: "Spark Augment"
+			icon: "botania:spark_upgrade_isolated"
 			x: -3.75d
 			y: -0.25d
 			description: [
@@ -144,6 +145,7 @@
 		}
 		{
 			title: "Mystical Petals"
+			icon: "botania:cyan_petal"
 			x: 0.25d
 			y: -1.75d
 			dependencies: ["1BA1DC174E2C6675"]
@@ -233,6 +235,7 @@
 		}
 		{
 			title: "Mystical Flowers"
+			icon: "botania:magenta_mystical_flower"
 			x: 0.25d
 			y: -0.25d
 			description: [
@@ -334,6 +337,7 @@
 		}
 		{
 			title: "Black Lotus"
+			icon: "botania:black_lotus"
 			x: 0.25d
 			y: 1.25d
 			description: ["An elusive flower by the name of the &5Black Lotus&r exists; however, it is not known to grow or reproduce. There are no known sources of the Lotus at this time.It is known, however, that each bloom contains a good deal of concentrated &aMana&r that can be released by dissolving it inside a non-empty &5Mana Pool&r. Just throwing it in will do."]
@@ -753,6 +757,7 @@
 		}
 		{
 			title: "Rune of the Seasons"
+			icon: "botania:rune_summer"
 			x: 7.25d
 			y: 1.5d
 			hide_dependency_lines: true
@@ -792,6 +797,7 @@
 		}
 		{
 			title: "Other Runes"
+			icon: "botania:rune_envy"
 			x: 6.25d
 			y: 1.5d
 			hide_dependency_lines: true
@@ -846,6 +852,7 @@
 		}
 		{
 			title: "Element Runes"
+			icon: "botania:rune_water"
 			x: 5.25d
 			y: 1.5d
 			hide_dependency_lines: true
@@ -965,6 +972,8 @@
 			}]
 		}
 		{
+			title: "Mana Items"
+			icon: "botania:manasteel_ingot"
 			x: 4.25d
 			y: -2.5d
 			dependencies: ["40AA0A493F0620AA"]
@@ -1293,7 +1302,7 @@
 			rewards: [{
 				id: "4538038213444825"
 				type: "item"
-				item: "arsarsenal:source_steel_ingot"
+				item: "minecraft:netherite_ingot"
 			}]
 		}
 		{
@@ -1336,6 +1345,11 @@
 				type: "item"
 				item: "botania:mana_pool"
 			}]
+			rewards: [{
+				id: "00D89F81B9FABF80"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
 		}
 		{
 			x: 7.0d
@@ -1349,6 +1363,11 @@
 				id: "45F6BA69E28CCF71"
 				type: "item"
 				item: "botania:fabulous_pool"
+			}]
+			rewards: [{
+				id: "705DDBAC0CCF66AF"
+				type: "random"
+				table_id: 4928159323104444449L
 			}]
 		}
 		{
@@ -1461,6 +1480,7 @@
 			}]
 		}
 		{
+			icon: "botania:elementium_ingot"
 			x: 10.0d
 			y: -6.0d
 			dependencies: ["335E059D1698372F"]
@@ -1572,6 +1592,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7DE66DBA48AD0DC9"
+				type: "random"
+				table_id: 4928159323104444449L
+			}]
 		}
 		{
 			x: 11.25d
@@ -1665,6 +1690,7 @@
 		}
 		{
 			title: "Gaia Ritual"
+			icon: "botania:gaia_pylon"
 			x: 8.5d
 			y: -0.5d
 			description: ["{image:chroma:textures/quests/gaia_ritual.png width:110 height:110 align:1}"]

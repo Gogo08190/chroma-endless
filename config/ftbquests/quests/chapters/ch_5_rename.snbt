@@ -337,6 +337,7 @@
 			}]
 		}
 		{
+			icon: "pneumaticcraft:pneumatic_door"
 			x: -5.5d
 			y: -17.5d
 			description: [
@@ -1752,6 +1753,7 @@
 		}
 		{
 			title: "Assembly Line"
+			icon: "pneumaticcraft:assembly_controller"
 			x: -8.25d
 			y: 14.0d
 			shape: "octagon"
@@ -2054,7 +2056,6 @@
 				"4C32DDB98EFDC15A"
 				"63BFABD722A4669D"
 				"7B9FBBCD2F962A0B"
-				"4F9C02E738E82240"
 			]
 			size: 2.0d
 			id: "3B142D2ED1A34A2F"
@@ -2137,6 +2138,22 @@
 					id: "105447B9B8AC7F1E"
 					type: "item"
 					item: "pneumaticcraft:assembly_controller"
+				}
+				{
+					id: "619419507A7F84E8"
+					type: "item"
+					item: "pneumaticcraft:heat_sink"
+					count: 3L
+				}
+				{
+					id: "7A5B17B0965AE79C"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_valve"
+				}
+				{
+					id: "4EDFB09B97A4BECA"
+					type: "item"
+					item: "simplylight:illuminant_orange_block_on"
 				}
 			]
 			rewards: [

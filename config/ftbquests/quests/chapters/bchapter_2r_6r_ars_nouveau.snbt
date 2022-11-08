@@ -1,15 +1,16 @@
 {
 	id: "1E682597F30066ED"
 	group: "60C88776031840B1"
-	order_index: 0
+	order_index: 1
 	filename: "bchapter_2r_6r_ars_nouveau"
-	title: "&bChapter 1&r &6-&r A New Kind Of Magy"
+	title: "&bChapter 2&r &6-&r A New Kind Of Magy"
 	icon: "ars_nouveau:enchanting_apparatus"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			title: "Mythical Spells"
+			icon: "ars_nouveau:glyph_blink"
 			x: -6.25d
 			y: 2.5d
 			shape: "square"
@@ -117,6 +118,7 @@
 		}
 		{
 			title: "Marvelous Spells"
+			icon: "ars_nouveau:glyph_exchange"
 			x: -6.25d
 			y: -1.0d
 			shape: "square"
@@ -291,6 +293,7 @@
 		}
 		{
 			title: "No School Needed"
+			icon: "ars_nouveau:glyph_split"
 			x: -3.75d
 			y: -1.0d
 			shape: "square"
@@ -392,6 +395,7 @@
 		}
 		{
 			title: "School Of Elements"
+			icon: "ars_nouveau:glyph_haste"
 			x: -2.75d
 			y: -1.0d
 			shape: "square"
@@ -486,6 +490,7 @@
 		}
 		{
 			title: "EnderChest School"
+			icon: "ars_nouveau:glyph_color_orange"
 			x: -3.75d
 			y: 1.0d
 			shape: "square"
@@ -602,6 +607,7 @@
 		}
 		{
 			title: "School Of Manipulation"
+			icon: "ars_nouveau:glyph_delay"
 			x: -2.75d
 			y: 1.0d
 			shape: "square"
@@ -932,8 +938,8 @@
 				}
 			}]
 			rewards: [{
-				id: "0F5440BC0C34F47D"
-				type: "choice"
+				id: "090F66999F1351F0"
+				type: "random"
 				table_id: 7001957974459087103L
 			}]
 		}
@@ -1002,6 +1008,7 @@
 		}
 		{
 			title: "Source Relays"
+			icon: "ars_nouveau:arcane_relay"
 			x: 4.25d
 			y: 2.25d
 			subtitle: "Relaying Mana Generation"
@@ -1047,8 +1054,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 6.0d
+			x: -1.5d
+			y: 5.25d
 			subtitle: "A new ingot"
 			description: ["When making &5Source Steel&r, you must inject netherite with source at the &6Enchanting Appartus&r."]
 			dependencies: ["0F5064AAAA97F693"]
@@ -1066,6 +1073,7 @@
 		}
 		{
 			title: "Enchanting Apparatus"
+			icon: "ars_nouveau:enchanting_apparatus"
 			x: -0.5d
 			y: 4.25d
 			subtitle: "A New Way Of Crafting"
@@ -1100,32 +1108,8 @@
 			}]
 		}
 		{
-			title: "Automatic Compound Infuser I/O"
-			x: -1.75d
+			x: -2.0d
 			y: 4.0d
-			dependencies: ["0F5064AAAA97F693"]
-			id: "48EF750FBA9CEA27"
-			tasks: [
-				{
-					id: "14F3CBAEC4E0124B"
-					type: "item"
-					item: "masterfulmachinery:autoinfuser_compound_item_port_items_output"
-				}
-				{
-					id: "002863034917F19C"
-					type: "item"
-					item: "masterfulmachinery:autoinfuser_compound_fluid_port_fluids_input"
-				}
-				{
-					id: "71DC364ECA9D4292"
-					type: "item"
-					item: "masterfulmachinery:autoinfuser_compound_item_port_items_input"
-				}
-			]
-		}
-		{
-			x: -1.75d
-			y: 5.25d
 			subtitle: "Rituals! "
 			description: ["A brazier that may be used as decoration or for performing rituals. To light the brazier for decoration, cast a &l&nLight&r Spell on the brazier. The color of the brazier corresponds with the color of the spell. Applying a redstone signal will disable a running ritual. For information on performing rituals, see the dedicated section on rituals."]
 			dependencies: ["0F5064AAAA97F693"]
@@ -1143,7 +1127,9 @@
 			}]
 		}
 		{
-			x: 0.75d
+			title: "Ars Nouveau Charms"
+			icon: "ars_nouveau:whelp_charm"
+			x: 0.5d
 			y: 5.25d
 			dependencies: ["0F5064AAAA97F693"]
 			optional: true
@@ -1182,7 +1168,8 @@
 			}]
 		}
 		{
-			x: 0.75d
+			icon: "ars_nouveau:potion_melder"
+			x: 1.0d
 			y: 4.0d
 			subtitle: "Mixing Potions"
 			description: ["Converts 3 doses of a ption from 2 adjacents &#c69c6dPotion Jars&r, and outputs a single dose of mixed potion into a &#c69c6dPotion Jar&r beneath it. The &5Potion Melder&r requires &5Mana&r per mix."]

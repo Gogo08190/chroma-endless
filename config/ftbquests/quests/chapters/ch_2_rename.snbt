@@ -179,20 +179,17 @@
 		{
 			x: -6.5d
 			y: 18.25d
-			dependencies: [
-				"22C74306B4C53F86"
-				"406C435646C5CAA1"
-			]
+			dependencies: ["406C435646C5CAA1"]
 			id: "70AAACB1DD2AB8E1"
 			tasks: [{
-				id: "207AD7EFBEDCA255"
+				id: "371EB350284FF32D"
 				type: "item"
-				item: "immersiveengineering:connector_hv_relay"
+				item: "immersiveengineering:connector_hv"
 			}]
 			rewards: [{
-				id: "78D414193E227B8A"
+				id: "1CB734BF7AA61AB5"
 				type: "item"
-				item: "immersiveengineering:connector_hv_relay"
+				item: "immersiveengineering:connector_hv"
 			}]
 		}
 		{
@@ -316,10 +313,7 @@
 			x: -6.5d
 			y: 16.5d
 			hide_dependency_lines: false
-			dependencies: [
-				"33A8A07EEB0A763B"
-				"70AAACB1DD2AB8E1"
-			]
+			dependencies: ["33A8A07EEB0A763B"]
 			id: "27141D15A8E1F002"
 			tasks: [{
 				id: "1D06B1F39F0CFEC3"
@@ -428,14 +422,14 @@
 			}]
 		}
 		{
-			title: "&#71797EImproved &#422117Blast Furnace&r"
+			title: "Build an &6Improved Blast Furnace"
 			x: -3.4375d
 			y: 15.125d
 			shape: "square"
 			subtitle: "Steeled multiblock"
 			description: [
-				"9xReinforced Blast Brick"
-				"1xHopper"
+				"27x Reinforced Blast Brick"
+				"01x Hopper"
 			]
 			dependencies: ["70885C4B9975D97D"]
 			size: 2.75d
@@ -443,7 +437,7 @@
 			tasks: [{
 				id: "09ECF765A8D0B7A5"
 				type: "observation"
-				title: "Observe &#71797EImproved &#422117Blast Furnace&r"
+				title: "Look at a complete &6Improved Blast Furnace"
 				icon: "immersiveengineering:advanced_blast_furnace"
 				timer: 0L
 				observe_type: 0
@@ -457,7 +451,7 @@
 			}]
 		}
 		{
-			title: "&#D5A372Alloy Kiln&r"
+			title: "Build an &6Alloy Kiln"
 			x: -4.25d
 			y: 12.25d
 			shape: "square"
@@ -478,7 +472,7 @@
 			tasks: [{
 				id: "1D5D17000B59A18C"
 				type: "observation"
-				title: "Observe &#D5A372Alloy Kiln&r"
+				title: "Look at a complete &6Alloy Kiln&r"
 				icon: "immersiveengineering:alloy_smelter"
 				timer: 30L
 				observe_type: 0
@@ -491,7 +485,7 @@
 			}]
 		}
 		{
-			title: "&#422117Crude Blast Furnace&r"
+			title: "Build a &6Crude Blast Furnace"
 			x: -0.75d
 			y: 12.25d
 			shape: "square"
@@ -510,16 +504,16 @@
 			tasks: [{
 				id: "27D545D44E4D430D"
 				type: "observation"
-				title: "Observe &#422117Crude Blast Furnace&r"
+				title: "Look at a complete &6Blast Furnace"
 				icon: "immersiveengineering:blast_furnace"
 				timer: 0L
 				observe_type: 0
 				to_observe: "immersiveengineering:blast_furnace"
 			}]
 			rewards: [{
-				id: "6322AF76315BCD7E"
+				id: "28F17A03F343C034"
 				type: "item"
-				item: "immersiveengineering:coke"
+				item: "emendatusenigmatica:coke_block"
 			}]
 		}
 		{
@@ -563,13 +557,11 @@
 			]
 			dependencies: [
 				"678EDD326EC324D1"
-				"794647270D7D0016"
 				"0EA98AAA8B4EF363"
 				"2330B9960BD20526"
 				"2CE99BAF89F348F0"
 				"1A89F0C5AAA08291"
 			]
-			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "19862EE31DFDDAB0"
 			tasks: [{
@@ -610,7 +602,6 @@
 				"4722CEB4B3228E7C"
 				"1A89F0C5AAA08291"
 			]
-			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "073EACF91190BEA0"
 			tasks: [{
@@ -703,7 +694,6 @@
 				"0C5279A8EE03DC68"
 				"22CE0BA0E6011439"
 			]
-			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "5DC309731882A5E1"
 			tasks: [{
@@ -747,7 +737,6 @@
 				"22CE0BA0E6011439"
 				"04C8ABA914075643"
 			]
-			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "625FD0330E1BDA54"
 			tasks: [{
@@ -790,7 +779,6 @@
 				"0EA98AAA8B4EF363"
 				"22CE0BA0E6011439"
 			]
-			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "1C4916687AD96A77"
 			tasks: [{
@@ -840,7 +828,6 @@
 				"22CE0BA0E6011439"
 				"1A89F0C5AAA08291"
 			]
-			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "70CA1655FB8127B2"
 			tasks: [{
@@ -997,7 +984,6 @@
 				"0EA98AAA8B4EF363"
 				"794647270D7D0016"
 			]
-			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "29A495E5307C19C8"
 			tasks: [{
@@ -1039,7 +1025,6 @@
 				"295FDDB62528FA0D"
 				"1CD4B02E543E84A8"
 			]
-			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "219D232C263901B6"
 			tasks: [
@@ -1153,7 +1138,7 @@
 			}]
 		}
 		{
-			title: "&#6A6A6ACoke Oven&r"
+			title: "Build a &6Coke Oven"
 			x: 0.0d
 			y: 2.75d
 			shape: "square"
@@ -1169,7 +1154,7 @@
 			tasks: [{
 				id: "3005A9860BA0CCBA"
 				type: "observation"
-				title: "Observe &#6A6A6ACoke Oven&r"
+				title: "Look at a complete &6Metal PressCoke Oven"
 				icon: "immersiveengineering:coke_oven"
 				timer: 0L
 				observe_type: 0
@@ -1298,7 +1283,6 @@
 				"0C5279A8EE03DC68"
 				"22CE0BA0E6011439"
 			]
-			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "01BBDEDBA8C75318"
 			tasks: [{
@@ -1340,7 +1324,6 @@
 				"0EA98AAA8B4EF363"
 				"22CE0BA0E6011439"
 			]
-			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "58B192367229EBFC"
 			tasks: [{
@@ -1380,7 +1363,6 @@
 				"2CE99BAF89F348F0"
 				"0EA98AAA8B4EF363"
 			]
-			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "413B892C84FCA06C"
 			tasks: [{
@@ -1418,7 +1400,6 @@
 				"3x High-Voltage Coil Block"
 			]
 			dependencies: ["022FBE09A8760542"]
-			dependency_requirement: "one_completed"
 			size: 2.75d
 			id: "660C6DD3AED86A77"
 			tasks: [{
@@ -1486,8 +1467,8 @@
 		}
 		{
 			title: "Build a &6Silo"
-			x: -1.2999999999999998d
-			y: 32.0d
+			x: -1.375d
+			y: 32.3125d
 			shape: "square"
 			description: [
 				"Used to store items."
@@ -1517,8 +1498,8 @@
 		}
 		{
 			title: "Build a &6Tank"
-			x: -1.3999999999999995d
-			y: 35.3d
+			x: -1.375d
+			y: 35.0625d
 			shape: "square"
 			description: [
 				"Used to store fluids."
@@ -2118,8 +2099,8 @@
 			}]
 		}
 		{
-			x: -9.3d
-			y: 32.25d
+			x: -9.25d
+			y: 31.75d
 			hide_dependency_lines: true
 			dependencies: [
 				"577923E345CA12E5"
@@ -2218,8 +2199,8 @@
 			}]
 		}
 		{
-			x: -6.550000000000001d
-			y: 32.25d
+			x: -6.5d
+			y: 31.75d
 			shape: "square"
 			dependencies: ["195002C6E3BDDD9B"]
 			id: "651881C1D25730A3"
@@ -2356,6 +2337,7 @@
 			dependencies: [
 				"761BAE3E76AB71A3"
 				"4339BD51E04343A5"
+				"1090D7F73D0C9E1F"
 			]
 			id: "6FB6F406F526DE97"
 			tasks: [{
@@ -2392,6 +2374,7 @@
 			dependencies: [
 				"761BAE3E76AB71A3"
 				"4055881864FF87C5"
+				"1090D7F73D0C9E1F"
 			]
 			id: "0B70DAFB9E760CF8"
 			tasks: [{
@@ -3932,7 +3915,6 @@
 		{
 			x: 26.499999999999993d
 			y: 14.649999999999999d
-			min_required_dependencies: 2
 			dependencies: ["761BAE3E76AB71A3"]
 			id: "316E7F84DBF9A1A3"
 			tasks: [{
@@ -4042,6 +4024,7 @@
 			dependencies: [
 				"761BAE3E76AB71A3"
 				"682D148DB0B5522E"
+				"1090D7F73D0C9E1F"
 			]
 			id: "12EB4CA7EDCF87BC"
 			tasks: [{
@@ -4105,12 +4088,12 @@
 			tasks: [{
 				id: "659209F734D46C4D"
 				type: "item"
-				item: "immersiveengineering:connector_mv_relay"
+				item: "immersiveengineering:connector_mv"
 			}]
 			rewards: [{
 				id: "0475AF863AA18413"
 				type: "item"
-				item: "immersiveengineering:connector_mv_relay"
+				item: "immersiveengineering:connector_mv"
 			}]
 		}
 		{
@@ -4433,6 +4416,22 @@
 				id: "2B9F0CE7DC066F8E"
 				type: "item"
 				item: "emendatusenigmatica:steel_ingot"
+			}]
+		}
+		{
+			x: -6.25d
+			y: 23.75d
+			dependencies: ["7244FB2212B5A220"]
+			id: "5BD0B370C0C967E3"
+			tasks: [{
+				id: "62680FE805E4C58A"
+				type: "item"
+				item: "immersiveengineering:connector_lv"
+			}]
+			rewards: [{
+				id: "2FE2A84F56BBCB5E"
+				type: "item"
+				item: "immersiveengineering:connector_lv"
 			}]
 		}
 	]

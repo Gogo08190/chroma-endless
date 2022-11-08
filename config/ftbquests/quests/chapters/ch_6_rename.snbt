@@ -1664,6 +1664,7 @@
 		}
 		{
 			title: "Laser lens"
+			icon: "industrialforegoing:laser_lens1"
 			x: 34.25d
 			y: 8.0d
 			dependencies: ["78170A2DCD9F1C3C"]

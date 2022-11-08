@@ -1,9 +1,9 @@
 {
 	id: "517173498A1D1695"
 	group: "649CE452F2BBF13D"
-	order_index: 4
+	order_index: 3
 	filename: "tardis_rename"
-	title: "&bChapter 5&r &6-&r Tardis"
+	title: "&bChapter 4&r &6-&r Tardis"
 	icon: "tardis:telescope"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -139,6 +139,7 @@
 		}
 		{
 			title: "Tardis Key"
+			icon: "tardis:tardis_key"
 			x: -46.25d
 			y: -13.75d
 			description: ["The Tardis Key is an item that is used to lock and unlock the Tardis."]
@@ -592,6 +593,7 @@
 		}
 		{
 			title: "Quantiscope"
+			icon: "tardis:quantiscope_brass"
 			x: -52.5d
 			y: -12.5d
 			subtitle: "The Quantiscope is a block that allows users to craft and modify various items."
@@ -883,6 +885,7 @@
 		}
 		{
 			title: "Rift"
+			icon: "tardis:artron_collector"
 			x: -51.75d
 			y: -17.0d
 			dependencies: ["7249BC3BF63A36B8"]
@@ -1586,6 +1589,7 @@
 		}
 		{
 			title: "Space Armor"
+			icon: "tardis:space_chest"
 			x: -61.25d
 			y: -15.25d
 			dependencies: ["6C5A409004043E59"]

@@ -402,6 +402,7 @@
 			}]
 		}
 		{
+			icon: "storagedrawers:oak_trim"
 			x: 6.5d
 			y: -5.0d
 			dependencies: ["3A34A14E10BCDD68"]
@@ -2254,6 +2255,7 @@
 			}]
 		}
 		{
+			icon: "prettypipes:low_extraction_module"
 			x: 15.5d
 			y: -13.75d
 			shape: "diamond"
@@ -2280,6 +2282,7 @@
 			}]
 		}
 		{
+			icon: "prettypipes:low_filter_module"
 			x: 17.5d
 			y: -12.75d
 			shape: "diamond"
@@ -2360,6 +2363,7 @@
 			}]
 		}
 		{
+			icon: "prettypipes:low_retrieval_module"
 			x: 16.5d
 			y: -13.75d
 			shape: "diamond"
@@ -2566,6 +2570,7 @@
 			}]
 		}
 		{
+			icon: "prettypipes:medium_retrieval_module"
 			x: 17.0d
 			y: -14.25d
 			shape: "diamond"
@@ -2592,6 +2597,7 @@
 			}]
 		}
 		{
+			icon: "prettypipes:high_retrieval_module"
 			x: 17.5d
 			y: -14.75d
 			shape: "diamond"
@@ -2654,6 +2660,7 @@
 			}]
 		}
 		{
+			icon: "prettypipes:medium_filter_module"
 			x: 18.0d
 			y: -13.25d
 			shape: "diamond"
@@ -2680,6 +2687,7 @@
 			}]
 		}
 		{
+			icon: "prettypipes:high_filter_module"
 			x: 18.5d
 			y: -13.75d
 			shape: "diamond"
@@ -2814,6 +2822,7 @@
 			}]
 		}
 		{
+			icon: "prettypipes:medium_extraction_module"
 			x: 15.0d
 			y: -14.25d
 			shape: "diamond"
@@ -2840,6 +2849,7 @@
 			}]
 		}
 		{
+			icon: "prettypipes:high_extraction_module"
 			x: 14.5d
 			y: -14.75d
 			shape: "diamond"

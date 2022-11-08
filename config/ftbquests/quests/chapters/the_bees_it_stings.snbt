@@ -221,7 +221,7 @@
 			x: -0.75d
 			y: -2.25d
 			shape: "gear"
-			dependencies: ["006DBF1B4AC3EBA0"]
+			dependencies: ["1C7C41C2FA427B8F"]
 			id: "7C54F45255FD8996"
 			tasks: [{
 				id: "1359E3BFFAFC74AC"
@@ -1017,17 +1017,7 @@
 			tasks: [{
 				id: "51996E6647F34CCE"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:blaze_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.blaze_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#fff32d"
-					}
-				}
+				item: "resourcefulbees:blaze_honeycomb"
 			}]
 			rewards: [{
 				id: "36A9E98C44E9609D"
@@ -1045,19 +1035,9 @@
 			dependencies: ["1356E497437B716A"]
 			id: "2F8774E9410F9C4F"
 			tasks: [{
-				id: "5F9363632EE3E115"
+				id: "3A77A31557C6CC27"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:bitumen_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.bitumen_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#35424f"
-					}
-				}
+				item: "resourcefulbees:bitumen_honeycomb"
 			}]
 			rewards: [{
 				id: "7E468FC20080BAC6"
@@ -1078,17 +1058,7 @@
 			tasks: [{
 				id: "60E2F3C608D829FB"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:creeper_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.creeper_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#0C9F0A"
-					}
-				}
+				item: "resourcefulbees:creeper_honeycomb"
 			}]
 			rewards: [{
 				id: "7E1A2BE59B6C2DFB"
@@ -1109,17 +1079,7 @@
 			tasks: [{
 				id: "2E1C9957EC46B471"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:basalz_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.basalz_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#1b141d"
-					}
-				}
+				item: "resourcefulbees:basalz_honeycomb"
 			}]
 			rewards: [{
 				id: "7D9AEA4CB21EFA08"
@@ -1142,17 +1102,7 @@
 			tasks: [{
 				id: "728A1DB4422015E7"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:awakened_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.awakened_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#FF4C00"
-					}
-				}
+				item: "resourcefulbees:awakened_honeycomb"
 			}]
 			rewards: [{
 				id: "405EF1535903565C"
@@ -1169,19 +1119,9 @@
 			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "6D17FF2CFD79A44D"
 			tasks: [{
-				id: "751CE9E8B450F9BF"
+				id: "2C4685E816DDE31D"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:aluminum_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.aluminum_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#dce6f7"
-					}
-				}
+				item: "resourcefulbees:aluminum_honeycomb"
 			}]
 			rewards: [{
 				id: "7BEAACFEAD81498D"
@@ -1202,19 +1142,9 @@
 			]
 			id: "1A6EA32BFBE0BAAE"
 			tasks: [{
-				id: "711FCC2B360FE68D"
+				id: "27E2FE9CC9A69048"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:allthemodium_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.allthemodium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#fcc50c"
-					}
-				}
+				item: "resourcefulbees:allthemodium_honeycomb"
 			}]
 			rewards: [{
 				id: "043351BE06FDEEC1"
@@ -1232,19 +1162,9 @@
 			dependencies: ["487D00E19338C817"]
 			id: "1524181F40000154"
 			tasks: [{
-				id: "08CCDAC38F0BF47C"
+				id: "40B574E65CD7AD77"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:aeternium_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.aeternium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#075a52"
-					}
-				}
+				item: "resourcefulbees:aeternium_honeycomb"
 			}]
 			rewards: [{
 				id: "3EC890C01ED7CFF8"
@@ -1265,17 +1185,7 @@
 			tasks: [{
 				id: "5B07275520606AD7"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:abbee_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.abbee_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#E5DED5"
-					}
-				}
+				item: "resourcefulbees:strawbeerry_milkshake"
 			}]
 			rewards: [{
 				id: "3A37681CCAD6EBF6"
@@ -1297,19 +1207,9 @@
 			]
 			id: "7515931B78C983B4"
 			tasks: [{
-				id: "349237F1436E154C"
+				id: "1A406A83E8F638BB"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:cloggrum_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.cloggrum_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#ba9d7b"
-					}
-				}
+				item: "resourcefulbees:cloggrum_honeycomb"
 			}]
 			rewards: [{
 				id: "6C4EC77552D19C07"
@@ -1330,19 +1230,9 @@
 			]
 			id: "61570EC6C55AA5A1"
 			tasks: [{
-				id: "20CFF6EBE9ACF53C"
+				id: "34122822B36E1749"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:chaotic_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.chaotic_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#161616"
-					}
-				}
+				item: "resourcefulbees:chaotic_honeycomb"
 			}]
 			rewards: [{
 				id: "53A50D247B2CC88A"
@@ -1363,17 +1253,13 @@
 			tasks: [{
 				id: "1E01733E090B202D"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:clay_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.clay_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#acaebd"
-					}
-				}
+				item: "resourcefulbees:clay_honeycomb"
+			}]
+			rewards: [{
+				id: "2723953FF3E78F66"
+				type: "item"
+				item: "minecraft:clay"
+				count: 4
 			}]
 		}
 		{
@@ -1388,19 +1274,9 @@
 			]
 			id: "4FA5CFA4E3974878"
 			tasks: [{
-				id: "2FA08BCA559696A7"
+				id: "1C61D3D565E0AEB4"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:bronze_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.bronze_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#e5b770"
-					}
-				}
+				item: "resourcefulbees:bronze_honeycomb"
 			}]
 			rewards: [{
 				id: "5F8861D3EF1E7424"
@@ -1421,19 +1297,9 @@
 			]
 			id: "2B794BD7028969E9"
 			tasks: [{
-				id: "2186D3425F174E39"
+				id: "0DD841E3CDED6160"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:brass_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.brass_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#c3c45a"
-					}
-				}
+				item: "resourcefulbees:brass_honeycomb"
 			}]
 			rewards: [{
 				id: "46EA0419E1A27B69"
@@ -1452,19 +1318,9 @@
 			dependencies: ["4D42659154BDCE04"]
 			id: "01A2C48E3267094D"
 			tasks: [{
-				id: "67D72F1E11C1E69D"
+				id: "6AC700A2DAB40D77"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:blutonium_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.blutonium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#3535cc"
-					}
-				}
+				item: "resourcefulbees:blutonium_honeycomb"
 			}]
 			rewards: [{
 				id: "6FF2B1A27AEA4615"
@@ -1485,17 +1341,7 @@
 			tasks: [{
 				id: "6FC208526D718DF2"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:blizz_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.blizz_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#37b7fe"
-					}
-				}
+				item: "resourcefulbees:blizz_honeycomb"
 			}]
 			rewards: [{
 				id: "0A1CF68C41F1E58F"
@@ -1516,17 +1362,7 @@
 			tasks: [{
 				id: "475C415004911134"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:blitz_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.blitz_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#def7fa"
-					}
-				}
+				item: "resourcefulbees:blitz_honeycomb"
 			}]
 			rewards: [{
 				id: "2EBC29DC8888A581"
@@ -1551,19 +1387,9 @@
 			]
 			id: "56358130A39993C7"
 			tasks: [{
-				id: "4E951AB27708D54F"
+				id: "18137E7A66A359BC"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:blazing_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.blazing_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#ffe01f"
-					}
-				}
+				item: "resourcefulbees:blazing_honeycomb"
 			}]
 			rewards: [{
 				id: "71910C2F18FF12EF"
@@ -1586,17 +1412,7 @@
 			tasks: [{
 				id: "317EFE606B882383"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:dragon_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.dragon_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#222222"
-					}
-				}
+				item: "resourcefulbees:dragon_honeycomb"
 			}]
 			rewards: [{
 				id: "5825EA48F0D0B986"
@@ -1618,17 +1434,7 @@
 			tasks: [{
 				id: "69F0D89A66FBAF8A"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:draconium_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.draconium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#8419FF"
-					}
-				}
+				item: "resourcefulbees:draconium_honeycomb"
 			}]
 			rewards: [{
 				id: "57DB4A44142BC8A1"
@@ -1651,17 +1457,7 @@
 			tasks: [{
 				id: "526A113C7FA25663"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:diamond_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.diamond_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#00ffff"
-					}
-				}
+				item: "resourcefulbees:diamond_honeycomb"
 			}]
 			rewards: [{
 				id: "3661D4D9E4F2D047"
@@ -1680,19 +1476,9 @@
 			dependencies: ["42419E07F45208E2"]
 			id: "4D42659154BDCE04"
 			tasks: [{
-				id: "2F8C28B1B1C78846"
+				id: "7E6AA89BB2F0B3CD"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:cyanite_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.cyanite_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#acddff"
-					}
-				}
+				item: "resourcefulbees:cyanite_honeycomb"
 			}]
 			rewards: [{
 				id: "54C2DF1FD0A1022E"
@@ -1710,19 +1496,9 @@
 			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "3DB1DBE894C2FA8B"
 			tasks: [{
-				id: "42F60A699A97FA15"
+				id: "5FF7B5ED4A7E2663"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:copper_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.copper_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#bb5b30"
-					}
-				}
+				item: "resourcefulbees:copper_honeycomb"
 			}]
 			rewards: [{
 				id: "4DD3F29E55AFFED3"
@@ -1743,19 +1519,9 @@
 			]
 			id: "4A475D327919C897"
 			tasks: [{
-				id: "47BC222DA08B1A3C"
+				id: "06126464B83ABA3B"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:constantan_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.constantan_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#dbab81"
-					}
-				}
+				item: "resourcefulbees:constantan_honeycomb"
 			}]
 			rewards: [{
 				id: "6C8CB78F4E4597E7"
@@ -1773,19 +1539,9 @@
 			dependencies: ["7515931B78C983B4"]
 			id: "7162685E96B5836D"
 			tasks: [{
-				id: "4175A43B54BE5C04"
+				id: "4713E98F940EE7B1"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:compressed_iron_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.compressed_iron_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#66625e"
-					}
-				}
+				item: "resourcefulbees:compressed_iron_honeycomb"
 			}]
 			rewards: [{
 				id: "4CCFC53D1E9C0043"
@@ -1803,19 +1559,9 @@
 			dependencies: ["10CF9A9C60204ABB"]
 			id: "5BC68FBD947AEB91"
 			tasks: [{
-				id: "412D63A23D4690CF"
+				id: "7F203475AC43147F"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:cobalt_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.cobalt_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#116fa6"
-					}
-				}
+				item: "resourcefulbees:cobalt_honeycomb"
 			}]
 			rewards: [{
 				id: "485B0D4E61962837"
@@ -1835,17 +1581,7 @@
 			tasks: [{
 				id: "502E60E3F595B09F"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:coal_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.coal_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#303030"
-					}
-				}
+				item: "resourcefulbees:coal_honeycomb"
 			}]
 			rewards: [{
 				id: "317E7BAAE51A0CDA"
@@ -1866,19 +1602,9 @@
 			]
 			id: "7B10A976B887C6AC"
 			tasks: [{
-				id: "1CC6BAFD444F934E"
+				id: "74E57027B006EB1F"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:ender_slime_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.ender_slime_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#a777e1"
-					}
-				}
+				item: "resourcefulbees:ender_slime_honeycomb"
 			}]
 			rewards: [{
 				id: "1C0DCEF173671347"
@@ -1899,19 +1625,9 @@
 			]
 			id: "577DB248DD78EAAB"
 			tasks: [{
-				id: "0FF9FB799A2B90A7"
+				id: "61D1F6FBBFBF30F2"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:enderium_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.enderium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#289799"
-					}
-				}
+				item: "resourcefulbees:enderium_honeycomb"
 			}]
 			rewards: [{
 				id: "7221E0CB05CB39D0"
@@ -1932,17 +1648,7 @@
 			tasks: [{
 				id: "3876A19B3552D1DF"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:ender_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.ender_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#339786"
-					}
-				}
+				item: "resourcefulbees:ender_honeycomb"
 			}]
 			rewards: [{
 				id: "1FC480FEBB9A2EDB"
@@ -1963,17 +1669,7 @@
 			tasks: [{
 				id: "67FD3D1F03F46ABF"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:end_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.end_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#E1E9A6"
-					}
-				}
+				item: "resourcefulbees:end_honeycomb"
 			}]
 			rewards: [{
 				id: "5CBBD602335EEEF0"
@@ -1996,17 +1692,7 @@
 			tasks: [{
 				id: "3FB77264B87DA947"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:emerald_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.emerald_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#18eb09"
-					}
-				}
+				item: "resourcefulbees:emerald_honeycomb"
 			}]
 			rewards: [{
 				id: "03FAC23C381A53EF"
@@ -2028,19 +1714,9 @@
 			]
 			id: "3189DCB3226F9AC0"
 			tasks: [{
-				id: "1B8FD83F9BD33A2C"
+				id: "0B075CE2F5524909"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:elementium_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.elementium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#f51fff"
-					}
-				}
+				item: "resourcefulbees:elementium_honeycomb"
 			}]
 			rewards: [{
 				id: "1CB93313EB6DD4C8"
@@ -2061,19 +1737,9 @@
 			]
 			id: "76E20AA80F5BE12F"
 			tasks: [{
-				id: "11C7DB2D412064C0"
+				id: "5ED13940A664B6B4"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:electrum_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.electrum_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#e5b840"
-					}
-				}
+				item: "resourcefulbees:electrum_honeycomb"
 			}]
 			rewards: [{
 				id: "2C9F1160B580719B"
@@ -2094,17 +1760,7 @@
 			tasks: [{
 				id: "62B6BF93694F5D86"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:dungeon_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.dungeon_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#2A4455"
-					}
-				}
+				item: "minecraft:mossy_cobblestone"
 			}]
 			rewards: [{
 				id: "2E96DEBA51A3092E"
@@ -2124,19 +1780,9 @@
 			]
 			id: "6DC436C371D0ECF2"
 			tasks: [{
-				id: "04F065E9F6B662D3"
+				id: "1080894E269AA8DC"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:drenched_iron_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.drenched_iron_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#95bae2"
-					}
-				}
+				item: "resourcefulbees:drenched_iron_honeycomb"
 			}]
 			rewards: [{
 				id: "4D0F686A6BF0D45A"
@@ -2157,19 +1803,9 @@
 			]
 			id: "7D155A473CFE9687"
 			tasks: [{
-				id: "425FFA9F5B4A65D1"
+				id: "731C6EA7095BAEC2"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:gaia_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.gaia_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#7b5c75"
-					}
-				}
+				item: "resourcefulbees:gaia_honeycomb"
 			}]
 			rewards: [{
 				id: "47427758EBBEFBEC"
@@ -2187,19 +1823,9 @@
 			dependencies: ["42B4D74321A27197"]
 			id: "0DE49A94A38583BF"
 			tasks: [{
-				id: "14AD5935F26DABE1"
+				id: "1CB69AA7D3B3A130"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:froststeel_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.froststeel_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#8aadcf"
-					}
-				}
+				item: "resourcefulbees:froststeel_honeycomb"
 			}]
 			rewards: [{
 				id: "7723015510AEBA72"
@@ -2217,19 +1843,9 @@
 			dependencies: ["42B4D74321A27197"]
 			id: "7AD3A385444D5E7E"
 			tasks: [{
-				id: "03A568F26E9A0EE9"
+				id: "1FCEC4B4393E2F4E"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:forgotten_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.forgotten_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#57e3b3"
-					}
-				}
+				item: "resourcefulbees:forgotten_honeycomb"
 			}]
 			rewards: [{
 				id: "10C02AF585582EF2"
@@ -2250,17 +1866,7 @@
 			tasks: [{
 				id: "35FBD7315B652762"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:forest_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.forest_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#4c4c26"
-					}
-				}
+				item: "resourcefulbees:forest_honeycomb"
 			}]
 			rewards: [{
 				id: "0F826DCB0FF55914"
@@ -2281,19 +1887,9 @@
 			]
 			id: "415F1AAF4C0FBEF6"
 			tasks: [{
-				id: "5A08B719B6D815EE"
+				id: "348D1F71708EE4DF"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:fluorite_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.fluorite_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#b3c7d4"
-					}
-				}
+				item: "resourcefulbees:fluorite_honeycomb"
 			}]
 			rewards: [{
 				id: "5F9F7ABEA31A5132"
@@ -2315,19 +1911,9 @@
 			]
 			id: "3F0CC889E4CF19B5"
 			tasks: [{
-				id: "01E67615B5534890"
+				id: "0B4A4D16D11154A4"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:fireite_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.fireite_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#c53d10"
-					}
-				}
+				item: "resourcefulbees:fireite_honeycomb"
 			}]
 			rewards: [{
 				id: "5E6E150F3B2FC2A4"
@@ -2348,19 +1934,9 @@
 			]
 			id: "44629B5FE3F169C4"
 			tasks: [{
-				id: "3A023BE1598223AB"
+				id: "02EDADDE8E247BCD"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:fairy_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.fairy_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#f2268e"
-					}
-				}
+				item: "resourcefulbees:fairy_honeycomb"
 			}]
 			rewards: [{
 				id: "147301AC34812E73"
@@ -2381,19 +1957,9 @@
 			]
 			id: "1FDD9735E7F58EC1"
 			tasks: [{
-				id: "703B5F6CDF58576C"
+				id: "1BFDEB80C1709328"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:experience_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.experience_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#9ce02f"
-					}
-				}
+				item: "resourcefulbees:experience_honeycomb"
 			}]
 			rewards: [{
 				id: "246C73DC8FFAEDEB"
@@ -2417,19 +1983,9 @@
 			]
 			id: "342AB62D3434E3BF"
 			tasks: [{
-				id: "5E632057C5F6C954"
+				id: "0DCE6ACF09D1840B"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:energized_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.energized_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#a78f65"
-					}
-				}
+				item: "resourcefulbees:energized_honeycomb"
 			}]
 			rewards: [{
 				id: "4C3455788A10A2B5"
@@ -2450,17 +2006,7 @@
 			tasks: [{
 				id: "634E1990DBC736A6"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:icy_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.icy_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#92b9fe"
-					}
-				}
+				item: "minecraft:packed_ice"
 			}]
 			rewards: [{
 				id: "127084B2A8E6E7F0"
@@ -2481,19 +2027,9 @@
 			]
 			id: "5F554A8E51154AB5"
 			tasks: [{
-				id: "5F3D76EA116BAB1D"
+				id: "3095FE19286B0178"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:ichor_slime_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.ichor_slime_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#ff7d2b"
-					}
-				}
+				item: "resourcefulbees:ichor_slime_honeycomb"
 			}]
 			rewards: [{
 				id: "2F5DF65F86AD1F4E"
@@ -2517,19 +2053,9 @@
 			]
 			id: "75297DFF01338114"
 			tasks: [{
-				id: "7243EB082EDF3A1C"
+				id: "52CB41AF673368EB"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:hepatizon_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.hepatizon_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#725b7d"
-					}
-				}
+				item: "resourcefulbees:hepatizon_honeycomb"
 			}]
 			rewards: [{
 				id: "3D02C55D58F67397"
@@ -2549,17 +2075,7 @@
 			tasks: [{
 				id: "424C21B4E66B249D"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:guardian_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.guardian_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#8FC0AA"
-					}
-				}
+				item: "resourcefulbees:guardian_honeycomb"
 			}]
 			rewards: [{
 				id: "5D0BDA2A29EEC3E5"
@@ -2579,17 +2095,7 @@
 			tasks: [{
 				id: "2E58C920BA6A7A0B"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:gravel_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.gravel_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#968e8e"
-					}
-				}
+				item: "resourcefulbees:gravel_honeycomb"
 			}]
 			rewards: [{
 				id: "2CB8E6E00F1DAF17"
@@ -2610,19 +2116,9 @@
 			]
 			id: "776921B1DEC0A297"
 			tasks: [{
-				id: "5953A5FF68C4C0DC"
+				id: "289DD1D13B6317C9"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:graphite_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.graphite_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#44413f"
-					}
-				}
+				item: "resourcefulbees:graphite_honeycomb"
 			}]
 			rewards: [{
 				id: "6FDA5A3E7A7226FD"
@@ -2642,17 +2138,7 @@
 			tasks: [{
 				id: "29F5C000BA6EB706"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:gold_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.gold_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#FFDC00"
-					}
-				}
+				item: "resourcefulbees:gold_honeycomb"
 			}]
 			rewards: [{
 				id: "5AC17806105FC41E"
@@ -2673,17 +2159,7 @@
 			tasks: [{
 				id: "0EAD37E1ADA939DF"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:glowstone_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.glowstone_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#ffbc5e"
-					}
-				}
+				item: "resourcefulbees:glowstone_honeycomb"
 			}]
 			rewards: [{
 				id: "57EFA3E5C33E6661"
@@ -2704,17 +2180,7 @@
 			tasks: [{
 				id: "429DB74C97C333B1"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:ghast_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.ghast_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#faebd7"
-					}
-				}
+				item: "resourcefulbees:ghast_honeycomb"
 			}]
 			rewards: [{
 				id: "353A97796E11338E"
@@ -2735,19 +2201,9 @@
 			]
 			id: "4D536F297A8D2A36"
 			tasks: [{
-				id: "4FB033500CDDA1C4"
+				id: "563EBFD663E1E564"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:lumium_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.lumium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#dfed99"
-					}
-				}
+				item: "resourcefulbees:lumium_honeycomb"
 			}]
 			rewards: [{
 				id: "48BF8F2CE9B7E684"
@@ -2766,19 +2222,9 @@
 			dependencies: ["01A2C48E3267094D"]
 			id: "4F20ABECDDF633B4"
 			tasks: [{
-				id: "155AA2170820C07D"
+				id: "7C59A1A7CB0601A1"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:ludicrite_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.ludicrite_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#ac48e0"
-					}
-				}
+				item: "resourcefulbees:ludicrite_honeycomb"
 			}]
 			rewards: [{
 				id: "2D64BF3F4E10E068"
@@ -2796,19 +2242,9 @@
 			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "6C4F7E8498D9A01C"
 			tasks: [{
-				id: "4292F234B9E236B5"
+				id: "2E5EAA0CCB2E9964"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:lead_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.lead_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#32335c"
-					}
-				}
+				item: "resourcefulbees:lead_honeycomb"
 			}]
 			rewards: [{
 				id: "3AA9AF4D3A8AA15A"
@@ -2829,17 +2265,7 @@
 			tasks: [{
 				id: "61F02BAC3D95D368"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:lava_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.lava_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#C93806"
-					}
-				}
+				item: "resourcefulbees:lava_honeycomb"
 			}]
 			rewards: [{
 				id: "5DCCF8F46C82B512"
@@ -2858,17 +2284,7 @@
 			tasks: [{
 				id: "665E88B0EC4C840C"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:lapis_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.lapis_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#345ec3"
-					}
-				}
+				item: "resourcefulbees:lapis_honeycomb"
 			}]
 			rewards: [{
 				id: "4623B63AF83BBCFF"
@@ -2889,17 +2305,7 @@
 			tasks: [{
 				id: "64FF3D35B9F37C6C"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:kitten_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.kitten_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#EAA939"
-					}
-				}
+				item: "resourcefulbees:catnip_honeycomb"
 			}]
 			rewards: [{
 				id: "5F064BEE59135E0A"
@@ -2918,17 +2324,7 @@
 			tasks: [{
 				id: "17693588DF856B16"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:iron_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.iron_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#ffcc99"
-					}
-				}
+				item: "resourcefulbees:iron_honeycomb"
 			}]
 			rewards: [{
 				id: "4A4A4D24BB5BCD83"
@@ -2949,19 +2345,9 @@
 			]
 			id: "1F730D10456EB873"
 			tasks: [{
-				id: "50BE22276C5B37B2"
+				id: "2AA906E7BE22782D"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:invar_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.invar_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#b8c4bf"
-					}
-				}
+				item: "resourcefulbees:invar_honeycomb"
 			}]
 			rewards: [{
 				id: "3DAADE04A2D72F9C"
@@ -2980,19 +2366,9 @@
 			dependencies: ["636E2DCCA8630485"]
 			id: "1A9B7F94420A1FAE"
 			tasks: [{
-				id: "71F0C8ACD20F3EC7"
+				id: "5632AFFBE8EB9D5C"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:inanite_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.inanite_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#f42665"
-					}
-				}
+				item: "resourcefulbees:inanite_honeycomb"
 			}]
 			rewards: [{
 				id: "77D0FB45FDED9448"
@@ -3010,19 +2386,9 @@
 			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "087BAE46F4305FC8"
 			tasks: [{
-				id: "4AC9101990F8389A"
+				id: "73F820B080B36AD5"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:nickel_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.nickel_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#a0a883"
-					}
-				}
+				item: "resourcefulbees:nickel_honeycomb"
 			}]
 			rewards: [{
 				id: "1EDD1B76DCD756EC"
@@ -3045,17 +2411,7 @@
 			tasks: [{
 				id: "743DBA76D6841DF4"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:netherite_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.netherite_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#654740"
-					}
-				}
+				item: "resourcefulbees:netherite_honeycomb"
 			}]
 			rewards: [{
 				id: "66383377F957AED7"
@@ -3076,17 +2432,7 @@
 			tasks: [{
 				id: "3CAF5640AD0BB569"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:nether_quartz_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.nether_quartz_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#d4caba"
-					}
-				}
+				item: "resourcefulbees:nether_quartz_honeycomb"
 			}]
 			rewards: [{
 				id: "06CDB0DF154448DC"
@@ -3107,17 +2453,7 @@
 			tasks: [{
 				id: "460AAC64B18DF92D"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:nether_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.nether_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#511515"
-					}
-				}
+				item: "resourcefulbees:nether_honeycomb"
 			}]
 			rewards: [{
 				id: "31A75414A80A50F6"
@@ -3139,19 +2475,9 @@
 			]
 			id: "58DBB67DDB0ECCA6"
 			tasks: [{
-				id: "7442B8A77E54F977"
+				id: "5DC6EBB86117FA92"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:mystical_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.mystical_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "rainbow"
-					}
-				}
+				item: "resourcefulbees:mystical_honeycomb"
 			}]
 			rewards: [{
 				id: "272F7AFC20601042"
@@ -3172,19 +2498,9 @@
 			]
 			id: "3AF63C3FE37D80C9"
 			tasks: [{
-				id: "1F715A585A394887"
+				id: "0F3020EBC7ECA23A"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:manyullyn_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.manyullyn_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#9261cc"
-					}
-				}
+				item: "resourcefulbees:manyullyn_honeycomb"
 			}]
 			rewards: [{
 				id: "25A84F91FF4B7392"
@@ -3205,19 +2521,9 @@
 			]
 			id: "70A9CA8A58DB8873"
 			tasks: [{
-				id: "187116D83C25DDEB"
+				id: "05FA702D340F8D95"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:manasteel_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.manasteel_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#2f79c6"
-					}
-				}
+				item: "resourcefulbees:manasteel_honeycomb"
 			}]
 			rewards: [{
 				id: "12C19F32E30008AD"
@@ -3236,19 +2542,9 @@
 			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "75DBEAD012A0991A"
 			tasks: [{
-				id: "61BC995B87DD3526"
+				id: "1EE75BA23FDA767A"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:magma_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.magma_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#C73405"
-					}
-				}
+				item: "resourcefulbees:magma_honeycomb"
 			}]
 			rewards: [{
 				id: "098FF6A422A182FA"
@@ -3267,19 +2563,9 @@
 			dependencies: ["01A2C48E3267094D"]
 			id: "54AB52FCA0B56C97"
 			tasks: [{
-				id: "41A657E706AAF604"
+				id: "50194CDB8AC0D902"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:magentite_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.magentite_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#e27ae2"
-					}
-				}
+				item: "resourcefulbees:magentite_honeycomb"
 			}]
 			rewards: [{
 				id: "07908D9E2EA256AB"
@@ -3300,19 +2586,9 @@
 			]
 			id: "27D5F14596359639"
 			tasks: [{
-				id: "3F4A792BD83913F0"
+				id: "1A9EE784807AF480"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:rainbow_glass_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.rainbow_glass_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "rainbow"
-					}
-				}
+				item: "resourcefulbees:rainbow_glass_honeycomb"
 			}]
 			rewards: [{
 				id: "15F11CAE900C9AA9"
@@ -3333,19 +2609,9 @@
 			]
 			id: "7CF488059F7C4FF9"
 			tasks: [{
-				id: "11485C2296366A24"
+				id: "01339ABFA69FA5D3"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:potassium_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.potassium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#c6bfcc"
-					}
-				}
+				item: "resourcefulbees:potassium_honeycomb"
 			}]
 			rewards: [{
 				id: "38BFC9202264FF94"
@@ -3366,17 +2632,7 @@
 			tasks: [{
 				id: "13405C256FA3E0FE"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:pigman_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.pigman_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#885956"
-					}
-				}
+				item: "resourcefulbees:pigman_honeycomb"
 			}]
 			rewards: [{
 				id: "1F7FDD9E31A990E9"
@@ -3402,19 +2658,9 @@
 			]
 			id: "642C1DB5802E0123"
 			tasks: [{
-				id: "5BDA1A1683E53D91"
+				id: "47DB2A319BC4D5D8"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:osmium_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.osmium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#83b0bd"
-					}
-				}
+				item: "resourcefulbees:osmium_honeycomb"
 			}]
 			rewards: [{
 				id: "1594F2E5BE4683AA"
@@ -3435,17 +2681,7 @@
 			tasks: [{
 				id: "7DA6C3B7577528BB"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:oreo_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.oreo_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#442920"
-					}
-				}
+				item: "resourcefulbees:oreo_cookie"
 			}]
 			rewards: [{
 				id: "4B8FC9A1FE229D8E"
@@ -3469,17 +2705,7 @@
 			tasks: [{
 				id: "1C079F6440C001A4"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:occultist_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.occultist_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#4f2b79"
-					}
-				}
+				item: "resourcefulbees:occultist_honeycomb"
 			}]
 			rewards: [{
 				id: "25DB6EEBF2BAFFDA"
@@ -3502,17 +2728,7 @@
 			tasks: [{
 				id: "31B75B2B8D15757C"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:obsidian_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.obsidian_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#663399"
-					}
-				}
+				item: "resourcefulbees:obsidian_honeycomb"
 			}]
 			rewards: [{
 				id: "58275C23CDE0E1C4"
@@ -3535,19 +2751,9 @@
 			]
 			id: "7F1E768894FCCA3C"
 			tasks: [{
-				id: "31C1C3580D981331"
+				id: "704417CF59A87EB6"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:nitro_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.nitro_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#e80000"
-					}
-				}
+				item: "resourcefulbees:nitro_honeycomb"
 			}]
 			rewards: [{
 				id: "19182E79369ECFAF"
@@ -3572,19 +2778,9 @@
 			]
 			id: "586B127CE4C8758B"
 			tasks: [{
-				id: "4275189F363923E5"
+				id: "0CE3C3F096296282"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:niotic_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.niotic_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#0099b7"
-					}
-				}
+				item: "resourcefulbees:niotic_honeycomb"
 			}]
 			rewards: [{
 				id: "5090FEC47D8F3F15"
@@ -3605,19 +2801,9 @@
 			]
 			id: "55B461F94D9750BE"
 			tasks: [{
-				id: "10195A91052AF65E"
+				id: "5E8981912390FDDD"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:seared_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.seared_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#474340"
-					}
-				}
+				item: "resourcefulbees:seared_honeycomb"
 			}]
 			rewards: [{
 				id: "52E66949F0431765"
@@ -3638,17 +2824,7 @@
 			tasks: [{
 				id: "3FACE99CF103237F"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:sand_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.sand_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#e7e4bb"
-					}
-				}
+				item: "resourcefulbees:sand_honeycomb"
 			}]
 			rewards: [{
 				id: "354FAA0B90E9FBF3"
@@ -3669,19 +2845,9 @@
 			]
 			id: "584AEB5D1BD552F6"
 			tasks: [{
-				id: "6FD96865C4B20902"
+				id: "19832E643568B857"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:rose_gold_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.rose_gold_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#f7cdbb"
-					}
-				}
+				item: "resourcefulbees:rose_gold_honeycomb"
 			}]
 			rewards: [{
 				id: "08BC0F924D4E2636"
@@ -3700,19 +2866,9 @@
 			dependencies: ["4F20ABECDDF633B4"]
 			id: "636E2DCCA8630485"
 			tasks: [{
-				id: "4A317FA0E0312E2D"
+				id: "27C5C72EE5E82959"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:ridiculite_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.ridiculite_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#c7a3cc"
-					}
-				}
+				item: "resourcefulbees:ridiculite_honeycomb"
 			}]
 			rewards: [{
 				id: "3C0B1CBC4D3CD130"
@@ -3731,19 +2887,9 @@
 			dependencies: ["28709F340776730B"]
 			id: "1759DCC8A2F5E01F"
 			tasks: [{
-				id: "5DA9AFE0052338A4"
+				id: "37231D2D5C726991"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:rgbee_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.rgbee_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "rainbow"
-					}
-				}
+				item: "resourcefulbees:rgbee_honeycomb"
 			}]
 			rewards: [{
 				id: "2054ED7985945A5E"
@@ -3761,19 +2907,9 @@
 			dependencies: ["0A2D533F8AB68EEA"]
 			id: "5B7CB0F4DC76A848"
 			tasks: [{
-				id: "42579251EA05C996"
+				id: "6735A5C414DBB646"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:regalium_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.regalium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#f6dd9b"
-					}
-				}
+				item: "resourcefulbees:regalium_honeycomb"
 			}]
 			rewards: [{
 				id: "60E359A76387C625"
@@ -3794,19 +2930,9 @@
 			]
 			id: "1FD4F9D0BFC63F98"
 			tasks: [{
-				id: "5CE2CF75BD98BFD1"
+				id: "7A2B26E20923C11E"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:refined_obsidian_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.refined_obsidian_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#a83cff"
-					}
-				}
+				item: "resourcefulbees:refined_obsidian_honeycomb"
 			}]
 			rewards: [{
 				id: "7F4A490ADA82B55D"
@@ -3827,19 +2953,9 @@
 			]
 			id: "07ECB6159F9C5C92"
 			tasks: [{
-				id: "71CBF2D70D6166B7"
+				id: "2FCAEEE1E54089C1"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:refined_glowstone_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.refined_glowstone_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#ffbc5e"
-					}
-				}
+				item: "resourcefulbees:refined_glowstone_honeycomb"
 			}]
 			rewards: [{
 				id: "363C8115E8A39658"
@@ -3859,17 +2975,7 @@
 			tasks: [{
 				id: "44CA9287EE66E7E4"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:redstone_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.redstone_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#aa0f01"
-					}
-				}
+				item: "resourcefulbees:redstone_honeycomb"
 			}]
 			rewards: [{
 				id: "6479144C7924EFB8"
@@ -3888,19 +2994,9 @@
 			dependencies: ["2BA269B9CA2B23C4"]
 			id: "24F82352AF6987DB"
 			tasks: [{
-				id: "6EBFF1ABA4061B3A"
+				id: "159E50D5F971A81F"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:starry_lexxie_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.starry_lexxie_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#FFFFFF"
-					}
-				}
+				item: "resourcefulbees:starry_lexxie_honeycomb"
 			}]
 			rewards: [{
 				id: "0E8FE2F1CDBF983C"
@@ -3924,19 +3020,9 @@
 			]
 			id: "654785390F5310A1"
 			tasks: [{
-				id: "1A8A3B9425350363"
+				id: "422DF58D97B7C670"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:spirited_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.spirited_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#70af00"
-					}
-				}
+				item: "resourcefulbees:spirited_honeycomb"
 			}]
 			rewards: [{
 				id: "1EDA2395265CCD3D"
@@ -3957,19 +3043,9 @@
 			]
 			id: "5DEEF55D4D1BF78D"
 			tasks: [{
-				id: "4CF1ECB562908927"
+				id: "38C878E22FF6E390"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:source_steel_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.source_steel_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#d1b9e5"
-					}
-				}
+				item: "resourcefulbees:source_steel_honeycomb"
 			}]
 			rewards: [{
 				id: "32E814CBE002BFE0"
@@ -3989,17 +3065,7 @@
 			tasks: [{
 				id: "19576C196ACA953C"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:soul_lava_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.soul_lava_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#2762a1"
-					}
-				}
+				item: "resourcefulbees:soul_lava_honeycomb"
 			}]
 			rewards: [{
 				id: "279AEFED0142DA37"
@@ -4021,17 +3087,7 @@
 			tasks: [{
 				id: "2835F008FEB19026"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:slime_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.slime_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#73c262"
-					}
-				}
+				item: "resourcefulbees:slime_honeycomb"
 			}]
 			rewards: [{
 				id: "1FBC898F5D46A01E"
@@ -4052,19 +3108,9 @@
 			]
 			id: "5F33C011FBE18C29"
 			tasks: [{
-				id: "2B61C427EF4E18CB"
+				id: "61B7382068F48281"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:sky_slime_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.sky_slime_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#4ab1a4"
-					}
-				}
+				item: "resourcefulbees:sky_slime_honeycomb"
 			}]
 			rewards: [{
 				id: "4D8E79DF595D1314"
@@ -4085,17 +3131,7 @@
 			tasks: [{
 				id: "22569AD4A5E80513"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:skeleton_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.skeleton_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#F6F2E6"
-					}
-				}
+				item: "resourcefulbees:skeleton_honeycomb"
 			}]
 			rewards: [{
 				id: "16140E7136F365C3"
@@ -4113,19 +3149,9 @@
 			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "6061CB6EADFDDAD8"
 			tasks: [{
-				id: "2B96D8F26D9E8EA3"
+				id: "6741029547CA0434"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:silver_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.silver_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#c5d1fe"
-					}
-				}
+				item: "resourcefulbees:silver_honeycomb"
 			}]
 			rewards: [{
 				id: "77A8A85BDC26DE42"
@@ -4146,19 +3172,9 @@
 			]
 			id: "5C8699E85D872351"
 			tasks: [{
-				id: "746EDD9F5D7DECF3"
+				id: "355B451022753D1F"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:signalum_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.signalum_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#fc8638"
-					}
-				}
+				item: "resourcefulbees:signalum_honeycomb"
 			}]
 			rewards: [{
 				id: "31E9FE47C7992C30"
@@ -4182,19 +3198,9 @@
 			]
 			id: "5EB56CFF82B20CF5"
 			tasks: [{
-				id: "2D082E1407290D6B"
+				id: "1531064EA1D99507"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:uraninite_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.uraninite_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#00a400"
-					}
-				}
+				item: "resourcefulbees:uraninite_honeycomb"
 			}]
 			rewards: [{
 				id: "6DF69721BA2D7FF9"
@@ -4215,19 +3221,9 @@
 			]
 			id: "713036714476EF69"
 			tasks: [{
-				id: "3DDA0EAC7B20E707"
+				id: "60C8A1E457E541CE"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:unobtainium_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.unobtainium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#a62be0"
-					}
-				}
+				item: "resourcefulbees:unobtainium_honeycomb"
 			}]
 			rewards: [{
 				id: "17F9EB59AC982C21"
@@ -4245,19 +3241,9 @@
 			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "7272BBFF9AAC9CA7"
 			tasks: [{
-				id: "15CDAA9EE49A6402"
+				id: "42092CF8C039CAD3"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:tin_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.tin_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#bccbe5"
-					}
-				}
+				item: "resourcefulbees:tin_honeycomb"
 			}]
 			rewards: [{
 				id: "61F1EDCAEEF026A7"
@@ -4275,19 +3261,9 @@
 			dependencies: ["1C2488763CCCA93F"]
 			id: "5300901FD4BA85DC"
 			tasks: [{
-				id: "19ECB92D6675CBEC"
+				id: "60F9474CA100A229"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:thallasium_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.thallasium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#54b0bf"
-					}
-				}
+				item: "resourcefulbees:thallasium_honeycomb"
 			}]
 			rewards: [{
 				id: "29CDE7C685A3F78F"
@@ -4310,19 +3286,9 @@
 			]
 			id: "239B5A55E70CD33C"
 			tasks: [{
-				id: "627D42B9EA68F994"
+				id: "34B5B616FD2D3E26"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:terrasteel_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.terrasteel_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#37f900"
-					}
-				}
+				item: "resourcefulbees:terrasteel_honeycomb"
 			}]
 			rewards: [{
 				id: "2A6C3038B900F6F1"
@@ -4340,19 +3306,9 @@
 			dependencies: ["5300901FD4BA85DC"]
 			id: "487D00E19338C817"
 			tasks: [{
-				id: "0B8395CFD4C60BF4"
+				id: "3A33A67311BAD845"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:terminite_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.terminite_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#34c8bd"
-					}
-				}
+				item: "resourcefulbees:terminite_honeycomb"
 			}]
 			rewards: [{
 				id: "50686003E06C8185"
@@ -4374,19 +3330,9 @@
 			]
 			id: "4D0FEA96A6DFE6C9"
 			tasks: [{
-				id: "731D653E941DD1A5"
+				id: "03611E13E4A19855"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:swift_alloy_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.swift_alloy_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#f1c57c"
-					}
-				}
+				item: "resourcefulbees:swift_alloy_honeycomb"
 			}]
 			rewards: [{
 				id: "33C15773654BCDF2"
@@ -4407,17 +3353,7 @@
 			tasks: [{
 				id: "788C7AC29DEBEC15"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:stone_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.stone_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#8f8f8f"
-					}
-				}
+				item: "resourcefulbees:stone_honeycomb"
 			}]
 			rewards: [{
 				id: "419D15512EA64919"
@@ -4435,19 +3371,9 @@
 			dependencies: ["6B6D7B4AA8FFDC17"]
 			id: "33F152A85C0B28CD"
 			tasks: [{
-				id: "5DA97F8BFE814854"
+				id: "2016843988FB3D52"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:steel_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.steel_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#858585"
-					}
-				}
+				item: "resourcefulbees:steel_honeycomb"
 			}]
 			rewards: [{
 				id: "4E6624FD7CFF5541"
@@ -4468,17 +3394,7 @@
 			tasks: [{
 				id: "2538ECB1572235F9"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:zombie_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.zombie_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#2F4E32"
-					}
-				}
+				item: "resourcefulbees:zombie_honeycomb"
 			}]
 			rewards: [{
 				id: "516EC5D7A39164D7"
@@ -4496,19 +3412,9 @@
 			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "58D08C026677106B"
 			tasks: [{
-				id: "58DE84AD04DB8189"
+				id: "7F5449865167CC48"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:zinc_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.zinc_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#a6ad6b"
-					}
-				}
+				item: "resourcefulbees:zinc_honeycomb"
 			}]
 			rewards: [{
 				id: "4A3739A442B49941"
@@ -4529,17 +3435,7 @@
 			tasks: [{
 				id: "1DD6F30218071DB4"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:yeti_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.yeti_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#E9F4F6"
-					}
-				}
+				item: "minecraft:ice"
 			}]
 			rewards: [{
 				id: "2F66429C485297EA"
@@ -4560,19 +3456,9 @@
 			]
 			id: "3764DC6E12EC052E"
 			tasks: [{
-				id: "2238FA5DB1F46FDC"
+				id: "01E6ECCC92C9FD6D"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:xion_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.xion_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#39c4d0"
-					}
-				}
+				item: "resourcefulbees:xion_honeycomb"
 			}]
 			rewards: [{
 				id: "2B45A8E8DB58D1B3"
@@ -4595,17 +3481,7 @@
 			tasks: [{
 				id: "2CFBCE0123D8E871"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:wither_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.wither_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#444444"
-					}
-				}
+				item: "resourcefulbees:wither_honeycomb"
 			}]
 			rewards: [{
 				id: "12DAC28200F76837"
@@ -4626,17 +3502,7 @@
 			tasks: [{
 				id: "75AB019BD245A6A6"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:water_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.water_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#5979ef"
-					}
-				}
+				item: "resourcefulbees:water_honeycomb"
 			}]
 			rewards: [{
 				id: "7545D197AE7394CD"
@@ -4656,19 +3522,9 @@
 			]
 			id: "0760AEB4D4BB74C5"
 			tasks: [{
-				id: "4A4B50A054088513"
+				id: "1039D102CED87332"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:vibranium_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.vibranium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#1bb188"
-					}
-				}
+				item: "resourcefulbees:vibranium_honeycomb"
 			}]
 			rewards: [{
 				id: "27B834D17D1F1A80"
@@ -4686,19 +3542,9 @@
 			dependencies: ["42B4D74321A27197"]
 			id: "6AE60E6312DF4B23"
 			tasks: [{
-				id: "1C12466270AFCE32"
+				id: "2E04D1AB33BD78F2"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:utherium_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.utherium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#d76559"
-					}
-				}
+				item: "resourcefulbees:utherium_honeycomb"
 			}]
 			rewards: [{
 				id: "50DFB49132945FC6"
@@ -4716,19 +3562,9 @@
 			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "42419E07F45208E2"
 			tasks: [{
-				id: "40E602B1729937FA"
+				id: "2EC8EA61B9E0EA7B"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						Entity: "resourcefulbees:uranium_bee"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.uranium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						Color: "#424d3c"
-					}
-				}
+				item: "resourcefulbees:uranium_honeycomb"
 			}]
 			rewards: [{
 				id: "03801449890C24D2"
@@ -4739,152 +3575,14 @@
 		}
 		{
 			title: "Bee"
-			x: -2.5d
-			y: -6.5d
-			dependencies: ["06CC09E0AE4819E5"]
+			x: -0.75d
+			y: -5.0d
+			dependencies: ["7C54F45255FD8996"]
 			id: "1356E497437B716A"
 			tasks: [{
 				id: "006DBF1B4AC3EBA0"
 				type: "item"
-				item: {
-					id: "resourcefulbees:bee_jar"
-					Count: 1b
-					tag: {
-						NoGravity: 1b
-						Entity: "minecraft:bee"
-						Brain: {
-							memories: { }
-						}
-						HurtByTimestamp: 0
-						ForgeData: { }
-						HasStung: 0b
-						Attributes: [
-							{
-								Base: 0.30000001192092896d
-								Name: "minecraft:generic.movement_speed"
-							}
-							{
-								Base: 48.0d
-								Modifiers: [{
-									Operation: 1
-									UUID: [I;
-										-472770470
-										-477803061
-										-1849921011
-										1695129739
-									]
-									Amount: 0.08758462705296567d
-									Name: "Random spawn bonus"
-								}]
-								Name: "minecraft:generic.follow_range"
-							}
-							{
-								Base: 0.0d
-								Name: "minecraft:generic.knockback_resistance"
-							}
-							{
-								Base: 0.08d
-								Name: "forge:entity_gravity"
-							}
-						]
-						Invulnerable: 0b
-						FallFlying: 0b
-						ForcedAge: 0
-						PortalCooldown: 0
-						AbsorptionAmount: 0.0f
-						FallDistance: 0.0f
-						InLove: 0
-						CanUpdate: 1b
-						DeathTime: 0s
-						BoundingBox: [
-							-141.9281251176403d
-							117.91106088992697d
-							1982.2281729442616d
-							-141.22812512956122d
-							118.51106091376883d
-							1982.9281729323407d
-						]
-						ForgeCaps: {
-							"structure_gel:gel_entity": {
-								portal: "structure_gel:empty"
-							}
-							"citadel:extended_entity_data_citadel": { }
-							"mekanism:radiation": {
-								radiation: "1.0E-7d"
-							}
-							"pneumaticcraft:hacking": { }
-							"shrink:shrunk": {
-								width: 0.7f
-								defaulteyeheight: 0.3f
-								scale: 1.0f
-								isshrinking: 0b
-								fixed: 0b
-								isshrunk: 0b
-								height: 0.6f
-							}
-						}
-						HandDropChances: [
-							0.085f
-							0.085f
-						]
-						CannotEnterHiveTicks: 0
-						PersistenceRequired: 0b
-						UUID: [I;
-							-236559725
-							94195483
-							-2012529016
-							-567198177
-						]
-						Age: 0
-						TicksSincePollination: 18
-						AngerTime: 0
-						Motion: [
-							-0.07292902487616208d
-							0.0637788260132279d
-							0.07292435548374777d
-						]
-						Health: 10.0f
-						HasNectar: 0b
-						Color: "#edc343"
-						display: {
-							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.minecraft.bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
-						}
-						KubeJSPersistentData: { }
-						LeftHanded: 0b
-						Air: 300s
-						OnGround: 0b
-						CitadelData: { }
-						Rotation: [
-							45.00151f
-							0.0f
-						]
-						HandItems: [
-							{ }
-							{ }
-						]
-						ArmorDropChances: [
-							0.085f
-							0.085f
-							0.085f
-							0.085f
-						]
-						Pos: [
-							-141.57812512360076d
-							117.91106088992697d
-							1982.5781729383011d
-						]
-						Fire: -1s
-						ArmorItems: [
-							{ }
-							{ }
-							{ }
-							{ }
-						]
-						CropsGrownSincePollination: 0
-						CanPickUpLoot: 0b
-						HurtTime: 0s
-					}
-				}
+				item: "minecraft:honeycomb"
 			}]
 			rewards: [{
 				id: "053D2DF91FE72D85"
@@ -4894,8 +3592,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -7.75d
+			x: -0.75d
+			y: -6.5d
 			dependencies: ["1356E497437B716A"]
 			optional: true
 			id: "3F699C17917FFE2D"
@@ -4932,11 +3630,7 @@
 			y: -10.5d
 			shape: "rsquare"
 			hide_dependency_lines: true
-			dependencies: [
-				"785F2CDE1802DE93"
-				"060649A06C4ED8C4"
-				"48AC7DE7D7FA594A"
-			]
+			dependencies: ["1359E3BFFAFC74AC"]
 			id: "4AC0FC4699AFBD13"
 			tasks: [{
 				id: "5AC7A37D7E0BDFA1"

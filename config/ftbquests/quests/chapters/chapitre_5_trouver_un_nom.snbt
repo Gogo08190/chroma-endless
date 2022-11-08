@@ -1,9 +1,9 @@
 {
 	id: "567CCD5E4966D0FC"
 	group: "60C88776031840B1"
-	order_index: 1
+	order_index: 0
 	filename: "chapitre_5_trouver_un_nom"
-	title: "&bChapter 2&r &6-&r The Last Elemental Bender"
+	title: "&bChapter 1&r &6-&r The Last Elemental Bender"
 	icon: "elementalcraft:purecrystal"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -53,6 +53,20 @@
 		}
 		{
 			title: "Element Holders"
+			icon: {
+				id: "elementalcraft:element_holder_fire"
+				Count: 1b
+				tag: {
+					Damage: 1000
+				}
+				ForgeCaps: {
+					Parent: {
+						element_capacity: 10000
+						element_amount: 0
+						element_type: "fire"
+					}
+				}
+			}
 			x: -8.5d
 			y: 3.75d
 			subtitle: "Storing Elements"
@@ -740,6 +754,7 @@
 		}
 		{
 			title: "Creating Runes"
+			icon: "elementalcraft:inscriber"
 			x: 2.5d
 			y: 2.75d
 			subtitle: "Carving White Rocks"
@@ -799,7 +814,6 @@
 			dependencies: [
 				"552D81EF1814A4DD"
 				"33958A09FB7E36BE"
-				"4207988A2711BFD1"
 			]
 			id: "058C53606A481B5A"
 			tasks: [{

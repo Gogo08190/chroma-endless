@@ -210,22 +210,10 @@
 			dependencies: ["1C7C41C2FA427B8F"]
 			id: "257D7C966898688A"
 			tasks: [{
-				id: "677B17399E3B9FB5"
-				type: "item"
-				item: {
-					id: "tetra:modular_double"
-					Count: 1b
-					tag: {
-						"double/handle": "double/basic_handle"
-						"double/head_left": "double/basic_hammer_left"
-						"double/head_right": "double/basic_hammer_right"
-						id: "d24c27f5-8afa-42e6-9529-fa8e33fecb36"
-						"double/basic_hammer_right_material": "basic_hammer/oak"
-						Damage: 0
-						"double/basic_handle_material": "basic_handle/stick"
-						"double/basic_hammer_left_material": "basic_hammer/oak"
-					}
-				}
+				id: "781AC3DEC4E7D2C8"
+				type: "advancement"
+				advancement: "tetra:upgrades/root"
+				criterion: ""
 			}]
 		}
 		{
@@ -444,7 +432,7 @@
 		{
 			title: "PneumaticCraft"
 			icon: "pneumaticcraft:pressure_gauge"
-			x: -2.5d
+			x: -1.75d
 			y: 11.75d
 			dependencies: ["7D351CB50EFE608B"]
 			id: "5F8798C6C42F7C8D"
@@ -455,22 +443,9 @@
 			}]
 		}
 		{
-			title: "Prefab"
-			icon: "prefab:item_starter_farm"
-			x: -1.0d
-			y: 11.75d
-			dependencies: ["5818D79835BC71DA"]
-			id: "07FA83D1B95248C2"
-			tasks: [{
-				id: "53B5B8749F7B9367"
-				type: "item"
-				item: "prefab:item_ton_of_timber"
-			}]
-		}
-		{
 			title: "Xnet"
 			icon: "xnet:controller"
-			x: 0.5d
+			x: -0.25d
 			y: 11.75d
 			dependencies: ["141E4C0BBA865753"]
 			id: "39E93C8810C5BB25"
@@ -483,7 +458,7 @@
 		{
 			title: "Compact Machines"
 			icon: "compactmachines:personal_shrinking_device"
-			x: 2.0d
+			x: 1.25d
 			y: 11.75d
 			dependencies: ["7958F40FFDC2C5D3"]
 			id: "3737EF3F7EF438F8"
@@ -502,7 +477,7 @@
 					Icon: "chroma:textures/quests/tardiss.png"
 				}
 			}
-			x: 3.5d
+			x: 2.75d
 			y: 11.75d
 			dependencies: ["32B12D10660F4037"]
 			id: "1C844671FC1EC144"

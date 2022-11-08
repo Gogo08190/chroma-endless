@@ -310,43 +310,6 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -4.75d
-			shape: "square"
-			dependencies: ["6A82E78F5A86DE03"]
-			size: 1.5d
-			id: "30C07DD7980BEC2B"
-			tasks: [{
-				id: "3446BC472BC8BE77"
-				type: "item"
-				item: "tconstruct:tinker_station"
-			}]
-			rewards: [{
-				id: "11478C0631B5897E"
-				type: "item"
-				item: "tconstruct:pattern"
-				count: 3
-			}]
-		}
-		{
-			x: -4.75d
-			y: -4.75d
-			hide_dependency_lines: true
-			dependencies: ["1C7C41C2FA427B8F"]
-			id: "6A82E78F5A86DE03"
-			tasks: [{
-				id: "676501597E4C0701"
-				type: "item"
-				item: "tconstruct:pattern"
-			}]
-			rewards: [{
-				id: "7A0DDD6A9C671936"
-				type: "item"
-				item: "tconstruct:pattern"
-				count: 16
-			}]
-		}
-		{
 			title: "Tinker's Bronze"
 			x: -4.75d
 			y: -2.25d
@@ -371,10 +334,7 @@
 			x: -2.5d
 			y: -2.25d
 			shape: "square"
-			dependencies: [
-				"2AE06ADF534ADDEC"
-				"30C07DD7980BEC2B"
-			]
+			dependencies: ["2AE06ADF534ADDEC"]
 			size: 1.5d
 			id: "6FE5CBD8A8FF0431"
 			tasks: [{
@@ -933,6 +893,13 @@
 		}
 		{
 			title: "Flint and _____"
+			icon: {
+				id: "minecraft:flint_and_steel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
 			x: -7.5d
 			y: 4.5d
 			dependencies: ["3F047B28738897A0"]
@@ -962,10 +929,6 @@
 			y: 6.5d
 			shape: "pentagon"
 			hide_dependency_lines: true
-			dependencies: [
-				"1802A196B75EE8D9"
-				"171E5CDF2CB9C763"
-			]
 			dependency_requirement: "one_completed"
 			id: "0F01F4CCB3915082"
 			tasks: [{

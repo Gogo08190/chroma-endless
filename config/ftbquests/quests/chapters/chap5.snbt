@@ -113,6 +113,13 @@
 		}
 		{
 			title: "Occultism Useful Items"
+			icon: {
+				id: "occultism:butcher_knife"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
 			x: 7.25d
 			y: -9.25d
 			subtitle: "Really useful !"
@@ -393,6 +400,7 @@
 			}]
 		}
 		{
+			icon: "occultism:otherworld_log"
 			x: 4.25d
 			y: -5.75d
 			subtitle: "The Third Eye"
@@ -545,6 +553,14 @@
 						}
 					}
 				}
+				{
+					id: "3F5249371E031987"
+					type: "questsadditions:interaction"
+					entity: "occultism:deer_familiar"
+					nbt: { }
+					value: 1L
+					checkItem: false
+				}
 			]
 			rewards: [{
 				id: "07CA8E6C9E6BCB6C"
@@ -610,6 +626,14 @@
 							spiritName: "Azurtimd"
 						}
 					}
+				}
+				{
+					id: "109F8AF2E9F41465"
+					type: "questsadditions:interaction"
+					entity: "occultism:bat_familiar"
+					nbt: { }
+					value: 1L
+					checkItem: false
 				}
 			]
 			rewards: [{
@@ -729,6 +753,14 @@
 						}
 					}
 				}
+				{
+					id: "6A19732D6AF360AC"
+					type: "questsadditions:interaction"
+					entity: "occultism:cthulhu_familiar"
+					nbt: { }
+					value: 1L
+					checkItem: false
+				}
 			]
 			rewards: [{
 				id: "062D11C1F84BD3E3"
@@ -780,6 +812,14 @@
 							spiritName: "Ratimtron"
 						}
 					}
+				}
+				{
+					id: "2B333C89736CDCDA"
+					type: "questsadditions:interaction"
+					entity: "occultism:devil_familiar"
+					nbt: { }
+					value: 1L
+					checkItem: false
 				}
 			]
 			rewards: [{
@@ -853,6 +893,14 @@
 						}
 					}
 				}
+				{
+					id: "00180DFC70F0FB60"
+					type: "questsadditions:interaction"
+					entity: "occultism:mummy_familiar"
+					nbt: { }
+					value: 1L
+					checkItem: false
+				}
 			]
 			rewards: [{
 				id: "0F3D4C0BBB864FE3"
@@ -904,6 +952,14 @@
 							spiritName: "Zurmizur"
 						}
 					}
+				}
+				{
+					id: "1DCE64E06D54D4FA"
+					type: "questsadditions:interaction"
+					entity: "occultism:beholder_familiar"
+					nbt: { }
+					value: 1L
+					checkItem: false
 				}
 			]
 			rewards: [{
@@ -966,6 +1022,14 @@
 							spiritName: "Mjolslamared"
 						}
 					}
+				}
+				{
+					id: "45B7294A641F4C13"
+					type: "questsadditions:interaction"
+					entity: "occultism:fairy_familiar"
+					nbt: { }
+					value: 1L
+					checkItem: false
 				}
 			]
 			rewards: [{
@@ -1074,6 +1138,14 @@
 						}
 					}
 				}
+				{
+					id: "3A889171B49676D2"
+					type: "questsadditions:interaction"
+					entity: "occultism:blacksmith_familiar"
+					nbt: { }
+					value: 1L
+					checkItem: false
+				}
 			]
 			rewards: [{
 				id: "195C1EE6135AC420"
@@ -1170,6 +1242,14 @@
 						}
 					}
 				}
+				{
+					id: "49670D737B1255F0"
+					type: "questsadditions:interaction"
+					entity: "occultism:dragon_familiar"
+					nbt: { }
+					value: 1L
+					checkItem: false
+				}
 			]
 			rewards: [{
 				id: "7B450DD5324BDD98"
@@ -1262,6 +1342,14 @@
 						}
 					}
 				}
+				{
+					id: "2DADD0E424DADCD4"
+					type: "questsadditions:interaction"
+					entity: "occultism:chimera_familiar"
+					nbt: { }
+					value: 1L
+					checkItem: false
+				}
 			]
 			rewards: [{
 				id: "0D4D65804E442593"
@@ -1322,6 +1410,14 @@
 							spiritName: "Crymirimur"
 						}
 					}
+				}
+				{
+					id: "7A2C23C38508C1E0"
+					type: "questsadditions:interaction"
+					entity: "occultism:headless_familiar"
+					nbt: { }
+					value: 1L
+					checkItem: false
 				}
 			]
 			rewards: [{
@@ -1394,6 +1490,14 @@
 						}
 					}
 				}
+				{
+					id: "337FE78E1C97185F"
+					type: "questsadditions:interaction"
+					entity: "occultism:otherworld_bird"
+					nbt: { }
+					value: 1L
+					checkItem: false
+				}
 			]
 			rewards: [{
 				id: "6CB13386003D3F85"
@@ -1461,6 +1565,14 @@
 						}
 					}
 				}
+				{
+					id: "72986C695A4C127E"
+					type: "questsadditions:interaction"
+					entity: "occultism:greedy_familiar"
+					nbt: { }
+					value: 1L
+					checkItem: false
+				}
 			]
 			rewards: [{
 				id: "5385F88091180AC1"
@@ -1513,6 +1625,14 @@
 							spiritName: "Toastbroat"
 						}
 					}
+				}
+				{
+					id: "12BE52932376B16E"
+					type: "questsadditions:interaction"
+					entity: "occultism:guardian_familiar"
+					nbt: { }
+					value: 1L
+					checkItem: false
 				}
 			]
 			rewards: [{
@@ -1585,6 +1705,12 @@
 						}
 					}
 				}
+				{
+					id: "1EFEAA74E5DF5002"
+					type: "kill"
+					entity: "occultism:possessed_enderman"
+					value: 1L
+				}
 			]
 			rewards: [{
 				id: "40C07CE180BB377D"
@@ -1606,7 +1732,6 @@
 			]
 			dependencies: ["7260260F71172224"]
 			optional: true
-			secret: true
 			id: "3C5F10DE4AFF6964"
 			tasks: [
 				{
@@ -1625,6 +1750,12 @@
 							spiritName: "Madarkmed"
 						}
 					}
+				}
+				{
+					id: "33C835BEF6ACB460"
+					type: "kill"
+					entity: "occultism:possessed_skeleton"
+					value: 1L
 				}
 			]
 			rewards: [{
@@ -1682,6 +1813,12 @@
 						}
 					}
 				}
+				{
+					id: "5E6EF6516BD3BD0F"
+					type: "kill"
+					entity: "occultism:possessed_ghast"
+					value: 1L
+				}
 			]
 			rewards: [{
 				id: "640F314CA6F285BB"
@@ -1732,6 +1869,12 @@
 					id: "63DB51361711828C"
 					type: "item"
 					item: "minecraft:egg"
+				}
+				{
+					id: "5BE0BE22953CB3A9"
+					type: "kill"
+					entity: "occultism:possessed_endermite"
+					value: 1L
 				}
 			]
 			rewards: [{
@@ -1793,6 +1936,12 @@
 						Count: 1b
 						tag: { }
 					}
+				}
+				{
+					id: "36B3597220B37862"
+					type: "kill"
+					entity: "occultism:wild_hunt_wither_skeleton"
+					value: 1L
 				}
 			]
 			rewards: [{
@@ -2457,8 +2606,11 @@
 			}]
 		}
 		{
+			title: "Marid Crusher"
+			icon: "occultism:ritual_dummy/summon_marid_crusher"
 			x: 15.0d
 			y: 6.25d
+			subtitle: "Fatma's Incentivized Attraction"
 			description: [
 				"The &6Marid Crusher&r is both more resistant to essence decay and faster than the &bAfrit Crusher&r."
 				""
@@ -2469,11 +2621,46 @@
 				"259480AC145386BF"
 			]
 			id: "02866DDF5415AECF"
-			tasks: [{
-				id: "515E197221DFFFAD"
-				type: "item"
-				item: "occultism:ritual_dummy/summon_marid_crusher"
-			}]
+			tasks: [
+				{
+					id: "17E7FCF8B9A03959"
+					type: "item"
+					item: "minecraft:ghast_tear"
+				}
+				{
+					id: "4C4A3E85BDCA48CF"
+					type: "item"
+					title: "Any #forge:storage_blocks/emerald"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:storage_blocks/emerald"
+						}
+					}
+				}
+				{
+					id: "73C81606BDA14192"
+					type: "item"
+					item: "occultism:iesnium_block"
+				}
+				{
+					id: "71B8AA8D8E85142F"
+					type: "item"
+					item: "minecraft:diamond_block"
+				}
+				{
+					id: "422ACD3ED3A8875E"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_marid"
+						Count: 1b
+						tag: {
+							spiritName: "Creourakder"
+						}
+					}
+				}
+			]
 			rewards: [{
 				id: "4A45A3B6C07DD349"
 				type: "random"
@@ -2481,8 +2668,11 @@
 			}]
 		}
 		{
+			title: "Afrit Crusher"
+			icon: "occultism:ritual_dummy/summon_afrit_crusher"
 			x: 14.25d
 			y: 7.25d
+			subtitle: "Abras' Conjure"
 			description: [
 				"The &6Afrit Crusher&r is both more resistant to essence decay and faster than the &bDjinni Crusher&r."
 				""
@@ -2493,11 +2683,35 @@
 				"62DF3A8488AADD91"
 			]
 			id: "259480AC145386BF"
-			tasks: [{
-				id: "12B3126278DB3A92"
-				type: "item"
-				item: "occultism:ritual_dummy/summon_afrit_crusher"
-			}]
+			tasks: [
+				{
+					id: "7566F3B889D6EF4D"
+					type: "item"
+					item: "occultism:iesnium_dust"
+					count: 2L
+				}
+				{
+					id: "057E1C43AADE24EF"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+				{
+					id: "1A4A555CDBF7DDAC"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "5D9EA4A4F1EC7FCB"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_afrit"
+						Count: 1b
+						tag: {
+							spiritName: "Zurarcd"
+						}
+					}
+				}
+			]
 			rewards: [{
 				id: "13218202200E74A4"
 				type: "random"
@@ -2505,8 +2719,11 @@
 			}]
 		}
 		{
+			title: "Djinni Crusher"
+			icon: "occultism:ritual_dummy/summon_djinni_crusher"
 			x: 12.75d
 			y: 7.25d
+			subtitle: "Ophyx' Calling"
 			description: [
 				"The &6Djinni Crusher&r is both more resistant to essance decay and faster than the &bFoliot Crusher&r."
 				""
@@ -2517,11 +2734,39 @@
 				"49E79360D99BE691"
 			]
 			id: "62DF3A8488AADD91"
-			tasks: [{
-				id: "51764FD8163AF23B"
-				type: "item"
-				item: "occultism:ritual_dummy/summon_djinni_crusher"
-			}]
+			tasks: [
+				{
+					id: "3DB06ECA1A9A0AA3"
+					type: "item"
+					item: "emendatusenigmatica:gold_dust"
+				}
+				{
+					id: "5A030E5046056FCA"
+					type: "item"
+					item: "emendatusenigmatica:copper_dust"
+				}
+				{
+					id: "56C1551D7D41F639"
+					type: "item"
+					item: "emendatusenigmatica:silver_dust"
+				}
+				{
+					id: "610B77271CFD96AF"
+					type: "item"
+					item: "emendatusenigmatica:iron_dust"
+				}
+				{
+					id: "2115ED15DBFB6A83"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_djinni"
+						Count: 1b
+						tag: {
+							spiritName: "Xalmas"
+						}
+					}
+				}
+			]
 			rewards: [{
 				id: "7727141D5C1DD34A"
 				type: "random"
@@ -2529,8 +2774,11 @@
 			}]
 		}
 		{
+			title: "Slow Crusher"
+			icon: "occultism:ritual_dummy/summon_foliot_crusher"
 			x: 12.0d
 			y: 6.25d
+			subtitle: "Aviar's Circle "
 			description: [
 				"The &6Foliot Crusher&r is the most basic crusher spirit."
 				""
@@ -2538,11 +2786,39 @@
 			]
 			dependencies: ["24E3F1153AA2456D"]
 			id: "49E79360D99BE691"
-			tasks: [{
-				id: "31AC4F59714E632F"
-				type: "item"
-				item: "occultism:ritual_dummy/summon_foliot_crusher"
-			}]
+			tasks: [
+				{
+					id: "043A257EDBB8BE83"
+					type: "item"
+					item: "emendatusenigmatica:iron_chunk"
+				}
+				{
+					id: "03EF94D85D5CF24C"
+					type: "item"
+					item: "emendatusenigmatica:gold_chunk"
+				}
+				{
+					id: "611B34A33C60CB52"
+					type: "item"
+					item: "emendatusenigmatica:copper_chunk"
+				}
+				{
+					id: "693C9317618B4068"
+					type: "item"
+					item: "emendatusenigmatica:silver_chunk"
+				}
+				{
+					id: "2304E4F26117609F"
+					type: "item"
+					item: {
+						id: "occultism:book_of_binding_bound_foliot"
+						Count: 1b
+						tag: {
+							spiritName: "Mjolmeecred"
+						}
+					}
+				}
+			]
 			rewards: [{
 				id: "37B4DB42B440DB3B"
 				type: "random"

@@ -11,10 +11,6 @@
 			Damage: 0
 		}
 	}
-	subtitle: [
-		"Come equip yourself here!"
-		"&l&fArsenal&r&f introduce to you the &l&n&bChroma Endless&r&f' armors     "
-	]
 	default_quest_shape: "diamond"
 	default_hide_dependency_lines: false
 	quests: [
@@ -1049,6 +1045,35 @@
 			}]
 		}
 		{
+			icon: {
+				id: "tconstruct:slime_helmet"
+				Count: 1b
+				tag: {
+					tic_multipliers: { }
+					tic_stats: {
+						"tconstruct:durability": 487.0f
+						"tconstruct:armor": 0.0f
+					}
+					tic_broken: 0b
+					HideFlags: 3
+					tic_modifiers: [
+						{
+							name: "tconstruct:wither_skeleton_disguise"
+							level: 1s
+						}
+						{
+							name: "tconstruct:withered"
+							level: 1s
+						}
+					]
+					tic_materials: ["tconstruct:necrotic_bone"]
+					Damage: 0
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 5
+					}
+				}
+			}
 			x: -5.5d
 			y: -7.5d
 			dependencies: [

@@ -51,6 +51,7 @@
 			rewards: [{
 				id: "57072D0E5FA37AEB"
 				type: "command"
+				auto: "invisible"
 				command: "/tellraw @p [\"\",{\"text\":\"Welcome to \"},{\"text\":\"Chroma Endless\",\"color\":\"aqua\"},{\"text\":\" @p, have a good time !\"}]"
 				player_command: false
 			}]
@@ -258,9 +259,12 @@
 			y: -1.25d
 			subtitle: "Sh*t up !!!"
 			description: [
-				"To disable the sound of quests or advancements :"
+				"You can disable sounds by clicking on the button at the top right of your player in your inventory."
 				""
-				"Echap → Mod Options → Search Plaques → Config → Modify → Client → Modify what you want"
+				"To disable the sound of quests or advancements, you can:"
+				""
+				"Either &lEchap → Mod Options → Search Plaques → Config → Modify → Client → Modify what you want&r"
+				"Either &lSearch ''Plaques'' in &oExtreme Sound Muffler&r &lmenu and mute them&r"
 			]
 			dependencies: ["1416718F40ED7569"]
 			min_width: 300
@@ -268,7 +272,7 @@
 			tasks: [{
 				id: "41FEC8C7FD6401D3"
 				type: "checkmark"
-				title: "Advancement \\& Quest Plaques"
+				title: "Mute sound"
 			}]
 		}
 		{

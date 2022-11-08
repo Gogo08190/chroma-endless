@@ -35,6 +35,11 @@
 			dependencies: ["2F7EB9DBC6CE7522"]
 			size: 2.0d
 			id: "12F51EE93A420344"
+			tasks: [{
+				id: "3A9435082C6149A1"
+				type: "checkmark"
+				title: "To &l&#71797ESteel Age&r  "
+			}]
 		}
 		{
 			x: 16.5d
@@ -89,6 +94,7 @@
 			}]
 		}
 		{
+			icon: "create:mechanical_mixer"
 			x: 14.5d
 			y: 29.0d
 			subtitle: "The Mechanical Mixer is a mechanical component that applies Mixing recipes and shapeless Crafting recipes to items in Basins."
@@ -129,6 +135,7 @@
 			}]
 		}
 		{
+			icon: "create:deployer"
 			x: 31.5d
 			y: 27.0d
 			subtitle: "The Deployer simulates player actions on blocks up 2 to blocks away from it"
@@ -218,6 +225,7 @@
 		}
 		{
 			title: "Manual Kinetic Sources"
+			icon: "create:hand_crank"
 			x: 19.25d
 			y: 35.0d
 			shape: "octagon"
@@ -419,6 +427,7 @@
 			}]
 		}
 		{
+			icon: "create:cogwheel"
 			x: 20.0d
 			y: 33.0d
 			subtitle: "The Cogwheels are a basic mechanical component in Create that relays rotation"
@@ -776,6 +785,7 @@
 			}]
 		}
 		{
+			icon: "create:blaze_cake"
 			x: 27.5d
 			y: 33.0d
 			subtitle: "Blaze Cake is an item that can be fed to a Blaze Burner in order to make it Super-Heated"
@@ -786,7 +796,10 @@
 				""
 				"Finally, the Blaze becomes smouldering, and does not provide any heat to the basin."
 			]
-			dependencies: ["410AC414B2B492D1"]
+			dependencies: [
+				"410AC414B2B492D1"
+				"0A2AC8B884DB6A51"
+			]
 			id: "6636AF496628B7DA"
 			tasks: [
 				{
@@ -824,6 +837,7 @@
 			}]
 		}
 		{
+			icon: "create:blaze_burner"
 			x: 27.5d
 			y: 34.5d
 			subtitle: "A Blaze Burner is a heating component that is required for certain Mixing recipes"
@@ -1152,30 +1166,29 @@
 		}
 		{
 			title: "Speed ans Stress display"
+			icon: "create:goggles"
 			x: 20.0d
 			y: 34.25d
 			description: ["The Engineer's Goggles will show the stress impact of the viewed machine while it is running. It will also give numbers and highlight the current rotation when looking at a Stressometer or Speedometer,. Additionally, it shows how much fluid is stored in a tank along with the total storage capacity of the tank when you look at one of the blocks from the tank."]
 			dependencies: ["50B9AEC7812CEE92"]
 			id: "776713B4EE3868E7"
-			tasks: [
-				{
-					id: "611527CEE6981FAC"
-					type: "item"
-					item: "create:speedometer"
-				}
-				{
-					id: "3C12E02714799DF7"
-					type: "item"
-					item: "create:goggles"
-				}
-			]
-			rewards: [{
-				id: "22A33CF93C4C7EE7"
+			tasks: [{
+				id: "3C12E02714799DF7"
 				type: "item"
-				item: "create:stressometer"
+				item: "create:goggles"
+			}]
+			rewards: [{
+				id: "76E6445D414EA795"
+				type: "item"
+				item: {
+					id: "botania:cosmetic_googly_eyes"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 		{
+			icon: "create:mechanical_piston"
 			x: 18.75d
 			y: 38.25d
 			subtitle: "Mechanical Piston is a piston that can extend multiple blocks when powered with Rotational power"
@@ -1299,6 +1312,7 @@
 		}
 		{
 			title: "Chassis"
+			icon: "create:secondary_linear_chassis"
 			x: 17.5d
 			y: 37.25d
 			dependencies: ["4025E313ECC4D6BD"]
@@ -1409,7 +1423,7 @@
 				""
 				"Using the Wrench, adjacent Tunnels can be set to output all at once, stalling when items are missing. Synchronized tunnels may not draw from adjacent tunnels, so it may be necessary to have splitting tunnels placed before them."
 			]
-			dependencies: ["795E53F4B8400698"]
+			dependencies: ["3EE564D2D7642605"]
 			id: "52985EEAEC06671E"
 			tasks: [{
 				id: "0D083C0A14A70217"
@@ -1614,6 +1628,7 @@
 		}
 		{
 			title: "Pipe"
+			icon: "create:fluid_pipe"
 			x: 23.0d
 			y: 35.0d
 			dependencies: ["08528C5E98F66E31"]
@@ -1709,6 +1724,7 @@
 			}]
 		}
 		{
+			icon: "create:mechanical_crafter"
 			x: 29.25d
 			y: 25.25d
 			dependencies: ["5FAB66FE3921DAF1"]
@@ -1734,7 +1750,7 @@
 		{
 			x: 16.5d
 			y: 25.75d
-			dependencies: ["01431088C1A1DBE6"]
+			dependencies: ["3EE564D2D7642605"]
 			id: "722021815FA40379"
 			tasks: [{
 				id: "7A8CCA6797B84922"
@@ -1767,10 +1783,7 @@
 			x: 23.0d
 			y: 38.25d
 			shape: "octagon"
-			dependencies: [
-				"5174E5B7DC17EF63"
-				"13446A385D0DD1BA"
-			]
+			dependencies: ["5174E5B7DC17EF63"]
 			id: "109D647ED52D215D"
 			tasks: [{
 				id: "137F5768445A7B2E"
@@ -1836,10 +1849,7 @@
 		{
 			x: 12.5d
 			y: 33.0d
-			dependencies: [
-				"6B58A9E61BE8FE02"
-				"13446A385D0DD1BA"
-			]
+			dependencies: ["6B58A9E61BE8FE02"]
 			id: "21395AA7C28FA759"
 			tasks: [{
 				id: "41C2A896B9CD146B"
@@ -2335,6 +2345,23 @@
 					item: "create:refined_radiance"
 				}
 			]
+		}
+		{
+			title: "Speed and Stress display"
+			x: 20.0d
+			y: 35.5d
+			dependencies: ["50B9AEC7812CEE92"]
+			id: "13D90C2AC31FD783"
+			tasks: [{
+				id: "752E607050003652"
+				type: "item"
+				item: "create:speedometer"
+			}]
+			rewards: [{
+				id: "2B286E044E69754C"
+				type: "item"
+				item: "create:stressometer"
+			}]
 		}
 	]
 }

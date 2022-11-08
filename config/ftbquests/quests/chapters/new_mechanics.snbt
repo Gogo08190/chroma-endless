@@ -160,6 +160,7 @@
 		}
 		{
 			title: "Mechanical Machines"
+			icon: "miniutilities:mechanical_miner"
 			x: 20.0d
 			y: -6.5d
 			dependencies: [
@@ -324,6 +325,7 @@
 		}
 		{
 			title: "Some Really Cool Glasses"
+			icon: "miniutilities:glowing_glass"
 			x: 22.0d
 			y: -6.5d
 			id: "34CBB2C5434966C5"

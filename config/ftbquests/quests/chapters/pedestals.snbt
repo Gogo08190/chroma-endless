@@ -105,6 +105,7 @@
 		}
 		{
 			title: "Pedestal Filters"
+			icon: "pedestals:filterswapper"
 			x: 0.5d
 			y: -9.75d
 			description: [
@@ -161,6 +162,7 @@
 		}
 		{
 			title: "Energy Transfer"
+			icon: "pedestals:coin/rfrelay"
 			x: 2.25d
 			y: -3.5d
 			shape: "rsquare"
@@ -193,6 +195,7 @@
 		}
 		{
 			title: "Item Transportation Upgrade"
+			icon: "pedestals:coin/import"
 			x: 3.25d
 			y: -3.5d
 			shape: "rsquare"
@@ -224,6 +227,7 @@
 		}
 		{
 			title: "Fluid Transfer"
+			icon: "pedestals:coin/fluidimport"
 			x: 4.25d
 			y: -3.5d
 			shape: "rsquare"
@@ -309,6 +313,7 @@
 			}]
 		}
 		{
+			icon: "pedestals:coin/smelter"
 			x: 1.25d
 			y: -2.5d
 			shape: "rsquare"
@@ -348,6 +353,7 @@
 			}]
 		}
 		{
+			icon: "pedestals:coin/sawmill"
 			x: 2.25d
 			y: -2.5d
 			shape: "rsquare"
@@ -387,6 +393,7 @@
 			}]
 		}
 		{
+			icon: "pedestals:coin/crusher"
 			x: 3.25d
 			y: -2.5d
 			shape: "rsquare"
@@ -507,6 +514,7 @@
 			}]
 		}
 		{
+			icon: "pedestals:coin/xpbottler"
 			x: 2.75d
 			y: -1.5d
 			shape: "rsquare"
@@ -638,6 +646,7 @@
 			}]
 		}
 		{
+			icon: "pedestals:bookrange"
 			x: 5.25d
 			y: -10.25d
 			description: ["It's wonderful that you can enchant your upgrades, but that can be so... random. These books allow you to ensure you get the particular enchant you need. Keep in mind that you cannot combine these with an upgrade in a vanilla anvil - you MUST use the XP Anvil from Pedestals."]
@@ -683,6 +692,7 @@
 			}]
 		}
 		{
+			icon: "pedestals:upgradeparticlediffuser"
 			x: 4.5d
 			y: -10.75d
 			description: [

@@ -359,6 +359,12 @@
 				type: "item"
 				item: "betterendforge:end_stone_smelter"
 			}]
+			rewards: [{
+				id: "14C8E70CE077602D"
+				type: "item"
+				item: "betterendforge:thallasium_ore"
+				count: 8
+			}]
 		}
 		{
 			x: 3.25d
@@ -760,6 +766,13 @@
 			}]
 		}
 		{
+			icon: {
+				id: "betterendforge:iron_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
 			x: -3.25d
 			y: 1.412414965986386d
 			dependencies: ["7AB46CAA9425281D"]
@@ -840,6 +853,7 @@
 		}
 		{
 			title: "&5Infusion Ritual"
+			icon: "betterendforge:quartz_pedestal"
 			x: -7.75d
 			y: 0.16241496598638605d
 			shape: "octagon"
