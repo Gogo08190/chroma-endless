@@ -19,9 +19,9 @@
         "name": "Endless Reactor Air Chamber",
         "id": "endless_air",
         "data": {
-            "volume": 120,
+            "volume": 5000,
             "dangerPressure": 20.0,
-            "criticalPressure": 20.5
+            "criticalPressure": 30
         }
       },
       {

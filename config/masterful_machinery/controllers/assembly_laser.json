@@ -18,9 +18,9 @@
       "name": "Assembly Factory Air Chamber",
       "id": "assembly_air",
       "data": {
-          "volume": 120,
+          "volume": 5000,
           "dangerPressure": 20.0,
-          "criticalPressure": 20.5
+          "criticalPressure": 30
       }
     },
     {
