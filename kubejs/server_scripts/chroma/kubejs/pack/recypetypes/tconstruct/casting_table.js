@@ -103,15 +103,6 @@ onEvent('recipes', (event) => {
               id: `${id_prefix}iron_bee`
           },
           {
-              fluid: 'thermal:redstone',
-              fluid_amount: 1296,
-              casts: [Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:stone_bee' }).weakNBT().toJson()],
-              cast_consumed: true,
-              output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:redstone_bee' }).toJson(),
-              cooling_time: 120,
-              id: `${id_prefix}redstone_bee`
-          },
-          {
               fluid: 'emendatusenigmatica:molten_lapis',
               fluid_amount: 1296,
               casts: [Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:stone_bee' }).weakNBT().toJson()],
