@@ -43,14 +43,14 @@
 
         "mainOutput": "thermal:blizz_rod",
         "mainOutputWeight": 0.20,
-        "mainOutputCount": 1,
+        "mainOutputCount": 6,
 
         "secondaryOutput": "minecraft:snowball",
         "secondaryOutputWeight": 0.25,
-        "secondaryOutputCount": 1,
+        "secondaryOutputCount": 4,
 
         "bottleOutput": "resourcefulbees:blizz_honey_bottle",
-        "bottleOutputWeight": 0.02,
+        "bottleOutputWeight": 0.20,
         "bottleOutputCount": 1,
 
         "mainInputCount": 1

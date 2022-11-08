@@ -39,10 +39,10 @@
         "hasCentrifugeOutput": true,
 
         "mainOutput": "minecraft:ghast_tear",
-        "mainOutputWeight": 0.3,
+        "mainOutputWeight": 0.4,
         "mainOutputCount": 1,
 
-        "secondaryOutput": "emendatusenigmatica:potassium_nitrate_chunk",
+        "secondaryOutput": "minecraft:nether_wart",
         "secondaryOutputWeight": 0.25,
         "secondaryOutputCount": 3,
 

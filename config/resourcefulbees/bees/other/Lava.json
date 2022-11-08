@@ -1,7 +1,7 @@
 {
   "flower": "tconstruct:lavawood",
   "lore": "This bee can be found in the Nether. This bee produces Lava",
-  "loreColor": "#00AAAA", 
+  "loreColor": "#00AAAA",
   "maxTimeInHive": 600,
   "traits":["can_swim", "nether"],
   "hasHoneycomb": true,
@@ -40,7 +40,7 @@
     "hasFluidOutput": true,
 
     "bottleOutput": "resourcefulbees:lava_honey_bottle",
-    "bottleOutputWeight": 0.02,
+    "bottleOutputWeight": 0.1,
     "bottleOutputCount": 1
   },
   "SpawnData": {

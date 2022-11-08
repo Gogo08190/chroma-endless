@@ -41,11 +41,11 @@
 
       "mainOutput": "tardis:xion_crystal",
       "mainOutputWeight": 0.3,
-      "mainOutputCount": 1,
+      "mainOutputCount": 2,
 
 
       "bottleOutput": "resourcefulbees:xion_honey_bottle",
-      "bottleOutputWeight": 0.01,
+      "bottleOutputWeight": 0.1,
       "bottleOutputCount": 1,
 
       "mainInputCount": 1

@@ -42,15 +42,15 @@
         "hasCentrifugeOutput": true,
 
         "mainOutput": "thermal:blitz_rod",
-        "mainOutputWeight": 0.20,
-        "mainOutputCount": 1,
+        "mainOutputWeight": 0.25,
+        "mainOutputCount": 6,
 
-        "secondaryOutput": "emendatusenigmatica:potassium_nitrate_chunk",
-        "secondaryOutputWeight": 0.25,
-        "secondaryOutputCount": 1,
+        "secondaryOutput": "quark:snow_bricks",
+        "secondaryOutputWeight": 0.20,
+        "secondaryOutputCount": 4,
 
         "bottleOutput": "resourcefulbees:blitz_honey_bottle",
-        "bottleOutputWeight": 0.02,
+        "bottleOutputWeight": 0.20,
         "bottleOutputCount": 1,
 
         "mainInputCount": 1

@@ -52,11 +52,15 @@
         "hasCentrifugeOutput": true,
 
         "mainOutput": "minecraft:blaze_rod",
-        "mainOutputWeight": 0.20,
+        "mainOutputWeight": 0.40,
         "mainOutputCount": 1,
 
+        "secondaryOutput": "minecraft:blaze_powder",
+        "secondaryOutputWeight": 0.30,
+        "secondaryOutputCount": 1,
+
         "bottleOutput": "resourcefulbees:blaze_honey_bottle",
-        "bottleOutputWeight": 0.02,
+        "bottleOutputWeight": 0.08,
         "bottleOutputCount": 1,
 
         "mainInputCount": 1

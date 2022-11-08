@@ -40,27 +40,30 @@
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainInputCount": 1,
-    "mainOutput": "minecraft:dragon_egg",
-    "mainOutputWeight": 0.01,
-    "mainOutputCount": 1,
-    "secondaryOutput": "resourcefulbees:wax",
-    "secondaryOutputWeight": 0.2,
-    "secondaryOutputCount": 1,
-    "bottleOutput": "resourcefulbees:dragon_honey_bottle",
-    "bottleOutputWeight": 0.25,
-    "bottleOutputCount": 1,
-    "recipeTime": 200
-  },
-  "SpawnData": {
-    "canSpawnInWorld": false
-  },
-  "BreedData": {
-    "isBreedable": true,
-    "feedItem": "draconicevolution:dragon_heart",
-    "feedAmount": 2
-  },
-  "TraitData": {
-    "hasTraits": false
+
+      "mainOutput": "minecraft:dragon_egg",
+      "mainOutputWeight": 0.01,
+      "mainOutputCount": 1,
+
+      "secondaryOutput": "resourcefulbees:wax",
+      "secondaryOutputWeight": 0.2,
+      "secondaryOutputCount": 1,
+
+      "bottleOutput": "resourcefulbees:dragon_honey_bottle",
+      "bottleOutputWeight": 0.25,
+      "bottleOutputCount": 1,
+
+      "mainInputCount": 1
+    },
+    "SpawnData": {
+      "canSpawnInWorld": false
+    },
+    "BreedData": {
+      "isBreedable": true,
+      "feedItem": "draconicevolution:dragon_heart",
+      "feedAmount": 2
+    },
+    "TraitData": {
+      "hasTraits": false
   }
 }

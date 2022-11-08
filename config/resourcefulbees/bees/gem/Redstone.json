@@ -1,6 +1,6 @@
 {
   "flower": "tag:forge:storage_blocks/redstone",
-  "lore": "Through the Casting Table, this bee will produce Redstone",
+  "lore": "Through Bee Breeding, this bee will produce Redstone",
   "loreColor": "#00AAAA",
   "maxTimeInHive": 2400,
   "sizeModifier": 1,
@@ -61,7 +61,7 @@
       "secondaryOutputCount": 3,
 
       "bottleOutput": "resourcefulbees:redstone_honey_bottle",
-      "bottleOutputWeight": 0.02,
+      "bottleOutputWeight": 0.1,
       "bottleOutputCount": 1,
 
       "mainInputCount": 1

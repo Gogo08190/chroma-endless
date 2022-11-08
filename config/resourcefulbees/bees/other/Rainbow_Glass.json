@@ -82,7 +82,9 @@
     "secondaryOutputCount": 2,
 
     "bottleOutput": "resourcefulbees:rainbow_honey_bottle",
-    "bottleOutputWeight": 1
+    "bottleOutputWeight": 1,
+
+    "mainInputCount": 1
   },
   "SpawnData": {
     "canSpawnInWorld": false
