@@ -871,7 +871,7 @@ onEvent('recipes', (event) => {
                 '#mekanism:alloys/infused'
             ],
             inputFluid: 'tconstruct:molten_refined_glowstone',
-            inputFluidAmount: 1000,
+            inputFluidAmount: 576,
             processingTime: 300,
             outputItem: { item: 'mekanism:upgrade_muffling', count: 1 },
             outputFluid: '',
@@ -891,7 +891,7 @@ onEvent('recipes', (event) => {
                 '#mekanism:alloys/infused'
             ],
             inputFluid: 'tconstruct:molten_refined_glowstone',
-            inputFluidAmount: 1000,
+            inputFluidAmount: 576,
             processingTime: 300,
             outputItem: { item: 'mekanism:upgrade_filter', count: 1 },
             outputFluid: '',
@@ -951,7 +951,7 @@ onEvent('recipes', (event) => {
                 '#mekanism:alloys/infused'
             ],
             inputFluid: 'tconstruct:molten_refined_glowstone',
-            inputFluidAmount: 1000,
+            inputFluidAmount: 576,
             processingTime: 300,
             outputItem: { item: 'mekanism:upgrade_gas', count: 1 },
             outputFluid: '',
@@ -971,7 +971,7 @@ onEvent('recipes', (event) => {
                 '#mekanism:alloys/infused'
             ],
             inputFluid: 'tconstruct:molten_refined_glowstone',
-            inputFluidAmount: 1000,
+            inputFluidAmount: 576,
             processingTime: 300,
             outputItem: { item: 'mekanism:upgrade_stone_generator', count: 1 },
             outputFluid: '',
