@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "pedestals:upgrades"
+  },
+  "result": "pedestals:coin/default",
+  "experience": 0.15,
+  "cookingtime": 200
+}
