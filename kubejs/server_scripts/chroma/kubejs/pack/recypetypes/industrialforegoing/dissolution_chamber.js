@@ -911,7 +911,7 @@ onEvent('recipes', (event) => {
                 '#mekanism:alloys/infused'
             ],
             inputFluid: 'tconstruct:molten_refined_glowstone',
-            inputFluidAmount: 1000,
+            inputFluidAmount: 576,
             processingTime: 300,
             outputItem: { item: 'mekanism:upgrade_energy', count: 1 },
             outputFluid: '',
@@ -931,7 +931,7 @@ onEvent('recipes', (event) => {
                 '#mekanism:alloys/infused'
             ],
             inputFluid: 'tconstruct:molten_refined_glowstone',
-            inputFluidAmount: 1000,
+            inputFluidAmount: 576,
             processingTime: 300,
             outputItem: { item: 'mekanism:upgrade_speed', count: 1 },
             outputFluid: '',
