@@ -88,15 +88,15 @@ onEvent('recipes', (event) => {
 
       {
         inputs: [
-          {tag: 'forge:gems/dimensional'},
-          {tag: 'forge:gems/dimensional'},
-          {tag: 'forge:gems/dimensional'},
-          {tag: 'forge:gems/dimensional'},
-          {tag: 'forge:gems/dimensional'},
-          {tag: 'forge:gems/dimensional'},
-          {tag: 'forge:gems/dimensional'},
-          {tag: 'forge:gems/dimensional'},
-          {item: 'minecraft:diamond'}
+          {item: 'emendatusenigmatica:dimensional_gem'},
+          {item: 'emendatusenigmatica:dimensional_gem'},
+          {item: 'emendatusenigmatica:dimensional_gem'},
+          {item: 'emendatusenigmatica:dimensional_gem'},
+          {item: 'emendatusenigmatica:dimensional_gem'},
+          {item: 'emendatusenigmatica:dimensional_gem'},
+          {item: 'emendatusenigmatica:dimensional_gem'},
+          {item: 'emendatusenigmatica:dimensional_gem'},
+          {item: 'botania:mana_diamond'}
         ],
         output: {
             item: 'rftoolsbase:infused_diamond'
@@ -106,15 +106,15 @@ onEvent('recipes', (event) => {
 
       {
         inputs: [
-          {tag: 'forge:gems/dimensional'},
-          {tag: 'forge:gems/dimensional'},
-          {tag: 'forge:gems/dimensional'},
-          {tag: 'forge:gems/dimensional'},
-          {tag: 'forge:gems/dimensional'},
-          {tag: 'forge:gems/dimensional'},
-          {tag: 'forge:gems/dimensional'},
-          {tag: 'forge:gems/dimensional'},
-          {item: 'minecraft:ender_pearl'}
+          {item: 'emendatusenigmatica:dimensional_gem'},
+          {item: 'emendatusenigmatica:dimensional_gem'},
+          {item: 'emendatusenigmatica:dimensional_gem'},
+          {item: 'emendatusenigmatica:dimensional_gem'},
+          {item: 'emendatusenigmatica:dimensional_gem'},
+          {item: 'emendatusenigmatica:dimensional_gem'},
+          {item: 'emendatusenigmatica:dimensional_gem'},
+          {item: 'emendatusenigmatica:dimensional_gem'},
+          {item: 'botania:mana_pearl'}
         ],
         output: {
             item: 'rftoolsbase:infused_enderpearl'
