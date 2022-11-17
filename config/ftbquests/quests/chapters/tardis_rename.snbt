@@ -1551,8 +1551,8 @@
 			}]
 		}
 		{
-			x: -42.75d
-			y: -20.0d
+			x: -44.0d
+			y: -21.0d
 			description: ["{image:chroma:textures/quests/push_to_tardis.png width:100 height:100 align:1}"]
 			dependencies: ["32B12D10660F4037"]
 			id: "50B86956469CDE66"
@@ -1763,13 +1763,32 @@
 			rewards: [{
 				id: "5226C9B55ACE76C2"
 				type: "command"
-				command: "/tellraw @p [\"\",{\"text\":\"Go check check the Wiki at this \"},{\"text\":\"link\",\"color\":\"aqua\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://tardis-mod.com/books/deprecated-features/page/tardis-console-controls-112\"}},{\"text\":\".\",\"color\":\"aqua\"}]"
+				title: "Informations"
+				icon: {
+					id: "botania:cosmetic_questgiver_mark"
+					Count: 1b
+					tag: { }
+				}
+				command: "/tellraw @p [\"\",{\"text\":\"Go check the Wiki at this \"},{\"text\":\"link\",\"color\":\"aqua\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://tardis-mod.com/books/deprecated-features/page/tardis-console-controls-112\"}},{\"text\":\".\",\"color\":\"aqua\"}]"
 				player_command: false
 			}]
 		}
 		{
 			x: -46.25d
 			y: -12.75d
+			description: [
+				"One way the player can interact with the TARDIS is through giving it items it likes, especially items related to exploration/adventure."
+				""
+				"This is done by right clicking with an item on the TARDIS exterior."
+				""
+				"Some items a TARDIS may like include:"
+				"-Filled Map"
+				"-Ender Pearl"
+				"-Ender Eye"
+				"-Bells"
+				"-Clocks"
+				"-Compass"
+			]
 			dependencies: ["445EBC860C3ABE3C"]
 			id: "191867BFEBC6251A"
 			tasks: [{

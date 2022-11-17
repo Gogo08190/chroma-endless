@@ -1019,7 +1019,18 @@
 			x: 4.270238095238078d
 			y: 18.80909863945579d
 			shape: "square"
-			description: ["Finally, right click with an &6Engineer's Hammer&r on the Heavy Engineering Block (at the back), and the multiblock will form."]
+			description: [
+				"The &6Excavator&r dig up minerals from veins inaccesible by normal mining."
+				"It requires &n4096RF/t&r in order to operate."
+				""
+				"26x Steel Scaffolding"
+				"16x Steel Sheetmetal"
+				"3x Radiator Block"
+				"9x Light Engineering Block"
+				"1x Redstone Engineering Block"
+				"4x Heavy Engineering Block"
+				"9x Block of Steel"
+			]
 			dependencies: [
 				"716FBC2A2B0FED39"
 				"295FDDB62528FA0D"

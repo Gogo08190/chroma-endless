@@ -521,7 +521,12 @@
 				""
 				"An &2Ender Crafting&r setup consists of an &6Ender Crafter&r and &6Ender Alternators&r. The Crafter will take energy from the void via the alternators. The more alternators you have, the faster it will craft ! "
 			]
-			dependencies: ["74538A4A28AEE1D5"]
+			dependencies: [
+				"74538A4A28AEE1D5"
+				"0C1A0B516A0A88F5"
+				"2DC2B3266CD0DBF5"
+				"61C77F8185B1F2AF"
+			]
 			min_width: 300
 			id: "60E1726207640669"
 			tasks: [
@@ -585,7 +590,11 @@
 				""
 				"Then when both ingredients are created simply pour the &6&lRefined Radiance Ingot&r with the &1&lMesophase Fluid&r with a &c&lSpout&r !"
 			]
-			dependencies: ["5174E5B7DC17EF63"]
+			dependencies: [
+				"5174E5B7DC17EF63"
+				"62D70E7FDD7AC85C"
+				"72A61D960AF1647A"
+			]
 			min_width: 300
 			id: "31F9EB836FD32716"
 			tasks: [{

@@ -862,6 +862,8 @@
 			x: -4.25d
 			y: 0.5d
 			shape: "square"
+			subtitle: "Hollow Multiblock "
+			description: ["The &2Reprocessor&r must be 3x3x7 to work perfectly. For further informations see the &e&lExtreme Book&r"]
 			dependencies: ["5FBB48BC5223C760"]
 			size: 1.5d
 			id: "45FC67AC6AAD4EBA"
