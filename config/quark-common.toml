@@ -1666,9 +1666,9 @@
 [mobs]
 	Frogs = true
 	Crabs = true
-	Stonelings = true
+	Stonelings = false
 	Foxhound = true
-	Toretoise = true
+	Toretoise = false
 	Forgotten = true
 	Wraith = true
 
