@@ -67,8 +67,7 @@ onEvent('recipes', (event) => {
           pattern: [' I ', 'IMI', 'ICI'],
           key: {
               I:'bigreactors:inanite_ingot',
-              M:'industrialforegoing:mycelial_reactor',
-              C:'industrialforegoing:infinity_charger'
+              M:'industrialforegoing:machine_frame_advanced'
           },
           id: `${id_prefix}inanite_thruster`
       },
@@ -78,8 +77,7 @@ onEvent('recipes', (event) => {
           key: {
               C:'ironjetpacks:inanite_cell',
               I:'bigreactors:inanite_ingot',
-              P:'bigreactors:reinforced_reactorpowertapfe_passive',
-
+              P:'bigreactors:reinforced_reactorpowertapfe_passive'
           },
           id: `${id_prefix}inanite_capacitor`
       },
