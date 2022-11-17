@@ -284,9 +284,8 @@ onEvent('recipes', (event) => {
         {
           inputs:[
             { item: 'elementalcraft:fireite_ingot', count: 3},
-            { item: 'undergarden:gloomgourd_pie', count: 1},
+            { item: 'undergarden:gloomgourd_pie', count: 2},
             { item: 'pneumaticcraft:reinforced_air_canister', count: 1},
-            { item: 'undergarden:gloomgourd_pie', count: 1},
             { item: 'undergarden:utherium_ingot', count: 3},
 
           ],
