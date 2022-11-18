@@ -96,6 +96,12 @@ onEvent('recipes', (event) => {
             input: 'minecraft:magma_cream',
             energy: 5000,
             id: `${id_prefix}fairy_imagma_creamngot`
+        },
+        {
+            output: Fluid.of('kubejs:molten_mana_diamond', 144),
+            input: 'botania:mana_diamond',
+            energy: 5000,
+            id: `${id_prefix}mana_diamond`
         }
     ];
 
