@@ -253,48 +253,47 @@ onEvent("recipes", (event) => {
     }
   ).id('resourcefulbees:t4_apiary')
 
-    event.custom(
-      {
-        "type": "extendedcrafting:shaped_table",
-        "pattern": [
-          " A A ",
-          "ABABA",
-          "ACDCA",
-          "AEFEA",
-          "AG GA"
-        ],
-        "key": {
-          "A": {
-            "item": "enderioalloys:item_alloy_ingot_stellar_alloy"
-          },
-          "B": {
-            "item": "enderioalloys:item_material_gear_vibrant"
-          },
-          "C": {
-            "item": "ironjetpacks:stellar_capacitor"
-          },
-          "D": {
-            "type": "forge:nbt",
-            "item": "ironjetpacks:inanite_jetpack",
-            "count": 1,
-            "nbt": ""
-          },
-          "E": {
-            "item": "ironjetpacks:stellar_thruster"
-          },
-          "F": {
-            "item": "enderioalloys:item_material_skull_ender_resonator"
-          },
-          "G": {
-            "item": "kubejs:octadic_capacitor"
-          }
+  event.custom(
+    {
+      "type": "extendedcrafting:shaped_table",
+      "pattern": [
+        " A A ",
+        "ABABA",
+        "ACDCA",
+        "AEFEA",
+        "AG GA"
+      ],
+      "key": {
+        "A": {
+          "item": "enderioalloys:item_alloy_ingot_stellar_alloy"
         },
-        "result": {
+        "B": {
+          "item": "enderioalloys:item_material_gear_vibrant"
+        },
+        "C": {
+          "item": "ironjetpacks:stellar_capacitor"
+        },
+        "D": {
           "type": "forge:nbt",
-          "item": "ironjetpacks:stellar_jetpack",
+          "item": "ironjetpacks:inanite_jetpack",
           "count": 1,
           "nbt": ""
+        },
+        "E": {
+          "item": "ironjetpacks:stellar_thruster"
+        },
+        "F": {
+          "item": "enderioalloys:item_material_skull_ender_resonator"
+        },
+        "G": {
+          "item": "kubejs:octadic_capacitor"
         }
+      },
+      "result": {
+        "type": "forge:nbt",
+        "item": "ironjetpacks:stellar_jetpack",
+        "count": 1,
+        "nbt": ""
       }
     }
   ).id(`${id_prefix}stellar_jetpack`)
