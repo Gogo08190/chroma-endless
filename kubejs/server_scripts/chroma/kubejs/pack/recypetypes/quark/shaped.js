@@ -17,16 +17,6 @@ onEvent('recipes', (event) => {
           A:'quark:dirty_shard'
         },
         id: `${id_prefix}dirty_glass`
-      },
-      {
-        output: 'quark:diamond_heart',
-        pattern: ['ADA', 'DHD', 'ADA'],
-        key: {
-          D: '#forge:gems/diamond',
-          A: '#forge:ingots/iron',
-          H: '#forge:gems/emerald'
-        },
-        id: `${id_prefix}diamond_heart`
       }
     ];
 
