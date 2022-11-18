@@ -12,7 +12,7 @@ onEvent('recipes', (event) => {
       //Crying obsidian dust
       {
         input: 'minecraft:crying_obsidian',
-        output: 'kubejs:crying_obsidian_dust',
+        output: '4x kubejs:crying_obsidian_dust',
         id: 'minecraft:crying_obsidian_dust'
       },
 

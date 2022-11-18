@@ -86,7 +86,7 @@ onEvent('recipes', (event) => {
             id: 'thermal:machine/pulverizer/pulverizer_end_stone'
         },
         {
-            input: '#forge:obsidian',
+            input: 'minecraft:obsidian',
             experience: 0.2,
             outputs: [Item.of('emendatusenigmatica:obsidian_dust', 4)],
             id: 'thermal:machine/pulverizer/pulverizer_obsidian'

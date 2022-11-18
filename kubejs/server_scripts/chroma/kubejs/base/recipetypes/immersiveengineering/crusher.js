@@ -74,10 +74,16 @@ onEvent('recipes', (event) => {
                 id: 'immersiveengineering:crusher/end_stone'
             },
             {
-                input: '#forge:obsidian',
+                input: 'minecraft:obsidian',
                 output: Item.of('emendatusenigmatica:obsidian_dust', 1),
                 secondary: [Item.of('minecraft:obsidian').chance(0.75)],
                 id: 'immersiveengineering:crusher/obsidian'
+            },
+            {
+                input: 'minecraft:crying_obsidian',
+                output: Item.of('kubejs:crying_obsidian_dust', 1),
+                secondary: [Item.of('minecraft:crying_obsidian').chance(0.50)],
+                id: 'immersiveengineering:crusher/crying_obsidian'
             },
             {
                 input: 'byg:raw_quartz_block',

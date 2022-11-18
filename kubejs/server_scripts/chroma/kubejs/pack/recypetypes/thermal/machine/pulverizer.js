@@ -34,9 +34,9 @@ onEvent('recipes', (event) => {
 
         {
           input: 'minecraft:crying_obsidian',
-          experience: 0.5,
-          outputs: [Item.of('kubejs:crying_obsidian_dust', 1)],
-          id: 'minecraft:crying_obsidian_dust'
+          experience: 0.2,
+          outputs: [Item.of('kubejs:crying_obsidian_dust', 4)],
+          id: 'thermal:machine/pulverizer/pulverizer_crying_obsidian'
         },
 
         // Prismarine Crystal

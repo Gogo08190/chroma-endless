@@ -10,8 +10,16 @@ onEvent('recipes', (event) => {
             id: 'occultism:crushing/crushed_end_stone'
         },
         {
-            input: { tag: 'forge:obsidian' },
+            input: { item: 'minecraft:obsidian' },
             output: 'emendatusenigmatica:obsidian_dust',
+            count: 4,
+            time: 400,
+            ignore_crushing_multiplier: true,
+            id: 'occultism:crushing/obsidian_dust'
+        },
+        {
+            input: { item: 'minecraft:crying_obsidian' },
+            output: 'kubejs:crying_obsidian_dust',
             count: 4,
             time: 400,
             ignore_crushing_multiplier: true,
