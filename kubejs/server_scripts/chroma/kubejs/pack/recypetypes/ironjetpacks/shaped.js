@@ -64,7 +64,7 @@ onEvent('recipes', (event) => {
       },
       {
           output: 'ironjetpacks:inanite_thruster',
-          pattern: [' I ', 'IMI', 'ICI'],
+          pattern: [' I ', 'IMI', 'IMI'],
           key: {
               I:'bigreactors:inanite_ingot',
               M:'industrialforegoing:machine_frame_advanced'

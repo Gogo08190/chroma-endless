@@ -837,7 +837,7 @@ onEvent('recipes', (event) => {
                 Item.of('ironjetpacks:regalium_jetpack').weakNBT().toJson(),
                 'ironjetpacks:inanite_thruster'
             ],
-            inputFluid: 'bigreactors:magentite_fluid', // optionnel
+            inputFluid: 'bigreactors:magentite', // optionnel
             inputFluidAmount: 8000, // 0 si pas de fluid
             processingTime: 500,
             outputItem: { item: 'ironjetpacks:inanite_jetpack', count: 1 },
