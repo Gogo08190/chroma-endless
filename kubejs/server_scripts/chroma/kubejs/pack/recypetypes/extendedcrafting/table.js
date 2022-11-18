@@ -254,68 +254,47 @@ onEvent("recipes", (event) => {
   ).id('resourcefulbees:t4_apiary')
 
     event.custom(
-    {
-      "type": "extendedcrafting:shaped_table",
-      "pattern": [
-        " A     A ",
-        "ABA   ABA",
-        "ACA   ACA",
-        "ADAEFGADA",
-        "AHAEFGAHA",
-        "AIAJKJAIA",
-        "ALAGFEALA",
-        "AMAGFEAMA",
-        " A     A "
-      ],
-      "key": {
-        "A": {
-          "item": "enderioalloys:item_alloy_ingot_stellar_alloy"
+      {
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+          " A A ",
+          "ABABA",
+          "ACDCA",
+          "AEFEA",
+          "AG GA"
+        ],
+        "key": {
+          "A": {
+            "item": "enderioalloys:item_alloy_ingot_stellar_alloy"
+          },
+          "B": {
+            "item": "enderioalloys:item_material_gear_vibrant"
+          },
+          "C": {
+            "item": "ironjetpacks:stellar_capacitor"
+          },
+          "D": {
+            "type": "forge:nbt",
+            "item": "ironjetpacks:inanite_jetpack",
+            "count": 1,
+            "nbt": ""
+          },
+          "E": {
+            "item": "ironjetpacks:stellar_thruster"
+          },
+          "F": {
+            "item": "enderioalloys:item_material_skull_ender_resonator"
+          },
+          "G": {
+            "item": "kubejs:octadic_capacitor"
+          }
         },
-        "B": {
-          "item": "extendedcrafting:crystaltine_ingot"
-        },
-        "C": {
-          "item": "ironjetpacks:elite_coil"
-        },
-        "D": {
-          "item": "enderioalloys:item_material_gear_vibrant"
-        },
-        "E": {
-          "item": "enderioalloys:item_alloy_ingot_melodic_alloy"
-        },
-        "F": {
-          "item": "enderioalloys:item_alloy_ingot_dark_steel"
-        },
-        "G": {
-          "item": "enderioalloys:item_alloy_ingot_end_steel"
-        },
-        "H": {
-          "item": "enderioalloys:item_material_skull_ender_resonator"
-        },
-        "I": {
-          "item": "mekanism:pellet_polonium"
-        },
-        "J": {
-          "item": "mekanism:hdpe_sheet"
-        },
-        "K": {
+        "result": {
           "type": "forge:nbt",
-          "item": "ironjetpacks:inanite_jetpack",
+          "item": "ironjetpacks:stellar_jetpack",
           "count": 1,
           "nbt": ""
-        },
-        "L": {
-          "item": "ironjetpacks:stellar_capacitor"
-        },
-        "M": {
-          "item": "ironjetpacks:stellar_thruster"
         }
-      },
-      "result": {
-        "type": "forge:nbt",
-        "item": "ironjetpacks:stellar_jetpack",
-        "count": 1,
-        "nbt": ""
       }
     }
   ).id(`${id_prefix}stellar_jetpack`)
@@ -606,7 +585,7 @@ onEvent("recipes", (event) => {
       "type": "extendedcrafting:shaped_table",
       "pattern": [
         " A A ",
-        "BCBCB",
+        "BBCBB",
         "BDEDB",
         "BFGFB",
         "BBBBB"
@@ -619,24 +598,25 @@ onEvent("recipes", (event) => {
           "item": "enderioalloys:item_alloy_ingot_stellar_alloy"
         },
         "C": {
-          "item": "extendedcrafting:crystaltine_ingot"
+          "item": "enderioalloys:item_material_gear_vibrant"
         },
         "D": {
-          "item": "enderioalloys:item_alloy_ingot_melodic_alloy"
+          "item": "kubejs:octadic_capacitor"
         },
         "E": {
-          "item": "mekanism:ultimate_induction_provider"
+          "item": "enderioalloys:item_material_skull_ender_resonator"
         },
         "F": {
-          "item": "enderioalloys:item_alloy_ingot_end_steel"
+          "item": "mekanism:superheating_element"
         },
         "G": {
-          "item": "mekanism:ultimate_induction_cell"
+          "item": "enderioalloys:item_material_skull_guardian_diode"
         }
       },
       "result": {
-        "item": 'ironjetpacks:stellar_capacitor'
+        "item": "'ironjetpacks:stellar_capacitor'"
       }
+    }
     }
   ).id(`${id_prefix}stellar_capacitor`)
 
@@ -655,23 +635,23 @@ onEvent("recipes", (event) => {
           "item": "enderioalloys:item_alloy_ingot_stellar_alloy"
         },
         "B": {
-          "item": "mekanism:ultimate_energy_cube"
+          "item": "enderioalloys:item_material_skull_guardian_diode"
         },
         "C": {
-          "item": "mekanism:ultimate_induction_provider"
+          "item": "kubejs:octadic_capacitor"
         },
         "D": {
-          "item": "mekanism:pellet_polonium"
+          "item": "enderioalloys:item_material_gear_vibrant"
         },
         "E": {
           "item": "mekanism:superheating_element"
         },
         "F": {
-          "item": "mekanismgenerators:heat_generator"
+          "item": "enderioalloys:item_material_skull_ender_resonator"
         }
       },
       "result": {
-        "item": 'ironjetpacks:stellar_thruster'
+        "item": "ironjetpacks:stellar_thruster"
       }
     }
   ).id(`${id_prefix}stellar_thruster`)

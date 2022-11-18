@@ -361,13 +361,13 @@ onEvent('jei.information', (event) => {
         {
             items: ['ironjetpacks:nitro_cell'],
             text: [
-                `Obtained in the Void ore miner (Black Hole Harvester card) from Tier 6 in The End. More drop with Red Lens.`
+                `Obtained in the Void ore miner (Black Hole Harvester card) from Tier 3 in The End. More drop with Red Lens.`
             ]
         },
         {
             items: ['ironjetpacks:nitro_thruster'],
             text: [
-                `Obtained in the Void ore miner (Black Hole Harvester card) from Tier 6 in The End. More drop with Red Lens.`
+                `Obtained in the Void ore miner (Black Hole Harvester card) from Tier 3 in The End. More drop with Red Lens.`
             ]
         },
         {
