@@ -24,6 +24,13 @@
     "honeycombColor": "#303030",
     "modelType": "ORE"
   },
+  "CombatData": {
+    "isPassive": false,
+    "removeStingerOnAttack": false,
+    "inflictsPoison": true,
+    "baseHealth": 20,
+    "attackDamage": 3
+    },
   "MutationData": {
     "hasMutation": true,
     "mutations" : [
