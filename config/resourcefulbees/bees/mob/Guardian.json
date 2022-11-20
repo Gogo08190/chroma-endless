@@ -1,6 +1,6 @@
 {
   "flower": "minecraft:prismarine_bricks",
-  "lore": "Through Bee Breeding, this bee will produce Guardian Diodes",
+  "lore": "This bee will produce Guardian Diodes. In order to obtain it, a Water bee must pass over a Guardian.",
   "loreColor": "#00AAAA",
   "maxTimeInHive": 1200,
   "traits": ["can_swim"],
