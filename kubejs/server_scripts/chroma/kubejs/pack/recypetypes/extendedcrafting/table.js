@@ -613,9 +613,8 @@ onEvent("recipes", (event) => {
         }
       },
       "result": {
-        "item": "'ironjetpacks:stellar_capacitor'"
+        "item": "ironjetpacks:stellar_capacitor"
       }
-    }
     }
   ).id(`${id_prefix}stellar_capacitor`)
 
