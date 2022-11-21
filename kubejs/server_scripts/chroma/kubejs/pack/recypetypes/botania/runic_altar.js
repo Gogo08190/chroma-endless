@@ -430,7 +430,7 @@ onEvent('recipes', (event) => {
           'emendatusenigmatica:steel_ingot',
           'emendatusenigmatica:steel_ingot',
           'emendatusenigmatica:steel_ingot',
-          'enderioalloys:block_alloy_redstone_alloy'
+          'enderioalloys:item_alloy_ingot_redstone_alloy'
         ],
         mana: 5000,
         output: 'powah:capacitor_basic',
