@@ -103,7 +103,7 @@ onEvent('recipes', (event) => {
           key: {
             I: 'occultism:iesnium_ingot',
             R: 'extendedcrafting:redstone_ingot',
-            T: 'pneumaticcraft:medium_tank'
+            T: 'pneumaticcraft:small_tank'
           },
           id: 'mekanism:fluid_tank/basic'
         },
