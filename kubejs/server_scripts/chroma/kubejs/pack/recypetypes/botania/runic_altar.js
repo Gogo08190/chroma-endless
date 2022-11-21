@@ -434,7 +434,7 @@ onEvent('recipes', (event) => {
         ],
         mana: 5000,
         output: 'powah:capacitor_basic',
-        count: 1,
+        count: 2,
         id: 'powah:crafting/capacitor_basic'
       },
       {
