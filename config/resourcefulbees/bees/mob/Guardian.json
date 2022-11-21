@@ -1,6 +1,6 @@
 {
   "flower": "minecraft:prismarine_bricks",
-  "lore": "This bee will produce Guardian Diodes. In order to obtain it, a Water bee must pass over a Guardian.",
+  "lore": "This bee will produce Guardian Diodes. In order to get the Guardian Bee, you must mutate a Water Bee with a Guardian (it must pass over the Guardian).",
   "loreColor": "#00AAAA",
   "maxTimeInHive": 1200,
   "traits": ["can_swim"],
