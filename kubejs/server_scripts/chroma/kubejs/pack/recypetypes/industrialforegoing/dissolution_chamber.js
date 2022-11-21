@@ -449,7 +449,7 @@ onEvent('recipes', (event) => {
               'envirocore:litherite_interconnect'
             ],
             inputFluid: 'tconstruct:molten_lumium',
-            inputFluidAmount: 8000,
+            inputFluidAmount: 4608,
             processingTime: 150,
             outputItem: { item: 'enviroenergy:litherite_solar_ccu', count: 1 },
             outputFluid: '',
@@ -468,7 +468,7 @@ onEvent('recipes', (event) => {
               'envirocore:litherite_interconnect'
             ],
             inputFluid: 'tconstruct:molten_lumium',
-            inputFluidAmount: 8000,
+            inputFluidAmount: 4608,
             processingTime: 150,
             outputItem: { item: 'enviroenergy:litherite_lightning_ccu', count: 1 },
             outputFluid: '',
@@ -487,7 +487,7 @@ onEvent('recipes', (event) => {
               'envirocore:structure_panel'
             ],
             inputFluid: 'kubejs:molten_mana_diamond',
-            inputFluidAmount: 8000,
+            inputFluidAmount: 4608,
             processingTime: 150,
             outputItem: { item: 'envirotech:litherite_void_miner_ccu', count: 1 },
             outputFluid: '',
@@ -506,7 +506,7 @@ onEvent('recipes', (event) => {
                 'envirocore:erodium_interconnect'
             ],
             inputFluid: 'tconstruct:molten_lumium',
-            inputFluidAmount: 8000,
+            inputFluidAmount: 4608,
             processingTime: 150,
             outputItem: { item: 'enviroenergy:erodium_solar_ccu', count: 1 },
             outputFluid: '',
@@ -525,7 +525,7 @@ onEvent('recipes', (event) => {
                 'envirocore:erodium_interconnect'
             ],
             inputFluid: 'tconstruct:molten_lumium',
-            inputFluidAmount: 8000,
+            inputFluidAmount: 4608,
             processingTime: 150,
             outputItem: { item: 'enviroenergy:erodium_lightning_ccu', count: 1 },
             outputFluid: '',
@@ -544,7 +544,7 @@ onEvent('recipes', (event) => {
                 'envirocore:laser_core'
             ],
             inputFluid: 'kubejs:molten_mana_diamond',
-            inputFluidAmount: 8000,
+            inputFluidAmount: 4608,
             processingTime: 150,
             outputItem: { item: 'envirotech:erodium_void_miner_ccu', count: 1 },
             outputFluid: '',
@@ -563,7 +563,7 @@ onEvent('recipes', (event) => {
                 'envirocore:kyronite_interconnect'
             ],
             inputFluid: 'mekanismgenerators:fusion_fuel',
-            inputFluidAmount: 8000,
+            inputFluidAmount: 4000,
             processingTime: 150,
             outputItem: { item: 'enviroenergy:kyronite_solar_ccu', count: 1 },
             outputFluid: '',
@@ -582,7 +582,7 @@ onEvent('recipes', (event) => {
                 'envirocore:kyronite_interconnect'
             ],
             inputFluid: 'mekanismgenerators:fusion_fuel',
-            inputFluidAmount: 8000,
+            inputFluidAmount: 4000,
             processingTime: 150,
             outputItem: { item: 'enviroenergy:kyronite_lightning_ccu', count: 1 },
             outputFluid: '',
@@ -601,7 +601,7 @@ onEvent('recipes', (event) => {
                 'envirocore:laser_core'
             ],
             inputFluid: 'mekanismgenerators:fusion_fuel',
-            inputFluidAmount: 8000,
+            inputFluidAmount: 4000,
             processingTime: 150,
             outputItem: { item: 'envirotech:kyronite_void_miner_ccu', count: 1 },
             outputFluid: '',
@@ -620,7 +620,7 @@ onEvent('recipes', (event) => {
                 'envirocore:pladium_interconnect'
             ],
             inputFluid: 'mekanismgenerators:fusion_fuel',
-            inputFluidAmount: 8000,
+            inputFluidAmount: 4000,
             processingTime: 300,
             outputItem: { item: 'enviroenergy:pladium_solar_ccu', count: 1 },
             outputFluid: '',
@@ -639,7 +639,7 @@ onEvent('recipes', (event) => {
                 'envirocore:pladium_interconnect'
             ],
             inputFluid: 'mekanismgenerators:fusion_fuel',
-            inputFluidAmount: 8000,
+            inputFluidAmount: 4000,
             processingTime: 300,
             outputItem: { item: 'enviroenergy:pladium_lightning_ccu', count: 1 },
             outputFluid: '',
@@ -658,7 +658,7 @@ onEvent('recipes', (event) => {
                 'envirocore:laser_core'
             ],
             inputFluid: 'mekanismgenerators:fusion_fuel',
-            inputFluidAmount: 8000,
+            inputFluidAmount: 4000,
             processingTime: 300,
             outputItem: { item: 'envirotech:pladium_void_miner_ccu', count: 1 },
             outputFluid: '',
@@ -678,7 +678,7 @@ onEvent('recipes', (event) => {
                 'mekanism:elite_control_circuit'
             ],
             inputFluid: 'tconstruct:molten_refined_glowstone',
-            inputFluidAmount: 2000,
+            inputFluidAmount: 1152,
             processingTime: 300,
             outputItem: { item: 'mekanism:elite_tier_installer', count: 1 },
             outputFluid: '',
@@ -698,7 +698,7 @@ onEvent('recipes', (event) => {
                 'mekanism:elite_control_circuit'
             ],
             inputFluid: 'tconstruct:molten_refined_glowstone',
-            inputFluidAmount: 2000,
+            inputFluidAmount: 1152,
             processingTime: 300,
             outputItem: { item: 'mekanism:elite_smelting_factory', count: 1 },
             outputFluid: '',
@@ -718,7 +718,7 @@ onEvent('recipes', (event) => {
                 'mekanism:elite_control_circuit'
             ],
             inputFluid: 'tconstruct:molten_refined_glowstone',
-            inputFluidAmount: 2000,
+            inputFluidAmount: 1152,
             processingTime: 300,
             outputItem: { item: 'mekanism:elite_enriching_factory', count: 1 },
             outputFluid: '',
@@ -738,7 +738,7 @@ onEvent('recipes', (event) => {
                 'mekanism:elite_control_circuit'
             ],
             inputFluid: 'tconstruct:molten_refined_glowstone',
-            inputFluidAmount: 2000,
+            inputFluidAmount: 1152,
             processingTime: 300,
             outputItem: { item: 'mekanism:elite_crushing_factory', count: 1 },
             outputFluid: '',
@@ -758,7 +758,7 @@ onEvent('recipes', (event) => {
                 'mekanism:elite_control_circuit'
             ],
             inputFluid: 'tconstruct:molten_refined_glowstone',
-            inputFluidAmount: 2000,
+            inputFluidAmount: 1152,
             processingTime: 300,
             outputItem: { item: 'mekanism:elite_compressing_factory', count: 1 },
             outputFluid: '',
@@ -778,7 +778,7 @@ onEvent('recipes', (event) => {
                 'mekanism:elite_control_circuit'
             ],
             inputFluid: 'tconstruct:molten_refined_glowstone',
-            inputFluidAmount: 2000,
+            inputFluidAmount: 1152,
             processingTime: 300,
             outputItem: { item: 'mekanism:elite_combining_factory', count: 1 },
             outputFluid: '',
@@ -798,7 +798,7 @@ onEvent('recipes', (event) => {
                 'mekanism:elite_control_circuit'
             ],
             inputFluid: 'tconstruct:molten_refined_glowstone',
-            inputFluidAmount: 2000,
+            inputFluidAmount: 1152,
             processingTime: 300,
             outputItem: { item: 'mekanism:elite_infusing_factory', count: 1 },
             outputFluid: '',
@@ -818,7 +818,7 @@ onEvent('recipes', (event) => {
                 'mekanism:elite_control_circuit'
             ],
             inputFluid: 'tconstruct:molten_refined_glowstone',
-            inputFluidAmount: 2000,
+            inputFluidAmount: 1152,
             processingTime: 300,
             outputItem: { item: 'mekanism:elite_sawing_factory', count: 1 },
             outputFluid: '',
@@ -838,7 +838,7 @@ onEvent('recipes', (event) => {
                 'ironjetpacks:inanite_thruster'
             ],
             inputFluid: 'bigreactors:magentite', // optionnel
-            inputFluidAmount: 8000, // 0 si pas de fluid
+            inputFluidAmount: 4000, // 0 si pas de fluid
             processingTime: 500,
             outputItem: { item: 'ironjetpacks:inanite_jetpack', count: 1 },
             outputFluid: '', // optionnel
@@ -991,7 +991,7 @@ onEvent('recipes', (event) => {
                 'mekanism:ingot_refined_obsidian',
             ],
             inputFluid: 'tconstruct:molten_refined_glowstone',
-            inputFluidAmount: 1000,
+            inputFluidAmount: 864,
             processingTime: 300,
             outputItem: { item: 'mekanism:teleporter_frame', count: 9 },
             outputFluid: '',
@@ -1011,7 +1011,7 @@ onEvent('recipes', (event) => {
                 'mekanism:elite_control_circuit'
             ],
             inputFluid: 'tconstruct:molten_refined_glowstone',
-            inputFluidAmount: 2000,
+            inputFluidAmount: 1152,
             processingTime: 300,
             outputItem: { item: 'mekanism:elite_injecting_factory', count: 1 },
             outputFluid: '',
@@ -1031,7 +1031,7 @@ onEvent('recipes', (event) => {
                 'mekanism:elite_control_circuit'
             ],
             inputFluid: 'tconstruct:molten_refined_glowstone',
-            inputFluidAmount: 2000,
+            inputFluidAmount: 1152,
             processingTime: 300,
             outputItem: { item: 'mekanism:elite_purifying_factory', count: 1 },
             outputFluid: '',
