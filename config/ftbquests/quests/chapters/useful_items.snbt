@@ -2474,8 +2474,8 @@
 			}]
 		}
 		{
-			x: 19.94302721088436d
-			y: 16.5d
+			x: 19.75d
+			y: 16.75d
 			shape: "hexagon"
 			subtitle: "Nyoooom"
 			description: ["Unlocks Extreme Reactor's and EnderIO Alloys's Jetpack. "]
@@ -2549,7 +2549,11 @@
 			shape: "rsquare"
 			subtitle: "Uhh does anyone know how that works ?"
 			description: ["Crafted in Extended's Crafting Advanced Crafting Table."]
-			dependencies: ["4BD29526B90994E7"]
+			dependencies: [
+				"4BD29526B90994E7"
+				"5AC34B619EB27C7F"
+				"23D4D5A08A70D5F6"
+			]
 			id: "5072216A8B07BC59"
 			tasks: [{
 				id: "0B14FE27BA05EC13"
@@ -2572,6 +2576,7 @@
 			dependencies: [
 				"28F65AB06F632E4C"
 				"4BD29526B90994E7"
+				"5AC34B619EB27C7F"
 			]
 			id: "6271F71E47DA8F8B"
 			tasks: [{
@@ -2595,9 +2600,10 @@
 			dependencies: [
 				"6271F71E47DA8F8B"
 				"5072216A8B07BC59"
-				"065348771A647171"
 				"7D5739EF61CB79DA"
-				"68CE8FF470DB60ED"
+				"4BD29526B90994E7"
+				"23D4D5A08A70D5F6"
+				"5AC34B619EB27C7F"
 			]
 			id: "35E466F8B378343F"
 			tasks: [{
@@ -2718,7 +2724,7 @@
 			y: 20.454251700680267d
 			shape: "rsquare"
 			subtitle: "Energy from the void"
-			description: ["Obtained from Environmental Tech's Void Miner Tier 6 or more with the custom \"Black Hole Harvester\" in the End Dimenstion. (Note that the \"Red Lens\" doubles the chances of obtaining it)."]
+			description: ["Obtained from Environmental Tech's Void Miner Tier 3 or more with the custom \"Black Hole Harvester\" in the End Dimenstion. (Note that the \"Red Lens\" doubles the chances of obtaining it)."]
 			dependencies: [
 				"28F65AB06F632E4C"
 				"3EAB4C4E47E658EA"
@@ -2742,7 +2748,7 @@
 			y: 19.454251700680267d
 			shape: "rsquare"
 			subtitle: "Litteral rocket"
-			description: ["Obtained from Environmental Tech's Void Miner Tier 6 or more with the custom \"Black Hole Harvester\" in the End Dimenstion. (Note that the \"Red Lens\" doubles the chances of obtaining it)."]
+			description: ["Obtained from Environmental Tech's Void Miner Tier 3 or more with the custom \"Black Hole Harvester\" in the End Dimenstion. (Note that the \"Red Lens\" doubles the chances of obtaining it)."]
 			dependencies: [
 				"685F94719391D77F"
 				"3EAB4C4E47E658EA"
@@ -3121,10 +3127,7 @@
 			shape: "rsquare"
 			subtitle: "I'm not even sure what it shoots out anymore"
 			description: ["Crafted in a regular Crafting Table."]
-			dependencies: [
-				"6BDC59E82AB5068C"
-				"492A60D27D33CBEC"
-			]
+			dependencies: ["6B860E2F39D660BE"]
 			id: "7618457DC31F6DFB"
 			tasks: [{
 				id: "124B747C74EF78B6"
@@ -3167,7 +3170,7 @@
 				"4AF26F6881D26ED4"
 				"065348771A647171"
 				"73368EF2948452D9"
-				"1D122C9B48BC56F9"
+				"44D3AC1068B07EAE"
 			]
 			id: "7D5739EF61CB79DA"
 			tasks: [{

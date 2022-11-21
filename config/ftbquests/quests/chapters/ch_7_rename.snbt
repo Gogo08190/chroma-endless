@@ -49,6 +49,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "384154891E62DFC8"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
+			}]
 		}
 		{
 			x: 1.0d
