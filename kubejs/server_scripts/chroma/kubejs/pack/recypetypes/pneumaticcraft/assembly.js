@@ -112,7 +112,7 @@ onEvent('recipes', (event) => {
       },
       {
           input: { item: 'draconicevolution:draconium_dust', count: 1 },
-          output: { item: 'kubejs:purified_draconium_dust', count: 1 },
+          output: { item: 'kubejs:purified_draconium_dust', count: 2 },
           program: 'laser',
           id: `${id_prefix}purified_draconium_dust`
       },
