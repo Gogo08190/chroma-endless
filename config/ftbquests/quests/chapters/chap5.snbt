@@ -3538,6 +3538,8 @@
 				"Build The Fusionner 2000 Machine Factory."
 				""
 				"&cIn order to make create schematics work properly, please do not rotate them while building them !"
+				""
+				"&bYou can use the Entangled mod to entangle the inputs of your masterful machineries and have a better automation."
 			]
 			hide_dependency_lines: true
 			dependencies: [

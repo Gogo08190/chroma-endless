@@ -3023,7 +3023,11 @@
 		{
 			x: 0.25d
 			y: 8.25d
-			description: ["&cIn order to make create schematics work properly, please do not rotate them while building them !"]
+			description: [
+				"&cIn order to make create schematics work properly, please do not rotate them while building them !"
+				""
+				"&bYou can use the Entangled mod to entangle the inputs of your masterful machineries and have a better automation."
+			]
 			dependencies: [
 				"3D69A56B2F4BA228"
 				"14B312DBA79509DB"

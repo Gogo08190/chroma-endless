@@ -5552,7 +5552,11 @@
 			x: -32.75d
 			y: -10.0d
 			shape: "diamond"
-			description: ["&cIn order to make create schematics work properly, please do not rotate them while building them !"]
+			description: [
+				"&cIn order to make create schematics work properly, please do not rotate them while building them !"
+				""
+				"&bYou can use the Entangled mod to entangle the inputs of your masterful machineries and have a better automation."
+			]
 			dependencies: ["16BD9AB1243FBA18"]
 			size: 2.0d
 			id: "71D840BE9E318538"
@@ -5610,6 +5614,8 @@
 				"This Multiblock is used to make Custom Gas !"
 				""
 				"&cIn order to make create schematics work properly, please do not rotate them while building them !"
+				""
+				"&bYou can use the Entangled mod to entangle the inputs of your masterful machineries and have a better automation."
 			]
 			hide_dependency_lines: true
 			dependencies: ["678264A742DDA038"]

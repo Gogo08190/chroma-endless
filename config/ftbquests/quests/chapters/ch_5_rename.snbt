@@ -2047,6 +2047,8 @@
 				"You can use the create schematic to build it !"
 				""
 				"&cIn order to make create schematics work properly, please do not rotate them while building them !"
+				""
+				"&bYou can use the Entangled mod to entangle the inputs of your masterful machineries and have a better automation."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -2060,6 +2062,7 @@
 				"7B9FBBCD2F962A0B"
 			]
 			size: 2.0d
+			min_width: 350
 			id: "3B142D2ED1A34A2F"
 			tasks: [
 				{
