@@ -2322,7 +2322,11 @@
 			x: 30.35289115646257d
 			y: 40.36054421768708d
 			shape: "gear"
-			description: ["This multiblock allow you to automate &bShadow Steel&r and &bRefined Radiant&r"]
+			description: [
+				"This multiblock allow you to automate &bShadow Steel&r and &bRefined Radiant&r"
+				""
+				"&cIn order to make create schematics work properly, please do not rotate them while building them !"
+			]
 			dependencies: [
 				"1DE3DBD772BE1138"
 				"246C93E648C19494"

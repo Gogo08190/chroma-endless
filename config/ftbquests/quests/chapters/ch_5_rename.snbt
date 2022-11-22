@@ -2045,6 +2045,8 @@
 				"It needs energy and pressure to operate."
 				""
 				"You can use the create schematic to build it !"
+				""
+				"&cIn order to make create schematics work properly, please do not rotate them while building them !"
 			]
 			hide_dependency_lines: true
 			dependencies: [

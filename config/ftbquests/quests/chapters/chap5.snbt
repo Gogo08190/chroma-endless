@@ -3533,8 +3533,12 @@
 			x: 6.0d
 			y: 8.5d
 			shape: "gear"
-			subtitle: "&k&l&0F&rU&k&l&0S&rI&k&l&0O&rN&k&l&0N&rE&k&l&0R&r &k&l&02&r0&k&l&00&r0&r"
-			description: ["Build The Fusionner 2000 Machine Factory."]
+			subtitle: "&k&l&0F&rU&k&l&0S&rI&k&l&0O&rN&k&l&0N&rE&k&l&0R&r &k&l&02&r0&k&l&00&r0&r   "
+			description: [
+				"Build The Fusionner 2000 Machine Factory."
+				""
+				"&cIn order to make create schematics work properly, please do not rotate them while building them !"
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"281F853004D0032C"
