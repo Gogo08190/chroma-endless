@@ -27,7 +27,7 @@ const soilRegistry = [
         growthModifier: 0.05
     },
     { block: 'farmersdelight:rich_soil_farmland', categories: ['dirt', 'farmland'], growthModifier: 0.15 },
-    { block: 'farmersdelight:rich_soil', categories: ['dirt', 'farmland'], growthModifier: 0.10 },
+    { block: 'farmersdelight:rich_soil', categories: ['dirt', 'farmland'], growthModifier: 0.15 },
     {
         block: 'farmingforblockheads:fertilized_farmland_healthy',
         categories: ['dirt', 'farmland'],
