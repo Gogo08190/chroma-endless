@@ -116,7 +116,8 @@ const honeyVarieties = [
     'resourcefulbees:unobtainium_honey',
     'resourcefulbees:allthemodium_honey',
     'resourcefulbees:soul_lava_honey',
-    'resourcefulbees:mystical_honey'   
+    'resourcefulbees:mystical_honey',
+    'resourcefulbees:chef_honey'
 
 ];
 
@@ -234,7 +235,8 @@ const combVariants = [
     'vibranium',
     'allthemodium',
     'unobtainium',
-    'mystical'
+    'mystical',
+    'chef'
 ];
 
 const bees = [];
