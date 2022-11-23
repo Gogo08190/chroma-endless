@@ -1852,5 +1852,22 @@
 				random_bonus: 5
 			}]
 		}
+		{
+			x: -9.0d
+			y: -10.5d
+			dependencies: ["6DBEEB8F8D3ABDCC"]
+			id: "337C3D6E2B8B3E8B"
+			tasks: [{
+				id: "37B126A442E7E108"
+				type: "item"
+				item: "resourcefulbees:chef_honey_bottle"
+			}]
+			rewards: [{
+				id: "6D8FA73E2ACE0BA6"
+				type: "item"
+				item: "resourcefulbees:chef_honey_bottle"
+				random_bonus: 5
+			}]
+		}
 	]
 }

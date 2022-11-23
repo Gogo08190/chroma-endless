@@ -1175,8 +1175,8 @@
 		}
 		{
 			title: "AbBee"
-			x: 7.2585034013605565d
-			y: -6.048299319727867d
+			x: 7.0d
+			y: -6.0d
 			shape: "hexagon"
 			subtitle: "Spawn in Overworld"
 			hide_dependency_lines: true
@@ -2671,8 +2671,8 @@
 		}
 		{
 			title: "Oreo Bee"
-			x: 8.008503401360556d
-			y: -6.048299319727867d
+			x: 7.75d
+			y: -6.0d
 			shape: "hexagon"
 			subtitle: "Spawn in Overworld"
 			hide_dependency_lines: true
@@ -2693,8 +2693,8 @@
 		}
 		{
 			title: "Occultist Bee"
-			x: 8.782312925170075d
-			y: -6.048299319727867d
+			x: 8.5d
+			y: -6.0d
 			shape: "hexagon"
 			hide_dependency_lines: true
 			dependencies: [
@@ -3671,6 +3671,24 @@
 				id: "7C405CD3BFF5BF4D"
 				type: "item"
 				item: "expandedstorage:old_diamond_chest"
+			}]
+		}
+		{
+			x: 9.25d
+			y: -6.0d
+			shape: "hexagon"
+			dependencies: ["5174E5B7DC17EF63"]
+			id: "6DBEEB8F8D3ABDCC"
+			tasks: [{
+				id: "537F8AF34E0E1930"
+				type: "item"
+				item: "resourcefulbees:chef_honeycomb"
+			}]
+			rewards: [{
+				id: "09B686AE6D3B94DA"
+				type: "item"
+				item: "create:bar_of_chocolate"
+				count: 2
 			}]
 		}
 	]
