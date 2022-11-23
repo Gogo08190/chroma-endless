@@ -1,5 +1,5 @@
 {
-  "flower": "minecraft:spawner",
+  "flower": "create_confectionery:chocolate_bricks",
   "lore": "Faire le lore",
   "loreColor": "#00AAAA",
   "hasHoneycomb": true,
@@ -21,7 +21,7 @@
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
 
-    "mainOutput": "create_confectionery:bar_of_black_chocolate",
+    "mainOutput": "create:bar_of_chocolate",
     "mainOutputWeight": 0.5,
     "mainOutputCount": 1,
 
