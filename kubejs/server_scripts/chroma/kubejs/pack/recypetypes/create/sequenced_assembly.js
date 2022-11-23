@@ -344,7 +344,38 @@ onEvent('recipes', (event) => {
                 },
             ],
             id: `${id_prefix}creative_slot_3`
-        }
+        },
+
+        //Chef bee
+        {
+            input: Item.of('resourcefulbees:bee_jar', { Entity: 'minecraft:bee' }).weakNBT().toJson(),
+            outputs: [Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:chef_bee' }).toJson()],
+            transitionalItem: 'kubejs:larve',
+            loops: 1,
+            sequence: [
+                {
+                    type: 'filling',
+                    input: ['kubejs:larve', Fluid.of('create_confectionery:white_chocolate', 1000)],
+                    output: 'kubejs:larve'
+                },
+                {
+                    type: 'filling',
+                    input: ['kubejs:larve', Fluid.of('create_confectionery:black_chocolate', 1000)],
+                    output: 'kubejs:larve'
+                },
+                {
+                    type: 'filling',
+                    input: ['kubejs:larve', Fluid.of('create_confectionery:hot_chocolate', 1000)],
+                    output: 'kubejs:larve'
+                },
+                {
+                    type: 'filling',
+                    input: ['kubejs:larve', Fluid.of('create_confectionery:ruby_chocolate', 1000)],
+                    output: 'kubejs:larve'
+                },
+            ],
+            id: `${id_prefix}chef_bee`
+        },
     ];
 
     recipes.forEach((recipe) => {
