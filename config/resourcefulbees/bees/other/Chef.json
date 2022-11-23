@@ -2,7 +2,7 @@
   "flower": "minecraft:spawner",
   "lore": "Faire le lore",
   "loreColor": "#00AAAA",
-  "hasHoneycomb": false,
+  "hasHoneycomb": true,
   "traits": [],
   "maxTimeInHive": 1200,
   "baseLayerTexture": "other/chef/chef",
@@ -19,40 +19,28 @@
     "attackDamage": 4
   },
   "CentrifugeData": {
-    "hasCentrifugeOutput": false
+    "hasCentrifugeOutput": true,
+
+    "mainOutput": "create_confectionery:bar_of_black_chocolate",
+    "mainOutputWeight": 0.5,
+    "mainOutputCount": 1,
+
+    "secondaryOutput": "create_confectionery:bar_of_ruby_chocolate",
+    "secondaryOutputWeight": 0.4,
+    "secondaryOutputCount": 1,
+
+    "bottleOutput": "resourcefulbees:chef_honey_bottle",
+    "bottleOutputWeight": 0.25,
+    "bottleOutputCount": 1,
+
+    "mainInputCount": 1
   },
   "MutationData": {
-    "hasMutation": true,
-    "mutationCount": 5,
-    "mutations": [
-      {
-        "type": "BLOCK_TO_BLOCK",
-        "inputID": "minecraft:cobblestone",
-        "outputs": [
-          {
-            "outputID": "minecraft:mossy_cobblestone",
-            "weight": 99
-          },
-          {
-            "outputID": "minecraft:chest",
-            "weight": 1,
-            "nbtData": {
-              "LootTable": "minecraft:chests/simple_dungeon"
-            }
-          }
-        ]
-      }
-    ]
+    "hasMutation": false
+
   },
   "SpawnData": {
-    "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:undergarden",
-    "biomeBlacklist": "tag:nether",
-    "spawnWeight": 5,
-    "minGroupSize": 1,
-    "maxGroupSize": 1,
-    "maxYLevel": 45,
-    "lightLevel": "NIGHT"
+    "canSpawnInWorld": false
   },
   "BreedData": {
     "isBreedable": false

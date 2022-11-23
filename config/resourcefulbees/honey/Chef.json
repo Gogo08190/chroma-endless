@@ -1,17 +1,23 @@
 {
   "name" : "chef",
-  "hunger": 4,
+  "hunger": 10,
   "honeyColor": "#e678b4",
-  "saturation": 3,
+  "saturation": 20,
   "isRainbow": false,
   "honeyBlockRecipe": true,
   "generateHoneyBlock": true,
       "effects": [
     {
-      "effectID": "minecraft:slow_falling",
+      "effectID": "minecraft:saturation",
       "duration": 2000,
-      "strength": 1,
+      "strength": 5,
       "chance": 1
-      }
+    },
+    {
+        "effectID": "minecraft:health_boost",
+        "duration": 2000,
+        "strength": 2,
+        "chance": 1
+    }
     ]
   }

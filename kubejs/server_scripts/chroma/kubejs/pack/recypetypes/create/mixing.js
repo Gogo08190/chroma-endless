@@ -129,6 +129,11 @@ onEvent('recipes', (event) => {
             inputs: [Item.of('#forge:plates/uranium', 4)],
             output: Item.of('immersiveengineering:sheetmetal_uranium', 1),
             id: `${id_prefix}sheetmetal_uranium`
+        },
+        {
+            inputs: [Fluid.of('create_confectionery:white_chocolate', 1000), Fluid.of('create_confectionery:black_chocolate', 1000), Fluid.of('create_confectionery:ruby_chocolate', 1000), Fluid.of('create_confectionery:hot_chocolate', 1000), Item.of('resourcefulbees:bee_jar', { Entity: 'minecraft:bee' }).weakNBT().toJson() 1)],
+            output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:chef_bee' }).toJson(), 1),
+            id: `${id_prefix}chef_bee`
         }
     ];
 
