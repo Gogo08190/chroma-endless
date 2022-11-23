@@ -14,7 +14,7 @@ if not exist .\%FORGE_VERSION%.jar (
     java -jar %FORGE_VERSION%-installer.jar --installServer
 )
 
-echo Starting Chroma Sky 2 Server
+echo Starting Endless Server
 java -jar -Xms%ALLOCATED_RAM% -Xmx%ALLOCATED_RAM% %JVM_ARGUMENTS% %FORGE_VERSION%.jar nogui
 
 pause

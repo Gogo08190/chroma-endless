@@ -1,5 +1,5 @@
 #!/bin/sh
-# Chroma Sky 2 Server Startup Script
+# Chroma Endless Server Startup Script
 
 # Edit the below values to change JVM Arguments or Allocated RAM for the server.
 ALLOCATED_RAM="7G"
