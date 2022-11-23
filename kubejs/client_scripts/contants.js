@@ -906,5 +906,6 @@ const craftedBees = [
     'unobtainium',
     'vibranium',
     'allthemodium',
-    'mystical'
+    'mystical',
+    'chef'
 ];
