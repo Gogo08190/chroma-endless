@@ -1,0 +1,63 @@
+{
+  "flower": "minecraft:spawner",
+  "lore": "Faire le lore",
+  "loreColor": "#00AAAA",
+  "hasHoneycomb": false,
+  "traits": [],
+  "maxTimeInHive": 1200,
+  "baseLayerTexture": "other/clay/chef",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#e678b4",
+    "modelType": "MUSHROOM"
+  },
+  "CombatData": {
+    "isPassive": false,
+    "removeStingerOnAttack": false,
+    "inflictsPoison": true,
+    "baseHealth": 20,
+    "attackDamage": 4
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": false
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationCount": 5,
+    "mutations": [
+      {
+        "type": "BLOCK_TO_BLOCK",
+        "inputID": "minecraft:cobblestone",
+        "outputs": [
+          {
+            "outputID": "minecraft:mossy_cobblestone",
+            "weight": 99
+          },
+          {
+            "outputID": "minecraft:chest",
+            "weight": 1,
+            "nbtData": {
+              "LootTable": "minecraft:chests/simple_dungeon"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:undergarden",
+    "biomeBlacklist": "tag:nether",
+    "spawnWeight": 5,
+    "minGroupSize": 1,
+    "maxGroupSize": 1,
+    "maxYLevel": 45,
+    "lightLevel": "NIGHT"
+  },
+  "BreedData": {
+    "isBreedable": false
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}
