@@ -48,13 +48,35 @@
 				type: "checkmark"
 				title: "Welcome to Chroma Endless!"
 			}]
-			rewards: [{
-				id: "57072D0E5FA37AEB"
-				type: "command"
-				auto: "invisible"
-				command: "/tellraw @p [\"\",{\"text\":\"Welcome to \"},{\"text\":\"Chroma Endless\",\"color\":\"aqua\"},{\"text\":\" @p, have a good time !\"}]"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "57072D0E5FA37AEB"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"Welcome to \"},{\"text\":\"Chroma Endless\",\"color\":\"aqua\"},{\"text\":\" @p, have a good time !\"}]"
+					player_command: false
+				}
+				{
+					id: "5B1F4F50FFA9D331"
+					type: "item"
+					item: "kubejs:gogo"
+				}
+				{
+					id: "747C15A6C8849A22"
+					type: "item"
+					item: "kubejs:koepss"
+				}
+				{
+					id: "42DA77371C297DF7"
+					type: "item"
+					item: "kubejs:noli"
+				}
+				{
+					id: "7BD7FF9268821F65"
+					type: "item"
+					item: "kubejs:charlux"
+				}
+			]
 		}
 		{
 			title: "Website"
