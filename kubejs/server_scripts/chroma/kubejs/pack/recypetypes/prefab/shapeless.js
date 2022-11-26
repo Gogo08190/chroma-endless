@@ -3,7 +3,7 @@ onEvent('recipes', (event) => {
         {
             output: 'prefab:block_compressed_stone',
             inputs: [
-                '9x minecraft:cobblestone'
+                '9x minecraft:stone
             ],
             id: 'prefab:compressed_stone'
         }
