@@ -104,6 +104,20 @@
 				type: "checkmark"
 				title: "Chroma's website"
 			}]
+			rewards: [{
+				id: "217C444986F1031C"
+				type: "command"
+				title: "Chroma Team's website"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "chroma:textures/quests/website.png"
+					}
+				}
+				command: "/tellraw @p [\"\",{\"text\":\"Chroma Team's website: \",\"color\":\"aqua\"},{\"text\":\"https://chromatech.fr/\",\"underlined\":true,\"color\":\"aqua\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://chromatech.fr/\"}}]"
+				player_command: false
+			}]
 		}
 		{
 			icon: {
@@ -319,6 +333,20 @@
 				id: "0D7199FC6BBA55C7"
 				type: "checkmark"
 				title: "Discord"
+			}]
+			rewards: [{
+				id: "771DB88B6ABFEA76"
+				type: "command"
+				title: "Gogo08's Discord server"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "chroma:textures/quests/discord.png"
+					}
+				}
+				command: "/tellraw @p [\"\",{\"text\":\"Gogo08's Discord server: \",\"color\":\"gray\"},{\"text\":\"https://discord.gg/cVEMguY\",\"underlined\":true,\"color\":\"gray\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/cVEMguY\"}}]"
+				player_command: false
 			}]
 		}
 		{
