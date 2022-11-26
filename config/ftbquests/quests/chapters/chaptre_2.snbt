@@ -435,8 +435,9 @@
 			x: -7.5d
 			y: -5.5d
 			description: [
-				"Seared Ingot ..."
-				"Seared Fuel ..."
+				"Seared Ingot Gauge is ideal for metals. It can hold 32 ingots of fluid (4.6 buckets)."
+				""
+				"Seared Fuel Gauge is basically the same as the Seared Fuel Tank. It can be used as Smeltery heart, and can hold 4 buckets."
 				""
 				"You have to use one of the two to craft the Seared Melter."
 				""
@@ -1139,8 +1140,9 @@
 			x: -4.75d
 			y: 10.75d
 			description: [
-				"Scorched Ingot ..."
-				"Scorched Fuel..."
+				"Scorched Ingot Gauge is ideal for metals. It can hold 32 ingots of fluid (4.6 buckets)."
+				""
+				"Scorched Fuel Gauge is basically the same as the Scorched Fuel Tank. It can be used as Foundry tank, and can hold 4 buckets."
 				""
 				"You have to use one of the two for crafting the Scorched Alloyer."
 				""
