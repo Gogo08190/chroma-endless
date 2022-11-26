@@ -60,6 +60,9 @@ const generatableStone = [
     'create:weathered_limestone',
     'create:limestone',
     'atmospheric:red_arid_sandstone',
-    'atmospheric:arid_sandstone'
+    'atmospheric:arid_sandstone',
+    'chisel:basalt/raw',
+    'chisel:limestone/raw',
+    'chisel:marble/raw'
 ];
 const generatableBasalt = [];
