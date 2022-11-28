@@ -221,7 +221,10 @@
 			x: -0.75d
 			y: -2.25d
 			shape: "gear"
-			dependencies: ["1C7C41C2FA427B8F"]
+			dependencies: [
+				"1C7C41C2FA427B8F"
+				"28709F340776730B"
+			]
 			id: "7C54F45255FD8996"
 			tasks: [{
 				id: "1359E3BFFAFC74AC"
@@ -549,7 +552,6 @@
 		{
 			x: 0.0d
 			y: -4.0d
-			dependencies: ["7C54F45255FD8996"]
 			id: "28709F340776730B"
 			tasks: [{
 				id: "52FFA03B7D1BD0DA"
