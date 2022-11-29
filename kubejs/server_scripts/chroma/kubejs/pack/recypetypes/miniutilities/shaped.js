@@ -300,6 +300,15 @@ onEvent('recipes', (event) => {
         E: '#forge:eggs'
       },
       id: 'miniutilities:magical_egg'
+    },
+    {
+      output: 'miniutilities:magical_egg',
+      pattern: ['BBB', 'BSB', 'BBB'],
+      key: {
+        B: '#forge:rods/blaze',
+        S: '#forge:seeds'
+      },
+      id: 'miniutilities:flame_lily_seeds_rcp'
     }
   ];
 
