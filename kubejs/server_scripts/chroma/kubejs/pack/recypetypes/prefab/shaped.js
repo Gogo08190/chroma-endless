@@ -129,6 +129,18 @@ onEvent('recipes', (event) => {
         },
 
         {
+            output: 'prefab:ender_gateway',
+            pattern: ['PEP', 'EBE', 'PSP'],
+            key: {
+                S: 'prefab:block_triple_compressed_stone',
+                P: 'minecraft:prismarine',
+                E: 'minecraft:end_stone',
+                B: 'betterendforge:eternal_crystal'
+            },
+            id: 'prefab:ender_gateway'
+        },
+
+        {
             output: 'prefab:item_town_hall',
             pattern: ['STS', 'CTC', 'DSD'],
             key: {
@@ -337,7 +349,7 @@ onEvent('recipes', (event) => {
                 E: 'minecraft:enchanting_table'
             },
             id: 'prefab:warehouse_upgrade'
-        },
+        }
      ];
 
 
