@@ -1683,6 +1683,18 @@ const cropRegistry = [
                 substrate: 'end_stone'
             },
             {
+                seed: 'miniutilities:ender_lily_seeds',
+                render: 'miniutilities:ender_lily_seeds',
+                plant: 'minecraft:ender_pearl',
+                substrate: 'end_stone'
+            },
+            {
+                seed: 'miniutilities:flame_lily_seeds',
+                render: 'miniutilities:flame_lily_seeds',
+                plant: 'miniutilities:flame_lily',
+                substrate: 'nether'
+            },
+            {
                 seed: 'byg:lament_sprouts',
                 render: 'byg:lament_sprouts',
                 plant: 'byg:lament_sprouts',
