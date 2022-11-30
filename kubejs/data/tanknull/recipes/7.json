@@ -1,0 +1,19 @@
+{
+  "type": "tanknull:upgrade",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "extendedcrafting:ender_star"
+    },
+    "B": {
+      "item": "tanknull:tank_6"
+    }
+  },
+  "result": {
+    "item": "tanknull:tank_7"
+  }
+}

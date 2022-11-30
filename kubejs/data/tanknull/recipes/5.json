@@ -1,0 +1,25 @@
+{
+  "type": "tanknull:upgrade",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:storage_blocks/drenched_iron"
+    },
+    "B": {
+      "tag": "forge:ingots/fireite"
+    },
+    "C": {
+      "tag": "forge:storage_blocks/swift_alloy"
+    },
+    "D": {
+      "item": "tanknull:tank_4"
+    }
+  },
+  "result": {
+    "item": "tanknull:tank_5"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "tanknull:upgrade",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "botanicalmachinery:mana_emerald_block"
+    },
+    "B": {
+      "item": "tanknull:tank_3"
+    }
+  },
+  "result": {
+    "item": "tanknull:tank_4"
+  }
+}

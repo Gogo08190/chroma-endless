@@ -1,0 +1,22 @@
+{
+  "type": "tanknull:upgrade",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:storage_blocks/electrum"
+    },
+    "B": {
+      "item": "thermal:upgrade_augment_2"
+    },
+    "C": {
+      "item": "tanknull:tank_2"
+    }
+  },
+  "result": {
+    "item": "tanknull:tank_3"
+  }
+}

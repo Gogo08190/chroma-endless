@@ -1,0 +1,22 @@
+{
+  "type": "tanknull:upgrade",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "thermal:hazmat_fabric"
+    },
+    "B": {
+      "item": "extendedcrafting:redstone_ingot_block"
+    },
+    "C": {
+      "item": "tanknull:tank_1"
+    }
+  },
+  "result": {
+    "item": "tanknull:tank_2"
+  }
+}

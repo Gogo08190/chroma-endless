@@ -1,0 +1,22 @@
+{
+  "type": "tanknull:upgrade",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "bigreactors:reinforced_reactorcasing"
+    },
+    "B": {
+      "item": "bigreactors:fluidizercasing"
+    },
+    "C": {
+      "item": "tanknull:tank_5"
+    }
+  },
+  "result": {
+    "item": "tanknull:tank_6"
+  }
+}
