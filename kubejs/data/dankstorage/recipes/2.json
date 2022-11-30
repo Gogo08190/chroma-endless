@@ -1,0 +1,22 @@
+{
+  "type": "dankstorage:upgrade",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "thermal:hazmat_fabric"
+    },
+    "B": {
+      "item": "extendedcrafting:redstone_ingot_block"
+    },
+    "C": {
+      "item": "dankstorage:dank_1"
+    }
+  },
+  "result": {
+    "item": "dankstorage:dank_2"
+  }
+}

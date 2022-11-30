@@ -1,0 +1,22 @@
+{
+  "type": "dankstorage:upgrade",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:storage_blocks/electrum"
+    },
+    "B": {
+      "item": "thermal:upgrade_augment_2"
+    },
+    "C": {
+      "item": "dankstorage:dank_2"
+    }
+  },
+  "result": {
+    "item": "dankstorage:dank_3"
+  }
+}

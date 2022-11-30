@@ -1,0 +1,22 @@
+{
+  "type": "dankstorage:upgrade",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "bigreactors:reinforced_reactorcasing"
+    },
+    "B": {
+      "item": "bigreactors:fluidizercasing"
+    },
+    "C": {
+      "item": "dankstorage:dank_5"
+    }
+  },
+  "result": {
+    "item": "dankstorage:dank_6"
+  }
+}

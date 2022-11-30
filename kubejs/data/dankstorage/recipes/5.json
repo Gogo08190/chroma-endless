@@ -1,0 +1,25 @@
+{
+  "type": "dankstorage:upgrade",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:storage_blocks/drenched_iron"
+    },
+    "B": {
+      "tag": "forge:ingots/fireite"
+    },
+    "C": {
+      "tag": "forge:storage_blocks/swift_alloy"
+    },
+    "D": {
+      "item": "dankstorage:dank_4"
+    }
+  },
+  "result": {
+    "item": "dankstorage:dank_5"
+  }
+}
