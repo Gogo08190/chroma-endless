@@ -1684,13 +1684,13 @@ const cropRegistry = [
             },
             {
                 seed: 'miniutilities:ender_lily_seeds',
-                render: 'miniutilities:ender_lily_seeds',
+                render: 'miniutilities:ender_lily_block',
                 plant: 'minecraft:ender_pearl',
                 substrate: 'end_stone'
             },
             {
                 seed: 'miniutilities:flame_lily_seeds',
-                render: 'miniutilities:flame_lily_seeds',
+                render: 'miniutilities:flame_lily_block',
                 plant: 'miniutilities:flame_lily',
                 substrate: 'nether'
             },
