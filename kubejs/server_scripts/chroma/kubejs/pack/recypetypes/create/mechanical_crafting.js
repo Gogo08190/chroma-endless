@@ -140,7 +140,7 @@ onEvent('recipes', (event) => {
             key: {
                 G: 'minecraft:grass',
                 C: 'minecraft:honeycomb_block',
-                B: 'minecraft:beehive'
+                B: '#forge:beehives/tier_0'
             },
             id: 'resourcefulbees:t1_hive_upgrade'
         },
