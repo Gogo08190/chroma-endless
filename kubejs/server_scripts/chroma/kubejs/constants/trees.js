@@ -936,6 +936,12 @@ const treeRegistry = [
                 substrate: 'dirt',
                 sap: 'thermal:resin',
                 rate: { living: 25, dead: 4 }
+            },
+            {
+                sapling: 'occultism:otherworld_sapling',
+                trunk: 'occultism:otherworld_log',
+                leaf: 'occultism:otherworld_leaves',
+                substrate: 'occultism',
             }
         ]
     },

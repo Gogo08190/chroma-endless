@@ -109,7 +109,8 @@ const soilRegistry = [
     },
     { block: 'atmospheric:arid_sand', categories: ['sand', 'arid_sand'], growthModifier: 0.0 },
     { block: 'atmospheric:red_arid_sand', categories: ['sand', 'arid_sand', 'red_arid_sand'], growthModifier: 0.0 },
-    { block: 'byg:imparius_phylium', categories: ['end_stone', 'mushroom', 'imparius_phylium'], growthModifier: 0.5 }
+    { block: 'byg:imparius_phylium', categories: ['end_stone', 'mushroom', 'imparius_phylium'], growthModifier: 0.5 },
+    { block: 'occultism:iesnium_block', categories: ['occultism'], growthModifier: 0.5 }
 ];
 
 let dirt_types = ['blood', 'earth', 'ender', 'sky'],
