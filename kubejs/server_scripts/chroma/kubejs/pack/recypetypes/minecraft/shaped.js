@@ -190,18 +190,6 @@ onEvent('recipes', (event) => {
           },
           id: 'minecraft:grindstone'
         },
-        //End-crystal
-        {
-          output: 'minecraft:end_crystal',
-          pattern: ['ABA', 'ACA', 'ADA'],
-          key: {
-            A: '#forge:glass',
-            B: 'minecraft:dragon_breath',
-            C: 'minecraft:ender_eye',
-            D: 'minecraft:ghast_tear'
-          },
-          id: 'minecraft:end_crystal'
-        },
         //Smithing Table
         {
           output: 'minecraft:smithing_table',
