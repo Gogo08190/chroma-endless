@@ -129,7 +129,7 @@ onEvent('recipes', (event) => {
         },
 
         {
-            output: 'prefab:ender_gateway',
+            output: 'prefab:item_ender_gateway',
             pattern: ['PEP', 'EBE', 'PSP'],
             key: {
                 S: 'prefab:block_triple_compressed_stone',
