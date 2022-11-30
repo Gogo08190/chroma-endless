@@ -6,7 +6,7 @@ onEvent('recipes', (event) => {
       		id: 'minecraft:flint_and_steel'
     	},
     	{
-	      	output: '4x minecraft:clay',
+	      	output: '4x minecraft:clay_ball',
       		inputs: ['#chroma:stonecuttables/clay'],
       		id: 'minecraft:clay_from_clay_block'
     	}
