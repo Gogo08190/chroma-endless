@@ -495,10 +495,7 @@
 				"Repeat the operation &n27 times&r, and create a &n3x3x3 structure&r with the &#422117Blast Brick&r."
 				"Now &nright click&r on the structure with an &6Engineer's Hammer&r (on the middle block) to form a &l&#422117Crude Blast Furnace&r."
 			]
-			dependencies: [
-				"34AB0AFA85B55B89"
-				"184D1F6FEC794C70"
-			]
+			dependencies: ["184D1F6FEC794C70"]
 			size: 2.75d
 			id: "70885C4B9975D97D"
 			tasks: [{
@@ -517,12 +514,11 @@
 			}]
 		}
 		{
-			x: -2.75d
-			y: 9.5d
+			x: 1.0d
+			y: 0.0d
 			shape: "octagon"
 			subtitle: "Everything you need to know is in there"
 			description: ["The &6Engineer's Manual&r is like an in-game wiki. Just right click with it in your hand and you will learn a lot about &oImmersive&r."]
-			hide_dependency_lines: true
 			dependencies: ["1E42C4D579CA5556"]
 			dependency_requirement: "all_started"
 			id: "34AB0AFA85B55B89"

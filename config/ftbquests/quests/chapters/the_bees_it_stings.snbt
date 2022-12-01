@@ -449,57 +449,6 @@
 			}]
 		}
 		{
-			x: -2.75d
-			y: 0.75d
-			subtitle: "128,000 mb"
-			dependencies: ["480BBEDD4C222E69"]
-			id: "1D74C1A48553742D"
-			tasks: [{
-				id: "028E72EB44A827F4"
-				type: "item"
-				item: "resourcefulbees:purpur_honey_tank"
-			}]
-			rewards: [{
-				id: "1B803F9B1D01A7DC"
-				type: "item"
-				item: "resourcefulbees:nether_honey_tank"
-			}]
-		}
-		{
-			x: -1.75d
-			y: 0.75d
-			subtitle: "32,000 mb"
-			dependencies: ["0D9A01E4A3636752"]
-			id: "480BBEDD4C222E69"
-			tasks: [{
-				id: "07844494744914A9"
-				type: "item"
-				item: "resourcefulbees:nether_honey_tank"
-			}]
-			rewards: [{
-				id: "0A02CB4C967790BC"
-				type: "item"
-				item: "resourcefulbees:wooden_honey_tank"
-			}]
-		}
-		{
-			x: -0.75d
-			y: 0.75d
-			subtitle: "8,000 mb"
-			dependencies: ["7C54F45255FD8996"]
-			id: "0D9A01E4A3636752"
-			tasks: [{
-				id: "5C2746CB3052DF10"
-				type: "item"
-				item: "resourcefulbees:wooden_honey_tank"
-			}]
-			rewards: [{
-				id: "10A3EE4D08E236C7"
-				type: "item"
-				item: "resourcefulbees:wooden_honey_tank"
-			}]
-		}
-		{
 			x: -4.25d
 			y: -6.5d
 			dependencies: ["28B19C23A8F8E8B3"]
@@ -1095,6 +1044,7 @@
 			x: 18.002721088435365d
 			y: -6.965986394557788d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: [
 				"5A07D9CF3FD9C816"
@@ -1117,6 +1067,7 @@
 			x: 13.042176870748392d
 			y: -5.527551020408133d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "6D17FF2CFD79A44D"
@@ -1137,6 +1088,7 @@
 			x: 8.184523809523796d
 			y: -1.404761904761898d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: [
 				"51512A9F63424E85"
@@ -1160,6 +1112,7 @@
 			x: 16.13129251700684d
 			y: -6.066326530612194d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: ["487D00E19338C817"]
 			id: "1524181F40000154"
@@ -1202,6 +1155,7 @@
 			x: 17.834353741496543d
 			y: -3.211224489795846d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: [
 				"6B6D7B4AA8FFDC17"
@@ -1225,6 +1179,7 @@
 			x: 15.35646258503398d
 			y: -6.0697278911564325d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: [
 				"7419F92850195AF6"
@@ -1405,6 +1360,7 @@
 			x: 16.49251700680273d
 			y: -6.971088435374121d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: [
 				"1C2488763CCCA93F"
@@ -1427,6 +1383,7 @@
 			x: 17.247619047619054d
 			y: -6.971088435374121d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: [
 				"050F2D70D0777FB3"
@@ -1494,6 +1451,7 @@
 			x: 13.009183673469408d
 			y: -6.442346938775501d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "3DB1DBE894C2FA8B"
@@ -1537,6 +1495,7 @@
 			x: 13.062585034013665d
 			y: -4.620748299319693d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: ["7515931B78C983B4"]
 			id: "7162685E96B5836D"
@@ -1557,6 +1516,7 @@
 			x: 8.19217687074837d
 			y: -4.119897959183632d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: ["10CF9A9C60204ABB"]
 			id: "5BC68FBD947AEB91"
@@ -1577,6 +1537,7 @@
 			x: 12.290476190476099d
 			y: -11.0d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: ["4FF742939987793B"]
 			id: "5AE479976404293E"
@@ -1708,6 +1669,7 @@
 			x: 13.82108843537425d
 			y: -0.7811224489795023d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: [
 				"70A9CA8A58DB8873"
@@ -1775,6 +1737,7 @@
 			x: 11.19285714285715d
 			y: 1.053741496598711d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: [
 				"6B6D7B4AA8FFDC17"
@@ -1798,6 +1761,7 @@
 			x: 13.045578231292609d
 			y: -0.7811224489795023d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: [
 				"239B5A55E70CD33C"
@@ -1821,6 +1785,7 @@
 			x: 14.405782312925112d
 			y: -2.394897959183602d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: ["42B4D74321A27197"]
 			id: "0DE49A94A38583BF"
@@ -1841,6 +1806,7 @@
 			x: 15.915986394557777d
 			y: -2.394897959183602d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: ["42B4D74321A27197"]
 			id: "7AD3A385444D5E7E"
@@ -1905,6 +1871,7 @@
 			x: 12.69285714285715d
 			y: 1.053741496598711d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: [
 				"4D0FEA96A6DFE6C9"
@@ -1929,6 +1896,7 @@
 			x: 8.187414965986363d
 			y: -2.3397959183673294d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: [
 				"448EA86687BE6A64"
@@ -1952,6 +1920,7 @@
 			x: 13.10340136054431d
 			y: -3.670918367346907d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: [
 				"33C16FAD439619C2"
@@ -2045,6 +2014,7 @@
 			x: 8.96292517006799d
 			y: -2.3397959183673294d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: [
 				"605C1A4203A832F0"
@@ -2111,6 +2081,7 @@
 			x: 17.432312925170052d
 			y: -2.3935374149658344d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: [
 				"5AE479976404293E"
@@ -2134,6 +2105,7 @@
 			x: 10.761904761904688d
 			y: -10.101360544217663d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: ["4FF742939987793B"]
 			id: "448EA86687BE6A64"
@@ -2240,6 +2212,7 @@
 			x: 10.759183673469394d
 			y: -5.549489795918355d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "6C4F7E8498D9A01C"
@@ -2280,6 +2253,7 @@
 			x: 11.53741496598633d
 			y: -10.121768707482964d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: ["4FF742939987793B"]
 			id: "5C0249E7EC12F8B1"
@@ -2320,6 +2294,7 @@
 			x: 13.040476190476099d
 			y: -11.0d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: ["4FF742939987793B"]
 			id: "6B6D7B4AA8FFDC17"
@@ -2384,6 +2359,7 @@
 			x: 11.509183673469394d
 			y: -5.549489795918355d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "087BAE46F4305FC8"
@@ -2469,6 +2445,7 @@
 			x: 11.494557823129341d
 			y: -0.7811224489795023d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: [
 				"1356E497437B716A"
@@ -2516,6 +2493,7 @@
 			x: 10.714285714285722d
 			y: 0.10850340136060055d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: [
 				"6B6D7B4AA8FFDC17"
@@ -2604,6 +2582,7 @@
 			x: 13.478571428571414d
 			y: 1.053741496598711d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: [
 				"1356E497437B716A"
@@ -2653,6 +2632,7 @@
 			x: 13.035374149659859d
 			y: -1.7071428571427631d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: [
 				"2BC1BD4FBA3C3EAC"
@@ -2698,6 +2678,7 @@
 			x: 8.5d
 			y: -6.0d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: [
 				"24058CE8785ACBF8"
@@ -2905,6 +2886,7 @@
 			x: 17.07925170068023d
 			y: -3.211224489795846d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: ["0A2D533F8AB68EEA"]
 			id: "5B7CB0F4DC76A848"
@@ -2925,6 +2907,7 @@
 			x: 11.48435374149659d
 			y: -1.7071428571427631d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: [
 				"348E5CA782AD3F4C"
@@ -2948,6 +2931,7 @@
 			x: 12.256802721088363d
 			y: -1.713265306122402d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: [
 				"4B62CECB7C22C581"
@@ -3038,6 +3022,7 @@
 			x: 9.738435374149631d
 			y: -2.3397959183673294d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: [
 				"33F152A85C0B28CD"
@@ -3061,6 +3046,7 @@
 			x: 13.051020408163211d
 			y: -8.344557823129229d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: ["589D4FAB92ACB60C"]
 			id: "51512A9F63424E85"
@@ -3080,6 +3066,7 @@
 			x: 7.265646258503381d
 			y: -7.846938775510182d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: [
 				"1356E497437B716A"
@@ -3147,6 +3134,7 @@
 			x: 11.509183673469408d
 			y: -6.442346938775501d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "6061CB6EADFDDAD8"
@@ -3216,6 +3204,7 @@
 			x: 8.934523809523796d
 			y: -1.404761904761898d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: [
 				"0760AEB4D4BB74C5"
@@ -3239,6 +3228,7 @@
 			x: 12.259183673469408d
 			y: -6.442346938775501d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "7272BBFF9AAC9CA7"
@@ -3259,6 +3249,7 @@
 			x: 16.90340136054425d
 			y: -6.051020408163211d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: ["1C2488763CCCA93F"]
 			id: "5300901FD4BA85DC"
@@ -3279,6 +3270,7 @@
 			x: 12.270068027210982d
 			y: -0.7811224489795023d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: [
 				"70A9CA8A58DB8873"
@@ -3304,6 +3296,7 @@
 			x: 17.658503401360562d
 			y: -6.051020408163211d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: ["5300901FD4BA85DC"]
 			id: "487D00E19338C817"
@@ -3324,6 +3317,7 @@
 			x: 11.94285714285715d
 			y: 1.053741496598711d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: [
 				"6DC436C371D0ECF2"
@@ -3369,6 +3363,7 @@
 			x: 10.779591836734681d
 			y: -4.630952380952365d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: ["6B6D7B4AA8FFDC17"]
 			id: "33F152A85C0B28CD"
@@ -3410,6 +3405,7 @@
 			x: 13.813265306122616d
 			y: -5.493707482993145d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "58D08C026677106B"
@@ -3517,6 +3513,7 @@
 			x: 7.434523809523796d
 			y: -1.404761904761898d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: [
 				"1A6EA32BFBE0BAAE"
@@ -3540,6 +3537,7 @@
 			x: 15.160884353741451d
 			y: -2.394897959183602d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: ["42B4D74321A27197"]
 			id: "6AE60E6312DF4B23"
@@ -3560,6 +3558,7 @@
 			x: 11.552380952381014d
 			y: -4.620748299319693d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			hide_dependency_lines: true
 			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "42419E07F45208E2"
@@ -3679,6 +3678,7 @@
 			x: 9.25d
 			y: -6.0d
 			shape: "hexagon"
+			subtitle: "Look the &4Jar&r recipe"
 			dependencies: ["5174E5B7DC17EF63"]
 			id: "6DBEEB8F8D3ABDCC"
 			tasks: [{
