@@ -110,18 +110,11 @@
 			dependencies: ["3EE564D2D7642605"]
 			min_width: 266
 			id: "5C545750FEB2314B"
-			tasks: [
-				{
-					id: "2BBB678D2A3FD881"
-					type: "item"
-					item: "create:mechanical_mixer"
-				}
-				{
-					id: "47DEB12186DB3642"
-					type: "item"
-					item: "create:whisk"
-				}
-			]
+			tasks: [{
+				id: "2BBB678D2A3FD881"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
 			rewards: [{
 				id: "25DD76FC8A3EA4B0"
 				type: "item"
@@ -146,18 +139,11 @@
 			]
 			dependencies: ["5FAB66FE3921DAF1"]
 			id: "2F7EB9DBC6CE7522"
-			tasks: [
-				{
-					id: "43246AA9DFBF2706"
-					type: "item"
-					item: "create:deployer"
-				}
-				{
-					id: "584A157A6909BB11"
-					type: "item"
-					item: "create:brass_hand"
-				}
-			]
+			tasks: [{
+				id: "43246AA9DFBF2706"
+				type: "item"
+				item: "create:deployer"
+			}]
 			rewards: [{
 				id: "02ADA7A586FB141A"
 				type: "item"
@@ -786,7 +772,7 @@
 		{
 			icon: "create:blaze_cake"
 			x: 27.5d
-			y: 33.0d
+			y: 34.5d
 			subtitle: "Blaze Cake is an item that can be fed to a Blaze Burner in order to make it Super-Heated"
 			description: [
 				"Blaze Cake can be used to feed the Blaze Burner, making it Super-Heated for 50 seconds. It then turns into standard a blaze, lasting for 205 seconds."
@@ -796,8 +782,8 @@
 				"Finally, the Blaze becomes smouldering, and does not provide any heat to the basin."
 			]
 			dependencies: [
-				"410AC414B2B492D1"
 				"0A2AC8B884DB6A51"
+				"2035F6C5153C3D90"
 			]
 			id: "6636AF496628B7DA"
 			tasks: [
@@ -838,10 +824,10 @@
 		{
 			icon: "create:blaze_burner"
 			x: 27.5d
-			y: 34.5d
+			y: 33.0d
 			subtitle: "A Blaze Burner is a heating component that is required for certain Mixing recipes"
 			description: ["Blaze Burners must have Blazes in them to function. To put a Blaze in an Empty Blaze Burner, right-click on a Blaze to capture it. Alternatively, Empty Blaze Burner can be filled by clicking on a Blaze Spawner."]
-			dependencies: ["6636AF496628B7DA"]
+			dependencies: ["410AC414B2B492D1"]
 			id: "2035F6C5153C3D90"
 			tasks: [
 				{
@@ -1438,7 +1424,7 @@
 		{
 			x: 26.75d
 			y: 35.25d
-			dependencies: ["2035F6C5153C3D90"]
+			dependencies: ["6636AF496628B7DA"]
 			id: "2A0681422D07EFB2"
 			tasks: [{
 				id: "0992F4FB21DE9141"
