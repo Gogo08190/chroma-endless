@@ -42,13 +42,13 @@ onEvent('recipes', (event) => {
                   }
                 },
                 catalysts: [
-                    { index: 0, item: 'betterendforge:aurora_crystal' },
+                    { index: 0, item: 'betterendforge:eternal_crystal' },
                     { index: 1, tag: 'forge:storage_blocks/thallasium' },
-                    { index: 2, item: 'betterendforge:aurora_crystal' },
+                    { index: 2, item: 'betterendforge:eternal_crystal' },
                     { index: 3, tag: 'forge:storage_blocks/thallasium' },
-                    { index: 4, item: 'betterendforge:aurora_crystal' },
+                    { index: 4, item: 'betterendforge:eternal_crystal' },
                     { index: 5, tag: 'forge:storage_blocks/thallasium' },
-                    { index: 6, item: 'betterendforge:aurora_crystal' },
+                    { index: 6, item: 'betterendforge:eternal_crystal' },
                     { index: 7, tag: 'forge:storage_blocks/thallasium' }
                 ],
                 time: 250,
