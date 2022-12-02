@@ -17,7 +17,7 @@
   ],
   "auraRange": 20,
   "baseLayerTexture": "ores/custom_crystal/custom_bee_primary",
-  "lore" : "Glass Prebby. Through Bee Breeding, this bee will produce Obsidian",
+  "lore" : "Glass Prebby. Through Bee Breeding, this bee will produce RGB Shards",
   "traits" : ["healer"],
   "ColorData": {
     "isBeeColored": true,
