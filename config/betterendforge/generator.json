@@ -6,7 +6,7 @@
   },
   "portal": {
     "hasPortal [default: true]": true,
-    "customEndPortal [default: true]": true
+    "customEndPortal [default: true]": false
   },
   "spikes": {
     "hasSpikes [default: true]": true,
