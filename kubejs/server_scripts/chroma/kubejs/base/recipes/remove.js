@@ -19,7 +19,6 @@ onEvent('recipes', (event) => {
     event.remove({ type: 'thermal:tree_extractor' });
 
     event.remove({ mod: 'theoneprobe' });
-    event.remove({ output: Item.of('minecraft:enchanted_book').enchant('projectexpansion:alchemical_collection', 1) });
 
     event.remove({ type: 'thermal:compression_fuel' });
 
