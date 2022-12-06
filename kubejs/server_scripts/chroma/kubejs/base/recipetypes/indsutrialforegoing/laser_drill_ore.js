@@ -603,6 +603,27 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}iron`
         },
         {
+            output: { item: 'elementalcraft:crystalore' },
+            rarity: [
+                {
+                    whitelist: {},
+                    blacklist: endBiomes,
+                    depth_min: 5,
+                    depth_max: 80,
+                    weight: 10
+                },
+                {
+                    whitelist: {},
+                    blacklist: endBiomes,
+                    depth_min: 0,
+                    depth_max: 255,
+                    weight: 2
+                }
+            ],
+            catalyst: { item: industrialforegoing.laser_lens.light_gray },
+            id: `${id_prefix}crystalore`
+        },
+        {
             output: { tag: 'forge:chunks/osmium' },
             rarity: [
                 {

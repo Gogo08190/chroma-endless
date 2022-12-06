@@ -165,6 +165,11 @@ onEvent('recipes', (event) => {
             output: 'allthemodium:unobtainium_nugget',
             weight: 100,
             id: `${id_prefix}unobtainium_nugget`
+        },
+        {
+            output: 'elementalcraft:crystalore',
+            weight: 250,
+            id: `${id_prefix}crystalore`
         }
     ];
 
