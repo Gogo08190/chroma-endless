@@ -44,6 +44,12 @@
               "type": "BLOCK",
               "inputID": "create:granite_cobblestone",
               "outputs": [{ "outputID": "emendatusenigmatica:diamond_granite_ore", "weight": 10 }]
+          },
+          {
+            "type": "BLOCK",
+            "chance": 0.5,
+            "inputID": "quark:myalite",
+            "outputs": [{ "outputID": "betterendforge:aurora_crystal", "weight": 40 }]
           }
       ]
   },
