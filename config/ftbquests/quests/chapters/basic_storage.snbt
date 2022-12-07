@@ -1485,64 +1485,9 @@
 			}]
 		}
 		{
-			title: "Craft Backpack"
-			icon: {
-				id: "sophisticatedbackpacks:backpack"
-				Count: 1b
-				tag: {
-					spiritName: "Merclod"
-				}
-			}
-			x: 26.75d
-			y: -6.5d
-			description: ["Your first backpack will be made with an occultism ritual !"]
-			hide_dependency_lines: true
-			dependencies: [
-				"4DA463AF4ABD0CA4"
-				"4E8AB0EA5262EB30"
-				"4F10A1E05CEBFE1A"
-				"11EA6BD16C6054B4"
-				"1503BC3C224011DC"
-				"35E72B10F36B7261"
-				"281F853004D0032C"
-				"414FB84D8E12D770"
-			]
-			id: "74563AAF98B15559"
-			tasks: [
-				{
-					id: "70A44E893A1B3935"
-					type: "item"
-					item: "immersiveengineering:hemp_fabric"
-					count: 3L
-				}
-				{
-					id: "344849B48E70F01D"
-					type: "item"
-					item: "quark:bonded_leather"
-					count: 4L
-				}
-				{
-					id: "793528C66552F2A4"
-					type: "item"
-					item: "immersiveengineering:crate"
-				}
-				{
-					id: "725ACEF0BBB72618"
-					type: "item"
-					item: "kubejs:sac"
-				}
-			]
-			rewards: [{
-				id: "5275BFBB75D54662"
-				type: "random"
-				table_id: 3261296973996135385L
-			}]
-		}
-		{
 			x: 26.75d
 			y: -4.5d
 			shape: "octagon"
-			dependencies: ["74563AAF98B15559"]
 			id: "0AEEFBEE80CD7377"
 			tasks: [{
 				id: "2CCA15422D20576A"

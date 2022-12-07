@@ -1184,7 +1184,7 @@
 				""
 				"Multiple blocks can be pushed with the use of Linear Chassis, Radial Chassis, or Super Glue. Such structures function similarly to rotating structures and minecart contraptions."
 			]
-			dependencies: ["23F1D63DE3B8F27E"]
+			dependencies: ["15267232FEECB502"]
 			id: "20AF8421A5B4B414"
 			tasks: [
 				{
@@ -1212,7 +1212,7 @@
 		{
 			x: 19.5d
 			y: 37.25d
-			dependencies: ["23F1D63DE3B8F27E"]
+			dependencies: ["15267232FEECB502"]
 			id: "494A7A9323593162"
 			tasks: [{
 				id: "4EFAE1B168E4BDD0"
@@ -1236,7 +1236,7 @@
 				""
 				"The structure's behavior when ceasing movement can be adjusted with a Wrench. It can be changed to place the blocks: always, only near the initial angle, or never."
 			]
-			dependencies: ["23F1D63DE3B8F27E"]
+			dependencies: ["15267232FEECB502"]
 			id: "01EBB3BA360F7E81"
 			tasks: [{
 				id: "3A4A271085A3D490"
@@ -1258,7 +1258,7 @@
 				""
 				"Use Linear Chassis, Radial Chassis, or Super Glue to push more blocks."
 			]
-			dependencies: ["23F1D63DE3B8F27E"]
+			dependencies: ["15267232FEECB502"]
 			id: "747CCE1344E5A567"
 			tasks: [{
 				id: "335CD5CEB6FC763F"
@@ -1282,7 +1282,7 @@
 			y: 37.25d
 			subtitle: "Cart Assembler can attach a structure to carts that pass through it when supplied with a redstone signal"
 			description: ["Using a Wrench, the Cart Assembler can be configured to set the movement of cart contraptions to \"Always face toward motion (default,)\" \"Pause actors while rotating,\" and \"Lock Rotation.\" On the second setting, actors such as a Deployer will not work while the cart rotates. On the third setting, the contraption will not change alignment along with the cart, and will retain the same rotation from when it was built, much like the effect of a Mechanical Bearing on a cart contraption."]
-			dependencies: ["23F1D63DE3B8F27E"]
+			dependencies: ["15267232FEECB502"]
 			id: "1A4E5F4D3B0997C1"
 			tasks: [{
 				id: "740F7B90F4A20DF5"
@@ -1302,18 +1302,11 @@
 			y: 37.25d
 			dependencies: ["4025E313ECC4D6BD"]
 			id: "23F1D63DE3B8F27E"
-			tasks: [
-				{
-					id: "7B66990CFC35EDB1"
-					type: "item"
-					item: "create:linear_chassis"
-				}
-				{
-					id: "4FB12A1B12A65396"
-					type: "item"
-					item: "create:secondary_linear_chassis"
-				}
-			]
+			tasks: [{
+				id: "7B66990CFC35EDB1"
+				type: "item"
+				item: "create:linear_chassis"
+			}]
 			rewards: [{
 				id: "1CE2C8FD9134A0FA"
 				type: "item"
@@ -1324,13 +1317,7 @@
 		{
 			x: 19.0d
 			y: 39.5d
-			dependencies: [
-				"1A4E5F4D3B0997C1"
-				"01EBB3BA360F7E81"
-				"747CCE1344E5A567"
-				"20AF8421A5B4B414"
-				"494A7A9323593162"
-			]
+			dependencies: ["15267232FEECB502"]
 			id: "40273A60D45881D8"
 			tasks: [{
 				id: "60FD4B02054831EA"
@@ -1346,13 +1333,7 @@
 		{
 			x: 16.25d
 			y: 39.5d
-			dependencies: [
-				"1A4E5F4D3B0997C1"
-				"01EBB3BA360F7E81"
-				"747CCE1344E5A567"
-				"20AF8421A5B4B414"
-				"494A7A9323593162"
-			]
+			dependencies: ["15267232FEECB502"]
 			id: "79075B969CB17460"
 			tasks: [{
 				id: "67E8CB94E1AC290F"
@@ -1530,7 +1511,7 @@
 				""
 				"Shift-right-clicking on a Mechanical Drill with a Wrench will destroy the Mechanical Drill and place it in your inventory."
 			]
-			dependencies: ["23F1D63DE3B8F27E"]
+			dependencies: ["15267232FEECB502"]
 			min_width: 300
 			id: "3423033CABE58D68"
 			tasks: [{
@@ -1550,7 +1531,7 @@
 			y: 38.5d
 			subtitle: "The Mechanical Plough is a component used to break non-collidable blocks"
 			description: ["While attached to a moving structure, the Mechanical Plough will break non-collidable blocks it comes in contact with (ex. snow layers). The Mechanical Plough will also move entities and till soil blocks."]
-			dependencies: ["23F1D63DE3B8F27E"]
+			dependencies: ["15267232FEECB502"]
 			id: "58D327056F7FDDCC"
 			tasks: [{
 				id: "172B8AA6D89C89AD"
@@ -1574,7 +1555,7 @@
 				""
 				"Mechanical saws are automatically powered when on a create contraption (cart, piston, pulley, ext.). You can mine a saw with either an axe or a pickaxe."
 			]
-			dependencies: ["23F1D63DE3B8F27E"]
+			dependencies: ["15267232FEECB502"]
 			id: "5C95DD67E0594C5A"
 			tasks: [{
 				id: "5BCD0A9C8504344C"
@@ -1597,7 +1578,7 @@
 				""
 				"Unlike most components, the Mechanical Harvester cannot be powered while stationary. This is likely due to the fact that in order for the Harvester to work, it must be within the same block as the mature crop to harvest, which could not happen with a stationary component."
 			]
-			dependencies: ["23F1D63DE3B8F27E"]
+			dependencies: ["15267232FEECB502"]
 			id: "0BB0CA66F51CF240"
 			tasks: [{
 				id: "1C0C646FE8DA5986"
