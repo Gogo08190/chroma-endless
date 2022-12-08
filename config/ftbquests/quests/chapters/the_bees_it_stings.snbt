@@ -943,7 +943,10 @@
 			x: -4.25d
 			y: -11.75d
 			hide_dependency_lines: true
-			dependencies: ["2FCCDB009DE142DA"]
+			dependencies: [
+				"2FCCDB009DE142DA"
+				"5F7FB82489504D73"
+			]
 			id: "191848C1A5D159D5"
 			tasks: [{
 				id: "65651D036DFE9A10"

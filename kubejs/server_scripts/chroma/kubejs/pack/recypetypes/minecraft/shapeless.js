@@ -13,7 +13,7 @@ onEvent('recipes', (event) => {
       {
           output: 'akashictome:tome',
           inputs: ['minecraft:stick', 'minecraft:book'],
-          id: 'minecraft:clay_from_clay_block'
+          id: 'akashictome:tome_rcp'
       }
   	];
 

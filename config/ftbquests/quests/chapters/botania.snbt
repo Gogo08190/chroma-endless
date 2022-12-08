@@ -930,6 +930,14 @@
 		{
 			x: 4.25d
 			y: 0.0d
+			description: [
+				"To build the Terrestrial Agglomeration plate you need :"
+				"- 1 Terrestrial Agglomeration Plate"
+				"- 4 Lapis Lazuli Blocks"
+				"- 5 Livingrocks"
+				""
+				"{image:chroma:textures/quests/terrestial_agglomeration_plate.png width:200 height:150 align:1}"
+			]
 			dependencies: [
 				"1550578CA13D8BF5"
 				"716178CB7E9006EE"
