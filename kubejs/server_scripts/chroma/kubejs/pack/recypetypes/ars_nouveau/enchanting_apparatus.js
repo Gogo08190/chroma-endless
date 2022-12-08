@@ -91,10 +91,10 @@ onEvent('recipes', (event) => {
       {
           inputs: [
             'arsarsenal:source_steel_ingot',
-            '#forge:storage_blocks/arcane',
+            '#forge:storage_blocks/mana',
             'arsarsenal:source_steel_ingot',
-            '#forge:storage_blocks/arcane',
-            '#forge:storage_blocks/arcane',
+            '#forge:storage_blocks/mana',
+            '#forge:storage_blocks/mana',
             'arsarsenal:source_steel_ingot',
             '#forge:storage_blocks/netherite',
             'arsarsenal:source_steel_ingot'
