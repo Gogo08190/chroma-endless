@@ -9,13 +9,13 @@ onEvent('recipes', (event) => {
         },
         {
             input: 'minecraft:iron_ingot',
-            fluid: Fluid.of('tconstruct:molten_ender', 300),
+            fluid: Fluid.of('tconstruct:molten_ender', 250),
             output: 'extendedcrafting:ender_ingot',
             id: 'extendedcrafting:ender_ingot'
         },
         {
             input: 'minecraft:iron_ingot',
-            fluid: Fluid.of('thermal:redstone', 250),
+            fluid: Fluid.of('thermal:redstone', 200),
             output: 'extendedcrafting:redstone_ingot',
             id: 'extendedcrafting:redstone_ingot'
         },
