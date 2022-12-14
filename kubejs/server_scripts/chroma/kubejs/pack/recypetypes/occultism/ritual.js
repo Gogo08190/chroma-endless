@@ -384,6 +384,60 @@ onEvent('recipes', (event) => {
             ],
             result: 'kubejs:alphaneck',
             id: `${id_prefix}alphaneck`
+        },
+        {
+            ritual_type: 'occultism:craft_with_spirit_name',
+            activation_item: 'refinedstorage:grid',
+            pentacle_id: 'occultism:craft_marid',
+            duration: 200,
+            ritual_dummy: 'refinedstorage:crafting_grid',
+            ingredients: [
+                'refinedstorage:advanced_processor',
+                'create:mechanical_crafter',
+                'create:mechanical_crafter',
+                'create:mechanical_crafter',
+                'create:mechanical_crafter',
+                'kubejs:netherite_transistor',
+                'kubejs:uranium_capacitor',
+            ],
+            result: 'refinedstorage:crafting_grid',
+            id: 'refinedstorage:crafting_grid/crafting_grid'
+        },
+        {
+            ritual_type: 'occultism:craft_with_spirit_name',
+            activation_item: 'refinedstorage:grid',
+            pentacle_id: 'occultism:craft_marid',
+            duration: 200,
+            ritual_dummy: 'refinedstorage:pattern_grid',
+            ingredients: [
+                'refinedstorage:advanced_processor',
+                'refinedstorage:pattern',
+                'refinedstorage:pattern',
+                'refinedstorage:pattern',
+                'refinedstorage:pattern',
+                'kubejs:netherite_transistor',
+                'kubejs:uranium_capacitor',
+            ],
+            result: 'refinedstorage:pattern_grid',
+            id: 'refinedstorage:pattern_grid/pattern_grid'
+        },
+        {
+            ritual_type: 'occultism:craft_with_spirit_name',
+            activation_item: 'refinedstorage:grid',
+            pentacle_id: 'occultism:craft_marid',
+            duration: 200,
+            ritual_dummy: 'refinedstorage:fluid_grid',
+            ingredients: [
+                'refinedstorage:advanced_processor',
+                'pneumaticcraft:small_tank',
+                'pneumaticcraft:small_tank',
+                'pneumaticcraft:small_tank',
+                'pneumaticcraft:small_tank',
+                'kubejs:netherite_transistor',
+                'kubejs:uranium_capacitor',
+            ],
+            result: 'refinedstorage:fluid_grid',
+            id: 'refinedstorage:fluid_grid/fluid_grid'
         }
     ];
 

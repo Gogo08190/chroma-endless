@@ -89,42 +89,6 @@ onEvent('recipes', (event) => {
             id: 'rftoolspower:power_core3'
         },
         {
-            outputs: [{ type: 'masterfulmachinery:items', data: { item: 'refinedstorage:crafting_grid', count: 1 } }],
-            inputs: [
-                { consumeInstantly: true, type: 'masterfulmachinery:items', data: { item: 'refinedstorage:advanced_processor', count: 1 } },
-                { consumeInstantly: true, type: 'masterfulmachinery:items', data: { item: 'refinedstorage:grid', count: 1 } },
-                { consumeInstantly: true, type: 'masterfulmachinery:items', data: { item: 'create:mechanical_crafter', count: 4 } },
-                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 400 } },
-                { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
-            ],
-            ticks: 240,
-            id: 'refinedstorage:crafting_grid/crafting_grid'
-        },
-        {
-            outputs: [{ type: 'masterfulmachinery:items', data: { item: 'refinedstorage:pattern_grid', count: 1 } }],
-            inputs: [
-                { consumeInstantly: true, type: 'masterfulmachinery:items', data: { item: 'refinedstorage:advanced_processor', count: 1 } },
-                { consumeInstantly: true, type: 'masterfulmachinery:items', data: { item: 'refinedstorage:grid', count: 1 } },
-                { consumeInstantly: true, type: 'masterfulmachinery:items', data: { item: 'refinedstorage:pattern', count: 4 } },
-                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 400 } },
-                { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
-            ],
-            ticks: 240,
-            id:  'refinedstorage:pattern_grid/pattern_grid'
-        },
-        {
-            outputs: [{ type: 'masterfulmachinery:items', data: { item: 'refinedstorage:fluid_grid', count: 1 } }],
-            inputs: [
-                { consumeInstantly: true, type: 'masterfulmachinery:items', data: { item: 'refinedstorage:advanced_processor', count: 1 } },
-                { consumeInstantly: true, type: 'masterfulmachinery:items', data: { item: 'refinedstorage:grid', count: 1 } },
-                { consumeInstantly: true, type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:small_tank', count: 4 } },
-                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 400 } },
-                { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
-            ],
-            ticks: 240,
-            id:  'refinedstorage:fluid_grid/fluid_grid'
-        },
-        {
             outputs: [{ type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:basic_component', count: 1 } }],
             inputs: [
                 { consumeInstantly: true, type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_slate', count: 1 } },
