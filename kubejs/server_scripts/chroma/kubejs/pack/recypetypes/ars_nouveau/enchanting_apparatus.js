@@ -20,14 +20,14 @@ onEvent('recipes', (event) => {
       // Pedestal Upgrade Base
       {
           inputs: [
-              Item.of('elementalcraft:element_holder_water', '{Damage:0,element_amount:10000}').weakNBT(),
-              Item.of('elementalcraft:element_holder_fire', '{Damage:0,element_amount:10000}').weakNBT(),
-              Item.of('elementalcraft:element_holder_water', '{Damage:0,element_amount:10000}').weakNBT(),
-              Item.of('elementalcraft:element_holder_fire', '{Damage:0,element_amount:10000}').weakNBT(),
-              Item.of('elementalcraft:element_holder_fire', '{Damage:0,element_amount:10000}').weakNBT(),
-              Item.of('elementalcraft:element_holder_water', '{Damage:0,element_amount:10000}').weakNBT(),
-              Item.of('elementalcraft:element_holder_fire', '{Damage:0,element_amount:10000}').weakNBT(),
-              Item.of('elementalcraft:element_holder_water', '{Damage:0,element_amount:10000}').weakNBT()
+              'elementalcraft:pristine_water_gem',
+              'elementalcraft:pristine_fire_gem',
+              'elementalcraft:pristine_water_gem',
+              'elementalcraft:pristine_fire_gem',
+              'elementalcraft:pristine_fire_gem',
+              'elementalcraft:pristine_water_gem',
+              'elementalcraft:pristine_fire_gem',
+              'elementalcraft:pristine_water_gem'
           ],
           reagent: 'pedestals:coin/default',
           sourceCost: 5000,
