@@ -10,14 +10,6 @@ onEvent('recipes', (event) => {
         { output: Item.of('betterendforge:thallasium_nugget', 9), inputs: ['#forge:ingots/thallasium'] },
         { output: Item.of('betterendforge:terminite_nugget', 9), inputs: ['#forge:ingots/terminite'] },
         {
-            output: 'simplefarming:fish_sandwich',
-            inputs: [
-                '#forge:bread',
-                '#forge:crops/tomato',
-                '#forge:salad_ingredients'
-            ]
-        },
-        {
             output: 'simplefarming:blt',
             inputs: [
                 '#forge:bread',
@@ -27,13 +19,6 @@ onEvent('recipes', (event) => {
                 '#forge:crops/tomato'
             ],
             id: 'simplefarming:blt'
-        },
-        {
-            output: 'simplefarming:sushi',
-            inputs: [
-                '#forge:grain',
-                'minecraft:dried_kelp'
-            ]
         },
         {
             output: 'simplefarming:fish_fillet',
