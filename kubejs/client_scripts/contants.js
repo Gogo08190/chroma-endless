@@ -239,6 +239,8 @@ const itemsToHide = [
 
     'mekanism:fluorite_gem',
 
+    'buildersaddition:iron_rod',
+
     // Deprecated Pedestals Items
     'pedestals:coin/fmagnetmodb',
     'pedestals:coin/fmagnetmod',
