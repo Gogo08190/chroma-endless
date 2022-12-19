@@ -368,6 +368,87 @@ onEvent('recipes', (event) => {
             D: 'rftoolsbase:infused_diamond'
           },
           id: `${id_prefex}heart_of_the_sea`
+        },
+        {
+          output: Item.of('betterendforge:amber_moss', 8),
+          pattern: ['AAA', 'AEA', 'AAA'],
+          key: {
+            A: 'minecraft:yellow_dye',
+            E: 'minecraft:end_stone'
+          },
+          id: `${id_prefex}amber_moss`
+        },
+        {
+          output: Item.of('betterendforge:pink_moss', 8),
+          pattern: ['PPP', 'PEP', 'PPP'],
+          key: {
+            P: 'minecraft:pink_dye',
+            E: 'minecraft:end_stone'
+          },
+          id: `${id_prefex}pink_moss`
+        },
+        {
+          output: Item.of('betterendforge:crystal_moss', 8),
+          pattern: ['CCC', 'CEC', 'CCC'],
+          key: {
+            E: 'minecraft:end_stone',
+            C: 'minecraft:light_blue_dye'
+          },
+          id: `${id_prefex}crystal_moss`
+        },
+        {
+          output: Item.of('betterendforge:end_moss', 8),
+          pattern: ['MMM', 'MEM', 'MMM'],
+          key: {
+            M: 'minecraft:blue_dye',
+            E: 'minecraft:end_stone'
+          },
+          id: `${id_prefex}end_moss`
+        },
+        {
+          output: Item.of('betterendforge:chorus_nylium', 8),
+          pattern: ['CCC', 'CEC', 'CCC'],
+          key: {
+            C: 'minecraft:purple_dye',
+            E: 'minecraft:end_stone'
+          },
+          id: `${id_prefex}chorus_nylium`
+        },
+        {
+          output: Item.of('betterendforge:shadow_grass', 8),
+          pattern: ['OOO', 'OEO', 'OOO'],
+          key: {
+            O: 'minecraft:black_dye',
+            E: 'minecraft:end_stone'
+          },
+          id: `${id_prefex}shadow_grass`
+        },
+        {
+          output: Item.of('betterendforge:jungle_moss', 8),
+          pattern: ['MMM', 'MEM', 'MMM'],
+          key: {
+            M: 'minecraft:cyan_dye',
+            E: 'minecraft:end_stone'
+          },
+          id: `${id_prefex}jungle_moss`
+        },
+        {
+          output: Item.of('betterendforge:rutiscus', 8),
+          pattern: ['OOO', 'OEO', 'OOO'],
+          key: {
+            O: 'minecraft:orange_dye',
+            E: 'minecraft:end_stone'
+          },
+          id: `${id_prefex}rutiscus`
+        },
+        {
+          output: Item.of('betterendforge:sangnum', 8),
+          pattern: ['OOO', 'OEO', 'OOO'],
+          key: {
+            O: 'minecraft:red_dye',
+            E: 'minecraft:end_stone'
+          },
+          id: `${id_prefex}sangnum`
         }
     ];
 

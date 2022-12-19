@@ -123,6 +123,14 @@ onEvent('recipes', (event) => {
       catalyst: 'botania:conjuration_catalyst',
       id: `${id_prefix}xerothium_powder`
 
+    },
+    {
+      input: 'projectvibrantjourneys:orange_maple_sapling',
+      output: 'betterendforge:lucernia_sapling',
+      count: 1,
+      mana: 200,
+      id: `${id_prefix}lucernia_sapling`
+
     }
 
   ];
