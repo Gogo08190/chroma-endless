@@ -1,6 +1,6 @@
 const moddedTools = [
   Ingredient.of(/prefab:item_swift_blade_(wood|stone|iron|gold|diamond|netherite|copper|osmium|bronze|steel|obsidian)/),
-  Ingredient.of(/mekanismtools:(bronze|lapis_lazuli|osmium)_(sword|shovel|(pick)?axe|paxel)/),
+  Ingredient.of(/mekanismtools:(bronze|lapis_lazuli|osmium|steel)_(sword|shovel|(pick)?axe|paxel)/),
   Ingredient.of(/immersiveengineering:(steel)_(sword|shovel|(pick)?axe|hoe)/),
   Ingredient.of(/mekanismtools:(wood|stone|iron|diamond|gold|netherite)_paxel/)
 ];
