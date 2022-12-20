@@ -456,7 +456,7 @@
 			x: -7.0d
 			y: -12.5d
 			shape: "diamond"
-			description: ["The liquid compressor creates compressed air by using liquid fuels (like lava or kerosene)."]
+			description: ["The liquid compressor creates compressed air by using liquid fuels (like Refined Fuel or Kerosene)."]
 			hide_dependency_lines: true
 			dependencies: [
 				"387646F8C259D92F"
@@ -472,9 +472,9 @@
 				item: "pneumaticcraft:liquid_compressor"
 			}]
 			rewards: [{
-				id: "6E2D7B3D93F82EF5"
+				id: "63D39EDF8AA8E768"
 				type: "item"
-				item: "minecraft:lava_bucket"
+				item: "thermal:refined_fuel_bucket"
 			}]
 		}
 		{
