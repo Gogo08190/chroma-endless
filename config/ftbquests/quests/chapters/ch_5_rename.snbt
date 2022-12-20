@@ -299,7 +299,7 @@
 			description: [
 				"Spawner Agitator will prevent the spawned entity from despawning when the player leaves the area."
 				""
-				"Additionally, the spawner will keep spawning white the player is not in the area."
+				"Additionally, the spawner will keep spawning while the player is not in the area."
 			]
 			dependencies: ["121DF7B31DB4BEF8"]
 			id: "3C91A579E0AB0FE3"
@@ -472,9 +472,9 @@
 				item: "pneumaticcraft:liquid_compressor"
 			}]
 			rewards: [{
-				id: "63D39EDF8AA8E768"
+				id: "6E2D7B3D93F82EF5"
 				type: "item"
-				item: "thermal:refined_fuel_bucket"
+				item: "pneumaticcraft:kerosene_bucket"
 			}]
 		}
 		{

@@ -55,7 +55,13 @@
 					id: "0329A34A4A84F74A"
 					type: "item"
 					title: "64x &#C2B280Sand&r"
-					item: "minecraft:sand"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:sand"
+						}
+					}
 					count: 64L
 				}
 				{

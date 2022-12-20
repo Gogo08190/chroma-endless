@@ -671,11 +671,11 @@
 				"- &4Fire Source&r."
 				"{image:chroma:textures/quests/fire.png width:100 height:100 align:1}"
 				"- &eAir Source."
-				"{image:chroma:textures/quests/air.png width:150 height:100 align:1}"
+				"{image:chroma:textures/quests/air.png width:100 height:100 align:1}"
 				"- &2Earth Source&r"
-				"{image:chroma:textures/quests/earth.png width:150 height:100 align:1}"
+				"{image:chroma:textures/quests/earth.png width:100 height:100 align:1}"
 				"- &bWater Source&r."
-				"{image:chroma:textures/quests/water.png width:150 height:100 align:1}"
+				"{image:chroma:textures/quests/water.png width:100 height:100 align:1}"
 			]
 			dependencies: ["190E6A8147CD1EC5"]
 			min_width: 250
@@ -2084,7 +2084,7 @@
 			}]
 		}
 		{
-			title: "ElementalCraft Spells"
+			title: "Elemental Spells"
 			icon: "elementalcraft:scroll_paper"
 			x: -9.0d
 			y: -7.25d
@@ -2094,216 +2094,154 @@
 			dependencies: ["7F6F05F53A58BCD3"]
 			optional: true
 			id: "73D5C86184299230"
-			tasks: [
-				{
-					id: "13048AFC8B0CCF78"
-					type: "item"
-					item: {
-						id: "elementalcraft:scroll"
-						Count: 1b
-						tag: {
-							elementalcraft: {
-								spell: "elementalcraft:tree_fall"
+			tasks: [{
+				id: "25E9D57CF53A332D"
+				type: "item"
+				title: "Elemental Spell"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "elementalcraft:scroll"
+								Count: 1b
+								tag: {
+									elementalcraft: {
+										spell: "elementalcraft:tree_fall"
+									}
+								}
 							}
-						}
+							{
+								id: "elementalcraft:scroll"
+								Count: 1b
+								tag: {
+									elementalcraft: {
+										spell: "elementalcraft:translocation"
+									}
+								}
+							}
+							{
+								id: "elementalcraft:scroll"
+								Count: 1b
+								tag: {
+									elementalcraft: {
+										spell: "elementalcraft:stonewall"
+									}
+								}
+							}
+							{
+								id: "elementalcraft:scroll"
+								Count: 1b
+								tag: {
+									elementalcraft: {
+										spell: "elementalcraft:speed"
+									}
+								}
+							}
+							{
+								id: "elementalcraft:scroll"
+								Count: 1b
+								tag: {
+									elementalcraft: {
+										spell: "elementalcraft:silk_vein"
+									}
+								}
+							}
+							{
+								id: "elementalcraft:scroll"
+								Count: 1b
+								tag: {
+									elementalcraft: {
+										spell: "elementalcraft:ripening"
+									}
+								}
+							}
+							{
+								id: "elementalcraft:scroll"
+								Count: 1b
+								tag: {
+									elementalcraft: {
+										spell: "elementalcraft:purification"
+									}
+								}
+							}
+							{
+								id: "elementalcraft:scroll"
+								Count: 1b
+								tag: {
+									elementalcraft: {
+										spell: "elementalcraft:dash"
+									}
+								}
+							}
+							{
+								id: "elementalcraft:scroll"
+								Count: 1b
+								tag: {
+									elementalcraft: {
+										spell: "elementalcraft:ender_strike"
+									}
+								}
+							}
+							{
+								id: "elementalcraft:scroll"
+								Count: 1b
+								tag: {
+									elementalcraft: {
+										spell: "elementalcraft:fireball"
+									}
+								}
+							}
+							{
+								id: "elementalcraft:scroll"
+								Count: 1b
+								tag: {
+									elementalcraft: {
+										spell: "elementalcraft:flame_cleave"
+									}
+								}
+							}
+							{
+								id: "elementalcraft:scroll"
+								Count: 1b
+								tag: {
+									elementalcraft: {
+										spell: "elementalcraft:gravelfall"
+									}
+								}
+							}
+							{
+								id: "elementalcraft:scroll"
+								Count: 1b
+								tag: {
+									elementalcraft: {
+										spell: "elementalcraft:heal"
+									}
+								}
+							}
+							{
+								id: "elementalcraft:scroll"
+								Count: 1b
+								tag: {
+									elementalcraft: {
+										spell: "elementalcraft:inferno"
+									}
+								}
+							}
+							{
+								id: "elementalcraft:scroll"
+								Count: 1b
+								tag: {
+									elementalcraft: {
+										spell: "elementalcraft:item_pull"
+									}
+								}
+							}
+						]
 					}
 				}
-				{
-					id: "619AB4EDFDF579B9"
-					type: "item"
-					item: {
-						id: "elementalcraft:scroll"
-						Count: 1b
-						tag: {
-							elementalcraft: {
-								spell: "elementalcraft:translocation"
-							}
-						}
-					}
-				}
-				{
-					id: "31F630F57A3BCED7"
-					type: "item"
-					item: {
-						id: "elementalcraft:scroll"
-						Count: 1b
-						tag: {
-							elementalcraft: {
-								spell: "elementalcraft:stonewall"
-							}
-						}
-					}
-				}
-				{
-					id: "73E8157BCF88DF12"
-					type: "item"
-					item: {
-						id: "elementalcraft:scroll"
-						Count: 1b
-						tag: {
-							elementalcraft: {
-								spell: "elementalcraft:speed"
-							}
-						}
-					}
-				}
-				{
-					id: "577DB9A45A9052DE"
-					type: "item"
-					item: {
-						id: "elementalcraft:scroll"
-						Count: 1b
-						tag: {
-							elementalcraft: {
-								spell: "elementalcraft:animal_growth"
-							}
-						}
-					}
-				}
-				{
-					id: "5681B2563D459B6F"
-					type: "item"
-					item: {
-						id: "elementalcraft:scroll"
-						Count: 1b
-						tag: {
-							elementalcraft: {
-								spell: "elementalcraft:dash"
-							}
-						}
-					}
-				}
-				{
-					id: "7BA52B54ED531231"
-					type: "item"
-					item: {
-						id: "elementalcraft:scroll"
-						Count: 1b
-						tag: {
-							elementalcraft: {
-								spell: "elementalcraft:ender_strike"
-							}
-						}
-					}
-				}
-				{
-					id: "759C6C7355517716"
-					type: "item"
-					item: {
-						id: "elementalcraft:scroll"
-						Count: 1b
-						tag: {
-							elementalcraft: {
-								spell: "elementalcraft:fireball"
-							}
-						}
-					}
-				}
-				{
-					id: "297764E0703F9890"
-					type: "item"
-					item: {
-						id: "elementalcraft:scroll"
-						Count: 1b
-						tag: {
-							elementalcraft: {
-								spell: "elementalcraft:flame_cleave"
-							}
-						}
-					}
-				}
-				{
-					id: "20B2EAA451857789"
-					type: "item"
-					item: {
-						id: "elementalcraft:scroll"
-						Count: 1b
-						tag: {
-							elementalcraft: {
-								spell: "elementalcraft:gravelfall"
-							}
-						}
-					}
-				}
-				{
-					id: "1890E23880086A70"
-					type: "item"
-					item: {
-						id: "elementalcraft:scroll"
-						Count: 1b
-						tag: {
-							elementalcraft: {
-								spell: "elementalcraft:heal"
-							}
-						}
-					}
-				}
-				{
-					id: "1DA24DC34231EDEA"
-					type: "item"
-					item: {
-						id: "elementalcraft:scroll"
-						Count: 1b
-						tag: {
-							elementalcraft: {
-								spell: "elementalcraft:inferno"
-							}
-						}
-					}
-				}
-				{
-					id: "2093E2B72C951A9F"
-					type: "item"
-					item: {
-						id: "elementalcraft:scroll"
-						Count: 1b
-						tag: {
-							elementalcraft: {
-								spell: "elementalcraft:item_pull"
-							}
-						}
-					}
-				}
-				{
-					id: "13796AD3634DA65A"
-					type: "item"
-					item: {
-						id: "elementalcraft:scroll"
-						Count: 1b
-						tag: {
-							elementalcraft: {
-								spell: "elementalcraft:purification"
-							}
-						}
-					}
-				}
-				{
-					id: "296D7B5398549FFD"
-					type: "item"
-					item: {
-						id: "elementalcraft:scroll"
-						Count: 1b
-						tag: {
-							elementalcraft: {
-								spell: "elementalcraft:ripening"
-							}
-						}
-					}
-				}
-				{
-					id: "25E9D57CF53A332D"
-					type: "item"
-					item: {
-						id: "elementalcraft:scroll"
-						Count: 1b
-						tag: {
-							elementalcraft: {
-								spell: "elementalcraft:silk_vein"
-							}
-						}
-					}
-				}
-			]
+			}]
 			rewards: [{
 				id: "42239C03203C209F"
 				type: "random"
