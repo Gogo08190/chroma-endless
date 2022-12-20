@@ -10,7 +10,7 @@
   },
   "spikes": {
     "hasSpikes [default: true]": true,
-    "customObsidianSpikes [default: true]": true
+    "customObsidianSpikes [default: true]": false
   },
   "hasDragonFights [default: true]": true,
   "swapOverworldToEnd [default: false]": false,
