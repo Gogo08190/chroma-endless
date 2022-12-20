@@ -2705,7 +2705,7 @@ onEvent("recipes", (event) => {
         "item": "extendedcrafting:ultimate_singularity"
       }
     }
-  ).id(`${id_prefix}ultimate_singularity`)
+  ).id('extendedcrafting:ultimate_singularity')
 
   event.custom (
     {
