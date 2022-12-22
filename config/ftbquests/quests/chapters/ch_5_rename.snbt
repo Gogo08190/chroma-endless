@@ -2160,6 +2160,12 @@
 					type: "item"
 					item: "simplylight:illuminant_orange_block_on"
 				}
+				{
+					id: "7D03FA4BAA881606"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_glass"
+					count: 27L
+				}
 			]
 			rewards: [
 				{
