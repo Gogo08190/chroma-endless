@@ -335,7 +335,7 @@
 				title: "Kill 80x Piglins"
 				icon: "tconstruct:piglin_head"
 				entity: "minecraft:piglin"
-				value: 100L
+				value: 80L
 			}]
 			rewards: [{
 				id: "5FDFCB7866537C89"
@@ -355,7 +355,7 @@
 				title: "Kill 20x Piglin Brutes"
 				icon: "tconstruct:piglin_brute_head"
 				entity: "minecraft:piglin_brute"
-				value: 100L
+				value: 20L
 			}]
 			rewards: [{
 				id: "3756C03FC16D8332"

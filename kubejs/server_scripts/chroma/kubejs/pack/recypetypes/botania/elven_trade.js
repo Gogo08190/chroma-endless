@@ -96,7 +96,7 @@ onEvent('recipes', (event) => {
           {item: 'emendatusenigmatica:dimensional_gem'},
           {item: 'emendatusenigmatica:dimensional_gem'},
           {item: 'emendatusenigmatica:dimensional_gem'},
-          {item: 'botania:mana_diamond'}
+          {item: 'minecraft:diamond'}
         ],
         output: {
             item: 'rftoolsbase:infused_diamond'
@@ -114,7 +114,7 @@ onEvent('recipes', (event) => {
           {item: 'emendatusenigmatica:dimensional_gem'},
           {item: 'emendatusenigmatica:dimensional_gem'},
           {item: 'emendatusenigmatica:dimensional_gem'},
-          {item: 'botania:mana_pearl'}
+          {item: 'minecraft:ender_pearl'}
         ],
         output: {
             item: 'rftoolsbase:infused_enderpearl'

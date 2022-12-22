@@ -186,8 +186,23 @@
 
     "ritual.chroma.occultism/ritual/summon_occultist_bee.started": "Début du rituel: Apparition de l'Abeille Occulte.",
     "ritual.chroma.occultism/ritual/summon_occultist_bee.finished": "Abeille Occulte apparue !",
-    "ritual.chroma.occultism/ritual/summon_occultist_bee.interrupted": "Rituel de l'Apparition de l'Abeille Occulte interrompu",
+    "ritual.chroma.occultism/ritual/summon_occultist_bee.interrupted": "Rituel de l'Apparition de l'Abeille Occulte interrompu.",
     "ritual.chroma.occultism/ritual/summon_occultist_bee.conditions": "Toutes les conditions requises pour ce rituel ne sont pas remplies.",
+
+    "ritual.refinedstorage.pattern_grid.started": "Début du rituel: Pattern Grid.",
+    "ritual.refinedstorage.pattern_grid.finished": "Pattern Grid créée avec succès.",
+    "ritual.refinedstorage.pattern_grid.interrupted": "Rituel du Pattern Grid interrompu.",
+    "ritual.refinedstorage.pattern_grid.conditions": "Toutes les conditions requises pour ce rituel ne sont pas remplies.",
+
+    "ritual.refinedstorage.fluid_grid.started": "Début du rituel: Fluid Grid.",
+    "ritual.refinedstorage.fluid_grid.finished": "Fluid Grid créée avec succès.",
+    "ritual.refinedstorage.fluid_grid.interrupted": "Rituel du Fluid Grid interrompu.",
+    "ritual.refinedstorage.fluid_grid.conditions": "Toutes les conditions requises pour ce rituel ne sont pas remplies.",
+
+    "ritual.refinedstorage.crafting_grid.started": "Début du rituel: Crafting Grid",
+    "ritual.refinedstorage.crafting_grid.finished": "Crafting Grid créée avec succès.",
+    "ritual.refinedstorage.crafting_grid.interrupted": "Rituel du Crafting Grid interrompu.",
+    "ritual.refinedstorage.crafting_grid.conditions": "Toutes les conditions requises pour ce rituel ne sont pas remplies.",
 
     "ritual.occultism.sacrifice.forest_bees": "Abeille des Forets",
     "memory_programmer_category.envirotech.new_miners": "Nouveaux Mineurs",

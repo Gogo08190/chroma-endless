@@ -4,7 +4,7 @@ onEvent('recipes', (event) => {
     const recipes = [
       {
           inputs: [
-            Item.of('resourcefulbees:bee_jar', { Entity: 'minecraft:bee' }).weakNBT().toJson(),
+            Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:rgbee_bee' }).weakNBT().toJson(),
             { item: 'botania:red_petal' },
             { item: 'botania:black_petal' },
             { item: 'botania:gray_petal' },

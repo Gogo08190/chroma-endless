@@ -2779,6 +2779,8 @@
 				""
 				"This crusher can double your ores !"
 			]
+			hide_dependency_lines: true
+			dependencies: ["3A5569B8FB3C4F7B"]
 			id: "49E79360D99BE691"
 			tasks: [
 				{

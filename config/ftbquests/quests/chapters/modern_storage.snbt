@@ -83,7 +83,10 @@
 			x: -15.25d
 			y: -9.0d
 			description: ["&bThe Raw Basic Processor&r is used to craft a Basic Processor."]
-			dependencies: ["069C09E2CF788202"]
+			dependencies: [
+				"069C09E2CF788202"
+				"5C7AB3AA250737D1"
+			]
 			id: "651B0FF775242456"
 			tasks: [{
 				id: "40707C133D6A26D3"
@@ -100,7 +103,10 @@
 			x: -15.25d
 			y: -11.0d
 			description: ["&bThe Raw Improved Processor&r is used to craft a Improved Processor."]
-			dependencies: ["069C09E2CF788202"]
+			dependencies: [
+				"069C09E2CF788202"
+				"5C7AB3AA250737D1"
+			]
 			id: "6067B05CFF4C3A7C"
 			tasks: [{
 				id: "070C08EFCCF34DB7"
@@ -117,7 +123,10 @@
 			x: -15.25d
 			y: -14.0d
 			description: ["&bThe Raw Advanced Processor&r is used to craft a Advanced Processor."]
-			dependencies: ["069C09E2CF788202"]
+			dependencies: [
+				"069C09E2CF788202"
+				"5C7AB3AA250737D1"
+			]
 			id: "6C82448C0B294D57"
 			tasks: [{
 				id: "7F5A017F6A41022C"
@@ -1718,7 +1727,10 @@
 			x: -15.25d
 			y: -16.0d
 			description: ["&bThe Raw Neural Processor&r is used to craft a Neural Processor."]
-			dependencies: ["069C09E2CF788202"]
+			dependencies: [
+				"069C09E2CF788202"
+				"5C7AB3AA250737D1"
+			]
 			id: "3AFCC26C20E99C36"
 			tasks: [{
 				id: "63066DD97EBB7EEB"
@@ -1900,13 +1912,7 @@
 				""
 				"This item has no use other than being used in crafting recipes."
 			]
-			dependencies: [
-				"134355C7D75FC7F3"
-				"3AFCC26C20E99C36"
-				"6C82448C0B294D57"
-				"6067B05CFF4C3A7C"
-				"651B0FF775242456"
-			]
+			dependencies: ["134355C7D75FC7F3"]
 			dependency_requirement: "one_completed"
 			id: "5C7AB3AA250737D1"
 			tasks: [{

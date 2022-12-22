@@ -169,6 +169,21 @@
     "ritual.chroma.occultism/ritual/alphaneck.interrupted": "Alpha Necklace ritual interrupted.",
     "ritual.chroma.occultism/ritual/alphaneck.conditions": "Not all requirements for this ritual are met.",
 
+    "ritual.refinedstorage.pattern_grid.started": "Started Pattern Grid's binding ritual.",
+    "ritual.refinedstorage.pattern_grid.finished": "Pattern Grid successfully bound.",
+    "ritual.refinedstorage.pattern_grid.interrupted": "Pattern Grid ritual interrupted.",
+    "ritual.refinedstorage.pattern_grid.conditions": "Not all requirements for this ritual are met.",
+
+    "ritual.refinedstorage.fluid_grid.started": "Started Fluid Grid's binding ritual.",
+    "ritual.refinedstorage.fluid_grid.finished": "Fluid Grid successfully bound.",
+    "ritual.refinedstorage.fluid_grid.interrupted": "Fluid Grid ritual interrupted.",
+    "ritual.refinedstorage.fluid_grid.conditions": "Not all requirements for this ritual are met.",
+
+    "ritual.refinedstorage.crafting_grid.started": "Started Crafting Grid's binding ritual.",
+    "ritual.refinedstorage.crafting_grid.finished": "Crafting Grid successfully bound.",
+    "ritual.refinedstorage.crafting_grid.interrupted": "Crafting Grid ritual interrupted.",
+    "ritual.refinedstorage.crafting_grid.conditions": "Not all requirements for this ritual are met.",
+
     "ritual.botania:terra_plate.started": "Started Terrestrial Agglomeration Plate's binding ritual",
     "ritual.botania:terra_plate.finished": "Terrestrial Agglomeration Plate successfully bound.",
     "ritual.botania:terra_plate.interrupted": "Terrestrial Agglomeration Plate ritual interrupted.",
