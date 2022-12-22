@@ -9,7 +9,7 @@ onEvent('recipes', (event) => {
               { tag: 'forge:dusts/redstone' },
               { item: 'elementalcraft:aircrystal' }
           ],
-          element_type: "water",
+          element_type: "air",
           element_amount: 2500,
           output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:swift_alloy_bee' }).toJson(),
           id: `${id_prefix}swift_alloy_bee`
