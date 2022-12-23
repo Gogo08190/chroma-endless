@@ -7,7 +7,7 @@ onEvent('recipes', (event) => {
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:air_canister', count: 7 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:printed_circuit_board', count: 1 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:compressed_iron_helmet', count: 1 } },
-                { type: 'masterfulmachinery:pncr_pressure', perTick: false, data: { air: 400 } },
+                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 400 } },
                 { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
             ],
             ticks: 240,
@@ -19,7 +19,7 @@ onEvent('recipes', (event) => {
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:air_canister', count: 7 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:printed_circuit_board', count: 1 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:compressed_iron_chestplate', count: 1 } },
-                { type: 'masterfulmachinery:pncr_pressure', perTick: false, data: { air: 400 } },
+                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 400 } },
                 { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
             ],
             ticks: 240,
@@ -31,7 +31,7 @@ onEvent('recipes', (event) => {
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:air_canister', count: 4 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:printed_circuit_board', count: 1 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:compressed_iron_boots', count: 1 } },
-                { type: 'masterfulmachinery:pncr_pressure', perTick: false, data: { air: 400 } },
+                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 400 } },
                 { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
             ],
             ticks: 240,
@@ -44,7 +44,7 @@ onEvent('recipes', (event) => {
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:printed_circuit_board', count: 1 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:ingot_iron_compressed', count: 2 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:compressed_iron_leggings', count: 1 } },
-                { type: 'masterfulmachinery:pncr_pressure', perTick: false, data: { air: 400 } },
+                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 400 } },
                 { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
             ],
             ticks: 240,
@@ -57,7 +57,7 @@ onEvent('recipes', (event) => {
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:transistor', count: 2 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:capacitor', count: 2 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:redstone_ingot', count: 1 } },
-                { type: 'masterfulmachinery:pncr_pressure', perTick: false, data: { air: 400 } },
+                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 400 } },
                 { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
             ],
             ticks: 240,
@@ -71,7 +71,7 @@ onEvent('recipes', (event) => {
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:capacitor', count: 2 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'thermal:redstone_servo', count: 1 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'emendatusenigmatica:invar_plate', count: 3 } },
-                { type: 'masterfulmachinery:pncr_pressure', perTick: false, data: { air: 400 } },
+                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 400 } },
                 { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
             ],
             ticks: 240,
@@ -82,7 +82,7 @@ onEvent('recipes', (event) => {
             inputs: [
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'rftoolsbase:machine_base', count: 1 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'undergarden:regalium_ingot', count: 4 } },
-                { type: 'masterfulmachinery:pncr_pressure', perTick: false, data: { air: 400 } },
+                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 400 } },
                 { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
             ],
             ticks: 240,
@@ -94,7 +94,7 @@ onEvent('recipes', (event) => {
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_slate', count: 1 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:luminessence', count: 1 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'minecraft:iron_ingot', count: 2 } },
-                { type: 'masterfulmachinery:pncr_pressure', perTick: false, data: { air: 400 } },
+                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 400 } },
                 { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
             ],
             ticks: 240,
@@ -106,7 +106,7 @@ onEvent('recipes', (event) => {
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_slate', count: 1 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:luminessence', count: 1 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'minecraft:gold_ingot', count: 2 } },
-                { type: 'masterfulmachinery:pncr_pressure', perTick: false, data: { air: 400 } },
+                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 400 } },
                 { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
             ],
             ticks: 240,
@@ -118,7 +118,7 @@ onEvent('recipes', (event) => {
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_slate', count: 1 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:luminessence', count: 1 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'minecraft:diamond', count: 2 } },
-                { type: 'masterfulmachinery:pncr_pressure', perTick: false, data: { air: 400 } },
+                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 400 } },
                 { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
             ],
             ticks: 240,
@@ -130,7 +130,7 @@ onEvent('recipes', (event) => {
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_slate', count: 1 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:luminessence', count: 1 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'minecraft:emerald', count: 2 } },
-                { type: 'masterfulmachinery:pncr_pressure', perTick: false, data: { air: 400 } },
+                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 400 } },
                 { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
             ],
             ticks: 240,
@@ -142,7 +142,7 @@ onEvent('recipes', (event) => {
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_slate', count: 1 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:luminessence', count: 1 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:redstone_ingot', count: 2 } },
-                { type: 'masterfulmachinery:pncr_pressure', perTick: false, data: { air: 400 } },
+                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 400 } },
                 { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
             ],
             ticks: 240,
@@ -154,7 +154,7 @@ onEvent('recipes', (event) => {
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_slate', count: 1 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:luminessence', count: 1 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:ender_ingot', count: 2 } },
-                { type: 'masterfulmachinery:pncr_pressure', perTick: false, data: { air: 400 } },
+                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 400 } },
                 { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
             ],
             ticks: 240,
@@ -166,7 +166,7 @@ onEvent('recipes', (event) => {
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_slate', count: 1 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:luminessence', count: 1 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:enhanced_ender_ingot', count: 2 } },
-                { type: 'masterfulmachinery:pncr_pressure', perTick: false, data: { air: 400 } },
+                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 400 } },
                 { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
             ],
             ticks: 240,
@@ -178,7 +178,7 @@ onEvent('recipes', (event) => {
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_slate', count: 1 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:luminessence', count: 1 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:crystaltine_ingot', count: 2 } },
-                { type: 'masterfulmachinery:pncr_pressure', perTick: false, data: { air: 400 } },
+                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 400 } },
                 { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
             ],
             ticks: 240,
@@ -190,7 +190,7 @@ onEvent('recipes', (event) => {
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:black_iron_slate', count: 1 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:luminessence', count: 1 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:the_ultimate_ingot', count: 2 } },
-                { type: 'masterfulmachinery:pncr_pressure', perTick: false, data: { air: 400 } },
+                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 400 } },
                 { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
             ],
             ticks: 240,
@@ -206,7 +206,7 @@ onEvent('recipes', (event) => {
               { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'thermal:machine_furnace', count: 1 } },
               { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'mekanism:steel_casing', count: 1 } },
               { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'kubejs:extreme_circuit_board', count: 1 } },
-              { type: 'masterfulmachinery:pncr_pressure', perTick: false, data: { air: 500 } },
+              { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 500 } },
               { type: 'masterfulmachinery:energy', data: { amount: 1600} }
             ],
             ticks: 240,
@@ -222,7 +222,7 @@ onEvent('recipes', (event) => {
               { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'thermal:machine_pulverizer', count: 1 } },
               { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'mekanism:steel_casing', count: 1 } },
               { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'kubejs:extreme_circuit_board', count: 1 } },
-              { type: 'masterfulmachinery:pncr_pressure', perTick: false, data: { air: 500 } },
+              { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 500 } },
               { type: 'masterfulmachinery:energy', data: { amount: 1600} }
             ],
             ticks: 240,
@@ -238,7 +238,7 @@ onEvent('recipes', (event) => {
               { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'thermal:machine_press', count: 1 } },
               { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'mekanism:steel_casing', count: 1 } },
               { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'kubejs:extreme_circuit_board', count: 1 } },
-              { type: 'masterfulmachinery:pncr_pressure', perTick: false, data: { air: 500} },
+              { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 500} },
               { type: 'masterfulmachinery:energy', data: { amount: 1200} }
             ],
             ticks: 240,
@@ -254,7 +254,7 @@ onEvent('recipes', (event) => {
               { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'thermal:machine_smelter', count: 1 } },
               { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'mekanism:steel_casing', count: 1 } },
               { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'kubejs:extreme_circuit_board', count: 1 } },
-              { type: 'masterfulmachinery:pncr_pressure', perTick: false, data: { air: 500 } },
+              { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 500 } },
               { type: 'masterfulmachinery:energy', data: { amount: 2400} }
             ],
             ticks: 240,
@@ -270,7 +270,7 @@ onEvent('recipes', (event) => {
               { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'thermal:machine_sawmill', count: 1 } },
               { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'mekanism:steel_casing', count: 1 } },
               { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'kubejs:extreme_circuit_board', count: 1 } },
-              { type: 'masterfulmachinery:pncr_pressure', perTick: false, data: { air: 500 } },
+              { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 500 } },
               { type: 'masterfulmachinery:energy', data: { amount: 800} }
             ],
             ticks: 240,
@@ -389,7 +389,7 @@ onEvent('recipes', (event) => {
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'mekanism:alloy_infused', count: 2 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:ingot_iron_compressed', count: 3 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'mekanism:steel_casing', count: 1 } },
-                { type: 'masterfulmachinery:pncr_pressure', perTick: false, data: { air: 400 } },
+                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 400 } },
                 { type: 'masterfulmachinery:energy', data: { amount: 3000 } }
             ],
             ticks: 140,
@@ -405,7 +405,7 @@ onEvent('recipes', (event) => {
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'kubejs:creative_catalyst', count: 4 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'kubejs:chroma_matter', count: 4 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:advanced_pcb', count: 32 } },
-                { type: 'masterfulmachinery:pncr_pressure', perTick: false, data: { air: 1100 } },
+                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 1100 } },
                 { type: 'masterfulmachinery:energy', data: { amount: 12000 } }
             ],
             ticks: 140,
