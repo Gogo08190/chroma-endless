@@ -34,7 +34,7 @@ onEvent('recipes', (event) => {
         },
         // Thermal Machine Frame
         {
-            ritual_type: 'occultism:craft_with_spirit_name',
+            ritual_type: 'occultism:craft',
             activation_item: 'occultism:book_of_binding_bound_foliot',
             pentacle_id: 'occultism:craft_djinni',
             duration: 20,
@@ -59,7 +59,7 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}machine_frame`
         },
         {
-            ritual_type: 'occultism:craft_with_spirit_name',
+            ritual_type: 'occultism:craft',
             activation_item: 'occultism:book_of_binding_bound_foliot',
             pentacle_id: 'occultism:craft_djinni',
             duration: 20,
@@ -84,7 +84,7 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}fluid_cell_frame`
         },
         {
-            ritual_type: 'occultism:craft_with_spirit_name',
+            ritual_type: 'occultism:craft',
             activation_item: 'occultism:book_of_binding_bound_foliot',
             pentacle_id: 'occultism:craft_djinni',
             duration: 20,
@@ -171,7 +171,7 @@ onEvent('recipes', (event) => {
             id: `occultism:ritual/craft_stabilizer_tier1`
         },
         {
-            ritual_type: 'occultism:craft_with_spirit_name',
+            ritual_type: 'occultism:craft',
             activation_item: 'kubejs:sac',
             pentacle_id: 'occultism:craft_afrit',
             duration: 120,
@@ -191,7 +191,7 @@ onEvent('recipes', (event) => {
             id: `sophisticatedbackpacks:backpack`
         },
         {
-            ritual_type: 'occultism:craft_with_spirit_name',
+            ritual_type: 'occultism:craft',
             activation_item: 'botania:manasteel_block',
             pentacle_id: 'occultism:craft_afrit',
             duration: 120,
@@ -211,7 +211,7 @@ onEvent('recipes', (event) => {
             id: 'botania:terra_plate'
         },
         {
-            ritual_type: 'occultism:craft_with_spirit_name',
+            ritual_type: 'occultism:craft',
             activation_item: 'resourcefulbees:t1_beehive',
             pentacle_id: 'occultism:craft_afrit',
             duration: 120,
@@ -231,7 +231,7 @@ onEvent('recipes', (event) => {
             id: 'resourcefulbees:t2_beehive_nests'
         },
         {
-            ritual_type: 'occultism:craft_with_spirit_name',
+            ritual_type: 'occultism:craft',
             activation_item: 'resourcefulbees:t1_hive_upgrade',
             pentacle_id: 'occultism:craft_afrit',
             duration: 120,
@@ -251,7 +251,7 @@ onEvent('recipes', (event) => {
             id: 'resourcefulbees:t2_hive_upgrade'
         },
         {
-            ritual_type: 'occultism:craft_with_spirit_name',
+            ritual_type: 'occultism:craft',
             activation_item: Item.of('ironjetpacks:mechanical_jetpack').weakNBT(),
             pentacle_id: 'occultism:craft_afrit',
             duration: 150,
@@ -276,7 +276,7 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}otherworldian_jetpack`
         },
         {
-            ritual_type: 'occultism:craft_with_spirit_name',
+            ritual_type: 'occultism:craft',
             activation_item: 'occultism:book_of_binding_bound_djinni',
             pentacle_id: 'occultism:craft_foliot',
             duration: 60,
@@ -291,7 +291,7 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}otherworldian_capacitor`
         },
         {
-            ritual_type: 'occultism:craft_with_spirit_name',
+            ritual_type: 'occultism:craft',
             activation_item: 'occultism:book_of_binding_bound_djinni',
             pentacle_id: 'occultism:craft_foliot',
             duration: 60,
@@ -306,7 +306,7 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}otherworldian_thruster`
         },
         {
-            ritual_type: 'occultism:craft_with_spirit_name',
+            ritual_type: 'occultism:craft',
             activation_item: 'thermal:energy_cell',
             pentacle_id: 'occultism:possess_foliot',
             duration: 100,
@@ -325,7 +325,7 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}fusioner_compact_energy_port_energy_input`
         },
         {
-            ritual_type: 'occultism:craft_with_spirit_name',
+            ritual_type: 'occultism:craft',
             activation_item: 'create:brass_hand',
             pentacle_id: 'occultism:possess_foliot',
             duration: 100,
@@ -344,7 +344,7 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}fusioner_compact_item_port_items_output`
         },
         {
-            ritual_type: 'occultism:craft_with_spirit_name',
+            ritual_type: 'occultism:craft',
             activation_item: 'create:depot',
             pentacle_id: 'occultism:possess_foliot',
             duration: 100,
@@ -363,7 +363,7 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}fusioner_compact_item_port_items_input`
         },
         {
-            ritual_type: 'occultism:craft_with_spirit_name',
+            ritual_type: 'occultism:craft',
             activation_item: Item.of('occultism:book_of_binding_bound_afrit').weakNBT(),
             pentacle_id: 'occultism:craft_marid',
             duration: 100,
@@ -386,7 +386,7 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}alphaneck`
         },
         {
-            ritual_type: 'occultism:craft_with_spirit_name',
+            ritual_type: 'occultism:craft',
             activation_item: 'refinedstorage:grid',
             pentacle_id: 'occultism:craft_marid',
             duration: 200,
@@ -404,7 +404,7 @@ onEvent('recipes', (event) => {
             id: 'refinedstorage:crafting_grid/crafting_grid'
         },
         {
-            ritual_type: 'occultism:craft_with_spirit_name',
+            ritual_type: 'occultism:craft',
             activation_item: 'refinedstorage:grid',
             pentacle_id: 'occultism:craft_marid',
             duration: 200,
@@ -422,7 +422,7 @@ onEvent('recipes', (event) => {
             id: 'refinedstorage:pattern_grid/pattern_grid'
         },
         {
-            ritual_type: 'occultism:craft_with_spirit_name',
+            ritual_type: 'occultism:craft',
             activation_item: 'refinedstorage:grid',
             pentacle_id: 'occultism:craft_marid',
             duration: 200,
