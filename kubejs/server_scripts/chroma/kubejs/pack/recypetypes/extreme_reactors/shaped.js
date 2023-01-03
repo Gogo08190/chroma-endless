@@ -261,8 +261,8 @@ onEvent('recipes', (event) => {
             key: {
                 A: 'bigreactors:reinforced_reactorcasing',
                 B: 'extendedcrafting:redstone_ingot',
-                C: Item.of('elementalcraft:element_holder_fire', '{Damage:0,element_amount:10000}'),
-                D: Item.of('elementalcraft:element_holder_water', '{Damage:0,element_amount:10000}')
+                C: 'elementalcraft:pristine_fire_gem',
+                D: 'elementalcraft:pristine_water_gem'
             },
             id: 'bigreactors:reactor/reinforced/activefluidport_forge'
         },
@@ -272,8 +272,8 @@ onEvent('recipes', (event) => {
             key: {
                 A: 'bigreactors:reinforced_reactorcasing',
                 B: 'extendedcrafting:redstone_ingot',
-                C: Item.of('elementalcraft:element_holder_fire', '{Damage:0,element_amount:10000}'),
-                D: Item.of('elementalcraft:element_holder_water', '{Damage:0,element_amount:10000}')
+                C: 'elementalcraft:pristine_fire_gem',
+                D: 'elementalcraft:pristine_water_gem'
             },
             id: 'bigreactors:reactor/reinforced/passivefluidport_forge'
         },
@@ -283,8 +283,8 @@ onEvent('recipes', (event) => {
             key: {
                 A: 'bigreactors:reinforced_reactorcasing',
                 B: 'botanicalmachinery:mana_emerald_block',
-                C: Item.of('elementalcraft:element_holder_fire', '{Damage:0,element_amount:10000}'),
-                D: Item.of('elementalcraft:element_holder_water', '{Damage:0,element_amount:10000}')
+                C: 'elementalcraft:pristine_fire_gem',
+                D: 'elementalcraft:pristine_water_gem'
             },
             id: 'bigreactors:reactor/reinforced/passivefluidport_mekanism'
         },
@@ -385,8 +385,8 @@ onEvent('recipes', (event) => {
             pattern: ['ABA', 'BCB', 'ABA'],
             key: {
                 A: 'bigreactors:basic_turbinecasing',
-                B: Item.of('elementalcraft:element_holder_fire', '{Damage:0,element_amount:10000}'),
-                C: Item.of('elementalcraft:element_holder_water', '{Damage:0,element_amount:10000}')
+                B: 'elementalcraft:pristine_fire_gem',
+                C: 'elementalcraft:pristine_water_gem'
             },
             id: 'bigreactors:turbine/basic/activefluidport_forge'
         },
@@ -395,8 +395,8 @@ onEvent('recipes', (event) => {
             pattern: ['ACA', 'CBC', 'ACA'],
             key: {
                 A: 'bigreactors:basic_turbinecasing',
-                B: Item.of('elementalcraft:element_holder_fire', '{Damage:0,element_amount:10000}'),
-                C: Item.of('elementalcraft:element_holder_water', '{Damage:0,element_amount:10000}')
+                B: 'elementalcraft:pristine_fire_gem',
+                C: 'elementalcraft:pristine_water_gem'
             },
             id: 'bigreactors:turbine/basic/passivefluidport_forge'
         },
@@ -509,8 +509,8 @@ onEvent('recipes', (event) => {
             pattern: ['ABA', 'BCB', 'ABA'],
             key: {
                 A: 'bigreactors:reinforced_turbinecasing',
-                B: Item.of('elementalcraft:element_holder_fire', '{Damage:0,element_amount:10000}'),
-                C: Item.of('elementalcraft:element_holder_water', '{Damage:0,element_amount:10000}')
+                B: 'elementalcraft:pristine_fire_gem',
+                C: 'elementalcraft:pristine_water_gem'
             },
             id: 'bigreactors:turbine/reinforced/activefluidport_forge'
         },
@@ -519,8 +519,8 @@ onEvent('recipes', (event) => {
             pattern: ['ACA', 'CBC', 'ACA'],
             key: {
                 A: 'bigreactors:reinforced_turbinecasing',
-                B: Item.of('elementalcraft:element_holder_fire', '{Damage:0,element_amount:10000}'),
-                C: Item.of('elementalcraft:element_holder_water', '{Damage:0,element_amount:10000}')
+                B: 'elementalcraft:pristine_fire_gem',
+                C: 'elementalcraft:pristine_water_gem'
             },
             id: 'bigreactors:turbine/reinforced/passivefluidport_forge'
         },
