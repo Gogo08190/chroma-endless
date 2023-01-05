@@ -1209,7 +1209,7 @@
 			x: 5.5d
 			y: -5.0d
 			description: [
-				"The &5Purifier&r takes &5ores&r and purify them to create &5Pure Ores&r at a ration of one to two. You can get them smelt into ingots using any &5Furnaces&r."
+				"The &5Purifier&r takes &5ores&r and purify them to create &5Pure Ores&r at a ratio of one to two. You can get them smelt into ingots using any &5Furnaces&r."
 				"As for any other &2Instruments&r, the &5Ore Purifier&r needs to be on top of a &3Container&r but not a &3Small Container&r."
 			]
 			dependencies: ["7BD2D6B517F906ED"]

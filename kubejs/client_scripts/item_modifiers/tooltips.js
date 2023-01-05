@@ -148,6 +148,10 @@ onEvent('item.tooltip', (event) => {
               Text.of(`You can also get it in the Void ore miner (Black Hole Harvester card) from Tier 1.`).gold(),
               Text.of(`More drop with Purple Lens`).darkPurple()
             ]
+        },
+        {
+            items: ['custommachinery:custom_machine_item'],
+            text: Text.of('Do not craft in Occultism Storage !').red()
         }
     ];
 

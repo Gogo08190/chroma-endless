@@ -3243,6 +3243,8 @@
 				"The &5Dimensional Storage Actuator&r consists of a &6Dimensional Matrix&r inhabited by a &2Djinni&r that creates and manages a storage dimension and a &6Base&r, infused with a &2Foliot&r that moves items in and out the storage dimension."
 				""
 				"By default, the &5Storage Actuator&r can only hold 128 types of different items or 2048 stacks approximatively. Of course that number can be upgraded with &6Dimensional Storage Upgrades&r."
+				""
+				"&c⚠&r Some crafts might not give out the expected output in the crafting interface (Custom Machinery). For those machines avoid shift clicking to craft them, you can also craft them in a vanilla crafting table."
 			]
 			dependencies: [
 				"7B5DF9B562DB7BA0"

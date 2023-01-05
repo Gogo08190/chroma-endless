@@ -816,6 +816,11 @@
 				type: "item"
 				item: "undergarden:roasted_underbeans"
 			}]
+			rewards: [{
+				id: "664FCB704196143F"
+				type: "item"
+				item: "undergarden:underbeans"
+			}]
 		}
 		{
 			x: 7.0d
