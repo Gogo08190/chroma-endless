@@ -3,7 +3,7 @@ onEvent('recipes', (event) => {
 
     const recipes = [
         {
-            input: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:iron_bee' }),
+            input: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:steel_bee' }),
             output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:manasteel_bee' }),
             mana: 100000,
             id: `${id_prefix}manasteel_bee_jar`
