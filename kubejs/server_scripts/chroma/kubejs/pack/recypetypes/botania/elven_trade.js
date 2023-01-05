@@ -105,24 +105,6 @@ onEvent('recipes', (event) => {
       },
 
       {
-        inputs: [
-          {item: 'emendatusenigmatica:dimensional_gem'},
-          {item: 'emendatusenigmatica:dimensional_gem'},
-          {item: 'emendatusenigmatica:dimensional_gem'},
-          {item: 'emendatusenigmatica:dimensional_gem'},
-          {item: 'emendatusenigmatica:dimensional_gem'},
-          {item: 'emendatusenigmatica:dimensional_gem'},
-          {item: 'emendatusenigmatica:dimensional_gem'},
-          {item: 'emendatusenigmatica:dimensional_gem'},
-          {item: 'minecraft:ender_pearl'}
-        ],
-        output: {
-            item: 'rftoolsbase:infused_enderpearl'
-        },
-        id: 'rftoolsbase:infused_enderpearl'
-      },
-
-      {
         inputs: [Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:manasteel_bee' }).weakNBT().toJson(),
         {item: 'botania:elementium_block'},
         {item: 'botania:elementium_block'},
