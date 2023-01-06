@@ -32,7 +32,7 @@ onEvent('recipes', (event) => {
                 G: '#forge:ingots/gold',
                 E: 'occultism:soul_gem',
                 R: 'minecraft:rotten_flesh',
-                F: 'upgrade_aquatic:lionfish',
+                F: '#minecraft:fishes',
                 B: '#botania:runes/water'
 
             },
