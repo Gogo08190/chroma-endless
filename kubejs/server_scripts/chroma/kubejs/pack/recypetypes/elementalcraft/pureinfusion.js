@@ -113,7 +113,7 @@ onEvent('recipes', (event) => {
           id: `${id_prefix}forgotten_bee`
       },
 
-      // Afrit Essence 
+      // Afrit Essence
       {
             inputs: [
                 { item: 'thermal:xp_crystal' },
@@ -129,16 +129,16 @@ onEvent('recipes', (event) => {
 
       // Infused Enderpearl
       {
-        inputs: [  
+        inputs: [
             { item: 'minecraft:ender_pearl' },
             { item: 'emendatusenigmatica:dimensional_gem' },
-            { item: 'emendatusenigmatica:dimensional_gem' },    
+            { item: 'emendatusenigmatica:dimensional_gem' },
             { item: 'emendatusenigmatica:dimensional_gem' },
             { item: 'emendatusenigmatica:dimensional_gem' },
         ],
-        element_amount: 10000,
+        element_amount: 1000,
         output: 'rftoolsbase:infused_enderpearl',
-      id: `${id_prefix}infused_enderpearl`
+      id: 'rftoolsbase:infused_enderpearl'
     }
 
     ];
