@@ -8,7 +8,7 @@
   "generateHoneyBlock": true,
       "effects": [
     {
-      "effectID": "minecraft:hunger",
+      "effectID": "minecraft:instant_damage",
       "duration": 1,
       "strength": 2,
       "chance": 1
