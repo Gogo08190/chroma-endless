@@ -153,7 +153,7 @@ onEvent('recipes', (event) => {
         },
         {
             output: 'allthemodium:allthemodium_nugget',
-            weight: 100,
+            weight: 120,
             id: `${id_prefix}allthemodium_nugget`
         },
         {
