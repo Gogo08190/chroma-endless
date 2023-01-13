@@ -2,7 +2,7 @@
     "flower": "minecraft:crimson_fungus",
     "lore": "This bee can be found in the Nether. This bee produces Ghast Tears",
     "loreColor": "#00AAAA",
-    "maxTimeInHive": 4800,
+    "maxTimeInHive": 1200,
     "sizeModifier": 1,
     "hasHoneycomb": true,
     "apiaryOutputAmounts": [

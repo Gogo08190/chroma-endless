@@ -2,6 +2,7 @@
   "flower": "undergarden:froststeel_block",
   "lore": "Through the Pure Infusion, this bee will produce FrostSteel",
   "loreColor": "#00AAA",
+  "maxTimeInHive": 1800,
   "sizeModifier": 1,
   "hasHoneycomb": true,
   "apiaryOutputAmounts": [

@@ -2,6 +2,7 @@
   "flower": "undergarden:utherium_block",
   "lore": "Through the Pure Infusion, this bee will produce Utherium",
   "loreColor": "#00AAA",
+  "maxTimeInHive": 2400,
   "sizeModifier": 1,
   "hasHoneycomb": true,
   "apiaryOutputAmounts": [

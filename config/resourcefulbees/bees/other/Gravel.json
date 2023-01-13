@@ -2,7 +2,7 @@
     "flower": "immersiveengineering:concrete",
     "lore": "This bee can be found in the Overworld. This bee produces Gravel",
     "loreColor": "#00AAAA",
-    "maxTimeInHive": 2400,
+    "maxTimeInHive": 600,
     "sizeModifier": 0.75,
     "traits": ["can_swim"],
     "hasHoneycomb": true,

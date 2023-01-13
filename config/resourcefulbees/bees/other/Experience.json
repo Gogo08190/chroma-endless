@@ -2,7 +2,7 @@
     "flower": "mob_grinding_utils:solid_xp_block",
     "lore": "Through the Enchanting Apparatus, this bee will produce Experience Pearls",
     "loreColor": "#00AAAA",
-    "maxTimeInHive": 4800,
+    "maxTimeInHive": 2400,
     "sizeModifier": 1,
     "hasHoneycomb": true,
     "apiaryOutputAmounts": [

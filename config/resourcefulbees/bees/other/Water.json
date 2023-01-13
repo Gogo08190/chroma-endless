@@ -2,7 +2,7 @@
     "flower": "minecraft:lily_pad",
     "lore": "Tier 1:\nWater Bees prefer to stay hydrated, but\nalways stick to fresh water. This bee can be found in the Overworld. This bee produces Water",
     "loreColor": "#00AAAA",
-    "maxTimeInHive": 4800,
+    "maxTimeInHive": 600,
     "sizeModifier": 0.75,
     "hasHoneycomb": true,
     "apiaryOutputAmounts": [

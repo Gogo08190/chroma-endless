@@ -3,6 +3,7 @@
   "lore": "Through the Casting Table, this bee will produce Lead",
   "loreColor": "#00AAA",
   "sizeModifier": 1,
+  "maxTimeInHive": 1200,
   "hasHoneycomb": true,
   "apiaryOutputAmounts": [
     4,

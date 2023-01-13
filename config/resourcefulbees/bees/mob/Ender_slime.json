@@ -2,7 +2,7 @@
     "flower": "tconstruct:ender_slime",
     "lore": "Through Bee Breeding, this bee will produce Ender Slime Ball",
     "loreColor": "#00AAAA",
-    "maxTimeInHive": 4800,
+    "maxTimeInHive": 1200,
     "sizeModifier": 1,
     "hasHoneycomb": true,
     "apiaryOutputAmounts": [

@@ -2,7 +2,7 @@
     "flower": "minecraft:terracotta",
     "lore": "This bee can be found in the Overworld. This bee produces Clay",
     "loreColor": "#00AAAA",
-    "maxTimeInHive": 2400,
+    "maxTimeInHive": 600,
     "sizeModifier": 0.75,
     "traits": ["can_swim"],
     "hasHoneycomb": true,

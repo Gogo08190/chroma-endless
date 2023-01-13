@@ -2,7 +2,7 @@
     "flower": "botania:blaze_block",
     "lore": "This bee can be found in the Nether. This bee produces Blaze Rods",
     "loreColor": "#00AAAA",
-    "maxTimeInHive": 4800,
+    "maxTimeInHive": 1200,
     "sizeModifier": 1.0,
     "traits": ["blaze", "nether", "wither", "can_swim"],
     "hasHoneycomb": true,

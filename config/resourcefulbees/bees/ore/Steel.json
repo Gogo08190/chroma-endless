@@ -3,6 +3,7 @@
   "lore": "Through the Blast Furnace, this bee will produce Steel",
   "loreColor": "#858585",
   "sizeModifier": 1,
+  "maxTimeInHive": 800,
   "hasHoneycomb": true,
   "apiaryOutputAmounts": [
     4,

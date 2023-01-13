@@ -3,7 +3,7 @@
     "lore": "Through Ultimate Crafting, this bee will produce Unobtainium",
     "loreColor": "#ff66cc",
     "sizeModifier": 1,
-    "maxTimeInHive": 1200,
+    "maxTimeInHive": 3600,
     "hasHoneycomb": true,
     "auraRange": 20,
     "traits": ["sedimentary", "can_swim"],

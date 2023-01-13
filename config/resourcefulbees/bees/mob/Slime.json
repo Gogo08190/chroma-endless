@@ -2,7 +2,7 @@
     "flower": "minecraft:slime_block",
     "lore": "Through the Casting Table, this bee will produce Slime Balls",
     "loreColor": "#00AAAA",
-    "maxTimeInHive": 4800,
+    "maxTimeInHive": 600,
     "sizeModifier": 1,
     "hasHoneycomb": true,
     "apiaryOutputAmounts": [

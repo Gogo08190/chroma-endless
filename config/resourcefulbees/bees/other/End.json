@@ -2,7 +2,7 @@
     "flower": "minecraft:end_stone",
     "lore": "This bee can be found in the End. This bee produces End Stone",
     "loreColor": "#00AAAA",
-    "maxTimeInHive": 2400,
+    "maxTimeInHive": 1200,
     "sizeModifier": 0.75,
     "hasHoneycomb": true,
     "apiaryOutputAmounts": [

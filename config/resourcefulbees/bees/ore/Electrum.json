@@ -3,6 +3,7 @@
   "lore": "Through Bee Breeding, this bee will produce Electrum",
   "loreColor": "#858585",
   "sizeModifier": 1,
+  "maxTimeInHive": 2400,
   "hasHoneycomb": true,
   "apiaryOutputAmounts": [
     4,

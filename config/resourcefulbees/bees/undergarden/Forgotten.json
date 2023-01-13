@@ -2,6 +2,7 @@
   "flower": "undergarden:forgotten_block",
   "lore": "Through the Pure Infusion, this bee will produce Forgotten",
   "loreColor": "#00AAA",
+  "maxTimeInHive": 2400,
   "sizeModifier": 1,
   "hasHoneycomb": true,
   "apiaryOutputAmounts": [
