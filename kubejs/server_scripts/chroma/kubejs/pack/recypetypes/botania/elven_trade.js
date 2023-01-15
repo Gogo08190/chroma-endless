@@ -87,24 +87,6 @@ onEvent('recipes', (event) => {
       },
 
       {
-        inputs: [
-          {item: 'emendatusenigmatica:dimensional_gem'},
-          {item: 'emendatusenigmatica:dimensional_gem'},
-          {item: 'emendatusenigmatica:dimensional_gem'},
-          {item: 'emendatusenigmatica:dimensional_gem'},
-          {item: 'emendatusenigmatica:dimensional_gem'},
-          {item: 'emendatusenigmatica:dimensional_gem'},
-          {item: 'emendatusenigmatica:dimensional_gem'},
-          {item: 'emendatusenigmatica:dimensional_gem'},
-          {item: 'minecraft:diamond'}
-        ],
-        output: {
-            item: 'rftoolsbase:infused_diamond'
-        },
-        id: 'rftoolsbase:infused_diamond'
-      },
-
-      {
         inputs: [Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:manasteel_bee' }).weakNBT().toJson(),
         {item: 'botania:elementium_block'},
         {item: 'botania:elementium_block'},

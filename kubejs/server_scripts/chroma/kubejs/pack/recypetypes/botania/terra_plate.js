@@ -121,6 +121,38 @@ onEvent('recipes', (event) => {
           output: { item: 'masterfulmachinery:nuclearwaste_nuclearwaste_gas_port_mekanism_gas_input' },
           mana: 100000,
           id: `${id_prefix}nuclearwaste_nuclearwaste_gas_port_mekanism_gas_input`
+      },
+      {
+          inputs: [
+              { item: 'emendatusenigmatica:dimensional_gem' },
+              { item: 'emendatusenigmatica:dimensional_gem' },
+              { item: 'emendatusenigmatica:dimensional_gem' },
+              { item: 'emendatusenigmatica:dimensional_gem' },
+              { item: 'emendatusenigmatica:dimensional_gem' },
+              { item: 'emendatusenigmatica:dimensional_gem' },
+              { item: 'emendatusenigmatica:dimensional_gem' },
+              { item: 'emendatusenigmatica:dimensional_gem' },
+              { item: 'botania:mana_diamond' }
+          ],
+          output: { item: 'rftoolsbase:infused_diamond' },
+          mana: 2500,
+          id: 'rftoolsbase:infused_diamond'
+      },
+      {
+          inputs: [
+              { item: 'emendatusenigmatica:dimensional_gem' },
+              { item: 'emendatusenigmatica:dimensional_gem' },
+              { item: 'emendatusenigmatica:dimensional_gem' },
+              { item: 'emendatusenigmatica:dimensional_gem' },
+              { item: 'emendatusenigmatica:dimensional_gem' },
+              { item: 'emendatusenigmatica:dimensional_gem' },
+              { item: 'emendatusenigmatica:dimensional_gem' },
+              { item: 'emendatusenigmatica:dimensional_gem' },
+              { item: 'botania:mana_pearl' }
+          ],
+          output: { item: 'rftoolsbase:infused_enderpearl' },
+          mana: 2500,
+          id: 'rftoolsbase:infused_enderpearl'
       }
     ];
 

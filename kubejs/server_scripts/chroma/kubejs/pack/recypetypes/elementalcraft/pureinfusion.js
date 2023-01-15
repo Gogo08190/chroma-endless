@@ -115,31 +115,17 @@ onEvent('recipes', (event) => {
 
       // Afrit Essence
       {
-            inputs: [
-                { item: 'thermal:xp_crystal' },
-                { item: 'occultism:iesnium_ingot' },
-                { item: 'elementalcraft:powerful_fire_shard' },
-                { item: 'emendatusenigmatica:arcane_gem' },
-                { item: 'botania:pixie_dust' }
-            ],
-            element_amount: 10000,
-            output: 'occultism:afrit_essence',
-          id: `${id_prefix}afrit_essence`
-        },
-
-      // Infused Enderpearl
-      {
         inputs: [
-            { item: 'minecraft:ender_pearl' },
-            { item: 'emendatusenigmatica:dimensional_gem' },
-            { item: 'emendatusenigmatica:dimensional_gem' },
-            { item: 'emendatusenigmatica:dimensional_gem' },
-            { item: 'emendatusenigmatica:dimensional_gem' },
-        ],
-        element_amount: 1000,
-        output: 'rftoolsbase:infused_enderpearl',
-      id: 'rftoolsbase:infused_enderpearl'
-    }
+            { item: 'thermal:xp_crystal' },
+            { item: 'occultism:iesnium_ingot' },
+            { item: 'elementalcraft:powerful_fire_shard' },
+            { item: 'emendatusenigmatica:arcane_gem' },
+            { item: 'botania:pixie_dust' }
+          ],
+          element_amount: 10000,
+          output: 'occultism:afrit_essence',
+        id: `${id_prefix}afrit_essence`
+      },
 
     ];
 
