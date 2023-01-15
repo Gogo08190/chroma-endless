@@ -50,37 +50,37 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}fairy_nugget`
         },
         {
-            output: Fluid.of('materialis:molten_refined_obsidian', 1296),
+            output: Fluid.of('tconstruct:molten_refined_obsidian', 1296),
             input: '#forge:storage_blocks/refined_obsidian',
             energy: 40000,
             id: `${id_prefix}refined_obsidian_block`
         },
         {
-            output: Fluid.of('materialis:molten_refined_obsidian', 144),
+            output: Fluid.of('tconstruct:molten_refined_obsidian', 144),
             input: '#forge:ingots/refined_obsidian',
             energy: 5000,
             id: `${id_prefix}ingot_refined_obsidian`
         },
         {
-            output: Fluid.of('materialis:molten_refined_obsidian', 16),
+            output: Fluid.of('tconstruct:molten_refined_obsidian', 16),
             input: '#forge:nuggets/refined_obsidian',
             energy: 555,
             id: `${id_prefix}nugget_refined_obsidian`
         },
         {
-            output: Fluid.of('materialis:molten_refined_glowstone', 1296),
+            output: Fluid.of('tconstruct:molten_refined_glowstone', 1296),
             input: '#forge:storage_blocks/refined_glowstone',
             energy: 40000,
             id: `${id_prefix}refined_glowstone_block`
         },
         {
-            output: Fluid.of('materialis:molten_refined_glowstone', 144),
+            output: Fluid.of('tconstruct:molten_refined_glowstone', 144),
             input: '#forge:ingots/refined_glowstone',
             energy: 5000,
             id: `${id_prefix}ingot_refined_glowstone`
         },
         {
-            output: Fluid.of('materialis:molten_refined_glowstone', 16),
+            output: Fluid.of('tconstruct:molten_refined_glowstone', 16),
             input: '#forge:nuggets/refined_glowstone',
             energy: 555,
             id: `${id_prefix}nugget_refined_glowstone`
