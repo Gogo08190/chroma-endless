@@ -339,7 +339,7 @@ onEvent('recipes', (event) => {
             { item: 'mekanismgenerators:solar_panel', count: 3},
             { item: 'mekanism:alloy_infused', count: 2},
             { item: 'pneumaticcraft:transistor', count: 2},
-            { item: 'mekanism:energy_tablet', count: 1},
+            { item: 'mekanism:basic_induction_cell', count: 1},
             { item: 'emendatusenigmatica:steel_ingot', count: 2}
           ],
           pressure: 2.0,
@@ -351,7 +351,7 @@ onEvent('recipes', (event) => {
             { item: 'pneumaticcraft:turbine_rotor', count: 1},
             { item: 'mekanism:alloy_infused', count: 2},
             { item: 'mekanism:basic_control_circuit', count: 1},
-            { item: 'mekanism:energy_tablet', count: 2},
+            { item: 'mekanism:basic_induction_cell', count: 1},
             { item: 'bigreactors:reinforced_turbinerotorblade', count: 3},
             { item: 'mekanism:steel_casing', count: 1},
             { item: 'emendatusenigmatica:osmium_ingot', count: 3}
