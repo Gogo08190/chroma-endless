@@ -151,7 +151,7 @@ onEvent('item.tooltip', (event) => {
         },
         {
             items: ['custommachinery:custom_machine_item'],
-            text: Text.of('Do not craft in Occultism Storage !').red()
+            text: Text.of('Do not craft in Occultism Storage!').red()
         }
     ];
 
