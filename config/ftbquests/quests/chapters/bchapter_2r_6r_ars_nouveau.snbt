@@ -11,12 +11,12 @@
 		{
 			title: "Mythical Spells"
 			icon: "ars_nouveau:glyph_blink"
-			x: -6.25d
-			y: 2.5d
+			x: -4.5d
+			y: 3.75d
 			shape: "square"
 			dependencies: [
 				"774870F62D6F3E8A"
-				"4AF2D320ACBA99E3"
+				"631376636D8624B1"
 			]
 			optional: true
 			id: "1F811FEA2BA3BF40"
@@ -40,11 +40,6 @@
 					id: "17DB84CBAA71BC86"
 					type: "item"
 					item: "ars_nouveau:glyph_strength"
-				}
-				{
-					id: "13515AA72C080FA8"
-					type: "item"
-					item: "ars_nouveau:glyph_split"
 				}
 				{
 					id: "7A301EDCEF336A74"
@@ -99,8 +94,8 @@
 			}]
 		}
 		{
-			x: -6.25d
-			y: 1.0d
+			x: -3.25d
+			y: 1.25d
 			subtitle: "The Finest and Best Clay"
 			dependencies: ["31936ED1790DA9BF"]
 			id: "4AF2D320ACBA99E3"
@@ -119,10 +114,10 @@
 		{
 			title: "Marvelous Spells"
 			icon: "ars_nouveau:glyph_exchange"
-			x: -6.25d
-			y: -1.0d
+			x: -6.0d
+			y: 3.75d
 			shape: "square"
-			dependencies: ["31936ED1790DA9BF"]
+			dependencies: ["631376636D8624B1"]
 			optional: true
 			min_width: 250
 			id: "77D59BCA31512467"
@@ -163,19 +158,9 @@
 					item: "ars_nouveau:glyph_smelt"
 				}
 				{
-					id: "351C9604ED0D5CC6"
-					type: "item"
-					item: "ars_nouveau:glyph_arc_projectile"
-				}
-				{
 					id: "286C0AAE9D3BB4AB"
 					type: "item"
 					item: "ars_nouveau:glyph_firework"
-				}
-				{
-					id: "2D556C74AB6A771E"
-					type: "item"
-					item: "ars_nouveau:glyph_duration_down"
 				}
 				{
 					id: "310AC9D8DF265EED"
@@ -186,11 +171,6 @@
 					id: "3EBACA53BF99DA13"
 					type: "item"
 					item: "ars_nouveau:glyph_ender_inventory"
-				}
-				{
-					id: "61971F1299E0514D"
-					type: "item"
-					item: "ars_nouveau:glyph_extend_time"
 				}
 				{
 					id: "604F93AFF6014CDD"
@@ -206,26 +186,6 @@
 					id: "00CA2C1EE4F94049"
 					type: "item"
 					item: "ars_nouveau:glyph_aoe"
-				}
-				{
-					id: "05F7F2DBA894DAEA"
-					type: "item"
-					item: "ars_nouveau:glyph_pierce"
-				}
-				{
-					id: "78FCACCCFF97E873"
-					type: "item"
-					item: "ars_nouveau:glyph_accelerate"
-				}
-				{
-					id: "0EAD1F0372F1370C"
-					type: "item"
-					item: "ars_nouveau:glyph_dampen"
-				}
-				{
-					id: "798B334421DA4E33"
-					type: "item"
-					item: "ars_nouveau:glyph_enderstorage_chest"
 				}
 				{
 					id: "748397AD9AD7CC7B"
@@ -248,19 +208,9 @@
 					item: "ars_nouveau:glyph_flare"
 				}
 				{
-					id: "66F48A100668E9D5"
-					type: "item"
-					item: "ars_nouveau:glyph_enderstorage_tank"
-				}
-				{
 					id: "171B5396DD6EDA76"
 					type: "item"
 					item: "ars_nouveau:glyph_crush"
-				}
-				{
-					id: "3189898C141C6EE7"
-					type: "item"
-					item: "ars_nouveau:glyph_fortune"
 				}
 				{
 					id: "2E60AC17618630FC"
@@ -275,7 +225,7 @@
 			}]
 		}
 		{
-			x: -5.25d
+			x: -3.25d
 			y: 0.0d
 			subtitle: "A better Clay"
 			dependencies: ["36D7AB33ECC0C810"]
@@ -294,10 +244,10 @@
 		{
 			title: "No School Needed"
 			icon: "ars_nouveau:glyph_split"
-			x: -3.75d
-			y: -1.0d
+			x: -7.5d
+			y: 3.75d
 			shape: "square"
-			dependencies: ["36D7AB33ECC0C810"]
+			dependencies: ["631376636D8624B1"]
 			optional: true
 			id: "4CDD605735DE26FD"
 			tasks: [
@@ -310,11 +260,6 @@
 					id: "61D68FD8F53F1116"
 					type: "item"
 					item: "ars_nouveau:glyph_dampen"
-				}
-				{
-					id: "27190469F921493E"
-					type: "item"
-					item: "ars_nouveau:glyph_orbit"
 				}
 				{
 					id: "08B71B6F044E9A6B"
@@ -367,16 +312,6 @@
 					item: "ars_nouveau:glyph_fortune"
 				}
 				{
-					id: "4FEB7B3BF25DC215"
-					type: "item"
-					item: "ars_nouveau:glyph_homing_projectile"
-				}
-				{
-					id: "7D188E93DA02AD15"
-					type: "item"
-					item: "ars_nouveau:glyph_aoe"
-				}
-				{
 					id: "2F25C33E0823BE9C"
 					type: "item"
 					item: "ars_nouveau:glyph_arc_projectile"
@@ -396,10 +331,10 @@
 		{
 			title: "School Of Elements"
 			icon: "ars_nouveau:glyph_haste"
-			x: -2.75d
-			y: -1.0d
+			x: -5.25d
+			y: 2.75d
 			shape: "square"
-			dependencies: ["36D7AB33ECC0C810"]
+			dependencies: ["631376636D8624B1"]
 			optional: true
 			id: "58E84351890C0A94"
 			tasks: [
@@ -472,7 +407,7 @@
 		}
 		{
 			x: -3.25d
-			y: 0.0d
+			y: -1.25d
 			subtitle: "First Clay"
 			dependencies: ["2D280B19DAF910F3"]
 			id: "36D7AB33ECC0C810"
@@ -491,10 +426,10 @@
 		{
 			title: "EnderChest School"
 			icon: "ars_nouveau:glyph_color_orange"
-			x: -3.75d
-			y: 1.0d
+			x: -6.0d
+			y: 1.75d
 			shape: "square"
-			dependencies: ["36D7AB33ECC0C810"]
+			dependencies: ["631376636D8624B1"]
 			optional: true
 			id: "3E32FA480007D4D3"
 			tasks: [
@@ -608,10 +543,10 @@
 		{
 			title: "School Of Manipulation"
 			icon: "ars_nouveau:glyph_delay"
-			x: -2.75d
-			y: 1.0d
+			x: -6.75d
+			y: 2.75d
 			shape: "square"
-			dependencies: ["36D7AB33ECC0C810"]
+			dependencies: ["631376636D8624B1"]
 			optional: true
 			id: "4E732C30E3322D12"
 			tasks: [
@@ -1192,6 +1127,25 @@
 				id: "2487350DDCBB23EA"
 				type: "random"
 				table_id: 7001957974459087103L
+			}]
+		}
+		{
+			title: "Spells"
+			x: -6.0d
+			y: 0.0d
+			subtitle: "Unlock New Spells !"
+			dependencies: [
+				"4AF2D320ACBA99E3"
+				"31936ED1790DA9BF"
+				"36D7AB33ECC0C810"
+			]
+			optional: true
+			id: "631376636D8624B1"
+			tasks: [{
+				id: "3A1B3D46DD2B41F2"
+				type: "checkmark"
+				title: "Unlock spells for &5Ars Nouveau&r"
+				icon: "ars_nouveau:blank_glyph"
 			}]
 		}
 	]
