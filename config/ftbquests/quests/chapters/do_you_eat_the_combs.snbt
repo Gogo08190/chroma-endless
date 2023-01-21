@@ -1285,7 +1285,11 @@
 			x: 3.0d
 			y: -10.5d
 			shape: "hexagon"
-			dependencies: ["27D5F14596359639"]
+			dependencies: [
+				"27D5F14596359639"
+				"37231D2D5C726991"
+			]
+			dependency_requirement: "one_completed"
 			hide_text_until_complete: false
 			id: "299C3555CC5F9EF3"
 			tasks: [{

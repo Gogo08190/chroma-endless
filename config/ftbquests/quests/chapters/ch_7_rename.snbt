@@ -909,13 +909,7 @@
 			rewards: [{
 				id: "1AB4D57A8BDEB15F"
 				type: "item"
-				item: {
-					id: "extendedcrafting:singularity"
-					Count: 1b
-					tag: {
-						Id: "extendedcrafting:manasteel"
-					}
-				}
+				item: "botania:manasteel_ingot"
 				count: 16
 			}]
 		}

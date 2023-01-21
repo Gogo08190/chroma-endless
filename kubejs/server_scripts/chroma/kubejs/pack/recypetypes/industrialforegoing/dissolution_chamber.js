@@ -32,7 +32,7 @@ onEvent('recipes', (event) => {
                 'thermal:lumium_glass',
                 'thermal:lumium_glass',
                 'immersiveengineering:component_steel',
-                'powah:energy_discharger_nitro',
+                'refinedpipes:ultimate_energy_pipe',
                 'immersiveengineering:component_steel'
             ],
             inputFluid: 'immersiveengineering:creosote',
