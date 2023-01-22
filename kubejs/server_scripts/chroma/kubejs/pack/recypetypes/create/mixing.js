@@ -13,7 +13,7 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}cured_rubber`
         },
         {
-            inputs: ['#forge:ingots/iron', '#forge:dusts/ender'],
+            inputs: ['#forge:ingots/iron', 'emendatusenigmatica:enderium_ingot'],
             output: Item.of('betterendforge:terminite_ingot', 1),
             id: `${id_prefix}terminite_ingot_from_iron`
         },

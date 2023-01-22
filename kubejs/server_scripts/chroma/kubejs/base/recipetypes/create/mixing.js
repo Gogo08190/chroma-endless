@@ -133,7 +133,7 @@ onEvent('recipes', (event) => {
                 id: `${id_prefix}invar_ingot`
             },
             {
-                inputs: ['#forge:ingots/thallasium', '#forge:dusts/ender'],
+                inputs: ['#forge:ingots/thallasium', 'emendatusenigmatica:enderium_ingot'],
                 output: Item.of('betterendforge:terminite_ingot', 1),
                 id: `${id_prefix}terminite_ingot_from_thallasium`
             },

@@ -59,10 +59,10 @@ onEvent('recipes', (event) => {
         {
             inputs: ['#forge:ingots/iron', '#forge:dusts/ender'],
             outputs: [Item.of('betterendforge:terminite_ingot')],
-            id: `${id_prefix}terminite_ingot`
+            id: 'thermal:compat/betterendforge/smelter_betterendforge_terminite_ingot'
         },
         {
-            inputs: ['#forge:ingots/thallasium', '#forge:dusts/ender'],
+            inputs: ['#forge:ingots/thallasium', 'emendatusenigmatica:enderium_ingot'],
             outputs: [Item.of('betterendforge:terminite_ingot')],
             id: `${id_prefix}terminite_ingot`
         },

@@ -9,7 +9,7 @@ onEvent('recipes', (event) => {
         },
         {
             input1: '#forge:ingots/thallasium',
-            secondaries: ['#forge:dusts/ender'],
+            secondaries: ['emendatusenigmatica:enderium_ingot'],
             outputs: [Item.of('betterendforge:terminite_ingot')],
             id: `${id_prefix}terminite_ingot_from_thallasium`
         },
