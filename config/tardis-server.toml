@@ -128,17 +128,17 @@
 	["Mob Entity Configurations".Daleks]
 		#If certain Daleks should be able grief blocks when Gamerule mobGriefing is enabled
 		#If false, other mobs can still grief blocks, but Daleks will not.
-		dalekBlockGrief = true
+		dalekBlockGrief = false
 		#If Daleks will always be immune to projectile damage
 		#If false, Daleks will only be immune to projectiles in Hard Mode
 		dalekImmuneToProjectiles = true
 		#If Special Weapon Dalek lasers should always be explosive on impact
 		#If false, lasers will only make explosions if it hits a block
-		specialWeaponsAlwaysExplode = true
+		specialWeaponsAlwaysExplode = false
 		#Radius of the Special Weapon Dalek Explosion, between 1 and 100
 		#Does not accept decimal points
 		#Range: 1 ~ 100
-		specialWeaponExplosionRadius = 3
+		specialWeaponExplosionRadius = 1
 		#Determine if Daleks should target all living entities.
 		#If this is false, you can fine tune the targeting, such as hostiles only, or blacklist animals.
 		dalekTargetAllLiving = true
@@ -157,4 +157,3 @@
 		#Chance to disable shields
 		#Range: 0.0 ~ 1.0
 		dalekShieldDisableChance = 0.1
-
