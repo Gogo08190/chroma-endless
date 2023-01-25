@@ -1543,49 +1543,6 @@ onEvent("recipes", (event) => {
       ],
       "key": {
         "A": {
-          "item": "allthemodium:allthemodium_ingot"
-        },
-        "B": {
-          "item": "enderioalloys:item_alloy_ingot_stellar_alloy"
-        },
-        "C": {
-          "item": "enderioalloys:item_alloy_ingot_vivid_alloy"
-        },
-        "D": {
-          "item": "allthemodium:allthemodium_ore"
-        },
-        "E": {
-          "type": "forge:nbt",
-          "item": "resourcefulbees:bee_jar",
-          "count": 1,
-          "nbt": "{Entity:\"resourcefulbees:soul_lava_bee\",display:{Name:\u0027{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.soul_lava_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}\u0027},Color:\"#2762a1\"}"
-        }
-      },
-      "result": {
-        "type": "forge:nbt",
-        "item": "resourcefulbees:bee_jar",
-        "count": 1,
-        "nbt": "{Entity:\"resourcefulbees:allthemodium_bee\"}"
-      }
-    }
-  ).id(`${id_prefix}allthemodium_bee`)
-
-  event.custom(
-    {
-      "type": "extendedcrafting:shaped_table",
-      "pattern": [
-        "AAAAAAAAA",
-        "AABBBBBAA",
-        "ABACCCABA",
-        "ABCADACBA",
-        "ABCDEDCBA",
-        "ABCADACBA",
-        "ABACCCABA",
-        "AABBBBBAA",
-        "AAAAAAAAA"
-      ],
-      "key": {
-        "A": {
           "item": "allthemodium:vibranium_allthemodium_alloy_ingot"
         },
         "B": {

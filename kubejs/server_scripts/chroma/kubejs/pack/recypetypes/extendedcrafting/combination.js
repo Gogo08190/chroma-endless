@@ -202,6 +202,32 @@ onEvent('recipes', (event) => {
           powerRate: 10000,
           result: { item: 'kubejs:thetaneck' },
           id: `${id_prefix}thetaneck`
+      },
+      {
+          inputs: [
+              { item: 'allthemodium:allthemodium_block' },
+              { item: 'allthemodium:allthemodium_block' },
+              { item: 'allthemodium:allthemodium_block' },
+              { item: 'allthemodium:allthemodium_block' },
+              { item: 'allthemodium:allthemodium_block' },
+              { item: 'allthemodium:allthemodium_block' },
+              { item: 'allthemodium:allthemodium_block' },
+              { item: 'allthemodium:allthemodium_block' },
+              { item: 'enderioalloys:item_alloy_ingot_vivid_alloy' },
+              { item: 'enderioalloys:item_alloy_ingot_vivid_alloy' },
+              { item: 'enderioalloys:item_alloy_ingot_vivid_alloy' },
+              { item: 'enderioalloys:item_alloy_ingot_vivid_alloy' },
+              { item: 'enderioalloys:item_alloy_ingot_stellar_alloy' },
+              { item: 'enderioalloys:item_alloy_ingot_stellar_alloy' },
+              { item: 'enderioalloys:item_alloy_ingot_stellar_alloy' },
+              { item: 'enderioalloys:item_alloy_ingot_stellar_alloy' }
+
+          ],
+          catalyst: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:soul_lava_bee' }).weakNBT().toJson(),
+          powerCost: 500000,
+          powerRate: 10000,
+          result: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:allthemodium_bee' }).toJson(),
+          id: `${id_prefix}allthemodium_bee`
       }
     ];
 
