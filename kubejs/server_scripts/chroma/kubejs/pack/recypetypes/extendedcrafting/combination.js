@@ -228,6 +228,58 @@ onEvent('recipes', (event) => {
           powerRate: 10000,
           result: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:allthemodium_bee' }).toJson(),
           id: `${id_prefix}allthemodium_bee`
+      },
+      {
+          inputs: [
+              { item: 'allthemodium:vibranium_allthemodium_alloy_block' },
+              { item: 'allthemodium:vibranium_allthemodium_alloy_block' },
+              { item: 'allthemodium:vibranium_allthemodium_alloy_block' },
+              { item: 'allthemodium:vibranium_allthemodium_alloy_block' },
+              { item: 'allthemodium:vibranium_allthemodium_alloy_block' },
+              { item: 'allthemodium:vibranium_allthemodium_alloy_block' },
+              { item: 'allthemodium:vibranium_allthemodium_alloy_block' },
+              { item: 'allthemodium:vibranium_allthemodium_alloy_block' },
+              { item: 'enderioalloys:item_alloy_ingot_vivid_alloy' },
+              { item: 'enderioalloys:item_alloy_ingot_vivid_alloy' },
+              { item: 'enderioalloys:item_alloy_ingot_vivid_alloy' },
+              { item: 'enderioalloys:item_alloy_ingot_vivid_alloy' },
+              { item: 'allthemodium:vibranium_ingot' },
+              { item: 'allthemodium:vibranium_ingot' },
+              { item: 'allthemodium:vibranium_ingot' },
+              { item: 'allthemodium:vibranium_ingot' }
+
+          ],
+          catalyst: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:allthemodium_bee' }).weakNBT().toJson(),
+          powerCost: 500000,
+          powerRate: 10000,
+          result: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:vibranium_bee' }).toJson(),
+          id: `${id_prefix}vibranium_bee`
+      },
+      {
+          inputs: [
+              { item: 'allthemodium:unobtainium_vibranium_alloy_block' },
+              { item: 'allthemodium:unobtainium_vibranium_alloy_block' },
+              { item: 'allthemodium:unobtainium_vibranium_alloy_block' },
+              { item: 'allthemodium:unobtainium_vibranium_alloy_block' },
+              { item: 'allthemodium:unobtainium_vibranium_alloy_block' },
+              { item: 'allthemodium:unobtainium_vibranium_alloy_block' },
+              { item: 'allthemodium:unobtainium_vibranium_alloy_block' },
+              { item: 'allthemodium:unobtainium_vibranium_alloy_block' },
+              { item: 'enderioalloys:item_alloy_ingot_vivid_alloy' },
+              { item: 'enderioalloys:item_alloy_ingot_vivid_alloy' },
+              { item: 'enderioalloys:item_alloy_ingot_vivid_alloy' },
+              { item: 'enderioalloys:item_alloy_ingot_vivid_alloy' },
+              { item: 'allthemodium:unobtainium_ingot' },
+              { item: 'allthemodium:unobtainium_ingot' },
+              { item: 'allthemodium:unobtainium_ingot' },
+              { item: 'allthemodium:unobtainium_ingot' }
+
+          ],
+          catalyst: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:vibranium_bee' }).weakNBT().toJson(),
+          powerCost: 500000,
+          powerRate: 10000,
+          result: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:unobtainium_bee' }).toJson(),
+          id: `${id_prefix}unobtainium_bee`
       }
     ];
 
