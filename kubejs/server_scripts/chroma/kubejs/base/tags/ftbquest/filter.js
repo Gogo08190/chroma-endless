@@ -10,6 +10,7 @@ onEvent('item.tags', (event) => {
       'tetra:modular_double',
       'resourcefulbees:bee_jar',
       'envirocore:flash_memory',
-      'apotheosis:hellshelf'
+      'apotheosis:hellshelf',
+      'tconstruct:creative_slot'
   ]);
 });

@@ -250,7 +250,7 @@ onEvent('recipes', (event) => {
                 },
                 {
                     type: 'deploying',
-                    input: ['kubejs:incomplete_upgrade', 'betterendforge:iron_hammer'],
+                    input: ['kubejs:incomplete_upgrade', 'betterendforge:aeternium_hammer_head'],
                     output: 'kubejs:incomplete_upgrade'
                 },
                 {
