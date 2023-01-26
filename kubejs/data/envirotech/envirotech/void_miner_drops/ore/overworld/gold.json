@@ -4,42 +4,13 @@
 	"item": {"raw:item": "emendatusenigmatica:gold_ore", "count":1},
 	"config": [
 		{
-			"weight": 311,
-			"dimensions": ["minecraft:overworld"],
-			"blacklist_biomes": true,
-			"biomes": [
-				"minecraft:badlands",
-				"minecraft:badlands_plateau",
-				"minecraft:the_end"
-			]
-		},
-		{
-			"focus": "envirotech:yellow",
-			"weight": 2488,
-			"dimensions": ["minecraft:overworld"],
-			"blacklist_biomes": true,
-			"biomes": [
-				"minecraft:badlands",
-				"minecraft:badlands_plateau",
-				"minecraft:the_end"
-			]
-		},
-		{
 			"weight": 389,
-			"dimensions": ["minecraft:overworld"],
-			"biomes": [
-				"minecraft:badlands",
-				"minecraft:badlands_plateau"
-			]
+			"dimensions": ["minecraft:overworld"]
 		},
 		{
 			"focus": "envirotech:yellow",
 			"weight": 3112,
-			"dimensions": ["minecraft:overworld"],
-			"biomes": [
-				"minecraft:badlands",
-				"minecraft:badlands_plateau"
-			]
+			"dimensions": ["minecraft:overworld"]
 		}
 	]
 }
