@@ -449,6 +449,15 @@ onEvent('recipes', (event) => {
             E: 'minecraft:end_stone'
           },
           id: `${id_prefex}sangnum`
+        },
+        {
+          output: Item.of('byg:cryptic_stone', 8),
+          pattern: ['EEE', 'EME', 'EEE'],
+          key: {
+            M: 'minecraft:magma_cream',
+            E: 'minecraft:stone'
+          },
+          id: `${id_prefex}cryptic_stone`
         }
     ];
 
