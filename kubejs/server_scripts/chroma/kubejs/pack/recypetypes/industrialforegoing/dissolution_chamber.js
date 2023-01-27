@@ -1097,7 +1097,27 @@ onEvent('recipes', (event) => {
               outputFluid: '',
               outputFluidAmount: 0,
               id: `${id_prefix}nuclearwaste_nuclearwaste_fluid_port_fluids_input`
-          }
+          },
+          //BeeHive
+          {
+                inputs: [
+                    'minecraft:stripped_oak_wood',
+                    'minecraft:stripped_oak_wood',
+                    'minecraft:stripped_oak_wood',
+                    'minecraft:honeycomb_block',
+                    'minecraft:honeycomb_block',
+                    'minecraft:stripped_oak_wood',
+                    'minecraft:stripped_oak_wood',
+                    'minecraft:stripped_oak_wood'
+                ],
+                inputFluid: 'resourcefulbees:honey',
+                inputFluidAmount: 1000,
+                processingTime: 300,
+                outputItem: { item: 'minecraft:beehive', count: 1 },
+                outputFluid: '',
+                outputFluidAmount: 0,
+                id: `${id_prefix}beehive`
+            }
     ];
 
     recipes.forEach((recipe) => {
