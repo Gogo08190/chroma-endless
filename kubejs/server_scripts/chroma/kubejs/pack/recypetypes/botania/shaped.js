@@ -126,7 +126,7 @@ onEvent('recipes', (event) => {
           output: 'botania:mana_distributor',
           pattern: ['LLL', 'MRM', 'LLL'],
           key: {
-              R:'ars_nouveau:arcane_relay_splitter',
+              R:'botania:mana_spreader',
               M:'botania:manasteel_block',
               L:'botania:livingrock'
           },
