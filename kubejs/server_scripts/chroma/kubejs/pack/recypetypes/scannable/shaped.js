@@ -52,7 +52,7 @@ onEvent('recipes', (event) => {
               G:'minecraft:green_dye',
               I:'scannable:module_blank',
               H:'#minecraft:wool',
-              P:Item.of('apotheosis:farmers_leash').weakNBT()
+              P:'minecraft:lead'
           },
           id: 'scannable:module_animal'
       },
