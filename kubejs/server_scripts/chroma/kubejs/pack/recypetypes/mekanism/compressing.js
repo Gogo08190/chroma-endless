@@ -6,7 +6,7 @@ onEvent('recipes', (event) => {
       {
         input: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:glowstone_bee' }).weakNBT().toJson(),
         gasInput: { amount:16, gas: "mekanism:liquid_osmium" },
-        output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:refined_glowstone_bee' }).toJson(),
+        output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:refined_glowstone_bee' }).weakNBT(),
         id: `${id_prefix}refined_glowstone_bee`
       },
 
@@ -14,7 +14,7 @@ onEvent('recipes', (event) => {
       {
         input: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:obsidian_bee' }).weakNBT().toJson(),
         gasInput: { amount:16, gas: "mekanism:liquid_osmium" },
-        output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:refined_obsidian_bee' }).toJson(),
+        output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:refined_obsidian_bee' }).weakNBT(),
         id: `${id_prefix}refined_obsidian_bee`
       }
     ];
