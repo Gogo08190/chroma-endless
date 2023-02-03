@@ -21,10 +21,6 @@ onEvent('recipes', (event) => {
             id: 'simplefarming:blt'
         },
         {
-            output: 'simplefarming:fish_fillet',
-            inputs: ['#forge:grain', '#forge:grain']
-        },
-        {
             output: Item.of('farmersdelight:milk_bottle', 4),
             inputs: [
                 'minecraft:milk_bucket',
