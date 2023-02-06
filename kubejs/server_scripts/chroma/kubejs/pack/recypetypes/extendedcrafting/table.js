@@ -2258,9 +2258,6 @@ onEvent("recipes", (event) => {
           "item": "botania:terrasteel_ingot"
         },
         {
-          "item": "miniutilities:unstable_ingot"
-        },
-        {
           "item": "emendatusenigmatica:uranium_ingot"
         },
         {
