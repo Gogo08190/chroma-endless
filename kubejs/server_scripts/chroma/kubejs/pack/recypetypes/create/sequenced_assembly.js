@@ -264,7 +264,7 @@ onEvent('recipes', (event) => {
 
         //Creative slot 2
         {
-            input: 'tconstruct:plate_chestplate',
+            input: 'tconstruct:hepatizon_block',
             outputs: [Item.of('tconstruct:creative_slot', '{slot:"defense"}')],
             transitionalItem: 'kubejs:incomplete_upgrade',
             loops: 6,
