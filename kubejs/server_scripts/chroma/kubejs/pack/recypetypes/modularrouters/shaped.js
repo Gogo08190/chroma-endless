@@ -44,16 +44,6 @@ onEvent('recipes', (event) => {
       		id: 'modularrouters:activator_module'
     	},
     	{
-      		output: 'modularrouters:breaker_module',
-      		pattern: [' A ', 'BCB'],
-      		key: {
-      		    A: Item.of('minecraft:diamond_pickaxe', '{Damage:0}').weakNBT(),
-              B: '#forge:ingots/brass',
-              C: 'modularrouters:blank_module'
-      		},
-      		id: 'modularrouters:breaker_module'
-    	},
-    	{
       		output: 'modularrouters:puller_module_2',
       		pattern: [' A ', 'BCB', 'DED'],
       		key: {
