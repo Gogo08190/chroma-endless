@@ -116,6 +116,25 @@ onEvent('recipes', (event) => {
                 ],
                 time: 250,
                 id: `${id_prefix}deltaneck`
+            },
+            {
+                input: 'minecraft:quartz_block',
+                output: {
+                  id: 'betterendforge:smaragdant_crystal',
+                  Count: 1
+                },
+                catalysts: [
+                    { index: 0, item: 'betterendforge:smaragdant_crystal_shard' },
+                    { index: 1, item: 'betterendforge:smaragdant_crystal_shard' },
+                    { index: 2, item: 'betterendforge:smaragdant_crystal_shard' },
+                    { index: 3, item: 'betterendforge:smaragdant_crystal_shard' },
+                    { index: 4, item: 'betterendforge:smaragdant_crystal_shard' },
+                    { index: 5, item: 'betterendforge:smaragdant_crystal_shard' },
+                    { index: 6, item: 'betterendforge:smaragdant_crystal_shard' },
+                    { index: 7, item: 'betterendforge:smaragdant_crystal_shard' }
+                ],
+                time: 250,
+                id: `${id_prefix}smaragdant_crystal`
             }
         ]
     };
