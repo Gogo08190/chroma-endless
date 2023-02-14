@@ -181,7 +181,7 @@
 	#Range: 5 ~ 100
 	recovery_player_max_saves = 15
 	#Enables to backup automatically dead familiars [false/true|default:true]
-	recovery_familiar_enable = true
+	recovery_familiar_enable = false
 	#Backup players on death [false/true|default:false]
 	backup_on_death = true
 
@@ -195,7 +195,7 @@
 	chance_random_scroll_on_boss = 100
 	#Chance on 1000 to receive a familiar receptacle on undead boss [0..1000|default:100]
 	#Range: 0 ~ 1000
-	chance_familiar_receptacle_on_boss = 100
+	chance_familiar_receptacle_on_boss = 0
 	#Chance on 1000 to receive a Soul Receptacle on undead boss [0..1000|default:50]
 	#Range: 0 ~ 1000
 	chance_soul_receptacle_on_boss = 50
@@ -219,4 +219,3 @@
 	keep_cosmetic_armor = true
 	#Ensure the potion effects to stay on the player after returning from end conquered [false/true|default:true]
 	preserve_effects_on_return_end_conquered = true
-
