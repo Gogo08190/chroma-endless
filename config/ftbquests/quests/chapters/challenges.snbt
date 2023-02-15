@@ -19,6 +19,7 @@
 			y: 0.0d
 			shape: "diamond"
 			size: 2.0d
+			repeatable: true
 			id: "24A8204ED4BB7EAD"
 			tasks: [{
 				id: "4B22D023A9B02565"
@@ -49,6 +50,7 @@
 			y: 0.0d
 			shape: "diamond"
 			size: 2.0d
+			repeatable: true
 			id: "52F130C2C86475B1"
 			tasks: [{
 				id: "4192EE332D53944A"
@@ -79,6 +81,7 @@
 			y: 0.0d
 			shape: "diamond"
 			size: 2.0d
+			repeatable: true
 			id: "21BDC384557E2EAE"
 			tasks: [{
 				id: "7BC3AEC69C7A4418"
@@ -109,6 +112,7 @@
 			y: 0.0d
 			shape: "diamond"
 			size: 2.0d
+			repeatable: true
 			id: "688C92C8832FC0DD"
 			tasks: [{
 				id: "78B578213A2D2B39"
@@ -139,6 +143,7 @@
 			y: 3.0d
 			shape: "diamond"
 			size: 3.0d
+			repeatable: true
 			id: "0D0A78198C0DA642"
 			tasks: [{
 				id: "4A358FCE58624600"
@@ -173,6 +178,7 @@
 			y: 3.0d
 			shape: "diamond"
 			size: 3.0d
+			repeatable: true
 			id: "26BCBD05E801AA0F"
 			tasks: [{
 				id: "1EF518A22B4DEB0C"
@@ -206,6 +212,7 @@
 			x: 4.5d
 			y: 1.0d
 			size: 2.0d
+			repeatable: true
 			id: "564EABB527A3B77E"
 			tasks: [{
 				id: "3D598B07527C5ACF"
@@ -235,6 +242,7 @@
 			x: 1.5d
 			y: -1.0d
 			size: 2.0d
+			repeatable: true
 			id: "3E6CD0BD929FFC81"
 			tasks: [{
 				id: "4A6D09902A272FD9"
@@ -264,6 +272,7 @@
 			x: 7.5d
 			y: -1.0d
 			size: 2.0d
+			repeatable: true
 			id: "7AA6F60D91C728FD"
 			tasks: [{
 				id: "141CC994FB0887F5"
@@ -293,6 +302,7 @@
 			x: 4.5d
 			y: -1.0d
 			size: 2.0d
+			repeatable: true
 			id: "1533F800C1FEF331"
 			tasks: [{
 				id: "67FFE1A140349B1B"
@@ -322,6 +332,7 @@
 			x: 1.5d
 			y: 1.0d
 			size: 2.0d
+			repeatable: true
 			id: "23059119159CE6AB"
 			tasks: [{
 				id: "073A22668C1AC07E"
@@ -355,6 +366,7 @@
 			x: 7.5d
 			y: 1.0d
 			size: 2.0d
+			repeatable: true
 			id: "1FC98CDB16839E18"
 			tasks: [{
 				id: "75B25CDA704855DC"
@@ -383,6 +395,7 @@
 			x: 0.0d
 			y: -2.0d
 			size: 2.0d
+			repeatable: true
 			id: "3C260363DE1C840F"
 			tasks: [{
 				id: "38144B3502CEF57B"
@@ -412,6 +425,7 @@
 			x: 9.0d
 			y: -2.0d
 			size: 2.0d
+			repeatable: true
 			id: "1DD8D16E4A9B98DB"
 			tasks: [{
 				id: "43AABC4E576582AA"
@@ -440,6 +454,7 @@
 			x: 3.0d
 			y: -2.0d
 			size: 2.0d
+			repeatable: true
 			id: "18239F623A6E3348"
 			tasks: [{
 				id: "4562F14AB3EC3E92"
@@ -468,6 +483,7 @@
 			x: 6.0d
 			y: -2.0d
 			size: 2.0d
+			repeatable: true
 			id: "1D88AC25039055AB"
 			tasks: [{
 				id: "6E3969BD29BBF53D"
@@ -496,6 +512,7 @@
 			x: 1.5d
 			y: -3.0d
 			size: 2.0d
+			repeatable: true
 			id: "7E61764377CF6D51"
 			tasks: [{
 				id: "17A7E28BC4851230"
@@ -531,6 +548,7 @@
 			x: 4.5d
 			y: -3.25d
 			size: 2.0d
+			repeatable: true
 			id: "426FA1C6E845967B"
 			tasks: [{
 				id: "01FCF78824C4B797"
@@ -566,6 +584,7 @@
 			x: 7.5d
 			y: -3.0d
 			size: 2.0d
+			repeatable: true
 			id: "4FBFA55B83887EE4"
 			tasks: [{
 				id: "317C71C1333E4D98"
