@@ -28,13 +28,21 @@
 				entity: "minecraft:zombie"
 				value: 100L
 			}]
-			rewards: [{
-				id: "4488884B7BF04A01"
-				type: "item"
-				item: "minecraft:zombie_head"
-				count: 5
-				random_bonus: 5
-			}]
+			rewards: [
+				{
+					id: "4488884B7BF04A01"
+					type: "item"
+					item: "minecraft:zombie_head"
+					count: 5
+					random_bonus: 5
+				}
+				{
+					id: "1848A1E7C7057AF4"
+					type: "item"
+					item: "miniutilities:experience_pearl"
+					count: 10
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -50,13 +58,21 @@
 				entity: "minecraft:skeleton"
 				value: 100L
 			}]
-			rewards: [{
-				id: "04AA980AF6FAA405"
-				type: "item"
-				item: "minecraft:skeleton_skull"
-				count: 5
-				random_bonus: 5
-			}]
+			rewards: [
+				{
+					id: "04AA980AF6FAA405"
+					type: "item"
+					item: "minecraft:skeleton_skull"
+					count: 5
+					random_bonus: 5
+				}
+				{
+					id: "2738B6BDD42CE598"
+					type: "item"
+					item: "miniutilities:experience_pearl"
+					count: 10
+				}
+			]
 		}
 		{
 			x: 6.0d
@@ -72,13 +88,21 @@
 				entity: "minecraft:creeper"
 				value: 100L
 			}]
-			rewards: [{
-				id: "79DA027C82496513"
-				type: "item"
-				item: "minecraft:gunpowder"
-				count: 16
-				random_bonus: 48
-			}]
+			rewards: [
+				{
+					id: "79DA027C82496513"
+					type: "item"
+					item: "minecraft:gunpowder"
+					count: 16
+					random_bonus: 48
+				}
+				{
+					id: "3B6DC3D7F3A6CD8D"
+					type: "item"
+					item: "miniutilities:experience_pearl"
+					count: 10
+				}
+			]
 		}
 		{
 			x: 9.0d
@@ -94,13 +118,21 @@
 				entity: "minecraft:wither_skeleton"
 				value: 100L
 			}]
-			rewards: [{
-				id: "794090558DAF47E0"
-				type: "item"
-				item: "minecraft:wither_skeleton_skull"
-				count: 5
-				random_bonus: 5
-			}]
+			rewards: [
+				{
+					id: "794090558DAF47E0"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+					count: 5
+					random_bonus: 5
+				}
+				{
+					id: "7C4EAA07F7EA8313"
+					type: "item"
+					item: "miniutilities:experience_pearl"
+					count: 10
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -122,11 +154,19 @@
 				entity: "minecraft:ender_dragon"
 				value: 10L
 			}]
-			rewards: [{
-				id: "7F73FFD8E18D0D63"
-				type: "item"
-				item: "minecraft:dragon_egg"
-			}]
+			rewards: [
+				{
+					id: "7F73FFD8E18D0D63"
+					type: "item"
+					item: "minecraft:dragon_egg"
+				}
+				{
+					id: "65B4C66E76657DBD"
+					type: "item"
+					item: "miniutilities:experience_pearl"
+					count: 10
+				}
+			]
 		}
 		{
 			x: 6.0d
@@ -148,11 +188,19 @@
 				entity: "minecraft:wither"
 				value: 10L
 			}]
-			rewards: [{
-				id: "0DEC0EAF177EB5EF"
-				type: "item"
-				item: "minecraft:nether_star"
-			}]
+			rewards: [
+				{
+					id: "0DEC0EAF177EB5EF"
+					type: "item"
+					item: "minecraft:nether_star"
+				}
+				{
+					id: "404DDA35C7E91BA7"
+					type: "item"
+					item: "miniutilities:experience_pearl"
+					count: 10
+				}
+			]
 		}
 		{
 			x: 4.5d
@@ -167,13 +215,21 @@
 				entity: "minecraft:enderman"
 				value: 100L
 			}]
-			rewards: [{
-				id: "0535ECFDB3F02679"
-				type: "item"
-				item: "minecraft:ender_pearl"
-				count: 16
-				random_bonus: 48
-			}]
+			rewards: [
+				{
+					id: "0535ECFDB3F02679"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					count: 16
+					random_bonus: 48
+				}
+				{
+					id: "07878ED11FDBB3EB"
+					type: "item"
+					item: "miniutilities:experience_pearl"
+					count: 10
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -188,13 +244,21 @@
 				entity: "minecraft:spider"
 				value: 100L
 			}]
-			rewards: [{
-				id: "6D09556CC1EECE2E"
-				type: "item"
-				item: "minecraft:string"
-				count: 16
-				random_bonus: 48
-			}]
+			rewards: [
+				{
+					id: "6D09556CC1EECE2E"
+					type: "item"
+					item: "minecraft:string"
+					count: 16
+					random_bonus: 48
+				}
+				{
+					id: "7B506919D2E5C117"
+					type: "item"
+					item: "miniutilities:experience_pearl"
+					count: 10
+				}
+			]
 		}
 		{
 			x: 7.5d
@@ -209,13 +273,21 @@
 				entity: "minecraft:cave_spider"
 				value: 100L
 			}]
-			rewards: [{
-				id: "12CC78306E92E701"
-				type: "item"
-				item: "minecraft:string"
-				count: 16
-				random_bonus: 48
-			}]
+			rewards: [
+				{
+					id: "12CC78306E92E701"
+					type: "item"
+					item: "minecraft:string"
+					count: 16
+					random_bonus: 48
+				}
+				{
+					id: "2DE7C7F0579AE451"
+					type: "item"
+					item: "miniutilities:experience_pearl"
+					count: 10
+				}
+			]
 		}
 		{
 			x: 4.5d
@@ -230,13 +302,21 @@
 				entity: "minecraft:blaze"
 				value: 100L
 			}]
-			rewards: [{
-				id: "1300511FF446EE7F"
-				type: "item"
-				item: "minecraft:blaze_rod"
-				count: 16
-				random_bonus: 48
-			}]
+			rewards: [
+				{
+					id: "1300511FF446EE7F"
+					type: "item"
+					item: "minecraft:blaze_rod"
+					count: 16
+					random_bonus: 48
+				}
+				{
+					id: "5DF0377BE6AF260C"
+					type: "item"
+					item: "miniutilities:experience_pearl"
+					count: 10
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -251,17 +331,25 @@
 				entity: "minecraft:drowned"
 				value: 100L
 			}]
-			rewards: [{
-				id: "03C2B700FAF72345"
-				type: "item"
-				item: {
-					id: "minecraft:trident"
-					Count: 1b
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "03C2B700FAF72345"
+					type: "item"
+					item: {
+						id: "minecraft:trident"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+				{
+					id: "6BE28133714E494F"
+					type: "item"
+					item: "miniutilities:experience_pearl"
+					count: 10
+				}
+			]
 		}
 		{
 			x: 7.5d
@@ -276,12 +364,20 @@
 				entity: "minecraft:husk"
 				value: 100L
 			}]
-			rewards: [{
-				id: "0D1DE5A00FC31F45"
-				type: "item"
-				item: "tconstruct:husk_head"
-				random_bonus: 4
-			}]
+			rewards: [
+				{
+					id: "0D1DE5A00FC31F45"
+					type: "item"
+					item: "tconstruct:husk_head"
+					random_bonus: 4
+				}
+				{
+					id: "5E51FE25F6FBEDAA"
+					type: "item"
+					item: "miniutilities:experience_pearl"
+					count: 10
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -296,13 +392,21 @@
 				entity: "minecraft:zombified_piglin"
 				value: 100L
 			}]
-			rewards: [{
-				id: "640585E0D7EF5138"
-				type: "item"
-				item: "minecraft:gold_nugget"
-				count: 8
-				random_bonus: 24
-			}]
+			rewards: [
+				{
+					id: "640585E0D7EF5138"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 8
+					random_bonus: 24
+				}
+				{
+					id: "697576D9C4BB462B"
+					type: "item"
+					item: "miniutilities:experience_pearl"
+					count: 10
+				}
+			]
 		}
 		{
 			x: 9.0d
@@ -317,12 +421,20 @@
 				entity: "minecraft:stray"
 				value: 100L
 			}]
-			rewards: [{
-				id: "6F06F5DBD50D970B"
-				type: "item"
-				item: "tconstruct:stray_head"
-				random_bonus: 4
-			}]
+			rewards: [
+				{
+					id: "6F06F5DBD50D970B"
+					type: "item"
+					item: "tconstruct:stray_head"
+					random_bonus: 4
+				}
+				{
+					id: "1307FC1806DD4ABE"
+					type: "item"
+					item: "miniutilities:experience_pearl"
+					count: 10
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -337,12 +449,20 @@
 				entity: "minecraft:piglin"
 				value: 80L
 			}]
-			rewards: [{
-				id: "5FDFCB7866537C89"
-				type: "item"
-				item: "tconstruct:piglin_head"
-				random_bonus: 4
-			}]
+			rewards: [
+				{
+					id: "5FDFCB7866537C89"
+					type: "item"
+					item: "tconstruct:piglin_head"
+					random_bonus: 4
+				}
+				{
+					id: "46F36F236B1FD94B"
+					type: "item"
+					item: "miniutilities:experience_pearl"
+					count: 10
+				}
+			]
 		}
 		{
 			x: 6.0d
@@ -357,12 +477,20 @@
 				entity: "minecraft:piglin_brute"
 				value: 20L
 			}]
-			rewards: [{
-				id: "3756C03FC16D8332"
-				type: "item"
-				item: "tconstruct:piglin_brute_head"
-				random_bonus: 4
-			}]
+			rewards: [
+				{
+					id: "3756C03FC16D8332"
+					type: "item"
+					item: "tconstruct:piglin_brute_head"
+					random_bonus: 4
+				}
+				{
+					id: "6B1A234B5CB45AF2"
+					type: "item"
+					item: "miniutilities:experience_pearl"
+					count: 10
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -383,13 +511,21 @@
 				entity: "thermal:basalz"
 				value: 100L
 			}]
-			rewards: [{
-				id: "2510E0E7EDCB0D1A"
-				type: "item"
-				item: "thermal:basalz_rod"
-				count: 16
-				random_bonus: 48
-			}]
+			rewards: [
+				{
+					id: "2510E0E7EDCB0D1A"
+					type: "item"
+					item: "thermal:basalz_rod"
+					count: 16
+					random_bonus: 48
+				}
+				{
+					id: "412F84C55F77E7A6"
+					type: "item"
+					item: "miniutilities:experience_pearl"
+					count: 10
+				}
+			]
 		}
 		{
 			x: 4.5d
@@ -410,13 +546,21 @@
 				entity: "thermal:blitz"
 				value: 100L
 			}]
-			rewards: [{
-				id: "61D48528EA8AA6F2"
-				type: "item"
-				item: "thermal:blitz_rod"
-				count: 16
-				random_bonus: 48
-			}]
+			rewards: [
+				{
+					id: "61D48528EA8AA6F2"
+					type: "item"
+					item: "thermal:blitz_rod"
+					count: 16
+					random_bonus: 48
+				}
+				{
+					id: "7DBBA7C758245F57"
+					type: "item"
+					item: "miniutilities:experience_pearl"
+					count: 10
+				}
+			]
 		}
 		{
 			x: 7.5d
@@ -437,13 +581,21 @@
 				entity: "thermal:blizz"
 				value: 100L
 			}]
-			rewards: [{
-				id: "4560CF115B33140F"
-				type: "item"
-				item: "thermal:blizz_rod"
-				count: 16
-				random_bonus: 48
-			}]
+			rewards: [
+				{
+					id: "4560CF115B33140F"
+					type: "item"
+					item: "thermal:blizz_rod"
+					count: 16
+					random_bonus: 48
+				}
+				{
+					id: "604B351A0B9EBD1F"
+					type: "item"
+					item: "miniutilities:experience_pearl"
+					count: 10
+				}
+			]
 		}
 		{
 			x: -1.25d
@@ -636,18 +788,11 @@
 				type: "item"
 				item: "meetyourfight:fossil_bait"
 			}]
-			rewards: [
-				{
-					id: "124BEF4CFBAC4CCF"
-					type: "item"
-					item: "meetyourfight:mossy_tooth"
-				}
-				{
-					id: "1059F08A31F72897"
-					type: "item"
-					item: "meetyourfight:fortunes_favor"
-				}
-			]
+			rewards: [{
+				id: "124BEF4CFBAC4CCF"
+				type: "item"
+				item: "meetyourfight:mossy_tooth"
+			}]
 		}
 		{
 			x: 5.5d
