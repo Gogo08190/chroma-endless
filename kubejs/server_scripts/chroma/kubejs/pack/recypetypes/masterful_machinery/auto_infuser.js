@@ -25,6 +25,19 @@ onEvent('recipes', (event) => {
           ticks: 240,
           id: `${id_prefix}shadow_steel`
       },
+      //Chromatic Compound
+      {
+          outputs: [{ type: 'masterfulmachinery:items', data: { item: 'create:chromatic_compound', count: 1 } }],
+          inputs: [
+              { type: 'masterfulmachinery:items', data: { item: 'create:polished_rose_quartz', count: 1 } },
+              { type: 'masterfulmachinery:items', data: { item: 'emendatusenigmatica:obsidian_dust', count: 3 } },
+              { type: 'masterfulmachinery:items', data: { item: 'minecraft:glowstone_dust', count: 3 } },
+              { type: 'masterfulmachinery:fluids', data: { fluid: 'tconstruct:blazing_blood', amount: 250 } },
+              { type: 'masterfulmachinery:fluids', data: { fluid: 'tconstruct:molten_obsidian', amount: 250 } }
+          ],
+          ticks: 240,
+          id: `${id_prefix}chromatic_compound`
+      },
     ];
 
     recipes.forEach((recipe) => {
