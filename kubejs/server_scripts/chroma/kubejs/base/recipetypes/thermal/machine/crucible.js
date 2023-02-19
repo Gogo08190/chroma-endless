@@ -102,7 +102,14 @@ onEvent('recipes', (event) => {
             input: 'botania:mana_diamond',
             energy: 5000,
             id: `${id_prefix}mana_diamond`
-        }
+        },
+        //Molten Obsidian
+        {
+            output: Fluid.of('tconstruct:molten_obsidian', 1000),
+            input: '#forge:obsidian',
+            energy: 5000,
+            id: `${id_prefix}obsidian`
+        },
     ];
 
     honeyVarieties.forEach((honeyVariety) => {
