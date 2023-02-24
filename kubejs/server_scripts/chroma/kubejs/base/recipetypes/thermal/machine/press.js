@@ -86,18 +86,16 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}dense_snow`
         },
         {
-            id: 'thermal:machine/press/packing2x2/press_honeycomb_packing',
             inputs: [Item.of('minecraft:honeycomb', 9), Ingredient.of('#thermal:crafting/dies/unpacking')],
             outputs: [Item.of('minecraft:honeycomb_block', 1)],
             energy: 2400,
-            id: `${id_prefix}honeycomb_block`
+            id: 'thermal:machine/press/packing2x2/press_honeycomb_packing',
         },
         {
-            id: 'thermal:machine/press/unpacking/press_honeycomb_unpacking',
             inputs: [Item.of('minecraft:honeycomb_block', 1), Ingredient.of('#thermal:crafting/dies/unpacking')],
             outputs: [Item.of('minecraft:honeycomb', 9)],
             energy: 2400,
-            id: `${id_prefix}honeycomb`
+            id: 'thermal:machine/press/unpacking/press_honeycomb_unpacking',
         },
         {
             inputs: [Item.of('mekanism:hdpe_pellet')],
@@ -116,7 +114,85 @@ onEvent('recipes', (event) => {
             outputs: [Fluid.of('industrialforegoing:latex', 50)],
             energy: 400,
             id: 'thermal:machine/press/press_dandelion_to_latex'
-        }
+        },
+        //Sheetmetal
+        //Gold
+        {
+            inputs: [Item.of('#forge:plates/gold', 4), Ingredient.of('#thermal:crafting/dies/packing_2x2')],
+            outputs: [Item.of('immersiveengineering:sheetmetal_gold', 1)],
+            energy: 2400,
+            id: `${id_prefix}gold_sheetmetal`
+        },
+        //Iron
+        {
+            inputs: [Item.of('#forge:plates/iron', 4), Ingredient.of('#thermal:crafting/dies/packing_2x2')],
+            outputs: [Item.of('immersiveengineering:sheetmetal_iron', 1)],
+            energy: 2400,
+            id: `${id_prefix}iron_sheetmetal`
+        },
+        //Steel
+        {
+            inputs: [Item.of('#forge:plates/steel', 4), Ingredient.of('#thermal:crafting/dies/packing_2x2')],
+            outputs: [Item.of('immersiveengineering:sheetmetal_steel', 1)],
+            energy: 2400,
+            id: `${id_prefix}steel_sheetmetal`
+        },
+        //Electrum
+        {
+            inputs: [Item.of('#forge:plates/electrum', 4), Ingredient.of('#thermal:crafting/dies/packing_2x2')],
+            outputs: [Item.of('immersiveengineering:sheetmetal_electrum', 1)],
+            energy: 2400,
+            id: `${id_prefix}electrum_sheetmetal`
+        },
+        //Constantan
+        {
+            inputs: [Item.of('#forge:plates/constantan', 4), Ingredient.of('#thermal:crafting/dies/packing_2x2')],
+            outputs: [Item.of('immersiveengineering:sheetmetal_constantan', 1)],
+            energy: 2400,
+            id: `${id_prefix}constantan_sheetmetal`
+        },
+        //Uranium
+        {
+            inputs: [Item.of('#forge:plates/uranium', 4), Ingredient.of('#thermal:crafting/dies/packing_2x2')],
+            outputs: [Item.of('immersiveengineering:sheetmetal_uranium', 1)],
+            energy: 2400,
+            id: `${id_prefix}uranium_sheetmetal`
+        },
+        //Nickel
+        {
+            inputs: [Item.of('#forge:plates/nickel', 4), Ingredient.of('#thermal:crafting/dies/packing_2x2')],
+            outputs: [Item.of('immersiveengineering:sheetmetal_nickel', 1)],
+            energy: 2400,
+            id: `${id_prefix}nickel_sheetmetal`
+        },
+        //Silver
+        {
+            inputs: [Item.of('#forge:plates/silver', 4), Ingredient.of('#thermal:crafting/dies/packing_2x2')],
+            outputs: [Item.of('immersiveengineering:sheetmetal_silver', 1)],
+            energy: 2400,
+            id: `${id_prefix}silver_sheetmetal`
+        },
+        //Lead
+        {
+            inputs: [Item.of('#forge:plates/lead', 4), Ingredient.of('#thermal:crafting/dies/packing_2x2')],
+            outputs: [Item.of('immersiveengineering:sheetmetal_lead', 1)],
+            energy: 2400,
+            id: `${id_prefix}lead_sheetmetal`
+        },
+        //Aluminum
+        {
+            inputs: [Item.of('#forge:plates/aluminum', 4), Ingredient.of('#thermal:crafting/dies/packing_2x2')],
+            outputs: [Item.of('immersiveengineering:sheetmetal_aluminum', 1)],
+            energy: 2400,
+            id: `${id_prefix}aluminum_sheetmetal`
+        },
+        //Copper
+        {
+            inputs: [Item.of('#forge:plates/copper', 4), Ingredient.of('#thermal:crafting/dies/packing_2x2')],
+            outputs: [Item.of('immersiveengineering:sheetmetal_copper', 1)],
+            energy: 2400,
+            id: `${id_prefix}copper_sheetmetal`
+        },
     ];
 
     ['osmium', 'aluminum', 'uranium'].forEach((metal) => {
