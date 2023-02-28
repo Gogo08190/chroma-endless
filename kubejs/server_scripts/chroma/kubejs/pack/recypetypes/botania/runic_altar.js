@@ -492,13 +492,13 @@ onEvent('recipes', (event) => {
           'botania:corporea_spark_master',
           Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:terrasteel"}').weakNBT().toJson(),
           Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:elementium"}').weakNBT().toJson(),
-          'botania:rune_mana',
-          'botania:rune_mana',
+          'kubejs:ultimate_rune',
+          'kubejs:ultimate_rune',
           'kubejs:gaia_spirit_block',
           'kubejs:gaia_spirit_block',
           'botania:mana_pool',
-          'botania:blacker_lotus',
-          'botania:corporea_index'
+          'kubejs:chroma_matter',
+          'kubejs:chroma_matter'
         ],
         mana: 60000,
         output: 'botanicalmachinery:mana_battery_creative',
