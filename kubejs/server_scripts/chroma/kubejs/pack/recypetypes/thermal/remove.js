@@ -2,7 +2,7 @@
 
 onEvent('recipes', (event) => {
     const idRemovals = [
-
+      'thermal:machine/crucible/crucible_obsidian_to_lava'
     ];
 
     const outputRemovals = [
