@@ -31,15 +31,15 @@ onEvent('recipes', (event) => {
           inputs: [
               {
                 consumeInstantly: true,
-                type: 'masterfulmachinery:mekanism_gas', data: { gas: 'mekanism:oxygen', amount: 500 }
+                type: 'masterfulmachinery:mekanism_gas', data: { gas: 'mekanism:oxygen', amount: 1500 }
               },
               {
                 consumeInstantly: true,
-                type: 'masterfulmachinery:mekanism_gas', data: { gas: 'mekanism:fissile_fuel', amount: 1900 }
+                type: 'masterfulmachinery:mekanism_gas', data: { gas: 'mekanism:fissile_fuel', amount: 1000 }
               },
               {
                 consumeInstantly: true,
-                type: 'masterfulmachinery:mekanism_gas', data: { gas: 'mekanism:hydrogen', amount: 1400 }
+                type: 'masterfulmachinery:mekanism_gas', data: { gas: 'mekanism:hydrogen', amount: 1500 }
               },
           ],
           ticks: 512,
@@ -119,7 +119,7 @@ onEvent('recipes', (event) => {
           inputs: [
               {
                 consumeInstantly: true,
-                type: 'masterfulmachinery:mekanism_gas', data: { gas: 'kubejs:purple', amount: 500 }
+                type: 'masterfulmachinery:mekanism_gas', data: { gas: 'kubejs:pink', amount: 500 }
               },
               {
                 consumeInstantly: true,
