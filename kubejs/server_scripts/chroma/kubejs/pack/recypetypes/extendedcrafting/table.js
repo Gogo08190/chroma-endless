@@ -2712,7 +2712,7 @@ onEvent("recipes", (event) => {
           "item": "ars_nouveau:purple_archwood_wood"
         },
         "M": {
-          "item": "ars_nouveau:as_gold_stone"
+          "item": "kubejs:chroma_matter"
         },
         "N": {
           "item": "arsarsenal:source_steel_ingot"
@@ -2827,7 +2827,7 @@ onEvent("recipes", (event) => {
           "item": "elementalcraft:pedestal_water"
         },
         "P": {
-          "item": "elementalcraft:fireite_block"
+          "item": "kubejs:chroma_matter"
         },
         "Q": {
           "item": "elementalcraft:pristine_fire_gem"
