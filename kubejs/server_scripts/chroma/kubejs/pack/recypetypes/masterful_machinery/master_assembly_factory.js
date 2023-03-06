@@ -57,7 +57,7 @@ onEvent('recipes', (event) => {
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:transistor', count: 2 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'pneumaticcraft:capacitor', count: 2 } },
                 { consumeInstantly: false, type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:redstone_ingot', count: 1 } },
-                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 400 } },
+                { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 200 } },
                 { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
             ],
             ticks: 100,
