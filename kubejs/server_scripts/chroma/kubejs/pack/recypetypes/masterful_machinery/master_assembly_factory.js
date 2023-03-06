@@ -60,7 +60,7 @@ onEvent('recipes', (event) => {
                 { type: 'masterfulmachinery:pncr_pressure', perTick: true, data: { air: 400 } },
                 { type: 'masterfulmachinery:energy', data: { amount: 2500 } }
             ],
-            ticks: 240,
+            ticks: 100,
             id: `${id_prefix}printed_circuit_board`
         },
         {
