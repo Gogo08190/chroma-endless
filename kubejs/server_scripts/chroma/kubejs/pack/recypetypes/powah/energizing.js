@@ -499,8 +499,8 @@ onEvent('recipes', (event) => {
           ingredients: [
               { item: 'draconicevolution:draconium_core' },
               { item: 'extendedcrafting:black_iron_block' },
-              { item: 'envirocore:ionite_interconnect' },
-              { item: 'envirocore:ionite_interconnect' },
+              { item: 'envirocore:erodium_interconnect' },
+              { item: 'envirocore:erodium_interconnect' },
               { item: 'mekanism:ultimate_control_circuit' },
               { item: 'mekanism:energy_tablet' }
           ],
