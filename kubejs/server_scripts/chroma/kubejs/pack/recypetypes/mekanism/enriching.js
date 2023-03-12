@@ -63,6 +63,13 @@ onEvent('recipes', (event) => {
         input: 'bigreactors:ludicrite_ingot',
         output: 'kubejs:enriched_ludicrite',
         id: `${id_prefix}enriched_ludicrite`
+      },
+
+      //Inert Crystal
+      {
+        input: 'elementalcraft:crystalore',
+        output: '4x elementalcraft:inertcrystal',
+        id: `${id_prefix}inertcrystal_from_crystalore`
       }
 
     ];
