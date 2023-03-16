@@ -15,6 +15,11 @@ onEvent('recipes', (event) => {
           inputs: ['minecraft:stick', 'minecraft:book'],
           id: 'akashictome:tome_rcp'
       }
+      {
+          output: 'betterendforge:twisted_vine',
+          inputs: ['betterendforge:dragon_tree_leaves'],
+          id: 'betterendforge:twisted_vine'
+      }
   	];
 
   	recipes.forEach((recipe) => {
