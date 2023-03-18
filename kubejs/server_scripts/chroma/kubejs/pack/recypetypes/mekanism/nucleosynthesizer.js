@@ -74,14 +74,6 @@ onEvent('recipes', (event) => {
               gasInput: { amount: 1000, gas: 'mekanism:antimatter' },
               duration: 10000,
               id: `${id_prefix}nuclearwaste_controller`
-          },
-          //Controller Atomic Centrifuge
-          {
-              output: Item.of('masterfulmachinery:centrifuge_controller'),
-              itemInput: { ingredient: { item: 'xnet:controller' } },
-              gasInput: { amount: 1000, gas: 'kubejs:black' },
-              duration: 10000,
-              id: `${id_prefix}centrifuge_controller`
           }
         ]
     };
