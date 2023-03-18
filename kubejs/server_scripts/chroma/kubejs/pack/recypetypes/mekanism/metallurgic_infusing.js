@@ -41,7 +41,7 @@ onEvent('recipes', (event) => {
 
       //Basic Control Circuit
       {
-        output: 'mekanism:basic_control_circuit',
+        output: '2xmekanism:basic_control_circuit',
         input: 'rftoolscontrol:cpu_core_2000',
         infusionInput: 'kubejs:uranium',
         infusionAmount: 40,
@@ -119,7 +119,7 @@ onEvent('recipes', (event) => {
         infusionAmount: 320,
         id: 'draconicevolution:energy_core_stabilizer'
       },
-      
+
       //osmium_bee
       {
         output: Item.of('resourcefulbees:bee_jar', { Entity: 'resourcefulbees:osmium_bee' }).weakNBT().toJson(),
