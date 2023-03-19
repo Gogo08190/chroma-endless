@@ -14,7 +14,7 @@ onEvent('recipes', (event) => {
           output: 'akashictome:tome',
           inputs: ['minecraft:stick', 'minecraft:book'],
           id: 'akashictome:tome_rcp'
-      }
+      },
       {
           output: 'betterendforge:twisted_vine',
           inputs: ['betterendforge:dragon_tree_leaves'],
