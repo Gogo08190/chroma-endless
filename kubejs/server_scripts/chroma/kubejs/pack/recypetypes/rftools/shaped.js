@@ -456,7 +456,7 @@ onEvent('recipes', (event) => {
           R:'extendedcrafting:redstone_ingot',
           U:'kubejs:uranium_capacitor',
           C:'rftoolscontrol:cpu_core_1000',
-          A:'kubejs:advanced_extreme_circuit_board'
+          A:'kubejs:extreme_circuit_board'
         },
         id:'rftoolscontrol:cpu_core_2000'
       }
