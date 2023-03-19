@@ -443,7 +443,7 @@ onEvent('recipes', (event) => {
         key: {
           R:'extendedcrafting:redstone_ingot',
           D:'botania:mana_diamond',
-          E:'kubejs:extreme_circuit_board',
+          E:'pneumaticcraft:printed_circuit_board',
           C:'rftoolscontrol:cpu_core_500'
         },
         id:'rftoolscontrol:cpu_core_1000'
