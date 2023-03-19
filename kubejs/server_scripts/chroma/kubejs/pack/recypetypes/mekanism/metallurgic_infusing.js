@@ -41,7 +41,7 @@ onEvent('recipes', (event) => {
 
       //Basic Control Circuit
       {
-        output: '2xmekanism:basic_control_circuit',
+        output: '2x mekanism:basic_control_circuit',
         input: 'rftoolscontrol:cpu_core_2000',
         infusionInput: 'kubejs:uranium',
         infusionAmount: 40,
