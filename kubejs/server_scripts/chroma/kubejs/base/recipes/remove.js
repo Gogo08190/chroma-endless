@@ -110,7 +110,6 @@ onEvent('recipes', (event) => {
         'environmental:misc/apple_pie',
         /environmental:building\/wood\/\w+\/\w+_chest_wood/,
 
-        'farmersdelight:cutting/chicken',
         'farmersdelight:integration/create/mixing/pie_crust_from_mixing',
         'farmersdelight:milk_bottle',
         'farmersdelight:milk_bucket_from_bottles',
@@ -241,7 +240,6 @@ onEvent('recipes', (event) => {
         'quark:building/crafting/compressed/gunpowder_sack',
 
         'simplefarming:candy',
-        'simplefarming:raw_chicken_wings',
 
         'supplementaries:strings_recipe',
 
