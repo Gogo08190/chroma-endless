@@ -19,6 +19,16 @@ onEvent('recipes', (event) => {
           output: 'betterendforge:twisted_vine',
           inputs: ['betterendforge:dragon_tree_leaves'],
           id: 'betterendforge:twisted_vine'
+      },
+      {
+          output: 'betterendforge:chorus_mushroom_raw',
+          inputs: ['#forge:mushrooms', 'minecraft:chorus_flower'],
+          id: 'betterendforge:chorus_mushroom_raw'
+      },
+      {
+          output: 'byg:soul_shroom',
+          inputs: ['#forge:mushrooms', 'nethers_delight:rich_soul_soil'],
+          id: 'byg:soul_shroom'
       }
   	];
 
