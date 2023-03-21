@@ -46,6 +46,14 @@ onEvent('recipes', (event) => {
           experience: 0.5,
           outputs: [Item.of('minecraft:prismarine_crystals', 1)],
           id: 'minecraft:prismarine_crystals'
+        },
+
+        // Draconiulm Ore
+        {
+          input: '#forge:ores/draconium',
+          experience: 0.5,
+          outputs: [Item.of('draconicevolution:draconium_dust', 4)],
+          id: `${id_prefix}draconium_dust`
         }
     ];
     recipes.forEach((recipe) => {
