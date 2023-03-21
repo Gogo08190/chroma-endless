@@ -39,6 +39,18 @@
     "baseHealth": 20,
     "attackDamage": 1
   },
+  "MutationData": {
+      "hasMutation": true,
+      "mutationCount": 4,
+      "mutations": [
+          {
+              "type": "BLOCK_TO_ITEM",
+              "inputID": "resourcefulbees:dragon_honeycomb_block",
+              "chance": 0.1,
+              "outputs": [{ "outputID": "draconicevolution:dragon_heart", "weight": 10 }]
+          }
+      ]
+  },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
 
