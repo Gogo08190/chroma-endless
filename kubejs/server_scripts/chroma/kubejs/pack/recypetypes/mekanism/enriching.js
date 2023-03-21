@@ -70,6 +70,23 @@ onEvent('recipes', (event) => {
         input: 'elementalcraft:crystalore',
         output: '4x elementalcraft:inertcrystal',
         id: `${id_prefix}inertcrystal_from_crystalore`
+      },
+
+      //Draconium Ore
+      {
+        input: 'draconicevolution:end_draconium_ore',
+        output: '4x draconicevolution:draconium_dust',
+        id: `${id_prefix}draconium_dust_from_end_draconium_ore`
+      },
+      {
+        input: 'draconicevolution:nether_draconium_ore',
+        output: '4x draconicevolution:draconium_dust',
+        id: `${id_prefix}draconium_dust_from_nether_draconium_ore`
+      },
+      {
+        input: 'draconicevolution:overworld_draconium_ore',
+        output: '4x draconicevolution:draconium_dust',
+        id: `${id_prefix}draconium_dust_from_overworld_draconium_ore`
       }
 
     ];
