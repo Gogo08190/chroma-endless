@@ -57,12 +57,12 @@
     "hasCentrifugeOutput": true,
 
     "mainOutput": "occultism:spirit_attuned_gem",
-    "mainOutputWeight": 0.15,
-    "mainOutputCount": 1,
+    "mainOutputWeight": 0.5,
+    "mainOutputCount": 4,
 
     "secondaryOutput": "occultism:iesnium_nugget",
-    "secondaryOutputWeight": 0.1,
-    "secondaryOutputCount": 1,
+    "secondaryOutputWeight": 0.5,
+    "secondaryOutputCount": 5,
 
     "bottleOutput": "resourcefulbees:occultist_honey_bottle",
     "bottleOutputWeight": 0.4,
