@@ -2090,13 +2090,12 @@
 					id: "4ADF0683570C55CE"
 					type: "item"
 					item: "mekanism:sps_port"
-					count: 6L
+					count: 3L
 				}
 				{
 					id: "15C6F662F60D2C55"
 					type: "item"
 					item: "mekanism:supercharged_coil"
-					count: 6L
 				}
 				{
 					id: "4883428CFD4A9DE6"
@@ -2116,7 +2115,7 @@
 			x: -32.25d
 			y: -7.5d
 			shape: "diamond"
-			dependencies: ["5269FB3852203971"]
+			dependencies: ["57820504F4FED574"]
 			id: "30396C78FA1F82FF"
 			tasks: [{
 				id: "30EBA37F630FB11B"
@@ -2959,7 +2958,7 @@
 			rewards: [{
 				id: "3C7405A67E413EE5"
 				type: "item"
-				item: "mekanism:basic_induction_cell"
+				item: "mekanism:basic_induction_provider"
 				random_bonus: 2
 			}]
 		}
@@ -5556,6 +5555,8 @@
 				"&cIn order to make create schematics work properly, please do not rotate them while building them !"
 				""
 				"&bYou can use the Entangled mod to entangle the inputs of your masterful machineries and have a better automation."
+				""
+				"&eDo not use mekanism pipes to transport gas !"
 			]
 			dependencies: ["16BD9AB1243FBA18"]
 			size: 2.0d
@@ -5604,112 +5605,6 @@
 					table_id: 6524702956512656804L
 				}
 			]
-		}
-		{
-			icon: "masterfulmachinery:centrifuge_controller"
-			x: -17.0d
-			y: -8.5d
-			shape: "hexagon"
-			description: [
-				"This Multiblock is used to make Custom Gas !"
-				""
-				"&cIn order to make create schematics work properly, please do not rotate them while building them !"
-				""
-				"&bYou can use the Entangled mod to entangle the inputs of your masterful machineries and have a better automation."
-			]
-			hide_dependency_lines: true
-			dependencies: ["678264A742DDA038"]
-			size: 2.0d
-			id: "27B425BCE2848715"
-			tasks: [
-				{
-					id: "26F61FE443229161"
-					type: "item"
-					item: "masterfulmachinery:centrifuge_controller"
-				}
-				{
-					id: "695C5BAA87DA969B"
-					type: "item"
-					item: "masterfulmachinery:centrifuge_centrifuge_gas_port_mekanism_gas_input"
-					count: 3L
-				}
-				{
-					id: "231786216489C388"
-					type: "item"
-					item: "masterfulmachinery:centrifuge_centrifuge_gas_port_mekanism_gas_output"
-				}
-				{
-					id: "0F3FD446336AE51F"
-					type: "item"
-					item: "mekanism:boiler_casing"
-					count: 153L
-				}
-				{
-					id: "0C9629C09647D33D"
-					type: "item"
-					item: "mekanism:electrolytic_separator"
-					count: 3L
-				}
-				{
-					id: "3E6D4697D1AC03E3"
-					type: "item"
-					item: "pneumaticcraft:gas_lift"
-					count: 16L
-				}
-				{
-					id: "35501A4D7BE49943"
-					type: "item"
-					item: "mekanismgenerators:gas_burning_generator"
-					count: 3L
-				}
-				{
-					id: "37AF7FA5A67F1083"
-					type: "item"
-					item: "engineersdecor:treated_wood_pole"
-					count: 6L
-				}
-				{
-					id: "7ECA2ECBE58E0656"
-					type: "item"
-					item: "mekanism:structural_glass"
-					count: 19L
-				}
-				{
-					id: "10196F6F6DABBFCB"
-					type: "item"
-					item: "mekanism:superheating_element"
-					count: 17L
-				}
-				{
-					id: "6F630ADBDF634CC8"
-					type: "item"
-					item: "mekanism:ultimate_chemical_tank"
-					count: 5L
-				}
-				{
-					id: "379423EE10AC380F"
-					type: "item"
-					item: "mekanism:ultimate_pressurized_tube"
-					count: 17L
-				}
-				{
-					id: "356A53F248ADCA97"
-					type: "item"
-					item: "mekanism:rotary_condensentrator"
-					count: 3L
-				}
-				{
-					id: "2B736D358C892974"
-					type: "item"
-					item: "mekanism:chemical_infuser"
-					count: 2L
-				}
-			]
-			rewards: [{
-				id: "1EBC763C65934607"
-				type: "item"
-				item: "mekanism:ultimate_chemical_tank"
-			}]
 		}
 	]
 }

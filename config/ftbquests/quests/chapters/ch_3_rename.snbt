@@ -1810,7 +1810,11 @@
 			x: 0.0d
 			y: 19.0d
 			shape: "gear"
-			description: ["A multiblock that allows you to automate the &6Smiting Table&r !"]
+			description: [
+				"A multiblock that allows you to automate the &6Smiting Table&r !"
+				""
+				"&c&lWARNING :&r&c You only need 2 preheaters and not 6 as the schematic shows."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"56D83790E33B0765"

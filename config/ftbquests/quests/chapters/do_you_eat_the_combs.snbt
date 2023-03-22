@@ -1125,6 +1125,12 @@
 				type: "item"
 				item: "resourcefulbees:nether_honey_bottle"
 			}]
+			rewards: [{
+				id: "05C642DE97A371A2"
+				type: "item"
+				item: "resourcefulbees:nether_honey_bottle"
+				random_bonus: 5
+			}]
 		}
 		{
 			x: 14.0d
@@ -1136,6 +1142,12 @@
 				id: "3AC1602CEB6185F4"
 				type: "item"
 				item: "resourcefulbees:nether_quartz_honey_bottle"
+			}]
+			rewards: [{
+				id: "40F96D9FBBF9539B"
+				type: "item"
+				item: "resourcefulbees:nether_quartz_honey_bottle"
+				random_bonus: 5
 			}]
 		}
 		{

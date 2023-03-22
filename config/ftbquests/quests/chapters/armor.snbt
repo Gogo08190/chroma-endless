@@ -2293,28 +2293,11 @@
 				type: "item"
 				item: "miniutilities:infused_chestplate"
 			}]
-			rewards: [
-				{
-					id: "79DF6FA9BF37609B"
-					type: "item"
-					item: {
-						id: "miniutilities:unstable_ingot"
-						Count: 1b
-						tag: {
-							timeunstable: 55
-							Damage: 255
-							display: {
-								Name: "{\"translate\":\"text.miniutilities.unstableingot\"}"
-							}
-						}
-					}
-				}
-				{
-					id: "37868D7350B2FA8B"
-					type: "item"
-					item: "miniutilities:experience_opinium_core"
-				}
-			]
+			rewards: [{
+				id: "37868D7350B2FA8B"
+				type: "item"
+				item: "miniutilities:experience_opinium_core"
+			}]
 		}
 		{
 			x: -7.25d
@@ -2342,28 +2325,11 @@
 				type: "item"
 				item: "miniutilities:infused_boots"
 			}]
-			rewards: [
-				{
-					id: "67BDA9E9C56AA0DC"
-					type: "item"
-					item: {
-						id: "miniutilities:unstable_ingot"
-						Count: 1b
-						tag: {
-							timeunstable: 55
-							Damage: 255
-							display: {
-								Name: "{\"translate\":\"text.miniutilities.unstableingot\"}"
-							}
-						}
-					}
-				}
-				{
-					id: "27FA18279561C3F5"
-					type: "item"
-					item: "miniutilities:experience_opinium_core"
-				}
-			]
+			rewards: [{
+				id: "27FA18279561C3F5"
+				type: "item"
+				item: "miniutilities:experience_opinium_core"
+			}]
 		}
 		{
 			x: -5.25d

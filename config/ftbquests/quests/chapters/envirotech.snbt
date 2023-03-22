@@ -308,25 +308,15 @@
 			dependencies: ["4A34BD6688EE9DA1"]
 			id: "7846C1B5A918BDC0"
 			tasks: [{
-				id: "2A9914E1AB2B0433"
-				type: "item"
+				id: "4B26D45445597CD2"
+				type: "checkmark"
 				title: "&#46FCB8Chunk Miner&r"
-				item: {
-					id: "envirocore:flash_memory"
-					Count: 1b
-					tag: {
-						config: {
-							color: -8382597
-							program: "envirotech:chunk_miner"
-						}
-					}
-				}
 			}]
 			rewards: [{
 				id: "23FBA58F9B593F72"
 				type: "item"
 				item: "enderioalloys:item_alloy_ingot_dark_steel"
-				random_bonus: 3
+				random_bonus: 1
 			}]
 		}
 		{
@@ -337,25 +327,15 @@
 			dependencies: ["4A34BD6688EE9DA1"]
 			id: "3EAB4C4E47E658EA"
 			tasks: [{
-				id: "47817A43C0FC2EA7"
-				type: "item"
+				id: "1D99B1B1EB9E5529"
+				type: "checkmark"
 				title: "&#46FCB8Black Hole Harvester&r"
-				item: {
-					id: "envirocore:flash_memory"
-					Count: 1b
-					tag: {
-						config: {
-							color: -7598168
-							program: "envirotech:parts_miner"
-						}
-					}
-				}
 			}]
 			rewards: [{
 				id: "5A39DD51D4DDFA85"
 				type: "item"
 				item: "enderioalloys:item_alloy_ingot_dark_steel"
-				random_bonus: 3
+				random_bonus: 1
 			}]
 		}
 		{
@@ -2770,6 +2750,12 @@
 					item: "pneumaticcraft:compressed_brick_stairs"
 					count: 4L
 				}
+				{
+					id: "5A544713A5F2E5B4"
+					type: "item"
+					item: "pneumaticcraft:drill_pipe"
+					count: 12L
+				}
 			]
 			rewards: [{
 				id: "727E0878F2B9A069"
@@ -2816,6 +2802,7 @@
 					id: "2A989C9D6945795A"
 					type: "item"
 					item: "masterfulmachinery:cuttingmachine_cuttingmachine_speed_port_create_rotation_input"
+					count: 3L
 				}
 			]
 			rewards: [{

@@ -1592,6 +1592,7 @@
 			icon: "tardis:space_chest"
 			x: -61.25d
 			y: -15.25d
+			description: ["Each component can be found as loot items inside Ship Computers within Crashed Structures in the Overworld, Dalek Ships in the Overworld and Space Stations in the Space Dimension."]
 			dependencies: ["6C5A409004043E59"]
 			id: "43C1622EE516C74D"
 			tasks: [

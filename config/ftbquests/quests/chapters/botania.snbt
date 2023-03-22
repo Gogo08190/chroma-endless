@@ -2731,6 +2731,7 @@
 			x: 18.75d
 			y: -4.25d
 			shape: "diamond"
+			description: ["&cWarning : This machine accept only 3 inputs items."]
 			hide_dependency_lines: true
 			dependencies: [
 				"0D85A634D440E434"
@@ -2745,9 +2746,9 @@
 				item: "botanicalmachinery:industrial_agglomeration_factory"
 			}]
 			rewards: [{
-				id: "4E3BF4925EA5DB86"
+				id: "6FC1A9CEC46C0FB8"
 				type: "random"
-				table_id: 5747743707468337858L
+				table_id: 3545106341969168433L
 			}]
 		}
 		{

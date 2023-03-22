@@ -853,6 +853,7 @@
 		{
 			x: 28.25d
 			y: 35.25d
+			description: ["Shadow Steel is created by dropping a &6Chromatic Compound&r into &bthe Void&r. This can easily be done from any island in the End. Once the Chromatic Compound falls into the Void, it will become a Shadow Steel and begin to levitate upwards, allowing you to pick it up."]
 			dependencies: ["2A0681422D07EFB2"]
 			id: "0256960379E8E5E5"
 			tasks: [{
@@ -2101,6 +2102,7 @@
 		{
 			x: 29.5d
 			y: 35.25d
+			description: ["Refined Radiance is created by dropping &6Chromatic Compound&r into a &eBeacon's light beam&r, or by dropping Chromatic Compound on the ground and &esurrounding it with light sources&r."]
 			dependencies: ["2A0681422D07EFB2"]
 			id: "72A61D960AF1647A"
 			tasks: [{
