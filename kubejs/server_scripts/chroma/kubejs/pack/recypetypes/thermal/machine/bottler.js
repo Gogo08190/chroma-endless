@@ -30,6 +30,13 @@ onEvent('recipes', (event) => {
           output: 'extendedcrafting:ender_ingot',
           energy: 1000,
           id: `${id_prefix}ender_ingot`
+      },
+      {
+          input: 'minecraft:iron_ingot',
+          fluid: Fluid.of('thermal:redstone', 125),
+          output: 'extendedcrafting:redstone_ingot',
+          energy: 1000,
+          id: `${id_prefix}redstone_ingot`
       }
     ];
     recipes.forEach((recipe) => {
