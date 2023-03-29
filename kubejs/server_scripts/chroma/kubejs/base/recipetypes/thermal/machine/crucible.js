@@ -110,6 +110,12 @@ onEvent('recipes', (event) => {
             energy: 5000,
             id: `${id_prefix}obsidian`
         },
+        {
+            output: Fluid.of('tconstruct:molten_quartz', 576),
+            input: '#forge:storage_blocks/quartz',
+            energy: 20000,
+            id: `${id_prefix}quartz_block`
+        }
     ];
 
     honeyVarieties.forEach((honeyVariety) => {
