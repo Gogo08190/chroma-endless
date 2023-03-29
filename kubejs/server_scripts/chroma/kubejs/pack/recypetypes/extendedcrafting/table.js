@@ -3075,15 +3075,15 @@ onEvent("recipes", (event) => {
     {
       "type": "extendedcrafting:shaped_table",
       "pattern": [
-        "AABCDCBAA",
-        "AEFGHGFEA",
+        "AOBCDCBOA",
+        "OEFGHGFEO",
         "BFIJKJIFB",
         "CGJLMLJGC",
         "DHKMNMKHD",
         "CGJLMLJGC",
         "BFIJKJIFB",
-        "AEFGHGFEA",
-        "AABCDCBAA"
+        "OEFGHGFEO",
+        "AOBCDCBOA"
       ],
       "key": {
         "A": {
@@ -3130,6 +3130,9 @@ onEvent("recipes", (event) => {
         },
         "N": {
           "item": "refinedstorage:storage_housing"
+        },
+        "O": {
+          "item": "extrastorage:neural_processor"
         }
       },
       "result": {
@@ -3142,15 +3145,15 @@ onEvent("recipes", (event) => {
     {
       "type": "extendedcrafting:shaped_table",
       "pattern": [
-        "AABCDCBAA",
-        "AEFGHGFEA",
+        "AOBCDCBOA",
+        "OEFGHGFEO",
         "BFIJKJIFB",
         "CGJLMLJGC",
         "DHKMNMKHD",
         "CGJLMLJGC",
         "BFIJKJIFB",
-        "AEFGHGFEA",
-        "AABCDCBAA"
+        "OEFGHGFEO",
+        "AOBCDCBOA"
       ],
       "key": {
         "A": {
@@ -3197,6 +3200,9 @@ onEvent("recipes", (event) => {
         },
         "N": {
           "item": "refinedstorage:storage_housing"
+        },
+        "O": {
+          "item": "extrastorage:neural_processor"
         }
       },
       "result": {
@@ -3748,7 +3754,7 @@ onEvent("recipes", (event) => {
       ],
       "key": {
         "A": {
-          "item": "refinedstorage:creative_storage_disk"
+          "item": "extrastorage:storagepart_16384k"
         },
         "B": {
           "item": "extendedcrafting:the_ultimate_catalyst"
@@ -3763,7 +3769,7 @@ onEvent("recipes", (event) => {
           "item": "kubejs:ultimate_rune"
         },
         "F": {
-          "item": "refinedstorage:creative_storage_disk"
+          "item": "extrastorage:storagepart_16384k"
         },
         "G": {
           "item": "extendedcrafting:ultimate_singularity"
@@ -3841,10 +3847,10 @@ onEvent("recipes", (event) => {
           "item": "thermal:machine_efficiency_creative_augment"
         },
         "2": {
-          "item": "refinedstorage:creative_storage_disk"
+          "item": "extrastorage:storagepart_16384k"
         },
         "3": {
-          "item": "refinedstorage:creative_storage_disk"
+          "item": "extrastorage:storagepart_16384k"
         }
       },
       "result": {
