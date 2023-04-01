@@ -2718,7 +2718,7 @@ onEvent("recipes", (event) => {
           "item": "arsarsenal:source_steel_ingot"
         },
         "O": {
-          "item": "ars_nouveau:phantom_block"
+          "item": "meetyourfight:phantoplasm"
         },
         "P": {
           "item": "ars_nouveau:warding_stone"
