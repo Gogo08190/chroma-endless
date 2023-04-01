@@ -3324,25 +3324,22 @@ onEvent("recipes", (event) => {
     {
       "type": "extendedcrafting:shaped_table",
       "pattern": [
-        "ABCDEDFGA",
-        "HIJKHKJLH",
-        "MJNOPONJQ",
-        "DKORRROKD",
-        "EHPRSRPHE",
-        "DKORRROKD",
-        "CJNOPONJQ",
-        "HIJKHKJLH",
-        "AHMDEDFHA"
+        "ABCDEDFBA",
+        "BGHIBIHJB",
+        "KHLMNMLHO",
+        "DIMPPPMID",
+        "EBNPQPNBE",
+        "DIMPPPMID",
+        "CHLMNMLHO",
+        "BGHIBIHJB",
+        "ABKDEDFBA"
       ],
       "key": {
         "A": {
           "item": "kubejs:chroma_matter"
         },
         "B": {
-          "type": "forge:nbt",
-          "item": "powah:energy_cell_nitro",
-          "count": 1,
-          "nbt": "{lollipoptile_stack_nbt:{energy_stored_main_energy:10000L}}"
+          "item": "powah:energy_cell_nitro"
         },
         "C": {
           "type": "forge:nbt",
@@ -3364,56 +3361,47 @@ onEvent("recipes", (event) => {
         },
         "G": {
           "type": "forge:nbt",
-          "item": "powah:energy_cell_nitro",
-          "count": 1,
-          "nbt": "{lollipoptile_stack_nbt:{energy_stored_main_energy:101000L}}"
-        },
-        "H": {
-          "item": "powah:energy_cell_nitro"
-        },
-        "I": {
-          "type": "forge:nbt",
           "item": "extendedcrafting:singularity",
           "count": 1,
           "nbt": "{Id:\"extendedcrafting:spirited\"}"
         },
-        "J": {
+        "H": {
           "item": "mekanism:pellet_antimatter"
         },
-        "K": {
+        "I": {
           "item": "wormhole:advanced_energy_cell"
         },
-        "L": {
+        "J": {
           "type": "forge:nbt",
           "item": "extendedcrafting:singularity",
           "count": 1,
           "nbt": "{Id:\"extendedcrafting:blazing\"}"
         },
-        "M": {
+        "K": {
           "type": "forge:nbt",
           "item": "extendedcrafting:singularity",
           "count": 1,
           "nbt": "{Id:\"extendedcrafting:niotic\"}"
         },
-        "N": {
+        "L": {
           "item": "mekanism:ultimate_induction_cell"
         },
-        "O": {
+        "M": {
           "item": "envirocore:xerothium_interconnect"
         },
-        "P": {
+        "N": {
           "item": "kubejs:creative_catalyst"
         },
-        "Q": {
+        "O": {
           "type": "forge:nbt",
           "item": "extendedcrafting:singularity",
           "count": 1,
           "nbt": "{Id:\"extendedcrafting:energized_steel\"}"
         },
-        "R": {
+        "P": {
           "item": "projectexpansion:purple_matter"
         },
-        "S": {
+        "Q": {
           "item": "extendedcrafting:ultimate_singularity"
         }
       },
