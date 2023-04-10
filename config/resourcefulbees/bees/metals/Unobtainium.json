@@ -5,6 +5,19 @@
     "sizeModifier": 1,
     "maxTimeInHive": 3600,
     "hasHoneycomb": true,
+    "apiaryOutputAmounts": [
+      4,
+      8,
+      32,
+      64
+    ],
+    "apiaryOutputTypes": [
+      "COMB",
+      "COMB",
+      "COMB",
+      "COMB",
+      "COMB"
+    ],
     "auraRange": 20,
     "traits": ["sedimentary", "can_swim"],
     "baseLayerTexture": "metals/unobtainium/unobtainium",
