@@ -35,10 +35,9 @@ onEvent('recipes', (event) => {
         },
         {
             output: 'pneumaticcraft:aerial_interface',
-            pattern: ['CCPCC', 'CAHAC', 'TFNFT', 'CAMAC', 'CCSCC'],
+            pattern: ['CCSCC', 'CAHAC', 'TFNFT', 'CAMAC', 'CCSCC'],
             key: {
                 C: 'pneumaticcraft:pressure_chamber_wall',
-                P: Item.of('modularrouters:player_module', '{modularrouters:{ModuleFilter:{}}}').weakNBT(),
                 A: 'pneumaticcraft:advanced_pcb',
                 H: 'pneumaticcraft:omnidirectional_hopper',
                 T: 'pneumaticcraft:advanced_pressure_tube',
