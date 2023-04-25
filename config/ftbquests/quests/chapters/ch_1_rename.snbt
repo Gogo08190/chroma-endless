@@ -1158,7 +1158,7 @@
 			icon: "create:goggles"
 			x: 20.0d
 			y: 34.25d
-			description: ["The Engineer's Goggles will show the stress impact of the viewed machine while it is running. It will also give numbers and highlight the current rotation when looking at a Stressometer or Speedometer,. Additionally, it shows how much fluid is stored in a tank along with the total storage capacity of the tank when you look at one of the blocks from the tank."]
+			description: ["The Engineer's Goggles will show the stress impact of the viewed machine while it is running. It will also give numbers and highlight the current rotation when looking at a Stressometer or Speedometer. Additionally, it shows how much fluid is stored in a tank along with the total storage capacity of the tank when you look at one of the blocks from the tank."]
 			dependencies: ["50B9AEC7812CEE92"]
 			id: "776713B4EE3868E7"
 			tasks: [{
