@@ -945,7 +945,8 @@
 				""
 				"&bA Pattern&r is an item that is used in autocrafting. It stores the recipe that should be autocrafted."
 			]
-			dependencies: ["6DBC1BDEBCAD61B0"]
+			hide_dependency_lines: true
+			dependencies: ["4A8902E267157E88"]
 			size: 1.5d
 			id: "10244EFD9DDFBECB"
 			tasks: [

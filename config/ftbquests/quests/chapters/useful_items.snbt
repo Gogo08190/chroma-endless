@@ -2086,6 +2086,11 @@
 				type: "item"
 				item: "modularrouters:muffler_upgrade"
 			}]
+			rewards: [{
+				id: "651250655E6BA79B"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
 		}
 		{
 			x: 10.5d

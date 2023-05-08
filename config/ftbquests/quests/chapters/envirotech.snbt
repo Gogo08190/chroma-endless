@@ -1730,6 +1730,12 @@
 				type: "item"
 				item: "envirocore:litherite_wafer"
 			}]
+			rewards: [{
+				id: "2AE67D89211061E6"
+				type: "item"
+				item: "envirocore:litherite_crystal"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: -17.5d
