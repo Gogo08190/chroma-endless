@@ -132,9 +132,9 @@ onEvent('recipes', (event) => {
       },
       {
           ingredients: [
-              { item: 'powah:nitro_crystal_block' },
               { item: 'powah:niotic_crystal_block' },
-              { item: 'powah:niotic_crystal_block' },
+              { item: 'ctiers:centrifuge_casing_tier_3'},
+              { item: 'ctiers:centrifuge_casing_tier_3' },
               { item: 'ctiers:centrifuge_casing_tier_3' },
               { item: 'ctiers:centrifuge_casing_tier_3' },
               { item: 'ctiers:centrifuge_casing_tier_3' }
@@ -142,7 +142,7 @@ onEvent('recipes', (event) => {
           energy: 10000000,
           result: {
               item: 'ctiers:centrifuge_casing_tier_4',
-              count: 3
+              count: 5
           },
           id: `${id_prefix}centrifuge_casing_tier_4`
       },

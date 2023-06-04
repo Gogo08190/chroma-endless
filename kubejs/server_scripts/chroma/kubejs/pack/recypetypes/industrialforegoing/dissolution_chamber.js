@@ -401,9 +401,9 @@ onEvent('recipes', (event) => {
         },
         {
             inputs: [
-              'minecraft:netherite_block',
               'resourcefulbees:centrifuge_casing',
-              'minecraft:netherite_block',
+              'resourcefulbees:centrifuge_casing',
+              'resourcefulbees:centrifuge_casing',
               'resourcefulbees:centrifuge_casing',
               'resourcefulbees:centrifuge_casing',
               'minecraft:netherite_block',
@@ -413,7 +413,7 @@ onEvent('recipes', (event) => {
             inputFluid: 'resourcefulbees:honey',
             inputFluidAmount: 1000,
             processingTime: 150,
-            outputItem: { item: 'resourcefulbees:elite_centrifuge_casing', count: 3 },
+            outputItem: { item: 'resourcefulbees:elite_centrifuge_casing', count: 5 },
             outputFluid: '',
             outputFluidAmount: 0,
             id: 'resourcefulbees:elite_centrifuge_casing'

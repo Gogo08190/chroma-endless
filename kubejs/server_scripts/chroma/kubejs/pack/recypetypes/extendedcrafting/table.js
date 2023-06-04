@@ -34,7 +34,7 @@ onEvent("recipes", (event) => {
     {
       "type": "extendedcrafting:shaped_table",
       "pattern": [
-        "AAAAA",
+        "ADADA",
         "ABBBA",
         "ACDCA",
         "ADCDA",
@@ -56,7 +56,7 @@ onEvent("recipes", (event) => {
       },
       "result": {
         "item": "ctiers:centrifuge_casing_tier_3",
-        "count": 3
+        "count": 5
       }
     }
   ).id(`${id_prefix}centrifuge_casing_tier_3`)
@@ -3038,7 +3038,7 @@ onEvent("recipes", (event) => {
       "type": "extendedcrafting:shaped_table",
       "pattern": [
         "AABAA",
-        "ACDCA",
+        "ACFCA",
         "BDEDB",
         "ACFCA",
         "AABAA"
@@ -3067,7 +3067,7 @@ onEvent("recipes", (event) => {
         }
       },
       "result": {
-        "item": "3x ctiers:centrifuge_casing_tier_creative"
+        "item": "2x ctiers:centrifuge_casing_tier_creative"
       }
     }).id('ctiers:centrifuge_casing_tier_creative')
 

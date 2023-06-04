@@ -35,12 +35,12 @@ onEvent('recipes', (event) => {
           ],
           tier: "WYVERN",
           catalyst: {
-              count: 3,
+              count: 5,
               items: [{ item: "ctiers:centrifuge_casing_tier_4" }],
               type: "draconicevolution:ingredient_stack"
           },
           total_energy: 20000000,
-          result: { item: 'ctiers:centrifuge_casing_tier_5', count: 3 },
+          result: { item: 'ctiers:centrifuge_casing_tier_5', count: 5 },
           id: 'centrifuge_casing_tier_5'
       },
 
