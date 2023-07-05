@@ -2,7 +2,7 @@
   "flower": "draconicevolution:awakened_crafting_injector",
   "lore": "Through Fusion Crafting, this bee will produce Awakaned Draconium",
   "loreColor": "#ff66cc",
-  "maxTimeInHive": 4800,
+  "maxTimeInHive": 2400,
   "traits": ["awakened"],
   "hasHoneycomb": true,
   "apiaryOutputAmounts": [
@@ -56,8 +56,8 @@
 
     "mainInputCount": 1,
     "mainOutput": "draconicevolution:awakened_draconium_nugget",
-    "mainOutputWeight": 0.02,
-    "mainOutputCount": 1,
+    "mainOutputWeight": 0.5,
+    "mainOutputCount": 2,
 
     "secondaryOutput": "resourcefulbees:wax",
     "secondaryOutputWeight": 0.20,

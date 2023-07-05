@@ -2,7 +2,7 @@
   "flower": "minecraft:end_stone",
   "lore": "Through Fusion Crafting, this bee will produce Dragon Eggs",
   "loreColor": "#00AAAA",
-  "maxTimeInHive": 3600,
+  "maxTimeInHive": 2400,
   "hasHoneycomb": true,
   "apiaryOutputAmounts": [
     4,
@@ -42,8 +42,8 @@
     "hasCentrifugeOutput": true,
 
       "mainOutput": "minecraft:dragon_egg",
-      "mainOutputWeight": 0.01,
-      "mainOutputCount": 1,
+      "mainOutputWeight": 0.5,
+      "mainOutputCount": 2,
 
       "secondaryOutput": "resourcefulbees:wax",
       "secondaryOutputWeight": 0.2,

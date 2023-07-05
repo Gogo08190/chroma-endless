@@ -2,7 +2,7 @@
   "flower": "draconicevolution:wyvern_crafting_injector",
   "lore": "Through Fusion Crafting, this bee will produce Draconium",
   "loreColor": "#ff66cc",
-  "maxTimeInHive": 3600,
+  "maxTimeInHive": 2400,
   "traits": ["draconic"],
   "hasHoneycomb": true,
   "apiaryOutputAmounts": [
@@ -45,8 +45,8 @@
 
     "mainInputCount": 1,
     "mainOutput": "draconicevolution:draconium_nugget",
-    "mainOutputWeight": 0.02,
-    "mainOutputCount": 1,
+    "mainOutputWeight": 0.5,
+    "mainOutputCount": 2,
 
     "secondaryOutput": "resourcefulbees:wax",
     "secondaryOutputWeight": 0.20,
